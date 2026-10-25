@@ -1,0 +1,1091 @@
+# Iulii Valerii Epitome (Zacher Epitome), Book I — version 0.1 for review
+
+Latin: J. Zacher (Halle 1867) via the CC0 TEI of G. Siemoneit, corrected against the print where noted. Russian and English: drafted by Claude Opus 5.5, reviewed by Claude Sonnet 5.5 and Claude Fable 5.1, arbitrated. Margin notes are numbered across the book. Corrections of the TEI against the print: ch. 2: 'quaecumque' → 'quaecunque'; ch. 18: 'Nam: „Ave, inquit,' → 'Nam: „Ave,“ inquit,'; ch. 10: 'in sinum mulieris extendit' → 'in sinum mulieris [clementius] extendit'; ch. 36: 'lusitatio tunc congruat' → 'lusitatio tuae congruat'; ch. 38: 'quam vis tu' → 'quamvis tu'. How each issue of the earlier reviews was decided: ../arbitration-log.md.
+
+
+## Chapter 1  (Zacher pp. 1–2; Julius Valerius lost here; Ps.-Call. α 1.1)
+
+**Latin**
+
+Aegyptii sapientes sati genere divino primi feruntur permensique sunt terram ingenii pervicacia et ambitum coeli stellarum numero adsecuti. Quorum omnium Nectanabus prudentissimus fuisse comprobatur, quippe qui, quod alii armis, ille ore potuisse convincitur. Denique mundialia elementa ei parebant, adeo ut, si metus bellicus illi immineret, non exercitum, non machinamenta martia moveret: quin potius ingressus aulae penita regiaeque secreta ibi se solitarium abdebat invecta secum pelvi. Quam dum ex fonte liquidissimo impleret, ex cera imitabatur navigii similitudinem, effigiesque hominum illic collocabat. Quae omnia cum supernare coepissent, mox moveri ac vivere visebantur. Adhibebat etiam et virgulam ex ligno hebeni, et praecantamina loquebatur, quibus vocaret deos superos inferosque; sicque laborabat pelvi naviculam submergi. Ex quo fiebat, ut simul cum submersione illius cerae et cereis insessoribus etiam omnes hostes, si qui adesse praenuntiabantur, pelago mergerentur. Itaque multo tempore regno ac securitate potitus est.
+
+**Russian**
+
+Египетские мудрецы, рождённые от божественного рода, слывут первыми: упорством ума они измерили землю и, исчислив звёзды, постигли окружность неба. Мудрейшим из всех них признан Нектанеб: ведь то, что другие могли совершить оружием, он, как доказано, мог совершить словом. И действительно, ему повиновались стихии мира, так что, если ему грозила война, он не выдвигал ни войска, ни боевых машин, а входил во внутренние покои дворца, в тайные комнаты царского жилища, и запирался там в одиночестве, внеся с собою чашу. Наполнив её из прозрачнейшего источника, он лепил из воска подобие корабля и помещал туда фигурки людей. Когда всё это начинало плавать по поверхности, вскоре было видно, как оно движется и оживает. Пускал он в ход и жезл из эбенового дерева и произносил заклинания, которыми призывал богов вышних и подземных; и так добивался, чтобы кораблик в чаше пошёл ко дну. Отсюда и выходило, что вместе с погружением этого воска и восковых седоков тонули в море и все враги, если приходила весть о приближении каких-либо [врагов]. Поэтому он долгое время владел царством и жил в безопасности.
+
+**English**
+
+The sages of Egypt, sprung from divine stock, are said to have been the first: by persistence of mind they measured the earth, and by numbering the stars they grasped the circuit of the sky. Of them all Nectanebo is acknowledged to have been the wisest, for what others could do by arms, he is shown to have been able to do by his voice. Indeed, the elements of the world obeyed him, so much so that if a threat of war hung over him, he set in motion no army and no engines of war; instead he would go into the inmost rooms of the palace and the secret chambers of the royal residence and shut himself away there alone, taking a basin in with him. Filling it from a very clear spring, he would fashion out of wax the likeness of a ship and set figures of men in it. When all these had begun to float on the surface, they were soon seen to move and to come alive. He also used a little wand of ebony wood and spoke incantations to summon the gods above and below; and in this way he worked to make the little ship sink in the basin. So it came about that, together with the sinking of that wax and its waxen passengers, all the enemies too, if any were reported to be approaching, were drowned in the sea. And so for a long time he remained in possession of his kingdom and in safety.
+
+**Margin notes**
+
+- [1] RU: Для гл. 1–3 независимого текста Юлия Валерия нет: Кюблер восполнил начало книги текстом этой эпитомы (Туринский палимпсест начинается лишь словами «longe celebratior» в гл. 4). Поэтому сравнивать можно только с греческим: в α 1.1 Нектанеб наполняет медную чашу дождевой водой и призывает «ангелов и бога Ливии Аммона», а здесь вода из источника (так, по аппарату Кролля, в армянской версии и в β) и «боги вышние и подземные». Фигурки оживают и в армянской версии, но не в α.
+  EN: For chs. 1–3 there is no independent text of Julius Valerius: Kübler filled the opening of the book with the text of this epitome (the Turin palimpsest begins only at ‘longe celebratior’ in ch. 4). So the only comparison is with the Greek: in α 1.1 Nectanebo fills a bronze basin with rainwater and invokes ‘the angels and the god of Libya, Ammon’, whereas here the water is from a spring (so too, according to Kroll’s apparatus, the Armenian version and β) and he calls on ‘the gods above and below’. The figures also come alive in the Armenian version, but not in α.
+  (source: Kübler 1888, praef. and p. 1 (app. p. 2); Ps.-Call. α 1.1, Kroll 1926, p. 1 with app.)
+- [2] RU: Сам греческий текст α 1.1 называет это действо леканомантией (λεκανομαντεία) — гаданием и магией с чашей воды. Такие обряды описаны в греко-египетских магических папирусах (напр., PGM IV 154–285).
+  EN: The Greek text of α 1.1 itself calls this procedure lecanomancy (λεκανομαντεία), divination and magic with a basin of water. Such rites are described in the Graeco-Egyptian magical papyri (e.g. PGM IV 154–285).
+  (source: Ps.-Call. α 1.1 (Kroll 1926, p. 1); PGM IV)
+
+**Translator's doubts**
+
+- Aegyptii sapientes sati genere divino primi feruntur permensique sunt terram — ‘primi’ may mean ‘first’ in time or ‘foremost’ (the Greek has σοφώτατοι, ‘wisest’); the finite ‘permensique sunt’ is loosely joined by -que to ‘feruntur’. Choice: Kept the ambiguity: RU «слывут первыми: ... они измерили», EN ‘are said to have been the first: ... they measured’.
+- quippe qui, quod alii armis, ille ore potuisse convincitur — Elliptical, with an anacoluthon (‘quippe qui’ is resumed by ‘ille’); ‘ore’ = by voice, i.e. by spells. Choice: RU «словом», EN ‘by his voice’; the ellipsis is filled with ‘совершить / do’ without brackets, since it repeats the verb.
+- sicque laborabat pelvi naviculam submergi — ‘laborare’ + passive infinitive; ‘pelvi’ is an ablative of place. Choice: ‘worked to make the little ship sink in the basin’ / «добивался, чтобы кораблик в чаше пошёл ко дну».
+
+## Chapter 2  (Zacher pp. 2–3; Julius Valerius lost here; Ps.-Call. α 1.2)
+
+**Latin**
+
+Quodam igitur tempore nuntiatum est ei, multas adversus eum gentes una conspiratione atque eadem voluntate consurrexisse, scilicet Indos, Arabes Phoenicesque, Parthos et Assyrios, nec non et Scythas, Alanos, Oxydracontas, Seres atque Caucones, Hiberos, Agriophagos, Eunomitas et quaecunque sunt Orientis barbarae gentes. Quibus ille auditis plausum dans manibus magno risu dissolutus est.
+
+**Russian**
+
+И вот однажды ему сообщили, что против него поднялось множество народов в едином сговоре и с единым умыслом, а именно: индийцы, арабы и финикийцы, парфяне и ассирийцы, а также скифы, аланы, оксидраки, серы и кавконы, иберы, агриофаги, эвонимиты и все варварские народы, какие только есть на Востоке. Услышав об этом, он захлопал в ладоши и залился громким смехом.
+
+**English**
+
+So at one time it was reported to him that many nations had risen against him in a single conspiracy and with one and the same will: namely the Indians, the Arabs and Phoenicians, the Parthians and Assyrians, and also the Scythians, Alans, Oxydracae, Seres and Caucones, the Iberians, Agriophagi, Euonymitae and all the barbarian nations there are in the East. On hearing this he clapped his hands and dissolved in loud laughter.
+
+**Margin notes**
+
+- [3] RU: В греческом α 1.2 о нашествии докладывает лазутчик (κατάσκοπος, «которого римляне называют эксплоратором»; далее он назван στρατάρχης), и Нектанеб, улыбнувшись, отвечает ему, что сила не в многолюдстве, а в решимости. В латинском тексте от этой сцены остались только известие и смех.
+  EN: In the Greek α 1.2 the invasion is reported by a scout (κατάσκοπος, ‘whom the Romans call explorator’; he is then called στρατάρχης), and Nectanebo smiles and answers that strength lies not in numbers but in resolve. In the Latin only the report and the laughter remain of this scene.
+  (source: Ps.-Call. α 1.2 (Kroll 1926, p. 2))
+- [4] RU: Список народов в α иной. Финикийцев, парфян и ассирийцев Кролль считает добавлением латинского текста, индийцы есть ещё в армянской версии. На месте «аланов» (анахронизм для IV в. до н. э.) рукопись A (α) и лейденская рукопись L (β) дают ζαλβοί; формы Oxydracontas и Eunomitas искажены (греч. Ὀξυδράκαι, Εὐωνυμῖται).
+  EN: The list of nations in α is different. Kroll regards the Phoenicians, Parthians and Assyrians as an addition of the Latin text; the Indians are found in the Armenian version as well. Where the Latin has ‘Alans’ (an anachronism for the 4th century BC), manuscript A (α) and the β manuscript L have ζαλβοί; the forms Oxydracontas and Eunomitas are corrupt (Greek Ὀξυδράκαι, Εὐωνυμῖται).
+  (source: Kroll 1926, p. 2, app.)
+
+**Translator's doubts**
+
+- Oxydracontas ... Eunomitas — Corrupt Latin forms of Greek ethnic names. Choice: Rendered with the glossary forms (оксидраки / Oxydracae; эвонимиты / Euonymitae); the corruption is mentioned in the note.
+- una conspiratione atque eadem voluntate — Near-synonymous doublet. Choice: Kept both members: «в едином сговоре и с единым умыслом» / ‘in a single conspiracy and with one and the same will’.
+
+## Chapter 3  (Zacher pp. 3; Julius Valerius lost here; Ps.-Call. α 1.3)
+
+**Latin**
+
+Igitur ad consuetam artis confugit peritiam, et more solito adhibuit sibi pelvem atque omnia alia instrumenta. Quibus intellexit se vincendum atque ab hostibus capiendum, nisi fugae consuleret. Mox autem, raso capite et barba, collectisque omnibus quaeque sibi erant pretiosarum opum, appulit Macedoniae. Ibique amictus veste linea, astrologum se professus, vim peritiae suae cum magna admiratione commendabat.
+
+**Russian**
+
+Тогда он прибег к привычному искусству и, как обычно, взял чашу и все прочие принадлежности. По ним он понял, что будет побеждён и взят в плен врагами, если не позаботится о бегстве. Вскоре, обрив голову и бороду и собрав всё ценное имущество, какое у него было, он добрался до Македонии. Там, облачившись в льняную одежду и объявив себя астрологом, он прославлял силу своего искусства, вызывая великое изумление.
+
+**English**
+
+So he had recourse to the expertise of his usual art and, as was his custom, took the basin and all the other instruments. By them he understood that he would be defeated and captured by the enemy unless he took thought for flight. Soon, having shaved his head and beard and gathered all the precious possessions he had, he reached Macedonia. There, dressed in a linen garment and professing to be an astrologer, he advertised the power of his skill, to great admiration.
+
+**Margin notes**
+
+- [5] RU: В греческом α 1.3 Нектанеб видит в чаше, что вражеские корабли ведут сами египетские боги, и понимает, что боги его предали; он бежит через Пелусий и, обойдя многие народы, приходит в Пеллу. Затем в α египтяне получают оракул: бежавший царь вернётся юным. У Валерия этого оракула здесь нет (Кролль: «om. Val.»).
+  EN: In the Greek α 1.3 Nectanebo sees in the basin that the enemy ships are being steered by the gods of Egypt themselves, and understands that the gods have betrayed him; he flees by way of Pelusium and, after wandering through many nations, comes to Pella. α then gives the Egyptians an oracle: the king who fled will return young. This oracle is absent here in Valerius (Kroll: ‘om. Val.’).
+  (source: Ps.-Call. α 1.3 (Kroll 1926, p. 3 with app.))
+- [6] RU: В α бритьё головы и бороды прямо объяснено желанием изменить облик (πρὸς τὸ ἀλλομορφῆσαι). Льняная одежда — облачение египетского жреца: в Пелле Нектанеб сидит, по словам α, «как египетский пророк и астролог».
+  EN: In α the shaving of head and beard is explicitly a disguise (πρὸς τὸ ἀλλομορφῆσαι, ‘to change his appearance’). Linen is the dress of an Egyptian priest: in Pella, α says, Nectanebo sits ‘as an Egyptian prophet and astrologer’.
+  (source: Ps.-Call. α 1.3 (Kroll 1926, p. 3))
+
+**Translator's doubts**
+
+- appulit Macedoniae — ‘appellere’ is used of landing by ship, but no ship is mentioned; dative of goal. Choice: Neutral ‘reached Macedonia’ / «добрался до Македонии».
+- vim peritiae suae cum magna admiratione commendabat — Whose admiration? Most likely that of the public. Choice: «вызывая великое изумление» / ‘to great admiration’.
+
+## Chapter 4  (Zacher pp. 3–7; Iul. Val. 1,4; Ps.-Call. α 1.4)
+
+**Latin**
+
+Ergo Nectanabus iam longe celebratior apud Macedones erat, adeo ut etiam fama illius nec Olympiadam quidem reginam lateret. Enimvero Philippus tunc bello forte aberat; coepitque regina consulere peritiam viri. Qui ut ad eam ingressus est, non eam dominae appellatione dignatus est, qui se quondam dominum fuisse meminisset. Moxque eius pulchritudinem admiratus amore illius captus est. Cum ergo iussus sedisset, ait regina ad eum: „Tune“, inquit, „es Nectanabus ille matheseos sciens? Dic ergo quanam usus peritia adeo veri amicus cluis.“ Ad id respondit: „Multifida quidem est, o regina, haec nostra vaticinandi scientia, neque est in tempore uno omnium meminisse; nam et interpretes somniorum et astrici, quibus omnis divinandi ratio reseratur, multaque praeter haec sunt, quibus uti ad praescientias solemus.“ His dictis cum acrius in vultum reginae intueretur, Olympias ait: „Quid ita defigeris, o propheta, ubi me intueris?“ At ille: „Recordor,“ inquit, „oraculi illius, quod apud Aegyptum a diis acceperam, quod oporteret me reginae vera praedicere. Quare consule super his, quae cupis.“ Et cum verbo promit tabulas, quas huius peritiae docti pinacem nominant. Auro enim et ebore variatum pretium cum sui operis admiratione contenderat. Tum promit etiam septem stellas et horoscopum pariter, quibus singulis sui metalli species inerat. Iovem quippe viseres aereo lapide nuncupatum, Solem cristallo, Lunam adamante, Martem dici sub lapide haematite, Mercurium smaragdo; Venus autem saphirina erat, Saturnus in ophite; at vero horoscopus lygdinus erat. Exinde mirans Olympias stellarum mirabilem varietatem et propius sessitans: „O“, inquit, „tu intuere, quaeso, meam et Philippi congruentiam: nam multa fama est, quia, si ex hoste rediens adfuerit, abiecta me velit in alteram transmigrare.“ Quin Nectanabus statim suam adhibet constellationem, exploraturus ea quae regina petiverat. Quo facto ait: „Non vana“, inquit, „ista ad te fama pervenit, sed enim vera est. Ego enim ac si propheta ex Aegypto opitulabor, ne quid de divortio formidaveris. Nam fatale tibi est, secundum quod perspexi, misceri te deo, genituramque filium ultorem omnium, si qua in te Philippus audebit.“ Tum illa: „Et cuinam“, inquit, „deo ad torum debeor?“ Respondit: „Ammoni, deo Libyae. Quare paraveris tete velim, ut feminis mos est et reginae decorum, ad huiusmodi nuptias. Videbis ante et somnium et in somnio nuptias tibi cum deo futuras esse.“ At illa: „Hoc“, inquit, „somnium si somniabo, iam non ut mago utar te, enimvero honore dei venerabor.“
+
+**Russian**
+
+Итак, Нектанеб был уже гораздо более известен у македонян, так что молва о нём не укрылась даже от царицы Олимпиады. А Филипп в то время как раз был на войне, и царица стала обращаться за советом к искусству этого человека. Войдя к ней, он не удостоил её обращения «госпожа», так как помнил, что сам некогда был господином. И вскоре, восхищённый её красотой, он был охвачен любовью к ней. И вот, когда он по её приглашению сел, царица говорит ему: «Ты ли тот самый Нектанеб, знаток „математики“ [астрологии]? Скажи же, каким искусством пользуясь, ты слывёшь таким другом истины?» На это он ответил: «Многоразлична, о царица, эта наша наука прорицания, и невозможно за один раз всё упомянуть: есть ведь и толкователи снов, и астрологи, которым открыт всякий способ гадания, и многое другое сверх того, чем мы обычно пользуемся для предвидения». Когда после этих слов он пристальнее вгляделся в лицо царицы, Олимпиада говорит: «Отчего ты так застыл, пророк, глядя на меня?» А он: «Я вспоминаю, — говорит, — то прорицание, которое получил от богов в Египте: что мне надлежит предсказать царице истину. Поэтому спрашивай о том, чего желаешь». И с этим словом он вынимает доски, которые сведущие в этом искусстве называют пинаксом. Ведь их ценность, расцвеченная золотом и слоновой костью, соперничала с восхищением, которое вызывала сама работа. Затем он вынимает также семь светил и гороскоп [знак асцендента], и у каждого из них был свой особый материал. Так, можно было видеть Юпитер, обозначенный «небесным» камнем, Солнце — горным хрусталём, Луну — адамантом, Марс — под именем камня гематита, Меркурий — смарагдом; Венера же была из сапфира, Сатурн — из офита, а гороскоп был из лигдина. Тогда Олимпиада, дивясь чудесному разнообразию светил и подсев ближе, говорит: «О, посмотри, прошу тебя, на согласие [звёзд] — моих и Филипповых: ведь много ходит слухов, что, вернувшись с войны, он захочет отвергнуть меня и перейти к другой». И Нектанеб тотчас обращается к собственному расположению светил, чтобы исследовать то, о чём просила царица. Сделав это, он говорит: «Не пустой слух дошёл до тебя — он правдив. Но я, как пророк из Египта, приду на помощь, чтобы ты нисколько не страшилась развода. Ибо тебе суждено, судя по тому, что я усмотрел, соединиться с богом и родить сына — мстителя за всё, если Филипп что-либо дерзнёт против тебя». Тогда она: «И какому же богу, — говорит, — я назначена на ложе?» Он ответил: «Аммону, богу Ливии. Поэтому я хотел бы, чтобы ты приготовилась к такому браку, как в обычае у женщин и как подобает царице. Сначала ты увидишь сон, а во сне — что тебе предстоит брак с богом». А она: «Если мне приснится этот сон, — говорит, — я уже не стану обращаться к тебе как к магу, но буду чтить тебя божескими почестями».
+
+**English**
+
+So Nectanebo was by now far more celebrated among the Macedonians, so much so that his fame did not escape even Queen Olympias. Philip, as it happened, was then away at war; and the queen began to consult the man’s skill. When he came in to her, he did not deign to address her as ‘mistress’, since he remembered that he had once been a master himself. And soon, admiring her beauty, he was seized with love for her. So when, at her bidding, he had sat down, the queen said to him: “Are you that Nectanebo who is versed in mathesis? Tell me, then, by using what skill you are renowned as such a friend of truth.” To this he answered: “Manifold indeed, O queen, is this science of ours of prophesying, and it is impossible to mention everything at one time; for there are dream interpreters and astrologers, to whom every method of divination lies open, and many other things besides, which we are accustomed to use for foreknowledge.” When after these words he gazed more keenly into the queen’s face, Olympias said: “Why are you so transfixed, prophet, when you look at me?” And he said: “I recall that oracle which I had received from the gods in Egypt: that I was to foretell the truth to a queen. So ask about whatever you desire.” And with that word he brings out tablets, which those learned in this skill call a pinax. For their costliness, variegated with gold and ivory, vied with the admiration roused by the workmanship. Then he also brings out the seven stars and likewise the horoscope [the marker of the ascendant], each of which had its own kind of material. You could see Jupiter designated by an ‘aerial’ stone, the Sun by rock crystal, the Moon by adamant, Mars named under the stone haematite, Mercury by emerald; Venus was of sapphire, Saturn of ophite, and the horoscope was of lygdine. Then Olympias, marvelling at the wonderful variety of the stars and sitting closer, said: “Oh, look, I beg you, at the agreement between me and Philip; for there is much talk that, when he comes back from the war, he will cast me off and want to go over to another woman.” And at once Nectanebo brings in his own nativity, to examine what the queen had asked. When this was done, he said: “It is no empty rumour that has reached you; it is true. But I, as a prophet from Egypt, will come to your aid, so that you need have no fear of divorce. For it is your destiny, from what I have discerned, to be united with a god and to bear a son who will avenge everything, if Philip dares anything against you.” Then she said: “And to which god am I due for his bed?” He answered: “To Ammon, the god of Libya. Therefore I would have you prepare yourself for such a marriage, as is the custom of women and befits a queen. First you will see a dream, and in the dream that your marriage with the god is to come.” And she said: “If I dream this dream, I will no longer treat you as a magus, but will honour you with the honour due to a god.”
+
+**Margin notes**
+
+- [7] RU: У Валерия (1,4) Нектанеб влюбляется при первом же взгляде на Олимпиаду, а автор объясняет это его сластолюбием, и лишь затем приветствует её, не назвав госпожой. Эпитоматор переставил эти события и опустил объяснение. Выпущены также похвала его правдивости, описание пинакса как шедевра, удаление слуг и облик Аммона (юный, седой, с бараньими рогами).
+  EN: In Valerius (1,4) Nectanebo falls in love at his first sight of Olympias, which the author explains by his lustfulness, and only then greets her without calling her mistress. The epitomator reversed the order and dropped the explanation. Also omitted are the praise of his truthfulness, the description of the pinax as a masterpiece, the dismissal of the servants and the appearance of Ammon (young, grey-haired, with ram’s horns).
+  (source: Iul. Val. 1,4 (Kübler 1888, pp. 2–4))
+- [8] RU: У Валерия Нектанеб просит у Олимпиады её гороскоп (или Филиппов) и прикладывает к нему свой, чтобы проверить, сходятся ли они и добьётся ли он своего. Эпитоматор убрал этот корыстный расчёт, и «собственное расположение светил» (suam constellationem) остался без объяснения.
+  EN: In Valerius Nectanebo asks Olympias for her nativity (or Philip’s) and sets his own beside it, to see whether they agree and whether he will get what he wants. The epitomator removed this self-interested calculation, leaving ‘his own nativity’ (suam constellationem) unexplained.
+  (source: Iul. Val. 1,4 (Kübler 1888, p. 3))
+
+**Translator's doubts**
+
+- neque est in tempore uno omnium meminisse — ‘meminisse’ here = ‘to make mention of’, not ‘to remember’. Choice: «невозможно за один раз всё упомянуть» / ‘impossible to mention everything at one time’.
+- Auro enim et ebore variatum pretium cum sui operis admiratione contenderat. — ‘enim’ has lost its antecedent: Valerius’ praise of the pinax as a masterpiece was cut. The sense is that costly materials rivalled admirable workmanship. Choice: Translated literally, keeping ‘ведь / for’.
+- Martem dici sub lapide haematite — ‘dici’ is awkward (already so in Valerius); it is perhaps meant as parallel to ‘nuncupatum’. Choice: «Марс — под именем камня гематита» / ‘Mars named under the stone haematite’.
+- Quin Nectanabus statim suam adhibet constellationem — ‘Quin’ is Zacher’s choice from D E Pb against ‘Qui’ in H L A B C. It is a remnant of Valerius’ ‘Quin ergo deprome…’. ‘suam’ (his own nativity) makes full sense only in Valerius. Choice: ‘Quin’ is rendered as a simple connective («И Нектанеб тотчас…»); ‘suam constellationem’ as ‘his own horoscope’; see the note.
+- Ego enim ac si propheta ex Aegypto opitulabor — ‘ac si’ can mean ‘as if’ or, in late Latin, simply ‘as’. ‘enim’ is illogical after ‘the rumour is true’; Valerius has ‘tamen’. Choice: ‘as a prophet’, with an adversative connective: «Но я…» / ‘But I…’.
+- Et cuinam deo ad torum debeor? — Literally ‘to which god am I owed for the bed’. Choice: «назначена на ложе» / ‘due for his bed’.
+
+## Chapter 5  (Zacher pp. 7–8; Iul. Val. 1,5; Ps.-Call. α 1.5)
+
+**Latin**
+
+Progressus inde Nectanabus herbas quaeritat ad somniorum imperia necessarias. Quibus carptis atque in succum pressis effigiat ex cera corpusculum feminae, eique nomen reginae adscribens lectulum ei fabricatur, cui illa effigies supraponitur; iuxtaque lucernis accensis succum herbarum potentium superfundit, carmenque indicit efficax et secretum; quo effectum est, ut quicquid ille simulamini cereo loquebatur, id omne fieri sibi regina per somnium sit opinata. Vidit enim se in complexibus dei, et post complexus audierat sibi ipsum loquentem, foetam se et utero gravem genituramque filium vindicem.
+
+**Russian**
+
+Выйдя оттуда, Нектанеб ищет травы, нужные, чтобы повелевать снами. Сорвав их и выжав из них сок, он лепит из воска маленькое женское тело и, надписав на нём имя царицы, сооружает для него ложе, на которое кладёт эту фигурку; рядом зажигает светильники, поливает её соком могущественных трав и произносит заклинание, действенное и тайное. Этим было достигнуто то, что всё, что он говорил восковому подобию, царица во сне приняла за происходящее с нею самой. Ведь она увидела себя в объятиях бога, а после объятий слышала, как он сам говорит ей, что она зачала, носит во чреве и родит сына-мстителя.
+
+**English**
+
+Going out from there, Nectanebo searches for herbs needed to command dreams. When he has picked them and pressed them into juice, he models out of wax the small body of a woman and, inscribing the queen’s name on it, makes a little bed for it, on which the figure is laid; and, lighting lamps beside it, he pours over it the juice of the potent herbs and pronounces a spell, effective and secret. By this it was brought about that whatever he said to the waxen image, the queen believed in a dream was all happening to her. For she saw herself in the embraces of the god, and after the embraces she had heard him himself telling her that she was pregnant and heavy with child and would bear a son, an avenger.
+
+**Margin notes**
+
+- [9] RU: Глава почти дословно повторяет Валерия (1,5). Выпало уточнение, что это были объятия Аммона («quos fore cum Ammone dixerat»), а при «говорящего» исчезло слово «бог»: в эпитоме «ipsum loquentem» без существительного.
+  EN: The chapter follows Valerius (1,5) almost word for word. Lost is the remark that these were the embraces of Ammon (‘quos fore cum Ammone dixerat’), and ‘deum’ has dropped out before ‘loquentem’: the epitome has ‘ipsum loquentem’ with no noun.
+  (source: Iul. Val. 1,5 (Kübler 1888, p. 4))
+- [10] RU: Восковая фигурка с надписанным именем, ложе, светильники, травяной сок и тайное заклинание — обычный набор греко-египетской магии. Восковые фигурки для любовного приворота описаны, например, в PGM IV 296–466.
+  EN: A wax figure inscribed with a name, a little bed, lamps, herbal juice and a secret spell are the standard equipment of Graeco-Egyptian magic. Wax figures used in erotic binding spells are described, for instance, in PGM IV 296–466.
+  (source: PGM IV 296–466)
+
+**Translator's doubts**
+
+- audierat sibi ipsum loquentem, foetam se et utero gravem genituramque filium vindicem — ‘ipsum’ (= the god) has no noun; the indirect speech is attached directly to ‘loquentem’. Choice: «слышала, как он сам говорит ей, что…» / ‘heard him himself telling her that…’.
+- carmenque indicit — Valerius has ‘dicit’; ‘indicere’ = to proclaim, impose. Choice: Neutral ‘произносит / pronounces’.
+
+## Chapter 6  (Zacher pp. 8; Iul. Val. 1,6; Ps.-Call. α 1.6)
+
+**Latin**
+
+Moxque dehinc illa surgens e lectulo hominem ad se vocat, eique somnii retulit visionem. Cui ille: „Hoc“, inquit, „o regina, somnium est verum; eius effectus cito subsequetur. Quapropter secus cubiculum tuum secreto mihi lectum praeparari iubeto, ut, si forte aliquis tibimet repentinus ingruerit metus, possim tibi spes esse subsidii.“ Promisit regina, et vicinum cubiculo suo secessum mago tribuit, pollicens honores multos, si conceptu sit potita. Tum magus: „Praecursor tibi,“ inquit, „deus ipse aderit, nam sedenti superveniet draco reptabundus. Tu vero eo viso omnes qui aderunt egredi iubeto. Et cum te lecto collocaveris, explora vultum illum, quem iam in somnio praevidisti, si is erit.“
+
+**Russian**
+
+А затем она, поднявшись с ложа, зовёт этого человека к себе и рассказывает ему видение сна. Он ей: «Этот сон, о царица, истинный; скоро последует и его исполнение. Поэтому вели тайно приготовить мне ложе рядом с твоей спальней, чтобы, если тебя вдруг охватит какой-нибудь страх, я мог стать тебе надеждой на помощь». Царица согласилась и отвела магу уединённую комнату рядом со своей спальней, суля ему многие почести, если зачнёт. Тогда маг говорит: «Предвестником к тебе явится сам бог: когда ты будешь сидеть, к тебе приползёт змей. Ты же, увидев его, вели выйти всем, кто будет рядом. А когда ляжешь на ложе, всмотрись, тот ли это лик, который ты уже видела во сне».
+
+**English**
+
+Then, rising from her bed, she calls the man to her and told him the vision of the dream. He said to her: “This dream, O queen, is true; its fulfilment will soon follow. Therefore have a bed prepared for me in secret next to your bedchamber, so that, if some sudden fear should come upon you, I may be your hope of help.” The queen agreed, and assigned the magus a retreat next to her bedchamber, promising him many honours if she should conceive. Then the magus said: “As your forerunner the god himself will come to you: for while you are sitting, a serpent will come crawling upon you. When you see it, order all who are present to leave. And when you have lain down on the bed, examine whether it is that face which you already saw beforehand in the dream.”
+
+**Margin notes**
+
+- [11] RU: У Валерия (1,6) Олимпиада пересказывает сон прямой речью и обещает Нектанебу не только царские почести, но и отношение как к отцу («patris adfectum»; уже в греческом α 1.6 Олимпиада обещает «хвалиться тобой как отцом ребёнка» — καυχήσομαι δέ σε ὡς καὶ πατέρα τοῦ παιδός, в β — χρήσομαι, «обращаться с тобой как с отцом ребёнка»). В эпитоме остались косвенная речь и «многие почести». Сокращены и наставления: у Валерия змей приползёт «кротко», лампы гасить нельзя, лицо нужно закрыть покрывалом и смотреть искоса.
+  EN: In Valerius (1,6) Olympias tells the dream in direct speech and promises Nectanebo not only royal honours but a father’s regard (‘patris adfectum’; already in the Greek α 1.6 Olympias promises to ‘boast of you as the father of the child’, καυχήσομαι δέ σε ὡς καὶ πατέρα τοῦ παιδός; β has χρήσομαι, ‘treat you as the father of the child’). The epitome keeps only indirect speech and ‘many honours’. The instructions are cut too: in Valerius the serpent will come ‘gently’, the lamps are not to be put out, and she is to veil her face and look sidelong.
+  (source: Iul. Val. 1,6 (Kübler 1888, pp. 4–5); Kroll 1926, p. 7 app. (β); Stoneman–Gargiulo 2007, comm. ad 1.6)
+- [12] RU: «Praecursor tibi deus ipse aderit»: у Валерия «Praecursor tibi dei mox aderit» — «скоро к тебе явится предвестник бога», то есть змей. В эпитоме предвестником назван сам бог; это может быть и порча «dei mox», и стяжение с предыдущей фразой Валерия («Aderit tamen ipse etiam ad te deus»); заметим, что в греческом α 1.6 сам бог «приходит к тебе сначала в виде змея» (γίνεται πρῶτον δράκων), так что чтение эпитомы ближе к греческому.
+  EN: ‘Praecursor tibi deus ipse aderit’: Valerius has ‘Praecursor tibi dei mox aderit’, ‘a forerunner of the god will soon come to you’, i.e. the serpent. In the epitome the god himself is the forerunner; this may be a corruption of ‘dei mox’ or a conflation with Valerius’ preceding sentence (‘Aderit tamen ipse etiam ad te deus’); note that in the Greek α 1.6 the god himself ‘comes to you first as a serpent’ (γίνεται πρῶτον δράκων), so the epitome’s wording is actually closer to the Greek.
+  (source: Iul. Val. 1,6 (Kübler 1888, p. 5))
+
+**Translator's doubts**
+
+- Praecursor tibi deus ipse aderit — Differs from Valerius (‘dei mox’); see the note. Choice: Translated as printed: «Предвестником к тебе явится сам бог» / ‘As your forerunner the god himself will come to you’.
+- Promisit regina — ‘promised’ in the sense ‘agreed’. Choice: «согласилась» / ‘agreed’.
+- explora vultum illum ... si is erit — ‘si’ = ‘whether’ (indirect question), with future ‘erit’. Choice: «всмотрись, тот ли это лик» / ‘examine whether it is that face’.
+- cum te lecto collocaveris — Zacher’s print has the misprint ‘collacaveris’ (the TEI marks sic/corr). Choice: Translated ‘collocaveris’.
+
+## Chapter 7  (Zacher pp. 8–10; Iul. Val. 1,7; Ps.-Call. α 1.7)
+
+**Latin**
+
+Insequenti igitur die locus destinatur mago, isque providit ex arte vellus arietis mollissimum simul cum cornibus, et sceptrum et amictum candidum, effecitque ex scientia reliquum corpus veluti draconem vespere adventantem ad feminam. Quo illa viso cunctos egredi iussit, deditque sese mox lectulo, et operto capite, solo oculo ad superventum opinati dei curiose intendebat. At ille sceptro deposito conscensoque lecto nuptias agit. Exinde manu superiecta utero ait: „Gaudeto, o mulier, te gravidam ex me, filiumque parituram qui universi orbis dominio potiatur;“ receptoque sceptro exivit. Mane autem facto mulier alacrior cubiculum Nectanabi inrupit; isque somno excitatus, ut nescius rei, causam quaerit adventus. Tum illa: „Facta,“ inquit, „sunt omnia, quae promiseras;“ et ille in hoc se gaudere respondit. Rursus mulier: „Ergone ultra adesse dignabitur? Nam est mihi ad tales nuptias amor!“ Tum magus: „Audi,“ inquit, „o regina! huius dei minister ego sum; et tu, cum volueris talis mariti conventum, dicito mihi, atque ego procurabo, quo ad te saepius veniat.“ At illa mox claves cubiculi mago dari iubet; ex quo promptior illis erat in id quod cupiverant commeatus. Sed iam alvo crescente „Quidnam“, inquit, „o propheta, fiet, quidve nunc facto opus est, si adveniens Philippus cum isto me onere deprehendat?“ „Ne metueris,“ respondit ille, „quia opitulabitur Ammon illi vitio, quod suasit.“
+
+**Russian**
+
+И вот на следующий день магу отводится место, а он своим искусством припас мягчайшее баранье руно вместе с рогами, скипетр и белое одеяние и с помощью своего знания сделал остальное тело как бы змеем, вечером приходящим к женщине. Увидев его, она велела всем выйти, тотчас легла в постель и, закрыв голову, одним только глазом с любопытством следила за появлением мнимого бога. А он, отложив скипетр и взойдя на ложе, совершает брак. Затем, положив руку ей на чрево, говорит: «Радуйся, женщина: ты беременна от меня и родишь сына, который будет владеть всем миром». И, взяв назад скипетр, вышел. Когда же настало утро, женщина в приподнятом духе ворвалась в спальню Нектанеба; он, разбуженный ото сна, будто ничего не зная, спрашивает о причине её прихода. Тогда она: «Сбылось, — говорит, — всё, что ты обещал». И он ответил, что этому рад. Снова женщина: «Так удостоит ли он прийти ещё? Ведь меня влечёт к такому браку!» Тогда маг: «Слушай, о царица! Я — служитель этого бога; и ты, когда пожелаешь свидания с таким супругом, скажи мне, а я позабочусь, чтобы он приходил к тебе чаще». И она тотчас велит отдать магу ключи от спальни; с тех пор им стало легче добираться до того, чего они желали. Но когда чрево её уже росло, она говорит: «Что же будет, о пророк, и что теперь делать, если Филипп, вернувшись, застанет меня с этим бременем?» «Не бойся, — ответил он, — ведь Аммон поможет в той провинности, к которой сам склонил».
+
+**English**
+
+So on the following day a place is assigned to the magus, and he, by his art, provided a very soft ram’s fleece together with the horns, a sceptre and a white robe; and by his knowledge he made the rest of his body like a serpent coming to the woman in the evening. When she saw it, she ordered everyone to go out and at once took to the bed, and, with her head covered, she watched with one eye only, intently, for the arrival of the supposed god. He lays aside the sceptre, climbs onto the bed and consummates the marriage. Then, laying his hand on her womb, he said: “Rejoice, woman, that you are pregnant by me and will bear a son who shall gain dominion over the whole world.” And taking up the sceptre again, he went out. When morning came, the woman in high spirits burst into Nectanebo’s chamber; he, roused from sleep as though he knew nothing of the matter, asks the reason for her coming. Then she said: “Everything you promised has happened.” And he replied that he rejoiced at it. Again the woman: “Will he then deign to come again? For I have a longing for such a marriage!” Then the magus: “Listen, O queen! I am this god’s servant; and whenever you want a meeting with such a husband, tell me, and I will arrange for him to come to you more often.” She at once ordered the keys of the bedchamber to be given to the magus; and from then on their way to what they had desired lay more readily open. But when her belly was already growing, she said: “What will happen, prophet, and what must be done now, if Philip comes back and catches me with this burden?” “Do not be afraid,” he replied, “for Ammon will help in that fault into which he himself persuaded you.”
+
+**Margin notes**
+
+- [13] RU: Эпитоматор сжал здесь Валерия до двусмысленности. У Валерия (1,7), как и в армянской версии, Нектанеб искусством делает ручным отдельного змея, который служит «предвестником», а затем сам входит к женщине. В эпитоме «как бы змеем» делается «остальное тело» самого мага.
+  EN: Here the epitomator compressed Valerius to the point of ambiguity. In Valerius (1,7), as in the Armenian version, Nectanebo by his art tames a separate serpent, which serves as a ‘forerunner’, and then enters to the woman himself. In the epitome it is ‘the rest of the body’ of the magus himself that is made ‘like a serpent’.
+  (source: Iul. Val. 1,7 (Kübler 1888, pp. 5–6); Kroll 1926, p. 7 app. (Arm.))
+- [14] RU: Выпущены радость мага, понявшего из слов Олимпиады, что она его любит, и «священное очищение» (purgatione sacricula) перед новым приходом бога. Выпали и обещание, что Аммон вразумит Филиппа во сне, и итоговая фраза Валерия: «Так Олимпиаду вели магическими искусствами».
+  EN: Omitted are the magus’ joy on gathering from Olympias’ words that she loves him, and the ‘sacred purification’ (purgatione sacricula) before the god’s next visit. Also gone are the promise that Ammon will instruct Philip in a dream and Valerius’ closing sentence: ‘In this way Olympias was led on by magic arts.’
+  (source: Iul. Val. 1,7 (Kübler 1888, pp. 6–7))
+
+**Translator's doubts**
+
+- effecitque ex scientia reliquum corpus veluti draconem vespere adventantem ad feminam — Very compressed: whose ‘rest of the body’, and is the serpent a separate creature? Grammatically it is Nectanebo’s own body. Choice: Translated literally: «сделал остальное тело как бы змеем, вечером приходящим к женщине»; see the note.
+- nuptias agit — Euphemism. Choice: «совершает брак» / ‘consummates the marriage’.
+- quia opitulabitur Ammon illi vitio, quod suasit — Dative with ‘opitulari’: ‘will help (remedy) that fault’; the object of ‘suasit’ (you) is unexpressed. Choice: «поможет в той провинности, к которой сам склонил» / ‘will help in that fault into which he himself persuaded you’.
+
+## Chapter 8  (Zacher pp. 10–11; Iul. Val. 1,8; Ps.-Call. α 1.8)
+
+**Latin**
+
+Sed Nectanabus accipitrem sibi sacratum parat, eumque monet ire ad Philippum, cui per noctem in somnio adsistens iussis mandatis instruxit. Excitatus autem Philippus veluti alarum plausu advocans somniorum interpretes ait: „Vidi per quietem deum quendam formosum et canitie capitis caesariatum arietisque cornibus insignitum supervenisse Olympiadi, coniugi meae, seseque illi nuptiis miscuisse. Quibus peractis haec etiam verba addiderat: „Excepisti, o mulier, ex me filium vindicem.“ Tum mulieris virginal contegere biblo ac consignare annulo aureo videbatur, cui insculpta erant solis effigies et leonis caput hastili subiecto. Quae cum vidissem, accipiter superveniens plausu alarum me excitare videbatur. Quid igitur istud est, quod portenditur?“ Tum interpretes: „O Philippe, verum istud est. Nam quod signari virginal feminae vidisti, fidem rei visae testatur, unde praenosti quod illa conceperit, nemo enim vas vacuum consignat; ut haec biblo, quippe cum biblus nullibi gentium nisi in nostra tellure gignatur, Aegyptium igitur semen est qui conceptus est; non tamen humile sed praeclarum, propter annuli aurei visionem, quo metallo nihil pretiosius scimus. Sed quoniam signaculum, quod solis forma visebatur, subter leonis caput hastili subiecto: is ipse, qui nascetur, usque in orientis perveniet possessionem, omnia audens, quae natura leonis est, vique id faciet, atque hasta omnia subiugabit. Enimvero quoniam deum capite arietino testaris eundemque canum, deus est Libyae, Ammon nomine.“ Quam interpretationem non aequo animo Philippus accepit.
+
+**Russian**
+
+А Нектанеб готовит себе посвящённого ястреба и велит ему лететь к Филиппу; и тот, представ ему ночью во сне, наставил его тем, что было велено. Филипп же, проснувшись словно от хлопанья крыльев, призывает толкователей снов и говорит: «Я видел во сне, как некий бог, прекрасный, с густыми седыми волосами и отмеченный бараньими рогами, пришёл к Олимпиаде, моей супруге, и сочетался с нею браком. Совершив это, он прибавил ещё такие слова: „Ты зачала от меня, женщина, сына-мстителя“. Затем он, казалось, прикрыл лоно женщины папирусом и запечатал золотым перстнем, на котором были вырезаны изображение солнца и голова льва с подложенным под неё копьём. Когда я это увидел, налетевший ястреб, казалось, разбудил меня хлопаньем крыльев. Что же это предвещает?» Тогда толкователи: «О Филипп, это истинно. То, что ты видел, как запечатали лоно женщины, удостоверяет истинность видения: отсюда ты наперёд узнал, что она зачала, ведь никто не запечатывает пустой сосуд. А что [запечатано] папирусом — поскольку папирус нигде на свете не растёт, кроме нашей земли, — значит, зачатое семя египетское; однако не низкое, а славное, раз ты видел золотой перстень: ведь мы не знаем металла драгоценнее. А поскольку на печати, имевшей вид солнца, внизу [была] голова льва с подложенным копьём, — то сам тот, кто родится, дойдёт до обладания Востоком, дерзая на всё, как в природе льва; сделает он это силой и копьём покорит всё. А раз ты свидетельствуешь, что бог был с бараньей головой и седой, — это бог Ливии по имени Аммон». Филипп принял это толкование с досадой.
+
+**English**
+
+But Nectanebo prepares for himself a consecrated hawk and bids it go to Philip; and standing by him at night in a dream, it instructed him with the messages it had been ordered to give. Philip, waking as if at the beating of wings, summoned the dream interpreters and said: “In my sleep I saw a god, handsome, with a thick head of grey hair and marked by ram’s horns, come to Olympias my wife and unite with her in marriage. When this was done he also added these words: ‘Woman, you have conceived by me a son, an avenger.’ Then he seemed to cover the woman’s private parts with papyrus and seal them with a gold ring, on which were engraved an image of the sun and a lion’s head with a spear set beneath it. When I had seen this, a hawk came and seemed to wake me with the beating of its wings. What, then, is this that is portended?” Then the interpreters: “O Philip, this is true. For your seeing the woman’s private parts sealed attests the truth of what was seen; from this you have learned in advance that she has conceived, since nobody seals an empty vessel. As for its being with papyrus — since papyrus grows nowhere in the world except in our land — the seed that was conceived is therefore Egyptian; yet not lowly but illustrious, because you saw the gold ring, for we know of no metal more precious. But since the seal, which looked like the sun, [had] beneath it a lion’s head with a spear placed under it: he who will be born will himself come even to the possession of the East, daring everything, as is the nature of the lion; and he will do it by force and subdue all things with the spear. And since you testify that the god had a ram’s head and was grey-haired, it is the god of Libya, Ammon by name.” Philip did not take this interpretation calmly.
+
+**Margin notes**
+
+- [15] RU: Сон о печати знали и историки: у Плутарха (Alex. 2.4–5) Филиппу снится, что он запечатал чрево жены печатью с изображением льва, а Аристандр из Тельмесса толкует, что Олимпиада беременна, «ибо ничего пустого не запечатывают», и беременна сыном львиного нрава. «Роман» добавляет к этому папирус, солнце, копьё и египетское отцовство.
+  EN: The seal dream was known to the historians too: in Plutarch (Alex. 2.4–5) Philip dreams that he sealed his wife’s womb with a seal bearing a lion, and Aristander of Telmessus explains that Olympias is pregnant, ‘since nothing empty is sealed’, and with a son of lion-like temper. The Romance adds the papyrus, the sun, the spear and the Egyptian paternity.
+  (source: Plut. Alex. 2.4–5)
+- [16] RU: В греческом α 1.8 сказано, что папирус растёт «нигде, кроме Египта»; у Валерия и вслед за ним в эпитоме толкователи говорят «кроме нашей земли», словно сами египтяне. Эпитоматор выпустил конец главы Валерия, где объяснено недовольство Филиппа (в тексте Кюблера: он думает, что жена зачала от человека).
+  EN: The Greek α 1.8 says that papyrus grows ‘nowhere except in Egypt’; in Valerius, and after him in the epitome, the interpreters say ‘except in our land’, as if they were Egyptians themselves. The epitomator dropped the end of Valerius’ chapter, which explains Philip’s displeasure (in Kübler’s text: he believes his wife conceived by a man).
+  (source: Ps.-Call. α 1.8 (Kroll 1926, p. 9); Iul. Val. 1,8 (Kübler 1888, pp. 7–8))
+
+**Translator's doubts**
+
+- eumque monet ire ad Philippum, cui per noctem in somnio adsistens iussis mandatis instruxit — Grammatically the subject of ‘instruxit’ is still Nectanebo; by sense it is the hawk (so explicitly in Valerius: ‘Pergitque ire ales…’). Choice: The hawk as subject: «и тот, представ ему ночью во сне…» / ‘it instructed him’.
+- ut haec biblo, quippe cum biblus nullibi gentium nisi in nostra tellure gignatur, Aegyptium igitur semen est — Anacoluthon: ‘ut haec biblo’ has no verb (Valerius: ‘Et haec biblo’). Choice: Rendered as a topic phrase: «А что [запечатано] папирусом…» / ‘As for its being with papyrus…’.
+- Sed quoniam signaculum, quod solis forma visebatur, subter leonis caput hastili subiecto: is ipse, qui nascetur… — The quoniam-clause has no main verb (Valerius: ‘subterque leonis caput hastile quoque adiacens erat’). Choice: A verb supplied in brackets: «внизу [была]» / ‘[had] beneath it’.
+- Quam interpretationem non aequo animo Philippus accepit. — Litotes. Choice: «принял с досадой» / ‘did not take calmly’.
+
+## Chapter 9  (Zacher pp. 12; Iul. Val. 1,9; Ps.-Call. α 1.9)
+
+**Latin**
+
+Festinata igitur re bellica Macedoniam repedat. Tandem adveniens, cum reginam sibi occursare diffidentius intueretur, astu dissimulans indignationem ait: „Me quidem clam res gesta non est, scio tamen te nunquam alicuius popularis amori servisse, enimvero dei deorum pulcherrimi.“ Atque his dictis animum mulieris instauraverat.
+
+**Russian**
+
+Итак, поспешно закончив военные дела, он возвращается в Македонию. Наконец прибыв и видя, что царица выходит ему навстречу неуверенно, он, хитро скрывая негодование, говорит: «От меня-то случившееся не укрылось; но я знаю, что ты никогда не отдавалась любви какого-нибудь простолюдина, но лишь бога — прекраснейшего из богов». И этими словами он ободрил женщину.
+
+**English**
+
+So, having brought the war to a hasty end, he returns to Macedonia. When at last he arrived and saw the queen coming to meet him with some diffidence, he cunningly concealed his indignation and said: “What happened has certainly not been hidden from me; yet I know that you have never yielded to the love of any common man, but only to that of a god, the fairest of the gods.” And with these words he had restored the woman’s spirits.
+
+**Margin notes**
+
+- [17] RU: Речь Филиппа у Валерия (1,9) длиннее: он прощает жену, поскольку сон снимает с неё вину, и замечает, что власть царей простирается на людей, но не на богов. Эпитоматор оставил только начало и конец речи; выпущены также страх Олимпиады при вести о возвращении мужа, утешения Нектанеба и её благодарность ему.
+  EN: Philip’s speech is longer in Valerius (1,9): he pardons his wife, since the dream clears her of guilt, and remarks that kings have power over men but not over gods. The epitomator kept only its beginning and end; also omitted are Olympias’ fear on hearing of her husband’s return, Nectanebo’s comforting and her thanks to him.
+  (source: Iul. Val. 1,9 (Kübler 1888, p. 8))
+
+**Translator's doubts**
+
+- dei deorum pulcherrimi — Genitive dependent on an understood ‘amori’. Choice: «но лишь бога — прекраснейшего из богов» / ‘but only to that of a god, the fairest of the gods’.
+- cum reginam sibi occursare diffidentius intueretur — ‘diffidentius’: hesitantly, without confidence. Choice: «неуверенно» / ‘with some diffidence’.
+
+## Chapter 10  (Zacher pp. 12–13; Iul. Val. 1,10; Ps.-Call. α 1.10)
+
+**Latin**
+
+Interim agebat Philippus cum muliere coniugaliter. Nectanabus vero praesens sed invisus agebat, nec videri se ex arte magica concesserat. Denique interfuit aliquando iam Philippo effervescenti et coniugem acrius increpanti, quod ille conceptus non ex deo foret. Hoc tamen Nectanabus auribus hausit. Dum ergo convivium celebre ac regium pararetur ob reversionem Philippi, nec tamen ipso frontem in laetitiam explicaret, statim se reficit Nectanabus et reformat in illum draconis sed auctiorem tractum, tricliniumque penetrat reptabundus, specie spectabilis, tum maiestate totius corporis, tum etiam sibilorum acumine adeo terribili, ut fundamenta ac parietes domus quati viderentur. Ceteris igitur terrore concussis, Olympias, quo fidem faceret divino numini, manum protendit ad bestiam. At vero draco caput in sinum mulieris [clementius] extendit, et omne agmen in spiram mansuetius collegit, et promptum os mulieri porrexit. Sicque dehinc vertit se in aquilam et volatu discessit. Tunc ex admiratione Philippus exhilaratus: „O coniux“, ait, „patuit vero argumentum divini circa te cultus. Vidimus enim deum auxiliantem tibi, licet quis is est, nesciam, quippe vel Iovem ex aquila, vel Ammonem ex dracone.“ Ad haec mulier: „Ammonem se quidem professus est, dum primum mecum convenire dignatus est, scilicet Libyae dominum universae.“
+
+**Russian**
+
+Тем временем Филипп жил с женщиной как супруг. А Нектанеб был рядом, но невидим: своим магическим искусством он не давал себя увидеть. И вот однажды он присутствовал, когда Филипп, уже вскипев, резко бранил супругу за то, что зачатое ею не от бога. Нектанеб же всё это слышал своими ушами. И вот, когда по случаю возвращения Филиппа готовили пышный царский пир, а сам он всё же не прояснял чела для веселья, Нектанеб тотчас преображается и вновь принимает облик того змея, но крупнее, и, извиваясь, проникает в пиршественный зал. Он был внушителен видом — и величием всего тела, и пронзительностью шипения, столь страшного, что, казалось, сотрясаются основания и стены дома. Все прочие были поражены ужасом, а Олимпиада, чтобы удостоверить божественную силу, протянула к зверю руку. Змей же положил голову ей на колени, кротко свернул кольцами всё своё тело и с готовностью потянулся к женщине пастью. А затем превратился в орла и улетел. Тогда Филипп, развеселившись от изумления, говорит: «Супруга, явилось поистине доказательство божественного попечения о тебе. Мы видели бога, помогающего тебе, хотя какой это бог — не знаю: то ли Юпитер, судя по орлу, то ли Аммон, судя по змею». На это женщина: «Он назвался Аммоном, когда впервые удостоил соединиться со мной, — то есть владыкой всей Ливии».
+
+**English**
+
+Meanwhile Philip lived with the woman as husband and wife. Nectanebo, though, was present but unseen, for by his magic art he did not allow himself to be seen. Then one day he was there when Philip, already boiling over, was sharply rebuking his wife that what she had conceived was not from a god. Nectanebo took this in with his own ears. So, while a splendid royal banquet was being prepared for Philip’s return, and he himself still did not smooth his brow into gladness, Nectanebo at once remakes himself and reshapes himself into that serpentine form, but larger, and crawling he penetrates the dining hall. He was imposing to behold, both by the majesty of his whole body and by the shrillness of his hissing, so terrible that the foundations and walls of the house seemed to shake. While the rest were struck with terror, Olympias, to bear witness to the divine power, stretched out her hand to the beast. And the serpent laid its head in the woman’s lap, gathered its whole length gently into a coil and readily put its mouth up to the woman. And after this it turned itself into an eagle and flew away. Then Philip, gladdened by his amazement, said: “Wife, the proof of divine care for you has truly been shown. For we have seen a god helping you, though which god he is I do not know: either Jupiter, judging from the eagle, or Ammon, judging from the serpent.” To this the woman replied: “He declared himself to be Ammon when he first deigned to unite with me, that is, the lord of all Libya.”
+
+**Margin notes**
+
+- [18] RU: После «draco caput in sinum mulieris» Цахер печатает в квадратных скобках «[clementius]» («кротко»): так он помечает слово как лишнее. По его аппарату, оно есть только в рукописи B (H: «dementius»); слово есть у Валерия в 1,6 («draco clementius reptabundus», Кюблер, с. 5), откуда оно, вероятно, и попало сюда; мы переводим без него. «Sed auctiorem» («но крупнее») — конъектура Цахера по греческому «πολὺ μείζονα» (рукописи эпитомы: «seductiorem», «seductorem» и т. п.); её подтверждает Туринский палимпсест Валерия.
+  EN: After ‘draco caput in sinum mulieris’ Zacher prints ‘[clementius]’ (‘gently’) in square brackets, his sign for a spurious word. According to his apparatus it is found only in manuscript B (H has ‘dementius’); the word occurs in Valerius 1,6 (‘draco clementius reptabundus’, Kübler p. 5), from where it probably intruded here; we translate without it. ‘Sed auctiorem’ (‘but larger’) is Zacher’s conjecture from the Greek ‘πολὺ μείζονα’ (the epitome manuscripts have ‘seductiorem’, ‘seductorem’ and the like); the Turin palimpsest of Valerius confirms it.
+  (source: Zacher 1867, pp. 12–13, text and app.; Kübler 1888, p. 9 app.)
+- [19] RU: У Валерия (1,10) змей ещё ложится Олимпиаде на колени и касается её раздвоенным языком, «чтобы супружеской верности ничего не недоставало», а Филипп отступает в страхе; эпитоматор это выпустил. Кроме того, Филипп после чуда у него «трезвый» (sobrius), а в эпитоме «развеселившийся» (exhilaratus). Ср. у Плутарха (Alex. 2.6; 3.2): змей рядом со спящей Олимпиадой охладил к ней Филиппа, и тот будто бы лишился глаза, которым подглядел бога в облике змея.
+  EN: In Valerius (1,10) the serpent also settles on Olympias’ knees and touches her with its forked tongue, ‘so that nothing should be lacking to conjugal fidelity’, while Philip draws back in fear; the epitomator omitted this. Also, after the portent Valerius’ Philip is ‘sobered’ (sobrius), the epitome’s ‘cheered’ (exhilaratus). Compare Plutarch (Alex. 2.6; 3.2): a serpent seen beside the sleeping Olympias cooled Philip towards her, and he is said to have lost the eye with which he spied on the god in serpent form.
+  (source: Iul. Val. 1,10 (Kübler 1888, pp. 9–10); Plut. Alex. 2.6; 3.2)
+
+**Translator's doubts**
+
+- At vero draco caput in sinum mulieris [clementius] extendit — The TEI silently omits the word that Zacher prints in brackets (as spurious). Choice: Followed Zacher’s text without ‘clementius’; see the note.
+- nec tamen ipso frontem in laetitiam explicaret — ‘ipso’ is ungrammatical; probably for ‘ipse’ (Philip; Valerius: ‘nec tamen Philippum frontem … explicasse’). Choice: Read as ‘ipse’: «а сам он всё же не прояснял чела» / ‘he himself still did not smooth his brow’.
+- quo fidem faceret divino numini — Valerius has ‘divino commercio’ (her intercourse with the god); ‘numini’ makes the phrase vaguer. Choice: «чтобы удостоверить божественную силу» / ‘to bear witness to the divine power’.
+- quippe vel Iovem ex aquila, vel Ammonem ex dracone — Elliptical (Valerius: ‘credas’). ‘vel Iovem’ is printed where H has ‘usli ouem’. Choice: «то ли Юпитер, судя по орлу, то ли Аммон, судя по змею».
+- licet quis is est, nesciam — Indicative ‘est’ in an indirect question (Valerius: ‘sit’). Choice: Normal indirect question in translation.
+
+## Chapter 11  (Zacher pp. 14; Iul. Val. 1,11; Ps.-Call. α 1.11)
+
+**Latin**
+
+Dum igitur Philippus in quadam regione sederet, ubi aves plurimae circumerrarent, intentusque agendis rebus animum occupasset, repente gallina in sinum eius supersiliens considensque enixa est ovum. Sed ovum illud, sinu eius evolutum, humi concrepuit. Cuius testula dissultante visus est de ea dracunculus exisse. Isque circumcursans atque ambiens ovi testulam, dum rursus eo unde exierat intrare vellet, morte praeventus est. Rex igitur Antiphontem, qui coniector id temporis egregius habebatur, accersiri iubet, super re visa sciscitans illum. At ille percunctatus respondit, filium ei nasciturum, qui omnem mundum obiret omnemque suae ditioni subiugaret; hunc quoque, antequam in patriam, de qua exierat, redeat, occasu celeri periturum. Draco quippe regale est animal; ovum mundialis est forma. Ex quo cum draco erupisse videatur, post omnem huius rotunditatis ambitum circuisse, atque ingredi eo, unde ortum habuerat, cupivisse, mortuusque est priusquam id proveniret, cuncta haec quae praedicta sunt portendisse liquet.
+
+**Russian**
+
+И вот, когда Филипп сидел в одной местности, где летало множество птиц, и был поглощён делами, вдруг курица вспрыгнула к нему на колени и, усевшись, снесла яйцо. Но яйцо это, скатившись с его колен, разбилось о землю. Когда скорлупка раскололась, показалось, что из неё вышел змеёныш. Он обежал и обполз скорлупку яйца, но, когда хотел снова войти туда, откуда вышел, его застигла смерть. Тогда царь велит призвать Антифонта, который в то время слыл превосходным толкователем знамений, и расспрашивает его о виденном. Тот, расспросив [обо всём], ответил, что у царя родится сын, который обойдёт весь мир и всё покорит своей власти; но и он, прежде чем вернуться в отечество, из которого вышел, быстро погибнет. Ведь змей — царственное животное, а яйцо — образ мира. И поскольку змей, как видно, вырвался из него, обошёл весь круг этой округлости, пожелал войти туда, откуда произошёл, и умер прежде, чем это сбылось, — ясно, что всё это предвещало то, что было предсказано.
+
+**English**
+
+While Philip was sitting in a certain place where many birds were flying about, and had his mind taken up with business, suddenly a hen jumped into his lap, settled there and laid an egg. But the egg rolled out of his lap and cracked on the ground. As its shell split open, a little serpent was seen to come out of it. It ran round and circled the eggshell, and while it wanted to go back in where it had come out, it was overtaken by death. So the king orders Antiphon, who was regarded at that time as an outstanding diviner, to be summoned, and questions him about what had been seen. He, having made inquiry, replied that a son would be born to him who would go round the whole world and subject it all to his rule; but he too, before he returned to the homeland from which he had set out, would quickly perish. For the serpent is a royal animal, and the egg is the shape of the world. And since the serpent was seen to break out of it, went round the whole circuit of this round shape, desired to go back where it had its origin, and died before this came about, it is plain that all this portended what has been foretold.
+
+**Margin notes**
+
+- [20] RU: У Валерия (1,11) Филипп сидит «в некой части дворца» (in quadam regiae parte), в эпитоме — «в некой местности» (in quadam regione). Выпущены также тревога, которую знамение вселило в Филиппа, и то, что Антифонт толковал «вдохновлённый богом» (dei adminiculo inspiratus). Последняя фраза у Валерия — продолжение речи толкователя; в эпитоме её конструкция ломается, а «liquet» («ясно») добавлено.
+  EN: In Valerius (1,11) Philip is sitting ‘in a certain part of the palace’ (in quadam regiae parte); the epitome has ‘in a certain place’ (in quadam regione). Also omitted are the unease the portent caused Philip and the statement that Antiphon spoke ‘inspired by the god’ (dei adminiculo inspiratus). In Valerius the last sentence continues the diviner’s explanation; in the epitome its construction breaks down, and ‘liquet’ (‘it is plain’) is added.
+  (source: Iul. Val. 1,11 (Kübler 1888, pp. 10–11))
+- [21] RU: В греческом α 1.11 Филипп в это время сидит в саду дворца за учёными книгами, а змеёныш умирает, не успев просунуть голову обратно в скорлупу. Смысл знамения тот же: Александр обойдёт мир и умрёт, не вернувшись на родину.
+  EN: In the Greek α 1.11 Philip is sitting in a garden of the palace with learned books, and the little serpent dies before it can put its head back into the shell. The meaning of the portent is the same: Alexander will go round the world and die without returning home.
+  (source: Ps.-Call. α 1.11 (Kroll 1926, pp. 10–11))
+
+**Translator's doubts**
+
+- Ex quo cum draco erupisse videatur, post omnem huius rotunditatis ambitum circuisse, atque ingredi eo, unde ortum habuerat, cupivisse, mortuusque est priusquam id proveniret, cuncta haec quae praedicta sunt portendisse liquet. — Anacoluthon: the cum-clause runs into a finite ‘mortuusque est’; the infinitives depend on ‘videatur’. Choice: Rendered as one period with the finite verb kept: «…пожелал войти… и умер прежде, чем это сбылось, — ясно, что…».
+- At ille percunctatus respondit — ‘percunctatus’ (having inquired) has no object; perhaps he questioned the king about details. Choice: «расспросив [обо всём]» / ‘having made inquiry’.
+- in quadam regione — Possibly a corruption of Valerius’ ‘regiae parte’. Choice: Translated as printed: «в одной местности» / ‘in a certain place’.
+
+## Chapter 12  (Zacher pp. 14–15; Iul. Val. 1,12; Ps.-Call. α 1.12)
+
+**Latin**
+
+Appetente autem iam partitudinis tempore consederat Olympias oneri partus levando. Sed adsistens Nectanabus inspectansque coelites cursus motusque astrorum: „Mane“, inquit, „quaeso, mi mulier, et vim partitudinis vince; quippe si nunc fiat editus partus, servilem quidem captivumque illum futurum astra minitantur.“ Atque cum obdurasset mulier secundisque aculeis pulsaretur, rursus admonet eam magus: „Nunc etiam, quaeso,“ inquit, „obduraveris paululum; quia, si nunc editu victa sis, gallus et semivir erit qui nascetur.“ At tunc demum intuens astrorum cursus motusque elementorum sic ad mulierem ait: „En tempus est,“ inquit, „nunc et voce fortiori et omni conatu; quippe quod nunc editum erit totius mundi dominio celebrabitur.“ Tunc mulier vehementius ingemiscens exegit puerum. Qui ubi ad humum lapsus est, motus protinus insequitur terrae et tonitruum crepor ventorumque conflictus et fulgurum coruscatio, uti viseres, omni mundo hac partitudine curam elaboratam.
+
+**Russian**
+
+Когда же подошло время родов, Олимпиада села, чтобы разрешиться от бремени. Но Нектанеб, стоя рядом и наблюдая небесные пути и движения светил, говорит: «Подожди, прошу тебя, дорогая, и пересиль натиск родов: ведь если плод появится на свет сейчас, звёзды грозят, что он будет рабом и пленником». И когда женщина перетерпела, а её стали терзать новые схватки, маг снова увещевает её: «И теперь, прошу, потерпи ещё немного: ведь если сейчас ты уступишь родам, родится галл и полумуж». А затем наконец, вглядевшись в бег звёзд и движение стихий, он так говорит женщине: «Вот время! — говорит. — Теперь — громче голос и все усилия: ведь то, что сейчас родится, прославится владычеством над всем миром». Тогда женщина, застонав сильнее, родила мальчика. Как только он упал на землю, тотчас последовали землетрясение, раскаты грома, столкновение ветров и блеск молний, так что можно было видеть: весь мир потрудился ради этого рождения.
+
+**English**
+
+As the time of childbirth was now drawing near, Olympias had sat down to be delivered of her burden. But Nectanebo, standing by and observing the heavenly courses and the motions of the stars, said: “Wait, I beg you, my dear, and master the force of your labour: for if the child is brought forth now, the stars threaten that he will be a slave and a captive.” And when the woman had held out and was being driven by fresh pangs, the magus admonishes her again: “Now too, I beg you, hold out a little longer; for if you give way to the birth now, the one who is born will be a gallus and a half-man.” And then at last, watching the course of the stars and the motion of the elements, he spoke thus to the woman: “Now is the time,” he said, “now with a louder cry and all your strength; for what is born now will be renowned for dominion over the whole world.” Then the woman, groaning more violently, brought forth a boy. As soon as he slipped to the ground, at once there followed an earthquake, the crash of thunder, the clash of winds and the flashing of lightning, so that you could see that the whole world had laboured over this birth.
+
+**Margin notes**
+
+- [22] RU: В греческом α 1.12 Нектанеб произносит длинную астрологическую речь, частью в стихах, объясняя, чем грозит рождение в каждый час. У Валерия, а за ним и в эпитоме она сведена к трём коротким репликам; «галла и полумужа» Кролль сближает с упоминанием оскопления в греческом тексте. Эпитоматор выпустил ещё тайные прикосновения Нектанеба к роженице и картину неба у Валерия: мир на вершине своего вращения, солнце посреди неба.
+  EN: In the Greek α 1.12 Nectanebo delivers a long astrological speech, partly in verse, explaining the danger of a birth at each hour. Valerius, and the epitome after him, reduce it to three short utterances; Kroll connects the ‘gallus and half-man’ with the reference to castration in the Greek. The epitomator also dropped Nectanebo’s secret touching of the woman in labour and Valerius’ picture of the sky: the cosmos at the summit of its revolution, the sun at mid-heaven.
+  (source: Ps.-Call. α 1.12 (Kroll 1926, pp. 11–13 with app.); Iul. Val. 1,12 (Kübler 1888, p. 11))
+- [23] RU: Галлы — оскоплённые жрецы Великой Матери (Кибелы); отсюда «галл и полумуж». Знамения при рождении есть и в α: молния, гром и землетрясение, «так что весь мир пришёл в движение».
+  EN: The galli were the castrated priests of the Great Mother (Cybele); hence ‘gallus and half-man’. The portents at the birth are also in α: lightning, thunder and an earthquake, ‘so that the whole world was set in motion’.
+  (source: Ps.-Call. α 1.12 (Kroll 1926, p. 13))
+
+**Translator's doubts**
+
+- Mane, inquit, quaeso, mi mulier — An intimate address; ‘госпожа / mistress’ would be wrong, since Nectanebo pointedly avoided ‘domina’ in ch. 4. Choice: «дорогая» / ‘my dear’.
+- si nunc editu victa sis — Rare ablative ‘editu’: ‘overcome by the delivery’, i.e. if you give in and give birth. Choice: «если сейчас ты уступишь родам» / ‘if you give way to the birth now’.
+- nunc et voce fortiori et omni conatu — Elliptical; Valerius has ‘voce nunc fortiore opus est’. Choice: Ellipsis kept: «Теперь — громче голос и все усилия» / ‘now with a louder cry and all your strength’.
+- uti viseres, omni mundo hac partitudine curam elaboratam — An accusative with an infinitive left out (‘esse’ understood); ‘omni mundo’ is a dative of agent; the manuscripts vary. Choice: «весь мир потрудился ради этого рождения» / ‘the whole world had laboured over this birth’.
+
+## Chapter 13  (Zacher pp. 15–18; Iul. Val. 1,13; Ps.-Call. α 1.13)
+
+**Latin**
+
+Ergo ait et Philippus: „Utile,“ inquit, „consilium, o mulier, mihi profitebor, non nutriendi quod natum est, quoniam id de meo semine non provenit; sed cum videam sobolem esse divinam, diis quoque atque elementis cordi fuisse, votis educationis accedo, inque eius filii memoriam, qui mihi ex prioribus nuptiis natus occubuit, Alexandri ei nomen dabo.“ Post vero regalius et competentius alebatur. Erat autem vultu et forma pulcherrimus, subcrispa paululum et flavente caesarie et comae leoninae, oculis egregii decoris, altero admodum nigro, laevo vero glauco atque dissimili. Crescebat ergo, ut corporis gratia, ita studiorum et prudentiae maiestate. Nutrix eius Alacrinis, paedagogus Leonides, litteraturae Polinicus magister, musicus Alcippus, geometricae Menecles, oratoriae Anaximenes, philosophiae Aristoteles ille Milesius. Erat quidem ille ad omnes litteras peritus, et sibi quisque ludus imperiale quiddam erat meditamentum. Interea viri qui Philippi equitia curabant equum spectabilis formae regi deducunt, aiuntque, illum armenti quidem regalis fuisse genus, formatum pedibus ad Pegasi fabulam et si equi fuisse Laomedonti eiusmodi praedicantur. Adduntque: „unum quidem est ei beluile vitium, namque homines edit et in eiusmodi pabulum saevit.“ Rex vero ait: „enimvero quoniam semel deductus est, claudi eum atque alere curabitis sub claustris scilicet praeferratis.“ Et cum dicto iussa complentur.
+
+**Russian**
+
+Тогда и Филипп говорит: «Признаюсь, женщина: полезным мне казалось решение не растить того, кто родился, потому что он произошёл не от моего семени; но, видя, что это потомство божественное и что оно было угодно и богам, и стихиям, я присоединяюсь к желанию его воспитать и в память того сына, что родился у меня от прежнего брака и умер, дам ему имя Александр». После этого его воспитывали уже более по-царски и более подобающим образом. Он был прекраснейшим лицом и сложением, со слегка вьющимися золотистыми волосами, подобными львиной гриве, с глазами особенной красоты: один был совершенно чёрный, а левый — серо-голубой и непохожий [на другой]. И он рос, возрастая как в телесной красоте, так и в величии учёности и разума. Кормилицей его была Алакринис, дядькой — Леонид, учителем грамоты — Полиник, музыки — Алкипп, геометрии — Менекл, риторики — Анаксимен, философии — тот самый Аристотель „Милетский“. Он был сведущ во всех науках, и всякая игра была для него упражнением в чём-то царственном. Тем временем люди, ведавшие табунами Филиппа, приводят к царю коня видной стати и говорят, что он из породы царского табуна, а ногами сложён как сказочный Пегас и как, по преданию, кони Лаомедонта. И добавляют: «Один только есть у него звериный порок: он ест людей и свирепо рвётся к такой пище». Царь же сказал: «Что ж, раз уж его привели, позаботьтесь, чтобы его заперли, и кормите его — разумеется, за обитыми железом затворами». И с этими словами приказ исполняется.
+
+**English**
+
+Then Philip too said: “I will confess, woman, that the plan of not rearing what has been born seemed useful to me, since it did not come from my seed; but since I see that the offspring is divine and has been dear both to the gods and to the elements, I accede to the wish that he be brought up, and in memory of that son who was born to me of my former marriage and died, I will give him the name Alexander.” After that he was brought up in a more royal and fitting manner. He was most beautiful in face and form, with slightly curling golden hair like a lion’s mane, and eyes of exceptional beauty: one quite black, the left one grey-blue and unlike [the other]. So he grew, both in grace of body and in the majesty of learning and good sense. His nurse was Alacrinis, his paedagogue Leonidas, his teacher of letters Polynicus, of music Alcippus, of geometry Menecles, of rhetoric Anaximenes, of philosophy the famous Aristotle ‘of Miletus’. He was indeed skilled in all letters, and every game was for him a rehearsal of something kingly. Meanwhile the men who looked after Philip’s stud farms bring the king a horse of remarkable form and say that he comes of the royal herd, shaped in his legs like the Pegasus of fable, and like the horses that Laomedon is said to have had. And they add: “He has one beastly vice: he eats men and is savage for such fodder.” The king said: “Well, since he has once been brought here, you will see to it that he is shut up and you will feed him — behind iron-clad bars, of course.” And with these words the orders are carried out.
+
+**Margin notes**
+
+- [24] RU: В греческом α 1.13 коня-людоеда привозят в дар «правители Каппадокии», а Филипп вспоминает поговорку «рядом с добром растёт зло». У Валерия коня приводят конюхи самого Филиппа. Сравнений с Пегасом и конями Лаомедонта в A нет, но Пегас есть в β (L B C: κάλλει διαφέροντα τοῦ Πηγάσου), а Пегас и кобылицы Лаомедонта — в армянской версии, так что оба сравнения восходят к греческому источнику; замечание Цахера «вся эта фраза отсутствует в греческих текстах ALBC» касается лишь придаточного о конях Лаомедонта. Греческого соответствия не имеет только «звериный порок» (vitium beluile): в α конь просто «людоед» (ἀνθρωποφάγον). Из Валерия эпитоматор выпустил, среди прочего, дары новорождённому, отступление о Фаворине и родословных, детские игры в суд и поговорку Филиппа.
+  EN: In the Greek α 1.13 the man-eating horse is brought as a gift by ‘the rulers of Cappadocia’, and Philip quotes the proverb ‘evil grows next to good’. In Valerius the horse is brought by Philip’s own grooms. The comparisons with Pegasus and Laomedon’s horses are missing in A, but β (L B C) has Pegasus (κάλλει διαφέροντα τοῦ Πηγάσου) and the Armenian version has both Pegasus and Laomedon’s mares, so both go back to the Greek source; Zacher’s remark that ‘this whole phrase is absent from the Greek texts ALBC’ concerns only the clause about Laomedon’s horses. Only the wording ‘beastly vice’ (vitium beluile) has no Greek counterpart: in α the horse is simply ‘man-eating’ (ἀνθρωποφάγον). From Valerius the epitomator omitted, among other things, the gifts to the newborn, the digression on Favorinus and the genealogies, the boy’s mock trials, and Philip’s proverb.
+  (source: Ps.-Call. α 1.13 (Kroll 1926, p. 14); Iul. Val. 1,13 (Kübler 1888, pp. 12–14); Zacher 1867, p. 17 app.; Stoneman–Gargiulo 2007, comm. ad 1.13)
+- [25] RU: У Валерия левый глаз «серо-голубой и подобный небу» (glauca atque coeli similis); в эпитоме — «серо-голубой и непохожий» (dissimili), видимо, из-за порчи «coeli similis». Кормилица «Алакринис» — искажённое имя Ланики (Λανίκη), сестры Клита Чёрного (Кролль). «Милетским» Аристотеля называет уже греческий α (Μιλήσιος), хотя он из Стагиры.
+  EN: In Valerius the left eye is ‘grey-blue and like the sky’ (glauca atque coeli similis); the epitome has ‘grey-blue and unlike’ (dissimili), apparently from a corruption of ‘coeli similis’. The nurse ‘Alacrinis’ is a garbled form of Lanice (Λανίκη), sister of Cleitus the Black (Kroll). Aristotle is already called ‘of Miletus’ (Μιλήσιος) in the Greek α, though he came from Stagira.
+  (source: Iul. Val. 1,13 (Kübler 1888, p. 12); Zacher 1867, p. 16 app.; Kroll 1926, p. 14 with app.)
+
+**Translator's doubts**
+
+- Utile, inquit, consilium, o mulier, mihi profitebor, non nutriendi quod natum est — Awkward (Valerius: ‘Equidem mihi fuisse … consilium profitebor non nutriendi’); ‘utile’ is the reading of the epitome manuscripts. Choice: «Признаюсь… полезным мне казалось решение не растить…» / ‘I will confess that the plan of not rearing… seemed useful to me’.
+- votis educationis accedo — ‘votis’ comes from Valerius’ Paris manuscript only (missing in H L A B D E). Choice: Translated as printed: «присоединяюсь к желанию его воспитать» / ‘I accede to the wish that he be brought up’.
+- formatum pedibus ad Pegasi fabulam et si equi fuisse Laomedonti eiusmodi praedicantur — Barely construable; ‘et si equi’ is R’s reading (others ‘et si qui’). Choice: Taken as a comparison: «и как, по преданию, кони Лаомедонта» / ‘and like the horses that Laomedon is said to have had’.
+- et sibi quisque ludus imperiale quiddam erat meditamentum — ‘quisque’ = ‘quisquis/omnis’ (late Latin). Choice: «всякая игра была для него упражнением в чём-то царственном».
+- claudi eum atque alere curabitis — Passive and active infinitives mixed (Valerius: ‘ali’). Choice: The mix is kept: «позаботьтесь, чтобы его заперли, и кормите его» / ‘see to it that he is shut up and you will feed him’.
+
+## Chapter 14  (Zacher pp. 18–20; Iul. Val. 1,14; Ps.-Call. α 1.14)
+
+**Latin**
+
+Interea Alexander iam annum duodecimum agens patri comes fiebat et usu armorum semper indui meditabatur, et cum exercitibus videri gaudebat, et equis insiliens cuncta ut prudentissimus miles agebat. Dum ergo Philippus ad quandam illicce proximam civitatem proficisceretur non simili affectu quo solitus, protinus Olympias Nectanabum repetit, eumque consulit super clandestino mariti consilio. Qui dum assidenti sibi Alexandro ex arte illa astrica loqueretur, ait Alexander: „Numquid ista est similitudo stellarum, quae visuntur in coelo?“ Et Nectanabus ita respondit esse. Et Alexander: „Possumne istas oculis usurpare?“ Annuit posse. Tempus exigit. Vesperam pollicetur. „Quae ubi advenerit, comitare,“ inquit, „mecum ad campestrem locum, easque tibi in coelo lucentes ostendam.“ Ergo ubi tempus est, progressus oppido dabat videre Alexandro quae cupiverat. Qui dum sedulo huius artis peritia frueretur, iamque se in hisce doctum perpenderet, nocte quadam, ad praecisum fossae praeceps veniens, Alexander hominem improviso impellens praecipitat; ibique letali ictu cervicis afflictus haec conquestus est: „Mi,“ inquit, „Alexander, quidnam huiusce facti tibi consilium fuit?“ At ille respondit: „Conquerendum tibi erat de arte, quam noveras. Quippe nescius quae te impenderent humi, nunc resupinus iacens rimare ea quae sunt coeli.“ Ad haec magus: „Nulli,“ inquit, „mortalium contra fatum fuga permissa est.“ Et Alexander: „Cur ista?“ inquit. Respondit magus: „Olim quippe per hanc scientiam cognovi, me a filio interfectum iri.“ Et Alexander ait: „Num ego sum filius tuus?“ Ita esse confitetur, tum Aegypti fugam, tum ingressum ad Olympiadem, et quanam arte uxore sit potitus ad similitudinem dei. Et his dictis animam exaestuat. Hinc Alexander comperto quod pater sibi fuerit quem interfecerat, naturali monitus affectu superponit hominem humeris, regiamque revectat. Ut autem reversus est ad matrem cuncta narrat, quae sibi supremo colloquio pater dixerat. Atque hoc mulier nimium admirata indicavit, quod vanis artibus lusa probri rem fecisset. Patri quoque filius sepulchrum erigit operosissimum.
+
+**Russian**
+
+Тем временем Александр, которому шёл уже двенадцатый год, стал спутником отца: он постоянно упражнялся, чтобы освоиться с оружием, радовался, когда его видели с войсками, и, вскакивая на коней, делал всё как опытнейший воин. И вот, когда Филипп отправлялся в некий соседний город — не в том расположении духа, что обычно, — Олимпиада тотчас снова обращается к Нектанебу и советуется с ним о тайном замысле мужа. Когда тот, в присутствии сидевшего рядом Александра, вёл речь по своему астрологическому искусству, Александр спросил: «Неужели это подобие звёзд, которые видны на небе?» И Нектанеб ответил, что так. А Александр: «А могу я увидеть их своими глазами?» Тот кивнул, что может. [Александр] требует назначить время. [Нектанеб] обещает вечер. «Когда он наступит, — говорит, — пойдём со мной в открытое поле, и я покажу тебе их, сияющие на небе». И вот, когда пришло время, он, выйдя из города, показывал Александру то, чего тот желал. И пока тот [Александр] усердно пользовался знанием этого искусства и уже считал себя в нём сведущим, однажды ночью, подойдя к отвесному краю рва, Александр неожиданным толчком сбрасывает этого человека вниз; и тот, получив смертельный удар в шею, жалобно сказал так: «Мой Александр, что ты задумал этим поступком?» А он ответил: «Тебе следовало пенять на искусство, которое ты знал. Ведь, не ведая, что грозит тебе на земле, теперь, лёжа навзничь, исследуй то, что на небе». На это маг: «Ни одному смертному, — говорит, — не дано бежать от судьбы». А Александр: «Почему ты так говоришь?» Маг ответил: «Некогда с помощью этой науки я узнал, что буду убит сыном». И Александр сказал: «Неужели я — твой сын?» Тот признаётся, что это так, [и открывает] и бегство из Египта, и то, как он вошёл к Олимпиаде, и каким искусством овладел [Филипповой] женой в образе бога. И с этими словами испускает дух. Тогда Александр, узнав, что убитый им был его отцом, движимый естественным чувством, взваливает его на плечи и несёт обратно во дворец. Вернувшись же к матери, он рассказывает ей всё, что сказал ему отец в последней беседе. И женщина, крайне изумлённая этим, призналась, что, обманутая пустыми чарами, совершила постыдное дело. А сын воздвигает отцу гробницу искуснейшей работы.
+
+**English**
+
+Meanwhile Alexander, now in his twelfth year, was becoming his father’s companion: he was always practising to become versed in the use of arms, he rejoiced to be seen with the armies, and, leaping onto horses, he did everything like a most experienced soldier. So when Philip was setting out for a certain city near there, in a different frame of mind from his usual one, Olympias at once turns again to Nectanebo and consults him about her husband’s secret intention. While he, with Alexander sitting beside him, was speaking according to that astrological art, Alexander said: “Is this a likeness of the stars that are seen in the sky?” And Nectanebo answered that it was. And Alexander: “Can I see them with my own eyes?” He nodded that he could. [Alexander] demands a time. [Nectanebo] promises the evening. “When it comes,” he said, “go with me to an open field, and I will show you them shining in the sky.” So when the time came, having gone out of the town, he let Alexander see what he had desired. And while [Alexander] was eagerly enjoying the expertise of this art and already reckoned himself learned in these things, one night, coming to the sheer edge of a ditch, Alexander, giving the man an unexpected push, throws him headlong; and there, struck by a deadly blow to the neck, he complained thus: “My Alexander, what did you mean by this deed?” And he answered: “You ought to have complained about the art that you had known. For, not knowing what threatened you on the ground, now, lying on your back, search out the things of heaven.” To this the magus said: “No mortal is allowed to flee from fate.” And Alexander: “Why do you say that?” The magus replied: “Long ago, through this science, I learned that I would be killed by a son.” And Alexander said: “Am I your son, then?” He confesses that it is so, [telling] of the flight from Egypt, of his coming to Olympias, and by what art he had possessed [Philip’s] wife in the likeness of a god. And with these words he breathes his last. Then Alexander, having learned that the man he had killed was his father, moved by natural affection, lifts the man onto his shoulders and carries him back to the palace. When he had returned to his mother, he tells her everything that his father had said to him in their last conversation. The woman, greatly astonished at this, declared that, deceived by empty arts, she had done a shameful thing. And the son raised for his father a most elaborate tomb.
+
+**Margin notes**
+
+- [26] RU: Эпитоматор выпустил у Валерия (1,14) речь Филиппа к двенадцатилетнему сыну и слова раненого Нектанеба «чувствую, что ранен смертельно». Выпали также страх мальчика оставить тело зверям, погребение Нектанеба Олимпиадой с почестями и заключительная мысль: египтянин Нектанеб похоронен в Македонии, а македонянин Александр будет похоронен в Египте. Слова «однажды ночью» перенесены сюда из более поздней фразы Валерия («Nam et nox erat et secreta, quo venerant»); насмешка «теперь, лёжа навзничь» — добавление эпитомы (Кюблер в аппарате: «nunc resupinus iacens rimare Epit.»).
+  EN: From Valerius (1,14) the epitomator omitted Philip’s speech to his twelve-year-old son and the wounded Nectanebo’s words ‘I feel that I am mortally wounded’. Also dropped are the boy’s fear of leaving the body to the beasts, Olympias’ honourable burial of Nectanebo and the closing reflection: Nectanebo, an Egyptian, was buried in Macedonia, while Alexander, a Macedonian, would be buried in Egypt. The words ‘one night’ are brought forward from a later sentence of Valerius (‘Nam et nox erat et secreta, quo venerant’); the taunt ‘now, lying on your back’ is an addition of the epitome (Kübler’s apparatus: ‘nunc resupinus iacens rimare Epit.’).
+  (source: Iul. Val. 1,14 (Kübler 1888, pp. 14–16))
+- [27] RU: «Vanis artibus» («пустыми чарами») Цахер взял из Туринского палимпсеста Валерия; рукописи эпитомы дают «annis», «quotannis», «annos», т. е. отражают «tot annis» («столько лет»). Так читает парижская рукопись Валерия: по Кюблеру, в T нет «tot annis», в P нет «vanis». «Indicavit» («призналась») стоит во всех рукописях эпитомы и в парижской рукописи Валерия; Туринский палимпсест и Кюблер дают «iudicavit» («рассудила о себе»), что ближе к греческому «κατέγνω ἑαυτῆς» («осудила себя»).
+  EN: Zacher took ‘vanis artibus’ (‘by empty arts’) from the Turin palimpsest of Valerius; the epitome manuscripts have ‘annis’, ‘quotannis’, ‘annos’, i.e. they reflect ‘tot annis’ (‘for so many years’). That is the reading of Valerius’ Paris manuscript: according to Kübler, T lacks ‘tot annis’ and P lacks ‘vanis’. ‘Indicavit’ (‘declared’) is in all the epitome manuscripts and in Valerius’ Paris manuscript; the Turin palimpsest and Kübler have ‘iudicavit’ (‘judged of herself’), closer to the Greek ‘κατέγνω ἑαυτῆς’ (‘condemned herself’).
+  (source: Zacher 1867, p. 20 app.; Kübler 1888, p. 16 and app.)
+
+**Translator's doubts**
+
+- Atque hoc mulier nimium admirata indicavit, quod vanis artibus lusa probri rem fecisset. — ‘indicavit’ (declared, made known) vs Valerius’ ‘iudicavit’; ‘vanis’ is Zacher’s choice against the epitome manuscripts (see the note); ‘nimium’ = ‘very’. Choice: Translated Zacher’s text: «призналась» / ‘declared’, «пустыми чарами» / ‘by empty arts’.
+- Tempus exigit. Vesperam pollicetur. — Very terse; the subjects change (Alexander demands a time, Nectanebo promises the evening). Choice: Subjects supplied in square brackets.
+- Qui dum sedulo huius artis peritia frueretur, iamque se in hisce doctum perpenderet — ‘Qui’ most naturally refers to Alexander (just named in the dative), who enjoys Nectanebo’s expertise; Valerius has a different sentence here. Choice: Taken as Alexander: «пока тот прилежно пользовался его знанием…» / ‘while [Alexander]…’.
+- ad praecisum fossae praeceps veniens — ‘praeceps’ may agree with the subject (‘rushing headlong’) or be a neuter noun with ‘praecisum fossae’ (‘sheer drop of the ditch’). ‘praecisum’ is R’s reading; L A D E Vc have ‘praescitum’. Choice: «подойдя к отвесному краю рва» / ‘coming to the sheer edge of a ditch’.
+- Conquerendum tibi erat de arte, quam noveras. — ‘erat’ (Valerius: ‘est’) suggests a reproach about the past. Choice: «Тебе следовало пенять на искусство…» / ‘It is the art… that you ought to complain of’.
+- Ita esse confitetur, tum Aegypti fugam, tum ingressum ad Olympiadem, et quanam arte uxore sit potitus — Zeugma: ‘confitetur’ governs both an infinitive clause and accusative nouns plus an indirect question. Choice: A verb supplied in brackets: «[и открывает]» / ‘[telling]’; ‘uxore’ glossed as [Philip’s] wife.
+- progressus oppido — ‘progressus’ is from the Turin palimpsest; the epitome manuscripts have ‘progressi’ (plural: both went out). Choice: Translated the singular as printed.
+
+## Chapter 15  (Zacher pp. 20; Iul. Val. 1,15; Ps.-Call. α 1.15)
+
+**Latin**
+
+Enimvero Philippus Delphos mittit super regni sui sollicitus successore, responsumque accepit in hunc modum: „O Philippe, is demum tuis omnique orbe potietur, quicunque Bucephalum equum insiliens medium Pellae transierit.“ Vocabatur enim equus ille, quem supra diximus, eo nomine.
+
+**Russian**
+
+Филипп же, озабоченный тем, кто станет преемником его царства, посылает в Дельфы и получает такой ответ: «О Филипп, лишь тот овладеет твоим [царством] и всем миром, кто, вскочив на коня Буцефала, проедет через середину Пеллы». Ибо так звали того коня, о котором мы говорили выше.
+
+**English**
+
+Now Philip, anxious about the successor to his kingdom, sent to Delphi and received an answer in these terms: “O Philip, whoever leaps upon the horse Bucephalus and rides through the middle of Pella, he alone shall possess your [kingdom] and the whole world.” For that was the name of the horse we spoke of above.
+
+**Margin notes**
+
+- [28] RU: У Юлия Валерия оракул прибавляет: «и копьём покорит всё». Дальше Валерий объясняет имя коня (не только грозным, словно рогатым, лбом, но и случайным клеймом на бедре, похожим на бычью голову) и сообщает, что Филипп надеялся на «младшего Геркулеса». Эпитоматор всё это опустил. В гл. 13 конь у него безымянный, так что имя Буцефал впервые звучит в самом оракуле.
+  EN: In Julius Valerius the oracle adds ‘and with the spear shall subdue all things’. Valerius then explains the horse’s name (not only its fearsome, horn-like brow, but a chance brand on its haunch that looked like a bull’s head) and says that Philip hoped for a ‘younger Hercules’. The epitomator drops all this. Since his horse in ch. 13 is unnamed, the name Bucephalus is first heard in the oracle itself.
+  (source: Iul. Val. 1,15 (Kübler 1888, p. 16))
+- [29] RU: Главы 16 нет: эпитоматор пропустил весь эпизод Валерия 1,16. Там Аристотель спрашивает учеников-царевичей, что каждый даст ему, когда унаследует отцу, и хвалит осторожный ответ Александра; затем идёт переписка о чрезмерной щедрости мальчика (письма некоего Зевксида, родителей и Аристотеля).
+  EN: There is no ch. 16: the epitomator skips the whole of Valerius 1,16. There Aristotle asks the royal pupils what each will give him when he succeeds his father and praises Alexander’s cautious answer; then come letters about the boy’s lavish spending (from a certain Zeuxis, his parents and Aristotle).
+  (source: Iul. Val. 1,16 (Kübler 1888, pp. 16–19))
+
+**Translator's doubts**
+
+- is demum tuis omnique orbe potietur — ‘tuis’ (ablative plural) has no noun: ‘your possessions’, ‘your people’ or ‘your [realm]’. Choice: ‘your [kingdom]’ in brackets, since Philip asked about the succession to his kingdom.
+
+## Chapter 17  (Zacher pp. 21; Iul. Val. 1,17; Ps.-Call. α 1.17)
+
+**Latin**
+
+Id iam temporis quartum decimum annum Alexander agebat. Qui dum quadam die locum quo clausus equus praedictus erat praeteriret, conversus ad amicos ait: „o viri, hinnitusne aures meas an vero rugitus aliquis leoninus offendit?“ Ad haec Ptolemaeus, qui postea Soter dictus est: „Quin immo hic ille est Bucephalus equus, quem ob vehementiam et saevitudinem dentium hactenus claudi rex pater iussit.“ Alexander vero custodibus evocatis claustrisque remotis animal educit, iubamque eius laeva cum apprehendisset, tergum quadrupedis insultat, effrenemque hac atque illac circumducit. Quod cum admirationi visentibus foret, cucurrit quidam, et rem periculi Philippo nunciavit. Sed ad memoriam ille monitus oraculi occurit ad puerum, eumque salutat ut totius orbis dominum, laetior scilicet spe filii pater.
+
+**Russian**
+
+В ту пору Александру шёл уже четырнадцатый год. Однажды, проходя мимо места, где был заперт упомянутый конь, он обернулся к друзьям и сказал: «Мужи, ржание ли поразило мой слух или же какой-то львиный рык?» На это Птолемей, впоследствии прозванный Сотером, [ответил]: «Да ведь это тот самый конь Буцефал, которого царь, [твой] отец, из-за его буйства и свирепости зубов велел до сих пор держать взаперти». Тогда Александр, вызвав стражей и отодвинув засовы, выводит животное и, ухватив его левой рукой за гриву, вскакивает четвероногому на спину и кружит на нём без узды то туда, то сюда. Поскольку зрители были изумлены, кто-то побежал и сообщил Филиппу об опасном происшествии. Но тот, вспомнив об оракуле, спешит навстречу мальчику и приветствует его как владыку всего мира — отец, конечно, тем более обрадованный надеждой на сына.
+
+**English**
+
+By that time Alexander was already in his fourteenth year. One day, as he was passing the place where the aforesaid horse was shut up, he turned to his friends and said: “Men, is it a neigh that strikes my ears, or rather some lion’s roar?” To this Ptolemy, who was later called Soter, [replied]: “Why, this is that horse Bucephalus, whom the king, [your] father, has ordered to be kept shut up until now because of his violence and the savagery of his teeth.” Then Alexander, calling out the guards and removing the bars, led the animal out; and having grasped its mane with his left hand, he leapt onto the beast’s back and rode it about unbridled, this way and that. Since this amazed the onlookers, someone ran and reported the perilous affair to Philip. But he, reminded of the oracle, hurried to meet the boy and greeted him as lord of the whole world — a father made the happier, of course, by the hope his son gave him.
+
+**Margin notes**
+
+- [30] RU: У Валерия конь при приближении Александра ржёт кротко, вытягивает передние ноги и ластится к нему, «словно умоляя». Эпитоматор это выпустил, и укрощение остаётся без объяснения. Валерьево «orbis integri dominum» у него стало «totius orbis dominum».
+  EN: In Valerius the horse, as Alexander approaches, neighs gently, stretches out its forelegs and fawns on him ‘with a suppliant movement’. The epitomator leaves this out, so the taming goes unexplained. Valerius’ ‘orbis integri dominum’ becomes ‘totius orbis dominum’.
+  (source: Iul. Val. 1,17 (Kübler 1888, pp. 19–20))
+- [31] RU: «Custodibus evocatis» («вызвав стражей») — чтение большинства рукописей эпитомы. У Юлия Валерия (Туринский палимпсест и Парижская рукопись, у Цахера Va и Vc) — «evitatis» («ускользнув от стражей»), в греческом — «оттолкнув стражей». Цахер оставляет «evocatis», а в аппарате с вопросом предлагает «eviatis».
+  EN: ‘Custodibus evocatis’ (‘calling out the guards’) is the reading of most Epitome manuscripts. Julius Valerius (the Turin palimpsest and the Paris manuscript, Zacher’s Va and Vc) has ‘evitatis’ (‘slipping past the guards’), the Greek ‘pushing the guards aside’. Zacher keeps ‘evocatis’ and suggests ‘eviatis?’ in his apparatus.
+  (source: Zacher 1867, p. 21, apparatus; Kübler 1888, p. 20)
+
+**Translator's doubts**
+
+- custodibus evocatis — Valerius reads ‘evitatis’ (avoiding the guards); Zacher tentatively ‘eviatis’. Choice: Translated as printed: ‘calling out the guards’.
+- Sed ad memoriam ille monitus oraculi — Valerius has ‘ad memoriam revocans monitus oraculi’ (monitus = noun, ‘the oracle’s warning’). Without ‘revocans’, ‘monitus’ reads as a participle: ‘reminded of the oracle’. Choice: ‘reminded of the oracle’ / «вспомнив об оракуле».
+- effrenemque hac atque illac circumducit — ‘effrenem’ refers to the horse (unbridled), not to Alexander. Choice: ‘rode it about unbridled, this way and that’.
+
+## Chapter 18  (Zacher pp. 21–23; Iul. Val. 1,18; Ps.-Call. α 1.18)
+
+**Latin**
+
+Sed enim Alexander quintum decimum agens annum petiit ut sibi Pisas adire liceret gratia quadrigis certandi. Philippus quoque equos illi et cetera itineri necessaria praeparari iussit. Igitur ascensa navi secunda admodum tempestate appulit Elim. Quo in loco dum curam equorum famulis mandavisset ipseque ad videndum statum loci eiusdem procederet, forte ei fuit obvius Nicolaus rex Acernanum, quondam conscolasticus eius, qui salutando quidem Alexandro sese praestitit priorem, nec tamen sine contumelia fuit ipsa salutatio. Nam: „Ave,“ inquit, „o puer!“ Nec ille resalutat. Tunc secundo Nicolaus: „Et a quo,“ inquit, „te arbitraris salutatum? Quippe ego sum Nicolaus, rex Acernanum.“ Et Alexander: „Quid,“ inquit, „prodest tibi ista vana imperii iactatio de secundis crastinis fluctuans? neque enim istam arrogantiam approbo.“ Et Nicolaus: „Velim,“ inquit, „scire cur adsis.“ Fatetur Alexander, se ad certamina quadrigarum studio coronae venisse. Tunc Nicolaus felle de nimia indignatione suffusus consputum adolescentulum et maledictis increpitum dereliquit. At vero Alexander, qui omnium disciplinarum continentiam ostentare didicerat, abstersit clementer sputamenta iniuriamque adridens ait: „Iuro equidem Nicolae tibi,“ inquit, „patris matrisque meae maiestatem, quod te et in praesenti certamine superabo.“
+
+**Russian**
+
+Александр же на пятнадцатом году жизни попросил позволить ему отправиться в Пису, чтобы состязаться на квадригах. Филипп со своей стороны велел приготовить для него коней и всё прочее, нужное в дорогу. И вот, взойдя на корабль, при весьма благоприятной погоде он пристал к Элиде. Когда он поручил там заботу о конях слугам, а сам пошёл осмотреть местность, ему случайно встретился Николай, царь акарнанцев, некогда его соученик. Тот первым приветствовал Александра, однако и само приветствие было не без оскорбления. Ибо он сказал: «Здравствуй, мальчик!» А тот не отвечает на приветствие. Тогда Николай во второй раз: «И кто же, — говорит, — по-твоему, тебя приветствовал? Ведь я — Николай, царь акарнанцев». А Александр: «Что пользы тебе, — говорит, — в этой пустой похвальбе властью, зыбкой в ожидании завтрашней удачи? Ибо не одобряю я такого высокомерия». И Николай: «Хотел бы я знать, — говорит, — зачем ты здесь». Александр признаётся, что пришёл на бега квадриг, стремясь к венку. Тогда Николай, налившись желчью от чрезмерного негодования, оплевал юношу, осыпал его бранью и ушёл. Но Александр, научившийся выказывать сдержанность, которой учат все науки, спокойно отёр плевки и, улыбнувшись обиде, сказал: «Клянусь тебе, Николай, величием моего отца и моей матери, что одолею тебя и в нынешнем состязании».
+
+**English**
+
+Now Alexander, in his fifteenth year, asked to be allowed to go to Pisa to compete in the four-horse chariot race. Philip for his part ordered horses and everything else needed for the journey to be prepared for him. So he boarded a ship and with very favourable weather put in at Elis. There, when he had entrusted the care of the horses to servants and was himself going out to look over the place, he happened to meet Nicolaus, king of the Acarnanians, once his schoolfellow. Nicolaus was indeed the first to greet Alexander, but the greeting itself was not without insult. For he said: “Hail, boy!” And Alexander did not return the greeting. Then Nicolaus a second time: “And by whom,” he said, “do you think you have been greeted? For I am Nicolaus, king of the Acarnanians.” And Alexander said: “What good to you is this empty boasting of power, wavering on tomorrow’s fortunes? For I do not approve of this arrogance.” And Nicolaus: “I should like to know,” he said, “why you are here.” Alexander declared that he had come to the chariot races out of desire for the crown. Then Nicolaus, his gall overflowing from excessive indignation, spat on the youth, reviled him with curses and left him. But Alexander, who had learned to display the self-restraint that all his schooling taught, calmly wiped off the spittle and, smiling at the insult, said: “I swear to you, Nicolaus, by the majesty of my father and mother, that I shall defeat you in the present contest too.”
+
+**Margin notes**
+
+- [32] RU: «Quondam conscolasticus eius» («некогда его соученик») — добавление эпитоматора: слова есть во всех рукописях эпитомы и у Винцента из Бове, но отсутствуют в рукописях Юлия Валерия. У Валерия Николай — просто «юный царёк из Акарнании», гордый богатством и удачей.
+  EN: ‘Quondam conscolasticus eius’ (‘once his schoolfellow’) is the epitomator’s addition: it is in all Epitome manuscripts and in Vincent of Beauvais but absent from the manuscripts of Julius Valerius, where Nicolaus is simply ‘a young princeling from Acarnania’, proud of his wealth and fortune.
+  (source: Zacher 1867, p. 22, apparatus; Iul. Val. 1,18 (Kübler 1888, p. 21))
+- [33] RU: У Валерия клятва двучленна: «одолею тебя и в этом состязании, и „Acernaniae telo“» (видимо, оружием, то есть на войне). Эпитоматор оставил первую часть, отсюда повисшее «et». Опущены также разговор с Филиппом о выборе состязания и Гефестион, с которым Александр у Валерия плывёт в Элиду.
+  EN: In Valerius the oath has two members: ‘I shall defeat you both in this contest and Acernaniae telo’ (apparently ‘with the spear’, i.e. in war). The epitomator keeps only the first, hence the dangling ‘et’. Also omitted are the conversation with Philip about which contest to enter, and Hephaestion, who in Valerius sails with Alexander to Elis.
+  (source: Iul. Val. 1,18 (Kübler 1888, pp. 20–22))
+
+**Translator's doubts**
+
+- ista vana imperii iactatio de secundis crastinis fluctuans — In Valerius ‘fluctuantem’ agrees with ‘te’ (you, wavering on tomorrow’s fortunes); in the Epitome ‘fluctuans’ agrees with ‘iactatio’. ‘De secundis crastinis’ = dependent on tomorrow’s good fortune. Choice: ‘empty boasting of power, wavering on tomorrow’s fortunes’ / «зыбкой в ожидании завтрашней удачи».
+- qui omnium disciplinarum continentiam ostentare didicerat — ‘The restraint of all disciplines’: the self-restraint that his whole education taught, or restraint in all respects. Choice: ‘the self-restraint that all his schooling taught’.
+- quod te et in praesenti certamine superabo — ‘et’ is the remnant of Valerius’ ‘et … et’ (see note); alone it means ‘also / even’. Choice: ‘in the present contest too’; RU «и в нынешнем состязании» keeps the same ambiguity.
+
+## Chapter 19  (Zacher pp. 23; Iul. Val. 1,19; Ps.-Call. α 1.19)
+
+**Latin**
+
+Non multo post, ubi dies certaminis advenit, Alexander, primum Nicolao superato et reliquis qui certamini adfuerant, corona redimitus repatriat Macedoniam.
+
+**Russian**
+
+Вскоре, когда настал день состязания, Александр, одолев первым делом Николая и остальных участников состязания, увенчанный венком, возвращается на родину, в Македонию.
+
+**English**
+
+Not long after, when the day of the contest came, Alexander, having first defeated Nicolaus and the rest who had taken part in the contest, returned home to Macedonia crowned with the wreath.
+
+**Margin notes**
+
+- [34] RU: У Валерия здесь целый рассказ о бегах: девять участников, названных поимённо (среди них некий Клитомах); хитрость Александра, который нарочно пропускает Николая вперёд; падение Николая; жрец Зевса Олимпийского, толкующий победу как знак будущей власти над миром. Эпитоматор свёл всё к одной фразе.
+  EN: Valerius tells the race at length: nine named competitors (among them a Clitomachus); Alexander’s ruse of letting Nicolaus pass him; Nicolaus’ crash; and the priest of Olympian Zeus interpreting the victory as a sign of future world rule. The epitomator reduces it all to one sentence.
+  (source: Iul. Val. 1,19 (Kübler 1888, pp. 22–23))
+
+## Chapter 20  (Zacher pp. 23; Iul. Val. 1,20; Ps.-Call. α 1.20)
+
+**Latin**
+
+Sed offendit forte Philippum spreto consortio Olympiadis in Cleopatrae nuptias demutantem. Die igitur nuptiarum inruens triclinium regis coronatus: „Sume,“ inquit, „o pater, hunc primum laboris mei fructum.“ Et coronam una in caput patris transtulit et ait: „Cum ego matrem meam iterum regalibus nuptiis coniugabo, vos quoque participabo convivio.“ Et his dictis adversus Philippum discumbit.
+
+**Russian**
+
+Но он случайно застаёт Филиппа в то время, когда тот, пренебрёгши союзом с Олимпиадой, меняет его на брак с Клеопатрой. И вот в день свадьбы, ворвавшись в царский триклиний в венке, он говорит: «Прими, отец, этот первый плод моих трудов». И вместе с тем переложил венок на голову отца и сказал: «Когда я снова выдам мою мать замуж, на царской свадьбе, я и вас позову разделить пир». И с этими словами возлёг напротив Филиппа.
+
+**English**
+
+But he happened to find Philip, having spurned his union with Olympias, changing over to a marriage with Cleopatra. So on the wedding day, bursting into the king’s dining hall wearing his crown, he said: “Take, father, this first fruit of my labour.” At the same time he moved the crown onto his father’s head and said: “When I give my mother in marriage again, at a royal wedding, I shall have you, too, share in the feast.” And with these words he reclined opposite Philip.
+
+**Margin notes**
+
+- [35] RU: У Валерия Клеопатра — «дочь некоего Аттала, человека не безвестного», а Александр грозит выдать мать «на другую царскую свадьбу» (aliis regalibus nuptiis). В эпитоме стоит «iterum» («снова»), и угроза теряет остроту. Опущены также слова «Рад, что вы веселитесь» и то, что Филипп внутренне закипел гневом.
+  EN: In Valerius Cleopatra is ‘the daughter of a certain Attalus, not undistinguished’, and Alexander threatens to give his mother ‘in another royal marriage’ (aliis regalibus nuptiis). The Epitome has ‘iterum’ (‘again’), which blunts the threat. It also drops ‘I am glad that you are merry’ and Philip’s inward rage.
+  (source: Iul. Val. 1,20 (Kübler 1888, pp. 23–24))
+- [36] RU: Исторически Филипп женился на Клеопатре, племяннице македонского вельможи Аттала, в 337 г. до н. э. После ссоры на свадьбе Александр увёз Олимпиаду в Эпир (Плутарх, «Александр», 9).
+  EN: Historically Philip married Cleopatra, niece of the Macedonian noble Attalus, in 337 BC. After the quarrel at the wedding Alexander took Olympias away to Epirus (Plutarch, Alexander 9).
+  (source: Plut. Alex. 9)
+
+**Translator's doubts**
+
+- spreto consortio Olympiadis — ‘consortio’ is cited from the Turin palimpsest (Zacher’s Va; Kübler’s T); H L B D E read ‘consilio’ (‘her counsel’), Epitome A ‘connubio’. Zacher also gives ‘connubio’ for the Ambrosianus of Valerius (his Vb, from Mai’s print), but Kübler’s collation has ‘consilio’ there with a marginal ‘vel coniugio’. Choice: Translated as printed: ‘union’.
+- Cum ego matrem meam iterum regalibus nuptiis coniugabo — ‘iterum’ replaces Valerius’ ‘aliis’; ‘regalibus nuptiis’ may mean ‘to a king’ or just ‘with a royal wedding’. Choice: ‘again, at a royal wedding’.
+
+## Chapter 21  (Zacher pp. 23–24; Iul. Val. 1,21; Ps.-Call. α 1.21)
+
+**Latin**
+
+Aderat tunc inter regales delicias Lysias quidam, risui excitando quam facetissimus. Qui cum in gratiam regis adolescentulum vellet admordere, multimodis verborum ridiculis saepius illum adgressus, ac saepius admonitus ut ad alterum se verteret, cui ludum suum placere sciret, pergit ille non obaudiens. Tandemque iuvenis irritatus, poculum quod sibi prae manu erat iaculans, Lysiam vulnerat. Sed rex effervescente ira prosiliens in Alexandrum crureque vulnerato procumbit, et Alexander arrepto gladio omnes, qui sese veluti comprehendendum inruerant, dissicit et egreditur.
+
+**Russian**
+
+Был тогда среди царских увеселений некий Лисий, большой мастер смешить. Желая в угоду царю уязвить юношу, он не раз задевал его всевозможными словесными насмешками, и, хотя ему не раз советовали обратиться к кому-нибудь другому, кому, как он знал, его забава придётся по вкусу, он, не слушаясь, продолжает. Наконец выведенный из себя юноша, метнув чашу, которая была у него под рукой, ранит Лисия. А царь, вскипев гневом, бросается на Александра и, поранив ногу, падает; Александр же, выхватив меч, разгоняет всех, кто кинулся к нему, словно чтобы схватить его, и уходит.
+
+**English**
+
+There was present then among the royal entertainments a certain Lysias, most witty at raising laughter. Wishing to bite at the youth to please the king, he attacked him again and again with verbal jests of many kinds; and though he was warned again and again to turn to someone else whom he knew his game would please, he went on, paying no heed. At last the young man, provoked, hurled the cup that was at hand and wounded Lysias. But the king, his anger boiling over, leapt at Alexander and, his leg wounded, fell down; and Alexander, snatching up a sword, scattered all who had rushed in as if to seize him, and went out.
+
+**Margin notes**
+
+- [37] RU: У Валерия Лисий произносит саму колкость: пусть Клеопатра родит Филиппу собственных сыновей, «не общих с другим», похожих на него, — намёк, что Александр не сын Филиппа. Эпитоматор заменил её общей фразой о насмешках и увещаниях. Выпущены и насмешка Александра («покоривший Азию и Европу не смог без беды пройти и одного ложа»), и сравнения с пиром кентавров и лапифов и с Одиссеем, карающим женихов.
+  EN: In Valerius Lysias actually speaks the jibe: may Cleopatra give Philip sons of his own, ‘not shared with another’, who resemble him, i.e. a hint that Alexander is not Philip’s son. The epitomator replaces it with a general sentence about jests and warnings. He also drops Alexander’s taunt (‘he who subdued Asia and Europe could not cross the space of one couch without mishap’) and the comparisons with the Centaurs and Lapiths and with Odysseus punishing the suitors.
+  (source: Iul. Val. 1,21 (Kübler 1888, p. 24))
+- [38] RU: В основе сцены — свадьба 337 г. до н. э. У Плутарха («Александр», 9) о «законном наследнике» говорит Аттал, дядя невесты; Александр бросает в него чашу, Филипп с мечом кидается на сына, но спотыкается и падает. В романе место Аттала занял шут Лисий. Эпитоматор опустил и то, что Филипп поскользнулся (у Валерия «labitur»), поэтому его рана на ноге здесь ничем не объяснена.
+  EN: Behind the scene lies the wedding of 337 BC. In Plutarch (Alexander 9) the remark about a ‘legitimate heir’ comes from Attalus, the bride’s uncle; Alexander throws a cup at him, and Philip rushes at his son with a sword but stumbles and falls. The romance gives Attalus’ role to the jester Lysias. The epitomator also drops Valerius’ ‘labitur’ (Philip slips), so the wound to his leg goes unexplained here.
+  (source: Plut. Alex. 9; Iul. Val. 1,21 (Kübler 1888, p. 24))
+
+**Translator's doubts**
+
+- inter regales delicias — ‘royal pleasures / entertainments’ or ‘the king’s favourites’. Choice: ‘among the royal entertainments’.
+- pergit ille non obaudiens — ‘pergit’ is Zacher’s reading; all Epitome manuscripts have ‘ergo’ (Zacher’s apparatus), and he gives no source. Choice: Translated as printed: ‘he went on, paying no heed’.
+- qui sese veluti comprehendendum inruerant — Gerundive without ‘ad’ (D: ‘ad comprehendendum irruerat’; Valerius likewise has ‘ad comprehendendum’). Choice: ‘who had rushed in as if to seize him’.
+- crureque vulnerato procumbit — The text does not say how Philip hurt his leg (see note). Choice: Literal: ‘his leg wounded, fell down’.
+
+## Chapter 22  (Zacher pp. 24–25; Iul. Val. 1,22; Ps.-Call. α 1.22)
+
+**Latin**
+
+Qui autem aderant Philippum graviter vulneratum cubiculo inducentes lectulo deponunt. Sed post dies plures, cum iam spes esset eius recurationis, ingreditur Alexander amica sollicitudine, considensque lectulo: „quaeso,“ inquit, „o Philippe, quid tandem rei est, quod te averterit a coniuge? Habeo enim scire, vindex et ultor in matrem, si culpa meruit quod evenerat. Quid enim uterque commeruimus, Olympias coniunx a marito abiecta, et filius a patre incursatus? Quin ergo surge! Iam tibi Olympiadem tuam in gratiam deducam.“ Et his dictis transit ad matrem, cui ait: „Quaeso, mi mater, ne movearis super his, quae in te rex maritus egerat. Quamvis enim ipsa clam habeas quid commerueris, age tamen morem conscientiae tuae, cuius memet testem habes, qui tibi suadeo, ut te reddas marito.“ Cedit suadenti filio mater, et ipso duce revenit ad maritum. Et Alexander: „En tibi,“ inquit, „o pater Olympias tua! Agite quaeso post iram integrationem coniugalis affectus, nec sit pudendum, si filius sim parentibus copulator.“ His dictis impetrat quod laborat.
+
+**Russian**
+
+Присутствовавшие же, внеся тяжело раненного Филиппа в спальню, укладывают его на ложе. Спустя же несколько дней, когда уже была надежда на его выздоровление, входит Александр с дружеской заботой и, сев у ложа, говорит: «Прошу, Филипп, скажи: что же такое отвратило тебя от супруги? Ведь мне нужно знать — [я готов стать] мстителем и карателем [даже] по отношению к матери, — заслужила ли она своей виной то, что случилось. Ибо в чём провинились мы оба — Олимпиада, супруга, отвергнутая мужем, и сын, на которого напал отец? Так вставай же! Сейчас я приведу к тебе твою Олимпиаду для примирения». И с этими словами он переходит к матери и говорит ей: «Прошу тебя, матушка, не тревожься из-за того, что сделал против тебя царь, твой муж. Ведь хотя ты сама и таишь, чем ты это заслужила, всё же послушайся своей совести, свидетель которой — я, советующий тебе вернуться к мужу». Мать уступает уговорам сына и под его водительством возвращается к мужу. И Александр говорит: «Вот тебе, отец, твоя Олимпиада! После гнева, прошу вас, восстановите супружескую любовь, и пусть не будет зазорным, что я, сын, соединяю родителей». Этими словами он добивается того, о чём хлопочет.
+
+**English**
+
+Those present carried the gravely wounded Philip into his bedchamber and laid him on a couch. But after several days, when there was already hope of his recovery, Alexander came in with friendly concern and, sitting down by the couch, said: “Tell me, I pray, Philip, what is it that has turned you away from your wife? For I must know — [ready to be] avenger and punisher [even] against my mother — whether by some fault she deserved what has happened. For how have we both offended — Olympias, the wife cast off by her husband, and the son assailed by his father? Come, then, get up! I shall now lead your Olympias to you to be reconciled.” With these words he went over to his mother and said to her: “I pray you, my mother, do not be troubled about what the king your husband has done against you. For although you yourself keep secret what you have deserved, yet do as your conscience bids — of which you have me as witness — I who urge you to return to your husband.” The mother yielded to her son’s persuasion and, with him as her guide, returned to her husband. And Alexander said: “Here, father, is your Olympias! After anger, I pray you both, restore your conjugal affection; and let it not be shameful if I, a son, join my parents together.” With these words he obtained what he was working for.
+
+**Margin notes**
+
+- [39] RU: «Совесть, свидетель которой — я» передаёт греческое: «Если твой проступок и скрыт от него [Филиппа], то я буду тебе уликой» (α 1,22). Рецензия β договаривает: «…будучи [сыном] отца-египтянина». В эпитоме Александр уже знает правду из предсмертных слов Нектанеба (гл. 14).
+  EN: ‘Your conscience, of which you have me as witness’ renders the Greek: ‘Even if your sin escapes him [Philip], I shall be the proof of it against you’ (α 1.22). Recension β spells it out: ‘… being [the son] of an Egyptian father’. In the Epitome, Alexander already knows the truth from Nectanebo’s dying words (ch. 14).
+  (source: Ps.-Call. α 1.22 (Kroll 1926, p. 22 and apparatus))
+- [40] RU: Александр обращается к Филиппу сперва по имени, а потом «отец». У Валерия это объяснено: он зовёт его по имени, пока не убедится в его отцовских чувствах; в греческом — «Отец, — теперь назову тебя отцом, раз ты послушался своего сына». Эпитоматор объяснение опустил. Валерьево «iudex et ultor» у него — «vindex et ultor», как в Амброзианском кодексе.
+  EN: Alexander first addresses Philip by name, then as ‘father’. Valerius explains this: he uses the name until he recognises a father’s feeling in him; the Greek has ‘Father — now I will call you father, since you have obeyed your child’. The epitomator drops the explanation. Valerius’ ‘iudex et ultor’ becomes ‘vindex et ultor’, as in the Ambrosianus.
+  (source: Iul. Val. 1,22 (Kübler 1888, pp. 24–26 and apparatus); Ps.-Call. α 1.22 (Kroll 1926, p. 22))
+
+**Translator's doubts**
+
+- cum iam spes esset eius recurationis — ‘recurationis’ has no manuscript support in Zacher’s apparatus (H L A B D E: ‘recuperationis’); a silent conjecture or a misprint. Choice: Sense is the same either way: ‘recovery’.
+- Habeo enim scire, vindex et ultor in matrem — ‘habeo + inf.’ = ‘I must / I want to know’; the nominatives are in apposition to the subject (Valerius: ‘iudex et ultor futurus’). Choice: ‘[ready to be] avenger and punisher [even] against my mother’.
+- Quamvis enim ipsa clam habeas quid commerueris, age tamen morem conscientiae tuae — ‘clam habere’ = keep secret (or know privately); ‘agere morem’ stands for ‘morem gerere’ (comply with). Choice: ‘although you keep secret what you have deserved, yet do as your conscience bids’.
+
+## Chapter 23  (Zacher pp. 25–26; Iul. Val. 1,23; Ps.-Call. α 1.23)
+
+**Latin**
+
+His ferme diebus quibus haec acta sunt Methona civitas nunciatur obsequio descivisse. Ad quam Philippus animo incitatus, cum adhuc viribus corporis deficeret, opportunum ratus est Alexandrum cum multitudine hostili illuc mitti debere. Idque adolescens properanter exsequitur, diligenter quoque subactam memoratam nuntiat civitatem. Dum igitur ingressus ad patrem haec nuntiaret, vidit forte in domo regia viros barbaro habitu, percunctansque cognoscit, Darii regis Persarum legationem fuisse, qui venerant pro tributo atque censu, terrae scilicet et aquae. Miratur Alexander et petendi morem et titulum, dixitque uni, qui primus illorum esse videbatur: „Haecne elementa venditant Persae mortalibus, quae deus cunctis in commune largitus est?“ Dolebat ergo, quod viri graeci nominis ac dignitatis vectigales barbaris fierent. Igitur ferre iubet ad Darium a se mandata, scilicet uti ab hac petendi consuetudine temperaret; sin aliter, sciret, sese cum Alexandro proelio acrius concertaturum. His dictis exigit homines proficisci. Interea, dum rursus vicina civitas de obsequio vacillaret, datur Alexandro expeditio; pergi quoque illuc iussum est.
+
+**Russian**
+
+Примерно в те же дни, когда это происходило, приходит весть, что город Мефона отложился от повиновения. Филипп, распалившись против него, но всё ещё не имея телесных сил, счёл уместным послать туда Александра с войском. Юноша спешно исполняет это и сообщает, что названный город основательно усмирён. И вот когда, войдя к отцу, он докладывал об этом, он случайно увидел в царском доме мужей в варварской одежде и, расспросив, узнаёт, что это посольство Дария, царя персов, прибывшее за данью и податью, а именно — за землёй и водой. Александр дивится и самому обычаю такого требования, и его названию и сказал одному из них, который казался среди них первым: «Неужто персы продают смертным эти стихии, которые бог даровал всем сообща?» И он сокрушался, что мужи греческого имени и достоинства становятся данниками варваров. Поэтому он велит передать Дарию от себя поручения: пусть тот воздержится от этого обычая требовать, а не то пусть знает, что ему придётся ещё ожесточённее сразиться с Александром в бою. Сказав это, он заставляет их удалиться. Тем временем, так как снова соседний город заколебался в повиновении, поход поручается Александру; было приказано и выступить туда.
+
+**English**
+
+About the very days in which these things were done, word came that the city of Methone had renounced its allegiance. Philip, roused in spirit against it, but still lacking bodily strength, thought it fitting that Alexander should be sent there with an armed force. The youth carried this out speedily and reported that the said city had been thoroughly subdued. Now while, having gone in to his father, he was reporting this, he happened to see in the royal house men in barbarian dress; and on inquiring he learned that it was an embassy of Darius, king of the Persians, who had come for tribute and tax, namely earth and water. Alexander wondered both at the custom of demanding this and at its name, and said to one of them, who seemed to be their leader: “Do the Persians sell to mortals these elements, which god has bestowed on all in common?” He was grieved, then, that men of Greek name and rank should become tributaries of barbarians. So he ordered them to carry his instructions to Darius: namely, that he should refrain from this custom of demanding; otherwise, let him know that he would have to fight it out with Alexander in battle the more fiercely. With these words he made the men depart. Meanwhile, as again a neighbouring city was wavering in its allegiance, the campaign was given to Alexander; and orders were given to march there.
+
+**Margin notes**
+
+- [41] RU: У Валерия Александр велит передать Дарию, что сам взыщет с персов прежде выплаченное и потребует ещё и их собственное достояние, и отсылает пришельцев, «не удостоив царя даже письменным ответом». В эпитоме вместо этого угроза битвы. Пришельцы у Валерия (как и в греческом) — «сатрапы», здесь — посольство; опущена и гордость Филиппа за сына.
+  EN: In Valerius Alexander sends word to Darius that he himself will exact back what has been paid and claim the Persians’ own wealth as well, and he dismisses the visitors ‘without even honouring the king with a written reply’. The Epitome has a threat of battle instead. The visitors are ‘satraps’ in Valerius (as in the Greek), an embassy here; Philip’s pride in his son is omitted.
+  (source: Iul. Val. 1,23 (Kübler 1888, pp. 26–27))
+- [42] RU: Мефону Филипп взял около 354 г. до н. э. (там он потерял глаз: Диодор, 16, 34, 5), когда Александру было около двух лет, а Дарий III воцарился лишь в 336 г. «Земля и вода» — традиционное персидское требование покорности (ср. Геродот, 6, 48).
+  EN: Philip took Methone c. 354 BC (losing an eye there: Diodorus 16.34.5), when Alexander was about two, and Darius III came to the throne only in 336. ‘Earth and water’ is the traditional Persian demand for submission (cf. Herodotus 6.48).
+  (source: Diod. 16.34.5; Hdt. 6.48)
+
+**Translator's doubts**
+
+- Alexandrum cum multitudine hostili illuc mitti debere — Literally ‘with a hostile multitude’; evidently an armed force (Valerius: ‘the soldiers who happened to be at hand’). Choice: ‘with an armed force’ / «с войском».
+- Idque adolescens properanter exsequitur, diligenter quoque subactam memoratam nuntiat civitatem — ‘diligenter’ may go with ‘exsequitur’ (as in Valerius) or with ‘subactam’. Choice: With ‘subactam’, following Zacher’s punctuation: ‘thoroughly subdued’.
+- sin aliter, sciret, sese cum Alexandro proelio acrius concertaturum — ‘sese’ refers to Darius, the subject of ‘sciret’; Alexander speaks of himself in the third person. Choice: ‘that he would have to fight it out with Alexander the more fiercely’.
+
+## Chapter 24  (Zacher pp. 26–27; Iul. Val. 1,24; Ps.-Call. α 1.24)
+
+**Latin**
+
+Enimvero interea Pausanias quidam nomine, opibus et diuitiis affluens, in Olympiadis desiderium amoremque prolapsus est. Qui cum per internuntios adtemptaret et mulier consentiret, scilicet ut deserto Philippo ad illum transnuberet, Pausanias quoque opportunum tempus existimans, quia Alexander tunc forte aberat, cuius iam formidolosum nomen erat nimium, repente irruit super Philippum, eumque vulnere praevenit. Qui cum letaliter ictus esset, festinat mox Pausanias ad raptum Olympiadis. Igitur, cum adhuc populus in theatro turbaretur, forte rebus ex sententia perpetratis Alexander supervenit, offenditque turbas et Philippi vulnera. Quibus cognitis irruens regiam deprehendit Pausaniae violentiam. Cumque eum iaculo destinaret, tenereturque formidine matris vulnerandae, Olympias sic eum adhortatur: „Iaculare,“ inquit, „fili! iaculare ne dubites!“ Enimvero Alexander, cum adhuc Philippum spirare comperisset, iussit Pausaniam illorsum advehi, gladiumque in dexteram patris misit, quo manu eius oppeteret, occiditque eum. Ergo iam moriens Philippus ait: „Nihil est quod me vitae finis aut mors contristet, ultus enim auctorem iniuriae libens oppetam.“ Et adiecit: „Reminiscor,“ inquit, „o Alexander, deum matri tuae praegnanti praedixisse, quod vindicem filium esset paritura.“ Et his dictis spiritum exhalavit. Alexander quoque mox regiam procuravit ei sepulturam.
+
+**Russian**
+
+Между тем некий человек по имени Павсаний, обладавший большими средствами и богатством, впал в страстное влечение и любовь к Олимпиаде. Когда он через посредников стал её склонять и женщина соглашалась, а именно — оставить Филиппа и выйти замуж за него, Павсаний, сочтя время удобным, потому что Александр, имя которого уже внушало чрезвычайный страх, тогда как раз отсутствовал, внезапно бросается на Филиппа и упреждает его, нанеся рану. Когда тот был смертельно ранен, Павсаний тотчас спешит похитить Олимпиаду. И вот, когда народ в театре ещё был в смятении, Александр, успешно исполнив свои дела, по случайности прибывает и застаёт смятение и раны Филиппа. Узнав обо всём, он врывается во дворец и застаёт Павсания за насилием. И когда он нацелил на него дротик, но его удерживал страх ранить мать, Олимпиада так ободряет его: «Бросай, сын, — говорит она, — бросай, не медли!» Александр же, узнав, что Филипп ещё дышит, велел доставить Павсания туда и вложил меч в правую руку отца, чтобы [Павсаний] погиб от его руки; и [Филипп] убил его. И вот, уже умирая, Филипп говорит: «Нет причины, чтобы конец жизни или смерть огорчали меня: отомстив виновнику обиды, я охотно умру». И прибавил: «Вспоминаю, Александр, что бог предсказал твоей матери, когда она была беременна, что она родит сына-мстителя». И с этими словами испустил дух. Александр же вскоре устроил ему царское погребение.
+
+**English**
+
+Meanwhile a certain man named Pausanias, abounding in means and riches, fell into desire and love for Olympias. When he was making approaches to her through go-betweens and the woman was consenting — namely, to leave Philip and marry him — Pausanias, judging the moment opportune because Alexander, whose name was already exceedingly dreaded, happened to be away at the time, suddenly fell upon Philip and forestalled him with a wound. When Philip had been mortally struck, Pausanias at once hastened to carry off Olympias. So, while the people in the theatre were still in turmoil, Alexander, having accomplished his business as he wished, chanced to arrive and found the turmoil and Philip’s wounds. Learning what had happened, he burst into the palace and caught Pausanias in his act of violence. And when he took aim at him with a javelin but was held back by the fear of wounding his mother, Olympias urged him thus: “Throw, son!” she said; “throw, do not hesitate!” But Alexander, having found that Philip was still breathing, ordered Pausanias to be brought there and put a sword into his father’s right hand, so that [Pausanias] should die by his hand; and [Philip] killed him. Then Philip, already dying, said: “There is no reason why the end of life or death should sadden me; for having avenged myself on the author of the wrong, I shall die gladly.” And he added: “I remember, Alexander, that the god foretold to your mother when she was pregnant that she would bear a son who would be an avenger.” And with these words he breathed his last. Alexander soon provided a royal burial for him.
+
+**Margin notes**
+
+- [43] RU: «Et mulier consentiret»: в эпитоме выходит, что Олимпиада согласна. У Юлия Валерия Павсаний через посредников выведывает, «согласится ли» она (ecquid mulier consentiret), и «не добился своего» (neque id ei ex sententia provenisset); в греческом она отказывает. Сходная порча есть в Амброзианском кодексе Валерия: там «idque» вместо «neque id» (аппарат Кюблера).
+  EN: ‘Et mulier consentiret’: in the Epitome Olympias appears to consent. In Julius Valerius Pausanias sounds out through go-betweens ‘whether the woman would consent’ (ecquid mulier consentiret) and ‘did not get his wish’ (neque id ei ex sententia provenisset); in the Greek she refuses. A similar corruption is in the Ambrosian manuscript of Valerius, which reads ‘idque’ for ‘neque id’ (Kübler’s apparatus).
+  (source: Iul. Val. 1,24 (Kübler 1888, p. 27 and apparatus))
+- [44] RU: Исторически Филипп был убит в 336 г. до н. э. в театре в Эгах Павсанием из Орестиды, одним из своих телохранителей (Диодор, 16, 93–94). Отсюда «in theatro», которое в эпитоме возникает без подготовки: у Валерия перед этим сказано, что Филипп председательствовал на театральном состязании. Выпущен и Аммон: у Валерия Олимпиада кричит, что её защитник — Аммон, а Филипп вспоминает предсказание Аммона; здесь — просто «бог».
+  EN: Historically Philip was murdered in 336 BC in the theatre at Aegae by Pausanias of Orestis, one of his bodyguards (Diodorus 16.93–94). Hence ‘in theatro’, which appears unprepared in the Epitome: Valerius first says that Philip was presiding over a stage contest. Ammon is removed too: in Valerius Olympias cries that Ammon is her protector, and Philip recalls Ammon’s prophecy; here it is just ‘the god’.
+  (source: Diod. 16.93–94; Iul. Val. 1,24 (Kübler 1888, pp. 27–28))
+
+**Translator's doubts**
+
+- Qui cum per internuntios adtemptaret et mulier consentiret — See note: the sense of Valerius is reversed. Choice: Translated as printed (she consents); the problem is flagged in the note.
+- gladiumque in dexteram patris misit, quo manu eius oppeteret, occiditque eum — Grammatically the subject of ‘oppeteret’ and ‘occidit’ is unexpressed; ‘manu eius’ and Philip’s last words show that Pausanias dies and Philip kills (Valerius: ‘oppeteret Pausanias’). Choice: ‘[Pausanias]’ and ‘[Philip]’ supplied in brackets.
+- eumque vulnere praevenit — ‘forestalled him with a wound’, i.e. struck before Philip could react. Choice: «упреждает его, нанеся рану» / ‘forestalled him with a wound’.
+
+## Chapter 25  (Zacher pp. 27; Iul. Val. 1,25; Ps.-Call. α 1.25)
+
+**Latin**
+
+Ac deinde ascendens eius statuam convocataque universa multitudine plebis ait: „En tempus est, ut, quicumque Alexandro cupit militare, foedus inire cum illo festinet. Namque mihi dignum videtur, bella in eos primum movere, qui nos pridem re, nunc autem cupiunt spoliare etiam et libertate.“ His dictis acquiescit omnis miles, ac si divinitus monitus fuisset. Tum Alexander reserans thesauros patris arma opesque distribuit cunctis.
+
+**Russian**
+
+А затем, поднявшись на статую Филиппа и созвав всё множество простого народа, он сказал: «Вот настало время, чтобы всякий, кто желает служить в войске Александра, поспешил заключить с ним союз. Ибо мне кажется достойным прежде всего пойти войной на тех, кто давно [лишал] нас достояния, а теперь хочет лишить ещё и свободы». С этими словами соглашается всякий воин, словно получив внушение свыше. Тогда Александр, открыв отцовские сокровищницы, раздаёт всем оружие и богатства.
+
+**English**
+
+And then, climbing onto Philip’s statue and calling together the whole multitude of the common people, he said: “Now is the time for whoever wishes to serve under Alexander to hasten to enter into a compact with him. For it seems right to me to make war first on those who long ago [despoiled] us of our property and now wish to despoil us of our freedom as well.” At these words every soldier assented, as if he had been admonished by a god. Then Alexander, opening his father’s treasuries, distributed arms and wealth to all.
+
+**Margin notes**
+
+- [45] RU: У Валерия Александр поднимается на постамент (suggestum) отцовской статуи; в эпитоме — «на его статую». Речь у Валерия обращена к Пелле, македонянам, афинянам и коринфянам и зовёт «обратить персов в рабство»; затем идут указ городам, эпизод с ветеранами, ссылающимися на возраст, и речь Александра о юности и старости. Эпитоматор всё это опустил.
+  EN: In Valerius Alexander mounts the pedestal (suggestum) of his father’s statue; in the Epitome, ‘his statue’ itself. Valerius’ speech addresses Pella, the Macedonians, Athenians and Corinthians and calls for ‘leading the Persians into slavery’; then come an edict to the cities, the episode of the veterans who plead their age, and Alexander’s speech on youth and age. The epitomator omits all this.
+  (source: Iul. Val. 1,25 (Kübler 1888, pp. 28–30))
+
+**Translator's doubts**
+
+- ascendens eius statuam — Literally ‘climbing (onto) his statue’; Valerius has the statue’s pedestal. Choice: Literal rendering; the difference is explained in the note.
+- qui nos pridem re, nunc autem cupiunt spoliare etiam et libertate — Zeugma: ‘spoliare’ serves both ‘re’ and ‘libertate’. Choice: The verb supplied in brackets: ‘[despoiled]’ / «[лишал]».
+
+## Chapter 26  (Zacher pp. 27–28; Iul. Val. 1,26; Ps.-Call. α 1.26)
+
+**Latin**
+
+Connumeratis igitur militibus quos ipse recens scripserat congregat Macedones quindecim milia pedites, auxiliaque diversa in octo milibus, equites vero indigenas duo milia septingentos, levis vero armaturae Thracas octingentos. Unde hoc numero cum veteri milite congregato collegit admodum septuaginta milia sexcentos quatuor militantium. Tunc viae sumptum e Philippi thesauris abundantissime sumens classique elaborata transit in Thraciam.
+
+**Russian**
+
+Итак, пересчитав воинов, которых он сам недавно набрал, он собирает пятнадцать тысяч македонян-пехотинцев, разные вспомогательные войска числом восемь тысяч, всадников из местных уроженцев две тысячи семьсот, а легковооружённых фракийцев восемьсот. Затем, соединив это число со старым войском, он собрал полных семьдесят тысяч шестьсот четыре воина. Тогда, взяв в величайшем изобилии из сокровищниц Филиппа средства на поход и построив флот, он переправляется во Фракию.
+
+**English**
+
+Having counted, then, the soldiers he had himself recently enrolled, he assembled fifteen thousand Macedonian foot, various auxiliaries to the number of eight thousand, two thousand seven hundred native horsemen, and eight hundred light-armed Thracians. Then, joining this number with the veteran troops, he brought together fully seventy thousand six hundred and four men under arms. Then, taking from Philip’s treasuries most abundantly the costs of the march, and having built a fleet, he crossed into Thrace.
+
+**Margin notes**
+
+- [46] RU: Новый набор даёт 26 500 человек. Итог в 70 604 воина совпадает с Туринским палимпсестом Валерия (в аппарате Кюблера: «DCIV T. Epit.»), тогда как Кюблер печатает 70 654. В рукописях эпитомы числа записаны римскими цифрами; словами их передал Цахер. Подробный подсчёт денег у Валерия заменён словом «abundantissime».
+  EN: The new levies add up to 26,500 men. The total of 70,604 agrees with the Turin palimpsest of Valerius (Kübler’s apparatus: ‘DCIV T. Epit.’), whereas Kübler prints 70,654. The Epitome manuscripts give the figures in Roman numerals; Zacher writes them out in words. Valerius’ detailed account of the money is replaced by ‘abundantissime’.
+  (source: Iul. Val. 1,26 (Kübler 1888, p. 30 and apparatus); Zacher 1867, pp. 27–28)
+- [47] RU: Исторически Александр переправился в Азию с пехотой «немногим больше тридцати тысяч» и с конницей «свыше пяти тысяч» (Арриан, «Поход Александра», 1, 11, 3).
+  EN: Historically Alexander crossed into Asia with ‘not much more than thirty thousand’ foot and ‘over five thousand’ horse (Arrian, Anabasis 1.11.3).
+  (source: Arr. Anab. 1.11.3)
+
+**Translator's doubts**
+
+- collegit admodum septuaginta milia sexcentos quatuor militantium — ‘admodum’ with numerals: ‘fully, no fewer than’ (or ‘about’). Choice: ‘fully’ / «полных».
+
+## Chapter 29  (Zacher pp. 28; Iul. Val. 1,29; Ps.-Call. α 1.29)
+
+**Latin**
+
+Illic ergo rebus ad ordinem redactis pergit Lycaoniam, cui nunc recens aetas Lucaniae nomen dedit. Igitur eius loci magistratibus ad amicitiam foederatis transmittit protinus ad Siciliam. Exinque Italiam transiens legatione pariter et honore potitur Romanorum. Per Aemilium quippe, qui consul tunc temporis erat, coronam auream ei margaritis insignitam dirigunt ad argumentum amicitiae perpetuo post futurae. Idque Alexandro magnae gratiae fuit; et verbis liberalibus Aemilium honoratum remittit. Addunt etiam duo milia militum et argenti pondera talentorum quadraginta.
+
+**Russian**
+
+Итак, приведя там дела в порядок, он направляется в Ликаонию, которой новое время дало ныне имя Лукании. Связав должностных лиц этой местности договором о дружбе, он тотчас переправляется на Сицилию. А оттуда, переходя в Италию, получает от римлян и посольство, и почести. Ибо через Эмилия, бывшего тогда консулом, они направляют ему золотой венец, украшенный жемчугом, в знак дружбы, которой впредь быть вечной. Это было очень приятно Александру; и он отпускает Эмилия, почтив его милостивыми словами. [Римляне] прибавляют ещё две тысячи воинов и серебро весом в сорок талантов.
+
+**English**
+
+So, having put matters in order there, he proceeded to Lycaonia, to which the recent age has now given the name of Lucania. Then, having bound the magistrates of that place to him in friendship by treaty, he crossed at once to Sicily. And from there, passing into Italy, he received from the Romans both an embassy and honour. For through Aemilius, who was consul at that time, they sent him a golden crown adorned with pearls as a token of friendship that was to last for ever after. This was very welcome to Alexander; and he sent Aemilius back, honoured with gracious words. They added also two thousand soldiers and silver to the weight of forty talents.
+
+**Margin notes**
+
+- [48] RU: В греческой рукописи A стоит «Ликаония» (область в Малой Азии); Аусфельд исправлял на «Лукания». Валерий примиряет то и другое учёной глоссой, и эпитоматор её сохраняет. По сравнению с Валерием опущены вес венца (сто фунтов) и война Рима с Карфагеном, а четыреста талантов серебра стали сорока.
+  EN: The Greek manuscript A has ‘Lycaonia’ (a region in Asia Minor), which Ausfeld corrected to ‘Lucania’. Valerius reconciles the two with a learned gloss, which the epitomator keeps. Compared with Valerius, the weight of the crown (a hundred pounds) and Rome’s war with Carthage are omitted, and four hundred talents of silver become forty.
+  (source: Ps.-Call. α 1.29 (Kroll 1926, p. 26 and apparatus); Iul. Val. 1,29 (Kübler 1888, p. 31))
+- [49] RU: В Италии Александр не бывал. Античная традиция знает лишь римское посольство к нему: Плиний («Естественная история», 3, 57) ссылается на Клитарха, Арриан (7, 15, 5–6) передаёт это с оговоркой. Мемнон Гераклейский (у Фотия, «Библиотека», cod. 224), которого цитирует Цахер, сообщает, что римляне послали Александру, когда тот переправлялся в Азию, золотой венец ценой во много талантов.
+  EN: Alexander never went to Italy. Ancient tradition knows only of a Roman embassy to him: Pliny (Natural History 3.57) cites Clitarchus for it, and Arrian (7.15.5–6) reports it with reserve. Memnon of Heraclea (in Photius, Bibliotheca cod. 224), quoted by Zacher, says that when Alexander was crossing into Asia the Romans sent him a golden crown worth many talents.
+  (source: Plin. NH 3.57; Arr. Anab. 7.15.5–6; Memnon ap. Phot. cod. 224 (quoted in Zacher 1867, p. 28))
+
+**Translator's doubts**
+
+- legatione pariter et honore potitur Romanorum — ‘potiri’ with ‘legatione’ is loose: ‘obtained an embassy and honour from the Romans’ (taken from Valerius). Choice: ‘received from the Romans both an embassy and honour’.
+- argenti pondera talentorum quadraginta — Valerius has ‘quadringenta’ (400); in the Epitome D writes ‘xl.’. Choice: Translated as printed: forty.
+
+## Chapter 30  (Zacher pp. 29; Iul. Val. 1,30; Ps.-Call. α 1.30)
+
+**Latin**
+
+Hinc igitur pergens omnem Libyam peragrat.
+
+**Russian**
+
+Отправившись оттуда, он проходит всю Ливию.
+
+**English**
+
+Setting out from there, he traversed all Libya.
+
+**Margin notes**
+
+- [50] RU: У Валерия Александр «с совсем немногими спутниками» идёт через Ливию к Аммону, приносит жертвы, молится («О отец Аммон…»), строит храм с надписью «Отцу Аммону» и во сне получает оракул об основании города. Дальше идут основание Александрии и Сарапис (гл. 31–33 по Мюллеру). Эпитоматор оставил одну фразу; как и в гл. 24, Аммон из рассказа исчезает.
+  EN: In Valerius Alexander, ‘with very few companions’, crosses Libya to Ammon, sacrifices, prays (‘O father Ammon…’), builds a temple inscribed ‘To Father Ammon’ and in a dream receives an oracle about founding a city. Then come the foundation of Alexandria and Sarapis (Müller XXXI–XXXIII). The epitomator keeps one sentence; as in ch. 24, Ammon vanishes from the story.
+  (source: Iul. Val. 1,30 (Kübler 1888, p. 32 ff.))
+
+## Chapter 34  (Zacher pp. 29; Iul. Val. 1,34; Ps.-Call. α 1.34)
+
+**Latin**
+
+Collecto autem in unum omni exercitu ad Aegypti ulteriora contendit, classi iussa sese apud Tripolim opperiri. Aegyptii quoque eum veste et sede regni dignum duxerunt, secundum Sesonchosin venisse dicentes. Intuetur ergo ibi ipse statuam quandam nigro lapide, cuius causam percunctans responsum accepit, hanc illius Nectanabi fuisse, qui olim infestantibus Persis, cum deorum monitu praescivisset fortunae suae lapsum, locum casuum declinavit. His Alexander auditis statuam complexus patrem salutat, eiusque se filium profitetur.
+
+**Russian**
+
+Собрав затем всё войско воедино, он устремляется в дальние пределы Египта, приказав флоту ждать его у Триполиса. Египтяне же сочли его достойным царского одеяния и престола, говоря, что пришёл второй Сесонхосис. И вот там он видит некую статую из чёрного камня и, спросив, что это за статуя, получил ответ, что это [статуя] того самого Нектанеба, который некогда, когда наступали персы, заранее узнав по предостережению богов о крушении своего счастья, ушёл от места бедствий. Услышав это, Александр, обняв статую, приветствует [в ней] отца и объявляет себя его сыном.
+
+**English**
+
+Having then gathered his whole army into one, he pressed on to the further parts of Egypt, ordering the fleet to wait for him at Tripolis. The Egyptians, for their part, deemed him worthy of the royal robe and throne, saying that a second Sesonchosis had come. There he beheld a certain statue of black stone; and asking what it was, he received the answer that it was [a statue] of that Nectanebo who once, when the Persians were attacking, foreknew by a warning of the gods the fall of his fortune and withdrew from the scene of disaster. Hearing this, Alexander embraced the statue, greeted [in it] his father, and declared himself his son.
+
+**Margin notes**
+
+- [51] RU: У Валерия египтяне выходят навстречу со статуями богов; в Мемфисе, в храме Вулкана (Гефеста), Александра облачают в одеяние египетских царей и сажают на престол бога. На статуе Нектанеба надпись: бежавший царь вернётся «не старше, а моложе» и покорит врагов. Эпитоматор надпись опустил (как и оракул о возвращении в гл. 3), и сцена теряет смысл. Его «veste et sede regni dignum duxerunt» совпадает с поправкой на полях Амброзианского кодекса.
+  EN: In Valerius the Egyptians come out to meet Alexander with images of their gods; at Memphis, in the temple of Vulcan (Hephaestus), they clothe him in the robe of the Egyptian kings and seat him on the god’s throne. Nectanebo’s statue bears an inscription: the fugitive king will return ‘not older, but younger’ and subdue the enemies. The epitomator drops the inscription (as he dropped the oracle of the return in ch. 3), so the scene loses its point. His ‘veste et sede regni dignum duxerunt’ agrees with a marginal correction in the Ambrosianus.
+  (source: Iul. Val. 1,34 (Kübler 1888, p. 44 and apparatus))
+- [52] RU: Здесь, в отличие от фантастического перечня народов в гл. 2, враги Нектанеба — персы, и это исторично: Нектанеб II потерял Египет при Артаксерксе III около 343 г. до н. э. и бежал в Эфиопию (Диодор, 16, 51, 1).
+  EN: Here, unlike the fantastic list of peoples in ch. 2, Nectanebo’s enemies are the Persians, which is historical: Nectanebo II lost Egypt to Artaxerxes III c. 343 BC and fled to Ethiopia (Diodorus 16.51.1).
+  (source: Diod. 16.51.1)
+
+**Translator's doubts**
+
+- locum casuum declinavit — ‘avoided the place of the misfortunes’, i.e. fled before the disaster. Choice: Literal: ‘withdrew from the scene of disaster’ / «ушёл от места бедствий».
+- cuius causam percunctans — ‘asking its cause’, i.e. what the statue was and why it stood there. Choice: ‘asking what it was’.
+
+## Chapter 35  (Zacher pp. 29–30; Iul. Val. 1,35; Ps.-Call. α 1.35)
+
+**Latin**
+
+Rursus recepto omni exercitu Syriae per quascunque sibi transitus fuerat civitates nomini suo addidit, ac deinde Tyrum advenit. Sed enim Tyrii moenibus obseratis ingressum illi denegant. Ipse vero, dum urbem violenter diripere vellet, multis Macedonum caesis pedem refert. Post haec autem excidium Tyriis minabatur, missisque internuntiis litteras eis huiuscemodi iussit deferri: „Imperiale videbatur cum clementia ac iustitia me vestrae urbi dominari. Sed quum vos primi omnium extitistis, qui meis iussis insolentius obviaretis, terribile exemplum aliis praebebitis, quid virium sit in Macedonum dextris. Valete si sapitis, non enim valebitis, si in his perseveratis.“ His litteris Tyrii lectis primates legatos corripi iubent, ac tormentis primum affectos crucibus affixerunt. His incentivis exstimulatus Alexander gravi indignatione permotus vehementiusque urbem adgressus diruit ac vastat, omni sexu et aetate peremta.
+
+**Russian**
+
+Вновь соединив всё войско, он присоединил к своей власти все города Сирии, через которые лежал его путь, и затем подошёл к Тиру. Но тирийцы, заперев стены, отказывают ему во входе. Он же, пожелав силой разграбить город, отступает, потеряв убитыми многих македонян. После этого он грозил тирийцам истреблением и, отправив посредников, велел доставить им такое письмо: «Подобающим верховной власти представлялось, чтобы я владычествовал над вашим городом с милосердием и справедливостью. Но поскольку вы первыми из всех столь дерзко воспротивились моим повелениям, вы подадите прочим страшный пример того, какая сила в десницах македонян. Будьте здоровы, если вы благоразумны; ибо здоровы не будете, если будете упорствовать в этом». Прочтя это письмо, тирийские вельможи приказывают схватить послов и, подвергнув их сначала пыткам, распяли на крестах. Подстрекаемый этим, Александр, охваченный тяжким негодованием, с ещё большей яростью нападает на город, разрушает и опустошает его, истребив [жителей] всякого пола и возраста.
+
+**English**
+
+Having once more reunited his whole army, he added to his rule all the cities of Syria through which he had passage, and then came to Tyre. But the Tyrians barred their walls and refused him entry. He, wishing to sack the city by force, fell back with many Macedonians slain. After this he threatened the Tyrians with destruction and, sending messengers, ordered a letter of this kind to be delivered to them: “It seemed befitting to supreme power that I should rule over your city with clemency and justice. But since you have been the first of all to oppose my orders so insolently, you will give others a terrible example of the strength that lies in the right hands of the Macedonians. Fare well, if you are wise; for you will not fare well if you persist in this.” When this letter had been read, the Tyrian leaders ordered the envoys to be seized and, having first subjected them to torture, nailed them to crosses. Goaded by these provocations, Alexander, moved by grave indignation, attacked the city more fiercely, demolished it and laid it waste, every sex and age being put to death.
+
+**Margin notes**
+
+- [53] RU: У Валерия тирийцы запирают ворота из-за оракула: если царь пройдёт через их город с войском, городу грозит гибель. Александру во сне велено не идти послом самому, а тирийцы пытают послов, чтобы узнать, кто из них Александр. В эпитоме пытки остались без причины. Опущены также сон о сатире («са-Тирос») и основание Триполиса из трёх деревень.
+  EN: In Valerius the Tyrians shut their gates because of an oracle: if a king passed through their city with an army, the city would fall. A dream warns Alexander not to go as his own envoy, and the Tyrians torture the envoys to find out which of them is Alexander. In the Epitome the torture has no motive. Also omitted are the dream of the satyr (‘sa-Tyros’) and the founding of Tripolis from three villages.
+  (source: Iul. Val. 1,35 (Kübler 1888, pp. 45–47))
+- [54] RU: Письмо сокращено. У Валерия в заголовке — «сын Аммона и Филиппа, царь царей»; «греческим и царственным» ему казалось милостиво «войти» в их город (invehi), а в конце угроза: «пройду через ваш город, но разрушенный». В эпитоме вместо «войти» — «владычествовать» (dominari); игра слов «valete — valebitis» сохранена.
+  EN: The letter is shortened. In Valerius the heading reads ‘son of Ammon and Philip, king of kings’; it seemed to him ‘Greek and imperial’ to ‘enter’ (invehi) their city mercifully; and he ends with the threat ‘I shall pass through your city, but destroyed’. The Epitome replaces ‘enter’ with ‘rule’ (dominari) but keeps the wordplay ‘valete — valebitis’.
+  (source: Iul. Val. 1,35 (Kübler 1888, p. 46))
+
+**Translator's doubts**
+
+- Syriae per quascunque sibi transitus fuerat civitates nomini suo addidit — Hyperbaton ‘Syriae … civitates’; ‘nomini suo addidit’ literally ‘added to his name’ (from Valerius). Choice: ‘added to his rule’ / «присоединил к своей власти».
+- Imperiale videbatur cum clementia ac iustitia me vestrae urbi dominari — ‘imperiale’ is predicative and ‘me’ is the subject of ‘dominari’ (not ‘it seemed to me’). Choice: ‘It seemed befitting to supreme power that I should rule over your city’.
+
+## Chapter 36  (Zacher pp. 30–31; Iul. Val. 1,36; Ps.-Call. α 1.36)
+
+**Latin**
+
+Tyro dehinc satrapam praeficit. Tumque Syriam perrexit, accepitque ibi Darii regis Persarum litteras in hanc sententiam scriptas: „Rex regum Darius et consanguineus deorum Alexandro, famulo meo, iubeo dicoque haec. Mando tibi reverti ad parentes tuos, famulos scilicet meos, atque in gremio matris cubantem doceri virile officium. Ad quam rem habenam scythicam tibi et pilam loculosque cum aureis misi. Habena admonet, te disciplinae videri indigentem, pila vero, quod eius lusitatio tuae congruat aetatulae, non haec opera, quam ritu latronum tibi consimilium aggressus es. Nam si omne huiusmodi hominum genus pari conspiratione tecum conduxeris, Persarum imperium nequaquam terrere poteris. Tanta quippe mihi exercituum multitudo adest, ut nulli melius quam arenae maris possit comparari. Auri porro atque argenti haec copia, ut, si mihi libitum esset, totam humum inde consternere possem. Quapropter aureos tibi misi, uti, si ad reversionem sumptibus indigebis, habeas quo tibi tuisque necessaria emas. Sin autem iussionibus nostris obaudire distuleris, protinus mittam viros, qui te vinctum atque contumeliose verberibus affectum maiestati nostrae deducant.“
+
+**Russian**
+
+Затем он ставит над Тиром сатрапа. Потом он направился в Сирию и там получил письмо Дария, царя персов, написанное в таком смысле: «Царь царей и сродник богов Дарий — Александру, слуге моему: повелеваю и говорю следующее. Приказываю тебе вернуться к твоим родителям, то есть к моим слугам, и, лёжа на коленях у матери, учиться мужскому делу. Для этого я послал тебе скифскую плеть, мяч и ларчик с золотыми. Плеть напоминает, что ты, по-видимому, нуждаешься в воспитании; мяч же — что тебе по твоему детскому возрасту пристала игра в него, а не это дело, за которое ты взялся по обычаю подобных тебе разбойников. Ибо, даже если ты соберёшь с собою в едином сговоре весь род подобных людей, ты никоим образом не сможешь устрашить державу персов. Ведь у меня такое множество войск, что его ни с чем лучше нельзя сравнить, как с песком морским. А золота и серебра [у меня] такое обилие, что, будь на то моя воля, я мог бы выстлать им всю землю. Потому я и послал тебе золотые, чтобы, если тебе на обратный путь не хватит средств, ты имел, на что купить необходимое себе и своим. Если же ты станешь медлить с повиновением нашим повелениям, я тотчас пошлю людей, которые приведут тебя к нашему величеству связанным и позорно избитым».
+
+**English**
+
+Next he set a satrap over Tyre. Then he went on into Syria, and there received a letter from Darius, king of the Persians, written to this effect: “Darius, king of kings and kinsman of the gods, to Alexander my servant: I command and declare as follows. I order you to return to your parents — my servants, that is — and, lying in your mother’s lap, to be taught a man’s duty. For this purpose I have sent you a Scythian strap, a ball, and a casket of gold coins. The strap reminds you that you appear to be in need of discipline; the ball, that playing with it suits your tender years, and not this enterprise which you have undertaken in the manner of brigands like yourself. For even if you gather the whole race of men of this kind to join you in a like conspiracy, you will in no way be able to frighten the empire of the Persians. For such is the multitude of my armies that it could be compared to nothing better than the sand of the sea. And of gold and silver [I have] such plenty that, if I pleased, I could pave the whole earth with it. That is why I have sent you gold coins: so that, if you lack means for your journey home, you may have wherewith to buy necessities for yourself and your men. But if you put off obeying our commands, I shall at once send men to bring you before our majesty, bound and shamefully beaten.”
+
+**Margin notes**
+
+- [55] RU: В печатном тексте Цахера — «tuae congruat aetatulae» («подобает твоему детскому возрасту»); «tunc» в TEI-транскрипции — ошибка. У Валерия так же: «cum tua aetatula». Перевод следует изданию.
+  EN: Zacher’s print reads ‘tuae congruat aetatulae’ (‘suits your tender years’); ‘tunc’ in the TEI transcription is an error. Valerius likewise has ‘cum tua aetatula’. The translation follows the print.
+  (source: Zacher 1867, p. 30; Iul. Val. 1,36 (Kübler 1888, p. 47))
+- [56] RU: У Валерия к титулам Дария прибавлено «сопрестольник бога Митры, восходящий вместе с солнцем»; в эпитоме этого нет. Конец письма расширен: у Валерия Дарий лишь пошлёт людей схватить и доставить Александра, и тот будет наказан «не как сын Филиппа»; здесь его приведут связанным и позорно избитым.
+  EN: In Valerius Darius’ titles include ‘throne-companion of the god Mithras, rising together with the sun’; the Epitome drops this. The end of the letter is expanded: in Valerius Darius will merely send men to seize Alexander and bring him, and he will be punished ‘not as Philip’s son’; here he will be brought bound and shamefully beaten.
+  (source: Iul. Val. 1,36 (Kübler 1888, pp. 47–48))
+
+**Translator's doubts**
+
+- pila vero, quod eius lusitatio tunc congruat aetatulae — The transcription has ‘tunc’; Zacher’s print has ‘tuae’ (checked on the page image). Choice: Print reading ‘tuae’: ‘suits your tender years’.
+- habenam scythicam — ‘habena’ = strap, thong or rein; here an instrument of correction (Greek σκῦτος). Choice: RU «плеть», EN ‘strap’.
+
+## Chapter 37  (Zacher pp. 31; Iul. Val. 1,37; Ps.-Call. α 1.37)
+
+**Latin**
+
+Haec dicta primates Alexandri nimium perterruerunt. Quod ubi ipse mente percepit in haec verba prorupit: „O Macedones nostri, quid tandem adeo dictis barbaricis perturbamini? quae arrogantiae quidem vanitatisque habent testimonium, non confidentiae probationem. Nam et canibus imbecillioribus mos est, quanto plus defuerit virium, eo magis latratibus indulgere. Haec mihi visa est competentior ad Darii iactantiam comparatio, qui, quod praestare viribus nequit, verbis minatur.“ Atque his dictis roborat pavitantia corda suorum. Persas ergo, qui legationis gratia venerant, donatos omni eo auro quod secum attulerant, remittit in sua cum litteris huiusmodi:
+
+**Russian**
+
+Эти слова сильно напугали приближённых Александра. Как только он это заметил, он разразился такой речью: «О мои македоняне, отчего же вы так смущены варварскими речами? Они свидетельствуют о высокомерии и тщеславии, а вовсе не доказывают уверенности. Ведь и у слабых собак в обычае: чем меньше у них сил, тем больше они предаются лаю. Это сравнение показалось мне весьма подходящим к хвастовству Дария, который угрожает словами тем, чего не может совершить силой». И этими словами он укрепляет трепещущие сердца своих. Затем персов, прибывших в качестве послов, он отпускает восвояси, одарив всем тем золотом, что они привезли с собой, с таким письмом:
+
+**English**
+
+These words greatly terrified Alexander’s leading men. When he perceived this, he burst out in these words: “O my Macedonians, why are you so troubled by barbarian words? They bear witness to arrogance and vanity, not proof of confidence. For it is the way of weaker dogs too: the more strength they lack, the more they indulge in barking. This seemed to me a rather fitting comparison for the boasting of Darius, who threatens with words what he cannot achieve by strength.” And with these words he strengthened the trembling hearts of his men. Then the Persians who had come as envoys he sent back home, presented with all the gold they had brought with them, with a letter of this kind:
+
+**Margin notes**
+
+- [57] RU: У Валерия после речи Александр велит распять послов, но после их мольбы отменяет приговор: он хотел лишь показать разницу между произволом тиранов и греческой справедливостью. Затем он угощает их и отклоняет предложение одного из послов предать Дария. Эпитоматор оставил только возвращение золота. Фраза «roborat pavitantia corda suorum» — его собственная.
+  EN: In Valerius, after the speech, Alexander orders the envoys crucified but relents at their plea: he only wished to show the difference between the lawlessness of tyrants and Greek justice. He then feasts them and declines one envoy’s offer to betray Darius. The epitomator keeps only the return of the gold. The sentence ‘roborat pavitantia corda suorum’ is his own.
+  (source: Iul. Val. 1,37 (Kübler 1888, pp. 48–49))
+
+**Translator's doubts**
+
+- Haec mihi visa est competentior ad Darii iactantiam comparatio — The comparative ‘competentior’ is used without a second term. Choice: ‘a rather fitting comparison’ / «весьма подходящим».
+
+## Chapter 38  (Zacher pp. 31–32; Iul. Val. 1,38; Ps.-Call. α 1.38)
+
+**Latin**
+
+„Alexander rex, regi regum consanguineoque deorum Dario salutem dicit. Turpe mihi videtur nimiumque abhorrens, tantum regem totque viribus, ut sese iactat, consitum, sub ditionem contemptibilium, ut retur, homullorum deventurum, atque inter eos abiecto cuidam ac latroni Alexandro diu graviterque serviturum. Quaeso igitur, quorsum te sententia duxit, quoniam dixisti, te auri argentique opibus aestuare? An non ut his cognitis, auri si nobis fervor aut desiderium inest, obstinatius atque audacius dimicaremus adversum vos, scilicet spe maioris praedae. Addis etiam, misisse te mihi habenam et pilam loculosque cum aureis, de quibus, quamvis tu uti visum est dictitares, ego tamen mihi velut auspicato cuncta ex te concessa profitebor. Namque habenam accipi oportet, qua habeam uti in subiectos tibi. Pilae vero simulamen, ob rotunditatem sui, totius orbis mihi imperium repromittit. Quodque tertium addidisti, loculos auri, opum tuarum me dominum futurum testantur, subiectumque te viribus meis.“
+
+**Russian**
+
+«Царь Александр — царю царей и сроднику богов Дарию: привет. Позорным и крайне несообразным кажется мне, чтобы столь великий царь, при стольких силах, как он сам похваляется, подпал под власть, как он полагает, ничтожных людишек и среди них долго и тяжко служил некоему отверженному разбойнику Александру. Скажи же, прошу, куда завела тебя твоя мысль, когда ты сказал, что у тебя в избытке богатств золота и серебра? Не для того ли, чтобы мы, узнав об этом, — если есть в нас жар или жажда золота, — сражались против вас упорнее и отважнее, то есть в надежде на бо́льшую добычу? Ты прибавляешь ещё, что послал мне плеть, мяч и ларчик с золотыми; и хотя ты толковал о них так, как тебе было угодно, я всё же объявлю, что всё это, как бы при добром предзнаменовании, даровано мне тобою. Ибо плеть следует понимать как ту, которою мне предстоит пользоваться против твоих подданных. Образ же мяча своей округлостью сулит мне власть над всем миром. А то, что ты прибавил третьим, — ларчик с золотом, — свидетельствует, что я стану господином твоих богатств, а ты будешь подвластен моим силам».
+
+**English**
+
+“King Alexander to Darius, king of kings and kinsman of the gods, greeting. It seems to me shameful and utterly incongruous that so great a king, furnished, as he boasts, with such forces, should come under the sway of contemptible little men, as he thinks them, and among them should long and grievously be a slave to a certain outcast and brigand, Alexander. Tell me, then, where your reasoning led you when you said that you are overflowing with riches of gold and silver? Was it not so that, learning this, we should fight against you more stubbornly and boldly — if there is in us any burning desire for gold — in the hope, that is, of greater plunder? You add, too, that you have sent me a strap, a ball and a casket of gold coins; and although you kept saying about them whatever seemed good to you, I shall nevertheless declare that all these things have been granted to me by you as under a good omen. For the strap must be understood as the one I am to use against your subjects. The likeness of the ball, by its roundness, promises me the rule of the whole world. And what you added as the third gift, the casket of gold, bears witness that I shall be master of your wealth, and that you will be subject to my forces.”
+
+**Margin notes**
+
+- [58] RU: У Валерия Александр пишет «царю царей, сопрестольнику бога Митры, восходящему вместе с солнцем, величайшему владыке персов» и рассуждает о гордыне таких титулов. В эпитоме вместо этого взят титул из письма самого Дария (гл. 36): «сроднику богов». Опущено и толкование золота как «ежегодной платы за рабство».
+  EN: In Valerius Alexander writes ‘to the king of kings, throne-companion of the god Mithras, rising together with the sun, greatest lord of the Persians’, and reflects on the pride such titles breed. The Epitome instead takes the title from Darius’ own letter (ch. 36): ‘kinsman of the gods’. It also drops the reading of the gold as ‘the annual price of servitude’.
+  (source: Iul. Val. 1,38 (Kübler 1888, pp. 50–51))
+- [59] RU: «Consitum» («засаженный», здесь «снабжённый») стоит во всех рукописях эпитомы и, по Цахеру (опиравшемуся на печатный текст Маи), в Миланской рукописи Валерия; но Кюблер, сверявший эту рукопись, печатает «confisum» («полагающийся на силы», чтение Мюллера) и никакого разночтения здесь не отмечает, так что «consitum», возможно, ошибка Маи. В греческом — «превознесённый такой мощью». Перевод («при стольких силах») подходит к обоим чтениям.
+  EN: ‘Consitum’ (‘planted’, here ‘furnished’) stands in all Epitome manuscripts and, according to Zacher (who relied on Mai’s printed text), also in the Milan manuscript of Valerius; but Kübler, who collated that manuscript, prints ‘confisum’ (‘relying on’, Müller’s reading) and records no variant there, so ‘consitum’ may be Mai’s error. The Greek has ‘elated by such power’. The translation (‘furnished with such forces’) suits both readings.
+  (source: Zacher 1867, p. 31, apparatus; Kübler 1888, p. 50)
+
+**Translator's doubts**
+
+- totque viribus, ut sese iactat, consitum — ‘consitum’ is odd; see note. Choice: Rendered neutrally: ‘furnished with such forces’ / «при стольких силах».
+- de quibus, quam vis tu uti visum est dictitares — The transcription splits ‘quam vis’; the print has one word, ‘quamvis’. Choice: ‘quamvis’: ‘although you kept saying about them whatever seemed good to you’.
+- qua habeam uti in subiectos tibi — ‘habeam uti’ = ‘I am to use’; ‘in subiectos tibi’ = ‘against those subject to you’ (Valerius has only ‘in subiectos’, ‘on [my] subjects’). Choice: ‘against your subjects’.
+- An non ut his cognitis … dimicaremus adversum vos — Printed with a full stop, but it is a question. Choice: Rendered as a question.
+
+## Chapter 39  (Zacher pp. 32–33; Iul. Val. 1,39; Ps.-Call. α 1.39)
+
+**Latin**
+
+Enimvero lectis his Alexandri litteris Darius arrogantius motus ad satrapas suos ultra Taurum montem regentes scribit talia: „Fertur quidam adolescens insanire, Philippi filius, Asiamque universam incursare; super quo placet nobis, ut verberibus puerilibus graviter affectus indutusque post veste purpurea matri reddatur; satrapas quidem et classem eius una cum nautis ponto submergere, militesque cunctos ferro vinctos ad rubri maris ulteriora transduci.“ At satrapae respondent regi talia: „Miramur adeo, rex, te hactenus talia latuisse, atque e multitudinis impetu tanta nostratibus supervenisse. Boni igitur consulas, et quam primum cum exercitu potentissimo eidem obviabis.“
+
+**Russian**
+
+Прочитав это письмо Александра, Дарий, придя в ещё большую надменность, пишет своим сатрапам, правившим по ту сторону горы Тавр, следующее: «Говорят, что некий юнец, сын Филиппа, неистовствует и совершает набеги по всей Азии. На сей счёт нам угодно, чтобы его, крепко наказав розгами, как наказывают мальчишек, а затем одев в пурпурную одежду, вернули матери; а сатрапам — потопить в море и его флот вместе с моряками, всех же воинов, закованных в железо, переправить за Красное море». Но сатрапы отвечают царю так: «Весьма дивимся мы, царь, что подобное до сих пор было от тебя скрыто и что от натиска [такого] множества на наших обрушилось столь многое. Прими же это благосклонно и как можно скорее выступи против него с могущественнейшим войском».
+
+**English**
+
+Having read this letter of Alexander, Darius, roused to greater arrogance, wrote to his satraps who governed beyond Mount Taurus as follows: “It is reported that a certain youth, Philip’s son, is raving and overrunning the whole of Asia. On this matter it is our pleasure that he be soundly thrashed, as boys are, then dressed in a purple robe and returned to his mother; and that the satraps sink his fleet too, together with its sailors, in the sea, and that all his soldiers be bound in iron and transported to the far side of the Red Sea.” But the satraps answered the king thus: “We greatly wonder, O king, that such things have been hidden from you until now, and that so much has befallen our people from the onrush of [such] a multitude. Take this, then, in good part, and as soon as possible go to meet him with a most powerful army.”
+
+**Margin notes**
+
+- [60] RU: У Валерия приказ Дария передан косвенной речью и подробнее: юнца вернуть матери «с бабками и погремушками, ибо так играют македонские мальчики», и приставить к нему перса-воспитателя. Сатрапы названы по именам (Гистасп и Спинфер), посылают пятерых пленных, а Дарий отвечает им гневно. Эпитоматор оставил только порку и пурпурную одежду; опущено и завоевание Сирии.
+  EN: Valerius gives Darius’ order in reported speech and at greater length: the youth is to be returned to his mother ‘with knucklebones and rattles, for so Macedonian boys play’, with a Persian tutor attached to him. The satraps are named (Hystaspes and Spinther) and send five captives, and Darius replies angrily. The epitomator keeps only the thrashing and the purple robe; the conquest of Syria is also omitted.
+  (source: Iul. Val. 1,39 (Kübler 1888, pp. 51–52))
+- [61] RU: «Satrapas quidem et classem eius … ponto submergere»: у Валерия без «et» (satrapas quidem classem eius … submergere), то есть флот должны потопить сатрапы. С «et» фразу можно понять и как «потопить сатрапов и его флот». Мы понимаем «et» как «также». Ответ сатрапов («atque e multitudinis impetu tanta nostratibus supervenisse») тоже испорчен по сравнению с Валерием.
+  EN: ‘Satrapas quidem et classem eius … ponto submergere’: Valerius has no ‘et’ (satrapas quidem classem eius … submergere), i.e. the satraps are to sink the fleet. With ‘et’ the clause can also be read as ‘to drown the satraps and his fleet’. We take ‘et’ as ‘also’. The satraps’ reply (‘atque e multitudinis impetu tanta nostratibus supervenisse’) is likewise garbled compared with Valerius.
+  (source: Iul. Val. 1,39 (Kübler 1888, p. 51); Zacher 1867, pp. 32–33, apparatus)
+
+**Translator's doubts**
+
+- Darius arrogantius motus — ‘moved more arrogantly’: roused to greater arrogance or to arrogant anger (Valerius: ‘gravius et adrogantius motus’). Choice: ‘roused to greater arrogance’.
+- satrapas quidem et classem eius una cum nautis ponto submergere — See note: ‘satrapas’ as subject of the infinitive, or as a second object. Choice: Subject, with ‘et’ = ‘also’: ‘that the satraps sink his fleet too’.
+- atque e multitudinis impetu tanta nostratibus supervenisse — Barely construable; Valerius: ‘latuisse te tantae multitudinis impetum supervenire nostratibus’. Choice: ‘and that so much has befallen our people from the onrush of [such] a multitude’.
+- Boni igitur consulas — ‘boni consulere’ = take in good part; possibly ‘consider well’. The same formula recurs in ch. 46 (from Valerius). Choice: ‘Take this, then, in good part’.
+
+## Chapter 40  (Zacher pp. 33; Iul. Val. 1,40; Ps.-Call. α 1.40)
+
+**Latin**
+
+Ad ipsum igitur rursus, et nominum arrogantiam et consortium deorum vindicans sibi, Darius scribit talia: „Latuitne, Alexander, te solum nomen honosque Darii, quo nos participat supera maiestas? Sat ergo habeo vel hoc unum imprudentiae signum, quod nos ratus es vestratibus similes. Quin ergo errata corrige, nec his ultra addas incrementum. Censeo autem, uti ad adorandum me venias. Quod si feceris, Iovem cunctosque parentes meos iuro, e meo pectore protinus omnem tui iniuriam recessuram.“
+
+**Russian**
+
+Ему же снова, присваивая себе и надменные титулы, и сопричастность богам, Дарий пишет следующее: «Неужели от одного тебя, Александр, скрыты имя и честь Дария, которой делает нас причастными вышнее величие? Довольно мне и этого одного признака твоего неразумия: ты счёл нас подобными вашим. Так исправь же свои заблуждения и не умножай их впредь. Я же решаю так: приди поклониться мне. Если ты это сделаешь, клянусь Юпитером и всеми моими предками, что из груди моей тотчас уйдёт всякая обида на тебя».
+
+**English**
+
+To him, then, Darius wrote again as follows, claiming for himself both haughty titles and fellowship with the gods: “Has the name and honour of Darius escaped you alone, Alexander — the honour in which the majesty above gives us a share? This one sign of your folly is enough for me: that you thought us like your own people. Correct your errors, then, and do not add to them any further. My judgment is that you should come and do obeisance to me. If you do so, I swear by Jupiter and all my ancestors that all resentment against you will at once depart from my breast.”
+
+**Margin notes**
+
+- [62] RU: У Валерия Дарий узнаёт, что Александр стал лагерем у реки, и величает себя владыкой ста двадцати народов. Письмо у него длиннее: упрёки за переправу через море, презрительные «гречишки» (Graeculi), угроза наказания за непослушание. Эпитоматор оставил ядро письма и клятву Юпитером и предками (у Валерия: «Iovem iuro et parentes meos»).
+  EN: In Valerius Darius learns that Alexander has camped by a river, and styles himself lord of a hundred and twenty nations. His letter is longer: reproaches for crossing the sea, the contemptuous ‘Graeculi’, a threat of punishment for disobedience. The epitomator keeps the core of the letter and the oath by Jupiter and the ancestors (Valerius: ‘Iovem iuro et parentes meos’).
+  (source: Iul. Val. 1,40 (Kübler 1888, pp. 52–53))
+- [63] RU: «Ad adorandum» — проскинеза, персидский обряд земного поклона царю. Когда позже Александр попытался ввести его для македонян и греков, это вызвало открытое сопротивление (Арриан, 4, 10–12).
+  EN: ‘Ad adorandum’ refers to proskynesis, the Persian rite of prostration before the king. When Alexander later tried to introduce it for Macedonians and Greeks, it met open resistance (Arrian 4.10–12).
+  (source: Arr. Anab. 4.10–12)
+
+**Translator's doubts**
+
+- quo nos participat supera maiestas — ‘participare aliquem’ = make someone a sharer; ‘quo’ refers to ‘honos’ (or to the pair ‘nomen honosque’). Valerius: ‘quo nos donat atque participat’. Choice: ‘the honour in which the majesty above gives us a share’.
+- omnem tui iniuriam — ‘tui’ is an objective genitive: the sense of wrong done by you, i.e. resentment against you. Choice: ‘all resentment against you’ / «всякая обида на тебя».
+
+## Chapter 41  (Zacher pp. 33–34; Iul. Val. 1,41; Ps.-Call. α 1.41)
+
+**Latin**
+
+Enimvero Alexander his auditis iurat, ultra non verbis quin potius strictis gladiis rem peragendam. Per Arabiam igitur exercitum suum aciemque iubet extendi. Quo viso Darius, spem primam atque eam maximam in falcatis curribus ponens, ipse quoque exercitum iubet aptari. Verum Alexander incurrentibus curribus per acies locum transitui pandi praeiudicavit, sicque in currus transeuntes peditesque sequentes iacula torqueri. Cum ergo diu spes exitus fluctuaret atque utrimque graviter dimicaretur, tandem repentino imbre procedente Persae, coelitus sibi adversari dicentes, fugam capessunt; fit quoque Darius ipse praecursor amisso curru equoque conscenso veloci. Sed enim Alexander hanc sibi peculiarem appetens gloriam, si rex fugiens comprehenderetur, animosius eum insecutus currus quidem atque arma regalia matremque atque uxorem nec non et filias Darii comprehendit; ipsum vero Darium tenebrosa nox et cursus velocitas liberavit. Macedones autem potiti victoria in castra persica migravere. Alexander vero cunctos, quos in bello mors inclytos fecerat, inquiri iubet ac magnifice sepulcris honorari. Matrem quoque Darii et uxorem et filias regio cultu prosequebatur.
+
+**Russian**
+
+Александр же, услышав это, клянётся, что впредь дело будет решаться не словами, а скорее обнажёнными мечами. И вот он приказывает развернуть своё войско и боевой строй по Аравии. Увидев это, Дарий, возлагая первую и величайшую надежду на серпоносные колесницы, и сам приказывает готовить войско. Но Александр заранее распорядился, чтобы при натиске колесниц в рядах открывали для них проход и так метали дротики в проходящие колесницы и в следующую за ними пехоту. И вот, когда исход долго оставался неясен и с обеих сторон шла тяжкая битва, наконец, когда внезапно хлынул ливень, персы, говоря, что само небо против них, обращаются в бегство; и сам Дарий, потеряв колесницу и вскочив на быстрого коня, становится первым из бегущих. Но Александр, домогаясь для себя этой особой славы — если бы удалось схватить бегущего царя, — с жаром преследуя его, захватил колесницу и царское оружие, а также мать, жену и дочерей Дария; самого же Дария спасли тёмная ночь и быстрота бега. Македоняне же, одержав победу, перешли в персидский лагерь. А Александр велит разыскать всех, кого смерть на войне сделала славными, и великолепно почтить их гробницами. Мать Дария, его жену и дочерей он окружал царскими почестями.
+
+**English**
+
+Alexander, on hearing this, swore that henceforth the matter must be settled not with words but rather with drawn swords. He therefore ordered his army and battle line to be deployed across Arabia. Seeing this, Darius, placing his first and greatest hope in the scythed chariots, himself also ordered his army to be made ready. But Alexander had determined beforehand that, when the chariots charged, a passage should be opened for them through the ranks, and that javelins should then be hurled at the chariots as they passed through and at the infantry following them. When, therefore, the outcome long hung in the balance and there was heavy fighting on both sides, at last, as a sudden rainstorm came on, the Persians, saying that heaven was against them, took to flight; and Darius himself, having lost his chariot and mounted a swift horse, became the foremost of the fugitives. But Alexander, coveting this particular glory for himself — if the fleeing king could be caught — pursued him with great spirit and captured the chariot and the royal arms, and Darius’ mother and wife and daughters as well; but Darius himself was saved by the dark night and the speed of his flight. The Macedonians, having won the victory, moved into the Persian camp. Alexander ordered all whom death in war had made glorious to be sought out and magnificently honoured with tombs. Darius’ mother, wife and daughters he treated with royal honour.
+
+**Margin notes**
+
+- [64] RU: У Валерия Дарий сам приказывает спрятать свою колесницу и бежит верхом; в эпитоме он колесницу «потерял». Валерий подчёркивает, что Александр почтил храбрых павших обеих сторон, «наравне своих и противников»; у эпитоматора осталось лишь «cunctos». Опущены фланги, перебежчик Аминта, сын Антиоха, похвала умеренности Александра и цифры потерь и добычи.
+  EN: In Valerius Darius himself has his chariot hidden and flees on horseback; in the Epitome he has ‘lost’ it. Valerius stresses that Alexander honoured the brave dead of both sides, ‘his own and the enemy’s alike’; the epitomator keeps only ‘cunctos’. Omitted are the wings, the deserter Amyntas son of Antiochus, the praise of Alexander’s moderation, and the figures for losses and booty.
+  (source: Iul. Val. 1,41 (Kübler 1888, pp. 53–56))
+- [65] RU: Битва составлена из двух: бегство Дария и пленение его матери, жены и дочерей — это Исс (333 г. до н. э.), а серпоносные колесницы — Гавгамелы (331 г.). «Аравия» как поле битвы есть уже у Валерия.
+  EN: The battle combines two: Darius’ flight and the capture of his mother, wife and daughters belong to Issus (333 BC), the scythed chariots to Gaugamela (331 BC). ‘Arabia’ as the battlefield is already in Valerius.
+  (source: Arr. Anab. 2.11–12; 3.11–13; Iul. Val. 1,41 (Kübler 1888, p. 53))
+
+**Translator's doubts**
+
+- Per Arabiam igitur exercitum suum aciemque iubet extendi — Compressed from Valerius (‘per Arabiam exercitum ducit atque in aequore … aciem extendit’). Choice: Literal: ‘deployed across Arabia’.
+- locum transitui pandi praeiudicavit, sicque in currus transeuntes peditesque sequentes iacula torqueri — ‘praeiudicavit’ = decided in advance (Valerius ‘praedicit’). In Valerius the javelins are those of Alexander’s own infantry; here ‘pedites sequentes’ are a second target. Choice: ‘at the chariots as they passed through and at the infantry following them’.
+- fit quoque Darius ipse praecursor — ‘praecursor’ = one who runs ahead; D E read ‘praecessor’. Choice: ‘became the foremost of the fugitives’ / «становится первым из бегущих».
+- currus quidem atque arma regalia — ‘currus’ may be accusative plural (‘chariots’); after ‘amisso curru’ the royal chariot is meant. Choice: ‘the chariot and the royal arms’.
+
+## Chapter 42  (Zacher pp. 34–35; Iul. Val. 1,42; Ps.-Call. α 1.42)
+
+**Latin**
+
+Darius igitur recollecto ac contracto post fugam longe auctiori numero in Alexandrum moliebatur. Quod ubi Alexander comperit, mox ad Scamandrum ducem suarum partium scribit, ac mandat, uti sibi auxilia ex diversis locis mittere procuraret. Ipse autem peragrata omni Achaia multisque civitatibus adquisitis collegit centum et septuaginta milia armatorum, Taurumque transducit. In cuius montis vertice hasta defixa, dixisse fertur, ut, si quis illam rex milesve graecus aut barbarus humo evelleret, excidium patriae suae suorumque meminisset. Hincque divertens iter instituit ad Darium.
+
+**Russian**
+
+Дарий же, собрав и стянув после бегства [войско] гораздо большей численности, замышлял [поход] против Александра. Как только Александр узнал об этом, он тотчас пишет Скамандру, одному из своих военачальников, и поручает ему позаботиться о том, чтобы прислать ему подкрепления из разных мест. Сам же он, пройдя всю Ахайю и приобретя много городов, собрал сто семьдесят тысяч вооружённых и переводит [их] через Тавр. На вершине этой горы он, говорят, водрузил копьё и сказал, что если какой-нибудь царь или воин, грек или варвар, вырвет его из земли, пусть помнит о гибели своего отечества и своих близких. И, свернув оттуда, он направил путь к Дарию.
+
+**English**
+
+Darius, then, having after his flight regathered and drawn together a far larger number [of troops], was making moves against Alexander. As soon as Alexander learned of this, he at once wrote to Scamander, a commander of his own party, and instructed him to see to sending him reinforcements from various places. He himself, having traversed all Achaea and won over many cities, gathered a hundred and seventy thousand armed men and led [them] across the Taurus. On the summit of that mountain he fixed a spear and is said to have declared that if any king or soldier, Greek or barbarian, should pull it out of the ground, he should remember the destruction of his own fatherland and of his own people. And turning aside from there, he set his course towards Darius.
+
+**Margin notes**
+
+- [66] RU: У Валерия Скамандр — военачальник, «который ведал тогда Македонией»; эпитоматор это опустил. Издатели Валерия Май и Мюллер исправляли имя на «Кассандр», но греческие рукописи LBC тоже дают «Скамандр». Исторически наместником Македонии Александр оставил Антипатра (Арриан, 1, 11, 3).
+  EN: In Valerius Scamander is the commander ‘who then had charge of Macedonia’; the epitomator drops this. Valerius’ editors Mai and Müller emended the name to ‘Cassander’, but the Greek manuscripts LBC also have ‘Scamander’. Historically Alexander left Antipater in charge of Macedonia (Arrian 1.11.3).
+  (source: Iul. Val. 1,42 (Kübler 1888, p. 56 and apparatus); Zacher 1867, p. 34, apparatus; Arr. Anab. 1.11.3)
+- [67] RU: После копья на Тавре эпитоматор сразу переходит к заключительным словам главы Валерия («направил путь к Дарию»). Пропущены потеющая статуя Орфея в Пиерии, почести Ахиллу под Троей и всё, что у Валерия в гл. 43–45 по Мюллеру (Абдера, Эвксинский Понт, Акрагант). «Achaia peragrata» есть у Валерия, но, как отмечает Цахер, нет в греческом тексте.
+  EN: After the spear on the Taurus the epitomator jumps to the closing words of Valerius’ chapter (‘he set his course towards Darius’). He skips the sweating statue of Orpheus in Pieria, the honours paid to Achilles at Troy, and all of Müller XLIII–XLV in Valerius (Abdera, the Euxine, Acragas). ‘Achaia peragrata’ is in Valerius but, as Zacher notes, not in the Greek.
+  (source: Iul. Val. 1,42–45 (Kübler 1888, pp. 56–61); Zacher 1867, p. 35, apparatus)
+
+**Translator's doubts**
+
+- in Alexandrum moliebatur — ‘moliri’ used absolutely: was preparing [an attack]. Choice: ‘was making moves against Alexander’ / «замышлял [поход] против Александра».
+- excidium patriae suae suorumque meminisset — Valerius: ‘edictum sibi … excidium meminisset’ (let him know that destruction has been decreed for him). Here ‘meminisset’ means roughly ‘let him reckon with’. Choice: Literal: ‘he should remember the destruction of his own fatherland and of his own people’.
+
+## Chapter 46  (Zacher pp. 35–36; Iul. Val. 1,46; Ps.-Call. α 1.46 and 1.46a)
+
+**Latin**
+
+Sed cum per Thebas iter egisset, Thebani protinus portis obfirmatis arma sumpserunt, et ad resistendum sese paraverunt, quingentosque armatos e suis muris insistere ac voce magna clamare iussere ad Alexandrum, scilicet uti aut ad bella procederet, aut de moenibus et obsidione discederet. Sed ad haec Alexander subridens: „O vos stultissimos,“ inquit, „dicam, qui, cum ipsi custodiam murorum vallo teneatis, nobis praecepta bellandi praebetis.“ Etenim protinus mille equites iubet circumvallare eos, qui in muris constiterant, iaculisque ac telis debellare, pedites vero securibus vectibusque adgredi claustra portarum ac fundamenta subruere murorum. Atque ita tertia fere die, conlapsis omnibus quae obstabant, invehitur Alexander Thebas eamque diripere festinat. Ad quam fortunam ceteris stupentibus prae vi malorum, uni forte subiit consilium, uti aptaret tibias caneretque melos regi. Atque dehinc provolutus pedibus tyranni ita eum alloquitur: „O fortissime regum, hancne urbem exscindes, quam dii immortales prosapiae tuae principes tibi peperere? Reminiscere hinc Liberum ortum, hanc Herculis nutricem! Hos etiam muros Amphion Zethusque, tuae pars maxima stirpis, aedificaverunt. Boni igitur consules, et ab hac tam sacrilega actione quiesces!“ Sed neque carmine neque his dictis potuit sedari martium pectus, quin potius igne ferroque vastat tot saeculis nobilem urbem.
+
+**Russian**
+
+Когда же путь его пролёг через Фивы, фиванцы тотчас, заперев ворота, взялись за оружие и приготовились к сопротивлению; и они велели пятистам вооружённым встать на своих стенах и громким голосом кричать Александру, чтобы он либо выходил на бой, либо отступил от стен и снял осаду. Но Александр на это с усмешкой сказал: «О глупейшие — так я вас назову, — вы, что сами держите стражу за валом своих стен, а нам даёте наставления, как воевать!» И тотчас он велит тысяче всадников окружить тех, кто стоял на стенах, и сразить их дротиками и стрелами, а пехоте — топорами и ломами ударить по запорам ворот и подрыть основания стен. И так, почти на третий день, когда всё, что преграждало путь, рухнуло, Александр въезжает в Фивы и спешит разграбить город. При таком обороте судьбы, когда остальные оцепенели от тяжести бедствий, одному вдруг пришла мысль приладить флейты и сыграть царю напев. И затем, пав к ногам тирана, он обращается к нему так: «О храбрейший из царей, неужели ты истребишь этот город, который породили для тебя бессмертные боги, родоначальники твоего рода? Вспомни, что отсюда родом Либер, что этот [город] — кормилица Геркулеса! И стены эти воздвигли Амфион и Зет, величайшая часть твоего рода. Прими же это благосклонно и отступись от столь святотатственного деяния!» Но ни напевом, ни этими словами нельзя было смирить воинственное сердце; напротив, огнём и мечом он опустошает город, прославленный столько веков.
+
+**English**
+
+But when his route took him by Thebes, the Thebans at once bolted their gates, took up arms and prepared to resist; and they ordered five hundred armed men to stand on their walls and shout loudly to Alexander that he should either come out to battle or withdraw from the walls and the siege. But Alexander, smiling at this, said: “O you most foolish men — so I shall call you — who, while you yourselves keep guard behind the rampart of your walls, give us lessons in fighting!” And at once he ordered a thousand horsemen to surround those who had taken their stand on the walls and to overcome them with javelins and missiles, and the foot-soldiers to attack the bars of the gates with axes and crowbars and to undermine the foundations of the walls. And so, on about the third day, when everything that stood in the way had collapsed, Alexander rode into Thebes and hastened to sack the city. At this turn of fortune, while the rest stood stunned by the weight of their calamities, it happened to occur to one man to fit his pipes and play a tune for the king. And then, throwing himself at the tyrant’s feet, he addressed him thus: “O bravest of kings, will you destroy this city, which the immortal gods, the founders of your lineage, brought forth for you? Remember that Liber was born here, that this [city] was the nurse of Hercules! These walls, too, were built by Amphion and Zethus, the greatest part of your stock. Take this in good part, then, and desist from so sacrilegious a deed!” But neither by the song nor by these words could the martial heart be calmed; on the contrary, with fire and sword he laid waste the city renowned for so many ages.
+
+**Margin notes**
+
+- [68] RU: У Валерия Александр насмешливо восклицает «o vos fortissimos» («о храбрейшие!»). В Амброзианском кодексе над строкой приписано «vel stultissimos dixerim» («или, скажу я, глупейшие»), и эпитома (stultissimos … dicam) совпадает с этим вариантом. Опущено и требование Александра дать ему тысячу фиванских воинов, поэтому нападение здесь хуже мотивировано.
+  EN: In Valerius Alexander mockingly cries ‘o vos fortissimos’ (‘O bravest men!’). In the Ambrosianus ‘vel stultissimos dixerim’ (‘or, I should say, most foolish’) is written above the line, and the Epitome (stultissimos … dicam) agrees with this variant. Alexander’s demand for a thousand Theban soldiers is also omitted, so the attack is less motivated here.
+  (source: Iul. Val. 1,46 (Kübler 1888, pp. 61–62 and apparatus))
+- [69] RU: У Валерия музыкант падает к ногам «царя» (regis), в эпитоме — «тирана» (tyranni). Его мольба у Валерия гораздо длиннее (Кюблер печатает её строками): там есть оргии Либера, Семела и Алкмена. В греческом α музыканта зовут Исмений; ни в эпитоме, ни у Валерия он не назван. Ответ Александра («флейтами не победить воинственное сердце») эпитоматор превратил в повествование.
+  EN: In Valerius the musician falls at the feet of the ‘king’ (regis); in the Epitome, of the ‘tyrant’ (tyranni). His plea is much longer in Valerius (Kübler prints it in lines), with the orgia of Liber, Semele and Alcmena. In Greek α the piper is called Ismenias; neither the Epitome nor Valerius names him. Alexander’s retort (‘the martial heart cannot be conquered by pipes’) is turned by the epitomator into narrative.
+  (source: Iul. Val. 1,46 (Kübler 1888, pp. 62–64); Ps.-Call. α 1.46–46a (Kroll 1926, pp. 54–61))
+
+**Translator's doubts**
+
+- O vos stultissimos, inquit, dicam — ‘dicam’ is a potential subjunctive (‘as I should call you’), cf. the Ambrosianus’ ‘dixerim’. Choice: ‘so I shall call you’ / «так я вас назову».
+- invehitur Alexander Thebas eamque diripere festinat — Singular ‘eam’ after plural ‘Thebas’ (all manuscripts; Mai and Müller ‘easque’). Choice: ‘the city’.
+- provolutus pedibus tyranni — In Carolingian Latin ‘tyrannus’ can be neutral (‘ruler’), but it replaces Valerius’ ‘regis’ here. Choice: ‘tyrant’ / «тирана», keeping the change visible (see note).
+- uti aptaret tibias — ‘fit / make ready the pipes’ (the double aulos). Choice: ‘to fit his pipes’ / «приладить флейты».
+- Boni igitur consules — Formula taken from Valerius; ‘take it in good part’, here close to ‘be gracious’. Choice: ‘Take this in good part’, as in ch. 39.
+
+## Chapter 47  (Zacher pp. 36–38; Iul. Val. 1,47; Ps.-Call. α 1.47)
+
+**Latin**
+
+Deinde Thebani, quicumque fuga evaserunt, congregati, ubi tempus fuit, mittunt ad sciscitandum Apollinem, si forte redintegrare urbem fata permitterent, responsumque acceperunt huiusmodi:
+Maiugena, Alcides, et Pollux cestibus auctor
+Arte sua Thebis reditum cultumque dedere.
+Post haec itaque Alexander Corinthum adgreditur. Sed forte acciderat sollemne certamen apud illos agitari, petieruntque Alexandrum, uti adesset atque illi certamini praesideret. Annuit rex; cumque plurimos coronis donisque largissimis pro merito muneraretur, Thebanus quidam, Clitomachus nomine, profitetur certamen luctaminis pugnamque cestuum atque pugillatus. Cumque primum luctando adversario praestitisset coronamque laboris exegisset, iubet Alexander eundem cetera prius exsequi, promittitque, quod si pari fortuna obtineret, nihil omnium fore quod sibi petenti rex negaret. Igitur ille et cestibus potior et pugillatu felicior revertitur ad regem coronandus. Cumque ab eo ex more quaereret praeco, quis esset nomine, quemve se civem profiteretur, Clitomachum se nuncupari respondit, civitatem vero se habere desisse. Additque olim se civitatem habuisse, sed priusquam Alexander regnum adeptus esset; eo vero imperante sibi patriam deperisse. Hinc itaque Alexander intellegens quo pergeret deprecantis intentio, edici per praeconem iubet, reaedificari Thebas esse permissum in honore trium deorum, Herculis, qui pugillatus invenerit, et Mercurii, qui repertor luctandi cluit, Pollucis etiam, qui cestibus sit magister. Eoque actum est ut responsum Apollinis congrueret Alexandri edictis.
+
+**Russian**
+
+Затем фиванцы, все, кто спасся бегством, собравшись, когда пришло время, посылают вопросить Аполлона, не позволят ли судьбы восстановить город, и получили такой ответ:
+Майей рождённый, Алкид и Поллукс, зачинатель боя в цестах,
+Фивам искусством своим даровали возврат и устроенье.
+После этого Александр подступает к Коринфу. А у них как раз в это время проводилось торжественное состязание, и [коринфяне] попросили Александра присутствовать и председательствовать на этом состязании. Царь согласился; и когда он награждал очень многих по заслугам венками и щедрейшими дарами, некий фиванец по имени Клитомах заявляет о своём участии в состязании по борьбе, в бою в цестах и в кулачном бою. И когда он сначала одолел противника в борьбе и потребовал венка за свой труд, Александр велит ему прежде исполнить остальное и обещает, что, если он с тем же успехом одержит верх, не будет ничего, в чём царь откажет ему, если он попросит. И вот он, оказавшись сильнее в бою в цестах и удачливее в кулачном бою, возвращается к царю, чтобы получить венок. И когда глашатай по обычаю спросил его, как его зовут и гражданином какого [города] он себя называет, он ответил, что зовётся Клитомахом, но города у него больше нет. И прибавляет, что некогда у него был город, но прежде, чем Александр получил царскую власть; а при его правлении отечество его погибло. Тогда Александр, поняв, к чему клонит проситель, велит объявить через глашатая, что дозволено отстроить Фивы в честь трёх богов: Геркулеса, который изобрёл кулачный бой, и Меркурия, который слывёт изобретателем борьбы, а также Поллукса, наставника боя в цестах. Так и вышло, что ответ Аполлона согласовался с указами Александра.
+
+**English**
+
+Then the Thebans who had escaped by flight gathered, when the time came, and sent to consult Apollo whether the fates might perhaps permit them to restore their city; and they received an answer of this kind:
+Maia’s son, Alcides, and Pollux, author of the cestus fight,
+By their art have given Thebes its return and its settled life.
+After this Alexander approached Corinth. There, as it happened, a solemn contest was being held among them, and they asked Alexander to attend and preside over that contest. The king agreed; and while he was rewarding very many, according to their merit, with crowns and most generous gifts, a certain Theban named Clitomachus entered himself for the wrestling contest, the fight with the cestus, and boxing. And when he had first beaten his opponent in wrestling and claimed the crown for his labour, Alexander bade him first complete the rest, and promised that if he prevailed with like fortune there would be nothing at all that the king would refuse him if he asked. So, stronger with the cestus and more fortunate still in boxing, he returned to the king to be crowned. And when the herald, according to custom, asked him what his name was and of what city he declared himself a citizen, he answered that he was called Clitomachus but had ceased to have a city. And he added that he had once had a city, but before Alexander came to the throne; under his rule his fatherland had perished. Then Alexander, understanding what the petitioner was aiming at, ordered it to be proclaimed through the herald that it was permitted to rebuild Thebes in honour of three gods: Hercules, who invented boxing, Mercury, who is famed as the discoverer of wrestling, and also Pollux, who is master of the cestus. And so it came about that Apollo’s response agreed with Alexander’s edicts.
+
+**Margin notes**
+
+- [70] RU: Двустишие оракула эпитоматор взял у Валерия дословно. В греческом α: «Гермес, Алкид и Полидевк, бьющийся ремнями, — трое, состязаясь, вновь отстроят тебя, Фивы», то есть пророчество в будущем времени; у Валерия — перфект «dedere». В греческом Клитомах заявляется на борьбу, панкратий и кулачный бой; в латыни место панкратия занял бой в цестах.
+  EN: The epitomator takes the two-line oracle verbatim from Valerius. Greek α has: ‘Hermes, Alcides and Polydeuces the strap-fighter, the three, by contending, will build you again, Thebes’, a prophecy in the future tense; Valerius has the perfect ‘dedere’. In the Greek Clitomachus enters for wrestling, pancration and boxing; in the Latin the cestus fight takes the place of the pancration.
+  (source: Iul. Val. 1,47 (Kübler 1888, p. 64); Ps.-Call. α 1.46a–47 (Kroll 1926, pp. 62–63))
+- [71] RU: Клитомах Фиванский — реальный атлет конца III в. до н. э., на век с лишним позже Александра. Он победил в панкратии на Олимпийских играх 216 г. до н. э., а на Истмийских играх в один день выиграл борьбу, кулачный бой и панкратий (Павсаний, 6, 15, 3). Роман перенёс этот подвиг в Коринф времён Александра.
+  EN: Clitomachus of Thebes was a real athlete of the late third century BC, more than a century after Alexander. He won the pancration at Olympia in 216 BC, and at the Isthmian Games he won wrestling, boxing and pancration on a single day (Pausanias 6.15.3). The romance moves this feat to Corinth in Alexander’s time.
+  (source: Paus. 6.15.3–5)
+
+**Translator's doubts**
+
+- Arte sua Thebis reditum cultumque dedere — ‘cultus’: cultivation, settled (civilised) life, or worship. Choice: ‘settled life’ / «устроенье».
+- Pollux cestibus auctor — ‘auctor’ = originator; the edict calls Pollux ‘cestibus magister’. Choice: ‘author of the cestus fight’ / «зачинатель боя в цестах».
+- iubet Alexander eundem cetera prius exsequi — ‘prius’ = before receiving the crown. Choice: ‘first complete the rest’ / «прежде исполнить остальное».
+- et cestibus potior et pugillatu felicior — Two comparatives without a second term. Choice: ‘stronger with the cestus and more fortunate still in boxing’.

@@ -1,0 +1,105 @@
+{
+ "issues": [
+  {
+   "chapter": 38,
+   "lang": "en",
+   "severity": "minor",
+   "category": "note-fact",
+   "quote": "Müller emended it to ‘confisum’ (‘relying on’), which Kübler prints",
+   "latin": "totque viribus, ut sese iactat, consitum",
+   "problem": "Overstated. Zacher's 'Vb' is not a collation but Mai's printed text of the Ambrosianus (Zacher, praefatio: 'Nach dem Frankfurter abdrucke ... von A. Mais erster ausgabe'), and Zacher himself warns that one cannot tell whether Müller's divergences are Paris-manuscript readings or emendations. Kübler, who collated the Ambrosianus, prints 'hisce viribus confisum' and his apparatus to p. 50 l. 5 records only 'his viribus P.' — no 'consitum' — so the manuscript itself apparently reads 'confisum' and 'consitum' is probably Mai's misreading, not something 'Müller emended'.",
+   "fix": "‘Consitum’ (‘planted’, here ‘furnished’) stands in all Epitome manuscripts and, according to Zacher (who relied on Mai’s printed text), also in the Milan manuscript of Valerius; but Kübler, who collated that manuscript, prints ‘confisum’ (‘relying on’, Müller’s reading) and records no variant there, so ‘consitum’ may be Mai’s error. The Greek has ‘elated by such power’. The translation (‘furnished with such forces’) suits both readings."
+  },
+  {
+   "chapter": 38,
+   "lang": "ru",
+   "severity": "minor",
+   "category": "note-fact",
+   "quote": "Мюллер исправлял на «confisum» («полагающийся на силы»), и Кюблер печатает «confisum»",
+   "latin": "totque viribus, ut sese iactat, consitum",
+   "problem": "Same as the English: Zacher's report of the Milan manuscript rests on Mai's print; Kübler's own collation (apparatus to p. 50, l. 5: only 'his viribus P.') gives no 'consitum', so 'Müller emended' is not supported.",
+   "fix": "«Consitum» («засаженный», здесь «снабжённый») стоит во всех рукописях эпитомы и, по Цахеру (опиравшемуся на печатный текст Маи), в Миланской рукописи Валерия; но Кюблер, сверявший эту рукопись, печатает «confisum» («полагающийся на силы», чтение Мюллера) и никакого разночтения здесь не отмечает, так что «consitum», возможно, ошибка Маи. В греческом — «превознесённый такой мощью». Перевод («при стольких силах») подходит к обоим чтениям."
+  },
+  {
+   "chapter": 46,
+   "lang": "note",
+   "severity": "minor",
+   "category": "note-fact",
+   "quote": "Ps.-Call. α 1.46a (Kroll 1926, pp. 61–62)",
+   "latin": "uni forte subiit consilium, uti aptaret tibias",
+   "problem": "Wrong pages. In Kroll the piper is introduced by name on p. 54 ('Ἰσμηνίας τις Θηβαῖος, τῆς αὐλομελῳδίας ἔμπειρος', index: 54,19) and the verse plea 1.46a runs from there to p. 61; p. 62 already belongs to 1.47 (the oracle, 'Πολυδεύκης 62,11').",
+   "fix": "Ps.-Call. α 1.46–46a (Kroll 1926, pp. 54–61)"
+  },
+  {
+   "chapter": 20,
+   "lang": "note",
+   "severity": "minor",
+   "category": "note-fact",
+   "quote": "‘consortio’ is cited from the Turin palimpsest (Va); H L B D E read ‘consilio’ (‘her counsel’), A Vb ‘connubio’.",
+   "latin": "spreto consortio Olympiadis",
+   "problem": "Faithful to Zacher's apparatus (p. 23: 'consortio Va. consilio HLBDE. connubio AVb'), but Zacher's Vb is Mai's printed text, and Kübler's collation of the Ambrosianus reports it differently: 'consortio T. consilio P.A. in margine cod. A.: vel coniugio' (Kübler p. 23 app.). So 'connubio' is Mai's print, not the manuscript reading.",
+   "fix": "‘consortio’ is cited from the Turin palimpsest (Zacher’s Va; Kübler’s T); H L B D E read ‘consilio’ (‘her counsel’), Epitome A ‘connubio’. Zacher also gives ‘connubio’ for the Ambrosianus of Valerius (his Vb, from Mai’s print), but Kübler’s collation has ‘consilio’ there with a marginal ‘vel coniugio’."
+  },
+  {
+   "chapter": 15,
+   "lang": "both",
+   "severity": "minor",
+   "category": "note-fact",
+   "quote": "Valerius then explains the horse’s name (a chance brand on its haunch looked like a bull’s head)",
+   "latin": "Vocabatur enim equus ille, quem supra diximus, eo nomine",
+   "problem": "Half of Valerius' explanation. Kübler p. 16: 'non eo modo quod corniculata fronte terribilis foret, sed quod inustio etiam fortuita quaedam eius coxae veluti taurini capitis imitamen insederat' — the name is derived both from the horn-like, fearsome brow and from the brand on the haunch.",
+   "fix": "EN: Valerius then explains the horse’s name (not only its fearsome, horn-like brow, but a chance brand on its haunch that looked like a bull’s head) / RU: Дальше Валерий объясняет имя коня (не только грозным, словно рогатым, лбом, но и случайным клеймом на бедре, похожим на бычью голову)"
+  },
+  {
+   "chapter": 17,
+   "lang": "both",
+   "severity": "minor",
+   "category": "style",
+   "quote": "Julius Valerius (Va, Vc) has ‘evitatis’",
+   "latin": "custodibus evocatis",
+   "problem": "The sigla Va/Vc are Zacher's private sigla (Va = the lost Turin palimpsest, Vc = Paris lat. 4880) and are unexplained for the reader; Kübler calls the same witnesses T and P. The content is correct (Zacher p. 21: 'evitatis Vac.'; Kübler p. 20 prints 'evitatis' with no variant).",
+   "fix": "EN: Julius Valerius (the Turin palimpsest and the Paris manuscript, Zacher’s Va and Vc) has ‘evitatis’ / RU: У Юлия Валерия (Туринский палимпсест и Парижская рукопись, у Цахера Va и Vc) — «evitatis»"
+  },
+  {
+   "chapter": 21,
+   "lang": "note",
+   "severity": "minor",
+   "category": "note-fact",
+   "quote": "Gerundive without ‘ad’ (H D: ‘ad comprehendendum’; Valerius likewise).",
+   "latin": "qui sese veluti comprehendendum inruerant",
+   "problem": "Zacher's apparatus (p. 24) assigns 'ad comprehendendum irruerat' to D alone; H is listed with L and B for the spelling 'irruerant' and is not credited with 'ad'. Valerius (Kübler p. 24) does have 'veluti ad comprehendendum inruerant'.",
+   "fix": "Gerundive without ‘ad’ (D: ‘ad comprehendendum irruerat’; Valerius likewise has ‘ad comprehendendum’)."
+  },
+  {
+   "chapter": 17,
+   "lang": "ru",
+   "severity": "minor",
+   "category": "style",
+   "quote": "«Друзья, ржание ли поразило мой слух",
+   "latin": "o viri, hinnitusne aures meas",
+   "problem": "'o viri' is 'O men', not 'friends'; 'друзьям' already renders 'ad amicos' in the same sentence, so the Russian doubles the word while the English keeps the distinction ('Men').",
+   "fix": "«Мужи, ржание ли поразило мой слух"
+  },
+  {
+   "chapter": 47,
+   "lang": "en",
+   "severity": "minor",
+   "category": "mistranslation",
+   "quote": "a solemn contest was being held among the people",
+   "latin": "sollemne certamen apud illos agitari",
+   "problem": "'apud illos' refers to the Corinthians just named ('among them'), not to 'the people' in general; the Russian 'у них' is right.",
+   "fix": "a solemn contest was being held among them"
+  },
+  {
+   "chapter": 42,
+   "lang": "ru",
+   "severity": "minor",
+   "category": "fluency",
+   "quote": "пишет Скамандру, военачальнику своей стороны",
+   "latin": "ad Scamandrum ducem suarum partium",
+   "problem": "'военачальнику своей стороны' is not idiomatic Russian; 'dux suarum partium' = a commander of his own party/side.",
+   "fix": "пишет Скамандру, одному из своих военачальников"
+  }
+ ],
+ "summary": "Reviewed chs. 15–47 against the Latin and fact-checked every margin note against the OCR of Kübler 1888 (archive.org iulivalerialexa00kbgoog), Zacher 1867 (juliivaleriiepi00zachgoog) and Kroll 1926 (historiaalexandr00pseu), plus Pausanias 6.15 and Diodorus 16.34.5 / 16.51.1 online. The draft is in very good shape: both translations are accurate and consistent with the glossary, and essentially every apparatus and parallel claim in the notes is confirmed (Valerius' 'et hasta omnia subiugabit', 'evitatis', 'regulo ex Acernania', 'Acernaniae telo', 'Attali ... filiae', 'incommunicatos alteri', 'labitur', 'iudex T.P. vindex A.', 'ecquid/neque id' with 'idque A.', 'suggestum', 'DCIV T. Epit.', 'pondo centum', 'quadringenta', the Ambrosianus margin 'vel ... dignum eum duxerunt', the Tyre oracle/dream/torture, 'cum tua aetatula', 'non enim ut Philippi filius', 'tali et crepitacula', Hystaspes/Spinther, five captives, '120 nations', the hidden chariot, 'Scamandrum ... qui curabat tunc Macedoniam / Cassandrum Mai. Mr.', 'mille comitatum', 'fortissimos ... vel stultissimos dixerim', the verse plea, the oracle couplet; Zacher's sigla, 'eviatis?', conscolasticus/Vincent, 'pergit] ergo', 'recurationis', Roman numerals, Memnon, 'praecessor DE', 'eamque/easque'; Kroll's 'ἔλεγχός σοι ἔσομαι' with β 'Αἰγυπτίου πατρὸς ὤν', 'νῦν σε πατέρα καλέσω', A's Λυκαονίαν / Ausfeld's Λευκανίαν, Ismenias, the oracle, the three events; Pausanias 6.15.3–4 and Diodorus confirmed). Only 10 minor points: the ch. 38 'consitum' note overstates (Kübler's collation gives no 'consitum' in the Ambrosianus; 'Müller emended' unsupported), the ch. 46 Kroll page citation (should be pp. 54–61), the ch. 20 doubt on 'connubio' (Kübler reads A 'consilio' + margin 'vel coniugio'), an incomplete horse-name explanation in ch. 15, unexplained Va/Vc sigla, a misattributed 'ad comprehendendum' (D only), and three small wording points (RU 'Друзья' for 'o viri', EN 'among the people' for 'apud illos', RU 'военачальнику своей стороны'). No critical or major issues found."
+}

@@ -1,0 +1,65 @@
+{
+ "issues": [
+  {
+   "chapter": 18,
+   "lang": "en",
+   "severity": "minor",
+   "category": "mistranslation",
+   "latin": "Nam: „Ave, inquit, „o puer!“ Nec ille resalutat.",
+   "quote": "And he did not return the greeting.",
+   "problem": "In the English the pronoun follows 'he said' (Nicolaus), so 'he' reads as Nicolaus and the sentence becomes nonsense, since Nicolaus is the one greeting. In the Latin 'ille' is the other party, Alexander. The Russian 'А тот' is clear. The English needs a named subject.",
+   "fix": "And Alexander did not return the greeting."
+  },
+  {
+   "chapter": 25,
+   "lang": "both",
+   "severity": "minor",
+   "category": "mistranslation",
+   "latin": "ascendens eius statuam",
+   "quote": "climbing onto his statue",
+   "problem": "Alexander is the grammatical subject, so 'his statue' / «его статую» reads as Alexander's own statue. 'eius' (not 'suam') means Philip's statue. Julius Valerius 1,25 has 'paternae statuae suggestum', and the draft's own note says 'his father's statue'. The translation should say whose statue it is.",
+   "fix": "EN: climbing onto Philip's statue. RU: поднявшись на статую Филиппа"
+  },
+  {
+   "chapter": 34,
+   "lang": "ru",
+   "severity": "minor",
+   "category": "mistranslation",
+   "latin": "cum deorum monitu praescivisset fortunae suae lapsum",
+   "quote": "узнав по внушению богов о крушении своего счастья, ушёл от места бедствий",
+   "problem": "'praescivisset' means 'had known beforehand'. The Russian «узнав» drops the 'pre-' (the English 'foreknew' keeps it), and the foreknowledge is the whole reason he left. 'monitu' is a warning or admonition rather than 'внушение' (suggestion or inspiration).",
+   "fix": "заранее узнав по предостережению богов о крушении своего счастья, ушёл от места бедствий"
+  },
+  {
+   "chapter": 35,
+   "lang": "ru",
+   "severity": "minor",
+   "category": "names-terms",
+   "latin": "Tyrii primates legatos corripi iubent",
+   "quote": "тирийские старейшины приказывают схватить послов",
+   "problem": "'primates' means the leading men or nobles, not 'elders' (that would be 'seniores' or 'senatores'). The draft renders the same word in ch. 37 as «приближённые Александра», so the rendering is inconsistent as well as slightly off.",
+   "fix": "тирийские вельможи приказывают схватить послов"
+  },
+  {
+   "chapter": 38,
+   "lang": "ru",
+   "severity": "minor",
+   "category": "mistranslation",
+   "latin": "atque inter eos abiecto cuidam ac latroni Alexandro diu graviterque serviturum",
+   "quote": "долго и тяжко служил у них некоему отверженному разбойнику Александру",
+   "problem": "'inter eos' means 'among them' (the contemptible little men). «у них» suggests serving in their household or serving them, which blurs who serves whom: the one served is Alexander. The Latin infinitives 'deventurum ... serviturum' are also future, but 'чтобы ... подпал' can pass as a subjunctive of what is shameful, so only the «у них» needs correcting.",
+   "fix": "и среди них долго и тяжко служил некоему отверженному разбойнику Александру"
+  },
+  {
+   "chapter": 17,
+   "lang": "ru",
+   "severity": "minor",
+   "category": "style",
+   "latin": "conversus ad amicos ait: „o viri, hinnitusne aures meas an vero rugitus aliquis leoninus offendit?“",
+   "quote": "Друзья, ржание ли поразило мой слух",
+   "problem": "The Latin vocative is 'o viri' ('men'), and the English correctly has 'Men'. The Russian replaces it with «Друзья», which duplicates 'ad amicos' in the narration and makes the two languages disagree. It is a small departure from the Latin.",
+   "fix": "Мужи, ржание ли поразило мой слух"
+  }
+ ],
+ "summary": "The draft is accurate. I found no critical or major errors, and nothing omitted or invented. Compared with the Latin, the numbers, names, ablative absolutes, AcI constructions and the corrupt or unclear passages are handled soundly, and the doubts section flags the real cruxes (ch. 17 'monitus', ch. 21 'inter regales delicias', ch. 24 'mulier consentiret', ch. 25 zeugma, ch. 39 'satrapas quidem et', ch. 41 'peditesque sequentes'). I read all of Valerius Book I against the notes, using the Kübler 1888 OCR text on archive.org. Every claim I checked against Valerius holds up:\\n- the Hephaestion, nine-competitor and Attalus details;\\n- Lysias' jibe and the 'labitur' detail;\\n- 'ecquid mulier consentiret' / 'neque id ... provenisset' and the Ambrosianus 'idque';\\n- the 70,604 / 70,654 figures and the 400-talent and 100-pound figures;\\n- the Hystaspes and Spinther names;\\n- Scamander and the Cassander emendations;\\n- the Ambrosianus variants (iudex/vindex, vel stultissimos dixerim, the marginal 'veste dignum eum duxerunt');\\n- 'cum tua aetatula'.\\nDowden's translation also confirms that the Greek has the Isthmian games, Kleitomachos and Ismenias. The Kübler page references in the notes also match. The six items above are all minor, mostly referent or lexical precision. I did not check the Greek recension α claims in the notes against Kroll, so I cannot confirm those. I could not check Zacher's page image or apparatus, so Zacher's 'tuae' (ch. 36) and the manuscript sigla in the doubts remain unverified. I did not flag the ch. 36 'tuae' reading, because the draft documents it openly.\""
+}

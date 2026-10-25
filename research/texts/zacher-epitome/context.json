@@ -1,0 +1,1134 @@
+{
+ "intro_facts": [
+  {
+   "claim": "The 'Zacher Epitome' (Iulii Valerii epitome) is an anonymous Latin abridgement of Julius Valerius' Res gestae Alexandri Macedonis, the Latin version of Ps.-Callisthenes, recension α. It is named after its first and only editor, Julius Zacher (Halle 1867). The manuscript headings vary: 'Exceptio historiae Magni Alexandri Regis Macedonum' (H), 'Incipit vita Alexandri Regis magni Macedonis' (B), 'Incipit textus de ortu Magni Alexandri Macedonis' (E). Zacher notes that none of his manuscripts calls the text an epitome, and Siemoneit (n. 3) says the same.",
+   "status": "verified",
+   "source": "Zacher 1867, pp. III–VII (preface, archive.org juliivaleriiepi00zachgoog); Siemoneit 2023, p. 199 n. 3"
+  },
+  {
+   "claim": "The date is only a terminus ante quem. The oldest manuscripts date from the early 9th century: Den Haag, KB 74 J 9 and Leiden, Voss. lat. Q 20 (s. IX¹; Jakobi adds 'aus Tours'). Voss. lat. Q 20 is also the oldest Curtius manuscript and is dated to the first quarter of the 9th century. Jakobi says the usual dating to the 8th–9th century is not secure and the Epitome could be considerably older. Zacher (1867, p. IV) already argued that it predates the 9th century, because 9th-century copies show errors typical of copying from older exemplars that were hard to read. Siemoneit (p. 199 n. 3) says the oldest known manuscript is from the early 9th century and treats that as a terminus ante quem.",
+   "status": "verified",
+   "source": "Jakobi 2019, RhM 162, p. 84 n. 4, p. 85 n. 5, p. 92 n. 21; Zacher 1867, p. IV; Siemoneit 2023, p. 199 n. 3"
+  },
+  {
+   "claim": "Zacher's H (The Hague, 'königliche Bibliothek no. 830', s. IX, 'wahrscheinlich in Italien geschrieben') is probably the manuscript that Jakobi cites as Den Haag KB 74 J 9. Zacher used only one Hague manuscript, but I have not checked the concordance of the two shelfmarks.",
+   "status": "probable",
+   "source": "Zacher 1867, p. V; Jakobi 2019, p. 84 n. 4"
+  },
+  {
+   "claim": "Origin is disputed. Rosellini proposes an Italian origin, and Jakobi, following M. D. Reeve (RFIC 123, 1997, 371), doubts it.",
+   "status": "verified",
+   "source": "Jakobi 2019, p. 84 n. 4 (Reeve not seen directly)"
+  },
+  {
+   "claim": "Number of manuscripts: Ross (1956) lists 68 manuscripts of the Epitome, against three nearly complete manuscripts of the full Julius Valerius. Voorbij (1984, p. 117) writes: 'At the present time 80 Epitome manuscripts are known.' Jakobi 2019 and Siemoneit 2023 both give 80, citing Ross and Voorbij. The figure of 67 on Wikipedia does not match either list.",
+   "status": "verified",
+   "source": "Ross, Scriptorium 10 (1956) 127 (Persée page images); Voorbij, Scriptorium 38 (1984) 117; Jakobi 2019, p. 84 n. 4; Siemoneit 2023, p. 199 n. 2"
+  },
+  {
+   "claim": "Zacher's sources. He copied or collated six manuscripts himself:\n- H: The Hague 830, s. IX.\n- L: Leiden, Voss. lat. Q 20, s. IX.\n- A: Leiden, Voss. lat. Q 29, s. X.\n- B: Leiden, BPL 20, s. XII, from Bec; a learned scribe who often 'improved' the text.\n- D: Wolfenbüttel 'Ms. Aug. 7.4.4', probably s. XII; arbitrarily rewritten, with the Epistola ad Aristotelem inserted into the narrative. Voorbij lists Wolfenbüttel 2963 (7.4 Aug. 4°) among the interpolated Epitome texts.\n- E: Wolfenbüttel 'Ms. Aug. 56.16.8', s. X; Zacher's best manuscript.\nTo these he added C, Perizonius' copy (Leiden, Periz. Q 9) of Oxford, Corpus Christi College 82 (s. XII), which breaks off in ch. 5. Voorbij and Jakobi count these as the 'seven' manuscripts. Other material:\n- Paris BN lat. 8518 (s. X–XI) and 8519 (s. XIII), only for 1,1–7, through Berger de Xivrey's printed excerpts.\n- Two unidentified Vatican manuscripts, through Mai's supplements.\n- Vincent of Beauvais, Speculum historiale (Venice 1494), for a few passages.\n- The full Julius Valerius: the Turin palimpsest, the Ambrosianus and Paris lat. 4880.\n- The Greek manuscripts A, B, C and Leiden Vulc. 93.\nZacher assembled text and apparatus in haste for the Halle philologists' meeting (dedication dated 1 Oct. 1867, preface 9 Sept. 1867) and emended only rarely.",
+   "status": "verified",
+   "source": "Zacher 1867, pp. V–XIV; Voorbij 1984, p. 117 and n. 9; Jakobi 2019, p. 84 n. 4"
+  },
+  {
+   "claim": "Numbering. Zacher gave the continuous text the book and chapter division of C. Müller's edition of Ps.-Callisthenes and Julius Valerius (Paris, Didot 1846), adding Mai's numbers in brackets. He states that Book I excerpts chapters 1–15, 17–26, 29, 30, 34–42, 46 and 47, which is exactly the set in our book1.json; everything else is omitted. Kübler (1888) numbers Book I in 54 chapters following Mai's second edition and prints Müller's Roman numerals in the margin, so Kübler's chapter numbers differ from Zacher's.",
+   "status": "verified",
+   "source": "Zacher 1867, p. XII; Kübler 1888, conspectus siglorum before p. 1 and margins of pp. 1–65"
+  },
+  {
+   "claim": "Rosellini's chapter numbers for Julius Valerius (Teubner 1993; ed. corr. 2004) coincide with Müller's and therefore with Zacher's. The evidence is that Siemoneit and Jakobi cite, for example, Iul. Val. 1,24,690 (Pausanias), 1,26,770–773 (army funds), 1,30,800–814 (Ammon) and 1,46,1568 (Thebes), and these equal Zacher's chapter numbers. I have not seen Rosellini's edition itself.",
+   "status": "probable",
+   "source": "Siemoneit 2023 (via mirror); Jakobi 2019, pp. 86–89"
+  },
+  {
+   "claim": "Ps.-Callisthenes α in Kroll 1926 uses the same chapter numbers as Müller in Book I. I spot-checked Kroll's chapter markers at 1.14, 1.38, 1.40, 1.41, 1.43, 1.46, 1.46a (Ismenias) and 1.47 (Clitomachus). Kroll states that chapters 27–28 occur only in recension β ('Hinc deflectit B′ solus tradens c. 27 sq.'). Julius Valerius also lacks them: Kübler's margin jumps from XXVI to XXIX.",
+   "status": "verified",
+   "source": "Kroll 1926, pp. 26 app., 45–62 (archive.org historiaalexandr00pseu); Kübler 1888, pp. 30–31"
+  },
+  {
+   "claim": "Book I of the Epitome does not end with Alexander's accession. It runs on to the Italian, Libyan and Egyptian campaigns, Tyre, the exchange of letters with Darius and the first victory, the destruction of Thebes, and Clitomachus at the Isthmian games at Corinth (ch. 47).",
+   "status": "verified",
+   "source": "Zacher 1867, Book I text; book1.json"
+  },
+  {
+   "claim": "The epitomator keeps the opening fairly fully and cuts more and more as the text goes on. In Book III he omits or barely mentions the Brahmans, the Amazons and the letters to Aristotle and Olympias. He tries to keep Valerius' own wording, which sometimes produces odd sentences. Overall the text is reduced to about one third.",
+   "status": "verified",
+   "source": "Zacher 1867, pp. XII–XIII; Siemoneit 2023, p. 214 ('auf rund ein Drittel reduziert')"
+  },
+  {
+   "claim": "The Epitome has textual value for Julius Valerius. Jakobi calls it the only complete witness to the text. Only Z and its descendant O, the Oxford epitome, preserve the opening chapters. Kübler printed Book I ch. 1 and the beginning of ch. 2 (= Zacher chs. 1–3 and the first sentence of 4) from Zacher's Epitome. An early second hand in the Ambrosianus entered readings from Z (Rosellini p. XXI, per Jakobi).",
+   "status": "verified",
+   "source": "Jakobi 2019, pp. 85, 87 n. 11, 89 n. 14; Kübler 1888, note before p. 1 ('Libri primi caput primum et initium capitis secundi supplevi ex Epitoma a Zachero edita')"
+  },
+  {
+   "claim": "The Oxford and Montpellier epitomes. Oxford, Corpus Christi College 82 (s. XII) is Kübler's siglum O and the subject of Cillié's dissertation (De Iulii Valerii epitoma Oxoniensi, Strassburg 1905). It is a later, expanded form of Z: the Epitome is enlarged with clauses and whole sections taken from the full Julius Valerius, partly undoing Z's cuts. Montpellier H 31 (s. XIII) is described by Ross as an Epitome 'expanded with additions from the complete text of Julius Valerius'. Voorbij calls the two together the 'Oxford-Montpellier Epitome', an interpolated version edited by A. Hilka in Romanische Forschungen 29 (1911); Voorbij gives pp. 31–69, Jakobi pp. 34–69. Siemoneit says Montpellier differs only slightly from Oxford. Romano's thesis that O was Z's model and dates from the 4th–5th century is refuted on stemmatic grounds, since O shares Z's errors. Another interpolated version is the Liegnitz 'Historia Alexandri Magni' (15th c.; Hilka 1911, pp. 1–30), and Zacher's D is a further interpolated witness.",
+   "status": "verified",
+   "source": "Ross 1956, p. 128 n. 12–13, p. 130; Voorbij 1984, p. 117 n. 9; Jakobi 2019, p. 85 and n. 6; Siemoneit 2023, p. 199 nn. 5–6; Kübler 1888, conspectus siglorum"
+  },
+  {
+   "claim": "Medieval reception, Latin. Zacher states that Vincent of Beauvais took most of the Epitome into the Speculum historiale. In his view, though, its influence on Western Alexander literature was subordinate and partly indirect; the Historia de preliis was the main basis. Ross (1956) calls the Epitome one of the most important sources of medieval Alexander romances and chronicles. Voorbij studied it as a source of Helinand of Froidmont's Chronicon and Vincent's Speculum historiale. Buntz (1973), cited by Siemoneit, calls it the most popular and widespread version of the Alexander story until the 12th century.",
+   "status": "verified",
+   "source": "Zacher 1867, p. IV; Ross 1956, p. 127; Voorbij 1984, p. 117; Siemoneit 2023, p. 199 n. 4 (Buntz not seen)"
+  },
+  {
+   "claim": "Alberic of Pisançon/Besançon (early 12th c.), and through him Lamprecht's Alexanderlied (c. 1150s), drew on Julius Valerius, either the full text or the Epitome. Kinzel (1884) found it hard to decide which. Lamprecht agrees with the full Julius Valerius against the Epitome in some places, for example Alexander's threat about the Persian tribute and 'paucis admodum comitatus'. In others he agrees with the Epitome, notably Darius' threat to have Alexander beaten (Epit. 1,36 'verberibus affectum' ~ Lamprecht v. 1486). Ross (1963, p. 9), cited via Wikipedia, says Alberic used both Julius Valerius and the Zacher Epitome.",
+   "status": "probable",
+   "source": "Kinzel 1884, pp. XLVI–XLVII (archive.org lamprechtsalexan00lampuoft); Wikipedia 'Alberic of Besançon' citing Ross, Alexander Historiatus (1963) 9–10"
+  },
+  {
+   "claim": "Thomas of Kent's Anglo-Norman Roman de toute chevalerie derives mainly from the Zacher Epitome. Wikipedia, citing van Melle & Gerritsen (2000), also lists the Roman d'Alexandre and the Histoire ancienne jusqu'à César among works it influenced. I have not checked these against Cary or the ANTS edition.",
+   "status": "unverified",
+   "source": "Wikipedia 'Thomas de Kent' citing Cary, The Medieval Alexander (1956) 35–36; Wikipedia 'Res gestae Alexandri Macedonis' citing van Melle & Gerritsen 2000, p. 21"
+  },
+  {
+   "claim": "Main recent study: G. Siemoneit, 'Die Zacher-Epitome. Änderungen, Erweiterungen, Auslassungen', in H. Wulfram (ed.), Der lateinische ›Alexanderroman‹ des Iulius Valerius: Sprache, Erzählung, Kontext (Millennium-Studien 101), Berlin/Boston: De Gruyter 2023. Crossref gives pp. 199–220 (not 199–219). DOI 10.1515/9783111091679-012; open access under CC BY-NC-ND 4.0. The author is affiliated with Paderborn/Bielefeld.",
+   "status": "verified",
+   "source": "Crossref API for ISBN 9783111091679; Unpaywall; chapter text via mirror"
+  },
+  {
+   "claim": "Julius Valerius' translation predates c. 340, because the Itinerarium Alexandri uses its wording (Zacher). The Wulfram volume dates it to the early 4th century CE.",
+   "status": "verified",
+   "source": "Zacher 1867, p. III; Wulfram 2023 publisher blurb"
+  },
+  {
+   "claim": "Translation status: I found no complete translation of the Zacher Epitome into any modern language. There is one caveat. Translations of the full Julius Valerius, such as J.-P. Callu's bilingual French edition (Turnhout 2010) or G. Berengo's Italian translation of Mai's text (Venice 1851/52), may render the opening chapters (Zacher 1–3), which editors take from the Epitome. I have not checked whether they do.",
+   "status": "probable",
+   "source": "Web searches (EN/DE/IT/RU); Jakobi 2019, p. 92 n. 19 (Callu 2010); bookseller and article notices of Berengo"
+  }
+ ],
+ "siemoneit_book1": "ACCESS CAVEAT. De Gruyter showed an interactive 'human verification' page and OAPEN uses a bot challenge, so I did not get past either. I read the chapter through a third-party mirror (ebin.pub) of the open-access volume, which is licensed CC BY-NC-ND. A helper model summarised the mirrored text in several passes. I checked every Book I example below against Kübler's Latin, and all of them match. Page numbers are approximate. The editor should verify against the official PDF (DOI 10.1515/9783111091679-012).\n\nWHAT SIEMONEIT SAYS\n1. The Epitome (Z) is the oldest member of a family of epitomes of the Res gestae and displaced the original. The later Oxford epitome partly undoes Z's cuts with passages from the full text, and the Montpellier epitome differs only slightly from Oxford. The Metz epitome (4th/5th c. compilation) and the Liegnitz epitome (15th c.) lie outside this family. The author, purpose and date are unknown, and the text has been little studied.\n2. Method. He starts with a cultural-historical discussion of epitomising, using Galen's Synopsis de pulsibus and Genette's minimal story. He then compares Z character by character with Rosellini's 2004 text, with cosine and Ratcliff/Obershelp similarity in the notes. His Fig. 1 plots the share of each chapter that is retained; the regression line shows cuts growing through the work, with Book III least like its source. Overall Z is about one third of the original.\n3. Changes and expansions (pp. ~204–209). The changes are minimal and preserve the sense, but they are applied inconsistently. Typical changes:\n- Word-order normalisation: 1,4 'promit tabulas' for 'tabulas promit' and 'huius peritiae' for 'peritiae huiusce'; 1,12 'totius mundi' for 'mundi totius'; 1,13 'nutrix eius' for 'eius nutrix'.\n- Historical presents replaced by past tenses.\n- Commoner synonyms: 1,7 'mane facto' for 'mane (iam) luciscente'; 1,18 'quintum decimum agens annum' for 'quintum et decimum ingressus annum' (annum agere being the dominant idiom); 1,36 'latronum' for the deponent 'latrocinantium'.\n- Direct speech made indirect: 1,6, Olympias' report of her dream; nothing is lost because the content was already given in 1,4.\n- Small clarifying expansions: 1,36 'quo tibi tuisque necessaria emas' for 'quod suffecerit'.\n- Rare words are sometimes kept: 'beluile' in 1,13 and 'lusitatio' in 1,36. He reads this as a sign of inconsistency.\n4. Omissions (pp. ~209–214). He groups them under three themes.\n(a) Historiography and battle detail. In 1,26 the second source of funds ('collatu studentium rebus suis') and the sums are replaced by 'abundantissime'. In 1,30 the march, the visit to Ammon's temple and the sacrifice shrink to 'Hinc igitur pergens omnem Libyam peragrat'. The battle in 1,41 is told rather than shown. Speeches are heavily cut; his example is Demosthenes in Book II.\n(b) The image of Alexander. Passages that show Alexander's flaws or invite doubt about his birth are cut. In 1,13 Valerius says the child resembled neither Philip nor his supposed father; Z keeps only 'Erat autem vultu et forma pulcherrimus'. In 1,46 Z omits Alexander's demand for 1,000 Theban soldiers, the Thebans' refusal and 'violentia Alexandri', which leaves the attack less motivated.\n(c) Pagan religion. Temples, oracles, sacrifices and gods (Ammon, Mithras and others) are systematically reduced. Ammon remains only as the 'god of Libya' in 1,4, as helper in 1,7, and as 'Libyae dominum universae' in 1,10. Z never calls him Alexander's father; the 'pater Ammon' scene of 1,30 disappears. Siemoneit argues this is deliberate and cites the changed motivation of Alexander's disguise as an envoy in 2,13 (no dream from Ammon).\n5. Conclusion (pp. ~214–217). The redactor knew Latin well and worked systematically. The result is a 'Harmlos-Fassung' of the Res gestae that gives no offence in length, language or content: simpler vocabulary, smoother syntax closer to Vulgar Latin, a bare skeleton of the main episodes, probably meant to replace the original. Battles and pagan rites are largely removed and Alexander appears as an unblemished hero. On the Automated Readability Index, Z scores 16.58 against 21.45 for the Res gestae; he treats this only as a tendency, since ARI was designed for English and ignores vocabulary. He thinks a pro-Christian context is likely, possibly use in world chronicles or Bible-related settings. He says the date cannot be narrowed down.\n6. Open question for Book I. He asks why the epitomator kept the beginning of Book I nearly intact, including 'die fabulöse Nectanabus-Episode', and suggests sensationalism, since the episode is unknown to the Alexander historians.\n\nMY OWN COLLATION OF BOOK I AGAINST KÜBLER, ADDING TO SIEMONEIT\n- Lysias' wedding jibe, which implies that Alexander is illegitimate, is replaced by a vague invented sentence (1,21).\n- In the Pausanias story (1,24), Valerius' 'ecquid mulier consentiret … neque id ei ex sententia provenisset' becomes 'et mulier consentiret', with the failure clause missing, so Olympias seems to consent. This is a conjunctive error of Z and the Ambrosianus, according to Calderan, Rosellini and Jakobi.\n- 'Ab Ammone dicta' becomes 'deum … praedixisse' (1,24).\n- The letters lose Darius' title 'consessor dei Mithrae' and Alexander's 'filius Ammonis' (1,35–38).\n- Additions: 'quondam conscolasticus eius' for Nicolaus (1,18), absent from the Julius Valerius manuscripts; 'Atque his dictis roborat pavitantia corda suorum' (1,37); Darius as 'praecursor' of the flight (1,41); Alexander called 'tyranni' in 1,46.",
+ "translation_status": "Status: no modern translation of the Zacher Epitome found in Russian, English, German, French, Italian or Spanish.\n\nSearches run: English, German, Italian and Russian web searches on 'Zacher Epitome / Iulii Valerii epitome / Epitome des Iulius Valerius / epitome di Giulio Valerio / Эпитома Юлия Валерия' with 'translation / Übersetzung / traduzione / перевод'. I also checked the literature I read: Siemoneit 2023, Jakobi 2019, Voorbij 1984 and Ross 1956. None mentions a translation.\n\nCoverage gaps: French and Spanish were covered only indirectly. I did not search WorldCat, SBN, BnF or RSL catalogues.\n\nCaveats:\n1. Translations of the full Julius Valerius may include the Epitome text for the opening chapters (Zacher chs. 1–3 and the start of 4). Editors take those chapters from the Epitome because the Julius Valerius manuscripts lack them (Kübler 1888, note before p. 1; Jakobi 2019, p. 85). Candidates are J.-P. Callu's bilingual 'Julius Valère, Roman d'Alexandre' (Turnhout 2010, cited by Jakobi) and G. Berengo's Italian translation of Mai's Julius Valerius (Venice 1851/52), whose Mai text had gaps filled from the Epitome. I have not checked either.\n2. Hilka's editions of the interpolated Oxford-Montpellier and Liegnitz versions are Latin editions, not translations.\n\nConclusion: a translation of the Epitome as such appears to be a first, but the claim should be worded as 'as far as we could establish'.",
+ "parallels": [
+  {
+   "chapter": 1,
+   "jv": "No independent Julius Valerius text. Kübler 1888 cap. 1 (p. 1) prints the Epitome's own text here (Müller I), and per Jakobi only Z and O preserve the opening.",
+   "ps_call_alpha": "Ps.-Call. α 1.1 (Kroll pp. 1–2)",
+   "change": "Compared with the Greek only, since Valerius is lost here, so I cannot tell whether Valerius or the epitomator made these changes. The Latin keeps 'descended from gods', measuring the earth and counting the stars, but drops the taming of the sea and measuring the Nile, and the note that Nectanebo was Egypt's last king. The bowl holds spring water instead of rainwater (as in the Armenian and β). Nectanebo invokes 'deos superos inferosque' instead of angels and the Libyan god Ammon. The wax figures come alive (as in the Armenian and β).",
+   "verified": true
+  },
+  {
+   "chapter": 2,
+   "jv": "No independent Julius Valerius text. Kübler cap. 1, p. 1 (from the Epitome; Müller II).",
+   "ps_call_alpha": "Ps.-Call. α 1.2 (Kroll p. 2); chapter boundary per Müller, not separately checked in Kroll",
+   "change": "The Greek scene of a commander reporting the invasion, and Nectanebo's speech that strength lies in courage, not numbers, is reduced to a bare report and his laughter. The list of nations differs: Kroll's apparatus notes that 'Val.' adds Phoenices, Parthi and Assyrii (Indi also appear in the Armenian), and the Bosporans, Chaldaeans and others are missing.",
+   "verified": true
+  },
+  {
+   "chapter": 3,
+   "jv": "No independent Julius Valerius text. Kübler cap. 2 (p. 2) prints the Epitome; the Turin palimpsest starts only at 'longe celebratior' in ch. 4 (Müller III).",
+   "ps_call_alpha": "Ps.-Call. α 1.3 (Kroll p. 3)",
+   "change": "In the Greek, Nectanebo sees the gods of Egypt steering the enemy ships; the Latin has only 'quibus intellexit se vincendum'. The route via Pelusium and the arrival at Pella are absent. The Egyptians' oracle (the king will return young) is lacking here; Kroll notes 'om. Val.', and in Valerius it appears later with the statue in 1,34. He shaves his head, wears linen and poses as an astrologer, as in the Greek.",
+   "verified": true
+  },
+  {
+   "chapter": 4,
+   "jv": "Iul. Val. 1,4 (Rosellini/Müller IV) = Kübler cap. 2–3, pp. 2–4 (Turin palimpsest T from 'longe celebratior')",
+   "ps_call_alpha": "Ps.-Call. α 1.4 (Kroll pp. 3–5)",
+   "change": "Reordering: the greeting without 'domina' comes before the falling in love. Dropped: Valerius' remark on Nectanebo's lustfulness; Olympias' praise of his truthfulness; the ekphrasis of the pinax as a masterpiece; her sending the servants away; the exchange of birth charts, including Nectanebo's self-serving check whether his own chart matches hers; Olympias' question 'quanam id facultate?'; and the description of Ammon (young, grey-haired, ram-horned). Word order is normalised ('promit tabulas', 'huius peritiae', per Siemoneit). The list of planet-stones is kept.",
+   "verified": true
+  },
+  {
+   "chapter": 5,
+   "jv": "Iul. Val. 1,5 (Müller V) = Kübler cap. 4, p. 4",
+   "ps_call_alpha": "Ps.-Call. α 1.5",
+   "change": "Almost verbatim. Dropped: 'neque oppertus in tempus longum', 'ex scientia', and the clause naming Ammon ('quos fore cum Ammone dixerat').",
+   "verified": true
+  },
+  {
+   "chapter": 6,
+   "jv": "Iul. Val. 1,6 (Müller VI) = Kübler cap. 4, pp. 4–5 (Siemoneit: Iul. Val. 1,6,115–117)",
+   "ps_call_alpha": "Ps.-Call. α 1.6",
+   "change": "Olympias' report of the dream, in direct speech in Valerius, becomes indirect ('eique somnii retulit visionem'). Her promise of fatherly regard for Nectanebo is dropped. His instructions are shortened: the lamps left burning, the veiled face and the sidelong look are gone. The serpent 'clementius reptabundus' becomes simply 'reptabundus'.",
+   "verified": true
+  },
+  {
+   "chapter": 7,
+   "jv": "Iul. Val. 1,7 (Müller VII) = Kübler cap. 4, pp. 5–7 (Siemoneit 1,7,150; Jakobi 1,7,153)",
+   "ps_call_alpha": "Ps.-Call. α 1.7",
+   "change": "The disguise (ram's fleece with horns, sceptre, white robe) is kept. 'Mane iam luciscente' becomes 'mane facto'. The god's words are cut ('invicta et insubiugabilia foedera'), and 'sese' is normalised to 'se'. Dropped: Olympias' line about her love; Nectanebo's joy; the 'purgatione sacricula' rite; 'sub opinione Ammonis dei'; the narrator's comment on her being led by magic; and the promise that Ammon will instruct Philip in a dream.",
+   "verified": true
+  },
+  {
+   "chapter": 8,
+   "jv": "Iul. Val. 1,8 (Müller VIII) = Kübler cap. 4, pp. 7–8",
+   "ps_call_alpha": "Ps.-Call. α 1.8",
+   "change": "The hawk's flight 'per terras et mare' is omitted, and 'iussis mandatis' picks up Valerius' 'ut iussum est' (Jakobi). Philip's dream is kept nearly verbatim. In the interpreters' speech, 'Consignatio enim fides…', 'vel carta' and 'in quo etiam deorum effigies veneramur' are cut. The final clause on Philip suspecting a human father is omitted. Z has plural 'interpretes', with T and P.",
+   "verified": true
+  },
+  {
+   "chapter": 9,
+   "jv": "Iul. Val. 1,9 (Müller IX) = Kübler cap. 4, p. 8",
+   "ps_call_alpha": "Ps.-Call. α 1.9",
+   "change": "Olympias' fear and Nectanebo's comforting are dropped. Philip's speech is reduced to its opening and its last sentence; the pardon and the maxim that kings have no power over gods are gone. Olympias' thanks to Nectanebo are omitted.",
+   "verified": true
+  },
+  {
+   "chapter": 10,
+   "jv": "Iul. Val. 1,10 (Müller X) = Kübler cap. 4, pp. 8–10 (Siemoneit: 1,10,232–241)",
+   "ps_call_alpha": "Ps.-Call. α 1.10",
+   "change": "The banquet description, the serpent's forked-tongue kiss and Philip's frightened withdrawal are cut. 'Sobrius' becomes 'exhilaratus'. 'Sed auctiorem' is Zacher's correction, made against the Greek, and agrees with T. Ammon as 'Libyae dominum universae' is kept.",
+   "verified": true
+  },
+  {
+   "chapter": 11,
+   "jv": "Iul. Val. 1,11 (Müller XI) = Kübler cap. 5, pp. 10–11",
+   "ps_call_alpha": "Ps.-Call. α 1.11",
+   "change": "'In quadam regiae parte' becomes 'in quadam regione'. Philip's unease is dropped, as are Antiphon's divine inspiration ('dei adminiculo inspiratus') and the recap of the omen. The prophecy is paraphrased, and 'liquet' is added.",
+   "verified": true
+  },
+  {
+   "chapter": 12,
+   "jv": "Iul. Val. 1,12 (Müller XII) = Kübler cap. 6, p. 11 (Siemoneit 1,12,296)",
+   "ps_call_alpha": "Ps.-Call. α 1.12",
+   "change": "Nectanebo's secretly touching Olympias and the astronomical detail are omitted; the cosmos at the summit of its turning and the sun at mid-heaven are gone. 'Mundi totius' becomes 'totius mundi'.",
+   "verified": true
+  },
+  {
+   "chapter": 13,
+   "jv": "Iul. Val. 1,13 (Müller XIII) = Kübler cap. 6 end–7, pp. 11–14 (Siemoneit 1,13,313–316, 323)",
+   "ps_call_alpha": "Ps.-Call. α 1.13",
+   "change": "Philip's decision speech is kept. Dropped:\n- the gifts sent from Macedonia, Pella and Thrace;\n- the statement that the child resembled neither parent nor his supposed father (Z keeps only 'Erat autem vultu et forma pulcherrimus');\n- his lion-like spirit;\n- the teachers' ethnics (Lemnius, Peloponnesius, Aristocli Lampsacenus);\n- the Favorinus digression with the genealogies;\n- the boy's debating game;\n- Philip's proverb, and his order that condemned men be thrown to the man-eating horse.\nThe list of teachers and the arrival of Bucephalus are kept, as is the rare 'beluile'.",
+   "verified": true
+  },
+  {
+   "chapter": 14,
+   "jv": "Iul. Val. 1,14 (Müller XIV) = Kübler cap. 7 end–8, pp. 14–16",
+   "ps_call_alpha": "Ps.-Call. α 1.14 (Kroll marker checked)",
+   "change": "Philip's speech to the twelve-year-old is omitted, and 'adpellens' becomes 'agens'. Added: 'nocte quadam' and 'nunc resupinus iacens'. Dropped: Nectanebo's 'laesum me letaliter sentio'; 'tractatum et amorem'; the boy's fear of leaving the body to beasts; Olympias' burial of Nectanebo with honour; and the closing reflection (Nectanebo, an Egyptian, buried in Macedonia; Alexander, a Macedonian, to be buried in Egypt).",
+   "verified": true
+  },
+  {
+   "chapter": 15,
+   "jv": "Iul. Val. 1,15 (Müller XV) = Kübler cap. 9, p. 16",
+   "ps_call_alpha": "Ps.-Call. α 1.15",
+   "change": "The Delphic oracle loses 'et hasta omnia subiugabit'. The etymology of Bucephalus (an ox-head brand on the haunch) and Philip's hope of a 'younger Heracles' are omitted. All of Müller XVI is skipped (Aristotle's question to the princes, the Zeuxis letters on spending), so there is no ch. 16.",
+   "verified": true
+  },
+  {
+   "chapter": 17,
+   "jv": "Iul. Val. 1,17 (Müller XVII) = Kübler cap. 9 end, pp. 19–20",
+   "ps_call_alpha": "Ps.-Call. α 1.17",
+   "change": "Ptolemy's line is kept. The horse's gentle neigh and its gestures of submission are cut. 'Bucephala' becomes 'Bucephalus', and 'orbis integri dominum' becomes 'totius orbis dominum'.",
+   "verified": true
+  },
+  {
+   "chapter": 18,
+   "jv": "Iul. Val. 1,18 (Müller XVIII) = Kübler cap. 10–11, pp. 20–22 (Siemoneit 1,18,516; Jakobi 1,18,560)",
+   "ps_call_alpha": "Ps.-Call. α 1.18",
+   "change": "The dialogue with Philip on which contest to enter is cut, and Hephaestion is omitted. Addition: Nicolaus is 'quondam conscolasticus eius'. This is in all Epitome manuscripts and in Vincent of Beauvais but absent from the Julius Valerius manuscripts (Zacher's apparatus: 'fehlt Vbc'). The exchange of insults is condensed, and the oath drops 'et Acernaniae telo'. 'Sputamenta' is shared with the Ambrosianus (Jakobi).",
+   "verified": true
+  },
+  {
+   "chapter": 19,
+   "jv": "Iul. Val. 1,19 (Müller XIX) = Kübler cap. 12, pp. 22–23",
+   "ps_call_alpha": "Ps.-Call. α 1.19",
+   "change": "Drastically reduced to one sentence. The nine named competitors, the race tactics, Nicolaus' crash and the Olympian priest's prophecy of world rule are all omitted.",
+   "verified": true
+  },
+  {
+   "chapter": 20,
+   "jv": "Iul. Val. 1,20 (Müller XX) = Kübler cap. 13, pp. 23–24",
+   "ps_call_alpha": "Ps.-Call. α 1.20",
+   "change": "Cleopatra's father ('Attali … filiae') and 'Gaudeo quidem quod in praesenti laetamini' are omitted, as is Philip's inner rage. 'Aliis regalibus nuptiis' (to another king) becomes 'iterum regalibus nuptiis'.",
+   "verified": true
+  },
+  {
+   "chapter": 21,
+   "jv": "Iul. Val. 1,21 (Müller XXI) = Kübler cap. 13, p. 24",
+   "ps_call_alpha": "Ps.-Call. α 1.21",
+   "change": "Lysias' actual jibe, that Cleopatra will give Philip legitimate sons who look like him, implies that Alexander is a bastard. It is replaced by an invented neutral sentence about repeated jests and warnings. Alexander's taunt ('he who would cross Asia and Europe cannot cross a couch') and the Centaur/Lapith and Odysseus/suitors similes are omitted.",
+   "verified": true
+  },
+  {
+   "chapter": 22,
+   "jv": "Iul. Val. 1,22 (Müller XXII) = Kübler cap. 14–15, pp. 24–26",
+   "ps_call_alpha": "Ps.-Call. α 1.22",
+   "change": "Alexander's reproaches about Lysias and Philip's cruelty are trimmed, and so is his play on calling Philip 'father'. 'Iudex et ultor' becomes 'vindex et ultor', as in the Ambrosianus. The note that Lysias' name was banned from wedding rites is omitted.",
+   "verified": true
+  },
+  {
+   "chapter": 23,
+   "jv": "Iul. Val. 1,23 (Müller XXIII) = Kübler cap. 16, pp. 26–27 (Jakobi 1,23,658)",
+   "ps_call_alpha": "Ps.-Call. α 1.23",
+   "change": "The Methone episode is compressed. The envoys become 'Darii regis Persarum legatio' demanding tribute, 'earth and water'. Alexander's message changes: in Valerius he threatens to reclaim the tribute and seize Persia's own wealth; in Z he says the king will otherwise face him in battle. 'Ne litterarum quidem … dignatus' and Philip's pride in his son are omitted. 'Deficeret' is a reading shared by Z and the Ambrosianus.",
+   "verified": true
+  },
+  {
+   "chapter": 24,
+   "jv": "Iul. Val. 1,24 (Müller XXIV) = Kübler cap. 17–18, pp. 27–28 (Jakobi 1,24,690, 718)",
+   "ps_call_alpha": "Ps.-Call. α 1.24",
+   "change": "Pausanias' Thessalonican origin is omitted.\n'Ecquid mulier consentiret … neque id ei ex sententia provenisset' becomes 'et mulier consentiret', with the failure clause missing, so Olympias seems to consent. In the Greek and in Valerius she refuses. This is a ZA conjunctive error noted by Calderan, Rosellini and Jakobi.\nThe theatre games are not introduced, though 'in theatro' remains.\nAmmon is removed twice: Olympias' 'habeo praesidem Ammonem' is omitted, and Philip's 'ab Ammone dicta' becomes 'deum … praedixisse'.\nThe mourning of Macedonia and Greece is omitted.",
+   "verified": true
+  },
+  {
+   "chapter": 25,
+   "jv": "Iul. Val. 1,25 (Müller XXV) = Kübler cap. 19–20, pp. 28–30 (Jakobi 1,25,725)",
+   "ps_call_alpha": "Ps.-Call. α 1.25",
+   "change": "The speech loses its address to Pella, Athens and Corinth and the call to 'enslave the Persians'; the edict to the cities is omitted. 'Ac si divinitus monitus' is kept. The veterans' refusal and Alexander's speech on youth and age (Kübler cap. 20) are skipped. Z preserves 'en' with T against AP (Jakobi).",
+   "verified": true
+  },
+  {
+   "chapter": 26,
+   "jv": "Iul. Val. 1,26 (Müller XXVI) = Kübler cap. 21, pp. 30–31 (Siemoneit 1,26,770–773)",
+   "ps_call_alpha": "Ps.-Call. α 1.26",
+   "change": "The troop figures are kept, with a total of 70,604 (as in T; Kübler prints 70,654). The second source of funds and the sums in talents become 'abundantissime'. The warships and transports and Thrace's inherited loyalty are omitted.",
+   "verified": true
+  },
+  {
+   "chapter": 29,
+   "jv": "Iul. Val. 1,29 (Müller XXIX) = Kübler cap. 22, p. 31",
+   "ps_call_alpha": "Ps.-Call. α 1.29 (α has no 1.27–28; per Kroll these are β-only)",
+   "change": "The Thracian levies and 400 talents are omitted. 'Communi sacrificio foederatis' becomes 'ad amicitiam foederatis', dropping the sacrifice. The Sicilian subjugation clause is cut, as is the crown's weight (100 lb), which Z simply calls 'aurea'. Rome's gift of 'talenta quadringenta' becomes 'quadraginta' (400 → 40). Rome's war with Carthage is omitted.",
+   "verified": true
+  },
+  {
+   "chapter": 30,
+   "jv": "Iul. Val. 1,30 (Müller XXX) = Kübler cap. 22 end–23, pp. 31–33 (Siemoneit 1,30,800–814)",
+   "ps_call_alpha": "Ps.-Call. α 1.30",
+   "change": "The whole chapter is reduced to one sentence. Omitted:\n- the Carthaginian embassy and Alexander's rebuke;\n- 'paucis admodum comitatus';\n- the visit to Ammon, the sacrifice, the prayer 'o pater Ammon', the temple dedicated 'Patri Ammoni', and the verse oracle on the Proteian land.\nMüller XXXI–XXXIII are skipped: Paraetonium, Taposiris, the foundation of Alexandria and Sarapis.",
+   "verified": true
+  },
+  {
+   "chapter": 34,
+   "jv": "Iul. Val. 1,34 (Müller XXXIV) = Kübler cap. 33–34, pp. 43–45",
+   "ps_call_alpha": "Ps.-Call. α 1.34",
+   "change": "The opening sentence is kept almost verbatim. Omitted: the hard march; the Egyptians coming out with images of their gods; Memphis and the temple of Hephaestus. 'Iuniorem Sesonchosim' becomes 'secundum Sesonchosin'. The enthronement clause ('veste et sede regni dignum duxerunt') equals a marginal reading in the Ambrosianus; that manuscript's second hand drew variants from Z. The statue's prophetic inscription is omitted, as are Alexander's speech on Egypt's walls and wealth and his demand for Darius' tribute (Kübler cap. 34).",
+   "verified": true
+  },
+  {
+   "chapter": 35,
+   "jv": "Iul. Val. 1,35 (Müller XXXV) = Kübler cap. 35–36, pp. 45–47",
+   "ps_call_alpha": "Ps.-Call. α 1.35",
+   "change": "Omitted:\n- the 1,000 cataphracts;\n- the Tyrians' oracle as their motive;\n- the dream warning Alexander not to go as his own envoy;\n- the letter's title 'filius Ammonis Philippique, rex regum…';\n- the taunt about the Tyrians' oracle;\n- the torture to find out 'which of them was Alexander';\n- the Satyr dream (sa-Tyros);\n- the founding of Tripolis.\nThe letter's core and the sack of Tyre are kept.",
+   "verified": true
+  },
+  {
+   "chapter": 36,
+   "jv": "Iul. Val. 1,36 (Müller XXXVI) = Kübler cap. 37, pp. 47–48 (Siemoneit; Jakobi 1,36,1205–1215)",
+   "ps_call_alpha": "Ps.-Call. α 1.36",
+   "change": "Darius' title loses 'consessorque dei Mithrae … oriens cum sole'. 'Latrocinantium ritu' becomes 'ritu latronum', and 'quod subfecerit' becomes 'quo tibi tuisque necessaria emas'. The ending is expanded into 'qui te vinctum atque contumeliose verberibus affectum … deducant'; Kinzel notes that Lamprecht v. 1486 agrees with this Epitome wording.",
+   "verified": true
+  },
+  {
+   "chapter": 37,
+   "jv": "Iul. Val. 1,37 (Müller XXXVII) = Kübler cap. 38–39, pp. 48–50",
+   "ps_call_alpha": "Ps.-Call. α 1.37",
+   "change": "The 'barking dogs' speech is kept nearly verbatim, without its final sentences. Added: 'Atque his dictis roborat pavitantia corda suorum'. Omitted: the order to crucify the envoys, their plea, Alexander's relenting, the banquet, and the envoy's offer to betray Darius, which Alexander declines. The return of the gold is kept.",
+   "verified": true
+  },
+  {
+   "chapter": 38,
+   "jv": "Iul. Val. 1,38 (Müller XXXVIII) = Kübler cap. 40, pp. 50–51",
+   "ps_call_alpha": "Ps.-Call. α 1.38 (Kroll marker checked)",
+   "change": "The salutation drops the parents and 'consessori dei Mithrae … orienti, maximo Persarum domino' and keeps 'consanguineo deorum'. Omitted: the remarks on divine titles, 'adero ut mortalis', and the two possible outcomes (Persian empire or 'robbery suppressed'). The reading of the strap, ball and gold is kept, but the gold as 'annual price of servitude' is dropped.",
+   "verified": true
+  },
+  {
+   "chapter": 39,
+   "jv": "Iul. Val. 1,39 (Müller XXXIX) = Kübler cap. 41–42, pp. 51–52",
+   "ps_call_alpha": "Ps.-Call. α 1.39",
+   "change": "Alexander's conquest of Syria is cut. Darius' order to the satraps is turned from reported speech into direct speech, without the knucklebones and rattles, the Persian tutor and the distribution of horses. In the satraps' reply their names (Hystaspes and Spinther), 'deo Dario' and the five captives are omitted. Darius' angry reply to the satraps (Kübler cap. 42) is omitted.",
+   "verified": true
+  },
+  {
+   "chapter": 40,
+   "jv": "Iul. Val. 1,40 (Müller XL) = Kübler cap. 42 end, pp. 52–53 (Jakobi 1,40,1347)",
+   "ps_call_alpha": "Ps.-Call. α 1.40 (Kroll marker checked)",
+   "change": "The setting (Alexander camped by a river) and Darius' 'lord of 120 nations' are omitted. The letter is abridged: the crossing of the sea, the 'Graeculi' and the threat of punishment are gone. The oath by Jupiter and his ancestors is kept. Z has 'ad' with Rosellini against AP.",
+   "verified": true
+  },
+  {
+   "chapter": 41,
+   "jv": "Iul. Val. 1,41 (Müller XLI) = Kübler cap. 43–44, pp. 53–56 (Siemoneit: lines 1361–1373)",
+   "ps_call_alpha": "Ps.-Call. α 1.41 (Kroll marker checked)",
+   "change": "The battle is told rather than shown. Omitted: the wings, Amyntas son of Antiochus, Darius hiding his chariot, the 60 stades, Alexander in the Persian tents, the praise of his moderation, and the figures for casualties and booty. Added: Darius becomes 'praecursor' of the flight (D and E read 'praecessor'). The burial of the fallen and the courteous treatment of Darius' family are kept.",
+   "verified": true
+  },
+  {
+   "chapter": 42,
+   "jv": "Iul. Val. 1,42 (Müller XLII) = Kübler cap. 45–47, pp. 56–59",
+   "ps_call_alpha": "Ps.-Call. α 1.42",
+   "change": "Kept: the regrouping, the letter to Scamander (Mai and Müller emended this to 'Cassandrum'), Achaia, 170,000 men and the spear on the Taurus. Omitted: Darius at the Euphrates. Z then jumps to Valerius' closing clause, 'devertens iter institit ad Darium', skipping:\n- Orpheus' sweating statue in Pieria and Melampus;\n- the cult of Achilles and Hector with Alexander's genealogical verse prayer;\n- Achilles' shield and the Homer remark;\n- Olympias sent home.\nAll of Müller XLIII–XLV is skipped: Abdera, the Euxine and Maeotis, the speech after killing the horses for food, Locri, and the tripod at Acragas.",
+   "verified": true
+  },
+  {
+   "chapter": 46,
+   "jv": "Iul. Val. 1,46 (Müller XLVI) = Kübler cap. 51–53, pp. 61–64 (Siemoneit 1,46,1556–1560; Jakobi 1,46,1568)",
+   "ps_call_alpha": "Ps.-Call. α 1.46 and 1.46a (Ismenias) (Kroll pp. 52–61, markers checked)",
+   "change": "Alexander's demand for 1,000 Thebans and their refusal are omitted, so the attack is less motivated (Siemoneit). Valerius' ironic 'o vos fortissimos' becomes 'o vos stultissimos … dicam', which matches a marginal 'vel stultissimos dixerim' in the Ambrosianus. 'Iaculisque ac telis debellare' is in Z but not in AP; Jakobi argues it is genuine Valerius (cf. the Greek), not an addition. Omitted: the walls built by lyre music, the fire and rams, and the slingers. The piper's plea is cut to Liber, Hercules, Amphion and Zethus, without the orgia, Semele and Alcmena; he is not named, here or in Valerius. Alexander is called 'tyranni', and his retort is turned into narrative.",
+   "verified": true
+  },
+  {
+   "chapter": 47,
+   "jv": "Iul. Val. 1,47 (Müller XLVII; begins at 'Sed Thebani, quicumque fugae…') = Kübler cap. 53 end–54, pp. 64–65",
+   "ps_call_alpha": "Ps.-Call. α 1.47 (Kroll pp. 61–63; marker at the Clitomachus episode checked); the oracle stands at the 1.46a/1.47 junction",
+   "change": "The two-line Delphic oracle is kept verbatim, and Clitomachus' triple victory and speech follow Valerius closely. 'Certamen gymnicum' becomes 'sollemne certamen', and 'condi Thebas' becomes 'reaedificari Thebas'. The order of the gods changes to Hercules, Mercury, Pollux (Valerius: Mercury, Hercules, Pollux).",
+   "verified": true
+  }
+ ],
+ "glossary": [
+  {
+   "latin": "Nectanabus (gen. Nectanabi)",
+   "ru": "Нектанеб",
+   "en": "Nectanebo (Nectanebus)",
+   "note": "Nectanebo II, last native pharaoh, here a magician and Alexander's real father. The Russian form is standard (Russian Wikipedia 'Нектанеб II'; Brockhaus 'Нектанеб'). Greek Νεκτανεβώ(ς)."
+  },
+  {
+   "latin": "Olympias (acc. Olympiadam/Olympiadem)",
+   "ru": "Олимпиада",
+   "en": "Olympias",
+   "note": "Mother of Alexander; Russian form as in Plutarch, transl. Botvinnik–Perelmuter."
+  },
+  {
+   "latin": "Philippus",
+   "ru": "Филипп (II)",
+   "en": "Philip (II)",
+   "note": ""
+  },
+  {
+   "latin": "Alexander",
+   "ru": "Александр",
+   "en": "Alexander",
+   "note": ""
+  },
+  {
+   "latin": "Ammon (dat. Ammoni)",
+   "ru": "Аммон",
+   "en": "Ammon",
+   "note": "'deus Libyae', 'Libyae dominus universae'; ram-horned. Russian as in Plutarch's Alexander."
+  },
+  {
+   "latin": "Libya",
+   "ru": "Ливия",
+   "en": "Libya",
+   "note": "= North Africa."
+  },
+  {
+   "latin": "Aegyptus, Aegyptii",
+   "ru": "Египет, египтяне",
+   "en": "Egypt, Egyptians",
+   "note": ""
+  },
+  {
+   "latin": "Macedonia, Macedones",
+   "ru": "Македония, македоняне",
+   "en": "Macedonia, Macedonians",
+   "note": ""
+  },
+  {
+   "latin": "Oriens",
+   "ru": "Восток",
+   "en": "the East",
+   "note": ""
+  },
+  {
+   "latin": "Indi",
+   "ru": "индийцы (инды)",
+   "en": "Indians",
+   "note": "Not in Greek A (Kroll's apparatus: added in Arm. and Val.)."
+  },
+  {
+   "latin": "Arabes",
+   "ru": "арабы",
+   "en": "Arabs",
+   "note": ""
+  },
+  {
+   "latin": "Phoenices",
+   "ru": "финикийцы",
+   "en": "Phoenicians",
+   "note": "Latin addition to the Greek list (Kroll's apparatus)."
+  },
+  {
+   "latin": "Parthi",
+   "ru": "парфяне",
+   "en": "Parthians",
+   "note": "Latin addition (Kroll's apparatus)."
+  },
+  {
+   "latin": "Assyrii",
+   "ru": "ассирийцы",
+   "en": "Assyrians",
+   "note": "Latin addition (Kroll's apparatus)."
+  },
+  {
+   "latin": "Scythae",
+   "ru": "скифы",
+   "en": "Scythians",
+   "note": ""
+  },
+  {
+   "latin": "Alani",
+   "ru": "аланы",
+   "en": "Alans",
+   "note": "Anachronism; Greek reading uncertain (Kroll's apparatus)."
+  },
+  {
+   "latin": "Oxydracontae",
+   "ru": "оксидраки",
+   "en": "Oxydracae",
+   "note": "Greek Ὀξυδράκαι; the Latin form is corrupt."
+  },
+  {
+   "latin": "Seres",
+   "ru": "серы",
+   "en": "Seres",
+   "note": "The 'silk people' (Chinese)."
+  },
+  {
+   "latin": "Caucones",
+   "ru": "кавконы",
+   "en": "Caucones",
+   "note": "Greek Καύκωνες (L); Kroll's apparatus also has variants Καυσανοί and others."
+  },
+  {
+   "latin": "Hiberi",
+   "ru": "иберы",
+   "en": "Iberians",
+   "note": "Caucasian Iberia."
+  },
+  {
+   "latin": "Agriophagi",
+   "ru": "агриофаги",
+   "en": "Agriophagi",
+   "note": "'Eaters of wild animals'."
+  },
+  {
+   "latin": "Eunomitae",
+   "ru": "эвонимиты",
+   "en": "Euonymitae",
+   "note": "Greek Εὐωνυμῖται; the Latin spelling is corrupt."
+  },
+  {
+   "latin": "Iuppiter (planet)",
+   "ru": "Юпитер",
+   "en": "Jupiter",
+   "note": "Planet, of 'aereus lapis' (Greek αἰθερίτης λίθος). Also the god: 'Iovem ex aquila' (ch. 10), Darius' oath by Jupiter (ch. 40)."
+  },
+  {
+   "latin": "Sol",
+   "ru": "Солнце",
+   "en": "Sun",
+   "note": "Of crystal."
+  },
+  {
+   "latin": "Luna",
+   "ru": "Луна",
+   "en": "Moon",
+   "note": "Of adamant."
+  },
+  {
+   "latin": "Mars",
+   "ru": "Марс",
+   "en": "Mars",
+   "note": "Of haematite."
+  },
+  {
+   "latin": "Mercurius",
+   "ru": "Меркурий",
+   "en": "Mercury",
+   "note": "Planet (ch. 4, of emerald) and god, 'repertor luctandi' (ch. 47)."
+  },
+  {
+   "latin": "Venus",
+   "ru": "Венера",
+   "en": "Venus",
+   "note": "Of sapphire."
+  },
+  {
+   "latin": "Saturnus",
+   "ru": "Сатурн",
+   "en": "Saturn",
+   "note": "Of ophite."
+  },
+  {
+   "latin": "horoscopus",
+   "ru": "гороскоп (асцендент)",
+   "en": "horoscopus (ascendant)",
+   "note": "In ch. 4 the token for the ascendant, made of lygdinus (white marble)."
+  },
+  {
+   "latin": "pinax",
+   "ru": "пинакс (астрологическая доска)",
+   "en": "pinax (astrological board)",
+   "note": "Of gold and ivory."
+  },
+  {
+   "latin": "constellatio, genitura",
+   "ru": "гороскоп, натальная карта; рождение",
+   "en": "nativity, horoscope",
+   "note": "Astrological terms."
+  },
+  {
+   "latin": "mathesis; astrici",
+   "ru": "«математика» (астрология); астрологи",
+   "en": "mathesis (astrology); astrologers",
+   "note": ""
+  },
+  {
+   "latin": "interpretes somniorum; coniector",
+   "ru": "толкователи снов; толкователь знамений",
+   "en": "dream interpreters; diviner",
+   "note": ""
+  },
+  {
+   "latin": "propheta; magus",
+   "ru": "пророк (жрец-«профет»); маг",
+   "en": "prophet; magus",
+   "note": "Nectanebo is called both."
+  },
+  {
+   "latin": "pelvis",
+   "ru": "чаша (лекана)",
+   "en": "basin",
+   "note": "Lecanomancy (λεκανομαντεία, Kroll 1,14)."
+  },
+  {
+   "latin": "virgula ex ligno hebeni",
+   "ru": "эбеновый жезл",
+   "en": "ebony wand",
+   "note": "Greek ἐβεννίνη ῥάβδος."
+  },
+  {
+   "latin": "praecantamina; carmen",
+   "ru": "заклинания; заговор",
+   "en": "incantations; spell",
+   "note": ""
+  },
+  {
+   "latin": "aereus (aerius) lapis",
+   "ru": "«небесный» камень",
+   "en": "'aerial' (sky-coloured) stone",
+   "note": "Renders Greek αἰθερίτης λίθος."
+  },
+  {
+   "latin": "cristallus",
+   "ru": "горный хрусталь",
+   "en": "rock crystal",
+   "note": ""
+  },
+  {
+   "latin": "adamas",
+   "ru": "адамант",
+   "en": "adamant",
+   "note": "In antiquity a very hard stone, not necessarily diamond."
+  },
+  {
+   "latin": "haematites",
+   "ru": "гематит (кровавик)",
+   "en": "haematite",
+   "note": ""
+  },
+  {
+   "latin": "smaragdus",
+   "ru": "смарагд (изумруд)",
+   "en": "emerald (smaragdus)",
+   "note": ""
+  },
+  {
+   "latin": "sapphirus (saphirina)",
+   "ru": "сапфир",
+   "en": "sapphire",
+   "note": "The ancient sapphirus is usually lapis lazuli."
+  },
+  {
+   "latin": "ophites",
+   "ru": "офит (змеевик)",
+   "en": "ophite (serpentine)",
+   "note": ""
+  },
+  {
+   "latin": "lygdinus (lapis)",
+   "ru": "лигдин (белый мрамор)",
+   "en": "lygdine (white marble)",
+   "note": "Greek λύγδινος λίθος."
+  },
+  {
+   "latin": "draco; dracunculus",
+   "ru": "змей (дракон); змеёныш",
+   "en": "serpent (dragon); little serpent",
+   "note": "Ammon's herald (chs. 6–7, 10); the omen of the egg (ch. 11)."
+  },
+  {
+   "latin": "accipiter",
+   "ru": "ястреб",
+   "en": "hawk",
+   "note": "Sacred bird sent to Philip."
+  },
+  {
+   "latin": "biblus",
+   "ru": "папирус (библос)",
+   "en": "papyrus",
+   "note": "Grows 'only in our land', i.e. Egypt."
+  },
+  {
+   "latin": "virginal",
+   "ru": "лоно (женское естество)",
+   "en": "female parts",
+   "note": "A rare word, also in Valerius."
+  },
+  {
+   "latin": "annulus aureus; hastile",
+   "ru": "золотой перстень; древко (копьё)",
+   "en": "gold signet ring; spear-shaft",
+   "note": "Seal with the sun and a lion's head."
+  },
+  {
+   "latin": "vellus arietis; sceptrum; amictus candidus",
+   "ru": "баранье руно; скипетр; белое одеяние",
+   "en": "ram's fleece; sceptre; white robe",
+   "note": "Nectanebo's disguise as Ammon."
+  },
+  {
+   "latin": "Antipho (acc. Antiphontem)",
+   "ru": "Антифонт",
+   "en": "Antiphon",
+   "note": "Diviner. Greek Ἀντιφῶν (Kroll)."
+  },
+  {
+   "latin": "Alacrinis",
+   "ru": "Алакринис",
+   "en": "Alacrinis",
+   "note": "Nurse. The Greek tradition has Lanike (Λανίκη), sister of Cleitus the Black (Kroll's apparatus)."
+  },
+  {
+   "latin": "Leonides",
+   "ru": "Леонид",
+   "en": "Leonidas",
+   "note": "Paedagogus. Russian form as in Plutarch."
+  },
+  {
+   "latin": "Polinicus",
+   "ru": "Полиник",
+   "en": "Polynicus",
+   "note": "Teacher of letters ('Polynicus Val.', Kroll's apparatus)."
+  },
+  {
+   "latin": "Alcippus",
+   "ru": "Алкипп",
+   "en": "Alcippus",
+   "note": "Music teacher; 'Lemnius' in Valerius, dropped in Z."
+  },
+  {
+   "latin": "Menecles",
+   "ru": "Менекл",
+   "en": "Menecles",
+   "note": "Geometry teacher; 'Peloponnesius' in Valerius."
+  },
+  {
+   "latin": "Anaximenes",
+   "ru": "Анаксимен (Лампсакский)",
+   "en": "Anaximenes (of Lampsacus)",
+   "note": "Teacher of rhetoric."
+  },
+  {
+   "latin": "Aristoteles ille Milesius",
+   "ru": "Аристотель «Милетский»",
+   "en": "Aristotle 'of Miletus'",
+   "note": "So also in Valerius and the oriental versions (Kroll's apparatus); historically of Stagira. Zacher notes the manuscript corruption 'ille miles iusserat'."
+  },
+  {
+   "latin": "paedagogus; nutrix; litteratura; musicus; geometrica; oratoria; philosophia",
+   "ru": "педагог (дядька); кормилица; грамота; музыка; геометрия; риторика; философия",
+   "en": "paedagogue; nurse; letters; music; geometry; rhetoric; philosophy",
+   "note": "Alexander's education (ch. 13)."
+  },
+  {
+   "latin": "Pegasus; Laomedon",
+   "ru": "Пегас; Лаомедонт",
+   "en": "Pegasus; Laomedon",
+   "note": "Comparisons for the horse (Laomedon's divine horses)."
+  },
+  {
+   "latin": "equitia",
+   "ru": "табуны (конные заводы)",
+   "en": "stud farms",
+   "note": ""
+  },
+  {
+   "latin": "Bucephalus (Valerius: Bucephala)",
+   "ru": "Буцефал",
+   "en": "Bucephalus",
+   "note": "Plutarch's Russian translation (Botvinnik–Perelmuter) has 'Букефал'; 'Буцефал' is the usual Russian form from Latin."
+  },
+  {
+   "latin": "Delphi",
+   "ru": "Дельфы",
+   "en": "Delphi",
+   "note": ""
+  },
+  {
+   "latin": "Pella",
+   "ru": "Пелла",
+   "en": "Pella",
+   "note": ""
+  },
+  {
+   "latin": "Ptolemaeus, qui postea Soter dictus est",
+   "ru": "Птолемей, впоследствии прозванный Сотер",
+   "en": "Ptolemy, later called Soter",
+   "note": ""
+  },
+  {
+   "latin": "Pisae; Elis",
+   "ru": "Писа (Олимпия); Элида",
+   "en": "Pisa (Olympia); Elis",
+   "note": ""
+  },
+  {
+   "latin": "quadrigae; corona",
+   "ru": "квадрига (колесничные бега); венок",
+   "en": "four-horse chariot (race); victor's crown",
+   "note": ""
+  },
+  {
+   "latin": "Nicolaus rex Acernanum",
+   "ru": "Николай, царь акарнанцев",
+   "en": "Nicolaus, king of the Acarnanians",
+   "note": "'Acernanum' = Acarnanum. Z adds 'quondam conscolasticus eius'."
+  },
+  {
+   "latin": "conscolasticus",
+   "ru": "соученик",
+   "en": "schoolfellow",
+   "note": "Rare word; Epitome addition."
+  },
+  {
+   "latin": "Cleopatra",
+   "ru": "Клеопатра",
+   "en": "Cleopatra",
+   "note": "Philip's new wife; her father Attalus is named in Valerius only."
+  },
+  {
+   "latin": "triclinium",
+   "ru": "триклиний (пиршественный зал)",
+   "en": "dining hall",
+   "note": ""
+  },
+  {
+   "latin": "Lysias",
+   "ru": "Лисий",
+   "en": "Lysias",
+   "note": "Jester at the wedding. Standard Russian for Λυσίας."
+  },
+  {
+   "latin": "Methona",
+   "ru": "Мефона",
+   "en": "Methone",
+   "note": "Russian form as in Plutarch's Alexander."
+  },
+  {
+   "latin": "Darius",
+   "ru": "Дарий (III)",
+   "en": "Darius (III)",
+   "note": ""
+  },
+  {
+   "latin": "Persae",
+   "ru": "персы",
+   "en": "Persians",
+   "note": ""
+  },
+  {
+   "latin": "tributum atque census, terra et aqua",
+   "ru": "дань и подать — «земля и вода»",
+   "en": "tribute — 'earth and water'",
+   "note": ""
+  },
+  {
+   "latin": "Pausanias",
+   "ru": "Павсаний",
+   "en": "Pausanias",
+   "note": "Russian as in Plutarch."
+  },
+  {
+   "latin": "Thraces; Thracia",
+   "ru": "фракийцы; Фракия",
+   "en": "Thracians; Thrace",
+   "note": ""
+  },
+  {
+   "latin": "Lycaonia ('cui nunc recens aetas Lucaniae nomen dedit')",
+   "ru": "Ликаония (= Лукания)",
+   "en": "Lycaonia (= Lucania)",
+   "note": "A learned gloss already in Valerius."
+  },
+  {
+   "latin": "Sicilia; Italia; Romani",
+   "ru": "Сицилия; Италия; римляне",
+   "en": "Sicily; Italy; Romans",
+   "note": ""
+  },
+  {
+   "latin": "Aemilius consul",
+   "ru": "консул Эмилий",
+   "en": "the consul Aemilius",
+   "note": "'Marcus Aemilius' in the Greek."
+  },
+  {
+   "latin": "Tripolis",
+   "ru": "Триполис",
+   "en": "Tripolis",
+   "note": "Where the fleet waits (ch. 34)."
+  },
+  {
+   "latin": "Sesonchosis",
+   "ru": "Сесонхосис",
+   "en": "Sesonchosis",
+   "note": "Legendary world-conquering pharaoh; Alexander is hailed as a 'second Sesonchosis'."
+  },
+  {
+   "latin": "Syria",
+   "ru": "Сирия",
+   "en": "Syria",
+   "note": ""
+  },
+  {
+   "latin": "Tyrus; Tyrii",
+   "ru": "Тир; тирийцы",
+   "en": "Tyre; Tyrians",
+   "note": ""
+  },
+  {
+   "latin": "satrapa (satrapes)",
+   "ru": "сатрап",
+   "en": "satrap",
+   "note": ""
+  },
+  {
+   "latin": "rex regum; consanguineus deorum",
+   "ru": "царь царей; сродник богов",
+   "en": "king of kings; kinsman of the gods",
+   "note": "Darius' titles; Valerius' 'consessor dei Mithrae' is dropped in Z."
+  },
+  {
+   "latin": "habena Scythica; pila; loculi cum aureis",
+   "ru": "скифская плеть (ремень); мяч; ларчик с золотыми",
+   "en": "Scythian strap (whip); ball; casket of gold coins",
+   "note": "Darius' mocking gifts; Greek σκύτη, σφαῖρα, χρυσίον."
+  },
+  {
+   "latin": "Taurus (mons)",
+   "ru": "Тавр",
+   "en": "Taurus (mountains)",
+   "note": ""
+  },
+  {
+   "latin": "Asia",
+   "ru": "Азия",
+   "en": "Asia",
+   "note": ""
+  },
+  {
+   "latin": "rubrum mare",
+   "ru": "Красное (Эритрейское) море",
+   "en": "Red (Erythraean) Sea",
+   "note": ""
+  },
+  {
+   "latin": "Arabia",
+   "ru": "Аравия",
+   "en": "Arabia",
+   "note": ""
+  },
+  {
+   "latin": "falcati currus",
+   "ru": "серпоносные колесницы",
+   "en": "scythed chariots",
+   "note": ""
+  },
+  {
+   "latin": "Scamander (dux)",
+   "ru": "Скамандр",
+   "en": "Scamander",
+   "note": "Alexander's commander in Macedonia. Mai and Müller emended this to 'Cassander'; the Greek manuscripts LBC have Σκάμανδρος."
+  },
+  {
+   "latin": "Achaia",
+   "ru": "Ахайя (Греция)",
+   "en": "Achaea (Greece)",
+   "note": ""
+  },
+  {
+   "latin": "Thebae; Thebani",
+   "ru": "Фивы; фиванцы",
+   "en": "Thebes; Thebans",
+   "note": ""
+  },
+  {
+   "latin": "Liber",
+   "ru": "Либер (Дионис)",
+   "en": "Liber (Dionysus)",
+   "note": ""
+  },
+  {
+   "latin": "Hercules; Alcides",
+   "ru": "Геркулес (Геракл); Алкид",
+   "en": "Hercules (Heracles); Alcides",
+   "note": ""
+  },
+  {
+   "latin": "Amphion; Zethus",
+   "ru": "Амфион; Зет",
+   "en": "Amphion; Zethus",
+   "note": "Builders of Thebes' walls."
+  },
+  {
+   "latin": "tibiae; melos",
+   "ru": "флейты (авлосы); напев",
+   "en": "pipes (auloi); song",
+   "note": "The Theban piper, unnamed here; Ismenias in Greek α 1.46a."
+  },
+  {
+   "latin": "tyrannus",
+   "ru": "тиран, властитель",
+   "en": "tyrant, ruler",
+   "note": "Applied to Alexander in Z 46."
+  },
+  {
+   "latin": "Apollo",
+   "ru": "Аполлон",
+   "en": "Apollo",
+   "note": ""
+  },
+  {
+   "latin": "Maiugena",
+   "ru": "Майей рождённый (Меркурий/Гермес)",
+   "en": "son of Maia (Mercury/Hermes)",
+   "note": ""
+  },
+  {
+   "latin": "Pollux",
+   "ru": "Поллукс (Полидевк)",
+   "en": "Pollux (Polydeuces)",
+   "note": ""
+  },
+  {
+   "latin": "cestus; luctamen; pugillatus",
+   "ru": "кулачный бой в цестах; борьба; кулачный бой",
+   "en": "boxing with the cestus; wrestling; boxing",
+   "note": "The ancient pancration is blurred here."
+  },
+  {
+   "latin": "Corinthus",
+   "ru": "Коринф",
+   "en": "Corinth",
+   "note": "Isthmian games (Greek α); Latin 'sollemne certamen'."
+  },
+  {
+   "latin": "Clitomachus",
+   "ru": "Клитомах",
+   "en": "Clitomachus",
+   "note": "Theban athlete."
+  },
+  {
+   "latin": "praeco",
+   "ru": "глашатай",
+   "en": "herald",
+   "note": ""
+  }
+ ],
+ "intro_ru": "«Эпитома Юлия Валерия» («эпитома Цахера»)\n\nПеред вами анонимное латинское сокращение «Деяний Александра Македонского» (Res gestae Alexandri Macedonis) Юлия Валерия Александра Полемия. Это латинский перевод греческого «Романа об Александре» Псевдо-Каллисфена (древнейшая редакция α), выполненный в начале IV в. Сокращение принято называть «эпитомой Цахера» по имени первого и пока единственного издателя, германиста Юлиуса Цахера (Галле, 1867).\n\nВремя и место создания эпитомы неизвестны. Древнейшие рукописи относятся к началу IX в.: Гаага, Королевская библиотека, 74 J 9, и Лейден, Voss. lat. Q 20. Поэтому привычная датировка VIII–IX вв. даёт лишь нижнюю границу, и текст может быть старше. Предположение о его италийском происхождении оспаривается.\n\nЗначение памятника определила его судьба. Полный Юлий Валерий дошёл в немногих неполных свидетелях, а эпитома — примерно в восьмидесяти рукописях; она фактически вытеснила оригинал. Для начальных глав романа она, вместе со своей расширенной оксфордской переработкой, остаётся единственным источником латинского текста. Через эпитому сюжет вошёл в «Историческое зерцало» Винсента из Бове и в хронику Элинана из Фруамона. К ней или к полному Юлию Валерию восходит «Александр» Альберика из Писансона, а через него — немецкая «Песнь об Александре» Лампрехта. По мнению ряда исследователей, эпитомой пользовался и Томас Кентский.\n\nЭпитоматор сократил текст примерно до трети, причём первая книга сохранена полнее остальных. Он держится слов Юлия Валерия, но упрощает лексику и синтаксис. Он опускает подробности сражений, языческие обряды и оракулы, большую часть упоминаний Аммона и всё, что бросает тень на Александра. По выражению Г. Зимонайта, получилась «безобидная редакция» романа. Иногда сокращение меняет смысл. Оскорбительная шутка Лисия на свадьбе Филиппа заменена нейтральной фразой. В рассказе о Павсании Олимпиада, отвергшая его у Юлия Валерия, вдруг оказывается «согласной» — это порча, общая с одной из рукописей полного Валерия.\n\nПервая книга охватывает «рождение» Александра в широком смысле:\n- египетская магия Нектанеба и его бегство в Македонию;\n- обольщение Олимпиады под видом бога Аммона, знамения и рождение Александра;\n- его воспитание, гибель Нектанеба от руки сына, укрощение Буцефала, состязание в Олимпии;\n- разлад и примирение родителей, убийство Филиппа Павсанием и воцарение Александра;\n- поход в Италию, Ливию и Египет, взятие Тира, обмен посланиями с Дарием и первая победа над ним.\nЗавершается книга разрушением Фив и сценой с кулачным бойцом Клитомахом в Коринфе.\n\nПеревод выполнен по изданию Цахера в TEI-транскрипции Г. Зимонайта (лицензия CC0). Нумерация глав принадлежит Цахеру: он разметил текст по главам издания К. Мюллера (1846), общим для Псевдо-Каллисфена и Юлия Валерия. Поэтому номера идут с пропусками (нет глав 16, 27–28, 31–33, 43–45): это главы, которых в эпитоме нет; глав 27–28 нет и у Юлия Валерия. Зато номер главы сразу указывает на соответствующее место Юлия Валерия в издании М. Розеллини и греческой редакции α в издании В. Кролля. Эти параллели отмечены на полях.\n\nНеобходимы оговорки. Современного критического издания эпитомы нет. Цахер использовал лишь семь из примерно восьмидесяти рукописей, хотя и древнейшие, готовил книгу в спешке и почти не вносил исправлений. Расширенные версии эпитомы (оксфордско-монпельевская, лигницкая) здесь не учитываются. Насколько нам удалось установить, на современные языки эпитома прежде не переводилась. Черновик перевода подготовлен с помощью ИИ и проходит проверку редактора.\n\n— Редакция Neoscholia",
+ "bibliography": [
+  {
+   "ref": "J. Zacher (ed.), Julii Valerii epitome. Zum erstenmal herausgegeben. Halle: Waisenhaus, 1867. Preface pp. III–XIV; Book I text pp. 1–37.",
+   "url": "https://archive.org/details/juliivaleriiepi00zachgoog",
+   "verified": true
+  },
+  {
+   "ref": "G. Siemoneit (ed.), TEI/CC0 transcription of Zacher 1867 ('julii_valerii_epitome.xml').",
+   "url": "https://github.com/qlat/zacher-epitome",
+   "verified": true
+  },
+  {
+   "ref": "B. Kuebler (ed.), Iuli Valeri Alexandri Polemi Res gestae Alexandri Macedonis translatae ex Aesopo Graeco. Leipzig: Teubner, 1888. Book I pp. 1–65; Book I ch. 1 and the start of ch. 2 are supplied from the Epitome.",
+   "url": "https://archive.org/details/iulivalerialexan00vale",
+   "verified": true
+  },
+  {
+   "ref": "W. Kroll (ed.), Historia Alexandri Magni (Pseudo-Callisthenes), vol. I: Recensio vetusta. Berlin: Weidmann, 1926. Book I pp. 1–63; chs. 27–28 β only.",
+   "url": "https://archive.org/details/historiaalexandr00pseu",
+   "verified": true
+  },
+  {
+   "ref": "G. Siemoneit, 'Die Zacher-Epitome. Änderungen, Erweiterungen, Auslassungen', in H. Wulfram (ed.), Der lateinische ›Alexanderroman‹ des Iulius Valerius: Sprache, Erzählung, Kontext (Millennium-Studien 101), Berlin/Boston: De Gruyter, 2023, pp. 199–220 per Crossref. DOI 10.1515/9783111091679-012, CC BY-NC-ND. Read through a third-party mirror because the publisher site required human verification; check against the official PDF.",
+   "url": "https://doi.org/10.1515/9783111091679-012",
+   "verified": true
+  },
+  {
+   "ref": "H. Wulfram (ed.), Der lateinische ›Alexanderroman‹ des Iulius Valerius: Sprache, Erzählung, Kontext. Millennium-Studien 101. Berlin/Boston: De Gruyter, 2023. Open access.",
+   "url": "https://doi.org/10.1515/9783111091679",
+   "verified": true
+  },
+  {
+   "ref": "R. Jakobi, 'Iulius Valerius und die ‚Zachersche Epitome‘', Rheinisches Museum für Philologie 162 (2019) 84–93.",
+   "url": "https://journals.ub.uni-koeln.de/index.php/rhm/en/article/view/11474",
+   "verified": true
+  },
+  {
+   "ref": "D. J. A. Ross, 'A check-list of MSS of three Alexander texts: the Julius Valerius Epitome, the Epistola ad Aristotelem and the Collatio cum Dindimo', Scriptorium 10 (1956) 127–132. Gives 68 Epitome manuscripts.",
+   "url": "https://doi.org/10.3406/scrip.1956.2669",
+   "verified": true
+  },
+  {
+   "ref": "J. B. Voorbij, 'Additions to Ross's Check-list of Alexander texts', Scriptorium 38 (1984) 116–120. Gives 80 Epitome manuscripts (p. 117).",
+   "url": "https://www.persee.fr/doc/scrip_0036-9772_1984_num_38_1_1346",
+   "verified": true
+  },
+  {
+   "ref": "K. Kinzel (ed.), Lamprechts Alexander nach den drei Texten mit dem Fragment des Alberic von Besançon und den lateinischen Quellen. Halle, 1884. See pp. XLVI–XLVII on Julius Valerius vs. the Epitome as source.",
+   "url": "https://archive.org/details/lamprechtsalexan00lampuoft",
+   "verified": true
+  },
+  {
+   "ref": "Plutarch, Alexander, Russian transl. M. N. Botvinnik and I. A. Perelmuter, revised by S. S. Averintsev, commentary by M. L. Gasparov. Online at ancientrome.ru; used only for Russian name forms.",
+   "url": "http://ancientrome.ru/antlitr/t.htm?a=1439003300",
+   "verified": true
+  },
+  {
+   "ref": "Anon. review 'Latin literature', Greece & Rome (Cambridge). Short notice of Siemoneit's paper (ARI, 9th c. or before).",
+   "url": "https://www.cambridge.org/core/journals/greece-and-rome/article/latin-literature/FF978EB0F8A7E614147B2F06FF64C4C4",
+   "verified": true
+  },
+  {
+   "ref": "M. Rosellini (ed.), Iuli Valeri Res gestae Alexandri Macedonis. Stuttgart/Leipzig: Teubner 1993; editio correctior cum addendis, München/Leipzig 2004. Not seen; cited via Jakobi and Siemoneit.",
+   "verified": false
+  },
+  {
+   "ref": "C. Müller (ed.), Pseudo-Callisthenes with Julius Valerius, in Arriani Anabasis et Indica, ed. F. Dübner. Paris: Didot, 1846. Source of Zacher's chapter numbering. Not seen; cited by Zacher.",
+   "verified": false
+  },
+  {
+   "ref": "G. G. Cillié, De Iulii Valerii epitoma Oxoniensi. Diss. Strassburg, 1905. Not seen; cited by Jakobi and Siemoneit.",
+   "verified": false
+  },
+  {
+   "ref": "A. Hilka, editions of the Liegnitz 'Historia Alexandri Magni' and the Oxford-Montpellier Epitome, Romanische Forschungen 29 (1911) 1–30 and 31–69 (Jakobi cites 34–69). Not seen; cited by Voorbij and Jakobi.",
+   "verified": false
+  },
+  {
+   "ref": "D. J. A. Ross, Alexander Historiatus. A Guide to Medieval Illustrated Alexander Literature. London 1963; 2nd ed. 1988. See p. 9 on Alberic and the Epitome. Not seen; cited via Wikipedia and Voorbij.",
+   "verified": false
+  },
+  {
+   "ref": "G. Cary, The Medieval Alexander. Cambridge 1956. See pp. 24–26 and 35–36 on the Epitome and Thomas of Kent. Not seen; cited via Voorbij and Wikipedia.",
+   "verified": false
+  },
+  {
+   "ref": "H. Buntz, Die deutsche Alexanderdichtung des Mittelalters. Stuttgart: Metzler, 1973. Not seen; cited by Siemoneit.",
+   "verified": false
+  },
+  {
+   "ref": "J.-P. Callu, Julius Valère, Roman d'Alexandre. Texte traduit et commenté. Turnhout: Brepols, 2010. Not checked whether it renders the Epitome-supplied opening; cited by Jakobi.",
+   "verified": false
+  },
+  {
+   "ref": "M. D. Reeve, review of Rosellini, RFIC 123 (1997) 368–372. On Italian origin. Not seen; cited by Jakobi.",
+   "verified": false
+  },
+  {
+   "ref": "R. Calderan, 'Per una nuova edizione critica di Giulio Valerio. 2. Note testuali', RFIC 111 (1983) 5–21. Not seen; cited by Jakobi.",
+   "verified": false
+  }
+ ]
+}

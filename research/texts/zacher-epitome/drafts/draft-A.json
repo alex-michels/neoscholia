@@ -1,0 +1,552 @@
+{
+ "segments": [
+  {
+   "chapter": 1,
+   "ru": "Египетские мудрецы, рождённые от божественного рода, слывут первыми: упорством ума они измерили землю и, исчислив звёзды, постигли окружность неба. Мудрейшим из всех них признан Нектанеб: ведь то, что другие могли совершить оружием, он, как доказано, мог совершить словом. И действительно, ему повиновались стихии мира, так что, если ему грозила война, он не выдвигал ни войска, ни боевых машин, а входил во внутренние покои дворца, в тайные комнаты царского жилища, и запирался там в одиночестве, внеся с собою чашу. Наполнив её из прозрачнейшего источника, он лепил из воска подобие корабля и помещал туда фигурки людей. Когда всё это начинало плавать по поверхности, вскоре было видно, как оно движется и оживает. Пускал он в ход и жезл из эбенового дерева и произносил заклинания, которыми призывал богов вышних и подземных; и так добивался, чтобы кораблик в чаше пошёл ко дну. Отсюда и выходило, что вместе с погружением этого воска и восковых седоков тонули в море и все враги, если приходила весть о приближении каких-либо [врагов]. Поэтому он долгое время владел царством и жил в безопасности.",
+   "en": "The sages of Egypt, sprung from divine stock, are said to have been the first: by persistence of mind they measured the earth, and by numbering the stars they grasped the circuit of the sky. Of them all Nectanebo is acknowledged to have been the wisest, for what others could do by arms, he is shown to have been able to do by his voice. Indeed, the elements of the world obeyed him, so much so that if a threat of war hung over him, he set in motion no army and no engines of war; instead he would go into the inmost rooms of the palace and the secret chambers of the royal residence and shut himself away there alone, taking a basin in with him. Filling it from a very clear spring, he would fashion out of wax the likeness of a ship and set figures of men in it. When all these had begun to float on the surface, they were soon seen to move and to come alive. He also used a little wand of ebony wood and spoke incantations to summon the gods above and below; and in this way he worked to make the little ship sink in the basin. So it came about that, together with the sinking of that wax and its waxen passengers, all the enemies too, if any were reported to be approaching, were drowned in the sea. And so for a long time he remained in possession of his kingdom and in safety.",
+   "notes": [
+    {
+     "kind": "change",
+     "ru": "Для гл. 1–3 независимого текста Юлия Валерия нет: Кюблер восполнил начало книги текстом этой эпитомы (Туринский палимпсест начинается лишь словами «longe celebratior» в гл. 4). Поэтому сравнивать можно только с греческим: в α 1.1 Нектанеб наполняет медную чашу дождевой водой и призывает «ангелов и бога Ливии Аммона», а здесь вода из источника (так, по аппарату Кролля, в армянской версии и в β) и «боги вышние и подземные». Фигурки оживают и в армянской версии, но не в α.",
+     "en": "For chs. 1–3 there is no independent text of Julius Valerius: Kübler filled the opening of the book with the text of this epitome (the Turin palimpsest begins only at ‘longe celebratior’ in ch. 4). So the only comparison is with the Greek: in α 1.1 Nectanebo fills a bronze basin with rainwater and invokes ‘the angels and the god of Libya, Ammon’, whereas here the water is from a spring (so too, according to Kroll’s apparatus, the Armenian version and β) and he calls on ‘the gods above and below’. The figures also come alive in the Armenian version, but not in α.",
+     "source": "Kübler 1888, praef. and p. 1 (app. p. 2); Ps.-Call. α 1.1, Kroll 1926, p. 1 with app."
+    },
+    {
+     "kind": "realia",
+     "ru": "Сам греческий текст α 1.1 называет это действо леканомантией (λεκανομαντεία) — гаданием и магией с чашей воды. Такие обряды описаны в греко-египетских магических папирусах (напр., PGM IV 154–285).",
+     "en": "The Greek text of α 1.1 itself calls this procedure lecanomancy (λεκανομαντεία), divination and magic with a basin of water. Such rites are described in the Graeco-Egyptian magical papyri (e.g. PGM IV 154–285).",
+     "source": "Ps.-Call. α 1.1 (Kroll 1926, p. 1); PGM IV"
+    }
+   ],
+   "doubts": [
+    {
+     "latin": "Aegyptii sapientes sati genere divino primi feruntur permensique sunt terram",
+     "issue": "‘primi’ may mean ‘first’ in time or ‘foremost’ (the Greek has σοφώτατοι, ‘wisest’); the finite ‘permensique sunt’ is loosely joined by -que to ‘feruntur’.",
+     "choice": "Kept the ambiguity: RU «слывут первыми: ... они измерили», EN ‘are said to have been the first: ... they measured’."
+    },
+    {
+     "latin": "quippe qui, quod alii armis, ille ore potuisse convincitur",
+     "issue": "Elliptical, with an anacoluthon (‘quippe qui’ is resumed by ‘ille’); ‘ore’ = by voice, i.e. by spells.",
+     "choice": "RU «словом», EN ‘by his voice’; the ellipsis is filled with ‘совершить / do’ without brackets, since it repeats the verb."
+    },
+    {
+     "latin": "sicque laborabat pelvi naviculam submergi",
+     "issue": "‘laborare’ + passive infinitive; ‘pelvi’ is an ablative of place.",
+     "choice": "‘worked to make the little ship sink in the basin’ / «добивался, чтобы кораблик в чаше пошёл ко дну»."
+    }
+   ]
+  },
+  {
+   "chapter": 2,
+   "ru": "И вот однажды ему сообщили, что против него поднялось множество народов в едином сговоре и с единым умыслом, а именно: индийцы, арабы и финикийцы, парфяне и ассирийцы, а также скифы, аланы, оксидраки, серы и кавконы, иберы, агриофаги, эвонимиты и все варварские народы, какие только есть на Востоке. Услышав об этом, он захлопал в ладоши и залился громким смехом.",
+   "en": "So at one time it was reported to him that many nations had risen against him in a single conspiracy and with one and the same will: namely the Indians, the Arabs and Phoenicians, the Parthians and Assyrians, and also the Scythians, Alans, Oxydracae, Seres and Caucones, the Iberians, Agriophagi, Euonymitae and all the barbarian nations there are in the East. On hearing this he clapped his hands and dissolved in loud laughter.",
+   "notes": [
+    {
+     "kind": "change",
+     "ru": "В греческом α 1.2 о нашествии докладывает военачальник, и Нектанеб, улыбнувшись, отвечает ему, что сила не в многолюдстве, а в решимости. В латинском тексте от этой сцены остались только известие и смех.",
+     "en": "In the Greek α 1.2 the invasion is reported by a commander, and Nectanebo smiles and answers that strength lies not in numbers but in resolve. In the Latin only the report and the laughter remain of this scene.",
+     "source": "Ps.-Call. α 1.2 (Kroll 1926, p. 2)"
+    },
+    {
+     "kind": "text",
+     "ru": "Список народов в α иной. Финикийцев, парфян и ассирийцев Кролль считает добавлением латинского текста, индийцы есть ещё в армянской версии. На месте «аланов» (анахронизм для IV в. до н. э.) рукописи A и L греческого α дают ζαλβοί; формы Oxydracontas и Eunomitas искажены (греч. Ὀξυδράκαι, Εὐωνυμῖται).",
+     "en": "The list of nations in α is different. Kroll regards the Phoenicians, Parthians and Assyrians as an addition of the Latin text; the Indians are found in the Armenian version as well. Where the Latin has ‘Alans’ (an anachronism for the 4th century BC), manuscripts A and L of the Greek α have ζαλβοί; the forms Oxydracontas and Eunomitas are corrupt (Greek Ὀξυδράκαι, Εὐωνυμῖται).",
+     "source": "Kroll 1926, p. 2, app."
+    }
+   ],
+   "doubts": [
+    {
+     "latin": "Oxydracontas ... Eunomitas",
+     "issue": "Corrupt Latin forms of Greek ethnic names.",
+     "choice": "Rendered with the glossary forms (оксидраки / Oxydracae; эвонимиты / Euonymitae); the corruption is mentioned in the note."
+    },
+    {
+     "latin": "una conspiratione atque eadem voluntate",
+     "issue": "Near-synonymous doublet.",
+     "choice": "Kept both members: «в едином сговоре и с единым умыслом» / ‘in a single conspiracy and with one and the same will’."
+    }
+   ]
+  },
+  {
+   "chapter": 3,
+   "ru": "Тогда он прибег к привычному искусству и, как обычно, взял чашу и все прочие принадлежности. По ним он понял, что будет побеждён и взят в плен врагами, если не позаботится о бегстве. Вскоре, обрив голову и бороду и собрав все драгоценности, какие у него были, он добрался до Македонии. Там, облачившись в льняную одежду и объявив себя астрологом, он прославлял силу своего искусства, вызывая великое изумление.",
+   "en": "So he had recourse to the expertise of his usual art and, as was his custom, took the basin and all the other instruments. By them he understood that he would be defeated and captured by the enemy unless he took thought for flight. Soon, having shaved his head and beard and gathered all the precious possessions he had, he reached Macedonia. There, dressed in a linen garment and professing to be an astrologer, he advertised the power of his skill, to great admiration.",
+   "notes": [
+    {
+     "kind": "change",
+     "ru": "В греческом α 1.3 Нектанеб видит в чаше, что вражеские корабли ведут сами египетские боги, и понимает, что боги его предали; он бежит через Пелусий и, обойдя многие народы, приходит в Пеллу. Затем в α египтяне получают оракул: бежавший царь вернётся юным. У Валерия этого оракула здесь нет (Кролль: «om. Val.»).",
+     "en": "In the Greek α 1.3 Nectanebo sees in the basin that the enemy ships are being steered by the gods of Egypt themselves, and understands that the gods have betrayed him; he flees by way of Pelusium and, after wandering through many nations, comes to Pella. α then gives the Egyptians an oracle: the king who fled will return young. This oracle is absent here in Valerius (Kroll: ‘om. Val.’).",
+     "source": "Ps.-Call. α 1.3 (Kroll 1926, p. 3 with app.)"
+    },
+    {
+     "kind": "realia",
+     "ru": "В α бритьё головы и бороды прямо объяснено желанием изменить облик (πρὸς τὸ ἀλλομορφῆσαι). Льняная одежда — облачение египетского жреца: в Пелле Нектанеб сидит, по словам α, «как египетский пророк и астролог».",
+     "en": "In α the shaving of head and beard is explicitly a disguise (πρὸς τὸ ἀλλομορφῆσαι, ‘to change his appearance’). Linen is the dress of an Egyptian priest: in Pella, α says, Nectanebo sits ‘as an Egyptian prophet and astrologer’.",
+     "source": "Ps.-Call. α 1.3 (Kroll 1926, p. 3)"
+    }
+   ],
+   "doubts": [
+    {
+     "latin": "appulit Macedoniae",
+     "issue": "‘appellere’ is used of landing by ship, but no ship is mentioned; dative of goal.",
+     "choice": "Neutral ‘reached Macedonia’ / «добрался до Македонии»."
+    },
+    {
+     "latin": "vim peritiae suae cum magna admiratione commendabat",
+     "issue": "Whose admiration? Most likely that of the public.",
+     "choice": "«вызывая великое изумление» / ‘to great admiration’."
+    }
+   ]
+  },
+  {
+   "chapter": 4,
+   "ru": "Итак, Нектанеб был уже весьма знаменит у македонян, так что молва о нём не укрылась даже от царицы Олимпиады. А Филипп в то время как раз был на войне, и царица стала обращаться за советом к искусству этого человека. Войдя к ней, он не удостоил её обращения «госпожа», так как помнил, что сам некогда был господином. И вскоре, восхищённый её красотой, он был охвачен любовью к ней. И вот, когда он по её приглашению сел, царица говорит ему: «Ты ли тот самый Нектанеб, знаток „математики“ [астрологии]? Скажи же, каким искусством пользуясь, ты слывёшь таким другом истины?» На это он ответил: «Многоразлична, о царица, эта наша наука прорицания, и невозможно за один раз всё упомянуть: есть ведь и толкователи снов, и астрологи, которым открыт всякий способ гадания, и многое другое сверх того, чем мы обычно пользуемся для предвидения». Когда после этих слов он пристальнее вгляделся в лицо царицы, Олимпиада говорит: «Отчего ты так застыл, пророк, глядя на меня?» А он: «Я вспоминаю, — говорит, — то прорицание, которое получил от богов в Египте: что мне надлежит предсказать царице истину. Поэтому спрашивай о том, чего желаешь». И с этим словом он вынимает доски, которые сведущие в этом искусстве называют пинаксом. Ведь их ценность, расцвеченная золотом и слоновой костью, соперничала с восхищением, которое вызывала сама работа. Затем он вынимает также семь светил и гороскоп, и у каждого из них был свой особый камень. Так, можно было видеть Юпитер, обозначенный «небесным» камнем, Солнце — хрусталём, Луну — адамантом, Марс — под именем камня гематита, Меркурий — смарагдом; Венера же была из сапфира, Сатурн — из офита, а гороскоп был из лигдина. Тогда Олимпиада, дивясь чудесному разнообразию светил и подсев ближе, говорит: «О, посмотри, прошу тебя, на согласие [звёзд] — моих и Филипповых: ведь много ходит слухов, что, вернувшись с войны, он захочет отвергнуть меня и перейти к другой». И Нектанеб тотчас обращается к своему собственному гороскопу, чтобы исследовать то, о чём просила царица. Сделав это, он говорит: «Не пустой слух дошёл до тебя — он правдив. Но я, как пророк из Египта, приду на помощь, чтобы ты нисколько не страшилась развода. Ибо тебе суждено, судя по тому, что я усмотрел, соединиться с богом и родить сына — мстителя за всё, если Филипп что-либо дерзнёт против тебя». Тогда она: «И какому же богу, — говорит, — я назначена на ложе?» Он ответил: «Аммону, богу Ливии. Поэтому я хотел бы, чтобы ты приготовилась к такому браку, как в обычае у женщин и как подобает царице. Сначала ты увидишь сон, а во сне — что тебе предстоит брак с богом». А она: «Если мне приснится этот сон, — говорит, — я уже не стану обращаться к тебе как к магу, но буду чтить тебя божескими почестями».",
+   "en": "So Nectanebo was by now far more celebrated among the Macedonians, so much so that his fame did not escape even Queen Olympias. Philip, as it happened, was then away at war; and the queen began to consult the man’s skill. When he came in to her, he did not deign to address her as ‘mistress’, since he remembered that he had once been a master himself. And soon, admiring her beauty, he was seized with love for her. So when, at her bidding, he had sat down, the queen said to him: “Are you that Nectanebo who is versed in mathesis? Tell me, then, by using what skill you are renowned as such a friend of truth.” To this he answered: “Manifold indeed, O queen, is this science of ours of prophesying, and it is impossible to mention everything at one time; for there are dream interpreters and astrologers, to whom every method of divination lies open, and many other things besides, which we are accustomed to use for foreknowledge.” When after these words he gazed more keenly into the queen’s face, Olympias said: “Why are you so transfixed, prophet, when you look at me?” And he said: “I recall that oracle which I had received from the gods in Egypt: that I was to foretell the truth to a queen. So ask about whatever you desire.” And with that word he brings out tablets, which those learned in this skill call a pinax. For their costliness, variegated with gold and ivory, vied with the admiration roused by the workmanship. Then he also brings out the seven stars and likewise the horoscope, each of which had its own kind of stone. You could see Jupiter designated by an ‘aerial’ stone, the Sun by rock crystal, the Moon by adamant, Mars named under the stone haematite, Mercury by emerald; Venus was of sapphire, Saturn of ophite, and the horoscope was of lygdine. Then Olympias, marvelling at the wonderful variety of the stars and sitting closer, said: “Oh, look, I beg you, at the agreement between me and Philip; for there is much talk that, when he comes back from the enemy, he will cast me off and want to go over to another woman.” And at once Nectanebo brings in his own horoscope, to examine what the queen had asked. When this was done, he said: “It is no empty rumour that has reached you; it is true. But I, as a prophet from Egypt, will come to your aid, so that you need have no fear of divorce. For it is your destiny, from what I have discerned, to be united with a god and to bear a son who will avenge everything, if Philip dares anything against you.” Then she said: “And to which god am I due for his bed?” He answered: “To Ammon, the god of Libya. Therefore I would have you prepare yourself for such a marriage, as is the custom of women and befits a queen. First you will see a dream, and in the dream that your marriage with the god is to come.” And she said: “If I dream this dream, I will no longer treat you as a magus, but will honour you with the honour due to a god.”",
+   "notes": [
+    {
+     "kind": "change",
+     "ru": "У Валерия (1,4) Нектанеб влюбляется при первом же взгляде на Олимпиаду, а автор объясняет это его сластолюбием, и лишь затем приветствует её, не назвав госпожой. Эпитоматор переставил эти события и опустил объяснение. Выпущены также похвала его правдивости, описание пинакса как шедевра, удаление слуг и облик Аммона (юный, седой, с бараньими рогами).",
+     "en": "In Valerius (1,4) Nectanebo falls in love at his first sight of Olympias, which the author explains by his lustfulness, and only then greets her without calling her mistress. The epitomator reversed the order and dropped the explanation. Also omitted are the praise of his truthfulness, the description of the pinax as a masterpiece, the dismissal of the servants and the appearance of Ammon (young, grey-haired, with ram’s horns).",
+     "source": "Iul. Val. 1,4 (Kübler 1888, pp. 2–4)"
+    },
+    {
+     "kind": "change",
+     "ru": "У Валерия Нектанеб просит у Олимпиады её гороскоп (или Филиппов) и прикладывает к нему свой, чтобы проверить, сходятся ли они и добьётся ли он своего. Эпитоматор убрал этот корыстный расчёт, и «свой гороскоп» (suam constellationem) остался без объяснения.",
+     "en": "In Valerius Nectanebo asks Olympias for her nativity (or Philip’s) and sets his own beside it, to see whether they agree and whether he will get what he wants. The epitomator removed this self-interested calculation, leaving ‘his own horoscope’ (suam constellationem) unexplained.",
+     "source": "Iul. Val. 1,4 (Kübler 1888, p. 3)"
+    }
+   ],
+   "doubts": [
+    {
+     "latin": "neque est in tempore uno omnium meminisse",
+     "issue": "‘meminisse’ here = ‘to make mention of’, not ‘to remember’.",
+     "choice": "«невозможно за один раз всё упомянуть» / ‘impossible to mention everything at one time’."
+    },
+    {
+     "latin": "Auro enim et ebore variatum pretium cum sui operis admiratione contenderat.",
+     "issue": "‘enim’ has lost its antecedent: Valerius’ praise of the pinax as a masterpiece was cut. The sense is that costly materials rivalled admirable workmanship.",
+     "choice": "Translated literally, keeping ‘ведь / for’."
+    },
+    {
+     "latin": "Martem dici sub lapide haematite",
+     "issue": "‘dici’ is awkward (already so in Valerius); it is perhaps meant as parallel to ‘nuncupatum’.",
+     "choice": "«Марс — под именем камня гематита» / ‘Mars named under the stone haematite’."
+    },
+    {
+     "latin": "Quin Nectanabus statim suam adhibet constellationem",
+     "issue": "‘Quin’ is Zacher’s choice from D E Pb against ‘Qui’ in H L A B C. It is a remnant of Valerius’ ‘Quin ergo deprome…’. ‘suam’ (his own nativity) makes full sense only in Valerius.",
+     "choice": "‘Quin’ is rendered as a simple connective («И Нектанеб тотчас…»); ‘suam constellationem’ as ‘his own horoscope’; see the note."
+    },
+    {
+     "latin": "Ego enim ac si propheta ex Aegypto opitulabor",
+     "issue": "‘ac si’ can mean ‘as if’ or, in late Latin, simply ‘as’. ‘enim’ is illogical after ‘the rumour is true’; Valerius has ‘tamen’.",
+     "choice": "‘as a prophet’, with an adversative connective: «Но я…» / ‘But I…’."
+    },
+    {
+     "latin": "Et cuinam deo ad torum debeor?",
+     "issue": "Literally ‘to which god am I owed for the bed’.",
+     "choice": "«назначена на ложе» / ‘due for his bed’."
+    }
+   ]
+  },
+  {
+   "chapter": 5,
+   "ru": "Выйдя оттуда, Нектанеб ищет травы, нужные, чтобы повелевать снами. Сорвав их и выжав из них сок, он лепит из воска маленькое женское тело и, надписав на нём имя царицы, сооружает для него ложе, на которое кладёт эту фигурку; рядом зажигает светильники, поливает её соком могущественных трав и произносит заклинание, действенное и тайное. Этим было достигнуто то, что всё, что он говорил восковому подобию, царица во сне приняла за происходящее с нею самой. Ведь она увидела себя в объятиях бога, а после объятий слышала, как он сам говорит ей, что она зачала, носит во чреве и родит сына-мстителя.",
+   "en": "Going out from there, Nectanebo searches for herbs needed to command dreams. When he has picked them and pressed them into juice, he models out of wax the small body of a woman and, inscribing the queen’s name on it, makes a little bed for it, on which the figure is laid; and, lighting lamps beside it, he pours over it the juice of the potent herbs and pronounces a spell, effective and secret. By this it was brought about that whatever he said to the waxen image, the queen believed in a dream was all happening to her. For she saw herself in the embraces of the god, and after the embraces she had heard him himself telling her that she was pregnant and heavy with child and would bear a son, an avenger.",
+   "notes": [
+    {
+     "kind": "change",
+     "ru": "Глава почти дословно повторяет Валерия (1,5). Выпало уточнение, что это были объятия Аммона («quos fore cum Ammone dixerat»), а при «говорящего» исчезло слово «бог»: в эпитоме «ipsum loquentem» без существительного.",
+     "en": "The chapter follows Valerius (1,5) almost word for word. Lost is the remark that these were the embraces of Ammon (‘quos fore cum Ammone dixerat’), and ‘deum’ has dropped out before ‘loquentem’: the epitome has ‘ipsum loquentem’ with no noun.",
+     "source": "Iul. Val. 1,5 (Kübler 1888, p. 4)"
+    },
+    {
+     "kind": "realia",
+     "ru": "Восковая фигурка с надписанным именем, ложе, светильники, травяной сок и тайное заклинание — обычный набор греко-египетской магии. Восковые фигурки для любовного приворота описаны, например, в PGM IV 296–466.",
+     "en": "A wax figure inscribed with a name, a little bed, lamps, herbal juice and a secret spell are the standard equipment of Graeco-Egyptian magic. Wax figures used in erotic binding spells are described, for instance, in PGM IV 296–466.",
+     "source": "PGM IV 296–466"
+    }
+   ],
+   "doubts": [
+    {
+     "latin": "audierat sibi ipsum loquentem, foetam se et utero gravem genituramque filium vindicem",
+     "issue": "‘ipsum’ (= the god) has no noun; the indirect speech is attached directly to ‘loquentem’.",
+     "choice": "«слышала, как он сам говорит ей, что…» / ‘heard him himself telling her that…’."
+    },
+    {
+     "latin": "carmenque indicit",
+     "issue": "Valerius has ‘dicit’; ‘indicere’ = to proclaim, impose.",
+     "choice": "Neutral ‘произносит / pronounces’."
+    }
+   ]
+  },
+  {
+   "chapter": 6,
+   "ru": "А затем она, поднявшись с ложа, зовёт этого человека к себе и рассказала ему видение сна. Он ей: «Этот сон, о царица, истинный; скоро последует и его исполнение. Поэтому вели тайно приготовить мне ложе рядом с твоей спальней, чтобы, если тебя вдруг охватит какой-нибудь страх, я мог стать тебе надеждой на помощь». Царица согласилась и отвела магу уединённую комнату рядом со своей спальней, суля ему многие почести, если зачнёт. Тогда маг говорит: «Предвестником к тебе явится сам бог: когда ты будешь сидеть, к тебе приползёт змей. Ты же, увидев его, вели выйти всем, кто будет рядом. А когда ляжешь на ложе, всмотрись, тот ли это лик, который ты уже видела во сне».",
+   "en": "Then, rising from her bed, she calls the man to her and told him the vision of the dream. He said to her: “This dream, O queen, is true; its fulfilment will soon follow. Therefore have a bed prepared for me in secret next to your bedchamber, so that, if some sudden fear should come upon you, I may be your hope of help.” The queen agreed, and assigned the magus a retreat next to her bedchamber, promising him many honours if she should conceive. Then the magus said: “As your forerunner the god himself will come to you: for while you are sitting, a serpent will come crawling upon you. When you see it, order all who are present to leave. And when you have lain down on the bed, examine whether it is that face which you already saw beforehand in the dream.”",
+   "notes": [
+    {
+     "kind": "change",
+     "ru": "У Валерия (1,6) Олимпиада пересказывает сон прямой речью и обещает Нектанебу не только царские почести, но и отношение как к отцу («patris adfectum»; в β, по аппарату Кролля, — «как к отцу ребёнка»). В эпитоме остались косвенная речь и «многие почести». Сокращены и наставления: у Валерия змей приползёт «кротко», лампы гасить нельзя, лицо нужно закрыть покрывалом и смотреть искоса.",
+     "en": "In Valerius (1,6) Olympias tells the dream in direct speech and promises Nectanebo not only royal honours but a father’s regard (‘patris adfectum’; in β, according to Kroll’s apparatus, ‘as the father of the child’). The epitome keeps only indirect speech and ‘many honours’. The instructions are cut too: in Valerius the serpent will come ‘gently’, the lamps are not to be put out, and she is to veil her face and look sidelong.",
+     "source": "Iul. Val. 1,6 (Kübler 1888, pp. 4–5); Kroll 1926, p. 7 app. (β)"
+    },
+    {
+     "kind": "text",
+     "ru": "«Praecursor tibi deus ipse aderit»: у Валерия «Praecursor tibi dei mox aderit» — «скоро к тебе явится предвестник бога», то есть змей. В эпитоме предвестником назван сам бог; это может быть и порча «dei mox», и переосмысление.",
+     "en": "‘Praecursor tibi deus ipse aderit’: Valerius has ‘Praecursor tibi dei mox aderit’, ‘a forerunner of the god will soon come to you’, i.e. the serpent. In the epitome the god himself is the forerunner; this may be a corruption of ‘dei mox’ or a deliberate reinterpretation.",
+     "source": "Iul. Val. 1,6 (Kübler 1888, p. 5)"
+    }
+   ],
+   "doubts": [
+    {
+     "latin": "Praecursor tibi deus ipse aderit",
+     "issue": "Differs from Valerius (‘dei mox’); see the note.",
+     "choice": "Translated as printed: «Предвестником к тебе явится сам бог» / ‘As your forerunner the god himself will come to you’."
+    },
+    {
+     "latin": "Promisit regina",
+     "issue": "‘promised’ in the sense ‘agreed’.",
+     "choice": "«согласилась» / ‘agreed’."
+    },
+    {
+     "latin": "explora vultum illum ... si is erit",
+     "issue": "‘si’ = ‘whether’ (indirect question), with future ‘erit’.",
+     "choice": "«всмотрись, тот ли это лик» / ‘examine whether it is that face’."
+    },
+    {
+     "latin": "cum te lecto collocaveris",
+     "issue": "Zacher’s print has the misprint ‘collacaveris’ (the TEI marks sic/corr).",
+     "choice": "Translated ‘collocaveris’."
+    }
+   ]
+  },
+  {
+   "chapter": 7,
+   "ru": "И вот на следующий день магу отводится место, а он своим искусством припас мягчайшее баранье руно вместе с рогами, скипетр и белое одеяние и с помощью своего знания сделал остальное тело как бы змеем, вечером приходящим к женщине. Увидев его, она велела всем выйти, тотчас легла в постель и, закрыв голову, одним только глазом с любопытством следила за появлением мнимого бога. А он, отложив скипетр и взойдя на ложе, совершает брак. Затем, положив руку ей на чрево, говорит: «Радуйся, женщина: ты беременна от меня и родишь сына, который будет владеть всем миром». И, взяв назад скипетр, вышел. Когда же настало утро, женщина в приподнятом духе ворвалась в спальню Нектанеба; он, разбуженный ото сна, будто ничего не зная, спрашивает о причине её прихода. Тогда она: «Сбылось, — говорит, — всё, что ты обещал». И он ответил, что этому рад. Снова женщина: «Так удостоит ли он прийти ещё? Ведь меня влечёт к такому браку!» Тогда маг: «Слушай, о царица! Я — служитель этого бога; и ты, когда пожелаешь свидания с таким супругом, скажи мне, а я позабочусь, чтобы он приходил к тебе чаще». И она тотчас велит отдать магу ключи от спальни; с тех пор им стало легче добираться до того, чего они желали. Но когда чрево её уже росло, она говорит: «Что же будет, о пророк, и что теперь делать, если Филипп, вернувшись, застанет меня с этим бременем?» «Не бойся, — ответил он, — ведь Аммон поможет в той провинности, к которой сам склонил».",
+   "en": "So on the following day a place is assigned to the magus, and he, by his art, provided a very soft ram’s fleece together with the horns, a sceptre and a white robe; and by his knowledge he made the rest of his body like a serpent coming to the woman in the evening. When she saw it, she ordered everyone to go out and at once gave herself to the bed, and, with her head covered, she watched with one eye only, intently, for the arrival of the supposed god. He laid aside the sceptre, climbed onto the bed and consummates the marriage. Then, laying his hand on her womb, he said: “Rejoice, woman, that you are pregnant by me and will bear a son who shall gain dominion over the whole world.” And taking up the sceptre again, he went out. When morning came, the woman in high spirits burst into Nectanebo’s chamber; he, roused from sleep as though he knew nothing of the matter, asks the reason for her coming. Then she said: “Everything you promised has happened.” And he replied that he rejoiced at it. Again the woman: “Will he then deign to come again? For I have a longing for such a marriage!” Then the magus: “Listen, O queen! I am this god’s servant; and whenever you want a meeting with such a husband, tell me, and I will arrange for him to come to you more often.” She at once ordered the keys of the bedchamber to be given to the magus; and from then on their way to what they had desired lay more readily open. But when her belly was already growing, she said: “What will happen, prophet, and what must be done now, if Philip comes back and catches me with this burden?” “Do not be afraid,” he replied, “for Ammon will help in that fault into which he himself persuaded you.”",
+   "notes": [
+    {
+     "kind": "change",
+     "ru": "Эпитоматор сжал здесь Валерия до двусмысленности. У Валерия (1,7), как и в армянской версии, Нектанеб искусством делает ручным отдельного змея, который служит «предвестником», а затем сам входит к женщине. В эпитоме «как бы змеем» делается «остальное тело» самого мага.",
+     "en": "Here the epitomator compressed Valerius to the point of ambiguity. In Valerius (1,7), as in the Armenian version, Nectanebo by his art tames a separate serpent, which serves as a ‘forerunner’, and then enters to the woman himself. In the epitome it is ‘the rest of the body’ of the magus himself that is made ‘like a serpent’.",
+     "source": "Iul. Val. 1,7 (Kübler 1888, pp. 5–6); Kroll 1926, p. 7 app. (Arm.)"
+    },
+    {
+     "kind": "change",
+     "ru": "Выпущены радость мага, понявшего из слов Олимпиады, что она его любит, и «священное очищение» (purgatione sacricula) перед новым приходом бога. Выпали и обещание, что Аммон вразумит Филиппа во сне, и итоговая фраза Валерия: «Так Олимпиаду вели магическими искусствами».",
+     "en": "Omitted are the magus’ joy on gathering from Olympias’ words that she loves him, and the ‘sacred purification’ (purgatione sacricula) before the god’s next visit. Also gone are the promise that Ammon will instruct Philip in a dream and Valerius’ closing sentence: ‘In this way Olympias was led on by magic arts.’",
+     "source": "Iul. Val. 1,7 (Kübler 1888, pp. 6–7)"
+    }
+   ],
+   "doubts": [
+    {
+     "latin": "effecitque ex scientia reliquum corpus veluti draconem vespere adventantem ad feminam",
+     "issue": "Very compressed: whose ‘rest of the body’, and is the serpent a separate creature? Grammatically it is Nectanebo’s own body.",
+     "choice": "Translated literally: «сделал остальное тело как бы змеем, вечером приходящим к женщине»; see the note."
+    },
+    {
+     "latin": "nuptias agit",
+     "issue": "Euphemism.",
+     "choice": "«совершает брак» / ‘consummates the marriage’."
+    },
+    {
+     "latin": "quia opitulabitur Ammon illi vitio, quod suasit",
+     "issue": "Dative with ‘opitulari’: ‘will help (remedy) that fault’; the object of ‘suasit’ (you) is unexpressed.",
+     "choice": "«поможет в той провинности, к которой сам склонил» / ‘will help in that fault into which he himself persuaded you’."
+    }
+   ]
+  },
+  {
+   "chapter": 8,
+   "ru": "А Нектанеб готовит себе посвящённого ястреба и велит ему лететь к Филиппу; и тот, представ ему ночью во сне, наставил его тем, что было велено. Филипп же, проснувшись словно от хлопанья крыльев, призывает толкователей снов и говорит: «Я видел во сне, как некий бог, прекрасный, с густыми седыми волосами и отмеченный бараньими рогами, пришёл к Олимпиаде, моей супруге, и сочетался с нею браком. Совершив это, он прибавил ещё такие слова: „Ты зачала от меня, женщина, сына-мстителя“. Затем он, казалось, прикрыл лоно женщины папирусом и запечатал золотым перстнем, на котором были вырезаны изображение солнца и голова льва с подложенным под неё копьём. Когда я это увидел, налетевший ястреб, казалось, разбудил меня хлопаньем крыльев. Что же это предвещает?» Тогда толкователи: «О Филипп, это истинно. То, что ты видел, как запечатали лоно женщины, удостоверяет истинность видения: отсюда ты наперёд узнал, что она зачала, ведь никто не запечатывает пустой сосуд. А что [запечатано] папирусом — поскольку папирус нигде на свете не растёт, кроме нашей земли, — значит, зачатое семя египетское; однако не низкое, а славное, раз ты видел золотой перстень: ведь мы не знаем металла драгоценнее. А поскольку на печати, имевшей вид солнца, внизу [была] голова льва с подложенным копьём, — то сам тот, кто родится, дойдёт до обладания Востоком, дерзая на всё, как в природе льва; сделает он это силой и копьём покорит всё. А раз ты свидетельствуешь, что бог был с бараньей головой и седой, — это бог Ливии по имени Аммон». Филипп принял это толкование с досадой.",
+   "en": "But Nectanebo prepares for himself a consecrated hawk and bids it go to Philip; and standing by him at night in a dream, it instructed him with the messages it had been ordered to give. Philip, waking as if at the beating of wings, summoned the dream interpreters and said: “In my sleep I saw a god, handsome, with a thick head of grey hair and marked by ram’s horns, come to Olympias my wife and unite with her in marriage. When this was done he also added these words: ‘Woman, you have conceived by me a son, an avenger.’ Then he seemed to cover the woman’s womb with papyrus and seal it with a gold ring, on which were engraved an image of the sun and a lion’s head with a spear set beneath it. When I had seen this, a hawk came and seemed to wake me with the beating of its wings. What, then, is this that is portended?” Then the interpreters: “O Philip, this is true. For your seeing the woman’s womb sealed attests the truth of what was seen; from this you have learned in advance that she has conceived, since nobody seals an empty vessel. As for its being with papyrus — since papyrus grows nowhere in the world except in our land — the seed that was conceived is therefore Egyptian; yet not lowly but illustrious, because you saw the gold ring, for we know of no metal more precious. But since the seal, which looked like the sun, [had] beneath it a lion’s head with a spear placed under it: he who will be born will himself come even to the possession of the East, daring everything, as is the nature of the lion; and he will do it by force and subdue all things with the spear. And since you testify that the god had a ram’s head and was grey-haired, it is the god of Libya, Ammon by name.” Philip did not take this interpretation calmly.",
+   "notes": [
+    {
+     "kind": "parallel",
+     "ru": "Сон о печати знали и историки: у Плутарха (Alex. 2.4–5) Филиппу снится, что он запечатал чрево жены печатью с изображением льва, а Аристандр из Тельмесса толкует, что Олимпиада беременна, «ибо ничего пустого не запечатывают», и беременна сыном львиного нрава. «Роман» добавляет к этому папирус, солнце, копьё и египетское отцовство.",
+     "en": "The seal dream was known to the historians too: in Plutarch (Alex. 2.4–5) Philip dreams that he sealed his wife’s womb with a seal bearing a lion, and Aristander of Telmessus explains that Olympias is pregnant, ‘since nothing empty is sealed’, and with a son of lion-like temper. The Romance adds the papyrus, the sun, the spear and the Egyptian paternity.",
+     "source": "Plut. Alex. 2.4–5"
+    },
+    {
+     "kind": "change",
+     "ru": "В греческом α 1.8 сказано, что папирус растёт «нигде, кроме Египта»; у Валерия и вслед за ним в эпитоме толкователи говорят «кроме нашей земли», словно сами египтяне. Эпитоматор выпустил конец главы Валерия, где объяснено недовольство Филиппа (в тексте Кюблера: он думает, что жена зачала от человека).",
+     "en": "The Greek α 1.8 says that papyrus grows ‘nowhere except in Egypt’; in Valerius, and after him in the epitome, the interpreters say ‘except in our land’, as if they were Egyptians themselves. The epitomator dropped the end of Valerius’ chapter, which explains Philip’s displeasure (in Kübler’s text: he believes his wife conceived by a man).",
+     "source": "Ps.-Call. α 1.8 (Kroll 1926, p. 9); Iul. Val. 1,8 (Kübler 1888, pp. 7–8)"
+    }
+   ],
+   "doubts": [
+    {
+     "latin": "eumque monet ire ad Philippum, cui per noctem in somnio adsistens iussis mandatis instruxit",
+     "issue": "Grammatically the subject of ‘instruxit’ is still Nectanebo; by sense it is the hawk (so explicitly in Valerius: ‘Pergitque ire ales…’).",
+     "choice": "The hawk as subject: «и тот, представ ему ночью во сне…» / ‘it instructed him’."
+    },
+    {
+     "latin": "ut haec biblo, quippe cum biblus nullibi gentium nisi in nostra tellure gignatur, Aegyptium igitur semen est",
+     "issue": "Anacoluthon: ‘ut haec biblo’ has no verb (Valerius: ‘Et haec biblo’).",
+     "choice": "Rendered as a topic phrase: «А что [запечатано] папирусом…» / ‘As for its being with papyrus…’."
+    },
+    {
+     "latin": "Sed quoniam signaculum, quod solis forma visebatur, subter leonis caput hastili subiecto: is ipse, qui nascetur…",
+     "issue": "The quoniam-clause has no main verb (Valerius: ‘subterque leonis caput hastile quoque adiacens erat’).",
+     "choice": "A verb supplied in brackets: «внизу [была]» / ‘[had] beneath it’."
+    },
+    {
+     "latin": "Quam interpretationem non aequo animo Philippus accepit.",
+     "issue": "Litotes.",
+     "choice": "«принял с досадой» / ‘did not take calmly’."
+    }
+   ]
+  },
+  {
+   "chapter": 9,
+   "ru": "Итак, поспешно закончив военные дела, он возвращается в Македонию. Наконец прибыв и видя, что царица выходит ему навстречу неуверенно, он, хитро скрывая негодование, говорит: «От меня-то случившееся не укрылось; но я знаю, что ты никогда не отдавалась любви какого-нибудь простолюдина, но лишь бога — прекраснейшего из богов». И этими словами он ободрил женщину.",
+   "en": "So, having brought the war to a hasty end, he returns to Macedonia. When at last he arrived and saw the queen coming to meet him with some diffidence, he cunningly concealed his indignation and said: “What happened has certainly not been hidden from me; yet I know that you have never yielded to the love of any common man, but only to that of a god, the fairest of the gods.” And with these words he had restored the woman’s spirits.",
+   "notes": [
+    {
+     "kind": "change",
+     "ru": "Речь Филиппа у Валерия (1,9) длиннее: он прощает жену, поскольку сон снимает с неё вину, и замечает, что власть царей простирается на людей, но не на богов. Эпитоматор оставил только начало и конец речи; выпущены также страх Олимпиады при вести о возвращении мужа, утешения Нектанеба и её благодарность ему.",
+     "en": "Philip’s speech is longer in Valerius (1,9): he pardons his wife, since the dream clears her of guilt, and remarks that kings have power over men but not over gods. The epitomator kept only its beginning and end; also omitted are Olympias’ fear on hearing of her husband’s return, Nectanebo’s comforting and her thanks to him.",
+     "source": "Iul. Val. 1,9 (Kübler 1888, p. 8)"
+    }
+   ],
+   "doubts": [
+    {
+     "latin": "dei deorum pulcherrimi",
+     "issue": "Genitive dependent on an understood ‘amori’.",
+     "choice": "«но лишь бога — прекраснейшего из богов» / ‘but only to that of a god, the fairest of the gods’."
+    },
+    {
+     "latin": "cum reginam sibi occursare diffidentius intueretur",
+     "issue": "‘diffidentius’: hesitantly, without confidence.",
+     "choice": "«неуверенно» / ‘with some diffidence’."
+    }
+   ]
+  },
+  {
+   "chapter": 10,
+   "ru": "Тем временем Филипп жил с женщиной как супруг. А Нектанеб был рядом, но невидим: своим магическим искусством он не давал себя увидеть. И вот однажды он присутствовал, когда Филипп, уже вскипев, резко бранил супругу за то, что зачатое ею не от бога. Нектанеб же всё это слышал своими ушами. И вот, когда по случаю возвращения Филиппа готовили пышный царский пир, а сам он всё же не прояснял чела для веселья, Нектанеб тотчас преображается и вновь принимает облик того змея, но крупнее, и, извиваясь, проникает в пиршественный зал. Он был внушителен видом — и величием всего тела, и пронзительностью шипения, столь страшного, что, казалось, сотрясаются основания и стены дома. Все прочие были поражены ужасом, а Олимпиада, чтобы удостоверить божественную силу, протянула к зверю руку. Змей же положил голову ей на колени, кротко свернул кольцами всё своё тело и с готовностью потянулся к женщине пастью. А затем превратился в орла и улетел. Тогда Филипп, развеселившись от изумления, говорит: «Супруга, явилось поистине доказательство божественного попечения о тебе. Мы видели бога, помогающего тебе, хотя какой это бог — не знаю: то ли Юпитер, судя по орлу, то ли Аммон, судя по змею». На это женщина: «Он назвался Аммоном, когда впервые удостоил соединиться со мной, — то есть владыкой всей Ливии».",
+   "en": "Meanwhile Philip lived with the woman as husband and wife. Nectanebo, though, was present but unseen, for by his magic art he did not allow himself to be seen. Then one day he was there when Philip, already boiling over, was sharply rebuking his wife that what she had conceived was not from a god. Nectanebo took this in with his own ears. So, while a splendid royal banquet was being prepared for Philip’s return, and he himself still did not smooth his brow into gladness, Nectanebo at once remakes himself and reshapes himself into that serpentine form, but larger, and crawling he penetrates the dining hall. He was imposing to behold, both by the majesty of his whole body and by the shrillness of his hissing, so terrible that the foundations and walls of the house seemed to shake. While the rest were struck with terror, Olympias, to bear witness to the divine power, stretched out her hand to the beast. And the serpent laid its head in the woman’s lap, gathered its whole length gently into a coil and readily put its mouth up to the woman. And after this it turned itself into an eagle and flew away. Then Philip, cheered out of his amazement, said: “Wife, the proof of divine care for you has truly been shown. For we have seen a god helping you, though which god he is I do not know: Jupiter perhaps, from the eagle, or Ammon, from the serpent.” To this the woman replied: “He declared himself to be Ammon when he first deigned to unite with me, that is, the lord of all Libya.”",
+   "notes": [
+    {
+     "kind": "text",
+     "ru": "После «draco caput in sinum mulieris» Цахер печатает в квадратных скобках «[clementius]» («кротко»): так он помечает слово как лишнее. По его аппарату, оно есть только в рукописи B (H: «dementius»); вероятно, это глосса, предвосхищающая «mansuetius», и мы переводим без него. «Sed auctiorem» («но крупнее») — конъектура Цахера по греческому «πολὺ μείζονα» (рукописи эпитомы: «seductiorem», «seductorem» и т. п.); её подтверждает Туринский палимпсест Валерия.",
+     "en": "After ‘draco caput in sinum mulieris’ Zacher prints ‘[clementius]’ (‘gently’) in square brackets, his sign for a spurious word. According to his apparatus it is found only in manuscript B (H has ‘dementius’); it is probably a gloss anticipating ‘mansuetius’, and we translate without it. ‘Sed auctiorem’ (‘but larger’) is Zacher’s conjecture from the Greek ‘πολὺ μείζονα’ (the epitome manuscripts have ‘seductiorem’, ‘seductorem’ and the like); the Turin palimpsest of Valerius confirms it.",
+     "source": "Zacher 1867, pp. 12–13, text and app.; Kübler 1888, p. 9 app."
+    },
+    {
+     "kind": "change",
+     "ru": "У Валерия (1,10) змей ещё ложится Олимпиаде на колени и касается её раздвоенным языком, «чтобы супружеской верности ничего не недоставало», а Филипп отступает в страхе; эпитоматор это выпустил. Кроме того, Филипп после чуда у него «трезвый» (sobrius), а в эпитоме «развеселившийся» (exhilaratus). Ср. у Плутарха (Alex. 2.6; 3.2): змей рядом со спящей Олимпиадой охладил к ней Филиппа, и тот будто бы лишился глаза, которым подглядел бога в облике змея.",
+     "en": "In Valerius (1,10) the serpent also settles on Olympias’ knees and touches her with its forked tongue, ‘so that nothing should be lacking to conjugal fidelity’, while Philip draws back in fear; the epitomator omitted this. Also, after the portent Valerius’ Philip is ‘sobered’ (sobrius), the epitome’s ‘cheered’ (exhilaratus). Compare Plutarch (Alex. 2.6; 3.2): a serpent seen beside the sleeping Olympias cooled Philip towards her, and he is said to have lost the eye with which he spied on the god in serpent form.",
+     "source": "Iul. Val. 1,10 (Kübler 1888, pp. 9–10); Plut. Alex. 2.6; 3.2"
+    }
+   ],
+   "doubts": [
+    {
+     "latin": "At vero draco caput in sinum mulieris [clementius] extendit",
+     "issue": "The TEI silently omits the word that Zacher prints in brackets (as spurious).",
+     "choice": "Followed Zacher’s text without ‘clementius’; see the note."
+    },
+    {
+     "latin": "nec tamen ipso frontem in laetitiam explicaret",
+     "issue": "‘ipso’ is ungrammatical; probably for ‘ipse’ (Philip; Valerius: ‘nec tamen Philippum frontem … explicasse’).",
+     "choice": "Read as ‘ipse’: «а сам он всё же не прояснял чела» / ‘he himself still did not smooth his brow’."
+    },
+    {
+     "latin": "quo fidem faceret divino numini",
+     "issue": "Valerius has ‘divino commercio’ (her intercourse with the god); ‘numini’ makes the phrase vaguer.",
+     "choice": "«чтобы удостоверить божественную силу» / ‘to bear witness to the divine power’."
+    },
+    {
+     "latin": "quippe vel Iovem ex aquila, vel Ammonem ex dracone",
+     "issue": "Elliptical (Valerius: ‘credas’). ‘vel Iovem’ is printed where H has ‘usli ouem’.",
+     "choice": "«то ли Юпитер, судя по орлу, то ли Аммон, судя по змею»."
+    },
+    {
+     "latin": "licet quis is est, nesciam",
+     "issue": "Indicative ‘est’ in an indirect question (Valerius: ‘sit’).",
+     "choice": "Normal indirect question in translation."
+    }
+   ]
+  },
+  {
+   "chapter": 11,
+   "ru": "И вот, когда Филипп сидел в одной местности, где летало множество птиц, и был поглощён делами, вдруг курица вспрыгнула к нему на колени и, усевшись, снесла яйцо. Но яйцо это, скатившись с его колен, разбилось о землю. Когда скорлупка раскололась, показалось, что из неё вышел змеёныш. Он обежал и обполз скорлупку яйца, но, когда хотел снова войти туда, откуда вышел, его застигла смерть. Тогда царь велит призвать Антифонта, который в то время слыл превосходным толкователем знамений, и расспрашивает его о виденном. Тот, расспросив [обо всём], ответил, что у царя родится сын, который обойдёт весь мир и всё покорит своей власти; но и он, прежде чем вернуться в отечество, из которого вышел, быстро погибнет. Ведь змей — царственное животное, а яйцо — образ мира. И поскольку змей, как видно, вырвался из него, обошёл весь круг этой округлости, пожелал войти туда, откуда произошёл, и умер прежде, чем это сбылось, — ясно, что всё это предвещало то, что было предсказано.",
+   "en": "While Philip was sitting in a certain place where many birds were flying about, and had his mind taken up with business, suddenly a hen jumped into his lap, settled there and laid an egg. But the egg rolled out of his lap and cracked on the ground. As its shell split open, a little serpent was seen to come out of it. It ran round and circled the eggshell, and while it wanted to go back in where it had come out, it was overtaken by death. So the king orders Antiphon, who was regarded at that time as an outstanding diviner, to be summoned, and questions him about what had been seen. He, having made inquiry, replied that a son would be born to him who would go round the whole world and subject it all to his rule; but he too, before he returned to the homeland from which he had set out, would quickly perish. For the serpent is a royal animal, and the egg is the shape of the world. And since the serpent was seen to break out of it, went round the whole circuit of this round shape, desired to go back where it had its origin, and died before this came about, it is plain that all this portended what has been foretold.",
+   "notes": [
+    {
+     "kind": "change",
+     "ru": "У Валерия (1,11) Филипп сидит «в некой части дворца» (in quadam regiae parte), в эпитоме — «в некой местности» (in quadam regione). Выпущены также тревога, которую знамение вселило в Филиппа, и то, что Антифонт толковал «вдохновлённый богом» (dei adminiculo inspiratus). Последняя фраза у Валерия — продолжение речи толкователя; в эпитоме её конструкция ломается, а «liquet» («ясно») добавлено.",
+     "en": "In Valerius (1,11) Philip is sitting ‘in a certain part of the palace’ (in quadam regiae parte); the epitome has ‘in a certain place’ (in quadam regione). Also omitted are the unease the portent caused Philip and the statement that Antiphon spoke ‘inspired by the god’ (dei adminiculo inspiratus). In Valerius the last sentence continues the diviner’s explanation; in the epitome its construction breaks down, and ‘liquet’ (‘it is plain’) is added.",
+     "source": "Iul. Val. 1,11 (Kübler 1888, pp. 10–11)"
+    },
+    {
+     "kind": "parallel",
+     "ru": "В греческом α 1.11 Филипп в это время сидит в саду дворца за учёными книгами, а змеёныш умирает, не успев просунуть голову обратно в скорлупу. Смысл знамения тот же: Александр обойдёт мир и умрёт, не вернувшись на родину.",
+     "en": "In the Greek α 1.11 Philip is sitting in a garden of the palace with learned books, and the little serpent dies before it can put its head back into the shell. The meaning of the portent is the same: Alexander will go round the world and die without returning home.",
+     "source": "Ps.-Call. α 1.11 (Kroll 1926, pp. 10–11)"
+    }
+   ],
+   "doubts": [
+    {
+     "latin": "Ex quo cum draco erupisse videatur, post omnem huius rotunditatis ambitum circuisse, atque ingredi eo, unde ortum habuerat, cupivisse, mortuusque est priusquam id proveniret, cuncta haec quae praedicta sunt portendisse liquet.",
+     "issue": "Anacoluthon: the cum-clause runs into a finite ‘mortuusque est’; the infinitives depend on ‘videatur’.",
+     "choice": "Rendered as one period with the finite verb kept: «…пожелал войти… и умер прежде, чем это сбылось, — ясно, что…»."
+    },
+    {
+     "latin": "At ille percunctatus respondit",
+     "issue": "‘percunctatus’ (having inquired) has no object; perhaps he questioned the king about details.",
+     "choice": "«расспросив [обо всём]» / ‘having made inquiry’."
+    },
+    {
+     "latin": "in quadam regione",
+     "issue": "Possibly a corruption of Valerius’ ‘regiae parte’.",
+     "choice": "Translated as printed: «в одной местности» / ‘in a certain place’."
+    }
+   ]
+  },
+  {
+   "chapter": 12,
+   "ru": "Когда же подошло время родов, Олимпиада села, чтобы разрешиться от бремени. Но Нектанеб, стоя рядом и наблюдая небесные пути и движения светил, говорит: «Подожди, прошу тебя, дорогая, и пересиль натиск родов: ведь если плод появится на свет сейчас, звёзды грозят, что он будет рабом и пленником». И когда женщина перетерпела, а её стали терзать новые схватки, маг снова увещевает её: «И теперь, прошу, потерпи ещё немного: ведь если сейчас ты уступишь родам, родится галл и полумуж». А затем наконец, вглядевшись в бег звёзд и движение стихий, он так говорит женщине: «Вот время! — говорит. — Теперь — громче голос и все усилия: ведь то, что сейчас родится, прославится владычеством над всем миром». Тогда женщина, застонав сильнее, родила мальчика. Как только он упал на землю, тотчас последовали землетрясение, раскаты грома, столкновение ветров и блеск молний, так что можно было видеть: весь мир потрудился ради этого рождения.",
+   "en": "As the time of childbirth was now drawing near, Olympias had sat down to be delivered of her burden. But Nectanebo, standing by and observing the heavenly courses and the motions of the stars, said: “Wait, I beg you, my dear, and master the force of your labour: for if the child is brought forth now, the stars threaten that he will be a slave and a captive.” And when the woman had held out and was being driven by fresh pangs, the magus admonishes her again: “Now too, I beg you, hold out a little longer; for if you give way to the birth now, the one who is born will be a gallus and a half-man.” And then at last, watching the course of the stars and the motion of the elements, he spoke thus to the woman: “Now is the time,” he said, “now with a louder cry and all your strength; for what is born now will be renowned for dominion over the whole world.” Then the woman, groaning more violently, brought forth a boy. As soon as he slipped to the ground, at once there followed an earthquake, the crash of thunder, the clash of winds and the flashing of lightning, so that you could see that the whole world had laboured over this birth.",
+   "notes": [
+    {
+     "kind": "change",
+     "ru": "В греческом α 1.12 Нектанеб произносит длинную астрологическую речь, частью в стихах, объясняя, чем грозит рождение в каждый час. У Валерия, а за ним и в эпитоме она сведена к трём коротким репликам; «галла и полумужа» Кролль сближает с упоминанием оскопления в греческом тексте. Эпитоматор выпустил ещё тайные прикосновения Нектанеба к роженице и картину неба у Валерия: мир на вершине своего вращения, солнце посреди неба.",
+     "en": "In the Greek α 1.12 Nectanebo delivers a long astrological speech, partly in verse, explaining the danger of a birth at each hour. Valerius, and the epitome after him, reduce it to three short utterances; Kroll connects the ‘gallus and half-man’ with the reference to castration in the Greek. The epitomator also dropped Nectanebo’s secret touching of the woman in labour and Valerius’ picture of the sky: the cosmos at the summit of its revolution, the sun at mid-heaven.",
+     "source": "Ps.-Call. α 1.12 (Kroll 1926, pp. 11–13 with app.); Iul. Val. 1,12 (Kübler 1888, p. 11)"
+    },
+    {
+     "kind": "realia",
+     "ru": "Галлы — оскоплённые жрецы Великой Матери (Кибелы); отсюда «галл и полумуж». Знамения при рождении есть и в α: молния, гром и землетрясение, «так что весь мир пришёл в движение».",
+     "en": "The galli were the castrated priests of the Great Mother (Cybele); hence ‘gallus and half-man’. The portents at the birth are also in α: lightning, thunder and an earthquake, ‘so that the whole world was set in motion’.",
+     "source": "Ps.-Call. α 1.12 (Kroll 1926, p. 13)"
+    }
+   ],
+   "doubts": [
+    {
+     "latin": "Mane, inquit, quaeso, mi mulier",
+     "issue": "An intimate address; ‘госпожа / mistress’ would be wrong, since Nectanebo pointedly avoided ‘domina’ in ch. 4.",
+     "choice": "«дорогая» / ‘my dear’."
+    },
+    {
+     "latin": "si nunc editu victa sis",
+     "issue": "Rare ablative ‘editu’: ‘overcome by the delivery’, i.e. if you give in and give birth.",
+     "choice": "«если сейчас ты уступишь родам» / ‘if you give way to the birth now’."
+    },
+    {
+     "latin": "nunc et voce fortiori et omni conatu",
+     "issue": "Elliptical; Valerius has ‘voce nunc fortiore opus est’.",
+     "choice": "Ellipsis kept: «Теперь — громче голос и все усилия» / ‘now with a louder cry and all your strength’."
+    },
+    {
+     "latin": "uti viseres, omni mundo hac partitudine curam elaboratam",
+     "issue": "An accusative with an infinitive left out (‘esse’ understood); ‘omni mundo’ is a dative of agent; the manuscripts vary.",
+     "choice": "«весь мир потрудился ради этого рождения» / ‘the whole world had laboured over this birth’."
+    }
+   ]
+  },
+  {
+   "chapter": 13,
+   "ru": "Тогда и Филипп говорит: «Признаюсь, женщина: полезным мне казалось решение не растить того, кто родился, потому что он произошёл не от моего семени; но, видя, что это потомство божественное и что оно было угодно и богам, и стихиям, я присоединяюсь к желанию его воспитать и в память того сына, что родился у меня от прежнего брака и умер, дам ему имя Александр». После этого его растили по-царски и как подобало. Он был прекраснейшим лицом и сложением, со слегка вьющимися золотистыми волосами, подобными львиной гриве, с глазами особенной красоты: один был совершенно чёрный, а левый — серо-голубой и непохожий [на другой]. И он рос, возрастая как в телесной красоте, так и в величии учёности и разума. Кормилицей его была Алакринис, дядькой — Леонид, учителем грамоты — Полиник, музыки — Алкипп, геометрии — Менекл, риторики — Анаксимен, философии — тот самый Аристотель Милетский. Он был сведущ во всех науках, и всякая игра была для него упражнением в чём-то царственном. Тем временем люди, ведавшие табунами Филиппа, приводят к царю коня видной стати и говорят, что он из породы царского табуна, а ногами сложён как сказочный Пегас и как, по преданию, кони Лаомедонта. И добавляют: «Один только есть у него звериный порок: он ест людей и свирепо рвётся к такой пище». Царь же сказал: «Что ж, раз уж его привели, позаботьтесь, чтобы его заперли, и кормите его — разумеется, за обитыми железом затворами». И с этими словами приказ исполняется.",
+   "en": "Then Philip too said: “I will confess, woman, that the plan of not rearing what has been born seemed useful to me, since it did not come from my seed; but since I see that the offspring is divine and has been dear both to the gods and to the elements, I accede to the wish that he be brought up, and in memory of that son who was born to me of my former marriage and died, I will give him the name Alexander.” After that he was brought up in a more royal and fitting manner. He was most beautiful in face and form, with slightly curling golden hair like a lion’s mane, and eyes of exceptional beauty: one quite black, the left one grey-blue and unlike [the other]. So he grew, both in grace of body and in the majesty of learning and good sense. His nurse was Alacrinis, his paedagogue Leonidas, his teacher of letters Polynicus, of music Alcippus, of geometry Menecles, of rhetoric Anaximenes, of philosophy the famous Aristotle of Miletus. He was indeed skilled in all letters, and every game was for him a rehearsal of something kingly. Meanwhile the men who looked after Philip’s stud farms bring the king a horse of remarkable form and say that he comes of the royal herd, shaped in his legs like the Pegasus of fable, and like the horses that Laomedon is said to have had. And they add: “He has one beastly vice: he eats men and is savage for such fodder.” The king said: “Well, since he has once been brought here, you will see to it that he is shut up and you will feed him — behind iron-clad bars, of course.” And with these words the orders are carried out.",
+   "notes": [
+    {
+     "kind": "change",
+     "ru": "В греческом α 1.13 коня-людоеда привозят в дар «правители Каппадокии», а Филипп вспоминает поговорку «рядом с добром растёт зло». У Валерия коня приводят конюхи самого Филиппа, а сравнения с Пегасом и конями Лаомедонта и «звериный порок» — латинские добавления (Цахер: «эта фраза отсутствует в греческих текстах»). Из Валерия эпитоматор выпустил, среди прочего, дары новорождённому, отступление о Фаворине и родословных, детские игры в суд и поговорку Филиппа.",
+     "en": "In the Greek α 1.13 the man-eating horse is brought as a gift by ‘the rulers of Cappadocia’, and Philip quotes the proverb ‘evil grows next to good’. In Valerius the horse is brought by Philip’s own grooms, and the comparisons with Pegasus and Laomedon’s horses and the ‘beastly vice’ are Latin additions (Zacher: ‘this phrase is absent from the Greek texts’). From Valerius the epitomator omitted, among other things, the gifts to the newborn, the digression on Favorinus and the genealogies, the boy’s mock trials, and Philip’s proverb.",
+     "source": "Ps.-Call. α 1.13 (Kroll 1926, p. 14); Iul. Val. 1,13 (Kübler 1888, pp. 12–14); Zacher 1867, p. 17 app."
+    },
+    {
+     "kind": "text",
+     "ru": "У Валерия левый глаз «серо-голубой и подобный небу» (glauca atque coeli similis); в эпитоме — «серо-голубой и непохожий» (dissimili), видимо, из-за порчи «coeli similis». Кормилица «Алакринис» — искажённое имя Ланики (Λανίκη), сестры Клита Чёрного (Кролль). «Милетским» Аристотеля называет уже греческий α (Μιλήσιος), хотя он из Стагиры.",
+     "en": "In Valerius the left eye is ‘grey-blue and like the sky’ (glauca atque coeli similis); the epitome has ‘grey-blue and unlike’ (dissimili), apparently from a corruption of ‘coeli similis’. The nurse ‘Alacrinis’ is a garbled form of Lanice (Λανίκη), sister of Cleitus the Black (Kroll). Aristotle is already called ‘of Miletus’ (Μιλήσιος) in the Greek α, though he came from Stagira.",
+     "source": "Iul. Val. 1,13 (Kübler 1888, p. 12); Zacher 1867, p. 16 app.; Kroll 1926, p. 14 with app."
+    }
+   ],
+   "doubts": [
+    {
+     "latin": "Utile, inquit, consilium, o mulier, mihi profitebor, non nutriendi quod natum est",
+     "issue": "Awkward (Valerius: ‘Equidem mihi fuisse … consilium profitebor non nutriendi’); ‘utile’ is the reading of the epitome manuscripts.",
+     "choice": "«Признаюсь… полезным мне казалось решение не растить…» / ‘I will confess that the plan of not rearing… seemed useful to me’."
+    },
+    {
+     "latin": "votis educationis accedo",
+     "issue": "‘votis’ comes from Valerius’ Paris manuscript only (missing in H L A B D E).",
+     "choice": "Translated as printed: «присоединяюсь к желанию его воспитать» / ‘I accede to the wish that he be brought up’."
+    },
+    {
+     "latin": "formatum pedibus ad Pegasi fabulam et si equi fuisse Laomedonti eiusmodi praedicantur",
+     "issue": "Barely construable; ‘et si equi’ is R’s reading (others ‘et si qui’).",
+     "choice": "Taken as a comparison: «и как, по преданию, кони Лаомедонта» / ‘and like the horses that Laomedon is said to have had’."
+    },
+    {
+     "latin": "et sibi quisque ludus imperiale quiddam erat meditamentum",
+     "issue": "‘quisque’ = ‘quisquis/omnis’ (late Latin).",
+     "choice": "«всякая игра была для него упражнением в чём-то царственном»."
+    },
+    {
+     "latin": "claudi eum atque alere curabitis",
+     "issue": "Passive and active infinitives mixed (Valerius: ‘ali’).",
+     "choice": "The mix is kept: «позаботьтесь, чтобы его заперли, и кормите его» / ‘see to it that he is shut up and you will feed him’."
+    }
+   ]
+  },
+  {
+   "chapter": 14,
+   "ru": "Тем временем Александр, которому шёл уже двенадцатый год, стал спутником отца: он постоянно упражнялся, чтобы освоиться с оружием, радовался, когда его видели с войсками, и, вскакивая на коней, делал всё как опытнейший воин. И вот, когда Филипп отправлялся в некий соседний город — не в том расположении духа, что обычно, — Олимпиада тотчас снова обращается к Нектанебу и советуется с ним о тайном замысле мужа. Когда тот, в присутствии сидевшего рядом Александра, вёл речь по своему астрологическому искусству, Александр спросил: «Неужели это подобие звёзд, которые видны на небе?» И Нектанеб ответил, что так. А Александр: «А могу я увидеть их своими глазами?» Тот кивнул, что может. [Александр] требует назначить время. [Нектанеб] обещает вечер. «Когда он наступит, — говорит, — пойдём со мной в открытое поле, и я покажу тебе их, сияющие на небе». И вот, когда пришло время, он, выйдя из города, показывал Александру то, чего тот желал. И пока тот прилежно пользовался его знанием этого искусства и уже считал себя в нём учёным, однажды ночью, подойдя к отвесному краю рва, Александр неожиданным толчком сбрасывает этого человека вниз; и тот, получив смертельный удар в шею, жалобно сказал так: «Мой Александр, что ты задумал этим поступком?» А он ответил: «Тебе следовало пенять на искусство, которое ты знал. Ведь, не ведая, что грозит тебе на земле, теперь, лёжа навзничь, исследуй то, что на небе». На это маг: «Ни одному смертному, — говорит, — не дано бежать от судьбы». А Александр: «Почему ты так говоришь?» Маг ответил: «Некогда с помощью этой науки я узнал, что буду убит сыном». И Александр сказал: «Неужели я — твой сын?» Тот признаётся, что это так, [и открывает] и бегство из Египта, и то, как он вошёл к Олимпиаде, и каким искусством овладел [Филипповой] женой в образе бога. И с этими словами испускает дух. Тогда Александр, узнав, что убитый им был его отцом, движимый естественным чувством, взваливает его на плечи и несёт обратно во дворец. Вернувшись же к матери, он рассказывает ей всё, что сказал ему отец в последней беседе. И женщина, крайне изумлённая этим, призналась, что, обманутая пустыми чарами, совершила постыдное дело. А сын воздвигает отцу гробницу искуснейшей работы.",
+   "en": "Meanwhile Alexander, now in his twelfth year, was becoming his father’s companion: he was always practising to become versed in the use of arms, he rejoiced to be seen with the armies, and, leaping onto horses, he did everything like a most experienced soldier. So when Philip was setting out for a certain city near there, in a different frame of mind from his usual one, Olympias at once turns again to Nectanebo and consults him about her husband’s secret intention. While he, with Alexander sitting beside him, was speaking according to that astrological art, Alexander said: “Is this a likeness of the stars that are seen in the sky?” And Nectanebo answered that it was. And Alexander: “Can I see them with my own eyes?” He nodded that he could. [Alexander] demands a time. [Nectanebo] promises the evening. “When it comes,” he said, “go with me to an open field, and I will show you them shining in the sky.” So when the time came, having gone out of the town, he let Alexander see what he had desired. And while [Alexander] was eagerly enjoying his expertise in this art and already reckoned himself learned in these things, one night, coming to the sheer edge of a ditch, Alexander, giving the man an unexpected push, throws him headlong; and there, struck by a deadly blow to the neck, he complained thus: “My Alexander, what did you mean by this deed?” And he answered: “It is the art which you knew that you ought to complain of. For, not knowing what threatened you on the ground, now, lying on your back, search out the things of heaven.” To this the magus said: “No mortal is allowed to flee from fate.” And Alexander: “Why do you say that?” The magus replied: “Long ago, through this science, I learned that I would be killed by a son.” And Alexander said: “Am I your son, then?” He confesses that it is so, [telling] of the flight from Egypt, of his coming to Olympias, and by what art he had possessed [Philip’s] wife in the likeness of a god. And with these words he breathes his last. Then Alexander, having learned that the man he had killed was his father, moved by natural affection, lifts the man onto his shoulders and carries him back to the palace. When he had returned to his mother, he tells her everything that his father had said to him in their last conversation. The woman, greatly astonished at this, declared that, deceived by empty arts, she had done a shameful thing. And the son raised for his father a most elaborate tomb.",
+   "notes": [
+    {
+     "kind": "change",
+     "ru": "Эпитоматор выпустил у Валерия (1,14) речь Филиппа к двенадцатилетнему сыну и слова раненого Нектанеба «чувствую, что ранен смертельно». Выпали также страх мальчика оставить тело зверям, погребение Нектанеба Олимпиадой с почестями и заключительная мысль: египтянин Нектанеб похоронен в Македонии, а македонянин Александр будет похоронен в Египте. Добавлены «однажды ночью» и насмешка «теперь, лёжа навзничь».",
+     "en": "From Valerius (1,14) the epitomator omitted Philip’s speech to his twelve-year-old son and the wounded Nectanebo’s words ‘I feel that I am mortally wounded’. Also dropped are the boy’s fear of leaving the body to the beasts, Olympias’ honourable burial of Nectanebo and the closing reflection: Nectanebo, an Egyptian, was buried in Macedonia, while Alexander, a Macedonian, would be buried in Egypt. Added are ‘one night’ and the taunt ‘now, lying on your back’.",
+     "source": "Iul. Val. 1,14 (Kübler 1888, pp. 14–16)"
+    },
+    {
+     "kind": "text",
+     "ru": "«Vanis artibus» («пустыми чарами») Цахер взял из Туринского палимпсеста Валерия; рукописи эпитомы дают «annis», «quotannis», «annos», т. е. отражают «tot annis» («столько лет»). Так читает парижская рукопись Валерия: по Кюблеру, в T нет «tot annis», в P нет «vanis». «Indicavit» («призналась») стоит во всех рукописях эпитомы и в парижской рукописи Валерия; Туринский палимпсест и Кюблер дают «iudicavit» («рассудила о себе»), что ближе к греческому «κατέγνω ἑαυτῆς» («осудила себя»).",
+     "en": "Zacher took ‘vanis artibus’ (‘by empty arts’) from the Turin palimpsest of Valerius; the epitome manuscripts have ‘annis’, ‘quotannis’, ‘annos’, i.e. they reflect ‘tot annis’ (‘for so many years’). That is the reading of Valerius’ Paris manuscript: according to Kübler, T lacks ‘tot annis’ and P lacks ‘vanis’. ‘Indicavit’ (‘declared’) is in all the epitome manuscripts and in Valerius’ Paris manuscript; the Turin palimpsest and Kübler have ‘iudicavit’ (‘judged of herself’), closer to the Greek ‘κατέγνω ἑαυτῆς’ (‘condemned herself’).",
+     "source": "Zacher 1867, p. 20 app.; Kübler 1888, p. 16 and app."
+    }
+   ],
+   "doubts": [
+    {
+     "latin": "Atque hoc mulier nimium admirata indicavit, quod vanis artibus lusa probri rem fecisset.",
+     "issue": "‘indicavit’ (declared, made known) vs Valerius’ ‘iudicavit’; ‘vanis’ is Zacher’s choice against the epitome manuscripts (see the note); ‘nimium’ = ‘very’.",
+     "choice": "Translated Zacher’s text: «призналась» / ‘declared’, «пустыми чарами» / ‘by empty arts’."
+    },
+    {
+     "latin": "Tempus exigit. Vesperam pollicetur.",
+     "issue": "Very terse; the subjects change (Alexander demands a time, Nectanebo promises the evening).",
+     "choice": "Subjects supplied in square brackets."
+    },
+    {
+     "latin": "Qui dum sedulo huius artis peritia frueretur, iamque se in hisce doctum perpenderet",
+     "issue": "‘Qui’ most naturally refers to Alexander (just named in the dative), who enjoys Nectanebo’s expertise; Valerius has a different sentence here.",
+     "choice": "Taken as Alexander: «пока тот прилежно пользовался его знанием…» / ‘while [Alexander]…’."
+    },
+    {
+     "latin": "ad praecisum fossae praeceps veniens",
+     "issue": "‘praeceps’ may agree with the subject (‘rushing headlong’) or be a neuter noun with ‘praecisum fossae’ (‘sheer drop of the ditch’). ‘praecisum’ is R’s reading; L A D E Vc have ‘praescitum’.",
+     "choice": "«подойдя к отвесному краю рва» / ‘coming to the sheer edge of a ditch’."
+    },
+    {
+     "latin": "Conquerendum tibi erat de arte, quam noveras.",
+     "issue": "‘erat’ (Valerius: ‘est’) suggests a reproach about the past.",
+     "choice": "«Тебе следовало пенять на искусство…» / ‘It is the art… that you ought to complain of’."
+    },
+    {
+     "latin": "Ita esse confitetur, tum Aegypti fugam, tum ingressum ad Olympiadem, et quanam arte uxore sit potitus",
+     "issue": "Zeugma: ‘confitetur’ governs both an infinitive clause and accusative nouns plus an indirect question.",
+     "choice": "A verb supplied in brackets: «[и открывает]» / ‘[telling]’; ‘uxore’ glossed as [Philip’s] wife."
+    },
+    {
+     "latin": "progressus oppido",
+     "issue": "‘progressus’ is from the Turin palimpsest; the epitome manuscripts have ‘progressi’ (plural: both went out).",
+     "choice": "Translated the singular as printed."
+    }
+   ]
+  }
+ ]
+}

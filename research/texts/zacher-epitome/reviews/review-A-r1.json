@@ -1,0 +1,105 @@
+{
+ "issues": [
+  {
+   "chapter": 14,
+   "lang": "ru",
+   "severity": "major",
+   "category": "mistranslation",
+   "latin": "Qui dum sedulo huius artis peritia frueretur, iamque se in hisce doctum perpenderet, nocte quadam, ad praecisum fossae praeceps veniens, Alexander hominem improviso impellens praecipitat",
+   "quote": "И пока тот прилежно пользовался его знанием этого искусства и уже считал себя в нём учёным, однажды ночью, подойдя к отвесному краю рва, Александр неожиданным толчком сбрасывает этого человека вниз",
+   "problem": "Черновик читает «Qui» как Александра, и \"его знанием\" (peritia) добавляет притяжательное, которого в латыни нет. Но грамматика не требует этого: подлежащее предыдущей фразы (dabat videre) — Нектанеб, а в главной части имя «Alexander» названо заново, что естественно, только если «Qui» — не он. Главное, это согласуется с сюжетом и с последующей насмешкой Александра («nescius quae te impenderent humi, nunc resupinus iacens rimare ea quae sunt coeli»): в традиции Романа Нектанеб падает, увлечённо глядя на небо (так и в описании гл. 1.14 у рецензента комментария Навотки в BMCR). Т.е. «Qui» скорее Нектанеб, занятый своим искусством и уже мнящий себя сведущим. Грамматически место двусмысленно, я не могу окончательно доказать это без текста Валерия; но выбранное прочтение ломает логику сцены и лишает смысла «nescius».",
+   "fix": "И пока тот [Нектанеб] усердно предавался своему искусству и уже мнил себя вполне сведущим в этих делах, однажды ночью Александр, подойдя к отвесному краю рва, неожиданным толчком сбрасывает этого человека вниз"
+  },
+  {
+   "chapter": 14,
+   "lang": "en",
+   "severity": "major",
+   "category": "mistranslation",
+   "latin": "Qui dum sedulo huius artis peritia frueretur, iamque se in hisce doctum perpenderet",
+   "quote": "And while [Alexander] was eagerly enjoying his expertise in this art and already reckoned himself learned in these things, one night, coming to the sheer edge of a ditch, Alexander, giving the man an unexpected push, throws him headlong",
+   "problem": "Same as the Russian entry: 'Qui' is taken as Alexander and 'his' is added before 'expertise' (Latin has only 'huius artis peritia'). The main clause names 'Alexander' afresh, which suggests the subject of the dum-clause is Nectanebo. The taunt that follows ('nescius quae te impenderent humi, nunc resupinus iacens rimare ea quae sunt coeli') and the tradition (Nectanebo falls while gazing at the sky) fit Nectanebo absorbed in his art and thinking himself learned. The Latin is grammatically ambiguous, so the doubts section should say so, but the current choice undercuts the logic of the scene.",
+   "fix": "And while he [Nectanebo] was assiduously exercising the expertise of this art and already judged himself learned in these matters, one night, coming to the sheer edge of a ditch, Alexander, giving the man an unexpected push, throws him headlong"
+  },
+  {
+   "chapter": 8,
+   "lang": "en",
+   "severity": "minor",
+   "category": "names-terms",
+   "latin": "Tum mulieris virginal contegere biblo ac consignare annulo aureo videbatur",
+   "quote": "Then he seemed to cover the woman’s womb with papyrus and seal it with a gold ring",
+   "problem": "'virginal' is the female genitals (the glossary gives 'female parts'), not 'womb' (uterus). Ch. 7 correctly uses 'womb' for 'utero', so the two Latin words are collapsed. The same happens in the interpreters' speech ('signari virginal feminae'). The Russian «лоно» is acceptable.",
+   "fix": "Then he seemed to cover the woman’s female parts with papyrus and seal them with a gold ring (and later: ‘For your seeing the woman’s female parts sealed attests the truth of what was seen’)"
+  },
+  {
+   "chapter": 4,
+   "lang": "both",
+   "severity": "minor",
+   "category": "names-terms",
+   "latin": "Quin Nectanabus statim suam adhibet constellationem",
+   "quote": "And at once Nectanebo brings in his own horoscope, to examine what the queen had asked.",
+   "problem": "The same word 'horoscope' / «гороскоп» renders two different things within one chapter: 'horoscopus' (the lygdinus token of the ascendant on the pinax) and 'constellatio' (the nativity chart). A reader will take 'his own horoscope' as the ascendant token of the pinax. The glossary distinguishes them (horoscopus = ascendant; constellatio = nativity).",
+   "fix": "EN: And at once Nectanebo brings in his own nativity, to examine what the queen had asked. RU: И Нектанеб тотчас обращается к своей собственной натальной карте, чтобы исследовать то, о чём просила царица. (And for ‘horoscopus’ earlier: EN ‘the horoscopus (ascendant)’, RU «гороскоп (асцендент)» at first mention.)"
+  },
+  {
+   "chapter": 4,
+   "lang": "ru",
+   "severity": "minor",
+   "category": "mistranslation",
+   "latin": "Ergo Nectanabus iam longe celebratior apud Macedones erat",
+   "quote": "Итак, Нектанеб был уже весьма знаменит у македонян, так что молва о нём не укрылась даже от царицы Олимпиады.",
+   "problem": "'celebratior' is a comparative with 'longe' ('far more famous', than before in ch. 3); «весьма знаменит» turns it into an elative and loses the progression. The English ('by now far more celebrated') is right.",
+   "fix": "Итак, Нектанеб был уже гораздо более известен у македонян, так что молва о нём не укрылась даже от царицы Олимпиады."
+  },
+  {
+   "chapter": 4,
+   "lang": "both",
+   "severity": "minor",
+   "category": "mistranslation",
+   "latin": "quibus singulis sui metalli species inerat",
+   "quote": "и у каждого из них был свой особый камень",
+   "problem": "Latin has 'sui metalli species' ('a kind of its own metal/material'), not 'lapis'. Both languages substitute 'stone' (EN ‘its own kind of stone’), which anticipates the list and covers the Greek λίθος; it is not flagged in the doubts. Acceptable as interpretation but better to keep the Latin word or mark it.",
+   "fix": "RU: и у каждого из них был свой особый материал. EN: each of which had its own kind of material"
+  },
+  {
+   "chapter": 3,
+   "lang": "ru",
+   "severity": "minor",
+   "category": "mistranslation",
+   "latin": "collectisque omnibus quaeque sibi erant pretiosarum opum",
+   "quote": "собрав все драгоценности, какие у него были",
+   "problem": "'pretiosae opes' is costly wealth/resources in general; «драгоценности» narrows it to jewels. The English 'precious possessions' is fine.",
+   "fix": "собрав всё ценное имущество, какое у него было"
+  },
+  {
+   "chapter": 10,
+   "lang": "en",
+   "severity": "minor",
+   "category": "addition",
+   "latin": "quippe vel Iovem ex aquila, vel Ammonem ex dracone",
+   "quote": "Jupiter perhaps, from the eagle, or Ammon, from the serpent.",
+   "problem": "'perhaps' has no equivalent in the Latin; the vel...vel construction already expresses the alternative, and 'perhaps' turns the first member into a tentative guess. The Russian («то ли Юпитер, судя по орлу, то ли Аммон, судя по змею») is neutral.",
+   "fix": "either Jupiter, judging from the eagle, or Ammon, judging from the serpent."
+  },
+  {
+   "chapter": 13,
+   "lang": "ru",
+   "severity": "minor",
+   "category": "omission",
+   "latin": "Post vero regalius et competentius alebatur.",
+   "quote": "После этого его растили по-царски и как подобало.",
+   "problem": "Both adverbs are comparatives ('regalius', 'competentius', i.e. more royally and more suitably than before his acknowledgement). The English keeps ‘more royal and fitting’; the Russian loses the comparison.",
+   "fix": "После этого его воспитывали уже более по-царски и более подобающим образом."
+  },
+  {
+   "chapter": 14,
+   "lang": "en",
+   "severity": "minor",
+   "category": "mistranslation",
+   "latin": "Conquerendum tibi erat de arte, quam noveras.",
+   "quote": "It is the art which you knew that you ought to complain of.",
+   "problem": "'erat' is a past tense (the translator's own doubt notes the reproach about the past). Here the English slips into a present-tense statement; the Russian «следовало» keeps the past modality. Also 'noveras' (pluperfect, 'had known/knew') is flattened.",
+   "fix": "You ought to have complained about the art that you had known."
+  }
+ ],
+ "summary": "Accuracy review of chs. 1–14, sentence by sentence against the Latin. The draft is faithful. I found no critical errors, no silent omissions of Latin sentences and no wrong names. The late-Latin constructions (ellipses, anacolutha, ablatives absolute, deponent participles like 'opinati', 'editu victa sis', 'quo fidem faceret') are handled correctly, and the doubts sections identify the genuine cruces. One major point: in ch. 14 the antecedent of 'Qui dum sedulo huius artis peritia frueretur' is taken as Alexander, and 'his/его' is added. It is more likely Nectanebo, who is absorbed in the sky when pushed, which also explains the taunt 'nescius quae te impenderent humi'. I could not read Kübler's Valerius text (HathiTrust returned 403) or the Greek 1.14. The only external support I found is a BMCR review of Nawotka's commentary, which says Nectanebus concerns himself with the sky; so please check this against Valerius and the Greek before accepting the fix. The rest are minor: 'virginal' rendered 'womb' in EN against the glossary; 'horoscope' used for both horoscopus and constellatio; 'metalli' rendered 'stone'; a lost comparative in two places in RU; 'perhaps' added in ch. 10 EN; 'драгоценности' for 'pretiosae opes'; and a tense slip in ch. 14 EN. I did not verify the philological claims in the notes about Valerius' text, Kroll's apparatus or Zacher's apparatus, since those sources were not accessible. The Plutarch parallels (Alex. 2.4–6; 3.2) match my recollection of the text.\""
+}

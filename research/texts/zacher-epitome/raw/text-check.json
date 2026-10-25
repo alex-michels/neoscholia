@@ -1,0 +1,270 @@
+{
+ "edition_notes": "Source checked: Julii Valerii epitome. Zum erstenmal herausgegeben von Julius Zacher (Halle: Buchhandlung des Waisenhauses, 1867), the Google scan of the University of Michigan copy on archive.org (juliivaleriiepi00zachgoog; 300 dpi page images, 3208x5024 px). HathiTrust and Phaidra were not needed because the print in this scan is clear. Book I runs from p. 1 to p. 38, line 4; Book II begins at p. 38, line 5. The preface on pp. III-XIV is dated Halle, 9 Sept. 1867. In it Zacher says the epitome was made before the 9th century and that its witnesses share old word-division errors: mundi alia elementa (1,6), usli ouem for vel Iovem (13,8), ille miles iusserat for ille Milesius. Erat (17,1). He corrected very little, because many faults go back to the epitomator himself or to his copy of Julius Valerius. His one example of an emendation of his own is 12,15 sed auctiorem. He also says he assembled the text and apparatus in haste so it could be printed for 1 Oct. 1867.\n\nWitnesses (sigla as printed):\n- Epitome manuscripts: H = The Hague, Kon. Bibl. 830, 9th c., 'probably Italy'. L = Leiden, Voss. lat. Q. 20, 9th c. A = Leiden, Voss. lat. Q. 29, 10th c. B = Leiden, BPL 20, 12th c., from Bec. C = Perizonius's copy (Leiden, Periz. Q. 9) of Oxford, Corpus Christi College 82, 12th c.; it stops at ch. 5 ('pressis'). D = Wolfenbuettel, Aug. 7.4.4, 12th c.; Zacher calls its scribe wildly arbitrary and notes the Epistola ad Aristotelem worked into it. E = Wolfenbuettel, Aug. 56.16.8, 10th c.; Zacher judges it the best witness.\n- Known only through other editors: Pa = Paris 8518 and Pb = Paris 8519, both only for 1,1-7, via Berger de Xivrey. R = two Vatican manuscripts used by Mai, with no shelfmarks given.\n- Vinc. Bell. = Vincent of Beauvais, Speculum historiale (Venice 1494).\n- Full Julius Valerius: Va = the destroyed Turin palimpsest, via Mai, Spicilegium Romanum VIII. Vb = Milan, Ambrosiana P 49 sup., which lacks 1,1-18. Vc = Paris lat. 4880 plus a leaf in 5873, via Berger de Xivrey.\n- Greek Pseudo-Callisthenes: A, B and C (Paris gr. 1711, 1685 and suppl. gr. 113) after Mueller; L = Leiden, Vulcanius 93, from Zacher's own transcript.\n\nChapter numbers follow Mueller's Didot edition (1846). The square-bracket numbers in the text, [nM.] and [nR.], refer to Mai's Milan edition (1817) and Rome edition (1835). The TEI leaves these out. That is legitimate, but they are useful for cross-reference.\n\nApparatus: every page has a dense footnote apparatus keyed to line numbers. It is positive and negative. It gives readings of all the sigla above, quotes the Greek A/B/C/L and Julius Valerius (Va/Vb/Vc) in full where they differ, and cites testimonia: Juretus on Symmachus (1580 and 1604 editions), Salmasius's notes on Capitolinus (1620), Gaulmin, Du Cange. It also has short German editorial remarks; these are listed under each chapter below. There are no other footnotes and no commentary.\n\nOne editorial sign appears in the Book I text: square brackets around a word Zacher treats as spurious ([clementius], 13,2). The TEI drops that word without marking it. The TEI also has just one sic/corr in the whole work (ch. 6, collacaveris), and that one is correct.\n\nMethod: I aligned the archive.org OCR of the main text word by word against book1.json, so the OCR serves as an independent reading. I checked every disagreement in wording or punctuation against the page images. I read pp. 1-2 in full on the images, along with every apparatus entry cited below as 'checked on image'. Apparatus details marked '(apparatus OCR)' were read from the OCR only and not verified on the image. Zacher's typesetting puts spaces before commas and uses „...“ quotation marks; neither affects the text. Page,line references are Zacher's page and printed line numbers, derived from the OCR line count and consistent with the printed margin numbers.",
+ "chapters": [
+  {
+   "chapter": 1,
+   "pages": "pp. 1-2 (1,1-2,11)",
+   "discrepancies": [],
+   "notes": "Read in full on the image; the transcription matches word for word and in punctuation. Apparatus: the opening page lists each manuscript's incipit/title (H Exceptio historiae Magni Alexandri; L Liber Esopi cuiusdam greci fabulatoris; B Vita Alexandri; C Iulii Valerii ... ortus vita et obitus; E Textus de ortu Magni Alexandri). At 1,1 sati genere divino, A C E read 'fati' and H 'facti'; the Greek has 'θεῶν ἀπόγονοι'. At 1,5 ore, R reads 'arte'. At 1,6 mundialia, A Pa read 'mundi' and H L 'mundi alia' (this is the word-division error cited in the preface). At 1,8 aulae penita regiaeque secreta, B D read 'penetralia' and C R 'aulae regiae secreta'. At 2,5 virgulam ex ligno hebeni there is a long note: the Greek has a ebony rod; Gaulmin and Du Cange report an 'Aesopus' version (Julius Valerius) that turned it into 'Tamarisci virgam'; Vincent of Beauvais has 'alias palmae'. Hard spots: 'quod alii armis, ille ore potuisse convincitur' is elliptical; 'laborabat pelvi naviculam submergi' means he worked to make the boat sink in the basin."
+  },
+  {
+   "chapter": 2,
+   "pages": "pp. 2-3 (2,12-3,5)",
+   "discrepancies": [
+    {
+     "transcription": "quaecumque",
+     "print": "quaecunque",
+     "matters": false
+    }
+   ],
+   "notes": "Checked on image: the print reads 'quaecunque'. The TEI has silently normalised the spelling. All the ethnic names match the print (Oxydracontas, Caucones, Agriophagos, Eunomitas). Apparatus: the manuscripts garble the names heavily, e.g. osidoracontas, canquones A, ennomitas, and 'hos desideras . contas' in L; R reads 'et quascumque orientis barbaras gentes'."
+  },
+  {
+   "chapter": 3,
+   "pages": "p. 3 (3,6-3,13)",
+   "discrepancies": [],
+   "notes": "Matches the print. Apparatus: C expands appulit Macedoniae into '... in peregrina profectus est lustratisque inusitatioribus terris appulit in Macedoniae locum cui Pella ex veteri nomen est'. The Greek (A L) is quoted. ad consuetam: 'ad consuete' in B C D E Pa R. No editorial remark."
+  },
+  {
+   "chapter": 4,
+   "pages": "pp. 3-7 (3,14-7,9)",
+   "discrepancies": [],
+   "notes": "Matches the print, including oraculi (5,1), propius sessitans, „O“, inquit, Ammoni and transmigrare; all checked on image. At 7,2 the print has a stray raised speck before 'si qua'; it is not an editorial sign. Apparatus remarks: in H a later hand wrote r over 'Ego'; in 'domina apellacionem' a second hand of H corrected the endings. Long Greek parallels from A L and B C are quoted for the pinax and stones passage and for the horoscope. Variants worth knowing: at 4,8 C gives 'quanam usus peritia es ut verus amicus sis deorum?'; at 5,8 the Jupiter stone reads aereo A E, aureo R, aerino Pb, with Greek A 'τὸν Δία αἰθέριον λίθον'; at 5,9 'dici' is omitted by R; at 6,4 transmigrare is Zacher's text against transmigrari H L A C D (apparatus OCR); Quin is from D E Pb, against Qui H L A B C. Hard or odd: 'Auro enim et ebore variatum pretium cum sui operis admiratione contenderat' (R has confuderat, H admiracionem condiderat); 'Martem dici sub lapide haematite' (the 'dici' is awkward); 'Iovem ... aereo lapide nuncupatum' (aereo answers the Greek 'αἰθέριος'); 'nam multa fama est, quia ...'; 'Ego enim ac si propheta ex Aegypto opitulabor'."
+  },
+  {
+   "chapter": 5,
+   "pages": "pp. 7-8 (7,10-8,4)",
+   "discrepancies": [],
+   "notes": "Matches the print. Apparatus remarks: at 7,12 'Hier bricht mit pressis die Perizonische Abschrift der Oxforder Hs. (C.) ab' (C ends here). At 8,2, keyed to 'Vidit enim': Mai left out R's text from 'Vidit enim' to the end of ch. 10 as a 'historia parum decens', so R does not exist for 5 (end) to 10. Hard spot: 'audierat sibi ipsum loquentem, foetam se et utero gravem genituramque filium vindicem' runs indirect speech after 'audierat ... loquentem'."
+  },
+  {
+   "chapter": 6,
+   "pages": "p. 8 (8,5-8,17)",
+   "discrepancies": [
+    {
+     "transcription": "collocaveris (TEI: sic collacaveris / corr collocaveris)",
+     "print": "colla-caveris (misprint)",
+     "matters": false
+    }
+   ],
+   "notes": "Checked on image: the print really has 'colla-|caveris'. The TEI's sic/corr is correct, and the apparatus says nothing about it, so it is a typo, not a variant. Everything else matches. Apparatus: variants only (e.g. 'lectulum parare D')."
+  },
+  {
+   "chapter": 7,
+   "pages": "pp. 8-10 (8,18-10,4)",
+   "discrepancies": [],
+   "notes": "Matches the print: reliquum (9,1), „Quidnam“, inquit and quidve nunc were checked on image. Apparatus remark at 9,18: 'Hier beginnt der vollstaendige Text des J. Valerius, in cod. Par. 5873, Vc.' Greek B C passages are quoted for the visit of the god. Hard spots: 'effecitque ex scientia reliquum corpus veluti draconem vespere adventantem ad feminam' is very compressed; 'quia opitulabitur Ammon illi vitio, quod suasit' is also difficult."
+  },
+  {
+   "chapter": 8,
+   "pages": "pp. 10-11 (10,5-11,16)",
+   "discrepancies": [],
+   "notes": "Matches the print: 'Excepisti, o mulier', 'virginal', 'scimus.' and „O Philippe“ were checked on image. At 11,3 the 'a' of virginal has a printer's speck under it. Apparatus (checked on image): at 10,5 'sacratum' is missing in H. Juretus (on Symmachus, 1580, lib. X ep. 64) quotes from a manuscript 'Aesopus' the words 'Nectanabus accipitrem secretim parat' ('secretim pro secreto'); Vc has 'secretius'. At 10,14 contegere is the reading of H L A B D E Vc, and Zacher adds 'contexere?' as a tentative conjecture of his own; the text keeps contegere. Hard or corrupt: 'Tum mulieris virginal contegere biblo ac consignare annulo ... videbatur'; then 'unde praenosti quod illa conceperit, nemo enim vas vacuum consignat; ut haec biblo, quippe cum biblus nullibi gentium ... gignatur, Aegyptium igitur semen est', which is anacoluthic; then 'Sed quoniam signaculum, quod solis forma visebatur, subter leonis caput hastili subiecto: is ipse ...', where the subordinate clause has no main verb."
+  },
+  {
+   "chapter": 9,
+   "pages": "p. 12 (12,1-12,6)",
+   "discrepancies": [],
+   "notes": "Matches the print, including '„Me quidem'. Apparatus: variants only (dei deorum pulcherrimi; 'deo deorum pulcherrimo' B; 'dei omnium deorum' D)."
+  },
+  {
+   "chapter": 10,
+   "pages": "pp. 12-13 (12,7-13,11)",
+   "discrepancies": [
+    {
+     "transcription": "At vero draco caput in sinum mulieris extendit",
+     "print": "At vero draco caput in sinum mulieris [clementius] extendit",
+     "matters": true
+    }
+   ],
+   "notes": "Checked on image (13,2). The print keeps 'clementius' in square brackets, and the apparatus reads 'clementius B. dementius H. fehlt LADEVc.' Zacher uses square brackets inside the text to mark a word as spurious; he does the same in his Vc quotation ('[sinum]', '[eam]'). So the TEI's omission follows his intention, but it is unmarked; the bracketed word should be mentioned in a scholion. It is probably a gloss anticipating 'mansuetius'. Second point: 'sed auctiorem' (12,15) is Zacher's own emendation, the example he gives in the preface. The manuscripts read 'seductiorem' (B E, L), 'seductorem' (H A) and 'ductiorem' (D); Vc has 'quidem seductiorem aliquantulum'; the Greek has 'πολὺ μείζονα' (checked on image). Third: 'vel Iovem' (13,8) is printed where H has 'usli ouem' (preface). Further apparatus: a long Vc text of the dragon scene, fuller than the epitome; 13,9-11 'Ad haec - universae' is missing in Vc; Zacher notes 'Dieser Satz ist in A ganz ausgefallen' for the Greek. Hard spots: 'nec tamen ipso frontem in laetitiam explicaret' ('ipso' for 'ipse'?); 'specie spectabilis'; 'licet quis is est, nesciam'."
+  },
+  {
+   "chapter": 11,
+   "pages": "p. 14 (14,1-14,19)",
+   "discrepancies": [],
+   "notes": "Matches the print. Apparatus: variants only (Antifontem L A; 'coniector somniorum' R). Hard spot: the last sentence, 'Ex quo cum draco erupisse videatur, post omnem ... circuisse, atque ingredi ... cupivisse, mortuusque est priusquam id proveniret, cuncta haec ... portendisse liquet', breaks its construction (finite 'mortuusque est' inside the cum-clause)."
+  },
+  {
+   "chapter": 12,
+   "pages": "pp. 14-15 (14,20-15,15)",
+   "discrepancies": [],
+   "notes": "Matches the print. Apparatus: 14,21-15,11 is missing in Vc. The last words, 'hac partitudine curam elaboratam', vary in the manuscripts ('cura elaborata esset' D; Vc 'cura cum illa partitudine laborantem'); the Greek has 'σύμπαντα κόσμον συγκινηθῆναι'. Hard spots: 'si nunc editu victa sis' (rare ablative 'editu'); 'gallus et semivir' (gallus = eunuch priest); 'uti viseres, omni mundo hac partitudine curam elaboratam' (accusative with an infinitive left out)."
+  },
+  {
+   "chapter": 13,
+   "pages": "pp. 15-18 (15,16-18,3)",
+   "discrepancies": [],
+   "notes": "Matches the print: 'consilium, o mulier', 'quoniam id', 'sed cum videam' and 'praedicantur' were checked on image. Apparatus:\n- 16,4 'votis educationis': 'votis' comes from Vc only and is missing in H L A B D E (checked on image).\n- 17,1 'Aristoteles ille Milesius': H has 'ille miles iusserat' (preface). The Greek A also calls him Μιλήσιος, so the factual error predates the epitome.\n- 17,7: 'Hier beginnt das erste von Mai mitgeteilte Stueck aus dem Turiner Palimpsesten (Va)'. Printed 'et si equi' is R's reading (H L A B E 'et si qui'); Va has 'equi fuisse Laomedontis eiusmodi praedicantur'. Zacher notes 'Diese ganze Phrase fehlt in den griechischen Texten'.\n- At 17,8 he cites the glossaries on Vc's 'equisius' (Gloss. Cyrill./Philox. 'equisio').\n- At the 'beluile vitium' phrase he notes again 'Diese Phrase fehlt in den griechischen Texten'.\n- At 18,2 Salmasius (notes on Capitolinus, Hist. Aug. Scriptores, Paris 1620, p. 96) quotes this whole passage from an 'incertus auctor in Magni Alexandri vita, qui sub Constantio vixit'.\n- 'alere' is in H L A B D E Vc; Va has 'ali'.\n(apparatus OCR, except 'votis')\nHard or corrupt:\n- 'formatum pedibus ad Pegasi fabulam et si equi fuisse Laomedonti eiusmodi praedicantur' is barely construable.\n- 'et sibi quisque ludus imperiale quiddam erat meditamentum'.\n- 'claudi eum atque alere curabitis' mixes passive and active."
+  },
+  {
+   "chapter": 14,
+   "pages": "pp. 18-20 (18,4-20,10)",
+   "discrepancies": [],
+   "notes": "Matches the print, including 'Qui dum assidenti', 'huiusce facti' and 'matrem' (20,7; the type is smudged but reads matrem). Apparatus, with several of Zacher's choices made against all the epitome manuscripts (checked on image):\n- 19,1 'progressus' is from Va; the epitome manuscripts H L A B D E R have 'progressi' and Vc 'progressis'.\n- 19,4 'ad praecisum fossae' is R's reading; L A D E Vc have 'praescitum'.\n- 20,9 'vanis artibus' is cited only from Va. The epitome manuscripts read 'annis' (H A B E), 'quotannis' (L) and 'annos' (R); D has 'quod magicis artibus'. The same entry also gives 'tot annis Va.', so the siglum is printed twice and one is probably a misprint, perhaps for Vc. I cannot resolve this.\nHard spots:\n- 'Tempus exigit. Vesperam pollicetur.' (very terse).\n- 'illicce' (archaic form of illic).\n- 'animam exaestuat'.\n- 'Atque hoc mulier nimium admirata indicavit, quod vanis artibus lusa probri rem fecisset.'"
+  },
+  {
+   "chapter": 15,
+   "pages": "p. 20 (20,11-20,16)",
+   "discrepancies": [],
+   "notes": "Matches the print. Apparatus: variants only (Bucephalum D Va; 'successorem' R Va)."
+  },
+  {
+   "chapter": 17,
+   "pages": "p. 21 (21,1-21,15)",
+   "discrepancies": [],
+   "notes": "Matches the print ('meas', 'quo' checked). There is no ch. 16; the numbering follows Mueller. Apparatus (checked on image): at 21,8 'evocatis' is the reading of L A B D E R; Va and Vc have 'evitatis', H 'avocatis'; Greek 'παραγκωνισάμενος τοὺς φύλακας'. Zacher adds 'eviatis?' as a tentative conjecture; the text keeps 'evocatis'."
+  },
+  {
+   "chapter": 18,
+   "pages": "pp. 21-23 (21,16-23,2)",
+   "discrepancies": [
+    {
+     "transcription": "Nam: „Ave, inquit, „o puer!“",
+     "print": "Nam: „Ave,“ inquit, „o puer!“",
+     "matters": false
+    }
+   ],
+   "notes": "The transcription is missing the closing quotation mark after 'Ave,'; this is the only unbalanced quote in Book I. Words otherwise match: 'rex Acernanum' was checked, and so was 'tempestate'; the apparent dot after it at 22,2 is a stray speck below the baseline, not punctuation. Apparatus remark at 22,1 (checked on image): 'Hier beginnt die Mailaender Hs. (Vb) des Julius Valerius, und hier endet auch das erste von Mai aus dem Turiner Palimpsesten (Va) mitgetheilte Stueck. Einzelne Varianten aus dem Turiner Palimpsesten hat Mai seiner Ausgabe von 1835 beigefuegt (zu 1,18-29 und zu 2,21).' Also: 'ascensa' (in H, B, E and one more manuscript), 'excensa' L Vb, 'escensa' Mai, Mueller; Vincent of Beauvais has 'Nicholaus rex arridorum (alias acernana)'. Hard spot: 'ista vana imperii iactatio de secundis crastinis fluctuans'."
+  },
+  {
+   "chapter": 19,
+   "pages": "p. 23 (23,3-23,6)",
+   "discrepancies": [],
+   "notes": "Matches the print. Apparatus: variants only."
+  },
+  {
+   "chapter": 20,
+   "pages": "p. 23 (23,7-23,14)",
+   "discrepancies": [],
+   "notes": "Matches the print. Apparatus (OCR): printed 'consortio' is cited from Va, against 'consilio' H L B D E and 'connubio' A Vb. Hard spot: 'vos quoque participabo convivio'."
+  },
+  {
+   "chapter": 21,
+   "pages": "pp. 23-24 (23,15-24,5)",
+   "discrepancies": [],
+   "notes": "Matches the print. Apparatus (checked on image): 'pergit] ergo HLABDE. fehlt Vinc. Bell.' So 'pergit' is Zacher's own reading against every epitome manuscript; he does not say where it comes from, and it is probably adapted from Julius Valerius. A long Vab text of Lysias's jibe is quoted. Hard spot: 'omnes, qui sese veluti comprehendendum inruerant, dissicit' (H D read 'ad comprehendendum')."
+  },
+  {
+   "chapter": 22,
+   "pages": "pp. 24-25 (24,6-25,10)",
+   "discrepancies": [],
+   "notes": "Matches the print. Apparatus (checked on image): 'recurationis] cum .... iam bonam spem curationis (curationi Muell.) promitteret Vbc. recuperationis HLABDE Vinc. Bell.' The printed 'recurationis' has no witness cited, so it is either Zacher's silent conjecture or a misprint for 'recuperationis'; the sense ('recovery') is the same. 'Habeo' is the reading of L A B E Vb; Mai and Mueller have 'Aveo'. 'averterit' is printed against 'averteris' A D and 'avertit' E Vbc. Hard spots: 'Habeo enim scire, vindex et ultor in matrem, si culpa meruit quod evenerat'; 'age tamen morem conscientiae tuae'; 'post iram integrationem coniugalis affectus'."
+  },
+  {
+   "chapter": 23,
+   "pages": "pp. 25-26 (25,11-26,9)",
+   "discrepancies": [],
+   "notes": "Matches the print ('vacillaret,' checked). Apparatus: Mai's note is quoted: 'Codex Iulii Valerii hic Mathana, et mox bis Mothana. Graecus codex Μοθώνη, latinus item Mothona.' Hard spots: 'cum multitudine hostili' (meaning an army); 'petendi morem et titulum'."
+  },
+  {
+   "chapter": 24,
+   "pages": "pp. 26-27 (26,10-27,11)",
+   "discrepancies": [],
+   "notes": "Checked on image: the print really reads 'diuitiis' with u, although Zacher prints v elsewhere; the transcription correctly reproduces it. Apparatus (checked on image): 'diuitiis D V[b?]. dilitiis L. deliciis HABE'. So Zacher follows D and Julius Valerius against H A B E's 'deliciis' (which would mean 'luxuries'). For 'adtemptaret et mulier consentiret' the apparatus gives Mai's differing readings."
+  },
+  {
+   "chapter": 25,
+   "pages": "p. 27 (27,12-27,19)",
+   "discrepancies": [],
+   "notes": "Matches the print. Hard spots: 'ascendens eius statuam'; 'qui nos pridem re, nunc autem cupiunt spoliare etiam et libertate' (zeugma: 're' = property)."
+  },
+  {
+   "chapter": 26,
+   "pages": "pp. 27-28 (27,20-28,4)",
+   "discrepancies": [],
+   "notes": "Matches the print, including 'numero, admodum septuaginta ... quatuor' (checked on image). The manuscripts give all the numbers as Roman numerals (xv, .VIII. mil., .II. DCC., DCCC, LXX DC IIII); Zacher writes them out in words. His apparatus quotes Mai: 'In Taur. desunt quinquaginta' (apparatus OCR)."
+  },
+  {
+   "chapter": 29,
+   "pages": "p. 28 (28,5-28,15)",
+   "discrepancies": [],
+   "notes": "Matches the print ('perpetuo post futurae', 'et verbis liberalibus ... quadraginta' checked). There are no chapters 27-28; the numbering follows Mueller. Apparatus (OCR):\n- 'Lucaniae' H L A B D E Vb; Va 'Lignonam', interpreted as 'Liguriae'.\n- 'ad Massiliam' Va, for 'ad Siciliam'.\n- 'exinque' A; 'Exinde' B.\n- The talents: 'xl.' D; 'argenti talenta cccc' Vb.\nZacher's own note cites Memnon in Photius (cod. 224, c. 25, ed. Orelli 1816, p. 36) on the gold crown the Romans sent to Alexander. He adds that Pseudo-Callisthenes 1,30 and Julius Valerius give Alexander the phrase 'aut meliores esse ... aut melioribus obsequentes' against the Carthaginians, and that it recurs against the Athenians at 2,1. Hard spot: 'Lycaoniam, cui nunc recens aetas Lucaniae nomen dedit' is a historical confusion in the epitome itself, not a corruption of the text."
+  },
+  {
+   "chapter": 30,
+   "pages": "p. 29 (29,1-29,2)",
+   "discrepancies": [],
+   "notes": "Matches the print. Chapters 31-33 are absent, following Mueller's numbering."
+  },
+  {
+   "chapter": 34,
+   "pages": "p. 29 (29,3-29,12)",
+   "discrepancies": [],
+   "notes": "Matches the print. Apparatus (checked on image): 'Sesonchosin] se sorti sui Vb.' The name stands in the epitome manuscripts, while the Milan Julius Valerius is corrupt here. For D, Zacher notes a correction of 'perhibet' ('corrigiert aus perhibet, oder umgekehrt'). Hard spot: 'locum casuum declinavit'."
+  },
+  {
+   "chapter": 35,
+   "pages": "pp. 29-30 (29,13-30,9)",
+   "discrepancies": [],
+   "notes": "Matches the print ('denegant.' checked). Apparatus: L has rubric headings ('SCRIPTUM ALEXANDRI AD TYRIOS', 'QUID AD HAEC TYRII FECERINT'). Hard spot: 'per quascunque sibi transitus fuerat civitates nomini suo addidit'."
+  },
+  {
+   "chapter": 36,
+   "pages": "pp. 30-31 (30,10-31,8)",
+   "discrepancies": [
+    {
+     "transcription": "pila vero, quod eius lusitatio tunc congruat aetatulae",
+     "print": "pila vero, quod eius lusitatio tuae congruat aetatulae",
+     "matters": true
+    }
+   ],
+   "notes": "Checked on image (30,16-17): the print clearly reads 'tuae con-|gruat'. The transcription's 'tunc' is an error and changes the sense: the ball 'suits your tender age', not 'then suits'. Everything else matches ('exercituum' checked). Hard spot: 'non haec opera, quam ritu latronum tibi consimilium aggressus es'."
+  },
+  {
+   "chapter": 37,
+   "pages": "p. 31 (31,9-31,21)",
+   "discrepancies": [],
+   "notes": "Matches the print. Apparatus: variants only."
+  },
+  {
+   "chapter": 38,
+   "pages": "pp. 31-32 (31,22-32,14)",
+   "discrepancies": [
+    {
+     "transcription": "de quibus, quam vis tu uti visum est dictitares",
+     "print": "de quibus, quamvis tu uti visum est dictitares",
+     "matters": true
+    }
+   ],
+   "notes": "Checked on image (32,9): the print has one word, 'quamvis'; the TEI split could mislead a translator. 'repromittit.' was checked. Apparatus (OCR):\n- 'totque viribus ... consitum' is the reading of H L A B E and Vincent of Beauvais; Vb has 'hisce viribus consitum'; Mueller emended to 'confisum'; Greek 'ἐπαιρόμενον'.\n- Juretus (on Symmachus, ed. Paris 1604) quotes from a manuscript Aesopus 'Sub ditione contemptibilium, ut retur, homullorum deventurum'.\n- E has 'dicto iactares, am Rande: al. dictitares'.\nHard spots: 'consitum'; 'An non ut his cognitis, auri si nobis fervor aut desiderium inest, obstinatius ... dimicaremus'; 'qua habeam uti in subiectos tibi' (ambiguous)."
+  },
+  {
+   "chapter": 39,
+   "pages": "pp. 32-33 (32,15-33,9)",
+   "discrepancies": [],
+   "notes": "Matches the print. Apparatus (OCR): Vb's fuller text is 'Igitur oportere satrapas quidem classem eius una cum navitis alto submergere' and, for the satraps' reply, 'Miramur satis, latuisse te, rex, tantae multitudinis impetum supervenire nostratibus'. The epitome has garbled both. As printed, 'placet nobis ... satrapas quidem et classem eius ... ponto submergere' can be read as if the satraps themselves were to be drowned. 'atque e multitudinis impetu tanta nostratibus supervenisse' is barely construable. Both need a note in translation."
+  },
+  {
+   "chapter": 40,
+   "pages": "p. 33 (33,10-33,19)",
+   "discrepancies": [],
+   "notes": "Matches the print ('unum', 'maiestas' checked). Apparatus: variants only. Hard spots: 'quo nos participat supera maiestas'; 'Iovem cunctosque parentes meos iuro'."
+  },
+  {
+   "chapter": 41,
+   "pages": "pp. 33-34 (33,20-34,19)",
+   "discrepancies": [],
+   "notes": "Matches the print ('torqueri' checked). Apparatus: in H a second hand corrected 'aragia' to 'arabia'. Vb has 'tumque in transvehentes peditum suorum iacula torqueri'. 'procidente' is Vincent of Beauvais's and Mueller's reading for 'procedente'. Hard spot: 'incurrentibus curribus per acies locum transitui pandi praeiudicavit'."
+  },
+  {
+   "chapter": 42,
+   "pages": "pp. 34-35 (34,21-35,10)",
+   "discrepancies": [],
+   "notes": "Matches the print. Apparatus (OCR): 'ad Scamandrum ducem suarum partium, quique curabat tunc Macedoniam' Vb; 'ad Cassandrum' Mai, Mueller; Greek L B C 'Σκαμάνδρῳ τῷ στρατηγῷ'. Zacher notes that a leaf is torn out of A at this point ('in A ist hier ein Blatt ausgerissen'). Of 'ipse ... Achaia peragrata' he says 'Fehlt im griechischen Texte'. Hard spot: 'hasta defixa, dixisse fertur, ut, si quis ... humo evelleret, excidium patriae suae suorumque meminisset'."
+  },
+  {
+   "chapter": 46,
+   "pages": "pp. 35-36 (35,11-36,16)",
+   "discrepancies": [],
+   "notes": "Matches the print. Chapters 43-45 are absent, following Mueller's numbering. Apparatus (OCR): 'eamque alle, auch Vb; easque Mai, Muell.'; 'Boni von zweiter Hand corrigiert in bene L'. Hard spots: 'qui, cum ipsi custodiam murorum vallo teneatis, nobis praecepta bellandi praebetis'; 'uni forte subiit consilium, uti aptaret tibias'."
+  },
+  {
+   "chapter": 47,
+   "pages": "pp. 36-38 (36,17-38,4)",
+   "discrepancies": [],
+   "notes": "Matches the print, including the two verse lines of the oracle (37,1-2: 'Maiugena, Alcides, et Pollux cestibus auctor / Arte sua Thebis reditum cultumque dedere.') and 'quemve', 'intellegens' and 'esse'. Apparatus remark (OCR): 'Dies Kapitel ist in der Muellerschen Ausgabe wiederum als sechsundvierzigstes bezeichnet'. D paraphrases the oracle as 'Alcides Pollux Mercurius cestibus auctor'. Hard spots: 'iubet Alexander eundem cetera prius exsequi' ('prius' is odd). The three gods at the end do not match the oracle's attributions: here Hercules invents boxing, Mercury wrestling and Pollux the cestus. This mismatch is in the text itself, not a transcription problem."
+  }
+ ],
+ "checked_against_images": true
+}

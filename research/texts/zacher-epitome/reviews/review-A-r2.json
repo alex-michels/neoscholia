@@ -1,0 +1,165 @@
+{
+ "summary": "Adversarial review of the draft of Zacher Epitome I 1–14 (language + notes). Verified the margin notes against the OCR of Kübler 1888 (archive.org: iulivalerialexan00vale), Zacher 1867 (juliivaleriiepi00zachgoog) and the Greek A text with apparatus and commentary in Stoneman–Gargiulo, Il Romanzo di Alessandro I (2007, archive.org). Kroll 1926 itself and the Armenian (Wolohojian) were not accessible online; claims resting only on them (ch. 7 'как и в армянской версии'; Kroll's view of Phoenices/Parthi/Assyrii as Latin additions) could not be checked but are consistent with Stoneman–Gargiulo's apparatus. The great majority of the notes are accurate: the Kübler page references, the Valerius quotations (Iuvenem esse; patris adfectum; Praecursor tibi dei mox aderit; purgatione sacricula; nostra tellure; regiae parte; dei adminiculo inspiratus; sobrius; divino commercio; glauca atque coeli similis; Favorinus; Nam et nox erat; iudicavit; tot annis om. T, vanis om. P), the Zacher apparatus readings ([clementius] B, dementius H; sed auctiorem for seductiorem; Quin DEPb vs Qui HLABC; votis Vc only; praecisum R vs praescitum; progressus Va vs progressi; vanis Va = Turin palimpsest; usli ouem; ille miles iusserat) and the Greek α details (bronze basin, rainwater, 'angels and the god of Libya Ammon', λεκανομαντεία, Pelusium, πρὸς τὸ ἀλλομορφῆσαι, oracle of the young king, μεσῆλιξ, papyrus 'only in Egypt', garden with learned books, Cappadocian rulers, proverb 'near the good grows the evil', Aristotle Μιλήσιος, Kronos castration, Egyptian buried in Macedonia). Plutarch citations 2.4–5 / 2.6 / 3.2 follow Ziegler's section division and are correct. Two major note errors: (1) ch. 13: the Pegasus and Laomedon comparisons are not Latin additions — Zacher's 'ganze phrase fehlt in den griechischen texten ALBC' concerns only the Laomedon clause, β (LBC) has κάλλει διαφέροντα τοῦ Πηγάσου, and the Armenian has both comparisons, so they go back to the Greek source; only 'vitium beluile' lacks a Greek counterpart. (2) ch. 6: 'as the father of the child' is in the α text itself (A 1.6 καυχήσομαι δέ σε ὡς καὶ πατέρα τοῦ παιδός), not a β reading. Minor note issues: L is a β manuscript, not α (ch. 2); the informant in α 1.2 is a scout (κατάσκοπος), only secondarily στρατάρχης; 'nocte quadam' is transposed from Valerius' 'Nam et nox erat', not added (ch. 14); the ch. 6 note on 'deus ipse' should mention Valerius' preceding 'Aderit tamen ipse etiam ad te deus' and α's 'the god comes first as a serpent'; '[clementius]' is Valerian wording from 1,6 rather than a gloss on mansuetius (ch. 10). Translation: no critical or major mistranslations found; the RU and EN read well and follow the glossary. Minor fixes: EN 'cheered out of his amazement' (ch. 10, causal ex admiratione), EN tense clash and 'gave herself to the bed' (ch. 7), EN 'from the enemy' for ex hoste (ch. 4), RU tense mix 'зовёт ... рассказала' (ch. 6), glossary consistency 'горный хрусталь' (ch. 4) and the quotation marks on Аристотель «Милетский» / Aristotle 'of Miletus' (ch. 13).",
+ "issues": [
+  {
+   "chapter": 13,
+   "lang": "ru",
+   "severity": "major",
+   "category": "note-fact",
+   "quote": "а сравнения с Пегасом и конями Лаомедонта и «звериный порок» — латинские добавления (Цахер: «эта фраза отсутствует в греческих текстах»)",
+   "latin": "formatum pedibus ad Pegasi fabulam et si equi fuisse Laomedonti eiusmodi praedicantur",
+   "problem": "Not Latin additions. Zacher's remark (p. 17 app.: 'Diese ganze phrase fehlt in den griechischen texten ALBC') refers only to the Laomedon clause 'et si equi fuisse Laomedonti eiusmodi praedicantur'; in the same apparatus he quotes the β manuscripts L B C: κάλλει διαφέροντα τοῦ Πηγάσου, so the Pegasus comparison is Greek. The Armenian version has both Pegasus and Laomedon's mares (Stoneman–Gargiulo 2007, comm. ad 1.13, 29–30: 'B raffronta Pegaso, la versione armena e Giulio Valerio sia Pegaso sia le cavalle di Laomedonte'), and the Armenian is independent of Valerius, so both comparisons go back to the Greek source and are merely lost in A. Only the phrasing 'vitium beluile' has no Greek counterpart (α simply has ἀνθρωποφάγον); Zacher notes that separately.",
+   "fix": "У Валерия коня приводят конюхи самого Филиппа. Сравнений с Пегасом и конями Лаомедонта в A нет, но Пегас есть в β (L B C: κάλλει διαφέροντα τοῦ Πηγάσου), а Пегас и кобылицы Лаомедонта — в армянской версии, так что оба сравнения восходят к греческому источнику; замечание Цахера «вся эта фраза отсутствует в греческих текстах ALBC» касается лишь придаточного о конях Лаомедонта. Греческого соответствия не имеет только формулировка «звериный порок» (vitium beluile): в α конь просто «людоед» (ἀνθρωποφάγον)."
+  },
+  {
+   "chapter": 13,
+   "lang": "en",
+   "severity": "major",
+   "category": "note-fact",
+   "quote": "and the comparisons with Pegasus and Laomedon’s horses and the ‘beastly vice’ are Latin additions (Zacher: ‘this phrase is absent from the Greek texts’)",
+   "latin": "formatum pedibus ad Pegasi fabulam et si equi fuisse Laomedonti eiusmodi praedicantur",
+   "problem": "Same error as in the Russian note: the Pegasus comparison is in Greek β (Zacher 1867, p. 17 app. quotes LBC κάλλει διαφέροντα τοῦ Πηγάσου) and the Armenian has both Pegasus and Laomedon's mares, so they derive from the Greek source; Zacher's 'ganze phrase fehlt in den griechischen texten ALBC' concerns only the Laomedon clause. Only 'vitium beluile' is without a Greek counterpart.",
+   "fix": "In Valerius the horse is brought by Philip’s own grooms. The comparisons with Pegasus and Laomedon’s horses are missing in A, but β (L B C) has Pegasus (κάλλει διαφέροντα τοῦ Πηγάσου) and the Armenian version has both Pegasus and Laomedon’s mares, so both go back to the Greek source; Zacher’s remark that ‘this whole phrase is absent from the Greek texts ALBC’ concerns only the clause about Laomedon’s horses. Only the wording ‘beastly vice’ (vitium beluile) has no Greek counterpart: in α the horse is simply ‘man-eating’ (ἀνθρωποφάγον)."
+  },
+  {
+   "chapter": 6,
+   "lang": "ru",
+   "severity": "major",
+   "category": "note-fact",
+   "quote": "в β, по аппарату Кролля, — «как к отцу ребёнка»",
+   "latin": "inque te patris adfectum fore mihi iam spes promittit (Iul. Val. 1,6)",
+   "problem": "The phrase belongs to the α text itself, not only to β: A 1.6 reads καυχήσομαι δέ σε ὡς καὶ πατέρα τοῦ παιδὸς τυγχάνοντα ('I shall boast of you as being also the father of the child'); β differs only in the verb (χρήσομαι Bγ, σχήσομαι L) — Stoneman–Gargiulo 2007, text and comm. ad 1.6, 20–21. Attributing the idea to β alone misrepresents the Greek tradition.",
+   "fix": "«patris adfectum»; уже в греческом α 1.6 Олимпиада обещает «хвалиться тобой как отцом ребёнка» (καυχήσομαι δέ σε ὡς καὶ πατέρα τοῦ παιδός), в β — χρήσομαι, «обращаться с тобой как с отцом ребёнка»"
+  },
+  {
+   "chapter": 6,
+   "lang": "en",
+   "severity": "major",
+   "category": "note-fact",
+   "quote": "in β, according to Kroll’s apparatus, ‘as the father of the child’",
+   "latin": "inque te patris adfectum fore mihi iam spes promittit (Iul. Val. 1,6)",
+   "problem": "Same as the Russian note: A 1.6 itself has καυχήσομαι δέ σε ὡς καὶ πατέρα τοῦ παιδὸς τυγχάνοντα; β only varies the verb (χρήσομαι / σχήσομαι).",
+   "fix": "‘patris adfectum’; already in the Greek α 1.6 Olympias promises to ‘boast of you as the father of the child’ (καυχήσομαι δέ σε ὡς καὶ πατέρα τοῦ παιδός); β has χρήσομαι, ‘treat you as the father of the child’"
+  },
+  {
+   "chapter": 2,
+   "lang": "note",
+   "severity": "minor",
+   "category": "note-fact",
+   "quote": "рукописи A и L греческого α дают ζαλβοί",
+   "latin": "Alanos",
+   "problem": "L (Leidensis Vulc. 93) is the principal manuscript of recension β, not of α; Kroll (and Stoneman–Gargiulo: 'ζαλβοί AL') cite it alongside A as a control witness. Calling it a manuscript 'of the Greek α' is wrong; the same slip is in the English ('manuscripts A and L of the Greek α').",
+   "fix": "RU: «рукопись A (α) и лейденская рукопись L (β) дают ζαλβοί». EN: ‘manuscript A (α) and the β manuscript L have ζαλβοί’."
+  },
+  {
+   "chapter": 2,
+   "lang": "note",
+   "severity": "minor",
+   "category": "note-fact",
+   "quote": "В греческом α 1.2 о нашествии докладывает военачальник",
+   "latin": "nuntiatum est ei",
+   "problem": "In α 1.2 the informant is introduced as one of 'those whom the Romans call exploratores and the Greeks κατάσκοποι', i.e. a scout; only afterwards is he called στρατάρχης (τοῦ στρατάρχου). 'Военачальник' / 'commander' suppresses the explicitly Roman military colouring of the passage, which is of interest for dating.",
+   "fix": "RU: «В греческом α 1.2 о нашествии докладывает лазутчик (κατάσκοπος — „которого римляне называют эксплоратором“; далее он назван στρατάρχης)». EN: ‘In the Greek α 1.2 the invasion is reported by a scout (κατάσκοπος, “whom the Romans call explorator”; he is then called στρατάρχης)’."
+  },
+  {
+   "chapter": 14,
+   "lang": "note",
+   "severity": "minor",
+   "category": "note-fact",
+   "quote": "Добавлены «однажды ночью» и насмешка «теперь, лёжа навзничь».",
+   "latin": "nocte quadam ... nunc resupinus iacens",
+   "problem": "'nocte quadam' is not an addition: Valerius mentions the night a few lines later, in the burial scene ('Nam et nox erat et secreta, quo venerant', Kübler p. 16); the epitomator moved the detail forward. 'nunc resupinus iacens' is indeed an epitome addition (Kübler p. 15 app.: 'nunc resupinus iacens rimare, Epit.'). The English note has the same imprecision ('Added are ‘one night’ ...').",
+   "fix": "RU: «Слова «однажды ночью» перенесены сюда из более поздней фразы Валерия («Nam et nox erat et secreta, quo venerant»); насмешка «теперь, лёжа навзничь» — добавление эпитомы (Кюблер в аппарате: «nunc resupinus iacens rimare Epit.»).» EN: ‘The words “one night” are brought forward from a later sentence of Valerius (“Nam et nox erat et secreta, quo venerant”); the taunt “now, lying on your back” is an addition of the epitome (Kübler’s apparatus: “nunc resupinus iacens rimare Epit.”).’"
+  },
+  {
+   "chapter": 6,
+   "lang": "note",
+   "severity": "minor",
+   "category": "note-fact",
+   "quote": "это может быть и порча «dei mox», и переосмысление.",
+   "latin": "Praecursor tibi deus ipse aderit",
+   "problem": "The note omits two relevant facts: (a) in Valerius the sentence immediately before reads 'Aderit tamen ipse etiam ad te deus' (Kübler p. 5), so the epitome's 'deus ipse' may be a conflation of the two sentences; (b) in the Greek α 1.6 the god himself 'comes to you first as a serpent' (ὁ γὰρ θεὸς οὗτος ἐρχόμενος πρὸς σὲ γίνεται πρῶτον δράκων), so the epitome's wording is in fact closer to the Greek than Valerius' 'praecursor dei'. Same in the English note.",
+   "fix": "RU: «это может быть и порча «dei mox», и стяжение с предыдущей фразой Валерия («Aderit tamen ipse etiam ad te deus»); заметим, что в греческом α 1.6 сам бог «приходит к тебе сначала в виде змея» (γίνεται πρῶτον δράκων), так что чтение эпитомы ближе к греческому.» EN: ‘this may be a corruption of “dei mox” or a conflation with Valerius’ preceding sentence (“Aderit tamen ipse etiam ad te deus”); note that in the Greek α 1.6 the god himself “comes to you first as a serpent” (γίνεται πρῶτον δράκων), so the epitome’s wording is actually closer to the Greek.’"
+  },
+  {
+   "chapter": 10,
+   "lang": "note",
+   "severity": "minor",
+   "category": "note-fact",
+   "quote": "вероятно, это глосса, предвосхищающая «mansuetius», и мы переводим без него.",
+   "latin": "draco caput in sinum mulieris [clementius] extendit",
+   "problem": "The word is Valerian: in Iul. Val. 1,6 Nectanebo says 'superveniet draco clementius reptabundus' (Kübler p. 5). An intrusion from that passage (or from a fuller exemplar) is a likelier explanation than a gloss anticipating 'mansuetius'; the note should at least record the parallel. Same in the English note.",
+   "fix": "RU: «слово есть у Валерия в 1,6 («draco clementius reptabundus», Кюблер, с. 5), откуда оно, вероятно, и попало сюда; мы переводим без него.» EN: ‘the word occurs in Valerius 1,6 (“draco clementius reptabundus”, Kübler p. 5), from where it probably intruded here; we translate without it.’"
+  },
+  {
+   "chapter": 10,
+   "lang": "en",
+   "severity": "minor",
+   "category": "mistranslation",
+   "quote": "Then Philip, cheered out of his amazement, said:",
+   "latin": "Tunc ex admiratione Philippus exhilaratus",
+   "problem": "'ex admiratione' is causal (gladdened as a result of his wonder), as the Russian «развеселившись от изумления» correctly has it; 'cheered out of his amazement' means the amazement was dispelled.",
+   "fix": "Then Philip, gladdened by his amazement, said:"
+  },
+  {
+   "chapter": 7,
+   "lang": "en",
+   "severity": "minor",
+   "category": "fluency",
+   "quote": "He laid aside the sceptre, climbed onto the bed and consummates the marriage.",
+   "latin": "At ille sceptro deposito conscensoque lecto nuptias agit.",
+   "problem": "Tense clash within one sentence (laid ... climbed ... consummates); the Latin participles depend on the historic present.",
+   "fix": "He lays aside the sceptre, climbs onto the bed and consummates the marriage."
+  },
+  {
+   "chapter": 7,
+   "lang": "en",
+   "severity": "minor",
+   "category": "fluency",
+   "quote": "and at once gave herself to the bed",
+   "latin": "deditque sese mox lectulo",
+   "problem": "Unidiomatic calque; in English 'gave herself to the bed' suggests sexual surrender, which anticipates the following clause wrongly.",
+   "fix": "and at once took to the bed"
+  },
+  {
+   "chapter": 4,
+   "lang": "en",
+   "severity": "minor",
+   "category": "mistranslation",
+   "quote": "when he comes back from the enemy",
+   "latin": "si ex hoste rediens adfuerit",
+   "problem": "'ex hoste' (Valerius: 'ex hostico', from enemy territory) means 'from the campaign'; 'from the enemy' reads as if Philip were a captive. The Russian «вернувшись с войны» is right.",
+   "fix": "when he comes back from the war"
+  },
+  {
+   "chapter": 6,
+   "lang": "ru",
+   "severity": "minor",
+   "category": "fluency",
+   "quote": "зовёт этого человека к себе и рассказала ему видение сна",
+   "latin": "hominem ad se vocat, eique somnii retulit visionem",
+   "problem": "Mixed tenses in one coordinated clause (praesens historicum + perfect) read as a slip in Russian, even though they mirror vocat ... retulit.",
+   "fix": "зовёт этого человека к себе и рассказывает ему видение сна"
+  },
+  {
+   "chapter": 4,
+   "lang": "ru",
+   "severity": "minor",
+   "category": "names-terms",
+   "quote": "Солнце — хрусталём",
+   "latin": "Solem cristallo",
+   "problem": "Glossary gives cristallus = «горный хрусталь» (EN has 'rock crystal'); plain «хрусталь» suggests glassware.",
+   "fix": "Солнце — горным хрусталём"
+  },
+  {
+   "chapter": 13,
+   "lang": "both",
+   "severity": "minor",
+   "category": "names-terms",
+   "quote": "тот самый Аристотель Милетский",
+   "latin": "Aristoteles ille Milesius",
+   "problem": "Glossary form is «Аристотель „Милетский“» / Aristotle ‘of Miletus’ with quotation marks flagging the false ethnic; the translation drops them in both languages (EN: 'the famous Aristotle of Miletus').",
+   "fix": "RU: «тот самый Аристотель „Милетский“». EN: ‘the famous Aristotle “of Miletus”’."
+  }
+ ]
+}

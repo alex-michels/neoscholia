@@ -16,6 +16,7 @@ You are an independent reviewer for **Neoscholia**, a non-commercial open librar
 | `research/texts/zacher-epitome/source/epitome.tei.xml` | The full TEI transcription of Zacher 1867 (CC0). |
 | `research/texts/zacher-epitome/glossary.json` | Agreed Russian and English forms of names and terms. |
 | `research/texts/zacher-epitome/context.json` | Parallels with Julius Valerius and Ps.-Callisthenes α, notes on the text, bibliography. |
+| `research/texts/zacher-epitome/arbitration-log.md` | How each issue of the earlier reviews was decided. One identification was rejected (ch. 14, the subject of ‘Qui dum…’); give your own view on it. |
 | `research/texts/zacher-epitome/reviews/` | Earlier model reviews (Claude), for reference only. Do not simply repeat them; if you agree with an issue that is still present, you may report it again. |
 
 **Do not edit any of these files.** Write only your output files (see the end).
