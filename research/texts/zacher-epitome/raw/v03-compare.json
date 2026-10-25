@@ -1,0 +1,1139 @@
+[
+ {
+  "overview": "I compared chapters 19–26, 29, 30 and 34–36, sentence by sentence against the Latin, separately for RU and EN. Astra's Latin input (independent/latin-book1.json) matches our corrected text exactly in all 13 chapters, so every divergence below is one of interpretation. Where the two versions differ, I checked them against Julius Valerius (Kübler 1888, archive.org iulivalerialexan00vale) and α (Kroll 1926, archive.org historiaalexandr00pseu).\n\nThe two translations agree closely. They construe nearly every clause the same way, and the remaining differences are mostly paraphrase. Examples: «несколько» vs «много» дней for \"post dies plures\"; «вскоре» vs «тотчас» for \"mox\", where ours is right; Astra drops \"forte\" in its RU of ch. 20 and adds \"а затем\" in ch. 19, where ours is right. I have left all of these out.\n\nThere are 8 significant divergences:\n- **3 changes to ours.**\n  - Ch. 23: \"acrius\" is an absolute comparative, so «ещё ожесточённее» / \"the more fiercely\" has nothing to compare with.\n  - Ch. 35: \"dum ... diripere vellet\" describes an actual assault, so «пожелав» / \"wishing\" is weak.\n  - Ch. 22 (RU only): «не тревожься» for \"ne movearis\" against Greek «μὴ ἀγανάκτει».\n- **5 confirmed as they stand (\"keep\").**\n  - Ch. 20: \"regalibus nuptiis\". Both readings are defensible.\n  - Ch. 21: \"inter regales delicias\". Ours is supported by Valerius \"inter multas regalesque delicias\".\n  - Ch. 22: \"Habeo enim scire ... si\". Both readings are defensible and the sense converges.\n  - Ch. 24: \"occiditque eum\". Astra makes Alexander the killer, which is wrong: α has Philip kill Pausanias «ταῖς ἰδίαις χερσί».\n  - Ch. 36: \"famulo meo\". «слуга» corresponds to α «θεράποντι».\n\nI do not recommend any margin note in these chapters. Our doubts already record the two real ambiguities (ch. 20, ch. 22).\n\nIf the ch. 23 replacement is accepted, the 'choice' field of our ch. 23 doubt on 'sin aliter, sciret...' must be updated too. It still quotes 'the more fiercely'.\n\nI left the notes to the other agent. In these chapters only one of Astra's notes or doubts contradicts a translation: its ch. 24 doubt says that grammatically Alexander is the subject of 'occidit'. That claim is refuted by the evidence in entry 6. None of our notes contradicts our own translation.",
+  "divergences": [
+   {
+    "chapter": 20,
+    "lang": "both",
+    "category": "meaning",
+    "latin": "Cum ego matrem meam iterum regalibus nuptiis coniugabo",
+    "ours": "RU «Когда я снова выдам мою мать замуж, на царской свадьбе»; EN 'When I give my mother in marriage again, at a royal wedding'",
+    "theirs": "RU «Когда я вновь выдам свою мать замуж за царя»; EN 'When I marry my mother to a king once more'",
+    "verdict": "both",
+    "action": "keep",
+    "replace": [],
+    "note_ru": "",
+    "note_en": "",
+    "reason": "'regalibus nuptiis' is an ablative, 'in a royal marriage'. Ours keeps the literal phrase; a royal wedding already implies a king as bridegroom. Astra makes 'to a king' explicit, which is also the sense of the β recension. The two readings converge in meaning, and our doubt already records the alternative, so no note is needed.",
+    "evidence": "Kroll 1926, p. 21, app. to l. 1: α has only «ἐκδώσω τὴν ἐμαυτοῦ μητέρα πρὸς γάμον», while β has «βασιλεῖ ἑτέρῳ» (Kroll aligns Val. and Syr. with it). Valerius: 'et ego cum matrem aliis regalibus nuptiis coniugabo' (Kübler 1888, p. 23, ll. 25–26). Neither source decides between 'royal wedding' and 'to a king'."
+   },
+   {
+    "chapter": 21,
+    "lang": "both",
+    "category": "meaning",
+    "latin": "Aderat tunc inter regales delicias Lysias quidam",
+    "ours": "RU «Был тогда среди царских увеселений некий Лисий»; EN 'There was present then among the royal entertainments a certain Lysias'",
+    "theirs": "RU «Среди тех, кто развлекал царя, находился тогда некий Лисий»; EN 'Among those who entertained the king was a certain Lysias'",
+    "verdict": "ours",
+    "action": "keep",
+    "replace": [],
+    "note_ru": "",
+    "note_en": "",
+    "reason": "Astra takes 'deliciae' as persons (the king's favourites or entertainers). Ours takes it as the delights of the royal feast. The epitomator's source has 'inter multas regalesque delicias', 'amid the many royal delights', which describes the banquet and not a group of people. Lysias is present at the feast as a guest. Astra's reading is possible Latin but less likely here.",
+    "evidence": "Valerius: 'Aderat tunc inter multas regalesque delicias Lysias' (Kübler 1888, p. 24, l. 3). Kroll 1926, p. 21, app. to l. 4: 'Λυσ. συνανακείμενος τῷ Φιλ. B′ Val. Arm.', i.e. Lysias is reclining with Philip at table; α has «γελωτοποιὸς ὀνόματι Λυσίας» (Kroll p. 21, l. 4)."
+   },
+   {
+    "chapter": 22,
+    "lang": "both",
+    "category": "construction",
+    "latin": "Habeo enim scire, vindex et ultor in matrem, si culpa meruit quod evenerat",
+    "ours": "RU «Ведь мне нужно знать — [я готов стать] мстителем и карателем [даже] по отношению к матери, — заслужила ли она своей виной то, что случилось»; EN 'For I must know — [ready to be] avenger and punisher [even] against my mother — whether by some fault she deserved what has happened'",
+    "theirs": "RU «Мне необходимо это знать: я сам взыщу с матери и покараю ее, если она своей виной заслужила случившееся»; EN 'I must know, for I shall exact redress and punishment from my mother if her fault deserved what happened'",
+    "verdict": "both",
+    "action": "keep",
+    "replace": [],
+    "note_ru": "",
+    "note_en": "",
+    "reason": "The 'si' can be read two ways. Ours takes it as introducing an indirect question after 'scire' ('whether'), a use common in late Latin. Astra takes 'scire' as referring back to the preceding question and makes 'si' a condition on the implied 'I shall be avenger'. Both construals are grammatical. Both convey that Alexander asks why Philip turned away from Olympias and is ready to punish her if she is guilty. Ours keeps the readiness in brackets, and our doubt already discusses the apposition. The difference is too small for a reader's note.",
+    "evidence": "Valerius has the same ambiguity: 'Aveo enim scire, iudex et ultor futurus in matrem, si culpa meruit, quod evenerat' (Kübler 1888, p. 25, ll. 3–5). α offers no equivalent sentence: Alexander comes 'ὡς φίλος μεσιτεύων' (Kroll 1926, p. 21, ll. 16–19)."
+   },
+   {
+    "chapter": 22,
+    "lang": "ru",
+    "category": "style",
+    "latin": "Quaeso, mi mater, ne movearis super his, quae in te rex maritus egerat",
+    "ours": "«Прошу тебя, матушка, не тревожься из-за того, что сделал против тебя царь, твой муж»",
+    "theirs": "«Прошу тебя, мать, не сердись из-за того, что сделал с тобой твой супруг-царь»",
+    "verdict": "theirs",
+    "action": "replace",
+    "replace": [
+     {
+      "lang": "ru",
+      "old": "не тревожься из-за того, что сделал против тебя царь",
+      "new": "не гневайся на то, что сделал против тебя царь"
+     }
+    ],
+    "note_ru": "",
+    "note_en": "",
+    "reason": "'moveri' here means to be stirred up or aggrieved over a wrong done to her. Russian «тревожиться» means to be anxious, which misses the grievance. Astra's «не сердись» is closer; «не гневайся» does the same in the register of the published text. The EN 'do not be troubled' is acceptable and can stay.",
+    "evidence": "α 1.22: «Μὴ ἀγανάκτει μῆτερ ἐπὶ τοῖς γενομένοις σοι ὑπὸ Φιλίππου» (Kroll 1926, p. 22, l. 7). Valerius: 'Ne, quaeso, ne moveare, mi mater, super hisce, quae in te egerit rex maritus' (Kübler 1888, p. 25, ll. 17–18)."
+   },
+   {
+    "chapter": 23,
+    "lang": "both",
+    "category": "meaning",
+    "latin": "sin aliter, sciret, sese cum Alexandro proelio acrius concertaturum",
+    "ours": "RU «а не то пусть знает, что ему придётся ещё ожесточённее сразиться с Александром в бою»; EN 'otherwise, let him know that he would have to fight it out with Alexander in battle the more fiercely'",
+    "theirs": "RU «в противном случае пусть тот знает, что ему предстоит жестокий бой с Александром»; EN 'otherwise he must know that he will have a fierce battle to fight with Alexander'",
+    "verdict": "theirs",
+    "action": "replace",
+    "replace": [
+     {
+      "lang": "ru",
+      "old": "ему придётся ещё ожесточённее сразиться с Александром в бою",
+      "new": "ему придётся жестоко сразиться с Александром в бою"
+     },
+     {
+      "lang": "en",
+      "old": "he would have to fight it out with Alexander in battle the more fiercely",
+      "new": "he would have to fight it out fiercely with Alexander in battle"
+     }
+    ],
+    "note_ru": "",
+    "note_en": "",
+    "reason": "'acrius' has no term of comparison, so it is an absolute comparative: 'fiercely, rather fiercely'. There has been no earlier clash between Darius and Alexander for 'still more fiercely' to refer to. «ещё ожесточённее» in Russian clearly implies a previous fight. If this change is accepted, the 'choice' field of our ch. 23 doubt on this phrase must be updated as well.",
+    "evidence": "Allen & Greenough §291a: a comparative with no object of comparison denotes 'a considerable or excessive degree'. The clause is the epitomator's own. Valerius here has a demand to repay the tribute ('boni consuleret et ab hac petendi consuetudine temperaret ... propria quoque, quae sint Persis, Alexandrum petiturum', Kübler 1888, p. 27, ll. 3–8). α has the same demand (Kroll 1926, p. 23, ll. 4–7). Nothing earlier in the narrative supplies a comparison."
+   },
+   {
+    "chapter": 24,
+    "lang": "both",
+    "category": "reference",
+    "latin": "gladiumque in dexteram patris misit, quo manu eius oppeteret, occiditque eum",
+    "ours": "RU «вложил меч в правую руку отца, чтобы [Павсаний] погиб от его руки; и [Филипп] убил его»; EN 'put a sword into his father’s right hand, so that [Pausanias] should die by his hand; and [Philip] killed him'",
+    "theirs": "RU «вложил меч в правую руку отца, чтобы Павсаний погиб от его руки, и убил его» (subject continued as Alexander; Astra's doubt says so explicitly); EN 'placed a sword in his father's right hand, so that Pausanias might perish by his hand, and killed him'",
+    "verdict": "ours",
+    "action": "keep",
+    "replace": [],
+    "note_ru": "",
+    "note_en": "",
+    "reason": "Astra continues Alexander as the subject of 'occidit'. That contradicts 'quo manu eius oppeteret' just before it and Philip's own words just after ('ultus enim auctorem iniuriae libens oppetam'). The sword was put in Philip's hand so that Philip would kill Pausanias. Ours, with bracketed subjects, is correct.",
+    "evidence": "α 1.24: Philip, given the sword by Alexander, «ποιεῖ τῷ Παυσανίᾳ καιρίαν ταῖς ἰδίαις χερσὶ πληγὴν καὶ ἀναιρεῖ αὐτὸν παραυτά»; the Armenian has Philip say «αὐτὸς ἀνεῖλον τὸν ἐχθρόν μου» (Kroll 1926, p. 24 and app.). Valerius: 'quo manu eius oppeteret Pausanias', with no 'occidit' (Kübler 1888, p. 28, ll. 15–16)."
+   },
+   {
+    "chapter": 35,
+    "lang": "both",
+    "category": "style",
+    "latin": "Ipse vero, dum urbem violenter diripere vellet, multis Macedonum caesis pedem refert",
+    "ours": "RU «Он же, пожелав силой разграбить город, отступает, потеряв убитыми многих македонян»; EN 'He, wishing to sack the city by force, fell back with many Macedonians slain'",
+    "theirs": "RU «Он попытался силой взять и разграбить город, однако после гибели многих македонян отступил»; EN 'He tried to storm and sack the city, but withdrew after many Macedonians had been killed'",
+    "verdict": "theirs",
+    "action": "replace",
+    "replace": [
+     {
+      "lang": "ru",
+      "old": "Он же, пожелав силой разграбить город, отступает",
+      "new": "Он же, попытавшись силой разграбить город, отступает"
+     },
+     {
+      "lang": "en",
+      "old": "He, wishing to sack the city by force, fell back with many Macedonians slain.",
+      "new": "He tried to sack the city by force, but fell back with many Macedonians slain."
+     }
+    ],
+    "note_ru": "",
+    "note_en": "",
+    "reason": "'dum ... vellet' here means 'while he was trying to'. The losses ('multis Macedonum caesis') show that an assault actually took place. The perfective «пожелав» says only that he formed a wish and then withdrew. Astra's 'tried' gives the sense better. Keep its addition «взять» out.",
+    "evidence": "Valerius: 'Alexander tamen cum admolitus violentiam oppidum cuperet subiugare, ancipiti proelio, multis etiam Macedonum caesis ac vulneratis pedem refert' (Kübler 1888, p. 46, ll. 8–11), i.e. he applied force and fought an indecisive battle. 'velle' in the sense 'set about, attempt' (Lewis & Short s.v. volo)."
+   },
+   {
+    "chapter": 36,
+    "lang": "both",
+    "category": "names-terms",
+    "latin": "Alexandro, famulo meo ... ad parentes tuos, famulos scilicet meos",
+    "ours": "RU «слуге моему ... к моим слугам»; EN 'my servant ... my servants'",
+    "theirs": "RU «моему рабу ... моим рабам»; EN 'my slave ... my slaves'",
+    "verdict": "both",
+    "action": "keep",
+    "replace": [],
+    "note_ru": "",
+    "note_en": "",
+    "reason": "'famulus' means a household servant, often a slave, so both renderings are possible. Ours matches the Greek for Alexander himself, and it keeps the single Latin word consistent for him and his parents. Astra's stronger 'slave' is defensible for the insulting tone, and the Greek does call the parents δοῦλοι. No change and no note needed.",
+    "evidence": "α 1.36: «Ἀλεξάνδρῳ ἐμῷ θεράποντι ... πρὸς τοὺς γονεῖς σου τοὺς ἐμοὺς δούλους ὄντας» (Kroll 1926, p. 40). Valerius: 'Darius ipse Alexandro famulo meo ... ad parentes tuos, famulos scilicet meos' (Kübler 1888, p. 47, ll. 19–21)."
+   }
+  ]
+ },
+ {
+  "overview": "Chapters 37, 38, 39, 40, 41, 42, 46 and 47: I compared the published v0.2 text (ru, en) with GPT-6 Astra's independent translation, sentence by sentence against the Latin. I checked them against Kübler's Valerius (archive.org iulivalerialexan00vale, pp. 48–65) and Kroll's α (historiaalexandr00pseu, pp. 42–47). The two translations agree closely. Chapters 37, 42 and 47 have no significant divergence. Only one change is recommended. In ch. 38 the future infinitives 'deventurum … serviturum' are a prediction, and the published Russian 'чтобы … подпал … служил' turns them into a hypothetical. The Russian 'служил' also weakens 'servire' (α: δουλεία, 'slavery'). The fix is the future tense plus 'в рабстве' in Russian, and 'will' in English. One margin note is suggested, for ch. 41: 'amisso curru' may mean 'leaving/abandoning the chariot', as in α (καταλείψας); this could be merged into note 64. All other divergences are kept as published, for one of three reasons. (1) Astra's reading is weaker: 'boni consulere' rendered as 'take good counsel' (chs. 39, 46), and the plural 'royal chariots' (ch. 41). (2) Both readings are defensible and the published doubts or notes already cover them: 'satrapas' as subject or object (note 61), 'tyranni' (note 69), 'tui iniuriam', and 'velut auspicato'. (3) The difference is too small to matter: 'ad rubri maris ulteriora'.",
+  "divergences": [
+   {
+    "chapter": 38,
+    "lang": "both",
+    "category": "tense-mood",
+    "latin": "Turpe mihi videtur … tantum regem … sub ditionem contemptibilium, ut retur, homullorum deventurum, atque inter eos abiecto cuidam ac latroni Alexandro diu graviterque serviturum",
+    "ours": "RU: «…кажется мне, чтобы столь великий царь … подпал под власть … и среди них долго и тяжко служил некоему отверженному разбойнику Александру»; EN: “that so great a king … should come under the sway … and among them should long and grievously be a slave to …”",
+    "theirs": "RU: «что столь великий царь … попадёт под власть ничтожных, по его мнению, людишек и среди них будет долго и тяжко рабствовать у какого-то презренного разбойника Александра»; EN: “is to fall under the power of little men … and among them to endure long and grievous servitude to …”",
+    "verdict": "theirs",
+    "action": "replace",
+    "replace": [
+     {
+      "lang": "ru",
+      "old": "чтобы столь великий царь, при стольких силах, как он сам похваляется, подпал под власть, как он полагает, ничтожных людишек и среди них долго и тяжко служил некоему отверженному разбойнику Александру.",
+      "new": "что столь великий царь, при стольких силах, как он сам похваляется, подпадёт под власть, как он полагает, ничтожных людишек и среди них будет долго и тяжко в рабстве у некоего отверженного разбойника Александра."
+     },
+     {
+      "lang": "en",
+      "old": "should come under the sway of contemptible little men, as he thinks them, and among them should long and grievously be a slave to a certain outcast and brigand, Alexander.",
+      "new": "will come under the sway of contemptible little men, as he thinks them, and among them will long and grievously be a slave to a certain outcast and brigand, Alexander."
+     }
+    ],
+    "note_ru": "",
+    "note_en": "",
+    "reason": "'Deventurum' and 'serviturum' are future infinitives in the accusative-and-infinitive. Alexander is predicting, ironically and with certainty, that Darius will be the one enslaved. He is not weighing a hypothetical. The Russian 'кажется позорным, чтобы … подпал' turns this into a hypothetical or normative statement, and the English putative 'should' blurs it. The Russian 'служил' is also too weak for 'servire' here: the published English already has 'be a slave', so the Russian should match.",
+    "evidence": "Valerius has the same futures: 'tantum regem Darium … sub dicionem homullorum, ut retur, contemptibilium deventurum et … Alexandro serviturum' (Kübler p. 50, ll. 4–8). He goes on 'equidem spero priora esse, quae spondeo, quam quae tu minaris' (p. 50, ll. 14–15), which makes the prediction explicit. The Greek α 1.38 has the aorist 'ὑπὸ ταπεινὴν δουλείαν πεσεῖν ἀνθρώπῳ τινὶ … Ἀλεξάνδρῳ' ('to fall into lowly slavery to some man Alexander', Kroll p. 42). Valerius sharpened this into a future, and the Greek confirms the sense of slavery behind 'servire'."
+   },
+   {
+    "chapter": 38,
+    "lang": "both",
+    "category": "construction",
+    "latin": "ego tamen mihi velut auspicato cuncta ex te concessa profitebor",
+    "ours": "RU: «всё это, как бы при добром предзнаменовании, даровано мне тобою»; EN: “granted to me by you as under a good omen”",
+    "theirs": "RU: «ты передал мне всё это как доброе предзнаменование»; EN: “you have bestowed them all upon me as a favourable omen”",
+    "verdict": "both",
+    "action": "keep",
+    "replace": [],
+    "note_ru": "",
+    "note_en": "",
+    "reason": "The published version takes 'auspicato' as what it formally is, an adverb ('auspiciously, under a good omen') modifying 'concessa'. Astra makes the gifts themselves the omen. That is looser as Latin but matches the Greek model. The sense is the same either way: Alexander accepts the gifts as auspicious. No change is needed.",
+    "evidence": "Kübler p. 51, ll. 1–2: 'ut auspicato cuncta ex te concessa ac sponsa'. α 1.38: 'ἐγὼ δὲ αὐτὰ ὡς ἀγαθὰ σημεῖα ἀπεδεξάμην' ('I accepted them as good signs', Kroll p. 43). Auspicato is an adverb in this sense (L&S s.v. auspicor)."
+   },
+   {
+    "chapter": 39,
+    "lang": "both",
+    "category": "construction",
+    "latin": "satrapas quidem et classem eius una cum nautis ponto submergere, militesque cunctos ferro vinctos … transduci",
+    "ours": "RU: «а сатрапам — потопить в море и его флот вместе с моряками»; EN: “and that the satraps sink his fleet too, together with its sailors, in the sea”",
+    "theirs": "RU: «его сатрапов и флот вместе с моряками утопить в море»; EN: “that his satraps and fleet, together with the sailors, be sunk in the sea”",
+    "verdict": "both",
+    "action": "keep",
+    "replace": [],
+    "note_ru": "",
+    "note_en": "",
+    "reason": "Grammatically both readings work. The published one makes 'satrapas' the subject of 'submergere', with 'et' meaning 'also'. Astra makes it the object ('placet nobis … submergere': we resolve to drown his satraps and fleet), which gives a neat contrast between officers drowned and soldiers deported. The published reading follows the source tradition. Note 61 and the published doubt already record the alternative, so no further note is needed (the arbitrator may add Astra's name to note 61).",
+    "evidence": "Valerius has no 'et': 'oportere satrapas quidem classem eius una cum navitis alto submergere, milites vero cunctos …' (Kübler p. 51, ll. 26–28), so there the satraps are the agents. α 1.39 has Darius tell the satraps directly: 'τριήρεις δὲ ἃς ἤγαγε σὺν τοῖς ἀνδράσιν εἰς βυθὸν θαλάσσης καταποντίσατε' ('sink the triremes he brought, with their men', Kroll p. 44)."
+   },
+   {
+    "chapter": 39,
+    "lang": "both",
+    "category": "meaning",
+    "latin": "militesque cunctos ferro vinctos ad rubri maris ulteriora transduci",
+    "ours": "RU: «переправить за Красное море»; EN: “transported to the far side of the Red Sea”",
+    "theirs": "RU: «отвести к дальним пределам Красного моря»; EN: “taken to the farther reaches of the Red Sea”",
+    "verdict": "both",
+    "action": "keep",
+    "replace": [],
+    "note_ru": "",
+    "note_en": "",
+    "reason": "'Ulteriora' can mean either the parts beyond the sea or its farther parts. The published 'за / far side' fits 'trans-ducere' (to lead across) better. Astra's rendering is also possible. Little is at stake, so no change.",
+    "evidence": "Kübler p. 51, ll. 28–29: 'ad Rubri maris ulteriora transduci, ut illic colere iuberentur'. α 1.39: 'ἀναπέμψατε εἰς ἐρυθρὰν θάλασσαν οἰκῆσαι' (Kroll p. 44)."
+   },
+   {
+    "chapter": 39,
+    "lang": "both",
+    "category": "meaning",
+    "latin": "Boni igitur consulas, et quam primum cum exercitu potentissimo eidem obviabis.",
+    "ours": "RU: «Прими же это благосклонно и как можно скорее выступи…»; EN: “Take this, then, in good part, and as soon as possible go to meet him…”",
+    "theirs": "RU: «Итак, прими разумное решение и как можно скорее выступи…»; EN: “Take good counsel, then, and confront him…”",
+    "verdict": "ours",
+    "action": "keep",
+    "replace": [],
+    "note_ru": "",
+    "note_en": "",
+    "reason": "'Boni consulere' is a fixed idiom meaning 'to take in good part, accept kindly'. 'Boni' is a genitive of value. It cannot mean 'take good counsel', which would need 'bene consulere' or 'bonum consilium capere'. In Valerius it is a polite epistolary formula, and the published rendering keeps that.",
+    "evidence": "L&S s.v. consulo II.B: 'boni consulere, to take in good part'. Kübler p. 52, l. 7: 'Boni igitur consules, quamprimumque … obviabis'. It renders α 1.39 'καλῶς οὖν ποιήσεις ἐν τάχει παραγενόμενος' ('you will do well to come quickly', Kroll p. 44), a formula of polite request, not 'deliberate wisely'."
+   },
+   {
+    "chapter": 40,
+    "lang": "both",
+    "category": "construction",
+    "latin": "e meo pectore protinus omnem tui iniuriam recessuram",
+    "ours": "RU: «из груди моей тотчас уйдёт всякая обида на тебя»; EN: “all resentment against you will at once depart from my breast”",
+    "theirs": "RU: «вся обида, нанесённая тобой, тотчас уйдёт из моего сердца»; EN: “every injury you have done me will at once leave my heart”",
+    "verdict": "both",
+    "action": "keep",
+    "replace": [],
+    "note_ru": "",
+    "note_en": "",
+    "reason": "The published version reads 'tui' as an objective genitive, which is normal for the personal-pronoun genitive. Astra reads it as subjective ('the wrong you did'). Both arrive at the same sense, that Darius will stop holding a grudge, and the Greek supports that sense. The published doubt already explains its choice.",
+    "evidence": "α 1.40: 'ὄμνυμι δέ σοι Δία … μὴ μνησικακῆσαι ἐφ᾽ οἷς ἔπραξας' ('I swear … not to bear a grudge for what you have done', Kroll p. 45). Valerius has the same 'omnem tui iniuriam' (Kübler p. 53, ll. 15–16; T reads 'tibi')."
+   },
+   {
+    "chapter": 41,
+    "lang": "both",
+    "category": "meaning",
+    "latin": "fit quoque Darius ipse praecursor amisso curru equoque conscenso veloci",
+    "ours": "RU: «потеряв колесницу и вскочив на быстрого коня»; EN: “having lost his chariot and mounted a swift horse”",
+    "theirs": "RU: «бросив колесницу и вскочив на быстрого коня»; EN: “abandoning his chariot and mounting a swift horse”",
+    "verdict": "both",
+    "action": "note",
+    "replace": [],
+    "note_ru": "«Amisso curru» можно понять и как «оставив (бросив) колесницу» (amittere — также «отпустить, оставить»); так в греческом α 1.41 («τὸ μὲν ἅρμα καταλείψας», «оставив колесницу») и в независимом переводе GPT-6 Astra. При таком понимании эпитома лишь сокращает рассказ Валерия, а не меняет его.",
+    "note_en": "'Amisso curru' can also mean 'leaving (abandoning) his chariot' (amittere also means 'let go, give up'). So the Greek α 1.41 ('τὸ μὲν ἅρμα καταλείψας', 'leaving the chariot') and the independent translation by GPT-6 Astra. On this reading the Epitome merely shortens Valerius' account rather than changing it.",
+    "reason": "'Lost' is the commonest sense of 'amittere', so keep the translation. But 'let go, give up' is a real sense of the verb, and it matches both Valerius (Darius has the chariot hidden) and the Greek (he leaves it behind). Note 64 builds a contrast on 'потерял' ('in the Epitome he lost the chariot'). The reader should know that the contrast depends on this reading. Best merged into note 64 rather than added as a separate note.",
+    "evidence": "Kübler p. 54, ll. 24–27: 'currum quidem in loca quaedam abdendum mandat et avertendum, ipse autem equo conscenso properantiae consulit'. α 1.41: 'τὸ μὲν ἅρμα καταλείψας … ἔφυγεν' (Kroll p. 47). L&S s.v. amitto I ('to send away, let go') and II ('to lose')."
+   },
+   {
+    "chapter": 41,
+    "lang": "both",
+    "category": "construction",
+    "latin": "currus quidem atque arma regalia matremque atque uxorem nec non et filias Darii comprehendit",
+    "ours": "RU: «захватил колесницу и царское оружие»; EN: “captured the chariot and the royal arms”",
+    "theirs": "RU: «Он захватил царские колесницы и оружие»; EN: “He captured the royal chariots and arms”",
+    "verdict": "ours",
+    "action": "keep",
+    "replace": [],
+    "note_ru": "",
+    "note_en": "",
+    "reason": "'Currus' is a plural form, but it stands for Darius' one chariot, the one he has just given up ('amisso curru', singular). The published version is right to translate it as singular. 'Regalia' agrees grammatically with 'arma'. Astra's 'royal chariots' (plural, both nouns qualified) misreads a poetic plural as several chariots. The published doubt and note 64 already explain this.",
+    "evidence": "Valerius: 'currus quidem armaque regalia' (Kübler p. 55, l. 3), right after 'currum quidem … abdendum mandat' (p. 54, ll. 24–25). α 1.41: 'τὸ μὲν ἅρμα αὐτοῦ καὶ τὰ τόξα' (singular, Kroll p. 47)."
+   },
+   {
+    "chapter": 46,
+    "lang": "both",
+    "category": "names-terms",
+    "latin": "Atque dehinc provolutus pedibus tyranni ita eum alloquitur",
+    "ours": "RU: «пав к ногам тирана»; EN: “throwing himself at the tyrant’s feet”",
+    "theirs": "RU: «упав к ногам властителя»; EN: “falling at the ruler's feet”",
+    "verdict": "both",
+    "action": "keep",
+    "replace": [],
+    "note_ru": "",
+    "note_en": "",
+    "reason": "In Carolingian Latin 'tyrannus' can be neutral ('ruler'), which is Astra's rendering. Here, though, the epitomator replaced Valerius' 'regis' with it. The published 'тиран / tyrant' keeps that change visible, and its doubt and note 69 explain it. Both renderings are defensible; keep the published one, as the glossary does.",
+    "evidence": "Kübler p. 62, ll. 25–26: 'canere regis pedibus provolutum'. The glossary entry 'tyrannus' gives 'тиран, властитель / tyrant, ruler', 'applied to Alexander in Z 46'."
+   },
+   {
+    "chapter": 46,
+    "lang": "both",
+    "category": "meaning",
+    "latin": "Boni igitur consules, et ab hac tam sacrilega actione quiesces!",
+    "ours": "RU: «Прими же это благосклонно и отступись от столь святотатственного деяния!»; EN: “Take this in good part, then, and desist from so sacrilegious a deed!”",
+    "theirs": "RU: «Прими же разумное решение и прекрати столь святотатственное дело!»; EN: “Take good counsel, then, and desist from this sacrilegious deed!”",
+    "verdict": "ours",
+    "action": "keep",
+    "replace": [],
+    "note_ru": "",
+    "note_en": "",
+    "reason": "This is the same idiom as in ch. 39. 'Boni consulere' means 'take in good part, accept kindly'; here it is the piper's plea for indulgence. 'Take good counsel' is not a sense the phrase has. The published rendering is also consistent with ch. 39.",
+    "evidence": "L&S s.v. consulo II.B. Valerius: 'Boni igitur consules ac facesses ab hac tam sacrilega voluntate' (Kübler p. 63, ll. 8–9), the same formula Valerius uses in the satraps' letter (p. 52, l. 7)."
+   }
+  ]
+ },
+ {
+  "overview": "Chapters 1-9 compared sentence by sentence against Zacher's Latin, separately for RU and EN, and checked against Kübler's Valerius (archive.org iulivalerialexan00vale, OCR text) and Kroll's α (historiaalexandr00pseu). The two translations are very close here. Almost every difference is paraphrase or word order and is not reported. I report nine significant divergences, and two of them call for changes. (1) Ch. 4, 'tabulas … pinacem': the object is one astrological board. Valerius calls it 'opus' and 'pinacis illius', and α has a single πίναξ. Ours says 'доски/tablets'; Astra's singular 'board' is better (replace). (2) Ch. 8, 'accipitrem sibi sacratum': 'sibi' goes with the participle, as in Valerius' 'sibi sacrum accipitrem', so the meaning is 'a hawk consecrated to him', not 'prepares for himself' (replace). In seven places the published text keeps its reading. In two of them Astra is weaker: 'primi' made into 'first sages' in ch. 1, and the lion clause 'omnia audens, quae natura leonis est' in ch. 8, where α's 'ὥσπερ λέων' supports ours. Two are terms where ours departs from the glossary for good reason: 'hastile' = spear, as in α's δοράτιον and the 'hasta' of the interpretation; and EN 'private parts' instead of the tautological 'female parts'. Here the glossary EN entries should be adjusted. Three are defensible either way and need no note: 'visebantur' 'were seen' vs 'seemed' (ch. 1); masculine 'qui conceptus est' after neuter 'semen' (ch. 8); and the genitive in 'alicuius popularis amori' (ch. 9). No margin notes are recommended for chapters 1-9. I left the notes alone; none contradicts the translation in a way that touches these points.",
+  "divergences": [
+   {
+    "chapter": 1,
+    "lang": "both",
+    "category": "construction",
+    "latin": "Aegyptii sapientes sati genere divino primi feruntur",
+    "ours": "RU «Египетские мудрецы, рождённые от божественного рода, слывут первыми»; EN 'The sages of Egypt, sprung from divine stock, are said to have been the first'",
+    "theirs": "RU «Первыми мудрецами, как рассказывают, были египтяне, рождённые от божественного рода»; EN 'The Egyptians, sprung from divine stock, are said to have been the first sages'",
+    "verdict": "ours",
+    "action": "keep",
+    "replace": [],
+    "note_ru": "",
+    "note_en": "",
+    "reason": "Astra makes 'sapientes' a predicate together with 'primi' ('the first sages') and fixes 'primi' as temporal. But 'sapientes' stands next to 'Aegyptii' and is cut off from 'primi' by the attribute 'sati genere divino'. The source sentence has 'the (very) wise Egyptians' as its subject. The published version keeps the subject structure and leaves the first/foremost ambiguity open, as its doubt already records.",
+    "evidence": "Kroll α 1.1, p. 1: «Οἱ σοφώτατοι Αἰγύπτιοι, θεῶν ἀπόγονοι, γῆς μέτρα καταλαβόμενοι…». The subject is 'the wisest Egyptians', and Latin 'primi' probably renders the superlative ('foremost'), not 'first in time'. Kübler's ch. 1 is supplied from the Epitome itself (Kübler p. 2, app. ad l. 9), so there is no independent Valerius here."
+   },
+   {
+    "chapter": 1,
+    "lang": "both",
+    "category": "meaning",
+    "latin": "Quae omnia cum supernare coepissent, mox moveri ac vivere visebantur.",
+    "ours": "RU «вскоре было видно, как оно движется и оживает»; EN 'they were soon seen to move and to come alive'",
+    "theirs": "RU «оно тотчас начинало, казалось, двигаться и жить»; EN 'they immediately seemed to move and come alive'",
+    "verdict": "both",
+    "action": "keep",
+    "replace": [],
+    "note_ru": "",
+    "note_en": "",
+    "reason": "'visebantur' + infinitive can be read as 'were seen to' (real animation) or 'seemed to' (appearance). Ours suits a story in which the magic works: the enemies really drown, and in the Armenian version the figures come alive (published note 1). Astra's 'seemed' is grammatically possible too. The difference is a nuance and does not need a note.",
+    "evidence": "In Valerius 'visebatur' alternates with 'videbatur' in the sense 'seemed': Kübler p. 7, l. 19, 'consignareque annulo aureo visebatur' T, 'videbatur' P; Epitome ch. 8 has 'videbatur'. The Epitome also uses 'visere' simply as 'to see' (ch. 4 'viseres'). Both readings are therefore attested in this Latin."
+   },
+   {
+    "chapter": 4,
+    "lang": "both",
+    "category": "meaning",
+    "latin": "Et cum verbo promit tabulas, quas huius peritiae docti pinacem nominant. Auro enim et ebore variatum pretium…",
+    "ours": "RU «он вынимает доски, которые сведущие в этом искусстве называют пинаксом. Ведь их ценность…»; EN 'he brings out tablets, which those learned in this skill call a pinax. For their costliness…'",
+    "theirs": "RU «он достаёт доску, которую знатоки этого искусства называют пинаксом. Драгоценность её отделки…»; EN 'he brings out a board that those versed in this skill call a pinax'",
+    "verdict": "theirs",
+    "action": "replace",
+    "replace": [
+     {
+      "lang": "ru",
+      "old": "он вынимает доски, которые сведущие в этом искусстве называют пинаксом. Ведь их ценность",
+      "new": "он вынимает доску, которую сведущие в этом искусстве называют пинаксом. Ведь её ценность"
+     },
+     {
+      "lang": "en",
+      "old": "he brings out tablets, which those learned in this skill call a pinax. For their costliness",
+      "new": "he brings out a board, which those learned in this skill call a pinax. For its costliness"
+     }
+    ],
+    "note_ru": "",
+    "note_en": "",
+    "reason": "'tabulae' has a plural form but often names a single object; here the singular 'pinacem' names it. With the plural 'доски/tablets', the reader pictures several boards, which the singular 'пинаксом/a pinax' contradicts. The source treats it as one work, and the glossary defines pinax as 'astrological board' ('астрологическая доска').",
+    "evidence": "Kübler p. 3, ll. 5–7: 'tabulas promit, quas peritiae huiusce docti pinacam nominaverunt, opus adeo fabre absolutum…'; l. 17: 'Olympias pinacis illius opulentiam'. Kroll α 1.4, p. 4: 'προενεγκάμενος πίνακα πολυτίμητον βασιλικόν … τριχάρακτον ζώναις', a single board with three concentric zones."
+   },
+   {
+    "chapter": 8,
+    "lang": "both",
+    "category": "construction",
+    "latin": "Sed Nectanabus accipitrem sibi sacratum parat",
+    "ours": "RU «А Нектанеб готовит себе посвящённого ястреба»; EN 'But Nectanebo prepares for himself a consecrated hawk'",
+    "theirs": "RU «Нектанеб готовит посвящённого ему ястреба»; EN 'Nectanebo prepares a hawk consecrated to himself'",
+    "verdict": "theirs",
+    "action": "replace",
+    "replace": [
+     {
+      "lang": "ru",
+      "old": "готовит себе посвящённого ястреба",
+      "new": "готовит посвящённого ему ястреба"
+     },
+     {
+      "lang": "en",
+      "old": "prepares for himself a consecrated hawk",
+      "new": "prepares a hawk consecrated to him"
+     }
+    ],
+    "note_ru": "",
+    "note_en": "",
+    "reason": "'sibi' stands between the noun and the participle and belongs to 'sacratum' ('consecrated/sacred to him'). In the source, Valerius, 'sibi sacrum' is the normal construction of sacer + dative. Ours ties 'sibi' to 'parat' as a dative of advantage. Latin word order allows this, but it is redundant and not what Valerius has. Astra's English 'to himself' is awkward, so the replacement uses 'to him'.",
+    "evidence": "Kübler p. 7, l. 6: 'Sed Nectanabus sibi sacrum accipitrem parat'. Kroll α 1.8, p. 8: 'λαβὼν ἱέρακα πελάγιον καὶ τοῦτον μαγεύσας'; nothing in it corresponds to 'for himself'."
+   },
+   {
+    "chapter": 8,
+    "lang": "both",
+    "category": "names-terms",
+    "latin": "leonis caput hastili subiecto (twice); cf. atque hasta omnia subiugabit",
+    "ours": "RU «голова льва с подложенным под неё копьём» / «с подложенным копьём»; EN 'a lion's head with a spear set beneath it' / 'with a spear placed under it'",
+    "theirs": "RU «львиная голова, а под нею — древко» / «а ещё ниже — древко»; EN 'a lion's head, with a spear-shaft below' (the glossary's EN form)",
+    "verdict": "ours",
+    "action": "keep",
+    "replace": [],
+    "note_ru": "",
+    "note_en": "",
+    "reason": "In later Latin 'hastile' commonly means a spear or javelin, not just the shaft. The emblem is a weapon: the interpreters read it as 'hasta omnia subiugabit', and the Greek has a small spear. Ours is consistent with that reading, and the glossary's RU entry 'древко (копьё)' allows it. Astra follows the glossary's EN 'spear-shaft'. The glossary EN entry should be adjusted to 'spear (spear-shaft)'; the translation does not need to change.",
+    "evidence": "Kroll α 1.8, p. 9: 'ἔχοντι κεφαλὴν λέοντος, ἡλίου κράτος καὶ δοράτιον', and the interpretation 'ὁ ἥλιος … κεφαλὴ λέοντος καὶ δοράτιον … δορυαλώτους τὰς πόλεις ποιούμενος'. Kübler p. 8, ll. 6–9: 'hastile quoque adiacens erat … idque vi et hasta faciet'."
+   },
+   {
+    "chapter": 8,
+    "lang": "en",
+    "category": "names-terms",
+    "latin": "mulieris virginal contegere biblo; quod signari virginal feminae vidisti",
+    "ours": "EN 'the woman's private parts'",
+    "theirs": "EN 'the woman's female parts' (the glossary's EN form)",
+    "verdict": "ours",
+    "action": "keep",
+    "replace": [],
+    "note_ru": "",
+    "note_en": "",
+    "reason": "The meaning is the same and the RU of both versions has «лоно». 'The woman's female parts' is tautological in English, so ours is better English. The glossary's EN entry for 'virginal' should allow 'private parts' rather than the translation being changed.",
+    "evidence": "The meaning is not in dispute: α 1.8 has 'τὴν φύσιν αὐτῆς … καταρράπτειν' (Kroll p. 9), and Valerius has the same rare word 'virginal' (Kübler p. 7, ll. 18, 25)."
+   },
+   {
+    "chapter": 8,
+    "lang": "both",
+    "category": "reference",
+    "latin": "Aegyptium igitur semen est qui conceptus est; non tamen humile sed praeclarum",
+    "ours": "RU «значит, зачатое семя египетское; однако не низкое, а славное»; EN 'the seed that was conceived is therefore Egyptian; yet not lowly but illustrious'",
+    "theirs": "RU «означает, что зачатый происходит от египетского семени. Но происхождение его не низкое, а славное»; EN 'the child conceived is therefore of Egyptian seed. Yet he is not of lowly but of illustrious origin'",
+    "verdict": "both",
+    "action": "keep",
+    "replace": [],
+    "note_ru": "",
+    "note_en": "",
+    "reason": "Strictly, the masculine 'qui' refers to the child, because 'semen' is neuter, so Astra's construal is the more literal. But 'humile … praeclarum' agree with 'semen', and the Greek says that the seed is Egyptian. The sense, Egyptian paternity, is the same in both, so no change is needed.",
+    "evidence": "Kübler p. 8, l. 1: 'Aegyptium igitur semen est, qui conceptus est, non tamen humile' (the masculine 'qui' is already in Valerius). Kroll α 1.8, p. 9: 'Αἰγυπτία ἐστὶν ἡ σπορά'."
+   },
+   {
+    "chapter": 8,
+    "lang": "both",
+    "category": "construction",
+    "latin": "omnia audens, quae natura leonis est",
+    "ours": "RU «дерзая на всё, как в природе льва»; EN 'daring everything, as is the nature of the lion'",
+    "theirs": "RU «отваживаясь на всё, что свойственно льву»; EN 'daring all that accords with a lion's nature'",
+    "verdict": "ours",
+    "action": "keep",
+    "replace": [],
+    "note_ru": "",
+    "note_en": "",
+    "reason": "Astra takes 'quae' as a neuter plural relative to 'omnia', which limits the daring to lion-like deeds. The singular 'est' and the source point instead to a comparison, 'as is the lion's nature', with 'quae' attracted to 'natura'. The sense is boundless daring, like a lion.",
+    "evidence": "Kroll α 1.8, p. 9: 'ὁ γὰρ γεννώμενος μέχρι τῆς ἀνατολῆς φθάσει ὥσπερ λέων'. Kübler p. 8, ll. 8–9 has the same wording: 'omnia audens, quae natura est leonis'."
+   },
+   {
+    "chapter": 9,
+    "lang": "ru",
+    "category": "construction",
+    "latin": "scio tamen te nunquam alicuius popularis amori servisse, enimvero dei deorum pulcherrimi",
+    "ours": "RU «ты никогда не отдавалась любви какого-нибудь простолюдина, но лишь бога — прекраснейшего из богов» (subjective genitive: the man's love); EN 'never yielded to the love of any common man, but only to that of a god'",
+    "theirs": "RU «ты никогда не подчинялась любви к простому человеку, а лишь к богу» (objective genitive: her love for a man); EN 'never submitted to love for any common man, but for a god'",
+    "verdict": "both",
+    "action": "keep",
+    "replace": [],
+    "note_ru": "",
+    "note_en": "",
+    "reason": "The genitive can be subjective or objective, so both readings are grammatical. Ours fits the fuller context in Valerius: Philip has just said that a king's power reaches over men but not over gods, so the question is who the lover was. Olympias' own 'amor' in ch. 7 is for 'such a marriage', not for a person. The English 'the love of' covers both readings, so no change and no note are needed.",
+    "evidence": "Kübler p. 8, ll. 24–27: 'Regibus quoque sicuti in alios vis est, ad deos tamen potentia frixerit. Neque enim te scio popularis alicuius amori servisse, enimvero dei deorum pulcherrimi'."
+   }
+  ]
+ },
+ {
+  "overview": "I compared chapters 10, 11, 12, 13, 14, 15, 17 and 18 (there is no ch. 16) sentence by sentence against Zacher's Latin. I checked them against Julius Valerius (Kübler 1888, pp. 9–22) and Greek α (Kroll 1926, pp. 9–19, with apparatus). The two translations are very close. Both read the hard places the same way: 'Qui dum … frueretur' as Alexander in ch. 14, the subjects of 'Tempus exigit. Vesperam pollicetur', 'monitus' as a participle in ch. 17, and 'fluctuans' in ch. 18. In the main text of chs. 14, 17 and 18 I found no significant divergence.\n\nI report 15 divergences.\n- Two changes of substance are recommended. (1) Ch. 11 'aves plurimae circumerrarent': the published text says the birds were flying, which the Latin does not say. The Greek has birds kept and feeding in the grounds, so read 'wandering about' (theirs). (2) Ch. 15 'tuis': the supplied noun should be plural, 'your [dominions]', not 'your [kingdom]' (theirs). The doubt entry for ch. 15 should be updated to match.\n- Three style fixes: in ch. 10 EN, 'rebuking his wife that…' is not idiomatic English; in ch. 12 EN, 'driven by fresh pangs' should be 'assailed'; in ch. 13 RU, „Милетский“ needs «» quotation marks.\n- In all the other cases the published version is better or equally defensible, and it stays as it is. These are: 'ipso' (ch. 10), 'auctiorem' (larger, not longer), the reference of 'terribili', the bracketed '[clementius]', 'sinus' (lap or bosom), 'convenire' (sexual sense), 'occasu celeri', 'gallus', 'uti viseres … curam elaboratam', and 'et si equi … praedicantur'.\n\nNo new margin notes are needed. Where a reader needs an alternative, the existing notes already give it: n. 18 on clementius, n. 23 on gallus.",
+  "divergences": [
+   {
+    "chapter": 10,
+    "lang": "both",
+    "category": "construction",
+    "latin": "nec tamen ipso frontem in laetitiam explicaret",
+    "ours": "«а сам он всё же не прояснял чела для веселья» / 'and he himself still did not smooth his brow into gladness' (ipso read as ipse = Philip)",
+    "theirs": "«а тот даже на нём не разгладил лоб в радости» / 'Philip would not relax his brow into joy even at it' (ipso taken as ablative = 'at the banquet itself')",
+    "verdict": "ours",
+    "action": "keep",
+    "replace": [],
+    "note_ru": "",
+    "note_en": "",
+    "reason": "Both make Philip the subject, but the independent version reads 'ipso' as 'even at [the banquet]'. The banquet is only being prepared ('pararetur'), so 'even at it' does not fit. The point of the sentence is the contrast between Philip alone and the general merriment, and 'ipso' for 'ipse' is an ordinary case confusion.",
+    "evidence": "Valerius 1,10 (Kübler p. 9, ll. 7–9): 'omnium erat visere dapsilem satis diffusamque lasciviam, nec tamen Philippum frontem in laetitiam explicasse'. The contrast is between everyone and Philip. Greek B′/Arm./Val. (Kroll p. 10, app. ad l. 10): 'μόνου δὲ τοῦ βασ. Φιλ. κατηφοῦς ὄντος' ('Philip alone being downcast'). Zacher p. 12 app. records no variant to 'ipso'."
+   },
+   {
+    "chapter": 10,
+    "lang": "both",
+    "category": "meaning",
+    "latin": "reformat in illum draconis sed auctiorem tractum",
+    "ours": "«вновь принимает облик того змея, но крупнее» / 'that serpentine form, but larger'",
+    "theirs": "«превращается в того же змея, но ещё более длинного» / 'the same long serpent's form, but larger still'",
+    "verdict": "ours",
+    "action": "keep",
+    "replace": [],
+    "note_ru": "",
+    "note_en": "",
+    "reason": "'auctior' means enlarged or bigger in general. The independent RU narrows this to 'longer', and its EN adds 'long'. The published 'крупнее / larger' is exact.",
+    "evidence": "Greek α 1.10: 'εἰς δράκοντα πολὺ μείζονα τοῦ πρώτου' ('much bigger than the first', Kroll p. 10, l. 10). Valerius: 'sed auctiorem aliquantulum tractum' (Kübler p. 9, ll. 12–13). 'Auctiorem' itself is Zacher's conjecture from μείζονα (Zacher p. 12 app.)."
+   },
+   {
+    "chapter": 10,
+    "lang": "both",
+    "category": "construction",
+    "latin": "specie spectabilis, tum maiestate totius corporis, tum etiam sibilorum acumine adeo terribili, ut fundamenta ac parietes domus quati viderentur",
+    "ours": "«…и пронзительностью шипения, столь страшного, что, казалось, сотрясаются основания…» / '…by the shrillness of his hissing, so terrible that the foundations… seemed to shake' (only the hissing is 'so terrible')",
+    "theirs": "«и величие всего его тела, и пронзительное шипение внушали такой ужас, что…» / 'both the majesty of his whole body and the piercing shrillness of his hissing were so terrible that…'",
+    "verdict": "ours",
+    "action": "keep",
+    "replace": [],
+    "note_ru": "",
+    "note_en": "",
+    "reason": "'terribili' is a singular ablative agreeing with 'acumine'. Only the shrill hissing is 'so terrible', and it is the hissing that makes the house seem to shake. The independent version extends the clause to the body's majesty as well.",
+    "evidence": "Grammar: 'acumine … adeo terribili' (abl. sg.). Valerius: 'tum etiam acumine sibilorum adeo terribili et divino, ut fundamenta etiam parietesque conclavis quati ac motari viderentur' (Kübler p. 9, ll. 14–17). Greek α: 'ἐσύριζεν ἐξακουστὸν καὶ φοβερὸν σύρισμα' (Kroll p. 10, ll. 11–12). L: 'ἐσύριξε … ὥστε τὰ θεμέλια σεισθῆναι τοῦ παλατίου' (Kroll p. 10 app. ad l. 11)."
+   },
+   {
+    "chapter": 10,
+    "lang": "both",
+    "category": "omission",
+    "latin": "At vero draco caput in sinum mulieris [clementius] extendit",
+    "ours": "bracketed word not translated: «Змей же положил голову ей на колени» / 'And the serpent laid its head in the woman's lap' (explained in note 18)",
+    "theirs": "«Змей [ласково] положил голову…» / 'The serpent [gently] extended its head…'",
+    "verdict": "ours",
+    "action": "keep",
+    "replace": [],
+    "note_ru": "",
+    "note_en": "",
+    "reason": "Zacher's square brackets mark the word as spurious, so it should not appear in the translation. The published version follows Zacher's text and already explains this in note 18. The idea of gentleness is still carried by the next clause ('mansuetius collegit' = «кротко свернул»).",
+    "evidence": "Zacher p. 13, l. 2 and app.: the word is found in a single manuscript (H has 'dementius') and is lacking in L A D E Vc. Valerius has no such word at this point: 'et caput in sinum mulieris extendit et omne agmen in spiram mansuetius colligit' (Kübler p. 9, ll. 20–22)."
+   },
+   {
+    "chapter": 10,
+    "lang": "both",
+    "category": "meaning",
+    "latin": "caput in sinum mulieris … extendit",
+    "ours": "«положил голову ей на колени» / 'laid its head in the woman's lap'",
+    "theirs": "«положил голову женщине на грудь» / 'extended its head into the woman's bosom'",
+    "verdict": "both",
+    "action": "keep",
+    "replace": [],
+    "note_ru": "",
+    "note_en": "",
+    "reason": "'sinus' can mean lap or bosom. 'Lap' has more support from the parallel texts, and in ch. 11 both translations render 'in sinum' as lap/колени. The difference is too slight for a note.",
+    "evidence": "Valerius goes on: 'genibus sinuque mulieris insidens' (Kübler p. 9, l. 22). Greek L: 'ἦλθεν ἐπὶ τὰ γόνατα Ὀλυμπιάδος'; Leo: 'caput posuit in gremium eius' (Kroll p. 10 app. ad ll. 14–15). A has 'τὸ δὲ ὅλον σῶμα πρὸς τὸν κόλπον' (p. 10, l. 15), which is ambiguous."
+   },
+   {
+    "chapter": 10,
+    "lang": "both",
+    "category": "meaning",
+    "latin": "dum primum mecum convenire dignatus est",
+    "ours": "«когда впервые удостоил соединиться со мной» / 'when he first deigned to unite with me'",
+    "theirs": "«когда впервые соблаговолил встретиться со мной» / 'when he first deigned to meet with me'",
+    "verdict": "ours",
+    "action": "keep",
+    "replace": [],
+    "note_ru": "",
+    "note_en": "",
+    "reason": "'convenire cum aliqua' is the usual euphemism for sexual union, and Olympias is speaking of her first night with 'Ammon' (chs. 6–7). 'Meet' loses this.",
+    "evidence": "Greek BC: 'καθὼς ἐδήλωσεν αὐτὸς ὅτε μοι συνῆλθεν' (Zacher p. 13 app.). Compare Vulg. Matt. 1:18 'antequam convenirent' for πρὶν ἢ συνελθεῖν αὐτούς. Kübler supplies this sentence of Valerius from the epitome (p. 10, ll. 4–7 and app.), so it gives no independent evidence."
+   },
+   {
+    "chapter": 10,
+    "lang": "en",
+    "category": "style",
+    "latin": "coniugem acrius increpanti, quod ille conceptus non ex deo foret",
+    "ours": "'was sharply rebuking his wife that what she had conceived was not from a god'",
+    "theirs": "'was reproaching his wife sharply, saying that the child she had conceived was not a god's'",
+    "verdict": "theirs",
+    "action": "replace",
+    "replace": [
+     {
+      "lang": "en",
+      "old": "sharply rebuking his wife that what she had conceived was not from a god",
+      "new": "sharply rebuking his wife, saying that what she had conceived was not from a god"
+     }
+    ],
+    "note_ru": "",
+    "note_en": "",
+    "reason": "'rebuke someone that…' is not idiomatic English. The subjunctive 'foret' presents the charge as Philip's own words, and 'saying that' conveys exactly this. The RU «бранил супругу за то, что…» is fine.",
+    "evidence": "'quod … foret': quod with the subjunctive gives a reason as alleged by the speaker. Valerius has the same construction: 'quod ille conceptus non ex deo mulieri foret' (Kübler p. 9, l. 4)."
+   },
+   {
+    "chapter": 11,
+    "lang": "both",
+    "category": "meaning",
+    "latin": "ubi aves plurimae circumerrarent",
+    "ours": "«где летало множество птиц» / 'where many birds were flying about'",
+    "theirs": "«где вокруг бродило множество птиц» / 'where a great many birds wandered about'",
+    "verdict": "theirs",
+    "action": "replace",
+    "replace": [
+     {
+      "lang": "ru",
+      "old": "где летало множество птиц",
+      "new": "где бродило множество птиц"
+     },
+     {
+      "lang": "en",
+      "old": "where many birds were flying about",
+      "new": "where many birds were wandering about"
+     }
+    ],
+    "note_ru": "",
+    "note_en": "",
+    "reason": "'circumerrare' means 'to wander about' and says nothing about flight. The Greek shows that these are birds Philip keeps, feeding about the grounds, like the hen that hops into his lap. 'Flying' adds an image the Latin does not have.",
+    "evidence": "Greek α 1.11: 'παντοίων ὄρνεων παρ' αὐτοῦ τρεφομένων καὶ ἐν τῷ χωρίῳ νεμομένων' ('birds of every kind kept by him and feeding in the place', Kroll p. 11, ll. 6–8). Valerius 1,11 has the same verb: 'in qua aves plurimae circumerrarent' (Kübler p. 10, ll. 9–10)."
+   },
+   {
+    "chapter": 11,
+    "lang": "ru",
+    "category": "meaning",
+    "latin": "hunc quoque … occasu celeri periturum",
+    "ours": "«быстро погибнет» / 'would quickly perish'",
+    "theirs": "«его постигнет внезапная гибель» / 'would meet a swift death'",
+    "verdict": "ours",
+    "action": "keep",
+    "replace": [],
+    "note_ru": "",
+    "note_en": "",
+    "reason": "'celer' means quick or early. The prophecy is about an early death after a short life. The independent RU «внезапная» ('sudden') changes the sense; its EN 'swift' is acceptable.",
+    "evidence": "Greek α: 'οὗτος δὲ εἰς τὰ ἴδια συστρέφων ὀλιγοχρόνιος τελευτήσει' ('he will die short-lived', Kroll p. 11, ll. 16–17). Valerius: 'occasu celeri periturum' (Kübler p. 10, ll. 26–27)."
+   },
+   {
+    "chapter": 12,
+    "lang": "both",
+    "category": "names-terms",
+    "latin": "gallus et semivir erit qui nascetur",
+    "ours": "«родится галл и полумуж» / 'will be a gallus and a half-man' (explained in note 23)",
+    "theirs": "«будет скопцом, полумужчиной» / 'will be a eunuch, a half-man'",
+    "verdict": "ours",
+    "action": "keep",
+    "replace": [],
+    "note_ru": "",
+    "note_en": "",
+    "reason": "'gallus' is a specific term for a castrated priest of Cybele, not just any eunuch. The published version keeps the term and explains it in note 23. The independent version makes the meaning plain but drops the cultic term.",
+    "evidence": "Valerius has the same words: 'gallus et semivir erit, qui nascetur' (Kübler p. 11, ll. 14–15). Kroll links this to the mention of castration in the Greek astrological speech (Kroll pp. 12–13 app.; published note 22)."
+   },
+   {
+    "chapter": 12,
+    "lang": "both",
+    "category": "meaning",
+    "latin": "uti viseres, omni mundo hac partitudine curam elaboratam",
+    "ours": "«так что можно было видеть: весь мир потрудился ради этого рождения» / 'so that you could see that the whole world had laboured over this birth'",
+    "theirs": "«казалось, что весь мир мучится этими родами» / 'so that it seemed the whole world was suffering the travail of this birth'",
+    "verdict": "ours",
+    "action": "keep",
+    "replace": [],
+    "note_ru": "",
+    "note_en": "",
+    "reason": "'viseres' is a potential subjunctive in the generic 2nd person: 'you could see', an evident sign, not 'it seemed'. In 'curam elaboratam [esse]' with the dative of agent 'omni mundo', the world has taken pains over the birth; the world is not in labour pains. The independent version follows the rejected reading 'laborantem'.",
+    "evidence": "Valerius: 'prorsus ut viseres omni mundo curam cum illa partitudine elaboratam' (Kübler p. 11, ll. 29–30). Kübler's app. ad l. 30: 'curam — elaboratam, correxi Epitomam secutus; cura — laborantem P'. Greek: 'ὥστε τὸν σύμπαντα κόσμον συγκινηθῆναι' (Zacher p. 15 app.)."
+   },
+   {
+    "chapter": 12,
+    "lang": "en",
+    "category": "style",
+    "latin": "secundisque aculeis pulsaretur",
+    "ours": "'and was being driven by fresh pangs'",
+    "theirs": "'when fresh pangs assailed her'",
+    "verdict": "theirs",
+    "action": "replace",
+    "replace": [
+     {
+      "lang": "en",
+      "old": "was being driven by fresh pangs",
+      "new": "was being assailed by fresh pangs"
+     }
+    ],
+    "note_ru": "",
+    "note_en": "",
+    "reason": "'pulsare' means to beat or strike. In English 'driven by' suggests a motive, not pain that batters her. 'Assailed' keeps the image. The RU «стали терзать новые схватки» is fine.",
+    "evidence": "Valerius: 'Atque cum obdurasset mulier obfirmatius secundisque aculeis pulsaretur' (Kübler p. 11, ll. 12–13). OLD s.v. pulso: 'to strike, beat, batter'."
+   },
+   {
+    "chapter": 13,
+    "lang": "both",
+    "category": "construction",
+    "latin": "formatum pedibus ad Pegasi fabulam et si equi fuisse Laomedonti eiusmodi praedicantur",
+    "ours": "«а ногами сложён как сказочный Пегас и как, по преданию, кони Лаомедонта» / 'shaped in his legs like the Pegasus of fable, and like the horses that Laomedon is said to have had'",
+    "theirs": "«подобен сказочному Пегасу и коням Лаомедонта, если те действительно были такими, как о них рассказывают» / 'and the horses of Laomedon, if those horses were indeed as they are said to have been'",
+    "verdict": "ours",
+    "action": "keep",
+    "replace": [],
+    "note_ru": "",
+    "note_en": "",
+    "reason": "'et si qui / si equi … praedicantur' is a generalising relative ('si qui' = 'whatever, any that'). The sense is '[like] such horses as Laomedon is said to have had'. The independent version's 'if they really were as told' adds a doubt about the legend that the Latin does not express. The published rendering matches the sense, and its doubt entry records the difficulty.",
+    "evidence": "Zacher p. 17 app.: 'et si equi R. et si qui HLABE'. Valerius: 'et si equi fuisse Laomedonti eiusmodi praedicantur' (Kübler p. 13, l. 29 – p. 14, l. 1); app.: 'si equi Epit. Zach. equi T. si qui P'. For 'si quis' as a generalising relative (= quicumque), see the standard grammars, e.g. Allen & Greenough on conditional relative clauses."
+   },
+   {
+    "chapter": 13,
+    "lang": "ru",
+    "category": "style",
+    "latin": "philosophiae Aristoteles ille Milesius",
+    "ours": "«философии — тот самый Аристотель „Милетский“»",
+    "theirs": "«философии — тот самый Аристотель «Милетский»»",
+    "verdict": "theirs",
+    "action": "replace",
+    "replace": [
+     {
+      "lang": "ru",
+      "old": "тот самый Аристотель „Милетский“",
+      "new": "тот самый Аристотель «Милетский»"
+     }
+    ],
+    "note_ru": "",
+    "note_en": "",
+    "reason": "This is a typographic point. In the published RU, „…“ is used only for quotations inside «…» (e.g. ch. 4 «…знаток „математики“…»). Here the word stands in narrative, so it needs the primary quotation marks «».",
+    "evidence": "Published RU, ch. 4: «Ты ли тот самый Нектанеб, знаток „математики“…» (nested). In ch. 13 the word is not inside a quotation."
+   },
+   {
+    "chapter": 15,
+    "lang": "both",
+    "category": "construction",
+    "latin": "is demum tuis omnique orbe potietur",
+    "ours": "«лишь тот овладеет твоим [царством] и всем миром» / 'he alone shall possess your [kingdom] and the whole world'",
+    "theirs": "«Твоими владениями и всем миром овладеет тот…» / 'will possess your dominions and the whole world'",
+    "verdict": "theirs",
+    "action": "replace",
+    "replace": [
+     {
+      "lang": "ru",
+      "old": "лишь тот овладеет твоим [царством] и всем миром",
+      "new": "лишь тот получит во власть твои [владения] и весь мир"
+     },
+     {
+      "lang": "en",
+      "old": "he alone shall possess your [kingdom] and the whole world",
+      "new": "he alone shall possess your [dominions] and the whole world"
+     }
+    ],
+    "note_ru": "",
+    "note_en": "",
+    "reason": "'tuis' is a plural used as a noun ('your possessions / your people'). A supplied singular noun such as 'kingdom' would need 'tuo'. The plural 'владения / dominions' fits the grammar and still gives the sense of succession to the realm. The ch. 15 doubt entry ('your [kingdom]') should be changed to match.",
+    "evidence": "Grammar: 'tuis' is an ablative plural governed by 'potiri'. Valerius has the same text: 'is demum tuis omnique orbe potietur et hasta omnia subiugabit' (Kübler p. 16, ll. 18–19). Greek α frames the question as 'τίς ἄρα μετ' αὐτὸν βασιλεύσει καὶ δόρατι πάντας ὑποτάξει' (Kroll p. 15, ll. 26–27), so 'dominions' keeps the reference to the realm."
+   }
+  ]
+ },
+ {
+  "overview": "I checked all 36 notes in GPT-6 Astra's independent translation against the published notes (book1.json v0.2) and against the sources: the archive.org OCR of Zacher 1867, Kübler 1888 and Kroll 1926, Plutarch and Diodorus on LacusCurtius, and Arrian in Chinnock's translation on Wikisource. None of its notes is factually wrong. Most of them (27) repeat what the published notes, glosses or doubts already say.\n\nNine notes are new, correct and worth having:\n- **Three new notes**, all historical comparisons that the edition already makes elsewhere: Plutarch's version of the Bucephalus taming (ch. 17), the real order of events and different cause at Tyre (ch. 35), and the real date of the destruction of Thebes, 335 BC, before the Asian campaign (ch. 46).\n- **Six merges into existing notes:**\n  - Kroll's α chain of transformations, ending with the god \"bearing my features\", goes into note 12.\n  - Zacher's \"contexere?\", based on the Greek καταρράπτειν (\"sew up\"), and the single interpreter in α and Valerius go into note 16. These two independent notes and contradiction 1 below all produce the same new text for note 16.\n  - The teachers' places of origin in Valerius go into note 25.\n  - Plutarch's range of army figures goes into note 47.\n  - α's explicit naming of the Isthmian Games goes into note 71.\n\nFour independent notes (#11 \"et post HD / perque R\", #20 no javelin throw, #21 D's \"tributarios\", #34 D's omissions in ch. 47) are verified and correct, but they are trivial or record single-manuscript rewritings. The schema has no \"correct but not worth adding\" verdict, so they are marked already-covered: the published text or doubts already deal with the point itself. Their evidence fields say this explicitly.\n\n**Contradictions:** two, both minor.\n1. Note 16 says that in Valerius several interpreters speak. In Kübler one does (\"Tum interpres\", p. 7, l. 23), as in α (ὀνειροπόλον).\n2. Note 26 calls Alexander \"двенадцатилетний / twelve-year-old\". Both the Epitome and Valerius have \"annum duodecimum agens\", i.e. eleven years old, and the published translation itself correctly says «шёл двенадцатый год».\n\n**Doubts:** none of the 89 points to a difficulty that the published translation neither handles nor marks. Almost all have a matching published doubt or note. The rest are routine choices that the published text renders without problems. Two I checked against Valerius:\n- D75 \"te solum\": Valerius has \"Latuitne te solum, Alexander, Darii nomen\", which supports the published \"от одного тебя\".\n- D65 \"primates\": Valerius has \"lectis Tyrii primates legatos … corripi iubent\", the reading both translations follow.\n\n**Before publishing:** two Curtius references in the new ch. 35 note were not read in a text of Curtius.\n- 4.2.15: the Latin was confirmed only through a quotation in a scholarly article.\n- 4.4.17: the location was confirmed only through a citation in the RE \"Crux\" article.\n\nPlease check both against an edition of Curtius, or drop the Curtius sentences.",
+  "additions": [
+   {
+    "chapter": 2,
+    "independent_note": "α's list lacks Indians, Phoenicians, Parthians, Assyrians; Kroll's apparatus gives Indians in Arm. and Latin and calls the other three Valerius' addition.",
+    "verdict": "already-covered",
+    "target_note_n": 4,
+    "ru": "",
+    "en": "",
+    "source": "Kroll 1926, p. 2, app. to ll. 1–4",
+    "evidence": "Published note 4 says exactly this. Kroll p. 2 app. (checked): 'Val, qui de suo add. Phoenicesque Parthos et Assyrios'; 'Ἰνδοὶ Arm. Val.'."
+   },
+   {
+    "chapter": 3,
+    "independent_note": "Kübler supplies the opening from the Epitome; the Turin palimpsest begins only at 'longe celebratior'.",
+    "verdict": "already-covered",
+    "target_note_n": 1,
+    "ru": "",
+    "en": "",
+    "source": "Kübler 1888, p. 2 and app.",
+    "evidence": "Published note 1 (and note 5) say the same: chs. 1–3 of Valerius are Kübler's supplement from the Epitome; T begins at 'longe celebratior' in ch. 4."
+   },
+   {
+    "chapter": 4,
+    "independent_note": "Mathesis = astrology; horoscopus = token of the ascendant; constellatio = horoscope as arrangement of the stars.",
+    "verdict": "already-covered",
+    "target_note_n": 0,
+    "ru": "",
+    "en": "",
+    "source": "Zacher 1867, pp. 3–7; glossary.json",
+    "evidence": "The published text already glosses these in brackets: «знаток „математики“ [астрологии]», «гороскоп [знак асцендента]» / 'horoscope [the marker of the ascendant]'. constellatio is rendered «собственному расположению светил» / 'his own nativity' and explained in note 8. The glossary has the same entries. No note needed."
+   },
+   {
+    "chapter": 4,
+    "independent_note": "'Own horoscope' is Nectanebo's; in Valerius he asks for Olympias' or Philip's nativity and adds his own to test compatibility and his desire; the Epitome drops this.",
+    "verdict": "already-covered",
+    "target_note_n": 8,
+    "ru": "",
+    "en": "",
+    "source": "Kübler 1888, p. 3",
+    "evidence": "Published note 8 says exactly this ('просит у Олимпиады её гороскоп (или Филиппов) и прикладывает к нему свой … корыстный расчёт')."
+   },
+   {
+    "chapter": 6,
+    "independent_note": "Valerius 'dei mox aderit' vs Epitome 'deus ipse aderit'; Epitome omits the lamps and the veil/sidelong look.",
+    "verdict": "already-covered",
+    "target_note_n": 12,
+    "ru": "",
+    "en": "",
+    "source": "Kübler 1888, p. 5",
+    "evidence": "Note 12 covers dei mox / deus ipse. Note 11 covers the lamps, veil and sidelong look. Kübler p. 5: 'Praecursor tibi, inquit, dei mox' (checked)."
+   },
+   {
+    "chapter": 6,
+    "independent_note": "In α the god first becomes a serpent, then Ammon, Heracles, Dionysus, and finally appears in human form with Nectanebo's own features; the Epitome keeps only the serpent and the recognition of the face seen in the dream.",
+    "verdict": "merge",
+    "target_note_n": 12,
+    "ru": "«Praecursor tibi deus ipse aderit»: у Валерия «Praecursor tibi dei mox aderit» — «скоро к тебе явится предвестник бога», то есть змей. В эпитоме предвестником назван сам бог; это может быть и порча «dei mox», и стяжение с предыдущей фразой Валерия («Aderit tamen ipse etiam ad te deus»); заметим, что в греческом α 1.6 сам бог «приходит к тебе сначала в виде змея» (γίνεται πρῶτον δράκων), так что чтение эпитомы ближе к греческому. Дальше в α Нектанеб обещает целую череду превращений: затем бог станет рогатым Аммоном, потом Гераклом, потом Дионисом и наконец явится в человеческом облике, «имея мои черты» (τοὺς ἐμοὺς τύπους ἔχων). По аппарату Кролля, все прочие версии, кроме сирийской, этот перечень сокращают; в эпитоме от него остался лишь наказ проверить, тот ли это лик, что был во сне.",
+    "en": "‘Praecursor tibi deus ipse aderit’: Valerius has ‘Praecursor tibi dei mox aderit’, ‘a forerunner of the god will soon come to you’, i.e. the serpent. In the epitome the god himself is the forerunner; this may be a corruption of ‘dei mox’ or a conflation with Valerius’ preceding sentence (‘Aderit tamen ipse etiam ad te deus’); note that in the Greek α 1.6 the god himself ‘comes to you first as a serpent’ (γίνεται πρῶτον δράκων), so the epitome’s wording is actually closer to the Greek. α goes on to promise a whole series of transformations: the god will then become horned Ammon, then Heracles, then Dionysus, and at last appear in human form ‘bearing my features’ (τοὺς ἐμοὺς τύπους ἔχων). According to Kroll’s apparatus, all the other versions except the Syriac shorten this list; in the epitome all that remains of it is the instruction to check whether the face is the one seen in the dream.",
+    "source": "Iul. Val. 1,6 (Kübler 1888, p. 5); Ps.-Call. α 1.6 (Kroll 1926, p. 7, ll. 7–10 with app.)",
+    "evidence": "Kroll p. 7, ll. 7–10 (checked): 'ὁ γὰρ θεὸς οὗτος ἐρχόμενος πρὸς σὲ γίνεται πρῶτον δράκων ἐπὶ γῆς ἕρπων συρισμὸν πέμπων, εἶτα ἀλλάσσεται εἰς κεραὸν Ἄμμωνα, εἶτα εἰς ἄλκιμον Ἡρακλέα, εἶτα εἰς θυρσοκόμον Διόνυσον· εἶτα συνελθὼν ἀνθρωποειδὴς θεὸς ἐμφανίζεται τοὺς ἐμοὺς τύπους ἔχων'. Apparatus: 'ὁ γὰρ — 10 ἔχων contrahunt cett. pr. Syr.' Note 12 already quotes 'γίνεται πρῶτον δράκων' but not the chain or 'τοὺς ἐμοὺς τύπους'. The chain explains the Epitome's 'explora vultum illum, quem iam in somnio praevidisti'."
+   },
+   {
+    "chapter": 7,
+    "independent_note": "In Valerius Nectanebo tames a separate serpent; the Epitome speaks of 'the rest of the body' made like a serpent.",
+    "verdict": "already-covered",
+    "target_note_n": 13,
+    "ru": "",
+    "en": "",
+    "source": "Kübler 1888, pp. 5–6",
+    "evidence": "Published note 13 makes the same point, and the published doubt on 'effecitque … reliquum corpus' does too. Kroll p. 7 app. (Arm.: 'λαβὼν δράκοντα ἐποίησεν αὐτὸν ἀσθενῆ … mansuetum … Val') confirms."
+   },
+   {
+    "chapter": 8,
+    "independent_note": "Zacher prints 'contegere' but suggests 'contexere?' in the apparatus; translation follows 'contegere'.",
+    "verdict": "merge",
+    "target_note_n": 16,
+    "ru": "В греческом α 1.8 Филипп призывает одного толкователя снов (ὀνειροπόλον), и тот говорит, что папирус растёт «нигде, кроме Египта»; у Валерия толкователь («Tum interpres»), а вслед за ним в эпитоме толкователи говорят «кроме нашей земли», словно сами египтяне. В греческом бог во сне «зашивает» лоно Олимпиады папирусом (καταρράπτειν); отсюда осторожная догадка Цахера в аппарате — «contexere?» («сплести, сшить»). Но рукописи эпитомы и Валерий дают «contegere» («покрыть»), и перевод следует им. Эпитоматор выпустил конец главы Валерия, где объяснено недовольство Филиппа (в тексте Кюблера: он думает, что жена зачала от человека).",
+    "en": "In the Greek α 1.8 Philip summons a single dream interpreter (ὀνειροπόλον), who says that papyrus grows ‘nowhere except in Egypt’; in Valerius the interpreter (‘Tum interpres’), and after him in the epitome the interpreters, say ‘except in our land’, as if they were Egyptians themselves. In the Greek the god in the dream ‘sews up’ Olympias’ womb with papyrus (καταρράπτειν); hence Zacher’s tentative suggestion in his apparatus, ‘contexere?’ (‘to weave, stitch together’). But the epitome manuscripts and Valerius have ‘contegere’ (‘to cover’), and the translation follows them. The epitomator dropped the end of Valerius’ chapter, which explains Philip’s displeasure (in Kübler’s text: he believes his wife conceived by a man).",
+    "source": "Ps.-Call. α 1.8 (Kroll 1926, p. 9, ll. 3–4, 7); Iul. Val. 1,8 (Kübler 1888, pp. 7–8 with app.); Zacher 1867, p. 10, app. to l. 14; p. 11, app. to l. 3",
+    "evidence": "Zacher p. 10, app. to l. 14 (checked): 'contegere HLABDEVc. contexere?', followed directly by the Greek 'Ὑπενόησε δὲ … τὴν φύσιν αὐτῆς Νειλώᾳ βίβλῳ καταρράπτειν αὐτὸν AL'. So the conjecture rests on καταρράπτειν. Kroll p. 9, l. 3: 'Νειλώᾳ βίβλῳ καταρράπτειν'. Kübler p. 7, l. 18: 'virginal biblo contegere'. The independent note is correct. Merged with the next item into one rewritten note 16 (same text as contradiction 1)."
+   },
+   {
+    "chapter": 8,
+    "independent_note": "In α Philip summons a single interpreter who says papyrus grows only 'in Egypt'; the Epitome has several interpreters and 'our land'.",
+    "verdict": "merge",
+    "target_note_n": 16,
+    "ru": "В греческом α 1.8 Филипп призывает одного толкователя снов (ὀνειроπόλον), и тот говорит, что папирус растёт «нигде, кроме Египта»; у Валерия толкователь («Tum interpres»), а вслед за ним в эпитоме толкователи говорят «кроме нашей земли», словно сами египтяне. В греческом бог во сне «зашивает» лоно Олимпиады папирусом (καταρράπτειν); отсюда осторожная догадка Цахера в аппарате — «contexere?» («сплести, сшить»). Но рукописи эпитомы и Валерий дают «contegere» («покрыть»), и перевод следует им. Эпитоматор выпустил конец главы Валерия, где объяснено недовольство Филиппа (в тексте Кюблера: он думает, что жена зачала от человека).",
+    "en": "In the Greek α 1.8 Philip summons a single dream interpreter (ὀνειροπόλον), who says that papyrus grows ‘nowhere except in Egypt’; in Valerius the interpreter (‘Tum interpres’), and after him in the epitome the interpreters, say ‘except in our land’, as if they were Egyptians themselves. In the Greek the god in the dream ‘sews up’ Olympias’ womb with papyrus (καταρράπτειν); hence Zacher’s tentative suggestion in his apparatus, ‘contexere?’ (‘to weave, stitch together’). But the epitome manuscripts and Valerius have ‘contegere’ (‘to cover’), and the translation follows them. The epitomator dropped the end of Valerius’ chapter, which explains Philip’s displeasure (in Kübler’s text: he believes his wife conceived by a man).",
+    "source": "Ps.-Call. α 1.8 (Kroll 1926, p. 9, l. 7); Iul. Val. 1,8 (Kübler 1888, p. 7, ll. 11, 23 with app.); Zacher 1867, p. 11, app. to l. 3",
+    "evidence": "Kroll p. 9, l. 7 (checked): 'μεταπεμψάμενος ὀνειροπόλον διηγεῖται … ὁ δέ φησι' (one interpreter). Kübler p. 7, l. 23: 'Tum interpres: O Philippe …'. At l. 11 'interprete' is Berger de Xivrey's conjecture; T P have 'interpretes'. Zacher p. 11, app. l. 3: 'interpres LVc'. The 'our land' point is already in note 16, but note 16 wrongly makes the interpreters plural in Valerius (see contradiction 1). The RU text is identical to the previous item; the Greek word must read ὀνειροπόλον in both."
+   },
+   {
+    "chapter": 10,
+    "independent_note": "[clementius] is Zacher's own bracket; omitted in L A D E Vc, B clementius, H dementius; translation keeps word and brackets.",
+    "verdict": "already-covered",
+    "target_note_n": 18,
+    "ru": "",
+    "en": "",
+    "source": "Zacher 1867, p. 13 app.",
+    "evidence": "Note 18 gives the same apparatus facts: only B has it; H has 'dementius'. Zacher app. (checked): 'clementius B. dementius H. fehlt LA[D]EVc'. Translating without the word, as the published version does, is the consistent choice for a word Zacher brackets as spurious."
+   },
+   {
+    "chapter": 11,
+    "independent_note": "At 'post … circuisse' Zacher's apparatus gives 'et post' HD and 'perque' R; translation takes post as 'then'.",
+    "verdict": "already-covered",
+    "target_note_n": 0,
+    "ru": "",
+    "en": "",
+    "source": "Zacher 1867, p. 14, app. to l. 16",
+    "evidence": "Correct: Zacher p. 14, app. l. 16 reads 'et post HD. perque R.' (checked). Not in the published notes, but the published doubt on this sentence already flags the anacoluthon, and the translation renders the sequence. The scribal patches add nothing for the reader, so no note is needed."
+   },
+   {
+    "chapter": 12,
+    "independent_note": "α's speech is nearly two pages; the Epitome keeps two warnings and the auspicious moment; Kroll says the chapter is already much abbreviated in Valerius.",
+    "verdict": "already-covered",
+    "target_note_n": 22,
+    "ru": "",
+    "en": "",
+    "source": "Kroll 1926, pp. 11–13 with app.",
+    "evidence": "Note 22 says the same: 'У Валерия, а за ним и в эпитоме она сведена к трём коротким репликам', with Kroll's apparatus."
+   },
+   {
+    "chapter": 13,
+    "independent_note": "'Of Miletus' follows the Latin; Plutarch gives Stageira as Aristotle's birthplace and says Philip restored it.",
+    "verdict": "already-covered",
+    "target_note_n": 25,
+    "ru": "",
+    "en": "",
+    "source": "Plut. Alex. 7.2–3",
+    "evidence": "Note 25 already says Aristotle was from Stagira and that 'Μιλήσιος' is in α. Plutarch 7.3 (checked on LacusCurtius) says Philip restored Stageira; that detail is not needed here."
+   },
+   {
+    "chapter": 13,
+    "independent_note": "In the Laomedon comparison the apparatus gives 'et si qui' HLABE and 'et si equi' R; the horse's legs, not wings, are compared.",
+    "verdict": "already-covered",
+    "target_note_n": 24,
+    "ru": "",
+    "en": "",
+    "source": "Zacher 1867, p. 17 app.",
+    "evidence": "The published doubt on 'formatum pedibus … et si equi' already records: 'et si equi is R's reading (others et si qui)'. Note 24 discusses the Laomedon clause at length. The published translation also keeps 'ногами сложён как сказочный Пегас', with no wings."
+   },
+   {
+    "chapter": 13,
+    "independent_note": "'Milesius' is already in Valerius; Valerius also calls Alcippus a Lemnian, Menecles a Peloponnesian, Anaximenes son of Aristocles of Lampsacus.",
+    "verdict": "merge",
+    "target_note_n": 25,
+    "ru": "У Валерия левый глаз «серо-голубой и подобный небу» (glauca atque coeli similis); в эпитоме — «серо-голубой и непохожий» (dissimili), видимо, из-за порчи «coeli similis». Кормилица «Алакринис» — искажённое имя Ланики (Λανίκη), сестры Клита Чёрного (Кролль). У Валерия учителя названы с указанием родины (так и в греческом α): Алкипп — лемносец, Менекл — пелопоннесец, Анаксимен, сын Аристокла, — из Лампсака; эпитоматор сохранил такое указание лишь у Аристотеля. «Милетским» его называет уже греческий α (Μιλήσιος), хотя он из Стагиры.",
+    "en": "In Valerius the left eye is ‘grey-blue and like the sky’ (glauca atque coeli similis); the epitome has ‘grey-blue and unlike’ (dissimili), apparently from a corruption of ‘coeli similis’. The nurse ‘Alacrinis’ is a garbled form of Lanice (Λανίκη), sister of Cleitus the Black (Kroll). In Valerius (and likewise in the Greek α) the teachers are named with their places of origin: Alcippus of Lemnos, Menecles of the Peloponnese, Anaximenes son of Aristocles of Lampsacus; the epitomator keeps such a label only for Aristotle. He is already called ‘of Miletus’ (Μιλήσιος) in the Greek α, though he came from Stagira.",
+    "source": "Iul. Val. 1,13 (Kübler 1888, p. 12, ll. 16–28); Zacher 1867, p. 16 app.; Kroll 1926, p. 14, ll. 5–8 with app.",
+    "evidence": "Kübler p. 12, ll. 25–28 (checked): 'musices Alcippus Lemnius, geometriae Menecles Peloponnesius, oratoriae Anaximenes Aristocli Lampsacenus, philosophiae autem Aristoteles ille Milesius'. Kroll p. 14 (A: 'μουσικῆς δὲ Λήμνιος Ἄλκιππος, γεωμετρίας Πελοποννήσιος …'; app.: 'Ἀναξιμένης Ἀριστοκλέους Λαμψακηνὸς ex Arm. B' Val.', 'Μιλήσιος etiam Val.'). This explains why only Aristotle bears a place of origin in the Epitome. It is a short, cheap addition to note 25."
+   },
+   {
+    "chapter": 14,
+    "independent_note": "'annum duodecimum agens' = the twelfth year is still in progress; the same formula in chs. 17–18.",
+    "verdict": "already-covered",
+    "target_note_n": 0,
+    "ru": "",
+    "en": "",
+    "source": "Zacher 1867, pp. 18, 21",
+    "evidence": "The published translation already renders it precisely: «шёл уже двенадцатый год» / 'in his twelfth year', likewise in chs. 17–18. The note does, however, expose an inconsistency in published note 26 («двенадцатилетнему сыну»); see contradictions."
+   },
+   {
+    "chapter": 17,
+    "independent_note": "In Plutarch Alexander tames Bucephalus by noticing his fear of his shadow and turning him to the sun; no man-eating, no Pella oracle.",
+    "verdict": "add",
+    "target_note_n": 0,
+    "ru": "Ср. у Плутарха («Александр», 6): Буцефала привёл на продажу фессалиец Филоник, прося за него тринадцать талантов. Конь никого к себе не подпускал; Александр заметил, что он пугается собственной тени, повернул его к солнцу и так укротил. Филипп прослезился от радости и сказал: «Сын мой, ищи себе царства по себе: Македония для тебя мала». Ни людоедства, ни оракула у Плутарха нет.",
+    "en": "Compare Plutarch (Alexander 6): Bucephalus was brought for sale by Philonicus the Thessalian, who asked thirteen talents for him. The horse would let no one near him; Alexander noticed that he was frightened by his own shadow, turned him towards the sun and so mastered him. Philip wept for joy and said: ‘My son, seek a kingdom equal to yourself: Macedonia has no room for you.’ Plutarch has neither the man-eating nor the oracle.",
+    "source": "Plut. Alex. 6",
+    "evidence": "Checked on LacusCurtius (Loeb): 'Philoneicus the Thessalian brought Bucephalas, offering to sell him to Philip for thirteen talents'; 'disturbed by the sight of his own shadow'; 'turned him towards the sun'; 'seek thee out a kingdom equal to thyself; Macedonia has not room for thee'. No published note on chs. 13, 15 or 17 gives the historical version. This matches the edition's other Plutarch comparisons (notes 15, 19, 36, 38). Philip's saying echoes the Romance's 'totius orbis dominum'."
+   },
+   {
+    "chapter": 21,
+    "independent_note": "In Plutarch the cup is thrown at Attalus, Cleopatra's uncle; Philip falls from drink and anger. Here Lysias and a leg wound.",
+    "verdict": "already-covered",
+    "target_note_n": 38,
+    "ru": "",
+    "en": "",
+    "source": "Plut. Alex. 9.6–10",
+    "evidence": "Note 38 gives the same Plutarch account (Attalus, the bride's uncle; the cup; Philip stumbles) and the missing 'labitur'."
+   },
+   {
+    "chapter": 23,
+    "independent_note": "'Earth and water' are called tribute; Alexander answers as if payment were demanded for the elements themselves.",
+    "verdict": "already-covered",
+    "target_note_n": 42,
+    "ru": "",
+    "en": "",
+    "source": "Zacher 1867, pp. 25–26",
+    "evidence": "Note 42 explains earth and water as the Persian demand for submission (Hdt. 6.48). The published translation keeps Alexander's literal retort («Неужто персы продают смертным эти стихии…»). Nothing to add."
+   },
+   {
+    "chapter": 24,
+    "independent_note": "No javelin throw and no capture of Pausanias are narrated; the story jumps to bringing him to Philip.",
+    "verdict": "already-covered",
+    "target_note_n": 44,
+    "ru": "",
+    "en": "",
+    "source": "Zacher 1867, pp. 26–27; Kübler 1888, p. 28",
+    "evidence": "Correct, but this is not an Epitome gap that needs a note. Valerius has no throw either: 'Enimvero Alexander nullo impetu vinci, sed cum spirare etiam tunc patrem … comperisset' (Kübler p. 28, l. 12, checked). The published translation renders the passage as it stands, and notes 43–44 already cover the comparison with Valerius."
+   },
+   {
+    "chapter": 25,
+    "independent_note": "Manuscript D reads 'qui nos pridem tributarios optaverunt', clarifying the grievance.",
+    "verdict": "already-covered",
+    "target_note_n": 0,
+    "ru": "",
+    "en": "",
+    "source": "Zacher 1867, p. 27, app. to l. 16",
+    "evidence": "Correct: Zacher app. (checked) has 'Mihi quippe nunc videtur prius bella in eos mouere qui nos pridem tributarios optauerunt. D.'. But D rewrites the whole sentence, as it often does, and this is a scribe's paraphrase, not a reading. The underlying difficulty (zeugma of 'spoliare' with 're … libertate') is handled by the published doubt and the bracketed «[лишал]» / '[despoiled]'. Valerius ('qui nos iampridem re, nunc vero spoliare pergunt etiam libertate', Kübler p. 29) supports the published reading. No note needed."
+   },
+   {
+    "chapter": 26,
+    "independent_note": "The new levies total 26,500; 70,604 includes the veteran troops.",
+    "verdict": "already-covered",
+    "target_note_n": 46,
+    "ru": "",
+    "en": "",
+    "source": "Zacher 1867, pp. 27–28",
+    "evidence": "Note 46 gives 26,500. The translation renders 'cum veteri milite' («соединив это число со старым войском»)."
+   },
+   {
+    "chapter": 26,
+    "independent_note": "Plutarch's estimates of the initial army range from 30,000 foot and 4,000 horse to 43,000 and 5,000.",
+    "verdict": "merge",
+    "target_note_n": 47,
+    "ru": "Исторически Александр переправился в Азию с пехотой «немногим больше тридцати тысяч» и с конницей «свыше пяти тысяч» (Арриан, «Поход Александра», 1, 11, 3). Плутарх («Александр», 15, 1) приводит разброс оценок: от 30 000 пехотинцев и 4000 всадников до 43 000 пехотинцев и 5000 всадников.",
+    "en": "Historically Alexander crossed into Asia with ‘not much more than thirty thousand’ foot and ‘over five thousand’ horse (Arrian, Anabasis 1.11.3). Plutarch (Alexander 15.1) gives a range of estimates, from 30,000 foot and 4,000 horse to 43,000 foot and 5,000 horse.",
+    "source": "Arr. Anab. 1.11.3; Plut. Alex. 15.1",
+    "evidence": "Plutarch 15.1 (checked on LacusCurtius): 'those who put it at the smallest figure mention thirty thousand foot and four thousand horse; those who put it at the highest, forty-three thousand foot and five thousand horse'. It is a one-sentence addition to note 47 and shows how far the Romance's 70,604 is from any ancient estimate."
+   },
+   {
+    "chapter": 29,
+    "independent_note": "The Latin itself identifies Lycaonia with Lucania; the translation keeps it and the Sicily–Italy route.",
+    "verdict": "already-covered",
+    "target_note_n": 48,
+    "ru": "",
+    "en": "",
+    "source": "Zacher 1867, p. 28",
+    "evidence": "Note 48 explains the gloss (α A Lycaonia, Ausfeld Lucania, Valerius' reconciling gloss kept by the epitomator), and note 49 covers the Italian route historically."
+   },
+   {
+    "chapter": 35,
+    "independent_note": "'valete … non valebitis' turns the farewell into a threat; translations keep the play.",
+    "verdict": "already-covered",
+    "target_note_n": 54,
+    "ru": "",
+    "en": "",
+    "source": "Zacher 1867, p. 30",
+    "evidence": "Note 54 ends: 'игра слов «valete — valebitis» сохранена'. The published translation keeps it («Будьте здоровы… здоровы не будете»)."
+   },
+   {
+    "chapter": 35,
+    "independent_note": "Plutarch places the seven-month siege of Tyre before Egypt; here it follows Egypt.",
+    "verdict": "add",
+    "target_note_n": 0,
+    "ru": "Исторически порядок обратный: Тир Александр взял после семимесячной осады в 332 г. до н. э., ещё до похода в Египет (Плутарх, «Александр», 24–26; Арриан, 2, 15–24; 3, 1). Иным был и повод: тирийцы готовы были повиноваться, но не впустили в город Александра, желавшего принести жертву Гераклу Тирийскому (Арриан, 2, 16, 7). Убийство послов знает Курций Руф: глашатаев, призывавших тирийцев к миру, убили и сбросили в море (4, 2, 15). Распятие у него тоже есть, но наоборот: после взятия города Александр распял две тысячи тирийцев вдоль берега (4, 4, 17).",
+    "en": "Historically the order is reversed: Alexander took Tyre after a seven-month siege in 332 BC, before the expedition to Egypt (Plutarch, Alexander 24–26; Arrian 2.15–24; 3.1). The occasion was different too: the Tyrians were ready to obey, but would not admit Alexander into the city when he wished to sacrifice to the Tyrian Heracles (Arrian 2.16.7). Curtius Rufus knows of murdered envoys: the heralds who urged the Tyrians to make peace were killed and thrown into the sea (4.2.15). He has crucifixion too, but the other way round: after the capture Alexander crucified two thousand Tyrians along the shore (4.4.17).",
+    "source": "Plut. Alex. 24.5; 25–26; Arr. Anab. 2.15.6–2.16.7; 2.24; 3.1; Curt. 4.2.15; 4.4.17",
+    "evidence": "Plutarch 24.5 (checked): 'Tyre he besieged for seven months'; 25.4 Gaza; 26 Egypt; the editor dates the siege to Jan.–Aug. 332. Arrian 2.16.7 (Wikisource, Chinnock, checked): the Tyrians 'passed a decree to obey any other command of Alexander' but would not 'admit into the city any Persian or Macedonian'. Curtius 4.2.15 Latin ('caduceatores … quos Tyrii contra ius gentium occisos praecipitaverunt in altum') was confirmed through a scholarly quotation. Curtius 4.4.17 (crucifixion of 2000) was confirmed only as a reference in RE 'Crux'; verify both against an edition, or drop the Curtius sentences. Note 53 covers Valerius only; no published note gives the historical order or cause."
+   },
+   {
+    "chapter": 35,
+    "independent_note": "The Epitome removes the Tyrians' motive (prophecy) and the purpose of torturing the envoys (to find which is Alexander).",
+    "verdict": "already-covered",
+    "target_note_n": 53,
+    "ru": "",
+    "en": "",
+    "source": "Kübler 1888, pp. 46–47",
+    "evidence": "Note 53 says exactly this: the oracle about a king passing through with an army, the torture to learn which envoy is Alexander, and 'В эпитоме пытки остались без причины'."
+   },
+   {
+    "chapter": 36,
+    "independent_note": "Darius' titles shortened: Valerius adds 'throne-companion of Mithras, rising with the sun'.",
+    "verdict": "already-covered",
+    "target_note_n": 56,
+    "ru": "",
+    "en": "",
+    "source": "Kübler 1888, p. 47",
+    "evidence": "Note 56 opens with this (and note 58 repeats it for Alexander's reply)."
+   },
+   {
+    "chapter": 38,
+    "independent_note": "Alexander turns Darius' mockery into an omen: strap = power over subjects, ball = world, gold = future spoils; the opening is ironic.",
+    "verdict": "already-covered",
+    "target_note_n": 58,
+    "ru": "",
+    "en": "",
+    "source": "Zacher 1867, pp. 31–32",
+    "evidence": "The letter states this outright, and the published translation renders it in full («как бы при добром предзнаменовании…»). Note 58 compares it with Valerius. No note needed."
+   },
+   {
+    "chapter": 39,
+    "independent_note": "The satraps' garbled reply has a clearer counterpart in Vb: 'Miramur satis, latuisse te, rex, tantae multitudinis impetum supervenire nostratibus'.",
+    "verdict": "already-covered",
+    "target_note_n": 61,
+    "ru": "",
+    "en": "",
+    "source": "Zacher 1867, p. 33, app. to l. 7",
+    "evidence": "Note 61 says the reply is garbled compared with Valerius. The published doubt on 'atque e multitudinis impetu…' quotes Valerius: 'latuisse te tantae multitudinis impetum supervenire nostratibus'. Zacher app. (checked) has the Vb wording as quoted."
+   },
+   {
+    "chapter": 41,
+    "independent_note": "Plutarch also tells of the capture of Darius' mother, wife and two daughters and their royal treatment.",
+    "verdict": "already-covered",
+    "target_note_n": 65,
+    "ru": "",
+    "en": "",
+    "source": "Plut. Alex. 21.1–4",
+    "evidence": "Note 65 assigns the capture of the family to Issus, citing Arrian 2.11–12. Adding Plutarch would duplicate it."
+   },
+   {
+    "chapter": 42,
+    "independent_note": "Zacher prints Scamander; Mai and Müller corrected to Cassander; the translation keeps the printed name.",
+    "verdict": "already-covered",
+    "target_note_n": 66,
+    "ru": "",
+    "en": "",
+    "source": "Zacher 1867, p. 35 app.",
+    "evidence": "Note 66 says the same and adds that LBC also have Scamander. Zacher app. (checked): 'ad Cassandrum Mai, Müll.'."
+   },
+   {
+    "chapter": 46,
+    "independent_note": "In Plutarch the destruction of Thebes precedes the Asian expedition; here it follows the encounter with Darius.",
+    "verdict": "add",
+    "target_note_n": 0,
+    "ru": "Исторически Фивы восстали при ложном слухе о гибели Александра и были взяты и разрушены осенью 335 г. до н. э., ещё до похода в Азию (Арриан, 1, 7–9; Плутарх, «Александр», 11): убитых было больше шести тысяч, проданных в рабство — больше тридцати тысяч; пощадили жрецов, гостеприимцев македонян и потомков Пиндара. Роман переносит разрушение Фив за победу над Дарием. По Плутарху («Александр», 13), Александр потом не раз сожалел о судьбе Фив, и ни один уцелевший фиванец не ушёл от него с отказом (ср. гл. 47). Отстроил город лишь Кассандр в 316 г. до н. э. (Диодор, 19, 53–54).",
+    "en": "Historically Thebes revolted on a false report of Alexander’s death and was taken and razed in the autumn of 335 BC, before the Asian expedition (Arrian 1.7–9; Plutarch, Alexander 11): more than six thousand were killed and more than thirty thousand sold as slaves; the priests, the guest-friends of the Macedonians and the descendants of Pindar were spared. The romance moves the destruction of Thebes to after the victory over Darius. According to Plutarch (Alexander 13), Alexander later often regretted the fate of Thebes, and no surviving Theban who came to him with a request was refused (cf. ch. 47). The city was rebuilt only by Cassander in 316 BC (Diodorus 19.53–54).",
+    "source": "Arr. Anab. 1.7–9; Plut. Alex. 11.6–12; 13; Diod. 19.53–54",
+    "evidence": "Plutarch 11 (checked on LacusCurtius): the city 'taken, plundered, and razed'; 'more than thirty thousand' sold; 'more than six thousand' slain; spared 'the priests, all who were guest-friends of the Macedonians, the descendants of Pindar'. Plutarch 13: the calamity 'often gave him remorse'; 'not a Theban of those that survived who afterwards came to him with any request and did not get what he wanted'. Diodorus 19.53–54 (checked): Cassander rebuilt Thebes for the surviving Thebans; the archon year is 316/15. Notes 68–69 compare only with Valerius and α; no published note gives the date or the real order."
+   },
+   {
+    "chapter": 47,
+    "independent_note": "D omits the separate mention of the cestus fight in the list and the sentence making Pollux its master.",
+    "verdict": "already-covered",
+    "target_note_n": 70,
+    "ru": "",
+    "en": "",
+    "source": "Zacher 1867, p. 37, app. to l. 9; p. 38, app. to l. 2",
+    "evidence": "Correct: the apparatus (checked) has 'pugn. cest. atque fehlt D' and 'Pollucis — magister fehlt D'. These are omissions by a single, freely rewriting manuscript. The real issue, the cestus fight replacing the pancration, is covered by note 70. No note needed."
+   },
+   {
+    "chapter": 47,
+    "independent_note": "α explicitly names the Isthmian Games and the events wrestling, boxing, pancration; the Epitome leaves the festival unnamed and has cestus and pugillatus.",
+    "verdict": "merge",
+    "target_note_n": 71,
+    "ru": "Клитомах Фиванский — реальный атлет конца III в. до н. э., на век с лишним позже Александра. Он победил в панкратии на Олимпийских играх 216 г. до н. э., а на Истмийских играх в один день выиграл борьбу, кулачный бой и панкратий (Павсаний, 6, 15, 3). Роман перенёс этот подвиг в Коринф времён Александра. В греческом α это прямо Истмийские игры (τῶν Ἰσθμίων τὸν ἀγῶνα), а у Валерия и в эпитоме — лишь «торжественное состязание» (sollemne certamen).",
+    "en": "Clitomachus of Thebes was a real athlete of the late third century BC, more than a century after Alexander. He won the pancration at Olympia in 216 BC, and at the Isthmian Games he won wrestling, boxing and pancration on a single day (Pausanias 6.15.3). The romance moves this feat to Corinth in Alexander’s time. In the Greek α the festival is explicitly the Isthmian Games (τῶν Ἰσθμίων τὸν ἀγῶνα); Valerius and the epitome have only ‘a solemn contest’ (sollemne certamen).",
+    "source": "Paus. 6.15.3–5; Ps.-Call. α 1.47 (Kroll 1926, p. 62, ll. 14–15 with app.); Iul. Val. 1,47 (Kübler 1888, p. 64, ll. 17–19)",
+    "evidence": "Kroll p. 62, ll. 14–15 (checked): 'Ὁ δὲ Ἀλέξανδρος παραγίνεται εἰς Κόρινθον καὶ καταλαμβάνει ἐκεῖ τῶν Ἰσθμίων τὸν ἀγῶνα ἀγόμενον'; app. '15 τὸν ἴσθμιον τῶν ἀγώνων A, corr. e Byz. Arm.'. Kübler p. 64, ll. 18–19: 'forte acciderat sollemne certamen gymnicum apud illos agitari' (no Isthmia). The event list (wrestling, boxing, pancration) is already in note 70. The Isthmia link connects note 71's Pausanias evidence to the Romance's Corinth."
+   },
+   {
+    "chapter": 47,
+    "independent_note": "The Greek oracle has 'will rebuild' (ἀνακτίσουσι); the Latin 'dedere' and 'arte sua'; Maia's son = Mercury, Alcides = Hercules.",
+    "verdict": "already-covered",
+    "target_note_n": 70,
+    "ru": "",
+    "en": "",
+    "source": "Kroll 1926, pp. 62–63",
+    "evidence": "Note 70 quotes the Greek couplet ('вновь отстроят тебя, Фивы') and contrasts its future tense with the perfect 'dedere'. Kroll (checked): 'οἱ τρεῖς ἀθλήσαντες ἀνακτίσουσί σε Θήβη(ς)'. The identifications are given by the Latin itself in the edict."
+   }
+  ],
+  "contradictions": [
+   {
+    "chapter": 8,
+    "published_note_n": 16,
+    "issue": "Note 16 says that 'in Valerius, and after him in the epitome, the interpreters say \"except in our land\"'. In Kübler's Valerius a single interpreter speaks ('Tum interpres: O Philippe…', p. 7, l. 23), as in α 1.8, where Philip summons one ὀνειροπόλος. Only the Epitome has the plural, and even there L and Vc read 'interpres'.",
+    "verdict": "independent-right",
+    "fix_ru": "Заменить текст примечания 16 целиком: «В греческом α 1.8 Филипп призывает одного толкователя снов (ὀνειροπόλον), и тот говорит, что папирус растёт «нигде, кроме Египта»; у Валерия толкователь («Tum interpres»), а вслед за ним в эпитоме толкователи говорят «кроме нашей земли», словно сами египтяне. В греческом бог во сне «зашивает» лоно Олимпиады папирусом (καταρράπτειν); отсюда осторожная догадка Цахера в аппарате — «contexere?» («сплести, сшить»). Но рукописи эпитомы и Валерий дают «contegere» («покрыть»), и перевод следует им. Эпитоматор выпустил конец главы Валерия, где объяснено недовольство Филиппа (в тексте Кюблера: он думает, что жена зачала от человека).» Источник: Ps.-Call. α 1.8 (Kroll 1926, p. 9); Iul. Val. 1,8 (Kübler 1888, pp. 7–8 with app.); Zacher 1867, pp. 10–11, app.",
+    "fix_en": "Replace note 16 entirely: ‘In the Greek α 1.8 Philip summons a single dream interpreter (ὀνειροπόλον), who says that papyrus grows ‘nowhere except in Egypt’; in Valerius the interpreter (‘Tum interpres’), and after him in the epitome the interpreters, say ‘except in our land’, as if they were Egyptians themselves. In the Greek the god in the dream ‘sews up’ Olympias’ womb with papyrus (καταρράπτειν); hence Zacher’s tentative suggestion in his apparatus, ‘contexere?’ (‘to weave, stitch together’). But the epitome manuscripts and Valerius have ‘contegere’ (‘to cover’), and the translation follows them. The epitomator dropped the end of Valerius’ chapter, which explains Philip’s displeasure (in Kübler’s text: he believes his wife conceived by a man).’",
+    "evidence": "Kübler p. 7, l. 11: 'evocatoque rex somniorum interprete' (app.: 'interprete Berger de Xivrey. interpretes T.P.'); l. 23 'Tum interpres', with no variant. Kroll p. 9, l. 7: 'μεταπεμψάμενος ὀνειροπόλον … ὁ δέ φησι'. Zacher p. 11, app. l. 3: 'interpres LVc'. The error is small, but the note states a fact about Valerius that the edition does not support. The fix also folds in independent notes #8 and #9 (contegere/contexere and the single interpreter)."
+   },
+   {
+    "chapter": 14,
+    "published_note_n": 26,
+    "issue": "Note 26 speaks of Philip's speech 'к двенадцатилетнему сыну' / 'to his twelve-year-old son'. The Epitome and Valerius both have 'annum duodecimum agens' (Alexander is in his twelfth year, i.e. eleven). The published translation of the chapter renders this correctly («шёл уже двенадцатый год» / 'in his twelfth year'), so the note contradicts the text it annotates.",
+    "verdict": "independent-right",
+    "fix_ru": "В примечании 26 заменить «речь Филиппа к двенадцатилетнему сыну и слова раненого Нектанеба» на «речь Филиппа к сыну, которому шёл двенадцатый год, и слова раненого Нектанеба».",
+    "fix_en": "In note 26 replace ‘Philip’s speech to his twelve-year-old son and the wounded Nectanebo’s words’ with ‘Philip’s speech to his son, then in his twelfth year, and the wounded Nectanebo’s words’.",
+    "evidence": "Latin ch. 14: 'Alexander iam annum duodecimum agens'. Valerius 1,14: 'Sed interea Alexander iam annum duodecimum …' (Kübler p. 14, checked). 'annum duodecimum agere' means that the twelfth year is in progress, as the independent note #16 points out. This is a minor fix for consistency."
+   }
+  ],
+  "doubts": []
+ }
+]

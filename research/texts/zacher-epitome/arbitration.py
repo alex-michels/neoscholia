@@ -2,6 +2,7 @@
 
 Version 0.1: drafts by Claude Opus 5.5, reviews by Claude Sonnet 5.5 and Claude Fable 5.1 (reviews/).
 Version 0.2: review by a model of another family, GPT-6 Astra (review/external/).
+Version 0.3: the independent translation by GPT-6 Astra (independent/), compared and arbitrated (raw/v03-compare.json).
 Each issue gets a decision and a reason; accepted fixes are applied to the drafts in that order.
 Inputs (this folder): source/book1.la.json, drafts/draft-{A,B}.json, reviews/review-*.json,
 review/external/*.json, context.json, raw/text-check.json.
@@ -21,7 +22,7 @@ from pathlib import Path
 sys.stdout.reconfigure(encoding="utf-8", newline="\n")
 HERE = Path(__file__).resolve().parent
 SITE_DATA = HERE.parents[2] / "src" / "_data" / "texts" / "zacher-1.json"
-VERSION, DATE = "0.2", "25.10.2026"
+VERSION, DATE = "0.3", "25.10.2026"
 MODELS = {"draft": "Claude Opus 5.5", "r1": "Claude Sonnet 5.5", "r2": "Claude Fable 5.1", "arb": "Claude Opus 5.5"}
 
 
@@ -359,12 +360,70 @@ for rev in EXTERNAL:
             apply(*e)
         ext_rows.append((x["chapter"], rev, i, x, decision, reason))
 
+# ---------- 2c. Version 0.3: the independent translation (independent/draft-*.json) ----------
+# GPT-6 Astra translated the Latin in a separate session, without seeing this translation. Five agents
+# compared the two chapter by chapter against the Latin, Kübler and Kroll (raw/v03-compare.json); every
+# significant divergence got a verdict. One translation is published; a defensible alternative goes into a note.
+INDEPENDENT = ("independent/draft-gpt-6-astra-ultra.json", "GPT-6 Astra · OpenAI")
+indep = {s["chapter"]: s for s in load(INDEPENDENT[0])["segments"]}
+compare = load("raw/v03-compare.json")
+
+
+def append_note(n, ru, en, source=""):
+    ch, i = NOTE_AT[n]
+    note_ = segs[ch]["notes"][i]
+    note_["ru"] = note_["ru"].rstrip() + " " + ru
+    note_["en"] = note_["en"].rstrip() + " " + en
+    if source:
+        note_["source"] = note_.get("source", "") + "; " + source
+
+
+def replace_note(n, ru, en, source=""):
+    ch, i = NOTE_AT[n]
+    note_ = segs[ch]["notes"][i]
+    note_["ru"], note_["en"] = ru, en
+    if source:
+        note_["source"] = source
+
+
+cmp_rows = []
+for r in compare:
+    for d in r.get("divergences", []):
+        for rp in d["replace"]:
+            apply(d["chapter"], rp["lang"], rp["old"], rp["new"])
+        if d["action"] in ("note", "replace+note"):
+            append_note({41: 64}[d["chapter"]], d["note_ru"], d["note_en"])
+        cmp_rows.append(d)
+notes_cmp = next(r for r in compare if "additions" in r)
+adds = {(a["chapter"], a["target_note_n"]): a for a in notes_cmp["additions"] if a["verdict"] in ("add", "merge")}
+# New facts from the independent notes are merged into existing notes, so that the note numbers stay stable.
+replace_note(12, adds[(6, 12)]["ru"], adds[(6, 12)]["en"], adds[(6, 12)]["source"])
+replace_note(16,
+    "В греческом α 1.8 Филипп призывает одного толкователя снов (ὀνειροπόλον), и тот говорит, что папирус растёт «нигде, кроме Египта». У Валерия тоже один толкователь («Tum interpres»), а в эпитоме толкователи (во множественном числе; лишь рукописи L и Vc дают «interpres») говорят «кроме нашей земли», словно сами египтяне. В греческом бог во сне «зашивает» лоно Олимпиады папирусом (καταρράπτειν); отсюда осторожная догадка Цахера в аппарате — «contexere?» («сплести, сшить»). Но рукописи эпитомы и Валерий дают «contegere» («покрыть»), и перевод следует им. Эпитоматор выпустил конец главы Валерия, где объяснено недовольство Филиппа (в тексте Кюблера: он думает, что жена зачала от человека).",
+    "In the Greek α 1.8 Philip summons a single dream interpreter (ὀνειροπόλον), who says that papyrus grows ‘nowhere except in Egypt’. Valerius too has one interpreter (‘Tum interpres’), but in the epitome the interpreters (plural; only manuscripts L and Vc read ‘interpres’) say ‘except in our land’, as if they were Egyptians themselves. In the Greek the god in the dream ‘sews up’ Olympias’ womb with papyrus (καταρράπτειν); hence Zacher’s tentative suggestion in his apparatus, ‘contexere?’ (‘to weave, stitch together’). But the epitome manuscripts and Valerius have ‘contegere’ (‘to cover’), and the translation follows them. The epitomator dropped the end of Valerius’ chapter, which explains Philip’s displeasure (in Kübler’s text: he believes his wife conceived by a man).",
+    "Ps.-Call. α 1.8 (Kroll 1926, p. 9, ll. 3–4, 7); Iul. Val. 1,8 (Kübler 1888, pp. 7–8 with app.); Zacher 1867, p. 10, app. to l. 14; p. 11, app. to l. 3")
+replace_note(25, adds[(13, 25)]["ru"], adds[(13, 25)]["en"], adds[(13, 25)]["source"])
+replace_note(47, adds[(26, 47)]["ru"], adds[(26, 47)]["en"], adds[(26, 47)]["source"])
+replace_note(71, adds[(47, 71)]["ru"], adds[(47, 71)]["en"], adds[(47, 71)]["source"])
+append_note(30, adds[(17, 0)]["ru"], adds[(17, 0)]["en"], adds[(17, 0)]["source"])
+append_note(53, adds[(35, 0)]["ru"], adds[(35, 0)]["en"], adds[(35, 0)]["source"])
+append_note(68, adds[(46, 0)]["ru"], adds[(46, 0)]["en"], adds[(46, 0)]["source"])
+apply(*note(26, "ru"), "речь Филиппа к двенадцатилетнему сыну", "речь Филиппа к сыну, которому шёл двенадцатый год,")
+apply(*note(26, "en"), "Philip’s speech to his twelve-year-old son", "Philip’s speech to his son, then in his twelfth year,")
+apply(15, ("doubt", 0, "choice"), None, "‘your [dominions]’ / «твои [владения]»: ‘tuis’ is a substantival plural (changed in version 0.3 after the comparison with the independent translation).")
+apply(23, ("doubt", 2, "choice"), None, "‘fiercely’ / «жестоко»: ‘acrius’ is an absolute comparative, there has been no earlier battle (changed in version 0.3).")
+NOTE_ADDED = {6: [12], 8: [16], 13: [25], 14: [26], 17: [30], 26: [47], 35: [53], 41: [64], 46: [68], 47: [71]}
+
 # ---------- 3. Review log per chapter, notes numbering ----------
 SEV = {"critical": "критическое", "major": "существенное", "minor": "малое"}
 CAT = {"mistranslation": "ошибка перевода", "omission": "пропуск", "addition": "добавление", "grammar-of-latin": "латинская грамматика",
        "names-terms": "имена и термины", "fluency": "гладкость", "style": "стиль", "note-fact": "факт в примечании",
        "latin-grammar": "латинская грамматика"}
 LANG = {"ru": "RU", "en": "EN", "both": "RU и EN", "note": "примечание"}
+DIVCAT = {"meaning": "смысл", "construction": "конструкция", "reference": "к чему относится", "omission": "пропуск", "addition": "добавление",
+          "names-terms": "имена и термины", "tense-mood": "время и наклонение", "style": "стиль", "note-fact": "примечание"}
+VERDICT = {"ours": "верен опубликованный перевод", "theirs": "принят вариант независимого перевода", "both": "допустимы оба прочтения", "neither": "оба неточны, исправлено"}
+ACTION = {"keep": "без изменений", "replace": "текст исправлен", "note": "альтернатива вынесена в примечание", "replace+note": "текст исправлен, альтернатива — в примечании"}
 chapters = []
 note_no = 0
 for ch in sorted(segs):
@@ -404,6 +463,16 @@ for ch in sorted(segs):
         log.append({"role": "Сверка при арбитраже", "who": f"{MODELS['arb']}, агенты-проверщики",
                     "text": "Не отмечено рецензентами, найдено при сверке с изданиями; <i>исправлено</i>.<br>"
                             + "<br>".join(f"{SEV[x['severity']]} · {CAT.get(x['category'], x['category'])} · {LANG[x['lang']]}. {esc(x['problem'])}" for x in found)})
+    ind = indep.get(ch, {})
+    log.append({"role": "Независимый перевод", "who": INDEPENDENT[1],
+                "text": f"Перевод с латыни на русский и английский в отдельной сессии, только по оригиналу; примечаний: {len(ind.get('notes', []))}; отмеченных трудных мест: {len(ind.get('doubts', []))}."})
+    mine3 = [d for d in cmp_rows if d["chapter"] == ch]
+    lines = [f"<b>{k}.</b> {DIVCAT[d['category']]} · <i lang=\"la\">{esc(d['latin'][:90])}{'…' if len(d['latin']) > 90 else ''}</i> — <i>{VERDICT[d['verdict']]}; {ACTION[d['action']]}</i>. {esc(d['reason'])}"
+             for k, d in enumerate(mine3, 1)]
+    if NOTE_ADDED.get(ch):
+        lines.append("Примечания " + ", ".join(str(n) for n in NOTE_ADDED[ch]) + " дополнены или исправлены по примечаниям независимого перевода (сведения проверены по изданиям).")
+    log.append({"role": "Сопоставление, версия 0.3", "who": f"{MODELS['arb']}, агенты-проверщики",
+                "text": "<br>".join(lines) if lines else "Существенных расхождений с независимым переводом нет."})
     log.append({"role": "Редактор", "who": "Александр Михельс, PhD", "text": "Ожидает проверки.", "pending": True})
     para = []
     if p.get("jv", "").startswith("No independent"):
@@ -428,7 +497,7 @@ for ch in sorted(segs):
 md = [f"# Iulii Valerii Epitome (Zacher Epitome), Book I — version {VERSION} for review\n",
       "Latin: J. Zacher (Halle 1867) via the CC0 TEI of G. Siemoneit, corrected against the print where noted. "
       "Russian and English: drafted by Claude Opus 5.5, reviewed by Claude Sonnet 5.5 and Claude Fable 5.1 (version 0.1) "
-      "and by GPT-6 Astra (version 0.2), arbitrated. "
+      "and by GPT-6 Astra (version 0.2), arbitrated; compared with an independent translation by GPT-6 Astra (version 0.3). "
       "Margin notes are numbered across the book. "
       "Corrections of the TEI against the print: " + "; ".join(f"ch. {c}: '{o}' → '{n}'" for c, o, n, _ in LATIN_FIXES) + ". "
       "How each issue of the earlier reviews was decided: ../arbitration-log.md.\n"]
