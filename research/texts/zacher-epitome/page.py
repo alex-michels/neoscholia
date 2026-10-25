@@ -28,7 +28,7 @@ INTRO_RU = """
 <p>Завершается книга разрушением Фив и сценой с кулачным бойцом Клитомахом в Коринфе.</p>
 <p>Перевод выполнен по изданию Цахера в TEI-транскрипции Г. Зимонайта (лицензия CC0), сверенной с печатным изданием. Нумерация глав принадлежит Цахеру: он разметил текст по главам издания К. Мюллера (1846), общим для Псевдо-Каллисфена и Юлия Валерия. Поэтому номера идут с пропусками (нет глав 16, 27–28, 31–33, 43–45): это главы, которых в эпитоме нет; глав 27–28 нет и у Юлия Валерия. Зато номер главы сразу указывает на соответствующее место Юлия Валерия и греческой редакции α в издании В. Кролля. Эти параллели отмечены над каждой главой.</p>
 <p>Необходимы оговорки. Современного критического издания эпитомы нет. Цахер использовал лишь семь из примерно восьмидесяти рукописей, хотя и древнейшие, готовил книгу в спешке и почти не вносил исправлений. Расширенные версии эпитомы (оксфордско-монпельевская, лигницкая) здесь не учитываются. Насколько нам удалось установить, на современные языки эпитома прежде не переводилась. Перевод подготовлен с помощью ИИ и ещё не проверен редактором.</p>
-<p>— Редакция Neoscholia</p>
+<p>— Александр Михельс, PhD</p>
 """
 
 INTRO_EN = """
@@ -47,7 +47,7 @@ INTRO_EN = """
 <p>The book ends with the destruction of Thebes and the scene with the boxer Clitomachus at Corinth.</p>
 <p>The translation follows Zacher’s edition in G. Siemoneit’s TEI transcription (CC0), checked against the printed edition. The chapter numbers are Zacher’s: he divided the text by the chapters of K. Müller’s edition (1846), which Pseudo-Callisthenes and Julius Valerius share. Hence the gaps (there are no chapters 16, 27–28, 31–33, 43–45): these chapters are absent from the Epitome, and 27–28 are absent from Julius Valerius as well. In return, a chapter number points straight to the matching place in Julius Valerius and in W. Kroll’s edition of the Greek recension α. These parallels are shown above each chapter.</p>
 <p>Some caveats. There is no modern critical edition of the Epitome. Zacher used only seven of the roughly eighty manuscripts, although the oldest ones; he prepared the book in haste and made few corrections. The expanded versions of the Epitome (Oxford–Montpellier, Liegnitz) are not considered here. As far as we could establish, the Epitome has not been translated into a modern language before. The translation was prepared with the help of AI and has not yet been checked by an editor.</p>
-<p>— Neoscholia editors</p>
+<p>— Alexander Michels, PhD</p>
 """
 
 PROCESS = f"""
@@ -90,9 +90,9 @@ def main():
             ],
             "open": OPEN,
         },
-        "cite": "Эпитома Юлия Валерия («эпитома Цахера»). Книга I / пер. с лат. и комм.: Редакция Neoscholia. Версия {version}. Neoscholia, 2026. https://alex-michels.github.io/neoscholia/zacher-1.html",
+        "cite": "Эпитома Юлия Валерия («эпитома Цахера»). Книга I / пер. с лат. и комм.: Александр Михельс. Версия {version}. Neoscholia, 2026. https://alex-michels.github.io/neoscholia/zacher-1.html",
         "licenses": f"<p>Латинский текст: J. Zacher (ed.), <i>Julii Valerii epitome</i>, Halle 1867 — общественное достояние; TEI-транскрипция G. Siemoneit — CC0. Исправления транскрипции по печатному изданию перечислены в <a href=\"{REPO}arbitration-log.md\">журнале арбитража</a>.</p><p>Перевод и новые схолии — CC BY-NC-SA 4.0. Журнал рецензии — CC0.</p>",
-        "ai": "<p>Черновик перевода и новые схолии подготовила модель Claude Opus 5.5; рецензии — Claude Sonnet 5.5 (точность) и Claude Fable 5.1 (язык и примечания); арбитраж замечаний — Claude Opus 5.5. Рецензия моделью другого семейства ещё впереди. Системы ИИ не являются авторами; за текст отвечает редакция.</p>",
+        "ai": "<p>Черновик перевода и новые схолии подготовила модель Claude Opus 5.5; рецензии — Claude Sonnet 5.5 (точность) и Claude Fable 5.1 (язык и примечания); арбитраж замечаний — Claude Opus 5.5. Рецензия моделью другого семейства ещё впереди. Системы ИИ не являются авторами; за текст отвечает редактор, Александр Михельс, PhD.</p>",
     })
     order = ["title", "subtitle", "crumbs", "source", "first", "refPrefix", "origLang", "intro_ru", "intro_en",
              "process", "cite", "licenses", "ai", "stats", "chapters"]
