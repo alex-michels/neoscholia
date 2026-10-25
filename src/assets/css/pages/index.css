@@ -75,3 +75,30 @@ a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid 
   .log li { grid-template-columns: minmax(0, 1fr); gap: 0; }
   .search { flex-direction: column; }
 }
+
+/* home: entry links, published cards, specimen in Latin */
+.specimen [lang="la"] { margin: .55rem 0 .7rem; font-size: 1.02rem; font-style: italic; }
+.cta { display: flex; flex-wrap: wrap; gap: .6rem; margin: 1.2rem 0 0; }
+.btn { font-family: var(--font-label); letter-spacing: .05em; text-decoration: none; padding: .45rem 1rem; border: 1px solid var(--lapis); background: var(--lapis); color: var(--leaf); }
+.btn.ghost { background: transparent; color: var(--lapis); }
+.btn:hover { filter: brightness(1.1); }
+.cards { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.card { background: var(--panel); border: 1px solid var(--rule); padding: .9rem 1rem 1rem; display: flex; flex-direction: column; gap: .45rem; min-width: 0; }
+.card .where { margin: 0; font-family: var(--font-label); font-size: .82rem; letter-spacing: .04em; }
+.card .where a { color: var(--ink-soft); }
+.card h3 { margin: 0; font-size: 1.2rem; line-height: 1.25; }
+.card h3 a { color: var(--ink); text-decoration-color: var(--rule); }
+.card h3 a:hover { color: var(--rubric); }
+.card p { margin: 0; font-size: .95rem; }
+.card .meta { margin-top: auto; padding-top: .4rem; display: flex; flex-wrap: wrap; gap: .3rem .6rem; align-items: center; font-family: var(--font-label); font-size: .8rem; letter-spacing: .03em; color: var(--ink-soft); }
+.card .meta .status { color: var(--lapis); border-color: var(--lapis); }
+.card .meta .audio { color: var(--rubric); }
+.card .meta .audio::before { content: "▶ "; }
+.lib-head { padding-block: 1.6rem 1.2rem; max-width: 48rem; }
+.lib-head h1 { font-size: clamp(2.1rem, 4.5vw, 3rem); margin: 0 0 .6rem; }
+@media (max-width: 1020px) { .cards { grid-template-columns: minmax(0, 1fr); } }
+/* history of changes */
+.day { font-family: var(--font-label); font-size: .95rem; letter-spacing: .05em; color: var(--ink-soft); margin: 1.4rem 0 .6rem; }
+.day:first-child { margin-top: 0; }
+.log.full li { grid-template-columns: 7rem minmax(0, 1fr); }
+.log .kind { font-family: var(--font-label); font-size: .82rem; letter-spacing: .04em; color: var(--lapis); padding-top: .12rem; }

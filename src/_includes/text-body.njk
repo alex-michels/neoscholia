@@ -53,7 +53,7 @@
             {%- for lang in ["ru", "en"] %}
             {%- set a = au[lang][c.chapter] if au[lang] else null %}
             {%- if a and a.hash == (c[lang] | textHash) %}
-            <button type="button" class="listen" data-lang="{{ lang }}" data-src="{{ a.file }}" aria-pressed="false" aria-label="{{ 'Слушать перевод главы ' if lang == 'ru' else 'Listen to the translation of chapter ' }}{{ c.chapter }}">{{ 'Слушать' if lang == 'ru' else 'Listen' }} <span class="dur">{{ (a.seconds / 60) | round(0, "ceil") }} мин</span></button>
+            <button type="button" class="listen" data-lang="{{ lang }}" data-src="{{ a.url }}" aria-pressed="false" aria-label="{{ 'Слушать перевод главы ' if lang == 'ru' else 'Listen to the translation of chapter ' }}{{ c.chapter }}">{{ 'Слушать' if lang == 'ru' else 'Listen' }} <span class="dur">{{ (a.seconds / 60) | round(0, "ceil") }} мин</span></button>
             {%- endif %}
             {%- endfor %}
           </div>

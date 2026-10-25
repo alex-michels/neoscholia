@@ -1,0 +1,1920 @@
+{
+ "authors": [
+  {
+   "id": "homer",
+   "ru": "Гомер",
+   "en": "Homer",
+   "orig": "Ὅμηρος; Homerus",
+   "kind": "author",
+   "gloss_ru": "легендарный эпический поэт, автор «Илиады» и «Одиссеи»",
+   "gloss_en": "legendary epic poet of the Iliad and the Odyssey",
+   "wikidata": "Q6691",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Гомер"
+    ],
+    "en": [
+     "Homer(?!ic)"
+    ],
+    "la": [
+     "Homer(?!ic)"
+    ],
+    "grc": [
+     "Ὅμηρ",
+     "Ὁμήρ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "hesiod",
+   "ru": "Гесиод",
+   "en": "Hesiod",
+   "orig": "Ἡσίοδος; Hesiodus",
+   "kind": "author",
+   "gloss_ru": "древнегреческий эпический поэт, автор «Теогонии»",
+   "gloss_en": "early Greek epic poet, author of the Theogony",
+   "wikidata": "Q44233",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Гесиод"
+    ],
+    "en": [
+     "Hesiod"
+    ],
+    "la": [
+     "Hesiod"
+    ],
+    "grc": [
+     "Ἡσίοδ",
+     "Ἡσιόδ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "crates",
+   "ru": "Кратет Малльский",
+   "en": "Crates of Mallos",
+   "orig": "Κράτης ὁ Μαλλώτης; Crates Mallotes",
+   "kind": "author",
+   "gloss_ru": "пергамский грамматик II в. до н. э., толкователь Гомера, помещавший лестригонов на крайний север",
+   "gloss_en": "Pergamene grammarian (2nd c. BC), Homeric exegete who placed the Laestrygonians in the far north",
+   "wikidata": "Q503075",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Кратет(?!ов)"
+    ],
+    "en": [
+     "Crates\\b"
+    ],
+    "la": [
+     "Crates\\b",
+     "Cratet(?!e)"
+    ],
+    "grc": [
+     "Κράτη",
+     "Κράτων"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "aristarchus",
+   "ru": "Аристарх Самофракийский",
+   "en": "Aristarchus of Samothrace",
+   "orig": "Ἀρίσταρχος ὁ Σαμόθραξ; Aristarchus",
+   "kind": "author",
+   "gloss_ru": "александрийский грамматик II в. до н. э., издатель и толкователь Гомера, оппонент Кратета",
+   "gloss_en": "Alexandrian grammarian (2nd c. BC), editor and exegete of Homer, opponent of Crates",
+   "wikidata": "Q312114",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Аристарх"
+    ],
+    "en": [
+     "Aristarch"
+    ],
+    "la": [
+     "Aristarch"
+    ],
+    "grc": [
+     "Ἀρίσταρχ",
+     "Ἀριστάρχ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "aristonicus",
+   "ru": "Аристоник",
+   "en": "Aristonicus of Alexandria",
+   "orig": "Ἀριστόνικος; Aristonicus",
+   "kind": "author",
+   "gloss_ru": "александрийский грамматик эпохи Августа, объяснявший критические знаки Аристарха",
+   "gloss_en": "Alexandrian grammarian of the Augustan age who explained Aristarchus' critical signs",
+   "wikidata": "Q3622711",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Аристоник"
+    ],
+    "en": [
+     "Aristonic"
+    ],
+    "la": [
+     "Aristonic"
+    ],
+    "grc": [
+     "Ἀριστόνικ",
+     "Ἀριστονίκ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "eustathius",
+   "ru": "Евстафий Солунский",
+   "en": "Eustathius of Thessalonica",
+   "orig": "Εὐστάθιος Θεσσαλονίκης; Eustathius Thessalonicensis",
+   "kind": "author",
+   "gloss_ru": "византийский филолог XII в., архиепископ Фессалоники, комментатор Гомера",
+   "gloss_en": "12th-century Byzantine scholar and archbishop of Thessalonica, commentator on Homer",
+   "wikidata": "Q453465",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Евстафи"
+    ],
+    "en": [
+     "Eustathi"
+    ],
+    "la": [
+     "Eustathi"
+    ],
+    "grc": [
+     "Εὐστάθι",
+     "Εὐσταθί"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "geminus",
+   "ru": "Гемин",
+   "en": "Geminus",
+   "orig": "Γεμῖνος; Geminus",
+   "kind": "author",
+   "gloss_ru": "греческий астроном, вероятно I в. до н. э., автор «Введения в явления», передающий толкование Кратета",
+   "gloss_en": "Greek astronomer, probably 1st c. BC, author of the Introduction to the Phenomena, who reports Crates' reading",
+   "wikidata": "Q379987",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Гемин"
+    ],
+    "en": [
+     "Geminus",
+     "Geminos"
+    ],
+    "la": [
+     "Gemin(?:us|i)\\b"
+    ],
+    "grc": [
+     "Γεμῖν",
+     "Γεμίν"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "pytheas",
+   "ru": "Пифей",
+   "en": "Pytheas of Massalia",
+   "orig": "Πυθέας ὁ Μασσαλιώτης; Pytheas",
+   "kind": "author",
+   "gloss_ru": "массалийский мореплаватель IV в. до н. э., описавший короткие ночи крайнего севера",
+   "gloss_en": "4th-century BC navigator from Massalia who described the short nights of the far north",
+   "wikidata": "Q189971",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Пифе[йяюе]"
+    ],
+    "en": [
+     "Pythea"
+    ],
+    "la": [
+     "Pythea"
+    ],
+    "grc": [
+     "Πυθέα"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "aratus",
+   "ru": "Арат",
+   "en": "Aratus of Soli",
+   "orig": "Ἄρατος ὁ Σολεύς; Aratus Solensis",
+   "kind": "author",
+   "gloss_ru": "эллинистический поэт III в. до н. э., автор астрономической поэмы «Явления»",
+   "gloss_en": "Hellenistic poet (3rd c. BC), author of the astronomical poem Phaenomena",
+   "wikidata": "Q180671",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Арат(?!ов)"
+    ],
+    "en": [
+     "Aratus"
+    ],
+    "la": [
+     "Arat(?:us|i|o|um)\\b"
+    ],
+    "grc": [
+     "Ἄρατ",
+     "Ἀράτ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "hipparchus",
+   "ru": "Гиппарх",
+   "en": "Hipparchus",
+   "orig": "Ἵππαρχος; Hipparchus",
+   "kind": "author",
+   "gloss_ru": "астроном II в. до н. э., автор комментария к «Явлениям» Арата и Евдокса",
+   "gloss_en": "astronomer (2nd c. BC), author of a commentary on the Phaenomena of Aratus and Eudoxus",
+   "wikidata": "Q159905",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Гиппарх"
+    ],
+    "en": [
+     "Hipparch"
+    ],
+    "la": [
+     "Hipparch"
+    ],
+    "grc": [
+     "Ἵππαρχ",
+     "Ἱππάρχ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "eudoxus",
+   "ru": "Евдокс Книдский",
+   "en": "Eudoxus of Cnidus",
+   "orig": "Εὔδοξος ὁ Κνίδιος; Eudoxus Cnidius",
+   "kind": "author",
+   "gloss_ru": "астроном и математик IV в. до н. э., источник «Явлений» Арата",
+   "gloss_en": "4th-century BC astronomer and mathematician, the source of Aratus' Phaenomena",
+   "wikidata": "Q185150",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Евдокс"
+    ],
+    "en": [
+     "Eudox"
+    ],
+    "la": [
+     "Eudox"
+    ],
+    "grc": [
+     "Εὔδοξ",
+     "Εὐδόξ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "attalus-rhodes",
+   "ru": "Аттал Родосский",
+   "en": "Attalus of Rhodes",
+   "orig": "Ἄτταλος ὁ Ῥόδιος; Attalus Rhodius",
+   "kind": "author",
+   "gloss_ru": "комментатор Арата II в. до н. э., современник и оппонент Гиппарха",
+   "gloss_en": "2nd-century BC commentator on Aratus, contemporary and opponent of Hipparchus",
+   "wikidata": "Q757894",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Аттал(?:ом|у)\\b",
+     "Аттал\\w* Родосск"
+    ],
+    "en": [
+     "Attalus of Rhodes"
+    ],
+    "la": [
+     "Attal\\w* Rhod"
+    ],
+    "grc": [
+     "Ἄτταλ\\w* ὁ Ῥόδι"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "herodicus",
+   "ru": "Геродик Вавилонский",
+   "en": "Herodicus of Babylon",
+   "orig": "Ἡρόδικος ὁ Κρατήτειος; Herodicus Crateteus",
+   "kind": "author",
+   "gloss_ru": "грамматик из школы Кратета («кратетовец»), автор антиплатоновских сочинений",
+   "gloss_en": "grammarian of Crates' school ('the Cratetean'), author of anti-Platonic writings",
+   "wikidata": "Q11925543",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Геродик"
+    ],
+    "en": [
+     "Herodic"
+    ],
+    "la": [
+     "Herodic"
+    ],
+    "grc": [
+     "Ἡρόδικ",
+     "Ἡροδίκ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "plato",
+   "ru": "Платон",
+   "en": "Plato",
+   "orig": "Πλάτων; Plato",
+   "kind": "author",
+   "gloss_ru": "афинский философ IV в. до н. э., автор «Пира»",
+   "gloss_en": "4th-century BC Athenian philosopher, author of the Symposium",
+   "wikidata": "Q859",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Платон",
+     "платоновск"
+    ],
+    "en": [
+     "Plato\\b"
+    ],
+    "la": [
+     "Plato\\b",
+     "Platon"
+    ],
+    "grc": [
+     "Πλάτων"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "eratosthenes",
+   "ru": "Эратосфен",
+   "en": "Eratosthenes of Cyrene",
+   "orig": "Ἐρατοσθένης; Eratosthenes",
+   "kind": "author",
+   "gloss_ru": "александрийский учёный III в. до н. э., географ, скептик гомеровской географии",
+   "gloss_en": "3rd-century BC Alexandrian scholar and geographer, sceptic of Homeric geography",
+   "wikidata": "Q43182",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Эратосфен"
+    ],
+    "en": [
+     "Eratosthen"
+    ],
+    "la": [
+     "Eratosthen"
+    ],
+    "grc": [
+     "Ἐρατοσθέν"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "polybius",
+   "ru": "Полибий",
+   "en": "Polybius",
+   "orig": "Πολύβιος; Polybius",
+   "kind": "author",
+   "gloss_ru": "историк II в. до н. э.; у Страбона — участник спора о странствиях Одиссея",
+   "gloss_en": "2nd-century BC historian; in Strabo a party to the debate on Odysseus' wanderings",
+   "wikidata": "Q131169",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Полиби"
+    ],
+    "en": [
+     "Polybius"
+    ],
+    "la": [
+     "Polybi"
+    ],
+    "grc": [
+     "Πολύβι",
+     "Πολυβί"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "apollodorus",
+   "ru": "Аполлодор Афинский",
+   "en": "Apollodorus of Athens",
+   "orig": "Ἀπολλόδωρος ὁ Ἀθηναῖος; Apollodorus",
+   "kind": "author",
+   "gloss_ru": "александрийский грамматик II в. до н. э., ученик Аристарха",
+   "gloss_en": "2nd-century BC Alexandrian grammarian, pupil of Aristarchus",
+   "wikidata": "Q205704",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Аполлодор"
+    ],
+    "en": [
+     "Apollodor"
+    ],
+    "la": [
+     "Apollodor"
+    ],
+    "grc": [
+     "Ἀπολλόδωρ",
+     "Ἀπολλοδώρ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "strabo",
+   "ru": "Страбон",
+   "en": "Strabo",
+   "orig": "Στράβων; Strabo",
+   "kind": "author",
+   "gloss_ru": "греческий географ рубежа эр, автор «Географии»",
+   "gloss_en": "Greek geographer at the turn of the era, author of the Geography",
+   "wikidata": "Q45936",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Страбон"
+    ],
+    "en": [
+     "Strabo"
+    ],
+    "la": [
+     "Strabo"
+    ],
+    "grc": [
+     "Στράβων"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "gellius",
+   "ru": "Авл Геллий",
+   "en": "Aulus Gellius",
+   "orig": "Aulus Gellius",
+   "kind": "author",
+   "gloss_ru": "римский писатель II в., автор «Аттических ночей»",
+   "gloss_en": "2nd-century Roman writer, author of the Attic Nights",
+   "wikidata": "Q294800",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Гелли[йяюе]"
+    ],
+    "en": [
+     "Gellius",
+     "Gell\\."
+    ],
+    "la": [
+     "Gelli(?:us|i)\\b",
+     "Gell\\."
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "athenaeus",
+   "ru": "Афиней",
+   "en": "Athenaeus of Naucratis",
+   "orig": "Ἀθήναιος ὁ Ναυκρατίτης; Athenaeus",
+   "kind": "author",
+   "gloss_ru": "греческий писатель рубежа II–III вв., автор «Пира мудрецов»",
+   "gloss_en": "Greek writer of the late 2nd/early 3rd c., author of the Deipnosophistae",
+   "wikidata": "Q294923",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Афине[йяюе]"
+    ],
+    "en": [
+     "Athenaeus",
+     "Athen\\."
+    ],
+    "la": [
+     "Athenae(?:us|i)\\b",
+     "Athen\\."
+    ],
+    "grc": [
+     "Ἀθήναιο",
+     "Ἀθηναίο"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "thucydides",
+   "ru": "Фукидид",
+   "en": "Thucydides",
+   "orig": "Θουκυδίδης; Thucydides",
+   "kind": "author",
+   "gloss_ru": "афинский историк V в. до н. э.",
+   "gloss_en": "5th-century BC Athenian historian",
+   "wikidata": "Q41683",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Фукидид"
+    ],
+    "en": [
+     "Thucydid"
+    ],
+    "la": [
+     "Thucydid"
+    ],
+    "grc": [
+     "Θουκυδίδ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "cicero",
+   "ru": "Цицерон",
+   "en": "Cicero",
+   "orig": "Marcus Tullius Cicero",
+   "kind": "author",
+   "gloss_ru": "римский оратор и писатель I в. до н. э., автор писем к Аттику",
+   "gloss_en": "1st-century BC Roman orator and writer, author of the letters to Atticus",
+   "wikidata": "Q1541",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Цицерон"
+    ],
+    "en": [
+     "Cicero",
+     "Cic\\."
+    ],
+    "la": [
+     "Cicer",
+     "Cic\\."
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "horace",
+   "ru": "Гораций",
+   "en": "Horace",
+   "orig": "Quintus Horatius Flaccus",
+   "kind": "author",
+   "gloss_ru": "римский поэт I в. до н. э., автор од",
+   "gloss_en": "1st-century BC Roman poet, author of the Odes",
+   "wikidata": "Q6197",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Гораци"
+    ],
+    "en": [
+     "Horace",
+     "Hor\\."
+    ],
+    "la": [
+     "Horati",
+     "Hor\\."
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "claudius-ptolemy",
+   "ru": "Клавдий Птолемей",
+   "en": "Claudius Ptolemy",
+   "orig": "Κλαύδιος Πτολεμαῖος; Claudius Ptolemaeus",
+   "kind": "author",
+   "gloss_ru": "александрийский астроном II в., автор «Альмагеста»",
+   "gloss_en": "2nd-century Alexandrian astronomer, author of the Almagest",
+   "wikidata": "Q34943",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Птолеме[йяюе]"
+    ],
+    "en": [
+     "Ptolemy\\b"
+    ],
+    "la": [
+     "Ptolemae(?:us|i)\\b"
+    ],
+    "grc": [
+     "Πτολεμαῖ",
+     "Πτολεμαί"
+    ]
+   },
+   "exclude": [
+    "Птолемей, впоследствии",
+    "Ptolemaeus, qui",
+    "Ptolemy, who"
+   ]
+  },
+  {
+   "id": "cleanthes",
+   "ru": "Клеанф",
+   "en": "Cleanthes",
+   "orig": "Κλεάνθης; Cleanthes",
+   "kind": "author",
+   "gloss_ru": "стоический философ III в. до н. э.; его взгляд упомянут у Гемина (16.21)",
+   "gloss_en": "3rd-century BC Stoic philosopher whose view Geminus mentions (16.21)",
+   "wikidata": "Q310149",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Клеанф"
+    ],
+    "en": [
+     "Cleanth"
+    ],
+    "la": [
+     "Cleanth"
+    ],
+    "grc": [
+     "Κλεάνθ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "aristyllus",
+   "ru": "Аристилл",
+   "en": "Aristyllus",
+   "orig": "Ἀρίστυλλος; Aristyllus",
+   "kind": "author",
+   "gloss_ru": "астроном III в. до н. э.; в длинной схолии к Арату 62 предлагает своё решение",
+   "gloss_en": "3rd-century BC astronomer; offers his own solution in the long scholion on Aratus 62",
+   "wikidata": "Q253458",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Аристилл"
+    ],
+    "en": [
+     "Aristyll"
+    ],
+    "la": [
+     "Aristyll"
+    ],
+    "grc": [
+     "Ἀρίστυλλ",
+     "Ἀριστύλλ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "boethus",
+   "ru": "Боэт Сидонский",
+   "en": "Boethus of Sidon",
+   "orig": "Βοηθὸς ὁ Σιδώνιος; Boethus Sidonius",
+   "kind": "author",
+   "gloss_ru": "стоик II в. до н. э., комментатор Арата; в схолии к Арату назван «математиком»",
+   "gloss_en": "2nd-century BC Stoic and commentator on Aratus; called a 'mathematician' in the Aratus scholion",
+   "wikidata": "Q738605",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Боэт(?!ий)"
+    ],
+    "en": [
+     "Boethus"
+    ],
+    "la": [
+     "Boeth(?!i)"
+    ],
+    "grc": [
+     "Βοηθ"
+    ]
+   },
+   "exclude": []
+  }
+ ],
+ "works": [
+  {
+   "id": "odyssey",
+   "author_id": "homer",
+   "ru": "Одиссея",
+   "en": "Odyssey",
+   "orig": "Ὀδύσσεια",
+   "abbr": "Od.",
+   "wikidata": "Q35160"
+  },
+  {
+   "id": "iliad",
+   "author_id": "homer",
+   "ru": "Илиада",
+   "en": "Iliad",
+   "orig": "Ἰλιάς",
+   "abbr": "Il.",
+   "wikidata": "Q8275"
+  },
+  {
+   "id": "theogony",
+   "author_id": "hesiod",
+   "ru": "Теогония",
+   "en": "Theogony",
+   "orig": "Θεογονία",
+   "abbr": "Hes. Th.",
+   "wikidata": "Q156498"
+  },
+  {
+   "id": "gem-isagoge",
+   "author_id": "geminus",
+   "ru": "Введение в явления",
+   "en": "Introduction to the Phenomena",
+   "orig": "Εἰσαγωγὴ εἰς τὰ φαινόμενα; Elementa astronomiae",
+   "abbr": "Gem.",
+   "wikidata": "Q111686266"
+  },
+  {
+   "id": "arat-phaen",
+   "author_id": "aratus",
+   "ru": "Явления",
+   "en": "Phaenomena",
+   "orig": "Φαινόμενα",
+   "abbr": "Arat.",
+   "wikidata": "Q42194191"
+  },
+  {
+   "id": "schol-arat",
+   "author_id": "anon",
+   "ru": "Схолии к Арату",
+   "en": "Scholia on Aratus",
+   "orig": "Scholia in Aratum",
+   "abbr": "schol. Arat.",
+   "wikidata": ""
+  },
+  {
+   "id": "schol-od",
+   "author_id": "anon",
+   "ru": "Схолии к «Одиссее»",
+   "en": "Scholia on the Odyssey",
+   "orig": "Scholia in Odysseam",
+   "abbr": "Σ Od.",
+   "wikidata": ""
+  },
+  {
+   "id": "schol-d-il",
+   "author_id": "anon",
+   "ru": "Схолии D к «Илиаде»",
+   "en": "D-scholia on the Iliad",
+   "orig": "Scholia D in Iliadem",
+   "abbr": "Σ D Il.",
+   "wikidata": "Q123915878"
+  },
+  {
+   "id": "eust-od",
+   "author_id": "eustathius",
+   "ru": "Комментарий к «Одиссее»",
+   "en": "Commentary on the Odyssey",
+   "orig": "Παρεκβολαὶ εἰς τὴν Ὁμήρου Ὀδύσσειαν; Commentarii ad Homeri Odysseam",
+   "abbr": "Eust. ad Od.",
+   "wikidata": "Q103979581"
+  },
+  {
+   "id": "hipparch-arat",
+   "author_id": "hipparchus",
+   "ru": "Комментарий к Арату и Евдоксу",
+   "en": "Commentary on the Phaenomena of Aratus and Eudoxus",
+   "orig": "Τῶν Ἀράτου καὶ Εὐδόξου Φαινομένων ἐξήγησις",
+   "abbr": "Hipparch. in Arat.",
+   "wikidata": "Q42196579"
+  },
+  {
+   "id": "aristonic-od",
+   "author_id": "aristonicus",
+   "ru": "О знаках в «Одиссее»",
+   "en": "On the Critical Signs in the Odyssey",
+   "orig": "Περὶ σημείων Ὀδυσσείας",
+   "abbr": "Aristonic. Od.",
+   "wikidata": ""
+  },
+  {
+   "id": "athen-deipn",
+   "author_id": "athenaeus",
+   "ru": "Пир мудрецов",
+   "en": "Deipnosophistae",
+   "orig": "Δειπνοσοφισταί",
+   "abbr": "Athen.",
+   "wikidata": "Q1244416"
+  },
+  {
+   "id": "herodic-fr",
+   "author_id": "herodicus",
+   "ru": "Фрагменты (изд. Броджато)",
+   "en": "Fragments (ed. Broggiato)",
+   "orig": "Fragmenta",
+   "abbr": "Herodic. F (Broggiato)",
+   "wikidata": ""
+  },
+  {
+   "id": "herodic-symp",
+   "author_id": "herodicus",
+   "ru": "О пирах",
+   "en": "On Symposia",
+   "orig": "",
+   "abbr": "Herodic. De symp.",
+   "wikidata": ""
+  },
+  {
+   "id": "herodic-philosocr",
+   "author_id": "herodicus",
+   "ru": "Против почитателя Сократа",
+   "en": "Against the Admirer of Socrates",
+   "orig": "Πρὸς τὸν Φιλοσωκράτην",
+   "abbr": "Herodic. Philosocr.",
+   "wikidata": "Q130297888"
+  },
+  {
+   "id": "plat-symp",
+   "author_id": "plato",
+   "ru": "Пир",
+   "en": "Symposium",
+   "orig": "Συμπόσιον",
+   "abbr": "Pl. Smp.",
+   "wikidata": "Q486727"
+  },
+  {
+   "id": "thuc-hist",
+   "author_id": "thucydides",
+   "ru": "История",
+   "en": "History of the Peloponnesian War",
+   "orig": "Ἱστορίαι",
+   "abbr": "Thuc.",
+   "wikidata": "Q639493"
+  },
+  {
+   "id": "cic-att",
+   "author_id": "cicero",
+   "ru": "Письма к Аттику",
+   "en": "Letters to Atticus",
+   "orig": "Epistulae ad Atticum",
+   "abbr": "Cic. Att.",
+   "wikidata": "Q3237044"
+  },
+  {
+   "id": "hor-carm",
+   "author_id": "horace",
+   "ru": "Оды",
+   "en": "Odes",
+   "orig": "Carmina",
+   "abbr": "Hor. Carm.",
+   "wikidata": "Q943884"
+  },
+  {
+   "id": "strab-geogr",
+   "author_id": "strabo",
+   "ru": "География",
+   "en": "Geography",
+   "orig": "Γεωγραφικά",
+   "abbr": "Strab.",
+   "wikidata": "Q690653"
+  },
+  {
+   "id": "ptol-alm",
+   "author_id": "claudius-ptolemy",
+   "ru": "Альмагест",
+   "en": "Almagest",
+   "orig": "Μαθηματικὴ σύνταξις",
+   "abbr": "Ptol. Alm.",
+   "wikidata": "Q155952"
+  },
+  {
+   "id": "gell-na",
+   "author_id": "gellius",
+   "ru": "Аттические ночи",
+   "en": "Attic Nights",
+   "orig": "Noctes Atticae",
+   "abbr": "Gell. NA",
+   "wikidata": "Q660519"
+  },
+  {
+   "id": "crates-fr-broggiato",
+   "author_id": "crates",
+   "ru": "Фрагменты (изд. Броджато)",
+   "en": "Fragments (ed. Broggiato)",
+   "orig": "Fragmenta",
+   "abbr": "Crates F (Broggiato)",
+   "wikidata": ""
+  },
+  {
+   "id": "crates-fr-mette",
+   "author_id": "crates",
+   "ru": "Фрагменты (изд. Метте)",
+   "en": "Fragments (ed. Mette)",
+   "orig": "Fragmenta",
+   "abbr": "Crates fr. (Mette)",
+   "wikidata": ""
+  }
+ ],
+ "loci": [
+  {
+   "work_id": "odyssey",
+   "locus": "10.86",
+   "page": "study-laestrygonians",
+   "anchor": "abstract",
+   "label": "аннотация"
+  },
+  {
+   "work_id": "odyssey",
+   "locus": "10.190",
+   "page": "study-laestrygonians",
+   "anchor": "abstract",
+   "label": "аннотация"
+  },
+  {
+   "work_id": "odyssey",
+   "locus": "10.80–86",
+   "page": "study-laestrygonians",
+   "anchor": "s1",
+   "label": "§ 1"
+  },
+  {
+   "work_id": "odyssey",
+   "locus": "10.86",
+   "page": "study-laestrygonians",
+   "anchor": "s2",
+   "label": "§ 2"
+  },
+  {
+   "work_id": "odyssey",
+   "locus": "10.86",
+   "page": "study-laestrygonians",
+   "anchor": "s3",
+   "label": "§ 3"
+  },
+  {
+   "work_id": "odyssey",
+   "locus": "10.84",
+   "page": "study-laestrygonians",
+   "anchor": "s3",
+   "label": "§ 3"
+  },
+  {
+   "work_id": "odyssey",
+   "locus": "11.14–19",
+   "page": "study-laestrygonians",
+   "anchor": "s3",
+   "label": "§ 3"
+  },
+  {
+   "work_id": "odyssey",
+   "locus": "11.14",
+   "page": "study-laestrygonians",
+   "anchor": "s3",
+   "label": "§ 3"
+  },
+  {
+   "work_id": "odyssey",
+   "locus": "10.86",
+   "page": "study-laestrygonians",
+   "anchor": "s4",
+   "label": "§ 4"
+  },
+  {
+   "work_id": "odyssey",
+   "locus": "10.86",
+   "page": "study-laestrygonians",
+   "anchor": "s5",
+   "label": "§ 5"
+  },
+  {
+   "work_id": "odyssey",
+   "locus": "10.190",
+   "page": "study-laestrygonians",
+   "anchor": "s5",
+   "label": "§ 5"
+  },
+  {
+   "work_id": "odyssey",
+   "locus": "1.23–24",
+   "page": "study-laestrygonians",
+   "anchor": "s5",
+   "label": "§ 5"
+  },
+  {
+   "work_id": "odyssey",
+   "locus": "10.86",
+   "page": "study-laestrygonians",
+   "anchor": "s6",
+   "label": "§ 6"
+  },
+  {
+   "work_id": "odyssey",
+   "locus": "10.190",
+   "page": "study-laestrygonians",
+   "anchor": "s6",
+   "label": "§ 6"
+  },
+  {
+   "work_id": "odyssey",
+   "locus": "10.84",
+   "page": "study-laestrygonians",
+   "anchor": "n1",
+   "label": "прим. 1"
+  },
+  {
+   "work_id": "odyssey",
+   "locus": "9.473",
+   "page": "study-laestrygonians",
+   "anchor": "appx-4",
+   "label": "приложение, Σ 10.82"
+  },
+  {
+   "work_id": "odyssey",
+   "locus": "10.86",
+   "page": "study-laestrygonians",
+   "anchor": "appx-9",
+   "label": "приложение, Σ 10.86 [a–c]"
+  },
+  {
+   "work_id": "odyssey",
+   "locus": "10.82–85",
+   "page": "study-laestrygonians",
+   "anchor": "appx-12",
+   "label": "приложение, Σ 10.86"
+  },
+  {
+   "work_id": "iliad",
+   "locus": "12.239",
+   "page": "study-laestrygonians",
+   "anchor": "s5",
+   "label": "§ 5"
+  },
+  {
+   "work_id": "iliad",
+   "locus": "12.239",
+   "page": "study-laestrygonians",
+   "anchor": "n30",
+   "label": "прим. 30"
+  },
+  {
+   "work_id": "theogony",
+   "locus": "748–750",
+   "page": "study-laestrygonians",
+   "anchor": "s1",
+   "label": "§ 1"
+  },
+  {
+   "work_id": "gem-isagoge",
+   "locus": "6.10–12",
+   "page": "study-laestrygonians",
+   "anchor": "s2",
+   "label": "§ 2"
+  },
+  {
+   "work_id": "gem-isagoge",
+   "locus": "6.10–12",
+   "page": "study-laestrygonians",
+   "anchor": "s3",
+   "label": "§ 3"
+  },
+  {
+   "work_id": "gem-isagoge",
+   "locus": "6.20",
+   "page": "study-laestrygonians",
+   "anchor": "s3",
+   "label": "§ 3"
+  },
+  {
+   "work_id": "gem-isagoge",
+   "locus": "6.21",
+   "page": "study-laestrygonians",
+   "anchor": "s3",
+   "label": "§ 3"
+  },
+  {
+   "work_id": "gem-isagoge",
+   "locus": "16",
+   "page": "study-laestrygonians",
+   "anchor": "s3",
+   "label": "§ 3"
+  },
+  {
+   "work_id": "gem-isagoge",
+   "locus": "6.11",
+   "page": "study-laestrygonians",
+   "anchor": "s6",
+   "label": "§ 6"
+  },
+  {
+   "work_id": "gem-isagoge",
+   "locus": "6.8–12",
+   "page": "study-laestrygonians",
+   "anchor": "n8",
+   "label": "прим. 8"
+  },
+  {
+   "work_id": "gem-isagoge",
+   "locus": "6.10–12",
+   "page": "study-laestrygonians",
+   "anchor": "n8",
+   "label": "прим. 8"
+  },
+  {
+   "work_id": "gem-isagoge",
+   "locus": "6.16–21",
+   "page": "study-laestrygonians",
+   "anchor": "n11",
+   "label": "прим. 11"
+  },
+  {
+   "work_id": "gem-isagoge",
+   "locus": "6.18–19",
+   "page": "study-laestrygonians",
+   "anchor": "n12",
+   "label": "прим. 12"
+  },
+  {
+   "work_id": "gem-isagoge",
+   "locus": "6.20",
+   "page": "study-laestrygonians",
+   "anchor": "n12",
+   "label": "прим. 12"
+  },
+  {
+   "work_id": "gem-isagoge",
+   "locus": "16.22–23",
+   "page": "study-laestrygonians",
+   "anchor": "n13",
+   "label": "прим. 13"
+  },
+  {
+   "work_id": "gem-isagoge",
+   "locus": "16.21",
+   "page": "study-laestrygonians",
+   "anchor": "n13",
+   "label": "прим. 13"
+  },
+  {
+   "work_id": "gem-isagoge",
+   "locus": "6.20",
+   "page": "study-laestrygonians",
+   "anchor": "n16",
+   "label": "прим. 16"
+  },
+  {
+   "work_id": "gem-isagoge",
+   "locus": "6.21",
+   "page": "study-laestrygonians",
+   "anchor": "n16",
+   "label": "прим. 16"
+  },
+  {
+   "work_id": "gem-isagoge",
+   "locus": "16.27",
+   "page": "study-laestrygonians",
+   "anchor": "n16",
+   "label": "прим. 16"
+  },
+  {
+   "work_id": "arat-phaen",
+   "locus": "61–62",
+   "page": "study-laestrygonians",
+   "anchor": "s2",
+   "label": "§ 2"
+  },
+  {
+   "work_id": "arat-phaen",
+   "locus": "61–62",
+   "page": "study-laestrygonians",
+   "anchor": "s4",
+   "label": "§ 4"
+  },
+  {
+   "work_id": "arat-phaen",
+   "locus": "61–62",
+   "page": "study-laestrygonians",
+   "anchor": "n17",
+   "label": "прим. 17"
+  },
+  {
+   "work_id": "arat-phaen",
+   "locus": "61–62",
+   "page": "study-laestrygonians",
+   "anchor": "appx-9",
+   "label": "приложение, Σ 10.86 [a–c]"
+  },
+  {
+   "work_id": "arat-phaen",
+   "locus": "61–62",
+   "page": "study-laestrygonians",
+   "anchor": "appx-10",
+   "label": "приложение, Σ 10.86"
+  },
+  {
+   "work_id": "schol-arat",
+   "locus": "62",
+   "page": "study-laestrygonians",
+   "anchor": "abstract",
+   "label": "аннотация"
+  },
+  {
+   "work_id": "schol-arat",
+   "locus": "62",
+   "page": "study-laestrygonians",
+   "anchor": "s2",
+   "label": "§ 2"
+  },
+  {
+   "work_id": "schol-arat",
+   "locus": "62",
+   "page": "study-laestrygonians",
+   "anchor": "s4",
+   "label": "§ 4"
+  },
+  {
+   "work_id": "schol-arat",
+   "locus": "62",
+   "page": "study-laestrygonians",
+   "anchor": "s6",
+   "label": "§ 6"
+  },
+  {
+   "work_id": "schol-arat",
+   "locus": "62",
+   "page": "study-laestrygonians",
+   "anchor": "n8",
+   "label": "прим. 8"
+  },
+  {
+   "work_id": "schol-arat",
+   "locus": "62",
+   "page": "study-laestrygonians",
+   "anchor": "n19",
+   "label": "прим. 19"
+  },
+  {
+   "work_id": "schol-arat",
+   "locus": "61",
+   "page": "study-laestrygonians",
+   "anchor": "n19",
+   "label": "прим. 19"
+  },
+  {
+   "work_id": "schol-arat",
+   "locus": "62",
+   "page": "study-laestrygonians",
+   "anchor": "n20",
+   "label": "прим. 20"
+  },
+  {
+   "work_id": "schol-arat",
+   "locus": "62",
+   "page": "study-laestrygonians",
+   "anchor": "n25",
+   "label": "прим. 25"
+  },
+  {
+   "work_id": "schol-arat",
+   "locus": "61",
+   "page": "study-laestrygonians",
+   "anchor": "appx-9",
+   "label": "приложение, Σ 10.86 [a–c]"
+  },
+  {
+   "work_id": "schol-od",
+   "locus": "10.82–86",
+   "page": "study-laestrygonians",
+   "anchor": "abstract",
+   "label": "аннотация"
+  },
+  {
+   "work_id": "schol-od",
+   "locus": "10.82–86",
+   "page": "study-laestrygonians",
+   "anchor": "s1",
+   "label": "§ 1"
+  },
+  {
+   "work_id": "schol-od",
+   "locus": "10.82–86",
+   "page": "study-laestrygonians",
+   "anchor": "s2",
+   "label": "§ 2"
+  },
+  {
+   "work_id": "schol-od",
+   "locus": "10.82",
+   "page": "study-laestrygonians",
+   "anchor": "s2",
+   "label": "§ 2"
+  },
+  {
+   "work_id": "schol-od",
+   "locus": "10.85",
+   "page": "study-laestrygonians",
+   "anchor": "s2",
+   "label": "§ 2"
+  },
+  {
+   "work_id": "schol-od",
+   "locus": "10.86",
+   "page": "study-laestrygonians",
+   "anchor": "s2",
+   "label": "§ 2"
+  },
+  {
+   "work_id": "schol-od",
+   "locus": "10.86",
+   "page": "study-laestrygonians",
+   "anchor": "s3",
+   "label": "§ 3"
+  },
+  {
+   "work_id": "schol-od",
+   "locus": "11.14",
+   "page": "study-laestrygonians",
+   "anchor": "s3",
+   "label": "§ 3"
+  },
+  {
+   "work_id": "schol-od",
+   "locus": "10.86",
+   "page": "study-laestrygonians",
+   "anchor": "s4",
+   "label": "§ 4"
+  },
+  {
+   "work_id": "schol-od",
+   "locus": "10.190",
+   "page": "study-laestrygonians",
+   "anchor": "s5",
+   "label": "§ 5"
+  },
+  {
+   "work_id": "schol-od",
+   "locus": "2.1",
+   "page": "study-laestrygonians",
+   "anchor": "s5",
+   "label": "§ 5"
+  },
+  {
+   "work_id": "schol-od",
+   "locus": "10.3",
+   "page": "study-laestrygonians",
+   "anchor": "s5",
+   "label": "§ 5"
+  },
+  {
+   "work_id": "schol-od",
+   "locus": "10.86",
+   "page": "study-laestrygonians",
+   "anchor": "s6",
+   "label": "§ 6"
+  },
+  {
+   "work_id": "schol-od",
+   "locus": "10.84",
+   "page": "study-laestrygonians",
+   "anchor": "n1",
+   "label": "прим. 1"
+  },
+  {
+   "work_id": "schol-od",
+   "locus": "10.86",
+   "page": "study-laestrygonians",
+   "anchor": "n2",
+   "label": "прим. 2"
+  },
+  {
+   "work_id": "schol-od",
+   "locus": "10.82–86",
+   "page": "study-laestrygonians",
+   "anchor": "n3",
+   "label": "прим. 3"
+  },
+  {
+   "work_id": "schol-od",
+   "locus": "10.85",
+   "page": "study-laestrygonians",
+   "anchor": "n5",
+   "label": "прим. 5"
+  },
+  {
+   "work_id": "schol-od",
+   "locus": "11.14",
+   "page": "study-laestrygonians",
+   "anchor": "n11",
+   "label": "прим. 11"
+  },
+  {
+   "work_id": "schol-od",
+   "locus": "10.1",
+   "page": "study-laestrygonians",
+   "anchor": "n28",
+   "label": "прим. 28"
+  },
+  {
+   "work_id": "schol-od",
+   "locus": "10.190",
+   "page": "study-laestrygonians",
+   "anchor": "n29",
+   "label": "прим. 29"
+  },
+  {
+   "work_id": "schol-od",
+   "locus": "2.1",
+   "page": "study-laestrygonians",
+   "anchor": "n30",
+   "label": "прим. 30"
+  },
+  {
+   "work_id": "schol-od",
+   "locus": "10.3",
+   "page": "study-laestrygonians",
+   "anchor": "n31",
+   "label": "прим. 31"
+  },
+  {
+   "work_id": "schol-od",
+   "locus": "10.86",
+   "page": "study-laestrygonians",
+   "anchor": "n38",
+   "label": "прим. 38"
+  },
+  {
+   "work_id": "schol-od",
+   "locus": "10.82",
+   "page": "study-laestrygonians",
+   "anchor": "appx-1",
+   "label": "приложение, Σ 10.82"
+  },
+  {
+   "work_id": "schol-od",
+   "locus": "10.82",
+   "page": "study-laestrygonians",
+   "anchor": "appx-2",
+   "label": "приложение, Σ 10.82"
+  },
+  {
+   "work_id": "schol-od",
+   "locus": "10.82",
+   "page": "study-laestrygonians",
+   "anchor": "appx-3",
+   "label": "приложение, Σ 10.82"
+  },
+  {
+   "work_id": "schol-od",
+   "locus": "10.82",
+   "page": "study-laestrygonians",
+   "anchor": "appx-4",
+   "label": "приложение, Σ 10.82"
+  },
+  {
+   "work_id": "schol-od",
+   "locus": "10.83",
+   "page": "study-laestrygonians",
+   "anchor": "appx-5",
+   "label": "приложение, Σ 10.83"
+  },
+  {
+   "work_id": "schol-od",
+   "locus": "10.84",
+   "page": "study-laestrygonians",
+   "anchor": "appx-6",
+   "label": "приложение, Σ 10.84"
+  },
+  {
+   "work_id": "schol-od",
+   "locus": "10.85",
+   "page": "study-laestrygonians",
+   "anchor": "appx-7",
+   "label": "приложение, Σ 10.85"
+  },
+  {
+   "work_id": "schol-od",
+   "locus": "10.86",
+   "page": "study-laestrygonians",
+   "anchor": "appx-8",
+   "label": "приложение, Σ 10.86"
+  },
+  {
+   "work_id": "schol-od",
+   "locus": "10.86",
+   "page": "study-laestrygonians",
+   "anchor": "appx-9",
+   "label": "приложение, Σ 10.86 [a–c]"
+  },
+  {
+   "work_id": "schol-od",
+   "locus": "10.86",
+   "page": "study-laestrygonians",
+   "anchor": "appx-10",
+   "label": "приложение, Σ 10.86"
+  },
+  {
+   "work_id": "schol-od",
+   "locus": "10.86",
+   "page": "study-laestrygonians",
+   "anchor": "appx-11",
+   "label": "приложение, Σ 10.86"
+  },
+  {
+   "work_id": "schol-od",
+   "locus": "10.86",
+   "page": "study-laestrygonians",
+   "anchor": "appx-12",
+   "label": "приложение, Σ 10.86"
+  },
+  {
+   "work_id": "schol-d-il",
+   "locus": "5.385",
+   "page": "study-laestrygonians",
+   "anchor": "s5",
+   "label": "§ 5"
+  },
+  {
+   "work_id": "schol-d-il",
+   "locus": "5.385",
+   "page": "study-laestrygonians",
+   "anchor": "n32",
+   "label": "прим. 32"
+  },
+  {
+   "work_id": "eust-od",
+   "locus": "1649",
+   "page": "study-laestrygonians",
+   "anchor": "s2",
+   "label": "§ 2"
+  },
+  {
+   "work_id": "eust-od",
+   "locus": "1648",
+   "page": "study-laestrygonians",
+   "anchor": "s2",
+   "label": "§ 2"
+  },
+  {
+   "work_id": "eust-od",
+   "locus": "1648.42",
+   "page": "study-laestrygonians",
+   "anchor": "n5",
+   "label": "прим. 5"
+  },
+  {
+   "work_id": "eust-od",
+   "locus": "1649",
+   "page": "study-laestrygonians",
+   "anchor": "n6",
+   "label": "прим. 6"
+  },
+  {
+   "work_id": "eust-od",
+   "locus": "1649",
+   "page": "study-laestrygonians",
+   "anchor": "n15",
+   "label": "прим. 15"
+  },
+  {
+   "work_id": "eust-od",
+   "locus": "1649",
+   "page": "study-laestrygonians",
+   "anchor": "n22",
+   "label": "прим. 22"
+  },
+  {
+   "work_id": "eust-od",
+   "locus": "1648",
+   "page": "study-laestrygonians",
+   "anchor": "n38",
+   "label": "прим. 38"
+  },
+  {
+   "work_id": "eust-od",
+   "locus": "1648.42",
+   "page": "study-laestrygonians",
+   "anchor": "appx-7",
+   "label": "приложение, Σ 10.85"
+  },
+  {
+   "work_id": "hipparch-arat",
+   "locus": "1.4.7–8",
+   "page": "study-laestrygonians",
+   "anchor": "s6",
+   "label": "§ 6"
+  },
+  {
+   "work_id": "hipparch-arat",
+   "locus": "1.4.7–8",
+   "page": "study-laestrygonians",
+   "anchor": "n17",
+   "label": "прим. 17"
+  },
+  {
+   "work_id": "hipparch-arat",
+   "locus": "1.11.3",
+   "page": "study-laestrygonians",
+   "anchor": "n17",
+   "label": "прим. 17"
+  },
+  {
+   "work_id": "aristonic-od",
+   "locus": "",
+   "page": "study-laestrygonians",
+   "anchor": "s2",
+   "label": "§ 2"
+  },
+  {
+   "work_id": "aristonic-od",
+   "locus": "10.1",
+   "page": "study-laestrygonians",
+   "anchor": "s5",
+   "label": "§ 5"
+  },
+  {
+   "work_id": "aristonic-od",
+   "locus": "10.190",
+   "page": "study-laestrygonians",
+   "anchor": "s5",
+   "label": "§ 5"
+  },
+  {
+   "work_id": "aristonic-od",
+   "locus": "10.1",
+   "page": "study-laestrygonians",
+   "anchor": "n28",
+   "label": "прим. 28"
+  },
+  {
+   "work_id": "aristonic-od",
+   "locus": "10.190",
+   "page": "study-laestrygonians",
+   "anchor": "n29",
+   "label": "прим. 29"
+  },
+  {
+   "work_id": "aristonic-od",
+   "locus": "4.556",
+   "page": "study-laestrygonians",
+   "anchor": "n34",
+   "label": "прим. 34"
+  },
+  {
+   "work_id": "aristonic-od",
+   "locus": "5.55",
+   "page": "study-laestrygonians",
+   "anchor": "n34",
+   "label": "прим. 34"
+  },
+  {
+   "work_id": "aristonic-od",
+   "locus": "6.204",
+   "page": "study-laestrygonians",
+   "anchor": "n34",
+   "label": "прим. 34"
+  },
+  {
+   "work_id": "aristonic-od",
+   "locus": "10.190",
+   "page": "study-laestrygonians",
+   "anchor": "n34",
+   "label": "прим. 34"
+  },
+  {
+   "work_id": "athen-deipn",
+   "locus": "5.192b",
+   "page": "study-laestrygonians",
+   "anchor": "n14",
+   "label": "прим. 14"
+  },
+  {
+   "work_id": "athen-deipn",
+   "locus": "5.215f",
+   "page": "study-laestrygonians",
+   "anchor": "n14",
+   "label": "прим. 14"
+  },
+  {
+   "work_id": "athen-deipn",
+   "locus": "5.185a–193c",
+   "page": "study-laestrygonians",
+   "anchor": "n14",
+   "label": "прим. 14"
+  },
+  {
+   "work_id": "athen-deipn",
+   "locus": "5.192a–b",
+   "page": "study-laestrygonians",
+   "anchor": "n14",
+   "label": "прим. 14"
+  },
+  {
+   "work_id": "herodic-fr",
+   "locus": "13",
+   "page": "study-laestrygonians",
+   "anchor": "n14",
+   "label": "прим. 14"
+  },
+  {
+   "work_id": "herodic-symp",
+   "locus": "",
+   "page": "study-laestrygonians",
+   "anchor": "n14",
+   "label": "прим. 14"
+  },
+  {
+   "work_id": "herodic-philosocr",
+   "locus": "",
+   "page": "study-laestrygonians",
+   "anchor": "n14",
+   "label": "прим. 14"
+  },
+  {
+   "work_id": "plat-symp",
+   "locus": "",
+   "page": "study-laestrygonians",
+   "anchor": "s3",
+   "label": "§ 3"
+  },
+  {
+   "work_id": "thuc-hist",
+   "locus": "6.2.1",
+   "page": "study-laestrygonians",
+   "anchor": "n35",
+   "label": "прим. 35"
+  },
+  {
+   "work_id": "cic-att",
+   "locus": "2.13.2",
+   "page": "study-laestrygonians",
+   "anchor": "n35",
+   "label": "прим. 35"
+  },
+  {
+   "work_id": "hor-carm",
+   "locus": "3.17.1–8",
+   "page": "study-laestrygonians",
+   "anchor": "n35",
+   "label": "прим. 35"
+  },
+  {
+   "work_id": "strab-geogr",
+   "locus": "2.5.43",
+   "page": "study-laestrygonians",
+   "anchor": "n23",
+   "label": "прим. 23"
+  },
+  {
+   "work_id": "strab-geogr",
+   "locus": "1.2.24–25",
+   "page": "study-laestrygonians",
+   "anchor": "n33",
+   "label": "прим. 33"
+  },
+  {
+   "work_id": "strab-geogr",
+   "locus": "7.3.6",
+   "page": "study-laestrygonians",
+   "anchor": "n34",
+   "label": "прим. 34"
+  },
+  {
+   "work_id": "strab-geogr",
+   "locus": "1.2.37",
+   "page": "study-laestrygonians",
+   "anchor": "n34",
+   "label": "прим. 34"
+  },
+  {
+   "work_id": "strab-geogr",
+   "locus": "1.2.15",
+   "page": "study-laestrygonians",
+   "anchor": "n36",
+   "label": "прим. 36"
+  },
+  {
+   "work_id": "strab-geogr",
+   "locus": "1.2.17–18",
+   "page": "study-laestrygonians",
+   "anchor": "n37",
+   "label": "прим. 37"
+  },
+  {
+   "work_id": "strab-geogr",
+   "locus": "7.3.6",
+   "page": "study-laestrygonians",
+   "anchor": "n37",
+   "label": "прим. 37"
+  },
+  {
+   "work_id": "strab-geogr",
+   "locus": "1.2.37",
+   "page": "study-laestrygonians",
+   "anchor": "n37",
+   "label": "прим. 37"
+  },
+  {
+   "work_id": "ptol-alm",
+   "locus": "2.6",
+   "page": "study-laestrygonians",
+   "anchor": "n24",
+   "label": "прим. 24"
+  },
+  {
+   "work_id": "gell-na",
+   "locus": "14.6.3",
+   "page": "study-laestrygonians",
+   "anchor": "s1",
+   "label": "§ 1"
+  },
+  {
+   "work_id": "gell-na",
+   "locus": "14.6.3",
+   "page": "study-laestrygonians",
+   "anchor": "n26",
+   "label": "прим. 26"
+  },
+  {
+   "work_id": "crates-fr-broggiato",
+   "locus": "50",
+   "page": "study-laestrygonians",
+   "anchor": "s4",
+   "label": "§ 4"
+  },
+  {
+   "work_id": "crates-fr-broggiato",
+   "locus": "50",
+   "page": "study-laestrygonians",
+   "anchor": "s6",
+   "label": "§ 6"
+  },
+  {
+   "work_id": "crates-fr-broggiato",
+   "locus": "50",
+   "page": "study-laestrygonians",
+   "anchor": "n8",
+   "label": "прим. 8"
+  },
+  {
+   "work_id": "crates-fr-broggiato",
+   "locus": "54",
+   "page": "study-laestrygonians",
+   "anchor": "n11",
+   "label": "прим. 11"
+  },
+  {
+   "work_id": "crates-fr-broggiato",
+   "locus": "53",
+   "page": "study-laestrygonians",
+   "anchor": "n11",
+   "label": "прим. 11"
+  },
+  {
+   "work_id": "crates-fr-mette",
+   "locus": "31",
+   "page": "study-laestrygonians",
+   "anchor": "n26",
+   "label": "прим. 26"
+  },
+  {
+   "work_id": "crates-fr-mette",
+   "locus": "37",
+   "page": "study-laestrygonians",
+   "anchor": "s6",
+   "label": "§ 6"
+  }
+ ],
+ "notes": "Scope: text 3 only (research/studies/laestrygonians/article.md), covering the abstract (RU + EN, keywords), §§ 1–6, notes 1–38 and appendix blocks appx-1…appx-12. The bibliography and modern scholars/editors (Dindorf, Carnuth, Lehrs, Mette, Broggiato, Bilić, Buttmann, Porson, Aldus, etc.) are excluded. No file was modified.\n\nAuthors: 27, kind \"author\". Socrates and Odysseus/Ulixes appear only as characters, so they are not indexed. The scholiasts and the B interpolator are anonymous; their collections are works with author_id \"anon\". \"anon\" is a placeholder, not an entry in the authors list.\n\nPatterns: tested with a scanner that matches at word start, one hit per unit. Text-units hit per author:\n- homer 9, crates 19, aristarchus 11, geminus 11, eustathius 10, aratus 10, strabo 8, aristonicus 6, gellius 5, hipparchus 4, polybius 3\n- pytheas 2, eudoxus 2, attalus-rhodes 2, herodicus 2, eratosthenes 2, apollodorus 2, athenaeus 2\n- 1 each: hesiod, plato, thucydides, cicero, horace, claudius-ptolemy, cleanthes, aristyllus, boethus\n\nPattern decisions:\n- Patterns are case-sensitive, so adjectives are not counted (\"кратетовское\", \"гомеровские\", \"аратовское\", \"гиппарховы\"). The one exception is Plato, who appears only as \"платоновского «Пира»\".\n- \"Кратет(?!ов)\" excludes the capitalised \"Кратетовское\" (§ 1) and \"Кратетовец\" (n14, Herodicus).\n- Greek \"Κράτων\" is included. It is the Moscow codex's spelling of Crates' name (n19).\n- The bare-word stem \"Hipparch\" does not match the satellite catalogue \"Hipparcos\" (n18).\n\nCross-text collisions: I also checked all patterns against zacher-1.json and odyssey-10.njk.\n- Zacher's Attalus (the Macedonian noble) and Ptolemy (Soter) would collide with entries here. The ids are therefore \"attalus-rhodes\" (restricted to the forms Атталом/Атталу/\"Аттал… Родосск\") and \"claudius-ptolemy\" (with exclude regexes for the Zacher ch. 17 passage). Both now give 0 Zacher hits.\n- The Homer, Aristarchus, Eratosthenes, Strabo and Thucydides hits on the odyssey-10 page are the same persons.\n\nWikidata: every Q-id was confirmed with wbsearchentities plus wbgetentities, or a haswbstatement:P50 author search.\n- Hipparchus' commentary Q42196579 and Geminus' Isagoge Q111686266 (\"Introduction to astronomy\") were found through P50.\n- Herodicus' Πρὸς τὸν Φιλοσωκράτην has a duplicate item, Q141712887; I used the older Q130297888.\n- No item was found for the scholia on the Odyssey, the scholia on Aratus, Aristonicus' Περὶ σημείων, or the fragment collections. The Q138720617 \"Scholia D in Odysseam\" item was deliberately not used for the whole corpus.\n- No places were indexed, so pleiades is \"\" throughout.\n\nLocus normalisation:\n- Book letters are converted to numbers (κ 190 → 10.190; δ 556 → 4.556; Alm. II.6 → 2.6).\n- Eustathius is cited by Rome-edition page (1648, 1649, 1648.42).\n- Fragment numbers are given bare under the separate works crates-fr-broggiato, crates-fr-mette and herodic-fr.\n\nJudgement calls (worth reviewing):\n1. Od. 10.84 is cited in § 3 for the quoted \"неспящий\" line, although no number is given there.\n2. Quotations inside the appendix scholia are cited as Homer/Aratus loci: Od. 9.473 (appx-4), Od. 10.86 (appx-9), Od. 10.82–85 (appx-12), Arat. 61–62 (appx-9, appx-10). The apparatus at appx-9, \"Ἄρατος] 61 … memorat scholiasta\", is also recorded as schol. Arat. 61.\n3. Footnotes that cite edition lines of an already-identified scholion count as loci: schol. Arat. 62 in n19, n20, n25; Σ Od. 10.86 HQ in n2 and n38. The bare \"схолия\" in n9 is not counted.\n4. \"В главе 16\" in § 3 is given as Gem. locus \"16\".\n5. The Aristonicus record for § 2 has an empty locus (his notes on the Odyssey are cited as a whole: none for κ 70–91).\n6. Cicero's Homeric tag \"Τηλέπυλον Λαιστρυγονίην\" (n35) is not counted as an Odyssey locus.\n7. The Greek title of Düring's «О пирах» is left blank because the article does not give it."
+}

@@ -1,0 +1,92 @@
+---
+title: "Библиотека Neoscholia"
+nav: "library"
+permalink: "library.html"
+styles: ["index"]
+scripts: ["library"]
+mock: "<b>Макет страницы.</b> Перечни текстов — из исследования проекта. Опубликованы книга I эпитомы Цахера, черновик схолий к «Одиссее» X; остальные тексты помечены как готовящиеся."
+---
+<main id="top">
+    <div class="crumbs"><a href="index.html">Главная</a> › Библиотека</div>
+    <section class="lib-head" aria-labelledby="lib-h">
+      <h1 id="lib-h">Библиотека</h1>
+      <p class="lede">Первые переводы античных и византийских текстов на русский и английский — с оригиналом, новыми схолиями на полях и открытым журналом рецензии.</p>
+      <form class="search" role="search" id="search-form">
+        <label class="label" for="q" style="position:absolute;left:-9999px">Поиск по библиотеке</label>
+        <input id="q" type="search" placeholder="Автор, текст или тема: Пиндар, Эол, гармоника…" autocomplete="off">
+      </form>
+      <p class="hint" id="hint">Поиск сразу фильтрует разделы ниже.</p>
+    </section>
+
+    <section class="block" id="collections" aria-labelledby="col-h">
+      <div class="block-head">
+        <h2 id="col-h">Разделы</h2>
+        <p>Разделы растут вместе с библиотекой. Новый раздел открывается, когда в нём готов первый проверенный текст.</p>
+      </div>
+
+      <div class="shelves">
+        <article class="shelf" data-shelf>
+          <h3><a href="alexander.html" id="alexander">Роман об Александре</a></h3>
+          <p class="scope">Греческие редакции Псевдо-Каллисфена, латинская традиция, Византия и Восток.</p>
+          <ul class="texts">
+            <li><a class="t" href="zacher-1.html">Эпитома Юлия Валерия («эпитома Цахера»), кн. I</a>
+              <span class="meta"><span class="status draft">версия 0.2</span>латынь · Zacher 1867</span></li>
+            <li><span class="t">Византийская жизнь Александра, редакция ε</span>
+              <span class="meta"><span class="status prep">готовится</span>греческий · VIII в.</span></li>
+            <li><span class="t">Юлий Валерий, «Деяния Александра», кн. III</span>
+              <span class="meta"><span class="status prep">готовится</span>латынь · IV в.</span></li>
+            <li><span class="t">Византийская поэма об Александре (1388)</span>
+              <span class="meta"><span class="status prep">готовится</span>греческий · стих</span></li>
+          </ul>
+          <a class="more label" href="alexander.html">Весь раздел →</a>
+        </article>
+
+        <article class="shelf" data-shelf>
+          <h3><a href="scholia.html" id="scholia">Схолии</a></h3>
+          <p class="scope">Античные и византийские комментарии на полях рукописей: к Гомеру, Пиндару, эллинистическим поэтам, латинским авторам.</p>
+          <div class="subhead label">К «Одиссее»</div>
+          <ul class="texts">
+            <li><a class="t" href="odyssey-10.html">Схолии к «Одиссее», песнь X: остров Эола (ст. 1–4)</a>
+              <span class="meta"><span class="status draft">черновик v0.1</span>греческий · Dindorf 1855</span></li>
+            <li><span class="t">«Конец „Одиссеи“»: схолии к 23.296–24 и Аристоник</span>
+              <span class="meta"><span class="status prep">готовится</span>досье</span></li>
+          </ul>
+          <div class="subhead label">К другим произведениям</div>
+          <ul class="texts">
+            <li><span class="t">Схолии к Пиндару, Пифийская ода 1</span>
+              <span class="meta"><span class="status prep">готовится</span>греческий</span></li>
+            <li><span class="t">Схолии к Аполлонию Родосскому, кн. II</span>
+              <span class="meta"><span class="status prep">готовится</span>греческий</span></li>
+            <li><span class="t">Элий Донат, комментарий к Теренцию</span>
+              <span class="meta"><span class="status prep">готовится</span>латынь · IV в.</span></li>
+          </ul>
+          <a class="more label" href="scholia.html">Весь раздел →</a>
+        </article>
+
+        <article class="shelf" data-shelf>
+          <h3><a href="music.html" id="music">Музыка</a></h3>
+          <p class="scope">Трактаты о гармонике и ритмике, византийская передача античной теории, нотированные памятники.</p>
+          <ul class="texts">
+            <li><span class="t">Анонимный «Синопсис музыки» (1008)</span>
+              <span class="meta"><span class="status prep">готовится</span>греческий · трактат</span></li>
+            <li><span class="t">Георгий Пахимер, «Гармоника»</span>
+              <span class="meta"><span class="status prep">готовится</span>греческий · ок. 1300</span></li>
+            <li><span class="t">Филодем, «О музыке», кн. IV</span>
+              <span class="meta"><span class="status prep">готовится</span>геркуланский папирус</span></li>
+            <li><span class="t">Поллукс, «Ономастикон» IV: инструменты и номы</span>
+              <span class="meta"><span class="status prep">готовится</span>греческий · II в.</span></li>
+          </ul>
+          <a class="more label" href="music.html">Весь раздел →</a>
+        </article>
+      </div>
+
+      <p class="empty" id="empty" hidden>Ничего не найдено. Попробуйте имя автора или название произведения.</p>
+
+      <div class="future">
+        <span class="label">Скоро</span>
+        <span class="f">Наука и техника — Гиппарх, «Комментарий к Арату»</span>
+        <span class="f">Лексикография — Зенобий, пословицы</span>
+        <span class="f">Хронография — Зонара, Дион Кассий</span>
+      </div>
+    </section>
+  </main>

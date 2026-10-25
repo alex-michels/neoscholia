@@ -42,6 +42,7 @@ Work chapter by chapter, comparing every sentence of the Russian and of the Engl
 
    If you have web access, you may check against Julius Valerius (ed. B. Kübler, Leipzig 1888, on archive.org) and Ps.-Callisthenes α (ed. W. Kroll, 1926). If you cannot verify a claim, say "unverifiable" rather than guessing.
 5. **Text problems.** Places where the Latin itself looks corrupt or where Zacher's text may be wrong. Mark these as suggestions, not errors of the translation.
+6. **Divergences between independent translations.** The published translation is one text, arbitrated from at least two independent translations by models of different families. Where they diverged significantly (a different reading or construal), the arbitrator chose one rendering and put the other into a margin note. Judge each such note: was the right rendering chosen, is the alternative worth recording, is the note clear? Report a wrong choice as an issue in the chapter (`mistranslation` or `latin-grammar`), a needless or unclear note as `note-fact` or `style`.
 
 Do not report pure matters of taste. Do not rewrite chapters wholesale; give targeted fixes.
 

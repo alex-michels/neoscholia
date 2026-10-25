@@ -5,9 +5,30 @@
   "repo": "https://github.com/alex-michels/neoscholia",
   "branch": "main",
   "nav": [
-    { "key": "library", "label": "Библиотека", "href": "index.html" },
-    { "key": "studies", "label": "Исследования", "href": "studies.html" },
-    { "key": "method", "label": "Метод", "href": "method.html" },
-    { "key": "about", "label": "О проекте", "href": "about.html" }
+    {
+      "key": "library",
+      "label": "Библиотека",
+      "href": "library.html"
+    },
+    {
+      "key": "studies",
+      "label": "Исследования",
+      "href": "studies.html"
+    },
+    {
+      "key": "indexes",
+      "label": "Указатели",
+      "href": "indexes.html"
+    },
+    {
+      "key": "method",
+      "label": "Метод",
+      "href": "method.html"
+    },
+    {
+      "key": "about",
+      "label": "О проекте",
+      "href": "about.html"
+    }
   ]
 }

@@ -1,0 +1,34 @@
+/* Indexes: like the index at the end of a scholarly book — name, original form, gloss, then the places. */
+.ix-head { padding-block: 1.6rem 1rem; max-width: 52rem; }
+.ix-head h1 { font-size: clamp(2.1rem, 4.5vw, 3rem); margin: 0 0 .6rem; }
+.ix-tabs { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1rem 0 .8rem; }
+.ix-tabs a { font-family: var(--font-label); letter-spacing: .04em; text-decoration: none; padding: .3rem .8rem; border: 1px solid var(--rule); background: var(--panel); color: var(--ink); }
+.ix-tabs a span { color: var(--ink-soft); font-size: .85em; margin-left: .2rem; }
+.ix-tabs a:hover { border-color: var(--lapis); color: var(--lapis); }
+.ix-filter { margin: 0; display: flex; gap: .6rem; align-items: center; }
+.ix-filter label { font-family: var(--font-label); font-size: .9rem; color: var(--ink-soft); }
+.ix-filter input { font: inherit; padding: .35rem .6rem; border: 1px solid var(--rule); background: var(--panel); color: var(--ink); min-width: 0; width: 22rem; max-width: 100%; }
+.ix { border-top: 1px solid var(--rule); padding-block: 1.6rem 1rem; scroll-margin-top: 1rem; }
+.ix-sec-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: .4rem 1.5rem; margin-bottom: .8rem; }
+.ix-sec-head h2 { font-size: clamp(1.6rem, 3vw, 2.1rem); margin: 0; }
+.letters { margin: 0; display: flex; flex-wrap: wrap; gap: .15rem .5rem; font-family: var(--font-label); }
+.letters a { text-decoration: none; color: var(--lapis); }
+.entries { margin: 0; columns: 2 26rem; column-gap: 2.5rem; }
+.letter { font-family: var(--font-display); font-size: 1.4rem; color: var(--rubric); margin: .8rem 0 .2rem; break-after: avoid; scroll-margin-top: 1rem; }
+.letter:first-child { margin-top: 0; }
+.entry { break-inside: avoid; padding: .35rem 0 .45rem; border-bottom: 1px dashed var(--rule); scroll-margin-top: 1rem; }
+.entry:target { background: var(--panel); box-shadow: -3px 0 0 var(--rubric); }
+.entry dt { margin: 0; }
+.entry dt b { font-weight: 700; }
+.entry .orig { color: var(--ink-soft); font-style: italic; }
+.entry .abbr { color: var(--ink-soft); font-size: .92em; }
+.entry .auth { color: var(--ink); }
+.entry .ext { font-family: var(--font-label); font-size: .72rem; letter-spacing: .04em; text-decoration: none; border: 1px solid var(--rule); padding: 0 .3rem; color: var(--ink-soft); vertical-align: .1em; }
+.entry .ext:hover { color: var(--lapis); border-color: var(--lapis); }
+.entry dd { margin: .15rem 0 0; font-size: .92rem; display: grid; gap: .15rem; }
+.entry .gloss { color: var(--ink-soft); }
+.entry .where { color: var(--ink-soft); }
+.entry .where a { color: var(--lapis); }
+.loci { list-style: none; margin: .1rem 0 0; padding: 0; display: grid; gap: .1rem; }
+.loci .locus { font-variant-numeric: tabular-nums; font-weight: 700; margin-right: .5rem; }
+@media (max-width: 760px) { .entries { columns: 1; } .ix-filter input { width: 100%; } }

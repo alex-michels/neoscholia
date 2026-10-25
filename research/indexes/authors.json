@@ -1,0 +1,1192 @@
+[
+ {
+  "id": "homer",
+  "ru": "Гомер",
+  "en": "Homer",
+  "orig": "Ὅμηρος; Homerus",
+  "kind": "author",
+  "gloss_ru": "легендарный эпический поэт, автор «Илиады» и «Одиссеи»",
+  "gloss_en": "legendary epic poet of the Iliad and the Odyssey",
+  "wikidata": "Q6691",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Гомер",
+    "Гомер(?!ов)"
+   ],
+   "en": [
+    "Homer(?!ic)"
+   ],
+   "la": [
+    "Homer",
+    "Homer(?!ic)"
+   ],
+   "grc": [
+    "Ὁμήρ",
+    "Ὅμηρ"
+   ]
+  },
+  "exclude": []
+ },
+ {
+  "id": "hesiod",
+  "ru": "Гесиод",
+  "en": "Hesiod",
+  "orig": "Ἡσίοδος; Hesiodus",
+  "kind": "author",
+  "gloss_ru": "древнегреческий эпический поэт, автор «Теогонии»",
+  "gloss_en": "early Greek epic poet, author of the Theogony",
+  "wikidata": "Q44233",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Гесиод"
+   ],
+   "en": [
+    "Hesiod"
+   ],
+   "la": [
+    "Hesiod"
+   ],
+   "grc": [
+    "Ἡσίοδ",
+    "Ἡσιόδ"
+   ]
+  },
+  "exclude": []
+ },
+ {
+  "id": "crates",
+  "ru": "Кратет Малльский",
+  "en": "Crates of Mallos",
+  "orig": "Κράτης ὁ Μαλλώτης; Crates Mallotes",
+  "kind": "author",
+  "gloss_ru": "пергамский грамматик II в. до н. э., толкователь Гомера, помещавший лестригонов на крайний север",
+  "gloss_en": "Pergamene grammarian (2nd c. BC), Homeric exegete who placed the Laestrygonians in the far north",
+  "wikidata": "Q503075",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Кратет(?!ов)"
+   ],
+   "en": [
+    "Crates\\b"
+   ],
+   "la": [
+    "Crates\\b",
+    "Cratet(?!e)"
+   ],
+   "grc": [
+    "Κράτη",
+    "Κράτων"
+   ]
+  },
+  "exclude": []
+ },
+ {
+  "id": "aristarchus",
+  "ru": "Аристарх Самофракийский",
+  "en": "Aristarchus of Samothrace",
+  "orig": "Ἀρίσταρχος ὁ Σαμόθραξ; Aristarchus",
+  "kind": "author",
+  "gloss_ru": "александрийский грамматик II в. до н. э., издатель и толкователь Гомера, оппонент Кратета",
+  "gloss_en": "Alexandrian grammarian (2nd c. BC), editor and exegete of Homer, opponent of Crates",
+  "wikidata": "Q312114",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Аристарх"
+   ],
+   "en": [
+    "Aristarch"
+   ],
+   "la": [
+    "Aristarch"
+   ],
+   "grc": [
+    "Ἀρίσταρχ",
+    "Ἀριστάρχ"
+   ]
+  },
+  "exclude": []
+ },
+ {
+  "id": "aristonicus",
+  "ru": "Аристоник",
+  "en": "Aristonicus of Alexandria",
+  "orig": "Ἀριστόνικος; Aristonicus",
+  "kind": "author",
+  "gloss_ru": "александрийский грамматик эпохи Августа, объяснявший критические знаки Аристарха",
+  "gloss_en": "Alexandrian grammarian of the Augustan age who explained Aristarchus' critical signs",
+  "wikidata": "Q3622711",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Аристоник"
+   ],
+   "en": [
+    "Aristonic"
+   ],
+   "la": [
+    "Aristonic"
+   ],
+   "grc": [
+    "Ἀριστόνικ",
+    "Ἀριστονίκ"
+   ]
+  },
+  "exclude": []
+ },
+ {
+  "id": "eustathius",
+  "ru": "Евстафий Солунский",
+  "en": "Eustathius of Thessalonica",
+  "orig": "Εὐστάθιος Θεσσαλονίκης; Eustathius Thessalonicensis",
+  "kind": "author",
+  "gloss_ru": "византийский филолог XII в., архиепископ Фессалоники, комментатор Гомера",
+  "gloss_en": "12th-century Byzantine scholar and archbishop of Thessalonica, commentator on Homer",
+  "wikidata": "Q453465",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Евстафи"
+   ],
+   "en": [
+    "Eustathi"
+   ],
+   "la": [
+    "Eustathi"
+   ],
+   "grc": [
+    "Εὐστάθι",
+    "Εὐσταθί"
+   ]
+  },
+  "exclude": []
+ },
+ {
+  "id": "geminus",
+  "ru": "Гемин",
+  "en": "Geminus",
+  "orig": "Γεμῖνος; Geminus",
+  "kind": "author",
+  "gloss_ru": "греческий астроном, вероятно I в. до н. э., автор «Введения в явления», передающий толкование Кратета",
+  "gloss_en": "Greek astronomer, probably 1st c. BC, author of the Introduction to the Phenomena, who reports Crates' reading",
+  "wikidata": "Q379987",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Гемин"
+   ],
+   "en": [
+    "Geminus",
+    "Geminos"
+   ],
+   "la": [
+    "Gemin(?:us|i)\\b"
+   ],
+   "grc": [
+    "Γεμῖν",
+    "Γεμίν"
+   ]
+  },
+  "exclude": []
+ },
+ {
+  "id": "pytheas",
+  "ru": "Пифей",
+  "en": "Pytheas of Massalia",
+  "orig": "Πυθέας ὁ Μασσαλιώτης; Pytheas",
+  "kind": "author",
+  "gloss_ru": "массалийский мореплаватель IV в. до н. э., описавший короткие ночи крайнего севера",
+  "gloss_en": "4th-century BC navigator from Massalia who described the short nights of the far north",
+  "wikidata": "Q189971",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Пифе[йяюе]"
+   ],
+   "en": [
+    "Pythea"
+   ],
+   "la": [
+    "Pythea"
+   ],
+   "grc": [
+    "Πυθέα"
+   ]
+  },
+  "exclude": []
+ },
+ {
+  "id": "aratus",
+  "ru": "Арат",
+  "en": "Aratus of Soli",
+  "orig": "Ἄρατος ὁ Σολεύς; Aratus Solensis",
+  "kind": "author",
+  "gloss_ru": "эллинистический поэт III в. до н. э., автор астрономической поэмы «Явления»",
+  "gloss_en": "Hellenistic poet (3rd c. BC), author of the astronomical poem Phaenomena",
+  "wikidata": "Q180671",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Арат(?!ов)"
+   ],
+   "en": [
+    "Aratus"
+   ],
+   "la": [
+    "Arat(?:us|i|o|um)\\b"
+   ],
+   "grc": [
+    "Ἄρατ",
+    "Ἀράτ"
+   ]
+  },
+  "exclude": []
+ },
+ {
+  "id": "hipparchus",
+  "ru": "Гиппарх",
+  "en": "Hipparchus",
+  "orig": "Ἵππαρχος; Hipparchus",
+  "kind": "author",
+  "gloss_ru": "астроном II в. до н. э., автор комментария к «Явлениям» Арата и Евдокса",
+  "gloss_en": "astronomer (2nd c. BC), author of a commentary on the Phaenomena of Aratus and Eudoxus",
+  "wikidata": "Q159905",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Гиппарх"
+   ],
+   "en": [
+    "Hipparch"
+   ],
+   "la": [
+    "Hipparch"
+   ],
+   "grc": [
+    "Ἵππαρχ",
+    "Ἱππάρχ"
+   ]
+  },
+  "exclude": []
+ },
+ {
+  "id": "eudoxus",
+  "ru": "Евдокс Книдский",
+  "en": "Eudoxus of Cnidus",
+  "orig": "Εὔδοξος ὁ Κνίδιος; Eudoxus Cnidius",
+  "kind": "author",
+  "gloss_ru": "астроном и математик IV в. до н. э., источник «Явлений» Арата",
+  "gloss_en": "4th-century BC astronomer and mathematician, the source of Aratus' Phaenomena",
+  "wikidata": "Q185150",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Евдокс"
+   ],
+   "en": [
+    "Eudox"
+   ],
+   "la": [
+    "Eudox"
+   ],
+   "grc": [
+    "Εὔδοξ",
+    "Εὐδόξ"
+   ]
+  },
+  "exclude": []
+ },
+ {
+  "id": "attalus-rhodes",
+  "ru": "Аттал Родосский",
+  "en": "Attalus of Rhodes",
+  "orig": "Ἄτταλος ὁ Ῥόδιος; Attalus Rhodius",
+  "kind": "author",
+  "gloss_ru": "комментатор Арата II в. до н. э., современник и оппонент Гиппарха",
+  "gloss_en": "2nd-century BC commentator on Aratus, contemporary and opponent of Hipparchus",
+  "wikidata": "Q757894",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Аттал(?:ом|у)\\b",
+    "Аттал\\w* Родосск"
+   ],
+   "en": [
+    "Attalus of Rhodes"
+   ],
+   "la": [
+    "Attal\\w* Rhod"
+   ],
+   "grc": [
+    "Ἄτταλ\\w* ὁ Ῥόδι"
+   ]
+  },
+  "exclude": []
+ },
+ {
+  "id": "herodicus",
+  "ru": "Геродик Вавилонский",
+  "en": "Herodicus of Babylon",
+  "orig": "Ἡρόδικος ὁ Κρατήτειος; Herodicus Crateteus",
+  "kind": "author",
+  "gloss_ru": "грамматик из школы Кратета («кратетовец»), автор антиплатоновских сочинений",
+  "gloss_en": "grammarian of Crates' school ('the Cratetean'), author of anti-Platonic writings",
+  "wikidata": "Q11925543",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Геродик"
+   ],
+   "en": [
+    "Herodic"
+   ],
+   "la": [
+    "Herodic"
+   ],
+   "grc": [
+    "Ἡρόδικ",
+    "Ἡροδίκ"
+   ]
+  },
+  "exclude": []
+ },
+ {
+  "id": "plato",
+  "ru": "Платон",
+  "en": "Plato",
+  "orig": "Πλάτων; Plato",
+  "kind": "author",
+  "gloss_ru": "афинский философ IV в. до н. э., автор «Пира»",
+  "gloss_en": "4th-century BC Athenian philosopher, author of the Symposium",
+  "wikidata": "Q859",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Платон",
+    "платоновск"
+   ],
+   "en": [
+    "Plato\\b"
+   ],
+   "la": [
+    "Plato\\b",
+    "Platon"
+   ],
+   "grc": [
+    "Πλάτων"
+   ]
+  },
+  "exclude": []
+ },
+ {
+  "id": "eratosthenes",
+  "ru": "Эратосфен",
+  "en": "Eratosthenes of Cyrene",
+  "orig": "Ἐρατοσθένης; Eratosthenes",
+  "kind": "author",
+  "gloss_ru": "александрийский учёный III в. до н. э., географ, скептик гомеровской географии",
+  "gloss_en": "3rd-century BC Alexandrian scholar and geographer, sceptic of Homeric geography",
+  "wikidata": "Q43182",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Эратосфен"
+   ],
+   "en": [
+    "Eratosthen",
+    "Eratosthenes"
+   ],
+   "la": [
+    "Eratosthen"
+   ],
+   "grc": [
+    "Ἐρατοσθέν"
+   ]
+  },
+  "exclude": []
+ },
+ {
+  "id": "polybius",
+  "ru": "Полибий",
+  "en": "Polybius",
+  "orig": "Πολύβιος; Polybius",
+  "kind": "author",
+  "gloss_ru": "историк II в. до н. э.; у Страбона — участник спора о странствиях Одиссея",
+  "gloss_en": "2nd-century BC historian; in Strabo a party to the debate on Odysseus' wanderings",
+  "wikidata": "Q131169",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Полиби"
+   ],
+   "en": [
+    "Polybius"
+   ],
+   "la": [
+    "Polybi"
+   ],
+   "grc": [
+    "Πολύβι",
+    "Πολυβί"
+   ]
+  },
+  "exclude": []
+ },
+ {
+  "id": "apollodorus",
+  "ru": "Аполлодор Афинский",
+  "en": "Apollodorus of Athens",
+  "orig": "Ἀπολλόδωρος ὁ Ἀθηναῖος; Apollodorus",
+  "kind": "author",
+  "gloss_ru": "александрийский грамматик II в. до н. э., ученик Аристарха",
+  "gloss_en": "2nd-century BC Alexandrian grammarian, pupil of Aristarchus",
+  "wikidata": "Q205704",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Аполлодор"
+   ],
+   "en": [
+    "Apollodor"
+   ],
+   "la": [
+    "Apollodor"
+   ],
+   "grc": [
+    "Ἀπολλόδωρ",
+    "Ἀπολλοδώρ"
+   ]
+  },
+  "exclude": []
+ },
+ {
+  "id": "strabo",
+  "ru": "Страбон",
+  "en": "Strabo",
+  "orig": "Στράβων; Strabo",
+  "kind": "author",
+  "gloss_ru": "греческий географ рубежа эр, автор «Географии»",
+  "gloss_en": "Greek geographer at the turn of the era, author of the Geography",
+  "wikidata": "Q45936",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Страбон"
+   ],
+   "en": [
+    "Strabo"
+   ],
+   "la": [
+    "Strab\\.",
+    "Strabo"
+   ],
+   "grc": [
+    "Στράβων"
+   ]
+  },
+  "exclude": []
+ },
+ {
+  "id": "gellius",
+  "ru": "Геллий, Авл",
+  "en": "Aulus Gellius",
+  "orig": "Aulus Gellius",
+  "kind": "author",
+  "gloss_ru": "римский писатель II в., автор «Аттических ночей»",
+  "gloss_en": "2nd-century Roman writer, author of the Attic Nights",
+  "wikidata": "Q294800",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Гелли[йяюе]"
+   ],
+   "en": [
+    "Gellius",
+    "Gell\\."
+   ],
+   "la": [
+    "Gelli(?:us|i)\\b",
+    "Gell\\."
+   ],
+   "grc": []
+  },
+  "exclude": []
+ },
+ {
+  "id": "athenaeus",
+  "ru": "Афиней",
+  "en": "Athenaeus of Naucratis",
+  "orig": "Ἀθήναιος ὁ Ναυκρατίτης; Athenaeus",
+  "kind": "author",
+  "gloss_ru": "греческий писатель рубежа II–III вв., автор «Пира мудрецов»",
+  "gloss_en": "Greek writer of the late 2nd/early 3rd c., author of the Deipnosophistae",
+  "wikidata": "Q294923",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Афине[йяюе]"
+   ],
+   "en": [
+    "Athenaeus",
+    "Athen\\."
+   ],
+   "la": [
+    "Athenae(?:us|i)\\b",
+    "Athen\\."
+   ],
+   "grc": [
+    "Ἀθήναιο",
+    "Ἀθηναίο"
+   ]
+  },
+  "exclude": []
+ },
+ {
+  "id": "thucydides",
+  "ru": "Фукидид",
+  "en": "Thucydides",
+  "orig": "Θουκυδίδης; Thucydides",
+  "kind": "author",
+  "gloss_ru": "афинский историк V в. до н. э.",
+  "gloss_en": "5th-century BC Athenian historian",
+  "wikidata": "Q41683",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Фукидид"
+   ],
+   "en": [
+    "Thuc\\.",
+    "Thucydid",
+    "Thucydides"
+   ],
+   "la": [
+    "Thucydid"
+   ],
+   "grc": [
+    "Θουκυδίδ"
+   ]
+  },
+  "exclude": []
+ },
+ {
+  "id": "cicero",
+  "ru": "Цицерон",
+  "en": "Cicero",
+  "orig": "Marcus Tullius Cicero",
+  "kind": "author",
+  "gloss_ru": "римский оратор и писатель I в. до н. э., автор писем к Аттику",
+  "gloss_en": "1st-century BC Roman orator and writer, author of the letters to Atticus",
+  "wikidata": "Q1541",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Цицерон"
+   ],
+   "en": [
+    "Cicero",
+    "Cic\\."
+   ],
+   "la": [
+    "Cicer",
+    "Cic\\."
+   ],
+   "grc": []
+  },
+  "exclude": []
+ },
+ {
+  "id": "horace",
+  "ru": "Гораций",
+  "en": "Horace",
+  "orig": "Quintus Horatius Flaccus",
+  "kind": "author",
+  "gloss_ru": "римский поэт I в. до н. э., автор од",
+  "gloss_en": "1st-century BC Roman poet, author of the Odes",
+  "wikidata": "Q6197",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Гораци"
+   ],
+   "en": [
+    "Horace",
+    "Hor\\."
+   ],
+   "la": [
+    "Horati",
+    "Hor\\."
+   ],
+   "grc": []
+  },
+  "exclude": []
+ },
+ {
+  "id": "claudius-ptolemy",
+  "ru": "Птолемей, Клавдий",
+  "en": "Claudius Ptolemy",
+  "orig": "Κλαύδιος Πτολεμαῖος; Claudius Ptolemaeus",
+  "kind": "author",
+  "gloss_ru": "александрийский астроном II в., автор «Альмагеста»",
+  "gloss_en": "2nd-century Alexandrian astronomer, author of the Almagest",
+  "wikidata": "Q34943",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Птолеме[йяюе]"
+   ],
+   "en": [
+    "Ptolemy\\b"
+   ],
+   "la": [
+    "Ptolemae(?:us|i)\\b"
+   ],
+   "grc": [
+    "Πτολεμαῖ",
+    "Πτολεμαί"
+   ]
+  },
+  "exclude": [
+   "Птолемей, впоследствии",
+   "Ptolemaeus, qui",
+   "Ptolemy, who"
+  ]
+ },
+ {
+  "id": "cleanthes",
+  "ru": "Клеанф",
+  "en": "Cleanthes",
+  "orig": "Κλεάνθης; Cleanthes",
+  "kind": "author",
+  "gloss_ru": "стоический философ III в. до н. э.; его взгляд упомянут у Гемина (16.21)",
+  "gloss_en": "3rd-century BC Stoic philosopher whose view Geminus mentions (16.21)",
+  "wikidata": "Q310149",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Клеанф"
+   ],
+   "en": [
+    "Cleanth"
+   ],
+   "la": [
+    "Cleanth"
+   ],
+   "grc": [
+    "Κλεάνθ"
+   ]
+  },
+  "exclude": []
+ },
+ {
+  "id": "aristyllus",
+  "ru": "Аристилл",
+  "en": "Aristyllus",
+  "orig": "Ἀρίστυλλος; Aristyllus",
+  "kind": "author",
+  "gloss_ru": "астроном III в. до н. э.; в длинной схолии к Арату 62 предлагает своё решение",
+  "gloss_en": "3rd-century BC astronomer; offers his own solution in the long scholion on Aratus 62",
+  "wikidata": "Q253458",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Аристилл"
+   ],
+   "en": [
+    "Aristyll"
+   ],
+   "la": [
+    "Aristyll"
+   ],
+   "grc": [
+    "Ἀρίστυλλ",
+    "Ἀριστύλλ"
+   ]
+  },
+  "exclude": []
+ },
+ {
+  "id": "boethus",
+  "ru": "Боэт Сидонский",
+  "en": "Boethus of Sidon",
+  "orig": "Βοηθὸς ὁ Σιδώνιος; Boethus Sidonius",
+  "kind": "author",
+  "gloss_ru": "стоик II в. до н. э., комментатор Арата; в схолии к Арату назван «математиком»",
+  "gloss_en": "2nd-century BC Stoic and commentator on Aratus; called a 'mathematician' in the Aratus scholion",
+  "wikidata": "Q738605",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Боэт(?!ий)"
+   ],
+   "en": [
+    "Boethus"
+   ],
+   "la": [
+    "Boeth(?!i)"
+   ],
+   "grc": [
+    "Βοηθ"
+   ]
+  },
+  "exclude": []
+ },
+ {
+  "id": "julius-valerius",
+  "ru": "Юлий Валерий",
+  "en": "Julius Valerius",
+  "orig": "Iulius Valerius Alexander Polemius",
+  "kind": "author",
+  "gloss_ru": "латинский переводчик «Романа об Александре» (нач. IV в.), автор «Деяний Александра Македонского»",
+  "gloss_en": "early 4th-century Latin translator of the Alexander Romance (Res gestae Alexandri Macedonis)",
+  "wikidata": "Q1232604",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Валери",
+    "Валерьев"
+   ],
+   "en": [
+    "Valeri",
+    "Iul\\. Val\\."
+   ],
+   "la": [
+    "Iul\\. Val\\.",
+    "Val\\.(?=[»’ ]|$)"
+   ],
+   "grc": []
+  },
+  "exclude": []
+ },
+ {
+  "id": "pseudo-callisthenes",
+  "ru": "Псевдо-Каллисфен",
+  "en": "Pseudo-Callisthenes",
+  "orig": "Ψευδο-Καλλισθένης / Pseudo-Callisthenes",
+  "kind": "author",
+  "gloss_ru": "условное имя автора греческого «Романа об Александре»",
+  "gloss_en": "conventional name of the author of the Greek Alexander Romance",
+  "wikidata": "Q3409584",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Псевдо-Каллисфен"
+   ],
+   "en": [
+    "Pseudo-Callisthenes",
+    "Ps\\.-Call\\."
+   ],
+   "la": [
+    "Ps\\.-Call\\."
+   ],
+   "grc": []
+  },
+  "exclude": []
+ },
+ {
+  "id": "epitomator",
+  "ru": "Эпитоматор Юлия Валерия",
+  "en": "Epitomator of Julius Valerius",
+  "orig": "Epitome Iulii Valerii (auctor ignotus)",
+  "kind": "author",
+  "gloss_ru": "анонимный составитель латинского сокращения Юлия Валерия («эпитомы Цахера»)",
+  "gloss_en": "anonymous compiler of the Latin abridgement of Julius Valerius (the Zacher Epitome)",
+  "wikidata": "",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "[Ээ]питоматор"
+   ],
+   "en": [
+    "[Ee]pitomator"
+   ],
+   "la": [],
+   "grc": []
+  },
+  "exclude": []
+ },
+ {
+  "id": "plutarch",
+  "ru": "Плутарх",
+  "en": "Plutarch",
+  "orig": "Πλούταρχος",
+  "kind": "author",
+  "gloss_ru": "греческий писатель и биограф (ок. 46 — после 119 г. н. э.), автор жизнеописания Александра",
+  "gloss_en": "Greek writer and biographer (c. AD 46 – after 119), author of the Life of Alexander",
+  "wikidata": "Q41523",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Плутарх"
+   ],
+   "en": [
+    "Plutarch",
+    "Plut\\."
+   ],
+   "la": [
+    "Plut\\."
+   ],
+   "grc": []
+  },
+  "exclude": []
+ },
+ {
+  "id": "diodorus",
+  "ru": "Диодор",
+  "en": "Diodorus Siculus",
+  "orig": "Διόδωρος Σικελιώτης",
+  "kind": "author",
+  "gloss_ru": "Диодор Сицилийский, греческий историк I в. до н. э., автор «Исторической библиотеки»",
+  "gloss_en": "Greek historian of the 1st century BC, author of the Library of History",
+  "wikidata": "Q171241",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Диодор"
+   ],
+   "en": [
+    "Diodorus",
+    "Diod\\."
+   ],
+   "la": [
+    "Diod\\."
+   ],
+   "grc": []
+  },
+  "exclude": []
+ },
+ {
+  "id": "herodotus",
+  "ru": "Геродот",
+  "en": "Herodotus",
+  "orig": "Ἡρόδοτος",
+  "kind": "author",
+  "gloss_ru": "греческий историк V в. до н. э.",
+  "gloss_en": "Greek historian of the 5th century BC",
+  "wikidata": "Q26825",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Геродот"
+   ],
+   "en": [
+    "Herodotus",
+    "Hdt\\."
+   ],
+   "la": [
+    "Hdt\\."
+   ],
+   "grc": []
+  },
+  "exclude": []
+ },
+ {
+  "id": "arrian",
+  "ru": "Арриан",
+  "en": "Arrian",
+  "orig": "Ἀρριανός",
+  "kind": "author",
+  "gloss_ru": "греческий историк II в. н. э., автор «Похода Александра»",
+  "gloss_en": "2nd-century AD Greek historian, author of the Anabasis of Alexander",
+  "wikidata": "Q31845",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Арриан"
+   ],
+   "en": [
+    "Arrian",
+    "Arr\\."
+   ],
+   "la": [
+    "Arr\\."
+   ],
+   "grc": []
+  },
+  "exclude": []
+ },
+ {
+  "id": "pliny-elder",
+  "ru": "Плиний Старший",
+  "en": "Pliny the Elder",
+  "orig": "Gaius Plinius Secundus",
+  "kind": "author",
+  "gloss_ru": "римский писатель I в. н. э., автор «Естественной истории»",
+  "gloss_en": "1st-century AD Roman writer, author of the Natural History",
+  "wikidata": "Q82778",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Плини[йяюе]"
+   ],
+   "en": [
+    "Pliny",
+    "Plin\\."
+   ],
+   "la": [
+    "Plin\\."
+   ],
+   "grc": []
+  },
+  "exclude": []
+ },
+ {
+  "id": "clitarchus",
+  "ru": "Клитарх",
+  "en": "Clitarchus",
+  "orig": "Κλείταρχος",
+  "kind": "author",
+  "gloss_ru": "историк Александра (IV–III в. до н. э.); на него ссылается Плиний",
+  "gloss_en": "historian of Alexander (4th–3rd c. BC), cited by Pliny",
+  "wikidata": "Q201867",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Клитарх"
+   ],
+   "en": [
+    "Clitarch",
+    "Cleitarch"
+   ],
+   "la": [],
+   "grc": []
+  },
+  "exclude": []
+ },
+ {
+  "id": "memnon",
+  "ru": "Мемнон Гераклейский",
+  "en": "Memnon of Heraclea",
+  "orig": "Μέμνων ὁ Ἡρακλεώτης",
+  "kind": "author",
+  "gloss_ru": "историк Гераклеи Понтийской, известный по выпискам Фотия",
+  "gloss_en": "historian of Heraclea Pontica, known from Photius’ excerpts",
+  "wikidata": "Q983937",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Мемнон"
+   ],
+   "en": [
+    "Memnon"
+   ],
+   "la": [],
+   "grc": []
+  },
+  "exclude": []
+ },
+ {
+  "id": "photius",
+  "ru": "Фотий",
+  "en": "Photius",
+  "orig": "Φώτιος",
+  "kind": "author",
+  "gloss_ru": "константинопольский патриарх IX в., автор «Библиотеки»",
+  "gloss_en": "9th-century patriarch of Constantinople, author of the Bibliotheca",
+  "wikidata": "Q243187",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Фоти[йяюе]"
+   ],
+   "en": [
+    "Photius",
+    "Phot\\."
+   ],
+   "la": [
+    "Phot\\."
+   ],
+   "grc": []
+  },
+  "exclude": []
+ },
+ {
+  "id": "pausanias",
+  "ru": "Павсаний",
+  "en": "Pausanias",
+  "orig": "Παυσανίας",
+  "kind": "author",
+  "gloss_ru": "периэгет II в. н. э., автор «Описания Эллады» (не убийца Филиппа)",
+  "gloss_en": "2nd-century AD periegete, author of the Description of Greece (not Philip’s assassin)",
+  "wikidata": "Q192931",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Павсани[йяюе](?=,? \\d)"
+   ],
+   "en": [
+    "Pausanias(?=,? \\d)",
+    "Paus\\.(?= \\d)"
+   ],
+   "la": [
+    "Paus\\.(?= \\d)"
+   ],
+   "grc": []
+  },
+  "exclude": [
+   "Павсани[йяюе]м? из Орестиды",
+   "Pausanias of Orestis"
+  ]
+ },
+ {
+  "id": "vincent-beauvais",
+  "ru": "Винсент из Бове",
+  "en": "Vincent of Beauvais",
+  "orig": "Vincentius Bellovacensis",
+  "kind": "author",
+  "gloss_ru": "французский энциклопедист XIII в.; его текст — свидетель эпитомы",
+  "gloss_en": "13th-century French encyclopedist; his text is a witness to the Epitome",
+  "wikidata": "Q455162",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Вин[сц]ент(?:а|у|ом|е)? из Бове"
+   ],
+   "en": [
+    "Vincent of Beauvais"
+   ],
+   "la": [],
+   "grc": []
+  },
+  "exclude": []
+ },
+ {
+  "id": "favorinus",
+  "ru": "Фаворин",
+  "en": "Favorinus",
+  "orig": "Φαβωρῖνος / Favorinus Arelatensis",
+  "kind": "author",
+  "gloss_ru": "Фаворин Арелатский, ритор II в. н. э.; к нему отсылает отступление у Юлия Валерия",
+  "gloss_en": "Favorinus of Arelate, 2nd-century AD rhetor, subject of a digression in Julius Valerius",
+  "wikidata": "Q554387",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Фаворин"
+   ],
+   "en": [
+    "Favorinus"
+   ],
+   "la": [],
+   "grc": []
+  },
+  "exclude": []
+ },
+ {
+  "id": "asclepiades",
+  "ru": "Асклепиад из Трагила",
+  "en": "Asclepiades of Tragilus",
+  "orig": "Ἀσκληπιάδης ὁ Τραγιλεύς",
+  "kind": "author",
+  "gloss_ru": "мифограф IV в. до н. э., автор «Трагедуменов»",
+  "gloss_en": "4th-century BC mythographer, author of the Tragodoumena",
+  "wikidata": "Q585711",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Асклепиад"
+   ],
+   "en": [
+    "Asclepiades"
+   ],
+   "la": [],
+   "grc": [
+    "Ἀσκληπιάδ"
+   ]
+  },
+  "exclude": []
+ },
+ {
+  "id": "tzetzes",
+  "ru": "Цец, Иоанн",
+  "en": "John Tzetzes",
+  "orig": "Ἰωάννης Τζέτζης",
+  "kind": "author",
+  "gloss_ru": "византийский филолог XII в., комментатор Ликофрона",
+  "gloss_en": "12th-century Byzantine scholar, commentator on Lycophron",
+  "wikidata": "Q530515",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Цец"
+   ],
+   "en": [
+    "Tzetzes"
+   ],
+   "la": [],
+   "grc": []
+  },
+  "exclude": []
+ },
+ {
+  "id": "lycophron",
+  "ru": "Ликофрон",
+  "en": "Lycophron",
+  "orig": "Λυκόφρων",
+  "kind": "author",
+  "gloss_ru": "эллинистический поэт, автор «Александры», которую комментировал Цец",
+  "gloss_en": "Hellenistic poet, author of the Alexandra commented on by Tzetzes",
+  "wikidata": "Q432737",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Ликофрон"
+   ],
+   "en": [
+    "Lycophron"
+   ],
+   "la": [],
+   "grc": []
+  },
+  "exclude": []
+ },
+ {
+  "id": "pindar",
+  "ru": "Пиндар",
+  "en": "Pindar",
+  "orig": "Πίνδαρος",
+  "kind": "author",
+  "gloss_ru": "греческий лирик V в. до н. э.",
+  "gloss_en": "Greek lyric poet of the 5th century BC",
+  "wikidata": "Q134929",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Пиндар"
+   ],
+   "en": [
+    "Pindar"
+   ],
+   "la": [],
+   "grc": [
+    "Πίνδαρ"
+   ]
+  },
+  "exclude": []
+ },
+ {
+  "id": "palaephatus",
+  "ru": "Палефат",
+  "en": "Palaephatus",
+  "orig": "Παλαίφατος",
+  "kind": "author",
+  "gloss_ru": "автор рационалистических толкований мифов («О невероятном»)",
+  "gloss_en": "author of rationalising explanations of myths (On Unbelievable Tales)",
+  "wikidata": "Q580565",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Палефат"
+   ],
+   "en": [
+    "Palaephatus"
+   ],
+   "la": [],
+   "grc": []
+  },
+  "exclude": []
+ }
+]

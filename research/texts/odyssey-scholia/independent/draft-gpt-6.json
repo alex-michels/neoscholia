@@ -1,0 +1,1224 @@
+{
+  "translator": {
+    "model": "GPT-6",
+    "provider": "OpenAI",
+    "date": "2026-10-25",
+    "web_access": true,
+    "version_note": "Доступные инструкции называют модель GPT-6; точный идентификатор развёртывания, суффикс и номер снимка в этой сессии не раскрыты. Имя файла использует только доступное обозначение, не вымышленный вариант модели."
+  },
+  "editorial_policy": {
+    "independence": "Переводы подготовлены непосредственно с греческого. Другая версия перевода, страницы Neoscholia и история git не читались; современные переводы этих схолий не использовались.",
+    "scope": "Все 16 блоков исходного файла сохранены в исходном порядке. Намеренно обозначенное начальное сокращение генеалогии s2 сохранено; необозначенные пропуски продолжения P в s2 и начала Q в s3 восстановлены и переведены. Соседние самостоятельные схолии вне выборки не включены.",
+    "notation": "[…] — повреждение текста либо явно отмеченный в s2 исходный пропуск; обычное … внутри цитаты appx-12 — сокращение самого Диндорфа. Переводческие дополнения заключены в квадратные скобки. Сиглы и [a–c] — служебные метки, не слова схолиаста.",
+    "normalization": "Переносы строк и слов, пробелы, форма кавычек и апострофов нормализованы. Смысловые, словоформные, регистровые и атрибутивные расхождения внесены в text_issues; восстановлен относящийся к выбранным местам аппарат A. В B выборочность аппарата не объявлена ошибкой сама по себе.",
+    "homer_check": "Строки Гомера переведены с предоставленного греческого текста. Непосредственную сверку этих строк с Perseus Murray завершить не удалось из-за ошибок доступа; она не заявляется.",
+    "secondary_references": "Ссылки на Евстафия, Цецa и старые номера фрагментов, почерпнутые только из аппарата Диндорфа, прямо помечены как таковые."
+  },
+  "homer": {
+    "A": [
+      {
+        "line": "10.1",
+        "ru": "И мы прибыли на Эолийский остров; там жил",
+        "en": "And we came to the Aeolian island; there dwelt"
+      },
+      {
+        "line": "10.2",
+        "ru": "Эол, сын Гиппота, любезный бессмертным богам,",
+        "en": "Aeolus, son of Hippotes, dear to the immortal gods,"
+      },
+      {
+        "line": "10.3",
+        "ru": "на плавучем острове; весь его окружает стена —",
+        "en": "on a floating island; a wall surrounds it all,"
+      },
+      {
+        "line": "10.4",
+        "ru": "медная, несокрушимая, и вверх поднимается гладкая скала.",
+        "en": "of bronze, unbreakable, and a smooth rock rises up."
+      }
+    ],
+    "B": [
+      {
+        "line": "10.80",
+        "ru": "Шесть дней мы плыли без перерыва, ночами и днём,",
+        "en": "For six days we sailed steadily, by night and by day;"
+      },
+      {
+        "line": "10.81",
+        "ru": "а на седьмой достигли высокого города Лама,",
+        "en": "on the seventh we reached the lofty town of Lamus,"
+      },
+      {
+        "line": "10.82",
+        "ru": "Телепила лестригонского, где один пастух другого",
+        "en": "Laestrygonian Telepylus, where one shepherd calls to another"
+      },
+      {
+        "line": "10.83",
+        "ru": "окликает, пригоняя [стадо], а тот, выгоняя, отвечает.",
+        "en": "as he drives [his flock] in, and the one driving [his flock] out answers."
+      },
+      {
+        "line": "10.84",
+        "ru": "Там человек, не знающий сна, мог бы получать две платы:",
+        "en": "There a man who went without sleep could earn two wages,"
+      },
+      {
+        "line": "10.85",
+        "ru": "одну — пася коров, другую — пася белых овец:",
+        "en": "one for tending cattle, the other for pasturing white sheep;"
+      },
+      {
+        "line": "10.86",
+        "ru": "ведь пути ночи и дня близки друг к другу.",
+        "en": "for the paths of night and day lie close together."
+      }
+    ]
+  },
+  "scholia": [
+    {
+      "set": "A",
+      "id": "s1",
+      "greek_established": "οὐ τὰς Αἰόλου νήσους νῦν λεγομένας, ἀλλά τινα ἄλλην ἐκτετοπισμένην νῆσον λέγει. οἱ δὲ λέγοντες περὶ Σικελίαν καὶ Ἰταλίαν πεπλανῆσθαι τὸν Ὀδυσσέα Λωτοφάγους μὲν λέγουσι τοὺς νῦν Ἀκραγαντίνους, οἱ δὲ τοὺς Καμαριναίους, Κύκλωπας δὲ τοὺς Λεοντίνους. B.Q.V. τὰς δὲ Αἰόλου νήσους τήν τε κατὰ τὸν πορθμὸν Στρογγύλην καὶ τὰς λοιπὰς ἕξ, Διδύμην, Ἱεράν, Ἱκεσίαν, Λιπάραν, Ἐρικοῦσσαν, Φοινικοῦσσαν. τινὲς δὲ ταύτας τὰς νήσους ἐν τῷ Τυρρηνικῷ πελάγει κεῖσθαι λέγουσιν. V.",
+      "ru": "На Эолийский остров] Он говорит не об островах, которые теперь называют Эоловыми, а о каком-то другом острове, расположенном вдали (ἐκτετοπισμένη). Те, кто утверждает, что Одиссей странствовал у Сицилии и Италии, называют лотофагами нынешних акрагантян, другие — камаринцев, а киклопами — леонтинцев. B Q V. Эоловыми же островами [называют] Стронгилу у пролива и остальные шесть: Дидиму, Гиеру, Икесию, Липару, Эрикуссу, Финикуссу. Некоторые говорят, что эти острова лежат в Тирренском море. V.",
+      "en": "To the Aeolian island] He means not the islands now called the islands of Aeolus, but some other island set far away (ἐκτετοπισμένη). Those who say that Odysseus wandered around Sicily and Italy identify the Lotus-eaters with the present inhabitants of Acragas, others with the Camarinaeans, and the Cyclopes with the Leontines. B Q V. As the islands of Aeolus [they identify] Strongyle by the strait and the remaining six: Didyme, Hiera, Hicesia, Lipara, Ericussa and Phoenicussa. Some say that these islands lie in the Tyrrhenian Sea. V.",
+      "notes": [
+        {
+          "ru": "Схолия соединяет два разных подхода: остров, вынесенный за пределы привычной географии, и отождествления с местами Сицилии и Италии. Сигла B Q V относится к тексту до «леонтинцев»; список островов и последнее предложение имеют только V.",
+          "en": "The scholion joins two approaches: an island placed outside familiar geography, and identifications with places in Sicily and Italy. B Q V applies through “Leontines”; the list of islands and the final sentence carry V alone.",
+          "source": "Dindorf II (1855), 443.29–444.7: https://archive.org/download/scholiagraeodyss02homeuoft/page/n46.jpg ; https://archive.org/download/scholiagraeodyss02homeuoft/page/n47.jpg"
+        }
+      ],
+      "doubts": [
+        {
+          "greek": "ἐκτετοπισμένην",
+          "issue": "Причастие обозначает удаление или помещение вне обычного места; само по себе оно не устанавливает конкретной страны и не доказывает, что остров признан вымышленным.",
+          "choice": "«Расположенный вдали» / “set far away”, с сохранением греческого термина; не подставлены ни океан, ни полярная область."
+        },
+        {
+          "greek": "οἱ δὲ τοὺς Καμαριναίους",
+          "issue": "Смена οἱ δέ внутри конструкции οἱ δὲ λέγοντες обозначает альтернативное отождествление лотофагов.",
+          "choice": "«Другие — камаринцев», без превращения всех перечисленных народов в одно последовательное отождествление."
+        },
+        {
+          "greek": "Ἱκεσίαν",
+          "issue": "Редкое имя острова не следует заменять более известным современным названием без обоснования.",
+          "choice": "Сохранена форма Диндорфа: Икесия / Hicesia; современная идентификация не предложена."
+        }
+      ],
+      "ref": "Σ Od. 10.1",
+      "lemma": "Αἰολίην δ’ ἐς νῆσον",
+      "greek_source": "οὐ τὰς Αἰόλου νήσους νῦν λεγομένας, ἀλλά τινα ἄλλην ἐκτετοπισμένην νῆσον λέγει. οἱ δὲ λέγοντες περὶ Σικελίαν καὶ Ἰταλίαν πεπλανῆσθαι τὸν Ὀδυσσέα Λωτοφάγους μὲν λέγουσι τοὺς νῦν Ἀκραγαντίνους, οἱ δὲ τοὺς Καμαριναίους, Κύκλωπας δὲ τοὺς Λεοντίνους, τὰς δὲ Αἰόλου νήσους τήν τε κατὰ τὸν πορθμὸν Στρογγύλην καὶ τὰς λοιπὰς ἕξ, Διδύμην, Ἱεράν, Ἱκεσίαν, Λιπάραν, Ἐρικοῦσσαν, Φοινικοῦσσαν. τινὲς δὲ ταύτας τὰς νήσους ἐν τῷ Τυρρηνικῷ πελάγει κεῖσθαι λέγουσιν.",
+      "apparatus_input": [],
+      "sigla": "B Q V; V",
+      "location": "Dindorf II 443.29–444.7",
+      "collation_status": "checked_against_page_images"
+    },
+    {
+      "set": "A",
+      "id": "s2",
+      "greek_established": "[…] τρεῖς γὰρ Αἰόλους φασὶ γεγενῆσθαι, πρῶτον τὸν τοῦ Ἕλληνος, δεύτερον τὸν ἐξ Ἱππότου καὶ Μελανίππης, τρίτον τὸν ἐκ Ποσειδῶνος καὶ Ἄρνης. πρὸς τοῦτον δέ φησιν ὁ Ἀσκληπιάδης τὸν Ὀδυσσέα ἐλθεῖν τὸν ἐκ Ποσειδῶνος. φυλάσσει δὲ Ὅμηρος τὸ εἰπεῖν ἐξ Ἱππότου. Q.\n\n[Αἴολος ὁ Ἱππότου ἐν Ῥηγίῳ τῆς Ἰταλίας ὢν μὲν ἀστρονομικώτατος καὶ πολύπειρος ἐφρόντισε μᾶλλον εἰδέναι περὶ τῶν ἀνέμων χάριν τῶν ναυτιλλομένων καὶ προλέγειν, ὡς εἰ τυχὸν ἐν ταύρῳ ἄστρῳ πλεύσειαν, μέχρι τοῦδε ζέφυρος αὐτοῖς ἔσεται πνέων ἄνεμος, εἰ ἐν δύσει κυνὸς τοιόσδε, καὶ ἐν τῇ ἀνατολῇ αὐτοῦ ἕτερος. καὶ τούτου ἕνεκα ἐμυθεύσαντο αὐτὸν εἶναι δεσπότην ἀνέμων. ὁμοίως δὲ καὶ τὸν Ἀμακλείδην καὶ Πρωτοκλῆ καὶ Πρωτοκρέοντα, ὥς φησιν Ὀρφεύς. οὕτως οὖν ἔφασαν αὐτοὺς δεσπότας εἶναι ἀνέμων, ὡς καὶ δέειν ἀσκῷ ὃν ἂν βούλοιντο αὐτῶν, τοὺς δ’ ἄλλους ἐᾶν πνεῖν. οὕτω γοῦν φασι καὶ τὸν Αἴολον τοῦτον τοὺς ἄλλους ἀνέμους ἐν τῷ ἀσκῷ καταδήσαντα δοῦναι τῷ Ὀδυσσεῖ, ζέφυρον δὲ μόνον ἐᾶσαι ὡς αὐτῷ χρειωδέστατον καὶ φορόν. ἐγὼ δὲ καὶ τὸν ἀσκὸν δέχομαι. φασὶ γὰρ οἱ μηχανικοὶ καὶ τὰ ἀρρητουργικὰ γράφοντες ὡς ἐάν τις δελφῖνα ποιήσῃ ἀσκόν, ἐκδείρας αὐτὸν καὶ ἔχων παρ’ ἑαυτῷ, ποιήσει ὃν ἂν βούλοιτο πνεῖν ἄνεμον. καὶ ἴσως καὶ οὗτος ὁ Αἴολος ἦν ἂν καὶ μαγικώτατος. τούτου δὲ τοῦ Αἰόλου υἱὸς Ἰόκαστος, ὃς τὸ Ῥήγιον ἔκτισεν, ὥς φησι Καλλίμαχος «Ῥήγιον ἄστυ λιπὼν Ἰοκάστου Αἰολίδαο». ὁ γὰρ Ὀδυσσεὺς τοὺς ἐναντίους ἀνέμους ἐγκεκλεισμένους ἔχων ἐν τῷ ἀσκῷ, μόνῳ δὲ ναυτιλλόμενος τῷ ζεφύρῳ ἐννέα νυχθήμερα πλεύσας τῷ δεκάτῳ τὴν αὐτοῦ πατρίδα καὶ πυρπολοῦντάς τινας θεασάμενος κοπιάσας, ὡς ἀεὶ τὸν πόδα τῆς νηὸς ἔχων, ἐκαθεύδησεν. οἱ φίλοι δὲ τούτου λύουσι τὸν ἀσκὸν χρυσίον νομίσαντες ἔχειν. ἐκχυθέντων δὲ τῶν ἀνέμων καὶ ἀντιπνόως ταραξάντων τὸ πέλαγος πάλιν εἰς τὴν Αἰολίαν ἀνεπόρευσεν ἄκων τοῖς ἀνέμοις φορούμενος. P.]",
+      "ru": "Эол, сын Гиппота] [Генеалогия, выдержка; Q.] […] Ведь говорят, что было три Эола: первый — сын Эллина, второй — Гиппота и Меланиппы, третий — Посейдона и Арны. Асклепиад утверждает, что Одиссей прибыл к этому [Эолу], сыну Посейдона. Гомер же избегает говорить «от Гиппота».\n\n[Поздняя приписка в P.] Эол, сын Гиппота, [живший] в Регии, в Италии, был весьма сведущ в астрономии и многоопытен; ради мореплавателей он старался ещё лучше изучить ветры и предсказывать, например, что, если они отплывут [в пору] созвездия Тельца, до такого-то [срока] им будет дуть ветер зефир, если при заходе Пса — такой-то, а при его восходе — другой. Поэтому и сложили миф о том, что он владыка ветров. Подобным образом [говорили] и об Амаклиде, Протокле и Протокреонте, как утверждает Орфей. Итак, их называли владыками ветров, [способными] даже завязать в мехе любой из них по своему желанию, а прочим позволить дуть. Так, по рассказам, и этот Эол завязал остальные ветры в мехе и отдал [его] Одиссею, оставив только зефир, как самый нужный ему и попутный. Я принимаю также и [рассказ о] мехе. Ведь механики и авторы сочинений о тайных действиях (ἀρρητουργικά) утверждают: если кто сделает из дельфина мех, сняв с него кожу, и будет держать его при себе, то заставит дуть любой желанный ветер. Возможно, и этот Эол был весьма искусен в магии. Сын этого Эола — Иокаст, основавший Регий, как говорит Каллимах: «Покинув Регий, город Иокаста, сына Эола». Ведь Одиссей держал встречные ветры запертыми в мехе, а плыл при одном зефире; проплыв девять суток, на десятые он увидел свою родину и каких-то людей, разводивших огни, и, утомлённый тем, что всё время держал шкот корабля, уснул. Его товарищи развязывают мех, полагая, что в нём золото. Ветры вырвались и, подув в обратную сторону, взволновали море; уносимый ими, он против воли снова вернулся в Эолию.",
+      "en": "Aeolus, son of Hippotes] [Genealogy, excerpt; Q.] […] For they say that there were three men named Aeolus: first the son of Hellen, second the son of Hippotes and Melanippe, and third the son of Poseidon and Arne. Asclepiades says that it was to this one, the son of Poseidon, that Odysseus came. Homer, however, avoids saying “from Hippotes.”\n\n[Later addition in P.] Aeolus, son of Hippotes, [living] at Rhegium in Italy, was highly accomplished in astronomy and widely experienced; for the sake of seafarers he took pains to learn more about the winds and to predict, for instance, that if they sailed [at the time of] the constellation Taurus, a west wind would blow for them until a given [time]; if at the setting of the Dog, a wind of one kind, and at its rising another. For this reason they made up the story that he was lord of the winds. Likewise [they spoke of] Amacleides, Protocles and Protocreon, as Orpheus says. Thus they declared them lords of the winds, [able] even to bind whichever wind they wished in a skin bag and allow the others to blow. So, they say, this Aeolus too bound up the other winds in the bag and gave [it] to Odysseus, leaving only the west wind, as the most useful to him and favourable for his passage. I also accept [the story of] the bag. For mechanicians and writers on secret operations (ἀρρητουργικά) say that if someone makes a bag out of a dolphin by skinning it, and keeps it with him, he will make whichever wind he wishes blow. Perhaps this Aeolus, too, was extremely skilled in magic. A son of this Aeolus was Iocastus, who founded Rhegium, as Callimachus says: “Leaving Rhegium, the city of Iocastus, son of Aeolus.” For Odysseus had the contrary winds shut up in the bag and sailed with the west wind alone; after sailing for nine days and nights, on the tenth he caught sight of his homeland and of some people tending fires, and fell asleep, exhausted from constantly holding the ship's sheet. His companions untie the bag, thinking that it contains gold. The winds poured out and, blowing in the opposite direction, disturbed the sea; borne along by them, he returned unwillingly to Aeolia.",
+      "notes": [
+        {
+          "ru": "Представлен именно отрывок генеалогической схолии Q: начальное […] обозначает сокращение составителя входного файла, а не повреждение рукописи. Фраза «Одиссей прибыл» внесена в текст Буттманом. Имя Асклепиада в этом месте не сопровождается определением, позволяющим надёжно установить его личность.",
+          "en": "This is an excerpt from the genealogical scholion Q: the initial […] marks the input compiler's abridgement, not manuscript damage. The words “Odysseus came” were supplied by Buttmann. Asclepiades is named here without a distinguishing description that would securely identify him.",
+          "source": "Dindorf II, 444.17–21 and apparatus to 444.20: https://archive.org/download/scholiagraeodyss02homeuoft/page/n47.jpg"
+        },
+        {
+          "ru": "Приписка P написана поздней рукой. По замечанию Буттмана, приведённому Диндорфом, текст до цитаты Каллимаха взят из комментария Цецa к Ликофрону, 738; рассказ, начинающийся «Ведь Одиссей», добавлен из другого источника и относится к содержанию всей песни. Продолжение после «владыка ветров», пропущенное во входном файле, восстановлено здесь целиком.",
+          "en": "The addition in P is in a later hand. According to Buttmann's observation reported by Dindorf, the text through the quotation from Callimachus comes from Tzetzes' commentary on Lycophron 738; the narrative beginning “For Odysseus” was excerpted from another source and belongs to the summary of the book. The continuation after “lord of the winds,” omitted from the input, is restored here in full.",
+          "source": "Dindorf II, apparatus to 444.23 and 445.16; text 444.23–445.23: https://archive.org/download/scholiagraeodyss02homeuoft/page/n47.jpg ; https://archive.org/download/scholiagraeodyss02homeuoft/page/n48.jpg. Ссылки на Цецa переданы по аппарату Диндорфа, без заявления о непосредственной сверке Цецa."
+        },
+        {
+          "ru": "Параллель рационалистическому объяснению Эола даёт Диодор: он также называет Эола сыном Гиппота и связывает его славу с предсказанием ветров, но объясняет предсказания наблюдением вулканического огня, а не звёзд.",
+          "en": "Diodorus offers a parallel rationalising account: he too calls Aeolus the son of Hippotes and links his reputation to forecasting winds, but derives the forecasts from observing volcanic fire rather than the stars.",
+          "source": "Diod. Sic. 5.7.6–7: https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/5A%2A.html#7.7"
+        },
+        {
+          "ru": "Орфей фигурирует как авторитет традиции о трёх владыках ветров; Каллимах цитируется как свидетель основания Регия Иокастом. Аппарат Диндорфа отсылает к старой нумерации: Orph. fr. 53 и Callim. fr. 202. Эти номера не приравниваются здесь к нумерации новейших изданий.",
+          "en": "Orpheus is invoked as an authority for the tradition of three lords of the winds; Callimachus is quoted for Iocastus' foundation of Rhegium. Dindorf's apparatus refers to the older numbering Orph. fr. 53 and Callim. fr. 202. These numbers are not equated here with those of modern editions.",
+          "source": "Dindorf II, 445.6 and 445.15–16, with apparatus: https://archive.org/download/scholiagraeodyss02homeuoft/page/n48.jpg"
+        }
+      ],
+      "doubts": [
+        {
+          "greek": "φυλάσσει δὲ Ὅμηρος τὸ εἰπεῖν ἐξ Ἱππότου",
+          "issue": "Φυλάσσω допускает и «сохранять», и «остерегаться, избегать»; второе значение засвидетельствовано также в активном залоге (LSJ B.7). Гомер употребляет патронимик Ἱπποτάδης, а не прямую формулу ἐξ Ἱππότου. Точная логика противопоставления генеалогий остаётся спорной.",
+          "choice": "Выбрано «избегает говорить» / “avoids saying”: патронимик может оставлять степень родства менее определённой, чем прямая формула происхождения. «Сохраняет формулировку» остаётся возможной альтернативой. Перевод «сын Гиппота» в гомеровской строке следует обычному пониманию патронимика и не выдаёт это спорное объяснение за единственное. LSJ, φυλάσσω B.2, B.7: https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionaries.v1%3Alsj-n112559/"
+        },
+        {
+          "greek": "ὢν μὲν ἀστρονομικώτατος; ἐν ταύρῳ ἄστρῳ; μέχρι τοῦδε",
+          "issue": "У μὲν нет явного парного δέ; формулировка об астрономическом сроке сокращена, а конечный срок не назван. В аппарате для μὲν указано βασιλεύς у Цецa.",
+          "choice": "Переведён основной текст, без подстановки «царь». Временной смысл передан [в пору] / [at the time of], срок оставлен неопределённым; Солнце в знак Тельца не добавлено."
+        },
+        {
+          "greek": "κυνός; τῇ ἀνατολῇ αὐτοῦ",
+          "issue": "Пёс — астрономическое обозначение; без дополнительного источника нельзя решить, имеет ли автор в виду одну звезду или созвездие как целое.",
+          "choice": "Пёс / the Dog, без безоговорочной подстановки «Сириус»."
+        },
+        {
+          "greek": "Ἀμακλείδην; Πρωτοκρέοντα",
+          "issue": "Редкие имена в восстановленном продолжении; Πρωτοκρέοντα — чтение Цецa, принятое в печатном тексте вместо Πρωκρέοντα P. Первое имя напечатано Ἀμακλείδην, хотя встречаются и иные формы в традиции.",
+          "choice": "Амаклид / Amacleides и Протокреонт / Protocreon; сохранены формы данного издания."
+        },
+        {
+          "greek": "τὰ ἀρρητουργικά; δελφῖνα ποιήσῃ ἀσκόν",
+          "issue": "Точное название или жанр «тайных действий» не установлен; дельфин в конструкции прямо превращается в кожаный мех.",
+          "choice": "Переведено как предмет сочинений, без выдуманного названия трактата; кожа названа по ἐκδείρας, а сообщение о магии передано как утверждение схолиаста."
+        },
+        {
+          "greek": "τὸν πόδα τῆς νηὸς ἔχων",
+          "issue": "Πούς здесь — морской термин, а не нога корабля; буквально «держал шкот». Это не гомеровское πηδάλιον «руль» из Od.10.32–33.",
+          "choice": "Сохранено различие: «шкот корабля» / “the ship's sheet”, без исправления схолиаста по Гомеру."
+        }
+      ],
+      "ref": "Σ Od. 10.2",
+      "lemma": "Αἴολος Ἱπποτάδης",
+      "greek_source": "[…] τρεῖς γὰρ Αἰόλους φασὶ γεγενῆσθαι, πρῶτον τὸν τοῦ Ἕλληνος, δεύτερον τὸν ἐξ Ἱππότου καὶ Μελανίππης, τρίτον τὸν ἐκ Ποσειδῶνος καὶ Ἄρνης. πρὸς τοῦτον δέ φησιν ὁ Ἀσκληπιάδης τὸν Ὀδυσσέα ἐλθεῖν τὸν ἐκ Ποσειδῶνος. φυλάσσει δὲ Ὅμηρος τὸ εἰπεῖν ἐξ Ἱππότου.\n\nΑἴολος ὁ Ἱππότου ἐν Ῥηγίῳ τῆς Ἰταλίας ὢν μὲν ἀστρονομικώτατος καὶ πολύπειρος ἐφρόντισε μᾶλλον εἰδέναι περὶ τῶν ἀνέμων χάριν τῶν ναυτιλλομένων καὶ προλέγειν, ὡς εἰ τυχὸν ἐν Ταύρῳ ἄστρῳ πλεύσειαν, μέχρι τοῦδε ζέφυρος αὐτοῖς ἔσεται πνέων ἄνεμος, εἰ ἐν δύσει Κυνὸς τοιόσδε, καὶ ἐν τῇ ἀνατολῇ αὐτοῦ ἕτερος. καὶ τούτου ἕνεκα ἐμυθεύσαντο αὐτὸν εἶναι δεσπότην ἀνέμων.",
+      "apparatus_input": [],
+      "sigla": "Q; P (поздняя рука)",
+      "location": "Dindorf II 444.17–21; 444.23–445.23",
+      "collation_status": "checked_against_page_images"
+    },
+    {
+      "set": "A",
+      "id": "s3",
+      "greek_established": "ἔνιοι μὲν τὴν ἐμπλεομένην, οἷον τὴν ἐν πλεομένοις τόποις κειμένην νῆσον, ἢ ἐπιθετικῶς λέγει τὴν Αἰολίαν. ὁ δὲ Ἀρίσταρχος πλωτῇ ἀντὶ τοῦ φορητῇ, οἷον περιφερομένῃ, ὡς ποτὲ μὲν ἐν τοῖς δεξιοῖς μέρεσι, ποτὲ δὲ ἐν τοῖς ἀριστεροῖς ὁρᾶσθαι, οἷον δή τι καὶ περὶ τὴν Δῆλον ἱστορεῖ Πίνδαρος λέγων οὕτως· «ἦν γὰρ τὸ πάροιθε φορητὰ κυμάτεσσι Δᾶλος παντοδαπῶν τ’ ἀνέμων ῥιπαῖς». ἐν δὲ ἄλλῳ, προσπλεομένῃ ὑπ’ ἀνθρώπων, ἢ περιφερομένῃ ὑπὸ τῆς θαλάσσης. ἄμεινον δὲ τὸ πρότερον· εἰ γὰρ ἐπέπλει τῇ θαλάσσῃ, οὐκ ἂν οὐδὲ ἐκ δευτέρου αὐτὴν εὗρεν ὁ Ὀδυσσεύς. ἢ περιρρεομένῃ. H.M.Q.T.V.\n\nἌλλως. ἐν πλεομένοις τόποις κειμένῃ ὅτι εἰσὶ νῆσοι πλησίον ἠπείρου κείμεναι τὸ πρὸς τῇ ἠπείρῳ μέρος ἔχουσαι ὑφάλων πετρῶν πλῆρες, αἳ οὐ δύνανται περιπλέεσθαι. ὁ δὲ Ἀρίσταρχος περιφορητῇ· οἰκειότερον γάρ φησι μὴ ἐρριζῶσθαι τῶν ἀνέμων νῆσον. Q.",
+      "ru": "На плавучем острове (πλωτή)] Некоторые [понимают это как] остров, к которому плавают, то есть остров, лежащий в местах, где ходят суда; либо он употребляет [это слово] как эпитет Эолии. Аристарх же понимает «плавучий» в значении «носимый» (φορητή), то есть перемещающийся, так что его видят то справа, то слева. Нечто подобное Пиндар рассказывает и о Делосе, говоря: «Прежде ведь Делос носили волны и порывы всевозможных ветров». В другом [источнике]: [остров], к которому приплывают люди, либо который носит море. Первое лучше: ведь если бы он плавал по морю, Одиссей не нашёл бы его и во второй раз. Или: омываемый со всех сторон. H M Q T V.\n\nИначе. Лежащий в местах, где ходят суда, поскольку бывают острова, расположенные близ материка, у которых сторона, обращённая к материку, полна подводных скал и которые нельзя обойти на корабле. Аристарх же [понимает]: «носимый с места на место» (περιφορητή); ведь, говорит он, острову ветров более подобает не быть укоренённым. Q.",
+      "en": "On a floating island (πλωτή)] Some [understand] an island sailed to, that is, one situated in waters where ships sail; or he uses [the word] as an epithet of Aeolia. Aristarchus, however, takes “floating” to mean “borne along” (φορητή), that is, moving about, so that it is seen now on the right and now on the left. Pindar tells something similar about Delos, saying: “For formerly Delos was carried by the waves and the gusts of all kinds of winds.” In another [source]: [an island] approached by people in ships, or carried about by the sea. The former is better: for if it floated on the sea, Odysseus would not have found it a second time either. Or: washed all around. H M Q T V.\n\nAlternatively. Situated in waters where ships sail, because there are islands lying close to the mainland whose mainland-facing side is full of submerged rocks and which cannot be sailed around. Aristarchus, however, [takes it as] “carried from place to place” (περιφορητή): for, he says, it is more fitting for the island of the winds not to be rooted in place. Q.",
+      "notes": [
+        {
+          "ru": "Аристарх Самофракийский — александрийский филолог II века до н. э., занимавшийся текстом Гомера. Здесь ему приписано буквальное понимание плавучести острова, а следующий толкователь предпочитает значение «доступный для плавания».",
+          "en": "Aristarchus of Samothrace was a second-century BCE Alexandrian scholar of Homer. Here he is credited with taking the island's floating literally, while the subsequent interpretation favours accessibility by sea.",
+          "source": "Suda α 3892: https://cs.uky.edu/~raphael/sol/sol-cgi-bin/search.cgi?db=REAL&enlogin=guest&field=adlerhw_gr&login=lucilius&searchstr=alpha%2C3892 ; Dindorf II, 445.24–446.10."
+        },
+        {
+          "ru": "Параллель к цитате Пиндара находится у Страбона: там рассказ продолжается закреплением Делоса при рождении Аполлона и Артемиды. Диндорф замечает, что вставленное в схолии Δᾶλος нарушает метр и отсутствует у Страбона; он также сообщает, что τ’ восстановлено по изданиям Страбона. В переводе сохранён текст схолии, а не восстановленный стих Пиндара.",
+          "en": "Strabo preserves a parallel to the Pindar quotation, continuing with Delos being fixed in place at the birth of Apollo and Artemis. Dindorf notes that Δᾶλος, inserted in the scholion, disturbs the metre and is absent in Strabo; he also reports supplying τ’ from editions of Strabo. The translation follows the scholion, not a reconstructed text of Pindar.",
+          "source": "Strabo 10.5.2 (C485): https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/10E%2A.html#5.2 ; Dindorf II, apparatus to 446.2–3: https://archive.org/download/scholiagraeodyss02homeuoft/page/n49.jpg"
+        },
+        {
+          "ru": "Аппарат Диндорфа сопоставляет περιφερομένῃ с παραφερομένην у Евстафия и указывает, что тот допускает движение от непрерывных землетрясений либо иным способом. Вторую схолию Q Евстафий также воспроизводит с небольшими изменениями. Эти сведения здесь приводятся по Диндорфу.",
+          "en": "Dindorf's apparatus compares περιφερομένῃ with Eustathius' παραφερομένην and reports his explanation by continual earthquakes or some other means. Eustathius also reproduces the second scholion Q with slight changes. These observations are reported here on Dindorf's authority.",
+          "source": "Dindorf II, apparatus to 445.26 and 446.7, citing Eustathius 1644.52: https://archive.org/download/scholiagraeodyss02homeuoft/page/n49.jpg"
+        }
+      ],
+      "doubts": [
+        {
+          "greek": "ἐμπλεομένην; ἐπιθετικῶς; πλωτῇ",
+          "issue": "Схолия предлагает несовместимые значения πλωτή: остров, доступный плаванию, и действительно перемещающийся остров. Отдельно возможен условный эпитет.",
+          "choice": "Варианты оставлены раздельными; в лемме принято «плавучий», а навигационное толкование объяснено в тексте."
+        },
+        {
+          "greek": "ἐν δὲ ἄλλῳ",
+          "issue": "Не названо, о каком другом носителе текста идёт речь — списке, комментарии или толковании.",
+          "choice": "Нейтральное «в другом [источнике]» / “in another [source]”; «рукопись» не добавлено как достоверный факт."
+        },
+        {
+          "greek": "Δᾶλος; ῥιπαῖς",
+          "issue": "Диндорф считает Δᾶλος метрически лишним в цитате Пиндара; файл также заменяет печатное ῥιπαῖς на ῥιπαῖσιν.",
+          "choice": "Δᾶλος сохранено как чтение схолии; ῥιπαῖσιν исправлено по печати на ῥιπαῖς, без реконструкции всего стиха."
+        },
+        {
+          "greek": "αἳ οὐ δύνανται περιπλέεσθαι",
+          "issue": "Нельзя обойти на корабле именно описанные прибрежные острова; греческое относительное местоимение возвращается к νῆσοι после длинного определения.",
+          "choice": "Сохранена связь с островами; не создаётся утверждение, что остров Эола недоступен для обхода."
+        }
+      ],
+      "ref": "Σ Od. 10.3",
+      "lemma": "πλωτῇ ἐνὶ νήσῳ",
+      "greek_source": "ἔνιοι μὲν τὴν ἐμπλεομένην, οἷον τὴν ἐν πλεομένοις τόποις κειμένην νῆσον, ἢ ἐπιθετικῶς λέγει τὴν Αἰολίαν. ὁ δὲ Ἀρίσταρχος πλωτῇ ἀντὶ τοῦ φορητῇ, οἷον περιφερομένῃ, ὡς ποτὲ μὲν ἐν τοῖς δεξιοῖς μέρεσι, ποτὲ δὲ ἐν τοῖς ἀριστεροῖς ὁρᾶσθαι, οἷον δή τι καὶ περὶ τὴν Δῆλον ἱστορεῖ Πίνδαρος λέγων οὕτως· «ἦν γὰρ τὸ πάροιθε φορητὰ κυμάτεσσι Δᾶλος παντοδαπῶν τ’ ἀνέμων ῥιπαῖσιν». ἐν δὲ ἄλλῳ, προσπλεομένῃ ὑπ’ ἀνθρώπων, ἢ περιφερομένῃ ὑπὸ τῆς θαλάσσης. ἄμεινον δὲ τὸ πρότερον· εἰ γὰρ ἐπέπλει τῇ θαλάσσῃ, οὐκ ἂν οὐδὲ ἐκ δευτέρου αὐτὴν εὗρεν ὁ Ὀδυσσεύς. ἢ περιρρεομένῃ.\n\nὁ δὲ Ἀρίσταρχος περιφορητῇ· οἰκειότερον γάρ φησι μὴ ἐρριζῶσθαι τῶν ἀνέμων νῆσον.",
+      "apparatus_input": [],
+      "sigla": "H M Q T V; Q",
+      "location": "Dindorf II 445.24–446.10",
+      "collation_status": "checked_against_page_images"
+    },
+    {
+      "set": "A",
+      "id": "s4",
+      "greek_established": "λείπει τὸ ἐστίν. πῶς ἄρρηκτον; ὅτι πέτρα περιτρέχει τὴν πόλιν περιβολῆς τάξιν ἐπέχουσα. B.Q.\n\nχάλκεον] ἰσχυρόν· ἀπρόσβατον γάρ ἐστι διὰ τὴν περὶ αὐτὸ λειότητα. V.",
+      "ru": "Медная, несокрушимая] Пропущено «есть» (ἐστίν). Почему «несокрушимая»? Потому что скала окружает город, выполняя роль ограды. B Q.\n\nМедная] Прочная: ведь она неприступна из-за гладкости своей поверхности со всех сторон. V.",
+      "en": "Of bronze, unbreakable] “Is” (ἐστίν) is omitted. Why “unbreakable”? Because a rock runs around the city, serving as an enclosure. B Q.\n\nOf bronze] Strong: for it cannot be attacked because its surface is smooth all around. V.",
+      "notes": [],
+      "doubts": [
+        {
+          "greek": "χάλκεον; περιβολῆς; περὶ αὐτὸ λειότητα",
+          "issue": "В V «медный» объясняется через прочность и гладкость; αὐτό соотносится с τεῖχος «стена», подразумеваемым из стиха. В B Q напечатано περιβολῆς, а не περιβόλου.",
+          "choice": "Русское местоимение согласовано со «стеной». Сохранено различие: буквальное «медная» в лемме и объяснение «прочная» в схолии; греческое существительное исправлено по печати."
+        }
+      ],
+      "ref": "Σ Od. 10.4",
+      "lemma": "χάλκεον ἄρρηκτον",
+      "greek_source": "λείπει τὸ ἐστίν. πῶς ἄρρηκτον; ὅτι πέτρα περιτρέχει τὴν πόλιν περιβόλου τάξιν ἐπέχουσα.\n\nἰσχυρόν· ἀπρόσβατον γάρ ἐστι διὰ τὴν περὶ αὐτὸ λειότητα.",
+      "apparatus_input": [],
+      "sigla": "B Q; V",
+      "location": "Dindorf II 446.17–18; 446.15–16",
+      "collation_status": "checked_against_page_images"
+    },
+    {
+      "set": "B",
+      "id": "appx-1",
+      "greek_established": "",
+      "ru": "С далёкими воротами (τηλέπυλον)] Большой [город]: ведь у таких [городов] ворота далеко отстоят друг от друга. Некоторые же приняли «Телепил» (Τηλέπυλον) за собственное имя. Другие говорят, что «с далёкими воротами» означает «с большими воротами» (μακρόπυλον) — по ширине или длине ворот, а не по расстоянию [между ними]. V. — Имеющий ворота далеко друг от друга, на большом расстоянии; или «с большими воротами». B Q T.",
+      "en": "With distant gates (τηλέπυλον)] Large [city]: the gates of such [cities] stand far apart. Some, however, understood Telepylus (Τηλέπυλον) as a proper name. Others say that “with distant gates” means “with large gates” (μακρόπυλον), referring to the width or length of the gateway, not to the distance [between gates]. V. — Having gates far apart and at a distance from one another; or “with large gates.” B Q T.",
+      "notes": [],
+      "doubts": [
+        {
+          "greek": "τηλέπυλον / μακρόπυλον; τῷ μήκει",
+          "issue": "Схолия предлагает и имя собственное, и эпитет; μακρός применительно к воротам допускает несколько измерений, а μήκος здесь нельзя уверенно отождествить с высотой.",
+          "choice": "В лемме дан эпитет, затем сохранено толкование как имени Телепил; μακρόπυλον передано «с большими воротами», а μήκος — «длина», без замены на высоту."
+        }
+      ],
+      "ref": "Σ Od. 10.82",
+      "lemma": "τηλέπυλον",
+      "greek_source": "μεγάλην. τῶν γὰρ τοιούτων πολὺ διεστᾶσιν αἱ πύλαι. τινὲς δὲ κύριον τὸ Τηλέπυλον ἐξεδέξαντο. οἱ δὲ τηλέπυλόν φασι μακρόπυλον, οὐ τῷ διαστήματι, ἀλλὰ τῷ πλάτει τῆς πύλης ἢ τῷ μήκει. V. — πόρρω ἀλλήλων καὶ διασταδὸν τὰς πύλας ἔχουσαν· ἢ μακρόπυλον. B.Q.T.",
+      "apparatus_input": "",
+      "sigla": "V; B.Q.T.",
+      "location": "Dindorf II 452.20–24",
+      "collation_status": "checked_against_page_images"
+    },
+    {
+      "set": "B",
+      "id": "appx-2",
+      "greek_established": "",
+      "ru": "Лестригонский] [Город] лестригонов. Лестригоны — жители Лама. V. — Позднейшие [авторы] говорят, что Лестригония — это Сицилия. H.",
+      "en": "Laestrygonian] [The city] of the Laestrygonians. The Laestrygonians are the inhabitants of Lamus. V. — Later [authors] say that Laestrygonia is Sicily. H.",
+      "notes": [],
+      "doubts": [
+        {
+          "greek": "τὴν Λάμον; οἱ νεώτεροι",
+          "issue": "Λάμος употреблено как название города, хотя в стихе Λάμου можно понимать как имя его владельца или основателя. Не названы авторы, которых схолиаст считает позднейшими.",
+          "choice": "В схолии сохранено название города Лам; νεώτεροι передано «позднейшие [авторы]», без отождествления с определёнными поэтами или историками."
+        }
+      ],
+      "ref": "Σ Od. 10.82",
+      "lemma": "Λαιστρυγονίην",
+      "greek_source": "τὴν τῶν Λαιστρυγόνων. Λαιστρυγόνες δὲ οἱ τὴν Λάμον οἰκοῦντες. V. — τὴν Λαιστρυγονίην οἱ νεώτεροι Σικελίαν φασί. H.",
+      "apparatus_input": "",
+      "sigla": "V; H.",
+      "location": "Dindorf II 452.25–27",
+      "collation_status": "checked_against_page_images"
+    },
+    {
+      "set": "B",
+      "id": "appx-3",
+      "greek_established": "",
+      "ru": "Пастух пастуха] Пастух овец [окликает] пастуха коров, потому что овец много. B. — Слово «пастух» (ποιμήν) он употребил в расширенном значении (καταχρηστικῶς) и о пастухе коров. V.",
+      "en": "Shepherd to shepherd] The herdsman of sheep [calls to] the cowherd, because there are many sheep. B. — He has extended the use (καταχρηστικῶς) of “shepherd” (ποιμήν) to the cowherd as well. V.",
+      "notes": [],
+      "doubts": [
+        {
+          "greek": "διὰ τὸ πολλὰ εἶναι τὰ πρόβατα",
+          "issue": "Неясно, почему именно многочисленность овец объясняет, кто окликает кого.",
+          "choice": "Причинная связь сохранена буквально; объяснение отсутствующего промежуточного довода не добавлено."
+        }
+      ],
+      "ref": "Σ Od. 10.82",
+      "lemma": "ποιμένα ποιμὴν",
+      "greek_source": "τὸν βουκόλον ὁ τῶν μήλων νομεύς, διὰ τὸ πολλὰ εἶναι τὰ πρόβατα. B. — καταχρηστικῶς εἴρηκε ποιμένα καὶ τὸν βουκόλον. V.",
+      "apparatus_input": "",
+      "sigla": "B; V.",
+      "location": "Dindorf II 452.28–30",
+      "collation_status": "checked_against_page_images"
+    },
+    {
+      "set": "B",
+      "id": "appx-4",
+      "greek_established": "ὁμωνύμως τῷ γένει τὸ εἶδος εἶπεν, ἀντὶ τοῦ νομεὺς νομέα, ἤτοι ἔνθα οἱ νομεῖς ἀλλήλους προσφθέγγονται διὰ τὸ πλησίον εἶναι τὰς νομάς. ἢ μᾶλλον τοῦ διαστήματος τὸ ἀπεναντίον τῶν πυλῶν μέτρον ἀπέχειν, καὶ οὕτως τὴν φωνὴν ἀκούεσθαι τοῦ τε εἰσελαύνοντος καὶ τοῦ ἐξελαύνοντος, ὥσπερ ποτ’ ἔχει καὶ αὐτῷ «ὅσον τε γέγωνε βοήσας» (ι, 473.).",
+      "ru": "Где пастуха] Вид он назвал тем же словом, что и род, вместо «пасущий пасущего» (νομεὺς νομέα), то есть: там пастухи обращаются друг к другу, потому что пастбища близко. Или, вернее, [место] напротив ворот отстоит на [такую] меру расстояния, что слышен голос и того, кто пригоняет [стадо], и того, кто выгоняет, — как бывает и у него [в стихе]: «насколько слышен крик человека».",
+      "en": "Where a shepherd] He has given the species the same name as the genus, instead of “one herdsman to another” (νομεὺς νομέα): that is, there the herdsmen address one another because the pastures are close. Or, rather, [the place] facing the gates is at [such] a distance that the voice of both the man driving [his herd] in and the man driving [his herd] out can be heard, as also occurs in his [verse], “as far as a man's shout can be heard.”",
+      "notes": [
+        {
+          "ru": "Диндорф отсылает последнюю цитату к «Одиссее» 9.473. Формула задаёт расстояние, на котором ещё слышен человеческий крик.",
+          "en": "Dindorf identifies the final quotation as Odyssey 9.473. The formula marks the distance over which a human shout can still be heard.",
+          "source": "Hom. Od.9.473; Dindorf II 453.4–5: https://archive.org/download/scholiagraeodyss02homeuoft/page/n56.jpg"
+        }
+      ],
+      "doubts": [
+        {
+          "greek": "ὁμωνύμως τῷ γένει τὸ εἶδος εἶπεν",
+          "issue": "Соотношение общего «пасущий» и частного «пастух овец» сформулировано кратко; буквально вид назван одноимённо роду.",
+          "choice": "Род и вид сохранены как термины схолиаста; их отношение не переставлено ради более привычного объяснения."
+        },
+        {
+          "greek": "τοῦ διαστήματος τὸ ἀπεναντίον τῶν πυλῶν μέτρον ἀπέχειν",
+          "issue": "Синтаксис неясен: τὸ ἀπεναντίον может обозначать место напротив ворот; μέτρον — меру расстояния. Точное расположение ворот и пастухов не восстанавливается уверенно.",
+          "choice": "Дан осторожный перевод с восполнением «[место]» и «[такую]». Общий смысл — расстояние допускает слышимость; перевод не выдаёт это толкование за бесспорное."
+        },
+        {
+          "greek": "νομέα",
+          "issue": "В предоставленном аппарате это исправление Буттмана вместо νομός.",
+          "choice": "Переведён основной текст с νομέα; принятие исправления необходимо для пары «пасущий — пасущего»."
+        }
+      ],
+      "ref": "Σ Od. 10.82",
+      "lemma": "ὅθι ποιμένα",
+      "greek_source": "ὁμωνύμως τῷ γένει τὸ εἶδος εἶπεν, ἀντὶ τοῦ νομεὺς νομέα, ἤτοι ἔνθα οἱ νομεῖς ἀλλήλους προσφθέγγονται διὰ τὸ πλησίον εἶναι τὰς νομάς. ἢ μᾶλλον τοῦ διαστήματος τὸ ἀπεναντίον τῶν πυλῶν μέτρον ἀπέχειν, καὶ οὕτως τὴν φωνὴν ἀκούεσθαι τοῦ τε εἰσελαύνοντος καὶ τοῦ ἐξελαύνοντος, ὥσπερ ποτ’ ἔχει καὶ αὐτῷ «ὅσον τε γέγωνε βοήσας».",
+      "apparatus_input": "νομέα Buttm. pro νομός · πλησίον] σύνεγγυς V · ἀκούεσθαι] ἐξακούεσθαι V",
+      "sigla": "B.Q.",
+      "location": "Dindorf II 452.31–453.5",
+      "collation_status": "checked_against_page_images"
+    },
+    {
+      "set": "B",
+      "id": "appx-5",
+      "greek_established": "",
+      "ru": "Окликает] Обращается, подаёт голос.",
+      "en": "Calls out] Addresses [someone], raises his voice.",
+      "notes": [],
+      "doubts": [],
+      "ref": "Σ Od. 10.83",
+      "lemma": "ἠπύει",
+      "greek_source": "προσαγορεύει, φωνεῖ.",
+      "apparatus_input": "",
+      "sigla": "Q.",
+      "location": "Dindorf II 453.6",
+      "collation_status": "checked_against_page_images"
+    },
+    {
+      "set": "B",
+      "id": "appx-6",
+      "greek_established": "",
+      "ru": "Неутомимый (ἄοκνος)] Вариант чтения: «не знающий сна» (ἄυπνος).",
+      "en": "Untiring (ἄοκνος)] Variant reading: “sleepless” (ἄυπνος).",
+      "notes": [],
+      "doubts": [
+        {
+          "greek": "γρ. ἄυπνος",
+          "issue": "γρ. — сокращение при указании другого чтения; лемма схолии ἄοκνος отличается от ἄυπνος в приведённом тексте Гомера.",
+          "choice": "Сохранены и лемма, и вариант; они не унифицированы под один гомеровский текст."
+        }
+      ],
+      "ref": "Σ Od. 10.84",
+      "lemma": "ἄοκνος",
+      "greek_source": "γρ. ἄυπνος.",
+      "apparatus_input": "",
+      "sigla": "N.",
+      "location": "Dindorf II 453.7",
+      "collation_status": "checked_against_page_images"
+    },
+    {
+      "set": "B",
+      "id": "appx-7",
+      "greek_established": "",
+      "ru": "Одну — пася коров] Ночью он пасёт коров из-за овода (οἶστρος), враждебного коровам, а днём пасёт овец. Поэтому, говорит он, можно […] получать там две платы, поскольку дневные и ночные пастбища находятся близко, а не далеко.",
+      "en": "One for tending cattle] He tends cattle during the night because of the gadfly (οἶστρος), which is hostile to cattle, and grazes sheep during the day. Accordingly, he says, one can […] receive two wages there, since the daytime and night-time pastures are near, not far apart.",
+      "notes": [
+        {
+          "ru": "Диндорф восполняет три стёртых в B слова по Евстафию, 1648.42. Переведён уже восполненный печатный текст; пропуск после φησί оставлен.",
+          "en": "Dindorf restores three words effaced in B from Eustathius 1648.42. The translation follows the restored printed text and retains the gap after φησί.",
+          "source": "Dindorf II 453.8–12 and apparatus ad 8: https://archive.org/download/scholiagraeodyss02homeuoft/page/n56.jpg"
+        }
+      ],
+      "doubts": [
+        {
+          "greek": "δύναται οὖν τις, φησί, … ἐκεῖ",
+          "issue": "В основном тексте Диндорфа 453.10 после φησί напечатано многоточие; это не произвольное сокращение переводчика.",
+          "choice": "Пропуск сохранён как […]; его содержание не восстановлено по общему смыслу."
+        },
+        {
+          "greek": "νυκτός; πολέμιος; βόσκων",
+          "issue": "Аппарат Диндорфа 453.8 подтверждает: νυκτός, πολέμιος и βόσκων стёрты в B и восполнены по Евстафию 1648.42. Проверено по изображению страницы.",
+          "choice": "Слова переведены как часть основного греческого текста; их редакционное происхождение отмечено отдельно, а не обозначено как собственные добавления переводчика."
+        }
+      ],
+      "ref": "Σ Od. 10.85",
+      "lemma": "τὸν μὲν βουκολέων",
+      "greek_source": "κατὰ μὲν τὸν καιρὸν τῆς νυκτὸς βουκολέων, διὰ τὸν οἶστρον, ὅς ἐστι πολέμιος τοῖς βουσί, κατὰ δὲ τῆς ἡμέρας βόσκων πρόβατα. δύναται οὖν τις, φησί, … ἐκεῖ λαμβάνειν δύο μισθούς, ἐπειδὴ τῆς ἡμέρας καὶ τῆς νυκτὸς αἱ νομαὶ ἐγγύς εἰσι καὶ οὐ πόρρω.",
+      "apparatus_input": "νυκτός, πολέμιος, βόσκων в B стёрты; восполнены Диндорфом из Евстафия 1648.42",
+      "sigla": "B.",
+      "location": "Dindorf II 453.8–12",
+      "collation_status": "checked_against_page_images"
+    },
+    {
+      "set": "B",
+      "id": "appx-8",
+      "greek_established": "",
+      "ru": "Ведь близки [пути] ночи] Он говорит это потому, что коров пасут ночью из-за слепней (μύωπες), которые днём докучают быкам.",
+      "en": "For near are [the paths] of night] He says this because they tend cattle at night on account of the horseflies (μύωπες), which trouble the bulls during the day.",
+      "notes": [],
+      "doubts": [
+        {
+          "greek": "μύωπας; ταύρους",
+          "issue": "Схолия сначала употребляет общее βουκολοῦσι, затем уточняет ταύρους «быков». Названия кусающих мух в античной лексике не обязательно совпадают с современными таксонами.",
+          "choice": "Ταύρους переведено именно «быков»; μύωψ условно передано «слепень», а οἶστρος в соседней схолии — «овод», с сохранением греческих названий."
+        }
+      ],
+      "ref": "Σ Od. 10.86",
+      "lemma": "ἐγγὺς γὰρ νυκτός",
+      "greek_source": "τοῦτο λέγει ὅτι νυκτὸς μὲν βουκολοῦσι διὰ τοὺς μύωπας, οἵτινες ἐν ἡμέρᾳ τοὺς ταύρους ἐνοχλοῦσιν.",
+      "apparatus_input": "",
+      "sigla": "H.",
+      "location": "Dindorf II 453.13–14",
+      "collation_status": "checked_against_page_images"
+    },
+    {
+      "set": "B",
+      "id": "appx-9",
+      "greek_established": "",
+      "ru": "Ведь пути ночи и дня близки] [a] Путь дня по природе близок к [пути] ночи. Этим он сказал, что день не отделён от ночи, но с его уходом ночь наступает в одно мгновение.\n\n[b] Иначе. Ночные и утренние пастбища близки к городу, и настолько близки, что выгоняющий [стадо] из города слышит тех, кто в полях.\n\n[c] Иначе. Кратет предполагает, что ночи там короткие. Он говорит, что они находятся в области головы Дракона, о которой Арат говорит: «Та голова движется где-то там, где крайние [точки] заходов и восходов сходятся друг с другом». Поэтому, поскольку восходы близки к заходам, поэт говорит: «Ведь близки [пути] ночи…» и далее — потому, что пути ночи близки к путям дня, или потому, что ночь, будучи совсем короткой, расположена вплотную к дню. Следовательно, две платы получает тот, кто отказывается от сна, или тот, кто проводит во сне большую часть дня.",
+      "en": "For the paths of night and day are near] [a] The path of day is naturally close to [the path] of night. He said this to mean that day is not separated from night, but that, as day passes, night comes in an instant.\n\n[b] Alternatively. The night-time and morning pastures are close to the city, and so close that the man driving [his herd] out of the city can hear those in the fields.\n\n[c] Alternatively. Crates assumes that the nights there are short. Indeed, he says that they are in the region of the Dragon's head, of which Aratus says: “That head moves somewhere there, where the extreme [points of] setting and rising meet one another.” Hence, because the risings are close to the settings, the poet says, “For near are [the paths] of night,” and what follows, because the paths of night lie close to the paths of day, or because night, being very short, is placed close beside day. Thus the man who refuses to sleep receives double wages, or the man who spends the greater part of the day asleep.",
+      "notes": [
+        {
+          "ru": "Кратет из Малла — греческий грамматик, связанный с Пергамом; Светоний называет его современником Аристарха. Здесь ему приписано астрономическое объяснение гомеровской географии.",
+          "en": "Crates of Mallus was a Greek grammarian associated with Pergamum; Suetonius calls him a contemporary of Aristarchus. Here he is credited with an astronomical explanation of Homeric geography.",
+          "source": "Suet. De grammaticis 2: https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Suetonius/de_Grammaticis%2A.html; данная схолия, Σ Od. 10.86."
+        },
+        {
+          "ru": "Арат — автор астрономической поэмы «Явления». Цитируются стихи 61–62, завершающие описание созвездия Дракона; речь идёт о его голове, а не о земном животном.",
+          "en": "Aratus is the author of the astronomical poem Phaenomena. The quotation is from lines 61–62, which conclude the description of the constellation Draco; the head belongs to that constellation.",
+          "source": "Arat. Phaen. 45–62, особенно 61–62, ed. G. R. Mair, 1921 (греческий текст): https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A2008.01.0483"
+        },
+        {
+          "ru": "Евстафий объясняет ночное бодрствование или короткий ночной сон тем, что человек, возможно, дольше спал днём. Это помогает понять последнюю альтернативу схолии, хотя её собственная формулировка значительно короче.",
+          "en": "Eustathius explains wakefulness or little sleep at night by the possibility of having slept longer during the day. This helps make sense of the scholion’s final alternative, though the scholion’s own wording is much more compressed.",
+          "source": "Eustathius, Commentarii ad Homeri Odysseam, ed. G. Stallbaum, I (1825), p.368 (старое деление p.1648): https://archive.org/download/commentariiadhom01eust/page/n377.jpg"
+        },
+        {
+          "ru": "Схолии к Арату тоже связывают толкование Кратета с Od.10.86, но дают день в двадцать часов и ночь в четыре. Это другая численная схема, чем двадцать три часа и один час в appx-12.",
+          "en": "The scholia on Aratus likewise associate Crates’ interpretation with Odyssey 10.86, but give a twenty-hour day and a four-hour night. This differs from the twenty-three-hour day and one-hour night of appx-12.",
+          "source": "Schol. Arat.62, E. Maass, Commentariorum in Aratum reliquiae (1898), p.351.23–28: https://archive.org/download/commentariorvmi00maasgoog/page/n443.jpg"
+        }
+      ],
+      "doubts": [
+        {
+          "greek": "τῇ παρελεύσει αὐτῆς",
+          "issue": "Местоимение относится к дню; чтение Q παρακελεύσει, указанное в аппарате, менее ясно по смыслу.",
+          "choice": "Переведено чтение H παρελεύσει: «с его уходом»; не добавлено не выраженное здесь утверждение о длительности сумерек."
+        },
+        {
+          "greek": "αὐτοὺς εἶναι περὶ τὴν κεφαλὴν τοῦ δράκοντος",
+          "issue": "Прямое отнесение людей к области звёзд допускает разные космографические истолкования; формула сама по себе не определяет земную широту.",
+          "choice": "Сохранено «в области головы Дракона», без подстановки конкретной страны или широты."
+        },
+        {
+          "greek": "ἄκραι μίσγονται δύσιές τε καὶ ἀντολαί",
+          "issue": "ἄκραι обозначает крайние или предельные восходы и заходы; «точки» в греческом не названы.",
+          "choice": "«[Точки]» добавлено в квадратных скобках для понимания пространственного образа; не подставлены «солнечные» восходы и заходы."
+        },
+        {
+          "greek": "ἢ τὸν ἐν ὕπνῳ τὸ τῆς ἡμέρας πολὺ καταχρώμενον",
+          "issue": "Сжатая альтернатива о сне в течение большей части дня не объясняет сама по себе, как совмещаются обе работы. Однако параллель Евстафия показывает, что дневной сон может мыслиться условием ночного бодрствования; объявлять место заведомо испорченным нельзя.",
+          "choice": "Буквальный перевод сохранён без отрицания и без дополнения отсутствующей логической связки. Параллель приведена в примечании как возможное объяснение, а не как исправление текста."
+        }
+      ],
+      "ref": "Σ Od. 10.86 [a–c]",
+      "lemma": "ἐγγὺς γὰρ νυκτός τε καὶ ἤματός εἰσι κέλευθοι",
+      "greek_source": "[a] τῆς ἡμέρας ἡ ὁδὸς ἐγγὺς εἶναι πέφυκε τῆς νυκτός. τοῦτο δὲ ἔφη ὡς μὴ τῆς ἡμέρας ἀφισταμένης τῆς νυκτός, ἀλλὰ τῇ παρελεύσει αὐτῆς εἰσέρχεσθαι νύκτα ἐν ἀκαρεῖ. [b] Ἄλλως. πλησίον γὰρ τῆς πόλεώς εἰσιν αἱ νυκτεριναί τε καὶ ἑωθιναὶ νομαί, καὶ τοσοῦτον πλησιάζουσιν ὡς τὸν ἐξελαύνοντα τῆς πόλεως ἀκούειν τῶν ἐν ἀγροῖς. [c] Ἄλλως. Κράτης βραχείας αὐτοῦ ὑποτίθεται τὰς νύκτας. καὶ γάρ φησιν αὐτοὺς εἶναι περὶ τὴν κεφαλὴν τοῦ δράκοντος, περὶ ἧς Ἄρατός φησι «κείνη που κεφαλὴ τῇ νείσεται ἧχί περ ἄκραι μίσγονται δύσιές τε καὶ ἀντολαὶ ἀλλήλῃσιν». ὅθεν σύνεγγυς οὐσῶν τῶν ἀνατολῶν ταῖς δύσεσι λέγειν τὸν ποιητὴν «ἐγγὺς γὰρ νυκτός τε» καὶ τὰ ἑξῆς, παρὰ τὸ πλησιάζειν τὰς τῆς νυκτὸς κελεύθους ταῖς τοῦ ἤματος κελεύθοις, ἢ τὴν νύκτα ἐγγὺς τετάχθαι τῆς ἡμέρας βραχυτάτην οὖσαν. τὸν οὖν καθεύδειν παραιτούμενον διπλοῦς μισθοὺς λαμβάνειν, ἢ τὸν ἐν ὕπνῳ τὸ τῆς ἡμέρας πολὺ καταχρώμενον.",
+      "apparatus_input": "παρελεύσει H, παρακελεύσει Q · τῶν Buttm. pro τοῖς · ταῖς — κελεύθοις om. Q · Ἄρατος] 61, ubi Cratetis sententiam memorat scholiasta (Dindorf)",
+      "sigla": "H.Q.",
+      "location": "Dindorf II 453.15–28",
+      "collation_status": "checked_against_page_images"
+    },
+    {
+      "set": "B",
+      "id": "appx-10",
+      "greek_established": "",
+      "ru": "Ведь пути ночи и дня близки] Ночные и дневные пастбища находятся близко к городу. Говорят, что лестригоны занимали в Сицилии землю леонтинцев, где во множестве водятся слепни (μύωψ) и оводы (οἶστρος), так что густошерстные [животные] пасутся днём, а гладкошерстные — ночью. Поэтому тот, кто способен не спать, получает две платы. Кратет же говорит, что они помещены среди звёзд (κατηστερίσθαι) у головы Дракона, о которой Арат говорит: «Та голова движется где-то там, где крайние [точки] заходов и восходов сходятся друг с другом». Поэтому день длиннее, а ночь коротка — в противоположность тому, как у киммерийцев. Итак, если кто способен бодрствовать всю ночь, он получает две платы.",
+      "en": "For the paths of night and day are near] The night-time and daytime pastures are close to the city. They say that the Laestrygonians occupied the territory of the Leontines in Sicily, where horseflies (μύωψ) and gadflies (οἶστρος) breed in great numbers, so that shaggy [animals] graze by day and smooth-coated ones by night. In this way a man able to stay awake earns two wages. Crates, however, says that they have been placed among the stars (κατηστερίσθαι) at the Dragon's head, of which Aratus says: “That head moves somewhere there, where the extreme [points of] setting and rising meet one another.” Consequently, the day is longer and the night short, the reverse of what happens among the Cimmerians. Thus, if anyone can remain awake all night, he receives two wages.",
+      "notes": [
+        {
+          "ru": "Слова «помещены среди звёзд» передают необычное κατηστερίσθαι буквально. Для глагола καταστερίζω LSJ приводит значение «помещать среди звёзд»; перевод «жили под созвездием» потребовал бы дополнительного истолкования.",
+          "en": "“Placed among the stars” renders the unusual κατηστερίσθαι literally. LSJ gives “place among the stars” for καταστερίζω; “lived beneath the constellation” would require a further interpretative step.",
+          "source": "LSJ, s.v. καταστερίζω: https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionaries.v1%3Alsj-n55265/"
+        },
+        {
+          "ru": "Киммерийцы у Гомера живут в тумане и мраке. Гемин передаёт толкование Кратета, связывающее их с областью, где день и ночь длятся по полгода.",
+          "en": "Homer places the Cimmerians in mist and darkness. Geminus records Crates’ interpretation connecting them with a region where day and night each last six months.",
+          "source": "Hom. Od.11.14–19, quoted by Geminus, Introductio VI.16; ed. Manitius (1898), p.74.11–22: https://archive.org/download/geminoueisaggeis00gemi/page/n121.jpg"
+        },
+        {
+          "ru": "У Евстафия лестригоны находятся под головой Дракона, а причастие κατηστερισμένην относится к голове: она помещена среди звёзд над ними. В данной схолии инфинитив κατηστερίσθαι грамматически относится к самим лестригонам. Параллель поясняет астрономический образ, но не даёт права молча заменить текст.",
+          "en": "In Eustathius the Laestrygonians are beneath the Dragon’s head, and κατηστερισμένην modifies the head, which is set among the stars above them. In this scholion the infinitive κατηστερίσθαι grammatically refers to the Laestrygonians themselves. The parallel clarifies the astronomical image but does not license a silent change of text.",
+          "source": "Eustathius, Commentarii ad Homeri Odysseam, ed. Stallbaum, I (1825), p.369 (старое деление p.1649): https://archive.org/download/commentariiadhom01eust/page/n378.jpg"
+        }
+      ],
+      "doubts": [
+        {
+          "greek": "κατὰ τὴν τοῦ δράκοντος αὐτοὺς κατηστερίσθαι κεφαλήν",
+          "issue": "Κατηστερίσθαι обычно обозначает помещение среди звёзд; применение к лестригонам странно и не равнозначно простому географическому «находиться под».",
+          "choice": "Сохранён буквальный смысл и греческий термин. Космографическое объяснение, возможная порча и точный смысл κατὰ оставлены открытыми."
+        },
+        {
+          "greek": "τὰ μὲν λάσια ... τὰ δὲ ψιλά",
+          "issue": "Речь о степени покрытия шерстью, а не о полном отсутствии волос.",
+          "choice": "«Густошерстные» и «гладкошерстные»; животные добавлены в скобках, виды не подставлены в основной перевод."
+        },
+        {
+          "greek": "πολλὴν μύωπα καὶ τὸν οἶστρον",
+          "issue": "Названия насекомых употреблены в единственном числе с собирательным смыслом; современная видовая идентификация не обеспечена.",
+          "choice": "Переведено во множественном числе, с сохранением обоих греческих обозначений."
+        }
+      ],
+      "ref": "Σ Od. 10.86",
+      "lemma": "ἐγγὺς γὰρ νυκτός τε καὶ ἤματός εἰσι κέλευθοι",
+      "greek_source": "αἱ νυκτεριναὶ καὶ ἡμεριναὶ νομαὶ ἐγγύς εἰσι τῆς πόλεως. φασὶ δὲ τοὺς Λαιστρυγόνας κατεσχηκέναι τὴν τῶν Λεοντίνων περὶ Σικελίαν χώραν, ἐν ᾗ γεννᾶσθαι πολλὴν μύωπα καὶ τὸν οἶστρον, ὥστε τὰ μὲν λάσια τῇ ἡμέρᾳ νέμεσθαι, τὰ δὲ ψιλὰ τῇ νυκτί. καὶ οὕτως τὸν δυνάμενον ἀγρυπνεῖν δύο μισθοὺς ἀποφέρεσθαι. Κράτης δέ φησι κατὰ τὴν τοῦ δράκοντος αὐτοὺς κατηστερίσθαι κεφαλήν, περὶ ἧς Ἄρατος λέγει «κείνη που κεφαλὴ τῇ νείσεται ἧχί περ ἄκραι μίσγονται δύσιές τε καὶ ἀντολαὶ ἀλλήλῃσιν». ὥστε πλείω μὲν εἶναι τὴν ἡμέραν, ὀλίγην δὲ τὴν νύκτα, ὡς ἀνάπαλιν παρὰ τοῖς Κιμμερίοις. εἴ τις οὖν δύναται διαγρυπνεῖν, διττοὺς κομίζεται μισθούς.",
+      "apparatus_input": "χώραν, ἐν ᾗ γεννᾶσθαι om. H",
+      "sigla": "H.V.",
+      "location": "Dindorf II 453.29–454.8",
+      "collation_status": "checked_against_page_images"
+    },
+    {
+      "set": "B",
+      "id": "appx-11",
+      "greek_established": "",
+      "ru": "Ведь пути ночи и дня близки] Потому что пасущиеся [животные] (τὰ ἔννομα) находятся вокруг города: его окрестности не обрабатываются; у других же городов они находятся в горах и далеко. Поэтому [там] невозможно получить две платы.",
+      "en": "For the paths of night and day are near] Because the grazing [animals] (τὰ ἔννομα) are around the city, since its outskirts are uncultivated; in other cities, however, they are in the mountains and far away. That is why [there] one cannot earn two wages.",
+      "notes": [],
+      "doubts": [
+        {
+          "greek": "τὰ ἔννομα",
+          "issue": "Необычное субстантивированное прилагательное. Возможно, имеется в виду пасущийся скот; возможны также пастбища, но прямого словарного основания для этого существительного не установлено. LSJ, ἔννομος II, связывает слово с νέμομαι и даёт «feeding in, inhabiting».",
+          "choice": "Осторожно переведено «пасущиеся [животные]» и сохранён греческий термин. Альтернатива «места выпаса» допускается по контексту, но не объявляется установленным словарным значением. У Евстафия на pp.368–369 встречается νομαί, без прямого соответствия необычному τὰ ἔννομα. LSJ: https://atlas.perseus.tufts.edu/dictionaries/entry/urn%3Acite2%3Ascaife-viewer%3Adictionaries.v1%3Alsj-n35872/"
+        },
+        {
+          "greek": "διὰ τοῦτο οὐ δύναταί τις δύο μισθοὺς ἆραι",
+          "issue": "При отнесении к городу лестригонов отрицание противоречит гомеровскому стиху; непосредственно перед ним речь идёт о других городах.",
+          "choice": "Отрицание сохранено; добавлено [там], с отнесением заключения к другим городам. Это контекстуальное толкование, а не исправление греческого."
+        }
+      ],
+      "ref": "Σ Od. 10.86",
+      "lemma": "ἐγγὺς γὰρ νυκτός τε καὶ ἤματός εἰσι κέλευθοι",
+      "greek_source": "ὅτι τὰ ἔννομα περὶ τὴν πόλιν διὰ τὸ ἀγεώργητα εἶναι τὰ προάστεια, εἶναι δὲ ταῖς ἄλλαις πόλεσιν ἐν ὄρεσι καὶ πόρρω. διὰ τοῦτο οὐ δύναταί τις δύο μισθοὺς ἆραι.",
+      "apparatus_input": "",
+      "sigla": "T.",
+      "location": "Dindorf II 454.8–11",
+      "collation_status": "checked_against_page_images"
+    },
+    {
+      "set": "B",
+      "id": "appx-12",
+      "greek_established": "",
+      "ru": "Ведь пути ночи и дня близки] Ибо, когда солнце находится на летнем тропике, у северных жителей день самый долгий и ночи нет: ведь ночь длится всего один час, то есть день длится двадцать три часа. Ясно, что у тех, кто живёт севернее, день гораздо длиннее, чем у более южных жителей. Именно об этих местах теперь упоминает и Гомер. Ведь он говорит: «Телепил лестригонский … пася». […] ведь можно работать […] два дня.",
+      "en": "For the paths of night and day are near] For when the sun is on the summer tropic, the people of the north have the longest day and no night: the night lasts only one hour, that is, the day is twenty-three hours long. Clearly, those farther north have a much longer day than those farther south. These are the places Homer now mentions, for he says: “Laestrygonian Telepylus … tending.” […] for a person can work […] two days.",
+      "notes": [
+        {
+          "ru": "У Гемина сходное астрономическое толкование приписано Кратету: самый долгий день в северных местах длится 23 равноденственных часа, ночь — один; ещё севернее день достигает суток. Это точная параллель числам, но не доказательство прямого заимствования схолии.",
+          "en": "Geminus likewise attributes an astronomical interpretation to Crates: in northern regions the longest day lasts twenty-three equinoctial hours and the night one; farther north the day reaches twenty-four hours. This is an exact numerical parallel, not proof that the scholion borrowed directly from Geminus.",
+          "source": "Geminus, Introductio VI.10–14, ed. C. Manitius (1898), p.72.2–25: https://archive.org/download/geminoueisaggeis00gemi/page/n119.jpg"
+        },
+        {
+          "id": "appx-12",
+          "ru": "Печатное тире внутри гомеровской цитаты обозначает редакторское сокращение стихов 82–85, а не утрату текста. Два обрывка слов в заключительном предложении, напротив, напечатаны как повреждённые места.",
+          "en": "The dash within the Homeric quotation is an editorial abbreviation of lines 82–85, not a textual lacuna. The two broken words in the final sentence, by contrast, are printed as damaged passages.",
+          "source": "Dindorf II 454.17–18 and apparatus ad 17."
+        }
+      ],
+      "doubts": [
+        {
+          "greek": "καὶ μὴ ἔχειν νύκτα· τὴν γὰρ νύκτα μόνον μιᾶς ὥρας διάστημα εἶναι",
+          "issue": "Заявления об отсутствии ночи и о ночи длительностью один час буквально не согласуются.",
+          "choice": "Несогласованность сохранена; не внесено «почти нет ночи», которого в греческом нет."
+        },
+        {
+          "greek": "μεγίστη τῶν νοτιωτέρων ἡμέρα",
+          "issue": "Превосходная степень μεγίστη сочетается с родительным сравнения.",
+          "choice": "Передан сравнительный смысл «гораздо длиннее», без утверждения о строго определённой широте."
+        },
+        {
+          "greek": "τηλέπυλον Λαιστρυγονίην — νομεύων",
+          "issue": "Цитата сокращена самим Диндорфом, а не составителем входного файла. Аппарат сообщает: P читает τηλέκλυτον, а далее вплоть до νομεύων согласуется с общепринятым текстом.",
+          "choice": "Сохранено печатное сокращение; в переводах оно отмечено обычным многоточием, в отличие от […] для повреждённых мест. Вариант P «славный вдали» / “far-famed” указан здесь, основной текст не заменён."
+        },
+        {
+          "greek": "‥ὶ γὰρ δύναταί τις δουλεῦσαι ‥ὰ δύο ἡμέρας",
+          "issue": "В двух местах сохранились лишь окончания слов; ни союз перед γὰρ, ни предлог или иная форма перед δύο надёжно не читаются.",
+          "choice": "Оба места отмечены […]; «за два дня», «два дня подряд» и реконструкции εἰ / διὰ не введены."
+        }
+      ],
+      "ref": "Σ Od. 10.86",
+      "lemma": "ἐγγὺς γὰρ νυκτός τε καὶ ἤματός εἰσι κέλευθοι",
+      "greek_source": "τοῦ γὰρ ἡλίου ὄντος ἐν θερινῷ τροπικῷ τοὺς ἀρκτῴους ἀνθρώπους μεγίστην τὴν ἡμέραν ἔχειν, καὶ μὴ ἔχειν νύκτα· τὴν γὰρ νύκτα μόνον μιᾶς ὥρας διάστημα εἶναι, τουτέστι τὴν ἡμέραν εἶναι κγ΄ ὡρῶν. δῆλον δὲ ὅτι τοῖς βορειοτέροις μεγίστη τῶν νοτιωτέρων ἡμέρα. περὶ τούτων καὶ Ὅμηρος τῶν τόπων μνημονεύει νῦν. φησὶ γὰρ ὅτι «τηλέπυλον Λαιστρυγονίην — νομεύων». ‥ὶ γὰρ δύναταί τις δουλεῦσαι ‥ὰ δύο ἡμέρας.",
+      "apparatus_input": "τὴν γὰρ νύκτα addidit Buttm. · τηλέκλυτον P (стихи 82–85, до νομεύων, приведены полностью)",
+      "sigla": "P.",
+      "location": "Dindorf II 454.12–18",
+      "collation_status": "checked_against_page_images"
+    }
+  ],
+  "names": [
+    {
+      "greek": "Αἰολίη / Αἰολία",
+      "ru": "Эолийский остров; Эолия",
+      "en": "Aeolian island; Aeolia",
+      "note": "В гомеровской строке прилагательное, в схолиях также название острова."
+    },
+    {
+      "greek": "Αἴολος",
+      "ru": "Эол",
+      "en": "Aeolus",
+      "note": "Трое носителей имени в генеалогии не отождествлены."
+    },
+    {
+      "greek": "Ἱππότης / Ἱπποτάδης",
+      "ru": "Гиппот / сын Гиппота",
+      "en": "Hippotes / son of Hippotes",
+      "note": "Патронимик в строке переведён, а не транслитерирован; о сложной генеалогии см. s2."
+    },
+    {
+      "greek": "Ὀδυσσεύς",
+      "ru": "Одиссей",
+      "en": "Odysseus",
+      "note": ""
+    },
+    {
+      "greek": "Σικελία",
+      "ru": "Сицилия",
+      "en": "Sicily",
+      "note": ""
+    },
+    {
+      "greek": "Ἰταλία",
+      "ru": "Италия",
+      "en": "Italy",
+      "note": ""
+    },
+    {
+      "greek": "Λωτοφάγοι",
+      "ru": "лотофаги",
+      "en": "Lotus-eaters",
+      "note": ""
+    },
+    {
+      "greek": "Ἀκραγαντῖνοι",
+      "ru": "акрагантяне",
+      "en": "inhabitants of Acragas",
+      "note": "Жители Акраганта."
+    },
+    {
+      "greek": "Καμαριναῖοι",
+      "ru": "камаринцы",
+      "en": "Camarinaeans",
+      "note": "Жители Камарины."
+    },
+    {
+      "greek": "Κύκλωπες",
+      "ru": "киклопы",
+      "en": "Cyclopes",
+      "note": "Форма «киклопы» принята для гомеровского текста."
+    },
+    {
+      "greek": "Λεοντῖνοι",
+      "ru": "Леонтины; леонтинцы",
+      "en": "Leontini; Leontines",
+      "note": "Город и его жители различены."
+    },
+    {
+      "greek": "Στρογγύλη",
+      "ru": "Стронгила",
+      "en": "Strongyle",
+      "note": "Античное название сохранено."
+    },
+    {
+      "greek": "Διδύμη",
+      "ru": "Дидима",
+      "en": "Didyme",
+      "note": ""
+    },
+    {
+      "greek": "Ἱερά",
+      "ru": "Гиера",
+      "en": "Hiera",
+      "note": "Остров, а не перевод прилагательного «священная»."
+    },
+    {
+      "greek": "Ἱκεσία",
+      "ru": "Икесия",
+      "en": "Hicesia",
+      "note": "Редкое имя сохранено по Диндорфу; не исправлено по другому перечню островов."
+    },
+    {
+      "greek": "Λιπάρα",
+      "ru": "Липара",
+      "en": "Lipara",
+      "note": ""
+    },
+    {
+      "greek": "Ἐρικοῦσσα",
+      "ru": "Эрикусса",
+      "en": "Ericussa",
+      "note": ""
+    },
+    {
+      "greek": "Φοινικοῦσσα",
+      "ru": "Финикусса",
+      "en": "Phoenicussa",
+      "note": ""
+    },
+    {
+      "greek": "Τυρρηνικὸν πέλαγος",
+      "ru": "Тирренское море",
+      "en": "Tyrrhenian Sea",
+      "note": ""
+    },
+    {
+      "greek": "Ἕλλην",
+      "ru": "Эллин",
+      "en": "Hellen",
+      "note": "Мифический предок, не этноним."
+    },
+    {
+      "greek": "Μελανίππη",
+      "ru": "Меланиппа",
+      "en": "Melanippe",
+      "note": ""
+    },
+    {
+      "greek": "Ποσειδῶν",
+      "ru": "Посейдон",
+      "en": "Poseidon",
+      "note": ""
+    },
+    {
+      "greek": "Ἄρνη",
+      "ru": "Арна",
+      "en": "Arne",
+      "note": ""
+    },
+    {
+      "greek": "Ἀσκληπιάδης",
+      "ru": "Асклепиад",
+      "en": "Asclepiades",
+      "note": "Город происхождения не установлен."
+    },
+    {
+      "greek": "Ῥήγιον",
+      "ru": "Регий",
+      "en": "Rhegium",
+      "note": "Античное название города."
+    },
+    {
+      "greek": "ταῦρος",
+      "ru": "Телец",
+      "en": "Taurus",
+      "note": "Астрономическое обозначение."
+    },
+    {
+      "greek": "κύων",
+      "ru": "Пёс",
+      "en": "the Dog",
+      "note": "Астрономическое обозначение; отождествление с Сириусом не навязано."
+    },
+    {
+      "greek": "ζέφυρος",
+      "ru": "зефир",
+      "en": "west wind",
+      "note": "Название западного ветра; в тексте не обязательно олицетворение."
+    },
+    {
+      "greek": "Ἀμακλείδης",
+      "ru": "Амаклид",
+      "en": "Amacleides",
+      "note": "Форма Ἀμακλείδην в печати Диндорфа; не нормализована к вариантам в иных источниках."
+    },
+    {
+      "greek": "Πρωτοκλῆς",
+      "ru": "Протокл",
+      "en": "Protocles",
+      "note": ""
+    },
+    {
+      "greek": "Πρωτοκρέων",
+      "ru": "Протокреонт",
+      "en": "Protocreon",
+      "note": "Основное чтение Диндорфа по Цецу, против Πρωκρέοντα P."
+    },
+    {
+      "greek": "Ὀρφεύς",
+      "ru": "Орфей",
+      "en": "Orpheus",
+      "note": "Авторитет, названный в схолии; авторство не устанавливается переводом."
+    },
+    {
+      "greek": "Ἰόκαστος",
+      "ru": "Иокаст",
+      "en": "Iocastus",
+      "note": "Не Иокаста."
+    },
+    {
+      "greek": "Καλλίμαχος",
+      "ru": "Каллимах",
+      "en": "Callimachus",
+      "note": ""
+    },
+    {
+      "greek": "Ἀρίσταρχος",
+      "ru": "Аристарх",
+      "en": "Aristarchus",
+      "note": "Самофракийский."
+    },
+    {
+      "greek": "Δῆλος / Δᾶλος",
+      "ru": "Делос",
+      "en": "Delos",
+      "note": "Δᾶλος — диалектная форма в цитате."
+    },
+    {
+      "greek": "Πίνδαρος",
+      "ru": "Пиндар",
+      "en": "Pindar",
+      "note": ""
+    },
+    {
+      "greek": "Λάμος",
+      "ru": "Лам",
+      "en": "Lamus",
+      "note": "В Hom.10.81 имя в родительном; в appx-2 употреблено как название города."
+    },
+    {
+      "greek": "Τηλέπυλος / Τηλέπυλον",
+      "ru": "Телепил",
+      "en": "Telepylus",
+      "note": "В переводе гомеровской строки принято собственное имя; appx-1 сохраняет конкурирующее толкование как эпитета."
+    },
+    {
+      "greek": "Λαιστρυγόνες",
+      "ru": "лестригоны",
+      "en": "Laestrygonians",
+      "note": ""
+    },
+    {
+      "greek": "Λαιστρυγονίη",
+      "ru": "Лестригония; лестригонский",
+      "en": "Laestrygonia; Laestrygonian",
+      "note": "По контексту — название страны или прилагательное."
+    },
+    {
+      "greek": "Κράτης",
+      "ru": "Кратет",
+      "en": "Crates",
+      "note": "Грамматик Кратет из Малла."
+    },
+    {
+      "greek": "Ἄρατος",
+      "ru": "Арат",
+      "en": "Aratus",
+      "note": "Автор «Явлений»."
+    },
+    {
+      "greek": "δράκων",
+      "ru": "Дракон",
+      "en": "Draco / the Dragon",
+      "note": "В астрономическом контексте название созвездия."
+    },
+    {
+      "greek": "Κιμμέριοι",
+      "ru": "киммерийцы",
+      "en": "Cimmerians",
+      "note": ""
+    },
+    {
+      "greek": "Ὅμηρος",
+      "ru": "Гомер",
+      "en": "Homer",
+      "note": ""
+    }
+  ],
+  "text_issues": [
+    {
+      "set": "A",
+      "id": "s1",
+      "file_reading": "Λεοντίνους, τὰς δὲ ... λέγουσιν. [общая сигла B Q V]",
+      "dindorf_reading": "Λεοντίνους. B.Q.V. τὰς δὲ ... λέγουσιν. V.",
+      "evidence": "Dindorf II 444.3–7; https://archive.org/download/scholiagraeodyss02homeuoft/page/n47.jpg. Разграничены свидетельства: список островов и последнее предложение относятся только к V."
+    },
+    {
+      "set": "A",
+      "id": "s1",
+      "file_reading": "apparatus: []",
+      "dindorf_reading": "οἱ δέ] τινὲς δὲ P., omisso λέγοντες.",
+      "evidence": "Dindorf II 444.1 (apparatus); https://archive.org/download/scholiagraeodyss02homeuoft/page/n47.jpg. Восстановлена отсутствующая запись аппарата."
+    },
+    {
+      "set": "A",
+      "id": "s1",
+      "file_reading": "apparatus: []",
+      "dindorf_reading": "После Φοινικοῦσσαν в источниках был неуместно вставлен фрагмент τινὲς δὲ ἀλληγοροῦντες — προστασσόμενοι; Буттман отсылает ниже к стиху 6.",
+      "evidence": "Dindorf II 444.6 (apparatus); https://archive.org/download/scholiagraeodyss02homeuoft/page/n47.jpg. Это сообщение о перемещённом тексте, не предложение вставить его обратно в s1."
+    },
+    {
+      "set": "A",
+      "id": "s2",
+      "file_reading": "sigla: H Q (to be checked)",
+      "dindorf_reading": "Генеалогическая выдержка заканчивается Q.; приписка заключена в [ ... P.].",
+      "evidence": "Dindorf II 444.17–23; https://archive.org/download/scholiagraeodyss02homeuoft/page/n47.jpg. H фигурирует в аппарате более ранней части большой схолии; в конце именно выбранной выдержки напечатано Q. Приписка P поздняя."
+    },
+    {
+      "set": "A",
+      "id": "s2",
+      "file_reading": "[конец приписки после δεσπότην ἀνέμων.]",
+      "dindorf_reading": "Продолжение от ὁμοίως δὲ καὶ τὸν Ἀμακλείδην до ἄκων τοῖς ἀνέμοις φορούμενος. P.]",
+      "evidence": "Dindorf II 445.5–23; https://archive.org/download/scholiagraeodyss02homeuoft/page/n48.jpg. Незаявленное сокращение: продолжение восстановлено полностью в greek_established и в обоих переводах. В соседнюю отдельную схолию V об «Эолах двух» перевод не расширен."
+    },
+    {
+      "set": "A",
+      "id": "s2",
+      "file_reading": "ἐν Ταύρῳ ... Κυνὸς",
+      "dindorf_reading": "ἐν ταύρῳ ... κυνὸς",
+      "evidence": "Dindorf II 445.2–4; https://archive.org/download/scholiagraeodyss02homeuoft/page/n48.jpg. В печати строчные буквы. Это типографическое различие, не смысловая ошибка."
+    },
+    {
+      "set": "A",
+      "id": "s2",
+      "file_reading": "apparatus: []",
+      "dindorf_reading": "τὸν Ὀδυσσέα ἐλθεῖν addidit Buttm.; τὸ] τῷ Q.",
+      "evidence": "Dindorf II 444.20 (apparatus); https://archive.org/download/scholiagraeodyss02homeuoft/page/n47.jpg. Указаны редакционное восполнение и вариант местоименно-артиклевой формы."
+    },
+    {
+      "set": "A",
+      "id": "s2",
+      "file_reading": "apparatus: []",
+      "dindorf_reading": "Приписка до Αἰολίδαο взята из Tzetzes, Comm. ad Lycophr.738; P содержит её рукой более позднего времени. μὲν] βασιλεύς Tzetzes.",
+      "evidence": "Dindorf II 444.23 (apparatus); https://archive.org/download/scholiagraeodyss02homeuoft/page/n47.jpg. Происхождение установлено по замечанию Буттмана у Диндорфа, без независимой колляции Цецa."
+    },
+    {
+      "set": "A",
+      "id": "s2",
+      "file_reading": "apparatus: []",
+      "dindorf_reading": "περὶ Tzetzes. παρὰ P.",
+      "evidence": "Dindorf II 445.1 (apparatus); https://archive.org/download/scholiagraeodyss02homeuoft/page/n48.jpg."
+    },
+    {
+      "set": "A",
+      "id": "s2",
+      "file_reading": "apparatus: []",
+      "dindorf_reading": "ὡς τυχὸν ἐν] εἰ ἐν Tzetzes, unde εἰ addidi.",
+      "evidence": "Dindorf II 445.2 (apparatus); https://archive.org/download/scholiagraeodyss02homeuoft/page/n48.jpg. В основном тексте Диндорфа ὡς εἰ τυχὸν ἐν; дополнение εἰ не было отмечено во входном файле."
+    },
+    {
+      "set": "A",
+      "id": "s2",
+      "file_reading": "apparatus: []",
+      "dindorf_reading": "ἔσται πνέων Tzetzes. ἔσεσθαι πλέων P.",
+      "evidence": "Dindorf II 445.3 (apparatus); https://archive.org/download/scholiagraeodyss02homeuoft/page/n48.jpg."
+    },
+    {
+      "set": "A",
+      "id": "s2",
+      "file_reading": "[продолжение и аппарат отсутствуют]",
+      "dindorf_reading": "Πρωτοκρέοντα Tzetzes. Πρωκρέοντα P.; Ὀρφεύς: fr.Orph.53, Suidas s.v.τριτοπάτορες, Etym.M.768.1.",
+      "evidence": "Dindorf II 445.6 (apparatus); https://archive.org/download/scholiagraeodyss02homeuoft/page/n48.jpg. Запись относится к восстановленному продолжению; номера фрагментов — используемые Диндорфом."
+    },
+    {
+      "set": "A",
+      "id": "s2",
+      "file_reading": "[продолжение и аппарат отсутствуют]",
+      "dindorf_reading": "Καλλίμαχος: fr.202, из данного места Цецa и ad Lycophr.45.",
+      "evidence": "Dindorf II 445.15 (apparatus); https://archive.org/download/scholiagraeodyss02homeuoft/page/n48.jpg. Нумерация фрагмента передана по аппарату, не отождествлена с современной."
+    },
+    {
+      "set": "A",
+      "id": "s2",
+      "file_reading": "[продолжение и аппарат отсутствуют]",
+      "dindorf_reading": "ὁ γάρ —: дальнейший текст заимствован из другого источника, не относится к предыдущей схолии и составляет содержание песни (Buttm.).",
+      "evidence": "Dindorf II 445.16 (apparatus); https://archive.org/download/scholiagraeodyss02homeuoft/page/n48.jpg. Сам Диндорф всё же печатает его внутри приписки P; поэтому оно сохранено и переведено."
+    },
+    {
+      "set": "A",
+      "id": "s3",
+      "file_reading": "ῥιπαῖσιν",
+      "dindorf_reading": "ῥιπαῖς",
+      "evidence": "Dindorf II 446.3; https://archive.org/download/scholiagraeodyss02homeuoft/page/n49.jpg. Исправлена словоформа в цитате Пиндара."
+    },
+    {
+      "set": "A",
+      "id": "s3",
+      "file_reading": "[вторая часть начинается сразу ὁ δὲ Ἀρίσταρχος]",
+      "dindorf_reading": "Ἄλλως. ἐν πλεομένοις τόποις κειμένῃ ὅτι εἰσὶ νῆσοι πλησίον ἠπείρου κείμεναι τὸ πρὸς τῇ ἠπείρῳ μέρος ἔχουσαι ὑφάλων πετρῶν πλῆρες, αἳ οὐ δύνανται περιπλέεσθαι. ὁ δὲ Ἀρίσταρχος ...",
+      "evidence": "Dindorf II 446.7–10; https://archive.org/download/scholiagraeodyss02homeuoft/page/n49.jpg. Восстановлено пропущенное начало выбранной схолии Q и переведено. Отдельная следующая схолия T (446.11–14) во входной выборке не представлена и не добавлена."
+    },
+    {
+      "set": "A",
+      "id": "s3",
+      "file_reading": "apparatus: []",
+      "dindorf_reading": "ἔνιοι] ἔνιστε V.; οἷον] οἱ δὲ H.Q.",
+      "evidence": "Dindorf II 445.24 (apparatus); https://archive.org/download/scholiagraeodyss02homeuoft/page/n48.jpg."
+    },
+    {
+      "set": "A",
+      "id": "s3",
+      "file_reading": "apparatus: []",
+      "dindorf_reading": "νῆσον] νήσους Q., отнесено к следующему; ἢ ἐπιθετικῶς—Αἰολίην om.V.; ἢ ἐπιθετικῶς H., δὲ ἐπιθετικῶς Q.T.; Αἰολίαν H.T., αἰολίην Q.V.",
+      "evidence": "Dindorf II 445.25 (apparatus); https://archive.org/download/scholiagraeodyss02homeuoft/page/n48.jpg. Сохранена в том числе внутренняя особенность аппарата: в обозначении опущенного отрезка стоит Αἰολίην, а основной текст печатает Αἰολίαν."
+    },
+    {
+      "set": "A",
+      "id": "s3",
+      "file_reading": "apparatus: []",
+      "dindorf_reading": "πλωτῇ om.H.; ἀντὶ τοῦ addidi ex T.",
+      "evidence": "Dindorf II 445.26 (apparatus); https://archive.org/download/scholiagraeodyss02homeuoft/page/n48.jpg."
+    },
+    {
+      "set": "A",
+      "id": "s3",
+      "file_reading": "apparatus: []",
+      "dindorf_reading": "περιφερομένῃ] παραφερομένῃ T.; Eustathius1644.52: παραφερομένην, с дополнением ἢ συνεχείᾳ σεισμῶν ἢ ἄλλως ὁπωσοῦν; ὡς H. et Eustathius, ὥστε Q.T.",
+      "evidence": "Dindorf II 445.26 (apparatus on p446); https://archive.org/download/scholiagraeodyss02homeuoft/page/n49.jpg. Цитата Евстафия проверена как запись Диндорфа."
+    },
+    {
+      "set": "A",
+      "id": "s3",
+      "file_reading": "apparatus: []",
+      "dindorf_reading": "Πίνδαρος] Fragm.58; φορητά] φορητὴ T.; Δᾶλος H.M. et Eustathius, αἰλὸς T. (с κυματέσσιν), δῆλος Q.",
+      "evidence": "Dindorf II 446.2–3 (apparatus); https://archive.org/download/scholiagraeodyss02homeuoft/page/n49.jpg. Формы воспроизведены по аппарату; нумерация Пиндара историческая."
+    },
+    {
+      "set": "A",
+      "id": "s3",
+      "file_reading": "apparatus: []",
+      "dindorf_reading": "Δᾶλος нарушает метр, отсутствует у Страбона 10 C485 и, по Диндорфу, внесено схолиастом из предшествующего контекста Пиндара; τ’ addidi ex editionibus Strabonis, cuius codices id omittunt.",
+      "evidence": "Dindorf II 446.3 (apparatus); https://archive.org/download/scholiagraeodyss02homeuoft/page/n49.jpg. Эти замечания не служат основанием удалить Δᾶλος из перевода самой схолии."
+    },
+    {
+      "set": "A",
+      "id": "s3",
+      "file_reading": "apparatus: []",
+      "dindorf_reading": "ὑπ’ ἀ.] ὑπὸ τῶν ἀ. H.Q., не Eustathius; следующее τῆς om.T.; ὁ addidi ex H. et Eustathio; Ἄλλως: Eustathius также извлёк эту схолию с небольшими изменениями.",
+      "evidence": "Dindorf II 446.4–7 (apparatus); https://archive.org/download/scholiagraeodyss02homeuoft/page/n49.jpg."
+    },
+    {
+      "set": "A",
+      "id": "s4",
+      "file_reading": "περιβόλου τάξιν ἐπέχουσα",
+      "dindorf_reading": "περιβολῆς τάξιν ἐπέχουσα",
+      "evidence": "Dindorf II 446.18; https://archive.org/download/scholiagraeodyss02homeuoft/page/n49.jpg. Исправлена подмена существительного. Περιβόλου действительно стоит, но в соседней, не выбранной схолии T на λισσὴ δὲ πέτρη, 446.19."
+    },
+    {
+      "set": "A",
+      "id": "s4",
+      "file_reading": "Сначала χάλκεον ἄρρηκτον B Q, затем χάλκεον V",
+      "dindorf_reading": "Сначала χάλκεον V (446.15–16), затем χάλκεον ἄρρηκτον B Q (446.17–18)",
+      "evidence": "Dindorf II 446.15–18; https://archive.org/download/scholiagraeodyss02homeuoft/page/n49.jpg. Это перестановка частей во входном файле. Для соответствия требованию порядка файла последовательность частей в результате сохранена, сиглы распределены явно."
+    },
+    {
+      "set": "B",
+      "id": "appx-4",
+      "file_reading": "«ὅσον τε γέγωνε βοήσας».",
+      "dindorf_reading": "«ὅσον τε γέγωνε βοήσας» (ι, 473.).",
+      "evidence": "Dindorf II 453.4–5, https://archive.org/download/scholiagraeodyss02homeuoft/page/n56.jpg. В файле опущена редакторская отсылка к Od. 9.473; словесный текст самой схолии не повреждён."
+    },
+    {
+      "set": "B",
+      "id": "appx-4",
+      "file_reading": "ἀκούεσθαι] ἐξακούεσθαι V",
+      "dindorf_reading": "ἀκούεσθαι] ἐξακούεσθαι V. partem hujus scholii exhibens ὅπου οἱ νομεῖς ἀλλήλους—ἐξελαύνοντες.",
+      "evidence": "Dindorf II 453, apparatus ad line 3, https://archive.org/download/scholiagraeodyss02homeuoft/page/n56.jpg. Выборочный аппарат опускает сообщение, что V содержит лишь часть схолии, с указанными началом и концом."
+    },
+    {
+      "set": "B",
+      "id": "appx-12",
+      "file_reading": "τηλέκλυτον P (стихи 82–85, до νομεύων, приведены полностью)",
+      "dindorf_reading": "τηλέπυλον] τηλέκλυτον P. qui in verbis ceteris usque ad νομεύων cum textu vulgato consentit.",
+      "evidence": "Dindorf II 454, apparatus ad line 17, https://archive.org/download/scholiagraeodyss02homeuoft/page/n57.jpg. Это уточнение атрибуции, не лексическая ошибка: рукопись P имеет τηλέκλυτον и в прочем до νομεύων согласна с общепринятым гомеровским текстом; в основном тексте сам Диндорф сокращает цитату до τηλέπυλον Λαιστρυγονίην—νομεύων. Нельзя выдавать тире в печати за лакуну рукописи."
+    }
+  ],
+  "collation": {
+    "method": "Пословная визуальная сверка выбранных греческих текстов и относящихся к ним записей аппарата с фотографиями страниц Диндорфа. OCR использовался лишь как вспомогательное средство поиска внешних параллелей, не вместо колляции.",
+    "scans": [
+      {
+        "page": 443,
+        "url": "https://archive.org/download/scholiagraeodyss02homeuoft/page/n46.jpg"
+      },
+      {
+        "page": 444,
+        "url": "https://archive.org/download/scholiagraeodyss02homeuoft/page/n47.jpg"
+      },
+      {
+        "page": 445,
+        "url": "https://archive.org/download/scholiagraeodyss02homeuoft/page/n48.jpg"
+      },
+      {
+        "page": 446,
+        "url": "https://archive.org/download/scholiagraeodyss02homeuoft/page/n49.jpg"
+      },
+      {
+        "page": 452,
+        "url": "https://archive.org/download/scholiagraeodyss02homeuoft/page/n55.jpg"
+      },
+      {
+        "page": 453,
+        "url": "https://archive.org/download/scholiagraeodyss02homeuoft/page/n56.jpg"
+      },
+      {
+        "page": 454,
+        "url": "https://archive.org/download/scholiagraeodyss02homeuoft/page/n57.jpg"
+      }
+    ],
+    "B_verification": [
+      {
+        "id": "appx-1",
+        "page_line": "452.20–24",
+        "sigla": "V; B.Q.T.",
+        "result": "Слова и значимые диакритические знаки совпадают. Аппарат к этому месту отсутствует."
+      },
+      {
+        "id": "appx-2",
+        "page_line": "452.25–27",
+        "sigla": "V; H.",
+        "result": "Совпадает; аппарат отсутствует."
+      },
+      {
+        "id": "appx-3",
+        "page_line": "452.28–30",
+        "sigla": "B; V.",
+        "result": "Совпадает; аппарат отсутствует."
+      },
+      {
+        "id": "appx-4",
+        "page_line": "452.31–453.5",
+        "sigla": "B.Q.",
+        "result": "Греческие слова совпадают. Опущена редакторская ссылка ι,473. Частично сокращено описание V в аппарате."
+      },
+      {
+        "id": "appx-5",
+        "page_line": "453.6",
+        "sigla": "Q.",
+        "result": "Совпадает: προσαγορεύει, φωνεῖ."
+      },
+      {
+        "id": "appx-6",
+        "page_line": "453.7",
+        "sigla": "N.",
+        "result": "Совпадает: лемма ἄοκνος, при ней γρ. ἄυπνος. Это реальный вариант, не ошибка файла."
+      },
+      {
+        "id": "appx-7",
+        "page_line": "453.8–12",
+        "sigla": "B.",
+        "result": "Совпадает, включая многоточие после φησί (стр.10). Аппарат p453.8 действительно говорит, что νυκτός, πολέμιος, βόσκων стёрты в B и восполнены из Eustathius p1648.42."
+      },
+      {
+        "id": "appx-8",
+        "page_line": "453.13–14",
+        "sigla": "H.",
+        "result": "Совпадает."
+      },
+      {
+        "id": "appx-9",
+        "page_line": "453.15–28",
+        "sigla": "H.Q.",
+        "result": "Слова совпадают; [a–c] — добавленное в файле структурное членение. Все четыре приведённые записи аппарата соответствуют печати: p453.16 παρελεύσει H / παρακελεύσει Q; .19 τῶν Buttm. pro τοῖς; .21 Aratus 61 и схолиаст; .25 ταῖς—κελεύθοις om. Q."
+      },
+      {
+        "id": "appx-10",
+        "page_line": "453.29–454.8",
+        "sigla": "H.V.",
+        "result": "Совпадает, в том числе κατηστερίσθαι и необычное πολλὴν μύωπα. Аппарат p454.1 точно: χώραν, ἐν ᾗ γεννᾶσθαι om. H."
+      },
+      {
+        "id": "appx-11",
+        "page_line": "454.8–11",
+        "sigla": "T.",
+        "result": "Совпадает: τὰ ἔννομα и отрицание οὐ действительно напечатаны. Не исправлять οὐ без оговорки; контекстом служат другие города."
+      },
+      {
+        "id": "appx-12",
+        "page_line": "454.12–18",
+        "sigla": "P.",
+        "result": "Совпадает, в том числе μεγίστη (не сравнительная степень) и фрагменты ..ὶ / ..ὰ в конце. τὴν γὰρ νύκτα — дополнение Buttmann, как в аппарате .13. Уточнение об объёме гомеровской цитаты и варианте τηλέκλυτον дано ниже."
+      }
+    ]
+  },
+  "summary": "Переведены все шестнадцать блоков схолий и одиннадцать гомеровских строк независимо на русский и английский. Главной текстологической трудностью набора A оказались не только две подмены словоформ, но и необозначенные сокращения приписки P и второй схолии Q; эти части восстановлены по печати. Генеалогия s2 оставлена в пределах явно заявленной исходной выдержки. В первую очередь редактору следует проверить φυλάσσει τὸ εἰπεῖν в s2, синтаксис расстояния у ворот в appx-4 и альтернативу о сне днём в конце appx-9. Буквальное κατηστερίσθαι в appx-10 сохранено и не сведено без оговорки к земной широте. Для τὰ ἔννομα в appx-11 выбран осторожный перевод «пасущиеся [животные]», а возможность значения «места выпаса» оставлена в сомнениях. В последней схолии не устранено противоречие между отсутствием ночи и её одночасовой длительностью; два повреждённых слова не восстановлены догадкой. Проверенные параллели Гемина и схолий к Арату свидетельствуют о разных численных схемах, которые нельзя смешивать. Гомеровский текст принят из входного файла без завершённой независимой колляции Perseus, а точный суффикс модели недоступен и потому не выдуман."
+}

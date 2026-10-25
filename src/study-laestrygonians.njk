@@ -8,11 +8,33 @@ status: "preprint"
 version: "0.3"
 updated: "25.10.2026"
 scripts: ["study-laestrygonians"]
+card:
+  order: 2
+  section: "Исследования · Схолии"
+  sectionHref: "studies.html"
+  title: "Пергам против Александрии? Кратет, Аристарх и «короткие ночи» лестригонов"
+  summary: "Препринт: что античные толкователи вычитывали из Од. 10.86 «ибо близки пути ночи и дня» и как Кратет связал этот стих со стихом Арата о голове Дракона. С переводом схолий и интерактивным расчётом."
+versions:
+  - version: "0.3"
+    date: "25.10.2026"
+    at: "2026-10-25T19:33"
+    short: "правки по рецензии GPT-6 Astra (OpenAI)"
+    text: "Правки по рецензии GPT-6 Astra (OpenAI): условные формулировки в аннотациях и выводах (длинная редакция схолии к Арату, Аристарх, спор о κ 190, связь HQ с Евстафием), Гемин 16.22–23, порог рисунка, синхронизация досье, греческий текст приложения в article.md."
+  - version: "0.2"
+    date: "25.10.2026"
+    at: "2026-10-25T16:32"
+    short: "правки по рецензии GPT-6.1 Sol (OpenAI)"
+    text: "Правки по внешней рецензии GPT-6.1 Sol (OpenAI) и её проверке: новизна, раздел 4 о схолии к Арату, раздел 5 об Аристархе, перевод конца HQ, рисунок, полная библиография. Текст страницы теперь берётся из article.md."
+  - version: "0.1"
+    date: "25.10.2026"
+    at: "2026-10-25T14:10"
+    short: "первый препринт, подготовлен агентами Claude Opus 5.5"
+    text: "Первый препринт, подготовлен агентами Claude Opus 5.5 (Anthropic, режим Ultracode): текст, перевод схолий к 10.82–86, расчёты, досье источников; правки после проверки фактчекером и рецензентом."
 mock: "<b>Макет страницы статьи.</b> Содержание настоящее. Версия 0.1 подготовлена агентами Claude Opus 5.5 (режим Ultracode); версия 0.2 учитывает рецензию GPT-6.1 Sol (OpenAI), версия 0.3 — рецензию GPT-6 Astra (OpenAI). Автор текст ещё не вычитал. Греческий текст схолий дан по Диндорфу (1855), без сверки с изданием Понтани."
 ---
 {%- set art = "research/studies/laestrygonians/article.md" | article({"dossier.md": "laestrygonians-dossier.md"}) -%}
 <main id="top">
-    <div class="crumbs"><a href="index.html">Библиотека</a> › <a href="studies.html">Исследования</a> › Статьи по текстам</div>
+    <div class="crumbs"><a href="index.html">Главная</a> › <a href="studies.html">Исследования</a> › Статьи по текстам</div>
 
     <header class="mast">
       <p class="kicker">Статья по тексту · Схолии · Препринт</p>
@@ -108,7 +130,7 @@ mock: "<b>Макет страницы статьи.</b> Содержание н�
           </div>
 
           {%- for x in art.appendix %}
-          <div class="sch">
+          <div class="sch" id="appx-{{ loop.index }}">
             <div class="sch-head"><span class="sch-ref">{{ x.ref }}</span>{% if x.lemma %}<span class="lemma" lang="grc">{{ x.lemma }}</span>{% endif %}{% for c in x.chips %}<span class="chip{% if c.who %} who{% endif %}">{{ c.text }}</span>{% endfor %}</div>
             <div class="pair">
               <p class="g" lang="grc">{{ x.greek | safe }}</p>
@@ -189,9 +211,9 @@ mock: "<b>Макет страницы статьи.</b> Содержание н�
             <caption>История версий</caption>
             <thead><tr><th scope="col">Версия</th><th scope="col">Дата</th><th scope="col">Что изменилось</th></tr></thead>
             <tbody>
-              <tr><td>0.3</td><td class="num">25.10.2026</td><td>Правки по рецензии GPT-6 Astra (OpenAI): условные формулировки в аннотациях и выводах (длинная редакция схолии к Арату, Аристарх, спор о κ 190, связь HQ с Евстафием), Гемин 16.22–23, порог рисунка, синхронизация досье, греческий текст приложения в article.md.</td></tr>
-              <tr><td>0.2</td><td class="num">25.10.2026</td><td>Правки по внешней рецензии GPT-6.1 Sol (OpenAI) и её проверке: новизна, раздел 4 о схолии к Арату, раздел 5 об Аристархе, перевод конца HQ, рисунок, полная библиография. Текст страницы теперь берётся из article.md.</td></tr>
-              <tr><td>0.1</td><td class="num">25.10.2026</td><td>Первый препринт, подготовлен агентами Claude Opus 5.5 (Anthropic, режим Ultracode): текст, перевод схолий к 10.82–86, расчёты, досье источников; правки после проверки фактчекером и рецензентом.</td></tr>
+              {%- for v in versions %}
+              <tr><td>{{ v.version }}</td><td class="num">{{ v.date }}</td><td>{{ v.text | safe }}</td></tr>
+              {%- endfor %}
             </tbody>
           </table>
         </div>

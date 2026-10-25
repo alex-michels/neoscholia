@@ -1,0 +1,2505 @@
+{
+ "entries": [
+  {
+   "id": "nectanebo",
+   "ru": "Нектанеб",
+   "en": "Nectanebo",
+   "orig": "Nectanabus; Νεκτανεβώς",
+   "kind": "person",
+   "gloss_ru": "последний фараон Египта (Нектанеб II), в романе — маг и отец Александра",
+   "gloss_en": "last native pharaoh of Egypt (Nectanebo II); in the Romance a magician and Alexander’s father",
+   "wikidata": "Q313126",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Нектанеб(?:а|у|ом|е)?(?![а-яё])"
+    ],
+    "en": [
+     "Nectanebo"
+    ],
+    "la": [
+     "Nectanab(?:us|i|o|um)(?![a-z])"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "olympias",
+   "ru": "Олимпиада",
+   "en": "Olympias",
+   "orig": "Olympias; Ὀλυμπιάς",
+   "kind": "person",
+   "gloss_ru": "царица Македонии, жена Филиппа II, мать Александра",
+   "gloss_en": "queen of Macedon, wife of Philip II and mother of Alexander",
+   "wikidata": "Q223134",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Олимпиад(?:а|ы|е|у|ой|ою|и)(?![а-яё])"
+    ],
+    "en": [
+     "Olympias"
+    ],
+    "la": [
+     "Olympia(?:s|dam|dem|dis|di)(?![a-z])"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "philip-ii",
+   "ru": "Филипп",
+   "en": "Philip",
+   "orig": "Philippus; Φίλιππος",
+   "kind": "person",
+   "gloss_ru": "Филипп II, царь Македонии, муж Олимпиады",
+   "gloss_en": "Philip II, king of Macedon, husband of Olympias",
+   "wikidata": "Q130650",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Филипп(?:а|у|ом|е|ов|ова|ову|овы|овых|овой|овым)?(?![а-яё])"
+    ],
+    "en": [
+     "Philip(?![a-z])"
+    ],
+    "la": [
+     "Philipp(?:us|i|o|um|e)(?![a-z])"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "alexander",
+   "ru": "Александр",
+   "en": "Alexander",
+   "orig": "Alexander; Ἀλέξανδρος",
+   "kind": "person",
+   "gloss_ru": "Александр Македонский, сын Олимпиады, герой романа",
+   "gloss_en": "Alexander the Great, son of Olympias, hero of the Romance",
+   "wikidata": "Q8409",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Александр(?:а|у|ом|е)?(?![а-яё])(?! Михельс)"
+    ],
+    "en": [
+     "Alexander(?! Mikhels)"
+    ],
+    "la": [
+     "Alexand(?:er|ri|ro|rum)(?![a-z])"
+    ],
+    "grc": []
+   },
+   "exclude": [
+    "Александр Михельс"
+   ]
+  },
+  {
+   "id": "antiphon",
+   "ru": "Антифонт",
+   "en": "Antiphon",
+   "orig": "Antiphon; Ἀντιφῶν",
+   "kind": "person",
+   "gloss_ru": "толкователь знамений при дворе Филиппа",
+   "gloss_en": "interpreter of portents at Philip’s court",
+   "wikidata": "",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Антифонт(?:а|у|ом|е)?(?![а-яё])"
+    ],
+    "en": [
+     "Antiphon(?![a-z])"
+    ],
+    "la": [
+     "Antiphont(?:em|is|i|e)(?![a-z])"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "alacrinis",
+   "ru": "Алакринис",
+   "en": "Alacrinis",
+   "orig": "Alacrinis; Λανίκη",
+   "kind": "person",
+   "gloss_ru": "кормилица Александра (искажённое имя Ланики, сестры Клита Чёрного)",
+   "gloss_en": "Alexander’s nurse (a garbled form of Lanice, sister of Cleitus the Black)",
+   "wikidata": "Q3409034",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Алакринис",
+     "Ланик(?:а|ы|е|у|ой|ою|и)(?![а-яё])"
+    ],
+    "en": [
+     "Alacrinis",
+     "Lanice"
+    ],
+    "la": [
+     "Alacrinis"
+    ],
+    "grc": [
+     "Λανίκ(?:η|ης)"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "leonidas",
+   "ru": "Леонид",
+   "en": "Leonidas",
+   "orig": "Leonides; Λεωνίδας",
+   "kind": "person",
+   "gloss_ru": "воспитатель (педагог) Александра",
+   "gloss_en": "Alexander’s paedagogue",
+   "wikidata": "Q1819435",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Леонид(?:а|у|ом|е)?(?![а-яё])"
+    ],
+    "en": [
+     "Leonidas"
+    ],
+    "la": [
+     "Leonides"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "polynicus",
+   "ru": "Полиник",
+   "en": "Polynicus",
+   "orig": "Polinicus",
+   "kind": "person",
+   "gloss_ru": "учитель грамоты Александра",
+   "gloss_en": "Alexander’s teacher of letters",
+   "wikidata": "",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Полиник(?:а|у|ом|е)?(?![а-яё])"
+    ],
+    "en": [
+     "Polynicus"
+    ],
+    "la": [
+     "Polinic(?:us|i|o|um)(?![a-z])"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "alcippus",
+   "ru": "Алкипп",
+   "en": "Alcippus",
+   "orig": "Alcippus; Ἄλκιππος",
+   "kind": "person",
+   "gloss_ru": "учитель музыки Александра",
+   "gloss_en": "Alexander’s music teacher",
+   "wikidata": "",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Алкипп(?:а|у|ом|е)?(?![а-яё])"
+    ],
+    "en": [
+     "Alcippus"
+    ],
+    "la": [
+     "Alcipp(?:us|i|o|um)(?![a-z])"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "menecles",
+   "ru": "Менекл",
+   "en": "Menecles",
+   "orig": "Menecles; Μενεκλῆς",
+   "kind": "person",
+   "gloss_ru": "учитель геометрии Александра",
+   "gloss_en": "Alexander’s teacher of geometry",
+   "wikidata": "",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Менекл(?:а|у|ом|е)?(?![а-яё])"
+    ],
+    "en": [
+     "Menecles"
+    ],
+    "la": [
+     "Menecles"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "anaximenes",
+   "ru": "Анаксимен",
+   "en": "Anaximenes",
+   "orig": "Anaximenes; Ἀναξιμένης",
+   "kind": "person",
+   "gloss_ru": "Анаксимен из Лампсака, в романе учитель риторики Александра",
+   "gloss_en": "Anaximenes of Lampsacus, in the Romance Alexander’s teacher of rhetoric",
+   "wikidata": "Q221787",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Анаксимен(?:а|у|ом|е)?(?![а-яё])"
+    ],
+    "en": [
+     "Anaximenes"
+    ],
+    "la": [
+     "Anaximenes"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "aristotle",
+   "ru": "Аристотель",
+   "en": "Aristotle",
+   "orig": "Aristoteles; Ἀριστοτέλης",
+   "kind": "person",
+   "gloss_ru": "философ, учитель Александра (в романе «Милетский»)",
+   "gloss_en": "the philosopher, Alexander’s teacher (in the Romance ‘of Miletus’)",
+   "wikidata": "Q868",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Аристотел(?:ь|я|ю|ем|е)(?![а-яё])"
+    ],
+    "en": [
+     "Aristotle"
+    ],
+    "la": [
+     "Aristotel(?:es|is|i|em|e)(?![a-z])"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "cleitus",
+   "ru": "Клит Чёрный",
+   "en": "Cleitus the Black",
+   "orig": "Κλεῖτος ὁ μέλας",
+   "kind": "person",
+   "gloss_ru": "македонский военачальник, брат Ланики",
+   "gloss_en": "Macedonian officer, brother of Lanice",
+   "wikidata": "Q26341",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Клит(?:а|у|ом|е)?(?![а-яё])"
+    ],
+    "en": [
+     "Cleitus"
+    ],
+    "la": [],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "ptolemy-i",
+   "ru": "Птолемей Сотер",
+   "en": "Ptolemy Soter",
+   "orig": "Ptolemaeus Soter; Πτολεμαῖος ὁ Σωτήρ",
+   "kind": "person",
+   "gloss_ru": "Птолемей I, друг Александра, впоследствии царь Египта",
+   "gloss_en": "Ptolemy I, Alexander’s companion, later king of Egypt",
+   "wikidata": "Q168261",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Птолеме(?:й|я|ю|ем|е)(?![а-яё])(?!, «Альмагест»| нельзя)"
+    ],
+    "en": [
+     "Ptolemy"
+    ],
+    "la": [
+     "Ptolemae(?:us|i|o|um)(?![a-z])"
+    ],
+    "grc": []
+   },
+   "exclude": [
+    "Птолемей, «Альмагест»",
+    "Птолемея нельзя"
+   ]
+  },
+  {
+   "id": "nicolaus",
+   "ru": "Николай",
+   "en": "Nicolaus",
+   "orig": "Nicolaus; Νικόλαος",
+   "kind": "person",
+   "gloss_ru": "царь акарнанцев, соперник Александра на бегах колесниц в Писе",
+   "gloss_en": "king of the Acarnanians, Alexander’s rival in the chariot race at Pisa",
+   "wikidata": "",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Никола(?:й|я|ю|ем|е|и)(?![а-яё])"
+    ],
+    "en": [
+     "Nicolaus"
+    ],
+    "la": [
+     "Nicola(?:us|i|o|um|e)(?![a-z])"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "hephaestion",
+   "ru": "Гефестион",
+   "en": "Hephaestion",
+   "orig": "Ἡφαιστίων",
+   "kind": "person",
+   "gloss_ru": "друг Александра (у Валерия плывёт с ним в Элиду)",
+   "gloss_en": "Alexander’s friend (in Valerius sails with him to Elis)",
+   "wikidata": "Q310739",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Гефестион(?:а|у|ом|е)?(?![а-яё])"
+    ],
+    "en": [
+     "Hephaestion"
+    ],
+    "la": [],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "clitomachus",
+   "ru": "Клитомах",
+   "en": "Clitomachus",
+   "orig": "Clitomachus; Κλειτόμαχος",
+   "kind": "person",
+   "gloss_ru": "фиванский атлет, по просьбе которого Александр позволяет отстроить Фивы",
+   "gloss_en": "Theban athlete at whose request Alexander allows Thebes to be rebuilt",
+   "wikidata": "Q16188833",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Клитомах(?:а|у|ом|е)?(?![а-яё])"
+    ],
+    "en": [
+     "Clitomachus"
+    ],
+    "la": [
+     "Clitomach(?:us|i|o|um)(?![a-z])"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "cleopatra",
+   "ru": "Клеопатра",
+   "en": "Cleopatra",
+   "orig": "Cleopatra; Κλεοπάτρα",
+   "kind": "person",
+   "gloss_ru": "Клеопатра (Эвридика), последняя жена Филиппа II",
+   "gloss_en": "Cleopatra (Eurydice), last wife of Philip II",
+   "wikidata": "Q257526",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Клеопатр(?:а|ы|е|у|ой|ою|и)(?![а-яё])"
+    ],
+    "en": [
+     "Cleopatra"
+    ],
+    "la": [
+     "Cleopatr(?:a|ae|am)(?![a-z])"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "attalus",
+   "ru": "Аттал",
+   "en": "Attalus",
+   "orig": "Ἄτταλος",
+   "kind": "person",
+   "gloss_ru": "македонский вельможа, дядя (у Валерия отец) Клеопатры",
+   "gloss_en": "Macedonian noble, uncle (in Valerius father) of Cleopatra",
+   "wikidata": "Q356050",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Аттал(?:а|у|ом|е)?(?![а-яё])(?! Родосск|, чем к Гиппарху|: Lightfoot)"
+    ],
+    "en": [
+     "Attalus"
+    ],
+    "la": [],
+    "grc": []
+   },
+   "exclude": [
+    "Атталом Родосским",
+    "Атталу, чем к Гиппарху",
+    "Атталом: Lightfoot"
+   ]
+  },
+  {
+   "id": "lysias",
+   "ru": "Лисий",
+   "en": "Lysias",
+   "orig": "Lysias; Λυσίας",
+   "kind": "person",
+   "gloss_ru": "придворный шут, насмехающийся над Александром на свадьбе Филиппа",
+   "gloss_en": "court jester who mocks Alexander at Philip’s wedding",
+   "wikidata": "",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Лиси(?:й|я|ю|ем|е|и)(?![а-яё])"
+    ],
+    "en": [
+     "Lysias"
+    ],
+    "la": [
+     "Lysia(?:s|m|e)?(?![a-z])"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "pausanias",
+   "ru": "Павсаний",
+   "en": "Pausanias",
+   "orig": "Pausanias; Παυσανίας",
+   "kind": "person",
+   "gloss_ru": "убийца Филиппа II (Павсаний из Орестиды)",
+   "gloss_en": "murderer of Philip II (Pausanias of Orestis)",
+   "wikidata": "Q457994",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Павсани(?:й|я|ю|ем|е|и)(?![а-яё])(?!, 6)"
+    ],
+    "en": [
+     "Pausanias(?! 6\\.)"
+    ],
+    "la": [
+     "Pausania(?:s|m|e)(?![a-z])(?! 6\\.)"
+    ],
+    "grc": []
+   },
+   "exclude": [
+    "Павсаний, 6",
+    "Pausanias 6\\."
+   ]
+  },
+  {
+   "id": "darius-iii",
+   "ru": "Дарий",
+   "en": "Darius",
+   "orig": "Darius; Δαρεῖος",
+   "kind": "person",
+   "gloss_ru": "Дарий III, царь персов, противник Александра",
+   "gloss_en": "Darius III, king of Persia, Alexander’s adversary",
+   "wikidata": "Q102865",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Дари(?:й|я|ю|ем|е|и)(?![а-яё])"
+    ],
+    "en": [
+     "Darius"
+    ],
+    "la": [
+     "Dari(?:us|i|o|um)(?![a-z])"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "aemilius",
+   "ru": "Эмилий",
+   "en": "Aemilius",
+   "orig": "Aemilius",
+   "kind": "person",
+   "gloss_ru": "римский консул, в романе привозящий Александру золотой венец",
+   "gloss_en": "Roman consul who in the Romance brings Alexander a golden crown",
+   "wikidata": "",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Эмили(?:й|я|ю|ем|е|и)(?![а-яё])"
+    ],
+    "en": [
+     "Aemilius"
+    ],
+    "la": [
+     "Aemili(?:us|um|o|i)(?![a-z])"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "scamander",
+   "ru": "Скамандр",
+   "en": "Scamander",
+   "orig": "Scamandrus; Σκάμανδρος",
+   "kind": "person",
+   "gloss_ru": "военачальник Александра (у Валерия ведает Македонией)",
+   "gloss_en": "Alexander’s commander (in Valerius in charge of Macedonia)",
+   "wikidata": "",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Скамандр(?:а|у|ом|е)?(?![а-яё])"
+    ],
+    "en": [
+     "Scamander"
+    ],
+    "la": [
+     "Scamandr(?:us|um|o|i)(?![a-z])"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "cassander",
+   "ru": "Кассандр",
+   "en": "Cassander",
+   "orig": "Κάσσανδρος",
+   "kind": "person",
+   "gloss_ru": "македонский полководец; конъектура Маи и Мюллера вместо «Скамандр»",
+   "gloss_en": "Macedonian general; Mai’s and Müller’s emendation for ‘Scamander’",
+   "wikidata": "Q207183",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Кассандр(?:а|у|ом|е)?(?![а-яё])"
+    ],
+    "en": [
+     "Cassander"
+    ],
+    "la": [],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "antipater",
+   "ru": "Антипатр",
+   "en": "Antipater",
+   "orig": "Ἀντίπατρος",
+   "kind": "person",
+   "gloss_ru": "наместник Македонии при Александре",
+   "gloss_en": "regent of Macedonia under Alexander",
+   "wikidata": "Q204760",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Антипатр(?:а|у|ом|е)?(?![а-яё])"
+    ],
+    "en": [
+     "Antipater"
+    ],
+    "la": [],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "hystaspes",
+   "ru": "Гистасп",
+   "en": "Hystaspes",
+   "orig": "Hystaspes; Ὑστάσπης",
+   "kind": "person",
+   "gloss_ru": "сатрап Дария (у Юлия Валерия)",
+   "gloss_en": "satrap of Darius (in Julius Valerius)",
+   "wikidata": "",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Гистасп(?:а|у|ом|е)?(?![а-яё])"
+    ],
+    "en": [
+     "Hystaspes"
+    ],
+    "la": [],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "spinther",
+   "ru": "Спинфер",
+   "en": "Spinther",
+   "orig": "Spinther",
+   "kind": "person",
+   "gloss_ru": "сатрап Дария (у Юлия Валерия)",
+   "gloss_en": "satrap of Darius (in Julius Valerius)",
+   "wikidata": "",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Спинфер(?:а|у|ом|е)?(?![а-яё])"
+    ],
+    "en": [
+     "Spinther"
+    ],
+    "la": [],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "amyntas",
+   "ru": "Аминта, сын Антиоха",
+   "en": "Amyntas son of Antiochus",
+   "orig": "Ἀμύντας",
+   "kind": "person",
+   "gloss_ru": "македонский перебежчик к Дарию",
+   "gloss_en": "Macedonian deserter to Darius",
+   "wikidata": "Q482103",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Аминт(?:а|ы|е|у|ой|ою|и)(?![а-яё])"
+    ],
+    "en": [
+     "Amyntas"
+    ],
+    "la": [],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "antiochus",
+   "ru": "Антиох",
+   "en": "Antiochus",
+   "orig": "Ἀντίοχος",
+   "kind": "person",
+   "gloss_ru": "отец перебежчика Аминты",
+   "gloss_en": "father of the deserter Amyntas",
+   "wikidata": "",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Антиох(?:а|у|ом|е)?(?![а-яё])"
+    ],
+    "en": [
+     "Antiochus"
+    ],
+    "la": [],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "ismenias",
+   "ru": "Исмений",
+   "en": "Ismenias",
+   "orig": "Ἰσμηνίας",
+   "kind": "person",
+   "gloss_ru": "фиванский флейтист; в греч. α так назван музыкант, молящий Александра пощадить Фивы",
+   "gloss_en": "Theban piper; in Greek α the musician who begs Alexander to spare Thebes",
+   "wikidata": "Q1098393",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Исмени(?:й|я|ю|ем|е|и)(?![а-яё])"
+    ],
+    "en": [
+     "Ismenias"
+    ],
+    "la": [],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "zeuxis",
+   "ru": "Зевксид",
+   "en": "Zeuxis",
+   "orig": "Ζεῦξις",
+   "kind": "person",
+   "gloss_ru": "корреспондент в переписке о щедрости юного Александра (у Валерия)",
+   "gloss_en": "correspondent in the letters on young Alexander’s generosity (in Valerius)",
+   "wikidata": "",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Зевксид(?:а|у|ом|е)?(?![а-яё])"
+    ],
+    "en": [
+     "Zeuxis"
+    ],
+    "la": [],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "artaxerxes-iii",
+   "ru": "Артаксеркс III",
+   "en": "Artaxerxes III",
+   "orig": "Ἀρταξέρξης",
+   "kind": "person",
+   "gloss_ru": "персидский царь, отнявший Египет у Нектанеба II",
+   "gloss_en": "Persian king who took Egypt from Nectanebo II",
+   "wikidata": "Q192867",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Артаксеркс(?:а|у|ом|е)?(?![а-яё])"
+    ],
+    "en": [
+     "Artaxerxes"
+    ],
+    "la": [],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "aristander",
+   "ru": "Аристандр",
+   "en": "Aristander",
+   "orig": "Ἀρίστανδρος",
+   "kind": "person",
+   "gloss_ru": "Аристандр из Тельмесса, прорицатель Филиппа и Александра",
+   "gloss_en": "Aristander of Telmessus, seer of Philip and Alexander",
+   "wikidata": "Q2616294",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Аристандр(?:а|у|ом|е)?(?![а-яё])"
+    ],
+    "en": [
+     "Aristander"
+    ],
+    "la": [],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "sesonchosis",
+   "ru": "Сесонхосис",
+   "en": "Sesonchosis",
+   "orig": "Sesonchosis; Σεσόγχωσις",
+   "kind": "person",
+   "gloss_ru": "легендарный египетский царь-завоеватель (Сесострис); Александра называют «вторым Сесонхосисом»",
+   "gloss_en": "legendary Egyptian conqueror-king (Sesostris); Alexander is hailed as a ‘second Sesonchosis’",
+   "wikidata": "Q16879570",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Сесонхосис"
+    ],
+    "en": [
+     "Sesonchosis"
+    ],
+    "la": [
+     "Sesonchos(?:is|in|i)(?![a-z])"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "socrates",
+   "ru": "Сократ",
+   "en": "Socrates",
+   "orig": "Σωκράτης",
+   "kind": "person",
+   "gloss_ru": "афинский философ, персонаж «Пира» Платона, предмет насмешки Геродика",
+   "gloss_en": "Athenian philosopher, character of Plato’s Symposium, mocked by Herodicus",
+   "wikidata": "Q913",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Сократ(?:а|у|ом|е)?(?![а-яё])"
+    ],
+    "en": [],
+    "la": [],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "ammon",
+   "ru": "Аммон",
+   "en": "Ammon",
+   "orig": "Ammon; Ἄμμων",
+   "kind": "god",
+   "gloss_ru": "ливийский бог-оракул с бараньими рогами (Зевс-Аммон); в романе мнимый отец Александра",
+   "gloss_en": "ram-horned oracular god of Libya (Zeus Ammon); in the Romance Alexander’s alleged father",
+   "wikidata": "Q3575327",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Аммон(?:а|у|ом|е)?(?![а-яё])"
+    ],
+    "en": [
+     "Ammon(?![a-z])"
+    ],
+    "la": [
+     "Ammon(?:i|em|e|is)?(?![a-z])"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "jupiter",
+   "ru": "Юпитер",
+   "en": "Jupiter",
+   "orig": "Iuppiter; Ζεύς",
+   "kind": "god",
+   "gloss_ru": "верховный бог (греч. Зевс)",
+   "gloss_en": "the supreme god (Greek Zeus)",
+   "wikidata": "Q4649",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Юпитер(?:а|у|ом|е)?(?![а-яё])(?!, обозначенный)",
+     "Зевс(?:а|у|ом|е)?(?![а-яё])"
+    ],
+    "en": [
+     "Jupiter(?! designated)",
+     "Zeus(?![a-z])"
+    ],
+    "la": [
+     "Iov(?:em|is|i|e)(?![a-z])(?! quippe)"
+    ],
+    "grc": []
+   },
+   "exclude": [
+    "Юпитер, обозначенный",
+    "Jupiter designated",
+    "Iovem quippe"
+   ]
+  },
+  {
+   "id": "apollo",
+   "ru": "Аполлон",
+   "en": "Apollo",
+   "orig": "Apollo; Ἀπόλλων",
+   "kind": "god",
+   "gloss_ru": "бог, дающий оракулы (Дельфы); брат Артемиды",
+   "gloss_en": "oracular god (Delphi), brother of Artemis",
+   "wikidata": "Q37340",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Аполлон(?:а|у|ом|е)?(?![а-яё])"
+    ],
+    "en": [
+     "Apollo(?![a-z])"
+    ],
+    "la": [
+     "Apollin(?:em|is|i|e)(?![a-z])"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "artemis",
+   "ru": "Артемида",
+   "en": "Artemis",
+   "orig": "Ἄρτεμις",
+   "kind": "god",
+   "gloss_ru": "богиня, сестра Аполлона, рождённая на Делосе",
+   "gloss_en": "goddess, Apollo’s sister, born on Delos",
+   "wikidata": "Q39503",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Артемид(?:а|ы|е|у|ой|ою|и)(?![а-яё])"
+    ],
+    "en": [
+     "Artemis"
+    ],
+    "la": [],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "liber",
+   "ru": "Либер",
+   "en": "Liber",
+   "orig": "Liber",
+   "kind": "god",
+   "gloss_ru": "Либер (Дионис), уроженец Фив",
+   "gloss_en": "Liber (Dionysus), born at Thebes",
+   "wikidata": "Q1145491",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Либер(?:а|у|ом|е)?(?![а-яё])"
+    ],
+    "en": [
+     "Liber(?![a-z])"
+    ],
+    "la": [
+     "Liber(?:um|i|o)?(?![a-z])"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "hercules",
+   "ru": "Геркулес",
+   "en": "Hercules",
+   "orig": "Hercules, Alcides; Ἡρακλῆς",
+   "kind": "god",
+   "gloss_ru": "Геркулес (Геракл, Алкид), фиванский герой и бог, изобретатель кулачного боя",
+   "gloss_en": "Hercules (Heracles, Alcides), Theban hero and god, inventor of boxing",
+   "wikidata": "Q240679",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Геркулес(?:а|у|ом|е)?(?![а-яё])",
+     "Алкид(?:а|у|ом|е)?(?![а-яё])"
+    ],
+    "en": [
+     "Hercules",
+     "Alcides"
+    ],
+    "la": [
+     "Hercul(?:es|is|i|em|e)(?![a-z])",
+     "Alcides"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "mercury",
+   "ru": "Меркурий",
+   "en": "Mercury",
+   "orig": "Mercurius, Maiugena; Ἑρμῆς",
+   "kind": "god",
+   "gloss_ru": "Меркурий (Гермес), сын Майи, изобретатель борьбы",
+   "gloss_en": "Mercury (Hermes), son of Maia, inventor of wrestling",
+   "wikidata": "Q1150",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Меркури(?:й|я|ю|ем|е|и)(?![а-яё])(?! — смарагдом)",
+     "Гермес(?:а|у|ом|е)?(?![а-яё])",
+     "Майей рождённ"
+    ],
+    "en": [
+     "Mercury(?! by emerald)",
+     "Hermes",
+     "Maia’s son"
+    ],
+    "la": [
+     "Mercuri(?:us|i|o|um)(?![a-z])(?! smaragdo)",
+     "Maiugena"
+    ],
+    "grc": []
+   },
+   "exclude": [
+    "Меркурий — смарагдом",
+    "Mercury by emerald",
+    "Mercurium smaragdo"
+   ]
+  },
+  {
+   "id": "maia",
+   "ru": "Майя",
+   "en": "Maia",
+   "orig": "Μαῖα",
+   "kind": "god",
+   "gloss_ru": "нимфа, мать Гермеса (Меркурия)",
+   "gloss_en": "nymph, mother of Hermes (Mercury)",
+   "wikidata": "Q205233",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Майей"
+    ],
+    "en": [
+     "Maia(?![a-z])"
+    ],
+    "la": [
+     "Maiugena"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "pollux",
+   "ru": "Поллукс",
+   "en": "Pollux",
+   "orig": "Pollux; Πολυδεύκης",
+   "kind": "god",
+   "gloss_ru": "Поллукс (Полидевк), сын Зевса, мастер боя в цестах",
+   "gloss_en": "Pollux (Polydeuces), son of Zeus, master of the cestus fight",
+   "wikidata": "Q12046224",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Поллукс(?:а|у|ом|е)?(?![а-яё])",
+     "Полидевк(?:а|у|ом|е)?(?![а-яё])"
+    ],
+    "en": [
+     "Pollux",
+     "Polydeuces"
+    ],
+    "la": [
+     "Pollu(?:x|cis|ci|cem|ce)(?![a-z])"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "vulcan",
+   "ru": "Вулкан",
+   "en": "Vulcan",
+   "orig": "Vulcanus; Ἥφαιστος",
+   "kind": "god",
+   "gloss_ru": "Вулкан (Гефест); храм в Мемфисе, где Александра сажают на престол",
+   "gloss_en": "Vulcan (Hephaestus); his temple at Memphis where Alexander is enthroned",
+   "wikidata": "Q4640",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Вулкан(?:а|у|ом|е)?(?![а-яё])",
+     "Гефест(?:а|у|ом|е)?(?![а-яё])"
+    ],
+    "en": [
+     "Vulcan(?![a-z])",
+     "Hephaestus"
+    ],
+    "la": [],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "sarapis",
+   "ru": "Сарапис",
+   "en": "Sarapis",
+   "orig": "Σάραπις",
+   "kind": "god",
+   "gloss_ru": "греко-египетский бог, связанный с основанием Александрии",
+   "gloss_en": "Graeco-Egyptian god linked with the founding of Alexandria",
+   "wikidata": "Q214554",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Сарапис(?:а|у|ом|е)?(?![а-яё])"
+    ],
+    "en": [
+     "Sarapis"
+    ],
+    "la": [],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "mithras",
+   "ru": "Митра",
+   "en": "Mithras",
+   "orig": "Mithras; Μίθρας",
+   "kind": "god",
+   "gloss_ru": "иранский бог; Дарий у Валерия — «сопрестольник бога Митры»",
+   "gloss_en": "Iranian god; in Valerius Darius is ‘throne-companion of the god Mithras’",
+   "wikidata": "Q12614595",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Митр(?:а|ы|е|у|ой|ою|и)(?![а-яё])"
+    ],
+    "en": [
+     "Mithras"
+    ],
+    "la": [],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "cybele",
+   "ru": "Кибела",
+   "en": "Cybele",
+   "orig": "Κυβέλη (Μεγάλη Μήτηρ)",
+   "kind": "god",
+   "gloss_ru": "Великая Мать богов, чьи жрецы — оскоплённые галлы",
+   "gloss_en": "the Great Mother of the gods, served by the castrated galli",
+   "wikidata": "Q188236",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Кибел(?:а|ы|е|у|ой|ою|и)(?![а-яё])",
+     "Велик(?:ая|ой|ую) Мат(?:ь|ери)"
+    ],
+    "en": [
+     "Cybele",
+     "Great Mother"
+    ],
+    "la": [],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "poseidon",
+   "ru": "Посейдон",
+   "en": "Poseidon",
+   "orig": "Ποσειδῶν",
+   "kind": "god",
+   "gloss_ru": "бог моря, по одной из генеалогий отец Эола",
+   "gloss_en": "sea god, in one genealogy father of Aeolus",
+   "wikidata": "Q41127",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Посейдон(?:а|у|ом|е)?(?![а-яё])"
+    ],
+    "en": [
+     "Poseidon"
+    ],
+    "la": [],
+    "grc": [
+     "Ποσειδ(?:ῶνος|ῶν|ῶνι|ῶνα)"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "nyx",
+   "ru": "Ночь",
+   "en": "Night",
+   "orig": "Νύξ",
+   "kind": "god",
+   "gloss_ru": "Ночь, божество у Гесиода (дом Ночи)",
+   "gloss_en": "Night, a deity in Hesiod (the house of Night)",
+   "wikidata": "Q131203",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Ноч(?:ь|и)(?![а-яё])"
+    ],
+    "en": [],
+    "la": [],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "hemera",
+   "ru": "День",
+   "en": "Day",
+   "orig": "Ἡμέρα",
+   "kind": "god",
+   "gloss_ru": "День, божество у Гесиода, встречающийся с Ночью на медном пороге",
+   "gloss_en": "Day, a deity in Hesiod who meets Night on the bronze threshold",
+   "wikidata": "Q192107",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "День(?![а-яё])"
+    ],
+    "en": [],
+    "la": [],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "odysseus",
+   "ru": "Одиссей",
+   "en": "Odysseus",
+   "orig": "Ὀδυσσεύς; Ulixes",
+   "kind": "hero",
+   "gloss_ru": "итакийский царь, герой «Одиссеи», чьи странствия локализуют толкователи",
+   "gloss_en": "king of Ithaca, hero of the Odyssey, whose wanderings the commentators locate",
+   "wikidata": "Q47231",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "(?<![«„])Одиссе(?:й|я|ю|ем|е)(?![а-яё])",
+     "Улисс(?:а|у|ом|е)?(?![а-яё])"
+    ],
+    "en": [
+     "Odysseus"
+    ],
+    "la": [
+     "Ulix(?:es|is|i|em|e)(?![a-z])"
+    ],
+    "grc": [
+     "Ὀδυσσ(?!εί)"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "aeolus",
+   "ru": "Эол",
+   "en": "Aeolus",
+   "orig": "Αἴολος",
+   "kind": "hero",
+   "gloss_ru": "сын Гиппота, повелитель ветров на плавучем острове Эолии",
+   "gloss_en": "son of Hippotes, keeper of the winds on the floating island of Aeolia",
+   "wikidata": "Q172549",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Эол(?:а|у|ом|е|ов)?(?![а-яё])"
+    ],
+    "en": [
+     "Aeolus(?:es)?(?![a-z])"
+    ],
+    "la": [],
+    "grc": [
+     "Αἴολ",
+     "Αἰόλ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "hippotes",
+   "ru": "Гиппот",
+   "en": "Hippotes",
+   "orig": "Ἱππότης",
+   "kind": "hero",
+   "gloss_ru": "отец Эола у Гомера",
+   "gloss_en": "father of Aeolus in Homer",
+   "wikidata": "Q120541536",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Гиппот(?:а|у|ом|е)?(?![а-яё])"
+    ],
+    "en": [
+     "Hippotes"
+    ],
+    "la": [],
+    "grc": [
+     "Ἱππότ(?:ου|ης|ῃ|ην)"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "hellen",
+   "ru": "Эллин",
+   "en": "Hellen",
+   "orig": "Ἕλλην",
+   "kind": "hero",
+   "gloss_ru": "родоначальник эллинов, отец первого Эола",
+   "gloss_en": "eponymous ancestor of the Hellenes, father of the first Aeolus",
+   "wikidata": "Q336428",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Эллин(?:а|у|ом|е)?(?![а-яё])"
+    ],
+    "en": [
+     "Hellen(?![a-z])"
+    ],
+    "la": [],
+    "grc": [
+     "Ἕλλην(?:ος|ι|α)?(?!\\w)"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "melanippe",
+   "ru": "Меланиппа",
+   "en": "Melanippe",
+   "orig": "Μελανίππη",
+   "kind": "hero",
+   "gloss_ru": "мать второго Эола (от Гиппота)",
+   "gloss_en": "mother of the second Aeolus (by Hippotes)",
+   "wikidata": "Q17622161",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Меланипп(?:а|ы|е|у|ой|ою|и)(?![а-яё])"
+    ],
+    "en": [
+     "Melanippe"
+    ],
+    "la": [],
+    "grc": [
+     "Μελανίππ(?:η|ης|ῃ|ην)"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "arne",
+   "ru": "Арна",
+   "en": "Arne",
+   "orig": "Ἄρνη",
+   "kind": "hero",
+   "gloss_ru": "мать третьего Эола (от Посейдона)",
+   "gloss_en": "mother of the third Aeolus (by Poseidon)",
+   "wikidata": "Q1627764",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Арн(?:а|ы|е|у|ой|ою|и)(?![а-яё])"
+    ],
+    "en": [
+     "Arne(?![a-z])"
+    ],
+    "la": [],
+    "grc": [
+     "Ἄρν(?:η|ης|ῃ|ην)"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "laomedon",
+   "ru": "Лаомедонт",
+   "en": "Laomedon",
+   "orig": "Laomedon; Λαομέδων",
+   "kind": "hero",
+   "gloss_ru": "троянский царь, владелец божественных коней",
+   "gloss_en": "king of Troy, owner of divine horses",
+   "wikidata": "Q332324",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Лаомедонт(?:а|у|ом|е)?(?![а-яё])"
+    ],
+    "en": [
+     "Laomedon(?![a-z])"
+    ],
+    "la": [
+     "Laomedont(?:i|is|em|e)(?![a-z])"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "amphion",
+   "ru": "Амфион",
+   "en": "Amphion",
+   "orig": "Amphion; Ἀμφίων",
+   "kind": "hero",
+   "gloss_ru": "строитель стен Фив (вместе с Зетом)",
+   "gloss_en": "builder of the walls of Thebes (with Zethus)",
+   "wikidata": "Q242835",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Амфион(?:а|у|ом|е)?(?![а-яё])"
+    ],
+    "en": [
+     "Amphion(?![a-z])"
+    ],
+    "la": [
+     "Amphion(?:is|i|em|e)?(?![a-z])"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "zethus",
+   "ru": "Зет",
+   "en": "Zethus",
+   "orig": "Zethus; Ζῆθος",
+   "kind": "hero",
+   "gloss_ru": "брат Амфиона, вместе с ним строитель стен Фив",
+   "gloss_en": "brother of Amphion, with him builder of the walls of Thebes",
+   "wikidata": "Q196865",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Зет(?:а|у|ом|е)?(?![а-яё])"
+    ],
+    "en": [
+     "Zethus"
+    ],
+    "la": [
+     "Zeth(?:us|i|o|um)"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "semele",
+   "ru": "Семела",
+   "en": "Semele",
+   "orig": "Σεμέλη",
+   "kind": "hero",
+   "gloss_ru": "фиванская царевна, мать Диониса (Либера)",
+   "gloss_en": "Theban princess, mother of Dionysus (Liber)",
+   "wikidata": "Q776139",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Семел(?:а|ы|е|у|ой|ою|и)(?![а-яё])"
+    ],
+    "en": [
+     "Semele"
+    ],
+    "la": [],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "alcmena",
+   "ru": "Алкмена",
+   "en": "Alcmena",
+   "orig": "Ἀλκμήνη",
+   "kind": "hero",
+   "gloss_ru": "мать Геракла",
+   "gloss_en": "mother of Heracles",
+   "wikidata": "Q190543",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Алкмен(?:а|ы|е|у|ой|ою|и)(?![а-яё])"
+    ],
+    "en": [
+     "Alcmena"
+    ],
+    "la": [],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "orpheus",
+   "ru": "Орфей",
+   "en": "Orpheus",
+   "orig": "Ὀρφεύς",
+   "kind": "hero",
+   "gloss_ru": "мифический певец; его потеющая статуя в Пиерии — знамение Александру",
+   "gloss_en": "mythical singer; his sweating statue in Pieria is an omen for Alexander",
+   "wikidata": "Q174353",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Орфе(?:й|я|ю|ем|е)(?![а-яё])"
+    ],
+    "en": [
+     "Orpheus"
+    ],
+    "la": [],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "achilles",
+   "ru": "Ахилл",
+   "en": "Achilles",
+   "orig": "Ἀχιλλεύς",
+   "kind": "hero",
+   "gloss_ru": "герой Троянской войны, которому Александр воздаёт почести под Троей",
+   "gloss_en": "hero of the Trojan War, honoured by Alexander at Troy",
+   "wikidata": "Q41746",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Ахилл(?:а|у|ом|е|ес)?(?![а-яё])"
+    ],
+    "en": [
+     "Achilles"
+    ],
+    "la": [],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "satyr",
+   "ru": "сатир",
+   "en": "satyr",
+   "orig": "σάτυρος",
+   "kind": "other",
+   "gloss_ru": "сатир из сна Александра под Тиром (игра σάτυρος — σὰ Τύρος)",
+   "gloss_en": "the satyr of Alexander’s dream at Tyre (pun σάτυρος — σὰ Τύρος)",
+   "wikidata": "Q163709",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "сатир(?:а|у|ом|е|ы|ов)?(?![а-яё])"
+    ],
+    "en": [
+     "satyrs?(?![a-z])"
+    ],
+    "la": [],
+    "grc": [
+     "σάτυρ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "centaurs",
+   "ru": "кентавры",
+   "en": "Centaurs",
+   "orig": "Κένταυροι",
+   "kind": "other",
+   "gloss_ru": "полулюди-полукони, буйствовавшие на свадебном пиру лапифов",
+   "gloss_en": "half-horse beings who ran riot at the wedding feast of the Lapiths",
+   "wikidata": "Q83203",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "[Кк]ентавр"
+    ],
+    "en": [
+     "Centaurs?(?![a-z])"
+    ],
+    "la": [],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "lapiths",
+   "ru": "лапифы",
+   "en": "Lapiths",
+   "orig": "Λαπίθαι",
+   "kind": "people",
+   "gloss_ru": "мифическое фессалийское племя, бившееся с кентаврами на свадьбе",
+   "gloss_en": "mythical Thessalian people who fought the Centaurs at a wedding",
+   "wikidata": "Q334794",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "[Лл]апиф"
+    ],
+    "en": [
+     "Lapiths?(?![a-z])"
+    ],
+    "la": [],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "bucephalus",
+   "ru": "Буцефал",
+   "en": "Bucephalus",
+   "orig": "Bucephalus; Βουκεφάλας",
+   "kind": "animal",
+   "gloss_ru": "конь-людоед, укрощённый Александром",
+   "gloss_en": "the man-eating horse tamed by Alexander",
+   "wikidata": "Q201598",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Буцефал(?:а|у|ом|е)?(?![а-яё])"
+    ],
+    "en": [
+     "Bucephalus"
+    ],
+    "la": [
+     "Bucephal(?:us|um|o|i)(?![a-z])"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "pegasus",
+   "ru": "Пегас",
+   "en": "Pegasus",
+   "orig": "Pegasus; Πήγασος",
+   "kind": "animal",
+   "gloss_ru": "крылатый конь мифа, с которым сравнивают Буцефала",
+   "gloss_en": "the winged horse of myth, to which Bucephalus is compared",
+   "wikidata": "Q162797",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Пегас(?:а|у|ом|е)?(?![а-яё])"
+    ],
+    "en": [
+     "Pegasus"
+    ],
+    "la": [
+     "Pegas(?:us|i|o|um)(?![a-z])"
+    ],
+    "grc": [
+     "Πηγάσ(?:ου|ος|ῳ|ον)"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "arion",
+   "ru": "Арион",
+   "en": "Arion",
+   "orig": "Ἀρίων",
+   "kind": "animal",
+   "gloss_ru": "божественный конь мифа (в армянской версии Буцефал превосходит его)",
+   "gloss_en": "divine horse of myth (in the Armenian version surpassed by Bucephalus)",
+   "wikidata": "Q842435",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Арион(?:а|у|ом|е)?(?![а-яё])"
+    ],
+    "en": [
+     "Arion(?![a-z])"
+    ],
+    "la": [],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "laestrygonians",
+   "ru": "лестригоны",
+   "en": "Laestrygonians",
+   "orig": "Λαιστρυγόνες",
+   "kind": "people",
+   "gloss_ru": "народ великанов-людоедов «Одиссеи» (10.80–132), жители Лама-Телепила",
+   "gloss_en": "giant cannibal people of the Odyssey (10.80–132), inhabitants of Lamos-Telepylos",
+   "wikidata": "Q743931",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "[Лл]естригон"
+    ],
+    "en": [
+     "Laestrygon"
+    ],
+    "la": [],
+    "grc": [
+     "Λαιστρυγ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "cimmerians",
+   "ru": "киммерийцы",
+   "en": "Cimmerians",
+   "orig": "Κιμμέριοι",
+   "kind": "people",
+   "gloss_ru": "народ «Одиссеи» (11.14–19), живущий в вечном мраке; у Кратета — у полюса",
+   "gloss_en": "people of the Odyssey (11.14–19) living in perpetual darkness; placed by Crates at the pole",
+   "wikidata": "Q1108676",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "[Кк]иммерий"
+    ],
+    "en": [],
+    "la": [],
+    "grc": [
+     "Κιμμερ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "kerberians",
+   "ru": "керберии",
+   "en": "Kerberians",
+   "orig": "Κερβέριοι",
+   "kind": "people",
+   "gloss_ru": "чтение Кратета («Κερβερίων») вместо киммерийцев в Од. 11.14",
+   "gloss_en": "Crates’ reading (Κερβερίων) for the Cimmerians at Od. 11.14",
+   "wikidata": "",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "[Кк]ербери(?:и|ев|ям|ями|ях)(?![а-яё])"
+    ],
+    "en": [],
+    "la": [],
+    "grc": [
+     "Κερβερ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "cyclopes",
+   "ru": "киклопы",
+   "en": "Cyclopes",
+   "orig": "Κύκλωπες",
+   "kind": "people",
+   "gloss_ru": "одноглазые великаны «Одиссеи»; при сицилийской локализации — леонтинцы",
+   "gloss_en": "one-eyed giants of the Odyssey; in the Sicilian localisation identified with the Leontines",
+   "wikidata": "Q128430",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "[Кк]иклоп"
+    ],
+    "en": [
+     "Cyclop"
+    ],
+    "la": [],
+    "grc": [
+     "Κύκλωπ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "lotus-eaters",
+   "ru": "лотофаги",
+   "en": "Lotus-eaters",
+   "orig": "Λωτοφάγοι",
+   "kind": "people",
+   "gloss_ru": "народ «Одиссеи», питающийся лотосом",
+   "gloss_en": "the lotus-eating people of the Odyssey",
+   "wikidata": "Q596552",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "[Лл]отофаг"
+    ],
+    "en": [
+     "Lotus-eaters"
+    ],
+    "la": [],
+    "grc": [
+     "Λωτοφάγ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "acragantines",
+   "ru": "акрагантцы",
+   "en": "Acragantines",
+   "orig": "Ἀκραγαντῖνοι",
+   "kind": "people",
+   "gloss_ru": "жители Акраганта; у сторонников сицилийской локализации — лотофаги",
+   "gloss_en": "inhabitants of Acragas; identified with the Lotus-eaters in the Sicilian localisation",
+   "wikidata": "",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "[Аа]крагантц"
+    ],
+    "en": [
+     "Acragantines"
+    ],
+    "la": [],
+    "grc": [
+     "Ἀκραγαντ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "camarinaeans",
+   "ru": "камаринцы",
+   "en": "Camarinaeans",
+   "orig": "Καμαριναῖοι",
+   "kind": "people",
+   "gloss_ru": "жители Камарины; по другим — лотофаги",
+   "gloss_en": "inhabitants of Camarina; according to others, the Lotus-eaters",
+   "wikidata": "",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "[Кк]амаринц"
+    ],
+    "en": [
+     "Camarinaeans"
+    ],
+    "la": [],
+    "grc": [
+     "Καμαριν"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "leontines",
+   "ru": "леонтинцы",
+   "en": "Leontines",
+   "orig": "Λεοντῖνοι",
+   "kind": "people",
+   "gloss_ru": "жители Леонтин в Сицилии; с ними отождествляли киклопов и лестригонов",
+   "gloss_en": "inhabitants of Leontini in Sicily, identified with the Cyclopes and the Laestrygonians",
+   "wikidata": "",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "[Лл]еонтинц"
+    ],
+    "en": [
+     "Leontines"
+    ],
+    "la": [],
+    "grc": [
+     "Λεοντίν"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "ethiopians",
+   "ru": "эфиопы",
+   "en": "Ethiopians",
+   "orig": "Αἰθίοπες",
+   "kind": "people",
+   "gloss_ru": "крайние народы «Одиссеи» (1.23–24), предмет спора Кратета и Аристарха",
+   "gloss_en": "the remote people of the Odyssey (1.23–24), disputed by Crates and Aristarchus",
+   "wikidata": "",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "[Ээ]фиоп(?:ы|ов|ам|ами|ах)(?![а-яё])"
+    ],
+    "en": [],
+    "la": [],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "egyptians",
+   "ru": "египтяне",
+   "en": "Egyptians",
+   "orig": "Aegyptii; Αἰγύπτιοι",
+   "kind": "people",
+   "gloss_ru": "народ Египта, подданные Нектанеба",
+   "gloss_en": "the people of Egypt, Nectanebo’s subjects",
+   "wikidata": "Q56202338",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "[Ее]гиптян"
+    ],
+    "en": [
+     "Egyptians",
+     "an Egyptian(?=,| father)"
+    ],
+    "la": [
+     "Aegyptii(?![a-z])"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "macedonians",
+   "ru": "македоняне",
+   "en": "Macedonians",
+   "orig": "Macedones; Μακεδόνες",
+   "kind": "people",
+   "gloss_ru": "народ Македонии, войско Александра",
+   "gloss_en": "the people of Macedonia, Alexander’s army",
+   "wikidata": "Q576065",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "[Мм]акедонян"
+    ],
+    "en": [
+     "Macedonians",
+     "a Macedonian(?![a-z])"
+    ],
+    "la": [
+     "Macedon(?:es|um|ibus)(?![a-z])"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "persians",
+   "ru": "персы",
+   "en": "Persians",
+   "orig": "Persae; Πέρσαι",
+   "kind": "people",
+   "gloss_ru": "народ державы Ахеменидов, подданные Дария",
+   "gloss_en": "the people of the Achaemenid empire, Darius’ subjects",
+   "wikidata": "Q484206",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "[Пп]ерс(?:ы|ов|ам|ами|ах|а|у|ом|е)?(?![а-яё])"
+    ],
+    "en": [
+     "Persians"
+    ],
+    "la": [
+     "Pers(?:ae|arum|as|is)(?![a-z])"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "greeks",
+   "ru": "греки",
+   "en": "Greeks",
+   "orig": "Graeci; Ἕλληνες",
+   "kind": "people",
+   "gloss_ru": "эллины, данники персов в речи Александра",
+   "gloss_en": "the Hellenes, tributaries of the Persians in Alexander’s speech",
+   "wikidata": "Q25688688",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "[Гг]рек(?:и|ов|ам|ами|ах|а|у|ом|е)?(?![а-яё])",
+     "гречишк"
+    ],
+    "en": [
+     "Greeks",
+     "Greek(?= or barbarian)",
+     "Graeculi"
+    ],
+    "la": [
+     "[Gg]raec(?:us|i)(?![a-z])",
+     "Graeculi"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "romans",
+   "ru": "римляне",
+   "en": "Romans",
+   "orig": "Romani; Ῥωμαῖοι",
+   "kind": "people",
+   "gloss_ru": "народ Рима, отправляющий посольство к Александру",
+   "gloss_en": "the people of Rome, who send an embassy to Alexander",
+   "wikidata": "Q1651392",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "[Рр]имлян"
+    ],
+    "en": [
+     "Romans"
+    ],
+    "la": [
+     "Roman(?:i|orum|is|os)(?![a-z])"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "acarnanians",
+   "ru": "акарнанцы",
+   "en": "Acarnanians",
+   "orig": "Acarnanes (Acernanum); Ἀκαρνᾶνες",
+   "kind": "people",
+   "gloss_ru": "народ Акарнании, чей царь Николай",
+   "gloss_en": "the people of Acarnania, whose king is Nicolaus",
+   "wikidata": "Q11904059",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "[Аа]карнанц"
+    ],
+    "en": [
+     "Acarnanians"
+    ],
+    "la": [
+     "Acernan(?:um|es|ibus)(?![a-z])"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "thracians",
+   "ru": "фракийцы",
+   "en": "Thracians",
+   "orig": "Thraces; Θρᾷκες",
+   "kind": "people",
+   "gloss_ru": "народ Фракии, легковооружённые в войске Александра",
+   "gloss_en": "the people of Thrace, light-armed troops in Alexander’s army",
+   "wikidata": "Q144964",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "[Фф]ракийц"
+    ],
+    "en": [
+     "Thracians"
+    ],
+    "la": [
+     "Thrac(?:as|es|um)(?![a-z])"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "tyrians",
+   "ru": "тирийцы",
+   "en": "Tyrians",
+   "orig": "Tyrii; Τύριοι",
+   "kind": "people",
+   "gloss_ru": "жители Тира, сопротивлявшиеся Александру",
+   "gloss_en": "the inhabitants of Tyre, who resisted Alexander",
+   "wikidata": "Q131927270",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "[Тт]ирийц"
+    ],
+    "en": [
+     "Tyrians"
+    ],
+    "la": [
+     "Tyri(?:i|is|orum|os)(?![a-z])"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "thebans",
+   "ru": "фиванцы",
+   "en": "Thebans",
+   "orig": "Thebani; Θηβαῖοι",
+   "kind": "people",
+   "gloss_ru": "жители Фив, разрушенных Александром",
+   "gloss_en": "the inhabitants of Thebes, destroyed by Alexander",
+   "wikidata": "",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "[Фф]иван(?:ец|ц)"
+    ],
+    "en": [
+     "Thebans",
+     "Theban(?= named)"
+    ],
+    "la": [
+     "Theban(?:i|us|is|orum|os)(?![a-z])"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "corinthians",
+   "ru": "коринфяне",
+   "en": "Corinthians",
+   "orig": "Κορίνθιοι",
+   "kind": "people",
+   "gloss_ru": "жители Коринфа, устроители состязания при Александре",
+   "gloss_en": "the inhabitants of Corinth, hosts of the games under Alexander",
+   "wikidata": "Q131841385",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "[Кк]оринфян"
+    ],
+    "en": [
+     "Corinthians"
+    ],
+    "la": [],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "athenians",
+   "ru": "афиняне",
+   "en": "Athenians",
+   "orig": "Ἀθηναῖοι",
+   "kind": "people",
+   "gloss_ru": "жители Афин, к которым обращается Александр (у Валерия)",
+   "gloss_en": "the inhabitants of Athens, addressed by Alexander (in Valerius)",
+   "wikidata": "Q120096553",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "[Аа]финян"
+    ],
+    "en": [
+     "Athenians"
+    ],
+    "la": [],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "indians",
+   "ru": "индийцы",
+   "en": "Indians",
+   "orig": "Indi; Ἰνδοί",
+   "kind": "people",
+   "gloss_ru": "народ Индии; в романе — в союзе против Нектанеба",
+   "gloss_en": "the people of India; in the Romance allied against Nectanebo",
+   "wikidata": "",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "[Ии]ндийц"
+    ],
+    "en": [
+     "Indians"
+    ],
+    "la": [
+     "Ind(?:os|i|orum)(?![a-z])"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "arabs",
+   "ru": "арабы",
+   "en": "Arabs",
+   "orig": "Arabes; Ἄραβες",
+   "kind": "people",
+   "gloss_ru": "народ Аравии; в союзе против Нектанеба",
+   "gloss_en": "the people of Arabia; in the alliance against Nectanebo",
+   "wikidata": "Q35323",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "[Аа]раб(?:ы|ов|ам|ами|ах)(?![а-яё])"
+    ],
+    "en": [
+     "Arabs"
+    ],
+    "la": [
+     "Arab(?:es|um)(?![a-z])"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "phoenicians",
+   "ru": "финикийцы",
+   "en": "Phoenicians",
+   "orig": "Phoenices; Φοίνικες",
+   "kind": "people",
+   "gloss_ru": "народ Финикии; в союзе против Нектанеба",
+   "gloss_en": "the people of Phoenicia; in the alliance against Nectanebo",
+   "wikidata": "Q1048468",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "[Фф]иникийц"
+    ],
+    "en": [
+     "Phoenicians"
+    ],
+    "la": [
+     "Phoenic(?:es|um|ibus)"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "parthians",
+   "ru": "парфяне",
+   "en": "Parthians",
+   "orig": "Parthi; Πάρθοι",
+   "kind": "people",
+   "gloss_ru": "иранский народ; в союзе против Нектанеба",
+   "gloss_en": "Iranian people; in the alliance against Nectanebo",
+   "wikidata": "Q28045596",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "[Пп]арфян"
+    ],
+    "en": [
+     "Parthians"
+    ],
+    "la": [
+     "Parth(?:os|i|orum)(?![a-z])"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "assyrians",
+   "ru": "ассирийцы",
+   "en": "Assyrians",
+   "orig": "Assyrii; Ἀσσύριοι",
+   "kind": "people",
+   "gloss_ru": "народ Ассирии; в союзе против Нектанеба",
+   "gloss_en": "the people of Assyria; in the alliance against Nectanebo",
+   "wikidata": "Q745718",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "[Аа]ссирийц"
+    ],
+    "en": [
+     "Assyrians"
+    ],
+    "la": [
+     "Assyri(?:os|i|orum)(?![a-z])"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "scythians",
+   "ru": "скифы",
+   "en": "Scythians",
+   "orig": "Scythae; Σκύθαι",
+   "kind": "people",
+   "gloss_ru": "кочевой народ северного Причерноморья; в союзе против Нектанеба",
+   "gloss_en": "nomadic people of the northern Black Sea; in the alliance against Nectanebo",
+   "wikidata": "Q131802",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "[Сс]киф(?:ы|ов|ам|ами|ах)(?![а-яё])"
+    ],
+    "en": [
+     "Scythians"
+    ],
+    "la": [
+     "Scyth(?:as|ae|arum)(?![a-z])"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "alans",
+   "ru": "аланы",
+   "en": "Alans",
+   "orig": "Alani",
+   "kind": "people",
+   "gloss_ru": "сарматский народ (анахронизм для IV в. до н. э.); в союзе против Нектанеба",
+   "gloss_en": "Sarmatian people (an anachronism for the 4th c. BC); in the alliance against Nectanebo",
+   "wikidata": "Q178054",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "[Аа]лан(?:ы|ов|ам|ами|ах)(?![а-яё])"
+    ],
+    "en": [
+     "Alans"
+    ],
+    "la": [
+     "Alan(?:os|i|orum)(?![a-z])"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "zalboi",
+   "ru": "залбы",
+   "en": "Zalboi",
+   "orig": "ζαλβοί",
+   "kind": "people",
+   "gloss_ru": "народ, названный в греческих рукописях A и L на месте латинских «аланов»",
+   "gloss_en": "people named in Greek manuscripts A and L where the Latin has ‘Alans’",
+   "wikidata": "",
+   "pleiades": "",
+   "patterns": {
+    "ru": [],
+    "en": [],
+    "la": [],
+    "grc": [
+     "ζαλβ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "oxydracae",
+   "ru": "оксидраки",
+   "en": "Oxydracae",
+   "orig": "Oxydracae (Oxydracontas); Ὀξυδράκαι",
+   "kind": "people",
+   "gloss_ru": "индийский народ (оксидраки); в союзе против Нектанеба",
+   "gloss_en": "Indian people (Oxydracae); in the alliance against Nectanebo",
+   "wikidata": "Q25377606",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "[Оо]ксидрак"
+    ],
+    "en": [
+     "Oxydrac"
+    ],
+    "la": [
+     "Oxydrac"
+    ],
+    "grc": [
+     "Ὀξυδράκ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "seres",
+   "ru": "серы",
+   "en": "Seres",
+   "orig": "Seres; Σῆρες",
+   "kind": "people",
+   "gloss_ru": "далёкий восточный народ (китайцы античных авторов); в союзе против Нектанеба",
+   "gloss_en": "distant eastern people (the Chinese of ancient writers); in the alliance against Nectanebo",
+   "wikidata": "Q210258",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "[Сс]ер(?:ы|ов|ам|ами|ах)(?![а-яё])"
+    ],
+    "en": [
+     "Seres"
+    ],
+    "la": [
+     "Ser(?:es|um|ibus)(?![a-z])"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "caucones",
+   "ru": "кавконы",
+   "en": "Caucones",
+   "orig": "Caucones; Καύκωνες",
+   "kind": "people",
+   "gloss_ru": "народ Малой Азии; в союзе против Нектанеба",
+   "gloss_en": "people of Asia Minor; in the alliance against Nectanebo",
+   "wikidata": "Q1105717",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "[Кк]авкон"
+    ],
+    "en": [
+     "Caucones"
+    ],
+    "la": [
+     "Caucon(?:es|um|ibus)(?![a-z])"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "iberians",
+   "ru": "иберы",
+   "en": "Iberians",
+   "orig": "Hiberi; Ἴβηρες",
+   "kind": "people",
+   "gloss_ru": "иберы (кавказские или испанские); в союзе против Нектанеба",
+   "gloss_en": "Iberians (Caucasian or Spanish); in the alliance against Nectanebo",
+   "wikidata": "",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "[Ии]бер(?:ы|ов|ам|ами|ах)(?![а-яё])"
+    ],
+    "en": [
+     "Iberians"
+    ],
+    "la": [
+     "Hiber(?:os|i|orum)(?![a-z])"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "agriophagi",
+   "ru": "агриофаги",
+   "en": "Agriophagi",
+   "orig": "Agriophagi",
+   "kind": "people",
+   "gloss_ru": "«пожиратели дичи», баснословный народ; в союзе против Нектанеба",
+   "gloss_en": "‘eaters of wild beasts’, a fabulous people; in the alliance against Nectanebo",
+   "wikidata": "",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "[Аа]гриофаг"
+    ],
+    "en": [
+     "Agriophag"
+    ],
+    "la": [
+     "Agriophag"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "euonymitae",
+   "ru": "эвонимиты",
+   "en": "Euonymitae",
+   "orig": "Eunomitae (Eunomitas); Εὐωνυμῖται",
+   "kind": "people",
+   "gloss_ru": "баснословный народ; в союзе против Нектанеба",
+   "gloss_en": "fabulous people; in the alliance against Nectanebo",
+   "wikidata": "",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "[Ээ]вонимит"
+    ],
+    "en": [
+     "Euonymit",
+     "Eunomit"
+    ],
+    "la": [
+     "Eunomit"
+    ],
+    "grc": [
+     "Εὐωνυμ"
+    ]
+   },
+   "exclude": []
+  }
+ ],
+ "notes": "Index NAMES AND MYTHS: 105 entities with 369 unit hits in total. I read all three texts in full and modified none of them.\n\nHOW THE PATTERNS WERE TESTED\n- Each text was split into the specified units:\n  - zacher-1: c<N> = latin+ru+en; n<N> = ru+en.\n  - odyssey-10: s1–s4 = Greek + translations + segment header/review log; n1a…n4a = RU and EN note merged by id.\n  - study-laestrygonians: abstract = Аннотация + Abstract; s1–s6; n1–n38; appx-1…12. Литература is excluded.\n- Every pattern was run against the whole text of each unit with the anchor (?<!\\w), and the hits were counted per unit. Every pattern listed hits at least once. A loose stem search found no missed case forms.\n- Exclusions are built into the patterns as negative lookaheads/lookbehinds, so they work whatever the scanner does with `exclude`. Each `exclude` entry repeats the false-hit phrase, anchored at the hit position.\n\nFALSE HITS GUARDED AGAINST\n- «Александр Михельс» (editor, odyssey-10 s3 review log).\n- Planets in Zacher ch. 4: Юпитер/Iovem/Jupiter and Меркурий/Mercurium/Mercury.\n- Attalus of Rhodes (article s4, n17).\n- Ptolemy's Almagest (article n24).\n- Pausanias the periegete (Zacher n71).\n- The poem title in quotes («Одиссее», „Одиссее“): handled by a lookbehind in the Odysseus pattern; the genitive «Одиссеи» is excluded by its form.\n- Александрия/александрийцы, Гефестион vs Гефест, Vulcano vs Vulcan, Клитомах/Клитарх vs Клит, Аполлодор vs Аполлон, Эолия/Эоловы острова vs Эол, Ἱπποτάδης vs Ἱππότου, Ὀδύσσεια vs Ὀδυσσεύς.\n\nPEOPLES\n- Only ethnonym nouns are matched, including singulars: египтянин, фиванец, an Egyptian, a Macedonian.\n- Adjectives are deliberately not matched (египетский, персидский, тирийские, Persian, Theban soldiers, скифскую).\n- [Лл]естригон also covers Лестригония (the land) and лестригонский.\n\nMERGED ENTRIES\n- Зевс → Юпитер.\n- Гермес / Майей рождённый / Maiugena → Меркурий.\n- Алкид → Геркулес.\n- Полидевк → Поллукс.\n- Гефест → Вулкан.\n- Великая Мать → Кибела.\n- Ланика → Алакринис.\n- Улисс/Ulixes → Одиссей.\n\nDELIBERATELY NOT INDEXED\n- Authors and scholars as authors: Homer, Hesiod, Pindar, Aratus, Eudoxus, Hipparchus, Attalus of Rhodes, Crates, Aristarchus, Aristonicus, Geminus, Pytheas, Herodicus, Athenaeus, Gellius, Strabo, Eratosthenes, Apollodorus, Polybius, Thucydides, Diodorus, Plutarch, Arrian, Herodotus, Pliny, Clitarchus, Memnon, Photius, Favorinus, Vincent of Beauvais, Julius Valerius, Tzetzes, Asclepiades, Palaephatus, Eustathius, Ptolemy the astronomer, Aristyllus, Boethus, Cleanthes, and all modern editors.\n- Astrological planets (Sun, Moon, Mars, Venus, Saturn in ch. 4) and constellations (голова Дракона, Телец, Пёс).\n- Λάμος/Лам and Телепил are treated as places: the scholion has οἱ τὴν Λάμον οἰκοῦντες.\n- галлы: a class of priests, not a name.\n- Unnamed figures: Darius' mother, wife and daughters; the piper in the Latin text; the suitors.\n\nHEADINGS AND KINDS\n- «залбы» is my transliteration; the texts give only ζαλβοί.\n- Night and Day (Ночь/День) appear only in article s1 (Hesiod), as capitalised forms.\n\nWIKIDATA\n- Verified with wbsearchentities, then wbgetentities (labels, descriptions, enwiki/ruwiki).\n- Judgment calls:\n  - ammon = Q3575327 «Zeus Ammon» (Amun is Q58373).\n  - hercules = Q240679, the Roman Hercules (Heracles is Q122248).\n  - aeolus = Q172549 (enwiki «Aeolus (son of Hippotes)»; Q4532166 is a near-duplicate).\n  - attalus = Q356050 (enwiki «Attalus (general)», not Q757885 son of Andromenes).\n  - sesonchosis = Q16879570 Sesostris, «king of ancient Egypt, per Herodotus».\n  - ismenias = Q1098393 «celebrated Theban flute-player»; the identification with the Romance's piper rests on the name.\n  - mithras = Q12614595, the Zoroastrian Mithra (the Graeco-Roman form is Q99743232).\n  - cimmerians = Q1108676, the mythological people (not Q192730, the steppe nomads).\n  - seres = Q210258 (its sitelinks point to Serica).\n  - persians = Q484206: the general ethnic-group item; its description is modern.\n  - athenians, tyrians, corinthians = demonym items (Q120096553, Q131927270, Q131841385).\n- Left empty, because no matching item was found or the match was ambiguous: Antiphon, Polynicus, Alcippus, Menecles, Nicolaus, Lysias, Aemilius, Scamander, Hystaspes and Spinther (Wikidata's Hystaspes items are other people), Antiochus, Zeuxis, Kerberians, Acragantines, Camarinaeans, Leontines, Ethiopians and Indians (only modern items), Thebans, Iberians (Caucasian Q1095640 or Spanish Q190992: ambiguous), Agriophagi, Euonymitae, Zalboi.\n- The API was rate-limited (HTTP 429), so queries ran one at a time with backoff.\n\nPLEIADES\n- Empty for all entries; this index contains no places.\n\nUNIT HITS (largest)\n- Alexander 53, Philip 40, Nectanebo 23, Olympias 19, Darius 18, Laestrygonians 13, Ammon 12, Odysseus 11, Persians 10.\n\nWORKING FILES\n- C:/Users/user/AppData/Local/Temp/claude/C--Users-user-Documents-Projects-Neoscholia/b4f946bd-6075-477c-b48c-f9c5ba60c113/scratchpad/names_gaz_7f3/ (final.json, test_final.py, nunits.py).\n- I moved there because another parallel agent overwrote units.py in scratchpad/idx; the two agents share that folder."
+}

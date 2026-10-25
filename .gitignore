@@ -23,3 +23,9 @@ desktop.ini
 
 # TTS voice samples for comparison (local only)
 /tts-samples/
+
+# Python bytecode
+__pycache__/
+
+# Audio lives in GitHub releases (scripts/tts/tts.py), never in git
+/src/assets/audio/

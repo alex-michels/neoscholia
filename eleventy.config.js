@@ -50,6 +50,34 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("textHash", (s) => createHash("sha1").update(String(s), "utf8").digest("hex").slice(0, 10));
   // Research articles: the page takes its text from research/studies/<slug>/article.md (see lib/article.js).
   eleventyConfig.addFilter("article", (path, links) => renderArticle(path, links));
+
+  // History of the site's content: the version histories of texts and studies (front matter "versions"
+  // or texts[textKey].versions) and the content news in src/_data/news.yaml, newest first.
+  eleventyConfig.addFilter("changeFeed", (pages, texts, news) => {
+    const iso = (d) => String(d).split(".").reverse().join("-");
+    const items = [];
+    for (const p of pages) {
+      const d = p.data;
+      if (!d.version) continue;
+      const versions = d.versions || (d.textKey && texts[d.textKey] && texts[d.textKey].versions) || [];
+      for (const v of versions) {
+        items.push({ at: v.at || iso(v.date), date: v.date, href: p.url.replace(/^\//, ""),
+          title: (d.card && d.card.title) || d.title, version: v.version, text: v.short || v.text });
+      }
+    }
+    for (const n of news || []) items.push({ at: n.at || iso(n.date), date: n.date, text: n.text });
+    return items.sort((a, b) => (a.at < b.at ? 1 : a.at > b.at ? -1 : 0));
+  });
+  eleventyConfig.addFilter("byDate", (items) => items.reduce((days, x) => {
+    if (!days.length || days[days.length - 1].date !== x.date) days.push({ date: x.date, items: [] });
+    days[days.length - 1].items.push(x);
+    return days;
+  }, []));
+  // Published texts and studies for the home page: pages with a "card" in the front matter.
+  eleventyConfig.addFilter("publishedCards", (pages) => pages.filter((p) => p.data.card && p.data.version)
+    .map((p) => ({ ...p.data.card, href: p.url.replace(/^\//, ""), version: p.data.version, updated: p.data.updated,
+      ladder: p.data.ladder, status: p.data.status, textKey: p.data.textKey }))
+    .sort((a, b) => (a.order || 99) - (b.order || 99)));
   eleventyConfig.addWatchTarget("research/studies/");
   // Mark ladder steps up to the current status as done.
   eleventyConfig.addFilter("ladderSteps", (steps, status) => {

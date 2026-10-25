@@ -4,7 +4,7 @@
  "crumbs": [
   {
    "label": "Библиотека",
-   "href": "index.html"
+   "href": "library.html"
   },
   {
    "label": "Роман об Александре",
@@ -56,11 +56,15 @@
   {
    "version": "0.2",
    "date": "25.10.2026",
+   "at": "2026-10-25T18:57",
+   "short": "учтена рецензия GPT-6 Astra (OpenAI); введение сверено со статьёй Зимонайта",
    "text": "Рецензия GPT-6 Astra (OpenAI): 22 замечания, 20 принято, 2 отклонено. Исправлены схолии 5, 8, 10, 11, 19, 24, 46, 51, 53, 59, 64 и 66 и перевод гл. 6, 11, 22 и 46; ещё шесть ошибок найдено при сверке с изданиями. Введение сверено с официальным текстом статьи Г. Зимонайта (<a href=\"https://doi.org/10.1515/9783111091679-012\">De Gruyter, 2023</a>): исправлена граница датировки (terminus ante quem — верхняя, а не нижняя граница), уточнены формулировки о сокращениях, добавлены страницы. <a href=\"https://github.com/alex-michels/neoscholia/blob/main/research/texts/zacher-epitome/review/external/gpt-6-astra.md\">Рецензия</a> · <a href=\"https://github.com/alex-michels/neoscholia/blob/main/research/texts/zacher-epitome/arbitration-log.md\">решения</a>."
   },
   {
    "version": "0.1",
    "date": "25.10.2026",
+   "at": "2026-10-25T16:49",
+   "short": "первая публикация: перевод, новые схолии, перекрёстная проверка моделями Claude",
    "text": "Первая публикация: черновик Claude Opus 5.5, рецензии Claude Sonnet 5.5 и Claude Fable 5.1, арбитраж 42 замечаний; латинский текст сверен с печатным изданием."
   }
  ],

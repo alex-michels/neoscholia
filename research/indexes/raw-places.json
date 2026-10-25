@@ -1,0 +1,2246 @@
+{
+ "entries": [
+  {
+   "id": "egypt",
+   "ru": "Египет",
+   "en": "Egypt",
+   "orig": "Αἴγυπτος; Aegyptus",
+   "kind": "region",
+   "gloss_ru": "страна на Ниле, царство Нектанеба",
+   "gloss_en": "land of the Nile, kingdom of Nectanebo",
+   "wikidata": "Q11768",
+   "pleiades": "981503",
+   "patterns": {
+    "ru": [
+     "Египет(?![а-яё])",
+     "Египт(а|у|ом|е)(?![а-яё])"
+    ],
+    "en": [
+     "Egypt(?![a-z])"
+    ],
+    "la": [
+     "Aegypt(us|i|o|um)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Αἴγυπτ(ος|ον)(?!\\w)",
+     "Αἰγύπτ(ου|ῳ)(?!\\w)"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "libya",
+   "ru": "Ливия",
+   "en": "Libya",
+   "orig": "Λιβύη; Libya",
+   "kind": "region",
+   "gloss_ru": "Северная Африка к западу от Египта; в романе — земля Аммона",
+   "gloss_en": "North Africa west of Egypt; in the Romance the land of Ammon",
+   "wikidata": "Q2370577",
+   "pleiades": "716588",
+   "patterns": {
+    "ru": [
+     "Ливи(я|и|ю|ей)(?![а-яё])"
+    ],
+    "en": [
+     "Libya(?![a-z])"
+    ],
+    "la": [
+     "Liby(a|ae|am)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Λιβύ(η|ης|ῃ|ην|α|ας|ᾳ|αν)(?!\\w)"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "pelusium",
+   "ru": "Пелусий",
+   "en": "Pelusium",
+   "orig": "Πηλούσιον; Pelusium",
+   "kind": "city",
+   "gloss_ru": "крепость в восточной дельте Нила",
+   "gloss_en": "fortress city in the eastern Nile Delta",
+   "wikidata": "Q1145715",
+   "pleiades": "727192",
+   "patterns": {
+    "ru": [
+     "Пелуси(й|я|ю|ем|и)(?![а-яё])"
+    ],
+    "en": [
+     "Pelusium"
+    ],
+    "la": [
+     "Pelusi(um|i|o)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Πηλούσι"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "memphis",
+   "ru": "Мемфис",
+   "en": "Memphis",
+   "orig": "Μέμφις; Memphis",
+   "kind": "city",
+   "gloss_ru": "древняя столица Египта",
+   "gloss_en": "ancient capital of Egypt",
+   "wikidata": "Q5715",
+   "pleiades": "736963",
+   "patterns": {
+    "ru": [
+     "Мемфис(а|е|у|ом)?(?![а-яё])"
+    ],
+    "en": [
+     "Memphis"
+    ],
+    "la": [
+     "Memphi(s|m|dis|di|de)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Μέμφι"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "temple-ptah-memphis",
+   "ru": "храм Вулкана (Гефеста) в Мемфисе",
+   "en": "Temple of Vulcan (Hephaestus, i.e. Ptah) at Memphis",
+   "orig": "Ἡφαιστεῖον; templum Vulcani",
+   "kind": "sanctuary",
+   "gloss_ru": "храм Птаха (у Валерия — Вулкана) в Мемфисе, где Александра возводят на престол",
+   "gloss_en": "temple of Ptah (Valerius' Vulcan) at Memphis, where Alexander is enthroned",
+   "wikidata": "Q11056",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "храм(е|а|у|ом)? Вулкан"
+    ],
+    "en": [
+     "[Tt]emple of Vulcan"
+    ],
+    "la": [
+     "[Tt]empl(um|i|o) Vulcan"
+    ],
+    "grc": [
+     "Ἡφαιστεῖ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "alexandria",
+   "ru": "Александрия",
+   "en": "Alexandria",
+   "orig": "Ἀλεξάνδρεια; Alexandria",
+   "kind": "city",
+   "gloss_ru": "город в дельте Нила, основанный Александром; центр александрийской филологии",
+   "gloss_en": "city in the Nile Delta founded by Alexander; seat of Alexandrian scholarship",
+   "wikidata": "Q1244206",
+   "pleiades": "727070",
+   "patterns": {
+    "ru": [
+     "Александри",
+     "александрийск"
+    ],
+    "en": [
+     "Alexandria"
+    ],
+    "la": [
+     "Alexandri(a|ae|am)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Ἀλεξάνδρει(α|ας|ᾳ|αν)(?!\\w)",
+     "Ἀλεξανδρεί(ας|ᾳ)(?!\\w)"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "aethiopia",
+   "ru": "Эфиопия",
+   "en": "Ethiopia (Aethiopia)",
+   "orig": "Αἰθιοπία; Aethiopia",
+   "kind": "region",
+   "gloss_ru": "земли к югу от Египта",
+   "gloss_en": "the lands south of Egypt",
+   "wikidata": "Q410453",
+   "pleiades": "39274",
+   "patterns": {
+    "ru": [
+     "Эфиопи(я|и|ю|ей)(?![а-яё])"
+    ],
+    "en": [
+     "Ethiopia(?![a-z])",
+     "Aethiopia(?![a-z])"
+    ],
+    "la": [
+     "Aethiopi(a|ae|am)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Αἰθιοπί(α|ας|ᾳ|αν)(?!\\w)"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "tripolis",
+   "ru": "Триполис",
+   "en": "Tripolis",
+   "orig": "Τρίπολις; Tripolis",
+   "kind": "city",
+   "gloss_ru": "финикийский город на побережье (совр. Триполи в Ливане)",
+   "gloss_en": "Phoenician coastal city (modern Tripoli, Lebanon)",
+   "wikidata": "Q111387243",
+   "pleiades": "668394",
+   "patterns": {
+    "ru": [
+     "Триполис(а|е|у|ом)?(?![а-яё])"
+    ],
+    "en": [
+     "Tripolis"
+    ],
+    "la": [
+     "Tripol(is|im|i)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Τρίπολ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "syria",
+   "ru": "Сирия",
+   "en": "Syria",
+   "orig": "Συρία; Syria",
+   "kind": "region",
+   "gloss_ru": "область к востоку от Средиземного моря",
+   "gloss_en": "region east of the Mediterranean",
+   "wikidata": "Q13415123",
+   "pleiades": "1306",
+   "patterns": {
+    "ru": [
+     "Сири(я|и|ю|ей)(?![а-яё])"
+    ],
+    "en": [
+     "Syria(?![a-z])"
+    ],
+    "la": [
+     "Syri(a|ae|am)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Συρί(α|ας|ᾳ|αν)(?!\\w)"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "tyre",
+   "ru": "Тир",
+   "en": "Tyre",
+   "orig": "Τύρος; Tyrus",
+   "kind": "city",
+   "gloss_ru": "финикийский город, взятый Александром",
+   "gloss_en": "Phoenician city taken by Alexander",
+   "wikidata": "Q82070",
+   "pleiades": "678437",
+   "patterns": {
+    "ru": [
+     "Тир(а|е|у|ом|ос)?(?![а-яё])",
+     "[Тт]ирийц",
+     "тирийск"
+    ],
+    "en": [
+     "Tyre(?![a-z])",
+     "Tyrian",
+     "Tyros"
+    ],
+    "la": [
+     "Tyr(us|i|o|um|ii|iis|ios|iorum)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Τύρ(ος|ου|ῳ|ον)(?!\\w)"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "arabia",
+   "ru": "Аравия",
+   "en": "Arabia",
+   "orig": "Ἀραβία; Arabia",
+   "kind": "region",
+   "gloss_ru": "Аравия; в романе — поле битвы с Дарием",
+   "gloss_en": "Arabia; in the Romance the field of battle with Darius",
+   "wikidata": "Q31945",
+   "pleiades": "29475",
+   "patterns": {
+    "ru": [
+     "Арави(я|и|ю|ей)(?![а-яё])"
+    ],
+    "en": [
+     "Arabia(?![a-z])"
+    ],
+    "la": [
+     "Arabi(a|ae|am)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Ἀραβί"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "red-sea",
+   "ru": "Красное море",
+   "en": "Red Sea",
+   "orig": "Ἐρυθρὰ θάλασσα; mare Rubrum",
+   "kind": "sea",
+   "gloss_ru": "Красное (Эритрейское) море",
+   "gloss_en": "the Red (Erythraean) Sea",
+   "wikidata": "Q23406",
+   "pleiades": "39290",
+   "patterns": {
+    "ru": [
+     "Красн(ое|ого|ом|ым|ому) мор"
+    ],
+    "en": [
+     "Red Sea"
+    ],
+    "la": [
+     "[Rr]ubr(um|i|o) mar",
+     "Mar(e|is|i) Rubr"
+    ],
+    "grc": [
+     "Ἐρυθρ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "gaugamela",
+   "ru": "Гавгамелы",
+   "en": "Gaugamela",
+   "orig": "Γαυγάμηλα; Gaugamela",
+   "kind": "city",
+   "gloss_ru": "селение в Месопотамии, место битвы 331 г. до н. э.",
+   "gloss_en": "village in Mesopotamia, site of the battle of 331 BC",
+   "wikidata": "Q180179",
+   "pleiades": "874478",
+   "patterns": {
+    "ru": [
+     "Гавгамел"
+    ],
+    "en": [
+     "Gaugamela"
+    ],
+    "la": [
+     "Gaugamel"
+    ],
+    "grc": [
+     "Γαυγάμηλ",
+     "Γαυγαμήλ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "asia",
+   "ru": "Азия",
+   "en": "Asia",
+   "orig": "Ἀσία; Asia",
+   "kind": "region",
+   "gloss_ru": "Азия; в романе — держава персов за морем",
+   "gloss_en": "Asia; in the Romance the Persian realm across the sea",
+   "wikidata": "Q48",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "(?<!Малой )(?<!Малая )(?<!Малую )Ази(я|и|ю|ей)(?![а-яё])"
+    ],
+    "en": [
+     "Asia(?![a-z])(?! Minor)"
+    ],
+    "la": [
+     "Asi(a|ae|am)(?:que|ve|ne)?(?![a-z])(?! Minor)"
+    ],
+    "grc": [
+     "Ἀσί(α|ας|ᾳ|αν)(?!\\w)"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "asia-minor",
+   "ru": "Малая Азия",
+   "en": "Asia Minor",
+   "orig": "Asia Minor",
+   "kind": "region",
+   "gloss_ru": "полуостров Анатолия",
+   "gloss_en": "the Anatolian peninsula",
+   "wikidata": "Q51614",
+   "pleiades": "837",
+   "patterns": {
+    "ru": [
+     "Мал(ая|ой|ую|ою) Ази"
+    ],
+    "en": [
+     "Asia Minor"
+    ],
+    "la": [
+     "Asi(a|ae|am) Minor"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "taurus",
+   "ru": "Тавр",
+   "en": "Taurus",
+   "orig": "Ταῦρος; Taurus mons",
+   "kind": "mountain",
+   "gloss_ru": "горный хребет на юге Малой Азии",
+   "gloss_en": "mountain range in southern Asia Minor",
+   "wikidata": "Q172556",
+   "pleiades": "648792",
+   "patterns": {
+    "ru": [
+     "Тавр(а|е|у|ом)?(?![а-яё])"
+    ],
+    "en": [
+     "Taurus"
+    ],
+    "la": [
+     "Taur(us|i|o|um)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "cappadocia",
+   "ru": "Каппадокия",
+   "en": "Cappadocia",
+   "orig": "Καππαδοκία; Cappadocia",
+   "kind": "region",
+   "gloss_ru": "область во внутренней Малой Азии",
+   "gloss_en": "region of inner Asia Minor",
+   "wikidata": "Q217265",
+   "pleiades": "628949",
+   "patterns": {
+    "ru": [
+     "Каппадоки(я|и|ю|ей)(?![а-яё])"
+    ],
+    "en": [
+     "Cappadocia"
+    ],
+    "la": [
+     "Cappadoci"
+    ],
+    "grc": [
+     "Καππαδοκ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "lycaonia",
+   "ru": "Ликаония",
+   "en": "Lycaonia",
+   "orig": "Λυκαονία; Lycaonia",
+   "kind": "region",
+   "gloss_ru": "область в Малой Азии; у Валерия отождествлена с Луканией",
+   "gloss_en": "region of Asia Minor; identified with Lucania in Valerius",
+   "wikidata": "Q622598",
+   "pleiades": "648698",
+   "patterns": {
+    "ru": [
+     "Ликаони(я|и|ю|ей)(?![а-яё])"
+    ],
+    "en": [
+     "Lycaonia"
+    ],
+    "la": [
+     "Lycaoni(a|ae|am)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Λυκαονί"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "issus",
+   "ru": "Исс",
+   "en": "Issus",
+   "orig": "Ἰσσός; Issus",
+   "kind": "city",
+   "gloss_ru": "город в Киликии, место битвы 333 г. до н. э.",
+   "gloss_en": "city in Cilicia, site of the battle of 333 BC",
+   "wikidata": "Q1360503",
+   "pleiades": "658490",
+   "patterns": {
+    "ru": [
+     "Исс(а|е|у|ом)?(?![а-яё])"
+    ],
+    "en": [
+     "Issus"
+    ],
+    "la": [
+     "Iss(us|i|o|um)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Ἰσσ(ός|ῷ|όν|οῦ)(?!\\w)"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "troy",
+   "ru": "Троя",
+   "en": "Troy",
+   "orig": "Τροία, Ἴλιον; Troia",
+   "kind": "city",
+   "gloss_ru": "гомеровский город на северо-западе Малой Азии",
+   "gloss_en": "Homeric city in north-west Asia Minor",
+   "wikidata": "Q22647",
+   "pleiades": "550595",
+   "patterns": {
+    "ru": [
+     "Тро(я|и|ю|ей|е)(?![а-яё])"
+    ],
+    "en": [
+     "Troy(?![a-z])"
+    ],
+    "la": [
+     "Troi(a|ae|am)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Τροί(α|ας|ᾳ|αν|η|ης|ῃ|ην)(?!\\w)"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "miletus",
+   "ru": "Милет",
+   "en": "Miletus",
+   "orig": "Μίλητος; Miletus",
+   "kind": "city",
+   "gloss_ru": "ионийский город; в романе ошибочно родина Аристотеля",
+   "gloss_en": "Ionian city; wrongly given as Aristotle's home in the Romance",
+   "wikidata": "Q169460",
+   "pleiades": "599799",
+   "patterns": {
+    "ru": [
+     "Милет(а|е|у|ом)?(?![а-яё])",
+     "[Мм]илетск"
+    ],
+    "en": [
+     "Miletus",
+     "Milesian"
+    ],
+    "la": [
+     "Milet(us|i|o|um)(?:que|ve|ne)?(?![a-z])",
+     "Milesi(us|i|o|um|a)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Μίλητ",
+     "Μιλήτ",
+     "Μιλήσι"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "telmessus",
+   "ru": "Тельмесс",
+   "en": "Telmessus",
+   "orig": "Τελμησσός; Telmessus",
+   "kind": "city",
+   "gloss_ru": "город прорицателей, родина Аристандра",
+   "gloss_en": "city of seers, home of Aristander",
+   "wikidata": "",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Тельмесс"
+    ],
+    "en": [
+     "Telmess"
+    ],
+    "la": [
+     "Telmess"
+    ],
+    "grc": [
+     "Τελμησσ",
+     "Τελμισσ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "mallos",
+   "ru": "Малл",
+   "en": "Mallos",
+   "orig": "Μαλλός; Mallus",
+   "kind": "city",
+   "gloss_ru": "город в Киликии, родина Кратета",
+   "gloss_en": "city in Cilicia, home of Crates",
+   "wikidata": "Q1425353",
+   "pleiades": "648702",
+   "patterns": {
+    "ru": [
+     "Малл(а|е|у|ом|ос)?(?![а-яё])",
+     "[Мм]алльск"
+    ],
+    "en": [
+     "Mallos",
+     "Mallus"
+    ],
+    "la": [
+     "Mall(us|o|um|os)(?:que|ve|ne)?(?![a-z])",
+     "Mallot"
+    ],
+    "grc": [
+     "Μαλλ(ός|οῦ|ῷ|όν)(?!\\w)",
+     "Μαλλώτ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "pergamon",
+   "ru": "Пергам",
+   "en": "Pergamon",
+   "orig": "Πέργαμον; Pergamum",
+   "kind": "city",
+   "gloss_ru": "столица Атталидов, центр филологической школы Кратета",
+   "gloss_en": "Attalid capital, seat of Crates' school of scholarship",
+   "wikidata": "Q18986",
+   "pleiades": "550812",
+   "patterns": {
+    "ru": [
+     "Пергам(а|е|у|ом)?(?![а-яё])",
+     "[Пп]ергамск"
+    ],
+    "en": [
+     "Pergamon",
+     "Pergamum",
+     "Pergamene"
+    ],
+    "la": [
+     "Pergam(um|i|o|on)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Πέργαμ",
+     "Περγάμ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "heraclea-pontica",
+   "ru": "Гераклея Понтийская",
+   "en": "Heraclea Pontica",
+   "orig": "Ἡράκλεια ἡ Ποντική; Heraclea Pontica",
+   "kind": "city",
+   "gloss_ru": "город на южном берегу Чёрного моря, родина историка Мемнона",
+   "gloss_en": "city on the south coast of the Black Sea, home of the historian Memnon",
+   "wikidata": "Q302511",
+   "pleiades": "844944",
+   "patterns": {
+    "ru": [
+     "Гераклейск",
+     "Геракле(я|и|ю|ей)(?![а-яё])"
+    ],
+    "en": [
+     "Heraclea"
+    ],
+    "la": [
+     "Heracle(a|ae|am)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Ἡράκλει(α|ας|ᾳ|αν)(?!\\w)",
+     "Ἡρακλεώτ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "propontis",
+   "ru": "Пропонтида",
+   "en": "Propontis",
+   "orig": "Προποντίς; Propontis",
+   "kind": "sea",
+   "gloss_ru": "Мраморное море",
+   "gloss_en": "the Sea of Marmara",
+   "wikidata": "Q35367",
+   "pleiades": "511381",
+   "patterns": {
+    "ru": [
+     "Пропонтид"
+    ],
+    "en": [
+     "Propontis"
+    ],
+    "la": [
+     "Propont"
+    ],
+    "grc": [
+     "Προποντ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "euxine",
+   "ru": "Эвксинский Понт",
+   "en": "Euxine (Black Sea)",
+   "orig": "Πόντος Εὔξεινος; Pontus Euxinus",
+   "kind": "sea",
+   "gloss_ru": "Чёрное море",
+   "gloss_en": "the Black Sea",
+   "wikidata": "Q166",
+   "pleiades": "1224",
+   "patterns": {
+    "ru": [
+     "Эвксинск",
+     "Понт(а|е|у|ом)? Эвксинск"
+    ],
+    "en": [
+     "Euxine"
+    ],
+    "la": [
+     "Euxin"
+    ],
+    "grc": [
+     "Εὔξειν",
+     "Εὐξείν"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "greece",
+   "ru": "Греция (Эллада)",
+   "en": "Greece (Hellas)",
+   "orig": "Ἑλλάς; Graecia",
+   "kind": "region",
+   "gloss_ru": "Греция; у Гиппарха «Эллада» — широта около 37°",
+   "gloss_en": "Greece; Hipparchus' \"Hellas\" at a latitude of about 37°",
+   "wikidata": "Q41",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Греци(я|и|ю|ей)(?![а-яё])",
+     "Эллад(а|ы|е|у|ой)(?![а-яё])"
+    ],
+    "en": [
+     "Greece",
+     "Hellas(?![a-z])"
+    ],
+    "la": [
+     "Graeci(a|ae|am)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Ἑλλάδ",
+     "Ἑλλάς(?!\\w)"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "achaea",
+   "ru": "Ахайя",
+   "en": "Achaea",
+   "orig": "Ἀχαΐα; Achaia",
+   "kind": "region",
+   "gloss_ru": "Ахайя; у Валерия — Греция (римская провинция)",
+   "gloss_en": "Achaea; in Valerius, Greece (the Roman province)",
+   "wikidata": "Q204772",
+   "pleiades": "981502",
+   "patterns": {
+    "ru": [
+     "Ахай(я|и|ю|ей)(?![а-яё])"
+    ],
+    "en": [
+     "Acha(ea|ia)(?![a-z])"
+    ],
+    "la": [
+     "Achai(a|ae|am)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Ἀχαΐ(α|ας|ᾳ|αν)(?!\\w)"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "macedonia",
+   "ru": "Македония",
+   "en": "Macedonia",
+   "orig": "Μακεδονία; Macedonia",
+   "kind": "region",
+   "gloss_ru": "царство Филиппа и Александра",
+   "gloss_en": "kingdom of Philip and Alexander",
+   "wikidata": "Q83958",
+   "pleiades": "491656",
+   "patterns": {
+    "ru": [
+     "Македони(я|и|ю|ей)(?![а-яё])"
+    ],
+    "en": [
+     "Macedonia(?![a-z])"
+    ],
+    "la": [
+     "Macedoni(a|ae|am)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Μακεδονί(α|ας|ᾳ|αν)(?!\\w)"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "pella",
+   "ru": "Пелла",
+   "en": "Pella",
+   "orig": "Πέλλα; Pella",
+   "kind": "city",
+   "gloss_ru": "столица Македонского царства",
+   "gloss_en": "capital of the Macedonian kingdom",
+   "wikidata": "Q213679",
+   "pleiades": "491687",
+   "patterns": {
+    "ru": [
+     "Пелл(а|ы|е|у|ой)(?![а-яё])"
+    ],
+    "en": [
+     "Pella(?![a-z])"
+    ],
+    "la": [
+     "Pell(a|ae|am)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Πέλλ(α|ης|ῃ|αν|ας|ᾳ)(?!\\w)"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "aegae",
+   "ru": "Эги",
+   "en": "Aegae",
+   "orig": "Αἰγαί; Aegae",
+   "kind": "city",
+   "gloss_ru": "древняя столица Македонии (Вергина), место убийства Филиппа",
+   "gloss_en": "old Macedonian capital (Vergina), where Philip was killed",
+   "wikidata": "Q16963755",
+   "pleiades": "491512",
+   "patterns": {
+    "ru": [
+     "Эг(и|ах|ам|ами)(?![а-яё])"
+    ],
+    "en": [
+     "Aegae(?![a-z])"
+    ],
+    "la": [
+     "Aeg(ae|as|is)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Αἰγ(αί|αῖς|άς|ὰς|ῶν)(?!\\w)"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "methone",
+   "ru": "Мефона",
+   "en": "Methone",
+   "orig": "Μεθώνη; Methone",
+   "kind": "city",
+   "gloss_ru": "город в македонской Пиерии, взятый Филиппом",
+   "gloss_en": "city in Macedonian Pieria taken by Philip",
+   "wikidata": "Q48965819",
+   "pleiades": "491663",
+   "patterns": {
+    "ru": [
+     "Мефон(а|ы|е|у|ой)(?![а-яё])"
+    ],
+    "en": [
+     "Methon(e|a)(?![a-z])"
+    ],
+    "la": [
+     "Methon(a|ae|am|e|en|es)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Μεθών"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "pieria",
+   "ru": "Пиерия",
+   "en": "Pieria",
+   "orig": "Πιερία; Pieria",
+   "kind": "region",
+   "gloss_ru": "область в Македонии у Олимпа",
+   "gloss_en": "region of Macedonia below Olympus",
+   "wikidata": "Q7800388",
+   "pleiades": "491696",
+   "patterns": {
+    "ru": [
+     "Пиери(я|и|ю|ей)(?![а-яё])"
+    ],
+    "en": [
+     "Pieria"
+    ],
+    "la": [
+     "Pieri(a|ae|am)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Πιερί"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "orestis",
+   "ru": "Орестида",
+   "en": "Orestis",
+   "orig": "Ὀρεστίς; Orestis",
+   "kind": "region",
+   "gloss_ru": "область Верхней Македонии, родина Павсания",
+   "gloss_en": "district of Upper Macedonia, home of Pausanias",
+   "wikidata": "Q183431",
+   "pleiades": "481938",
+   "patterns": {
+    "ru": [
+     "Орестид(а|ы|е|у|ой)(?![а-яё])"
+    ],
+    "en": [
+     "Orestis(?![a-z])"
+    ],
+    "la": [
+     "Orest(is|idis|ide|idem)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Ὀρεστ(ίς|ίδος|ίδι|ίδα)(?!\\w)"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "stagira",
+   "ru": "Стагира",
+   "en": "Stagira",
+   "orig": "Στάγειρα; Stagira",
+   "kind": "city",
+   "gloss_ru": "город на Халкидике, родина Аристотеля",
+   "gloss_en": "city in Chalcidice, birthplace of Aristotle",
+   "wikidata": "Q846127",
+   "pleiades": "501625",
+   "patterns": {
+    "ru": [
+     "Стагир(а|ы|е|у|ой)?(?![а-яё])"
+    ],
+    "en": [
+     "Stagira"
+    ],
+    "la": [
+     "Stagir"
+    ],
+    "grc": [
+     "Στάγειρ",
+     "Σταγείρ",
+     "Στάγιρ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "thrace",
+   "ru": "Фракия",
+   "en": "Thrace",
+   "orig": "Θρᾴκη; Thracia",
+   "kind": "region",
+   "gloss_ru": "область к северо-востоку от Македонии",
+   "gloss_en": "region north-east of Macedonia",
+   "wikidata": "Q41741",
+   "pleiades": "501638",
+   "patterns": {
+    "ru": [
+     "Фраки(я|и|ю|ей)(?![а-яё])"
+    ],
+    "en": [
+     "Thrace(?![a-z])"
+    ],
+    "la": [
+     "Thraci(a|ae|am)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Θρᾴκ",
+     "Θράκ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "abdera",
+   "ru": "Абдера",
+   "en": "Abdera",
+   "orig": "Ἄβδηρα; Abdera",
+   "kind": "city",
+   "gloss_ru": "город на фракийском побережье",
+   "gloss_en": "city on the Thracian coast",
+   "wikidata": "Q132527193",
+   "pleiades": "501323",
+   "patterns": {
+    "ru": [
+     "Абдер(а|ы|е|у|ой|ах)(?![а-яё])"
+    ],
+    "en": [
+     "Abdera"
+    ],
+    "la": [
+     "Abder(a|ae|am|is|orum)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Ἄβδηρ",
+     "Ἀβδήρ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "tragilus",
+   "ru": "Трагил",
+   "en": "Tragilus",
+   "orig": "Τράγιλος; Tragilus",
+   "kind": "city",
+   "gloss_ru": "город во Фракии, родина мифографа Асклепиада",
+   "gloss_en": "town in Thrace, home of the mythographer Asclepiades",
+   "wikidata": "Q18676760",
+   "pleiades": "501648",
+   "patterns": {
+    "ru": [
+     "Трагил(а|е|у|ом)?(?![а-яё])"
+    ],
+    "en": [
+     "Tragilus"
+    ],
+    "la": [
+     "Tragil"
+    ],
+    "grc": [
+     "Τράγιλ",
+     "Τραγίλ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "epirus",
+   "ru": "Эпир",
+   "en": "Epirus",
+   "orig": "Ἤπειρος; Epirus",
+   "kind": "region",
+   "gloss_ru": "область на северо-западе Греции, родина Олимпиады",
+   "gloss_en": "region of north-west Greece, Olympias' homeland",
+   "wikidata": "Q565751",
+   "pleiades": "530871",
+   "patterns": {
+    "ru": [
+     "Эпир(а|е|у|ом)?(?![а-яё])"
+    ],
+    "en": [
+     "Epirus"
+    ],
+    "la": [
+     "Epir(us|i|o|um)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Ἤπειρ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "acarnania",
+   "ru": "Акарнания",
+   "en": "Acarnania",
+   "orig": "Ἀκαρνανία; Acarnania",
+   "kind": "region",
+   "gloss_ru": "область в Западной Греции; в романе — царство Николая",
+   "gloss_en": "region of western Greece; in the Romance the kingdom of Nicolaus",
+   "wikidata": "Q416070",
+   "pleiades": "530767",
+   "patterns": {
+    "ru": [
+     "Акарнани(я|и|ю|ей)(?![а-яё])",
+     "[Аа]карнанц"
+    ],
+    "en": [
+     "Acarnania",
+     "Acernania"
+    ],
+    "la": [
+     "Ac[ae]rnan"
+    ],
+    "grc": [
+     "Ἀκαρναν"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "delphi",
+   "ru": "Дельфы",
+   "en": "Delphi",
+   "orig": "Δελφοί; Delphi",
+   "kind": "sanctuary",
+   "gloss_ru": "святилище и оракул Аполлона в Фокиде",
+   "gloss_en": "sanctuary and oracle of Apollo in Phocis",
+   "wikidata": "Q75459",
+   "pleiades": "540726",
+   "patterns": {
+    "ru": [
+     "Дельф(ы|ах|ам|ами)(?![а-яё])",
+     "[Дд]ельфийск"
+    ],
+    "en": [
+     "Delphi(?![a-z])",
+     "Delphic"
+    ],
+    "la": [
+     "Delph(i|os|is|orum)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Δελφ(οί|ούς|οῖς|ῶν|οὶ|οὺς)(?!\\w)"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "thebes",
+   "ru": "Фивы",
+   "en": "Thebes",
+   "orig": "Θῆβαι; Thebae",
+   "kind": "city",
+   "gloss_ru": "главный город Беотии, разрушенный Александром",
+   "gloss_en": "chief city of Boeotia, destroyed by Alexander",
+   "wikidata": "Q11225429",
+   "pleiades": "541138",
+   "patterns": {
+    "ru": [
+     "Фив(ы|ах|ам|ами)(?![а-яё])",
+     "[Фф]иванц",
+     "[Фф]иванск"
+    ],
+    "en": [
+     "Thebes",
+     "Theban"
+    ],
+    "la": [
+     "Theb(ae|as|is|arum)(?:que|ve|ne)?(?![a-z])",
+     "Theban(i|us|orum|is|os|um|o)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Θῆβ(αι|ας|αις)(?!\\w)",
+     "Θηβ(ῶν|αῖ|αί)"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "athens",
+   "ru": "Афины",
+   "en": "Athens",
+   "orig": "Ἀθῆναι; Athenae",
+   "kind": "city",
+   "gloss_ru": "главный город Аттики",
+   "gloss_en": "chief city of Attica",
+   "wikidata": "Q844930",
+   "pleiades": "579885",
+   "patterns": {
+    "ru": [
+     "Афин(ы|ах|ам|ами)?(?![а-яё])",
+     "[Аа]финян"
+    ],
+    "en": [
+     "Athens",
+     "Athenian"
+    ],
+    "la": [
+     "Athen(ae|as|is|arum)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Ἀθῆν(αι|ας|αις)(?!\\w)",
+     "Ἀθηνῶν"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "lyceum",
+   "ru": "Ликей",
+   "en": "Lyceum",
+   "orig": "Λύκειον; Lyceum",
+   "kind": "sanctuary",
+   "gloss_ru": "святилище Аполлона Ликейского и гимнасий в Афинах",
+   "gloss_en": "sanctuary of Apollo Lyceius and gymnasium at Athens",
+   "wikidata": "Q1160664",
+   "pleiades": "122572945",
+   "patterns": {
+    "ru": [
+     "Лике(й|я|е|ю|ем)(?![а-яё])"
+    ],
+    "en": [
+     "Lyceum"
+    ],
+    "la": [
+     "Lyce(um|i|o)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Λύκει(ον|ου|ῳ)(?!\\w)",
+     "Λυκεί(ου|ῳ)(?!\\w)"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "corinth",
+   "ru": "Коринф",
+   "en": "Corinth",
+   "orig": "Κόρινθος; Corinthus",
+   "kind": "city",
+   "gloss_ru": "город на Истме",
+   "gloss_en": "city on the Isthmus",
+   "wikidata": "Q1363688",
+   "pleiades": "570182",
+   "patterns": {
+    "ru": [
+     "Коринф(а|е|у|ом)?(?![а-яё])",
+     "[Кк]оринфян",
+     "коринфск"
+    ],
+    "en": [
+     "Corinth"
+    ],
+    "la": [
+     "Corinth(us|i|o|um)(?:que|ve|ne)?(?![a-z])",
+     "Corinthi(i|orum|is|os)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Κόρινθ",
+     "Κορίνθ",
+     "Κορινθ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "isthmia",
+   "ru": "Истмия",
+   "en": "Isthmia",
+   "orig": "Ἰσθμός, Ἴσθμια; Isthmus",
+   "kind": "sanctuary",
+   "gloss_ru": "святилище Посейдона на Коринфском перешейке, место Истмийских игр",
+   "gloss_en": "sanctuary of Poseidon on the Isthmus of Corinth, site of the Isthmian Games",
+   "wikidata": "Q1232123",
+   "pleiades": "570316",
+   "patterns": {
+    "ru": [
+     "Истми(я|и|ю|ей)(?![а-яё])",
+     "[Ии]стмийск"
+    ],
+    "en": [
+     "Isthmia"
+    ],
+    "la": [
+     "Isthm"
+    ],
+    "grc": [
+     "Ἰσθμ",
+     "Ἴσθμ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "elis",
+   "ru": "Элида",
+   "en": "Elis",
+   "orig": "Ἦλις; Elis",
+   "kind": "region",
+   "gloss_ru": "область на северо-западе Пелопоннеса",
+   "gloss_en": "region of the north-west Peloponnese",
+   "wikidata": "Q6536845",
+   "pleiades": "570221",
+   "patterns": {
+    "ru": [
+     "Элид(а|ы|е|у|ой)(?![а-яё])"
+    ],
+    "en": [
+     "Elis(?![a-z])"
+    ],
+    "la": [
+     "Eli(s|dis|di|dem|de|m)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Ἦλι(ς|δος|δι|ν|δα)(?!\\w)"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "pisa",
+   "ru": "Писа",
+   "en": "Pisa",
+   "orig": "Πῖσα; Pisa",
+   "kind": "city",
+   "gloss_ru": "город в Элиде у Олимпии; в романе — место олимпийских бегов",
+   "gloss_en": "town in Elis near Olympia; in the Romance the scene of the chariot race",
+   "wikidata": "Q922329",
+   "pleiades": "570612",
+   "patterns": {
+    "ru": [
+     "Пис(а|ы|е|у|ой)(?![а-яё])"
+    ],
+    "en": [
+     "Pisa(?![a-z])"
+    ],
+    "la": [
+     "Pis(a|ae|am|as|is|arum)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Π[ιίῖ]σ(α|αν|ης|ῃ|ας|ᾳ)(?!\\w)"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "olympia",
+   "ru": "Олимпия",
+   "en": "Olympia",
+   "orig": "Ὀλυμπία; Olympia",
+   "kind": "sanctuary",
+   "gloss_ru": "святилище Зевса в Элиде, место Олимпийских игр",
+   "gloss_en": "sanctuary of Zeus in Elis, site of the Olympic Games",
+   "wikidata": "Q38888",
+   "pleiades": "570531",
+   "patterns": {
+    "ru": [
+     "Олимпи(я|и|ю|ей)(?![а-яё])",
+     "[Оо]лимпийск"
+    ],
+    "en": [
+     "Olympia(?![a-z])",
+     "Olympic",
+     "Olympian"
+    ],
+    "la": [
+     "Olympi(a|ae|am)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Ὀλυμπί(α|ας|ᾳ|αν)(?!\\w)"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "rhodes",
+   "ru": "Родос",
+   "en": "Rhodes",
+   "orig": "Ῥόδος; Rhodus",
+   "kind": "island",
+   "gloss_ru": "остров у побережья Карии; у Гемина — широта 14½-часового дня",
+   "gloss_en": "island off Caria; for Geminus the latitude of the 14½-hour day",
+   "wikidata": "Q43048",
+   "pleiades": "590031",
+   "patterns": {
+    "ru": [
+     "Родос(а|е|у|ом)?(?![а-яё])",
+     "[Рр]одосск"
+    ],
+    "en": [
+     "Rhodes",
+     "Rhodian"
+    ],
+    "la": [
+     "Rhod(us|i|o|um|os)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Ῥόδ(ος|ου|ῳ|ον)(?!\\w)",
+     "Ῥόδι"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "delos",
+   "ru": "Делос",
+   "en": "Delos",
+   "orig": "Δῆλος; Delos",
+   "kind": "island",
+   "gloss_ru": "остров в Кикладах; по мифу — некогда плавучий",
+   "gloss_en": "island in the Cyclades, in myth once floating",
+   "wikidata": "Q173148",
+   "pleiades": "599588",
+   "patterns": {
+    "ru": [
+     "Делос(а|е|у|ом)?(?![а-яё])"
+    ],
+    "en": [
+     "Delos"
+    ],
+    "la": [
+     "Del(os|us|o|um|i)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Δῆλ(ος|ον|ου|ῳ)(?!\\w)",
+     "Δᾶλ(ος|ον|ου|ῳ)(?!\\w)"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "italy",
+   "ru": "Италия",
+   "en": "Italy",
+   "orig": "Ἰταλία; Italia",
+   "kind": "region",
+   "gloss_ru": "Апеннинский полуостров",
+   "gloss_en": "the Italian peninsula",
+   "wikidata": "Q145694",
+   "pleiades": "1052",
+   "patterns": {
+    "ru": [
+     "Итали(я|и|ю|ей)(?![а-яё])",
+     "италийск"
+    ],
+    "en": [
+     "Italy"
+    ],
+    "la": [
+     "Itali(a|ae|am)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Ἰταλί"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "rome",
+   "ru": "Рим",
+   "en": "Rome",
+   "orig": "Ῥώμη; Roma",
+   "kind": "city",
+   "gloss_ru": "город на Тибре; римляне как держава",
+   "gloss_en": "city on the Tiber; the Romans as a state",
+   "wikidata": "Q220",
+   "pleiades": "423025",
+   "patterns": {
+    "ru": [
+     "Рим(а|е|у|ом)?(?![а-яё])",
+     "[Рр]имлян"
+    ],
+    "en": [
+     "Rome(?![a-z])",
+     "Romans"
+    ],
+    "la": [
+     "Rom(a|ae|am)(?:que|ve|ne)?(?![a-z])",
+     "Roman(i|orum|is|os)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Ῥώμ(η|ης|ῃ|ην)(?!\\w)",
+     "Ῥωμαῖ",
+     "Ῥωμαί"
+    ]
+   },
+   "exclude": [
+    "[Рр]имляне называют",
+    "Romans call"
+   ]
+  },
+  {
+   "id": "lucania",
+   "ru": "Лукания",
+   "en": "Lucania",
+   "orig": "Λευκανία; Lucania",
+   "kind": "region",
+   "gloss_ru": "область на юге Италии",
+   "gloss_en": "region of southern Italy",
+   "wikidata": "Q1131978",
+   "pleiades": "442639",
+   "patterns": {
+    "ru": [
+     "Лукани(я|и|ю|ей)(?![а-яё])"
+    ],
+    "en": [
+     "Lucania"
+    ],
+    "la": [
+     "Lucani(a|ae|am)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Λευκανί"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "formiae",
+   "ru": "Формии",
+   "en": "Formiae",
+   "orig": "Φορμίαι; Formiae",
+   "kind": "city",
+   "gloss_ru": "город в Лации, отождествлявшийся с городом лестригонов",
+   "gloss_en": "town in Latium identified with the Laestrygonian city",
+   "wikidata": "Q11014097",
+   "pleiades": "432839",
+   "patterns": {
+    "ru": [
+     "Форми(и|й|ях|ям|ями)(?![а-яё])"
+    ],
+    "en": [
+     "Formiae"
+    ],
+    "la": [
+     "Formi(ae|as|is|arum)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Φορμί"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "rhegium",
+   "ru": "Регий",
+   "en": "Rhegium",
+   "orig": "Ῥήγιον; Rhegium",
+   "kind": "city",
+   "gloss_ru": "город на италийском берегу Мессинского пролива",
+   "gloss_en": "city on the Italian shore of the Strait of Messina",
+   "wikidata": "Q3429952",
+   "pleiades": "452416",
+   "patterns": {
+    "ru": [
+     "Реги(й|я|и|ю|ем)(?![а-яё])"
+    ],
+    "en": [
+     "Rhegium"
+    ],
+    "la": [
+     "Rhegi(um|i|o)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Ῥήγι"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "carthage",
+   "ru": "Карфаген",
+   "en": "Carthage",
+   "orig": "Καρχηδών; Carthago",
+   "kind": "city",
+   "gloss_ru": "финикийский город в Северной Африке",
+   "gloss_en": "Phoenician city in North Africa",
+   "wikidata": "Q6343",
+   "pleiades": "314921",
+   "patterns": {
+    "ru": [
+     "Карфаген(а|е|у|ом)?(?![а-яё])"
+    ],
+    "en": [
+     "Carthag"
+    ],
+    "la": [
+     "Carthag(o|inis|ini|inem|ine)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Καρχηδ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "sicily",
+   "ru": "Сицилия",
+   "en": "Sicily",
+   "orig": "Σικελία; Sicilia",
+   "kind": "island",
+   "gloss_ru": "остров к югу от Италии; одна из локализаций странствий Одиссея",
+   "gloss_en": "island south of Italy; one localisation of Odysseus' wanderings",
+   "wikidata": "Q1460",
+   "pleiades": "462492",
+   "patterns": {
+    "ru": [
+     "Сицили(я|и|ю|ей)(?![а-яё])",
+     "[Сс]ицилийск"
+    ],
+    "en": [
+     "Sicil(y|ian)"
+    ],
+    "la": [
+     "Sicili(a|ae|am)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Σικελί"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "leontini",
+   "ru": "Леонтины",
+   "en": "Leontini",
+   "orig": "Λεοντῖνοι; Leontini",
+   "kind": "city",
+   "gloss_ru": "город в Сицилии; в схолиях — земля лестригонов",
+   "gloss_en": "city in Sicily; in the scholia the land of the Laestrygonians",
+   "wikidata": "Q3830644",
+   "pleiades": "462279",
+   "patterns": {
+    "ru": [
+     "Леонтин(ы|ах|ам|ами)?(?![а-яё])",
+     "[Лл]еонтинц"
+    ],
+    "en": [
+     "Leontin"
+    ],
+    "la": [
+     "Leontin"
+    ],
+    "grc": [
+     "Λεοντ[ίι]ν",
+     "Λεοντῖν"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "camarina",
+   "ru": "Камарина",
+   "en": "Camarina",
+   "orig": "Καμάρινα; Camarina",
+   "kind": "city",
+   "gloss_ru": "город на южном берегу Сицилии; камаринцы как лотофаги",
+   "gloss_en": "city on the south coast of Sicily; its people taken as the Lotus-eaters",
+   "wikidata": "Q854843",
+   "pleiades": "462126",
+   "patterns": {
+    "ru": [
+     "Камарин(а|ы|е|у|ой)(?![а-яё])",
+     "[Кк]амаринц"
+    ],
+    "en": [
+     "Camarin"
+    ],
+    "la": [
+     "Camarin"
+    ],
+    "grc": [
+     "Καμαριν",
+     "Καμάριν"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "acragas",
+   "ru": "Акрагант",
+   "en": "Acragas",
+   "orig": "Ἀκράγας; Agrigentum",
+   "kind": "city",
+   "gloss_ru": "город на южном берегу Сицилии (совр. Агридженто)",
+   "gloss_en": "city on the south coast of Sicily (modern Agrigento)",
+   "wikidata": "Q3607380",
+   "pleiades": "462086",
+   "patterns": {
+    "ru": [
+     "Акрагант(а|е|у|ом)?(?![а-яё])",
+     "[Аа]крагантц"
+    ],
+    "en": [
+     "Acragas",
+     "Acragantine"
+    ],
+    "la": [
+     "Acragant",
+     "Acragas",
+     "Agrigent"
+    ],
+    "grc": [
+     "Ἀκράγα",
+     "Ἀκραγαντ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "tyrrhenian-sea",
+   "ru": "Тирренское море",
+   "en": "Tyrrhenian Sea",
+   "orig": "Τυρρηνικὸν πέλαγος; mare Tyrrhenum",
+   "kind": "sea",
+   "gloss_ru": "море к западу от Италии",
+   "gloss_en": "the sea west of Italy",
+   "wikidata": "Q38882",
+   "pleiades": "1356",
+   "patterns": {
+    "ru": [
+     "Тирренск"
+    ],
+    "en": [
+     "Tyrrhenian"
+    ],
+    "la": [
+     "Tyrrhen"
+    ],
+    "grc": [
+     "Τυρρην"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "aeolian-islands",
+   "ru": "Эоловы (Липарские) острова",
+   "en": "Aeolian (Lipari) Islands",
+   "orig": "Αἰόλου νῆσοι; Aeoliae insulae",
+   "kind": "island",
+   "gloss_ru": "архипелаг к северу от Сицилии, отождествлявшийся с островом Эола",
+   "gloss_en": "archipelago north of Sicily, identified with the island of Aeolus",
+   "wikidata": "Q179883",
+   "pleiades": "462076",
+   "patterns": {
+    "ru": [
+     "Эолов(ы|ых|ым|ыми)(?![а-яё])",
+     "Липарск",
+     "остров(ами|ах|ов) Эола"
+    ],
+    "en": [
+     "Aeolian",
+     "Lipari Islands",
+     "islands of Aeolus"
+    ],
+    "la": [
+     "Aeoli(ae|as|is) [Ii]nsul"
+    ],
+    "grc": [
+     "Αἰόλου νήσ",
+     "Αἰολίδ(ες|ας|ων) νήσ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "strongyle",
+   "ru": "Стронгила",
+   "en": "Strongyle",
+   "orig": "Στρογγύλη; Strongyle",
+   "kind": "island",
+   "gloss_ru": "один из Эоловых островов (совр. Стромболи)",
+   "gloss_en": "one of the Aeolian Islands (modern Stromboli)",
+   "wikidata": "Q131148",
+   "pleiades": "452455",
+   "patterns": {
+    "ru": [
+     "Стронгил(а|ы|е|у|ой)(?![а-яё])",
+     "Стромболи"
+    ],
+    "en": [
+     "Strongyle",
+     "Stromboli"
+    ],
+    "la": [
+     "Strongyl"
+    ],
+    "grc": [
+     "Στρογγύλ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "didyme",
+   "ru": "Дидима",
+   "en": "Didyme",
+   "orig": "Διδύμη; Didyme",
+   "kind": "island",
+   "gloss_ru": "один из Эоловых островов (совр. Салина)",
+   "gloss_en": "one of the Aeolian Islands (modern Salina)",
+   "wikidata": "Q505847",
+   "pleiades": "462186",
+   "patterns": {
+    "ru": [
+     "Дидим(а|ы|е|у|ой)(?![а-яё])",
+     "Салин(а|ы|е|у|ой)(?![а-яё])"
+    ],
+    "en": [
+     "Didyme",
+     "Salina(?![a-z])"
+    ],
+    "la": [
+     "Didym(e|es|en|a|ae|am)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Διδύμ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "hiera",
+   "ru": "Гиера",
+   "en": "Hiera",
+   "orig": "Ἱερά; Hiera",
+   "kind": "island",
+   "gloss_ru": "один из Эоловых островов (совр. Вулькано)",
+   "gloss_en": "one of the Aeolian Islands (modern Vulcano)",
+   "wikidata": "Q207323",
+   "pleiades": "462242",
+   "patterns": {
+    "ru": [
+     "Гиер(а|ы|е|у|ой)(?![а-яё])",
+     "Вулькано"
+    ],
+    "en": [
+     "Hiera(?![a-z])",
+     "Vulcano"
+    ],
+    "la": [
+     "Hier(a|ae|am)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Ἱερ(ά|άν|ᾶς|ᾷ|ὰ|ὰν)(?!\\w)"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "hicesia",
+   "ru": "Гикесия",
+   "en": "Hicesia",
+   "orig": "Ἱκεσία; Hicesia",
+   "kind": "island",
+   "gloss_ru": "один из Эоловых островов; отождествление спорно",
+   "gloss_en": "one of the Aeolian Islands; identification disputed",
+   "wikidata": "",
+   "pleiades": "452336",
+   "patterns": {
+    "ru": [
+     "Гикеси(я|и|ю|ей)(?![а-яё])"
+    ],
+    "en": [
+     "Hicesia"
+    ],
+    "la": [
+     "Hicesi"
+    ],
+    "grc": [
+     "Ἱκεσί"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "lipara",
+   "ru": "Липара",
+   "en": "Lipara",
+   "orig": "Λιπάρα; Lipara",
+   "kind": "island",
+   "gloss_ru": "главный из Эоловых островов (совр. Липари)",
+   "gloss_en": "chief of the Aeolian Islands (modern Lipari)",
+   "wikidata": "Q499519",
+   "pleiades": "462284",
+   "patterns": {
+    "ru": [
+     "Липар(а|ы|е|у|ой)(?![а-яё])"
+    ],
+    "en": [
+     "Lipara(?![a-z])"
+    ],
+    "la": [
+     "Lipar(a|ae|am|e)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Λιπάρ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "ericussa",
+   "ru": "Эрикусса",
+   "en": "Ericussa",
+   "orig": "Ἐρικοῦσσα; Ericusa",
+   "kind": "island",
+   "gloss_ru": "один из Эоловых островов (совр. Аликуди)",
+   "gloss_en": "one of the Aeolian Islands (modern Alicudi)",
+   "wikidata": "Q649957",
+   "pleiades": "462199",
+   "patterns": {
+    "ru": [
+     "Эрикусс(а|ы|е|у|ой)(?![а-яё])"
+    ],
+    "en": [
+     "Ericus"
+    ],
+    "la": [
+     "Ericus"
+    ],
+    "grc": [
+     "Ἐρικο[ῦύ]σσ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "phoenicussa",
+   "ru": "Финикусса",
+   "en": "Phoenicussa",
+   "orig": "Φοινικοῦσσα; Phoenicusa",
+   "kind": "island",
+   "gloss_ru": "один из Эоловых островов (совр. Филикуди)",
+   "gloss_en": "one of the Aeolian Islands (modern Filicudi)",
+   "wikidata": "Q743908",
+   "pleiades": "462425",
+   "patterns": {
+    "ru": [
+     "Финикусс(а|ы|е|у|ой)(?![а-яё])"
+    ],
+    "en": [
+     "Phoenicus"
+    ],
+    "la": [
+     "Phoenicus"
+    ],
+    "grc": [
+     "Φοινικο[ῦύ]σσ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "mediterranean",
+   "ru": "Средиземноморье (внутреннее море)",
+   "en": "Mediterranean (the inner sea)",
+   "orig": "ἡ ἔσω θάλασσα; mare internum",
+   "kind": "sea",
+   "gloss_ru": "Средиземное море; у Геллия — «внутреннее море» Аристарха",
+   "gloss_en": "the Mediterranean; in Gellius the \"inner sea\" of Aristarchus",
+   "wikidata": "Q4918",
+   "pleiades": "1043",
+   "patterns": {
+    "ru": [
+     "[Сс]редиземномор",
+     "[Сс]редиземн(ое|ого|ом|ому) мор",
+     "внутренн(ее|его|ем|ему) мор"
+    ],
+    "en": [
+     "Mediterranean",
+     "inner sea"
+    ],
+    "la": [
+     "[Mm]ar(e|i|is) [Ii]ntern"
+    ],
+    "grc": [
+     "ἔσω θαλάσσ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "ocean",
+   "ru": "Океан",
+   "en": "Ocean",
+   "orig": "Ὠκεανός; Oceanus",
+   "kind": "sea",
+   "gloss_ru": "внешний Океан, омывающий обитаемую землю; у Кратета — между тропиками",
+   "gloss_en": "the outer Ocean encircling the inhabited world; for Crates, between the tropics",
+   "wikidata": "Q107549003",
+   "pleiades": "608104479",
+   "patterns": {
+    "ru": [
+     "Океан(а|е|у|ом)?(?![а-яё])"
+    ],
+    "en": [
+     "Ocean(?![a-z])"
+    ],
+    "la": [
+     "Ocean(us|i|o|um)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Ὠκεαν",
+     "ἐν τῇ ἔξω(?!\\w)"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "thule",
+   "ru": "Фула",
+   "en": "Thule",
+   "orig": "Θούλη; Thule",
+   "kind": "island",
+   "gloss_ru": "остров на крайнем севере; у Птолемея — на параллели 20-часового дня",
+   "gloss_en": "island in the far north; for Ptolemy on the parallel of the 20-hour day",
+   "wikidata": "Q671008",
+   "pleiades": "20624",
+   "patterns": {
+    "ru": [
+     "Фул(а|ы|е|у|ой)(?![а-яё])"
+    ],
+    "en": [
+     "Thule"
+    ],
+    "la": [
+     "Thul(e|es|en)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Θούλ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "europe",
+   "ru": "Европа",
+   "en": "Europe",
+   "orig": "Εὐρώπη; Europa",
+   "kind": "region",
+   "gloss_ru": "Европа как часть света",
+   "gloss_en": "Europe as a continent",
+   "wikidata": "Q46",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Европ(а|ы|е|у|ой)(?![а-яё])"
+    ],
+    "en": [
+     "Europe(?![a-z])"
+    ],
+    "la": [
+     "Europ(a|ae|am)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Εὐρώπ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "aeolia",
+   "ru": "Эолия",
+   "en": "Aeolia",
+   "orig": "Αἰολίη νῆσος; Aeolia",
+   "kind": "mythical",
+   "gloss_ru": "плавучий остров Эола, владыки ветров",
+   "gloss_en": "the floating island of Aeolus, keeper of the winds",
+   "wikidata": "Q406345",
+   "pleiades": "595204978",
+   "patterns": {
+    "ru": [
+     "Эоли(я|и|ю|ей)(?![а-яё])",
+     "плавуч(ий|его|ем|ему|им) остров",
+     "остров(у|а|ом|е)? ветров"
+    ],
+    "en": [
+     "Aeolia(?![a-z])",
+     "floating island",
+     "island of the winds"
+    ],
+    "la": [
+     "Aeoli(a|am)(?![a-z])",
+     "Aeoliae(?! [Ii]nsul)"
+    ],
+    "grc": [
+     "Αἰολί(η|ην|ης|ῃ|α|αν|ας|ᾳ)(?!\\w)",
+     "πλωτῇ ἐνὶ νήσ",
+     "ἀνέμων νῆσ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "lamos",
+   "ru": "Лам",
+   "en": "Lamos",
+   "orig": "Λάμος; Lamus",
+   "kind": "mythical",
+   "gloss_ru": "«крутой град» лестригонов (Од. 10.81)",
+   "gloss_en": "the \"steep city\" of the Laestrygonians (Od. 10.81)",
+   "wikidata": "",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Лам(а|у|ом|е|ос)?(?![а-яё])"
+    ],
+    "en": [
+     "Lamos(?![a-z])",
+     "Lamus(?![a-z])"
+    ],
+    "la": [
+     "Lam(us|i|o|um)(?:que|ve|ne)?(?![a-z])"
+    ],
+    "grc": [
+     "Λάμ(ος|ου|ον|ῳ)(?!\\w)"
+    ]
+   },
+   "exclude": [
+    "Ламоментеа",
+    "Lamomentea"
+   ]
+  },
+  {
+   "id": "telepylos",
+   "ru": "Телепил",
+   "en": "Telepylos",
+   "orig": "Τηλέπυλος; Telepylus",
+   "kind": "mythical",
+   "gloss_ru": "город лестригонов «с далёкими воротами»",
+   "gloss_en": "city of the Laestrygonians, \"far-gated\"",
+   "wikidata": "Q3562104",
+   "pleiades": "606192094",
+   "patterns": {
+    "ru": [
+     "Телепил(а|е|у|ом)?(?![а-яё])"
+    ],
+    "en": [
+     "Telepyl"
+    ],
+    "la": [
+     "Telepyl"
+    ],
+    "grc": [
+     "Τηλέπυλ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "laestrygonia",
+   "ru": "Лестригония (страна лестригонов)",
+   "en": "Laestrygonia (land of the Laestrygonians)",
+   "orig": "Λαιστρυγονίη; Laestrygonia",
+   "kind": "mythical",
+   "gloss_ru": "страна людоедов-лестригонов из «Одиссеи»; её искали в Сицилии, в Формиях и на крайнем севере",
+   "gloss_en": "land of the cannibal Laestrygonians of the Odyssey, sought in Sicily, at Formiae and in the far north",
+   "wikidata": "Q743931",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "[Лл]естригон"
+    ],
+    "en": [
+     "Laestrygon"
+    ],
+    "la": [
+     "La?estrygon"
+    ],
+    "grc": [
+     "Λαιστρυγ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "cimmerians-land",
+   "ru": "страна киммерийцев",
+   "en": "land of the Cimmerians",
+   "orig": "Κιμμερίων δῆμός τε πόλις τε; Cimmerii",
+   "kind": "mythical",
+   "gloss_ru": "край вечной тьмы у Океана (Од. 11.14–19); Кратет помещал его у полюса",
+   "gloss_en": "land of perpetual darkness by the Ocean (Od. 11.14–19), placed by Crates at the pole",
+   "wikidata": "Q1108676",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "[Кк]иммерий",
+     "[Кк]ербери"
+    ],
+    "en": [
+     "Cimmerian"
+    ],
+    "la": [
+     "Cimmeri"
+    ],
+    "grc": [
+     "Κιμμερ",
+     "Κερβερ(ίων|έων|ίοις|ίους)(?!\\w)"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "lotophagi-land",
+   "ru": "страна лотофагов",
+   "en": "land of the Lotus-eaters",
+   "orig": "Λωτοφάγοι; Lotophagi",
+   "kind": "mythical",
+   "gloss_ru": "страна лотофагов из «Одиссеи»; в схолиях отождествлена с Акрагантом или Камариной",
+   "gloss_en": "land of the Lotus-eaters of the Odyssey, identified in the scholia with Acragas or Camarina",
+   "wikidata": "Q596552",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "[Лл]отофаг"
+    ],
+    "en": [
+     "Lotus-eater",
+     "Lotophag"
+    ],
+    "la": [
+     "Lotophag"
+    ],
+    "grc": [
+     "Λωτοφάγ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "cyclopes-land",
+   "ru": "страна киклопов",
+   "en": "land of the Cyclopes",
+   "orig": "Κύκλωπες; Cyclopes",
+   "kind": "mythical",
+   "gloss_ru": "страна киклопов из «Одиссеи»; в схолиях и у Фукидида — Сицилия, Леонтины",
+   "gloss_en": "land of the Cyclopes of the Odyssey, placed in Sicily (Leontini) by the scholia and Thucydides",
+   "wikidata": "Q128430",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "[Кк]иклоп"
+    ],
+    "en": [
+     "Cyclop"
+    ],
+    "la": [
+     "Cyclop"
+    ],
+    "grc": [
+     "Κύκλωπ",
+     "Κυκλώπ"
+    ]
+   },
+   "exclude": []
+  }
+ ],
+ "notes": "82 place entries from the three texts. I read all three in full and did not modify any project file.\n\nHow I tested: every pattern was compiled as (?<!\\w)(?:pattern) and run over every text unit of the three texts. The units were Zacher c<n>/n<n> (latin, ru, en and the note source field), Odyssey s1–s4 and n1a…n4a (grc, ru, en), and article abstract, s1–s6, n1–n38 and appx-1…12. With all languages' patterns applied to all fields, no pattern hit a word in another script by mistake. Units per entity: Laestrygonia 13; Sicily 9; Egypt 8; Libya, Alexandria and Aeolia 6 each; Macedonia, Thebes and Italy 5 each; most of the rest 1–4.\n\nScanner advice: several units name a place only in embedded Greek or Latin. Examples: article n35 (Τηλέπυλον), n26 (ἐν τῇ ἔσω θαλάσσῃ / ἐν τῇ ἔξω), n31 (τῶν ἀνέμων νῆσον) and n14 (Λαιστρυγόνας). If patterns are applied only by field language, those hits are lost: Telepylos, Mediterranean, Ocean, Aeolia and Laestrygonia each drop by one unit. Apply grc and la patterns to all text. Exclude regexes are meant to match at the start position of the false hit. They cover Rome in Zacher n3 (\"whom the Romans call explorator\") and Lamos against \"Lamomentea\" in n24.\n\nWhat the patterns match:\n- Each toponym in all its case forms. Latin patterns allow -que/-ve/-ne (Asiamque, Taurumque).\n- Ethnic names only where they stand for a city's citizens or for a place known only through its people. These are Tyrians, Thebans, Corinthians, Athenians, Romans, Acarnanians (\"rex Acernanum\"), Leontines, Camarinaeans, Acragantines, and the mythical Laestrygonians, Cimmerians (including Crates' variant Κερβέριοι), Lotus-eaters and Cyclopes.\n- Origin epithets: Малльский, Родосский, Гераклейский, Фиванский, Милетский, дельфийский, олимпийский, истмийский.\n- Country-level ethnics and adjectives are deliberately not matched, because they mostly mean the army or the language. These are египетский / Aegyptii / Egyptian, македоняне / Macedones, греческий and персы. As a result Zacher c1 is a hit for Egypt only through the English \"Egypt\".\n\nDeliberately left out:\n- Peoples with no place name in the texts: the Persians (there is no \"Persia\"), and the c2 list of Indians, Arabs, Phoenicians, Parthians, Assyrians, Scythians, Alans, Oxydracae, Seres, Caucones, Iberians, Agriophagi and Euonymitae.\n- \"Oriens / Восток\" (c2, c8).\n- Unnamed features: the strait (πορθμός, Σ 10.1, i.e. Messina) and the river in n62.\n- Place names that only identify manuscripts or editions. These are the Turin palimpsest, the Paris, Milan/Ambrosian, Marcianus, Hamburg, Palatine-Heidelberg and Moscow codices, the Aldine, \"Rom.\" (the Rome edition of Eustathius), Oxford, and \"Venice 1842\" in the n24 source.\n- Vincent of Beauvais (n32).\n- The bibliography.\n\nID choices to check:\n- Greece is Q41, the modern country. Q11772 (Ancient Greece) is described as a civilisation, not a place.\n- Macedonia is Q83958 (the ancient kingdom), paired with Pleiades 491656 (the region).\n- Achaea is the Roman province (Q204772 / Pleiades 981502), because for Valerius \"Achaia\" means Greece.\n- Elis is the region (570221), not the city (570220).\n- Lycaonia uses Pleiades 648698 (region). 1001911 is the Late Roman province.\n- Asia has no Pleiades ID: 915832 is an unlocated label on a Barrington map, not the continent.\n- The temple entry is Q11056 \"Temple of Ptah\", whose coordinates fall at Memphis/Mit Rahina. Pleiades has no record for it; Per-Ptah 795843 is in Nubia.\n- Ocean is Q107549003 and Pleiades 608104479 (\"River Oceanus\"). I gave it kind \"sea\" because Crates treats it as a real outer ocean; you may prefer \"mythical\".\n- The four \"land of …\" entries carry the Wikidata item for the people (Laestrygonians Q743931, Cimmerians Q1108676, Lotus-eaters Q596552, cyclops Q128430). Pleiades has none. Its 462275 \"Laestrygonii Campi\" is the real plain in Sicily and its 135663336 \"Kimmerioi\" is the historical people, so I did not use either.\n\nLeft blank on purpose:\n- Lamos: the only Wikidata item is Q16328054, king Lamus.\n- Telmessus: Aristander's home could be the Lycian city (Q1145385 / Pleiades 639137) or the Carian one (Q1642438 / 599959).\n- Hicesia: Pleiades 452336 gives it, but it identifies the island with Basiluzzo (Q810177), and the Odyssey note says the identification is disputed (Panarea Q654105 is the other candidate). So I gave the Pleiades ID only.\n\nEvery Wikidata ID was confirmed with wbgetentities (label and description) and every Pleiades ID through /places/<id>/json (title). Candidates were found with wbsearchentities, with the Wikidata SPARQL endpoint used as an extra lookup because the API was rate-limiting."
+}

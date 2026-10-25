@@ -1,0 +1,53 @@
+---
+title: "Указатели — Neoscholia"
+nav: "indexes"
+permalink: "indexes.html"
+styles: ["indexes"]
+scripts: ["indexes"]
+mock: "<b>Первая версия указателей.</b> Словарь имён составлен с помощью моделей; идентификаторы сверены с Wikidata и Pleiades, упоминания найдены автоматически по формам имён. Редактор указатели ещё не просматривал."
+---
+<main id="top">
+    <div class="crumbs"><a href="index.html">Главная</a> › Указатели</div>
+    <section class="ix-head" aria-labelledby="ix-h">
+      <h1 id="ix-h">Указатели</h1>
+      <p class="lede">Сквозные указатели по всем текстам библиотеки, как в конце научной книги: кто и что упомянуто и где именно. Каждая ссылка ведёт к главе, схолии, разделу или примечанию.</p>
+      <nav class="ix-tabs" aria-label="Указатели">
+        {%- for k in indexes.order %}<a href="#{{ k }}">{{ indexes.sections[k].title }} <span>{{ indexes.sections[k].count }}</span></a>{% endfor %}
+      </nav>
+      <p class="ix-filter"><label for="ix-q">Найти</label> <input id="ix-q" type="search" placeholder="Имя, место, произведение…" autocomplete="off"></p>
+    </section>
+
+    {%- for k in indexes.order %}
+    {%- set sec = indexes.sections[k] %}
+    <section class="ix" id="{{ k }}" aria-labelledby="{{ k }}-h">
+      <div class="ix-sec-head">
+        <h2 id="{{ k }}-h">{{ sec.title }}</h2>
+        <p class="letters">{% for l in sec.letters %}<a href="#{{ k }}-{{ l }}">{{ l }}</a>{% endfor %}</p>
+      </div>
+      <dl class="entries">
+      {%- for e in sec.entries %}
+        {%- if loop.first or e.letter != sec.entries[loop.index0 - 1].letter %}<div class="letter" id="{{ k }}-{{ e.letter }}">{{ e.letter }}</div>{% endif %}
+        <div class="entry" id="{{ k }}-{{ e.id }}">
+          <dt>
+            {%- if k == "works" %}{% if e.author %}<a class="auth" href="#authors-{{ e.author_id }}">{{ e.author }}</a>, {% endif %}<b>{{ e.ru }}</b>{% if e.abbr %} <span class="abbr">({{ e.abbr }})</span>{% endif %}
+            {%- else %}<b>{{ e.ru }}</b>{% endif %}
+            {%- if e.orig %} <span class="orig">{{ e.orig }}</span>{% endif %}
+            {%- if e.wikidata %} <a class="ext" href="https://www.wikidata.org/wiki/{{ e.wikidata }}" title="Wikidata {{ e.wikidata }}">WD</a>{% endif %}
+            {%- if e.pleiades %} <a class="ext" href="https://pleiades.stoa.org/places/{{ e.pleiades }}" title="Pleiades {{ e.pleiades }}">Pleiades</a>{% endif %}
+          </dt>
+          <dd>
+            {%- if e.gloss_ru %}<span class="gloss">{{ e.gloss_ru }}</span>{% endif %}
+            {%- if k == "works" %}
+            <ul class="loci">{% for l in e.loci %}<li><span class="locus">{{ l.locus or "в целом" }}</span>{% for r in l.refs %}<span class="where">{{ r.text }}:{% for x in r.links %} <a href="{{ x.href }}">{{ x.label }}</a>{% if not loop.last %},{% endif %}{% endfor %}</span>{% endfor %}</li>{% endfor %}</ul>
+            {%- else %}
+            {%- for r in e.refs %}<span class="where">{{ r.text }}:{% for x in r.links %} <a href="{{ x.href }}">{{ x.label }}</a>{% if not loop.last %},{% endif %}{% endfor %}</span>{% endfor %}
+            {%- if e.works and e.works.length %}<span class="where">Произведения:{% for w in e.works %} <a href="#works-{{ w.id }}">{{ w.ru }}</a>{% if not loop.last %};{% endif %}{% endfor %}</span>{% endif %}
+            {%- endif %}
+          </dd>
+        </div>
+      {%- endfor %}
+      </dl>
+    </section>
+    {%- endfor %}
+    <p class="empty" id="ix-empty" hidden>Ничего не найдено.</p>
+  </main>

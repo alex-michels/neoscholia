@@ -1,8 +1,9 @@
 """Voice the translations of a text page with Silero TTS (pre-recorded audio for the static site).
 
-For every chapter and language the script writes
-  src/assets/audio/<textKey>/<lang>/c<chapter>-<hash>.mp3
-and records it in src/_data/audio/<textKey>.json. <hash> is the first 10 hex digits of the SHA-1 of
+For every chapter and language the script makes <lang>-c<chapter>-<hash>.mp3, uploads it to the GitHub
+release "audio-<textKey>" of the site's repository (the audio is not kept in git, so it does not pile up
+in the history) and records its URL in src/_data/audio/<textKey>.json. A local copy stays in the cache
+folder (see NEOSCHOLIA_TTS_CACHE). <hash> is the first 10 hex digits of the SHA-1 of
 the chapter's translation as it stands in src/_data/texts/<textKey>.json. The page template computes
 the same hash at build time and shows the play button only if they match, so a chapter edited after
 it was voiced simply loses its button until the script is run again.
@@ -39,7 +40,7 @@ VOICES = {
 }
 SAMPLE_RATE = 24000
 PAUSE = 0.3          # seconds of silence between chunks
-BITRATE = "48k"      # mono MP3
+BITRATE = "32k"      # mono MP3; plenty for speech
 
 
 def text_hash(s):
@@ -122,6 +123,19 @@ def write_mp3(audio, path):
     return len(audio) / SAMPLE_RATE
 
 
+def gh(*args, check=True):
+    return subprocess.run(["gh", *args], check=check, capture_output=True, text=True, encoding="utf-8")
+
+
+def ensure_release(repo, tag, title):
+    if gh("release", "view", tag, "--repo", repo, check=False).returncode != 0:
+        notes = (f"Озвучка переводов на странице «{title}»: синтез речи Silero (модели v5_6_ru и v3_en, лицензия моделей "
+                 "CC BY-NC-SA 4.0). Файлы называются <язык>-c<глава>-<отпечаток текста>.mp3; список и отпечатки — "
+                 "src/_data/audio/ в репозитории. Обновляется скриптом scripts/tts/tts.py.")
+        gh("release", "create", tag, "--repo", repo, "--title", f"Озвучка: {title}", "--notes", notes, "--latest=false")
+    return {a["name"] for a in json.loads(gh("release", "view", tag, "--repo", repo, "--json", "assets").stdout)["assets"]}
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("key", help="text key, e.g. zacher-1 (src/_data/texts/<key>.json)")
@@ -134,6 +148,10 @@ def main():
     man_path = ROOT / "src" / "_data" / "audio" / f"{a.key}.json"
     manifest = json.loads(man_path.read_text(encoding="utf-8")) if man_path.exists() else {}
     want = {int(x) for x in a.chapters.split(",") if x.strip()}
+    site = json.loads((ROOT / "src" / "_data" / "site.json").read_text(encoding="utf-8"))
+    repo = site["repo"].split("github.com/")[1]
+    tag = f"audio-{a.key}"
+    assets = ensure_release(repo, tag, data["title"])
     stress = load_stress()
     torch.set_num_threads(os.cpu_count() or 4)
 
@@ -147,19 +165,31 @@ def main():
             print(f"{lang}: up to date")
             continue
         model = model_for(lang)
-        out_dir = ROOT / "src" / "assets" / "audio" / a.key / lang
+        out_dir = CACHE / "audio" / a.key / lang
         out_dir.mkdir(parents=True, exist_ok=True)
         for c in todo:
             ch, h = c["chapter"], text_hash(c[lang])
-            for old in out_dir.glob(f"c{ch}-*.mp3"):
+            for old in out_dir.glob(f"{lang}-c{ch}-*.mp3"):
                 old.unlink()
             t0 = time.perf_counter()
-            mp3 = out_dir / f"c{ch}-{h}.mp3"
+            mp3 = out_dir / f"{lang}-c{ch}-{h}.mp3"
             seconds = write_mp3(synth(model, prepare(c[lang], lang, stress), lang), mp3)
-            entries[str(ch)] = {"file": f"assets/audio/{a.key}/{lang}/{mp3.name}", "hash": h, "seconds": round(seconds, 1)}
+            gh("release", "upload", tag, str(mp3), "--repo", repo, "--clobber")
+            for old in [n for n in assets if n.startswith(f"{lang}-c{ch}-") and n != mp3.name]:
+                gh("release", "delete-asset", tag, old, "--repo", repo, "-y")
+                assets.discard(old)
+            assets.add(mp3.name)
+            entries[str(ch)] = {"url": f"https://github.com/{repo}/releases/download/{tag}/{mp3.name}", "hash": h, "seconds": round(seconds, 1)}
             print(f"{lang} ch {ch}: {seconds:.0f} s of audio in {time.perf_counter() - t0:.0f} s", flush=True)
             man_path.parent.mkdir(parents=True, exist_ok=True)
-            man_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=1) + "\n", encoding="utf-8", newline="\n")
+            for attempt in range(5):  # on Windows the file may be briefly locked by a reader (e.g. a site build)
+                try:
+                    man_path.write_text(json.dumps(manifest, ensure_ascii=False, indent=1) + "\n", encoding="utf-8", newline="\n")
+                    break
+                except OSError:
+                    time.sleep(2)
+            else:
+                raise
 
 
 if __name__ == "__main__":

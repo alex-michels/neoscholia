@@ -1,0 +1,2134 @@
+{
+ "authors": [
+  {
+   "id": "julius-valerius",
+   "ru": "Юлий Валерий",
+   "en": "Julius Valerius",
+   "orig": "Iulius Valerius Alexander Polemius",
+   "kind": "author",
+   "gloss_ru": "латинский переводчик «Романа об Александре» (нач. IV в.), автор «Деяний Александра Македонского»",
+   "gloss_en": "early 4th-century Latin translator of the Alexander Romance (Res gestae Alexandri Macedonis)",
+   "wikidata": "Q1232604",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Валери",
+     "Валерьев"
+    ],
+    "en": [
+     "Valeri",
+     "Iul\\. Val\\."
+    ],
+    "la": [
+     "Iul\\. Val\\.",
+     "Val\\.(?=[»’ ]|$)"
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "pseudo-callisthenes",
+   "ru": "Псевдо-Каллисфен",
+   "en": "Pseudo-Callisthenes",
+   "orig": "Ψευδο-Καλλισθένης / Pseudo-Callisthenes",
+   "kind": "author",
+   "gloss_ru": "условное имя автора греческого «Романа об Александре»",
+   "gloss_en": "conventional name of the author of the Greek Alexander Romance",
+   "wikidata": "Q3409584",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Псевдо-Каллисфен"
+    ],
+    "en": [
+     "Pseudo-Callisthenes",
+     "Ps\\.-Call\\."
+    ],
+    "la": [
+     "Ps\\.-Call\\."
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "epitomator",
+   "ru": "Эпитоматор Юлия Валерия",
+   "en": "Epitomator of Julius Valerius",
+   "orig": "Epitome Iulii Valerii (auctor ignotus)",
+   "kind": "author",
+   "gloss_ru": "анонимный составитель латинского сокращения Юлия Валерия («эпитомы Цахера»)",
+   "gloss_en": "anonymous compiler of the Latin abridgement of Julius Valerius (the Zacher Epitome)",
+   "wikidata": "",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "[Ээ]питоматор"
+    ],
+    "en": [
+     "[Ee]pitomator"
+    ],
+    "la": [],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "plutarch",
+   "ru": "Плутарх",
+   "en": "Plutarch",
+   "orig": "Πλούταρχος",
+   "kind": "author",
+   "gloss_ru": "греческий писатель и биограф (ок. 46 — после 119 г. н. э.), автор жизнеописания Александра",
+   "gloss_en": "Greek writer and biographer (c. AD 46 – after 119), author of the Life of Alexander",
+   "wikidata": "Q41523",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Плутарх"
+    ],
+    "en": [
+     "Plutarch",
+     "Plut\\."
+    ],
+    "la": [
+     "Plut\\."
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "diodorus",
+   "ru": "Диодор",
+   "en": "Diodorus Siculus",
+   "orig": "Διόδωρος Σικελιώτης",
+   "kind": "author",
+   "gloss_ru": "Диодор Сицилийский, греческий историк I в. до н. э., автор «Исторической библиотеки»",
+   "gloss_en": "Greek historian of the 1st century BC, author of the Library of History",
+   "wikidata": "Q171241",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Диодор"
+    ],
+    "en": [
+     "Diodorus",
+     "Diod\\."
+    ],
+    "la": [
+     "Diod\\."
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "herodotus",
+   "ru": "Геродот",
+   "en": "Herodotus",
+   "orig": "Ἡρόδοτος",
+   "kind": "author",
+   "gloss_ru": "греческий историк V в. до н. э.",
+   "gloss_en": "Greek historian of the 5th century BC",
+   "wikidata": "Q26825",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Геродот"
+    ],
+    "en": [
+     "Herodotus",
+     "Hdt\\."
+    ],
+    "la": [
+     "Hdt\\."
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "arrian",
+   "ru": "Арриан",
+   "en": "Arrian",
+   "orig": "Ἀρριανός",
+   "kind": "author",
+   "gloss_ru": "греческий историк II в. н. э., автор «Похода Александра»",
+   "gloss_en": "2nd-century AD Greek historian, author of the Anabasis of Alexander",
+   "wikidata": "Q31845",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Арриан"
+    ],
+    "en": [
+     "Arrian",
+     "Arr\\."
+    ],
+    "la": [
+     "Arr\\."
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "pliny-elder",
+   "ru": "Плиний Старший",
+   "en": "Pliny the Elder",
+   "orig": "Gaius Plinius Secundus",
+   "kind": "author",
+   "gloss_ru": "римский писатель I в. н. э., автор «Естественной истории»",
+   "gloss_en": "1st-century AD Roman writer, author of the Natural History",
+   "wikidata": "Q82778",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Плини[йяюе]"
+    ],
+    "en": [
+     "Pliny",
+     "Plin\\."
+    ],
+    "la": [
+     "Plin\\."
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "clitarchus",
+   "ru": "Клитарх",
+   "en": "Clitarchus",
+   "orig": "Κλείταρχος",
+   "kind": "author",
+   "gloss_ru": "историк Александра (IV–III в. до н. э.); на него ссылается Плиний",
+   "gloss_en": "historian of Alexander (4th–3rd c. BC), cited by Pliny",
+   "wikidata": "Q201867",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Клитарх"
+    ],
+    "en": [
+     "Clitarch",
+     "Cleitarch"
+    ],
+    "la": [],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "memnon",
+   "ru": "Мемнон Гераклейский",
+   "en": "Memnon of Heraclea",
+   "orig": "Μέμνων ὁ Ἡρακλεώτης",
+   "kind": "author",
+   "gloss_ru": "историк Гераклеи Понтийской, известный по выпискам Фотия",
+   "gloss_en": "historian of Heraclea Pontica, known from Photius’ excerpts",
+   "wikidata": "Q983937",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Мемнон"
+    ],
+    "en": [
+     "Memnon"
+    ],
+    "la": [],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "photius",
+   "ru": "Фотий",
+   "en": "Photius",
+   "orig": "Φώτιος",
+   "kind": "author",
+   "gloss_ru": "константинопольский патриарх IX в., автор «Библиотеки»",
+   "gloss_en": "9th-century patriarch of Constantinople, author of the Bibliotheca",
+   "wikidata": "Q243187",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Фоти[йяюе]"
+    ],
+    "en": [
+     "Photius",
+     "Phot\\."
+    ],
+    "la": [
+     "Phot\\."
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "pausanias",
+   "ru": "Павсаний",
+   "en": "Pausanias",
+   "orig": "Παυσανίας",
+   "kind": "author",
+   "gloss_ru": "периэгет II в. н. э., автор «Описания Эллады» (не убийца Филиппа)",
+   "gloss_en": "2nd-century AD periegete, author of the Description of Greece (not Philip’s assassin)",
+   "wikidata": "Q192931",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Павсани[йяюе](?=,? \\d)"
+    ],
+    "en": [
+     "Pausanias(?=,? \\d)",
+     "Paus\\.(?= \\d)"
+    ],
+    "la": [
+     "Paus\\.(?= \\d)"
+    ],
+    "grc": []
+   },
+   "exclude": [
+    "Павсани[йяюе]м? из Орестиды",
+    "Pausanias of Orestis"
+   ]
+  },
+  {
+   "id": "vincent-beauvais",
+   "ru": "Винцент из Бове",
+   "en": "Vincent of Beauvais",
+   "orig": "Vincentius Bellovacensis",
+   "kind": "author",
+   "gloss_ru": "французский энциклопедист XIII в.; его текст — свидетель эпитомы",
+   "gloss_en": "13th-century French encyclopedist; his text is a witness to the Epitome",
+   "wikidata": "Q455162",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Винцент"
+    ],
+    "en": [
+     "Vincent of Beauvais"
+    ],
+    "la": [],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "favorinus",
+   "ru": "Фаворин",
+   "en": "Favorinus",
+   "orig": "Φαβωρῖνος / Favorinus Arelatensis",
+   "kind": "author",
+   "gloss_ru": "Фаворин Арелатский, ритор II в. н. э.; к нему отсылает отступление у Юлия Валерия",
+   "gloss_en": "Favorinus of Arelate, 2nd-century AD rhetor, subject of a digression in Julius Valerius",
+   "wikidata": "Q554387",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Фаворин"
+    ],
+    "en": [
+     "Favorinus"
+    ],
+    "la": [],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "homer",
+   "ru": "Гомер",
+   "en": "Homer",
+   "orig": "Ὅμηρος",
+   "kind": "author",
+   "gloss_ru": "легендарный автор «Илиады» и «Одиссеи»",
+   "gloss_en": "reputed author of the Iliad and the Odyssey",
+   "wikidata": "Q6691",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Гомер(?!ов)"
+    ],
+    "en": [
+     "Homer(?!ic)"
+    ],
+    "la": [
+     "Homer"
+    ],
+    "grc": [
+     "Ὅμηρ",
+     "Ὁμήρ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "thucydides",
+   "ru": "Фукидид",
+   "en": "Thucydides",
+   "orig": "Θουκυδίδης",
+   "kind": "author",
+   "gloss_ru": "афинский историк V в. до н. э.",
+   "gloss_en": "Athenian historian of the 5th century BC",
+   "wikidata": "Q41683",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Фукидид"
+    ],
+    "en": [
+     "Thucydides",
+     "Thuc\\."
+    ],
+    "la": [],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "eratosthenes",
+   "ru": "Эратосфен",
+   "en": "Eratosthenes",
+   "orig": "Ἐρατοσθένης",
+   "kind": "author",
+   "gloss_ru": "александрийский учёный III в. до н. э., скептик в вопросе о географии странствий Одиссея",
+   "gloss_en": "3rd-century BC Alexandrian scholar, sceptic about the geography of Odysseus’ wanderings",
+   "wikidata": "Q43182",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Эратосфен"
+    ],
+    "en": [
+     "Eratosthenes"
+    ],
+    "la": [],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "strabo",
+   "ru": "Страбон",
+   "en": "Strabo",
+   "orig": "Στράβων",
+   "kind": "author",
+   "gloss_ru": "греческий географ (I в. до н. э. — I в. н. э.), автор «Географии»",
+   "gloss_en": "Greek geographer (1st c. BC – 1st c. AD), author of the Geography",
+   "wikidata": "Q45936",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Страбон"
+    ],
+    "en": [
+     "Strabo"
+    ],
+    "la": [
+     "Strab\\."
+    ],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "asclepiades",
+   "ru": "Асклепиад из Трагила",
+   "en": "Asclepiades of Tragilus",
+   "orig": "Ἀσκληπιάδης ὁ Τραγιλεύς",
+   "kind": "author",
+   "gloss_ru": "мифограф IV в. до н. э., автор «Трагедуменов»",
+   "gloss_en": "4th-century BC mythographer, author of the Tragodoumena",
+   "wikidata": "Q585711",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Асклепиад"
+    ],
+    "en": [
+     "Asclepiades"
+    ],
+    "la": [],
+    "grc": [
+     "Ἀσκληπιάδ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "tzetzes",
+   "ru": "Иоанн Цец",
+   "en": "John Tzetzes",
+   "orig": "Ἰωάννης Τζέτζης",
+   "kind": "author",
+   "gloss_ru": "византийский филолог XII в., комментатор Ликофрона",
+   "gloss_en": "12th-century Byzantine scholar, commentator on Lycophron",
+   "wikidata": "Q530515",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Цец"
+    ],
+    "en": [
+     "Tzetzes"
+    ],
+    "la": [],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "lycophron",
+   "ru": "Ликофрон",
+   "en": "Lycophron",
+   "orig": "Λυκόφρων",
+   "kind": "author",
+   "gloss_ru": "эллинистический поэт, автор «Александры», которую комментировал Цец",
+   "gloss_en": "Hellenistic poet, author of the Alexandra commented on by Tzetzes",
+   "wikidata": "Q432737",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Ликофрон"
+    ],
+    "en": [
+     "Lycophron"
+    ],
+    "la": [],
+    "grc": []
+   },
+   "exclude": []
+  },
+  {
+   "id": "pindar",
+   "ru": "Пиндар",
+   "en": "Pindar",
+   "orig": "Πίνδαρος",
+   "kind": "author",
+   "gloss_ru": "греческий лирик V в. до н. э.",
+   "gloss_en": "Greek lyric poet of the 5th century BC",
+   "wikidata": "Q134929",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Пиндар"
+    ],
+    "en": [
+     "Pindar"
+    ],
+    "la": [],
+    "grc": [
+     "Πίνδαρ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "aristarchus",
+   "ru": "Аристарх",
+   "en": "Aristarchus",
+   "orig": "Ἀρίσταρχος ὁ Σαμόθραξ",
+   "kind": "author",
+   "gloss_ru": "Аристарх Самофракийский, александрийский грамматик II в. до н. э., толкователь Гомера",
+   "gloss_en": "Aristarchus of Samothrace, 2nd-century BC Alexandrian grammarian and Homeric exegete",
+   "wikidata": "Q312114",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Аристарх"
+    ],
+    "en": [
+     "Aristarch"
+    ],
+    "la": [],
+    "grc": [
+     "Ἀρίσταρχ"
+    ]
+   },
+   "exclude": []
+  },
+  {
+   "id": "palaephatus",
+   "ru": "Палефат",
+   "en": "Palaephatus",
+   "orig": "Παλαίφατος",
+   "kind": "author",
+   "gloss_ru": "автор рационалистических толкований мифов («О невероятном»)",
+   "gloss_en": "author of rationalising explanations of myths (On Unbelievable Tales)",
+   "wikidata": "Q580565",
+   "pleiades": "",
+   "patterns": {
+    "ru": [
+     "Палефат"
+    ],
+    "en": [
+     "Palaephatus"
+    ],
+    "la": [],
+    "grc": []
+   },
+   "exclude": []
+  }
+ ],
+ "works": [
+  {
+   "id": "iulval-res-gestae",
+   "author_id": "julius-valerius",
+   "ru": "Деяния Александра Македонского",
+   "en": "Res gestae Alexandri Macedonis",
+   "orig": "Res gestae Alexandri Macedonis",
+   "abbr": "Iul. Val.",
+   "wikidata": "Q122583893"
+  },
+  {
+   "id": "ps-call-alpha",
+   "author_id": "pseudo-callisthenes",
+   "ru": "Роман об Александре, редакция α",
+   "en": "Alexander Romance, recension α",
+   "orig": "Βίος Ἀλεξάνδρου τοῦ Μακεδόνος (rec. α)",
+   "abbr": "Ps.-Call. α",
+   "wikidata": ""
+  },
+  {
+   "id": "ps-call-beta",
+   "author_id": "pseudo-callisthenes",
+   "ru": "Роман об Александре, редакция β",
+   "en": "Alexander Romance, recension β",
+   "orig": "Βίος Ἀλεξάνδρου τοῦ Μακεδόνος (rec. β)",
+   "abbr": "Ps.-Call. β",
+   "wikidata": ""
+  },
+  {
+   "id": "alexander-romance-arm",
+   "author_id": "pseudo-callisthenes",
+   "ru": "Армянская версия «Романа об Александре»",
+   "en": "Armenian version of the Alexander Romance",
+   "orig": "Historia Alexandri Magni (versio Armeniaca)",
+   "abbr": "Ps.-Call. Arm.",
+   "wikidata": "Q125343348"
+  },
+  {
+   "id": "plut-alex",
+   "author_id": "plutarch",
+   "ru": "Александр",
+   "en": "Life of Alexander",
+   "orig": "Ἀλέξανδρος (Βίοι παράλληλοι)",
+   "abbr": "Plut. Alex.",
+   "wikidata": "Q11850689"
+  },
+  {
+   "id": "diod-bibl",
+   "author_id": "diodorus",
+   "ru": "Историческая библиотека",
+   "en": "Library of History",
+   "orig": "Βιβλιοθήκη ἱστορική",
+   "abbr": "Diod.",
+   "wikidata": "Q672803"
+  },
+  {
+   "id": "hdt-hist",
+   "author_id": "herodotus",
+   "ru": "История",
+   "en": "Histories",
+   "orig": "Ἱστορίαι",
+   "abbr": "Hdt.",
+   "wikidata": "Q746583"
+  },
+  {
+   "id": "arr-anab",
+   "author_id": "arrian",
+   "ru": "Поход Александра",
+   "en": "Anabasis of Alexander",
+   "orig": "Ἀλεξάνδρου Ἀνάβασις",
+   "abbr": "Arr. Anab.",
+   "wikidata": "Q1236228"
+  },
+  {
+   "id": "plin-nh",
+   "author_id": "pliny-elder",
+   "ru": "Естественная история",
+   "en": "Natural History",
+   "orig": "Naturalis historia",
+   "abbr": "Plin. NH",
+   "wikidata": "Q442"
+  },
+  {
+   "id": "phot-bibl",
+   "author_id": "photius",
+   "ru": "Библиотека",
+   "en": "Bibliotheca",
+   "orig": "Βιβλιοθήκη (Μυριόβιβλος)",
+   "abbr": "Phot. Bibl.",
+   "wikidata": "Q2593363"
+  },
+  {
+   "id": "paus-perieg",
+   "author_id": "pausanias",
+   "ru": "Описание Эллады",
+   "en": "Description of Greece",
+   "orig": "Ἑλλάδος περιήγησις",
+   "abbr": "Paus.",
+   "wikidata": "Q3825645"
+  },
+  {
+   "id": "pgm",
+   "author_id": "anon",
+   "ru": "Греческие магические папирусы",
+   "en": "Greek Magical Papyri",
+   "orig": "Papyri Graecae Magicae",
+   "abbr": "PGM",
+   "wikidata": "Q1186625"
+  },
+  {
+   "id": "hom-od",
+   "author_id": "homer",
+   "ru": "Одиссея",
+   "en": "Odyssey",
+   "orig": "Ὀδύσσεια",
+   "abbr": "Od.",
+   "wikidata": "Q35160"
+  },
+  {
+   "id": "schol-od",
+   "author_id": "anon",
+   "ru": "Схолии к «Одиссее»",
+   "en": "Scholia on the Odyssey",
+   "orig": "Scholia in Homeri Odysseam",
+   "abbr": "Σ Od.",
+   "wikidata": ""
+  },
+  {
+   "id": "thuc-hist",
+   "author_id": "thucydides",
+   "ru": "История",
+   "en": "History of the Peloponnesian War",
+   "orig": "Ἱστορίαι",
+   "abbr": "Thuc.",
+   "wikidata": "Q639493"
+  },
+  {
+   "id": "strab-geog",
+   "author_id": "strabo",
+   "ru": "География",
+   "en": "Geography",
+   "orig": "Γεωγραφικά",
+   "abbr": "Strab.",
+   "wikidata": "Q690653"
+  },
+  {
+   "id": "asclep-tragodoumena",
+   "author_id": "asclepiades",
+   "ru": "Трагедумены",
+   "en": "Tragodoumena",
+   "orig": "Τραγῳδούμενα",
+   "abbr": "Asclep. Trag. (FGrHist 12)",
+   "wikidata": ""
+  },
+  {
+   "id": "tzetz-lyc",
+   "author_id": "tzetzes",
+   "ru": "Комментарий к Ликофрону",
+   "en": "Commentary on Lycophron",
+   "orig": "Σχόλια εἰς Λυκόφρονα",
+   "abbr": "Tzetz. ad Lyc.",
+   "wikidata": ""
+  },
+  {
+   "id": "pind-fr",
+   "author_id": "pindar",
+   "ru": "Фрагменты",
+   "en": "Fragments",
+   "orig": "Fragmenta (ed. Snell–Maehler)",
+   "abbr": "Pind. fr.",
+   "wikidata": ""
+  }
+ ],
+ "loci": [
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.1",
+   "page": "zacher-1",
+   "anchor": "c1",
+   "label": "I.1"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.2",
+   "page": "zacher-1",
+   "anchor": "c2",
+   "label": "I.2"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.3",
+   "page": "zacher-1",
+   "anchor": "c3",
+   "label": "I.3"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.4",
+   "page": "zacher-1",
+   "anchor": "c4",
+   "label": "I.4"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.4",
+   "page": "zacher-1",
+   "anchor": "c4",
+   "label": "I.4"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.5",
+   "page": "zacher-1",
+   "anchor": "c5",
+   "label": "I.5"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.5",
+   "page": "zacher-1",
+   "anchor": "c5",
+   "label": "I.5"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.6",
+   "page": "zacher-1",
+   "anchor": "c6",
+   "label": "I.6"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.6",
+   "page": "zacher-1",
+   "anchor": "c6",
+   "label": "I.6"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.7",
+   "page": "zacher-1",
+   "anchor": "c7",
+   "label": "I.7"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.7",
+   "page": "zacher-1",
+   "anchor": "c7",
+   "label": "I.7"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.8",
+   "page": "zacher-1",
+   "anchor": "c8",
+   "label": "I.8"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.8",
+   "page": "zacher-1",
+   "anchor": "c8",
+   "label": "I.8"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.9",
+   "page": "zacher-1",
+   "anchor": "c9",
+   "label": "I.9"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.9",
+   "page": "zacher-1",
+   "anchor": "c9",
+   "label": "I.9"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.10",
+   "page": "zacher-1",
+   "anchor": "c10",
+   "label": "I.10"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.10",
+   "page": "zacher-1",
+   "anchor": "c10",
+   "label": "I.10"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.11",
+   "page": "zacher-1",
+   "anchor": "c11",
+   "label": "I.11"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.11",
+   "page": "zacher-1",
+   "anchor": "c11",
+   "label": "I.11"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.12",
+   "page": "zacher-1",
+   "anchor": "c12",
+   "label": "I.12"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.12",
+   "page": "zacher-1",
+   "anchor": "c12",
+   "label": "I.12"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.13",
+   "page": "zacher-1",
+   "anchor": "c13",
+   "label": "I.13"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.13",
+   "page": "zacher-1",
+   "anchor": "c13",
+   "label": "I.13"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.14",
+   "page": "zacher-1",
+   "anchor": "c14",
+   "label": "I.14"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.14",
+   "page": "zacher-1",
+   "anchor": "c14",
+   "label": "I.14"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.15",
+   "page": "zacher-1",
+   "anchor": "c15",
+   "label": "I.15"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.15",
+   "page": "zacher-1",
+   "anchor": "c15",
+   "label": "I.15"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.17",
+   "page": "zacher-1",
+   "anchor": "c17",
+   "label": "I.17"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.17",
+   "page": "zacher-1",
+   "anchor": "c17",
+   "label": "I.17"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.18",
+   "page": "zacher-1",
+   "anchor": "c18",
+   "label": "I.18"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.18",
+   "page": "zacher-1",
+   "anchor": "c18",
+   "label": "I.18"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.19",
+   "page": "zacher-1",
+   "anchor": "c19",
+   "label": "I.19"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.19",
+   "page": "zacher-1",
+   "anchor": "c19",
+   "label": "I.19"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.20",
+   "page": "zacher-1",
+   "anchor": "c20",
+   "label": "I.20"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.20",
+   "page": "zacher-1",
+   "anchor": "c20",
+   "label": "I.20"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.21",
+   "page": "zacher-1",
+   "anchor": "c21",
+   "label": "I.21"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.21",
+   "page": "zacher-1",
+   "anchor": "c21",
+   "label": "I.21"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.22",
+   "page": "zacher-1",
+   "anchor": "c22",
+   "label": "I.22"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.22",
+   "page": "zacher-1",
+   "anchor": "c22",
+   "label": "I.22"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.23",
+   "page": "zacher-1",
+   "anchor": "c23",
+   "label": "I.23"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.23",
+   "page": "zacher-1",
+   "anchor": "c23",
+   "label": "I.23"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.24",
+   "page": "zacher-1",
+   "anchor": "c24",
+   "label": "I.24"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.24",
+   "page": "zacher-1",
+   "anchor": "c24",
+   "label": "I.24"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.25",
+   "page": "zacher-1",
+   "anchor": "c25",
+   "label": "I.25"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.25",
+   "page": "zacher-1",
+   "anchor": "c25",
+   "label": "I.25"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.26",
+   "page": "zacher-1",
+   "anchor": "c26",
+   "label": "I.26"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.26",
+   "page": "zacher-1",
+   "anchor": "c26",
+   "label": "I.26"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.29",
+   "page": "zacher-1",
+   "anchor": "c29",
+   "label": "I.29"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.29",
+   "page": "zacher-1",
+   "anchor": "c29",
+   "label": "I.29"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.30",
+   "page": "zacher-1",
+   "anchor": "c30",
+   "label": "I.30"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.30",
+   "page": "zacher-1",
+   "anchor": "c30",
+   "label": "I.30"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.34",
+   "page": "zacher-1",
+   "anchor": "c34",
+   "label": "I.34"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.34",
+   "page": "zacher-1",
+   "anchor": "c34",
+   "label": "I.34"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.35",
+   "page": "zacher-1",
+   "anchor": "c35",
+   "label": "I.35"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.35",
+   "page": "zacher-1",
+   "anchor": "c35",
+   "label": "I.35"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.36",
+   "page": "zacher-1",
+   "anchor": "c36",
+   "label": "I.36"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.36",
+   "page": "zacher-1",
+   "anchor": "c36",
+   "label": "I.36"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.37",
+   "page": "zacher-1",
+   "anchor": "c37",
+   "label": "I.37"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.37",
+   "page": "zacher-1",
+   "anchor": "c37",
+   "label": "I.37"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.38",
+   "page": "zacher-1",
+   "anchor": "c38",
+   "label": "I.38"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.38",
+   "page": "zacher-1",
+   "anchor": "c38",
+   "label": "I.38"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.39",
+   "page": "zacher-1",
+   "anchor": "c39",
+   "label": "I.39"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.39",
+   "page": "zacher-1",
+   "anchor": "c39",
+   "label": "I.39"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.40",
+   "page": "zacher-1",
+   "anchor": "c40",
+   "label": "I.40"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.40",
+   "page": "zacher-1",
+   "anchor": "c40",
+   "label": "I.40"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.41",
+   "page": "zacher-1",
+   "anchor": "c41",
+   "label": "I.41"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.41",
+   "page": "zacher-1",
+   "anchor": "c41",
+   "label": "I.41"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.42",
+   "page": "zacher-1",
+   "anchor": "c42",
+   "label": "I.42"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.42",
+   "page": "zacher-1",
+   "anchor": "c42",
+   "label": "I.42"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.46",
+   "page": "zacher-1",
+   "anchor": "c46",
+   "label": "I.46"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.46–46a",
+   "page": "zacher-1",
+   "anchor": "c46",
+   "label": "I.46"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.47",
+   "page": "zacher-1",
+   "anchor": "c47",
+   "label": "I.47"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.47",
+   "page": "zacher-1",
+   "anchor": "c47",
+   "label": "I.47"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "",
+   "page": "zacher-1",
+   "anchor": "n1",
+   "label": "прим. 1"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.1",
+   "page": "zacher-1",
+   "anchor": "n1",
+   "label": "прим. 1"
+  },
+  {
+   "work_id": "ps-call-beta",
+   "locus": "",
+   "page": "zacher-1",
+   "anchor": "n1",
+   "label": "прим. 1"
+  },
+  {
+   "work_id": "alexander-romance-arm",
+   "locus": "",
+   "page": "zacher-1",
+   "anchor": "n1",
+   "label": "прим. 1"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.1",
+   "page": "zacher-1",
+   "anchor": "n2",
+   "label": "прим. 2"
+  },
+  {
+   "work_id": "pgm",
+   "locus": "IV.154–285",
+   "page": "zacher-1",
+   "anchor": "n2",
+   "label": "прим. 2"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.2",
+   "page": "zacher-1",
+   "anchor": "n3",
+   "label": "прим. 3"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "",
+   "page": "zacher-1",
+   "anchor": "n4",
+   "label": "прим. 4"
+  },
+  {
+   "work_id": "ps-call-beta",
+   "locus": "",
+   "page": "zacher-1",
+   "anchor": "n4",
+   "label": "прим. 4"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.3",
+   "page": "zacher-1",
+   "anchor": "n5",
+   "label": "прим. 5"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.34",
+   "page": "zacher-1",
+   "anchor": "n5",
+   "label": "прим. 5"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.3",
+   "page": "zacher-1",
+   "anchor": "n6",
+   "label": "прим. 6"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.4",
+   "page": "zacher-1",
+   "anchor": "n7",
+   "label": "прим. 7"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.4",
+   "page": "zacher-1",
+   "anchor": "n8",
+   "label": "прим. 8"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.5",
+   "page": "zacher-1",
+   "anchor": "n9",
+   "label": "прим. 9"
+  },
+  {
+   "work_id": "pgm",
+   "locus": "IV.296–466",
+   "page": "zacher-1",
+   "anchor": "n10",
+   "label": "прим. 10"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.6",
+   "page": "zacher-1",
+   "anchor": "n11",
+   "label": "прим. 11"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.6",
+   "page": "zacher-1",
+   "anchor": "n11",
+   "label": "прим. 11"
+  },
+  {
+   "work_id": "ps-call-beta",
+   "locus": "",
+   "page": "zacher-1",
+   "anchor": "n11",
+   "label": "прим. 11"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.6",
+   "page": "zacher-1",
+   "anchor": "n12",
+   "label": "прим. 12"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.6",
+   "page": "zacher-1",
+   "anchor": "n12",
+   "label": "прим. 12"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.7",
+   "page": "zacher-1",
+   "anchor": "n13",
+   "label": "прим. 13"
+  },
+  {
+   "work_id": "alexander-romance-arm",
+   "locus": "",
+   "page": "zacher-1",
+   "anchor": "n13",
+   "label": "прим. 13"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.7",
+   "page": "zacher-1",
+   "anchor": "n14",
+   "label": "прим. 14"
+  },
+  {
+   "work_id": "plut-alex",
+   "locus": "2.4–5",
+   "page": "zacher-1",
+   "anchor": "n15",
+   "label": "прим. 15"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.8",
+   "page": "zacher-1",
+   "anchor": "n16",
+   "label": "прим. 16"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.8",
+   "page": "zacher-1",
+   "anchor": "n16",
+   "label": "прим. 16"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.9",
+   "page": "zacher-1",
+   "anchor": "n17",
+   "label": "прим. 17"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.6",
+   "page": "zacher-1",
+   "anchor": "n18",
+   "label": "прим. 18"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.10",
+   "page": "zacher-1",
+   "anchor": "n19",
+   "label": "прим. 19"
+  },
+  {
+   "work_id": "plut-alex",
+   "locus": "2.6",
+   "page": "zacher-1",
+   "anchor": "n19",
+   "label": "прим. 19"
+  },
+  {
+   "work_id": "plut-alex",
+   "locus": "3.1–2",
+   "page": "zacher-1",
+   "anchor": "n19",
+   "label": "прим. 19"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.11",
+   "page": "zacher-1",
+   "anchor": "n20",
+   "label": "прим. 20"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.11",
+   "page": "zacher-1",
+   "anchor": "n21",
+   "label": "прим. 21"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.12",
+   "page": "zacher-1",
+   "anchor": "n22",
+   "label": "прим. 22"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.12",
+   "page": "zacher-1",
+   "anchor": "n22",
+   "label": "прим. 22"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.12",
+   "page": "zacher-1",
+   "anchor": "n23",
+   "label": "прим. 23"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.13",
+   "page": "zacher-1",
+   "anchor": "n24",
+   "label": "прим. 24"
+  },
+  {
+   "work_id": "ps-call-beta",
+   "locus": "",
+   "page": "zacher-1",
+   "anchor": "n24",
+   "label": "прим. 24"
+  },
+  {
+   "work_id": "alexander-romance-arm",
+   "locus": "§ 31",
+   "page": "zacher-1",
+   "anchor": "n24",
+   "label": "прим. 24"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.13",
+   "page": "zacher-1",
+   "anchor": "n24",
+   "label": "прим. 24"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.13",
+   "page": "zacher-1",
+   "anchor": "n25",
+   "label": "прим. 25"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "",
+   "page": "zacher-1",
+   "anchor": "n25",
+   "label": "прим. 25"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.14",
+   "page": "zacher-1",
+   "anchor": "n26",
+   "label": "прим. 26"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "",
+   "page": "zacher-1",
+   "anchor": "n27",
+   "label": "прим. 27"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.15",
+   "page": "zacher-1",
+   "anchor": "n28",
+   "label": "прим. 28"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.16",
+   "page": "zacher-1",
+   "anchor": "n29",
+   "label": "прим. 29"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.17",
+   "page": "zacher-1",
+   "anchor": "n30",
+   "label": "прим. 30"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "",
+   "page": "zacher-1",
+   "anchor": "n31",
+   "label": "прим. 31"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.18",
+   "page": "zacher-1",
+   "anchor": "n32",
+   "label": "прим. 32"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.18",
+   "page": "zacher-1",
+   "anchor": "n33",
+   "label": "прим. 33"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.19",
+   "page": "zacher-1",
+   "anchor": "n34",
+   "label": "прим. 34"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.20",
+   "page": "zacher-1",
+   "anchor": "n35",
+   "label": "прим. 35"
+  },
+  {
+   "work_id": "plut-alex",
+   "locus": "9",
+   "page": "zacher-1",
+   "anchor": "n36",
+   "label": "прим. 36"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.21",
+   "page": "zacher-1",
+   "anchor": "n37",
+   "label": "прим. 37"
+  },
+  {
+   "work_id": "plut-alex",
+   "locus": "9",
+   "page": "zacher-1",
+   "anchor": "n38",
+   "label": "прим. 38"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.21",
+   "page": "zacher-1",
+   "anchor": "n38",
+   "label": "прим. 38"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.22",
+   "page": "zacher-1",
+   "anchor": "n39",
+   "label": "прим. 39"
+  },
+  {
+   "work_id": "ps-call-beta",
+   "locus": "",
+   "page": "zacher-1",
+   "anchor": "n39",
+   "label": "прим. 39"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.22",
+   "page": "zacher-1",
+   "anchor": "n40",
+   "label": "прим. 40"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.22",
+   "page": "zacher-1",
+   "anchor": "n40",
+   "label": "прим. 40"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.23",
+   "page": "zacher-1",
+   "anchor": "n41",
+   "label": "прим. 41"
+  },
+  {
+   "work_id": "diod-bibl",
+   "locus": "16.34.5",
+   "page": "zacher-1",
+   "anchor": "n42",
+   "label": "прим. 42"
+  },
+  {
+   "work_id": "hdt-hist",
+   "locus": "6.48",
+   "page": "zacher-1",
+   "anchor": "n42",
+   "label": "прим. 42"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.24",
+   "page": "zacher-1",
+   "anchor": "n43",
+   "label": "прим. 43"
+  },
+  {
+   "work_id": "diod-bibl",
+   "locus": "16.93–94",
+   "page": "zacher-1",
+   "anchor": "n44",
+   "label": "прим. 44"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.24",
+   "page": "zacher-1",
+   "anchor": "n44",
+   "label": "прим. 44"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.25",
+   "page": "zacher-1",
+   "anchor": "n45",
+   "label": "прим. 45"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.26",
+   "page": "zacher-1",
+   "anchor": "n46",
+   "label": "прим. 46"
+  },
+  {
+   "work_id": "arr-anab",
+   "locus": "1.11.3",
+   "page": "zacher-1",
+   "anchor": "n47",
+   "label": "прим. 47"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.29",
+   "page": "zacher-1",
+   "anchor": "n48",
+   "label": "прим. 48"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.29",
+   "page": "zacher-1",
+   "anchor": "n48",
+   "label": "прим. 48"
+  },
+  {
+   "work_id": "plin-nh",
+   "locus": "3.57",
+   "page": "zacher-1",
+   "anchor": "n49",
+   "label": "прим. 49"
+  },
+  {
+   "work_id": "arr-anab",
+   "locus": "7.15.5–6",
+   "page": "zacher-1",
+   "anchor": "n49",
+   "label": "прим. 49"
+  },
+  {
+   "work_id": "phot-bibl",
+   "locus": "cod. 224",
+   "page": "zacher-1",
+   "anchor": "n49",
+   "label": "прим. 49"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.30",
+   "page": "zacher-1",
+   "anchor": "n50",
+   "label": "прим. 50"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.31–33",
+   "page": "zacher-1",
+   "anchor": "n50",
+   "label": "прим. 50"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.34",
+   "page": "zacher-1",
+   "anchor": "n51",
+   "label": "прим. 51"
+  },
+  {
+   "work_id": "diod-bibl",
+   "locus": "16.51.1",
+   "page": "zacher-1",
+   "anchor": "n52",
+   "label": "прим. 52"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.35",
+   "page": "zacher-1",
+   "anchor": "n53",
+   "label": "прим. 53"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.35",
+   "page": "zacher-1",
+   "anchor": "n53",
+   "label": "прим. 53"
+  },
+  {
+   "work_id": "plut-alex",
+   "locus": "24.8–9",
+   "page": "zacher-1",
+   "anchor": "n53",
+   "label": "прим. 53"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.35",
+   "page": "zacher-1",
+   "anchor": "n54",
+   "label": "прим. 54"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.36",
+   "page": "zacher-1",
+   "anchor": "n55",
+   "label": "прим. 55"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.36",
+   "page": "zacher-1",
+   "anchor": "n56",
+   "label": "прим. 56"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.37",
+   "page": "zacher-1",
+   "anchor": "n57",
+   "label": "прим. 57"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.38",
+   "page": "zacher-1",
+   "anchor": "n58",
+   "label": "прим. 58"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "",
+   "page": "zacher-1",
+   "anchor": "n59",
+   "label": "прим. 59"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.39",
+   "page": "zacher-1",
+   "anchor": "n60",
+   "label": "прим. 60"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.39",
+   "page": "zacher-1",
+   "anchor": "n61",
+   "label": "прим. 61"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.40",
+   "page": "zacher-1",
+   "anchor": "n62",
+   "label": "прим. 62"
+  },
+  {
+   "work_id": "arr-anab",
+   "locus": "4.10–12",
+   "page": "zacher-1",
+   "anchor": "n63",
+   "label": "прим. 63"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.41",
+   "page": "zacher-1",
+   "anchor": "n64",
+   "label": "прим. 64"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.41",
+   "page": "zacher-1",
+   "anchor": "n64",
+   "label": "прим. 64"
+  },
+  {
+   "work_id": "arr-anab",
+   "locus": "2.11–12",
+   "page": "zacher-1",
+   "anchor": "n65",
+   "label": "прим. 65"
+  },
+  {
+   "work_id": "arr-anab",
+   "locus": "3.11–13",
+   "page": "zacher-1",
+   "anchor": "n65",
+   "label": "прим. 65"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.41",
+   "page": "zacher-1",
+   "anchor": "n65",
+   "label": "прим. 65"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.42",
+   "page": "zacher-1",
+   "anchor": "n66",
+   "label": "прим. 66"
+  },
+  {
+   "work_id": "arr-anab",
+   "locus": "1.11.3",
+   "page": "zacher-1",
+   "anchor": "n66",
+   "label": "прим. 66"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.42–45",
+   "page": "zacher-1",
+   "anchor": "n67",
+   "label": "прим. 67"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.46",
+   "page": "zacher-1",
+   "anchor": "n68",
+   "label": "прим. 68"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.46",
+   "page": "zacher-1",
+   "anchor": "n69",
+   "label": "прим. 69"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.46–46a",
+   "page": "zacher-1",
+   "anchor": "n69",
+   "label": "прим. 69"
+  },
+  {
+   "work_id": "iulval-res-gestae",
+   "locus": "1.47",
+   "page": "zacher-1",
+   "anchor": "n70",
+   "label": "прим. 70"
+  },
+  {
+   "work_id": "ps-call-alpha",
+   "locus": "1.46a–47",
+   "page": "zacher-1",
+   "anchor": "n70",
+   "label": "прим. 70"
+  },
+  {
+   "work_id": "paus-perieg",
+   "locus": "6.15.3–5",
+   "page": "zacher-1",
+   "anchor": "n71",
+   "label": "прим. 71"
+  },
+  {
+   "work_id": "hom-od",
+   "locus": "10.1",
+   "page": "odyssey-10",
+   "anchor": "s1",
+   "label": "Σ 10.1"
+  },
+  {
+   "work_id": "schol-od",
+   "locus": "10.1",
+   "page": "odyssey-10",
+   "anchor": "s1",
+   "label": "Σ 10.1"
+  },
+  {
+   "work_id": "hom-od",
+   "locus": "10.2",
+   "page": "odyssey-10",
+   "anchor": "s2",
+   "label": "Σ 10.2"
+  },
+  {
+   "work_id": "schol-od",
+   "locus": "10.2",
+   "page": "odyssey-10",
+   "anchor": "s2",
+   "label": "Σ 10.2"
+  },
+  {
+   "work_id": "hom-od",
+   "locus": "10.3",
+   "page": "odyssey-10",
+   "anchor": "s3",
+   "label": "Σ 10.3"
+  },
+  {
+   "work_id": "schol-od",
+   "locus": "10.3",
+   "page": "odyssey-10",
+   "anchor": "s3",
+   "label": "Σ 10.3"
+  },
+  {
+   "work_id": "hom-od",
+   "locus": "10.4",
+   "page": "odyssey-10",
+   "anchor": "s4",
+   "label": "Σ 10.4"
+  },
+  {
+   "work_id": "schol-od",
+   "locus": "10.4",
+   "page": "odyssey-10",
+   "anchor": "s4",
+   "label": "Σ 10.4"
+  },
+  {
+   "work_id": "pind-fr",
+   "locus": "33d",
+   "page": "odyssey-10",
+   "anchor": "s3",
+   "label": "Σ 10.3"
+  },
+  {
+   "work_id": "thuc-hist",
+   "locus": "6.2.1",
+   "page": "odyssey-10",
+   "anchor": "n1a",
+   "label": "прим. 1a"
+  },
+  {
+   "work_id": "strab-geog",
+   "locus": "1.2.15",
+   "page": "odyssey-10",
+   "anchor": "n1a",
+   "label": "прим. 1a"
+  },
+  {
+   "work_id": "diod-bibl",
+   "locus": "5.7",
+   "page": "odyssey-10",
+   "anchor": "n1b",
+   "label": "прим. 1b"
+  },
+  {
+   "work_id": "strab-geog",
+   "locus": "6.2.10–11",
+   "page": "odyssey-10",
+   "anchor": "n1b",
+   "label": "прим. 1b"
+  },
+  {
+   "work_id": "asclep-tragodoumena",
+   "locus": "",
+   "page": "odyssey-10",
+   "anchor": "n2a",
+   "label": "прим. 2a"
+  },
+  {
+   "work_id": "tzetz-lyc",
+   "locus": "738",
+   "page": "odyssey-10",
+   "anchor": "n2b",
+   "label": "прим. 2b"
+  },
+  {
+   "work_id": "diod-bibl",
+   "locus": "5.7.7",
+   "page": "odyssey-10",
+   "anchor": "n2b",
+   "label": "прим. 2b"
+  },
+  {
+   "work_id": "pind-fr",
+   "locus": "33d",
+   "page": "odyssey-10",
+   "anchor": "n3a",
+   "label": "прим. 3a"
+  },
+  {
+   "work_id": "hom-od",
+   "locus": "10.55",
+   "page": "odyssey-10",
+   "anchor": "n3b",
+   "label": "прим. 3b"
+  }
+ ],
+ "notes": "Scope: I indexed texts 1 and 2 only, as the task asked. I read all three texts in full and changed no project files. I tested every pattern with a word-start scanner over these units: (a) Zacher chapters (Latin, RU, EN and the parallel chips) and notes (RU, EN, source); (b) the Odyssey page's s1–s4, the margin notes and the s3 review log; (c) the study's abstract, sections, footnotes and appendix blocks, which use the same pattern set. Hits per entity (units): Julius Valerius 93 (zacher only; the chapter hits come from the 'Юлий Валерий 1,N' chips); Pseudo-Callisthenes 56 (chips plus 'Ps.-Call.' in source lines; the note bodies only say 'α'); epitomator 30; Plutarch 5; Diodorus 7 (zacher n42, n44, n52; odyssey n1b, n2b); Herodotus 1; Arrian 5; Pliny 1; Clitarchus 1; Memnon 1; Photius 1; Pausanias 1 (n71 only: the pattern needs a following numeral, so Pausanias of Orestis in c24, n43, n44 is not hit); Vincent 1; Favorinus 1; Homer 16 (odyssey s2, s3, n2a, n3a and the study); Thucydides 3; Eratosthenes 4; Strabo 12; Asclepiades 3; Tzetzes 3 (including the s2 chip 'поздний слой: P, Цец'); Lycophron 2; Pindar 4; Aristarchus 17; Palaephatus 2. I found no false hits. LOCI CONVENTIONS: (1) The chapter parallel chips are shown on the page in each chapter head, so I indexed them as loci at c<N>/'I.<N>'. The chips 'у Юлия Валерия не сохранилось' (ch. 1–3) cite no passage and are skipped. The ch. 46 chip '1.46 and 1.46a' is given as 1.46–46a. (2) In each note, the body and the source line are merged and deduplicated. Where the source line is fuller I used it: Paus. 6.15.3–5 (the body has 6,15,3) and Iul. Val. 1.42–45 (the body has 'гл. 43–45 по Мюллеру'). (3) locus '' means the work is cited without a passage number: β in n1, n4, n11, n24, n39; the Armenian version in n1, n13; α in n4, n25; Iul. Val. in n1, n27, n31, n59 (readings of its manuscripts T, P and the Milan codex); Tragodoumena in n2a. (4) Other loci as cited: PGM 'IV.154–285' and 'IV.296–466'; Phot. Bibl. 'cod. 224'; Armenian version '§ 31' (Venice 1842, p. 16); Iul. Val. '1.31–33' in n50 follows Müller's chapter numbers. Edition page citations (Kübler, Kroll, Zacher, Müller pages) are not loci. (5) Odyssey page: each scholion segment s1–s4 is indexed twice, as Hom. Od. 10.N (the lemma it quotes) and as schol-od 10.N (the scholion itself, author 'anon'). The Pindar quotation in s3 is entered as fr. 33d, the number n3a gives it. The section heading 'Гомер, «Одиссея» 10.1–4' has no anchor in the scheme and is not indexed. Review logs are not indexed. (6) Labels for Odyssey notes are 'прим. 1a', 'прим. 1b', 'прим. 2a', 'прим. 2b', 'прим. 3a', 'прим. 3b', 'прим. 4a' (I read '<id>' as the anchor without 'n'). The marks shown on the page are Greek letters: n1a=α, n1b=β, n2a=γ, n2b=δ, n3a=ε, n3b=ϛ, n4a=ζ. Relabel to 'прим. α' etc. if wanted. EXCLUDED: characters who are not cited as authors (Aristotle and Anaximenes as Alexander's teachers, the diviners Antiphon and Aristander, the athlete Clitomachus); modern scholars and editors (Kübler, Kroll, Zacher, Müller, Mai, Ausfeld, Preisendanz, Dindorf, Buttmann, Pontani, Snell–Maehler); internal cross-references to other chapters of the Epitome (no work record is made for the Epitome itself; its anonymous compiler is the 'epitomator' author). Clitarchus, Memnon, Eratosthenes, Vincent of Beauvais, Favorinus, Lycophron and Palaephatus are named without a work or passage, so they have author records but no works. 'anon' is used as author_id for PGM and the Odyssey scholia and has no author record. WIKIDATA: every Q-id was found with wbsearchentities and checked with wbgetentities (label and description). The α and β recensions, the Odyssey scholia, the Tragodoumena, Tzetzes' commentary on Lycophron and Pindar's fragments have no confirmed item and are left ''. Q974482 (Alexander Romance as a whole) was not used for the recensions. No places, so pleiades is '' throughout. The working files (pattern tester, loci builder, final.json) are in C:/Users/user/AppData/Local/Temp/claude/C--Users-user-Documents-Projects-Neoscholia/b4f946bd-6075-477c-b48c-f9c5ba60c113/scratchpad/."
+}

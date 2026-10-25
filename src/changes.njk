@@ -1,0 +1,23 @@
+---
+title: "История изменений — Neoscholia"
+nav: "changes"
+permalink: "changes.html"
+styles: ["index"]
+---
+<main id="top">
+    <div class="crumbs"><a href="index.html">Главная</a> › История изменений</div>
+    <section class="lib-head" aria-labelledby="chg-h">
+      <h1 id="chg-h">История изменений</h1>
+      <p class="lede">Что появилось и обновилось в библиотеке: новые тексты и разделы, новые версии переводов и статей, новые возможности для читателя. Подробности каждой версии — на странице текста, в журнале рецензии и в истории версий; полная история правок файлов — <a href="{{ site.repo }}/commits/{{ site.branch }}">в репозитории</a>.</p>
+    </section>
+    <section class="block" aria-label="Изменения по датам">
+      {%- for day in collections.all | changeFeed(texts, news) | byDate %}
+      <h2 class="day"><time>{{ day.date }}</time></h2>
+      <ol class="log full">
+        {%- for x in day.items %}
+        <li><span class="kind">{% if x.version %}версия {{ x.version }}{% else %}новое{% endif %}</span><span>{% if x.version %}<a href="{{ x.href }}">{{ x.title }}</a>: {{ x.text | safe }}{% else %}{{ x.text | safe }}{% endif %}</span></li>
+        {%- endfor %}
+      </ol>
+      {%- endfor %}
+    </section>
+  </main>

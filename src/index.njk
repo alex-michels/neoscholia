@@ -1,151 +1,84 @@
 ---
-title: "Библиотека Neoscholia"
-nav: "library"
+title: "Neoscholia — новые схолии к непереведённой античности"
+nav: "home"
 permalink: "index.html"
 styles: ["index"]
-scripts: ["index"]
-mock: "<b>Макет главной страницы.</b> Перечни текстов — из исследования проекта. Опубликован только черновик схолий к «Одиссее» X; остальные тексты помечены как готовящиеся."
+mock: "<b>Макет главной страницы.</b> Опубликованы книга I эпитомы Цахера (версия 0.2, с озвучкой), препринт о Кратете (0.3) и образец страницы схолий к «Одиссее» X; остальные тексты в библиотеке помечены как готовящиеся."
 ---
+<main id="top">
 <main id="top">
     <section class="hero" aria-labelledby="hero-h">
       <div>
         <h1 id="hero-h">Библиотека <em>первых</em> переводов античных текстов</h1>
         <p class="lede">Тексты, которые до сих пор не переводились на русский и английский: схолии, комментарии, романы, трактаты. Каждый перевод выходит с оригиналом, комментарием и открытым журналом рецензии; за текст отвечает названный редактор.</p>
-        <form class="search" role="search" id="search-form">
-          <label class="label" for="q" style="position:absolute;left:-9999px">Поиск по библиотеке</label>
-          <input id="q" type="search" placeholder="Автор, текст или тема: Пиндар, Эол, гармоника…" autocomplete="off">
-        </form>
-        <p class="hint" id="hint">Поиск сразу фильтрует разделы ниже.</p>
+        <p class="cta"><a class="btn" href="library.html">Открыть библиотеку</a><a class="btn ghost" href="studies.html">Исследования</a></p>
       </div>
 
-      <aside class="specimen" aria-label="Образец: схолия к Одиссее 10.3">
-        <div class="label"><span>Σ Од. 10.3 · рукописи H M Q T V</span><span>черновик v0.1</span></div>
-        <p class="lemma" lang="grc">πλωτῇ ἐνὶ νήσῳ]</p>
-        <p lang="grc">ὁ δὲ Ἀρίσταρχος πλωτῇ ἀντὶ τοῦ φορητῇ, οἷον περιφερομένῃ, ὡς ποτὲ μὲν ἐν τοῖς δεξιοῖς μέρεσι, ποτὲ δὲ ἐν τοῖς ἀριστεροῖς ὁρᾶσθαι…</p>
-        <p class="tr">Аристарх же — «плавучем» вместо «носимом», то есть перемещающемся, так что его видно то справа, то слева…</p>
-        <p class="note"><b>ε</b> Схолиаст возражает Аристарху: если бы остров плавал, Одиссей не нашёл бы его во второй раз (10.55). <a href="odyssey-10.html">Открыть страницу</a></p>
+      <aside class="specimen" aria-label="Образец: эпитома Юлия Валерия, кн. I, гл. 14">
+        <div class="label"><span>Эпитома Юлия Валерия I.14 · Zacher 1867, с. 18–20</span><span>версия 0.2</span></div>
+        <p lang="la">Quippe nescius quae te impenderent humi, nunc resupinus iacens rimare ea quae sunt coeli.</p>
+        <p class="tr">Ведь, не ведая, что грозит тебе на земле, теперь, лёжа навзничь, исследуй то, что на небе.</p>
+        <p class="note"><b>26</b> Александр — Нектанебу, которого он столкнул в ров. Насмешки «лёжа навзничь» нет у Юлия Валерия: это добавление эпитоматора. <a href="zacher-1.html#c14">Открыть главу</a></p>
       </aside>
     </section>
 
-    <section class="block" id="collections" aria-labelledby="col-h">
+    <section class="block" aria-labelledby="pub-h">
       <div class="block-head">
-        <h2 id="col-h">Разделы</h2>
-        <p>Разделы растут вместе с библиотекой. Новый раздел открывается, когда в нём готов первый проверенный текст.</p>
+        <h2 id="pub-h">Опубликовано</h2>
+        <p>Каждый текст выходит версиями; статус показывает, насколько на него можно опираться.</p>
       </div>
-
-      <div class="shelves">
-        <article class="shelf" data-shelf>
-          <h3><a href="alexander.html" id="alexander">Роман об Александре</a></h3>
-          <p class="scope">Греческие редакции Псевдо-Каллисфена, латинская традиция, Византия и Восток.</p>
-          <ul class="texts">
-            <li><a class="t" href="zacher-1.html">Эпитома Юлия Валерия («эпитома Цахера»), кн. I</a>
-              <span class="meta"><span class="status draft">версия 0.2</span>латынь · Zacher 1867</span></li>
-            <li><span class="t">Византийская жизнь Александра, редакция ε</span>
-              <span class="meta"><span class="status prep">готовится</span>греческий · VIII в.</span></li>
-            <li><span class="t">Юлий Валерий, «Деяния Александра», кн. III</span>
-              <span class="meta"><span class="status prep">готовится</span>латынь · IV в.</span></li>
-            <li><span class="t">Византийская поэма об Александре (1388)</span>
-              <span class="meta"><span class="status prep">готовится</span>греческий · стих</span></li>
-          </ul>
-          <a class="more label" href="alexander.html">Весь раздел →</a>
+      <div class="cards">
+      {%- for c in collections.all | publishedCards %}
+        {%- set steps = ladders[c.ladder].steps | ladderSteps(c.status) %}
+        <article class="card">
+          <p class="where"><a href="{{ c.sectionHref }}">{{ c.section }}</a></p>
+          <h3><a href="{{ c.href }}">{{ c.title }}</a></h3>
+          <p>{{ c.summary }}</p>
+          <p class="meta">{% for st in steps %}{% if st.current %}<span class="status">{{ st.label }}</span>{% endif %}{% endfor %}<span>версия {{ c.version }} · {{ c.updated }}</span>{% if c.textKey and audio[c.textKey] %}<span class="audio">можно слушать</span>{% endif %}</p>
         </article>
-
-        <article class="shelf" data-shelf>
-          <h3><a href="scholia.html" id="scholia">Схолии</a></h3>
-          <p class="scope">Античные и византийские комментарии на полях рукописей: к Гомеру, Пиндару, эллинистическим поэтам, латинским авторам.</p>
-          <div class="subhead label">К «Одиссее»</div>
-          <ul class="texts">
-            <li><a class="t" href="odyssey-10.html">Схолии к «Одиссее», песнь X: остров Эола (ст. 1–4)</a>
-              <span class="meta"><span class="status draft">черновик v0.1</span>греческий · Dindorf 1855</span></li>
-            <li><span class="t">«Конец „Одиссеи“»: схолии к 23.296–24 и Аристоник</span>
-              <span class="meta"><span class="status prep">готовится</span>досье</span></li>
-          </ul>
-          <div class="subhead label">К другим произведениям</div>
-          <ul class="texts">
-            <li><span class="t">Схолии к Пиндару, Пифийская ода 1</span>
-              <span class="meta"><span class="status prep">готовится</span>греческий</span></li>
-            <li><span class="t">Схолии к Аполлонию Родосскому, кн. II</span>
-              <span class="meta"><span class="status prep">готовится</span>греческий</span></li>
-            <li><span class="t">Элий Донат, комментарий к Теренцию</span>
-              <span class="meta"><span class="status prep">готовится</span>латынь · IV в.</span></li>
-          </ul>
-          <a class="more label" href="scholia.html">Весь раздел →</a>
-        </article>
-
-        <article class="shelf" data-shelf>
-          <h3><a href="music.html" id="music">Музыка</a></h3>
-          <p class="scope">Трактаты о гармонике и ритмике, византийская передача античной теории, нотированные памятники.</p>
-          <ul class="texts">
-            <li><span class="t">Анонимный «Синопсис музыки» (1008)</span>
-              <span class="meta"><span class="status prep">готовится</span>греческий · трактат</span></li>
-            <li><span class="t">Георгий Пахимер, «Гармоника»</span>
-              <span class="meta"><span class="status prep">готовится</span>греческий · ок. 1300</span></li>
-            <li><span class="t">Филодем, «О музыке», кн. IV</span>
-              <span class="meta"><span class="status prep">готовится</span>геркуланский папирус</span></li>
-            <li><span class="t">Поллукс, «Ономастикон» IV: инструменты и номы</span>
-              <span class="meta"><span class="status prep">готовится</span>греческий · II в.</span></li>
-          </ul>
-          <a class="more label" href="music.html">Весь раздел →</a>
-        </article>
+      {%- endfor %}
       </div>
+    </section>
 
-      <p class="empty" id="empty" hidden>Ничего не найдено. Попробуйте имя автора или название произведения.</p>
-
-      <div class="future">
-        <span class="label">Скоро</span>
-        <span class="f">Наука и техника — Гиппарх, «Комментарий к Арату»</span>
-        <span class="f">Лексикография — Зенобий, пословицы</span>
-        <span class="f">Хронография — Зонара, Дион Кассий</span>
+    <section class="block" aria-labelledby="chg-h">
+      <div class="block-head">
+        <h2 id="chg-h">Последние изменения</h2>
+        <p><a href="changes.html">Вся история изменений →</a></p>
       </div>
+      <ol class="log">
+      {%- for x in (collections.all | changeFeed(texts, news)).slice(0, 4) %}
+        <li><time>{{ x.date }}</time><span>{% if x.version %}<a href="{{ x.href }}">{{ x.title }}</a> — версия {{ x.version }}: {{ x.text | safe }}{% else %}{{ x.text | safe }}{% endif %}</span></li>
+      {%- endfor %}
+      </ol>
     </section>
 
     <section class="block" id="method" aria-labelledby="method-h">
       <div class="block-head">
         <h2 id="method-h">Как мы переводим</h2>
-        <p>Языковые модели готовят черновик, другие модели его рецензируют, редактор подписывает. Каждый шаг виден на странице текста.</p>
+        <p>Модели разных семейств независимо переводят текст и рецензируют переводы, арбитраж сводит варианты, редактор подписывает. Каждый шаг виден на странице текста.</p>
       </div>
       <ol class="steps">
-        <li><b>Источник</b><span>Критический текст в общественном достоянии, разбитый на сегменты.</span></li>
-        <li><b>Черновики</b><span>Несколько независимых переводов от моделей разных семейств, со словарями в запросе.</span></li>
-        <li><b>Рецензия</b><span>Модели проверяют чужие переводы и отмечают ошибки по типам.</span></li>
-        <li><b>Редактор</b><span>Филолог проверяет спорные места и выборку остальных, подписывает версию.</span></li>
-        <li><b>Публикация</b><span>Версия с DOI, журналом рецензии и формой для исправлений.</span></li>
+        <li><b>Источник</b><span>Текст издания в общественном достоянии, сверенный с печатью по сканам и разбитый на главы или схолии.</span></li>
+        <li><b>Черновики</b><span>Не меньше двух независимых переводов на русский и английский от моделей разных семейств, по одному глоссарию; второй делается только по оригиналу, без доступа к первому. Плюс новые схолии — комментарий на полях.</span></li>
+        <li><b>Арбитраж и рецензия</b><span>Арбитраж сводит переводы в один; существенные расхождения уходят в примечания. Модели того же и другого семейства (Claude, GPT) рецензируют результат и эти расхождения; каждое замечание принимается или отклоняется с обоснованием, спорное сверяется с изданиями.</span></li>
+        <li><b>Редактор</b><span>Филолог проверяет спорные места и выборку остальных и подписывает версию.</span></li>
+        <li><b>Публикация</b><span>Версия с оригиналом, журналом рецензии и историей правок; DOI — после подписи редактора.</span></li>
       </ol>
       <div class="ladder" aria-label="Статусы текста">
-        <span class="chip">Машинный черновик</span><span class="arrow">→</span>
-        <span class="chip">Проверено моделями</span><span class="arrow">→</span>
-        <span class="chip">Проверено редактором</span><span class="arrow">→</span>
-        <span class="chip">Внешняя рецензия</span><span class="arrow">→</span>
-        <span class="chip">Окончательная версия</span>
-        <a href="method.html#statuses">Подробнее о методе и замере качества</a>
-      </div>
-    </section>
-
-    <section class="block duo" aria-label="Изменения и исследования">
-      <div>
-        <div class="block-head"><h2>Последние изменения</h2></div>
-        <ol class="log">
-          <li><time datetime="2026-10-25">25.10.2026</time><span>Черновик: <a href="odyssey-10.html">схолии к «Одиссее» X, ст. 1–4</a>. Перевод и новые схолии прошли перекрёстную проверку моделями, ожидают редактора.</span></li>
-          <li><time datetime="2026-10-25">25.10.2026</time><span>Открыты разделы «Роман об Александре», «Схолии», «Музыка».</span></li>
-        </ol>
-      </div>
-      <div id="studies">
-        <div class="block-head"><h2>Исследования</h2></div>
-        <ul class="studies">
-          <li><b>Конец «Одиссеи»: античный спор о стихе 23.296</b><span>статья в подготовке · по схолиям, Аристонику и Евстафию</span></li>
-          <li><b>Редакция ε и византийский Александр</b><span>статья в подготовке</span></li>
-          <li><b>Как мы проверяем ИИ-переводы</b><span>методологическая статья в подготовке</span></li>
-        </ul>
+        {%- for st in ladders.text.steps %}
+        <span class="chip">{{ st.label }}</span>{% if not loop.last %}<span class="arrow">→</span>{% endif %}
+        {%- endfor %}
+        <a href="method.html#statuses">Подробнее о методе и статусах</a>
       </div>
     </section>
 
     <section class="block" aria-labelledby="idx-h">
-      <div class="block-head"><h2 id="idx-h">Указатели</h2><p>Сквозные указатели по всем текстам библиотеки, с привязкой к Pleiades и Wikidata.</p></div>
+      <div class="block-head"><h2 id="idx-h">Указатели</h2><p>Сквозные указатели по всем текстам библиотеки, со ссылками на Wikidata и Pleiades.</p></div>
       <div class="indexes">
-        <a href="#top"><b>Авторы</b><span>от Аристарха до Цеца</span></a>
-        <a href="#top"><b>Произведения</b><span>с номерами книг и стихов</span></a>
-        <a href="#top"><b>Места</b><span>Эолия, Липара, Регий…</span></a>
-        <a href="#top"><b>Имена и мифы</b><span>Эол, Гиппот, Делос…</span></a>
+        {%- for k in indexes.order %}
+        {%- set ix = indexes.sections[k] %}
+        <a href="indexes.html#{{ k }}"><b>{{ ix.title }}</b><span>{{ ix.count }} · {{ ix.sample }}</span></a>
+        {%- endfor %}
       </div>
     </section>
   </main>
