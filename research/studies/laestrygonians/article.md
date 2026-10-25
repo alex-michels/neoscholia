@@ -2,7 +2,7 @@
 
 *Схолии к «Одиссее» 10.86 и спор о том, где странствовал Одиссей*
 
-[ФИО] · препринт, версия 0.1 · 25.10.2026 · Neoscholia
+Редакция Neoscholia · препринт, версия 0.1 · 25.10.2026 · Neoscholia
 
 Источники, расчёты и статус проверки основных утверждений собраны в [dossier.md](dossier.md). Замечания проверки перед публикацией — в [raw/review_fact-check.json](raw/review_fact-check.json) и [raw/review_referee.json](raw/review_referee.json).
 
