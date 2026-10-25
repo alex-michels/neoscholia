@@ -1,0 +1,25 @@
+{
+ "corpus": "greek-technical",
+ "title": "Ἱππιατρικά — Hippiatrica (Corpus Hippiatricorum Graecorum); RU: «Гиппиатрика». Proposed unit: Apsyrtus' excerpts",
+ "author": "Compilation: Apsyrtus, Hierocles, Theomnestus, Eumelus, Pelagonius (in Greek), Anatolius and others",
+ "date": "Sources 3rd–5th c. CE; late-antique compilation, recensions down to 10th c.",
+ "language": "Greek",
+ "genre": "Veterinary medicine (compilation)",
+ "size": "Oder–Hoppe CHG I–II, c. 800 Teubner pp.; est. 200k+ words across recensions",
+ "edition": "Oder & Hoppe, Corpus Hippiatricorum Graecorum I–II, Leipzig 1924–27 (public domain in the US by date; EU status depends on the editors' death dates).",
+ "ru_status": "none",
+ "ru_evidence": "ru.wikipedia «Гиппиатрика» (derived from the English article) cites no translation; none found in the checked Russian catalogues.",
+ "en_status": "partial",
+ "en_evidence": "No complete translation. McCabe, A Byzantine Encyclopaedia of Horse Medicine (OUP 2007) translates excerpts only; en.wikipedia lists no translation.",
+ "other_translations": "No complete modern translation found in any language.",
+ "value": "Unique ancient veterinary corpus. Apsyrtus served with the army on the Danube; his letters to named soldiers and landowners illuminate army logistics, horse-breeding and rural society. Also charms, verse and proverbs. For historians of medicine, the Roman army, agriculture and compilation.",
+ "audience": "humanities",
+ "ai_feasibility": "medium: practical prose and letters; risks are hippological and drug terms and parallel recensions. A good showcase for visible agent debate over variants.",
+ "pilot_unit": "Apsyrtus' prefaces and letters plus the opening fever chapters of the Berlin recension (CHG I), est. 8–10k words",
+ "preliminary_priority": 4,
+ "sources": [
+  "https://en.wikipedia.org/wiki/Hippiatrica",
+  "https://ru.wikipedia.org/wiki/Гиппиатрика"
+ ],
+ "id": "item_123"
+}

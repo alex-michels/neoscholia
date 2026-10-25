@@ -1,0 +1,27 @@
+{
+ "corpus": "latin-late-antique",
+ "title": "Rufius Festus Avienus, Aratea (Phaenomena) and Descriptio orbis terrae / RU: Авиен, «Явления Арата», «Описание круга земель»",
+ "author": "Rufius Festus Avienus (fl. c. 350–380)",
+ "date": "mid to late 4th c. CE",
+ "language": "Latin (verse)",
+ "genre": "Didactic poetry: astronomy (after Aratus) and geography (after Dionysius Periegetes)",
+ "size": "Aratea 1,878 hexameters; Descriptio 1,393 hexameters",
+ "edition": "Soubiran, Budé 1981 (Aratea); Van de Woestijne 1961 (Descriptio). Public-domain Aratea, Breysig 1882: https://archive.org/details/rufifestiavieni00aviegoog; Holder 1887",
+ "ru_status": "partial",
+ "ru_evidence": "Only Ora maritima (Kondratiev, ВДИ 1939 no. 2; simposium.ru/ru/node/10568) and Descriptio excerpts on Scythia and the Caucasus (ВДИ 1949; Античная география 1953). Aratea: none found.",
+ "en_status": "none",
+ "en_evidence": "English exists only for Ora maritima (Murphy, Ares; Roller 2021). Open Library shows no English Aratea or Descriptio.",
+ "other_translations": "French: Aratea (Soubiran, Budé 1981); Descriptio (Despois & Saviot 1843). Spanish and Portuguese versions of Ora maritima.",
+ "value": "Major 4th-c. pagan didactic poetry combining Stoic-Neoplatonic theology, astronomy and geography; reception of Aratus and Dionysius, and a model for medieval cosmography. For literary historians and historians of science.",
+ "audience": "humanities",
+ "ai_feasibility": "medium: dense verse and star nomenclature. The Greek models (Aratus, Dionysius) and the Latin versions of Cicero and Germanicus allow line-by-line control.",
+ "pilot_unit": "Descriptio orbis terrae complete (1,393 lines, est. 9k words), or the Aratea proem plus the first c. 300 lines",
+ "preliminary_priority": 4,
+ "sources": [
+  "https://ru.wikipedia.org/wiki/Авиен",
+  "https://simposium.ru/ru/node/10568",
+  "https://openlibrary.org/search?q=Avienus",
+  "https://archive.org/details/rufifestiavieni00aviegoog"
+ ],
+ "id": "item_135"
+}

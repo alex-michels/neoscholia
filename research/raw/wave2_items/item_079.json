@@ -1,0 +1,27 @@
+{
+ "corpus": "greek-poetry",
+ "title": "Ἱστορίαι / Chiliades (Book of Histories); «Хилиады» («Книга историй»)",
+ "author": "John Tzetzes",
+ "date": "mid-12th c. CE",
+ "language": "Byzantine learned Greek",
+ "genre": "Antiquarian-didactic poem in political verse; self-commentary on his letters",
+ "size": "12,674 political verses, about 660 'histories', 13 chiliads",
+ "edition": "Kiessling 1826, public domain (https://books.google.com/books?id=dG0GAAAAQAAJ); Leone 1968, 2nd ed. 2007. The volunteer English translation is based on Kiessling.",
+ "ru_status": "partial",
+ "ru_evidence": "ru.wikipedia 'Иоанн Цец': only excerpts, in Памятники византийской литературы IX–XIV вв. (1969), pp. 252–259. No fuller Russian translation found.",
+ "en_status": "full",
+ "en_evidence": "Volunteer translation (Untila, Berkowitz, Ramiotis, Dogani et al.; mitologia.pt), made from Kiessling 1826. It calls itself a 'tentative first edition' with minimal notes; last edit 2024. https://archive.org/details/TzetzesCHILIADES; also on theoi.com.",
+ "other_translations": "No complete French, German, Italian or Spanish translation found (search not exhaustive).",
+ "value": "Preserves fragments and testimonia of over 200 ancient authors. A key text for source criticism and for Byzantine teaching of the classics, and it contains Alexander anecdotes. No annotated scholarly translation exists in any language. A source-tracing commentary is exactly the apparatus Neoscholia offers.",
+ "audience": "humanities",
+ "ai_feasibility": "High. Political verse reads almost like prose. The main work is identifying sources, which AI does well but every case needs checking against TLG and the fragment editions.",
+ "pilot_unit": "Chiliad I (about 1,000 verses, opening with Croesus), or a thematic dossier of the Alexander histories",
+ "preliminary_priority": 5,
+ "sources": [
+  "https://ru.wikipedia.org/wiki/Иоанн_Цец",
+  "https://en.wikipedia.org/wiki/John_Tzetzes",
+  "https://archive.org/details/TzetzesCHILIADES",
+  "https://www.theoi.com/Text/TzetzesChiliades1.html"
+ ],
+ "id": "item_079"
+}

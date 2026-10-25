@@ -1,0 +1,12 @@
+<header class="site">
+    <a class="brand" href="{{ root }}index.html" aria-label="Neoscholia — на главную">
+      <b>Neo<span>·</span>scholia</b>
+      <small><span lang="grc">νέα σχόλια</span> · {{ site.tagline }}</small>
+    </a>
+    <nav aria-label="Разделы сайта">
+    {%- for item in site.nav %}
+      <a href="{{ root }}{{ item.href }}"{% if item.key == nav %} aria-current="page"{% endif %}>{{ item.label }}</a>
+    {%- endfor %}
+    </nav>
+    <div class="lang" role="group" aria-label="Язык интерфейса"><span>RU</span><button type="button" disabled title="Английская версия интерфейса появится позже">EN</button></div>
+  </header>

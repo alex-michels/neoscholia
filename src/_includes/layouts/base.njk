@@ -1,0 +1,32 @@
+{#- Общий каркас всех страниц: шапка, баннер макета, содержимое страницы, подвал.
+    Поля страницы (front matter): title, nav, styles, scripts, mock, description. -#}
+{%- set root = page.url | rootPrefix -%}
+<!doctype html>
+<html lang="{{ site.lang }}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>{{ title }}</title>
+{%- if description %}
+<meta name="description" content="{{ description }}">
+{%- endif %}
+<link rel="stylesheet" href="{{ root }}assets/fonts/fonts.css">
+<link rel="stylesheet" href="{{ root }}assets/css/base.css">
+{%- for s in styles %}
+<link rel="stylesheet" href="{{ root }}assets/css/pages/{{ s }}.css">
+{%- endfor %}
+</head>
+<body>
+<div class="wrap">
+  {% include "header.njk" %}
+{%- if mock %}
+  <p class="mock">{{ mock | safe }}</p>
+{%- endif %}
+  {{ content | safe }}
+  {% include "footer.njk" %}
+</div>
+{%- for s in scripts %}
+<script src="{{ root }}assets/js/{{ s }}.js"></script>
+{%- endfor %}
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+ "corpus": "alexander-fiction",
+ "title": "Fragments of the Greek novels on papyrus: Ninus, Metiochus & Parthenope, Sesonchosis, Iolaus, Lollianus' Phoinikika / «Роман о Нине» и др.",
+ "author": "Anonymous; Lollianus",
+ "date": "1st c. BCE – 2nd c. CE",
+ "language": "Greek",
+ "genre": "Novel fragments (incl. historical romance)",
+ "size": "c. 10–15k words total (est.); Ninus c. 1.5k",
+ "edition": "Stephens & Winkler 1995 (text + English). Open texts in papyri.info DDbDP (CC BY): https://papyri.info",
+ "ru_status": "unknown",
+ "ru_evidence": "ru-wiki 'Роман о Нине' lists only studies (Кузнецова 1969 etc.), no translation. Possible excerpts in Kuznetsova's chapter are unverified.",
+ "en_status": "full",
+ "en_evidence": "Stephens & Winkler, Ancient Greek Novels: The Fragments (1995); not re-verified this sweep",
+ "other_translations": "Not checked",
+ "value": "Earliest Greek fiction, including historical romances (Ninus/Semiramis, Sesonchosis) that parallel the Alexander Romance. Essential for the history of the genre. Short and openly licensed.",
+ "audience": "humanities",
+ "ai_feasibility": "Medium-low: gappy papyri. AI must mark text vs. supplement precisely, which makes it a good stress test of the review protocol.",
+ "pilot_unit": "Ninus Romance (P.Berol. 6926 + further papyri; c. 1.5k words est.)",
+ "preliminary_priority": 3,
+ "sources": [
+  "https://ru.wikipedia.org/wiki/Роман_о_Нине",
+  "https://papyri.info"
+ ],
+ "id": "item_001"
+}

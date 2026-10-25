@@ -1,0 +1,25 @@
+{
+ "corpus": "greek-lexica",
+ "title": "Περὶ συνδέσμων / On Conjunctions (alternative: Περὶ συντάξεως Book I) / «О союзах»",
+ "author": "Apollonius Dyscolus",
+ "date": "2nd c. CE",
+ "language": "Ancient Greek",
+ "genre": "Grammatical treatise",
+ "size": "Conjunctions about 45 Teubner pp. (estimate 10k words). Syntax is 4 books, about 500 pp.",
+ "edition": "R. Schneider, GG II.1 (1878; PD). G. Uhlig, GG II.2 (1910; PD).",
+ "ru_status": "none",
+ "ru_evidence": "ru.wikipedia (Аполлоний Дискол) lists only studies (Dobiash 1882; Polikarpov 2007), no translation.",
+ "en_status": "partial",
+ "en_evidence": "Syntax: Householder 1981 (standard bibliography). De pronomine pars generalis with English translation (Schmidhauser PhD 2007, per en.wikipedia). No English found for Conjunctions.",
+ "other_translations": "From standard bibliography, not re-verified: French, Syntax (Lallot 1997) and Conjunctions (Dalimier 2001); Spanish, Syntax (Gredos 1987).",
+ "value": "Founding work of Western syntax, behind Priscian and Byzantine grammar. Russian linguists and historians of linguistics lack direct access.",
+ "audience": "specialist",
+ "ai_feasibility": "medium: dense technical argument, corrupt text, and terminology that must stay consistent. A strong test for multi-model review.",
+ "pilot_unit": "De coniunctionibus, complete (estimate 10k words).",
+ "preliminary_priority": 2,
+ "sources": [
+  "https://ru.wikipedia.org/wiki/Аполлоний_Дискол",
+  "https://en.wikipedia.org/wiki/Apollonius_Dyscolus"
+ ],
+ "id": "item_075"
+}

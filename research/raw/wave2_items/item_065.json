@@ -1,0 +1,27 @@
+{
+ "corpus": "greek-lexica",
+ "title": "Ὀνομαστικόν / Onomasticon / «Ономастикон»; unit: Book 8 (law courts, laws, magistracies)",
+ "author": "Julius Pollux (Ioulios Polydeukes) of Naucratis",
+ "date": "c. 170s CE (dedicated to Commodus)",
+ "language": "Ancient Greek (Atticist)",
+ "genre": "Thematic onomastic lexicon / thesaurus of realia",
+ "size": "10 books (epitomized). Bethe's edition is about 550 Teubner pp. Estimate: more than 100k Greek words.",
+ "edition": "E. Bethe, Lexicographi Graeci IX (Teubner 1900–37; Bethe died 1940, so public domain in most jurisdictions). Bekker 1846 (PD). Both scanned on archive.org.",
+ "ru_status": "partial",
+ "ru_evidence": "ru.wikipedia (Юлий Поллукс) lists no translation. Only tiny excerpts: Onom. 3.149–155 (Yanzina & Korneev, Индоевроп. языкознание и класс. филология 26, 2022, doi 10.30842/ielcp230690152678) and 9.83 in ФРГФ (1989).",
+ "en_status": "partial",
+ "en_evidence": "Jean Golding Institute, Bristol (Aug 2024): 'not translated into any modern language'. Naomi Scott's crowdsourcing project is only at prototype stage. Only extracts on theatre and masks exist (1775; modern Book 4 excerpts).",
+ "other_translations": "No complete translation in any modern language. Only articles on single passages (e.g. Polish, 2021, Book 4 medical terms). Latin 1502.",
+ "value": "Unique thesaurus of Greek life: cult, theatre, music, law, money, crafts, the body, games. Quotes lost comedy and Attic prose. Cited constantly by historians of Athenian institutions, theatre and daily life, yet never translated. Absolute flagship for Neoscholia.",
+ "audience": "humanities",
+ "ai_feasibility": "medium-high: list-like Attic vocabulary suits LLMs. Synonym clusters, the epitomized and corrupt text and identifying quotations need expert review, which suits multi-model cross-critique.",
+ "pilot_unit": "Book 8 (Athenian courts, laws, archons, the constitution). Estimate 10–12k Greek words. Alternatives: Book 9 (city, coins, games) or Book 4 (music, theatre).",
+ "preliminary_priority": 5,
+ "sources": [
+  "https://jeangoldinginstitute.blogs.bristol.ac.uk/?p=2752",
+  "https://ics.sas.ac.uk/news-events/events/crowdsourcing-translation-julius-polluxs-onomasticon-methods-problems",
+  "https://doi.org/10.30842/ielcp230690152678",
+  "https://ru.wikipedia.org/wiki/Юлий_Поллукс"
+ ],
+ "id": "item_065"
+}

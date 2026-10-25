@@ -1,0 +1,26 @@
+{
+ "corpus": "christian-late-antique",
+ "title": "Thaumata: Miracles of SS Cyrus and John / «Чудеса святых Кира и Иоанна»",
+ "author": "Sophronius (later Patriarch of Jerusalem)",
+ "date": "c. 610–630",
+ "language": "Greek",
+ "genre": "Miracle collection (hagiography)",
+ "size": "Encomium + 70 miracles; est. 70–80k words",
+ "edition": "Fernández Marcos, Los Thaumata de Sofronio (Madrid 1975); partial public-domain text in PG 87.3 (Mai)",
+ "ru_status": "partial",
+ "ru_evidence": "azbyka.ru Sophronius page: 'Чудеса святых мучеников Кира и Иоанна' is only 2.9k characters (a tiny excerpt)",
+ "en_status": "none",
+ "en_evidence": "Open Library returns only French items; no English translation found",
+ "other_translations": "French: Festugière, extracts (1971); full French by Gascou (2006, not verified here)",
+ "value": "Incubation cures at Menouthis near Alexandria, successor to an Isis cult. Rich on physicians, disease, social life and Chalcedonian–Miaphysite conflict on the eve of the Arab conquest, by an outstanding stylist. Valuable for historians of medicine, Egypt and religion.",
+ "audience": "humanities",
+ "ai_feasibility": "medium: elaborate Atticizing prose and medical vocabulary; the narratives themselves are clear.",
+ "pilot_unit": "Encomium + Miracles 1–10; est. 12–15k words",
+ "preliminary_priority": 4,
+ "sources": [
+  "https://azbyka.ru/otechnik/Sofronij_Ierusalimskij/",
+  "https://openlibrary.org/search.json?q=Sophronius+miracles+Cyrus+John",
+  "https://openlibrary.org/search.json?q=miracles+Cosmas+Damian"
+ ],
+ "id": "item_024"
+}

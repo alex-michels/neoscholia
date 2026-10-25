@@ -1,0 +1,708 @@
+{
+ "bibliography": [
+  {
+   "key": "Dindorf1855",
+   "exists": true,
+   "corrected_ref": "W. Dindorf (ed.), Scholia Graeca in Homeri Odysseam ex codicibus aucta et emendata, 2 vols., Oxford: e Typographeo Academico, 1855. Vol. II pp. 452.20–454.18 (scholia on Od. 10.82–86); pp. 442–444 (10.1); pp. 460–461 (10.190); p. 479 (11.14).",
+   "evidence_url": "https://archive.org/details/scholiagraeodyss02homeuoft",
+   "note": "Title page, praefatio and pp. 443–444, 452–454, 460–461 and 479 checked in the archive.org OCR. The scholia on v. 82 start at 452.20 (τηλέπυλον), not 452.25."
+  },
+  {
+   "key": "Buttmann1821",
+   "exists": true,
+   "corrected_ref": "Ph. Buttmann (ed.), Scholia antiqua in Homeri Odysseam, maximam partem e codicibus Ambrosianis ab Angelo Maio prolata, nunc e codice Palatino et aliunde auctius et emendatius edita, Berolini: in libraria Myliana, 1821, xiv + 636 pp.",
+   "evidence_url": "https://find.library.upenn.edu/catalog/9911118223503681",
+   "note": "The title is wrong in the draft. It is 'Scholia antiqua in Homeri Odysseam', not 'Scholia antiquissima ad Homeri Odysseam'."
+  },
+  {
+   "key": "Pontani2022",
+   "exists": true,
+   "corrected_ref": "F. Pontani (ed.), Scholia Graeca in Odysseam, V: Scholia ad libros ι–κ, Roma: Edizioni di Storia e Letteratura, 2022 (Pleiadi 6.5), xxxii + 252 pp., ISBN 978-88-9359-640-4 (e-book 978-88-9359-641-1).",
+   "evidence_url": "https://www.storiaeletteratura.it/catalogo/scholia-graeca-in-odysseam-v/11434",
+   "note": "The publisher page gives xxxii-252 and the ISBN. The publisher's free table-of-contents PDF reads 'Scholia ι 1; Scholia κ 127'."
+  },
+  {
+   "key": "PontaniSeries",
+   "exists": true,
+   "corrected_ref": "F. Pontani (ed.), Scholia Graeca in Odysseam, I (α–β) 2007; II (γ–δ) 2010; III (ε–ζ) 2015; IV (η–θ) 2020; V (ι–κ) 2022; VI (λ–μ) 2025, Roma: Edizioni di Storia e Letteratura (Pleiadi 6.1–6.6).",
+   "evidence_url": "https://lincei.it/sites/default/files/2024/3057_bibl_F_Pontani.pdf",
+   "note": "Vols. I–V and their Pleiadi numbers were read in the Lincei CV PDF. Vol. VI (2025, 6.6, ISBN 9791256930234) is known only from the unive.it publication list, as quoted in a search result."
+  },
+  {
+   "key": "Dickey2008",
+   "exists": true,
+   "corrected_ref": "E. Dickey, review of F. Pontani (ed.), Scholia Graeca in Odysseam 1: Scholia ad libros α–β (Roma 2007), BMCR 2008.07.39.",
+   "evidence_url": "https://bmcr.brynmawr.edu/2008/2008.07.39/",
+   "note": "The review exists. The relevance note misreads it. Dickey says only that the Odyssey has no equivalent of the Iliad's A or of 'the next level of Iliad manuscripts, such as B or T'. She does not say what sigla Pontani uses."
+  },
+  {
+   "key": "Stallbaum1825",
+   "exists": true,
+   "corrected_ref": "[G. Stallbaum (ed.)], Eustathii archiepiscopi Thessalonicensis Commentarii ad Homeri Odysseam ad fidem exempli Romani editi, vol. I, Lipsiae: J. A. G. Weigel, 1825, pp. 368–369 (= ed. Rom. pp. 1648–1649).",
+   "evidence_url": "https://archive.org/details/commentariiadhom01eust",
+   "note": "Title page and pp. 368–369 checked. The Rome markers 1648 and 1649 are in the margin."
+  },
+  {
+   "key": "CullhedOlson2026",
+   "exists": true,
+   "corrected_ref": "E. Cullhed – S. D. Olson (eds., trans.), Eustathius of Thessalonica, Commentary on the Odyssey, vol. III: Commentary on Rhapsodies 9–12, Leiden: Brill, 2026, ISBN 978-90-04-72794-6.",
+   "evidence_url": "https://andromedabooks.gr/?p=308096",
+   "note": "Several retailers list it with this ISBN and a 2026 date (c. 655–658 pp.). I did not confirm that it has actually shipped."
+  },
+  {
+   "key": "Manitius1898",
+   "exists": true,
+   "corrected_ref": "C. Manitius (ed., trans.), Gemini Elementa astronomiae, Leipzig: Teubner, 1898. Gem. 6.8–12 at pp. 70–72 (Crates at p. 72.2–20); Cimmerians at p. 74.10–21; ch. 16 Crates at pp. 172–174.",
+   "evidence_url": "https://archive.org/details/geminoueisaggeis00gemi",
+   "note": "Greek text and apparatus read in the archive.org OCR."
+  },
+  {
+   "key": "EvansBerggren2006",
+   "exists": true,
+   "corrected_ref": "J. Evans – J. L. Berggren, Geminos's Introduction to the Phenomena: A Translation and Study of a Hellenistic Survey of Astronomy, Princeton: Princeton University Press, 2006, xviii + 325 pp. (ISBN 978-0-691-12339-4; 2018 paperback 978-0-691-18715-0).",
+   "evidence_url": "https://bmcr.brynmawr.edu/?p=25625",
+   "note": "Pagination confirmed from catalogue data. The page refs 162–163 come from Bilić and were not checked."
+  },
+  {
+   "key": "Aujac1975",
+   "exists": true,
+   "corrected_ref": "G. Aujac (ed., trans.), Géminos, Introduction aux phénomènes, Paris: Les Belles Lettres (CUF), 1975, cxxvii + 215 pp. (some catalogues give 1976).",
+   "evidence_url": "https://theses.univ-nantes.fr/vufind/Record/PPN000166618",
+   "note": "Confirmed by catalogue records and a CR review notice."
+  },
+  {
+   "key": "Murray1919",
+   "exists": true,
+   "corrected_ref": "A. T. Murray, Homer: The Odyssey, 2 vols., London: Heinemann – New York: Putnam (Loeb), 1919; Perseus tlg0012.tlg002.perseus-grc2.",
+   "evidence_url": "https://github.com/PerseusDL/canonical-greekLit/tree/master/data/tlg0012/tlg002",
+   "note": "The TEI header and Od. 10.80–86 were checked."
+  },
+  {
+   "key": "Mair1921",
+   "exists": true,
+   "corrected_ref": "A. W. Mair – G. R. Mair, Callimachus, Hymns and Epigrams; Lycophron; Aratus, London: Heinemann – New York: Putnam (Loeb), 1921; Perseus tlg0653.tlg001.perseus-grc2.",
+   "evidence_url": "https://github.com/PerseusDL/canonical-greekLit/tree/master/data/tlg0653/tlg001",
+   "note": "Line 61 reads νίσσεται, as the draft says."
+  },
+  {
+   "key": "Kidd1997",
+   "exists": true,
+   "corrected_ref": "D. Kidd (ed., trans., comm.), Aratus: Phaenomena (Cambridge Classical Texts and Commentaries 34), Cambridge: Cambridge University Press, 1997.",
+   "evidence_url": "https://doi.org/10.2307/25528349",
+   "note": "The book exists. The DOI given in the scholarship entry (10.2307/25528349) is not the book: it is S. Hordern's review in Classics Ireland 6 (1999) 120. Kidd's reading of line 61 was not checked."
+  },
+  {
+   "key": "Martin1974",
+   "exists": true,
+   "corrected_ref": "J. Martin (ed.), Scholia in Aratum vetera, Stuttgart: Teubner, 1974.",
+   "note": "A standard edition. The page ref p. 100 for sch. Arat. 62 was not checked."
+  },
+  {
+   "key": "Rolfe1927",
+   "exists": true,
+   "corrected_ref": "J. C. Rolfe, The Attic Nights of Aulus Gellius, vol. III, Cambridge, Mass.: Harvard University Press – London: Heinemann (Loeb), 1927; Perseus phi1254.phi001.perseus-lat2.",
+   "evidence_url": "https://github.com/PerseusDL/canonical-latinLit/tree/master/data/phi1254/phi001",
+   "note": "The Perseus file is perseus-lat2, not lat1. Gell. 14.6.3 checked."
+  },
+  {
+   "key": "JonesOCT",
+   "exists": true,
+   "corrected_ref": "H. Stuart Jones (ed.), Thucydidis Historiae, 2 vols., Oxford: Clarendon Press (OCT), 1900–1901; apparatus criticus revised and enlarged by J. E. Powell, 1942. Thuc. 6 is in tomus posterior (first ed. 1901). Perseus tlg0003.tlg001.perseus-grc2.",
+   "evidence_url": "https://catalog.perseus.org/catalog/urn:cts:greekLit:tlg0003.tlg001.opp-grc76",
+   "note": "'1910 (repr. 1942)' is misleading. 1910 is only a printing date in the Perseus header, and 1942 is Powell's revised apparatus, not a reprint."
+  },
+  {
+   "key": "Meineke1877",
+   "exists": true,
+   "corrected_ref": "A. Meineke (ed.), Strabonis Geographica, Leipzig: Teubner, 1877 (Perseus tlg0099.tlg001.perseus-grc2).",
+   "evidence_url": "https://github.com/PerseusDL/canonical-greekLit/tree/master/data/tlg0099/tlg001",
+   "note": "Perseus header checked. All the Strabo passages cited were read there."
+  },
+  {
+   "key": "Broggiato2001",
+   "exists": true,
+   "corrected_ref": "M. Broggiato (ed.), Cratete di Mallo: I frammenti. Edizione, introduzione e note (Pleiadi 2), La Spezia: Agorà Edizioni, 2001, xciv + 357 pp., ISBN 88-87218-34-X.",
+   "evidence_url": "https://bmcr.brynmawr.edu/2003/2003.11.33/",
+   "note": "The BMCR review (James Porter) confirms the series, pagination, ISBN and 143 numbered fragments. F 50 = Laestrygonians is confirmed by Broggiato 2014 n. 126. The commentary pp. 217–218 were not checked."
+  },
+  {
+   "key": "Broggiato2014",
+   "exists": true,
+   "corrected_ref": "M. Broggiato, Filologia e interpretazione a Pergamo. La scuola di Cratete (Studi e Ricerche 13), Roma: Sapienza Università Editrice, 2014, ISBN 978-88-98533-15-2, DOI 10.13133/978-88-98533-15-2. Herodicus F 13 (Athen. 5.192a–b) at pp. 105–106, nn. 124–126 on p. 106.",
+   "evidence_url": "https://www.editricesapienza.it/sites/default/files/5031_Broggiato_FilologiaPergamo.pdf",
+   "note": "PDF read. Footnote 126 is quoted correctly."
+  },
+  {
+   "key": "Heubeck1989",
+   "exists": true,
+   "corrected_ref": "A. Heubeck, 'Books IX–XII', in A. Heubeck – A. Hoekstra, A Commentary on Homer's Odyssey, vol. II: Books IX–XVI, Oxford: Clarendon Press, 1989 (paperback 1990).",
+   "evidence_url": "https://doi.org/10.1093/actrade/9780198721444.book.1",
+   "note": "The volume exists, and the DOI resolves to the Oxford Scholarly Editions record. Neither the page span 1–143 nor the note on 10.80–132 at pp. 47–49 was checked. Broggiato 2014 n. 125 cites only 'il commento di Heubeck al passo', without pages."
+  },
+  {
+   "key": "Scodel2003",
+   "exists": true,
+   "corrected_ref": "R. Scodel, 'The Paths of Day and Night', Ordia Prima 2 (2003) 83–86 (as cited by Broggiato 2014 n. 125).",
+   "evidence_url": "https://www.editricesapienza.it/sites/default/files/5031_Broggiato_FilologiaPergamo.pdf",
+   "note": "Attested only through Broggiato 2014 n. 125, which I read directly. No catalogue or TOC record was found. The title 'Paths of Night and Day' attributed to Bilić 2021 was not checked."
+  },
+  {
+   "key": "Argenziano2012",
+   "exists": true,
+   "corrected_ref": "P. Argenziano, '«Vicini sono i sentieri della Notte e del Giorno»: una proposta esegetica per Od. 10. 80-86', Seminari Romani di cultura greca n.s. 1 (2012) 71–88 (as cited by Broggiato 2014 n. 125).",
+   "evidence_url": "https://www.editricesapienza.it/sites/default/files/5031_Broggiato_FilologiaPergamo.pdf",
+   "note": "Attested only through Broggiato 2014 n. 125. No independent catalogue record was found, and the author's first name is unverified."
+  },
+  {
+   "key": "BroggiatoFGrHistV",
+   "exists": true,
+   "corrected_ref": "M. Broggiato, 'Krates of Mallos (2113)', in Die Fragmente der griechischen Historiker Continued, Part V: Die Geographen (Jacoby Online, Brill), cited by Bilić as 'BNJ 2113'. Editors and date not verified.",
+   "evidence_url": "https://grbs.library.duke.edu/index.php/grbs/article/download/16505/7343/21078",
+   "note": "Not seen directly (Brill and IRIS return 403). Its existence is attested by Bilić, GRBS 60 (2020): n. 10 'Crates fr.50 Broggiato = BNJ 2113 F 20' and n. 25 'Crates fr.54 Broggiato = BNJ 2113 F 23a'. Bilić labels it BNJ; whether it sits in FGrHist V under Gehrke–Maier is unconfirmed."
+  },
+  {
+   "key": "Mette1936",
+   "exists": true,
+   "corrected_ref": "H. J. Mette, Sphairopoiia. Untersuchungen zur Kosmologie des Krates von Pergamon, München, 1936 (publisher C. H. Beck not independently confirmed).",
+   "evidence_url": "https://grbs.library.duke.edu/index.php/grbs/article/download/16505/7343/21078",
+   "note": "Title, place and year confirmed by Bilić 2020 n. 7, which cites 'Crates fr.37b Mette … 268.5-7'. A catalogue search was blocked."
+  },
+  {
+   "key": "Carnuth1869",
+   "exists": true,
+   "corrected_ref": "O. Carnuth, Aristonici Περὶ σημείων Ὀδυσσείας reliquiae emendatiores, Lipsiae: S. Hirzel, 1869, 172 pp.",
+   "evidence_url": "https://archive.org/details/aristoniciperis01arisgoog",
+   "note": "Book κ entries checked. They run κ 1, 3, 15, 20, 41, (55), 70, 91, 110, 113, 124, 150, 152, 160, 161, 169, 173, 189, 190, 193, … Note κ 190: 'ἐκ τούτων ἐκτετοπισμένη φαίνεται ἡ πλάνη τοῦ Ὀδυσσέως'."
+  },
+  {
+   "key": "Shchetnikov2011",
+   "exists": true,
+   "corrected_ref": "А. И. Щетников, «Гемин. Введение в явления» (вступление, перевод, примечания), ΣΧΟΛΗ 5.2 (2011) 174 сл.; Crates on the Laestrygonians pp. 197–198, on the Cimmerians p. 198.",
+   "evidence_url": "https://classics.nsu.ru/schole/5/5-2-gemin.pdf",
+   "note": "PDF read. The running heads give 'ΣΧΟΛΗ Vol. 5. 2 (2011)'."
+  },
+  {
+   "key": "Page1973",
+   "exists": true,
+   "corrected_ref": "D. L. Page, Folktales in Homer's Odyssey, Cambridge, MA: Harvard University Press, 1973.",
+   "evidence_url": "https://doi.org/10.4159/harvard.9780674423435",
+   "note": "Crossref confirms the DOI. The page refs 42–44 and 122 n. 26 were not checked."
+  },
+  {
+   "key": "Porter1992",
+   "exists": true,
+   "corrected_ref": "J. I. Porter, 'Hermeneutic Lines and Circles: Aristarchus and Crates on the Exegesis of Homer', in R. Lamberton – J. J. Keaney (eds.), Homer's Ancient Readers, Princeton: Princeton University Press, 1992, 67–114.",
+   "evidence_url": "https://doi.org/10.1515/9780691197678-006",
+   "note": "Crossref confirms the title and pp. 67–114."
+  },
+  {
+   "key": "Pfeiffer1968",
+   "exists": true,
+   "corrected_ref": "R. Pfeiffer, History of Classical Scholarship from the Beginnings to the End of the Hellenistic Age, Oxford: Clarendon Press, 1968.",
+   "note": "A standard work. No page refs are claimed."
+  },
+  {
+   "key": "Nunlist2009",
+   "exists": true,
+   "corrected_ref": "R. Nünlist, The Ancient Critic at Work: Terms and Concepts of Literary Criticism in Greek Scholia, Cambridge: Cambridge University Press, 2009.",
+   "evidence_url": "https://doi.org/10.1017/CBO9780511575891",
+   "note": "Crossref confirms the DOI."
+  },
+  {
+   "key": "Schironi2018",
+   "exists": true,
+   "corrected_ref": "F. Schironi, The Best of the Grammarians: Aristarchus of Samothrace on the Iliad, Ann Arbor: University of Michigan Press, 2018.",
+   "note": "A standard work. Not re-checked in a catalogue."
+  },
+  {
+   "key": "Romm1992",
+   "exists": true,
+   "corrected_ref": "J. S. Romm, The Edges of the Earth in Ancient Thought: Geography, Exploration, and Fiction, Princeton: Princeton University Press, 1992.",
+   "evidence_url": "https://doi.org/10.1515/9780691201702",
+   "note": "Crossref confirms the DOI. The page refs from Bilić were not checked."
+  },
+  {
+   "key": "Dueck2012",
+   "exists": true,
+   "corrected_ref": "D. Dueck (with a chapter by K. Brodersen), Geography in Classical Antiquity, Cambridge: Cambridge University Press, 2012.",
+   "evidence_url": "https://doi.org/10.1017/CBO9781139027014",
+   "note": "Crossref confirms the DOI and both authors."
+  },
+  {
+   "key": "Bilic2012",
+   "exists": true,
+   "corrected_ref": "T. Bilić, 'Crates of Mallos and Pytheas of Massalia: Examples of Homeric Exegesis in Terms of Mathematical Geography', TAPA 142.2 (2012) 295–328, DOI 10.1353/apa.2012.0016.",
+   "evidence_url": "https://doi.org/10.1353/apa.2012.0016",
+   "note": "Crossref confirms vol. 142, issue 2, pp. 295–328. Bilić 2020 n. 8 cites the Pytheas section as 319–322 and n. 25 cites 298–299."
+  },
+  {
+   "key": "Bilic2020",
+   "exists": true,
+   "corrected_ref": "T. Bilić, 'Pytheas and Hecataeus: Visions of the North in the Late Fourth Century B.C.', Greek, Roman, and Byzantine Studies 60 (2020) 574–593.",
+   "evidence_url": "https://grbs.library.duke.edu/index.php/grbs/article/download/16505/7343/21078",
+   "note": "PDF read. The concordances in nn. 10 and 25 are as the draft states."
+  },
+  {
+   "key": "Bilic2021",
+   "exists": true,
+   "corrected_ref": "T. Bilić, The Land of the Solstices: Myth, Geography and Astronomy in Ancient Greece (BAR International Series S3039), Oxford: BAR Publishing, 2021, ISBN 978-1-4073-5862-8.",
+   "evidence_url": "https://www.barpublishing.com/the-land-of-the-solstices.html",
+   "note": "The ISBN and series are confirmed (CR gives xiv + 198 pp.). The contents were not seen, so every Mette or BNJ number taken 'per Bilić 2021' is unverified."
+  },
+  {
+   "key": "Nagy1998",
+   "exists": true,
+   "corrected_ref": "G. Nagy, 'The Library of Pergamon as a Classical Model', in H. Koester (ed.), Pergamon: Citadel of the Gods (Harvard Theological Studies 46), Harrisburg, PA: Trinity Press International, 1998, 185–232.",
+   "evidence_url": "https://www-current.chs.harvard.edu/?p=170370",
+   "note": "Confirmed by the CHS online edition."
+  },
+  {
+   "key": "Podossinov2013",
+   "exists": true,
+   "corrected_ref": "A. V. Podossinov, 'Das Schwarze Meer in der geokartographischen Tradition der Antike und des frühen Mittelalters. IV. Odysseus im Schwarzen Meer? Okeanische Fahrten der griechischen Helden und archaisches Weltbild der Griechen', Ancient West & East 12 (2013) 205–236.",
+   "evidence_url": "https://dgve.igh.ru/issues/44/articles/865?locale=ru",
+   "note": "Confirmed by the bibliography of Dueck, DGVE 2023 and by Podossinov's own list. The URL given in the draft is Dueck's 2023 DGVE article, which only cites Podossinov."
+  },
+  {
+   "key": "Manitius1894",
+   "exists": true,
+   "corrected_ref": "K. Manitius (ed., trans.), Hipparchi in Arati et Eudoxi Phaenomena commentariorum libri tres, Leipzig: Teubner, 1894. 1.3 at pp. 26–27; the head of Draco at pp. 32–35 (page head 'Lib. I Cap. IV § 8. 9', so the passage is § 8); 1.11 at p. 112.",
+   "evidence_url": "https://archive.org/details/ipparchoutonarat00hipp",
+   "note": "Greek and German read in the OCR. Manitius' text of Arat. 61 is 'τῇ νείσσεται', with apparatus 'τῇ νείσεται LP²M'."
+  },
+  {
+   "key": "VaninCusinato2022",
+   "exists": true,
+   "corrected_ref": "G. Vanin – B. Cusinato, Commentari di Ipparco ai Fenomeni di Arato ed Eudosso, arXiv:2206.08243 (v1 16 June 2022; v3 4 July 2022); translation first published 2013.",
+   "evidence_url": "https://arxiv.org/abs/2206.08243",
+   "note": "The arXiv versions are dated June–July 2022. Notes 21 and 27 were not checked."
+  },
+  {
+   "key": "Capitaine2003",
+   "exists": true,
+   "corrected_ref": "N. Capitaine, P. T. Wallace, J. Chapront, 'Expressions for IAU 2000 precession quantities', A&A 412 (2003) 567–586.",
+   "note": "A standard reference. The coefficients as quoted reproduce the declinations exactly in my own code."
+  },
+  {
+   "key": "Lieske1977",
+   "exists": true,
+   "corrected_ref": "J. H. Lieske, T. Lederle, W. Fricke, B. Morando, 'Expressions for the precession quantities based upon the IAU (1976) system of astronomical constants', A&A 58 (1977) 1–16.",
+   "note": "A standard reference. My independent IAU-1976 run agrees with P03 to ≤0.001°."
+  },
+  {
+   "key": "Laskar1986",
+   "exists": true,
+   "corrected_ref": "J. Laskar, 'Secular terms of classical planetary theories using the results of general theory', A&A 157 (1986) 59–70.",
+   "note": "A standard reference. The polynomial reproduces the stated obliquities."
+  },
+  {
+   "key": "vanLeeuwen2007",
+   "exists": true,
+   "corrected_ref": "F. van Leeuwen, 'Validation of the new Hipparcos reduction', A&A 474 (2007) 653–664.",
+   "note": "A standard reference."
+  },
+  {
+   "key": "GaiaEDR3",
+   "exists": true,
+   "corrected_ref": "Gaia Collaboration, Gaia EDR3 (VizieR I/350), 2020 (2020yCat.1350....0G).",
+   "note": "A standard reference."
+  },
+  {
+   "key": "SIMBAD",
+   "exists": true,
+   "corrected_ref": "M. Wenger et al., 'The SIMBAD astronomical database', A&AS 143 (2000) 9–22; TAP service.",
+   "evidence_url": "https://simbad.cds.unistra.fr/simbad/sim-tap",
+   "note": "I re-queried it on 25 Oct 2026. The values are identical to those used (e.g. γ Dra pm −8.48/−22.79, plx 21.14, RV −27.91)."
+  },
+  {
+   "key": "Meeus1998",
+   "exists": true,
+   "corrected_ref": "J. Meeus, Astronomical Algorithms, 2nd ed., Richmond, VA: Willmann-Bell, 1998 (Example 21.b, θ Per).",
+   "note": "A standard reference."
+  },
+  {
+   "key": "KastenYoung1989",
+   "exists": true,
+   "corrected_ref": "F. Kasten – A. T. Young, 'Revised optical air mass tables and approximation formula', Applied Optics 28 (1989) 4735–4738.",
+   "note": "The formula reproduces the stated air masses: 37.9, 26.3, 19.4."
+  },
+  {
+   "key": "Pleiades648702",
+   "exists": true,
+   "corrected_ref": "Pleiades place 648702, 'Mallos/Antiochia ad Pyramum' (representative point 36.756188 N, 35.4852 E; DARE location).",
+   "evidence_url": "https://pleiades.stoa.org/places/648702",
+   "note": "The JSON was fetched and the title and coordinates match."
+  },
+  {
+   "key": "Heiberg1898",
+   "exists": true,
+   "corrected_ref": "J. L. Heiberg (ed.), Claudii Ptolemaei Syntaxis mathematica, pars I (Opera I.1), Leipzig: Teubner, 1898.",
+   "note": "A standard edition. The Almagest II.6 values were not checked."
+  }
+ ],
+ "claims": [
+  {
+   "claim": "In Dindorf vol. II the scholia on Od. 10.82–86 run from p. 452, line 25, to p. 454, line 18. Sigla: B (85), H, H.Q., H.V., T, P (86).",
+   "verdict": "needs_rewording",
+   "evidence": "Dindorf II 452 OCR: the lemma '82. τηλέπυλον] μεγάλην …' carries the line marker 20, and 'Λαιστρυγονίην]' carries 25. The P scholion ends at 454.18; '87. ἔνθ᾽ ἐπεὶ' follows. The sigla are correct.",
+   "fix": "The scholia on v. 82 begin at II 452.20 (τηλέπυλον), so write 'p. 452, line 20, to p. 454, line 18'."
+  },
+  {
+   "claim": "The Crates note in H.Q. continues 'ἢ τὸν ἐν ὕπνῳ τὸ τῆς ἡμέρας πολὺ καταχρώμενον. H.Q.'",
+   "verdict": "holds",
+   "evidence": "Dindorf II 453.27–28. The OCR is garbled but consistent ('τον εν UVTyO TO τῆς ηβμέρᾶς πόλυ Κατ’ χρομε ον')."
+  },
+  {
+   "claim": "Two distinct Crates versions in the scholia: H.Q. 'περὶ τὴν κεφαλὴν τοῦ δράκοντος' and H.V. 'κατὰ τὴν τοῦ δράκοντος αὐτοὺς κατηστερίσθαι κεφαλήν … ὡς ἀνάπαλιν παρὰ τοῖς Κιμμερίοις'; both quote Aratus 61–62.",
+   "verdict": "holds",
+   "evidence": "Dindorf II 453.20–28 and 454.3–8 (OCR)."
+  },
+  {
+   "claim": "Dindorf prints νείσεται in both quotations of Aratus 61; Mair's Loeb prints νίσσεται.",
+   "verdict": "holds",
+   "evidence": "Dindorf II 453.22 and 454.5 (OCR); Perseus Mair, Aratus line 61. Note also that Manitius' Hipparchus (p. 34) prints νείσσεται, with apparatus 'τῇ νείσεται LP²M'."
+  },
+  {
+   "claim": "Dindorf's apparatus on 453.21: 'Ἄρατος] 61. ubi Cratetis sententiam memorat scholiasta'.",
+   "verdict": "holds",
+   "evidence": "Dindorf II 453, apparatus line 21 (OCR '2T. \"Apzros) 61. ubi Cratetis sententiam memorat scholiasta')."
+  },
+  {
+   "claim": "Dindorf supplied νυκτός, πολέμιος, βόσκων, illegible in B (schol. 10.85), from 'annotatio similis Eustathii p. 1648, 42'.",
+   "verdict": "holds",
+   "evidence": "Dindorf II 453, apparatus line 8: 'Tria haec vocabula obliterata in B. supplevi ex annotatione simili Eustathii p. 1648, 42.'"
+  },
+  {
+   "claim": "Eustathius p. 1648 (Rome), c. lines 41–43: βουκόλους νύκτωρ νέμειν διὰ τὸν … πολέμιον οἶστρον … τοὺς δὲ ποιμένας βόσκειν ἡμέρας οὔσης.",
+   "verdict": "holds",
+   "evidence": "Stallbaum I 368. The passage lies between the Rome markers 40 and 50 of p. 1648."
+  },
+  {
+   "claim": "Dindorf's preface says B (Ambros. B 99 sup.) contains material inserted from Eustathius by an interpolator; the B scholion on 10.85 may depend on Eustathius.",
+   "verdict": "holds",
+   "evidence": "Dindorf I praef. pp. xii–xiii: '…quae passim ex Eustathio inseruit interpolator (vide ad … κ 20. 153. 242. 251. 491 …)'. The 10.85 note is not listed, so dependence on Eustathius is only an inference."
+  },
+  {
+   "claim": "Buttmann's conjectures: νομέα for νομός (453.1), τῶν for τοῖς (453.19), supplement τὴν γὰρ νύκτα (454.13).",
+   "verdict": "holds",
+   "evidence": "Dindorf II 453 apparatus '1. νομέα Buttm. pro νομός', '19. τῶν Buttm. pro τοῖς'; 454 apparatus '13. τὴν γὰρ νύκτα addidit Buttm.'"
+  },
+  {
+   "claim": "Variants: 453.16 παρελεύσει H / παρακελεύσει Q; 453.25 ταῖς—κελεύθοις om. Q; 454.1 χώραν, ἐν ᾗ γεννᾶσθαι om. H; 454.17 τηλέκλυτον P.",
+   "verdict": "holds",
+   "evidence": "Dindorf II 453–454 apparatus (OCR)."
+  },
+  {
+   "claim": "Dindorf's sigla: H = Harl. 5674; Q = Ambros. Q 88 sup.; B = Ambros. B 99 sup.; T = Hamburgensis; P = Heidelb. Palatinus; N = Marc. cl. IX cod. 4; V = scholia Vulgata (Aldus 1528).",
+   "verdict": "holds",
+   "evidence": "Dindorf I praefatio (OCR): 'H. Harleianus … 5674'; 'Q. … Partis superioris Q. 88'; 'B. … Partis superioris B. 99'; 'T. sive codex Hamburgensis'; 'P., Heidelbergensis …'; 'N. Venetus Marcianus class. ix. codex iv'; 'Litera V. scholia designavimus quae Vulgata …', Aldus vol. II 'a. 1528'."
+  },
+  {
+   "claim": "The T scholion on 10.86 is from the Hamburg MS, not the Townley Iliad.",
+   "verdict": "holds",
+   "evidence": "Dindorf I praef.: 'T. sive codex Hamburgensis'."
+  },
+  {
+   "claim": "The H.V. scholion: Laestrygonians held the territory of Leontini, where gadfly and oestrus breed, so shaggy animals graze by day and smooth ones by night. Eustathius repeats this at 1649.10–19.",
+   "verdict": "holds",
+   "evidence": "Dindorf II 453.29–454.3. In Stallbaum I 368 Eustathius has 'κατεσχηκότες τὴν περὶ Σικελίαν χώραν τῶν Λεοντίνων, ἐν ᾗ πολὺς ὁ μύωψ· ὥστε τὰ μὲν λάσια ἡμέρας … τὰ δὲ ψιλὰ νυκτός', between the Rome markers 1649.10 and 1649.20."
+  },
+  {
+   "claim": "A scholion in H on 10.82 says the νεώτεροι identify Laestrygonia with Sicily.",
+   "verdict": "holds",
+   "evidence": "Dindorf II 452.26–27: 'τὴν Λαιστρυγονίην οἱ νεώτεροι Σικελίαν φασί. H.'"
+  },
+  {
+   "claim": "The P scholion (23-hour day) closely paraphrases Geminus 6.10–12.",
+   "verdict": "holds",
+   "evidence": "Dindorf II 454.12–18 ('κγʹ ὡρῶν', 'μιᾶς ὥρας', 'περὶ τούτων καὶ Ὅμηρος τῶν τόπων μνημονεύει') against Manitius p. 72. This is a parallel only; direct dependence is unproven, as the draft says."
+  },
+  {
+   "claim": "Geminus 6.10–12 (Manitius p. 72) reports Crates 'the grammarian': 23 equinoctial hours of day, one hour of night.",
+   "verdict": "holds",
+   "evidence": "Manitius p. 72.2–20: 'Κράτης δὲ ὁ γραμματικός φησι … ὡρῶν κγʹ ἰσημερινῶν ἡ νὺξ … ὥρας μιᾶς'."
+  },
+  {
+   "claim": "Broggiato numbers this fragment F 50 (Geminus 6.10–12, schol. Od. 10.86, sch. Arat. 62).",
+   "verdict": "holds",
+   "evidence": "Broggiato 2014 p. 106 n. 126, verbatim as quoted in the draft."
+  },
+  {
+   "claim": "Herodicus (F 13 Broggiato = Athen. 5.192a–b) ironically cites Od. 10.84 about Socrates leaving the Symposium for the Lyceum.",
+   "verdict": "holds",
+   "evidence": "Broggiato 2014 pp. 105–106: F 13 (p. 114 Düring), Athen. 5.192a–b, ending with Od. 10.84. In the commentary Socrates 'sarebbe potuto andare nella terra dei Lestrigoni'. Athenaeus himself was not re-read."
+  },
+  {
+   "claim": "Eustathius says Crates started ('κατῆρξε') the 'mathematical' interpretation of 10.86 and places the Laestrygonians 'ὑπὸ τὴν κεφαλὴν τοῦ δράκοντος'; Rome p. 1649, c. 25–45.",
+   "verdict": "needs_rewording",
+   "evidence": "Stallbaum I 369 reads 'κατῆρξε δέ φασι τῆς τοιαύτης μαθηματικῆς ἐπινοίας Κράτης … εἶναι τοὺς Λαιστρυγόνας ὑπὸ τὴν κεφαλὴν τοῦ δράκοντος κατηστερισμένην περὶ αὐτούς'. It lies between the Rome markers 1649.30 and 1649.40.",
+   "fix": "Eustathius reports this with φασι, so write 'Eustathius reports (κατῆρξε δέ φασι) that Crates began…'. Locate the Crates sentence at c. 1649.31–33."
+  },
+  {
+   "claim": "Gellius NA 14.6.3: 'utrum ἐν τῇ ἔσω θαλάσσῃ Ulixes erraverit κατ’ Ἀρίσταρχον an ἐν τῇ ἔξω κατὰ Κράτητα'.",
+   "verdict": "holds",
+   "evidence": "Perseus phi1254.phi001.perseus-lat2 (Rolfe), 14.6.3. The context is Gellius' list of useless erudition."
+  },
+  {
+   "claim": "Thuc. 6.2.1 names Cyclopes and Laestrygonians as the oldest inhabitants of part of Sicily and can say nothing beyond the poets.",
+   "verdict": "holds",
+   "evidence": "Perseus (Jones–Powell): 'παλαίτατοι μὲν λέγονται ἐν μέρει τινὶ τῆς χώρας Κύκλωπες καὶ Λαιστρυγόνες … ἀρκείτω δὲ ὡς ποιηταῖς τε εἴρηται'."
+  },
+  {
+   "claim": "Strabo 1.2.15: Polybius rejects Eratosthenes' cobbler remark.",
+   "verdict": "holds",
+   "evidence": "Strabo 1.2.15: 'οὐκ ἐπαινεῖ δὲ οὐδὲ τὴν τοιαύτην τοῦ Ἐρατοσθένους ἀπόφασιν … τὸν σκυτέα τὸν συρράψαντα τὸν τῶν ἀνέμων ἀσκόν'."
+  },
+  {
+   "claim": "Pontani vol. V covers book 10 (2022; Pleiadi 6.5; xxxii+252; ISBN 978-88-9359-640-4).",
+   "verdict": "holds",
+   "evidence": "Publisher catalogue page and table-of-contents PDF; Lincei CV."
+  },
+  {
+   "claim": "In Pontani vol. V the scholia on κ begin on p. 127.",
+   "verdict": "holds",
+   "evidence": "The publisher's table-of-contents PDF, with fonts extracted, reads 'Scholia ι 1 / Scholia κ 127'. The κ is in IFAO-Grec, so this is now confirmed."
+  },
+  {
+   "claim": "Pontani vol. VI (λ–μ) appeared in 2025 (ISBN 9791256930234).",
+   "verdict": "holds",
+   "evidence": "The unive.it publication list, as quoted in a search result, gives vol. 6.6, ISBN 9791256930234. The record itself was not opened."
+  },
+  {
+   "claim": "Pontani refers to scholia by line number plus letters and numbers, with source labels (ex., gl., V, Did., Ariston.). In his sigla T and B are Iliad manuscripts, so Dindorf's B and T have different sigla in Pontani.",
+   "verdict": "needs_rewording",
+   "evidence": "Dickey (BMCR 2008.07.39) confirms the numbering and the source labels. On B and T she says only that the Odyssey has no equivalent of 'the next level of Iliad manuscripts, such as B or T'. She says nothing about Pontani's sigla.",
+   "fix": "Drop the inference about Pontani's sigla, or check his conspectus siglorum (vol. V pp. xxvii ff.)."
+  },
+  {
+   "claim": "No printed translation of the Odyssey scholia on 10.85–86 as such was found.",
+   "verdict": "unverifiable",
+   "evidence": "A negative result. Bilić (TAPA 2012; Land of the Solstices 2021) very probably translates the Cratetean scholia into English, and Cullhed–Olson translate Eustathius' paraphrase. I did not check either.",
+   "fix": "Write 'no complete translation found; partial English renderings likely in Bilić 2012/2021'."
+  },
+  {
+   "claim": "The lemma of the N scholion on 10.84 is ἄοκνος, with 'γρ. ἄυπνος'.",
+   "verdict": "holds",
+   "evidence": "Dindorf II 453.7: '84. ἄοκνος] γρ. ἄυπνος. N.'"
+  },
+  {
+   "claim": "Kidd's 1997 text of Aratus 61 reads νείσεται.",
+   "verdict": "unverifiable",
+   "evidence": "Kidd was not accessible. Mair prints νίσσεται; Manitius (Hipparchus) prints νείσσεται."
+  },
+  {
+   "claim": "Allen's OCT text of Od. 10.80–86 is identical to Murray's.",
+   "verdict": "unverifiable",
+   "evidence": "Allen was not consulted."
+  },
+  {
+   "claim": "Crates' Laestrygonian testimony is fr. 50 Broggiato 2001 (Gem. 6.10–12; schol. Od. 10.86; schol. Arat. 62).",
+   "verdict": "holds",
+   "evidence": "Broggiato 2014 p. 106 n. 126."
+  },
+  {
+   "claim": "In Broggiato's FGrHist V (Jacoby Online) edition the same testimony is 2113 F 20; not to be confused with Broggiato 2001 F 20 (Il. 14.246a).",
+   "verdict": "holds",
+   "evidence": "Bilić, GRBS 60 (2020) n. 10: 'Crates fr.50 Broggiato = BNJ 2113 F 20'. In Nagy's Harvard Continuum essay, Crates F 20 Broggiato is Plut. De facie 938d quoting Il. 14.246a. The Jacoby Online entry itself was not seen."
+  },
+  {
+   "claim": "Mette 1936 numbers the Laestrygonian cluster fr. 37a–i (Σ HQ = 37e, Σ HV = 37f, Eust. = 37g, Σ Arat. 62 = 37h, Hyg. Astr. 4.3 = 37i, Σ P = 37d, Priscianus Lydus = 37b, Gem. 6.16–20 = 37a).",
+   "verdict": "unverifiable",
+   "evidence": "Neither Mette nor Bilić 2021 was accessible. The only independent trace is Bilić 2020 n. 7: 'Crates fr.37b Mette (… 268.5-7)', in a Thule/arctic-circle context, which fits but does not prove 37b = Priscianus."
+  },
+  {
+   "claim": "Geminus 6.10–12 attributes to Crates: a 23-hour longest day, a one-hour night, sunset next to sunrise; the cause is 'mathematical and consonant with the sphaeric theory'.",
+   "verdict": "holds",
+   "evidence": "Manitius p. 72: 'εἶτα ἐπιφέρει τὴν αἰτίαν μαθηματικὴν οὖσαν καὶ σύμφωνον τῷ σφαιρικῷ λόγῳ … ὅτι ἡ δύσις παράκειται τῇ ἀνατολῇ'. Shchetnikov, ΣΧΟΛΗ 5.2, pp. 197–198."
+  },
+  {
+   "claim": "The 'head of Draco + Aratus 61–62' argument is preserved only in the scholia (Σ HQ, Σ HV, schol. Arat. 62), not in Geminus.",
+   "verdict": "needs_rewording",
+   "evidence": "Correct for Geminus. But Eustathius 1649 (Stallbaum I 369) also preserves it ('ὑπὸ τὴν κεφαλὴν τοῦ δράκοντος … ἣν καὶ Ἄρατος …'), probably drawing on the scholia.",
+   "fix": "Add 'and in Eustathius ad loc. (p. 1649 Rom.), who depends on the scholia'."
+  },
+  {
+   "claim": "Σ P (23-hour day) is the Cratetean/Geminus explanation transmitted without Crates' name.",
+   "verdict": "holds",
+   "evidence": "The verbal parallels with Gem. 6.10–12 are verified. That Mette counted it as 37d is unverified. The claim stands as 'probable'."
+  },
+  {
+   "claim": "The other explanations in the scholia are all anonymous; the only name in the scholia on 10.82–86 is Κράτης.",
+   "verdict": "needs_rewording",
+   "evidence": "Dindorf II 452.20–454.18: no exegete other than Crates is named. Aratus is also named, though as the quoted poet.",
+   "fix": "Write 'the only exegete named is Crates'."
+  },
+  {
+   "claim": "No Aristarchean note on Od. 10.82–86 in Carnuth; entries jump from κ 70 to κ 91 (also κ 1, 3, 15, 20, 41, 110, 113, 124, 150).",
+   "verdict": "holds",
+   "evidence": "Carnuth 1869 pp. 93–96: κ 1, 3, 15, 20, 41, (55 n.), 70, 91, 110, 113, 124, 150, 152, 160, 161, 169, 173, 189, 190, 193 … The parenthesised list is incomplete but the jump 70 → 91 is correct."
+  },
+  {
+   "claim": "Aristarchus' position on the location of the wanderings is explicitly attested only in Gellius NA 14.6.3.",
+   "verdict": "needs_rewording",
+   "evidence": "Two Aristonicus notes in book κ also state the Aristarchean view that the wanderings lie in remote, unidentified places. On κ 1: 'οὐ τὰς Αἰόλου νήσους νῦν λεγομένας, ἀλλά τινα ἄλλην ἐκτετοπισμένην νῆσον'. On κ 190 (Dindorf II 461.4–5, B.Q.T.; Carnuth κ 190): 'ἐκ τούτων δὲ ἐκτετοπισμένη φαίνεται ἡ πλάνη τοῦ Ὀδυσσέως'.",
+   "fix": "Write 'explicitly contrasted with Crates only in Gell. 14.6.3; cf. the Aristonicus notes on κ 1 and κ 190 (ἐκτετοπισμένη)'."
+  },
+  {
+   "claim": "In book κ the closest Aristarchean statement is the Aristonicus note on Od. 10.1 (ἐκτετοπισμένη island); its anonymous continuation reports the Sicily–Italy school (Cyclopes = Leontini).",
+   "verdict": "needs_rewording",
+   "evidence": "The text of schol. 10.1 is verified (Dindorf II 443.25–444.4, B.Q.V.; Carnuth κ 1 with '[ἡ διπλῆ ὅτι]'). But schol. κ 190 (Dindorf II 461.4–5), assigned to Aristonicus by Carnuth, says outright that the wandering as a whole is ἐκτετοπισμένη. That is closer to the Laestrygonian question.",
+   "fix": "Cite κ 190 alongside κ 1."
+  },
+  {
+   "claim": "Strabo 1.2.24–25 is the best direct witness to an Aristarchus–Crates dispute on Homeric geography (Od. 1.23–24); Aristarchus rejected the 'Cratetean hypothesis'.",
+   "verdict": "holds",
+   "evidence": "Strabo 1.2.24 (the two readings of Od. 1.24) and 1.2.25 ('τὴν Κρατήτειον ἀφεὶς ὑπόθεσιν … περὶ τῆς καθ’ ἡμᾶς Αἰθιοπίας')."
+  },
+  {
+   "claim": "Κερβερίων for Κιμμερίων at Od. 11.14 is attested in schol. Od. 11.14 (P, V: 'οἱ δὲ Κερβερίων, ὡς Κράτης'); fr. 53 Broggiato = BNJ 2113 F 22 = Mette 38a, c.",
+   "verdict": "unverifiable",
+   "evidence": "The scholion text and the sigla P.V. are verified (Dindorf II 479). Bilić 2020 n. 25 cites 'Schol. BH Hom. Od. 11.14 (II 479 Dindorf)'. The fragment numbers depend on Bilić 2021, which was not accessible."
+  },
+  {
+   "claim": "In ms. H the scholion on 11.14 carries 'Ἀρίσταρχος Κερβερέων'; Mette counted it as Crates fr. 38f.",
+   "verdict": "holds",
+   "evidence": "Dindorf II 479: '14. ἔνθα δὲ Κιμμερίων] Ἀρίσταρχος Κερβερέων. H.'. The apparatus has Porson 'Lege Κερβερίων' and notes that H actually puts these words after κεῖσθαι (l. 19). The Mette number is unverified."
+  },
+  {
+   "claim": "Crates referred the Cimmerians to the pole (six-month day and night): Gem. 6.16–20 = fr. 54 Broggiato = BNJ 2113 F 23a (= 37a Mette); 'ὡς ἀνάπαλιν παρὰ τοῖς Κιμμερίοις' in Σ HV pairs the two readings.",
+   "verdict": "holds",
+   "evidence": "Manitius p. 74.10–21. Bilić 2020 n. 25: 'Crates fr.54 Broggiato = BNJ 2113 F 23a'. The Σ HV phrase is verified. Only '37a Mette' is unverified."
+  },
+  {
+   "claim": "Crates mapped the wanderings onto a spherical earth with the Ocean between the tropics; fr. 57 Broggiato = BNJ 2113 F 24 (Hades); fr. 37 = BNJ 2113 F 13 (Gem. 16.27).",
+   "verdict": "unverifiable",
+   "evidence": "Gem. 16.21–22 (Manitius p. 172: 'Κράτης ὁ γραμματικὸς τὴν πλάνην τοῦ Ὀδυσσέως διατάσσων … ποιεῖ μεταξὺ τῶν τροπικῶν τὸν ὠκεανόν') is verified. The fragment numbers are unverified."
+  },
+  {
+   "claim": "ἐξωκεανισμός / ἐξωκεανικέναι occur in Strabo 1.2.37 and 7.3.6 for the Eratosthenes–Apollodorus view; not Crates' own term.",
+   "verdict": "holds",
+   "evidence": "Strabo 1.2.37: 'παρὰ τὴν Ὁμηρικὴν ὑπόθεσιν καὶ τὸν ἐξωκεανισμὸν τῶν τόπων' (Apollodorus against Callimachus). Strabo 7.3.6: 'τὸν δὲ ποιητὴν ἐξωκεανικέναι μυθολογίας χάριν'. That the term is absent from Crates' fragments is a negative I did not check."
+  },
+  {
+   "claim": "Herodicus alluded to the Laestrygonians' double wages when mocking Plato's sleepless Socrates (Athen. 5.192b = Herodicus F 13 Broggiato 2014).",
+   "verdict": "holds",
+   "evidence": "Broggiato 2014 pp. 105–106. The fragment is 5.192a–b."
+  },
+  {
+   "claim": "Pytheas may already have read the Laestrygonian lines as the far north (a modern hypothesis: Bilić TAPA 142 [2012] 319–322; GRBS 2020).",
+   "verdict": "holds",
+   "evidence": "Bilić 2020 n. 8 cites TAPA 142 (2012) 295–328 'at 319-322', and the GRBS article argues the Telepylus–Thule link. This is correctly flagged as a hypothesis."
+  },
+  {
+   "claim": "The Laestrygonians were localised in Sicily (Leontini) and Italy (Formiae) independently of Crates.",
+   "verdict": "holds",
+   "evidence": "Thuc. 6.2.1; Σ HV 10.86 (Leontini); schol. 10.1 (Cyclopes = Leontini) verified. Formiae (Cic. Att. 2.13.2; Hor. Carm. 3.16.34, 3.17) was not re-read but is standard."
+  },
+  {
+   "claim": "Card summary first half ('Crates saw an astronomical indication of the far north') is fair.",
+   "verdict": "holds",
+   "evidence": "Gem. 6.10–12; Σ HQ/HV."
+  },
+  {
+   "claim": "Card summary second half ('the Alexandrians read it otherwise') is not attested for Od. 10.82–86; the Aristarchus–Crates opposition is attested only in Gellius 14.6.3, Strabo 1.2.24–25 and Aristonicus on Od. 10.1.",
+   "verdict": "needs_rewording",
+   "evidence": "The core point holds: no Alexandrian is named on 10.82–86 (Dindorf, Carnuth). The list of attestations is incomplete, because Aristonicus on κ 190 (ἐκτετοπισμένη ἡ πλάνη) is a further Aristarchean statement in the same book.",
+   "fix": "Add κ 190 to the list. Keep the caveat that Pontani V was not consulted."
+  },
+  {
+   "claim": "Recommended card wording (RU/EN), including 'Суждения Аристарха именно об этих стихах не сохранилось; известно лишь, что он помещал странствия во „внутреннее море“ (Gell. 14.6.3) … и отвергал „кратетовскую гипотезу“ (Strab. 1.2.25)'.",
+   "verdict": "needs_rewording",
+   "evidence": "The F 50 sources, the 23-hour figure, the head of Draco and the anonymity of the rival explanations all check out. 'известно лишь' overstates: the Aristonicus notes on κ 1 and κ 190 describe the wanderings as ἐκτετοπισμένη, removed to unknown places. That sits uneasily with Gellius' 'inner sea' and is itself worth a sentence. Strabo 1.2.25's 'Κρατήτειος ὑπόθεσις' concerns the two Ethiopias (Od. 1.23–24), not the wanderings.",
+   "fix": "Write '…известно, что он помещал странствия во „внутреннее море“ (Gell. 14.6.3), а в схолиях (Аристоник к κ 1 и κ 190) считал их „удалёнными“ (ἐκτετοπισμένη) местами; „кратетовскую гипотезу“ он отвергал в споре об эфиопах (Strab. 1.2.24–25)'."
+  },
+  {
+   "claim": "No second edition of Broggiato 2001; Broggiato 2014 is a different book on Crates' school; Broggiato 2001 has 143 fragments.",
+   "verdict": "holds",
+   "evidence": "BMCR 2003.11.33: 143 numbered fragments. The 2014 PDF covers Artemone, Erodico, Zenodoto di Mallo, Ermia, Taurisco. No second edition was searched for specifically."
+  },
+  {
+   "claim": "Modern discussions cited by specialists: Heubeck 1989 pp. 47–49; Page 1973 pp. 42–44 (122 n. 26); Scodel 2003; Argenziano 2012; Bilić 2012 (302–313); Bilić 2021 ch. 2; Hes. Th. 748–50 with Frame 1978.",
+   "verdict": "unverifiable",
+   "evidence": "Broggiato 2014 n. 125 confirms Heubeck (no pages given), Scodel ('The Paths of Day and Night', Ordia Prima 2, 2003, 83–86) and Argenziano (SemRom n.s. 1, 2012, 71–88). The page numbers for Heubeck and Page and the Bilić 2021 notes were not checked."
+  },
+  {
+   "claim": "No Russian-language study specifically on Crates and the Laestrygonians was found; Shchetnikov 2011 (pp. 197–199) and Podossinov (AWE 12, 2013, in German) are relevant.",
+   "verdict": "unverifiable",
+   "evidence": "A negative result. Shchetnikov ΣΧΟΛΗ 5.2 (2011) pp. 197–198 and Podossinov, AWE 12 (2013) 205–236 are both confirmed."
+  },
+  {
+   "claim": "Hipparchus In Arat. 1.4.7–8 (Manitius pp. 32–34): head of Draco on the always-visible circle; polar distances 34 3/5° (tip of mouth), 35° (southern eye), 37° (southern temple); always-visible circle at Athens, where the gnomon is 4/3 of the equinoctial shadow, c. 37°; only the left temple lies on it; Attalus wrong. 1.11.3 (p. 112) and 1.3.6–7 (14 3/5 h, 37°; 15 h, 41°, Hellespont) as stated.",
+   "verdict": "holds",
+   "evidence": "Manitius p. 34: 'λδʹ καὶ τρία πεμπτημόρια … λεʹ … λζʹ … ὁ γνώμων ἐπίτριτός ἐστι τῆς ἰσημερινῆς σκιᾶς … περὶ μοίρας λζʹ … τὸν ἀριστερὸν κρόταφον μόνον ἔχουσα ἐπ᾽ αὐτοῦ'. p. 112: '…ἀπέχει ἀπὸ τοῦ πόλου μοίρας λζʹ, ὅσας καὶ ὁ ἀεὶ φανερὸς κύκλος'. p. 26: 'ιδʹ καὶ τριῶν ἔγγιστα πεμπτημορίων … λζʹ … ιεʹ … μαʹ … Ἑλλήσποντον'. Manitius' page head reads 'Cap. IV § 8. 9', so the polar distances are in § 8."
+  },
+  {
+   "claim": "Declinations (mean equator of date) for γ, β, ν1, ξ, μ Dra at 800/370/275/150 BC and J2000, as listed.",
+   "verdict": "holds",
+   "evidence": "Independent re-run: fresh SIMBAD TAP query, rigorous space motion, IAU 1976 (Lieske) and P03. Results: γ 53.888/53.250/53.121/52.959/51.489; β 56.333/55.464/55.283/55.052/52.301; ν1 58.823/–/57.884/57.676; ξ 58.856/58.250/58.121; μ 59.881/58.617/58.331. All match to 0.001°."
+  },
+  {
+   "claim": "γ Dra grazes the northern horizon at φ = 36.11/36.75/36.88/37.04/38.51°; the site table for 150 BC (Rhodes −0.60, Mallos −0.28, Athens +0.93, etc.).",
+   "verdict": "holds",
+   "evidence": "φ = 90° − δ, and the lower-culmination altitudes were recomputed. Examples: Rhodes −0.60/+1.49, Cnidus −0.35/+1.74, Mallos −0.28/+1.81, Alexandria −5.84/−3.75, Athens +0.93/+3.02, Hipparchus' 36.87° −0.17/+1.92."
+  },
+  {
+   "claim": "Hipparchus' polar distances: γ 37.04 vs 37 and β 34.95 vs 35; 34 3/5° fits no head star (μ 31.67, ν1 32.32, ξ 31.88); conjecture λαʹ for λδʹ.",
+   "verdict": "holds",
+   "evidence": "Recomputed from the 150 BC declinations. The conjecture is correctly labelled as the agent's own. Manitius' German glosses the mouth star as (μ)."
+  },
+  {
+   "claim": "Hipparchus–Attalus: at Rhodes γ dips 0.60° and stays below for c. 1.6 h; Cnidus 1.21 h; Mallos 1.09 h; Alexandria 4.87 h; Athens 0.",
+   "verdict": "holds",
+   "evidence": "Recomputed: Rhodes 1.59 h (0.38 h with 34′ refraction), Cnidus 1.21, Mallos 1.09, Alexandria 4.87 (β 3.98), Athens 0. The guess that Attalus reasoned from the latitude of Rhodes is correctly flagged as speculation."
+  },
+  {
+   "claim": "The grazing of the head of Draco was never directly observable; it is a statement about the sphere or globe, not an observation.",
+   "verdict": "needs_rewording",
+   "evidence": "The Kasten–Young air masses (37.9, 26.3, 19.4) and the losses at k = 0.25 (9.5, 6.6, 4.9 mag) are reproduced. 'Never' rests on the assumed k: with k ≈ 0.15 a 2.2-mag star at 2–3° altitude is borderline visible. Hipparchus argues from measured polar distances and appeals to τὸ φαινόμενον, and Attalus mentions the διόπτρα.",
+   "fix": "Write 'practically unobservable at the horizon; the dispute was settled from measured polar distances on the sphere, not by watching the star set'."
+  },
+  {
+   "claim": "Obliquity 23.791° (800 BC), 23.740° (370 BC), 23.728° (275 BC), 23.713° (150 BC); ancient value 23°51′20″ (11/83 of 180°), reported by Ptolemy for Eratosthenes and Hipparchus.",
+   "verdict": "holds",
+   "evidence": "The Laskar polynomial reproduces every value. 11/83 of 180° = 23.855° = 23°51′20″. The Almagest I.12 attribution is standard but was not rechecked in Heiberg."
+  },
+  {
+   "claim": "The 23-hour longest day falls at φ = 66.11° (65.27° with h₀ = −50′); 65.96° with the ancient ε; the full table of 14.5–24 h.",
+   "verdict": "holds",
+   "evidence": "The bisection was re-run and every figure in the table reproduces, e.g. 23 h 66.11/65.27; 24 h 66.29/65.45; ancient ε 65.96/65.12."
+  },
+  {
+   "claim": "The scholion's 23-hour day is Crates' figure (Geminus), not a Hipparchan klima in Strabo (which stops at 19 h); Geminus 6.8–9 gives 14½ (Rhodes), 15 (Rome), 16, 17, 18; Strabo 2.5.42 (16, 17 h), 2.1.18 (18, 19 h), 2.5.8 (Thule).",
+   "verdict": "holds",
+   "evidence": "Manitius pp. 70–72. Strabo 2.5.42: 'ὡρῶν ἰσημερινῶν δεκαέξ … δεκαεπτά'. Strabo 2.1.18: 'δέκα ἐννέα, ὀκτωκαίδεκα'. Strabo 2.5.8: 'ὁ αὐτός ἐστι τῷ ἀρκτικῷ ὁ θερινὸς τροπικὸς κύκλος'."
+  },
+  {
+   "claim": "The P scholion supports Manitius' κγʹ / ὥρας μιᾶς against the pre-Manitius editions (καʹ; ὡρῶν γʹ).",
+   "verdict": "holds",
+   "evidence": "Manitius p. 72 apparatus: '11. κγʹ] καʹ edd.; 23 hore … Lat.' and '12. ὥρας μιᾶς … ὥρας γʹ V, ὡρῶν γʹ edd.; unius hore … Lat.'. Note that Manitius already has the manuscripts and the Latin version for κγʹ, so the scholion is corroboration rather than decisive evidence."
+  },
+  {
+   "claim": "The zenith reading of 'κατηστερίσθαι κατὰ τὴν τοῦ Δράκοντος κεφαλήν' gives φ ≈ 53–58° and 6–7-hour nights; sunrise azimuths 59.8° (36.87°), 45.5° (55°), 6.9° (66.11°; gap 13.7°).",
+   "verdict": "needs_rewording",
+   "evidence": "Day lengths reproduced: 16.75/17.19/17.86/17.99/18.05 h, and 17.00 with refraction. But at φ 66.11° and ε 23.713°, cos A = sin ε / cos φ = 0.99307, so A = 6.75° and the gap is 13.5°, not 6.9° and 13.7°. The interpretation itself is plausible, and LSJ s.v. καταστερίζω was not checked.",
+   "fix": "Correct to 6.7–6.8° and a gap of c. 13.5°."
+  },
+  {
+   "claim": "The head of Draco is not the stellar marker of the 24-hour zone; Strabo 2.5.43 ties that zone to the circle of the zodiac pole, 9.5–14.8° from the head stars.",
+   "verdict": "holds",
+   "evidence": "Ecliptic latitudes recomputed for 150 BC: γ 75.22, β 75.54, μ 76.44, ν1 78.36, ξ 80.51. Strabo 2.5.43: 'ὑποπεπτώκασι τῷ γραφομένῳ κύκλῳ ὑπὸ τοῦ πόλου τοῦ ζωδιακοῦ'."
+  },
+  {
+   "claim": "Lay explanation (RU): at ~37° the shortest night is over 9 hours; Crates' picture (23 h, ~66°) is astronomically sound.",
+   "verdict": "holds",
+   "evidence": "The longest day at 36.87° is 14.56 h, so the night is 9.44 h. The rest is synthesis of verified claims."
+  },
+  {
+   "claim": "Diagram numbers, Panel A: γ Dra 'upper culmination 73.91° north of the zenith'; other values as listed. Panels B and C as listed.",
+   "verdict": "needs_rewording",
+   "evidence": "The values are recomputed and correct: Sun noon 76.84° and midnight −29.42°; γ lower culmination −0.17°; Panel B Sun midnight −0.18° and noon 47.60°, γ 76.85° and +29.07°. But 73.91° is γ's altitude above the northern horizon at upper culmination, i.e. 16.09° north of the zenith, not '73.91° north of the zenith'.",
+   "fix": "Write 'upper culmination at altitude 73.91° (N), 16.09° from the zenith'."
+  },
+  {
+   "claim": "Ptolemy, Almagest II.6, puts the 23-hour parallel at 66° and the 24-hour parallel at 66°8′40″.",
+   "verdict": "unverifiable",
+   "evidence": "Not checked in Heiberg or Toomer. 66°8′40″ = 90° − 23°51′20″ is internally consistent, and my geometric 23-h value with the ancient ε is 65.96°."
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "corpus": "greek-lexica",
+ "title": "Ἐγχειρίδιον περὶ μέτρων / Enchiridion (Handbook on Metres), with Περὶ ποιήματος / «Энхиридион о метрах»",
+ "author": "Hephaestion of Alexandria",
+ "date": "mid-2nd c. CE",
+ "language": "Ancient Greek",
+ "genre": "Metrical handbook",
+ "size": "Consbruch pp. 1–73 (estimate 10–12k words). Scholia and Choeroboscus' commentary add about 300 pp.",
+ "edition": "M. Consbruch, Hephaestionis Enchiridion cum commentariis veteribus (Teubner 1906; PD).",
+ "ru_status": "none",
+ "ru_evidence": "ru.wikipedia (Гефестион (грамматик)) lists only the English translation. No Russian translation found.",
+ "en_status": "full",
+ "en_evidence": "J. M. van Ophuijsen, Hephaestion on Metre (Mnemosyne Suppl. 100, 1987); cited on ru.wikipedia.",
+ "other_translations": "None found.",
+ "value": "The only complete ancient Greek metrical handbook. A source for Sappho, Alcaeus and Anacreon fragments and the basis of metrical terminology. Useful for Russian teaching of Greek verse. RU-gap.",
+ "audience": "humanities",
+ "ai_feasibility": "medium: LLMs make scansion errors, so an expert metrician must review. Notation needs standardizing.",
+ "pilot_unit": "Whole Enchiridion (estimate 10–12k words).",
+ "preliminary_priority": 3,
+ "sources": [
+  "https://ru.wikipedia.org/wiki/Гефестион_(грамматик)"
+ ],
+ "id": "item_074"
+}

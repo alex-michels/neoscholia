@@ -1,0 +1,26 @@
+{
+ "corpus": "christian-late-antique",
+ "title": "Praeparatio evangelica / «Евангельское приготовление»",
+ "author": "Eusebius of Caesarea",
+ "date": "c. 312–320",
+ "language": "Greek",
+ "genre": "Apologetics (anthology of pagan and Jewish sources)",
+ "size": "15 books; est. 280–320k words (largely quotations)",
+ "edition": "Mras, GCS 43 (1954–56; rev. 1982–83); Gifford, Oxford 1903 (Greek text + English), public domain",
+ "ru_status": "partial",
+ "ru_evidence": "pravenc.ru 'Евсевий' lists only Book XI (Yastrebov, ЦиВр 2002, plus fragments); azbyka.ru lists only Book XI. Demonstratio evangelica: no Russian translation listed.",
+ "en_status": "full",
+ "en_evidence": "Gifford 1903 (public domain)",
+ "other_translations": "French: Sources Chrétiennes, several books (not verified here)",
+ "value": "A treasure-house of lost Greek prose: Philo of Byblos, Porphyry's Philosophy from Oracles, Oenomaus of Gadara, Diogenianus, Atticus, Numenius, Aristocles. Central for historians of Greek religion, oracles and philosophy.",
+ "audience": "humanities",
+ "ai_feasibility": "high for the prose; medium for embedded hexameter oracles and attributing fragments.",
+ "pilot_unit": "Book V.18–VI.7: Oenomaus' 'Detection of Frauds' on oracles, with Eusebius' frame; est. 12–15k words",
+ "preliminary_priority": 4,
+ "sources": [
+  "http://www.pravenc.ru/text/187357.html",
+  "https://azbyka.ru/otechnik/Evsevij_Kesarijskij/",
+  "https://ru.wikipedia.org/wiki/Евсевий_Кесарийский"
+ ],
+ "id": "item_027"
+}

@@ -1,0 +1,26 @@
+{
+ "corpus": "greek-poetry",
+ "title": "Ἰλιακά: Antehomerica, Homerica, Posthomerica (Carmina Iliaca)",
+ "author": "John Tzetzes",
+ "date": "12th c. CE",
+ "language": "Byzantine learned Greek",
+ "genre": "Hexameter epitome of the Trojan War, with the author's scholia",
+ "size": "1,676 hexameters (407 + 489 + 780), plus Tzetzes' scholia",
+ "edition": "Leone 1995 (Catania); Jacobs 1793 and Bekker 1816 (public domain; URLs not checked).",
+ "ru_status": "none",
+ "ru_evidence": "No Russian translation found. ru.wikipedia lists only 1969 excerpts of Tzetzes' works in general.",
+ "en_status": "full",
+ "en_evidence": "Volunteer 'first English translation' (mitologia.pt, 2014), not peer-reviewed: https://archive.org/details/TzetzesANTEHOMERICA, .../TzetzesHOMERICA, .../TzetzesPOSTHOMERICA",
+ "other_translations": "Italian: unverified (Leone's 1995 edition)",
+ "value": "A Byzantine school epic and reception of the epic cycle. Preserves otherwise lost material, e.g. a Cassius Dio passage on Archimedes (Rance, CQ 2023). The scholia show classroom method. Pairs naturally with the Chiliades.",
+ "audience": "humanities",
+ "ai_feasibility": "High. Straightforward hexameters; Tzetzes' own scholia guide the commentary.",
+ "pilot_unit": "Antehomerica (407 hexameters)",
+ "preliminary_priority": 3,
+ "sources": [
+  "https://en.wikipedia.org/wiki/John_Tzetzes",
+  "https://archive.org/details/TzetzesANTEHOMERICA",
+  "https://doi.org/10.1017/s0009838823000496"
+ ],
+ "id": "item_087"
+}

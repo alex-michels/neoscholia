@@ -1,0 +1,13 @@
+# Подписи для списка «Исследования» (src/_data/studies.yaml).
+sections:
+  alex: { label: Роман об Александре, href: alexander.html }
+  sch:  { label: Схолии,              href: scholia.html }
+  mus:  { label: Музыка,              href: music.html }
+  met:  { label: Метод,               href: method.html }
+kinds:
+  text: статья
+  method: методология
+  data: данные
+states:
+  work: в работе
+  idea: замысел

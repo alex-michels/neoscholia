@@ -1,0 +1,26 @@
+{
+ "corpus": "epigraphy-papyri",
+ "title": "Hellenistic royal letters (Welles, Royal Correspondence in the Hellenistic Period, 1934; 75 texts); RU «Письма эллинистических царей» [RU-gap]",
+ "author": "Seleucid, Attalid, Ptolemaic and Antigonid kings and officials",
+ "date": "c. 311 – 2nd c. BC",
+ "language": "Greek (chancery koine)",
+ "genre": "Royal letters on stone",
+ "size": "75 texts, est. 20–25k words",
+ "edition": "Welles 1934 (Greek and English; archive.org welles-1934-royal-correspondence); OGIS (1903–05, public domain)",
+ "ru_status": "partial",
+ "ru_evidence": "Isolated letters analysed in articles (e.g., Verbum 2016 on Seleucid letters; 2022 article on OGIS 229). No collection found on CyberLeninka.",
+ "en_status": "full",
+ "en_evidence": "Welles 1934: 'Greek texts, English translations, and scholarly notes' (archive.org description)",
+ "other_translations": "Virgilio, Le roi écrit (2011), partial (BMCR 2012.10.31)",
+ "value": "Core evidence for Hellenistic kingship, royal–civic diplomacy and administration; a seminar staple. Russian students lack any corpus.",
+ "audience": "humanities",
+ "ai_feasibility": "high: clean chancery prose, and the English text allows cross-checking",
+ "pilot_unit": "Seleucid letters (Antiochos I–III), c. 25 texts, c. 7k words",
+ "preliminary_priority": 3,
+ "sources": [
+  "https://archive.org/details/welles-1934-royal-correspondence",
+  "https://bmcr.brynmawr.edu/2012/2012.10.31/",
+  "https://cyberleninka.ru/"
+ ],
+ "id": "item_046"
+}

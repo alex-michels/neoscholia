@@ -1,0 +1,26 @@
+{
+ "corpus": "greek-lexica",
+ "title": "Ἐπιτομὴ τῶν Ταρραίου καὶ Διδύμου παροιμιῶν / Zenobius' Epitome of Proverbs (vulgate, CPG I) / «Собрание пословиц» Зенобия",
+ "author": "Zenobius, sophist (epitomizing Didymus and Lucillus of Tarrha)",
+ "date": "Hadrianic, 2nd c. CE (Byzantine redactions)",
+ "language": "Ancient Greek",
+ "genre": "Paroemiography: proverbs with explanations and aitia",
+ "size": "552 proverbs in six 'centuries' (CPG I pp. 1–175). Estimate about 25k words. The Athos recension adds material.",
+ "edition": "Leutsch & Schneidewin, Corpus Paroemiographorum Graecorum I (Göttingen 1839; PD, archive.org). W. Bühler, Zenobii Athoi proverbia (1982–99; partial, in copyright).",
+ "ru_status": "none",
+ "ru_evidence": "No ru.wikipedia article on Zenobius and no translation listed. Searches find only isolated proverbs quoted in other articles (e.g. 'Спорить о тени осла').",
+ "en_status": "none",
+ "en_evidence": "No English translation found (en.wikipedia 'Zenobius', OpenAlex). Proverbs are treated only piecemeal in commentaries.",
+ "other_translations": "Italian complete: E. Lelli, I proverbi greci. Le raccolte di Zenobio e Diogeniano (2006); also Lelli (ed.), Proverbi, sentenze e massime (Bompiani 2021). Portuguese partial (Revista Hypnos, 2025).",
+ "value": "Proverbs explained through myth, local history, lost comedy and Didymus' scholarship. Rich in folklore, religion and ethnography; source of Erasmus' Adagia. Readable for a broad public and ideal to show off commentary. Could be extended to Diogenianus and Ps.-Plutarch.",
+ "audience": "broad",
+ "ai_feasibility": "high: short self-contained prose entries. Commentary must trace sources (Didymus, comic fragments) and parallels in Diogenianus and the Suda. Lelli's Italian can serve for cross-checking.",
+ "pilot_unit": "Centuries I–II (proverbs 1.1–2.100, 200 entries; estimate 8–9k words).",
+ "preliminary_priority": 5,
+ "sources": [
+  "https://en.wikipedia.org/wiki/Zenobius",
+  "https://it.wikipedia.org/wiki/Diogeniano",
+  "https://it.wikipedia.org/wiki/Zenobio_(sofista)"
+ ],
+ "id": "item_066"
+}

@@ -1,0 +1,26 @@
+{
+ "corpus": "greek-poetry",
+ "title": "Θηριακά, Ἀλεξιφάρμακα, Theriaca and Alexipharmaca; «Териака», «Противоядия»",
+ "author": "Nicander of Colophon",
+ "date": "2nd c. BCE",
+ "language": "Hellenistic Greek",
+ "genre": "Didactic hexameter poems on venomous animals and poisons",
+ "size": "958 + 630 = 1,588 hexameters, plus extensive scholia",
+ "edition": "O. Schneider 1856, with scholia, public domain (https://archive.org/details/theriacaetalexi00schngoog); Gow–Scholfield 1953; Jacques, CUF 2002/2007.",
+ "ru_status": "partial",
+ "ru_evidence": "ru.wikipedia 'Никандр Колофонский': only Scythia/Caucasus excerpts, VDI 1947 no. 3, pp. 302–303. No full Russian translation found.",
+ "en_status": "full",
+ "en_evidence": "Gow & Scholfield 1953, CUP (review doi 10.1017/s0009840x00180710); Overduin 2015, Brill (Theriaca, doi 10.1163/9789004283602).",
+ "other_translations": "French: Jacques, CUF (2002 Theriaca; Alexipharmaca vol. III).",
+ "value": "The earliest surviving Greek works on venomous animals and poisons. A core source for ancient pharmacology, zoology and Hellenistic glossographic poetics, with rich scholia. Used by historians of medicine and Hellenistic poetry.",
+ "audience": "humanities",
+ "ai_feasibility": "Medium. The vocabulary is notoriously obscure and full of glosses, and identifying plants and animals needs specialist checks. A good showcase for visible model disagreement.",
+ "pilot_unit": "Alexipharmaca (630 hexameters) with selected scholia",
+ "preliminary_priority": 4,
+ "sources": [
+  "https://ru.wikipedia.org/wiki/Никандр_Колофонский",
+  "https://archive.org/details/theriacaetalexi00schngoog",
+  "https://doi.org/10.1163/9789004283602"
+ ],
+ "id": "item_083"
+}

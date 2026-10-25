@@ -1,0 +1,22 @@
+# build output and dependencies
+site/
+node_modules/
+
+# local tool settings
+.claude/
+
+# stray downloads from early research sessions in the project root (not part of the project)
+/*.html
+/*.htm
+/*.txt
+/*.pdf
+/clbody.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+
+# fetched web pages saved during research (not research results)
+/research/raw/wave2_items/*.html

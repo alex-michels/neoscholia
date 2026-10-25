@@ -1,0 +1,27 @@
+{
+ "corpus": "christian-late-antique",
+ "title": "Homiliae in Psalmos (31 Psalm homilies) / «Беседы на Псалмы» Астерия Софиста (Псевдо-Астерия)",
+ "author": "Asterius the Sophist, or an anonymous Antiochene ('Ps.-Asterius', per Kinzig)",
+ "date": "c. 330s, or c. 385–410 (Kinzig)",
+ "language": "Greek",
+ "genre": "Homilies (exegesis, Easter preaching)",
+ "size": "31 homilies + fragments; est. 70–80k words",
+ "edition": "M. Richard, Asterii Sophistae commentariorum in Psalmos quae supersunt (Oslo 1956). German: Kinzig, BGL 56 (Hiersemann 2002).",
+ "ru_status": "partial",
+ "ru_evidence": "azbyka.ru (under Asterius of Amasea, the PG 40 ascription) has 5 homilies on Ps 5 and one each on Ps 6–7; most likely from this corpus, so c. 7 of 31",
+ "en_status": "none",
+ "en_evidence": "Open Library returns only the German translation (Kinzig 2002); en.wikipedia lists no translation",
+ "other_translations": "German: Kinzig (2002)",
+ "value": "The earliest Greek homiletic cycle on the Psalms after Origen: vivid Easter-week preaching, catechumens, liturgy, Arian-era theology, striking rhetorical imagery. For historians of liturgy, preaching and Antioch.",
+ "audience": "specialist",
+ "ai_feasibility": "medium-high: rhetorical Greek with puns and antitheses; the authorship debate needs commentary.",
+ "pilot_unit": "Homilies not yet in Russian (e.g. on Ps 1–4); est. 12–15k words",
+ "preliminary_priority": 3,
+ "sources": [
+  "https://azbyka.ru/otechnik/Asterij_Amasijskij/",
+  "https://openlibrary.org/search.json?q=Asterius+Psalmenhomilien",
+  "https://ru.wikipedia.org/wiki/Астерий_Софист",
+  "https://en.wikipedia.org/wiki/Asterius_the_Sophist"
+ ],
+ "id": "item_029"
+}

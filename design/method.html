@@ -1,0 +1,401 @@
+<title>Метод Neoscholia</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Forum&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400&family=Alegreya+Sans+SC:wght@500;700&display=swap">
+<style>
+/* Layout: the shared reading sheet, as a reference document: sticky contents on the left,
+   chapters on the right (principles → pipeline → statuses → gates → evidence → log → AI role → rights → corrections → citing → editors). */
+:root {
+  --papyrus: #e7dcc4; --leaf: #fbf7ee; --panel: #f4ecdc;
+  --ink: #2b2219; --ink-soft: #6b5c4a;
+  --rubric: #a2361c; --lapis: #2f4b6e; --rule: #d9ccb1; --wash: #efe4cc;
+  --font-display: "Forum", "Times New Roman", serif;
+  --font-text: "Gentium Book Plus", "Gentium Plus", "Noto Serif", Georgia, serif;
+  --font-label: "Alegreya Sans SC", "Trebuchet MS", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --papyrus: #17130e; --leaf: #1f1a14; --panel: #262019; --ink: #e9dec7; --ink-soft: #b3a48b;
+    --rubric: #e08a6c; --lapis: #9db6d6; --rule: #3a3127; --wash: #2a231b; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --papyrus: #17130e; --leaf: #1f1a14; --panel: #262019; --ink: #e9dec7; --ink-soft: #b3a48b;
+  --rubric: #e08a6c; --lapis: #9db6d6; --rule: #3a3127; --wash: #2a231b; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--papyrus); color: var(--ink); font: 1.05rem/1.65 var(--font-text);
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0 2.5rem; }
+a { color: var(--lapis); text-underline-offset: .18em; }
+a:focus-visible, button:focus-visible { outline: 2px solid var(--lapis); outline-offset: 2px; }
+.wrap { max-width: 76rem; margin: 0 auto; background: var(--leaf); border: 1px solid var(--rule); border-top: 0; padding: 0 2.75rem; }
+.label { font-family: var(--font-label); letter-spacing: .06em; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 400; text-wrap: balance; }
+html { scroll-padding-top: 1rem; }
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+
+/* header (shared) */
+.site { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .75rem 2rem; padding-block: 1.1rem .9rem; border-bottom: 1px solid var(--rule); }
+.brand { display: flex; flex-direction: column; text-decoration: none; color: var(--ink); line-height: 1.1; }
+.brand b { font-family: var(--font-display); font-weight: 400; font-size: 1.75rem; letter-spacing: .06em; }
+.brand b span { color: var(--rubric); }
+.brand small { font-size: .85rem; color: var(--ink-soft); }
+.site nav { display: flex; flex-wrap: wrap; gap: .3rem 1.4rem; font-family: var(--font-label); font-size: 1rem; letter-spacing: .04em; }
+.site nav a { color: var(--ink-soft); text-decoration: none; padding-block: .15rem; }
+.site nav a[aria-current] { color: var(--ink); border-bottom: 1px solid var(--rubric); }
+.lang { display: inline-flex; border: 1px solid var(--rule); font-family: var(--font-label); font-size: .85rem; }
+.lang span, .lang button { padding: .15rem .55rem; font: inherit; border: 0; background: transparent; color: var(--ink-soft); }
+.lang span { background: var(--ink); color: var(--leaf); }
+.lang button { cursor: not-allowed; border-left: 1px solid var(--rule); }
+.mock { margin-top: 1rem; background: var(--wash); border: 1px dashed var(--rule); padding: .55rem .9rem; font-size: .9rem; color: var(--ink-soft); }
+.mock b { color: var(--ink); }
+
+/* title */
+.crumbs { margin-top: 1.5rem; font-family: var(--font-label); font-size: .9rem; letter-spacing: .04em; color: var(--ink-soft); }
+.crumbs a { color: var(--ink-soft); }
+.title { padding-block: .3rem 1.6rem; border-bottom: 1px solid var(--rule); }
+.title h1 { font-size: clamp(2.3rem, 5vw, 3.4rem); line-height: 1.05; margin: .3rem 0 .7rem; }
+.title p { margin: 0; max-width: 44rem; font-size: 1.12rem; }
+.title .ver { margin-top: .8rem; font-family: var(--font-label); font-size: .88rem; letter-spacing: .04em; color: var(--ink-soft); }
+
+/* doc layout */
+.doc { display: grid; grid-template-columns: 14rem minmax(0, 1fr); gap: 2.75rem; padding-block: 1.8rem 1rem; }
+.toc { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 1rem); align-self: start; }
+.toc h2 { font-family: var(--font-label); font-size: .82rem; letter-spacing: .08em; color: var(--ink-soft); margin: 0 0 .5rem; }
+.toc ol { list-style: none; margin: 0; padding: 0; display: grid; gap: .2rem; counter-reset: c; }
+.toc li { counter-increment: c; }
+.toc a { display: grid; grid-template-columns: 1.6rem minmax(0, 1fr); text-decoration: none; color: var(--ink-soft); font-size: .95rem; padding: .15rem 0; border-left: 2px solid transparent; padding-left: .5rem; }
+.toc a::before { content: counter(c); font-family: var(--font-label); font-size: .8rem; color: var(--ink-soft); padding-top: .15rem; }
+.toc a:hover, .toc a[aria-current="true"] { color: var(--ink); border-left-color: var(--rubric); }
+.chapters { min-width: 0; display: grid; gap: 0; }
+.ch { padding-block: 0 2.2rem; scroll-margin-top: 1rem; }
+.ch + .ch { border-top: 1px solid var(--rule); padding-top: 1.8rem; }
+.ch h2 { font-size: clamp(1.6rem, 3vw, 2rem); margin: 0 0 .9rem; }
+.ch > p { max-width: 42rem; margin: 0 0 .9rem; }
+.ch .lead { font-size: 1.08rem; }
+
+/* principles */
+.principles { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem 1.6rem; }
+.principles li { border-left: 2px solid var(--rubric); padding-left: .9rem; }
+.principles b { display: block; font-family: var(--font-display); font-weight: 400; font-size: 1.25rem; margin-bottom: .15rem; }
+.principles span { font-size: .95rem; color: var(--ink-soft); }
+
+/* pipeline */
+.pipe { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; counter-reset: p -1; }
+.pipe li { counter-increment: p; display: grid; grid-template-columns: 3rem minmax(0, 1fr); gap: 1rem; padding-block: .9rem; border-top: 1px solid var(--rule); }
+.pipe li:first-child { border-top: 0; padding-top: 0; }
+.pipe li::before { content: counter(p); font-family: var(--font-display); font-size: 2rem; line-height: 1; color: var(--rubric); text-align: right; }
+.pipe h3 { font-size: 1.3rem; margin: 0 0 .25rem; }
+.pipe p { margin: 0 0 .35rem; max-width: 42rem; }
+.pipe .out { font-family: var(--font-label); font-size: .84rem; letter-spacing: .04em; color: var(--lapis); }
+.pipe .who { font-family: var(--font-label); font-size: .84rem; letter-spacing: .04em; color: var(--ink-soft); }
+
+/* statuses */
+.ladder { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: .8rem; }
+.step { background: var(--panel); border: 1px solid var(--rule); padding: .9rem 1rem; display: flex; flex-direction: column; gap: .35rem; min-width: 0; }
+.step .badge { font-family: var(--font-label); font-size: .82rem; letter-spacing: .05em; align-self: start; padding: .05rem .55rem; border: 1px solid var(--lapis); color: var(--lapis); }
+.step.s1 .badge { border-color: var(--rule); color: var(--ink-soft); }
+.step.s4 .badge { background: var(--lapis); color: var(--leaf); }
+.step b { font-weight: 400; font-family: var(--font-display); font-size: 1.15rem; }
+.step p { margin: 0; font-size: .93rem; }
+.step .rely { font-size: .88rem; color: var(--ink-soft); margin-top: auto; padding-top: .4rem; border-top: 1px dashed var(--rule); }
+
+/* tables */
+.tbl-wrap { overflow-x: auto; border: 1px solid var(--rule); }
+table.t { border-collapse: collapse; width: 100%; min-width: 36rem; font-size: .95rem; }
+.t th, .t td { padding: .55rem .75rem; border-bottom: 1px solid var(--rule); text-align: left; vertical-align: top; }
+.t thead th { font-family: var(--font-label); font-weight: 700; font-size: .84rem; letter-spacing: .05em; color: var(--ink-soft); background: var(--panel); }
+.t td:first-child { font-family: var(--font-label); font-size: .9rem; letter-spacing: .04em; color: var(--rubric); white-space: nowrap; }
+.t tr:last-child td { border-bottom: 0; }
+
+/* evidence */
+.evidence { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin-bottom: 1rem; }
+.fig { background: var(--panel); border: 1px solid var(--rule); padding: .9rem 1rem; }
+.fig .num { font-family: var(--font-display); font-size: 2rem; line-height: 1.05; color: var(--ink); font-variant-numeric: tabular-nums; }
+.fig .num small { font-size: 1rem; color: var(--ink-soft); }
+.fig p { margin: .3rem 0 0; font-size: .92rem; color: var(--ink-soft); }
+.src { font-size: .88rem; color: var(--ink-soft); }
+
+/* log fields */
+.fields { margin: 0; display: grid; grid-template-columns: 11rem minmax(0, 1fr); gap: .4rem 1.2rem; font-size: .95rem; }
+.fields dt { font-family: var(--font-label); font-size: .88rem; letter-spacing: .04em; color: var(--ink-soft); }
+.fields dd { margin: 0; }
+
+/* statements */
+.statement { background: var(--panel); border-left: 3px solid var(--rubric); padding: .9rem 1.1rem; margin: 0 0 1rem; max-width: 46rem; }
+.statement p { margin: 0 0 .5rem; }
+.statement p:last-child { margin: 0; }
+.statement .label { display: block; font-size: .8rem; color: var(--ink-soft); margin-bottom: .3rem; }
+.copy { font: inherit; font-size: .85rem; padding: .2rem .7rem; cursor: pointer; border: 1px solid var(--rule); background: var(--wash); color: var(--ink); margin-top: .3rem; }
+.board { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .8rem; }
+.board li { background: var(--panel); border: 1px solid var(--rule); padding: .8rem .9rem; }
+.board b { display: block; font-weight: 400; font-family: var(--font-display); font-size: 1.15rem; }
+.board span { font-size: .9rem; color: var(--ink-soft); }
+
+/* footer (shared) */
+.foot { border-top: 2px solid var(--ink); margin-top: .5rem; padding-block: 1.6rem 1.4rem; display: grid; grid-template-columns: 1.4fr repeat(3, minmax(0, 1fr)); gap: 1.5rem 2rem; font-size: .93rem; }
+.foot h2 { font-family: var(--font-label); font-size: .85rem; letter-spacing: .08em; color: var(--ink-soft); margin: 0 0 .5rem; }
+.foot ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .3rem; }
+.foot a { color: var(--ink); text-decoration: none; }
+.foot a:hover { color: var(--rubric); text-decoration: underline; }
+.foot .about p { margin: 0 0 .6rem; color: var(--ink-soft); }
+.foot .about b { font-family: var(--font-display); font-weight: 400; font-size: 1.4rem; color: var(--ink); display: block; margin-bottom: .3rem; }
+.colophon { border-top: 1px solid var(--rule); padding-block: .9rem 1.2rem; display: flex; flex-wrap: wrap; justify-content: space-between; gap: .4rem 1.5rem; font-size: .85rem; color: var(--ink-soft); }
+
+@media (max-width: 1020px) {
+  .foot { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .ladder { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .board { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 880px) {
+  .wrap { padding: 0 1.5rem; }
+  .doc { grid-template-columns: minmax(0, 1fr); gap: 1.2rem; }
+  .toc { position: static; border-bottom: 1px solid var(--rule); padding-bottom: 1rem; }
+  .toc ol { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 1rem; }
+  .evidence { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 600px) {
+  .wrap { padding: 0 1rem; }
+  .foot, .principles, .ladder, .board, .toc ol { grid-template-columns: minmax(0, 1fr); }
+  .fields { grid-template-columns: minmax(0, 1fr); gap: 0; }
+  .fields dt { margin-top: .5rem; }
+  .pipe li { grid-template-columns: 2rem minmax(0, 1fr); gap: .7rem; }
+}
+</style>
+
+<div class="wrap">
+  <header class="site">
+    <a class="brand" href="https://claude.ai/artifact/Sxv32gV4SoYwPGMXD1UYHD" aria-label="Neoscholia — на главную">
+      <b>Neo<span>·</span>scholia</b>
+      <small><span lang="grc">νέα σχόλια</span> · новые схолии к непереведённой античности</small>
+    </a>
+    <nav aria-label="Разделы сайта">
+      <a href="https://claude.ai/artifact/Sxv32gV4SoYwPGMXD1UYHD">Библиотека</a>
+      <a href="https://claude.ai/artifact/FtriAuMyfVpLWqqMqZDQ8o">Исследования</a>
+      <a href="#top" aria-current="page">Метод</a>
+      <a href="https://claude.ai/artifact/WNygYEn7HeTq5PbrvPt2BF">О проекте</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Язык интерфейса"><span>RU</span><button type="button" disabled title="Английская версия интерфейса появится позже">EN</button></div>
+  </header>
+
+  <p class="mock"><b>Макет страницы.</b> Описан задуманный процесс. Собственный замер качества Neoscholia будет опубликован после пилота; приведённые цифры — из внешних исследований.</p>
+
+  <main id="top">
+    <div class="crumbs"><a href="https://claude.ai/artifact/Sxv32gV4SoYwPGMXD1UYHD">Библиотека</a> › Метод</div>
+    <section class="title" aria-labelledby="h1">
+      <h1 id="h1">Метод</h1>
+      <p>Как в Neoscholia появляется перевод: кто его делает, кто проверяет, что видно читателю и на что можно опираться, цитируя наш текст.</p>
+      <p class="ver">Редакционная хартия · версия 0.1 · октябрь 2026</p>
+    </section>
+
+    <div class="doc">
+      <nav class="toc" aria-label="Содержание">
+        <h2>Содержание</h2>
+        <ol>
+          <li><a href="#principles">Принципы</a></li>
+          <li><a href="#pipeline">Как делается перевод</a></li>
+          <li><a href="#statuses">Статусы текста</a></li>
+          <li><a href="#quality">Ворота качества</a></li>
+          <li><a href="#evidence">Почему так</a></li>
+          <li><a href="#log">Журнал рецензии</a></li>
+          <li><a href="#ai">Роль ИИ</a></li>
+          <li><a href="#rights">Источники и лицензии</a></li>
+          <li><a href="#corrections">Исправления и версии</a></li>
+          <li><a href="#cite">Как цитировать</a></li>
+          <li><a href="https://claude.ai/artifact/WNygYEn7HeTq5PbrvPt2BF#team">Редакция и совет</a></li>
+        </ol>
+      </nav>
+
+      <div class="chapters">
+        <section class="ch" id="principles" aria-labelledby="c1">
+          <h2 id="c1">Принципы</h2>
+          <ul class="principles">
+            <li><b>Только непереведённое</b><span>Берём тексты, которых нет по-русски, а в идеале — ни на одном современном языке. Перед стартом каждый текст проверяется заново.</span></li>
+            <li><b>Источник открыт</b><span>Переводим с изданий в общественном достоянии и публикуем оригинал рядом с переводом.</span></li>
+            <li><b>Много моделей, а не одна</b><span>Черновики и рецензии делают модели разных семейств: одна модель склонна одобрять собственный текст.</span></li>
+            <li><b>Проверка видна</b><span>Журнал рецензии, расхождения и правки открыты читателю у каждого текста.</span></li>
+            <li><b>Отвечает человек</b><span>Каждую версию подписывает названный редактор. Системы ИИ не являются авторами.</span></li>
+            <li><b>Текст исправляем</b><span>Ошибки принимаются публично, у каждой версии свой номер и DOI.</span></li>
+          </ul>
+        </section>
+
+        <section class="ch" id="pipeline" aria-labelledby="c2">
+          <h2 id="c2">Как делается перевод</h2>
+          <p class="lead">Восемь шагов от издания до публикации. Каждый шаг оставляет след, который виден на странице текста.</p>
+          <ol class="pipe">
+            <li><div><h3>Источник</h3><p>Критический текст в общественном достоянии, сверенный с печатным изданием. Текст размечается на сегменты — стих, параграф, схолия — с постоянными идентификаторами. Лакуны, испорченные места и дополнения издателя помечаются отдельно, аппарат сохраняется.</p><span class="out">Результат: размеченный оригинал (TEI)</span></div></li>
+            <li><div><h3>Предразбор</h3><p>Морфологический разбор, доля редкой лексики в каждом пассаже, выборки из словарей: LSJ, Lampe, LBG, Lewis &amp; Short, Дворецкий. Пассажи с высокой долей редких слов сразу отмечаются для человека.</p><span class="out">Результат: словарные пакеты и карта риска</span></div></li>
+            <li><div><h3>Черновики</h3><p>Не меньше трёх независимых переводов от моделей разных семейств. Переводим прямо на русский и прямо на английский, никогда — на русский через английский. Неуверенность в чтении или значении отмечается в самом тексте.</p><span class="who">Делают: модели</span></div></li>
+            <li><div><h3>Новые схолии</h3><p>Комментарий пишется короткими утверждениями. Каждое привязано к месту текста или к источнику, который можно проверить.</p><span class="who">Делают: модели</span></div></li>
+            <li><div><h3>Перекрёстная рецензия</h3><p>Перевод проверяют модели другого семейства, вслепую и в случайном порядке. Ошибки размечаются по типам: значение, термин, пропуск, добавление, стиль — и по тяжести. Не больше двух раундов: после них правки чаще портят смысл, чем исправляют.</p><span class="who">Делают: модели</span></div></li>
+            <li><div><h3>Арбитраж</h3><p>Отдельная модель выбирает или сводит варианты по каждому сегменту и записывает обоснование. Несогласие не прячется: особое мнение остаётся в журнале. Нерешённое уходит редактору.</p><span class="who">Делает: модель</span></div></li>
+            <li><div><h3>Редактор</h3><p>Филолог проверяет все отмеченные места и случайную выборку остальных — не меньше 15%. Русский текст отдельно читает носитель языка с классическим образованием. Редактор подписывает версию.</p><span class="who">Делает: человек</span></div></li>
+            <li><div><h3>Публикация</h3><p>Перевод с оригиналом, новыми схолиями и журналом рецензии. Указаны модели и их версии, запросы, история правок, статус, DOI версии. Открыта форма для исправлений.</p><span class="out">Результат: версия с DOI</span></div></li>
+          </ol>
+        </section>
+
+        <section class="ch" id="statuses" aria-labelledby="c3">
+          <h2 id="c3">Статусы текста</h2>
+          <p>Статус стоит в начале каждой страницы текста. Он говорит, насколько можно опираться на перевод.</p>
+          <div class="ladder">
+            <div class="step s1"><span class="badge">1</span><b>Машинный черновик</b><p>Есть переводы моделей, рецензия ещё не прошла.</p><p class="rely">Для чтения и ориентира, не для цитирования.</p></div>
+            <div class="step s2"><span class="badge">2</span><b>Проверено моделями</b><p>Прошла перекрёстная рецензия и арбитраж, журнал открыт.</p><p class="rely">Можно читать; спорные места видны в журнале.</p></div>
+            <div class="step s3"><span class="badge">3</span><b>Проверено редактором</b><p>Редактор проверил отмеченные места и выборку, подписал версию.</p><p class="rely">Можно цитировать с указанием версии и DOI.</p></div>
+            <div class="step s4"><span class="badge">4</span><b>Внешняя рецензия</b><p>Текст прочитал названный специалист вне редакции; его отзыв опубликован.</p><p class="rely">Научная публикация в полном смысле.</p></div>
+          </div>
+        </section>
+
+        <section class="ch" id="quality" aria-labelledby="c4">
+          <h2 id="c4">Ворота качества</h2>
+          <p>Версия не публикуется, пока не пройдены все проверки.</p>
+          <div class="tbl-wrap" tabindex="0">
+            <table class="t">
+              <thead><tr><th scope="col">Проверка</th><th scope="col">Требование</th></tr></thead>
+              <tbody>
+                <tr><td>Полнота</td><td>Переведены все сегменты; выбросы по длине перевода проверены.</td></tr>
+                <tr><td>Лакуны</td><td>Каждая лакуна и испорченное место отражены в переводе; ничего не дописано без пометки.</td></tr>
+                <tr><td>Ошибки</td><td>Нет нерешённых критических ошибок; на случайной выборке оценка не ниже 95 из 100.</td></tr>
+                <tr><td>Термины</td><td>У каждого редкого слова есть ссылка на словарь; глоссарий одинаков для русского и английского.</td></tr>
+                <tr><td>Ссылки</td><td>Все ссылки и цитаты проверены по источнику; выдуманных нет.</td></tr>
+                <tr><td>Открытость</td><td>Опубликованы расхождения моделей и доля ошибок, найденных при выборочной проверке.</td></tr>
+                <tr><td>Заимствование</td><td>Совпадение с существующими переводами ниже порога: модель не пересказывает чужой перевод.</td></tr>
+                <tr><td>Метрики</td><td>Автоматические метрики используются только для сортировки, не для допуска.</td></tr>
+                <tr><td>Подпись</td><td>Версию подписал редактор с ORCID.</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="ch" id="evidence" aria-labelledby="c5">
+          <h2 id="c5">Почему так</h2>
+          <p>Языковые модели хорошо переводят тексты, которые уже переводились: они часто помнят чужой перевод. Первые переводы — самая трудная для них зона.</p>
+          <div class="evidence">
+            <div class="fig"><div class="num">95,2 <small>→</small> 79,9</div><p>Средняя оценка экспертов по шкале MQM: Гален, уже переведённый трактат — и никогда не переводившийся.</p></div>
+            <div class="fig"><div class="num">r ≈ −0,97</div><p>Связь между долей редкой лексики в пассаже и провалом перевода в том же исследовании.</p></div>
+            <div class="fig"><div class="num">4,8% <small>vs</small> 56,7</div><p>Автоматическая метрика COMET почти не заметила падения, которое эксперты оценили в 56,7 пункта.</p></div>
+          </div>
+          <p class="src">Источник: Zainaldin et al., 2026, <a href="https://arxiv.org/abs/2602.24119" target="_blank" rel="noopener">arXiv:2602.24119</a>. Отсюда три правила метода: словари в запросе, ручная проверка пассажей с редкой лексикой и запрет допускать текст по автоматической метрике. Собственный замер качества Neoscholia будет опубликован после пилота.</p>
+        </section>
+
+        <section class="ch" id="log" aria-labelledby="c6">
+          <h2 id="c6">Журнал рецензии</h2>
+          <p>У каждого сегмента текста есть запись. Пример — на странице <a href="https://claude.ai/artifact/KBXAd7KtUgWioncxPUnJ77" target="_blank" rel="noopener">схолий к «Одиссее» X</a>, у схолии к 10.3.</p>
+          <dl class="fields">
+            <dt>Черновики</dt><dd>варианты перевода с указанием модели, семейства и версии</dd>
+            <dt>Рецензии</dt><dd>найденные ошибки по типам и тяжести, с обоснованием</dd>
+            <dt>Арбитраж</dt><dd>принятое решение, причина и особое мнение</dd>
+            <dt>Редактор</dt><dd>что изменено человеком, подпись и дата</dd>
+            <dt>Запросы</dt><dd>тексты запросов к моделям, ссылкой</dd>
+            <dt>История</dt><dd>все правки между версиями</dd>
+          </dl>
+        </section>
+
+        <section class="ch" id="ai" aria-labelledby="c7">
+          <h2 id="c7">Роль ИИ</h2>
+          <p>Переводы и новые схолии готовят языковые модели. Отбор текстов, редактура, подпись и ответственность — за людьми. Мы не скрываем участие ИИ и не называем модели авторами.</p>
+          <div class="statement" id="credit">
+            <span class="label">Так указывается авторство на каждой странице текста</span>
+            <p>Перевод подготовлен с использованием больших языковых моделей ([модели, версии, даты]; запросы и журналы — DOI); перекрёстная проверка — [модели]; сверка с греческим текстом изд. [издание], редактура и научная ответственность — [ФИО] (ORCID). Системы ИИ авторами не являются.</p>
+          </div>
+          <p>В статьях, которые ссылаются на наши переводы, мы раскрываем роль ИИ так, как требуют правила журнала: какие модели, для чего, что проверил человек.</p>
+        </section>
+
+        <section class="ch" id="rights" aria-labelledby="c8">
+          <h2 id="c8">Источники и лицензии</h2>
+          <p>Переводим с изданий в общественном достоянии — как правило, XIX — начала XX века. Тексты и аппарат современных критических изданий не воспроизводим; их чтения обсуждаем в комментарии.</p>
+          <div class="tbl-wrap" tabindex="0">
+            <table class="t">
+              <thead><tr><th scope="col">Слой</th><th scope="col">Условия</th></tr></thead>
+              <tbody>
+                <tr><td>Оригинал</td><td>общественное достояние; тексты из открытых корпусов — на их лицензии, с указанием источника</td></tr>
+                <tr><td>Перевод и комментарий</td><td>CC BY-NC-SA 4.0: свободно с указанием авторства, без коммерческого использования</td></tr>
+                <tr><td>Журналы рецензии</td><td>CC0: свободно без условий</td></tr>
+                <tr><td>Код платформы</td><td>открытая лицензия</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+
+        <section class="ch" id="corrections" aria-labelledby="c9">
+          <h2 id="c9">Исправления и версии</h2>
+          <p>Нашли ошибку — напишите через форму у сегмента. Исправление получает запись в журнале и попадает в следующую версию; список исправлений открыт.</p>
+          <p>Версии нумеруются: 0.x — до подписи редактора, 1.0 — первая подписанная, дальше 1.1, 1.2 по мере исправлений. У каждой версии свой DOI, у текста в целом — общий DOI, который всегда ведёт к последней версии.</p>
+        </section>
+
+        <section class="ch" id="cite" aria-labelledby="c10">
+          <h2 id="c10">Как цитировать</h2>
+          <p>Указывайте версию: текст меняется, а цитата должна вести к тому, что вы читали.</p>
+          <div class="statement">
+            <span class="label">Образец</span>
+            <p id="cite-sample">Схолии к «Одиссее», песнь X, ст. 1–4 / пер. и комм. Neoscholia; науч. ред. [ФИО]. Версия 1.0. Neoscholia, 2026. DOI: [номер версии].</p>
+            <button type="button" class="copy" id="copy-cite">Скопировать</button>
+          </div>
+        </section>
+
+        <section class="ch" id="board" aria-labelledby="c11">
+          <h2 id="c11">Редакция и совет</h2>
+          <p>Neoscholia — независимый некоммерческий проект. Совет формируется: мы приглашаем филологов-классиков, византинистов, востоковедов и специалистов по цифровым гуманитарным наукам.</p>
+          <ul class="board">
+            <li><b>[ФИО]</b><span>главный редактор · PhD, древняя история</span></li>
+            <li><b>Консультативный совет</b><span>4–7 человек · формируется</span></li>
+            <li><b>Рецензенты</b><span>названы у каждого текста</span></li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="foot" id="footer">
+    <div class="about">
+      <b>Neoscholia</b>
+      <p>Независимая некоммерческая библиотека первых переводов античных текстов на русский и английский. Открытый доступ.</p>
+      <p>Переводы готовятся с помощью языковых моделей и проверяются редактором. Системы ИИ не являются авторами.</p>
+    </div>
+    <div><h2>Библиотека</h2><ul>
+      <li><a href="https://claude.ai/artifact/HTuCJke5U2X3XbBcPHJeWK">Роман об Александре</a></li>
+      <li><a href="https://claude.ai/artifact/HqyqE2tpQepFtVvpu58bdZ">Схолии</a></li>
+      <li><a href="https://claude.ai/artifact/WZmCFMo4TVrZBDsoT5KGyu">Музыка</a></li>
+      <li><a href="https://claude.ai/artifact/Sxv32gV4SoYwPGMXD1UYHD">Все тексты</a></li>
+    </ul></div>
+    <div><h2>О проекте</h2><ul>
+      <li><a href="#pipeline">Метод и замер качества</a></li>
+      <li><a href="#top">Редакционная хартия</a></li>
+      <li><a href="#ai">Роль ИИ</a></li>
+      <li><a href="https://claude.ai/artifact/WNygYEn7HeTq5PbrvPt2BF#team">Редакция и совет</a></li>
+      <li><a href="#corrections">Исправления</a></li>
+    </ul></div>
+    <div><h2>Использование</h2><ul>
+      <li>Переводы и комментарии — CC BY-NC-SA 4.0</li>
+      <li>Исходные тексты — общественное достояние</li>
+      <li>Журналы рецензии — CC0</li>
+      <li><a href="#cite">Как цитировать</a></li>
+    </ul></div>
+  </footer>
+  <div class="colophon"><span>© 2026 Neoscholia</span><span>ISSN и DOI — после регистрации</span><span>Связь с редакцией: форма появится при запуске</span></div>
+</div>
+
+<script>
+(function () {
+  var links = Array.prototype.slice.call(document.querySelectorAll('.toc a'));
+  var map = {};
+  links.forEach(function (a) { map[a.getAttribute('href').slice(1)] = a; });
+  if ('IntersectionObserver' in window) {
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (e) {
+        if (e.isIntersecting) {
+          links.forEach(function (a) { a.removeAttribute('aria-current'); });
+          var a = map[e.target.id]; if (a) a.setAttribute('aria-current', 'true');
+        }
+      });
+    }, { rootMargin: '-10% 0px -75% 0px' });
+    document.querySelectorAll('.ch').forEach(function (s) { io.observe(s); });
+  }
+  var btn = document.getElementById('copy-cite');
+  btn.addEventListener('click', function () {
+    var el = document.getElementById('cite-sample');
+    function selectIt() { var r = document.createRange(); r.selectNodeContents(el); var s = getSelection(); s.removeAllRanges(); s.addRange(r); btn.textContent = 'Выделено — нажмите Ctrl+C'; }
+    try { navigator.clipboard.writeText(el.textContent).then(function () { btn.textContent = 'Скопировано'; }, selectIt); } catch (e) { selectIt(); }
+  });
+})();
+</script>

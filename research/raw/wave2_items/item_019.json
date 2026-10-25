@@ -1,0 +1,28 @@
+{
+ "corpus": "christian-late-antique",
+ "title": "Quaestiones Veteris et Novi Testamenti (Questions on the Old and New Testament) / «Вопросы Ветхого и Нового Завета»",
+ "author": "Ambrosiaster (anonymous Roman cleric; transmitted under Augustine's name)",
+ "date": "c. 366–384, Rome (under Pope Damasus)",
+ "language": "Latin",
+ "genre": "Exegetical-polemical quaestiones",
+ "size": "127 questions (recension III; 150 in recension I); est. 110–130k words",
+ "edition": "Souter, CSEL 50 (1908), public domain; also PL 35. Q.114–115: Bussières, SC 512 (2007)",
+ "ru_status": "none",
+ "ru_evidence": "azbyka.ru/otechnik/Amvrosiast lists Latin originals only. ru.wikipedia 'Амброзиастер' cites only Pauline-commentary excerpts in the Russian ACCS series (Библейские комментарии отцов Церкви)",
+ "en_status": "full",
+ "en_evidence": "Only a self-published, non-peer-reviewed version: J. Litteral, CreateSpace 2018, 452 pp. (Open Library). No scholarly English translation found.",
+ "other_translations": "French: Q.114–115 (SC 512, 2007). German: Q.115 (von Queis 1972). No complete scholarly translation found.",
+ "value": "Late-4th-century Rome through a learned cleric's eyes. Q.114 'Against the pagans' (incl. Mithraic initiation) and Q.115 'On fate' (astrology); also Roman law, Jews, women, Novatianists, Manichees. A core source for the religion and society of late-antique Rome.",
+ "audience": "humanities",
+ "ai_feasibility": "high: plain argumentative Latin and a public-domain critical text. Challenges: differences between recensions; legal and astrological terms.",
+ "pilot_unit": "Q.114 Adversus paganos + Q.115 De fato; est. 14–16k words",
+ "preliminary_priority": 5,
+ "sources": [
+  "https://azbyka.ru/otechnik/Amvrosiast/",
+  "https://ru.wikipedia.org/wiki/Амброзиастер",
+  "https://en.wikipedia.org/wiki/Ambrosiaster",
+  "https://openlibrary.org/search.json?q=ambrosiaster",
+  "https://openlibrary.org/works/OL41394763W"
+ ],
+ "id": "item_019"
+}

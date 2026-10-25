@@ -1,0 +1,25 @@
+{
+ "corpus": "greek-lexica",
+ "title": "Περὶ ὁμοίων καὶ διαφόρων λέξεων / De adfinium vocabulorum differentia (On Differences of Similar Words) / «О различии близких слов»",
+ "author": "'Ammonius' (perhaps reworking Herennius Philo of Byblos)",
+ "date": "core 1st–2nd c. CE; later (Byzantine) redaction",
+ "language": "Ancient Greek",
+ "genre": "Synonymic lexicon",
+ "size": "About 500 entries (estimate). Nickau's text is about 136 pp. Estimate 15k words.",
+ "edition": "K. Nickau (Teubner 1966; in copyright). Valckenaer 1739/1822 (PD).",
+ "ru_status": "none",
+ "ru_evidence": "No ru.wikipedia article and no Russian translation found.",
+ "en_status": "none",
+ "en_evidence": "en.wikipedia (Ammonius Grammaticus) lists none. OpenAlex returns only reviews of Nickau's edition. No English translation found.",
+ "other_translations": "None found (search not exhaustive).",
+ "value": "Ancient semantics through distinctions such as βίος/ζωή, famous via Agamben, and many others. Preserves Didymus and Tryphon. Useful for lexical semantics, NT and philosophy readers, and Greek teaching. Can be translated in full.",
+ "audience": "humanities",
+ "ai_feasibility": "high: compact, structured entries. Nuances between near-synonyms need careful bilingual rendering, and a reviewer must check each distinction.",
+ "pilot_unit": "Entire text, or letters Α–Ε as the pilot (estimate 4k words).",
+ "preliminary_priority": 3,
+ "sources": [
+  "https://en.wikipedia.org/wiki/Ammonius_Grammaticus",
+  "https://doi.org/10.1163/156852569x00184"
+ ],
+ "id": "item_072"
+}

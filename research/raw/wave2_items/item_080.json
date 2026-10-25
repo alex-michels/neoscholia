@@ -1,0 +1,26 @@
+{
+ "corpus": "greek-poetry",
+ "title": "Expeditio Persica, Bellum Avaricum, Heraclias (+ Hexaemeron); «Ираклиада», «На нашествие варваров» и др.",
+ "author": "George of Pisidia",
+ "date": "622–c. 630 CE",
+ "language": "Late-antique / early Byzantine Greek",
+ "genre": "Panegyrical epic in iambic trimeter; didactic-theological poem (Hexaemeron)",
+ "size": "About 5,000 verses in total. Expeditio Persica 1,088; Bellum Avaricum about 540; Heraclias about 470; Hexaemeron about 1,900 (approximate).",
+ "edition": "Pertusi 1959; Tartaglia 1998 (UTET, complete); Gonnelli 1998 (Hexaemeron). Public-domain texts: Bekker, CSHB 1836; Querci 1777 = PG 92 (scans; URLs not checked).",
+ "ru_status": "partial",
+ "ru_evidence": "ru.wikipedia 'Георгий Писида' lists only Russian 'отрывки' (excerpts) of Expeditio Persica, Bellum Avaricum, Heraclias and others. Hexaemeron is not listed.",
+ "en_status": "none",
+ "en_evidence": "No complete English translation found on English Wikipedia or Crossref; only studies (Whitby, Howard-Johnston, Leppin).",
+ "other_translations": "Italian, complete: Pertusi 1959; Tartaglia 1998; Gonnelli 1998 (Hexaemeron).",
+ "value": "Eyewitness court poetry on Heraclius' Persian war, the Avar-Persian siege of Constantinople (626) and the True Cross. Used as a source by Theophanes. The last classicizing panegyric of Late Antiquity, at the 7th-century cutoff. Hexaemeron is a key text on late-antique science and Platonism.",
+ "audience": "humanities",
+ "ai_feasibility": "Medium-high. The trimeters are dense and allusive, with rare vocabulary. Italian translations allow cross-checking, and historical commentary can draw on Howard-Johnston.",
+ "pilot_unit": "Bellum Avaricum (about 540 lines, the 626 siege), then Expeditio Persica",
+ "preliminary_priority": 5,
+ "sources": [
+  "https://ru.wikipedia.org/wiki/Георгий_Писида",
+  "https://en.wikipedia.org/wiki/George_of_Pisidia",
+  "https://doi.org/10.1515/9783110696219-017"
+ ],
+ "id": "item_080"
+}

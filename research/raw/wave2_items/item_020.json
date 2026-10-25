@@ -1,0 +1,27 @@
+{
+ "corpus": "christian-late-antique",
+ "title": "Homiliae in Psalmos, Codex Monacensis graecus 314 (Origen's 'new' Homilies on the Psalms) / «Гомилии на Псалмы» (Мюнхенский кодекс)",
+ "author": "Origen of Alexandria",
+ "date": "c. 240–250, Caesarea; identified in 2012",
+ "language": "Greek",
+ "genre": "Homilies (exegesis)",
+ "size": "29 homilies on Pss 15, 36, 67, 73–77, 80, 81; est. 85–100k words",
+ "edition": "Perrone et al., Die neuen Psalmenhomilien, GCS NF 19 (De Gruyter 2015), under copyright. Rights clearance or an own transcription of the Munich manuscript is needed.",
+ "ru_status": "none",
+ "ru_evidence": "pravenc.ru 'Ориген' notes the 2015 publication but lists no Russian translation; azbyka.ru Origen page has no Psalm homilies; Labirint catalogue: none. Journal partials not excluded.",
+ "en_status": "full",
+ "en_evidence": "J. W. Trigg, Origen: Homilies on the Psalms, Codex Monacensis Graecus 314 (FOTC 141, CUA Press 2021), per Open Library",
+ "other_translations": "GCS volume has German/Italian apparatus; other modern translations not verified",
+ "value": "The most important patristic textual discovery in decades: 29 largely unknown Greek homilies by antiquity's most influential Christian scholar. Rich in Hexaplaric philology, Jewish exegesis and Origen's preaching voice in mid-3rd-century Caesarea. High visibility, and nothing exists in Russian.",
+ "audience": "humanities",
+ "ai_feasibility": "high: homiletic Greek with simple syntax. Biblical and Hexaplaric variants must be tracked; source-text rights are the main obstacle.",
+ "pilot_unit": "Homily on Ps 15 + four homilies on Ps 76; est. 18–22k words",
+ "preliminary_priority": 5,
+ "sources": [
+  "https://www.pravenc.ru/text/2581523.html",
+  "https://azbyka.ru/otechnik/Origen/",
+  "https://openlibrary.org/search.json?q=origen+homilies+psalms",
+  "https://www.labirint.ru/search/Ориген/"
+ ],
+ "id": "item_020"
+}

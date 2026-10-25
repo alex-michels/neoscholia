@@ -1,0 +1,13 @@
+{
+  "name": "Neoscholia",
+  "tagline": "новые схолии к непереведённой античности",
+  "lang": "ru",
+  "repo": "https://github.com/alex-michels/neoscholia",
+  "branch": "main",
+  "nav": [
+    { "key": "library", "label": "Библиотека", "href": "index.html" },
+    { "key": "studies", "label": "Исследования", "href": "studies.html" },
+    { "key": "method", "label": "Метод", "href": "method.html" },
+    { "key": "about", "label": "О проекте", "href": "about.html" }
+  ]
+}

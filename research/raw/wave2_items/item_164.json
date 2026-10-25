@@ -1,0 +1,26 @@
+{
+ "corpus": "philosophy",
+ "title": "Περὶ τῶν ἀρεσκόντων τοῖς φιλοσόφοις — [Plutarch], Placita philosophorum (Aëtius epitome); RU «О мнениях философов»",
+ "author": "Aëtius, in the Pseudo-Plutarch epitome",
+ "date": "Aëtius 1st c. CE; epitome c. 150 CE",
+ "language": "Greek",
+ "genre": "Doxography",
+ "size": "5 books; est. 25k words",
+ "edition": "Diels, Doxographi Graeci (1879), public domain: https://archive.org/details/doxographigraec00dielgoog. Mansfeld and Runia, Aëtiana V (2020), copyrighted.",
+ "ru_status": "partial",
+ "ru_evidence": "No complete Russian version found (CyberLeninka: 'Плациты', 'Аэций доксограф'; archive.org). Individual testimonia appear in Presocratic collections (Lebedev, ФРГФ 1989).",
+ "en_status": "full",
+ "en_evidence": "Mansfeld and Runia, Aëtiana V: edition, translation and commentary of the reconstructed Placita (Brill 2020), per Open Library.",
+ "other_translations": "French: Lachenaud, Budé (1993), not verified in this sweep. Others: unknown.",
+ "value": "The backbone of ancient doxography: a systematic survey of physical opinions from Thales to the Stoics, and the source of many DK A-testimonia. Essential for teaching and research on early Greek philosophy and science; the Russian Presocratic-studies community is strong.",
+ "audience": "humanities",
+ "ai_feasibility": "High. Terse, formulaic sentences. Care needed with attributions and the Stobaean parallel tradition. Public-domain Diels text.",
+ "pilot_unit": "Book II (cosmos, heavens, sun, moon), about 6k words (estimate).",
+ "preliminary_priority": 4,
+ "sources": [
+  "https://openlibrary.org/search?q=Aetiana+Mansfeld+Runia",
+  "https://archive.org/details/doxographigraec00dielgoog",
+  "https://cyberleninka.ru/search?q=Плациты"
+ ],
+ "id": "item_164"
+}

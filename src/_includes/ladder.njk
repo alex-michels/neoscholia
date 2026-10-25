@@ -1,0 +1,6 @@
+{#- Лестница статусов. Берётся из src/_data/ladders.yaml по полям страницы ladder и status. -#}
+<ol class="ladder" aria-label="{{ ladders[ladder].label }}">
+{%- for st in ladders[ladder].steps | ladderSteps(status) %}
+        <li{% if st.done %} class="done"{% endif %}{% if st.current %} aria-current="step"{% endif %}>{{ st.label }}</li>
+{%- endfor %}
+      </ol>

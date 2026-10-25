@@ -1,0 +1,83 @@
+---
+title: "Исследования Neoscholia"
+nav: "studies"
+permalink: "studies.html"
+styles: ["studies"]
+scripts: ["studies"]
+mock: "<b>Макет страницы.</b> Перечислены работы, которые вырастают из первых переводов библиотеки. Первая статья вышла как препринт; «в работе» — те, что связаны с пилотными текстами."
+---
+<main id="top">
+    <div class="crumbs"><a href="index.html">Библиотека</a> › Исследования</div>
+
+    <section class="intro" aria-labelledby="h1">
+      <div>
+        <h1 id="h1">Исследования</h1>
+        <p>Первый перевод открывает текст, который почти никто не читал целиком. Из него вырастают вопросы: откуда сведения, как устроена традиция, что меняет новая находка. Здесь собраны работы, которые мы пишем на материале переводов библиотеки.</p>
+        <p>Статьи публикуются здесь: от досье источников и препринта до окончательной версии. Вся история правок открыта.</p>
+      </div>
+      <aside class="rule-box" aria-labelledby="rules-h">
+        <h2 id="rules-h">Как связаны перевод и статья</h2>
+        <ol>
+          <li>Перевод публикуется в библиотеке с версией и DOI.</li>
+          <li>Статья ссылается на эту версию и добавляет то, чего нет в переводе: анализ, новые выводы.</li>
+          <li>Роль ИИ раскрыта на странице статьи; цитаты сверены человеком.</li>
+        </ol>
+      </aside>
+    </section>
+
+    <section class="block" aria-labelledby="tr-h">
+      <div class="block-head"><h2 id="tr-h">Три направления</h2></div>
+      <div class="tracks">
+        <div class="track"><h3>Статьи по текстам</h3><p>Исторические и филологические работы о том, что сообщают впервые переведённые тексты.</p><span class="n" id="n-text"></span></div>
+        <div class="track"><h3>Методология</h3><p>Как модели переводят древние языки, где ошибаются и что ловит перекрёстная проверка.</p><span class="n" id="n-method"></span></div>
+        <div class="track"><h3>Данные</h3><p>Открытый корпус: оригиналы, переводы, журналы рецензии — для тех, кто хочет проверить или продолжить.</p><span class="n" id="n-data"></span></div>
+      </div>
+    </section>
+
+    <section class="block" aria-labelledby="list-h">
+      <div class="block-head">
+        <h2 id="list-h">Работы</h2>
+        <p>Каждая работа опирается на конкретные тексты библиотеки — они указаны под описанием.</p>
+      </div>
+      <div class="filters" role="group" aria-label="Фильтр работ">
+        <button type="button" data-sec="all" aria-pressed="true">Все разделы</button>
+        <button type="button" data-sec="alex" aria-pressed="false">Роман об Александре</button>
+        <button type="button" data-sec="sch" aria-pressed="false">Схолии</button>
+        <button type="button" data-sec="mus" aria-pressed="false">Музыка</button>
+        <button type="button" data-sec="met" aria-pressed="false">Метод</button>
+        <span class="sep" aria-hidden="true"></span>
+        <button type="button" data-st="work" aria-pressed="false" id="only-work">Только «в работе»</button>
+      </div>
+
+      <ol class="list" id="list">
+{%- for s in studies %}
+        <li class="study" data-sec="{{ s.section }}" data-kind="{{ s.kind }}" data-st="{{ s.state }}">
+          <div class="where"><a href="{{ studyLists.sections[s.section].href }}">{{ studyLists.sections[s.section].label }}</a><span>{{ studyLists.kinds[s.kind] }}</span></div>
+          <div><h3>{% if s.url %}<a href="{{ s.url }}">{{ s.title | safe }}</a>{% else %}{{ s.title | safe }}{% endif %}</h3>
+            <p>{{ s.summary | safe }}</p>
+            <p class="on">{{ s.basis | safe }}</p></div>
+          <div class="state"><span class="pill{% if s.state == 'work' %} work{% endif %}">{{ s.pill or studyLists.states[s.state] }}</span></div>
+        </li>
+{%- endfor %}
+      </ol>
+      <p class="empty" id="empty" hidden>По этому фильтру работ нет.</p>
+    </section>
+
+    <section class="block trio" aria-label="Ежегодник, данные и сотрудничество">
+      <div class="panel">
+        <h3>«Neoscholia. Труды»</h3>
+        <p>Ежегодный сборник: статьи и избранные проверенные переводы с введениями. Выходит с ISBN, каждая статья — с DOI.</p>
+        <p class="small">Первый выпуск планируется после того, как в библиотеке будут подписанные редактором тексты.</p>
+      </div>
+      <div class="panel">
+        <h3>Открытые данные</h3>
+        <p>Оригиналы, переводы и журналы рецензии в формате TEI, с версиями. Журналы рецензии — без условий использования (CC0).</p>
+        <p class="small">Архив данных откроется вместе с первой подписанной версией.</p>
+      </div>
+      <div class="panel">
+        <h3>Пишите с нами</h3>
+        <p>Мы ищем соавторов: филологов-классиков, византинистов, востоковедов (особенно для сирийских, арабских и армянских текстов) и исследователей перевода с помощью ИИ.</p>
+        <p class="small">Ссылаясь на наши переводы, указывайте версию: <a href="method.html#cite">как цитировать</a>.</p>
+      </div>
+    </section>
+  </main>

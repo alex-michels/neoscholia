@@ -1,0 +1,25 @@
+{
+ "corpus": "ane-egypt",
+ "title": "Persepolis Fortification Tablets (Elamite), Hallock PF 1–2087 / Персепольские таблички крепостной стены",
+ "author": "Achaemenid administrators under Darius I",
+ "date": "509–493 BCE",
+ "language": "Achaemenid Elamite",
+ "genre": "Administrative records",
+ "size": "Over 15,000 records, c. 5% published; Hallock: 2,087 texts",
+ "edition": "Hallock, OIP 92 (1969; free PDF, archive.org/details/oip92); OCHRE database.",
+ "ru_status": "none",
+ "ru_evidence": "CyberLeninka 'Персеполь таблички эламские' gives only studies; no Russian translation found.",
+ "en_status": "partial",
+ "en_evidence": "Hallock translated the 2,087 published texts; about 95% of the archive is unpublished (en.wikipedia).",
+ "other_translations": "Selections in French/German studies (not verified).",
+ "value": "Primary evidence for the Persian court, roads, rations and Greeks (Yaunā) in Persian service. Indispensable control for Herodotus, Xenophon and Ctesias.",
+ "audience": "specialist",
+ "ai_feasibility": "medium: highly formulaic with a small vocabulary, but LLMs know little Elamite, so rely on Hallock's glossary. Unpublished tablets are not accessible.",
+ "pilot_unit": "One Hallock category, e.g. Q texts (travel rations), a few hundred short texts",
+ "preliminary_priority": 3,
+ "sources": [
+  "https://en.wikipedia.org/wiki/Persepolis_Administrative_Archives",
+  "https://archive.org/details/oip92"
+ ],
+ "id": "item_013"
+}

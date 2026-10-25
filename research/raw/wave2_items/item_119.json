@@ -1,0 +1,27 @@
+{
+ "corpus": "greek-technical",
+ "title": "Τῶν Ἀράτου καὶ Εὐδόξου φαινομένων ἐξήγησις — Commentary on the Phaenomena of Aratus and Eudoxus; RU: «Комментарий к „Явлениям“ Арата и Евдокса»",
+ "author": "Hipparchus of Nicaea",
+ "date": "2nd c. BCE",
+ "language": "Ancient Greek (Hellenistic Koine)",
+ "genre": "Astronomy; critical commentary on didactic poetry",
+ "size": "3 books; est. c. 30,000 words (Manitius 1894: 376 pp. including facing German and notes)",
+ "edition": "Manitius, Teubner 1894, Greek with German, public domain: https://archive.org/details/McGillLibrary-hssl_hipparchou-ton-aratou_QB41H561894-18575",
+ "ru_status": "none",
+ "ru_evidence": "ru.wikipedia «Гиппарх» (Издания и переводы) lists only Manitius 1894 and Almagest RU; ΣΧΟΛΗ translation index (Shchetnikov's astronomy series: Geminus, Cleomedes, Autolycus) has no Hipparchus.",
+ "en_status": "none",
+ "en_evidence": "en.wikipedia «Hipparchus», Translations: only German (1894) and Italian (2013/2022). Vanin–Cusinato, arXiv 2206.08243: first modern-language translation since Manitius 1894.",
+ "other_translations": "German: Manitius 1894. Italian: Cusinato & Vanin 2013, 3rd ed. 2022 (open, arXiv 2206.08243).",
+ "value": "Only surviving work of antiquity's greatest observational astronomer; chief evidence for Eudoxus' lost Phaenomena, the scholarly reception of Aratus and pre-Ptolemaic star positions (renewed by the 2022 Sinai palimpsest find of his catalogue). Used by historians of astronomy, Hellenistic poetry and science.",
+ "audience": "humanities",
+ "ai_feasibility": "medium-high: plain technical Koine; risk lies in numbers (degrees, risings and settings). Agents must check figures against planetarium computation and against Manitius and Vanin.",
+ "pilot_unit": "Book 1 (critique of Aratus and Eudoxus, reply to Attalus), est. 10–12k words",
+ "preliminary_priority": 5,
+ "sources": [
+  "https://en.wikipedia.org/wiki/Hipparchus",
+  "https://arxiv.org/abs/2206.08243",
+  "https://ru.wikipedia.org/wiki/Гиппарх",
+  "http://classics.nsu.ru/scholeru/schedule.htm"
+ ],
+ "id": "item_119"
+}

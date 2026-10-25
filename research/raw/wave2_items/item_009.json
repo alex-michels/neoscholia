@@ -1,0 +1,26 @@
+{
+ "corpus": "ane-egypt",
+ "title": "Demotic Chronicle (P. Paris BN 215 recto) / «Демотическая хроника»",
+ "author": "Anonymous Egyptian priest(s)",
+ "date": "Early Ptolemaic, 3rd c. BCE",
+ "language": "Demotic Egyptian",
+ "genre": "Oracle with line-by-line interpretation",
+ "size": "c. 6 papyrus columns (estimate)",
+ "edition": "Spiegelberg, Die sogenannte demotische Chronik (1914; public domain, archive.org); Felber 2002 (German); Quack 2015 (study).",
+ "ru_status": "none",
+ "ru_evidence": "No Russian translation found: ru.wikipedia mentions it only in a navbox; CyberLeninka hits are studies (Ладынин) citing it.",
+ "en_status": "partial",
+ "en_evidence": "en.wikipedia points to an annotated English course translation (yorku.ca/pswarney/2110/dem-chron); no standard published English found.",
+ "other_translations": "German (Spiegelberg 1914; Felber 2002); Italian (Bresciani 1969).",
+ "value": "Egyptian verdict on Persian rule, Teos, Nectanebo I–II and the Greeks. An oracle with commentary, i.e. Egyptian 'scholia'. Vital for Ptolemaic ideology and the Nectanebo legend of the Alexander Romance.",
+ "audience": "humanities",
+ "ai_feasibility": "low-medium: LLMs are weak in Demotic. Work from Spiegelberg's public-domain transcription; cryptic oracle phrasing needs an Egyptologist reviewer.",
+ "pilot_unit": "Entire text (c. 6 columns)",
+ "preliminary_priority": 4,
+ "sources": [
+  "https://en.wikipedia.org/wiki/Demotic_Chronicle",
+  "https://archive.org/details/diesogenanntedem00spieuoft",
+  "https://cyberleninka.ru/article/n/antichnaya-traditsiya-o-tsare-amasise-i-ee-egipetskie-literaturnye-prototipy"
+ ],
+ "id": "item_009"
+}

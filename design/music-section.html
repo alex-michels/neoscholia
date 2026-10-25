@@ -1,0 +1,471 @@
+<title>Античная музыка</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Forum&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400&family=Alegreya+Sans+SC:wght@500;700&display=swap">
+<style>
+/* Layout: the shared reading sheet. Intro + the Greater Perfect System as the section's common vocabulary →
+   corpus map (topic × already in Russian / gaps) → catalogue with filters → what exists in Russian → studies. */
+:root {
+  --papyrus: #e7dcc4; --leaf: #fbf7ee; --panel: #f4ecdc;
+  --ink: #2b2219; --ink-soft: #6b5c4a;
+  --rubric: #a2361c; --lapis: #2f4b6e; --rule: #d9ccb1; --wash: #efe4cc;
+  --font-display: "Forum", "Times New Roman", serif;
+  --font-text: "Gentium Book Plus", "Gentium Plus", "Noto Serif", Georgia, serif;
+  --font-label: "Alegreya Sans SC", "Trebuchet MS", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --papyrus: #17130e; --leaf: #1f1a14; --panel: #262019; --ink: #e9dec7; --ink-soft: #b3a48b;
+    --rubric: #e08a6c; --lapis: #9db6d6; --rule: #3a3127; --wash: #2a231b; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --papyrus: #17130e; --leaf: #1f1a14; --panel: #262019; --ink: #e9dec7; --ink-soft: #b3a48b;
+  --rubric: #e08a6c; --lapis: #9db6d6; --rule: #3a3127; --wash: #2a231b; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--papyrus); color: var(--ink); font: 1.05rem/1.6 var(--font-text);
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0 2.5rem; }
+a { color: var(--lapis); text-underline-offset: .18em; }
+a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid var(--lapis); outline-offset: 2px; }
+.wrap { max-width: 76rem; margin: 0 auto; background: var(--leaf); border: 1px solid var(--rule); border-top: 0; padding: 0 2.75rem; }
+.label { font-family: var(--font-label); letter-spacing: .06em; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 400; text-wrap: balance; }
+
+/* header (shared) */
+.site { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .75rem 2rem; padding-block: 1.1rem .9rem; border-bottom: 1px solid var(--rule); }
+.brand { display: flex; flex-direction: column; text-decoration: none; color: var(--ink); line-height: 1.1; }
+.brand b { font-family: var(--font-display); font-weight: 400; font-size: 1.75rem; letter-spacing: .06em; }
+.brand b span { color: var(--rubric); }
+.brand small { font-size: .85rem; color: var(--ink-soft); }
+.site nav { display: flex; flex-wrap: wrap; gap: .3rem 1.4rem; font-family: var(--font-label); font-size: 1rem; letter-spacing: .04em; }
+.site nav a { color: var(--ink-soft); text-decoration: none; padding-block: .15rem; }
+.site nav a[aria-current] { color: var(--ink); border-bottom: 1px solid var(--rubric); }
+.lang { display: inline-flex; border: 1px solid var(--rule); font-family: var(--font-label); font-size: .85rem; }
+.lang span, .lang button { padding: .15rem .55rem; font: inherit; border: 0; background: transparent; color: var(--ink-soft); }
+.lang span { background: var(--ink); color: var(--leaf); }
+.lang button { cursor: not-allowed; border-left: 1px solid var(--rule); }
+.mock { margin-top: 1rem; background: var(--wash); border: 1px dashed var(--rule); padding: .55rem .9rem; font-size: .9rem; color: var(--ink-soft); }
+.mock b { color: var(--ink); }
+
+/* intro + system */
+.crumbs { margin-top: 1.5rem; font-family: var(--font-label); font-size: .9rem; letter-spacing: .04em; color: var(--ink-soft); }
+.crumbs a { color: var(--ink-soft); }
+.intro { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); gap: 2.5rem; padding-block: .4rem 2rem; align-items: start; }
+.intro h1 { font-size: clamp(2.3rem, 5vw, 3.4rem); line-height: 1.05; margin: .3rem 0 .9rem; }
+.intro p { margin: 0 0 .9rem; max-width: 38rem; }
+.facts { display: grid; gap: .7rem; margin: 1.2rem 0 0; padding: 1rem 1.2rem; background: var(--panel); border: 1px solid var(--rule); }
+.facts div { display: grid; gap: .05rem; }
+.facts dt { font-family: var(--font-label); font-size: .82rem; letter-spacing: .05em; color: var(--ink-soft); }
+.facts dd { margin: 0; }
+.editor { font-family: var(--font-label); font-size: .9rem; color: var(--ink-soft); }
+
+figure.system { margin: 0; background: var(--panel); border: 1px solid var(--rule); padding: 1rem 1.1rem 1.1rem; }
+figure.system figcaption { font-size: .88rem; color: var(--ink-soft); margin-bottom: .7rem; }
+figure.system figcaption b { color: var(--ink); font-weight: 400; }
+.gps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 7.2rem minmax(0, 1fr) 2.2rem; }
+.gps li { display: contents; }
+.gps .tet, .gps .nm, .gps .p { padding: .14rem .3rem; border-bottom: 1px solid var(--rule); }
+.gps .tet { font-family: var(--font-label); font-size: .74rem; letter-spacing: .05em; color: var(--ink-soft); border-right: 2px solid var(--rubric); }
+.gps .tet.cont { border-right-color: var(--rubric); color: transparent; }
+.gps .tet.none { border-right-color: var(--rule); }
+.gps .nm { font-size: .98rem; }
+.gps .p { font-family: var(--font-label); font-size: .82rem; color: var(--ink-soft); text-align: right; font-variant-numeric: tabular-nums; }
+.gps .mese .nm { color: var(--rubric); }
+.gps .disj .nm, .gps .disj .p, .gps .disj .tet { border-bottom: 2px dashed var(--rubric); }
+.gps-note { font-size: .82rem; color: var(--ink-soft); margin: .6rem 0 0; }
+
+.block { border-top: 1px solid var(--rule); padding-block: 2rem 2.2rem; }
+.block-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: .4rem 1.5rem; margin-bottom: 1.1rem; }
+.block-head h2 { font-size: clamp(1.6rem, 3vw, 2.1rem); margin: 0; }
+.block-head p { margin: 0; color: var(--ink-soft); font-size: .95rem; max-width: 38rem; }
+
+/* legend + corpus map */
+.legend { display: flex; flex-wrap: wrap; gap: .4rem 1.2rem; font-size: .88rem; color: var(--ink-soft); margin-bottom: .9rem; }
+.legend span { display: inline-flex; align-items: center; gap: .35rem; }
+.dot { width: .62rem; height: .62rem; border-radius: 50%; display: inline-block; flex: none; }
+.dot.none { background: var(--rubric); }
+.dot.part { background: transparent; border: 2px solid var(--rubric); }
+.dot.ru { background: var(--rule); }
+.star { color: var(--lapis); font-weight: 700; }
+.map { display: grid; grid-template-columns: 12rem minmax(0, 1fr) minmax(0, 1fr); border: 1px solid var(--rule); }
+.map > div { padding: .65rem .8rem; border-bottom: 1px solid var(--rule); min-width: 0; }
+.map > div:nth-last-child(-n+3) { border-bottom: 0; }
+.map .h { font-family: var(--font-label); font-weight: 700; font-size: .85rem; letter-spacing: .06em; color: var(--ink-soft); background: var(--panel); }
+.map .topic { font-family: var(--font-display); font-size: 1.15rem; background: var(--panel); }
+.map .have, .map .gap { font-size: .93rem; }
+.map .have { border-left: 1px solid var(--rule); color: var(--ink-soft); }
+.map .gap { border-left: 1px solid var(--rule); }
+.map ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .3rem; }
+.map li { display: grid; grid-template-columns: .9rem minmax(0, 1fr); gap: .35rem; align-items: baseline; }
+.map .closed { color: var(--ink-soft); font-style: italic; }
+.map .tag { display: none; }
+
+/* catalogue */
+.filters { display: flex; flex-wrap: wrap; gap: .4rem; align-items: center; margin-bottom: 1.1rem; }
+.filters button { font-family: var(--font-label); font-size: .88rem; letter-spacing: .04em; padding: .25rem .75rem; cursor: pointer; background: var(--panel); color: var(--ink-soft); border: 1px solid var(--rule); }
+.filters button[aria-pressed="true"] { background: var(--ink); color: var(--leaf); border-color: var(--ink); }
+.filters label { margin-left: auto; display: inline-flex; gap: .4rem; align-items: center; font-size: .92rem; cursor: pointer; }
+.filters input { accent-color: var(--rubric); width: 1rem; height: 1rem; }
+.cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.2rem; }
+.card { border-top: 3px solid var(--ink); padding-top: .8rem; display: flex; flex-direction: column; gap: .45rem; min-width: 0; }
+.card.flag { border-top-color: var(--rubric); }
+.card .group { font-family: var(--font-label); font-size: .8rem; letter-spacing: .06em; color: var(--ink-soft); display: flex; justify-content: space-between; gap: .5rem; flex-wrap: wrap; }
+.card h3 { font-size: 1.35rem; margin: 0; line-height: 1.2; }
+.card .orig { color: var(--ink-soft); font-size: .95rem; margin: 0; }
+.card .meta { font-size: .9rem; color: var(--ink-soft); margin: 0; }
+.st { display: flex; flex-wrap: wrap; gap: .3rem; }
+.st span { font-family: var(--font-label); font-size: .78rem; letter-spacing: .04em; padding: .02rem .45rem; border: 1px solid var(--rule); color: var(--ink-soft); }
+.st .no { color: var(--rubric); border-color: var(--rubric); }
+.st .nowhere { background: var(--rubric); color: var(--leaf); border-color: var(--rubric); }
+.card dl { margin: .2rem 0 0; display: grid; grid-template-columns: 7.2rem minmax(0, 1fr); gap: .25rem .7rem; font-size: .92rem; }
+.card dt { color: var(--ink-soft); }
+.card dd { margin: 0; }
+.plan { font-family: var(--font-label); font-size: .82rem; letter-spacing: .05em; color: var(--lapis); }
+.plan.coauth { color: var(--ink-soft); }
+.empty { color: var(--ink-soft); }
+
+/* russian + studies */
+.duo { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 2.5rem; }
+.exists { list-style: none; margin: 0; padding: 0; display: grid; gap: .55rem; font-size: .95rem; }
+.exists li { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: .2rem 1rem; border-bottom: 1px dotted var(--rule); padding-bottom: .45rem; }
+.exists li span:last-child { color: var(--ink-soft); font-size: .88rem; text-align: right; }
+.studies { list-style: none; margin: 0; padding: 0; display: grid; gap: .9rem; }
+.studies b { display: block; font-weight: 400; font-size: 1.08rem; }
+.studies span { font-size: .9rem; color: var(--ink-soft); }
+
+/* footer (shared) */
+.foot { border-top: 2px solid var(--ink); margin-top: .5rem; padding-block: 1.6rem 1.4rem; display: grid; grid-template-columns: 1.4fr repeat(3, minmax(0, 1fr)); gap: 1.5rem 2rem; font-size: .93rem; }
+.foot h2 { font-family: var(--font-label); font-size: .85rem; letter-spacing: .08em; color: var(--ink-soft); margin: 0 0 .5rem; }
+.foot ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .3rem; }
+.foot a { color: var(--ink); text-decoration: none; }
+.foot a:hover { color: var(--rubric); text-decoration: underline; }
+.foot .about p { margin: 0 0 .6rem; color: var(--ink-soft); }
+.foot .about b { font-family: var(--font-display); font-weight: 400; font-size: 1.4rem; color: var(--ink); display: block; margin-bottom: .3rem; }
+.colophon { border-top: 1px solid var(--rule); padding-block: .9rem 1.2rem; display: flex; flex-wrap: wrap; justify-content: space-between; gap: .4rem 1.5rem; font-size: .85rem; color: var(--ink-soft); }
+
+@media (max-width: 1020px) { .foot { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 880px) {
+  .intro, .duo { grid-template-columns: minmax(0, 1fr); gap: 1.6rem; }
+  .cards { grid-template-columns: minmax(0, 1fr); }
+  .wrap { padding: 0 1.5rem; }
+  .filters label { margin-left: 0; }
+  .map { grid-template-columns: minmax(0, 1fr); }
+  .map .h { display: none; }
+  .map .have, .map .gap { border-left: 0; }
+  .map .topic { border-bottom: 0; padding-bottom: .2rem; }
+  .map .have { border-bottom: 0; padding-block: .2rem; }
+  .map > div:nth-last-child(-n+3) { border-bottom: 1px solid var(--rule); }
+  .map > div:last-child { border-bottom: 0; }
+  .map .tag { display: block; font-family: var(--font-label); font-size: .78rem; letter-spacing: .05em; color: var(--ink-soft); margin-bottom: .2rem; }
+}
+@media (max-width: 600px) {
+  .wrap { padding: 0 1rem; }
+  .foot { grid-template-columns: minmax(0, 1fr); }
+  .card dl { grid-template-columns: minmax(0, 1fr); gap: 0; }
+  .card dt { margin-top: .3rem; }
+  .exists li { grid-template-columns: minmax(0, 1fr); }
+  .exists li span:last-child { text-align: left; }
+  .gps { grid-template-columns: 5.6rem minmax(0, 1fr) 2rem; }
+}
+</style>
+
+<div class="wrap">
+  <header class="site">
+    <a class="brand" href="https://claude.ai/artifact/Sxv32gV4SoYwPGMXD1UYHD" aria-label="Neoscholia — на главную">
+      <b>Neo<span>·</span>scholia</b>
+      <small><span lang="grc">νέα σχόλια</span> · новые схолии к непереведённой античности</small>
+    </a>
+    <nav aria-label="Разделы сайта">
+      <a href="https://claude.ai/artifact/Sxv32gV4SoYwPGMXD1UYHD" aria-current="page">Библиотека</a>
+      <a href="https://claude.ai/artifact/FtriAuMyfVpLWqqMqZDQ8o">Исследования</a>
+      <a href="https://claude.ai/artifact/LUNNJwceDXYWoepQJWmVVL">Метод</a>
+      <a href="https://claude.ai/artifact/WNygYEn7HeTq5PbrvPt2BF">О проекте</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Язык интерфейса"><span>RU</span><button type="button" disabled title="Английская версия интерфейса появится позже">EN</button></div>
+  </header>
+
+  <p class="mock"><b>Макет страницы раздела.</b> Статусы переводов — по проверке проекта (октябрь 2026). Ни один текст раздела ещё не опубликован; всё помеченное — план.</p>
+
+  <main id="top">
+    <div class="crumbs"><a href="https://claude.ai/artifact/Sxv32gV4SoYwPGMXD1UYHD">Библиотека</a> › Музыка</div>
+
+    <section class="intro" aria-labelledby="h1">
+      <div>
+        <h1 id="h1">Музыка</h1>
+        <p>Греки писали о музыке как о науке: о ступенях и интервалах, ладах и ритмах, о том, как звук действует на душу. Эти трактаты читали в Византии и на латинском Западе, по ним учили гармонику до Нового времени.</p>
+        <p>Ядро греческой теории уже есть по-русски: Аристоксен, Птолемей с комментарием Порфирия, Аристид Квинтилиан, малые авторы. Этим мы обязаны В. Г. Цыпину и новосибирскому журналу ΣΧΟΛΗ. Раздел начинает там, где переводов ещё нет: византийские учебники, философский спор о музыке, нотированные памятники и музыка в жизни города.</p>
+        <p class="editor">Раздел ведёт: [ФИО] · рецензенты-музыковеды приглашаются</p>
+        <dl class="facts">
+          <div><dt>Нет перевода ни на одном языке</dt><dd>Георгий Пахимер, «Гармоника» (ок. 1300)</dd></div>
+          <div><dt>Первый пилот</dt><dd>Анонимный «Синопсис музыки» (1008) — короткий трактат, текст Heiberg 1929</dd></div>
+        </dl>
+      </div>
+
+      <figure class="system" aria-labelledby="gps-cap">
+        <figcaption id="gps-cap"><b>Большая совершенная система</b> (<span lang="grc">σύστημα τέλειον μεῖζον</span>), диатонический род. Названия ступеней — общий словарь всех трактатов раздела.</figcaption>
+        <ol class="gps" aria-label="Ступени системы, сверху вниз">
+          <li><span class="tet">ὑπερβολαίων</span><span class="nm" lang="grc">νήτη ὑπερβολαίων</span><span class="p">a′</span></li>
+          <li><span class="tet cont">ὑπερβολαίων</span><span class="nm" lang="grc">παρανήτη ὑπερβολαίων</span><span class="p">g′</span></li>
+          <li><span class="tet cont">ὑπερβολαίων</span><span class="nm" lang="grc">τρίτη ὑπερβολαίων</span><span class="p">f′</span></li>
+          <li><span class="tet">διεζευγμένων</span><span class="nm" lang="grc">νήτη διεζευγμένων</span><span class="p">e′</span></li>
+          <li><span class="tet cont">διεζευγμένων</span><span class="nm" lang="grc">παρανήτη διεζευγμένων</span><span class="p">d′</span></li>
+          <li><span class="tet cont">διεζευγμένων</span><span class="nm" lang="grc">τρίτη διεζευγμένων</span><span class="p">c′</span></li>
+          <li class="disj"><span class="tet cont">διεζευγμένων</span><span class="nm" lang="grc">παραμέση</span><span class="p">b</span></li>
+          <li class="mese"><span class="tet">μέσων</span><span class="nm" lang="grc">μέση</span><span class="p">a</span></li>
+          <li><span class="tet cont">μέσων</span><span class="nm" lang="grc">λιχανὸς μέσων</span><span class="p">g</span></li>
+          <li><span class="tet cont">μέσων</span><span class="nm" lang="grc">παρυπάτη μέσων</span><span class="p">f</span></li>
+          <li><span class="tet">ὑπάτων</span><span class="nm" lang="grc">ὑπάτη μέσων</span><span class="p">e</span></li>
+          <li><span class="tet cont">ὑπάτων</span><span class="nm" lang="grc">λιχανὸς ὑπάτων</span><span class="p">d</span></li>
+          <li><span class="tet cont">ὑπάτων</span><span class="nm" lang="grc">παρυπάτη ὑπάτων</span><span class="p">c</span></li>
+          <li><span class="tet cont">ὑπάτων</span><span class="nm" lang="grc">ὑπάτη ὑπάτων</span><span class="p">B</span></li>
+          <li><span class="tet none"></span><span class="nm" lang="grc">προσλαμβανόμενος</span><span class="p">A</span></li>
+        </ol>
+        <p class="gps-note">Слева — тетрахорды. Пунктир между месой и парамесой — разделительный тон (<span lang="grc">διάζευξις</span>). Месу выделяет красный цвет.</p>
+      </figure>
+    </section>
+
+    <section class="block" aria-labelledby="map-h">
+      <div class="block-head">
+        <h2 id="map-h">Карта корпуса</h2>
+        <p>По темам: что уже можно прочесть по-русски и где остаются пробелы. Звёздочкой отмечены тексты в плане Neoscholia.</p>
+      </div>
+      <div class="legend" aria-label="Обозначения">
+        <span><i class="dot none"></i>нет по-русски</span>
+        <span><i class="dot part"></i>по-русски отрывки</span>
+        <span><i class="dot ru"></i>есть по-русски</span>
+        <span><b class="star">★</b> в плане Neoscholia</span>
+      </div>
+      <div class="map" role="table" aria-label="Темы корпуса: переведённое и пробелы">
+        <div class="h" role="columnheader">Тема</div><div class="h" role="columnheader">Уже по-русски</div><div class="h" role="columnheader">Пробелы</div>
+
+        <div class="topic" role="rowheader">Гармоника</div>
+        <div class="have" role="cell"><span class="tag">Уже по-русски</span><ul><li><i class="dot ru"></i><span>Аристоксен, Клеонид, Никомах, Гауденций, Алипий, Вакхий, Анонимы Беллермана, «Деление канона», Птолемей и Порфирий, Аристид Квинтилиан, Псевдо-Плутарх</span></li></ul></div>
+        <div class="gap" role="cell"><span class="tag">Пробелы</span><p class="closed">Ядро закрыто — повторно не переводим.</p></div>
+
+        <div class="topic" role="rowheader">Ритмика</div>
+        <div class="have" role="cell"><span class="tag">Уже по-русски</span><ul><li><i class="dot ru"></i><span>Аристоксен, «Элементы ритмики» II</span></li></ul></div>
+        <div class="gap" role="cell"><span class="tag">Пробелы</span><ul><li><i class="dot none"></i><span>Пселл, «Предварения к ритмике»; P.Oxy. 2687</span></li></ul></div>
+
+        <div class="topic" role="rowheader">Акустика</div>
+        <div class="have" role="cell"><span class="tag">Уже по-русски</span><ul><li><i class="dot ru"></i><span>«Проблемы» XIX и XV; «О слышимом» (в комментарии Порфирия)</span></li></ul></div>
+        <div class="gap" role="cell"><span class="tag">Пробелы</span><ul><li><i class="dot none"></i><span>«Проблемы» XI: о голосе</span></li></ul></div>
+
+        <div class="topic" role="rowheader">Философия музыки</div>
+        <div class="have" role="cell"><span class="tag">Уже по-русски</span><ul><li><i class="dot part"></i><span>фрагменты Диогена Вавилонского и Феофраста</span></li></ul></div>
+        <div class="gap" role="cell"><span class="tag">Пробелы</span><ul><li><i class="dot part"></i><span>Филодем, «О музыке», кн. IV <b class="star">★</b></span></li></ul></div>
+
+        <div class="topic" role="rowheader">Латинская передача</div>
+        <div class="have" role="cell"><span class="tag">Уже по-русски</span><ul><li><i class="dot ru"></i><span>Боэций, Августин, Марциан Капелла IX, Макробий, Кассиодор</span></li></ul></div>
+        <div class="gap" role="cell"><span class="tag">Пробелы</span><ul><li><i class="dot none"></i><span>Халкидий, гармонические главы 32–55</span></li></ul></div>
+
+        <div class="topic" role="rowheader">Византийская передача</div>
+        <div class="have" role="cell"><span class="tag">Уже по-русски</span><ul><li><i class="dot ru"></i><span>«Петербургский теоретикон» (Герцман)</span></li></ul></div>
+        <div class="gap" role="cell"><span class="tag">Пробелы</span><ul>
+          <li><i class="dot none"></i><span>Пахимер, «Гармоника» <b class="star">★</b></span></li>
+          <li><i class="dot part"></i><span>Анонимный «Синопсис музыки» (1008) <b class="star">★</b></span></li>
+          <li><i class="dot none"></i><span>Мануил Вриенний, «Гармоника»</span></li>
+          <li><i class="dot part"></i><span>«Агиополит»</span></li>
+        </ul></div>
+
+        <div class="topic" role="rowheader">Нотированные памятники</div>
+        <div class="have" role="cell"><span class="tag">Уже по-русски</span><ul><li><i class="dot ru"></i><span>эпитафия Сейкила, пеан Лимения, гимны Месомеда, эпиграфические пеаны</span></li></ul></div>
+        <div class="gap" role="cell"><span class="tag">Пробелы</span><ul><li><i class="dot part"></i><span>корпус целиком с комментарием к нотации: пеан Афинея, папирусы <b class="star">★</b></span></li></ul></div>
+
+        <div class="topic" role="rowheader">Музыка в жизни города</div>
+        <div class="have" role="cell"><span class="tag">Уже по-русски</span><ul><li><i class="dot ru"></i><span>Афиней XIV, Лукиан «О пляске», Либаний, речь 64</span></li></ul></div>
+        <div class="gap" role="cell"><span class="tag">Пробелы</span><ul>
+          <li><i class="dot part"></i><span>Поллукс, «Ономастикон» IV: инструменты и номы <b class="star">★</b></span></li>
+          <li><i class="dot part"></i><span>Дельфийские декреты музыкантам и списки Сотерий <b class="star">★</b></span></li>
+          <li><i class="dot none"></i><span>Папирусы о найме музыкантов и танцовщиц</span></li>
+        </ul></div>
+      </div>
+    </section>
+
+    <section class="block" aria-labelledby="cat-h">
+      <div class="block-head">
+        <h2 id="cat-h">Тексты раздела</h2>
+        <p>Порядок — от первых публикаций к долгим проектам. Нотацию и строй проверяет музыковед, папирусы — папиролог.</p>
+      </div>
+      <div class="filters" role="group" aria-label="Фильтр текстов">
+        <button type="button" data-f="all" aria-pressed="true">Все</button>
+        <button type="button" data-f="byz" aria-pressed="false">Византийская передача</button>
+        <button type="button" data-f="phil" aria-pressed="false">Философия и теория</button>
+        <button type="button" data-f="doc" aria-pressed="false">Памятники и документы</button>
+        <button type="button" data-f="ru" aria-pressed="false">Только для русского</button>
+        <label for="nowhere"><input type="checkbox" id="nowhere"> только не переведённые ни на один язык</label>
+      </div>
+
+      <div class="cards" id="cards">
+        <article class="card flag" data-g="byz" data-nowhere="0">
+          <div class="group"><span>Византийская передача</span><span class="plan">первый пилот</span></div>
+          <h3>Анонимный «Синопсис музыки»</h3>
+          <p class="orig">из анонимного «Четверокнижия» 1008 г.; прежде приписывался Пселлу</p>
+          <p class="meta">XI в. · греческий · короткий учебник гармоники</p>
+          <div class="st"><span class="no">RU: несколько фраз</span><span class="no">EN: нет</span><span>DE: полный (Mizler 1746)</span></div>
+          <dl><dt>Основа</dt><dd>Heiberg 1929; сверка с немецким переводом Мицлера</dd><dt>Зачем</dt><dd>самый ранний византийский учебник гармоники; источник Зонары, Михаила Италика, Вриенния</dd></dl>
+        </article>
+
+        <article class="card flag" data-g="byz" data-nowhere="1">
+          <div class="group"><span>Византийская передача</span><span class="plan">флагман</span></div>
+          <h3>Георгий Пахимер, «Четверокнижие», кн. II: «Гармоника»</h3>
+          <p class="orig" lang="grc">Σύνταγμα τῶν τεσσάρων μαθημάτων, Β′: Ἁρμονική</p>
+          <p class="meta">ок. 1300 · греческий · ~100 страниц с диаграммами</p>
+          <div class="st"><span class="nowhere">нет ни на одном языке</span><span>FR: только краткое изложение (1847)</span></div>
+          <dl><dt>Основа</dt><dd>Tannery &amp; Stéphanou 1940 — статус прав уточняется</dd><dt>Первая часть</dt><dd>начальные главы: определения и отношения консонансов; проверка по Птолемею и Никомаху</dd></dl>
+        </article>
+
+        <article class="card flag" data-g="phil" data-nowhere="0">
+          <div class="group"><span>Философия и теория</span><span class="plan coauth">флагман · нужен папиролог</span></div>
+          <h3>Филодем, «О музыке», кн. IV</h3>
+          <p class="orig" lang="grc">Περὶ μουσικῆς Δ′ (PHerc. 1497)</p>
+          <p class="meta">I в. до н. э. · геркуланский папирус · много лакун</p>
+          <div class="st"><span class="no">RU: отрывки</span><span class="no">EN: отрывки</span><span>FR, DE: полные</span></div>
+          <dl><dt>Основа</dt><dd>Kemke 1884 (ОД); нумерация и чтения — по Delattre 2007</dd><dt>Зачем</dt><dd>единственный сохранившийся большой эллинистический спор о музыке: эпикуреец против стоика Диогена Вавилонского об этосе</dd></dl>
+        </article>
+
+        <article class="card" data-g="doc" data-nowhere="1">
+          <div class="group"><span>Памятники и документы</span><span class="plan coauth">готовится · нужен музыковед</span></div>
+          <h3>«Документы древнегреческой музыки»: корпус с переводом</h3>
+          <p class="orig">около 60 нотированных памятников</p>
+          <p class="meta">III в. до н. э. – IV в. н. э. · греческий с нотацией</p>
+          <div class="st"><span class="nowhere">как корпус — нет ни на одном языке</span><span>RU: отдельные пьесы</span></div>
+          <dl><dt>Основа</dt><dd>Jan 1899 (ОД); папирусы — papyri.info (CC BY)</dd><dt>Первая часть</dt><dd>Дельфийский пеан Афинея (пеан Лимения уже переведён)</dd></dl>
+        </article>
+
+        <article class="card" data-g="doc" data-nowhere="0">
+          <div class="group"><span>Памятники и документы</span><span class="plan">готовится</span></div>
+          <h3>Поллукс, «Ономастикон» IV.57–90: инструменты и номы</h3>
+          <p class="orig" lang="grc">Ὀνομαστικόν Δ′</p>
+          <p class="meta">II в. · греческий · ~8–10 страниц Teubner</p>
+          <div class="st"><span class="no">RU: цитаты у Герцмана</span><span>EN: полный выйдет в CUP, 2027</span></div>
+          <dl><dt>Основа</dt><dd>Bethe 1900 (ОД)</dd><dt>Зачем</dt><dd>словарь античных инструментов: авлосы, кифара, Пифийский ном</dd></dl>
+        </article>
+
+        <article class="card" data-g="doc" data-nowhere="0">
+          <div class="group"><span>Памятники и документы</span><span class="plan">готовится</span></div>
+          <h3>Дельфийские декреты музыкантам и списки Сотерий</h3>
+          <p class="orig">SIG³ 450, 689, 737, 738 и др.</p>
+          <p class="meta">III–I вв. до н. э. · надписи</p>
+          <div class="st"><span class="no">RU: отрывки</span><span>EN: около 20 текстов</span></div>
+          <dl><dt>Основа</dt><dd>Dittenberger, SIG³ (ОД)</dd><dt>Зачем</dt><dd>заказ гимнов, карьеры музыкантов, арфистка Полигнота, концерт на гидравлосе в 94 г. до н. э.</dd></dl>
+        </article>
+
+        <article class="card" data-g="doc" data-nowhere="0">
+          <div class="group"><span>Памятники и документы</span><span class="plan">кандидат</span></div>
+          <h3>Папирусы о найме музыкантов и танцовщиц</h3>
+          <p class="orig">контракты, расписки, праздничные счета</p>
+          <p class="meta">III в. до н. э. – IV в. н. э. · документальный греческий</p>
+          <div class="st"><span class="no">RU: нет</span><span>EN: около половины</span><span>IT: корпус (2002)</span></div>
+          <dl><dt>Основа</dt><dd>papyri.info (CC BY)</dd></dl>
+        </article>
+
+        <article class="card" data-g="ru" data-nowhere="0">
+          <div class="group"><span>Только для русского</span><span class="plan">кандидат</span></div>
+          <h3>Халкидий, «Комментарий к „Тимею“», гл. 32–55</h3>
+          <p class="orig" lang="la">Commentarius in Platonis Timaeum</p>
+          <p class="meta">IV–V вв. · латынь · ~25–30 страниц</p>
+          <div class="st"><span class="no">RU: нет</span><span>EN: полный (Magee 2016)</span></div>
+          <dl><dt>Основа</dt><dd>Wrobel 1876 (ОД)</dd><dt>Зачем</dt><dd>главный латинский путь гармонии мировой души на средневековый Запад</dd></dl>
+        </article>
+
+        <article class="card" data-g="ru" data-nowhere="0">
+          <div class="group"><span>Только для русского</span><span class="plan">кандидат</span></div>
+          <h3>«Проблемы» XI: о голосе</h3>
+          <p class="orig" lang="grc">Προβλήματα ΙΑ′ (Ὅσα περὶ φωνήν)</p>
+          <p class="meta">перипатетики · 62 вопроса</p>
+          <div class="st"><span class="no">RU: нет</span><span>EN: полный</span></div>
+          <dl><dt>Основа</dt><dd>Bekker 1831 (ОД)</dd><dt>Зачем</dt><dd>вместе с переведёнными XIX и XV даёт русское досье греческой теории звука</dd></dl>
+        </article>
+
+        <article class="card" data-g="ru" data-nowhere="0">
+          <div class="group"><span>Только для русского</span><span class="plan coauth">нужен специалист по византийскому пению</span></div>
+          <h3>«Агиополит»</h3>
+          <p class="orig" lang="grc">Ἁγιοπολίτης</p>
+          <p class="meta">ядро IX в. · греческий · трактат о церковном пении</p>
+          <div class="st"><span class="no">RU: отрывки (Герцман 1988)</span><span>EN: предварительный (Raasted 1983)</span></div>
+          <dl><dt>Зачем</dt><dd>самое раннее описание осмогласия и связи ладов с античными видами октавы; важно для знаменного распева</dd></dl>
+        </article>
+      </div>
+      <p class="empty" id="empty" hidden>По этому фильтру текстов нет.</p>
+    </section>
+
+    <section class="block duo" aria-label="Что уже переведено и исследования">
+      <div>
+        <div class="block-head"><h2>Уже есть по-русски</h2><p>Эти тексты мы не переводим заново и ссылаемся на них в комментарии.</p></div>
+        <ul class="exists">
+          <li><span>Аристоксен, «Элементы гармоники»</span><span>В. Г. Цыпин, 1997</span></li>
+          <li><span>Птолемей, «Гармоника», с полным комментарием Порфирия</span><span>Цыпин, 2013</span></li>
+          <li><span>«Музыкальные писатели античной Греции»: Клеонид, Алипий, Вакхий, Гауденций, Никомах, Феон и др.</span><span>Цыпин, 2019</span></li>
+          <li><span>Аристид Квинтилиан, «О музыке», полностью</span><span>Цыпин, 2023</span></li>
+          <li><span>Псевдо-Плутарх, «О музыке»</span><span>Цыпин, Лебедев, 2017</span></li>
+          <li><span>«Проблемы» XIX; фрагменты Птолемаиды, Дидима, Феофраста</span><span>ΣΧΟΛΗ, 2012</span></li>
+          <li><span>Боэций, «Основы музыки»</span><span>С. Н. Лебедев, 2012</span></li>
+          <li><span>Августин, «О музыке»</span><span>Е. М. Двоскина, 2017</span></li>
+          <li><span>Марциан Капелла, кн. IX</span><span>Ю. А. Шахов, 2019</span></li>
+          <li><span>Герон: водяной и ветровой орган</span><span>Е. В. Герцман, 2006</span></li>
+        </ul>
+      </div>
+      <div id="studies">
+        <div class="block-head"><h2>Исследования раздела</h2></div>
+        <ul class="studies">
+          <li><b>Византийская школьная гармоника: от «Синопсиса» 1008 г. к Пахимеру</b><span>статья в подготовке</span></li>
+          <li><b>Филодем против Диогена Вавилонского: спор об этосе музыки</b><span>статья в подготовке</span></li>
+          <li><b>Музыка в жизни эллинистического города: декреты, папирусы, Поллукс</b><span>статья в подготовке</span></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot" id="footer">
+    <div class="about">
+      <b>Neoscholia</b>
+      <p>Независимая некоммерческая библиотека первых переводов античных текстов на русский и английский. Открытый доступ.</p>
+      <p>Переводы готовятся с помощью языковых моделей и проверяются редактором. Системы ИИ не являются авторами.</p>
+    </div>
+    <div><h2>Библиотека</h2><ul>
+      <li><a href="https://claude.ai/artifact/HTuCJke5U2X3XbBcPHJeWK">Роман об Александре</a></li>
+      <li><a href="https://claude.ai/artifact/HqyqE2tpQepFtVvpu58bdZ">Схолии</a></li>
+      <li><a href="#top">Музыка</a></li>
+      <li><a href="https://claude.ai/artifact/Sxv32gV4SoYwPGMXD1UYHD">Все тексты</a></li>
+    </ul></div>
+    <div><h2>О проекте</h2><ul>
+      <li><a href="https://claude.ai/artifact/LUNNJwceDXYWoepQJWmVVL#pipeline">Метод и замер качества</a></li>
+      <li><a href="https://claude.ai/artifact/LUNNJwceDXYWoepQJWmVVL">Редакционная хартия</a></li>
+      <li><a href="https://claude.ai/artifact/LUNNJwceDXYWoepQJWmVVL#ai">Роль ИИ</a></li>
+      <li><a href="https://claude.ai/artifact/WNygYEn7HeTq5PbrvPt2BF#team">Редакция и совет</a></li>
+      <li><a href="https://claude.ai/artifact/LUNNJwceDXYWoepQJWmVVL#corrections">Исправления</a></li>
+    </ul></div>
+    <div><h2>Использование</h2><ul>
+      <li>Переводы и комментарии — CC BY-NC-SA 4.0</li>
+      <li>Исходные тексты — общественное достояние</li>
+      <li>Журналы рецензии — CC0</li>
+      <li><a href="https://claude.ai/artifact/LUNNJwceDXYWoepQJWmVVL#cite">Как цитировать</a></li>
+    </ul></div>
+  </footer>
+  <div class="colophon"><span>© 2026 Neoscholia</span><span>ISSN и DOI — после регистрации</span><span>Связь с редакцией: форма появится при запуске</span></div>
+</div>
+
+<script>
+(function () {
+  var current = 'all';
+  var cards = Array.prototype.slice.call(document.querySelectorAll('#cards .card'));
+  var only = document.getElementById('nowhere');
+  var empty = document.getElementById('empty');
+  function apply() {
+    var shown = 0;
+    cards.forEach(function (c) {
+      var ok = (current === 'all' || c.dataset.g === current) && (!only.checked || c.dataset.nowhere === '1');
+      c.hidden = !ok; if (ok) shown++;
+    });
+    empty.hidden = shown > 0;
+    document.querySelectorAll('.filters button').forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.f === current)); });
+  }
+  document.querySelector('.filters').addEventListener('click', function (e) {
+    var b = e.target.closest('button'); if (!b) return; current = b.dataset.f; apply();
+  });
+  only.addEventListener('change', apply);
+  apply();
+})();
+</script>

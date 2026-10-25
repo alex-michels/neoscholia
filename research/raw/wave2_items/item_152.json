@@ -1,0 +1,26 @@
+{
+ "corpus": "latin-scholia",
+ "title": "Scholia Bobiensia in Ciceronis orationes — Bobbio scholia on Cicero's speeches; Боббиенские схолии к речам Цицерона. Proposed unit: Pro Sestio + In Vatinium",
+ "author": "Anonymous ('Bobbio scholiast')",
+ "date": "Late antique commentary in a Bobbio palimpsest",
+ "language": "Latin",
+ "genre": "Historical-rhetorical scholia",
+ "size": "Stangl 1912 pp. 75–179 (~105 pp.); est. 30k words (estimate)",
+ "edition": "Stangl, Ciceronis orationum scholiastae, 1912 (public domain; Stangl d. 1921). Same volume has ps.-Asconius",
+ "ru_status": "none",
+ "ru_evidence": "No translation found; the ancientrome.ru catalogue has Asconius only",
+ "en_status": "partial",
+ "en_evidence": "attalus.org: excerpts from 11 speeches, incl. all introductions (est. ~15k words)",
+ "other_translations": "None found",
+ "value": "Preserves context and fragments of lost Cicero speeches (In Clodium et Curionem, De aere alieno Milonis, De rege Alexandrino) and data on late-Republican politics. Essential for historians of the 60s–50s BCE",
+ "audience": "humanities",
+ "ai_feasibility": "high — clear prose; gaps in the palimpsest must be marked",
+ "pilot_unit": "Scholia on Pro Sestio + In Vatinium (est. 8–10k words); extend to the whole corpus with ps.-Asconius",
+ "preliminary_priority": 3,
+ "sources": [
+  "https://www.attalus.org/translate/bobiensia.html",
+  "https://en.wikipedia.org/wiki/Thomas_Stangl",
+  "https://ancientrome.ru/antlitr/asconius/index.htm"
+ ],
+ "id": "item_152"
+}

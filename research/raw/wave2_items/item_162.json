@@ -1,0 +1,27 @@
+{
+ "corpus": "philosophy",
+ "title": "Ἐξήγησις εἰς τὸ Ἐπικτήτου Ἐγχειρίδιον — Simplicius, Commentary on Epictetus' Handbook (RU «Комментарий к „Энхиридию“ Эпиктета»)",
+ "author": "Simplicius of Cilicia",
+ "date": "c. 530–540s CE",
+ "language": "Greek",
+ "genre": "Neoplatonic ethical commentary",
+ "size": "Commentary on 53 chapters; est. 60–70k words (uncertain)",
+ "edition": "Schweighäuser 1800 and Dübner 1840, public domain: https://archive.org/details/bub_gb_72SHc8S-I5sC. I. Hadot, critical edition (Brill 1996; Budé), copyrighted.",
+ "ru_status": "none",
+ "ru_evidence": "ruwiki Симпликий lists Russian extracts only from In Phys. I.1 (1998) and In De caelo II (2005). CyberLeninka search for an Encheiridion commentary translation returns nothing.",
+ "en_status": "full",
+ "en_evidence": "Brennan and Brittain, Simplicius: On Epictetus Handbook 1–26 and 27–53 (Duckworth 2002; Bloomsbury reissue), per enwiki and Open Library.",
+ "other_translations": "French: I. Hadot, Budé (vol. I, chs. 1–29). English: Stanhope 1694.",
+ "value": "A Neoplatonist reading of the most popular Stoic manual: what is 'up to us', moral education, and a theodicy against the Manichaeans (ch. 35). Epictetus has a large Russian readership; the text links Stoicism with late Platonism.",
+ "audience": "broad",
+ "ai_feasibility": "High. Expository, homiletic prose. The Epictetus lemmata already exist in Russian, and the English version allows cross-checking.",
+ "pilot_unit": "Prologue plus chapter 1 ('up to us'), about 8k words; or chapter 35 (anti-Manichaean theodicy), about 6k words (estimates).",
+ "preliminary_priority": 4,
+ "sources": [
+  "https://ru.wikipedia.org/wiki/Симпликий",
+  "https://en.wikipedia.org/wiki/Simplicius_of_Cilicia",
+  "https://archive.org/details/bub_gb_72SHc8S-I5sC",
+  "https://openlibrary.org/search?q=Simplicius+Epictetus"
+ ],
+ "id": "item_162"
+}

@@ -1,0 +1,79 @@
+/* Layout: the shared reading sheet, as a reference document: sticky contents on the left,
+   chapters on the right (principles → pipeline → statuses → gates → evidence → log → AI role → rights → corrections → citing → editors). */
+a:focus-visible, button:focus-visible { outline: 2px solid var(--lapis); outline-offset: 2px; }
+.title { padding-block: .3rem 1.6rem; border-bottom: 1px solid var(--rule); }
+.title h1 { font-size: clamp(2.3rem, 5vw, 3.4rem); line-height: 1.05; margin: .3rem 0 .7rem; }
+.title p { margin: 0; max-width: 44rem; font-size: 1.12rem; }
+.title .ver { margin-top: .8rem; font-family: var(--font-label); font-size: .88rem; letter-spacing: .04em; color: var(--ink-soft); }
+.doc { display: grid; grid-template-columns: 14rem minmax(0, 1fr); gap: 2.75rem; padding-block: 1.8rem 1rem; }
+.toc { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 1rem); align-self: start; }
+.toc h2 { font-family: var(--font-label); font-size: .82rem; letter-spacing: .08em; color: var(--ink-soft); margin: 0 0 .5rem; }
+.toc ol { list-style: none; margin: 0; padding: 0; display: grid; gap: .2rem; counter-reset: c; }
+.toc li { counter-increment: c; }
+.toc a { display: grid; grid-template-columns: 1.6rem minmax(0, 1fr); text-decoration: none; color: var(--ink-soft); font-size: .95rem; padding: .15rem 0; border-left: 2px solid transparent; padding-left: .5rem; }
+.toc a::before { content: counter(c); font-family: var(--font-label); font-size: .8rem; color: var(--ink-soft); padding-top: .15rem; }
+.toc a:hover, .toc a[aria-current="true"] { color: var(--ink); border-left-color: var(--rubric); }
+.chapters { min-width: 0; display: grid; gap: 0; }
+.ch { padding-block: 0 2.2rem; scroll-margin-top: 1rem; }
+.ch + .ch { border-top: 1px solid var(--rule); padding-top: 1.8rem; }
+.ch h2 { font-size: clamp(1.6rem, 3vw, 2rem); margin: 0 0 .9rem; }
+.ch > p { max-width: 42rem; margin: 0 0 .9rem; }
+.ch .lead { font-size: 1.08rem; }
+.principles { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem 1.6rem; }
+.principles li { border-left: 2px solid var(--rubric); padding-left: .9rem; }
+.principles b { display: block; font-family: var(--font-display); font-weight: 400; font-size: 1.25rem; margin-bottom: .15rem; }
+.principles span { font-size: .95rem; color: var(--ink-soft); }
+.pipe { list-style: none; margin: 0; padding: 0; display: grid; gap: 0; counter-reset: p -1; }
+.pipe li { counter-increment: p; display: grid; grid-template-columns: 3rem minmax(0, 1fr); gap: 1rem; padding-block: .9rem; border-top: 1px solid var(--rule); }
+.pipe li:first-child { border-top: 0; padding-top: 0; }
+.pipe li::before { content: counter(p); font-family: var(--font-display); font-size: 2rem; line-height: 1; color: var(--rubric); text-align: right; }
+.pipe h3 { font-size: 1.3rem; margin: 0 0 .25rem; }
+.pipe p { margin: 0 0 .35rem; max-width: 42rem; }
+.pipe .out { font-family: var(--font-label); font-size: .84rem; letter-spacing: .04em; color: var(--lapis); }
+.pipe .who { font-family: var(--font-label); font-size: .84rem; letter-spacing: .04em; color: var(--ink-soft); }
+.step { background: var(--panel); border: 1px solid var(--rule); padding: .9rem 1rem; display: flex; flex-direction: column; gap: .35rem; min-width: 0; }
+.step .badge { font-family: var(--font-label); font-size: .82rem; letter-spacing: .05em; align-self: start; padding: .05rem .55rem; border: 1px solid var(--lapis); color: var(--lapis); }
+.step.s1 .badge { border-color: var(--rule); color: var(--ink-soft); }
+.step.s4 .badge { background: var(--lapis); color: var(--leaf); }
+.step b { font-weight: 400; font-family: var(--font-display); font-size: 1.15rem; }
+.step p { margin: 0; font-size: .93rem; }
+.step .rely { font-size: .88rem; color: var(--ink-soft); margin-top: auto; padding-top: .4rem; border-top: 1px dashed var(--rule); }
+.tbl-wrap { overflow-x: auto; border: 1px solid var(--rule); }
+table.t { border-collapse: collapse; width: 100%; min-width: 36rem; font-size: .95rem; }
+.t th, .t td { padding: .55rem .75rem; border-bottom: 1px solid var(--rule); text-align: left; vertical-align: top; }
+.t thead th { font-family: var(--font-label); font-weight: 700; font-size: .84rem; letter-spacing: .05em; color: var(--ink-soft); background: var(--panel); }
+.t td:first-child { font-family: var(--font-label); font-size: .9rem; letter-spacing: .04em; color: var(--rubric); white-space: nowrap; }
+.t tr:last-child td { border-bottom: 0; }
+.evidence { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin-bottom: 1rem; }
+.fig { background: var(--panel); border: 1px solid var(--rule); padding: .9rem 1rem; }
+.fig .num { font-family: var(--font-display); font-size: 2rem; line-height: 1.05; color: var(--ink); font-variant-numeric: tabular-nums; }
+.fig .num small { font-size: 1rem; color: var(--ink-soft); }
+.fig p { margin: .3rem 0 0; font-size: .92rem; color: var(--ink-soft); }
+.src { font-size: .88rem; color: var(--ink-soft); }
+.fields { margin: 0; display: grid; grid-template-columns: 11rem minmax(0, 1fr); gap: .4rem 1.2rem; font-size: .95rem; }
+.fields dt { font-family: var(--font-label); font-size: .88rem; letter-spacing: .04em; color: var(--ink-soft); }
+.fields dd { margin: 0; }
+.statement { background: var(--panel); border-left: 3px solid var(--rubric); padding: .9rem 1.1rem; margin: 0 0 1rem; max-width: 46rem; }
+.statement p { margin: 0 0 .5rem; }
+.statement p:last-child { margin: 0; }
+.statement .label { display: block; font-size: .8rem; color: var(--ink-soft); margin-bottom: .3rem; }
+.copy { font: inherit; font-size: .85rem; padding: .2rem .7rem; cursor: pointer; border: 1px solid var(--rule); background: var(--wash); color: var(--ink); margin-top: .3rem; }
+.board { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .8rem; }
+.board li { background: var(--panel); border: 1px solid var(--rule); padding: .8rem .9rem; }
+.board b { display: block; font-weight: 400; font-family: var(--font-display); font-size: 1.15rem; }
+.board span { font-size: .9rem; color: var(--ink-soft); }
+@media (max-width: 1020px) {
+  .board { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 880px) {
+  .doc { grid-template-columns: minmax(0, 1fr); gap: 1.2rem; }
+  .toc { position: static; border-bottom: 1px solid var(--rule); padding-bottom: 1rem; }
+  .toc ol { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 1rem; }
+  .evidence { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 600px) {
+  .foot, .principles, .ladder, .board, .toc ol { grid-template-columns: minmax(0, 1fr); }
+  .fields { grid-template-columns: minmax(0, 1fr); gap: 0; }
+  .fields dt { margin-top: .5rem; }
+  .pipe li { grid-template-columns: 2rem minmax(0, 1fr); gap: .7rem; }
+}

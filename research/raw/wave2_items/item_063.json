@@ -1,0 +1,25 @@
+{
+ "corpus": "greek-historiography",
+ "title": "Excerpta Latina Barbari (Barbarus Scaligeri; 'Alexandrian World Chronicle')",
+ "author": "Anonymous Alexandrian compiler; anonymous Frankish translator",
+ "date": "Greek original 527–539 CE; Latin version 8th c.",
+ "language": "Vulgar Latin (from lost Greek)",
+ "genre": "World chronicle with king-lists",
+ "size": "63 folios, est. 20–25k words",
+ "edition": "Frick, Chronica minora I (1892; public domain). Schoene 1875 (public domain)",
+ "ru_status": "none",
+ "ru_evidence": "ru.wikipedia (Excerpta Latina Barbari) cites only Western scholarship. No Russian translation listed or found",
+ "en_status": "full",
+ "en_evidence": "B. Garstad, Apocalypse of Pseudo-Methodius: An Alexandrian World Chronicle (DOML, HUP 2012), per en.wikipedia",
+ "other_translations": "None found",
+ "value": "Ptolemaic, Seleucid and Macedonian king-lists from Africanus, Alexander and Nebuchadnezzar narratives, and Alexandrian prefects. Shows how late antiquity transmitted Hellenistic history; fits the Alexander tradition.",
+ "audience": "specialist",
+ "ai_feasibility": "Medium: the barbarous Latin needs reconstruction of the Greek behind it, which makes it a good test of multi-model review",
+ "pilot_unit": "King-lists from Assyria to the Ptolemies, including the Alexander passage, est. 5k words",
+ "preliminary_priority": 3,
+ "sources": [
+  "https://ru.wikipedia.org/wiki/Excerpta_Latina_Barbari",
+  "https://en.wikipedia.org/wiki/Excerpta_Latina_Barbari"
+ ],
+ "id": "item_063"
+}

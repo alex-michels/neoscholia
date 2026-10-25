@@ -1,0 +1,27 @@
+{
+ "corpus": "greek-scholia",
+ "title": "Ioannes Tzetzes, Commentary (scholia) on Lycophron's Alexandra / Иоанн Цец, Комментарий к «Александре» Ликофрона",
+ "author": "John Tzetzes (formerly attributed to his brother Isaac), with older scholia",
+ "date": "12th c.",
+ "language": "Byzantine (learned) Greek",
+ "genre": "Running commentary / scholia",
+ "size": "Scheer vol. II (1908): lxiv + 398 pp. (est. ~150k words).",
+ "edition": "Scheer 1881/1908 (Weidmann), PD. Leone 2002 (Congedo) for the old scholia and paraphrases.",
+ "ru_status": "none",
+ "ru_evidence": "Ancientrome.ru Lycophron page has Surikov's Alexandra translation and Kaukhchishvili's article on Lycophron's scholiasts, but no translation of the commentary. Ru-wiki 'Иоанн Цец' lists none.",
+ "en_status": "partial",
+ "en_evidence": "ToposText work 860 carries a ChatGPT-4 machine translation of Scheer, self-described as done 'with more speed than accuracy'. There is no scholarly English translation.",
+ "other_translations": "No modern translation listed in Cuypers' Hellenistic Bibliography; only Canter's Latin edition of 1601.",
+ "value": "The key to the most obscure Hellenistic poem and a huge mythographic thesaurus with lost authors. It complements Surikov's Russian Alexandra. Setting a vetted multi-model translation beside the raw ChatGPT draft would showcase Neoscholia's method.",
+ "audience": "humanities",
+ "ai_feasibility": "Medium. Tzetzes' allusive Byzantine prose, polemics and dense quotations are hard. The existing machine draft offers a baseline for measurable gains from cross-model review.",
+ "pilot_unit": "Tzetzes' prolegomena plus commentary on Alexandra 1–100; est. ~12k words.",
+ "preliminary_priority": 4,
+ "sources": [
+  "https://topostext.org/work/860",
+  "https://ancientrome.ru/antlitr/lykophron/index.htm",
+  "https://sites.google.com/site/hellenisticbibliography/hellenistic/lycophron",
+  "https://ru.wikipedia.org/wiki/Иоанн_Цец"
+ ],
+ "id": "item_109"
+}

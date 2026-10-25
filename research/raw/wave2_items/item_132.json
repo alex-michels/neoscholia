@@ -1,0 +1,26 @@
+{
+ "corpus": "latin-late-antique",
+ "title": "Q. Aurelius Symmachus, Epistulae (Letters, Books 1–10) / RU: Симмах, «Письма»",
+ "author": "Q. Aurelius Symmachus (c. 345–402)",
+ "date": "c. 365–402 CE; edited after his death by his son",
+ "language": "Latin",
+ "genre": "Aristocratic letter collection",
+ "size": "c. 900 letters; est. 100k+ words. Book 2 = 91 letters to Nicomachus Flavianus",
+ "edition": "Seeck, MGH AA 6.1 (1883), public domain: https://archive.org/details/qaureliisymmach00seecgoog. Callu, Budé (1972–2002)",
+ "ru_status": "partial",
+ "ru_evidence": "ru.wikipedia lists only Relatio 3 (Ranovich 1990) and a few letters (Strelnikova, Памятники позднего античного ораторского и эпистолярного искусства, 1964, pp. 205–212). Not on vostlit or ancientrome.",
+ "en_status": "partial",
+ "en_evidence": "Book 1 only: Salzman & Roberts, The Letters of Symmachus (SBL 2011; Open Library). Relationes: Barrow 1973. en.wikipedia: 'little of his work has been translated into English'.",
+ "other_translations": "French complete: Callu, Budé, 4 vols. Italian commentary volumes by book: Cecconi II, Pellizzari III, Marcone IV and VI, Rivolta Tiberga V, Roda IX.",
+ "value": "A central source for the pagan senatorial elite and Theodosian politics (the era of the Altar of Victory dispute), for prosopography (PLRE) and for late Latin epistolography. Books 2–9 are closed to Russian and English readers.",
+ "audience": "humanities",
+ "ai_feasibility": "medium: short, allusive, formulaic friendship letters. Needs prosopographical and dating control; the French and Italian versions can be used for checking.",
+ "pilot_unit": "Book 2 (91 letters to Virius Nicomachus Flavianus; est. 8–10k words; no English translation)",
+ "preliminary_priority": 5,
+ "sources": [
+  "https://ru.wikipedia.org/wiki/Квинт_Аврелий_Симмах",
+  "https://en.wikipedia.org/wiki/Quintus_Aurelius_Symmachus",
+  "https://openlibrary.org/search?q=Symmachus+letters"
+ ],
+ "id": "item_132"
+}

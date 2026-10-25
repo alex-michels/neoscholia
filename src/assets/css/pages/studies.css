@@ -1,0 +1,51 @@
+/* Layout: the shared reading sheet. Intro → three research tracks → filterable list of studies
+   (each tied to the texts it rests on) → yearbook, open data, call for collaborators → footer. */
+a:focus-visible, button:focus-visible, select:focus-visible { outline: 2px solid var(--lapis); outline-offset: 2px; }
+.intro { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); gap: 2.5rem; padding-block: .4rem 2rem; align-items: start; }
+.intro h1 { font-size: clamp(2.3rem, 5vw, 3.4rem); line-height: 1.05; margin: .3rem 0 .9rem; }
+.intro p { margin: 0 0 .9rem; max-width: 40rem; }
+.rule-box { background: var(--panel); border: 1px solid var(--rule); padding: 1rem 1.2rem; }
+.rule-box h2 { font-family: var(--font-label); font-weight: 700; font-size: .85rem; letter-spacing: .07em; color: var(--ink-soft); margin: 0 0 .6rem; }
+.rule-box ol { margin: 0; padding-left: 1.2rem; display: grid; gap: .45rem; font-size: .96rem; }
+.block { border-top: 1px solid var(--rule); padding-block: 2rem 2.2rem; }
+.block-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: .4rem 1.5rem; margin-bottom: 1.1rem; }
+.block-head h2 { font-size: clamp(1.6rem, 3vw, 2.1rem); margin: 0; }
+.block-head p { margin: 0; color: var(--ink-soft); font-size: .95rem; max-width: 38rem; }
+.tracks { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.4rem; }
+.track { border-top: 3px solid var(--ink); padding-top: .8rem; }
+.track h3 { font-size: 1.4rem; margin: 0 0 .3rem; }
+.track p { margin: 0 0 .5rem; font-size: .96rem; }
+.track .n { font-family: var(--font-label); font-size: .85rem; letter-spacing: .04em; color: var(--ink-soft); }
+.filters { display: flex; flex-wrap: wrap; gap: .4rem; align-items: center; margin-bottom: 1.2rem; }
+.filters button { font-family: var(--font-label); font-size: .88rem; letter-spacing: .04em; padding: .25rem .75rem; cursor: pointer; background: var(--panel); color: var(--ink-soft); border: 1px solid var(--rule); }
+.filters button[aria-pressed="true"] { background: var(--ink); color: var(--leaf); border-color: var(--ink); }
+.filters .sep { width: 1px; align-self: stretch; background: var(--rule); margin-inline: .3rem; }
+.list { list-style: none; margin: 0; padding: 0; }
+.study { display: grid; grid-template-columns: 10rem minmax(0, 1fr) 8.5rem; gap: .4rem 1.6rem; padding-block: 1.1rem; border-top: 1px solid var(--rule); }
+.study:first-child { border-top: 0; padding-top: .2rem; }
+.study .where { font-family: var(--font-label); font-size: .84rem; letter-spacing: .04em; color: var(--ink-soft); display: grid; gap: .15rem; align-content: start; }
+.study .where a { color: var(--ink-soft); }
+.study h3 { font-size: 1.3rem; margin: 0 0 .3rem; line-height: 1.25; }
+.study h3 a { color: var(--ink); text-decoration-color: var(--rule); }
+.study h3 a:hover { color: var(--rubric); }
+.study p { margin: 0 0 .45rem; max-width: 44rem; font-size: .97rem; }
+.study .on { font-size: .88rem; color: var(--ink-soft); }
+.study .on a { color: var(--lapis); }
+.study .state { justify-self: end; text-align: right; display: grid; gap: .25rem; align-content: start; }
+.pill { font-family: var(--font-label); font-size: .78rem; letter-spacing: .04em; padding: .05rem .5rem; border: 1px solid var(--rule); color: var(--ink-soft); white-space: nowrap; }
+.pill.work { color: var(--lapis); border-color: var(--lapis); }
+.pill.kind { border-style: dashed; }
+.empty { color: var(--ink-soft); }
+.trio { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.4rem; }
+.panel { background: var(--panel); border: 1px solid var(--rule); padding: 1rem 1.15rem; display: flex; flex-direction: column; gap: .5rem; }
+.panel h3 { font-size: 1.3rem; margin: 0; }
+.panel p { margin: 0; font-size: .96rem; }
+.panel .small { font-size: .88rem; color: var(--ink-soft); margin-top: auto; padding-top: .5rem; border-top: 1px dashed var(--rule); }
+@media (max-width: 880px) {
+  .intro { grid-template-columns: minmax(0, 1fr); gap: 1.6rem; }
+  .tracks, .trio { grid-template-columns: minmax(0, 1fr); }
+  .study { grid-template-columns: minmax(0, 1fr); gap: .3rem; }
+  .study .where { grid-auto-flow: column; justify-content: start; gap: .8rem; }
+  .study .state { justify-self: start; text-align: left; grid-auto-flow: column; justify-content: start; }
+  .filters .sep { display: none; }
+}

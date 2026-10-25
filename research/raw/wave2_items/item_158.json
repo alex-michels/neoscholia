@@ -1,0 +1,28 @@
+{
+ "corpus": "philosophy",
+ "title": "Περὶ κοσμοποιίας / De opificio mundi — John Philoponus, On the Creation of the World (RU «О сотворении мира»); pilot Book III",
+ "author": "John Philoponus (Ioannes Grammaticus)",
+ "date": "c. 546–560 CE (dedicated to Sergius of Antioch)",
+ "language": "Greek",
+ "genre": "Christian-philosophical Hexaemeron commentary; cosmology",
+ "size": "7 books; Reichardt Teubner c. 300 pp.; est. 85–95k words (estimate)",
+ "edition": "Reichardt, Teubner 1897, public domain: https://archive.org/details/joannisphiliponi00philuoft. Scholten, Fontes Christiani 23 (1997), Greek–German, copyrighted.",
+ "ru_status": "partial",
+ "ru_evidence": "Excerpts only: Benevich, Антология восточно-христианской богословской мысли II (2009), pp. 55–62 (ruwiki Иоанн Филопон). Ogovitsin, commentary on IV.4, ΣΧΟΛΗ 20.2 (2026). No full translation found.",
+ "en_status": "none",
+ "en_evidence": "The enwiki article on Philoponus' De opificio lists only Reichardt and Scholten's German. An Open Library search returns only Teubner and Herder editions. No English translation found.",
+ "other_translations": "German: C. Scholten, Über die Erschaffung der Welt (Herder 1997, 3 vols). Other languages: none found.",
+ "value": "Philoponus' late Christian synthesis of Alexandrian science. It applies impetus dynamics to the heavens and to light and cosmography, and attacks Theodore of Mopsuestia's (and Cosmas') cosmos. A key text for history of science and theology, Byzantine exegesis and the reception of Basil's Hexaemeron.",
+ "audience": "humanities",
+ "ai_feasibility": "High. Clear technical prose, a public-domain Greek text, and abundant parallels (CAG, Basil). Risks: dense scientific terminology and the Antiochene polemical context. The German version can serve for cross-checking.",
+ "pilot_unit": "Book III (firmament, Gen 1:6–8; critique of the tabernacle-shaped cosmos), about 12–15k words (estimate). Alternative: prooemium plus Book I.",
+ "preliminary_priority": 5,
+ "sources": [
+  "https://en.wikipedia.org/wiki/De_opificio_mundi_(John_Philoponus)",
+  "https://ru.wikipedia.org/wiki/Иоанн_Филопон",
+  "https://archive.org/details/joannisphiliponi00philuoft",
+  "https://openlibrary.org/search?q=Philoponus+opificio",
+  "https://classics.nsu.ru/schole/"
+ ],
+ "id": "item_158"
+}

@@ -1,0 +1,26 @@
+{
+ "corpus": "greek-technical",
+ "title": "Περὶ κράσεως καὶ δυνάμεως τῶν ἁπλῶν φαρμάκων — De simplicium medicamentorum temperamentis ac facultatibus (Simple Drugs); RU: Гален, «О смешении и силе простых лекарств»",
+ "author": "Galen of Pergamon",
+ "date": "late 2nd c. CE",
+ "language": "Greek (Attic-Koine scientific prose)",
+ "genre": "Pharmacological theory and materia medica",
+ "size": "11 books, Kühn XI 379–892 and XII 1–377 (c. 890 pp. with Latin); est. 130–150k Greek words",
+ "edition": "Only Kühn 1826 (Greek and Latin, public domain). Fichtner: CMG edition of Book IX in preparation (Martelli). Petit 2010: editio princeps of I.1–3.",
+ "ru_status": "none",
+ "ru_evidence": "Not in the ru.wikipedia Galen translation list (1971; Balalykin I–V, 2014–18; journal pieces). The contents of vols II–V were not checked in detail.",
+ "en_status": "none",
+ "en_evidence": "Fichtner Galen bibliography (BBAW 2023/12, no. 78) lists only Garofalo's 1985 sample and Petit's annotated French of I.1–3. No English.",
+ "other_translations": "French: Petit 2010 (I.1–3 only). German: Haars 2018 translates Oribasius' Collections XV, an excerpt of this work's drug catalogue.",
+ "value": "Galen's foundational theory of drug action (qualities and degrees) and antiquity's fullest critical pharmacopoeia. Book X (animal substances) includes his polemic against using human body parts as drugs. Core source for history of pharmacy, Arabic and Latin reception, material culture.",
+ "audience": "humanities",
+ "ai_feasibility": "theory books high; catalogue books medium-low. Zainaldin et al. 2026: LLM failures track rare pharmacological terms (r = −.97). Requires term-frequency flagging and multi-model review.",
+ "pilot_unit": "Book X (animal substances, incl. the polemic on human parts), est. 12–15k words. Avoids Book IX, now under CMG edition.",
+ "preliminary_priority": 4,
+ "sources": [
+  "https://cmg.bbaw.de/fileadmin/Webdateien/Dateien/Galen-Bibliographie.pdf",
+  "https://github.com/campattison/galen_project",
+  "https://ru.wikipedia.org/wiki/Гален"
+ ],
+ "id": "item_122"
+}

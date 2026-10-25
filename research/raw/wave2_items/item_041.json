@@ -1,0 +1,25 @@
+{
+ "corpus": "epigraphy-papyri",
+ "title": "Kaibel, Epigrammata Graeca ex lapidibus conlecta (1878); RU «Греческие стихотворные надписи»; pilot: Attic sepulchral epigrams nos. 1–178",
+ "author": "Anonymous verse inscriptions (ed. G. Kaibel)",
+ "date": "7th c. BC – 6th c. AD",
+ "language": "Greek (verse)",
+ "genre": "Epitaphs, dedications, honorific epigrams",
+ "size": "c. 1,150 numbered poems (index runs past 1130); est. 6–9k lines",
+ "edition": "Kaibel 1878 (public domain, archive.org epigrammatagraec00kaibuoft). For collation: CEG (Hansen), Peek GVI (1955), SGO (Merkelbach–Stauber 1998–2004), all copyrighted.",
+ "ru_status": "none",
+ "ru_evidence": "No corpus translation found. CyberLeninka ('греческие стихотворные эпитафии перевод') returned nothing relevant. Only scattered items, e.g. in Black Sea corpora.",
+ "en_status": "partial",
+ "en_evidence": "No English corpus translation found. Selections only in anthologies and studies (memory; not itemised).",
+ "other_translations": "German: SGO (East Greek, with translations); Peek, Griechische Grabgedichte (1960), a selection",
+ "value": "Inscribed epigram is the 'people's poetry' of Greece: grief, family, gender, status and afterlife beliefs. It is the indispensable counterpart to the Anthologia Palatina for the history of the genre. Russian readers have no corpus; strong appeal for students and the general public.",
+ "audience": "broad",
+ "ai_feasibility": "high: metrical, formulaic, well edited. Kaibel's 1878 supplements must be checked against CEG/IG; the commentary should flag restorations.",
+ "pilot_unit": "Kaibel 1–178 (section 'Sepulcralia: Attica'; no. 179 begins 'Insularum et Asiae'), est. c. 1,000 lines",
+ "preliminary_priority": 5,
+ "sources": [
+  "https://archive.org/details/epigrammatagraec00kaibuoft",
+  "https://cyberleninka.ru/"
+ ],
+ "id": "item_041"
+}

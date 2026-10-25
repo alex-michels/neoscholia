@@ -1,0 +1,362 @@
+<title>Исследования Neoscholia</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Forum&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400&family=Alegreya+Sans+SC:wght@500;700&display=swap">
+<style>
+/* Layout: the shared reading sheet. Intro → three research tracks → filterable list of studies
+   (each tied to the texts it rests on) → yearbook, open data, call for collaborators → footer. */
+:root {
+  --papyrus: #e7dcc4; --leaf: #fbf7ee; --panel: #f4ecdc;
+  --ink: #2b2219; --ink-soft: #6b5c4a;
+  --rubric: #a2361c; --lapis: #2f4b6e; --rule: #d9ccb1; --wash: #efe4cc;
+  --font-display: "Forum", "Times New Roman", serif;
+  --font-text: "Gentium Book Plus", "Gentium Plus", "Noto Serif", Georgia, serif;
+  --font-label: "Alegreya Sans SC", "Trebuchet MS", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --papyrus: #17130e; --leaf: #1f1a14; --panel: #262019; --ink: #e9dec7; --ink-soft: #b3a48b;
+    --rubric: #e08a6c; --lapis: #9db6d6; --rule: #3a3127; --wash: #2a231b; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --papyrus: #17130e; --leaf: #1f1a14; --panel: #262019; --ink: #e9dec7; --ink-soft: #b3a48b;
+  --rubric: #e08a6c; --lapis: #9db6d6; --rule: #3a3127; --wash: #2a231b; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--papyrus); color: var(--ink); font: 1.05rem/1.6 var(--font-text);
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0 2.5rem; }
+a { color: var(--lapis); text-underline-offset: .18em; }
+a:focus-visible, button:focus-visible, select:focus-visible { outline: 2px solid var(--lapis); outline-offset: 2px; }
+.wrap { max-width: 76rem; margin: 0 auto; background: var(--leaf); border: 1px solid var(--rule); border-top: 0; padding: 0 2.75rem; }
+.label { font-family: var(--font-label); letter-spacing: .06em; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 400; text-wrap: balance; }
+
+/* header (shared) */
+.site { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .75rem 2rem; padding-block: 1.1rem .9rem; border-bottom: 1px solid var(--rule); }
+.brand { display: flex; flex-direction: column; text-decoration: none; color: var(--ink); line-height: 1.1; }
+.brand b { font-family: var(--font-display); font-weight: 400; font-size: 1.75rem; letter-spacing: .06em; }
+.brand b span { color: var(--rubric); }
+.brand small { font-size: .85rem; color: var(--ink-soft); }
+.site nav { display: flex; flex-wrap: wrap; gap: .3rem 1.4rem; font-family: var(--font-label); font-size: 1rem; letter-spacing: .04em; }
+.site nav a { color: var(--ink-soft); text-decoration: none; padding-block: .15rem; }
+.site nav a[aria-current] { color: var(--ink); border-bottom: 1px solid var(--rubric); }
+.lang { display: inline-flex; border: 1px solid var(--rule); font-family: var(--font-label); font-size: .85rem; }
+.lang span, .lang button { padding: .15rem .55rem; font: inherit; border: 0; background: transparent; color: var(--ink-soft); }
+.lang span { background: var(--ink); color: var(--leaf); }
+.lang button { cursor: not-allowed; border-left: 1px solid var(--rule); }
+.mock { margin-top: 1rem; background: var(--wash); border: 1px dashed var(--rule); padding: .55rem .9rem; font-size: .9rem; color: var(--ink-soft); }
+.mock b { color: var(--ink); }
+
+/* intro */
+.crumbs { margin-top: 1.5rem; font-family: var(--font-label); font-size: .9rem; letter-spacing: .04em; color: var(--ink-soft); }
+.crumbs a { color: var(--ink-soft); }
+.intro { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); gap: 2.5rem; padding-block: .4rem 2rem; align-items: start; }
+.intro h1 { font-size: clamp(2.3rem, 5vw, 3.4rem); line-height: 1.05; margin: .3rem 0 .9rem; }
+.intro p { margin: 0 0 .9rem; max-width: 40rem; }
+.rule-box { background: var(--panel); border: 1px solid var(--rule); padding: 1rem 1.2rem; }
+.rule-box h2 { font-family: var(--font-label); font-weight: 700; font-size: .85rem; letter-spacing: .07em; color: var(--ink-soft); margin: 0 0 .6rem; }
+.rule-box ol { margin: 0; padding-left: 1.2rem; display: grid; gap: .45rem; font-size: .96rem; }
+
+.block { border-top: 1px solid var(--rule); padding-block: 2rem 2.2rem; }
+.block-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: .4rem 1.5rem; margin-bottom: 1.1rem; }
+.block-head h2 { font-size: clamp(1.6rem, 3vw, 2.1rem); margin: 0; }
+.block-head p { margin: 0; color: var(--ink-soft); font-size: .95rem; max-width: 38rem; }
+
+/* tracks */
+.tracks { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.4rem; }
+.track { border-top: 3px solid var(--ink); padding-top: .8rem; }
+.track h3 { font-size: 1.4rem; margin: 0 0 .3rem; }
+.track p { margin: 0 0 .5rem; font-size: .96rem; }
+.track .n { font-family: var(--font-label); font-size: .85rem; letter-spacing: .04em; color: var(--ink-soft); }
+
+/* filters + list */
+.filters { display: flex; flex-wrap: wrap; gap: .4rem; align-items: center; margin-bottom: 1.2rem; }
+.filters button { font-family: var(--font-label); font-size: .88rem; letter-spacing: .04em; padding: .25rem .75rem; cursor: pointer; background: var(--panel); color: var(--ink-soft); border: 1px solid var(--rule); }
+.filters button[aria-pressed="true"] { background: var(--ink); color: var(--leaf); border-color: var(--ink); }
+.filters .sep { width: 1px; align-self: stretch; background: var(--rule); margin-inline: .3rem; }
+.list { list-style: none; margin: 0; padding: 0; }
+.study { display: grid; grid-template-columns: 10rem minmax(0, 1fr) 8.5rem; gap: .4rem 1.6rem; padding-block: 1.1rem; border-top: 1px solid var(--rule); }
+.study:first-child { border-top: 0; padding-top: .2rem; }
+.study .where { font-family: var(--font-label); font-size: .84rem; letter-spacing: .04em; color: var(--ink-soft); display: grid; gap: .15rem; align-content: start; }
+.study .where a { color: var(--ink-soft); }
+.study h3 { font-size: 1.3rem; margin: 0 0 .3rem; line-height: 1.25; }
+.study h3 a { color: var(--ink); text-decoration-color: var(--rule); }
+.study h3 a:hover { color: var(--rubric); }
+.study p { margin: 0 0 .45rem; max-width: 44rem; font-size: .97rem; }
+.study .on { font-size: .88rem; color: var(--ink-soft); }
+.study .on a { color: var(--lapis); }
+.study .state { justify-self: end; text-align: right; display: grid; gap: .25rem; align-content: start; }
+.pill { font-family: var(--font-label); font-size: .78rem; letter-spacing: .04em; padding: .05rem .5rem; border: 1px solid var(--rule); color: var(--ink-soft); white-space: nowrap; }
+.pill.work { color: var(--lapis); border-color: var(--lapis); }
+.pill.kind { border-style: dashed; }
+.empty { color: var(--ink-soft); }
+
+/* lower blocks */
+.trio { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.4rem; }
+.panel { background: var(--panel); border: 1px solid var(--rule); padding: 1rem 1.15rem; display: flex; flex-direction: column; gap: .5rem; }
+.panel h3 { font-size: 1.3rem; margin: 0; }
+.panel p { margin: 0; font-size: .96rem; }
+.panel .small { font-size: .88rem; color: var(--ink-soft); margin-top: auto; padding-top: .5rem; border-top: 1px dashed var(--rule); }
+
+/* footer (shared) */
+.foot { border-top: 2px solid var(--ink); margin-top: .5rem; padding-block: 1.6rem 1.4rem; display: grid; grid-template-columns: 1.4fr repeat(3, minmax(0, 1fr)); gap: 1.5rem 2rem; font-size: .93rem; }
+.foot h2 { font-family: var(--font-label); font-size: .85rem; letter-spacing: .08em; color: var(--ink-soft); margin: 0 0 .5rem; }
+.foot ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .3rem; }
+.foot a { color: var(--ink); text-decoration: none; }
+.foot a:hover { color: var(--rubric); text-decoration: underline; }
+.foot .about p { margin: 0 0 .6rem; color: var(--ink-soft); }
+.foot .about b { font-family: var(--font-display); font-weight: 400; font-size: 1.4rem; color: var(--ink); display: block; margin-bottom: .3rem; }
+.colophon { border-top: 1px solid var(--rule); padding-block: .9rem 1.2rem; display: flex; flex-wrap: wrap; justify-content: space-between; gap: .4rem 1.5rem; font-size: .85rem; color: var(--ink-soft); }
+
+@media (max-width: 1020px) { .foot { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 880px) {
+  .intro { grid-template-columns: minmax(0, 1fr); gap: 1.6rem; }
+  .tracks, .trio { grid-template-columns: minmax(0, 1fr); }
+  .wrap { padding: 0 1.5rem; }
+  .study { grid-template-columns: minmax(0, 1fr); gap: .3rem; }
+  .study .where { grid-auto-flow: column; justify-content: start; gap: .8rem; }
+  .study .state { justify-self: start; text-align: left; grid-auto-flow: column; justify-content: start; }
+  .filters .sep { display: none; }
+}
+@media (max-width: 600px) {
+  .wrap { padding: 0 1rem; }
+  .foot { grid-template-columns: minmax(0, 1fr); }
+}
+</style>
+
+<div class="wrap">
+  <header class="site">
+    <a class="brand" href="https://claude.ai/artifact/Sxv32gV4SoYwPGMXD1UYHD" aria-label="Neoscholia — на главную">
+      <b>Neo<span>·</span>scholia</b>
+      <small><span lang="grc">νέα σχόλια</span> · новые схолии к непереведённой античности</small>
+    </a>
+    <nav aria-label="Разделы сайта">
+      <a href="https://claude.ai/artifact/Sxv32gV4SoYwPGMXD1UYHD">Библиотека</a>
+      <a href="#top" aria-current="page">Исследования</a>
+      <a href="https://claude.ai/artifact/LUNNJwceDXYWoepQJWmVVL">Метод</a>
+      <a href="https://claude.ai/artifact/WNygYEn7HeTq5PbrvPt2BF">О проекте</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Язык интерфейса"><span>RU</span><button type="button" disabled title="Английская версия интерфейса появится позже">EN</button></div>
+  </header>
+
+  <p class="mock"><b>Макет страницы.</b> Опубликованных исследований пока нет. Перечислены работы, которые вырастают из первых переводов библиотеки; «в работе» — те, что связаны с пилотными текстами.</p>
+
+  <main id="top">
+    <div class="crumbs"><a href="https://claude.ai/artifact/Sxv32gV4SoYwPGMXD1UYHD">Библиотека</a> › Исследования</div>
+
+    <section class="intro" aria-labelledby="h1">
+      <div>
+        <h1 id="h1">Исследования</h1>
+        <p>Первый перевод открывает текст, который почти никто не читал целиком. Из него вырастают вопросы: откуда сведения, как устроена традиция, что меняет новая находка. Здесь собраны работы, которые мы пишем на материале переводов библиотеки.</p>
+        <p>Статьи публикуются здесь: от досье источников и препринта до окончательной версии. Вся история правок открыта.</p>
+      </div>
+      <aside class="rule-box" aria-labelledby="rules-h">
+        <h2 id="rules-h">Как связаны перевод и статья</h2>
+        <ol>
+          <li>Перевод публикуется в библиотеке с версией и DOI.</li>
+          <li>Статья ссылается на эту версию и добавляет то, чего нет в переводе: анализ, новые выводы.</li>
+          <li>Роль ИИ раскрыта на странице статьи; цитаты сверены человеком.</li>
+        </ol>
+      </aside>
+    </section>
+
+    <section class="block" aria-labelledby="tr-h">
+      <div class="block-head"><h2 id="tr-h">Три направления</h2></div>
+      <div class="tracks">
+        <div class="track"><h3>Статьи по текстам</h3><p>Исторические и филологические работы о том, что сообщают впервые переведённые тексты.</p><span class="n" id="n-text"></span></div>
+        <div class="track"><h3>Методология</h3><p>Как модели переводят древние языки, где ошибаются и что ловит перекрёстная проверка.</p><span class="n" id="n-method"></span></div>
+        <div class="track"><h3>Данные</h3><p>Открытый корпус: оригиналы, переводы, журналы рецензии — для тех, кто хочет проверить или продолжить.</p><span class="n" id="n-data"></span></div>
+      </div>
+    </section>
+
+    <section class="block" aria-labelledby="list-h">
+      <div class="block-head">
+        <h2 id="list-h">Работы</h2>
+        <p>Каждая работа опирается на конкретные тексты библиотеки — они указаны под описанием.</p>
+      </div>
+      <div class="filters" role="group" aria-label="Фильтр работ">
+        <button type="button" data-sec="all" aria-pressed="true">Все разделы</button>
+        <button type="button" data-sec="alex" aria-pressed="false">Роман об Александре</button>
+        <button type="button" data-sec="sch" aria-pressed="false">Схолии</button>
+        <button type="button" data-sec="mus" aria-pressed="false">Музыка</button>
+        <button type="button" data-sec="met" aria-pressed="false">Метод</button>
+        <span class="sep" aria-hidden="true"></span>
+        <button type="button" data-st="work" aria-pressed="false" id="only-work">Только «в работе»</button>
+      </div>
+
+      <ol class="list" id="list">
+        <li class="study" data-sec="sch" data-kind="text" data-st="work">
+          <div class="where"><a href="https://claude.ai/artifact/HqyqE2tpQepFtVvpu58bdZ">Схолии</a><span>статья</span></div>
+          <div><h3><a href="https://claude.ai/artifact/1cgGFnmeuFMRZKJK2XR8Nc">Пергам против Александрии? Кратет, Аристарх и «короткие ночи» лестригонов</a></h3>
+            <p>Из толкователей схолии к Од. 10.86 называют только Кратета: он видел в стихе указание на крайний север и, судя по схолии к Арату, сам связал его с «головой Дракона» у Арата. Мнение Аристарха об этих стихах не сохранилось; спор двух школ здесь приходится реконструировать.</p>
+            <p class="on">На основе: <a href="https://claude.ai/artifact/KBXAd7KtUgWioncxPUnJ77">схолии к «Одиссее», песнь X</a> · <a href="https://claude.ai/artifact/1cgGFnmeuFMRZKJK2XR8Nc">читать препринт</a></p></div>
+          <div class="state"><span class="pill work">препринт 0.1</span></div>
+        </li>
+        <li class="study" data-sec="sch" data-kind="text" data-st="work">
+          <div class="where"><a href="https://claude.ai/artifact/HqyqE2tpQepFtVvpu58bdZ">Схолии</a><span>статья</span></div>
+          <div><h3>Конец «Одиссеи»: античный спор о стихе 23.296</h3>
+            <p>Аристофан Византийский и Аристарх считали этот стих «концом» поэмы. Собираем всё, что сохранили об этом схолии, Аристоник и Евстафий, и впервые переводим.</p>
+            <p class="on">На основе: досье «Конец „Одиссеи“» (готовится)</p></div>
+          <div class="state"><span class="pill work">в работе</span></div>
+        </li>
+        <li class="study" data-sec="sch" data-kind="text" data-st="idea">
+          <div class="where"><a href="https://claude.ai/artifact/HqyqE2tpQepFtVvpu58bdZ">Схолии</a><span>статья</span></div>
+          <div><h3>Евстафий читает «О пещере нимф» Порфирия</h3>
+            <p>Как византийский комментатор XII в. пересказывает и сокращает неоплатоническую аллегорию в комментарии к Од. 13.96–112.</p>
+            <p class="on">На основе: Евстафий, комментарий к песни XIII (готовится)</p></div>
+          <div class="state"><span class="pill">замысел</span></div>
+        </li>
+
+        <li class="study" data-sec="alex" data-kind="text" data-st="work">
+          <div class="where"><a href="https://claude.ai/artifact/HTuCJke5U2X3XbBcPHJeWK">Роман об Александре</a><span>статья</span></div>
+          <div><h3>Каролингский эпитоматор за работой: эпитома Цахера и Юлий Валерий</h3>
+            <p>Что сокращает и что меняет эпитоматор VIII–IX вв. и почему именно его версия стала самой переписываемой латинской историей Александра до XII в.</p>
+            <p class="on">На основе: эпитома Юлия Валерия, кн. I (первый пилот)</p></div>
+          <div class="state"><span class="pill work">в работе</span></div>
+        </li>
+        <li class="study" data-sec="alex" data-kind="text" data-st="idea">
+          <div class="where"><a href="https://claude.ai/artifact/HTuCJke5U2X3XbBcPHJeWK">Роман об Александре</a><span>статья</span></div>
+          <div><h3>Редакция ε и византийский Александр</h3>
+            <p>Переработка VIII в.: Александр-монотеист, Иерусалим, Гог и Магог. Что ε добавляет к образу царя и как её материал переходит в редакцию γ.</p>
+            <p class="on">На основе: редакция ε (готовится)</p></div>
+          <div class="state"><span class="pill">замысел</span></div>
+        </li>
+        <li class="study" data-sec="alex" data-kind="text" data-st="idea">
+          <div class="where"><a href="https://claude.ai/artifact/HTuCJke5U2X3XbBcPHJeWK">Роман об Александре</a><span>статья</span></div>
+          <div><h3>«Римада» как свидетель утраченной редакции между α и β</h3>
+            <p>Holton выводил рифмованную повесть 1529 г. из утраченной греческой редакции, близкой к α. Проверяем этот вывод эпизод за эпизодом.</p>
+            <p class="on">На основе: «Римада» (готовится)</p></div>
+          <div class="state"><span class="pill">замысел</span></div>
+        </li>
+        <li class="study" data-sec="alex" data-kind="text" data-st="idea">
+          <div class="where"><a href="https://claude.ai/artifact/HTuCJke5U2X3XbBcPHJeWK">Роман об Александре</a><span>статья</span></div>
+          <div><h3>«Книга о смерти» и завещание Александра: история и вымысел</h3>
+            <p>Памфлет об отравлении и завещании царя в латинской эпитоме и в романе (α III.30–33, Юлий Валерий III): что в нём от историографии, что от политики диадохов.</p>
+            <p class="on">На основе: Мецская эпитома и «Книга о смерти» (готовится)</p></div>
+          <div class="state"><span class="pill">замысел</span></div>
+        </li>
+
+        <li class="study" data-sec="mus" data-kind="text" data-st="work">
+          <div class="where"><a href="https://claude.ai/artifact/WZmCFMo4TVrZBDsoT5KGyu">Музыка</a><span>статья</span></div>
+          <div><h3>Византийская школьная гармоника: от «Синопсиса» 1008 г. к Пахимеру</h3>
+            <p>Два учебника — XI в. и около 1300 г. Что они берут у Птолемея, Никомаха и Аристоксена и как меняется школьная подача гармоники.</p>
+            <p class="on">На основе: анонимный «Синопсис музыки» (первый пилот); Пахимер, «Гармоника» (готовится)</p></div>
+          <div class="state"><span class="pill work">в работе</span></div>
+        </li>
+        <li class="study" data-sec="mus" data-kind="text" data-st="idea">
+          <div class="where"><a href="https://claude.ai/artifact/WZmCFMo4TVrZBDsoT5KGyu">Музыка</a><span>статья</span></div>
+          <div><h3>Филодем против Диогена Вавилонского: спор об этосе музыки</h3>
+            <p>Эпикуреец и стоик спорят, действует ли музыка на душу. Реконструкция аргументов по книге IV «О музыке».</p>
+            <p class="on">На основе: Филодем, «О музыке», кн. IV (готовится)</p></div>
+          <div class="state"><span class="pill">замысел</span></div>
+        </li>
+        <li class="study" data-sec="mus" data-kind="text" data-st="idea">
+          <div class="where"><a href="https://claude.ai/artifact/WZmCFMo4TVrZBDsoT5KGyu">Музыка</a><span>статья</span></div>
+          <div><h3>Музыка в жизни эллинистического города</h3>
+            <p>Заказы гимнов и почётные декреты в Дельфах, контракты музыкантов в Египте, словарь инструментов Поллукса.</p>
+            <p class="on">На основе: дельфийские декреты, Поллукс IV (готовятся)</p></div>
+          <div class="state"><span class="pill">замысел</span></div>
+        </li>
+
+        <li class="study" data-sec="met" data-kind="method" data-st="work">
+          <div class="where"><a href="https://claude.ai/artifact/LUNNJwceDXYWoepQJWmVVL">Метод</a><span>методология</span></div>
+          <div><h3>Как мы проверяем ИИ-переводы: многомодельная рецензия на материале схолий</h3>
+            <p>Черновики моделей разных семейств, их взаимные рецензии и правки редактора на схолиях к «Одиссее» X: где ошибаются модели и что ловит перекрёстная проверка.</p>
+            <p class="on">На основе: <a href="https://claude.ai/artifact/KBXAd7KtUgWioncxPUnJ77">журнал рецензии схолий к «Одиссее» X</a></p></div>
+          <div class="state"><span class="pill work">в работе</span></div>
+        </li>
+        <li class="study" data-sec="met" data-kind="method" data-st="idea">
+          <div class="where"><a href="https://claude.ai/artifact/LUNNJwceDXYWoepQJWmVVL">Метод</a><span>методология</span></div>
+          <div><h3>С древнегреческого — прямо на русский: замер качества</h3>
+            <p>Насколько хорошо модели переводят с древнегреческого на русский по сравнению с английским. Опубликованных замеров для русского нам неизвестно.</p>
+            <p class="on">На основе: пилотные тексты библиотеки</p></div>
+          <div class="state"><span class="pill">замысел</span></div>
+        </li>
+        <li class="study" data-sec="met" data-kind="data" data-st="idea">
+          <div class="where"><a href="https://claude.ai/artifact/LUNNJwceDXYWoepQJWmVVL">Метод</a><span>данные</span></div>
+          <div><h3>Корпус Neoscholia: переводы и журналы рецензии</h3>
+            <p>Описание открытого корпуса: оригиналы, переводы на два языка, журналы рецензии; формат разметки и лицензии.</p>
+            <p class="on">На основе: все опубликованные версии</p></div>
+          <div class="state"><span class="pill">замысел</span></div>
+        </li>
+      </ol>
+      <p class="empty" id="empty" hidden>По этому фильтру работ нет.</p>
+    </section>
+
+    <section class="block trio" aria-label="Ежегодник, данные и сотрудничество">
+      <div class="panel">
+        <h3>«Neoscholia. Труды»</h3>
+        <p>Ежегодный сборник: статьи и избранные проверенные переводы с введениями. Выходит с ISBN, каждая статья — с DOI.</p>
+        <p class="small">Первый выпуск планируется после того, как в библиотеке будут подписанные редактором тексты.</p>
+      </div>
+      <div class="panel">
+        <h3>Открытые данные</h3>
+        <p>Оригиналы, переводы и журналы рецензии в формате TEI, с версиями. Журналы рецензии — без условий использования (CC0).</p>
+        <p class="small">Архив данных откроется вместе с первой подписанной версией.</p>
+      </div>
+      <div class="panel">
+        <h3>Пишите с нами</h3>
+        <p>Мы ищем соавторов: филологов-классиков, византинистов, востоковедов (особенно для сирийских, арабских и армянских текстов) и исследователей перевода с помощью ИИ.</p>
+        <p class="small">Ссылаясь на наши переводы, указывайте версию: <a href="https://claude.ai/artifact/LUNNJwceDXYWoepQJWmVVL#cite">как цитировать</a>.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot" id="footer">
+    <div class="about">
+      <b>Neoscholia</b>
+      <p>Независимая некоммерческая библиотека первых переводов античных текстов на русский и английский. Открытый доступ.</p>
+      <p>Переводы готовятся с помощью языковых моделей и проверяются редактором. Системы ИИ не являются авторами.</p>
+    </div>
+    <div><h2>Библиотека</h2><ul>
+      <li><a href="https://claude.ai/artifact/HTuCJke5U2X3XbBcPHJeWK">Роман об Александре</a></li>
+      <li><a href="https://claude.ai/artifact/HqyqE2tpQepFtVvpu58bdZ">Схолии</a></li>
+      <li><a href="https://claude.ai/artifact/WZmCFMo4TVrZBDsoT5KGyu">Музыка</a></li>
+      <li><a href="https://claude.ai/artifact/Sxv32gV4SoYwPGMXD1UYHD">Все тексты</a></li>
+    </ul></div>
+    <div><h2>О проекте</h2><ul>
+      <li><a href="https://claude.ai/artifact/LUNNJwceDXYWoepQJWmVVL#pipeline">Метод и замер качества</a></li>
+      <li><a href="https://claude.ai/artifact/LUNNJwceDXYWoepQJWmVVL">Редакционная хартия</a></li>
+      <li><a href="https://claude.ai/artifact/LUNNJwceDXYWoepQJWmVVL#ai">Роль ИИ</a></li>
+      <li><a href="https://claude.ai/artifact/WNygYEn7HeTq5PbrvPt2BF#team">Редакция и совет</a></li>
+      <li><a href="https://claude.ai/artifact/LUNNJwceDXYWoepQJWmVVL#corrections">Исправления</a></li>
+    </ul></div>
+    <div><h2>Использование</h2><ul>
+      <li>Переводы и комментарии — CC BY-NC-SA 4.0</li>
+      <li>Исходные тексты — общественное достояние</li>
+      <li>Журналы рецензии — CC0</li>
+      <li><a href="https://claude.ai/artifact/LUNNJwceDXYWoepQJWmVVL#cite">Как цитировать</a></li>
+    </ul></div>
+  </footer>
+  <div class="colophon"><span>© 2026 Neoscholia</span><span>ISSN и DOI — после регистрации</span><span>Связь с редакцией: форма появится при запуске</span></div>
+</div>
+
+<script>
+(function () {
+  var items = Array.prototype.slice.call(document.querySelectorAll('#list .study'));
+  var sec = 'all', onlyWork = false;
+  var workBtn = document.getElementById('only-work');
+  var empty = document.getElementById('empty');
+  function count(kind) { return items.filter(function (i) { return i.dataset.kind === kind; }).length; }
+  function word(n) { var m10 = n % 10, m100 = n % 100; return (m10 === 1 && m100 !== 11) ? 'работа' : (m10 >= 2 && m10 <= 4 && (m100 < 12 || m100 > 14)) ? 'работы' : 'работ'; }
+  [['n-text', 'text'], ['n-method', 'method'], ['n-data', 'data']].forEach(function (p) { var n = count(p[1]); document.getElementById(p[0]).textContent = n + ' ' + word(n) + ' в плане'; });
+  function apply() {
+    var shown = 0;
+    items.forEach(function (i) {
+      var ok = (sec === 'all' || i.dataset.sec === sec) && (!onlyWork || i.dataset.st === 'work');
+      i.hidden = !ok; if (ok) shown++;
+    });
+    empty.hidden = shown > 0;
+    document.querySelectorAll('.filters [data-sec]').forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.sec === sec)); });
+    workBtn.setAttribute('aria-pressed', String(onlyWork));
+  }
+  document.querySelector('.filters').addEventListener('click', function (e) {
+    var b = e.target.closest('button'); if (!b) return;
+    if (b === workBtn) onlyWork = !onlyWork; else sec = b.dataset.sec;
+    apply();
+  });
+  apply();
+})();
+</script>

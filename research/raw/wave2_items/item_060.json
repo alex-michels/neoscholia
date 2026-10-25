@@ -1,0 +1,25 @@
+{
+ "corpus": "greek-historiography",
+ "title": "John Zonaras, Epitome historiarum, Books I–VI; «Хроника» Иоанна Зонары, кн. I–VI",
+ "author": "John Zonaras",
+ "date": "c. 1120s–1140s",
+ "language": "Greek",
+ "genre": "Byzantine historical epitome (Jewish, Near Eastern, Persian and Macedonian history)",
+ "size": "Dindorf vol. I, est. 100k words",
+ "edition": "Dindorf, Teubner 1868 (public domain). Pinder, CSHB 1841 (public domain)",
+ "ru_status": "none",
+ "ru_evidence": "ru.wikipedia lists only a canon-law treatise in modern Russian (Bondach 2007). The chronicle exists only in medieval Slavonic",
+ "en_status": "none",
+ "en_evidence": "en.wikipedia lists only Banchich & Lane 2009 (12.15–13.19). Loeb Dio covers parts of 7–9. Nothing found for 1–6",
+ "other_translations": "Only Renaissance Latin, French and Italian",
+ "value": "A learned paraphrase of Josephus, Herodotus, Xenophon, Plutarch and Arrian, valuable for source criticism and the Byzantine reception of Persian and Alexander history. Books 7–9 are covered in the Dio candidate.",
+ "audience": "specialist",
+ "ai_feasibility": "High: Atticizing but regular Greek. Source parallels allow automated alignment checks",
+ "pilot_unit": "The Persian–Alexander section (Book IV), est. 6–8k words; book division to be verified",
+ "preliminary_priority": 3,
+ "sources": [
+  "https://ru.wikipedia.org/wiki/Иоанн_Зонара",
+  "https://en.wikipedia.org/wiki/Joannes_Zonaras"
+ ],
+ "id": "item_060"
+}

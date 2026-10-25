@@ -1,0 +1,27 @@
+{
+ "corpus": "christian-late-antique",
+ "title": "Liber promissionum et praedictorum Dei (Book of God's Promises and Predictions) / «Книга обетований и предсказаний Божиих»",
+ "author": "Quodvultdeus of Carthage (transmitted under Prosper's name)",
+ "date": "c. 445–451, Campania (exile)",
+ "language": "Latin",
+ "genre": "Typological exegesis / theology of history, apocalyptic",
+ "size": "3 parts + Dimidium temporis + Gloria sanctorum (c. 150 chapters); est. 45–55k words",
+ "edition": "Braun, SC 101–102 (1964) and CCSL 60 (1976); public-domain text in PL 51 (under Prosper)",
+ "ru_status": "none",
+ "ru_evidence": "Not in azbyka.ru author directory; ru.wikipedia 'Кводвультдеус' (wikitext checked) cites no translation; no Russian edition found",
+ "en_status": "none",
+ "en_evidence": "en.wikipedia lists only Braun SC; Open Library shows French and Italian only. English exists only for his creedal sermons (Finn, ACW 2004)",
+ "other_translations": "French: Braun, SC 101–102 (1964). Italian: Città Nuova (1989); Libreria Editrice Vaticana (2002)",
+ "value": "Written by Augustine's deacon, the exiled bishop of Carthage. It contains eyewitness notes on the Vandal conquest, Carthage's Caelestis temple, pagan cult, portents and Roman monuments, and is a key Augustinian theology of history. Used by historians of Vandal Africa, late paganism and apocalypticism.",
+ "audience": "humanities",
+ "ai_feasibility": "high: plain Latin prose with dense biblical citation that is easy to verify; public-domain source. Contemporary allusions need historical notes.",
+ "pilot_unit": "Part III (tempus gratiae), chs. 34–44 (incl. the Caelestis temple), plus Dimidium temporis; est. 10–12k words",
+ "preliminary_priority": 5,
+ "sources": [
+  "https://en.wikipedia.org/wiki/Quodvultdeus",
+  "https://ru.wikipedia.org/wiki/Кводвультдеус",
+  "https://openlibrary.org/search.json?q=quodvultdeus",
+  "https://azbyka.ru/otechnik/"
+ ],
+ "id": "item_018"
+}

@@ -1,0 +1,26 @@
+{
+ "corpus": "greek-scholia",
+ "title": "Scholia vetera in Apollonium Rhodium: unit Book 2 / Scholia to the Argonautica / Схолии к «Аргонавтике» Аполлония Родосского",
+ "author": "Anonymous; per the subscription, derived from Lucillus of Tarrha, Sophocleus and Theon",
+ "date": "1st c. BCE–2nd c. CE sources; MSS 10th c.+",
+ "language": "Ancient Greek",
+ "genre": "Scholia (mythography, geography, grammar)",
+ "size": "Wendel: xxvi + 401 pp. (est. ~140k words). Book 2: est. ~30k words.",
+ "edition": "Wendel 1935 (Weidmann). Wendel died 1951, so PD in RU/EU; US status needs checking. Keil 1854 (in Merkel's edition) is PD.",
+ "ru_status": "none",
+ "ru_evidence": "Ancientrome.ru catalogue has no Apollonius scholia. Ru-wiki 'Схолии' names them among important but untranslated corpora.",
+ "en_status": "none",
+ "en_evidence": "Cuypers' Hellenistic Bibliography lists only Lachenaud's French translation (2010), and BMCR 2014.12.27 likewise names only the French one. No English translation is listed.",
+ "other_translations": "French: Lachenaud, Scholies à Apollonios de Rhodes (Belles Lettres, Fragments 9, 2010; xlv + 576 pp.).",
+ "value": "A treasury of lost mythographers and historians (Pherecydes, Herodorus and others). Book 2 covers the Bosporus, the Pontic coast, the Amazons and Colchis: Black Sea ethnography of direct interest to Russian, Ukrainian and Georgian readers and archaeologists.",
+ "audience": "humanities",
+ "ai_feasibility": "High-medium. Clear explanatory prose, but many toponyms and source citations, so outputs need a gazetteer (e.g., ToposText/Pleiades) and fragment cross-checks.",
+ "pilot_unit": "Scholia to Book 2 (Amycus, Phineus, Symplegades, the Pontic periplus); est. ~30k words. Lines 2.1–647 (~12k words) would be a smaller pilot.",
+ "preliminary_priority": 5,
+ "sources": [
+  "https://sites.google.com/site/hellenisticbibliography/hellenistic/apollonius-of-rhodes",
+  "https://bmcr.brynmawr.edu/?p=30623",
+  "https://en.wikipedia.org/wiki/Argonautica"
+ ],
+ "id": "item_108"
+}

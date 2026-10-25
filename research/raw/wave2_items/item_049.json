@@ -1,0 +1,25 @@
+{
+ "corpus": "epigraphy-papyri",
+ "title": "Abinnaeus archive (P.Abinn.; Bell, Martin, Turner, van Berchem 1962); RU «Архив Абиннея»",
+ "author": "Flavius Abinnaeus (praefectus alae, Dionysias) and correspondents",
+ "date": "c. AD 340–351",
+ "language": "Greek (one Latin petition, from memory)",
+ "genre": "Petitions, letters, military-administrative documents",
+ "size": "83 HGV records; est. 10–12k words",
+ "edition": "Oxford 1962 (copyrighted; archive.org lending copy abinnaeusarchive0000hibe); papyri.info text (CC)",
+ "ru_status": "none",
+ "ru_evidence": "CyberLeninka 'Абинней' returned nothing relevant; HGV records no Russian translations",
+ "en_status": "unknown",
+ "en_evidence": "HGV lists external translations for only 5/83 and papyri.info hosts 2. Translations in the 1962 edition were not verified this session.",
+ "other_translations": "None recorded beyond the 5 HGV-listed items",
+ "value": "A self-contained snapshot of the late Roman army and village society under Constantius II: abuses, petitions, the officer's career. Valuable for late antique history teaching.",
+ "audience": "humanities",
+ "ai_feasibility": "medium-high: late koine, formulaic petitions; some damaged letters",
+ "pilot_unit": "Entire archive (83 texts)",
+ "preliminary_priority": 2,
+ "sources": [
+  "https://archive.org/details/abinnaeusarchive0000hibe",
+  "https://github.com/papyri/idp.data"
+ ],
+ "id": "item_049"
+}

@@ -1,0 +1,1019 @@
+[
+ {
+  "key": "ru-journals",
+  "report_markdown": "## Russian-language venues: annotated first translations and research articles (checked 2026-10-05)\n\n**Bottom line**\n- As of 2026-10-05 I found no binding Russian federal rule on AI in scholarly articles. What actually constrains Neoscholia is the policy of each journal or university, plus COPE.\n- Two Russian policies matter most:\n  - **SPbU** covers all SPbU journals, including Philologia Classica and Vestnik SPbU History ([policy](https://philclass.spbu.ru/about/AIPolicy)). AI-assisted work is allowed if it is disclosed in a separate paragraph of the introduction, and the disclosure template names \"перевод\" as a possible purpose. Authors must keep prompts, scripts and parameters and hand them over on request. AI may not write the text or its substantive sections \"without the author\". Reviewers may not use AI.\n  - **PSTGU** allows generative AI *only* to improve style and language ([policy](https://periodical.pstgu.ru/ru/publication-ai)). In practice this rules out LLM-made translations.\n- **Best fits for annotated first translations:**\n  - **Шаги/Steps** has rubrics «Переводы» and «Текст и комментарий», CC BY 4.0 and White List level 1. It is the only venue found that explicitly accepts texts already posted on personal or public sites that do not belong to another publisher ([policy](https://steps.ranepa.ru/jour/about/editorialPolicies)).\n  - **Аристей** has a rubric «Публикации» for new translations. It is free but indexed only in РИНЦ.\n  - **ΣΧΟΛΗ** has a Translations section and is in Scopus and WoS.\n  - **Историко-философский ежегодник** accepts \"научные переводы\".\n- **Research articles** (written by the editor, with AI only as a disclosed tool) fit ВДИ, Philologia Classica, Hyperboreus, ИЯКФ, Византийский временник, АДСВ and Вестник СПбГУ История.\n\n**Regulatory context (verified)**\n- **ГОСТ Р 71657-2024**, \"Технологии ИИ в образовании. Функциональная подсистема создания научных публикаций\", has been in force since 2025-01-01. It was developed by ВолГУ through ТК 164.\n  - It allows AI for collecting data, analysing the literature, formatting and choosing a journal.\n  - AI cannot be an author and must not replace human creative research ([ComNews](https://www.comnews.ru/content/235914/2024-10-25/2024-w43/1008/novyy-gost-razreshil-uchenym-ispolzovat-ii)).\n  - It is a national standard, so it is voluntary unless something makes it mandatory.\n- **ВАК:** in June 2026, deputy chair E. Galazhinsky published an analytical memorandum ([Inc.](https://incrussia.ru/news/vak-predlagaet-razreshit-ispolzovanie-ii-v-dissertatsiyah-no-s-ogranicheniyami/)).\n  - It would allow AI for spelling, formatting, checking bibliographies, an initial literature search and draft planning.\n  - It would ban AI for literature reviews, statements of novelty, conclusions, and reviews or opinions of dissertation councils.\n  - It proposes mandatory AI declarations, and says journals should adopt public AI policies.\n  - It is a **proposal**. I found no adopted ВАК order.\n- **АНРИ:** I found no AI-specific declaration. rassep.ru returned 403. Russian journals (АДСВ, ВВ, Шаги) base their ethics on the АНРИ declaration «Этические принципы научных публикаций» plus COPE. АНРИ/Elpub training slides on journal AI policies do exist ([2025](https://edu.elpub.ru/media/articles/19062025ZeldinaAIPolicy.pdf)).\n- **РАН:** I found no RAS-wide document on AI in publications.\n- **Белый список (РЦНИ):** I found no criteria about AI. Levels below come from the official CSV export ([journalrank](https://journalrank.rcsi.science/ru/record-sources/)). The latest decision in it is ДС/39-пр of 2026-03-25.\n- **COPE:** AI tools cannot be authors, and authors must disclose which tool they used and how ([position](https://publicationethics.org/guidance/cope-position/authorship-and-ai-tools)).\n\n**Which text goes where**\n- **Alexander Romance (ε-recension, Metz Epitome, Julius Valerius):**\n  - ВДИ for historical articles.\n  - Philologia Classica (Orbis Romanus / Latinitas media) for Latin and philology.\n  - Hyperboreus only covers the period before 565 AD, so Julius Valerius and the Metz Epitome fit but the ε-recension does not.\n  - Шаги and Аристей for translations of sections.\n- **Scholia on Pindar, the Odyssey and Apollonius; Pollux:** Philologia Classica, Hyperboreus, ИЯКФ, Аристей, Шаги.\n- **Eustathius:**\n  - Византийский временник is annual, with a submission deadline of 1 March.\n  - Also АДСВ, and Philologia Classica (Antiquitas perennis).\n  - Вестник ПСТГУ only if the translation is human-made.\n- **Greek music theory:** ΣΧΟΛΗ, Платоновские исследования, ИФЕ.\n\n**Publishing on the portal first: what each journal allows**\n- **Permissive:**\n  - Шаги accepts texts posted earlier on non-publisher sites, as long as you tell them about the preprint.\n  - Its translations and source publications are normally assessed by the editors, not peer-reviewed. That matters if the publication needs to count as peer-reviewed.\n- **Strict:**\n  - ВДИ: nothing previously published, in part or in whole, except an abstract. It also takes an exclusive licence and opens access only after a 12-month embargo.\n  - Philologia Classica: no previously published works.\n  - ВВ: the cover letter must state that the work is published for the first time.\n  - Also strict: АДСВ, Hyperboreus, ПСТГУ, Вестник СПбГУ.\n- **In between:** ΣΧΟΛΗ, \"as a rule\", does not take work already published in the same language and in the same or a substantially similar form. A portal text in Russian could therefore become a journal version in English, or a substantially expanded one ([ethics PDF](https://classics.nsu.ru/schole/assets/files/schole-review-ethics.pdf)).\n- **Practical steps:**\n  - Mark portal texts as versioned working editions.\n  - For strict journals, either publish the research article first and post the translation afterwards, or ask the editor before submitting.\n  - A CC BY portal is compatible with CC BY journals (Шаги, ΣΧΟΛΗ, АДСВ, Hyperboreus). It is not compatible with ВДИ's exclusive licence.\n\n**Recommended submission practice**\n1. Send a pre-submission enquiry that describes the LLM workflow: the models used, the human verification, and the public multi-model review log.\n2. Use a disclosure paragraph modelled on the SPbU template: the service and version, what it was used for, and confirmation that the authors checked every result.\n3. Keep the prompt and model logs. SPbU explicitly requires them on request, and Neoscholia's logs already serve this purpose.\n4. Never list a model as co-author. The editor signs as the responsible translator and commentator.\n5. For citation metrics, pair each Шаги or Аристей translation with a peer-reviewed article in a White List level 1–2 journal.\n6. For PSTGU, submit only human-made translations, or research articles.\n\n**What I could not verify**\n- Платоновские исследования: I could not locate the official site, so OA, AI and preprint policies are unknown. The rubric and Scopus status come from the Большая российская энциклопедия entry and the White List.\n- Аристей: the ethics page returned 403.\n- The following are absent from the White List CSV: Аристей, Hyperboreus (whose site says it is covered by Scopus), Мнемон, and Античный мир и археология.\n- «Bibliotheca Classica» as a Russian book series: not found. The «Studia historica» titles in the White List are Spanish and Slovak journals. «Древний мир»: not identified.\n- Вопросы эпиграфики (epigraphy only) and Богословские труды (an annual almanac of the Moscow Patriarchate publishing house) were not assessed in detail.\n- ВАК-list status is taken only from journal sites (Philologia Classica, ВВ, Вестник СПбГУ История, Шаги, МДА). Under the rules of the Перечень, journals indexed in WoS or Scopus count as included in it.\n- I ran out of web searches near the end, and Scimago was blocked. Scopus and WoS flags come from the РЦНИ CSV and from journal sites.",
+  "venues": [
+   {
+    "name": "Шаги / Steps (РАНХиГС)",
+    "language": "Russian, English",
+    "type": "journal; humanities incl. Antiquity, Oriental studies, history of texts",
+    "publishes_translations": "Yes: rubrics «Переводы», «Текст и комментарий», «Античный мир»; 'перевод' is an accepted manuscript type. Translations/source publications usually editor-assessed, not peer-reviewed.",
+    "open_access_and_licence": "Platinum OA, CC BY 4.0, no fees",
+    "indexing": "Scopus, RSCI, ERIH PLUS, DOAJ; Белый список level 1 (2025; level 4 in 2023); ВАК per journal site",
+    "ai_policy": "None found in editorial policies or author guidelines (checked 2026-10-05)",
+    "prior_publication_policy": "Accepts papers previously posted by authors on personal/public sites not belonging to other publishers; author must notify of preprint; not published/accepted elsewhere",
+    "fit": "Best match for portal-first annotated first translations (ε-recension sections, Pollux, scholia) plus research articles",
+    "url": "https://steps.ranepa.ru/jour/about/editorialPolicies"
+   },
+   {
+    "name": "ΣΧΟΛΗ. Философское антиковедение и классическая традиция",
+    "language": "Russian, English",
+    "type": "journal; ancient philosophy and classical tradition (NSU / IPhL SB RAS)",
+    "publishes_translations": "Yes: 'Translations' section; guidelines invite articles, translations, reviews",
+    "open_access_and_licence": "OA, CC BY 4.0 (site); publication free",
+    "indexing": "Scopus, WoS, RSCI, ERIH PLUS, DOAJ; Белый список level 2 (2025; level 1 in 2023)",
+    "ai_policy": "None found (guidelines, editorial policy PDF)",
+    "prior_publication_policy": "As a rule, not previously published in the same language and same or substantially similar form",
+    "fit": "Annotated translations/articles on Greek music theory, philosophical scholia, Neoplatonic material; consider English journal version of Russian portal text",
+    "url": "https://classics.nsu.ru/schole/assets/files/schole-review-ethics.pdf"
+   },
+   {
+    "name": "Аристей: вестник классической филологии и античной истории",
+    "language": "Russian, English, German, French",
+    "type": "journal (Dmitry Pozharsky University); classical philology and ancient history, 2 issues/yr",
+    "publishes_translations": "Yes: rubric «Публикации» prints new translations of ancient authors; author page invites 'переводы источников'",
+    "open_access_and_licence": "Free PDFs via site (Google Drive); no fees; licence not stated",
+    "indexing": "РИНЦ only (site); not found in Белый список CSV; epigraphy reviewed in SEG/BE/AE",
+    "ai_policy": "None found on author page; ethics page returned 403",
+    "prior_publication_policy": "Not stated on author page",
+    "fit": "First annotated translations of minor texts (scholia, Pollux, Metz Epitome) where indexing is secondary",
+    "url": "https://aristeas.ru/avtoram"
+   },
+   {
+    "name": "Philologia Classica (СПбГУ)",
+    "language": "Russian, English, German, French, Italian, Latin",
+    "type": "journal; classical philology, Latinitas media et nova, reception",
+    "publishes_translations": "Unclear: no translation rubric; sections Graecia antiqua, Orbis Romanus, Antiquitas perennis, Latinitas media et nova, Miscellanea",
+    "open_access_and_licence": "Immediate free OA under SPbU licence agreement; no fees; CC licence not verified",
+    "indexing": "Scopus, WoS ESCI, RSCI, ERIH PLUS, ВАК; Белый список level 1 (2025)",
+    "ai_policy": "SPbU policy: disclose AI (service, version, purpose) in intro paragraph; keep prompts; bans AI writing text without author; reviewers barred",
+    "prior_publication_policy": "Previously published works or works under review elsewhere not accepted",
+    "fit": "Research articles on scholia, Julius Valerius, Eustathius' classical reception; translations embedded in articles",
+    "url": "https://philclass.spbu.ru/about/AIPolicy"
+   },
+   {
+    "name": "Вестник древней истории (ВДИ)",
+    "language": "Russian, English",
+    "type": "journal (IWH RAS; RCSI platform); ancient history",
+    "publishes_translations": "Partly: «Publications» rubric in 2025–26 issues mainly new inscriptions, coins, artefacts; «Supplement» section exists; literary translations not seen recently",
+    "open_access_and_licence": "Delayed OA after 12 months; exclusive licence to publisher",
+    "indexing": "WoS, Scopus, RSCI, ERIH PLUS; Белый список level 1 (2025)",
+    "ai_policy": "None found (editorial policies, author guidelines)",
+    "prior_publication_policy": "Must not be previously published in part or whole, except as an abstract",
+    "fit": "Research articles on Alexander Romance recensions, Metz Epitome, historical information in texts",
+    "url": "https://journals.rcsi.science/0321-0391/about/submissions"
+   },
+   {
+    "name": "Индоевропейское языкознание и классическая филология (ИЛИ РАН)",
+    "language": "Russian, English, German, French, Italian, Latin",
+    "type": "yearbook (Tronsky readings); Indo-European linguistics and classical philology",
+    "publishes_translations": "Unclear: research articles; no translation rubric seen",
+    "open_access_and_licence": "Free PDFs on site; non-commercial, no fees; licence not stated",
+    "indexing": "Scopus, RSCI, ERIH PLUS; Белый список level 1 (2025)",
+    "ai_policy": "None found",
+    "prior_publication_policy": "Not found",
+    "fit": "Philological/lexicographic articles (Pollux, language of scholia, Byzantine Greek)",
+    "url": "https://tronsky.iling.spb.ru/"
+   },
+   {
+    "name": "Историко-философский ежегодник (ИФ РАН)",
+    "language": "Russian, English, German",
+    "type": "yearbook-journal; history of philosophy",
+    "publishes_translations": "Yes: accepts 'научные переводы'; rubric «Архивные материалы и переводы»; commented translations of philosophical classics",
+    "open_access_and_licence": "OA, CC BY-NC 4.0",
+    "indexing": "Scopus (except reviews), RSCI core; Белый список level 2 (25.03.2026 decision; level 3 in 2025)",
+    "ai_policy": "None found (ethics, policy, author pages)",
+    "prior_publication_policy": "Not found",
+    "fit": "Annotated translations of Greek music-theoretical/philosophical treatises",
+    "url": "https://ife.iphras.ru/authors"
+   },
+   {
+    "name": "Платоновские исследования / Platonic Investigations",
+    "language": "Russian, English, German, French, Italian",
+    "type": "journal (Plato Philosophical Society; RSUH/RHGA); Platonism and reception",
+    "publishes_translations": "Yes: rubric «Переводы и публикации» (per Большая российская энциклопедия entry)",
+    "open_access_and_licence": "Not verified (official site not located)",
+    "indexing": "Scopus; Белый список level 3 (2025)",
+    "ai_policy": "Not found (site not located)",
+    "prior_publication_policy": "Not found",
+    "fit": "Neoplatonic commentaries and Greek harmonic/music theory translations and articles",
+    "url": "https://bigenc.ru/c/platonovskie-issledovaniia-3d6437"
+   },
+   {
+    "name": "Византийский временник",
+    "language": "Russian (mainly); other languages not verified",
+    "type": "annual journal (IWH RAS / MSU); Byzantine studies; submission deadline 1 March",
+    "publishes_translations": "Unclear: no rubric list verified",
+    "open_access_and_licence": "OA/licence not verified; author contract required; older volumes in site library",
+    "indexing": "WoS, RSCI, ВАК (site); Белый список level 1 (2025)",
+    "ai_policy": "None found; ethics follows COPE and АНРИ",
+    "prior_publication_policy": "Cover letter must state work is published for the first time; duplication prohibited",
+    "fit": "Research articles on Eustathius, Byzantine scholia, ε-recension",
+    "url": "http://vremennik.biz/content/about"
+   },
+   {
+    "name": "Вестник ПСТГУ (Серия III: Филология; also Серии I, II)",
+    "language": "Russian (English not verified)",
+    "type": "journal series (St Tikhon's Orthodox University); philology, theology, church history",
+    "publishes_translations": "Yes: publishes articles, previously unpublished sources, translations",
+    "open_access_and_licence": "OA, CC BY-NC 4.0",
+    "indexing": "Ser. I: WoS, Scopus, RSCI, DOAJ, ERIH (WL level 1); Ser. III: RSCI, DOAJ, ERIH (WL level 2); Ser. II: WL level 2",
+    "ai_policy": "Generative AI only for style/language editing; disclosure required; AI not an author; reviewers barred",
+    "prior_publication_policy": "Original, previously unpublished materials only",
+    "fit": "Human-made translations or articles on Byzantine texts (Eustathius); LLM-generated translations conflict with policy",
+    "url": "https://periodical.pstgu.ru/ru/publication-ai"
+   },
+   {
+    "name": "Античная древность и средние века (АДСВ, УрФУ)",
+    "language": "Russian, English",
+    "type": "journal; Late Antiquity, Byzantium, Black Sea region",
+    "publishes_translations": "Unclear: stated types are articles, reviews, overviews",
+    "open_access_and_licence": "OA, CC BY 4.0, Budapest OA principles; no APC",
+    "indexing": "Scopus, ERIH PLUS, DOAJ; Белый список level 2 (2025)",
+    "ai_policy": "None found (editorial policies, submissions)",
+    "prior_publication_policy": "Must not be previously published or under review elsewhere",
+    "fit": "Research articles on Eustathius and late-antique/Byzantine Alexander material",
+    "url": "https://journals.urfu.ru/index.php/adsv/about/editorialPolicies"
+   },
+   {
+    "name": "Hyperboreus: Studia Classica",
+    "language": "Russian, Latin, English, German, French, Italian",
+    "type": "journal (Bibliotheca Classica Petropolitana; Bern Open Publishing); classics before 565 AD",
+    "publishes_translations": "Unclear: research articles; no translation rubric seen",
+    "open_access_and_licence": "OA, CC BY 4.0; no fees; authors keep copyright",
+    "indexing": "Scopus (journal site); ANVUR Class A (2025); not found in Белый список CSV",
+    "ai_policy": "None found",
+    "prior_publication_policy": "Not previously published nor under review elsewhere",
+    "fit": "Textual-critical articles on scholia, Julius Valerius, Metz Epitome (not Eustathius or ε)",
+    "url": "https://bop.unibe.ch/Hyperboreus/about"
+   },
+   {
+    "name": "Вестник Санкт-Петербургского университета. История",
+    "language": "Russian, English",
+    "type": "journal (SPbU); history",
+    "publishes_translations": "Unclear: publishes previously unpublished sources; translations not stated",
+    "open_access_and_licence": "Free OA (SPbU); licence not verified",
+    "indexing": "WoS, Scopus, RSCI, ВАК; Белый список level 1 (2025)",
+    "ai_policy": "SPbU-wide policy: disclosure paragraph, prompt trace on request, no AI-written text without author, reviewers barred",
+    "prior_publication_policy": "Articles must be original and previously unpublished",
+    "fit": "Historical research articles drawing on Alexander Romance and Byzantine texts",
+    "url": "https://history-journal.spbu.ru/about/AIPolicy"
+   },
+   {
+    "name": "Богословский вестник (МДА)",
+    "language": "Russian",
+    "type": "journal (Moscow Theological Academy); theology, patrology, church history, philology",
+    "publishes_translations": "Yes: rubric «Переводы святых отцов»",
+    "open_access_and_licence": "Free PDFs on eLibrary (since 1993) per site; licence not stated",
+    "indexing": "РИНЦ; ВАК specialties incl. 5.7.9; Белый список level 3 (2025)",
+    "ai_policy": "None found on about page",
+    "prior_publication_policy": "Not found",
+    "fit": "Marginal: only patristic/theological Byzantine texts",
+    "url": "https://publishing.mpda.ru/index.php/theological-herald/about"
+   },
+   {
+    "name": "Литературные памятники (книжная серия РАН)",
+    "language": "Russian",
+    "type": "book series (RAS editorial board; chair A.B. Kudelin per 2018 source)",
+    "publishes_translations": "Yes: book-length annotated translations of literary monuments",
+    "open_access_and_licence": "Not OA (print, publisher contract)",
+    "indexing": "n/a (book series)",
+    "ai_policy": "Not found",
+    "prior_publication_policy": "Not found; ask editorial board",
+    "fit": "Printed capstone edition of a complete text (e.g., ε-recension) after portal version; needs board approval",
+    "url": "https://www.lihachev.ru/pic/site/files/lihcht/2018/dokladi/KudelinAB_rus_plen_izd.pdf"
+   }
+  ],
+  "verification": {
+   "checked": [
+    {
+     "claim": "Шаги / Steps: no AI policy in editorial policies or author guidelines",
+     "verdict": "confirmed",
+     "correction": "Checked again: neither the editorial-policy page nor the author-guidelines page mentions AI, ИИ, нейросети or generative tools.",
+     "source": "https://steps.ranepa.ru/jour/about/editorialPolicies ; https://steps.ranepa.ru/jour/about/submissions"
+    },
+    {
+     "claim": "Steps: accepts papers authors previously posted on personal or public sites that do not belong to other publishers; author must notify of preprint; the paper must not be published or accepted elsewhere",
+     "verdict": "confirmed",
+     "correction": "The section 'Политика размещения препринтов и постпринтов' says this word for word: 'К рассмотрению допускаются статьи, размещенные ранее авторами на личных или публичных сайтах, не относящихся к другим издательствам'. The author must confirm the paper is not published or accepted 'в другом научном журнале'. I did not find an explicit duty to notify the journal of a preprint in the extracted text. The submission checklist says 'ранее не была опубликована', which is stricter. The editor should name the Neoscholia URL in the cover letter.",
+     "source": "https://steps.ranepa.ru/jour/about/editorialPolicies#custom-6 ; https://steps.ranepa.ru/jour/about/submissions"
+    },
+    {
+     "claim": "Steps publishes translations (rubrics «Переводы», «Текст и комментарий», «Античный мир»; 'перевод' is an accepted manuscript type); translations and source publications are usually assessed by editors, not peer-reviewed",
+     "verdict": "confirmed",
+     "correction": "The section list includes ПЕРЕВОДЫ, ТЕКСТ И КОММЕНТАРИЙ, АНТИЧНЫЙ МИР, ПУБЛИКАЦИИ ИСТОЧНИКОВ and КОММЕНТАРИИ К ДРЕВНЕМУ ТЕКСТУ. The author guidelines list 'Переводы источников'. The peer-review policy says publications of sources and translations 'как правило, не рецензируются, хотя и оцениваются редакторами'. One caveat: the section metadata marks ПЕРЕВОДЫ as 'С рецензированием'. If peer review matters for a CV, confirm with the editors.",
+     "source": "https://steps.ranepa.ru/jour/about/editorialPolicies"
+    },
+    {
+     "claim": "Steps: platinum OA, CC BY 4.0, no fees; Белый список level 1 (2025), level 4 (2023)",
+     "verdict": "confirmed",
+     "correction": "Confirmed: CC BY 4.0 International, no author fees, Scopus, ERIH PLUS and DOAJ. The RCSI record shows 2025 = 1 and 2023 = 4.",
+     "source": "https://steps.ranepa.ru/jour/about/editorialPolicies ; https://journalrank.rcsi.science/ru/record-sources/levels/28456/"
+    },
+    {
+     "claim": "ΣΧΟΛΗ: no AI policy; as a rule not previously published in the same language and same or substantially similar form; Translations section; CC BY 4.0; Белый список level 2 (2025), level 1 (2023)",
+     "verdict": "confirmed",
+     "correction": "The ethics PDF says contributions 'should not have been published before in the same language and in the same or substantially similar form' and has no AI clause. It also states that 'papers, articles, translations and reviews' all go to independent peer review, so translations are refereed here. Licence nuance: the PDF says copyright stays with author and publisher and that free copying is allowed with attribution, while the website footer says CC BY. RCSI lists 2025 = 2 and 2023 = 1, with Scopus, WoS CC and ERIH PLUS.",
+     "source": "https://classics.nsu.ru/schole/assets/files/schole-review-ethics.pdf ; https://classics.nsu.ru/schole/ ; https://journalrank.rcsi.science/ru/record-sources/levels/19315/"
+    },
+    {
+     "claim": "Philologia Classica (SPbU AI policy): AI use must be disclosed in a separate paragraph of the introduction (service, version, purpose); prompts kept; AI writing text without the author is banned; reviewers may not use AI",
+     "verdict": "confirmed",
+     "correction": "Confirmed word for word, with one important nuance the entry leaves out: 'Проверка грамматики, орфографии и пунктуации, а также перевод фрагментов статьи на иностранный язык не требует заявления'. AI cannot be a co-author. The policy also bars AI from altering data and from making or substantially editing illustrations. On its face, presenting an LLM-generated translation of an ancient text as substantive content falls under the ban on 'text or substantive content generated without author participation' unless the author's role is made clear.",
+     "source": "https://philclass.spbu.ru/about/AIPolicy"
+    },
+    {
+     "claim": "Philologia Classica: previously published works and works under review elsewhere not accepted; immediate free OA under an SPbU licence agreement; no fees; CC licence not verified; Белый список level 1 (2025)",
+     "verdict": "confirmed",
+     "correction": "Guideline 1.1 reads: 'Работы, опубликованные ранее или направленные в редакции других журналов, не принимаются.' Access is immediate and open under the SPbU licence agreement, with no CC licence named, and 'Плата за публикацию рукописей не взимается'. Clause 1.2 describes only research articles (проблемные статьи, up to 60,000 characters), with no translation category. RCSI lists 2025 = 1 and 2023 = 1.",
+     "source": "https://philclass.spbu.ru/about/submissions ; https://journalrank.rcsi.science/ru/record-sources/levels/16997/"
+    },
+    {
+     "claim": "Вестник древней истории: delayed OA after 12 months; exclusive licence to publisher; must not be previously published except as an abstract; no AI policy; a «Supplement» section exists",
+     "verdict": "corrected",
+     "correction": "Mostly confirmed: 'available in an open access format 12 month(s) after an issue is published'. Authors 'grant the publisher an exclusive license'. There is no AI policy. The prior-publication exception is wider than stated: 'except as an abstract, part of a published lecture or academic thesis'. The current section list (Publications, In the museums of the world, Critical and bibliographical surveys and others) has no 'Supplement' section.",
+     "source": "https://journals.rcsi.science/0321-0391/about/editorialPolicies ; https://journals.rcsi.science/0321-0391/about/submissions"
+    },
+    {
+     "claim": "Историко-философский ежегодник: prior-publication policy not found; accepts scholarly translations; CC BY-NC 4.0; no AI policy; Белый список level 2 (decision of 25.03.2026), level 3 (2025)",
+     "verdict": "corrected",
+     "correction": "The prior-publication policy does exist. Ethics §3.3 says authors declare 'что рукопись написана ими лично, содержит оригинальные исследовательские результаты, которые ранее не были опубликованы и одновременно не рассматриваются ... в других изданиях', and simultaneous submission is unethical. The 'написана ими лично' wording matters for LLM-made texts. §3.2 requires rights clearance for translations of copyrighted texts. Everything else is confirmed: 'научные переводы' accepted, CC BY-NC 4.0, no AI policy found, and RCSI lists 2026 = 2 (25.03.2026, protocol ДС/39-пр) and 2025 = 3.",
+     "source": "https://ife.iphras.ru/ethics ; https://ife.iphras.ru/authors ; https://journalrank.rcsi.science/ru/record-sources/levels/31420/"
+    },
+    {
+     "claim": "Платоновские исследования: official site not located; OA and licence not verified; AI and prior-publication policy not found; Белый список level 3 (2025)",
+     "verdict": "corrected",
+     "correction": "The official site exists at pinvestigations.ru, with an ethics page, manuscript requirements and an archive up to issue 24 (2026/1). The ethics page states open access under BOAI, a CC BY-NC 4.0 licence, no publication fee, and double-blind peer review covering 'оригинальные исследования, рецензии, переводы'. The about page says it publishes translations and has been indexed in Scopus since 2019, as well as РИНЦ. Neither ethics nor requirements has an AI policy, but the requirements say 'машинные переводы не принимаются' for English abstracts. Prior publication: the author must guarantee results are 'полностью оригинальны'. Submission is by e-mail, with deadlines of 31 March and 31 August. RCSI lists 2025 = 3 and 2023 = 2.",
+     "source": "https://pinvestigations.ru/content/ethics/index.aspx ; https://pinvestigations.ru/content/reqs/index.aspx ; https://pinvestigations.ru/content/home/about.aspx ; https://journalrank.rcsi.science/ru/record-sources/levels/27518/"
+    },
+    {
+     "claim": "Вестник ПСТГУ: generative AI allowed only for style and language editing, disclosure required, AI not an author, reviewers barred; publishes translations; CC BY-NC 4.0; Ser. I in WoS/Scopus, Ser. III in RSCI/DOAJ/ERIH",
+     "verdict": "confirmed",
+     "correction": "The AI policy allows AI 'исключительно для улучшения стилистики и языкового оформления'. Use must be disclosed in the manuscript text, AI cannot be author or co-author, and reviewers and editors may not upload manuscripts to AI tools. Ser. III lists 'переводы источников' and 'издания источников' among the materials it publishes, uses CC BY-NC 4.0, and is indexed in RSCI, ERIH PLUS and DOAJ, with ВАК category К-1. Ser. I is in ESCI, Scopus, RSCI, DOAJ and ERIH PLUS. The entry's conclusion holds: LLM-made translations conflict with the 'style and language only' rule.",
+     "source": "https://periodical.pstgu.ru/ru/publication-ai ; https://periodical.pstgu.ru/ru/series/index/3 ; https://periodical.pstgu.ru/ru/series/index/1"
+    },
+    {
+     "claim": "Hyperboreus: OA, CC BY 4.0, no fees, authors keep copyright; Scopus; ANVUR Class A (2025); classics before 565 AD; not in Белый список; not previously published nor under review elsewhere; no AI policy",
+     "verdict": "confirmed",
+     "correction": "Confirmed: CC BY 4.0, no APCs or ASCs, 'Copyright remains with the authors', 'covered by the Scopus database', and ANVUR Class A (resolution no. 103 of 07-05-2025). It publishes 'primarily articles on the period before 565 AD', so Eustathius and the ε-recension fall outside except in special volumes. A search of the RCSI database, including discontinued titles, returns nothing. Prior-publication nuance: the checklist adds 'or an explanation has been provided in Comments to the Editor', and self-republication is allowed only 'exceptionally' with clearly stated significant changes. No AI policy found.",
+     "source": "https://bop.unibe.ch/Hyperboreus ; https://bop.unibe.ch/Hyperboreus/about ; https://bop.unibe.ch/Hyperboreus/about/submissions"
+    },
+    {
+     "claim": "Вестник СПбГУ. История: SPbU-wide AI policy (disclosure paragraph, prompt trace on request, no AI-written text without the author, reviewers barred)",
+     "verdict": "confirmed",
+     "correction": "Confirmed, with the same exemption as Philologia Classica: grammar, spelling and punctuation checks and translating article fragments into foreign languages need no declaration. The disclosure must also state that results were checked and that no confidential data were shared.",
+     "source": "https://history-journal.spbu.ru/about/AIPolicy"
+    },
+    {
+     "claim": "Византийский временник: WoS, RSCI, ВАК; cover letter must state the work is published for the first time; submission deadline 1 March; OA not verified",
+     "verdict": "corrected",
+     "correction": "Indexing is confirmed: the about page says it is in the ВАК list and indexed in Web of Science and РИНЦ. The prior-publication rule is confirmed in the ethics text ('в сопроводительном письме автор должен указать, что работа публикуется впервые'). It also requires citing and explaining overlap with earlier elements, and simultaneous submission is unethical. There is no AI clause. The deadline is inconsistent on the site: /content/auct/publ says 1 March, /content/auct says 15 December, so check with the editors. The ethics page calls it a 'международного открытого журнала', but I found no licence statement.",
+     "source": "http://vremennik.biz/content/about ; http://vremennik.biz/content/auct ; http://vremennik.biz/content/auct/publ ; http://vremennik.biz/content/публикационная-этика"
+    },
+    {
+     "claim": "Античная древность и средние века: CC BY 4.0, Budapest OA principles, no APC; not previously published or under review elsewhere; no AI policy; types are articles, reviews and overviews",
+     "verdict": "confirmed",
+     "correction": "Confirmed: CC BY 4.0 and the BOAI statement are in place, and no review fee is charged. The checklist reads 'ранее не была опубликована, а также не представлена для рассмотрения и публикации в другом журнале'. Accepted types are 'научные статьи, научные обзоры и научные рецензии', with no translation category. No AI policy found.",
+     "source": "https://journals.urfu.ru/index.php/adsv/about/editorialPolicies ; https://journals.urfu.ru/index.php/adsv/about/submissions"
+    },
+    {
+     "claim": "Аристей: accepts source translations; РИНЦ only; not in Белый список; ethics page returns 403; no AI or prior-publication policy on the author page",
+     "verdict": "confirmed",
+     "correction": "The author page accepts 'статьи, заметки, переводы источников, рецензии'. The homepage says 'Индексация: РИНЦ'. The RCSI search, including discontinued titles, returns nothing. /etika still returns HTTP 403, so the AI and prior-publication policies remain unverifiable.",
+     "source": "https://aristeas.ru/avtoram ; https://aristeas.ru/ ; https://aristeas.ru/etika (403)"
+    }
+   ],
+   "summary": "I re-checked 16 decision-critical claims against primary pages: 12 confirmed, 4 corrected. I opened every listed page directly or with curl. The web-search quota ran out partway through, but no claim depended on search.\n\nThe four corrections:\n1. **Платоновские исследования.** The colleague could not find the official site; it is pinvestigations.ru. It is open access under BOAI, CC BY-NC 4.0, with no fees. Translations go through double-blind peer review. It is indexed in Scopus (since 2019) and РИНЦ, with Белый список level 3 in 2025 and level 2 in 2023. There is no AI policy, but machine-translated English abstracts are explicitly refused.\n2. **Историко-философский ежегодник.** The prior-publication policy exists (ethics §3.3). Authors must declare the manuscript is 'написана ими лично', original, unpublished and not under review elsewhere. That wording is a possible problem for LLM-made translations.\n3. **Вестник древней истории.** The exception to prior publication also covers a published lecture or a thesis. There is no 'Supplement' section in the current section list.\n4. **Византийский временник.** The site gives two submission deadlines (1 March and 15 December). I found no licence statement.\n\nConfirmed and decision-relevant:\n- **Steps.** No AI policy. Posting on personal or public sites is allowed. Translations are 'как правило, не рецензируются'. CC BY 4.0. Белый список level 1 (2025), level 4 (2023). This is still the best fit for a translation published on the portal first.\n- **ΣΧΟΛΗ.** Translations are peer-reviewed. Prior publication is ruled out only in the same language and the same form. That leaves room for an English version of a Russian portal text.\n- **SPbU journals (Philologia Classica, Вестник СПбГУ. История).** AI use must be disclosed in a separate paragraph of the introduction. The colleague missed one point: translating fragments of an article into a foreign language needs no declaration. AI-generated substantive text without the author's participation is still banned.\n- **Вестник ПСТГУ.** AI is allowed only for style and language, so LLM translations conflict with the policy.\n- **Hyperboreus.** CC BY 4.0, Scopus, ANVUR Class A (2025). It covers the period before 565 AD only, which excludes Eustathius and the ε-recension. It is not in the RCSI database.\n\nStill unverifiable: Аристей's ethics page returns HTTP 403, so its AI and prior-publication policies remain unknown."
+  }
+ },
+ {
+  "key": "intl-journals",
+  "report_markdown": "## Главное\n\n- **Отдельного правила для ИИ-перевода первоисточника нет ни у одного проверенного издателя.** Везде действует схема COPE: ИИ не может быть автором, использование ИИ нужно раскрыть, за весь текст, включая перевод, отвечает человек. Перевод прямо упоминается только у Elsevier и Taylor & Francis. Elsevier говорит о переводе собственного текста автора, а не древнего источника.\n- **Два вида публикаций оцениваются по-разному.**\n  - (а) Исследовательская статья, которую пишете вы сами, с собственными переводами отдельных мест и сноской о помощи LLM. Её примет почти любой журнал.\n  - (б) Полный перевод, черновик которого сделала LLM. Для издателя это контент, созданный ИИ. JHUP и Duke такие работы не принимают. Остальным нужно сообщить редактору заранее.\n- **Сначала выложить на портале, потом подать в журнал** можно в CUP, De Gruyter Brill/Brill, GRBS и Histos: портал считается препринтом. Dumbarton Oaks Papers повторное использование уже опубликованного текста запрещает.\n\n## Политики издателей в отношении ИИ (пересказ; проверено 05.10.2026)\n\n- **COPE** (13.02.2023): ИИ не может нести ответственность, поэтому не может быть автором. Использование описывается в разделе «Методы». Автор отвечает и за ту часть, которую создал ИИ. https://publicationethics.org/guidance/cope-position/authorship-and-ai-tools (страница отдаёт 403; содержание взято из поиска).\n- **De Gruyter Brill** (версия «As of September 2026»; Brill отсылает к ней: https://brill.com/page/author_ethics).\n  - Статьи, сгенерированные ИИ, не принимаются.\n  - Использование нужно раскрыть, если вывод ИИ существенно повлиял на какую-либо часть рукописи. Корректуру раскрывать не нужно.\n  - Рекомендуют вести журнал использования ИИ с начала работы.\n  - Тексты под авторским правом нельзя загружать в ИИ без разрешения правообладателя или гарантии, что они не сохраняются и не идут в обучение. Это касается современных критических изданий.\n  - Об ИИ-переводе ничего не сказано.\n  - https://www.degruyterbrill.com/publishing/for-authors/author-policies/artificial-intelligence\n- **CUP**: использование ИИ нужно заявить и объяснить, как любой метод; ИИ не автор; автор отвечает за текст. https://www.cambridge.org/core/services/publishing-ethics/authorship-and-contributorship-journals\n- **Taylor & Francis**: переводы указаны среди допустимых применений. В заявлении нужно назвать инструмент и его версию, указать как и зачем он использовался. Книжные проекты согласуются заранее. Нельзя подавать текст, сгенерированный «без строгой переработки». https://taylorandfrancis.com/our-policies/ai-policy/\n- **Elsevier** (06.2026): если ИИ переводил текст автора, перевод должен проверить человек, владеющий обоими языками. Использование указывается в декларации перед списком литературы. https://www.elsevier.com/about/policies-and-standards/generative-ai-policies-for-journals\n- **Springer Nature** делит использование ИИ на уровни риска. Обширная помощь в написании текста относится к «янтарному» уровню: разрешена при проверке и раскрытии. ИИ-перевод первоисточника по этой логике, видимо, тоже «янтарный» (это моя интерпретация). https://link.springer.com/brands/springer/journal-policies\n- **OUP**: на контент, созданный GenAI, нужно письменное разрешение издательства. Это по вторичной сводке: страница OUP грузится скриптом и не прочиталась. https://academic.oup.com/pages/authoring/books/author-use-of-artificial-intelligence\n- **JHUP** (издаёт Journal of Late Antiquity): Press «will not accept any work that is substantially written by an AI or LLM tool». Нужна вводная декларация и ссылка на каждое использование ИИ. https://www.press.jhu.edu/sites/default/files/media/2023/07/Generative%20AI%20for%20Authors_final_0.pdf\n- **Duke UP** — то же требование: https://dukeupress.edu/journals/journal-authors-editors/ethics-statement-for-journals\n- **U Chicago Press** (книги, 06.2026) запрещает писать или переписывать текст с помощью ИИ. https://press.uchicago.edu/resource/ai_guidelines.html\n- **Dumbarton Oaks**: любой ИИ, генеративный или вспомогательный, раскрывается при подаче и в публикации. https://www.doaks.org/resources/publications/series/dopapers/about-us/ethics\n- **GRBS** (15.09.2026): любое использование ИИ раскрывается редакторам при подаче. https://classics.uc.edu/grbs/static/GRBS_Guidelines_for_Authors_v2_2026.pdf\n- **Lodz UP** (Studia Ceranea): декларация ставится в аннотацию и в начало статьи; в ней указываются инструмент, версия и все промпты. https://press.uni.lodz.pl/index.php/wul/ai_policy\n- У Liverpool UP, OBP и Brepols политику ИИ найти не удалось.\n\n## Препринты и предварительная публикация\n\n- **CUP**: любую версию до подачи можно выкладывать где угодно; это не считается предварительной публикацией. https://www.cambridge.org/core/open-research/preprint-policy\n- **De Gruyter Brill**: поданную версию можно выкладывать в любой момент, принятую — после эмбарго. https://www.degruyterbrill.com/publishing/for-authors/author-policies/repository-policy-journals\n- **Brill** (Mnemosyne, GRMS): принятую версию можно выкладывать без эмбарго.\n- **GRBS** поощряет размещение текста до подачи. **Histos** просит, чтобы препринт ссылался на итоговую статью.\n- **DOP**: повторное использование уже опубликованного текста ведёт к отклонению. AHB и Erga-Logoi требуют только, чтобы рукопись не была одновременно подана в другое место.\n- **Brill** считает нарушением самоплагиат и «переводной плагиат». Поэтому версию с портала нужно цитировать и раскрыть при подаче. https://brill.com/fileasset/downloads_static/static_publishing_publicationethics.pdf\n- **Лицензии**: если портал выходит под CC BY, а журнал публикует под CC BY-NC-ND (Histos, DOP, Erga-Logoi), это нужно согласовать с редакцией заранее.\n\n## Куда что подавать\n\n- **Статьи об информации из текстов, бесплатный открытый доступ:** GRBS, Histos, Ancient Narrative, Millennium, Erga-Logoi, Studia Ceranea (принимает и русский), GLB, thersites.\n- **Статьи, гибридные журналы:** BZ, Philologus, Mnemosyne, CQ. CQ охватывает период только до VI в., поэтому Евстафий туда не подходит.\n- **DOP** — только для нового материала, которого ещё нет на портале.\n- **Музыкальные трактаты:** Greek and Roman Musical Studies.\n- **Полные переводы, открытый доступ:** OBP (издаёт «critical translations», без платы с автора) и Ancient Narrative Supplementa (тома 15 и 25 посвящены Роману об Александре).\n- **Полные переводы, книжные серии:** серии Liverpool — TTA (до ~300 г.), TTH (300–800 гг.), TTB (после 800 г.). Их форма заявки предупреждает, что на редакционную часть критического издания могут быть права. https://cdn.shopify.com/s/files/1/0046/0600/1267/files/TTA_Proposal_Form.pdf?9. Также DOML (оригинал и перевод на соседних страницах).\n- **Короткие переводы в журналах** уже выходили: AHB 12 (1998) напечатал перевод Itinerarium Alexandri (Davies); в Philologus выходят статьи «текст + перевод + комментарий».\n- **Журнала, посвящённого Александру, не найдено.** Есть Brill's Companion to the Reception of Alexander the Great (2018, закрытый) и симпозиум BU «Alexander the Great and Iskandar» (март 2026); о публикации его материалов не сообщается.\n\n## Рекомендации\n\n1. Публикуйте переводы на портале с DOI (Zenodo) и пометкой «рабочий перевод, версия N». Журнальная статья должна давать новый анализ и ссылаться на эту версию.\n2. Подготовьте стандартную декларацию об ИИ:\n   - модели и их версии;\n   - роль каждой модели (черновик перевода, комментарий, перекрёстная проверка);\n   - по какому изданию сделан перевод;\n   - что проверял редактор;\n   - кто отвечает за результат.\n   Для Lodz UP добавьте промпты.\n3. Не подавайте ИИ-переводы в JHUP/JLA, Duke и книжную программу Chicago. С OUP и книжными сериями всё согласуйте до подачи.\n4. Комментарий, написанный ИИ, оставьте на портале. В журнал нужен комментарий, написанный человеком (так требуют T&F и DGB).\n5. Используйте издания в общественном достоянии или проверьте права (оговорка TTA, правило DGB).\n\n**Не проверено:** часть сведений об индексации (Scimago был недоступен); страницы LUP, OBP и COPE (ошибки 403/429). У Ancient Narrative, Histos, AHB, Erga-Logoi, GLB, Eikasmos и thersites политик ИИ найти не удалось.",
+  "venues": [
+   {
+    "name": "Greek, Roman, and Byzantine Studies (GRBS)",
+    "language": "Английский",
+    "type": "Журнал; греческий мир от древности до Византии (без латинского Запада)",
+    "publishes_translations": "Неясно: отдельной рубрики нет; в правилах есть Checklist of Editions; текст с переводом возможен внутри статьи",
+    "open_access_and_licence": "Бесплатный открытый доступ (Diamond OA), плата с авторов не взимается; CC BY; права сохраняет автор (DOAJ, Copyright Notice)",
+    "indexing": "DOAJ — проверено; Scopus/A&HCI в этой сессии не перепроверены",
+    "ai_policy": "Правила от 15.09.2026: о любом использовании ИИ нужно сообщить редакторам при подаче",
+    "prior_publication_policy": "Авторам рекомендуют выкладывать работу в сеть до подачи и во время рецензирования; в чек-листе — «ранее не публиковалась»",
+    "fit": "Исследовательские статьи о схолиях, Евстафии, Поллуксе, ε-редакции; короткие публикации «текст + перевод»",
+    "url": "https://grbs.library.duke.edu/index.php/grbs/about/submissions"
+   },
+   {
+    "name": "Histos (+ Histos Supplements)",
+    "language": "EN, FR, DE, IT",
+    "type": "Журнал; античная историография и биография",
+    "publishes_translations": "Частично: среди Supplements есть перевод (Supp. 3, Jacoby в пер. Chambers/Schorn); приём новых заявок на Supplements, по данным сайта, приостановлен с 2022 г.",
+    "open_access_and_licence": "Diamond OA; CC BY-NC-ND 4.0 (с 2024 г.); плата не взимается",
+    "indexing": "ERIH PLUS; ANVUR Classe A; DOAJ",
+    "ai_policy": "не найдено",
+    "prior_publication_policy": "Препринт в сети должен ссылаться на итоговую публикацию; рекомендуется выкладывать опубликованную версию в репозиторий",
+    "fit": "Статьи о Метцской эпитоме, Юлии Валерии, Романе об Александре как историографии",
+    "url": "https://histos.org/index.php/histos/about"
+   },
+   {
+    "name": "Ancient Narrative + Ancient Narrative Supplementa",
+    "language": "EN, FR, DE, IT, ES",
+    "type": "Журнал и книжная серия (University of Groningen Press); античная и византийская повествовательная литература",
+    "publishes_translations": "Неясно: отдельной рубрики нет; Supplementa принимают монографии; ANS 15 и 25 посвящены Роману об Александре",
+    "open_access_and_licence": "OA, без платы с авторов; лицензия Creative Commons; права остаются у автора",
+    "indexing": "не проверено",
+    "ai_policy": "не найдено (в правилах для авторов не упоминается)",
+    "prior_publication_policy": "не найдено",
+    "fit": "Роман об Александре (ε), Юлий Валерий; полный аннотированный перевод как том Supplementum — по согласованию с редакцией",
+    "url": "https://ancientnarrative.com/about/submissions"
+   },
+   {
+    "name": "Dumbarton Oaks Papers",
+    "language": "Английский",
+    "type": "Ежегодный журнал; византинистика (Dumbarton Oaks/Harvard)",
+    "publishes_translations": "Неясно: в правилах подачи не упоминаются",
+    "open_access_and_licence": "OA с 2023 г.; CC BY-NC-ND; APC нет; права принадлежат Dumbarton Oaks",
+    "indexing": "DOAJ — проверено; остальное не проверено",
+    "ai_policy": "Любое генеративное или вспомогательное ИИ раскрывается при подаче и в публикации; ИИ не автор; ответственность несёт автор",
+    "prior_publication_policy": "Рукопись не должна рассматриваться в другом месте; повторное использование опубликованного (самоплагиат) запрещено — отклонение без апелляции",
+    "fit": "Крупные статьи (от 10 000 слов) о Евстафии, византийской традиции Александра — только по материалам, которых ещё нет на портале",
+    "url": "https://www.doaks.org/resources/publications/series/dopapers/about-us/ethics"
+   },
+   {
+    "name": "Byzantinische Zeitschrift",
+    "language": "Многоязычный (DE/EN и др.; подробно не проверено)",
+    "type": "Журнал (De Gruyter Brill); византинистика, с библиографическим разделом",
+    "publishes_translations": "Неясно: заявлены только статьи и рецензии",
+    "open_access_and_licence": "Подписка с гибридным OA (De Gruyter Brill)",
+    "indexing": "Scopus, Web of Science A&HCI, ERIH PLUS (по странице издателя)",
+    "ai_policy": "Политика DGB (09.2026): раскрывать существенный вклад ИИ; статьи, сгенерированные ИИ, не принимаются; не загружать в ИИ тексты под авторским правом",
+    "prior_publication_policy": "По правилам DGB: поданную версию можно выкладывать в любой момент; принятую — после эмбарго",
+    "fit": "Исследовательские статьи о Евстафии, ε-редакции, византийских схолиях",
+    "url": "https://www.degruyterbrill.com/journal/key/byzs/html"
+   },
+   {
+    "name": "Millennium (Jahrbuch)",
+    "language": "DE, EN; рассматриваются FR, IT, ES",
+    "type": "Ежегодник (De Gruyter Brill); культура и история I тысячелетия н. э.",
+    "publishes_translations": "неясно",
+    "open_access_and_licence": "Открытый доступ по модели Subscribe to Open; лицензия Creative Commons; бесплатно для авторов",
+    "indexing": "На странице указан только L'Année philologique; Scopus/ERIH не указаны",
+    "ai_policy": "Политика De Gruyter Brill (09.2026)",
+    "prior_publication_policy": "Правила DGB для репозиториев (поданную версию — в любой момент)",
+    "fit": "Большие статьи о Юлии Валерии, Метцской эпитоме, ε-редакции (VIII в.), Поллуксе",
+    "url": "https://www.degruyterbrill.com/journal/key/MJB/html"
+   },
+   {
+    "name": "Philologus",
+    "language": "DE/EN и др. (подробно не проверено)",
+    "type": "Журнал (De Gruyter Brill); греческая и латинская литература, история науки",
+    "publishes_translations": "Да, в составе статей: недавняя статья в OA даёт исправленный текст с переводом и комментарием (Григорий Назианзин)",
+    "open_access_and_licence": "Гибридный журнал; отдельные статьи в OA",
+    "indexing": "Scopus, A&HCI, ERIH PLUS (по странице издателя)",
+    "ai_policy": "Политика De Gruyter Brill (09.2026)",
+    "prior_publication_policy": "Правила DGB для репозиториев",
+    "fit": "Текстологические и интерпретационные статьи с частичным переводом: схолии, Поллукс, музыкальные трактаты",
+    "url": "https://www.degruyterbrill.com/journal/key/phil/html"
+   },
+   {
+    "name": "Mnemosyne",
+    "language": "В основном EN; принимают FR, DE",
+    "type": "Журнал (Brill); греко-римская античность с опорой на тексты",
+    "publishes_translations": "Нет отдельной категории; цитаты на греческом и латыни сопровождаются переводом",
+    "open_access_and_licence": "Гибридный; OA под CC за APC",
+    "indexing": "A&HCI, ERIH PLUS, Scopus",
+    "ai_policy": "Brill отсылает к политике De Gruyter Brill; этика Brill: ИИ допустим при прозрачности по COPE",
+    "prior_publication_policy": "Правила 24.01.2024: поданную версию можно выкладывать в любой момент, принятую — без эмбарго; верстку издателя использовать нельзя",
+    "fit": "Филологические статьи и Miscellanea: схолии, Юлий Валерий, Поллукс",
+    "url": "https://brill.com/fileasset/downloads_products/Author_Instructions/MNEM.pdf"
+   },
+   {
+    "name": "Greek and Roman Musical Studies",
+    "language": "Предпочтительно EN; также FR, DE, IT и др.",
+    "type": "Журнал (Brill); древнегреческая и римская музыка и её рецепция",
+    "publishes_translations": "неясно",
+    "open_access_and_licence": "Гибридный; OA под CC за APC или по соглашениям",
+    "indexing": "Scopus, ERIH PLUS, RILM, L'Année philologique, ANVUR A",
+    "ai_policy": "Политика De Gruyter Brill/Brill",
+    "prior_publication_policy": "Правила 13.08.2025: поданную версию можно выкладывать в любой момент, принятую — без эмбарго",
+    "fit": "Исследования и частичные переводы греческих музыкально-теоретических трактатов",
+    "url": "https://brill.com/view/journals/grms/grms-overview.xml"
+   },
+   {
+    "name": "Classical Quarterly",
+    "language": "Английский",
+    "type": "Журнал (CUP / Classical Association); Греция и Рим до ок. конца VI в.",
+    "publishes_translations": "неясно",
+    "open_access_and_licence": "Гибридный; OA по соглашениям CUP",
+    "indexing": "В этой сессии не перепроверено",
+    "ai_policy": "CUP: ИИ заявить и объяснить; ИИ не автор; автор отвечает; без нарушения правил о плагиате",
+    "prior_publication_policy": "Препринт-политика CUP: версию до подачи можно выкладывать где угодно, это не предварительная публикация",
+    "fit": "Статьи о схолиях, Поллуксе, Юлии Валерии, Метцской эпитоме; Евстафий — вне хронологии журнала",
+    "url": "https://www.cambridge.org/core/journals/classical-quarterly/information/instructions-contributors"
+   },
+   {
+    "name": "Translated Texts for Historians / from Antiquity / for Byzantinists (Liverpool UP)",
+    "language": "Английский",
+    "type": "Книжные серии переводов: TTA — до ~300 г., TTH — 300–800 гг., TTB — после 800 г.",
+    "publishes_translations": "Да, это их основная задача: перевод с введением и примечаниями",
+    "open_access_and_licence": "Не OA по умолчанию (e-library и печать); возможности OA не проверены",
+    "indexing": "Книги — неприменимо",
+    "ai_policy": "не найдено (сайт LUP недоступен)",
+    "prior_publication_policy": "Не найдено; в заявке спрашивают о существующих переводах и правах на редакционную часть критического издания",
+    "fit": "Полные английские переводы: Юлий Валерий, Метцская эпитома (TTH); Поллукс (TTA); Евстафий, ε (TTB)",
+    "url": "https://cdn.shopify.com/s/files/1/0046/0600/1267/files/TTA_Proposal_Form.pdf?9"
+   },
+   {
+    "name": "Dumbarton Oaks Medieval Library",
+    "language": "Византийский греческий + английский на соседних страницах",
+    "type": "Книжная серия (Harvard UP)",
+    "publishes_translations": "Да: оригинальный текст с параллельным переводом",
+    "open_access_and_licence": "Не OA",
+    "indexing": "Книги — неприменимо",
+    "ai_policy": "не найдено; руководство для заявок высылают по запросу",
+    "prior_publication_policy": "не найдено",
+    "fit": "Византийские тексты, например ε-редакция Романа, в формате оригинал + перевод",
+    "url": "https://domedieval.org/contact/"
+   },
+   {
+    "name": "Open Book Publishers",
+    "language": "Английский",
+    "type": "Книжное OA-издательство; в т. ч. серии по антиковедению",
+    "publishes_translations": "Да: среди продукции заявлены «critical translations»",
+    "open_access_and_licence": "Diamond OA; без платы с авторов; в основном CC BY или CC BY-NC; права у автора",
+    "indexing": "Книги — неприменимо",
+    "ai_policy": "Официальной политики не найдено (только записи в блоге; сайт вернул 429)",
+    "prior_publication_policy": "не найдено",
+    "fit": "Полные аннотированные переводы в OA: корпус музыкальных трактатов, подборки схолий",
+    "url": "https://blogs.openbookpublishers.com/tag/ai/"
+   },
+   {
+    "name": "Erga-Logoi",
+    "language": "Подробно не проверено (итальянский журнал)",
+    "type": "Журнал (LED, Милан); древняя история, литература, право, культура",
+    "publishes_translations": "неясно",
+    "open_access_and_licence": "Diamond OA; CC BY-NC-ND 4.0; права сохраняет автор",
+    "indexing": "Scopus (значок на сайте); DOAJ",
+    "ai_policy": "не найдено",
+    "prior_publication_policy": "Работа должна быть оригинальной и не рассматриваться в другом месте",
+    "fit": "Статьи (до 15 000 слов) об историографии Александра, Метцской эпитоме, Юлии Валерии",
+    "url": "https://www.ledonline.it/index.php/Erga-Logoi/about/submissions"
+   },
+   {
+    "name": "Studia Ceranea",
+    "language": "EN, FR, DE, RU, IT",
+    "type": "Журнал (Lodz UP); Средиземноморье и Юго-Восточная Европа I–XVIII вв.: позднеантичные, византийские и славянские исследования",
+    "publishes_translations": "неясно",
+    "open_access_and_licence": "Diamond OA; CC BY / CC BY-NC-ND (DOAJ)",
+    "indexing": "WoS ESCI, Scopus (по сайту журнала); DOAJ",
+    "ai_policy": "Lodz UP (21.02.2025): в аннотации и начале текста указать инструмент, версию и все промпты; ИИ не автор",
+    "prior_publication_policy": "не найдено",
+    "fit": "Статьи по византинистике, в т. ч. на русском: ε-редакция, славянская рецепция Александрии",
+    "url": "https://czasopisma.uni.lodz.pl/sceranea/about"
+   },
+   {
+    "name": "Ancient History Bulletin",
+    "language": "EN, FR, DE, IT, ES",
+    "type": "Журнал (St Olaf College); древняя история от бронзового века до поздней античности",
+    "publishes_translations": "Да, есть прецедент: английский перевод Itinerarium Alexandri (Davies, AHB 12, 1998)",
+    "open_access_and_licence": "Green OA; CC BY 4.0; через 24 месяца статьи свободно доступны в репозитории",
+    "indexing": "не проверено",
+    "ai_policy": "не найдено",
+    "prior_publication_policy": "Рукопись не должна рассматриваться или быть принятой в другом месте",
+    "fit": "Аннотированные переводы коротких текстов о походах Александра; исторические заметки",
+    "url": "https://ancienthistorybulletin.org/about-us/"
+   },
+   {
+    "name": "Graeco-Latina Brunensia",
+    "language": "IT, FR, DE, EN, ES",
+    "type": "Журнал (Университет Масарика); классическая филология, история, византинистика",
+    "publishes_translations": "неясно",
+    "open_access_and_licence": "Diamond OA; CC BY-SA; права сохраняет автор (DOAJ)",
+    "indexing": "DOAJ; остальное не проверено",
+    "ai_policy": "не найдено",
+    "prior_publication_policy": "не найдено",
+    "fit": "Запасная площадка для статей об античных и византийских текстах",
+    "url": "https://doaj.org/toc/2336-4424"
+   },
+   {
+    "name": "thersites",
+    "language": "Подробно не проверено",
+    "type": "Журнал; рецепция античности",
+    "publishes_translations": "неясно",
+    "open_access_and_licence": "Diamond OA; CC BY 4.0; права у автора (DOAJ)",
+    "indexing": "DOAJ",
+    "ai_policy": "не найдено",
+    "prior_publication_policy": "не найдено",
+    "fit": "Работы о рецепции Романа об Александре (вып. 20, 2025, включал такие материалы)",
+    "url": "https://www.thersites-journal.de/index.php/thr/about"
+   },
+   {
+    "name": "Journal of Late Antiquity",
+    "language": "Английский",
+    "type": "Журнал (Johns Hopkins UP); поздняя античность",
+    "publishes_translations": "неясно",
+    "open_access_and_licence": "Гибридный (у JHUP есть gold OA); финальную рукопись можно выложить только в институциональный, не дисциплинарный репозиторий",
+    "indexing": "не проверено",
+    "ai_policy": "JHUP: работы, «substantially written» ИИ, не принимаются; нужна вводная декларация и ссылка на каждое использование ИИ",
+    "prior_publication_policy": "Самоархивирование JHUP ограничено (см. выше)",
+    "fit": "Только статьи, написанные человеком (Юлий Валерий, позднеантичный Александр); ИИ-переводы сюда не подавать",
+    "url": "https://press.jhu.edu/journals/journal-late-antiquity"
+   },
+   {
+    "name": "Eikasmos",
+    "language": "Подробно не проверено (итальянский журнал)",
+    "type": "Журнал (Болонья); текстология, экзегеза, история классической филологии; при нём серии Studi и Sussidi",
+    "publishes_translations": "неясно",
+    "open_access_and_licence": "Отложенный OA: выпуски открываются через 12 месяцев после выхода",
+    "indexing": "не проверено",
+    "ai_policy": "не найдено",
+    "prior_publication_policy": "не найдено",
+    "fit": "Текстологические заметки о схолиях, Евстафии, Поллуксе",
+    "url": "https://www2.classics.unibo.it/eikasmos/index.php?lang=en"
+   }
+  ],
+  "verification": {
+   "checked": [
+    {
+     "claim": "GRBS: правила от 15.09.2026 требуют сообщать редакторам о любом использовании ИИ при подаче",
+     "verdict": "confirmed",
+     "correction": "Подтверждено. В PDF Guidelines for Authors (колонтитул «updated: 09.15.2026», п. (a)1) сказано: «Any use of AI must be disclosed to the editors upon submission». На HTML-странице Submissions об ИИ ничего нет: требование есть только в PDF. Уточнение к графе «publishes_translations»: Checklist of Editions там упомянут только как список сокращений для папирусов (papyri.info). К переводам он отношения не имеет, и ссылаться на него как на довод бессмысленно.",
+     "source": "https://classics.uc.edu/grbs/static/GRBS_Guidelines_for_Authors_v2_2026.pdf"
+    },
+    {
+     "claim": "GRBS: авторам рекомендуют выкладывать работу в сеть до подачи и во время рецензирования; в чек-листе — «ранее не публиковалась»; CC BY, права у автора",
+     "verdict": "confirmed",
+     "correction": "Подтверждено. Это стандартная формулировка OJS: «permitted and encouraged to post their work online… prior to and during the submission process». В чек-листе: «has not been previously published… (or an explanation has been provided in Comments to the Editor)», то есть прежнюю публикацию на портале можно объяснить в комментарии редактору. Лицензия CC BY (ссылка ведёт на CC BY 3.0, в DOAJ указано «CC BY»), APC нет. Оговорка: PDF-правила требуют двойного слепого рецензирования, и название статьи не должно находиться через Google. Это противоречит открытой публикации того же материала на портале под именем автора.",
+     "source": "https://grbs.library.duke.edu/index.php/grbs/about/submissions ; https://doaj.org (запись 2159-3159)"
+    },
+    {
+     "claim": "Histos: приём новых заявок в Supplements приостановлен с 2022 г.",
+     "verdict": "corrected",
+     "correction": "Не с 2022, а с 2023 года: «As of 2023, Histos has suspended new submissions for the Supplement series… for now we cannot accept new titles». Сам журнал статьи принимает (EN, FR, DE, IT).",
+     "source": "https://histos.org/index.php/histos/submit"
+    },
+    {
+     "claim": "Histos: CC BY-NC-ND 4.0 (с 2024 г.), без платы; ERIH PLUS, ANVUR Classe A, DOAJ; препринт в сети должен ссылаться на итоговую публикацию",
+     "verdict": "confirmed",
+     "correction": "Подтверждено. CC BY-NC-ND 4.0 действует для статей с 2024 года, плата не взимается никогда. ERIH PLUS и ANVUR Classe A (сектора D1–D4) указаны на странице About. Журнал есть в DOAJ (CC BY-NC-ND, APC нет, добавлен 21.07.2026). Формулировка о препринтах: «Pre-print versions posted online should include a citation and link to the final published version». Политики по ИИ на сайте нет.",
+     "source": "https://histos.org/index.php/histos/about ; DOAJ API (ISSN 2046-5963)"
+    },
+    {
+     "claim": "Ancient Narrative + Supplementa: OA без платы с авторов, лицензия Creative Commons; журнал и серия University of Groningen Press",
+     "verdict": "corrected",
+     "correction": "Верно только для журнала: «There is no financial contribution from authors… Open access upon publication». Для серии Ancient Narrative Supplements условия иные: OA сразу после выхода стоит €4000, OA через год — €2000, без оплаты автор может распространять книгу только через два года. Для плана «полный перевод как том Supplementum» это существенно. Конкретная лицензия CC нигде не названа, есть только логотип CC. Издателем AN на странице About названо Barkhuis Publishing, University of Groningen Press — платформа-хостинг. Правило: «All Greek and Latin must be accompanied by a translation».",
+     "source": "https://ancientnarrative.com/about ; https://ancientnarrative.com/about/submissions"
+    },
+    {
+     "claim": "Dumbarton Oaks Papers: любое генеративное или вспомогательное ИИ раскрывается при подаче и в публикации; ИИ не автор; ответственность несёт автор",
+     "verdict": "confirmed",
+     "correction": "Подтверждено. Раздел «Artificial Intelligence» требует раскрывать любое использование ИИ при подготовке рукописи с указанием инструментов и способа применения. ИИ не может быть автором (со ссылкой на COPE), за материал, созданный ИИ, отвечает автор. В разделе об авторстве есть дублирующая фраза с огрехом копипаста: «…disclosed when a book proposal is submitted and… in the final publication».",
+     "source": "https://www.doaks.org/resources/publications/series/dopapers/about-us/ethics"
+    },
+    {
+     "claim": "Dumbarton Oaks Papers: рукопись не должна рассматриваться в другом месте; повторное использование опубликованного (самоплагиат) запрещено — отклонение без апелляции; CC BY-NC-ND, APC нет, права у Dumbarton Oaks, OA с 2023 г.",
+     "verdict": "corrected",
+     "correction": "Запрет на text recycling подтверждён: «Reuse of previously published material… is prohibited… rejected without any option for appeal». Требования «не рассматриваться в другом месте» нет ни на странице Ethics, ни на странице Policies, это не подтверждено. CC BY-NC-ND, отсутствие APC и права Dumbarton Oaks (Trustees for Harvard University) подтверждены на странице Policies. Год перехода на OA там не указан; в DOAJ журнал добавлен 25.09.2023. Практический вывод: тексты, уже опубликованные на портале, в статью для DOP переносить нельзя.",
+     "source": "https://www.doaks.org/resources/publications/series/dopapers/about-us/ethics ; https://www.doaks.org/resources/publications/series/dopapers/about-us/policies"
+    },
+    {
+     "claim": "Политика De Gruyter Brill по ИИ (09.2026): раскрывать существенный вклад ИИ; статьи, сгенерированные ИИ, не принимаются; не загружать в ИИ тексты под авторским правом",
+     "verdict": "confirmed",
+     "correction": "Подтверждено. Страница «AI-Policy for Authors» помечена «As of September 2026». Статьи, сгенерированные ИИ, не принимаются; раскрывать нужно, если вывод ИИ «significantly contributed to any part of your manuscript», корректуру раскрывать не требуется. Материалы под авторским правом вводить в ИИ запрещено, если правообладатель не разрешил или нет гарантии, что данные не сохраняются и не идут на обучение. Это прямо касается загрузки критических изданий в LLM. Политика применяется к Byzantinische Zeitschrift, Millennium и Philologus. Brill на своей странице этики тоже отсылает к ней: «Read De Gruyter Brill's AI policy for authors».",
+     "source": "https://www.degruyterbrill.com/publishing/for-authors/author-policies/artificial-intelligence ; https://brill.com/page/ethics/publication-ethics-cope-compliance"
+    },
+    {
+     "claim": "Правила De Gruyter для репозиториев: поданную версию можно выкладывать в любой момент, принятую — после эмбарго",
+     "verdict": "confirmed",
+     "correction": "Подтверждено: AOM/SMUR можно выкладывать «at any time». Принятую рукопись (AM) можно сразу положить в закрытый депозит, открыто — через 12 месяцев для гуманитарных наук, считая от онлайн-публикации. Оговорка: политика относится к журналам De Gruyter, а отдельные журналы или общества могут устанавливать свои правила.",
+     "source": "https://www.degruyterbrill.com/publishing/for-authors/author-policies/repository-policy-journals"
+    },
+    {
+     "claim": "Millennium: OA по модели Subscribe to Open, лицензия CC, бесплатно для авторов; в индексации указан только L'Année philologique, Scopus/ERIH не указаны",
+     "verdict": "corrected",
+     "correction": "S2O подтверждено: «open access via Subscribe to Open (S2O). All accepted articles will be published under a Creative Commons license at no cost to authors», в карточке указано CC BY 4.0. Индексация описана неверно: L'Année philologique — лишь одна из примерно 35 служб в списке (также ATLA, BIBP, IBZ, MLA International Bibliography, Index Copernicus, PhilPapers, Dimensions и др.). Верно, что Scopus, Web of Science и ERIH PLUS в списке отсутствуют. Для сравнения: у Byzantinische Zeitschrift и Philologus Scopus, A&HCI и ERIH PLUS указаны.",
+     "source": "https://www.degruyterbrill.com/journal/key/mjb/html ; https://www.degruyterbrill.com/journal/key/byzs/html"
+    },
+    {
+     "claim": "Mnemosyne (правила 24.01.2024) и GRMS (13.08.2025): поданную версию можно выкладывать в любой момент, принятую — без эмбарго; вёрстку издателя использовать нельзя",
+     "verdict": "confirmed",
+     "correction": "Подтверждено для обоих PDF («Last revised on 24 Jan 2024» и «Last revised on 13 August 2025»). Автор может самоархивировать поданную версию «at any time», а принятую — «without any embargo period». Вёрстку издателя в репозиториях использовать нельзя. В правилах Mnemosyne есть отдельные указания по оформлению переводов и критического аппарата.",
+     "source": "https://brill.com/fileasset/downloads_products/Author_Instructions/MNEM.pdf ; https://brill.com/fileasset/downloads_products/Author_Instructions/GRMS.pdf"
+    },
+    {
+     "claim": "Classical Quarterly / CUP: ИИ заявить и объяснить, ИИ не автор, автор отвечает, без нарушения правил о плагиате; препринт до подачи можно выкладывать где угодно, это не предварительная публикация",
+     "verdict": "confirmed",
+     "correction": "Подтверждено. Политика CUP: «AI use must be declared and clearly explained»; ИИ не может быть автором; автор отвечает за работу; использование ИИ не должно нарушать политику о плагиате. О препринтах: «share any pre-submission version… anywhere, at any time, under any licence», а размещение препринта «shall not be viewed as prior publication». При этом рукопись не должна быть ранее опубликована в журнале, книге «or similar entity». Вопрос, считается ли публикация на портале Neoscholia «similar entity», остаётся открытым. Хронологические рамки CQ (до конца VI в. н. э.) и лимит 12 000 слов подтверждены. Отдельного правила по ИИ на странице самого журнала нет.",
+     "source": "https://www.cambridge.org/core/services/publishing-ethics/authorship-and-contributorship-journals ; https://www.cambridge.org/core/services/open-research-policies/preprint-policy ; https://www.cambridge.org/core/journals/classical-quarterly/information/instructions-contributors"
+    },
+    {
+     "claim": "Studia Ceranea: политика Lodz UP (21.02.2025) — указать инструмент, версию и все промпты в аннотации и начале текста; ИИ не автор; политика о прежней публикации не найдена",
+     "verdict": "corrected",
+     "correction": "Политика по ИИ по существу подтверждена. Нужно указать дату и время запросов, название, версию и модель инструмента, цель и объём использования, а также «all full prompts used». Сведения помещаются в аннотацию и начальные разделы, например в раздел «Declaration of GAI Use in the Writing Process», и дублируются в сопроводительном письме. ИИ не может быть автором. Дату 21.02.2025 на странице проверить не удалось. Ошибка в графе о прежней публикации: в чек-листе подачи есть требование «has not been previously published, nor is it before another journal for consideration». Кроме того, автор декларирует, что не использовал генеративный ИИ, а если использовал, называет инструмент и цель в поле «Comments for the Editor». Языки EN/FR/DE/RU/IT подтверждены.",
+     "source": "https://czasopisma.uni.lodz.pl/sceranea/ai_policy ; https://czasopisma.uni.lodz.pl/sceranea/about/submissions"
+    },
+    {
+     "claim": "Journal of Late Antiquity / JHUP: работы, «substantially written» ИИ, не принимаются; нужна вводная декларация и ссылка на каждое использование ИИ",
+     "verdict": "confirmed",
+     "correction": "Подтверждено по официальному PDF «Generative AI Policy»; ссылка на него есть на странице Journal Authors, а текст пришлось расшифровывать из-за подмены шрифтов. Формулировка: «The Press will not accept any work that is substantially written by an AI or LLM tool». Раскрытие двоякое: общее заявление в начале статьи и цитирование каждого использования ИИ, как внешнего источника. Дополнительно из правил JLA: статьи «must not have appeared previously in another venue» и не должны рецензироваться в другом месте; объём обычно до 10 000 слов. Утверждение о самоархивировании (только институциональный репозиторий) проверить не удалось: на страницах Author FAQs и Ethics его нет.",
+     "source": "https://www.press.jhu.edu/sites/default/files/media/2023/07/Generative%20AI%20for%20Authors_final_0.pdf ; https://www.press.jhu.edu/journals/journal-late-antiquity"
+    },
+    {
+     "claim": "Open Book Publishers: «critical translations» среди продукции; Diamond OA; официальной политики по ИИ нет (только блог)",
+     "verdict": "corrected",
+     "correction": "Слова «critical translations» и отсутствие обязательной платы подтверждены («We don't charge our authors mandatory open access fees»); права остаются у автора, и он сам выбирает открытую лицензию. Утверждение об ИИ неверно: на сайте есть официальная страница «How we are using AI», ссылка на неё стоит на странице Information for Authors. Издательство описывает там, как само применяет ИИ (индексы, черновики аннотаций, alt-текст), и «asking authors to disclose their use of AI tools in research». Запрета нет, но раскрытие ожидается.",
+     "source": "https://www.openbookpublishers.com/about ; https://www.openbookpublishers.com/information-for-new-authors/how-we-are-using-AI"
+    },
+    {
+     "claim": "Ancient History Bulletin: Green OA, CC BY 4.0, через 24 месяца статьи свободны; рукопись не должна рассматриваться в другом месте; прецедент перевода — Itinerarium Alexandri (Davies, AHB 12, 1998)",
+     "verdict": "confirmed",
+     "correction": "Подтверждено. Формулировки: «24 months after publication articles are freely accessible in an institutional or subject archive», лицензия Creative Commons Attribution 4.0, рукопись «not under consideration or accepted for publication elsewhere». Перевод Дэвиса: Iolo Davies, «Alexander's Itinerary… An English Translation», AHB 12 (1998) 29–54. Эта ссылка проверена только по вторичному источнику (Википедия), не по архиву AHB. Политики по ИИ на сайте нет.",
+     "source": "https://ancienthistorybulletin.org/about-us/ ; https://en.wikipedia.org/wiki/Itinerarium_Alexandri"
+    },
+    {
+     "claim": "Erga-Logoi: Diamond OA, CC BY-NC-ND 4.0, права у автора; Scopus, DOAJ; статьи до 15 000 слов",
+     "verdict": "corrected",
+     "correction": "Лицензия CC BY-NC-ND 4.0, сохранение прав автором, отсутствие APC и требование «original and not under consideration for publication elsewhere» подтверждены. Scopus указан на странице подачи, DOAJ подтверждён (с 2020 г.). Ошибка в объёме: максимум 9 000 слов, а не 15 000; аннотация до 200 слов. Языки по DOAJ: EN, IT, FR, DE, ES.",
+     "source": "https://www.ledonline.it/index.php/Erga-Logoi/about/submissions ; DOAJ API (ISSN 2282-3212)"
+    }
+   ],
+   "summary": "Я перепроверил 17 утверждений, в основном по первоисточникам; одно подтверждено лишь вторичным источником (Википедия). Подтверждены 11, исправлены 6.\n\n**Подтверждено:**\n- **Политики по ИИ:** GRBS — правила от 15.09.2026 требуют сообщать редакторам о любом использовании ИИ. Также подтверждены политики Dumbarton Oaks Papers, De Gruyter Brill (с сентября 2026 г.; Brill отсылает к ней же), CUP и JHUP: работы, «substantially written» с помощью ИИ, не принимаются.\n- **Препринты и репозитории:** подтверждены правила De Gruyter, Brill (Mnemosyne, GRMS), CUP и Histos, а также CC BY-NC-ND 4.0 у Histos и данные DOAJ.\n- **Прочее:** подтверждены параметры OA и прецедент перевода у Ancient History Bulletin (перевод Дэвиса проверен только по Википедии).\n\n**Исправлено:**\n- **Histos:** приём заявок в Supplements приостановлен с 2023 г., а не с 2022 г.\n- **Ancient Narrative:** бесплатен только журнал. Открытый доступ для тома Supplements стоит €4000 сразу после выхода или €2000 через год; без оплаты автор может распространять книгу лишь через два года. Конкретная лицензия CC нигде не названа. Издателем на сайте указано Barkhuis.\n- **Dumbarton Oaks Papers:** требования «не рассматриваться в другом месте» на страницах Ethics и Policies нет. Запрет на повторное использование опубликованного подтверждён, поэтому материалы, уже выложенные на портале, в статью для DOP переносить нельзя.\n- **Millennium:** в индексации указано около 35 служб, а не только L'Année philologique. Scopus, WoS и ERIH PLUS там действительно нет.\n- **Studia Ceranea:** правило о прежней публикации есть в чек-листе подачи. Кроме того, автор должен декларировать использование ИИ.\n- **Open Book Publishers:** официальная страница об ИИ существует и просит авторов раскрывать его использование.\n- **Erga-Logoi:** лимит 9 000 слов, а не 15 000.\n\n**Важно для решения:**\n- **Загрузка изданий в LLM:** политика De Gruyter Brill запрещает загружать в ИИ материалы под авторским правом без разрешения правообладателя. Это касается критических изданий.\n- **Анонимность в GRBS:** название статьи не должно находиться через Google, а это противоречит публикации того же материала на портале под именем автора.\n- **Препринты CUP:** публикация в журнале, книге или «similar entity» считается прежней. Неясно, отнесут ли к ним портал Neoscholia.\n\n**Не проверено:** утверждение JLA о самоархивировании только в институциональном репозитории и дата 21.02.2025 у политики Lodz UP.\n\nПолитика JHUP по ИИ лежит в PDF, недоступном для обычного скачивания; текст я извлёк через браузер. Лимит веб-поиска сессии исчерпан, поэтому остальные проверки делались прямой загрузкой страниц (WebFetch, curl, браузер)."
+  }
+ },
+ {
+  "key": "dh-infrastructure",
+  "report_markdown": "## Bottom line\n- **Methodology/data papers:** the cheapest good fits are DHQ (no fee; ESCI, Scopus accepted; its AI policy explicitly allows AI for translation if disclosed), JOHD (data papers, £1,070 APC with waivers), JDMDH (diamond overlay), and the ACL-family workshops (NLP4DH, ALP, LT4HALA, LaTeCH-CLfL; all published in the ACL Anthology). Every 2026 cycle is closed, so aim at the 2027 editions (LT4HALA in 2028).\n- **Citability:** start now with Zenodo, which gives free DataCite DOIs plus concept/version DOIs. Join Crossref only once the portal is a real serial run by an organisation. Russia-based applicants go through sanctions checks.\n- **Disclosure:** COPE, ICMJE and the publishers agree. AI is never an author. Disclose the tool, version, task and how you verified the output. A human is accountable. Since 2025, COPE lists undisclosed AI involvement as grounds for retraction.\n\n## 1. Methodology / DH venues (details in venue list)\n- **DHQ** ([AI policy](https://dhq.digitalhumanities.org/submissions/ai_policies.html)): rejects AI content \"in which the human author does not have direct agency\". AI-generated content is allowed when relevant to the topic and disclosed, which suits a paper *about* LLM translation. Papers whose citations point to non-existent sources are declined. Material published in another language or on a blog is OK ([guidelines](https://dhq.digitalhumanities.org/submissions/index.html)).\n- **DSH** (OUP; AHCI/SSCI/Scopus): hybrid OA with a fee. A separate AI disclosure statement is required ([instructions](https://academic.oup.com/dsh/pages/General_Instructions)).\n- **JOHD** ([guidelines](https://openhumanitiesdata.metajnl.com/about/submissions)): 1,000–1,500-word data papers. The data must already be in a repository with a DOI (e.g. Zenodo). AI use is allowed if declared, and invented references count as misconduct.\n- **JDMDH** ([policies](https://jdmdh.episciences.org/page/editorial-policies)): free, CC BY. You first deposit a preprint in HAL, arXiv or Zenodo. It has special issues on NLP for DH and on intertextuality in ancient languages.\n- **ACL workshops:** NLP4DH 2026 was at ACL in San Diego, deadline 5 Mar 2026 ([CFP](https://www.aclweb.org/portal/node/14384)). LT4HALA 2026 was at LREC on 11 May 2026 ([site](https://circse.github.io/LT4HALA/2026/)). The latest ALP was in 2025 at NAACL ([proceedings](https://aclanthology.org/volumes/2025.alp-1/)), and I found no 2026 edition. LaTeCH-CLfL 2026 was in Rabat. The [ACL AI policy](https://2023.aclweb.org/blog/ACL-2023-policy/) forbids AI authors and requires disclosure. ACL has had no anonymity period since 2024 ([ARR](https://aclrollingreview.org/anonymity)), so preprints are fine. Reviewers will expect quantitative evaluation (error annotation, agreement between models).\n- **CHR:** the next conference is CHR 2027 in Manchester, 5–8 Jan 2027; its paper deadline (14 Aug 2026) has passed. Proceedings go to the ACH [Anthology](https://anthology.ach.org/), which issues DOIs. The [CHR journal](https://www.cambridge.org/core/journals/computational-humanities-research/information/about-this-journal) charges an APC of up to US$3,550 and offers waivers.\n- **Other:** Digital Classics Online (Heidelberg; free, CC BY; DE/EN/FR/IT), Umanistica Digitale (free; Scopus/ERIH PLUS), RDJ (diamond-OA data papers). *Digital Philology* covers medieval vernacular texts, so it is a poor fit.\n- **Russia:** «Историческая информатика» (Nota Bene; ВАК, RSCI; [site](https://nbpublish.com/e_istinf/)). Dialogue ([dialogue-conf.org](https://dialogue-conf.org/)) publishes proceedings indexed in Scopus and RSCI, but focuses on the Russian language. That suits an evaluation of LLM translation *into Russian*. For AIK («История и компьютер»), DH Russia and DHTE I could not verify any 2026 call.\n\n## 2. Infrastructure\n- **DOIs:**\n  - [Zenodo](https://about.zenodo.org/policies/): free, 50 GB per record, metadata CC0. Each upload gets a version DOI plus a concept DOI for \"all versions\" ([versioning](https://blog.zenodo.org/2017/05/30/doi-versioning-launched)). Create a \"Neoscholia\" community.\n  - [Crossref](https://www.crossref.org/fees/): membership is for organisations. US$275/yr (revenue up to $1M) or $200 (under $1k), plus $1 per current journal article and $0.25 per posted-content item. You must keep landing pages and metadata up to date. Russia-based applicants face [sanctions checks](https://crossref.org/operations-and-sustainability/membership-operations/sanctions) and cannot get Similarity Check. NEICON is a Russian Crossref sponsor.\n  - [Knowledge Commons Works](https://support.hcommons.org/what-is-kcworks/): free, issues DOIs, and is indexed by Google Scholar.\n  - **Linking RU and EN versions:** give each language its own DOI and connect them with DataCite 4.6 `IsTranslationOf`/`HasTranslation` and `contributorType=Translator` ([DataCite](https://support.datacite.org/docs/how-can-i-represent-resources-that-have-been-translated-into-different-languages-using-the-datacite-metadata-schema)).\n- **ISSN:** you apply to the national centre of the country where the publisher is based. Russia's centre is now part of the Russian State Library (RSL), formerly the Book Chamber ([ISSN](https://50years.issn.org/stories/issn-russia)). A website or database qualifies if it has editorial text, an editorial team (usually more than one person), a stable title and a URL. Personal sites do not qualify, and online ISSNs are assigned only after publication ([rules](https://www.issn.org/understanding-the-issn/assignment-rules/the-issn-for-electronic-media/)). Registering a site as СМИ is optional under Russian law: an unregistered site is simply not СМИ ([БРЭ](https://bigenc.ru/c/setevoe-izdanie-legal-naia-definitsiia-f7bb04)). I could not confirm whether RSL demands СМИ registration before issuing an ISSN; ask them. Secondary sources say RSCI (РИНЦ) inclusion needs an ISSN, СМИ registration and about 2 years of issues (unverified).\n- **Google Scholar** ([guidelines](https://scholar.google.com/intl/en/scholar/inclusion.html)):\n  - One URL per item, in HTML or PDF.\n  - Required tags: `citation_title`, `citation_author`, `citation_publication_date`; add `citation_journal_title`/ISSN and `citation_pdf_url`.\n  - No login wall. robots.txt must allow crawling.\n  - Scholar handles multilingual records poorly, so give each language version its own page ([PKP](https://docs.pkp.sfu.ca/multiling-guide/en/discovery)).\n  - Editorials and similar items are excluded.\n- **ORCID:** free for individuals. Put your ORCID in the Zenodo or Crossref metadata and the works are added to your ORCID record automatically ([auto-update](https://info.orcid.org/auto-update-has-arrived-orcid-records-move-to-the-next-level)).\n- **arXiv cs.CL:**\n  - CS review and position papers need prior peer review (Oct 2025).\n  - Since 21 Jan 2026 an institutional email alone no longer gets you endorsed ([blog](https://blog.arxiv.org/2026/01/21/attention-authors-updated-endorsement-policy/)).\n  - Since 11 Feb 2026 a full English version is required; a faithful machine translation is accepted.\n  - From 1 Oct 2026, at most 2 submissions a month ([blog](https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/)).\n  - Use it only for empirical method papers.\n- **OSF Preprints:** human moderation before posting; issues Crossref DOIs ([help](https://help.osf.io/article/592-preprint-moderation)).\n\n## 3. AI authorship and credit norms\n- [COPE position statement](https://publicationethics.org/cope-position-statements/ai-author) (2023; the page blocked automated fetching, so this is from its widely quoted text): AI cannot be an author. Disclose the tool and how it was used in Methods or a similar section.\n- COPE retraction guidelines v3 (2025) list \"undisclosed involvement of artificial intelligence\" as grounds for retraction ([Retraction Watch](https://retractionwatch.com/2025/09/04/new-cope-retraction-guidelines-address-paper-mills-third-parties-and-more/)).\n- [ICMJE](https://www.icmje.org/recommendations/browse/artificial-intelligence/ai-use-by-authors.html):\n  - Disclose AI use in the cover letter and in the manuscript.\n  - Citing AI-generated material as the primary source is not acceptable.\n  - Not disclosing can count as misconduct.\n- **Implication for your articles:** cite the human-verified, DOI-versioned portal translation, not raw model output.\n- Publisher rules agree: [Cambridge](https://www.cambridge.org/core/services/publishing-ethics/authorship-and-contributorship-journals) and OUP (DSH) say the same.\n- **Disclosure frameworks:** GAIDeT ([doi:10.1080/08989621.2025.2544331](https://doi.org/10.1080/08989621.2025.2544331)) and the AID statement ([C&RL News](https://crln.acrl.org/index.php/crlnews/article/view/26548/34482)).\n- **Translation-industry practice:** ISO 18587 defines \"full post-editing\". Danish industry practice is to credit machine-translation post-editors as *editors*, not *translators* ([CEATL](https://www.ceatl.eu/?p=18389)). So do not write simply \"translated by X\" unless you substantially retranslated the text.\n- **Suggested credit, EN:** \"Translation prepared with large language models ([models, versions, dates]; prompts and logs: DOI), cross-reviewed by [models]; revised against the Greek text of [edition] and verified line by line by [Name] (ORCID), who is solely responsible for the text. AI systems are not authors.\"\n- **Suggested credit, RU:** «Перевод подготовлен с использованием больших языковых моделей (…); перекрёстная проверка — (…); сверка с изд. …, редактура и научная ответственность — [ФИО]».\n\n## 4. Three-track strategy\n1. **Translations (portal):**\n   - Each text gets a Zenodo record with a version DOI, plus a concept DOI for the work. RU and EN are separate records linked as translations. License CC BY 4.0. Include ORCID.\n   - Portal pages carry citation_* tags and a PDF.\n   - Once you have an editorial board (more than one person) and published items, apply for an ISSN for \"Neoscholia\" as an integrating resource or serial.\n   - Consider your own DOI prefix through Crossref (or a sponsor) only later.\n   - Before offering any translation to a journal, check its prior-publication rule.\n2. **Content research articles:**\n   - Classics journals (covered in the other report). Also the Russian ВАК/RSCI journals, because those count in Russia.\n   - Cite your portal translations by their DOIs, and disclose AI use in Methods/Acknowledgements.\n   - Each article's novelty lies in the source analysis, not in the translation itself.\n3. **Methodology and data:**\n   - (a) First deposit the corpus plus the multi-model review logs on Zenodo. Then write a JOHD data paper (APC waiver) or an RDJ data paper (free).\n   - (b) An empirical paper (error typology, human vs. model review agreement) for NLP4DH, ALP or LaTeCH-CLfL 2027 or LT4HALA 2028, with an arXiv preprint.\n   - (c) A reflective full article for DHQ (free) or JDMDH. Choose DSH for AHCI prestige.\n   - (d) In Russian: «Историческая информатика»; Dialogue for an evaluation of RU output.\n\n**Unverified:** 2027 workshop deadlines (inferred: around Feb–Mar for ACL events); JDMDH and Digital Classics Online indexing beyond DOAJ; AI policies of Digital Classics Online, Umanistica Digitale, «Историческая информатика» and Dialogue; RSL's ISSN document list; Белый список levels.",
+  "venues": [
+   {
+    "name": "Zenodo (CERN)",
+    "language": "Any",
+    "type": "Repository / DOI infrastructure; all fields",
+    "publishes_translations": "Yes (any research output; translations can be deposited as publications)",
+    "open_access_and_licence": "Free; depositor chooses licence (CC BY recommended); metadata CC0; 50 GB/record",
+    "indexing": "DataCite DOIs; OpenAIRE; picked up by Google Scholar/ORCID via metadata",
+    "ai_policy": "not found (general content policy only)",
+    "prior_publication_policy": "N/A; accepts preprints, postprints, datasets",
+    "fit": "DOIs for each portal translation (concept + version DOIs), RU/EN linked via DataCite IsTranslationOf; datasets of model outputs and review logs",
+    "url": "https://about.zenodo.org/policies/"
+   },
+   {
+    "name": "Journal of Open Humanities Data (JOHD)",
+    "language": "English",
+    "type": "Journal; humanities data papers and discussion papers",
+    "publishes_translations": "No (describes datasets, incl. classics)",
+    "open_access_and_licence": "Gold OA; APC £1,070 (waivers on request); CC licences",
+    "indexing": "Scopus, WoS ESCI, DOAJ",
+    "ai_policy": "AI use allowed; all AI-assisted content must be declared and verified; fabricated references are serious misconduct",
+    "prior_publication_policy": "Data must be deposited with a DOI before submission; preprint policy not stated",
+    "fit": "Data paper (1,000–1,500 words) on Neoscholia corpus of LLM translations plus multi-model review logs; discussion paper on the method",
+    "url": "https://openhumanitiesdata.metajnl.com/about/submissions"
+   },
+   {
+    "name": "Digital Humanities Quarterly (DHQ)",
+    "language": "English",
+    "type": "Journal; digital humanities (articles, case studies, field reports, reviews)",
+    "publishes_translations": "No",
+    "open_access_and_licence": "Free OA, no fees; CC BY-ND 4.0 default",
+    "indexing": "WoS ESCI; Scopus (accepted, indexing underway); Google Scholar",
+    "ai_policy": "AI not author; deprecates content lacking human agency; translation use allowed; substantive use disclosed; fake citations → decline",
+    "prior_publication_policy": "Unpublished original; related blog posts or publication in another language fine",
+    "fit": "Main methodology/reflective article or case study on the LLM translation-and-review pipeline",
+    "url": "https://dhq.digitalhumanities.org/submissions/ai_policies.html"
+   },
+   {
+    "name": "NLP4DH (Int. Conf. on NLP for Digital Humanities)",
+    "language": "English",
+    "type": "Conference/workshop at ACL; NLP for DH",
+    "publishes_translations": "No",
+    "open_access_and_licence": "ACL Anthology, free OA (CC BY)",
+    "indexing": "ACL Anthology; DBLP; Scopus coverage of workshop volumes not verified",
+    "ai_policy": "ACL policy: AI not author; disclose generative use (Responsible NLP checklist)",
+    "prior_publication_policy": "Double-blind, but ACL has had no anonymity period since 2024; preprints allowed",
+    "fit": "Empirical paper: LLM translation quality, multi-model review agreement on Greek scholia; 2026 edition held 6 Jul 2026 (deadline 5 Mar); target 2027",
+    "url": "https://www.aclweb.org/portal/node/14384"
+   },
+   {
+    "name": "LT4HALA (Language Technologies for Historical and Ancient Languages)",
+    "language": "English",
+    "type": "Workshop at LREC (biennial); ancient-language NLP",
+    "publishes_translations": "No",
+    "open_access_and_licence": "OA in LREC proceedings / ACL Anthology (2026.lt4hala-1)",
+    "indexing": "ACL Anthology",
+    "ai_policy": "not found (workshop page); LREC-level policy not verified",
+    "prior_publication_policy": "Original, unpublished, anonymised for double-blind review",
+    "fit": "LLMs applied to ancient texts explicitly in scope; 2026 held 11 May in Palma; next likely 2028",
+    "url": "https://circse.github.io/LT4HALA/2026/"
+   },
+   {
+    "name": "Journal of Data Mining & Digital Humanities (JDMDH)",
+    "language": "English (submission language)",
+    "type": "Overlay journal (Episciences); DH and data mining",
+    "publishes_translations": "No",
+    "open_access_and_licence": "Diamond OA, no fees; CC BY 4.0",
+    "indexing": "DOAJ; Scopus not verified",
+    "ai_policy": "not found",
+    "prior_publication_policy": "Requires prior preprint in HAL, arXiv or Zenodo; workshop papers may be expanded",
+    "fit": "Full methodology paper; special issues on NLP for DH and intertextuality in ancient languages",
+    "url": "https://jdmdh.episciences.org/page/editorial-policies"
+   },
+   {
+    "name": "Digital Scholarship in the Humanities (DSH)",
+    "language": "English",
+    "type": "Journal (OUP/EADH); digital humanities",
+    "publishes_translations": "No (material already published in translation not accepted)",
+    "open_access_and_licence": "Hybrid; OA requires open access charge (CC BY/CC BY-NC); green route with embargo",
+    "indexing": "AHCI, SSCI, Scopus (per OUP)",
+    "ai_policy": "Must disclose any generative/AI-ML tool use in separate statement; AI not author; humans fully accountable",
+    "prior_publication_policy": "Original unpublished; explicit preprint rule not stated",
+    "fit": "High-prestige full paper (≤9,000 words) on pipeline design and evaluation",
+    "url": "https://academic.oup.com/dsh/pages/General_Instructions"
+   },
+   {
+    "name": "ALP – Workshop on Ancient Language Processing",
+    "language": "English",
+    "type": "Workshop (RANLP 2023, NAACL 2025); ancient-language NLP",
+    "publishes_translations": "No",
+    "open_access_and_licence": "ACL Anthology, free OA",
+    "indexing": "ACL Anthology",
+    "ai_policy": "ACL policy (AI not author; disclose)",
+    "prior_publication_policy": "ACL rules: anonymous review, preprints allowed",
+    "fit": "Greek LLM translation/evaluation paper; no 2026 edition found, monitor for a third edition",
+    "url": "https://aclanthology.org/volumes/2025.alp-1/"
+   },
+   {
+    "name": "LaTeCH-CLfL (SIGHUM Workshop on CL for Cultural Heritage, Humanities and Literature)",
+    "language": "English",
+    "type": "ACL workshop; computational humanities",
+    "publishes_translations": "No",
+    "open_access_and_licence": "ACL Anthology, free OA",
+    "indexing": "ACL Anthology",
+    "ai_policy": "ACL policy (AI not author; disclose)",
+    "prior_publication_policy": "ACL rules; preprints allowed",
+    "fit": "Pipeline/evaluation short or long paper; 10th edition held 28–29 Mar 2026 in Rabat; watch 2027 CFP",
+    "url": "https://www.aclweb.org/portal/taxonomy/term/288"
+   },
+   {
+    "name": "Digital Classics Online",
+    "language": "German, English, French, Italian",
+    "type": "Journal (Heidelberg); digital classics",
+    "publishes_translations": "unclear",
+    "open_access_and_licence": "Diamond OA, no APC; CC BY",
+    "indexing": "DOAJ; others not verified",
+    "ai_policy": "not found (site blocked automated access)",
+    "prior_publication_policy": "not found",
+    "fit": "Classics-facing methods paper; digital-commentary case study (e.g., scholia)",
+    "url": "https://journals.ub.uni-heidelberg.de/index.php/dco"
+   },
+   {
+    "name": "Computational Humanities Research (CHR) conference + Anthology of Computers and the Humanities",
+    "language": "English",
+    "type": "Conference; computational humanities",
+    "publishes_translations": "No",
+    "open_access_and_licence": "OA proceedings in ACH Anthology (ISSN 3070-8931) with DOIs",
+    "indexing": "Anthology indexed via DOIs; Scopus not verified",
+    "ai_policy": "not found",
+    "prior_publication_policy": "not found",
+    "fit": "Quantitative evaluation of LLM translation/review; CHR 2027 Manchester 5–8 Jan 2027, deadline 14 Aug 2026 passed; target next edition",
+    "url": "https://computational-humanities-research.org/conference"
+   },
+   {
+    "name": "Computational Humanities Research (journal)",
+    "language": "English",
+    "type": "Journal (Cambridge UP); computational humanities",
+    "publishes_translations": "No",
+    "open_access_and_licence": "Gold OA since 2025; APC up to US$3,550 / £2,460, waivers possible",
+    "indexing": "DOAJ; ISSN 2977-8158; Scopus/WoS not verified",
+    "ai_policy": "Cambridge: AI not author; AI use must be declared and explained; authors accountable",
+    "prior_publication_policy": "not found",
+    "fit": "Full research article grounded in humanities questions using the pipeline",
+    "url": "https://www.cambridge.org/core/journals/computational-humanities-research/information/about-this-journal"
+   },
+   {
+    "name": "Umanistica Digitale",
+    "language": "Italian, English",
+    "type": "Journal (Bologna/AIUCD); digital humanities",
+    "publishes_translations": "No",
+    "open_access_and_licence": "Diamond OA, no fees; CC BY 4.0",
+    "indexing": "Scopus, DOAJ, ERIH PLUS",
+    "ai_policy": "not found",
+    "prior_publication_policy": "not found",
+    "fit": "Methodology article on generative AI in philology (journal runs a generative-AI agenda for DH)",
+    "url": "https://umanisticadigitale.unibo.it/about"
+   },
+   {
+    "name": "Research Data Journal for the Humanities and Social Sciences (RDJ)",
+    "language": "English",
+    "type": "Journal; data papers (moved to IISH/Openjournals 2025)",
+    "publishes_translations": "No",
+    "open_access_and_licence": "Diamond OA, no APC",
+    "indexing": "not verified",
+    "ai_policy": "not found",
+    "prior_publication_policy": "Dataset must be deposited (data paper model)",
+    "fit": "Free alternative to JOHD for data paper (≤2,500 words) on translation corpus",
+    "url": "https://openjournals.nl/en/journal/research-data-journal"
+   },
+   {
+    "name": "Историческая информатика (Historical Informatics)",
+    "language": "Russian",
+    "type": "Journal (Nota Bene/NB-Media); historical informatics, digital history",
+    "publishes_translations": "No evidence",
+    "open_access_and_licence": "OA; CC BY-NC (per CyberLeninka); fees not verified",
+    "indexing": "ВАК list (5.6.x); РИНЦ; ERIH PLUS per publisher (unverified); Белый список level not verified",
+    "ai_policy": "not found",
+    "prior_publication_policy": "not found",
+    "fit": "Russian methodology article on LLM translation of Byzantine/ancient sources; counts in Russian evaluation",
+    "url": "https://nbpublish.com/e_istinf/"
+   },
+   {
+    "name": "Dialogue (Компьютерная лингвистика и интеллектуальные технологии)",
+    "language": "English, Russian",
+    "type": "Annual conference; computational linguistics of Russian",
+    "publishes_translations": "No",
+    "open_access_and_licence": "OA proceedings online",
+    "indexing": "Scopus and РИНЦ (per conference site)",
+    "ai_policy": "not found",
+    "prior_publication_policy": "not found",
+    "fit": "Evaluation of LLM translation into Russian (Greek→RU quality, review agreement)",
+    "url": "https://dialogue-conf.org/"
+   },
+   {
+    "name": "arXiv cs.CL",
+    "language": "Any, but full English version required since 11 Feb 2026",
+    "type": "Preprint server; computation and language",
+    "publishes_translations": "No (research papers only)",
+    "open_access_and_licence": "Free; author picks licence (CC BY etc.)",
+    "indexing": "Google Scholar, Semantic Scholar, DataCite DOIs",
+    "ai_policy": "AI allowed if disclosed and up to scholarly standard; low-quality AI papers targeted; 2 submissions/month limit (Oct 2026)",
+    "prior_publication_policy": "Endorsement needed (institutional email alone insufficient since Jan 2026); CS review/position papers need prior peer review",
+    "fit": "Preprints of empirical methodology papers only",
+    "url": "https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/"
+   },
+   {
+    "name": "Knowledge Commons Works (ex-Humanities Commons CORE)",
+    "language": "Any",
+    "type": "Repository; humanities-oriented, NEH-designated",
+    "publishes_translations": "Yes (any scholarly work)",
+    "open_access_and_licence": "Free deposit and access; author-chosen licence",
+    "indexing": "Every work gets a DOI; indexed by Google Scholar",
+    "ai_policy": "not found",
+    "prior_publication_policy": "N/A (repository)",
+    "fit": "Humanities-community visibility for preprints, translations, and article postprints alongside Zenodo",
+    "url": "https://support.hcommons.org/what-is-kcworks/"
+   },
+   {
+    "name": "Crossref membership",
+    "language": "N/A",
+    "type": "DOI registration agency (organisations)",
+    "publishes_translations": "N/A",
+    "open_access_and_licence": "Annual US$200 (<$1k revenue) / $275 (<$1M); $1 per current article, $0.25 posted content",
+    "indexing": "Crossref metadata feeds Google Scholar, ORCID auto-update, Scopus etc.",
+    "ai_policy": "N/A",
+    "prior_publication_policy": "N/A; Russia/Belarus applicants undergo sanctions checks; Similarity Check unavailable for Russia-based members",
+    "fit": "Own DOI prefix once Neoscholia is an organisation-run serial; sponsor route e.g. NEICON",
+    "url": "https://www.crossref.org/fees/"
+   },
+   {
+    "name": "ISSN – Russian National ISSN Centre (RSL) / ISSN International Centre",
+    "language": "N/A",
+    "type": "Serial identifier infrastructure",
+    "publishes_translations": "N/A",
+    "open_access_and_licence": "Fees/documents for RSL not verified",
+    "indexing": "ISSN Portal",
+    "ai_policy": "N/A",
+    "prior_publication_policy": "Online resources assigned only after publication; need editorial content, editorial team (>1 person), stable title; personal sites ineligible",
+    "fit": "ISSN for Neoscholia as serial/integrating resource; СМИ registration optional under Russian law, RSL requirement unverified",
+    "url": "https://www.issn.org/understanding-the-issn/assignment-rules/the-issn-for-electronic-media/"
+   }
+  ],
+  "verification": {
+   "checked": [
+    {
+     "claim": "DHQ AI policy: AI cannot be an author; content lacking human agency is deprecated; AI for translation is allowed; substantive use must be disclosed; fake citations lead to the submission being declined",
+     "verdict": "confirmed",
+     "correction": "Correct, with one important nuance. The policy says authors 'may not use AI tools to generate the content of their submission'. Tools for 'identifying sources, creating diagrams, translating or clarifying language' are allowed. AI-generated portions are allowed only 'if the use of AI is thematically relevant to the article's topic' and disclosed. That exception fits a Neoscholia methods paper that quotes LLM output. Disclosure goes in the body of the article (methods section) or in an appendix. Hallucinated citations mean the submission is declined, the authors may be barred from resubmitting, and a published article can be removed after the fact. The policy follows COPE and has no version date.",
+     "source": "https://dhq.digitalhumanities.org/submissions/ai_policies.html"
+    },
+    {
+     "claim": "DHQ: unpublished original work required; related blog posts or publication in another language are fine; CC BY-ND 4.0 by default; no fees; WoS ESCI, Scopus accepted with indexing underway, Google Scholar",
+     "verdict": "confirmed",
+     "correction": "All confirmed. The submission guidelines say: 'Publication of related material on a blog, or publication in another language is fine.' The licence is CC BY-ND 4.0 by default, and individual articles may use a more permissive one. DHQ describes itself as diamond OA. The indexing page says DHQ is in ESCI, has a JIF (0.5 for 2024), is indexed in Google Scholar, and 'has recently been accepted for indexing in Scopus'. Preprints are not mentioned explicitly.",
+     "source": "https://dhq.digitalhumanities.org/submissions/index.html ; https://dhq.digitalhumanities.org/submissions/statistics.html"
+    },
+    {
+     "claim": "JOHD AI policy: AI use allowed; all AI-assisted content must be declared and checked; fabricated references count as serious misconduct",
+     "verdict": "confirmed",
+     "correction": "Correct. Quote: 'All content generated or assisted by AI must be declared and carefully reviewed.' Non-existent or misleading references, whether human- or AI-generated, are 'a serious breach of publication ethics and may result in rejection at any stage.' JOHD also refers authors to Ubiquity's publisher-level AI guidelines.",
+     "source": "https://openhumanitiesdata.metajnl.com/about/submissions"
+    },
+    {
+     "claim": "JOHD prior publication: data must be deposited with a DOI before submission; no preprint policy stated",
+     "verdict": "corrected",
+     "correction": "JOHD does have an explicit Preprint Policy. Papers posted on preprint servers or personal websites, or presented at conferences, are 'not deemed prior publication'. The preprint must be declared, with a link, in the cover letter. Papers already in formal conference proceedings are accepted only if they add substantially more data or analysis. The accepted manuscript may be posted under CC BY. On data, the rule is that the dataset must be '(at least partially) openly available with a persistent identifier' under an open licence such as CC0 or CC BY, in a suitable repository. A DOI as such is not required. Other details confirmed: APC £1,070 for both data and discussion papers, waivers on request at submission, CC BY, data papers 1,000–1,500 words, discussion papers 3,000–5,000 words. Indexing is confirmed on the About page: WoS ESCI (JIF 0.90 for 2025), Scopus (CiteScore 1.2), DOAJ.",
+     "source": "https://openhumanitiesdata.metajnl.com/about/editorialpolicies ; https://openhumanitiesdata.metajnl.com/about/submissions ; https://openhumanitiesdata.metajnl.com/about"
+    },
+    {
+     "claim": "JDMDH requires a prior preprint in HAL, arXiv or Zenodo; Diamond OA with no fees; CC BY 4.0; no AI policy found",
+     "verdict": "confirmed",
+     "correction": "Confirmed. The submissions page requires upload to 'une Archive ouverte reconnue par Episciences (actuellement HAL, Arxiv ou Zenodo)'. The editorial-policies page does not name the archives. Zenodo avoids the new arXiv endorsement hurdle (see the arXiv entry). There are no submission or reading fees; the journal calls this a 'green open access model without author fees', which is diamond in practice. Content is CC BY 4.0, the submission language is English, and expanded versions of workshop papers are explicitly allowed. The editorial policy has no AI clause. DOAJ lists the journal (eISSN 2416-5999) with no APC.",
+     "source": "https://jdmdh.episciences.org/page/submissions ; https://jdmdh.episciences.org/page/editorial-policies"
+    },
+    {
+     "claim": "DSH AI policy: any generative or AI/ML tool use must be disclosed in a separate statement; AI cannot be an author; humans are fully accountable. Material already published in translation is not accepted",
+     "verdict": "confirmed",
+     "correction": "Confirmed. Authors 'must disclose any use of generative or other AI/ML tools'. They must mention it in the cover letter and include an 'AI Disclosure Statement' naming the tool, its version and its purpose. AI tools 'must not be listed as authors'. Failure to disclose substantial AI use may be treated as a breach of publication ethics. Previously translated work is excluded: 'material already published in translation should not be submitted'. Full papers are capped at 9,000 words and short papers at 5,000. There is no explicit preprint rule.",
+     "source": "https://academic.oup.com/dsh/pages/General_Instructions"
+    },
+    {
+     "claim": "DSH indexing: AHCI, SSCI, Scopus (per OUP)",
+     "verdict": "corrected",
+     "correction": "OUP's DSH About page lists Scopus and the Social Sciences Citation Index, plus ProQuest, ABELL, LLBA, MLA-type bibliographies and others. It does not list the Arts & Humanities Citation Index or Current Contents. The AHCI claim should be dropped unless it is verified in Clarivate Master Journal List.",
+     "source": "https://academic.oup.com/dsh/pages/About"
+    },
+    {
+     "claim": "arXiv: a full English version has been required since 11 Feb 2026; limit of 2 submissions per month (Oct 2026); institutional email alone has not been enough for endorsement since Jan 2026; AI allowed if disclosed",
+     "verdict": "confirmed",
+     "correction": "All confirmed. The English-version rule took effect at 2 PM ET on 11 Feb 2026. In a multilingual paper the English version must come first. The endorsement policy changed on 21 Jan 2026. New submitters now need an institutional email plus prior authorship in the same endorsement domain, or a personal endorsement. An unaffiliated first-time author in cs.CL therefore needs a personal endorser. From 1 Oct 2026 each submitter may make up to two submissions per calendar month and have at most three active submissions; rejected submissions count toward the limit. The moderation policy requires reporting significant generative-AI use and says generative AI 'should not be listed as an author'.",
+     "source": "https://blog.arxiv.org/2026/01/13/non-english-paper-submission-guidelines/ ; https://blog.arxiv.org/2026/01/21/attention-authors-updated-endorsement-policy/ ; https://blog.arxiv.org/2026/10/01/updated-rate-limit-policy/ ; https://info.arxiv.org/help/moderation/index.html"
+    },
+    {
+     "claim": "arXiv publishes translations: No (research papers only)",
+     "verdict": "corrected",
+     "correction": "arXiv has a Translations policy: it 'does accept translations of previously published work, if that work has value to the scientific communities represented in arXiv.' The submitter must hold permission or be ready to assert that the source is in the public domain worldwide; a work published before 1880 is 'most likely' public domain. The title should name the original work and author. Translations of Greek scholia would almost certainly fail the community-value test for cs.CL, so in practice arXiv is for methods papers. The blanket 'No' is still inaccurate.",
+     "source": "https://info.arxiv.org/help/translations.html"
+    },
+    {
+     "claim": "Zenodo: 50 GB per record; metadata CC0; depositor chooses the licence; no AI policy found (general content policy only)",
+     "verdict": "corrected",
+     "correction": "The size limit and licensing are confirmed. Total file size is 50 GB per record, with higher quotas available case by case. Metadata is CC0 except email addresses. A licence must be specified for every public file. All languages are accepted, though English is preferred. Zenodo does have an 'AI Usage Notice v1.0'. It covers Zenodo's own AI use: local open models only, classification and spam detection, and an optional future feature that suggests metadata. It states that uploaded files are not used to train models. It sets no rules for depositors about AI-generated content.",
+     "source": "https://about.zenodo.org/policies/ ; https://about.zenodo.org/ai-usage-notice/"
+    },
+    {
+     "claim": "Computational Humanities Research journal (CUP): Gold OA since 2025; APC up to US$3,550 / £2,460; waivers possible; prior-publication policy not found",
+     "verdict": "corrected",
+     "correction": "The APC on Cambridge's current fees page is £2,610 / US$3,655 (taxes may apply). The US$3,550 / £2,460 figures match the older DOAJ record. The journal is wholly Gold OA under CC licences; waivers, discounts and institutional agreements are available. DOAJ gives an OA start of 2025. Cambridge's preprint policy, which applies to this journal, does cover prior publication. Authors may share 'any pre-submission version of your manuscript anywhere, at any time, under any licence', and this is not treated as prior publication. Only prior publication in a journal, book or similar entity disqualifies a manuscript. ISSN 2977-8158 is confirmed.",
+     "source": "https://www.cambridge.org/core/journals/computational-humanities-research/information/author-instructions/fees-and-pricing ; https://www.cambridge.org/core/services/open-research-policies/preprint-policy"
+    },
+    {
+     "claim": "CHR conference: AI policy not found; prior-publication policy not found; CHR 2027 in Manchester 5–8 Jan 2027; deadline 14 Aug 2026",
+     "verdict": "corrected",
+     "correction": "The dates are confirmed. The deadline was 14 Aug 2026 (AoE), notification is 23 Oct 2026, camera-ready is due 13 Nov 2026, workshops are on 5 Jan and the main conference is 6–8 Jan 2027. The CfP does have both policies. On AI: authors may use any tool but are responsible for correctness and originality, and those who use generative or agentic AI are 'encouraged to add a reflection on their use of AI'. On review and preprints: review is double-blind, and the anonymity period runs until notification, so submissions should not be promoted. Preprints on arXiv, Zenodo, HAL or institutional repositories are allowed before submission if the anonymised paper does not link to them. Long papers are capped at 6,000 words and short papers at 3,000. Presentation must be in person in Manchester. Papers are published in the Anthology of Computers and the Humanities.",
+     "source": "https://2027.computational-humanities-research.org/cfp ; https://computational-humanities-research.org/conference"
+    },
+    {
+     "claim": "Crossref: annual fee US$200 (revenue under $1k) / $275 (under $1M); $1 per current article, $0.25 per posted content item; Russia/Belarus applicants undergo sanctions checks; Similarity Check unavailable to Russia-based members",
+     "verdict": "confirmed",
+     "correction": "Fee tiers are confirmed: under 1,000 USD → 200 USD; 1,000 USD to 1 million → 275 USD. Journal articles cost 1.00 USD per current record and 0.15 per back-year record. Posted content, including preprints, costs 0.25 / 0.15 USD, and datasets 0.06 USD. Crossref notes that fees may change under its RCFS programme. The sanctions details are on the sanctions-compliance page, not the fees page. Applications from Russia or Belarus are subject to sanctions checks. Crossref cannot accept organisations that are part of the Russian Government or are sanctioned. It also states it is 'currently unable to offer the Similarity Check service to members based in Russia'.",
+     "source": "https://www.crossref.org/fees/ ; https://www.crossref.org/operations-and-sustainability/membership-operations/sanctions/"
+    },
+    {
+     "claim": "ISSN for online resources: assigned only after publication; requires editorial content, an editorial team of more than one person and a stable title; personal sites ineligible",
+     "verdict": "confirmed",
+     "correction": "The eligibility criteria are confirmed for 'ongoing integrating resources'. A resource needs editorial content, a statement of editorial responsibility ('generally of more than one person') and the country of publication. It also needs a stable title, a valid URL, and a precise subject or audience. Excluded are personal websites, short-lived resources, and sites focused on promoting a company, institution or organisation. The rule that an ISSN is assigned only after publication does not appear on this page; I could not find it on issn.org, so that part is unconfirmed. RSL-specific requirements were not checked.",
+     "source": "https://www.issn.org/understanding-the-issn/assignment-rules/the-issn-for-electronic-media/"
+    },
+    {
+     "claim": "Историческая информатика: ВАК list (5.6.x); РИНЦ; ERIH PLUS per publisher (unverified); Белый список level not verified; CC BY-NC",
+     "verdict": "corrected",
+     "correction": "The publisher's journal page describes a fully OA online journal (сетевое издание). It is indexed in РИНЦ and included in the RSCI list and the РИНЦ core, and is listed in EBSCO. Every article gets a DOI and review is double-blind. It is in the ВАК list in category K1 for 5.6.1, 5.6.2, 5.6.4, 5.6.5, 5.6.6 and 5.6.8; 5.6.2 and 5.6.5 are the relevant ones for ancient and Byzantine sources. The publisher lists ERIH PLUS for some of its journals but not for this one, so the ERIH PLUS claim should be dropped. The licence, CC BY-NC 4.0, is confirmed on the publisher's site. The page also lists LLM-for-historians articles, which suits Neoscholia's topic. No AI policy was found. The Белый список level is not stated on the page.",
+     "source": "https://nbpublish.com/e_istinf/"
+    },
+    {
+     "claim": "Umanistica Digitale: Diamond OA, no fees; CC BY 4.0; Scopus, DOAJ, ERIH PLUS",
+     "verdict": "confirmed",
+     "correction": "Confirmed on the About page. It has 'neither article processing charges nor submission processing fees' and uses CC BY 4.0. Indexing listed: Scopus, DOAJ, ERIH PLUS, ACNP, BASE, Google Scholar, Mir@bel, ROAD and others. No AI policy appears on the About page.",
+     "source": "https://umanisticadigitale.unibo.it/about"
+    },
+    {
+     "claim": "Research Data Journal (RDJ): Diamond OA, no APC; moved to IISH/Openjournals in 2025; indexing not verified",
+     "verdict": "corrected",
+     "correction": "Diamond OA and the 2025 move are confirmed: ownership passed to the International Institute of Social History and publishing moved to Openjournals in 2025. Content is CC BY 4.0. Indexing can be partly filled in: Openjournals says 'DOAJ: Yes', and DOAJ lists eISSN 2452-3666 with no APC and CC BY. Review is double-blind, or single-blind when the dataset already names the authors. The underlying dataset must be archived in a trusted repository.",
+     "source": "https://openjournals.nl/en/journal/research-data-journal/ ; https://researchdatajournal.org/policies"
+    },
+    {
+     "claim": "ACL-venue rules (NLP4DH, ALP, LaTeCH-CLfL): AI cannot be an author and generative use must be disclosed; no anonymity period since 2024; preprints allowed. Edition facts: NLP4DH 2026 in July; ALP has no 2026 edition; LaTeCH-CLfL 10th edition in Rabat, March 2026; LT4HALA on 11 May 2026 in Palma",
+     "verdict": "confirmed",
+     "correction": "The ACL Policy on Publication Ethics says generative AI 'may not be listed as authors'. Uses beyond grammar or polishing must be disclosed in the Acknowledgements, and the policy lists which uses are allowed. On 12 Jan 2024 ACL adopted its working group's recommendations on anonymity, which apply to later deadlines; I could not read the details in the linked PDF. The ACL Anthology confirms the editions: NLP4DH 2026 in July 2026 at ACL 2026 in San Diego (exact day not checked); ALP volumes for 2023 and 2025 only, with no 2026 volume (404); LaTeCH-CLfL 10th joint SIGHUM workshop in Rabat, March 2026, at EACL. The LT4HALA site confirms 11 May 2026 in Palma with proceedings on lrec-conf.org.",
+     "source": "https://www.aclweb.org/adminwiki/index.php/ACL_Policy_on_Publication_Ethics ; https://www.aclweb.org/adminwiki/index.php/ACL_Anonymity_Policy ; https://aclanthology.org/venues/alp/ ; https://aclanthology.org/volumes/2026.latechclfl-1/ ; https://aclanthology.org/volumes/2026.nlp4dh-1/ ; https://circse.github.io/LT4HALA/2026/"
+    },
+    {
+     "claim": "Dialogue conference proceedings indexed in Scopus and РИНЦ (per conference site)",
+     "verdict": "corrected",
+     "correction": "The site says the proceedings 'Computational Linguistics and Intellectual Technologies' are indexed in Scopus and RSCI (the selective core, not just РИНЦ). A news item dated 7 Jun 2026 says the 2025 proceedings are indexed in Scopus. No AI or prior-publication policy was found on the home page.",
+     "source": "https://dialogue-conf.org/"
+    },
+    {
+     "claim": "Digital Classics Online: Diamond OA, no APC; CC BY; DOAJ",
+     "verdict": "unverifiable",
+     "correction": "The primary site (journals.ub.uni-heidelberg.de) is behind an Anubis anti-bot challenge, so I did not access it. The DOAJ record (eISSN 2364-7957, updated 17 Sep 2026) confirms there is no APC and the journal is in DOAJ. DOAJ lists the whole range of CC licences, not just CC BY, so the 'CC BY' claim is uncertain. AI, prior-publication and translation policies remain unverified; check them manually in a browser.",
+     "source": "https://doaj.org/api/search/journals/bibjson.title:%22Digital%20Classics%20Online%22 (DOAJ record); primary: https://journals.ub.uni-heidelberg.de/index.php/dco"
+    },
+    {
+     "claim": "Knowledge Commons Works: every work gets a DOI; indexed by Google Scholar; free; author-chosen licence",
+     "verdict": "unverifiable",
+     "correction": "The support page returned a Knowledge Commons 'scheduled maintenance' page, and Wayback Machine access was refused (403). None of these claims could be checked.",
+     "source": "https://support.hcommons.org/what-is-kcworks/"
+    }
+   ],
+   "summary": "I re-checked 21 claims against primary sources: 9 confirmed, 10 corrected, 2 unverifiable. The web search quota for this session had run out, so I worked only from direct page fetches and the DOAJ API.\n\nCorrections that change decisions:\n1. **JOHD** does have an explicit preprint policy. Preprints and conference talks do not count as prior publication, but the preprint must be declared with a link in the cover letter. The data rule is a persistent identifier, not specifically a DOI.\n2. **arXiv** does accept translations of previously published work if it has value to arXiv's scientific communities. Translations of Greek scholia would almost certainly not suit cs.CL, so it remains a methods-paper venue.\n3. **Computational Humanities Research journal (Cambridge)** charges £2,610 / US$3,655 now; the old figures came from DOAJ. Cambridge's preprint policy lets you post pre-submission versions anywhere without it counting as prior publication.\n4. **CHR conference** does have both policies: AI use is allowed, with a reflection encouraged; review is double-blind with an anonymity period until notification; preprints are allowed if the anonymised paper does not link to them; presentation must be in person.\n5. **DSH**: OUP's About page lists SSCI and Scopus, not the Arts & Humanities Citation Index.\n6. **Историческая информатика**: ВАК category K1 for 5.6.1, 5.6.2, 5.6.4, 5.6.5, 5.6.6 and 5.6.8, plus RSCI and the РИНЦ core. ERIH PLUS is not listed for this journal.\n7. **Zenodo** has an AI Usage Notice. It covers only Zenodo's own AI use and says uploaded files are not used for training.\n8. **RDJ** is in DOAJ.\n9. **Dialogue** proceedings are indexed in Scopus and RSCI.\n\nConfirmed:\n- **AI policies**: DHQ, JOHD, DSH, ACL and arXiv. One nuance for DHQ: AI may not generate the article's content, except where the AI use is thematically relevant to the topic and disclosed. That exception covers a paper about LLM translation.\n- **arXiv rules from 2026**: the full English version required from 11 Feb, the endorsement change of 21 Jan, and the limit of 2 submissions a month from 1 Oct.\n- **JDMDH**: a preprint in HAL, arXiv or Zenodo is required before submission. Zenodo avoids the new arXiv endorsement hurdle.\n- **DSH**: material already published in translation is not accepted.\n- **DHQ**: publication in another language is fine.\n- **Other confirmed items**: Crossref fees and its rules for Russia-based members, ISSN criteria for online resources, and the Umanistica Digitale indexing and licence.\n\nUnverifiable:\n- **Digital Classics Online**: the site is behind an anti-bot challenge, which I did not try to get past. The DOAJ record confirms no APC but lists every CC licence type, so 'CC BY' is uncertain.\n- **Knowledge Commons Works**: the site was down for maintenance and the Wayback Machine refused access.\n- **ISSN timing**: the rule that an ISSN is assigned only after publication is not on the page cited."
+  }
+ }
+]

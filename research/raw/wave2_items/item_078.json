@@ -1,0 +1,25 @@
+{
+ "corpus": "greek-lexica",
+ "title": "Καινὴ ἱστορία / New History (for Polymaths) / «Новая история» (Photius, Bibliotheca cod. 190)",
+ "author": "Ptolemy Chennus (Ptolemy Hephaestion)",
+ "date": "early 2nd c. CE (Trajan–Hadrian)",
+ "language": "Ancient Greek (Byzantine summary)",
+ "genre": "Paradoxical mythography / pseudo-scholarship",
+ "size": "Survives only in Photius' summary (Westermann 1843 pp. 182–192). Estimate 5–6k words.",
+ "edition": "A. Westermann 1843 (PD). R. Henry, Photius Bibliothèque III (Budé 1962).",
+ "ru_status": "partial",
+ "ru_evidence": "ru.wikipedia (Птолемей Хенн): only excerpts (Latyshev, ВДИ 1947 №4, pp. 277–278) plus a content paraphrase. Vasilik's new Russian Photius (vol. 1, 2024) may later include it.",
+ "en_status": "partial",
+ "en_evidence": "tertullian.org has only an English rendering of Henry's French (indirect), cited on en.wikipedia.",
+ "other_translations": "French (Henry, Budé 1962).",
+ "value": "A parody of Alexandrian scholarship and a showcase of invented sources and myths. Excellent for a commentary that exposes the fakery. Short and attractive to general readers.",
+ "audience": "broad",
+ "ai_feasibility": "high: narrative summary. The commentary must check the alleged sources.",
+ "pilot_unit": "Whole of cod. 190 (books 1–7 summary).",
+ "preliminary_priority": 2,
+ "sources": [
+  "https://ru.wikipedia.org/wiki/Птолемей_Хенн",
+  "https://en.wikipedia.org/wiki/Ptolemaeus_Chennus"
+ ],
+ "id": "item_078"
+}

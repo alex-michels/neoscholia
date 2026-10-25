@@ -1,0 +1,25 @@
+{
+ "corpus": "greek-technical",
+ "title": "Περὶ ὕλης ἰατρικῆς — De materia medica; RU: Диоскорид, «О лекарственных веществах» (RU-gap)",
+ "author": "Pedanius Dioscorides",
+ "date": "c. 50–70 CE",
+ "language": "Greek (Koine)",
+ "genre": "Pharmacology and botany",
+ "size": "5 books, c. 800+ chapters; est. 130–160k words (Wellmann, 3 vols)",
+ "edition": "Wellmann, 3 vols, Berlin 1906–14, public domain (archive.org).",
+ "ru_status": "none",
+ "ru_evidence": "ru.wikipedia «Диоскорид» lists only the Greek and Latin 1549 edition and an English translation; nothing in ΣΧΟΛΗ or Литературные памятники.",
+ "en_status": "full",
+ "en_evidence": "Beck 2005 (3rd ed. 2017), complete; Osbaldeston 2000; Goodyer 1655 (en.wikipedia De materia medica).",
+ "other_translations": "Spanish: García Valdés (Gredos 1998); many Renaissance vernacular versions (Italian, German, French, Spanish).",
+ "value": "The most influential pharmacological work ever written (c. 600 plants plus animal and mineral drugs), the basis of European and Arabic materia medica until the 18th c. Essential to historians of medicine, botany, trade and lexicography; no Russian version.",
+ "audience": "broad",
+ "ai_feasibility": "medium: formulaic descriptions translate easily; plant identifications and synonyms need specialist control; use Beck only for cross-checking.",
+ "pilot_unit": "Preface plus Book V (vine, wines, minerals), est. c. 15k words",
+ "preliminary_priority": 3,
+ "sources": [
+  "https://ru.wikipedia.org/wiki/Диоскорид",
+  "https://en.wikipedia.org/wiki/De_materia_medica"
+ ],
+ "id": "item_128"
+}

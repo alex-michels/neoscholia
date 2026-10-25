@@ -1,0 +1,26 @@
+{
+ "corpus": "greek-scholia",
+ "title": "Ioannes Tzetzes, Exegesis of the Iliad / Иоанн Цец, Экзегеза к «Илиаде»",
+ "author": "John Tzetzes",
+ "date": "c. 1140s",
+ "language": "Byzantine Greek",
+ "genre": "Prolegomena and commentary",
+ "size": "Long introduction plus commentary on Iliad 1; est. ~50k words.",
+ "edition": "Papathomopoulos, Athens 2007 (in copyright). Hermann 1812 is PD; its completeness is unverified.",
+ "ru_status": "none",
+ "ru_evidence": "Ru-wiki 'Иоанн Цец' lists the Exegesis among his works and gives no translation. The only Russian Tzetzes items are 1969 excerpts and Smyka's Carmina Iliaca.",
+ "en_status": "none",
+ "en_evidence": "Search found no English translation; only the Allegories (DOML 2015, 2019) are translated (BMCR 2015.09.45, 2020.03.07).",
+ "other_translations": "None found.",
+ "value": "Byzantine prolegomena on Homer's life, poetics and allegory; Tzetzes' early method. Complements his Allegories and Eustathius, and is important for the history of Homeric reception.",
+ "audience": "specialist",
+ "ai_feasibility": "Medium. Polemical, idiosyncratic prose. The PD text is uncertain, so editorial checks are needed.",
+ "pilot_unit": "The introduction (Homer's life, genres, allegory); est. ~15k words.",
+ "preliminary_priority": 3,
+ "sources": [
+  "https://ru.wikipedia.org/wiki/Иоанн_Цец",
+  "https://bmcr.brynmawr.edu/?p=36711",
+  "https://bmcr.brynmawr.edu/?p=48965"
+ ],
+ "id": "item_117"
+}

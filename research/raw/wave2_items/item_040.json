@@ -1,0 +1,27 @@
+{
+ "corpus": "epigraphy-papyri",
+ "title": "Zenon archive: P.Cair.Zen. I–V (Edgar, Zenon Papyri, 1925–31); RU «Архив Зенона»",
+ "author": "Zenon of Kaunos, Apollonios the dioiketes and their correspondents",
+ "date": "c. 263–229 BC",
+ "language": "Greek (koine documentary)",
+ "genre": "Letters, petitions, accounts, memoranda",
+ "size": "P.Cair.Zen.: 822 HGV records. Related sets: P.Lond. VII 261, P.Mich. I 111, PSI IV–VI 376 records",
+ "edition": "C. C. Edgar, Catalogue général du Caire (1925–31): Greek text with English summaries and notes but no translations (OCR check of vol. II). Public-domain scans on archive.org; digital text on papyri.info (CC).",
+ "ru_status": "none",
+ "ru_evidence": "CyberLeninka finds studies only (e.g., on Ptolemaic officials, 2019). HGV metadata records zero Russian translations across 68,022 papyri.",
+ "en_status": "partial",
+ "en_evidence": "My HGV computation: 146 of 822 P.Cair.Zen. texts list any translation, 14 hosted on papyri.info. By contrast P.Mich. I (Edgar 1931) is fully translated (111/111).",
+ "other_translations": "Scattered DE/FR/IT items among the 146 (HGV); no systematic translation",
+ "value": "The richest archive of early Ptolemaic Egypt: the Philadelphia gift estate, Greek settlers, agriculture, taxation, trade with Syria-Palestine, everyday letters. A staple of Hellenistic history teaching, yet about 80% of the Cairo texts have no translation in any language.",
+ "audience": "humanities",
+ "ai_feasibility": "medium-high: koine prose with machine-readable text, and Edgar's summaries help. Risks: abbreviations, accounts, fragmentary letters, technical vocabulary.",
+ "pilot_unit": "P.Cair.Zen. II (nos. 59140–59297; 158 numbers, 1926), est. 15–20k Greek words",
+ "preliminary_priority": 5,
+ "sources": [
+  "https://archive.org/details/EdgarZenonII1926",
+  "https://archive.org/details/EdgarZenonIV1931",
+  "https://github.com/papyri/idp.data",
+  "https://papyri.info/"
+ ],
+ "id": "item_040"
+}

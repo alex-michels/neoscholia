@@ -1,0 +1,26 @@
+{
+ "corpus": "greek-historiography",
+ "title": "John of Antioch, Historia chronica (fragments); «Хроника» Иоанна Антиохийского",
+ "author": "John of Antioch",
+ "date": "early 7th c. CE",
+ "language": "Greek",
+ "genre": "World chronicle surviving in fragments (Excerpta Constantiniana, Salmasiana)",
+ "size": "300+ fragments, est. 60–80k words",
+ "edition": "Roberto 2005 and Mariev, CFHB 47 (2008): both in copyright. Müller FHG IV–V and de Boor, Excerpta de insidiis 1905: public domain",
+ "ru_status": "none",
+ "ru_evidence": "ru.wikipedia (Иоанн Антиохийский (историк)) mentions only Mariev's English. A Russian search found no translation. Small excerpts in the Свод... are possible but unverified",
+ "en_status": "full",
+ "en_evidence": "Mariev 2008, 'recensuit anglice vertit' (ÖAW catalogue). Reviewed in BMCR 2009.12.06",
+ "other_translations": "Italian (Roberto 2005), from memory",
+ "value": "Lost material on the Republic and Empire (from Dio, Eutropius, Priscus) and unique 5th-century western events such as the sack of 455. The Roberto–Mariev attribution dispute suits a transparent, multi-model apparatus.",
+ "audience": "specialist",
+ "ai_feasibility": "Medium: easy Greek, but attribution and two rival editions need care. Use public-domain texts unless permission is obtained",
+ "pilot_unit": "Fragments on the 5th-century West (Valentinian III, Aetius, 455), est. 5k words",
+ "preliminary_priority": 3,
+ "sources": [
+  "https://ru.wikipedia.org/wiki/Иоанн_Антиохийский_(историк)",
+  "https://bmcr.brynmawr.edu/?p=27003",
+  "https://www.oeaw.ac.at/resources/Record/990001912320504498?lng=en"
+ ],
+ "id": "item_061"
+}

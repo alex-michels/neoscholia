@@ -1,0 +1,28 @@
+{
+ "corpus": "latin-scholia",
+ "title": "Servius (+ Servius Danielis), Commentarii in Vergilii Aeneidem — Servius on the Aeneid; Сервий, «Комментарии к Энеиде». Proposed unit: commentary on Aeneid 6",
+ "author": "Maurus Servius Honoratus; DServ additions largely from Aelius Donatus' lost commentary",
+ "date": "c. 400–420 CE",
+ "language": "Latin",
+ "genre": "Grammatical-exegetical commentary",
+ "size": "Thilo–Hagen 3 vols (~1,900 pp., incl. Ecl./Georg.); est. 450k+ words. Aen. 6 est. 30–35k words (estimates)",
+ "edition": "Thilo–Hagen, Leipzig 1878–1902 (public domain; scans on archive.org/sourcelibrary.org; Latin text on Perseus). Harvard Servius covers Aen. 1–5 only",
+ "ru_status": "partial",
+ "ru_evidence": "Only selected excerpts on Aen. 1, translated by N. A. Fedorov in «Энеида. С комментариями Сервия» (Лабиринт, 2001); ancientrome.ru/antlitr/servius/serv1.htm; ru.wikipedia lists nothing else",
+ "en_status": "partial",
+ "en_evidence": "Book 4 only: McDonough, Prior & Stansbury (Bolchazy-Carducci 2002; BMCR 2005.03.16). An unedited 'rough' complete e-book (Authors of Mitologia.pt, 2024) is not scholarly",
+ "other_translations": "No complete modern translation found (not verified for Italian/German partials)",
+ "value": "The richest ancient Latin commentary: grammar, Roman religion and ritual, antiquarian lore, mythography, and fragments of lost authors (Varro, Cato). Aen. 6 covers eschatology, philosophy and ritual. Indispensable for Vergil scholars, historians of religion and Latinists",
+ "audience": "humanities",
+ "ai_feasibility": "high — formulaic lemmatic prose. Risks: separating Servius from DServ layers, Greek quotations, textual variants",
+ "pilot_unit": "Servius + DServ on Aen. 6 (est. 30–35k words); a first release could cover Aen. 6.1–263 (~10k words)",
+ "preliminary_priority": 5,
+ "sources": [
+  "https://ancientrome.ru/antlitr/servius/serv1.htm",
+  "https://readli.net/eneida-s-kommentariyami-serviya/",
+  "https://ru.wikipedia.org/wiki/Сервий",
+  "https://bmcr.brynmawr.edu/?p=24163",
+  "https://sourcelibrary.org/book/69af2335c6df16b7172a9b0b"
+ ],
+ "id": "item_144"
+}

@@ -1,0 +1,26 @@
+{
+ "corpus": "latin-late-antique",
+ "title": "Expositio totius mundi et gentium (Description of the Whole World and Its Peoples) / RU: «Описание всего мира и народов»",
+ "author": "Anonymous (Greek original, possibly by a Syrian merchant); anonymous Latin translators",
+ "date": "Greek original 350–362 CE; surviving Latin versions 6th c.",
+ "language": "Latin (translated from lost Greek)",
+ "genre": "Geographical, economic and ethnographic survey",
+ "size": "67 chapters; est. 6–7k words; two Latin versions",
+ "edition": "Rougé, Sources Chrétiennes 124 (1966); Cioffi, Teubner (De Gruyter 2025). Public-domain Riese, Geographi Latini Minores 1878: https://archive.org/details/geographilatinim00ries",
+ "ru_status": "none",
+ "ru_evidence": "No ru.wikipedia article (404). Absent from the ancientrome, vostlit and simposium catalogues. No Russian translation found.",
+ "en_status": "partial",
+ "en_evidence": "Only J. Woodman's 1964 Ohio State MA thesis, available online. en.wikipedia: a widely available printed English translation 'has never been published'.",
+ "other_translations": "French: Rougé 1966. No Italian or German translation found.",
+ "value": "A unique mid-4th-c. panorama of the empire's trade goods, cities, shows and peoples (Antioch, Alexandria, Persia), and important for vulgar Latin. Short, self-contained, with a new 2025 critical text: an ideal pilot.",
+ "audience": "humanities",
+ "ai_feasibility": "medium–high: short text but vulgar, corrupt Latin. The two versions check each other; the commentary must handle commodities and place names.",
+ "pilot_unit": "Entire text, both Latin versions in parallel (67 chapters, est. 6–7k words)",
+ "preliminary_priority": 4,
+ "sources": [
+  "https://en.wikipedia.org/wiki/Expositio_totius_mundi_et_gentium",
+  "https://openlibrary.org/search?q=Expositio+totius+mundi",
+  "https://archive.org/details/geographilatinim00ries"
+ ],
+ "id": "item_136"
+}

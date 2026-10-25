@@ -1,0 +1,26 @@
+{
+ "corpus": "christian-orient-graecoarabic",
+ "title": "Galen's ethical and Platonic works in Arabic: Peri ēthōn (De moribus, Arabic epitome) and Compendium Timaei Platonis; RU: «О нравах»; «Краткое изложение „Тимея“»",
+ "author": "Galen",
+ "date": "2nd c. CE; Arabic 9th–10th c.",
+ "language": "Arabic (Greek lost)",
+ "genre": "Ethics; Platonic exegesis",
+ "size": "De moribus c. 12k words; Compendium c. 8k words (estimates)",
+ "edition": "Compendium: Kraus & Walzer, Plato Arabus I (1951), Arabic + Latin. De moribus: Kraus 1937 epitome (not re-verified). Both copyrighted.",
+ "ru_status": "none",
+ "ru_evidence": "ru.wiki «Гален» Russian list: absent. Solopova 2018 lists only Western editions and studies.",
+ "en_status": "partial",
+ "en_evidence": "De moribus: Mattock 1972 (listed in Solopova 2018). Compendium: no English translation located; Latin 1951 only; Das 2021 is a study.",
+ "other_translations": "Latin: Kraus–Walzer 1951. French: Festugière & Tonneau 1952 (study and translation).",
+ "value": "Galen's lost moral psychology and his Middle Platonist reading of the Timaeus. Valuable for historians of philosophy and of Plato's reception.",
+ "audience": "specialist",
+ "ai_feasibility": "Medium-high (Arabic); the Latin version helps.",
+ "pilot_unit": "Compendium Timaei, all extant fragments, c. 8k words (estimate).",
+ "preliminary_priority": 3,
+ "sources": [
+  "https://iphras.ru/uplfile/histph/2018/386-418-greece-east3.pdf",
+  "https://ru.wikipedia.org/wiki/Гален",
+  "https://api.openalex.org/works?search=Galen%20Compendium%20Timaei"
+ ],
+ "id": "item_035"
+}

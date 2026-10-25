@@ -1,0 +1,97 @@
+/* Layout: the shared reading sheet. Intro + the Greater Perfect System as the section's common vocabulary →
+   corpus map (topic × already in Russian / gaps) → catalogue with filters → what exists in Russian → studies. */
+a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid var(--lapis); outline-offset: 2px; }
+.intro { display: grid; grid-template-columns: minmax(0, 1.35fr) minmax(0, 1fr); gap: 2.5rem; padding-block: .4rem 2rem; align-items: start; }
+.intro h1 { font-size: clamp(2.3rem, 5vw, 3.4rem); line-height: 1.05; margin: .3rem 0 .9rem; }
+.intro p { margin: 0 0 .9rem; max-width: 38rem; }
+.facts { display: grid; gap: .7rem; margin: 1.2rem 0 0; padding: 1rem 1.2rem; background: var(--panel); border: 1px solid var(--rule); }
+.facts div { display: grid; gap: .05rem; }
+.facts dt { font-family: var(--font-label); font-size: .82rem; letter-spacing: .05em; color: var(--ink-soft); }
+.facts dd { margin: 0; }
+.editor { font-family: var(--font-label); font-size: .9rem; color: var(--ink-soft); }
+figure.system { margin: 0; background: var(--panel); border: 1px solid var(--rule); padding: 1rem 1.1rem 1.1rem; }
+figure.system figcaption { font-size: .88rem; color: var(--ink-soft); margin-bottom: .7rem; }
+figure.system figcaption b { color: var(--ink); font-weight: 400; }
+.gps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 7.2rem minmax(0, 1fr) 2.2rem; }
+.gps li { display: contents; }
+.gps .tet, .gps .nm, .gps .p { padding: .14rem .3rem; border-bottom: 1px solid var(--rule); }
+.gps .tet { font-family: var(--font-label); font-size: .74rem; letter-spacing: .05em; color: var(--ink-soft); border-right: 2px solid var(--rubric); }
+.gps .tet.cont { border-right-color: var(--rubric); color: transparent; }
+.gps .tet.none { border-right-color: var(--rule); }
+.gps .nm { font-size: .98rem; }
+.gps .p { font-family: var(--font-label); font-size: .82rem; color: var(--ink-soft); text-align: right; font-variant-numeric: tabular-nums; }
+.gps .mese .nm { color: var(--rubric); }
+.gps .disj .nm, .gps .disj .p, .gps .disj .tet { border-bottom: 2px dashed var(--rubric); }
+.gps-note { font-size: .82rem; color: var(--ink-soft); margin: .6rem 0 0; }
+.block { border-top: 1px solid var(--rule); padding-block: 2rem 2.2rem; }
+.block-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: .4rem 1.5rem; margin-bottom: 1.1rem; }
+.block-head h2 { font-size: clamp(1.6rem, 3vw, 2.1rem); margin: 0; }
+.block-head p { margin: 0; color: var(--ink-soft); font-size: .95rem; max-width: 38rem; }
+.legend { display: flex; flex-wrap: wrap; gap: .4rem 1.2rem; font-size: .88rem; color: var(--ink-soft); margin-bottom: .9rem; }
+.legend span { display: inline-flex; align-items: center; gap: .35rem; }
+.dot { width: .62rem; height: .62rem; border-radius: 50%; display: inline-block; flex: none; }
+.dot.none { background: var(--rubric); }
+.dot.part { background: transparent; border: 2px solid var(--rubric); }
+.dot.ru { background: var(--rule); }
+.star { color: var(--lapis); font-weight: 700; }
+.map { display: grid; grid-template-columns: 12rem minmax(0, 1fr) minmax(0, 1fr); border: 1px solid var(--rule); }
+.map > div { padding: .65rem .8rem; border-bottom: 1px solid var(--rule); min-width: 0; }
+.map > div:nth-last-child(-n+3) { border-bottom: 0; }
+.map .h { font-family: var(--font-label); font-weight: 700; font-size: .85rem; letter-spacing: .06em; color: var(--ink-soft); background: var(--panel); }
+.map .topic { font-family: var(--font-display); font-size: 1.15rem; background: var(--panel); }
+.map .have, .map .gap { font-size: .93rem; }
+.map .have { border-left: 1px solid var(--rule); color: var(--ink-soft); }
+.map .gap { border-left: 1px solid var(--rule); }
+.map ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .3rem; }
+.map li { display: grid; grid-template-columns: .9rem minmax(0, 1fr); gap: .35rem; align-items: baseline; }
+.map .closed { color: var(--ink-soft); font-style: italic; }
+.map .tag { display: none; }
+.filters { display: flex; flex-wrap: wrap; gap: .4rem; align-items: center; margin-bottom: 1.1rem; }
+.filters button { font-family: var(--font-label); font-size: .88rem; letter-spacing: .04em; padding: .25rem .75rem; cursor: pointer; background: var(--panel); color: var(--ink-soft); border: 1px solid var(--rule); }
+.filters button[aria-pressed="true"] { background: var(--ink); color: var(--leaf); border-color: var(--ink); }
+.filters label { margin-left: auto; display: inline-flex; gap: .4rem; align-items: center; font-size: .92rem; cursor: pointer; }
+.filters input { accent-color: var(--rubric); width: 1rem; height: 1rem; }
+.cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.2rem; }
+.card { border-top: 3px solid var(--ink); padding-top: .8rem; display: flex; flex-direction: column; gap: .45rem; min-width: 0; }
+.card.flag { border-top-color: var(--rubric); }
+.card .group { font-family: var(--font-label); font-size: .8rem; letter-spacing: .06em; color: var(--ink-soft); display: flex; justify-content: space-between; gap: .5rem; flex-wrap: wrap; }
+.card h3 { font-size: 1.35rem; margin: 0; line-height: 1.2; }
+.card .orig { color: var(--ink-soft); font-size: .95rem; margin: 0; }
+.card .meta { font-size: .9rem; color: var(--ink-soft); margin: 0; }
+.st { display: flex; flex-wrap: wrap; gap: .3rem; }
+.st span { font-family: var(--font-label); font-size: .78rem; letter-spacing: .04em; padding: .02rem .45rem; border: 1px solid var(--rule); color: var(--ink-soft); }
+.st .no { color: var(--rubric); border-color: var(--rubric); }
+.st .nowhere { background: var(--rubric); color: var(--leaf); border-color: var(--rubric); }
+.card dl { margin: .2rem 0 0; display: grid; grid-template-columns: 7.2rem minmax(0, 1fr); gap: .25rem .7rem; font-size: .92rem; }
+.card dt { color: var(--ink-soft); }
+.card dd { margin: 0; }
+.plan { font-family: var(--font-label); font-size: .82rem; letter-spacing: .05em; color: var(--lapis); }
+.plan.coauth { color: var(--ink-soft); }
+.empty { color: var(--ink-soft); }
+.duo { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 2.5rem; }
+.exists { list-style: none; margin: 0; padding: 0; display: grid; gap: .55rem; font-size: .95rem; }
+.exists li { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: .2rem 1rem; border-bottom: 1px dotted var(--rule); padding-bottom: .45rem; }
+.exists li span:last-child { color: var(--ink-soft); font-size: .88rem; text-align: right; }
+.studies { list-style: none; margin: 0; padding: 0; display: grid; gap: .9rem; }
+.studies b { display: block; font-weight: 400; font-size: 1.08rem; }
+.studies span { font-size: .9rem; color: var(--ink-soft); }
+@media (max-width: 880px) {
+  .intro, .duo { grid-template-columns: minmax(0, 1fr); gap: 1.6rem; }
+  .cards { grid-template-columns: minmax(0, 1fr); }
+  .filters label { margin-left: 0; }
+  .map { grid-template-columns: minmax(0, 1fr); }
+  .map .h { display: none; }
+  .map .have, .map .gap { border-left: 0; }
+  .map .topic { border-bottom: 0; padding-bottom: .2rem; }
+  .map .have { border-bottom: 0; padding-block: .2rem; }
+  .map > div:nth-last-child(-n+3) { border-bottom: 1px solid var(--rule); }
+  .map > div:last-child { border-bottom: 0; }
+  .map .tag { display: block; font-family: var(--font-label); font-size: .78rem; letter-spacing: .05em; color: var(--ink-soft); margin-bottom: .2rem; }
+}
+@media (max-width: 600px) {
+  .card dl { grid-template-columns: minmax(0, 1fr); gap: 0; }
+  .card dt { margin-top: .3rem; }
+  .exists li { grid-template-columns: minmax(0, 1fr); }
+  .exists li span:last-child { text-align: left; }
+  .gps { grid-template-columns: 5.6rem minmax(0, 1fr) 2rem; }
+}

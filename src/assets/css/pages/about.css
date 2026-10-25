@@ -1,0 +1,66 @@
+/* Layout: the shared reading sheet. Mission → why → what we do / don't → audience → founder and name →
+   independence → team → roadmap → how to help → FAQ → footer. */
+a:focus-visible, summary:focus-visible { outline: 2px solid var(--lapis); outline-offset: 2px; }
+.hero { padding-block: .4rem 2rem; display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); gap: 2.5rem; align-items: end; }
+.hero h1 { font-size: clamp(2.3rem, 5vw, 3.4rem); line-height: 1.05; margin: .3rem 0 .9rem; }
+.hero .mission { font-size: 1.25rem; line-height: 1.5; margin: 0; max-width: 40rem; }
+.hero .mission em { font-style: normal; color: var(--rubric); }
+.name { background: var(--panel); border: 1px solid var(--rule); padding: 1rem 1.2rem; }
+.name .w { font-family: var(--font-display); font-size: 2rem; line-height: 1.1; }
+.name .w span { color: var(--rubric); }
+.name p { margin: .4rem 0 0; font-size: .95rem; }
+.name .g { color: var(--ink-soft); }
+.block { border-top: 1px solid var(--rule); padding-block: 2rem 2.2rem; scroll-margin-top: 1rem; }
+.block-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: .4rem 1.5rem; margin-bottom: 1.1rem; }
+.block-head h2 { font-size: clamp(1.6rem, 3vw, 2.1rem); margin: 0; }
+.block-head p { margin: 0; color: var(--ink-soft); font-size: .95rem; max-width: 38rem; }
+.prose { max-width: 44rem; }
+.prose p { margin: 0 0 .9rem; }
+.dodont { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2rem; }
+.dodont h3 { font-size: 1.35rem; margin: 0 0 .6rem; }
+.dodont ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .55rem; }
+.dodont li { padding-left: 1.2rem; position: relative; }
+.dodont .yes li::before { content: "✦"; position: absolute; left: 0; color: var(--lapis); font-size: .8rem; top: .25rem; }
+.dodont .no li::before { content: "—"; position: absolute; left: 0; color: var(--rubric); }
+.aud { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 1rem; }
+.aud div { border-left: 2px solid var(--rule); padding-left: .8rem; }
+.aud b { display: block; font-family: var(--font-display); font-weight: 400; font-size: 1.2rem; }
+.aud span { font-size: .92rem; color: var(--ink-soft); }
+.duo { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 2.5rem; }
+.duo h3 { font-size: 1.35rem; margin: 0 0 .5rem; }
+.duo p { margin: 0 0 .8rem; }
+.team { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .9rem; }
+.team li { background: var(--panel); border: 1px solid var(--rule); padding: .9rem 1rem; }
+.team b { display: block; font-family: var(--font-display); font-weight: 400; font-size: 1.2rem; }
+.team span { font-size: .92rem; color: var(--ink-soft); }
+.team .open { border-style: dashed; }
+.road { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1rem; }
+.road li { border-top: 3px solid var(--rule); padding-top: .7rem; }
+.road li.now { border-top-color: var(--rubric); }
+.road .when { font-family: var(--font-label); font-size: .84rem; letter-spacing: .05em; color: var(--ink-soft); }
+.road li.now .when { color: var(--rubric); }
+.road b { display: block; font-family: var(--font-display); font-weight: 400; font-size: 1.2rem; margin: .1rem 0 .3rem; }
+.road ul { margin: 0; padding-left: 1rem; font-size: .93rem; display: grid; gap: .25rem; }
+.help { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.2rem; }
+.help div h3 { font-size: 1.2rem; margin: 0 0 .3rem; }
+.help div p { margin: 0; font-size: .95rem; }
+.contact { margin-top: 1.4rem; background: var(--wash); border: 1px dashed var(--rule); padding: .7rem .9rem; font-size: .95rem; }
+.faq { display: grid; gap: 0; max-width: 48rem; }
+.faq details { border-top: 1px solid var(--rule); padding-block: .7rem; }
+.faq details:last-child { border-bottom: 1px solid var(--rule); }
+.faq summary { cursor: pointer; font-family: var(--font-display); font-size: 1.2rem; list-style: none; display: flex; justify-content: space-between; gap: 1rem; }
+.faq summary::-webkit-details-marker { display: none; }
+.faq summary::after { content: "+"; color: var(--rubric); font-family: var(--font-label); }
+.faq details[open] summary::after { content: "−"; }
+.faq details p { margin: .5rem 0 0; }
+@media (max-width: 1020px) {
+  .aud { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+  .road { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 880px) {
+  .hero, .duo, .dodont { grid-template-columns: minmax(0, 1fr); gap: 1.6rem; }
+  .team, .help { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 600px) {
+  .foot, .aud, .road { grid-template-columns: minmax(0, 1fr); }
+}

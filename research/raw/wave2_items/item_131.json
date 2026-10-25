@@ -1,0 +1,25 @@
+{
+ "corpus": "greek-technical",
+ "title": "Ὑπόμνημα εἰς τὴν Πτολεμαίου μαθηματικὴν σύνταξιν — Commentary on Ptolemy's Almagest; RU: Теон Александрийский, «Комментарий к „Альмагесту“»",
+ "author": "Theon of Alexandria",
+ "date": "late 4th c. CE",
+ "language": "Greek",
+ "genre": "Mathematical astronomy; school commentary",
+ "size": "Multi-book commentary; Rome's edition covers I–IV, the rest only Basel 1538; est. 150k+ words in total",
+ "edition": "Rome, Studi e Testi 72 and 106 (1936–43; copyright). Basel 1538 editio princeps and Halma 1821–22 (I–II with French), public domain.",
+ "ru_status": "none",
+ "ru_evidence": "Not in the ΣΧΟΛΗ translation index or ru.wikipedia; no Russian version found.",
+ "en_status": "none",
+ "en_evidence": "en.wikipedia «Theon of Alexandria» lists only Rome's and Tihon's French-language editions; no English translation found.",
+ "other_translations": "French: Halma 1821–22 (Books I–II). Tihon's French translations cover Theon's Handy Tables commentaries, not the Almagest.",
+ "value": "The principal late-antique guide to Ptolemy: sexagesimal arithmetic in Book I; the Book III heading credits Hypatia's edition, central to Hypatia and Alexandrian scholarship. Basis of Byzantine and Arabic Almagest teaching.",
+ "audience": "specialist",
+ "ai_feasibility": "medium: formulaic mathematical prose; code agents must recompute every calculation; Halma serves for cross-checking.",
+ "pilot_unit": "Book I, est. 15–20k words (incl. sexagesimal division)",
+ "preliminary_priority": 2,
+ "sources": [
+  "https://en.wikipedia.org/wiki/Theon_of_Alexandria",
+  "http://classics.nsu.ru/scholeru/schedule.htm"
+ ],
+ "id": "item_131"
+}

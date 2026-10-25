@@ -1,0 +1,25 @@
+{
+ "corpus": "greek-scholia",
+ "title": "Eustathius, Commentary on Dionysius Periegetes / Евстафий Солунский, Комментарий к Дионисию Периэгету",
+ "author": "Eustathius of Thessalonica",
+ "date": "12th c. (dedicated to John Doukas)",
+ "language": "Byzantine Greek",
+ "genre": "Geographical commentary",
+ "size": "Est. ~200 GGM pp. (~70k words).",
+ "edition": "Müller, Geographi Graeci Minores II (1861), PD. Bernhardy 1828, PD.",
+ "ru_status": "none",
+ "ru_evidence": "Ru-wiki lists only Ilyushechkina's Russian translation of Dionysius himself (VDI 2005–06). Latyshev's Scythica may contain small excerpts (not verified).",
+ "en_status": "none",
+ "en_evidence": "English Wikipedia ('Eustathius of Thessalonica') lists only old editions of this commentary and no translation. Searches found none.",
+ "other_translations": "None found.",
+ "value": "Byzantine geography with extracts from lost geographers and historians. The Pontic and Scythian material is of direct interest to Russian readers, and the commentary pairs with the existing Russian Dionysius.",
+ "audience": "humanities",
+ "ai_feasibility": "Medium. Toponym-heavy and digressive, but syntactically easier than the Homer commentaries. Needs place-name linking.",
+ "pilot_unit": "Commentary on Dionysius' Pontus and Scythia sections; est. 10–12k words.",
+ "preliminary_priority": 4,
+ "sources": [
+  "https://en.wikipedia.org/wiki/Eustathius_of_Thessalonica",
+  "https://ru.wikipedia.org/wiki/Дионисий_Периегет"
+ ],
+ "id": "item_111"
+}

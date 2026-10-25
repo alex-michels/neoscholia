@@ -1,0 +1,26 @@
+{
+ "corpus": "greek-historiography",
+ "title": "Diodorus Siculus, Bibliotheca historica, Books XXI–XL (fragments); «Историческая библиотека», кн. XXI–XL",
+ "author": "Diodorus Siculus",
+ "date": "c. 60–30 BCE",
+ "language": "Greek",
+ "genre": "Universal history (fragmentary books)",
+ "size": "Loeb vols. XI–XII, est. 100–120k words",
+ "edition": "Dindorf, Teubner 1867–68 (public domain). Goukowsky, CUF (in copyright, partial)",
+ "ru_status": "partial",
+ "ru_evidence": "ru.wikipedia: a full but amateur Russian translation (simposium.ru, 2012, «непрофессиональный») and Alekseev 1774–75 (from French). Professional Russian only as excerpts (ancientrome: 26, 34–39)",
+ "en_status": "full",
+ "en_evidence": "Loeb (Walton). attalus.org covers books 33–40 (links on ru.wikipedia)",
+ "other_translations": "French: 19th-century complete translation (remacle.org) and the CUF series",
+ "value": "The main continuous source for the First Punic War, the Sicilian slave wars, the Hellenistic kingdoms, the Gracchi and the Social War. Widely used by students; a critical Russian translation is still lacking.",
+ "audience": "broad",
+ "ai_feasibility": "High: standard Hellenistic Greek. The excerpt source of each fragment must be labelled",
+ "pilot_unit": "Books 34/35–36 (Sicilian slave wars), est. 8–10k words",
+ "preliminary_priority": 2,
+ "sources": [
+  "https://ru.wikipedia.org/wiki/Диодор_Сицилийский",
+  "https://ancientrome.ru/antlitr/diodoros/index.htm",
+  "http://simposium.ru/ru/node/863"
+ ],
+ "id": "item_064"
+}

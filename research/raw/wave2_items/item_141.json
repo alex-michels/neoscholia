@@ -1,0 +1,26 @@
+{
+ "corpus": "latin-late-antique",
+ "title": "Iulius Firmicus Maternus, Mathesis (8 books) / RU: Фирмик Матерн, «Матесис» (RU-gap)",
+ "author": "Iulius Firmicus Maternus, Sicilian senator",
+ "date": "c. 334–337 CE",
+ "language": "Latin",
+ "genre": "Astrological handbook with a philosophical-apologetic frame",
+ "size": "8 books; Teubner 2 vols; est. 150k words",
+ "edition": "Kroll–Skutsch–Ziegler, Teubner 1897–1913, public domain: https://archive.org/details/matheseoslibrivi02firmuoft. Monat, Budé 1992–97",
+ "ru_status": "none",
+ "ru_evidence": "ru.wikipedia (Юлий Фирмик Матерн) lists no translation. Absent from the ancientrome, vostlit and simposium catalogues.",
+ "en_status": "full",
+ "en_evidence": "Bram, Ancient Astrology (1975); Holden 2011; Dykes, Mathesis (Cazimi Press 2023; Open Library).",
+ "other_translations": "French (Monat, Budé); German (Stiehle 2008); Italian Book 1 (Colombi 1996).",
+ "value": "The largest Latin astrological work. Evidence for religion and society under Constantine (professions, slavery, sexuality) and for astrological doctrine; written before the author's Christian polemic. For historians of religion and science.",
+ "audience": "humanities",
+ "ai_feasibility": "high: clear prose with systematic terminology; the existing translations allow cross-checking.",
+ "pilot_unit": "Book 1 (the defence of astrology, incl. the account of Plotinus' death; est. 10k words)",
+ "preliminary_priority": 3,
+ "sources": [
+  "https://ru.wikipedia.org/wiki/Юлий_Фирмик_Матерн",
+  "https://openlibrary.org/search?q=Firmicus+Maternus+Mathesis",
+  "https://archive.org/details/matheseoslibrivi02firmuoft"
+ ],
+ "id": "item_141"
+}

@@ -1,0 +1,406 @@
+<title>Библиотека Neoscholia</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Forum&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400&family=Alegreya+Sans+SC:wght@500;700&display=swap">
+<style>
+/* Layout: one calm reading sheet on a flat page ground. Hero = thesis + a real scholion as specimen;
+   then the three collections as the library's shelves; method, changes, indexes, footer. */
+:root {
+  --papyrus: #e7dcc4;      /* page ground around the sheet, flat */
+  --leaf: #fbf7ee;         /* reading sheet */
+  --panel: #f4ecdc;        /* inset panels */
+  --ink: #2b2219;
+  --ink-soft: #6b5c4a;
+  --rubric: #a2361c;       /* rubrication: lemmata, accents */
+  --lapis: #2f4b6e;        /* links, status */
+  --rule: #d9ccb1;
+  --wash: #efe4cc;
+  --font-display: "Forum", "Times New Roman", serif;
+  --font-text: "Gentium Book Plus", "Gentium Plus", "Noto Serif", Georgia, serif;
+  --font-label: "Alegreya Sans SC", "Trebuchet MS", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --papyrus: #17130e; --leaf: #1f1a14; --panel: #262019; --ink: #e9dec7; --ink-soft: #b3a48b;
+    --rubric: #e08a6c; --lapis: #9db6d6; --rule: #3a3127; --wash: #2a231b; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --papyrus: #17130e; --leaf: #1f1a14; --panel: #262019; --ink: #e9dec7; --ink-soft: #b3a48b;
+  --rubric: #e08a6c; --lapis: #9db6d6; --rule: #3a3127; --wash: #2a231b; color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+body {
+  background: var(--papyrus); color: var(--ink);
+  font: 1.05rem/1.6 var(--font-text);
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 0 2.5rem;
+}
+a { color: var(--lapis); text-underline-offset: .18em; }
+a:focus-visible, button:focus-visible, input:focus-visible { outline: 2px solid var(--lapis); outline-offset: 2px; }
+.wrap { max-width: 76rem; margin: 0 auto; background: var(--leaf); border: 1px solid var(--rule); border-top: 0;
+  padding: 0 2.75rem 0; }
+.label { font-family: var(--font-label); letter-spacing: .06em; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 400; text-wrap: balance; }
+
+/* ---------- header ---------- */
+.site { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .75rem 2rem;
+  padding-block: 1.1rem .9rem; border-bottom: 1px solid var(--rule); }
+.brand { display: flex; flex-direction: column; text-decoration: none; color: var(--ink); line-height: 1.1; }
+.brand b { font-family: var(--font-display); font-weight: 400; font-size: 1.75rem; letter-spacing: .06em; }
+.brand b span { color: var(--rubric); }
+.brand small { font-size: .85rem; color: var(--ink-soft); }
+.site nav { display: flex; flex-wrap: wrap; gap: .3rem 1.4rem; font-family: var(--font-label); font-size: 1rem; letter-spacing: .04em; }
+.site nav a { color: var(--ink-soft); text-decoration: none; padding-block: .15rem; }
+.site nav a[aria-current] { color: var(--ink); border-bottom: 1px solid var(--rubric); }
+.lang { display: inline-flex; border: 1px solid var(--rule); font-family: var(--font-label); font-size: .85rem; }
+.lang span, .lang button { padding: .15rem .55rem; font: inherit; border: 0; background: transparent; color: var(--ink-soft); }
+.lang span { background: var(--ink); color: var(--leaf); }
+.lang button { cursor: not-allowed; border-left: 1px solid var(--rule); }
+
+.mock { margin-top: 1rem; background: var(--wash); border: 1px dashed var(--rule); padding: .55rem .9rem;
+  font-size: .9rem; color: var(--ink-soft); }
+.mock b { color: var(--ink); }
+
+/* ---------- hero ---------- */
+.hero { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 2.5rem; padding-block: 2.4rem 2.2rem; align-items: start; }
+.hero h1 { font-size: clamp(2.3rem, 5vw, 3.6rem); line-height: 1.05; margin: 0 0 .9rem; }
+.hero h1 em { font-style: normal; color: var(--rubric); }
+.lede { font-size: 1.15rem; max-width: 34rem; margin: 0 0 1.4rem; }
+.search { display: flex; gap: .5rem; max-width: 34rem; }
+.search input { flex: 1; min-width: 0; font: inherit; font-size: 1rem; padding: .55rem .8rem; background: var(--panel);
+  color: var(--ink); border: 1px solid var(--rule); }
+.search input::placeholder { color: var(--ink-soft); }
+.hint { font-size: .88rem; color: var(--ink-soft); margin: .5rem 0 0; }
+.specimen { background: var(--panel); border: 1px solid var(--rule); padding: 1.1rem 1.25rem 1.2rem; }
+.specimen .label { font-size: .82rem; color: var(--ink-soft); display: flex; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+.specimen .lemma { color: var(--rubric); font-size: 1.15rem; margin: .55rem 0 .35rem; }
+.specimen [lang="grc"] { margin: 0 0 .7rem; font-size: 1.02rem; }
+.specimen .tr { margin: 0 0 .7rem; }
+.specimen .note { margin: 0; font-size: .92rem; color: var(--ink-soft); border-top: 1px dashed var(--rule); padding-top: .6rem; }
+.specimen .note b { color: var(--rubric); }
+
+/* ---------- section scaffolding ---------- */
+.block { border-top: 1px solid var(--rule); padding-block: 2rem 2.2rem; }
+.block-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: .4rem 1.5rem; margin-bottom: 1.2rem; }
+.block-head h2 { font-size: clamp(1.6rem, 3vw, 2.1rem); margin: 0; }
+.block-head p { margin: 0; color: var(--ink-soft); font-size: .95rem; max-width: 36rem; }
+
+/* collections */
+.shelves { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.4rem; }
+.shelf { display: flex; flex-direction: column; border-top: 3px solid var(--ink); padding-top: .9rem; min-width: 0; }
+.shelf h3 { font-size: 1.55rem; margin: 0 0 .25rem; }
+.shelf h3 a { color: var(--ink); text-decoration: none; }
+.shelf h3 a:hover { color: var(--rubric); }
+.shelf .scope { margin: 0 0 .9rem; color: var(--ink-soft); font-size: .95rem; }
+.subhead { font-size: .82rem; color: var(--ink-soft); margin: .9rem 0 .35rem; }
+.texts { list-style: none; margin: 0; padding: 0; display: grid; gap: .55rem; }
+.texts li { display: grid; gap: .1rem; }
+.texts .t { color: var(--ink); text-decoration: none; }
+.texts a.t:hover { color: var(--rubric); }
+.texts .meta { display: flex; flex-wrap: wrap; gap: .2rem .6rem; align-items: center; font-size: .85rem; color: var(--ink-soft); }
+.status { font-family: var(--font-label); font-size: .78rem; letter-spacing: .05em; padding: 0 .45rem; border: 1px solid var(--rule); }
+.status.draft { color: var(--lapis); border-color: var(--lapis); }
+.status.prep { color: var(--ink-soft); }
+.shelf .more { margin-top: auto; padding-top: 1rem; font-family: var(--font-label); font-size: .9rem; letter-spacing: .04em; }
+.future { margin-top: 1.6rem; display: flex; flex-wrap: wrap; align-items: baseline; gap: .4rem 1rem; font-size: .95rem; color: var(--ink-soft); }
+.future .label { font-size: .85rem; }
+.future span.f { border-bottom: 1px dotted var(--rule); }
+.empty { margin: 1rem 0 0; color: var(--ink-soft); }
+
+/* method */
+.steps { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 1rem; counter-reset: s; }
+.steps li { counter-increment: s; border-left: 1px solid var(--rule); padding-left: .9rem; min-width: 0; }
+.steps li::before { content: counter(s); font-family: var(--font-display); font-size: 1.6rem; color: var(--rubric); display: block; line-height: 1; margin-bottom: .35rem; }
+.steps b { display: block; font-weight: 700; margin-bottom: .2rem; }
+.steps span { font-size: .93rem; color: var(--ink-soft); }
+.ladder { margin-top: 1.4rem; display: flex; flex-wrap: wrap; gap: .4rem .5rem; align-items: center; font-size: .92rem; color: var(--ink-soft); }
+.ladder .chip { font-family: var(--font-label); font-size: .82rem; letter-spacing: .04em; padding: .15rem .6rem; border: 1px solid var(--rule); background: var(--panel); color: var(--ink); }
+.ladder .arrow { color: var(--ink-soft); }
+
+/* two-column lower area */
+.duo { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 2.5rem; }
+.log { list-style: none; margin: 0; padding: 0; display: grid; gap: .8rem; }
+.log li { display: grid; grid-template-columns: 6.2rem minmax(0, 1fr); gap: .8rem; }
+.log time { font-family: var(--font-label); font-size: .85rem; color: var(--ink-soft); font-variant-numeric: tabular-nums; padding-top: .1rem; }
+.studies { list-style: none; margin: 0; padding: 0; display: grid; gap: .9rem; }
+.studies li b { display: block; font-weight: 400; font-size: 1.08rem; }
+.studies li span { font-size: .9rem; color: var(--ink-soft); }
+.indexes { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1rem; }
+.indexes a { display: block; text-decoration: none; color: var(--ink); background: var(--panel); border: 1px solid var(--rule); padding: .8rem .9rem; }
+.indexes a b { font-family: var(--font-display); font-weight: 400; font-size: 1.3rem; display: block; }
+.indexes a span { font-size: .88rem; color: var(--ink-soft); }
+.indexes a:hover b { color: var(--rubric); }
+
+/* ---------- footer ---------- */
+.foot { border-top: 2px solid var(--ink); margin-top: .5rem; padding-block: 1.6rem 1.4rem;
+  display: grid; grid-template-columns: 1.4fr repeat(3, minmax(0, 1fr)); gap: 1.5rem 2rem; font-size: .93rem; }
+.foot h2 { font-family: var(--font-label); font-size: .85rem; letter-spacing: .08em; color: var(--ink-soft); margin: 0 0 .5rem; }
+.foot ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .3rem; }
+.foot a { color: var(--ink); text-decoration: none; }
+.foot a:hover { color: var(--rubric); text-decoration: underline; }
+.foot .about p { margin: 0 0 .6rem; color: var(--ink-soft); }
+.foot .about b { font-family: var(--font-display); font-weight: 400; font-size: 1.4rem; color: var(--ink); display: block; margin-bottom: .3rem; }
+.colophon { border-top: 1px solid var(--rule); padding-block: .9rem 1.2rem; display: flex; flex-wrap: wrap; justify-content: space-between; gap: .4rem 1.5rem;
+  font-size: .85rem; color: var(--ink-soft); }
+
+@media (max-width: 1020px) {
+  .steps { grid-template-columns: repeat(3, minmax(0, 1fr)); row-gap: 1.4rem; }
+  .indexes { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .foot { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 880px) {
+  .hero { grid-template-columns: minmax(0, 1fr); gap: 1.8rem; }
+  .shelves { grid-template-columns: minmax(0, 1fr); gap: 2rem; }
+  .duo { grid-template-columns: minmax(0, 1fr); gap: 2rem; }
+  .wrap { padding: 0 1.5rem; }
+}
+@media (max-width: 600px) {
+  .wrap { padding: 0 1rem; }
+  .steps { grid-template-columns: minmax(0, 1fr); }
+  .indexes { grid-template-columns: minmax(0, 1fr); }
+  .foot { grid-template-columns: minmax(0, 1fr); }
+  .log li { grid-template-columns: minmax(0, 1fr); gap: 0; }
+  .search { flex-direction: column; }
+}
+</style>
+
+<div class="wrap">
+  <header class="site">
+    <a class="brand" href="#top" aria-label="Neoscholia — на главную">
+      <b>Neo<span>·</span>scholia</b>
+      <small><span lang="grc">νέα σχόλια</span> · новые схолии к непереведённой античности</small>
+    </a>
+    <nav aria-label="Разделы сайта">
+      <a href="#top" aria-current="page">Библиотека</a>
+      <a href="https://claude.ai/artifact/FtriAuMyfVpLWqqMqZDQ8o">Исследования</a>
+      <a href="https://claude.ai/artifact/LUNNJwceDXYWoepQJWmVVL">Метод</a>
+      <a href="https://claude.ai/artifact/WNygYEn7HeTq5PbrvPt2BF">О проекте</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Язык интерфейса">
+      <span>RU</span><button type="button" disabled title="Английская версия интерфейса появится позже">EN</button>
+    </div>
+  </header>
+
+  <p class="mock"><b>Макет главной страницы.</b> Перечни текстов — из исследования проекта. Опубликован только черновик схолий к «Одиссее» X; остальные тексты помечены как готовящиеся.</p>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-h">
+      <div>
+        <h1 id="hero-h">Библиотека <em>первых</em> переводов античных текстов</h1>
+        <p class="lede">Тексты, которые до сих пор не переводились на русский и английский: схолии, комментарии, романы, трактаты. Каждый перевод выходит с оригиналом, комментарием и открытым журналом рецензии; за текст отвечает названный редактор.</p>
+        <form class="search" role="search" id="search-form">
+          <label class="label" for="q" style="position:absolute;left:-9999px">Поиск по библиотеке</label>
+          <input id="q" type="search" placeholder="Автор, текст или тема: Пиндар, Эол, гармоника…" autocomplete="off">
+        </form>
+        <p class="hint" id="hint">Поиск сразу фильтрует разделы ниже.</p>
+      </div>
+
+      <aside class="specimen" aria-label="Образец: схолия к Одиссее 10.3">
+        <div class="label"><span>Σ Од. 10.3 · рукописи H M Q T V</span><span>черновик v0.1</span></div>
+        <p class="lemma" lang="grc">πλωτῇ ἐνὶ νήσῳ]</p>
+        <p lang="grc">ὁ δὲ Ἀρίσταρχος πλωτῇ ἀντὶ τοῦ φορητῇ, οἷον περιφερομένῃ, ὡς ποτὲ μὲν ἐν τοῖς δεξιοῖς μέρεσι, ποτὲ δὲ ἐν τοῖς ἀριστεροῖς ὁρᾶσθαι…</p>
+        <p class="tr">Аристарх же — «плавучем» вместо «носимом», то есть перемещающемся, так что его видно то справа, то слева…</p>
+        <p class="note"><b>ε</b> Схолиаст возражает Аристарху: если бы остров плавал, Одиссей не нашёл бы его во второй раз (10.55). <a href="https://claude.ai/artifact/KBXAd7KtUgWioncxPUnJ77" target="_blank" rel="noopener">Открыть страницу</a></p>
+      </aside>
+    </section>
+
+    <section class="block" id="collections" aria-labelledby="col-h">
+      <div class="block-head">
+        <h2 id="col-h">Разделы</h2>
+        <p>Разделы растут вместе с библиотекой. Новый раздел открывается, когда в нём готов первый проверенный текст.</p>
+      </div>
+
+      <div class="shelves">
+        <article class="shelf" data-shelf>
+          <h3><a href="https://claude.ai/artifact/HTuCJke5U2X3XbBcPHJeWK" id="alexander">Роман об Александре</a></h3>
+          <p class="scope">Греческие редакции Псевдо-Каллисфена, латинская традиция, Византия и Восток.</p>
+          <ul class="texts">
+            <li><span class="t">Эпитома Юлия Валерия («эпитома Цахера»), кн. I</span>
+              <span class="meta"><span class="status prep">готовится</span>латынь · VIII–IX вв.</span></li>
+            <li><span class="t">Византийская жизнь Александра, редакция ε</span>
+              <span class="meta"><span class="status prep">готовится</span>греческий · VIII в.</span></li>
+            <li><span class="t">Юлий Валерий, «Деяния Александра», кн. III</span>
+              <span class="meta"><span class="status prep">готовится</span>латынь · IV в.</span></li>
+            <li><span class="t">Византийская поэма об Александре (1388)</span>
+              <span class="meta"><span class="status prep">готовится</span>греческий · стих</span></li>
+          </ul>
+          <a class="more label" href="https://claude.ai/artifact/HTuCJke5U2X3XbBcPHJeWK">Весь раздел →</a>
+        </article>
+
+        <article class="shelf" data-shelf>
+          <h3><a href="https://claude.ai/artifact/HqyqE2tpQepFtVvpu58bdZ" id="scholia">Схолии</a></h3>
+          <p class="scope">Античные и византийские комментарии на полях рукописей: к Гомеру, Пиндару, эллинистическим поэтам, латинским авторам.</p>
+          <div class="subhead label">К «Одиссее»</div>
+          <ul class="texts">
+            <li><a class="t" href="https://claude.ai/artifact/KBXAd7KtUgWioncxPUnJ77" target="_blank" rel="noopener">Схолии к «Одиссее», песнь X: остров Эола (ст. 1–4)</a>
+              <span class="meta"><span class="status draft">черновик v0.1</span>греческий · Dindorf 1855</span></li>
+            <li><span class="t">«Конец „Одиссеи“»: схолии к 23.296–24 и Аристоник</span>
+              <span class="meta"><span class="status prep">готовится</span>досье</span></li>
+          </ul>
+          <div class="subhead label">К другим произведениям</div>
+          <ul class="texts">
+            <li><span class="t">Схолии к Пиндару, Пифийская ода 1</span>
+              <span class="meta"><span class="status prep">готовится</span>греческий</span></li>
+            <li><span class="t">Схолии к Аполлонию Родосскому, кн. II</span>
+              <span class="meta"><span class="status prep">готовится</span>греческий</span></li>
+            <li><span class="t">Элий Донат, комментарий к Теренцию</span>
+              <span class="meta"><span class="status prep">готовится</span>латынь · IV в.</span></li>
+          </ul>
+          <a class="more label" href="https://claude.ai/artifact/HqyqE2tpQepFtVvpu58bdZ">Весь раздел →</a>
+        </article>
+
+        <article class="shelf" data-shelf>
+          <h3><a href="https://claude.ai/artifact/WZmCFMo4TVrZBDsoT5KGyu" id="music">Музыка</a></h3>
+          <p class="scope">Трактаты о гармонике и ритмике, византийская передача античной теории, нотированные памятники.</p>
+          <ul class="texts">
+            <li><span class="t">Анонимный «Синопсис музыки» (1008)</span>
+              <span class="meta"><span class="status prep">готовится</span>греческий · трактат</span></li>
+            <li><span class="t">Георгий Пахимер, «Гармоника»</span>
+              <span class="meta"><span class="status prep">готовится</span>греческий · ок. 1300</span></li>
+            <li><span class="t">Филодем, «О музыке», кн. IV</span>
+              <span class="meta"><span class="status prep">готовится</span>геркуланский папирус</span></li>
+            <li><span class="t">Поллукс, «Ономастикон» IV: инструменты и номы</span>
+              <span class="meta"><span class="status prep">готовится</span>греческий · II в.</span></li>
+          </ul>
+          <a class="more label" href="https://claude.ai/artifact/WZmCFMo4TVrZBDsoT5KGyu">Весь раздел →</a>
+        </article>
+      </div>
+
+      <p class="empty" id="empty" hidden>Ничего не найдено. Попробуйте имя автора или название произведения.</p>
+
+      <div class="future">
+        <span class="label">Скоро</span>
+        <span class="f">Наука и техника — Гиппарх, «Комментарий к Арату»</span>
+        <span class="f">Лексикография — Зенобий, пословицы</span>
+        <span class="f">Хронография — Зонара, Дион Кассий</span>
+      </div>
+    </section>
+
+    <section class="block" id="method" aria-labelledby="method-h">
+      <div class="block-head">
+        <h2 id="method-h">Как мы переводим</h2>
+        <p>Языковые модели готовят черновик, другие модели его рецензируют, редактор подписывает. Каждый шаг виден на странице текста.</p>
+      </div>
+      <ol class="steps">
+        <li><b>Источник</b><span>Критический текст в общественном достоянии, разбитый на сегменты.</span></li>
+        <li><b>Черновики</b><span>Несколько независимых переводов от моделей разных семейств, со словарями в запросе.</span></li>
+        <li><b>Рецензия</b><span>Модели проверяют чужие переводы и отмечают ошибки по типам.</span></li>
+        <li><b>Редактор</b><span>Филолог проверяет спорные места и выборку остальных, подписывает версию.</span></li>
+        <li><b>Публикация</b><span>Версия с DOI, журналом рецензии и формой для исправлений.</span></li>
+      </ol>
+      <div class="ladder" aria-label="Статусы текста">
+        <span class="chip">Машинный черновик</span><span class="arrow">→</span>
+        <span class="chip">Проверено моделями</span><span class="arrow">→</span>
+        <span class="chip">Проверено редактором</span><span class="arrow">→</span>
+        <span class="chip">Внешняя рецензия</span>
+        <a href="https://claude.ai/artifact/LUNNJwceDXYWoepQJWmVVL#statuses">Подробнее о методе и замере качества</a>
+      </div>
+    </section>
+
+    <section class="block duo" aria-label="Изменения и исследования">
+      <div>
+        <div class="block-head"><h2>Последние изменения</h2></div>
+        <ol class="log">
+          <li><time datetime="2026-10-25">25.10.2026</time><span>Черновик: <a href="https://claude.ai/artifact/KBXAd7KtUgWioncxPUnJ77" target="_blank" rel="noopener">схолии к «Одиссее» X, ст. 1–4</a>. Перевод и новые схолии прошли перекрёстную проверку моделями, ожидают редактора.</span></li>
+          <li><time datetime="2026-10-25">25.10.2026</time><span>Открыты разделы «Роман об Александре», «Схолии», «Музыка».</span></li>
+        </ol>
+      </div>
+      <div id="studies">
+        <div class="block-head"><h2>Исследования</h2></div>
+        <ul class="studies">
+          <li><b>Конец «Одиссеи»: античный спор о стихе 23.296</b><span>статья в подготовке · по схолиям, Аристонику и Евстафию</span></li>
+          <li><b>Редакция ε и византийский Александр</b><span>статья в подготовке</span></li>
+          <li><b>Как мы проверяем ИИ-переводы</b><span>методологическая статья в подготовке</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="block" aria-labelledby="idx-h">
+      <div class="block-head"><h2 id="idx-h">Указатели</h2><p>Сквозные указатели по всем текстам библиотеки, с привязкой к Pleiades и Wikidata.</p></div>
+      <div class="indexes">
+        <a href="#top"><b>Авторы</b><span>от Аристарха до Цеца</span></a>
+        <a href="#top"><b>Произведения</b><span>с номерами книг и стихов</span></a>
+        <a href="#top"><b>Места</b><span>Эолия, Липара, Регий…</span></a>
+        <a href="#top"><b>Имена и мифы</b><span>Эол, Гиппот, Делос…</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot" id="footer">
+    <div class="about">
+      <b>Neoscholia</b>
+      <p>Независимая некоммерческая библиотека первых переводов античных текстов на русский и английский. Открытый доступ.</p>
+      <p>Переводы готовятся с помощью языковых моделей и проверяются редактором. Системы ИИ не являются авторами.</p>
+    </div>
+    <div>
+      <h2>Библиотека</h2>
+      <ul>
+        <li><a href="https://claude.ai/artifact/HTuCJke5U2X3XbBcPHJeWK">Роман об Александре</a></li>
+        <li><a href="https://claude.ai/artifact/HqyqE2tpQepFtVvpu58bdZ">Схолии</a></li>
+        <li><a href="https://claude.ai/artifact/WZmCFMo4TVrZBDsoT5KGyu">Музыка</a></li>
+        <li><a href="#top">Все тексты</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>О проекте</h2>
+      <ul>
+        <li><a href="https://claude.ai/artifact/LUNNJwceDXYWoepQJWmVVL#pipeline">Метод и замер качества</a></li>
+        <li><a href="https://claude.ai/artifact/LUNNJwceDXYWoepQJWmVVL">Редакционная хартия</a></li>
+        <li><a href="https://claude.ai/artifact/LUNNJwceDXYWoepQJWmVVL#ai">Роль ИИ</a></li>
+        <li><a href="https://claude.ai/artifact/WNygYEn7HeTq5PbrvPt2BF#team">Редакция и совет</a></li>
+        <li><a href="https://claude.ai/artifact/LUNNJwceDXYWoepQJWmVVL#corrections">Исправления</a></li>
+      </ul>
+    </div>
+    <div>
+      <h2>Использование</h2>
+      <ul>
+        <li>Переводы и комментарии — CC BY-NC-SA 4.0</li>
+        <li>Исходные тексты — общественное достояние</li>
+        <li>Журналы рецензии — CC0</li>
+        <li><a href="https://claude.ai/artifact/LUNNJwceDXYWoepQJWmVVL#cite">Как цитировать</a></li>
+      </ul>
+    </div>
+  </footer>
+  <div class="colophon">
+    <span>© 2026 Neoscholia</span>
+    <span>ISSN и DOI — после регистрации</span>
+    <span>Связь с редакцией: форма появится при запуске</span>
+  </div>
+</div>
+
+<script>
+(function () {
+  var q = document.getElementById('q');
+  var empty = document.getElementById('empty');
+  var hint = document.getElementById('hint');
+  var shelves = Array.prototype.slice.call(document.querySelectorAll('[data-shelf]'));
+  document.getElementById('search-form').addEventListener('submit', function (e) {
+    e.preventDefault();
+    document.getElementById('collections').scrollIntoView({ behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
+  });
+  function norm(s) { return s.toLowerCase().replace(/ё/g, 'е'); }
+  q.addEventListener('input', function () {
+    var term = norm(q.value.trim());
+    var total = 0;
+    shelves.forEach(function (shelf) {
+      var shelfHit = term && norm(shelf.querySelector('h3').textContent + ' ' + shelf.querySelector('.scope').textContent).indexOf(term) > -1;
+      var shown = 0;
+      shelf.querySelectorAll('.texts li').forEach(function (li) {
+        var hit = !term || shelfHit || norm(li.textContent).indexOf(term) > -1;
+        li.hidden = !hit; if (hit) shown++;
+      });
+      shelf.querySelectorAll('.subhead').forEach(function (h) {
+        var list = h.nextElementSibling; h.hidden = !!term && !list.querySelector('li:not([hidden])');
+      });
+      shelf.hidden = !!term && shown === 0;
+      total += shown;
+    });
+    empty.hidden = !term || total > 0;
+    hint.textContent = term ? (total ? 'Найдено текстов: ' + total : 'Совпадений нет') : 'Поиск сразу фильтрует разделы ниже.';
+  });
+})();
+</script>

@@ -1,0 +1,25 @@
+{
+ "corpus": "greek-technical",
+ "title": "Περὶ συνθέσεως φαρμάκων τῶν κατὰ γένη — De compositione medicamentorum per genera (Composition of Drugs according to Kinds); RU: Гален, «О составлении лекарств по родам»",
+ "author": "Galen of Pergamon",
+ "date": "late 2nd c. CE",
+ "language": "Greek",
+ "genre": "Pharmacology (recipe collection: plasters, wound drugs)",
+ "size": "7 books, Kühn XIII 362–1058; c. 102,000 words (Zainaldin et al. 2026)",
+ "edition": "Only Kühn 1827 (Greek and Latin, public domain); no modern critical edition (Zainaldin et al. 2026; Fichtner no. 82).",
+ "ru_status": "none",
+ "ru_evidence": "Not in the ru.wikipedia Galen translation list; the Balalykin series focuses on philosophical and anatomical works (vols II–V contents not fully verified).",
+ "en_status": "none",
+ "en_evidence": "Zainaldin et al. 2026: Comp. gen. 'has never been translated into English'. Fichtner bibliography (no. 82) lists no translation in any language.",
+ "other_translations": "None found (Fichtner 2023/12).",
+ "value": "Recipe book quoting many Hellenistic and early imperial pharmacologists: evidence for drug trade, pharmaceutical practice and lost authors. A methodological showcase, since a published LLM benchmark on this very text exists.",
+ "audience": "specialist",
+ "ai_feasibility": "low-medium: Zainaldin et al. report mean 79.9/100, bimodal, with catastrophic failures on dense recipes but c. 95 on expository passages. Needs a term lexicon and pharmacological review.",
+ "pilot_unit": "Book I (theory plus the first plaster groups), est. c. 15k words; the benchmark's 10 passages serve as a test set",
+ "preliminary_priority": 3,
+ "sources": [
+  "https://github.com/campattison/galen_project",
+  "https://cmg.bbaw.de/fileadmin/Webdateien/Dateien/Galen-Bibliographie.pdf"
+ ],
+ "id": "item_130"
+}

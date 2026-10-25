@@ -1,0 +1,26 @@
+{
+ "corpus": "latin-late-antique",
+ "title": "Magnus Felix Ennodius, Epistulae and Dictiones (Letters; Declamations/Speeches) / RU: Эннодий, «Письма», «Речи»",
+ "author": "Magnus Felix Ennodius (473/4–521), bishop of Pavia",
+ "date": "c. 495–513 CE",
+ "language": "Latin",
+ "genre": "Letters, school declamations, panegyric, opuscula",
+ "size": "297 letters (9 books), 28 dictiones and opuscula incl. the Panegyric to Theoderic; est. 120k+ words",
+ "edition": "Vogel, MGH AA 7 (1885), public domain: https://archive.org/details/magnifelicisenn00vogegoog. Hartel, CSEL 6 (1882). Gioanni, Budé (letters)",
+ "ru_status": "none",
+ "ru_evidence": "ru.wikipedia (Эннодий) lists editions only, no Russian translation. Absent from the ancientrome, vostlit and simposium catalogues.",
+ "en_status": "partial",
+ "en_evidence": "Only the Vita Epiphanii (Cook 1942) and the poems (Mulligan, Poetry of Ennodius, Routledge 2022) found. No English translation of the letters or dictiones (en.wikipedia; Open Library).",
+ "other_translations": "French: letters Books I–IV (Gioanni, Budé 2006, 2010). German: Panegyric (Rohr, MGH 1995). Italian: Panegyric (2002). Later letter books: none found.",
+ "value": "A key witness to Ostrogothic Italy, the Laurentian schism, rhetorical schooling and Boethius' circle. Largely inaccessible to non-Latinists.",
+ "audience": "humanities",
+ "ai_feasibility": "low–medium: notoriously obscure, mannered Latin with textual cruxes. A good showcase for visible disagreement between models and arbitration by the human editor.",
+ "pilot_unit": "Letters Book V, beyond the published Budé volumes (est. 8–10k words); or the Panegyric to Theoderic (est. 6k words)",
+ "preliminary_priority": 5,
+ "sources": [
+  "https://ru.wikipedia.org/wiki/Эннодий",
+  "https://en.wikipedia.org/wiki/Magnus_Felix_Ennodius",
+  "https://openlibrary.org/search?q=Ennodius"
+ ],
+ "id": "item_133"
+}

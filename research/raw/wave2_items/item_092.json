@@ -1,0 +1,26 @@
+{
+ "corpus": "greek-poetry",
+ "title": "Σύνοψις χρονική, Synopsis Chronike; «Хроника» Константина Манассии",
+ "author": "Constantine Manasses",
+ "date": "c. 1145–1150s CE",
+ "language": "Byzantine learned Greek",
+ "genre": "Verse world chronicle in political verse",
+ "size": "6,733 verses",
+ "edition": "Lampsidis 1996 (CFHB 36); Bekker 1837 (CSHB, public domain; URL not checked).",
+ "ru_status": "partial",
+ "ru_evidence": "ru.wikipedia 'Константин Манассия': Russian only of excerpts from the Middle Bulgarian Slavonic version (Polyvyannyi 1990, vostlit.info). Kantemir's 18th-c. translation survives in manuscript (doi 10.31860/2712-7591-2020-1-176-180). No modern Russian from the Greek.",
+ "en_status": "full",
+ "en_evidence": "Yuretich 2018, The Chronicle of Constantine Manasses (Liverpool UP; doi 10.2307/jj.38238666).",
+ "other_translations": "Modern Bulgarian: Buyukliev 1992",
+ "value": "A formative text for Slavic and Russian chronography, yet Russian readers know it only through Slavonic. Its sections on antiquity (Troy, Persia, Alexander, Rome) show Byzantine retelling of ancient history.",
+ "audience": "humanities",
+ "ai_feasibility": "High. Ornate but regular verse; the English translation is available for cross-checking.",
+ "pilot_unit": "Sections on antiquity (Troy, Alexander), about 700 verses (to be delimited)",
+ "preliminary_priority": 3,
+ "sources": [
+  "https://ru.wikipedia.org/wiki/Константин_Манассия",
+  "https://doi.org/10.2307/jj.38238666",
+  "https://doi.org/10.31860/2712-7591-2020-1-176-180"
+ ],
+ "id": "item_092"
+}

@@ -1,0 +1,26 @@
+{
+ "corpus": "greek-technical",
+ "title": "Θεραπευτικά (12 books), Περὶ πυρετῶν, Περὶ ἑλμίνθων — Therapeutics, On Fevers, Letter on Intestinal Worms; RU: Александр Траллийский, «Терапевтика»",
+ "author": "Alexander of Tralles",
+ "date": "6th c. CE (c. 525–605)",
+ "language": "Greek (late Koine)",
+ "genre": "Clinical medicine and therapeutics",
+ "size": "12 books plus two short works; est. 120–150k words (Puschmann, 2 vols, c. 1,200 pp. with facing German)",
+ "edition": "Puschmann, Alexander von Tralles, 2 vols, Wien 1878–79 (Greek and German; repr. 1963), public domain; Nachträge 1886. Scans via BSB digital collections.",
+ "ru_status": "none",
+ "ru_evidence": "No ru.wikipedia article; absent from ΣΧΟΛΗ index and from Balalykin's Galen series; no Russian version found anywhere.",
+ "en_status": "none",
+ "en_evidence": "en, de and fr Wikipedia list only Puschmann (German) and Brunet (French); Langslow 2006 studies the Latin version. No English translation found.",
+ "other_translations": "German: Puschmann 1878–79. French: Brunet, 4 vols, 1933–37. German excerpts of iatromagic: Grimm-Stadelmann 2020.",
+ "value": "Last great original clinician of Late Antiquity (brother of Anthemius, architect of Hagia Sophia): case observations, open critique of Galen, amulets and iatromagical remedies. Heavily used in Latin, Arabic and Hebrew medicine. For historians of medicine, magic, Byzantium.",
+ "audience": "humanities",
+ "ai_feasibility": "high for prose (clear didactic Koine); medium for drug names; Puschmann and Brunet allow cross-checking. Amulet formulas need specialist review.",
+ "pilot_unit": "Letter on Intestinal Worms (est. c. 4k words) plus Therapeutics I chapters on melancholy and epilepsy (est. c. 8k)",
+ "preliminary_priority": 5,
+ "sources": [
+  "https://de.wikipedia.org/wiki/Alexander_von_Tralleis",
+  "https://fr.wikipedia.org/wiki/Alexandre_de_Tralles",
+  "https://en.wikipedia.org/wiki/Alexander_of_Tralles"
+ ],
+ "id": "item_120"
+}

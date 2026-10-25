@@ -1,0 +1,26 @@
+{
+ "corpus": "greek-historiography",
+ "title": "Cassius Dio, Roman History, Books 1–35 (fragments plus Zonaras' epitome 7–9); «Римская история», кн. I–XXXV",
+ "author": "Cassius Dio (Zonaras for the epitome)",
+ "date": "c. 200–230 CE (epitome 12th c.)",
+ "language": "Greek",
+ "genre": "Annalistic Roman history (classicizing)",
+ "size": "Boissevain vol. I fragments plus Zonaras 7–9, est. 70–90k words",
+ "edition": "Boissevain 1895–1901 (public domain). Zonaras: Dindorf, Teubner 1868–75 (public domain)",
+ "ru_status": "none",
+ "ru_evidence": "ru.wikipedia lists professional Russian only for books 51–80 (Makhlayuk et al. 2011, 2014). Books 36, 37 and 48 exist only as amateur versions from English (ancientrome). Nothing for books 1–35",
+ "en_status": "full",
+ "en_evidence": "Loeb, E. Cary (1914–27); online at LacusCurtius",
+ "other_translations": "French listed on ru.wikipedia. German (O. Veh) not re-verified",
+ "value": "The main Greek narrative of regal and Republican Rome where Livy is lost: the Punic Wars, the Gracchi. Books 36–50 likewise lack a professional Russian translation, which makes this one of the largest Russian gaps in Roman historiography and useful for broad audiences and teaching.",
+ "audience": "broad",
+ "ai_feasibility": "High: Attic-style Greek. The provenance of each excerpt (Constantinian excerpts, Zonaras, Tzetzes) must be marked in the apparatus",
+ "pilot_unit": "Regal period: Books 1–3 fragments plus Zonaras 7.1–12, est. 8–10k words",
+ "preliminary_priority": 4,
+ "sources": [
+  "https://ru.wikipedia.org/wiki/Дион_Кассий",
+  "https://ancientrome.ru/antlitr/cass-dio/index.htm",
+  "https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Cassius_Dio/home.html"
+ ],
+ "id": "item_055"
+}

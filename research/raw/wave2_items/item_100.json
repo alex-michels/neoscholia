@@ -1,0 +1,26 @@
+{
+ "corpus": "greek-rhetoric",
+ "title": "Libanius, Declamations (Μελέται), 51 pieces; unit = those absent from the Russian, English and German selections / Либаний, Декламации",
+ "author": "Libanius of Antioch",
+ "date": "4th century CE",
+ "language": "Greek",
+ "genre": "Declamation (mythological, historical, comic ethopoeia)",
+ "size": "51 declamations in Foerster vols. V–VII (three Teubner volumes); several hundred thousand words (estimate)",
+ "edition": "Foerster, Libanii opera V–VII (Teubner 1909–13), public domain; scans on archive.org.",
+ "ru_status": "partial",
+ "ru_evidence": "Russian Wikipedia 'Либаний': Decl. 1 (Raytsina 1997) and Decl. 26, 28, 29 (Grabar-Passek 1961/1964) only.",
+ "en_status": "partial",
+ "en_evidence": "D. A. Russell, Libanius: Imaginary Speeches, a selection (1996), per German Wikipedia and BMCR 2013.02.38. No complete English found.",
+ "other_translations": "German: U. Lempp, Libanios: Musterreden (2015), scope unverified. Other single pieces may exist.",
+ "value": "The largest Greek declamation corpus: classical Athens, Homer and New Comedy re-performed in a 4th-century school. Key for education, reception of Demosthenes and Socrates, and the Byzantine rhetorical canon.",
+ "audience": "humanities",
+ "ai_feasibility": "Medium-high. Long and rhetorically regular Attic prose; stasis structure helps alignment. Requires checking for overlap with Russell and Lempp first.",
+ "pilot_unit": "One historical declamation not in Russell or Lempp (to be chosen after checking their contents), about 8,000–10,000 words.",
+ "preliminary_priority": 4,
+ "sources": [
+  "https://ru.wikipedia.org/wiki/Либаний",
+  "https://de.wikipedia.org/wiki/Libanios",
+  "https://bmcr.brynmawr.edu/?s=Libanius+declamations"
+ ],
+ "id": "item_100"
+}

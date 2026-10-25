@@ -1,0 +1,405 @@
+{
+ "verdict": "The draft is not ready to show as a preprint mockup yet, though most fixes are local. The Geminus text, the Dindorf Greek it prints and the astronomy all check out. Four things must change before release. (1) The \"complete\" translation leaves out three scholia inside its own cited range (452.20–24, 452.28–30, 453.6). (2) The unread third source of F 50, the scholia on Aratus 61–62 (visible in Buhle's edition), names Crates as the author of the Aratus–Homer link and gives a 20 h / 4 h figure; this contradicts the claim that the Draco argument survives \"only in the scholia and Eustathius\" and undercuts the two-layer hypothesis. (3) Carnuth assigns only the last sentence of Σ 10.190 to Aristonicus, so the κλίμα point is not Aristarchean evidence. (4) Several smaller errors: the Eudoxus anachronism, Geminus \"at the end of the book\" and \"opponent on this question\", the md azimuth wording, and figure readouts that disagree with the table.",
+ "findings": [
+  {
+   "severity": "error",
+   "file": "article.md",
+   "quote": "1. Мы полностью переводим, насколько нам известно впервые, комплекс схолий к Од. 10.82–86 (Приложение).",
+   "problem": "The claim of a complete translation is false. The appendix cites Dindorf II 452.20–454.18 but leaves out three scholia inside that range: Σ 10.82 τηλέπυλον (452.20–24, V and B.Q.T.), Σ 10.82 ποιμένα ποιμὴν (452.28–30, B and V) and Σ 10.83 ἠπύει (453.6, Q). The same claim appears in the md abstract (RU and EN), the HTML abstract (RU 'Мы полностью переводим', EN 'We translate … in full') and HTML §1.",
+   "evidence": "Dindorf scans p. 452 and p. 453 (scratchpad dind453/leaf55.jpg, leaf56.jpg). The verifier (verify_bib_claims claim 0) itself moved the start to 452.20 'τηλέπυλον'. research_primary T1 transcribes 452.28–30 and gives a Russian translation, which was dropped from the article. Dossier §3.1 mentions the τηλέπυλον scholion but does not print it.",
+   "fix": "1. Мы полностью переводим, насколько нам известно впервые, комплекс схолий к Од. 10.82–86 у Диндорфа (II 452.20–454.18; Приложение)."
+  },
+  {
+   "severity": "error",
+   "file": "article.md",
+   "quote": "**Σ 10.82, V.** Лестригонию]",
+   "problem": "The appendix omits the τηλέπυλον scholia (Dindorf II 452.20–24), which come first in the cited range. Dossier §3.1 relies on them for the epithet versus proper-name question.",
+   "evidence": "Dindorf II 452.20–24 (scan): '82. τηλέπυλον] μεγάλην. τῶν γὰρ τοιούτων πολὺ διεστᾶσιν αἱ πύλαι. τινὲς δὲ κύριον τὸ Τηλέπυλον ἐξεδέξαντο. οἱ δὲ τηλέπυλόν φασι μακρόπυλον, οὐ τῷ διαστήματι, ἀλλὰ τῷ πλάτει τῆς πύλης ἢ τῷ μήκει. V. πόρρω ἀλλήλων καὶ διασταδὸν τὰς πύλας ἔχουσαν· ἢ μακρόπυλον. B.Q.T.'",
+   "fix": "**Σ 10.82, V.** Телепил] Большой: ведь у таких [городов] ворота стоят далеко друг от друга. Некоторые же поняли «Телепил» как имя собственное. Другие говорят, что «телепил» — это «с длинными воротами», не по расстоянию [между ними], а по ширине или длине ворот.\n**Σ 10.82, B.Q.T.** [Город,] у которого ворота далеко друг от друга и врозь; или «с длинными воротами».\n**Σ 10.82, V.** Лестригонию]"
+  },
+  {
+   "severity": "error",
+   "file": "article.md",
+   "quote": "**Σ 10.82, H.** Лестригонию «младшие» [поэты] называют Сицилией.",
+   "problem": "The appendix omits the ποιμένα ποιμὴν scholia (452.28–30, B and V), even though research_primary T1 had already translated them.",
+   "evidence": "Dindorf II 452.28–30 (scan): 'ποιμένα ποιμὴν] τὸν βουκόλον ὁ τῶν μήλων νομεύς, διὰ τὸ πολλὰ εἶναι τὰ πρόβατα. B. καταχρηστικῶς εἴρηκε ποιμένα καὶ τὸν βουκόλον. V.'",
+   "fix": "**Σ 10.82, H.** Лестригонию «младшие» [поэты] называют Сицилией.\n**Σ 10.82, B.** пастух пастуха] [Окликает] волопаса пастух мелкого скота, потому что овец много.\n**Σ 10.82, V.** Неточно (катахрестически) он назвал «пастухом» и волопаса."
+  },
+  {
+   "severity": "error",
+   "file": "article.md",
+   "quote": "**Σ 10.84, N.**",
+   "problem": "The appendix omits the Q gloss on ἠπύει (10.83), which sits between the B.Q. scholion and the N scholion.",
+   "evidence": "Dindorf II 453.6 (scan): '83. ἠπύει] προσαγορεύει, φωνεῖ. Q.'",
+   "fix": "**Σ 10.83, Q.** «окликает»] Обращается, зовёт.\n**Σ 10.84, N.**"
+  },
+  {
+   "severity": "error",
+   "file": "study-laestrygonians.html",
+   "quote": "<div class=\"sch-head\"><span class=\"sch-ref\">Σ 10.82</span><span class=\"lemma\" lang=\"grc\">Λαιστρυγονίην</span><span class=\"chip\">V · H</span></div>",
+   "problem": "The HTML appendix has the same omissions as the md appendix: τηλέπυλον (452.20–24), ποιμένα ποιμὴν (452.28–30) and ἠπύει (453.6), even though the intro says 'Текст по Dindorf 1855, II 452.20–454.18'.",
+   "evidence": "Dindorf scans pp. 452–453 (see the md findings).",
+   "fix": "<!-- вставить ПЕРЕД блоком <div class=\"sch\"> с леммой Λαιστρυγονίην: -->\n<div class=\"sch\"><div class=\"sch-head\"><span class=\"sch-ref\">Σ 10.82</span><span class=\"lemma\" lang=\"grc\">τηλέπυλον</span><span class=\"chip\">V · B · Q · T</span></div><div class=\"pair\"><p class=\"g\" lang=\"grc\">μεγάλην. τῶν γὰρ τοιούτων πολὺ διεστᾶσιν αἱ πύλαι. τινὲς δὲ κύριον τὸ Τηλέπυλον ἐξεδέξαντο. οἱ δὲ τηλέπυλόν φασι μακρόπυλον, οὐ τῷ διαστήματι, ἀλλὰ τῷ πλάτει τῆς πύλης ἢ τῷ μήκει. V. — πόρρω ἀλλήλων καὶ διασταδὸν τὰς πύλας ἔχουσαν· ἢ μακρόπυλον. B.Q.T.</p><p class=\"t\">Большой: ведь у таких [городов] ворота стоят далеко друг от друга. Некоторые же поняли «Телепил» как имя собственное. Другие говорят, что «телепил» — «с длинными воротами», не по расстоянию [между ними], а по ширине или длине ворот. V. — [Город,] у которого ворота далеко друг от друга и врозь; или «с длинными воротами». B.Q.T.</p></div></div>\n<!-- вставить ПОСЛЕ блока Λαιστρυγονίην: -->\n<div class=\"sch\"><div class=\"sch-head\"><span class=\"sch-ref\">Σ 10.82</span><span class=\"lemma\" lang=\"grc\">ποιμένα ποιμὴν</span><span class=\"chip\">B · V</span></div><div class=\"pair\"><p class=\"g\" lang=\"grc\">τὸν βουκόλον ὁ τῶν μήλων νομεύς, διὰ τὸ πολλὰ εἶναι τὰ πρόβατα. B. — καταχρηστικῶς εἴρηκε ποιμένα καὶ τὸν βουκόλον. V.</p><p class=\"t\">[Окликает] волопаса пастух мелкого скота, потому что овец много. B. — Неточно (катахрестически) он назвал «пастухом» и волопаса. V.</p></div></div>\n<!-- вставить ПЕРЕД блоком ἄοκνος (Σ 10.84): -->\n<div class=\"sch\"><div class=\"sch-head\"><span class=\"sch-ref\">Σ 10.83</span><span class=\"lemma\" lang=\"grc\">ἠπύει</span><span class=\"chip\">Q</span></div><div class=\"pair\"><p class=\"g\" lang=\"grc\">προσαγορεύει, φωνεῖ.</p><p class=\"t\">Обращается, зовёт.</p></div></div>"
+  },
+  {
+   "severity": "error",
+   "file": "article.md",
+   "quote": "3. Довод о голове Дракона со ссылкой на Арата 61–62 сохранился только в схолиях HQ и HV и у Евстафия.",
+   "problem": "The scholia on Aratus also preserve the argument, under Crates' name. They are the third source of F 50, and the article has not read them. Dindorf's own apparatus on 453.21 says so ('Ἄρατος] 61, ubi Cratetis sententiam memorat scholiasta'). The scholion in Buhle's edition has Crates linking Arat. 61–62 directly with Od. 10.86, with a 20-hour day and a 4-hour night. The word 'only' is therefore wrong, and the figures differ from Geminus' 23/1.",
+   "evidence": "Buhle, Arati Phaenomena cum scholiis, vol. I (Lipsiae 1793), scholion on Arat. 61–62; two independent OCR copies in the scratchpad: C:/Users/user/AppData/Local/Temp/claude/C--Users-user-Documents-Projects-Neoscholia/b4f946bd-6075-477c-b48c-f9c5ba60c113/scratchpad/dl_aratschol/bub_gb_CZy8vfImD00C.txt ll. 2386–2394 and bub_gb_kFZmr314HyMC.txt ll. 2443–2450. Reading: 'ὁ δὲ Κράτης φησίν, ὡς ὑπὸ τὸν ὁρίζοντα μίξις ἀμφοτέρων γίνεται, ὡς καὶ Ὅμηρος· «ἐγγὺς γὰρ νυκτός τε καὶ ἤματός εἰσι κέλευθοι»· ἐπεὶ γὰρ παρ’ ἐκείνοις ἡ ἡμέρα ὡρῶν κ΄, ἡ δὲ νὺξ τεσσάρων, συναπτούσης ὅσον οὐδέπω τῆς δύσεως τῇ ἀνατολῇ, εὐλόγως τοῦτο εἴρηκε.' This must be checked against Martin 1974. research_primary claim 4 and research_astronomy open question 2 both flag the Dindorf note.",
+   "fix": "3. Довод о голове Дракона со ссылкой на Арата 61–62 известен по схолиям HQ и HV, по Евстафию и — под именем Кратета — по схолиям к Арату 61–62 (по изданию Бюле там день 20 ч, ночь 4 ч; сверить по Martin 1974). Понятый так, как понимал Арата Гиппарх, он указывает на широту самой Греции. Поздний ли это слой или собственный довод Кратета-толкователя Арата, решит чтение схолии к Арату."
+  },
+  {
+   "severity": "error",
+   "file": "article.md",
+   "quote": "2. Довод о «голове Дракона» со ссылкой на Арата сохранился только в схолиях и у Евстафия.",
+   "problem": "The abstract makes the same 'only' claim, which the Aratus scholia contradict, since they attribute the Aratus–Homer link to Crates (see the conclusion 3 finding). The EN abstract item 2 ('survives only in the scholia and in Eustathius … probably a later layer') needs the same change.",
+   "evidence": "Buhle's schol. Arat. 61–62 (scratchpad OCR, see above); Dindorf II 453 app. 21.",
+   "fix": "2. Довод о «голове Дракона» со ссылкой на Арата известен по схолиям к «Одиссее», Евстафию и схолиям к Арату, где он, по-видимому, приписан самому Кратету (не сверено по Martin 1974). Понятый так, как понимал Арата Гиппарх, он указывает на широту самой Греции (~37°)."
+  },
+  {
+   "severity": "overclaim",
+   "file": "article.md",
+   "quote": "- **Поздний слой** — аратовское украшение. Оно могло прийти из комментариев к самому Арату: третий источник F 50 — схолия к Арату 62, которую нам ещё предстоит прочесть.",
+   "problem": "The two-layer hypothesis is offered while its decisive source is unread. That source appears to attribute the Aratean argument to Crates himself, with different figures (20 h / 4 h). If confirmed, the 'Aratean' argument is Cratetean rather than a later layer. HTML §4 ('Поздний — аратовское украшение…') needs the same change.",
+   "evidence": "Buhle schol. Arat. 61–62 (scratchpad OCR, two copies); Bekker 1828 index 'Crates Arati interpres 58 12' (scratchpad arat/bek.txt l. 10701).",
+   "fix": "- **Поздний слой?** — аратовский довод. Однако схолия к Арату 61–62 (по изданию Бюле; сверить по Martin 1974) приписывает связь Арата с Од. 10.86 самому Кратету и даёт другие цифры: день 20 ч, ночь 4 ч. Если это подтвердится, «аратовский» довод восходит к Кратету-толкователю Арата, и речь идёт не о двух слоях, а о нескольких версиях самого Кратета."
+  },
+  {
+   "severity": "error",
+   "file": "study-laestrygonians.html",
+   "quote": "Довод о голове Дракона со ссылкой на Арата 61–62 известен только по схолиям HQ и HV и по Евстафию.",
+   "problem": "The HTML makes the same 'only' claim, contradicted by the Aratus scholia under Crates' name. The HTML abstract ('известный только по схолиям и Евстафию') and the EN abstract ('known only from the scholia and Eustathius') repeat it.",
+   "evidence": "Buhle schol. Arat. 61–62 (scratchpad OCR); Dindorf II 453 app. 21.",
+   "fix": "Довод о голове Дракона со ссылкой на Арата 61–62 известен по схолиям HQ и HV, по Евстафию и — под именем Кратета — по схолиям к Арату (не сверено по Martin 1974)."
+  },
+  {
+   "severity": "error",
+   "file": "dossier.md",
+   "quote": "3. **«Голова Дракона» и цитата из Арата (Phaen. 61–62) есть только в схолиях и у Евстафия**, у Гемина их нет.",
+   "problem": "'Only' is contradicted by the Aratus scholia (the third source of F 50), which the dossier's own §7 item 3 lists as unread.",
+   "evidence": "Buhle schol. Arat. 61–62 (scratchpad OCR); Dindorf II 453 app. 21.",
+   "fix": "3. **«Голова Дракона» и цитата из Арата (Phaen. 61–62) есть в схолиях к «Одиссее», у Евстафия и, под именем Кратета, в схолиях к Арату 61–62 (по Бюле: день 20 ч, ночь 4 ч; сверить по Martin 1974)**; у Гемина их нет."
+  },
+  {
+   "severity": "overclaim",
+   "file": "article.md",
+   "quote": "Слово κλίμα — термин той самой науки о широтах, к которой апеллирует Кратет. Вывод противоположен кратетовскому: определить место нельзя, и поэт этого не хочет.",
+   "problem": "The κλίμα sentence is presented as Aristarchean ('Аристоник в книге κ, дважды'), but Carnuth assigns to Aristonicus (κ 190) only the last sentence, ἐκ τούτων … Ὀδυσσέως. The κλίμα paraphrase is anonymous exegesis within the B.Q.T. scholion. The scholion just before it (B.Q.) reads Odysseus' words as lament, not perplexity. 'и поэт этого не хочет' is not in the source. HTML §5 has the same text ('Вывод противоположный: место определить нельзя, и поэт этого не хочет.').",
+   "evidence": "Carnuth 1869, κ 190 (scratchpad carn/c.txt ll. 4953–4958): only 'ἐκ τούτων ἐκτετοπισμένη φαίνεται ἡ πλάνη τοῦ Ὀδυσσέως B.Q.T.'. Dindorf II 460 bottom: 'ταῦτα δὲ λέγει οὐκ ἀπορῶν, ἀλλὰ δεινοπαθῶν τοῖς παροῦσιν. B.Q.' (dind/d2.txt l. 5454).",
+   "fix": "Аристонику Карнут отводит только последнюю фразу (ἐκ τούτων … Ὀδυσσέως); слова о κλίμα — анонимная часть той же схолии. Если κλίμα здесь и термин науки о широтах, вывод противоположен кратетовскому: определить место нельзя. Соседняя заметка B.Q. понимает слова Одиссея иначе — как сетование, а не незнание (οὐκ ἀπορῶν, ἀλλὰ δεινοπαθῶν)."
+  },
+  {
+   "severity": "error",
+   "file": "several",
+   "quote": "Σ Од. 10.190 (Dindorf II 461.1–5, B.Q.T.) = Аристоник, κ 190 Carnuth",
+   "problem": "The note equates the whole of 461.1–5 with Carnuth's Aristonicus. Carnuth prints only 461.4–5. The error appears in md note 23 and HTML note 23, and the dossier §3.7 heading repeats it.",
+   "evidence": "Carnuth 1869 κ 190 (scratchpad carn/c.txt l. 4957); Dindorf II 461.1–5 (dind/d2.txt).",
+   "fix": "Σ Од. 10.190 (Dindorf II 461.1–5, B.Q.T.); последняя фраза (461.4–5) = Аристоник, κ 190 Carnuth"
+  },
+  {
+   "severity": "suggestion",
+   "file": "article.md",
+   "quote": "Это единственное место, где Аристарх и Кратет противопоставлены именно по поводу странствий.",
+   "problem": "The section 'Где Аристарх?' leaves out Carnuth's own note on κ 190, which (following Lehrs, Ar. 174) reads the Aristonicus note as a refutation of Crates. On that reading, Crates inferred from this verse that Homer knew four cardinal regions, while Aristarchus allowed him only east and west. This bears directly on the 'Pergamon versus Alexandria' question in book κ. The same sentence is in the HTML.",
+   "evidence": "Carnuth 1869 pp. 95–96 (scratchpad carn/c.txt ll. 4968–4976; Latin OCR garbled: 'Refutatio fuit Crate[tis], qui quattuor … regiones Homero notas … ex hoc loco …; Aristarchus … duo modo, orientem et occidentem …'; cites a scholion with 'κατὰ Ἀρίσταρχον' and '…φησιν ὁ Κράτης, τῶν τεσσάρων … μερῶν, ἄρκτον, μεσημβρίας, ἀνατολῆς καὶ δύσεως'; 'L. Ar. 174'). This needs checking against the scan.",
+   "fix": "Это единственное место, где Аристарх и Кратет прямо противопоставлены по поводу странствий. Ср., впрочем, Карнута к κ 190 (с. 95–96, по Lehrs, Ar. 174): он считает аристоникову заметку к этому стиху возражением Кратету, который выводил отсюда знание Гомером четырёх стран света; Аристарх признавал у Гомера лишь восток и запад. Это реконструкция Карнута и Лерса, её нужно проверить."
+  },
+  {
+   "severity": "error",
+   "file": "article.md",
+   "quote": "Понятый так, как понимали Арата Евдокс и Гиппарх, он указывает на широту самой Греции.",
+   "problem": "Anachronism: Eudoxus (4th c. BC) cannot have read Aratus (3rd c. BC), who versified Eudoxus. This also disagrees with the md abstract ('Гиппарх и сам Арат') and §4 ('Арат и Гиппарх').",
+   "evidence": "Hipparchus 1.4.7 (dossier §3.5): 'ὁ μὲν γὰρ Ἄρατος ἀκολουθῶν τῷ Εὐδόξῳ'.",
+   "fix": "Понятый так, как понимал Арата Гиппарх (и как описывал голову Дракона Евдокс, источник Арата), он указывает на широту самой Греции."
+  },
+  {
+   "severity": "error",
+   "file": "study-laestrygonians.html",
+   "quote": "Если читать Арата так, как его читали Евдокс и Гиппарх, довод указывает не на крайний север",
+   "problem": "The same anachronism (§4): Eudoxus did not read Aratus.",
+   "evidence": "Hipparchus 1.4.7: Aratus follows Eudoxus.",
+   "fix": "Если читать Арата так, как его читал Гиппарх (вслед за Евдоксом, источником Арата), довод указывает не на крайний север"
+  },
+  {
+   "severity": "error",
+   "file": "study-laestrygonians.html",
+   "quote": "Если читать Арата так, как Евдокс и Гиппарх, он указывает на широту самой Греции.",
+   "problem": "The same anachronism (§6, conclusion 3).",
+   "evidence": "Hipparchus 1.4.7.",
+   "fix": "Если читать Арата так, как Гиппарх (а голову Дракона — как Евдокс, источник Арата), он указывает на широту самой Греции."
+  },
+  {
+   "severity": "error",
+   "file": "several",
+   "quote": "В конце книги",
+   "problem": "Geminus 16.27 is not at the end of the book: the Introduction has 18 chapters, and 16.27 sits in chapter 16 (on the terrestrial zones), in the passage on Crates' Ethiopians. The phrase appears in md §3 and HTML §3.",
+   "evidence": "Manitius 1898 p. 174 (scratchpad gem2/g.txt ll. 13385–13400): the sentence 'Κράτης μὲν οὖν παραδοξολογῶν…' follows the quotation of Od. 1.23–24 (Ethiopians).",
+   "fix": "В главе 16, о земных поясах,"
+  },
+  {
+   "severity": "overclaim",
+   "file": "article.md",
+   "quote": "Это возражение методическое, а не астрономическое: с расчётом Гемин не спорит, он сомневается, что Гомер его подразумевал.",
+   "problem": "This holds for the Cimmerians (6.20–21), but not for Geminus' critique of Crates in general. Right after the passage cited in note 12, Geminus says Crates' Ocean between the tropics is foreign to both mathematical and physical reasoning, and that no ancient mathematician held it. That is a substantive scientific objection. HTML §3 ('С расчётом Гемин не спорит. Он сомневается, что Гомер его подразумевал.') needs the same scope.",
+   "evidence": "Manitius p. 172 (gem2/g.txt ll. 13265–13275): 'ἡ δὲ τοιαύτη διάταξις ἀλλοτρία ἐστὶ καὶ τοῦ μαθηματικοῦ καὶ τοῦ φυσικοῦ λόγου καὶ παρ’ οὐδενὶ τῶν ἀρχαίων μαθηματικῶν κατακεχωρισμένη, ὡς ἀποφαίνεται Κράτης'.",
+   "fix": "О лестригонах и киммерийцах Гемин с расчётом не спорит: он сомневается, что Гомер его подразумевал. Но кратетовский Океан между тропиками он отвергает и по существу: такое устройство «чуждо и математическому, и физическому учению» (16.22, Manitius 172)."
+  },
+  {
+   "severity": "overclaim",
+   "file": "article.md",
+   "quote": "В наших источниках прямой оппонент Кратета по этому вопросу — не грамматик, а астроном Гемин.",
+   "problem": "Geminus raises no objection to the Laestrygonian reading itself: in 6.10–12 he reports it neutrally. His reservations concern the Cimmerians (6.20–21) and Crates' Homeric sphere and Ethiopians (16.21–27). The same overclaim is in the EN abstract ('Crates' direct critic on this question'), md §5 ('Прямое возражение Кратету по этому вопросу в наших источниках есть, но его автор — астроном Гемин.') and HTML §5.",
+   "evidence": "Manitius pp. 72, 76.15 ('εἰ μὲν οὖν ταῦτ’ ἐνθυμεῖται Ὅμηρος, ἕτερος ἔστω λόγος' on the Cimmerians), 172–174 (Ethiopians, Ocean).",
+   "fix": "В наших источниках Кратету возражает не грамматик, а астроном Гемин — правда, не по поводу лестригонов, а по поводу киммерийцев (6.20–21) и кратетовской «сферопеи» Гомера в целом (16.21–27)."
+  },
+  {
+   "severity": "overclaim",
+   "file": "study-laestrygonians.html",
+   "quote": "Прямое возражение Кратету по этому вопросу в источниках есть, но его автор — астроном Гемин, и он сомневается не в расчёте, а в том, что Гомер его подразумевал.",
+   "problem": "Geminus' objection does not concern this question (the Laestrygonians); see the abstract finding.",
+   "evidence": "Manitius pp. 72, 76, 172–174.",
+   "fix": "Ближе всего к прямому возражению — астроном Гемин, но и он спорит с Кратетом не о лестригонах, а о киммерийцах (6.20–21) и о кратетовской «сферопее» Гомера в целом (16.21–27)."
+  },
+  {
+   "severity": "error",
+   "file": "article.md",
+   "quote": "Первые три толкования — пространственные или бытовые: κέλευθοι для них — это дороги к ночным и дневным пастбищам. Последние два — временные и астрономические: κέλευθοι — пути Солнца.",
+   "problem": "This contradicts the article's own table. The third interpretation is labelled 'Временное' (HQ [a]: τῆς ἡμέρας ἡ ὁδός … ἐν ἀκαρεῖ), so it belongs with χρονικῶς and is about the 'path of day', not roads to pastures.",
+   "evidence": "Table row 'Временное | День не отстоит от ночи…| Σ 10.86 HQ [a]'; Dindorf II 453.15–17.",
+   "fix": "Первые два толкования — пространственные или бытовые: κέλευθοι для них — дороги к ночным и дневным пастбищам. Остальные три — временные: κέλευθοι — «пути» дня и ночи, а в двух астрономических — пути Солнца."
+  },
+  {
+   "severity": "error",
+   "file": "study-laestrygonians.html",
+   "quote": "Для первых трёх толкований <span lang=\"grc\">κέλευθοι</span> — дороги к ночным и дневным пастбищам. Для двух последних — пути Солнца.",
+   "problem": "The same contradiction with the table: the third, 'Временное', interpretation is temporal, not about pastures.",
+   "evidence": "HTML table row 'Временное … Σ 10.86 HQ [a]'.",
+   "fix": "Для первых двух толкований <span lang=\"grc\">κέλευθοι</span> — дороги к ночным и дневным пастбищам. Для трёх последних — «пути» дня и ночи, а в двух астрономических — пути Солнца."
+  },
+  {
+   "severity": "error",
+   "file": "article.md",
+   "quote": "Точки летнего восхода и заката там расходятся всего на 13–14° по обе стороны от севера.",
+   "problem": "Wrong as written. Each point is 6.8° from north, and the total gap through north is about 13.5°. The verifier's correction (claim 65) was not carried into the md. The HTML has the correct '6–7°'.",
+   "evidence": "cos A = sin ε / cos φ = 0.993 → A = 6.75–6.8° (verify claim 65; dossier §4.2; recomputed: 6.8° at 66.11°).",
+   "fix": "Точки летнего восхода и заката отстоят там от севера всего на 6–7°, то есть друг от друга — примерно на 13,5°."
+  },
+  {
+   "severity": "error",
+   "file": "article.md",
+   "quote": "Схолия T начинается с ὅτι, как аристоновские заметки",
+   "problem": "Wrong word: 'аристоновские' would refer to Ariston. The intended reference is Aristonicus, and the HTML has 'как заметки Аристоника'.",
+   "evidence": "HTML §2; dossier §3.2 ('аристоновскую форму' has the same slip).",
+   "fix": "Схолия T начинается с ὅτι, как заметки Аристоника"
+  },
+  {
+   "severity": "overclaim",
+   "file": "several",
+   "quote": "Что значат эти стихи у самого Арата, известно точно: их разбирает Гиппарх.",
+   "problem": "Too strong. Hipparchus' reading is one ancient interpretation. Kidd 1997, the standard commentary, has not been consulted (dossier ✖), and the Aratus scholia read the lines differently (via Crates and Homer).",
+   "evidence": "Dossier §3.4 ('Kidd 1997 не сверен ✖'); Buhle schol. Arat. 61–62.",
+   "fix": "Как понимал эти стихи Гиппарх, известно точно: он их подробно разбирает (комментарий Kidd 1997 мы ещё не сверили)."
+  },
+  {
+   "severity": "overclaim",
+   "file": "article.md",
+   "quote": "Расчёт по современным данным подтверждает Гиппарха.",
+   "problem": "Only Hipparchus' conclusion and two of his three polar distances are confirmed. The third, 34 3/5° for the star at the tip of the mouth, fits no head star (dossier §5.1). HTML: 'Современный расчёт подтверждает Гиппарха.'",
+   "evidence": "Dossier §5.1; research_astronomy claim 3: μ 31.67°, ν1 32.32°, ξ 31.88° against 34.6°.",
+   "fix": "Расчёт по современным данным подтверждает вывод Гиппарха: его полярные расстояния 35° и 37° совпадают с небом II в. до н. э. до 0,05°; третье, 34 3/5°, не подходит ни к одной звезде головы (досье, § 5)."
+  },
+  {
+   "severity": "overclaim",
+   "file": "article.md",
+   "quote": "Хозяйственное объяснение в одной из версий опирается на Евстафия: интерполятор рукописи B выписывал из него.",
+   "problem": "This states as fact what the dossier marks as inference. Dindorf does not list κ 85 among the interpolations, and the matching words are themselves Dindorf's supplements taken from Eustathius. The HTML is properly hedged ('похоже').",
+   "evidence": "Dossier §3.2: 'Это наш вывод, у Диндорфа κ 85 в списке не названа'; research_primary claim 7 'probable'.",
+   "fix": "Одна из версий хозяйственного объяснения (схолия B к 10.85), по-видимому, восходит к Евстафию: интерполятор рукописи B выписывал из него."
+  },
+  {
+   "severity": "overclaim",
+   "file": "several",
+   "quote": "объясняется пересказом Евстафия: это второе описание того же неспящего, а не противопоставление.",
+   "problem": "The dossier calls this 'Наше толкование, требует проверки по Понтани', yet the conclusion states it as settled. It appears in md conclusion 5 and HTML conclusion 5.",
+   "evidence": "Dossier §3.2, the paragraph 'Последняя фраза [c]'.",
+   "fix": "по-видимому, объясняется пересказом Евстафия: это, вероятно, второе описание того же неспящего, а не противопоставление (наше толкование; сверить с Понтани)."
+  },
+  {
+   "severity": "overclaim",
+   "file": "several",
+   "quote": "(F 53 Broggiato). В рукописи H то же чтение приписано Аристарху",
+   "problem": "The F 53 number comes only from Bilić 2021, which was not accessible (verify claim 41: unverifiable; dossier ◐). H also has a different form, Κερβερέων, not Κερβερίων. This is in md note 11 and HTML note 11.",
+   "evidence": "Dindorf II 479: '14. ἔνθα δὲ Κιμμερίων] Ἀρίσταρχος Κερβερέων. H.' (dind/d2.txt l. 7566); Porson: read Κερβερίων.",
+   "fix": "(F 53 Broggiato; номер по Bilić, не сверен). В рукописи H близкое чтение (Κερβερέων) приписано Аристарху"
+  },
+  {
+   "severity": "inconsistency",
+   "file": "article.md",
+   "quote": "[^2]: Указания на литературу: Broggiato 2014, 106, прим. 125; Bilić 2021, гл. 2. Названы: Heubeck 1989 к этим стихам; Page 1973, 42–44; Scodel 2003; Argenziano 2012; Bilić 2012. Не все эти работы мы видели (см. список литературы).",
+   "problem": "Note 2 cites Bilić 2021 ch. 2 as a source of references, but note 20 says 'Эту главу мы ещё не видели'. Page 1973 pp. 42–44 are unverified (verify claim 53). Of the works listed, only Broggiato 2014 was actually read. HTML note 2 needs the same change.",
+   "evidence": "verify_bib_claims bib 35 ('The contents were not seen'), claim 53; dossier §6 (Page: 'страницы не проверены').",
+   "fix": "[^2]: Указания на литературу: Broggiato 2014, 106, прим. 125 (Heubeck 1989 к этим стихам; Scodel 2003; Argenziano 2012); по непроверенным выпискам из Bilić 2021, гл. 2, — также Page 1973 (с. 42–44, страницы не сверены) и Bilić 2012. Кроме Broggiato 2014, этих работ мы не видели (см. список литературы)."
+  },
+  {
+   "severity": "suggestion",
+   "file": "several",
+   "quote": "Тогда лестригоны оказываются на 53–55° с. ш.",
+   "problem": "By the scholarship agent's report, Bilić 2021 ch. 2 already proposes the zenith reading of 'head of Draco' (about 54–55°N). The article presents the 'first way' without crediting it, yet hedges only the two-layer hypothesis.",
+   "evidence": "research_scholarship claim 20 ('Bilić 2021 notes these may imply different latitudes, if \"under the head of Draco\" means the zenith') and open question ('about 54–55°N by Bilić's argument').",
+   "fix": "Тогда лестригоны оказываются на 53–55° с. ш. (такое понимание, по нашим непроверенным выпискам, уже обсуждает Bilić 2021, гл. 2; нужно сверить)."
+  },
+  {
+   "severity": "overclaim",
+   "file": "several",
+   "quote": "Принято говорить, что об этом стихе спорили Пергам и Александрия: Кратет против Аристарха.",
+   "problem": "No source is given for the claim that this is commonly said. The dossier traces the formulation to the project's own card on the Research page, not to the scholarly literature.",
+   "evidence": "Dossier §2 'Поправка к замыслу статьи'.",
+   "fix": "Напрашивается мысль, что об этом стихе спорили Пергам и Александрия: Кратет против Аристарха."
+  },
+  {
+   "severity": "overclaim",
+   "file": "article.md",
+   "quote": "Термин ἐξωκεανισμός, «вынос в Океан», который сегодня часто прилагают к Кратету, у Страбона обозначает как раз противоположное: поэтический вымысел в понимании Эратосфена и Аполлодора.",
+   "problem": "'часто' is unsourced: the dossier gives no modern examples. 'как раз противоположное' overstates the contrast. In Strabo the word means the same transfer into the Ocean, understood as fiction rather than geography. HTML §5 has the same wording ('часто связывают', 'обратное').",
+   "evidence": "research_scholarship claim 16; Strabo 1.2.37 (τὸν ἐξωκεανισμὸν τῶν τόπων), 7.3.6 (ἐξωκεανικέναι μυθολογίας χάριν).",
+   "fix": "Термин ἐξωκεανισμός, «вынос в Океан», который иногда прилагают к Кратету, у Страбона обозначает перенос мест в Океан как поэтический вымысел — в понимании Эратосфена и Аполлодора, а не Кратета."
+  },
+  {
+   "severity": "inconsistency",
+   "file": "several",
+   "quote": "«где неспящий заработал бы двойную плату»",
+   "problem": "This quotes Od. 10.84 (as Herodicus does) but does not match the article's own translation of the line ('Там неспящий человек заработал бы две платы').",
+   "evidence": "Verify claim 17: Herodicus cites Od. 10.84; δοιοὺς … μισθούς.",
+   "fix": "«где неспящий человек заработал бы две платы»"
+  },
+  {
+   "severity": "error",
+   "file": "several",
+   "quote": "Схолии к стихам 82–86 занимают у Диндорфа чуть больше двух страниц.",
+   "problem": "452.20–454.18 is about 61 printed lines, slightly under two pages of about 31 lines each, not 'slightly over two'.",
+   "evidence": "Dindorf scans pp. 452–454.",
+   "fix": "Схолии к стихам 82–86 занимают у Диндорфа около двух страниц."
+  },
+  {
+   "severity": "inconsistency",
+   "file": "study-laestrygonians.html",
+   "quote": "<input type=\"range\" id=\"lat\" min=\"30\" max=\"66.5\" step=\"0.1\" value=\"37.3\">",
+   "problem": "The figure readouts at the presets disagree with the table beside them, because the presets use rounded latitudes. Leontini shows 'касается горизонта (+0,3°)' against the table's +0,2°. Athens shows +1,0° against +0,9°. 'Дракон в зените' shows +16,0° against +15,9°. 'Лестригоны Кратета' (66.1) shows a day of 22 ч 59 мин and a night of 1 ч 01 мин next to the note 'ночь — один час'.",
+   "evidence": "Replicated the page's draw() in Python: 37.3 → low 0.259; 38.0 → 0.959; 53.0 → 15.959; 66.1 → 1379 min. With the dossier latitudes (37.28, 37.97, 52.96, 66.105) the readouts match the table and give 23 ч 00 мин.",
+   "fix": "<input type=\"range\" id=\"lat\" min=\"30\" max=\"66.5\" step=\"0.005\" value=\"37.28\">\n<!-- и в PLACES: hell phi: 36.87, leon phi: 37.28, athn phi: 37.97, perg phi: 39.13, zen phi: 52.96, crat phi: 66.105 -->"
+  },
+  {
+   "severity": "inconsistency",
+   "file": "study-laestrygonians.html",
+   "quote": "Синий пунктир — граница незаходящих звёзд, синяя точка — нижняя точка звезды γ Дракона («левый висок» у Гиппарха).",
+   "problem": "The caption says the point is blue, but the script turns it red ('.sv-star.below') when the star sets (Alexandria, Rhodes). The solid blue line for γ's daily circle is not described.",
+   "evidence": "Script: star.setAttribute('class', 'sv-star' + (low < -0.3 ? ' below' : '')); CSS .sv-star.below { fill: var(--rubric) }.",
+   "fix": "Синий пунктир — граница незаходящих звёзд, синяя линия — суточный круг звезды γ Дракона, точка — её нижняя кульминация («левый висок» у Гиппарха; красная, если звезда заходит)."
+  },
+  {
+   "severity": "overclaim",
+   "file": "study-laestrygonians.html",
+   "quote": "note: 'Голова Дракона ненадолго уходит под горизонт — как и утверждал Аттал Родосский, оппонент Гиппарха.'",
+   "problem": "The note implies that Attalus reasoned from the latitude of Rhodes. The dossier marks exactly this as conjecture ✖ (§5.2; research_astronomy claim 4: 'my speculation').",
+   "evidence": "Dossier §5 item 2: 'Рассуждал ли Аттал от широты Родоса — догадка ✖'.",
+   "fix": "note: 'Голова Дракона уходит под горизонт примерно на 1,6 ч. Аттал, оппонент Гиппарха, считал, что она ненадолго заходит; рассуждал ли он от широты Родоса — лишь догадка.'"
+  },
+  {
+   "severity": "error",
+   "file": "study-laestrygonians.html",
+   "quote": "note: 'Город Кратета. Летняя ночь — около девяти часов.'",
+   "problem": "Crates was from Mallos (36.76°, where γ Dra dips −0.28°). Pergamon was where he worked. The page itself calls him 'Кратет Малльский'.",
+   "evidence": "daylen.py output: Mallos (Pleiades) φ 36.76, γ −0.28° in 150 BC.",
+   "fix": "note: 'Здесь работал Кратет (родом он из Малла, 36,8°). Летняя ночь — около девяти часов.'"
+  },
+  {
+   "severity": "inconsistency",
+   "file": "study-laestrygonians.html",
+   "quote": "<div role=\"listitem\"><b>50</b><span>работ в списке — все существуют</span></div>",
+   "problem": "The page's bibliography shows 27 entries, not 50. The verifier's 50 included astronomy and reference items (Pleiades, SIMBAD, Heiberg). Scodel 2003 and Argenziano 2012 are attested only through Broggiato's footnote, with no catalogue record.",
+   "evidence": "verify_bib_claims bibliography (50 items; Scodel2003 and Argenziano2012 notes); HTML #refs has 14 + 3 + 10 entries.",
+   "fix": "<div role=\"listitem\"><b>50</b><span>библиографических позиций проверено (включая астрономические и справочные); две известны только по ссылке Броджато</span></div>"
+  },
+  {
+   "severity": "overclaim",
+   "file": "study-laestrygonians.html",
+   "quote": "<li>отдельный агент пытался опровергнуть каждую ссылку и каждое утверждение.</li>",
+   "problem": "The verifier checked 50 references and 70 selected claims, not every statement. Several article statements were never checked (for example 'в конце книги', 'Евдокс и Гиппарх', the κ 190 attribution).",
+   "evidence": "verify_bib_claims.json: 50 bibliography items, 70 claims.",
+   "fix": "<li>отдельный агент пытался опровергнуть 50 библиографических позиций и 70 ключевых утверждений.</li>"
+  },
+  {
+   "severity": "error",
+   "file": "study-laestrygonians.html",
+   "quote": "τηλέκλυτον P (стихи 82–86 приведены полностью)",
+   "problem": "P quotes the verses only up to νομεύων, which ends v. 85, so it covers 82–85, not 82–86. Dindorf: 'qui in verbis ceteris usque ad νομεύων cum textu vulgato consentit'. The dossier has the same error.",
+   "evidence": "Dindorf II 454 app. 17 (scan leaf57.jpg); P text 'τηλέπυλον Λαιστρυγονίην——νομεύων'.",
+   "fix": "τηλέκλυτον P (стихи 82–85, до νομεύων, приведены полностью)"
+  },
+  {
+   "severity": "error",
+   "file": "dossier.md",
+   "quote": "Аппарат: 13 τὴν γὰρ νύκτα addidit Buttm.; 17 τηλέκλυτον P. (P приводит 82–86 полностью).",
+   "problem": "P quotes 82–85 (up to νομεύων), not 82–86.",
+   "evidence": "Dindorf II 454 app. 17.",
+   "fix": "Аппарат: 13 τὴν γὰρ νύκτα addidit Buttm.; 17 τηλέκλυτον P. (P приводит 82–85, до νομεύων, полностью)."
+  },
+  {
+   "severity": "error",
+   "file": "dossier.md",
+   "quote": "5. **Настоящий современник-оппонент Кратета в наших источниках — астроном Гемин, а не грамматик.**",
+   "problem": "Geminus (probably 1st c. BC) was not a contemporary of Crates (mid-2nd c. BC). His objections also concern the Cimmerians and the Ocean or Ethiopians, not the Laestrygonians.",
+   "evidence": "Article §3 ('вероятно, I в. до н. э.'); Manitius pp. 76, 172–174.",
+   "fix": "5. **Ближайший к Кратету оппонент в наших источниках — астроном Гемин (I в. до н. э., на столетие позже), а не грамматик; спорит он, впрочем, о киммерийцах и об Океане, а не о лестригонах.**"
+  },
+  {
+   "severity": "error",
+   "file": "dossier.md",
+   "quote": "**Аристоник у Карнута, κ 190** ✔, Dindorf II 461.1–5, B.Q.T.",
+   "problem": "Carnuth assigns only the final sentence (461.4–5) to Aristonicus. The κλίμα part is anonymous. The dossier, and the article after it, treat the whole passage as Aristarchean.",
+   "evidence": "Carnuth 1869 κ 190 (scratchpad carn/c.txt l. 4957).",
+   "fix": "**Аристоник у Карнута, κ 190** ✔ — только последняя фраза (Dindorf II 461.4–5); вся схолия 461.1–5, B.Q.T., в остальном анонимна."
+  },
+  {
+   "severity": "error",
+   "file": "dossier.md",
+   "quote": "γ Dra — +29,07° / 76,85° (к югу от зенита)",
+   "problem": "76.85° is the altitude above the southern horizon, not a distance south of the zenith (13.15°). This is the same slip the verifier corrected for 73.91° (claim 68).",
+   "evidence": "φ − δ = 66.11 − 52.96 = 13.15°; research_astronomy claim 11 ('γ culminates 13.15° south of the zenith (altitude 76.85°)').",
+   "fix": "γ Dra — нижняя кульминация +29,07°, верхняя на высоте 76,85° над южным горизонтом (13,15° к югу от зенита)"
+  },
+  {
+   "severity": "error",
+   "file": "dossier.md",
+   "quote": "### 3.2. Схолии к Од. 10.82–86 (Dindorf II 452.20–454.18) ✔ по сканам",
+   "problem": "The heading claims the full range, checked against the scans, but the section starts at 452.25 and omits 452.20–24 (τηλέπυλον, V; B.Q.T.), 452.28–30 (ποιμένα ποιμὴν, B; V) and 453.6 (ἠπύει, Q).",
+   "evidence": "Dindorf scans pp. 452–453.",
+   "fix": "### 3.2. Схолии к Од. 10.82–86 (Dindorf II 452.20–454.18) ✔ по сканам; добавить пропущенные 452.20–24 (τηλέπυλον, V; B.Q.T.), 452.28–30 (ποιμένα ποιμὴν, B; V), 453.6 (ἠπύει, Q)"
+  },
+  {
+   "severity": "error",
+   "file": "dossier.md",
+   "quote": "Расчёт: [code/draco.py](code/draco.py), [code/daylen.py](code/daylen.py), запуск `python -I`.",
+   "problem": "The calculation is not reproducible as the dossier claims. code/daylen.py hard-codes sys.path.insert(0, r'C:/Users/user/AppData/Local/Temp/claude/…/scratchpad') and imports draco from the session scratchpad, not from code/. Under python -I the script's own folder is not on sys.path, so once the scratchpad is cleaned the script fails.",
+   "evidence": "code/daylen.py line 4 (grep). It currently runs only because scratchpad/draco.py exists.",
+   "fix": "Расчёт: [code/draco.py](code/draco.py), [code/daylen.py](code/daylen.py), запуск `python -I` (в daylen.py строку 4 заменить на `import os; sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))`)."
+  },
+  {
+   "severity": "overclaim",
+   "file": "article.md",
+   "quote": "Источники, расчёты и статус проверки каждого утверждения собраны в [dossier.md](dossier.md).",
+   "problem": "The dossier records a verification status for its main claims, not for every statement in the article. Several article statements (see the other findings) have no status there.",
+   "evidence": "Dossier §1–§5; verify_bib_claims has 70 claims.",
+   "fix": "Источники, расчёты и статус проверки основных утверждений собраны в [dossier.md](dossier.md)."
+  },
+  {
+   "severity": "suggestion",
+   "file": "study-laestrygonians.html",
+   "quote": "<h3>Фрагменты Кратета</h3>",
+   "problem": "The HTML bibliography leaves out works the page cites: Buttmann 1821 ('Buttm.' in the apparatus) and the astronomical sources named in note 17 and the figure (Laskar 1986; Capitaine et al. 2003; Lieske et al. 1977; van Leeuwen 2007; Gaia EDR3; SIMBAD). It also leaves out Buhle's or Martin's Aratus scholia, which F 50 requires.",
+   "evidence": "Dossier §6 lists them; HTML #refs does not.",
+   "fix": "<h3>Астрономия</h3>\n<ul>\n<li><span class=\"chk\">✓</span>Laskar J. Secular terms of classical planetary theories // A&amp;A. 1986. Vol. 157. P. 59–70.</li>\n<li><span class=\"chk\">✓</span>Capitaine N., Wallace P. T., Chapront J. Expressions for IAU 2000 precession quantities // A&amp;A. 2003. Vol. 412. P. 567–586.</li>\n<li><span class=\"chk\">✓</span>van Leeuwen F. Validation of the new Hipparcos reduction // A&amp;A. 2007. Vol. 474. P. 653–664.</li>\n</ul>\n<h3>Фрагменты Кратета</h3>"
+  }
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "corpus": "greek-historiography",
+ "title": "Eusebius of Caesarea, Chronicon Book 1 (Chronographia; «Хроника» Евсевия, кн. 1)",
+ "author": "Eusebius of Caesarea",
+ "date": "c. 311–325 CE",
+ "language": "Classical Armenian (version of the lost Greek), plus Greek fragments in Synkellos",
+ "genre": "Chronography: an anthology of national histories and king-lists",
+ "size": "Est. 40–50k words (Karst GCS 20, roughly pp. 1–143)",
+ "edition": "Aucher 1818 (Armenian + Latin; public domain). Schoene–Petermann 1875 (public domain). Karst, GCS 20 (1911), German translation",
+ "ru_status": "none",
+ "ru_evidence": "ru.wikipedia (Хроника Евсевия): only partly in Russian, namely the Roman-era Canons in Jerome's Latin version (Kiev 1910). Book 1 not translated. ancientrome has only the Ptolemy king-list (from English)",
+ "en_status": "full",
+ "en_evidence": "Online only, not peer-reviewed: attalus.org translation of Book 1 (Schoene–Petermann pp. 1–295). Jerome's Canons in English on tertullian.org",
+ "other_translations": "German (Karst 1911, from the Armenian). Latin (Aucher, Petermann)",
+ "value": "Preserves excerpts of Berossus, Abydenus, Alexander Polyhistor, Manetho, Castor and Porphyry on the Ptolemies and Seleucids. A core source for Near Eastern and Hellenistic chronology, used by Assyriologists, Egyptologists and Hellenistic historians.",
+ "audience": "humanities",
+ "ai_feasibility": "Medium: LLMs are weaker in Classical Armenian. Mitigate with Greek parallels (Synkellos) and Karst as cross-check; an Armenologist reviewer is required",
+ "pilot_unit": "The Chaldaean section (Berossus/Abydenus/Polyhistor excerpts), est. 8–10k words",
+ "preliminary_priority": 4,
+ "sources": [
+  "https://ru.wikipedia.org/wiki/Хроника_Евсевия",
+  "http://www.attalus.org/translate/eusebius.html",
+  "https://en.wikipedia.org/wiki/Chronicon_(Eusebius)",
+  "https://ancientrome.ru/antlitr/eusebius/index.htm"
+ ],
+ "id": "item_054"
+}

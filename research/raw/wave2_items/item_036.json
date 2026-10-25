@@ -1,0 +1,26 @@
+{
+ "corpus": "christian-orient-graecoarabic",
+ "title": "Oikonomikos (Arabic Tadbīr al-manzil, 'Management of the Estate'); RU: Брисон, «Ойкономикос»",
+ "author": "Bryson (Neopythagorean)",
+ "date": "1st–2nd c. CE (estimate); Arabic translation 9th c.",
+ "language": "Arabic (Greek lost; Hebrew and Latin versions derive from it)",
+ "genre": "Household-economy treatise",
+ "size": "c. 7–8k words (estimate)",
+ "edition": "Plessner 1928, Arabic + German (archive.org); Swain 2013 critical edition.",
+ "ru_status": "none",
+ "ru_evidence": "No ru.wiki hits; Solopova 2018 lists no Russian translation.",
+ "en_status": "full",
+ "en_evidence": "Swain, Economy, Family, and Society from Rome to Islam (CUP 2013), per reviews indexed in OpenAlex.",
+ "other_translations": "German: Plessner 1928.",
+ "value": "The only imperial-age Greek oikonomikos (household-management treatise) surviving in full. Covers slaves, wives, children and wealth; it shaped Miskawayh and Tusi. Useful to economic and social historians.",
+ "audience": "humanities",
+ "ai_feasibility": "High (Arabic, short); the German and English translations are available for cross-checking.",
+ "pilot_unit": "The whole text, c. 7k words (estimate).",
+ "preliminary_priority": 3,
+ "sources": [
+  "https://archive.org/details/der-oikonomikoc-des-neupythagoreers-bryson-und-sein-einflub-auf-die-islamische-wissenescha_1928",
+  "https://api.openalex.org/works?search=Bryson%20Management%20of%20the%20Estate%20Swain",
+  "https://iphras.ru/uplfile/histph/2018/386-418-greece-east3.pdf"
+ ],
+ "id": "item_036"
+}

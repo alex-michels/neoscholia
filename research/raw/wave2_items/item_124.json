@@ -1,0 +1,26 @@
+{
+ "corpus": "greek-technical",
+ "title": "Ὑποτύπωσις τῶν ἀστρονομικῶν ὑποθέσεων — Hypotyposis astronomicarum positionum (Outline of Astronomical Hypotheses); RU: Прокл, «Очерк астрономических гипотез»",
+ "author": "Proclus Diadochus",
+ "date": "5th c. CE",
+ "language": "Greek",
+ "genre": "Astronomy; philosophy of science",
+ "size": "Proem and 7 chapters; est. 25–30k words (Manitius 1909, c. 300 pp. with facing German)",
+ "edition": "Manitius, Teubner 1909 (Greek and German; repr. 1974), public domain: https://www.wilbourhall.org/pdfs/proclus/ProclusHypotosis.pdf",
+ "ru_status": "none",
+ "ru_evidence": "ru.wikipedia «Прокл» gives no translation; absent from the ΣΧΟΛΗ translation index (2007–2026); no Russian version found.",
+ "en_status": "none",
+ "en_evidence": "en.wikipedia «Proclus» links only the Greek text (astrologicon.org); de.wikipedia lists only Manitius' German. No English found.",
+ "other_translations": "German: Manitius 1909 (the only one found).",
+ "value": "Considered antiquity's best introduction to the Almagest (de.wikipedia); Proclus treats epicycles and eccentrics as calculating devices, not physical truths, a key text for 'saving the phenomena', Neoplatonism and Byzantine teaching (a textbook from the 13th c.). For philosophers and historians of science.",
+ "audience": "humanities",
+ "ai_feasibility": "high-medium: lucid prose; diagrams and parameters must be verified against the Almagest; Manitius' German allows cross-checking.",
+ "pilot_unit": "Proem, ch. 1 and ch. 7 (critique of the hypotheses), est. 6–8k words",
+ "preliminary_priority": 4,
+ "sources": [
+  "https://de.wikipedia.org/wiki/Proklos",
+  "https://en.wikipedia.org/wiki/Proclus",
+  "http://classics.nsu.ru/scholeru/schedule.htm"
+ ],
+ "id": "item_124"
+}

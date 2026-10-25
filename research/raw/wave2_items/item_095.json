@@ -1,0 +1,27 @@
+{
+ "corpus": "greek-rhetoric",
+ "title": "Libanius, Letters not yet translated in full: Foerster nos. 494–839 and 1113–1540 (the 355–365 corpus) / Либаний, Письма",
+ "author": "Libanius of Antioch",
+ "date": "355–365 CE",
+ "language": "Greek",
+ "genre": "Epistolography (patronage, school, administration)",
+ "size": "About 770 letters in these ranges. BMCR estimates that about one-third of the 1,544 letters (about 500) are untranslated into any modern language.",
+ "edition": "Foerster, Libanii opera X–XI (Teubner 1921–22), public domain; scans on archive.org.",
+ "ru_status": "partial",
+ "ru_evidence": "Russian Wikipedia 'Либаний': only selected letters to Julian, Modestus and Themistius (Grabar-Passek 1964). No other Russian letter translations listed.",
+ "en_status": "partial",
+ "en_evidence": "Selections only: Norman (Loeb 1992), Bradbury 2004, Cribiore 2007, Bradbury & Moncur 2023 (273 letters of 388–393; BMCR 2024.01.47). romanletters.org has unvetted AI English for 1,054 letters ('thematic renderings').",
+ "other_translations": "Spanish: letters 1–493 (González Gálvez, Gredos 2005). Italian: letters 840–1112 (Pellizzari 2017). Both per BMCR 2024.01.47.",
+ "value": "The largest pagan letter collection of Late Antiquity and the backbone of PLRE prosopography. Key for provincial government, the curial class, Julian's reign and the Antiochene school. A complete scholarly rendering of the remaining third would be a real first.",
+ "audience": "specialist",
+ "ai_feasibility": "Medium. Terse, allusive and prosopographically dense; needs Seeck/PLRE dating and consistent naming conventions. Well suited to multi-model cross-review against the English selections.",
+ "pilot_unit": "Foerster 494–600 (about 105 letters, estimated about 12,000 words), after removing letters already in English selections.",
+ "preliminary_priority": 4,
+ "sources": [
+  "https://bmcr.brynmawr.edu/2024/2024.01.47/",
+  "https://ru.wikipedia.org/wiki/Либаний",
+  "https://es.wikipedia.org/wiki/Libanio",
+  "https://romanletters.org/authors/"
+ ],
+ "id": "item_095"
+}

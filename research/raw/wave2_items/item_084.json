@@ -1,0 +1,24 @@
+{
+ "corpus": "greek-poetry",
+ "title": "Ἴαμβοι and Ἑκάλη, Iambi and Hecale (fragments, with the Diegeseis); «Ямбы», «Гекала»",
+ "author": "Callimachus of Cyrene",
+ "date": "3rd c. BCE",
+ "language": "Hellenistic Greek",
+ "genre": "Iambic/choliambic poetry book; hexameter epyllion (fragmentary)",
+ "size": "Iambi: 13 poems, originally about 1,000 lines, now fragmentary. Hecale: about 180 fragments. Roughly 600–800 legible lines in all (estimate).",
+ "edition": "Pfeiffer 1949–53; Hollis 2009 (Hecale); Kerkhecker 1999. No open digital text of the fragments verified.",
+ "ru_status": "partial",
+ "ru_evidence": "ru.wikipedia 'Каллимах из Кирены': Hecale only in Эллинские поэты (1999), pp. 210–211; Iambi pp. 300–303 (Smyka, Yarkho). Tiny selections.",
+ "en_status": "full",
+ "en_evidence": "Trypanis, Loeb 1958; Hollis 2009 (Hecale with translation); Acosta-Hughes 2002; Kerkhecker 1999 (listed on ru.wikipedia).",
+ "other_translations": "Italian: Lelli 2005 (Iambi 14–17); D'Alessio 1996 (BUR, unverified). German: Asper 2004 (unverified).",
+ "value": "Programmatic core of Hellenistic poetics and the model for Catullus, Horace's Epodes and Ovid. Russian readers have the Hymns and Aetia selections but practically none of the Iambi or Hecale. High value for teaching.",
+ "audience": "humanities",
+ "ai_feasibility": "Medium-low. Papyrus lacunae make hallucinated restorations a real risk. Review agents must check brackets and supplements against the editions.",
+ "pilot_unit": "Iambi 1–13 with the Diegeseis (about 400–500 legible lines; estimate)",
+ "preliminary_priority": 4,
+ "sources": [
+  "https://ru.wikipedia.org/wiki/Каллимах_из_Кирены"
+ ],
+ "id": "item_084"
+}

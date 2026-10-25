@@ -1,0 +1,26 @@
+{
+ "corpus": "latin-late-antique",
+ "title": "Sidonius Apollinaris, Epistulae (Letters, 9 books) / RU: Сидоний Аполлинарий, «Письма» (RU-gap)",
+ "author": "C. Sollius Modestus Apollinaris Sidonius (c. 430–c. 485), bishop of Clermont",
+ "date": "c. 469–482 CE",
+ "language": "Latin",
+ "genre": "Literary letter collection",
+ "size": "147 letters in 9 books; est. 65–70k words (plus 24 poems)",
+ "edition": "Luetjohann, MGH AA 8 (1887), public domain: https://archive.org/details/gaisoliiapollin00ltgoog. Loyen, Budé",
+ "ru_status": "partial",
+ "ru_evidence": "Excerpts only: Trukhina, История Древнего Рима. Тексты и документы (2004), pp. 393–400; poems in Поздняя латинская поэзия (1982) and a 1998 anthology (per ru.wikipedia).",
+ "en_status": "full",
+ "en_evidence": "Anderson, Loeb (2 vols, 1936/1965); Dalton 1915, online (per en.wikipedia).",
+ "other_translations": "French complete (Loyen, Budé). Many recent English and Italian commentaries on individual books.",
+ "value": "Indispensable for the end of Roman Gaul: the Visigoths (portrait of Theoderic II), Euric, the siege of Clermont, the Gallo-Roman aristocracy. A first-rank gap in Russian.",
+ "audience": "humanities",
+ "ai_feasibility": "low–medium: deliberately precious, allusive style. The English and French versions may be used for checking only, never as a base.",
+ "pilot_unit": "Book 1 (11 letters, incl. 1.2 on Theoderic II; est. 7–8k words)",
+ "preliminary_priority": 4,
+ "sources": [
+  "https://ru.wikipedia.org/wiki/Сидоний_Аполлинарий",
+  "https://en.wikipedia.org/wiki/Sidonius_Apollinaris",
+  "https://archive.org/details/gaisoliiapollin00ltgoog"
+ ],
+ "id": "item_137"
+}

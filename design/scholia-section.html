@@ -1,0 +1,411 @@
+<title>Античные схолии</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Forum&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400&family=Alegreya+Sans+SC:wght@500;700&display=swap">
+<style>
+/* Layout: the shared reading sheet. Intro + a schematic folio (main text ringed by scholia) →
+   layers of the scholia → the Odyssey series as a 24-book strip → catalogue table with filters → existing Russian → studies. */
+:root {
+  --papyrus: #e7dcc4; --leaf: #fbf7ee; --panel: #f4ecdc;
+  --ink: #2b2219; --ink-soft: #6b5c4a;
+  --rubric: #a2361c; --lapis: #2f4b6e; --rule: #d9ccb1; --wash: #efe4cc;
+  --font-display: "Forum", "Times New Roman", serif;
+  --font-text: "Gentium Book Plus", "Gentium Plus", "Noto Serif", Georgia, serif;
+  --font-label: "Alegreya Sans SC", "Trebuchet MS", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --papyrus: #17130e; --leaf: #1f1a14; --panel: #262019; --ink: #e9dec7; --ink-soft: #b3a48b;
+    --rubric: #e08a6c; --lapis: #9db6d6; --rule: #3a3127; --wash: #2a231b; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --papyrus: #17130e; --leaf: #1f1a14; --panel: #262019; --ink: #e9dec7; --ink-soft: #b3a48b;
+  --rubric: #e08a6c; --lapis: #9db6d6; --rule: #3a3127; --wash: #2a231b; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--papyrus); color: var(--ink); font: 1.05rem/1.6 var(--font-text);
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0 2.5rem; }
+a { color: var(--lapis); text-underline-offset: .18em; }
+a:focus-visible, button:focus-visible, input:focus-visible, [tabindex]:focus-visible { outline: 2px solid var(--lapis); outline-offset: 2px; }
+.wrap { max-width: 76rem; margin: 0 auto; background: var(--leaf); border: 1px solid var(--rule); border-top: 0; padding: 0 2.75rem; }
+.label { font-family: var(--font-label); letter-spacing: .06em; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 400; text-wrap: balance; }
+
+/* header (shared) */
+.site { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .75rem 2rem; padding-block: 1.1rem .9rem; border-bottom: 1px solid var(--rule); }
+.brand { display: flex; flex-direction: column; text-decoration: none; color: var(--ink); line-height: 1.1; }
+.brand b { font-family: var(--font-display); font-weight: 400; font-size: 1.75rem; letter-spacing: .06em; }
+.brand b span { color: var(--rubric); }
+.brand small { font-size: .85rem; color: var(--ink-soft); }
+.site nav { display: flex; flex-wrap: wrap; gap: .3rem 1.4rem; font-family: var(--font-label); font-size: 1rem; letter-spacing: .04em; }
+.site nav a { color: var(--ink-soft); text-decoration: none; padding-block: .15rem; }
+.site nav a[aria-current] { color: var(--ink); border-bottom: 1px solid var(--rubric); }
+.lang { display: inline-flex; border: 1px solid var(--rule); font-family: var(--font-label); font-size: .85rem; }
+.lang span, .lang button { padding: .15rem .55rem; font: inherit; border: 0; background: transparent; color: var(--ink-soft); }
+.lang span { background: var(--ink); color: var(--leaf); }
+.lang button { cursor: not-allowed; border-left: 1px solid var(--rule); }
+.mock { margin-top: 1rem; background: var(--wash); border: 1px dashed var(--rule); padding: .55rem .9rem; font-size: .9rem; color: var(--ink-soft); }
+.mock b { color: var(--ink); }
+
+/* intro */
+.crumbs { margin-top: 1.5rem; font-family: var(--font-label); font-size: .9rem; letter-spacing: .04em; color: var(--ink-soft); }
+.crumbs a { color: var(--ink-soft); }
+.intro { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr); gap: 2.5rem; padding-block: .4rem 2rem; align-items: start; }
+.intro h1 { font-size: clamp(2.3rem, 5vw, 3.4rem); line-height: 1.05; margin: .3rem 0 .9rem; }
+.intro p { margin: 0 0 .9rem; max-width: 38rem; }
+.editor { font-family: var(--font-label); font-size: .9rem; color: var(--ink-soft); }
+.facts { display: grid; gap: .7rem; margin: 1.2rem 0 0; padding: 1rem 1.2rem; background: var(--panel); border: 1px solid var(--rule); }
+.facts div { display: grid; gap: .05rem; }
+.facts dt { font-family: var(--font-label); font-size: .82rem; letter-spacing: .05em; color: var(--ink-soft); }
+.facts dd { margin: 0; }
+
+/* folio */
+figure.folio { margin: 0; }
+.page { background: var(--panel); border: 1px solid var(--rule); padding: .9rem; display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.9fr) minmax(0, 1fr); grid-template-areas: "top top top" "left main right" "bot bot bot"; gap: .6rem .7rem; }
+.page [lang="grc"] { line-height: 1.35; }
+.sch { font-size: .74rem; color: var(--ink-soft); }
+.sch b { color: var(--rubric); font-weight: 400; }
+.sch.top { grid-area: top; } .sch.left { grid-area: left; } .sch.right { grid-area: right; } .sch.bot { grid-area: bot; }
+.maintext { grid-area: main; border-inline: 1px solid var(--rule); padding: .2rem .7rem; font-size: .98rem; display: grid; gap: .1rem; align-content: center; }
+.maintext .ln { position: relative; }
+.maintext .gl { display: block; font-size: .68rem; color: var(--lapis); line-height: 1; margin-bottom: -.05rem; padding-left: 2.6rem; }
+.maintext .lm { color: var(--rubric); }
+.marker { display: inline-grid; place-items: center; width: 1.15rem; height: 1.15rem; border-radius: 50%; background: var(--ink); color: var(--leaf);
+  font-family: var(--font-label); font-size: .7rem; vertical-align: .1em; margin-right: .25rem; }
+.fol-legend { list-style: none; margin: .7rem 0 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .3rem 1rem; font-size: .88rem; color: var(--ink-soft); }
+.fol-legend li { display: flex; gap: .4rem; align-items: baseline; }
+
+/* blocks */
+.block { border-top: 1px solid var(--rule); padding-block: 2rem 2.2rem; }
+.block-head { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: .4rem 1.5rem; margin-bottom: 1.1rem; }
+.block-head h2 { font-size: clamp(1.6rem, 3vw, 2.1rem); margin: 0; }
+.block-head p { margin: 0; color: var(--ink-soft); font-size: .95rem; max-width: 38rem; }
+
+/* layers */
+.layers { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1.2rem 1.4rem; }
+.layer { border-left: 2px solid var(--rule); padding-left: .8rem; min-width: 0; }
+.layer.four { border-left-color: var(--rubric); }
+.layer h3 { font-size: 1.2rem; margin: 0 0 .15rem; }
+.layer .what { font-family: var(--font-label); font-size: .82rem; letter-spacing: .04em; color: var(--ink-soft); margin: 0 0 .3rem; }
+.layer p { margin: 0; font-size: .93rem; }
+.four-note { margin: 1rem 0 0; font-size: .9rem; color: var(--ink-soft); }
+.four-note b { color: var(--rubric); font-weight: 400; }
+
+/* odyssey strip */
+.strip-wrap { overflow-x: auto; }
+.strip { display: grid; grid-template-columns: 9rem repeat(24, minmax(1.7rem, 1fr)); gap: 3px; min-width: 52rem; align-items: stretch; }
+.strip .rowlab { font-family: var(--font-label); font-size: .82rem; letter-spacing: .04em; color: var(--ink-soft); display: flex; align-items: center; padding-right: .4rem; }
+.strip .num { font-family: var(--font-label); font-size: .74rem; color: var(--ink-soft); text-align: center; font-variant-numeric: tabular-nums; }
+.cell { height: 2rem; border: 1px solid var(--rule); background: var(--leaf); display: grid; place-items: center; font-size: .7rem; font-family: var(--font-label); }
+.cell.draft { background: var(--lapis); border-color: var(--lapis); color: var(--leaf); }
+.cell.plan { border: 2px solid var(--lapis); color: var(--lapis); }
+.cell.en { background: var(--wash); color: var(--ink-soft); }
+.cell.gap { border: 2px solid var(--rubric); }
+.cell.gap.plan { border-color: var(--lapis); }
+.strip-legend { display: flex; flex-wrap: wrap; gap: .4rem 1.2rem; margin-top: .9rem; font-size: .88rem; color: var(--ink-soft); }
+.strip-legend span { display: inline-flex; gap: .4rem; align-items: center; }
+.strip-legend .cell { width: 1.4rem; height: 1rem; }
+.phases { list-style: none; margin: 1.3rem 0 0; padding: 0; display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1rem; counter-reset: ph; }
+.phases li { counter-increment: ph; border-top: 1px solid var(--rule); padding-top: .6rem; font-size: .93rem; min-width: 0; }
+.phases li::before { content: "Этап " counter(ph); display: block; font-family: var(--font-label); font-size: .8rem; letter-spacing: .05em; color: var(--rubric); }
+.phases b { display: block; font-weight: 400; font-size: 1.05rem; }
+.phases span { color: var(--ink-soft); }
+
+/* catalogue table */
+.filters { display: flex; flex-wrap: wrap; gap: .4rem; align-items: center; margin-bottom: 1rem; }
+.filters button { font-family: var(--font-label); font-size: .88rem; letter-spacing: .04em; padding: .25rem .75rem; cursor: pointer; background: var(--panel); color: var(--ink-soft); border: 1px solid var(--rule); }
+.filters button[aria-pressed="true"] { background: var(--ink); color: var(--leaf); border-color: var(--ink); }
+.filters label { margin-left: auto; display: inline-flex; gap: .4rem; align-items: center; font-size: .92rem; cursor: pointer; }
+.filters input { accent-color: var(--rubric); width: 1rem; height: 1rem; }
+.tbl-wrap { overflow-x: auto; border: 1px solid var(--rule); }
+table.cat { border-collapse: collapse; width: 100%; min-width: 50rem; font-size: .93rem; }
+.cat th, .cat td { padding: .55rem .7rem; border-bottom: 1px solid var(--rule); text-align: left; vertical-align: top; }
+.cat thead th { font-family: var(--font-label); font-weight: 700; font-size: .84rem; letter-spacing: .05em; color: var(--ink-soft); background: var(--panel); position: sticky; top: 0; }
+.cat td:first-child { font-family: var(--font-display); font-size: 1.08rem; white-space: nowrap; }
+.cat .unit { color: var(--ink-soft); font-size: .88rem; display: block; }
+.cat .no { color: var(--rubric); }
+.cat .nowhere { font-family: var(--font-label); font-size: .76rem; letter-spacing: .04em; background: var(--rubric); color: var(--leaf); padding: 0 .4rem; white-space: nowrap; }
+.pill { font-family: var(--font-label); font-size: .78rem; letter-spacing: .04em; padding: .02rem .45rem; border: 1px solid var(--rule); color: var(--ink-soft); white-space: nowrap; }
+.pill.draft { color: var(--leaf); background: var(--lapis); border-color: var(--lapis); }
+.pill.prep { color: var(--lapis); border-color: var(--lapis); }
+.cat tr:last-child td { border-bottom: 0; }
+.empty { color: var(--ink-soft); margin: .8rem 0 0; }
+
+/* russian + studies */
+.duo { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); gap: 2.5rem; }
+.exists { list-style: none; margin: 0; padding: 0; display: grid; gap: .55rem; font-size: .95rem; }
+.exists li { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: .2rem 1rem; border-bottom: 1px dotted var(--rule); padding-bottom: .45rem; }
+.exists li span:last-child { color: var(--ink-soft); font-size: .88rem; text-align: right; }
+.studies { list-style: none; margin: 0; padding: 0; display: grid; gap: .9rem; }
+.studies b { display: block; font-weight: 400; font-size: 1.08rem; }
+.studies span { font-size: .9rem; color: var(--ink-soft); }
+
+/* footer (shared) */
+.foot { border-top: 2px solid var(--ink); margin-top: .5rem; padding-block: 1.6rem 1.4rem; display: grid; grid-template-columns: 1.4fr repeat(3, minmax(0, 1fr)); gap: 1.5rem 2rem; font-size: .93rem; }
+.foot h2 { font-family: var(--font-label); font-size: .85rem; letter-spacing: .08em; color: var(--ink-soft); margin: 0 0 .5rem; }
+.foot ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .3rem; }
+.foot a { color: var(--ink); text-decoration: none; }
+.foot a:hover { color: var(--rubric); text-decoration: underline; }
+.foot .about p { margin: 0 0 .6rem; color: var(--ink-soft); }
+.foot .about b { font-family: var(--font-display); font-weight: 400; font-size: 1.4rem; color: var(--ink); display: block; margin-bottom: .3rem; }
+.colophon { border-top: 1px solid var(--rule); padding-block: .9rem 1.2rem; display: flex; flex-wrap: wrap; justify-content: space-between; gap: .4rem 1.5rem; font-size: .85rem; color: var(--ink-soft); }
+
+@media (max-width: 1180px) {
+  .intro { grid-template-columns: minmax(0, 1fr); gap: 1.6rem; }
+  figure.folio { max-width: 48rem; }
+}
+@media (max-width: 1020px) {
+  .foot { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .layers { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .phases { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (max-width: 880px) {
+  .intro, .duo { grid-template-columns: minmax(0, 1fr); gap: 1.6rem; }
+  .wrap { padding: 0 1.5rem; }
+  .filters label { margin-left: 0; }
+}
+@media (max-width: 600px) {
+  .wrap { padding: 0 1rem; }
+  .foot, .layers, .phases, .fol-legend { grid-template-columns: minmax(0, 1fr); }
+  .page { grid-template-columns: minmax(0, 1fr); grid-template-areas: "top" "main" "left" "right" "bot"; }
+  .maintext { border-inline: 0; border-block: 1px solid var(--rule); padding: .5rem 0; }
+  .exists li { grid-template-columns: minmax(0, 1fr); }
+  .exists li span:last-child { text-align: left; }
+}
+</style>
+
+<div class="wrap">
+  <header class="site">
+    <a class="brand" href="https://claude.ai/artifact/Sxv32gV4SoYwPGMXD1UYHD" aria-label="Neoscholia — на главную">
+      <b>Neo<span>·</span>scholia</b>
+      <small><span lang="grc">νέα σχόλια</span> · новые схолии к непереведённой античности</small>
+    </a>
+    <nav aria-label="Разделы сайта">
+      <a href="https://claude.ai/artifact/Sxv32gV4SoYwPGMXD1UYHD" aria-current="page">Библиотека</a>
+      <a href="https://claude.ai/artifact/FtriAuMyfVpLWqqMqZDQ8o">Исследования</a>
+      <a href="https://claude.ai/artifact/LUNNJwceDXYWoepQJWmVVL">Метод</a>
+      <a href="https://claude.ai/artifact/WNygYEn7HeTq5PbrvPt2BF">О проекте</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Язык интерфейса"><span>RU</span><button type="button" disabled title="Английская версия интерфейса появится позже">EN</button></div>
+  </header>
+
+  <p class="mock"><b>Макет страницы раздела.</b> Статусы переводов — по проверке проекта (октябрь 2026). Опубликован только черновик схолий к «Одиссее» X; остальное — план.</p>
+
+  <main id="top">
+    <div class="crumbs"><a href="https://claude.ai/artifact/Sxv32gV4SoYwPGMXD1UYHD">Библиотека</a> › Схолии</div>
+
+    <section class="intro" aria-labelledby="h1">
+      <div>
+        <h1 id="h1">Схолии</h1>
+        <p>Схолии — заметки на полях рукописей: объяснения слов, споры о чтениях, мифы, география, мораль. В них сохранилась работа александрийских филологов — Аристарха, Дидима, Геродиана — и множество цитат из утраченных книг.</p>
+        <p>Почти ни один корпус схолий не переведён на русский, большинство — ни на один современный язык. Наш проект назван по ним: «новые схолии» — это и переводы старых, и наш комментарий на полях.</p>
+        <p class="editor">Раздел ведёт: [ФИО] · рецензенты-эллинисты и латинисты приглашаются</p>
+        <dl class="facts">
+          <div><dt>Первая публикация</dt><dd><a href="https://claude.ai/artifact/KBXAd7KtUgWioncxPUnJ77" target="_blank" rel="noopener">Схолии к «Одиссее», песнь X, ст. 1–4</a> — черновик v0.1</dd></div>
+          <div><dt>Основа текстов</dt><dd>издания XIX — начала XX в. в общественном достоянии: Dindorf, Drachmann, Wendel, Stallbaum, Wessner; открытые TEI, где они есть</dd></div>
+        </dl>
+      </div>
+
+      <figure class="folio" aria-labelledby="fol-cap">
+        <div class="page">
+          <p class="sch top" lang="grc"><span class="marker" aria-hidden="true">2</span><b>Αἰολίην δ’ ἐς νῆσον]</b> οὐ τὰς Αἰόλου νήσους νῦν λεγομένας, ἀλλά τινα ἄλλην ἐκτετοπισμένην νῆσον λέγει…</p>
+          <p class="sch left" lang="grc"><b>Αἴολος Ἱπποτάδης]</b> τρεῖς γὰρ Αἰόλους φασὶ γεγενῆσθαι, πρῶτον τὸν τοῦ Ἕλληνος…</p>
+          <div class="maintext" lang="grc">
+            <span class="ln"><span class="marker" aria-hidden="true">1</span><span class="lm">Αἰολίην</span> δ’ ἐς νῆσον ἀφικόμεθ’· ἔνθα δ’ ἔναιεν</span>
+            <span class="ln">Αἴολος Ἱπποτάδης, φίλος ἀθανάτοισι θεοῖσι,</span>
+            <span class="ln"><span class="gl"><span class="marker" aria-hidden="true">3</span>φορητῇ</span><span class="lm">πλωτῇ</span> ἐνὶ νήσῳ· πᾶσαν δέ τέ μιν πέρι τεῖχος</span>
+            <span class="ln">χάλκεον ἄρρηκτον, λισσὴ δ’ ἀναδέδρομε πέτρη.</span>
+          </div>
+          <p class="sch right" lang="grc"><b>πλωτῇ ἐνὶ νήσῳ]</b> ὁ δὲ Ἀρίσταρχος πλωτῇ ἀντὶ τοῦ φορητῇ, οἷον περιφερομένῃ…</p>
+          <p class="sch bot" lang="grc"><span class="marker" aria-hidden="true">4</span><b>χάλκεον ἄρρηκτον]</b> λείπει τὸ ἐστίν. πῶς ἄρρηκτον; ὅτι πέτρα περιτρέχει τὴν πόλιν…</p>
+        </div>
+        <figcaption id="fol-cap" style="font-size:.88rem;color:var(--ink-soft);margin-top:.6rem">Схема страницы со схолиями: «Одиссея» 10.1–4 и схолии к ним (по Dindorf 1855).</figcaption>
+        <ol class="fol-legend">
+          <li><span class="marker" aria-hidden="true">1</span>Основной текст — стихи Гомера</li>
+          <li><span class="marker" aria-hidden="true">2</span>Схолии на полях; красным — лемма, повтор слов текста</li>
+          <li><span class="marker" aria-hidden="true">3</span>Межстрочная глосса над словом</li>
+          <li><span class="marker" aria-hidden="true">4</span>Схолии внизу листа</li>
+        </ol>
+      </figure>
+    </section>
+
+    <section class="block" aria-labelledby="lay-h">
+      <div class="block-head">
+        <h2 id="lay-h">Слои схолий</h2>
+        <p>Схолии — не один автор, а сплав комментариев разных эпох. В переводе каждый слой помечен, чтобы было видно, чей голос звучит.</p>
+      </div>
+      <div class="layers">
+        <div class="layer four"><h3>Аристоник</h3><p class="what">«О знаках»</p><p>Объясняет критические знаки Аристарха на полях: диплу, обел, звёздочку.</p></div>
+        <div class="layer four"><h3>Дидим</h3><p class="what">«Об аристарховой редакции»</p><p>Сообщает, какие чтения принимал Аристарх и как они расходились.</p></div>
+        <div class="layer four"><h3>Геродиан</h3><p class="what">просодия</p><p>Ударения, придыхания, долготы — как правильно читать слово.</p></div>
+        <div class="layer four"><h3>Никанор</h3><p class="what">пунктуация</p><p>Где ставить паузу и как от этого меняется смысл фразы.</p></div>
+        <div class="layer"><h3>Экзегетические схолии</h3><p class="what">смысл и поэтика</p><p>Мифы, характеры, риторика, мораль, «трудные места».</p></div>
+        <div class="layer"><h3>D-схолии</h3><p class="what">школьный слой</p><p>Пословные глоссы, краткие содержания песен, мифографические рассказы.</p></div>
+        <div class="layer"><h3>Порфирий</h3><p class="what">«Гомеровские вопросы»</p><p>Проблемы и решения: Гомер объясняется из самого Гомера.</p></div>
+        <div class="layer"><h3>Византийцы</h3><p class="what">Евстафий, Цец</p><p>Большие комментарии XII в., сохранившие утраченные источники.</p></div>
+      </div>
+      <p class="four-note"><b>Красной чертой</b> отмечен «комментарий четырёх» — сводка Аристоника, Дидима, Геродиана и Никанора, лежащая в основе схолий к «Илиаде» в рукописи Venetus A.</p>
+    </section>
+
+    <section class="block" aria-labelledby="ody-h">
+      <div class="block-head">
+        <h2 id="ody-h">Серия «Схолии к „Одиссее“»</h2>
+        <p>Схолии к «Одиссее» не переведены ни на один современный язык. Комментарий Евстафия к песням 13–24 тоже: английский перевод Brill дошёл до песни 12.</p>
+      </div>
+      <div class="strip-wrap" tabindex="0" aria-label="Песни «Одиссеи»: статусы схолий и комментария Евстафия">
+        <div class="strip" role="img" aria-label="Схолии: песнь 10 — черновик; песни 1, 9, 23, 24 — готовятся. Евстафий: песни 1–12 есть по-английски, 13–24 не переведены ни на один язык, песнь 13 готовится.">
+          <span></span>
+          <span class="num">1</span><span class="num">2</span><span class="num">3</span><span class="num">4</span><span class="num">5</span><span class="num">6</span><span class="num">7</span><span class="num">8</span><span class="num">9</span><span class="num">10</span><span class="num">11</span><span class="num">12</span>
+          <span class="num">13</span><span class="num">14</span><span class="num">15</span><span class="num">16</span><span class="num">17</span><span class="num">18</span><span class="num">19</span><span class="num">20</span><span class="num">21</span><span class="num">22</span><span class="num">23</span><span class="num">24</span>
+
+          <span class="rowlab">Схолии</span>
+          <span class="cell plan" title="Песнь 1: схолии к 1.1–309 — готовятся">✦</span><span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span>
+          <span class="cell plan" title="Песнь 9: Киклоп — готовится">✦</span><span class="cell draft" title="Песнь 10: черновик v0.1">v0.1</span><span class="cell"></span><span class="cell"></span>
+          <span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span>
+          <span class="cell plan" title="Песнь 23: «конец „Одиссеи“» — готовится">✦</span><span class="cell plan" title="Песнь 24: вторая Некийя — готовится">✦</span>
+
+          <span class="rowlab">Евстафий</span>
+          <span class="cell en" title="EN: Cullhed & Olson">EN</span><span class="cell en">EN</span><span class="cell en">EN</span><span class="cell en">EN</span><span class="cell en">EN</span><span class="cell en">EN</span><span class="cell en">EN</span><span class="cell en">EN</span><span class="cell en">EN</span><span class="cell en">EN</span><span class="cell en">EN</span><span class="cell en">EN</span>
+          <span class="cell gap plan" title="Песнь 13: пещера нимф — готовится">✦</span><span class="cell gap"></span><span class="cell gap"></span><span class="cell gap"></span><span class="cell gap"></span><span class="cell gap"></span><span class="cell gap"></span><span class="cell gap"></span><span class="cell gap"></span><span class="cell gap"></span><span class="cell gap"></span><span class="cell gap"></span>
+        </div>
+      </div>
+      <div class="strip-legend" aria-hidden="true">
+        <span><i class="cell draft"></i>черновик опубликован</span>
+        <span><i class="cell plan"></i>готовится в Neoscholia</span>
+        <span><i class="cell en"></i>есть английский перевод</span>
+        <span><i class="cell gap"></i>нет перевода ни на одном языке</span>
+      </div>
+      <ol class="phases">
+        <li><b>Песнь X: Эол, лестригоны, Кирка</b><span>открытый критический текст García Prat 2022 (CC BY-SA)</span></li>
+        <li><b>Досье «Конец „Одиссеи“»</b><span>схолии к 23.296–24, Аристоник, Евстафий, Аристотель</span></li>
+        <li><b>Евстафий, песнь XIII: пещера нимф</b><span>рядом с «О пещере нимф» Порфирия, уже переведённым на русский</span></li>
+        <li><b>Песни IX и I</b><span>Киклоп; проэмий и πολύτροπος</span></li>
+      </ol>
+    </section>
+
+    <section class="block" aria-labelledby="cat-h">
+      <div class="block-head">
+        <h2 id="cat-h">Корпуса схолий и комментариев</h2>
+        <p>Для каждого корпуса указана первая единица перевода. Порядок — по значимости и готовности текста.</p>
+      </div>
+      <div class="filters" role="group" aria-label="Фильтр корпусов">
+        <button type="button" data-f="all" aria-pressed="true">Все</button>
+        <button type="button" data-f="grc" aria-pressed="false">Греческие схолии</button>
+        <button type="button" data-f="byz" aria-pressed="false">Византийские комментаторы</button>
+        <button type="button" data-f="lat" aria-pressed="false">Латинские комментарии</button>
+        <label for="nowhere"><input type="checkbox" id="nowhere"> только не переведённые ни на один язык</label>
+      </div>
+      <div class="tbl-wrap" tabindex="0" aria-label="Таблица корпусов схолий">
+        <table class="cat" id="cat">
+          <thead><tr><th scope="col">К кому</th><th scope="col">Корпус и первая единица</th><th scope="col">RU</th><th scope="col">EN</th><th scope="col">Статус</th></tr></thead>
+          <tbody>
+            <tr data-g="grc" data-nowhere="1"><td>«Одиссея»</td><td>Схолии, песнь X<span class="unit">Dindorf 1855; García Prat 2022 (CC BY-SA)</span></td><td class="no">нет</td><td>одна D-схолия</td><td><span class="pill draft">черновик v0.1</span></td></tr>
+            <tr data-g="grc" data-nowhere="0"><td>«Одиссея»</td><td>«Конец „Одиссеи“»: схолии к 23.296–24 и Аристоник<span class="unit">Dindorf 1855; Carnuth 1869</span></td><td class="no">нет</td><td>отрывки</td><td><span class="pill prep">готовится</span></td></tr>
+            <tr data-g="grc" data-nowhere="0"><td>Пиндар</td><td>Древние схолии, Пифийская ода 1<span class="unit">Drachmann (ОД), 89 схолий; открытый TEI</span></td><td>отрывки</td><td>отрывки</td><td><span class="pill prep">готовится</span></td></tr>
+            <tr data-g="grc" data-nowhere="0"><td>Аполлоний Родосский</td><td>Древние схолии, кн. II, 1–647<span class="unit">Wendel 1935 / Keil 1854; есть FR перевод</span></td><td>отрывки</td><td>отрывки</td><td><span class="pill prep">готовится</span></td></tr>
+            <tr data-g="grc" data-nowhere="0"><td>«Илиада»</td><td>Схолии A, bT, D к песни VI<span class="unit">Гектор и Андромаха; Dindorf, Maass (ОД)</span></td><td>отрывки</td><td>частично</td><td><span class="pill">кандидат</span></td></tr>
+            <tr data-g="grc" data-nowhere="1"><td>Феокрит</td><td>Древние схолии<span class="unit">Wendel 1914 (ОД)</span></td><td>отрывки</td><td>отрывки</td><td><span class="pill">кандидат</span></td></tr>
+            <tr data-g="grc" data-nowhere="1"><td>Арат</td><td>Схолии к «Явлениям», 1–136<span class="unit">проверить французский 1821 г.</span></td><td class="no">нет</td><td class="no">нет</td><td><span class="pill">кандидат</span></td></tr>
+            <tr data-g="grc" data-nowhere="0"><td>Гесиод</td><td>Схолии Прокла к «Трудам и дням»<span class="unit">пролегомены + ст. 1–201; есть DE и IT</span></td><td class="no">нет</td><td>отрывки</td><td><span class="pill">кандидат</span></td></tr>
+            <tr data-g="grc" data-nowhere="0"><td>Аристофан</td><td>Схолии и Цец к «Облакам», 1–262<span class="unit">Dübner 1842 (ОД)</span></td><td class="no">нет</td><td>частично</td><td><span class="pill">кандидат</span></td></tr>
+            <tr data-g="byz" data-nowhere="1"><td>«Одиссея»</td><td>Евстафий, «Парекболы», песни 13–24<span class="unit">Stallbaum 1826 (ОД); начать с XIII</span></td><td class="no">нет</td><td class="no">нет</td><td><span class="pill prep">готовится</span></td></tr>
+            <tr data-g="byz" data-nowhere="1"><td>«Илиада»</td><td>Евстафий, комментарий к песни 1<span class="unit">есть только латинский перевод 1730 г.</span></td><td>отрывки</td><td>только проэмий</td><td><span class="pill">кандидат</span></td></tr>
+            <tr data-g="byz" data-nowhere="0"><td>Пиндар</td><td>Евстафий, Предисловие к комментарию<span class="unit">~8 тыс. слов; есть DE и IT</span></td><td class="no">нет</td><td>не найден</td><td><span class="pill">кандидат</span></td></tr>
+            <tr data-g="byz" data-nowhere="0"><td>Дионисий Периэгет</td><td>Евстафий, комментарий (не понтийские главы)<span class="unit">Müller, GGM II (ОД)</span></td><td>отрывки</td><td class="no">нет</td><td><span class="pill">кандидат</span></td></tr>
+            <tr data-g="byz" data-nowhere="0"><td>Ликофрон</td><td>Цец, комментарий к «Александре»<span class="unit">в сети есть только машинный английский</span></td><td>отрывки</td><td>машинный</td><td><span class="pill">кандидат</span></td></tr>
+            <tr data-g="byz" data-nowhere="1"><td>«Илиада»</td><td>Цец, «Экзегеза», пролегомены</td><td class="no">нет</td><td class="no">нет</td><td><span class="pill">кандидат</span></td></tr>
+            <tr data-g="lat" data-nowhere="1"><td>Теренций</td><td>Элий Донат, комментарий к «Братьям»<span class="unit">Wessner (ОД)</span></td><td class="no">нет</td><td class="no">нет</td><td><span class="pill prep">готовится</span></td></tr>
+            <tr data-g="lat" data-nowhere="0"><td>Гораций</td><td>Порфирион, к «Науке поэзии»<span class="unit">Holder 1894 (ОД)</span></td><td>отрывки</td><td class="no">нет</td><td><span class="pill">кандидат</span></td></tr>
+            <tr data-g="lat" data-nowhere="0"><td>Вергилий</td><td>Сервий к «Энеиде» VI<span class="unit">по-русски есть только кн. I</span></td><td>отрывки</td><td>частично</td><td><span class="pill">кандидат</span></td></tr>
+            <tr data-g="lat" data-nowhere="1"><td>Вергилий</td><td>Тиберий Клавдий Донат, «Толкования», кн. 4<span class="unit">Дидона; Georgii 1905 (ОД)</span></td><td class="no">нет</td><td class="no">нет</td><td><span class="pill">кандидат</span></td></tr>
+            <tr data-g="lat" data-nowhere="0"><td>Ювенал</td><td>Древние схолии, сатиры 1 и 4<span class="unit">Wessner 1931</span></td><td class="no">нет</td><td>отрывки</td><td><span class="pill">кандидат</span></td></tr>
+            <tr data-g="lat" data-nowhere="0"><td>Лукан</td><td>Бернские комментарии, кн. 1<span class="unit">Usener 1869 (ОД)</span></td><td class="no">нет</td><td>отрывки</td><td><span class="pill">кандидат</span></td></tr>
+            <tr data-g="lat" data-nowhere="0"><td>Стаций</td><td>Лактанций Плацид к «Фиваиде», кн. 1<span class="unit">Jahnke 1898 (ОД)</span></td><td>отрывки</td><td>отрывки</td><td><span class="pill">кандидат</span></td></tr>
+            <tr data-g="lat" data-nowhere="0"><td>Цицерон</td><td>Боббиенские схолии к «За Сестия» и «Против Ватиния»<span class="unit">Stangl 1912</span></td><td class="no">нет</td><td>отрывки</td><td><span class="pill">кандидат</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="empty" id="empty" hidden>По этому фильтру корпусов нет.</p>
+    </section>
+
+    <section class="block duo" aria-label="Что уже переведено и исследования">
+      <div>
+        <div class="block-head"><h2>Уже есть по-русски</h2><p>Эти тексты мы не переводим заново и ссылаемся на них в комментарии.</p></div>
+        <ul class="exists">
+          <li><span>Порфирий, «Гомеровские вопросы» к «Одиссее»</span><span>О. П. Цыбенко, 2019</span></li>
+          <li><span>Порфирий, «О пещере нимф»</span><span>Тахо-Годи 1988; Черниговский 1996</span></li>
+          <li><span>Гераклит, «Гомеровские вопросы» (аллегории)</span><span>Е. А. Марантиди, 2018</span></li>
+          <li><span>Пселл, гомеровские аллегории</span><span>А. В. Гараджа, 2025–26</span></li>
+          <li><span>Птолемей Хенн; Прокл, «Хрестоматия»</span><span>Гараджа, 2022–23</span></li>
+          <li><span>Корнут, «Греческое богословие»</span><span>Позднев, 1999</span></li>
+          <li><span>Сервий к «Энеиде», кн. I</span><span>2001</span></li>
+          <li><span>Боббиенские схолии к «За Архия»</span><span>Н. В. Бугаева, 2019</span></li>
+          <li><span>Схолии к Дионисию Фракийскому — отрывки</span><span>2022</span></li>
+          <li><span>Понтийские выдержки из схолий (Аполлоний, Пиндар, Ликофрон, Евстафий)</span><span>В. В. Латышев, 1890–1906</span></li>
+        </ul>
+      </div>
+      <div id="studies">
+        <div class="block-head"><h2>Исследования раздела</h2></div>
+        <ul class="studies">
+          <li><b>Конец «Одиссеи»: античный спор о стихе 23.296</b><span>статья в подготовке</span></li>
+          <li><b>Пергам против Александрии: Кратет и Аристарх о лестригонах</b><span>статья в подготовке</span></li>
+          <li><b>Евстафий читает «О пещере нимф» Порфирия</b><span>статья в подготовке</span></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot" id="footer">
+    <div class="about">
+      <b>Neoscholia</b>
+      <p>Независимая некоммерческая библиотека первых переводов античных текстов на русский и английский. Открытый доступ.</p>
+      <p>Переводы готовятся с помощью языковых моделей и проверяются редактором. Системы ИИ не являются авторами.</p>
+    </div>
+    <div><h2>Библиотека</h2><ul>
+      <li><a href="https://claude.ai/artifact/HTuCJke5U2X3XbBcPHJeWK">Роман об Александре</a></li>
+      <li><a href="#top">Схолии</a></li>
+      <li><a href="https://claude.ai/artifact/WZmCFMo4TVrZBDsoT5KGyu">Музыка</a></li>
+      <li><a href="https://claude.ai/artifact/Sxv32gV4SoYwPGMXD1UYHD">Все тексты</a></li>
+    </ul></div>
+    <div><h2>О проекте</h2><ul>
+      <li><a href="https://claude.ai/artifact/LUNNJwceDXYWoepQJWmVVL#pipeline">Метод и замер качества</a></li>
+      <li><a href="https://claude.ai/artifact/LUNNJwceDXYWoepQJWmVVL">Редакционная хартия</a></li>
+      <li><a href="https://claude.ai/artifact/LUNNJwceDXYWoepQJWmVVL#ai">Роль ИИ</a></li>
+      <li><a href="https://claude.ai/artifact/WNygYEn7HeTq5PbrvPt2BF#team">Редакция и совет</a></li>
+      <li><a href="https://claude.ai/artifact/LUNNJwceDXYWoepQJWmVVL#corrections">Исправления</a></li>
+    </ul></div>
+    <div><h2>Использование</h2><ul>
+      <li>Переводы и комментарии — CC BY-NC-SA 4.0</li>
+      <li>Исходные тексты — общественное достояние</li>
+      <li>Журналы рецензии — CC0</li>
+      <li><a href="https://claude.ai/artifact/LUNNJwceDXYWoepQJWmVVL#cite">Как цитировать</a></li>
+    </ul></div>
+  </footer>
+  <div class="colophon"><span>© 2026 Neoscholia</span><span>ISSN и DOI — после регистрации</span><span>Связь с редакцией: форма появится при запуске</span></div>
+</div>
+
+<script>
+(function () {
+  var current = 'all';
+  var rows = Array.prototype.slice.call(document.querySelectorAll('#cat tbody tr'));
+  var only = document.getElementById('nowhere');
+  var empty = document.getElementById('empty');
+  function apply() {
+    var shown = 0;
+    rows.forEach(function (r) {
+      var ok = (current === 'all' || r.dataset.g === current) && (!only.checked || r.dataset.nowhere === '1');
+      r.hidden = !ok; if (ok) shown++;
+    });
+    empty.hidden = shown > 0;
+    document.querySelectorAll('.filters button').forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.f === current)); });
+  }
+  document.querySelector('.filters').addEventListener('click', function (e) {
+    var b = e.target.closest('button'); if (!b) return; current = b.dataset.f; apply();
+  });
+  only.addEventListener('change', apply);
+  apply();
+})();
+</script>

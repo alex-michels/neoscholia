@@ -1,0 +1,27 @@
+{
+ "corpus": "christian-orient-graecoarabic",
+ "title": "Chronicon, Book I (Chronographia), Armenian version; RU: «Хроника» Евсевия, кн. I",
+ "author": "Eusebius of Caesarea",
+ "date": "c. 300–325 CE; Armenian translation 5th–6th c.",
+ "language": "Classical Armenian (Greek lost apart from fragments)",
+ "genre": "Chronography with excerpts from lost historians",
+ "size": "Schoene–Petermann pp. 1–295; c. 70–80k words (estimate)",
+ "edition": "Aucher 1818 (Armenian + Latin + Greek, public domain, archive.org); Schoene–Petermann 1875 (public domain); Karst 1911 (GCS, German, public domain).",
+ "ru_status": "partial",
+ "ru_evidence": "ru.wiki «Хроника Евсевия»: only partial Russian translations (the Roman part, via Jerome, Kiev 1910). ancientrome.ru has only a list of Ptolemies (translated from English) and the Berossus fragments.",
+ "en_status": "full",
+ "en_evidence": "Andrew Smith, attalus.org/translate/eusebius.html (from the Schoene Latin), covering all of Book I.",
+ "other_translations": "German: Karst 1911. Latin: Aucher 1818, Petermann 1875.",
+ "value": "Preserves excerpts from Berossus, Abydenus, Alexander Polyhistor and Manetho, and Porphyry's lists of the Macedonian, Thessalian, Ptolemaic and Seleucid kings, plus the Olympic victor list. Indispensable for Hellenistic chronology; no Russian apparatus exists.",
+ "audience": "specialist",
+ "ai_feasibility": "Medium (Armenian). Strong controls exist: Greek fragments (Syncellus), Latin and German translations.",
+ "pilot_unit": "Macedonian, Thessalian and Asian/Syrian kings (Porphyry excerpts), c. 6–8k words: the history after Alexander.",
+ "preliminary_priority": 4,
+ "sources": [
+  "https://ru.wikipedia.org/wiki/Хроника_Евсевия",
+  "http://www.attalus.org/translate/eusebius.html",
+  "https://ancientrome.ru/antlitr/eusebius/index.htm",
+  "https://archive.org/details/EusebiiPamphiliChroniconBipartumGraeco-armeno-latinum"
+ ],
+ "id": "item_032"
+}

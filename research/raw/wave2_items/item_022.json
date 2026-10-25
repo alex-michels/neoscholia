@@ -1,0 +1,26 @@
+{
+ "corpus": "christian-late-antique",
+ "title": "Tractatus (Sermons) / «Трактаты» Зинона (Зенона) Веронского",
+ "author": "Zeno of Verona",
+ "date": "c. 362–372",
+ "language": "Latin",
+ "genre": "Homilies (paschal, baptismal, exegetical)",
+ "size": "93 tractates (16 long, 77 short); PL 11, cols. 253–528; est. 45–50k words",
+ "edition": "Löfstedt, CCSL 22 (1971). Public domain: Giuliari (1883); Ballerini (1739) = PL 11.",
+ "ru_status": "partial",
+ "ru_evidence": "azbyka.ru lists only 4 short pieces (c. 14k characters) of 93; the pravenc.ru 'Зинон' bibliography (2009) gives no Russian translation",
+ "en_status": "partial",
+ "en_evidence": "G. Jeanes, The Day Has Come! (Liturgical Press 1995): Easter and baptismal sermons only (Open Library)",
+ "other_translations": "German: BKV (1934). Italian: Banterle (1987); Città Nuova (2008).",
+ "value": "An African-born rhetor-bishop writing Apuleian artistic prose: a zodiac sermon for neophytes, attacks on pagan rites, Virgilian echoes, early Christian Verona. A prime source for Christian–classical cultural interaction and late Latin style.",
+ "audience": "humanities",
+ "ai_feasibility": "medium: mannered, rhythmic Latin with wordplay and textual cruxes. Public-domain text exists.",
+ "pilot_unit": "Dossier of c. 12 tractates on classical culture and Easter (incl. I.38 on the twelve signs); est. 8–10k words",
+ "preliminary_priority": 4,
+ "sources": [
+  "https://azbyka.ru/otechnik/Zenon_Veronskij/",
+  "http://www.pravenc.ru/text/199839.html",
+  "https://openlibrary.org/search.json?q=Zeno+of+Verona"
+ ],
+ "id": "item_022"
+}

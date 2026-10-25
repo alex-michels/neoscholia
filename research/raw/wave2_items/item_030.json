@@ -1,0 +1,26 @@
+{
+ "corpus": "christian-late-antique",
+ "title": "Tractatus super Psalmos / «Трактаты на Псалмы» Илария Пиктавийского",
+ "author": "Hilary of Poitiers",
+ "date": "c. 364–367",
+ "language": "Latin",
+ "genre": "Exegetical commentary/homilies",
+ "size": "Instructio + tractates on c. 58 Psalms (incl. 22 on Ps 118); est. 180–200k words",
+ "edition": "Zingerle, CSEL 22 (1891), public domain; Doignon et al., CCSL 61 ff. (1997–)",
+ "ru_status": "partial",
+ "ru_evidence": "azbyka.ru Hilary page offers only 'Беседа на псалом 130'; ru.wikipedia 'Переводы' lists only that homily",
+ "en_status": "partial",
+ "en_evidence": "NPNF II.9 (1899) gives only Pss 1, 53, 130; Open Library shows only studies (Burns 2012)",
+ "other_translations": "French: Ps 118 (SC); not verified here",
+ "value": "The first major Latin Psalm commentary and a Latin adaptation of Origen. Key for Latin exegesis, the Nicene controversy and the Vetus Latina text. For Latinists and historians of exegesis.",
+ "audience": "specialist",
+ "ai_feasibility": "medium: compressed, difficult Latin; public-domain text.",
+ "pilot_unit": "Instructio Psalmorum + Tractatus on Ps 2; est. 10–12k words",
+ "preliminary_priority": 3,
+ "sources": [
+  "https://azbyka.ru/otechnik/Ilarij_Piktavijskij/",
+  "https://ru.wikipedia.org/wiki/Иларий_Пиктавийский",
+  "https://openlibrary.org/search.json?q=Hilary+Poitiers+psalms"
+ ],
+ "id": "item_030"
+}

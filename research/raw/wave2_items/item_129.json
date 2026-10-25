@@ -1,0 +1,25 @@
+{
+ "corpus": "greek-technical",
+ "title": "Ἰατρικαὶ συναγωγαί — Collectiones medicae (Medical Collections); RU: Орибасий, «Врачебные собрания»",
+ "author": "Oribasius of Pergamon",
+ "date": "4th c. CE (for Emperor Julian)",
+ "language": "Greek",
+ "genre": "Medical encyclopedia (excerpts)",
+ "size": "Originally 70 books, c. 25 survive (1–15, 21–22, 24–25, 43–51, fragments); est. 300k+ words (Raeder, CMG VI, 4 vols)",
+ "edition": "Raeder, CMG VI 1–2 (1928–33), online at cmg.bbaw.de. Bussemaker–Daremberg 1851–76 (Greek and French), public domain.",
+ "ru_status": "none",
+ "ru_evidence": "ru.wikipedia «Орибасий» lists no translation; none found in ΣΧΟΛΗ or the Balalykin publications.",
+ "en_status": "partial",
+ "en_evidence": "Grant, Dieting for an Emperor (Brill 1997): Books 1 and 4 only (en.wikipedia Oribasius).",
+ "other_translations": "French: Bussemaker–Daremberg 1851–76 (surviving books). German: Haars 2018 (Book XV).",
+ "value": "Preserves verbatim excerpts of lost physicians (Antyllus, Rufus, Athenaeus of Attaleia, Dieuches, Mnesitheus) alongside Galen. Prime source on ancient diet, exercise, baths and surgery. For historians of medicine, daily life and sport.",
+ "audience": "humanities",
+ "ai_feasibility": "high-medium: expository excerpted prose; the layering of source attributions suits AI commentary that tracks Galenic and other parallels.",
+ "pilot_unit": "Book VI (exercise, voice training, sleep; rich in Antyllus), est. 15–20k words",
+ "preliminary_priority": 3,
+ "sources": [
+  "https://en.wikipedia.org/wiki/Oribasius",
+  "https://ru.wikipedia.org/wiki/Орибасий"
+ ],
+ "id": "item_129"
+}

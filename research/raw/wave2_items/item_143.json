@@ -1,0 +1,26 @@
+{
+ "corpus": "latin-late-antique",
+ "title": "Notitia Dignitatum (Eastern and Western parts) / List of Offices / RU: «Notitia dignitatum» (Перечень должностей)",
+ "author": "Anonymous (office of the primicerius notariorum)",
+ "date": "c. 395–420s CE",
+ "language": "Latin",
+ "genre": "Register of administrative and military posts, with illustrations",
+ "size": "East 43 chapters, West 45 chapters; est. 15–20k words, mostly lists",
+ "edition": "Seeck 1876, public domain: https://archive.org/details/notitiadignitat00seecgoog. Neira Faleiro, Madrid 2005",
+ "ru_status": "none",
+ "ru_evidence": "ru.wikipedia (Notitia dignitatum) lists editions and studies but no translation. Absent from the vostlit, ancientrome and simposium catalogues.",
+ "en_status": "full",
+ "en_evidence": "Fairley, Notitia Dignitatum or Register of Dignitaries (University of Pennsylvania 1899; Open Library). Dated and without commentary.",
+ "other_translations": "None confirmed.",
+ "value": "Fundamental for late Roman army units, the civil administration, state arms factories (fabricae) and frontier commands; a standard reference for military historians and archaeologists of the frontier (limes). A Russian version with commentary on the units would be widely used.",
+ "audience": "specialist",
+ "ai_feasibility": "high for the text (lists); medium for the commentary (identifying units, insignia, archaeology).",
+ "pilot_unit": "East, chs. I–IX (prefects and magistri militum with their unit lists; est. 4–5k words)",
+ "preliminary_priority": 3,
+ "sources": [
+  "https://ru.wikipedia.org/wiki/Notitia_dignitatum",
+  "https://openlibrary.org/search?q=Notitia+dignitatum",
+  "https://archive.org/details/notitiadignitat00seecgoog"
+ ],
+ "id": "item_143"
+}

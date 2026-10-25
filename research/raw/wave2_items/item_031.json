@@ -1,0 +1,26 @@
+{
+ "corpus": "christian-late-antique",
+ "title": "Commentary on Genesis (Eclogarum in libros historicos VT epitome, pt. 1) / «Толкование на Бытие»",
+ "author": "Procopius of Gaza",
+ "date": "c. 500–526",
+ "language": "Greek",
+ "genre": "Catena-commentary (exegesis)",
+ "size": "est. 100–130k words",
+ "edition": "Metzler, GCS NF 22 (2015), with German translation (2016); Exodus volume 2020. PG 87.1 has a mainly Latin version.",
+ "ru_status": "none",
+ "ru_evidence": "Procopius of Gaza is absent from the azbyka.ru author directory; no Russian translation found",
+ "en_status": "none",
+ "en_evidence": "Open Library lists editions and translations in Latin, Greek, German, French and Italian only; en.wikipedia cites only Metzler (German)",
+ "other_translations": "German: Metzler (2016 Genesis; 2020 Exodus)",
+ "value": "The earliest Greek catena-commentary. Preserves exegetical fragments of Philo, Origen, Eusebius of Emesa, Didymus and Theodoret; central to the Gaza school, where classical rhetoric met Christian exegesis.",
+ "audience": "specialist",
+ "ai_feasibility": "medium: compiled excerpts require identifying their sources.",
+ "pilot_unit": "Gen 1:1–2:3 (Hexaemeron section); est. 15–20k words",
+ "preliminary_priority": 3,
+ "sources": [
+  "https://en.wikipedia.org/wiki/Procopius_of_Gaza",
+  "https://openlibrary.org/search.json?q=Procopius+Gaza",
+  "https://azbyka.ru/otechnik/"
+ ],
+ "id": "item_031"
+}

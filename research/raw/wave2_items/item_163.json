@@ -1,0 +1,27 @@
+{
+ "corpus": "philosophy",
+ "title": "Ἠθικὴ στοιχείωσις — Hierocles, Elements of Ethics (P.Berol. 9780) with the Stobaean excerpts On Duties; RU «Основы этики»",
+ "author": "Hierocles the Stoic",
+ "date": "2nd c. CE",
+ "language": "Greek",
+ "genre": "Stoic ethical treatise and excerpts",
+ "size": "About 11 papyrus columns plus about 15 Stobaean excerpts; est. 9–10k words",
+ "edition": "von Arnim, BKT IV (1906), public domain: https://archive.org/details/coo.31924022696045. Bastianini and Long, CPF (1992), copyrighted.",
+ "ru_status": "none",
+ "ru_evidence": "ruwiki Гиерокл (стоик) lists no translation. CyberLeninka ('Гиерокл Элементы этики', 'ойкейосис') finds none, and neither do the ΣΧΟΛΗ issues.",
+ "en_status": "full",
+ "en_evidence": "I. Ramelli (trans. D. Konstan), Hierocles the Stoic: Elements of Ethics, Fragments and Excerpts (SBL/Brill 2009), per Open Library.",
+ "other_translations": "Italian in CPF I.1** (Bastianini and Long 1992), not verified in this sweep.",
+ "value": "The main Imperial-age Stoic source on oikeiosis and self-perception. Contains the famous 'concentric circles' of concern and household ethics (marriage, parents, kin). Widely taught in courses on Stoicism and cosmopolitanism.",
+ "audience": "broad",
+ "ai_feasibility": "High for the Stobaeus excerpts; medium for the papyrus, which has lacunae and supplements. Small and manageable.",
+ "pilot_unit": "Entire corpus, about 10k words. Mini-pilot: the 'circles' excerpt (Stobaeus IV.27.23), under 1k words.",
+ "preliminary_priority": 4,
+ "sources": [
+  "https://ru.wikipedia.org/wiki/Гиерокл_(стоик)",
+  "https://openlibrary.org/search?q=Hierocles+Elements+of+Ethics",
+  "https://archive.org/details/coo.31924022696045",
+  "https://classics.nsu.ru/schole/"
+ ],
+ "id": "item_163"
+}

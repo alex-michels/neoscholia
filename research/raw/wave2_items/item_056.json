@@ -1,0 +1,24 @@
+{
+ "corpus": "greek-historiography",
+ "title": "John Malalas, Chronographia, Books I–XIII; «Хронография» Иоанна Малалы, кн. I–XIII",
+ "author": "John Malalas",
+ "date": "c. 530s–560s CE",
+ "language": "Greek (vernacular-tinged)",
+ "genre": "World chronicle",
+ "size": "Books I–XIII est. 60–70k words (about 60% of the work)",
+ "edition": "Dindorf, CSHB 1831 (public domain). Thurn, CFHB 35 (2000; in copyright)",
+ "ru_status": "partial",
+ "ru_evidence": "ru.wikipedia: Russian exists for books XIV–XVIII (Samutkina 2000/2003; Chekalova 2001). For I–XIII only excerpts of II and V (Averintsev 1987; Freiberg 1968) and VIII (Talakh 2013)",
+ "en_status": "full",
+ "en_evidence": "Jeffreys, Jeffreys, Scott et al., Byzantina Australiensia 4 (1986), listed on ru.wikipedia",
+ "other_translations": "Old Slavonic (Istrin). German translation (Thurn–Meier 2009) and a French project not re-verified in this session",
+ "value": "Covers mythography, Troy (after Dictys), Persians, Alexander and the Seleucids, the foundation of Antioch and the Roman emperors. Central to the reception of antiquity, the Alexander tradition and Slavonic chronography, so a strong match for the editor's specialism.",
+ "audience": "humanities",
+ "ai_feasibility": "High: simple Greek. Text reconstruction needs Slavonic and Excerpta parallels; Dindorf's text is outdated and Thurn's is in copyright",
+ "pilot_unit": "Book VIII (Alexander, Diadochi, Seleucus, Antioch), est. 5–6k words",
+ "preliminary_priority": 4,
+ "sources": [
+  "https://ru.wikipedia.org/wiki/Иоанн_Малала"
+ ],
+ "id": "item_056"
+}

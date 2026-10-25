@@ -1,0 +1,25 @@
+{
+ "corpus": "christian-late-antique",
+ "title": "Sermones / «Проповеди» Кесария (Цезария) Арелатского",
+ "author": "Caesarius of Arles",
+ "date": "c. 503–542",
+ "language": "Latin",
+ "genre": "Homilies (pastoral, moral, exegetical)",
+ "size": "238 sermons; est. 250–300k words",
+ "edition": "Morin (1937–42) = CCSL 103–104 (1953); many sermons are in public-domain PL 39 (Pseudo-Augustinian appendix)",
+ "ru_status": "partial",
+ "ru_evidence": "azbyka.ru lists only 'Избранные слова (12, 39, 40)' + one Nativity sermon; ru.wikipedia says only the Vita Caesarii was translated into Russian (2014/2016)",
+ "en_status": "full",
+ "en_evidence": "M. M. Mueller, Sermons I–III (FOTC 31, 47, 66; CUA Press), cited in ru.wikipedia",
+ "other_translations": "French, Italian, German and Polish translations of the sermons (per ru.wikipedia)",
+ "value": "Preaching to the peasants of 6th-century Gaul: Kalends festivals, augury, amulets, healing cults, drinking, rural life. The principal source for late Roman popular religion and 'pagan survivals' in the post-Roman West.",
+ "audience": "broad",
+ "ai_feasibility": "high: deliberately simple 'sermo humilis' Latin.",
+ "pilot_unit": "c. 12 sermons on pagan practices (e.g. 13, 33, 50–54, 192–193); est. 15k words",
+ "preliminary_priority": 4,
+ "sources": [
+  "https://azbyka.ru/otechnik/Kesarij-Arelatskij/",
+  "https://ru.wikipedia.org/wiki/Цезарий_Арелатский"
+ ],
+ "id": "item_026"
+}

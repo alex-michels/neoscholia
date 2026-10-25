@@ -1,0 +1,1003 @@
+<title>Короткие ночи лестригонов</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Forum&family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400&family=Alegreya+Sans+SC:wght@500;700&display=swap">
+<style>
+/* Layout: the shared reading sheet. Article masthead → sticky contents rail on the left and a 38rem
+   reading column whose numbered notes float into the right margin (they open inline on narrow screens);
+   wide blocks (verse, figure, tables, appendix) span text + margin → process, review, references, citation. */
+:root {
+  --papyrus: #e7dcc4; --leaf: #fbf7ee; --panel: #f4ecdc;
+  --ink: #2b2219; --ink-soft: #6b5c4a;
+  --rubric: #a2361c; --lapis: #2f4b6e; --rule: #d9ccb1; --wash: #efe4cc;
+  --font-display: "Forum", "Times New Roman", serif;
+  --font-text: "Gentium Book Plus", "Gentium Plus", "Noto Serif", Georgia, serif;
+  --font-label: "Alegreya Sans SC", "Trebuchet MS", sans-serif;
+  --measure: 38rem; --margin-w: 13.5rem; --margin-gap: 2rem;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --papyrus: #17130e; --leaf: #1f1a14; --panel: #262019; --ink: #e9dec7; --ink-soft: #b3a48b;
+    --rubric: #e08a6c; --lapis: #9db6d6; --rule: #3a3127; --wash: #2a231b; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --papyrus: #17130e; --leaf: #1f1a14; --panel: #262019; --ink: #e9dec7; --ink-soft: #b3a48b;
+  --rubric: #e08a6c; --lapis: #9db6d6; --rule: #3a3127; --wash: #2a231b; color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--papyrus); color: var(--ink); font: 1.05rem/1.62 var(--font-text);
+  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0 2.5rem; }
+a { color: var(--lapis); text-underline-offset: .18em; }
+a:focus-visible, button:focus-visible, input:focus-visible, summary:focus-visible { outline: 2px solid var(--lapis); outline-offset: 2px; }
+.wrap { max-width: 76rem; margin: 0 auto; background: var(--leaf); border: 1px solid var(--rule); border-top: 0; padding: 0 2.75rem; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 400; text-wrap: balance; }
+[lang="grc"] { font-family: var(--font-text); }
+
+/* header (shared) */
+.site { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .75rem 2rem; padding-block: 1.1rem .9rem; border-bottom: 1px solid var(--rule); }
+.brand { display: flex; flex-direction: column; text-decoration: none; color: var(--ink); line-height: 1.1; }
+.brand b { font-family: var(--font-display); font-weight: 400; font-size: 1.75rem; letter-spacing: .06em; }
+.brand b span { color: var(--rubric); }
+.brand small { font-size: .85rem; color: var(--ink-soft); }
+.site nav { display: flex; flex-wrap: wrap; gap: .3rem 1.4rem; font-family: var(--font-label); font-size: 1rem; letter-spacing: .04em; }
+.site nav a { color: var(--ink-soft); text-decoration: none; padding-block: .15rem; }
+.site nav a[aria-current] { color: var(--ink); border-bottom: 1px solid var(--rubric); }
+.lang { display: inline-flex; border: 1px solid var(--rule); font-family: var(--font-label); font-size: .85rem; }
+.lang span, .lang button { padding: .15rem .55rem; font: inherit; border: 0; background: transparent; color: var(--ink-soft); }
+.lang span { background: var(--ink); color: var(--leaf); }
+.lang button { cursor: not-allowed; border-left: 1px solid var(--rule); }
+.mock { margin-top: 1rem; background: var(--wash); border: 1px dashed var(--rule); padding: .55rem .9rem; font-size: .9rem; color: var(--ink-soft); }
+.mock b { color: var(--ink); }
+
+/* masthead */
+.crumbs { margin-top: 1.5rem; font-family: var(--font-label); font-size: .9rem; letter-spacing: .04em; color: var(--ink-soft); }
+.crumbs a { color: var(--ink-soft); }
+.mast { padding-block: .6rem 1.6rem; border-bottom: 1px solid var(--rule); }
+.kicker { font-family: var(--font-label); font-size: .88rem; letter-spacing: .06em; color: var(--rubric); margin: 0; }
+.mast h1 { font-size: clamp(2.1rem, 4.6vw, 3.2rem); line-height: 1.08; margin: .3rem 0 .45rem; max-width: 52rem; }
+.mast .sub { font-size: 1.15rem; color: var(--ink-soft); margin: 0; max-width: 46rem; }
+.byline { display: flex; flex-wrap: wrap; align-items: baseline; gap: .3rem 1rem; margin-top: 1rem; }
+.byline b { font-weight: 700; }
+.byline span { font-size: .92rem; color: var(--ink-soft); }
+.meta { display: flex; flex-wrap: wrap; gap: .35rem 1.5rem; margin: .7rem 0 0; padding: 0; list-style: none; font-size: .92rem; color: var(--ink-soft); }
+.meta b { color: var(--ink); font-weight: 400; }
+.ladder { display: flex; flex-wrap: wrap; gap: .4rem; margin: 1rem 0 0; padding: 0; list-style: none; }
+.ladder li { font-family: var(--font-label); font-size: .84rem; letter-spacing: .04em; padding: .2rem .65rem; border: 1px solid var(--rule); color: var(--ink-soft); background: var(--leaf); }
+.ladder li.done { color: var(--lapis); border-color: var(--lapis); }
+.ladder li.done::before { content: "● "; }
+.ladder li:not(.done)::before { content: "○ "; }
+.actions { display: flex; flex-wrap: wrap; gap: .5rem; margin-top: 1.1rem; }
+.btn { font-family: var(--font-label); font-size: .9rem; letter-spacing: .04em; padding: .3rem .8rem; border: 1px solid var(--rule); background: var(--panel); color: var(--ink); text-decoration: none; }
+.btn:hover { border-color: var(--ink-soft); }
+.btn[aria-disabled="true"] { color: var(--ink-soft); border-style: dashed; cursor: not-allowed; }
+
+/* article grid */
+.art { display: grid; grid-template-columns: 11rem minmax(0, 1fr); gap: 0 2.5rem; align-items: start; padding-block: 1.8rem 1rem; }
+.toc { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 1rem); font-size: .9rem; line-height: 1.35; }
+.toc h2, .toc-m summary { font-family: var(--font-label); font-weight: 700; font-size: .8rem; letter-spacing: .08em; color: var(--ink-soft); margin: 0 0 .6rem; }
+.toc ol { list-style: none; margin: 0; padding: 0; display: grid; gap: .45rem; }
+.toc a { color: var(--ink-soft); text-decoration: none; display: block; padding-left: .6rem; border-left: 2px solid transparent; }
+.toc a:hover { color: var(--ink); }
+.toc a[aria-current="true"] { color: var(--ink); border-left-color: var(--rubric); }
+.toc .n { font-family: var(--font-label); color: var(--rubric); margin-right: .25rem; }
+.toc-m { display: none; margin-bottom: 1.4rem; background: var(--panel); border: 1px solid var(--rule); padding: .55rem .9rem; }
+.toc-m summary { cursor: pointer; margin: 0; }
+.toc-m ol { margin: .6rem 0 .2rem; padding-left: 1.2rem; display: grid; gap: .3rem; font-size: .95rem; }
+
+.text { min-width: 0; }
+.text > * { max-width: var(--measure); }
+.text > .wide { max-width: calc(var(--measure) + var(--margin-gap) + var(--margin-w)); clear: both; }
+.text h2 { font-size: clamp(1.55rem, 2.6vw, 1.95rem); line-height: 1.2; margin: 2.4rem 0 .8rem; scroll-margin-top: 1rem; clear: both; }
+.text h2 .no { font-family: var(--font-label); font-size: .95rem; letter-spacing: .06em; color: var(--rubric); display: block; margin-bottom: .1rem; }
+.text h3 { font-size: 1.3rem; margin: 1.6rem 0 .5rem; }
+.text p { margin: 0 0 1rem; hyphens: auto; }
+.text ul.plain, .text ol.plain { margin: 0 0 1rem; padding-left: 1.3rem; display: grid; gap: .35rem; }
+.lead-in { font-weight: 700; }
+
+/* side notes */
+.sn-ref { font: 700 .72rem/1 var(--font-label); vertical-align: super; border: 0; background: none; color: var(--rubric); padding: 0 .14em; margin: 0; cursor: pointer; }
+.sn { float: right; clear: right; width: var(--margin-w); margin: .2rem calc(-1 * (var(--margin-w) + var(--margin-gap))) .9rem 0;
+  font-size: .84rem; line-height: 1.45; color: var(--ink-soft); hyphens: auto; }
+.sn { font-family: var(--font-text); letter-spacing: normal; }
+.sn .sn-n { font-family: var(--font-label); color: var(--rubric); margin-right: .3rem; }
+.sn.open { color: var(--ink); }
+
+/* abstract, based-on */
+.abstract { background: var(--panel); border: 1px solid var(--rule); padding: 1.1rem 1.3rem 1.2rem; margin-bottom: 1.2rem; }
+.abstract-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .5rem 1rem; margin-bottom: .6rem; }
+.abstract h2 { font-family: var(--font-label); font-weight: 700; font-size: .85rem; letter-spacing: .08em; color: var(--ink-soft); margin: 0; }
+.abstract p { margin: 0 0 .7rem; font-size: 1rem; }
+.abstract ol { margin: 0 0 .7rem; padding-left: 1.3rem; display: grid; gap: .3rem; font-size: 1rem; }
+.abstract .kw { font-size: .9rem; color: var(--ink-soft); margin: .4rem 0 0; }
+.abstract[data-show="ru"] [data-lang="en"], .abstract[data-show="en"] [data-lang="ru"] { display: none; }
+.seg-ctl { display: inline-flex; border: 1px solid var(--rule); background: var(--leaf); }
+.seg-ctl button { font: inherit; font-family: var(--font-label); font-size: .85rem; letter-spacing: .04em; border: 0; background: transparent; color: var(--ink-soft); padding: .2rem .65rem; cursor: pointer; }
+.seg-ctl button + button { border-left: 1px solid var(--rule); }
+.seg-ctl button[aria-pressed="true"] { background: var(--ink); color: var(--leaf); }
+.based { border-left: 3px solid var(--lapis); padding: .2rem 0 .2rem 1rem; font-size: .95rem; color: var(--ink-soft); margin-bottom: 1.4rem; }
+.based b { color: var(--ink); font-weight: 400; }
+
+/* quotations */
+.verse { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: .3rem 1.6rem; margin: 1.2rem 0 1.4rem; padding: 1rem 1.2rem; background: var(--panel); border: 1px solid var(--rule); }
+.verse ol { list-style: none; margin: 0; padding: 0; }
+.verse li { display: grid; grid-template-columns: 1.6rem minmax(0, 1fr); gap: .45rem; }
+.verse li::before { content: attr(data-l); font-family: var(--font-label); font-size: .78rem; color: var(--ink-soft); padding-top: .28rem; text-align: right; font-variant-numeric: tabular-nums; }
+.verse li { font-size: .97rem; }
+.verse .grc li { font-size: 1.02rem; }
+.verse li.hl { color: var(--rubric); }
+.verse figcaption { grid-column: 1 / -1; font-family: var(--font-label); font-size: .82rem; letter-spacing: .04em; color: var(--ink-soft); margin-top: .4rem; }
+.quote { margin: 1.1rem 0 1.3rem; padding-left: 1.1rem; border-left: 2px solid var(--rule); }
+.quote blockquote { margin: 0; }
+.quote .grc { font-size: 1.02rem; color: var(--ink); }
+.quote .tr { margin-top: .55rem; color: var(--ink); }
+.quote .tr::before { content: "— "; color: var(--ink-soft); }
+.quote figcaption { margin-top: .4rem; font-family: var(--font-label); font-size: .82rem; letter-spacing: .04em; color: var(--ink-soft); }
+.aratus { font-size: 1.08rem; }
+
+/* tables */
+.tbl-wrap { overflow-x: auto; margin: 1.2rem 0 1.4rem; border: 1px solid var(--rule); }
+table { border-collapse: collapse; width: 100%; font-size: .93rem; }
+caption { caption-side: bottom; text-align: left; font-size: .85rem; color: var(--ink-soft); padding: .55rem .8rem; border-top: 1px solid var(--rule); background: var(--panel); }
+th, td { text-align: left; vertical-align: top; padding: .5rem .8rem; border-top: 1px solid var(--rule); }
+thead th { font-family: var(--font-label); font-weight: 700; font-size: .8rem; letter-spacing: .06em; color: var(--ink-soft); background: var(--panel); border-top: 0; }
+td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+tr.mark td { background: var(--wash); }
+tr.mark td:first-child { box-shadow: inset 3px 0 0 var(--rubric); }
+.sig { font-family: var(--font-label); font-size: .82rem; letter-spacing: .03em; color: var(--ink-soft); }
+
+/* figure: celestial sphere */
+.fig { margin: 1.4rem 0 1.6rem; border: 1px solid var(--rule); background: var(--panel); }
+.fig-body { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: 1rem 1.6rem; padding: 1rem 1.2rem; align-items: start; }
+.fig svg { width: 100%; height: auto; display: block; max-width: 30rem; }
+.sv-ground { fill: var(--wash); }
+.sv-sphere { fill: none; stroke: var(--ink-soft); stroke-width: 1.2; }
+.sv-hor { stroke: var(--ink); stroke-width: 1.6; }
+.sv-axis { stroke: var(--ink-soft); stroke-width: 1; stroke-dasharray: 3 4; }
+.sv-eq { stroke: var(--ink-soft); stroke-width: .8; opacity: .7; }
+.sv-circ { stroke: var(--lapis); stroke-width: 1; stroke-dasharray: 6 4; opacity: .75; }
+.sv-day { stroke: var(--rubric); stroke-width: 3.2; stroke-linecap: round; }
+.sv-night { stroke: var(--rubric); stroke-width: 2; stroke-dasharray: 3 4; opacity: .65; }
+.sv-dra { stroke: var(--lapis); stroke-width: 1.3; }
+.sv-star { fill: var(--lapis); }
+.sv-star.below { fill: var(--rubric); }
+.sv-pt { fill: var(--rubric); }
+.sv-pt-hollow { fill: var(--panel); stroke: var(--rubric); stroke-width: 1.5; }
+.sv-pole { fill: var(--ink); }
+.sv-lbl { font-family: var(--font-label); font-size: 12px; fill: var(--ink-soft); letter-spacing: .03em; }
+.sv-lbl.strong { fill: var(--ink); }
+.sv-lbl.dra { fill: var(--lapis); }
+.sv-lbl.sun { fill: var(--rubric); }
+.sv-grk { font-family: var(--font-text); font-size: 13px; }
+.ctl label { font-family: var(--font-label); font-size: .85rem; letter-spacing: .05em; color: var(--ink-soft); display: block; margin-bottom: .2rem; }
+.ctl input[type="range"] { width: 100%; accent-color: var(--rubric); }
+.presets { display: flex; flex-wrap: wrap; gap: .3rem; margin: .6rem 0 .9rem; }
+.presets button { font-family: var(--font-label); font-size: .8rem; letter-spacing: .03em; padding: .15rem .5rem; border: 1px solid var(--rule); background: var(--leaf); color: var(--ink-soft); cursor: pointer; }
+.presets button[aria-pressed="true"] { background: var(--ink); color: var(--leaf); border-color: var(--ink); }
+.readout { margin: 0; display: grid; grid-template-columns: auto minmax(0, 1fr); gap: .35rem .9rem; font-size: .92rem; }
+.readout dt { color: var(--ink-soft); }
+.readout dd { margin: 0; font-variant-numeric: tabular-nums; }
+.readout dd b { font-weight: 700; }
+.place-note { margin: .8rem 0 0; font-size: .92rem; padding: .5rem .7rem; background: var(--leaf); border: 1px solid var(--rule); min-height: 3.2rem; }
+.fig figcaption { font-size: .86rem; color: var(--ink-soft); padding: .6rem 1.2rem .8rem; border-top: 1px solid var(--rule); }
+.fig figcaption b { color: var(--ink); font-family: var(--font-label); letter-spacing: .04em; font-weight: 700; }
+
+/* appendix: scholia */
+.appx { margin-top: 1rem; }
+.appx-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .6rem 1rem; padding: .6rem 0; border-block: 1px solid var(--rule); position: sticky; top: env(safe-area-inset-top, 0px); background: var(--leaf); z-index: 4; }
+.appx-head span { font-family: var(--font-label); font-size: .85rem; letter-spacing: .05em; color: var(--ink-soft); }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 10; background: var(--papyrus); }
+.sch { padding-block: 1rem; border-bottom: 1px solid var(--rule); }
+.sch-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: .25rem .8rem; margin-bottom: .45rem; }
+.sch-ref { font-family: var(--font-label); font-size: .88rem; letter-spacing: .05em; color: var(--ink-soft); font-variant-numeric: tabular-nums; }
+.lemma { color: var(--rubric); font-size: 1.08rem; }
+.chip { font-family: var(--font-label); font-size: .76rem; letter-spacing: .06em; padding: .03rem .45rem; background: var(--wash); color: var(--ink-soft); border: 1px solid var(--rule); }
+.chip.who { color: var(--rubric); border-color: var(--rubric); }
+.pair { display: grid; grid-template-columns: minmax(0, 1fr); gap: .5rem; }
+.pair p { margin: 0; }
+.pair .g { font-size: 1.03rem; }
+.appx.view-parallel .pair { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 1.8rem; }
+.appx.view-translation .g { display: none; }
+.appx.view-original .t { display: none; }
+.app-crit { font-size: .84rem; color: var(--ink-soft); margin-top: .45rem; }
+
+/* process, review, refs, cite */
+.two { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 1.2rem; margin: 1rem 0 1.2rem; }
+.box { background: var(--panel); border: 1px solid var(--rule); padding: .9rem 1.1rem; }
+.box h3 { font-size: 1.2rem; margin: 0 0 .5rem; }
+.box ul { margin: 0; padding-left: 1.1rem; display: grid; gap: .3rem; font-size: .95rem; }
+.state { font-family: var(--font-label); font-size: .78rem; letter-spacing: .04em; padding: .03rem .5rem; border: 1px solid var(--rule); color: var(--ink-soft); white-space: nowrap; }
+.state.ok { color: var(--lapis); border-color: var(--lapis); }
+.stats { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0; border: 1px solid var(--rule); margin: 1rem 0 1.2rem; }
+.stats div { padding: .7rem .9rem; border-left: 1px solid var(--rule); }
+.stats div:first-child { border-left: 0; }
+.stats b { display: block; font-family: var(--font-display); font-weight: 400; font-size: 1.9rem; line-height: 1.1; font-variant-numeric: tabular-nums; }
+.stats span { font-size: .86rem; color: var(--ink-soft); }
+.open-q { margin: 0 0 1rem; padding-left: 1.3rem; display: grid; gap: .35rem; font-size: .96rem; }
+.log { margin: .6rem 0 1.2rem; padding: 0; list-style: none; display: grid; gap: .5rem; }
+.log li { display: grid; grid-template-columns: 11rem minmax(0, 1fr); gap: .8rem; padding: .55rem .75rem; background: var(--panel); border: 1px solid var(--rule); font-size: .94rem; }
+.log .who { font-family: var(--font-label); font-size: .82rem; letter-spacing: .04em; color: var(--ink-soft); }
+.log .who b { display: block; color: var(--ink); }
+.pending { color: var(--ink-soft); font-style: italic; }
+.refs h3 { font-family: var(--font-label); font-weight: 700; font-size: .85rem; letter-spacing: .08em; color: var(--ink-soft); margin: 1.4rem 0 .5rem; }
+.refs ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .45rem; font-size: .95rem; }
+.refs li { padding-left: 1.5rem; text-indent: -1.5rem; }
+.chk { display: inline-block; width: 1.5rem; text-indent: 0; font-family: var(--font-label); color: var(--lapis); }
+.chk.half { color: var(--ink-soft); }
+.legend { font-size: .86rem; color: var(--ink-soft); }
+.cite-box { background: var(--panel); border: 1px solid var(--rule); padding: .8rem 1rem; }
+.cite-box pre { margin: .6rem 0 0; white-space: pre-wrap; word-break: break-word; font: .93rem/1.5 var(--font-text); }
+.copy { font-family: var(--font-label); font-size: .85rem; letter-spacing: .04em; margin-top: .6rem; padding: .2rem .75rem; cursor: pointer; border: 1px solid var(--rule); background: var(--wash); color: var(--ink); }
+.related { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin-top: 1rem; }
+.related a { display: block; padding: .8rem 1rem; border: 1px solid var(--rule); text-decoration: none; color: var(--ink); background: var(--leaf); }
+.related a:hover { border-color: var(--ink-soft); }
+.related small { display: block; font-family: var(--font-label); font-size: .78rem; letter-spacing: .05em; color: var(--ink-soft); margin-bottom: .2rem; }
+
+/* footer (shared) */
+.foot { border-top: 2px solid var(--ink); margin-top: 2.5rem; padding-block: 1.6rem 1.4rem; display: grid; grid-template-columns: 1.4fr repeat(3, minmax(0, 1fr)); gap: 1.5rem 2rem; font-size: .93rem; }
+.foot h2 { font-family: var(--font-label); font-size: .85rem; letter-spacing: .08em; color: var(--ink-soft); margin: 0 0 .5rem; }
+.foot ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .3rem; }
+.foot a { color: var(--ink); text-decoration: none; }
+.foot a:hover { color: var(--rubric); text-decoration: underline; }
+.foot .about p { margin: 0 0 .6rem; color: var(--ink-soft); }
+.foot .about b { font-family: var(--font-display); font-weight: 400; font-size: 1.4rem; color: var(--ink); display: block; margin-bottom: .3rem; }
+.colophon { border-top: 1px solid var(--rule); padding-block: .9rem 1.2rem; display: flex; flex-wrap: wrap; justify-content: space-between; gap: .4rem 1.5rem; font-size: .85rem; color: var(--ink-soft); }
+
+@media (max-width: 1200px) {
+  .art { grid-template-columns: minmax(0, 1fr); }
+  .toc { display: none; }
+  .toc-m { display: block; }
+}
+@media (max-width: 1020px) { .foot { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 960px) {
+  .wrap { padding: 0 1.5rem; }
+  .text > .wide { max-width: none; }
+  .sn { display: none; float: none; width: auto; margin: .5rem 0 .7rem; padding: .5rem .75rem; background: var(--panel); border-left: 2px solid var(--rubric); color: var(--ink); }
+  .sn.open { display: block; }
+  .fig-body { grid-template-columns: minmax(0, 1fr); }
+  .fig svg { margin: 0 auto; }
+  .related { grid-template-columns: minmax(0, 1fr); }
+  .stats { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .stats div:nth-child(3) { border-left: 0; }
+  .stats div:nth-child(n+3) { border-top: 1px solid var(--rule); }
+}
+@media (max-width: 700px) {
+  .verse { grid-template-columns: minmax(0, 1fr); gap: 1rem; }
+  .two { grid-template-columns: minmax(0, 1fr); }
+  .appx.view-parallel .pair { grid-template-columns: minmax(0, 1fr); gap: .5rem; }
+  .log li { grid-template-columns: minmax(0, 1fr); gap: .2rem; }
+}
+@media (max-width: 600px) {
+  .wrap { padding: 0 1rem; }
+  .foot { grid-template-columns: minmax(0, 1fr); }
+}
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+</style>
+
+<div class="wrap">
+  <header class="site">
+    <a class="brand" href="https://claude.ai/artifact/Sxv32gV4SoYwPGMXD1UYHD" aria-label="Neoscholia — на главную">
+      <b>Neo<span>·</span>scholia</b>
+      <small><span lang="grc">νέα σχόλια</span> · новые схолии к непереведённой античности</small>
+    </a>
+    <nav aria-label="Разделы сайта">
+      <a href="https://claude.ai/artifact/Sxv32gV4SoYwPGMXD1UYHD">Библиотека</a>
+      <a href="https://claude.ai/artifact/FtriAuMyfVpLWqqMqZDQ8o" aria-current="page">Исследования</a>
+      <a href="https://claude.ai/artifact/LUNNJwceDXYWoepQJWmVVL">Метод</a>
+      <a href="https://claude.ai/artifact/WNygYEn7HeTq5PbrvPt2BF">О проекте</a>
+    </nav>
+    <div class="lang" role="group" aria-label="Язык интерфейса"><span>RU</span><button type="button" disabled title="Английская версия интерфейса появится позже">EN</button></div>
+  </header>
+
+  <p class="mock"><b>Макет страницы статьи.</b> Содержание настоящее. Источники собраны и проверены моделями 25.10.2026, до публикации текст прочитали фактчекер и рецензент. Автор текст ещё не вычитал. Греческий текст схолий дан по Диндорфу (1855), без сверки с новым изданием Понтани.</p>
+
+  <main id="top">
+    <div class="crumbs"><a href="https://claude.ai/artifact/Sxv32gV4SoYwPGMXD1UYHD">Библиотека</a> › <a href="https://claude.ai/artifact/FtriAuMyfVpLWqqMqZDQ8o">Исследования</a> › Статьи по текстам</div>
+
+    <header class="mast">
+      <p class="kicker">Статья по тексту · Схолии · Препринт</p>
+      <h1>Пергам против Александрии? Кратет, Аристарх и «короткие ночи» лестригонов</h1>
+      <p class="sub">Схолии к «Одиссее» 10.86 и спор о том, где странствовал Одиссей</p>
+      <div class="byline"><b>[ФИО]</b><span>ORCID: [после регистрации]</span><span>Neoscholia</span></div>
+      <ul class="meta">
+        <li>Версия <b>0.1</b> · 25.10.2026</li>
+        <li>DOI: <b>после депонирования в Zenodo</b></li>
+        <li>Лицензия препринта: <b>CC BY 4.0</b></li>
+        <li>Чтение: <b>около 25 минут</b></li>
+      </ul>
+      <ol class="ladder" aria-label="Путь публикации">
+        <li class="done">Досье источников</li>
+        <li class="done">Препринт</li>
+        <li>Проверка автором</li>
+        <li>Открытая рецензия</li>
+        <li>Окончательная версия</li>
+      </ol>
+      <div class="actions">
+        <a class="btn" href="laestrygonians-dossier.md">Досье источников</a>
+        <a class="btn" href="#appx">Перевод схолий</a>
+        <a class="btn" href="#cite">Как цитировать</a>
+        <span class="btn" aria-disabled="true" title="Появится вместе с DOI">PDF — после DOI</span>
+      </div>
+    </header>
+
+    <div class="art">
+      <nav class="toc" aria-labelledby="toc-h">
+        <h2 id="toc-h">Содержание</h2>
+        <ol>
+          <li><a href="#abstract">Аннотация</a></li>
+          <li><a href="#s1"><span class="n">1</span>Стих и вопрос</a></li>
+          <li><a href="#s2"><span class="n">2</span>Что сохранили схолии</a></li>
+          <li><a href="#s3"><span class="n">3</span>Кратет у Гемина</a></li>
+          <li><a href="#s4"><span class="n">4</span>Голова Дракона</a></li>
+          <li><a href="#s5"><span class="n">5</span>Где Аристарх?</a></li>
+          <li><a href="#s6"><span class="n">6</span>Выводы</a></li>
+          <li><a href="#appx">Приложение: схолии</a></li>
+          <li><a href="#process">Как сделана работа</a></li>
+          <li><a href="#review">Рецензия и версии</a></li>
+          <li><a href="#refs">Литература</a></li>
+          <li><a href="#cite">Как цитировать</a></li>
+        </ol>
+      </nav>
+
+      <article class="text">
+        <details class="toc-m">
+          <summary>Содержание</summary>
+          <ol>
+            <li><a href="#abstract">Аннотация</a></li>
+            <li><a href="#s1">Стих и вопрос</a></li>
+            <li><a href="#s2">Что сохранили схолии</a></li>
+            <li><a href="#s3">Кратет у Гемина</a></li>
+            <li><a href="#s4">Голова Дракона</a></li>
+            <li><a href="#s5">Где Аристарх?</a></li>
+            <li><a href="#s6">Выводы</a></li>
+            <li><a href="#appx">Приложение: схолии</a></li>
+            <li><a href="#process">Как сделана работа</a></li>
+            <li><a href="#review">Рецензия и версии</a></li>
+            <li><a href="#refs">Литература</a></li>
+            <li><a href="#cite">Как цитировать</a></li>
+          </ol>
+        </details>
+
+        <section class="abstract" id="abstract" data-show="ru" aria-labelledby="abs-h">
+          <div class="abstract-head">
+            <h2 id="abs-h">Аннотация</h2>
+            <div class="seg-ctl" id="abs-ctl" role="group" aria-label="Язык аннотации">
+              <button type="button" data-set="ru" aria-pressed="true">RU</button>
+              <button type="button" data-set="en" aria-pressed="false">EN</button>
+            </div>
+          </div>
+          <div data-lang="ru">
+            <p>Стих Од. 10.86 «ибо близки пути ночи и дня» в древности толковали по-разному. Схолии сохранили пять объяснений. Из толкователей в них назван только Кратет Малльский: он видел в стихе указание на крайний север, где летние ночи коротки. По Гемину, речь шла о широте, где самый долгий день длится 23 часа.</p>
+            <p>Мы переводим весь комплекс схолий к Од. 10.82–86 по изданию Диндорфа; полного перевода ни на одном языке мы не нашли. Схолии сопоставлены с Гемином, Евстафием, Гиппархом и схолиями к Арату, а довод Кратета проверен расчётом. Выводы:</p>
+            <ol>
+              <li>Версия Кратета у Гемина согласна со сферической астрономией: 23-часовой день приходится на широту около 66°.</li>
+              <li>Ссылку на Арата («Явления» 61–62), судя по схолии к Арату, сделал сам Кратет. У Гиппарха этот стих описывает звезду, касающуюся горизонта на широте Греции; Кратет переносит «смешение заходов и восходов» на Солнце крайнего севера. Цифры в свидетельствах расходятся: 23 и 1 час, 20 и 4 часа.</li>
+              <li>Суждение Аристарха об этих стихах не сохранилось. «Спор Пергама с Александрией» о них приходится реконструировать.</li>
+            </ol>
+            <p class="kw">Ключевые слова: Кратет Малльский; Аристарх; схолии к «Одиссее»; Гемин; Арат; Гиппарх; гомеровская география; лестригоны; климаты.</p>
+          </div>
+          <div data-lang="en" lang="en">
+            <p>The ancients read Od. 10.86, "for the paths of night and day are close", in several ways. The scholia preserve five explanations. The only exegete they name is Crates of Mallos, who took the line to point to the far north, where summer nights are short. According to Geminus, he meant the latitude where the longest day lasts 23 hours.</p>
+            <p>We translate the whole cluster of scholia on Od. 10.82–86 in Dindorf's edition; we have found no complete translation in any language. We compare the scholia with Geminus, Eustathius, Hipparchus and the Aratus scholia, and we test Crates' argument by computation. Our findings:</p>
+            <ol>
+              <li>Geminus' version of Crates agrees with spherical astronomy: a 23-hour day falls at about 66°.</li>
+              <li>According to the Aratus scholia, Crates himself linked Homer with Aratus (<i>Phaen.</i> 61–62). For Hipparchus that line describes a star grazing the horizon at the latitude of Greece; Crates transfers the "mingling of settings and risings" to the Sun of the far north. The figures in the witnesses differ: 23 and 1 hours, 20 and 4 hours.</li>
+              <li>No opinion of Aristarchus on these lines survives. A "Pergamon versus Alexandria" debate about them has to be reconstructed.</li>
+            </ol>
+            <p class="kw">Keywords: Crates of Mallos; Aristarchus; Odyssey scholia; Geminus; Aratus; Hipparchus; Homeric geography; Laestrygonians; klimata.</p>
+          </div>
+        </section>
+
+        <p class="based">Опирается на перевод <a href="https://claude.ai/artifact/KBXAd7KtUgWioncxPUnJ77"><b>Схолии к «Одиссее». Песнь X</b></a>, версия 0.1. Там опубликованы схолии к стихам 1–4. Рабочий перевод схолий к стихам 82–86 дан в <a href="#appx">приложении</a> к этой статье.</p>
+
+        <h2 id="s1"><span class="no">1</span>Стих и вопрос</h2>
+        <p>Одиссей и его спутники шесть дней плывут от Эолии и на седьмой приходят в страну лестригонов.</p>
+
+        <figure class="verse wide">
+          <ol class="grc" lang="grc">
+            <li data-l="80">ἑξῆμαρ μὲν ὁμῶς πλέομεν νύκτας τε καὶ ἦμαρ,</li>
+            <li data-l="81">ἑβδομάτῃ δ’ ἱκόμεσθα Λάμου αἰπὺ πτολίεθρον,</li>
+            <li data-l="82">Τηλέπυλον Λαιστρυγονίην, ὅθι ποιμένα ποιμὴν</li>
+            <li data-l="83">ἠπύει εἰσελάων, ὁ δέ τ’ ἐξελάων ὑπακούει.</li>
+            <li data-l="84">ἔνθα κ’ ἄυπνος ἀνὴρ δοιοὺς ἐξήρατο μισθούς,</li>
+            <li data-l="85">τὸν μὲν βουκολέων, τὸν δ’ ἄργυφα μῆλα νομεύων·</li>
+            <li data-l="86" class="hl">ἐγγὺς γὰρ νυκτός τε καὶ ἤματός εἰσι κέλευθοι.</li>
+          </ol>
+          <ol>
+            <li data-l="80">Шесть дней подряд мы плыли — и ночью, и днём,</li>
+            <li data-l="81">а на седьмой прибыли к крутому граду Лама,</li>
+            <li data-l="82">к Телепилу лестригонскому, где пастух пастуха</li>
+            <li data-l="83">окликает, загоняя [стадо], а тот, выгоняя, отзывается.</li>
+            <li data-l="84">Там неспящий человек заработал бы две платы:</li>
+            <li data-l="85">одну — пася коров, другую — пася белоснежных овец;</li>
+            <li data-l="86" class="hl">ибо близки пути ночи и дня.</li>
+          </ol>
+          <figcaption>Гомер, «Одиссея» 10.80–86. Текст по Murray 1919; перевод рабочий.</figcaption>
+        </figure>
+
+        <p>Странность этих стихов замечали уже древние читатели. Почему из близости «путей ночи и дня» следует, что неспящий заработал бы две платы?<button type="button" class="sn-ref" aria-expanded="false" aria-controls="n1" aria-label="Примечание 1">1</button><span class="sn" id="n1" role="note"><span class="sn-n">1</span>Текст по Murray 1919 (Perseus); с Allen и West не сверен. В ст. 84 лемма схолии N даёт ἄοκνος с пометой γρ. ἄυπνος (Dindorf II 453.7).</span> Судя по обзорам у Броджато и Билича (самих работ мы ещё не видели), современные толкования сводятся к двум типам. Одни видят здесь мифическую космографию, ср. дом Ночи у Гесиода, где Ночь и День встречаются на медном пороге (Теог. 748–750). Другие — отголосок рассказов о северных летних ночах.<button type="button" class="sn-ref" aria-expanded="false" aria-controls="n2" aria-label="Примечание 2">2</button><span class="sn" id="n2" role="note"><span class="sn-n">2</span>Broggiato 2014, 106, прим. 125: Heubeck 1989 к этим стихам; Scodel 2003; Argenziano 2012. По непроверенным выпискам из Bilić 2021, гл. 2, — также Page 1973 и Bilić 2012. Кроме Broggiato 2014 и Bilić 2020, этих работ мы не видели.</span> Второе толкование старо: в античности его связывали с Кратетом Малльским, главой пергамской филологии II в. до н. э.</p>
+        <p>Соблазнительно увидеть и здесь эпизод спора Пергама с Александрией, Кратета с Аристархом, тем более что Геллий противопоставляет их именно по поводу странствий Одиссея (14.6.3). Мы проверяем это в три шага:</p>
+        <ol class="plain">
+          <li>переводим весь комплекс схолий к Од. 10.82–86 по Диндорфу; полностью, насколько нам известно, впервые, хотя отдельные кратетовские схолии, вероятно, уже переведены на английский у Билича;</li>
+          <li>спрашиваем, что именно сохранилось от Кратета и от Аристарха;</li>
+          <li>проверяем довод Кратета расчётом: это возможно, потому что довод астрономический.</li>
+        </ol>
+
+        <h2 id="s2"><span class="no">2</span>Что сохранили схолии</h2>
+        <p>Схолии к стихам 82–86 занимают у Диндорфа около двух страниц.<button type="button" class="sn-ref" aria-expanded="false" aria-controls="n3" aria-label="Примечание 3">3</button><span class="sn" id="n3" role="note"><span class="sn-n">3</span>Dindorf 1855, II 452.20–454.18. Новое критическое издание — Pontani 2022 (т. V; схолии к κ — с. 127 сл.). Мы его ещё не сверили, поэтому сиглы и нумерация даны по Диндорфу.</span> Они дошли в нескольких рукописях: H (Harleianus 5674), Q (Ambros. Q 88 sup.), B (Ambros. B 99 sup.; её интерполятор добавлял выписки из Евстафия), T (Гамбургский кодекс, не путать с Таунлеевским кодексом «Илиады»), P (Палатинский Гейдельбергский), N (Марцианский) и V — «вульгата», малые схолии альдинского издания.<button type="button" class="sn-ref" aria-expanded="false" aria-controls="n4" aria-label="Примечание 4">4</button><span class="sn" id="n4" role="note"><span class="sn-n">4</span>Сиглы — по предисловию Диндорфа (т. I). V — издание Альда 1528 г.</span> Стих 86 там объясняется пятью способами.</p>
+
+        <div class="tbl-wrap wide">
+          <table>
+            <caption>Пять объяснений Од. 10.86. Схолии — по Диндорфу; Евстафий — по страницам римского издания.</caption>
+            <thead><tr><th scope="col">Толкование</th><th scope="col">Суть</th><th scope="col">Свидетели</th></tr></thead>
+            <tbody>
+              <tr><td>Пространственное</td><td>Ночные и дневные пастбища у самых ворот; пастухи слышат друг друга.</td><td class="sig">Σ 10.82 BQ; Σ 10.86 HQ [b], HV, T; Евстафий 1649</td></tr>
+              <tr><td>Хозяйственное</td><td>Коров пасут ночью из-за оводов, овец — днём; место — Леонтины на Сицилии.</td><td class="sig">Σ 10.85 B; Σ 10.86 H, HV; Евстафий 1648, 1649</td></tr>
+              <tr><td>Временное</td><td>День не отстоит от ночи: с его уходом ночь наступает «в мгновение ока».</td><td class="sig">Σ 10.86 HQ [a]</td></tr>
+              <tr class="mark"><td>Астрономическое, с именем</td><td>Кратет: на крайнем севере ночи коротки; лестригоны «у головы Дракона» (Арат 61–62).</td><td class="sig">Σ 10.86 HQ [c], HV; Евстафий 1649; ср. Гемин 6.10–12; схолии к Арату 61–62</td></tr>
+              <tr class="mark"><td>Астрономическое, без имени</td><td>У «северных людей» в солнцестояние день длится 23 часа, ночь — час.</td><td class="sig">Σ 10.86 P</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p>Одна из версий хозяйственного объяснения (Σ 10.85 B), возможно, зависит от Евстафия: интерполятор рукописи B вставлял выписки из него, а стёртые слова этой схолии Диндорф восполнил именно по Евстафию.<button type="button" class="sn-ref" aria-expanded="false" aria-controls="n5" aria-label="Примечание 5">5</button><span class="sn" id="n5" role="note"><span class="sn-n">5</span>Слова νυκτός, πολέμιος, βόσκων в B стёрты; Диндорф восполнил их из Евстафия (1648.42 Rom.). По Диндорфу (praef. I, xii–xiii), интерполятор B вставлял выписки из Евстафия. Схолия к 10.85 в его списке не названа, так что зависимость — наш вывод.</span> Сам Евстафий (XII в.) даёт удобную рамку для всего материала. По его словам, путь ночи и дня понимают «не только в пространственном смысле» (<span lang="grc">τοπικῶς</span>), как одни толкователи, «но и во временном» (<span lang="grc">χρονικῶς</span>).<button type="button" class="sn-ref" aria-expanded="false" aria-controls="n6" aria-label="Примечание 6">6</button><span class="sn" id="n6" role="note"><span class="sn-n">6</span>Евстафий, 1649 Rom. = Stallbaum I 369: <span lang="grc">οὐ μόνον τοπικῶς φασί τινες … ἀλλὰ καὶ χρονικῶς ἐκλαμβάνονται</span>.</span> Первые два толкования из таблицы — пространственные: <span lang="grc">κέλευθοι</span> для них — дороги к ночным и дневным пастбищам. Остальные три — временные: речь в них о смене дня и ночи, а в двух последних <span lang="grc">κέλευθοι</span> — пути Солнца.</p>
+        <p>Для дальнейшего важны два наблюдения.</p>
+        <p><span class="lead-in">Первое.</span> Из толкователей в схолиях к 82–86 назван только Кратет. Александрийцы здесь не названы. Ближе всего к их языку заметка H к ст. 82: Лестригонию отождествляют с Сицилией «позднейшие» поэты (<span lang="grc">οἱ νεώτεροι</span>), а этим словом Аристарх обычно отделял Гомера от послегомеровской традиции. Но и её без издания Понтани приписывать Аристарху нельзя. У Карнута, собравшего остатки Аристоника к «Одиссее», для книги κ между стихами 70 и 91 нет ни одной заметки.<button type="button" class="sn-ref" aria-expanded="false" aria-controls="n7" aria-label="Примечание 7">7</button><span class="sn" id="n7" role="note"><span class="sn-n">7</span>Carnuth 1869, 93–96. Издание Понтани может изменить картину.</span> Схолия T начинается с <span lang="grc">ὅτι</span>, как заметки Аристоника, но это ещё не основание возводить её к Аристонику, а через него к Аристарху.</p>
+        <p><span class="lead-in">Второе.</span> Сицилийская и кратетовская версии стоят рядом в одной схолии (HV): «говорят, что лестригоны занимали землю леонтинцев», а затем «Кратет же говорит…». Для составителя это не враждующие школы, а два ответа из запаса, поставленные один за другим.</p>
+
+        <h2 id="s3"><span class="no">3</span>Кратет у Гемина: «математическая причина»</h2>
+        <p>Самое раннее датируемое свидетельство о толковании Кратета — не схолии, а «Введение в явления» астронома Гемина, вероятно, I в. до н. э.<button type="button" class="sn-ref" aria-expanded="false" aria-controls="n8" aria-label="Примечание 8">8</button><span class="sn" id="n8" role="note"><span class="sn-n">8</span>Гемин 6.8–12 (Manitius 1898, 70–72); рус. пер.: Щетников 2011, 197–198. Кратет F 50 Broggiato = Гемин 6.10–12 + схолии к Од. 10.86 + схолии к Арату 62 (Broggiato 2014, 106, прим. 126).</span> В главе о длине дня Гемин идёт с юга на север: на Родосе самый долгий день длится 14½ часа, в Риме — 15, севернее Пропонтиды — 16, затем 17 и 18. Потом он цитирует Пифея: «Варвары показывали нам, где Солнце ложится спать». Ночь там длилась два-три часа. Сразу за этим следует Кратет.</p>
+
+        <figure class="quote">
+          <blockquote class="grc" lang="grc">Κράτης δὲ ὁ γραμματικός φησι τῶν τόπων τούτων καὶ Ὅμηρον μνημονεῦσαι … περὶ γὰρ τοὺς τόπους τούτους γινομένης ⟨τῆς⟩ μεγίστης ἡμέρας ὡρῶν κγ΄ ἰσημερινῶν ἡ νὺξ μικρὰ παντάπασιν εἶναι ἀπολείπεται ὥρας μιᾶς, ὥστε πλησιάζειν τὴν δύσιν τῇ ἀνατολῇ μικρᾶς παντάπασί τινος περιφερείας ὑπὸ τὸν ὁρίζοντα ἀπολαμβανομένης ἀπὸ τοῦ θερινοῦ τροπικοῦ. … εἶτα ἐπιφέρει τὴν αἰτίαν μαθηματικὴν οὖσαν καὶ σύμφωνον τῷ σφαιρικῷ λόγῳ· «ἐγγὺς γὰρ νυκτός τε καὶ ἤματός εἰσι κέλευθοι». τοῦτο δέ ἐστιν, ὅτι ἡ δύσις παράκειται τῇ ἀνατολῇ.</blockquote>
+          <blockquote class="tr">Грамматик Кратет говорит, что эти места упоминает и Гомер… Ведь в этих местах самый долгий день длится 23 равноденственных часа, и на ночь остаётся совсем немного — один час. Поэтому заход сближается с восходом: горизонт отсекает снизу от летнего тропика совсем малую дугу. … Затем [поэт] прибавляет причину, математическую и согласную со сферическим учением: «ибо близки пути ночи и дня». Это значит, что заход лежит рядом с восходом.</blockquote>
+          <figcaption>Гемин, «Введение в явления» 6.10–12 (Manitius 72.2–20)</figcaption>
+        </figure>
+
+        <p>Анонимная схолия P даёт те же цифры и почти тот же оборот: «об этих местах и упоминает здесь Гомер». Это кратетовское объяснение, только без имени Кратета. Попутно схолия подкрепляет текст Гемина в издании Манициуса: старые издания печатали здесь 21 час дня и три часа ночи.<button type="button" class="sn-ref" aria-expanded="false" aria-controls="n9" aria-label="Примечание 9">9</button><span class="sn" id="n9" role="note"><span class="sn-n">9</span>Манициус: <span lang="grc">κγ΄</span> и <span lang="grc">ὥρας μιᾶς</span>; старые издания: <span lang="grc">κα΄</span> и <span lang="grc">ὡρῶν γ΄</span>. У Манициуса уже были рукописи и латинская версия с «23 hore», поэтому схолия — подтверждение, а не решающий довод.</span></p>
+        <p>Довод Кратета внутренне согласен со сферической астрономией. При наклоне эклиптики середины II в. до н. э. 23-часовой день приходится на широту около 66,1°. Там горизонт отсекает от летнего тропика дугу ровно в 15°, то есть час: это и есть «совсем малая дуга» Гемина. Точки летнего восхода и заката отстоят там от севера всего на 6–7° в каждую сторону.<button type="button" class="sn-ref" aria-expanded="false" aria-controls="n10" aria-label="Примечание 10">10</button><span class="sn" id="n10" role="note"><span class="sn-n">10</span>Расчёт геометрический (центр Солнца на горизонте), наклон эклиптики 23,71° для 150 г. до н. э. С рефракцией и полудиаметром Солнца — около 65,3°; с античным значением наклона (23°51′20″) — 65,96°. Код и данные — в досье, § 4.</span> Широты ни Кратет, ни Гемин не называют; 66° — наш расчёт.</p>
+        <p>У Кратета это часть системы. Киммерийцев «Одиссеи» (11.14–19), над которыми никогда не светит Солнце, он помещал к полюсу, где ночь длится полгода. В Од. 11.14 он, по схолиям, читал <span lang="grc">Κερβερίων</span> («кербериев») вместо <span lang="grc">Κιμμερίων</span>, хотя помета в рукописи H приписывает близкое чтение Аристарху.<button type="button" class="sn-ref" aria-expanded="false" aria-controls="n11" aria-label="Примечание 11">11</button><span class="sn" id="n11" role="note"><span class="sn-n">11</span>Гемин 6.16–21 (Manitius 74–76) = F 54 Broggiato. Σ Од. 11.14 (Dindorf II 479): <span lang="grc">οἱ δὲ Κερβερίων, ὡς Κράτης</span> (F 53 Broggiato; номер по Bilić, не сверен). В H: <span lang="grc">Ἀρίσταρχος Κερβερέων</span>; Порсон предлагал читать <span lang="grc">Κερβερίων</span>.</span> Схолия HV прямо связывает два места: у лестригонов день долог, а ночь коротка, «как у киммерийцев наоборот» (<span lang="grc">ὡς ἀνάπαλιν παρὰ τοῖς Κιμμερίοις</span>). По Гемину, Кратет «располагал странствие Одиссея» на сфере и помещал Океан между тропиками. Такое устройство Гемин отвергает по существу: оно «чуждо и математическому, и физическому учению».<button type="button" class="sn-ref" aria-expanded="false" aria-controls="n12" aria-label="Примечание 12">12</button><span class="sn" id="n12" role="note"><span class="sn-n">12</span>Гемин 16.21–22 (Manitius 172): <span lang="grc">ἀλλοτρία ἐστὶ καὶ τοῦ μαθηματικοῦ καὶ τοῦ φυσικοῦ λόγου</span>.</span></p>
+        <p>Стих о неспящем был на слуху и в кругу Кратета. В пассаже Афинея, который Броджато вслед за Дюрингом возводит к кратетовцу Геродику, высмеивается Сократ «Пира», не спавший всю ночь: тому стоило бы отправиться к лестригонам, «где неспящий человек заработал бы две платы».<button type="button" class="sn-ref" aria-expanded="false" aria-controls="n13" aria-label="Примечание 13">13</button><span class="sn" id="n13" role="note"><span class="sn-n">13</span>Athen. 5.192a–b = Herodicus F 13 Broggiato 2014 (с. 105–106; атрибуция Дюринга и Броджато). Самого Афинея мы не перечитывали.</span> Связана ли шутка с астрономическим толкованием, из неё не видно. Евстафий сообщает с оговоркой «говорят» (<span lang="grc">φασι</span>), что «начало этому математическому толкованию положил Кратет». Это не исключает, что сама мысль восходит к Пифею, но такая гипотеза опирается лишь на соседство Пифея и Кратета у Гемина.<button type="button" class="sn-ref" aria-expanded="false" aria-controls="n14" aria-label="Примечание 14">14</button><span class="sn" id="n14" role="note"><span class="sn-n">14</span>Евстафий 1649 Rom.: <span lang="grc">κατῆρξε δέ φασι τῆς τοιαύτης μαθηματικῆς ἐπινοίας Κράτης</span>. О Пифее: Bilić 2012 (с. 319–322) и Bilić 2020.</span></p>
+        <p>О лестригонах Гемин сообщает без возражений. О киммерийцах он замечает: «имеет ли Гомер это в виду — пусть будет другой вопрос». В главе 16, о земных поясах, он резче: Кратет, «рассказывая диковины» (<span lang="grc">παραδοξολογῶν</span>), переносит сказанное Гомером «по-старинному и на особый лад» на «истинное устройство сферы».<button type="button" class="sn-ref" aria-expanded="false" aria-controls="n15" aria-label="Примечание 15">15</button><span class="sn" id="n15" role="note"><span class="sn-n">15</span>Гемин 6.21 (<span lang="grc">ἕτερος ἔστω λόγος</span>; номер параграфа не сверен) и 16.27 (Manitius 174).</span></p>
+
+        <h2 id="s4"><span class="no">4</span>Голова Дракона: Арат, Гиппарх и Кратет</h2>
+        <p>В схолиях HQ и HV, а за ними у Евстафия, к толкованию Кратета добавлена ссылка на Арата, которой нет у Гемина. Лестригоны живут «около головы Дракона», о которой Арат говорит:</p>
+
+        <figure class="quote">
+          <blockquote class="grc aratus" lang="grc">κείνη που κεφαλὴ τῇ νίσσεται, ἧχί περ ἄκραι<br>μίσγονται δύσιές τε καὶ ἀντολαὶ ἀλλήλῃσιν.</blockquote>
+          <blockquote class="tr">Та голова проходит где-то там, где края<br>заходов и восходов смешиваются друг с другом.</blockquote>
+          <figcaption>Арат, «Явления» 61–62 (Mair 1921). Схолии к «Одиссее» читают <span lang="grc">νείσεται</span></figcaption>
+        </figure>
+
+        <p>Как понимали эти стихи астрономы, хорошо видно из Гиппарха.<button type="button" class="sn-ref" aria-expanded="false" aria-controls="n16" aria-label="Примечание 16">16</button><span class="sn" id="n16" role="note"><span class="sn-n">16</span>Гиппарх, «Комментарий к Арату и Евдоксу» 1.4.7–8 (Manitius 1894, 32–34); ср. 1.11.3 (с. 112). Комментарий Kidd 1997 мы ещё не сверили.</span> По его словам, Арат вслед за Евдоксом помещает голову Дракона на «всегда видимый круг», то есть на границу незаходящих звёзд. В нижней точке голова едва касается горизонта и снова поднимается: отсюда «смешение заходов и восходов». Гиппарх спорит со своим современником Атталом Родосским, комментатором Арата, который считал, что голова ненадолго заходит. Довод Гиппарха:</p>
+        <ul class="plain">
+          <li>звёзды головы отстоят от полюса на 34 3/5°, 35° и 37°;</li>
+          <li>всегда видимый круг «в местах около Афин», где гномон составляет 4/3 равноденственной тени, отстоит от полюса примерно на 37°;</li>
+          <li>значит, на самом круге лежит только левый висок.</li>
+        </ul>
+        <p>Расчёт по современным данным подтверждает вывод Гиппарха: его полярные расстояния 35° и 37° совпадают с небом II в. до н. э. до 0,05°, а третье, 34 3/5°, не подходит ни к одной звезде головы. Склонение γ Дракона, «левого виска», было тогда +52,96°. Значит, звезда касалась горизонта на широте 37,0°, то есть в самой Греции и Сицилии.<button type="button" class="sn-ref" aria-expanded="false" aria-controls="n17" aria-label="Примечание 17">17</button><span class="sn" id="n17" role="note"><span class="sn-n">17</span>Hipparcos 2007 / Gaia EDR3 (SIMBAD), прецессия IAU 2006, контроль по IAU 1976. Касание горизонта: φ = 90° − δ; в эпоху Арата (275 г. до н. э.) — 36,9°. Полярные расстояния для 150 г. до н. э.: γ — 37,04°, β — 34,95°; для «звезды на конце пасти» (34 3/5°) подходящей нет (μ — 31,67°, ν1 — 32,32°, ξ — 31,88°).</span> Там самый долгий день длится около 14,6 часа, а самая короткая ночь — больше 9 часов. Проверьте на рисунке.</p>
+
+        <figure class="fig wide" id="fig1" aria-labelledby="fig1-cap">
+          <div class="fig-body">
+            <svg id="sphere" viewBox="0 0 400 330" role="img" aria-labelledby="sv-title sv-desc">
+              <title id="sv-title">Небесная сфера в плоскости меридиана</title>
+              <desc id="sv-desc">Горизонт, полюс мира, путь Солнца в день летнего солнцестояния и нижняя точка звезды γ Дракона для выбранной широты.</desc>
+            </svg>
+            <div class="ctl">
+              <label for="lat">Широта наблюдателя: <b id="lat-out">37,3°</b> с. ш.</label>
+              <input type="range" id="lat" min="30" max="66.5" step="0.005" value="37.28">
+              <div class="presets" id="presets" role="group" aria-label="Места"></div>
+              <dl class="readout" aria-live="polite">
+                <dt>Самый долгий день</dt><dd id="r-day">—</dd>
+                <dt>Самая короткая ночь</dt><dd id="r-night">—</dd>
+                <dt>Летний восход и закат</dt><dd id="r-az">—</dd>
+                <dt>Голова Дракона (<span lang="grc">γ</span>)</dt><dd id="r-dra">—</dd>
+              </dl>
+              <p class="place-note" id="place-note"></p>
+            </div>
+          </div>
+          <figcaption id="fig1-cap"><b>Рис. 1.</b> Небо около 150 г. до н. э., наклон эклиптики 23,71°. Красная линия — путь Солнца в летнее солнцестояние: сплошная часть — день, пунктир — ночь. Синий пунктир — граница незаходящих звёзд. Синяя линия — суточный круг звезды γ Дракона («левый висок» у Гиппарха), точка — её нижняя кульминация; точка становится красной, если звезда заходит. Расчёт геометрический, без рефракции.</figcaption>
+        </figure>
+
+        <div class="tbl-wrap wide">
+          <table>
+            <caption>Широта, длина дня и голова Дракона около 150 г. до н. э.; расчёт геометрический, без рефракции. Отношение гномона к равноденственной тени 4 : 3 даёт 36,9°; этим значением Гиппарх пользуется для Афин и Эллады в целом, хотя сами Афины лежат на 38,0°.</caption>
+            <thead><tr><th scope="col">Место</th><th scope="col" class="num">Широта</th><th scope="col" class="num">Самый долгий день</th><th scope="col" class="num">Самая короткая ночь</th><th scope="col"><span lang="grc">γ</span> Дракона в нижней точке</th></tr></thead>
+            <tbody>
+              <tr><td>Александрия</td><td class="num">31,2°</td><td class="num">14,1 ч</td><td class="num">9,9 ч</td><td>под горизонтом, −5,8°</td></tr>
+              <tr><td>Родос</td><td class="num">36,4°</td><td class="num">14,5 ч</td><td class="num">9,5 ч</td><td>чуть под горизонтом, −0,6°</td></tr>
+              <tr class="mark"><td>«Эллада» Гиппарха (гномон : тень = 4 : 3)</td><td class="num">36,9°</td><td class="num">14,6 ч</td><td class="num">9,4 ч</td><td>касается горизонта</td></tr>
+              <tr><td>Леонтины</td><td class="num">37,3°</td><td class="num">14,6 ч</td><td class="num">9,4 ч</td><td>+0,2°</td></tr>
+              <tr><td>Афины</td><td class="num">38,0°</td><td class="num">14,7 ч</td><td class="num">9,3 ч</td><td>+0,9°</td></tr>
+              <tr><td>γ Дракона в зените</td><td class="num">53,0°</td><td class="num">16,8 ч</td><td class="num">7,3 ч</td><td>+15,9°</td></tr>
+              <tr class="mark"><td>20-часовой день (схолия к Арату)</td><td class="num">63,1°</td><td class="num">20,0 ч</td><td class="num">4,0 ч</td><td>+26,1°</td></tr>
+              <tr class="mark"><td>23-часовой день (Гемин)</td><td class="num">66,1°</td><td class="num">23,0 ч</td><td class="num">1,0 ч</td><td>+29,1°</td></tr>
+            </tbody>
+          </table>
+        </div>
+
+        <p>Получается парадокс. Если читать Арата так, как его читал Гиппарх, стих указывает не на крайний север, а на родные широты читателя: там, где голова Дракона «смешивает заходы и восходы», летняя ночь длится девять часов. Как Кратет обходил это затруднение, показывает третий источник F 50 — схолия к самим стихам Арата. По изданию Бюле (1793) она гласит:</p>
+
+        <figure class="quote">
+          <blockquote class="grc" lang="grc">ὁ δὲ Κράτης φησίν, ὡς ὑπὸ τὸν ὁρίζοντα μίξις ἀμφοτέρων γίνεται, ὡς καὶ Ὅμηρος· «ἐγγὺς γὰρ νυκτός τε καὶ ἤματός εἰσι κέλευθοι». ἐπεὶ γὰρ παρ’ ἐκείνοις ἡ ἡμέρα ὡρῶν κ΄, ἡ δὲ νὺξ τεσσάρων, συναπτούσης ὅσον οὐδέπω τῆς δύσεως τῇ ἀνατολῇ, εὐλόγως τοῦτο εἴρηκε.</blockquote>
+          <blockquote class="tr">Кратет же говорит, что смешение того и другого происходит под горизонтом, как и у Гомера: «ибо близки пути ночи и дня». Ведь у тех [людей] день длится 20 часов, а ночь — четыре, так что заход вот-вот смыкается с восходом; потому [поэт] и сказал это с полным основанием.</blockquote>
+          <figcaption>Схолия к Арату 61–62, по изданию Бюле (1793); не сверено с Martin 1974<button type="button" class="sn-ref" aria-expanded="false" aria-controls="n18" aria-label="Примечание 18">18</button><span class="sn" id="n18" role="note"><span class="sn-n">18</span>Прочитано по распознанному скану, два экземпляра. Стандартное издание — Martin 1974; текст и цифру <span lang="grc">κ΄</span> (= 20) нужно сверить. На эту схолию указывает и Диндорф к Σ 10.86 HQ: «Ἄρατος] 61, ubi Cratetis sententiam memorat scholiasta».</span></figcaption>
+        </figure>
+
+        <p>Если текст подтвердится по критическому изданию, ссылка на Арата — не позднее украшение, а ход самого Кратета, который комментировал и Арата. Он толкует Арата через Гомера и Гомера через Арата. При этом «смешение заходов и восходов» переносится со звезды на Солнце: у Арата это точки захода и восхода звезды на северном горизонте, у Кратета — заход и восход Солнца на крайнем севере, «под горизонтом». Вывод схолии HQ — «раз восходы совсем близки к заходам» — по смыслу совпадает с «математической причиной» у Гемина (<span lang="grc">ἡ δύσις παράκειται τῇ ἀνατολῇ</span>). Нематематична только опора на поэта, а подкреплять астрономию стихом — вполне в духе грамматика.</p>
+        <p>Что тогда значит «у головы Дракона»?</p>
+        <p><span class="lead-in">Строгое понимание: «под головой», в зените.</span> Глагол в схолии HV — <span lang="grc">κατηστερίσθαι</span> («быть помещённым среди звёзд») — и пересказ Евстафия (<span lang="grc">ὑπὸ τὴν κεφαλὴν τοῦ δράκοντος</span>) допускают такое чтение.<button type="button" class="sn-ref" aria-expanded="false" aria-controls="n19" aria-label="Примечание 19">19</button><span class="sn" id="n19" role="note"><span class="sn-n">19</span>Евстафий 1649 Rom.: <span lang="grc">ὑπὸ τὴν κεφαλὴν τοῦ δράκοντος κατηστερισμένην περὶ αὐτούς</span>. Значение <span lang="grc">κατηστερίσθαι κατά</span> с вин. п. нужно проверить по словарям. Чтение «в зените», по нашим непроверенным выпискам, обсуждает Bilić 2021, гл. 2.</span> Тогда лестригоны оказываются на 53–55° с. ш. Самый долгий день там — 16¾–17¼ часа. Это гиппарховы «климаты», то есть широтные пояса, которые различали по длине самого долгого дня, — в 17 часов.</p>
+        <p><span class="lead-in">Свободное понимание.</span> На широте 23-часового дня звёзды головы проходят в 8–13° от зенита, ближе, чем в Греции (16–21°). А полюс эклиптики, который, по Страбону, стоит в зените там, где тропик становится арктическим кругом, лежит в самом созвездии Дракона, в 9,5–15° от звёзд головы.<button type="button" class="sn-ref" aria-expanded="false" aria-controls="n20" aria-label="Примечание 20">20</button><span class="sn" id="n20" role="note"><span class="sn-n">20</span>Страбон 2.5.43. Для 150 г. до н. э. на широте 66,1° звёзды головы кульминируют в 7,8–13,2° от зенита, на 37° — в 16–21,3°. От полюса эклиптики они отстоят на 9,5–14,8°.</span> Как приблизительная звёздная примета крайнего севера «голова Дракона» вполне годится.</p>
+        <p>Остаётся разнобой в цифрах. У Гемина и в схолии P день длится 23 часа, ночь — час (~66°). В схолии к Арату — 20 и 4 часа (~63°). «Голова Дракона в зените» дала бы около 17 часов (~53–55°).<button type="button" class="sn-ref" aria-expanded="false" aria-controls="n21" aria-label="Примечание 21">21</button><span class="sn" id="n21" role="note"><span class="sn-n">21</span>Геометрический расчёт для 150 г. до н. э.: 20 ч — 63,1°; 23 ч — 66,1°; 17 ч — 54,2°.</span> Откуда разнобой — от самого Кратета, от пересказчиков или от порчи числовых знаков (<span lang="grc">κγ΄</span> и <span lang="grc">κ΄</span> различаются одной буквой), — без критических изданий схолий к Арату и к «Одиссее» решить нельзя.</p>
+
+        <h2 id="s5"><span class="no">5</span>Где Аристарх?</h2>
+        <p>Об Аристархе в схолиях к этим стихам ничего нет. Что вообще известно о его взгляде на странствия Одиссея?</p>
+        <p><span class="lead-in">Геллий.</span> В насмешку над учёными пустяками он приводит вопрос, «блуждал ли Улисс во внутреннем море, по Аристарху, или во внешнем, по Кратету».<button type="button" class="sn-ref" aria-expanded="false" aria-controls="n22" aria-label="Примечание 22">22</button><span class="sn" id="n22" role="note"><span class="sn-n">22</span>Gell. NA 14.6.3: <i>utrum</i> <span lang="grc">ἐν τῇ ἔσω θαλάσσῃ</span> <i>Ulixes erraverit</i> <span lang="grc">κατ’ Ἀρίσταρχον</span> <i>an</i> <span lang="grc">ἐν τῇ ἔξω κατὰ Κράτητα</span>.</span> Это единственное место, где Аристарх и Кратет прямо противопоставлены по поводу странствий Одиссея.</p>
+        <p><span class="lead-in">Аристоник к книге κ.</span> К первому стиху: поэт говорит «не о тех островах, что ныне называются Эоловыми, а о каком-то другом острове, вынесенном за пределы известного» (<span lang="grc">ἐκτετοπισμένην</span>).<button type="button" class="sn-ref" aria-expanded="false" aria-controls="n23" aria-label="Примечание 23">23</button><span class="sn" id="n23" role="note"><span class="sn-n">23</span>Σ Од. 10.1 (Dindorf II 443–444, B.Q.V.) = Аристоник, κ 1 Carnuth.</span> К стиху 190 («ведь мы не знаем, где мрак и где заря») Карнут возводит к Аристонику только последнюю фразу: «отсюда видно, что странствие Одиссея вынесено за пределы известного». Ей предшествует анонимный пересказ: «не знаем, говорит он, в каком мы „климате“ (широтном поясе), и не можем сравнить, восточные мы или западные». Карнут вслед за Лерсом видел в заметке к этому стиху возражение Кратету: Кратет будто бы выводил отсюда, что Гомер знал четыре стороны света, а Аристарх признавал у него лишь восток и запад. Это реконструкция, её нужно проверить по скану и по изданию Понтани.<button type="button" class="sn-ref" aria-expanded="false" aria-controls="n24" aria-label="Примечание 24">24</button><span class="sn" id="n24" role="note"><span class="sn-n">24</span>Σ Од. 10.190 (Dindorf II 461.1–5, B.Q.T.); последняя фраза (461.4–5) = Аристоник, κ 190 Carnuth. Соседняя заметка B.Q. понимает слова Одиссея как сетование, а не незнание (<span lang="grc">οὐκ ἀπορῶν, ἀλλὰ δεινοπαθῶν</span>). Реконструкция: Carnuth 1869, 95–96, со ссылкой на Лерса (Ar. 174); латинский текст прочитан по плохому распознаванию.</span> Если она верна, ближайший к нашему стиху спор Аристарха с Кратетом в книге κ шёл о стихе 190, а не 86.</p>
+        <p><span class="lead-in">Схолия к 10.3.</span> Аристарх понимает «плавучий остров» Эола буквально: «острову ветров больше пристало не быть укоренённым».<button type="button" class="sn-ref" aria-expanded="false" aria-controls="n25" aria-label="Примечание 25">25</button><span class="sn" id="n25" role="note"><span class="sn-n">25</span>Σ Од. 10.3, Q: <span lang="grc">ὁ δὲ Ἀρίσταρχος περιφορητῇ· οἰκειότερον γάρ φησι μὴ ἐρριζῶσθαι τῶν ἀνέμων νῆσον</span>. Перевод — на странице <a href="https://claude.ai/artifact/KBXAd7KtUgWioncxPUnJ77#s3">«Схолии к „Одиссее“. Песнь X»</a>.</span> Чудесное он не объясняет рационально, а оставляет поэту. Ср. принцип, который схолии D к Ил. 5.385 приписывают Аристарху: принимать рассказанное поэтом «скорее как миф, по поэтической вольности», не выискивая ничего сверх сказанного.<button type="button" class="sn-ref" aria-expanded="false" aria-controls="n26" aria-label="Примечание 26">26</button><span class="sn" id="n26" role="note"><span class="sn-n">26</span>Σ D Il. 5.385: <span lang="grc">Ἀρίσταρχος ἀξιοῖ τὰ φραζόμενα ὑπὸ τοῦ ποιητοῦ μυθικώτερον ἐκδέχεσθαι, κατὰ τὴν ποιητικὴν ἐξουσίαν, μηδὲν ἔξω τῶν φραζομένων ὑπὸ τοῦ ποιητοῦ περιεργαζομένους</span>. О подлинности атрибуции — Porter 1992. Текст нужно сверить по изданию ван Тиля.</span></p>
+        <p><span class="lead-in">Страбон.</span> Аристарх, «отвергнув кратетовскую гипотезу», относит слова Гомера к «нашей» Эфиопии. Но это спор об эфиопах из Од. 1.23–24.<button type="button" class="sn-ref" aria-expanded="false" aria-controls="n27" aria-label="Примечание 27">27</button><span class="sn" id="n27" role="note"><span class="sn-n">27</span>Страбон 1.2.24–25.</span></p>
+        <p>«Внутреннее море» Геллия и «вынесенное за пределы известного» у Аристоника не противоречат друг другу. Мир поэмы для Аристарха — Средиземноморье, но места странствий поэт сознательно делает неузнаваемыми. Аристарх не отождествляет их с реальными местами, как те, кто искал лестригонов в Сицилии или в италийских Формиях,<button type="button" class="sn-ref" aria-expanded="false" aria-controls="n28" aria-label="Примечание 28">28</button><span class="sn" id="n28" role="note"><span class="sn-n">28</span>Фукидид 6.2.1 называет киклопов и лестригонов древнейшими жителями части Сицилии. О Формиях: Cic. Att. 2.13.2; Hor. Carm. 3.17.</span> и не вычисляет их широту, как Кратет. По духу к нему ближе всего шутка Эратосфена: место странствий Одиссея найдётся тогда, когда найдётся сапожник, сшивший мешок ветров.<button type="button" class="sn-ref" aria-expanded="false" aria-controls="n29" aria-label="Примечание 29">29</button><span class="sn" id="n29" role="note"><span class="sn-n">29</span>Эратосфен у Полибия у Страбона, 1.2.15.</span></p>
+        <p>Даже слово <span lang="grc">ἐξωκεανισμός</span>, «вынос в Океан», у Страбона означает не кратетовскую географию, а поэтический приём: по Эратосфену и Аполлодору, поэт перенёс странствия в Океан «ради мифа».<button type="button" class="sn-ref" aria-expanded="false" aria-controls="n30" aria-label="Примечание 30">30</button><span class="sn" id="n30" role="note"><span class="sn-n">30</span>Страбон 7.3.6 (<span lang="grc">ἐξωκεανικέναι μυθολογίας χάριν</span>); ср. 1.2.37.</span> Расхождение с Кратетом здесь не в том, где странствовал Одиссей, а в том, считать ли это географией или вымыслом.</p>
+        <p>Что сказал бы Аристарх о стихе 86, мы не знаем. Анонимные пространственные объяснения — пастбища у ворот, оклик пастуха — в его духе: стих объясняется изнутри описанного мира. Но приписать их ему нельзя.</p>
+        <p>Значит, «спор Пергама с Александрией» о коротких ночах лестригонов собран из свидетельств о другом: Геллия о странствиях в целом, Аристоника о книге κ, Страбона об эфиопах. Из прочитанных нами источников астрономические толкования Кратета прямо оценивает только астроном Гемин. Но и он возражает против метода и против Океана между тропиками, а о лестригонах отдельно не высказывается.</p>
+
+        <h2 id="s6"><span class="no">6</span>Выводы</h2>
+        <ol class="plain">
+          <li>Схолии к Од. 10.86 дают пять объяснений стиха в двух регистрах, которые различает Евстафий (XII в.): пространственном (<span lang="grc">τοπικῶς</span>) и временном (<span lang="grc">χρονικῶς</span>).</li>
+          <li>Из толкователей назван только Кратет. Его версия у Гемина — 23-часовой день и «сферическая» причина — согласна со сферической астрономией: такой день приходится на широту около 66°. Анонимная схолия P передаёт ту же версию без имени.</li>
+          <li>Ссылку на Арата 61–62, судя по схолии к Арату, сделал сам Кратет. Для Гиппарха стих Арата описывает звезду, касающуюся горизонта на широте Греции; Кратет переносит «смешение заходов и восходов» на Солнце крайнего севера. Цифры в свидетельствах расходятся: 23 и 1 час у Гемина и в схолии P, 20 и 4 часа в схолии к Арату.</li>
+          <li>Суждение Аристарха об этих стихах не сохранилось. Его взгляд на странствия — «внутреннее море», места «вынесены за пределы известного» — несовместим с кратетовским, но прямого спора об этом стихе источники не дают. Возможный спор в той же книге касается стиха 190 (реконструкция Карнута и Лерса).</li>
+          <li>Попутно схолия P подкрепляет 23 часа в тексте Гемина 6.11. Конец кратетовской схолии HQ — «или тот, кто бо́льшую часть дня проводит во сне», — по-видимому, проясняет пересказ Евстафия: это, вероятно, второе описание того же неспящего, а не противопоставление (наше толкование; проверить по Понтани).<button type="button" class="sn-ref" aria-expanded="false" aria-controls="n31" aria-label="Примечание 31">31</button><span class="sn" id="n31" role="note"><span class="sn-n">31</span>Евстафий 1648 Rom. (Stallbaum I 368): <span lang="grc">διὰ τὸ ἐν ἡμέρᾳ τυχὸν πλείονι τῷ ὕπνῳ καταχρήσασθαι</span>.</span></li>
+        </ol>
+
+        <h2 id="appx"><span class="no">Приложение</span>Схолии к «Одиссее» 10.82–86</h2>
+        <p>Текст по Dindorf 1855, II 452.20–454.18, по сканам издания. Перевод рабочий и ещё не проверен редактором. Аппарат и обоснования — в <a href="laestrygonians-dossier.md">досье</a>.</p>
+
+        <section class="appx wide view-parallel" id="appx-body" aria-label="Текст и перевод схолий">
+          <div class="appx-head">
+            <span>Показ</span>
+            <div class="seg-ctl" id="view-ctl" role="group" aria-label="Режим показа схолий">
+              <button type="button" data-view="translation" aria-pressed="false">Перевод</button>
+              <button type="button" data-view="parallel" aria-pressed="true">Параллельно</button>
+              <button type="button" data-view="original" aria-pressed="false">Оригинал</button>
+            </div>
+          </div>
+
+          <div class="sch">
+            <div class="sch-head"><span class="sch-ref">Σ 10.82</span><span class="lemma" lang="grc">τηλέπυλον</span><span class="chip">V · B Q T</span></div>
+            <div class="pair">
+              <p class="g" lang="grc">μεγάλην. τῶν γὰρ τοιούτων πολὺ διεστᾶσιν αἱ πύλαι. τινὲς δὲ κύριον τὸ Τηλέπυλον ἐξεδέξαντο. οἱ δὲ τηλέπυλόν φασι μακρόπυλον, οὐ τῷ διαστήματι, ἀλλὰ τῷ πλάτει τῆς πύλης ἢ τῷ μήκει. V. — πόρρω ἀλλήλων καὶ διασταδὸν τὰς πύλας ἔχουσαν· ἢ μακρόπυλον. B.Q.T.</p>
+              <p class="t">Большой: ведь у таких [городов] ворота стоят далеко друг от друга. Некоторые же поняли «Телепил» как имя собственное. Другие говорят, что «телепил» — «с длинными воротами», не по расстоянию [между ними], а по ширине или длине ворот. V. — [Город,] у которого ворота далеко друг от друга и врозь; или «с длинными воротами». B.Q.T.</p>
+            </div>
+          </div>
+          <div class="sch">
+            <div class="sch-head"><span class="sch-ref">Σ 10.82</span><span class="lemma" lang="grc">Λαιστρυγονίην</span><span class="chip">V · H</span></div>
+            <div class="pair">
+              <p class="g" lang="grc">τὴν τῶν Λαιστρυγόνων. Λαιστρυγόνες δὲ οἱ τὴν Λάμον οἰκοῦντες. V. — τὴν Λαιστρυγονίην οἱ νεώτεροι Σικελίαν φασί. H.</p>
+              <p class="t">[Землю] лестригонов; лестригоны — жители Лама. V. — Лестригонию «позднейшие» поэты (οἱ νεώτεροι), то есть послегомеровские, называют Сицилией. H.</p>
+            </div>
+          </div>
+          <div class="sch">
+            <div class="sch-head"><span class="sch-ref">Σ 10.82</span><span class="lemma" lang="grc">ποιμένα ποιμὴν</span><span class="chip">B · V</span></div>
+            <div class="pair">
+              <p class="g" lang="grc">τὸν βουκόλον ὁ τῶν μήλων νομεύς, διὰ τὸ πολλὰ εἶναι τὰ πρόβατα. B. — καταχρηστικῶς εἴρηκε ποιμένα καὶ τὸν βουκόλον. V.</p>
+              <p class="t">[Окликает] волопаса пастух мелкого скота, потому что овец много. B. — Неточно (катахрестически) он назвал «пастухом» и волопаса. V.</p>
+            </div>
+          </div>
+          <div class="sch">
+            <div class="sch-head"><span class="sch-ref">Σ 10.82</span><span class="lemma" lang="grc">ὅθι ποιμένα</span><span class="chip">B Q</span></div>
+            <div class="pair">
+              <p class="g" lang="grc">ὁμωνύμως τῷ γένει τὸ εἶδος εἶπεν, ἀντὶ τοῦ νομεὺς νομέα, ἤτοι ἔνθα οἱ νομεῖς ἀλλήλους προσφθέγγονται διὰ τὸ πλησίον εἶναι τὰς νομάς. ἢ μᾶλλον τοῦ διαστήματος τὸ ἀπεναντίον τῶν πυλῶν μέτρον ἀπέχειν, καὶ οὕτως τὴν φωνὴν ἀκούεσθαι τοῦ τε εἰσελαύνοντος καὶ τοῦ ἐξελαύνοντος, ὥσπερ ποτ’ ἔχει καὶ αὐτῷ «ὅσον τε γέγωνε βοήσας».</p>
+              <p class="t">Вид назван именем рода: вместо «пастух — пастуха», то есть там, где пастухи окликают друг друга, потому что пастбища близко. Или, скорее, противолежащие ворота разделяет такое расстояние, что слышен голос и загоняющего, и выгоняющего, — как и у него [сказано]: «насколько слышен крик» (9.473).</p>
+            </div>
+            <p class="app-crit">νομέα Buttm. pro νομός · πλησίον] σύνεγγυς V · ἀκούεσθαι] ἐξακούεσθαι V</p>
+          </div>
+          <div class="sch">
+            <div class="sch-head"><span class="sch-ref">Σ 10.83</span><span class="lemma" lang="grc">ἠπύει</span><span class="chip">Q</span></div>
+            <div class="pair">
+              <p class="g" lang="grc">προσαγορεύει, φωνεῖ.</p>
+              <p class="t">Обращается, зовёт.</p>
+            </div>
+          </div>
+          <div class="sch">
+            <div class="sch-head"><span class="sch-ref">Σ 10.84</span><span class="lemma" lang="grc">ἄοκνος</span><span class="chip">N</span></div>
+            <div class="pair">
+              <p class="g" lang="grc">γρ. ἄυπνος.</p>
+              <p class="t">«Неленивый»] Есть вариант: «неспящий».</p>
+            </div>
+          </div>
+          <div class="sch">
+            <div class="sch-head"><span class="sch-ref">Σ 10.85</span><span class="lemma" lang="grc">τὸν μὲν βουκολέων</span><span class="chip">B</span></div>
+            <div class="pair">
+              <p class="g" lang="grc">κατὰ μὲν τὸν καιρὸν τῆς νυκτὸς βουκολέων, διὰ τὸν οἶστρον, ὅς ἐστι πολέμιος τοῖς βουσί, κατὰ δὲ τῆς ἡμέρας βόσκων πρόβατα. δύναται οὖν τις, φησί, … ἐκεῖ λαμβάνειν δύο μισθούς, ἐπειδὴ τῆς ἡμέρας καὶ τῆς νυκτὸς αἱ νομαὶ ἐγγύς εἰσι καὶ οὐ πόρρω.</p>
+              <p class="t">В ночную пору пася коров — из-за овода, враждебного быкам, а днём — пася овец. Итак, говорит он, можно … получать там две платы, поскольку дневные и ночные пастбища близко, а не далеко.</p>
+            </div>
+            <p class="app-crit">νυκτός, πολέμιος, βόσκων в B стёрты; восполнены Диндорфом из Евстафия 1648.42</p>
+          </div>
+          <div class="sch">
+            <div class="sch-head"><span class="sch-ref">Σ 10.86</span><span class="lemma" lang="grc">ἐγγὺς γὰρ νυκτός</span><span class="chip">H</span></div>
+            <div class="pair">
+              <p class="g" lang="grc">τοῦτο λέγει ὅτι νυκτὸς μὲν βουκολοῦσι διὰ τοὺς μύωπας, οἵτινες ἐν ἡμέρᾳ τοὺς ταύρους ἐνοχλοῦσιν.</p>
+              <p class="t">Говорит это потому, что ночью пасут коров из-за слепней, которые днём донимают быков.</p>
+            </div>
+          </div>
+          <div class="sch">
+            <div class="sch-head"><span class="sch-ref">Σ 10.86 [a–c]</span><span class="chip">H Q</span><span class="chip who">Кратет</span></div>
+            <div class="pair">
+              <p class="g" lang="grc">[a] τῆς ἡμέρας ἡ ὁδὸς ἐγγὺς εἶναι πέφυκε τῆς νυκτός. τοῦτο δὲ ἔφη ὡς μὴ τῆς ἡμέρας ἀφισταμένης τῆς νυκτός, ἀλλὰ τῇ παρελεύσει αὐτῆς εἰσέρχεσθαι νύκτα ἐν ἀκαρεῖ. [b] Ἄλλως. πλησίον γὰρ τῆς πόλεώς εἰσιν αἱ νυκτεριναί τε καὶ ἑωθιναὶ νομαί, καὶ τοσοῦτον πλησιάζουσιν ὡς τὸν ἐξελαύνοντα τῆς πόλεως ἀκούειν τῶν ἐν ἀγροῖς. [c] Ἄλλως. Κράτης βραχείας αὐτοῦ ὑποτίθεται τὰς νύκτας. καὶ γάρ φησιν αὐτοὺς εἶναι περὶ τὴν κεφαλὴν τοῦ δράκοντος, περὶ ἧς Ἄρατός φησι «κείνη που κεφαλὴ τῇ νείσεται ἧχί περ ἄκραι μίσγονται δύσιές τε καὶ ἀντολαὶ ἀλλήλῃσιν». ὅθεν σύνεγγυς οὐσῶν τῶν ἀνατολῶν ταῖς δύσεσι λέγειν τὸν ποιητὴν «ἐγγὺς γὰρ νυκτός τε» καὶ τὰ ἑξῆς, παρὰ τὸ πλησιάζειν τὰς τῆς νυκτὸς κελεύθους ταῖς τοῦ ἤματος κελεύθοις, ἢ τὴν νύκτα ἐγγὺς τετάχθαι τῆς ἡμέρας βραχυτάτην οὖσαν. τὸν οὖν καθεύδειν παραιτούμενον διπλοῦς μισθοὺς λαμβάνειν, ἢ τὸν ἐν ὕπνῳ τὸ τῆς ἡμέρας πολὺ καταχρώμενον.</p>
+              <p class="t">[a] Путь дня по природе близок к ночи: день не отстоит от ночи, но с его уходом в мгновение ока наступает ночь. [b] Иначе. Близ города находятся и ночные, и утренние пастбища, и так близко, что выгоняющий [скот] из города слышит тех, кто в полях. [c] Иначе. Кратет предполагает, что ночи там короткие. Он говорит, что они живут около головы Дракона, о которой Арат говорит: «Та голова проходит где-то там, где края заходов и восходов смешиваются друг с другом». Поэтому, раз восходы совсем близки к заходам, поэт и говорит «ибо близки ночи…» и т. д. — в том смысле, что пути ночи сближаются с путями дня, или что ночь, будучи кратчайшей, поставлена вплотную ко дню. Итак, двойную плату получает тот, кто отказывается от сна, — или, [иначе говоря,] тот, кто бо́льшую часть дня проводит во сне.</p>
+            </div>
+            <p class="app-crit">παρελεύσει H, παρακελεύσει Q · τῶν Buttm. pro τοῖς · ταῖς — κελεύθοις om. Q · Ἄρατος] 61, ubi Cratetis sententiam memorat scholiasta (Dindorf)</p>
+          </div>
+          <div class="sch">
+            <div class="sch-head"><span class="sch-ref">Σ 10.86</span><span class="chip">H V</span><span class="chip">Леонтины</span><span class="chip who">Кратет</span></div>
+            <div class="pair">
+              <p class="g" lang="grc">αἱ νυκτεριναὶ καὶ ἡμεριναὶ νομαὶ ἐγγύς εἰσι τῆς πόλεως. φασὶ δὲ τοὺς Λαιστρυγόνας κατεσχηκέναι τὴν τῶν Λεοντίνων περὶ Σικελίαν χώραν, ἐν ᾗ γεννᾶσθαι πολλὴν μύωπα καὶ τὸν οἶστρον, ὥστε τὰ μὲν λάσια τῇ ἡμέρᾳ νέμεσθαι, τὰ δὲ ψιλὰ τῇ νυκτί. καὶ οὕτως τὸν δυνάμενον ἀγρυπνεῖν δύο μισθοὺς ἀποφέρεσθαι. Κράτης δέ φησι κατὰ τὴν τοῦ δράκοντος αὐτοὺς κατηστερίσθαι κεφαλήν, περὶ ἧς Ἄρατος λέγει «κείνη που κεφαλὴ …». ὥστε πλείω μὲν εἶναι τὴν ἡμέραν, ὀλίγην δὲ τὴν νύκτα, ὡς ἀνάπαλιν παρὰ τοῖς Κιμμερίοις. εἴ τις οὖν δύναται διαγρυπνεῖν, διττοὺς κομίζεται μισθούς.</p>
+              <p class="t">Ночные и дневные пастбища находятся близ города. Говорят, что лестригоны занимали область леонтинцев в Сицилии, где водится много слепня и овода, так что косматый скот пасут днём, а гладкошёрстный — ночью. Так тот, кто может не спать, получает две платы. Кратет же говорит, что они размещены по звёздам у головы Дракона, о которой Арат говорит: «Та голова…». Так что день [там] долог, а ночь коротка, — как у киммерийцев наоборот. Итак, если кто может бодрствовать, получает двойную плату.</p>
+            </div>
+            <p class="app-crit">χώραν, ἐν ᾗ γεννᾶσθαι om. H</p>
+          </div>
+          <div class="sch">
+            <div class="sch-head"><span class="sch-ref">Σ 10.86</span><span class="chip">T</span></div>
+            <div class="pair">
+              <p class="g" lang="grc">ὅτι τὰ ἔννομα περὶ τὴν πόλιν διὰ τὸ ἀγεώργητα εἶναι τὰ προάστεια, εἶναι δὲ ταῖς ἄλλαις πόλεσιν ἐν ὄρεσι καὶ πόρρω. διὰ τοῦτο οὐ δύναταί τις δύο μισθοὺς ἆραι.</p>
+              <p class="t">[Отметь,] что пастбища [у лестригонов] — вокруг самого города, потому что пригородные земли не возделываются, а у других городов они в горах и далеко; поэтому [там] никто не может заработать две платы.</p>
+            </div>
+          </div>
+          <div class="sch">
+            <div class="sch-head"><span class="sch-ref">Σ 10.86</span><span class="chip">P</span><span class="chip">23 часа</span></div>
+            <div class="pair">
+              <p class="g" lang="grc">τοῦ γὰρ ἡλίου ὄντος ἐν θερινῷ τροπικῷ τοὺς ἀρκτῴους ἀνθρώπους μεγίστην τὴν ἡμέραν ἔχειν, καὶ μὴ ἔχειν νύκτα· τὴν γὰρ νύκτα μόνον μιᾶς ὥρας διάστημα εἶναι, τουτέστι τὴν ἡμέραν εἶναι κγ΄ ὡρῶν. δῆλον δὲ ὅτι τοῖς βορειοτέροις μεγίστη τῶν νοτιωτέρων ἡμέρα. περὶ τούτων καὶ Ὅμηρος τῶν τόπων μνημονεύει νῦν. φησὶ γὰρ ὅτι «τηλέπυλον Λαιστρυγονίην — νομεύων». ‥ὶ γὰρ δύναταί τις δουλεῦσαι ‥ὰ δύο ἡμέρας.</p>
+              <p class="t">Когда Солнце находится в летнем тропике, у северных людей самый долгий день, и ночи [почти] нет: ночь длится всего час, то есть день — 23 часа. Ясно, что у более северных [народов] самый долгий день длиннее, чем у более южных. Об этих местах и упоминает здесь Гомер, говоря: «Телепил лестригонский… пася». […] ведь можно отслужить […] два дня.</p>
+            </div>
+            <p class="app-crit">τὴν γὰρ νύκτα addidit Buttm. · τηλέκλυτον P (стихи 82–85, до νομεύων, приведены полностью)</p>
+          </div>
+        </section>
+
+        <h2 id="process"><span class="no">О работе</span>Как сделана эта статья</h2>
+        <p>Материал собирали языковые модели под руководством редакции, а выводы и ответственность — за автором. Ниже сказано, что уже сделано и что ещё нет.</p>
+        <div class="two wide">
+          <div class="box">
+            <h3>Модели <span class="state ok">25.10.2026</span></h3>
+            <ul>
+              <li>восстановили греческий текст схолий по сканам Диндорфа;</li>
+              <li>нашли и прочитали параллели у Гемина, Гиппарха, Евстафия, Страбона, Геллия и в схолиях к Арату;</li>
+              <li>рассчитали склонения звёзд и длину дня (прецессия IAU 2006, данные SIMBAD);</li>
+              <li>отдельный агент пытался опровергнуть 50 библиографических позиций и 70 ключевых утверждений;</li>
+              <li>перед публикацией текст проверили фактчекер и рецензент-филолог.</li>
+            </ul>
+          </div>
+          <div class="box">
+            <h3>Автор <span class="state">ожидает</span></h3>
+            <ul>
+              <li>сверить переводы с греческим;</li>
+              <li>проверить толкования и выводы о Кратете и Арате;</li>
+              <li>принять или отклонить правки проверки;</li>
+              <li>подписать текст: системы ИИ не являются авторами.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="stats wide" role="list" aria-label="Итоги проверки">
+          <div role="listitem"><b>50</b><span>библиографических позиций проверено; две известны только по ссылке Броджато</span></div>
+          <div role="listitem"><b>70</b><span>ключевых утверждений: 49 подтверждены, 12 уточнены, 9 не удалось проверить</span></div>
+          <div role="listitem"><b>93</b><span>замечания фактчекера и рецензента перед публикацией</span></div>
+          <div role="listitem"><b>1</b><span>гипотеза снята после проверки — о «позднем аратовском слое»</span></div>
+        </div>
+        <h3>Что проверить до окончательной версии</h3>
+        <ol class="open-q">
+          <li>Схолию к Арату 61–62 по изданию Мартена (1974): текст, цифру 20 часов, номер схолии.</li>
+          <li>Текст, сиглы и нумерацию схолий к «Одиссее» — по изданию Понтани (т. V, 2022).</li>
+          <li>Состав F 50 и комментарий в издании Броджато (2001).</li>
+          <li>Работы Билича (2012, 2021): что уже сказано о голове Дракона и о широте.</li>
+          <li>Реконструкцию Карнута и Лерса о споре к Од. 10.190 — по скану.</li>
+          <li>Остальные свидетельства комплекса у Метте (fr. 37): Гигин, Присциан Лидийский.</li>
+        </ol>
+
+        <h2 id="review"><span class="no">Рецензия</span>Открытая рецензия и версии</h2>
+        <ol class="log">
+          <li><span class="who"><b>Проверка источников</b>агент-скептик · 25.10.2026</span><span>Проверил 50 работ и 70 утверждений; 12 формулировок исправлено. Например, Евстафий сообщает о первенстве Кратета с оговоркой «говорят» (<span lang="grc">φασι</span>).</span></li>
+          <li><span class="who"><b>Фактчекер</b>агент · 25.10.2026</span><span>Нашёл схолию к Арату с именем Кратета и цифрами 20/4 часа. Нашёл три пропущенные в переводе схолии. Показал, что Карнут относит к Аристонику только последнюю фразу схолии к 10.190. Исправлены анахронизм «Евдокс понимал Арата» и азимут восхода на 66°.</span></li>
+          <li><span class="who"><b>Рецензент-филолог</b>агент · 25.10.2026</span><span>Гемин не «прямой оппонент» Кратета по поводу лестригонов: его возражения касаются киммерийцев, метода и Океана. Добавлены оговорки о непрочитанной литературе, принцип Аристарха по схолии D к Ил. 5.385, Формии. Гипотеза о «позднем аратовском слое» снята.</span></li>
+          <li><span class="who"><b>Автор</b>[ФИО]</span><span class="pending">Ожидает вычитки.</span></li>
+          <li><span class="who"><b>Рецензент</b>место открыто</span><span>Рецензии публикуются с именем рецензента и ответом автора, по лицензии CC BY 4.0.</span></li>
+        </ol>
+        <div class="tbl-wrap wide">
+          <table>
+            <caption>История версий</caption>
+            <thead><tr><th scope="col">Версия</th><th scope="col">Дата</th><th scope="col">Что изменилось</th></tr></thead>
+            <tbody><tr><td>0.1</td><td class="num">25.10.2026</td><td>Первый препринт: текст, перевод схолий к 10.82–86, расчёты, досье источников; правки после проверки фактчекером и рецензентом.</td></tr></tbody>
+          </table>
+        </div>
+
+        <section class="refs" id="refs" aria-labelledby="refs-h">
+          <h2 id="refs-h"><span class="no">Литература</span>Источники и исследования</h2>
+          <p class="legend"><span class="chk">✓</span>работу видели или подтвердили по каталогу · <span class="chk half">◐</span>известна по ссылкам других авторов или прочитана только по распознанному скану</p>
+          <h3>Издания источников</h3>
+          <ul>
+            <li><span class="chk">✓</span>Dindorf W. (ed.). Scholia Graeca in Homeri Odysseam ex codicibus aucta et emendata. Vol. I–II. Oxford, 1855.</li>
+            <li><span class="chk">✓</span>Pontani F. (ed.). Scholia Graeca in Odysseam. V: Scholia ad libros ι–κ. Roma: Edizioni di Storia e Letteratura, 2022 (Pleiadi 6.5). Текст ещё не сверен.</li>
+            <li><span class="chk">✓</span>Carnuth O. Aristonici Περὶ σημείων Ὀδυσσείας reliquiae emendatiores. Lipsiae, 1869.</li>
+            <li><span class="chk">✓</span>Manitius C. (ed., tr.). Gemini Elementa astronomiae. Leipzig: Teubner, 1898.</li>
+            <li><span class="chk">✓</span>Щетников А. И. Гемин. Введение в явления // ΣΧΟΛΗ. 2011. Т. 5, вып. 2. С. 174 сл.</li>
+            <li><span class="chk">✓</span>Evans J., Berggren J. L. Geminos's Introduction to the Phenomena. Princeton, 2006.</li>
+            <li><span class="chk">✓</span>Manitius C. (ed., tr.). Hipparchi in Arati et Eudoxi Phaenomena commentariorum libri tres. Leipzig: Teubner, 1894.</li>
+            <li><span class="chk">✓</span>Mair A. W., Mair G. R. Callimachus, Hymns and Epigrams; Lycophron; Aratus. London: Loeb, 1921.</li>
+            <li><span class="chk">✓</span>Kidd D. (ed.). Aratus: Phaenomena. Cambridge, 1997. Текст ст. 61 ещё не сверен.</li>
+            <li><span class="chk half">◐</span>Buhle J. G. (ed.). Arati Solensis Phaenomena et Diosemea … cum scholiis. Vol. I. Lipsiae, 1793. Схолия к ст. 61–62 прочитана по распознанному скану.</li>
+            <li><span class="chk">✓</span>Martin J. (ed.). Scholia in Aratum vetera. Stuttgart: Teubner, 1974. Ещё не прочитано.</li>
+            <li><span class="chk">✓</span>Stallbaum G. (ed.). Eustathii Commentarii ad Homeri Odysseam. Vol. I. Lipsiae, 1825.</li>
+            <li><span class="chk">✓</span>Murray A. T. Homer: The Odyssey. London: Loeb, 1919.</li>
+            <li><span class="chk">✓</span>Meineke A. (ed.). Strabonis Geographica. Leipzig: Teubner, 1877.</li>
+            <li><span class="chk">✓</span>Rolfe J. C. The Attic Nights of Aulus Gellius. Vol. III. Loeb, 1927.</li>
+          </ul>
+          <h3>Фрагменты Кратета</h3>
+          <ul>
+            <li><span class="chk">✓</span>Broggiato M. (ed.). Cratete di Mallo: I frammenti. La Spezia: Agorà, 2001.</li>
+            <li><span class="chk">✓</span>Broggiato M. Filologia e interpretazione a Pergamo. La scuola di Cratete. Roma: Sapienza Università Editrice, 2014.</li>
+            <li><span class="chk half">◐</span>Mette H. J. Sphairopoiia. Untersuchungen zur Kosmologie des Krates von Pergamon. München, 1936.</li>
+          </ul>
+          <h3>Исследования</h3>
+          <ul>
+            <li><span class="chk">✓</span>Bilić T. Crates of Mallos and Pytheas of Massalia: Examples of Homeric Exegesis in Terms of Mathematical Geography // TAPA. 2012. Vol. 142, no. 2. P. 295–328.</li>
+            <li><span class="chk">✓</span>Bilić T. Pytheas and Hecataeus: Visions of the North in the Late Fourth Century B.C. // GRBS. 2020. Vol. 60. P. 574–593.</li>
+            <li><span class="chk">✓</span>Bilić T. The Land of the Solstices: Myth, Geography and Astronomy in Ancient Greece. Oxford: BAR, 2021.</li>
+            <li><span class="chk">✓</span>Heubeck A., Hoekstra A. A Commentary on Homer's Odyssey. Vol. II. Oxford, 1989.</li>
+            <li><span class="chk">✓</span>Page D. L. Folktales in Homer's Odyssey. Cambridge, MA, 1973.</li>
+            <li><span class="chk half">◐</span>Scodel R. The Paths of Day and Night // Ordia Prima. 2003. Vol. 2. P. 83–86.</li>
+            <li><span class="chk half">◐</span>Argenziano P. «Vicini sono i sentieri della Notte e del Giorno»: una proposta esegetica per Od. 10.80–86 // Seminari Romani di cultura greca. N.s. 2012. Vol. 1. P. 71–88.</li>
+            <li><span class="chk">✓</span>Porter J. I. Hermeneutic Lines and Circles: Aristarchus and Crates on the Exegesis of Homer // Homer's Ancient Readers / ed. R. Lamberton, J. J. Keaney. Princeton, 1992. P. 67–114.</li>
+            <li><span class="chk">✓</span>Pfeiffer R. History of Classical Scholarship from the Beginnings to the End of the Hellenistic Age. Oxford, 1968.</li>
+            <li><span class="chk">✓</span>Romm J. S. The Edges of the Earth in Ancient Thought. Princeton, 1992.</li>
+          </ul>
+          <h3>Астрономия</h3>
+          <ul>
+            <li><span class="chk">✓</span>Laskar J. Secular terms of classical planetary theories using the results of general theory // A&amp;A. 1986. Vol. 157. P. 59–70.</li>
+            <li><span class="chk">✓</span>Capitaine N., Wallace P. T., Chapront J. Expressions for IAU 2000 precession quantities // A&amp;A. 2003. Vol. 412. P. 567–586.</li>
+            <li><span class="chk">✓</span>van Leeuwen F. Validation of the new Hipparcos reduction // A&amp;A. 2007. Vol. 474. P. 653–664.</li>
+          </ul>
+        </section>
+
+        <h2 id="cite"><span class="no">Цитирование</span>Как цитировать</h2>
+        <div class="cite-box wide">
+          <div class="seg-ctl" id="cite-ctl" role="group" aria-label="Формат ссылки">
+            <button type="button" data-fmt="gost" aria-pressed="true">ГОСТ</button>
+            <button type="button" data-fmt="chicago" aria-pressed="false">Chicago</button>
+            <button type="button" data-fmt="bibtex" aria-pressed="false">BibTeX</button>
+          </div>
+          <pre id="cite-text"></pre>
+          <button type="button" class="copy" id="copy-cite">Скопировать</button>
+        </div>
+
+        <h2 id="related-h"><span class="no">Рядом</span>Связанные материалы</h2>
+        <div class="related wide">
+          <a href="https://claude.ai/artifact/KBXAd7KtUgWioncxPUnJ77"><small>Перевод</small>Схолии к «Одиссее». Песнь X</a>
+          <a href="https://claude.ai/artifact/FtriAuMyfVpLWqqMqZDQ8o"><small>Исследования</small>Все работы на материале библиотеки</a>
+          <a href="https://claude.ai/artifact/LUNNJwceDXYWoepQJWmVVL#ai"><small>Метод</small>Роль ИИ в работе редакции</a>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="foot" id="footer">
+    <div class="about">
+      <b>Neoscholia</b>
+      <p>Независимая некоммерческая библиотека первых переводов античных текстов на русский и английский. Открытый доступ.</p>
+      <p>Переводы готовятся с помощью языковых моделей и проверяются редактором. Системы ИИ не являются авторами.</p>
+    </div>
+    <div><h2>Библиотека</h2><ul>
+      <li><a href="https://claude.ai/artifact/HTuCJke5U2X3XbBcPHJeWK">Роман об Александре</a></li>
+      <li><a href="https://claude.ai/artifact/HqyqE2tpQepFtVvpu58bdZ">Схолии</a></li>
+      <li><a href="https://claude.ai/artifact/WZmCFMo4TVrZBDsoT5KGyu">Музыка</a></li>
+      <li><a href="https://claude.ai/artifact/Sxv32gV4SoYwPGMXD1UYHD">Все тексты</a></li>
+    </ul></div>
+    <div><h2>О проекте</h2><ul>
+      <li><a href="https://claude.ai/artifact/LUNNJwceDXYWoepQJWmVVL#pipeline">Метод и замер качества</a></li>
+      <li><a href="https://claude.ai/artifact/LUNNJwceDXYWoepQJWmVVL">Редакционная хартия</a></li>
+      <li><a href="https://claude.ai/artifact/LUNNJwceDXYWoepQJWmVVL#ai">Роль ИИ</a></li>
+      <li><a href="https://claude.ai/artifact/WNygYEn7HeTq5PbrvPt2BF#team">Редакция и совет</a></li>
+      <li><a href="https://claude.ai/artifact/LUNNJwceDXYWoepQJWmVVL#corrections">Исправления</a></li>
+    </ul></div>
+    <div><h2>Использование</h2><ul>
+      <li>Переводы и комментарии — CC BY-NC-SA 4.0</li>
+      <li>Исходные тексты — общественное достояние</li>
+      <li>Препринты статей — CC BY 4.0</li>
+      <li>Журналы рецензии — CC0</li>
+      <li><a href="https://claude.ai/artifact/LUNNJwceDXYWoepQJWmVVL#cite">Как цитировать</a></li>
+    </ul></div>
+  </footer>
+  <div class="colophon"><span>© 2026 Neoscholia</span><span>ISSN и DOI — после регистрации</span><span>Связь с редакцией: форма появится при запуске</span></div>
+</div>
+
+<script>
+(function () {
+  /* ---------- side notes ---------- */
+  document.querySelectorAll('.sn-ref').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var note = document.getElementById(btn.getAttribute('aria-controls'));
+      var open = btn.getAttribute('aria-expanded') !== 'true';
+      btn.setAttribute('aria-expanded', String(open));
+      note.classList.toggle('open', open);
+    });
+  });
+
+  /* ---------- abstract language ---------- */
+  var abs = document.getElementById('abstract');
+  document.getElementById('abs-ctl').addEventListener('click', function (e) {
+    var b = e.target.closest('button'); if (!b) return;
+    abs.dataset.show = b.dataset.set;
+    this.querySelectorAll('button').forEach(function (x) { x.setAttribute('aria-pressed', String(x === b)); });
+  });
+
+  /* ---------- appendix view (shared with the text pages) ---------- */
+  var appx = document.getElementById('appx-body');
+  var prefs = { view: 'parallel' };
+  try { Object.assign(prefs, JSON.parse(localStorage.getItem('neoscholia-reader') || '{}')); } catch (e) {}
+  function applyView() {
+    appx.classList.remove('view-translation', 'view-parallel', 'view-original');
+    appx.classList.add('view-' + prefs.view);
+    document.querySelectorAll('#view-ctl button').forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.view === prefs.view)); });
+  }
+  document.getElementById('view-ctl').addEventListener('click', function (e) {
+    var b = e.target.closest('button'); if (!b) return;
+    prefs.view = b.dataset.view; applyView();
+    try { var all = JSON.parse(localStorage.getItem('neoscholia-reader') || '{}'); all.view = prefs.view; localStorage.setItem('neoscholia-reader', JSON.stringify(all)); } catch (e2) {}
+  });
+  applyView();
+
+  /* ---------- citation ---------- */
+  var CITE = {
+    gost: '[ФИО]. Пергам против Александрии? Кратет, Аристарх и «короткие ночи» лестригонов : препринт. Версия 0.1. Neoscholia, 2026. DOI: [после депонирования].',
+    chicago: '[Surname, Name]. 2026. "Pergamon versus Alexandria? Crates, Aristarchus and the ‘Short Nights’ of the Laestrygonians." Preprint, version 0.1. Neoscholia. DOI pending.',
+    bibtex: '@misc{neoscholia2026laestrygonians,\n  author    = {[Surname, Name]},\n  title     = {Пергам против Александрии? Кратет, Аристарх и «короткие ночи» лестригонов},\n  year      = {2026},\n  note      = {Препринт, версия 0.1},\n  publisher = {Neoscholia},\n  doi       = {[pending]}\n}'
+  };
+  var citeText = document.getElementById('cite-text');
+  var copyBtn = document.getElementById('copy-cite');
+  function showCite(fmt) {
+    citeText.textContent = CITE[fmt];
+    document.querySelectorAll('#cite-ctl button').forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.fmt === fmt)); });
+    copyBtn.textContent = 'Скопировать';
+  }
+  document.getElementById('cite-ctl').addEventListener('click', function (e) {
+    var b = e.target.closest('button'); if (b) showCite(b.dataset.fmt);
+  });
+  copyBtn.addEventListener('click', function () {
+    function selectIt() { var r = document.createRange(); r.selectNodeContents(citeText); var s = getSelection(); s.removeAllRanges(); s.addRange(r); copyBtn.textContent = 'Выделено — нажмите Ctrl+C'; }
+    try { navigator.clipboard.writeText(citeText.textContent).then(function () { copyBtn.textContent = 'Скопировано'; }, selectIt); } catch (e) { selectIt(); }
+  });
+  showCite('gost');
+
+  /* ---------- contents: highlight the section in view ---------- */
+  var tocLinks = Array.prototype.slice.call(document.querySelectorAll('.toc a'));
+  if ('IntersectionObserver' in window) {
+    var targets = tocLinks.map(function (a) { return document.querySelector(a.getAttribute('href')); }).filter(Boolean);
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (!en.isIntersecting) return;
+        tocLinks.forEach(function (a) { a.setAttribute('aria-current', String(a.getAttribute('href') === '#' + en.target.id)); });
+      });
+    }, { rootMargin: '-15% 0px -75% 0px' });
+    targets.forEach(function (t) { io.observe(t); });
+  }
+
+  /* ---------- figure 1: the sky at a chosen latitude, about 150 BC ---------- */
+  var EPS = 23.713;          // obliquity of the ecliptic, 150 BC (Laskar 1986)
+  var DEC_G = 52.959;        // declination of γ Draconis, 150 BC (IAU 2006 precession)
+  var PLACES = [
+    { id: 'alex', name: 'Александрия', phi: 31.20, note: 'Голова Дракона заходит почти на пять часов: здесь строка Арата неверна.' },
+    { id: 'rhod', name: 'Родос', phi: 36.44, note: 'Голова Дракона уходит под горизонт примерно на полтора часа. Аттал, оппонент Гиппарха, считал, что она ненадолго заходит; рассуждал ли он от широты Родоса, мы не знаем.' },
+    { id: 'hell', name: 'Эллада Гиппарха', phi: 36.87, note: 'Гномон 4:3. Голова Дракона касается горизонта, как у Арата и Евдокса. Ночь при этом длится больше девяти часов.' },
+    { id: 'leon', name: 'Леонтины', phi: 37.28, note: 'Сицилийская версия схолий. Голова Дракона почти касается горизонта, а ночь длинная.' },
+    { id: 'athn', name: 'Афины', phi: 37.97, note: 'Голова Дракона не заходит. Летняя ночь — больше девяти часов.' },
+    { id: 'perg', name: 'Пергам', phi: 39.13, note: 'Здесь работал Кратет (родом он из Малла, 36,8°). Летняя ночь — около девяти часов.' },
+    { id: 'zen', name: 'Дракон в зените', phi: 52.96, note: 'Если «у головы Дракона» значит «под ней»: ночь около семи часов, но не час.' },
+    { id: 'arat', name: 'Схолия к Арату', phi: 63.11, note: 'День 20 часов, ночь 4: цифры схолии к Арату 61–62, где связь Арата с Гомером приписана Кратету.' },
+    { id: 'crat', name: 'Гемин: 23 часа', phi: 66.105, note: '23-часовой день Кратета по Гемину: ночь — один час, закат рядом с восходом.' }
+  ];
+  var R = 130, CX = 200, CY = 165, D2R = Math.PI / 180;
+  var svg = document.getElementById('sphere');
+  var NS = 'http://www.w3.org/2000/svg';
+  function el(tag, attrs, text) {
+    var e = document.createElementNS(NS, tag);
+    for (var k in attrs) e.setAttribute(k, attrs[k]);
+    if (text) e.textContent = text;
+    svg.appendChild(e); return e;
+  }
+  function pt(theta) { return { x: CX + R * Math.cos(theta * D2R), y: CY - R * Math.sin(theta * D2R) }; }
+  function fmt(n, d) { return n.toFixed(d).replace('.', ','); }
+  function hm(h) { var t = Math.round(h * 60); return Math.floor(t / 60) + ' ч ' + String(t % 60).padStart(2, '0') + ' мин'; }
+
+  el('path', { 'class': 'sv-ground', d: 'M' + (CX - R) + ' ' + CY + ' A' + R + ' ' + R + ' 0 0 0 ' + (CX + R) + ' ' + CY + ' Z' });
+  el('circle', { 'class': 'sv-sphere', cx: CX, cy: CY, r: R });
+  var eq = el('line', { 'class': 'sv-eq' });
+  var circ = el('line', { 'class': 'sv-circ' });
+  var axis = el('line', { 'class': 'sv-axis' });
+  var dra = el('line', { 'class': 'sv-dra' });
+  var night = el('line', { 'class': 'sv-night' });
+  var day = el('line', { 'class': 'sv-day' });
+  el('line', { 'class': 'sv-hor', x1: CX - R - 8, y1: CY, x2: CX + R + 8, y2: CY });
+  var noon = el('circle', { 'class': 'sv-pt', r: 4 });
+  var midn = el('circle', { 'class': 'sv-pt-hollow', r: 4 });
+  var pole = el('circle', { 'class': 'sv-pole', r: 3.5 });
+  var star = el('circle', { 'class': 'sv-star', r: 5 });
+  el('text', { 'class': 'sv-lbl strong', x: CX + R + 12, y: CY + 4 }, 'N');
+  el('text', { 'class': 'sv-lbl strong', x: CX - R - 22, y: CY + 4 }, 'S');
+  el('text', { 'class': 'sv-lbl', x: CX + 6, y: CY - R - 8 }, 'зенит');
+  el('text', { 'class': 'sv-lbl', x: CX - R + 6, y: CY - 6 }, 'горизонт');
+  var poleLbl = el('text', { 'class': 'sv-lbl strong' }, 'полюс мира');
+  var sunLbl = el('text', { 'class': 'sv-lbl sun', 'text-anchor': 'end' }, 'полдень');
+  var draLbl = el('text', { 'class': 'sv-lbl dra', 'text-anchor': 'end' });
+  var draG = document.createElementNS(NS, 'tspan'); draG.setAttribute('class', 'sv-grk'); draG.textContent = 'γ'; draLbl.appendChild(draG);
+  draLbl.appendChild(document.createTextNode(' Дракона'));
+  var midLbl = el('text', { 'class': 'sv-lbl sun', 'text-anchor': 'end' }, 'полночь');
+
+  function chord(line, a, b) { line.setAttribute('x1', a.x); line.setAttribute('y1', a.y); line.setAttribute('x2', b.x); line.setAttribute('y2', b.y); }
+  function place(node, p) { node.setAttribute('cx', p.x); node.setAttribute('cy', p.y); }
+
+  function dayLength(phi, dec) {
+    var c = -Math.tan(phi * D2R) * Math.tan(dec * D2R);
+    if (c <= -1) return 24; if (c >= 1) return 0;
+    return 2 * Math.acos(c) / D2R / 15;
+  }
+
+  var latIn = document.getElementById('lat');
+  var presetBox = document.getElementById('presets');
+  PLACES.forEach(function (p) {
+    var b = document.createElement('button');
+    b.type = 'button'; b.textContent = p.name; b.dataset.phi = p.phi; b.setAttribute('aria-pressed', 'false');
+    presetBox.appendChild(b);
+  });
+  presetBox.addEventListener('click', function (e) {
+    var b = e.target.closest('button'); if (!b) return;
+    latIn.value = b.dataset.phi; draw();
+  });
+
+  function draw() {
+    var phi = parseFloat(latIn.value);
+    document.getElementById('lat-out').textContent = fmt(phi, 1) + '°';
+    // celestial axis, equator, boundary of the always-visible stars
+    chord(axis, pt(phi), pt(phi + 180));
+    chord(eq, pt(phi + 90), pt(phi - 90));
+    chord(circ, pt(2 * phi), pt(0));
+    place(pole, pt(phi));
+    var pp = pt(phi);
+    poleLbl.setAttribute('x', pp.x + 8); poleLbl.setAttribute('y', pp.y - 6);
+    // summer-solstice Sun: chord from noon (upper) to midnight (lower)
+    var up = pt(phi + 90 - EPS), lo = pt(phi - (90 - EPS));
+    place(noon, up); place(midn, lo);
+    sunLbl.setAttribute('x', up.x - 9); sunLbl.setAttribute('y', up.y + 4);
+    midLbl.setAttribute('x', lo.x - 9); midLbl.setAttribute('y', lo.y + 15);
+    if (lo.y > CY) {
+      var t = (CY - up.y) / (lo.y - up.y);
+      var ix = { x: up.x + t * (lo.x - up.x), y: CY };
+      chord(day, up, ix); chord(night, ix, lo); night.style.display = '';
+    } else { chord(day, up, lo); night.style.display = 'none'; }
+    // γ Draconis: its daily circle and its lowest point
+    var dUp = pt(phi + 90 - DEC_G), dLo = pt(phi - (90 - DEC_G));
+    chord(dra, dUp, dLo); place(star, dLo);
+    draLbl.setAttribute('x', dLo.x - 10); draLbl.setAttribute('y', dLo.y + 18);
+    var low = phi + DEC_G - 90;
+    star.setAttribute('class', 'sv-star' + (low < -0.3 ? ' below' : ''));
+
+    // readouts
+    var L = dayLength(phi, EPS);
+    document.getElementById('r-day').innerHTML = '<b>' + hm(L) + '</b>';
+    document.getElementById('r-night').innerHTML = L >= 24 ? 'Солнце не заходит' : '<b>' + hm(24 - L) + '</b>';
+    var cA = Math.sin(EPS * D2R) / Math.cos(phi * D2R);
+    document.getElementById('r-az').textContent = cA >= 1 ? 'Солнце летом не заходит'
+      : 'в ' + fmt(Math.acos(cA) / D2R, 0) + '° к востоку и западу от точки севера';
+    var draText;
+    if (Math.abs(low) <= 0.3) draText = 'касается горизонта (' + (low >= 0 ? '+' : '−') + fmt(Math.abs(low), 1) + '°)';
+    else if (low > 0) draText = 'не заходит; в нижней точке +' + fmt(low, 1) + '°';
+    else draText = 'заходит примерно на ' + hm(24 - dayLength(phi, DEC_G)) + '; в нижней точке −' + fmt(-low, 1) + '°';
+    document.getElementById('r-dra').textContent = draText;
+
+    var match = PLACES.filter(function (p) { return Math.abs(p.phi - phi) < 0.003; })[0];
+    presetBox.querySelectorAll('button').forEach(function (b) { b.setAttribute('aria-pressed', String(!!match && parseFloat(b.dataset.phi) === match.phi)); });
+    document.getElementById('place-note').textContent = match ? match.name + '. ' + match.note
+      : 'Двигайте ползунок или выберите место: на рисунке видно, как меняются летняя ночь и нижняя точка головы Дракона.';
+  }
+  latIn.addEventListener('input', draw);
+  draw();
+})();
+</script>

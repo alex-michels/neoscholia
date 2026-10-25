@@ -1,0 +1,26 @@
+{
+ "corpus": "latin-late-antique",
+ "title": "Post-Theodosian Novels (Novellae of Theodosius II, Valentinian III, Marcian, Majorian, Severus, Anthemius) / RU: «Новеллы» после Кодекса Феодосия (RU-gap)",
+ "author": "Imperial chanceries",
+ "date": "438–468 CE",
+ "language": "Latin",
+ "genre": "Imperial legislation",
+ "size": "c. 85 laws; est. 35–40k words; Majorian's Novels c. 12 laws",
+ "edition": "Mommsen & Meyer, Theodosiani libri XVI, vol. II (1905), public domain: https://archive.org/details/theodosianilibri00codeuoft",
+ "ru_status": "partial",
+ "ru_evidence": "Only selections: Novels of Theodosius II translated by E. V. Silvestrova (История Древнего Рима. Тексты и документы, 2005, pp. 231–232). A full annotated translation of the Codex Theodosianus remains unpublished (ru.wikipedia).",
+ "en_status": "full",
+ "en_evidence": "Pharr, The Theodosian Code and Novels and the Sirmondian Constitutions (1952; Open Library).",
+ "other_translations": "None confirmed for the Novels.",
+ "value": "The last legislation of the Western Empire: taxation, city councillors (curiales), barbarian settlement, urban decline, Majorian's reforms. Essential for 5th-c. social and economic history.",
+ "audience": "specialist",
+ "ai_feasibility": "high: formulaic legal Latin; Pharr allows verification. The institutional commentary is the demanding part.",
+ "pilot_unit": "Novellae Maioriani (458–460; c. 12 laws; est. 8k words)",
+ "preliminary_priority": 3,
+ "sources": [
+  "https://ru.wikipedia.org/wiki/Кодекс_Феодосия",
+  "https://openlibrary.org/search?q=Theodosian+code",
+  "https://archive.org/details/theodosianilibri00codeuoft"
+ ],
+ "id": "item_142"
+}

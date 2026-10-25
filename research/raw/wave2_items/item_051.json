@@ -1,0 +1,26 @@
+{
+ "corpus": "greek-historiography",
+ "title": "Chronicon Paschale (Easter Chronicle; «Пасхальная хроника»). Proposed unit: the Epitome from Abraham to AD 284",
+ "author": "Anonymous (cleric close to Patriarch Sergius I)",
+ "date": "c. 630 CE",
+ "language": "Greek",
+ "genre": "Christian world chronicle / chronography with consular fasti and Olympiads",
+ "size": "Whole work c. 730 Bonn pp. (Dindorf I). Proposed unit roughly 400+ Bonn pp. (Greek + Latin), est. 90–120k Greek words (rough)",
+ "edition": "Dindorf, CSHB 1832, 2 vols: public domain, scanned. No modern critical edition of the pre-284 part",
+ "ru_status": "partial",
+ "ru_evidence": "Самуткина Л.А., «Пасхальная хроника», СПб.: Алетейя 2004 covers only the introduction and the Epitome from Adam to Terah. Kuzenkov's review (patriarchia.ru): «лишь первая, небольшая часть хроники». No Russian for Abraham–628",
+ "en_status": "partial",
+ "en_evidence": "Only Whitby & Whitby, Chronicon Paschale 284–628 AD (TTH 7, Liverpool; 2nd imp. 2007). No English for Creation–284 found in en/ru Wikipedia bibliographies",
+ "other_translations": "None found for the Abraham–284 portion (only the old Latin of Du Cange/Dindorf)",
+ "value": "Transmits Africanus-based chronology, Olympiad and consular lists, synchronisms for Hellenistic and Roman history, and the Alexandrian Easter computus. A key witness to how Byzantium received ancient history. The bulk of a major chronicle exists in no modern language, which makes it an ideal Neoscholia flagship.",
+ "audience": "specialist",
+ "ai_feasibility": "High: formulaic Koine, annalistic entries. Risks: numerals, consul names and era reckonings; check them programmatically against the fasti",
+ "pilot_unit": "Olympiads c. 100–130 (Philip II to the Diadochi, including the Alexander entries) or the Republican consular-fasti block. c. 25–30 Bonn pp., est. 6–8k words",
+ "preliminary_priority": 5,
+ "sources": [
+  "https://ru.wikipedia.org/wiki/Пасхальная_хроника",
+  "http://www.patriarchia.ru/db/text/67586.html",
+  "https://en.wikipedia.org/wiki/Chronicon_Paschale"
+ ],
+ "id": "item_051"
+}

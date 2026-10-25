@@ -1,0 +1,26 @@
+{
+ "corpus": "christian-orient-graecoarabic",
+ "title": "Chronicle of John of Nikiu (Ge'ez version); RU: «Хроника» Иоанна Никиусского",
+ "author": "John, bishop of Nikiu",
+ "date": "c. 690s CE; Ge'ez translation 1602 from a lost Arabic version",
+ "language": "Ge'ez (Greek/Coptic original lost)",
+ "genre": "Universal chronicle",
+ "size": "122 chapters; c. 70k words (estimate; Charles c. 200 pp.)",
+ "edition": "Zotenberg 1883, Ge'ez + French (public domain, Gallica).",
+ "ru_status": "none",
+ "ru_evidence": "ru.wiki «Иоанн Никиусский» lists only Charles's English; absent from the vostlit index. Russian studies only quote passages (Мингазов 2012 on Kubrat; Холод 2023–24).",
+ "en_status": "full",
+ "en_evidence": "Charles 1916 (tertullian.org/fathers/nikiu2_chronicle.htm).",
+ "other_translations": "French: Zotenberg 1883.",
+ "value": "The only Egyptian narrative of the Arab conquest of Egypt (chs. 111–121). Also has unusual traditions on Cambyses, the Argead kings, Alexander and the Ptolemies.",
+ "audience": "humanities",
+ "ai_feasibility": "Low-medium. Ge'ez is weak in LLMs; Zotenberg and Charles are the controls, and an Ethiopist reviewer is required.",
+ "pilot_unit": "Chs. 111–121 (Arab conquest), c. 12k words; or the Cambyses-to-Ptolemies chapters, c. 5k words.",
+ "preliminary_priority": 3,
+ "sources": [
+  "https://ru.wikipedia.org/wiki/Иоанн_Никиусский",
+  "https://en.wikipedia.org/wiki/John_of_Nikiû",
+  "http://www.tertullian.org/fathers/nikiu2_chronicle.htm"
+ ],
+ "id": "item_037"
+}

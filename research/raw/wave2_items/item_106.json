@@ -1,0 +1,28 @@
+{
+ "corpus": "greek-scholia",
+ "title": "Scholia vetera in Pindari carmina: Pythian odes / Old scholia on Pindar's Pythians / Схолии к Пифийским одам Пиндара",
+ "author": "Anonymous; Alexandrian and Roman-era material (Aristarchus, Didymus etc.)",
+ "date": "Sources 3rd c. BCE–2nd c. CE; transmitted in Byzantine MSS",
+ "language": "Ancient Greek",
+ "genre": "Scholia (exegetical, historical, mythographic)",
+ "size": "Whole corpus: Drachmann's 3 vols (est. ~1,000 Teubner pp.). Pythian scholia: vol. II (1910), est. ~250 pp.",
+ "edition": "Drachmann, Teubner 1903–27. Public domain (PD): Drachmann died 1935. Boeckh 1811–19 also PD, scan at archive.org/details/pindaroutasozome01pinduoft. A new Fribourg edition is in progress.",
+ "ru_status": "none",
+ "ru_evidence": "Russian search ('схолии к Пиндару перевод') found only Starikovsky's translation of the odes themselves (HSE 2025); its commentary only cites scholia. Ancientrome.ru Pindar page: only Gasparov's translation of the odes.",
+ "en_status": "none",
+ "en_evidence": "BMCR 2010.08.39 and 2014.12.27: the Besançon French volume (2013) is the first translation of the O.1 scholia into any modern language. No English translation is mentioned.",
+ "other_translations": "French: Daude et al., Scholies à Pindare I (Lives + O.1, 2013) and II (O.2, 2020). Italian: metrical scholia (Martino 1999). German: Fribourg edition with translation in progress (Isthmians/Nemeans first).",
+ "value": "The main ancient source for Pindar's occasions, victors, chronology and myth variants. Preserves Aristarchus, Didymus and lost historians and poets. It pairs directly with the new Russian Pythians (HSE 2025), which gives an immediate Russian readership. An emblematic 'old scholia + new scholia' series for Neoscholia.",
+ "audience": "specialist",
+ "ai_feasibility": "Medium-high. Terse lemmatised Greek with abbreviations, metrical and grammatical jargon, and embedded fragments. LLMs parse it well, but every quotation and source attribution needs checking against Drachmann's apparatus.",
+ "pilot_unit": "Scholia to Pythian 1 (Hieron, Etna); est. ~30 Drachmann pp., ~10k words. Pythian 4 is an alternative.",
+ "preliminary_priority": 5,
+ "sources": [
+  "https://bmcr.brynmawr.edu/?p=30623",
+  "https://bmcr.brynmawr.edu/?p=27402",
+  "https://www.unifr.ch/philclass/fr/recherche/pindar.html",
+  "https://publications.hse.ru/pubs/share/direct/1145708831.pdf",
+  "https://ancientrome.ru/antlitr/pindar/index.htm"
+ ],
+ "id": "item_106"
+}

@@ -1,0 +1,70 @@
+# Builds the site on every push to main and publishes it:
+#   1) to GitHub Pages;
+#   2) to a mirror server over SSH (rsync) — only when the MIRROR_* settings are configured.
+# How to set up the mirror: see EDITING.md, section «Зеркало».
+name: Build and deploy
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          fetch-depth: 0 # full history: pages show the date of their last change
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - run: npm run check
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
+
+  pages:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5
+
+  mirror:
+    needs: build
+    if: ${{ vars.MIRROR_HOST != '' }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v8
+        with:
+          name: github-pages
+      - name: Unpack the built site
+        run: mkdir site && tar -xf artifact.tar -C site
+      - name: Upload to the mirror
+        env:
+          SSH_KEY: ${{ secrets.MIRROR_SSH_KEY }}
+          HOST: ${{ vars.MIRROR_HOST }}
+          USER: ${{ vars.MIRROR_USER }}
+          DEST: ${{ vars.MIRROR_PATH }}
+          PORT: ${{ vars.MIRROR_PORT || '22' }}
+        run: |
+          install -m 700 -d ~/.ssh
+          printf '%s\n' "$SSH_KEY" > ~/.ssh/mirror_key && chmod 600 ~/.ssh/mirror_key
+          ssh-keyscan -p "$PORT" "$HOST" >> ~/.ssh/known_hosts
+          rsync -az --delete -e "ssh -i ~/.ssh/mirror_key -p $PORT" site/ "$USER@$HOST:$DEST/"

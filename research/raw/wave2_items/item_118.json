@@ -1,0 +1,26 @@
+{
+ "corpus": "greek-scholia",
+ "title": "Ioannes Tzetzes, Historiai (Chiliades) / Book of Histories / Иоанн Цец, «Книга историй» (Хилиады) [RU-gap]",
+ "author": "John Tzetzes",
+ "date": "c. mid-12th c.",
+ "language": "Byzantine Greek (political verse)",
+ "genre": "Verse encyclopedic commentary on his own letters",
+ "size": "About 12,700 lines (12,674 per ru-wiki; 12,759 per ToposText); about 600–668 historiai.",
+ "edition": "Leone 1968/2007 (in copyright). Kiessling 1826 is PD.",
+ "ru_status": "partial",
+ "ru_evidence": "Ru-wiki 'Иоанн Цец' lists only excerpts in Памятники византийской литературы IX–XIV вв. (1969), pp. 252–259. No full or substantial translation exists.",
+ "en_status": "full",
+ "en_evidence": "Untila, Berkowitz et al. 2015, online at theoi.com under CC BY-NC-ND 3.0, so usable only for cross-checking (ToposText 617).",
+ "other_translations": "None found.",
+ "value": "A vast mythographic and historical thesaurus with lost sources and Byzantine scholarly self-portraits, including anecdotes on Alexander. Heavily used but inaccessible to Russian readers.",
+ "audience": "humanities",
+ "ai_feasibility": "Medium-high. Plain narrative verse that translates readily into prose; source attribution is unreliable, so the commentary must flag errors.",
+ "pilot_unit": "Book I (est. ~1,000 lines), or a thematic cluster of the Alexander historiai.",
+ "preliminary_priority": 3,
+ "sources": [
+  "https://topostext.org/work/617",
+  "https://ftp.theoi.com/Text/TzetzesChiliades1.html",
+  "https://ru.wikipedia.org/wiki/Иоанн_Цец"
+ ],
+ "id": "item_118"
+}

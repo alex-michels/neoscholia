@@ -1,0 +1,26 @@
+{
+ "corpus": "greek-historiography",
+ "title": "Dexippus(?), Scythica Vindobonensia: new palimpsest fragments (Vind. hist. gr. 73); «Скифика» Дексиппа, венские фрагменты",
+ "author": "P. Herennius Dexippus (attribution debated)",
+ "date": "after AD 270",
+ "language": "Greek",
+ "genre": "Classicizing military history (Gothic wars of the 250s–260s)",
+ "size": "Several palimpsest leaves, est. 3–5k words",
+ "edition": "Martin & Grusková, GRBS 54.4 (2014): Greek text plus English, CC BY. Later leaves in other journals; Empire in Crisis (OAPEN, open access)",
+ "ru_status": "none",
+ "ru_evidence": "A Russian search ('Дексипп венский палимпсест перевод') found nothing. Old fragments only in Destunis 1860 (ru.wikipedia, Дексипп (историк))",
+ "en_status": "partial",
+ "en_evidence": "GRBS 2014 article includes an English translation (checked in the PDF). Other leaves are translated in scattered studies",
+ "other_translations": "German and Italian scholarship (Martin; Mecella 2013 covers the old fragments)",
+ "value": "One of the most important newly discovered Greek historical texts: Decius' Gothic war and the sieges of Balkan cities. Relevant to Black Sea and Gothic studies, and has no Russian at all.",
+ "audience": "humanities",
+ "ai_feasibility": "Medium: a gappy text with editorial supplements. The AI must not fill gaps, which makes it a good showcase for visible review",
+ "pilot_unit": "The GRBS 2014 fragment set, c. 2–3k words, with a CC BY source text",
+ "preliminary_priority": 3,
+ "sources": [
+  "https://grbs.library.duke.edu/index.php/grbs/article/view/15071",
+  "https://library.oapen.org/handle/20.500.12657/37435",
+  "https://ru.wikipedia.org/wiki/Дексипп_(историк)"
+ ],
+ "id": "item_058"
+}

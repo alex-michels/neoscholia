@@ -1,0 +1,26 @@
+{
+ "corpus": "latin-late-antique",
+ "title": "Servius (and 'Servius Danielis'), Commentarii in Vergilii Aeneidos libros, Books 2–12 / RU: Сервий, «Комментарии к Энеиде»",
+ "author": "Maurus Servius Honoratus (fl. c. 400), plus a later expanded layer (Servius Danielis)",
+ "date": "c. 400–420 CE; the expanded layer compiled 7th–8th c.",
+ "language": "Latin",
+ "genre": "Grammatical and interpretive commentary (scholia)",
+ "size": "Aeneid commentary est. 300k+ words; Aen. 6 alone est. 25–30k words",
+ "edition": "Thilo–Hagen (1878–1902), public domain: https://archive.org/details/serviigrammatic03thilgoog. Harvard Servius (Aen. 1–5)",
+ "ru_status": "partial",
+ "ru_evidence": "Book 1 only: N. A. Fedorov, in Вергилий. Энеида. С комментариями Сервия (Лабиринт 2001); see ancientrome.ru/antlitr/servius and ru.wikipedia.",
+ "en_status": "partial",
+ "en_evidence": "Isolated books only, e.g. Aen. 4 (McDonough, Prior & Stansbury 2004; cited from memory, not re-checked). en.wikipedia lists no complete translation.",
+ "other_translations": "No complete modern translation found.",
+ "value": "The most influential ancient commentary on Latin poetry: grammar, religion, antiquarian lore and fragments of lost authors. The very model of 'scholia' for a platform called Neoscholia.",
+ "audience": "humanities",
+ "ai_feasibility": "high: plain didactic Latin. Difficulties: lemma layout and separating the Servian and expanded layers.",
+ "pilot_unit": "Commentary on Aeneid 6 (underworld, religion and philosophy; est. 25–30k words), or Aen. 2 (est. 15–20k words)",
+ "preliminary_priority": 4,
+ "sources": [
+  "https://ancientrome.ru/antlitr/servius/index.htm",
+  "https://ru.wikipedia.org/wiki/Сервий",
+  "https://en.wikipedia.org/wiki/Servius_the_Grammarian"
+ ],
+ "id": "item_139"
+}

@@ -1,0 +1,26 @@
+{
+ "corpus": "christian-late-antique",
+ "title": "Commentary on Ecclesiastes (Tura papyrus) / «Толкование на Екклесиаста»",
+ "author": "Didymus the Blind",
+ "date": "late 4th c., Alexandria (lecture transcripts)",
+ "language": "Greek",
+ "genre": "Exegetical lectures (classroom notes with student questions)",
+ "size": "Lacunose Tura codex; est. 70–90k words",
+ "edition": "Binder, Liesenborghs, Kramer, Gronewald et al., PTA (Habelt 1965–1983), with German translation. Not public domain.",
+ "ru_status": "none",
+ "ru_evidence": "azbyka.ru Didymus page lists only 'Книга о Святом Духе'; ru.wikipedia 'Дидим Слепец' cites no translations",
+ "en_status": "none",
+ "en_evidence": "Open Library shows English only for Genesis (2016), Zechariah (2006), Job (2025) and the Psalm lectures (2024); none for Ecclesiastes",
+ "other_translations": "German: PTA volumes (with the edition)",
+ "value": "A unique stenographic record of a 4th-century Alexandrian classroom: student questions, philosophy and pagan learning, Origenist exegesis. Valuable for historians of education and philosophy, papyrologists and Origenism studies.",
+ "audience": "specialist",
+ "ai_feasibility": "medium: lacunae and supplements must be marked rigorously; the conversational Greek is otherwise accessible.",
+ "pilot_unit": "Lectures on Eccl 1:1–2:14; est. 10–12k words",
+ "preliminary_priority": 4,
+ "sources": [
+  "https://azbyka.ru/otechnik/Didim_Aleksandrijskij/",
+  "https://openlibrary.org/search.json?q=author:%22Didymus%22+blind",
+  "https://en.wikipedia.org/wiki/Didymus_the_Blind"
+ ],
+ "id": "item_023"
+}

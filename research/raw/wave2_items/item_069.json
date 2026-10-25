@@ -1,0 +1,26 @@
+{
+ "corpus": "greek-lexica",
+ "title": "Σοῦδα / Suda / «Суда» (Свида); unit: biographical entries on Greek poets (from Hesychius' Onomatologos)",
+ "author": "Anonymous Byzantine compilers",
+ "date": "late 10th c. CE",
+ "language": "Byzantine (learned) Greek",
+ "genre": "Encyclopedic lexicon",
+ "size": "31,000+ entries (Adler, 5 vols). Unit estimate several hundred entries, 15–40k words.",
+ "edition": "A. Adler, Lexicographi Graeci I (1928–38; Adler died 1966, so likely in copyright in RU/EU). Bernhardy 1834–53 (PD).",
+ "ru_status": "partial",
+ "ru_evidence": "ru.wikipedia (Суда): only 'более ста статей' rendered by Maxim the Greek (16th c.). No modern Russian translation found; only scattered excerpts.",
+ "en_status": "full",
+ "en_evidence": "Suda On Line: the last of 31,000+ entries was translated on 21 July 2014 (SOL history page; en.wikipedia).",
+ "other_translations": "Latin 1581. No other complete modern translation found.",
+ "value": "Main ancient source for the lives and work lists of Greek authors, much of it now lost. Indispensable to every Hellenist. A Russian version of the bio-bibliographical entries would serve all Russian classicists and students. RU-gap flagship.",
+ "audience": "humanities",
+ "ai_feasibility": "high for prose biographies; medium where entries quote fragments. SOL is available for cross-checking, not as a base.",
+ "pilot_unit": "Lives of the lyric, tragic and comic poets (about 150 entries; estimate 15k words).",
+ "preliminary_priority": 4,
+ "sources": [
+  "https://ru.wikipedia.org/wiki/Суда_(энциклопедия)",
+  "https://en.wikipedia.org/wiki/Suda",
+  "https://www.cs.uky.edu/~raphael/sol/sol-html/history.shtml"
+ ],
+ "id": "item_069"
+}

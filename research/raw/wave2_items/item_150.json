@@ -1,0 +1,26 @@
+{
+ "corpus": "latin-scholia",
+ "title": "Varro, De lingua Latina, Books V–VII — On the Latin Language; Варрон, «О латинском языке» (RU-gap)",
+ "author": "M. Terentius Varro",
+ "date": "c. 47–43 BCE",
+ "language": "Latin",
+ "genre": "Grammatical-antiquarian treatise (etymology)",
+ "size": "Books V–VII est. 25–30k words (Books V–X survive; estimate)",
+ "edition": "Goetz–Schoell, Teubner 1910; Spengel 1885 (both public domain)",
+ "ru_status": "partial",
+ "ru_evidence": "ru.wikipedia: only excerpts from Books VIII–X (Я. М. Боровский, «Античные теории языка и стиля», 1936) plus a 1975 excerpt (Каракулаков). Books V–VII apparently untranslated",
+ "en_status": "full",
+ "en_evidence": "R. G. Kent, Loeb (1938); W. de Melo, OUP 2019 (text, translation and commentary), per en.wikipedia",
+ "other_translations": "French/Italian/German exist (not individually verified)",
+ "value": "Books V–VII etymologise places, gods, institutions and poetic words. A primary source for Roman topography, religion and early Latin poetry, used by historians, archaeologists and linguists",
+ "audience": "humanities",
+ "ai_feasibility": "high — use the English versions only for cross-checking; etymologies need explanatory notes",
+ "pilot_unit": "Book V (est. 12–15k words)",
+ "preliminary_priority": 4,
+ "sources": [
+  "https://ru.wikipedia.org/wiki/Марк_Теренций_Варрон",
+  "https://en.wikipedia.org/wiki/De_Lingua_Latina",
+  "https://www.philol.msu.ru/~ref/avtoreferat2013/dracheva.pdf"
+ ],
+ "id": "item_150"
+}

@@ -1,0 +1,27 @@
+{
+ "corpus": "epigraphy-papyri",
+ "title": "Carmina Latina Epigraphica (Bücheler 1895–97; Lommatzsch 1926); RU «Латинские эпиграфические стихотворения»; pilot: verse epitaphs",
+ "author": "Anonymous Latin verse inscriptions",
+ "date": "3rd c. BC – 7th c. AD",
+ "language": "Latin (verse)",
+ "genre": "Epitaphs, dedications, Pompeian wall verse",
+ "size": "c. 2,300 numbered poems; est. 15k+ lines",
+ "edition": "Bücheler, Anthologia Latina II.1–2 (Teubner 1895–97, public domain, archive.org); Engström 1912 supplement (public domain); Lommatzsch 1926",
+ "ru_status": "partial",
+ "ru_evidence": "Only single poems in articles, e.g. «Метрическая эпитафия Луция Калидия Эротика» (ИЯКФ 2014, CyberLeninka). No collection found.",
+ "en_status": "partial",
+ "en_evidence": "Courtney, Musa Lapidaria (1995): 204 poems with facing English translation (BMCR 1998.03.12), i.e. under 10% of CLE.",
+ "other_translations": "Regional CLE corpora with Spanish/Italian translations exist (extent not checked)",
+ "value": "The largest body of non-literary Latin poetry: family feeling, social values, reception of Virgil and Ovid, Vulgar Latin and metrics. Excellent for Latin teaching; Russian readers have no anthology.",
+ "audience": "broad",
+ "ai_feasibility": "high for sense. Medium for metre, Vulgar spellings and Bücheler's supplements; check against CIL/EDCS.",
+ "pilot_unit": "150 verse epitaphs from Rome (CLE sepulcralia), est. 1,200 lines; alternative: the Pompeian carmina",
+ "preliminary_priority": 4,
+ "sources": [
+  "https://archive.org/details/buecheler-franciscus-al-2.-carmina-latina-epigraphica-f-1",
+  "https://archive.org/details/carminalatinaepi00engsuoft",
+  "https://bmcr.brynmawr.edu/1998/1998.03.12/",
+  "https://cyberleninka.ru/article/n/metricheskaya-epitafiya-lutsiya-kalidiya-erotika"
+ ],
+ "id": "item_043"
+}

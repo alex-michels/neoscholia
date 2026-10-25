@@ -1,0 +1,287 @@
+{
+ "missing_areas": [
+  "Method note: the session's WebSearch quota (200/200) was already used up when this critique started. Every status below was therefore checked by fetching specific sources directly: ru.wikipedia raw articles (their 'Переводы' sections), ancientrome.ru, CyberLeninka, and O. V. Smyka's published PDFs. Where I could not check a claim, it is marked 'memory' or 'unknown'.",
+  "Fragments of the Hellenistic and Alexander historians as a corpus (FGrH/BNJ 117–160: Callisthenes, Chares, Onesicritus, Nearchus, Aristobulus, Cleitarchus, the Ephemerides, Hieronymus of Cardia, Duris, Phylarchus; Arrian's Ta meta Alexandron with its palimpsests; the Heidelberg Epitome). Only Dexippus and the Jewish historians are on the list, yet this is the corpus closest to the editor's own Alexander expertise.",
+  "Ancient Greek music theory: Aristides Quintilianus, Cleonides, Bacchius, the Anonymi Bellermann, Bryennius, and the musical papyri/DAGM. None of it is on the list. Russian coverage is thin: Aristides has only II.1–5. Ptolemy's Harmonics with Porphyry's commentary is already done in Russian (Tsypin 2013), so that one should be excluded.",
+  "Roman and early Byzantine legal literature beyond the Novels: Theophilus' Paraphrasis Institutionum, Fragmenta Vaticana, Pauli Sententiae, the Collatio, the Syro-Roman Lawbook, and the Basilica scholia (which preserve the commentaries of the 6th-c. law teachers). The Digest exists in Russian; the Greek juristic commentary tradition is almost untouched.",
+  "Roman land surveyors (Corpus agrimensorum Romanorum). This is a technical, legal and administrative genre. Russian has only excerpts.",
+  "Greek mathematics and mechanics: Pappus' Collection, Eutocius, Hero (Metrica, Dioptra), Serenus, Anthemius, and the Arabic-only Philo of Byzantium and Hero's Mechanics. Only Theon on the Almagest and Proclus' Hypotyposis are on the list.",
+  "Greek astrology beyond verse astrology: Vettius Valens, Hephaestion of Thebes, Rhetorius, Dorotheus (Arabic), and the CCAG excerpts. This is a huge body of late antique technical prose with almost no Russian.",
+  "Paradoxography (mirabilia): Antigonus of Carystus' Historiarum mirabilium collectio, Apollonius, Phlegon, Ps.-Aristotle's Mirabilia, Isigonus. A distinct Hellenistic genre that is entirely absent.",
+  "Late Latin secular and Christian poetry: Merobaudes, Claudian's minor poems, the Anthologia Latina's Vandal poets (Luxorius, Codex Salmasianus), Avitus, Arator, Sedulius, Paulinus of Pella, Proba. Absent. Note that Dracontius and Corippus already exist in Russian (checked).",
+  "Greek Christian poetry and centos: Eudocia's Homerocentones and Martyrdom of Cyprian, Dioscorus of Aphrodito, the Romanos kontakia not yet in Russian. Nonnus' Paraphrase already has a full Russian translation (2002), so it should be excluded.",
+  "Manichaean and Gnostic sources: the Cologne Mani Codex (Greek), the Coptic Kephalaia, the Psalm-Book and Homilies of Medinet Madi, and Mandaean literature. Entirely missing.",
+  "Late-antique Jewish literature beyond Philo and the Hellenistic historians: midrash (Genesis Rabbah, Mekhilta), Targumim, Hekhalot texts, early piyyut (Yannai), and Jewish inscriptions and papyri (CPJ, JIGRE). Russian coverage is patchy and the material is directly relevant to the Graeco-Roman world.",
+  "Samaritan literature (Memar Marqe, the Samaritan chronicles): roots in antiquity, essentially no Russian.",
+  "The Iranian and Indian Hellenistic East: Bactrian documents, the Sogdian Ancient Letters, the Greek and Aramaic Ashoka edicts (Kandahar), the Yavanajātaka and the Yuga Purāṇa, Gandhari texts, and Middle Persian books with late antique layers (Dēnkard, Bundahišn). These are essential context for Alexander and the Seleucids; the Near East sweep stopped at Mesopotamia and Egypt.",
+  "Anatolian and Levantine epigraphy outside cuneiform: Luwian hieroglyphic, Lycian, Lydian and Phoenician/Punic inscriptions, and the Aramaic of Palmyra and Hatra. Absent.",
+  "Coptic literature beyond magic: Shenoute, Besa, Coptic martyr acts, the Pachomian dossier. Shenoute is largely untranslated into Russian.",
+  "Greek biblical catenae and the exegetical fragments they preserve (Origen, Didymus, Apollinaris, Theodore of Mopsuestia, Severus). Only Procopius' Genesis epitome is listed.",
+  "Greek grammatical scholia and Byzantine grammar: the scholia on Dionysius Thrax, Choeroboscus, the Herodian fragments, Theodosius' Canons, the Epimerismi Homerici. This is literally 'scholia', yet it is missing from a project called Neoscholia.",
+  "Other major scholia corpora not listed: Sophocles, Aeschylus, Theocritus, Hesiod's Theogony, Lucian (Arethas), Plato (Greene), Thucydides, Demosthenes and Aeschines, Nicander and Oppian. On the Latin side: Servius on the Eclogues and Georgics, Ps.-Acro on Horace, the Scholia Bernensia on Vergil.",
+  "Late Latin lexicography and teaching texts: Nonius Marcellus, the Placidus glossary, the bilingual Hermeneumata Pseudodositheana colloquia, and Latin grammarians beyond Terentianus (Diomedes, Charisius, Priscian's Institutiones). Martianus Capella is already in Russian (Shakhov 2019), so it should be excluded.",
+  "Agronomy: the Geoponica and its late antique sources (Cassianus Bassus, Anatolius). Only the veterinary Hippiatrica and Pelagonius are listed.",
+  "Minor geographers and itineraries: Marcian of Heraclea, the Stadiasmus maris magni, Agathemerus, Ptolemy's Geography catalogues (books 2–7), Latin itineraria (Antonine, Bordeaux), the Ravenna Cosmography.",
+  "Byzantine antiquarian texts on late antique Constantinople and its ancient statuary: the Parastaseis syntomoi chronikai, Hesychius Illustrius' Patria, the Patria Konstantinoupoleos.",
+  "Native historians writing in Greek (Berossus, Manetho) as a paired dossier. They are relevant to the listed Babylonian and Egyptian material but appear only indirectly."
+ ],
+ "overlooked_candidates": [
+  {
+   "title": "Fragments of the Alexander historians (FGrH/BNJ 117–153: Callisthenes, Chares, Ephippus, Onesicritus, Nearchus, Aristobulus, Cleitarchus, Ptolemy, Ephemerides) / Фрагменты историков Александра",
+   "author": "Various; transmitted by Arrian, Strabo, Plutarch, Athenaeus and others",
+   "date": "late 4th–early 3rd c. BCE",
+   "language": "Greek",
+   "ru_status": "none as a collected, annotated corpus. Individual fragments sit inside host authors that do have Russian translations (Arrian, Strabo, Plutarch).",
+   "en_status": "full (C. A. Robinson, The History of Alexander the Great I, 1953; Brill's New Jacoby online). From memory, not re-verified in this pass.",
+   "why": "This is the editor's own field and the evidential base behind the Alexander Romance problem. It is ideal for commentary-led AI translation and for a visible model-to-model review of source criticism. Avoid duplicating P.Oxy. 1798 = FGrH 148, which is already in the papyri dossier.",
+   "evidence": "The ru.wikipedia articles Онесикрит, Клитарх and Аристобул из Кассандрии (https://ru.wikipedia.org/wiki/Онесикрит, …/Клитарх, …/Аристобул_из_Кассандрии) cite only the Russian translations of the host authors (Sergeenko, Stratanovsky, Gasparov, Markish). None lists a translation of the fragments."
+  },
+  {
+   "title": "Cologne Mani Codex (Codex Manichaicus Coloniensis, 'On the Origin of his Body') / Кёльнский кодекс Мани",
+   "author": "Anonymous Manichaean compilers (Greek translation from Aramaic)",
+   "date": "codex late 4th–5th c. CE; contents 3rd c.",
+   "language": "Greek",
+   "ru_status": "none listed",
+   "en_status": "partial (Cameron & Dewey 1979, SBL Texts and Translations 15, covering the first part only). German is complete (Koenen & Römer 1988; 1993).",
+   "why": "The only Greek autobiographical source for Mani and the Elchasaites. It is a compact unit (192 tiny pages) and a landmark for the religious history of late antiquity. Note that the critical text is under copyright.",
+   "evidence": "ru.wikipedia 'Кёльнский кодекс Мани', section 'Издания текста и переводы': Cameron & Dewey 1979 (EN), Koenen & Römer 1988 and 1993 (DE). No Russian translation is listed."
+  },
+  {
+   "title": "Scholia in Dionysii Thracis Artem grammaticam (Hilgard, Grammatici Graeci I.3, 1901) / Схолии к «Грамматике» Дионисия Фракийского",
+   "author": "Heliodorus, Stephanus, 'Melampus/Diomedes', Porphyry and other commentators",
+   "date": "c. 4th–9th c. CE layers",
+   "language": "Greek",
+   "ru_status": "none (only Thrax himself is excerpted in 'Античные теории языка и стиля', 1936)",
+   "en_status": "no complete translation known (unknown; excerpts only in modern anthologies)",
+   "why": "The foundational late antique commentary on grammar, and literally 'scholia'. The Prolegomena make a self-contained pilot. The Hilgard edition is public domain.",
+   "evidence": "ru.wikipedia 'Дионисий Фракийский': section '=== Схолии ===' links only to the archive.org Hilgard edition, and section '=== Переводы ===' lists only the 1936 excerpts of Thrax."
+  },
+  {
+   "title": "Nonius Marcellus, De compendiosa doctrina / Ноний Марцелл, «Сокращённое учение»",
+   "author": "Nonius Marcellus",
+   "date": "early 4th c. CE",
+   "language": "Latin",
+   "ru_status": "none listed",
+   "en_status": "none known (unknown)",
+   "why": "The main quarry for Republican Latin fragments: Lucilius, Varro's Menippeans, Accius, Pacuvius, Sallust's Histories. It meets the 'no translation in any language' ideal. The Lindsay 1903 Teubner edition is public domain. A single book (e.g. Book IV) is a manageable unit.",
+   "evidence": "ru.wikipedia 'Ноний Марцелл': section '== Издания ==' lists only Pomponius Laetus, Quicherat 1871, Müller 1888 and Lindsay 1903. No translations are listed."
+  },
+  {
+   "title": "Theophilus Antecessor, Paraphrasis Institutionum / «Парафраз» Феофила",
+   "author": "Theophilus (law professor at Constantinople, co-compiler of the Institutes)",
+   "date": "c. 533–534 CE",
+   "language": "Greek",
+   "ru_status": "none listed",
+   "en_status": "full (A. F. Murison, in Lokin, Meijering, Stolte & van der Wal, Theophili Antecessoris Paraphrasis Institutionum, Groningen: Chimaira 2010)",
+   "why": "The key bridge between Roman law and Greek-speaking Byzantine legal culture. The Institutes exist in Russian; their Greek classroom paraphrase does not.",
+   "evidence": "ru.wikipedia 'Парафраз Феофила': 'Перевод «Парафраз» на английский язык выполнил … Мурисон' plus the 2010 edition. No Russian translation is mentioned."
+  },
+  {
+   "title": "Corpus agrimensorum Romanorum (Frontinus, Agennius Urbicus, Hyginus, Siculus Flaccus, Hyginus Gromaticus) / Сочинения римских агрименсоров",
+   "author": "Various Roman land surveyors",
+   "date": "late 1st–4th c. CE",
+   "language": "Latin",
+   "ru_status": "partial (excerpts translated by I. A. Gvozdeva and M. V. Durnovo in 'История Древнего Рима. Тексты и документы', 2004)",
+   "en_status": "full for the main treatises (B. Campbell, The Writings of the Roman Land Surveyors, 2000; from memory)",
+   "why": "Central to Roman agrarian law, colonisation and provincial administration. Russian has only short excerpts.",
+   "evidence": "ru.wikipedia 'Агрименсор', section 'Тексты и переводы': 'Переводы отрывков, выполненные И. А. Гвоздевой … М., 2004', including Agennius Urbicus 'О контроверсиях по поводу полей'."
+  },
+  {
+   "title": "Aristides Quintilianus, De musica / Аристид Квинтилиан, «О музыке»",
+   "author": "Aristides Quintilianus",
+   "date": "3rd–4th c. CE",
+   "language": "Greek",
+   "ru_status": "partial (II.1–5, translated by N. V. Lyamkina and T. G. Myakin, ΣΧΟΛΗ 6.1, 2012, 144–156)",
+   "en_status": "full (T. J. Mathiesen 1983; A. Barker, Greek Musical Writings II, 1989)",
+   "why": "The fullest ancient synthesis of music theory, ethics of music and education. It opens the Greek music area, which the list lacks entirely.",
+   "evidence": "ru.wikipedia 'Аристид Квинтилиан', section 'Переводы': Schäfke 1937 (DE), Mathiesen 1983 (EN), Barker 1989 (EN), and the Russian II.1–5 in ΣΧΟΛΗ 2012."
+  },
+  {
+   "title": "Geoponica (Περὶ γεωργίας ἐκλογαί) / «Геопоники»",
+   "author": "Compiled for Constantine VII from Cassianus Bassus (6th c.), Vindanius Anatolius (4th c.) and others",
+   "date": "late antique sources; 10th-c. compilation",
+   "language": "Greek",
+   "ru_status": "none listed",
+   "en_status": "full (T. Owen 1805–06; A. Dalby, Geoponika: Farm Work, 2011; from memory)",
+   "why": "The main surviving Greek agronomic corpus, full of excerpts from lost ancient authors. A Byzantine compilation that transmits antiquity, as priority 4 allows. Beckh's 1895 Teubner edition is public domain.",
+   "evidence": "ru.wikipedia 'Геопоники' contains only a general description and a Britannica 1911 reference. No translation is listed."
+  },
+  {
+   "title": "Vettius Valens, Anthologiae / Веттий Валент, «Антология»",
+   "author": "Vettius Valens of Antioch",
+   "date": "c. 150–175 CE",
+   "language": "Greek",
+   "ru_status": "none listed",
+   "en_status": "full (M. Riley's online translation; from memory)",
+   "why": "The largest surviving Greek astrological prose work, with real horoscopes from the 1st–2nd c. CE. It is invaluable for social history and the history of science.",
+   "evidence": "ru.wikipedia 'Веттий Валент' discusses only the Pahlavi and Arabic transmission. No Russian translation is listed."
+  },
+  {
+   "title": "Pappus of Alexandria, Collectio (pilot: Book V on isoperimetry, with the 'bees' preface; or Book VIII on mechanics) / Папп Александрийский, «Математическое собрание»",
+   "author": "Pappus of Alexandria",
+   "date": "c. 320 CE",
+   "language": "Greek",
+   "ru_status": "none listed",
+   "en_status": "partial (Book 7: A. Jones 1986; Book 4: H. Sefrin-Weis 2010; excerpts in I. Thomas' Loeb, 1941; from memory). French is complete (Ver Eecke 1933).",
+   "why": "The only source for many lost Hellenistic mathematical results. It is self-contained by book, and Hultsch's edition is public domain.",
+   "evidence": "ru.wikipedia 'Папп Александрийский' mentions only Commandino's 1589 Latin translation. No Russian translation is listed."
+  },
+  {
+   "title": "Syrianus, Commentary on Aristotle's Metaphysics B, Γ, M, N / Сириан, «Комментарий к Метафизике»",
+   "author": "Syrianus",
+   "date": "early 5th c. CE",
+   "language": "Greek",
+   "ru_status": "none listed",
+   "en_status": "full (Dillon & O'Meara, Ancient Commentators on Aristotle, 2006 and 2008)",
+   "why": "The key Athenian Neoplatonist text on Pythagorean number theory and the critique of Aristotle. It pairs with the listed Syrianus on Hermogenes, and the Kroll CAG VI.1 text is public domain.",
+   "evidence": "ru.wikipedia 'Сириан Александрийский' cites only the CAG edition and the English Ancient Commentators series."
+  },
+  {
+   "title": "Flavius Merobaudes, Panegyrics and Carmina / Флавий Меробавд, панегирики и стихотворения",
+   "author": "Flavius Merobaudes",
+   "date": "c. 435–446 CE",
+   "language": "Latin",
+   "ru_status": "none listed",
+   "en_status": "full (F. M. Clover, TAPS 61.1, 1971; from memory)",
+   "why": "Court poetry of Aetius' age, transmitted in a St Gall palimpsest. Small, manageable and historically significant: an ideal pilot from the absent late Latin poetry area.",
+   "evidence": "ru.wikipedia 'Меробавд', section 'Издания и переводы': Latin editions (Bekker 1836, PL 61, Vollmer 1905) and Italian (Bruzzone 1999) only."
+  },
+  {
+   "title": "Caelius Aurelianus, Celerum passionum libri III and Tardarum passionum libri V / Целий Аврелиан, «Об острых и хронических болезнях»",
+   "author": "Caelius Aurelianus (Latin adapter of Soranus)",
+   "date": "5th c. CE",
+   "language": "Latin",
+   "ru_status": "none listed",
+   "en_status": "full (I. E. Drabkin 1950; from memory)",
+   "why": "The main witness to Methodist medicine and to lost Soranus. It complements the listed Alexander of Tralles and Marcellus.",
+   "evidence": "ru.wikipedia 'Целий Аврелиан' describes the author's sources but lists no Russian translation."
+  },
+  {
+   "title": "Chronograph of 354 (Codex-Calendar of Filocalus) / «Хронограф 354 года»",
+   "author": "Furius Dionysius Filocalus and anonymous compilers",
+   "date": "354 CE",
+   "language": "Latin",
+   "ru_status": "none listed",
+   "en_status": "online English translation (tertullian.org, R. Pearse et al.); completeness not checked",
+   "why": "A unique late Roman almanac: calendar, consular fasti, Easter tables, city prefects, the Depositio martyrum, the Liber generationis, the city chronicle. Highly 'commentable' for a historical readership.",
+   "evidence": "ru.wikipedia 'Хронограф 354 года' links only to the English text on tertullian.org. No Russian translation is listed."
+  },
+  {
+   "title": "Eudocia, Homerocentones (with De martyrio S. Cypriani) / Евдокия, Гомероцентоны",
+   "author": "Empress Aelia Eudocia (Athenais) and earlier centonists (Patricius)",
+   "date": "c. 430s–460 CE",
+   "language": "Greek",
+   "ru_status": "none found",
+   "en_status": "partial (M. D. Usher 1998 and later studies; from memory, unknown in full)",
+   "why": "Christian epic built from Homeric verses. It is perfect for an AI-assisted apparatus that tracks the Homeric source of every line, and it fills the Christian poetry gap.",
+   "evidence": "The ru.wikipedia article 'Евдокия Августа' contains no translation lines. Weak evidence; verify in ΣΧΟΛΗ and Аристей."
+  },
+  {
+   "title": "Marcian of Heraclea, Periplus maris exteri with the Epitome of Menippus / Маркиан Гераклейский, «Перипл внешнего моря»",
+   "author": "Marcian of Heraclea Pontica",
+   "date": "c. 400 CE",
+   "language": "Greek",
+   "ru_status": "none listed (Black Sea excerpts may exist in Latyshev's collections: unknown)",
+   "en_status": "full (W. H. Schoff 1927; from memory)",
+   "why": "Late antique geography of the Indian Ocean and the Atlantic, in the GGM tradition. It complements the listed Ps.-Scymnus and Expositio.",
+   "evidence": "The ru.wikipedia article 'Маркиан Гераклейский' contains no translation lines."
+  },
+  {
+   "title": "Scholia vetera in Theocritum (Wendel 1914) / Древние схолии к Феокриту",
+   "author": "Anonymous; Theon, Amarantus, Munatius layers",
+   "date": "Hellenistic–Roman sources; Byzantine manuscripts",
+   "language": "Greek",
+   "ru_status": "none listed (Theocritus in Russian: Grabar-Passek 1958, without the scholia)",
+   "en_status": "none known (unknown)",
+   "why": "A major unlisted scholia corpus, important for the bucolic genre and Alexandrian scholarship. Wendel's 1914 Teubner edition is public domain.",
+   "evidence": "ru.wikipedia 'Феокрит', section 'Тексты и переводы', lists only Grabar-Passek's 1958 translation and Edmonds' Loeb. No scholia translation."
+  }
+ ],
+ "suspicious_status": [
+  {
+   "title": "Ioannes Tzetzes, Carmina Iliaca (Antehomerica, Homerica, Posthomerica)",
+   "concern": "Listed as RU:none. A Russian verse translation of all three poems exists (O. V. Smyka), so RU is effectively full and this should be demoted.",
+   "evidence": "Antehomerica: Smyka, 'Иоанн Цец. До Гомера', Аристей XXIV (2021) 189–203, reprinted in Смыка О. В., Исследования и переводы из позднеантичной и византийской литературы (МГУ 2023), pp. 126–137 (https://smyka.persona.msu.ru/tr2.pdf). Homerica and Posthomerica: Смыка О. В., Черновики переводов (М.: Новый Хронограф, 2022), pp. 283–324, verse text up to Posthom. 770+ (https://smyka.persona.msu.ru/tr1.pdf). Both are also cited on ru.wikipedia 'Иоанн Цец'."
+  },
+  {
+   "title": "Manuel Philes, De animalium proprietate",
+   "concern": "Listed as RU:none. There is a partial Russian translation.",
+   "evidence": "Smyka, 'Мануил Фил. Из стихов о животных, адресованных императору Михаилу IX Палеологу', in Смыка 2023 (МГУ), from p. 257. The introduction calls it the opening of the poem 'О свойствах животных' (tr2.pdf, verified)."
+  },
+  {
+   "title": "Choricius of Gaza, Orations I–VIII",
+   "concern": "Listed as RU:none. A 344-page Russian volume of Choricius' rhetorical works appeared in 2022.",
+   "evidence": "Денисова И. В., Кобзева А. В., 'От Боспора до Газы Палестинской. К 60-летию … Н. Н. Болгова', Via in tempore 52(1), 2025, 5–12 (CyberLeninka). Its bibliography lists 'Хорикий. 2022. Риторические сочинения. Белгород, Эпицентр, 344'. Which orations it contains is still to be checked."
+  },
+  {
+   "title": "Procopius of Gaza, Letters; Fulgentius, Expositio Virgilianae continentiae",
+   "concern": "Both listed as RU:none. N. N. Bolgov's Belgorod school reports issued or prepared Russian translations of Procopius of Gaza and of Fulgentius the Mythographer. Check before choosing either as a pilot.",
+   "evidence": "Same Via in tempore 2025 article: 'Выпущены и подготовлены переводы сочинений Зосима, Иоанна Малалы, Иоанна Лида, Энея Газского, Захарии Ритора, Прокопия Газского, Хорикия, Комита Марцеллина, Фульгенция Мифографа, Крескония Кориппа, Присциана, патриарха Фотия'. ru.wikipedia 'Болгов, Николай Николаевич' also lists 'Мир поздней античности. Вып. 1: Газа в начале VI в.' (2014)."
+  },
+  {
+   "title": "John Malalas, Chronographia, Books I–XIII",
+   "concern": "Listed as RU:partial. It may now be complete in Russian through the Belgorod series.",
+   "evidence": "ru.wikipedia 'Болгов, Николай Николаевич' lists 'Мир поздней античности. Документы и материалы. Вып. 6: Иоанн Малала. Хронография. Книги I–VI' and 'Вып. 7: … Книги VII–XII' (7 п.л. each), plus Вып. 2 (Books XIII–XVIII, 2014). Also Кобзева & Болгов 2022, 'Иоанн Малала и изменение исторического сознания…' (464 pp.)."
+  },
+  {
+   "title": "Abinnaeus archive (P.Abinn.)",
+   "concern": "Listed as EN:unknown. The editio princeps already includes an English translation, so EN is full.",
+   "evidence": "en.wikipedia 'Flavius Abinnaeus': 'They were edited and published with an English translation in 1962' (Bell, Martin, Turner, van Berchem)."
+  },
+  {
+   "title": "Itinerarium Alexandri (inside the combined Latin-sweep entry 'Itinerarium + Metz Epitome')",
+   "concern": "The combined entry says EN:partial. The Itinerarium itself has a complete English translation, as the Alexander sweep correctly states. The combined entry's EN status should be split by work.",
+   "evidence": "en.wikipedia 'Itinerarium Alexandri': 'Iolo Davies: Alexander's itinerary … An English translation. In: Ancient History Bulletin 12, 1998, p. 29–54'."
+  },
+  {
+   "title": "Eusebius, Chronicon Book I (Chronographia)",
+   "concern": "The two sweeps disagree (RU:none vs RU:partial). The existing Russian translation covers only the Canons (Roman section, via Jerome's Latin), not Book I. Book I should be RU:none.",
+   "evidence": "ru.wikipedia 'Хроника Евсевия': '«Хроника» переводилась на русский язык лишь частично, часть, посвящённая римской эпохе, опубликована в переводе с латинского' (Творения блаж. Иеронима, ч. 5)."
+  },
+  {
+   "title": "Varro, De lingua Latina V–VII",
+   "concern": "Marked RU:partial. The existing Russian excerpts cover only Books VIII–X, so the proposed unit V–VII is effectively RU:none. Raise its priority.",
+   "evidence": "ru.wikipedia 'Марк Теренций Варрон': Russian translation by Ya. M. Borovsky of 'VIII, 1–7, 9–23; IX …; X …' in 'Античные теории языка и стиля' (1936; reprinted 1996), and a further excerpt by V. V. Karakulakov (1975). No Russian for Books V–VII is listed."
+  },
+  {
+   "title": "Hipparchus, Commentary on Aratus and Eudoxus",
+   "concern": "RU:none and EN:none look right, but the 'no modern translation' ideal does not hold: there is an Italian translation (2022) and Manitius' 1894 bilingual edition.",
+   "evidence": "en.wikipedia 'Hipparchus': 'Modern editions: Manitius 1894 …; Cusinato & Vanin …, Commentari di Ipparco ai Fenomeni di Arato ed Eudosso' (Italian translation by B. Cusinato)."
+  },
+  {
+   "title": "Pseudo-Callisthenes, recension α",
+   "concern": "RU:partial is confirmed. Still check whether the Литературные памятники volume 'Александрия' (1965, no. 109) contains a fuller Russian version of the Greek. I could not verify this.",
+   "evidence": "facetia.ru/pseudo-callisthenes-alexander-romance: translation by A. N. Egunov in 'Поздняя греческая проза' (1960/61), α recension (Kroll), excerpts Book I ch. 15–26 and 30–41 only. ru.wikipedia 'Литературные памятники' lists no. 109 'Александрия. Роман об Александре Македонском по русской рукописи XV века' (contents not checked)."
+  },
+  {
+   "title": "Dio Chrysostom, Orations 1–4 On Kingship",
+   "concern": "RU:none may be wrong for Or. 4 (Diogenes and Alexander), a Diogenic dialogue. It could be in Sidash's 'Кинические речи'. Orations 1–3 are probably untranslated.",
+   "evidence": "ru.wikipedia 'Дион Хрисостом' lists 'Кинические речи. Перевод Т. Г. Сидаша. СПб.: Квадривиум, 2012' and the Литпамятники 'Вифинские речи' (2024). The myriobiblion.byzantion.ru selection (VI, VII, VIII, IX, X, XII, XVIII, XXI, XXXVI, LI, LIII, LV) has none of 1–4. Sidash's contents were not checked."
+  },
+  {
+   "title": "Julius Valerius, Res gestae Alexandri; Metz Epitome and Liber de morte; Byzantine Alexander Poem; Ps.-Clementine Homilies",
+   "concern": "Duplicate entries give conflicting statuses: EN partial vs none (Julius Valerius); EN unknown vs partial (Metz Epitome); EN unknown vs none (Alexander Poem); RU unknown vs none (Ps.-Clementines). Settle each one before ranking.",
+   "evidence": "en.wikipedia 'Julius Valerius Alexander Polemius' cites only Kübler's 1888 Latin edition, no translation. ru.wikipedia 'Псевдо-Климентины' has no translation lines. The English status of the Metz Epitome and Liber de morte (possibly excerpts in Heckel & Yardley 2004) could not be checked."
+  },
+  {
+   "title": "Libanius, Letters (Foerster nos. 494–839, 1113–1540)",
+   "concern": "RU:partial is plausible, but the Russian corpus is scattered. Bolgov's series published a collected volume of Libanius' letters in Russian translation, so cross-check letter numbers against it before choosing a unit.",
+   "evidence": "ru.wikipedia 'Болгов, Николай Николаевич': 'Мир поздней античности. Документы и материалы. Вып. 3: Письма Либания в русских переводах' (Белгород, 2015)."
+  }
+ ],
+ "duplicates": [
+  "Stephanus of Byzantium, Ethnica appears twice: in the lexicography sweep (unit: Hellenistic city foundations) and in the technical/geography sweep (unit: Alexander's and the Diadochi's foundations). Same work, nearly the same unit; merge.",
+  "Stobaeus, Anthology IV appears twice: IV.22–25 in the lexicography sweep (RU:partial) and IV.22–24 in the philosophy sweep (RU:none). The RU statuses conflict. It also overlaps Hierocles' Stobaean excerpts 'On Duties' (inside the Hierocles entry) and the Ps.-Pythagorean household treatises transmitted in Stobaeus IV.28. Merge into one 'Stobaeus on marriage and household' dossier.",
+  "Tzetzes, Historiai (Chiliades) appears in the scholia sweep (P3) and the poetry sweep (P5). Different priorities for the same work.",
+  "Servius (with Servius Danielis) on the Aeneid appears in the Latin scholia sweep (Aen. 6) and the Latin secular sweep (Aen. 2–12).",
+  "Julius Valerius, Res gestae Alexandri Macedonis appears in the Alexander sweep (EN:partial) and the Latin secular sweep (EN:none).",
+  "Itinerarium Alexandri and the Metz Epitome with the Liber de morte appear as two separate entries in the Alexander sweep and as one combined entry in the Latin secular sweep, with conflicting EN statuses.",
+  "Byzantine Alexander Poem (1388, cod. Marc. gr. 408) appears in the Alexander sweep (EN:unknown) and the poetry sweep (EN:none).",
+  "Ps.-Clementine Homilies appear in the fiction sweep (RU:unknown) and the Christian literature sweep (RU:none).",
+  "Eusebius, Chronicon Book I appears in the historiography sweep (RU:none) and the Oriental sweep (Armenian version, RU:partial). It is one textual unit: the Greek fragments plus the Armenian.",
+  "Pelagonius appears in the Latin sweep (Ars veterinaria) and is also partly inside the technical sweep's Hippiatrica, which includes Pelagonius in Greek. Partial overlap.",
+  "The Hellenistic Jewish historians (philosophy sweep) are transmitted almost entirely in Eusebius' Praeparatio Evangelica IX, which the Christian sweep lists separately. Their text overlaps.",
+  "The chronographic entries overlap heavily: Hippolytus' Chronicon/Diamerismos is reused in the Chronicon Paschale, the Excerpta Latina Barbari and Synkellos, and most of Africanus' fragments survive in Synkellos. Five entries draw on shared material; plan them as a cluster to avoid duplicate translation.",
+  "Not duplicates, but co-dependent clusters to plan together: (a) the Aratus dossier: Scholia in Aratum, Hipparchus' Commentary, Avienus' Aratea; (b) the α-recension family: Greek AR α, Julius Valerius, Armenian AR; (c) Aelian's De natura animalium and Manuel Philes' verse paraphrase of it; (c2) the Alexander papyri entry (P.Oxy. 1798 = FGrH 148) and the proposed Alexander historians corpus; (d) Choricius, Procopius of Gaza's Letters and Procopius of Gaza's Genesis commentary (Gaza school)."
+ ]
+}

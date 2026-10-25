@@ -1,0 +1,24 @@
+{
+ "corpus": "greek-historiography",
+ "title": "George Synkellos, Ecloga chronographica (Ἐκλογὴ χρονογραφίας; «Избранная хронография» Георгия Синкелла)",
+ "author": "George Synkellos",
+ "date": "c. 808–810 CE",
+ "language": "Greek",
+ "genre": "World chronography (Creation to Diocletian)",
+ "size": "Mosshammer c. 470 Teubner pp., est. 150k words",
+ "edition": "Dindorf, CSHB 1829 (public domain). Mosshammer, Teubner 1984 (in copyright)",
+ "ru_status": "none",
+ "ru_evidence": "ru.wikipedia lists only the medieval Slavonic abridgement (ed. Totomanova 2008) and studies. No modern Russian",
+ "en_status": "full",
+ "en_evidence": "W. Adler & P. Tuffin, The Chronography of George Synkellos (OUP 2002), listed on ru.wikipedia",
+ "other_translations": "None found",
+ "value": "The largest storehouse of Berossus, Manetho, Africanus, Eusebius, Panodorus, Annianus and the 1 Enoch fragments. Indispensable for Near Eastern, Egyptian, Jewish and Hellenistic chronology.",
+ "audience": "specialist",
+ "ai_feasibility": "High: regular learned Greek. King-lists and tables need structured handling and automated numeral checks",
+ "pilot_unit": "The Egyptian dynasties (Manetho via Africanus/Eusebius) or the Alexander–Diadochi section, c. 30 Teubner pp.",
+ "preliminary_priority": 4,
+ "sources": [
+  "https://ru.wikipedia.org/wiki/Георгий_Синкелл"
+ ],
+ "id": "item_057"
+}

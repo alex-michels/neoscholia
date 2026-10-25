@@ -1,0 +1,25 @@
+{
+ "corpus": "greek-historiography",
+ "title": "Hippolytus of Rome, Chronicon (Συναγωγὴ χρόνων καὶ ἐτῶν, including the Diamerismos; «Хроника» Ипполита Римского)",
+ "author": "Hippolytus of Rome",
+ "date": "AD 234/235",
+ "language": "Greek (Matritensis gr. 121), plus Latin versions (Liber generationis I–II)",
+ "genre": "Christian world chronicle with an ethnographic-geographic catalogue of peoples, lands and islands",
+ "size": "Greek text est. 15–20k words, not counting the Stadiasmus. GCS 46 c. 200 pp. including the Latin versions",
+ "edition": "A. Bauer, TU 29.1 (1905): public domain. Bauer–Helm, GCS 46 (2nd ed. 1955): in copyright",
+ "ru_status": "none",
+ "ru_evidence": "ru.wikipedia (Ипполит Римский) lists about 20 Russian translations (Refutatio, Antichrist, Apostolic Tradition, etc.); none is of the Chronicon. No Russian found",
+ "en_status": "partial",
+ "en_evidence": "Only an online 'rough draft' English translation by T. C. Schmidt & N. Nicholas (2010), per en.wikipedia. No published English found",
+ "other_translations": "None found",
+ "value": "The earliest surviving Christian world chronicle. Its Diamerismos (the division of the earth among Noah's sons) is a foundational text of late-antique ethnography and geography, used by the Paschale, Synkellos and Georgios Monachos. Matters to classicists, historians of geography and scholars of early Christianity.",
+ "audience": "humanities",
+ "ai_feasibility": "High: plain Greek and lists. Needs gazetteer linking (Pleiades/ToposText) and collation with the Latin versions",
+ "pilot_unit": "The Diamerismos with its catalogues of peoples, languages and islands, est. 4–6k words",
+ "preliminary_priority": 5,
+ "sources": [
+  "https://ru.wikipedia.org/wiki/Ипполит_Римский",
+  "https://en.wikipedia.org/wiki/Hippolytus_of_Rome"
+ ],
+ "id": "item_052"
+}
