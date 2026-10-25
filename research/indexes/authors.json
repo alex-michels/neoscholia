@@ -460,7 +460,10 @@
     "Ἀπολλοδώρ"
    ]
   },
-  "exclude": []
+  "exclude": [
+   "Псевдо-Аполлодор",
+   "Pseudo-Apollodor"
+  ]
  },
  {
   "id": "strabo",
@@ -1183,6 +1186,124 @@
    ],
    "en": [
     "Palaephatus"
+   ],
+   "la": [],
+   "grc": []
+  },
+  "exclude": []
+ },
+ {
+  "id": "callimachus",
+  "ru": "Каллимах",
+  "en": "Callimachus",
+  "orig": "Καλλίμαχος",
+  "kind": "author",
+  "gloss_ru": "александрийский поэт и учёный III в. до н. э.",
+  "gloss_en": "Alexandrian poet and scholar, 3rd c. BC",
+  "wikidata": "Q192417",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Каллимах"
+   ],
+   "en": [
+    "Callimach"
+   ],
+   "la": [],
+   "grc": [
+    "Καλλίμαχ"
+   ]
+  },
+  "exclude": []
+ },
+ {
+  "id": "acusilaus",
+  "ru": "Акусилай",
+  "en": "Acusilaus",
+  "orig": "Ἀκουσίλαος",
+  "kind": "author",
+  "gloss_ru": "аргосский логограф VI в. до н. э., автор генеалогий",
+  "gloss_en": "Argive logographer, 6th c. BC, author of genealogies",
+  "wikidata": "Q423894",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Акусила"
+   ],
+   "en": [
+    "Acusilaus"
+   ],
+   "la": [],
+   "grc": [
+    "Ἀκουσίλα"
+   ]
+  },
+  "exclude": []
+ },
+ {
+  "id": "aeschylus",
+  "ru": "Эсхил",
+  "en": "Aeschylus",
+  "orig": "Αἰσχύλος",
+  "kind": "author",
+  "gloss_ru": "афинский трагик V в. до н. э.",
+  "gloss_en": "Athenian tragedian, 5th c. BC",
+  "wikidata": "Q40939",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Эсхил"
+   ],
+   "en": [
+    "Aeschyl"
+   ],
+   "la": [],
+   "grc": [
+    "Αἰσχύλ"
+   ]
+  },
+  "exclude": []
+ },
+ {
+  "id": "demon",
+  "ru": "Демон",
+  "en": "Demon",
+  "orig": "Δήμων",
+  "kind": "author",
+  "gloss_ru": "аттидограф, историк Аттики (рубеж IV–III вв. до н. э.)",
+  "gloss_en": "Atthidographer, historian of Attica (c. 300 BC)",
+  "wikidata": "",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Демон(?:а|у|ом)?(?![а-яё])"
+   ],
+   "en": [
+    "Demon(?![a-z])"
+   ],
+   "la": [],
+   "grc": [
+    "Δήμων"
+   ]
+  },
+  "exclude": []
+ },
+ {
+  "id": "ps-apollodorus",
+  "ru": "Псевдо-Аполлодор",
+  "en": "Pseudo-Apollodorus",
+  "orig": "Ἀπολλόδωρος",
+  "kind": "author",
+  "gloss_ru": "автор мифографической «Библиотеки» (I–II вв. н. э.), приписанной Аполлодору Афинскому",
+  "gloss_en": "author of the mythographic Library (1st–2nd c. AD), ascribed to Apollodorus of Athens",
+  "wikidata": "Q12506564",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Псевдо-Аполлодор"
+   ],
+   "en": [
+    "Pseudo-Apollodor"
    ],
    "la": [],
    "grc": []

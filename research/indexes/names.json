@@ -2498,5 +2498,356 @@
    ]
   },
   "exclude": []
+ },
+ {
+  "id": "deucalion",
+  "ru": "Девкалион",
+  "en": "Deucalion",
+  "orig": "Δευκαλίων",
+  "kind": "hero",
+  "gloss_ru": "сын Прометея, переживший потоп; отец Эллина",
+  "gloss_en": "son of Prometheus who survived the flood; father of Hellen",
+  "wikidata": "Q207715",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Девкалион(?:а|у|ом|е)?(?![а-яё])"
+   ],
+   "en": [
+    "Deucalion"
+   ],
+   "la": [],
+   "grc": [
+    "Δευκαλί"
+   ]
+  },
+  "exclude": []
+ },
+ {
+  "id": "prometheus",
+  "ru": "Прометей",
+  "en": "Prometheus",
+  "orig": "Προμηθεύς",
+  "kind": "god",
+  "gloss_ru": "титан, отец Девкалиона",
+  "gloss_en": "Titan, father of Deucalion",
+  "wikidata": "Q83160",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Промете(?:й|я|ю|ем|е)(?![а-яё])"
+   ],
+   "en": [
+    "Prometheus"
+   ],
+   "la": [],
+   "grc": [
+    "Προμηθ"
+   ]
+  },
+  "exclude": []
+ },
+ {
+  "id": "epimetheus",
+  "ru": "Эпиметей",
+  "en": "Epimetheus",
+  "orig": "Ἐπιμηθεύς",
+  "kind": "god",
+  "gloss_ru": "титан, брат Прометея, муж Пандоры",
+  "gloss_en": "Titan, brother of Prometheus, husband of Pandora",
+  "wikidata": "Q41054",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Эпимете(?:й|я|ю|ем|е)(?![а-яё])"
+   ],
+   "en": [
+    "Epimetheus"
+   ],
+   "la": [],
+   "grc": [
+    "Ἐπιμηθ"
+   ]
+  },
+  "exclude": []
+ },
+ {
+  "id": "pandora",
+  "ru": "Пандора",
+  "en": "Pandora",
+  "orig": "Πανδώρα",
+  "kind": "hero",
+  "gloss_ru": "первая женщина, жена Эпиметея",
+  "gloss_en": "the first woman, wife of Epimetheus",
+  "wikidata": "Q131346",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Пандор(?:а|ы|е|у|ой)(?![а-яё])"
+   ],
+   "en": [
+    "Pandora"
+   ],
+   "la": [],
+   "grc": [
+    "Πανδώρ"
+   ]
+  },
+  "exclude": []
+ },
+ {
+  "id": "pyrrha",
+  "ru": "Пирра",
+  "en": "Pyrrha",
+  "orig": "Πύρρα",
+  "kind": "hero",
+  "gloss_ru": "дочь Эпиметея и Пандоры, жена Девкалиона",
+  "gloss_en": "daughter of Epimetheus and Pandora, wife of Deucalion",
+  "wikidata": "Q622809",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Пирр(?:а|ы|е|у|ой)(?![а-яё])"
+   ],
+   "en": [
+    "Pyrrha"
+   ],
+   "la": [],
+   "grc": [
+    "Πύρρα",
+    "Πύρραν"
+   ]
+  },
+  "exclude": []
+ },
+ {
+  "id": "amphictyon",
+  "ru": "Амфиктион",
+  "en": "Amphictyon",
+  "orig": "Ἀμφικτύων",
+  "kind": "hero",
+  "gloss_ru": "сын Девкалиона",
+  "gloss_en": "son of Deucalion",
+  "wikidata": "Q474854",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Амфиктион"
+   ],
+   "en": [
+    "Amphictyon"
+   ],
+   "la": [],
+   "grc": [
+    "Ἀμφικτύων"
+   ]
+  },
+  "exclude": []
+ },
+ {
+  "id": "mimas",
+  "ru": "Мимант",
+  "en": "Mimas",
+  "orig": "Μίμας",
+  "kind": "hero",
+  "gloss_ru": "отец Гиппота",
+  "gloss_en": "father of Hippotes",
+  "wikidata": "",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Мимант"
+   ],
+   "en": [
+    "Mimas"
+   ],
+   "la": [],
+   "grc": [
+    "Μίμαντ"
+   ]
+  },
+  "exclude": []
+ },
+ {
+  "id": "cretheus",
+  "ru": "Крефей",
+  "en": "Cretheus",
+  "orig": "Κρηθεύς",
+  "kind": "hero",
+  "gloss_ru": "сын Эола, сына Эллина",
+  "gloss_en": "son of Aeolus son of Hellen",
+  "wikidata": "Q869665",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Крефе(?:й|я|ю|ем|е)(?![а-яё])"
+   ],
+   "en": [
+    "Cretheus"
+   ],
+   "la": [],
+   "grc": [
+    "Κρηθέ"
+   ]
+  },
+  "exclude": []
+ },
+ {
+  "id": "athamas",
+  "ru": "Афамант",
+  "en": "Athamas",
+  "orig": "Ἀθάμας",
+  "kind": "hero",
+  "gloss_ru": "сын Эола, сына Эллина",
+  "gloss_en": "son of Aeolus son of Hellen",
+  "wikidata": "Q143880",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Афамант"
+   ],
+   "en": [
+    "Athamas"
+   ],
+   "la": [],
+   "grc": [
+    "Ἀθάμαντ"
+   ]
+  },
+  "exclude": []
+ },
+ {
+  "id": "sisyphus",
+  "ru": "Сисиф",
+  "en": "Sisyphus",
+  "orig": "Σίσυφος",
+  "kind": "hero",
+  "gloss_ru": "сын Эола, сына Эллина",
+  "gloss_en": "son of Aeolus son of Hellen",
+  "wikidata": "Q102561",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Сисиф"
+   ],
+   "en": [
+    "Sisyphus"
+   ],
+   "la": [],
+   "grc": [
+    "Σισύφ"
+   ]
+  },
+  "exclude": []
+ },
+ {
+  "id": "iocastus",
+  "ru": "Иокаст",
+  "en": "Iocastus",
+  "orig": "Ἰόκαστος",
+  "kind": "hero",
+  "gloss_ru": "сын Эола, основатель Регия",
+  "gloss_en": "son of Aeolus, founder of Rhegium",
+  "wikidata": "Q3801330",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Иокаст"
+   ],
+   "en": [
+    "Iocastus"
+   ],
+   "la": [],
+   "grc": [
+    "Ἰόκαστ",
+    "Ἰοκάστ"
+   ]
+  },
+  "exclude": []
+ },
+ {
+  "id": "tritopatores",
+  "ru": "Тритопаторы",
+  "en": "Tritopatores",
+  "orig": "Τριτοπάτορες",
+  "kind": "god",
+  "gloss_ru": "божества-предки; в орфической традиции — «стражи ветров» Амаклид, Протокл и Протокреонт",
+  "gloss_en": "ancestral divinities; in the Orphic tradition the guardians of the winds Amacleides, Protocles and Protocreon",
+  "wikidata": "Q4463223",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Тритопатор",
+    "Амаклид",
+    "Амалкид",
+    "Протокреонт",
+    "Протокл(?:е|ом|у|а)?(?![а-яё])"
+   ],
+   "en": [
+    "Tritopator",
+    "Amacleides",
+    "Amalkeides",
+    "Protocreon",
+    "Protocles"
+   ],
+   "la": [],
+   "grc": [
+    "Ἀμακλείδ",
+    "Πρωτοκρέοντ",
+    "Πρωτοκλ"
+   ]
+  },
+  "exclude": []
+ },
+ {
+  "id": "leto",
+  "ru": "Лето",
+  "en": "Leto",
+  "orig": "Λητώ",
+  "kind": "god",
+  "gloss_ru": "мать Аполлона и Артемиды; когда она ступила на Делос, остров перестал плавать",
+  "gloss_en": "mother of Apollo and Artemis; when she set foot on Delos, the island stopped drifting",
+  "wikidata": "Q103107",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Лето(?![а-яё])"
+   ],
+   "en": [
+    "Leto"
+   ],
+   "la": [],
+   "grc": [
+    "Λητώ",
+    "Λητοῦ"
+   ]
+  },
+  "exclude": []
+ },
+ {
+  "id": "zeus",
+  "ru": "Зевс",
+  "en": "Zeus",
+  "orig": "Ζεύς",
+  "kind": "god",
+  "gloss_ru": "верховный бог греков",
+  "gloss_en": "the supreme god of the Greeks",
+  "wikidata": "Q34201",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Зевс"
+   ],
+   "en": [
+    "Zeus"
+   ],
+   "la": [],
+   "grc": [
+    "Ζεύ",
+    "Διὸς",
+    "Διός"
+   ]
+  },
+  "exclude": []
  }
 ]

@@ -1,0 +1,563 @@
+{
+ "version": "0.2",
+ "homer": [
+  {
+   "line": "10.1",
+   "grc": "<a class=\"lemma-link\" href=\"#s1\">Αἰολίην δ’ ἐς νῆσον</a> ἀφικόμεθ’· ἔνθα δ’ ἔναιεν",
+   "ru": "На Эолийский остров прибыли мы; там обитал",
+   "en": "To the Aeolian island we came; there dwelt"
+  },
+  {
+   "line": "10.2",
+   "grc": "<a class=\"lemma-link\" href=\"#s2\">Αἴολος Ἱπποτάδης</a>, φίλος ἀθανάτοισι θεοῖσιν,",
+   "ru": "Эол Гиппотад, любезный бессмертным богам,",
+   "en": "Aeolus son of Hippotes, dear to the deathless gods,"
+  },
+  {
+   "line": "10.3",
+   "grc": "<a class=\"lemma-link\" href=\"#s3\">πλωτῇ ἐνὶ νήσῳ</a>· πᾶσαν δέ τέ μιν πέρι τεῖχος",
+   "ru": "на плавучем острове; весь его кругом — стена",
+   "en": "on a floating island; all round it [is] a wall"
+  },
+  {
+   "line": "10.4",
+   "grc": "<a class=\"lemma-link\" href=\"#s4\">χάλκεον ἄρρηκτον</a>, λισσὴ δ’ ἀναδέδρομε πέτρη.",
+   "ru": "медная, несокрушимая, и гладкая вздымается скала.",
+   "en": "of bronze, unbreakable, and smooth rock rises up."
+  }
+ ],
+ "scholia": [
+  {
+   "id": "s1",
+   "ref": "Σ Од. 10.1",
+   "lemma": "Αἰολίην δ’ ἐς νῆσον",
+   "dindorf": "II 443.26–444.7",
+   "scan": "https://archive.org/details/scholiagraeodyss02homeuoft/page/n46/mode/1up",
+   "chips": [
+    "география странствий"
+   ],
+   "late": "",
+   "parts": [
+    {
+     "sigla": "Q",
+     "label": "отдельная схолия к той же лемме · 443.26–28",
+     "grc": "<span class=\"lm\">Αἰολίην δ’ ἐς νῆσον]</span> Αἰολίαι νῆσοι πρὸς τῇ Σικελίᾳ ζ΄, Αἰόλη ἡ κατὰ τὸν πορθμὸν Στρογγύλη, Διδύμη, Ἱερὰ, Ἱκεσία, Λιπάρα, Ἐρικώδης, Φοινικώδης.",
+     "ru": "<span class=\"lm\">На Эолийский остров]</span> Эолийских островов у Сицилии семь: Эоле — Стронгила у пролива,<sup class=\"n\"><a href=\"#n1a\">α</a></sup> Дидима, Гиера, Гикесия, Липара, Эрикодес, Финикодес.<sup class=\"n\"><a href=\"#n1b\">β</a></sup>",
+     "en": "<span class=\"lm\">To the Aeolian island]</span> The Aeolian islands off Sicily are seven: Aeole, the Strongyle by the strait;<sup class=\"n\"><a href=\"#n1a-en\">α</a></sup> Didyme, Hiera, Hicesia, Lipara, Ericodes, Phoenicodes.<sup class=\"n\"><a href=\"#n1b-en\">β</a></sup>"
+    },
+    {
+     "sigla": "B Q V",
+     "label": "основная схолия · 443.29–444.4",
+     "grc": "οὐ τὰς Αἰόλου νήσους νῦν λεγομένας, ἀλλά τινα ἄλλην ἐκτετοπισμένην νῆσον λέγει. οἱ δὲ λέγοντες περὶ Σικελίαν καὶ Ἰταλίαν πεπλανῆσθαι τὸν Ὀδυσσέα Λωτοφάγους μὲν λέγουσι τοὺς νῦν Ἀκραγαντίνους, οἱ δὲ τοὺς Καμαριναίους, Κύκλωπας δὲ τοὺς Λεοντίνους.",
+     "ru": "Он говорит не об островах, которые ныне называются островами Эола, а о каком-то другом, удалённом острове.<sup class=\"n\"><a href=\"#n1c\">γ</a></sup> Те же, кто утверждает, что Одиссей странствовал около Сицилии и Италии, лотофагами называют нынешних акрагантян (другие — камаринцев), а киклопами — леонтинцев.<sup class=\"n\"><a href=\"#n1d\">δ</a></sup>",
+     "en": "He does not mean the islands now called the islands of Aeolus, but some other, far-removed island.<sup class=\"n\"><a href=\"#n1c-en\">γ</a></sup> Those who say that Odysseus wandered around Sicily and Italy call the Lotus-eaters the present-day Acragantines (others, the Camarinaeans), and the Cyclopes the Leontines.<sup class=\"n\"><a href=\"#n1d-en\">δ</a></sup>"
+    },
+    {
+     "sigla": "V",
+     "label": "продолжение только в V · 444.4–7",
+     "grc": "τὰς δὲ Αἰόλου νήσους τήν τε κατὰ τὸν πορθμὸν Στρογγύλην καὶ τὰς λοιπὰς ἕξ, Διδύμην, Ἱερὰν, Ἱκεσίαν, Λιπάραν, Ἐρικοῦσσαν, Φοινικοῦσσαν. τινὲς δὲ ταύτας τὰς νήσους ἐν τῷ Τυρρηνικῷ πελάγει κεῖσθαι λέγουσιν.",
+     "ru": "А островами Эола [они называют] Стронгилу у пролива и остальные шесть: Дидиму, Гиеру, Гикесию, Липару, Эрикуссу, Финикуссу.<sup class=\"n\"><a href=\"#n1b\">β</a></sup> Некоторые же говорят, что эти острова лежат в Тирренском море.",
+     "en": "And as the islands of Aeolus [they name] Strongyle by the strait and the remaining six: Didyme, Hiera, Hicesia, Lipara, Ericussa, Phoenicussa.<sup class=\"n\"><a href=\"#n1b-en\">β</a></sup> Some, however, say that these islands lie in the Tyrrhenian Sea."
+    }
+   ],
+   "apparatus": [
+    "443.26 (к схолии Q) Cf. p. 444, 4. 449, 3. et schol. Apoll. Rh. 3, 42. BUTTM.",
+    "443.29 Cf. schol. ad v. 20.",
+    "444.1 οἱ δὲ] τινὲς δὲ P., omisso λέγοντες. (Схолия есть и в P.)",
+    "444.6 Φοινικοῦσσαν] Non bene hic inserta legebantur hæc: τινὲς δὲ ἀλληγοροῦντες — προστασσόμενοι, quæ vid. infra ad v. 6. BUTTM.",
+    "Рядом, не переведено: 443.22–25 — схолия Q к 9.564, перенесённая сюда Буттманом (см. примеч. γ)."
+   ],
+   "notes": [
+    {
+     "id": "n1a",
+     "mark": "α",
+     "ru": "В схолии Q «Эоле» (Αἰόλη) стоит перед Стронгилой и при счёте «семь» отдельным островом не считается; вероятно, так названа сама Стронгила как остров Эола: по Страбону (6.2.11), на Стронгиле, как говорят, жил Эол. Буттман сопоставляет с. 444.4 (список V) и 449.3 Диндорфа и схолии к Аполлонию Родосскому 3.42.",
+     "en": "In the Q scholion 'Aeole' (Αἰόλη) precedes Strongyle and is not counted among the seven; it probably names Strongyle itself as Aeolus' island: according to Strabo (6.2.11), Aeolus is said to have lived on Strongyle. Buttmann compares Dindorf pp. 444.4 (the V list) and 449.3 and the scholia on Apollonius Rhodius 3.42.",
+     "tag": "",
+     "source": "Dindorf II 443.26–28 with apparatus ad 26: https://archive.org/download/scholiagraeodyss02homeuoft/page/n46.jpg ; Strabo 6.2.11: https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/6B*.html"
+    },
+    {
+     "id": "n1b",
+     "mark": "β",
+     "ru": "Это Липарские острова. Формы Ἐρικώδης, Φοινικώδης в схолии Q совпадают с перечнем Диодора (5.7.1), формы Ἐρικοῦσσα, Φοινικοῦσσα в V — со Страбоном (6.2.11). Гикесии нет ни у Диодора, ни у Страбона, ни у Плиния («Естественная история» 3.92–94): на её месте у всех троих Эвоним. Стронгила — Стромболи, Гиера — Вулькано, Дидима — Салина, Эрикусса — Аликуди, Финикусса — Филикуди; Гикесия надёжно не отождествлена.",
+     "en": "These are the Lipari Islands. The forms Ἐρικώδης, Φοινικώδης in the Q scholion match Diodorus' list (5.7.1); the forms Ἐρικοῦσσα, Φοινικοῦσσα in V match Strabo (6.2.11). Hicesia appears in neither Diodorus nor Strabo nor Pliny (NH 3.92–94); all three have Euonymus in its place. Strongyle is Stromboli, Hiera Vulcano, Didyme Salina, Ericussa Alicudi, Phoenicussa Filicudi; Hicesia has no secure identification.",
+     "tag": "",
+     "source": "Diod. 5.7.1: https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/5A*.html ; Strabo 6.2.10–11: https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/6B*.html ; Plin. NH 3.92–94: https://www.attalus.org/translate/pliny_hn3b.html ; modern names: https://www.livius.org/articles/place/aeolian-islands-isole-eolie/"
+    },
+    {
+     "id": "n1c",
+     "mark": "γ",
+     "ru": "«Удалённый» (ἐκτετοπισμένην) — буквально «вынесенный со своего места». По словарю Пape, этим глаголом александрийские толкователи Гомера описывали перенесение странствий Одиссея в отдалённые, точно не определённые земли (со ссылкой на Лерса и Зенгебуша); ср. ἐκτετοπισμένα «отдалённые края» у Страбона (3.4.19, по LSJ). Ту же мысль выражает схолия Q, которую Буттман перенёс сюда от 9.564 (Dindorf II 443.22–25): Гомер называет места просто — «в землю киклопов», «на Эолийский остров», — а «где они находятся или где лежат, уже не поясняет» (ποῦ δέ εἰσιν αὗται ἢ ποῦ κείμεναι οὐκέτι διασαφεῖ).",
+     "en": "'Far-removed' (ἐκτετοπισμένην) means literally 'moved out of its place'. According to Pape, Alexandrian Homeric critics used this verb for the transfer of Odysseus' wanderings to remote, vaguely defined lands (citing Lehrs and Sengebusch); cf. ἐκτετοπισμένα, 'remote regions', in Strabo 3.4.19 (LSJ). The same idea appears in a Q scholion that Buttmann moved here from 9.564 (Dindorf II 443.22–25): Homer names the places simply, 'to the land of the Cyclopes', 'to the Aeolian island', but 'where these are or where they lie he no longer makes clear' (ποῦ δέ εἰσιν αὗται ἢ ποῦ κείμεναι οὐκέτι διασαφεῖ).",
+     "tag": "",
+     "source": "LSJ and Pape s.v. ἐκτοπίζω: https://lsj.gr/wiki/ἐκτοπίζω ; Dindorf II 443.22–25 with apparatus ('Hoc scholion in Q. adscriptum ad ι, 564. huc rettulit Buttmannus'): https://archive.org/download/scholiagraeodyss02homeuoft/page/n46.jpg"
+    },
+    {
+     "id": "n1d",
+     "mark": "δ",
+     "ru": "Схолия отражает античный спор о географии странствий Одиссея. «Сицилийская» локализация опиралась на старую традицию: по Фукидиду (6.2.1), древнейшими жителями части Сицилии называли киклопов и лестригонов; по Страбону (1.2.9), киклопы и лестригоны владели краем у Этны и Леонтин. Здесь леонтинцы — киклопы, а в схолиях к 10.86 (H V) область Леонтин отдана лестригонам. Скептики шли за Эратосфеном, который, по Страбону (1.2.15), говорил, что места странствий Одиссея найдутся тогда, когда найдётся сапожник, сшивший мешок ветров.",
+     "en": "The scholion reflects the ancient debate over the geography of Odysseus' wanderings. The 'Sicilian' localisation drew on an old tradition: Thucydides (6.2.1) names the Cyclopes and Laestrygonians as the earliest inhabitants of part of Sicily, and Strabo (1.2.9) says they ruled the region around Aetna and Leontini. Here the Leontines are the Cyclopes, whereas the scholia on 10.86 (H V) give the territory of Leontini to the Laestrygonians. Sceptics followed Eratosthenes, who, according to Strabo (1.2.15), said that one would find the scene of Odysseus' wanderings when one found the cobbler who sewed up the bag of the winds.",
+     "tag": "",
+     "source": "Thuc. 6.2.1; Strabo 1.2.9 and 1.2.15: https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/1B1*.html ; schol. Od. 10.86 (H V), Dindorf II 453.29–454.8: https://archive.org/download/scholiagraeodyss02homeuoft/page/n56.jpg"
+    }
+   ],
+   "log": [
+    {
+     "step": "Черновик",
+     "who": "Claude Opus 5.5 · Anthropic",
+     "text": "Версия 0.1: перевод и новые схолии для макета страницы. Греческий текст набран по распознанному скану Диндорфа и с изданием не сверялся."
+    },
+    {
+     "step": "Независимый перевод",
+     "who": "GPT-6 Astra · OpenAI (Codex)",
+     "text": "Перевод только с греческого, без доступа к опубликованному. Попутно сверил текст с изданием: 3 замечания (сиглы, аппарат), все подтвердились."
+    },
+    {
+     "step": "Сверка текста",
+     "who": "Claude Opus 5.5 · Anthropic",
+     "text": "Проверено по сканам Диндорфа, с. 443–444. Сиглы разделены: B Q V — до слова Λεοντίνους, дальше только V. Добавлена отдельная схолия Q (443.26–28), к которой относится лемма: на странице её не было. В аппарат внесены чтение P и замечание Буттмана о вставке после Φοινικοῦσσαν."
+    },
+    {
+     "step": "Арбитраж",
+     "who": "Claude Opus 5.5 · Anthropic",
+     "text": "Опубликованный черновик и независимый перевод сведены в один. Расхождения:",
+     "items": [
+      {
+       "grc": "οὐ τὰς Αἰόλου νήσους",
+       "was": "было «островами Эоловыми» / ‘Aeolian’, у независимого — «островами Эола»",
+       "verdict": "принят независимый: Αἰόλου — родительный падеж имени, а не прилагательное, как у Гомера (Αἰολίην); с прилагательным фраза читается так, будто «Эолийский остров — не из Эолийских островов»"
+      },
+      {
+       "grc": "ἐκτετοπισμένην",
+       "was": "было «лежащем в стороне», у независимого — «расположенном вдали»",
+       "verdict": "по смыслу принят независимый: «удалённом» / ‘far-removed’ — термин александрийских толкователей (примеч. γ)"
+      },
+      {
+       "grc": "Ἱκεσίαν",
+       "was": "было «Гикесию», у независимого — «Икесию»",
+       "verdict": "оставлено «Гикесия»: придыхание передаётся последовательно, как в «Гиера»"
+      },
+      {
+       "grc": "Αἰολίην δ’ ἐς νῆσον (Гомер 10.1)",
+       "was": "было «на остров Эолию», у независимого — «на Эолийский остров»",
+       "verdict": "принят независимый: Αἰολίην — прилагательное при νῆσον; так остров Гомера отличается от «островов Эола» в схолии"
+      }
+     ]
+    },
+    {
+     "step": "Редактор",
+     "who": "Александр Михельс, PhD",
+     "text": "",
+     "pending": "Ожидает проверки."
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "ref": "Σ Од. 10.2",
+   "lemma": "Αἴολος Ἱπποτάδης",
+   "dindorf": "II 444.8–445.23",
+   "scan": "https://archive.org/details/scholiagraeodyss02homeuoft/page/n47/mode/1up",
+   "chips": [
+    "мифография",
+    "звёзды и ветры",
+    "магия"
+   ],
+   "late": "поздний слой: P, Цец",
+   "parts": [
+    {
+     "sigla": "Q",
+     "label": "начало длинной схолии · 444.8–17",
+     "grc": "<span class=\"lm\">Αἴολος Ἱπποτάδης]</span> Δευκαλίων, ἐφ’ οὗ ὁ κατακλυσμὸς γέγονε, Προμηθέως μὲν ἦν υἱὸς, μητρὸς δὲ, ὡς οἱ πλεῖστοι λέγουσι, Κλυμένης, ὡς δὲ Ἡσίοδος Προνόης, ὡς δὲ Ἀκουσίλαος Ἡσιόνης τῆς Ὠκεανοῦ καὶ Προμηθέως. ἔγημε δὲ Πύρραν τὴν Ἐπιμηθέως καὶ Πανδώρας τῆς ἀντὶ τοῦ πυρὸς δοθείσης τῷ Ἐπιμηθεῖ εἰς γυναῖκα. γίνονται δὲ τῷ Δευκαλίωνι θυγατέρες μὲν δύο Πρωτογένεια καὶ Μελάνθεια, υἱοὶ δὲ Ἀμφικτύων καὶ Ἕλλην. οἱ δὲ λέγουσιν ὅτι Ἕλλην γόνῳ μὲν ἦν Διὸς, λόγῳ δὲ Δευκαλίωνος. ἐξ οὗ Ἕλληνος Αἴολος πατὴρ Κρηθέως, Ἀθάμαντος, Σισύφου. ἄλλος δέ ἐστιν ὁ Ἱππότου παῖς· ὁ δὲ Ἱππότης υἱὸς Μίμαντος.",
+     "ru": "<span class=\"lm\">Эол Гиппотад]</span> Девкалион, при котором случился потоп, был сыном Прометея, а матерью его была, как говорит большинство, Климена, по Гесиоду — Проноя, по Акусилаю — Гесиона, дочь Океана и [жена] Прометея. Он женился на Пирре, дочери Эпиметея и Пандоры, которую дали Эпиметею в жёны взамен огня. У Девкалиона рождаются две дочери, Протогенея и Меланфея, и сыновья Амфиктион и Эллин. Некоторые же говорят, что Эллин по рождению был сыном Зевса, а по имени — Девкалиона. От этого Эллина [родился] Эол, отец Крефея, Афаманта, Сисифа. Другой же [Эол] — сын Гиппота; а Гиппот — сын Миманта.<sup class=\"n\"><a href=\"#n2a\">ε</a></sup>",
+     "en": "<span class=\"lm\">Aeolus son of Hippotes]</span> Deucalion, in whose time the flood took place, was the son of Prometheus; his mother was, as most say, Clymene, according to Hesiod Pronoe, according to Acusilaus Hesione, daughter of Oceanus and [wife] of Prometheus. He married Pyrrha, daughter of Epimetheus and of Pandora, who was given to Epimetheus as his wife in return for the fire. To Deucalion are born two daughters, Protogeneia and Melantheia, and sons, Amphictyon and Hellen. Some say that Hellen was by birth the son of Zeus, but by name the son of Deucalion. From this Hellen [came] Aeolus, father of Cretheus, Athamas and Sisyphus. Another [Aeolus] is the son of Hippotes; and Hippotes was the son of Mimas.<sup class=\"n\"><a href=\"#n2a-en\">ε</a></sup>"
+    },
+    {
+     "sigla": "Q",
+     "label": "три Эола · 444.17–21",
+     "grc": "τρεῖς γὰρ Αἰόλους φασὶ γεγενῆσθαι, πρῶτον τὸν τοῦ Ἕλληνος, δεύτερον τὸν ἐξ Ἱππότου καὶ Μελανίππης, τρίτον τὸν ἐκ Ποσειδῶνος καὶ Ἄρνης. πρὸς τοῦτον δέ φησιν ὁ Ἀσκληπιάδης τὸν Ὀδυσσέα ἐλθεῖν τὸν ἐκ Ποσειδῶνος. φυλάσσει δὲ Ὅμηρος τὸ εἰπεῖν ἐξ Ἱππότου.",
+     "ru": "Ведь говорят, что Эолов было три: первый — сын Эллина, второй — от Гиппота и Меланиппы, третий — от Посейдона и Арны. По словам Асклепиада,<sup class=\"n\"><a href=\"#n2b\">ϛ</a></sup> Одиссей прибыл именно к этому — к тому, что от Посейдона. Гомер же строго держится того, чтобы говорить «от Гиппота».<sup class=\"n\"><a href=\"#n2c\">ζ</a></sup>",
+     "en": "For they say there were three Aeoluses: the first the son of Hellen, the second the one from Hippotes and Melanippe, the third the one from Poseidon and Arne. Asclepiades<sup class=\"n\"><a href=\"#n2b-en\">ϛ</a></sup> says that it was to this one, the one from Poseidon, that Odysseus came. Homer, however, keeps strictly to saying 'from Hippotes'.<sup class=\"n\"><a href=\"#n2c-en\">ζ</a></sup>"
+    },
+    {
+     "sigla": "V",
+     "label": "отдельная схолия: два Эола · 444.21–22",
+     "grc": "Αἴολοι δύο, οὗτος μὲν Ἱππότου τοῦ Μίμαντος, ἕτερος δὲ Ἕλληνος, ὃς ἦν Διὸς, οὗ καὶ Ἡσίοδος μέμνηται.",
+     "ru": "Эолов два: этот — [сын] Гиппота, сына Миманта, другой — [сын] Эллина, который был [сыном] Зевса; о нём упоминает и Гесиод.",
+     "en": "There are two Aeoluses: this one [is the son] of Hippotes son of Mimas, the other [the son] of Hellen, who was [the son] of Zeus; Hesiod too mentions him."
+    },
+    {
+     "sigla": "P, поздняя рука",
+     "label": "приписка из комментария Цеца к Ликофрону, 738 · 444.23–445.16",
+     "grc": "[Αἴολος ὁ Ἱππότου ἐν Ῥηγίῳ τῆς Ἰταλίας ὢν μὲν ἀστρονομικώτατος καὶ πολύπειρος ἐφρόντισε μᾶλλον εἰδέναι περὶ τῶν ἀνέμων χάριν τῶν ναυτιλλομένων καὶ προλέγειν, ὡς εἰ τυχὸν ἐν ταύρῳ ἄστρῳ πλεύσειαν μέχρι τοῦδε ζέφυρος αὐτοῖς ἔσεται πνέων ἄνεμος, εἰ ἐν δύσει κυνὸς τοιόσδε, καὶ ἐν τῇ ἀνατολῇ αὐτοῦ ἕτερος. καὶ τούτου ἕνεκα ἐμυθεύσαντο αὐτὸν εἶναι δεσπότην ἀνέμων. ὁμοίως δὲ καὶ τὸν Ἀμακλείδην καὶ Πρωτοκλῆ καὶ Πρωτοκρέοντα, ὥς φησιν Ὀρφεύς. οὕτως οὖν ἔφασαν αὐτοὺς δεσπότας εἶναι ἀνέμων, ὡς καὶ δέειν ἀσκῷ ὃν ἂν βούλοιντο αὐτῶν, τοὺς δ’ ἄλλους ἐᾶν πνεῖν. οὕτω γοῦν φασι καὶ τὸν Αἴολον τοῦτον τοὺς ἄλλους ἀνέμους ἐν τῷ ἀσκῷ καταδήσαντα δοῦναι τῷ Ὀδυσσεῖ, ζέφυρον δὲ μόνον ἐᾶσαι ὡς αὐτῷ χρειωδέστατον καὶ φορόν. ἐγὼ δὲ καὶ τὸν ἀσκὸν δέχομαι. φασὶ γὰρ οἱ μηχανικοὶ καὶ τὰ ἀρρητουργικὰ γράφοντες ὡς ἐάν τις δελφῖνα ποιήσῃ ἀσκὸν, ἐκδείρας αὐτὸν καὶ ἔχων παρ’ ἑαυτῷ, ποιήσει ὃν ἂν βούλοιτο πνεῖν ἄνεμον. καὶ ἴσως καὶ οὗτος ὁ Αἴολος ἦν ἂν καὶ μαγικώτατος. τούτου δὲ τοῦ Αἰόλου υἱὸς Ἰόκαστος, ὃς τὸ Ῥήγιον ἔκτισεν, ὥς φησι Καλλίμαχος «Ῥήγιον ἄστυ λιπὼν Ἰοκάστου Αἰολίδαο.»",
+     "ru": "Эол, сын Гиппота, живший в Регии в Италии, будучи весьма сведущ в астрономии и многоопытен, больше всего заботился о том, чтобы знать о ветрах ради мореплавателей и предсказывать их: например, что если они поплывут под созвездием Тельца, то до такого-то [срока] им будет дуть западный ветер; если при заходе Пса — такой-то, а при его восходе — другой. Поэтому и сложили миф, будто он владыка ветров.<sup class=\"n\"><a href=\"#n2d\">η</a></sup> Так же [рассказывали] и об Амаклиде, Протокле и Протокреонте, как говорит Орфей.<sup class=\"n\"><a href=\"#n2e\">θ</a></sup> Владыками ветров их называли в том смысле, что они могли даже завязать в мехе любой из ветров, какой пожелают, а остальным позволить дуть. Так, говорят, и этот Эол завязал остальные ветры в мехе и отдал Одиссею, а свободным оставил только западный ветер, как самый нужный ему и попутный. Я же принимаю и [рассказ о] мехе. Ведь механики и те, кто пишет о тайных действах (ἀρρητουργικά), говорят, что если кто сделает из дельфина мех, содрав с него кожу, и будет держать его при себе, то заставит дуть любой ветер, какой захочет.<sup class=\"n\"><a href=\"#n2f\">ι</a></sup> И, может быть, этот Эол был к тому же весьма искусен в магии. Сын этого Эола — Иокаст, основавший Регий, как говорит Каллимах: «покинув Регий, город Иокаста Эолида».",
+     "en": "Aeolus son of Hippotes, who lived at Rhegium in Italy, being highly versed in astronomy and of wide experience, took particular care to know about the winds for the sake of seafarers and to foretell them: for instance, that if they sailed under the constellation of the Bull, a west wind would blow for them until such-and-such a time; if at the setting of the Dog, such-and-such a wind; and at its rising, another. For this reason they made up the myth that he was master of the winds.<sup class=\"n\"><a href=\"#n2d-en\">η</a></sup> So too [they said] of Amacleides, Protocles and Protocreon, as Orpheus says.<sup class=\"n\"><a href=\"#n2e-en\">θ</a></sup> They called them masters of the winds in this sense: that they could even bind in a bag whichever of the winds they wished and let the others blow. In just this way, they say, this Aeolus too bound up the other winds in the bag and gave it to Odysseus, leaving only the west wind free, as the most useful to him and the one that would carry him on. I, for my part, accept the bag as well. For the mechanicians and those who write on secret operations (ἀρρητουργικά) say that if someone makes a dolphin into a bag, flaying it, and keeps it by him, he will make whatever wind he wishes blow.<sup class=\"n\"><a href=\"#n2f-en\">ι</a></sup> And perhaps this Aeolus too was a great master of magic. The son of this Aeolus was Iocastus, who founded Rhegium, as Callimachus says: 'leaving Rhegium, town of Iocastus son of Aeolus'."
+    },
+    {
+     "sigla": "P",
+     "label": "конец приписки, по Буттману — из другого источника · 445.16–23",
+     "grc": "ὁ γὰρ Ὀδυσσεὺς τοὺς ἐναντίους ἀνέμους ἐγκεκλεισμένους ἔχων ἐν τῷ ἀσκῷ, μόνῳ δὲ ναυτιλλόμενος τῷ ζεφύρῳ ἐννέα νυχθήμερα πλεύσας τῷ δεκάτῳ τὴν αὐτοῦ πατρίδα καὶ πυρπολοῦντάς τινας θεασάμενος κοπιάσας, ὡς ἀεὶ τὸν πόδα τῆς νηὸς ἔχων, ἐκαθεύδησεν. οἱ φίλοι δὲ τούτου λύουσι τὸν ἀσκὸν χρυσίον νομίσαντες ἔχειν. ἐκχυθέντων δὲ τῶν ἀνέμων καὶ ἀντιπνόως ταραξάντων τὸ πέλαγος πάλιν εἰς τὴν Αἰολίαν ἀνεπόρευσεν ἄκων τοῖς ἀνέμοις φορούμενος.]",
+     "ru": "Ведь Одиссей, держа встречные ветры запертыми в мехе и плывя при одном западном ветре, проплыв девять суток, на десятые увидел свою родину и каких-то людей, жгущих огни, и, утомлённый, ибо всё время держал шкот корабля, уснул. А товарищи его развязывают мех, думая, что в нём золото. Когда же ветры вырвались и, дуя навстречу, взбаламутили море, он против воли снова вернулся в Эолию, уносимый ветрами.<sup class=\"n\"><a href=\"#n2g\">κ</a></sup>",
+     "en": "For Odysseus, having the contrary winds shut up in the bag and sailing with the west wind alone, after sailing nine days and nights, on the tenth caught sight of his homeland and of some people tending fires, and, worn out, since he had been holding the sheet of the ship the whole time, fell asleep. His companions untie the bag, thinking it held gold. When the winds poured out and, blowing against them, churned up the sea, he went back again to Aeolia against his will, carried along by the winds.<sup class=\"n\"><a href=\"#n2g-en\">κ</a></sup>"
+    }
+   ],
+   "apparatus": [
+    "444.9 οἱ addidi.",
+    "444.10 Προνόης correxi pro πρυνόης quod est in H., vel πρυνείης, quod habet Q. et in Πρυλείης mutandum videbatur Welckero.",
+    "444.11 καὶ Π. Welckerus pro τοῦ Π. — Πανδώρας τῆς—δοθείσης Buttm. pro Πανδώραν τὴν—δοθεῖσαν.",
+    "444.12 ἀντὶ H. ἀπὸ Q. Correxit etiam Heinrichius apud Buttmann. collato Hesiodo Op. 57.",
+    "444.15 Αἴολος—Ἱππότου παῖς] αἰόλος. ἄλλος δέ ἐστιν ὁ ἕλληνος παῖς, πατὴρ δὲ κρηθέως (κριθέως Q.), ἀθάμαντος, σισύφου H.Q. Correxit Buttm. collata Eustathii annotatione. (На эту исправленную фразу и отсылает γάρ в τρεῖς γὰρ.)",
+    "444.20 τὸν Ὀδυσσέα ἐλθεῖν addidit Buttm. — τὸ] τῷ Q.",
+    "444.22 Ἕλληνος Ernestius pro Ἕλλην. (схолия V)",
+    "444.23 Αἴολος—] Sumtum hoc scholium usque ad vocem Αἰολίδαο e Tzetzæ Comm. ad Lycophr. 738. Duo similia additamenta notabimus infra ad 305. Sunt autem hæc omnia in P. scripta a manu recentiore. — μὲν] βασιλεὺς Tzetzes.",
+    "445.1 περὶ Tzetzes. παρὰ P.",
+    "445.2 ὡς τυχὸν ἐν] εἰ ἐν Tzetzes, unde εἰ addidi.",
+    "445.3 ἔσεται πνέων Tzetzes. ἔσεσθαι πλέων P.",
+    "445.6 Πρωτοκρέοντα Tzetzes. Πρωκρέοντα P. — Ὀρφεύς] Vid. fr. Orph. 53. e Suid. v. τριτοπάτορες et Etym. M. p. 768, 1. BUTTM.",
+    "445.15 Καλλίμαχος] Vid. fr. 202. ex hoc Tzetzæ loco et ad Lycophr. 45. BUTTM.",
+    "445.16 ὁ γὰρ —] Quæ hinc sequuntur aliunde excerpta et ab hoc scholio aliena spectant ad argumentum hujus libri. BUTTM."
+   ],
+   "notes": [
+    {
+     "id": "n2a",
+     "mark": "ε",
+     "ru": "Начало схолии Q — главный источник для Гесиода, фр. 4 M–W, и Акусилая, FGrHist 2 F 34 (мать Девкалиона). Текст здесь во многом восстановлен издателями: Προνόης — конъектура Диндорфа вместо πρυνόης (H) и πρυνείης (Q); καί перед Προμηθέως — конъектура Велькера вместо τοῦ (Гесиона, дочь Океана, — жена Прометея и у Эсхила, «Прометей прикованный» 555–560); «взамен огня» (ἀντί H, ἀπό Q) — ср. Гесиод, «Труды и дни» 57; слова «Эол… сын Гиппота» исправлены Буттманом по Евстафию, тогда как в H и Q: «Другой — сын Эллина, отец Крефея, Афаманта, Сисифа». Генеалогия близка к «Библиотеке» Псевдо-Аполлодора (1.7.2–3): Пирра — дочь Эпиметея и Пандоры; Эллин, «отцом которого некоторые называют Зевса»; сыновья Эллина — Дор, Ксуф и Эол.",
+     "en": "The opening of the Q scholion is the main source for Hesiod fr. 4 M–W and Acusilaus FGrHist 2 F 34 (Deucalion's mother). The text owes much to editors: Προνόης is Dindorf's conjecture for πρυνόης (H) and πρυνείης (Q); καί before Προμηθέως is Welcker's for τοῦ (Hesione, daughter of Oceanus, is Prometheus' wife also in Aeschylus, Prometheus Bound 555–560); 'in return for the fire' (ἀντί H, ἀπό Q): cf. Hesiod, Works and Days 57; the words 'Aeolus … son of Hippotes' are Buttmann's correction from Eustathius, where H and Q read 'Another is the son of Hellen, father of Cretheus, Athamas, Sisyphus'. The genealogy is close to the Library of Pseudo-Apollodorus (1.7.2–3): Pyrrha daughter of Epimetheus and Pandora; Hellen, 'whose father some say was Zeus'; Hellen's sons Dorus, Xuthus and Aeolus.",
+     "tag": "",
+     "source": "Dindorf II 444.8–17 with apparatus ad 9–15: https://archive.org/download/scholiagraeodyss02homeuoft/page/n47.jpg ; Apollod. 1.7.2–3: https://www.theoi.com/Text/Apollodorus1.html ; Aesch. PV 555–560; Hes. Op. 57; fragment numbers (Hes. fr. 4 M–W; Acusilaus FGrHist 2 F 34) as given in the secondary literature on this scholion, not checked in the editions."
+    },
+    {
+     "id": "n2b",
+     "mark": "ϛ",
+     "ru": "Асклепиад из Трагила (IV в. до н. э.), автор «Трагедуменов»; Якоби печатает это место как FGrHist 12 F 26. По замечанию Якоби, такая генеалогия расходится и с Гомером (Эол — сын Гиппота), и с Еврипидом (у него Посейдон — отец Эола от Меланиппы), но совпадает с Диодором (4.67.3–6): Гиппот, сын Миманта, родил от Меланиппы Эола; дочь Эола Арна родила Посейдону Эола и Беота, и этот Эол занял острова в Тирренском море, названные по нему Эолийскими, и основал Липару. Слова «Одиссей прибыл» (τὸν Ὀδυσσέα ἐλθεῖν) добавлены Буттманом.",
+     "en": "Asclepiades of Tragilus (4th c. BC), author of the Tragodoumena; Jacoby prints this passage as FGrHist 12 F 26. Jacoby observes that this genealogy agrees neither with Homer (Aeolus son of Hippotes) nor with Euripides (Poseidon father of an Aeolus by Melanippe), but fits Diodorus (4.67.3–6): Hippotes son of Mimas begot Aeolus by Melanippe; Aeolus' daughter Arne bore Aeolus and Boeotus to Poseidon, and this Aeolus took the islands in the Tyrrhenian Sea, named Aeolian after him, and founded Lipara. The words 'Odysseus came' (τὸν Ὀδυσσέα ἐλθεῖν) are Buttmann's supplement.",
+     "tag": "",
+     "source": "H. Lloyd-Jones, ZPE 87 (1991) 297–300, at 298, reporting Jacoby on FGrHist 12 F 26: https://www.uni-koeln.de/phil-fak/ifa/zpe/downloads/1991/087pdf/087297.pdf ; Diod. 4.67.3–6: https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/4D*.html ; Dindorf II apparatus ad 444.20."
+    },
+    {
+     "id": "n2c",
+     "mark": "ζ",
+     "ru": "«Строго держится» (φυλάσσει): Гомер дважды называет Эола Гиппотадом (10.2 и 10.36: Αἰόλου μεγαλήτορος Ἱπποτάδαο), и этим его текст противостоит Асклепиаду. В Q вместо τό стоит τῷ: «оберегает [это], говоря „от Гиппота“». Понимание «избегает говорить „от Гиппота“» (φυλάσσω в значении «остерегаться», для действительного залога редкое: LSJ B.7) противоречит гомеровскому тексту и не принято.",
+     "en": "'Keeps strictly to' (φυλάσσει): Homer twice calls Aeolus Hippotades (10.2 and 10.36: Αἰόλου μεγαλήτορος Ἱπποτάδαο), so his text stands against Asclepiades. Q reads τῷ for τό: 'guards [this] by saying “from Hippotes”'. The rendering 'avoids saying “from Hippotes”' (φυλάσσω as 'beware of', rare in the active: LSJ B.7) contradicts Homer's text and is not adopted.",
+     "tag": "",
+     "source": "Hom. Od. 10.2, 10.36 (Murray, Perseus): https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0135%3Abook%3D10%3Acard%3D1 ; Dindorf II apparatus ad 444.20 (τὸ] τῷ Q.); LSJ s.v. φυλάσσω B.3, B.6, B.7: https://lsj.gr/wiki/φυλάσσω"
+    },
+    {
+     "id": "n2d",
+     "mark": "η",
+     "ru": "По замечанию Буттмана (в аппарате Диндорфа), приписка вписана в P поздней рукой, а текст до слов «Иокаста Эолида» взят из комментария Цеца к Ликофрону (738); поэтому «я» в словах «Я же принимаю и мех» — голос Цеца. Где в P «ὢν μέν», у Цеца «ὢν βασιλεύς» («будучи царём»). Рассказ, начинающийся словами «Ведь Одиссей…», Буттман считает выдержкой из другого источника, относящейся к содержанию всей песни; Диндорф печатает обе части в одних скобках. Толкование рационалистическое: у Гомера Эол — поставленный Зевсом распорядитель ветров (ταμίης ἀνέμων, 10.21), здесь — знаток погоды. Ср. Диодор 5.7.7 (Эол ввёл у мореходов паруса и, наблюдая огонь вулкана, предсказывал ветры) и Полибий у Страбона 1.2.15 (Эол указывал мореходам путь в Мессинском проливе и потому прослыл владыкой ветров).",
+     "en": "As Buttmann noted (in Dindorf's apparatus), the addition was written into P by a later hand, and the text up to 'Iocastus son of Aeolus' was taken from Tzetzes' commentary on Lycophron (738); the 'I' of 'I, for my part, accept the bag' is therefore Tzetzes. Where P has ὢν μέν, Tzetzes has ὢν βασιλεύς ('being king'). The narrative beginning 'For Odysseus…' Buttmann regards as excerpted from elsewhere and belonging to the argument of the whole book; Dindorf prints both parts within one bracket. The reading is rationalising: in Homer, Aeolus is the steward of the winds appointed by Zeus (ταμίης ἀνέμων, 10.21); here he is a weather expert. Cf. Diodorus 5.7.7 (Aeolus introduced sails to seafarers and foretold the winds by watching the volcano's fire) and Polybius in Strabo 1.2.15 (Aeolus taught navigators the course through the Strait of Messina and so was called lord of the winds).",
+     "tag": "",
+     "source": "Dindorf II apparatus ad 444.23 and 445.16: https://archive.org/download/scholiagraeodyss02homeuoft/page/n47.jpg ; https://archive.org/download/scholiagraeodyss02homeuoft/page/n48.jpg ; Hom. Od. 10.21; Diod. 5.7.7: https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/5A*.html ; Strabo 1.2.15: https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/1B1*.html"
+    },
+    {
+     "id": "n2e",
+     "mark": "θ",
+     "ru": "Амаклид, Протокл и Протокреонт — Тритопаторы. По «Суде» (τ 1023 Adler), в «Физике» Орфея Тритопаторы названы Амалкидом, Протоклом и Протоклеонтом, «привратниками и стражами ветров» (Orph. fr. 318 Kern); Демон (FGrHist 327 F 2) прямо называл их ветрами. Диндорф печатает Πρωτοκρέοντα по Цецу (в P Πρωκρέοντα) и отсылает к «Суде», к «Большому этимологику» (768.1) и к фр. 53 по старой нумерации орфических фрагментов.",
+     "en": "Amacleides, Protocles and Protocreon are the Tritopatores. According to the Suda (τ 1023 Adler), the Physikos of Orpheus names the Tritopatores Amalkeides, Protokles and Protokleon, 'doorkeepers and guardians of the winds' (Orph. fr. 318 Kern); Demon (FGrHist 327 F 2) called them winds outright. Dindorf prints Πρωτοκρέοντα from Tzetzes (P has Πρωκρέοντα) and refers to the Suda, the Etymologicum Magnum (768.1) and fr. 53 in the old numbering of the Orphic fragments.",
+     "tag": "",
+     "source": "Suda τ 1023 (Suda On Line): https://www.cs.uky.edu/~raphael/sol/sol-entries/tau/1023 ; Dindorf II apparatus ad 445.6: https://archive.org/download/scholiagraeodyss02homeuoft/page/n48.jpg"
+    },
+    {
+     "id": "n2f",
+     "mark": "ι",
+     "ru": "Рецепт «механиков» перекликается с Гомером: Эол дал Одиссею мех, «содрав» кожу с девятилетнего быка (ἐκδείρας ἀσκὸν βοὸς ἐννεώροιο, 10.19), — тот же глагол стоит здесь о дельфине. Иокаст, сын Эола, по Диодору (5.8.1), царствовал на италийском побережье вплоть до области Регия. Стих Каллимаха Диндорф приводит как фр. 202 по старой нумерации (его же цитирует Цец к Ликофрону 45).",
+     "en": "The 'mechanicians'' recipe echoes Homer: Aeolus gave Odysseus a bag made by 'flaying' a nine-year-old ox (ἐκδείρας ἀσκὸν βοὸς ἐννεώροιο, 10.19); the same verb is used here of the dolphin. Iocastus son of Aeolus, according to Diodorus (5.8.1), ruled the coast of Italy as far as the region of Rhegium. Dindorf cites the line of Callimachus as fr. 202 in the old numbering (Tzetzes quotes it also on Lycophron 45).",
+     "tag": "",
+     "source": "Hom. Od. 10.19 (Murray, Perseus): https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0135%3Abook%3D10%3Acard%3D1 ; Diod. 5.8.1: https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/5A*.html ; Dindorf II apparatus ad 445.15."
+    },
+    {
+     "id": "n2g",
+     "mark": "κ",
+     "ru": "Пересказ «Одиссеи» 10.28–55: девять дней и ночей плавания (28), на десятый день показалась родина (29), люди, жгущие огни (πυρπολέοντας, 30), сон Одиссея, который всё время сам правил шкотом (πόδα νηὸς ἐνώμων, 32), подозрение спутников, что в мехе золото и серебро (35), возвращение бурей к Эолийскому острову (54–55). «Шкот» (πούς) — гомеровский морской термин из того же места, а не отступление от Гомера.",
+     "en": "A paraphrase of Odyssey 10.28–55: nine days and nights of sailing (28), the homeland in sight on the tenth day (29), people tending fires (πυρπολέοντας, 30), the sleep of Odysseus, who had handled the sheet himself the whole time (πόδα νηὸς ἐνώμων, 32), the companions' suspicion that the bag held gold and silver (35), the storm carrying them back to the Aeolian island (54–55). 'Sheet' (πούς) is Homer's own nautical term in this passage, not a departure from Homer.",
+     "tag": "",
+     "source": "Hom. Od. 10.28–55 (Murray, Perseus): https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0135%3Abook%3D10%3Acard%3D1 ; https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0135%3Abook%3D10%3Acard%3D46"
+    }
+   ],
+   "log": [
+    {
+     "step": "Черновик",
+     "who": "Claude Opus 5.5 · Anthropic",
+     "text": "Версия 0.1: перевод и новые схолии для макета страницы. Греческий текст набран по распознанному скану Диндорфа и с изданием не сверялся."
+    },
+    {
+     "step": "Независимый перевод",
+     "who": "GPT-6 Astra · OpenAI (Codex)",
+     "text": "Перевод только с греческого, без доступа к опубликованному. Попутно сверил текст с изданием: 11 замечаний; все подтвердились, в одном описка при выписывании аппарата (ἔσται вместо ἔσεται)."
+    },
+    {
+     "step": "Сверка текста",
+     "who": "Claude Opus 5.5 · Anthropic",
+     "text": "Проверено по сканам, с. 444–445. Сигла — Q, а не «H Q». Напечатано начало схолии Q (444.8–17), прежде сокращённое с […], и отдельная схолия V (444.21–22). Приписка P дана целиком (444.23–445.23): на странице она без пометы обрывалась на словах δεσπότην ἀνέμων. В тексте P, как в издании, строчные ταύρῳ, κυνός и нет запятой после πλεύσειαν. В «Одиссее» 10.2 — θεοῖσιν (у Мюррея с ν)."
+    },
+    {
+     "step": "Арбитраж",
+     "who": "Claude Opus 5.5 · Anthropic",
+     "text": "Опубликованный черновик и независимый перевод сведены в один. Расхождения:",
+     "items": [
+      {
+       "grc": "φυλάσσει δὲ Ὅμηρος τὸ εἰπεῖν ἐξ Ἱππότου",
+       "was": "было «строго держится того, чтобы называть его сыном Гиппота», у независимого — «избегает говорить „от Гиппота“»",
+       "verdict": "оставлен смысл опубликованного перевода (примеч. ζ): Гомер дважды называет Эола Гиппотадом (10.2, 10.36); формулировка уточнена — «говорить „от Гиппота“»"
+      },
+      {
+       "grc": "ἐφρόντισε μᾶλλον εἰδέναι",
+       "was": "было «старался прежде всего знать», у независимого — «старался ещё лучше изучить»",
+       "verdict": "оставлен смысл опубликованного: μᾶλλον — «предпочтительно», εἰδέναι — «знать», а не «изучать»; уточнено: «больше всего заботился о том, чтобы знать»"
+      },
+      {
+       "grc": "τὸν πόδα τῆς νηὸς ἔχων",
+       "was": "части [b] на странице не было; независимый переводит «шкот» и замечает, что это не гомеровское слово",
+       "verdict": "перевод «шкот» принят, замечание отклонено: у Гомера в 10.32 стоит πόδα νηὸς ἐνώμων (примеч. κ)"
+      },
+      {
+       "grc": "Αἴολος Ἱπποτάδης (Гомер 10.2)",
+       "was": "было «Эол Гиппотад», у независимого — «Эол, сын Гиппота»",
+       "verdict": "оставлено «Гиппотад»: схолия обсуждает именно отчество"
+      }
+     ]
+    },
+    {
+     "step": "Редактор",
+     "who": "Александр Михельс, PhD",
+     "text": "",
+     "pending": "Ожидает проверки."
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "ref": "Σ Од. 10.3",
+   "lemma": "πλωτῇ ἐνὶ νήσῳ",
+   "dindorf": "II 445.24–446.14",
+   "scan": "https://archive.org/details/scholiagraeodyss02homeuoft/page/n48/mode/1up",
+   "chips": [
+    "Аристарх",
+    "толкование слова"
+   ],
+   "late": "",
+   "parts": [
+    {
+     "sigla": "H M Q T V",
+     "label": "основная схолия · 445.24–446.7",
+     "grc": "<span class=\"lm\">πλωτῇ ἐνὶ νήσῳ]</span> ἔνιοι μὲν τὴν ἐμπλεομένην, οἷον τὴν ἐν πλεομένοις τόποις κειμένην νῆσον, ἢ ἐπιθετικῶς λέγει τὴν Αἰολίαν. ὁ δὲ Ἀρίσταρχος πλωτῇ ἀντὶ τοῦ φορητῇ, οἷον περιφερομένῃ, ὡς ποτὲ μὲν ἐν τοῖς δεξιοῖς μέρεσι, ποτὲ δὲ ἐν τοῖς ἀριστεροῖς ὁρᾶσθαι, οἷον δή τι καὶ περὶ τὴν Δῆλον ἱστορεῖ Πίνδαρος λέγων οὕτως «ἦν γὰρ τὸ πάροιθε φορητὰ κυμάτεσσι Δᾶλος παντοδαπῶν τ’ ἀνέμων ῥιπαῖς.» ἐν δὲ ἄλλῳ, προσπλεομένῃ ὑπ’ ἀνθρώπων, ἢ περιφερομένῃ ὑπὸ τῆς θαλάσσης. ἄμεινον δὲ τὸ πρότερον· εἰ γὰρ ἐπέπλει τῇ θαλάσσῃ, οὐκ ἂν οὐδὲ ἐκ δευτέρου αὐτὴν εὗρεν ὁ Ὀδυσσεύς. ἢ περιρρεομένῃ.",
+     "ru": "<span class=\"lm\">На плавучем острове]</span> Некоторые [понимают] «куда плавают», то есть остров, лежащий в судоходных местах; или же он употребляет [это слово] как эпитет Эолии. Аристарх же [толкует]: «плавучем» — в значении «носимом», то есть перемещающемся, так что его видно то справа, то слева, — нечто подобное рассказывает и Пиндар о Делосе, говоря так: «ибо прежде Делос носим был волнами и порывами всевозможных ветров».<sup class=\"n\"><a href=\"#n3a\">λ</a></sup> В другом [комментарии]: «к которому подплывают люди» или «носимом морем». Лучше первое: ведь если бы он плавал по морю, Одиссей не нашёл бы его во второй раз.<sup class=\"n\"><a href=\"#n3b\">μ</a></sup> Или: «омываемом кругом».",
+     "en": "<span class=\"lm\">On a floating island]</span> Some [take it as] 'sailed to', that is, an island lying in waters where ships sail; or he uses [the word] as an epithet of Aeolia. Aristarchus, however, [takes] 'floating' as standing for 'carried', that is, moving about, so that it is seen now on the right, now on the left; Pindar tells something similar about Delos, speaking thus: 'for formerly Delos was carried by the waves and by the blasts of winds of every kind'.<sup class=\"n\"><a href=\"#n3a-en\">λ</a></sup> In another [commentary]: 'approached by men in ships' or 'carried about by the sea'. The former is better: for if it floated on the sea, Odysseus would not have found it a second time.<sup class=\"n\"><a href=\"#n3b-en\">μ</a></sup> Or: 'washed all round'."
+    },
+    {
+     "sigla": "Q",
+     "label": "другая схолия (ἄλλως) · 446.7–10",
+     "grc": "Ἄλλως. ἐν πλεομένοις τόποις κειμένῃ ὅτι εἰσὶ νῆσοι πλησίον ἠπείρου κείμεναι τὸ πρὸς τῇ ἠπείρῳ μέρος ἔχουσαι ὑφάλων πετρῶν πλῆρες, αἳ οὐ δύνανται περιπλέεσθαι. ὁ δὲ Ἀρίσταρχος περιφορητῇ· οἰκειότερον γάρ φησι μὴ ἐρριζῶσθαι τῶν ἀνέμων νῆσον.",
+     "ru": "Иначе. «Лежащем в судоходных местах», поскольку есть острова, лежащие близ материка, у которых обращённая к материку сторона полна подводных скал, и их нельзя обойти кругом на корабле.<sup class=\"n\"><a href=\"#n3c\">ν</a></sup> Аристарх же — «носимом кругом»: ведь, говорит он, острову ветров больше подобает не быть укоренённым.",
+     "en": "Alternatively. 'Lying in waters where ships sail': because there are islands lying near the mainland whose side facing the mainland is full of reefs, and these cannot be sailed around.<sup class=\"n\"><a href=\"#n3c-en\">ν</a></sup> Aristarchus, however, [reads] 'carried about': for, he says, it is more fitting that the island of the winds should not be rooted."
+    },
+    {
+     "sigla": "T",
+     "label": "отдельная схолия к слову πλωτῇ · 446.11–14",
+     "grc": "<span class=\"lm\">πλωτῇ]</span> οἱ μὲν μυθικῶς ἀπέδοσαν τὸ ἐπιπλέουσαν τῇ θαλάσσῃ· καὶ ἴσως τερατεύεται, ἵνα μὴ ζητῶμεν πῶς κεῖται. οἱ δὲ πλεομένην καὶ ἐν πλωτοῖς οὖσαν τόποις, ἐπειδὴ τὰ ἄλλα πρόσθε χωρία κακόξενα. οἱ δὲ τὴν προσορμιστὴν, ἀλλ’ οὐκ ἀμιχθαλόεσσαν.",
+     "ru": "<span class=\"lm\">Плавучем]</span> Одни истолковали это мифически: «плавающем по морю»; и, может быть, [поэт] рассказывает чудо, чтобы мы не допытывались, как [остров] расположен. Другие — «[острове], куда плавают» и находящемся в судоходных местах, поскольку прочие места, [где они побывали] прежде, были негостеприимны. Третьи — «у которого можно стать на якорь», а не «неприступном» (ἀμιχθαλόεσσα).<sup class=\"n\"><a href=\"#n3d\">ξ</a></sup>",
+     "en": "<span class=\"lm\">Floating]</span> Some rendered it mythically as 'floating on the sea'; and perhaps [the poet] is telling a marvel, so that we should not inquire how it is situated. Others [take it as] 'sailed to' and lying in navigable waters, since the other places [visited] before were inhospitable. Others [take it as] 'where one can come to anchor', and not 'unapproachable' (ἀμιχθαλόεσσα).<sup class=\"n\"><a href=\"#n3d-en\">ξ</a></sup>"
+    }
+   ],
+   "apparatus": [
+    "445.24 ἔνιοι] ἐνίοτε V. — οἷον] οἱ δὲ H.Q. (В H Q: «одни…, другие…».)",
+    "445.25 νῆσον] νήσους Q. ad sequentia relatum. — ἢ ἐπιθετικῶς—Αἰολίην om. V. — ἢ ἐπιθετικῶς H. δὲ ἐπιθετικῶς Q.T. — Αἰολίαν H.T. αἰολίην Q.V.",
+    "445.26 πλωτῇ om. H. — ἀντὶ τοῦ addidi ex T.",
+    "445.26 (в аппарате на с. 446) περιφερομένῃ] παραφερομένῃ T. Et παραφερομένην dixit Eustathius p. 1644, 52. qui addit ἢ συνεχείᾳ σεισμῶν ἢ ἄλλως ὁπωσοῦν. — ὡς H. et Eustathius. ὥστε Q.T.",
+    "446.2 Πίνδαρος] Fragm. 58. (старая нумерация; ныне фр. 33d Snell–Maehler)",
+    "446.3 φορητὰ] φορητὴ T. — Δᾶλος H.M. et Eustathius. ἁλὸς T. (qui κυματέσσιν). δῆλος Q. Δᾶλος, quod hoc loco positum metro adversatur, non habet Strabo hæc verba afferens 10. p. 485., ut scholiasta ex præcedentibus verbis Pindari supplevisse videatur. — τ’ addidi ex editionibus Strabonis, cujus codices id omittunt.",
+    "446.4 ὑπ’ ἀ.] ὑπὸ τῶν ἀ. H.Q., non Eustathius. Proximum τῆς om. T.",
+    "446.6 ὁ addidi ex H. et Eustathio.",
+    "446.7 Ἄλλως] Hoc quoque scholion verbis leviter mutatis excerpsit Eustathius."
+   ],
+   "notes": [
+    {
+     "id": "n3a",
+     "mark": "λ",
+     "ru": "Пиндар, фр. 33d Snell–Maehler (у Диндорфа — фр. 58 по старой нумерации). Эти стихи сохранил Страбон (10.5.2): Делос носило волнами и ветрами, пока на него не ступила Лето в родовых муках, — тогда со дна поднялись четыре столпа и закрепили скалу. Диндорф замечает, что Δᾶλος в схолии нарушает метр и у Страбона отсутствует: схолиаст, по-видимому, вставил имя из предшествующих слов Пиндара. Сравнение с Делосом подкрепляет буквальное понимание πλωτή, приписанное Аристарху Самофракийскому (александрийский филолог II в. до н. э.).",
+     "en": "Pindar fr. 33d Snell–Maehler (fr. 58 in Dindorf's older numbering). The lines are preserved by Strabo (10.5.2): Delos was tossed by waves and winds until Leto, in the pangs of childbirth, set foot on it; then four pillars rose from the sea floor and fixed the rock. Dindorf notes that Δᾶλος in the scholion breaks the metre and is absent from Strabo, so the scholiast apparently supplied the name from Pindar's preceding words. The comparison with Delos supports the literal reading of πλωτή attributed to Aristarchus of Samothrace (Alexandrian scholar, 2nd c. BC).",
+     "tag": "",
+     "source": "Strabo 10.5.2 (C485): https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/10E*.html ; Dindorf II apparatus ad 446.2–3: https://archive.org/download/scholiagraeodyss02homeuoft/page/n49.jpg"
+    },
+    {
+     "id": "n3b",
+     "mark": "μ",
+     "ru": "Довод от сюжета: в той же песни буря приносит корабли Одиссея обратно к Эолийскому острову (10.54–55), и Одиссей снова идёт к Эолу (10.60); будь остров плавучим, он не нашёл бы его во второй раз.",
+     "en": "An argument from the plot: later in the same book the storm drives Odysseus' ships back to the Aeolian island (10.54–55), and he goes to Aeolus again (10.60); had the island been drifting, he would not have found it a second time.",
+     "tag": "",
+     "source": "Hom. Od. 10.54–60 (Murray, Perseus): https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0135%3Abook%3D10%3Acard%3D46"
+    },
+    {
+     "id": "n3c",
+     "mark": "ν",
+     "ru": "Вторая схолия Q объясняет «судоходность» по-своему: πλωτή — остров, который можно обойти кругом на корабле, в отличие от прибрежных островов, чья обращённая к материку сторона усеяна подводными скалами. Евстафий пересказывает эту схолию с небольшими изменениями; вместо «перемещающемся» (περιφερομένῃ) он говорит παραφερομένην и добавляет: «то ли от непрерывных землетрясений, то ли как-то иначе» (ἢ συνεχείᾳ σεισμῶν ἢ ἄλλως ὁπωσοῦν).",
+     "en": "The second Q scholion explains 'navigable' in its own way: πλωτή is an island that can be sailed round, unlike coastal islands whose landward side is full of reefs. Eustathius reproduces this scholion with slight changes; for 'moving about' (περιφερομένῃ) he has παραφερομένην and adds 'either through continual earthquakes or in some other way' (ἢ συνεχείᾳ σεισμῶν ἢ ἄλλως ὁπωσοῦν).",
+     "tag": "",
+     "source": "Dindorf II apparatus ad 445.26 and 446.7 (Eustathius 1644.52, reported by Dindorf, not checked in Eustathius): https://archive.org/download/scholiagraeodyss02homeuoft/page/n49.jpg"
+    },
+    {
+     "id": "n3d",
+     "mark": "ξ",
+     "ru": "Последнее толкование T противопоставляет остров, «у которого можно стать на якорь», «неприступному»: ἀμιχθαλόεσσα — гомеровский эпитет Лемноса («Илиада» 24.753), который понимали как «негостеприимный» (= ἄμικτος) или как «дымный» (LSJ). Первое толкование T — поэт «рассказывает чудо, чтобы мы не допытывались», где лежит остров, — близко к взгляду, отражённому в Σ 10.1 (примеч. γ).",
+     "en": "The last interpretation in T contrasts an island 'where one can come to anchor' with an 'unapproachable' one: ἀμιχθαλόεσσα is the Homeric epithet of Lemnos (Iliad 24.753), understood either as 'inhospitable' (= ἄμικτος) or as 'smoky' (LSJ). T's first interpretation, that the poet 'tells a marvel so that we should not inquire' where the island lies, is close to the view reflected in Σ 10.1 (note γ).",
+     "tag": "",
+     "source": "LSJ s.v. ἀμιχθαλόεις: https://lsj.gr/wiki/ἀμιχθαλόεις ; Hom. Il. 24.753; Dindorf II 446.11–14: https://archive.org/download/scholiagraeodyss02homeuoft/page/n49.jpg"
+    }
+   ],
+   "log": [
+    {
+     "step": "Черновик",
+     "who": "Claude Opus 5.5 · Anthropic",
+     "text": "Версия 0.1: перевод и новые схолии для макета страницы. Греческий текст набран по распознанному скану Диндорфа и с изданием не сверялся."
+    },
+    {
+     "step": "Независимый перевод",
+     "who": "GPT-6 Astra · OpenAI (Codex)",
+     "text": "Перевод только с греческого, без доступа к опубликованному. Попутно сверил текст с изданием: 9 замечаний; все подтвердились, в двух описки при выписывании аппарата (ἔνιστε, αἰλός)."
+    },
+    {
+     "step": "Сверка текста",
+     "who": "Claude Opus 5.5 · Anthropic",
+     "text": "Проверено по сканам, с. 445–446. ῥιπαῖς вместо ῥιπαῖσιν: так у Диндорфа, ῥιπαῖσιν — форма современного текста Пиндара. Возвращена первая фраза схолии Q (Ἄλλως…), выпущенная на странице без пометы, и добавлена отдельная схолия T к πλωτῇ (446.11–14)."
+    },
+    {
+     "step": "Арбитраж",
+     "who": "Claude Opus 5.5 · Anthropic",
+     "text": "Опубликованный черновик и независимый перевод сведены в один. Расхождения:",
+     "items": [
+      {
+       "grc": "ἐν δὲ ἄλλῳ",
+       "was": "было «в другом [толковании]», у независимого — «в другом [источнике]»",
+       "verdict": "ἐν ἄλλῳ отсылает к другому списку или комментарию; русский выровнен с английским: «в другом [комментарии]»"
+      },
+      {
+       "grc": "οὐκ ἂν οὐδὲ ἐκ δευτέρου",
+       "was": "у независимого в английском ‘a second time either’",
+       "verdict": "отклонено: ‘either’ подразумевает, что и в первый раз остров не нашли; русское «и во второй раз» упрощено до «во второй раз»"
+      }
+     ]
+    },
+    {
+     "step": "Редактор",
+     "who": "Александр Михельс, PhD",
+     "text": "",
+     "pending": "Ожидает проверки."
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "ref": "Σ Од. 10.4",
+   "lemma": "χάλκεον ἄρρηκτον",
+   "dindorf": "II 446.15–19",
+   "scan": "https://archive.org/details/scholiagraeodyss02homeuoft/page/n49/mode/1up",
+   "chips": [
+    "грамматика",
+    "рационализация"
+   ],
+   "late": "",
+   "parts": [
+    {
+     "sigla": "V",
+     "label": "к слову χάλκεον · 446.15–16",
+     "grc": "<span class=\"lm\">χάλκεον]</span> ἰσχυρόν. ἀπρόσβατον γάρ ἐστι διὰ τὴν περὶ αὐτὸ λειότητα.",
+     "ru": "<span class=\"lm\">Медная]</span> [То есть] прочная: ведь она неприступна из-за гладкости вокруг неё.<sup class=\"n\"><a href=\"#n4a\">ο</a></sup>",
+     "en": "<span class=\"lm\">Of bronze]</span> [That is,] strong: for it is inaccessible because of the smoothness around it.<sup class=\"n\"><a href=\"#n4a-en\">ο</a></sup>"
+    },
+    {
+     "sigla": "B Q",
+     "label": "к словам χάλκεον ἄρρηκτον · 446.17–18",
+     "grc": "<span class=\"lm\">χάλκεον ἄρρηκτον]</span> λείπει τὸ ἐστίν. πῶς ἄρρηκτον; ὅτι πέτρα περιτρέχει τὴν πόλιν περιβολῆς τάξιν ἐπέχουσα.",
+     "ru": "<span class=\"lm\">Медная, несокрушимая]</span> Недостаёт [слова] «есть». Почему несокрушимая? Потому что скала обегает город, занимая место ограды.<sup class=\"n\"><a href=\"#n4b\">π</a></sup>",
+     "en": "<span class=\"lm\">Of bronze, unbreakable]</span> 'Is' is missing. How [is it] unbreakable? Because a rock runs round the city, holding the place of an enclosure.<sup class=\"n\"><a href=\"#n4b-en\">π</a></sup>"
+    },
+    {
+     "sigla": "T",
+     "label": "к словам λισσὴ δὲ πέτρη · 446.19",
+     "grc": "<span class=\"lm\">λισσὴ δὲ πέτρη]</span> περιτρέχει τὴν πόλιν περιβόλου δίκην ἐπέχουσα.",
+     "ru": "<span class=\"lm\">Гладкая же скала]</span> Обегает город, простираясь наподобие ограды.",
+     "en": "<span class=\"lm\">And smooth rock]</span> It runs round the city, stretching like a circuit wall."
+    }
+   ],
+   "apparatus": [
+    "У Диндорфа аппарата к 446.15–19 нет."
+   ],
+   "notes": [
+    {
+     "id": "n4a",
+     "mark": "ο",
+     "ru": "«Из-за гладкости вокруг неё» (διὰ τὴν περὶ αὐτὸ λειότητα) можно понять двояко: как гладкость самой стены или как гладкую скалу вокруг неё; во втором случае V объясняет «медную» стену через «гладкую скалу» того же стиха. Независимый перевод понимает так: «из-за гладкости её поверхности со всех сторон». Оставлен буквальный перевод, который сохраняет обе возможности.",
+     "en": "'Because of the smoothness around it' (διὰ τὴν περὶ αὐτὸ λειότητα) admits two readings: the smoothness of the wall itself, or the smooth rock around it; on the second, V explains the 'bronze' wall through the 'smooth rock' of the same line. The independent translation reads 'because its surface is smooth all around'. The literal rendering is kept because it leaves both readings open.",
+     "tag": "расхождение переводов",
+     "source": "Dindorf II 446.15–16 (V): https://archive.org/download/scholiagraeodyss02homeuoft/page/n49.jpg ; Hom. Od. 10.4."
+    },
+    {
+     "id": "n4b",
+     "mark": "π",
+     "ru": "Две школьные операции. Грамматическая: в ст. 3–4 нет глагола («весь его кругом — стена медная, несокрушимая»), и схолиаст восполняет «есть». Рационалистическая: «медная стена» объясняется скалой, опоясывающей город. У Гомера стена окружает сам остров (μιν), а город появляется лишь в 10.13 (πόλιν καὶ δώματα καλά). То же объяснение короче повторено в T при словах «гладкая же скала»: там «наподобие ограды» (περιβόλου δίκην), в B Q — «место ограды» (περιβολῆς τάξιν).",
+     "en": "Two school moves. A grammatical one: lines 3–4 have no verb ('all round it a wall of bronze, unbreakable'), and the scholiast supplies 'is'. A rationalising one: the 'bronze wall' is explained as a rock ringing the city. In Homer the wall surrounds the island itself (μιν); the city first appears at 10.13 (πόλιν καὶ δώματα καλά). T repeats the explanation more briefly at 'and smooth rock': there 'like a circuit wall' (περιβόλου δίκην), in B Q 'the place of an enclosure' (περιβολῆς τάξιν).",
+     "tag": "",
+     "source": "Hom. Od. 10.3–4, 10.13 (Murray, Perseus): https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0135%3Abook%3D10%3Acard%3D1 ; Dindorf II 446.15–19: https://archive.org/download/scholiagraeodyss02homeuoft/page/n49.jpg"
+    }
+   ],
+   "log": [
+    {
+     "step": "Черновик",
+     "who": "Claude Opus 5.5 · Anthropic",
+     "text": "Версия 0.1: перевод и новые схолии для макета страницы. Греческий текст набран по распознанному скану Диндорфа и с изданием не сверялся."
+    },
+    {
+     "step": "Независимый перевод",
+     "who": "GPT-6 Astra · OpenAI (Codex)",
+     "text": "Перевод только с греческого, без доступа к опубликованному. Попутно сверил текст с изданием: 2 замечания (ошибочное περιβόλου, порядок частей), оба подтвердились."
+    },
+    {
+     "step": "Сверка текста",
+     "who": "Claude Opus 5.5 · Anthropic",
+     "text": "Проверено по скану, с. 446. περιβολῆς вместо περιβόλου: ошибка перешла из соседней схолии T. Части даны в порядке издания — сначала V, потом B Q; ἰσχυρόν с точкой, как в издании. Добавлена схолия T к λισσὴ δὲ πέτρη (446.19)."
+    },
+    {
+     "step": "Арбитраж",
+     "who": "Claude Opus 5.5 · Anthropic",
+     "text": "Опубликованный черновик и независимый перевод сведены в один. Расхождения:",
+     "items": [
+      {
+       "grc": "διὰ τὴν περὶ αὐτὸ λειότητα",
+       "was": "было «из-за гладкости вокруг неё», у независимого — «из-за гладкости своей поверхности со всех сторон»",
+       "verdict": "оставлен буквальный перевод, он допускает оба понимания; второе — в примечании ο"
+      },
+      {
+       "grc": "ἀπρόσβατον",
+       "was": "у независимого в английском ‘cannot be attacked’",
+       "verdict": "отклонено: ἀπρόσβατος — «к которому не подойти, на который не взойти», без военного смысла"
+      },
+      {
+       "grc": "περιβολῆς τάξιν ἐπέχουσα",
+       "was": "опубликованный перевод был сделан по ошибочному περιβόλου («занимая место городской стены»), у независимого — «выполняя роль ограды»",
+       "verdict": "по сути принят независимый: «занимая место ограды»; слова «городской» в греческом нет"
+      },
+      {
+       "grc": "πᾶσαν δέ τέ μιν πέρι τεῖχος (Гомер 10.3–4)",
+       "was": "оба перевода вставляли глагол: «обегает», «окружает»",
+       "verdict": "принят перевод без глагола: «весь его кругом — стена»; схолия B Q как раз отмечает, что глагола нет"
+      },
+      {
+       "grc": "λισσή (Гомер 10.4)",
+       "was": "в английском было ‘sheer’, у независимого — ‘smooth’",
+       "verdict": "принят независимый: на слове «гладкая» держатся схолии V и T"
+      }
+     ]
+    },
+    {
+     "step": "Редактор",
+     "who": "Александр Михельс, PhD",
+     "text": "",
+     "pending": "Ожидает проверки."
+    }
+   ]
+  }
+ ],
+ "notes": 17,
+ "parts": 14
+}

@@ -2239,5 +2239,53 @@
    ]
   },
   "exclude": []
+ },
+ {
+  "id": "lemnos",
+  "ru": "Лемнос",
+  "en": "Lemnos",
+  "orig": "Λῆμνος",
+  "kind": "island",
+  "gloss_ru": "остров на севере Эгейского моря",
+  "gloss_en": "island in the northern Aegean",
+  "wikidata": "Q192483",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Лемнос"
+   ],
+   "en": [
+    "Lemnos"
+   ],
+   "la": [],
+   "grc": [
+    "Λῆμν"
+   ]
+  },
+  "exclude": []
+ },
+ {
+  "id": "euonymus",
+  "ru": "Эвоним",
+  "en": "Euonymus",
+  "orig": "Εὐώνυμος",
+  "kind": "island",
+  "gloss_ru": "один из Липарских островов у Диодора, Страбона и Плиния; отождествление спорно",
+  "gloss_en": "one of the Lipari Islands in Diodorus, Strabo and Pliny; identification disputed",
+  "wikidata": "",
+  "pleiades": "",
+  "patterns": {
+   "ru": [
+    "Эвоним(?!ит)"
+   ],
+   "en": [
+    "Euonymus"
+   ],
+   "la": [],
+   "grc": [
+    "Εὐώνυμ"
+   ]
+  },
+  "exclude": []
  }
 ]

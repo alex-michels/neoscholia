@@ -41,17 +41,12 @@ def units():
         for n in c["notes"]:
             out.append(("zacher-1", f"n{n['n']}", f"прим. {n['n']}", [n["ru"], n["en"]]))
 
-    o = (ROOT / "src/odyssey-10.njk").read_text(encoding="utf-8")
-    homer = o[o.index('id="homer-h"'):o.index('id="sch-h"')]
-    out.append(("odyssey-10", "homer-h", "Од. 10.1–4", [strip(homer)]))
-    for m in re.finditer(r'<article class="seg" id="(s\d+)">(.*?)</article>', o, re.S):
-        sid, body = m.groups()
-        notes = re.findall(r'<p class="note" id="(n\d+[a-z])" data-lang="ru"><span class="mark">([^<]+)</span>(.*?)</p>\s*<p class="note" id="\1-en" data-lang="en">(.*?)</p>', body, re.S)
-        main = re.sub(r'<p class="note".*?</p>', "", body, flags=re.S)
-        verse = re.search(r'<span class="ref">([^<]+)</span>', main)
-        out.append(("odyssey-10", sid, verse.group(1).strip() if verse else sid, [strip(main)]))
-        for nid, mark, ru, en in notes:
-            out.append(("odyssey-10", nid, f"прим. {mark}", [strip(ru), strip(en)]))
+    o = json.loads((ROOT / "src/_data/scholia/odyssey-10.json").read_text(encoding="utf-8"))
+    out.append(("odyssey-10", "homer-h", "Од. 10.1–4", [strip(v[k]) for v in o["homer"] for k in ("grc", "ru", "en")]))
+    for s in o["scholia"]:
+        out.append(("odyssey-10", s["id"], s["ref"], [strip(p[k]) for p in s["parts"] for k in ("grc", "ru", "en")]))
+        for n in s["notes"]:
+            out.append(("odyssey-10", n["id"], f"прим. {n['mark']}", [strip(n["ru"]), strip(n["en"])]))
 
     a = (ROOT / "research/studies/laestrygonians/article.md").read_text(encoding="utf-8")
     notes = dict(re.findall(r"^\[\^(\d+)\]:\s*(.+)$", a, re.M))

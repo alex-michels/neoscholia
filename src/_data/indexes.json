@@ -508,6 +508,29 @@
      "letter": "А"
     },
     {
+     "id": "amphictyon",
+     "ru": "Амфиктион",
+     "en": "Amphictyon",
+     "orig": "Ἀμφικτύων",
+     "kind": "hero",
+     "gloss_ru": "сын Девкалиона",
+     "wikidata": "Q474854",
+     "pleiades": "",
+     "refs": [
+      {
+       "text": "Схолии к «Одиссее» X",
+       "links": [
+        {
+         "href": "odyssey-10.html#s2",
+         "label": "Σ Од. 10.2"
+        }
+       ]
+      }
+     ],
+     "n": 1,
+     "letter": "А"
+    },
+    {
      "id": "amphion",
      "ru": "Амфион",
      "en": "Amphion",
@@ -648,18 +671,9 @@
          "label": "I.47"
         }
        ]
-      },
-      {
-       "text": "Схолии к «Одиссее» X",
-       "links": [
-        {
-         "href": "odyssey-10.html#n3a",
-         "label": "прим. ε"
-        }
-       ]
       }
      ],
-     "n": 2,
+     "n": 1,
      "letter": "А"
     },
     {
@@ -778,11 +792,15 @@
         {
          "href": "odyssey-10.html#s2",
          "label": "Σ Од. 10.2"
+        },
+        {
+         "href": "odyssey-10.html#n2b",
+         "label": "прим. ϛ"
         }
        ]
       }
      ],
-     "n": 1,
+     "n": 2,
      "letter": "А"
     },
     {
@@ -801,29 +819,6 @@
         {
          "href": "zacher-1.html#n52",
          "label": "прим. 52"
-        }
-       ]
-      }
-     ],
-     "n": 1,
-     "letter": "А"
-    },
-    {
-     "id": "artemis",
-     "ru": "Артемида",
-     "en": "Artemis",
-     "orig": "Ἄρτεμις",
-     "kind": "god",
-     "gloss_ru": "богиня, сестра Аполлона, рождённая на Делосе",
-     "wikidata": "Q39503",
-     "pleiades": "",
-     "refs": [
-      {
-       "text": "Схолии к «Одиссее» X",
-       "links": [
-        {
-         "href": "odyssey-10.html#n3a",
-         "label": "прим. ε"
         }
        ]
       }
@@ -887,6 +882,33 @@
       }
      ],
      "n": 3,
+     "letter": "А"
+    },
+    {
+     "id": "athamas",
+     "ru": "Афамант",
+     "en": "Athamas",
+     "orig": "Ἀθάμας",
+     "kind": "hero",
+     "gloss_ru": "сын Эола, сына Эллина",
+     "wikidata": "Q143880",
+     "pleiades": "",
+     "refs": [
+      {
+       "text": "Схолии к «Одиссее» X",
+       "links": [
+        {
+         "href": "odyssey-10.html#s2",
+         "label": "Σ Од. 10.2"
+        },
+        {
+         "href": "odyssey-10.html#n2a",
+         "label": "прим. ε"
+        }
+       ]
+      }
+     ],
+     "n": 2,
      "letter": "А"
     },
     {
@@ -1071,11 +1093,23 @@
         {
          "href": "odyssey-10.html#s2",
          "label": "Σ Од. 10.2"
+        },
+        {
+         "href": "odyssey-10.html#n2a",
+         "label": "прим. ε"
+        },
+        {
+         "href": "odyssey-10.html#n2b",
+         "label": "прим. ϛ"
+        },
+        {
+         "href": "odyssey-10.html#n2c",
+         "label": "прим. ζ"
         }
        ]
       }
      ],
-     "n": 2,
+     "n": 5,
      "letter": "Г"
     },
     {
@@ -1232,6 +1266,33 @@
      "letter": "Д"
     },
     {
+     "id": "deucalion",
+     "ru": "Девкалион",
+     "en": "Deucalion",
+     "orig": "Δευκαλίων",
+     "kind": "hero",
+     "gloss_ru": "сын Прометея, переживший потоп; отец Эллина",
+     "wikidata": "Q207715",
+     "pleiades": "",
+     "refs": [
+      {
+       "text": "Схолии к «Одиссее» X",
+       "links": [
+        {
+         "href": "odyssey-10.html#s2",
+         "label": "Σ Од. 10.2"
+        },
+        {
+         "href": "odyssey-10.html#n2a",
+         "label": "прим. ε"
+        }
+       ]
+      }
+     ],
+     "n": 2,
+     "letter": "Д"
+    },
+    {
      "id": "hemera",
      "ru": "День",
      "en": "Day",
@@ -1348,6 +1409,46 @@
      "letter": "З"
     },
     {
+     "id": "zeus",
+     "ru": "Зевс",
+     "en": "Zeus",
+     "orig": "Ζεύς",
+     "kind": "god",
+     "gloss_ru": "верховный бог греков",
+     "wikidata": "Q34201",
+     "pleiades": "",
+     "refs": [
+      {
+       "text": "Эпитома Цахера, кн. I",
+       "links": [
+        {
+         "href": "zacher-1.html#n34",
+         "label": "прим. 34"
+        }
+       ]
+      },
+      {
+       "text": "Схолии к «Одиссее» X",
+       "links": [
+        {
+         "href": "odyssey-10.html#s2",
+         "label": "Σ Од. 10.2"
+        },
+        {
+         "href": "odyssey-10.html#n2a",
+         "label": "прим. ε"
+        },
+        {
+         "href": "odyssey-10.html#n2d",
+         "label": "прим. η"
+        }
+       ]
+      }
+     ],
+     "n": 4,
+     "letter": "З"
+    },
+    {
      "id": "zethus",
      "ru": "Зет",
      "en": "Zethus",
@@ -1418,6 +1519,37 @@
       }
      ],
      "n": 2,
+     "letter": "И"
+    },
+    {
+     "id": "iocastus",
+     "ru": "Иокаст",
+     "en": "Iocastus",
+     "orig": "Ἰόκαστος",
+     "kind": "hero",
+     "gloss_ru": "сын Эола, основатель Регия",
+     "wikidata": "Q3801330",
+     "pleiades": "",
+     "refs": [
+      {
+       "text": "Схолии к «Одиссее» X",
+       "links": [
+        {
+         "href": "odyssey-10.html#s2",
+         "label": "Σ Од. 10.2"
+        },
+        {
+         "href": "odyssey-10.html#n2d",
+         "label": "прим. η"
+        },
+        {
+         "href": "odyssey-10.html#n2f",
+         "label": "прим. ι"
+        }
+       ]
+      }
+     ],
+     "n": 3,
      "letter": "И"
     },
     {
@@ -1607,8 +1739,12 @@
          "label": "Σ Од. 10.1"
         },
         {
-         "href": "odyssey-10.html#n1a",
-         "label": "прим. α"
+         "href": "odyssey-10.html#n1c",
+         "label": "прим. γ"
+        },
+        {
+         "href": "odyssey-10.html#n1d",
+         "label": "прим. δ"
         }
        ]
       },
@@ -1622,7 +1758,7 @@
        ]
       }
      ],
-     "n": 3,
+     "n": 4,
      "letter": "К"
     },
     {
@@ -1773,6 +1909,33 @@
      "letter": "К"
     },
     {
+     "id": "cretheus",
+     "ru": "Крефей",
+     "en": "Cretheus",
+     "orig": "Κρηθεύς",
+     "kind": "hero",
+     "gloss_ru": "сын Эола, сына Эллина",
+     "wikidata": "Q869665",
+     "pleiades": "",
+     "refs": [
+      {
+       "text": "Схолии к «Одиссее» X",
+       "links": [
+        {
+         "href": "odyssey-10.html#s2",
+         "label": "Σ Од. 10.2"
+        },
+        {
+         "href": "odyssey-10.html#n2a",
+         "label": "прим. ε"
+        }
+       ]
+      }
+     ],
+     "n": 2,
+     "letter": "К"
+    },
+    {
      "id": "laomedon",
      "ru": "Лаомедонт",
      "en": "Laomedon",
@@ -1861,6 +2024,10 @@
         {
          "href": "odyssey-10.html#s1",
          "label": "Σ Од. 10.1"
+        },
+        {
+         "href": "odyssey-10.html#n1d",
+         "label": "прим. δ"
         }
        ]
       },
@@ -1878,7 +2045,7 @@
        ]
       }
      ],
-     "n": 3,
+     "n": 4,
      "letter": "Л"
     },
     {
@@ -1895,8 +2062,8 @@
        "text": "Схолии к «Одиссее» X",
        "links": [
         {
-         "href": "odyssey-10.html#n1a",
-         "label": "прим. α"
+         "href": "odyssey-10.html#n1d",
+         "label": "прим. δ"
         }
        ]
       },
@@ -1955,6 +2122,29 @@
       }
      ],
      "n": 13,
+     "letter": "Л"
+    },
+    {
+     "id": "leto",
+     "ru": "Лето",
+     "en": "Leto",
+     "orig": "Λητώ",
+     "kind": "god",
+     "gloss_ru": "мать Аполлона и Артемиды; когда она ступила на Делос, остров перестал плавать",
+     "wikidata": "Q103107",
+     "pleiades": "",
+     "refs": [
+      {
+       "text": "Схолии к «Одиссее» X",
+       "links": [
+        {
+         "href": "odyssey-10.html#n3a",
+         "label": "прим. λ"
+        }
+       ]
+      }
+     ],
+     "n": 1,
      "letter": "Л"
     },
     {
@@ -2132,11 +2322,15 @@
         {
          "href": "odyssey-10.html#s2",
          "label": "Σ Од. 10.2"
+        },
+        {
+         "href": "odyssey-10.html#n2b",
+         "label": "прим. ϛ"
         }
        ]
       }
      ],
-     "n": 1,
+     "n": 2,
      "letter": "М"
     },
     {
@@ -2186,6 +2380,33 @@
         {
          "href": "zacher-1.html#n70",
          "label": "прим. 70"
+        }
+       ]
+      }
+     ],
+     "n": 2,
+     "letter": "М"
+    },
+    {
+     "id": "mimas",
+     "ru": "Мимант",
+     "en": "Mimas",
+     "orig": "Μίμας",
+     "kind": "hero",
+     "gloss_ru": "отец Гиппота",
+     "wikidata": "",
+     "pleiades": "",
+     "refs": [
+      {
+       "text": "Схолии к «Одиссее» X",
+       "links": [
+        {
+         "href": "odyssey-10.html#s2",
+         "label": "Σ Од. 10.2"
+        },
+        {
+         "href": "odyssey-10.html#n2b",
+         "label": "прим. ϛ"
         }
        ]
       }
@@ -2420,12 +2641,32 @@
          "label": "Σ Од. 10.1"
         },
         {
-         "href": "odyssey-10.html#n1a",
-         "label": "прим. α"
+         "href": "odyssey-10.html#n1c",
+         "label": "прим. γ"
+        },
+        {
+         "href": "odyssey-10.html#n1d",
+         "label": "прим. δ"
         },
         {
          "href": "odyssey-10.html#s2",
          "label": "Σ Од. 10.2"
+        },
+        {
+         "href": "odyssey-10.html#n2b",
+         "label": "прим. ϛ"
+        },
+        {
+         "href": "odyssey-10.html#n2d",
+         "label": "прим. η"
+        },
+        {
+         "href": "odyssey-10.html#n2f",
+         "label": "прим. ι"
+        },
+        {
+         "href": "odyssey-10.html#n2g",
+         "label": "прим. κ"
         },
         {
          "href": "odyssey-10.html#s3",
@@ -2433,7 +2674,7 @@
         },
         {
          "href": "odyssey-10.html#n3b",
-         "label": "прим. ϛ"
+         "label": "прим. μ"
         }
        ]
       },
@@ -2463,7 +2704,7 @@
        ]
       }
      ],
-     "n": 11,
+     "n": 16,
      "letter": "О"
     },
     {
@@ -2610,9 +2851,22 @@
          "label": "прим. 67"
         }
        ]
+      },
+      {
+       "text": "Схолии к «Одиссее» X",
+       "links": [
+        {
+         "href": "odyssey-10.html#s2",
+         "label": "Σ Од. 10.2"
+        },
+        {
+         "href": "odyssey-10.html#n2e",
+         "label": "прим. θ"
+        }
+       ]
       }
      ],
-     "n": 1,
+     "n": 3,
      "letter": "О"
     },
     {
@@ -2644,6 +2898,33 @@
       }
      ],
      "n": 3,
+     "letter": "П"
+    },
+    {
+     "id": "pandora",
+     "ru": "Пандора",
+     "en": "Pandora",
+     "orig": "Πανδώρα",
+     "kind": "hero",
+     "gloss_ru": "первая женщина, жена Эпиметея",
+     "wikidata": "Q131346",
+     "pleiades": "",
+     "refs": [
+      {
+       "text": "Схолии к «Одиссее» X",
+       "links": [
+        {
+         "href": "odyssey-10.html#s2",
+         "label": "Σ Од. 10.2"
+        },
+        {
+         "href": "odyssey-10.html#n2a",
+         "label": "прим. ε"
+        }
+       ]
+      }
+     ],
+     "n": 2,
      "letter": "П"
     },
     {
@@ -2760,6 +3041,33 @@
      "letter": "П"
     },
     {
+     "id": "pyrrha",
+     "ru": "Пирра",
+     "en": "Pyrrha",
+     "orig": "Πύρρα",
+     "kind": "hero",
+     "gloss_ru": "дочь Эпиметея и Пандоры, жена Девкалиона",
+     "wikidata": "Q622809",
+     "pleiades": "",
+     "refs": [
+      {
+       "text": "Схолии к «Одиссее» X",
+       "links": [
+        {
+         "href": "odyssey-10.html#s2",
+         "label": "Σ Од. 10.2"
+        },
+        {
+         "href": "odyssey-10.html#n2a",
+         "label": "прим. ε"
+        }
+       ]
+      }
+     ],
+     "n": 2,
+     "letter": "П"
+    },
+    {
      "id": "polynicus",
      "ru": "Полиник",
      "en": "Polynicus",
@@ -2825,11 +3133,42 @@
         {
          "href": "odyssey-10.html#s2",
          "label": "Σ Од. 10.2"
+        },
+        {
+         "href": "odyssey-10.html#n2b",
+         "label": "прим. ϛ"
         }
        ]
       }
      ],
-     "n": 1,
+     "n": 2,
+     "letter": "П"
+    },
+    {
+     "id": "prometheus",
+     "ru": "Прометей",
+     "en": "Prometheus",
+     "orig": "Προμηθεύς",
+     "kind": "god",
+     "gloss_ru": "титан, отец Девкалиона",
+     "wikidata": "Q83160",
+     "pleiades": "",
+     "refs": [
+      {
+       "text": "Схолии к «Одиссее» X",
+       "links": [
+        {
+         "href": "odyssey-10.html#s2",
+         "label": "Σ Од. 10.2"
+        },
+        {
+         "href": "odyssey-10.html#n2a",
+         "label": "прим. ε"
+        }
+       ]
+      }
+     ],
+     "n": 2,
      "letter": "П"
     },
     {
@@ -3002,6 +3341,33 @@
      "letter": "С"
     },
     {
+     "id": "sisyphus",
+     "ru": "Сисиф",
+     "en": "Sisyphus",
+     "orig": "Σίσυφος",
+     "kind": "hero",
+     "gloss_ru": "сын Эола, сына Эллина",
+     "wikidata": "Q102561",
+     "pleiades": "",
+     "refs": [
+      {
+       "text": "Схолии к «Одиссее» X",
+       "links": [
+        {
+         "href": "odyssey-10.html#s2",
+         "label": "Σ Од. 10.2"
+        },
+        {
+         "href": "odyssey-10.html#n2a",
+         "label": "прим. ε"
+        }
+       ]
+      }
+     ],
+     "n": 2,
+     "letter": "С"
+    },
+    {
      "id": "scamander",
      "ru": "Скамандр",
      "en": "Scamander",
@@ -3121,6 +3487,33 @@
         {
          "href": "zacher-1.html#n53",
          "label": "прим. 53"
+        }
+       ]
+      }
+     ],
+     "n": 2,
+     "letter": "Т"
+    },
+    {
+     "id": "tritopatores",
+     "ru": "Тритопаторы",
+     "en": "Tritopatores",
+     "orig": "Τριτοπάτορες",
+     "kind": "god",
+     "gloss_ru": "божества-предки; в орфической традиции — «стражи ветров» Амаклид, Протокл и Протокреонт",
+     "wikidata": "Q4463223",
+     "pleiades": "",
+     "refs": [
+      {
+       "text": "Схолии к «Одиссее» X",
+       "links": [
+        {
+         "href": "odyssey-10.html#s2",
+         "label": "Σ Од. 10.2"
+        },
+        {
+         "href": "odyssey-10.html#n2e",
+         "label": "прим. θ"
         }
        ]
       }
@@ -3435,11 +3828,15 @@
         {
          "href": "odyssey-10.html#s2",
          "label": "Σ Од. 10.2"
+        },
+        {
+         "href": "odyssey-10.html#n2a",
+         "label": "прим. ε"
         }
        ]
       }
      ],
-     "n": 1,
+     "n": 2,
      "letter": "Э"
     },
     {
@@ -3487,16 +3884,36 @@
          "label": "Σ Од. 10.1"
         },
         {
+         "href": "odyssey-10.html#n1a",
+         "label": "прим. α"
+        },
+        {
          "href": "odyssey-10.html#s2",
          "label": "Σ Од. 10.2"
         },
         {
          "href": "odyssey-10.html#n2a",
-         "label": "прим. γ"
+         "label": "прим. ε"
         },
         {
          "href": "odyssey-10.html#n2b",
-         "label": "прим. δ"
+         "label": "прим. ϛ"
+        },
+        {
+         "href": "odyssey-10.html#n2c",
+         "label": "прим. ζ"
+        },
+        {
+         "href": "odyssey-10.html#n2d",
+         "label": "прим. η"
+        },
+        {
+         "href": "odyssey-10.html#n2f",
+         "label": "прим. ι"
+        },
+        {
+         "href": "odyssey-10.html#n3b",
+         "label": "прим. μ"
         }
        ]
       },
@@ -3510,7 +3927,34 @@
        ]
       }
      ],
-     "n": 6,
+     "n": 11,
+     "letter": "Э"
+    },
+    {
+     "id": "epimetheus",
+     "ru": "Эпиметей",
+     "en": "Epimetheus",
+     "orig": "Ἐπιμηθεύς",
+     "kind": "god",
+     "gloss_ru": "титан, брат Прометея, муж Пандоры",
+     "wikidata": "Q41054",
+     "pleiades": "",
+     "refs": [
+      {
+       "text": "Схолии к «Одиссее» X",
+       "links": [
+        {
+         "href": "odyssey-10.html#s2",
+         "label": "Σ Од. 10.2"
+        },
+        {
+         "href": "odyssey-10.html#n2a",
+         "label": "прим. ε"
+        }
+       ]
+      }
+     ],
+     "n": 2,
      "letter": "Э"
     },
     {
@@ -3566,13 +4010,30 @@
          "label": "прим. 62"
         }
        ]
+      },
+      {
+       "text": "Схолии к «Одиссее» X",
+       "links": [
+        {
+         "href": "odyssey-10.html#s2",
+         "label": "Σ Од. 10.2"
+        },
+        {
+         "href": "odyssey-10.html#n2a",
+         "label": "прим. ε"
+        },
+        {
+         "href": "odyssey-10.html#n2d",
+         "label": "прим. η"
+        }
+       ]
       }
      ],
-     "n": 4,
+     "n": 7,
      "letter": "Ю"
     }
    ],
-   "count": 105,
+   "count": 118,
    "sample": "Александр, Филипп, Нектанеб…",
    "letters": [
     "А",
@@ -3745,6 +4206,19 @@
        ]
       },
       {
+       "text": "Схолии к «Одиссее» X",
+       "links": [
+        {
+         "href": "odyssey-10.html#n1c",
+         "label": "прим. γ"
+        },
+        {
+         "href": "odyssey-10.html#n3a",
+         "label": "прим. λ"
+        }
+       ]
+      },
+      {
        "text": "«Пергам против Александрии?»",
        "links": [
         {
@@ -3770,7 +4244,7 @@
        ]
       }
      ],
-     "n": 6,
+     "n": 8,
      "letter": "А"
     },
     {
@@ -3948,11 +4422,15 @@
         {
          "href": "odyssey-10.html#s1",
          "label": "Σ Од. 10.1"
+        },
+        {
+         "href": "odyssey-10.html#n1b",
+         "label": "прим. β"
         }
        ]
       }
      ],
-     "n": 1,
+     "n": 2,
      "letter": "Г"
     },
     {
@@ -4005,7 +4483,7 @@
         },
         {
          "href": "odyssey-10.html#n3a",
-         "label": "прим. ε"
+         "label": "прим. λ"
         }
        ]
       }
@@ -4224,6 +4702,10 @@
         {
          "href": "odyssey-10.html#s2",
          "label": "Σ Од. 10.2"
+        },
+        {
+         "href": "odyssey-10.html#n2f",
+         "label": "прим. ι"
         }
        ]
       },
@@ -4237,7 +4719,7 @@
        ]
       }
      ],
-     "n": 5,
+     "n": 6,
      "letter": "И"
     },
     {
@@ -4391,6 +4873,38 @@
      "letter": "Л"
     },
     {
+     "id": "lemnos",
+     "ru": "Лемнос",
+     "en": "Lemnos",
+     "orig": "Λῆμνος",
+     "kind": "island",
+     "gloss_ru": "остров на севере Эгейского моря",
+     "wikidata": "Q192483",
+     "pleiades": "",
+     "refs": [
+      {
+       "text": "Эпитома Цахера, кн. I",
+       "links": [
+        {
+         "href": "zacher-1.html#n25",
+         "label": "прим. 25"
+        }
+       ]
+      },
+      {
+       "text": "Схолии к «Одиссее» X",
+       "links": [
+        {
+         "href": "odyssey-10.html#n3d",
+         "label": "прим. ξ"
+        }
+       ]
+      }
+     ],
+     "n": 2,
+     "letter": "Л"
+    },
+    {
      "id": "leontini",
      "ru": "Леонтины",
      "en": "Leontini",
@@ -4406,6 +4920,10 @@
         {
          "href": "odyssey-10.html#s1",
          "label": "Σ Од. 10.1"
+        },
+        {
+         "href": "odyssey-10.html#n1d",
+         "label": "прим. δ"
         }
        ]
       },
@@ -4427,7 +4945,7 @@
        ]
       }
      ],
-     "n": 4,
+     "n": 5,
      "letter": "Л"
     },
     {
@@ -4444,8 +4962,8 @@
        "text": "Схолии к «Одиссее» X",
        "links": [
         {
-         "href": "odyssey-10.html#n1a",
-         "label": "прим. α"
+         "href": "odyssey-10.html#n1d",
+         "label": "прим. δ"
         }
        ]
       },
@@ -4615,11 +5133,15 @@
         {
          "href": "odyssey-10.html#s1",
          "label": "Σ Од. 10.1"
+        },
+        {
+         "href": "odyssey-10.html#n2b",
+         "label": "прим. ϛ"
         }
        ]
       }
      ],
-     "n": 1,
+     "n": 2,
      "letter": "Л"
     },
     {
@@ -4830,6 +5352,19 @@
      "pleiades": "608104479",
      "refs": [
       {
+       "text": "Схолии к «Одиссее» X",
+       "links": [
+        {
+         "href": "odyssey-10.html#s2",
+         "label": "Σ Од. 10.2"
+        },
+        {
+         "href": "odyssey-10.html#n2a",
+         "label": "прим. ε"
+        }
+       ]
+      },
+      {
        "text": "«Пергам против Александрии?»",
        "links": [
         {
@@ -4847,7 +5382,7 @@
        ]
       }
      ],
-     "n": 3,
+     "n": 5,
      "letter": "О"
     },
     {
@@ -5074,11 +5609,15 @@
         {
          "href": "odyssey-10.html#s2",
          "label": "Σ Од. 10.2"
+        },
+        {
+         "href": "odyssey-10.html#n2f",
+         "label": "прим. ι"
         }
        ]
       }
      ],
-     "n": 1,
+     "n": 2,
      "letter": "Р"
     },
     {
@@ -5132,6 +5671,15 @@
      "pleiades": "590031",
      "refs": [
       {
+       "text": "Схолии к «Одиссее» X",
+       "links": [
+        {
+         "href": "odyssey-10.html#n1a",
+         "label": "прим. α"
+        }
+       ]
+      },
+      {
        "text": "«Пергам против Александрии?»",
        "links": [
         {
@@ -5145,7 +5693,7 @@
        ]
       }
      ],
-     "n": 2,
+     "n": 3,
      "letter": "Р"
     },
     {
@@ -5206,8 +5754,8 @@
          "label": "Σ Од. 10.1"
         },
         {
-         "href": "odyssey-10.html#n1a",
-         "label": "прим. α"
+         "href": "odyssey-10.html#n1d",
+         "label": "прим. δ"
         }
        ]
       },
@@ -5312,8 +5860,12 @@
          "label": "Σ Од. 10.1"
         },
         {
-         "href": "odyssey-10.html#n1a",
-         "label": "прим. α"
+         "href": "odyssey-10.html#n1c",
+         "label": "прим. γ"
+        },
+        {
+         "href": "odyssey-10.html#n1d",
+         "label": "прим. δ"
         }
        ]
       },
@@ -5327,7 +5879,7 @@
        ]
       }
      ],
-     "n": 3,
+     "n": 4,
      "letter": "С"
     },
     {
@@ -5402,13 +5954,17 @@
          "label": "Σ Од. 10.1"
         },
         {
+         "href": "odyssey-10.html#n1a",
+         "label": "прим. α"
+        },
+        {
          "href": "odyssey-10.html#n1b",
          "label": "прим. β"
         }
        ]
       }
      ],
-     "n": 2,
+     "n": 3,
      "letter": "С"
     },
     {
@@ -5547,11 +6103,15 @@
         {
          "href": "odyssey-10.html#s1",
          "label": "Σ Од. 10.1"
+        },
+        {
+         "href": "odyssey-10.html#n2b",
+         "label": "прим. ϛ"
         }
        ]
       }
      ],
-     "n": 1,
+     "n": 2,
      "letter": "Т"
     },
     {
@@ -5568,8 +6128,8 @@
        "text": "Схолии к «Одиссее» X",
        "links": [
         {
-         "href": "odyssey-10.html#n2a",
-         "label": "прим. γ"
+         "href": "odyssey-10.html#n2b",
+         "label": "прим. ϛ"
         }
        ]
       }
@@ -5682,11 +6242,15 @@
         {
          "href": "odyssey-10.html#s1",
          "label": "Σ Од. 10.1"
+        },
+        {
+         "href": "odyssey-10.html#n1b",
+         "label": "прим. β"
         }
        ]
       }
      ],
-     "n": 1,
+     "n": 2,
      "letter": "Ф"
     },
     {
@@ -5809,6 +6373,29 @@
      "letter": "Э"
     },
     {
+     "id": "euonymus",
+     "ru": "Эвоним",
+     "en": "Euonymus",
+     "orig": "Εὐώνυμος",
+     "kind": "island",
+     "gloss_ru": "один из Липарских островов у Диодора, Страбона и Плиния; отождествление спорно",
+     "wikidata": "",
+     "pleiades": "",
+     "refs": [
+      {
+       "text": "Схолии к «Одиссее» X",
+       "links": [
+        {
+         "href": "odyssey-10.html#n1b",
+         "label": "прим. β"
+        }
+       ]
+      }
+     ],
+     "n": 1,
+     "letter": "Э"
+    },
+    {
      "id": "aegae",
      "ru": "Эги",
      "en": "Aegae",
@@ -5880,12 +6467,12 @@
          "label": "Σ Од. 10.1"
         },
         {
-         "href": "odyssey-10.html#s3",
-         "label": "Σ Од. 10.3"
+         "href": "odyssey-10.html#s2",
+         "label": "Σ Од. 10.2"
         },
         {
-         "href": "odyssey-10.html#n3b",
-         "label": "прим. ϛ"
+         "href": "odyssey-10.html#s3",
+         "label": "Σ Од. 10.3"
         }
        ]
       },
@@ -5924,12 +6511,32 @@
        "text": "Схолии к «Одиссее» X",
        "links": [
         {
+         "href": "odyssey-10.html#homer-h",
+         "label": "Од. 10.1–4"
+        },
+        {
          "href": "odyssey-10.html#s1",
          "label": "Σ Од. 10.1"
         },
         {
          "href": "odyssey-10.html#n1b",
          "label": "прим. β"
+        },
+        {
+         "href": "odyssey-10.html#n1c",
+         "label": "прим. γ"
+        },
+        {
+         "href": "odyssey-10.html#n2b",
+         "label": "прим. ϛ"
+        },
+        {
+         "href": "odyssey-10.html#n2g",
+         "label": "прим. κ"
+        },
+        {
+         "href": "odyssey-10.html#n3b",
+         "label": "прим. μ"
         }
        ]
       },
@@ -5943,7 +6550,7 @@
        ]
       }
      ],
-     "n": 3,
+     "n": 8,
      "letter": "Э"
     },
     {
@@ -5985,11 +6592,15 @@
         {
          "href": "odyssey-10.html#s1",
          "label": "Σ Од. 10.1"
+        },
+        {
+         "href": "odyssey-10.html#n1b",
+         "label": "прим. β"
         }
        ]
       }
      ],
-     "n": 1,
+     "n": 2,
      "letter": "Э"
     },
     {
@@ -6025,7 +6636,7 @@
      "letter": "Э"
     }
    ],
-   "count": 82,
+   "count": 84,
    "sample": "Лестригония (страна лестригонов), Египет, Сицилия…",
    "letters": [
     "А",
@@ -6049,6 +6660,39 @@
   "authors": {
    "title": "Авторы",
    "entries": [
+    {
+     "id": "acusilaus",
+     "ru": "Акусилай",
+     "en": "Acusilaus",
+     "orig": "Ἀκουσίλαος",
+     "kind": "author",
+     "gloss_ru": "аргосский логограф VI в. до н. э., автор генеалогий",
+     "wikidata": "Q423894",
+     "pleiades": "",
+     "refs": [
+      {
+       "text": "Схолии к «Одиссее» X",
+       "links": [
+        {
+         "href": "odyssey-10.html#s2",
+         "label": "Σ Од. 10.2"
+        },
+        {
+         "href": "odyssey-10.html#n2a",
+         "label": "прим. ε"
+        }
+       ]
+      }
+     ],
+     "n": 2,
+     "works": [
+      {
+       "id": "acus-fr",
+       "ru": "Фрагменты"
+      }
+     ],
+     "letter": "А"
+    },
     {
      "id": "apollodorus",
      "ru": "Аполлодор Афинский",
@@ -6161,11 +6805,7 @@
         },
         {
          "href": "odyssey-10.html#n3a",
-         "label": "прим. ε"
-        },
-        {
-         "href": "odyssey-10.html#n3b",
-         "label": "прим. ϛ"
+         "label": "прим. λ"
         }
        ]
       },
@@ -6195,6 +6835,10 @@
         {
          "href": "study-laestrygonians.html#s6",
          "label": "§ 6"
+        },
+        {
+         "href": "study-laestrygonians.html#appx-2",
+         "label": "приложение, Σ 10.82 Λαιστρυγονίην"
         },
         {
          "href": "study-laestrygonians.html#n11",
@@ -6363,13 +7007,17 @@
          "label": "Σ Од. 10.2"
         },
         {
-         "href": "odyssey-10.html#n2a",
-         "label": "прим. γ"
+         "href": "odyssey-10.html#n2b",
+         "label": "прим. ϛ"
+        },
+        {
+         "href": "odyssey-10.html#n2c",
+         "label": "прим. ζ"
         }
        ]
       }
      ],
-     "n": 2,
+     "n": 3,
      "works": [
       {
        "id": "asclep-tragodoumena",
@@ -6682,6 +7330,19 @@
      "pleiades": "",
      "refs": [
       {
+       "text": "Схолии к «Одиссее» X",
+       "links": [
+        {
+         "href": "odyssey-10.html#s2",
+         "label": "Σ Од. 10.2"
+        },
+        {
+         "href": "odyssey-10.html#n2a",
+         "label": "прим. ε"
+        }
+       ]
+      },
+      {
        "text": "«Пергам против Александрии?»",
        "links": [
         {
@@ -6691,11 +7352,19 @@
        ]
       }
      ],
-     "n": 1,
+     "n": 3,
      "works": [
       {
        "id": "theogony",
        "ru": "Теогония"
+      },
+      {
+       "id": "hes-op",
+       "ru": "Труды и дни"
+      },
+      {
+       "id": "hes-fr",
+       "ru": "Фрагменты (изд. Меркельбаха — Уэста)"
       }
      ],
      "letter": "Г"
@@ -6755,24 +7424,40 @@
        "text": "Схолии к «Одиссее» X",
        "links": [
         {
-         "href": "odyssey-10.html#homer-h",
-         "label": "Од. 10.1–4"
+         "href": "odyssey-10.html#n1c",
+         "label": "прим. γ"
         },
         {
          "href": "odyssey-10.html#s2",
          "label": "Σ Од. 10.2"
         },
         {
-         "href": "odyssey-10.html#n2a",
-         "label": "прим. γ"
+         "href": "odyssey-10.html#n2b",
+         "label": "прим. ϛ"
         },
         {
-         "href": "odyssey-10.html#s3",
-         "label": "Σ Од. 10.3"
+         "href": "odyssey-10.html#n2c",
+         "label": "прим. ζ"
         },
         {
-         "href": "odyssey-10.html#n3a",
-         "label": "прим. ε"
+         "href": "odyssey-10.html#n2d",
+         "label": "прим. η"
+        },
+        {
+         "href": "odyssey-10.html#n2f",
+         "label": "прим. ι"
+        },
+        {
+         "href": "odyssey-10.html#n2g",
+         "label": "прим. κ"
+        },
+        {
+         "href": "odyssey-10.html#n3d",
+         "label": "прим. ξ"
+        },
+        {
+         "href": "odyssey-10.html#n4b",
+         "label": "прим. π"
         }
        ]
       },
@@ -6818,7 +7503,7 @@
        ]
       }
      ],
-     "n": 14,
+     "n": 18,
      "works": [
       {
        "id": "iliad",
@@ -6861,6 +7546,35 @@
      "letter": "Г"
     },
     {
+     "id": "demon",
+     "ru": "Демон",
+     "en": "Demon",
+     "orig": "Δήμων",
+     "kind": "author",
+     "gloss_ru": "аттидограф, историк Аттики (рубеж IV–III вв. до н. э.)",
+     "wikidata": "",
+     "pleiades": "",
+     "refs": [
+      {
+       "text": "Схолии к «Одиссее» X",
+       "links": [
+        {
+         "href": "odyssey-10.html#n2e",
+         "label": "прим. θ"
+        }
+       ]
+      }
+     ],
+     "n": 1,
+     "works": [
+      {
+       "id": "demon-fr",
+       "ru": "Фрагменты"
+      }
+     ],
+     "letter": "Д"
+    },
+    {
      "id": "diodorus",
      "ru": "Диодор",
      "en": "Diodorus Siculus",
@@ -6900,12 +7614,20 @@
         },
         {
          "href": "odyssey-10.html#n2b",
-         "label": "прим. δ"
+         "label": "прим. ϛ"
+        },
+        {
+         "href": "odyssey-10.html#n2d",
+         "label": "прим. η"
+        },
+        {
+         "href": "odyssey-10.html#n2f",
+         "label": "прим. ι"
         }
        ]
       }
      ],
-     "n": 6,
+     "n": 8,
      "works": [
       {
        "id": "diod-bibl",
@@ -6953,6 +7675,19 @@
      "pleiades": "",
      "refs": [
       {
+       "text": "Схолии к «Одиссее» X",
+       "links": [
+        {
+         "href": "odyssey-10.html#n2a",
+         "label": "прим. ε"
+        },
+        {
+         "href": "odyssey-10.html#n3c",
+         "label": "прим. ν"
+        }
+       ]
+      },
+      {
        "text": "«Пергам против Александрии?»",
        "links": [
         {
@@ -6974,6 +7709,10 @@
         {
          "href": "study-laestrygonians.html#appx-7",
          "label": "приложение, Σ 10.85 τὸν μὲν βουκολέων"
+        },
+        {
+         "href": "study-laestrygonians.html#appx-10",
+         "label": "приложение, Σ 10.86"
         },
         {
          "href": "study-laestrygonians.html#n5",
@@ -6998,7 +7737,7 @@
        ]
       }
      ],
-     "n": 10,
+     "n": 13,
      "works": [
       {
        "id": "eust-od",
@@ -7006,6 +7745,39 @@
       }
      ],
      "letter": "Е"
+    },
+    {
+     "id": "callimachus",
+     "ru": "Каллимах",
+     "en": "Callimachus",
+     "orig": "Καλλίμαχος",
+     "kind": "author",
+     "gloss_ru": "александрийский поэт и учёный III в. до н. э.",
+     "wikidata": "Q192417",
+     "pleiades": "",
+     "refs": [
+      {
+       "text": "Схолии к «Одиссее» X",
+       "links": [
+        {
+         "href": "odyssey-10.html#s2",
+         "label": "Σ Од. 10.2"
+        },
+        {
+         "href": "odyssey-10.html#n2f",
+         "label": "прим. ι"
+        }
+       ]
+      }
+     ],
+     "n": 2,
+     "works": [
+      {
+       "id": "call-fr",
+       "ru": "Фрагменты"
+      }
+     ],
+     "letter": "К"
     },
     {
      "id": "cleanthes",
@@ -7174,13 +7946,17 @@
        "text": "Схолии к «Одиссее» X",
        "links": [
         {
-         "href": "odyssey-10.html#n2b",
-         "label": "прим. δ"
+         "href": "odyssey-10.html#n2d",
+         "label": "прим. η"
+        },
+        {
+         "href": "odyssey-10.html#n2f",
+         "label": "прим. ι"
         }
        ]
       }
      ],
-     "n": 1,
+     "n": 2,
      "works": [],
      "letter": "Л"
     },
@@ -7238,30 +8014,6 @@
      "letter": "П"
     },
     {
-     "id": "palaephatus",
-     "ru": "Палефат",
-     "en": "Palaephatus",
-     "orig": "Παλαίφατος",
-     "kind": "author",
-     "gloss_ru": "автор рационалистических толкований мифов («О невероятном»)",
-     "wikidata": "Q580565",
-     "pleiades": "",
-     "refs": [
-      {
-       "text": "Схолии к «Одиссее» X",
-       "links": [
-        {
-         "href": "odyssey-10.html#n4a",
-         "label": "прим. ζ"
-        }
-       ]
-      }
-     ],
-     "n": 1,
-     "works": [],
-     "letter": "П"
-    },
-    {
      "id": "pindar",
      "ru": "Пиндар",
      "en": "Pindar",
@@ -7289,7 +8041,7 @@
         },
         {
          "href": "odyssey-10.html#n3a",
-         "label": "прим. ε"
+         "label": "прим. λ"
         }
        ]
       }
@@ -7378,9 +8130,18 @@
          "label": "прим. 49"
         }
        ]
+      },
+      {
+       "text": "Схолии к «Одиссее» X",
+       "links": [
+        {
+         "href": "odyssey-10.html#n1b",
+         "label": "прим. β"
+        }
+       ]
       }
      ],
-     "n": 1,
+     "n": 2,
      "works": [
       {
        "id": "plin-nh",
@@ -7457,6 +8218,15 @@
      "pleiades": "",
      "refs": [
       {
+       "text": "Схолии к «Одиссее» X",
+       "links": [
+        {
+         "href": "odyssey-10.html#n2d",
+         "label": "прим. η"
+        }
+       ]
+      },
+      {
        "text": "«Пергам против Александрии?»",
        "links": [
         {
@@ -7474,8 +8244,37 @@
        ]
       }
      ],
-     "n": 3,
+     "n": 4,
      "works": [],
+     "letter": "П"
+    },
+    {
+     "id": "ps-apollodorus",
+     "ru": "Псевдо-Аполлодор",
+     "en": "Pseudo-Apollodorus",
+     "orig": "Ἀπολλόδωρος",
+     "kind": "author",
+     "gloss_ru": "автор мифографической «Библиотеки» (I–II вв. н. э.), приписанной Аполлодору Афинскому",
+     "wikidata": "Q12506564",
+     "pleiades": "",
+     "refs": [
+      {
+       "text": "Схолии к «Одиссее» X",
+       "links": [
+        {
+         "href": "odyssey-10.html#n2a",
+         "label": "прим. ε"
+        }
+       ]
+      }
+     ],
+     "n": 1,
+     "works": [
+      {
+       "id": "ps-apollod-bibl",
+       "ru": "Библиотека"
+      }
+     ],
      "letter": "П"
     },
     {
@@ -7554,6 +8353,22 @@
         {
          "href": "odyssey-10.html#n1b",
          "label": "прим. β"
+        },
+        {
+         "href": "odyssey-10.html#n1c",
+         "label": "прим. γ"
+        },
+        {
+         "href": "odyssey-10.html#n1d",
+         "label": "прим. δ"
+        },
+        {
+         "href": "odyssey-10.html#n2d",
+         "label": "прим. η"
+        },
+        {
+         "href": "odyssey-10.html#n3a",
+         "label": "прим. λ"
         }
        ]
       },
@@ -7595,7 +8410,7 @@
        ]
       }
      ],
-     "n": 10,
+     "n": 14,
      "works": [
       {
        "id": "strab-geog",
@@ -7671,8 +8486,8 @@
        "text": "Схолии к «Одиссее» X",
        "links": [
         {
-         "href": "odyssey-10.html#n1a",
-         "label": "прим. α"
+         "href": "odyssey-10.html#n1d",
+         "label": "прим. δ"
         }
        ]
       },
@@ -7680,13 +8495,21 @@
        "text": "«Пергам против Александрии?»",
        "links": [
         {
+         "href": "study-laestrygonians.html#s2",
+         "label": "§ 2"
+        },
+        {
+         "href": "study-laestrygonians.html#appx-2",
+         "label": "приложение, Σ 10.82 Λαιστρυγονίην"
+        },
+        {
          "href": "study-laestrygonians.html#n35",
          "label": "прим. 35"
         }
        ]
       }
      ],
-     "n": 2,
+     "n": 4,
      "works": [
       {
        "id": "thuc-hist",
@@ -7709,17 +8532,21 @@
        "text": "Схолии к «Одиссее» X",
        "links": [
         {
-         "href": "odyssey-10.html#s2",
-         "label": "Σ Од. 10.2"
+         "href": "odyssey-10.html#n2d",
+         "label": "прим. η"
         },
         {
-         "href": "odyssey-10.html#n2b",
-         "label": "прим. δ"
+         "href": "odyssey-10.html#n2e",
+         "label": "прим. θ"
+        },
+        {
+         "href": "odyssey-10.html#n2f",
+         "label": "прим. ι"
         }
        ]
       }
      ],
-     "n": 2,
+     "n": 3,
      "works": [
       {
        "id": "tzetz-lyc",
@@ -7915,8 +8742,8 @@
        "text": "Схолии к «Одиссее» X",
        "links": [
         {
-         "href": "odyssey-10.html#n1a",
-         "label": "прим. α"
+         "href": "odyssey-10.html#n1d",
+         "label": "прим. δ"
         }
        ]
       },
@@ -7936,6 +8763,35 @@
      ],
      "n": 3,
      "works": [],
+     "letter": "Э"
+    },
+    {
+     "id": "aeschylus",
+     "ru": "Эсхил",
+     "en": "Aeschylus",
+     "orig": "Αἰσχύλος",
+     "kind": "author",
+     "gloss_ru": "афинский трагик V в. до н. э.",
+     "wikidata": "Q40939",
+     "pleiades": "",
+     "refs": [
+      {
+       "text": "Схолии к «Одиссее» X",
+       "links": [
+        {
+         "href": "odyssey-10.html#n2a",
+         "label": "прим. ε"
+        }
+       ]
+      }
+     ],
+     "n": 1,
+     "works": [
+      {
+       "id": "aesch-pv",
+       "ru": "Прометей прикованный"
+      }
+     ],
      "letter": "Э"
     },
     {
@@ -8188,7 +9044,7 @@
      "letter": "Ю"
     }
    ],
-   "count": 46,
+   "count": 50,
    "sample": "Юлий Валерий, Эпитоматор Юлия Валерия, Кратет Малльский…",
    "letters": [
     "А",
@@ -8211,6 +9067,34 @@
   "works": {
    "title": "Произведения",
    "entries": [
+    {
+     "id": "acus-fr",
+     "ru": "Фрагменты",
+     "en": "Fragments",
+     "orig": "",
+     "abbr": "FGrHist 2",
+     "wikidata": "",
+     "author": "Акусилай",
+     "author_id": "acusilaus",
+     "loci": [
+      {
+       "locus": "F 34",
+       "refs": [
+        {
+         "text": "Схолии к «Одиссее» X",
+         "links": [
+          {
+           "href": "odyssey-10.html#n2a",
+           "label": "прим. ε"
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "n": 1,
+     "letter": "А"
+    },
     {
      "id": "arat-phaen",
      "ru": "Явления",
@@ -8464,21 +9348,25 @@
      "author_id": "asclepiades",
      "loci": [
       {
-       "locus": "",
+       "locus": "FGrHist 12 F 26",
        "refs": [
         {
          "text": "Схолии к «Одиссее» X",
          "links": [
           {
-           "href": "odyssey-10.html#n2a",
-           "label": "прим. γ"
+           "href": "odyssey-10.html#s2",
+           "label": "Σ Од. 10.2"
+          },
+          {
+           "href": "odyssey-10.html#n2b",
+           "label": "прим. ϛ"
           }
          ]
         }
        ]
       }
      ],
-     "n": 1,
+     "n": 2,
      "letter": "А"
     },
     {
@@ -8912,6 +9800,62 @@
      "letter": "Г"
     },
     {
+     "id": "hes-op",
+     "ru": "Труды и дни",
+     "en": "Works and Days",
+     "orig": "Ἔργα καὶ ἡμέραι",
+     "abbr": "Hes. Op.",
+     "wikidata": "Q667285",
+     "author": "Гесиод",
+     "author_id": "hesiod",
+     "loci": [
+      {
+       "locus": "57",
+       "refs": [
+        {
+         "text": "Схолии к «Одиссее» X",
+         "links": [
+          {
+           "href": "odyssey-10.html#n2a",
+           "label": "прим. ε"
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "n": 1,
+     "letter": "Г"
+    },
+    {
+     "id": "hes-fr",
+     "ru": "Фрагменты (изд. Меркельбаха — Уэста)",
+     "en": "Fragments (Merkelbach–West)",
+     "orig": "",
+     "abbr": "Hes. fr. M–W",
+     "wikidata": "",
+     "author": "Гесиод",
+     "author_id": "hesiod",
+     "loci": [
+      {
+       "locus": "4",
+       "refs": [
+        {
+         "text": "Схолии к «Одиссее» X",
+         "links": [
+          {
+           "href": "odyssey-10.html#n2a",
+           "label": "прим. ε"
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "n": 1,
+     "letter": "Г"
+    },
+    {
      "id": "hipparch-arat",
      "ru": "Комментарий к Арату и Евдоксу",
      "en": "Commentary on the Phaenomena of Aratus and Eudoxus",
@@ -8984,9 +9928,23 @@
          ]
         }
        ]
+      },
+      {
+       "locus": "24.753",
+       "refs": [
+        {
+         "text": "Схолии к «Одиссее» X",
+         "links": [
+          {
+           "href": "odyssey-10.html#n3d",
+           "label": "прим. ξ"
+          }
+         ]
+        }
+       ]
       }
      ],
-     "n": 2,
+     "n": 3,
      "letter": "Г"
     },
     {
@@ -9022,6 +9980,20 @@
           {
            "href": "study-laestrygonians.html#appx-4",
            "label": "приложение, Σ 10.82 ὅθι ποιμένα"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "locus": "9.564",
+       "refs": [
+        {
+         "text": "Схолии к «Одиссее» X",
+         "links": [
+          {
+           "href": "odyssey-10.html#n1c",
+           "label": "прим. γ"
           }
          ]
         }
@@ -9084,14 +10056,98 @@
        ]
       },
       {
-       "locus": "10.55",
+       "locus": "10.13",
+       "refs": [
+        {
+         "text": "Схолии к «Одиссее» X",
+         "links": [
+          {
+           "href": "odyssey-10.html#n4b",
+           "label": "прим. π"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "locus": "10.19",
+       "refs": [
+        {
+         "text": "Схолии к «Одиссее» X",
+         "links": [
+          {
+           "href": "odyssey-10.html#n2f",
+           "label": "прим. ι"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "locus": "10.21",
+       "refs": [
+        {
+         "text": "Схолии к «Одиссее» X",
+         "links": [
+          {
+           "href": "odyssey-10.html#n2d",
+           "label": "прим. η"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "locus": "10.28–55",
+       "refs": [
+        {
+         "text": "Схолии к «Одиссее» X",
+         "links": [
+          {
+           "href": "odyssey-10.html#n2g",
+           "label": "прим. κ"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "locus": "10.32",
+       "refs": [
+        {
+         "text": "Схолии к «Одиссее» X",
+         "links": [
+          {
+           "href": "odyssey-10.html#n2g",
+           "label": "прим. κ"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "locus": "10.36",
+       "refs": [
+        {
+         "text": "Схолии к «Одиссее» X",
+         "links": [
+          {
+           "href": "odyssey-10.html#n2c",
+           "label": "прим. ζ"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "locus": "10.54–60",
        "refs": [
         {
          "text": "Схолии к «Одиссее» X",
          "links": [
           {
            "href": "odyssey-10.html#n3b",
-           "label": "прим. ϛ"
+           "label": "прим. μ"
           }
          ]
         }
@@ -9232,7 +10288,7 @@
        ]
       }
      ],
-     "n": 23,
+     "n": 30,
      "letter": "Г"
     },
     {
@@ -9264,6 +10320,34 @@
      "letter": "Г"
     },
     {
+     "id": "demon-fr",
+     "ru": "Фрагменты",
+     "en": "Fragments",
+     "orig": "",
+     "abbr": "FGrHist 327",
+     "wikidata": "",
+     "author": "Демон",
+     "author_id": "demon",
+     "loci": [
+      {
+       "locus": "F 2",
+       "refs": [
+        {
+         "text": "Схолии к «Одиссее» X",
+         "links": [
+          {
+           "href": "odyssey-10.html#n2e",
+           "label": "прим. θ"
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "n": 1,
+     "letter": "Д"
+    },
+    {
      "id": "diod-bibl",
      "ru": "Историческая библиотека",
      "en": "Library of History",
@@ -9274,7 +10358,21 @@
      "author_id": "diodorus",
      "loci": [
       {
-       "locus": "5.7",
+       "locus": "4.67.3–6",
+       "refs": [
+        {
+         "text": "Схолии к «Одиссее» X",
+         "links": [
+          {
+           "href": "odyssey-10.html#n2b",
+           "label": "прим. ϛ"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "locus": "5.7.1",
        "refs": [
         {
          "text": "Схолии к «Одиссее» X",
@@ -9294,8 +10392,22 @@
          "text": "Схолии к «Одиссее» X",
          "links": [
           {
-           "href": "odyssey-10.html#n2b",
-           "label": "прим. δ"
+           "href": "odyssey-10.html#n2d",
+           "label": "прим. η"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "locus": "5.8.1",
+       "refs": [
+        {
+         "text": "Схолии к «Одиссее» X",
+         "links": [
+          {
+           "href": "odyssey-10.html#n2f",
+           "label": "прим. ι"
           }
          ]
         }
@@ -9344,7 +10456,7 @@
        ]
       }
      ],
-     "n": 5,
+     "n": 7,
      "letter": "Д"
     },
     {
@@ -9357,6 +10469,20 @@
      "author": "Евстафий Солунский",
      "author_id": "eustathius",
      "loci": [
+      {
+       "locus": "1644.52",
+       "refs": [
+        {
+         "text": "Схолии к «Одиссее» X",
+         "links": [
+          {
+           "href": "odyssey-10.html#n3c",
+           "label": "прим. ν"
+          }
+         ]
+        }
+       ]
+      },
       {
        "locus": "1648",
        "refs": [
@@ -9420,8 +10546,40 @@
        ]
       }
      ],
-     "n": 8,
+     "n": 9,
      "letter": "Е"
+    },
+    {
+     "id": "call-fr",
+     "ru": "Фрагменты",
+     "en": "Fragments",
+     "orig": "",
+     "abbr": "Callim. fr.",
+     "wikidata": "",
+     "author": "Каллимах",
+     "author_id": "callimachus",
+     "loci": [
+      {
+       "locus": "202 (старая нумерация)",
+       "refs": [
+        {
+         "text": "Схолии к «Одиссее» X",
+         "links": [
+          {
+           "href": "odyssey-10.html#s2",
+           "label": "Σ Од. 10.2"
+          },
+          {
+           "href": "odyssey-10.html#n2f",
+           "label": "прим. ι"
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "n": 2,
+     "letter": "К"
     },
     {
      "id": "crates-fr-broggiato",
@@ -9579,7 +10737,7 @@
           },
           {
            "href": "odyssey-10.html#n3a",
-           "label": "прим. ε"
+           "label": "прим. λ"
           }
          ]
         }
@@ -9640,9 +10798,23 @@
          ]
         }
        ]
+      },
+      {
+       "locus": "3.92–94",
+       "refs": [
+        {
+         "text": "Схолии к «Одиссее» X",
+         "links": [
+          {
+           "href": "odyssey-10.html#n1b",
+           "label": "прим. β"
+          }
+         ]
+        }
+       ]
       }
      ],
-     "n": 1,
+     "n": 2,
      "letter": "П"
     },
     {
@@ -9731,6 +10903,34 @@
       }
      ],
      "n": 6,
+     "letter": "П"
+    },
+    {
+     "id": "ps-apollod-bibl",
+     "ru": "Библиотека",
+     "en": "Library",
+     "orig": "Βιβλιοθήκη",
+     "abbr": "[Apollod.] Bibl.",
+     "wikidata": "",
+     "author": "Псевдо-Аполлодор",
+     "author_id": "ps-apollodorus",
+     "loci": [
+      {
+       "locus": "1.7.2–3",
+       "refs": [
+        {
+         "text": "Схолии к «Одиссее» X",
+         "links": [
+          {
+           "href": "odyssey-10.html#n2a",
+           "label": "прим. ε"
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "n": 1,
      "letter": "П"
     },
     {
@@ -10512,14 +11712,32 @@
      "author_id": "strabo",
      "loci": [
       {
+       "locus": "1.2.9",
+       "refs": [
+        {
+         "text": "Схолии к «Одиссее» X",
+         "links": [
+          {
+           "href": "odyssey-10.html#n1d",
+           "label": "прим. δ"
+          }
+         ]
+        }
+       ]
+      },
+      {
        "locus": "1.2.15",
        "refs": [
         {
          "text": "Схолии к «Одиссее» X",
          "links": [
           {
-           "href": "odyssey-10.html#n1a",
-           "label": "прим. α"
+           "href": "odyssey-10.html#n1d",
+           "label": "прим. δ"
+          },
+          {
+           "href": "odyssey-10.html#n2d",
+           "label": "прим. η"
           }
          ]
         },
@@ -10595,11 +11813,29 @@
        ]
       },
       {
-       "locus": "6.2.10–11",
+       "locus": "3.4.19",
        "refs": [
         {
          "text": "Схолии к «Одиссее» X",
          "links": [
+          {
+           "href": "odyssey-10.html#n1c",
+           "label": "прим. γ"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "locus": "6.2.11",
+       "refs": [
+        {
+         "text": "Схолии к «Одиссее» X",
+         "links": [
+          {
+           "href": "odyssey-10.html#n1a",
+           "label": "прим. α"
+          },
           {
            "href": "odyssey-10.html#n1b",
            "label": "прим. β"
@@ -10625,9 +11861,23 @@
          ]
         }
        ]
+      },
+      {
+       "locus": "10.5.2",
+       "refs": [
+        {
+         "text": "Схолии к «Одиссее» X",
+         "links": [
+          {
+           "href": "odyssey-10.html#n3a",
+           "label": "прим. λ"
+          }
+         ]
+        }
+       ]
       }
      ],
-     "n": 10,
+     "n": 15,
      "letter": "С"
     },
     {
@@ -10675,8 +11925,8 @@
          "text": "Схолии к «Одиссее» X",
          "links": [
           {
-           "href": "odyssey-10.html#n1a",
-           "label": "прим. α"
+           "href": "odyssey-10.html#n1d",
+           "label": "прим. δ"
           }
          ]
         },
@@ -10706,21 +11956,39 @@
      "author_id": "tzetzes",
      "loci": [
       {
+       "locus": "45",
+       "refs": [
+        {
+         "text": "Схолии к «Одиссее» X",
+         "links": [
+          {
+           "href": "odyssey-10.html#n2f",
+           "label": "прим. ι"
+          }
+         ]
+        }
+       ]
+      },
+      {
        "locus": "738",
        "refs": [
         {
          "text": "Схолии к «Одиссее» X",
          "links": [
           {
-           "href": "odyssey-10.html#n2b",
-           "label": "прим. δ"
+           "href": "odyssey-10.html#s2",
+           "label": "Σ Од. 10.2"
+          },
+          {
+           "href": "odyssey-10.html#n2d",
+           "label": "прим. η"
           }
          ]
         }
        ]
       }
      ],
-     "n": 1,
+     "n": 3,
      "letter": "Ц"
     },
     {
@@ -10750,6 +12018,34 @@
      ],
      "n": 1,
      "letter": "Ц"
+    },
+    {
+     "id": "aesch-pv",
+     "ru": "Прометей прикованный",
+     "en": "Prometheus Bound",
+     "orig": "Προμηθεὺς δεσμώτης",
+     "abbr": "Aesch. PV",
+     "wikidata": "Q846870",
+     "author": "Эсхил",
+     "author_id": "aeschylus",
+     "loci": [
+      {
+       "locus": "555–560",
+       "refs": [
+        {
+         "text": "Схолии к «Одиссее» X",
+         "links": [
+          {
+           "href": "odyssey-10.html#n2a",
+           "label": "прим. ε"
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "n": 1,
+     "letter": "Э"
     },
     {
      "id": "iulval-res-gestae",
@@ -11562,6 +12858,62 @@
      "letter": "Г"
     },
     {
+     "id": "orph-fr",
+     "ru": "Орфические фрагменты (изд. Керна)",
+     "en": "Orphic fragments (Kern)",
+     "orig": "",
+     "abbr": "Orph. fr. Kern",
+     "wikidata": "",
+     "author": "",
+     "author_id": "",
+     "loci": [
+      {
+       "locus": "318",
+       "refs": [
+        {
+         "text": "Схолии к «Одиссее» X",
+         "links": [
+          {
+           "href": "odyssey-10.html#n2e",
+           "label": "прим. θ"
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "n": 1,
+     "letter": "О"
+    },
+    {
+     "id": "suda",
+     "ru": "Суда",
+     "en": "Suda",
+     "orig": "Σοῦδα",
+     "abbr": "Suda",
+     "wikidata": "Q216299",
+     "author": "",
+     "author_id": "",
+     "loci": [
+      {
+       "locus": "τ 1023",
+       "refs": [
+        {
+         "text": "Схолии к «Одиссее» X",
+         "links": [
+          {
+           "href": "odyssey-10.html#n2e",
+           "label": "прим. θ"
+          }
+         ]
+        }
+       ]
+      }
+     ],
+     "n": 1,
+     "letter": "С"
+    },
+    {
      "id": "schol-d-il",
      "ru": "Схолии D к «Илиаде»",
      "en": "D-scholia on the Iliad",
@@ -11616,6 +12968,20 @@
           {
            "href": "study-laestrygonians.html#n30",
            "label": "прим. 30"
+          }
+         ]
+        }
+       ]
+      },
+      {
+       "locus": "9.564",
+       "refs": [
+        {
+         "text": "Схолии к «Одиссее» X",
+         "links": [
+          {
+           "href": "odyssey-10.html#n1c",
+           "label": "прим. γ"
           }
          ]
         }
@@ -11813,6 +13179,15 @@
        "locus": "10.86",
        "refs": [
         {
+         "text": "Схолии к «Одиссее» X",
+         "links": [
+          {
+           "href": "odyssey-10.html#n1d",
+           "label": "прим. δ"
+          }
+         ]
+        },
+        {
          "text": "«Пергам против Александрии?»",
          "links": [
           {
@@ -11900,7 +13275,7 @@
        ]
       }
      ],
-     "n": 39,
+     "n": 41,
      "letter": "С"
     },
     {
@@ -11978,7 +13353,7 @@
      "letter": "С"
     }
    ],
-   "count": 39,
+   "count": 48,
    "sample": "Деяния Александра Македонского, Роман об Александре, редакция α, Схолии к «Одиссее»…",
    "letters": [
     "А",
@@ -11990,7 +13365,9 @@
     "С",
     "Ф",
     "Ц",
-    "Ю"
+    "Э",
+    "Ю",
+    "О"
    ]
   }
  }

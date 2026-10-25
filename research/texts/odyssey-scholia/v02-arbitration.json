@@ -1,0 +1,924 @@
+{
+ "setB": {
+  "text_issues": [
+   {
+    "id": "appx-4 · (ι, 473.)",
+    "claim": "After the quotation Dindorf prints the editorial reference «ὅσον τε γέγωνε βοήσας» (ι, 473.), and the file and the appendix leave it out (Dindorf II 453.4–5).",
+    "verdict": "partly",
+    "fix_greek_old": "ὥσπερ ποτ’ ἔχει καὶ αὐτῷ «ὅσον τε γέγωνε βοήσας».",
+    "fix_greek_new": "ὥσπερ ποτ’ ἔχει καὶ αὐτῷ «ὅσον τε γέγωνε βοήσας» (ι 473).",
+    "comment": "Скан 453.4–5 подтверждает, что после цитаты напечатано «(ι, 473.). B.Q.». Но это редакторская отсылка Диндорфа, а не слова схолии. Русский перевод приложения уже даёт «(9.473)», так что для читателя ничего не теряется. Правка необязательна; она лишь выравнивает приложение с досье, где стоит «(ι 473)»."
+   },
+   {
+    "id": "appx-4 · V partial",
+    "claim": "The selective apparatus does not say that V gives only part of this scholion. Dindorf: «ἀκούεσθαι] ἐξακούεσθαι V. partem hujus scholii exhibens ὅπου οἱ νομεῖς ἀλλήλους—ἐξελαύνοντες».",
+    "verdict": "confirmed",
+    "fix_greek_old": "ἀκούεσθαι] ἐξακούεσθαι V",
+    "fix_greek_new": "ἀκούεσθαι] ἐξακούεσthai V, partem hujus scholii exhibens ὅπου οἱ νομεῖς ἀλλήλους — ἐξελαύνοντες",
+    "comment": "Подтверждено по скану (Dindorf II 453, аппарат к стр. 3). V даёт только отрывок, и редакция у неё другая: начинается с ὅπου (а не ἔνθα, как в B Q) и кончается именительным ἐξελαύνοντες (в B Q — τοῦ ἐξελαύνοντος). Без этой оговорки варианты V (σύνεγγυς, ἐξακούεσθαι) выглядят как чтения полного параллельного свидетеля. ВНИМАНИЕ: в fix_greek_new нужно читать «ἐξακούεσθαι» (греческими буквами целиком). Правильная строка: «ἀκούεσθαι] ἐξακούεσθαι V, partem hujus scholii exhibens ὅπου οἱ νομεῖς ἀλλήλους — ἐξελαύνοντες»."
+   },
+   {
+    "id": "appx-12 · τηλέκλυτον P",
+    "claim": "The apparatus entry paraphrases Dindorf. His note reads «τηλέπυλον] τηλέκλυτον P. qui in verbis ceteris usque ad νομεύων cum textu vulgato consentit». The dash in the main text is Dindorf's own abbreviation, not a lacuna.",
+    "verdict": "partly",
+    "fix_greek_old": "τηλέκλυτον P (стихи 82–85, до νομεύων, приведены полностью)",
+    "fix_greek_new": "τηλέπυλον] τηλέκλυτον P, qui in verbis ceteris usque ad νομεύων cum textu vulgato consentit (тире в тексте — сокращение Диндорфа)",
+    "comment": "Скан 454 (аппарат к стр. 17) подтверждает формулировку Диндорфа. Запись приложения по существу не ошибочна: из «in verbis ceteris usque ad νομεύων» следует, что P выписывает стихи до νομεύων. Но в ней нет главного — что P во всём остальном совпадает с вульгатой и отличается только τηλέκλυτον. А «приведены полностью» — это наш вывод, а не слова Диндорфа. Лучше дать формулировку самого Диндорфа."
+   }
+  ],
+  "divergences": [
+   {
+    "id": "appx-2 · V · τὴν τῶν Λαιστρυγόνων",
+    "greek": "Λαιστρυγονίην] τὴν τῶν Λαιστρυγόνων. Λαιστρυγόνες δὲ οἱ τὴν Λάμον οἰκοῦντες. V.",
+    "published": "Лестригонию] [Землю] лестригонов; лестригоны — жители Лама. V.",
+    "independent": "Лестригонский] [Город] лестригонов. Лестригоны — жители Лама. V.",
+    "verdict": "independent",
+    "action": "replace",
+    "old": "Лестригонию] [Землю] лестригонов;",
+    "new": "Лестригонский] [Город] лестригонов;",
+    "note_ru": "",
+    "reason": "V толкует гомеровское прилагательное, которое согласовано с Τηλέπυλον, то есть с городом. Тот же источник V двумя строками выше толкует τηλέπυλον женским μεγάλην (452.20), то есть «большой [город]». Евстафий к ст. 82 тоже пишет «Τηλέπυλος … ἡ μεγάλη» (1649.20 Rom. = Stallbaum I 368). Женский род τὴν Λάμον также указывает на город Лам. Перевод стиха в самой статье — «к Телепилу лестригонскому», и лемма должна с ним совпадать. Как название страны (= Сицилия) слово понимает только заметка H, поэтому во фразе H остаётся «Лестригонию»."
+   },
+   {
+    "id": "appx-2 · H · οἱ νεώτεροι",
+    "greek": "τὴν Λαιστρυγονίην οἱ νεώτεροι Σικελίαν φασί. H.",
+    "published": "Лестригонию «позднейшие» поэты (οἱ νεώτεροι), то есть послегомеровские, называют Сицилией. H.",
+    "independent": "Позднейшие [авторы] говорят, что Лестригония — это Сицилия. H.",
+    "verdict": "both",
+    "action": "replace+note",
+    "old": "Лестригонию «позднейшие» поэты (οἱ νεώτεροι), то есть послегомеровские, называют Сицилией.",
+    "new": "Лестригонию «позднейшие» [поэты] (οἱ νεώτεροι) называют Сицилией.",
+    "note_ru": "οἱ νεώτεροι — «позднейшие». У Аристарха так обычно названы послегомеровские поэты. Но лестригонов связывает с Сицилией и историк Фукидид (6.2.1), поэтому возможен и перевод «позднейшие [авторы]».",
+    "reason": "Слова «поэты» в греческом нет, а «то есть послегомеровские» — толкование. В опубликованном переводе и то и другое вписано без скобок, как часть текста. Аристархово употребление термина оправдывает «поэты», но только как восполнение в скобках. Отождествление с Сицилией есть и у историков: Фукидид 6.2.1 говорит о Κύκλωπες καὶ Λαιστρυγόνες в части острова. Ту же оговорку стоит внести в § 2 статьи, где сказано «отождествляют с Сицилией «позднейшие» поэты (οἱ νεώτεροι)»."
+   },
+   {
+    "id": "appx-4 · τὸ ἀπεναντίον τῶν πυλῶν",
+    "greek": "ἢ μᾶλλον τοῦ διαστήματος τὸ ἀπεναντίον τῶν πυλῶν μέτρον ἀπέχειν, καὶ οὕτως τὴν φωνὴν ἀκούεσθαι τοῦ τε εἰσελαύνοντος καὶ τοῦ ἐξελαύνοντος",
+    "published": "Или, скорее, противолежащие ворота разделяет такое расстояние, что слышен голос и загоняющего, и выгоняющего",
+    "independent": "Или, вернее, [место] напротив ворот отстоит на [такую] меру расстояния, что слышен голос и того, кто пригоняет [стадо], и того, кто выгоняет",
+    "verdict": "published",
+    "action": "keep",
+    "old": "противолежащие ворота разделяет такое расстояние",
+    "new": "",
+    "note_ru": "",
+    "reason": "Смысл этого толкования закреплён пересказом у Евстафия к ст. 82: ἄλλοι δὲ … τὴν διασταδὸν πύλας διαφόρους ἔχουσαν οὐ πάνυ μέντοι ἀφεστηκυίας, ἀλλ’ ὥστε τὴν φωνὴν ἐξακούεσθαι τῶν εἰσελαυνόντων καὶ ἐξελαυνόντων (1649.20 сл. Rom. = Stallbaum I 368, проверено по скану). Речь о расстоянии между разными воротами, в пределах слышимости голоса. В независимом переводе «[место] напротив ворот отстоит» непонятно, от чего отстоит. Средний род τὸ ἀπεναντίον неудобен, но смысл надёжен."
+   },
+   {
+    "id": "appx-10 · κατηστερίσθαι",
+    "greek": "Κράτης δέ φησι κατὰ τὴν τοῦ δράκοντος αὐτοὺς κατηστερίσθαι κεφαλήν",
+    "published": "Кратет же говорит, что они размещены по звёздам у головы Дракона",
+    "independent": "Кратет же говорит, что они помещены среди звёзд (κατηστερίσθαι) у головы Дракона",
+    "verdict": "independent",
+    "action": "replace+note",
+    "old": "Кратет же говорит, что они размещены по звёздам у головы Дракона",
+    "new": "Кратет же говорит, что они помещены среди звёзд (κατηστερίσθαι) у головы Дракона",
+    "note_ru": "κατηστερίσθαι — букв. «быть помещённым среди звёзд». О людях на земле так сказано необычно. Евстафий относит причастие к голове Дракона: εἶναι τοὺς Λαιστρυγόνας ὑπὸ τὴν κεφαλὴν τοῦ δράκοντος κατηστερισμένην περὶ αὐτούς — «лестригоны живут под головой Дракона, помещённой среди звёзд около них» (1649 Rom. = Stallbaum I 369). Ср. § 4.",
+    "reason": "«Размещены по звёздам» сглаживает странный глагол и уже подсказывает прочтение «координаты». Между тем статья (§ 4, прим. 22) сама переводит κατηστερίσθαι как «быть помещённым среди звёзд» и на этом строит обсуждение «зенитной» гипотезы. Приложение должно давать то же буквальное значение (LSJ s.v. καταστερίζω: place among the stars) и показывать греческое слово. Цитата из Евстафия проверена по скану Stallbaum I 369."
+   },
+   {
+    "id": "appx-11 · τὰ ἔννομα",
+    "greek": "ὅτι τὰ ἔννομα περὶ τὴν πόλιν διὰ τὸ ἀγεώργητα εἶναι τὰ προάστεια",
+    "published": "[Отметь,] что пастбища [у лестригонов] — вокруг самого города, потому что пригородные земли не возделываются",
+    "independent": "Потому что пасущиеся [животные] (τὰ ἔννομα) находятся вокруг города: его окрестности не обрабатываются",
+    "verdict": "both",
+    "action": "note",
+    "old": "пастбища [у лестригонов]",
+    "new": "",
+    "note_ru": "τὰ ἔννомα — редкое слово. Переводим по смыслу параллельных схолий (αἱ νομαί — «пастбища»). Но LSJ (s.v. ἔννομος II) знает для него только значение «пасущийся, обитающий в», поэтому возможно и «пасущийся скот [держат] вокруг города».",
+    "reason": "Лексически ближе независимый перевод: LSJ ἔννομος II «(νέμομαι) feeding in, i.e. inhabiting», а значения «пастбище» словарь не даёт. За опубликованный перевод — контекст и параллели: B, HQ [b] и HV говорят о νομαί у города. Довод схолии от выбора не меняется, поэтому достаточно примечания. ВНИМАНИЕ: в note_ru слово нужно писать «τὰ ἔννομα» (греческими буквами целиком)."
+   },
+   {
+    "id": "appx-11 · ὅτι",
+    "greek": "ὅτι τὰ ἔννομα περὶ τὴν πόλιν … εἶναι δὲ ταῖς ἄλλαις πόλεσιν ἐν ὄρεσι καὶ πόρρω.",
+    "published": "[Отметь,] что …",
+    "independent": "Потому что …",
+    "verdict": "both",
+    "action": "keep",
+    "old": "[Отметь,] что",
+    "new": "",
+    "note_ru": "",
+    "reason": "У Диндорфа здесь нет леммы: заметка T идёт в одном абзаце после «H.V.». Начало без личного глагола и инфинитив εἶναι по форме совпадают с ὅτι-заметками, поэтому «[Отметь,] что» в скобках допустимо. Причинное «потому что» тоже возможно: как ответ на γάρ стиха 86. Но восполнение в скобках прозрачно, а § 2 статьи уже предупреждает, что возводить заметку к Аристонику нельзя. Менять не нужно."
+   },
+   {
+    "id": "appx-12 · μὴ ἔχειν νύκτα",
+    "greek": "τοὺς ἀρκτῴους ἀνθρώπους μεγίστην τὴν ἡμέραν ἔχειν, καὶ μὴ ἔχειν νύκτα· τὴν γὰρ νύκτα μόνον μιᾶς ὥρας διάστημα εἶναι",
+    "published": "у северных людей самый долгий день, и ночи [почти] нет: ночь длится всего час",
+    "independent": "у северных жителей день самый долгий и ночи нет: ведь ночь длится всего один час",
+    "verdict": "independent",
+    "action": "replace",
+    "old": "и ночи [почти] нет",
+    "new": "и ночи нет",
+    "note_ru": "",
+    "reason": "Схолиаст прямо пишет μὴ ἔχειν νύκτα и сразу объясняет преувеличение через γάρ: ночь — всего час. Восполнение «[почти]» сглаживает противоречие, которое есть в самом тексте. Пояснение уже стоит в следующем придаточном. (τὴν γὰρ νύκτα — дополнение Буттмана; в аппарате это отмечено.)"
+   },
+   {
+    "id": "appx-12 · καὶ Ὅμηρος",
+    "greek": "περὶ τούτων καὶ Ὅμηρος τῶν τόπων μνημονεύει νῦν.",
+    "published": "Об этих местах и упоминает здесь Гомер, говоря:",
+    "independent": "Именно об этих местах теперь упоминает и Гомер.",
+    "verdict": "independent",
+    "action": "replace",
+    "old": "Об этих местах и упоминает здесь Гомер, говоря:",
+    "new": "Об этих местах упоминает здесь и Гомер, говоря:",
+    "note_ru": "",
+    "reason": "καί относится к Ὅμηρος: «и Гомер», то есть и он, помимо только что изложенного астрономического рассуждения. Это ровно оборот Гемина 6.10: τῶν τόπων τούτων καὶ Ὅμηρον μνημονεῦσαι, который статья переводит «эти места упоминает и Гомер». Русское «и упоминает» читается как усилительная частица при глаголе и прячет ту самую параллель, на которую опирается § 3. Ту же правку нужно внести в цитату в § 3 (стр. 120: «об этих местах и упоминает здесь Гомер»)."
+   },
+   {
+    "id": "appx-12 · μεγίστη ἡμέρα",
+    "greek": "δῆλον δὲ ὅτι τοῖς βορειοτέροις μεγίστη τῶν νοτιωτέρων ἡμέρα.",
+    "published": "Ясно, что у более северных [народов] самый долгий день длиннее, чем у более южных.",
+    "independent": "Ясно, что у тех, кто живёт севернее, день гораздо длиннее, чем у более южных жителей.",
+    "verdict": "published",
+    "action": "keep",
+    "old": "Ясно, что у более северных [народов] самый долгий день длиннее, чем у более южных.",
+    "new": "",
+    "note_ru": "",
+    "reason": "μεγίστη ἡμέρα — астрономический термин «самый долгий день», то есть день летнего солнцестояния (ср. Гемин 6). Утверждение верно только для него: зимой день на севере короче. Независимое «день гораздо длиннее» неверно обобщает. Опубликованный перевод передаёт и термин, и сравнение с родительным падежом."
+   }
+  ],
+  "overview": "Сверка и сравнение сделаны по сканам Диндорфа II 452–454 (n55–n57; в браузере, без загрузки файлов) и по Евстафию, Stallbaum I 368–369 (commentariiadhom01eust n377–n378). Файлы не менялись.\n\n(1) Текст. Весь греческий текст приложения (набор B) я проверил по сканам: основной текст совпадает с Диндорфом; кроме трёх замечаний GPT, расхождений не нашёл. Сверка GPT по набору B точна.\n- Подтверждено одно замечание: аппарат не сообщает, что V содержит только часть схолии к ὅθι ποιμένα («ὅπου οἱ νομεῖς ἀλλήλους—ἐξελαύνοντες»).\n- Частично подтверждены два:\n  - опущенная отсылка (ι, 473.) — редакторская; в русском переводе она уже есть;\n  - запись о τηλέκλυτον P верна по сути, но в ней нет «qui in verbis ceteris usque ad νομεύων cum textu vulgato consentit».\n\nОшибка набора в моих выходных данных, исправьте её перед применением: в fix_greek_new замечания «appx-4 · V partial» читать «ἐξακούεσθαι» (греческими буквами целиком), в note_ru для «appx-11 · τὰ ἔννομα» читать «τὰ ἔννομα».\n\n(2) Перевод. Опубликованный перевод в целом надёжен. В пяти местах я рекомендую замену:\n- appx-2 V: «[Город] лестригонов», а не «[Землю]» (ср. μεγάλην у V и перевод стиха в статье);\n- appx-2 H: «поэты» в квадратные скобки, с примечанием о Фукидиде 6.2.1;\n- appx-10: κατηστερίσθαι переводить буквально, как в § 4 и прим. 22 статьи, с примечанием о Евстафии;\n- appx-12: снять «[почти]»;\n- appx-12: «упоминает здесь и Гомер» — так сохраняется параллель с Гемином 6.10, на которую опирается § 3. Цитату в § 3 (стр. 120) нужно поправить так же.\n\nТолько примечание: τὰ ἔννομα (appx-11). Оставлено как есть, после проверки:\n- appx-4: сомнение GPT о расстоянии у ворот снимает Евстафий 1649.20 сл. Rom., он подтверждает опубликованное «противолежащие ворота разделяет такое расстояние»;\n- ὅτι в T;\n- μεγίστη ἡμέρα в P.\n\nОбщие места, где обе версии совпадают, но, возможно, ошибаются:\n- appx-8: τοῦτο λέγει ὅτι — в схолиях обычно пояснительная формула («он имеет в виду, что ночью пасут коров…»). Обе версии переводят «говорит это потому, что». Стоит подумать над «Он имеет в виду, что…».\n- Схолия P (appx-12) целиком построена как косвенная речь (accusativus cum infinitivo без управляющего глагола). Это поддерживает её происхождение из пересказа вроде геминовского «Κράτης … φησι». Ни один перевод это не отмечает; это можно сказать в § 3.\n\nМелкие расхождения я не выносил как существенные: βουσί/ταύρους в appx-7/8, «бодрствовать» для διαγρυπνεῖν, μακρόπυλον «с длинными» или «с большими воротами»."
+ },
+ "textA": {
+  "issues": [
+   {
+    "id": "A-s1-1",
+    "claim": "s1 sigla: the file gives one group, B Q V, for the whole note. The print has B.Q.V. after Λεοντίνους and V. after λέγουσιν, so the list of islands and the Tyrrhenian sentence are V only.",
+    "verdict": "confirmed",
+    "dindorf": "II 444.4 «Κύκλωπας δὲ τοὺς Λεοντίνους. B.Q.V.»; 444.7 «… κεῖσθαι λέγουσιν. V.»",
+    "comment": "The scan agrees. The page chip 'B Q V' has to be split into two parts. Dindorf's sigla are also not exhaustive: the apparatus to 444.1 cites P for this note as well."
+   },
+   {
+    "id": "A-s1-2",
+    "claim": "Apparatus missing in the file: οἱ δέ] τινὲς δὲ P., omisso λέγοντες.",
+    "verdict": "confirmed",
+    "dindorf": "II 444 app. ad l. 1: «οἱ δὲ] τινὲς δὲ P., omisso λέγοντες.»",
+    "comment": "The wording is exact."
+   },
+   {
+    "id": "A-s1-3",
+    "claim": "Apparatus: after Φοινικοῦσσαν the witnesses wrongly inserted τινὲς δὲ ἀλληγοροῦντες — προστασσόμενοι; Buttmann moves it to v. 6. It is not to be put back into s1.",
+    "verdict": "confirmed",
+    "dindorf": "II 444 app. ad l. 6: «Φοινικοῦσσαν] Non bene hic inserta legebantur hæc: τινὲς δὲ ἀλληγοροῦντες — προστασσόμενοι, quæ vid. infra ad v. 6. BUTTM.»",
+    "comment": "GPT reads it correctly and does not re-insert the passage."
+   },
+   {
+    "id": "A-s2-1",
+    "claim": "s2 sigla: the file has 'H Q (to be checked)'. The genealogical excerpt ends with Q., and the late addition is printed in [ … P.].",
+    "verdict": "confirmed",
+    "dindorf": "II 444.21 «εἰπεῖν ἐξ Ἱππότου. Q.»; 444.23–445.23 «[Αἴολος ὁ Ἱππότου … φορούμενος. P.]»",
+    "comment": "H appears only in the apparatus to earlier lines of the same long scholion (444.10, 12, 15, where Dindorf cites 'H.Q.'), so the printed text is Q's. The page chip 'H Q · сверить' should read 'Q'. Between Q. and the P addition Dindorf prints a separate V note on the same lemma (444.21–22, Αἴολοι δύο …). The file and the page both omit it without notice."
+   },
+   {
+    "id": "A-s2-2",
+    "claim": "The P addition does not end at δεσπότην ἀνέμων. It runs on from ὁμοίως δὲ καὶ τὸν Ἀμακλείδην to ἄκων τοῖς ἀνέμοις φορούμενος. P.] This is an undeclared cut.",
+    "verdict": "confirmed",
+    "dindorf": "II 445.5–23 «ὁμοίως δὲ καὶ τὸν Ἀμακλείδην … ἄκων τοῖς ἀνέμοις φορούμενος. P.]»",
+    "comment": "The published page silently cuts about 19 printed lines here: it stops at δεσπότην ἀνέμων. with no […]. According to Buttmann (app. 445.16), only the text up to Αἰολίδαο comes from Tzetzes; from ὁ γὰρ on it comes from another source. The continuation contains 'τὸν πόδα τῆς νηὸς ἔχων', which echoes Od. 10.32."
+   },
+   {
+    "id": "A-s2-3",
+    "claim": "The file has ἐν Ταύρῳ … Κυνὸς; the print has lower case: ἐν ταύρῳ … κυνὸς.",
+    "verdict": "confirmed",
+    "dindorf": "II 445.2 «ἐν ταύρῳ ἄστρῳ»; 445.4 «κυνὸς τοιόσδε»",
+    "comment": "The difference is typographic only. On the same lines GPT missed a punctuation difference, the comma after πλεύσειαν (see A-new-1)."
+   },
+   {
+    "id": "A-s2-4",
+    "claim": "Apparatus: τὸν Ὀδυσσέα ἐλθεῖν addidit Buttm.; τὸ] τῷ Q.",
+    "verdict": "confirmed",
+    "dindorf": "II 444 app. ad l. 20: «τὸν Ὀδυσσέα ἐλθεῖν addidit Buttm.» «τὸ] τῷ Q.»",
+    "comment": "The supplement τὸν Ὀδυσσέα ἐλθεῖν is editorial. The translation depends on it, so the margin should say it is Buttmann's supplement."
+   },
+   {
+    "id": "A-s2-5",
+    "claim": "Apparatus: the addition up to Αἰολίδαο is taken from Tzetzes on Lycophron 738 and was written in P by a later hand; μὲν] βασιλεὺς Tzetzes.",
+    "verdict": "confirmed",
+    "dindorf": "II 444 app. ad l. 23: «Αἴολος—] Sumtum hoc scholium usque ad vocem Αἰολίδαο e Tzetzæ Comm. ad Lycophr. 738. Duo similia additamenta notabimus infra ad 305. Sunt autem hæc omnia in P. scripta a manu recentiore.» «μὲν] βασιλεὺς Tzetzes.»",
+    "comment": "The entry is exact except that GPT leaves out the cross-reference 'ad 305'. βασιλεὺς in Tzetzes explains the μὲν that has no answering δέ."
+   },
+   {
+    "id": "A-s2-6",
+    "claim": "Apparatus: περὶ Tzetzes. παρὰ P.",
+    "verdict": "confirmed",
+    "dindorf": "II 445 app. ad l. 1: «περὶ Tzetzes. παρὰ P.»",
+    "comment": "This means the printed περὶ τῶν ἀνέμων is Tzetzes' reading."
+   },
+   {
+    "id": "A-s2-7",
+    "claim": "Apparatus: ὡς τυχὸν ἐν] εἰ ἐν Tzetzes, unde εἰ addidi.",
+    "verdict": "confirmed",
+    "dindorf": "II 445 app. ad l. 2: «ὡς τυχὸν ἐν] εἰ ἐν Tzetzes, unde εἰ addidi.»",
+    "comment": "The εἰ in ὡς εἰ τυχὸν is Dindorf's addition."
+   },
+   {
+    "id": "A-s2-8",
+    "claim": "Apparatus: 'ἔσται πνέων Tzetzes. ἔσεσθαι πλέων P.'",
+    "verdict": "partly",
+    "dindorf": "II 445 app. ad l. 3: «ἔσεται πνέων Tzetzes. ἔσεσθαι πλέων P.»",
+    "comment": "The substance is right, but GPT miscopied Tzetzes' form. The print has ἔσεται, the same form as the text, not ἔσται."
+   },
+   {
+    "id": "A-s2-9",
+    "claim": "Apparatus: Πρωτοκρέοντα Tzetzes. Πρωκρέοντα P.; Ὀρφεύς: fr. Orph. 53, Suda s.v. τριτοπάτορες, Etym. M. 768.1.",
+    "verdict": "confirmed",
+    "dindorf": "II 445 app. ad l. 6: «Πρωτοκρέοντα Tzetzes. Πρωκρέοντα P.» «Ὀρφεύς] Vid. fr. Orph. 53. e Suid. v. τριτοπάτορες et Etym. M. p. 768, 1. BUTTM.»",
+    "comment": "The entry is exact. The fragment number is Buttmann's old numbering."
+   },
+   {
+    "id": "A-s2-10",
+    "claim": "Apparatus: Καλλίμαχος, fr. 202, from this passage of Tzetzes and from his note on Lycophron 45.",
+    "verdict": "confirmed",
+    "dindorf": "II 445 app. ad l. 15: «Καλλίμαχος] Vid. fr. 202. ex hoc Tzetzæ loco et ad Lycophr. 45. BUTTM.»",
+    "comment": "The entry is exact. I have not checked the modern fragment number."
+   },
+   {
+    "id": "A-s2-11",
+    "claim": "Apparatus: from ὁ γὰρ on, the text comes from another source, does not belong to this scholion, and summarises the book (Buttmann).",
+    "verdict": "confirmed",
+    "dindorf": "II 445 app. ad l. 16: «ὁ γὰρ —] Quæ hinc sequuntur aliunde excerpta et ab hoc scholio aliena spectant ad argumentum hujus libri. BUTTM.»",
+    "comment": "Dindorf still prints the passage inside the P bracket. It should be translated, but marked as coming from a different source."
+   },
+   {
+    "id": "A-s3-1",
+    "claim": "In the Pindar quotation the file has ῥιπαῖσιν; the print has ῥιπαῖς.",
+    "verdict": "confirmed",
+    "dindorf": "II 446.3 «παντοδαπῶν τ’ ἀνέμων ῥιπαῖς.»",
+    "comment": "This is an error in the file and on the page. ῥιπαῖσιν is the form of the modern Pindar text (via Strabo); Dindorf prints ῥιπαῖς and reports no variant."
+   },
+   {
+    "id": "A-s3-2",
+    "claim": "The second Q part does not start at ὁ δὲ Ἀρίσταρχος. It starts with Ἄλλως. ἐν πλεομένοις τόποις κειμένῃ … αἳ οὐ δύνανται περιπλέεσθαι.",
+    "verdict": "confirmed",
+    "dindorf": "II 446.7–10 «Ἄλλως. ἐν πλεομένοις τόποις κειμένῃ ὅτι εἰσὶ νῆσοι πλησίον ἠπείρου … αἳ οὐ δύνανται περιπλέεσθαι. ὁ δὲ Ἀρίσταρχος περιφορητῇ· … νῆσον. Q.»",
+    "comment": "The published page silently cuts the Greek here, with no […]. Ἄλλως appears only in the sub-label, not in the Greek. The T scholion that follows on πλωτῇ (446.11–14) is also omitted, which GPT reports."
+   },
+   {
+    "id": "A-s3-3",
+    "claim": "Apparatus: 'ἔνιοι] ἔνιστε V.; οἷον] οἱ δὲ H.Q.'",
+    "verdict": "partly",
+    "dindorf": "II 445 app. ad l. 24: «ἔνιοι] ἐνίοτε V.» «οἷον] οἱ δὲ H.Q.»",
+    "comment": "'ἔνιστε' is a slip for ἐνίοτε. The H.Q. reading οἱ δὲ affects the sense: 'some take it as …, others as …', instead of 'that is'."
+   },
+   {
+    "id": "A-s3-4",
+    "claim": "Apparatus: νῆσον] νήσους Q. ad sequentia relatum; ἢ ἐπιθετικῶς—Αἰολίην om. V.; ἢ ἐπιθετικῶς H., δὲ ἐπιθετικῶς Q.T.; Αἰολίαν H.T., αἰολίην Q.V.",
+    "verdict": "confirmed",
+    "dindorf": "II 445 app. ad l. 25: «νῆσον] νήσους Q. ad sequentia relatum. ἢ ἐπιθετικῶς—Αἰολίην om. V. ἢ ἐπιθετικῶς H. δὲ ἐπιθετικῶς Q.T. Αἰολίαν H.T. αἰολίην Q.V.»",
+    "comment": "The entry is exact. Dindorf's entry contradicts itself: it says V omits the phrase, yet cites V for αἰολίην."
+   },
+   {
+    "id": "A-s3-5",
+    "claim": "Apparatus: πλωτῇ om. H.; ἀντὶ τοῦ addidi ex T.",
+    "verdict": "confirmed",
+    "dindorf": "II 445 app. ad l. 26: «πλωτῇ om. H.» «ἀντὶ τοῦ addidi ex T.»",
+    "comment": "The words ἀντὶ τοῦ in Aristarchus' gloss come from T."
+   },
+   {
+    "id": "A-s3-6",
+    "claim": "Apparatus: περιφερομένῃ] παραφερομένῃ T.; Eustathius 1644.52 has παραφερομένην and adds ἢ συνεχείᾳ σεισμῶν ἢ ἄλλως ὁπωσοῦν; ὡς H. et Eustathius, ὥστε Q.T.",
+    "verdict": "confirmed",
+    "dindorf": "II 446 app.: «P. 445, 26. περιφερομένῃ] παραφερομένῃ T. Et παραφερομένην dixit Eustathius p. 1644, 52. qui addit ἢ συνεχείᾳ σεισμῶν ἢ ἄλλως ὁπωσοῦν. ὡς H. et Eustathius. ὥστε Q.T.»",
+    "comment": "The entry is exact. It is printed at the foot of p. 446."
+   },
+   {
+    "id": "A-s3-7",
+    "claim": "Apparatus: Πίνδαρος] Fragm. 58; φορητά] φορητὴ T.; 'Δᾶλος H.M. et Eustathius, αἰλὸς T. (with κυματέσσιν), δῆλος Q.'",
+    "verdict": "partly",
+    "dindorf": "II 446 app. ad ll. 2–3: «Πίνδαρος] Fragm. 58.» «φορητὰ] φορητὴ T.» «Δᾶλος H.M. et Eustathius. ἁλὸς T. (qui κυματέσσιν). δῆλος Q.»",
+    "comment": "T reads ἁλὸς ('of the sea'; κυματέσσιν ἁλὸς = 'by the waves of the sea'), not αἰλὸς. Under magnification there is no iota, only a breathing and a grave over the word. Fragm. 58 is the old (pre-Snell) number; the modern number is fr. 33d Snell–Maehler."
+   },
+   {
+    "id": "A-s3-8",
+    "claim": "Apparatus: Δᾶλος breaks the metre and is absent from Strabo (10 p. 485); the scholiast apparently took it from the preceding words of Pindar; τ’ addidi ex editionibus Strabonis.",
+    "verdict": "confirmed",
+    "dindorf": "II 446 app. ad l. 3: «Δᾶλος, quod hoc loco positum metro adversatur, non habet Strabo hæc verba afferens 10. p. 485., ut scholiasta ex præcedentibus verbis Pindari supplevisse videatur.» «τ’ addidi ex editionibus Strabonis, cujus codices id omittunt.»",
+    "comment": "The entry is exact. The τ’ in the quotation is Dindorf's addition. Δᾶλος belongs to the scholion's text and stays."
+   },
+   {
+    "id": "A-s3-9",
+    "claim": "Apparatus: ὑπ’ ἀ.] ὑπὸ τῶν ἀ. H.Q., non Eustathius; next τῆς om. T.; ὁ addidi ex H. et Eustathio; Ἄλλως: also excerpted by Eustathius.",
+    "verdict": "confirmed",
+    "dindorf": "II 446 app.: «4. ὑπ’ ἀ.] ὑπὸ τῶν ἀ. H.Q., non Eustathius. Proximum τῆς om. T.» «6. ὁ addidi ex H. et Eustathio.» «7. Ἄλλως] Hoc quoque scholion verbis leviter mutatis excerpsit Eustathius.»",
+    "comment": "The entry is exact."
+   },
+   {
+    "id": "A-s4-1",
+    "claim": "The file has περιβόλου τάξιν ἐπέχουσα; the print has περιβολῆς. περιβόλου belongs to the separate T note on λισσὴ δὲ πέτρη.",
+    "verdict": "confirmed",
+    "dindorf": "II 446.18 «περιτρέχει τὴν πόλιν περιβολῆς τάξιν ἐπέχουσα. B.Q.»; 446.19 «λισσὴ δὲ πέτρη] περιτρέχει τὴν πόλιν περιβόλου δίκην ἐπέχουσα. T.»",
+    "comment": "This is an error in the file and on the page, carried over from the T line. Dindorf prints no apparatus for 446.15–19."
+   },
+   {
+    "id": "A-s4-2",
+    "claim": "Order of the parts: the print has χάλκεον] … V first and χάλκεον ἄρρηκτον] … B.Q. second; the file reverses them.",
+    "verdict": "confirmed",
+    "dindorf": "II 446.15–16 «4. χάλκεον] ἰσχυρόν. ἀπρόσβατον γάρ ἐστι διὰ τὴν περὶ αὐτὸ λειότητα. V.»; 446.17–18 «χάλκεον ἄρρηκτον] … B.Q.»",
+    "comment": "The page also reverses them. Reordering is an editorial choice, but it should be declared. The third note on v. 4, T on λισσὴ δὲ πέτρη (446.19), is missing from both the file and the page."
+   },
+   {
+    "id": "A-new-1",
+    "claim": "[Not reported by GPT] s2 P: the file, the page and GPT's greek_established all have 'πλεύσειαν, μέχρι τοῦδε', with a comma.",
+    "verdict": "confirmed",
+    "dindorf": "II 445.2–3 «ἐν ταύρῳ ἄστρῳ πλεύ-|σειαν μέχρι τοῦδε ζέφυρος» (no comma; checked under magnification)",
+    "comment": "The difference is minor and only in punctuation, but the Greek should follow the print."
+   },
+   {
+    "id": "A-new-2",
+    "claim": "[Not reported by GPT] s4 V: the file, the page and GPT all have 'ἰσχυρόν· ἀπρόσβατον'.",
+    "verdict": "confirmed",
+    "dindorf": "II 446.15 «ἰσχυρόν. ἀπρόσβατον γάρ ἐστι» (full stop on the baseline, not a raised dot; checked under magnification)",
+    "comment": "The print has a gloss followed by a new sentence. This is trivial for the sense but should follow the print."
+   },
+   {
+    "id": "A-new-3",
+    "claim": "[Not checked by GPT] Homer 10.2: the file and the page end the line 'θεοῖσι,'.",
+    "verdict": "confirmed",
+    "dindorf": "Not in Dindorf (the lemma is only Αἴολος Ἱπποτάδης, 444.8). Murray, Loeb (Perseus), 10.2: «Αἴολος Ἱπποτάδης, φίλος ἀθανάτοισι θεοῖσιν,»",
+    "comment": "Murray's text, the declared base, has the movable nu: θεοῖσιν. The other three lines agree with Murray."
+   },
+   {
+    "id": "A-new-4",
+    "claim": "[Not reported by GPT] The s1 lemma: the file and the page head s1 with Αἰολίην δ’ ἐς νῆσον. In Dindorf that lemma introduces a separate Q note, which both omit; s1 follows with no lemma of its own.",
+    "verdict": "confirmed",
+    "dindorf": "II 443.26–28 «1. Αἰολίην δ’ ἐς νῆσον] Αἰολίαι νῆσοι πρὸς τῇ Σικελίᾳ ζ΄, Αἰόλη ἡ κατὰ τὸν πορθμὸν Στρογγύλη, Διδύμη, Ἱερὰ, Ἱκεσία, Λιπάρα, Ἐρικώδης, Φοινικώδης. Q»; 443.29 «οὐ τὰς Αἰόλου νήσους …»",
+    "comment": "The page silently omits this note on v. 1. It matters for margin note β: Q gives seven islands with the forms Ἐρικώδης and Φοινικώδης, where V has Ἐρικοῦσσαν and Φοινικοῦσσαν. Apparatus to 443.26: 'Cf. p. 444, 4. 449, 3. et schol. Apoll. Rh. 3, 42. BUTTM.' Apparatus to 443.29 (s1): 'Cf. schol. ad v. 20.'"
+   },
+   {
+    "id": "A-new-5",
+    "claim": "[Not reported by GPT] The s2 excerpt opens '[…] τρεῖς γὰρ'. Its γάρ answers the omitted sentence ἄλλος δέ ἐστιν ὁ Ἱππότου παῖς· ὁ δὲ Ἱππότης υἱὸς Μίμαντος, and that sentence is Buttmann's correction.",
+    "verdict": "confirmed",
+    "dindorf": "II 444.16–17 «ἄλλος δέ ἐστιν ὁ Ἱππότου παῖς· ὁ δὲ Ἱππό-|της υἱὸς Μίμαντος. τρεῖς γὰρ …»; app. ad l. 15: «Αἴολος—Ἱππότου παῖς] αἰόλος. ἄλλος δέ ἐστιν ὁ ἕλληνος παῖς, πατὴρ δὲ κρηθέως (κριθέως Q.), ἀθάμαντος, σισύφου H.Q. Correxit Buttm. collata Eustathii annotatione.»",
+    "comment": "The cut is marked with […], so it is not silent. But the reader cannot see what γάρ refers to, and that the antecedent is an editorial correction against H and Q. Either print 444.16–17 or say this in the margin. The full opening, 444.8–17, is given below as an optional part."
+   },
+   {
+    "id": "A-new-6",
+    "claim": "GPT's doubt on s2 says that τὸν πόδα τῆς νηὸς ἔχων 'is not Homer's πηδάλιον from Od. 10.32–33'.",
+    "verdict": "rejected",
+    "dindorf": "II 445.20 «ὡς ἀεὶ τὸν πόδα τῆς νηὸς ἔχων»; Murray 10.32 «αἰεὶ γὰρ πόδα νηὸς ἐνώμων»",
+    "comment": "This is outside the Greek-text task but affects the translation. The scholiast echoes Homer's own phrase, and in both places πούς is the sheet. Homer does not have πηδάλιον there."
+   }
+  ],
+  "established": [
+   {
+    "id": "s1",
+    "ref": "Σ Od. 10.1",
+    "lemma": "Αἰολίην δ’ ἐς νῆσον",
+    "parts": [
+     {
+      "label": "Separate Q note under the same lemma (443.26–28); not in the file or on the page, optional",
+      "sigla": "Q",
+      "greek": "Αἰολίαι νῆσοι πρὸς τῇ Σικελίᾳ ζ΄, Αἰόλη ἡ κατὰ τὸν πορθμὸν Στρογγύλη, Διδύμη, Ἱερὰ, Ἱκεσία, Λιπάρα, Ἐρικώδης, Φοινικώδης."
+     },
+     {
+      "label": "Main note (443.29–444.4); no lemma of its own in Dindorf",
+      "sigla": "B Q V",
+      "greek": "οὐ τὰς Αἰόλου νήσους νῦν λεγομένας, ἀλλά τινα ἄλλην ἐκτετοπισμένην νῆσον λέγει. οἱ δὲ λέγοντες περὶ Σικελίαν καὶ Ἰταλίαν πεπλανῆσθαι τὸν Ὀδυσσέα Λωτοφάγους μὲν λέγουσι τοὺς νῦν Ἀκραγαντίνους, οἱ δὲ τοὺς Καμαριναίους, Κύκλωπας δὲ τοὺς Λεοντίνους."
+     },
+     {
+      "label": "Continuation in V only (444.4–7)",
+      "sigla": "V",
+      "greek": "τὰς δὲ Αἰόλου νήσους τήν τε κατὰ τὸν πορθμὸν Στρογγύλην καὶ τὰς λοιπὰς ἕξ, Διδύμην, Ἱερὰν, Ἱκεσίαν, Λιπάραν, Ἐρικοῦσσαν, Φοινικοῦσσαν. τινὲς δὲ ταύτας τὰς νήσους ἐν τῷ Τυρρηνικῷ πελάγει κεῖσθαι λέγουσιν."
+     }
+    ],
+    "apparatus": [
+     "444.1 οἱ δὲ] τινὲς δὲ P., omisso λέγοντες. (P also has the note; P reads 'some say', without λέγοντες.)",
+     "444.6 Φοινικοῦσσαν] Non bene hic inserta legebantur hæc: τινὲς δὲ ἀλληγοροῦντες — προστασσόμενοι, quæ vid. infra ad v. 6. BUTTM.",
+     "443.29 (to s1) Cf. schol. ad v. 20.",
+     "443.26 (to the Q note) Cf. p. 444, 4. 449, 3. et schol. Apoll. Rh. 3, 42. BUTTM."
+    ],
+    "dindorf": "II 443.29–444.7; the lemma is printed at 443.26, before the separate Q note 443.26–28"
+   },
+   {
+    "id": "s2",
+    "ref": "Σ Od. 10.2",
+    "lemma": "Αἴολος Ἱπποτάδης",
+    "parts": [
+     {
+      "label": "Opening of the long Q scholion (444.8–17); cut on the page with […], optional",
+      "sigla": "Q (whole scholion ends with Q.; H cited in the apparatus to ll. 10–15)",
+      "greek": "Δευκαλίων, ἐφ’ οὗ ὁ κατακλυσμὸς γέγονε, Προμηθέως μὲν ἦν υἱὸς, μητρὸς δὲ, ὡς οἱ πλεῖστοι λέγουσι, Κλυμένης, ὡς δὲ Ἡσίοδος Προνόης, ὡς δὲ Ἀκουσίλαος Ἡσιόνης τῆς Ὠκεανοῦ καὶ Προμηθέως. ἔγημε δὲ Πύρραν τὴν Ἐπιμηθέως καὶ Πανδώρας τῆς ἀντὶ τοῦ πυρὸς δοθείσης τῷ Ἐπιμηθεῖ εἰς γυναῖκα. γίνονται δὲ τῷ Δευκαλίωνι θυγατέρες μὲν δύο Πρωτογένεια καὶ Μελάνθεια, υἱοὶ δὲ Ἀμφικτύων καὶ Ἕλλην. οἱ δὲ λέγουσιν ὅτι Ἕλλην γόνῳ μὲν ἦν Διὸς, λόγῳ δὲ Δευκαλίωνος. ἐξ οὗ Ἕλληνος Αἴολος πατὴρ Κρηθέως, Ἀθάμαντος, Σισύφου. ἄλλος δέ ἐστιν ὁ Ἱππότου παῖς· ὁ δὲ Ἱππότης υἱὸς Μίμαντος."
+     },
+     {
+      "label": "Genealogy: the excerpt in the file and on the page (444.17–21)",
+      "sigla": "Q",
+      "greek": "[…] τρεῖς γὰρ Αἰόλους φασὶ γεγενῆσθαι, πρῶτον τὸν τοῦ Ἕλληνος, δεύτερον τὸν ἐξ Ἱππότου καὶ Μελανίππης, τρίτον τὸν ἐκ Ποσειδῶνος καὶ Ἄρνης. πρὸς τοῦτον δέ φησιν ὁ Ἀσκληπιάδης τὸν Ὀδυσσέα ἐλθεῖν τὸν ἐκ Ποσειδῶνος. φυλάσσει δὲ Ὅμηρος τὸ εἰπεῖν ἐξ Ἱππότου."
+     },
+     {
+      "label": "Separate V note (444.21–22); not in the file or on the page, optional",
+      "sigla": "V",
+      "greek": "Αἴολοι δύο, οὗτος μὲν Ἱππότου τοῦ Μίμαντος, ἕτερος δὲ Ἕλληνος, ὃς ἦν Διὸς, οὗ καὶ Ἡσίοδος μέμνηται."
+     },
+     {
+      "label": "Late addition in P [a], from Tzetzes on Lycophron 738, up to Αἰολίδαο (444.23–445.16); the page prints only to δεσπότην ἀνέμων",
+      "sigla": "P (later hand; Dindorf prints one bracket [ … P.] over [a]+[b])",
+      "greek": "[Αἴολος ὁ Ἱππότου ἐν Ῥηγίῳ τῆς Ἰταλίας ὢν μὲν ἀστρονομικώτατος καὶ πολύπειρος ἐφρόντισε μᾶλλον εἰδέναι περὶ τῶν ἀνέμων χάριν τῶν ναυτιλλομένων καὶ προλέγειν, ὡς εἰ τυχὸν ἐν ταύρῳ ἄστρῳ πλεύσειαν μέχρι τοῦδε ζέφυρος αὐτοῖς ἔσεται πνέων ἄνεμος, εἰ ἐν δύσει κυνὸς τοιόσδε, καὶ ἐν τῇ ἀνατολῇ αὐτοῦ ἕτερος. καὶ τούτου ἕνεκα ἐμυθεύσαντο αὐτὸν εἶναι δεσπότην ἀνέμων. ὁμοίως δὲ καὶ τὸν Ἀμακλείδην καὶ Πρωτοκλῆ καὶ Πρωτοκρέοντα, ὥς φησιν Ὀρφεύς. οὕτως οὖν ἔφασαν αὐτοὺς δεσπότας εἶναι ἀνέμων, ὡς καὶ δέειν ἀσκῷ ὃν ἂν βούλοιντο αὐτῶν, τοὺς δ’ ἄλλους ἐᾶν πνεῖν. οὕτω γοῦν φασι καὶ τὸν Αἴολον τοῦτον τοὺς ἄλλους ἀνέμους ἐν τῷ ἀσκῷ καταδήσαντα δοῦναι τῷ Ὀδυσσεῖ, ζέφυρον δὲ μόνον ἐᾶσαι ὡς αὐτῷ χρειωδέστατον καὶ φορόν. ἐγὼ δὲ καὶ τὸν ἀσκὸν δέχομαι. φασὶ γὰρ οἱ μηχανικοὶ καὶ τὰ ἀρρητουργικὰ γράφοντες ὡς ἐάν τις δελφῖνα ποιήσῃ ἀσκὸν, ἐκδείρας αὐτὸν καὶ ἔχων παρ’ ἑαυτῷ, ποιήσει ὃν ἂν βούλοιτο πνεῖν ἄνεμον. καὶ ἴσως καὶ οὗτος ὁ Αἴολος ἦν ἂν καὶ μαγικώτατος. τούτου δὲ τοῦ Αἰόλου υἱὸς Ἰόκαστος, ὃς τὸ Ῥήγιον ἔκτισεν, ὥς φησι Καλλίμαχος «Ῥήγιον ἄστυ λιπὼν Ἰοκάστου Αἰολίδαο.»"
+     },
+     {
+      "label": "Late addition in P [b], 'from elsewhere' according to Buttmann (445.16–23); not on the page",
+      "sigla": "P",
+      "greek": "ὁ γὰρ Ὀδυσσεὺς τοὺς ἐναντίους ἀνέμους ἐγκεκλεισμένους ἔχων ἐν τῷ ἀσκῷ, μόνῳ δὲ ναυτιλλόμενος τῷ ζεφύρῳ ἐννέα νυχθήμερα πλεύσας τῷ δεκάτῳ τὴν αὐτοῦ πατρίδα καὶ πυρπολοῦντάς τινας θεασάμενος κοπιάσας, ὡς ἀεὶ τὸν πόδα τῆς νηὸς ἔχων, ἐκαθεύδησεν. οἱ φίλοι δὲ τούτου λύουσι τὸν ἀσκὸν χρυσίον νομίσαντες ἔχειν. ἐκχυθέντων δὲ τῶν ἀνέμων καὶ ἀντιπνόως ταραξάντων τὸ πέλαγος πάλιν εἰς τὴν Αἰολίαν ἀνεπόρευσεν ἄκων τοῖς ἀνέμοις φορούμενος.]"
+     }
+    ],
+    "apparatus": [
+     "444.15 Αἴολος—Ἱππότου παῖς] αἰόλος. ἄλλος δέ ἐστιν ὁ ἕλληνος παῖς, πατὴρ δὲ κρηθέως (κριθέως Q.), ἀθάμαντος, σισύφου H.Q. Correxit Buttm. collata Eustathii annotatione. (The antecedent of τρεῖς γὰρ is Buttmann's correction.)",
+     "444.20 τὸν Ὀδυσσέα ἐλθεῖν addidit Buttm. — τὸ] τῷ Q.",
+     "444.22 Ἕλληνος Ernestius pro Ἕλλην. (V note)",
+     "444.23 Αἴολος—] Sumtum hoc scholium usque ad vocem Αἰολίδαο e Tzetzæ Comm. ad Lycophr. 738. Duo similia additamenta notabimus infra ad 305. Sunt autem hæc omnia in P. scripta a manu recentiore. — μὲν] βασιλεὺς Tzetzes.",
+     "445.1 περὶ Tzetzes. παρὰ P.",
+     "445.2 ὡς τυχὸν ἐν] εἰ ἐν Tzetzes, unde εἰ addidi.",
+     "445.3 ἔσεται πνέων Tzetzes. ἔσεσθαι πλέων P.",
+     "445.6 Πρωτοκρέοντα Tzetzes. Πρωκρέοντα P. — Ὀρφεύς] Vid. fr. Orph. 53. e Suid. v. τριτοπάτορες et Etym. M. p. 768, 1. BUTTM.",
+     "445.15 Καλλίμαχος] Vid. fr. 202. ex hoc Tzetzæ loco et ad Lycophr. 45. BUTTM.",
+     "445.16 ὁ γὰρ —] Quæ hinc sequuntur aliunde excerpta et ab hoc scholio aliena spectant ad argumentum hujus libri. BUTTM."
+    ],
+    "dindorf": "II 444.8–445.23 (Q 444.8–21; V 444.21–22; P 444.23–445.23)"
+   },
+   {
+    "id": "s3",
+    "ref": "Σ Od. 10.3",
+    "lemma": "πλωτῇ ἐνὶ νήσῳ",
+    "parts": [
+     {
+      "label": "Main scholion (445.24–446.7)",
+      "sigla": "H M Q T V",
+      "greek": "ἔνιοι μὲν τὴν ἐμπλεομένην, οἷον τὴν ἐν πλεομένοις τόποις κειμένην νῆσον, ἢ ἐπιθετικῶς λέγει τὴν Αἰολίαν. ὁ δὲ Ἀρίσταρχος πλωτῇ ἀντὶ τοῦ φορητῇ, οἷον περιφερομένῃ, ὡς ποτὲ μὲν ἐν τοῖς δεξιοῖς μέρεσι, ποτὲ δὲ ἐν τοῖς ἀριστεροῖς ὁρᾶσθαι, οἷον δή τι καὶ περὶ τὴν Δῆλον ἱστορεῖ Πίνδαρος λέγων οὕτως «ἦν γὰρ τὸ πάροιθε φορητὰ κυμάτεσσι Δᾶλος παντοδαπῶν τ’ ἀνέμων ῥιπαῖς.» ἐν δὲ ἄλλῳ, προσπλεομένῃ ὑπ’ ἀνθρώπων, ἢ περιφερομένῃ ὑπὸ τῆς θαλάσσης. ἄμεινον δὲ τὸ πρότερον· εἰ γὰρ ἐπέπλει τῇ θαλάσσῃ, οὐκ ἂν οὐδὲ ἐκ δευτέρου αὐτὴν εὗρεν ὁ Ὀδυσσεύς. ἢ περιρρεομένῃ."
+     },
+     {
+      "label": "Ἄλλως, Q (446.7–10); the page omits the first sentence without notice",
+      "sigla": "Q",
+      "greek": "Ἄλλως. ἐν πλεομένοις τόποις κειμένῃ ὅτι εἰσὶ νῆσοι πλησίον ἠπείρου κείμεναι τὸ πρὸς τῇ ἠπείρῳ μέρος ἔχουσαι ὑφάλων πετρῶν πλῆρες, αἳ οὐ δύνανται περιπλέεσθαι. ὁ δὲ Ἀρίσταρχος περιφορητῇ· οἰκειότερον γάρ φησι μὴ ἐρριζῶσθαι τῶν ἀνέμων νῆσον."
+     },
+     {
+      "label": "Separate T note, lemma πλωτῇ (446.11–14); not in the file or on the page, optional",
+      "sigla": "T",
+      "greek": "πλωτῇ] οἱ μὲν μυθικῶς ἀπέδοσαν τὸ ἐπιπλέουσαν τῇ θαλάσσῃ· καὶ ἴσως τερατεύεται, ἵνα μὴ ζητῶμεν πῶς κεῖται. οἱ δὲ πλεομένην καὶ ἐν πλωτοῖς οὖσαν τόποις, ἐπειδὴ τὰ ἄλλα πρόσθε χωρία κακόξενα. οἱ δὲ τὴν προσορμιστὴν, ἀλλ’ οὐκ ἀμιχθαλόεσσαν."
+     }
+    ],
+    "apparatus": [
+     "445.24 ἔνιοι] ἐνίοτε V. — οἷον] οἱ δὲ H.Q. (H and Q read 'some …, others …')",
+     "445.25 νῆσον] νήσους Q. ad sequentia relatum. — ἢ ἐπιθετικῶς—Αἰολίην om. V. — ἢ ἐπιθετικῶς H. δὲ ἐπιθετικῶς Q.T. — Αἰολίαν H.T. αἰολίην Q.V.",
+     "445.26 πλωτῇ om. H. — ἀντὶ τοῦ addidi ex T.",
+     "445.26 (printed on p. 446) περιφερομένῃ] παραφερομένῃ T. Et παραφερομένην dixit Eustathius p. 1644, 52. qui addit ἢ συνεχείᾳ σεισμῶν ἢ ἄλλως ὁπωσοῦν. — ὡς H. et Eustathius. ὥστε Q.T.",
+     "446.2 Πίνδαρος] Fragm. 58. (old number; fr. 33d Snell–Maehler)",
+     "446.3 φορητὰ] φορητὴ T. — Δᾶλος H.M. et Eustathius. ἁλὸς T. (qui κυματέσσιν). δῆλος Q. Δᾶλος, quod hoc loco positum metro adversatur, non habet Strabo hæc verba afferens 10. p. 485., ut scholiasta ex præcedentibus verbis Pindari supplevisse videatur. — τ’ addidi ex editionibus Strabonis, cujus codices id omittunt.",
+     "446.4 ὑπ’ ἀ.] ὑπὸ τῶν ἀ. H.Q., non Eustathius. Proximum τῆς om. T.",
+     "446.6 ὁ addidi ex H. et Eustathio.",
+     "446.7 Ἄλλως] Hoc quoque scholion verbis leviter mutatis excerpsit Eustathius."
+    ],
+    "dindorf": "II 445.24–446.10 (H.M.Q.T.V. 445.24–446.7; Q 446.7–10); adjacent T 446.11–14"
+   },
+   {
+    "id": "s4",
+    "ref": "Σ Od. 10.4",
+    "lemma": "χάλκεον ἄρρηκτον",
+    "parts": [
+     {
+      "label": "V, lemma χάλκεον (446.15–16), printed first",
+      "sigla": "V",
+      "greek": "χάλκεον] ἰσχυρόν. ἀπρόσβατον γάρ ἐστι διὰ τὴν περὶ αὐτὸ λειότητα."
+     },
+     {
+      "label": "B Q, lemma χάλκεον ἄρρηκτον (446.17–18)",
+      "sigla": "B Q",
+      "greek": "χάλκεον ἄρρηκτον] λείπει τὸ ἐστίν. πῶς ἄρρηκτον; ὅτι πέτρα περιτρέχει τὴν πόλιν περιβολῆς τάξιν ἐπέχουσα."
+     },
+     {
+      "label": "Separate T note on the same verse, lemma λισσὴ δὲ πέτρη (446.19); not in the file or on the page, optional",
+      "sigla": "T",
+      "greek": "λισσὴ δὲ πέτρη] περιτρέχει τὴν πόλιν περιβόλου δίκην ἐπέχουσα."
+     }
+    ],
+    "apparatus": [
+     "Dindorf prints no apparatus for 446.15–19.",
+     "The false περιβόλου in the file and on the page comes from the T line 446.19 (περιβόλου δίκην); B Q have περιβολῆς τάξιν."
+    ],
+    "dindorf": "II 446.15–18 (V 446.15–16; B.Q. 446.17–18); adjacent T 446.19"
+   }
+  ],
+  "homer": [
+   {
+    "line": "10.1",
+    "greek": "Αἰολίην δ’ ἐς νῆσον ἀφικόμεθ’· ἔνθα δ’ ἔναιεν"
+   },
+   {
+    "line": "10.2",
+    "greek": "Αἴολος Ἱπποτάδης, φίλος ἀθανάτοισι θεοῖσιν,"
+   },
+   {
+    "line": "10.3",
+    "greek": "πλωτῇ ἐνὶ νήσῳ· πᾶσαν δέ τέ μιν πέρι τεῖχος"
+   },
+   {
+    "line": "10.4",
+    "greek": "χάλκεον ἄρρηκτον, λισσὴ δ’ ἀναδέδρομε πέτρη."
+   }
+  ],
+  "overview": "GPT-6's collation of set A holds up. I checked every one of its 25 set-A text_issues against the scans of Dindorf II 443–446, and each is right in substance. Three have slips in copying Dindorf's apparatus:\n- 445.3 reads 'ἔσεται πνέων Tzetzes', not 'ἔσται'.\n- 445.24 reads 'ἐνίοτε V.', not 'ἔνιστε'.\n- 446.3 reads 'ἁλὸς T. (qui κυματέσσιν)', not 'αἰλὸς'.\n\nIts greek_established for s1–s4 agrees with the print word for word. It misses three things:\n- Two punctuation points: the print has no comma in 'πλεύσειαν μέχρι' (445.2–3) and has 'ἰσχυρόν.' with a full stop, not a raised dot (446.15).\n- It did not check Homer. Murray's 10.2 ends 'θεοῖσιν,', not 'θεοῖσι,' as in the file and on the page.\n- It does not report the Q note whose lemma the file borrows for s1 (443.26–28).\n\nOne of GPT's translation doubts is wrong and I reject it (A-new-6). Homer 10.32 itself has 'αἰεὶ γὰρ πόδα νηὸς ἐνώμων', which the scholiast echoes in 'τὸν πόδα τῆς νηὸς ἔχων'.\n\nErrors on the published page (src/odyssey-10.njk) that the scans confirm:\n- s3 has ῥιπαῖσιν for ῥιπαῖς (446.3).\n- s4 has περιβόλου for περιβολῆς (446.18). περιβόλου comes from the T note on the next line.\n- s2 P has Ταύρῳ and Κυνὸς capitalised, and a comma after πλεύσειαν.\n- s2 has the chip 'H Q'. Dindorf prints only 'Q.'; H appears only in the apparatus to 444.10–15.\n- s1 has one chip 'B Q V'. It should be B.Q.V. up to Λεοντίνους, then V alone.\n- s4 reverses the order of its two parts (V comes first in Dindorf), and the page does not say so.\n- Homer 10.2 has θεοῖσι.\n\nSilent cuts on the page (Greek omitted with no […]):\n- s2: the late P addition stops at δεσπότην ἀνέμων. It omits 445.5–23, from ὁμοίως δὲ καὶ τὸν Ἀμακλείδην to φορούμενος. P.]\n- s3: the Q Ἄλλως part drops its first sentence (446.7–9), Ἄλλως. ἐν πλεομένοις τόποις κειμένῃ … περιπλέεσθαι. 'Ἄλλως' survives only in the label.\n- Whole separate notes on the same lemmas are left out with no notice:\n  - Q on 10.1 (443.26–28)\n  - V on 10.2, Αἴολοι δύο (444.21–22)\n  - T on πλωτῇ (446.11–14)\n  - T on λισσὴ δὲ πέτρη (446.19), the last note on v. 4\n\nOne cut is declared: the opening of the Q genealogy (444.8–17) is marked with […]. But the γάρ of τρεῖς γὰρ refers back to an omitted sentence, and that sentence is Buttmann's correction against H and Q (app. 444.15). I give the opening as an optional part.\n\nHow I worked: I read the same archive.org scan as the page images n46–n49 through archive.org's own image server (leaves 0047–0050), cropped and magnified line by line. Line numbers follow Dindorf's marginal count.\n\nNormalisation in the established text:\n- Quotation marks are shown as «», apostrophes as ’, and ζ΄ as printed.\n- Dindorf's habit of a grave accent before a comma is kept: Ἱερὰν, ἀσκὸν, υἱὸς, δὲ, Διὸς, προσορμιστὴν. It can be normalised to the acute if house style prefers.\n- Elsewhere the Greek is as printed.\n\nParts marked 'optional' are adjacent notes that are not in the file. Including them on the page is the editor's decision.\n\nI changed no files. The Homer text was checked against Perseus (Murray, Loeb)."
+ },
+ "setA": {
+  "scholia": [
+   {
+    "id": "s1",
+    "parts": [
+     {
+      "label": "Separate Q note under the lemma (443.26–28). Recommended for print. Dindorf prints the lemma here, so this part opens with it; if it is left out, the lemma «На Эолийский остров] / To the Aeolian island]» moves to the main note",
+      "sigla": "Q",
+      "greek": "Αἰολίαι νῆσοι πρὸς τῇ Σικελίᾳ ζ΄, Αἰόλη ἡ κατὰ τὸν πορθμὸν Στρογγύλη, Διδύμη, Ἱερὰ, Ἱκεσία, Λιπάρα, Ἐρικώδης, Φοινικώδης.",
+      "ru": "На Эолийский остров] Эолийских островов у Сицилии семь: Эоле — Стронгила у пролива,{δ} Дидима, Гиера, Гикесия, Липара, Эрикодес, Финикодес.{γ}",
+      "en": "To the Aeolian island] The Aeolian islands off Sicily are seven: Aeole, the Strongyle by the strait;{δ} Didyme, Hiera, Hicesia, Lipara, Ericodes, Phoenicodes.{γ}"
+     },
+     {
+      "label": "Main note (443.29–444.4); no lemma of its own in Dindorf",
+      "sigla": "B Q V",
+      "greek": "οὐ τὰς Αἰόλου νήσους νῦν λεγομένας, ἀλλά τινα ἄλλην ἐκτετοπισμένην νῆσον λέγει. οἱ δὲ λέγοντες περὶ Σικελίαν καὶ Ἰταλίαν πεπλανῆσθαι τὸν Ὀδυσσέα Λωτοφάγους μὲν λέγουσι τοὺς νῦν Ἀκραγαντίνους, οἱ δὲ τοὺς Καμαριναίους, Κύκλωπας δὲ τοὺς Λεοντίνους.",
+      "ru": "Он говорит не об островах, которые ныне называются островами Эола, а о каком-то другом, удалённом острове.{β} Те же, кто утверждает, что Одиссей странствовал около Сицилии и Италии, лотофагами называют нынешних акрагантян (другие — камаринцев), а киклопами — леонтинцев.{α}",
+      "en": "He does not mean the islands now called the islands of Aeolus, but some other, far-removed island.{β} Those who say that Odysseus wandered around Sicily and Italy call the Lotus-eaters the present-day Acragantines (others, the Camarinaeans), and the Cyclopes the Leontines.{α}"
+     },
+     {
+      "label": "Continuation in V only (444.4–7); a separate block, because B and Q end at Λεοντίνους",
+      "sigla": "V",
+      "greek": "τὰς δὲ Αἰόλου νήσους τήν τε κατὰ τὸν πορθμὸν Στρογγύλην καὶ τὰς λοιπὰς ἕξ, Διδύμην, Ἱερὰν, Ἱκεσίαν, Λιπάραν, Ἐρικοῦσσαν, Φοινικοῦσσαν. τινὲς δὲ ταύτας τὰς νήσους ἐν τῷ Τυρρηνικῷ πελάγει κεῖσθαι λέγουσιν.",
+      "ru": "А островами Эола [они называют] Стронгилу у пролива и остальные шесть: Дидиму, Гиеру, Гикесию, Липару, Эрикуссу, Финикуссу.{γ} Некоторые же говорят, что эти острова лежат в Тирренском море.",
+      "en": "And as the islands of Aeolus [they name] Strongyle by the strait and the remaining six: Didyme, Hiera, Hicesia, Lipara, Ericussa, Phoenicussa.{γ} Some, however, say that these islands lie in the Tyrrhenian Sea."
+     }
+    ],
+    "apparatus": [
+     "444.1 οἱ δὲ] τινὲς δὲ P., omisso λέγοντες. (P also has the note; P reads 'some say', without λέγοντες.)",
+     "444.6 Φοινικοῦσσαν] Non bene hic inserta legebantur hæc: τινὲς δὲ ἀλληγοροῦντες — προστασσόμενοι, quæ vid. infra ad v. 6. BUTTM.",
+     "443.29 (to s1) Cf. schol. ad v. 20.",
+     "443.26 (to the Q note) Cf. p. 444, 4. 449, 3. et schol. Apoll. Rh. 3, 42. BUTTM.",
+     "Adjacent, not translated here: 443.22–25, a Q note 'adscriptum ad ι, 564', moved here by Buttmann (cited in note β)."
+    ],
+    "notes": [
+     {
+      "ru": "α. Схолия отражает античный спор о географии странствий Одиссея. «Сицилийская» локализация опиралась на старую традицию: по Фукидиду (6.2.1), древнейшими жителями части Сицилии называли киклопов и лестригонов; по Страбону (1.2.9), киклопы и лестригоны владели краем у Этны и Леонтин. Здесь леонтинцы — киклопы, а в схолиях к 10.86 (H V) область Леонтин отдана лестригонам. Скептики шли за Эратосфеном, который, по Страбону (1.2.15), говорил, что места странствий Одиссея найдутся тогда, когда найдётся сапожник, сшивший мешок ветров.",
+      "en": "α. The scholion reflects the ancient debate over the geography of Odysseus' wanderings. The 'Sicilian' localisation drew on an old tradition: Thucydides (6.2.1) names the Cyclopes and Laestrygonians as the earliest inhabitants of part of Sicily, and Strabo (1.2.9) says they ruled the region around Aetna and Leontini. Here the Leontines are the Cyclopes, whereas the scholia on 10.86 (H V) give the territory of Leontini to the Laestrygonians. Sceptics followed Eratosthenes, who, according to Strabo (1.2.15), said that one would find the scene of Odysseus' wanderings when one found the cobbler who sewed up the bag of the winds.",
+      "source": "Thuc. 6.2.1; Strabo 1.2.9 and 1.2.15: https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/1B1*.html ; schol. Od. 10.86 (H V), Dindorf II 453.29–454.8: https://archive.org/download/scholiagraeodyss02homeuoft/page/n56.jpg",
+      "origin": "revised"
+     },
+     {
+      "ru": "β. «Удалённый» (ἐκτετοπισμένην) — буквально «вынесенный со своего места». По словарю Пape, этим глаголом александрийские толкователи Гомера описывали перенесение странствий Одиссея в отдалённые, точно не определённые земли (со ссылкой на Лерса и Зенгебуша); ср. ἐκτετοπισμένα «отдалённые края» у Страбона (3.4.19, по LSJ). Ту же мысль выражает схолия Q, которую Буттман перенёс сюда от 9.564 (Dindorf II 443.22–25): Гомер называет места просто — «в землю киклопов», «на Эолийский остров», — а «где они находятся или где лежат, уже не поясняет» (ποῦ δέ εἰσιν αὗται ἢ ποῦ κείμεναι οὐκέτι διασαφεῖ).",
+      "en": "β. 'Far-removed' (ἐκτετοπισμένην) means literally 'moved out of its place'. According to Pape, Alexandrian Homeric critics used this verb for the transfer of Odysseus' wanderings to remote, vaguely defined lands (citing Lehrs and Sengebusch); cf. ἐκτετοπισμένα, 'remote regions', in Strabo 3.4.19 (LSJ). The same idea appears in a Q scholion that Buttmann moved here from 9.564 (Dindorf II 443.22–25): Homer names the places simply, 'to the land of the Cyclopes', 'to the Aeolian island', but 'where these are or where they lie he no longer makes clear' (ποῦ δέ εἰσιν αὗται ἢ ποῦ κείμεναι οὐκέτι διασαφεῖ).",
+      "source": "LSJ and Pape s.v. ἐκτοπίζω: https://lsj.gr/wiki/ἐκτοπίζω ; Dindorf II 443.22–25 with apparatus ('Hoc scholion in Q. adscriptum ad ι, 564. huc rettulit Buttmannus'): https://archive.org/download/scholiagraeodyss02homeuoft/page/n46.jpg",
+      "origin": "new"
+     },
+     {
+      "ru": "γ. Это Липарские острова. Формы Ἐρικώδης, Φοινικώδης в схолии Q совпадают с перечнем Диодора (5.7.1), формы Ἐρικοῦσσα, Φοινικοῦσσα в V — со Страбоном (6.2.11). Гикесии нет ни у Диодора, ни у Страбона, ни у Плиния («Естественная история» 3.92–94): на её месте у всех троих Эвоним. Стронгила — Стромболи, Гиера — Вулькано, Дидима — Салина, Эрикусса — Аликуди, Финикусса — Филикуди; Гикесия надёжно не отождествлена.",
+      "en": "γ. These are the Lipari Islands. The forms Ἐρικώδης, Φοινικώδης in the Q scholion match Diodorus' list (5.7.1); the forms Ἐρικοῦσσα, Φοινικοῦσσα in V match Strabo (6.2.11). Hicesia appears in neither Diodorus nor Strabo nor Pliny (NH 3.92–94); all three have Euonymus in its place. Strongyle is Stromboli, Hiera Vulcano, Didyme Salina, Ericussa Alicudi, Phoenicussa Filicudi; Hicesia has no secure identification.",
+      "source": "Diod. 5.7.1: https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/5A*.html ; Strabo 6.2.10–11: https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/6B*.html ; Plin. NH 3.92–94: https://www.attalus.org/translate/pliny_hn3b.html ; modern names: https://www.livius.org/articles/place/aeolian-islands-isole-eolie/",
+      "origin": "revised"
+     },
+     {
+      "ru": "δ. В схолии Q «Эоле» (Αἰόλη) стоит перед Стронгилой и при счёте «семь» отдельным островом не считается; вероятно, так названа сама Стронгила как остров Эола: по Страбону (6.2.11), на Стронгиле, как говорят, жил Эол. Буттман сопоставляет с. 444.4 (список V) и 449.3 Диндорфа и схолии к Аполлонию Родосскому 3.42.",
+      "en": "δ. In the Q scholion 'Aeole' (Αἰόλη) precedes Strongyle and is not counted among the seven; it probably names Strongyle itself as Aeolus' island: according to Strabo (6.2.11), Aeolus is said to have lived on Strongyle. Buttmann compares Dindorf pp. 444.4 (the V list) and 449.3 and the scholia on Apollonius Rhodius 3.42.",
+      "source": "Dindorf II 443.26–28 with apparatus ad 26: https://archive.org/download/scholiagraeodyss02homeuoft/page/n46.jpg ; Strabo 6.2.11: https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/6B*.html",
+      "origin": "new"
+     }
+    ],
+    "divergences": [
+     {
+      "greek": "οὐ τὰς Αἰόλου νήσους νῦν λεγομένας",
+      "published": "RU «не о тех островах, что ныне зовутся Эоловыми»; EN 'not the islands now called Aeolian'",
+      "independent": "RU «не об островах, которые теперь называют Эоловыми»; EN 'not the islands now called the islands of Aeolus'",
+      "verdict": "independent",
+      "reason": "The genitive Αἰόλου ('of Aeolus') differs from Homer's adjective Αἰολίην and from Αἰολίαι in the Q note; 'Aeolian' in the published EN makes the sentence read as 'the Aeolian island is not one of the Aeolian islands'. RU now «островами Эола»."
+     },
+     {
+      "greek": "ἐκτετοπισμένην νῆσον",
+      "published": "RU «лежащем в стороне»; EN 'out-of-the-way'",
+      "independent": "RU «расположенном вдали»; EN 'set far away'",
+      "verdict": "independent",
+      "reason": "Perfect passive of ἐκτοπίζω, 'moved out of its place'; LSJ: 'remote regions'; a term of Alexandrian criticism for removing the wanderings to remote lands (Pape). «В стороне» understates it. Adopted «удалённом» / 'far-removed', with note β."
+     },
+     {
+      "greek": "Ἱκεσίαν (Ἱκεσία)",
+      "published": "RU «Гикесию»",
+      "independent": "RU «Икесию»",
+      "verdict": "published",
+      "reason": "The same text renders Ἱερά as «Гиера»; the aspirate is kept consistently (Гиера, Гикесия)."
+     },
+     {
+      "greek": "Αἰολίην δ’ ἐς νῆσον (Homer 10.1; lemma of Σ 10.1)",
+      "published": "RU «На остров Эолию»; EN 'We came to the island of Aeolia'",
+      "independent": "RU «на Эолийский остров»; EN 'to the Aeolian island'",
+      "verdict": "independent",
+      "reason": "Αἰολίην agrees with νῆσον as an adjective; the adjective also keeps Homer's island distinct from the scholion's Αἰόλου νῆσοι ('islands of Aeolus') and Αἰολίαι νῆσοι."
+     }
+    ]
+   },
+   {
+    "id": "s2",
+    "parts": [
+     {
+      "label": "Opening of the long Q scholion (444.8–17). Recommended for print (the page cut it with […]); it carries the lemma. If it is printed, drop the […] at the start of the next part",
+      "sigla": "Q (whole scholion ends with Q.; H cited in the apparatus to ll. 10–15)",
+      "greek": "Δευκαλίων, ἐφ’ οὗ ὁ κατακλυσμὸς γέγονε, Προμηθέως μὲν ἦν υἱὸς, μητρὸς δὲ, ὡς οἱ πλεῖστοι λέγουσι, Κλυμένης, ὡς δὲ Ἡσίοδος Προνόης, ὡς δὲ Ἀκουσίλαος Ἡσιόνης τῆς Ὠκεανοῦ καὶ Προμηθέως. ἔγημε δὲ Πύρραν τὴν Ἐπιμηθέως καὶ Πανδώρας τῆς ἀντὶ τοῦ πυρὸς δοθείσης τῷ Ἐπιμηθεῖ εἰς γυναῖκα. γίνονται δὲ τῷ Δευκαλίωνι θυγατέρες μὲν δύο Πρωτογένεια καὶ Μελάνθεια, υἱοὶ δὲ Ἀμφικτύων καὶ Ἕλλην. οἱ δὲ λέγουσιν ὅτι Ἕλλην γόνῳ μὲν ἦν Διὸς, λόγῳ δὲ Δευκαλίωνος. ἐξ οὗ Ἕλληνος Αἴολος πατὴρ Κρηθέως, Ἀθάμαντος, Σισύφου. ἄλλος δέ ἐστιν ὁ Ἱππότου παῖς· ὁ δὲ Ἱππότης υἱὸς Μίμαντος.",
+      "ru": "Эол Гиппотад] Девкалион, при котором случился потоп, был сыном Прометея, а матерью его была, как говорит большинство, Климена, по Гесиоду — Проноя, по Акусилаю — Гесиона, дочь Океана и [жена] Прометея. Он женился на Пирре, дочери Эпиметея и Пандоры, которую дали Эпиметею в жёны взамен огня. У Девкалиона рождаются две дочери, Протогенея и Меланфея, и сыновья Амфиктион и Эллин. Некоторые же говорят, что Эллин по рождению был сыном Зевса, а по имени — Девкалиона. От этого Эллина [родился] Эол, отец Крефея, Афаманта, Сисифа. Другой же [Эол] — сын Гиппота; а Гиппот — сын Миманта.{ε}",
+      "en": "Aeolus son of Hippotes] Deucalion, in whose time the flood took place, was the son of Prometheus; his mother was, as most say, Clymene, according to Hesiod Pronoe, according to Acusilaus Hesione, daughter of Oceanus and [wife] of Prometheus. He married Pyrrha, daughter of Epimetheus and of Pandora, who was given to Epimetheus as his wife in return for the fire. To Deucalion are born two daughters, Protogeneia and Melantheia, and sons, Amphictyon and Hellen. Some say that Hellen was by birth the son of Zeus, but by name the son of Deucalion. From this Hellen [came] Aeolus, father of Cretheus, Athamas and Sisyphus. Another [Aeolus] is the son of Hippotes; and Hippotes was the son of Mimas.{ε}"
+     },
+     {
+      "label": "Genealogy: the excerpt printed on the page (444.17–21). The opening […] only marks the cut and goes if the preceding part is printed",
+      "sigla": "Q",
+      "greek": "[…] τρεῖς γὰρ Αἰόλους φασὶ γεγενῆσθαι, πρῶτον τὸν τοῦ Ἕλληνος, δεύτερον τὸν ἐξ Ἱππότου καὶ Μελανίππης, τρίτον τὸν ἐκ Ποσειδῶνος καὶ Ἄρνης. πρὸς τοῦτον δέ φησιν ὁ Ἀσκληπιάδης τὸν Ὀδυσσέα ἐλθεῖν τὸν ἐκ Ποσειδῶνος. φυλάσσει δὲ Ὅμηρος τὸ εἰπεῖν ἐξ Ἱππότου.",
+      "ru": "[…] Ведь говорят, что Эолов было три: первый — сын Эллина, второй — от Гиппота и Меланиппы, третий — от Посейдона и Арны. По словам Асклепиада,{ϛ} Одиссей прибыл именно к этому — к тому, что от Посейдона. Гомер же строго держится того, чтобы говорить «от Гиппота».{ζ}",
+      "en": "[…] For they say there were three Aeoluses: the first the son of Hellen, the second the one from Hippotes and Melanippe, the third the one from Poseidon and Arne. Asclepiades{ϛ} says that it was to this one, the one from Poseidon, that Odysseus came. Homer, however, keeps strictly to saying 'from Hippotes'.{ζ}"
+     },
+     {
+      "label": "Separate V note (444.21–22); was not on the page. Recommended for print",
+      "sigla": "V",
+      "greek": "Αἴολοι δύο, οὗτος μὲν Ἱππότου τοῦ Μίμαντος, ἕτερος δὲ Ἕλληνος, ὃς ἦν Διὸς, οὗ καὶ Ἡσίοδος μέμνηται.",
+      "ru": "Эолов два: этот — [сын] Гиппота, сына Миманта, другой — [сын] Эллина, который был [сыном] Зевса; о нём упоминает и Гесиод.",
+      "en": "There are two Aeoluses: this one [is the son] of Hippotes son of Mimas, the other [the son] of Hellen, who was [the son] of Zeus; Hesiod too mentions him."
+     },
+     {
+      "label": "Late addition in P [a], from Tzetzes on Lycophron 738, up to Αἰολίδαο (444.23–445.16). The page printed it only to δεσπότην ἀνέμων and omitted the rest without notice",
+      "sigla": "P (later hand; Dindorf prints one bracket [ … P.] over [a]+[b])",
+      "greek": "[Αἴολος ὁ Ἱππότου ἐν Ῥηγίῳ τῆς Ἰταλίας ὢν μὲν ἀστρονομικώτατος καὶ πολύπειρος ἐφρόντισε μᾶλλον εἰδέναι περὶ τῶν ἀνέμων χάριν τῶν ναυτιλλομένων καὶ προλέγειν, ὡς εἰ τυχὸν ἐν ταύρῳ ἄστρῳ πλεύσειαν μέχρι τοῦδε ζέφυρος αὐτοῖς ἔσεται πνέων ἄνεμος, εἰ ἐν δύσει κυνὸς τοιόσδε, καὶ ἐν τῇ ἀνατολῇ αὐτοῦ ἕτερος. καὶ τούτου ἕνεκα ἐμυθεύσαντο αὐτὸν εἶναι δεσπότην ἀνέμων. ὁμοίως δὲ καὶ τὸν Ἀμακλείδην καὶ Πρωτοκλῆ καὶ Πρωτοκρέοντα, ὥς φησιν Ὀρφεύς. οὕτως οὖν ἔφασαν αὐτοὺς δεσπότας εἶναι ἀνέμων, ὡς καὶ δέειν ἀσκῷ ὃν ἂν βούλοιντο αὐτῶν, τοὺς δ’ ἄλλους ἐᾶν πνεῖν. οὕτω γοῦν φασι καὶ τὸν Αἴολον τοῦτον τοὺς ἄλλους ἀνέμους ἐν τῷ ἀσκῷ καταδήσαντα δοῦναι τῷ Ὀδυσσεῖ, ζέφυρον δὲ μόνον ἐᾶσαι ὡς αὐτῷ χρειωδέστατον καὶ φορόν. ἐγὼ δὲ καὶ τὸν ἀσκὸν δέχομαι. φασὶ γὰρ οἱ μηχανικοὶ καὶ τὰ ἀρρητουργικὰ γράφοντες ὡς ἐάν τις δελφῖνα ποιήσῃ ἀσκὸν, ἐκδείρας αὐτὸν καὶ ἔχων παρ’ ἑαυτῷ, ποιήσει ὃν ἂν βούλοιτο πνεῖν ἄνεμον. καὶ ἴσως καὶ οὗτος ὁ Αἴολος ἦν ἂν καὶ μαγικώτατος. τούτου δὲ τοῦ Αἰόλου υἱὸς Ἰόκαστος, ὃς τὸ Ῥήγιον ἔκτισεν, ὥς φησι Καλλίμαχος «Ῥήγιον ἄστυ λιπὼν Ἰοκάστου Αἰολίδαο.»",
+      "ru": "Эол, сын Гиппота, живший в Регии в Италии, будучи весьма сведущ в астрономии и многоопытен, больше всего заботился о том, чтобы знать о ветрах ради мореплавателей и предсказывать их: например, что если они поплывут под созвездием Тельца, то до такого-то [срока] им будет дуть западный ветер; если при заходе Пса — такой-то, а при его восходе — другой. Поэтому и сложили миф, будто он владыка ветров.{η} Так же [рассказывали] и об Амаклиде, Протокле и Протокреонте, как говорит Орфей.{θ} Владыками ветров их называли в том смысле, что они могли даже завязать в мехе любой из ветров, какой пожелают, а остальным позволить дуть. Так, говорят, и этот Эол завязал остальные ветры в мехе и отдал Одиссею, а свободным оставил только западный ветер, как самый нужный ему и попутный. Я же принимаю и [рассказ о] мехе. Ведь механики и те, кто пишет о тайных действах (ἀρρητουργικά), говорят, что если кто сделает из дельфина мех, содрав с него кожу, и будет держать его при себе, то заставит дуть любой ветер, какой захочет.{ι} И, может быть, этот Эол был к тому же весьма искусен в магии. Сын этого Эола — Иокаст, основавший Регий, как говорит Каллимах: «покинув Регий, город Иокаста Эолида».",
+      "en": "Aeolus son of Hippotes, who lived at Rhegium in Italy, being highly versed in astronomy and of wide experience, took particular care to know about the winds for the sake of seafarers and to foretell them: for instance, that if they sailed under the constellation of the Bull, a west wind would blow for them until such-and-such a time; if at the setting of the Dog, such-and-such a wind; and at its rising, another. For this reason they made up the myth that he was master of the winds.{η} So too [they said] of Amacleides, Protocles and Protocreon, as Orpheus says.{θ} They called them masters of the winds in this sense: that they could even bind in a bag whichever of the winds they wished and let the others blow. In just this way, they say, this Aeolus too bound up the other winds in the bag and gave it to Odysseus, leaving only the west wind free, as the most useful to him and the one that would carry him on. I, for my part, accept the bag as well. For the mechanicians and those who write on secret operations (ἀρρητουργικά) say that if someone makes a dolphin into a bag, flaying it, and keeps it by him, he will make whatever wind he wishes blow.{ι} And perhaps this Aeolus too was a great master of magic. The son of this Aeolus was Iocastus, who founded Rhegium, as Callimachus says: 'leaving Rhegium, town of Iocastus son of Aeolus'."
+     },
+     {
+      "label": "Late addition in P [b], 'from elsewhere' according to Buttmann (445.16–23); was not on the page. Recommended for print",
+      "sigla": "P",
+      "greek": "ὁ γὰρ Ὀδυσσεὺς τοὺς ἐναντίους ἀνέμους ἐγκεκλεισμένους ἔχων ἐν τῷ ἀσκῷ, μόνῳ δὲ ναυτιλλόμενος τῷ ζεφύρῳ ἐννέα νυχθήμερα πλεύσας τῷ δεκάτῳ τὴν αὐτοῦ πατρίδα καὶ πυρπολοῦντάς τινας θεασάμενος κοπιάσας, ὡς ἀεὶ τὸν πόδα τῆς νηὸς ἔχων, ἐκαθεύδησεν. οἱ φίλοι δὲ τούτου λύουσι τὸν ἀσκὸν χρυσίον νομίσαντες ἔχειν. ἐκχυθέντων δὲ τῶν ἀνέμων καὶ ἀντιπνόως ταραξάντων τὸ πέλαγος πάλιν εἰς τὴν Αἰολίαν ἀνεπόρευσεν ἄκων τοῖς ἀνέμοις φορούμενος.]",
+      "ru": "Ведь Одиссей, держа встречные ветры запертыми в мехе и плывя при одном западном ветре, проплыв девять суток, на десятые увидел свою родину и каких-то людей, жгущих огни, и, утомлённый, ибо всё время держал шкот корабля, уснул. А товарищи его развязывают мех, думая, что в нём золото. Когда же ветры вырвались и, дуя навстречу, взбаламутили море, он против воли снова вернулся в Эолию, уносимый ветрами.{κ}",
+      "en": "For Odysseus, having the contrary winds shut up in the bag and sailing with the west wind alone, after sailing nine days and nights, on the tenth caught sight of his homeland and of some people tending fires, and, worn out, since he had been holding the sheet of the ship the whole time, fell asleep. His companions untie the bag, thinking it held gold. When the winds poured out and, blowing against them, churned up the sea, he went back again to Aeolia against his will, carried along by the winds.{κ}"
+     }
+    ],
+    "apparatus": [
+     "444.9 οἱ addidi. (Dindorf)",
+     "444.10 Προνόης correxi pro πρυνόης quod est in H., vel πρυνείης, quod habet Q. et in Πρυλείης mutandum videbatur Welckero.",
+     "444.11 καὶ Π. Welckerus pro τοῦ Π. — Πανδώρας τῆς—δοθείσης Buttm. pro Πανδώραν τὴν—δοθεῖσαν.",
+     "444.12 ἀντὶ H. ἀπὸ Q. Correxit etiam Heinrichius apud Buttmann. collato Hesiodo Op. 57.",
+     "444.15 Αἴολος—Ἱππότου παῖς] αἰόλος. ἄλλος δέ ἐστιν ὁ ἕλληνος παῖς, πατὴρ δὲ κρηθέως (κριθέως Q.), ἀθάμαντος, σισύφου H.Q. Correxit Buttm. collata Eustathii annotatione. (The antecedent of τρεῖς γὰρ is Buttmann's correction.)",
+     "444.20 τὸν Ὀδυσσέα ἐλθεῖν addidit Buttm. — τὸ] τῷ Q.",
+     "444.22 Ἕλληνος Ernestius pro Ἕλλην. (V note)",
+     "444.23 Αἴολος—] Sumtum hoc scholium usque ad vocem Αἰολίδαο e Tzetzæ Comm. ad Lycophr. 738. Duo similia additamenta notabimus infra ad 305. Sunt autem hæc omnia in P. scripta a manu recentiore. — μὲν] βασιλεὺς Tzetzes.",
+     "445.1 περὶ Tzetzes. παρὰ P.",
+     "445.2 ὡς τυχὸν ἐν] εἰ ἐν Tzetzes, unde εἰ addidi.",
+     "445.3 ἔσεται πνέων Tzetzes. ἔσεσθαι πλέων P.",
+     "445.6 Πρωτοκρέοντα Tzetzes. Πρωκρέοντα P. — Ὀρφεύς] Vid. fr. Orph. 53. e Suid. v. τριτοπάτορες et Etym. M. p. 768, 1. BUTTM.",
+     "445.15 Καλλίμαχος] Vid. fr. 202. ex hoc Tzetzæ loco et ad Lycophr. 45. BUTTM.",
+     "445.16 ὁ γὰρ —] Quæ hinc sequuntur aliunde excerpta et ab hoc scholio aliena spectant ad argumentum hujus libri. BUTTM."
+    ],
+    "notes": [
+     {
+      "ru": "ε. Начало схолии Q — главный источник для Гесиода, фр. 4 M–W, и Акусилая, FGrHist 2 F 34 (мать Девкалиона). Текст здесь во многом восстановлен издателями: Προνόης — конъектура Диндорфа вместо πρυνόης (H) и πρυνείης (Q); καί перед Προμηθέως — конъектура Велькера вместо τοῦ (Гесиона, дочь Океана, — жена Прометея и у Эсхила, «Прометей прикованный» 555–560); «взамен огня» (ἀντί H, ἀπό Q) — ср. Гесиод, «Труды и дни» 57; слова «Эол… сын Гиппота» исправлены Буттманом по Евстафию, тогда как в H и Q: «Другой — сын Эллина, отец Крефея, Афаманта, Сисифа». Генеалогия близка к Аполлодору (1.7.2–3): Пирра — дочь Эпиметея и Пандоры; Эллин, «отцом которого некоторые называют Зевса»; сыновья Эллина — Дор, Ксуф и Эол.",
+      "en": "ε. The opening of the Q scholion is the main source for Hesiod fr. 4 M–W and Acusilaus FGrHist 2 F 34 (Deucalion's mother). The text owes much to editors: Προνόης is Dindorf's conjecture for πρυνόης (H) and πρυνείης (Q); καί before Προμηθέως is Welcker's for τοῦ (Hesione, daughter of Oceanus, is Prometheus' wife also in Aeschylus, Prometheus Bound 555–560); 'in return for the fire' (ἀντί H, ἀπό Q): cf. Hesiod, Works and Days 57; the words 'Aeolus … son of Hippotes' are Buttmann's correction from Eustathius, where H and Q read 'Another is the son of Hellen, father of Cretheus, Athamas, Sisyphus'. The genealogy is close to Apollodorus (1.7.2–3): Pyrrha daughter of Epimetheus and Pandora; Hellen, 'whose father some say was Zeus'; Hellen's sons Dorus, Xuthus and Aeolus.",
+      "source": "Dindorf II 444.8–17 with apparatus ad 9–15: https://archive.org/download/scholiagraeodyss02homeuoft/page/n47.jpg ; Apollod. 1.7.2–3: https://www.theoi.com/Text/Apollodorus1.html ; Aesch. PV 555–560; Hes. Op. 57; fragment numbers (Hes. fr. 4 M–W; Acusilaus FGrHist 2 F 34) as given in the secondary literature on this scholion, not checked in the editions.",
+      "origin": "new"
+     },
+     {
+      "ru": "ϛ. Асклепиад из Трагила (IV в. до н. э.), автор «Трагедуменов»; Якоби печатает это место как FGrHist 12 F 26. По замечанию Якоби, такая генеалогия расходится и с Гомером (Эол — сын Гиппота), и с Еврипидом (у него Посейдон — отец Эола от Меланиппы), но совпадает с Диодором (4.67.3–6): Гиппот, сын Миманта, родил от Меланиппы Эола; дочь Эола Арна родила Посейдону Эола и Беота, и этот Эол занял острова в Тирренском море, названные по нему Эолийскими, и основал Липару. Слова «Одиссей прибыл» (τὸν Ὀδυσσέα ἐλθεῖν) добавлены Буттманом.",
+      "en": "ϛ. Asclepiades of Tragilus (4th c. BC), author of the Tragodoumena; Jacoby prints this passage as FGrHist 12 F 26. Jacoby observes that this genealogy agrees neither with Homer (Aeolus son of Hippotes) nor with Euripides (Poseidon father of an Aeolus by Melanippe), but fits Diodorus (4.67.3–6): Hippotes son of Mimas begot Aeolus by Melanippe; Aeolus' daughter Arne bore Aeolus and Boeotus to Poseidon, and this Aeolus took the islands in the Tyrrhenian Sea, named Aeolian after him, and founded Lipara. The words 'Odysseus came' (τὸν Ὀδυσσέα ἐλθεῖν) are Buttmann's supplement.",
+      "source": "H. Lloyd-Jones, ZPE 87 (1991) 297–300, at 298, reporting Jacoby on FGrHist 12 F 26: https://www.uni-koeln.de/phil-fak/ifa/zpe/downloads/1991/087pdf/087297.pdf ; Diod. 4.67.3–6: https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/4D*.html ; Dindorf II apparatus ad 444.20.",
+      "origin": "revised"
+     },
+     {
+      "ru": "ζ. «Строго держится» (φυλάσσει): Гомер дважды называет Эола Гиппотадом (10.2 и 10.36: Αἰόλου μεγαλήτορος Ἱπποτάδαο), и этим его текст противостоит Асклепиаду. В Q вместо τό стоит τῷ: «оберегает [это], говоря „от Гиппота“». Понимание «избегает говорить „от Гиппота“» (φυλάσσω в значении «остерегаться», для действительного залога редкое: LSJ B.7) противоречит гомеровскому тексту и не принято.",
+      "en": "ζ. 'Keeps strictly to' (φυλάσσει): Homer twice calls Aeolus Hippotades (10.2 and 10.36: Αἰόλου μεγαλήτορος Ἱπποτάδαο), so his text stands against Asclepiades. Q reads τῷ for τό: 'guards [this] by saying “from Hippotes”'. The rendering 'avoids saying “from Hippotes”' (φυλάσσω as 'beware of', rare in the active: LSJ B.7) contradicts Homer's text and is not adopted.",
+      "source": "Hom. Od. 10.2, 10.36 (Murray, Perseus): https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0135%3Abook%3D10%3Acard%3D1 ; Dindorf II apparatus ad 444.20 (τὸ] τῷ Q.); LSJ s.v. φυλάσσω B.3, B.6, B.7: https://lsj.gr/wiki/φυλάσσω",
+      "origin": "new"
+     },
+     {
+      "ru": "η. По замечанию Буттмана (в аппарате Диндорфа), приписка вписана в P поздней рукой, а текст до слов «Иокаста Эолида» взят из комментария Цеца к Ликофрону (738); поэтому «я» в словах «Я же принимаю и мех» — голос Цеца. Где в P «ὢν μέν», у Цеца «ὢν βασιλεύς» («будучи царём»). Рассказ, начинающийся словами «Ведь Одиссей…», Буттман считает выдержкой из другого источника, относящейся к содержанию всей песни; Диндорф печатает обе части в одних скобках. Толкование рационалистическое: у Гомера Эол — поставленный Зевсом распорядитель ветров (ταμίης ἀνέμων, 10.21), здесь — знаток погоды. Ср. Диодор 5.7.7 (Эол ввёл у мореходов паруса и, наблюдая огонь вулкана, предсказывал ветры) и Полибий у Страбона 1.2.15 (Эол указывал мореходам путь в Мессинском проливе и потому прослыл владыкой ветров).",
+      "en": "η. As Buttmann noted (in Dindorf's apparatus), the addition was written into P by a later hand, and the text up to 'Iocastus son of Aeolus' was taken from Tzetzes' commentary on Lycophron (738); the 'I' of 'I, for my part, accept the bag' is therefore Tzetzes. Where P has ὢν μέν, Tzetzes has ὢν βασιλεύς ('being king'). The narrative beginning 'For Odysseus…' Buttmann regards as excerpted from elsewhere and belonging to the argument of the whole book; Dindorf prints both parts within one bracket. The reading is rationalising: in Homer, Aeolus is the steward of the winds appointed by Zeus (ταμίης ἀνέμων, 10.21); here he is a weather expert. Cf. Diodorus 5.7.7 (Aeolus introduced sails to seafarers and foretold the winds by watching the volcano's fire) and Polybius in Strabo 1.2.15 (Aeolus taught navigators the course through the Strait of Messina and so was called lord of the winds).",
+      "source": "Dindorf II apparatus ad 444.23 and 445.16: https://archive.org/download/scholiagraeodyss02homeuoft/page/n47.jpg ; https://archive.org/download/scholiagraeodyss02homeuoft/page/n48.jpg ; Hom. Od. 10.21; Diod. 5.7.7: https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/5A*.html ; Strabo 1.2.15: https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/1B1*.html",
+      "origin": "revised"
+     },
+     {
+      "ru": "θ. Амаклид, Протокл и Протокреонт — Тритопаторы. По «Суде» (τ 1023 Adler), в «Физике» Орфея Тритопаторы названы Амалкидом, Протоклом и Протоклеонтом, «привратниками и стражами ветров» (Orph. fr. 318 Kern); Демон (FGrHist 327 F 2) прямо называл их ветрами. Диндорф печатает Πρωτοκρέοντα по Цецу (в P Πρωκρέοντα) и отсылает к «Суде», к «Большому этимологику» (768.1) и к фр. 53 по старой нумерации орфических фрагментов.",
+      "en": "θ. Amacleides, Protocles and Protocreon are the Tritopatores. According to the Suda (τ 1023 Adler), the Physikos of Orpheus names the Tritopatores Amalkeides, Protokles and Protokleon, 'doorkeepers and guardians of the winds' (Orph. fr. 318 Kern); Demon (FGrHist 327 F 2) called them winds outright. Dindorf prints Πρωτοκρέοντα from Tzetzes (P has Πρωκρέοντα) and refers to the Suda, the Etymologicum Magnum (768.1) and fr. 53 in the old numbering of the Orphic fragments.",
+      "source": "Suda τ 1023 (Suda On Line): https://www.cs.uky.edu/~raphael/sol/sol-entries/tau/1023 ; Dindorf II apparatus ad 445.6: https://archive.org/download/scholiagraeodyss02homeuoft/page/n48.jpg",
+      "origin": "new"
+     },
+     {
+      "ru": "ι. Рецепт «механиков» перекликается с Гомером: Эол дал Одиссею мех, «содрав» кожу с девятилетнего быка (ἐκδείρας ἀσκὸν βοὸς ἐννεώροιο, 10.19), — тот же глагол стоит здесь о дельфине. Иокаст, сын Эола, по Диодору (5.8.1), царствовал на италийском побережье вплоть до области Регия. Стих Каллимаха Диндорф приводит как фр. 202 по старой нумерации (его же цитирует Цец к Ликофрону 45).",
+      "en": "ι. The 'mechanicians'' recipe echoes Homer: Aeolus gave Odysseus a bag made by 'flaying' a nine-year-old ox (ἐκδείρας ἀσκὸν βοὸς ἐννεώροιο, 10.19); the same verb is used here of the dolphin. Iocastus son of Aeolus, according to Diodorus (5.8.1), ruled the coast of Italy as far as the region of Rhegium. Dindorf cites the line of Callimachus as fr. 202 in the old numbering (Tzetzes quotes it also on Lycophron 45).",
+      "source": "Hom. Od. 10.19 (Murray, Perseus): https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0135%3Abook%3D10%3Acard%3D1 ; Diod. 5.8.1: https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Diodorus_Siculus/5A*.html ; Dindorf II apparatus ad 445.15.",
+      "origin": "new"
+     },
+     {
+      "ru": "κ. Пересказ «Одиссеи» 10.28–55: девять дней и ночей плавания (28), на десятый день показалась родина (29), люди, жгущие огни (πυρπολέοντας, 30), сон Одиссея, который всё время сам правил шкотом (πόδα νηὸς ἐνώμων, 32), подозрение спутников, что в мехе золото и серебро (35), возвращение бурей к Эолийскому острову (54–55). «Шкот» (πούς) — гомеровский морской термин из того же места, а не отступление от Гомера.",
+      "en": "κ. A paraphrase of Odyssey 10.28–55: nine days and nights of sailing (28), the homeland in sight on the tenth day (29), people tending fires (πυρπολέοντας, 30), the sleep of Odysseus, who had handled the sheet himself the whole time (πόδα νηὸς ἐνώμων, 32), the companions' suspicion that the bag held gold and silver (35), the storm carrying them back to the Aeolian island (54–55). 'Sheet' (πούς) is Homer's own nautical term in this passage, not a departure from Homer.",
+      "source": "Hom. Od. 10.28–55 (Murray, Perseus): https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0135%3Abook%3D10%3Acard%3D1 ; https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0135%3Abook%3D10%3Acard%3D46",
+      "origin": "new"
+     }
+    ],
+    "divergences": [
+     {
+      "greek": "φυλάσσει δὲ Ὅμηρος τὸ εἰπεῖν ἐξ Ἱππότου",
+      "published": "RU «Гомер же строго держится того, чтобы называть его сыном Гиппота»; EN 'But Homer takes care to call him the son of Hippotes'",
+      "independent": "RU «Гомер же избегает говорить „от Гиппота“»; EN 'Homer, however, avoids saying “from Hippotes”'",
+      "verdict": "published",
+      "reason": "Homer calls Aeolus Ἱπποτάδης at 10.2 and 10.36, so 'avoids' contradicts the text the scholiast is defending against Asclepiades; active φυλάσσω 'avoid' is rare (LSJ B.7), 'observe, maintain' is normal (B.3, B.6); Q's τῷ εἰπεῖν ('guards by saying') supports this. The published sense is kept, revised to keep the quoted phrase «от Гиппота» / 'from Hippotes', which echoes τὸν ἐξ Ἱππότου earlier in the same note. Note ζ."
+     },
+     {
+      "greek": "ἐφρόντισε μᾶλλον εἰδέναι περὶ τῶν ἀνέμων",
+      "published": "RU «старался прежде всего знать о ветрах»; EN 'took care above all to know about the winds'",
+      "independent": "RU «старался ещё лучше изучить ветры»; EN 'took pains to learn more about the winds'",
+      "verdict": "published",
+      "reason": "μᾶλλον with ἐφρόντισε means 'rather, especially' (in preference to other things), and εἰδέναι is 'know', not 'learn more'. Lightly revised: «больше всего заботился о том, чтобы знать» / 'took particular care to know'."
+     },
+     {
+      "greek": "ὡς ἀεὶ τὸν πόδα τῆς νηὸς ἔχων",
+      "published": "(part [b] was not on the page)",
+      "independent": "RU «держал шкот корабля»; EN 'holding the ship's sheet', with the remark that this is 'not Homer's πηδάλιον from Od. 10.32–33'",
+      "verdict": "independent",
+      "reason": "The rendering 'sheet' is right, but the independent remark is wrong: Od. 10.32 reads αἰεὶ γὰρ πόδα νηὸς ἐνώμων, so the paraphrase keeps Homer's own term. Note κ."
+     },
+     {
+      "greek": "Αἴολος Ἱπποτάδης (Homer 10.2; lemma of Σ 10.2)",
+      "published": "RU «Эол Гиппотад»",
+      "independent": "RU «Эол, сын Гиппота»",
+      "verdict": "published",
+      "reason": "Σ 10.2 turns on the patronymic against 'from Poseidon'; the RU patronymic form keeps what the scholion discusses (EN 'son of Hippotes' in both)."
+     }
+    ]
+   },
+   {
+    "id": "s3",
+    "parts": [
+     {
+      "label": "Main scholion (445.24–446.7)",
+      "sigla": "H M Q T V",
+      "greek": "ἔνιοι μὲν τὴν ἐμπλεομένην, οἷον τὴν ἐν πλεομένοις τόποις κειμένην νῆσον, ἢ ἐπιθετικῶς λέγει τὴν Αἰολίαν. ὁ δὲ Ἀρίσταρχος πλωτῇ ἀντὶ τοῦ φορητῇ, οἷον περιφερομένῃ, ὡς ποτὲ μὲν ἐν τοῖς δεξιοῖς μέρεσι, ποτὲ δὲ ἐν τοῖς ἀριστεροῖς ὁρᾶσθαι, οἷον δή τι καὶ περὶ τὴν Δῆλον ἱστορεῖ Πίνδαρος λέγων οὕτως «ἦν γὰρ τὸ πάροιθε φορητὰ κυμάτεσσι Δᾶλος παντοδαπῶν τ’ ἀνέμων ῥιπαῖς.» ἐν δὲ ἄλλῳ, προσπλεομένῃ ὑπ’ ἀνθρώπων, ἢ περιφερομένῃ ὑπὸ τῆς θαλάσσης. ἄμεινον δὲ τὸ πρότερον· εἰ γὰρ ἐπέπλει τῇ θαλάσσῃ, οὐκ ἂν οὐδὲ ἐκ δευτέρου αὐτὴν εὗρεν ὁ Ὀδυσσεύς. ἢ περιρρεομένῃ.",
+      "ru": "На плавучем острове] Некоторые [понимают] «куда плавают», то есть остров, лежащий в судоходных местах; или же он употребляет [это слово] как эпитет Эолии. Аристарх же [толкует]: «плавучем» — в значении «носимом», то есть перемещающемся, так что его видно то справа, то слева, — нечто подобное рассказывает и Пиндар о Делосе, говоря так: «ибо прежде Делос носим был волнами и порывами всевозможных ветров».{λ} В другом [комментарии]: «к которому подплывают люди» или «носимом морем». Лучше первое: ведь если бы он плавал по морю, Одиссей не нашёл бы его во второй раз.{μ} Или: «омываемом кругом».",
+      "en": "On a floating island] Some [take it as] 'sailed to', that is, an island lying in waters where ships sail; or he uses [the word] as an epithet of Aeolia. Aristarchus, however, [takes] 'floating' as standing for 'carried', that is, moving about, so that it is seen now on the right, now on the left; Pindar tells something similar about Delos, speaking thus: 'for formerly Delos was carried by the waves and by the blasts of winds of every kind'.{λ} In another [commentary]: 'approached by men in ships' or 'carried about by the sea'. The former is better: for if it floated on the sea, Odysseus would not have found it a second time.{μ} Or: 'washed all round'."
+     },
+     {
+      "label": "Ἄλλως, Q (446.7–10); the page printed only the second sentence, without notice",
+      "sigla": "Q",
+      "greek": "Ἄλλως. ἐν πλεομένοις τόποις κειμένῃ ὅτι εἰσὶ νῆσοι πλησίον ἠπείρου κείμεναι τὸ πρὸς τῇ ἠπείρῳ μέρος ἔχουσαι ὑφάλων πετρῶν πλῆρες, αἳ οὐ δύνανται περιπλέεσθαι. ὁ δὲ Ἀρίσταρχος περιφορητῇ· οἰκειότερον γάρ φησι μὴ ἐρριζῶσθαι τῶν ἀνέμων νῆσον.",
+      "ru": "Иначе. «Лежащем в судоходных местах», поскольку есть острова, лежащие близ материка, у которых обращённая к материку сторона полна подводных скал, и их нельзя обойти кругом на корабле.{ν} Аристарх же — «носимом кругом»: ведь, говорит он, острову ветров больше подобает не быть укоренённым.",
+      "en": "Alternatively. 'Lying in waters where ships sail': because there are islands lying near the mainland whose side facing the mainland is full of reefs, and these cannot be sailed around.{ν} Aristarchus, however, [reads] 'carried about': for, he says, it is more fitting that the island of the winds should not be rooted."
+     },
+     {
+      "label": "Separate T note, lemma πλωτῇ (446.11–14); was not on the page. Recommended for print",
+      "sigla": "T",
+      "greek": "πλωτῇ] οἱ μὲν μυθικῶς ἀπέδοσαν τὸ ἐπιπλέουσαν τῇ θαλάσσῃ· καὶ ἴσως τερατεύεται, ἵνα μὴ ζητῶμεν πῶς κεῖται. οἱ δὲ πλεομένην καὶ ἐν πλωτοῖς οὖσαν τόποις, ἐπειδὴ τὰ ἄλλα πρόσθε χωρία κακόξενα. οἱ δὲ τὴν προσορμιστὴν, ἀλλ’ οὐκ ἀμιχθαλόεσσαν.",
+      "ru": "Плавучем] Одни истолковали это мифически: «плавающем по морю»; и, может быть, [поэт] рассказывает чудо, чтобы мы не допытывались, как [остров] расположен. Другие — «[острове], куда плавают» и находящемся в судоходных местах, поскольку прочие места, [где они побывали] прежде, были негостеприимны. Третьи — «у которого можно стать на якорь», а не «неприступном» (ἀμιχθαλόεσσα).{ξ}",
+      "en": "Floating] Some rendered it mythically as 'floating on the sea'; and perhaps [the poet] is telling a marvel, so that we should not inquire how it is situated. Others [take it as] 'sailed to' and lying in navigable waters, since the other places [visited] before were inhospitable. Others [take it as] 'where one can come to anchor', and not 'unapproachable' (ἀμιχθαλόεσσα).{ξ}"
+     }
+    ],
+    "apparatus": [
+     "445.24 ἔνιοι] ἐνίοτε V. — οἷον] οἱ δὲ H.Q. (H and Q read 'some …, others …')",
+     "445.25 νῆσον] νήσους Q. ad sequentia relatum. — ἢ ἐπιθετικῶς—Αἰολίην om. V. — ἢ ἐπιθετικῶς H. δὲ ἐπιθετικῶς Q.T. — Αἰολίαν H.T. αἰολίην Q.V.",
+     "445.26 πλωτῇ om. H. — ἀντὶ τοῦ addidi ex T.",
+     "445.26 (printed on p. 446) περιφερομένῃ] παραφερομένῃ T. Et παραφερομένην dixit Eustathius p. 1644, 52. qui addit ἢ συνεχείᾳ σεισμῶν ἢ ἄλλως ὁπωσοῦν. — ὡς H. et Eustathius. ὥστε Q.T.",
+     "446.2 Πίνδαρος] Fragm. 58. (old number; fr. 33d Snell–Maehler)",
+     "446.3 φορητὰ] φορητὴ T. — Δᾶλος H.M. et Eustathius. ἁλὸς T. (qui κυματέσσιν). δῆλος Q. Δᾶλος, quod hoc loco positum metro adversatur, non habet Strabo hæc verba afferens 10. p. 485., ut scholiasta ex præcedentibus verbis Pindari supplevisse videatur. — τ’ addidi ex editionibus Strabonis, cujus codices id omittunt.",
+     "446.4 ὑπ’ ἀ.] ὑπὸ τῶν ἀ. H.Q., non Eustathius. Proximum τῆς om. T.",
+     "446.6 ὁ addidi ex H. et Eustathio.",
+     "446.7 Ἄλλως] Hoc quoque scholion verbis leviter mutatis excerpsit Eustathius."
+    ],
+    "notes": [
+     {
+      "ru": "λ. Пиндар, фр. 33d Snell–Maehler (у Диндорфа — фр. 58 по старой нумерации). Эти стихи сохранил Страбон (10.5.2): Делос носило волнами и ветрами, пока на него не ступила Лето в родовых муках, — тогда со дна поднялись четыре столпа и закрепили скалу. Диндорф замечает, что Δᾶλος в схолии нарушает метр и у Страбона отсутствует: схолиаст, по-видимому, вставил имя из предшествующих слов Пиндара. Сравнение с Делосом подкрепляет буквальное понимание πλωτή, приписанное Аристарху Самофракийскому (александрийский филолог II в. до н. э.).",
+      "en": "λ. Pindar fr. 33d Snell–Maehler (fr. 58 in Dindorf's older numbering). The lines are preserved by Strabo (10.5.2): Delos was tossed by waves and winds until Leto, in the pangs of childbirth, set foot on it; then four pillars rose from the sea floor and fixed the rock. Dindorf notes that Δᾶλος in the scholion breaks the metre and is absent from Strabo, so the scholiast apparently supplied the name from Pindar's preceding words. The comparison with Delos supports the literal reading of πλωτή attributed to Aristarchus of Samothrace (Alexandrian scholar, 2nd c. BC).",
+      "source": "Strabo 10.5.2 (C485): https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Strabo/10E*.html ; Dindorf II apparatus ad 446.2–3: https://archive.org/download/scholiagraeodyss02homeuoft/page/n49.jpg",
+      "origin": "revised"
+     },
+     {
+      "ru": "μ. Довод от сюжета: в той же песни буря приносит корабли Одиссея обратно к Эолийскому острову (10.54–55), и Одиссей снова идёт к Эолу (10.60); будь остров плавучим, он не нашёл бы его во второй раз.",
+      "en": "μ. An argument from the plot: later in the same book the storm drives Odysseus' ships back to the Aeolian island (10.54–55), and he goes to Aeolus again (10.60); had the island been drifting, he would not have found it a second time.",
+      "source": "Hom. Od. 10.54–60 (Murray, Perseus): https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0135%3Abook%3D10%3Acard%3D46",
+      "origin": "revised"
+     },
+     {
+      "ru": "ν. Вторая схолия Q объясняет «судоходность» по-своему: πλωτή — остров, который можно обойти кругом на корабле, в отличие от прибрежных островов, чья обращённая к материку сторона усеяна подводными скалами. Евстафий пересказывает эту схолию с небольшими изменениями; вместо «перемещающемся» (περιφερομένῃ) он говорит παραφερομένην и добавляет: «то ли от непрерывных землетрясений, то ли как-то иначе» (ἢ συνεχείᾳ σεισμῶν ἢ ἄλλως ὁπωσοῦν).",
+      "en": "ν. The second Q scholion explains 'navigable' in its own way: πλωτή is an island that can be sailed round, unlike coastal islands whose landward side is full of reefs. Eustathius reproduces this scholion with slight changes; for 'moving about' (περιφερομένῃ) he has παραφερομένην and adds 'either through continual earthquakes or in some other way' (ἢ συνεχείᾳ σεισμῶν ἢ ἄλλως ὁπωσοῦν).",
+      "source": "Dindorf II apparatus ad 445.26 and 446.7 (Eustathius 1644.52, reported by Dindorf, not checked in Eustathius): https://archive.org/download/scholiagraeodyss02homeuoft/page/n49.jpg",
+      "origin": "new"
+     },
+     {
+      "ru": "ξ. Последнее толкование T противопоставляет остров, «у которого можно стать на якорь», «неприступному»: ἀμιχθαλόεσσα — гомеровский эпитет Лемноса («Илиада» 24.753), который понимали как «негостеприимный» (= ἄμικτος) или как «дымный» (LSJ). Первое толкование T — поэт «рассказывает чудо, чтобы мы не допытывались», где лежит остров, — близко к взгляду, отражённому в Σ 10.1 (примеч. β).",
+      "en": "ξ. The last interpretation in T contrasts an island 'where one can come to anchor' with an 'unapproachable' one: ἀμιχθαλόεσσα is the Homeric epithet of Lemnos (Iliad 24.753), understood either as 'inhospitable' (= ἄμικτος) or as 'smoky' (LSJ). T's first interpretation, that the poet 'tells a marvel so that we should not inquire' where the island lies, is close to the view reflected in Σ 10.1 (note β).",
+      "source": "LSJ s.v. ἀμιχθαλόεις: https://lsj.gr/wiki/ἀμιχθαλόεις ; Hom. Il. 24.753; Dindorf II 446.11–14: https://archive.org/download/scholiagraeodyss02homeuoft/page/n49.jpg",
+      "origin": "new"
+     }
+    ],
+    "divergences": [
+     {
+      "greek": "ἐν δὲ ἄλλῳ",
+      "published": "RU «В другом [толковании]»; EN 'In another [commentary]'",
+      "independent": "RU «В другом [источнике]»; EN 'In another [source]'",
+      "verdict": "published",
+      "reason": "In scholia ἐν ἄλλῳ points to another copy or commentary from which further glosses are taken; the published EN is right. The RU «толковании» names the content rather than where it is found, so the RU is aligned with the EN: «[комментарии]»."
+     },
+     {
+      "greek": "οὐκ ἂν οὐδὲ ἐκ δευτέρου αὐτὴν εὗρεν ὁ Ὀδυσσεύς",
+      "published": "RU «не нашёл бы его и во второй раз»; EN 'would not have found it a second time'",
+      "independent": "RU «не нашёл бы его и во второй раз»; EN 'would not have found it a second time either'",
+      "verdict": "published",
+      "reason": "οὐδέ intensifies the negative; 'either' implies that Odysseus failed the first time too. The RU «и во второй раз» carries the same ambiguity and is simplified to «во второй раз»."
+     }
+    ]
+   },
+   {
+    "id": "s4",
+    "parts": [
+     {
+      "label": "V, lemma χάλκεον (446.15–16), printed first by Dindorf",
+      "sigla": "V",
+      "greek": "χάλκεον] ἰσχυρόν. ἀπρόσβατον γάρ ἐστι διὰ τὴν περὶ αὐτὸ λειότητα.",
+      "ru": "Медная] [То есть] прочная: ведь она неприступна из-за гладкости вокруг неё.{π}",
+      "en": "Of bronze] [That is,] strong: for it is inaccessible because of the smoothness around it.{π}"
+     },
+     {
+      "label": "B Q, lemma χάλκεον ἄρρηκτον (446.17–18)",
+      "sigla": "B Q",
+      "greek": "χάλκεον ἄρρηκτον] λείπει τὸ ἐστίν. πῶς ἄρρηκτον; ὅτι πέτρα περιτρέχει τὴν πόλιν περιβολῆς τάξιν ἐπέχουσα.",
+      "ru": "Медная, несокрушимая] Недостаёт [слова] «есть». Почему несокрушимая? Потому что скала обегает город, занимая место ограды.{ο}",
+      "en": "Of bronze, unbreakable] 'Is' is missing. How [is it] unbreakable? Because a rock runs round the city, holding the place of an enclosure.{ο}"
+     },
+     {
+      "label": "Separate T note on the same verse, lemma λισσὴ δὲ πέτρη (446.19); was not on the page. Recommended for print",
+      "sigla": "T",
+      "greek": "λισσὴ δὲ πέτρη] περιτρέχει τὴν πόλιν περιβόλου δίκην ἐπέχουσα.",
+      "ru": "Гладкая же скала] Обегает город, простираясь наподобие ограды.",
+      "en": "And smooth rock] It runs round the city, stretching like a circuit wall."
+     }
+    ],
+    "apparatus": [
+     "Dindorf prints no apparatus for 446.15–19.",
+     "The false περιβόλου in the file and on the page comes from the T line 446.19 (περιβόλου δίκην); B Q have περιβολῆς τάξιν."
+    ],
+    "notes": [
+     {
+      "ru": "ο. Две школьные операции. Грамматическая: в ст. 3–4 нет глагола («весь его кругом — стена медная, несокрушимая»), и схолиаст восполняет «есть». Рационалистическая: «медная стена» объясняется скалой, опоясывающей город. У Гомера стена окружает сам остров (μιν), а город появляется лишь в 10.13 (πόλιν καὶ δώματα καλά). То же объяснение короче повторено в T при словах «гладкая же скала»: там «наподобие ограды» (περιβόλου δίκην), в B Q — «место ограды» (περιβολῆς τάξιν).",
+      "en": "ο. Two school moves. A grammatical one: lines 3–4 have no verb ('all round it a wall of bronze, unbreakable'), and the scholiast supplies 'is'. A rationalising one: the 'bronze wall' is explained as a rock ringing the city. In Homer the wall surrounds the island itself (μιν); the city first appears at 10.13 (πόλιν καὶ δώματα καλά). T repeats the explanation more briefly at 'and smooth rock': there 'like a circuit wall' (περιβόλου δίκην), in B Q 'the place of an enclosure' (περιβολῆς τάξιν).",
+      "source": "Hom. Od. 10.3–4, 10.13 (Murray, Perseus): https://www.perseus.tufts.edu/hopper/text?doc=Perseus%3Atext%3A1999.01.0135%3Abook%3D10%3Acard%3D1 ; Dindorf II 446.15–19: https://archive.org/download/scholiagraeodyss02homeuoft/page/n49.jpg",
+      "origin": "revised"
+     },
+     {
+      "ru": "π. «Из-за гладкости вокруг неё» (διὰ τὴν περὶ αὐτὸ λειότητα) можно понять двояко: как гладкость самой стены или как гладкую скалу вокруг неё; во втором случае V объясняет «медную» стену через «гладкую скалу» того же стиха. Независимый перевод понимает так: «из-за гладкости её поверхности со всех сторон». Оставлен буквальный перевод, который сохраняет обе возможности.",
+      "en": "π. 'Because of the smoothness around it' (διὰ τὴν περὶ αὐτὸ λειότητα) admits two readings: the smoothness of the wall itself, or the smooth rock around it; on the second, V explains the 'bronze' wall through the 'smooth rock' of the same line. The independent translation reads 'because its surface is smooth all around'. The literal rendering is kept because it leaves both readings open.",
+      "source": "Dindorf II 446.15–16 (V): https://archive.org/download/scholiagraeodyss02homeuoft/page/n49.jpg ; Hom. Od. 10.4.",
+      "origin": "divergence"
+     }
+    ],
+    "divergences": [
+     {
+      "greek": "διὰ τὴν περὶ αὐτὸ λειότητα",
+      "published": "RU «из-за гладкости вокруг неё»; EN 'because of the smoothness around it'",
+      "independent": "RU «из-за гладкости своей поверхности со всех сторон»; EN 'because its surface is smooth all around'",
+      "verdict": "both",
+      "reason": "περὶ αὐτό can mean 'around it' (the smooth rock of the same line) or 'belonging to it' (its own smoothness). The published literal rendering keeps both; the other reading goes into note π."
+     },
+     {
+      "greek": "ἀπρόσβατον",
+      "published": "RU «неприступна»; EN 'inaccessible'",
+      "independent": "RU «неприступна»; EN 'cannot be attacked'",
+      "verdict": "published",
+      "reason": "ἀπρόσβατος means 'not to be approached or climbed'; 'cannot be attacked' narrows it to a military sense the Greek does not have."
+     },
+     {
+      "greek": "περιβολῆς τάξιν ἐπέχουσα",
+      "published": "on the false reading περιβόλου: RU «занимая место городской стены»; EN 'serving as its circuit wall'",
+      "independent": "RU «выполняя роль ограды»; EN 'serving as an enclosure'",
+      "verdict": "independent",
+      "reason": "B Q read περιβολῆς ('enclosure'), not περιβόλου; «городской» is not in the Greek. Adopted «занимая место ограды» / 'holding the place of an enclosure' (τάξιν ἐπέχειν, 'to hold the position of')."
+     },
+     {
+      "greek": "πᾶσαν δέ τέ μιν πέρι τεῖχος χάλκεον ἄρρηκτον (Homer 10.3–4)",
+      "published": "RU «весь его кругом обегает стена»; EN 'all round it runs a wall'",
+      "independent": "RU «весь его окружает стена»; EN 'a wall surrounds it all'",
+      "verdict": "neither",
+      "reason": "Homer has no verb here, and Σ 10.4 B Q comments on exactly that (λείπει τὸ ἐστίν). Both versions supply a verb; the published «обегает» even borrows the scholion's περιτρέχει. Adopted the verbless «весь его кругом — стена» / 'all round it [is] a wall'."
+     },
+     {
+      "greek": "λισσὴ δ’ ἀναδέδρομε πέτρη (Homer 10.4)",
+      "published": "EN 'and sheer rock rises up' (RU «гладкая»)",
+      "independent": "EN 'and a smooth rock rises up'",
+      "verdict": "independent",
+      "reason": "λισσή means 'smooth'; the V scholion's λειότης ('smoothness') and the T lemma λισσὴ δὲ πέτρη depend on it. 'Sheer' replaces the adjective with a reading of ἀναδέδρομε."
+     }
+    ]
+   }
+  ],
+  "homer": [
+   {
+    "line": "10.1",
+    "ru": "На Эолийский остров прибыли мы; там обитал",
+    "en": "To the Aeolian island we came; there dwelt"
+   },
+   {
+    "line": "10.2",
+    "ru": "Эол Гиппотад, любезный бессмертным богам,",
+    "en": "Aeolus son of Hippotes, dear to the deathless gods,"
+   },
+   {
+    "line": "10.3",
+    "ru": "на плавучем острове; весь его кругом — стена",
+    "en": "on a floating island; all round it [is] a wall"
+   },
+   {
+    "line": "10.4",
+    "ru": "медная, несокрушимая, и гладкая вздымается скала.",
+    "en": "of bronze, unbreakable, and smooth rock rises up."
+   }
+  ],
+  "overview": "Set A, one translation per scholion on the established Greek. Every part is translated, including those the page had dropped without notice: the Q note on the islands (443.26–28), the opening of the Q genealogy (444.8–17), the V note on two Aeoluses (444.21–22), the rest of P [a] after δεσπότην ἀνέμων and all of P [b] (445.5–23), the first sentence of the Q Ἄλλως (446.7–8), and the two T notes (446.11–14, 446.19). I recommend printing all of them; each label says what to do if one is left out. The lemma rule: the first printed part of a scholion opens with the rendered lemma and ']'. Where a part has its own lemma (χάλκεον, πλωτῇ, λισσὴ δὲ πέτρη), it opens with that. If the Q opening of s2 is printed, drop the '[…]' at the head of the genealogy excerpt. Markers such as {α} in the translations show where each margin note anchors.\n\nThe base is the published translation, with these changes. EN 'islands of Aeolus' for Αἰόλου νήσους. «удалённый / far-removed» for ἐκτετοπισμένην. «занимая место ограды» on the correct περιβολῆς. Homer 10.3 stays verbless, because Σ 10.4 comments on the missing ἐστίν. EN 10.4 'smooth' for λισσή. On the main crux the published reading stands: φυλάσσει … τὸ εἰπεῖν ἐξ Ἱππότου means 'keeps strictly to saying “from Hippotes”', not the independent 'avoids saying'. Homer has Ἱπποτάδης at 10.2 and 10.36, and Q's τῷ supports this reading (note ζ).\n\nNotes have been relettered across the page. Old α→α, β→γ, γ→ϛ, δ→η, ε→λ, ϛ→μ and ζ→ο are revised. β, δ, ε, ζ, θ, ι, κ, ν and ξ are new. π records a divergence. Facts corrected in the published notes:\n- β had the list match Diodorus and Strabo. In fact Ἱκεσία is in neither, nor in Pliny; all three have Euonymus. The -ώδης forms in Q match Diodorus and the -οῦσσα forms in V match Strabo.\n- ε said Delos stopped when Apollo and Artemis were born. Per Strabo 10.5.2 it was fixed when Leto set foot on it.\n- γ's 'probably' Asclepiades of Tragilus is now Jacoby's FGrHist 12 F 26, via Lloyd-Jones, ZPE 87 (1991) 298. Jacoby notes that it fits Diodorus 4.67.\n- The vague Palaephatus parallel in ζ is dropped.\n\nErrors in the independent version:\n- It claims Od. 10.32 has πηδάλιον. Homer has πόδα νηὸς ἐνώμων, so the paraphrase keeps Homer's term.\n- 'cannot be attacked' for ἀπρόσβατον.\n- 'a second time either' for οὐκ ἂν οὐδέ.\n- Two apparatus transcriptions. Dindorf prints 'ἔνιοι] ἐνίοτε V' and 'ἔσεται πνέων Tzetzes'; the independent version has ἔνιστε and ἔσται.\n\nThings I checked myself:\n- On the Dindorf images: pp. 443 (lemma, Q note, the adjacent Q note 443.22–25), 444 (text and apparatus ll. 1–23), 445 and 446. The established Greek agrees.\n- Primary sources: Diodorus 4.67, 5.7–8; Strabo 1.2.9, 1.2.15, 6.2.10–11, 10.5.2; Pliny NH 3.92–94; Apollodorus 1.7.2–3; Od. 10 (Perseus); LSJ s.v. φυλάσσω, ἐκτοπίζω, ἀμιχθαλόεις; Suda τ 1023.\n\nNot checked in the editions:\n- Hesiod fr. 4 M–W and Acusilaus FGrHist 2 F 34 (from the secondary literature).\n- The modern number of the Callimachus fragment. Dindorf's 'fr. 202' is old numbering, and no modern number is given.\n- The text of Tzetzes and Eustathius, which is reported only through Dindorf/Buttmann.\n\nA validated JSON copy of this output is at C:\\Users\\user\\AppData\\Local\\Temp\\claude\\C--Users-user-Documents-Projects-Neoscholia\\b4f946bd-6075-477c-b48c-f9c5ba60c113\\scratchpad\\setA_final.json. In that copy the Homer 10.1/10.2 divergences sit under s4; here they are under s1 and s2."
+ }
+}

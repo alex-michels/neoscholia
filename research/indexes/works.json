@@ -1066,16 +1066,28 @@
     "label": "прим. 52"
    },
    {
-    "locus": "5.7",
+    "locus": "4.67.3–6",
+    "page": "odyssey-10",
+    "anchor": "n2b",
+    "label": ""
+   },
+   {
+    "locus": "5.7.1",
     "page": "odyssey-10",
     "anchor": "n1b",
-    "label": "прим. 1b"
+    "label": ""
    },
    {
     "locus": "5.7.7",
     "page": "odyssey-10",
-    "anchor": "n2b",
-    "label": "прим. 2b"
+    "anchor": "n2d",
+    "label": ""
+   },
+   {
+    "locus": "5.8.1",
+    "page": "odyssey-10",
+    "anchor": "n2f",
+    "label": ""
    }
   ]
  },
@@ -1157,6 +1169,12 @@
     "page": "zacher-1",
     "anchor": "n49",
     "label": "прим. 49"
+   },
+   {
+    "locus": "3.92–94",
+    "page": "odyssey-10",
+    "anchor": "n1b",
+    "label": ""
    }
   ]
  },
@@ -1226,36 +1244,6 @@
   "abbr": "Od.",
   "wikidata": "Q35160",
   "loci": [
-   {
-    "locus": "10.1",
-    "page": "odyssey-10",
-    "anchor": "s1",
-    "label": "Σ 10.1"
-   },
-   {
-    "locus": "10.2",
-    "page": "odyssey-10",
-    "anchor": "s2",
-    "label": "Σ 10.2"
-   },
-   {
-    "locus": "10.3",
-    "page": "odyssey-10",
-    "anchor": "s3",
-    "label": "Σ 10.3"
-   },
-   {
-    "locus": "10.4",
-    "page": "odyssey-10",
-    "anchor": "s4",
-    "label": "Σ 10.4"
-   },
-   {
-    "locus": "10.55",
-    "page": "odyssey-10",
-    "anchor": "n3b",
-    "label": "прим. 3b"
-   },
    {
     "locus": "10.86",
     "page": "study-laestrygonians",
@@ -1363,6 +1351,78 @@
     "page": "study-laestrygonians",
     "anchor": "appx-12",
     "label": "приложение, Σ 10.86"
+   },
+   {
+    "locus": "9.564",
+    "page": "odyssey-10",
+    "anchor": "n1c",
+    "label": ""
+   },
+   {
+    "locus": "10.1",
+    "page": "odyssey-10",
+    "anchor": "s1",
+    "label": ""
+   },
+   {
+    "locus": "10.2",
+    "page": "odyssey-10",
+    "anchor": "s2",
+    "label": ""
+   },
+   {
+    "locus": "10.3",
+    "page": "odyssey-10",
+    "anchor": "s3",
+    "label": ""
+   },
+   {
+    "locus": "10.4",
+    "page": "odyssey-10",
+    "anchor": "s4",
+    "label": ""
+   },
+   {
+    "locus": "10.13",
+    "page": "odyssey-10",
+    "anchor": "n4b",
+    "label": ""
+   },
+   {
+    "locus": "10.19",
+    "page": "odyssey-10",
+    "anchor": "n2f",
+    "label": ""
+   },
+   {
+    "locus": "10.21",
+    "page": "odyssey-10",
+    "anchor": "n2d",
+    "label": ""
+   },
+   {
+    "locus": "10.28–55",
+    "page": "odyssey-10",
+    "anchor": "n2g",
+    "label": ""
+   },
+   {
+    "locus": "10.32",
+    "page": "odyssey-10",
+    "anchor": "n2g",
+    "label": ""
+   },
+   {
+    "locus": "10.36",
+    "page": "odyssey-10",
+    "anchor": "n2c",
+    "label": ""
+   },
+   {
+    "locus": "10.54–60",
+    "page": "odyssey-10",
+    "anchor": "n3b",
+    "label": ""
    }
   ]
  },
@@ -1375,30 +1435,6 @@
   "abbr": "Σ Od.",
   "wikidata": "",
   "loci": [
-   {
-    "locus": "10.1",
-    "page": "odyssey-10",
-    "anchor": "s1",
-    "label": "Σ 10.1"
-   },
-   {
-    "locus": "10.2",
-    "page": "odyssey-10",
-    "anchor": "s2",
-    "label": "Σ 10.2"
-   },
-   {
-    "locus": "10.3",
-    "page": "odyssey-10",
-    "anchor": "s3",
-    "label": "Σ 10.3"
-   },
-   {
-    "locus": "10.4",
-    "page": "odyssey-10",
-    "anchor": "s4",
-    "label": "Σ 10.4"
-   },
    {
     "locus": "10.82–86",
     "page": "study-laestrygonians",
@@ -1608,6 +1644,42 @@
     "page": "study-laestrygonians",
     "anchor": "appx-12",
     "label": "приложение, Σ 10.86"
+   },
+   {
+    "locus": "9.564",
+    "page": "odyssey-10",
+    "anchor": "n1c",
+    "label": ""
+   },
+   {
+    "locus": "10.1",
+    "page": "odyssey-10",
+    "anchor": "s1",
+    "label": ""
+   },
+   {
+    "locus": "10.2",
+    "page": "odyssey-10",
+    "anchor": "s2",
+    "label": ""
+   },
+   {
+    "locus": "10.3",
+    "page": "odyssey-10",
+    "anchor": "s3",
+    "label": ""
+   },
+   {
+    "locus": "10.4",
+    "page": "odyssey-10",
+    "anchor": "s4",
+    "label": ""
+   },
+   {
+    "locus": "10.86",
+    "page": "odyssey-10",
+    "anchor": "n1d",
+    "label": ""
    }
   ]
  },
@@ -1622,15 +1694,15 @@
   "loci": [
    {
     "locus": "6.2.1",
-    "page": "odyssey-10",
-    "anchor": "n1a",
-    "label": "прим. 1a"
-   },
-   {
-    "locus": "6.2.1",
     "page": "study-laestrygonians",
     "anchor": "n35",
     "label": "прим. 35"
+   },
+   {
+    "locus": "6.2.1",
+    "page": "odyssey-10",
+    "anchor": "n1d",
+    "label": ""
    }
   ]
  },
@@ -1643,18 +1715,6 @@
   "abbr": "Strab.",
   "wikidata": "Q690653",
   "loci": [
-   {
-    "locus": "1.2.15",
-    "page": "odyssey-10",
-    "anchor": "n1a",
-    "label": "прим. 1a"
-   },
-   {
-    "locus": "6.2.10–11",
-    "page": "odyssey-10",
-    "anchor": "n1b",
-    "label": "прим. 1b"
-   },
    {
     "locus": "2.5.43",
     "page": "study-laestrygonians",
@@ -1702,6 +1762,48 @@
     "page": "study-laestrygonians",
     "anchor": "n37",
     "label": "прим. 37"
+   },
+   {
+    "locus": "1.2.9",
+    "page": "odyssey-10",
+    "anchor": "n1d",
+    "label": ""
+   },
+   {
+    "locus": "1.2.15",
+    "page": "odyssey-10",
+    "anchor": "n1d",
+    "label": ""
+   },
+   {
+    "locus": "1.2.15",
+    "page": "odyssey-10",
+    "anchor": "n2d",
+    "label": ""
+   },
+   {
+    "locus": "3.4.19",
+    "page": "odyssey-10",
+    "anchor": "n1c",
+    "label": ""
+   },
+   {
+    "locus": "6.2.11",
+    "page": "odyssey-10",
+    "anchor": "n1a",
+    "label": ""
+   },
+   {
+    "locus": "6.2.11",
+    "page": "odyssey-10",
+    "anchor": "n1b",
+    "label": ""
+   },
+   {
+    "locus": "10.5.2",
+    "page": "odyssey-10",
+    "anchor": "n3a",
+    "label": ""
    }
   ]
  },
@@ -1715,10 +1817,16 @@
   "wikidata": "",
   "loci": [
    {
-    "locus": "",
+    "locus": "FGrHist 12 F 26",
     "page": "odyssey-10",
-    "anchor": "n2a",
-    "label": "прим. 2a"
+    "anchor": "s2",
+    "label": ""
+   },
+   {
+    "locus": "FGrHist 12 F 26",
+    "page": "odyssey-10",
+    "anchor": "n2b",
+    "label": ""
    }
   ]
  },
@@ -1732,10 +1840,22 @@
   "wikidata": "",
   "loci": [
    {
+    "locus": "45",
+    "page": "odyssey-10",
+    "anchor": "n2f",
+    "label": ""
+   },
+   {
     "locus": "738",
     "page": "odyssey-10",
-    "anchor": "n2b",
-    "label": "прим. 2b"
+    "anchor": "s2",
+    "label": ""
+   },
+   {
+    "locus": "738",
+    "page": "odyssey-10",
+    "anchor": "n2d",
+    "label": ""
    }
   ]
  },
@@ -1752,13 +1872,13 @@
     "locus": "33d",
     "page": "odyssey-10",
     "anchor": "s3",
-    "label": "Σ 10.3"
+    "label": ""
    },
    {
     "locus": "33d",
     "page": "odyssey-10",
     "anchor": "n3a",
-    "label": "прим. 3a"
+    "label": ""
    }
   ]
  },
@@ -1782,6 +1902,12 @@
     "page": "study-laestrygonians",
     "anchor": "n30",
     "label": "прим. 30"
+   },
+   {
+    "locus": "24.753",
+    "page": "odyssey-10",
+    "anchor": "n3d",
+    "label": ""
    }
   ]
  },
@@ -2100,6 +2226,12 @@
     "page": "study-laestrygonians",
     "anchor": "appx-7",
     "label": "приложение, Σ 10.85"
+   },
+   {
+    "locus": "1644.52",
+    "page": "odyssey-10",
+    "anchor": "n3c",
+    "label": ""
    }
   ]
  },
@@ -2435,6 +2567,165 @@
     "page": "study-laestrygonians",
     "anchor": "s6",
     "label": "§ 6"
+   }
+  ]
+ },
+ {
+  "id": "ps-apollod-bibl",
+  "author_id": "ps-apollodorus",
+  "ru": "Библиотека",
+  "en": "Library",
+  "orig": "Βιβλιοθήκη",
+  "abbr": "[Apollod.] Bibl.",
+  "wikidata": "",
+  "loci": [
+   {
+    "locus": "1.7.2–3",
+    "page": "odyssey-10",
+    "anchor": "n2a",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "id": "hes-op",
+  "author_id": "hesiod",
+  "ru": "Труды и дни",
+  "en": "Works and Days",
+  "orig": "Ἔργα καὶ ἡμέραι",
+  "abbr": "Hes. Op.",
+  "wikidata": "Q667285",
+  "loci": [
+   {
+    "locus": "57",
+    "page": "odyssey-10",
+    "anchor": "n2a",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "id": "hes-fr",
+  "author_id": "hesiod",
+  "ru": "Фрагменты (изд. Меркельбаха — Уэста)",
+  "en": "Fragments (Merkelbach–West)",
+  "orig": "",
+  "abbr": "Hes. fr. M–W",
+  "wikidata": "",
+  "loci": [
+   {
+    "locus": "4",
+    "page": "odyssey-10",
+    "anchor": "n2a",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "id": "acus-fr",
+  "author_id": "acusilaus",
+  "ru": "Фрагменты",
+  "en": "Fragments",
+  "orig": "",
+  "abbr": "FGrHist 2",
+  "wikidata": "",
+  "loci": [
+   {
+    "locus": "F 34",
+    "page": "odyssey-10",
+    "anchor": "n2a",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "id": "aesch-pv",
+  "author_id": "aeschylus",
+  "ru": "Прометей прикованный",
+  "en": "Prometheus Bound",
+  "orig": "Προμηθεὺς δεσμώτης",
+  "abbr": "Aesch. PV",
+  "wikidata": "Q846870",
+  "loci": [
+   {
+    "locus": "555–560",
+    "page": "odyssey-10",
+    "anchor": "n2a",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "id": "demon-fr",
+  "author_id": "demon",
+  "ru": "Фрагменты",
+  "en": "Fragments",
+  "orig": "",
+  "abbr": "FGrHist 327",
+  "wikidata": "",
+  "loci": [
+   {
+    "locus": "F 2",
+    "page": "odyssey-10",
+    "anchor": "n2e",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "id": "call-fr",
+  "author_id": "callimachus",
+  "ru": "Фрагменты",
+  "en": "Fragments",
+  "orig": "",
+  "abbr": "Callim. fr.",
+  "wikidata": "",
+  "loci": [
+   {
+    "locus": "202 (старая нумерация)",
+    "page": "odyssey-10",
+    "anchor": "s2",
+    "label": ""
+   },
+   {
+    "locus": "202 (старая нумерация)",
+    "page": "odyssey-10",
+    "anchor": "n2f",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "id": "orph-fr",
+  "author_id": "anon",
+  "ru": "Орфические фрагменты (изд. Керна)",
+  "en": "Orphic fragments (Kern)",
+  "orig": "",
+  "abbr": "Orph. fr. Kern",
+  "wikidata": "",
+  "loci": [
+   {
+    "locus": "318",
+    "page": "odyssey-10",
+    "anchor": "n2e",
+    "label": ""
+   }
+  ]
+ },
+ {
+  "id": "suda",
+  "author_id": "anon",
+  "ru": "Суда",
+  "en": "Suda",
+  "orig": "Σοῦδα",
+  "abbr": "Suda",
+  "wikidata": "Q216299",
+  "loci": [
+   {
+    "locus": "τ 1023",
+    "page": "odyssey-10",
+    "anchor": "n2e",
+    "label": ""
    }
   ]
  }
