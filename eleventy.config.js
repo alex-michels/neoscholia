@@ -3,6 +3,7 @@
 // Output: site/ — plain HTML with relative links; works on any host, in a subfolder, or opened from disk.
 import { execFileSync } from "node:child_process";
 import { load as loadYaml } from "js-yaml";
+import { renderArticle } from "./lib/article.js";
 
 const gitCache = new Map();
 
@@ -39,6 +40,9 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("rootPrefix", (url) => "../".repeat(Math.max(0, String(url || "/").split("/").length - 2)));
   eleventyConfig.addFilter("repoPath", (inputPath) => String(inputPath || "").replace(/^\.\//, ""));
   eleventyConfig.addFilter("lastChange", lastChange);
+  // Research articles: the page takes its text from research/studies/<slug>/article.md (see lib/article.js).
+  eleventyConfig.addFilter("article", (path, links) => renderArticle(path, links));
+  eleventyConfig.addWatchTarget("research/studies/");
   // Mark ladder steps up to the current status as done.
   eleventyConfig.addFilter("ladderSteps", (steps, status) => {
     const current = steps.findIndex((s) => s.key === status);

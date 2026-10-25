@@ -1,0 +1,118 @@
+{#- Страница перевода, собираемая из данных: src/_data/texts/<ключ>.json.
+    На странице: front matter с textKey, ladder, status, version, updated; затем {% include "text-body.njk" %}.
+    Поля данных: title, subtitle, crumbs, source, first, intro_ru, intro_en, chapters[], process, cite, licenses, ai. -#}
+{%- set t = texts[textKey] -%}
+<main id="top">
+    <div class="crumbs">{% for c in t.crumbs %}{% if c.href %}<a href="{{ c.href }}">{{ c.label }}</a>{% else %}{{ c.label }}{% endif %}{% if not loop.last %} › {% endif %}{% endfor %}</div>
+    <h1>{{ t.title }}</h1>
+    <p class="sub">{{ t.subtitle }}</p>
+    <div class="meta">
+      <span>Основа текста: <b>{{ t.source | safe }}</b></span>
+      <span>Версия <b>{{ version }}</b> · {{ updated }}</span>
+    </div>
+    {%- if t.first %}
+    <span class="first">{{ t.first }}</span>
+    {%- endif %}
+    {% include "ladder.njk" %}
+
+    <div class="controls" role="toolbar" aria-label="Режим чтения">
+      <div class="group"><span>Показ</span>
+        <div class="seg-ctl" id="view-ctl">
+          <button type="button" data-view="translation" aria-pressed="false">Перевод</button>
+          <button type="button" data-view="parallel" aria-pressed="true">Параллельно</button>
+          <button type="button" data-view="original" aria-pressed="false">Оригинал</button>
+        </div>
+      </div>
+      <div class="group"><span>Язык перевода</span>
+        <div class="seg-ctl" id="lang-ctl">
+          <button type="button" data-lang-set="ru" aria-pressed="true">RU</button>
+          <button type="button" data-lang-set="en" aria-pressed="false">EN</button>
+        </div>
+      </div>
+      <label class="toggle" for="notes-toggle"><input type="checkbox" id="notes-toggle" checked> Новые схолии на полях</label>
+    </div>
+
+    <section class="intro-text" aria-labelledby="intro-h">
+      <h2 id="intro-h">О тексте</h2>
+      <div data-lang="ru">{{ t.intro_ru | safe }}</div>
+      <div data-lang="en" lang="en">{{ t.intro_en | safe }}</div>
+    </section>
+
+    <section class="chapters" aria-labelledby="ch-h">
+      <h2 id="ch-h">Текст и перевод</h2>
+      {%- for c in t.chapters %}
+      <article class="seg" id="c{{ c.chapter }}">
+        <div class="seg-main">
+          <div class="seg-head">
+            <span class="ref">{{ t.refPrefix }}{{ c.chapter }}</span>
+            <span class="chips">
+              {%- if c.pages %}<span class="chip sigla">Zacher {{ c.pages }}</span>{% endif %}
+              {%- for p in c.parallels %}<span class="chip">{{ p }}</span>{% endfor %}
+            </span>
+          </div>
+          <div class="body">
+            <div class="sub-schol">
+              <p class="orig-text" lang="{{ t.origLang }}">{{ c.latin }}</p>
+              <p class="tr-text" data-lang="ru">{{ c.ru | safe }}{% for n in c.notes %}<sup class="n"><a href="#n{{ n.n }}">{{ n.n }}</a></sup>{% endfor %}</p>
+              <p class="tr-text" data-lang="en" lang="en">{{ c.en | safe }}{% for n in c.notes %}<sup class="n"><a href="#n{{ n.n }}">{{ n.n }}</a></sup>{% endfor %}</p>
+            </div>
+          </div>
+          {%- if c.log and c.log.length %}
+          <details class="review">
+            <summary>Журнал рецензии к главе {{ c.chapter }}</summary>
+            <ol class="log">
+              {%- for e in c.log %}
+              <li><span class="who"><b>{{ e.role }}</b>{{ e.who }}</span><span>{% if e.mqm %}<span class="mqm">{{ e.mqm }}</span><br>{% endif %}{{ e.text | safe }}</span></li>
+              {%- endfor %}
+            </ol>
+          </details>
+          {%- endif %}
+        </div>
+        <aside class="margin" aria-label="Новые схолии к главе {{ c.chapter }}">
+          {%- if c.notes and c.notes.length %}
+          <h3>Новые схолии</h3>
+          {%- for n in c.notes %}
+          <p class="note" id="n{{ n.n }}" data-lang="ru"><span class="mark">{{ n.n }}</span>{{ n.ru | safe }}</p>
+          <p class="note" id="n{{ n.n }}-en" data-lang="en" lang="en"><span class="mark">{{ n.n }}</span>{{ n.en | safe }}</p>
+          {%- endfor %}
+          {%- endif %}
+        </aside>
+      </article>
+      {%- endfor %}
+    </section>
+
+    {%- if t.process %}
+    <section class="process" id="process" aria-labelledby="proc-h">
+      <h2 id="proc-h">Как сделан перевод</h2>
+      {{ t.process.text | safe }}
+      {%- if t.process.stats %}
+      <div class="process-grid" role="list">
+        {%- for s in t.process.stats %}
+        <div role="listitem"><b>{{ s.value }}</b><span>{{ s.label }}</span></div>
+        {%- endfor %}
+      </div>
+      {%- endif %}
+      {%- if t.process.open %}
+      <h3>Что осталось проверить</h3>
+      <ul>{% for o in t.process.open %}<li>{{ o | safe }}</li>{% endfor %}</ul>
+      {%- endif %}
+    </section>
+    {%- endif %}
+
+    <footer class="text-foot">
+      <section>
+        <h2>Как цитировать</h2>
+        <p class="cite" id="cite-text">{{ t.cite | replace("{version}", version) }}</p>
+        <button type="button" class="copy" id="copy-cite">Скопировать</button>
+      </section>
+      <section>
+        <h2>Источник и лицензии</h2>
+        {{ t.licenses | safe }}
+      </section>
+      <section>
+        <h2>Роль ИИ</h2>
+        {{ t.ai | safe }}
+        <p><a href="method.html#pipeline">Метод и замер качества</a></p>
+      </section>
+    </footer>
+  </main>

@@ -2,7 +2,6 @@
    the new scholia (commentary) sit in the margin beside it, as in a codex. */
 :root { --panel: #f6efe1; --measure: 38rem; }
 a:focus-visible, button:focus-visible, summary:focus-visible { outline: 2px solid var(--lapis); outline-offset: 2px; }
-.brand span { color: var(--rubric); }
 h1 { font-family: var(--font-display); font-weight: 400; font-size: clamp(2rem, 4.5vw, 3.1rem); line-height: 1.1;
   margin: .35rem 0 .3rem; text-wrap: balance; }
 .sub { font-size: 1.1rem; color: var(--ink-soft); margin: 0; }
