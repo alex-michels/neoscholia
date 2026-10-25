@@ -1,0 +1,353 @@
+[
+ {
+  "issues_addressed": [
+   {
+    "issue": 1,
+    "status": "partly",
+    "comment": "The RU and EN abstracts (finding 2) and § 6, conclusion 3, now use Astra's wording: the comparison 'allows an analogy', and the long-redaction reconstruction is 'provisional' until checked against Martin. Three problems remain in the body. (a) § 4 still says the long redaction is 'which we know from Martin's edition' (которую мы знаем по изданию Мартена). This contradicts the corrected abstract and note 20, which say the text is known only from a transcription. (b) § 4 never states the claim made in the abstract and § 6: that the comparison, attested in both redactions, does not by itself require confused latitudes. In § 4 that claim is still conditional on the long redaction ('Если этот текст подтвердится'). (c) Note 21 still says 'Длинная редакция показывает…' without any hedge."
+   },
+   {
+    "issue": 2,
+    "status": "done",
+    "comment": "'Бесспорно другое…' is replaced almost word for word by Astra's formulation. Note 35 is now attached to 'где их искали другие', so it no longer appears to be evidence about Aristarchus. Two small leftovers are listed under problems: the ambiguous 'Если реконструкция верна' and the unhedged 'в его духе' at the end of § 5."
+   },
+   {
+    "issue": 3,
+    "status": "done",
+    "comment": "The RU and EN abstracts and § 6, conclusion 4, now call the κ 190 dispute a reconstruction by Lehrs and Carnuth. § 5 adds that only the differing interpretations are directly attested. However, the new wording 'Ближайшее в книге κ расхождение толкований… касается стиха 190' / 'The nearest difference of interpretation in book κ, which…' literally says the nearest divergence of any interpretations is at line 190. The scholia on line 86 itself give five. Also, 'directly attested' leaves out that the name Κράτης in Σ Od. 2.1 goes against E, P, Q and H (see note 30). Both points are listed under problems."
+   },
+   {
+    "issue": 4,
+    "status": "done",
+    "comment": "§ 6, conclusion 5, now speaks of a lexical parallel with an unclear direction of dependence, and note 38 explains this. But the list of alternatives added to note 38 is garbled: it omits the obvious reverse direction (Eustathius drawing on the scholion that survives in HQ), and 'направление зависимости' in § 6 assumes there is a direct dependence at all. See problems."
+   },
+   {
+    "issue": 5,
+    "status": "done",
+    "comment": "Checked against First1KGreek tlg1383.tlg001: 16.21 is Cleanthes (Ὑπὸ δὲ τὴν διακεκαυμένην ζώνην … Κλεάνθης), 16.22 is Crates (τὴν πλάνην τοῦ Ὀδυσσέως διατάσσων), and 16.23 begins 'ἡ δὲ τοιαύτη διάταξις ἀλλοτρία ἐστὶ…'. The page is right too: 16.20–24 sit on scan facs 0220. Calibrating on chapter 6 (6.10–14 on facs 0120, which is Manitius 72; 6.18–23 on facs 0124, which is p. 76) makes facs 0220 Manitius 172, and 16.27 falls on facs 0222, which is p. 174. Note 13 is therefore correct. The only flaw is that the Greek sentence is cut off without an ellipsis (see problems). Glover 2026 (task 4) checked on the Cambridge Core page: Eric Glover, 'The Astronomy of Hipparchus: An Annotated Translation of and Introduction to the Commentary on the Phenomena of Aratus and Eudoxus', CUP 2026, DOI 10.1017/9781009607544. The bibliography entry matches, and the translation covers Books I–III."
+   },
+   {
+    "issue": 6,
+    "status": "done",
+    "comment": "Brief check: TOL is now 1e-9 and governs both the star's CSS class (low < −TOL) and the readout text (|low| ≤ TOL). With DEC_G = 52.959, the slider position 37.040° gives low = −0.001°. It now reads 'заходит примерно на …; в нижней точке −0,001° — почти касается горизонта', with a 3-decimal display, and the star is drawn as set."
+   },
+   {
+    "issue": 7,
+    "status": "partly",
+    "comment": "Brief check: § 1 (6.20, 16.23), § 3.2 (the [иначе говоря] insertion is moved into a 'История' note), § 3.3, § 3.6 and § 3.8 are updated. Still stale: the Carnuth paragraph in § 3.7 ('прочитан по плохому OCR; нужна сверка по скану'), even though § 7.13 is marked ✔; the Lehrs entry in § 6 ('издание не установлено'); the Cullhed–Olson year (2026 in § 6, 2025 in § 3.6); Glover is missing from the § 6 bibliography; and § 3.8 now says 'исключена', which is stronger than the article."
+   },
+   {
+    "issue": 8,
+    "status": "done",
+    "comment": "article.md now has all 12 blocks, each with Greek and a translation, and apparatus wherever the HEAD page had it (5 blocks). A script compared the Greek, translation and apparatus of every block with git HEAD:src/study-laestrygonians.njk: all are identical, and all headings, lemmas and chips survive. The previous single chip 'V · B Q T' now renders as two chips, which is cosmetic only. lib/article.js parses all 12 blocks without error. Footnotes [^1]–[^38] are still sequential and all defined. Small leftovers: the intro overstates the apparatus and does not explain the tag chips, and the Russian lemma glosses from the v0.2 article.md were dropped, except in Σ 10.84 (see problems)."
+   }
+  ],
+  "problems": [
+   {
+    "file": "research/studies/laestrygonians/article.md",
+    "quote": "Полнее оно в длинной редакции той же схолии, которую мы знаем по изданию Мартена, но ещё не сверили.[^20]",
+    "problem": "Version 0.3 corrected the abstracts to 'we know its text only from a transcription', but the body of § 4 still claims the long redaction is known from Martin's edition. This is false according to note 20 (an electronic transcription of unclear origin) and contradicts the abstract. It is exactly the overstatement of the evidential basis that Astra's issue 1 targeted.",
+    "fix": "Полнее оно в длинной редакции той же схолии (издание: Martin 1974). Её текст мы знаем лишь по транскрипции неясного происхождения и с изданием Мартена ещё не сверили, поэтому пересказ ниже условен.[^20]",
+    "severity": "major"
+   },
+   {
+    "file": "research/studies/laestrygonians/article.md",
+    "quote": "Если этот текст подтвердится, он не требует предполагать, что Кратет смешивал широты: рассуждение сопоставляет два явления на разных широтах — звезду, которая на широте Греции на миг уходит под горизонт, и Солнце, которое на крайнем севере едва успевает зайти.",
+    "problem": "The abstracts and § 6, conclusion 3, now rest the main claim on the comparison attested in both redactions: it 'само по себе не требует предполагать смешение широт'. § 4 never says this. In § 4 the 'no confusion' point is conditional on the unverified long redaction, so the conclusion has no matching argument in the body. The conditional also understates what a confirmed long text would do: it would describe the analogy, not merely fail to require confusion.",
+    "fix": "Уже краткая редакция сопоставляет, а не отождествляет («как и у Гомера»): само по себе такое сопоставление допускает аналогию между двумя явлениями на разных широтах и не требует предполагать, что Кратет смешивал широты. Если текст длинной редакции подтвердится, он описывает именно такую аналогию: звезду, которая на широте Греции на миг уходит под горизонт, и Солнце, которое на крайнем севере едва успевает зайти.",
+    "severity": "minor"
+   },
+   {
+    "file": "research/studies/laestrygonians/article.md",
+    "quote": "Но и проверенный текст покажет рассуждение в передаче схолиаста, а не первоначальные слова Кратета. Его картина головы, у которой заходит только пасть, ближе к Атталу, чем к Гиппарху. Сколько в этом рассуждении собственных слов Кратета и в каком сочинении он его изложил, схолии не говорят.[^21]",
+    "problem": "The inserted sentence repeats the sentence that follows it (whose words are Crates' own). It also leaves 'Его' without a clear antecedent: the candidates are 'текст', 'схолиаста' and 'Кратета'. The dossier (§ 3.8) now correctly says 'её картина', meaning the redaction's picture.",
+    "fix": "Это аналогия, а не перенос геометрии одного явления на другое. Картина головы в этом рассуждении (заходит только пасть) ближе к Атталу, чем к Гиппарху. Но и проверенный текст даст рассуждение в передаче схолиаста: сколько в нём собственных слов Кратета и в каком сочинении он его изложил, схолии не говорят.[^21]",
+    "severity": "minor"
+   },
+   {
+    "file": "research/studies/laestrygonians/article.md",
+    "quote": "Длинная редакция показывает, что Кратет «разрешал» (ἐπιλύεται) трудность в стихах Арата, но не говорит, в каком сочинении.",
+    "problem": "Note 21 states as fact what the abstract, § 4 and § 6 now call provisional. The verb ἐπιλύεται is quoted from the unverified transcription.",
+    "fix": "По транскрипции длинной редакции (с изданием Мартена не сверена, см. прим. 20), Кратет «разрешал» (ἐπιλύεται) трудность в стихах Арата; в каком сочинении — не сказано.",
+    "severity": "minor"
+   },
+   {
+    "file": "research/studies/laestrygonians/article.md",
+    "quote": "В лучших свидетелях числа записаны словами, так что расхождение с Гемином (23 и 1) не объясняется порчей одной буквы в дошедшем тексте.",
+    "problem": "Version 0.2 said 'вряд ли' / 'unlikely'. Version 0.3 strengthens the abstract to a flat 'не объясняется' / 'cannot be', while § 4 adds a caveat in the opposite direction: an earlier corruption of the numerals in the common ancestor is possible. The abstract does not mention that caveat. 'В дошедшем тексте' is opaque. 'Лучших' is an evaluative label the body never argues for (Astra suggested naming the witnesses). The EN 'the discrepancy … cannot be a one-letter corruption' is also a category slip: a discrepancy is not a corruption. The same sentence appears in § 6, conclusion 3, and dossier § 3.8 hardens it further to 'исключена'.",
+    "fix": "RU (abstract and § 6.3): «В рукописях M и A и в Московском кодексе числа записаны словами, поэтому в этих свидетелях расхождение с Гемином (23 и 1) не объясняется порчей одной буквы; более ранняя порча цифр у их общего предка возможна, но ничем не подтверждена». EN: \"In manuscripts M and A and in the Moscow codex the numbers are written out in words, so in these witnesses the discrepancy with Geminus (23 and 1) cannot be explained by a one-letter corruption; an earlier corruption of numerals in their common ancestor is possible but unsupported.\"",
+    "severity": "minor"
+   },
+   {
+    "file": "research/studies/laestrygonians/article.md",
+    "quote": "Ближайшее в книге κ расхождение толкований, которое Лерс и Карнут реконструируют как спор Аристарха с Кратетом, касается стиха 190: знал ли Гомер четыре стороны света.",
+    "problem": "Taken literally (and explicitly in the EN, where 'which…' is a non-restrictive clause), this says the nearest divergence of interpretations in book κ is at line 190. That is false: the scholia on line 86 itself give five divergent explanations, as conclusion 1 says. What is meant is the nearest place where Aristarchus' and Crates' interpretations diverge. The same wording appears in § 6, conclusion 4.",
+    "fix": "RU (abstract 3 and § 6.4): «Ближайшее к нему место книги κ, где расходятся толкования Аристарха и Кратета, — стих 190: знал ли Гомер четыре стороны света. Лерс и Карнут видят в этом расхождении спор двух грамматиков, но это их реконструкция». EN: \"The nearest place in book κ where the interpretations of Aristarchus and Crates diverge is line 190: did Homer know four cardinal directions? Lehrs and Carnuth read this divergence as a dispute between the two scholars, but that is their reconstruction.\"",
+    "severity": "minor"
+   },
+   {
+    "file": "research/studies/laestrygonians/article.md",
+    "quote": "Прямо засвидетельствованы лишь разные толкования; возражением Кратету их делает реконструкция.",
+    "problem": "The new hedge does not go far enough. Even the attribution of the 'four parts' reading to Crates in Σ Od. 2.1 rests on Dindorf's text against the manuscripts: note 30 gives σωκράτης in E, P and Q and σοκράτης in H. The main text presents Crates' name there as plain testimony.",
+    "fix": "Прямо засвидетельствованы лишь разные толкования, причём имя Кратета в схолии к Од. 2.1 стоит против σωκράτης рукописей E, P, Q и σοκράτης H (прим. 30); возражением Кратету эти толкования делает реконструкция.",
+    "severity": "minor"
+   },
+   {
+    "file": "research/studies/laestrygonians/article.md",
+    "quote": "Если реконструкция верна, по духу к нему ближе всего шутка Эратосфена: место странствий Одиссея найдётся тогда, когда найдётся сапожник, сшивший мешок ветров.[^36]",
+    "problem": "Three reconstructions are in play within a few lines: the Mediterranean one, Buonajuto's, and 'более общий отказ … реконструкцией его метода'. 'Если реконструкция верна' does not say which one is meant.",
+    "fix": "Если верна эта реконструкция его метода, по духу к нему ближе всего шутка Эратосфена: место странствий Одиссея найдётся тогда, когда найдётся сапожник, сшивший мешок ветров.[^36]",
+    "severity": "minor"
+   },
+   {
+    "file": "research/studies/laestrygonians/article.md",
+    "quote": "Анонимные пространственные объяснения — пастбища у ворот, оклик пастуха — в его духе: стих объясняется изнутри описанного мира.",
+    "problem": "After version 0.3 calls Aristarchus' general method a reconstruction, 'в его духе' still asserts knowledge of that method without qualification. This is a hedge that does not go far enough and conflicts with the paragraph above it.",
+    "fix": "Анонимные пространственные объяснения — пастбища у ворот, оклик пастуха — согласуются с тем, как обычно реконструируют его метод: стих объясняется изнутри описанного мира.",
+    "severity": "minor"
+   },
+   {
+    "file": "research/studies/laestrygonians/article.md",
+    "quote": "Параллель лексическая: она не показывает, заимствовал ли HQ у Евстафия, Евстафий у общего источника или оба — у хозяйственной традиции толкования.",
+    "problem": "The alternatives are garbled. 'Евстафий у общего источника' has no partner (common to whom?) and overlaps with the third option. The most natural reverse direction is missing: Eustathius drawing on the older scholion that survives in HQ, which is plausible since Eustathius used the old scholia. § 6, conclusion 5 ('направление зависимости … остаются неясными') also assumes a direct dependence that the note itself leaves open. The dossier § 3.2 copies the same sentence.",
+    "fix": "Note 38: «Параллель лексическая: она не показывает, взял ли составитель HQ эту фразу у Евстафия, Евстафий — из схолии, дошедшей в HQ, или оба — из общего источника, хозяйственной традиции толкования». § 6.5: «…имеет лексическую параллель в хозяйственном объяснении у Евстафия; есть ли здесь прямая зависимость и в какую сторону, а также как эта альтернатива связана с толкованием Кратета, неясно.[^38]»",
+    "severity": "minor"
+   },
+   {
+    "file": "research/studies/laestrygonians/article.md",
+    "quote": "[^13]: Гемин 16.22–23 (Manitius 172; в 16.21 — Клеанф, в 16.22 — Кратет): ἡ δὲ τοιαύτη διάταξις ἀλλοτρία ἐστὶ καὶ τοῦ μαθηματικοῦ καὶ τοῦ φυσικοῦ λόγου.",
+    "problem": "The address is correct (verified on First1KGreek). But the sentence in 16.23 continues 'καὶ παρ’ οὐδενὶ τῶν ἀρχαίων μαθηματικῶν κατακεχωρισμένη, ὡς ἀποφαίνεται Κράτης', and the note closes it with a full stop and no ellipsis. The omitted clause is relevant: Geminus is denying Crates' claim to follow the mathematicians.",
+    "fix": "[^13]: Гемин 16.22–23 (Manitius 172; в 16.21 — Клеанф, в 16.22 — Кратет): ἡ δὲ τοιαύτη διάταξις ἀλλοτρία ἐστὶ καὶ τοῦ μαθηματικοῦ καὶ τοῦ φυσικοῦ λόγου καὶ παρ’ οὐδενὶ τῶν ἀρχαίων μαθηματικῶν κατακεχωρισμένη, ὡς ἀποφαίνεται Κράτης («…и ни у кого из древних математиков не записано, как утверждает Кратет»).",
+    "severity": "minor"
+   },
+   {
+    "file": "research/studies/laestrygonians/article.md",
+    "quote": "Под каждой схолией — греческий текст, перевод и выборка из аппарата Диндорфа; полный аппарат и обоснования — в [досье](dossier.md), § 3.2. В заголовке схолии — стих, лемма и сиглы рукописей;",
+    "problem": "Only 5 of the 12 blocks have an apparatus line, and 4 headings have no lemma. The headings also carry tags the intro does not explain: 'Леонтины', '23 часа' and the italic '*Кратет*'.",
+    "fix": "Под каждой схолией — греческий текст и перевод, где нужно — выборка из аппарата Диндорфа; полный аппарат и обоснования — в [досье](dossier.md), § 3.2. В заголовке — стих, лемма (где она есть) и сиглы рукописей, иногда также помета о содержании («Леонтины», «23 часа») и курсивом названный в схолии толкователь;",
+    "severity": "minor"
+   },
+   {
+    "file": "research/studies/laestrygonians/article.md",
+    "quote": "### Σ 10.83 · ἠπύει · Q\n\n> προσαγορεύει, φωνεῖ.\n\nОбращается, зовёт.",
+    "problem": "Compared with the v0.2 article.md, the Russian lemma glosses were dropped ('Телепил]', 'Лестригонию]', 'пастух пастуха]', 'где пастуха]', '«окликает»]'). A reader of the standalone preprint who does not read Greek now sees glosses such as 'Обращается, зовёт.' or 'Большой: …' without knowing which word they explain. Only Σ 10.84 keeps its lemma ('«Неленивый»]'), which is inconsistent. Nothing is lost relative to the HEAD web page, which never had these glosses.",
+    "fix": "Restore the Russian lemmas at the start of the translations, as in Σ 10.84: «Телепил] Большой: ведь у таких [городов]…»; «Лестригонию] [Землю] лестригонов…»; «пастух пастуха] [Окликает] волопаса…»; «где пастуха] Вид назван именем рода…»; «„Окликает“] Обращается, зовёт.»",
+    "severity": "minor"
+   },
+   {
+    "file": "research/studies/laestrygonians/article.md",
+    "quote": "- a collation of the witnesses to the short redaction of the scholion on Aratus 62, which credits Crates with linking Aratus to Homer;",
+    "problem": "In English, 'collation of the witnesses' is a term of art for collating manuscripts. What was actually done is a comparison of printed editions and their apparatus (Maass, Buhle, Bekker). Astra made this point in its novelty assessment. It was carried over from v0.2, but it sits in the contribution statement that v0.3 has otherwise hedged.",
+    "fix": "EN: \"- a comparison of the published witnesses (editions and their apparatus) to the short redaction of the scholion on Aratus 62, which credits Crates with linking Aratus to Homer;\" RU: «- сверка опубликованных свидетельств краткой редакции схолии к Арату 62 (издания и их аппараты), где связь Арата с Гомером приписана Кратету;»",
+    "severity": "minor"
+   },
+   {
+    "file": "research/studies/laestrygonians/article.md",
+    "quote": "- проверить по Метте (1936) его конъектуру и состав фрагмента 37.",
+    "problem": "The to-do list in the preprint omits Glover 2026 and Kidd 1997. Both are listed as 'not seen' in notes 17 and the bibliography, and both appear in the page's 'Что проверить' list and in dossier § 7 (items 4 and 17). The standalone preprint and the page now differ.",
+    "fix": "- проверить по Метте (1936) его конъектуру и состав фрагмента 37;\n- сверить Гиппарха 1.4.7–8 и отождествления звёзд головы Дракона по Glover 2026 и комментарий Kidd 1997, 199–200.",
+    "severity": "minor"
+   },
+   {
+    "file": "research/studies/laestrygonians/dossier.md",
+    "quote": "Латинский текст Карнута прочитан по плохому OCR; нужна сверка по скану и выяснение, откуда цитата о Кратете.",
+    "problem": "The dossier sync (Astra issue 7) is incomplete. This § 3.7 status contradicts § 7.13, which is now ✔: Carnuth 96 and Lehrs 1865², 174 were checked on scans, and the source is Σ Od. 2.1. Also in § 6: the Lehrs entry still says 'издание не установлено' (the article gives ed. 2, 1865); Cullhed–Olson is dated 2026 while § 3.6 and the article give 2025 (also 2026 in library records); and Glover 2026 is missing from the bibliography.",
+    "fix": "§ 3.7: «Карнут, с. 96, и Лерс (1865², 174) просмотрены по сканам ✔ (рецензия GPT-6 Astra): реконструкция опирается на Σ Од. 2.1 и помету к Ил. 12.239; это реконструкция, а не прямое свидетельство спора.» § 6: «Lehrs, K. *De Aristarchi studiis Homericis.* Ed. 2. Lipsiae: Hirzel, 1865 (p. 174). ✔»; Cullhed–Olson: «Leiden: Brill, 2025 [в библиотечных записях также 2026]»; add «Glover, E. *The Astronomy of Hipparchus: An Annotated Translation of and Introduction to the Commentary on the Phenomena of Aratus and Eudoxus.* Cambridge: CUP, 2026. DOI 10.1017/9781009607544. ✔ выход; не просмотрено.»",
+    "severity": "minor"
+   }
+  ]
+ },
+ {
+  "issues_addressed": [
+   {
+    "issue": 1,
+    "status": "done",
+    "comment": "Dossier side checked. § 1 item 3 and the § 3.8 conclusion now match the article: the comparison 'allows an analogy and does not by itself require confusing latitudes', and the long redaction stays provisional until checked against Martin. One leftover: § 7.5 still asks whether Bilić got to the 'перенос со звезды на Солнце' conclusion first (see problems). Historical §§ 8.1–8.2 are unchanged, as the diff confirms."
+   },
+   {
+    "issue": 2,
+    "status": "partly",
+    "comment": "The article (§ 5) is fixed. Dossier § 2, 'Проверенная формулировка', still says as settled fact that Aristarchus placed the wanderings in the 'inner sea' (see problems)."
+   },
+   {
+    "issue": 3,
+    "status": "partly",
+    "comment": "Article and dossier § 7.13 now call the κ 190 dispute a reconstruction. Dossier § 3.7 still has the old status: ◐, 'нужна сверка по скану и выяснение, откуда цитата о Кратете' (see problems)."
+   },
+   {
+    "issue": 4,
+    "status": "done",
+    "comment": "Dossier § 3.2: '[иначе говоря,]' is gone from the end of HQ [c], the Eustathius link is described as a lexical parallel with unclear direction of dependence, and the history is kept in a separate 'История' note. This matches the article's n. 38."
+   },
+   {
+    "issue": 5,
+    "status": "done",
+    "comment": "Checked against First1KGreek (tlg1383.tlg001, Manitius): 6.20 has ἕτερος ἔστω λόγος; 6.21 says the places are uninhabitable from cold; 16.21 is Cleanthes; 16.22 is οἷς ἀκολούθως καὶ Κράτης; 16.23 is ἡ δὲ τοιαύτη διάταξις ἀλλοτρία. Dossier §§ 1.5, 3.3 and 7.2 and the article's nn. 13 and 16 are all right."
+   },
+   {
+    "issue": 6,
+    "status": "done",
+    "comment": "With TOL = 1e-9 and DEC_G = 52.959 I get: 37.040 gives low −0.001°, the star is red, and the text is 'заходит примерно на 0 ч 04 мин; в нижней точке −0,001° — почти касается горизонта' (3.905 min). 37.045 gives +0.004°, the star is not red, and the text is 'не заходит; … +0,004° — почти касается горизонта'. 36.87 gives −0.171°, red, 'заходит примерно на 0 ч 51 мин; −0,17° — почти…'. 37.28 gives +0.239°, 'не заходит; +0,24° — почти…'. 37.97 gives +0.929°, 'не заходит; +0,93°' with no 'почти'. Status text and star colour now agree at every position. No slider position (step 0.005) gives exactly 0°, so 'касается горизонта' never appears, which is harmless. One remaining display problem: the latitude readout stays at '37,0°' from 37.035 to 37.05, while the status switches between 'заходит' and 'не заходит' (see problems)."
+   },
+   {
+    "issue": 7,
+    "status": "partly",
+    "comment": "The six places the review named are fixed: 6.20, 16.23, the HQ end, Cullhed–Olson III published, and § 7 items 9/13/14/16. §§ 8.1–8.2 are left intact, and § 8.3 matches the git diff except that it does not mention the wording change in the abstracts and conclusion 3 ('вряд ли' became 'не объясняется … в дошедшем тексте'). But the dossier still has many stale working statements: § 1.6 (Page), § 2 (Gellius), § 3.2 (LSJ), § 3.6 (BMCR is a 'Books received' list, not a review), § 3.7 (Carnuth/Lehrs, Athenaeus), § 4.2 ('касается горизонта' at −0.2°, 13.5° instead of 13.7°, Almagest ✖), § 6 (Lehrs, FGrHist 2113, Cullhed–Olson year), § 7.3/7.5/7.7. The § 3.2 translation of HQ [a] also differs from the article's. Page: version is 0.3 in the front matter, the process block, the review log, the versions table, the CITE strings in study-laestrygonians.js and studies.yaml. The 2 major / 6 minor and 6 resolved / 8 partly counts are right. Built site/study-laestrygonians.html is byte-identical to a fresh build in scratch."
+   },
+   {
+    "issue": 8,
+    "status": "done",
+    "comment": "article.md now carries Greek, translation and apparatus for every block. The page renders them through lib/article.js. A script comparison of all 12 blocks against the HEAD page shows Greek, translation and apparatus identical. The only output change: the two-note headers now give separate chips ('V' + 'B Q T', 'V' + 'H', 'B' + 'V') where the old page had one chip 'V · B Q T'. The parser does not mis-parse anything in the current article.md: no lemma is wrongly detected (sigla chips are Latin), all six 'Аппарат:' paragraphs are one line each, and every block has one translation paragraph. Latent limits only: [^n] footnotes and dossier.md links inside an item would not be processed (renderInline, no polish), several translation paragraphs are joined with <br>, several blockquotes are joined with a space."
+   }
+  ],
+  "problems": [
+   {
+    "file": "research/studies/laestrygonians/dossier.md",
+    "quote": "Английский перевод: Cullhed – Olson, vol. III (Brill, 2025; в библиотечных записях также 2026) — вышел ✔ (рецензия BMCR 2026.04.01); нужные страницы не просмотрены ◐.",
+    "problem": "This error is new in v0.3. BMCR 2026.04.01 is not a review: the page is titled 'Books received March 2026', a list of books received, which gives 'Leiden: Brill, 2025. Pp. 655. ISBN 9789004727946'. Astra wrote only that BMCR confirms the volume came out.",
+    "fix": "Английский перевод: Cullhed – Olson, vol. III (Brill, 2025; в библиотечных записях также 2026; 655 с.) — вышел ✔ (BMCR 2026.04.01 — список поступивших книг «Books received March 2026», не рецензия; поступления UB Erlangen–Nürnberg за февраль 2026); нужные страницы не просмотрены ◐.",
+    "severity": "minor"
+   },
+   {
+    "file": "research/studies/laestrygonians/dossier.md",
+    "quote": "- Cullhed, E.; Olson, S. D. (eds., trs.). *Eustathius of Thessalonica, Commentary on the Odyssey*, vol. III: *Rhapsodies 9–12.* Leiden: Brill, 2026. ISBN 978-90-04-72794-6. Вышел ✔ (BMCR 2026.04.01); не просмотрен ◐.",
+    "problem": "The § 6 entry gives the year as 2026. Dossier § 3.6, the article bibliography and BMCR all give 2025 (2026 only in some library records). The title is also shortened ('Commentary on Rhapsodies 9–12').",
+    "fix": "- Cullhed, E.; Olson, S. D. (eds., trs.). *Eustathius of Thessalonica, Commentary on the Odyssey*, vol. III: *Commentary on Rhapsodies 9–12.* Leiden; Boston: Brill, 2025 [в библиотечных записях также 2026]. 655 p. ISBN 978-90-04-72794-6. Вышел ✔ (BMCR 2026.04.01, Books received March 2026); не просмотрен ◐.",
+    "severity": "minor"
+   },
+   {
+    "file": "research/studies/laestrygonians/dossier.md",
+    "quote": "Карнут (с. 95–96), вслед за Лерсом (Ar. 174), видит в заметке Аристоника возражение Кратету: Кратет будто бы выводил из этих стихов, что Гомер знал четыре стороны света (ἄρκτος, μεσημβρία, ἀνατολή, δύσις), а Аристарх признавал у него только восток и запад ◐. Латинский текст Карнута прочитан по плохому OCR; нужна сверка по скану и выяснение, откуда цитата о Кратете.",
+    "problem": "§ 3.7 is stale. Dossier § 7.13 (✔) and the article's § 5 and n. 30 already say that Carnuth 96 and Lehrs 1865², 174 were checked from scans (by Astra) and that the Crates quotation comes from Σ Od. 2.1. This is the κ 190 point of Astra issue 3.",
+    "fix": "Карнут (с. 96), вслед за Лерсом (1865², 174), видит в заметке Аристоника возражение Кратету: Кратет будто бы выводил из этих стихов, что Гомер знал четыре стороны света (ἄρκτος, μεσημβρία, ἀνατολή, δύσις), а Аристарх признавал у него только восток и запад ✔ (оба места по сканам просмотрены рецензентом GPT-6 Astra). Цитата о Кратете — из Σ Од. 2.1 (Dindorf I 73.5–11; Κράτης] σωκράτης E.P.Q., σοκράτης H); вторая опора — помета Аристарха к Ил. 12.239 (статья, § 5, прим. 30). Прямо засвидетельствованы лишь разные толкования; возражением Кратету их делает реконструкция.",
+    "severity": "minor"
+   },
+   {
+    "file": "research/studies/laestrygonians/dossier.md",
+    "quote": "Известно, что он помещал странствия во «внутреннее море» (Gell. 14.6.3), а в схолиях (Аристоник к κ 1 и κ 190) считал их местами «удалёнными» (ἐκτετοπισмένη).",
+    "problem": "§ 2, 'Проверенная формулировка', still states Aristarchus' Mediterranean localisation as known fact. Article § 5 now says that Buonajuto calls Gellius' antithesis a simplification, and that how to reconcile the 'inner sea' with ἐκτετοπισμένη is a matter of reconstruction. This is the Astra issue 2 point.",
+    "fix": "Геллий (14.6.3) противопоставляет «внутреннее море» Аристарха «внешнему» Кратета, а заметки Аристоника к κ 1 и κ 190 называют места странствий «удалёнными» (ἐκτετοπισμένη). Как совместить эти свидетельства — вопрос реконструкции; Буонаюто (1996) считает антитезу Геллия упрощением (статья, § 5).",
+    "severity": "minor"
+   },
+   {
+    "file": "research/studies/laestrygonians/dossier.md",
+    "quote": "Отдельные кратетовские схолии, вероятно, переведены по-английски у Bilić 2012/2021 ✖.",
+    "problem": "§ 1.6 does not match the article. Article § 1 and n. 2 say that, according to Bilić (2012, 302–303, n. 27), an English translation of the HQ scholion is in Page 1973, 43.",
+    "fix": "Английский перевод схолии HQ, по указанию Билича (2012, 302–303, прим. 27), есть у Page 1973, 43 ✖; отдельные кратетовские схолии, вероятно, переводит и сам Билич (2012; 2021) ✖.",
+    "severity": "minor"
+   },
+   {
+    "file": "research/studies/laestrygonians/dossier.md",
+    "quote": "LSJ s.v. καταστερίζω не сверено ✖.",
+    "problem": "The article's n. 22 cites the LSJ meaning as if checked, while dossier § 3.2 and § 7.8 call it unchecked. I checked LSJ on Perseus: I.1 'place among the stars'; I.2 'mark out a constellation'; II pf. part. pass. 'adorned with stars' (κατηστερισμένα ζῴδια, Hipparch. 1.1.9; Gem. 1.4). LSJ gives no zenith sense. Sense II bears on Eustathius' κατηστερισμένην.",
+    "fix": "LSJ s.v. καταστερίζω ✔ (Perseus): I.1 «place among the stars»; I.2 «mark out a constellation»; II pf. part. pass. «adorned with stars» (κατηστερισμένα ζῴδια, Hipparch. 1.1.9; Gem. 1.4). Значения «стоять в зените» LSJ не даёт. [В § 7, п. 8, оставить только параллели κατηστερίσθαι κατά + acc.; в прим. 22 статьи можно добавить значение II.]",
+    "severity": "minor"
+   },
+   {
+    "file": "research/studies/laestrygonians/dossier.md",
+    "quote": "| «Эллада» Гиппарха (гномон 4:3) | 36,9° | 14,56 ч | 9,44 ч | −0,2° (касается горизонта) |",
+    "problem": "§ 4.2 still labels −0.2° as 'касается горизонта'. That is the threshold error fixed in the figure in v0.2 and v0.3. The article table has 'почти касается: −0,2° (заходит ≈ 50 мин)', and the figure now gives 0 h 51 min.",
+    "fix": "| «Эллада» Гиппарха (гномон 4:3) | 36,9° | 14,56 ч | 9,44 ч | −0,17° (почти касается; заходит ≈ 50 мин) |",
+    "severity": "minor"
+   },
+   {
+    "file": "research/studies/laestrygonians/dossier.md",
+    "quote": "- Азимут летнего восхода, от севера: 59,8° на 36,9°; 45,4° на 55°; **6,8° на 66,1°**. Между точками заката и восхода через север там всего ~13,5°: «заход лежит рядом с восходом» буквально.",
+    "problem": "The v0.2 correction, which Astra confirmed, was never carried into the dossier. At the exact 23-hour latitude 66.105° the azimuth is 6.86° and the difference is 13.73° (my check: 13.728°). 13.5° holds only at 66.11°. The article's § 3 and n. 10 give 13.7°.",
+    "fix": "- Азимут летнего восхода, от севера: 59,8° на 36,9°; 45,4° на 55°; **6,86° на 66,105°**. Между точками заката и восхода через север там всего ~13,7° (на 66,11° — уже 13,5°): «заход лежит рядом с восходом» буквально.",
+    "severity": "minor"
+   },
+   {
+    "file": "research/studies/laestrygonians/dossier.md",
+    "quote": "что согласуется с округлёнными 66° у Птолемея (Alm. II.6 — только по вторичному источнику ✖).",
+    "problem": "This contradicts dossier § 3.8 and § 7.9 (Almagest II.6, Heiberg I.1, 114 ✔, confirmed by Astra) and the article's n. 24.",
+    "fix": "что согласуется с округлёнными 66° у Птолемея (Alm. II.6, Heiberg I.1, 114 ✔; см. § 3.8).",
+    "severity": "minor"
+   },
+   {
+    "file": "research/studies/laestrygonians/dossier.md",
+    "quote": "**Афиней 5.192a–b = Геродик F 13 Broggiato 2014** ◐ (текст по Broggiato).",
+    "problem": "The article's n. 14 says Athenaeus was read in Kaibel via Perseus and lists Kaibel as ✓. Astra confirmed F 13 in Broggiato 2014, 105–106. The ◐ 'текст по Broggiato' is outdated.",
+    "fix": "**Афиней 5.192a–b = Геродик F 13 Broggiato 2014** ✔ (Kaibel I 427, по Perseus; Broggiato 2014, 105–106).",
+    "severity": "minor"
+   },
+   {
+    "file": "research/studies/laestrygonians/dossier.md",
+    "quote": "- Lehrs, K. *De Aristarchi studiis Homericis* (p. 174 — по ссылке Карнута; издание не установлено). ◐",
+    "problem": "The § 6 entry is stale. § 7.13 gives 'Lehrs 1865², 174 ✔', and the article bibliography has '✓ Lehrs … Ed. 2. Lipsiae: Hirzel, 1865'.",
+    "fix": "- Lehrs, K. *De Aristarchi studiis Homericis.* Ed. 2. Lipsiae: Hirzel, 1865. ✔ с. 174 (по скану просмотрена рецензентом GPT-6 Astra; см. § 7, п. 13). Буонаюто цитирует 3-е изд. (1882, 244, прим. 155).",
+    "severity": "minor"
+   },
+   {
+    "file": "research/studies/laestrygonians/dossier.md",
+    "quote": "- Broggiato, M. Krates of Mallos (2113) // *Die Fragmente der griechischen Historiker Continued*, Part V (Jacoby Online). ◐ по Bilić 2020; редакторы и год не проверены.",
+    "problem": "§ 8.2 and the article bibliography ('✓ … Leiden: Brill, 2013') treat FGrHist 2113 (2013) as confirmed. Astra confirmed it from university and publisher catalogues.",
+    "fix": "- Broggiato, M. Krates Mallotes (2113) // *Die Fragmente der griechischen Historiker Continued*, Part V: *Die Geographen.* Leiden: Brill, 2013 (Jacoby Online). ✔ существует (каталоги Sapienza и Brill; § 8.2); текст не просмотрен.",
+    "severity": "minor"
+   },
+   {
+    "file": "research/studies/laestrygonians/dossier.md",
+    "quote": "3. **Martin 1974 — первоочередное**: греческий текст схолии к Арату 61–62 (третий источник F 50); сверить чтение по Бюле, особенно цифру κ΄ (20 ч), и номер схолии (61 или 62).",
+    "problem": "This is the v0.1 to-do. The short redaction has since been checked against Maass, Buhle and Bekker, and in M and A the numbers are words. Martin is now needed for the long redaction, as the article's § 6 says.",
+    "fix": "3. **Martin 1974, 98 — первоочередное**: текст и аппарат длинной редакции схолии к Арату 62 (третий источник F 50) — подтверждает ли она аналогию (под горизонт уходят лишь язык и края пасти), числа 20/4 и финал об Аристилле и Боэте. Краткая редакция уже сверена по Маасу, Бюле и Беккеру (§ 3.8).",
+    "severity": "minor"
+   },
+   {
+    "file": "research/studies/laestrygonians/dossier.md",
+    "quote": "5. **Bilić 2012 и 2021, гл. 2**: что уже сказано о «голове Дракона», «зенитном» чтении и широте; не опередил ли нас Билич в выводе о переносе со звезды на Солнце.",
+    "problem": "This keeps the v0.1 'перенос со звезды на Солнце' reading and the priority question. The article now speaks of an analogy, 'не перенос геометрии', concedes priority to Bilić in the abstract, and asks only to delimit results by Bilić 2012, 302–311 and 2021, 17–21.",
+    "fix": "5. **Bilić 2012, 302–311 и 315, прим. 87; 2021, 17–21**: что уже сказано о «голове Дракона», двух редакциях схолии к Арату, «зенитном» чтении и широте; точно разграничить его результаты и наши (приоритет толкования уже признан за Биличем).",
+    "severity": "minor"
+   },
+   {
+    "file": "research/studies/laestrygonians/dossier.md",
+    "quote": "7. **Mette 1936**: номер для Гемина 6.10–12.",
+    "problem": "The article's § 6 open list requires checking Mette's conjecture (κγ΄/α΄; 87, n. 1; 271). The dossier's to-do list does not include it.",
+    "fix": "7. **Mette 1936**: номер для Гемина 6.10–12 (fr. 37a, по Buonajuto 1996, 3, прим. 12) и конъектура κγ΄ / α΄ (87, прим. 1; 271 — пока только по Bilić 2012, 315, прим. 87).",
+    "severity": "minor"
+   },
+   {
+    "file": "research/studies/laestrygonians/article.md",
+    "quote": "[a] Путь дня по природе близок к ночи: день не отстоит от ночи, но с его уходом в мгновение ока наступает ночь.",
+    "problem": "The dossier § 3.2 and the article appendix now give two different translations of HQ [a]. The dossier has 'Сказано в том смысле, что день не отстоит от ночи: с его уходом…'. The article leaves out τοῦτο δὲ ἔφη ὡς; the dossier leaves out ἀλλά. In the same way, for ὅθι ποιμένα the article has 'вместо «пастух — пастуха»', which reads the same as the lemma and loses the point of ἀντὶ τοῦ νομεὺς νομέα; the dossier keeps 'пастух (νομεύς)'. The claim that dossier § 3.2 is synchronised with the article does not hold.",
+    "fix": "В article.md и в dossier.md § 3.2 одинаково: «[a] Путь дня по природе близок к ночи. Сказано в том смысле, что день не отстоит от ночи, но с его уходом ночь наступает в мгновение ока.»; в article.md: «Вид назван именем рода: вместо «пастух (νομεύς) — пастуха», то есть…». После правки уточнить § 8.3, п. 9 («совпадают с прежней страницей дословно»).",
+    "severity": "minor"
+   },
+   {
+    "file": "research/studies/laestrygonians/dossier.md",
+    "quote": "2. § 4 и § 3.8 досье: словесная запись чисел исключает порчу одной буквы в дошедшем тексте, но ничего не говорит о записи общего предка.",
+    "problem": "§ 8.3 is incomplete against the git diff. In both abstracts and in § 6, conclusion 3, the hedge was strengthened: 'вряд ли объясняется порчей одной буквы' became 'не объясняется порчей одной буквы в дошедшем тексте', and EN 'is unlikely to be' became 'cannot be … in the surviving text'. The log does not record this.",
+    "fix": "2. Аннотации (RU, EN), § 4, § 6 (вывод 3) и § 3.8 досье: «вряд ли объясняется порчей одной буквы» заменено на «не объясняется порчей одной буквы в дошедшем тексте» (EN: «cannot be … in the surviving text»); в § 4 и § 3.8 добавлено, что словесная запись ничего не говорит о записи общего предка: более ранняя порча цифр с согласованием второго числа возможна, но ничем не подтверждена.",
+    "severity": "minor"
+   },
+   {
+    "file": "src/study-laestrygonians.njk",
+    "quote": "Главное: аннотации и выводы увереннее основного текста — аналогия по длинной редакции подана как установленная, хотя Мартен не сверен; «бесспорный» отказ Аристарха от реальных локализаций — реконструкция; спор о κ 190 — реконструкция Лерса и Карнута, а не прямое свидетельство. Мелкие: Гемин 16.22–23 вместо 16.21–22; порог на рисунке; досье не синхронизировано со статьёй; в приложении article.md не было греческого текста.",
+    "problem": "The Astra log entry lists only 7 of the 8 issues and leaves out minor issue 4: the HQ ending and Eustathius ('пришла из него'). It also files minor issue 3 (κ 190) under 'Главное', so the reader cannot match the summary to '2 существенных, 6 малых'.",
+    "fix": "Существенные: аннотации и выводы увереннее основного текста — аналогия по длинной редакции подана как установленная, хотя Мартен не сверен; «бесспорный» отказ Аристарха от реальных локализаций — реконструкция. Малые: спор о κ 190 — реконструкция Лерса и Карнута, а не прямое свидетельство; формула «пришла из него» о конце схолии HQ подразумевала прямое заимствование из Евстафия; Гемин 16.22–23 вместо 16.21–22; порог на рисунке; досье не синхронизировано со статьёй; в приложении article.md не было греческого текста.",
+    "severity": "minor"
+   },
+   {
+    "file": "src/study-laestrygonians.njk",
+    "quote": "Длинную редакцию и страницы Билича рецензент читал по нелегальным копиям — эти места помечены как несверенные.",
+    "problem": "Astra explicitly asked for this to be corrected (open_checks, 'Правомерность отказа…'). The ancientlibrary.net transcription is of unknown provenance, not proven illegal, and dossier § 8.2 itself says 'неавторизованные копии' and 'неясное происхождение'. Not done in v0.3. The same applies to 'ссылки на нелегальные копии в статью не вошли' in the v0.2 'Ответ редакции'.",
+    "fix": "Страницы Билича рецензент читал по неавторизованным копиям, длинную редакцию — по транскрипции неясного происхождения; эти места помечены как несверенные. [И в «Ответе редакции» к версии 0.2: «ссылки на неавторизованные копии и на транскрипцию неясного происхождения в статью не вошли».]",
+    "severity": "minor"
+   },
+   {
+    "file": "src/study-laestrygonians.njk",
+    "quote": "<li>Состав F 50 и комментарий в издании Броджато (2001).</li>",
+    "problem": "The page's open list still asks to check the composition of F 50. That composition is confirmed by Broggiato 2014, 106, n. 126 (article n. 8, dossier § 7.2 ✔, Astra). What remains open is the commentary and, per Astra, the F 53 and F 54 numbers in the 2001 edition itself.",
+    "fix": "<li>Комментарий к F 50 и номера F 53 и F 54 — по изданию Броджато (2001); состав F 50 уже подтверждён по Broggiato 2014, 106, прим. 126.</li>",
+    "severity": "minor"
+   },
+   {
+    "file": "src/assets/js/study-laestrygonians.js",
+    "quote": "document.getElementById('lat-out').textContent = fmt(phi, 1) + '°';",
+    "problem": "Now that the threshold is exact, the latitude readout rounds every position from 37.035 to 37.05 to '37,0°'. The status line switches from 'заходит … −0,001°' (37.040) to 'не заходит … +0,004°' (37.045) under the same displayed latitude.",
+    "fix": "document.getElementById('lat-out').textContent = fmt(phi, Math.abs(phi + DEC_G - 90) < 0.05 ? 3 : 1) + '°';",
+    "severity": "minor"
+   }
+  ]
+ }
+]

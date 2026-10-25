@@ -35,9 +35,9 @@
 
   /* ---------- citation ---------- */
   var CITE = {
-    gost: 'Пергам против Александрии? Кратет, Аристарх и «короткие ночи» лестригонов : препринт / А. Михельс. Версия 0.2. Neoscholia, 2026. DOI: [после депонирования].',
-    chicago: 'Michels, Alexander. 2026. "Pergamon versus Alexandria? Crates, Aristarchus and the ‘Short Nights’ of the Laestrygonians." Preprint, version 0.2. Neoscholia. DOI pending.',
-    bibtex: '@misc{neoscholia2026laestrygonians,\n  author    = {Михельс, Александр},\n  title     = {Пергам против Александрии? Кратет, Аристарх и «короткие ночи» лестригонов},\n  year      = {2026},\n  note      = {Препринт, версия 0.2},\n  publisher = {Neoscholia},\n  doi       = {[pending]}\n}'
+    gost: 'Пергам против Александрии? Кратет, Аристарх и «короткие ночи» лестригонов : препринт / А. Михельс. Версия 0.3. Neoscholia, 2026. DOI: [после депонирования].',
+    chicago: 'Michels, Alexander. 2026. "Pergamon versus Alexandria? Crates, Aristarchus and the ‘Short Nights’ of the Laestrygonians." Preprint, version 0.3. Neoscholia. DOI pending.',
+    bibtex: '@misc{neoscholia2026laestrygonians,\n  author    = {Михельс, Александр},\n  title     = {Пергам против Александрии? Кратет, Аристарх и «короткие ночи» лестригонов},\n  year      = {2026},\n  note      = {Препринт, версия 0.3},\n  publisher = {Neoscholia},\n  doi       = {[pending]}\n}'
   };
   var citeText = document.getElementById('cite-text');
   var copyBtn = document.getElementById('copy-cite');
@@ -142,7 +142,7 @@
 
   function draw() {
     var phi = parseFloat(latIn.value);
-    document.getElementById('lat-out').textContent = fmt(phi, 1) + '°';
+    document.getElementById('lat-out').textContent = fmt(phi, Math.abs(phi + DEC_G - 90) < 0.05 ? 3 : 1) + '°'; // more digits where the star grazes the horizon
     // celestial axis, equator, boundary of the always-visible stars
     chord(axis, pt(phi), pt(phi + 180));
     chord(eq, pt(phi + 90), pt(phi - 90));
@@ -165,7 +165,7 @@
     chord(dra, dUp, dLo); place(star, dLo);
     draLbl.setAttribute('x', dLo.x - 10); draLbl.setAttribute('y', dLo.y + 18);
     var low = phi + DEC_G - 90;
-    var TOL = 0.005; // numerical tolerance only; classification follows the sign of the lowest altitude
+    var TOL = 1e-9; // floating-point tolerance only: the star counts as touching the horizon only at exactly 0°
     star.setAttribute('class', 'sv-star' + (low < -TOL ? ' below' : ''));
 
     // readouts
@@ -177,9 +177,10 @@
       : 'в ' + fmt(Math.acos(cA) / D2R, 0) + '° к востоку и западу от точки севера';
     var draText;
     var near = Math.abs(low) < 0.5 ? ' — почти касается горизонта' : '';
+    var dig = Math.abs(low) < 0.01 ? 3 : 2; // show −0,001°, not −0,00°
     if (Math.abs(low) <= TOL) draText = 'касается горизонта';
-    else if (low > 0) draText = 'не заходит; в нижней точке +' + fmt(low, 2) + '°' + near;
-    else draText = 'заходит примерно на ' + hm(24 - dayLength(phi, DEC_G)) + '; в нижней точке −' + fmt(-low, 2) + '°' + near;
+    else if (low > 0) draText = 'не заходит; в нижней точке +' + fmt(low, dig) + '°' + near;
+    else draText = 'заходит примерно на ' + hm(24 - dayLength(phi, DEC_G)) + '; в нижней точке −' + fmt(-low, dig) + '°' + near;
     document.getElementById('r-dra').textContent = draText;
 
     var match = PLACES.filter(function (p) { return Math.abs(p.phi - phi) < 0.003; })[0];
