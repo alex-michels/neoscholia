@@ -32,6 +32,9 @@ function lastChange(inputPath) {
 export default function (eleventyConfig) {
   eleventyConfig.addDataExtension("yaml,yml", (contents) => loadYaml(contents));
   eleventyConfig.addGlobalData("layout", "layouts/base.njk");
+  // Build stamp appended to CSS and JS links: GitHub Pages lets browsers cache files for 10 minutes,
+  // and a fresh page with a stale script breaks (e.g. the audio buttons had no handler).
+  eleventyConfig.addGlobalData("build", Date.now().toString(36));
 
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
   // Research dossiers published next to their articles.

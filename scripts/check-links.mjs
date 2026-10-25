@@ -28,7 +28,8 @@ for (const page of pages) {
   for (const m of html.matchAll(/\s(?:href|src)="([^"]*)"/g)) {
     const ref = m[1];
     if (!ref || /^(https?:|mailto:|tel:|data:)/.test(ref)) continue;
-    const [path, frag] = ref.split("#");
+    const [pathq, frag] = ref.split("#");
+    const path = pathq.split("?")[0]; // assets carry a ?v= build stamp
     const target = path ? normalize(join(dirname(page), path)) : page;
     if (path && !existsSync(target)) { problems.push(`${relative(root, page)}: missing file ${ref}`); continue; }
     if (frag && target.endsWith(".html") && !ids(target).has(decodeURIComponent(frag))) {

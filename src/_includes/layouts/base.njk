@@ -10,10 +10,10 @@
 {%- if description %}
 <meta name="description" content="{{ description }}">
 {%- endif %}
-<link rel="stylesheet" href="{{ root }}assets/fonts/fonts.css">
-<link rel="stylesheet" href="{{ root }}assets/css/base.css">
+<link rel="stylesheet" href="{{ root }}assets/fonts/fonts.css?v={{ build }}">
+<link rel="stylesheet" href="{{ root }}assets/css/base.css?v={{ build }}">
 {%- for s in styles %}
-<link rel="stylesheet" href="{{ root }}assets/css/pages/{{ s }}.css">
+<link rel="stylesheet" href="{{ root }}assets/css/pages/{{ s }}.css?v={{ build }}">
 {%- endfor %}
 </head>
 <body>
@@ -26,7 +26,7 @@
   {% include "footer.njk" %}
 </div>
 {%- for s in scripts %}
-<script src="{{ root }}assets/js/{{ s }}.js"></script>
+<script src="{{ root }}assets/js/{{ s }}.js?v={{ build }}"></script>
 {%- endfor %}
 </body>
 </html>
