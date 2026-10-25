@@ -1,0 +1,31 @@
+/* Section pages built on music.css: the figures of "Астрономия и астрология" and "Магия и мантика"
+   and the list of related texts already in the library. */
+figure.sevens, figure.kinds { margin: 0; background: var(--panel); border: 1px solid var(--rule); padding: 1rem 1.1rem 1.1rem; }
+figure.sevens figcaption, figure.kinds figcaption { font-size: .88rem; color: var(--ink-soft); margin-bottom: .7rem; }
+figure.sevens figcaption b, figure.kinds figcaption b { color: var(--ink); font-weight: 400; }
+.planets { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 6.5rem minmax(0, 1fr) auto; }
+.planets li { display: contents; }
+.planets span { padding: .22rem .3rem; border-bottom: 1px solid var(--rule); }
+.planets .g { font-size: 1.05rem; }
+.planets .n { color: var(--ink); }
+.planets .r { color: var(--ink-soft); font-size: .88rem; text-align: right; }
+.planets .sun .g, .planets .sun .n { color: var(--rubric); }
+.fig-note { font-size: .86rem; color: var(--ink-soft); margin: .7rem 0 0; }
+figure.kinds { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: .3rem 1.2rem; }
+figure.kinds figcaption, figure.kinds .fig-note { grid-column: 1 / -1; }
+.kind h3 { font-family: var(--font-label); font-weight: 700; font-size: .85rem; letter-spacing: .06em; margin: 0 0 .4rem;
+  padding-bottom: .3rem; border-bottom: 2px solid var(--ink); }
+.kind h3 span { font-weight: 400; color: var(--rubric); margin-left: .3rem; }
+.kind ul { margin: 0; padding-left: 1rem; font-size: .95rem; display: grid; gap: .2rem; }
+.related { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.2rem 2rem; }
+.related li { border-top: 3px solid var(--rubric); padding-top: .7rem; display: grid; gap: .35rem; align-content: start; }
+.related a { font-size: 1.08rem; }
+.related span { font-size: .93rem; color: var(--ink-soft); }
+@media (max-width: 860px) {
+  .related { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 420px) {
+  figure.kinds { grid-template-columns: minmax(0, 1fr); }
+  .planets { grid-template-columns: 5.6rem minmax(0, 1fr); }
+  .planets .r { display: none; }
+}
