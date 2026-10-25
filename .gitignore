@@ -20,3 +20,6 @@ desktop.ini
 
 # fetched web pages saved during research (not research results)
 /research/raw/wave2_items/*.html
+
+# TTS voice samples for comparison (local only)
+/tts-samples/

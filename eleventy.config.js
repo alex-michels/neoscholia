@@ -35,6 +35,7 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy({ "src/assets": "assets" });
   // Research dossiers published next to their articles.
   eleventyConfig.addPassthroughCopy({ "research/studies/laestrygonians/dossier.md": "laestrygonians-dossier.md" });
+  eleventyConfig.addPassthroughCopy({ "research/dissertation/mikhaylov-2015-entgrenzung-und-begrenzung-alexanders.pdf": "docs/mikhaylov-2015-dissertation.pdf" });
 
   // "../" prefixes so that shared links and assets work from pages in subfolders.
   eleventyConfig.addFilter("rootPrefix", (url) => "../".repeat(Math.max(0, String(url || "/").split("/").length - 2)));

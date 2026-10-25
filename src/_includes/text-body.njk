@@ -1,6 +1,6 @@
 {#- Страница перевода, собираемая из данных: src/_data/texts/<ключ>.json.
     На странице: front matter с textKey, ladder, status, version, updated; затем {% include "text-body.njk" %}.
-    Поля данных: title, subtitle, crumbs, source, first, intro_ru, intro_en, chapters[], process, cite, licenses, ai. -#}
+    Поля данных: title, subtitle, crumbs, source, first, intro_ru, intro_en, chapters[], process, versions[], cite, licenses, ai. -#}
 {%- set t = texts[textKey] -%}
 <main id="top">
     <div class="crumbs">{% for c in t.crumbs %}{% if c.href %}<a href="{{ c.href }}">{{ c.label }}</a>{% else %}{{ c.label }}{% endif %}{% if not loop.last %} › {% endif %}{% endfor %}</div>
@@ -95,6 +95,10 @@
       {%- if t.process.open %}
       <h3>Что осталось проверить</h3>
       <ul>{% for o in t.process.open %}<li>{{ o | safe }}</li>{% endfor %}</ul>
+      {%- endif %}
+      {%- if t.versions %}
+      <h3>Версии</h3>
+      <ul>{% for v in t.versions %}<li><b>{{ v.version }}</b> · {{ v.date }}. {{ v.text | safe }}</li>{% endfor %}</ul>
       {%- endif %}
     </section>
     {%- endif %}

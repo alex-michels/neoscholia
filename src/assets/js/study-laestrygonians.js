@@ -35,9 +35,9 @@
 
   /* ---------- citation ---------- */
   var CITE = {
-    gost: 'Пергам против Александрии? Кратет, Аристарх и «короткие ночи» лестригонов : препринт / Редакция Neoscholia. Версия 0.1. Neoscholia, 2026. DOI: [после депонирования].',
-    chicago: 'Neoscholia Editors. 2026. "Pergamon versus Alexandria? Crates, Aristarchus and the ‘Short Nights’ of the Laestrygonians." Preprint, version 0.1. Neoscholia. DOI pending.',
-    bibtex: '@misc{neoscholia2026laestrygonians,\n  author    = {{Редакция Neoscholia}},\n  title     = {Пергам против Александрии? Кратет, Аристарх и «короткие ночи» лестригонов},\n  year      = {2026},\n  note      = {Препринт, версия 0.1},\n  publisher = {Neoscholia},\n  doi       = {[pending]}\n}'
+    gost: 'Пергам против Александрии? Кратет, Аристарх и «короткие ночи» лестригонов : препринт / А. Михельс. Версия 0.2. Neoscholia, 2026. DOI: [после депонирования].',
+    chicago: 'Michels, Alexander. 2026. "Pergamon versus Alexandria? Crates, Aristarchus and the ‘Short Nights’ of the Laestrygonians." Preprint, version 0.2. Neoscholia. DOI pending.',
+    bibtex: '@misc{neoscholia2026laestrygonians,\n  author    = {Михельс, Александр},\n  title     = {Пергам против Александрии? Кратет, Аристарх и «короткие ночи» лестригонов},\n  year      = {2026},\n  note      = {Препринт, версия 0.2},\n  publisher = {Neoscholia},\n  doi       = {[pending]}\n}'
   };
   var citeText = document.getElementById('cite-text');
   var copyBtn = document.getElementById('copy-cite');
