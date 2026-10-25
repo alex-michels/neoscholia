@@ -1,0 +1,483 @@
+{
+  "reviewer": {
+    "model": "gpt-6-astra",
+    "provider": "OpenAI",
+    "date": "2026-10-25",
+    "web_access": true
+  },
+  "issues": [
+    {
+      "chapter": 3,
+      "lang": "note",
+      "severity": "major",
+      "category": "note-fact",
+      "latin": "Igitur ad consuetam artis confugit peritiam",
+      "quote": "У Валерия этого оракула здесь нет (Кролль: «om. Val.»).",
+      "problem": "Схолия 5 (RU) превращает условное обозначение аппарата в свидетельство независимого текста Валерия. Между тем начало Валерия здесь утрачено и восполнено эпитомой, как правильно объясняет схолия 1; Kübler 1888, p. 2, app. к строке 9 отмечает начало читаемого Туринского текста лишь с longe celebratior. Отсутствие оракула непосредственно засвидетельствовано в эпитоме; установить его отсутствие у самого Валерия по этому месту нельзя. Источник: https://archive.org/stream/iulivalerialexa00kbgoog/iulivalerialexa00kbgoog_djvu.txt .",
+      "fix": "В эпитоме этого оракула нет; помета Кролля «om. Val.» здесь не является независимым свидетельством о тексте Валерия, утраченное начало которого восполнено эпитомой.",
+      "confidence": "high"
+    },
+    {
+      "chapter": 3,
+      "lang": "note",
+      "severity": "major",
+      "category": "note-fact",
+      "latin": "Igitur ad consuetam artis confugit peritiam",
+      "quote": "This oracle is absent here in Valerius (Kroll: ‘om. Val.’).",
+      "problem": "Схолия 5 (EN): в данном месте Кюблер печатает эпитому взамен утраченного начала Валерия; поэтому отсутствие оракула в независимой традиции Валерия установить нельзя. Ссылка Кролля om. Val. не устраняет этого ограничения. См. Kübler 1888, p. 2, app. к строке 9 и схолию 1: https://archive.org/stream/iulivalerialexa00kbgoog/iulivalerialexa00kbgoog_djvu.txt .",
+      "fix": "The oracle is absent from the Epitome; Kroll’s ‘om. Val.’ here is not independent evidence for Valerius’ text, whose lost opening is supplied from the Epitome.",
+      "confidence": "high"
+    },
+    {
+      "chapter": 4,
+      "lang": "note",
+      "severity": "minor",
+      "category": "fluency",
+      "latin": "suam adhibet constellationem",
+      "quote": "и «собственное расположение светил» (suam constellationem) остался без объяснения.",
+      "problem": "В русском тексте схолии 8 нарушено согласование: подлежащее «расположение» среднего рода.",
+      "fix": "и «собственное расположение светил» (suam constellationem) осталось без объяснения.",
+      "confidence": "high"
+    },
+    {
+      "chapter": 5,
+      "lang": "note",
+      "severity": "minor",
+      "category": "note-fact",
+      "latin": "effigiat ex cera corpusculum feminae",
+      "quote": "Восковая фигурка с надписанным именем, ложе, светильники, травяной сок и тайное заклинание — обычный набор греко-египетской магии. Восковые фигурки для любовного приворота описаны, например, в PGM IV 296–466.",
+      "problem": "Схолия 10 (RU) объявляет весь перечисленный набор обычным без достаточного обоснования. PGM IV 296–466 подтверждает две фигурки из воска или глины в любовном привороте; обычность именно сочетания фигурки, ложа, светильников и травяного сока этой ссылкой не установлена (unverifiable). Предлагается сузить утверждение до проверяемой параллели. Источники: PGM IV 296–466 в переводе Betz, https://studylib.net/doc/27838760/the-greek-magical-papyri-in-translation ; университетский проект https://www.coptic-magic.phil.uni-wuerzburg.de/index.php/2019/03/29/looking-at-the-coptic-magical-papyri-ii-formularies-and-applied-texts/ .",
+      "fix": "Восковые фигурки для любовного приворота описаны в PGM IV 296–466: там предписаны две фигурки из воска или глины. Это параллель к одной из деталей обряда Нектанеба.",
+      "confidence": "medium"
+    },
+    {
+      "chapter": 5,
+      "lang": "note",
+      "severity": "minor",
+      "category": "note-fact",
+      "latin": "effigiat ex cera corpusculum feminae",
+      "quote": "A wax figure inscribed with a name, a little bed, lamps, herbal juice and a secret spell are the standard equipment of Graeco-Egyptian magic. Wax figures used in erotic binding spells are described, for instance, in PGM IV 296–466.",
+      "problem": "В английской схолии 10 то же неподтверждённое обобщение: источник удостоверяет восковые или глиняные фигурки в любовном привороте, но не стандартный комплект из всех перечисленных предметов (unverifiable). Источники: https://studylib.net/doc/27838760/the-greek-magical-papyri-in-translation ; https://www.coptic-magic.phil.uni-wuerzburg.de/index.php/2019/03/29/looking-at-the-coptic-magical-papyri-ii-formularies-and-applied-texts/ .",
+      "fix": "PGM IV 296–466 describes an erotic binding spell using two figures made of wax or clay. This provides a parallel for the wax figure used in Nectanebo’s ritual.",
+      "confidence": "medium"
+    },
+    {
+      "chapter": 6,
+      "lang": "en",
+      "severity": "minor",
+      "category": "fluency",
+      "latin": "hominem ad se vocat, eique somnii retulit visionem",
+      "quote": "she calls the man to her and told him the vision of the dream.",
+      "problem": "У двух однородных сказуемых немотивированно смешаны настоящее и прошедшее время. Латинский переход vocat → retulit допустим как повествовательное переключение, но английское calls ... and told выглядит грамматическим сбоем.",
+      "fix": "she calls the man to her and tells him the vision of the dream.",
+      "confidence": "high"
+    },
+    {
+      "chapter": 6,
+      "lang": "note",
+      "severity": "minor",
+      "category": "mistranslation",
+      "latin": "pollicens honores multos, si conceptu sit potita",
+      "quote": "not only royal honours but a father’s regard",
+      "problem": "В английской схолии 11 a father’s regard обозначает отношение самого отца. У Валерия Олимпиада обещает своё отношение к Нектанебу как к отцу: inque te patris adfectum fore mihi (Kübler 1888, p. 5, строки 14–15). Направление отношения подтверждает и приведённая греческая реплика. Русское «отношение как к отцу» верно. Источник: https://archive.org/stream/iulivalerialexa00kbgoog/iulivalerialexa00kbgoog_djvu.txt .",
+      "fix": "not only royal honours but the regard due to a father",
+      "confidence": "high"
+    },
+    {
+      "chapter": 10,
+      "lang": "note",
+      "severity": "major",
+      "category": "note-fact",
+      "latin": "Tunc ex admiratione Philippus exhilaratus",
+      "quote": "и тот будто бы лишился глаза, которым подглядел бога в облике змея.",
+      "problem": "Схолия 19 (RU) пересказывает Plut. Alex. 3.1–2 как сообщение об уже происшедшей потере глаза. В указанном месте Плутарх рассказывает об оракуле, предсказавшем Филиппу будущую потерю глаза, которым он подсмотрел бога. Нужно сохранить статус предсказания. Это замечание о содержании данного места, а не отрицание исторической потери глаза Филиппом. Источник: https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Alexander%2A/3.html .",
+      "fix": "а оракул предсказал ему потерю глаза, которым он подглядел бога в облике змея.",
+      "confidence": "high"
+    },
+    {
+      "chapter": 10,
+      "lang": "note",
+      "severity": "major",
+      "category": "note-fact",
+      "latin": "Tunc ex admiratione Philippus exhilaratus",
+      "quote": "and he is said to have lost the eye with which he spied on the god in serpent form.",
+      "problem": "Английская схолия 19 также превращает пророчество в сообщение об исполнении: в Plut. Alex. 3.1–2 оракул предсказывает будущую потерю глаза. Источник: https://penelope.uchicago.edu/Thayer/E/Roman/Texts/Plutarch/Lives/Alexander%2A/3.html .",
+      "fix": "and an oracle foretold that he would lose the eye with which he had spied on the god in serpent form.",
+      "confidence": "high"
+    },
+    {
+      "chapter": 11,
+      "lang": "ru",
+      "severity": "minor",
+      "category": "mistranslation",
+      "latin": "Cuius testula dissultante visus est de ea dracunculus exisse.",
+      "quote": "Когда скорлупка раскололась, показалось, что из неё вышел змеёныш.",
+      "problem": "Visus est здесь сообщает о наблюдаемом появлении змеёныша; «показалось, что» вносит сомнение в реальности увиденного. Последовательность этих событий затем истолковывает Антифонт. Английское was seen передаёт контекст верно; прототип Валерия egredi visitur (Kübler 1888, p. 10) подтверждает значение зрительного наблюдения.",
+      "fix": "Когда скорлупка раскололась, было видно, как из неё вышел змеёныш.",
+      "confidence": "high"
+    },
+    {
+      "chapter": 22,
+      "lang": "ru",
+      "severity": "minor",
+      "category": "latin-grammar",
+      "latin": "considensque lectulo",
+      "quote": "сев у ложа",
+      "problem": "В эпитоме стоит considensque lectulo: естественное значение — «сев на ложе», с lectulo как обозначением места. «У ложа» скорее воспроизводит adsidensque lectulo полного текста Валерия (Kübler 1888, p. 24). Это небольшое, но предметное различие в описании сцены; предлагаемое чтение требует редакторской оценки.",
+      "fix": "сев на ложе",
+      "confidence": "medium"
+    },
+    {
+      "chapter": 22,
+      "lang": "en",
+      "severity": "minor",
+      "category": "latin-grammar",
+      "latin": "considensque lectulo",
+      "quote": "sitting down by the couch",
+      "problem": "Considensque lectulo естественнее означает, что Александр садится на ложе. By the couch соответствует скорее adsidensque lectulo у Валерия (Kübler 1888, p. 24), тогда как эпитома изменила глагол. Предлагаемое уточнение следует рассмотреть редактору.",
+      "fix": "sitting down on the couch",
+      "confidence": "medium"
+    },
+    {
+      "chapter": 26,
+      "lang": "note",
+      "severity": "minor",
+      "category": "note-fact",
+      "latin": "levis vero armaturae Thracas octingentos",
+      "quote": "В рукописях эпитомы числа записаны римскими цифрами; словами их передал Цахер.",
+      "problem": "Схолия 46 (RU) чрезмерно обобщает наблюдение: аппарат Цахера к p. 28, строке 1, приводит octingentos для A и E (а также Vb), то есть некоторые словесные формы уже находятся в рукописях эпитомы. Большинство приведённых вариантов действительно записано цифрами. Источник: https://archive.org/download/juliivaleriiepi00zachgoog/juliivaleriiepi00zachgoog_djvu.txt .",
+      "fix": "В рукописях эпитомы числительные большей частью записаны римскими цифрами; в печатном тексте Цахер передаёт их словами.",
+      "confidence": "high"
+    },
+    {
+      "chapter": 26,
+      "lang": "note",
+      "severity": "minor",
+      "category": "note-fact",
+      "latin": "levis vero armaturae Thracas octingentos",
+      "quote": "The Epitome manuscripts give the figures in Roman numerals; Zacher writes them out in words.",
+      "problem": "Схолия 46 (EN): аппарат Цахера к p. 28, строке 1, указывает словесное octingentos в A и E (и Vb). Следовательно, словесная запись не во всех случаях введена редактором. Источник: https://archive.org/download/juliivaleriiepi00zachgoog/juliivaleriiepi00zachgoog_djvu.txt .",
+      "fix": "The Epitome manuscripts generally give the figures in Roman numerals; Zacher prints them in words throughout.",
+      "confidence": "high"
+    },
+    {
+      "chapter": 35,
+      "lang": "note",
+      "severity": "critical",
+      "category": "note-fact",
+      "latin": "His incentivis exstimulatus Alexander gravi indignatione permotus vehementiusque urbem adgressus diruit ac vastat, omni sexu et aetate peremta.",
+      "quote": "Опущены также сон о сатире («са-Тирос») и основание Триполиса из трёх деревень.",
+      "problem": "Схолия 53 (RU) приписывает Валерию другую игру слов. У Kübler 1888, p. 47.5–9, сатир протягивает Александру tyrum — сыр; Александр бросает его и растаптывает. Толкователи связывают попрание сыра с попранием Тира. «Са-Тирос» подменяет этот рассказ иной игрой слов. Аппарат к строке 5 также приводит τυρόν и конъектуру caseum. Источник: https://archive.org/stream/iulivalerialexa00kbgoog/iulivalerialexa00kbgoog_djvu.txt .",
+      "fix": "Опущены также сон о сатире, протянувшем Александру сыр, который тот растоптал (игра слов τυρός, «сыр», и Тир), и основание Триполиса из трёх деревень.",
+      "confidence": "high"
+    },
+    {
+      "chapter": 35,
+      "lang": "note",
+      "severity": "critical",
+      "category": "note-fact",
+      "latin": "His incentivis exstimulatus Alexander gravi indignatione permotus vehementiusque urbem adgressus diruit ac vastat, omni sexu et aetate peremta.",
+      "quote": "Also omitted are the dream of the satyr (‘sa-Tyros’) and the founding of Tripolis from three villages.",
+      "problem": "Схолия 53 (EN): у Kübler 1888, p. 47.5–9, сатир предлагает Александру сыр, который Александр растаптывает; толкование связывает сыр, tyros, с Тиром. Sa-Tyros в этом рассказе отсутствует. Источник: https://archive.org/stream/iulivalerialexa00kbgoog/iulivalerialexa00kbgoog_djvu.txt .",
+      "fix": "Also omitted are the dream of a satyr offering Alexander cheese, which he trampled underfoot (a play on Greek tyros, ‘cheese’, and Tyre), and the founding of Tripolis from three villages.",
+      "confidence": "high"
+    },
+    {
+      "chapter": 38,
+      "lang": "note",
+      "severity": "minor",
+      "category": "note-fact",
+      "latin": "tantum regem totque viribus, ut sese iactat, consitum",
+      "quote": "Перевод («при стольких силах») подходит к обоим чтениям.",
+      "problem": "В схолии 59 (RU) сглажено смысловое различие чтений. Consitum истолковано как «снабжённый», тогда как confisum означает «полагающийся, уверенный» и передаёт отношение царя к своим силам. Нынешний перевод не выражает второго значения. Чтения сверены по Zacher p. 31 app. и Kübler p. 50.",
+      "fix": "Перевод («при стольких силах») передаёт consitum; чтение confisum означало бы «полагающийся на столькие силы».",
+      "confidence": "high"
+    },
+    {
+      "chapter": 38,
+      "lang": "note",
+      "severity": "minor",
+      "category": "note-fact",
+      "latin": "tantum regem totque viribus, ut sese iactat, consitum",
+      "quote": "The translation (‘furnished with such forces’) suits both readings.",
+      "problem": "В схолии 59 (EN) уравнены furnished и relying. Английский перевод передаёт выбранное истолкование consitum, но не confisum — «полагающийся, уверенный». Чтения сверены по Zacher p. 31 app. и Kübler p. 50.",
+      "fix": "The translation (‘furnished with such forces’) follows consitum; confisum would mean ‘relying on such forces’.",
+      "confidence": "high"
+    },
+    {
+      "chapter": 41,
+      "lang": "ru",
+      "severity": "minor",
+      "category": "latin-grammar",
+      "latin": "currus quidem atque arma regalia",
+      "quote": "захватил колесницу и царское оружие",
+      "problem": "Currus как дополнение при comprehendit — винительный падеж множественного числа; винительный единственного был бы currum. То же чтение стоит у Валерия (Kübler p. 55.3) и у Цахера (p. 34.13). Предшествующее amisso curru не даёт достаточного основания без оговорки переводить последующее currus единственным числом.",
+      "fix": "захватил колесницы и царское оружие",
+      "confidence": "high"
+    },
+    {
+      "chapter": 41,
+      "lang": "en",
+      "severity": "minor",
+      "category": "latin-grammar",
+      "latin": "currus quidem atque arma regalia",
+      "quote": "captured the chariot and the royal arms",
+      "problem": "Currus при comprehendit — винительный множественного числа; единственному соответствовало бы currum. Чтение подтверждается Zacher p. 34.13 и Kübler p. 55.3. Единственное число в переводе представляет немаркированное сглаживание текста по контексту.",
+      "fix": "captured the chariots and the royal arms",
+      "confidence": "high"
+    },
+    {
+      "chapter": 42,
+      "lang": "note",
+      "severity": "minor",
+      "category": "note-fact",
+      "latin": "mox ad Scamandrum ducem suarum partium scribit",
+      "quote": "(source: Iul. Val. 1,42 (Kübler 1888, p. 56 and apparatus); Zacher 1867, p. 34, apparatus; Arr. Anab. 1.11.3)",
+      "problem": "В общей ссылке схолии 66 неверна страница Цахера. Аппарат со Scamandrum, исправлением Cassandrum у Маи и Мюллера и греческими LBC находится на p. 35, к строке 2. На p. 34 напечатано только начало главы 42. Источник: https://archive.org/download/juliivaleriiepi00zachgoog/juliivaleriiepi00zachgoog_djvu.txt .",
+      "fix": "(source: Iul. Val. 1,42 (Kübler 1888, p. 56 and apparatus); Zacher 1867, p. 35, apparatus; Arr. Anab. 1.11.3)",
+      "confidence": "high"
+    },
+    {
+      "chapter": 46,
+      "lang": "ru",
+      "severity": "minor",
+      "category": "mistranslation",
+      "latin": "Atque ita tertia fere die",
+      "quote": "И так, почти на третий день,",
+      "problem": "Fere при обозначении времени здесь значит «примерно, приблизительно». «Почти на третий день» предполагает, что третий день ещё не наступил, и неверно ограничивает срок. Английское on about the third day передаёт латинский текст правильно.",
+      "fix": "И так, примерно на третий день,",
+      "confidence": "high"
+    }
+  ],
+  "chapters": [
+    {
+      "chapter": 1,
+      "ru": "ok",
+      "en": "ok",
+      "comment": "Схолии 1–2: начало независимого текста Валерия, сопоставления с α/армянской версией и λεκανομαντεία проверены по Kübler p. 2 app. и Kroll p. 1; PGM IV 154–285 подтверждает гадание с сосудом и водой."
+    },
+    {
+      "chapter": 2,
+      "ru": "ok",
+      "en": "ok",
+      "comment": "Схолии 3–4: рассказ о лазутчике и список народов сопоставлены с Kroll pp. 1–2 и аппаратом; разночтения не следует принимать за исторический перечень войск."
+    },
+    {
+      "chapter": 3,
+      "ru": "ok",
+      "en": "ok",
+      "comment": "Схолии 5–6: греческий рассказ проверен по Kroll pp. 2–3; одежда жрецов — также Herodotus 2.37. В №5 требуется оговорка об утраченном начале Валерия."
+    },
+    {
+      "chapter": 4,
+      "ru": "ok",
+      "en": "ok",
+      "comment": "Схолии 7–8 сопоставлены с Kübler pp. 2–4; исправить согласование в русском тексте №8."
+    },
+    {
+      "chapter": 5,
+      "ru": "ok",
+      "en": "ok",
+      "comment": "Схолия 9 подтверждается Kübler p. 4; в №10 фигурки подтверждены PGM IV 296–466, но обычность всего перечисленного комплекта остаётся unverifiable."
+    },
+    {
+      "chapter": 6,
+      "ru": "ok",
+      "en": "minor issues",
+      "comment": "Схолии 11–12 проверены по Kübler pp. 4–5 и Kroll p. 7 с аппаратом. В EN исправить calls ... told и направление отношения в переводе patris adfectum."
+    },
+    {
+      "chapter": 7,
+      "ru": "ok",
+      "en": "ok",
+      "comment": "Схолии 13–14: ручной змей и пропуски проверены по Kübler pp. 5–7; армянская параллель — по аппарату Kroll p. 7."
+    },
+    {
+      "chapter": 8,
+      "ru": "ok",
+      "en": "ok",
+      "comment": "Схолии 15–16: сопоставления проверены по Plutarch, Alexander 2.4–5, Kübler pp. 7–8 и Kroll p. 9."
+    },
+    {
+      "chapter": 9,
+      "ru": "ok",
+      "en": "ok",
+      "comment": "Схолия 17 подтверждается Kübler p. 8; русская и английская версии передают данный текст без установленной ошибки."
+    },
+    {
+      "chapter": 10,
+      "ru": "ok",
+      "en": "ok",
+      "comment": "Схолии 18–19: Zacher pp. 12–13 и Kübler pp. 5, 9–10 проверены. В №19 Plutarch 3.1–2 сообщает о предсказании потери глаза, а не о его исполнении."
+    },
+    {
+      "chapter": 11,
+      "ru": "minor issues",
+      "en": "ok",
+      "comment": "Схолии 20–21 сопоставлены с Kübler pp. 10–11 и Kroll p. 11; visus est лучше передать как наблюдение, без русского «показалось, что»."
+    },
+    {
+      "chapter": 12,
+      "ru": "ok",
+      "en": "ok",
+      "comment": "Схолии 22–23: Kübler p. 11 и Kroll pp. 12–13 подтверждают сопоставления; оскопление галлов дополнительно сопоставлено с Ovid, Fasti 4.237–244."
+    },
+    {
+      "chapter": 13,
+      "ru": "ok",
+      "en": "ok",
+      "comment": "Схолии 24–25 проверены по Kübler pp. 12–14, Kroll p. 14, Zacher p. 17 и Plutarch, Alexander 7.3. Точная идентификация кобылиц Лаомедонта в армянской версии по Stoneman–Gargiulo 2007 — unverifiable: издание не просмотрено."
+    },
+    {
+      "chapter": 14,
+      "ru": "ok",
+      "en": "ok",
+      "comment": "Схолии 26–27 сопоставлены с Kübler pp. 14–16, Zacher p. 20 и Kroll p. 16. Qui dum sedulo предпочтительно относится к Александру (medium), но разбор не единственный; обязательная замена на Нектанеба не обоснована. Assidenti может быть дательным или средневековым аблативом на -i."
+    },
+    {
+      "chapter": 15,
+      "ru": "ok",
+      "en": "ok",
+      "comment": "Схолии 28–29 подтверждаются Kübler pp. 16–19. Non eo modo ... sed ... etiam допускает «не только ... но и»; это не установленная ошибка."
+    },
+    {
+      "chapter": 17,
+      "ru": "ok",
+      "en": "ok",
+      "comment": "Схолии 30–31: Kübler pp. 19–20 и Zacher p. 21 app. подтверждают сокращения и варианты evocatis/evitatis/avocatis; eviatis остаётся конъектурой."
+    },
+    {
+      "chapter": 18,
+      "ru": "ok",
+      "en": "ok",
+      "comment": "Схолии 32–33: сопоставления с Kübler pp. 20–22 и Zacher p. 22 app. подтверждены; оговорка о повреждённом Acernaniae telo уместна."
+    },
+    {
+      "chapter": 19,
+      "ru": "ok",
+      "en": "ok",
+      "comment": "Схолия 34: имена участников, манёвр, падение Николая и слова жреца проверены по Kübler pp. 22–23."
+    },
+    {
+      "chapter": 20,
+      "ru": "ok",
+      "en": "ok",
+      "comment": "Схолии 35–36 сопоставлены с Kübler pp. 23–24 и Plutarch, Alexander 9.6–11. Точный 337 год свадьбы не установлен из приведённого места Плутарха: unverifiable в рамках этой проверки; требуется отдельная хронологическая ссылка."
+    },
+    {
+      "chapter": 21,
+      "ru": "ok",
+      "en": "ok",
+      "comment": "Схолии 37–38 подтверждаются Kübler p. 24 и Plutarch, Alexander 9.7–11; для точной даты 337 сохраняется ограничение, указанное к №36."
+    },
+    {
+      "chapter": 22,
+      "ru": "minor issues",
+      "en": "minor issues",
+      "comment": "Схолии 39–40 проверены по Kübler pp. 24–26 и Kroll p. 22 с аппаратом, включая iudex/vindex и греческое условие. Предпочтительно «сев на ложе» / on the couch; уверенность medium."
+    },
+    {
+      "chapter": 23,
+      "ru": "ok",
+      "en": "ok",
+      "comment": "Схолии 41–42: Kübler pp. 26–27, Kroll pp. 22–23, Diodorus 16.34.4–5 и 17.5–7, Herodotus 6.48 подтверждают сопоставления; историческая хронология отличается от романа."
+    },
+    {
+      "chapter": 24,
+      "ru": "ok",
+      "en": "ok",
+      "comment": "Схолии 43–44: ecquid/neque id/idque A проверены по Kübler p. 27 app.; отказ Олимпиады — Kroll p. 23; театр, Павсаний и убийство — Diodorus 16.91–94. Пропуски Аммона подтверждены Kübler pp. 27–28."
+    },
+    {
+      "chapter": 25,
+      "ru": "ok",
+      "en": "ok",
+      "comment": "Схолия 45 подтверждается Kübler pp. 28–30: постамент, адресаты речи, указ и эпизод с ветеранами; eius правильно отнесено к Филиппу."
+    },
+    {
+      "chapter": 26,
+      "ru": "ok",
+      "en": "ok",
+      "comment": "Схолия 46: сумма 26 500 и варианты 70 604/70 654 проверены по Kübler p. 30 и Zacher pp. 27–28; заявление о римских цифрах нуждается в ограничении. №47 подтверждён также непосредственно по Arrian 1.11 в переводе Chinnock."
+    },
+    {
+      "chapter": 29,
+      "ru": "ok",
+      "en": "ok",
+      "comment": "Схолия 48 подтверждается Kroll p. 26 app. и Kübler p. 31; №49 сопоставлен с Pliny 3.57, Arrian 7.15, Memnon 18.2. Данные о посольствах не доказывают похода Александра в Италию."
+    },
+    {
+      "chapter": 30,
+      "ru": "ok",
+      "en": "ok",
+      "comment": "Схолия 50: Kübler pp. 31–43 подтверждает рассказ об Аммоне, храм, надпись и сон, а также опущенные главы об Александрии и Сараписе."
+    },
+    {
+      "chapter": 34,
+      "ru": "ok",
+      "en": "ok",
+      "comment": "Схолии 51–52 проверены по Kübler p. 44 и Diodorus 16.51.1. Маргиналия veste dignum eum duxerunt совпадает с эпитомой лишь частично (без et sede); «сцена теряет смысл» — интерпретация. Точная привязка бегства Нектанеба к 343 году отдельно не проверена (unverifiable для даты)."
+    },
+    {
+      "chapter": 35,
+      "ru": "ok",
+      "en": "ok",
+      "comment": "Схолии 53–54 сопоставлены с Kübler pp. 45–47. В обеих версиях №53 вместо игры со словом «сыр» приписана Валерию игра «са-Тирос»: critical в схолии, не в основном переводе."
+    },
+    {
+      "chapter": 36,
+      "ru": "ok",
+      "en": "ok",
+      "comment": "Схолии 55–56 подтверждены Zacher p. 30, локальной TEI и Kübler pp. 47–48: tuae вместо tunc, титул Дария и изменения его угроз."
+    },
+    {
+      "chapter": 37,
+      "ru": "ok",
+      "en": "ok",
+      "comment": "Схолия 57: Kübler pp. 48–49 подтверждает угрозу послам, протест, отмену, пир и отказ от предательства. «Собственная фраза эпитомы» подтверждается как отличие от этого источника, не как доказательство отсутствия иных источников."
+    },
+    {
+      "chapter": 38,
+      "ru": "ok",
+      "en": "ok",
+      "comment": "Схолии 58–59 проверены по Kübler pp. 50–51 и Zacher p. 31 app. Значения consitum/confisum различны. Происхождение consitum именно из ошибки Маи — unverifiable; сама схолия правильно отмечает это лишь как возможность."
+    },
+    {
+      "chapter": 39,
+      "ru": "ok",
+      "en": "ok",
+      "comment": "Схолии 60–61 подтверждаются Kübler pp. 51–52 и Zacher pp. 32–33. Повреждения отмечены переводчиками; satrapas как субъект submergere с et = «также» — допустимое чтение, не установленная ошибка."
+    },
+    {
+      "chapter": 40,
+      "ru": "ok",
+      "en": "ok",
+      "comment": "Схолия 62 подтверждается Kübler pp. 52–53; №63 сопоставлена с Arrian 4.12. Толкование ad adorandum как проскинезы обоснованно."
+    },
+    {
+      "chapter": 41,
+      "ru": "minor issues",
+      "en": "minor issues",
+      "comment": "Схолии 64–65: Kübler pp. 53–56 и Arrian 2.11, 3.13 подтверждают сопоставления с Иссом и Гавгамелами. В обоих переводах currus следует передать множественным числом."
+    },
+    {
+      "chapter": 42,
+      "ru": "ok",
+      "en": "ok",
+      "comment": "Схолии 66–67 подтверждены Kübler pp. 56–61, Zacher p. 35 app. и Arrian 1.11. В общей ссылке №66 исправить p. 34 на p. 35."
+    },
+    {
+      "chapter": 46,
+      "ru": "minor issues",
+      "en": "ok",
+      "comment": "Схолии 68–69 проверены по Kübler pp. 61–64 и Kroll pp. 54–61: варианты fortissimos/stultissimos, regis/tyranni, Исмений и превращение реплики в повествование. В RU исправить fere."
+    },
+    {
+      "chapter": 47,
+      "ru": "ok",
+      "en": "ok",
+      "comment": "Схолии 70–71 сопоставлены с Kübler p. 64, Kroll pp. 62–63 и Pausanias 6.15.3–5: двустишие, три состязания и поздняя дата атлета подтверждены; 141-я Олимпиада соответствует 216 году до н. э."
+    }
+  ],
+  "summary": "Проверены все предложения русского и английского переводов 38 сохранившихся глав книги I и все 71 схолия, с отдельным указанием пределов проверки. Оба перевода в целом точно передают эпитому, включая её сокращения, странности и уже отмеченные повреждения. В основных переводах обнаружены только локальные неточности: смешение времён в английском, русское «показалось», положение Александра у ложа, число currus и значение fere. Самая серьёзная установленная ошибка находится в обеих версиях схолии 53: Валерию приписана игра «са-Тирос» вместо сна с сыром, который Александр растаптывает. В схолии 5 необходимо различить эпитому и утраченное начало Валерия, а в схолии 19 — пророчество о потере глаза и рассказ о его исполнении. Решение относить Qui dum sedulo в главе 14 к Александру считаю предпочтительным, но не грамматически обязательным; исправление на Нектанеба не требуется. Обычность полного магического набора в схолии 10, точная армянская деталь о кобылицах Лаомедонта, некоторые точные исторические даты и происхождение чтения consitum остаются unverifiable в обозначенных пределах. Печатные издания сверены по OCR, без просмотра изображений страниц и самих рукописей, поэтому это проверка изданий, а не новая коллация рукописей. Редактору следует прежде всего исправить ложную атрибуцию в схолии 53 и остальные установленные неточности аппарата, затем рассмотреть локальные правки переводов, особенно предложение к lectulo с уверенностью medium."
+}

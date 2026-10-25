@@ -1,9 +1,12 @@
-"""Arbitration of the model reviews of the Zacher Epitome, Book I (version 0.1).
+"""Arbitration of the model reviews of the Zacher Epitome, Book I.
 
+Version 0.1: drafts by Claude Opus 5.5, reviews by Claude Sonnet 5.5 and Claude Fable 5.1 (reviews/).
+Version 0.2: review by a model of another family, GPT-6 Astra (review/external/).
+Each issue gets a decision and a reason; accepted fixes are applied to the drafts in that order.
 Inputs (this folder): source/book1.la.json, drafts/draft-{A,B}.json, reviews/review-*.json,
-context.json, raw/text-check.json.
+review/external/*.json, context.json, raw/text-check.json.
 Outputs:
-  translation/book1.json          — the reviewed version 0.1 (Latin, RU, EN, notes, review log)
+  translation/book1.json          — the current version (Latin, RU, EN, notes, review log)
   review/book1-for-review.md      — the same for an external reviewer (Codex / GPT)
   ../../../src/_data/texts/zacher-1.json — data for the site page
   arbitration-log.md              — every review issue with the decision and the reason
@@ -11,13 +14,14 @@ Run: python -I arbitration.py
 """
 import html
 import json
+import re
 import sys
 from pathlib import Path
 
 sys.stdout.reconfigure(encoding="utf-8", newline="\n")
 HERE = Path(__file__).resolve().parent
 SITE_DATA = HERE.parents[2] / "src" / "_data" / "texts" / "zacher-1.json"
-VERSION, DATE = "0.1", "25.10.2026"
+VERSION, DATE = "0.2", "25.10.2026"
 MODELS = {"draft": "Claude Opus 5.5", "r1": "Claude Sonnet 5.5", "r2": "Claude Fable 5.1", "arb": "Claude Opus 5.5"}
 
 
@@ -173,6 +177,20 @@ def esc(t):
     return html.escape(t, quote=False)
 
 
+# Links to unauthorised copies are not republished (the project cites legitimate sources only).
+UNAUTHORISED = ("studylib.net", "dokumen.pub", "ebin.pub")
+
+
+def show(t):
+    """Escape a reviewer's text for the page; URLs become short links."""
+    def link(m):
+        url, tail = m.group(1).rstrip(".,;)"), m.group(1)[len(m.group(1).rstrip(".,;)")):]
+        if any(d in url for d in UNAUTHORISED):
+            return "[ссылка на неавторизованную копию не воспроизводится]" + tail
+        return f'<a href="{url}">источник</a>{tail}'
+    return re.sub(r"(https?://\S+)", link, esc(t))
+
+
 def apply(ch, field, old, new):
     s = segs[ch]
     if field in ("ru", "en"):
@@ -189,7 +207,9 @@ def apply(ch, field, old, new):
             assert old in n[lang], (ch, field, old)
             n[lang] = n[lang].replace(old, new, 1)
     elif field[0] == "doubt":
-        s["doubts"][field[1]]["issue"] = new
+        s["doubts"][field[1]][field[2] if len(field) > 2 else "issue"] = new
+    elif field[0] == "doubt_add":
+        s["doubts"].append(new)
 
 
 reviews = {}
@@ -204,10 +224,146 @@ for tag, r in reviews.items():
             apply(*e)
         log_rows.append((x["chapter"], tag, i, x, decision, reason))
 
+# ---------- 2b. Version 0.2: review by a model of another family (review/external/) ----------
+# Issues are numbered from 1, as in the reviewer's own report. Notes are addressed by their number on the page.
+EXTERNAL = {"gpt-6-astra": "GPT-6 Astra · OpenAI"}
+NOTE_AT = {}
+for ch in sorted(segs):
+    for i in range(len(segs[ch]["notes"])):
+        NOTE_AT[len(NOTE_AT) + 1] = (ch, i)
+
+
+def note(n, lang):
+    ch, i = NOTE_AT[n]
+    return ch, ("note", i, lang)
+
+
+D2 = {}
+def dec2(rev, i, decision, reason, *edits):
+    D2[(rev, i)] = (decision, reason, list(edits))
+
+# Each disputed point was checked against Kübler, Zacher, Kroll, Plutarch and Preisendanz before the decision
+# (raw/v02-verify.json).
+A = "gpt-6-astra"
+dec2(A, 1, "принято с изменением", "Текст Валерия здесь утрачен, и Кюблер печатает эпитому (Kübler, conspectus; p. 2 app. к 2,9), так что «om. Val.» у Кролля не свидетельство. Добавлено, что Валерий знает этот оракул: надпись на статуе Нектанеба в 1,34.",
+     (*note(5, "ru"), "У Валерия этого оракула здесь нет (Кролль: «om. Val.»).",
+      "В эпитоме этого оракула нет. Помета Кролля «om. Val.» (с. 3, к строкам 10–18) здесь не независимое свидетельство: текст Валерия в этом месте утрачен, и Кюблер печатает вместо него эпитому (см. схолию 1). Был ли этот оракул здесь у Валерия, неизвестно; но в 1,34 Валерий приводит его как надпись под статуей Нектанеба (царь вернётся «не старше, а моложе»), и Александру объясняют, что этот оракул был дан египтянам, когда они искали своего царя."),
+     (*note(5, "source"), None, "; Kübler 1888, p. 2 app.; Iul. Val. 1,34 (Kübler 1888, p. 44)"))
+dec2(A, 2, "принято с изменением", "См. предыдущее.",
+     (*note(5, "en"), "This oracle is absent here in Valerius (Kroll: ‘om. Val.’).",
+      "The oracle is absent from the Epitome. Kroll’s ‘om. Val.’ (p. 3, on lines 10–18) is not independent evidence here: Valerius’ text is lost at this point, and Kübler prints the Epitome in its place (see note 1). Whether Valerius had the oracle here cannot be known; but in 1,34 he gives it as the inscription beneath Nectanebo’s statue (the king will return ‘not older, but younger’), and Alexander is told that this oracle was given to the Egyptians when they were seeking their king."))
+dec2(A, 3, "принято", "Согласование (ошибка внесена при арбитраже версии 0.1).",
+     (*note(8, "ru"), "(suam constellationem) остался без объяснения", "(suam constellationem) осталось без объяснения"))
+dec2(A, 4, "принято с изменением", "По изданию Прайзенданца (PGM I, 1928, с. 82–89): в рецепте две фигурки из воска (глина — дополнение издателя), имя пишется на груди женской фигурки; ложа, светильников и сока нет. Обобщение о «стандартном наборе» снято.",
+     (*note(10, "ru"), "*", "Восковой фигурке с надписанным именем есть параллель в греко-египетских магических папирусах: в любовном привороте PGM IV 296–466 велено вылепить из воска две фигурки, мужскую и женскую, написать на груди женской фигурки имя той, кого привораживают, вместе с именем её матери, и произнести заклинание. Ложа, светильников и травяного сока в этом рецепте нет."),
+     (*note(10, "source"), "PGM IV 296–466", "PGM IV 296–466 (Preisendanz 1928, I, pp. 82–89)"))
+dec2(A, 5, "принято с изменением", "См. предыдущее.",
+     (*note(10, "en"), "*", "A wax figure inscribed with a name has a parallel in the Graeco-Egyptian magical papyri: the erotic binding spell PGM IV 296–466 prescribes modelling two wax figures, a man and a woman, writing on the woman’s breast the name of the woman to be bound, together with her mother’s name, and reciting a spell. The little bed, the lamps and the herbal juice have no counterpart in this recipe."))
+dec2(A, 6, "принято", "Смешение времён в английском.",
+     (6, "en", "she calls the man to her and told him the vision of the dream.", "she calls the man to her and tells him the vision of the dream."))
+dec2(A, 7, "принято с изменением", "Направление отношения верное у рецензента; «due» добавляет оттенок долга, которого нет в adfectus. Непроверенная ссылка на Стоунмена–Гарджуло заменена ссылкой на Кролля.",
+     (*note(11, "en"), "but a father’s regard", "but regard for him as a father"),
+     (*note(11, "source"), "Kroll 1926, p. 7 app. (β); Stoneman–Gargiulo 2007, comm. ad 1.6", "Ps.-Call. α 1.6 (Kroll 1926, p. 7 with app.)"))
+dec2(A, 8, "принято с изменением", "У Плутарха (Alex. 3.1–2) потеря глаза — предсказание дельфийского оракула, о его исполнении Плутарх не говорит. Фраза уточнена целиком.",
+     (*note(19, "ru"), "Ср. у Плутарха (Alex. 2.6; 3.2): змей рядом со спящей Олимпиадой охладил к ней Филиппа, и тот будто бы лишился глаза, которым подглядел бога в облике змея.",
+      "Ср. у Плутарха (Alex. 2.6; 3.1–2): змей, которого однажды видели рядом со спящей Олимпиадой, охладил к ней Филиппа; после этого видения дельфийский оракул велел Филиппу приносить жертвы Аммону и чтить его больше всех богов и предсказал, что он лишится того глаза, которым подсмотрел в щель двери бога в облике змея на ложе своей жены."),
+     (*note(19, "source"), "Plut. Alex. 2.6; 3.2", "Plut. Alex. 2.6; 3.1–2"))
+dec2(A, 9, "принято с изменением", "См. предыдущее.",
+     (*note(19, "en"), "Compare Plutarch (Alex. 2.6; 3.2): a serpent seen beside the sleeping Olympias cooled Philip towards her, and he is said to have lost the eye with which he spied on the god in serpent form.",
+      "Compare Plutarch (Alex. 2.6; 3.1–2): a serpent once seen lying beside the sleeping Olympias cooled Philip towards her; after this apparition the Delphic oracle told Philip to sacrifice to Ammon and revere him above all gods, and foretold that he would lose the eye with which he had spied through the chink of the door on the god, in serpent form, lying with his wife."))
+dec2(A, 10, "принято", "visus est — «был виден» (у Валерия egredi visitur, Kübler p. 10); событие подано как увиденное.",
+     (11, "ru", "показалось, что из неё вышел змеёныш", "было видно, как из неё вышел змеёныш"))
+dec2(A, 11, "принято", "considere с аблативом места — «сесть на» (Verg. Aen. 4.573 considite transtris); «у ложа» передавало adsidensque lectulo Валерия. Добавлено в список трудных мест.",
+     (22, "ru", "сев у ложа", "сев на ложе"),
+     (22, ("doubt_add",), None, {"latin": "considensque lectulo", "issue": "Valerius has ‘adsidensque lectulo’ (sitting by the sickbed, the usual sense of ‘adsidere’ + dative); the Epitome changed the verb. ‘considere’ with a bare ablative means ‘to sit down on’ (Verg. Aen. 4.573 ‘considite transtris’; cf. ch. 11 ‘considensque’).", "choice": "«сев на ложе» / ‘sitting down on the couch’ (changed in version 0.2 after the GPT-6 Astra review)."}))
+dec2(A, 12, "принято", "См. предыдущее.",
+     (22, "en", "sitting down by the couch", "sitting down on the couch"))
+dec2(A, 13, "принято с изменением", "По изображению страницы Цахера (с. 27–28, аппарат): словами — «octo» в L и «octingentos» в A и B (не в E: OCR читает ABVb как AEYb); Vb — рукопись Валерия, а не эпитомы.",
+     (*note(46, "ru"), "В рукописях эпитомы числа записаны римскими цифрами; словами их передал Цахер.",
+      "В рукописях эпитомы эти числа записаны большей частью римскими цифрами (словами лишь изредка, например «octo» в L, «octingentos» в A и B); Цахер печатает все числа словами."))
+dec2(A, 14, "принято с изменением", "См. предыдущее.",
+     (*note(46, "en"), "The Epitome manuscripts give the figures in Roman numerals; Zacher writes them out in words.",
+      "The Epitome manuscripts mostly give these figures in Roman numerals (only occasionally in words, e.g. ‘octo’ in L, ‘octingentos’ in A and B); Zacher prints them all in words."))
+dec2(A, 15, "принято с изменением", "У Валерия (Kübler p. 47,4–9) во втором сне сатир протягивает сыр (tyrum), Александр его растаптывает, а толкователи предсказывают, что Тир будет попран. Игра «са-Тирос» — у Плутарха (Alex. 24.8–9), в α от неё остался след (Kroll p. 40 app.). Дано толкование сна и происхождение игры слов.",
+     (*note(53, "ru"), "Опущены также сон о сатире («са-Тирос») и основание Триполиса из трёх деревень.",
+      "Опущены также второй сон Александра и основание Триполиса из трёх деревень. Во сне сатир протягивает Александру сыр (tyrum, греч. τυρός), Александр бросает его и растаптывает, а толкователи объясняют: Тир (Tyrum) скоро будет попран ногами царя. Игра «са-Тирос» (σάτυρος → σὰ Τύρος, «Тир твой») — у Плутарха (Alex. 24, 8–9); в α от неё остался лишь след (Kroll, p. 40, app. к стр. 8)."),
+     (*note(53, "source"), "Iul. Val. 1,35 (Kübler 1888, pp. 45–47)", "Iul. Val. 1,35 (Kübler 1888, cap. 35–36, pp. 45–47); Ps.-Call. α 1.35 (Kroll 1926, p. 40 with app.); Plut. Alex. 24.8–9"))
+dec2(A, 16, "принято с изменением", "См. предыдущее.",
+     (*note(53, "en"), "Also omitted are the dream of the satyr (‘sa-Tyros’) and the founding of Tripolis from three villages.",
+      "Also omitted are Alexander’s second dream and the founding of Tripolis from three villages. In the dream a satyr holds out a cheese to him (tyrum, Greek τυρός); Alexander throws it down and tramples it, and the interpreters explain that Tyre (Tyrum) will soon be trampled under the king’s feet. The ‘sa-Tyros’ pun (σάτυρος → σὰ Τύρος, ‘Tyre is yours’) is Plutarch’s (Alex. 24.8–9); α keeps only a trace of it (Kroll, p. 40, app. to l. 8)."))
+dec2(A, 17, "принято с изменением", "«При стольких силах» передаёт consitum эпитомы, а не confisum. Попутно смягчена догадка об «ошибке Маи»: consitum стоит во всех рукописях эпитомы (с IX в.), независимых от Маи, так что это старое чтение.",
+     (*note(59, "ru"), "Перевод («при стольких силах») подходит к обоим чтениям.",
+      "Перевод («при стольких силах») следует чтению эпитомы «consitum»; чтение «confisum» означало бы «полагающийся на такие силы»."),
+     (*note(59, "ru"), "так что «consitum», возможно, ошибка Маи.",
+      "так что неясно, ошибся ли Маи или Кюблер не отметил разночтения; эпитома во всяком случае показывает, что «consitum» — старое чтение."),
+     (38, ("doubt", 0, "choice"), None, "Rendered after the Epitome’s ‘consitum’: ‘furnished with such forces’ / «при стольких силах»; see the note."))
+dec2(A, 18, "принято с изменением", "См. предыдущее.",
+     (*note(59, "en"), "The translation (‘furnished with such forces’) suits both readings.",
+      "The translation (‘furnished with such forces’) follows the Epitome’s reading ‘consitum’; ‘confisum’ would mean ‘relying on such forces’."),
+     (*note(59, "en"), "so ‘consitum’ may be Mai’s error.",
+      "so it is unclear whether Mai erred or Kübler failed to record the variant; the Epitome at least shows that ‘consitum’ is an old reading."))
+dec2(A, 19, "отклонено", "Форма currus — действительно множественное число, но фраза взята у Валерия, где это одна колесница Дария: двумя строками выше «currum quidem … abdendum mandat» (Kübler p. 54), а вся фраза передаёт греческое «τὸ μὲν ἅρμα αὐτοῦ καὶ τὰ τόξα» (α 1.41, Kroll p. 47); ср. Арриан 2.11.6 и Плутарх, Alex. 20.10. Поэтическое множественное, как Verg. Aen. 6.485. Перевод сохранён; в схолию 64 и в список трудных мест добавлено объяснение.",
+     (*note(64, "ru"), "в эпитоме он колесницу «потерял».",
+      "в эпитоме он колесницу «потерял». Слово «currus», которым названа захваченная затем колесница, — форма множественного числа; она взята у Валерия, который так передаёт греческое «τὸ μὲν ἅρμα αὐτοῦ» («его колесницу», α 1.41)."),
+     (*note(64, "en"), "in the Epitome he has ‘lost’ it.",
+      "in the Epitome he has ‘lost’ it. The word for the chariot Alexander then captures, ‘currus’, is plural in form; it comes from Valerius, who uses it to render the Greek ‘τὸ μὲν ἅρμα αὐτοῦ’ (‘his chariot’, α 1.41)."),
+     (*note(64, "source"), None, "; Ps.-Call. α 1.41 (Kroll 1926, p. 47)"),
+     (41, ("doubt", 3, "issue"), None, "‘currus’ is formally accusative plural (all manuscripts; Zacher p. 34 app.). It is copied from Valerius, where it is Darius’ own chariot: just before, Darius orders ‘currum quidem … abdendum’ (Kübler p. 54), and Valerius is rendering α ‘τὸ μὲν ἅρμα αὐτοῦ καὶ τὰ τόξα’ (‘his chariot and his bow’, Kroll p. 47). A poetic plural for one chariot, as in Verg. Aen. 6.485 ‘currus … arma tenentem’."))
+dec2(A, 20, "отклонено", "См. предыдущее.")
+dec2(A, 21, "принято", "Аппарат о Scamandrum — на с. 35, к строке 2.",
+     (*note(66, "source"), "Zacher 1867, p. 34, apparatus", "Zacher 1867, p. 35, apparatus"))
+dec2(A, 22, "принято", "fere при числах и сроках — «примерно».",
+     (46, "ru", "И так, почти на третий день,", "И так, примерно на третий день,"))
+
+# Found while checking the review (not raised by the reviewer).
+FIXES = []
+def fix(ch, severity, category, lang, problem, *edits):
+    FIXES.append((ch, {"severity": severity, "category": category, "lang": lang, "problem": problem}, list(edits)))
+
+fix(10, "major", "note-fact", "note", "Схолия 19: у Валерия «ne quid omnino coniugali fidei deesset apud eum maritum, cui talis visio proderetur» — fides здесь «достоверность» для мужа, которому явлено зрелище (ср. «quo fidem faceret divino commercio»; в α — τεκμήριον στοργῆς … πρὸς τοὺς θεωμένους); «супружеской верности» передавало обратный смысл. Змей не «касается» Олимпиады, а тянется её поцеловать (osculum adfectat); Филипп отступает «в страхе и изумлении» (Kübler p. 9).",
+    (*note(19, "ru"), "У Валерия (1,10) змей ещё ложится Олимпиаде на колени и касается её раздвоенным языком, «чтобы супружеской верности ничего не недоставало», а Филипп отступает в страхе; эпитоматор это выпустил.",
+     "У Валерия (1,10) змей ещё усаживается Олимпиаде на колени и, трепеща раздвоенным языком, тянется её поцеловать, «чтобы в глазах мужа, которому явлено такое зрелище, достоверности этого супружества ничего не недоставало» (ne quid omnino coniugali fidei deesset apud eum maritum, cui talis visio proderetur), а Филипп отступает в страхе и изумлении; эпитоматор это выпустил."),
+    (*note(19, "en"), "In Valerius (1,10) the serpent also settles on Olympias’ knees and touches her with its forked tongue, ‘so that nothing should be lacking to conjugal fidelity’, while Philip draws back in fear; the epitomator omitted this.",
+     "In Valerius (1,10) the serpent also settles on Olympias’ knees and, flickering its forked tongue, tries to kiss her, ‘so that, in the eyes of the husband to whom such a sight was shown, nothing should be lacking to the credibility of the union’ (ne quid omnino coniugali fidei deesset apud eum maritum, cui talis visio proderetur), while Philip draws back in fear and amazement; the epitomator omitted this."))
+fix(13, "major", "note-fact", "note", "Схолия 24 (правка версии 0.1): «кобылиц Лаомедонта» в армянской версии нет. По изданию 1842 г. (§ 31) конь превосходит «красотой и быстротой» Пегаса и Ариона и приведён «из Ламоментеа» — вероятно, искажённое имя Лаомедонта; это согласуется с аппаратом Кролля (с. 14: καὶ τάχει, τοῦ Ἀρίονος Arm.). Непроверенная ссылка на Стоунмена–Гарджуло заменена проверенными источниками.",
+    (*note(24, "ru"), "Сравнений с Пегасом и конями Лаомедонта в A нет, но Пегас есть в β (L B C: κάλλει διαφέροντα τοῦ Πηγάσου), а Пегас и кобылицы Лаомедонта — в армянской версии, так что оба сравнения восходят к греческому источнику; замечание Цахера «вся эта фраза отсутствует в греческих текстах ALBC» касается лишь придаточного о конях Лаомедонта.",
+     "Сравнений с Пегасом и конями Лаомедонта в A нет. Пегас есть в β (L B C: κάλλει διαφέροντα τοῦ Πηγάσου) и в армянской версии: там конь превосходит «красотой и быстротой» Пегаса и Ариона, а привели его, по словам приведших, «из Ламоментеа» — вероятно, это искажённое имя Лаомедонта. Значит, сравнение с Пегасом восходит к греческому источнику, а упоминание Лаомедонта, по-видимому, тоже; замечание Цахера «вся эта фраза отсутствует в греческих текстах ALBC» касается лишь придаточного о конях Лаомедонта."),
+    (*note(24, "en"), "The comparisons with Pegasus and Laomedon’s horses are missing in A, but β (L B C) has Pegasus (κάλλει διαφέροντα τοῦ Πηγάσου) and the Armenian version has both Pegasus and Laomedon’s mares, so both go back to the Greek source; Zacher’s remark that ‘this whole phrase is absent from the Greek texts ALBC’ concerns only the clause about Laomedon’s horses.",
+     "The comparisons with Pegasus and Laomedon’s horses are missing in A. Pegasus is in β (L B C: κάλλει διαφέροντα τοῦ Πηγάσου) and in the Armenian version, where the horse surpasses Pegasus and Arion ‘in beauty and speed’ and is said to have been brought ‘from Lamomentea’, probably a garbled form of Laomedon’s name. So the Pegasus comparison goes back to the Greek source, and the mention of Laomedon probably does too; Zacher’s remark that ‘this whole phrase is absent from the Greek texts ALBC’ concerns only the clause about Laomedon’s horses."),
+    (*note(24, "source"), "Ps.-Call. α 1.13 (Kroll 1926, p. 14); Iul. Val. 1,13 (Kübler 1888, pp. 12–14); Zacher 1867, p. 17 app.; Stoneman–Gargiulo 2007, comm. ad 1.13",
+     "Ps.-Call. α 1.13 (Kroll 1926, p. 14 with app.); β: Müller 1846, Ps.-Call. p. 13; Armenian text, Venice 1842, p. 16 (§ 31); Iul. Val. 1,13 (Kübler 1888, pp. 12–14); Zacher 1867, p. 17 app."))
+fix(34, "minor", "note-fact", "note", "Схолия 51 предполагала, что у Валерия оракул был в гл. 3; там Валерий утрачен (см. замечание к схолии 5).",
+    (*note(51, "ru"), "(как и оракул о возвращении в гл. 3)", "(в гл. 3 эпитомы этого оракула тоже нет)"),
+    (*note(51, "en"), "(as he dropped the oracle of the return in ch. 3)", "(the Epitome has no oracle of the return in ch. 3 either)"))
+fix(6, "minor", "mistranslation", "en", "«superveniet draco reptabundus» — змей приползёт к ней, а не «по ней» (‘crawling upon you’); ср. русское «к тебе приползёт змей».",
+    (6, "en", "a serpent will come crawling upon you", "a serpent will come crawling up to you"))
+fix(11, "minor", "mistranslation", "ru", "«Ex quo cum draco erupisse videatur»: «как видно» читается как «по-видимому» и повторяет в малом проблему «показалось» (замечание 10 рецензента).",
+    (11, "ru", "И поскольку змей, как видно, вырвался из него,", "И поскольку видели, как змей вырвался из него,"))
+fix(14, "minor", "presentation", "note", "Список трудных мест к гл. 14 цитировал перевод до правок версии 0.1.",
+    (14, ("doubt", 2, "choice"), None, "Taken as Alexander: «И пока тот [Александр] усердно пользовался знанием этого искусства…» / ‘And while [Alexander] was eagerly enjoying the expertise of this art…’. Both the external reviewer and the check against Valerius 1,14 (‘non una sedulitas discenti puero cum magistro’, Kübler p. 15) support this reading."),
+    (14, ("doubt", 4, "choice"), None, "«Тебе следовало пенять на искусство, которое ты знал» / ‘You ought to have complained about the art that you had known’."))
+
+fix_rows = []
+for ch, x, edits in FIXES:
+    for e in edits:
+        apply(*e)
+    fix_rows.append((ch, x))
+
+ext_rows, ext_chapters = [], {}
+for rev in EXTERNAL:
+    r = load(f"review/external/{rev}.json")
+    ext_chapters[rev] = {c["chapter"]: c for c in r["chapters"]}
+    for i, x in enumerate(r["issues"], 1):
+        decision, reason, edits = D2[(rev, i)]
+        for e in edits:
+            apply(*e)
+        ext_rows.append((x["chapter"], rev, i, x, decision, reason))
+
 # ---------- 3. Review log per chapter, notes numbering ----------
 SEV = {"critical": "критическое", "major": "существенное", "minor": "малое"}
 CAT = {"mistranslation": "ошибка перевода", "omission": "пропуск", "addition": "добавление", "grammar-of-latin": "латинская грамматика",
-       "names-terms": "имена и термины", "fluency": "гладкость", "style": "стиль", "note-fact": "факт в примечании"}
+       "names-terms": "имена и термины", "fluency": "гладкость", "style": "стиль", "note-fact": "факт в примечании",
+       "latin-grammar": "латинская грамматика"}
 LANG = {"ru": "RU", "en": "EN", "both": "RU и EN", "note": "примечание"}
 chapters = []
 note_no = 0
@@ -227,10 +383,28 @@ for ch in sorted(segs):
                            for _, t, i, x, _, _ in mine) or "Замечаний нет."
         log.append({"role": label, "who": model, "text": text})
     if rows:
-        log.append({"role": "Арбитраж", "who": MODELS["arb"],
+        log.append({"role": "Арбитраж, версия 0.1", "who": MODELS["arb"],
                     "text": "<br>".join(f"<b>{no[(t, i)]}.</b> <i>{d}</i>. {esc(why)}" for _, t, i, _, d, why in rows)})
-    log.append({"role": "Рецензия другой модели", "who": "GPT · OpenAI", "text": "Ожидается: перекрёстная рецензия моделью другого семейства через Codex.", "pending": True})
-    log.append({"role": "Редактор", "who": "Редакция Neoscholia", "text": "Ожидает проверки.", "pending": True})
+    for rev, who in EXTERNAL.items():
+        cc = ext_chapters[rev].get(ch, {})
+        mine = [r for r in ext_rows if r[0] == ch and r[1] == rev]
+        for r in mine:
+            no[(r[1], r[2])] = len(no) + 1
+        verdict = " · ".join(f"{lang}: {'без замечаний' if cc.get(lang.lower()) == 'ok' else 'есть замечания'}" for lang in ("RU", "EN"))
+        text = f"{verdict}.<br>{show(cc.get('comment', ''))}"
+        if mine:
+            text += "<br>" + "<br>".join(f"<b>{no[(t, i)]}.</b> {SEV[x['severity']]} · {CAT.get(x['category'], x['category'])} · {LANG[x['lang']]}. {show(x['problem'])}"
+                                         for _, t, i, x, _, _ in mine)
+        log.append({"role": "Рецензия другой модели", "who": who, "text": text})
+        if mine:
+            log.append({"role": "Арбитраж, версия 0.2", "who": MODELS["arb"],
+                        "text": "<br>".join(f"<b>{no[(t, i)]}.</b> <i>{d}</i>. {esc(why)}" for _, t, i, _, d, why in mine)})
+    found = [x for c_, x in fix_rows if c_ == ch]
+    if found:
+        log.append({"role": "Сверка при арбитраже", "who": f"{MODELS['arb']}, агенты-проверщики",
+                    "text": "Не отмечено рецензентами, найдено при сверке с изданиями; <i>исправлено</i>.<br>"
+                            + "<br>".join(f"{SEV[x['severity']]} · {CAT.get(x['category'], x['category'])} · {LANG[x['lang']]}. {esc(x['problem'])}" for x in found)})
+    log.append({"role": "Редактор", "who": "Александр Михельс, PhD", "text": "Ожидает проверки.", "pending": True})
     para = []
     if p.get("jv", "").startswith("No independent"):
         para.append("у Юлия Валерия не сохранилось")
@@ -253,7 +427,8 @@ for ch in sorted(segs):
 
 md = [f"# Iulii Valerii Epitome (Zacher Epitome), Book I — version {VERSION} for review\n",
       "Latin: J. Zacher (Halle 1867) via the CC0 TEI of G. Siemoneit, corrected against the print where noted. "
-      "Russian and English: drafted by Claude Opus 5.5, reviewed by Claude Sonnet 5.5 and Claude Fable 5.1, arbitrated. "
+      "Russian and English: drafted by Claude Opus 5.5, reviewed by Claude Sonnet 5.5 and Claude Fable 5.1 (version 0.1) "
+      "and by GPT-6 Astra (version 0.2), arbitrated. "
       "Margin notes are numbered across the book. "
       "Corrections of the TEI against the print: " + "; ".join(f"ch. {c}: '{o}' → '{n}'" for c, o, n, _ in LATIN_FIXES) + ". "
       "How each issue of the earlier reviews was decided: ../arbitration-log.md.\n"]
@@ -275,21 +450,35 @@ for c in chapters:
             md.append(f"- {d_['latin']} — {d_['issue']} Choice: {d_['choice']}")
 (HERE / "review" / "book1-for-review.md").write_text("\n".join(md) + "\n", encoding="utf-8", newline="\n")
 
-rows_md = ["# Арбитраж рецензий: эпитома Цахера, кн. I, версия 0.1\n",
+rows_md = ["# Арбитраж рецензий: эпитома Цахера, кн. I\n", "## Версия 0.1\n",
            f"Черновик — {MODELS['draft']}; рецензии — {MODELS['r1']} (точность) и {MODELS['r2']} (язык и примечания); арбитраж — {MODELS['arb']}.\n",
            "| Гл. | Рецензия | Серьёзность | Что | Решение | Почему |", "|---|---|---|---|---|---|"]
 for ch, tag, i, x, decision, reason in sorted(log_rows, key=lambda r: (r[0], r[1], r[2])):
     prob = x["problem"].replace("|", "/").replace("\n", " ")
     rows_md.append(f"| {ch} | {tag} #{i} | {x['severity']} | {prob[:160]}{'…' if len(prob) > 160 else ''} | {decision} | {reason.replace('|', '/')} |")
+rows_md += ["\n## Версия 0.2\n",
+            "Рецензия моделью другого семейства: " + ", ".join(f"{w} (`review/external/{r}.json`; номера замечаний — как в рецензии)" for r, w in EXTERNAL.items())
+            + f". Арбитраж — {MODELS['arb']}; спорные места перед решением сверены с изданиями Кюблера, Цахера, Кролля и Плутарха (`raw/v02-verify.json`).\n",
+            "| Гл. | Рецензия | Серьёзность | Что | Решение | Почему |", "|---|---|---|---|---|---|"]
+for ch, rev, i, x, decision, reason in sorted(ext_rows, key=lambda r: (r[0], r[2])):
+    prob = x["problem"].replace("|", "/").replace("\n", " ")
+    for d in UNAUTHORISED:
+        prob = re.sub(r"https?://(www\.)?" + re.escape(d) + r"\S*", "[ссылка на неавторизованную копию]", prob)
+    rows_md.append(f"| {ch} | {rev} #{i} | {x['severity']} | {prob[:160]}{'…' if len(prob) > 160 else ''} | {decision} | {reason.replace('|', '/')} |")
+rows_md += ["\nНайдено при сверке, рецензентами не отмечено (исправлено):\n", "| Гл. | Серьёзность | Что |", "|---|---|---|"]
+rows_md += [f"| {ch} | {x['severity']} | {x['problem'].replace('|', '/')} |" for ch, x in fix_rows]
 rows_md.append("\nИсправления латинского текста по печатному изданию: " + "; ".join(f"гл. {c}: «{o}» → «{n}» ({w})" for c, o, n, w in LATIN_FIXES) + ".")
 (HERE / "arbitration-log.md").write_text("\n".join(rows_md) + "\n", encoding="utf-8", newline="\n")
 
 SITE_DATA.parent.mkdir(parents=True, exist_ok=True)
 site = json.loads(SITE_DATA.read_text(encoding="utf-8")) if SITE_DATA.exists() else {}
 site["chapters"] = [{k: c[k] for k in ("chapter", "pages", "parallels", "latin", "ru", "en", "notes", "log")} for c in chapters]
-site["stats"] = {"chapters": len(chapters), "notes": note_no, "issues": len(log_rows),
-                 "major": sum(1 for r in log_rows if r[3]["severity"] == "major"),
-                 "accepted": sum(1 for r in log_rows if r[4].startswith("принято")),
-                 "partly": sum(1 for r in log_rows if r[4] == "частично")}
+all_rows = log_rows + ext_rows
+site["stats"] = {"chapters": len(chapters), "notes": note_no, "issues": len(all_rows),
+                 "issues_v01": len(log_rows), "issues_v02": len(ext_rows),
+                 "major": sum(1 for r in all_rows if r[3]["severity"] in ("major", "critical")),
+                 "accepted": sum(1 for r in all_rows if r[4].startswith("принято")),
+                 "partly": sum(1 for r in all_rows if r[4] == "частично"),
+                 "rejected": sum(1 for r in all_rows if r[4] == "отклонено")}
 SITE_DATA.write_text(json.dumps(site, ensure_ascii=False, indent=1), encoding="utf-8", newline="\n")
-print(f"chapters {len(chapters)}, notes {note_no}, issues {len(log_rows)}", site["stats"])
+print(f"version {VERSION}", site["stats"])
