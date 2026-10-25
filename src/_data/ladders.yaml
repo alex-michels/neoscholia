@@ -10,6 +10,7 @@ text:
     - { key: models,  label: Перекрёстная проверка моделями }
     - { key: editor,  label: Проверено редактором }
     - { key: review,  label: Внешняя рецензия }
+    - { key: final,   label: Окончательная версия }
 
 study:
   label: Путь публикации

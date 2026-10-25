@@ -31,10 +31,12 @@ a:focus-visible, button:focus-visible { outline: 2px solid var(--lapis); outline
 .pipe p { margin: 0 0 .35rem; max-width: 42rem; }
 .pipe .out { font-family: var(--font-label); font-size: .84rem; letter-spacing: .04em; color: var(--lapis); }
 .pipe .who { font-family: var(--font-label); font-size: .84rem; letter-spacing: .04em; color: var(--ink-soft); }
+/* status steps; overrides the flex layout of the page-top status ladder in base.css */
+.ladder { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: .8rem; }
 .step { background: var(--panel); border: 1px solid var(--rule); padding: .9rem 1rem; display: flex; flex-direction: column; gap: .35rem; min-width: 0; }
 .step .badge { font-family: var(--font-label); font-size: .82rem; letter-spacing: .05em; align-self: start; padding: .05rem .55rem; border: 1px solid var(--lapis); color: var(--lapis); }
 .step.s1 .badge { border-color: var(--rule); color: var(--ink-soft); }
-.step.s4 .badge { background: var(--lapis); color: var(--leaf); }
+.step.s5 .badge { background: var(--lapis); color: var(--leaf); }
 .step b { font-weight: 400; font-family: var(--font-display); font-size: 1.15rem; }
 .step p { margin: 0; font-size: .93rem; }
 .step .rely { font-size: .88rem; color: var(--ink-soft); margin-top: auto; padding-top: .4rem; border-top: 1px dashed var(--rule); }
@@ -64,6 +66,7 @@ table.t { border-collapse: collapse; width: 100%; min-width: 36rem; font-size: .
 .board span { font-size: .9rem; color: var(--ink-soft); }
 @media (max-width: 1020px) {
   .board { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .ladder { grid-template-columns: repeat(3, minmax(0, 1fr)); }
 }
 @media (max-width: 880px) {
   .doc { grid-template-columns: minmax(0, 1fr); gap: 1.2rem; }

@@ -229,7 +229,7 @@ for ch in sorted(segs):
     if rows:
         log.append({"role": "Арбитраж", "who": MODELS["arb"],
                     "text": "<br>".join(f"<b>{no[(t, i)]}.</b> <i>{d}</i>. {esc(why)}" for _, t, i, _, d, why in rows)})
-    log.append({"role": "Внешняя рецензия", "who": "модель другого семейства", "text": "Ожидается (GPT через Codex).", "pending": True})
+    log.append({"role": "Рецензия другой модели", "who": "GPT · OpenAI", "text": "Ожидается: перекрёстная рецензия моделью другого семейства через Codex.", "pending": True})
     log.append({"role": "Редактор", "who": "Редакция Neoscholia", "text": "Ожидает проверки.", "pending": True})
     para = []
     if p.get("jv", "").startswith("No independent"):
