@@ -17,6 +17,14 @@ figure.kinds figcaption, figure.kinds .fig-note { grid-column: 1 / -1; }
   padding-bottom: .3rem; border-bottom: 2px solid var(--ink); }
 .kind h3 span { font-weight: 400; color: var(--rubric); margin-left: .3rem; }
 .kind ul { margin: 0; padding-left: 1rem; font-size: .95rem; display: grid; gap: .2rem; }
+figure.lexica { margin: 0; background: var(--panel); border: 1px solid var(--rule); padding: 1rem 1.1rem 1.1rem; }
+figure.lexica figcaption { font-size: .88rem; color: var(--ink-soft); margin-bottom: .7rem; }
+figure.lexica figcaption b { color: var(--ink); font-weight: 400; }
+.timeline { list-style: none; margin: 0; padding: 0; display: grid; gap: .55rem; border-left: 2px solid var(--rubric); }
+.timeline li { display: grid; gap: .1rem; padding-left: .8rem; position: relative; }
+.timeline li::before { content: ""; position: absolute; left: -.38rem; top: .45rem; width: .6rem; height: .6rem; border-radius: 50%; background: var(--panel); border: 2px solid var(--rubric); }
+.timeline .t { font-family: var(--font-label); font-size: .8rem; letter-spacing: .05em; color: var(--rubric); }
+.timeline .w { font-size: .93rem; }
 .related { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.2rem 2rem; }
 .related li { border-top: 3px solid var(--rubric); padding-top: .7rem; display: grid; gap: .35rem; align-content: start; }
 .related a { font-size: 1.08rem; }
