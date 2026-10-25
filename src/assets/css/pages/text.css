@@ -38,6 +38,12 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 .ref { font-family: var(--font-label); font-size: .9rem; letter-spacing: .05em; color: var(--ink-soft); font-variant-numeric: tabular-nums; }
 .lemma { color: var(--rubric); font-size: 1.15rem; }
 .chips { display: flex; flex-wrap: wrap; gap: .3rem; }
+.listen { font-family: var(--font-label); font-size: .8rem; letter-spacing: .05em; margin-left: auto; cursor: pointer;
+  padding: .1rem .6rem; background: var(--panel); color: var(--lapis); border: 1px solid var(--lapis); }
+.listen::before { content: "▶"; margin-right: .35em; }
+.listen.playing::before { content: "❚❚"; }
+.listen[aria-pressed="true"] { background: var(--lapis); color: var(--leaf); }
+.listen .dur { color: inherit; opacity: .75; }
 .chip { font-family: var(--font-label); font-size: .78rem; letter-spacing: .06em; padding: .05rem .5rem;
   background: var(--wash); color: var(--ink-soft); border: 1px solid var(--rule); }
 .chip.sigla { color: var(--ink); }

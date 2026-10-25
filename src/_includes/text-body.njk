@@ -2,6 +2,7 @@
     На странице: front matter с textKey, ladder, status, version, updated; затем {% include "text-body.njk" %}.
     Поля данных: title, subtitle, crumbs, source, first, intro_ru, intro_en, chapters[], process, versions[], cite, licenses, ai. -#}
 {%- set t = texts[textKey] -%}
+{%- set au = audio[textKey] if audio and audio[textKey] else {} -%}
 <main id="top">
     <div class="crumbs">{% for c in t.crumbs %}{% if c.href %}<a href="{{ c.href }}">{{ c.label }}</a>{% else %}{{ c.label }}{% endif %}{% if not loop.last %} › {% endif %}{% endfor %}</div>
     <h1>{{ t.title }}</h1>
@@ -49,6 +50,12 @@
               {%- if c.pages %}<span class="chip sigla">Zacher {{ c.pages }}</span>{% endif %}
               {%- for p in c.parallels %}<span class="chip">{{ p }}</span>{% endfor %}
             </span>
+            {%- for lang in ["ru", "en"] %}
+            {%- set a = au[lang][c.chapter] if au[lang] else null %}
+            {%- if a and a.hash == (c[lang] | textHash) %}
+            <button type="button" class="listen" data-lang="{{ lang }}" data-src="{{ a.file }}" aria-pressed="false" aria-label="{{ 'Слушать перевод главы ' if lang == 'ru' else 'Listen to the translation of chapter ' }}{{ c.chapter }}">{{ 'Слушать' if lang == 'ru' else 'Listen' }} <span class="dur">{{ (a.seconds / 60) | round(0, "ceil") }} мин</span></button>
+            {%- endif %}
+            {%- endfor %}
           </div>
           <div class="body">
             <div class="sub-schol">

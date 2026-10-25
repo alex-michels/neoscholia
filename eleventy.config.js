@@ -2,6 +2,7 @@
 // Sources: src/ (pages *.njk, data src/_data/*.yaml|json, layout and partials src/_includes, assets src/assets).
 // Output: site/ — plain HTML with relative links; works on any host, in a subfolder, or opened from disk.
 import { execFileSync } from "node:child_process";
+import { createHash } from "node:crypto";
 import { load as loadYaml } from "js-yaml";
 import { renderArticle } from "./lib/article.js";
 
@@ -41,6 +42,9 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("rootPrefix", (url) => "../".repeat(Math.max(0, String(url || "/").split("/").length - 2)));
   eleventyConfig.addFilter("repoPath", (inputPath) => String(inputPath || "").replace(/^\.\//, ""));
   eleventyConfig.addFilter("lastChange", lastChange);
+  // Fingerprint of a chapter's translation; scripts/tts/tts.py names its audio files with the same hash,
+  // so a chapter edited after it was voiced loses its play button until it is voiced again.
+  eleventyConfig.addFilter("textHash", (s) => createHash("sha1").update(String(s), "utf8").digest("hex").slice(0, 10));
   // Research articles: the page takes its text from research/studies/<slug>/article.md (see lib/article.js).
   eleventyConfig.addFilter("article", (path, links) => renderArticle(path, links));
   eleventyConfig.addWatchTarget("research/studies/");

@@ -37,4 +37,26 @@
     } catch (e) { selectIt(); }
   });
   apply();
+
+  // Audio: one player for the page; each chapter has a button per language (pre-recorded synthetic speech).
+  var player = new Audio(), current = null;
+  player.preload = 'none';
+  function stopped() { if (current) { current.setAttribute('aria-pressed', 'false'); current.classList.remove('playing'); } current = null; }
+  player.addEventListener('ended', stopped);
+  player.addEventListener('pause', function () { if (current && player.ended === false && player.currentTime > 0 && player.paused) current.classList.remove('playing'); });
+  document.querySelectorAll('button.listen').forEach(function (b) {
+    b.addEventListener('click', function () {
+      if (current === b) {
+        if (player.paused) { player.play(); b.classList.add('playing'); b.setAttribute('aria-pressed', 'true'); }
+        else { player.pause(); b.setAttribute('aria-pressed', 'false'); }
+        return;
+      }
+      stopped();
+      player.src = b.dataset.src;
+      player.play().catch(function () { stopped(); });
+      current = b; b.classList.add('playing'); b.setAttribute('aria-pressed', 'true');
+    });
+  });
+  // switching the language stops the other language's reading
+  document.getElementById('lang-ctl').addEventListener('click', function () { if (current) { player.pause(); stopped(); } });
 })();

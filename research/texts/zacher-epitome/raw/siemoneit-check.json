@@ -1,0 +1,592 @@
+[
+ {
+  "claims": [
+   {
+    "where": "page.py INTRO_RU/INTRO_EN, para. 1",
+    "claim": "Named the 'Zacher Epitome' after its first and so far only editor, Julius Zacher (Halle 1867).",
+    "verdict": "partly",
+    "pages": "p. 199, n. 3",
+    "german": "„benannt nach ihrem ersten Herausgeber im 19. Jahrhundert“; n. 3: „Zacher (1867).“",
+    "correction": "No change needed. Siemoneit supports only 'first editor' (and Zacher 1867). 'So far only' and 'Germanist' come from other sources. Siemoneit names no other edition of Z: Cillié and Hilka edit the Oxford and Montpellier texts (nn. 5–6)."
+   },
+   {
+    "where": "page.py INTRO_RU/INTRO_EN, para. 2, sentence 1",
+    "claim": "When and where the Epitome was made is unknown.",
+    "verdict": "partly",
+    "pages": "p. 200",
+    "german": "„Dessen Identität liegt immer noch im Dunkeln, ebenso wie Intentionen und Schaffenszeit.“",
+    "correction": "No change needed. Siemoneit supports 'when' and 'who'. He does not discuss place."
+   },
+   {
+    "where": "page.py INTRO_RU/INTRO_EN, para. 2, sentence 2",
+    "claim": "The oldest manuscripts date from the early 9th century: The Hague KB 74 J 9 and Leiden Voss. lat. Q 20.",
+    "verdict": "partly",
+    "pages": "p. 199, n. 3",
+    "german": "„Die älteste bekannte Handschrift datiert aus dem frühen 9. Jahrhundert.“",
+    "correction": "No change needed if the shelfmarks are credited to Jakobi 2019, 84 n. 4. Siemoneit speaks of one oldest manuscript and gives no shelfmark."
+   },
+   {
+    "where": "page.py INTRO_RU/INTRO_EN, para. 2, sentence 3",
+    "claim": "The usual dating to the 8th–9th c. is therefore only a lower limit ('нижняя граница'), and the text may be older.",
+    "verdict": "partly",
+    "pages": "p. 199 and n. 3 (citing Jakobi 2019, 85)",
+    "german": "„im 9. Jahrhundert oder davor entstandene Zacher-Epitome“; n. 3: „sollte diese Angabe als terminus ante quem aufgefasst werden“",
+    "correction": "The substance is right, but two things need fixing. A terminus ante quem is the latest possible date, an upper limit, not a lower one. And 'the usual dating to the 8th–9th c.' is Jakobi's framing, not Siemoneit's. RU: «Древнейшие рукописи относятся к началу IX в.: Гаага, Королевская библиотека, 74 J 9, и Лейден, Voss. lat. Q 20. Эта дата — лишь terminus ante quem: эпитома создана в IX в. или раньше и может быть старше.» EN: «The oldest manuscripts date from the early ninth century: The Hague, Koninklijke Bibliotheek, 74 J 9, and Leiden, Voss. lat. Q 20. That date is only a terminus ante quem: the Epitome was made in the ninth century or earlier, and it may be older.»"
+   },
+   {
+    "where": "page.py INTRO_RU/INTRO_EN, para. 2, last sentence",
+    "claim": "An Italian origin has been proposed and disputed.",
+    "verdict": "not in Siemoneit",
+    "pages": "—",
+    "german": "— (Siemoneit says nothing about place of origin)",
+    "correction": "No change. The source is Jakobi 2019, 84 n. 4, with Reeve and Rosellini, not Siemoneit."
+   },
+   {
+    "where": "page.py INTRO_RU/INTRO_EN, para. 3, sentence 2",
+    "claim": "The full Julius Valerius survives in a few incomplete witnesses.",
+    "verdict": "not in Siemoneit",
+    "pages": "p. 199 (only by implication)",
+    "german": "„dann schenkte man dem Original … nur geringe Beachtung“",
+    "correction": "No change. Siemoneit gives no count of Valerius manuscripts; he only infers from their small number that the original received little attention. The source for this is elsewhere (Ross, Jakobi)."
+   },
+   {
+    "where": "page.py INTRO_RU/INTRO_EN, para. 3 (and para. 8 'roughly eighty')",
+    "claim": "The Epitome survives in about eighty manuscripts.",
+    "verdict": "confirmed",
+    "pages": "p. 199, n. 2",
+    "german": "n. 2: „Voorbij (1984) und Ross (1956) nennen 80 Handschriften, die die Epitome enthalten.“",
+    "correction": "No change. Note that n. 2 credits the figure 80 to both Voorbij and Ross, but Ross 1956 has 68. Cite Voorbij 1984, 117 for 80. In para. 8, 'Zacher used only seven' is not from Siemoneit."
+   },
+   {
+    "where": "page.py INTRO_RU/INTRO_EN, para. 3",
+    "claim": "The Epitome in practice replaced (фактически вытеснила) the original.",
+    "verdict": "confirmed",
+    "pages": "p. 199 (with n. 2); cf. p. 215",
+    "german": "„Nahezu vollständig verdrängt wurde es von der Epitome, die sich großer Beliebtheit erfreute“; p. 215: „dürfte wohl als Ersatz für das Original gedacht gewesen sein“",
+    "correction": "No change. A page reference can be added: Siemoneit 2023, 199."
+   },
+   {
+    "where": "page.py INTRO_RU/INTRO_EN, para. 3",
+    "claim": "For the opening chapters the Epitome, together with its expanded Oxford reworking, is the only source of the Latin text.",
+    "verdict": "partly",
+    "pages": "p. 199, n. 5",
+    "german": "„Die Oxford-Epitome wurde nach der Zacher-Epitome verfasst und erweitert diese um Passagen des Originaltextes“",
+    "correction": "No change needed. Siemoneit confirms that the Oxford text is a later, expanded reworking of Z that undoes some of its cuts. The 'only source for the opening chapters' point is not in Siemoneit; cite Jakobi 2019, 85 and Kübler 1888."
+   },
+   {
+    "where": "page.py INTRO_RU/INTRO_EN, para. 3, reception sentences",
+    "claim": "Through the Epitome the story reached Vincent of Beauvais and Helinand; Alberic, Lamprecht and Thomas of Kent.",
+    "verdict": "not in Siemoneit",
+    "pages": "p. 199, n. 4 (Buntz only); p. 216, n. 59",
+    "german": "„war bis zum 12. Jahrhundert ‚die beliebteste und am meisten verbreitete Version des Alexanderstoffes‘“ (n. 4: Buntz [1973] 11)",
+    "correction": "No change; these points rest on Zacher, Voorbij, Kinzel and Cary. If you want Siemoneit's one reception statement, add RU: «По словам Х. Бунца, до XII в. это была „самая популярная и самая распространённая версия“ сказания об Александре.» EN: «According to H. Buntz, until the twelfth century it was ‘the most popular and most widespread version’ of the Alexander story.»"
+   },
+   {
+    "where": "page.py INTRO_RU/INTRO_EN, para. 4",
+    "claim": "The epitomator cut the text to about a third.",
+    "verdict": "confirmed",
+    "pages": "p. 208 (with n. 46); p. 214",
+    "german": "„da die reine Textmenge nur noch rund ein Drittel der Vorlage beträgt“; p. 214: „auf rund ein Drittel reduziert“",
+    "correction": "No change. Note that the figure is measured in characters (n. 46)."
+   },
+   {
+    "where": "page.py INTRO_RU/INTRO_EN, para. 4",
+    "claim": "The first book is kept more fully than the others.",
+    "verdict": "confirmed",
+    "pages": "p. 208 (Fig. 1, p. 209); p. 215; p. 216",
+    "german": "„dass das Ausmaß der Kürzungen im Laufe des Romans zunimmt“; „vor allem in den Büchern 2 und 3 nur noch aus einem Skelett“; „den Anfang von Buch 1 vergleichsweise wenig gekürzt“",
+    "correction": "Optional precision. RU: «…причём сокращения нарастают от книги к книге: первая книга сохранена полнее остальных, а её начало, с историей Нектанеба, сокращено сравнительно мало.» EN: «…and his cuts grow heavier as the work goes on: the first book is kept more fully than the others, and its opening, with the Nectanebo story, is shortened comparatively little.»"
+   },
+   {
+    "where": "page.py INTRO_RU/INTRO_EN, para. 4",
+    "claim": "He stays close to Julius Valerius' wording.",
+    "verdict": "confirmed",
+    "pages": "p. 205; p. 199, n. 3; p. 208",
+    "german": "„das Vokabular, zuweilen auch die Syntax der bedeutungstragenden Wörter übernommen“; n. 3: „starke Kürzungen bei ansonsten geringfügigen Eingriffen“",
+    "correction": "No change."
+   },
+   {
+    "where": "page.py INTRO_RU/INTRO_EN, para. 4",
+    "claim": "He simplifies vocabulary and syntax.",
+    "verdict": "confirmed",
+    "pages": "p. 214 (examples pp. 206–207; ARI p. 215)",
+    "german": "„das Vokabular ist leichter verständlich, die Syntax wurde geglättet und den Gepflogenheiten des Vulgärlateins … angenähert“",
+    "correction": "No change."
+   },
+   {
+    "where": "page.py INTRO_RU/INTRO_EN, para. 4",
+    "claim": "He leaves out battle details.",
+    "verdict": "confirmed",
+    "pages": "p. 210, n. 50 (continues p. 211); p. 216",
+    "german": "„Die Einzelheiten der Schlachten … bleiben dem Leser regelmäßig erspart“; p. 216: „die Kampfszenen, die stark zurückgedrängt oder ganz getilgt wurden“",
+    "correction": "No change. Siemoneit also stresses that speeches are cut (p. 211), and this could be added."
+   },
+   {
+    "where": "page.py INTRO_RU/INTRO_EN, para. 4",
+    "claim": "He leaves out pagan rites and oracles.",
+    "verdict": "partly",
+    "pages": "p. 213; p. 208; p. 216",
+    "german": "„ebenso selten anzutreffen wie Opferzeremonien oder Orakeldeutungen“; p. 208: „diverse[n] Reden, Orakel- und Traumepisoden“ omitted",
+    "correction": "Siemoneit says these become rare, not that they vanish. Book I keeps Nectanebo's magic and Philip's dream interpretation (ch. 8). RU: «…почти не оставляет языческих обрядов, жертвоприношений и прорицаний…» EN: «…keeps little of the pagan rites, sacrifices and oracles…»"
+   },
+   {
+    "where": "page.py INTRO_RU/INTRO_EN, para. 4",
+    "claim": "He leaves out most mentions of Ammon.",
+    "verdict": "confirmed",
+    "pages": "p. 213 (and pp. 213–214 on 1,30; p. 214 on 2,13)",
+    "german": "„In der Epitome wird Ammon genau dreimal mit Namen genannt“; „nie explizit als Alexanders Vater“",
+    "correction": "'Most mentions' is safe. A more precise wording, which also corrects Siemoneit's count (Z 1,8 names Ammon too), would be RU: «Аммон назван по имени только в рассказе о зачатии Александра (гл. 4, 7, 8, 10) и ни разу — его отцом.» EN: «Ammon is named only in the story of Alexander’s conception (chs. 4, 7, 8, 10), and never as his father.»"
+   },
+   {
+    "where": "page.py INTRO_RU/INTRO_EN, para. 4",
+    "claim": "He leaves out anything that casts a shadow on Alexander (всё, что бросает тень на Александра).",
+    "verdict": "partly",
+    "pages": "p. 211 (examples pp. 211–213); p. 216",
+    "german": "„kürzte bevorzugt an solchen Stellen, die einen Makel oder ein Fehlverhalten thematisieren“; p. 216: „Alexander erscheint als strahlender Held“",
+    "correction": "'Anything' goes beyond 'bevorzugt' (preferentially) and his three selected examples. Book I itself keeps Alexander wounding Lysias and drawing his sword (ch. 21), killing Nectanebo (ch. 14) and sacking Thebes (ch. 46). RU: «…и охотнее всего сокращает места, где говорится об изъяне или проступке Александра.» EN: «…and he cuts most readily where a passage dwells on a flaw or misdeed of Alexander’s.»"
+   },
+   {
+    "where": "page.py INTRO_RU/INTRO_EN, para. 4",
+    "claim": "Siemoneit calls the result a 'Harmlos-Fassung' ('безобидная редакция романа' / 'harmless version of the Romance').",
+    "verdict": "confirmed",
+    "pages": "p. 214",
+    "german": "„Entstanden ist gewissermaßen eine ‚Harmlos-Fassung‘ der Res gestae, die weder vom Umfang her noch sprachlich oder inhaltlich Anstoß erregte“",
+    "correction": "Optional precision: he says 'gewissermaßen' (so to speak) and applies it to the Res gestae. RU: «По выражению Г. Зимонайта, получилась своего рода „безобидная редакция“ (Harmlos-Fassung) „Деяний“.» EN: «G. Siemoneit calls the result a “harmless version”, so to speak (<i lang=\"de\">Harmlos-Fassung</i>), of the <i>Res gestae</i>.»"
+   },
+   {
+    "where": "page.py INTRO_RU/INTRO_EN, para. 4",
+    "claim": "Sometimes the cuts change the meaning.",
+    "verdict": "confirmed",
+    "pages": "p. 206 (n. 37); pp. 212–213 (Thebes, 1,46); p. 214 (2,13)",
+    "german": "„vor allem in Kombination mit Auslassungen kommt es bisweilen doch zu inhaltlichen Verschiebungen“",
+    "correction": "The principle is Siemoneit's, but neither of the two examples that follow is. Suggest adding his Book I example before ours. RU: «У Зимонайта пример — Фивы (гл. 46): исчезают требование тысячи воинов, отказ фиванцев и слова о „насилии Александра“, и нападение выглядит ещё менее мотивированным.» EN: «Siemoneit’s Book I example is Thebes (ch. 46): Alexander’s demand for a thousand soldiers, the Thebans’ refusal and the words “Alexander’s violence” disappear, so the attack looks even less motivated.»"
+   },
+   {
+    "where": "page.py INTRO_RU/INTRO_EN, para. 4",
+    "claim": "Lysias' insulting joke at Philip's wedding is replaced by a general phrase (ch. 21).",
+    "verdict": "not in Siemoneit",
+    "pages": "—",
+    "german": "— (Lysias and ch. 21 are not mentioned anywhere in the chapter)",
+    "correction": "Present it as our own collation, not under Siemoneit's name, which directly precedes it. RU: «Сверка с Юлием Валерием даёт и другие случаи. Оскорбительная шутка Лисия на свадьбе Филиппа заменена общей фразой (гл. 21).» EN: «Our collation with Julius Valerius adds other cases. Lysias’ insulting joke at Philip’s wedding is replaced by a general phrase (ch. 21).»"
+   },
+   {
+    "where": "page.py INTRO_RU/INTRO_EN, para. 4",
+    "claim": "In the Pausanias story Olympias 'consents' (ch. 24); a similar corruption occurs in one manuscript of the full Valerius.",
+    "verdict": "not in Siemoneit",
+    "pages": "—",
+    "german": "— (Pausanias, ch. 24 and the Ambrosianus are not mentioned in the chapter)",
+    "correction": "Keep it as our own collation. The parallel in the Ambrosianus should be credited to Jakobi 2019 (after Calderan and Rosellini), as context.json records; check it there. Do not credit it to Siemoneit."
+   },
+   {
+    "where": "page.py INTRO_RU/INTRO_EN, para. 7 (translation basis)",
+    "claim": "The translation follows Zacher's edition in G. Siemoneit's TEI transcription (CC0).",
+    "verdict": "partly",
+    "pages": "p. 205, n. 35",
+    "german": "„Der maschinenlesbare Text der Zacher-Epitome steht als TEI-Datei auf Github zur Verfügung (https://github.com/qlat/zacher-epitome …)“",
+    "correction": "The article cites the TEI file and used it with CollateX, but does not say who made it or under what licence. No change if the repository itself names Siemoneit and CC0; otherwise write «TEI-транскрипция издания Цахера (github.com/qlat/zacher-epitome, CC0)»."
+   },
+   {
+    "where": "page.py INTRO_RU/INTRO_EN, para. 8 (caveats)",
+    "claim": "The expanded versions of the Epitome (Oxford–Montpellier, Liegnitz) are not considered here.",
+    "verdict": "contradicted",
+    "pages": "p. 199 and n. 6",
+    "german": "n. 6: „die Metz- und die Liegnitz-Epitome …, die außerhalb dieser Familie stehen … eine im 15. Jahrhundert angefertigte, bald kürzende, bald erweiternde Bearbeitung der Res gestae“",
+    "correction": "Oxford–Montpellier is confirmed: „Nur geringfügige Änderungen gegenüber der Oxford-Epitome weist die sogenannte Montpellier-Epitome auf“ (p. 199). For Liegnitz, Siemoneit disagrees with Voorbij/Hilka. RU: «Расширенная оксфордско-монпельевская версия эпитомы и лигницкая обработка XV в. (Зимонайт считает её самостоятельной переработкой „Деяний“, а не версией эпитомы Цахера) здесь не учитываются.» EN: «The expanded Oxford–Montpellier version of the Epitome and the fifteenth-century Liegnitz reworking (which Siemoneit treats as a separate reworking of the Res gestae, outside the Zacher family) are not considered here.»"
+   },
+   {
+    "where": "context.json siemoneit_book1, item 1 (family, displacement, unknown author/date)",
+    "claim": "Z is the oldest of a family of epitomes and displaced the original; Oxford partly undoes Z's cuts; Montpellier differs slightly from Oxford; Metz (4th/5th c. compilation) and Liegnitz (15th c.) lie outside the family; author, purpose and date are unknown; the text has been little studied.",
+    "verdict": "confirmed",
+    "pages": "p. 199 (nn. 2–6); p. 200 (n. 7)",
+    "german": "„Die älteste ist die im 9. Jahrhundert oder davor entstandene Zacher-Epitome“; „macht also gewissermaßen einige der Kürzungen wieder rückgängig“; p. 200: „bislang weitgehend vernachlässigt“",
+    "correction": "Add pages: '(p. 199 with nn. 2–6; p. 200)'. Metz: Siemoneit writes 'wohl' (probably) 4th/5th c."
+   },
+   {
+    "where": "context.json siemoneit_book1, item 2 (method)",
+    "claim": "He starts with a cultural-historical discussion (Galen, Genette), then compares Z character by character with Rosellini's 2004 text, with cosine and Ratcliff/Obershelp similarity in the notes.",
+    "verdict": "partly",
+    "pages": "pp. 200–204 (Galen p. 202 n. 19; Genette p. 203 n. 27); p. 205 n. 35; p. 208 n. 46; Fig. 1 p. 209",
+    "german": "p. 200: „gattungstheoretische Kontextualisierung“; n. 35: „Für den Vergleich beider Texte wurde die Software CollateX benutzt“; n. 46: „Vergleich der Textlänge gemessen in Zeichen“",
+    "correction": "\"2. Method (pp. 200–208). After a genre-theoretical discussion of epitomising (pp. 200–204; Galen's Synopsis de pulsibus, p. 202 n. 19; Genette's minimal story, p. 203 n. 27), he collates Z with Rosellini's 2004 text using CollateX (p. 205 n. 35). His Fig. 1 (p. 209) plots each chapter's length in characters as a percentage of Valerius'; word- and sentence-level measures (cosine, Ratcliff/Obershelp) give comparable values (p. 208 n. 46). The regression line shows cuts growing through the work, with Book III least like its source. Overall Z is about one third of the original (p. 208).\""
+   },
+   {
+    "where": "context.json siemoneit_book1, item 3 heading and 1,7 example",
+    "claim": "Changes and expansions (pp. ~204–209); 1,7 'mane facto' for 'mane (iam) luciscente'.",
+    "verdict": "partly",
+    "pages": "pp. 205–208 (1,7: p. 207)",
+    "german": "„mane lucescente (Iul. Val. 1,7,150) bzw. mane facto (Z 1,7 p. 9 l. 8)“",
+    "correction": "Heading: '3. Changes and expansions (pp. 205–208).' Sub-pages: word order and historic present p. 206 (nn. 38–40); latronum pp. 206–207 (nn. 41–42); annum agere, mane facto and 'quo tibi tuisque necessaria emas' p. 207; beluile and lusitatio p. 208. 1,7 line: \"- Commoner expressions: 1,7 'mane facto' for 'mane lucescente' (Iul. Val. 1,7,150); both are post-classical, but 'mane facto' is far commoner from late antiquity on (p. 207).\""
+   },
+   {
+    "where": "context.json siemoneit_book1, item 3, '1,6 direct speech made indirect'",
+    "claim": "Direct speech made indirect: 1,6, Olympias' report of her dream; nothing lost because the content was given in 1,4.",
+    "verdict": "partly",
+    "pages": "pp. 209–210 (section 3, not 2)",
+    "german": "„erwähnt lediglich den Umstand, dass Olympias den Traum berichtet habe: … eique somnii retulit visionem“",
+    "correction": "Move this example to the omissions section and re-label it. \"- Showing turned into telling (pp. 209–210): in 1,6 Olympias' dream report in direct speech becomes 'eique somnii retulit visionem'; nothing is lost, since the prophecy was given a few lines earlier in 1,4.\""
+   },
+   {
+    "where": "context.json siemoneit_book1, item 4 (omissions) heading and theme (a)",
+    "claim": "Omissions (pp. ~209–214). (a) Historiography: 1,26 funds → 'abundantissime'; 1,30 Libya/Ammon → one sentence; battle 1,41 told not shown; Demosthenes.",
+    "verdict": "partly",
+    "pages": "pp. 208–214; 1,26 p. 210; 3.1 pp. 210–211 (n. 50); 1,30 pp. 213–214 and n. 24 p. 203",
+    "german": "p. 210: „3.1 Historiographie … Die Einzelheiten der Schlachten … regelmäßig erspart“; n. 50: „Kapitel 1,41, der Schlacht gegen Darius“",
+    "correction": "\"4. Omissions (pp. 208–214). Only 1,2 and 1,36 are taken over more or less unchanged; whole chapters, speeches, oracle and dream episodes are dropped (p. 208). The epitomator often turns showing into telling (p. 209): 1,6 (pp. 209–210); 1,26, where the sum of 14,460 talents and the second source of funds give way to 'abundantissime' (p. 210). He groups the omissions under three heuristic themes. (a) Historiography (pp. 210–211): battle details are told rather than shown (1,41, n. 50; Siemoneit's reference 'Z 1,42 p. 34 l. 6–7' should read Z 1,41), and speeches are cut, e.g. Demosthenes, 2,3–4 (p. 211).\" Move 1,30 to (c)."
+   },
+   {
+    "where": "context.json siemoneit_book1, item 4 theme (b)",
+    "claim": "Passages that show Alexander's flaws or invite doubt about his birth are cut; in 1,13 the child resembled neither Philip nor his supposed father.",
+    "verdict": "partly",
+    "pages": "pp. 211–213 (1,13 pp. 211–212; 2,15 p. 212; 1,46 pp. 212–213)",
+    "german": "„kürzte bevorzugt an solchen Stellen, die einen Makel oder ein Fehlverhalten thematisieren“; „Fehlende Ähnlichkeit mit Mutter, Vater und Erzeuger“",
+    "correction": "\"(b) The image of Alexander (pp. 211–213). He cuts preferentially ('bevorzugt') where a passage dwells on a flaw or misdeed. In 1,13 Valerius says the child resembled neither Philip, nor his mother, nor the man from whose seed he was thought to come; Z keeps only 'Erat autem vultu et forma pulcherrimus' (pp. 211–212). In 2,15 Alexander's small stature disappears (p. 212). In 1,46 Z omits ... which leaves the attack less motivated (pp. 212–213).\""
+   },
+   {
+    "where": "context.json siemoneit_book1, item 4 theme (c)",
+    "claim": "Pagan religion systematically reduced; Ammon only in 1,4, 1,7, 1,10, never father; 1,30 'pater Ammon' scene gone; 2,13 dream removed.",
+    "verdict": "confirmed",
+    "pages": "pp. 213–214 (n. 53); 1,30 also n. 24, p. 203",
+    "german": "„nur mit gezielter Bearbeitung zu erklären“; „genau dreimal mit Namen genannt“; „nie explizit als Alexanders Vater“",
+    "correction": "Add '(pp. 213–214)' and the 1,30 example moved from (a). Add: \"Siemoneit's count of three overlooks Z 1,8 ('deus est Libyae, Ammon nomine') and Candace's 'Ammoni deo coronam' in Book III.\""
+   },
+   {
+    "where": "context.json siemoneit_book1, item 5 (conclusion)",
+    "claim": "Conclusion (pp. ~214–217): good Latin, systematic; Harmlos-Fassung; simpler vocabulary, smoother syntax; a bare skeleton of the main episodes; meant to replace the original; ARI 16.58 vs 21.45; pro-Christian context; date not narrowed.",
+    "verdict": "partly",
+    "pages": "pp. 214–217 (Harmlos-Fassung p. 214; ARI pp. 214–215, nn. 54–58, Fig. 2 p. 216; skeleton and substitute p. 215; hero, pro-Christian, Leo p. 216, nn. 59–60)",
+    "german": "„vor allem in den Büchern 2 und 3 nur noch aus einem Skelett der wesentlichen Episoden“; „Wahrscheinlich verfügte … über gute Kenntnisse“; „sei dahingestellt“",
+    "correction": "The page range 214–217 is right. Fix two points. \"…a bare skeleton of the main episodes, above all in Books 2 and 3 (p. 215)…\" and \"The redactor probably knew Latin well; his changes are largely systematic (p. 214; but cf. p. 208, 'nicht konsequent durchgehalten').\" Add: \"Leo of Naples kept pagan mythology and battles in the 10th century; whether this argues for an earlier date of Z is left open (p. 216, n. 60).\""
+   },
+   {
+    "where": "context.json siemoneit_book1, item 6 (open question)",
+    "claim": "He asks why the epitomator kept the beginning of Book I nearly intact, including the Nectanabus episode, and suggests sensationalism.",
+    "verdict": "partly",
+    "pages": "pp. 216–217",
+    "german": "„den Anfang von Buch 1 vergleichsweise wenig gekürzt“; „Oder weil er im Laufe des Romans schlicht das Interesse an seiner Arbeit verloren hat“",
+    "correction": "\"6. Open question for Book I (pp. 216–217). He asks why the epitomator shortened the beginning of Book I comparatively little ('vergleichsweise wenig gekürzt') and even kept 'die fabulöse Nectanabus-Episode'. He offers two guesses, both as questions: sensationalism, since the Alexander historians do not know the episode, or loss of interest as the work went on.\""
+   },
+   {
+    "where": "context.json siemoneit_book1, 'MY OWN COLLATION' block",
+    "claim": "Lysias 1,21; Pausanias/'mulier consentiret' 1,24; 'deum praedixisse' 1,24; lost titles 1,35–38; additions 1,18, 1,37, 1,41, 1,46.",
+    "verdict": "not in Siemoneit",
+    "pages": "—",
+    "german": "— (none of these passages is discussed by Siemoneit)",
+    "correction": "No change. The block is correctly labelled as our own collation, not Siemoneit's."
+   },
+   {
+    "where": "context.json bibliography, Siemoneit entry",
+    "claim": "pp. 199–220 per Crossref; read through a third-party mirror; check against the official PDF.",
+    "verdict": "confirmed",
+    "pages": "PDF pp. 1–22 = printed pp. 199–220 (text ends p. 219; p. 220 blank)",
+    "german": "p. 199: „Open Access. © 2023 … Creative Commons Namensnennung – Nicht kommerziell – Keine Bearbeitung 4.0“",
+    "correction": "\"G. Siemoneit, 'Die Zacher-Epitome. Änderungen, Erweiterungen, Auslassungen', in H. Wulfram (ed.), Der lateinische ›Alexanderroman‹ des Iulius Valerius: Sprache, Erzählung, Kontext (Millennium-Studien 101), Berlin/Boston: De Gruyter, 2023, pp. 199–220 (text pp. 199–219). DOI 10.1515/9783111091679-012, open access, CC BY-NC-ND 4.0. Checked against the official PDF.\""
+   },
+   {
+    "where": "src/_data/studies.yaml, «Каролингский эпитоматор за работой…», summary",
+    "claim": "…почему именно его версия стала самой переписываемой латинской историей Александра до XII в. (Siemoneit quoting Buntz); древнейшие рукописи — начало IX в.",
+    "verdict": "partly",
+    "pages": "p. 199, n. 4 (Buntz [1973] 11); n. 3 for the 9th-c. manuscript",
+    "german": "„war bis zum 12. Jahrhundert ‚die beliebteste und am meisten verbreitete Version des Alexanderstoffes‘“",
+    "correction": "Buntz says 'most popular and most widespread version of the Alexander material', not 'most copied Latin history'. RU: «Что сокращает и что меняет эпитоматор (древнейшая рукопись — начало IX в.) и почему именно его версия до XII в. была, по словам Х. Бунца, „самой популярной и самой распространённой“ версией сказания об Александре.»"
+   },
+   {
+    "where": "src/_data/studies.yaml, same entry, title",
+    "claim": "«Каролингский эпитоматор за работой…»",
+    "verdict": "partly",
+    "pages": "p. 199 and n. 3; p. 216 (n. 60); p. 217",
+    "german": "„im 9. Jahrhundert oder davor“; p. 217: „unser spätantiker oder frühmittelalterlicher Epitomator“",
+    "correction": "Siemoneit leaves a late-antique date open, and so does our own intro ('the text may be older'). RU: «Безымянный эпитоматор за работой: эпитома Цахера и Юлий Валерий»."
+   }
+  ],
+  "summary_pages": "Replace the access caveat with: \"Checked against the official open-access PDF (De Gruyter 2023, CC BY-NC-ND 4.0); page numbers are the printed ones.\" PDF page N = printed page 198+N; PDF p. 22 is a blank p. 220. 1 Family, displacement, Oxford/Montpellier, Metz/Liegnitz: p. 199 with nn. 2–6. Unknown author, aims and date, neglect by scholars: p. 200 (n. 7). 2 Method: genre-theory discussion pp. 200–204 (Galen p. 202 n. 19; Genette p. 203 n. 27). Collation with Rosellini 2004 using CollateX: p. 205 n. 35. One third, regression line, Book III: p. 208. Fig. 1 is printed on p. 209. Length is measured in characters, and cosine/Ratcliff–Obershelp give comparable values: p. 208 n. 46. 3 Changes and expansions: pp. 205–208, not '~204–209'. Porus example 3,2: p. 205 (n. 36). Word order (1,4; 1,12; 1,13) and historic present: p. 206 (nn. 38–40). latronum 1,36: pp. 206–207 (nn. 41–42). annum agere 1,18, mane facto 1,7 and 'quo … necessaria emas' 1,36: p. 207. beluile and lusitatio: p. 208. The 1,6 example belongs in section 4. 4 Omissions: pp. 208–214, not '~209–214'. One third, Fig. 1, 1,2 and 1,36 unchanged, whole chapters dropped: p. 208. Showing/telling: p. 209 (n. 47 Mai, n. 48, n. 49). 1,6: pp. 209–210. 1,26: p. 210. 3.1 Historiography pp. 210–211: battle 1,41 in n. 50, pp. 210–211; Demosthenes p. 211. 3.2 Image of Alexander pp. 211–213: 1,13 pp. 211–212; 2,15 p. 212; 1,46 pp. 212–213. 3.3 Pagan mythology pp. 213–214: Ammon 'genau dreimal' p. 213 (n. 53); 1,30 pp. 213–214, also n. 24 p. 203; 2,13 p. 214. 5 Conclusion: pp. 214–217, which is correct. Harmlos-Fassung, one third, vocabulary and syntax: p. 214. ARI pp. 214–215 (nn. 54–58), Fig. 2 p. 216. Skeleton (Books 2–3) and substitute for the original: p. 215. Offensive content dropped, 'strahlender Held', pro-Christian context, chronicles (n. 59), date, Leo of Naples (n. 60): p. 216. 6 Open question on Book I: pp. 216–217. Bibliography: pp. 199–220 (text ends p. 219).",
+  "other": [
+   "Siemoneit's 'genau dreimal' for Ammon (p. 213) is wrong against Zacher's text as transcribed in our TEI (source/epitome.tei.xml, book1.la.json). Z 1,8 also names him: the dream interpreters say 'deus est Libyae, Ammon nomine'. Book III has 'Ammoni deo coronam' in Candace's letter. In Book I, Ammon is named in chs. 4, 7, 8 and 10, all in the conception story, and never as father. Notes should not repeat 'three times'.",
+   "Siemoneit p. 210 n. 50: the text says 'Kapitel 1,41' but the reference reads 'Z 1,42 p. 34 l. 6–7'. The cum-clause 'Cum ergo diu spes exitus fluctuaret…' is in Z ch. 41 (book1.la.json). Cite it as Z 1,41.",
+   "Liegnitz: Siemoneit n. 6 (p. 199) puts it outside the Zacher family, as a 15th-century reworking of the Res gestae that sometimes shortens and sometimes expands. Our intro (para. 8) and intro_facts follow Voorbij/Hilka in treating it as an interpolated Epitome. Siemoneit is also inconsistent here: n. 59 (p. 216) says a collection finished 'spätestens im 13. Jahrhundert' took the Nectanabus episode 'wohl aus der Liegnitz-Epitome'. Do not rely on n. 59 for anything about Liegnitz.",
+   "Siemoneit n. 2 credits the 80 manuscripts to both Voorbij (1984) and Ross (1956). Ross 1956 has 68, as intro_facts records. Cite Voorbij 1984, 117 for 80 and Siemoneit only as secondary.",
+   "context.json intro_facts ('Rosellini's chapter numbers…') says Siemoneit and Jakobi cite Iul. Val. 1,24,690 and 1,46,1568. Siemoneit cites neither. His Book I references to Valerius are 1,4,64–65; 1,6,115–117; 1,7,150; 1,12,296; 1,13,313–316 and 323; 1,18,516; 1,26,770–773; 1,30,800–814; 1,36,1204–1206 and 1211–1213; 1,41 lines 1361–1373; 1,46,1556–1560. Credit 1,24,690 and 1,46,1568 to Jakobi. Other intro_facts checks: n. 3 does say none of Zacher's manuscripts calls the text an epitome; the oldest-manuscript and terminus ante quem points are n. 3; the Buntz quotation is n. 4 (Buntz 1973, 11); Montpellier vs Oxford is on p. 199 (body text; n. 6 = Hilka). All confirmed.",
+   "Date: Siemoneit says 'im 9. Jahrhundert oder davor' (p. 199). He calls the author 'unser spätantiker oder frühmittelalterlicher Epitomator' (p. 217). He also notes that Leo of Naples (10th c.) kept pagan mythology and battles, and leaves open whether this argues for an earlier date of Z (p. 216, n. 60). So 'Carolingian' (studies.yaml title) goes beyond him. The intro could mention his hypothesis of a pro-Christian origin, with possible use in world chronicles or Bible-related settings (p. 216).",
+   "Useful Book I page references for the notes. Only two chapters are taken over more or less unchanged: 1,2 (the peoples allied against Nectanabus) and 1,36 (Darius' letter) (p. 208). Angelo Mai in 1835 left out the Z text from the end of 1,5 to 1,10 as indecent (p. 209 n. 47), which bears on Zacher's use of Mai's Vatican manuscripts. Other examples: 1,6 telling (pp. 209–210); 1,13 appearance (pp. 211–212); 1,26 (p. 210); 1,30 (pp. 213–214); 1,46 Thebes (pp. 212–213); hapax-like words kept: beluile in 1,13, lusitatio in 1,36 (p. 208).",
+   "Siemoneit contradicts himself on consistency. On p. 208 the changes are 'nicht konsequent durchgehalten'; on p. 214 the edits are 'weitgehend systematisch und konsequent'. Any 'systematic' wording should be hedged.",
+   "Trivial misquotations in Siemoneit's Latin (p. 213): 'o prophete' for Zacher's 'o propheta' (Z 1,7) and 'priumum' for 'primum' (Z 1,10). Do not copy them.",
+   "The 'one third' figure is a comparison of length in characters per chapter (n. 46, p. 208), not a word count. If the intro wants to be exact: 'по объёму текста — примерно до трети' / 'to about a third of its length'.",
+   "Siemoneit links the simplification to Vulgar Latin: post-verbal objects and the move between post- and pre-determination (p. 206, n. 39), avoiding a deponent (p. 207, n. 42), and syntax brought closer to 'des Vulgärlateins bzw. der sich entwickelnden Volkssprachen' (p. 214). The intro's 'simplifies vocabulary and syntax' could add this."
+  ]
+ },
+ {
+  "claims": [
+   {
+    "where": "page.py INTRO_RU ¶1 (line 16) / INTRO_EN ¶1 (line 35)",
+    "claim": "The Epitome is named after its “first and so far only editor”, Julius Zacher (Halle, 1867).",
+    "verdict": "partly",
+    "pages": "p. 199 (text and n. 3); p. 209 n. 47; bibliography p. 219",
+    "german": "p. 199: „benannt nach ihrem ersten Herausgeber im 19. Jahrhundert“ (n. 3: Zacher [1867]). p. 209 n. 47: „unterdrückt Angelo Mai noch im Jahr 1835 den Text der Zacher-Epitome vom Ende des Kapitel 1,5 bis Kapitel 1,10“ (Mai [1835] 64).",
+    "correction": "“First editor” is Siemoneit’s own phrase. “Only” does not come from him, and his n. 47 shows that Mai had already printed text of the Epitome from Vatican manuscripts in 1835, leaving out the end of 1,5 to 1,10. RU: Сокращение принято называть «эпитомой Цахера» по имени германиста Юлиуса Цахера, выпустившего первое и пока единственное полное издание (Галле, 1867). EN: It is known as the “Zacher Epitome” after the Germanist Julius Zacher, who published the first and so far only complete edition (Halle, 1867). Optional addition, once the extent of Mai 1835 (p. 64 ff.) has been checked: RU: Ещё раньше, в 1835 г., части текста по ватиканским рукописям напечатал А. Май. EN: Angelo Mai had printed parts of it from Vatican manuscripts in 1835."
+   },
+   {
+    "where": "page.py INTRO_RU ¶2 (line 17) / INTRO_EN ¶2 (line 36)",
+    "claim": "The oldest manuscripts are early 9th c., so the usual dating to the 8th–9th c. is “only a lower limit” (нижняя граница), and the text may be older.",
+    "verdict": "partly",
+    "pages": "p. 199 text and n. 3",
+    "german": "p. 199: „die im 9. Jahrhundert oder davor entstandene Zacher-Epitome“. n. 3: „Die älteste bekannte Handschrift datiert aus dem frühen 9. Jahrhundert. In Ermangelung zusätzlicher Indizien sollte diese Angabe als terminus ante quem aufgefasst werden (Jakobi [2019] 85).“",
+    "correction": "The facts are right, but the term is reversed. The manuscript date is a terminus ante quem, which is an upper limit (верхняя граница), not a lower one (нижняя граница = terminus post quem). Siemoneit speaks of one oldest manuscript and names no shelfmarks; the Hague and Leiden shelfmarks and the Italian-origin debate come from Jakobi, not Siemoneit. RU (replaces the third sentence): Их дата — лишь верхняя граница (terminus ante quem): эпитома создана не позднее начала IX в. и может быть старше привычной датировки VIII–IX вв. EN: Their date is only an upper limit (terminus ante quem): the Epitome was made by the early ninth century at the latest and may be older than the usual dating to the eighth or ninth century."
+   },
+   {
+    "where": "page.py INTRO_RU ¶3 (line 18) / INTRO_EN ¶3 (line 37)",
+    "claim": "The Epitome survives in about eighty manuscripts.",
+    "verdict": "confirmed",
+    "pages": "p. 199 n. 2",
+    "german": "„Voorbij (1984) und Ross (1956) nennen 80 Handschriften, die die Epitome enthalten.“",
+    "correction": "No change. If the figure is ever cited, cite it as “Ross 1956; Voorbij 1984, via Siemoneit 2023, p. 199 n. 2”."
+   },
+   {
+    "where": "page.py INTRO_RU ¶3 / INTRO_EN ¶3",
+    "claim": "The Epitome in practice replaced (вытеснила) the original; the full Julius Valerius survives in a few incomplete witnesses.",
+    "verdict": "partly",
+    "pages": "p. 199",
+    "german": "„dann schenkte man dem Original von Iulius Valerius’ Übersetzung des Alexanderromans nur geringe Beachtung. Nahezu vollständig verdrängt wurde es von der Epitome, die sich großer Beliebtheit erfreute und signifikante Verbreitung fand.“",
+    "correction": "The displacement is confirmed and matches „nahezu vollständig verdrängt“. Siemoneit gives no count or description of the full Valerius’ witnesses (“few incomplete witnesses”); that comes from Ross/Jakobi. No change in wording."
+   },
+   {
+    "where": "page.py INTRO_RU ¶3 / INTRO_EN ¶3",
+    "claim": "For the opening chapters the Epitome, together with its expanded Oxford reworking, is the only source of the Latin text.",
+    "verdict": "partly",
+    "pages": "p. 199 and n. 5; p. 200 n. 7",
+    "german": "p. 199: „Die Oxford-Epitome wurde nach der Zacher-Epitome verfasst und erweitert diese um Passagen des Originaltextes, macht also gewissermaßen einige der Kürzungen wieder rückgängig.“ n. 7: „Jakobi (2019) …, der auf die Bedeutung der Epitome für die Überlieferung der Res gestae hinweist.“",
+    "correction": "Siemoneit confirms the description of the Oxford version as a later expansion of Z. He does not say that Z and Oxford are the only Latin source for the opening chapters; he only refers to Jakobi on the Epitome’s importance for the transmission. Keep the wording, but source this claim to Jakobi 2019, not to Siemoneit."
+   },
+   {
+    "where": "page.py INTRO_RU ¶3 / INTRO_EN ¶3",
+    "claim": "Reception: Vincent of Beauvais, Helinand of Froidmont, Alberic of Pisançon, Lamprecht, Thomas of Kent.",
+    "verdict": "not in Siemoneit",
+    "pages": "p. 199 n. 4; p. 216",
+    "german": "He names none of these authors. p. 199: „war bis zum 12. Jahrhundert ‚die beliebteste und am meisten verbreitete Version des Alexanderstoffes‘“ (n. 4: Buntz [1973] 11). p. 216: „Einsatz in Weltchroniken oder allgemein bibelnahen Kontexten“ is not ruled out.",
+    "correction": "No change; these points rest on Zacher, Voorbij and Ross (see intro_facts)."
+   },
+   {
+    "where": "page.py INTRO_RU ¶4 (line 19) / INTRO_EN ¶4 (line 38)",
+    "claim": "The epitomator cut the text to about a third.",
+    "verdict": "confirmed",
+    "pages": "p. 208 (and n. 46); p. 214",
+    "german": "p. 208: „da die reine Textmenge nur noch rund ein Drittel der Vorlage beträgt“. p. 214: „Die Länge der Vorlage wurde auf rund ein Drittel reduziert“. n. 46: the comparison is of text length „gemessen in Zeichen“.",
+    "correction": "No change."
+   },
+   {
+    "where": "page.py INTRO_RU ¶4 / INTRO_EN ¶4",
+    "claim": "The first book is kept more fully than the others.",
+    "verdict": "confirmed",
+    "pages": "p. 208 (Fig. 1 on p. 209); p. 215; p. 216",
+    "german": "p. 208: „dass das Ausmaß der Kürzungen im Laufe des Romans zunimmt; vor allem Buch 3 weist quantitativ nur noch geringe Ähnlichkeit mit der Vorlage auf“. p. 215: „vor allem in den Büchern 2 und 3 nur noch aus einem Skelett der wesentlichen Episoden“. p. 216: „den Anfang von Buch 1 vergleichsweise wenig gekürzt“.",
+    "correction": "No change needed; it is a fair summary of the three statements. A more precise optional version: RU: …причём сокращения нарастают к концу: меньше всего сокращено начало первой книги. EN: …and the cuts grow as the work goes on, the beginning of Book I being cut least."
+   },
+   {
+    "where": "page.py INTRO_RU ¶4 / INTRO_EN ¶4",
+    "claim": "He stays close to Valerius’ wording but simplifies vocabulary and syntax.",
+    "verdict": "confirmed",
+    "pages": "p. 205; pp. 206–207 (examples); p. 214",
+    "german": "p. 205: „Typischerweise hat er für seine Version der Geschichte das Vokabular, zuweilen auch die Syntax der bedeutungstragenden Wörter übernommen“. p. 214: „das Vokabular ist leichter verständlich, die Syntax wurde geglättet und den Gepflogenheiten des Vulgärlateins bzw. der sich entwickelnden Volkssprachen angenähert“.",
+    "correction": "No change."
+   },
+   {
+    "where": "page.py INTRO_RU ¶4 / INTRO_EN ¶4",
+    "claim": "He omits battle details.",
+    "verdict": "confirmed",
+    "pages": "p. 210 and n. 50; p. 216",
+    "german": "p. 210: „Die Einzelheiten der Schlachten beispielsweise bleiben dem Leser regelmäßig erspart“. p. 216: „die Kampfszenen, die stark zurückgedrängt oder ganz getilgt wurden“.",
+    "correction": "No change."
+   },
+   {
+    "where": "page.py INTRO_RU ¶4 / INTRO_EN ¶4",
+    "claim": "He omits pagan rites and oracles.",
+    "verdict": "confirmed",
+    "pages": "p. 208; p. 213 (n. 53); p. 216",
+    "german": "p. 213: „Heroen und Götter wie Achill, Odysseus, Minerva, Mithras oder Ammon sind in der Epitome ebenso selten anzutreffen wie Opferzeremonien oder Orakeldeutungen“. p. 208: whole chapters omitted, among them „diverse[] Reden, Orakel- und Traumepisoden“. p. 216: „die paganen Götter mit den entsprechenden Kulthandlungen“.",
+    "correction": "No change. Strictly, Siemoneit says such material becomes rare („selten“), not that it disappears entirely, but “опускает / leaves out” without “all” is acceptable."
+   },
+   {
+    "where": "page.py INTRO_RU ¶4 / INTRO_EN ¶4",
+    "claim": "He omits most mentions of Ammon.",
+    "verdict": "confirmed",
+    "pages": "pp. 213–214",
+    "german": "p. 213: „In der Epitome wird Ammon genau dreimal mit Namen genannt“ (1,4; 1,7; 1,10); „nie explizit als Alexanders Vater“. p. 214: the 1,30 episode is reduced to „Hinc igitur pergens omnem Libyam peragrat“.",
+    "correction": "No change. Siemoneit’s count is too low, though: the TEI text also names Ammon in 1,8 (“deus est Libyae, Ammon nomine”) and 3,18 (“Ammoni deo coronam”). So no note should repeat “only three times”. “Most mentions” remains true."
+   },
+   {
+    "where": "page.py INTRO_RU ¶4 / INTRO_EN ¶4",
+    "claim": "He omits “everything / anything that casts a shadow on Alexander”.",
+    "verdict": "partly",
+    "pages": "p. 211 (examples pp. 211–213); p. 216",
+    "german": "p. 211: „Der Epitomator tendierte offenbar zu ersterem und kürzte bevorzugt an solchen Stellen, die einen Makel oder ein Fehlverhalten thematisieren.“ p. 216: „Alexander erscheint als strahlender Held, der keine Zweifel an seiner Rechtschaffenheit aufkommen lässt.“",
+    "correction": "Siemoneit says “preferably” („bevorzugt“), not “everything”. Book I itself keeps unflattering scenes, such as the killing of Nectanebo, the brawl at the wedding and the destruction of Thebes. RU: Он опускает подробности сражений, языческие обряды и оракулы, большую часть упоминаний Аммона, а охотнее всего сокращает то, что бросает тень на Александра. EN: He leaves out battle details, pagan rites and oracles, and most mentions of Ammon, and he cuts most readily where a passage casts a shadow on Alexander."
+   },
+   {
+    "where": "page.py INTRO_RU ¶4 / INTRO_EN ¶4",
+    "claim": "Siemoneit calls the result a ‘Harmlos-Fassung’ (безобидная редакция / harmless version).",
+    "verdict": "confirmed",
+    "pages": "p. 214",
+    "german": "„Entstanden ist gewissermaßen eine ‚Harmlos-Fassung‘ der Res gestae, die weder vom Umfang her noch sprachlich oder inhaltlich Anstoß erregte“.",
+    "correction": "No change needed. If precision is wanted: RU: По выражению Г. Зимонайта, получилась своего рода «безобидная редакция» (Harmlos-Fassung) романа. EN: G. Siemoneit calls the result a kind of “harmless version” (Harmlos-Fassung) of the Romance. Page reference for context.json: Siemoneit 2023, p. 214."
+   },
+   {
+    "where": "page.py INTRO_RU ¶4 / INTRO_EN ¶4",
+    "claim": "Lysias’ insulting joke at Philip’s wedding is replaced by a general phrase (ch. 21).",
+    "verdict": "not in Siemoneit",
+    "pages": "—",
+    "german": "Lysias, the wedding and chapter 1,21 are not mentioned anywhere in the chapter.",
+    "correction": "The content agrees with Z 1,21 (“multimodis verborum ridiculis”), but it is the project’s own collation. Because it comes straight after the Siemoneit sentence, readers will take it as his. Replace “Иногда сокращение меняет смысл.” / “Sometimes the cuts change the meaning.” with: RU: Наша сверка с Юлием Валерием показывает, что иногда сокращение меняет смысл. EN: Our own collation with Julius Valerius shows that the cuts sometimes change the meaning."
+   },
+   {
+    "where": "page.py INTRO_RU ¶4 / INTRO_EN ¶4",
+    "claim": "In the Pausanias story Olympias “consents” (ch. 24), with a similar corruption in one manuscript of the full Valerius.",
+    "verdict": "not in Siemoneit",
+    "pages": "—",
+    "german": "Pausanias, 1,24 and the Ambrosianus are not mentioned anywhere in the chapter.",
+    "correction": "No change in wording beyond the attribution sentence above. The source is Calderan/Rosellini/Jakobi as recorded in context.json, not Siemoneit."
+   },
+   {
+    "where": "page.py INTRO_RU ¶5 (line 29) / INTRO_EN ¶5 (line 48)",
+    "claim": "The translation uses Zacher’s edition in G. Siemoneit’s TEI transcription (CC0).",
+    "verdict": "partly",
+    "pages": "p. 205 n. 35",
+    "german": "„Der maschinenlesbare Text der Zacher-Epitome steht als TEI-Datei auf Github zur Verfügung (https://github.com/qlat/zacher-epitome [Stand 12.12.2022])“; Z is cited „nach Zacher (1867)“ by page and line.",
+    "correction": "The chapter cites the file but names neither its maker nor its licence. Both come from the TEI header (publisher Gabriel Siemoneit, CC0 1.0). No change in wording; for the record, cite “Siemoneit 2023, p. 205 n. 35; TEI header”."
+   },
+   {
+    "where": "page.py INTRO_RU ¶6 (line 30) / INTRO_EN ¶6 (line 49)",
+    "claim": "The expanded versions of the Epitome (Oxford–Montpellier, Liegnitz) are not considered.",
+    "verdict": "contradicted",
+    "pages": "p. 199 and n. 6",
+    "german": "p. 199: Montpellier shows „Nur geringfügige Änderungen gegenüber der Oxford-Epitome“. n. 6: „die Metz- und die Liegnitz-Epitome …, die außerhalb dieser Familie stehen … Letztere ist eine im 15. Jahrhundert angefertigte, bald kürzende, bald erweiternde Bearbeitung der Res gestae“.",
+    "correction": "Siemoneit confirms Oxford–Montpellier, but he places Liegnitz outside the Zacher family and treats it as a reworking of the Res gestae itself. Voorbij and Hilka (intro_facts) classify it differently, so a neutral wording avoids the dispute. RU: Расширенные версии эпитомы (оксфордская и монпельевская) и лигницкая переработка здесь не учитываются. EN: The expanded Oxford and Montpellier versions of the Epitome and the Liegnitz reworking are not considered here."
+   },
+   {
+    "where": "page.py INTRO_RU ¶6 / INTRO_EN ¶6",
+    "claim": "Zacher used only seven of about eighty manuscripts, the oldest ones; he worked in haste and made few corrections; there is no modern critical edition.",
+    "verdict": "not in Siemoneit",
+    "pages": "p. 199 n. 3",
+    "german": "n. 3 says only: „Offenbar weist keine der von Zacher benutzten Handschriften den Text explizit als Epitome aus.“",
+    "correction": "No change; the source is Zacher’s preface, Voorbij and Jakobi."
+   },
+   {
+    "where": "context.json siemoneit_book1, ACCESS CAVEAT",
+    "claim": "Read via the ebin.pub mirror; page numbers approximate; verify against the official PDF.",
+    "verdict": "contradicted",
+    "pages": "PDF pp. 1–22 = printed pp. 199–220 (text ends p. 219; p. 220 blank)",
+    "german": "PDF p. 1: „Open Access. © 2023 … publiziert von De Gruyter … Creative Commons Namensnennung – Nicht kommerziell – Keine Bearbeitung 4.0 International Lizenz. https://doi.org/10.1515/9783111091679-012“",
+    "correction": "Replace the caveat with: SOURCE. Checked against the official open-access PDF (De Gruyter 2023, DOI 10.1515/9783111091679-012, CC BY-NC-ND 4.0). Page numbers are the printed ones (text pp. 199–219). Every Book I example below was also checked against Kübler’s Latin. Also remove “~” from every page reference and use the ranges in summary_pages."
+   },
+   {
+    "where": "context.json siemoneit_book1 §1",
+    "claim": "Z is the oldest member of a family, displaced the original; Oxford partly undoes Z’s cuts; Montpellier close to Oxford; Metz (4th/5th c.) and Liegnitz (15th c.) outside the family; author, purpose and date unknown; little studied.",
+    "verdict": "confirmed",
+    "pages": "pp. 199–200 (nn. 2–7)",
+    "german": "p. 199: „Die älteste ist die im 9. Jahrhundert oder davor entstandene Zacher-Epitome“; n. 6: Metz „wohl aus dem 4./5. Jahrhundert“, Liegnitz „im 15. Jahrhundert angefertigte“. p. 200: „Dessen Identität liegt immer noch im Dunkeln, ebenso wie Intentionen und Schaffenszeit“; „bislang weitgehend vernachlässigt“.",
+    "correction": "Add the heading reference: 1. … (pp. 199–200)."
+   },
+   {
+    "where": "context.json siemoneit_book1 §2 (Method)",
+    "claim": "He compares Z “character by character” with Rosellini’s 2004 text; Fig. 1 plots the share of each chapter retained; the regression line shows growing cuts, Book III least like its source; Z about one third.",
+    "verdict": "partly",
+    "pages": "pp. 200–204 (theory; Galen p. 202; Genette p. 203 n. 27); p. 205 n. 35; p. 208 and n. 46; Fig. 1 p. 209",
+    "german": "n. 35: „Für den Vergleich beider Texte wurde die Software CollateX benutzt“. n. 46: „Dargestellt ist der Vergleich der Textlänge gemessen in Zeichen … die Analyse auf Wort- und Satzebene (Kosinus-Ähnlichkeit bzw. Ratcliff/Obershelp-Ähnlichkeit) [liefert] vergleichbare Werte“. p. 200 calls section 1 a „gattungstheoretische Kontextualisierung“.",
+    "correction": "2. Method (pp. 200–209). He starts with a genre-theoretical discussion of epitomising (pp. 200–204), using Galen’s Synopsis de pulsibus (p. 202) and Genette’s minimal story (p. 203 n. 27). He then collates Z with Rosellini’s 2004 text using CollateX (p. 205 n. 35). His Fig. 1 (p. 209) plots, for each chapter, Z’s length as a percentage of Valerius’, measured in characters; word- and sentence-level cosine and Ratcliff/Obershelp similarity give comparable values (p. 208 n. 46). The regression line shows the cuts growing through the work, with Book III least like its source (p. 208). Overall Z is about one third of the original (pp. 208, 214)."
+   },
+   {
+    "where": "context.json siemoneit_book1 §3 heading and bullets",
+    "claim": "Changes and expansions (pp. ~204–209): word order (1,4; 1,12; 1,13), past tenses for historic presents, commoner synonyms (1,18; 1,36), 1,36 expansion, rare words kept (beluile, lusitatio).",
+    "verdict": "partly",
+    "pages": "pp. 205–208 (method p. 205; word order and tenses p. 206; latronum pp. 206–207; agens annum, mane facto, 1,36 expansion p. 207; beluile/lusitatio p. 208)",
+    "german": "p. 206: „statt des markanten historischen Präsens der Res gestae Vergangenheitsformen bevorzugt“; p. 208: „geringfügige, sinnwahrende Eingriffe, die aber nicht konsequent durchgehalten werden“; „Hapax legomena“ beluile and lusitatio.",
+    "correction": "The bullet contents are correct, but the page range is wrong. Heading: 3. Changes and expansions (pp. 205–208). Optionally add Siemoneit’s Zacher references: 1,4 Z p. 5 l. 3–4; 1,12 Z p. 15 l. 10; 1,13 Z p. 16 l. 11; 1,18 Z p. 21 l. 16–17; 1,36 Z p. 30 l. 19–20 and p. 31 l. 5–6; beluile Z 1,13 p. 17 l. 8; lusitatio Z 1,36 p. 30 l. 18."
+   },
+   {
+    "where": "context.json siemoneit_book1 §3, synonyms bullet",
+    "claim": "1,7 ‘mane facto’ for ‘mane (iam) luciscente’.",
+    "verdict": "partly",
+    "pages": "p. 207",
+    "german": "„mane lucescente (Iul.Val. 1,7,150) bzw. mane facto (Z 1,7 p. 9 l. 8)“; both are post-classical, but the former is attested „im Prinzip erst im Mittelalter und dort nur wenige Male“, the latter „ab der Spätantike immerhin rund 500 Belege“.",
+    "correction": "- Commoner synonyms: 1,7 ‘mane facto’ (Z 1,7 p. 9 l. 8) for ‘mane lucescente’ (Iul. Val. 1,7,150); both are post-classical, but ‘mane facto’ is far better attested (p. 207). If ‘(iam) luciscente’ is Kübler’s reading, mark it as such and keep it out of the report on Siemoneit."
+   },
+   {
+    "where": "context.json siemoneit_book1 §3, “Direct speech made indirect: 1,6”",
+    "claim": "Olympias’ dream report in 1,6 is direct speech made indirect, listed among changes and expansions.",
+    "verdict": "partly",
+    "pages": "pp. 209–210",
+    "german": "pp. 209–210, section 3 (Auslassungen): „dass der Epitomator den Text seiner Vorlage dadurch komprimiert, dass er vom showing- in den telling-Modus wechselt“; Z 1,6 p. 8 l. 5–6: „hominem ad se vocat, eique somnii retulit visionem“; „streng genommen noch nicht einmal ein Informationsverlust …, da die Prophetie erst wenige Textzeilen zuvor in Kapitel 1,4 erfolgt war“.",
+    "correction": "Move this bullet to §4 and reword: Showing turned into telling (pp. 209–210): in 1,6 Olympias’ report of her dream in direct speech becomes a bare statement that she told it (‘eique somnii retulit visionem’, Z 1,6 p. 8 l. 5–6); strictly nothing is lost, since the prophecy was given just before in 1,4. His second example is 1,26 (p. 210)."
+   },
+   {
+    "where": "context.json siemoneit_book1 §4 heading and (a)",
+    "claim": "Omissions (pp. ~209–214). (a) Historiography and battle detail: 1,26 funds; 1,30 Libya/Ammon reduced to one sentence; battle in 1,41 told not shown; Demosthenes’ speech cut.",
+    "verdict": "partly",
+    "pages": "pp. 208–214; 1,26 p. 210; 3.1 Historiographie pp. 210–211 (n. 50 battle; Demosthenes p. 211); 1,30 pp. 213–214 and p. 203 n. 24",
+    "german": "p. 210: 1,26 Z „tunc viae sumptum e Philippi thesauris abundantissime sumens“ (Z 1,26 p. 28 l. 3–4), Valerius’ sum 14 460 talents and „collatuque studentium rebus suis“ dropped. n. 50: „Kapitel 1,41, der Schlacht gegen Darius, wo der Epitomator die Zeilen 1361 bis 1373 … auf folgenden cum-Satz reduziert hat: cum ergo diu spes exitus fluctuaret … (Z 1,42 p. 34 l. 6–7)“. p. 211: Demosthenes „mehr als 120 Textzeilen … in der Epitome gerade einmal fünfzehn (Z 2,3)“.",
+    "correction": "4. Omissions (pp. 208–214). (a) Historiography (pp. 210–211): battle details are regularly spared the reader by switching to telling. His example is the battle against Darius, Iul. Val. 1,41,1361–1373 reduced to one cum-clause, ‘cum ergo diu spes exitus fluctuaret atque utrimque graviter dimicaretur’ (p. 210 n. 50; he cites Z 1,42 p. 34 l. 6–7, but in the TEI and in our book1.la.json the clause stands in ch. 41). Speeches are heavily cut; his example is Demosthenes, over 120 lines in Valerius (2,3–4) against fifteen in Z 2,3 (p. 211). Move 1,26 to the showing/telling paragraph (p. 210). Move 1,30 to (c), since Siemoneit discusses it under pagan mythology (pp. 213–214; also p. 203 n. 24)."
+   },
+   {
+    "where": "context.json siemoneit_book1 §4(b)",
+    "claim": "Passages showing Alexander’s flaws or inviting doubt about his birth are cut; in 1,13 the child resembled “neither Philip nor his supposed father”; 1,46 omits the demand for 1,000 Thebans, the refusal and ‘violentia Alexandri’.",
+    "verdict": "partly",
+    "pages": "pp. 211–213 (1,13 pp. 211–212; 2,15 p. 212; 1,46 pp. 212–213)",
+    "german": "p. 211: „kürzte bevorzugt an solchen Stellen, die einen Makel oder ein Fehlverhalten thematisieren“. p. 212: „Fehlende Ähnlichkeit mit Mutter, Vater und Erzeuger kann durchaus als Makel angesehen werden“. p. 213: „dass der unmittelbare Auslöser des Angriffs fehlt und dieser deshalb noch unmotivierter beginnt“.",
+    "correction": "(b) The image of Alexander (pp. 211–213). The epitomator leans to the positive image and cuts preferably (‘bevorzugt’) where a passage shows a flaw or misconduct. In 1,13 Valerius says the child resembled neither Philip, nor his mother, nor the man from whose seed he was believed to come (Iul. Val. 1,13,313–316); Z keeps only ‘Erat autem vultu et forma pulcherrimus’ (Z 1,13 p. 16 l. 7; pp. 211–212). In 1,46 Z omits Alexander’s demand for 1,000 Theban soldiers, the Thebans’ refusal and ‘violentia Alexandri’ (Iul. Val. 1,46,1556–1560; Z 1,46 p. 35 l. 11–13), which leaves the attack even less motivated (pp. 212–213). (His third example, Alexander’s small stature at Darius’ banquet, is from 2,15, p. 212.)"
+   },
+   {
+    "where": "context.json siemoneit_book1 §4(c)",
+    "claim": "Pagan religion systematically reduced; Ammon only in 1,4, 1,7, 1,10, never as father; the ‘pater Ammon’ scene of 1,30 disappears; deliberate, cf. 2,13.",
+    "verdict": "confirmed",
+    "pages": "pp. 213–214 (n. 53)",
+    "german": "p. 213: „nicht mit Zufällen oder Irrtümern, sondern nur mit gezielter Bearbeitung zu erklären“; „genau dreimal mit Namen genannt“; „nie explizit als Alexanders Vater“. p. 214: Z 2,13 p. 46 l. 3–5 „Alexandro bonum visum est, ut ipse pro sese internuntius ad Darium iret“. n. 53: „Dies wurde bereits in Stoneman (1999) 168 beobachtet.“",
+    "correction": "Add pages and a qualification: (c) Pagan mythology (pp. 213–214; anticipated by Stoneman 1999, 168, n. 53). … Siemoneit says Ammon is named exactly three times (1,4; 1,7; 1,10), but the TEI also names him in 1,8 (‘deus est Libyae, Ammon nomine’) and 3,18 (‘Ammoni deo coronam’). Neither of these calls him Alexander’s father, so his point stands. Insert the 1,30 sentence moved from (a) here."
+   },
+   {
+    "where": "context.json siemoneit_book1 §5 (Conclusion, pp. ~214–217)",
+    "claim": "The redactor knew Latin well and worked systematically; Harmlos-Fassung; bare skeleton; meant to replace the original; ARI 16.58 vs 21.45; pro-Christian context; date cannot be narrowed.",
+    "verdict": "confirmed",
+    "pages": "pp. 214–217 (Harmlos-Fassung p. 214; ARI pp. 214–215, nn. 54–58, Fig. 2 p. 216; skeleton and replacement p. 215; pro-Christian, date and Leo of Naples p. 216; spätantik oder frühmittelalterlich p. 217)",
+    "german": "p. 214: „Wahrscheinlich verfügte der anonyme Redaktor … über gute Kenntnisse der lateinischen Sprache“. p. 215: „vor allem in den Büchern 2 und 3 nur noch aus einem Skelett“; „dürfte wohl als Ersatz für das Original gedacht gewesen sein“. p. 216: „Die Entstehungszeit lässt sich … wohl nicht näher eingrenzen“; Leo of Naples kept „die pagane Mythologie und die Schlachten“, „Ob dies für eine frühere Datierung der Zacher-Epitome sprechen mag, sei dahingestellt“.",
+    "correction": "Page range correct (pp. 214–217). Three refinements: ‘The redactor probably knew Latin well’; ‘a bare skeleton of the main episodes, especially in Books 2 and 3 (p. 215)’; and add: He notes that Leo of Naples in the 10th century kept the pagan mythology and the battles, and leaves open whether this argues for an earlier date of Z (p. 216); he calls the epitomator ‘late antique or early medieval’ (p. 217)."
+   },
+   {
+    "where": "context.json siemoneit_book1 §6",
+    "claim": "He asks why the epitomator kept the beginning of Book I “nearly intact”, incl. the Nectanabus episode, and suggests sensationalism.",
+    "verdict": "partly",
+    "pages": "pp. 216–217; p. 208",
+    "german": "p. 216: „Warum beispielsweise hat der Epitomator den Anfang von Buch 1 vergleichsweise wenig gekürzt und sogar die fabulöse Nectanabus-Episode übernommen? Vielleicht deshalb, weil sie den Alexanderhistorikern unbekannt ist, also aus Sensationslust? Oder weil er im Laufe des Romans schlicht das Interesse an seiner Arbeit verloren hat“. p. 208: only 1,2 and 1,36 were taken over „mehr oder weniger unverändert“.",
+    "correction": "6. Open question for Book I (pp. 216–217). He asks why the epitomator cut the beginning of Book I comparatively little (‘vergleichsweise wenig gekürzt’) and even kept ‘die fabulöse Nectanabus-Episode’. He offers two guesses: sensationalism, since the episode is unknown to the Alexander historians, or that the epitomator lost interest as he went on but still wanted to finish. Only two chapters pass into Z more or less unchanged, both in Book I: 1,2 (the peoples allied against Nectanebo) and 1,36 (Darius’ short letter) (p. 208)."
+   },
+   {
+    "where": "context.json bibliography, Siemoneit entry",
+    "claim": "pp. 199–220 per Crossref; read through a third-party mirror; check against the official PDF.",
+    "verdict": "confirmed",
+    "pages": "printed pp. 199–219 + blank p. 220 (PDF has 22 pages; running heads 200–219)",
+    "german": "PDF p. 1: author „Gabriel Siemoneit (Paderborn/Bielefeld)“, title „Die Zacher-Epitome. Änderungen, Erweiterungen, Auslassungen“, „© 2023 … De Gruyter“, CC BY-NC-ND 4.0, DOI 10.1515/9783111091679-012.",
+    "correction": "G. Siemoneit, ‘Die Zacher-Epitome. Änderungen, Erweiterungen, Auslassungen’, in H. Wulfram (ed.), Der lateinische ›Alexanderroman‹ des Iulius Valerius: Sprache, Erzählung, Kontext (Millennium-Studien 101), Berlin/Boston: De Gruyter, 2023, pp. 199–220. DOI 10.1515/9783111091679-012, open access, CC BY-NC-ND 4.0. Checked against the official PDF. The chapter PDF does not print the volume editor, title or series; those still rest on Crossref."
+   },
+   {
+    "where": "src/_data/studies.yaml, «Каролингский эпитоматор за работой…», summary (line 33)",
+    "claim": "…почему именно его версия стала самой переписываемой латинской историей Александра до XII в. (Siemoneit quoting Buntz).",
+    "verdict": "partly",
+    "pages": "p. 199 and n. 4 (Buntz [1973] 11); oldest MS p. 199 n. 3",
+    "german": "„Sie kürzt den Text der Res gestae ganz erheblich und war bis zum 12. Jahrhundert ‚die beliebteste und am meisten verbreitete Version des Alexanderstoffes‘.“ n. 4: „Buntz (1973) 11.“",
+    "correction": "Buntz’s words are “the most popular and most widely disseminated version of the Alexander matter”. That is not “the most copied Latin history of Alexander”: it is neither restricted to Latin nor a “history”. “До XII в.” is Siemoneit’s framing, outside the quotation marks. “Древнейшие рукописи — начало IX в.” agrees with n. 3. RU: Что сокращает и что меняет эпитоматор (древнейшие рукописи — начало IX в.) и почему именно его версия до XII в. оставалась самой популярной и самой распространённой версией сказания об Александре."
+   }
+  ],
+  "summary_pages": "Printed pages = PDF page + 198. Text runs pp. 199–219; p. 220 is blank. Footnote numbers were matched to the body superscripts page by page. Corrected references for siemoneit_book1: ACCESS CAVEAT: drop “approximate”; cite the official PDF. §1 What Siemoneit says: pp. 199–200. Family of epitomes p. 199 and n. 6; 80 MSS n. 2; “9. Jh. oder davor” and terminus ante quem n. 3; Buntz quote n. 4; Oxford n. 5; Montpellier p. 199; Metz/Liegnitz outside the family n. 6; neglected, identity/intentions/date unknown p. 200; Jakobi n. 7. §2 Method: pp. 200–209. Genre theory pp. 200–204 (Galen p. 202; Genette p. 203 n. 27); collation with Rosellini 2004 via CollateX p. 205 n. 35; Fig. 1 p. 209, explained p. 208 with n. 46 (lengths in characters; cosine/Ratcliff-Obershelp); one third pp. 208, 214. §3 Changes and expansions: pp. 205–208, not ~204–209. Working method and 3,2 example p. 205; word order 1,4/1,12/1,13 and tenses p. 206; latrocinantium → latronum pp. 206–207; agens annum, mane lucescente → mane facto, 1,36 ‘quo … necessaria emas’, Stasagoras 2,2 p. 207; small-word substitutions n. 45, beluile and lusitatio p. 208. The 1,6 dream example is not here; it belongs to §4, pp. 209–210. §4 Omissions: pp. 208–214, not ~209–214. One third, Fig. 1 explained, only 1,2 and 1,36 nearly unchanged, whole chapters omitted (speeches, oracle and dream episodes) p. 208; Fig. 1 p. 209; showing/telling p. 209, examples 1,6 pp. 209–210 and 1,26 p. 210; 3.1 Historiography pp. 210–211 (battle 1,41 p. 210 n. 50; Demosthenes p. 211); 3.2 Alexander’s image pp. 211–213 (1,13 pp. 211–212; 2,15 p. 212; 1,46 pp. 212–213); 3.3 Pagan mythology pp. 213–214 (Ammon ‘genau dreimal’ p. 213, n. 53 Stoneman; 1,30 pp. 213–214, also p. 203 n. 24; 2,13 p. 214). §5 Conclusion: pp. 214–217. Knowledge of Latin, systematic work, Harmlos-Fassung, one third, vocabulary and syntax p. 214; ARI pp. 214–215 (nn. 54–58), Fig. 2 p. 216; skeleton esp. Books 2–3 and replacement of the original p. 215; offensive matter dropped, radiant hero, pro-Christian context, world chronicles, date not narrowable, Leo of Naples p. 216; ‘spätantiker oder frühmittelalterlicher Epitomator’ p. 217. §6 Open question for Book I: pp. 216–217, plus p. 208 for the two nearly unchanged Book I chapters. Bibliography: pp. 199–220 (text 199–219).",
+  "other": [
+   "Method note. The Read tool could not render the PDF because pdftoppm is not installed, so I re-extracted the official PDF with pdftotext -layout. That confirmed the running heads 200–219, that PDF page 22 is blank (= p. 220) and the order of the footnotes. The figures (Fig. 1 p. 209, Fig. 2 p. 216) could not be viewed as images; their content is taken from Siemoneit’s text.",
+   "Angelo Mai (p. 209 n. 47). In 1835 Mai printed text of the Zacher Epitome from Vatican manuscripts but suppressed the end of 1,5 to 1,10, the Nectanebo–Olympias seduction, as indecent („parum oppido decens historia magi Nectanabi …“, Mai [1835] 64). This bears on the claim of Zacher as ‘first and only editor’, and would make a good note to Book I ch. 5–10.",
+   "Only two chapters were taken over more or less unchanged, and both are in Book I: 1,2 (the peoples allied against Nectanebo) and 1,36 (Darius’ short insulting letter) (p. 208). Chapters omitted entirely include ‘diverse Reden, Orakel- und Traumepisoden’ (p. 208), which explains Book I’s gaps. The notes to ch. 2 and 36 could cite p. 208.",
+   "Ammon count. Siemoneit’s „genau dreimal“ (p. 213: 1,4; 1,7; 1,10) is incomplete. The TEI also has 1,8 (the interpreter: ‘deus est Libyae, Ammon nomine’) and 3,18 (Candace: ‘Ammoni deo coronam’). His point that Z never calls Ammon Alexander’s father still holds. Any scholion that repeats ‘only three times’ should be corrected.",
+   "Battle reference. Siemoneit p. 210 n. 50 speaks of ‘Kapitel 1,41’ but cites the clause ‘cum ergo diu spes exitus fluctuaret …’ as ‘Z 1,42 p. 34 l. 6–7’. In the TEI and in source/book1.la.json the clause is in ch. 41. This is probably his slip, but confirm on Zacher p. 34 before citing it.",
+   "Liegnitz Epitome. Siemoneit is inconsistent. In n. 6 (p. 199) it is a 15th-century reworking of the Res gestae outside the Zacher family. In n. 59 (p. 216) a collection ‘spätestens im 13. Jahrhundert fertiggestellt’ (Nicholas of Sandwich, after Barrau 2015) has ‘wohl aus der Liegnitz-Epitome’ taken the Nectanabus episode. This conflicts with intro_facts[12], which calls Liegnitz an ‘interpolated version’ of Z, so the intro should not classify it.",
+   "Study title ‘Каролингский эпитоматор’. Siemoneit leaves the date open: ‘im 9. Jahrhundert oder davor’ (p. 199), the date ‘wohl nicht näher eingrenzen’ (p. 216), and ‘unser spätantiker oder frühmittelalterlicher Epitomator’ (p. 217). He even hints, via Leo of Naples, at a possibly earlier date (p. 216). ‘Carolingian’ is therefore an editorial choice that goes beyond him and should be argued in the study, or softened.",
+   "Siemoneit’s pro-Christian context and possible use ‘in Weltchroniken oder allgemein bibelnahen Kontexten’ (p. 216) is not in the intro. It would fit naturally beside the Vincent/Helinand sentence in ¶3, cited as Siemoneit’s hypothesis.",
+   "Internal tension in Siemoneit. The small changes are ‘nicht konsequent durchgehalten’ (p. 208), but in the Fazit the redactor’s work is ‘weitgehend systematisch und konsequent’ (p. 214). The context summary’s §3 and §5 reproduce both statements; this is worth flagging if the study quotes either.",
+   "context.json intro_facts[7] says ‘Siemoneit and Jakobi cite … Iul. Val. 1,24,690 (Pausanias) … 1,46,1568 (Thebes)’. Siemoneit cites neither. His Book I references are 1,4,64–65; 1,4,65; 1,6,115–117; 1,7,150; 1,12,296; 1,13,313–316; 1,13,323; 1,18,516; 1,26,770–773; 1,30,800–814; 1,36,1204–1206; 1,36,1211–1213; 1,41,1361–1373; and 1,46,1556–1560 (p. 212). Its source field still says ‘Siemoneit 2023 (via mirror)’.",
+   "context.json intro_facts[13] and [16]. The Buntz phrase is ‘die beliebteste und am meisten verbreitete Version des Alexanderstoffes’; ‘bis zum 12. Jahrhundert’ is Siemoneit’s sentence, outside the quotation marks (p. 199 n. 4). The page range 199–220 is right (text ends p. 219, p. 220 blank). intro_facts[16]’s source line (‘chapter text via mirror’) can now cite the official PDF.",
+   "context.json key ‘intro_ru’ holds an older intro text with the same two problems (‘даёт лишь нижнюю границу’, and ‘лигницкая’ among the expanded versions of the Epitome). It also renders the Lysias change as ‘нейтральной фразой’. If that key is still used anywhere, correct it too.",
+   "Useful for scholia on connectives. Siemoneit p. 208 n. 45 lists unsystematic small-word substitutions in Z: at vero/deinde for tum; atque/et for -que; ac/atque for et; enimvero/quippe/sed for enim; ait for inquit and the reverse (with Romano 1974, 127–128). On p. 206 he ties the word-order changes to Vulgar Latin (Kiesler 2018)."
+  ]
+ }
+]
