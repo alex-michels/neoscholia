@@ -29,8 +29,7 @@ This is philological work on a technical Byzantine text, and the result is a **c
 
 - Work only with the files in this folder: `greek-text.json`, `glossary.json`, `about.md`. You may create working files in a subfolder `work/`.
 - Do **not** open any other file of the repository, do not use git history, and do not visit the Neoscholia website (`alex-michels.github.io/neoscholia`) or the repository pages on GitHub outside this folder. They will contain the other translation.
-- **Older translations** — Xylander's Latin (Basel 1556), Alardus' Latin of the music section (Schleusingen 1636) and Mizler's German (1746) — are public domain. Consult them **only after** you have made your own rendering of a passage, and only to test your understanding of a hard construction or term. Record every such use in `doubts`.
-- Do not use any other translation of this text, modern or machine-made.
+- **Do not consult any translation of this text** while you work: not the old Latin versions (Xylander, Basel 1556; Vinet, 1557/1591; Alardus, 1636), not Mizler's German (1746), not any modern or machine-made translation. Your translation must rest only on the Greek, the dictionaries and lexica, and the ancient theorists. The comparison with other translations, old and modern, is a separate editorial step. It will be done later, after both independent translations are finished.
 - You may use subagents (for example one for the text, one for the music theory and the arithmetic of the ratios, one for the lexicon). The final translation must be yours and consistent from beginning to end.
 
 ## The text
@@ -70,7 +69,7 @@ Never use unauthorised copies: studylib, dokumen.pub, ebin.pub, z-library, Anna'
 - Hesychius, the Suda.
 
 **Reference works:**
-- A. Barker, *Greek Musical Writings* II (1989), and M. L. West, *Ancient Greek Music* (1992) — for terminology and doctrine, not for wording;
+- A. Barker, *Greek Musical Writings* II (1989), and M. L. West, *Ancient Greek Music* (1992) — for terminology and doctrine. Barker translates other theorists, not this text; do not take wording from him;
 - for Russian terminology, the translations of the theorists by V. G. Tsypin (Aristoxenus, Ptolemy and Porphyry, Aristides Quintilianus, the minor theorists) and the work of E. V. Gertsman, where you can reach them legitimately. Follow `glossary.json` where it fixes a term.
 
 ## How to work
