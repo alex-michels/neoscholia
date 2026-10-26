@@ -1,0 +1,6587 @@
+{
+ "meta": {
+  "title": "Catalogus Codicum Astrologorum Graecorum (CCAG): merged inventory of edited texts",
+  "date": "2026-10-26",
+  "basis": "Landscape survey + inventories and adversarial verification of groups g1-g8 (all 20 parts)",
+  "inventory_positions_total": 569,
+  "merge_rule": "One record per text; the same text edited in several volumes is merged with all references. Large works already translated (Valens, Hephaestion, Rhetorius, Antiochus, Paul, Julian, Serapio, Dorotheus, Palchus chapters, Secrets of Apomasar, Anonymous of 379, Teucer) are each merged into one record. Small items of one manuscript proposed as one unit by the verifiers are merged (components listed in the title).",
+  "verdicts": {
+   "strong": "verified candidate (provisional where the verifier could not search the web)",
+   "possible": "usable with caveats (bundle, Russian-first only, a check outstanding, or rights)",
+   "drop": "already translated, superseded or too small",
+   "excluded": "not a candidate per inventory (translated, superseded, not Greek); not re-checked",
+   "unverified": "inventory flag only"
+  },
+  "caveats": [
+   "Web-search budget was exhausted during verification: 'none found' means not found in the sources checked (HOROI 450 titles and teasers, Hindsight summaries, landscape Russian searches, direct reads), not proven absence.",
+   "An unreviewed machine English translation of all 20 parts exists (archive.org item vol.-8-part-3-1912-codicum-parisinorum-dual-language, 2026); Source Library (vols I, VII) and Scriptorai (vol. I) also. Claims must read 'first Russian translation' or 'first reviewed scholarly translation'.",
+   "Rights summaries are orientation, not legal advice."
+  ]
+ },
+ "volumes": [
+  {
+   "vol": "I",
+   "collection": "Codices Florentini",
+   "editors": "A. Olivieri; appendix Boll, Cumont, Kroll, Olivieri",
+   "year": 1898,
+   "scans": "ccag1, ccag-8.4; HathiTrust pd (worldwide); Gallica bpt6k3413368c",
+   "rights": "public domain (EU and RU)",
+   "appendix_positions_in_inventory": 41
+  },
+  {
+   "vol": "II",
+   "collection": "Codices Veneti",
+   "editors": "W. Kroll, A. Olivieri",
+   "year": 1900,
+   "scans": "ccag-2, ccag-8.4; HathiTrust pd; Gallica bpt6k3413422q",
+   "rights": "public domain (EU and RU)",
+   "appendix_positions_in_inventory": 32
+  },
+  {
+   "vol": "III",
+   "collection": "Codices Mediolanenses",
+   "editors": "E. Martini, D. Bassi",
+   "year": 1901,
+   "scans": "ccag-3, ccag-8.4; HathiTrust hvd v.1-3 pd; Gallica bpt6k3413370f",
+   "rights": "public domain (EU and RU)",
+   "appendix_positions_in_inventory": 13
+  },
+  {
+   "vol": "IV",
+   "collection": "Codices Italici ceteri",
+   "editors": "D. Bassi, F. Cumont, E. Martini, A. Olivieri",
+   "year": 1903,
+   "scans": "ccag-4, ccag-8.4; HathiTrust pdus; Gallica bpt6k3413348m",
+   "rights": "public domain (EU and RU)",
+   "appendix_positions_in_inventory": 38
+  },
+  {
+   "vol": "V.1",
+   "collection": "Codices Romani I",
+   "editors": "F. Cumont, F. Boll",
+   "year": 1904,
+   "scans": "CatalogusCodicumAstrologorumGraec5p1, ccag-8.4; HathiTrust pdus; Gallica bpt6k3413366j",
+   "rights": "public domain (EU and RU)",
+   "appendix_positions_in_inventory": 23
+  },
+  {
+   "vol": "V.2",
+   "collection": "Codices Romani II (Vat. gr. 191, Valens)",
+   "editors": "W. Kroll",
+   "year": 1906,
+   "scans": "CatalogusCodicumAstrologorumGraec5p2, ccag-8.4; HathiTrust pdus; Gallica bpt6k3413458b",
+   "rights": "public domain (EU and RU)",
+   "appendix_positions_in_inventory": 8
+  },
+  {
+   "vol": "V.3",
+   "collection": "Codices Romani III",
+   "editors": "J. Heeg",
+   "year": 1910,
+   "scans": "CatalogusCodicumAstrologorumGraec5p3, ccag-8.4; HathiTrust pdus; Gallica bpt6k3413459r",
+   "rights": "public domain (EU and RU)",
+   "appendix_positions_in_inventory": 48
+  },
+  {
+   "vol": "V.4",
+   "collection": "Codices Romani IV + Porphyry",
+   "editors": "S. Weinstock; Porphyry: E. Boer & S. Weinstock",
+   "year": 1940,
+   "scans": "ccag-8.4 only; HathiTrust pdus/ic; no Gallica",
+   "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Porphyry ed. Boer until 31.12.2050)",
+   "appendix_positions_in_inventory": 24
+  },
+  {
+   "vol": "VI",
+   "collection": "Codices Vindobonenses",
+   "editors": "W. Kroll",
+   "year": 1903,
+   "scans": "CatalogusCodicumAstrologorumGraec6, ccag-8.4; HathiTrust pdus; Gallica bpt6k34133728",
+   "rights": "public domain (EU and RU)",
+   "appendix_positions_in_inventory": 18
+  },
+  {
+   "vol": "VII",
+   "collection": "Codices Germanici",
+   "editors": "F. Boll",
+   "year": 1908,
+   "scans": "cataloguscodicu00bassgoog, ccag-8.4; HathiTrust pdus; Gallica bpt6k3413369s",
+   "rights": "public domain (EU and RU)",
+   "appendix_positions_in_inventory": 47
+  },
+  {
+   "vol": "VIII.1",
+   "collection": "Codices Parisini I",
+   "editors": "F. Cumont",
+   "year": 1929,
+   "scans": "ccag-8.4; HathiTrust pdus; Gallica bpt6k3413434x",
+   "rights": "public domain (EU and RU)",
+   "appendix_positions_in_inventory": 54
+  },
+  {
+   "vol": "VIII.2",
+   "collection": "Codices Parisini II + Hermetica",
+   "editors": "C.-É. Ruelle; Hermetica J. Heeg; general ed. Cumont",
+   "year": 1911,
+   "scans": "CatalogusCodicumAstrologorumGraec8p2, ccag-8.4; HathiTrust pdus; Gallica bpt6k3413435b",
+   "rights": "public domain (EU and RU)",
+   "appendix_positions_in_inventory": 9
+  },
+  {
+   "vol": "VIII.3",
+   "collection": "Codices Parisini III",
+   "editors": "P. Boudreaux; testimonia Cumont",
+   "year": 1912,
+   "scans": "CatalogusCodicumAstrologorumGraec8p3, ccag-8.4; HathiTrust pdus; Gallica bpt6k34133639",
+   "rights": "public domain (EU and RU)",
+   "appendix_positions_in_inventory": 22
+  },
+  {
+   "vol": "VIII.4",
+   "collection": "Codices Parisini IV",
+   "editors": "P. Boudreaux, F. Cumont",
+   "year": 1921,
+   "scans": "cataloguscodipart408bruxuoft, ccag-8.4; HathiTrust pdus; Gallica bpt6k3413364q",
+   "rights": "public domain (EU and RU)",
+   "appendix_positions_in_inventory": 8
+  },
+  {
+   "vol": "IX.1",
+   "collection": "Codices Britannici I (Oxford)",
+   "editors": "S. Weinstock",
+   "year": 1951,
+   "scans": "ccag-8.4 only; HathiTrust search-only",
+   "rights": "protected in EU and RU until 31.12.2041 (Weinstock)",
+   "appendix_positions_in_inventory": 26
+  },
+  {
+   "vol": "IX.2",
+   "collection": "Codices Britannici II (London, Cambridge, minor; Dutch, Danish, Swedish)",
+   "editors": "S. Weinstock",
+   "year": 1953,
+   "scans": "ccag-8.4 only; HathiTrust search-only",
+   "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Delatte's restorations until 2034)",
+   "appendix_positions_in_inventory": 18
+  },
+  {
+   "vol": "X",
+   "collection": "Codices Athenienses",
+   "editors": "A. Delatte",
+   "year": 1924,
+   "scans": "ccag-8.4; HathiTrust pdus; no Gallica",
+   "rights": "protected in EU and RU until 31.12.2034 (Delatte)",
+   "appendix_positions_in_inventory": 48
+  },
+  {
+   "vol": "XI.1",
+   "collection": "Codices Hispanienses I (Escorial)",
+   "editors": "C. O. Zuretti; epilogue Cumont",
+   "year": 1932,
+   "scans": "ccag-8.4; Bodleian PDF N10586589; ccagtome-08-part-3; HathiTrust ic; Gallica bpt6k34139389",
+   "rights": "public domain (EU and RU)",
+   "appendix_positions_in_inventory": 19
+  },
+  {
+   "vol": "XI.2",
+   "collection": "Codices Hispanienses II (Escorial, Madrid, Zaragoza)",
+   "editors": "C. O. Zuretti (posthumous), ed. F. Cumont",
+   "year": 1934,
+   "scans": "ccag-8.4; HathiTrust ic; no Gallica",
+   "rights": "public domain (EU and RU)",
+   "appendix_positions_in_inventory": 26
+  },
+  {
+   "vol": "XII",
+   "collection": "Codices Rossici (St Petersburg, Moscow, Kiev, Kharkov)",
+   "editors": "M. A. Šangin",
+   "year": 1936,
+   "scans": "ccag-8.4 (Greek OCR garbled, read images); HathiTrust pdus (uc1.l0051202323)",
+   "rights": "EU: public domain since 1.1.2013; RU: treat as protected (31.12.2059/2063 per landscape; transitional question open)",
+   "appendix_positions_in_inventory": 47
+  }
+ ],
+ "texts": [
+  {
+   "id": "ccag-001",
+   "refs": [
+    {
+     "vol": "I",
+     "pages": "79–80",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "II",
+     "pages": "83–121",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "II",
+     "pages": "158–159",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "IV",
+     "pages": "174–182",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "V.2",
+     "pages": "27–129",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "VIII.1",
+     "pages": "161–172",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Vettius Valens",
+   "title": "Anthologies: prooemium, excerpts, variants; 'new fragment' on transits (VIII.1)",
+   "genre": "horo",
+   "genre_ru": "гороскопическая доктрина, натальная астрология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": null,
+   "ru_translation": "not known (transits: second-hand Zennikov via Hindsight IX)",
+   "en_translation": "Riley (online); Project Hindsight; VIII.1 fragment probably Hindsight IX (not in Riley, checked)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "drop",
+   "verdict_source": "inventory",
+   "note": "Superseded: Kroll 1908, Pingree 1986"
+  },
+  {
+   "id": "ccag-002",
+   "refs": [
+    {
+     "vol": "I",
+     "pages": "80–81",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "I",
+     "pages": "113–117",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "V.1",
+     "pages": "194–212",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "V.1",
+     "pages": "217–226",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "VIII.1",
+     "pages": "181–186",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Anonymous of AD 379 (partly via Palchus; V.1 217–226 = Excerpta Parisina)",
+   "title": "Fixed stars; passionate places; degrees injuring the eyes; Moon's applications; prooemium on earlier star-writers (I 80–81)",
+   "genre": "stars",
+   "genre_ru": "неподвижные звёзды, деканы, паранателлонты",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 9000,
+   "ru_translation": "second-hand (Mirskoy, from HOROI)",
+   "en_translation": "Schmidt, Hindsight IIa (1993); HOROI 2020–21",
+   "rights": "public domain (EU and RU)",
+   "verdict": "drop",
+   "verdict_source": "verification",
+   "note": "I 80–81 (history of star observers) usable as micro-text only if HOROI lacks it"
+  },
+  {
+   "id": "ccag-003",
+   "refs": [
+    {
+     "vol": "I",
+     "pages": "81",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "V.4",
+     "pages": "164–165",
+     "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Porphyry ed. Boer until 31.12.2050)"
+    }
+   ],
+   "author": "John Lydus",
+   "title": "De ostentis ch. 2 (testimonium) and excerpts",
+   "genre": "test",
+   "genre_ru": "свидетельства, полемика, апологии, библиография",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 400,
+   "ru_translation": "not known",
+   "en_translation": "Bandy 2013",
+   "rights": "public domain via I 81; other witnesses protected or unclear",
+   "verdict": "excluded",
+   "verdict_source": "inventory",
+   "note": ""
+  },
+  {
+   "id": "ccag-004",
+   "refs": [
+    {
+     "vol": "I",
+     "pages": "81–82",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Māshāʾallāh (Greek version)",
+   "title": "List of the books of the ancient sages",
+   "genre": "test",
+   "genre_ru": "свидетельства, полемика, апологии, библиография",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 370,
+   "ru_translation": "none found",
+   "en_translation": "Greek: none; Latin parallel (Hugo of Santalla) probably in Dykes; machine EN",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Re-ed. Pingree–Burnett 1997, Farina 2022; bundle with I 83–84 (~720 words)"
+  },
+  {
+   "id": "ccag-005",
+   "refs": [
+    {
+     "vol": "I",
+     "pages": "83–84",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Abū Saʿīd Shādhān / 'Apomasar', Secrets II.76",
+   "title": "On the astrological books once kept in the palace and not lent out",
+   "genre": "test",
+   "genre_ru": "свидетельства, полемика, апологии, библиография",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 350,
+   "ru_translation": "none found",
+   "en_translation": "HOROI, Shādhān Discourses chs 70–81 (2020), near-certain",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Palace probably Abbasid, not Byzantine; Russian first only; bundle with I 81–82"
+  },
+  {
+   "id": "ccag-006",
+   "refs": [
+    {
+     "vol": "I",
+     "pages": "85–89",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Shams al-Bukhārī ('Samspuchar'), Greek version c. 1300",
+   "title": "On the reckoning of years among the nations",
+   "genre": "astr",
+   "genre_ru": "астрономия, вычисления, космология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 1500,
+   "ru_translation": "none found",
+   "en_translation": "none found; check Pingree, Gregory Chioniades I (CAB II, 1985) and eCAB",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Eras, intercalation, Persian zījes in Byzantium"
+  },
+  {
+   "id": "ccag-007",
+   "refs": [
+    {
+     "vol": "I",
+     "pages": "90–93",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "II",
+     "pages": "159",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "VI",
+     "pages": "72–73",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "VIII.1",
+     "pages": "141–159",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "VIII.2",
+     "pages": "38–124",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "VIII.2",
+     "pages": "135–136",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "XII",
+     "pages": "195–196",
+     "rights": "EU: public domain since 1.1.2013; RU: treat as protected (31.12.2059/2063 per landscape; transitional question open)"
+    }
+   ],
+   "author": "Hephaestion of Thebes",
+   "title": "Apotelesmatica I–III: chapters, variants, additions",
+   "genre": "horo",
+   "genre_ru": "гороскопическая доктрина, натальная астрология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": null,
+   "ru_translation": "second-hand Book I (Zennikov)",
+   "en_translation": "Schmidt, Hindsight (I–II); Gramaglia 2013 (III)",
+   "rights": "public domain via I 90–93, II 159, VI 72–73, VIII.1 141–159, VIII.2 38–124, VIII.2 135–136; other witnesses protected or unclear",
+   "verdict": "drop",
+   "verdict_source": "inventory",
+   "note": "Pingree, Teubner 1973–74"
+  },
+  {
+   "id": "ccag-008",
+   "refs": [
+    {
+     "vol": "VI",
+     "pages": "67–72",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "VIII.2",
+     "pages": "83–84",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Antigonus of Nicaea via Hephaestion",
+   "title": "Nativity of Emperor Hadrian",
+   "genre": "horo",
+   "genre_ru": "гороскопическая доктрина, натальная астрология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 1100,
+   "ru_translation": "not known",
+   "en_translation": "Hindsight (Heph. II); HOROI 2021; Neugebauer–Van Hoesen L 76",
+   "rights": "public domain (EU and RU)",
+   "verdict": "drop",
+   "verdict_source": "inventory",
+   "note": "German: Heilen 2015"
+  },
+  {
+   "id": "ccag-009",
+   "refs": [
+    {
+     "vol": "I",
+     "pages": "94–97",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Erasistratus (Palchus ch. 17)",
+   "title": "On a lost object and the thief",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 900,
+   "ru_translation": "not known",
+   "en_translation": "HOROI 2021",
+   "rights": "public domain (EU and RU)",
+   "verdict": "drop",
+   "verdict_source": "inventory",
+   "note": ""
+  },
+  {
+   "id": "ccag-010",
+   "refs": [
+    {
+     "vol": "I",
+     "pages": "97–99",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Timaeus Praxidas (Palchus ch. 18)",
+   "title": "On fugitives and thieves",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 600,
+   "ru_translation": "second-hand (Zennikov via Hindsight X)",
+   "en_translation": "HOROI 2021; Hindsight X",
+   "rights": "public domain (EU and RU)",
+   "verdict": "drop",
+   "verdict_source": "inventory",
+   "note": ""
+  },
+  {
+   "id": "ccag-011",
+   "refs": [
+    {
+     "vol": "I",
+     "pages": "99–102",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "V.1",
+     "pages": "179–180",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "V.3",
+     "pages": "87",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "V.3",
+     "pages": "96–97",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "V.3",
+     "pages": "125",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "VIII.4",
+     "pages": "225–232",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Serapio of Alexandria",
+   "title": "Definitions; catarchic fragments (marriage, partnership, flights, imprisonment, sign classes)",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 3500,
+   "ru_translation": "second-hand (Zennikov)",
+   "en_translation": "Holden 2009; Gramaglia 2013; HOROI 2020–24",
+   "rights": "public domain (EU and RU)",
+   "verdict": "drop",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-012",
+   "refs": [
+    {
+     "vol": "I",
+     "pages": "100–107",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "V.3",
+     "pages": "125–127",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "VI",
+     "pages": "63–66",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "VIII.1",
+     "pages": "248",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "VIII.1",
+     "pages": "250–253",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "VIII.1",
+     "pages": "261–263",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "IX.1",
+     "pages": "157–172",
+     "rights": "protected in EU and RU until 31.12.2041 (Weinstock)"
+    },
+    {
+     "vol": "IX.1",
+     "pages": "183–184",
+     "rights": "protected in EU and RU until 31.12.2041 (Weinstock)"
+    },
+    {
+     "vol": "XI.1",
+     "pages": "202–203",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "XI.1",
+     "pages": "270–271",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "XII",
+     "pages": "192–195",
+     "rights": "EU: public domain since 1.1.2013; RU: treat as protected (31.12.2059/2063 per landscape; transitional question open)"
+    }
+   ],
+   "author": "Palchus collection ('Balchus', Angelic. gr. 29)",
+   "title": "Catarchic chapters and dated 5th-c. katarchai (Theodore Augustalis 487, ships 475, the astrologer's error 488, unwelcome letter, lost towel, lion cub 482); Demetrius on runaways; interrogations; sedition; travel; spring ingress; love; Gallic ledonae/malinae",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": null,
+   "ru_translation": "partly second-hand (Mirskoy: Zeno inceptions)",
+   "en_translation": "HOROI 'Astrological Book of Balchus' chs 1–148 (2023–24; XII 192–195 translated from Šangin's edition; XI.1 202 = ch. 7); Pingree, DOP 30 (1976); Neugebauer–Van Hoesen",
+   "rights": "public domain via I 100–107, V.3 125–127, VI 63–66, VIII.1 248, VIII.1 250–253, VIII.1 261–263, XI.1 202–203, XI.1 270–271; other witnesses protected or unclear",
+   "verdict": "drop",
+   "verdict_source": "verification",
+   "note": "Chapter mapping to HOROI partly inferred; candidate chapters listed separately (V.1 171–183, 186–187, 227–228)"
+  },
+  {
+   "id": "ccag-013",
+   "refs": [
+    {
+     "vol": "I",
+     "pages": "107–108",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "VI",
+     "pages": "66–67",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Palchus collection",
+   "title": "Inception of the coronation of Leontius at Antioch (AD 484)",
+   "genre": "horo",
+   "genre_ru": "гороскопическая доктрина, натальная астрология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 350,
+   "ru_translation": "YES: Brol' & Kuzenkov, Vizantijskij Vremennik 72 (2013)",
+   "en_translation": "probably Pingree 1976; HOROI",
+   "rights": "public domain (EU and RU)",
+   "verdict": "drop",
+   "verdict_source": "inventory",
+   "note": "The only academic Russian translation of CCAG material found"
+  },
+  {
+   "id": "ccag-014",
+   "refs": [
+    {
+     "vol": "I",
+     "pages": "108",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous (Palchus ch. 123)",
+   "title": "How to make invisible ('white') letters",
+   "genre": "magic",
+   "genre_ru": "магия: амулеты, заклинания, молитвы планетам, леканомантия",
+   "section": "magic_divination",
+   "greek_words_approx": 50,
+   "ru_translation": "none",
+   "en_translation": "HOROI Balchus 123–125 (2024)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "drop",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-015",
+   "refs": [
+    {
+     "vol": "I",
+     "pages": "108–113",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "'Antiochus' (attributed)",
+   "title": "Hexameter poem: what the planets signify in the places",
+   "genre": "horo",
+   "genre_ru": "гороскопическая доктрина, натальная астрология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 900,
+   "ru_translation": "none",
+   "en_translation": "HOROI Balchus 134–138 (2024)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "drop",
+   "verdict_source": "verification",
+   "note": "Spanish: Pérez Jiménez, MHNH 14 (2014), superior edition"
+  },
+  {
+   "id": "ccag-016",
+   "refs": [
+    {
+     "vol": "I",
+     "pages": "118–122",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Pancharius (epitome)",
+   "title": "On taking to bed (decumbiture) by the Moon's sign",
+   "genre": "iatro",
+   "genre_ru": "иатроматематика",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 1600,
+   "ru_translation": "none found",
+   "en_translation": "none (machine EN only)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Mutilated; control text Ps.-Hermes, Iatromathematica (Ideler)"
+  },
+  {
+   "id": "ccag-017",
+   "refs": [
+    {
+     "vol": "I",
+     "pages": "122–128",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous (HOROI: Julian of Laodicea)",
+   "title": "On decumbitures and diseases; another inquiry about the sick",
+   "genre": "iatro",
+   "genre_ru": "иатроматематика",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 1700,
+   "ru_translation": "none",
+   "en_translation": "HOROI 'Julianus of Laodicea's medical astrology' 1–2 (2022)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "drop",
+   "verdict_source": "verification",
+   "note": "First chapter recurs in XI.2 186–187"
+  },
+  {
+   "id": "ccag-018",
+   "refs": [
+    {
+     "vol": "I",
+     "pages": "128",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous (Hermes, Petosiris)",
+   "title": "Numerical method: will the patient live or die",
+   "genre": "onom",
+   "genre_ru": "ономантия, жребии, оракулы, хиромантия",
+   "section": "magic_divination",
+   "greek_words_approx": 130,
+   "ru_translation": "none",
+   "en_translation": "HOROI Nechepso–Petosiris Text 99 (2023)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "drop",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-019",
+   "refs": [
+    {
+     "vol": "I",
+     "pages": "128–129",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Zenarius",
+   "title": "Inceptions by lords of the day and hour from the summer new moon",
+   "genre": "cal",
+   "genre_ru": "календари, парапегмы, додекаэтериды, календологии",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 400,
+   "ru_translation": "none found",
+   "en_translation": "none (machine EN)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Bundle with the Syrus texts (~1,800 words)"
+  },
+  {
+   "id": "ccag-020",
+   "refs": [
+    {
+     "vol": "I",
+     "pages": "129–131",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "II",
+     "pages": "195",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "IV",
+     "pages": "93–94",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "V.1",
+     "pages": "212–217",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "VIII.1",
+     "pages": "266–270",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "XI.1",
+     "pages": "204–266",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Theophilus of Edessa (and others)",
+   "title": "World inceptions; length-of-life scholion; appointing an official; fixed stars in inceptions; solar and lunar eclipses; military inceptions chs 1–51",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 15000,
+   "ru_translation": "none known",
+   "en_translation": "Gramaglia–Dykes 2017 (probable, not checked item by item); HOROI 'Second Edition' (2025–26)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "excluded",
+   "verdict_source": "inventory",
+   "note": "XI.1 chs 42–51 (marriage, poisoning, succession) not checked against Gramaglia"
+  },
+  {
+   "id": "ccag-021",
+   "refs": [
+    {
+     "vol": "I",
+     "pages": "131–133",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "I",
+     "pages": "171–172",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "'a certain Syrus'",
+   "title": "Tested method for rains; general instruction on the weather",
+   "genre": "weather",
+   "genre_ru": "приметы погоды (диосемии)",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 1400,
+   "ru_translation": "none found",
+   "en_translation": "none (machine EN)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Forecast starts 19 July (Dog Star); bundle with Zenarius"
+  },
+  {
+   "id": "ccag-022",
+   "refs": [
+    {
+     "vol": "I",
+     "pages": "134–139",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "IV",
+     "pages": "99–110",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "IV",
+     "pages": "151–152",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "V.1",
+     "pages": "183–193",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "VI",
+     "pages": "80",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "VIII.4",
+     "pages": "244–253",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Julian of Laodicea",
+   "title": "Planets and weather; inceptions; Astronomical Inquiry (preface, chs 1–3); war; return of a traveller; buying; sowing, planting, founding cult statues",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 8000,
+   "ru_translation": "second-hand (Mirskoy)",
+   "en_translation": "HOROI 2020–22 (most chapters)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "drop",
+   "verdict_source": "verification",
+   "note": "Check HOROI for IV 99–110 and VIII.4 252–253 (founding cult statues) before excluding"
+  },
+  {
+   "id": "ccag-023",
+   "refs": [
+    {
+     "vol": "I",
+     "pages": "137–138",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "On new and full moons in inceptions",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 300,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "excluded",
+   "verdict_source": "inventory",
+   "note": ""
+  },
+  {
+   "id": "ccag-024",
+   "refs": [
+    {
+     "vol": "I",
+     "pages": "139",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Leo the Philosopher (9th c.)",
+   "title": "Scholia on the 'horimaia'",
+   "genre": "astr",
+   "genre_ru": "астрономия, вычисления, космология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 80,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Bundle 'Byzantine astrologers' working notes' with I 139–140, II 212, II 213 (~950)"
+  },
+  {
+   "id": "ccag-025",
+   "refs": [
+    {
+     "vol": "I",
+     "pages": "139–140",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Valens chapter + anonymous Byzantine scholia",
+   "title": "Dividing the places; scholia on the 'attack of the Turks' and the exile of Patriarch Photius",
+   "genre": "horo",
+   "genre_ru": "гороскопическая доктрина, натальная астрология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 450,
+   "ru_translation": "none",
+   "en_translation": "chapter probably HOROI 2021; scholia none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Working-notes bundle"
+  },
+  {
+   "id": "ccag-026",
+   "refs": [
+    {
+     "vol": "I",
+     "pages": "140–164",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "VII",
+     "pages": "107–123",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "VII",
+     "pages": "127–128",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "XI.2",
+     "pages": "109–111",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Antiochus of Athens (via Rhetorius, Porphyry)",
+   "title": "Thesaurus excerpts: questions, Moon's applications, injurious degrees, phases, scholia",
+   "genre": "horo",
+   "genre_ru": "гороскопическая доктрина, натальная астрология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 9000,
+   "ru_translation": "second-hand (Zennikov, Mirskoy)",
+   "en_translation": "Hindsight IIb (1993); Schmidt 2009; HOROI 2020; Holden 2009",
+   "rights": "public domain (EU and RU)",
+   "verdict": "drop",
+   "verdict_source": "inventory",
+   "note": "VII 123–127 (eclipses, Calends) listed separately"
+  },
+  {
+   "id": "ccag-027",
+   "refs": [
+    {
+     "vol": "I",
+     "pages": "164–166",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous (after Rhetorius)",
+   "title": "Thirty-two categories of the zodiacal signs",
+   "genre": "horo",
+   "genre_ru": "гороскопическая доктрина, натальная астрология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 900,
+   "ru_translation": "none",
+   "en_translation": "HOROI 2021",
+   "rights": "public domain (EU and RU)",
+   "verdict": "drop",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-028",
+   "refs": [
+    {
+     "vol": "I",
+     "pages": "167–170",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "IV",
+     "pages": "133–134",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "VIII.2",
+     "pages": "37",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Paul of Alexandria",
+   "title": "Introduction: excerpts, lots, variants",
+   "genre": "horo",
+   "genre_ru": "гороскопическая доктрина, натальная астрология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 1300,
+   "ru_translation": "not known",
+   "en_translation": "Holden 1985; Greenbaum 2001; HOROI",
+   "rights": "public domain (EU and RU)",
+   "verdict": "drop",
+   "verdict_source": "inventory",
+   "note": "Boer, Teubner 1958"
+  },
+  {
+   "id": "ccag-029",
+   "refs": [
+    {
+     "vol": "I",
+     "pages": "170–171",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Eutocius (attributed)",
+   "title": "Horoscope of AD 497",
+   "genre": "horo",
+   "genre_ru": "гороскопическая доктрина, натальная астрология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 350,
+   "ru_translation": "none",
+   "en_translation": "Jones 2026 (CC-BY)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "drop",
+   "verdict_source": "inventory",
+   "note": ""
+  },
+  {
+   "id": "ccag-030",
+   "refs": [
+    {
+     "vol": "I",
+     "pages": "172–173",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "II",
+     "pages": "81–82",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Dorotheus of Sidon",
+   "title": "Epithets of the seven planets",
+   "genre": "other",
+   "genre_ru": "прочее (списки, загадки, рецепты, коллации)",
+   "section": "either",
+   "greek_words_approx": 100,
+   "ru_translation": "none",
+   "en_translation": "HOROI Dorotheus fragments A (2026)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "drop",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-031",
+   "refs": [
+    {
+     "vol": "II",
+     "pages": "79–80",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Zacharias Scholasticus (Syriac with Latin)",
+   "title": "Burning of magical books at Berytus",
+   "genre": "test",
+   "genre_ru": "свидетельства, полемика, апологии, библиография",
+   "section": "astronomy_astrology",
+   "greek_words_approx": null,
+   "ru_translation": "-",
+   "en_translation": "Ambjörn 2008; Brock–Fitzgerald 2013",
+   "rights": "public domain (EU and RU)",
+   "verdict": "excluded",
+   "verdict_source": "inventory",
+   "note": "Not Greek"
+  },
+  {
+   "id": "ccag-032",
+   "refs": [
+    {
+     "vol": "II",
+     "pages": "81",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Heliodorus of Alexandria",
+   "title": "Planetary observations AD 475–509 (title and incipit only)",
+   "genre": "astr",
+   "genre_ru": "астрономия, вычисления, космология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": null,
+   "ru_translation": "-",
+   "en_translation": "-",
+   "rights": "public domain (EU and RU)",
+   "verdict": "excluded",
+   "verdict_source": "inventory",
+   "note": ""
+  },
+  {
+   "id": "ccag-033",
+   "refs": [
+    {
+     "vol": "II",
+     "pages": "122–123",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Achmet the Persian",
+   "title": "Introduction to astrology: general preface",
+   "genre": "horo",
+   "genre_ru": "гороскопическая доктрина, натальная астрология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 490,
+   "ru_translation": "none",
+   "en_translation": "none (HOROI has Book III only)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-034",
+   "refs": [
+    {
+     "vol": "II",
+     "pages": "123–131",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Achmet, after 'Masher the Persian' and 'Muhammad of Balkh'",
+   "title": "On the configurations of all the planets",
+   "genre": "horo",
+   "genre_ru": "гороскопическая доктрина, натальная астрология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 3100,
+   "ru_translation": "none",
+   "en_translation": "none (machine EN)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "First half ~1,500 words"
+  },
+  {
+   "id": "ccag-035",
+   "refs": [
+    {
+     "vol": "II",
+     "pages": "131–132",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "ʿAlī ibn Isḥāq (anecdotes of Abū Maʿshar)",
+   "title": "Judgment of ʿAlī son of Isaac",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 450,
+   "ru_translation": "none",
+   "en_translation": "HOROI 2021",
+   "rights": "public domain (EU and RU)",
+   "verdict": "drop",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-036",
+   "refs": [
+    {
+     "vol": "II",
+     "pages": "132–136",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Eleutherius Zebelenus ('of Gabala')",
+   "title": "Universal interrogation on the querent's length of life (10 Nov. 1164 per László)",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 1700,
+   "ru_translation": "none",
+   "en_translation": "none (machine EN)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Technical; needs an astrologically literate reviewer"
+  },
+  {
+   "id": "ccag-037",
+   "refs": [
+    {
+     "vol": "II",
+     "pages": "136–138",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "various 'sages' (Arabic authorities)",
+   "title": "On inceptions: sayings",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 1000,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-038",
+   "refs": [
+    {
+     "vol": "II",
+     "pages": "139–152",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous ('Chaldaean')",
+   "title": "Dodecaeteris in two recensions (Augustan Syro-Macedonian months; heading AD 996)",
+   "genre": "cal",
+   "genre_ru": "календари, парапегмы, додекаэтериды, календологии",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 2200,
+   "ru_translation": "none found",
+   "en_translation": "none (HOROI Balchus ch. 1 is a different dodecaeteris)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": "Recension I ~1,700 + Boll's prolegomena; check Magdalino 2003"
+  },
+  {
+   "id": "ccag-039",
+   "refs": [
+    {
+     "vol": "II",
+     "pages": "152–157",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Achmet, Introduction ch. 9",
+   "title": "Shapes and faces of the decans ('Indian' decans)",
+   "genre": "stars",
+   "genre_ru": "неподвижные звёзды, деканы, паранателлонты",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 1200,
+   "ru_translation": "none",
+   "en_translation": "from Arabic: Yamamoto–Burnett 2019; Greek: none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-040",
+   "refs": [
+    {
+     "vol": "II",
+     "pages": "157–158",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "II",
+     "pages": "195–202",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "V.1",
+     "pages": "240",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "V.3",
+     "pages": "79–85",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "V.3",
+     "pages": "125",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "VI",
+     "pages": "81",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "VI",
+     "pages": "89–114",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "XI.2",
+     "pages": "184",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Dorotheus of Sidon",
+   "title": "Greek prose paraphrases (sick, purging, transits, childbirth, lawsuits, fugitives, straight and crooked signs, prices) and metrical fragments",
+   "genre": "horo",
+   "genre_ru": "гороскопическая доктрина, натальная астрология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": null,
+   "ru_translation": "second-hand transits (Zennikov via Hindsight IX)",
+   "en_translation": "Pingree 1976 / Dykes 2017 (Arabic); Hindsight IX; Gramaglia 2013; HOROI fragments 2025–26",
+   "rights": "public domain (EU and RU)",
+   "verdict": "drop",
+   "verdict_source": "inventory",
+   "note": "German: Stegemann; V.3 85–87 and 122–124 listed separately"
+  },
+  {
+   "id": "ccag-041",
+   "refs": [
+    {
+     "vol": "II",
+     "pages": "159–180",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous compilation (Valens, Ptolemy, Anubio paraphrase)",
+   "title": "On the temperament of the planets and their configurations",
+   "genre": "horo",
+   "genre_ru": "гороскопическая доктрина, натальная астрология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 6400,
+   "ru_translation": "none",
+   "en_translation": "none; French probable (Schubert 2015)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "drop",
+   "verdict_source": "verification",
+   "note": "Obbink 2006"
+  },
+  {
+   "id": "ccag-042",
+   "refs": [
+    {
+     "vol": "II",
+     "pages": "181–186",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Stephanus the Philosopher (8th c.)",
+   "title": "On the mathematical art, the nations that used it, and why it is no sin (+ p. 186 chapter on 'skilled conjecture')",
+   "genre": "test",
+   "genre_ru": "свидетельства, полемика, апологии, библиография",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 1500,
+   "ru_translation": "none found",
+   "en_translation": "none (Glynias 2022: not edited or translated in full; HOROI's Stephanus is a different text)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": "Check status of Glynias' announced edition/translation; French partial: Magdalino 2006"
+  },
+  {
+   "id": "ccag-043",
+   "refs": [
+    {
+     "vol": "II",
+     "pages": "186–192",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "II",
+     "pages": "212–213",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "V.3",
+     "pages": "124–125",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "V.4",
+     "pages": "123–152",
+     "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Porphyry ed. Boer until 31.12.2050)"
+    },
+    {
+     "vol": "VII",
+     "pages": "213–225",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "VIII.1",
+     "pages": "221–248",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "VIII.4",
+     "pages": "115–224",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Rhetorius the Egyptian",
+   "title": "Compendium: selected chapters",
+   "genre": "horo",
+   "genre_ru": "гороскопическая доктрина, натальная астрология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 40000,
+   "ru_translation": "partial second-hand (Mirskoy)",
+   "en_translation": "Holden 2009; HOROI 2020–26",
+   "rights": "public domain via II 186–192, II 212–213, V.3 124–125, VII 213–225, VIII.1 221–248, VIII.4 115–224; other witnesses protected or unclear",
+   "verdict": "drop",
+   "verdict_source": "inventory",
+   "note": "Pingree–Heilen 2024"
+  },
+  {
+   "id": "ccag-044",
+   "refs": [
+    {
+     "vol": "II",
+     "pages": "192–195",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "V.3",
+     "pages": "87",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "'Zoroaster' (pseudepigraphic)",
+   "title": "On a letter handed to you; (via Praxidicus) when an expected war will come",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 1000,
+   "ru_translation": "probably second-hand (Zennikov via Hindsight X)",
+   "en_translation": "probably Hindsight X; Palchus/Theophilus channels",
+   "rights": "public domain (EU and RU)",
+   "verdict": "drop",
+   "verdict_source": "verification",
+   "note": "Bidez–Cumont 1938, fr. O 81"
+  },
+  {
+   "id": "ccag-045",
+   "refs": [
+    {
+     "vol": "II",
+     "pages": "202–212",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Anubio (prose paraphrase)",
+   "title": "On transits; on the aspects",
+   "genre": "horo",
+   "genre_ru": "гороскопическая доктрина, натальная астрология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 2900,
+   "ru_translation": "second-hand (Zennikov, Hindsight IX)",
+   "en_translation": "Hindsight IX; French Schubert 2015",
+   "rights": "public domain (EU and RU)",
+   "verdict": "excluded",
+   "verdict_source": "inventory",
+   "note": "Obbink 2006"
+  },
+  {
+   "id": "ccag-046",
+   "refs": [
+    {
+     "vol": "II",
+     "pages": "212",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "'Deucalion'",
+   "title": "On changing residence",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 120,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Working-notes bundle"
+  },
+  {
+   "id": "ccag-047",
+   "refs": [
+    {
+     "vol": "II",
+     "pages": "213",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Theodosius (11th c.)",
+   "title": "How to know the day of someone's death (example of 1065)",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 300,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Working-notes bundle"
+  },
+  {
+   "id": "ccag-048",
+   "refs": [
+    {
+     "vol": "II",
+     "pages": "214–216",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous protospatharios and strategos of the Cibyrrhaeots",
+   "title": "On the stars observed by sailors that cause storms at sea",
+   "genre": "cal",
+   "genre_ru": "календари, парапегмы, додекаэтериды, календологии",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 1100,
+   "ru_translation": "none found",
+   "en_translation": "none found; check Pryor–Jeffreys 2006; Dagron 1990 (German)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": "Saints' days, winds, routes, sailors' unlucky days"
+  },
+  {
+   "id": "ccag-049",
+   "refs": [
+    {
+     "vol": "III",
+     "pages": "25–29",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous (Ambros. A 56 sup., a. 1542)",
+   "title": "Thunder and earthquake omens by sign, alluding (Cumont) to the Rus' expedition of 941",
+   "genre": "bront",
+   "genre_ru": "бронтологии и сейсмологии",
+   "section": "magic_divination",
+   "greek_words_approx": 1150,
+   "ru_translation": "none found",
+   "en_translation": "none (machine EN)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": "Pair with IV 170–171 (~1,700)"
+  },
+  {
+   "id": "ccag-050",
+   "refs": [
+    {
+     "vol": "III",
+     "pages": "30–31",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "On the reign of the signs (year omens)",
+   "genre": "cal",
+   "genre_ru": "календари, парапегмы, додекаэтериды, календологии",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 280,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-051",
+   "refs": [
+    {
+     "vol": "III",
+     "pages": "32–40",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous (Ambros. E 16 sup., 13th c.)",
+   "title": "Selenodromion ('lunar prophetologion') with two medical appendices",
+   "genre": "luna",
+   "genre_ru": "селенодромии и лунники",
+   "section": "magic_divination",
+   "greek_words_approx": 2100,
+   "ru_translation": "none found",
+   "en_translation": "none for this recension (Torijano translates the David–Solomon recension, X 121–126)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": "Pagan and biblical births side by side"
+  },
+  {
+   "id": "ccag-052",
+   "refs": [
+    {
+     "vol": "III",
+     "pages": "41–46",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous (Ambros. E 37 sup., 16th c.)",
+   "title": "Magical recipes: astral image magic",
+   "genre": "magic",
+   "genre_ru": "магия: амулеты, заклинания, молитвы планетам, леканомантия",
+   "section": "magic_divination",
+   "greek_words_approx": 1400,
+   "ru_translation": "none found",
+   "en_translation": "none (machine EN); Hygromanteia parallels differ",
+   "rights": "public domain (EU and RU)",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": "Publish with III 53"
+  },
+  {
+   "id": "ccag-053",
+   "refs": [
+    {
+     "vol": "III",
+     "pages": "47–52",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous (Ambros. E 81 sup.)",
+   "title": "Omen set: stars, rainbow, lightning, earthquakes, Moon, thunders",
+   "genre": "bront",
+   "genre_ru": "бронтологии и сейсмологии",
+   "section": "magic_divination",
+   "greek_words_approx": 1900,
+   "ru_translation": "none",
+   "en_translation": "none (machine EN)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": "III 50–52 earlier ed. Wünsch, BZ 5 (1896)"
+  },
+  {
+   "id": "ccag-054",
+   "refs": [
+    {
+     "vol": "III",
+     "pages": "53",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "'Heliodorus' (late forgery; ed. Cumont)",
+   "title": "Making of a divining head (skull)",
+   "genre": "magic",
+   "genre_ru": "магия: амулеты, заклинания, молитвы планетам, леканомантия",
+   "section": "magic_divination",
+   "greek_words_approx": 140,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": "Needs host unit III 41–46"
+  },
+  {
+   "id": "ccag-055",
+   "refs": [
+    {
+     "vol": "IV",
+     "pages": "81–83",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Heliodorus / Olympiodorus",
+   "title": "Commentary on Paul: excerpts",
+   "genre": "horo",
+   "genre_ru": "гороскопическая доктрина, натальная астрология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 650,
+   "ru_translation": "none",
+   "en_translation": "Greenbaum 2001; HOROI",
+   "rights": "public domain (EU and RU)",
+   "verdict": "excluded",
+   "verdict_source": "inventory",
+   "note": "Boer 1962"
+  },
+  {
+   "id": "ccag-056",
+   "refs": [
+    {
+     "vol": "IV",
+     "pages": "83–87",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous (fort. Theophilus)",
+   "title": "Weather from the planet ruling the bounds of the syzygy",
+   "genre": "weather",
+   "genre_ru": "приметы погоды (диосемии)",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 1100,
+   "ru_translation": "none",
+   "en_translation": "very probably HOROI Theophilus 2nd ed. 2.1–60 (2025)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "unverified",
+   "verdict_source": "inventory",
+   "note": "Fuller recension in Flor. 12"
+  },
+  {
+   "id": "ccag-057",
+   "refs": [
+    {
+     "vol": "IV",
+     "pages": "88–90",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous Byzantine",
+   "title": "Chapters on thefts and thieves",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 800,
+   "ru_translation": "none",
+   "en_translation": "partial risk: Secrets I.44 (HOROI 2025)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Rare household vocabulary"
+  },
+  {
+   "id": "ccag-058",
+   "refs": [
+    {
+     "vol": "IV",
+     "pages": "91–95",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous; Leo the Philosopher (p. 92)",
+   "title": "Tumult, fire, earthquake; Leo on the length of reigns; the ruler's appearance; what a dinner will be like",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 1000,
+   "ru_translation": "none",
+   "en_translation": "none (machine EN)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": "Add Theophilus IV 93–94 only if not in Gramaglia"
+  },
+  {
+   "id": "ccag-059",
+   "refs": [
+    {
+     "vol": "IV",
+     "pages": "96–98",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Nicetas the Paphlagonian (?) or Peter of Antioch",
+   "title": "That astrology is a laborious business (excerpt)",
+   "genre": "test",
+   "genre_ru": "свидетельства, полемика, апологии, библиография",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 600,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-060",
+   "refs": [
+    {
+     "vol": "IV",
+     "pages": "99",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous Christian",
+   "title": "On the seven days of the week (Christian dedications)",
+   "genre": "cal",
+   "genre_ru": "календари, парапегмы, додекаэтериды, календологии",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 150,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": "Micro-pilot; with IV 138–139"
+  },
+  {
+   "id": "ccag-061",
+   "refs": [
+    {
+     "vol": "IV",
+     "pages": "110–113",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Melampus 'the astrologer'",
+   "title": "Method of prognostics from the Moon by sign",
+   "genre": "luna",
+   "genre_ru": "селенодромии и лунники",
+   "section": "magic_divination",
+   "greek_words_approx": 850,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": "Melampus dossier with VIII.4 102–107"
+  },
+  {
+   "id": "ccag-062",
+   "refs": [
+    {
+     "vol": "IV",
+     "pages": "113–118",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous ('the Chaldaeans')",
+   "title": "The seven world-ages ruled by the planets (two recensions)",
+   "genre": "astr",
+   "genre_ru": "астрономия, вычисления, космология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 1000,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": "Companion to V.2 130–137"
+  },
+  {
+   "id": "ccag-063",
+   "refs": [
+    {
+     "vol": "IV",
+     "pages": "118–119",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "IV",
+     "pages": "139–142",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "IV",
+     "pages": "145–146",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "XII",
+     "pages": "113–114",
+     "rights": "EU: public domain since 1.1.2013; RU: treat as protected (31.12.2059/2063 per landscape; transitional question open)"
+    }
+   ],
+   "author": "Zanates the Persian (al-Zanātī); Greek by Arsenios, 1266",
+   "title": "Dangerous days for bloodletting; Moon observances; stars causing disturbance",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 1200,
+   "ru_translation": "none",
+   "en_translation": "none (HOROI Vienna 108 selection covers other chapters)",
+   "rights": "public domain via IV 118–119, IV 139–142, IV 145–146; other witnesses protected or unclear",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": "XII = variant readings only"
+  },
+  {
+   "id": "ccag-064",
+   "refs": [
+    {
+     "vol": "IV",
+     "pages": "120–121",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "VII",
+     "pages": "161–162",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "VII",
+     "pages": "191",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "VIII.1",
+     "pages": "131",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "XI.2",
+     "pages": "152–154",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "XI.2",
+     "pages": "163–164",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "'Petosiris' to King Nechepso (pseudepigraphic); Psellus' testimonium",
+   "title": "Onomantic letter and devices: name-numbers, circle, 'astronomical instrument'",
+   "genre": "onom",
+   "genre_ru": "ономантия, жребии, оракулы, хиромантия",
+   "section": "magic_divination",
+   "greek_words_approx": 2000,
+   "ru_translation": "none",
+   "en_translation": "HOROI N–P Texts 99–108 (2023) cover the recensions (XI.2 163–164 = Text 105); VII 161–162 not verified; Hindsight X possible",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Russian first only; Nechepso dossier linked to the Alexander Romance"
+  },
+  {
+   "id": "ccag-065",
+   "refs": [
+    {
+     "vol": "IV",
+     "pages": "122–123",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Theophilus of Edessa (attr. Cumont)",
+   "title": "Animals and plants allotted to each planet",
+   "genre": "bot",
+   "genre_ru": "ботанология, лапидарии, «Кираниды»",
+   "section": "magic_divination",
+   "greek_words_approx": 260,
+   "ru_translation": "none",
+   "en_translation": "possibly Gramaglia 2017",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-066",
+   "refs": [
+    {
+     "vol": "IV",
+     "pages": "124–127",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "V.1",
+     "pages": "142–155",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "XI.1",
+     "pages": "168–176",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "XI.1",
+     "pages": "266–270",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "XI.2",
+     "pages": "189–192",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "XII",
+     "pages": "96–104",
+     "rights": "EU: public domain since 1.1.2013; RU: treat as protected (31.12.2059/2063 per landscape; transitional question open)"
+    }
+   ],
+   "author": "'Apomasar' / Shādhān: Secrets (Mysteria) of Abū Maʿshar, Greek, books I–II",
+   "title": "Harranian world-year, Sirius, chess; anecdotes of the Abbasid court; teaching, thought-reading, charioteers; kings under great conjunctions; physiognomy of the decans",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 8000,
+   "ru_translation": "none (Mirskoy coverage not checked)",
+   "en_translation": "HOROI: Shādhān Discourses chs 1–98 + App. A–C = Book II (2020–22); Book I complete (2025–26)",
+   "rights": "public domain via IV 124–127, V.1 142–155, XI.1 168–176, XI.1 266–270, XI.2 189–192; other witnesses protected or unclear",
+   "verdict": "drop",
+   "verdict_source": "verification",
+   "note": "Russian first possible for V.1 144–152 anecdotes; V.1 Book III parts re-ed. Pingree 2019"
+  },
+  {
+   "id": "ccag-067",
+   "refs": [
+    {
+     "vol": "IV",
+     "pages": "128–131",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "Tonitruale (by sign and by month)",
+   "genre": "bront",
+   "genre_ru": "бронтологии и сейсмологии",
+   "section": "magic_divination",
+   "greek_words_approx": 1000,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-068",
+   "refs": [
+    {
+     "vol": "IV",
+     "pages": "132",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous Christian magician",
+   "title": "Lecanomancy (bowl divination)",
+   "genre": "magic",
+   "genre_ru": "магия: амулеты, заклинания, молитвы планетам, леканомантия",
+   "section": "magic_divination",
+   "greek_words_approx": 140,
+   "ru_translation": "none",
+   "en_translation": "none; French risk: Delatte, La catoptromancie grecque (1932)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-069",
+   "refs": [
+    {
+     "vol": "IV",
+     "pages": "133",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "scribe of Neap. II C 33",
+   "title": "Verses on Astrampsychos, Petosiris, Pythagoras",
+   "genre": "other",
+   "genre_ru": "прочее (списки, загадки, рецепты, коллации)",
+   "section": "either",
+   "greek_words_approx": 80,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Add-on only"
+  },
+  {
+   "id": "ccag-070",
+   "refs": [
+    {
+     "vol": "IV",
+     "pages": "134–136",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "VI",
+     "pages": "83–84",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "VII",
+     "pages": "231–236",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "VIII.3",
+     "pages": "159–163",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "IX.2",
+     "pages": "129–135",
+     "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Delatte's restorations until 2034)"
+    }
+   ],
+   "author": "Ps.-Alexander / Hermes Trismegistus",
+   "title": "Plants of the signs and of the seven planets ('seven herbs of King Alexander'), several recensions",
+   "genre": "bot",
+   "genre_ru": "ботанология, лапидарии, «Кираниды»",
+   "section": "magic_divination",
+   "greek_words_approx": 3000,
+   "ru_translation": "none found",
+   "en_translation": "Greek: none; Latin version (Liber aggregationis) in EN, section not verified; Festugière discusses",
+   "rights": "public domain via IV 134–136, VI 83–84, VII 231–236, VIII.3 159–163; other witnesses protected or unclear",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Alexander Romance link; IX.2 (protected) only as variant; check Litwa 2018, Delatte's Herbarius"
+  },
+  {
+   "id": "ccag-071",
+   "refs": [
+    {
+     "vol": "IV",
+     "pages": "136–138",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "VII",
+     "pages": "101–102",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Heliodorus (attributed)",
+   "title": "Planetary rulers of days and hours; astrological definitions; phosphoria",
+   "genre": "horo",
+   "genre_ru": "гороскопическая доктрина, натальная астрология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 650,
+   "ru_translation": "none",
+   "en_translation": "HOROI 'Fragments ascribed to Heliodorus' (2022), probable",
+   "rights": "public domain (EU and RU)",
+   "verdict": "excluded",
+   "verdict_source": "inventory",
+   "note": ""
+  },
+  {
+   "id": "ccag-072",
+   "refs": [
+    {
+     "vol": "IV",
+     "pages": "138–139",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "Effects of the planets ruling the hours",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 350,
+   "ru_translation": "none",
+   "en_translation": "not verified (Hygromanteia parallel)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-073",
+   "refs": [
+    {
+     "vol": "IV",
+     "pages": "142–145",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "Another inquiry on the Moon: names of the thirty days",
+   "genre": "luna",
+   "genre_ru": "селенодромии и лунники",
+   "section": "magic_divination",
+   "greek_words_approx": 770,
+   "ru_translation": "none",
+   "en_translation": "none (Torijano only cites it)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": "Pair with III 32–40"
+  },
+  {
+   "id": "ccag-074",
+   "refs": [
+    {
+     "vol": "IV",
+     "pages": "146–149",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "'Valens' (12th-c. computation)",
+   "title": "Oracle-computation by letter values of the signs, with a question dated 1162",
+   "genre": "onom",
+   "genre_ru": "ономантия, жребии, оракулы, хиромантия",
+   "section": "magic_divination",
+   "greek_words_approx": 1000,
+   "ru_translation": "none",
+   "en_translation": "unclear (HOROI 'Valens on thought-reading' 2021 probably different)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-075",
+   "refs": [
+    {
+     "vol": "IV",
+     "pages": "149–151",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Protagoras of Nicaea",
+   "title": "On runaway slaves",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 450,
+   "ru_translation": "none",
+   "en_translation": "probably Gramaglia 2013 (Heph. III)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "unverified",
+   "verdict_source": "inventory",
+   "note": ""
+  },
+  {
+   "id": "ccag-076",
+   "refs": [
+    {
+     "vol": "IV",
+     "pages": "152–154",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "VII",
+     "pages": "192–212",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "IX.2",
+     "pages": "180–186",
+     "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Delatte's restorations until 2034)"
+    }
+   ],
+   "author": "Teucer of Babylon (via Rhetorius, 'Heliodorus')",
+   "title": "Decans, co-rising constellations, signs",
+   "genre": "stars",
+   "genre_ru": "неподвижные звёзды, деканы, паранателлонты",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 7500,
+   "ru_translation": "second-hand (Mirskoy)",
+   "en_translation": "HOROI 2020, 2022–23",
+   "rights": "public domain via IV 152–154, VII 192–212; other witnesses protected or unclear",
+   "verdict": "drop",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-077",
+   "refs": [
+    {
+     "vol": "IV",
+     "pages": "154–155",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "'Antiochus' (= 'Zoroaster', Geoponica I.8)",
+   "title": "Rising of the Dog Star and the year's prognosis",
+   "genre": "cal",
+   "genre_ru": "календари, парапегмы, додекаэтериды, календологии",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 220,
+   "ru_translation": "Geoponica parallel (Lipshits 1960, not verified)",
+   "en_translation": "Geoponica (Owen; Dalby 2011)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "excluded",
+   "verdict_source": "inventory",
+   "note": ""
+  },
+  {
+   "id": "ccag-078",
+   "refs": [
+    {
+     "vol": "IV",
+     "pages": "155–158",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Peter the Philosopher (mid-12th c.)",
+   "title": "Letter to Patriarch Luke Chrysoberges on the Dog Star and purgatives",
+   "genre": "test",
+   "genre_ru": "свидетельства, полемика, апологии, библиография",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 830,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-079",
+   "refs": [
+    {
+     "vol": "IV",
+     "pages": "158–169",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous (15th c.)",
+   "title": "Zodiologion: fates of men and women under each sign, with patron saints",
+   "genre": "zod",
+   "genre_ru": "зодиологии (популярная генетлиалогия)",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 3200,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-080",
+   "refs": [
+    {
+     "vol": "IV",
+     "pages": "170–171",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous (Neap. II C 34)",
+   "title": "Interpretation of the seismologion through the twelve signs",
+   "genre": "bront",
+   "genre_ru": "бронтологии и сейсмологии",
+   "section": "magic_divination",
+   "greek_words_approx": 550,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": "With III 25–29"
+  },
+  {
+   "id": "ccag-081",
+   "refs": [
+    {
+     "vol": "IV",
+     "pages": "172–173",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "VIII.3",
+     "pages": "123–125",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "Interpretation of the monthly brontologion",
+   "genre": "bront",
+   "genre_ru": "бронтологии и сейсмологии",
+   "section": "magic_divination",
+   "greek_words_approx": 750,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Brontologia dossier"
+  },
+  {
+   "id": "ccag-082",
+   "refs": [
+    {
+     "vol": "V.1",
+     "pages": "85–105",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Albertus Magnus",
+   "title": "Speculum astronomiae (Latin excerpt)",
+   "genre": "test",
+   "genre_ru": "свидетельства, полемика, апологии, библиография",
+   "section": "astronomy_astrology",
+   "greek_words_approx": null,
+   "ru_translation": "-",
+   "en_translation": "Zambelli 1992",
+   "rights": "public domain (EU and RU)",
+   "verdict": "excluded",
+   "verdict_source": "inventory",
+   "note": "Not Greek"
+  },
+  {
+   "id": "ccag-083",
+   "refs": [
+    {
+     "vol": "V.1",
+     "pages": "106–125",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Manuel I Komnenos",
+   "title": "Letter in defence of astrology against a monk of the Pantokrator",
+   "genre": "test",
+   "genre_ru": "свидетельства, полемика, апологии, библиография",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 5300,
+   "ru_translation": "none (Magdalino's Russian edition 2024 only summarises)",
+   "en_translation": "YES: D. George, Culture and Cosmos 5.2 (2001)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "First Russian only; pair with Glykas"
+  },
+  {
+   "id": "ccag-084",
+   "refs": [
+    {
+     "vol": "V.1",
+     "pages": "125–140",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Michael Glykas",
+   "title": "Counter-apology to Manuel I",
+   "genre": "test",
+   "genre_ru": "свидетельства, полемика, апологии, библиография",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 5000,
+   "ru_translation": "none",
+   "en_translation": "YES: George, Culture and Cosmos 6.1 (2002)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-085",
+   "refs": [
+    {
+     "vol": "V.1",
+     "pages": "140–141",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Michael Glykas",
+   "title": "Whether mathematical science must be utterly rejected (excerpts)",
+   "genre": "test",
+   "genre_ru": "свидетельства, полемика, апологии, библиография",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 520,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Full letter in Eustratiades 1906/1912"
+  },
+  {
+   "id": "ccag-086",
+   "refs": [
+    {
+     "vol": "V.1",
+     "pages": "156–170",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Abū Maʿshar, Great Introduction (Greek version)",
+   "title": "Co-rising constellations of the 36 decans (Persian, Indian, Greek spheres); signs injuring the eyes",
+   "genre": "stars",
+   "genre_ru": "неподвижные звёзды, деканы, паранателлонты",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 4100,
+   "ru_translation": "none",
+   "en_translation": "from Arabic: Yamamoto–Burnett 2019; Dykes",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Greek re-ed. Pingree 2019 (copyright)"
+  },
+  {
+   "id": "ccag-087",
+   "refs": [
+    {
+     "vol": "V.1",
+     "pages": "171–179",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Palchus ch. 1",
+   "title": "Chaldaean dodecaeteris: weather, sowing, harvests",
+   "genre": "cal",
+   "genre_ru": "календари, парапегмы, додекаэтериды, календологии",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 1600,
+   "ru_translation": "parallel Geoponica I.12 (Lipshits 1960)",
+   "en_translation": "probably HOROI Balchus chs 1–4 (2023)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Bundle with V.1 241–242"
+  },
+  {
+   "id": "ccag-088",
+   "refs": [
+    {
+     "vol": "V.1",
+     "pages": "179",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Palchus ch. 6",
+   "title": "Unlucky lunar days 'as the Gauls observe'",
+   "genre": "cal",
+   "genre_ru": "календари, парапегмы, додекаэтериды, календологии",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 100,
+   "ru_translation": "none",
+   "en_translation": "probably HOROI",
+   "rights": "public domain (EU and RU)",
+   "verdict": "drop",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-089",
+   "refs": [
+    {
+     "vol": "V.1",
+     "pages": "180–183",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Palchus ch. 54",
+   "title": "Colour and smell of each planet: guessing a hidden object",
+   "genre": "onom",
+   "genre_ru": "ономантия, жребии, оракулы, хиромантия",
+   "section": "magic_divination",
+   "greek_words_approx": 900,
+   "ru_translation": "none",
+   "en_translation": "probably HOROI Balchus 50–54",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-090",
+   "refs": [
+    {
+     "vol": "V.1",
+     "pages": "186–187",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "'Hermes' (Palchus ch. 74)",
+   "title": "Decumbiture from the patient's name",
+   "genre": "onom",
+   "genre_ru": "ономантия, жребии, оракулы, хиромантия",
+   "section": "magic_divination",
+   "greek_words_approx": 65,
+   "ru_translation": "none",
+   "en_translation": "probably HOROI",
+   "rights": "public domain (EU and RU)",
+   "verdict": "drop",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-091",
+   "refs": [
+    {
+     "vol": "V.1",
+     "pages": "227–228",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "[Eleutherius Zebelenus]",
+   "title": "Fortune in office; profession; 'walks' of the stars (nativity of 1040, written 1079)",
+   "genre": "horo",
+   "genre_ru": "гороскопическая доктрина, натальная астрология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 380,
+   "ru_translation": "none",
+   "en_translation": "possibly HOROI Balchus 139–148",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Italian: Bezza 2002 (coverage not verified)"
+  },
+  {
+   "id": "ccag-092",
+   "refs": [
+    {
+     "vol": "V.1",
+     "pages": "229–234",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Theophilus of Edessa",
+   "title": "Preface to the Labours on military inceptions, to his son Deucalion",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 500,
+   "ru_translation": "none",
+   "en_translation": "very probably Gramaglia 2017",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-093",
+   "refs": [
+    {
+     "vol": "V.1",
+     "pages": "234–238",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Theophilus of Edessa",
+   "title": "From the 'second edition': letter to Deucalion defending astrology",
+   "genre": "test",
+   "genre_ru": "свидетельства, полемика, апологии, библиография",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 1450,
+   "ru_translation": "excerpt (one line in Magdalino's Russian edition, 2024)",
+   "en_translation": "not determined (Gramaglia 2017? HOROI 2nd ed.?)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Strong if absent from Gramaglia and HOROI"
+  },
+  {
+   "id": "ccag-094",
+   "refs": [
+    {
+     "vol": "V.1",
+     "pages": "239–240",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "How to find the 'antigenesis'",
+   "genre": "astr",
+   "genre_ru": "астрономия, вычисления, космология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 400,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "excluded",
+   "verdict_source": "inventory",
+   "note": ""
+  },
+  {
+   "id": "ccag-095",
+   "refs": [
+    {
+     "vol": "V.1",
+     "pages": "241–242",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous (Vat. gr. 1290)",
+   "title": "Short Chaldaean dodecaeteris (possibly Orphic)",
+   "genre": "cal",
+   "genre_ru": "календари, парапегмы, додекаэтериды, календологии",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 340,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "With V.1 171–179"
+  },
+  {
+   "id": "ccag-096",
+   "refs": [
+    {
+     "vol": "V.2",
+     "pages": "15–16",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "V.4",
+     "pages": "177–184",
+     "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Porphyry ed. Boer until 31.12.2050)"
+    }
+   ],
+   "author": "Abū Maʿshar, De revolutionibus nativitatum (Greek)",
+   "title": "Table of contents; chronocratoria",
+   "genre": "horo",
+   "genre_ru": "гороскопическая доктрина, натальная астрология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": null,
+   "ru_translation": "-",
+   "en_translation": "-",
+   "rights": "public domain via V.2 15–16; other witnesses protected or unclear",
+   "verdict": "excluded",
+   "verdict_source": "inventory",
+   "note": "Pingree, Teubner 1968"
+  },
+  {
+   "id": "ccag-097",
+   "refs": [
+    {
+     "vol": "V.2",
+     "pages": "130–137",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous Byzantine compiler (ed. Bidez)",
+   "title": "The foundation of the astronomical art according to the Chaldaeans (Θεμέλιος)",
+   "genre": "astr",
+   "genre_ru": "астрономия, вычисления, космология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 2050,
+   "ru_translation": "none found",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": "Publish with V.2 137–140"
+  },
+  {
+   "id": "ccag-098",
+   "refs": [
+    {
+     "vol": "V.2",
+     "pages": "137–140",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "same compiler, Persian source of c. 10th c. (ed. Cumont)",
+   "title": "Astrological ethnography of the seven lands",
+   "genre": "mund",
+   "genre_ru": "мунданная астрология, затмения, кометы, хорография",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 900,
+   "ru_translation": "none found",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-099",
+   "refs": [
+    {
+     "vol": "V.3",
+     "pages": "75",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous (after John of Damascus)",
+   "title": "The seven heavens and the metals",
+   "genre": "astr",
+   "genre_ru": "астрономия, вычисления, космология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 170,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "excluded",
+   "verdict_source": "inventory",
+   "note": ""
+  },
+  {
+   "id": "ccag-100",
+   "refs": [
+    {
+     "vol": "V.3",
+     "pages": "76–78",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "'Dionysius' to King Philip",
+   "title": "Telling the hour from one's shadow (foot tables)",
+   "genre": "astr",
+   "genre_ru": "астрономия, вычисления, космология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 450,
+   "ru_translation": "none",
+   "en_translation": "none (Neugebauer's HAMA not checked)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Time-keeping bundle with VI 79–80, VI 82–83, VII 187–190"
+  },
+  {
+   "id": "ccag-101",
+   "refs": [
+    {
+     "vol": "V.3",
+     "pages": "78–79",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Anempodistus",
+   "title": "How to know the question",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 350,
+   "ru_translation": "none",
+   "en_translation": "HOROI 2021",
+   "rights": "public domain (EU and RU)",
+   "verdict": "drop",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-102",
+   "refs": [
+    {
+     "vol": "V.3",
+     "pages": "80",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "V.3",
+     "pages": "83",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "V.3",
+     "pages": "88–97",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "V.3",
+     "pages": "127–128",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous (Vat. gr. 1056)",
+   "title": "Everyday katarchai: eye pain; three love questions; profession; dreams; lunar-mansion and zodiacal elections; comet; Theon, Apomasar, Rhaptes on travel; hippodrome (Blues and Greens); marriage; lit and unlit lunar days",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 2500,
+   "ru_translation": "none",
+   "en_translation": "none (machine EN)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": "Anchors: dreams 88–90, elections 94–96; p. 127 damaged"
+  },
+  {
+   "id": "ccag-103",
+   "refs": [
+    {
+     "vol": "V.3",
+     "pages": "85–87",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "'Dorotheus' (Arabic-mediated)",
+   "title": "Proclamation of a king; will an expelled official return?",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 480,
+   "ru_translation": "none",
+   "en_translation": "risk: HOROI Dorotheus fragments 2025–26",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-104",
+   "refs": [
+    {
+     "vol": "V.3",
+     "pages": "98–110",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Sahl ibn Bishr (Greek version)",
+   "title": "Excerpts from books II–III; worked example; 14 conditions in Greek and Arabic; 11 conditions; 'Mugnes'",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 3200,
+   "ru_translation": "none",
+   "en_translation": "Greek: none; Sahl from Latin/Arabic: Dykes 2008, 2019",
+   "rights": "public domain (EU and RU)",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-105",
+   "refs": [
+    {
+     "vol": "V.3",
+     "pages": "110–112",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "'Valens' (Ps.-Vettius Valens)",
+   "title": "Valens' judgement concerning Muhammad",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 480,
+   "ru_translation": "none",
+   "en_translation": "none (not in Riley; only cited)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": "Check Hoyland 1997"
+  },
+  {
+   "id": "ccag-106",
+   "refs": [
+    {
+     "vol": "V.3",
+     "pages": "112–122",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "'Valens' with Dorotheus, Persians, Indians and others",
+   "title": "The Work of Valens on interrogations (doxography)",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 2900,
+   "ru_translation": "none",
+   "en_translation": "partly probable: HOROI 'Valens on thought-reading' (2021)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-107",
+   "refs": [
+    {
+     "vol": "V.3",
+     "pages": "122–124",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "'Dorotheus' from a Saracen book",
+   "title": "Sayings of Dorotheus taken from an Arabic book",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 550,
+   "ru_translation": "none",
+   "en_translation": "risk: HOROI Dorotheus series",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-108",
+   "refs": [
+    {
+     "vol": "V.3",
+     "pages": "128–130",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "Short technical lists: melothesia, nebulous stars, destructive fixed stars, orbs, eclipses, the Moon's affliction",
+   "genre": "horo",
+   "genre_ru": "гороскопическая доктрина, натальная астрология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 500,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "excluded",
+   "verdict_source": "inventory",
+   "note": ""
+  },
+  {
+   "id": "ccag-109",
+   "refs": [
+    {
+     "vol": "V.3",
+     "pages": "131–132",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous (Abbasid source)",
+   "title": "Regions assigned to each sign; fardārs of the planets",
+   "genre": "mund",
+   "genre_ru": "мунданная астрология, затмения, кометы, хорография",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 600,
+   "ru_translation": "none",
+   "en_translation": "probably HOROI Balchus 25–31",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-110",
+   "refs": [
+    {
+     "vol": "V.3",
+     "pages": "133–148",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Theodore Meliteniotes (c. 1352)",
+   "title": "Tribiblos: prooemium against astrology; I.1 'What astronomy is'; Book III excerpt (Persian tables)",
+   "genre": "test",
+   "genre_ru": "свидетельства, полемика, апологии, библиография",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 4000,
+   "ru_translation": "none",
+   "en_translation": "excerpt: Bardi 2023 (EN)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "French Book I: Leurquin 1990; German Book III: Bardi 2020"
+  },
+  {
+   "id": "ccag-111",
+   "refs": [
+    {
+     "vol": "V.4",
+     "pages": "117",
+     "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Porphyry ed. Boer until 31.12.2050)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "On decanting wine; places allotted to stars",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 100,
+   "ru_translation": "-",
+   "en_translation": "Geoponica (Dalby) for the wine text",
+   "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Porphyry ed. Boer until 31.12.2050)",
+   "verdict": "excluded",
+   "verdict_source": "inventory",
+   "note": ""
+  },
+  {
+   "id": "ccag-112",
+   "refs": [
+    {
+     "vol": "V.4",
+     "pages": "118–120",
+     "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Porphyry ed. Boer until 31.12.2050)"
+    }
+   ],
+   "author": "anonymous Hermetic florilegium (Vat. gr. 952)",
+   "title": "Escaping adversity; fortune; love and court victory; difficult childbirth; the moonstruck",
+   "genre": "magic",
+   "genre_ru": "магия: амулеты, заклинания, молитвы планетам, леканомантия",
+   "section": "magic_divination",
+   "greek_words_approx": 400,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Porphyry ed. Boer until 31.12.2050)",
+   "verdict": "excluded",
+   "verdict_source": "inventory",
+   "note": "Rights; chs α'–γ' (peony) are in Heeg, VIII.2"
+  },
+  {
+   "id": "ccag-113",
+   "refs": [
+    {
+     "vol": "V.4",
+     "pages": "121–122",
+     "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Porphyry ed. Boer until 31.12.2050)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "Colours of the planets with metals and flowers",
+   "genre": "other",
+   "genre_ru": "прочее (списки, загадки, рецепты, коллации)",
+   "section": "either",
+   "greek_words_approx": 100,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Porphyry ed. Boer until 31.12.2050)",
+   "verdict": "excluded",
+   "verdict_source": "inventory",
+   "note": "PD alternative: Pradel 1907"
+  },
+  {
+   "id": "ccag-114",
+   "refs": [
+    {
+     "vol": "V.4",
+     "pages": "152–154",
+     "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Porphyry ed. Boer until 31.12.2050)"
+    }
+   ],
+   "author": "Apomasar",
+   "title": "Ascendant of an inception",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 400,
+   "ru_translation": "-",
+   "en_translation": "-",
+   "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Porphyry ed. Boer until 31.12.2050)",
+   "verdict": "excluded",
+   "verdict_source": "inventory",
+   "note": "Rights"
+  },
+  {
+   "id": "ccag-115",
+   "refs": [
+    {
+     "vol": "V.4",
+     "pages": "155–163",
+     "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Porphyry ed. Boer until 31.12.2050)"
+    },
+    {
+     "vol": "VII",
+     "pages": "167–171",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "X",
+     "pages": "132–135",
+     "rights": "protected in EU and RU until 31.12.2034 (Delatte)"
+    }
+   ],
+   "author": "'Hermes Trismegistus' / 'Esdras' / 'Leo the Wise'",
+   "title": "Earthquake book by month and sign (paraphrase of the Orphic-Hermetic poem), three recensions",
+   "genre": "bront",
+   "genre_ru": "бронтологии и сейсмологии",
+   "section": "magic_divination",
+   "greek_words_approx": 1400,
+   "ru_translation": "none found",
+   "en_translation": "none found; risk: Hindsight X (Hermes' meteorological texts)",
+   "rights": "public domain via VII 167–171; other witnesses protected or unclear",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Use PD VII 167–171 as base"
+  },
+  {
+   "id": "ccag-116",
+   "refs": [
+    {
+     "vol": "V.4",
+     "pages": "165–166",
+     "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Porphyry ed. Boer until 31.12.2050)"
+    }
+   ],
+   "author": "'Aratus' (attributed)",
+   "title": "When the Sun passes from sign to sign; how many signs rise by day and night",
+   "genre": "astr",
+   "genre_ru": "астрономия, вычисления, космология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 250,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Porphyry ed. Boer until 31.12.2050)",
+   "verdict": "excluded",
+   "verdict_source": "inventory",
+   "note": "Rights; compare PD XI.2 133–134"
+  },
+  {
+   "id": "ccag-117",
+   "refs": [
+    {
+     "vol": "V.4",
+     "pages": "166–169",
+     "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Porphyry ed. Boer until 31.12.2050)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "Short lists: houses, elements, limbs, order of signs, letters of the alphabet, years of life",
+   "genre": "other",
+   "genre_ru": "прочее (списки, загадки, рецепты, коллации)",
+   "section": "either",
+   "greek_words_approx": 400,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Porphyry ed. Boer until 31.12.2050)",
+   "verdict": "excluded",
+   "verdict_source": "inventory",
+   "note": "Rights"
+  },
+  {
+   "id": "ccag-118",
+   "refs": [
+    {
+     "vol": "V.4",
+     "pages": "169–170",
+     "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Porphyry ed. Boer until 31.12.2050)"
+    }
+   ],
+   "author": "Achmet the Persian, Introduction ch. X",
+   "title": "Powers and colours of the planets (including religions)",
+   "genre": "horo",
+   "genre_ru": "гороскопическая доктрина, натальная астрология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 300,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Porphyry ed. Boer until 31.12.2050)",
+   "verdict": "excluded",
+   "verdict_source": "inventory",
+   "note": "Rights until 2041"
+  },
+  {
+   "id": "ccag-119",
+   "refs": [
+    {
+     "vol": "V.4",
+     "pages": "171–176",
+     "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Porphyry ed. Boer until 31.12.2050)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "Chaldaean dodecaeteris with countries",
+   "genre": "cal",
+   "genre_ru": "календари, парапегмы, додекаэтериды, календологии",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 1100,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Porphyry ed. Boer until 31.12.2050)",
+   "verdict": "excluded",
+   "verdict_source": "inventory",
+   "note": "Rights; PD parallels V.1, VIII.3, XI.1"
+  },
+  {
+   "id": "ccag-120",
+   "refs": [
+    {
+     "vol": "V.4",
+     "pages": "185–228",
+     "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Porphyry ed. Boer until 31.12.2050)"
+    }
+   ],
+   "author": "Porphyry",
+   "title": "Introduction to the Tetrabiblos (ed. Boer & Weinstock)",
+   "genre": "horo",
+   "genre_ru": "гороскопическая доктрина, натальная астрология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 9000,
+   "ru_translation": "second-hand (Tvardovskaya, from Holden)",
+   "en_translation": "Holden 2009; HOROI 2025",
+   "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Porphyry ed. Boer until 31.12.2050)",
+   "verdict": "drop",
+   "verdict_source": "inventory",
+   "note": "Protected until 2050"
+  },
+  {
+   "id": "ccag-121",
+   "refs": [
+    {
+     "vol": "VI",
+     "pages": "61–62",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous (Vind. phil. gr. 108)",
+   "title": "Magical formulae with the archangel Michael and the alphabet",
+   "genre": "magic",
+   "genre_ru": "магия: амулеты, заклинания, молитвы планетам, леканомантия",
+   "section": "magic_divination",
+   "greek_words_approx": 300,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": "Opener of the Vienna magic bundle"
+  },
+  {
+   "id": "ccag-122",
+   "refs": [
+    {
+     "vol": "VI",
+     "pages": "62",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Petosiris",
+   "title": "On the agreement of square aspects",
+   "genre": "horo",
+   "genre_ru": "гороскопическая доктрина, натальная астрология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 120,
+   "ru_translation": "-",
+   "en_translation": "probably HOROI / Hindsight X",
+   "rights": "public domain (EU and RU)",
+   "verdict": "excluded",
+   "verdict_source": "inventory",
+   "note": ""
+  },
+  {
+   "id": "ccag-123",
+   "refs": [
+    {
+     "vol": "VI",
+     "pages": "62",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "'Hephaestion' (citing Apomasar)",
+   "title": "On hidden treasure",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 180,
+   "ru_translation": "none",
+   "en_translation": "not checked (Heph. III translations)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-124",
+   "refs": [
+    {
+     "vol": "VI",
+     "pages": "73–78",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "On the decans of the twelve signs: secret names, stones, healing amulets",
+   "genre": "magic",
+   "genre_ru": "магия: амулеты, заклинания, молитвы планетам, леканомантия",
+   "section": "magic_divination",
+   "greek_words_approx": 1100,
+   "ru_translation": "none",
+   "en_translation": "none (machine EN)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": "Plate of characters"
+  },
+  {
+   "id": "ccag-125",
+   "refs": [
+    {
+     "vol": "VI",
+     "pages": "79",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "'Hermes Trismegistus'",
+   "title": "Election for meeting a king or sultan",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 50,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Footnote only"
+  },
+  {
+   "id": "ccag-126",
+   "refs": [
+    {
+     "vol": "VI",
+     "pages": "79–80",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous (919–944)",
+   "title": "Rising of the Dog Star computed from the era of Menophres",
+   "genre": "astr",
+   "genre_ru": "астрономия, вычисления, космология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 300,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Time-keeping bundle"
+  },
+  {
+   "id": "ccag-127",
+   "refs": [
+    {
+     "vol": "VI",
+     "pages": "80",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous (continuation of Julian)",
+   "title": "General rules on undertakings",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 150,
+   "ru_translation": "probably second-hand",
+   "en_translation": "probably HOROI",
+   "rights": "public domain (EU and RU)",
+   "verdict": "drop",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-128",
+   "refs": [
+    {
+     "vol": "VI",
+     "pages": "82–83",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "'Proclus Ouranodromos'",
+   "title": "Scholia and figure of the heavens",
+   "genre": "astr",
+   "genre_ru": "астрономия, вычисления, космология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 200,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-129",
+   "refs": [
+    {
+     "vol": "VI",
+     "pages": "84–88",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "'Solomon' and anonymous",
+   "title": "Solomonic instruction for favour; Wisdom of Solomon (Philippi treasure) specimens; healing charms",
+   "genre": "magic",
+   "genre_ru": "магия: амулеты, заклинания, молитвы планетам, леканомантия",
+   "section": "magic_divination",
+   "greek_words_approx": 1000,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Philippi passage (~250 words) is the translatable core"
+  },
+  {
+   "id": "ccag-130",
+   "refs": [
+    {
+     "vol": "VII",
+     "pages": "87",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "VIII.1",
+     "pages": "160",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "Origin legends of astrology (Seth's tablets, Ammon, Enoch; Seth's pillars, Nimrod)",
+   "genre": "test",
+   "genre_ru": "свидетельства, полемика, апологии, библиография",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 210,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Micro-pilot"
+  },
+  {
+   "id": "ccag-131",
+   "refs": [
+    {
+     "vol": "VII",
+     "pages": "88–95",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous Christian compiler",
+   "title": "On the individual hours of the days of the week (two versions)",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 2400,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": "Check CCAG IV 136 ff.; HOROI talk 2026"
+  },
+  {
+   "id": "ccag-132",
+   "refs": [
+    {
+     "vol": "VII",
+     "pages": "95–99",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous Byzantine",
+   "title": "On the patronages of the planets (incl. religions)",
+   "genre": "other",
+   "genre_ru": "прочее (списки, загадки, рецепты, коллации)",
+   "section": "either",
+   "greek_words_approx": 1250,
+   "ru_translation": "none",
+   "en_translation": "none; check Gramaglia 2017",
+   "rights": "public domain (EU and RU)",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-133",
+   "refs": [
+    {
+     "vol": "VII",
+     "pages": "99–101",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "Excerpts from Scripture and the Fathers on the end of the world",
+   "genre": "test",
+   "genre_ru": "свидетельства, полемика, апологии, библиография",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 640,
+   "ru_translation": "sources translated",
+   "en_translation": "sources translated",
+   "rights": "public domain (EU and RU)",
+   "verdict": "drop",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-134",
+   "refs": [
+    {
+     "vol": "VII",
+     "pages": "101",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "'Hesiod' and 'Orpheus'",
+   "title": "On the days of the Moon",
+   "genre": "luna",
+   "genre_ru": "селенодромии и лунники",
+   "section": "magic_divination",
+   "greek_words_approx": 75,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Check Bernabé, PEG II"
+  },
+  {
+   "id": "ccag-135",
+   "refs": [
+    {
+     "vol": "VII",
+     "pages": "102–105",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "On the measure of heaven, time and the constitution of the cosmos (parasangs)",
+   "genre": "astr",
+   "genre_ru": "астрономия, вычисления, космология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 720,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": "With VIII.1 186–187"
+  },
+  {
+   "id": "ccag-136",
+   "refs": [
+    {
+     "vol": "VII",
+     "pages": "105–106",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "Christian magical phylactery against slanderers",
+   "genre": "magic",
+   "genre_ru": "магия: амулеты, заклинания, молитвы планетам, леканомантия",
+   "section": "magic_divination",
+   "greek_words_approx": 285,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "With VII 245–246"
+  },
+  {
+   "id": "ccag-137",
+   "refs": [
+    {
+     "vol": "VII",
+     "pages": "106–107",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "pseudo-Heraclitus (cento from Philo)",
+   "title": "Against astral rule",
+   "genre": "test",
+   "genre_ru": "свидетельства, полемика, апологии, библиография",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 290,
+   "ru_translation": "Philo translated",
+   "en_translation": "Philo (Loeb)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "drop",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-138",
+   "refs": [
+    {
+     "vol": "VII",
+     "pages": "123–126",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous (cites 'Ammon')",
+   "title": "Solar and lunar eclipses and the 'black star'; the 'Indian solution' on the eclipse nodes",
+   "genre": "mund",
+   "genre_ru": "мунданная астрология, затмения, кометы, хорография",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 850,
+   "ru_translation": "none; risk via Zennikov's Antiochus",
+   "en_translation": "risk: Hindsight IIb; Pingree, Viator 7 (1976)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Eclipse-dragon dossier"
+  },
+  {
+   "id": "ccag-139",
+   "refs": [
+    {
+     "vol": "VII",
+     "pages": "126–127",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "'Antiochus'",
+   "title": "On the Calends (forecast from the weekday of 1 January)",
+   "genre": "cal",
+   "genre_ru": "календари, парапегмы, додекаэтериды, календологии",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 350,
+   "ru_translation": "none",
+   "en_translation": "risk: Hindsight IIb",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-140",
+   "refs": [
+    {
+     "vol": "VII",
+     "pages": "129–151",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous and Hephaestion, from Nechepso and Petosiris",
+   "title": "Eclipse omens month by month",
+   "genre": "mund",
+   "genre_ru": "мунданная астрология, затмения, кометы, хорография",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 5500,
+   "ru_translation": "second-hand (Zennikov: Heph. I, Hindsight X)",
+   "en_translation": "Hindsight VI, X; HOROI N–P",
+   "rights": "public domain (EU and RU)",
+   "verdict": "excluded",
+   "verdict_source": "inventory",
+   "note": "Diametrical-eclipse section pp. 147–149 perhaps less covered"
+  },
+  {
+   "id": "ccag-141",
+   "refs": [
+    {
+     "vol": "VII",
+     "pages": "152–160",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Andreas Libadenos (autograph)",
+   "title": "Predictions for the year 1336 (Trebizond)",
+   "genre": "mund",
+   "genre_ru": "мунданная астрология, затмения, кометы, хорография",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 1900,
+   "ru_translation": "none",
+   "en_translation": "probable: Mercier, CAB 7 (1994), 'full translation' per Princeton database",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "First Russian"
+  },
+  {
+   "id": "ccag-142",
+   "refs": [
+    {
+     "vol": "VII",
+     "pages": "162–163",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "On the division of the year by star-phases",
+   "genre": "cal",
+   "genre_ru": "календари, парапегмы, додекаэтериды, календологии",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 190,
+   "ru_translation": "none",
+   "en_translation": "check Lehoux 2007",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Appendix to VII 181–187"
+  },
+  {
+   "id": "ccag-143",
+   "refs": [
+    {
+     "vol": "VII",
+     "pages": "163–167",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous ('Eudoxus'; Vicellius tradition)",
+   "title": "Tonitruale",
+   "genre": "bront",
+   "genre_ru": "бронтологии и сейсмологии",
+   "section": "magic_divination",
+   "greek_words_approx": 1230,
+   "ru_translation": "none",
+   "en_translation": "none for this text (Lydus covers a parallel part)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-144",
+   "refs": [
+    {
+     "vol": "VII",
+     "pages": "171–174",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "VIII.3",
+     "pages": "171–179",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "X",
+     "pages": "153–156",
+     "rights": "protected in EU and RU until 31.12.2034 (Delatte)"
+    },
+    {
+     "vol": "XII",
+     "pages": "153–155",
+     "rights": "EU: public domain since 1.1.2013; RU: treat as protected (31.12.2059/2063 per landscape; transitional question open)"
+    }
+   ],
+   "author": "'Daniel'; Greek translation from Arabic by Alexios of Byzantium (1245); second translation (XII)",
+   "title": "Apocalypse of Daniel: book of celestial omens (preface, table of 25 chapters, October; Christmas omens; heavy thunder)",
+   "genre": "bront",
+   "genre_ru": "бронтологии и сейсмологии",
+   "section": "magic_divination",
+   "greek_words_approx": 3500,
+   "ru_translation": "none",
+   "en_translation": "preface only: Fisher (web paper; GRBS 59, 2019)",
+   "rights": "public domain via VII 171–174, VIII.3 171–179; other witnesses protected or unclear",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": "Base: VIII.3 171–179; X and XII parts rights-blocked"
+  },
+  {
+   "id": "ccag-145",
+   "refs": [
+    {
+     "vol": "VII",
+     "pages": "174–181",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "pseudo-Apollonius of Tyana",
+   "title": "Apotelesmata: hours of day and night, talismans, prophecy of Christ",
+   "genre": "magic",
+   "genre_ru": "магия: амулеты, заклинания, молитвы планетам, леканомантия",
+   "section": "magic_divination",
+   "greek_words_approx": 1500,
+   "ru_translation": "indirect only (Lévi's 'Nuctemeron' in Russian)",
+   "en_translation": "Alcock 2017; Marathakis 2020",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Fuller PD text: Nau 1907"
+  },
+  {
+   "id": "ccag-146",
+   "refs": [
+    {
+     "vol": "VII",
+     "pages": "181–187",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "ps.-Eudoxus",
+   "title": "Weather and harvest prognostics on a twelve-year lunar cycle",
+   "genre": "cal",
+   "genre_ru": "календари, парапегмы, додекаэтериды, календологии",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 1700,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": "With VII 162–163"
+  },
+  {
+   "id": "ccag-147",
+   "refs": [
+    {
+     "vol": "VII",
+     "pages": "187–190",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Sextus the horokrator; computus of 1372",
+   "title": "To King Philip: telling the hour by one's shadow",
+   "genre": "astr",
+   "genre_ru": "астрономия, вычисления, космология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 420,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "With V.3 76–78"
+  },
+  {
+   "id": "ccag-148",
+   "refs": [
+    {
+     "vol": "VII",
+     "pages": "226–230",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "'Hermes Trismegistus'",
+   "title": "Brontologion",
+   "genre": "bront",
+   "genre_ru": "бронтологии и сейсмологии",
+   "section": "magic_divination",
+   "greek_words_approx": 1300,
+   "ru_translation": "none; risk via Zennikov",
+   "en_translation": "risk: Hindsight X",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-149",
+   "refs": [
+    {
+     "vol": "VII",
+     "pages": "236–244",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "Chiromancy (palm lines and planets)",
+   "genre": "onom",
+   "genre_ru": "ономантия, жребии, оракулы, хиромантия",
+   "section": "magic_divination",
+   "greek_words_approx": 2000,
+   "ru_translation": "none",
+   "en_translation": "none found; Bardi, Phasis 20 (2017) not checked",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Italian: Costanza 2017"
+  },
+  {
+   "id": "ccag-150",
+   "refs": [
+    {
+     "vol": "VII",
+     "pages": "244",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "Iron ointment for cutting marble",
+   "genre": "other",
+   "genre_ru": "прочее (списки, загадки, рецепты, коллации)",
+   "section": "either",
+   "greek_words_approx": 50,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "drop",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-151",
+   "refs": [
+    {
+     "vol": "VII",
+     "pages": "245–246",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous (Erlang. 93)",
+   "title": "Christian incantation against the 'black star'",
+   "genre": "magic",
+   "genre_ru": "магия: амулеты, заклинания, молитвы планетам, леканомантия",
+   "section": "magic_divination",
+   "greek_words_approx": 220,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Eclipse-dragon dossier"
+  },
+  {
+   "id": "ccag-152",
+   "refs": [
+    {
+     "vol": "VIII.1",
+     "pages": "131–135",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Paris Faculty of Theology",
+   "title": "Books of Simon de Phares condemned in 1493 (Latin)",
+   "genre": "test",
+   "genre_ru": "свидетельства, полемика, апологии, библиография",
+   "section": "astronomy_astrology",
+   "greek_words_approx": null,
+   "ru_translation": "-",
+   "en_translation": "-",
+   "rights": "public domain (EU and RU)",
+   "verdict": "excluded",
+   "verdict_source": "inventory",
+   "note": "Not Greek"
+  },
+  {
+   "id": "ccag-153",
+   "refs": [
+    {
+     "vol": "VIII.1",
+     "pages": "137–140",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "XI.2",
+     "pages": "156–157",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "XI.2",
+     "pages": "162–163",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "Weather signs from animals, Sun, Moon and rainbow",
+   "genre": "weather",
+   "genre_ru": "приметы погоды (диосемии)",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 1300,
+   "ru_translation": "none",
+   "en_translation": "parent Ps.-Theophrastus in EN (Sider–Brunschön 2007)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": "Aratus link; XI.2 pieces near-identical"
+  },
+  {
+   "id": "ccag-154",
+   "refs": [
+    {
+     "vol": "VIII.1",
+     "pages": "172–177",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "'Hermes Trismegistus'",
+   "title": "Mystic method for every inception",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 1350,
+   "ru_translation": "probably second-hand (Zennikov, Hindsight X)",
+   "en_translation": "probably Hindsight X",
+   "rights": "public domain (EU and RU)",
+   "verdict": "drop",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-155",
+   "refs": [
+    {
+     "vol": "VIII.1",
+     "pages": "178–181",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Apomasar (Greek)",
+   "title": "That the Moon shares with the Sun in generation (tides); the Moon's activities",
+   "genre": "astr",
+   "genre_ru": "астрономия, вычисления, космология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 870,
+   "ru_translation": "none",
+   "en_translation": "Arabic original in EN (Yamamoto–Burnett; Dykes)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-156",
+   "refs": [
+    {
+     "vol": "VIII.1",
+     "pages": "186–187",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "On the antipodes",
+   "genre": "astr",
+   "genre_ru": "астрономия, вычисления, космология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 170,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "With VII 102–105"
+  },
+  {
+   "id": "ccag-157",
+   "refs": [
+    {
+     "vol": "VIII.1",
+     "pages": "187–193",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "VIII.2",
+     "pages": "166–171",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "XI.2",
+     "pages": "164–167",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "XII",
+     "pages": "117–119",
+     "rights": "EU: public domain since 1.1.2013; RU: treat as protected (31.12.2059/2063 per landscape; transitional question open)"
+    }
+   ],
+   "author": "anonymous (Hermetic plant book)",
+   "title": "On the peony: gathering rite, prayers, uses (four recensions; + the wren, XI.2 167)",
+   "genre": "bot",
+   "genre_ru": "ботанология, лапидарии, «Кираниды»",
+   "section": "magic_divination",
+   "greek_words_approx": 4100,
+   "ru_translation": "none",
+   "en_translation": "none (Marathakis not checked)",
+   "rights": "public domain via VIII.1 187–193, VIII.2 166–171, XI.2 164–167; other witnesses protected or unclear",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": "Check Delatte's Herbarius; XII version rights-unclear in RU"
+  },
+  {
+   "id": "ccag-158",
+   "refs": [
+    {
+     "vol": "VIII.1",
+     "pages": "194–196",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous astrologer (12th c.)",
+   "title": "On the Ascending Node, two discourses (the dragon 'athalia')",
+   "genre": "mund",
+   "genre_ru": "мунданная астрология, затмения, кометы, хорография",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 550,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": "Core of the eclipse-dragon dossier"
+  },
+  {
+   "id": "ccag-159",
+   "refs": [
+    {
+     "vol": "VIII.1",
+     "pages": "196–199",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous (12th c.)",
+   "title": "Astrology of the hippodrome: planets and circus factions",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 600,
+   "ru_translation": "none",
+   "en_translation": "none (French: Wuilleumier 1927)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-160",
+   "refs": [
+    {
+     "vol": "VIII.1",
+     "pages": "200",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "Recipe for ink",
+   "genre": "other",
+   "genre_ru": "прочее (списки, загадки, рецепты, коллации)",
+   "section": "either",
+   "greek_words_approx": 100,
+   "ru_translation": "none",
+   "en_translation": "probably German: Schreiner–Oltrogge 2011",
+   "rights": "public domain (EU and RU)",
+   "verdict": "drop",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-161",
+   "refs": [
+    {
+     "vol": "VIII.1",
+     "pages": "200–216",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous (from Arabic/Persian)",
+   "title": "Friendship and enmity of the Moon with the planets",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 3700,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-162",
+   "refs": [
+    {
+     "vol": "VIII.1",
+     "pages": "217–219",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "The Moon in the 28 mansions",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 500,
+   "ru_translation": "none",
+   "en_translation": "probable: HOROI '28 lunar mansions' (2025)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "drop",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-163",
+   "refs": [
+    {
+     "vol": "VIII.1",
+     "pages": "249",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "VIII.1",
+     "pages": "255–257",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "VIII.1",
+     "pages": "263–265",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "'Valens'",
+   "title": "Years of a reign; months of years; knowing the question from the Lot of Fortune",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 1000,
+   "ru_translation": "-",
+   "en_translation": "HOROI 'Valens on thought-reading' (probable)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "excluded",
+   "verdict_source": "inventory",
+   "note": ""
+  },
+  {
+   "id": "ccag-164",
+   "refs": [
+    {
+     "vol": "VIII.1",
+     "pages": "249–250",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "VIII.1",
+     "pages": "257",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "On dreams; on news",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 400,
+   "ru_translation": "-",
+   "en_translation": "possibly HOROI",
+   "rights": "public domain (EU and RU)",
+   "verdict": "excluded",
+   "verdict_source": "inventory",
+   "note": ""
+  },
+  {
+   "id": "ccag-165",
+   "refs": [
+    {
+     "vol": "VIII.1",
+     "pages": "253–255",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous Byzantine astrologer",
+   "title": "Case of a bishop of Euripus (1001–1011)",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 490,
+   "ru_translation": "-",
+   "en_translation": "HOROI 2020",
+   "rights": "public domain (EU and RU)",
+   "verdict": "drop",
+   "verdict_source": "inventory",
+   "note": ""
+  },
+  {
+   "id": "ccag-166",
+   "refs": [
+    {
+     "vol": "VIII.1",
+     "pages": "257–261",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Critodemus",
+   "title": "Effects of the bounds",
+   "genre": "horo",
+   "genre_ru": "гороскопическая доктрина, натальная астрология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 850,
+   "ru_translation": "-",
+   "en_translation": "Tolsa 2023/24; HOROI 2024; Hindsight X",
+   "rights": "public domain (EU and RU)",
+   "verdict": "drop",
+   "verdict_source": "inventory",
+   "note": ""
+  },
+  {
+   "id": "ccag-167",
+   "refs": [
+    {
+     "vol": "VIII.1",
+     "pages": "265",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "Micro-texts: gifts of the seven planets; ship parts by places; verses on an astrolabe",
+   "genre": "other",
+   "genre_ru": "прочее (списки, загадки, рецепты, коллации)",
+   "section": "either",
+   "greek_words_approx": 100,
+   "ru_translation": "none",
+   "en_translation": "gifts: Stobaeus parallel translated",
+   "rights": "public domain (EU and RU)",
+   "verdict": "drop",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-168",
+   "refs": [
+    {
+     "vol": "VIII.2",
+     "pages": "125–134",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous commentator on the Handy Tables (c. 213)",
+   "title": "Fragment on lunar periods (Kidenas, Hipparchus)",
+   "genre": "astr",
+   "genre_ru": "астрономия, вычисления, космология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 2700,
+   "ru_translation": "none",
+   "en_translation": "Jones 1990 (TAPS)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "drop",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-169",
+   "refs": [
+    {
+     "vol": "VIII.2",
+     "pages": "139–165",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Ps.-Solomon",
+   "title": "Hygromanteia of Solomon",
+   "genre": "magic",
+   "genre_ru": "магия: амулеты, заклинания, молитвы планетам, леканомантия",
+   "section": "magic_divination",
+   "greek_words_approx": 5100,
+   "ru_translation": "none (two Russian searches)",
+   "en_translation": "Torijano 2002, 2013; Marathakis 2011; Spanish Torijano 1999",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Russian first only; Heeg's introduction quotes Ps.-Callisthenes on Nectanebo"
+  },
+  {
+   "id": "ccag-170",
+   "refs": [
+    {
+     "vol": "VIII.2",
+     "pages": "172–176",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous Solomonic (Paris. gr. 2419)",
+   "title": "Prayers to the seven planets",
+   "genre": "magic",
+   "genre_ru": "магия: амулеты, заклинания, молитвы планетам, леканомантия",
+   "section": "magic_divination",
+   "greek_words_approx": 1100,
+   "ru_translation": "none",
+   "en_translation": "none under this title; check Marathakis 2011",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-171",
+   "refs": [
+    {
+     "vol": "VIII.3",
+     "pages": "91–119",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous Christian epitomator",
+   "title": "Paris Epitome of astrological books (Erimarabus, Odapsus, Ptolemy, Paul, Demetrius, Thrasyllus, Critodemus, Callicrates, Balbillus, Antiochus)",
+   "genre": "test",
+   "genre_ru": "свидетельства, полемика, апологии, библиография",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 8200,
+   "ru_translation": "partial second-hand (Antiochus)",
+   "en_translation": "partial: HOROI (Antiochus, Thrasyllus, Balbillus); Schmidt 2009",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Untranslated head pp. 91–99, 102 (~3,000)"
+  },
+  {
+   "id": "ccag-172",
+   "refs": [
+    {
+     "vol": "VIII.3",
+     "pages": "98 n. 1",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Demetrius",
+   "title": "On sailors and travellers (the ship mapped on the zodiac)",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 250,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Inside the Epitome unit"
+  },
+  {
+   "id": "ccag-173",
+   "refs": [
+    {
+     "vol": "VIII.3",
+     "pages": "120–122",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Cosmas of Jerusalem (8th c.)",
+   "title": "On Zoroaster, Ostanes and the astral gods",
+   "genre": "test",
+   "genre_ru": "свидетельства, полемика, апологии, библиография",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 600,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "New edition Lozza 2000"
+  },
+  {
+   "id": "ccag-174",
+   "refs": [
+    {
+     "vol": "VIII.3",
+     "pages": "126–127",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "'Bothros the sage'",
+   "title": "Letter to the king of the Persians on the virtues of the vulture",
+   "genre": "bot",
+   "genre_ru": "ботанология, лапидарии, «Кираниды»",
+   "section": "magic_divination",
+   "greek_words_approx": 400,
+   "ru_translation": "none",
+   "en_translation": "none (Möhler 1990, German, not checked)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Better base: Cumont, Revue de philologie 1926"
+  },
+  {
+   "id": "ccag-175",
+   "refs": [
+    {
+     "vol": "VIII.3",
+     "pages": "128–131",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "Worked interpretation of a nativity after Ptolemy, Dorotheus, Hephaestion",
+   "genre": "horo",
+   "genre_ru": "гороскопическая доктрина, натальная астрология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 1000,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-176",
+   "refs": [
+    {
+     "vol": "VIII.3",
+     "pages": "132–159",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "VIII.4",
+     "pages": "253–262",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Thessalus of Tralles (MS 'Harpocration')",
+   "title": "Letter to the emperor; plants of the twelve signs and seven planets (Greek), with the Latin version",
+   "genre": "bot",
+   "genre_ru": "ботанология, лапидарии, «Кираниды»",
+   "section": "magic_divination",
+   "greek_words_approx": 7000,
+   "ru_translation": "none",
+   "en_translation": "prologue only: Harland 2011; herbal: none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": "French prologue Festugière 1939 (unverified); newer ed. Friedrich 1968 (copyright)"
+  },
+  {
+   "id": "ccag-177",
+   "refs": [
+    {
+     "vol": "VIII.3",
+     "pages": "166–171",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous (Paris. gr. 2315, 2316)",
+   "title": "Winter prognostic; brontologion of the 12 signs; brontologion of David; lunar brontologion",
+   "genre": "bront",
+   "genre_ru": "бронтологии и сейсмологии",
+   "section": "magic_divination",
+   "greek_words_approx": 1350,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Brontologia dossier; winter prognostic dropped"
+  },
+  {
+   "id": "ccag-178",
+   "refs": [
+    {
+     "vol": "VIII.3",
+     "pages": "179–180",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "Lunarium: upright or slanting crescent",
+   "genre": "luna",
+   "genre_ru": "селенодромии и лунники",
+   "section": "magic_divination",
+   "greek_words_approx": 250,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Appendix to VIII.3 180–187"
+  },
+  {
+   "id": "ccag-179",
+   "refs": [
+    {
+     "vol": "VIII.3",
+     "pages": "180–187",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous (Paris. gr. 2316)",
+   "title": "Lunarium anonymum: selenodromion, seismologion, brontologion",
+   "genre": "luna",
+   "genre_ru": "селенодромии и лунники",
+   "section": "magic_divination",
+   "greek_words_approx": 1900,
+   "ru_translation": "none",
+   "en_translation": "none for this text (Lydus parallel: Bandy 2013)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": "Preserves Roman cult omens omitted by Lydus"
+  },
+  {
+   "id": "ccag-180",
+   "refs": [
+    {
+     "vol": "VIII.3",
+     "pages": "188–192",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous; 'Anatolius'",
+   "title": "Short texts of Paris. gr. 2381: births by weekday; dodecaeteris with chorography; 97 lots; Roman augury for the Kalends of January",
+   "genre": "cal",
+   "genre_ru": "календари, парапегмы, додекаэтериды, календологии",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 1400,
+   "ru_translation": "none (Geoponica parallel for the dodecaeteris)",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "New-Year divination bundle"
+  },
+  {
+   "id": "ccag-181",
+   "refs": [
+    {
+     "vol": "VIII.3",
+     "pages": "193–197",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous (cites Egyptians, Chaldaeans, Eudoxus)",
+   "title": "Tonitruale (archetype of many thunder-books)",
+   "genre": "bront",
+   "genre_ru": "бронтологии и сейсмологии",
+   "section": "magic_divination",
+   "greek_words_approx": 950,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-182",
+   "refs": [
+    {
+     "vol": "VIII.3",
+     "pages": "197–199",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous (11th–12th c.)",
+   "title": "On the ninth heaven",
+   "genre": "astr",
+   "genre_ru": "астрономия, вычисления, космология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 740,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-183",
+   "refs": [
+    {
+     "vol": "VIII.3",
+     "pages": "199",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "On the seven ages of the world",
+   "genre": "astr",
+   "genre_ru": "астрономия, вычисления, космология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 200,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "drop",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-184",
+   "refs": [
+    {
+     "vol": "VIII.4",
+     "pages": "99–101",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "10th-c. excerptor (Dio tradition)",
+   "title": "Testimonia on Roman astrologers",
+   "genre": "test",
+   "genre_ru": "свидетельства, полемика, апологии, библиография",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 480,
+   "ru_translation": "via Dio",
+   "en_translation": "via Dio (Loeb)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "drop",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-185",
+   "refs": [
+    {
+     "vol": "VIII.4",
+     "pages": "102–107",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "'Melampus, hierogrammateus to King Nechepso'",
+   "title": "Lunarium: favourable days of the Moon; selenodromion from two books (Heliopolis stele)",
+   "genre": "luna",
+   "genre_ru": "селенодромии и лунники",
+   "section": "magic_divination",
+   "greek_words_approx": 900,
+   "ru_translation": "none",
+   "en_translation": "none (French: Nau 1907, Christianised recension)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-186",
+   "refs": [
+    {
+     "vol": "VIII.4",
+     "pages": "108–114",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Paul the monk (Sicily)",
+   "title": "Fragments: heaven and planets; shape of the earth; four seas; snakebite",
+   "genre": "astr",
+   "genre_ru": "астрономия, вычисления, космология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 1400,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-187",
+   "refs": [
+    {
+     "vol": "VIII.4",
+     "pages": "232–243",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Balbillus via Palchus; 'Heliodorus?'",
+   "title": "Excerpts from the Astrologumena",
+   "genre": "horo",
+   "genre_ru": "гороскопическая доктрина, натальная астрология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 2500,
+   "ru_translation": "second-hand (Zennikov)",
+   "en_translation": "HOROI 2022–23; Hindsight X",
+   "rights": "public domain (EU and RU)",
+   "verdict": "drop",
+   "verdict_source": "inventory",
+   "note": ""
+  },
+  {
+   "id": "ccag-188",
+   "refs": [
+    {
+     "vol": "IX.1",
+     "pages": "101–106",
+     "rights": "protected in EU and RU until 31.12.2041 (Weinstock)"
+    }
+   ],
+   "author": "Psellus (attributed)",
+   "title": "On 7-, 8- and 9-month embryos; on the properties of numbers",
+   "genre": "other",
+   "genre_ru": "прочее (списки, загадки, рецепты, коллации)",
+   "section": "either",
+   "greek_words_approx": 800,
+   "ru_translation": "none",
+   "en_translation": "none; check O'Meara 1989",
+   "rights": "protected in EU and RU until 31.12.2041 (Weinstock)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Rights until 2041"
+  },
+  {
+   "id": "ccag-189",
+   "refs": [
+    {
+     "vol": "IX.1",
+     "pages": "106–114",
+     "rights": "protected in EU and RU until 31.12.2041 (Weinstock)"
+    },
+    {
+     "vol": "IX.1",
+     "pages": "120–128",
+     "rights": "protected in EU and RU until 31.12.2041 (Weinstock)"
+    }
+   ],
+   "author": "Psellus",
+   "title": "Opinions on the soul (Chaldaean Oracles); divine creation; chapters of De omnifaria doctrina",
+   "genre": "other",
+   "genre_ru": "прочее (списки, загадки, рецепты, коллации)",
+   "section": "either",
+   "greek_words_approx": 3700,
+   "ru_translation": "partial via Iamblichus",
+   "en_translation": "parts known (des Places, French; Clarke–Dillon–Hershbell)",
+   "rights": "protected in EU and RU until 31.12.2041 (Weinstock)",
+   "verdict": "excluded",
+   "verdict_source": "inventory",
+   "note": ""
+  },
+  {
+   "id": "ccag-190",
+   "refs": [
+    {
+     "vol": "IX.1",
+     "pages": "114–120",
+     "rights": "protected in EU and RU until 31.12.2041 (Weinstock)"
+    }
+   ],
+   "author": "Psellus (attributed)",
+   "title": "Greek doctrines on demons",
+   "genre": "magic",
+   "genre_ru": "магия: амулеты, заклинания, молитвы планетам, леканомантия",
+   "section": "magic_divination",
+   "greek_words_approx": 1300,
+   "ru_translation": "none",
+   "en_translation": "none found",
+   "rights": "protected in EU and RU until 31.12.2041 (Weinstock)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Rights until 2041; check O'Meara, Philosophica minora II"
+  },
+  {
+   "id": "ccag-191",
+   "refs": [
+    {
+     "vol": "IX.1",
+     "pages": "128–137",
+     "rights": "protected in EU and RU until 31.12.2041 (Weinstock)"
+    }
+   ],
+   "author": "anonymous civic calendar (c. AD 15)",
+   "title": "Risings and settings of the fixed stars (Calendarium Graecum)",
+   "genre": "cal",
+   "genre_ru": "календари, парапегмы, додекаэтериды, календологии",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 1800,
+   "ru_translation": "none",
+   "en_translation": "partial overlap: Aëtius III.164 (Lehoux 2007, not verified)",
+   "rights": "protected in EU and RU until 31.12.2041 (Weinstock)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "PD core: Aëtius, ed. Olivieri, CMG 1935"
+  },
+  {
+   "id": "ccag-192",
+   "refs": [
+    {
+     "vol": "IX.1",
+     "pages": "138–156",
+     "rights": "protected in EU and RU until 31.12.2041 (Weinstock)"
+    }
+   ],
+   "author": "anonymous (Arabic source)",
+   "title": "The 28 lunar mansions",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 4500,
+   "ru_translation": "none",
+   "en_translation": "HOROI 2025 (near-certain)",
+   "rights": "protected in EU and RU until 31.12.2041 (Weinstock)",
+   "verdict": "drop",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-193",
+   "refs": [
+    {
+     "vol": "IX.1",
+     "pages": "172–175",
+     "rights": "protected in EU and RU until 31.12.2041 (Weinstock)"
+    }
+   ],
+   "author": "anonymous 'Pythagorean'",
+   "title": "On the quaternions (tetraktys)",
+   "genre": "astr",
+   "genre_ru": "астрономия, вычисления, космология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 700,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "protected in EU and RU until 31.12.2041 (Weinstock)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-194",
+   "refs": [
+    {
+     "vol": "IX.1",
+     "pages": "175–182",
+     "rights": "protected in EU and RU until 31.12.2041 (Weinstock)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "Division of times; lordship of periods; miscellaneous excerpts ('lords of the quadrants')",
+   "genre": "horo",
+   "genre_ru": "гороскопическая доктрина, натальная астрология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 1950,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "protected in EU and RU until 31.12.2041 (Weinstock)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-195",
+   "refs": [
+    {
+     "vol": "IX.1",
+     "pages": "184–189",
+     "rights": "protected in EU and RU until 31.12.2041 (Weinstock)"
+    }
+   ],
+   "author": "anonymous (Aratean isagoge)",
+   "title": "Position of the constellations; co-risings; terrestrial zones; fixed stars",
+   "genre": "stars",
+   "genre_ru": "неподвижные звёзды, деканы, паранателлонты",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 1170,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "protected in EU and RU until 31.12.2041 (Weinstock)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "PD base: Maass 1898"
+  },
+  {
+   "id": "ccag-196",
+   "refs": [
+    {
+     "vol": "IX.1",
+     "pages": "189–190",
+     "rights": "protected in EU and RU until 31.12.2041 (Weinstock)"
+    }
+   ],
+   "author": "'Hipparchus'",
+   "title": "Number of stars in each constellation",
+   "genre": "stars",
+   "genre_ru": "неподвижные звёзды, деканы, паранателлонты",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 300,
+   "ru_translation": "none",
+   "en_translation": "none (Schironi 2024 does not translate)",
+   "rights": "protected in EU and RU until 31.12.2041 (Weinstock)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "PD base: Boll 1901 / Rehm 1899"
+  },
+  {
+   "id": "ccag-197",
+   "refs": [
+    {
+     "vol": "IX.2",
+     "pages": "111–114",
+     "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Delatte's restorations until 2034)"
+    }
+   ],
+   "author": "anonymous Christian",
+   "title": "On providence, free will and fate",
+   "genre": "test",
+   "genre_ru": "свидетельства, полемика, апологии, библиография",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 800,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Delatte's restorations until 2034)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-198",
+   "refs": [
+    {
+     "vol": "IX.2",
+     "pages": "115–117",
+     "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Delatte's restorations until 2034)"
+    },
+    {
+     "vol": "IX.2",
+     "pages": "136–137",
+     "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Delatte's restorations until 2034)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "On comets; on falling stars",
+   "genre": "mund",
+   "genre_ru": "мунданная астрология, затмения, кометы, хорография",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 650,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Delatte's restorations until 2034)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-199",
+   "refs": [
+    {
+     "vol": "IX.2",
+     "pages": "117–119",
+     "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Delatte's restorations until 2034)"
+    }
+   ],
+   "author": "anonymous excerptor",
+   "title": "On the throne of God",
+   "genre": "test",
+   "genre_ru": "свидетельства, полемика, апологии, библиография",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 400,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Delatte's restorations until 2034)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Check Andrew of Caesarea, Arethas"
+  },
+  {
+   "id": "ccag-200",
+   "refs": [
+    {
+     "vol": "IX.2",
+     "pages": "120–127",
+     "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Delatte's restorations until 2034)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "Tonitruale; thunder and earthquake book of the twelve months; sickness calendar",
+   "genre": "bront",
+   "genre_ru": "бронтологии и сейсмологии",
+   "section": "magic_divination",
+   "greek_words_approx": 1600,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Delatte's restorations until 2034)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "PD parallels in IV, VII, VIII.3"
+  },
+  {
+   "id": "ccag-201",
+   "refs": [
+    {
+     "vol": "IX.2",
+     "pages": "127–128",
+     "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Delatte's restorations until 2034)"
+    }
+   ],
+   "author": "'Solomon'",
+   "title": "The twelve sceptres (amulets)",
+   "genre": "magic",
+   "genre_ru": "магия: амулеты, заклинания, молитвы планетам, леканомантия",
+   "section": "magic_divination",
+   "greek_words_approx": 250,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Delatte's restorations until 2034)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-202",
+   "refs": [
+    {
+     "vol": "IX.2",
+     "pages": "138–139",
+     "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Delatte's restorations until 2034)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "Finding one's birth sign from names",
+   "genre": "onom",
+   "genre_ru": "ономантия, жребии, оракулы, хиромантия",
+   "section": "magic_divination",
+   "greek_words_approx": 180,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Delatte's restorations until 2034)",
+   "verdict": "drop",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-203",
+   "refs": [
+    {
+     "vol": "IX.2",
+     "pages": "139–169",
+     "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Delatte's restorations until 2034)"
+    }
+   ],
+   "author": "anonymous Solomonic compendium (Holkham 290)",
+   "title": "Planetary magic squares; stones of the planets; prayers to the planets; prayers to the four winds",
+   "genre": "magic",
+   "genre_ru": "магия: амулеты, заклинания, молитвы планетам, леканомантия",
+   "section": "magic_divination",
+   "greek_words_approx": 4700,
+   "ru_translation": "none",
+   "en_translation": "none found; check Marathakis 2011",
+   "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Delatte's restorations until 2034)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Rights until 2041"
+  },
+  {
+   "id": "ccag-204",
+   "refs": [
+    {
+     "vol": "IX.2",
+     "pages": "170–175",
+     "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Delatte's restorations until 2034)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "Dodecaeteris Chaldaica (with Paris. gr. 90)",
+   "genre": "cal",
+   "genre_ru": "календари, парапегмы, додекаэтериды, календологии",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 1200,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Delatte's restorations until 2034)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "PD parallel III 30"
+  },
+  {
+   "id": "ccag-205",
+   "refs": [
+    {
+     "vol": "IX.2",
+     "pages": "176–179",
+     "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Delatte's restorations until 2034)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "Horoscopes of the world and six cities",
+   "genre": "horo",
+   "genre_ru": "гороскопическая доктрина, натальная астрология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 150,
+   "ru_translation": "-",
+   "en_translation": "check HOROI 2020; Neugebauer's computations",
+   "rights": "protected in EU and RU until 31.12.2041 (Weinstock; Delatte's restorations until 2034)",
+   "verdict": "excluded",
+   "verdict_source": "inventory",
+   "note": ""
+  },
+  {
+   "id": "ccag-206",
+   "refs": [
+    {
+     "vol": "X",
+     "pages": "57",
+     "rights": "protected in EU and RU until 31.12.2034 (Delatte)"
+    },
+    {
+     "vol": "X",
+     "pages": "98–99",
+     "rights": "protected in EU and RU until 31.12.2034 (Delatte)"
+    },
+    {
+     "vol": "X",
+     "pages": "243",
+     "rights": "protected in EU and RU until 31.12.2034 (Delatte)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "Micro-texts: campaigns; finding one's sign; marital concord I–II; one's planet; which spouse dies first",
+   "genre": "onom",
+   "genre_ru": "ономантия, жребии, оракулы, хиромантия",
+   "section": "magic_divination",
+   "greek_words_approx": 950,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "protected in EU and RU until 31.12.2034 (Delatte)",
+   "verdict": "drop",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-207",
+   "refs": [
+    {
+     "vol": "X",
+     "pages": "58–65",
+     "rights": "protected in EU and RU until 31.12.2034 (Delatte)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "Thunder and earthquake books (codd. 2, 5)",
+   "genre": "bront",
+   "genre_ru": "бронтологии и сейсмологии",
+   "section": "magic_divination",
+   "greek_words_approx": 1800,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "protected in EU and RU until 31.12.2034 (Delatte)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "PD version VIII.3 168"
+  },
+  {
+   "id": "ccag-208",
+   "refs": [
+    {
+     "vol": "X",
+     "pages": "66–96",
+     "rights": "protected in EU and RU until 31.12.2034 (Delatte)"
+    }
+   ],
+   "author": "anonymous (Athen. 1265; Soc. hist. 115)",
+   "title": "Hygromanteia-type magic: operations of the signs, planetary hours, lunarium, images, adjuration, incenses, alphabets, inks and characters",
+   "genre": "magic",
+   "genre_ru": "магия: амулеты, заклинания, молитвы планетам, леканомантия",
+   "section": "magic_divination",
+   "greek_words_approx": 5800,
+   "ru_translation": "none",
+   "en_translation": "partly probable: Marathakis 2011",
+   "rights": "protected in EU and RU until 31.12.2034 (Delatte)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Inks: PD Polites, BZ 1 (1892); hours and adjuration dropped"
+  },
+  {
+   "id": "ccag-209",
+   "refs": [
+    {
+     "vol": "X",
+     "pages": "69–71",
+     "rights": "protected in EU and RU until 31.12.2034 (Delatte)"
+    },
+    {
+     "vol": "X",
+     "pages": "96–97",
+     "rights": "protected in EU and RU until 31.12.2034 (Delatte)"
+    },
+    {
+     "vol": "X",
+     "pages": "135–139",
+     "rights": "protected in EU and RU until 31.12.2034 (Delatte)"
+    },
+    {
+     "vol": "X",
+     "pages": "149–151",
+     "rights": "protected in EU and RU until 31.12.2034 (Delatte)"
+    },
+    {
+     "vol": "X",
+     "pages": "170",
+     "rights": "protected in EU and RU until 31.12.2034 (Delatte)"
+    },
+    {
+     "vol": "X",
+     "pages": "201–202",
+     "rights": "protected in EU and RU until 31.12.2034 (Delatte)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "Small items: planet-of-the-day table; dragon head and tail; travel fragment; colours; weekday rulers; calendars of the sick; reigning sign; upright Moon; rainbow; on the day; operations of the signs",
+   "genre": "other",
+   "genre_ru": "прочее (списки, загадки, рецепты, коллации)",
+   "section": "either",
+   "greek_words_approx": 3000,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "protected in EU and RU until 31.12.2034 (Delatte)",
+   "verdict": "drop",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-210",
+   "refs": [
+    {
+     "vol": "X",
+     "pages": "101–120",
+     "rights": "protected in EU and RU until 31.12.2034 (Delatte)"
+    },
+    {
+     "vol": "X",
+     "pages": "171–191",
+     "rights": "protected in EU and RU until 31.12.2034 (Delatte)"
+    },
+    {
+     "vol": "X",
+     "pages": "211–227",
+     "rights": "protected in EU and RU until 31.12.2034 (Delatte)"
+    },
+    {
+     "vol": "X",
+     "pages": "228–242",
+     "rights": "protected in EU and RU until 31.12.2034 (Delatte)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "Late vernacular zodiologia",
+   "genre": "zod",
+   "genre_ru": "зодиологии (популярная генетлиалогия)",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 17000,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "protected in EU and RU until 31.12.2034 (Delatte)",
+   "verdict": "drop",
+   "verdict_source": "verification",
+   "note": "X 228–242 (17th c.) possible, low priority"
+  },
+  {
+   "id": "ccag-211",
+   "refs": [
+    {
+     "vol": "X",
+     "pages": "121–126",
+     "rights": "protected in EU and RU until 31.12.2034 (Delatte)"
+    }
+   ],
+   "author": "'David and Solomon'",
+   "title": "Selenodromion of David and Solomon",
+   "genre": "luna",
+   "genre_ru": "селенодромии и лунники",
+   "section": "magic_divination",
+   "greek_words_approx": 1300,
+   "ru_translation": "none",
+   "en_translation": "Torijano (Spanish 2002; English 2002/2013)",
+   "rights": "protected in EU and RU until 31.12.2034 (Delatte)",
+   "verdict": "drop",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-212",
+   "refs": [
+    {
+     "vol": "X",
+     "pages": "126–129",
+     "rights": "protected in EU and RU until 31.12.2034 (Delatte)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "The serpent-like star (dragon), winds and weather",
+   "genre": "mund",
+   "genre_ru": "мунданная астрология, затмения, кометы, хорография",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 700,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "protected in EU and RU until 31.12.2034 (Delatte)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-213",
+   "refs": [
+    {
+     "vol": "X",
+     "pages": "129–132",
+     "rights": "protected in EU and RU until 31.12.2034 (Delatte)"
+    }
+   ],
+   "author": "'Heraclius the sophist'",
+   "title": "Brontologion of the twelve months",
+   "genre": "bront",
+   "genre_ru": "бронтологии и сейсмологии",
+   "section": "magic_divination",
+   "greek_words_approx": 800,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "protected in EU and RU until 31.12.2034 (Delatte)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-214",
+   "refs": [
+    {
+     "vol": "X",
+     "pages": "140–149",
+     "rights": "protected in EU and RU until 31.12.2034 (Delatte)"
+    }
+   ],
+   "author": "anonymous (Athen. 1350)",
+   "title": "Brontologion with chorography (incl. Russia); eclipses; 'Zygi' monthly compendium",
+   "genre": "bront",
+   "genre_ru": "бронтологии и сейсмологии",
+   "section": "magic_divination",
+   "greek_words_approx": 2250,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "protected in EU and RU until 31.12.2034 (Delatte)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Mentions Slavonia and Russia"
+  },
+  {
+   "id": "ccag-215",
+   "refs": [
+    {
+     "vol": "X",
+     "pages": "151–153",
+     "rights": "protected in EU and RU until 31.12.2034 (Delatte)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "Kalandologia (1 January; 1 October)",
+   "genre": "cal",
+   "genre_ru": "календари, парапегмы, додекаэтериды, календологии",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 550,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "protected in EU and RU until 31.12.2034 (Delatte)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Slavonic koliadnik parallel"
+  },
+  {
+   "id": "ccag-216",
+   "refs": [
+    {
+     "vol": "X",
+     "pages": "156–170",
+     "rights": "protected in EU and RU until 31.12.2034 (Delatte)"
+    }
+   ],
+   "author": "anonymous (cites 'Democritus')",
+   "title": "Kalandarion: 28-year solar-cycle almanac (1722–1945)",
+   "genre": "cal",
+   "genre_ru": "календари, парапегмы, додекаэтериды, календологии",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 3500,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "protected in EU and RU until 31.12.2034 (Delatte)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Early modern"
+  },
+  {
+   "id": "ccag-217",
+   "refs": [
+    {
+     "vol": "X",
+     "pages": "192–200",
+     "rights": "protected in EU and RU until 31.12.2034 (Delatte)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "Births by weekday; lunarium with pagan traces",
+   "genre": "luna",
+   "genre_ru": "селенодромии и лунники",
+   "section": "magic_divination",
+   "greek_words_approx": 1900,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "protected in EU and RU until 31.12.2034 (Delatte)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-218",
+   "refs": [
+    {
+     "vol": "X",
+     "pages": "203–210",
+     "rights": "protected in EU and RU until 31.12.2034 (Delatte)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "Thunder and earthquake omens with astrological chorography",
+   "genre": "bront",
+   "genre_ru": "бронтологии и сейсмологии",
+   "section": "magic_divination",
+   "greek_words_approx": 1800,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "protected in EU and RU until 31.12.2034 (Delatte)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-219",
+   "refs": [
+    {
+     "vol": "X",
+     "pages": "243–247",
+     "rights": "protected in EU and RU until 31.12.2034 (Delatte)"
+    }
+   ],
+   "author": "'Esdras'",
+   "title": "Prognostic days of the Moon revealed to Esdras",
+   "genre": "luna",
+   "genre_ru": "селенодромии и лунники",
+   "section": "magic_divination",
+   "greek_words_approx": 1100,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "protected in EU and RU until 31.12.2034 (Delatte)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-220",
+   "refs": [
+    {
+     "vol": "X",
+     "pages": "248–251",
+     "rights": "protected in EU and RU until 31.12.2034 (Delatte)"
+    }
+   ],
+   "author": "Theophilos Korydalleus (c. 1626)",
+   "title": "Reply to those asking about forecasting the weather",
+   "genre": "weather",
+   "genre_ru": "приметы погоды (диосемии)",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 900,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "protected in EU and RU until 31.12.2034 (Delatte)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-221",
+   "refs": [
+    {
+     "vol": "XI.1",
+     "pages": "131–145",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous (Scor. I.R.14)",
+   "title": "Prognosticon: newborn by weekday and hour; rich or poor; 30-day lunarium",
+   "genre": "luna",
+   "genre_ru": "селенодромии и лунники",
+   "section": "magic_divination",
+   "greek_words_approx": 3300,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-222",
+   "refs": [
+    {
+     "vol": "XI.1",
+     "pages": "145–146",
+     "rights": "public domain (EU and RU)"
+    },
+    {
+     "vol": "XI.1",
+     "pages": "155–159",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "Two brontologia and a seismologion",
+   "genre": "bront",
+   "genre_ru": "бронтологии и сейсмологии",
+   "section": "magic_divination",
+   "greek_words_approx": 1350,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-223",
+   "refs": [
+    {
+     "vol": "XI.1",
+     "pages": "146–155",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "John Lydus",
+   "title": "Five mutilated chapters of De ostentis, supplemented",
+   "genre": "mund",
+   "genre_ru": "мунданная астрология, затмения, кометы, хорография",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 2000,
+   "ru_translation": "none",
+   "en_translation": "Bandy 2013 (supplements probably not included)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-224",
+   "refs": [
+    {
+     "vol": "XI.1",
+     "pages": "159–164",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "Birth of the year in the twelve signs (late dodecaeteris)",
+   "genre": "cal",
+   "genre_ru": "календари, парапегмы, додекаэтериды, календологии",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 1200,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-225",
+   "refs": [
+    {
+     "vol": "XI.1",
+     "pages": "164–167",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "Signs of the Moon; agriculture and marriage by the Moon's sign",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 950,
+   "ru_translation": "none",
+   "en_translation": "possible overlap: Maximus (HOROI 2022), Heph. III",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-226",
+   "refs": [
+    {
+     "vol": "XI.1",
+     "pages": "177–202",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Apomasar, Secrets III (excerpts)",
+   "title": "Rays, significations, lots",
+   "genre": "horo",
+   "genre_ru": "гороскопическая доктрина, натальная астрология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 6000,
+   "ru_translation": "none",
+   "en_translation": "not in HOROI; Arabic parallels (Yamamoto–Burnett)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-227",
+   "refs": [
+    {
+     "vol": "XI.2",
+     "pages": "111–114",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous computist",
+   "title": "Computing the Sun's degree and the Moon's longitude",
+   "genre": "astr",
+   "genre_ru": "астрономия, вычисления, космология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 800,
+   "ru_translation": "none",
+   "en_translation": "none; check eCAB",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Omit A. Rome's notes"
+  },
+  {
+   "id": "ccag-228",
+   "refs": [
+    {
+     "vol": "XI.2",
+     "pages": "115–118",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "Zodiologion (Aries–Gemini only)",
+   "genre": "zod",
+   "genre_ru": "зодиологии (популярная генетлиалогия)",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 800,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-229",
+   "refs": [
+    {
+     "vol": "XI.2",
+     "pages": "119–123",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous (vernacular, 12th c.?)",
+   "title": "On the planets Saturn, Jupiter, Mars, Sun: climes, metals, plants, gems, lyre strings ('Iron Gate')",
+   "genre": "bot",
+   "genre_ru": "ботанология, лапидарии, «Кираниды»",
+   "section": "magic_divination",
+   "greek_words_approx": 1100,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-230",
+   "refs": [
+    {
+     "vol": "XI.2",
+     "pages": "124–135",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous; 'Pythagoras'; 'Aratus' (Matrit. 4616, Lascaris 1474)",
+   "title": "Lascaris primer: planetary types; hours; horologion; 'From Aratus'; stations, elements, winds",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 1900,
+   "ru_translation": "none",
+   "en_translation": "parallel doctrine in HOROI Balchus 32",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-231",
+   "refs": [
+    {
+     "vol": "XI.2",
+     "pages": "135–139",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "'Pythagoras'",
+   "title": "Shapes and marks of the twelve signs",
+   "genre": "zod",
+   "genre_ru": "зодиологии (популярная генетлиалогия)",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 1100,
+   "ru_translation": "none",
+   "en_translation": "very probably HOROI 2023",
+   "rights": "public domain (EU and RU)",
+   "verdict": "drop",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-232",
+   "refs": [
+    {
+     "vol": "XI.2",
+     "pages": "139–152",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "'Pythagoras' to Telauges",
+   "title": "Pythagorean onomancy from the letters of names",
+   "genre": "onom",
+   "genre_ru": "ономантия, жребии, оракулы, хиромантия",
+   "section": "magic_divination",
+   "greek_words_approx": 2800,
+   "ru_translation": "none",
+   "en_translation": "none; check Hindsight X",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-233",
+   "refs": [
+    {
+     "vol": "XI.2",
+     "pages": "154–156",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous; 'Melampus'",
+   "title": "Illuminated days; useful days of the Moon",
+   "genre": "luna",
+   "genre_ru": "селенодромии и лунники",
+   "section": "magic_divination",
+   "greek_words_approx": 500,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Melampus dossier"
+  },
+  {
+   "id": "ccag-234",
+   "refs": [
+    {
+     "vol": "XI.2",
+     "pages": "157–162",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "Selenodromion of the thirty days",
+   "genre": "luna",
+   "genre_ru": "селенодромии и лунники",
+   "section": "magic_divination",
+   "greek_words_approx": 1400,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "public domain (EU and RU)",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-235",
+   "refs": [
+    {
+     "vol": "XI.2",
+     "pages": "168–174",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "Clodius Tuscus (excerpts)",
+   "title": "Calendar: movement of the stars through the year",
+   "genre": "cal",
+   "genre_ru": "календари, парапегмы, додекаэтериды, календологии",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 1400,
+   "ru_translation": "none",
+   "en_translation": "Lydus' Clodius in EN (Bandy 2013)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-236",
+   "refs": [
+    {
+     "vol": "XI.2",
+     "pages": "174–183",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous (attr. John of Damascus in Rossicus 21)",
+   "title": "On the signs in the air: storm and winds",
+   "genre": "weather",
+   "genre_ru": "приметы погоды (диосемии)",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 2300,
+   "ru_translation": "none",
+   "en_translation": "none (Ps.-Theophrastus related)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "strong",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-237",
+   "refs": [
+    {
+     "vol": "XI.2",
+     "pages": "184–186",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "Names of the twelve places",
+   "genre": "horo",
+   "genre_ru": "гороскопическая доктрина, натальная астрология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 350,
+   "ru_translation": "-",
+   "en_translation": "-",
+   "rights": "public domain (EU and RU)",
+   "verdict": "excluded",
+   "verdict_source": "inventory",
+   "note": ""
+  },
+  {
+   "id": "ccag-238",
+   "refs": [
+    {
+     "vol": "XI.2",
+     "pages": "186–189",
+     "rights": "public domain (EU and RU)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "Decumbiture: the sick, physicians, which part hurts, recovery or death",
+   "genre": "iatro",
+   "genre_ru": "иатроматематика",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 800,
+   "ru_translation": "none",
+   "en_translation": "first chapter = I 122–124 (HOROI)",
+   "rights": "public domain (EU and RU)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-239",
+   "refs": [
+    {
+     "vol": "XII",
+     "pages": "95–96",
+     "rights": "EU: public domain since 1.1.2013; RU: treat as protected (31.12.2059/2063 per landscape; transitional question open)"
+    }
+   ],
+   "author": "John Camaterus",
+   "title": "Variant readings to the poem on the zodiac",
+   "genre": "other",
+   "genre_ru": "прочее (списки, загадки, рецепты, коллации)",
+   "section": "either",
+   "greek_words_approx": null,
+   "ru_translation": "-",
+   "en_translation": "-",
+   "rights": "EU: public domain since 1.1.2013; RU: treat as protected (31.12.2059/2063 per landscape; transitional question open)",
+   "verdict": "excluded",
+   "verdict_source": "inventory",
+   "note": "Collation"
+  },
+  {
+   "id": "ccag-240",
+   "refs": [
+    {
+     "vol": "XII",
+     "pages": "105–113",
+     "rights": "EU: public domain since 1.1.2013; RU: treat as protected (31.12.2059/2063 per landscape; transitional question open)"
+    }
+   ],
+   "author": "anonymous (cod. 2, late 17th c.)",
+   "title": "Riddles of 'Leo the Wise'; anemostrouklion; spleen cautery; cosmology with the griffin; 38 fixed stars and winds",
+   "genre": "astr",
+   "genre_ru": "астрономия, вычисления, космология",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 2200,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "EU: public domain since 1.1.2013; RU: treat as protected (31.12.2059/2063 per landscape; transitional question open)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "RU rights unclear"
+  },
+  {
+   "id": "ccag-241",
+   "refs": [
+    {
+     "vol": "XII",
+     "pages": "114–135",
+     "rights": "EU: public domain since 1.1.2013; RU: treat as protected (31.12.2059/2063 per landscape; transitional question open)"
+    }
+   ],
+   "author": "anonymous (cod. 3, copied in Moscow 1684–85)",
+   "title": "Moscow miscellany: weather signs; treasure; rue love charm; Christian magical prayers; canon of practice; seven planetary herbs with prayers",
+   "genre": "magic",
+   "genre_ru": "магия: амулеты, заклинания, молитвы планетам, леканомантия",
+   "section": "magic_divination",
+   "greek_words_approx": 4400,
+   "ru_translation": "none",
+   "en_translation": "none (herbs: Hygromanteia parallel in EN)",
+   "rights": "EU: public domain since 1.1.2013; RU: treat as protected (31.12.2059/2063 per landscape; transitional question open)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Peony XII 117–119 is in the peony record"
+  },
+  {
+   "id": "ccag-242",
+   "refs": [
+    {
+     "vol": "XII",
+     "pages": "136",
+     "rights": "EU: public domain since 1.1.2013; RU: treat as protected (31.12.2059/2063 per landscape; transitional question open)"
+    },
+    {
+     "vol": "XII",
+     "pages": "164–166",
+     "rights": "EU: public domain since 1.1.2013; RU: treat as protected (31.12.2059/2063 per landscape; transitional question open)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "Bowl divination with a child medium; lecanomancy on the 14th day of the Moon",
+   "genre": "magic",
+   "genre_ru": "магия: амулеты, заклинания, молитвы планетам, леканомантия",
+   "section": "magic_divination",
+   "greek_words_approx": 900,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "EU: public domain since 1.1.2013; RU: treat as protected (31.12.2059/2063 per landscape; transitional question open)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-243",
+   "refs": [
+    {
+     "vol": "XII",
+     "pages": "137–145",
+     "rights": "EU: public domain since 1.1.2013; RU: treat as protected (31.12.2059/2063 per landscape; transitional question open)"
+    }
+   ],
+   "author": "anonymous (vernacular)",
+   "title": "On the reign of the signs (dodecaeteris)",
+   "genre": "cal",
+   "genre_ru": "календари, парапегмы, додекаэтериды, календологии",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 2200,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "EU: public domain since 1.1.2013; RU: treat as protected (31.12.2059/2063 per landscape; transitional question open)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-244",
+   "refs": [
+    {
+     "vol": "XII",
+     "pages": "145–151",
+     "rights": "EU: public domain since 1.1.2013; RU: treat as protected (31.12.2059/2063 per landscape; transitional question open)"
+    }
+   ],
+   "author": "'Leo and Ptolemy'",
+   "title": "Dice oracle",
+   "genre": "onom",
+   "genre_ru": "ономантия, жребии, оракулы, хиромантия",
+   "section": "magic_divination",
+   "greek_words_approx": 1300,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "EU: public domain since 1.1.2013; RU: treat as protected (31.12.2059/2063 per landscape; transitional question open)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-245",
+   "refs": [
+    {
+     "vol": "XII",
+     "pages": "151–164",
+     "rights": "EU: public domain since 1.1.2013; RU: treat as protected (31.12.2059/2063 per landscape; transitional question open)"
+    }
+   ],
+   "author": "anonymous (codd. 4, 5)",
+   "title": "Lot oracle; amaranth prayer; seven 'zalai'; twelve places; incantations; treasure; ink; cryptographic alphabet; spells",
+   "genre": "magic",
+   "genre_ru": "магия: амулеты, заклинания, молитвы планетам, леканомантия",
+   "section": "magic_divination",
+   "greek_words_approx": 2300,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "EU: public domain since 1.1.2013; RU: treat as protected (31.12.2059/2063 per landscape; transitional question open)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-246",
+   "refs": [
+    {
+     "vol": "XII",
+     "pages": "158–161",
+     "rights": "EU: public domain since 1.1.2013; RU: treat as protected (31.12.2059/2063 per landscape; transitional question open)"
+    }
+   ],
+   "author": "'Orpheus'",
+   "title": "From the Dodecatropos: on rising signs",
+   "genre": "kat",
+   "genre_ru": "катархи: элекции и интеррогации",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 800,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "EU: public domain since 1.1.2013; RU: treat as protected (31.12.2059/2063 per landscape; transitional question open)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Fullest witness; check Bernabé, PEG II"
+  },
+  {
+   "id": "ccag-247",
+   "refs": [
+    {
+     "vol": "XII",
+     "pages": "167–172",
+     "rights": "EU: public domain since 1.1.2013; RU: treat as protected (31.12.2059/2063 per landscape; transitional question open)"
+    },
+    {
+     "vol": "XII",
+     "pages": "202",
+     "rights": "EU: public domain since 1.1.2013; RU: treat as protected (31.12.2059/2063 per landscape; transitional question open)"
+    }
+   ],
+   "author": "Psellus; anonymous",
+   "title": "Psellus on astrology; epigram on iatromathematics; apocrypha excerpts; astrological verses",
+   "genre": "other",
+   "genre_ru": "прочее (списки, загадки, рецепты, коллации)",
+   "section": "either",
+   "greek_words_approx": 1000,
+   "ru_translation": "partial (Slavonic Apocalypse of the Theotokos)",
+   "en_translation": "partial",
+   "rights": "EU: public domain since 1.1.2013; RU: treat as protected (31.12.2059/2063 per landscape; transitional question open)",
+   "verdict": "drop",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-248",
+   "refs": [
+    {
+     "vol": "XII",
+     "pages": "169",
+     "rights": "EU: public domain since 1.1.2013; RU: treat as protected (31.12.2059/2063 per landscape; transitional question open)"
+    }
+   ],
+   "author": "anonymous",
+   "title": "Charms against colic; bee charm (St Zosimas)",
+   "genre": "magic",
+   "genre_ru": "магия: амулеты, заклинания, молитвы планетам, леканомантия",
+   "section": "magic_divination",
+   "greek_words_approx": 120,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "EU: public domain since 1.1.2013; RU: treat as protected (31.12.2059/2063 per landscape; transitional question open)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-249",
+   "refs": [
+    {
+     "vol": "XII",
+     "pages": "173–199",
+     "rights": "EU: public domain since 1.1.2013; RU: treat as protected (31.12.2059/2063 per landscape; transitional question open)"
+    }
+   ],
+   "author": "anonymous (Hist. Mus. gr. 186, late 11th c.)",
+   "title": "Zodiologion, with ingresses, zodiakon, riddle, treasure acrostic, good and bad hours",
+   "genre": "zod",
+   "genre_ru": "зодиологии (популярная генетлиалогия)",
+   "section": "astronomy_astrology",
+   "greek_words_approx": 5600,
+   "ru_translation": "none",
+   "en_translation": "none",
+   "rights": "EU: public domain since 1.1.2013; RU: treat as protected (31.12.2059/2063 per landscape; transitional question open)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": "Best XII unit; RU rights"
+  },
+  {
+   "id": "ccag-250",
+   "refs": [
+    {
+     "vol": "XII",
+     "pages": "200–201",
+     "rights": "EU: public domain since 1.1.2013; RU: treat as protected (31.12.2059/2063 per landscape; transitional question open)"
+    }
+   ],
+   "author": "Harpocration (Kyranides tradition)",
+   "title": "Sea urchin; hoopoe; hyena",
+   "genre": "bot",
+   "genre_ru": "ботанология, лапидарии, «Кираниды»",
+   "section": "magic_divination",
+   "greek_words_approx": 500,
+   "ru_translation": "none",
+   "en_translation": "none for this form",
+   "rights": "EU: public domain since 1.1.2013; RU: treat as protected (31.12.2059/2063 per landscape; transitional question open)",
+   "verdict": "possible",
+   "verdict_source": "verification",
+   "note": ""
+  },
+  {
+   "id": "ccag-251",
+   "refs": [
+    {
+     "vol": "XII",
+     "pages": "203–204",
+     "rights": "EU: public domain since 1.1.2013; RU: treat as protected (31.12.2059/2063 per landscape; transitional question open)"
+    }
+   ],
+   "author": "M. A. Šangin (retroversion)",
+   "title": "Astrologica Rossica: Old Russian brontologion with Greek retroversion",
+   "genre": "bront",
+   "genre_ru": "бронтологии и сейсмологии",
+   "section": "magic_divination",
+   "greek_words_approx": 400,
+   "ru_translation": "-",
+   "en_translation": "-",
+   "rights": "EU: public domain since 1.1.2013; RU: treat as protected (31.12.2059/2063 per landscape; transitional question open)",
+   "verdict": "excluded",
+   "verdict_source": "inventory",
+   "note": "Translate the Slavonic directly instead"
+  },
+  {
+   "id": "ccag-252",
+   "refs": [
+    {
+     "vol": "XII",
+     "pages": "205–230",
+     "rights": "EU: public domain since 1.1.2013; RU: treat as protected (31.12.2059/2063 per landscape; transitional question open)"
+    }
+   ],
+   "author": "Māshāʾallāh; 'Gergis'",
+   "title": "Latin codex: On rains and winds; Liber Gergis",
+   "genre": "other",
+   "genre_ru": "прочее (списки, загадки, рецепты, коллации)",
+   "section": "either",
+   "greek_words_approx": null,
+   "ru_translation": "-",
+   "en_translation": "not checked",
+   "rights": "EU: public domain since 1.1.2013; RU: treat as protected (31.12.2059/2063 per landscape; transitional question open)",
+   "verdict": "excluded",
+   "verdict_source": "inventory",
+   "note": "Latin"
+  }
+ ],
+ "stats": {
+  "records": 252,
+  "refs": 371,
+  "by_verdict": {
+   "drop": 52,
+   "excluded": 33,
+   "possible": 118,
+   "strong": 47,
+   "unverified": 2
+  },
+  "by_genre": {
+   "horo": {
+    "label_ru": "гороскопическая доктрина, натальная астрология",
+    "records": 31,
+    "refs": 64,
+    "strong": 0,
+    "possible": 7,
+    "drop_or_excluded": 24
+   },
+   "kat": {
+    "label_ru": "катархи: элекции и интеррогации",
+    "records": 45,
+    "refs": 85,
+    "strong": 7,
+    "possible": 17,
+    "drop_or_excluded": 21
+   },
+   "stars": {
+    "label_ru": "неподвижные звёзды, деканы, паранателлонты",
+    "records": 6,
+    "refs": 12,
+    "strong": 0,
+    "possible": 4,
+    "drop_or_excluded": 2
+   },
+   "mund": {
+    "label_ru": "мунданная астрология, затмения, кометы, хорография",
+    "records": 9,
+    "refs": 10,
+    "strong": 2,
+    "possible": 6,
+    "drop_or_excluded": 1
+   },
+   "cal": {
+    "label_ru": "календари, парапегмы, додекаэтериды, календологии",
+    "records": 21,
+    "refs": 21,
+    "strong": 5,
+    "possible": 13,
+    "drop_or_excluded": 3
+   },
+   "astr": {
+    "label_ru": "астрономия, вычисления, космология",
+    "records": 22,
+    "refs": 22,
+    "strong": 4,
+    "possible": 12,
+    "drop_or_excluded": 6
+   },
+   "test": {
+    "label_ru": "свидетельства, полемика, апологии, библиография",
+    "records": 22,
+    "refs": 24,
+    "strong": 2,
+    "possible": 13,
+    "drop_or_excluded": 7
+   },
+   "weather": {
+    "label_ru": "приметы погоды (диосемии)",
+    "records": 5,
+    "refs": 8,
+    "strong": 2,
+    "possible": 2,
+    "drop_or_excluded": 1
+   },
+   "iatro": {
+    "label_ru": "иатроматематика",
+    "records": 3,
+    "refs": 3,
+    "strong": 0,
+    "possible": 2,
+    "drop_or_excluded": 1
+   },
+   "zod": {
+    "label_ru": "зодиологии (популярная генетлиалогия)",
+    "records": 5,
+    "refs": 8,
+    "strong": 1,
+    "possible": 2,
+    "drop_or_excluded": 2
+   },
+   "luna": {
+    "label_ru": "селенодромии и лунники",
+    "records": 13,
+    "refs": 13,
+    "strong": 7,
+    "possible": 5,
+    "drop_or_excluded": 1
+   },
+   "bront": {
+    "label_ru": "бронтологии и сейсмологии",
+    "records": 18,
+    "refs": 25,
+    "strong": 8,
+    "possible": 9,
+    "drop_or_excluded": 1
+   },
+   "magic": {
+    "label_ru": "магия: амулеты, заклинания, молитвы планетам, леканомантия",
+    "records": 21,
+    "refs": 22,
+    "strong": 5,
+    "possible": 14,
+    "drop_or_excluded": 2
+   },
+   "bot": {
+    "label_ru": "ботанология, лапидарии, «Кираниды»",
+    "records": 7,
+    "refs": 15,
+    "strong": 3,
+    "possible": 4,
+    "drop_or_excluded": 0
+   },
+   "onom": {
+    "label_ru": "ономантия, жребии, оракулы, хиромантия",
+    "records": 10,
+    "refs": 17,
+    "strong": 0,
+    "possible": 6,
+    "drop_or_excluded": 4
+   },
+   "other": {
+    "label_ru": "прочее (списки, загадки, рецепты, коллации)",
+    "records": 14,
+    "refs": 22,
+    "strong": 1,
+    "possible": 2,
+    "drop_or_excluded": 11
+   }
+  },
+  "by_volume": {
+   "I": {
+    "refs_in_merged_list": 31,
+    "strong": 0,
+    "possible": 9
+   },
+   "II": {
+    "refs_in_merged_list": 25,
+    "strong": 3,
+    "possible": 7
+   },
+   "III": {
+    "refs_in_merged_list": 6,
+    "strong": 5,
+    "possible": 1
+   },
+   "IV": {
+    "refs_in_merged_list": 34,
+    "strong": 13,
+    "possible": 9
+   },
+   "V.1": {
+    "refs_in_merged_list": 21,
+    "strong": 0,
+    "possible": 10
+   },
+   "V.2": {
+    "refs_in_merged_list": 4,
+    "strong": 2,
+    "possible": 0
+   },
+   "V.3": {
+    "refs_in_merged_list": 23,
+    "strong": 6,
+    "possible": 6
+   },
+   "V.4": {
+    "refs_in_merged_list": 13,
+    "strong": 0,
+    "possible": 1
+   },
+   "VI": {
+    "refs_in_merged_list": 17,
+    "strong": 2,
+    "possible": 6
+   },
+   "VII": {
+    "refs_in_merged_list": 31,
+    "strong": 6,
+    "possible": 16
+   },
+   "VIII.1": {
+    "refs_in_merged_list": 29,
+    "strong": 4,
+    "possible": 5
+   },
+   "VIII.2": {
+    "refs_in_merged_list": 8,
+    "strong": 1,
+    "possible": 2
+   },
+   "VIII.3": {
+    "refs_in_merged_list": 16,
+    "strong": 4,
+    "possible": 11
+   },
+   "VIII.4": {
+    "refs_in_merged_list": 8,
+    "strong": 3,
+    "possible": 0
+   },
+   "IX.1": {
+    "refs_in_merged_list": 12,
+    "strong": 0,
+    "possible": 7
+   },
+   "IX.2": {
+    "refs_in_merged_list": 12,
+    "strong": 0,
+    "possible": 9
+   },
+   "X": {
+    "refs_in_merged_list": 27,
+    "strong": 1,
+    "possible": 12
+   },
+   "XI.1": {
+    "refs_in_merged_list": 12,
+    "strong": 4,
+    "possible": 3
+   },
+   "XI.2": {
+    "refs_in_merged_list": 20,
+    "strong": 6,
+    "possible": 9
+   },
+   "XII": {
+    "refs_in_merged_list": 22,
+    "strong": 3,
+    "possible": 11
+   }
+  }
+ }
+}

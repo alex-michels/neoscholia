@@ -91,6 +91,22 @@ mock: "<b>Макет страницы раздела.</b> Статусы пер�
       </div>
     </section>
 
+    <section class="block" aria-labelledby="ccag-h">
+      <div class="block-head">
+        <h2 id="ccag-h">Главный источник: «Каталог греческих астрологических рукописей»</h2>
+        <p>Самая непереведённая часть «Каталога» — мантика и магия: книги громов, лунники, амулеты, травники. Карточки «Из CCAG» ниже — лучшие кандидаты.</p>
+      </div>
+      <div class="ccag">
+        <p><i lang="la">Catalogus Codicum Astrologorum Graecorum</i> (CCAG, Брюссель, 1898–1953; начат Францем Кюмоном и Францем Боллем) — 12 томов в 20 частях. Каждая часть описывает рукописи одного собрания, а в приложениях издаёт сами тексты — около 570 сочинений и отрывков, многие впервые и до сих пор единственный раз. Все части отсканированы (archive.org, <code>ccag-8.4</code>).</p>
+        <ul class="ccag-facts">
+          <li><b>Права.</b> Тома I–VIII и XI — общественное достояние. Тома V.4, IX и X ещё охраняются (до 2034–2041 гг.). Том XII — греческие рукописи в российских собраниях, изд. М. А. Шангин, 1936 — в ЕС свободен, а в России, вероятно, охраняется до 2059–2063 гг. (Шангин посмертно реабилитирован).</li>
+          <li><b>Что уже переведено.</b> Гороскопическую астрологию почти целиком перевели на английский программы астрологов (HOROI, Project Hindsight, Холден), а часть — оттуда на русский. Мантика и магия — книги громов и землетрясений, лунники, амулеты, травники — не переведены ни на русский, ни, как правило, на английский. Это наша ниша.</li>
+          <li><b>Оговорка.</b> В 2026 г. в сети появился машинный английский перевод всех томов без редактуры. Поэтому мы пишем «первый перевод на русский» и «первый проверенный научный перевод».</li>
+        </ul>
+        <p class="ccag-more"><a href="{{ site.repo }}/blob/main/research/ccag.md">Полное досье: тома, права, программы переводов, 252 текста и лучшие кандидаты</a></p>
+      </div>
+    </section>
+
     <section class="block" aria-labelledby="cat-h">
       <div class="block-head">
         <h2 id="cat-h">Тексты раздела</h2>
@@ -101,6 +117,7 @@ mock: "<b>Макет страницы раздела.</b> Статусы пер�
         <button type="button" data-f="div" aria-pressed="false">Гадание</button>
         <button type="button" data-f="love" aria-pressed="false">Привороты и любовная магия</button>
         <button type="button" data-f="magic" aria-pressed="false">Магия и алхимия</button>
+        <button type="button" data-f="ccag" aria-pressed="false">Из CCAG</button>
         <button type="button" data-f="ru" aria-pressed="false">Только для русского</button>
         <label for="nowhere"><input type="checkbox" id="nowhere"> только не переведённые ни на один язык</label>
       </div>
@@ -203,6 +220,63 @@ mock: "<b>Макет страницы раздела.</b> Статусы пер�
           <p class="meta">IV в. · греческий</p>
           <div class="st"><span class="no">RU: не найден</span><span>EN: полный (под ред. Swain 2007)</span></div>
           <dl><dt>Основа</dt><dd>Foerster 1893 (ОД)</dd><dt>Зачем</dt><dd>как по лицу, глазам и походке судили о характере: греческое переложение утраченного Полемона</dd></dl>
+        </article>
+
+        <article class="card flag" data-g="ccag" data-nowhere="0">
+          <div class="group"><span>Из CCAG</span><span class="plan">кандидат в первый пилот</span></div>
+          <h3>Мелампод: лунный календарь для «царя Нехепсо»</h3>
+          <p class="orig">CCAG VIII.4, с. 102–107; IV, с. 110–113; XI.2, с. 155–156</p>
+          <p class="meta">греческий · ≈2 тыс. слов</p>
+          <div class="st"><span class="no">RU: нет</span><span class="no">EN: нет</span></div>
+          <dl><dt>Основа</dt><dd>изд. Ф. Кюмон, 1921 (ОД)</dd><dt>Первая часть</dt><dd>VIII.4, с. 102–107 (≈900 слов)</dd><dt>Зачем</dt><dd>«священный писец царя Нехепсо» и стела в Гелиополе: египетская псевдоэпиграфия из того же круга, что Нектанеб в «Романе об Александре»</dd></dl>
+        </article>
+        <article class="card flag" data-g="ccag" data-nowhere="0">
+          <div class="group"><span>Из CCAG</span><span class="plan">кандидат</span></div>
+          <h3>Книга громов и землетрясений с намёком на поход русов 941 г.</h3>
+          <p class="orig">CCAG III, с. 25–29; IV, с. 170–171</p>
+          <p class="meta">не позже X–XI в. · греческий · ≈1,7 тыс. слов</p>
+          <div class="st"><span class="no">RU: нет</span><span class="no">EN: нет (только машинный)</span></div>
+          <dl><dt>Основа</dt><dd>изд. Э. Мартини, Д. Басси, 1901 (ОД)</dd><dt>Первая часть</dt><dd>оба текста</dd><dt>Зачем</dt><dd>по Кюмону, «падут при Халкидоне, как трава» — намёк на поход Игоря; Кумания, Алания, болгары; параллель к славянским громникам</dd></dl>
+        </article>
+        <article class="card" data-g="ccag" data-nowhere="0">
+          <div class="group"><span>Из CCAG</span><span class="plan">кандидат</span></div>
+          <h3>Фессал Траллский: письмо императору и травы двенадцати знаков</h3>
+          <p class="orig">CCAG VIII.3, с. 132–159; латинская версия — VIII.4, с. 253–262</p>
+          <p class="meta">I в. · греческий · пролог ≈1,5 тыс. слов</p>
+          <div class="st"><span class="no">RU: нет</span><span>EN: только пролог</span></div>
+          <dl><dt>Основа</dt><dd>изд. П. Будро, 1912 (ОД)</dd><dt>Первая часть</dt><dd>пролог, Овен и Телец (≈2,2 тыс. слов)</dd><dt>Зачем</dt><dd>автобиография: путешествие в Египет, книга Нехепсо, которая «не работает», видение Асклепия в запечатанной келье</dd></dl>
+        </article>
+        <article class="card" data-g="ccag" data-nowhere="0">
+          <div class="group"><span>Из CCAG</span><span class="plan">кандидат</span></div>
+          <h3>«Апокалипсис Даниила» — книга небесных знамений</h3>
+          <p class="orig">CCAG VIII.3, с. 171–179</p>
+          <p class="meta">перевод с арабского 1245 г. · греческий · ≈2,5 тыс. слов</p>
+          <div class="st"><span class="no">RU: нет</span><span>EN: только предисловие</span></div>
+          <dl><dt>Основа</dt><dd>изд. П. Будро, 1912 (ОД)</dd><dt>Первая часть</dt><dd>весь текст</dd><dt>Зачем</dt><dd>рамочный рассказ от Птолемея Филадельфа и Септуагинты до пленника-переводчика 1245 г.; знамения по громам и затмениям</dd></dl>
+        </article>
+        <article class="card" data-g="ccag" data-nowhere="0">
+          <div class="group"><span>Из CCAG</span><span class="plan">кандидат</span></div>
+          <h3>Астральная магия образов и «голова Гелиодора»</h3>
+          <p class="orig">CCAG III, с. 41–46 и 53</p>
+          <p class="meta">рукописи XV–XVI вв. · греческий · ≈1,5 тыс. слов</p>
+          <div class="st"><span class="no">RU: нет</span><span class="no">EN: нет</span></div>
+          <dl><dt>Основа</dt><dd>изд. Э. Мартини, Д. Басси, Ф. Кюмон, 1901 (ОД)</dd><dt>Первая часть</dt><dd>оба текста</dd><dt>Зачем</dt><dd>около двадцати рецептов: восковые и металлические фигуры в планетные часы — для любви, милости правителя, посылания снов</dd></dl>
+        </article>
+        <article class="card" data-g="ccag" data-nowhere="0">
+          <div class="group"><span>Из CCAG</span><span class="plan">кандидат</span></div>
+          <h3>Селенодромий с языческими и библейскими «рождениями»</h3>
+          <p class="orig">CCAG III, с. 32–40; IV, с. 142–145</p>
+          <p class="meta">рукопись XIII в. · греческий · ≈2,1 тыс. слов</p>
+          <div class="st"><span class="no">RU: нет</span><span class="no">EN: нет для этих редакций</span></div>
+          <dl><dt>Основа</dt><dd>изд. Э. Мартини, Д. Басси, 1901 (ОД)</dd><dt>Первая часть</dt><dd>III, с. 32–40</dd><dt>Зачем</dt><dd>лунный календарь, где рядом стоят Артемида и Нимрод, Аполлон и Каин: видно, как лунник христианизировали; параллель — древнерусские лунники</dd></dl>
+        </article>
+        <article class="card" data-g="ccag" data-nowhere="0">
+          <div class="group"><span>Из CCAG</span><span class="plan">кандидат</span></div>
+          <h3>Деканы-амулеты: тайные имена, камни, врачебные печати</h3>
+          <p class="orig">CCAG VI, с. 73–78</p>
+          <p class="meta">рукопись XVI в. · греческий · ≈1,1 тыс. слов</p>
+          <div class="st"><span class="no">RU: нет</span><span class="no">EN: нет</span></div>
+          <dl><dt>Основа</dt><dd>изд. В. Кролль, 1903 (ОД)</dd><dt>Первая часть</dt><dd>весь текст с таблицей</dd><dt>Зачем</dt><dd>36 тайных имён деканов, камни и амулеты от болезней каждой части тела — рядом с «Заветом Соломона»</dd></dl>
         </article>
       </div>
       <p class="empty" id="empty" hidden>По этому фильтру текстов нет.</p>

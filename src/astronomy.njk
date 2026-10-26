@@ -85,6 +85,22 @@ mock: "<b>Макет страницы раздела.</b> Статусы пер�
       </div>
     </section>
 
+    <section class="block" aria-labelledby="ccag-h">
+      <div class="block-head">
+        <h2 id="ccag-h">Главный источник: «Каталог греческих астрологических рукописей»</h2>
+        <p>Сотни непереведённых текстов о небе, календарях и погоде. Карточки «Из CCAG» ниже — лучшие кандидаты для этого раздела.</p>
+      </div>
+      <div class="ccag">
+        <p><i lang="la">Catalogus Codicum Astrologorum Graecorum</i> (CCAG, Брюссель, 1898–1953; начат Францем Кюмоном и Францем Боллем) — 12 томов в 20 частях. Каждая часть описывает рукописи одного собрания, а в приложениях издаёт сами тексты — около 570 сочинений и отрывков, многие впервые и до сих пор единственный раз. Все части отсканированы (archive.org, <code>ccag-8.4</code>).</p>
+        <ul class="ccag-facts">
+          <li><b>Права.</b> Тома I–VIII и XI — общественное достояние. Тома V.4, IX и X ещё охраняются (до 2034–2041 гг.). Том XII — греческие рукописи в российских собраниях, изд. М. А. Шангин, 1936 — в ЕС свободен, а в России, вероятно, охраняется до 2059–2063 гг. (Шангин посмертно реабилитирован).</li>
+          <li><b>Что уже переведено.</b> Гороскопическую астрологию почти целиком перевели на английский программы астрологов (HOROI, Project Hindsight, Холден), а часть — оттуда на русский. Мантика и магия — книги громов и землетрясений, лунники, амулеты, травники — не переведены ни на русский, ни, как правило, на английский. Это наша ниша.</li>
+          <li><b>Оговорка.</b> В 2026 г. в сети появился машинный английский перевод всех томов без редактуры. Поэтому мы пишем «первый перевод на русский» и «первый проверенный научный перевод».</li>
+        </ul>
+        <p class="ccag-more"><a href="{{ site.repo }}/blob/main/research/ccag.md">Полное досье: тома, права, программы переводов, 252 текста и лучшие кандидаты</a></p>
+      </div>
+    </section>
+
     <section class="block" aria-labelledby="cat-h">
       <div class="block-head">
         <h2 id="cat-h">Тексты раздела</h2>
@@ -95,6 +111,7 @@ mock: "<b>Макет страницы раздела.</b> Статусы пер�
         <button type="button" data-f="astro" aria-pressed="false">Астрономия</button>
         <button type="button" data-f="astrol" aria-pressed="false">Астрология</button>
         <button type="button" data-f="cal" aria-pressed="false">Календари</button>
+        <button type="button" data-f="ccag" aria-pressed="false">Из CCAG</button>
         <button type="button" data-f="ru" aria-pressed="false">Только для русского</button>
         <label for="nowhere"><input type="checkbox" id="nowhere"> только не переведённые ни на один язык</label>
       </div>
@@ -179,6 +196,55 @@ mock: "<b>Макет страницы раздела.</b> Статусы пер�
           <p class="meta">II–IV вв. · греческие стихи · 6 книг</p>
           <div class="st"><span class="no">RU: нет</span><span>EN: полный (Lightfoot 2020)</span></div>
           <dl><dt>Основа</dt><dd>Koechly 1858 (ОД)</dd><dt>Зачем</dt><dd>судьбы по звёздам как картина общества римского Египта: ремёсла, рабы, болезни; автор приводит собственный гороскоп</dd></dl>
+        </article>
+
+        <article class="card flag" data-g="ccag" data-nowhere="0">
+          <div class="group"><span>Из CCAG</span><span class="plan">кандидат в пилот</span></div>
+          <h3>«Основание астрономического искусства» и «Астрологическая этнография»</h3>
+          <p class="orig">CCAG V.2, с. 130–140; Vat. gr. 191</p>
+          <p class="meta">византийский компилятор · греческий · ≈3 тыс. слов</p>
+          <div class="st"><span class="no">RU: нет</span><span class="no">EN: нет (только машинный)</span></div>
+          <dl><dt>Основа</dt><dd>изд. Ж. Биде и Ф. Кюмон, 1906 (ОД)</dd><dt>Первая часть</dt><dd>оба текста целиком</dd><dt>Зачем</dt><dd>Бог создаёт дракона, несущего зодиак; планеты бегут от жара Солнца, Сатурн обожжён дочерна; «национальные гороскопы» Китая, турок, индийцев, персов, арабов и ромеев</dd></dl>
+        </article>
+        <article class="card" data-g="ccag" data-nowhere="0">
+          <div class="group"><span>Из CCAG</span><span class="plan">кандидат</span></div>
+          <h3>Стефан Философ, «О математическом искусстве»</h3>
+          <p class="orig">CCAG II, с. 181–186; Marc. gr. 335</p>
+          <p class="meta">VIII в. · греческий · ≈1,5 тыс. слов</p>
+          <div class="st"><span class="no">RU: нет</span><span class="no">EN: нет (объявлен)</span></div>
+          <dl><dt>Основа</dt><dd>изд. Ф. Кюмон, 1900 (ОД)</dd><dt>Первая часть</dt><dd>весь текст</dd><dt>Зачем</dt><dd>христианская апология астрологии: её изобретатель — Сиф, доводы из Евангелия, новые таблицы для Константинополя</dd></dl>
+        </article>
+        <article class="card" data-g="ccag" data-nowhere="0">
+          <div class="group"><span>Из CCAG</span><span class="plan">кандидат</span></div>
+          <h3>«Суждение Валента о Мухаммаде» и выписки из Сахля ибн Бишра</h3>
+          <p class="orig">CCAG V.3, с. 98–112; Vat. gr. 1056</p>
+          <p class="meta">после VII в. · греческий · ≈3,7 тыс. слов</p>
+          <div class="st"><span class="no">RU: нет</span><span class="no">EN: греческая версия не переведена</span></div>
+          <dl><dt>Основа</dt><dd>изд. Й. Хеег, 1910 (ОД)</dd><dt>Первая часть</dt><dd>рассказ о Мухаммаде</dd><dt>Зачем</dt><dd>византийский взгляд на ранний ислам и передача астрологии с арабского на греческий</dd></dl>
+        </article>
+        <article class="card" data-g="ccag" data-nowhere="0">
+          <div class="group"><span>Из CCAG</span><span class="plan">кандидат</span></div>
+          <h3>Халдейская додекаэтерида с «августовскими» месяцами</h3>
+          <p class="orig">CCAG II, с. 139–152</p>
+          <p class="meta">ядро — эпоха Августа · греческий · ≈2,2 тыс. слов</p>
+          <div class="st"><span class="no">RU: нет</span><span class="no">EN: нет</span></div>
+          <dl><dt>Основа</dt><dd>изд. Ф. Болль, 1900 (ОД)</dd><dt>Первая часть</dt><dd>редакция I с пролегоменами Болля</dd><dt>Зачем</dt><dd>прогноз погоды, урожая и болезней на каждый год 12-летнего цикла; месяцы названы в честь семьи Августа</dd></dl>
+        </article>
+        <article class="card" data-g="ccag" data-nowhere="0">
+          <div class="group"><span>Из CCAG</span><span class="plan">кандидат</span></div>
+          <h3>Протоспафарий о звёздах, вызывающих бури</h3>
+          <p class="orig">CCAG II, с. 214–216; Marc. gr. 335</p>
+          <p class="meta">IX–X вв.? · греческий · ≈1,1 тыс. слов</p>
+          <div class="st"><span class="no">RU: нет</span><span class="no">EN: не найден</span></div>
+          <dl><dt>Основа</dt><dd>изд. А. Оливьери, 1900 (ОД)</dd><dt>Первая часть</dt><dd>весь текст</dd><dt>Зачем</dt><dd>морской календарь Византии: бури по церковным праздникам, дни, когда не выходят в море, погода по крику петуха</dd></dl>
+        </article>
+        <article class="card" data-g="ccag" data-nowhere="0">
+          <div class="group"><span>Из CCAG</span><span class="plan">кандидат</span></div>
+          <h3>«Византийские диосемии»: приметы погоды</h3>
+          <p class="orig">CCAG VIII.1, с. 137–140; XI.2, с. 174–183</p>
+          <p class="meta">XIII–XIV вв. (рукописи) · греческий · ≈3 тыс. слов</p>
+          <div class="st"><span class="no">RU: нет</span><span class="no">EN: нет для этих редакций</span></div>
+          <dl><dt>Основа</dt><dd>изд. Ф. Кюмон, 1929; К. О. Цуретти, 1934 (ОД)</dd><dt>Первая часть</dt><dd>VIII.1, с. 137–140</dd><dt>Зачем</dt><dd>приметы бури и ясной погоды по животным, Солнцу, Луне и радуге — продолжение «Диосемий» Арата</dd></dl>
         </article>
       </div>
       <p class="empty" id="empty" hidden>По этому фильтру текстов нет.</p>

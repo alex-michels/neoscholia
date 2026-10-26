@@ -37,3 +37,7 @@ figure.lexica figcaption b { color: var(--ink); font-weight: 400; }
   .planets { grid-template-columns: 5.6rem minmax(0, 1fr); }
   .planets .r { display: none; }
 }
+.ccag { max-width: 52rem; }
+.ccag p { margin: 0 0 .7rem; }
+.ccag-facts { margin: 0 0 .8rem; padding-left: 1.1rem; display: grid; gap: .45rem; font-size: .96rem; }
+.ccag-more a { font-family: var(--font-label); letter-spacing: .04em; }
