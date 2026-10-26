@@ -13,7 +13,7 @@ mock: "<b>Макет страницы раздела.</b> Статусы пер�
       <div>
         <h1 id="h1">Магия и мантика</h1>
         <p>Гадание (<span lang="grc">μαντική</span>, <i lang="la">divinatio</i>) было в античности признанным знанием: государства спрашивали оракулы, полководцы — гаруспиков, частные люди — толкователей снов и жребии. Магия считалась делом подозрительным и подсудным, но в текстах граница тонка: Нектанеб в «Романе об Александре» — и звездочёт, и маг.</p>
-        <p>Раздел собирает то, что осталось от этого знания: вопросы к оракулам, книги жребиев и знамений, гадание по телу, магические папирусы, «Кираниды» и алхимиков. Сонники, герметические трактаты и Ямвлих о мистериях уже есть по-русски; мы начинаем с непереведённого.</p>
+        <p>Раздел собирает то, что осталось от этого знания: вопросы к оракулам, книги жребиев и знамений, гадание по телу, привороты и любовную магию, магические папирусы, «Кираниды» и алхимиков. Сонники, герметические трактаты и Ямвлих о мистериях уже есть по-русски; мы начинаем с непереведённого.</p>
         <p class="editor">Раздел ведёт: Александр Михельс, PhD · рецензенты — специалисты по религии и магии — приглашаются</p>
         <dl class="facts">
           <div><dt>Кандидат в первый пилот</dt><dd>Псевдо-Мелампод, «О трепетаниях» и «О родимых пятнах» — гадание по телу</dd></div>
@@ -77,6 +77,10 @@ mock: "<b>Макет страницы раздела.</b> Статусы пер�
         <div class="have" role="cell"><span class="tag">Уже по-русски</span><ul><li><i class="dot ru"></i><span>Апулей, «Апология, или О магии»</span></li><li><i class="dot part"></i><span>PGM XIII, начало</span></li></ul></div>
         <div class="gap" role="cell"><span class="tag">Пробелы</span><ul><li><i class="dot none"></i><span>«Кираниды» <b class="star">★</b></span></li><li><i class="dot part"></i><span>PGM XIII, ст. 234–1077</span></li></ul></div>
 
+        <div class="topic" role="rowheader" id="love-magic">Привороты и любовная магия</div>
+        <div class="have" role="cell"><span class="tag">Уже по-русски</span><ul><li><i class="dot ru"></i><span>Феокрит, «Колдуньи» (идиллия II); Апулей, «Апология»: суд по обвинению в привороте</span></li></ul></div>
+        <div class="gap" role="cell"><span class="tag">Пробелы</span><ul><li><i class="dot none"></i><span>привораживающие заговоры в магических папирусах <b class="star">★</b></span></li><li><i class="dot none"></i><span>«Максим», «О начинаниях», V «О браке»: выбор дня свадьбы <b class="star">★</b></span></li></ul></div>
+
         <div class="topic" role="rowheader">Мистерии, теургия, герметизм</div>
         <div class="have" role="cell"><span class="tag">Уже по-русски</span><ul><li><i class="dot ru"></i><span>Ямвлих, «О египетских мистериях»; «Герметический корпус»</span></li></ul></div>
         <div class="gap" role="cell"><span class="tag">Пробелы</span><p class="closed">Ядро закрыто; статус Прокла «О жреческом искусстве» уточняется.</p></div>
@@ -95,6 +99,7 @@ mock: "<b>Макет страницы раздела.</b> Статусы пер�
       <div class="filters" role="group" aria-label="Фильтр текстов">
         <button type="button" data-f="all" aria-pressed="true">Все</button>
         <button type="button" data-f="div" aria-pressed="false">Гадание</button>
+        <button type="button" data-f="love" aria-pressed="false">Привороты и любовная магия</button>
         <button type="button" data-f="magic" aria-pressed="false">Магия и алхимия</button>
         <button type="button" data-f="ru" aria-pressed="false">Только для русского</button>
         <label for="nowhere"><input type="checkbox" id="nowhere"> только не переведённые ни на один язык</label>
@@ -108,6 +113,24 @@ mock: "<b>Макет страницы раздела.</b> Статусы пер�
           <p class="meta">поздняя античность · греческий · короткие трактаты</p>
           <div class="st"><span class="no">RU: не найден</span><span class="no">EN: не найден</span></div>
           <dl><dt>Основа</dt><dd>Diels 1908; Franz 1780 (ОД)</dd><dt>Зачем</dt><dd>бытовое гадание: что предвещает дрожь века или плеча и родинка на щеке; у традиции есть славянское продолжение — «Трепетник»</dd></dl>
+        </article>
+
+        <article class="card flag" data-g="love" data-nowhere="0">
+          <div class="group"><span>Привороты и любовная магия</span><span class="plan">кандидат</span></div>
+          <h3>Привораживающие заговоры в магических папирусах</h3>
+          <p class="orig">PGM IV.296–466 и луврская фигурка</p>
+          <p class="meta">III–IV вв. · греческий папирус</p>
+          <div class="st"><span class="no">RU: не найден</span><span>EN: полный (под ред. Betz)</span></div>
+          <dl><dt>Основа</dt><dd>Wessely 1888 (ОД); издание Прейзенданца — под правами</dd><dt>Зачем</dt><dd>настоящий любовный ритуал с восковыми фигурками и заклятием — параллель к кукле Нектанеба в <a href="zacher-1.html#c5">эпитоме Юлия Валерия, I.5</a></dd></dl>
+        </article>
+
+        <article class="card" data-g="love" data-nowhere="0">
+          <div class="group"><span>Привороты и любовная магия</span><span class="plan">кандидат</span></div>
+          <h3>«Максим», «О начинаниях», раздел V «О браке»</h3>
+          <p class="orig" lang="grc">Περὶ καταρχῶν · Περὶ γάμου</p>
+          <p class="meta">поздняя античность · греческие гексаметры</p>
+          <div class="st"><span class="no">RU: нет</span><span class="no">EN: нет</span><span>FR: Zito 2016</span></div>
+          <dl><dt>Основа</dt><dd>Ludwich 1877 (ОД)</dd><dt>Зачем</dt><dd>в какой день, по положению Луны, свадьба будет счастливой; вся поэма — в разделе <a href="astronomy.html">«Астрономия и астрология»</a>, о браке и семье — <a href="love.html">«Любовь, брак, дети»</a></dd></dl>
         </article>
 
         <article class="card flag" data-g="magic" data-nowhere="0">
@@ -143,7 +166,7 @@ mock: "<b>Макет страницы раздела.</b> Статусы пер�
           <p class="orig" lang="la">Sortes Astrampsychi</p>
           <p class="meta">II–III вв. · греческий · книга-оракул</p>
           <div class="st"><span class="no">RU: не найден</span><span>EN: полный (Stewart, Morrell 1998)</span></div>
-          <dl><dt>Основа</dt><dd>Hercher 1863 (ОД)</dd><dt>Зачем</dt><dd>92 вопроса — от «найду ли беглого раба?» до «стану ли советником?»: номер вопроса, число и таблицы ведут к ответу</dd></dl>
+          <dl><dt>Основа</dt><dd>Hercher 1863 (ОД)</dd><dt>Зачем</dt><dd>92 вопроса — от «найду ли беглого раба?» и «женюсь ли на любимой?» до «стану ли советником?»: номер вопроса, число и таблицы ведут к ответу</dd></dl>
         </article>
 
         <article class="card" data-g="ru" data-nowhere="0">
