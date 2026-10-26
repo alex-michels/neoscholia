@@ -29,3 +29,6 @@ __pycache__/
 
 # Audio lives in GitHub releases (scripts/tts/tts.py), never in git
 /src/assets/audio/
+
+# master scans of source editions (kept locally; JPEG copies are committed)
+research/texts/**/source/**/*.tif
