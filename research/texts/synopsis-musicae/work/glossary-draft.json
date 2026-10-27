@@ -1,0 +1,3580 @@
+{
+ "conventions": "GLOSSARY OF TERMS - music section of the anonymous Quadrivium of 1008 (\"ΤΗΣ ΜΟΥΣΙΚΗΣ ΗΚΡΙΒΩΜΕΝΗ ΣΥΝΟΨΙΣ\"), Basel print [1556?] (B), Greek pp. 23-33. Compiled 27 Oct 2026 from the established transcription (chunks G1-G3, final).\n\n0. WHAT THIS FILE IS AND IS NOT\n- It fixes the Russian and English renderings of the technical terms. It translates no passage and quotes no translation of this text (old or modern). Meanings are stated in technical terms only.\n- References are page.line of B, counted as in the transcription: on p. 23 the heading is lines 1-2 and the text begins at line 3. A word broken across lines is cited by its first line. Forms are given as printed, with the printed accents. [sic] marks a printed form that differs from the normal one; the transcription notes give the details.\n- Sigla as in about.md: B = Basel print; B^mg = Xylander's Greek marginal conjectures printed in B (part of the edition's apparatus, not of the text); Pal. = Pal. gr. 281.\n- Marks in the fields ru_basis / en_basis:\n  [Tsypin ✔] = form read in V. G. Tsypin's open-access articles in Научный вестник Московской консерватории 2019, № 4 (39), pp. 8-43 (\"Античный квантитативный лад\") and vol. 12, № 4 (2021), pp. 26-33 (\"Аристид Квинтилиан и античная теория лада\") (both PDFs read for this glossary);\n  [Tsypin, about.md] = form from the table in about.md § 5 (Tsypin's 2017 Ps.-Plutarch translation and the same articles), not re-read here;\n  [Shchetnikov ✔] = form read in A. I. Shchetnikov's Russian translations of Nicomachus, Introduction to Arithmetic (ΣΧΟΛΗ 3.1, 2009) and of Theon of Smyrna, Expositio (ΣΧΟΛΗ 3.2, 2009, pp. 466-558);\n  [Barker] = A. Barker's practice in Greek Musical Writings II (1989) as known to the compiler; no legitimate copy was reachable in this session, so these forms were NOT re-checked page by page;\n  [proposal] = the compiler's proposal; the editor decides. Where no Russian or English standard exists, the rendering is always marked [proposal].\n- Ancient sources were checked, where marked ✔, in: Theon of Smyrna, ed. E. Hiller (Leipzig 1878; archive.org theonissmyrnaei00theogoog), cited \"Theon page.line\"; K. von Jan, Musici scriptores Graeci (1895; archive.org musiciscriptores01jank) for Nicomachus' Enchiridion, the Sectio canonis, Cleonides, Bacchius and Gaudentius (cited by chapter); LSJ, DGE and Pape through Logeion; E. A. Sophocles, Greek Lexicon of the Roman and Byzantine Periods (1914 printing; archive.org). Unmarked references to Ptolemy and Aristides Quintilianus are standard loci given from knowledge, not re-checked here.\n\n1. GENERAL RULES\n- One Greek term = one rendering throughout, in both languages. Give the Greek in parentheses at the first occurrence and wherever the argument turns on the word. The argument turns on words in four places: the definitions (24.15-25.2); the names of the consonances (27.19-28.8); the naming of the genera (31.13-32.20); the text's own word ἐναρμόνιος (24.15-24.24).\n- Do not import terms the text does not use: σύστημα τέλειον, λεῖμμα, ἀποτομή, κόμμα, χρόα, πυκνόν, μεταβολή, τόνος in the sense of key. Such names may appear in notes only.\n- Doctrinal source: large parts of the section closely abridge Theon of Smyrna (Thrasyllus and Adrastus as excerpted by Theon, pp. 47-57 and 64 Hiller). Theon is the source of the definitions, the paraphonic/antiphonic concords, the names of the consonances, the genera with their ethos and the methods of finding the ratios. Not from Theon: the prologue, the argument for halving the tone geometrically (which contradicts Theon 53.8-16), and the ending on melodies and performance. Parallels are given in the entries. They are for understanding and notes. Do not use them to correct the printed text in the translation.\n\n2. NOTE NAMES (φθόγγων προσηγορίαι, 25.2-25.10)\n- RU, after Tsypin [Tsypin ✔]: the note names are transliterated, the tetrachord names translated. The note names have the Russian feminine forms гипата, парипата, лихана, меса, парамеса, трита, паранета, нета, and the masculine просламбаномен. The tetrachord names are genitive plurals: низших = ὑπάτων, средних = μέσων, отделённых = διεζευγμένων, высших = ὑπερβολαίων (соединённых = συνημμένων does not occur in this text). Tsypin's journal prints «отделенных», without ё; write «отделённых». A note position called διάτονος is «диатона» (Tsypin 2021: «от диатоны низших»). Do not translate note names (no «низшая», «средняя»). Do not use the Novosibirsk forms (паргипата, диатон).\n- EN, after Barker [Barker]: transliteration with macrons, u for υ and the rough breathing as h-. The forms are proslambanomenos, hupatē hupatōn, parhupatē hupatōn, hupatōn diatonos, hupatē mesōn, parhupatē mesōn, mesōn diatonos, mesē, paramesē, tritē diezeugmenōn, diezeugmenōn diatonos, nētē diezeugmenōn, tritē huperbolaiōn, huperbolaiōn diatonos, nētē huperbolaiōn. diatonos is the name of the lichanos/paranētē position in the diatonic genus.\n- Printed anomalies (see the entries):\n  - ὑπάτη διάτονος for ὑπάτων διάτονος (25.6);\n  - «μέση μόνως» (25.7), with διάτονος μέσων missing (supplied in B^mg);\n  - παράμεσος, masculine (25.7-8);\n  - nominative participles in place of the genitive plural: τρίτη διεζευγμένη, διάτονος διαζευγμένη, νήτη διεζευτμένη [sic] (25.8-9).\n  Recommendation [proposal]. A merely grammatical variant of a standard name is rendered by the standard name, with a note recording the printed form; this covers παράμεσος, the nominative participles and the misprint διεζευτμένη. A printed form that names a different or impossible note (ὑπάτη διάτονος) is translated as printed, with a doubt (PROMPT: translate the text as printed). If greek-text.json corrects these places from Pal., follow greek-text.json.\n- Notes and commentary only: pitch letters as in the Neoscholia figure, A … a′, with b for the paramesē; Tsypin writes h. The system is called «Большая совершенная система» (site), Tsypin's «большая полная система», EN \"Greater Perfect System\". The text itself never names it.\n\n3. INTERVALS\n- RU [Tsypin ✔]: интервал, тон, полутон, диеса, дитон, тритон, триполутон, несоставной интервал. EN [Barker]: interval, tone, semitone, diesis, ditone, tritone, trihemitone, incomposite interval. τριδίεσις: RU «тридиеса», EN \"tridiesis\" [proposal].\n- In this text τόνος is always the interval of a tone (9:8). The δίεσις is the smallest interval, half of the semitone; it is the Aristoxenian quarter-tone, not the Pythagorean δίεσις (= λεῖμμα). Never write «диез» (Shchetnikov's form).\n- διάστασις is the text's near-synonym of διάστημα. Keep the two apart: RU «расстояние», EN \"distance\" [proposal].\n\n4. RATIOS (λόγος = RU «отношение», EN \"ratio\")\n- RU [Shchetnikov ✔; proposal to adopt]: use the Russian calques of the Nicomachean names:\n  - полуторное (3:2), сверхтретье (4:3), сверхвосьмерное (9:8);\n  - двукратное, трёхкратное, четырёхкратное, пятикратное;\n  - двукратное-и-половинное (5:2), сверхдвухчастное (5:3), сверхчетвертное (5:4);\n  - for διπλασιεπιμερής, «двукратное-и-сверхмногочастное», formed on Shchetnikov's «многократно-и-сверхмногочастное»;\n  - for the coinage ἡμιεπόγδοος, «полусверхвосьмерное» [proposal].\n  Reasons. The ratio passages (25.21-26.7, 29.11-30.14) are arithmetic built on Nicomachus' classes of ratio and are abridged from Theon. The calques are the Russian standard for exactly these names, in the Russian Nicomachus and Theon. Tsypin gives ratios as numbers, not names. The Greek loanwords of the Novosibirsk Ptolemy (эпитрит, эпогдоон) cannot be extended to the compound names in 29.14-30.10. Recorded alternative, not recommended: эпитрит / гемиолий / эпогдоон. Use the names as neuter adjectives with «отношение» understood or expressed: «сверхтретье [отношение]».\n- EN [Barker]: hemiolic (3:2), epitritic (4:3), epogdoic (9:8), duple, triple, quadruple. Compounds formed on Barker's pattern [proposal]: quintuple (5:1), duple-hemiolic (5:2), epidimeric (5:3), epitetartic (5:4), duple-epimeric (the class of 8:3), half-epogdoic. The PROMPT's illustrative \"the epitrite\" is replaced by Barker's \"epitritic\".\n- Numbers: the text gives its own numerical examples (25.23; 29.16-23; 30.6-11). The translation adds no fractions or cents. A bare [4:3] in square brackets at the first occurrence of a name is acceptable. Ordinals with ἀριθμός are a numeral idiom; see the entry ἀριθμός.\n\n5. CONSONANCES\n- RU [Tsypin ✔]: кварта, квинта, октава. Compounds [proposal]: двойная кварта, двойная квинта, двойная октава, октава с квартой, октава с квинтой. EN [Barker]: fourth, fifth, octave, double fourth, double fifth, double octave, octave and a fourth, octave and a fifth.\n- Exception. In 27.21-28.6 the text explains the names literally: διὰ τεσσάρων \"through four notes/strings\", διὰ πέντε \"through five\", διὰ πασῶν \"through all\", i.e. δι’ ὀκτώ \"through eight\". There the literal sense must be visible: «„через четыре“ (διὰ τεσσάρων)», «„через все“ (διὰ πασῶν)»; EN \"'through four' (dia tessarōn)\", \"'through all' (dia pasōn)\". At the first occurrence (27.15) give the term and the literal sense together, e.g. «кварта (διὰ τεσσάρων, букв. „через четыре“)».\n- συμφωνία = RU «консонанс» [Tsypin ✔], EN \"concord\" [Barker]; verb συμφωνεῖν = RU «консонировать» [proposal], EN \"to be concordant\" [Barker].\n- παράφωνον / ἀντίφωνον (28.10-28.25) = RU «парафонный / антифонный» [Shchetnikov ✔, Theon], EN \"paraphonic / antiphonic\" [proposal]. Here, as in Thrasyllus (Theon 48.16-49.5), the paraphonic concords are the fourth and fifth, not Gaudentius' \"paraphonic\" tritone and ditone.\n\n6. GENERA\n- γένος = RU «род», EN \"genus\". διάτονον = «диатонический» / \"diatonic\". χρωματικόν = «хроматический» / \"chromatic\".\n- The text's third genus is ἁρμονικόν (31.17, 31.23, 32.18, 33.2), not ἐναρμόνιον. The text derives the name from ἁρμονία (31.17; 32.18-20; source Theon 55.15-56.1, after Aristoxenus). Render it RU «гармонический», EN \"harmonic\" [proposal], with a note at the first occurrence: «(= энармонический)», \"(= enharmonic)\". Do not replace it with «энармонический»/\"enharmonic\", or the derivation is lost.\n- Conversely, ἐναρμόνιος in 24.15-24.24 is NOT the genus. It qualifies a musical note (from Thrasyllus: φθόγγος = φωνῆς ἐναρμονίου τάσις, Theon 47.18-48.8). Render it RU «гармоничный», EN \"attuned\" [proposal], and keep the link with ἐναρμοσθῆναι (24.22-23). Never «энармонический»/\"enharmonic\" there.\n- The text has no χρόαι (shades). The \"divisions and differences\" of each genus (33.8-9) are the only allusion to them.\n\n7. ἁρμονία AND BASIC VOCABULARY\n- ἁρμονία: RU always «гармония» [Tsypin ✔]. EN \"harmonia\" (italic) in the technical places: 24.18, 25.1, 31.13-32.22. \"harmony\" is acceptable only in the cosmological prologue (23.3-24.14) [proposal]. Keep ἁρμονία → ἁρμονικόν visible in both languages.\n- φθόγγος = RU «звук» [Tsypin ✔] (not «нота»; not «голос», which is Shchetnikov's form), EN \"note\" [Barker].\n- φωνή = «голос» / \"voice\"; ψόφος = «шум» / \"noise\"; ἠχή = «звучание» / \"sound\".\n- τάσις = «напряжение» / \"tension\". Tsypin explains the literal sense of τόνος, a word from the same root (τείνω), as «натяжение», «напряжение», т. е. высота [Tsypin ✔, 2019]; for τάσις itself no Tsypin form was found, so «напряжение» is a [proposal]. Barker writes \"pitch\" for Aristoxenus' τάσις. Here \"tension\" is preferred because the text pairs τάσις with ἄνεσις and uses it of strings (28.23, 30.18) [proposal].\n- μέλος = «мелос» [Tsypin ✔; Shchetnikov ✔] / \"melos\" [proposal]; μελῳδία = «мелодия» / \"melody\".\n- διάστημα = «интервал» / \"interval\". σύστημα = «система» / \"system\". σχέσις = «соотношение» / \"relation\" [proposal], kept apart from λόγος «отношение» / \"ratio\".\n- βαρύς / ὀξύς = «низкий / высокий» / \"low / high\". ἐπίτασις / ἄνεσις = «повышение / понижение» of pitch, EN \"tension / relaxation\". For breath (30.22-23) RU may say «усиление / ослабление», with the Greek given there.\n- δύναμις in this text is not the Ptolemaic \"function\": RU «значение», EN \"value\" [proposal]; see the entry.\n\n8. LAYOUT OF ENTRIES\nFields: id; greek (lemma); forms_found (forms as printed, with refs); type (note name / interval / ratio / consonance / system / genus / shade / tonos / rhythm / instrument / general); subtype where useful; ru; ru_basis; en; en_basis; meaning (in this text); sources (ancient parallels and standard loci; ✔ = checked for this glossary); note (pitfalls, textual problems, cross-references). Entries are ordered by subject: general and definitions; note names; systems; intervals; ratios; consonances; genera and melody; tonoi and song types; rhythm and performance; instruments and acoustics; mathematics used in the argument.",
+ "entries": [
+  {
+   "id": "T001",
+   "greek": "μουσική",
+   "forms_found": [
+    {
+     "form": "ΜΟΥΣΙΚΗΣ (heading)",
+     "refs": [
+      "23.1"
+     ]
+    },
+    {
+     "form": "Μουσικὴν",
+     "refs": [
+      "23.3"
+     ]
+    },
+    {
+     "form": "μουσικὴ",
+     "refs": [
+      "24.1"
+     ]
+    },
+    {
+     "form": "μουσικὴν",
+     "refs": [
+      "24.7"
+     ]
+    },
+    {
+     "form": "μουσικῆς",
+     "refs": [
+      "24.12"
+     ]
+    },
+    {
+     "form": "Μουσικῆς (colophon)",
+     "refs": [
+      "33.21"
+     ]
+    }
+   ],
+   "type": "general",
+   "ru": "музыка",
+   "ru_basis": "standard",
+   "en": "music",
+   "en_basis": "standard",
+   "meaning": "The second of the four mathematical sciences. In the prologue it is cosmic: it holds the universe together. At 24.12-14 the author narrows his subject to the music perceived by the senses, specifically by hearing.",
+   "sources": "Theon 46.20-47.17 ✔: harmony as truth in reason, happiness in life and ἁρμονία in nature; the two harmonies, the perceptible one in instruments and the intelligible one in numbers.",
+   "note": "Capitalised only in the heading and the colophon."
+  },
+  {
+   "id": "T002",
+   "greek": "συμμετρία; αὐτοσυμμετρία",
+   "forms_found": [
+    {
+     "form": "συμμετρίας",
+     "refs": [
+      "23.5",
+      "23.8"
+     ]
+    },
+    {
+     "form": "αὐτοσυμμετρία",
+     "refs": [
+      "24.1"
+     ]
+    }
+   ],
+   "type": "general",
+   "subtype": "cosmology / mathematics",
+   "ru": "соразмерность; самосоразмерность",
+   "ru_basis": "соразмерность standard; самосоразмерность [proposal]",
+   "en": "commensurability; self-commensurability",
+   "en_basis": "[proposal]",
+   "meaning": "Due measure (mathematically, commensurability); its cosmic role in the prologue (23.3-11). 24.1-2: music itself is called αὐτοσυμμετρία τις … καὶ ἀναλογία.",
+   "sources": "Pythagorean commonplace; cf. Theon 46.20-47.5 ✔.",
+   "note": "αὐτοσυμμετρία is not in LSJ (Logeion, checked); it is a rare or coined word, and the note should say so. Keep it apart from ἀναλογία (see next)."
+  },
+  {
+   "id": "T003",
+   "greek": "ἀναλογία; κατὰ ἀνάλογον",
+   "forms_found": [
+    {
+     "form": "ἀναλογίας",
+     "refs": [
+      "23.6",
+      "23.9"
+     ]
+    },
+    {
+     "form": "ἀναλογία",
+     "refs": [
+      "24.2"
+     ]
+    },
+    {
+     "form": "ἀναλογίαις",
+     "refs": [
+      "28.16"
+     ]
+    },
+    {
+     "form": "κατὰ ἀνάλογον",
+     "refs": [
+      "28.24"
+     ]
+    }
+   ],
+   "type": "general",
+   "subtype": "mathematics",
+   "ru": "пропорция; пропорционально",
+   "ru_basis": "standard mathematical term [proposal for this text]",
+   "en": "proportion; proportionally",
+   "en_basis": "standard",
+   "meaning": "Proportion. In the prologue it is paired with συμμετρία. At 28.16-17 (ἀναλογίαις καὶ λόγοις) and 28.24-25 (κατὰ ἀνάλογον) it is used of the regular proportional relation of the notes in a concord.",
+   "sources": "Euclid, Elements V def. 8 (ἀναλογία); Theon 82ff. on proportions.",
+   "note": "Not «аналогия»/'analogy'."
+  },
+  {
+   "id": "T004",
+   "greek": "ἁρμονία",
+   "forms_found": [
+    {
+     "form": "ἁρμονία",
+     "refs": [
+      "24.2",
+      "31.19",
+      "32.22"
+     ]
+    },
+    {
+     "form": "ἁρμονίαν",
+     "refs": [
+      "24.4",
+      "24.10",
+      "25.1"
+     ]
+    },
+    {
+     "form": "Αρμονία [sic, no breathing]",
+     "refs": [
+      "24.18"
+     ]
+    },
+    {
+     "form": "ἁρμονίας",
+     "refs": [
+      "31.13",
+      "31.17",
+      "31.25",
+      "32.19"
+     ]
+    },
+    {
+     "form": "ἢ ἁρμονία [B^mg: ἡ]",
+     "refs": [
+      "31.23"
+     ]
+    }
+   ],
+   "type": "general",
+   "subtype": "central term (cosmic; technical; name-giver of the third genus)",
+   "ru": "гармония",
+   "ru_basis": "[Tsypin ✔] «гармония» (2021 art.: «„гармонии“, как их называл…»; about.md: «гармония (лад)»)",
+   "en": "harmonia (technical places); harmony (cosmological prologue only)",
+   "en_basis": "[Barker] keeps 'harmonia' in technical senses; split by context [proposal]",
+   "meaning": "Four uses. (1) Cosmic: the harmony of the universe (24.2, 24.4) and what music gives to nature (24.10-11). (2) Technical: defined as σύνταξις of systems (24.18-19); in Thrasyllus the same definition is followed by the examples Lydian, Phrygian, Dorian, i.e. harmonia = scale-type/mode. (3) The agent that orders systems into a genus of melody (31.13-32.22). (4) The source of the name of the third genus, τὸ ἁρμονικόν (31.17; 32.19-20, ἐκ τῆς κοινῆς ἁρμονίας). 25.1: πρὸς ἁρμονίαν (of a noise).",
+   "sources": "Thrasyllus in Theon 48.12-13 ✔ (ἁρμονία δέ ἐστι συστημάτων σύνταξις, οἷον Λύδιος, Φρύγιος, Δώριος); Theon 55.15-56.1 ✔ (Aristoxenus calls the enharmonic genus ἁρμονία 'because it is best, taking its name from all that is attuned').",
+   "note": "Do not render «лад»/'mode' or 'scale': the text needs one word that also explains ἁρμονικόν. 32.19-20 κοινὴ ἁρμονία = harmonia in the general sense, as against the genus; RU «общая гармония», EN 'harmonia in general' [proposal]. In 31.23 B prints ἢ, corrected to ἡ in B^mg."
+  },
+  {
+   "id": "T005",
+   "greek": "συναρμολογέω",
+   "forms_found": [
+    {
+     "form": "συναρμολογούμενον",
+     "refs": [
+      "24.5"
+     ]
+    },
+    {
+     "form": "συναρμολογεῖν",
+     "refs": [
+      "31.14"
+     ]
+    }
+   ],
+   "type": "general",
+   "ru": "слаживать (воедино)",
+   "ru_basis": "[proposal]",
+   "en": "fit together",
+   "en_basis": "[proposal]",
+   "meaning": "To join harmoniously: 24.5-6 (of the universe, in the divine); 31.14-15 (of systems, by harmonia).",
+   "sources": "—",
+   "note": "Keep it distinct from συντάσσω (see σύνταξις)."
+  },
+  {
+   "id": "T006",
+   "greek": "αἴσθησις; ἀκοή; νόησις",
+   "forms_found": [
+    {
+     "form": "αἰσθήσει",
+     "refs": [
+      "23.10",
+      "24.10",
+      "24.12"
+     ]
+    },
+    {
+     "form": "αἰσθήσεων",
+     "refs": [
+      "24.13"
+     ]
+    },
+    {
+     "form": "ἀκοῇ",
+     "refs": [
+      "24.13"
+     ]
+    },
+    {
+     "form": "νόησιν",
+     "refs": [
+      "23.11"
+     ]
+    },
+    {
+     "form": "νοήσει",
+     "refs": [
+      "24.11"
+     ]
+    }
+   ],
+   "type": "general",
+   "subtype": "epistemology",
+   "ru": "чувственное восприятие (ощущение); слух; мышление (умопостижение)",
+   "ru_basis": "[proposal]",
+   "en": "sense-perception; hearing; intellection",
+   "en_basis": "[proposal]",
+   "meaning": "The triad αἴσθησις / φύσις / νόησις of the prologue (23.10-11; 24.10-12). The subject of the treatise is the music of one sense, ἀκοή (24.12-14).",
+   "sources": "Theon 47.4-8 ✔ (intelligible harmony grasped from the perceptible; sensible harmony in instruments).",
+   "note": ""
+  },
+  {
+   "id": "T007",
+   "greek": "φθόγγος",
+   "forms_found": [
+    {
+     "form": "Φθόγγος",
+     "refs": [
+      "24.15"
+     ]
+    },
+    {
+     "form": "φθόγγος",
+     "refs": [
+      "24.19",
+      "24.24",
+      "25.15"
+     ]
+    },
+    {
+     "form": "φθόγγου",
+     "refs": [
+      "24.22",
+      "27.19"
+     ]
+    },
+    {
+     "form": "φθόγγων",
+     "refs": [
+      "24.16",
+      "25.2",
+      "25.18",
+      "27.21",
+      "27.23",
+      "28.16",
+      "29.24",
+      "30.4",
+      "30.13"
+     ]
+    },
+    {
+     "form": "φθόγγον",
+     "refs": [
+      "30.7"
+     ]
+    }
+   ],
+   "type": "general",
+   "subtype": "basic unit (defined)",
+   "ru": "звук",
+   "ru_basis": "[Tsypin ✔] (e.g. «звук по положению», «каждый звук»)",
+   "en": "note",
+   "en_basis": "[Barker]",
+   "meaning": "A musical sound of one pitch. Defined at 24.15-16, after Thrasyllus, through φωνή, ἀδιάστατος, ἐναρμόνιος and τάσις, and compared to the geometrical point (24.19-20). A sound that cannot be attuned is not a φθόγγος but a ψόφος (24.23-25.2). In 25.15-17, 27.19-27.24, 28.19-22, 29.24 and 30.4-13 notes are counted by position (first, eighth, fifteenth). At 27.23-24 φθόγγοι are equated with strings (εἴτ’ οὖν χορδῶν).",
+   "sources": "Thrasyllus in Theon 47.18-48.8 ✔ (φθόγγος = φωνῆς ἐναρμονίου τάσις); Nicomachus, Ench. 12 ✔ (… ἦχος ἀπλατὴς κατὰ τόπον ἀδιάστατος; 'like a unit in hearing'); Aristox. El. harm. I.15 and Cleonides 1 (φωνῆς πτῶσις ἐπὶ μίαν τάσιν); Theon 50.12-17 ✔ (Adrastus: irrational, unmelodic ψόφοι are not properly called φθόγγοι).",
+   "note": "Not «нота». Shchetnikov's Theon renders φθόγγος «голос» and φωνή «звук»; do not follow that here, or φθόγγος and φωνή collide in 24.15."
+  },
+  {
+   "id": "T008",
+   "greek": "φωνή; ἐκφωνέω",
+   "forms_found": [
+    {
+     "form": "φωνῆς",
+     "refs": [
+      "24.15"
+     ]
+    },
+    {
+     "form": "ἐκπεφωνῆσθαι",
+     "refs": [
+      "24.21"
+     ]
+    },
+    {
+     "form": "ἐκφωνηθείη",
+     "refs": [
+      "24.23"
+     ]
+    },
+    {
+     "form": "ἐκπεφωνημένος",
+     "refs": [
+      "24.25"
+     ]
+    }
+   ],
+   "type": "general",
+   "ru": "голос; издавать (звук), произносить",
+   "ru_basis": "[proposal] (standard)",
+   "en": "voice; utter, sound out",
+   "en_basis": "[Barker] 'voice'",
+   "meaning": "φωνή: the vocal (or instrumental) sound of which a note is a τάσις (24.15). ἐκφωνέω, 'to emit (a sound)', is used in the explanation of ἐναρμόνιος and ἀπηχής (24.21-25).",
+   "sources": "Theon 47.18-48.8 ✔.",
+   "note": "Keep 'voice' even though instruments are meant too; the definition is traditional."
+  },
+  {
+   "id": "T009",
+   "greek": "ἀδιάστατος",
+   "forms_found": [
+    {
+     "form": "ἀδιαστάτου",
+     "refs": [
+      "24.15"
+     ]
+    },
+    {
+     "form": "ἀδιάστατος",
+     "refs": [
+      "24.19"
+     ]
+    }
+   ],
+   "type": "general",
+   "subtype": "definition",
+   "ru": "непротяжённый (не имеющий протяжения)",
+   "ru_basis": "[proposal]",
+   "en": "unextended (without extension)",
+   "en_basis": "[proposal]",
+   "meaning": "Having no extent, like a geometrical point (24.20). The word is built on the same root as διάστημα and διάστασις: a note has no 'interval' in it.",
+   "sources": "Nicomachus, Ench. 12 ✔ (ἦχος ἀπλατὴς κατὰ τόπον ἀδιάστατος); Theon 111.14-16 ✔ (the point is σημεῖον ἀμέγεθες καὶ ἀδιάστατον).",
+   "note": "Avoid «безынтервальный»; the point comparison needs a geometrical word."
+  },
+  {
+   "id": "T010",
+   "greek": "ἐναρμόνιος; ἐναρμόζω",
+   "forms_found": [
+    {
+     "form": "ἐναρμόνιος",
+     "refs": [
+      "24.15",
+      "24.20",
+      "24.24"
+     ]
+    },
+    {
+     "form": "ἐναρμοσθῆναι",
+     "refs": [
+      "24.22"
+     ]
+    },
+    {
+     "form": "ἐναρμόζεται",
+     "refs": [
+      "33.11"
+     ]
+    }
+   ],
+   "type": "general",
+   "subtype": "quality of a note (NOT the genus)",
+   "ru": "гармоничный; слаживаться, входить в гармонию (ἐναρμοσθῆναι); слаживается (ἐναρμόζεται)",
+   "ru_basis": "[proposal]",
+   "en": "attuned; be attuned (ἐναρμοσθῆναι); is fitted, attuned (ἐναρμόζεται)",
+   "en_basis": "[proposal]",
+   "meaning": "The text explains ἐναρμόνιος by the capacity of a note to be attuned (ἐναρμοσθῆναι) with another (24.20-23); its opposite is ἀπηχής. 33.11: ἐναρμόζεται of Lydian, Phrygian and Dorian melos within each genus.",
+   "sources": "Thrasyllus in Theon 47.19-48.8 ✔. In Thrasyllus a voice is ἐναρμόνιος when it can be higher than a high one and lower than a low one; our text gives another explanation, attunability. Cf. ἐμμελής, Theon 50.18 ✔; Tsypin renders ἐμμελής «эммелический» [Tsypin ✔].",
+   "note": "PITFALL: not «энармонический»/'enharmonic'. The text calls the enharmonic genus ἁρμονικόν (see that entry). Shchetnikov's Theon writes «энгармоничный» here; not adopted, because it suggests the genus. Keep the root shared with ἁρμονία visible."
+  },
+  {
+   "id": "T011",
+   "greek": "τάσις",
+   "forms_found": [
+    {
+     "form": "τάσις",
+     "refs": [
+      "24.16"
+     ]
+    },
+    {
+     "form": "τάσεσιν",
+     "refs": [
+      "28.23"
+     ]
+    },
+    {
+     "form": "τάσεως",
+     "refs": [
+      "30.18"
+     ]
+    }
+   ],
+   "type": "general",
+   "subtype": "pitch",
+   "ru": "напряжение",
+   "ru_basis": "[proposal]. Tsypin explains the literal sense of τόνος (same root, τείνω) as «натяжение», «напряжение», т. е. высота [Tsypin ✔, 2019]; no Tsypin form for τάσις itself was found",
+   "en": "tension",
+   "en_basis": "[proposal]; Barker uses 'pitch' for Aristoxenus' τάσις",
+   "meaning": "Tension, i.e. pitch conceived physically: 24.16 (in the definition of the note); 28.23 (paired with ἄνεσις); 30.18 (tension of strings, by turning the pegs).",
+   "sources": "Theon 47.18-19 ✔; 57.2-3 ✔ (τῆς τάσεως γινομένης κατὰ τὴν στροφὴν τῶν κολλάβων).",
+   "note": "One word in all three places. The meaning 'pitch' can go in a note at 24.16."
+  },
+  {
+   "id": "T012",
+   "greek": "ἐπίτασις; ἄνεσις",
+   "forms_found": [
+    {
+     "form": "ἐπίτασιν",
+     "refs": [
+      "30.1",
+      "30.12"
+     ]
+    },
+    {
+     "form": "ἐπιτάσεως",
+     "refs": [
+      "30.22"
+     ]
+    },
+    {
+     "form": "ἀνέσεσι",
+     "refs": [
+      "28.23"
+     ]
+    },
+    {
+     "form": "ἀνέσεως",
+     "refs": [
+      "30.23"
+     ]
+    }
+   ],
+   "type": "general",
+   "subtype": "pitch",
+   "ru": "повышение; понижение (of breath, 30.22-23: усиление; ослабление)",
+   "ru_basis": "[proposal]",
+   "en": "tension; relaxation",
+   "en_basis": "[Barker] (Aristoxenus: epitasis/anesis = tension/relaxation)",
+   "meaning": "Raising and lowering of pitch: 28.23 (ἀνέσεσι); 30.1, 30.12 (ratios judged by the ἐπίτασις of the sound / of highness, not by the count of notes). 30.22-23: increase and decrease of breath-pressure in wind instruments.",
+   "sources": "Theon 57.5-6 ✔ (ἐπὶ δὲ τῶν ἐμπνευστῶν … διὰ τῆς ἐπιτάσεως καὶ ἀνέσεως τοῦ πνεύματος); Bacchius, Isag. (Jan p. 302) ✔ (πάθη τῆς μελῳδίας: ἄνεσις, ἐπίτασις, μονή, στάσις).",
+   "note": ""
+  },
+  {
+   "id": "T013",
+   "greek": "βαρύς; ὀξύς; ὀξύτης",
+   "forms_found": [
+    {
+     "form": "βαρέος",
+     "refs": [
+      "25.3",
+      "30.2"
+     ]
+    },
+    {
+     "form": "βαρεί [sic]",
+     "refs": [
+      "28.18"
+     ]
+    },
+    {
+     "form": "βαρέων",
+     "refs": [
+      "28.23"
+     ]
+    },
+    {
+     "form": "βαρέσι",
+     "refs": [
+      "28.24"
+     ]
+    },
+    {
+     "form": "ὀξὺ",
+     "refs": [
+      "25.3",
+      "25.20"
+     ]
+    },
+    {
+     "form": "ὀξέως",
+     "refs": [
+      "28.18"
+     ]
+    },
+    {
+     "form": "ὀξέσιν",
+     "refs": [
+      "28.24"
+     ]
+    },
+    {
+     "form": "ὀξέων",
+     "refs": [
+      "28.24"
+     ]
+    },
+    {
+     "form": "ὀξύτερον",
+     "refs": [
+      "30.2"
+     ]
+    },
+    {
+     "form": "ὀξύτητος",
+     "refs": [
+      "30.12"
+     ]
+    }
+   ],
+   "type": "general",
+   "subtype": "pitch",
+   "ru": "низкий; высокий; высота",
+   "ru_basis": "standard",
+   "en": "low; high; highness (of pitch)",
+   "en_basis": "[Barker]",
+   "meaning": "Low and high in pitch: 25.3 (order of the note names); 25.20-21 (ἐπὶ τὸ ὀξύ); 28.18-24 (high and low notes in antiphonic concord); 30.2, 30.12 (rise of pitch).",
+   "sources": "standard.",
+   "note": "Not «тяжёлый/острый». βαρῶν (30.20) is from βάρος 'weight', not βαρύς; see ἐξάρτησις τῶν βαρῶν."
+  },
+  {
+   "id": "T014",
+   "greek": "ἀπηχής",
+   "forms_found": [
+    {
+     "form": "ἀπηχής",
+     "refs": [
+      "24.23"
+     ]
+    }
+   ],
+   "type": "general",
+   "ru": "нестройный",
+   "ru_basis": "[proposal]",
+   "en": "discordant",
+   "en_basis": "LSJ s.v. ('discordant') ✔",
+   "meaning": "Of a sound that is not uttered so as to be attunable with another; such a sound is not a note but a ψόφος.",
+   "sources": "LSJ, DGE s.v. ✔; idea: Theon 50.12-17 ✔ (ἄλογοι καὶ ἐκμελεῖς ψόφοι).",
+   "note": "Do not confuse with ἀπηχέω 'to sound forth' (27.14) or with ἠχή."
+  },
+  {
+   "id": "T015",
+   "greek": "ψόφος",
+   "forms_found": [
+    {
+     "form": "ψόφος",
+     "refs": [
+      "24.25"
+     ]
+    }
+   ],
+   "type": "general",
+   "ru": "шум",
+   "ru_basis": "[proposal]",
+   "en": "noise",
+   "en_basis": "[proposal]",
+   "meaning": "A sound that is not a musical note (not usable πρὸς ἁρμονίαν).",
+   "sources": "Theon 50.4-17 ✔ (Adrastus: every voice is a ψόφος; unmelodic ψόφοι are not properly φθόγγοι).",
+   "note": "Not «звук», which is reserved for φθόγγος."
+  },
+  {
+   "id": "T016",
+   "greek": "ἠχή; ἀπηχέω",
+   "forms_found": [
+    {
+     "form": "ἠχῆς",
+     "refs": [
+      "27.20",
+      "30.1"
+     ]
+    },
+    {
+     "form": "ἀπηχούμενον",
+     "refs": [
+      "27.14"
+     ]
+    }
+   ],
+   "type": "general",
+   "ru": "звучание; звучащий (ἀπηχούμενον)",
+   "ru_basis": "[proposal]",
+   "en": "sound; sounding (out)",
+   "en_basis": "[proposal]",
+   "meaning": "27.19-21: the ἠχή from the first to the last note is the reason the larger spans are called intervals. 30.1: the ἐπίτασις of the ἠχή decides the ratio. 27.14: ἀπηχούμενον of an incomposite interval.",
+   "sources": "—",
+   "note": "See ἀπηχής (a different word)."
+  },
+  {
+   "id": "T017",
+   "greek": "διάστημα",
+   "forms_found": [
+    {
+     "form": "Διάστημα",
+     "refs": [
+      "24.16"
+     ]
+    },
+    {
+     "form": "διάστημα",
+     "refs": [
+      "30.3",
+      "32.11"
+     ]
+    },
+    {
+     "form": "διαστήματος",
+     "refs": [
+      "27.14"
+     ]
+    },
+    {
+     "form": "διαστήματα",
+     "refs": [
+      "27.6",
+      "27.15",
+      "27.20",
+      "31.12",
+      "32.23"
+     ]
+    },
+    {
+     "form": "διαστημάτων",
+     "refs": [
+      "24.18",
+      "25.19",
+      "27.13",
+      "27.18",
+      "30.23",
+      "31.10",
+      "32.5",
+      "32.16",
+      "33.14"
+     ]
+    }
+   ],
+   "type": "interval",
+   "subtype": "basic unit (defined)",
+   "ru": "интервал",
+   "ru_basis": "[Tsypin ✔]",
+   "en": "interval",
+   "en_basis": "[Barker]",
+   "meaning": "Defined at 24.16-17 through the σχέσις of notes. Intervals are either incomposite (27.6-14) or pass through intermediate notes (27.14-21). At 31.10-13 intervals are said to be conceived by abstraction from matter, whereas systems exist in matter.",
+   "sources": "Thrasyllus in Theon 48.8-10 ✔ (διάστημα … φθόγγων τὴν πρὸς ἀλλήλους ποιὰν σχέσιν, οἷον διὰ τεσσάρων …); Nicomachus, Ench. 12 ✔ (δυοῖν φθόγγων μεταξύτης).",
+   "note": "Keep apart from διάστασις (next)."
+  },
+  {
+   "id": "T018",
+   "greek": "διάστασις",
+   "forms_found": [
+    {
+     "form": "διαστάσεων",
+     "refs": [
+      "28.3",
+      "29.25",
+      "30.16"
+     ]
+    },
+    {
+     "form": "διαστάσεις",
+     "refs": [
+      "28.8"
+     ]
+    },
+    {
+     "form": "διάστασις",
+     "refs": [
+      "28.9"
+     ]
+    },
+    {
+     "form": "διαστάσεσι",
+     "refs": [
+      "32.3"
+     ]
+    }
+   ],
+   "type": "interval",
+   "ru": "расстояние",
+   "ru_basis": "[proposal]",
+   "en": "distance",
+   "en_basis": "[proposal]",
+   "meaning": "The text's near-synonym of διάστημα. It is used of the consonant spans (28.3, 28.8, 28.9), of the ratios 'of the διαστάσεις' (29.25, 30.16), and of the three steps of the fourth (32.3).",
+   "sources": "Ptolemy uses διάστασις for 'distance' between pitches (Harm. I).",
+   "note": "Render it differently from διάστημα so that the reader can see the Greek variation; it may be glossed once. Not «измерение» (the geometrical 'dimension')."
+  },
+  {
+   "id": "T019",
+   "greek": "σχέσις",
+   "forms_found": [
+    {
+     "form": "σχέσις",
+     "refs": [
+      "24.17"
+     ]
+    }
+   ],
+   "type": "general",
+   "subtype": "definition",
+   "ru": "соотношение",
+   "ru_basis": "[proposal]",
+   "en": "relation",
+   "en_basis": "[proposal]",
+   "meaning": "The 'relation' of two notes that constitutes an interval (24.17).",
+   "sources": "Theon 48.8-9 ✔ (ποιὰν σχέσιν); Nicomachus, Ench. 12 ✔ distinguishes σχέσις (= λόγος) from διαφορά.",
+   "note": "Kept distinct from λόγος = «отношение»/'ratio'."
+  },
+  {
+   "id": "T020",
+   "greek": "σύστημα",
+   "forms_found": [
+    {
+     "form": "Σύστημα",
+     "refs": [
+      "24.17"
+     ]
+    },
+    {
+     "form": "συστημάτων",
+     "refs": [
+      "24.18",
+      "32.21",
+      "33.1"
+     ]
+    },
+    {
+     "form": "συστήματα",
+     "refs": [
+      "31.10",
+      "31.14"
+     ]
+    }
+   ],
+   "type": "system",
+   "subtype": "defined",
+   "ru": "система",
+   "ru_basis": "[Tsypin ✔]",
+   "en": "system",
+   "en_basis": "[Barker]",
+   "meaning": "Defined at 24.17-18 through the περιοχή of intervals. The text's systems are the tetrachord, pentachord, octachord and the sixteen-string double octave (30.23-31.9). Systems exist 'in matter', intervals by abstraction (31.10-13). Harmonia arranges systems into genera (31.13-18; 32.21-33.1).",
+   "sources": "Thrasyllus in Theon 48.10-12 ✔ (σύστημα δὲ διαστημάτων ποιὰν περιοχήν, οἷον τετράχορδον, πεντάχορδον, ὀκτάχορδον); Theon 49.14-16 ✔ (Adrastus: συστήματα, τετράχορδα καὶ πεντάχορδα καὶ ὀκτάχορδα).",
+   "note": "The text never says σύστημα τέλειον (see πεντεκαιδεκάχορδον)."
+  },
+  {
+   "id": "T021",
+   "greek": "περιοχή (printed περωχή)",
+   "forms_found": [
+    {
+     "form": "περωχὴ [sic]",
+     "refs": [
+      "24.18"
+     ]
+    }
+   ],
+   "type": "system",
+   "subtype": "definition",
+   "ru": "охват",
+   "ru_basis": "[proposal]",
+   "en": "compass",
+   "en_basis": "[proposal]",
+   "meaning": "'Comprehension, enclosure': a system is a certain enclosure of intervals.",
+   "sources": "Theon 48.11 ✔ (ποιὰν περιοχήν).",
+   "note": "B prints περωχὴ, a misprint for περιοχή (transcription note 24.18); translate περιοχή and record the misprint in a note."
+  },
+  {
+   "id": "T022",
+   "greek": "σύνταξις; συντάσσω; συντακτικός",
+   "forms_found": [
+    {
+     "form": "σύνταξις",
+     "refs": [
+      "24.19"
+     ]
+    },
+    {
+     "form": "συντάττειν",
+     "refs": [
+      "31.14"
+     ]
+    },
+    {
+     "form": "συντάττει",
+     "refs": [
+      "32.22"
+     ]
+    },
+    {
+     "form": "συντακτικῷ",
+     "refs": [
+      "32.24"
+     ]
+    }
+   ],
+   "type": "general",
+   "subtype": "definition",
+   "ru": "сочетание; сочетать; [пример] сочетания (συντακτικὸν ὑπόδειγμα)",
+   "ru_basis": "[proposal]",
+   "en": "arrangement; arrange; illustrative of the arrangement",
+   "en_basis": "[proposal]",
+   "meaning": "Ordered putting-together: 24.18-19 (the definition of harmonia); 31.14 and 32.22 (harmonia συντάσσει systems); 32.24 (συντακτικὸν ὑπόδειγμα: the one tetrachord as the model for the other systems).",
+   "sources": "Theon 48.12-13 ✔.",
+   "note": ""
+  },
+  {
+   "id": "T023",
+   "greek": "προσηγορία; προσωνυμία; προσαγορεύω; φερωνυμία; παρωνυμία, παρωνύμως",
+   "forms_found": [
+    {
+     "form": "Προσηγορίαι",
+     "refs": [
+      "25.2"
+     ]
+    },
+    {
+     "form": "προσηγορίας",
+     "refs": [
+      "25.4",
+      "27.22"
+     ]
+    },
+    {
+     "form": "φερωνυμίας",
+     "refs": [
+      "28.5"
+     ]
+    },
+    {
+     "form": "προσωνυμίας",
+     "refs": [
+      "29.5"
+     ]
+    },
+    {
+     "form": "παρωνύμως",
+     "refs": [
+      "31.17"
+     ]
+    },
+    {
+     "form": "προσαγορευόμενον",
+     "refs": [
+      "31.18"
+     ]
+    },
+    {
+     "form": "παρωνυμίαν",
+     "refs": [
+      "32.20"
+     ]
+    }
+   ],
+   "type": "general",
+   "subtype": "naming",
+   "ru": "название (προσηγορία); наименование (προσωνυμία); называть (προσαγορεύω); значимость (говорящий характер) имени (φερωνυμία); производное имя; по производному имени (παρωνυμία, παρωνύμως)",
+   "ru_basis": "[proposal]",
+   "en": "name, designation; appellation; call; aptness of the name; derived name; paronymously (by derivation)",
+   "en_basis": "[proposal]",
+   "meaning": "The text explains names three times: the note names (25.2-4); the names of the consonances (28.5-6, φερωνυμία); and the genus ἁρμονικόν (31.17, παρωνύμως; 32.20, παρωνυμία). 29.5: προσωνυμίας οὐκ ἔτυχε (the remainder of the fourth).",
+   "sources": "Theon 51.4-20 ✔ (names of the consonances); 55.15-56.1 ✔ (name of the enharmonic).",
+   "note": "παρωνύμως is a grammatical term (Aristotle, Categories 1a12); a note may explain it."
+  },
+  {
+   "id": "T024",
+   "greek": "προσλαμβανόμενος",
+   "forms_found": [
+    {
+     "form": "Προσλαμβανόμενος",
+     "refs": [
+      "25.4"
+     ]
+    }
+   ],
+   "type": "note name",
+   "subtype": "1st of 15 (A)",
+   "ru": "просламбаномен",
+   "ru_basis": "[Tsypin ✔]",
+   "en": "proslambanomenos",
+   "en_basis": "[Barker]",
+   "meaning": "The 'added' note at the bottom of the system, a tone below hupatē hupatōn; A in the site figure.",
+   "sources": "Sectio canonis 19-20 ✔ (ὑπάτων διάτονος, μέσων διάτονος, διεζευγμένων διάτονος, ὑπερβολαίων διάτονος); Gaudentius 6 ✔ (λιχανὸς ὑπάτων, 'which was also called διάτονος ὑπάτων in the diatonic genus'); Nicomachus, Ench. 11; Cleonides 2; Aristid. Quint. I.6; Ptol. Harm. II.5.",
+   "note": "The capital Π of B looks like Γ (transcription note 25.2)."
+  },
+  {
+   "id": "T025",
+   "greek": "ὑπάτη ὑπάτων",
+   "forms_found": [
+    {
+     "form": "ὑπάτη ὑπάτων",
+     "refs": [
+      "25.5"
+     ]
+    }
+   ],
+   "type": "note name",
+   "subtype": "2nd (B)",
+   "ru": "гипата низших",
+   "ru_basis": "[Tsypin ✔]",
+   "en": "hupatē hupatōn",
+   "en_basis": "[Barker]",
+   "meaning": "Lowest note of the tetrachord hupatōn; B.",
+   "sources": "Sectio canonis 19-20 ✔ (ὑπάτων διάτονος, μέσων διάτονος, διεζευγμένων διάτονος, ὑπερβολαίων διάτονος); Gaudentius 6 ✔ (λιχανὸς ὑπάτων, 'which was also called διάτονος ὑπάτων in the diatonic genus'); Nicomachus, Ench. 11; Cleonides 2; Aristid. Quint. I.6; Ptol. Harm. II.5.",
+   "note": ""
+  },
+  {
+   "id": "T026",
+   "greek": "παρυπάτη ὑπάτων",
+   "forms_found": [
+    {
+     "form": "παρυπάτη ὑπάτων",
+     "refs": [
+      "25.5"
+     ]
+    }
+   ],
+   "type": "note name",
+   "subtype": "3rd (c)",
+   "ru": "парипата низших",
+   "ru_basis": "[Tsypin ✔]",
+   "en": "parhupatē hupatōn",
+   "en_basis": "[Barker]",
+   "meaning": "Second note of the tetrachord hupatōn; c in the diatonic.",
+   "sources": "Sectio canonis 19-20 ✔ (ὑπάτων διάτονος, μέσων διάτονος, διεζευγμένων διάτονος, ὑπερβολαίων διάτονος); Gaudentius 6 ✔ (λιχανὸς ὑπάτων, 'which was also called διάτονος ὑπάτων in the diatonic genus'); Nicomachus, Ench. 11; Cleonides 2; Aristid. Quint. I.6; Ptol. Harm. II.5.",
+   "note": ""
+  },
+  {
+   "id": "T027",
+   "greek": "ὑπάτων διάτονος (printed ὑπάτη διάτονος)",
+   "forms_found": [
+    {
+     "form": "ὑπάτη διάτονος [sic]",
+     "refs": [
+      "25.6"
+     ]
+    }
+   ],
+   "type": "note name",
+   "subtype": "4th (d) = λιχανὸς ὑπάτων",
+   "ru": "диатона низших (as printed: «диатоническая гипата» [sic])",
+   "ru_basis": "«диатона низших» [Tsypin ✔, 2021]; literal rendering [proposal]",
+   "en": "hupatōn diatonos (as printed: 'diatonic hupatē' [sic])",
+   "en_basis": "[Barker] form; literal rendering [proposal]",
+   "meaning": "The third note of the tetrachord hupatōn in the diatonic genus (lichanos hupatōn); d.",
+   "sources": "Sectio canonis 19-20 ✔ (ὑπάτων διάτονος, μέσων διάτονος, διεζευγμένων διάτονος, ὑπερβολαίων διάτονος); Gaudentius 6 ✔ (λιχανὸς ὑπάτων, 'which was also called διάτονος ὑπάτων in the diatonic genus'); Nicomachus, Ench. 11; Cleonides 2; Aristid. Quint. I.6; Ptol. Harm. II.5.",
+   "note": "B prints ὑπάτη for ὑπάτων (transcription note 25.6), probably a wrongly expanded abbreviation. As printed it names a note that does not exist. Per PROMPT, translate as printed and argue in doubts, unless greek-text.json corrects it from Pal."
+  },
+  {
+   "id": "T028",
+   "greek": "ὑπάτη μέσων",
+   "forms_found": [
+    {
+     "form": "ὑπάτη μέσων",
+     "refs": [
+      "25.6"
+     ]
+    }
+   ],
+   "type": "note name",
+   "subtype": "5th (e)",
+   "ru": "гипата средних",
+   "ru_basis": "[Tsypin ✔]",
+   "en": "hupatē mesōn",
+   "en_basis": "[Barker]",
+   "meaning": "Lowest note of the tetrachord mesōn; e.",
+   "sources": "Sectio canonis 19-20 ✔ (ὑπάτων διάτονος, μέσων διάτονος, διεζευγμένων διάτονος, ὑπερβολαίων διάτονος); Gaudentius 6 ✔ (λιχανὸς ὑπάτων, 'which was also called διάτονος ὑπάτων in the diatonic genus'); Nicomachus, Ench. 11; Cleonides 2; Aristid. Quint. I.6; Ptol. Harm. II.5.",
+   "note": ""
+  },
+  {
+   "id": "T029",
+   "greek": "παρυπάτη μέσων",
+   "forms_found": [
+    {
+     "form": "παρυπάτη μέσων",
+     "refs": [
+      "25.7"
+     ]
+    }
+   ],
+   "type": "note name",
+   "subtype": "6th (f)",
+   "ru": "парипата средних",
+   "ru_basis": "[Tsypin ✔]",
+   "en": "parhupatē mesōn",
+   "en_basis": "[Barker]",
+   "meaning": "Second note of the tetrachord mesōn; f.",
+   "sources": "Sectio canonis 19-20 ✔ (ὑπάτων διάτονος, μέσων διάτονος, διεζευγμένων διάτονος, ὑπερβολαίων διάτονος); Gaudentius 6 ✔ (λιχανὸς ὑπάτων, 'which was also called διάτονος ὑπάτων in the diatonic genus'); Nicomachus, Ench. 11; Cleonides 2; Aristid. Quint. I.6; Ptol. Harm. II.5.",
+   "note": ""
+  },
+  {
+   "id": "T030",
+   "greek": "[μέσων διάτονος] (B^mg: διάτονος μέσων)",
+   "forms_found": [
+    {
+     "form": "not printed; asterisk before μέση, margin «διάτονος μέσων addo»",
+     "refs": [
+      "25.7"
+     ]
+    }
+   ],
+   "type": "note name",
+   "subtype": "7th (g) = λιχανὸς μέσων — missing in B",
+   "ru": "диатона средних",
+   "ru_basis": "[Tsypin ✔ / about.md]",
+   "en": "mesōn diatonos",
+   "en_basis": "[Barker]",
+   "meaning": "The third note of the tetrachord mesōn in the diatonic; g.",
+   "sources": "Sectio canonis 19-20 ✔ (ὑπάτων διάτονος, μέσων διάτονος, διεζευγμένων διάτονος, ὑπερβολαίων διάτονος); Gaudentius 6 ✔ (λιχανὸς ὑπάτων, 'which was also called διάτονος ὑπάτων in the diatonic genus'); Nicomachus, Ench. 11; Cleonides 2; Aristid. Quint. I.6; Ptol. Harm. II.5.",
+   "note": "Absent from the printed list, which therefore has 14 names, not 15. The count in 25.14-17 (first : eighth = eighth : fifteenth) and the antiphonic pairs 28.19-22 (8th-1st, 11th-4th, 12th-5th, 15th-8th, all octaves) presuppose 15 notes with this one included. That is an argument for B^mg, to be put in doubts. Do not insert it into the translation unless greek-text.json does."
+  },
+  {
+   "id": "T031",
+   "greek": "μέση (printed «μέση μόνως»)",
+   "forms_found": [
+    {
+     "form": "μέση μόνως",
+     "refs": [
+      "25.7"
+     ]
+    }
+   ],
+   "type": "note name",
+   "subtype": "8th (a)",
+   "ru": "меса",
+   "ru_basis": "[Tsypin ✔]",
+   "en": "mesē",
+   "en_basis": "[Barker]",
+   "meaning": "The 'middle' note, top of the tetrachord mesōn, the 8th note of the fifteen; a.",
+   "sources": "Sectio canonis 19-20 ✔ (ὑπάτων διάτονος, μέσων διάτονος, διεζευγμένων διάτονος, ὑπερβολαίων διάτονος); Gaudentius 6 ✔ (λιχανὸς ὑπάτων, 'which was also called διάτονος ὑπάτων in the diatonic genus'); Nicomachus, Ench. 11; Cleonides 2; Aristid. Quint. I.6; Ptol. Harm. II.5.",
+   "note": "μόνως ('only, simply') is printed after μέση. It is not part of the name and is unexplained. Possibly it says that the mesē alone is named without a tetrachord; possibly it is a corruption. Record it in doubts; render it as a word of the sentence, not as a note name."
+  },
+  {
+   "id": "T032",
+   "greek": "παραμέση (printed παράμεσος)",
+   "forms_found": [
+    {
+     "form": "παράμεσος [masc.]",
+     "refs": [
+      "25.7"
+     ]
+    }
+   ],
+   "type": "note name",
+   "subtype": "9th (b)",
+   "ru": "парамеса",
+   "ru_basis": "[Tsypin ✔]",
+   "en": "paramesē",
+   "en_basis": "[Barker]",
+   "meaning": "The note next above the mesē, a tone higher (disjunction); lowest note of the tetrachord diezeugmenōn; b (site figure), h in Tsypin.",
+   "sources": "Sectio canonis 19-20 ✔ (ὑπάτων διάτονος, μέσων διάτονος, διεζευγμένων διάτονος, ὑπερβολαίων διάτονος); Gaudentius 6 ✔ (λιχανὸς ὑπάτων, 'which was also called διάτονος ὑπάτων in the diatonic genus'); Nicomachus, Ench. 11; Cleonides 2; Aristid. Quint. I.6; Ptol. Harm. II.5.",
+   "note": "B prints the masculine παράμεσος (sc. φθόγγος). Render it by the standard name and note the printed form."
+  },
+  {
+   "id": "T033",
+   "greek": "τρίτη διεζευγμένων (printed τρίτη διεζευγμένη)",
+   "forms_found": [
+    {
+     "form": "τρίτη διεζευγμένη",
+     "refs": [
+      "25.8"
+     ]
+    }
+   ],
+   "type": "note name",
+   "subtype": "10th (c′)",
+   "ru": "трита отделённых",
+   "ru_basis": "[Tsypin ✔] («трита отделенных»)",
+   "en": "tritē diezeugmenōn",
+   "en_basis": "[Barker]",
+   "meaning": "Second note of the tetrachord diezeugmenōn; c′.",
+   "sources": "Sectio canonis 19-20 ✔ (ὑπάτων διάτονος, μέσων διάτονος, διεζευγμένων διάτονος, ὑπερβολαίων διάτονος); Gaudentius 6 ✔ (λιχανὸς ὑπάτων, 'which was also called διάτονος ὑπάτων in the diatonic genus'); Nicomachus, Ench. 11; Cleonides 2; Aristid. Quint. I.6; Ptol. Harm. II.5.",
+   "note": "B has the nominative participle (literally 'the disjoined tritē'), as with the next two names. Render it by the standard name and note the printed form."
+  },
+  {
+   "id": "T034",
+   "greek": "διεζευγμένων διάτονος (printed διάτονος διαζευγμένη)",
+   "forms_found": [
+    {
+     "form": "διάτονος διαζευγμένη [sic]",
+     "refs": [
+      "25.8"
+     ]
+    }
+   ],
+   "type": "note name",
+   "subtype": "11th (d′) = παρανήτη διεζευγμένων",
+   "ru": "диатона отделённых",
+   "ru_basis": "formed on Tsypin's «диатона низших» [Tsypin ✔ pattern]",
+   "en": "diezeugmenōn diatonos",
+   "en_basis": "[Barker] pattern",
+   "meaning": "Third note of the tetrachord diezeugmenōn in the diatonic (paranētē diezeugmenōn); d′.",
+   "sources": "Sectio canonis 19-20 ✔ (ὑπάτων διάτονος, μέσων διάτονος, διεζευγμένων διάτονος, ὑπερβολαίων διάτονος); Gaudentius 6 ✔ (λιχανὸς ὑπάτων, 'which was also called διάτονος ὑπάτων in the diatonic genus'); Nicomachus, Ench. 11; Cleonides 2; Aristid. Quint. I.6; Ptol. Harm. II.5.",
+   "note": "Printed with the δια-compendium, giving διαζευγμένη for διεζευγμένη (transcription note 25.8)."
+  },
+  {
+   "id": "T035",
+   "greek": "νήτη διεζευγμένων (printed νήτη διεζευτμένη)",
+   "forms_found": [
+    {
+     "form": "νήτη διεζευτμένη [sic]",
+     "refs": [
+      "25.9"
+     ]
+    }
+   ],
+   "type": "note name",
+   "subtype": "12th (e′)",
+   "ru": "нета отделённых",
+   "ru_basis": "[Tsypin ✔]",
+   "en": "nētē diezeugmenōn",
+   "en_basis": "[Barker]",
+   "meaning": "Top note of the tetrachord diezeugmenōn; e′.",
+   "sources": "Sectio canonis 19-20 ✔ (ὑπάτων διάτονος, μέσων διάτονος, διεζευγμένων διάτονος, ὑπερβολαίων διάτονος); Gaudentius 6 ✔ (λιχανὸς ὑπάτων, 'which was also called διάτονος ὑπάτων in the diatonic genus'); Nicomachus, Ench. 11; Cleonides 2; Aristid. Quint. I.6; Ptol. Harm. II.5.",
+   "note": "τ printed for γ (misprint, transcription note 25.9)."
+  },
+  {
+   "id": "T036",
+   "greek": "τρίτη ὑπερβολαίων",
+   "forms_found": [
+    {
+     "form": "τρίτη ὑπερβολαίων",
+     "refs": [
+      "25.9"
+     ]
+    }
+   ],
+   "type": "note name",
+   "subtype": "13th (f′)",
+   "ru": "трита высших",
+   "ru_basis": "[Tsypin ✔]",
+   "en": "tritē huperbolaiōn",
+   "en_basis": "[Barker]",
+   "meaning": "Second note of the tetrachord huperbolaiōn; f′.",
+   "sources": "Sectio canonis 19-20 ✔ (ὑπάτων διάτονος, μέσων διάτονος, διεζευγμένων διάτονος, ὑπερβολαίων διάτονος); Gaudentius 6 ✔ (λιχανὸς ὑπάτων, 'which was also called διάτονος ὑπάτων in the diatonic genus'); Nicomachus, Ench. 11; Cleonides 2; Aristid. Quint. I.6; Ptol. Harm. II.5.",
+   "note": ""
+  },
+  {
+   "id": "T037",
+   "greek": "ὑπερβολαίων διάτονος (printed διάτονος ὑπερβολαίων)",
+   "forms_found": [
+    {
+     "form": "διάτονος ὑπερβολαίων",
+     "refs": [
+      "25.10"
+     ]
+    }
+   ],
+   "type": "note name",
+   "subtype": "14th (g′) = παρανήτη ὑπερβολαίων",
+   "ru": "диатона высших",
+   "ru_basis": "[Tsypin ✔ pattern]",
+   "en": "huperbolaiōn diatonos",
+   "en_basis": "[Barker] pattern",
+   "meaning": "Third note of the tetrachord huperbolaiōn in the diatonic; g′.",
+   "sources": "Sectio canonis 19-20 ✔ (ὑπάτων διάτονος, μέσων διάτονος, διεζευγμένων διάτονος, ὑπερβολαίων διάτονος); Gaudentius 6 ✔ (λιχανὸς ὑπάτων, 'which was also called διάτονος ὑπάτων in the diatonic genus'); Nicomachus, Ench. 11; Cleonides 2; Aristid. Quint. I.6; Ptol. Harm. II.5.",
+   "note": "Word order διάτονος + genitive, as in Tsypin's Aristides «диатона низших»."
+  },
+  {
+   "id": "T038",
+   "greek": "νήτη ὑπερβολαίων",
+   "forms_found": [
+    {
+     "form": "νήτη ὑπερβολαίων",
+     "refs": [
+      "25.10"
+     ]
+    }
+   ],
+   "type": "note name",
+   "subtype": "15th (a′)",
+   "ru": "нета высших",
+   "ru_basis": "[Tsypin ✔]",
+   "en": "nētē huperbolaiōn",
+   "en_basis": "[Barker]",
+   "meaning": "Highest note of the system; a′.",
+   "sources": "Sectio canonis 19-20 ✔ (ὑπάτων διάτονος, μέσων διάτονος, διεζευγμένων διάτονος, ὑπερβολαίων διάτονος); Gaudentius 6 ✔ (λιχανὸς ὑπάτων, 'which was also called διάτονος ὑπάτων in the diatonic genus'); Nicomachus, Ench. 11; Cleonides 2; Aristid. Quint. I.6; Ptol. Harm. II.5.",
+   "note": ""
+  },
+  {
+   "id": "T039",
+   "greek": "διάτονος (as a note name)",
+   "forms_found": [
+    {
+     "form": "διάτονος",
+     "refs": [
+      "25.6",
+      "25.8",
+      "25.10"
+     ]
+    }
+   ],
+   "type": "note name",
+   "subtype": "generic",
+   "ru": "диатона",
+   "ru_basis": "[Tsypin ✔] («диатоны низших», 2021)",
+   "en": "diatonos",
+   "en_basis": "[Barker]",
+   "meaning": "Name of the third note of a tetrachord (the lichanos / paranētē position) in the diatonic genus.",
+   "sources": "Sectio canonis 19-20 ✔ (ὑπάτων διάτονος, μέσων διάτονος, διεζευγμένων διάτονος, ὑπερβολαίων διάτονος); Gaudentius 6 ✔ (λιχανὸς ὑπάτων, 'which was also called διάτονος ὑπάτων in the diatonic genus'); Nicomachus, Ench. 11; Cleonides 2; Aristid. Quint. I.6; Ptol. Harm. II.5.",
+   "note": "As a note name RU «диатона»; as the name of the genus, «диатонический» (see διάτονον γένος). Not «диатон» (Novosibirsk)."
+  },
+  {
+   "id": "T040",
+   "greek": "ὑπάτων; μέσων; διεζευγμένων; ὑπερβολαίων (tetrachord designations in note names)",
+   "forms_found": [
+    {
+     "form": "ὑπάτων",
+     "refs": [
+      "25.5",
+      "25.6"
+     ]
+    },
+    {
+     "form": "μέσων",
+     "refs": [
+      "25.6",
+      "25.7"
+     ]
+    },
+    {
+     "form": "διεζευγμένη / διαζευγμένη / διεζευτμένη (nominatives) [sic]",
+     "refs": [
+      "25.8",
+      "25.9"
+     ]
+    },
+    {
+     "form": "ὑπερβολαίων",
+     "refs": [
+      "25.9",
+      "25.10"
+     ]
+    }
+   ],
+   "type": "system",
+   "subtype": "tetrachord names",
+   "ru": "низших; средних; отделённых; высших",
+   "ru_basis": "[Tsypin ✔]",
+   "en": "hupatōn; mesōn; diezeugmenōn; huperbolaiōn",
+   "en_basis": "[Barker]",
+   "meaning": "The four tetrachords of the fifteen-note system: lowest, middle, disjunct, highest. There is no tetrachord synēmmenōn in this text.",
+   "sources": "Sectio canonis 19-20 ✔ (ὑπάτων διάτονος, μέσων διάτονος, διεζευγμένων διάτονος, ὑπερβολαίων διάτονος); Gaudentius 6 ✔ (λιχανὸς ὑπάτων, 'which was also called διάτονος ὑπάτων in the diatonic genus'); Nicomachus, Ench. 11; Cleonides 2; Aristid. Quint. I.6; Ptol. Harm. II.5.",
+   "note": "The text never attaches these names to the word τετράχορδον. Do not add 'tetrachord' to the note names."
+  },
+  {
+   "id": "T041",
+   "greek": "τετράχορδον",
+   "forms_found": [
+    {
+     "form": "τετράχορδον",
+     "refs": [
+      "30.24"
+     ]
+    },
+    {
+     "form": "τετραχόρδου",
+     "refs": [
+      "32.23"
+     ]
+    }
+   ],
+   "type": "system",
+   "ru": "тетрахорд",
+   "ru_basis": "[Tsypin ✔]",
+   "en": "tetrachord",
+   "en_basis": "[Barker]",
+   "meaning": "The system of four notes whose outer notes form a fourth. It contains the δυνάμεις of the fourth (30.24-25). Its division defines the genera (32.2-32.20). 32.23: one tetrachord serves as the example for all systems.",
+   "sources": "Theon 48.11 ✔; 54.6-12 ✔.",
+   "note": "32.23 B prints τὸ τετραχόρδου; B^mg corrects it to τοῦ."
+  },
+  {
+   "id": "T042",
+   "greek": "πεντάχορδον",
+   "forms_found": [
+    {
+     "form": "πεντάχορδον",
+     "refs": [
+      "30.25"
+     ]
+    }
+   ],
+   "type": "system",
+   "ru": "пентахорд",
+   "ru_basis": "[Shchetnikov ✔] (Theon transl.: «тетрахорд, пентахорд, октахорд»)",
+   "en": "pentachord",
+   "en_basis": "[proposal] (standard)",
+   "meaning": "The system of five notes spanning a fifth (31.1: τὰς τοῦ † πέντε δυνάμεις; B^mg διὰ πέντε).",
+   "sources": "Theon 48.11 ✔.",
+   "note": ""
+  },
+  {
+   "id": "T043",
+   "greek": "ὀκτάχορδον",
+   "forms_found": [
+    {
+     "form": "ὀκταχόρδου",
+     "refs": [
+      "25.13"
+     ]
+    },
+    {
+     "form": "ὀκταχόρδῳ",
+     "refs": [
+      "28.3"
+     ]
+    },
+    {
+     "form": "ὀκτάχορδον",
+     "refs": [
+      "31.2"
+     ]
+    }
+   ],
+   "type": "system",
+   "ru": "октахорд",
+   "ru_basis": "[Shchetnikov ✔]",
+   "en": "octachord",
+   "en_basis": "[Barker]",
+   "meaning": "The eight-note system spanning the octave. In 25.12-14 its end is taken as the beginning of the next. 28.2-4: the name διὰ πασῶν is explained by the octachord. 31.2-3: it contains the matter (B^mg: the whole) of the octave.",
+   "sources": "Theon 51.11-15 ✔ (Adrastus: the octave named from the eight-stringed lyre, hupatē to nētē).",
+   "note": "31.2: B ὕλην, B^mg ὅλην (see ὕλη)."
+  },
+  {
+   "id": "T044",
+   "greek": "πεντεκαιδεκάχορδον; ἑκκαιδεκάχορδον",
+   "forms_found": [
+    {
+     "form": "πεντεκαιδεκαχόρδῳ",
+     "refs": [
+      "25.11"
+     ]
+    },
+    {
+     "form": "ἑκκαιδεκάχορδον",
+     "refs": [
+      "25.12",
+      "31.4"
+     ]
+    }
+   ],
+   "type": "system",
+   "subtype": "= the two-octave (Greater Perfect) system",
+   "ru": "пятнадцатиструнник; шестнадцатиструнник",
+   "ru_basis": "[proposal]; alternative «пятнадцатиструнная / шестнадцатиструнная система». Shchetnikov's Theon: «пятнадцатиструнный лад» ✔",
+   "en": "fifteen-string [system]; sixteen-string [system]",
+   "en_basis": "[proposal]",
+   "meaning": "The double octave on fifteen notes. 25.11-12 speaks of 'the sixteen-string within the fifteen-string': two octachords (8 + 8 = 16 positions) share the eighth note (mesē), so sixteen positions lie on fifteen strings. 31.3-9: the sixteen-string 'in continuity' holds the whole compass of the double octave and doubles the δυνάμεις.",
+   "sources": "Theon 64.5-6 ✔ (οἱ δὲ νεώτεροι τὸ πεντεκαιδεκάχορδον …).",
+   "note": "Keep '-string' (-χορδον) in the rendering. Do not write «Большая совершенная система» in the translation; that name belongs in a note."
+  },
+  {
+   "id": "T045",
+   "greek": "κατὰ συνέχειαν",
+   "forms_found": [
+    {
+     "form": "κατὰ συνέχειαν",
+     "refs": [
+      "25.14",
+      "31.3"
+     ]
+    }
+   ],
+   "type": "system",
+   "ru": "в непрерывной последовательности",
+   "ru_basis": "[proposal]",
+   "en": "in continuous succession",
+   "en_basis": "[proposal]",
+   "meaning": "The second octachord follows the first without a gap, sharing its boundary note (25.12-14; 31.3-4).",
+   "sources": "Contrast Theon 48.20-21 ✔, where σύμφωνα κατὰ συνέχειαν (tone, diesis) means something else.",
+   "note": "Not 'conjunct' («соединённый»), which is the technical συνημμένον. 23.3 συνέχειν (music 'holds together' the universe) is a different word."
+  },
+  {
+   "id": "T046",
+   "greek": "διάτασις",
+   "forms_found": [
+    {
+     "form": "διάτασιν",
+     "refs": [
+      "31.5"
+     ]
+    }
+   ],
+   "type": "system",
+   "ru": "протяжённость",
+   "ru_basis": "[proposal]",
+   "en": "extent",
+   "en_basis": "[proposal]",
+   "meaning": "The whole compass of the double octave, held by the sixteen-string system.",
+   "sources": "—",
+   "note": "Keep apart from διάστασις and διάστημα."
+  },
+  {
+   "id": "T047",
+   "greek": "δίεσις",
+   "forms_found": [
+    {
+     "form": "δίεσις",
+     "refs": [
+      "25.19",
+      "29.1"
+     ]
+    },
+    {
+     "form": "διέσεως",
+     "refs": [
+      "25.21",
+      "29.5"
+     ]
+    },
+    {
+     "form": "δίεσιν",
+     "refs": [
+      "25.25",
+      "26.7",
+      "27.5"
+     ]
+    },
+    {
+     "form": "διέσεων",
+     "refs": [
+      "27.11",
+      "32.2"
+     ]
+    },
+    {
+     "form": "διέσεσι",
+     "refs": [
+      "31.22"
+     ]
+    },
+    {
+     "form": "διέσεις",
+     "refs": [
+      "32.15"
+     ]
+    }
+   ],
+   "type": "interval",
+   "ru": "диеса",
+   "ru_basis": "[Tsypin ✔]",
+   "en": "diesis",
+   "en_basis": "[Barker]",
+   "meaning": "The smallest interval, half of the semitone (25.19-21), i.e. the Aristoxenian enharmonic quarter-tone. In the 'harmonic' (enharmonic) genus the tetrachord runs diesis + diesis + ditone (32.15-18).",
+   "sources": "Theon 55.9-15 ✔ (the Aristoxenians call the quarter-tone δίεσις; the Pythagoreans called δίεσις what is now called ἡμιτόνιον); Aristox. El. harm. passim.",
+   "note": "Checks (for notes, not for the translation). 25.25 B: 'ὅσον ὀκτωτέταρτον' (eight and a quarter, i.e. 33:32 ≈ 53 cents). With B^mg (τοῦ ἐννέα πρὸς) it is 'a quarter of 9:8' ≈ 51 cents. Never «диез»."
+  },
+  {
+   "id": "T048",
+   "greek": "ἡμιτόνιον",
+   "forms_found": [
+    {
+     "form": "ἡμιτόνιον",
+     "refs": [
+      "25.20",
+      "25.22",
+      "25.24",
+      "26.5",
+      "27.4",
+      "28.25",
+      "32.6"
+     ]
+    },
+    {
+     "form": "ἡμιτονίου",
+     "refs": [
+      "29.4",
+      "29.6",
+      "29.8",
+      "29.10",
+      "32.8"
+     ]
+    },
+    {
+     "form": "ἡμιτονίων",
+     "refs": [
+      "27.11",
+      "31.21",
+      "32.1",
+      "32.12"
+     ]
+    },
+    {
+     "form": "ἡμιτονίῳ",
+     "refs": [
+      "32.4"
+     ]
+    },
+    {
+     "form": "ἡμιτόνια",
+     "refs": [
+      "32.9"
+     ]
+    }
+   ],
+   "type": "interval",
+   "ru": "полутон",
+   "ru_basis": "[Tsypin ✔]",
+   "en": "semitone",
+   "en_basis": "[Barker]",
+   "meaning": "Half of the tone, double the diesis (25.20-24). The author maintains that the 9:8 tone CAN be halved geometrically (25.24-27.5, the 'ἡμιεπόγδοον'). Diatonic tetrachord: semitone + tone + tone; chromatic: semitone + semitone + incomposite trihemitone (31.18-32.15).",
+   "sources": "Against Theon 53.8-16 ✔ (the semitone is not half the tone, 'as Aristoxenus thinks'; the epogdoic tone cannot be divided into two equal parts) and Sectio canonis 16 ✔ (ὁ τόνος οὐ διαιρεθήσεται εἰς δύο ἴσα).",
+   "note": "Checks: 25.24 B 'ὀκτὼ ἥμισυ' (8½ : 8 = 17:16 ≈ 105 cents); with B^mg 'half of 9:8' ≈ 102 cents; the Pythagorean λεῖμμα 256:243 ≈ 90 cents is not named in the text. The translation keeps 'semitone' and does not use «лимма»."
+  },
+  {
+   "id": "T049",
+   "greek": "τόνος",
+   "forms_found": [
+    {
+     "form": "τόνος",
+     "refs": [
+      "25.21",
+      "28.25"
+     ]
+    },
+    {
+     "form": "τόνου",
+     "refs": [
+      "27.4"
+     ]
+    },
+    {
+     "form": "τόνων",
+     "refs": [
+      "27.12",
+      "29.4",
+      "31.19",
+      "31.25",
+      "32.9"
+     ]
+    },
+    {
+     "form": "τόνοις",
+     "refs": [
+      "32.4"
+     ]
+    }
+   ],
+   "type": "interval",
+   "ru": "тон",
+   "ru_basis": "[Tsypin ✔]",
+   "en": "tone",
+   "en_basis": "[Barker]",
+   "meaning": "The interval of 9:8 (epogdoic, 25.21-24), double the semitone. Always the interval in this text, never the tonos (key).",
+   "sources": "Theon 53.1-8 ✔ (the tonal interval as the measure, the difference of fifth and fourth); Sectio canonis 13-16.",
+   "note": "27.12 'διαφόρων τόνων' and 29.4-29.11 (counts of tones in the consonances) are the same sense. Not «тон-звукоряд» (Tsypin's term for the tonos)."
+  },
+  {
+   "id": "T050",
+   "greek": "τονιαῖος",
+   "forms_found": [
+    {
+     "form": "τονιαίων",
+     "refs": [
+      "32.5"
+     ]
+    }
+   ],
+   "type": "interval",
+   "ru": "тоновый (интервал)",
+   "ru_basis": "[Shchetnikov ✔] («тоновый интервал»)",
+   "en": "of a tone (tone-sized)",
+   "en_basis": "[proposal]",
+   "meaning": "'Intervals of a tone': two of them plus a semitone make up the diatonic fourth (32.4-6).",
+   "sources": "Theon 53.3 ✔ (τὸ καλούμενον τονιαῖον διάστημα); Aristoxenus.",
+   "note": ""
+  },
+  {
+   "id": "T051",
+   "greek": "τριδίεσις",
+   "forms_found": [
+    {
+     "form": "τριδίεσις",
+     "refs": [
+      "27.6"
+     ]
+    }
+   ],
+   "type": "interval",
+   "ru": "тридиеса",
+   "ru_basis": "[proposal]",
+   "en": "tridiesis",
+   "en_basis": "[proposal]",
+   "meaning": "Three dieses = three quarter-tones; listed as an incomposite interval produced by 'increase'.",
+   "sources": "Not in LSJ (Logeion checked). Cf. the ¾-tone pyknon of Aristoxenus' hemiolic chromatic [~, not checked].",
+   "note": "Formed like τριημιτόνιον (Tsypin's «триполутон»)."
+  },
+  {
+   "id": "T052",
+   "greek": "τριημιτόνιον",
+   "forms_found": [
+    {
+     "form": "τριημιτόνιον",
+     "refs": [
+      "27.7",
+      "32.11"
+     ]
+    },
+    {
+     "form": "τριημιτονίου",
+     "refs": [
+      "32.12"
+     ]
+    }
+   ],
+   "type": "interval",
+   "ru": "триполутон",
+   "ru_basis": "[Tsypin ✔] (2021: «дитона, триполутона»)",
+   "en": "trihemitone",
+   "en_basis": "[Barker]",
+   "meaning": "An interval of three semitones; in the chromatic genus the incomposite remainder of the fourth (32.9-13).",
+   "sources": "Theon 54.22-55.4 ✔ (τὸ τριημιτονιαῖον ἀσύνθετον).",
+   "note": "32.11-13 is phrased oddly ('an incomposite trihemitone blended of two semitones and a trihemitone'): a textual point for the doubts, not a terminological one."
+  },
+  {
+   "id": "T053",
+   "greek": "διτόνιον",
+   "forms_found": [
+    {
+     "form": "διτόνιόν",
+     "refs": [
+      "27.7"
+     ]
+    },
+    {
+     "form": "διτόνιον",
+     "refs": [
+      "32.17"
+     ]
+    }
+   ],
+   "type": "interval",
+   "ru": "дитон",
+   "ru_basis": "[Tsypin ✔] («несоставной дитон»)",
+   "en": "ditone",
+   "en_basis": "[Barker]",
+   "meaning": "Two tones; in the 'harmonic' (enharmonic) genus the incomposite interval above the two dieses (32.15-18).",
+   "sources": "Theon 55.8-11 ✔ (δίεσιν καὶ δίεσιν καὶ δίτονον).",
+   "note": "The text's form is διτόνιον (Theon δίτονον)."
+  },
+  {
+   "id": "T054",
+   "greek": "τριτόνιον",
+   "forms_found": [
+    {
+     "form": "τριτόνιον",
+     "refs": [
+      "27.7"
+     ]
+    }
+   ],
+   "type": "interval",
+   "ru": "тритон",
+   "ru_basis": "[Tsypin ✔]",
+   "en": "tritone",
+   "en_basis": "[Barker]",
+   "meaning": "Three tones, listed among the incomposite intervals.",
+   "sources": "Gaudentius 8 ✔ (the interval of three tones is 'paraphonic' there).",
+   "note": ""
+  },
+  {
+   "id": "T055",
+   "greek": "ἀσύνθετον διάστημα",
+   "forms_found": [
+    {
+     "form": "ἀσύνθετα",
+     "refs": [
+      "27.6",
+      "27.17"
+     ]
+    },
+    {
+     "form": "Ασύνθετα [sic, no breathing]",
+     "refs": [
+      "27.9"
+     ]
+    },
+    {
+     "form": "ἀσύνθετον",
+     "refs": [
+      "32.11"
+     ]
+    }
+   ],
+   "type": "interval",
+   "ru": "несоставной интервал",
+   "ru_basis": "[Tsypin ✔]",
+   "en": "incomposite interval",
+   "en_basis": "[Barker]",
+   "meaning": "In this text: an interval equal in size to several smaller ones (three dieses, three semitones, several tones) but sounded ὡς ἓν ἐκ συμφθάρσεως, as one melodic step (27.9-14). Opposed to the consonances, which 'pass through' intermediate notes (27.14-21).",
+   "sources": "Theon 54.23 ✔ (τριημιτονιαῖον ἀσύνθετον); Aristoxenian definition: an interval between notes adjacent in the scale (Aristox. El. harm.; Cleonides 5).",
+   "note": "Do not translate as 'simple'. Tsypin's early form «не сложенный» (2017) is superseded by «несоставной»."
+  },
+  {
+   "id": "T056",
+   "greek": "ἄμεσος",
+   "forms_found": [
+    {
+     "form": "ἄμεσα",
+     "refs": [
+      "27.16"
+     ]
+    }
+   ],
+   "type": "interval",
+   "ru": "без промежуточных [звуков]",
+   "ru_basis": "[proposal]",
+   "en": "without intermediate [notes]",
+   "en_basis": "[proposal]",
+   "meaning": "'Without a middle': the consonances are not ἄμεσα but proceed 'through the middle' (διὰ μέσων) of the intervals named (27.16-18).",
+   "sources": "—",
+   "note": "A wordplay (ἄμεσα / διὰ μέσων); render both so that the link survives (e.g. RU «без промежуточных … через промежуточные»)."
+  },
+  {
+   "id": "T057",
+   "greek": "ἐκ συμφθάρσεως (σύμφθαρσις); συγκεκραμένον",
+   "forms_found": [
+    {
+     "form": "ἐκ συμφθάρσεως",
+     "refs": [
+      "27.10",
+      "32.10",
+      "32.17"
+     ]
+    },
+    {
+     "form": "συγκεκραμένον",
+     "refs": [
+      "32.12"
+     ]
+    }
+   ],
+   "type": "interval",
+   "subtype": "technical (from the theory of mixture)",
+   "ru": "через слияние; слитый (смешанный)",
+   "ru_basis": "[proposal]",
+   "en": "by fusion; blended",
+   "en_basis": "[proposal]",
+   "meaning": "Of an incomposite interval made 'one by fusion' of several smaller ones, which lose their separateness; also 32.12-13 (an interval 'blended' of semitones).",
+   "sources": "LSJ s.v. σύμφθαρσις ✔: 'simultaneous destruction' (of the components of a mixture, another body coming into being), Alex. Aphr. Mixt. 216.24; 'melting into one another', Hermog. Id. 1.12; cf. Iambl. in Nic. p. 80 Pistelli. This is Stoic mixture vocabulary (σύγχυσις, κρᾶσις).",
+   "note": "PLAN.md: another witness reads «ἐξυφθάρσεως» = ἐκ συμφθάρσεως. Not «разрушение»/'destruction' in the translation; the sense here is fusion."
+  },
+  {
+   "id": "T058",
+   "greek": "δύναμις",
+   "forms_found": [
+    {
+     "form": "δύναμιν",
+     "refs": [
+      "27.12"
+     ]
+    },
+    {
+     "form": "δυνάμεις",
+     "refs": [
+      "30.25",
+      "31.1",
+      "31.6"
+     ]
+    }
+   ],
+   "type": "interval",
+   "subtype": "NOT the Ptolemaic 'function'",
+   "ru": "значение (pl. значения)",
+   "ru_basis": "[proposal]; alternative «возможности»",
+   "en": "value (pl. values)",
+   "en_basis": "[proposal]; alternative 'potentialities'",
+   "meaning": "27.12: said of an incomposite interval that equals several intervals in size but sounds as one. 30.25-31.6: the tetrachord contains all the δυνάμεις of the fourth, the pentachord those of the fifth; the sixteen-string system has them double. These are the interval-contents (and note-positions) that the span comprises.",
+   "sources": "Cf. the bracketed appendix at the end of Cleonides' Isagoge in Jan ✔ (a diagram is a plane figure 'containing the δυνάμεις of what is sung'; δύναμις = the position of a note in a system); δύναμις as note-function: Ptol. Harm. II.5 (κατὰ δύναμιν).",
+   "note": "Tsypin renders κατὰ δύναμιν «по функции» [Tsypin, about.md]; do not use «функция»/'function' here unless the translator argues for it in doubts."
+  },
+  {
+   "id": "T059",
+   "greek": "παραύξησις; παραυξάνω",
+   "forms_found": [
+    {
+     "form": "παραύξησιν",
+     "refs": [
+      "25.21"
+     ]
+    },
+    {
+     "form": "παραυξῆσαι",
+     "refs": [
+      "26.10"
+     ]
+    },
+    {
+     "form": "παραυξήσει",
+     "refs": [
+      "27.5"
+     ]
+    }
+   ],
+   "type": "interval",
+   "subtype": "general",
+   "ru": "приращение; увеличивать",
+   "ru_basis": "[proposal]",
+   "en": "increase; to increase",
+   "en_basis": "[proposal]",
+   "meaning": "25.20-21: the semitone has a 'double increase' of the diesis towards the high. 27.5-6: other incomposite intervals arise 'by increase' of these. 26.10: geometry can increase any figure.",
+   "sources": "—",
+   "note": ""
+  },
+  {
+   "id": "T060",
+   "greek": "λόγος",
+   "forms_found": [
+    {
+     "form": "λόγον",
+     "refs": [
+      "25.14",
+      "25.23",
+      "26.4",
+      "30.3"
+     ]
+    },
+    {
+     "form": "λόγος",
+     "refs": [
+      "27.4"
+     ]
+    },
+    {
+     "form": "Λόγος",
+     "refs": [
+      "29.11"
+     ]
+    },
+    {
+     "form": "λόγοι",
+     "refs": [
+      "29.25",
+      "30.16"
+     ]
+    },
+    {
+     "form": "λόγων",
+     "refs": [
+      "30.15"
+     ]
+    },
+    {
+     "form": "λόγοις",
+     "refs": [
+      "28.17"
+     ]
+    },
+    {
+     "form": "λόγῳ (not 'ratio')",
+     "refs": [
+      "27.19"
+     ]
+    }
+   ],
+   "type": "ratio",
+   "ru": "отношение",
+   "ru_basis": "standard; [Shchetnikov ✔]",
+   "en": "ratio",
+   "en_basis": "[Barker]",
+   "meaning": "Numerical ratio of two notes. 25.14-17: the 1st note is to the 8th as the 8th to the 15th. 29.11-30.16: ratios of the consonances, which are judged by pitch, not by the number of notes.",
+   "sources": "Theon 56.9-57.10 ✔.",
+   "note": "27.19 τῷ μὲν λόγῳ is not 'ratio' ('on account of / by reason of'). Not «пропорция», which is reserved for ἀναλογία."
+  },
+  {
+   "id": "T061",
+   "greek": "ὅρος",
+   "forms_found": [
+    {
+     "form": "ὅρος",
+     "refs": [
+      "29.17"
+     ]
+    }
+   ],
+   "type": "ratio",
+   "ru": "член (отношения)",
+   "ru_basis": "[Shchetnikov ✔] («член»)",
+   "en": "term",
+   "en_basis": "[Barker]",
+   "meaning": "The first term of the series of numbers used as an example (6).",
+   "sources": "Nicomachus, Arithm. passim.",
+   "note": ""
+  },
+  {
+   "id": "T062",
+   "greek": "ὑπεροχή",
+   "forms_found": [
+    {
+     "form": "ὑπεροχὴν",
+     "refs": [
+      "30.4"
+     ]
+    }
+   ],
+   "type": "ratio",
+   "ru": "превышение",
+   "ru_basis": "[proposal]",
+   "en": "excess",
+   "en_basis": "[proposal]",
+   "meaning": "The excess of one count of notes over another. The author denies that the fifth's 3:2 depends on the count of notes (30.2-11).",
+   "sources": "—",
+   "note": ""
+  },
+  {
+   "id": "T063",
+   "greek": "ἐπόγδοος",
+   "forms_found": [
+    {
+     "form": "ἐπόγδοον",
+     "refs": [
+      "25.22",
+      "26.3"
+     ]
+    },
+    {
+     "form": "ἐπόγδοος",
+     "refs": [
+      "27.3"
+     ]
+    }
+   ],
+   "type": "ratio",
+   "ru": "сверхвосьмерное (9:8)",
+   "ru_basis": "[Shchetnikov ✔] («сверхвосьмерное»); alternative «эпогдоон» (Aleksandrova–Myakin)",
+   "en": "epogdoic (9:8)",
+   "en_basis": "[Barker]",
+   "meaning": "9:8, the ratio of the tone (25.22-24, with the numbers 9 and 8).",
+   "sources": "Theon 56.9-57.10 ✔ (Pythagoras' ratios of the consonances; the octave and fourth 8:3 is πολλαπλασιεπιμερής); Nicomachus, Arithm. I.18-23 (classes of ratio); Ptol. Harm. I.5-7.",
+   "note": ""
+  },
+  {
+   "id": "T064",
+   "greek": "ἡμιεπόγδοος",
+   "forms_found": [
+    {
+     "form": "ἡμιεπόγδοον",
+     "refs": [
+      "26.5"
+     ]
+    }
+   ],
+   "type": "ratio",
+   "ru": "полусверхвосьмерное",
+   "ru_basis": "[proposal]",
+   "en": "half-epogdoic",
+   "en_basis": "[proposal]",
+   "meaning": "Half of the 9:8 ratio (geometric mean, √(9/8) ≈ 102 cents), said to be the semitone, obtainable by cutting the string geometrically.",
+   "sources": "Not in LSJ (Logeion checked): a rare word or a coinage. Contrary doctrine: Theon 53.13-16 ✔; Sectio canonis 16 ✔.",
+   "note": ""
+  },
+  {
+   "id": "T065",
+   "greek": "ἐπίτριτος",
+   "forms_found": [
+    {
+     "form": "ἐπίτριτος",
+     "refs": [
+      "29.12",
+      "29.18"
+     ]
+    }
+   ],
+   "type": "ratio",
+   "ru": "сверхтретье (4:3)",
+   "ru_basis": "[Shchetnikov ✔]; alternative «эпитрит»",
+   "en": "epitritic (4:3)",
+   "en_basis": "[Barker]",
+   "meaning": "4:3, the ratio of the fourth; example 8:6 (29.18-19).",
+   "sources": "Theon 56.9-57.10 ✔ (Pythagoras' ratios of the consonances; the octave and fourth 8:3 is πολλαπλασιεπιμερής); Nicomachus, Arithm. I.18-23 (classes of ratio); Ptol. Harm. I.5-7.",
+   "note": ""
+  },
+  {
+   "id": "T066",
+   "greek": "ἡμιόλιος",
+   "forms_found": [
+    {
+     "form": "ἡμιόλιος",
+     "refs": [
+      "29.12",
+      "29.19",
+      "30.6",
+      "30.11",
+      "30.13"
+     ]
+    },
+    {
+     "form": "ἡμιόλιον",
+     "refs": [
+      "30.3"
+     ]
+    }
+   ],
+   "type": "ratio",
+   "ru": "полуторное (3:2)",
+   "ru_basis": "[Shchetnikov ✔]; also Aleksandrova–Myakin",
+   "en": "hemiolic (3:2)",
+   "en_basis": "[Barker]",
+   "meaning": "3:2, the ratio of the fifth; example 9:6 (29.19). 30.2-14: the fifth is hemiolic in pitch, although as the fifth note it stands to the first, second, third and fourth notes as 5:1, 5:2, 5:3, 5:4.",
+   "sources": "Theon 56.9-57.10 ✔ (Pythagoras' ratios of the consonances; the octave and fourth 8:3 is πολλαπλασιεπιμερής); Nicomachus, Arithm. I.18-23 (classes of ratio); Ptol. Harm. I.5-7.",
+   "note": ""
+  },
+  {
+   "id": "T067",
+   "greek": "διπλάσιος",
+   "forms_found": [
+    {
+     "form": "διπλάσιος",
+     "refs": [
+      "29.13",
+      "29.19"
+     ]
+    }
+   ],
+   "type": "ratio",
+   "ru": "двукратное (2:1)",
+   "ru_basis": "[Shchetnikov ✔]",
+   "en": "duple (2:1)",
+   "en_basis": "[Barker]",
+   "meaning": "2:1, the octave; example 12:6.",
+   "sources": "Theon 56.9-57.10 ✔ (Pythagoras' ratios of the consonances; the octave and fourth 8:3 is πολλαπλασιεπιμερής); Nicomachus, Arithm. I.18-23 (classes of ratio); Ptol. Harm. I.5-7.",
+   "note": "διπλασιάζω (26.15, 26.19, 27.2: doubling the square) and διπλᾶς (31.6: 'double' δυνάμεις) are ordinary 'double'."
+  },
+  {
+   "id": "T068",
+   "greek": "διπλασιεπιμερής",
+   "forms_found": [
+    {
+     "form": "διπλασιεπιμερὴς",
+     "refs": [
+      "29.14",
+      "29.20"
+     ]
+    }
+   ],
+   "type": "ratio",
+   "ru": "двукратное-и-сверхмногочастное",
+   "ru_basis": "formed on [Shchetnikov ✔] «многократно-и-сверхмногочастное» [proposal]",
+   "en": "duple-epimeric",
+   "en_basis": "[proposal] on Barker's 'epimeric', 'multiple-epimeric'",
+   "meaning": "The class of ratios 'twice and some parts': here 8:3 (octave and a fourth), example 16:6 = twice 6 plus two parts (thirds) of 6 (29.20-21).",
+   "sources": "Theon 56.9-57.10 ✔ (Pythagoras' ratios of the consonances; the octave and fourth 8:3 is πολλαπλασιεπιμερής); Nicomachus, Arithm. I.18-23 (classes of ratio); Ptol. Harm. I.5-7.",
+   "note": "Check: 16:6 = 8:3 = 2⅔. Strictly διπλασιεπιδιμερής; the text uses the class name, and the translation should keep it."
+  },
+  {
+   "id": "T069",
+   "greek": "τριπλάσιος",
+   "forms_found": [
+    {
+     "form": "τριπλάσιος",
+     "refs": [
+      "29.16",
+      "29.22"
+     ]
+    }
+   ],
+   "type": "ratio",
+   "ru": "трёхкратное (3:1)",
+   "ru_basis": "[Shchetnikov ✔]",
+   "en": "triple (3:1)",
+   "en_basis": "[Barker]",
+   "meaning": "3:1, octave and a fifth; example 18:6.",
+   "sources": "Theon 56.9-57.10 ✔ (Pythagoras' ratios of the consonances; the octave and fourth 8:3 is πολλαπλασιεπιμερής); Nicomachus, Arithm. I.18-23 (classes of ratio); Ptol. Harm. I.5-7.",
+   "note": ""
+  },
+  {
+   "id": "T070",
+   "greek": "τετραπλάσιος",
+   "forms_found": [
+    {
+     "form": "τετραπλάσιος",
+     "refs": [
+      "29.22"
+     ]
+    }
+   ],
+   "type": "ratio",
+   "ru": "четырёхкратное (4:1)",
+   "ru_basis": "[Shchetnikov ✔]",
+   "en": "quadruple (4:1)",
+   "en_basis": "[Barker]",
+   "meaning": "4:1, the double octave; example 24:6 (29.22-23).",
+   "sources": "Theon 56.9-57.10 ✔ (Pythagoras' ratios of the consonances; the octave and fourth 8:3 is πολλαπλασιεπιμερής); Nicomachus, Arithm. I.18-23 (classes of ratio); Ptol. Harm. I.5-7.",
+   "note": "The text gives the ratio but not the name of the interval (the double octave)."
+  },
+  {
+   "id": "T071",
+   "greek": "πενταπλασίων",
+   "forms_found": [
+    {
+     "form": "πενταπλασίων",
+     "refs": [
+      "30.7"
+     ]
+    }
+   ],
+   "type": "ratio",
+   "ru": "пятикратное (5:1)",
+   "ru_basis": "[Shchetnikov ✔]",
+   "en": "quintuple (5:1)",
+   "en_basis": "[proposal]",
+   "meaning": "The fifth note to the first counted as 5:1, to show that ratios do not follow the count of notes.",
+   "sources": "Nicomachus, Arithm. I.18 (multiples).",
+   "note": "Form as printed (-ίων), an attested variant of πενταπλάσιος."
+  },
+  {
+   "id": "T072",
+   "greek": "διπλασιημιόλιος",
+   "forms_found": [
+    {
+     "form": "διπλασιημιόλιος",
+     "refs": [
+      "30.8"
+     ]
+    }
+   ],
+   "type": "ratio",
+   "ru": "двукратное-и-половинное (5:2)",
+   "ru_basis": "[Shchetnikov ✔]",
+   "en": "duple-hemiolic (5:2)",
+   "en_basis": "[proposal]",
+   "meaning": "5:2 (the fifth note to the second).",
+   "sources": "Nicomachus, Arithm. I.22 (multiple-superparticular).",
+   "note": ""
+  },
+  {
+   "id": "T073",
+   "greek": "ἐπιδιμερής",
+   "forms_found": [
+    {
+     "form": "ἐπιδιμερὴς",
+     "refs": [
+      "30.9"
+     ]
+    }
+   ],
+   "type": "ratio",
+   "ru": "сверхдвухчастное (5:3)",
+   "ru_basis": "[Shchetnikov ✔]",
+   "en": "epidimeric (5:3)",
+   "en_basis": "[proposal]",
+   "meaning": "5:3 (the fifth note to the third).",
+   "sources": "Nicomachus, Arithm. I.20 (superpartient).",
+   "note": ""
+  },
+  {
+   "id": "T074",
+   "greek": "ἐπιτέταρτος",
+   "forms_found": [
+    {
+     "form": "ἐπιτέταρτος",
+     "refs": [
+      "30.10"
+     ]
+    }
+   ],
+   "type": "ratio",
+   "ru": "сверхчетвертное (5:4)",
+   "ru_basis": "[Shchetnikov ✔]",
+   "en": "epitetartic (5:4)",
+   "en_basis": "[proposal]",
+   "meaning": "5:4 (the fifth note to the fourth).",
+   "sources": "Nicomachus, Arithm. I.19 (superparticular).",
+   "note": ""
+  },
+  {
+   "id": "T075",
+   "greek": "διὰ τεσσάρων",
+   "forms_found": [
+    {
+     "form": "διὰ τεσσάρων",
+     "refs": [
+      "27.15",
+      "27.23",
+      "28.9",
+      "29.3",
+      "29.11",
+      "30.24",
+      "32.3",
+      "32.7",
+      "32.13",
+      "32.24"
+     ]
+    },
+    {
+     "form": "διὰ τεσσάρων φθόγγων (etymology)",
+     "refs": [
+      "27.23"
+     ]
+    },
+    {
+     "form": "διατεσσάρων [sic, one word]",
+     "refs": [
+      "32.18"
+     ]
+    }
+   ],
+   "type": "consonance",
+   "ru": "кварта",
+   "ru_basis": "[Tsypin ✔]; literal «„через четыре“» in 27.21-28.6",
+   "en": "fourth",
+   "en_basis": "[Barker]; literal \"'through four'\" in 27.21-28.6",
+   "meaning": "The fourth, 4:3 (29.11-12). It is 'paraphonic' (28.8-10). 29.3-6: two tones + a semitone + a small nameless remainder, smaller than a diesis. The tetrachord holds its δυνάμεις; its division by three intervals defines the genera (32.2-20).",
+   "sources": "Theon 51.4-52.9 ✔ (Adrastus: names from the order of the notes and from the eight-stringed lyre; compound concords); Thrasyllus in Theon 48.16-49.5 ✔. Sectio canonis 15 ✔ (the fourth is LESS than two tones and a semitone).",
+   "note": "Check: 2 tones + a true half-tone = 509.8 cents > 4:3 = 498.0 cents; with the leimma, exactly 4:3. The 'little more' contradicts the Sectio canonis; this is a doctrinal note, not a correction. The fifth (3½ tones) and the octave (6 tones) are given without any remainder (29.6-7). 32.18: B sets διατεσσάρων as one word without an accent."
+  },
+  {
+   "id": "T076",
+   "greek": "διὰ πέντε",
+   "forms_found": [
+    {
+     "form": "διὰ πέντε",
+     "refs": [
+      "27.15",
+      "27.25",
+      "28.9",
+      "29.6",
+      "29.12",
+      "30.3"
+     ]
+    },
+    {
+     "form": "ὡς διὰ πέντε (etymology)",
+     "refs": [
+      "27.25"
+     ]
+    },
+    {
+     "form": "τοῦ † πέντε [B^mg διὰ πέντε]",
+     "refs": [
+      "31.1"
+     ]
+    }
+   ],
+   "type": "consonance",
+   "ru": "квинта",
+   "ru_basis": "[Tsypin ✔]; literal «„через пять“» in 27.25",
+   "en": "fifth",
+   "en_basis": "[Barker]; literal \"'through five'\"",
+   "meaning": "The fifth, 3:2, 'three [tones] and a semitone' (29.6). It is paraphonic (28.9-10). 30.2-14: hemiolic by pitch, not by the count of notes.",
+   "sources": "Theon 51.4-52.9 ✔ (Adrastus: names from the order of the notes and from the eight-stringed lyre; compound concords); Thrasyllus in Theon 48.16-49.5 ✔.",
+   "note": ""
+  },
+  {
+   "id": "T077",
+   "greek": "διὰ πασῶν; δι’ ὀκτώ",
+   "forms_found": [
+    {
+     "form": "διὰ πασῶν",
+     "refs": [
+      "27.16",
+      "28.1",
+      "28.2",
+      "28.10",
+      "29.7",
+      "29.13",
+      "31.3"
+     ]
+    },
+    {
+     "form": "δι’ ὀκτὼ (etymology)",
+     "refs": [
+      "28.1",
+      "28.2"
+     ]
+    },
+    {
+     "form": "διὰ πασῶν (first member of the compounds)",
+     "refs": [
+      "29.7",
+      "29.9",
+      "29.14",
+      "29.15"
+     ]
+    }
+   ],
+   "type": "consonance",
+   "ru": "октава",
+   "ru_basis": "[Tsypin ✔]; literal «„через все“» (and «через восемь» for δι’ ὀκτώ) in 28.1-6",
+   "en": "octave",
+   "en_basis": "[Barker]; literal \"'through all'\" / \"'through eight'\"",
+   "meaning": "The octave, 2:1, six tones (29.7). It is antiphonic (28.10). 28.1-6 explains the name through the octachord.",
+   "sources": "Theon 51.4-52.9 ✔ (Adrastus: names from the order of the notes and from the eight-stringed lyre; compound concords); Thrasyllus in Theon 48.16-49.5 ✔. Ps.-Aristotle, Problems XIX.16, 17, 39 (ἀντίφωνον = octave).",
+   "note": "Six tones exceed 2:1 by the Pythagorean comma (Sectio canonis 14 ✔: the octave is less than six tones); the text ignores this."
+  },
+  {
+   "id": "T078",
+   "greek": "δὶς διὰ τεσσάρων",
+   "forms_found": [
+    {
+     "form": "Δὶς … διὰ τεσσάρων",
+     "refs": [
+      "28.6"
+     ]
+    },
+    {
+     "form": "δὶς διὰ τεσσάρων",
+     "refs": [
+      "28.11",
+      "31.8"
+     ]
+    },
+    {
+     "form": "(διὰ πασῶν καὶ) δὶς διὰ τεσσάρων [B^mg: δίς to be deleted]",
+     "refs": [
+      "29.8"
+     ]
+    }
+   ],
+   "type": "consonance",
+   "ru": "двойная кварта",
+   "ru_basis": "[proposal]",
+   "en": "double fourth",
+   "en_basis": "[proposal]",
+   "meaning": "Two fourths (16:9). The text lists it among the larger spans (28.6-8) and, at 28.11, among the antiphonic concords; it is not a concord in Pythagorean or Aristoxenian theory.",
+   "sources": "Theon 48.17-20 ✔ (antiphonic: octave and double octave only); 52.1-9 ✔ (compound concords are octave + fourth, octave + fifth, double octave …).",
+   "note": "B^mg at 28.11 proposes διὰ πασῶν καὶ διὰ τεσσάρων; at 29.8 B^mg deletes δίς. The 8½ tones of 29.8-9 fit the octave and a fourth, not an octave and a double fourth (= 11 tones). Translate as printed; the problem goes in doubts."
+  },
+  {
+   "id": "T079",
+   "greek": "δὶς διὰ πέντε",
+   "forms_found": [
+    {
+     "form": "δὶς διὰ πέντε",
+     "refs": [
+      "28.7",
+      "28.11",
+      "31.8"
+     ]
+    },
+    {
+     "form": "(διὰ πασῶν καὶ) δὶς διὰ πέντε [B^mg: δίς to be deleted]",
+     "refs": [
+      "29.9"
+     ]
+    }
+   ],
+   "type": "consonance",
+   "ru": "двойная квинта",
+   "ru_basis": "[proposal]",
+   "en": "double fifth",
+   "en_basis": "[proposal]",
+   "meaning": "Two fifths (9:4); like the double fourth, not a concord in standard theory.",
+   "sources": "Theon 52.1-9 ✔.",
+   "note": "28.12 B^mg (keyed to the dagger before δὶς διὰ πασῶν) proposes διὰ πασῶν καὶ διὰ πέντε, which by sense corrects δὶς διὰ πέντε in 28.11. 29.9-10: 9½ tones fit the octave and a fifth, not an octave and a double fifth (13 tones)."
+  },
+  {
+   "id": "T080",
+   "greek": "δὶς διὰ πασῶν",
+   "forms_found": [
+    {
+     "form": "δὶς διὰ πασῶν",
+     "refs": [
+      "28.7",
+      "28.12",
+      "29.10",
+      "31.4",
+      "31.9"
+     ]
+    }
+   ],
+   "type": "consonance",
+   "ru": "двойная октава",
+   "ru_basis": "[proposal] (standard)",
+   "en": "double octave",
+   "en_basis": "[Barker]",
+   "meaning": "Two octaves, twelve tones (29.10-11), 4:1 (cf. 29.22-23); antiphonic (28.12); the compass of the sixteen-string system (31.4-5).",
+   "sources": "Theon 48.17-19 ✔.",
+   "note": ""
+  },
+  {
+   "id": "T081",
+   "greek": "διὰ πασῶν καὶ διὰ τεσσάρων",
+   "forms_found": [
+    {
+     "form": "διὰ πασῶν καὶ διὰ τεσσάρων",
+     "refs": [
+      "29.14"
+     ]
+    },
+    {
+     "form": "διὰ πασῶν καὶ * δὶς διὰ τεσσάρων (as printed)",
+     "refs": [
+      "29.7"
+     ]
+    }
+   ],
+   "type": "consonance",
+   "ru": "октава с квартой",
+   "ru_basis": "[proposal]",
+   "en": "octave and a fourth",
+   "en_basis": "[Barker]-style",
+   "meaning": "8:3 (duple-epimeric, 29.14-15); 8½ tones (29.7-9).",
+   "sources": "Theon 52.4 ✔; 56.12-14 ✔.",
+   "note": "See δὶς διὰ τεσσάρων for 29.7-9."
+  },
+  {
+   "id": "T082",
+   "greek": "διὰ πασῶν καὶ διὰ πέντε",
+   "forms_found": [
+    {
+     "form": "διὰ πασῶν καὶ διὰ πέντε",
+     "refs": [
+      "29.15"
+     ]
+    },
+    {
+     "form": "διὰ πασῶν καὶ * δὶς διὰ πέντε (as printed)",
+     "refs": [
+      "29.9"
+     ]
+    }
+   ],
+   "type": "consonance",
+   "ru": "октава с квинтой",
+   "ru_basis": "[proposal]",
+   "en": "octave and a fifth",
+   "en_basis": "[Barker]-style",
+   "meaning": "3:1 (29.15-16); 9½ tones (29.9-10).",
+   "sources": "Theon 52.5 ✔; 56.15-16 ✔.",
+   "note": ""
+  },
+  {
+   "id": "T083",
+   "greek": "συμφωνία; συμφωνέω",
+   "forms_found": [
+    {
+     "form": "Συμφωνεῖ",
+     "refs": [
+      "28.8"
+     ]
+    },
+    {
+     "form": "συμφωνεῖν",
+     "refs": [
+      "28.15"
+     ]
+    },
+    {
+     "form": "συμφωνοῦντος",
+     "refs": [
+      "28.19"
+     ]
+    },
+    {
+     "form": "συμφωνίας",
+     "refs": [
+      "29.2"
+     ]
+    },
+    {
+     "form": "συμφωνία",
+     "refs": [
+      "29.2"
+     ]
+    }
+   ],
+   "type": "consonance",
+   "ru": "консонанс; консонировать",
+   "ru_basis": "«консонанс» [Tsypin ✔]; «консонировать» [proposal]",
+   "en": "concord; be concordant",
+   "en_basis": "[Barker]",
+   "meaning": "Concord of two notes. Two kinds: paraphonic (fourth, fifth) and antiphonic (octave and larger), 28.8-28.25.",
+   "sources": "Theon 48.16-49.5 ✔.",
+   "note": "Shchetnikov's Theon has «созвучие»; not adopted."
+  },
+  {
+   "id": "T084",
+   "greek": "ἀρχὴ συμφωνίας",
+   "forms_found": [
+    {
+     "form": "ἀρχὴ μὲν συμφωνίας, οὔπω δὲ συμφωνία",
+     "refs": [
+      "29.1"
+     ]
+    }
+   ],
+   "type": "consonance",
+   "ru": "начало консонанса",
+   "ru_basis": "[proposal]",
+   "en": "principle (beginning) of concord",
+   "en_basis": "[proposal]",
+   "meaning": "Said of tone, semitone and diesis taken by themselves (28.25-29.2), as in Thrasyllus.",
+   "sources": "Thrasyllus in Theon 49.3-5 ✔ (ὁ γὰρ τόνος καὶ ἡ δίεσις ἀρχὴ μὲν συμφωνίας, οὔπω δὲ συμφωνία). Our text adds the semitone.",
+   "note": "ἀρχή may be rendered «начало»/'beginning' or «начало, исток»; keep one rendering."
+  },
+  {
+   "id": "T085",
+   "greek": "παράφωνος",
+   "forms_found": [
+    {
+     "form": "κατὰ παράφωνον",
+     "refs": [
+      "28.10"
+     ]
+    },
+    {
+     "form": "παράφωνον",
+     "refs": [
+      "28.13",
+      "28.14"
+     ]
+    }
+   ],
+   "type": "consonance",
+   "ru": "парафонный; парафонно (κατὰ παράφωνον)",
+   "ru_basis": "[Shchetnikov ✔] (Theon: «парафонными, каковы квинта и кварта»)",
+   "en": "paraphonic; paraphonically",
+   "en_basis": "[proposal]",
+   "meaning": "The kind of concord of the fourth and fifth (28.8-10). 28.13-17 defines it by ἀνισοχρόνως and by the succession of its notes (see ἰσοχρόνως).",
+   "sources": "Thrasyllus in Theon 48.19-49.2 ✔ (κατὰ παράφωνον, οἷον τὸ διὰ πέντε, τὸ διὰ τεσσάρων). Different sense: Gaudentius 8 ✔ (παράφωνοι = between concord and discord, e.g. tritone, ditone; LSJ II).",
+   "note": "Do not translate as 'dissonant' or 'para-consonant'. The explanation by time (ἀνισοχρόνως) has no parallel in Theon; see ἰσοχρόνως."
+  },
+  {
+   "id": "T086",
+   "greek": "ἀντίφωνος",
+   "forms_found": [
+    {
+     "form": "κατὰ ἀντίφωνον",
+     "refs": [
+      "28.12"
+     ]
+    },
+    {
+     "form": "ἀντίφωνον",
+     "refs": [
+      "28.14",
+      "28.17"
+     ]
+    }
+   ],
+   "type": "consonance",
+   "ru": "антифонный; антифонно",
+   "ru_basis": "[Shchetnikov ✔] (Theon: «антифонными, каковы октава и двойная октава»)",
+   "en": "antiphonic; antiphonically",
+   "en_basis": "[proposal]; LSJ ✔: 'concord in the octave'",
+   "meaning": "The kind of concord of the octave and the larger spans listed in 28.10-12. 28.17-25 defines it by ἰσοχρόνως and κατὰ ταὐτόν (printed ταυτὸν), the notes rising or falling together. Examples: 8th-1st, 11th-4th, 12th-5th, 15th-8th (28.19-22), all of them octaves in a fifteen-note system.",
+   "sources": "Thrasyllus in Theon 48.17-49.1 ✔ (octave, double octave; 'when the low, opposite to the high, is concordant'); Theon 51.12-15 ✔; Ps.-Aristotle, Problems XIX.16, 17, 39 (LSJ ✔).",
+   "note": "Not the liturgical 'antiphon'. συνανιόντων ἢ συγκατιόντων (28.22-23): 'rising together or descending together'."
+  },
+  {
+   "id": "T087",
+   "greek": "ἰσοχρόνως; ἀνισοχρόνως",
+   "forms_found": [
+    {
+     "form": "ἀνισοχρόνως",
+     "refs": [
+      "28.14"
+     ]
+    },
+    {
+     "form": "ἰσοχρόνως",
+     "refs": [
+      "28.18"
+     ]
+    }
+   ],
+   "type": "consonance",
+   "subtype": "definition of paraphonic/antiphonic",
+   "ru": "равновременно; неравновременно",
+   "ru_basis": "[proposal]; alternative «одновременно / неодновременно»",
+   "en": "isochronously; anisochronously",
+   "en_basis": "[proposal]; alternative 'simultaneously / not simultaneously'",
+   "meaning": "Antiphonic concord sounds 'isochronously', paraphonic 'anisochronously'. The sense is debated. Reading (a): simultaneous versus successive sounding (the paraphonic notes 'succeed one another', 28.15-16). Reading (b): coincidence of time-periods, i.e. the pulses of the high note coinciding with those of the low.",
+   "sources": "LSJ s.v. ἰσόχρονος ✔: 'equal in period of revolution' (Eudoxus; the adverb in Eudoxus, Geminus, Sextus Empiricus), 'even, regular' (of the pulse, Galen). LSJ s.v. ἀνισόχρονος ✔: 'of unequal duration'; in metric, 'composed of unequal times' (Aristid. Quint. I.24). The astronomical sense 'equal in period' supports reading (b). Cf. Ps.-Aristotle, Problems XIX.39 (coincidence of periods in the octave); Theon 50.4-21 ✔ (pitch as speed of motion).",
+   "note": "The neutral literal rendering keeps both readings open; put the interpretation in doubts. εὐρύθμως and καθ’ ὁμαλότητα (28.15-17): see ῥυθμός."
+  },
+  {
+   "id": "T088",
+   "greek": "γένος",
+   "forms_found": [
+    {
+     "form": "γένος",
+     "refs": [
+      "31.16",
+      "31.21",
+      "32.8",
+      "32.13",
+      "32.18",
+      "33.2"
+     ]
+    }
+   ],
+   "type": "genus",
+   "ru": "род",
+   "ru_basis": "[Tsypin ✔] («в трех мелодических родах»)",
+   "en": "genus",
+   "en_basis": "[Barker]",
+   "meaning": "Genus of melody (τὸ τοιόνδε τῆς μελῳδίας γένος, 31.15-16): diatonic, chromatic, 'harmonic'. Each genus is defined by the division of the fourth.",
+   "sources": "Theon 53.17-56.8 ✔ (diatonic, chromatic, enharmonic, after Adrastus; the table at 56.6-8 labels the third genus ἁρμονικόν).",
+   "note": ""
+  },
+  {
+   "id": "T089",
+   "greek": "διάτονον (γένος)",
+   "forms_found": [
+    {
+     "form": "διάτονον",
+     "refs": [
+      "31.16",
+      "31.20",
+      "32.7",
+      "33.5"
+     ]
+    }
+   ],
+   "type": "genus",
+   "ru": "диатонический",
+   "ru_basis": "[Tsypin ✔]",
+   "en": "diatonic",
+   "en_basis": "[Barker]",
+   "meaning": "Defined by the predominance of tones (31.18-21); the fourth = semitone + two tones (32.2-9). Ethos and Plato: 33.5-7 (see ἁπλοῦς; γενναῖος; φυσικώτερος).",
+   "sources": "Theon 53.17-56.8 ✔ (diatonic, chromatic, enharmonic, after Adrastus; the table at 56.6-8 labels the third genus ἁρμονικόν). Theon 54.12-14 ✔ (διὰ τῶν τόνων τὸ πλεῖστον διοδεύει); 56.3-5 ✔ (ἁπλοῦν τι καὶ γενναῖον καὶ μᾶλλον κατὰ φύσιν· διὸ … Πλάτων).",
+   "note": "Genus: «диатонический»; note name: «диатона»."
+  },
+  {
+   "id": "T090",
+   "greek": "χρωματικόν (γένος)",
+   "forms_found": [
+    {
+     "form": "χρωματικὸν",
+     "refs": [
+      "31.16",
+      "32.14"
+     ]
+    },
+    {
+     "form": "χρωματικόν",
+     "refs": [
+      "31.22"
+     ]
+    }
+   ],
+   "type": "genus",
+   "ru": "хроматический",
+   "ru_basis": "[Tsypin ✔]",
+   "en": "chromatic",
+   "en_basis": "[Barker]",
+   "meaning": "Defined by semitones (31.21-22); the fourth = semitone + semitone + incomposite trihemitone (32.9-13). Ethos: 32.14-15 (see παθητικώτερος; γοερώτερος).",
+   "sources": "Theon 53.17-56.8 ✔ (diatonic, chromatic, enharmonic, after Adrastus; the table at 56.6-8 labels the third genus ἁρμονικόν). Theon 54.16-55.7 ✔ (γοερώτερόν τε καὶ παθητικώτερον ἦθος).",
+   "note": ""
+  },
+  {
+   "id": "T091",
+   "greek": "ἁρμονικόν (γένος) (= enharmonic)",
+   "forms_found": [
+    {
+     "form": "ἁρμονικὸν",
+     "refs": [
+      "31.17",
+      "32.18",
+      "33.2"
+     ]
+    },
+    {
+     "form": "ἁρμόνικον [sic, accent]",
+     "refs": [
+      "31.23"
+     ]
+    }
+   ],
+   "type": "genus",
+   "ru": "гармонический (= энармонический)",
+   "ru_basis": "[proposal]; Tsypin's name for the genus is «энармоника» [Tsypin ✔]",
+   "en": "harmonic (= enharmonic)",
+   "en_basis": "[proposal]",
+   "meaning": "The text's name for the enharmonic genus, held together 'mostly by dieses' (31.22-24); the fourth = diesis + diesis + incomposite ditone (32.15-18). Its name is derived from harmonia (31.17; 32.18-20). Its difficulty and rarity: 33.1-5 (see δυσμελῳδικώτατος).",
+   "sources": "Theon 53.17-56.8 ✔ (diatonic, chromatic, enharmonic, after Adrastus; the table at 56.6-8 labels the third genus ἁρμονικόν). Theon 55.15-56.3 ✔ (Aristoxenus calls this genus ἁρμονία διὰ τὸ εἶναι ἄριστον …; δυσμελῳδητότατον … πολλῆς δεόμενον συνηθείας, ὅθεν οὐδ’ εἰς χρῆσιν ῥᾳδίως ἔρχεται).",
+   "note": "Give the bracketed equivalent once, in a note or at the first occurrence; elsewhere keep «гармонический»/'harmonic'. Do not confuse it with ἐναρμόνιος in 24.15-24, a quality of the note."
+  },
+  {
+   "id": "T092",
+   "greek": "μέλος",
+   "forms_found": [
+    {
+     "form": "μέλος",
+     "refs": [
+      "27.12",
+      "31.24",
+      "33.11"
+     ]
+    }
+   ],
+   "type": "genus",
+   "subtype": "melody",
+   "ru": "мелос",
+   "ru_basis": "[Tsypin ✔] («сдвиги в мелосе»); [Shchetnikov ✔] («род мелоса»)",
+   "en": "melos",
+   "en_basis": "[proposal] (Barker usually 'melody')",
+   "meaning": "Melodic substance: 27.12 (of an incomposite interval); 31.23-24 (τὸ ἁρμονικὸν λεγόμενον … μέλος); 33.10-11 (λύδιον … μέλος).",
+   "sources": "Aristox. El. harm. passim.",
+   "note": "Kept distinct from μελῳδία."
+  },
+  {
+   "id": "T093",
+   "greek": "μελῳδία",
+   "forms_found": [
+    {
+     "form": "μελῳδίας",
+     "refs": [
+      "31.15",
+      "33.2"
+     ]
+    },
+    {
+     "form": "μελῳδία",
+     "refs": [
+      "32.16"
+     ]
+    },
+    {
+     "form": "μελῳδιῶν",
+     "refs": [
+      "33.9",
+      "33.13",
+      "33.18"
+     ]
+    }
+   ],
+   "type": "genus",
+   "subtype": "melody",
+   "ru": "мелодия (pl. мелодии)",
+   "ru_basis": "[proposal]",
+   "en": "melody (pl. melodies)",
+   "en_basis": "[proposal]",
+   "meaning": "Melody as practice: τῆς μελῳδίας γένος (31.15; 33.2-3); 32.15-16 (of the enharmonic progression); εἴδη μελῳδιῶν, τὰ μύρια τῶν μελῳδιῶν (33.9; 33.13; 33.18).",
+   "sources": "Theon 53.17-56.8 ✔ (γένος τῆς μελῳδίας).",
+   "note": ""
+  },
+  {
+   "id": "T094",
+   "greek": "δυσμελῳδικώτατος",
+   "forms_found": [
+    {
+     "form": "δυσμελῳδικώτατον",
+     "refs": [
+      "33.1"
+     ]
+    }
+   ],
+   "type": "genus",
+   "ru": "наиболее трудный для мелодии (для пения)",
+   "ru_basis": "[proposal]",
+   "en": "hardest to use in melody",
+   "en_basis": "after LSJ s.v. δυσμελῴδητος ✔",
+   "meaning": "Superlative: the 'harmonic' genus is the hardest to sing.",
+   "sources": "Theon 56.1 ✔ (δυσμελῳδητότατον); LSJ, DGE s.v. δυσμελῴδητος ✔.",
+   "note": "B's form -ῳδικώτατον differs from Theon's -ῳδητότατον; translate it the same way."
+  },
+  {
+   "id": "T095",
+   "greek": "παθητικώτερος; γοερώτερος (printed γοέτερον)",
+   "forms_found": [
+    {
+     "form": "παθητικώτερον",
+     "refs": [
+      "32.14"
+     ]
+    },
+    {
+     "form": "γοέτερον [sic]",
+     "refs": [
+      "32.15"
+     ]
+    }
+   ],
+   "type": "genus",
+   "subtype": "ethos (chromatic)",
+   "ru": "более патетичный (трогательный); более жалобный (скорбный)",
+   "ru_basis": "[proposal]",
+   "en": "more emotional; more plaintive",
+   "en_basis": "[proposal]",
+   "meaning": "The ethos of the chromatic compared with the diatonic.",
+   "sources": "Theon 55.6-7 ✔ (γοερώτερόν τε καὶ παθητικώτερον ἦθος).",
+   "note": "γοέτερον is a misprint for γοερώτερον (transcription note 32.15)."
+  },
+  {
+   "id": "T096",
+   "greek": "ἁπλοῦς; γενναῖος; φυσικώτερος",
+   "forms_found": [
+    {
+     "form": "ἁπλοῦν",
+     "refs": [
+      "33.5"
+     ]
+    },
+    {
+     "form": "γενναῖον",
+     "refs": [
+      "33.5"
+     ]
+    },
+    {
+     "form": "φυσικώτερον",
+     "refs": [
+      "33.6"
+     ]
+    }
+   ],
+   "type": "genus",
+   "subtype": "ethos (diatonic)",
+   "ru": "простой; благородный; более естественный",
+   "ru_basis": "[proposal]",
+   "en": "simple; noble; more natural",
+   "en_basis": "[proposal]",
+   "meaning": "The ethos of the diatonic, the genus Plato adopts.",
+   "sources": "Theon 56.3-5 ✔.",
+   "note": "Plato: Republic III 398c-399e, Timaeus 35b-36b (the diatonic division of the World Soul)."
+  },
+  {
+   "id": "T097",
+   "greek": "διαιρέσεις; διαφοραί; ποικίλλω",
+   "forms_found": [
+    {
+     "form": "ποικίλλεται",
+     "refs": [
+      "33.8"
+     ]
+    },
+    {
+     "form": "διαιρέσεις",
+     "refs": [
+      "33.8"
+     ]
+    },
+    {
+     "form": "διαφορὰς",
+     "refs": [
+      "33.9"
+     ]
+    }
+   ],
+   "type": "shade",
+   "ru": "деления; различия; разнообразится",
+   "ru_basis": "[proposal]",
+   "en": "divisions; differences; is varied",
+   "en_basis": "[proposal]; Barker: 'divisions' (Ptolemy's διαιρέσεις of the genera)",
+   "meaning": "33.7-10, of the variety within each genus. This is the only allusion to the shades (χρόαι) of the genera.",
+   "sources": "Shades: Aristox. El. harm. II; Cleonides 6-7; Ptol. Harm. I.12-16, II.14 (the διαιρέσεις of the genera).",
+   "note": "Do not write «оттенки»/'shades' in the translation: the text does not say χρόαι. διαφορά elsewhere (27.11-13, 30.16, 33.14) has its ordinary sense 'difference', «различие»."
+  },
+  {
+   "id": "T098",
+   "greek": "λύδιον; φρύγιον; δώριον (μέλος)",
+   "forms_found": [
+    {
+     "form": "λύδιον",
+     "refs": [
+      "33.10"
+     ]
+    },
+    {
+     "form": "φρύγιον",
+     "refs": [
+      "33.11"
+     ]
+    },
+    {
+     "form": "δώριον",
+     "refs": [
+      "33.11"
+     ]
+    }
+   ],
+   "type": "tonos",
+   "ru": "лидийский; фригийский; дорийский",
+   "ru_basis": "standard",
+   "en": "Lydian; Phrygian; Dorian",
+   "en_basis": "[Barker]",
+   "meaning": "The three classic ethnic names, applied here to melos fitted within each genus (33.10-11). They are not tonoi as keys.",
+   "sources": "Thrasyllus in Theon 48.12-13 ✔ (harmonia = σύνταξις συστημάτων, οἷον Λύδιος, Φρύγιος, Δώριος).",
+   "note": "Adjectives agreeing with μέλος; RU «лидийский [мелос]». Do not add «лад» or «тон»."
+  },
+  {
+   "id": "T099",
+   "greek": "παιήων",
+   "forms_found": [
+    {
+     "form": "παιήων",
+     "refs": [
+      "33.12"
+     ]
+    }
+   ],
+   "type": "general",
+   "subtype": "song type",
+   "ru": "пеан",
+   "ru_basis": "standard",
+   "en": "paean",
+   "en_basis": "standard",
+   "meaning": "Song of praise, thanksgiving or victory, named among the 'kinds of melodies'.",
+   "sources": "Pollux IV.53 (song types) [~].",
+   "note": ""
+  },
+  {
+   "id": "T100",
+   "greek": "ὑμέναιος (printed ὑμεραῖος)",
+   "forms_found": [
+    {
+     "form": "ὑμεραῖος [sic]",
+     "refs": [
+      "33.12"
+     ]
+    }
+   ],
+   "type": "general",
+   "subtype": "song type",
+   "ru": "гименей (свадебная песнь)",
+   "ru_basis": "standard",
+   "en": "hymenaeus (wedding song)",
+   "en_basis": "standard",
+   "meaning": "Wedding song.",
+   "sources": "—",
+   "note": "B prints ὑμεραῖος, a misprint for ὑμέναιος/ὑμεναῖος (transcription note 33.12); translate the intended word and note the misprint."
+  },
+  {
+   "id": "T101",
+   "greek": "ἐξόδιος",
+   "forms_found": [
+    {
+     "form": "ἐξόδιος",
+     "refs": [
+      "33.12"
+     ]
+    }
+   ],
+   "type": "general",
+   "subtype": "song type",
+   "ru": "эксодий (исходная / погребальная песнь)",
+   "ru_basis": "[proposal]",
+   "en": "exodion (exit- or funeral song)",
+   "en_basis": "[proposal]",
+   "meaning": "Uncertain. (a) Classical: the exit-song, the finale of a play (LSJ s.v. ✔: ἐξόδιον μέλος; Pollux IV.108, after Pape ✔: 'sung by the departing chorus'). (b) Byzantine: ἐξόδιον = funeral, funeral procession (Sophocles, Lexicon s.v. ✔). Next to paean (praise) and hymenaeus (wedding), sense (b), a funeral song, is attractive.",
+   "sources": "LSJ, Pape s.v. ✔; Sophocles s.v. ✔.",
+   "note": "A translator's decision; argue it in doubts and keep it the same in both languages."
+  },
+  {
+   "id": "T102",
+   "greek": "εἶδος (μελῳδιῶν)",
+   "forms_found": [
+    {
+     "form": "εἴδη μελῳδιῶν",
+     "refs": [
+      "33.9",
+      "33.13"
+     ]
+    }
+   ],
+   "type": "general",
+   "subtype": "song type",
+   "ru": "вид (мелодий)",
+   "ru_basis": "[proposal]",
+   "en": "kind (of melodies)",
+   "en_basis": "[proposal]",
+   "meaning": "Kinds of songs (paean, hymenaeus etc.).",
+   "sources": "—",
+   "note": "Not 'species' in the technical sense (εἶδος τοῦ διὰ πασῶν, «вид октавы»)."
+  },
+  {
+   "id": "T103",
+   "greek": "ῥυθμός; εὐρύθμως",
+   "forms_found": [
+    {
+     "form": "ῥυθμὸς",
+     "refs": [
+      "27.8"
+     ]
+    },
+    {
+     "form": "εὐρύθμως",
+     "refs": [
+      "28.15"
+     ]
+    }
+   ],
+   "type": "rhythm",
+   "ru": "ритм; ритмично (стройно)",
+   "ru_basis": "standard; «стройно» [proposal]",
+   "en": "rhythm; rhythmically (in good order)",
+   "en_basis": "standard",
+   "meaning": "27.8 (ὡς ἄν τις βούλοιτο, καὶ ὁ ῥυθμὸς ἐπιτρέψῃ): ῥυθμός here may mean the ordered pattern or proportion of the melody rather than metre. 28.15-17: εὐρύθμως, of the succession of notes in paraphonic concord, with ἀναλογίαις καὶ λόγοις καθ’ ὁμαλότητα (ὁμαλότης 'evenness', RU «равномерность» [proposal]).",
+   "sources": "Aristides Quint. I.13 (ῥυθμός); Aristox. El. rhythm. II.",
+   "note": "Keep «ритм»/'rhythm' and explain the broad sense in a note. ἡπίως (28.15) is printed with a rough breathing, a misprint for ἠπίως 'gently'."
+  },
+  {
+   "id": "T104",
+   "greek": "μεταβάσεις σχολαιότεραι καὶ ταχιναί",
+   "forms_found": [
+    {
+     "form": "σχολαιοτέραις καὶ ταχιναῖς μεταβάσεσι",
+     "refs": [
+      "33.15"
+     ]
+    }
+   ],
+   "type": "rhythm",
+   "subtype": "tempo",
+   "ru": "более медленные и быстрые переходы",
+   "ru_basis": "[proposal]",
+   "en": "slower and quicker transitions",
+   "en_basis": "[proposal]",
+   "meaning": "Differences of tempo in moving from note to note, one source of the variety of melodies (33.14-16).",
+   "sources": "Cf. ἀγωγή (tempo) in rhythmics: Aristid. Quint. I.19.",
+   "note": "Not 'modulation' (μεταβολή)."
+  },
+  {
+   "id": "T105",
+   "greek": "διαμοναί; ῥοαί",
+   "forms_found": [
+    {
+     "form": "διαμοναῖς",
+     "refs": [
+      "33.16"
+     ]
+    },
+    {
+     "form": "ῥοαῖς",
+     "refs": [
+      "33.16"
+     ]
+    }
+   ],
+   "type": "rhythm",
+   "subtype": "melodic motion",
+   "ru": "задержки (выдерживания) звука; течения (беглые пассажи)",
+   "ru_basis": "[proposal]",
+   "en": "sustainings (holds); flows (runs)",
+   "en_basis": "[proposal]",
+   "meaning": "Holding a note versus flowing motion: a pair of contrasts in delivery.",
+   "sources": "Cleonides 14 ✔ (τονὴ … ἡ ἐπὶ πλείονα χρόνον μονὴ κατὰ μίαν γινομένη προφορὰν τῆς φωνῆς); Bacchius, Isag. (Jan p. 302) ✔ (μονή among the πάθη τῆς μελῳδίας). LSJ διαμονή ✔ only 'continuance, permanence'.",
+   "note": ""
+  },
+  {
+   "id": "T106",
+   "greek": "ἐπαφαί; κρούματα; μεταχειρίσεις",
+   "forms_found": [
+    {
+     "form": "ἐπαφῶν",
+     "refs": [
+      "33.17"
+     ]
+    },
+    {
+     "form": "κρουμάτων",
+     "refs": [
+      "33.17"
+     ]
+    },
+    {
+     "form": "μεταχειρίσεσι",
+     "refs": [
+      "33.17"
+     ]
+    }
+   ],
+   "type": "instrument",
+   "subtype": "playing technique",
+   "ru": "касания; удары (по струнам); приёмы (обращения)",
+   "ru_basis": "[proposal]",
+   "en": "touches; strokes; handlings (techniques)",
+   "en_basis": "[proposal]",
+   "meaning": "The various ways of handling touches and strokes on the instrument; further sources of variety.",
+   "sources": "LSJ s.v. ἐπαφή ✔ (ἐ. μωσικά, touching the strings); s.v. κροῦμα ✔ (note struck on strings with the plectrum; also of wind instruments).",
+   "note": ""
+  },
+  {
+   "id": "T107",
+   "greek": "χορδή",
+   "forms_found": [
+    {
+     "form": "χορδῶν",
+     "refs": [
+      "27.24",
+      "29.25",
+      "30.17"
+     ]
+    }
+   ],
+   "type": "instrument",
+   "ru": "струна",
+   "ru_basis": "standard",
+   "en": "string",
+   "en_basis": "[Barker]",
+   "meaning": "String. 27.24 equates notes with strings; 29.25: ratios are not judged by the number of notes or strings; 30.17: length and thickness of strings.",
+   "sources": "Theon 57.1-2 ✔.",
+   "note": "See νευρά."
+  },
+  {
+   "id": "T108",
+   "greek": "νευρά",
+   "forms_found": [
+    {
+     "form": "νευρὰν",
+     "refs": [
+      "26.4"
+     ]
+    }
+   ],
+   "type": "instrument",
+   "ru": "струна",
+   "ru_basis": "[proposal]",
+   "en": "string",
+   "en_basis": "[proposal]",
+   "meaning": "(Gut) string: a string holding the 9:8 ratio can be cut into a 'half-epogdoic' (26.3-5).",
+   "sources": "—",
+   "note": "Same rendering as χορδή; the Greek variation may be noted."
+  },
+  {
+   "id": "T109",
+   "greek": "κόλλαβος (printed κολάβων); στροφή",
+   "forms_found": [
+    {
+     "form": "στροφὴν τῶν κολάβων [sic, one λ]",
+     "refs": [
+      "30.18"
+     ]
+    }
+   ],
+   "type": "instrument",
+   "ru": "колок; вращение (колков)",
+   "ru_basis": "[Shchetnikov ✔] («вращением колков»)",
+   "en": "peg; turning (of the pegs)",
+   "en_basis": "[Barker]",
+   "meaning": "Tuning peg of a string instrument; its turning gives tension.",
+   "sources": "Theon 57.2-3 ✔ (κατὰ τὴν στροφὴν τῶν κολλάβων); LSJ s.v. κόλλαβος ✔.",
+   "note": "B spells it with one λ (transcription note 30.19)."
+  },
+  {
+   "id": "T110",
+   "greek": "ἐξάρτησις τῶν βαρῶν",
+   "forms_found": [
+    {
+     "form": "ἐξαρτήσεως τῶν βαρῶν",
+     "refs": [
+      "30.19"
+     ]
+    }
+   ],
+   "type": "instrument",
+   "subtype": "acoustics",
+   "ru": "подвешивание грузов",
+   "ru_basis": "[Shchetnikov ✔] («подвешивая к ним разные грузы»)",
+   "en": "suspension of weights",
+   "en_basis": "[proposal]",
+   "meaning": "Finding ratios by hanging weights on strings, the 'better known' method (the Pythagoras legend).",
+   "sources": "Theon 57.3-4 ✔ (γνωριμώτερον κατὰ τὴν ἐξάρτησιν τῶν βαρῶν); Nicomachus, Ench. 6.",
+   "note": "βαρῶν = 'weights' (βάρος), not 'low notes'."
+  },
+  {
+   "id": "T111",
+   "greek": "ἐμπνευστά; κοιλίαι; πνεῦμα",
+   "forms_found": [
+    {
+     "form": "ἐμπνευστῶν",
+     "refs": [
+      "30.20"
+     ]
+    },
+    {
+     "form": "κοιλιῶν",
+     "refs": [
+      "30.21"
+     ]
+    },
+    {
+     "form": "πνεύματος",
+     "refs": [
+      "30.22"
+     ]
+    }
+   ],
+   "type": "instrument",
+   "subtype": "acoustics",
+   "ru": "духовые (инструменты); полости (каналы); дыхание",
+   "ru_basis": "«духовые» [Shchetnikov ✔]; rest [proposal]",
+   "en": "wind instruments; bores (cavities); breath",
+   "en_basis": "[proposal]",
+   "meaning": "Means of finding the ratios on wind instruments (30.20-23).",
+   "sources": "Theon 57.4-6 ✔ (ἐπὶ δὲ τῶν ἐμπνευστῶν … διὰ τῆς εὐρύτητος τῶν κοιλιῶν ἢ διὰ τῆς ἐπιτάσεως καὶ ἀνέσεως τοῦ πνεύματος).",
+   "note": ""
+  },
+  {
+   "id": "T112",
+   "greek": "μῆκος; παχύτης",
+   "forms_found": [
+    {
+     "form": "μήκους",
+     "refs": [
+      "30.17"
+     ]
+    },
+    {
+     "form": "παχύτητος",
+     "refs": [
+      "30.17"
+     ]
+    },
+    {
+     "form": "μῆκος (of a figure)",
+     "refs": [
+      "26.11"
+     ]
+    }
+   ],
+   "type": "instrument",
+   "subtype": "acoustics",
+   "ru": "длина; толщина",
+   "ru_basis": "standard",
+   "en": "length; thickness",
+   "en_basis": "standard",
+   "meaning": "Length and thickness of strings as means of finding ratios.",
+   "sources": "Theon 57.1-2 ✔ (διά τε τοῦ μήκους καὶ πάχους τῶν χορδῶν).",
+   "note": "B has παχύτης where Theon has πάχος."
+  },
+  {
+   "id": "T113",
+   "greek": "ἀριθμός (with ordinals: ὁ ἔνατος / ὄγδοος / ἑκκαιδέκατος … ἀριθμός)",
+   "forms_found": [
+    {
+     "form": "ὁ ἔνατος ἀριθμὸς πρὸς τὸν ὄγδοον",
+     "refs": [
+      "25.23"
+     ]
+    },
+    {
+     "form": "τὸν ἑξκαιδέκατον [sic] ἀριθμὸν",
+     "refs": [
+      "26.16"
+     ]
+    },
+    {
+     "form": "τὸν τριακονταδύο ἀριθμὸν",
+     "refs": [
+      "26.20"
+     ]
+    },
+    {
+     "form": "ὁ ἕκτος ἡμῖν ἀριθμὸς … ὁ ὄγδοος, … ὁ ἔννατος, … ὁ δωδέκατος, … ὁ ἑξκαιδέκατος, … ὁ ὀκτωκαιδέκατος, … ὁ εἰκοστὸς τέταρτος",
+     "refs": [
+      "29.17",
+      "29.18",
+      "29.19",
+      "29.20",
+      "29.22"
+     ]
+    },
+    {
+     "form": "ἀριθμοὺς; ἀριθμοῖς; ἀριθμὸν",
+     "refs": [
+      "26.1",
+      "29.17",
+      "29.24",
+      "30.13"
+     ]
+    }
+   ],
+   "type": "general",
+   "subtype": "mathematics / numeral idiom",
+   "ru": "число; «число девять», «число шестнадцать» (ordinal idiom)",
+   "ru_basis": "[proposal]",
+   "en": "number; 'the number nine', 'the number sixteen'",
+   "en_basis": "[proposal]",
+   "meaning": "Late Greek idiom: an ordinal with ἀριθμός names the number itself (ὁ ἔνατος ἀριθμός = 9). By contrast, ordinals of notes (25.15-17 πρῶτος, ὄγδοος, πεντεκαιδέκατος; 28.19-22; 30.7-10) count positions and are real ordinals ('the eighth note').",
+   "sources": "Common in the arithmetical tradition (Nicomachus, Theon).",
+   "note": "Render the idiom as cardinals and keep the note ordinals as ordinals; otherwise 29.17-23 reads as if it spoke of positions. 26.20 τριακονταδύο is a cardinal. ἑξκαιδέκατος is printed for ἑκκαιδέκατος (transcription note 26.16)."
+  },
+  {
+   "id": "T114",
+   "greek": "μονάς",
+   "forms_found": [
+    {
+     "form": "μονὰς",
+     "refs": [
+      "26.1",
+      "26.2"
+     ]
+    }
+   ],
+   "type": "general",
+   "subtype": "mathematics",
+   "ru": "единица",
+   "ru_basis": "standard",
+   "en": "unit",
+   "en_basis": "standard",
+   "meaning": "In arithmetic the unit is not cut; ἡ ἐν ὕλῃ βλεπομένη μονάς is cut geometrically (26.1-3). This is the premise for halving the tone.",
+   "sources": "Theon 19.5-20.4 ✔ (the unit is indivisible as number; 'the one in sensibles' is divided, and as sensible it is divisible to infinity).",
+   "note": ""
+  },
+  {
+   "id": "T115",
+   "greek": "τέμνω; ὑποτέμνω; διαιρέω",
+   "forms_found": [
+    {
+     "form": "τέμνεται",
+     "refs": [
+      "26.1",
+      "26.2"
+     ]
+    },
+    {
+     "form": "ὑποτεμεῖν",
+     "refs": [
+      "26.4",
+      "26.6"
+     ]
+    },
+    {
+     "form": "τεμεῖν",
+     "refs": [
+      "26.14"
+     ]
+    },
+    {
+     "form": "διαιρεθῆναι",
+     "refs": [
+      "26.17"
+     ]
+    },
+    {
+     "form": "διαιρεῖται",
+     "refs": [
+      "27.4"
+     ]
+    }
+   ],
+   "type": "general",
+   "subtype": "mathematics",
+   "ru": "рассекать; подразделять; делить",
+   "ru_basis": "[proposal]",
+   "en": "cut; subdivide; divide",
+   "en_basis": "[proposal]",
+   "meaning": "Cutting a string or a square; dividing the epogdoic ratio into a semitone and again into a diesis (27.3-5).",
+   "sources": "Sectio canonis 16 ✔ (the tone will not be divided into two equal parts), the opposite thesis.",
+   "note": ""
+  },
+  {
+   "id": "T116",
+   "greek": "γεωμετρία; γεωμετρικῶς; γεωμέτρης; ἀριθμητική",
+   "forms_found": [
+    {
+     "form": "γεωμετρίᾳ",
+     "refs": [
+      "24.20",
+      "26.22"
+     ]
+    },
+    {
+     "form": "γεωμετρικῶς",
+     "refs": [
+      "26.3"
+     ]
+    },
+    {
+     "form": "γεωμετρία",
+     "refs": [
+      "26.7"
+     ]
+    },
+    {
+     "form": "γεωμέτρης",
+     "refs": [
+      "26.24"
+     ]
+    },
+    {
+     "form": "ἀριθμητικῇ",
+     "refs": [
+      "26.12"
+     ]
+    },
+    {
+     "form": "ἀριθμητικὴ",
+     "refs": [
+      "26.14"
+     ]
+    }
+   ],
+   "type": "general",
+   "subtype": "mathematics",
+   "ru": "геометрия; геометрически; геометр; арифметика",
+   "ru_basis": "standard",
+   "en": "geometry; geometrically; geometer; arithmetic",
+   "en_basis": "standard",
+   "meaning": "The contrast of the two sciences: geometry can cut continuous magnitude at will, arithmetic cannot (26.7-27.3).",
+   "sources": "—",
+   "note": ""
+  },
+  {
+   "id": "T117",
+   "greek": "στιγμή",
+   "forms_found": [
+    {
+     "form": "στιγμὴ",
+     "refs": [
+      "24.20"
+     ]
+    }
+   ],
+   "type": "general",
+   "subtype": "mathematics",
+   "ru": "точка",
+   "ru_basis": "standard",
+   "en": "point",
+   "en_basis": "standard",
+   "meaning": "The geometrical point, to which the unextended note is compared.",
+   "sources": "Theon 111.14-16 ✔.",
+   "note": ""
+  },
+  {
+   "id": "T118",
+   "greek": "εὐθεῖα; σχῆμα",
+   "forms_found": [
+    {
+     "form": "εὐθεῖαν",
+     "refs": [
+      "26.9"
+     ]
+    },
+    {
+     "form": "σχῆμα",
+     "refs": [
+      "26.10"
+     ]
+    }
+   ],
+   "type": "general",
+   "subtype": "mathematics",
+   "ru": "прямая (линия); фигура",
+   "ru_basis": "standard",
+   "en": "straight line; figure",
+   "en_basis": "standard",
+   "meaning": "Terms of the geometrical argument 26.7-12: operations on straight lines and figures that arithmetic cannot perform.",
+   "sources": "Euclid, Elements I.3.",
+   "note": ""
+  },
+  {
+   "id": "T119",
+   "greek": "τετράγωνον; τετραγωνίζομαι",
+   "forms_found": [
+    {
+     "form": "τετράγωνον",
+     "refs": [
+      "26.13",
+      "26.16",
+      "26.20",
+      "26.24",
+      "27.3"
+     ]
+    },
+    {
+     "form": "τετράγωνα",
+     "refs": [
+      "26.14",
+      "26.18"
+     ]
+    },
+    {
+     "form": "τετραγώνου",
+     "refs": [
+      "26.23",
+      "26.25"
+     ]
+    },
+    {
+     "form": "τετραγωνισθῆναι",
+     "refs": [
+      "26.18",
+      "26.21"
+     ]
+    }
+   ],
+   "type": "general",
+   "subtype": "mathematics",
+   "ru": "квадрат; быть квадратом (квадратным числом)",
+   "ru_basis": "standard",
+   "en": "square; to be a square (number)",
+   "en_basis": "standard",
+   "meaning": "The example of 16: it cannot be split into two equal square numbers (8 is not square) nor doubled into a square (32 is not square), whereas geometry halves or doubles a square by the diagonal (26.13-27.3).",
+   "sources": "Plato, Meno 82b-85b (doubling the square on the diagonal).",
+   "note": "The marginal dot figures on p. 26 (16 dots split 8 + 8; 32 dots split 16 + 16) are described in the transcription notes (26.14, 26.18); the translator describes them in a note."
+  },
+  {
+   "id": "T120",
+   "greek": "διάμετρος; πλευρά",
+   "forms_found": [
+    {
+     "form": "διάμετρον",
+     "refs": [
+      "26.23",
+      "27.1"
+     ]
+    },
+    {
+     "form": "πλευρὰν",
+     "refs": [
+      "26.23",
+      "27.2"
+     ]
+    }
+   ],
+   "type": "general",
+   "subtype": "mathematics",
+   "ru": "диагональ; сторона",
+   "ru_basis": "standard",
+   "en": "diagonal; side",
+   "en_basis": "standard",
+   "meaning": "Taking the side of a given square as the diagonal of a new square halves it; taking the diagonal as the side doubles it.",
+   "sources": "Euclid's usage (διάμετρος of a square = diagonal); Plato, Meno 85b.",
+   "note": "PITFALL: διάμετρος here = diagonal, not «диаметр»/'diameter'."
+  },
+  {
+   "id": "T121",
+   "greek": "ὕλη; ἀφαίρεσις",
+   "forms_found": [
+    {
+     "form": "ὕλῃ",
+     "refs": [
+      "26.2",
+      "31.11"
+     ]
+    },
+    {
+     "form": "ὕλην [B^mg ὅλην]",
+     "refs": [
+      "31.2"
+     ]
+    },
+    {
+     "form": "ὕλης",
+     "refs": [
+      "31.13"
+     ]
+    },
+    {
+     "form": "ἀφαιρέσεως",
+     "refs": [
+      "31.12"
+     ]
+    }
+   ],
+   "type": "general",
+   "subtype": "philosophy",
+   "ru": "материя; абстрагирование (отвлечение)",
+   "ru_basis": "[proposal]",
+   "en": "matter; abstraction",
+   "en_basis": "standard (Aristotelian)",
+   "meaning": "26.2: ἡ ἐν ὕλῃ βλεπομένη μονάς. 31.10-13: the difference between systems (ἐν ὕλῃ) and intervals (ἐξ ἀφαιρέσεως τῆς ὕλης). 31.2: τὴν ὕλην τοῦ διὰ πασῶν (B^mg proposes ὅλην, 'the whole').",
+   "sources": "Aristotelian ἐξ ἀφαιρέσεως (mathematical objects by abstraction), e.g. De anima III.7 431b12.",
+   "note": "ἀφαίρεσις also means 'subtraction' (cf. ἀφαιρεῖται, 26.7-8); here it means 'abstraction'."
+  }
+ ]
+}
