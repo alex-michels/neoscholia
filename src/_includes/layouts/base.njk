@@ -28,5 +28,9 @@
 {%- for s in scripts %}
 <script src="{{ root }}assets/js/{{ s }}.js?v={{ build }}"></script>
 {%- endfor %}
+{#- Счётчик посещений GoatCounter: без cookies и персональных данных. Включается кодом сайта в site.json (goatcounter); localhost не считается. -#}
+{%- if site.goatcounter %}
+<script data-goatcounter="https://{{ site.goatcounter }}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
+{%- endif %}
 </body>
 </html>

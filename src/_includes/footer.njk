@@ -25,6 +25,9 @@
       <li>Препринты статей — CC BY 4.0</li>
       <li>Журналы рецензии — CC0</li>
       <li><a href="{{ root }}method.html#cite">Как цитировать</a></li>
+      {%- if site.goatcounter %}
+      <li>Статистика посещений — <a href="https://www.goatcounter.com/">GoatCounter</a>, без cookies и персональных данных</li>
+      {%- endif %}
     </ul></div>
   </footer>
   {%- set change = page.inputPath | lastChange %}
