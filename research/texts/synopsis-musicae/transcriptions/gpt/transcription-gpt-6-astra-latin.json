@@ -1,0 +1,4522 @@
+{
+  "transcriber": {
+    "model": "gpt-6-astra",
+    "provider": "OpenAI",
+    "reasoning_effort": "ultra",
+    "date": "2026-10-27",
+    "web_access": false,
+    "web_access_note": "No web source was accessed or used.",
+    "subagents": "Two GPT-6-Astra agents at Ultra transcribed and rechecked one translation each. A third GPT-6-Astra Ultra agent independently audited all page counts, diagrams, labels and marginalia, then reviewed the alignment. The coordinating agent surveyed all 23 images, checked disputed readings, prepared the alignment, reconciled the audits and validated the final files.",
+    "source_scope_note": "Before PROMPT.md had been read, a filename-only discovery search in the parent workspace returned the names of the target PROMPT.md and a sibling PROMPT.md. Only the target prompt was opened. No sibling text or image was opened, and all subsequent source work was confined to the specified folder and its supplied images."
+  },
+  "conventions": "Only the supplied images were used as textual witnesses; no external edition, translation, Greek text, OCR transcription or secondary discussion was consulted. Main-block lines are numbered physically from the top, counting headings, the separate note names and Finis Musicæ, but excluding running heads, page numbers, signatures, catchwords, paragraph numbers, ornaments and figures. The large initial supplies the first letter; following capitals are preserved, including VNiuersum, MVsica, SOnus, IAm, SYstematum and HArmoniæ. Long s is rendered s and typographic ligatures are resolved, except that æ, œ and e caudata retain their printed forms in the diplomatic text. Abbreviations are expanded silently, including &, nasal strokes, the -que sign, -us and -bus endings; points serving solely as abbreviation signs are omitted when the contraction is expanded. An accent on an abbreviated -que is retained on u as qúe; other printed accents, u/v, i/j, capitals and punctuation are preserved. Word spacing is regularised to single spaces, but line divisions and printed hyphens are preserved; unhyphenated word divisions are identified in line notes. All nasal expansions are registered inclusively so that choices of m/n can be reviewed, even when their certainty is high. Vinet paragraph numbers appear only as metadata, with Roman chapter numbers; Xylander paragraphs are numbered at indented starts. Marginalia and manuscript interventions are separate from the body; disputed origin of a figure or mark is explicitly stated. A dot below a letter marks an uncertain character, [?] marks an uncertain whole word, and [...] or [...n] marks illegible material. Reading texts join divided words, normalise vocalic u/consonantal v and i for i/j, replace æ/œ/ę with ae/oe/ae, and remove every accent on Latin and Latinised terms. A recurring lexical hyphen within the Vinet interval names is retained when a line happens to end at that same hyphen; other end-of-line hyphens are removed. Printed capitals are retained except in all-capital headings; only apparatus-supported misprints are corrected, and no mathematical or stylistic rewriting is introduced. Figures are described in full rather than included in line numbering; physical line ranges in the alignment may overlap when corresponding passages share a line.",
+  "xylander": {
+    "extent": {
+      "first": "Xyl. 40.1 «EXACTA SVMMA HIC,»",
+      "last": "Xyl. 49.25 «Finis Musicæ.»"
+    },
+    "pages": [
+      {
+        "page": 40,
+        "file": "source/xylander1556/la-seq44-p40.jpg",
+        "running_head": "",
+        "signature": "",
+        "catchword": "denique",
+        "lines": [
+          {
+            "n": 1,
+            "text": "EXACTA SVMMA HIC,",
+            "para_no": "",
+            "note": "First line of the two-line title; full capitals."
+          },
+          {
+            "n": 2,
+            "text": "euidensqúe Musicæ.",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 3,
+            "text": "VNiuersum hoc, antiqui Musica",
+            "para_no": 1,
+            "note": "Large woodcut V supplies the initial; following letters Niuersum begin alongside it. Paragraph 1 begins after the title."
+          },
+          {
+            "n": 4,
+            "text": "contineri perhibuerunt. Nihil e-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 5,
+            "text": "nim in rerum natura absque com-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 6,
+            "text": "mensuratione et proportione con-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 7,
+            "text": "sistit: neque quicquam eorum quæ",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 8,
+            "text": "fiunt, sine debita commensuratione et propor-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 9,
+            "text": "tione si fiat, rectè productum natumúe esse di-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 10,
+            "text": "citur: siue id ab arte efficiatur, siue à natura: et",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 11,
+            "text": "siue sub sensum illud cadat, siue solo intellectu",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 12,
+            "text": "perspiciatur.",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 13,
+            "text": "Cæterùm Musica ipsa per se commensura-",
+            "para_no": 2,
+            "note": ""
+          },
+          {
+            "n": 14,
+            "text": "tio quædam omnino et proportionalitas est, ni-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 15,
+            "text": "mirum harmonia uniuersi existens. Fortassis et",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 16,
+            "text": "ipsam diuinam naturam haud inconuenienter sui",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 17,
+            "text": "ipsius et uniuersi harmoniam quispiam dixerit:",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 18,
+            "text": "siquidem in Deo concinnatus, et ad consonan-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 19,
+            "text": "tiam coaptatus mundus, bene, atque adeò quam",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 20,
+            "text": "optimè se habere uidetur. Tanto nimirum Mu-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 21,
+            "text": "sicam illi dignati sunt miraculo. Ea quando in",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 22,
+            "text": "omnibus conspicitur, atque uniuersa temperat, e-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 23,
+            "text": "xornatqúe, tum sensui uoluptatem, congruentiam",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 24,
+            "text": "autem (harmoniam dico) Naturæ, beatitatem",
+            "para_no": "",
+            "note": "Initial a of autem is heavily inked but legible; the image does not establish whether this is a printing defect or later retouching."
+          }
+        ],
+        "margins": [],
+        "figures": []
+      },
+      {
+        "page": 41,
+        "file": "source/xylander1556/la-seq45-p41.jpg",
+        "running_head": "COMPENDIVM.",
+        "signature": "c 5",
+        "catchword": "cachor-",
+        "lines": [
+          {
+            "n": 1,
+            "text": "denique intellectui largitur: nos de ea Musica quæ",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 2,
+            "text": "in sensibus, aut potius uno sensuum auditu con-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 3,
+            "text": "sideratur, paucis disseremus.",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 4,
+            "text": "Sonus est, uocis nullo interuallo diuisæ har-",
+            "para_no": 3,
+            "note": ""
+          },
+          {
+            "n": 5,
+            "text": "moniæ particeps intensio, seu tenor. Interuallum",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 6,
+            "text": "autem, sonorum mutua unius ad alterum ratio,",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 7,
+            "text": "siue respectus. Systema, complexus est certus",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 8,
+            "text": "interuallorum. Harmonia, ipsa constructio sy-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 9,
+            "text": "stematum. Enimuerò sonus diuisionis capax",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 10,
+            "text": "non est, ut neque punctum in Geometria. Har-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 11,
+            "text": "moniæ participem diximus, quia ita effertur, ut",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 12,
+            "text": "possit etiam cum alio sono ad harmoniam con-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 13,
+            "text": "cinnari. Quod nisi fiat, iam is dissonus sit sonus,",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 14,
+            "text": "non consonus: imò neque sonus dicetur esse, sed stre",
+            "para_no": "",
+            "note": "Word broken after «stre» without a printed hyphen; continued on the next text line."
+          },
+          {
+            "n": 15,
+            "text": "pitus quispiam temerè editus, et ad consonan-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 16,
+            "text": "tiam nulli existens usui. Proinde diuersæ sunt",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 17,
+            "text": "sonorum, quas illi progressu et ordine, quem à",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 18,
+            "text": "graui ad acutum obseruant, nanciscuntur no-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 19,
+            "text": "menclationes: Proslambanomenos, Hypate hy-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 20,
+            "text": "paton, parhypate hypaton, hypate diatonos, hy-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 21,
+            "text": "pate meson, parhypate meson, diatonos meson,",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 22,
+            "text": "mese monos, paramesos, trite diezeugmene, dia-",
+            "para_no": "",
+            "note": "The long descending z in diezeugmene is transcribed as Latin z, consistently with the word's other occurrences."
+          },
+          {
+            "n": 23,
+            "text": "tonos diezeugmene, nete diezeugmene, trite",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 24,
+            "text": "hyperbolæon, diatonos hyperbolæon, nete hy-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 25,
+            "text": "perbolæon. Per has sonorum species heccæde",
+            "para_no": "",
+            "note": "Word broken after «heccæde» without a printed hyphen; continued on the next text line."
+          }
+        ],
+        "margins": [],
+        "figures": []
+      },
+      {
+        "page": 42,
+        "file": "source/xylander1556/la-seq46-p42.jpg",
+        "running_head": "DE MVSICA",
+        "signature": "",
+        "catchword": "cum",
+        "lines": [
+          {
+            "n": 1,
+            "text": "cachordum, hoc est, sedecim chordarum instru-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 2,
+            "text": "mentum in quindecim fidibus instructo organo",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 3,
+            "text": "(Pentecædecachordum uocant Græci) absol-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 4,
+            "text": "uitur, fine octachordi ad principium sequentium",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 5,
+            "text": "continuò assumpto. Quam enim rationem ha-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 6,
+            "text": "bet primus sonus ad octauum, eandem octauus",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 7,
+            "text": "ad decimumquintum obtinet. Et hæc de sonis.",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 8,
+            "text": "Interuallorum autem minimum genus est,",
+            "para_no": 4,
+            "note": ""
+          },
+          {
+            "n": 9,
+            "text": "quod diesin uocant: deinde semitonium, cuius du-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 10,
+            "text": "pla ad acutum est accessio, respectu dieseos. De-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 11,
+            "text": "inde est tonus duplici constans semitonio, et ra-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 12,
+            "text": "tionem sesquioctauam constituens, ut est noue-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 13,
+            "text": "narij ad octonarium numerum. Quo fit, ut semi",
+            "para_no": "",
+            "note": "Word broken after «semi» without a printed hyphen; continued on the next text line."
+          },
+          {
+            "n": 14,
+            "text": "tonium sit quasi dimidium sesquioctauæ diesis au-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 15,
+            "text": "tem quasi quadrans eiusdem. Quamuis enim ra",
+            "para_no": "",
+            "note": "Word broken after «ra» without a printed hyphen; continued on the next text line."
+          },
+          {
+            "n": 16,
+            "text": "tione numeri unitas diuidi non potest, utique tamen",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 17,
+            "text": "unitas quæ in materia conspicitur, diuiditur Geo-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 18,
+            "text": "metricè. Nam chordam eam quæ obseruat ra-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 19,
+            "text": "tionem sesquioctauam, possibile est diuidi in semi",
+            "para_no": "",
+            "note": "Word broken after «semi» without a printed hyphen; continued on the next text line."
+          },
+          {
+            "n": 20,
+            "text": "sesquioctauam, quod est semitonium, et hoc de-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 21,
+            "text": "nuo diuidi in diesin. Geometriæ enim est, semper",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 22,
+            "text": "à maiori recta minorem posse detrahere, sem-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 23,
+            "text": "perqúe posse minori apponere maiorem. ex quo se-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 24,
+            "text": "quitur, ut quælibet figura ad placitum possit cum",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 25,
+            "text": "augeri, tum diminui. Id uerò in Arithmetica lo-",
+            "para_no": "",
+            "note": ""
+          }
+        ],
+        "margins": [],
+        "figures": []
+      },
+      {
+        "page": 43,
+        "file": "source/xylander1556/la-seq47-p43.jpg",
+        "running_head": "COMPENDIVM.",
+        "signature": "",
+        "catchword": "con-",
+        "lines": [
+          {
+            "n": 1,
+            "text": "cum non habet. Ad hæc, propositum quadratum",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 2,
+            "text": "in æqualia partiri quadrata, aut duplum efficere",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 3,
+            "text": "non potest. Numerorum enim sedecim, qui est",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 4,
+            "text": "quadratus, neque in duo potest diducere quadra",
+            "para_no": "",
+            "note": "Word broken after «quadra» without a printed hyphen; continued on the next text line."
+          },
+          {
+            "n": 5,
+            "text": "ta (octo enim Arithmeticè quadratum esse, aut",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 6,
+            "text": "eius numeri dare radicem quadratam, impos-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 7,
+            "text": "sibile est) neque duplum eius aliud quadratum",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 8,
+            "text": "dare (fieri enim non potest, ut numerus triginta",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 9,
+            "text": "duo sit quadratus) At Geometriæ hoc factu",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 10,
+            "text": "non est difficile. nam Geometer dati quadrati la",
+            "para_no": "",
+            "note": "Word broken after «la» without a printed hyphen; continued on the next text line."
+          },
+          {
+            "n": 11,
+            "text": "tere loco diametri accepto, ubi circumposuit qua-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 12,
+            "text": "dratum, id statim propositi est dimidium: iterumqúe acce-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 13,
+            "text": "pta dati quadrati diametro loco lateris, ex eo qua",
+            "para_no": "",
+            "note": "Word broken after «qua» without a printed hyphen; continued on the next text line."
+          },
+          {
+            "n": 14,
+            "text": "dratum describet, quod propositum dupli esse constat.",
+            "para_no": "",
+            "note": "Printed propositum dupli retained; the construction is doubtful (see doubts)."
+          },
+          {
+            "n": 15,
+            "text": "Sic etiam sesquioctaua toni proportio diuidi poterit",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 16,
+            "text": "in semitonium, iterúmque in diesin. Eorundem",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 17,
+            "text": "quoque auctione, compositæ quoque reliquæ in-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 18,
+            "text": "teruallorum species constituuntur: tridiesis, tri-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 19,
+            "text": "semitonium, ditonus, tritonus, et quo quis mo-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 20,
+            "text": "do uoluerit, idqúe rhythmus admiserit, ueluti ex",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 21,
+            "text": "sequentibus cognoscetur. Incomposita autem",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 22,
+            "text": "dicuntur, quia tanquam una cantilena ex coale-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 23,
+            "text": "scentibus in unum tribus diesibus, aut semito-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 24,
+            "text": "nijs totidem, aut diuersis tonis conflatur, po-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 25,
+            "text": "tentia quidem siue facultate diuersa interualla",
+            "para_no": "",
+            "note": ""
+          }
+        ],
+        "margins": [],
+        "figures": [
+          {
+            "position": "beside lines 4–7, right margin",
+            "description": "Sixteen dots, arranged in four rows and four columns. A horizontal stroke divides the array between rows two and three. No numbers, letters or verbal labels. Origin: uncertain: printed diagram or manuscript."
+          },
+          {
+            "position": "beside lines 9–14, right margin",
+            "description": "Thirty-two dots, arranged in eight rows and four columns. A horizontal stroke divides the array between rows four and five, yielding two 4×4 dot squares. No numbers, letters or verbal labels. Origin: uncertain: printed diagram or manuscript."
+          }
+        ]
+      },
+      {
+        "page": 44,
+        "file": "source/xylander1556/la-seq48-p44.jpg",
+        "running_head": "DE MVSICA",
+        "signature": "",
+        "catchword": "dum",
+        "lines": [
+          {
+            "n": 1,
+            "text": "continens, sed unico tamen interuallo edita.",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 2,
+            "text": "Præter hæc sunt et alia interualla: diatessaron,",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 3,
+            "text": "quartam uulgò dicunt: diapente, ijsdem quinta est:",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 4,
+            "text": "et diapason, quam trito uocabulo octauam no-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 5,
+            "text": "minant. Hæc autem neque immediata sunt, neque",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 6,
+            "text": "incomposita, sed per media omnia dicta interual-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 7,
+            "text": "la transeunt. Atque hæc quidem interualla dicun-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 8,
+            "text": "tur, ratione sonitus qui est à primo sono ad extre",
+            "para_no": "",
+            "note": "Word broken after «extre» without a printed hyphen; continued on the next text line."
+          },
+          {
+            "n": 9,
+            "text": "mum: quantitate autem intermediorum sonorum",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 10,
+            "text": "huiusmodi appellationes inuenerunt, diatessaron",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 11,
+            "text": "quidem, quia per quatuor sonos aut neruos tran-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 12,
+            "text": "sit: diapente, quia per quinque: diapason, quia per",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 13,
+            "text": "omnes, hoc est, per octo. Nam quia omnia inter-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 14,
+            "text": "ualla complentur in octachordo, atque inde i-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 15,
+            "text": "terum geminantur, diapason dicitur, quod per o-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 16,
+            "text": "cto neruos transit. Argumento sunt etiam no-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 17,
+            "text": "mina, quæ sequentibus interuallis obtigerunt, ut",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 18,
+            "text": "sunt diapason cum diatessaron, diapason cum dia",
+            "para_no": "",
+            "note": "Word broken after «dia» without a printed hyphen; continued on the next text line."
+          },
+          {
+            "n": 19,
+            "text": "pente: disdiapason, hoc est, octaua cum quarta, o-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 20,
+            "text": "ctaua cum quinta, et duæ octauæ.",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 21,
+            "text": "Consonant autem diatessaron dictum inter-",
+            "para_no": 5,
+            "note": ""
+          },
+          {
+            "n": 22,
+            "text": "uallum, et diapente, secundum id genus consonan",
+            "para_no": "",
+            "note": "Word broken after «consonan» without a printed hyphen; continued on the next text line."
+          },
+          {
+            "n": 23,
+            "text": "tiæ quod Paraphonum Græci dicunt, quasi iuxta",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 24,
+            "text": "sonans. Diapason autem, diapason cum diatessa-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 25,
+            "text": "ron, diapason cum diapente, et disdiapason, secun-",
+            "para_no": "",
+            "note": ""
+          }
+        ],
+        "margins": [
+          {
+            "beside_lines": "17–18, left margin",
+            "text": "Vide Anno\ntationes.",
+            "hand": "printed",
+            "note": "Annotationes broken between marginal lines without a printed hyphen."
+          }
+        ],
+        "figures": []
+      },
+      {
+        "page": 45,
+        "file": "source/xylander1556/la-seq49-p45.jpg",
+        "running_head": "COMPENDIVM.",
+        "signature": "",
+        "catchword": "pente",
+        "lines": [
+          {
+            "n": 1,
+            "text": "dum id genus consonantiæ quod Antiphonum ap-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 2,
+            "text": "pellant, quasi contrà sonans. Inter paraphonum",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 3,
+            "text": "et antiphonum, hoc est assonans et obsonans,",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 4,
+            "text": "hoc differt, quod illud quidem consonat inæquali",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 5,
+            "text": "tempore, quando soni mutuas suas proportionali",
+            "para_no": "",
+            "note": "Word broken after «proportionali» without a printed hyphen; continued on the next text line."
+          },
+          {
+            "n": 6,
+            "text": "tates atque rationes æqualitate quadam leniter et",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 7,
+            "text": "concinnè sibi inuicem succedunt. Antiphonum au-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 8,
+            "text": "tem est, cum simul eodem tempore acutum cum gra-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 9,
+            "text": "ui consonat: ut cum octauus primo, undecimus",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 10,
+            "text": "quarto, duodecimus quinto, decimusquintus o-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 11,
+            "text": "ctauo æqualiter ascendit uel descendit in inten-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 12,
+            "text": "sionibus remissionibusúe, ita ut acutis graues, uel",
+            "para_no": "",
+            "note": "The point after printed sionib. is an abbreviation point and disappears on expansion."
+          },
+          {
+            "n": 13,
+            "text": "contrà, respondeant proportionaliter. Cæterùm",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 14,
+            "text": "tonus, semitonium, atque diesis per se considerata, i-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 15,
+            "text": "nitium quidem seu principium sunt consonantiæ, non",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 16,
+            "text": "tamen consonantia. Conficitur autem diatessaron",
+            "para_no": "",
+            "note": "autẽ silently expanded autem."
+          },
+          {
+            "n": 17,
+            "text": "duobus ex tonis, unoqúe, semitonio, et præterea quo",
+            "para_no": "",
+            "note": "Word broken after «quo» without a printed hyphen; continued on the next text line."
+          },
+          {
+            "n": 18,
+            "text": "piam exiguo: quod quia minus diesi est, appellatio",
+            "para_no": "",
+            "note": "Word broken after «appellatio» without a printed hyphen; continued on the next text line."
+          },
+          {
+            "n": 19,
+            "text": "nem peculiarem non inuenit. Diapente uerò ex",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 20,
+            "text": "tribus tonis, semitonioqúe constat. Diapason autem",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 21,
+            "text": "ex sex tonis conficitur. Diapason autem cum diates-",
+            "para_no": "",
+            "note": "Contracted aut with nasal stroke silently expanded autem."
+          },
+          {
+            "n": 22,
+            "text": "saron, ex octo tonis et semitonio conflatur. Dia-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 23,
+            "text": "pason cum diapente, ex nouem tonis et semito-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 24,
+            "text": "nio. Disdiapason, ex duodecim tonis. Proportio",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 25,
+            "text": "autem diatessaron seu quartæ est sesquitertia, dia",
+            "para_no": "",
+            "note": "Word broken after «dia» without a printed hyphen; continued on the next text line."
+          }
+        ],
+        "margins": [],
+        "figures": []
+      },
+      {
+        "page": 46,
+        "file": "source/xylander1556/la-seq50-p46.jpg",
+        "running_head": "DE MVSICA",
+        "signature": "",
+        "catchword": "cras-",
+        "lines": [
+          {
+            "n": 1,
+            "text": "pente sesquialteram constituit, diapason duplam.",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 2,
+            "text": "Diapason cum diatessaron, duplam superpartien-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 3,
+            "text": "tem: diapason cum diapente, triplam. Id quo melius",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 4,
+            "text": "intelligatur, exempli causa constituatur in nume",
+            "para_no": "",
+            "note": "Word broken after «nume» without a printed hyphen; continued on the next text line."
+          },
+          {
+            "n": 5,
+            "text": "ris primus terminus senarius: ad eum sesquitertius",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 6,
+            "text": "est octonarius, sesquialter nouenarius, duplus",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 7,
+            "text": "duodenarius, duplus superpartiens (nimirum super",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 8,
+            "text": "bipartiens tertias) sedecim. Triplus denique, octo-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 9,
+            "text": "decim: quadruplus, uiginti quatuor. At enim sci-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 10,
+            "text": "re hoc oportet, proportiones interuallorum nequa",
+            "para_no": "",
+            "note": "Word broken after «nequa» without a printed hyphen; continued on the next text line."
+          },
+          {
+            "n": 11,
+            "text": "quam iudicari ad numeros sonorum uel fidium facta",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 12,
+            "text": "collatione, sed ad sonitus ipsius intensionem a gra-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 13,
+            "text": "ui ad acutum. Nam quia interuallum diapente dixi",
+            "para_no": "",
+            "note": "Word broken after «dixi» without a printed hyphen; continued on the next text line."
+          },
+          {
+            "n": 14,
+            "text": "mus habere sesquialteram proportionem, equidem id",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 15,
+            "text": "non intelligendum est ad excessum quantitatis re-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 16,
+            "text": "spiciendo, qua in respectu se præcedentium sonorum",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 17,
+            "text": "habet. Ea namque ratione ad primum esset quincuplum,",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 18,
+            "text": "ad secundum duplum sesquialterum: at tertiò collatum,",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 19,
+            "text": "eum, eiusqúe bessem continet: sesquiquartum uerò",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 20,
+            "text": "est ad quartum, nulli autem horum omnium sesquialtera",
+            "para_no": "",
+            "note": "Contracted aut with nasal stroke silently expanded autem."
+          },
+          {
+            "n": 21,
+            "text": "proportione quadrat. Ergo ad intensionem acuta-",
+            "para_no": "",
+            "note": "acuta- is printed; reading text corrects acutatis to acuitatis (see misprints)."
+          },
+          {
+            "n": 22,
+            "text": "tis, non ad numerum sonorum respiciendum. eo e-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 23,
+            "text": "nim tandem modo sesquialterum erit, quod idem de",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 24,
+            "text": "reliquis existimandum est. Porrò hæ proportio-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 25,
+            "text": "nes interuallorum, aut per differentiam longitudinis,",
+            "para_no": "",
+            "note": ""
+          }
+        ],
+        "margins": [],
+        "figures": []
+      },
+      {
+        "page": 47,
+        "file": "source/xylander1556/la-seq51-p47.jpg",
+        "running_head": "COMPENDIVM.",
+        "signature": "",
+        "catchword": "ipsa",
+        "lines": [
+          {
+            "n": 1,
+            "text": "crassitieíue neruorum, aut per tensionem, quæ fit con-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 2,
+            "text": "uersione clauorum, deprehensæ sunt, aut à ponde-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 3,
+            "text": "rum tractione fortè manifestius: in illis uerò quæ",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 4,
+            "text": "inflantur, uel per cauitatis amplitudinem, uel ab",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 5,
+            "text": "intensione et remissione spiritus. Porrò sy-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 6,
+            "text": "stematum aliud est tetrachordum, quod qua-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 7,
+            "text": "tuor componitur neruis, omnem uim interual-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 8,
+            "text": "li diatessaron complectens: aliud pentachordum,",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 9,
+            "text": "quinque ex neruis constitutum, diapente interualli",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 10,
+            "text": "omnem potestatem in se continens: aliud octachor",
+            "para_no": "",
+            "note": "Word broken after «octachor» without a printed hyphen; continued on the next text line."
+          },
+          {
+            "n": 11,
+            "text": "dum, octo ex neruis constructum, omnem octauæ",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 12,
+            "text": "materiem ambiens. Est et quod continentibus se-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 13,
+            "text": "decim neruis conficitur, omnem disdiapason (de",
+            "para_no": "",
+            "note": "Word broken after «de» without a printed hyphen; continued on the next text line."
+          },
+          {
+            "n": 14,
+            "text": "cimamquintam hodie uocant) interualli ambitum",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 15,
+            "text": "comprehendens, eoqúe ad duplices usus habile, quòd",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 16,
+            "text": "et prædicta interualla, et ex his ipsis composita",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 17,
+            "text": "complectitur. Inter systemata proinde, ac in me-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 18,
+            "text": "dio eorum concepta interualla hoc interest, quod",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 19,
+            "text": "systematum omnis constitutio in materia specta",
+            "para_no": "",
+            "note": "Initial s of systematum lies at the gutter; identifiable from the visible letter and its continuation. Word broken after «specta» without a printed hyphen; continued on the next text line."
+          },
+          {
+            "n": 20,
+            "text": "tur: cogitatione autem separata materia, interual",
+            "para_no": "",
+            "note": "Initial t of tur lies close to the gutter. Word broken after «interual» without a printed hyphen; continued on the next text line."
+          },
+          {
+            "n": 21,
+            "text": "la intelliguntur. Harmoniæ proprium est, ut ea",
+            "para_no": "",
+            "note": "Initial l of la is close to the gutter. Harmoniæ begins within this line, not a new indented paragraph."
+          },
+          {
+            "n": 22,
+            "text": "systemata construat atque concinnet ad horum",
+            "para_no": "",
+            "note": "Initial s of systemata is close to the gutter."
+          },
+          {
+            "n": 23,
+            "text": "melodiæ (eam cantus seu cantilenæ modulatio-",
+            "para_no": "",
+            "note": "Initial m of melodiæ is close to the gutter."
+          },
+          {
+            "n": 24,
+            "text": "nem ferè dixeris) generum aliquod, quæ sunt",
+            "para_no": "",
+            "note": "Initial n of nem is close to the gutter."
+          },
+          {
+            "n": 25,
+            "text": "diatonon, chromaticum, et harmonicum, cui ab",
+            "para_no": "",
+            "note": "Initial d of diatonon is close to the gutter."
+          }
+        ],
+        "margins": [],
+        "figures": []
+      },
+      {
+        "page": 48,
+        "file": "source/xylander1556/la-seq52-p48.jpg",
+        "running_head": "DE MVSICA",
+        "signature": "",
+        "catchword": "har-",
+        "lines": [
+          {
+            "n": 1,
+            "text": "ipsa Harmonia nomen obtigit. Nam siquidem har",
+            "para_no": "",
+            "note": "Word broken after «har» without a printed hyphen; continued on the next text line."
+          },
+          {
+            "n": 2,
+            "text": "monia ipsa seu consonantiarum coaptatio potis-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 3,
+            "text": "simum per tonos progrediatur, eo modo diatoni",
+            "para_no": "",
+            "note": "Word broken after «diatoni» without a printed hyphen; continued on the next text line."
+          },
+          {
+            "n": 4,
+            "text": "cum conficitur genus melodiæ: sin per semitonia,",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 5,
+            "text": "chromaticum, quasi coloratum dicas: sin ipsa har-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 6,
+            "text": "monia diesibus maiore sui parte absoluatur, har-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 7,
+            "text": "monicus eo modo cantus conflatur. Neque tamen",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 8,
+            "text": "aut solis ex tonis uniuersa harmonía componitur,",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 9,
+            "text": "aut ex solis semitonijs, solísue diesibus: id enim fi",
+            "para_no": "",
+            "note": "Word broken after «fi» without a printed hyphen; continued on the next text line."
+          },
+          {
+            "n": 10,
+            "text": "eri nequit. Sed quoniam quidem tribus ex interual",
+            "para_no": "",
+            "note": "Word broken after «interual» without a printed hyphen; continued on the next text line."
+          },
+          {
+            "n": 11,
+            "text": "lis constat diatessaron, comprehensum uidelicet",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 12,
+            "text": "duobus tonis et semitonio: in harmoniam coapta",
+            "para_no": "",
+            "note": "Word broken after «coapta» without a printed hyphen; continued on the next text line."
+          },
+          {
+            "n": 13,
+            "text": "tis duobus tonis, opus est reliquum semitonio per-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 14,
+            "text": "fici. hocqúe genus diatessaron, diatonicum uocatur:",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 15,
+            "text": "quanquam ad eius constitutionem, præter duos",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 16,
+            "text": "tonos, semitonium quoque accesserit. Iam si duo sint",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 17,
+            "text": "semitonia, quod superest, ex coalitu utique confla-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 18,
+            "text": "tur interuallum, trisemitonium incompositum:",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 19,
+            "text": "atque ita ex duobus semitonijs et trisemitonio con-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 20,
+            "text": "fundetur genus diatesseron, quod Chromaticum",
+            "para_no": "",
+            "note": "Printed diatesseron retained diplomatically; corrected in the reading text."
+          },
+          {
+            "n": 21,
+            "text": "uocatur, ad mouendos affectus et luctum cien-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 22,
+            "text": "dum efficacius. Sin melodia per duas dieses pro-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 23,
+            "text": "cedat, alterum interuallorum erit ditonus ex",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 24,
+            "text": "coalitu: idqúe genus diatessaron, Harmonicum",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 25,
+            "text": "dicetur, quod eò quia sit optimum, à communi",
+            "para_no": "",
+            "note": ""
+          }
+        ],
+        "margins": [],
+        "figures": []
+      },
+      {
+        "page": 49,
+        "file": "source/xylander1556/la-seq53-p49.jpg",
+        "running_head": "COMPENDIVM.",
+        "signature": "d",
+        "catchword": "GE-",
+        "lines": [
+          {
+            "n": 1,
+            "text": "harmoniæ uocabulo nomen inuenit. Neque alia",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 2,
+            "text": "ratione etiam ab harmonia reliqua systematum ge",
+            "para_no": "",
+            "note": "Word broken after «ge» without a printed hyphen; continued on the next text line."
+          },
+          {
+            "n": 3,
+            "text": "nera conficiuntur. Verùm quia exemplo tetra-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 4,
+            "text": "chordi ostendimus, quomodo interualla ipsa in-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 5,
+            "text": "ter se contexerentur, facilè studiosus lector etiam",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 6,
+            "text": "de reliquis systematibus coniecturam faciet. Sa",
+            "para_no": "",
+            "note": "Word broken after «Sa» without a printed hyphen; continued on the next text line."
+          },
+          {
+            "n": 7,
+            "text": "nè ad cantum difficilimè omnium genus melodiæ",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 8,
+            "text": "harmonicum applicari potest, multumqúe ea res",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 9,
+            "text": "usum ad consuetudinem requirit: quare neque in",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 10,
+            "text": "usum ferè uenit. Contra diatonicum simplex est,",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 11,
+            "text": "egregium, naturæqúe aptum: quo factum est, ut",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 12,
+            "text": "Plato quoque id receperit. Verùm horum præterea",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 13,
+            "text": "unumquodque uariatur, inqúe haud paucas cantuum",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 14,
+            "text": "diuisiones, differentias atque species diducitur. Mo",
+            "para_no": "",
+            "note": "Word broken after «Mo» without a printed hyphen; continued on the next text line."
+          },
+          {
+            "n": 15,
+            "text": "dò enim Lydia, modò Phrygia, mox etiam Dorica",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 16,
+            "text": "cantilena concinnatur: ad quarum unamquanque",
+            "para_no": "",
+            "note": "Printed unamquan- before the -que sign: expanded unamquanque; corrected in the reading text."
+          },
+          {
+            "n": 17,
+            "text": "Pæan, Hymenæus, Exodius, et alia quæcunque",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 18,
+            "text": "meliodiarum genera aptantur. Neque enim sola in-",
+            "para_no": "",
+            "note": "Printed meliodiarum retained diplomatically; corrected in the reading text."
+          },
+          {
+            "n": 19,
+            "text": "teruallorum mutatione, aut eorum discrimine, sed",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 20,
+            "text": "præterea etiam obliquioribus aut celerioribus transi",
+            "para_no": "",
+            "note": "Word broken after «transi» without a printed hyphen; continued on the next text line."
+          },
+          {
+            "n": 21,
+            "text": "tibus, mansionibus, fluxibus, tum tactuum ipso-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 22,
+            "text": "rum pulsationumqúe uarijs administrationibus,",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 23,
+            "text": "innumera, atque planè uaria cantilena-",
+            "para_no": "",
+            "note": "Beginning of the centered, tapering closing lines; continuation of paragraph 5, not a new indentation-defined paragraph."
+          },
+          {
+            "n": 24,
+            "text": "rum genera comparantur.",
+            "para_no": "",
+            "note": "Centered continuation of paragraph 5."
+          },
+          {
+            "n": 25,
+            "text": "Finis Musicæ.",
+            "para_no": "",
+            "note": "Closing formula counted as a main-text line."
+          }
+        ],
+        "margins": [
+          {
+            "beside_lines": "17, right margin",
+            "text": "Vide Annotationes.",
+            "hand": "printed",
+            "printed_text": "Vide Annot.",
+            "note": "Annot. expanded; final point retained as the closing punctuation of the note."
+          }
+        ],
+        "figures": []
+      }
+    ],
+    "abbreviations": [
+      {
+        "printed": "&",
+        "expansion": "et",
+        "example": "Xyl. 40.6"
+      },
+      {
+        "printed": "q with -que abbreviation sign",
+        "expansion": "que",
+        "example": "Xyl. 40.5 absque"
+      },
+      {
+        "printed": "accented q with -que abbreviation sign",
+        "expansion": "qúe",
+        "example": "Xyl. 40.2 euidensqúe; 40.23 xornatqúe"
+      },
+      {
+        "printed": "nasal stroke above a vowel (e.g. cõ-, mẽ-)",
+        "expansion": "m or n according to the word and context",
+        "example": "Xyl. 40.6 con-, mensuratione"
+      },
+      {
+        "printed": "-b.",
+        "expansion": "-bus, without retaining the abbreviation point",
+        "example": "Xyl. 40.22 omnibus; 45.12 intensionibus; 47.12 continentibus"
+      },
+      {
+        "printed": "autẽ; contracted aut with nasal stroke",
+        "expansion": "autem",
+        "example": "Xyl. 45.16; 45.21; 46.20"
+      },
+      {
+        "printed": "Annot.",
+        "expansion": "Annotationes.",
+        "example": "Xyl. 49, printed right marginal note beside line 17; fuller form in the note at 44.17–18"
+      }
+    ],
+    "doubtful_expansions": [
+      {
+        "ref": "Xyl. 43.11",
+        "printed": "circũposuit",
+        "expanded": "circumposuit",
+        "certainty": "high",
+        "reason": "The nasal stroke alone does not distinguish m/n; circum- before p supplies the contextual expansion."
+      },
+      {
+        "ref": "Xyl. 44.23",
+        "printed": "Paraphonũ",
+        "expanded": "Paraphonum",
+        "certainty": "high",
+        "reason": "Final nasal could graphically be m/n; full paraphonum at 45.2 supports m."
+      },
+      {
+        "ref": "Xyl. 45.1; 45.7",
+        "printed": "Antiphonũ",
+        "expanded": "Antiphonum",
+        "certainty": "high",
+        "reason": "Final nasal could graphically be m/n; full antiphonum at 45.3 supports m."
+      },
+      {
+        "ref": "Xyl. 46.2",
+        "printed": "diatessarõ",
+        "expanded": "diatessaron",
+        "certainty": "high",
+        "reason": "Final nasal could graphically be m/n; repeated full diatessaron elsewhere supports n."
+      },
+      {
+        "ref": "Xyl. 45.21; 46.20",
+        "printed": "contracted aut with nasal stroke",
+        "expanded": "autem",
+        "certainty": "high",
+        "reason": "The contraction omits letters beyond a single nasal; parallel autẽ at 45.16 and syntax establish autem."
+      }
+    ],
+    "misprints": [
+      {
+        "ref": "Xyl. 46.21–22",
+        "printed": "acuta-|tis",
+        "proposed": "acuitatis",
+        "reason": "The context requires a noun for acuteness in «ad intensionem …»; acutatis appears to omit i from acuitatis. Corrected in the reading text.",
+        "certainty": "high"
+      },
+      {
+        "ref": "Xyl. 48.20",
+        "printed": "diatesseron",
+        "proposed": "diatessaron",
+        "reason": "The same interval is repeatedly called diatessaron, including 48.11, 48.14 and 48.24. Corrected in the reading text.",
+        "certainty": "high"
+      },
+      {
+        "ref": "Xyl. 49.16",
+        "printed": "unamquanque (unamquan- plus -que abbreviation)",
+        "proposed": "unamquamque",
+        "reason": "Accusative feminine singular after «ad quarum» calls for unamquamque; the printed form has n before the sign. Corrected in the reading text.",
+        "certainty": "high"
+      },
+      {
+        "ref": "Xyl. 49.18",
+        "printed": "meliodiarum",
+        "proposed": "melodiarum",
+        "reason": "The recurring word is melodia (47.23; 48.4, 48.22; 49.7); the extra i is an isolated printing slip. Corrected in the reading text.",
+        "certainty": "high"
+      },
+      {
+        "ref": "Xyl. 43.14",
+        "printed": "propositum dupli",
+        "proposed": "possibly propositi duplum; retained without correction",
+        "reason": "«quod propositum dupli esse constat» is syntactically difficult in the statement about the doubled square. A transposition of the endings is possible, but the phrase may be authorial and is not silently emended.",
+        "certainty": "low"
+      }
+    ],
+    "reading_title": {
+      "ref": "Xyl. 40.1–40.2",
+      "text": "Exacta summa hic, evidensque Musicae."
+    },
+    "reading_text": [
+      {
+        "para": 1,
+        "ref": "Xyl. 40.3–40.12",
+        "text": "UNiversum hoc, antiqui Musica contineri perhibuerunt. Nihil enim in rerum natura absque commensuratione et proportione consistit: neque quicquam eorum quae fiunt, sine debita commensuratione et proportione si fiat, recte productum natumve esse dicitur: sive id ab arte efficiatur, sive a natura: et sive sub sensum illud cadat, sive solo intellectu perspiciatur."
+      },
+      {
+        "para": 2,
+        "ref": "Xyl. 40.13–41.3",
+        "text": "Caeterum Musica ipsa per se commensuratio quaedam omnino et proportionalitas est, nimirum harmonia universi existens. Fortassis et ipsam divinam naturam haud inconvenienter sui ipsius et universi harmoniam quispiam dixerit: siquidem in Deo concinnatus, et ad consonantiam coaptatus mundus, bene, atque adeo quam optime se habere videtur. Tanto nimirum Musicam illi dignati sunt miraculo. Ea quando in omnibus conspicitur, atque universa temperat, exornatque, tum sensui voluptatem, congruentiam autem (harmoniam dico) Naturae, beatitatem denique intellectui largitur: nos de ea Musica quae in sensibus, aut potius uno sensuum auditu consideratur, paucis disseremus."
+      },
+      {
+        "para": 3,
+        "ref": "Xyl. 41.4–42.7",
+        "text": "Sonus est, vocis nullo intervallo divisae harmoniae particeps intensio, seu tenor. Intervallum autem, sonorum mutua unius ad alterum ratio, sive respectus. Systema, complexus est certus intervallorum. Harmonia, ipsa constructio systematum. Enimvero sonus divisionis capax non est, ut neque punctum in Geometria. Harmoniae participem diximus, quia ita effertur, ut possit etiam cum alio sono ad harmoniam concinnari. Quod nisi fiat, iam is dissonus sit sonus, non consonus: imo neque sonus dicetur esse, sed strepitus quispiam temere editus, et ad consonantiam nulli existens usui. Proinde diversae sunt sonorum, quas illi progressu et ordine, quem a gravi ad acutum observant, nanciscuntur nomenclationes: Proslambanomenos, Hypate hypaton, parhypate hypaton, hypate diatonos, hypate meson, parhypate meson, diatonos meson, mese monos, paramesos, trite diezeugmene, diatonos diezeugmene, nete diezeugmene, trite hyperbolaeon, diatonos hyperbolaeon, nete hyperbolaeon. Per has sonorum species heccaedecachordum, hoc est, sedecim chordarum instrumentum in quindecim fidibus instructo organo (Pentecaedecachordum vocant Graeci) absolvitur, fine octachordi ad principium sequentium continuo assumpto. Quam enim rationem habet primus sonus ad octavum, eandem octavus ad decimumquintum obtinet. Et haec de sonis."
+      },
+      {
+        "para": 4,
+        "ref": "Xyl. 42.8–44.20",
+        "text": "Intervallorum autem minimum genus est, quod diesin vocant: deinde semitonium, cuius dupla ad acutum est accessio, respectu dieseos. Deinde est tonus duplici constans semitonio, et rationem sesquioctavam constituens, ut est novenarii ad octonarium numerum. Quo fit, ut semitonium sit quasi dimidium sesquioctavae diesis autem quasi quadrans eiusdem. Quamvis enim ratione numeri unitas dividi non potest, utique tamen unitas quae in materia conspicitur, dividitur Geometrice. Nam chordam eam quae observat rationem sesquioctavam, possibile est dividi in semisesquioctavam, quod est semitonium, et hoc denuo dividi in diesin. Geometriae enim est, semper a maiori recta minorem posse detrahere, semperque posse minori apponere maiorem. ex quo sequitur, ut quaelibet figura ad placitum possit cum augeri, tum diminui. Id vero in Arithmetica locum non habet. Ad haec, propositum quadratum in aequalia partiri quadrata, aut duplum efficere non potest. Numerorum enim sedecim, qui est quadratus, neque in duo potest diducere quadrata (octo enim Arithmetice quadratum esse, aut eius numeri dare radicem quadratam, impossibile est) neque duplum eius aliud quadratum dare (fieri enim non potest, ut numerus triginta duo sit quadratus) At Geometriae hoc factu non est difficile. nam Geometer dati quadrati latere loco diametri accepto, ubi circumposuit quadratum, id statim propositi est dimidium: iterumque accepta dati quadrati diametro loco lateris, ex eo quadratum describet, quod propositum dupli esse constat. Sic etiam sesquioctava toni proportio dividi poterit in semitonium, iterumque in diesin. Eorundem quoque auctione, compositae quoque reliquae intervallorum species constituuntur: tridiesis, trisemitonium, ditonus, tritonus, et quo quis modo voluerit, idque rhythmus admiserit, veluti ex sequentibus cognoscetur. Incomposita autem dicuntur, quia tanquam una cantilena ex coalescentibus in unum tribus diesibus, aut semitoniis totidem, aut diversis tonis conflatur, potentia quidem sive facultate diversa intervalla continens, sed unico tamen intervallo edita. Praeter haec sunt et alia intervalla: diatessaron, quartam vulgo dicunt: diapente, iisdem quinta est: et diapason, quam trito vocabulo octavam nominant. Haec autem neque immediata sunt, neque incomposita, sed per media omnia dicta intervalla transeunt. Atque haec quidem intervalla dicuntur, ratione sonitus qui est a primo sono ad extremum: quantitate autem intermediorum sonorum huiusmodi appellationes invenerunt, diatessaron quidem, quia per quatuor sonos aut nervos transit: diapente, quia per quinque: diapason, quia per omnes, hoc est, per octo. Nam quia omnia intervalla complentur in octachordo, atque inde iterum geminantur, diapason dicitur, quod per octo nervos transit. Argumento sunt etiam nomina, quae sequentibus intervallis obtigerunt, ut sunt diapason cum diatessaron, diapason cum diapente: disdiapason, hoc est, octava cum quarta, octava cum quinta, et duae octavae."
+      },
+      {
+        "para": 5,
+        "ref": "Xyl. 44.21–49.24",
+        "text": "Consonant autem diatessaron dictum intervallum, et diapente, secundum id genus consonantiae quod Paraphonum Graeci dicunt, quasi iuxta sonans. Diapason autem, diapason cum diatessaron, diapason cum diapente, et disdiapason, secundum id genus consonantiae quod Antiphonum appellant, quasi contra sonans. Inter paraphonum et antiphonum, hoc est assonans et obsonans, hoc differt, quod illud quidem consonat inaequali tempore, quando soni mutuas suas proportionalitates atque rationes aequalitate quadam leniter et concinne sibi invicem succedunt. Antiphonum autem est, cum simul eodem tempore acutum cum gravi consonat: ut cum octavus primo, undecimus quarto, duodecimus quinto, decimusquintus octavo aequaliter ascendit vel descendit in intensionibus remissionibusve, ita ut acutis graves, vel contra, respondeant proportionaliter. Caeterum tonus, semitonium, atque diesis per se considerata, initium quidem seu principium sunt consonantiae, non tamen consonantia. Conficitur autem diatessaron duobus ex tonis, unoque, semitonio, et praeterea quopiam exiguo: quod quia minus diesi est, appellationem peculiarem non invenit. Diapente vero ex tribus tonis, semitonioque constat. Diapason autem ex sex tonis conficitur. Diapason autem cum diatessaron, ex octo tonis et semitonio conflatur. Diapason cum diapente, ex novem tonis et semitonio. Disdiapason, ex duodecim tonis. Proportio autem diatessaron seu quartae est sesquitertia, diapente sesquialteram constituit, diapason duplam. Diapason cum diatessaron, duplam superpartientem: diapason cum diapente, triplam. Id quo melius intelligatur, exempli causa constituatur in numeris primus terminus senarius: ad eum sesquitertius est octonarius, sesquialter novenarius, duplus duodenarius, duplus superpartiens (nimirum super bipartiens tertias) sedecim. Triplus denique, octodecim: quadruplus, viginti quatuor. At enim scire hoc oportet, proportiones intervallorum nequaquam iudicari ad numeros sonorum vel fidium facta collatione, sed ad sonitus ipsius intensionem a gravi ad acutum. Nam quia intervallum diapente diximus habere sesquialteram proportionem, equidem id non intelligendum est ad excessum quantitatis respiciendo, qua in respectu se praecedentium sonorum habet. Ea namque ratione ad primum esset quincuplum, ad secundum duplum sesquialterum: at tertio collatum, eum, eiusque bessem continet: sesquiquartum vero est ad quartum, nulli autem horum omnium sesquialtera proportione quadrat. Ergo ad intensionem acuitatis, non ad numerum sonorum respiciendum. eo enim tandem modo sesquialterum erit, quod idem de reliquis existimandum est. Porro hae proportiones intervallorum, aut per differentiam longitudinis, crassitieive nervorum, aut per tensionem, quae fit conversione clavorum, deprehensae sunt, aut a ponderum tractione forte manifestius: in illis vero quae inflantur, vel per cavitatis amplitudinem, vel ab intensione et remissione spiritus. Porro systematum aliud est tetrachordum, quod quatuor componitur nervis, omnem vim intervalli diatessaron complectens: aliud pentachordum, quinque ex nervis constitutum, diapente intervalli omnem potestatem in se continens: aliud octachordum, octo ex nervis constructum, omnem octavae materiem ambiens. Est et quod continentibus sedecim nervis conficitur, omnem disdiapason (decimamquintam hodie vocant) intervalli ambitum comprehendens, eoque ad duplices usus habile, quod et praedicta intervalla, et ex his ipsis composita complectitur. Inter systemata proinde, ac in medio eorum concepta intervalla hoc interest, quod systematum omnis constitutio in materia spectatur: cogitatione autem separata materia, intervalla intelliguntur. Harmoniae proprium est, ut ea systemata construat atque concinnet ad horum melodiae (eam cantus seu cantilenae modulationem fere dixeris) generum aliquod, quae sunt diatonon, chromaticum, et harmonicum, cui ab ipsa Harmonia nomen obtigit. Nam siquidem harmonia ipsa seu consonantiarum coaptatio potissimum per tonos progrediatur, eo modo diatonicum conficitur genus melodiae: sin per semitonia, chromaticum, quasi coloratum dicas: sin ipsa harmonia diesibus maiore sui parte absolvatur, harmonicus eo modo cantus conflatur. Neque tamen aut solis ex tonis universa harmonia componitur, aut ex solis semitoniis, solisve diesibus: id enim fieri nequit. Sed quoniam quidem tribus ex intervallis constat diatessaron, comprehensum videlicet duobus tonis et semitonio: in harmoniam coaptatis duobus tonis, opus est reliquum semitonio perfici. hocque genus diatessaron, diatonicum vocatur: quanquam ad eius constitutionem, praeter duos tonos, semitonium quoque accesserit. Iam si duo sint semitonia, quod superest, ex coalitu utique conflatur intervallum, trisemitonium incompositum: atque ita ex duobus semitoniis et trisemitonio confundetur genus diatessaron, quod Chromaticum vocatur, ad movendos affectus et luctum ciendum efficacius. Sin melodia per duas dieses procedat, alterum intervallorum erit ditonus ex coalitu: idque genus diatessaron, Harmonicum dicetur, quod eo quia sit optimum, a communi harmoniae vocabulo nomen invenit. Neque alia ratione etiam ab harmonia reliqua systematum genera conficiuntur. Verum quia exemplo tetrachordi ostendimus, quomodo intervalla ipsa inter se contexerentur, facile studiosus lector etiam de reliquis systematibus coniecturam faciet. Sane ad cantum difficilime omnium genus melodiae harmonicum applicari potest, multumque ea res usum ad consuetudinem requirit: quare neque in usum fere venit. Contra diatonicum simplex est, egregium, naturaeque aptum: quo factum est, ut Plato quoque id receperit. Verum horum praeterea unumquodque variatur, inque haud paucas cantuum divisiones, differentias atque species diducitur. Modo enim Lydia, modo Phrygia, mox etiam Dorica cantilena concinnatur: ad quarum unamquamque Paean, Hymenaeus, Exodius, et alia quaecunque melodiarum genera aptantur. Neque enim sola intervallorum mutatione, aut eorum discrimine, sed praeterea etiam obliquioribus aut celerioribus transitibus, mansionibus, fluxibus, tum tactuum ipsorum pulsationumque variis administrationibus, innumera, atque plane varia cantilenarum genera comparantur."
+      }
+    ],
+    "reading_closing_formula": {
+      "ref": "Xyl. 49.25",
+      "text": "Finis Musicae."
+    }
+  },
+  "vinet": {
+    "extent": {
+      "first": "Vinet 41.1 «MICHAELIS PSELLI»",
+      "last": "Vinet 53.21 «Finis Musicæ.»"
+    },
+    "pages": [
+      {
+        "page": 41,
+        "file": "source/vinet1591/la-vinet-seq47-p41.jpg",
+        "running_head": "",
+        "signature": "",
+        "catchword": "me-",
+        "lines": [
+          {
+            "n": 1,
+            "text": "MICHAELIS PSELLI",
+            "para_no": "",
+            "note": "An ornamental headpiece stands above the title; it is not counted as a text line."
+          },
+          {
+            "n": 2,
+            "text": "MVSICA.",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 3,
+            "text": "CAPVT 1.",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 4,
+            "text": "De Musica in commune.",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 5,
+            "text": "MVsica Vniuersitatem contineri",
+            "para_no": "I.1",
+            "note": "Woodcut initial M; the following V is a capital. The nasal stroke in Vniuersitatẽ is expanded as m."
+          },
+          {
+            "n": 6,
+            "text": "veteres dixerunt. Rerum enim",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 7,
+            "text": "naturalium nulla est, quæ vacet",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 8,
+            "text": "symmetria, et proportione: quinimo eorum",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 9,
+            "text": "quæ fiunt, si quid non cum apta symme-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 10,
+            "text": "tria et proportione efficitur, nunquam pul",
+            "para_no": "",
+            "note": "pul / chrè is divided without a printed hyphen."
+          },
+          {
+            "n": 11,
+            "text": "chrè factum fuerit, siue artis id opus sit, siue",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 12,
+            "text": "naturæ: siue sensu id percipiatur aliquo, si-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 13,
+            "text": "ue sola mente comprehendi possit. Musi-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 14,
+            "text": "ca autem est ipsa per se symmetria et pro-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 15,
+            "text": "portio, ipsáque adeò Vniuersitas, vtpote",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 16,
+            "text": "quæ vniuersitatis harmonia est ac conue-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 17,
+            "text": "nientia. Quin et Deum ipsum quoque non",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 18,
+            "text": "ineptè fortasse tum sui ipsius, tum vniuer-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 19,
+            "text": "sitatis conuenientiam dixeris: in quo ita aptè",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 20,
+            "text": "consistit vniuersitas, vt perpulchrè opti-",
+            "para_no": "",
+            "note": ""
+          }
+        ],
+        "margins": [],
+        "figures": []
+      },
+      {
+        "page": 42,
+        "file": "source/vinet1591/la-vinet-seq48-p42.jpg",
+        "running_head": "PSELLI",
+        "signature": "",
+        "catchword": "est,",
+        "lines": [
+          {
+            "n": 1,
+            "text": "méque habere conspiciatur: tanta dignam",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 2,
+            "text": "admiratione Musicam existimarunt. Mu-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 3,
+            "text": "sica itaque in rebus ad hunc modum om-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 4,
+            "text": "nibus deprehenditur, omnia componit or-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 5,
+            "text": "nâtque, et voluptatem quidem sensui, con-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 6,
+            "text": "uenientiam verò naturæ, et beatitudinem",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 7,
+            "text": "menti præstat.",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 8,
+            "text": "Nos autem hîc de Musica illa, quam",
+            "para_no": "I.2",
+            "note": ""
+          },
+          {
+            "n": 9,
+            "text": "sensus aut potius sensuum vnus auditus,",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 10,
+            "text": "percipit contemplatúrque, breuiter disce",
+            "para_no": "",
+            "note": "disce / ptabimus is divided without a printed hyphen."
+          },
+          {
+            "n": 11,
+            "text": "ptabimus.",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 12,
+            "text": "CAPVT 2.",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 13,
+            "text": "De Soni natura, et variis appel-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 14,
+            "text": "lationibus.",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 15,
+            "text": "SOnus est vocis interuallo carentis",
+            "para_no": "II.1",
+            "note": "Large initial S; following O is a capital."
+          },
+          {
+            "n": 16,
+            "text": "conueniens intensio. Interuallum,",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 17,
+            "text": "quædam sonorum inter se habitudo. Sy-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 18,
+            "text": "stema, quędam interuallorum complexio.",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 19,
+            "text": "Harmonia, systematum compositio. So-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 20,
+            "text": "nus itaque interuallo dimensionéque va-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 21,
+            "text": "cat, vt punctum in Geometria. Conueniens",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 22,
+            "text": "verò dicitur, quod ita efferri oportet, vt cum",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 23,
+            "text": "alio sono conuenire possit, quoniam nisi",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 24,
+            "text": "sic elatus sit, absurdus et absonus sonus",
+            "para_no": "",
+            "note": ""
+          }
+        ],
+        "margins": [
+          {
+            "beside_lines": "15–16, left margin",
+            "text": "quid so / nus [?] Probably 'quid sonus'; exact cursive form of the top line uncertain.",
+            "hand": "manuscript"
+          },
+          {
+            "beside_lines": "before 15",
+            "text": "Long horizontal manuscript rule below chapter subtitle.",
+            "hand": "manuscript"
+          },
+          {
+            "beside_lines": "15–21",
+            "text": "Underlines beneath the definition text: l15 from 'Onus' through 'carentis'; l16 'conueniens intensio' and 'Interuallum'; l17 'quædam sonorum inter se'; l18 'complexio'; l19 'Harmonia' and much of 'systematum compositio'; l20 'nus itaque' and part of 'dimensioneque'; l21 'Conueniens'.",
+            "hand": "manuscript"
+          }
+        ],
+        "figures": []
+      },
+      {
+        "page": 43,
+        "file": "source/vinet1591/la-vinet-seq49-p43.jpg",
+        "running_head": "MVSICA.",
+        "signature": "",
+        "catchword": "ha-",
+        "lines": [
+          {
+            "n": 1,
+            "text": "est, non conueniens: imò verò ne sonus",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 2,
+            "text": "quidem omnino vocandus, sed crepitus",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 3,
+            "text": "quidam temerè editus, et ad conuenien-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 4,
+            "text": "tiam concentúmque ineptus.",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 5,
+            "text": "Porrò autem sonorum appellationes",
+            "para_no": "II.2",
+            "note": ""
+          },
+          {
+            "n": 6,
+            "text": "variæ sunt, qui vt à graui ad acutum ordi-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 7,
+            "text": "ne progrediuntur, sic nominari solent,",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 8,
+            "text": "Proslambanómenos,",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 9,
+            "text": "Hypáte hypáton,",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 10,
+            "text": "Parhypáte hypáton,",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 11,
+            "text": "Hypáte diátonos,",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 12,
+            "text": "Hypáte méson,",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 13,
+            "text": "Parhypáte méson,",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 14,
+            "text": "Diátonos méson,",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 15,
+            "text": "Mése solùm,",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 16,
+            "text": "Paramése,",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 17,
+            "text": "Trite diezeugméne,",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 18,
+            "text": "Diátonos diezeugméne,",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 19,
+            "text": "Néte diezeugméne,",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 20,
+            "text": "Trite hyperbolæon,",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 21,
+            "text": "Diatonos hyperbolæon,",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 22,
+            "text": "Néte hyperbolæon.",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 23,
+            "text": "Ex his conficitur, quod in Pentekæ-",
+            "para_no": "II.3",
+            "note": ""
+          },
+          {
+            "n": 24,
+            "text": "decachordo est Heckædecachordum: quan-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 25,
+            "text": "do finis Octachordi, principium deinceps",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 26,
+            "text": "continuò sequentibus constituitur. Quam",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 27,
+            "text": "enim rationem primus sonus ad octauum",
+            "para_no": "",
+            "note": ""
+          }
+        ],
+        "margins": [],
+        "figures": []
+      },
+      {
+        "page": 44,
+        "file": "source/vinet1591/la-vinet-seq50-p44.jpg",
+        "running_head": "PSELLI",
+        "signature": "",
+        "catchword": "in",
+        "lines": [
+          {
+            "n": 1,
+            "text": "habere cernitur, eandem et octauus quo-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 2,
+            "text": "que ipse ad quindecimum habet. Atque",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 3,
+            "text": "de sonis quidem hactenus.",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 4,
+            "text": "CAPVT 3.",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 5,
+            "text": "De interuallis.",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 6,
+            "text": "IAm verò interuallorum minimum",
+            "para_no": "III.1",
+            "note": "Large initial I; following A is a capital."
+          },
+          {
+            "n": 7,
+            "text": "quidem est Díesis. Deinde hemito-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 8,
+            "text": "nium, quod Díesi duplo acutius est: Po-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 9,
+            "text": "stremo Tonus, ex duobus constans hemi-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 10,
+            "text": "toniis: cuius quidem interualli ratio ses-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 11,
+            "text": "quioctaua est, quomodo nouem numerus",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 12,
+            "text": "ad octo habet: vt sit Hemitonium, veluti",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 13,
+            "text": "octo cum semisse: et Díesis, vt, octo cum",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 14,
+            "text": "quadrante: quandoquidem licet monas",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 15,
+            "text": "non possit diuidi per numeros, illa tamen",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 16,
+            "text": "geometrico modo diuidi potest, vbi in",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 17,
+            "text": "materia consideratur. Chordam enim, quę",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 18,
+            "text": "sesquioctauam continet rationem, potes",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 19,
+            "text": "partiri in semisesquioctauam, quod he-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 20,
+            "text": "mitonium est: et eandem rursus diuidere",
+            "para_no": "",
+            "note": ""
+          }
+        ],
+        "margins": [
+          {
+            "beside_lines": "6–7, left margin",
+            "text": "[...] / [...] sonus [?] Two-line cursive note; no secure full reading. Last word sonus is itself uncertain.",
+            "hand": "manuscript"
+          },
+          {
+            "beside_lines": "6–7",
+            "text": "Underlines beneath 'interuallorum' (l6) and 'Diesis' (l7).",
+            "hand": "manuscript"
+          }
+        ],
+        "figures": [
+          {
+            "position": "after line 12",
+            "description": "One horizontal segment AB, endpoint A at left and B at right, with upright cross-ticks. Across top, left to right: 9, 8, 7, 6, 5, 4, 3, 2, 1. Lower labels at integer ticks from left: L under8, K under7, H under6, G under5, F under4, E under3, C̣ under2, C under1; endpoint B lies one further equal division right. Between A and L are two extra ticks labelled M and Ị (left to right). No prose legend. The 2-label visibly resembles C; D is an alternative/intended reading, not securely the printed form. The small label between M and L is I-like and doubtful. Origin: printed."
+          }
+        ]
+      },
+      {
+        "page": 45,
+        "file": "source/vinet1591/la-vinet-seq51-p45.jpg",
+        "running_head": "MVSICA.",
+        "signature": "",
+        "catchword": "Ho-",
+        "lines": [
+          {
+            "n": 1,
+            "text": "in diesin: quoniam Geometria tum mino-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 2,
+            "text": "rem à maiore omni modo abscindit li-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 3,
+            "text": "neam, tum minori addit maiorem: indéque",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 4,
+            "text": "fit, vt quælibet figura augeri quantumuis",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 5,
+            "text": "et minui possit.",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 6,
+            "text": "Arithmetica verò id facere nequit: hęc",
+            "para_no": "III.2",
+            "note": ""
+          },
+          {
+            "n": 7,
+            "text": "enim datum quadratum distribuere in",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 8,
+            "text": "quadrata æqualia non potest, nec duplica-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 9,
+            "text": "re datum. Sedecim namque numerum qua-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 10,
+            "text": "dratum, neque in paria diuidi quadrata est",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 11,
+            "text": "possibile (octo enim quadrari non possunt)",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 12,
+            "text": "neque in quadratum aliud duplicari: quo-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 13,
+            "text": "niam triginta duo numerus quadrari nul-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 14,
+            "text": "lo modo potest.",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 15,
+            "text": "At Geometriæ facillimum hoc: Qua-",
+            "para_no": "III.3",
+            "note": ""
+          },
+          {
+            "n": 16,
+            "text": "drati enim latus Geometra si in diametrum",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 17,
+            "text": "traduxerit, et ei quadratum circumiecerit",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 18,
+            "text": "diametro, dimidium dari quadrati habe-",
+            "para_no": "",
+            "note": "Printed dari, retained diplomatically; corrected to dati in the reading text."
+          },
+          {
+            "n": 19,
+            "text": "bit, atque ex quadrati dimetiente rursus si",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 20,
+            "text": "latus Geometra effecerit, datum duplica-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 21,
+            "text": "uerit quadratum. Ad hunc sanè modum et",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 22,
+            "text": "sesquioctaua toni ratio in hemitonium di",
+            "para_no": "",
+            "note": "di / uiditur is divided without a printed hyphen."
+          },
+          {
+            "n": 23,
+            "text": "uiditur, rursúsque in díesin.",
+            "para_no": "",
+            "note": ""
+          }
+        ],
+        "margins": [],
+        "figures": []
+      },
+      {
+        "page": 46,
+        "file": "source/vinet1591/la-vinet-seq52-p46.jpg",
+        "running_head": "PSELLI",
+        "signature": "",
+        "catchword": "mi",
+        "lines": [
+          {
+            "n": 1,
+            "text": "Horum autem adauctu, alia quoque simpli",
+            "para_no": "III.4",
+            "note": "simpli / cia is divided without a printed hyphen."
+          },
+          {
+            "n": 2,
+            "text": "cia interualla fiunt, Tridíesis, Trihemito-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 3,
+            "text": "nium, Ditonium, et Tritonium; et vt volueris, et",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 4,
+            "text": "rythmus tulerit, quomodo ex sequentibus",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 5,
+            "text": "cognoscetur. Simplicia autem ideo dicta",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 6,
+            "text": "sunt, quòd veluti vnum ex coniunctis confu-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 7,
+            "text": "sísque tribus diesibus, seu tribus hemitoniis",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 8,
+            "text": "seu multis etiam tonis conficiatur melos,",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 9,
+            "text": "quod licet multorum vim habeat interuallo",
+            "para_no": "",
+            "note": "interuallo / rum is divided without a printed hyphen."
+          },
+          {
+            "n": 10,
+            "text": "rum, tamen per vnicum resonet interuallum.",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 11,
+            "text": "Cæterùm alia præter illa sunt inter-",
+            "para_no": "III.5",
+            "note": ""
+          },
+          {
+            "n": 12,
+            "text": "ualla, Dià-tessáron, Dià-pénte, et Dià-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 13,
+            "text": "pasôn nuncupata: sed hæc non sine me-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 14,
+            "text": "dio, neque non-composita sunt, quando",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 15,
+            "text": "per media omnia supradicta interualla",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 16,
+            "text": "incedunt: quæ ratione quidem vocis pri-",
+            "para_no": "",
+            "note": ""
+          }
+        ],
+        "margins": [
+          {
+            "beside_lines": "before line 1, within figure",
+            "text": "Thin diagonal stroke from the right end of the horizontal divider between the two four-by-four arrays down to the upper-right dot of the lower array; possibly manuscript.",
+            "hand": "manuscript"
+          }
+        ],
+        "figures": [
+          {
+            "position": "before line 1",
+            "description": "Left: a 4×4 array of sixteen dots labelled 16 beneath; next a 4×2 array of eight dots labelled 8 beneath. Centre: an 8×4 array of thirty-two dots labelled 32 beneath, with a horizontal separator between the fourth and fifth rows. The separator is broken near its right end; from its right endpoint a slanted stroke descends to the rightmost dot of the fifth row (possibly later addition/defect). Right: square ABCD with A bottom-left, B top-left, C bottom-right, D top-right. Both diagonals AD and BC are drawn and cross at E (label to right of crossing). A triangular roof above BD has apex F; segments BF and DF are drawn, as is BD. No further labels. Origin: printed."
+          }
+        ]
+      },
+      {
+        "page": 47,
+        "file": "source/vinet1591/la-vinet-seq53-p47.jpg",
+        "running_head": "MVSICA.",
+        "signature": "",
+        "catchword": "pa-",
+        "lines": [
+          {
+            "n": 1,
+            "text": "mi soni ad vltimum, interualla appellan-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 2,
+            "text": "tur: sed à numero tamen ordinéque, qui in",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 3,
+            "text": "medio sunt, sonorum, hæc nomina rece-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 4,
+            "text": "perunt: Dià-tessáron, vt quod per quatuor:",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 5,
+            "text": "Dià-pénte, per quinque: Dià-pasôn per",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 6,
+            "text": "octo sonos aut chordas ingrediatur termi-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 7,
+            "text": "netúrque. Dià-pasôn autem per octo di-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 8,
+            "text": "citur, tanquam in Octachordo interual-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 9,
+            "text": "lis omnibus comprehensis completísque,",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 10,
+            "text": "et hinc rursus repetitis, quemadmodum",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 11,
+            "text": "ex ipsa liquet appellationum ratione. Nam",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 12,
+            "text": "Dià-pason cum Dià-tessáron, et Dià-pa-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 13,
+            "text": "sôn cnm Dià-pénte, et bis Dià-pasôn po-",
+            "para_no": "",
+            "note": "Printed cnm, retained diplomatically; corrected to cum in the reading text."
+          },
+          {
+            "n": 14,
+            "text": "steriora interualla vocantur.",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 15,
+            "text": "Consonat autem interuallum Dià-tes-",
+            "para_no": "III.6",
+            "note": ""
+          },
+          {
+            "n": 16,
+            "text": "sáron, et Dià-pénte secundum paraphô-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 17,
+            "text": "num: Dià-pasôn verò, et Dià-pasôn cum",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 18,
+            "text": "Dià-tessaron, et Dià-pasôn cum Dià-pén",
+            "para_no": "",
+            "note": "Dià-pén / te is divided without a printed hyphen."
+          },
+          {
+            "n": 19,
+            "text": "te, et bis Dià-pasôn secundum antiphô-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 20,
+            "text": "num.",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 21,
+            "text": "Differunt autem inter se Paraphonum",
+            "para_no": "III.7",
+            "note": ""
+          },
+          {
+            "n": 22,
+            "text": "et antiphonum, quòd Paraphonum impari",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 23,
+            "text": "temporis spatio consonat, leniter quodam-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 24,
+            "text": "modo et appositè excipientibus inter se",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 25,
+            "text": "sonis, secundum proportiones et rationes",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 26,
+            "text": "æquabiliter: antiphonum verò æquo con-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 27,
+            "text": "uenit temporis spacio, acuto cum graui",
+            "para_no": "",
+            "note": ""
+          }
+        ],
+        "margins": [],
+        "figures": []
+      },
+      {
+        "page": 48,
+        "file": "source/vinet1591/la-vinet-seq54-p48.jpg",
+        "running_head": "PSELLI",
+        "signature": "",
+        "catchword": "nu-",
+        "lines": [
+          {
+            "n": 1,
+            "text": "pariter consonante, vt octauo cum primo,",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 2,
+            "text": "vndecimo cum quarto, duodecimo cum",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 3,
+            "text": "quinto, quintodecimo cum octauo, graui-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 4,
+            "text": "bus nimirum vnà cum acutis, aut acutis cum",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 5,
+            "text": "grauibus peræqua proportione simul ascen",
+            "para_no": "",
+            "note": "ascen / dentibus is divided without a printed hyphen; nasal stroke at line end expanded as n."
+          },
+          {
+            "n": 6,
+            "text": "dentibus vel descendentibus, in inten-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 7,
+            "text": "sionibus remissionibúsue.",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 8,
+            "text": "Porrò tonus et hemitonium et díesis",
+            "para_no": "III.8",
+            "note": ""
+          },
+          {
+            "n": 9,
+            "text": "per se ipsa considerata, principium quidem",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 10,
+            "text": "consonantiæ sunt, sed nondum tamen con-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 11,
+            "text": "sonantia.",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 12,
+            "text": "Conficitur autem Dià-tessáron duo-",
+            "para_no": "III.9",
+            "note": ""
+          },
+          {
+            "n": 13,
+            "text": "bus tonis et hemitonio et modica præ-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 14,
+            "text": "terea toni parte, quæ diesi minor, nomine",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 15,
+            "text": "vacat: Dià-pénte verò tribus tonis et he-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 16,
+            "text": "mitonio: et Dià-pasôn sex tonis: ac Dià-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 17,
+            "text": "pasôn cum Dià-tessáron, tonis octo et he",
+            "para_no": "",
+            "note": "he / mitonio is divided without a printed hyphen."
+          },
+          {
+            "n": 18,
+            "text": "mitonio: Dià-pasôn cum Dià-pénte, no-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 19,
+            "text": "uem tonis et hemitonio: bis Dià-pasôn",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 20,
+            "text": "tonis duodecim.",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 21,
+            "text": "Ratio autem iuterualli Dià-tessá-",
+            "para_no": "III.10",
+            "note": "Printed iuterualli, retained diplomatically; corrected to interualli in the reading text."
+          },
+          {
+            "n": 22,
+            "text": "ron, est sequitertia: Dià-pénte, sesquial-",
+            "para_no": "",
+            "note": "Printed sequitertia, retained diplomatically; corrected to sesquitertia in the reading text."
+          },
+          {
+            "n": 23,
+            "text": "tera: Dià-pasôn, duplex: Dià pason cum",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 24,
+            "text": "Dià-tessáron duplex-superpartiens: Dià-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 25,
+            "text": "pason cum Dià-pénte, triplex: Bis Dià-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 26,
+            "text": "pason, quadruplex: vt exempli gratia in nu-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 27,
+            "text": "meris, primus proponatur nobis terminus,",
+            "para_no": "",
+            "note": ""
+          }
+        ],
+        "margins": [
+          {
+            "beside_lines": "before line 1, extreme upper-left image corner",
+            "text": "Isolated oblique stroke at the upper-left image edge, possibly manuscript; no legible letters.",
+            "hand": "manuscript"
+          }
+        ],
+        "figures": []
+      },
+      {
+        "page": 49,
+        "file": "source/vinet1591/la-vinet-seq55-p49.jpg",
+        "running_head": "MVSICA.",
+        "signature": "C",
+        "catchword": "au-",
+        "lines": [
+          {
+            "n": 1,
+            "text": "numerus sex, cuius sesquitertius est pla-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 2,
+            "text": "nè octo: sesquialter, nouem: duplex, duo-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 3,
+            "text": "decim: duplex-superpartiens, sedecim,",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 4,
+            "text": "sex bis continens, et duas eius partes: tri-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 5,
+            "text": "plex, octodecim: quadruplex, viginti",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 6,
+            "text": "quatuor.",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 7,
+            "text": "Verumtamen sciendum, rationes in-",
+            "para_no": "III.11",
+            "note": ""
+          },
+          {
+            "n": 8,
+            "text": "teruallorum, non ex sonorum, aut ex chor-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 9,
+            "text": "darum numero iudicari; sed ex intentio-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 10,
+            "text": "ne vocis à graui ad acutius: quandoquidem",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 11,
+            "text": "interuallum Dià-pénte, cuius est ratio ses",
+            "para_no": "",
+            "note": "ses / quialtera is divided without a printed hyphen."
+          },
+          {
+            "n": 12,
+            "text": "quialtera, sesquialterum minimè videtur",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 13,
+            "text": "ex ratione numeri sonorum, quo numero",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 14,
+            "text": "superat sonos, qui ipsum præcedunt. Nam",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 15,
+            "text": "primi soni quincuplex inuenitur: secundi",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 16,
+            "text": "verò, duplum sesquialterum: tertij, super-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 17,
+            "text": "partiens: quarti, sesquiquartum: nullius",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 18,
+            "text": "verò sesquialterum demonstrari potest.",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 19,
+            "text": "Ab intensione itaque acuti, non à sonorum",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 20,
+            "text": "numero, sesquialterum censetur. Idem",
+            "para_no": "",
+            "note": ""
+          }
+        ],
+        "margins": [],
+        "figures": [
+          {
+            "position": "after line 6",
+            "description": "Six left-aligned horizontal segments, organized in three pairs. Top AB has three internal cross-ticks with labels C, Ḍ, E above them; 4 appears below the rightmost interval near B. Second segment G̣F ends under E and has ticks I and K below, aligned respectively with C and Ḍ. Third LN has internal ticks P and Y above; an extra B-shaped mark occurs immediately to the left of Y, and 3 appears below the rightmost interval near N. Fourth M–o has one tick R below, aligned with P, and its right endpoint lies below Y. Fifth SV has an internal tick labelled Z above, with a 2 immediately over Z and another 2 below the right half toward V. Sixth TX ends approximately below Z and bears 1 below its middle. The Ḍ form is rounded/open-left or reversed-D-like; the G̣ form is also rounded and resembles a reversed D/small a. No prose legend. Origin: printed with possible manuscript additions."
+          }
+        ]
+      },
+      {
+        "page": 50,
+        "file": "source/vinet1591/la-vinet-seq56-p50.jpg",
+        "running_head": "PSELLI",
+        "signature": "",
+        "catchword": "Dia-",
+        "lines": [
+          {
+            "n": 1,
+            "text": "autem et in reliquis quoque rationibus",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 2,
+            "text": "nobis licebit considerare.",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 3,
+            "text": "Inuentæ autem hæ sunt interuallorum",
+            "para_no": "III.12",
+            "note": ""
+          },
+          {
+            "n": 4,
+            "text": "rationes et deprehensæ, ex dispari chor-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 5,
+            "text": "darum vel longitudine vel crassitudine:",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 6,
+            "text": "vel ea, quæ per torsionem clauiculorum",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 7,
+            "text": "fit, intensione; aut, quod compertum ma-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 8,
+            "text": "gis, ex ponderum è neruis appensione: In",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 9,
+            "text": "iis verò quæ inflata sonant, aut ex fistula-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 10,
+            "text": "rum amplitudine, aut ex intensione spiri-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 11,
+            "text": "tus ac remissione.",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 12,
+            "text": "CAPVT 4.",
+            "para_no": "",
+            "note": "Printed CAP. 4.; CAP. silently expanded as CAPVT, with exact printed form retained in chapters.printed_as."
+          },
+          {
+            "n": 13,
+            "text": "De Systematis.",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 14,
+            "text": "SYstematum autem hoc quidem Te-",
+            "para_no": "IV.1",
+            "note": "Large initial S; following Y is a capital."
+          },
+          {
+            "n": 15,
+            "text": "trachordum est, quod omnes inter-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 16,
+            "text": "ualli Dià-tessáron continet facultates:",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 17,
+            "text": "aliud verò Pentachordum, quod interual-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 18,
+            "text": "li Dià-pénte facultates complectitur: a-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 19,
+            "text": "liud Octachordum, quod totam interual-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 20,
+            "text": "li Dià-pasôn vim continet: aliud deinceps",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 21,
+            "text": "Heckædecachordum, bis Dià-pasôn vni-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 22,
+            "text": "uersam comprehendens intensionem, du-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 23,
+            "text": "plicésque habens facultates: eas enim,",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 24,
+            "text": "quas modò diximus, atque interuallorum",
+            "para_no": "",
+            "note": ""
+          }
+        ],
+        "margins": [
+          {
+            "beside_lines": "14–17, left margin",
+            "text": "Long slanting/bracket-like pen stroke beginning beside paragraph number1 and ending near start of line17.",
+            "hand": "manuscript"
+          },
+          {
+            "beside_lines": "14",
+            "text": "Underline beneath 'Systematum', principally its middle-to-final letters.",
+            "hand": "manuscript"
+          }
+        ],
+        "figures": []
+      },
+      {
+        "page": 51,
+        "file": "source/vinet1591/la-vinet-seq57-p51.jpg",
+        "running_head": "MVSICA.",
+        "signature": "C 2",
+        "catchword": "test,",
+        "lines": [
+          {
+            "n": 1,
+            "text": "Dià-pason Dià-tessáron, et Dià-pason",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 2,
+            "text": "Dià-pénte, et bis Dià-pason facultates in",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 3,
+            "text": "se continet.",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 4,
+            "text": "Differunt autem Systemata ab inter-",
+            "para_no": "IV.2",
+            "note": ""
+          },
+          {
+            "n": 5,
+            "text": "uallis quæ in ipsis sunt, quòd illa in ma-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 6,
+            "text": "teria consistunt: interualla verò à materia",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 7,
+            "text": "abstracta consideramus.",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 8,
+            "text": "CAPVT 5.",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 9,
+            "text": "De Harmonia.",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 10,
+            "text": "HArmoniæ porrò proprium est Sy-",
+            "para_no": "V.1",
+            "note": "Large initial H; following A is a capital."
+          },
+          {
+            "n": 11,
+            "text": "stemata illa componere aptaréque",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 12,
+            "text": "ad aliquod genus modulationis, vt ad Diá-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 13,
+            "text": "tonon, ad Chromaticon, et ad id quod ab",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 14,
+            "text": "ipsa harmonia cognominatum, Harmo-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 15,
+            "text": "nicum dicimus. Si igitur tonis plurimùm",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 16,
+            "text": "harmonia peragitur, Diátonon sic voca-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 17,
+            "text": "tum efficitur genus: si Hemitoniis, Chro-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 18,
+            "text": "maticum: si verò diesibus ferè harmonia",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 19,
+            "text": "continetur, conficitur, quam Harmonicam",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 20,
+            "text": "appellant modulationem.",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 21,
+            "text": "Verumenimuero neque omnino to-",
+            "para_no": "V.2",
+            "note": ""
+          },
+          {
+            "n": 22,
+            "text": "nis, quæ ad Harmoniam pertinent, effe-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 23,
+            "text": "runtur, neque hemitoniis omnino, neque",
+            "para_no": "",
+            "note": "The m in omnino is worn: comparison with omnino at 51.21 and 51.24 confirms that no extra a is printed."
+          },
+          {
+            "n": 24,
+            "text": "omnino diesibus: hoc enim fieri non po-",
+            "para_no": "",
+            "note": ""
+          }
+        ],
+        "margins": [],
+        "figures": []
+      },
+      {
+        "page": 52,
+        "file": "source/vinet1591/la-vinet-seq58-p52.jpg",
+        "running_head": "PSELLI",
+        "signature": "",
+        "catchword": "Ge-",
+        "lines": [
+          {
+            "n": 1,
+            "text": "test: quinimo, quoniam ex tribus interual-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 2,
+            "text": "lis Dià-tessáron interuallum confectum",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 3,
+            "text": "est, duobúsque tonis et hemitonio com-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 4,
+            "text": "prehensum, necesse est, postquam duo pri",
+            "para_no": "",
+            "note": "pri / ma is divided without a printed hyphen."
+          },
+          {
+            "n": 5,
+            "text": "ma interualla imposueris, reliquum esse",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 6,
+            "text": "Hemitonium: atque hoc fuerit Dià-tes-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 7,
+            "text": "sáron Diatonon cognominatum genus,",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 8,
+            "text": "ex Hemitonio et tonis constans duobus.",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 9,
+            "text": "Si verò duo sint hemitonia, reliquum fue",
+            "para_no": "",
+            "note": "fue / rit is divided without a printed hyphen."
+          },
+          {
+            "n": 10,
+            "text": "rit vnum ex confusione interuallum, Tri-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 11,
+            "text": "hemitonium simplex: erítque id Dià-tes-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 12,
+            "text": "sáron genus Chromaticum, ex Hemito-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 13,
+            "text": "niis duobus et Trihemitonio temperatum,",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 14,
+            "text": "quod priore mœstius luctuosiúsque est. Si",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 15,
+            "text": "verò per duas dieses modulatio peraga-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 16,
+            "text": "tur, quod reliquum est interuallum, erit v-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 17,
+            "text": "num ditonium ex confusione, ac Dià-tes-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 18,
+            "text": "saron hoc genus Harmonicum nomina-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 19,
+            "text": "tur, quod sit optimum, ab ipsa communi",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 20,
+            "text": "omnium harmonia cognominatum.",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 21,
+            "text": "Eodem modo et cætera quoque syste-",
+            "para_no": "V.3",
+            "note": ""
+          },
+          {
+            "n": 22,
+            "text": "mata constituit harmonia, temperátque.",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 23,
+            "text": "Ex proposito enim exemplo, quo ostensum",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 24,
+            "text": "in vno tetrachordo, quomodo interualla",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 25,
+            "text": "interualli Dià-tessáron constituantur, fa-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 26,
+            "text": "cilè studiosus alia systemata quomodo",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 27,
+            "text": "componantur, assequi poterit.",
+            "para_no": "",
+            "note": ""
+          }
+        ],
+        "margins": [],
+        "figures": []
+      },
+      {
+        "page": 53,
+        "file": "source/vinet1591/la-vinet-seq59-p53.jpg",
+        "running_head": "MVSICA.",
+        "signature": "C 3",
+        "catchword": "",
+        "lines": [
+          {
+            "n": 1,
+            "text": "Genus autem Harmonicum est modu-",
+            "para_no": "V.4",
+            "note": ""
+          },
+          {
+            "n": 2,
+            "text": "latu difficillimum, meditatione multa ex-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 3,
+            "text": "ercitationéque indigens: vnde eius est vsus",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 4,
+            "text": "rarior. Diátonum verò est simplum et ge-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 5,
+            "text": "nerosum et magis naturale: quare id et",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 6,
+            "text": "Plato admittit.",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 7,
+            "text": "Horum autem vnumquodque rursus",
+            "para_no": "V.5",
+            "note": ""
+          },
+          {
+            "n": 8,
+            "text": "variatur, et in multas diuisiones et diffe-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 9,
+            "text": "rentias et genera modulationum distribui",
+            "para_no": "",
+            "note": "distribui / tur is divided without a printed hyphen."
+          },
+          {
+            "n": 10,
+            "text": "tur: et modò Lydius, modò Phrygius, mo-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 11,
+            "text": "dò Dorius appellatur modulus: à quorum",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 12,
+            "text": "quolibet Pæéon, Hymenæus, Exodius, et",
+            "para_no": "",
+            "note": "The uncommon form Pæéon is clear in the print and retained (Paeeon in the reading text)."
+          },
+          {
+            "n": 13,
+            "text": "quotquot sunt modulationum genera, exi",
+            "para_no": "",
+            "note": "exi / stunt is divided without a printed hyphen."
+          },
+          {
+            "n": 14,
+            "text": "stunt. Non enim sola interuallorum mu-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 15,
+            "text": "tatione, neque sola eorum differentia: sed",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 16,
+            "text": "etiam lentioribus, et concitatis transitio-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 17,
+            "text": "nibus, pausis quoqne et fluxibus, atque va-",
+            "para_no": "",
+            "note": "Printed quoqne, retained diplomatically; corrected to quoque in the reading text."
+          },
+          {
+            "n": 18,
+            "text": "riis tactibus pulsibúsque, pro vario manus",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 19,
+            "text": "temperamento, infinitæ et diuersæ mo-",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 20,
+            "text": "dulationes conficiuntur.",
+            "para_no": "",
+            "note": ""
+          },
+          {
+            "n": 21,
+            "text": "Finis Musicæ.",
+            "para_no": "",
+            "note": ""
+          }
+        ],
+        "margins": [],
+        "figures": []
+      }
+    ],
+    "chapters": [
+      {
+        "chapter": "I",
+        "printed_as": "CAPVT 1.",
+        "title": "De Musica in commune.",
+        "ref": "Vinet 41.3"
+      },
+      {
+        "chapter": "II",
+        "printed_as": "CAPVT 2.",
+        "title": "De Soni natura, et variis appellationibus.",
+        "ref": "Vinet 42.12"
+      },
+      {
+        "chapter": "III",
+        "printed_as": "CAPVT 3.",
+        "title": "De interuallis.",
+        "ref": "Vinet 44.4"
+      },
+      {
+        "chapter": "IV",
+        "printed_as": "CAP. 4.",
+        "title": "De Systematis.",
+        "ref": "Vinet 50.12"
+      },
+      {
+        "chapter": "V",
+        "printed_as": "CAPVT 5.",
+        "title": "De Harmonia.",
+        "ref": "Vinet 51.8"
+      }
+    ],
+    "abbreviations": [
+      {
+        "printed": "&",
+        "expansion": "et",
+        "example": "Vinet 41.8"
+      },
+      {
+        "printed": "vowel with a horizontal or slightly slanting nasal stroke",
+        "expansion": "vowel + m or n, according to the word",
+        "example": "Vinet 41.5 Vniuersitatẽ → Vniuersitatem; Vinet 41.6 Rerū → Rerum; Vinet 41.19 cōuenientiā → conuenientiam"
+      },
+      {
+        "printed": "q; (que abbreviation)",
+        "expansion": "que; qúe when the mark carries an acute accent",
+        "example": "Vinet 45.3 indéq; → indéque; Vinet 45.9 namq; → namque"
+      },
+      {
+        "printed": "superscript 9-like us sign",
+        "expansion": "us",
+        "example": "Vinet 46.7 trib⁹ → tribus; Vinet 51.12 gen⁹ → genus"
+      },
+      {
+        "printed": "CAP.",
+        "expansion": "CAPVT",
+        "example": "Vinet 50.12"
+      }
+    ],
+    "doubtful_expansions": [
+      {
+        "ref": "Vinet 41.5 (I.1)",
+        "printed": "Vniuersitatẽ",
+        "expanded": "Vniuersitatem",
+        "certainty": "high"
+      },
+      {
+        "ref": "Vinet 41.6 (I.1)",
+        "printed": "Rerū",
+        "expanded": "Rerum",
+        "certainty": "high"
+      },
+      {
+        "ref": "Vinet 41.7 (I.1)",
+        "printed": "naturaliū",
+        "expanded": "naturalium",
+        "certainty": "high"
+      },
+      {
+        "ref": "Vinet 41.8 (I.1)",
+        "printed": "eorū",
+        "expanded": "eorum",
+        "certainty": "high"
+      },
+      {
+        "ref": "Vinet 41.11 (I.1)",
+        "printed": "factū",
+        "expanded": "factum",
+        "certainty": "high"
+      },
+      {
+        "ref": "Vinet 41.19 (I.1)",
+        "printed": "cōuenientiā",
+        "expanded": "conuenientiam",
+        "certainty": "high"
+      },
+      {
+        "ref": "Vinet 42.1 (I.1)",
+        "printed": "dignā",
+        "expanded": "dignam",
+        "certainty": "high"
+      },
+      {
+        "ref": "Vinet 42.4 (I.1)",
+        "printed": "cōponit",
+        "expanded": "componit",
+        "certainty": "high"
+      },
+      {
+        "ref": "Vinet 42.5 (I.1)",
+        "printed": "cō-",
+        "expanded": "con-",
+        "certainty": "high"
+      },
+      {
+        "ref": "Vinet 42.21 (II.1)",
+        "printed": "Conueniēs",
+        "expanded": "Conueniens",
+        "certainty": "high"
+      },
+      {
+        "ref": "Vinet 42.22 (II.1)",
+        "printed": "cū",
+        "expanded": "cum",
+        "certainty": "high"
+      },
+      {
+        "ref": "Vinet 43.24 (II.3)",
+        "printed": "Heckædecachordū",
+        "expanded": "Heckædecachordum",
+        "certainty": "high"
+      },
+      {
+        "ref": "Vinet 43.26 (II.3)",
+        "printed": "cōstituitur",
+        "expanded": "constituitur",
+        "certainty": "high"
+      },
+      {
+        "ref": "Vinet 45.8 (III.2)",
+        "printed": "nō",
+        "expanded": "non",
+        "certainty": "high"
+      },
+      {
+        "ref": "Vinet 45.11 (III.2)",
+        "printed": "nō",
+        "expanded": "non",
+        "certainty": "high"
+      },
+      {
+        "ref": "Vinet 45.16 (III.3)",
+        "printed": "diametrū",
+        "expanded": "diametrum",
+        "certainty": "high"
+      },
+      {
+        "ref": "Vinet 46.1 (III.4)",
+        "printed": "autē",
+        "expanded": "autem",
+        "certainty": "high"
+      },
+      {
+        "ref": "Vinet 46.3 (III.4)",
+        "printed": "niū, Ditoniū, Tritoniū",
+        "expanded": "nium, Ditonium, Tritonium",
+        "certainty": "high"
+      },
+      {
+        "ref": "Vinet 46.6 (III.4)",
+        "printed": "vnū; cōfu-",
+        "expanded": "vnum; confu-",
+        "certainty": "high"
+      },
+      {
+        "ref": "Vinet 46.9 (III.4)",
+        "printed": "multorū",
+        "expanded": "multorum",
+        "certainty": "high"
+      },
+      {
+        "ref": "Vinet 46.10 (III.4)",
+        "printed": "rū; vnicū",
+        "expanded": "rum; vnicum",
+        "certainty": "high"
+      },
+      {
+        "ref": "Vinet 47.11 (III.5)",
+        "printed": "Nā",
+        "expanded": "Nam",
+        "certainty": "high"
+      },
+      {
+        "ref": "Vinet 47.22 (III.7)",
+        "printed": "Paraphonū",
+        "expanded": "Paraphonum",
+        "certainty": "high"
+      },
+      {
+        "ref": "Vinet 47.23 (III.7)",
+        "printed": "quodā-",
+        "expanded": "quodam-",
+        "certainty": "high"
+      },
+      {
+        "ref": "Vinet 48.4 (III.7)",
+        "printed": "cū (twice)",
+        "expanded": "cum (twice)",
+        "certainty": "high"
+      },
+      {
+        "ref": "Vinet 48.5 (III.7)",
+        "printed": "ascē",
+        "expanded": "ascen",
+        "certainty": "high"
+      },
+      {
+        "ref": "Vinet 48.9 (III.8)",
+        "printed": "cōsiderata",
+        "expanded": "considerata",
+        "certainty": "high"
+      },
+      {
+        "ref": "Vinet 48.10 (III.8)",
+        "printed": "nondū",
+        "expanded": "nondum",
+        "certainty": "high"
+      },
+      {
+        "ref": "Vinet 48.26 (III.10)",
+        "printed": "exēpli",
+        "expanded": "exempli",
+        "certainty": "high"
+      },
+      {
+        "ref": "Vinet 49.10 (III.11)",
+        "printed": "quandoquidē",
+        "expanded": "quandoquidem",
+        "certainty": "high"
+      },
+      {
+        "ref": "Vinet 49.19 (III.11)",
+        "printed": "sonorū",
+        "expanded": "sonorum",
+        "certainty": "high"
+      },
+      {
+        "ref": "Vinet 50.3 (III.12)",
+        "printed": "interuallorū",
+        "expanded": "interuallorum",
+        "certainty": "high"
+      },
+      {
+        "ref": "Vinet 50.14 (IV.1)",
+        "printed": "quidē",
+        "expanded": "quidem",
+        "certainty": "high"
+      },
+      {
+        "ref": "Vinet 50.20 (IV.1)",
+        "printed": "cōtinet",
+        "expanded": "continet",
+        "certainty": "high"
+      },
+      {
+        "ref": "Vinet 51.19 (V.1)",
+        "printed": "cōficitur",
+        "expanded": "conficitur",
+        "certainty": "high"
+      },
+      {
+        "ref": "Vinet 52.13 (V.2)",
+        "printed": "temperatū",
+        "expanded": "temperatum",
+        "certainty": "high"
+      },
+      {
+        "ref": "Vinet 52.23 (V.3)",
+        "printed": "ostēsum",
+        "expanded": "ostensum",
+        "certainty": "high"
+      },
+      {
+        "ref": "Vinet 53.2 (V.4)",
+        "printed": "difficillimū",
+        "expanded": "difficillimum",
+        "certainty": "high"
+      }
+    ],
+    "misprints": [
+      {
+        "ref": "Vinet 45.18 (III.3)",
+        "printed": "dari",
+        "proposed": "dati",
+        "reason": "The construction requires the genitive dati quadrati, matching datum quadratum in the same paragraph; the printed letter has the form of r.",
+        "certainty": "high"
+      },
+      {
+        "ref": "Vinet 47.13 (III.5)",
+        "printed": "cnm",
+        "proposed": "cum",
+        "reason": "A u is inverted or replaced by n; cum is required before Dià-pénte and occurs repeatedly in the same list.",
+        "certainty": "high"
+      },
+      {
+        "ref": "Vinet 48.21 (III.10)",
+        "printed": "iuterualli",
+        "proposed": "interualli",
+        "reason": "The second letter is u-shaped; interualli is required and is the consistent word elsewhere.",
+        "certainty": "high"
+      },
+      {
+        "ref": "Vinet 48.22 (III.10)",
+        "printed": "sequitertia",
+        "proposed": "sesquitertia",
+        "reason": "The ratio 8:6 in the continuation, and sesquitertius at 49.1, establish the omitted s.",
+        "certainty": "high"
+      },
+      {
+        "ref": "Vinet 49.15 (III.11)",
+        "printed": "quincuplex",
+        "proposed": "quincuplex [retained]",
+        "reason": "Unusual spelling for the fivefold relation. The letters are clear; there is insufficient internal evidence to classify this authorial/printer spelling as a misprint.",
+        "certainty": "high"
+      },
+      {
+        "ref": "Vinet 53.12 (V.5)",
+        "printed": "Pæéon",
+        "proposed": "Pæéon [retained]",
+        "reason": "Unusual spelling is clear, with æ followed by accented é. No internal evidence justifies deleting one vowel; reading text retains Paeeon.",
+        "certainty": "high"
+      },
+      {
+        "ref": "Vinet 53.17 (V.5)",
+        "printed": "quoqne",
+        "proposed": "quoque",
+        "reason": "An n-shaped type occurs where the second u of quoque is required.",
+        "certainty": "high"
+      }
+    ],
+    "reading_text": [
+      {
+        "para": "I.1",
+        "ref": "Vinet 41.5–42.7",
+        "text": "MUsica Universitatem contineri veteres dixerunt. Rerum enim naturalium nulla est, quae vacet symmetria, et proportione: quinimo eorum quae fiunt, si quid non cum apta symmetria et proportione efficitur, nunquam pulchre factum fuerit, sive artis id opus sit, sive naturae: sive sensu id percipiatur aliquo, sive sola mente comprehendi possit. Musica autem est ipsa per se symmetria et proportio, ipsaque adeo Universitas, utpote quae universitatis harmonia est ac convenientia. Quin et Deum ipsum quoque non inepte fortasse tum sui ipsius, tum universitatis convenientiam dixeris: in quo ita apte consistit universitas, ut perpulchre optimeque habere conspiciatur: tanta dignam admiratione Musicam existimarunt. Musica itaque in rebus ad hunc modum omnibus deprehenditur, omnia componit ornatque, et voluptatem quidem sensui, convenientiam vero naturae, et beatitudinem menti praestat."
+      },
+      {
+        "para": "I.2",
+        "ref": "Vinet 42.8–42.11",
+        "text": "Nos autem hic de Musica illa, quam sensus aut potius sensuum unus auditus, percipit contemplaturque, breviter disceptabimus."
+      },
+      {
+        "para": "II.1",
+        "ref": "Vinet 42.15–43.4",
+        "text": "SOnus est vocis intervallo carentis conveniens intensio. Intervallum, quaedam sonorum inter se habitudo. Systema, quaedam intervallorum complexio. Harmonia, systematum compositio. Sonus itaque intervallo dimensioneque vacat, ut punctum in Geometria. Conveniens vero dicitur, quod ita efferri oportet, ut cum alio sono convenire possit, quoniam nisi sic elatus sit, absurdus et absonus sonus est, non conveniens: imo vero ne sonus quidem omnino vocandus, sed crepitus quidam temere editus, et ad convenientiam concentumque ineptus."
+      },
+      {
+        "para": "II.2",
+        "ref": "Vinet 43.5–43.22",
+        "text": "Porro autem sonorum appellationes variae sunt, qui ut a gravi ad acutum ordine progrediuntur, sic nominari solent, Proslambanomenos, Hypate hypaton, Parhypate hypaton, Hypate diatonos, Hypate meson, Parhypate meson, Diatonos meson, Mese solum, Paramese, Trite diezeugmene, Diatonos diezeugmene, Nete diezeugmene, Trite hyperbolaeon, Diatonos hyperbolaeon, Nete hyperbolaeon."
+      },
+      {
+        "para": "II.3",
+        "ref": "Vinet 43.23–44.3",
+        "text": "Ex his conficitur, quod in Pentekaedecachordo est Heckaedecachordum: quando finis Octachordi, principium deinceps continuo sequentibus constituitur. Quam enim rationem primus sonus ad octavum habere cernitur, eandem et octavus quoque ipse ad quindecimum habet. Atque de sonis quidem hactenus."
+      },
+      {
+        "para": "III.1",
+        "ref": "Vinet 44.6–45.5",
+        "text": "IAm vero intervallorum minimum quidem est Diesis. Deinde hemitonium, quod Diesi duplo acutius est: Postremo Tonus, ex duobus constans hemitoniis: cuius quidem intervalli ratio sesquioctava est, quomodo novem numerus ad octo habet: ut sit Hemitonium, veluti octo cum semisse: et Diesis, ut, octo cum quadrante: quandoquidem licet monas non possit dividi per numeros, illa tamen geometrico modo dividi potest, ubi in materia consideratur. Chordam enim, quae sesquioctavam continet rationem, potes partiri in semisesquioctavam, quod hemitonium est: et eandem rursus dividere in diesin: quoniam Geometria tum minorem a maiore omni modo abscindit lineam, tum minori addit maiorem: indeque fit, ut quaelibet figura augeri quantumvis et minui possit."
+      },
+      {
+        "para": "III.2",
+        "ref": "Vinet 45.6–45.14",
+        "text": "Arithmetica vero id facere nequit: haec enim datum quadratum distribuere in quadrata aequalia non potest, nec duplicare datum. Sedecim namque numerum quadratum, neque in paria dividi quadrata est possibile (octo enim quadrari non possunt) neque in quadratum aliud duplicari: quoniam triginta duo numerus quadrari nullo modo potest."
+      },
+      {
+        "para": "III.3",
+        "ref": "Vinet 45.15–45.23",
+        "text": "At Geometriae facillimum hoc: Quadrati enim latus Geometra si in diametrum traduxerit, et ei quadratum circumiecerit diametro, dimidium dati quadrati habebit, atque ex quadrati dimetiente rursus si latus Geometra effecerit, datum duplicaverit quadratum. Ad hunc sane modum et sesquioctava toni ratio in hemitonium dividitur, rursusque in diesin."
+      },
+      {
+        "para": "III.4",
+        "ref": "Vinet 46.1–46.10",
+        "text": "Horum autem adauctu, alia quoque simplicia intervalla fiunt, Tridiesis, Trihemitonium, Ditonium, et Tritonium; et ut volueris, et rythmus tulerit, quomodo ex sequentibus cognoscetur. Simplicia autem ideo dicta sunt, quod veluti unum ex coniunctis confusisque tribus diesibus, seu tribus hemitoniis seu multis etiam tonis conficiatur melos, quod licet multorum vim habeat intervallorum, tamen per unicum resonet intervallum."
+      },
+      {
+        "para": "III.5",
+        "ref": "Vinet 46.11–47.14",
+        "text": "Caeterum alia praeter illa sunt intervalla, Dia-tessaron, Dia-pente, et Dia-pason nuncupata: sed haec non sine medio, neque non-composita sunt, quando per media omnia supradicta intervalla incedunt: quae ratione quidem vocis primi soni ad ultimum, intervalla appellantur: sed a numero tamen ordineque, qui in medio sunt, sonorum, haec nomina receperunt: Dia-tessaron, ut quod per quatuor: Dia-pente, per quinque: Dia-pason per octo sonos aut chordas ingrediatur termineturque. Dia-pason autem per octo dicitur, tanquam in Octachordo intervallis omnibus comprehensis completisque, et hinc rursus repetitis, quemadmodum ex ipsa liquet appellationum ratione. Nam Dia-pason cum Dia-tessaron, et Dia-pason cum Dia-pente, et bis Dia-pason posteriora intervalla vocantur."
+      },
+      {
+        "para": "III.6",
+        "ref": "Vinet 47.15–47.20",
+        "text": "Consonat autem intervallum Dia-tessaron, et Dia-pente secundum paraphonum: Dia-pason vero, et Dia-pason cum Dia-tessaron, et Dia-pason cum Dia-pente, et bis Dia-pason secundum antiphonum."
+      },
+      {
+        "para": "III.7",
+        "ref": "Vinet 47.21–48.7",
+        "text": "Differunt autem inter se Paraphonum et antiphonum, quod Paraphonum impari temporis spatio consonat, leniter quodammodo et apposite excipientibus inter se sonis, secundum proportiones et rationes aequabiliter: antiphonum vero aequo convenit temporis spacio, acuto cum gravi pariter consonante, ut octavo cum primo, undecimo cum quarto, duodecimo cum quinto, quintodecimo cum octavo, gravibus nimirum una cum acutis, aut acutis cum gravibus peraequa proportione simul ascendentibus vel descendentibus, in intensionibus remissionibusve."
+      },
+      {
+        "para": "III.8",
+        "ref": "Vinet 48.8–48.11",
+        "text": "Porro tonus et hemitonium et diesis per se ipsa considerata, principium quidem consonantiae sunt, sed nondum tamen consonantia."
+      },
+      {
+        "para": "III.9",
+        "ref": "Vinet 48.12–48.20",
+        "text": "Conficitur autem Dia-tessaron duobus tonis et hemitonio et modica praeterea toni parte, quae diesi minor, nomine vacat: Dia-pente vero tribus tonis et hemitonio: et Dia-pason sex tonis: ac Dia-pason cum Dia-tessaron, tonis octo et hemitonio: Dia-pason cum Dia-pente, novem tonis et hemitonio: bis Dia-pason tonis duodecim."
+      },
+      {
+        "para": "III.10",
+        "ref": "Vinet 48.21–49.6",
+        "text": "Ratio autem intervalli Dia-tessaron, est sesquitertia: Dia-pente, sesquialtera: Dia-pason, duplex: Dia pason cum Dia-tessaron duplex-superpartiens: Dia-pason cum Dia-pente, triplex: Bis Dia-pason, quadruplex: ut exempli gratia in numeris, primus proponatur nobis terminus, numerus sex, cuius sesquitertius est plane octo: sesquialter, novem: duplex, duodecim: duplex-superpartiens, sedecim, sex bis continens, et duas eius partes: triplex, octodecim: quadruplex, viginti quatuor."
+      },
+      {
+        "para": "III.11",
+        "ref": "Vinet 49.7–50.2",
+        "text": "Verumtamen sciendum, rationes intervallorum, non ex sonorum, aut ex chordarum numero iudicari; sed ex intentione vocis a gravi ad acutius: quandoquidem intervallum Dia-pente, cuius est ratio sesquialtera, sesquialterum minime videtur ex ratione numeri sonorum, quo numero superat sonos, qui ipsum praecedunt. Nam primi soni quincuplex invenitur: secundi vero, duplum sesquialterum: tertii, superpartiens: quarti, sesquiquartum: nullius vero sesquialterum demonstrari potest. Ab intensione itaque acuti, non a sonorum numero, sesquialterum censetur. Idem autem et in reliquis quoque rationibus nobis licebit considerare."
+      },
+      {
+        "para": "III.12",
+        "ref": "Vinet 50.3–50.11",
+        "text": "Inventae autem hae sunt intervallorum rationes et deprehensae, ex dispari chordarum vel longitudine vel crassitudine: vel ea, quae per torsionem claviculorum fit, intensione; aut, quod compertum magis, ex ponderum e nervis appensione: In iis vero quae inflata sonant, aut ex fistularum amplitudine, aut ex intensione spiritus ac remissione."
+      },
+      {
+        "para": "IV.1",
+        "ref": "Vinet 50.14–51.3",
+        "text": "SYstematum autem hoc quidem Tetrachordum est, quod omnes intervalli Dia-tessaron continet facultates: aliud vero Pentachordum, quod intervalli Dia-pente facultates complectitur: aliud Octachordum, quod totam intervalli Dia-pason vim continet: aliud deinceps Heckaedecachordum, bis Dia-pason universam comprehendens intensionem, duplicesque habens facultates: eas enim, quas modo diximus, atque intervallorum Dia-pason Dia-tessaron, et Dia-pason Dia-pente, et bis Dia-pason facultates in se continet."
+      },
+      {
+        "para": "IV.2",
+        "ref": "Vinet 51.4–51.7",
+        "text": "Differunt autem Systemata ab intervallis quae in ipsis sunt, quod illa in materia consistunt: intervalla vero a materia abstracta consideramus."
+      },
+      {
+        "para": "V.1",
+        "ref": "Vinet 51.10–51.20",
+        "text": "HArmoniae porro proprium est Systemata illa componere aptareque ad aliquod genus modulationis, ut ad Diatonon, ad Chromaticon, et ad id quod ab ipsa harmonia cognominatum, Harmonicum dicimus. Si igitur tonis plurimum harmonia peragitur, Diatonon sic vocatum efficitur genus: si Hemitoniis, Chromaticum: si vero diesibus fere harmonia continetur, conficitur, quam Harmonicam appellant modulationem."
+      },
+      {
+        "para": "V.2",
+        "ref": "Vinet 51.21–52.20",
+        "text": "Verumenimvero neque omnino tonis, quae ad Harmoniam pertinent, efferuntur, neque hemitoniis omnino, neque omnino diesibus: hoc enim fieri non potest: quinimo, quoniam ex tribus intervallis Dia-tessaron intervallum confectum est, duobusque tonis et hemitonio comprehensum, necesse est, postquam duo prima intervalla imposueris, reliquum esse Hemitonium: atque hoc fuerit Dia-tessaron Diatonon cognominatum genus, ex Hemitonio et tonis constans duobus. Si vero duo sint hemitonia, reliquum fuerit unum ex confusione intervallum, Trihemitonium simplex: eritque id Dia-tessaron genus Chromaticum, ex Hemitoniis duobus et Trihemitonio temperatum, quod priore moestius luctuosiusque est. Si vero per duas dieses modulatio peragatur, quod reliquum est intervallum, erit unum ditonium ex confusione, ac Dia-tessaron hoc genus Harmonicum nominatur, quod sit optimum, ab ipsa communi omnium harmonia cognominatum."
+      },
+      {
+        "para": "V.3",
+        "ref": "Vinet 52.21–52.27",
+        "text": "Eodem modo et caetera quoque systemata constituit harmonia, temperatque. Ex proposito enim exemplo, quo ostensum in uno tetrachordo, quomodo intervalla intervalli Dia-tessaron constituantur, facile studiosus alia systemata quomodo componantur, assequi poterit."
+      },
+      {
+        "para": "V.4",
+        "ref": "Vinet 53.1–53.6",
+        "text": "Genus autem Harmonicum est modulatu difficillimum, meditatione multa exercitationeque indigens: unde eius est usus rarior. Diatonum vero est simplum et generosum et magis naturale: quare id et Plato admittit."
+      },
+      {
+        "para": "V.5",
+        "ref": "Vinet 53.7–53.20",
+        "text": "Horum autem unumquodque rursus variatur, et in multas divisiones et differentias et genera modulationum distribuitur: et modo Lydius, modo Phrygius, modo Dorius appellatur modulus: a quorum quolibet Paeeon, Hymenaeus, Exodius, et quotquot sunt modulationum genera, existunt. Non enim sola intervallorum mutatione, neque sola eorum differentia: sed etiam lentioribus, et concitatis transitionibus, pausis quoque et fluxibus, atque variis tactibus pulsibusque, pro vario manus temperamento, infinitae et diversae modulationes conficiuntur."
+      }
+    ]
+  },
+  "alignment": [
+    {
+      "vinet": "I.1 (Vinet 41.5–42.7)",
+      "xylander": "paras 1–2 (Xyl. 40.3–41.1)",
+      "remark": "Ends at «largitur» in Xyl. 41.1. Vinet combines the universe/music exposition that Xylander divides into two indented paragraphs."
+    },
+    {
+      "vinet": "I.2 (Vinet 42.8–42.11)",
+      "xylander": "para 2 (Xyl. 41.1–41.3)",
+      "remark": "Begins at «nos de ea Musica» within Xyl. 41.1. The restriction to audible music is a separate numbered paragraph in Vinet."
+    },
+    {
+      "vinet": "II.1 (Vinet 42.15–43.4)",
+      "xylander": "para 3 (Xyl. 41.4–41.16)",
+      "remark": "Ends at «usui» in Xyl. 41.16. Definitions of sound, interval, system and harmony, followed by the requirement of consonance."
+    },
+    {
+      "vinet": "II.2 (Vinet 43.5–43.22)",
+      "xylander": "para 3 (Xyl. 41.16–41.25)",
+      "remark": "Begins at «Proinde» and ends with the last note name «hyperbolæon». Vinet sets the fifteen names on separate lines; Xylander prints a continuous list. «Mése solùm» corresponds to «mese monos»."
+    },
+    {
+      "vinet": "II.3 (Vinet 43.23–44.3)",
+      "xylander": "para 3 (Xyl. 41.25–42.7)",
+      "remark": "Begins at «Per has». Both descriptions combine a sixteen-string designation with a fifteen-string instrument and the shared eighth note; neither numerical wording has been emended merely to harmonise them."
+    },
+    {
+      "vinet": "III.1 (Vinet 44.6–45.5)",
+      "xylander": "para 4 (Xyl. 42.8–42.25)",
+      "remark": "Ends at «minui» before «Id uerò». Vinet expresses the semitone and diesis as eight-and-a-half and eight-and-a-quarter; Xylander uses half and quarter of the sesquioctave. Vinet alone supplies the subdivided-line diagram after 44.12."
+    },
+    {
+      "vinet": "III.2 (Vinet 45.6–45.14)",
+      "xylander": "para 4 (Xyl. 42.25–43.9)",
+      "remark": "From «Id uerò in Arithmetica» to «duo sit quadratus)». The sixteen/thirty-two example has corresponding dot arrays: printed on Vinet 46 before line1; the arrays in the right margin of Xyl.43 have uncertain origin (printed or manuscript)."
+    },
+    {
+      "vinet": "III.3 (Vinet 45.15–45.23)",
+      "xylander": "para 4 (Xyl. 43.9–43.16)",
+      "remark": "From «At Geometriæ» to «in diesin». Vinet supplies a lettered geometrical construction before 46.1; Xylander has no corresponding printed lettered construction in the supplied pages."
+    },
+    {
+      "vinet": "III.4 (Vinet 46.1–46.10)",
+      "xylander": "para 4 (Xyl. 43.16–44.1)",
+      "remark": "Begins at «Eorundem». Vinet calls the ensuing intervals «simplicia»; Xylander calls them «Incomposita». Their explanations occupy the same position in the argument."
+    },
+    {
+      "vinet": "III.5 (Vinet 46.11–47.14)",
+      "xylander": "para 4 (Xyl. 44.2–44.20)",
+      "remark": "Xylander additionally gives current names quarta, quinta, octaua and equivalents for the compound intervals. The order of fourth, fifth, octave and compound intervals agrees."
+    },
+    {
+      "vinet": "III.6 (Vinet 47.15–47.20)",
+      "xylander": "para 5 (Xyl. 44.21–45.2)",
+      "remark": "Ends at «quasi contrà sonans». Xylander adds explanatory glosses «quasi iuxta sonans» and «quasi contrà sonans»; Vinet gives the technical names without those glosses."
+    },
+    {
+      "vinet": "III.7 (Vinet 47.21–48.7)",
+      "xylander": "para 5 (Xyl. 45.2–45.13)",
+      "remark": "From «Inter paraphonum» to «proportionaliter». Xylander also supplies the glosses «assonans et obsonans»."
+    },
+    {
+      "vinet": "III.8 (Vinet 48.8–48.11)",
+      "xylander": "para 5 (Xyl. 45.13–45.16)",
+      "remark": "From «Cæterùm» to «non tamen consonantia». Tone, semitone and diesis considered individually."
+    },
+    {
+      "vinet": "III.9 (Vinet 48.12–48.20)",
+      "xylander": "para 5 (Xyl. 45.16–45.24)",
+      "remark": "From «Conficitur» through «Disdiapason, ex duodecim tonis». The interval totals occur in the same order."
+    },
+    {
+      "vinet": "III.10 (Vinet 48.21–49.6)",
+      "xylander": "para 5 (Xyl. 45.24–46.9)",
+      "remark": "From «Proportio» through «uiginti quatuor». Vinet explicitly includes the quadruple ratio in the initial list; Xylander gives it in the ensuing numerical example. Xylander specifies «super bipartiens tertias», whereas Vinet says «duas eius partes». Vinet alone adds the three pairs of lettered segments after 49.6."
+    },
+    {
+      "vinet": "III.11 (Vinet 49.7–50.2)",
+      "xylander": "para 5 (Xyl. 46.9–46.24)",
+      "remark": "From «At enim» through «reliquis existimandum est». The distinction between pitch ratios and counts of notes is common. For comparison with the third note, Xylander specifies «eum, eiusque bessem» where Vinet has «superpartiens»."
+    },
+    {
+      "vinet": "III.12 (Vinet 50.3–50.11)",
+      "xylander": "para 5 (Xyl. 46.24–47.5)",
+      "remark": "From «Porrò hæ proportiones» through «spiritus». Discovery of ratios by string length, thickness, tension and weights, then wind instruments."
+    },
+    {
+      "vinet": "IV.1 (Vinet 50.14–51.3)",
+      "xylander": "para 5 (Xyl. 47.5–47.17)",
+      "remark": "From «Porrò systematum» through «complectitur». Xylander spells out the string counts and adds the contemporary name «decimamquintam». Vinet explicitly names the compound intervals at 51.1–3 where Xylander refers to «ex his ipsis composita»."
+    },
+    {
+      "vinet": "IV.2 (Vinet 51.4–51.7)",
+      "xylander": "para 5 (Xyl. 47.17–47.21)",
+      "remark": "From «Inter systemata» through «intelliguntur». Material systems are distinguished from intervals considered apart from matter."
+    },
+    {
+      "vinet": "V.1 (Vinet 51.10–51.20)",
+      "xylander": "para 5 (Xyl. 47.21–48.7)",
+      "remark": "From «Harmoniæ proprium» through «cantus conflatur». Xylander includes a parenthetical explanation of melodia as cantus/cantilena and its modulation."
+    },
+    {
+      "vinet": "V.2 (Vinet 51.21–52.20)",
+      "xylander": "para 5 (Xyl. 48.7–49.1)",
+      "remark": "From «Neque tamen» through «nomen inuenit». The three genera are constructed in the same order. Vinet calls the chromatic genus sadder and more mournful than the preceding one; Xylander describes its greater efficacy in moving emotions and evoking grief."
+    },
+    {
+      "vinet": "V.3 (Vinet 52.21–52.27)",
+      "xylander": "para 5 (Xyl. 49.1–49.6)",
+      "remark": "From «Neque alia ratione» through «faciet». Extension of the tetrachord example to other systems."
+    },
+    {
+      "vinet": "V.4 (Vinet 53.1–53.6)",
+      "xylander": "para 5 (Xyl. 49.6–49.12)",
+      "remark": "From «Sanè» through «Plato quoque id receperit». Difficulty of the harmonic genus and the natural simplicity of the diatonic genus."
+    },
+    {
+      "vinet": "V.5 (Vinet 53.7–53.20)",
+      "xylander": "para 5 (Xyl. 49.12–49.24)",
+      "remark": "From «Verùm horum præterea» to the end of the body. Modes and kinds of song, then variations of performance. Xylander's «obliquioribus» corresponds here to Vinet's «lentioribus»; this lexical divergence is reported without deciding between them. Closing formulas are Xyl.49.25 and Vinet53.21."
+    }
+  ],
+  "doubts": [
+    {
+      "ref": "Xyl. 40.24",
+      "issue": "The first a of autem is heavily inked; word reading is secure, origin of the extra ink uncertain.",
+      "options": "Print defect; later retouching. No separate manuscript text is legible."
+    },
+    {
+      "ref": "Xyl. 43, right-margin figures beside lines 4–7 and 9–14",
+      "issue": "The dot arrays and rules are irregular; origin cannot be established from the supplied scan.",
+      "options": "Printed diagrams, or later manuscript diagrams. Full dot counts and arrangement are preserved in figures."
+    },
+    {
+      "ref": "Xyl. 43.14",
+      "issue": "Printed propositum dupli is grammatically difficult.",
+      "options": "Retain the author's wording; possible misprint for propositi duplum. Retained in the reading text pending editorial judgment."
+    },
+    {
+      "ref": "Xyl. 47.19–25",
+      "issue": "Some initial letters run into the gutter and are partly clipped or concealed; they remain identifiable.",
+      "options": "systematum, tur, la, systemata, melodiæ, nem, diatonon, as transcribed; reviewer should confirm against the supplied image."
+    },
+    {
+      "ref": "Vinet 42.15–16, left margin (II.1)",
+      "issue": "The small cursive manuscript note is only partly legible.",
+      "options": "Probably quid sonus on two lines; retain partial transcription rather than silently restore."
+    },
+    {
+      "ref": "Vinet 44.6–7, left margin (III.1)",
+      "issue": "Short cursive marginal note is not securely legible.",
+      "options": "Only [...] / [...] sonus [?] is retained; no full wording is securely recoverable."
+    },
+    {
+      "ref": "Vinet 44, figure after line 12",
+      "issue": "The letter beneath numeral 2 and the narrow letter between M and L have unusual or damaged forms.",
+      "options": "The label under 2 is transcribed C̣ from its visible form; D is a possible intended/alternative reading. The small extra label between M and L is I-like and transcribed Ị. The numeral 4 may have been reinforced, but origin is uncertain."
+    },
+    {
+      "ref": "Vinet 46, figure before line 1",
+      "issue": "A thin diagonal crossing the dot-array divider may be manuscript rather than a printed line.",
+      "options": "Recorded as possible manuscript, without altering the figure."
+    },
+    {
+      "ref": "Vinet 49, figure after line 6",
+      "issue": "Two turned-looking glyphs and the extra B by Y make the letter labels uncertain.",
+      "options": "Ḍ and G̣ are provisional identifications of the rounded/reversed-looking forms. The lower endpoint looks like lowercase o. An extra B by Y and 2 above Z are visible; possible later additions are not silently omitted or regularised."
+    },
+    {
+      "ref": "Vinet 48, upper-left image corner",
+      "issue": "An isolated clipped diagonal stroke has uncertain origin.",
+      "options": "Possible manuscript mark, but a page-edge artifact cannot be excluded. It is not incorporated into the printed text."
+    }
+  ],
+  "summary": "The supplied images contain the complete music section in both Latin translations: Xylander 40–49 and Vinet 41–53. The diplomatic transcription contains 249 counted lines for Xylander and 300 for Vinet, including headings and closing formulas. Both prints are generally legible, although curvature at the gutter affects several Xylander lines and the Vinet images show stains and substantial show-through. Xylander uses a dense italic type with numerous nasal contractions, abbreviated endings and words divided without a hyphen. Vinet uses roman body type, frequent accents, five chapter divisions and twenty-four numbered paragraphs, including a vertically printed list of fifteen note names. The five Xylander paragraphs follow actual indentation; thematic changes within a line do not create additional paragraphs. The reading texts expand and normalise the specified graphic features, while proposed corrections and retained doubtful forms remain traceable in the apparatus. All twenty-four Vinet paragraphs have corresponding stretches in Xylander, although paragraph division, explanatory glosses and the provision of diagrams differ. The most urgent visual checks for a human editor are the manuscript notes on Vinet 42 and 44, ambiguous letters and possible later additions in the Vinet diagrams on 44 and 49, and the uncertain origin of the dot arrays on Xylander 43. Numerical or terminological peculiarities shared or differing between the translations have not been corrected merely to impose mathematical consistency or agreement between them.",
+  "verification": {
+    "xylander": {
+      "survey": "All ten images viewed; all printed page numbers 40–49 agree with filenames. First and last text boundaries verified.",
+      "line_counts": {
+        "40": 24,
+        "41": 25,
+        "42": 25,
+        "43": 25,
+        "44": 25,
+        "45": 25,
+        "46": 25,
+        "47": 25,
+        "48": 25,
+        "49": 25
+      },
+      "total_counted_lines": 249,
+      "paragraph_starts": [
+        {
+          "para": 1,
+          "ref": "Xyl. 40.3"
+        },
+        {
+          "para": 2,
+          "ref": "Xyl. 40.13"
+        },
+        {
+          "para": 3,
+          "ref": "Xyl. 41.4"
+        },
+        {
+          "para": 4,
+          "ref": "Xyl. 42.8"
+        },
+        {
+          "para": 5,
+          "ref": "Xyl. 44.21"
+        }
+      ],
+      "second_check": "All 249 counted lines checked a second time against enlarged crops. Numerical prose and both dot arrays were checked explicitly: ratio series six, eight, nine, twelve, sixteen, eighteen, twenty-four; arrays sixteen and thirty-two.",
+      "manuscript_status": "No securely legible later verbal manuscript addition found. The heavy initial at 40.24 and the origin of the 43 diagrams remain uncertain; neither is silently attributed to a later reader.",
+      "report": "Xylander's text is substantially legible, with mild discoloration and reverse-page show-through. The final pages approach the gutter, especially the left beginnings on 47 and the right ends on 48. All 249 main-text lines have been transcribed and rechecked. There are five paragraphs under the specified indentation rule. The title occupies two counted lines and the closing formula one. Abbreviation strokes, the accented -que sign, and unhyphenated line breaks require particular care. Four high-confidence printing slips are corrected in the reading text and recorded individually. The difficult phrase propositum dupli is retained pending editorial judgment. Both marginal cross-references are recorded without consulting the missing annotations. The two dot arrays contain sixteen and thirty-two dots; their print/manuscript origin is unresolved from the scan. A reviewer should first inspect the recorded corrections, the initial at 40.24, and the gutter-edge letters on 47."
+    },
+    "vinet": {
+      "model": "gpt-6-astra",
+      "provider": "OpenAI",
+      "date": "2026-10-27",
+      "source": "Only the thirteen provided Vinet images and PROMPT.md; no external editions, translations, websites, OCR, or repository material.",
+      "status": "All 300 diplomatic lines compared with the images in a second visual pass. All 24 paragraph numbers, five chapter numbers and numerical prose checked. Close crops used for type, accents, caudata and ligatures. Reading text generated with a reviewed lexical u/v map and checked for remaining accents. Marginal handwriting and several diagram letters remain uncertain and are explicitly recorded. The coordinating agent integrated the independent figure audit.",
+      "line_counts": {
+        "41": 20,
+        "42": 24,
+        "43": 27,
+        "44": 20,
+        "45": 23,
+        "46": 16,
+        "47": 27,
+        "48": 27,
+        "49": 20,
+        "50": 24,
+        "51": 24,
+        "52": 27,
+        "53": 21
+      }
+    },
+    "coordinator": "All 23 images surveyed independently; physical counts and paragraph boundaries reconciled with both transcription and separate image audit; alignment checked against the two supplied translations. Structural and character-normalisation checks run before delivery.",
+    "line_totals": {
+      "xylander": 249,
+      "vinet": 300,
+      "combined": 549
+    },
+    "external_texts_used": [],
+    "reading_text_audit": "A separate agent checked both reading texts against their diplomatic paragraphs, including punctuation and every distinct u/v/j-bearing word. Exactly the four Xylander and five Vinet apparatus corrections remain after accounting for the prescribed normalisation; no unlisted substantive or punctuation changes were found. The coordinator also restored the printed capital N in VNiuersum / UNiversum at Xyl.40.3.",
+    "structural_validation": "PASS: 23 source pages, 549 consecutively numbered text lines, 29 reading paragraphs, 24 alignment rows, valid page.line references, and complete JSON/Markdown content agreement."
+  }
+}

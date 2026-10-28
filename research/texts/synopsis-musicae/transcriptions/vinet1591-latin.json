@@ -1,0 +1,2848 @@
+{
+ "witness": "Élie Vinet, Latin translation, Tournon 1591, pp. 41-53",
+ "status": "agreed text of two independent transcriptions (Claude, workflow 2026-10-27; GPT-6 Astra, Codex 2026-10-27); every difference decided against the scans by two anonymised checkers (2026-10-27), places they left open by the editor",
+ "conventions": "diplomatic, as printed: long s -> s; ligatures resolved; abbreviations expanded silently (& -> et, nasal stroke -> m/n); the q-acute sort kept as q́ue; u/v, i/j, accents, capitals and misprints as printed; printed hyphens kept; spacing normalised as in the merged Xylander (no space before punctuation, one after)",
+ "lines_total": 300,
+ "identical_after_spacing": 283,
+ "pending_editor": [],
+ "lines": [
+  {
+   "page": 41,
+   "line": 1,
+   "text": "MICHAELIS PSELLI"
+  },
+  {
+   "page": 41,
+   "line": 2,
+   "text": "MVSICA."
+  },
+  {
+   "page": 41,
+   "line": 3,
+   "text": "CAPVT 1."
+  },
+  {
+   "page": 41,
+   "line": 4,
+   "text": "De Musica in commune."
+  },
+  {
+   "page": 41,
+   "line": 5,
+   "text": "MVsica Vniuersitatem contineri",
+   "para_no": "I.1"
+  },
+  {
+   "page": 41,
+   "line": 6,
+   "text": "veteres dixerunt. Rerum enim"
+  },
+  {
+   "page": 41,
+   "line": 7,
+   "text": "naturalium nulla est, quæ vacet"
+  },
+  {
+   "page": 41,
+   "line": 8,
+   "text": "symmetria, et proportione: quinimo eorum"
+  },
+  {
+   "page": 41,
+   "line": 9,
+   "text": "quæ fiunt, si quid non cum apta symme-"
+  },
+  {
+   "page": 41,
+   "line": 10,
+   "text": "tria et proportione efficitur, nunquam pul"
+  },
+  {
+   "page": 41,
+   "line": 11,
+   "text": "chrè factum fuerit, siue artis id opus sit, siue"
+  },
+  {
+   "page": 41,
+   "line": 12,
+   "text": "naturæ: siue sensu id percipiatur aliquo, si-"
+  },
+  {
+   "page": 41,
+   "line": 13,
+   "text": "ue sola mente comprehendi possit. Musi-"
+  },
+  {
+   "page": 41,
+   "line": 14,
+   "text": "ca autem est ipsa per se symmetria et pro-"
+  },
+  {
+   "page": 41,
+   "line": 15,
+   "text": "portio, ipsaq́ue adeò Vniuersitas, vtpote"
+  },
+  {
+   "page": 41,
+   "line": 16,
+   "text": "quæ vniuersitatis harmonia est ac conue-"
+  },
+  {
+   "page": 41,
+   "line": 17,
+   "text": "nientia. Quin et Deum ipsum quoque non"
+  },
+  {
+   "page": 41,
+   "line": 18,
+   "text": "ineptè fortasse tum sui ipsius, tum vniuer-"
+  },
+  {
+   "page": 41,
+   "line": 19,
+   "text": "sitatis conuenientiam dixeris: in quo ita aptè"
+  },
+  {
+   "page": 41,
+   "line": 20,
+   "text": "consistit vniuersitas, vt perpulchrè opti-"
+  },
+  {
+   "page": 42,
+   "line": 1,
+   "text": "méque habere conspiciatur: tanta dignam"
+  },
+  {
+   "page": 42,
+   "line": 2,
+   "text": "admiratione Musicam existimarunt. Mu-"
+  },
+  {
+   "page": 42,
+   "line": 3,
+   "text": "sica itaque in rebus ad hunc modum om-"
+  },
+  {
+   "page": 42,
+   "line": 4,
+   "text": "nibus deprehenditur, omnia componit or-"
+  },
+  {
+   "page": 42,
+   "line": 5,
+   "text": "nâtque, et voluptatem quidem sensui, con-"
+  },
+  {
+   "page": 42,
+   "line": 6,
+   "text": "uenientiam verò naturæ, et beatitudinem"
+  },
+  {
+   "page": 42,
+   "line": 7,
+   "text": "menti præstat."
+  },
+  {
+   "page": 42,
+   "line": 8,
+   "text": "Nos autem hîc de Musica illa, quam",
+   "para_no": "I.2"
+  },
+  {
+   "page": 42,
+   "line": 9,
+   "text": "sensus aut potius sensuum vnus auditus,"
+  },
+  {
+   "page": 42,
+   "line": 10,
+   "text": "percipit contemplatúrque, breuiter disce"
+  },
+  {
+   "page": 42,
+   "line": 11,
+   "text": "ptabimus."
+  },
+  {
+   "page": 42,
+   "line": 12,
+   "text": "CAPVT 2."
+  },
+  {
+   "page": 42,
+   "line": 13,
+   "text": "De Soni natura, et variis appel-"
+  },
+  {
+   "page": 42,
+   "line": 14,
+   "text": "lationibus."
+  },
+  {
+   "page": 42,
+   "line": 15,
+   "text": "SOnus est vocis interuallo carentis",
+   "para_no": "II.1"
+  },
+  {
+   "page": 42,
+   "line": 16,
+   "text": "conueniens intensio. Interuallum,"
+  },
+  {
+   "page": 42,
+   "line": 17,
+   "text": "quædam sonorum inter se habitudo. Sy-"
+  },
+  {
+   "page": 42,
+   "line": 18,
+   "text": "stema, quędam interuallorum complexio."
+  },
+  {
+   "page": 42,
+   "line": 19,
+   "text": "Harmonia, systematum compositio. So-"
+  },
+  {
+   "page": 42,
+   "line": 20,
+   "text": "nus itaque interuallo dimensionéque va-"
+  },
+  {
+   "page": 42,
+   "line": 21,
+   "text": "cat, vt punctum in Geometria. Conueniens"
+  },
+  {
+   "page": 42,
+   "line": 22,
+   "text": "verò dicitur, quod ita efferri oportet, vt cum"
+  },
+  {
+   "page": 42,
+   "line": 23,
+   "text": "alio sono conuenire possit, quoniam nisi"
+  },
+  {
+   "page": 42,
+   "line": 24,
+   "text": "sic elatus sit, absurdus et absonus sonus"
+  },
+  {
+   "page": 43,
+   "line": 1,
+   "text": "est, non conueniens: imò verò ne sonus"
+  },
+  {
+   "page": 43,
+   "line": 2,
+   "text": "quidem omnino vocandus, sed crepitus"
+  },
+  {
+   "page": 43,
+   "line": 3,
+   "text": "quidam temerè editus, et ad conuenien-"
+  },
+  {
+   "page": 43,
+   "line": 4,
+   "text": "tiam concentúmque ineptus."
+  },
+  {
+   "page": 43,
+   "line": 5,
+   "text": "Porrò autem sonorum appellationes",
+   "para_no": "II.2"
+  },
+  {
+   "page": 43,
+   "line": 6,
+   "text": "variæ sunt, qui vt à graui ad acutum ordi-"
+  },
+  {
+   "page": 43,
+   "line": 7,
+   "text": "ne progrediuntur, sic nominari solent,"
+  },
+  {
+   "page": 43,
+   "line": 8,
+   "text": "Proslambanómenos,"
+  },
+  {
+   "page": 43,
+   "line": 9,
+   "text": "Hypáte hypáton,"
+  },
+  {
+   "page": 43,
+   "line": 10,
+   "text": "Parhypáte hypáton,"
+  },
+  {
+   "page": 43,
+   "line": 11,
+   "text": "Hypáte diátonos,"
+  },
+  {
+   "page": 43,
+   "line": 12,
+   "text": "Hypáte méson,"
+  },
+  {
+   "page": 43,
+   "line": 13,
+   "text": "Parhypáte méson,"
+  },
+  {
+   "page": 43,
+   "line": 14,
+   "text": "Diátonos méson,"
+  },
+  {
+   "page": 43,
+   "line": 15,
+   "text": "Mése solùm,"
+  },
+  {
+   "page": 43,
+   "line": 16,
+   "text": "Paramése,"
+  },
+  {
+   "page": 43,
+   "line": 17,
+   "text": "Trite diezeugméne,"
+  },
+  {
+   "page": 43,
+   "line": 18,
+   "text": "Diátonos diezeugméne,"
+  },
+  {
+   "page": 43,
+   "line": 19,
+   "text": "Néte diezeugméne,"
+  },
+  {
+   "page": 43,
+   "line": 20,
+   "text": "Trite hyperbolæon,"
+  },
+  {
+   "page": 43,
+   "line": 21,
+   "text": "Diatonos hyperbolæon,"
+  },
+  {
+   "page": 43,
+   "line": 22,
+   "text": "Néte hyperbolæon."
+  },
+  {
+   "page": 43,
+   "line": 23,
+   "text": "Ex his conficitur, quod in Pentekæ-",
+   "para_no": "II.3"
+  },
+  {
+   "page": 43,
+   "line": 24,
+   "text": "decachordo est Heckædecachordum: quan-"
+  },
+  {
+   "page": 43,
+   "line": 25,
+   "text": "do finis Octachordi, principium deinceps"
+  },
+  {
+   "page": 43,
+   "line": 26,
+   "text": "continuò sequentibus constituitur. Quam"
+  },
+  {
+   "page": 43,
+   "line": 27,
+   "text": "enim rationem primus sonus ad octauum"
+  },
+  {
+   "page": 44,
+   "line": 1,
+   "text": "habere cernitur, eandem et octauus quo-"
+  },
+  {
+   "page": 44,
+   "line": 2,
+   "text": "que ipse ad quindecimum habet. Atque"
+  },
+  {
+   "page": 44,
+   "line": 3,
+   "text": "de sonis quidem hactenus."
+  },
+  {
+   "page": 44,
+   "line": 4,
+   "text": "CAPVT 3."
+  },
+  {
+   "page": 44,
+   "line": 5,
+   "text": "De interuallis."
+  },
+  {
+   "page": 44,
+   "line": 6,
+   "text": "IAm verò interuallorum minimum",
+   "para_no": "III.1"
+  },
+  {
+   "page": 44,
+   "line": 7,
+   "text": "quidem est Díesis. Deinde hemito-"
+  },
+  {
+   "page": 44,
+   "line": 8,
+   "text": "tonium, quod Díesi duplo acutius est: Po-"
+  },
+  {
+   "page": 44,
+   "line": 9,
+   "text": "stremo Tonus, ex duobus constans hemi-"
+  },
+  {
+   "page": 44,
+   "line": 10,
+   "text": "toniis: cuius quidem interualli ratio ses-"
+  },
+  {
+   "page": 44,
+   "line": 11,
+   "text": "quioctaua est, quomodo nouem numerus"
+  },
+  {
+   "page": 44,
+   "line": 12,
+   "text": "ad octo habet: vt sit Hemitonium, veluti"
+  },
+  {
+   "page": 44,
+   "line": 13,
+   "text": "octo cum semisse: et Díesis, vt, octo cum"
+  },
+  {
+   "page": 44,
+   "line": 14,
+   "text": "quadrante: quandoquidem licet monàs"
+  },
+  {
+   "page": 44,
+   "line": 15,
+   "text": "non possit diuidi per numeros, illa tamen"
+  },
+  {
+   "page": 44,
+   "line": 16,
+   "text": "geometrico modo diuidi potest, vbi in"
+  },
+  {
+   "page": 44,
+   "line": 17,
+   "text": "materia consideratur. Chordam enim, quę"
+  },
+  {
+   "page": 44,
+   "line": 18,
+   "text": "sesquioctauam continet rationem, potes"
+  },
+  {
+   "page": 44,
+   "line": 19,
+   "text": "partiri in semisesquioctauam, quod he-"
+  },
+  {
+   "page": 44,
+   "line": 20,
+   "text": "mitonium est: et eandem rursus diuidere"
+  },
+  {
+   "page": 45,
+   "line": 1,
+   "text": "in diesin: quoniam Geometria tum mino-"
+  },
+  {
+   "page": 45,
+   "line": 2,
+   "text": "rem à maiore omni modo abscindit li-"
+  },
+  {
+   "page": 45,
+   "line": 3,
+   "text": "neam, tum minori addit maiorem: indéque"
+  },
+  {
+   "page": 45,
+   "line": 4,
+   "text": "fit, vt quælibet figura augeri quantumuis"
+  },
+  {
+   "page": 45,
+   "line": 5,
+   "text": "et minui possit."
+  },
+  {
+   "page": 45,
+   "line": 6,
+   "text": "Arithmetica verò id facere nequit: hęc",
+   "para_no": "III.2"
+  },
+  {
+   "page": 45,
+   "line": 7,
+   "text": "enim datum quadratum distribuere in"
+  },
+  {
+   "page": 45,
+   "line": 8,
+   "text": "quadrata æqualia non potest, nec duplica-"
+  },
+  {
+   "page": 45,
+   "line": 9,
+   "text": "re datum. Sedecim nanque numerum qua-"
+  },
+  {
+   "page": 45,
+   "line": 10,
+   "text": "dratum, neque in paria diuidi quadrata est"
+  },
+  {
+   "page": 45,
+   "line": 11,
+   "text": "possibile (octo enim quadrari non possunt)"
+  },
+  {
+   "page": 45,
+   "line": 12,
+   "text": "neque in quadratum aliud duplicari: quo-"
+  },
+  {
+   "page": 45,
+   "line": 13,
+   "text": "niam triginta duo numerus quadrari nul-"
+  },
+  {
+   "page": 45,
+   "line": 14,
+   "text": "lo modo potest."
+  },
+  {
+   "page": 45,
+   "line": 15,
+   "text": "At Geometriæ facillimum hoc: Qua-",
+   "para_no": "III.3"
+  },
+  {
+   "page": 45,
+   "line": 16,
+   "text": "drati enim latus Geometra si in diametrum"
+  },
+  {
+   "page": 45,
+   "line": 17,
+   "text": "traduxerit, et ei quadratum circumiecerit"
+  },
+  {
+   "page": 45,
+   "line": 18,
+   "text": "diametro, dimidium dati quadrati habe-"
+  },
+  {
+   "page": 45,
+   "line": 19,
+   "text": "bit, atque ex quadrati dimetiente rursus si"
+  },
+  {
+   "page": 45,
+   "line": 20,
+   "text": "latus Geometra effecerit, datum duplica-"
+  },
+  {
+   "page": 45,
+   "line": 21,
+   "text": "uerit quadratum. Ad hunc sanè modum et"
+  },
+  {
+   "page": 45,
+   "line": 22,
+   "text": "sesquioctaua toni ratio in hemitonium di"
+  },
+  {
+   "page": 45,
+   "line": 23,
+   "text": "uiditur, rursúsque in díesin."
+  },
+  {
+   "page": 46,
+   "line": 1,
+   "text": "Horum autem adauctu, alia quoque simpli",
+   "para_no": "III.4"
+  },
+  {
+   "page": 46,
+   "line": 2,
+   "text": "cia interualla fiunt, Tridíesis, Trihemito-"
+  },
+  {
+   "page": 46,
+   "line": 3,
+   "text": "nium, Ditonium, et Tritonium; et vt volueris, et"
+  },
+  {
+   "page": 46,
+   "line": 4,
+   "text": "rythmus tulerit, quomodo ex sequentibus"
+  },
+  {
+   "page": 46,
+   "line": 5,
+   "text": "cognoscetur. Simplicia autem ideo dicta"
+  },
+  {
+   "page": 46,
+   "line": 6,
+   "text": "sunt, quòd veluti vnum ex coniunctis confu-"
+  },
+  {
+   "page": 46,
+   "line": 7,
+   "text": "sísque tribus diesibus, seu tribus hemitoniis"
+  },
+  {
+   "page": 46,
+   "line": 8,
+   "text": "seu multis etiam tonis conficiatur melos,"
+  },
+  {
+   "page": 46,
+   "line": 9,
+   "text": "quod licet multorum vim habeat interuallo"
+  },
+  {
+   "page": 46,
+   "line": 10,
+   "text": "rum, tamen per vnicum resonet interuallum."
+  },
+  {
+   "page": 46,
+   "line": 11,
+   "text": "Cæterùm alia præter illa sunt inter-",
+   "para_no": "III.5"
+  },
+  {
+   "page": 46,
+   "line": 12,
+   "text": "ualla, Dià-tessáron, Dià-pénte, et Dià-"
+  },
+  {
+   "page": 46,
+   "line": 13,
+   "text": "pasôn nnncupata: sed hæc non sine me-"
+  },
+  {
+   "page": 46,
+   "line": 14,
+   "text": "dio, neque non-composita sunt, quando"
+  },
+  {
+   "page": 46,
+   "line": 15,
+   "text": "per media omnia supradicta interualla"
+  },
+  {
+   "page": 46,
+   "line": 16,
+   "text": "incedunt: quæ ratione quidem vocis pri-"
+  },
+  {
+   "page": 47,
+   "line": 1,
+   "text": "mi soni ad vltimum, interualla appellan-"
+  },
+  {
+   "page": 47,
+   "line": 2,
+   "text": "tur: sed à numero tamen ordinéque, qui in"
+  },
+  {
+   "page": 47,
+   "line": 3,
+   "text": "medio sunt, sonorum, hæc nomina rece-"
+  },
+  {
+   "page": 47,
+   "line": 4,
+   "text": "perunt: Dià-tessáron, vt quod per quatuor:"
+  },
+  {
+   "page": 47,
+   "line": 5,
+   "text": "Dià-pénte, per quinque: Dià-pasôn per"
+  },
+  {
+   "page": 47,
+   "line": 6,
+   "text": "octo sonos aut chordas ingrediatur termi-"
+  },
+  {
+   "page": 47,
+   "line": 7,
+   "text": "neturq́ue. Dià-pasôn autem per octo di-"
+  },
+  {
+   "page": 47,
+   "line": 8,
+   "text": "citur, tanquam in Octachordo interual-"
+  },
+  {
+   "page": 47,
+   "line": 9,
+   "text": "lis omnibus comprehensis completísque,"
+  },
+  {
+   "page": 47,
+   "line": 10,
+   "text": "et hinc rursus repetitis, quemadmodum"
+  },
+  {
+   "page": 47,
+   "line": 11,
+   "text": "ex ipsa liquet appellationum ratione. Nam"
+  },
+  {
+   "page": 47,
+   "line": 12,
+   "text": "Dià-pason cum Dià-tessáron, et Dià-pa-"
+  },
+  {
+   "page": 47,
+   "line": 13,
+   "text": "sôn cnm Dià-pénte, et bis Dià-pasôn po-"
+  },
+  {
+   "page": 47,
+   "line": 14,
+   "text": "steriora interualla vocantur."
+  },
+  {
+   "page": 47,
+   "line": 15,
+   "text": "Consonat autem interuallum Dià-tes-",
+   "para_no": "III.6"
+  },
+  {
+   "page": 47,
+   "line": 16,
+   "text": "sáron, et Dià-pénte secundum paraphô-"
+  },
+  {
+   "page": 47,
+   "line": 17,
+   "text": "num: Dià-pasôn verò, et Dià-pasôn cum"
+  },
+  {
+   "page": 47,
+   "line": 18,
+   "text": "Dià-tessaron, et Dià-pasôn cum Dià-pén"
+  },
+  {
+   "page": 47,
+   "line": 19,
+   "text": "te, et bis Dià-pasôn secundum antiphô-"
+  },
+  {
+   "page": 47,
+   "line": 20,
+   "text": "num."
+  },
+  {
+   "page": 47,
+   "line": 21,
+   "text": "Differunt autem inter se Paraphonum",
+   "para_no": "III.7"
+  },
+  {
+   "page": 47,
+   "line": 22,
+   "text": "et antiphonum, quòd Paraphonum impari"
+  },
+  {
+   "page": 47,
+   "line": 23,
+   "text": "temporis spatio consonat, leniter quodam-"
+  },
+  {
+   "page": 47,
+   "line": 24,
+   "text": "modo et appositè excipientibus inter se"
+  },
+  {
+   "page": 47,
+   "line": 25,
+   "text": "sonis, secundum proportiones et rationes"
+  },
+  {
+   "page": 47,
+   "line": 26,
+   "text": "æquabiliter: antiphonum verò æquo con-"
+  },
+  {
+   "page": 47,
+   "line": 27,
+   "text": "uenit temporis spacio, acuto cùm graui"
+  },
+  {
+   "page": 48,
+   "line": 1,
+   "text": "pariter consonante, vt octauo cum primo,"
+  },
+  {
+   "page": 48,
+   "line": 2,
+   "text": "vndecimo cum quarto, duodecimo cum"
+  },
+  {
+   "page": 48,
+   "line": 3,
+   "text": "quinto, quintodecimo cum octauo, graui-"
+  },
+  {
+   "page": 48,
+   "line": 4,
+   "text": "bus nimirum vnà cum acutis, aut acutis cum"
+  },
+  {
+   "page": 48,
+   "line": 5,
+   "text": "grauibus peræqua proportione simul ascen"
+  },
+  {
+   "page": 48,
+   "line": 6,
+   "text": "dentibus vel descendentibus, in inten-"
+  },
+  {
+   "page": 48,
+   "line": 7,
+   "text": "sionibus remissionibúsue."
+  },
+  {
+   "page": 48,
+   "line": 8,
+   "text": "Porrò tonus et hemitonium et díesis",
+   "para_no": "III.8"
+  },
+  {
+   "page": 48,
+   "line": 9,
+   "text": "per se ipsa considerata, principium quidem"
+  },
+  {
+   "page": 48,
+   "line": 10,
+   "text": "consonantiæ sunt, sed nondum tamen con-"
+  },
+  {
+   "page": 48,
+   "line": 11,
+   "text": "sonantia."
+  },
+  {
+   "page": 48,
+   "line": 12,
+   "text": "Conficitur autem Dià-tessáron duo-",
+   "para_no": "III.9"
+  },
+  {
+   "page": 48,
+   "line": 13,
+   "text": "bus tonis et hemitonio et modica præ-"
+  },
+  {
+   "page": 48,
+   "line": 14,
+   "text": "terea toni parte, quæ diesi minor, nomine"
+  },
+  {
+   "page": 48,
+   "line": 15,
+   "text": "vacat: Dià-pénte verò tribus tonis et he-"
+  },
+  {
+   "page": 48,
+   "line": 16,
+   "text": "mitonio: et Dià-pasôn sex tonis: ac Dià-"
+  },
+  {
+   "page": 48,
+   "line": 17,
+   "text": "pasôn cum Dià-tessáron, tonis octo et he"
+  },
+  {
+   "page": 48,
+   "line": 18,
+   "text": "mitonio: Dià-pasôn cum Dià-pénte, no-"
+  },
+  {
+   "page": 48,
+   "line": 19,
+   "text": "uem tonis et hemitonio: bis Dià-pasôn"
+  },
+  {
+   "page": 48,
+   "line": 20,
+   "text": "tonis duodecim."
+  },
+  {
+   "page": 48,
+   "line": 21,
+   "text": "Ratio autem iuterualli Dià-tessá-",
+   "para_no": "III.10"
+  },
+  {
+   "page": 48,
+   "line": 22,
+   "text": "ron, est sequitertia: Dià-pénte, sesquial-"
+  },
+  {
+   "page": 48,
+   "line": 23,
+   "text": "tera: Dià-pasôn, duplex: Dià pason cum"
+  },
+  {
+   "page": 48,
+   "line": 24,
+   "text": "Dià-tessáron duplex-superpartiens: Dià-"
+  },
+  {
+   "page": 48,
+   "line": 25,
+   "text": "passon cum Dià-pénte, triplex: Bis Dià-"
+  },
+  {
+   "page": 48,
+   "line": 26,
+   "text": "pason, quadruplex: vt exempli gratia in nu-"
+  },
+  {
+   "page": 48,
+   "line": 27,
+   "text": "meris, primus proponatur nobis terminus,"
+  },
+  {
+   "page": 49,
+   "line": 1,
+   "text": "numerus sex, cuius sesquitertius est pla-"
+  },
+  {
+   "page": 49,
+   "line": 2,
+   "text": "nè octo: sesquialter, nouem: duplex, duo-"
+  },
+  {
+   "page": 49,
+   "line": 3,
+   "text": "decim: duplex-superpartiens, sedecim,"
+  },
+  {
+   "page": 49,
+   "line": 4,
+   "text": "sex bis continens, et duas eius partes: tri-"
+  },
+  {
+   "page": 49,
+   "line": 5,
+   "text": "plex, octodecim: quadruplex, viginti"
+  },
+  {
+   "page": 49,
+   "line": 6,
+   "text": "quatuor."
+  },
+  {
+   "page": 49,
+   "line": 7,
+   "text": "Verumtamen sciendum, rationes in-",
+   "para_no": "III.11"
+  },
+  {
+   "page": 49,
+   "line": 8,
+   "text": "teruallorum, non ex sonorum, aut ex chor-"
+  },
+  {
+   "page": 49,
+   "line": 9,
+   "text": "darum numero iudicari; sed ex intentio-"
+  },
+  {
+   "page": 49,
+   "line": 10,
+   "text": "ne vocis à graui ad acutius: quandoquidem"
+  },
+  {
+   "page": 49,
+   "line": 11,
+   "text": "interuallum Dià-pénte, cuius est ratio ses"
+  },
+  {
+   "page": 49,
+   "line": 12,
+   "text": "quialtera, sesquialterum minimè videtur"
+  },
+  {
+   "page": 49,
+   "line": 13,
+   "text": "ex ratione numeri sonorum, quo numero"
+  },
+  {
+   "page": 49,
+   "line": 14,
+   "text": "superat sonos, qui ipsum præcedunt. Nam"
+  },
+  {
+   "page": 49,
+   "line": 15,
+   "text": "primi soni quincuplex inuenitur: secundi"
+  },
+  {
+   "page": 49,
+   "line": 16,
+   "text": "verò, duplum sesquialterum: tertij, super-"
+  },
+  {
+   "page": 49,
+   "line": 17,
+   "text": "partiens: quarti, sesquiquartum: nullius"
+  },
+  {
+   "page": 49,
+   "line": 18,
+   "text": "verò sesquialterum demonstrari potest."
+  },
+  {
+   "page": 49,
+   "line": 19,
+   "text": "Ab intensione itaque acuti, non à sonorum"
+  },
+  {
+   "page": 49,
+   "line": 20,
+   "text": "numero, sesquialterum censetur. Idem"
+  },
+  {
+   "page": 50,
+   "line": 1,
+   "text": "autem et in reliquis quoque rationibus"
+  },
+  {
+   "page": 50,
+   "line": 2,
+   "text": "nobis licebit considerare."
+  },
+  {
+   "page": 50,
+   "line": 3,
+   "text": "Inuentæ autem hæ sunt interuallorum",
+   "para_no": "III.12"
+  },
+  {
+   "page": 50,
+   "line": 4,
+   "text": "rationes et deprehensæ, ex dispari chor-"
+  },
+  {
+   "page": 50,
+   "line": 5,
+   "text": "datum vel longitudine vel crassitudine:"
+  },
+  {
+   "page": 50,
+   "line": 6,
+   "text": "vel ea, quæ per torsionem clauiculorum"
+  },
+  {
+   "page": 50,
+   "line": 7,
+   "text": "fit, intensione; aut, quod compertum ma-"
+  },
+  {
+   "page": 50,
+   "line": 8,
+   "text": "gis, ex ponderum è neruis appensione: In"
+  },
+  {
+   "page": 50,
+   "line": 9,
+   "text": "iis verò quæ inflata sonant, aut ex fistula-"
+  },
+  {
+   "page": 50,
+   "line": 10,
+   "text": "rum amplitudine, aut ex intensione spiri-"
+  },
+  {
+   "page": 50,
+   "line": 11,
+   "text": "tus ac remissione."
+  },
+  {
+   "page": 50,
+   "line": 12,
+   "text": "CAP. 4."
+  },
+  {
+   "page": 50,
+   "line": 13,
+   "text": "De Systematis."
+  },
+  {
+   "page": 50,
+   "line": 14,
+   "text": "SYstematum autem hoc quidem Te-",
+   "para_no": "IV.1"
+  },
+  {
+   "page": 50,
+   "line": 15,
+   "text": "trachordum est, quod omnes inter-"
+  },
+  {
+   "page": 50,
+   "line": 16,
+   "text": "ualli Dià-tessáron continet facultates:"
+  },
+  {
+   "page": 50,
+   "line": 17,
+   "text": "aliud verò Pentachordum, quod interual-"
+  },
+  {
+   "page": 50,
+   "line": 18,
+   "text": "li Dià-pénte facultates complectitur: a-"
+  },
+  {
+   "page": 50,
+   "line": 19,
+   "text": "liud Octachordum, quod totam interual-"
+  },
+  {
+   "page": 50,
+   "line": 20,
+   "text": "li Dià-pasôn vim continet: aliud deinceps"
+  },
+  {
+   "page": 50,
+   "line": 21,
+   "text": "Heckædecachordum, bis Dià-pasôn vni-"
+  },
+  {
+   "page": 50,
+   "line": 22,
+   "text": "uersam comprehendens intensionem, du-"
+  },
+  {
+   "page": 50,
+   "line": 23,
+   "text": "plicésque habens facultates: eas enim,"
+  },
+  {
+   "page": 50,
+   "line": 24,
+   "text": "quas modò diximus, atque interuallorum"
+  },
+  {
+   "page": 51,
+   "line": 1,
+   "text": "Dià-pason Dià-tessáron, et Dià-pason"
+  },
+  {
+   "page": 51,
+   "line": 2,
+   "text": "Dià-pénte, et bis Dià-pason facultates in"
+  },
+  {
+   "page": 51,
+   "line": 3,
+   "text": "se continet."
+  },
+  {
+   "page": 51,
+   "line": 4,
+   "text": "Differunt autem Systemata ab inter-",
+   "para_no": "IV.2"
+  },
+  {
+   "page": 51,
+   "line": 5,
+   "text": "uallis quæ in ipsis sunt, quòd illa in ma-"
+  },
+  {
+   "page": 51,
+   "line": 6,
+   "text": "teria consistunt: interualla verò à materia"
+  },
+  {
+   "page": 51,
+   "line": 7,
+   "text": "abstracta consideramus."
+  },
+  {
+   "page": 51,
+   "line": 8,
+   "text": "CAPVT 5."
+  },
+  {
+   "page": 51,
+   "line": 9,
+   "text": "De Harmonia."
+  },
+  {
+   "page": 51,
+   "line": 10,
+   "text": "HArmoniæ porrò proprium est Sy-",
+   "para_no": "V.1"
+  },
+  {
+   "page": 51,
+   "line": 11,
+   "text": "stemata illa componere aptaréque"
+  },
+  {
+   "page": 51,
+   "line": 12,
+   "text": "ad aliquod genus modulationis, vt ad Diá-"
+  },
+  {
+   "page": 51,
+   "line": 13,
+   "text": "tonon, ad Chromaticon, et ad id quod ab"
+  },
+  {
+   "page": 51,
+   "line": 14,
+   "text": "ipsa harmonia cognominatum, Harmo-"
+  },
+  {
+   "page": 51,
+   "line": 15,
+   "text": "nicum dicimus. Si igitur tonis plurimùm"
+  },
+  {
+   "page": 51,
+   "line": 16,
+   "text": "harmonia peragitur, Diátonon sic voca-"
+  },
+  {
+   "page": 51,
+   "line": 17,
+   "text": "tum efficitur genus: si Hemitoniis, Chro-"
+  },
+  {
+   "page": 51,
+   "line": 18,
+   "text": "maticum: si verò diesibus ferè harmonia"
+  },
+  {
+   "page": 51,
+   "line": 19,
+   "text": "continetur, conficitur, quam Harmonicam"
+  },
+  {
+   "page": 51,
+   "line": 20,
+   "text": "appellant modulationem."
+  },
+  {
+   "page": 51,
+   "line": 21,
+   "text": "Verumenimuero neque omnino to-",
+   "para_no": "V.2"
+  },
+  {
+   "page": 51,
+   "line": 22,
+   "text": "nis, quæ ad Harmoniam pertinent, effe-"
+  },
+  {
+   "page": 51,
+   "line": 23,
+   "text": "runtur, neque hemitoniis omnino, neque"
+  },
+  {
+   "page": 51,
+   "line": 24,
+   "text": "omnino diesibus: hoc enim fieri non po-"
+  },
+  {
+   "page": 52,
+   "line": 1,
+   "text": "test: quinimo, quoniam ex tribus interual-"
+  },
+  {
+   "page": 52,
+   "line": 2,
+   "text": "lis Dià-tessáron interuallum confectum"
+  },
+  {
+   "page": 52,
+   "line": 3,
+   "text": "est, duobúsque tonis et hemitonio com-"
+  },
+  {
+   "page": 52,
+   "line": 4,
+   "text": "prehensum, necesse est, postquam duo pri"
+  },
+  {
+   "page": 52,
+   "line": 5,
+   "text": "ma interualla imposueris, reliquum esse"
+  },
+  {
+   "page": 52,
+   "line": 6,
+   "text": "Hemitonium: atque hoc fuerit Dià-tes-"
+  },
+  {
+   "page": 52,
+   "line": 7,
+   "text": "sáron Diatonon cognominatum genus,"
+  },
+  {
+   "page": 52,
+   "line": 8,
+   "text": "ex Hemitonio et tonis constans duobus."
+  },
+  {
+   "page": 52,
+   "line": 9,
+   "text": "Si verò duo sint hemitonia, reliquum fue"
+  },
+  {
+   "page": 52,
+   "line": 10,
+   "text": "rit vnum ex confusione interuallum, Tri-"
+  },
+  {
+   "page": 52,
+   "line": 11,
+   "text": "hemitonium simplex: erítque id Dià-tes-"
+  },
+  {
+   "page": 52,
+   "line": 12,
+   "text": "sáron genus Chromáticum, ex Hemito-"
+  },
+  {
+   "page": 52,
+   "line": 13,
+   "text": "niis duobus et Trihemitonio temperatum,"
+  },
+  {
+   "page": 52,
+   "line": 14,
+   "text": "quod priore mœstius luctuosiúsque est. Si"
+  },
+  {
+   "page": 52,
+   "line": 15,
+   "text": "vero per duas dieses modulatio peraga-"
+  },
+  {
+   "page": 52,
+   "line": 16,
+   "text": "tur, quod reliquum est interuallum, erit v-"
+  },
+  {
+   "page": 52,
+   "line": 17,
+   "text": "num ditonium ex confusione, ac Dià-tes-"
+  },
+  {
+   "page": 52,
+   "line": 18,
+   "text": "saron hoc genus Harmonicum nomina-"
+  },
+  {
+   "page": 52,
+   "line": 19,
+   "text": "tur, quòd sit optimum, ab ipsa communi"
+  },
+  {
+   "page": 52,
+   "line": 20,
+   "text": "omnium harmonia cognominatum."
+  },
+  {
+   "page": 52,
+   "line": 21,
+   "text": "Eodem modo et cætera quoque syste-",
+   "para_no": "V.3"
+  },
+  {
+   "page": 52,
+   "line": 22,
+   "text": "mata constituit harmonia, temperátque."
+  },
+  {
+   "page": 52,
+   "line": 23,
+   "text": "Ex proposito enim exemplo, quo ostensum"
+  },
+  {
+   "page": 52,
+   "line": 24,
+   "text": "in vno tetrachordo, quomodo interualla"
+  },
+  {
+   "page": 52,
+   "line": 25,
+   "text": "interualli Dià-tessáron constituantur, fa-"
+  },
+  {
+   "page": 52,
+   "line": 26,
+   "text": "cilè studiosus alia systemata quomodo"
+  },
+  {
+   "page": 52,
+   "line": 27,
+   "text": "componantur, assequi poterit."
+  },
+  {
+   "page": 53,
+   "line": 1,
+   "text": "Genus autem Harmonicum est modu-",
+   "para_no": "V.4"
+  },
+  {
+   "page": 53,
+   "line": 2,
+   "text": "latu difficillimum, meditatione multa ex-"
+  },
+  {
+   "page": 53,
+   "line": 3,
+   "text": "ercitationéque indigens: vnde eius est vsus"
+  },
+  {
+   "page": 53,
+   "line": 4,
+   "text": "rarior. Diátonum verò est simplum et ge-"
+  },
+  {
+   "page": 53,
+   "line": 5,
+   "text": "nerosum et magis naturale: quare id et"
+  },
+  {
+   "page": 53,
+   "line": 6,
+   "text": "Plato admittit."
+  },
+  {
+   "page": 53,
+   "line": 7,
+   "text": "Horum autem vnumquodque rursus",
+   "para_no": "V.5"
+  },
+  {
+   "page": 53,
+   "line": 8,
+   "text": "variatur, et in multas diuisiones et diffe-"
+  },
+  {
+   "page": 53,
+   "line": 9,
+   "text": "rentias et genera modulationum distribui"
+  },
+  {
+   "page": 53,
+   "line": 10,
+   "text": "tur: et modò Lydius, modò Phrygius, mo-"
+  },
+  {
+   "page": 53,
+   "line": 11,
+   "text": "dò Dorius appellatur modulus: à quorum"
+  },
+  {
+   "page": 53,
+   "line": 12,
+   "text": "quolibet Pæéon, Hymenæus, Exodius, et"
+  },
+  {
+   "page": 53,
+   "line": 13,
+   "text": "quotquot sunt modulationum genera, exi"
+  },
+  {
+   "page": 53,
+   "line": 14,
+   "text": "stunt. Non enim sola interuallorum mu-"
+  },
+  {
+   "page": 53,
+   "line": 15,
+   "text": "tatione, neque sola eorum differentia: sed"
+  },
+  {
+   "page": 53,
+   "line": 16,
+   "text": "etiam lentioribus, et concitatis transitio-"
+  },
+  {
+   "page": 53,
+   "line": 17,
+   "text": "nibus, pausis quoqne et fluxibus, atque va-"
+  },
+  {
+   "page": 53,
+   "line": 18,
+   "text": "riis tactibus pulsibúsque, pro vario manus"
+  },
+  {
+   "page": 53,
+   "line": 19,
+   "text": "temperamento, infinitæ et diuersæ mo-"
+  },
+  {
+   "page": 53,
+   "line": 20,
+   "text": "dulationes conficiuntur."
+  },
+  {
+   "page": 53,
+   "line": 21,
+   "text": "Finis Musicæ."
+  }
+ ],
+ "decisions": [
+  {
+   "ref": "Vinet 41.3",
+   "claude": "CAPVT I.",
+   "gpt": "CAPVT 1.",
+   "adopted": "CAPVT 1.",
+   "right": "gpt",
+   "differences": [
+    {
+     "difference": "(1) «1.»  /  (2) «I.»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (medium) — The glyph is a serifed upright 'I' shape, a little top-heavy, followed by a point. It matches exactly this font's figure one, as in the page number '41' and the '1' of the scale diagram on p.44. The other chapter headings use Arabic figures: 'CAPVT 3.' on p.44, 'CAP. 4.' on p.50, 'CAPVT 5.' on p.51. So this is the old-style figure 1, not a Roman numeral, but the shape alone cannot tell the two apart. | B: 1 (medium) — The numeral is an upright stroke at small-cap height with top and bottom serifs, and the top serif hooks slightly left. It has the same shape as the arabic old-style '1' in the page number '41' and in the marginal paragraph number, so its shape alone cannot settle 1 vs I. The other chapter headings in this set use arabic numerals (p.44 'CAPVT 3.', p.50 'CAP. 4.', p.51 'CAPVT 5.'), so arabic 1 is the probable reading."
+    }
+   ]
+  },
+  {
+   "ref": "Vinet 41.15",
+   "claude": "portio,ipsaque adeò Vniuersitas, vtpote",
+   "gpt": "portio, ipsáque adeò Vniuersitas, vtpote",
+   "adopted": "portio, ipsaq́ue adeò Vniuersitas, vtpote",
+   "right": "gpt+other",
+   "differences": [
+    {
+     "difference": "(1) «portio, ipsáque»  /  (2) «portio,ipsaque»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: convention (high) — Comma set tight against 'i' with no word space ('portio,ipsa…'). Only the space differs here; the accent is dealt with under difference 2. | B: convention (high) — No space after the comma. 'portio,' is set tight against 'ipſ' (8x crop). This is only a difference in spacing after punctuation."
+    },
+    {
+     "difference": "(1) «ipsáque»  /  (2) «ipsaque»",
+     "pick": "other: ipsaq́ue",
+     "by": "assistant",
+     "reason": "A: 2 (high) — At 8x and 14x, plus a pixel map: the 'a' (x 283-299) has nothing above it. A short acute stroke rising to the right (x 309-316, y 1160-1163) stands over the bowl of the following 'q' (x 304-324). So the print has ipsaq́ue, the enclitic mark on q, not ipsáque. Under the q́ue = que convention this gives 'ipsaque'. | B: 2 (high) — At 10x the 'a' of ipſa has no accent. A short acute stroke stands over the bowl of the q, i.e. the q-acute sort (ipſaq́ue). By the conventions q́ue is silently 'que', so 'ipsaque' is right. 'ipsáque' puts an accent on the a that is not printed."
+    }
+   ]
+  },
+  {
+   "ref": "Vinet 44.8",
+   "claude": "tonium,quod Díesi duplo acutius est: Po-",
+   "gpt": "nium, quod Díesi duplo acutius est: Po-",
+   "adopted": "tonium, quod Díesi duplo acutius est: Po-",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «tonium,»  /  (2) «nium,»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — The line clearly begins 'tonium' with a bold 't' and 'o' at the left margin; the line above ends 'hemito-'. Reading 2 drops 'to'. | B: 1 (high) — The line clearly begins with bold-inked 'to' before 'nium', carrying on from 'hemito-' at the end of the line above. Reading 2 drops 'to'."
+    },
+    {
+     "difference": "(1) «nium,quod»  /  (2) «nium, quod»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: convention (high) — No word space after the comma: 'tonium,quod'. | B: convention (high) — No space after the comma ('tonium,quod' is tight). This is only spacing after punctuation."
+    }
+   ]
+  },
+  {
+   "ref": "Vinet 44.14",
+   "claude": "quadrante: quandoquidem licet monàs",
+   "gpt": "quadrante: quandoquidem licet monas",
+   "adopted": "quadrante: quandoquidem licet monàs",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «monas»  /  (2) «monàs»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — A clear, dark grave accent over the 'a' of 'monàs', a stroke running from upper left down to lower right. | B: 2 (high) — At 8x a clear grave accent (stroke running from upper left to lower right) sits over the a of 'monàs'."
+    }
+   ]
+  },
+  {
+   "ref": "Vinet 45.9",
+   "claude": "re datum. Sedecim nanque numerum qua-",
+   "gpt": "re datum. Sedecim namque numerum qua-",
+   "adopted": "re datum. Sedecim nanque numerum qua-",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «namque»  /  (2) «nanque»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — Printed 'nanq;'. The third letter is a two-stem 'n', not 'm', and q; is the abbreviation for -que, so the word expands to 'nanque'. | B: 2 (high) — At 6x the word is printed 'nanq;'. The third letter has two stems (an n, not the three stems of an m), followed by q with the semicolon-shaped que abbreviation. Expanded, it reads 'nanque'."
+    }
+   ]
+  },
+  {
+   "ref": "Vinet 45.18",
+   "claude": "diametro, dimidium dati quadrati habe-",
+   "gpt": "diametro, dimidium dari quadrati habe-",
+   "adopted": "diametro, dimidium dati quadrati habe-",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «dari»  /  (2) «dati»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — At 10x the third letter has a crossbar at x-height, a short pointed ascender and a foot hooked up to the right. That is the 't' of 'diametro' in the same line. The 'r' has an ear and a flat foot serif, which this letter lacks. The word is 'dati'. | B: 2 (high) — The third letter of the word has a crossbar at x-height and a curved foot hooking right below the baseline: a t, like the t in 'metro' on the same line. The r in 'metro' has a flat symmetrical base serif instead. The word is 'dati'."
+    }
+   ]
+  },
+  {
+   "ref": "Vinet 46.13",
+   "claude": "pasôn nnncupata: sed hæc non sine me-",
+   "gpt": "pasôn nuncupata: sed hæc non sine me-",
+   "adopted": "pasôn nnncupata: sed hæc non sine me-",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «nuncupata:»  /  (2) «nnncupata:»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — Pixel map: the second letter is joined at the top and has two separate foot serifs at the bottom, so it has the shape of 'n'. Compare the 'u' of '-cupata' in the same word, which is open at the top and joined at the bottom. So this is a turned 'u', a misprint: the print reads 'nnncupata'. | B: 2 (high) — At 6x the second letter is closed at the top (an arch joining both stems) and open at the bottom, the same shape as an n. It is probably a turned u. The print therefore shows the misprint 'nnncupata'; reading 2 reproduces it."
+    }
+   ]
+  },
+  {
+   "ref": "Vinet 47.7",
+   "claude": "neturq́ue. Dià-pasôn autem per octo di-",
+   "gpt": "netúrque. Dià-pasôn autem per octo di-",
+   "adopted": "neturq́ue. Dià-pasôn autem per octo di-",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «neturq́ue»  /  (2) «netúrque.»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — Pixel map: an acute stroke rising to the right (x 178-187, y 423-434) stands over the bowl of the 'q' (x 173-193). Nothing stands over the 'u' of '-tur' (about x 140-154). So the print has q́ue, not netúrque. | B: 1 (high) — In the darkness map the acute stands over the bowl of the q (columns of the q), not over the u. The u before r and the u after q carry no accent. The print is 'neturq́ue', so 'netúrque' wrongly puts an accent on u."
+    },
+    {
+     "difference": "(1) «neturq́ue.»  /  (2) «netúrque.»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — The same mark as in difference 1: the acute is over the q, not over the u. A full point follows 'neturq́ue'. | B: 1 (high) — The same point: the accent is on the q (q-acute sort), and a full stop follows 'que'. Reading 2's ú is not printed."
+    }
+   ]
+  },
+  {
+   "ref": "Vinet 47.14",
+   "claude": "steríora interualla vocantur.",
+   "gpt": "steriora interualla vocantur.",
+   "adopted": "steriora interualla vocantur.",
+   "right": "gpt",
+   "differences": [
+    {
+     "difference": "(1) «steriora»  /  (2) «steríora»",
+     "pick": "1",
+     "by": "editor",
+     "reason": "A: 1 (medium) — At 12x the mark over the 'i' is a round dot sitting right on the stem, at the same height as the i-dot in 'interualla', with a faint light speck to its upper right. The real acutes in this print are long slanting strokes standing well above x-height, thick at the top right: compare 'completíſque' on line 9 of this page and 'Díesi' on p.44. This is a dotted i, not í, though at low zoom the speck makes it look like an accent. | B: 2 (high) — Over the first i of 'ſteriora' there is an elongated slanted mark, heavy at the lower left with a thin tail rising to the upper right: an acute. It is about twice the width of the round dot over the i of 'interualla' on the same line."
+    }
+   ]
+  },
+  {
+   "ref": "Vinet 47.27",
+   "claude": "uenit temporis spacio, acuto cùm graui",
+   "gpt": "uenit temporis spacio, acuto cum graui",
+   "adopted": "uenit temporis spacio, acuto cùm graui",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «cùm»  /  (2) «cum»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (medium) — Above the right half of the 'u' is a short, fairly faint stroke running from upper left down to lower right, a grave (x 667-671, y 1409-1413). It is separate from the foot serif of the 'q' descender of 'æquo' in the line above, which ends about 8 px higher. The upper part of the accent seems to be crowded or weakly inked under that descender. Its shape and position match the ù in 'plurimùm' (p.51), though it is fainter and shorter. | B: 1 (medium) — A small, lightly inked mark (about 5 px, mid-dark ink) sits over the right half of the u of 'cum', sloping down to the right (grave direction). It is separated by a clear gap from the q-descender of 'æquo' in the line above. It is smaller and fainter than the grave on 'verò' in the line above, but it is distinct ink, not paper texture."
+    }
+   ]
+  },
+  {
+   "ref": "Vinet 48.25",
+   "claude": "passon cum Dià-pénte, triplex : Bis Dià-",
+   "gpt": "pason cum Dià-pénte, triplex: Bis Dià-",
+   "adopted": "passon cum Dià-pénte, triplex: Bis Dià-",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «passon»  /  (2) «pason»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — After 'pa' stands a tall long-s with its hooked top clearly visible (y 1298-1305), then a round 's', then 'on'. The print reads 'paſson' = 'passon', a misprint for pason. | B: 1 (high) — At 7x the word is a tall long-s followed by a short round s ('paſson'), so 'passon'. There is no circumflex on the o."
+    },
+    {
+     "difference": "(1) «triplex :»  /  (2) «triplex:»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: convention (high) — A clear space between 'triplex' and the colon. Only spacing differs. | B: convention (high) — There is a visible space between 'triplex' and the colon. Reading 1 matches the print's spacing, but this is only spacing before punctuation."
+    }
+   ]
+  },
+  {
+   "ref": "Vinet 50.5",
+   "claude": "datum vel longitudine vel crassitudine:",
+   "gpt": "darum vel longitudine vel crassitudine:",
+   "adopted": "datum vel longitudine vel crassitudine:",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «datum»  /  (2) «darum»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — At 12x and in a pixel map, the third letter has a faint ascender above x-height, a bar to the right at x-height, and a foot hooked to the right only. That is the shape of the 't' in 'rationes' and 'crassitudine' on this page. The 'r' there has a symmetric flat foot serif and no ascender. The print reads 'datum'. | B: 1 (medium) — The third letter has a faint pointed stem tip rising above x-height, an arm to the right at x-height, and a foot that runs off to the right at the baseline. That makes it a t. The r of 'rum' in line 10 has no ascender and a symmetrical base serif. The print reads 'chor-datum', a misprint for 'chordarum', reproduced as printed."
+    }
+   ]
+  },
+  {
+   "ref": "Vinet 50.12",
+   "claude": "CAP. 4.",
+   "gpt": "CAPVT 4.",
+   "adopted": "CAP. 4.",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «CAPVT»  /  (2) «CAP.»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — The heading is plainly 'C A P.' in spaced capitals, with a point after P, then '4.'. There is no 'VT'. | B: 2 (high) — The heading is letterspaced small caps 'C A P.' with a full stop after P, then '4.'. No VT is printed."
+    }
+   ]
+  },
+  {
+   "ref": "Vinet 51.23",
+   "claude": "runtur , neque hemitoniis omnino,ṇeque",
+   "gpt": "runtur, neque hemitoniis omnino, neque",
+   "adopted": "runtur, neque hemitoniis omnino, neque",
+   "right": "gpt",
+   "differences": [
+    {
+     "difference": "(1) «runtur,»  /  (2) «runtur ,»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: convention (high) — A visible space before the comma after 'runtur'. Only spacing differs. | B: convention (high) — There is a clear space between 'runtur' and the comma (as in reading 2), but this is only spacing before punctuation."
+    },
+    {
+     "difference": "(1) «omnino, neque»  /  (2) «omnino,ṇeque»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (medium) — The letter after the comma is a weakly inked 'n': two stems, each with its own foot serif, and the right stem shouldered at the top. It looks like the 'n' of 'runtur' in this line, whose hairline arch also barely shows. It is legible as n, so reading 2's underdot is an editorial mark, not something printed. The comma is followed by only a thin gap, about 5 px, with no full word space; that is a spacing convention. | B: 1 (medium) — The comma sits tight after 'omnino' with no space (spacing convention). The first letter of the second 'neque' is weakly inked: two stems joined by a thin arch at the top, visible on tone stretch, i.e. a damaged n. No dot is printed under it. Reading 2's underdot is an editorial sign of uncertainty; the letter is n, as in reading 1."
+    }
+   ]
+  },
+  {
+   "ref": "Vinet 52.12",
+   "claude": "sáron genus Chromáticum , ex Hemito-",
+   "gpt": "sáron genus Chromaticum, ex Hemito-",
+   "adopted": "sáron genus Chromáticum, ex Hemito-",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «Chromáticum»  /  (2) «Chromaticum»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — A clear acute rising to the right over the 'a' after 'm': 'Chromáticum'. | B: 1 (high) — In the darkness map an acute stroke rises from lower left to upper right directly over the a after m. The dot of the following i is separate and round."
+    },
+    {
+     "difference": "(1) «Chromáticum ,»  /  (2) «Chromaticum,»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: convention (high) — A clear space between 'Chromáticum' and the comma. Only spacing differs. | B: convention (high) — There is a space between 'Chromáticum' and the comma, but this is only spacing before punctuation."
+    }
+   ]
+  },
+  {
+   "ref": "Vinet 52.15",
+   "claude": "vero per duas dieses modulatio peraga-",
+   "gpt": "verò per duas dieses modulatio peraga-",
+   "adopted": "vero per duas dieses modulatio peraga-",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «verò»  /  (2) «vero»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — No accent above the 'o' of 'vero', checked at 6x and with auto-contrast. Only a faint 2 px smudge touches the top of the o. Compare the long dark grave of 'verò' on p.47, which stands about 14 px tall. | B: 2 (medium) — No inked accent is over the o of 'vero'. At very high tone stretch only a diffuse grey blotch shows above the left of the o, at the same level as the paper mottling nearby. Compare the crisp black grave on 'verò' in line 9 of the same page."
+    }
+   ]
+  },
+  {
+   "ref": "Vinet 52.19",
+   "claude": "tur, quòd sit optimum , ab ipsa communi",
+   "gpt": "tur, quod sit optimum, ab ipsa communi",
+   "adopted": "tur, quòd sit optimum, ab ipsa communi",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «quòd»  /  (2) «quod»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — A clear, dark grave accent over the 'o' of 'quòd'. | B: 1 (high) — At 7x a clear grave (upper left to lower right) sits over the o of 'quòd'."
+    },
+    {
+     "difference": "(1) «optimum ,»  /  (2) «optimum,»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: convention (high) — A clear space between 'optimum' and the comma. Only spacing differs. | B: convention (high) — There is a space between 'optimum' and the comma, but this is only spacing before punctuation."
+    }
+   ]
+  }
+ ],
+ "pages_meta_claude": [
+  {
+   "page": 41,
+   "running_head": "",
+   "signature": "",
+   "catchword": "me-",
+   "margins": [],
+   "figures": [
+    {
+     "position": "top of page, above 41.1, below the page number 41",
+     "description": "Ornament (not a diagram): headpiece band of typographic fleurons/arabesque units in three tiers across the full measure."
+    },
+    {
+     "position": "41.5-41.7, left of the text",
+     "description": "Ornament (not a diagram): woodcut initial M, three lines deep, on a foliate ground with a flower/vase motif at the top; first letter of line 5 (MVsica). Printed paragraph number 1 stands in the margin to its left."
+    }
+   ]
+  },
+  {
+   "page": 42,
+   "running_head": "PSELLI",
+   "signature": "",
+   "catchword": "est,",
+   "margins": [
+    {
+     "beside_lines": "15-16",
+     "text": "quid so|nus",
+     "hand": "manuscript"
+    },
+    {
+     "beside_lines": "15-21",
+     "text": "[underlining in brown ink, not text] under: Onus est vocis interuallo carentis (15); conueniens intensio, Interuallum (16); quædam sonorum inter (17); stema, complexio (18); Harmonia, systematum compo- (19); itaque, dimen- (20, faint); Conueniens (21)",
+     "hand": "manuscript"
+    }
+   ],
+   "figures": [
+    {
+     "position": "between 42.14 and 42.15",
+     "description": "Ornament: a plain horizontal printed rule under the chapter title, about two-thirds of the measure."
+    }
+   ]
+  },
+  {
+   "page": 43,
+   "running_head": "MVSICA.",
+   "signature": "",
+   "catchword": "ha-",
+   "margins": [
+    {
+     "beside_lines": "9-10",
+     "text": "[underlining in brown ink, not text] under 'hypáton' in 43.9 (clear) and 43.10 (very faint)",
+     "hand": "manuscript"
+    }
+   ],
+   "figures": []
+  },
+  {
+   "page": 44,
+   "running_head": "PSELLI",
+   "signature": "",
+   "catchword": "in",
+   "margins": [
+    {
+     "beside_lines": "6-7",
+     "text": "[...]us | [...]el. sonus [?] (two short lines; left edge lost in the gutter, largely illegible)",
+     "hand": "manuscript"
+    },
+    {
+     "beside_lines": "6-7",
+     "text": "[underlining in brown ink, not text] under 'interuallorum' (6) and 'Díesis' (7)",
+     "hand": "manuscript"
+    }
+   ],
+   "figures": [
+    {
+     "position": "between 44.12 and 44.13, across the measure",
+     "description": "Line diagram of a divided string: a horizontal line from A (left end) to B (right end), with short vertical I-shaped ticks. Arabic numbers above, letters below, read left to right: tick at A under the number 9; then a cluster of three close ticks lettered M, I, L (8 stands over L; M nearest A, I in the middle); then ticks lettered K (7), H (6), G (5), F (4), E (3), D (2; the letter is an odd, rotated-looking glyph, probably a damaged or turned D), C (1); then a short segment to a tick at B. So the points C-L stand at equal steps 1-8 from the B end, A at 9, and M and I divide the last step L-A (I nearer L, M nearer A), illustrating the semitone (8 1/2) and diesis (8 1/4) of the text. The small middle letter of the cluster may be read T."
+    }
+   ]
+  },
+  {
+   "page": 45,
+   "running_head": "MVSICA.",
+   "signature": "",
+   "catchword": "Ho-",
+   "margins": [],
+   "figures": []
+  },
+  {
+   "page": 46,
+   "running_head": "PSELLI",
+   "signature": "",
+   "catchword": "mi",
+   "margins": [],
+   "figures": [
+    {
+     "position": "top of page, left two-thirds, above 46.1",
+     "description": "Three dot diagrams for square numbers: (a) left, a 4 x 4 square of dots with 16 below; (b) middle, 4 rows of 2 dots (8 dots) with 8 below; (c) right, a 4 x 4 square of dots, a horizontal rule, then a second 4 x 4 square of dots (8 rows of 4 = 32) with 32 below. A thin oblique stroke runs from the right end of the rule down to the last dot of the next row (possibly a later pen stroke)."
+    },
+    {
+     "position": "top of page, right third, above 46.1, level with the dot diagrams",
+     "description": "Geometric figure: a square with corners A (bottom left), C (bottom right), B (top left), D (top right); both diagonals AD and BC drawn, crossing at E (centre); on the top side BD a triangle with apex F above (lines BF and FD), so F-B-D forms a gable. Illustrates doubling/halving a square via its diagonal (45.15-45.21). At the top right beside F an inked block (a spacer that took ink) prints as a dark rectangle."
+    }
+   ]
+  },
+  {
+   "page": 47,
+   "running_head": "MVSICA.",
+   "signature": "",
+   "catchword": "pa-",
+   "margins": [],
+   "figures": []
+  },
+  {
+   "page": 48,
+   "running_head": "PSELLI",
+   "signature": "",
+   "catchword": "nu-",
+   "margins": [
+    {
+     "beside_lines": "11-12",
+     "text": "thin reddish oblique stroke descending from below 'So' of 'sonantia' (l. 11) towards the paragraph number 9 (l. 12); perhaps a reader's crayon mark, perhaps only a fibre",
+     "hand": "manuscript"
+    }
+   ],
+   "figures": []
+  },
+  {
+   "page": 49,
+   "running_head": "MVSICA.",
+   "signature": "C",
+   "catchword": "au-",
+   "margins": [
+    {
+     "beside_lines": "3-4",
+     "text": "thin oblique line (ink?) running from below 'sedecim' (l. 3) down through 'partes' (l. 4)",
+     "hand": "manuscript"
+    }
+   ],
+   "figures": [
+    {
+     "position": "between l. 6 ('quatuor.') and l. 7 (paragraph 11), across the full width of the text block, about seven text lines high",
+     "description": "Woodcut line diagram for the ratios 4:3, 3:2 and 2:1: three pairs of parallel horizontal lines, with capital letters at the ends and at the division ticks and small numerals under some segments. Pair 1: upper line A-B (A at left, B at the right end-stroke), divided by three ticks labelled above C, a letter shaped like a reversed D (probably D), and E; the numeral 4 stands under the segment E-B. Lower line from a second reversed-D-shaped letter at the left to F, which stands directly under E; it has ticks under C and under the first reversed D, labelled below I and K. Pair 2: upper line L-N (end-stroke before N), divided by two ticks labelled above P and Y (Y preceded by a stray capital B, printed 'BY'); the numeral 3 stands under the segment Y-N. Lower line M-o (M at left with end-stroke, small o after the right end-stroke under Y), with one tick under P labelled below R; the numeral 2 stands below this line between R and o, immediately above the Z of pair 3. Pair 3: upper line S-V (end-strokes at both ends) with one tick in the middle labelled Z above; the numeral 2 under the segment Z-V. Lower line T-X ending under Z, with the numeral 1 under it. The pairs show 4 parts against 3, 3 against 2 and 2 against 1 (sesquitertius, sesquialter, duplex)."
+    }
+   ]
+  },
+  {
+   "page": 50,
+   "running_head": "PSELLI",
+   "signature": "",
+   "catchword": "Dia-",
+   "margins": [
+    {
+     "beside_lines": "12",
+     "text": "small reddish mark to the left of 'CAP.'",
+     "hand": "manuscript"
+    },
+    {
+     "beside_lines": "14-17",
+     "text": "ink underline beneath 'matum au' of 'SYstematum autem' (l. 14); a slash after the paragraph number 1 and a long oblique pen stroke in the left margin from l. 14 down to l. 17",
+     "hand": "manuscript"
+    }
+   ],
+   "figures": []
+  },
+  {
+   "page": 51,
+   "running_head": "MVSICA.",
+   "signature": "C 2",
+   "catchword": "test,",
+   "margins": [],
+   "figures": []
+  },
+  {
+   "page": 52,
+   "running_head": "PSELLI",
+   "signature": "",
+   "catchword": "Ge-",
+   "margins": [
+    {
+     "beside_lines": "9",
+     "text": "short reddish dash in the right margin immediately after 'fue', apparently supplying the missing hyphen",
+     "hand": "manuscript"
+    },
+    {
+     "beside_lines": "21",
+     "text": "faint thin oblique stroke to the left of the paragraph number 3",
+     "hand": "manuscript"
+    }
+   ],
+   "figures": []
+  },
+  {
+   "page": 53,
+   "running_head": "MVSICA.",
+   "signature": "C 3",
+   "catchword": "",
+   "margins": [
+    {
+     "beside_lines": "5",
+     "text": "small reddish tick in the left margin",
+     "hand": "manuscript"
+    }
+   ],
+   "figures": []
+  }
+ ],
+ "chapters_claude": [
+  {
+   "chapter": "I",
+   "printed_as": "CAPVT I.",
+   "title": "De Musica in commune.",
+   "ref": "Vinet 41.3"
+  },
+  {
+   "chapter": "II",
+   "printed_as": "CAPVT 2.",
+   "title": "De Soni natura, et variis appellationibus.",
+   "ref": "Vinet 42.12"
+  },
+  {
+   "chapter": "III",
+   "printed_as": "CAPVT 3.",
+   "title": "De interuallis.",
+   "ref": "Vinet 44.4"
+  },
+  {
+   "chapter": "IV",
+   "printed_as": "CAP. 4.",
+   "title": "De Systematis.",
+   "ref": "Vinet 50.12"
+  },
+  {
+   "chapter": "V",
+   "printed_as": "CAPVT 5.",
+   "title": "De Harmonia.",
+   "ref": "Vinet 51.8"
+  }
+ ],
+ "abbreviations_claude": [
+  {
+   "printed": "&",
+   "expansion": "et",
+   "example": "Vinet 41.8 (I.1) symmetria, & proportione"
+  },
+  {
+   "printed": "nasal tilde/macron over a vowel = m",
+   "expansion": "m",
+   "example": "Vinet 41.6 (I.1) Rerū = Rerum; also 41.5, 41.7, 41.8, 41.11, 41.19, 42.1, 43.24, 45.16, 46.1, 46.3, 46.6, 46.9, 46.10, 47.11, 47.22, 47.23"
+  },
+  {
+   "printed": "nasal tilde/macron over a vowel = n",
+   "expansion": "n",
+   "example": "Vinet 42.4 (I.1) cōponit = componit; also 41.19, 42.5, 42.21, 43.26, 45.8, 45.11, 46.6"
+  },
+  {
+   "printed": "q; (q with semicolon-shaped sign)",
+   "expansion": "que",
+   "example": "Vinet 45.3 (III.1) indéq; = indéque; also 45.9 nanq;, 46.1 quoq;, 46.7 sísq;"
+  },
+  {
+   "printed": "⁹ (superscript us-sign)",
+   "expansion": "us",
+   "example": "Vinet 46.7 (III.4) trib⁹ = tribus"
+  },
+  {
+   "printed": "&",
+   "expansion": "et",
+   "example": "Vinet 48.8 (Vinet III.8)"
+  },
+  {
+   "printed": "q; (que-sign; the enclitic accent stands on the preceding vowel)",
+   "expansion": "que (accent left on the preceding vowel)",
+   "example": "Vinet 49.19 itaq; (III.11); 51.11 aptaréq; (V.1); 53.3 exercitationéq; (V.4)"
+  },
+  {
+   "printed": "tilde/macron over a vowel = m",
+   "expansion": "m",
+   "example": "Vinet 48.4 cũ (III.7); 48.26 exẽpli (III.10); 49.10 quandoquidẽ (III.11); 50.14 quidẽ (IV.1); 52.13 temperatũ (V.2); 53.2 difficillimũ (V.4)"
+  },
+  {
+   "printed": "tilde/macron over a vowel = n",
+   "expansion": "n",
+   "example": "Vinet 48.5 ascẽ| (III.7); 48.9 cõsiderata (III.8); 50.20 cõtinet (IV.1); 51.19 cõficitur (V.1); 52.23 ostẽsum (V.3)"
+  },
+  {
+   "printed": "acute-shaped nasal stroke over final u",
+   "expansion": "m",
+   "example": "Vinet 48.10 nondú (III.8); 49.19 sonorú (III.11); 50.3 interuallorú (III.12)"
+  },
+  {
+   "printed": "superscript 9-shaped us-sign",
+   "expansion": "us",
+   "example": "Vinet 51.12 gen⁹ (V.1)"
+  },
+  {
+   "printed": "ligatures ct, st, ss, ff, ffi, fl and long s (not abbreviations; listed for completeness)",
+   "expansion": "resolved into separate letters; long s written s",
+   "example": "Vinet 48.1 octauo; 48.7 remissionibúsue; 53.17 fluxibus"
+  }
+ ],
+ "doubtful_expansions_claude": [
+  {
+   "ref": "Vinet 41.5",
+   "printed": "Vniuersitatē (mark over final e shaped like an acute/tilde)",
+   "expansion": "Vniuersitatem",
+   "alternative": "accent only (Vniuersitaté) - excluded by the construction (accusative with contineri)"
+  },
+  {
+   "ref": "Vinet 42.21",
+   "printed": "Conueniēs (mark shaped like an acute)",
+   "expansion": "Conueniens",
+   "alternative": "accented Conueniés without nasal - not a word"
+  },
+  {
+   "ref": "Vinet 42.22",
+   "printed": "cū (mark shaped like an acute)",
+   "expansion": "cum",
+   "alternative": "cú/cùm as accented cum - same word, only the sign differs"
+  },
+  {
+   "ref": "Vinet 46.1",
+   "printed": "autē (tilde with an acute-like tick)",
+   "expansion": "autem",
+   "alternative": "none sensible"
+  },
+  {
+   "ref": "Vinet 45.9",
+   "printed": "nanq;",
+   "expansion": "nanque",
+   "alternative": "namque (normalised spelling); the print has n, so nanque kept"
+  },
+  {
+   "ref": "Vinet 47.23",
+   "printed": "quodā- (at line end)",
+   "expansion": "quodam-|modo",
+   "alternative": "none"
+  },
+  {
+   "ref": "Vinet 48.5",
+   "printed": "ascẽ (line end, no hyphen)",
+   "expansion": "ascen|dentibus",
+   "note": "the mark over e is a short heavy stroke and could be taken for an acute ('ascé'), but the word requires n"
+  },
+  {
+   "ref": "Vinet 48.10",
+   "printed": "nondú",
+   "expansion": "nondum",
+   "note": "the stroke over u is shaped like an acute accent"
+  },
+  {
+   "ref": "Vinet 49.19",
+   "printed": "sonorú",
+   "expansion": "sonorum",
+   "note": "the stroke over u is shaped like an acute accent"
+  },
+  {
+   "ref": "Vinet 50.3",
+   "printed": "interuallorú",
+   "expansion": "interuallorum",
+   "note": "the stroke over u is shaped like an acute accent"
+  },
+  {
+   "ref": "Vinet 51.19",
+   "printed": "cõficitur",
+   "expansion": "conficitur",
+   "note": "the nasal stroke is slanted like an acute"
+  },
+  {
+   "ref": "Vinet 51.12",
+   "printed": "gen⁹",
+   "expansion": "genus",
+   "note": "us-sign; context 'ad aliquod genus modulationis'"
+  },
+  {
+   "ref": "Vinet 53.2",
+   "printed": "difficillimũ",
+   "expansion": "difficillimum",
+   "note": "the mark resembles a double acute; taken as the nasal sign"
+  }
+ ],
+ "misprints_claude": [
+  {
+   "reference": "Vinet 46.13 (III.5)",
+   "printed": "nnncupata",
+   "proposed": "nuncupata",
+   "reason": "turned u (printed as n)",
+   "certainty": "certain"
+  },
+  {
+   "reference": "Vinet 47.13 (III.5)",
+   "printed": "cnm",
+   "proposed": "cum",
+   "reason": "turned u (printed as n); cf. 'Dià-pason cum Dià-tessáron' in 47.12 and 'Dià-pasôn cum' in 47.17-18",
+   "certainty": "certain"
+  },
+  {
+   "reference": "Vinet 43.11 (II.2)",
+   "printed": "Hypáte diátonos",
+   "proposed": "Diátonos hypáton",
+   "reason": "the list gives the 15 notes of the two-octave system in order; the fourth must be the diatonos of the hypate tetrachord, named on the pattern 'Diátonos méson', 'Diátonos diezeugméne', 'Diatonos hyperbolæon'; 'Hypáte' looks repeated from the lines above (43.9, 43.12). Internal evidence only (a translator's slip cannot be excluded); corrected in the reading text",
+   "certainty": "probable"
+  },
+  {
+   "ref": "Vinet 48.21 (Vinet III.10)",
+   "printed": "iuterualli",
+   "proposed": "interualli",
+   "reason": "turned n (the second letter is printed as u); the word is spelled interual- everywhere else",
+   "certainty": "high"
+  },
+  {
+   "ref": "Vinet 48.22 (Vinet III.10)",
+   "printed": "sequitertia",
+   "proposed": "sesquitertia",
+   "reason": "s omitted; cf. 'sesquialtera' in the same line and 'sesquitertius' 49.1",
+   "certainty": "certain"
+  },
+  {
+   "ref": "Vinet 48.23 (Vinet III.10)",
+   "printed": "Dià pason",
+   "proposed": "Dià-pason",
+   "reason": "hyphen omitted; the compound is hyphenated everywhere else",
+   "certainty": "medium (typographic only)"
+  },
+  {
+   "ref": "Vinet 48.25 (Vinet III.10)",
+   "printed": "Dià-|passon",
+   "proposed": "Dià-pason",
+   "reason": "double s against the uniform pason/pasôn of all other occurrences",
+   "certainty": "medium"
+  },
+  {
+   "ref": "Vinet 50.4-5 (Vinet III.12)",
+   "printed": "chor-|datum",
+   "proposed": "chordarum",
+   "reason": "t (or a damaged r) for r; 'ex dispari chordarum vel longitudine vel crassitudine' needs the genitive plural, cf. 'chor-|darum' 49.8-9",
+   "certainty": "high"
+  },
+  {
+   "ref": "Vinet 53.17 (Vinet V.5)",
+   "printed": "quoqne",
+   "proposed": "quoque",
+   "reason": "turned u",
+   "certainty": "certain"
+  }
+ ],
+ "gpt": {
+  "chapters": [
+   {
+    "chapter": "I",
+    "printed_as": "CAPVT 1.",
+    "title": "De Musica in commune.",
+    "ref": "Vinet 41.3"
+   },
+   {
+    "chapter": "II",
+    "printed_as": "CAPVT 2.",
+    "title": "De Soni natura, et variis appellationibus.",
+    "ref": "Vinet 42.12"
+   },
+   {
+    "chapter": "III",
+    "printed_as": "CAPVT 3.",
+    "title": "De interuallis.",
+    "ref": "Vinet 44.4"
+   },
+   {
+    "chapter": "IV",
+    "printed_as": "CAP. 4.",
+    "title": "De Systematis.",
+    "ref": "Vinet 50.12"
+   },
+   {
+    "chapter": "V",
+    "printed_as": "CAPVT 5.",
+    "title": "De Harmonia.",
+    "ref": "Vinet 51.8"
+   }
+  ],
+  "abbreviations": [
+   {
+    "printed": "&",
+    "expansion": "et",
+    "example": "Vinet 41.8"
+   },
+   {
+    "printed": "vowel with a horizontal or slightly slanting nasal stroke",
+    "expansion": "vowel + m or n, according to the word",
+    "example": "Vinet 41.5 Vniuersitatẽ → Vniuersitatem; Vinet 41.6 Rerū → Rerum; Vinet 41.19 cōuenientiā → conuenientiam"
+   },
+   {
+    "printed": "q; (que abbreviation)",
+    "expansion": "que; qúe when the mark carries an acute accent",
+    "example": "Vinet 45.3 indéq; → indéque; Vinet 45.9 namq; → namque"
+   },
+   {
+    "printed": "superscript 9-like us sign",
+    "expansion": "us",
+    "example": "Vinet 46.7 trib⁹ → tribus; Vinet 51.12 gen⁹ → genus"
+   },
+   {
+    "printed": "CAP.",
+    "expansion": "CAPVT",
+    "example": "Vinet 50.12"
+   }
+  ],
+  "doubtful_expansions": [
+   {
+    "ref": "Vinet 41.5 (I.1)",
+    "printed": "Vniuersitatẽ",
+    "expanded": "Vniuersitatem",
+    "certainty": "high"
+   },
+   {
+    "ref": "Vinet 41.6 (I.1)",
+    "printed": "Rerū",
+    "expanded": "Rerum",
+    "certainty": "high"
+   },
+   {
+    "ref": "Vinet 41.7 (I.1)",
+    "printed": "naturaliū",
+    "expanded": "naturalium",
+    "certainty": "high"
+   },
+   {
+    "ref": "Vinet 41.8 (I.1)",
+    "printed": "eorū",
+    "expanded": "eorum",
+    "certainty": "high"
+   },
+   {
+    "ref": "Vinet 41.11 (I.1)",
+    "printed": "factū",
+    "expanded": "factum",
+    "certainty": "high"
+   },
+   {
+    "ref": "Vinet 41.19 (I.1)",
+    "printed": "cōuenientiā",
+    "expanded": "conuenientiam",
+    "certainty": "high"
+   },
+   {
+    "ref": "Vinet 42.1 (I.1)",
+    "printed": "dignā",
+    "expanded": "dignam",
+    "certainty": "high"
+   },
+   {
+    "ref": "Vinet 42.4 (I.1)",
+    "printed": "cōponit",
+    "expanded": "componit",
+    "certainty": "high"
+   },
+   {
+    "ref": "Vinet 42.5 (I.1)",
+    "printed": "cō-",
+    "expanded": "con-",
+    "certainty": "high"
+   },
+   {
+    "ref": "Vinet 42.21 (II.1)",
+    "printed": "Conueniēs",
+    "expanded": "Conueniens",
+    "certainty": "high"
+   },
+   {
+    "ref": "Vinet 42.22 (II.1)",
+    "printed": "cū",
+    "expanded": "cum",
+    "certainty": "high"
+   },
+   {
+    "ref": "Vinet 43.24 (II.3)",
+    "printed": "Heckædecachordū",
+    "expanded": "Heckædecachordum",
+    "certainty": "high"
+   },
+   {
+    "ref": "Vinet 43.26 (II.3)",
+    "printed": "cōstituitur",
+    "expanded": "constituitur",
+    "certainty": "high"
+   },
+   {
+    "ref": "Vinet 45.8 (III.2)",
+    "printed": "nō",
+    "expanded": "non",
+    "certainty": "high"
+   },
+   {
+    "ref": "Vinet 45.11 (III.2)",
+    "printed": "nō",
+    "expanded": "non",
+    "certainty": "high"
+   },
+   {
+    "ref": "Vinet 45.16 (III.3)",
+    "printed": "diametrū",
+    "expanded": "diametrum",
+    "certainty": "high"
+   },
+   {
+    "ref": "Vinet 46.1 (III.4)",
+    "printed": "autē",
+    "expanded": "autem",
+    "certainty": "high"
+   },
+   {
+    "ref": "Vinet 46.3 (III.4)",
+    "printed": "niū, Ditoniū, Tritoniū",
+    "expanded": "nium, Ditonium, Tritonium",
+    "certainty": "high"
+   },
+   {
+    "ref": "Vinet 46.6 (III.4)",
+    "printed": "vnū; cōfu-",
+    "expanded": "vnum; confu-",
+    "certainty": "high"
+   },
+   {
+    "ref": "Vinet 46.9 (III.4)",
+    "printed": "multorū",
+    "expanded": "multorum",
+    "certainty": "high"
+   },
+   {
+    "ref": "Vinet 46.10 (III.4)",
+    "printed": "rū; vnicū",
+    "expanded": "rum; vnicum",
+    "certainty": "high"
+   },
+   {
+    "ref": "Vinet 47.11 (III.5)",
+    "printed": "Nā",
+    "expanded": "Nam",
+    "certainty": "high"
+   },
+   {
+    "ref": "Vinet 47.22 (III.7)",
+    "printed": "Paraphonū",
+    "expanded": "Paraphonum",
+    "certainty": "high"
+   },
+   {
+    "ref": "Vinet 47.23 (III.7)",
+    "printed": "quodā-",
+    "expanded": "quodam-",
+    "certainty": "high"
+   },
+   {
+    "ref": "Vinet 48.4 (III.7)",
+    "printed": "cū (twice)",
+    "expanded": "cum (twice)",
+    "certainty": "high"
+   },
+   {
+    "ref": "Vinet 48.5 (III.7)",
+    "printed": "ascē",
+    "expanded": "ascen",
+    "certainty": "high"
+   },
+   {
+    "ref": "Vinet 48.9 (III.8)",
+    "printed": "cōsiderata",
+    "expanded": "considerata",
+    "certainty": "high"
+   },
+   {
+    "ref": "Vinet 48.10 (III.8)",
+    "printed": "nondū",
+    "expanded": "nondum",
+    "certainty": "high"
+   },
+   {
+    "ref": "Vinet 48.26 (III.10)",
+    "printed": "exēpli",
+    "expanded": "exempli",
+    "certainty": "high"
+   },
+   {
+    "ref": "Vinet 49.10 (III.11)",
+    "printed": "quandoquidē",
+    "expanded": "quandoquidem",
+    "certainty": "high"
+   },
+   {
+    "ref": "Vinet 49.19 (III.11)",
+    "printed": "sonorū",
+    "expanded": "sonorum",
+    "certainty": "high"
+   },
+   {
+    "ref": "Vinet 50.3 (III.12)",
+    "printed": "interuallorū",
+    "expanded": "interuallorum",
+    "certainty": "high"
+   },
+   {
+    "ref": "Vinet 50.14 (IV.1)",
+    "printed": "quidē",
+    "expanded": "quidem",
+    "certainty": "high"
+   },
+   {
+    "ref": "Vinet 50.20 (IV.1)",
+    "printed": "cōtinet",
+    "expanded": "continet",
+    "certainty": "high"
+   },
+   {
+    "ref": "Vinet 51.19 (V.1)",
+    "printed": "cōficitur",
+    "expanded": "conficitur",
+    "certainty": "high"
+   },
+   {
+    "ref": "Vinet 52.13 (V.2)",
+    "printed": "temperatū",
+    "expanded": "temperatum",
+    "certainty": "high"
+   },
+   {
+    "ref": "Vinet 52.23 (V.3)",
+    "printed": "ostēsum",
+    "expanded": "ostensum",
+    "certainty": "high"
+   },
+   {
+    "ref": "Vinet 53.2 (V.4)",
+    "printed": "difficillimū",
+    "expanded": "difficillimum",
+    "certainty": "high"
+   }
+  ],
+  "misprints": [
+   {
+    "ref": "Vinet 45.18 (III.3)",
+    "printed": "dari",
+    "proposed": "dati",
+    "reason": "The construction requires the genitive dati quadrati, matching datum quadratum in the same paragraph; the printed letter has the form of r.",
+    "certainty": "high"
+   },
+   {
+    "ref": "Vinet 47.13 (III.5)",
+    "printed": "cnm",
+    "proposed": "cum",
+    "reason": "A u is inverted or replaced by n; cum is required before Dià-pénte and occurs repeatedly in the same list.",
+    "certainty": "high"
+   },
+   {
+    "ref": "Vinet 48.21 (III.10)",
+    "printed": "iuterualli",
+    "proposed": "interualli",
+    "reason": "The second letter is u-shaped; interualli is required and is the consistent word elsewhere.",
+    "certainty": "high"
+   },
+   {
+    "ref": "Vinet 48.22 (III.10)",
+    "printed": "sequitertia",
+    "proposed": "sesquitertia",
+    "reason": "The ratio 8:6 in the continuation, and sesquitertius at 49.1, establish the omitted s.",
+    "certainty": "high"
+   },
+   {
+    "ref": "Vinet 49.15 (III.11)",
+    "printed": "quincuplex",
+    "proposed": "quincuplex [retained]",
+    "reason": "Unusual spelling for the fivefold relation. The letters are clear; there is insufficient internal evidence to classify this authorial/printer spelling as a misprint.",
+    "certainty": "high"
+   },
+   {
+    "ref": "Vinet 53.12 (V.5)",
+    "printed": "Pæéon",
+    "proposed": "Pæéon [retained]",
+    "reason": "Unusual spelling is clear, with æ followed by accented é. No internal evidence justifies deleting one vowel; reading text retains Paeeon.",
+    "certainty": "high"
+   },
+   {
+    "ref": "Vinet 53.17 (V.5)",
+    "printed": "quoqne",
+    "proposed": "quoque",
+    "reason": "An n-shaped type occurs where the second u of quoque is required.",
+    "certainty": "high"
+   }
+  ]
+ },
+ "alignment_with_xylander_gpt": [
+  {
+   "vinet": "I.1 (Vinet 41.5–42.7)",
+   "xylander": "paras 1–2 (Xyl. 40.3–41.1)",
+   "remark": "Ends at «largitur» in Xyl. 41.1. Vinet combines the universe/music exposition that Xylander divides into two indented paragraphs."
+  },
+  {
+   "vinet": "I.2 (Vinet 42.8–42.11)",
+   "xylander": "para 2 (Xyl. 41.1–41.3)",
+   "remark": "Begins at «nos de ea Musica» within Xyl. 41.1. The restriction to audible music is a separate numbered paragraph in Vinet."
+  },
+  {
+   "vinet": "II.1 (Vinet 42.15–43.4)",
+   "xylander": "para 3 (Xyl. 41.4–41.16)",
+   "remark": "Ends at «usui» in Xyl. 41.16. Definitions of sound, interval, system and harmony, followed by the requirement of consonance."
+  },
+  {
+   "vinet": "II.2 (Vinet 43.5–43.22)",
+   "xylander": "para 3 (Xyl. 41.16–41.25)",
+   "remark": "Begins at «Proinde» and ends with the last note name «hyperbolæon». Vinet sets the fifteen names on separate lines; Xylander prints a continuous list. «Mése solùm» corresponds to «mese monos»."
+  },
+  {
+   "vinet": "II.3 (Vinet 43.23–44.3)",
+   "xylander": "para 3 (Xyl. 41.25–42.7)",
+   "remark": "Begins at «Per has». Both descriptions combine a sixteen-string designation with a fifteen-string instrument and the shared eighth note; neither numerical wording has been emended merely to harmonise them."
+  },
+  {
+   "vinet": "III.1 (Vinet 44.6–45.5)",
+   "xylander": "para 4 (Xyl. 42.8–42.25)",
+   "remark": "Ends at «minui» before «Id uerò». Vinet expresses the semitone and diesis as eight-and-a-half and eight-and-a-quarter; Xylander uses half and quarter of the sesquioctave. Vinet alone supplies the subdivided-line diagram after 44.12."
+  },
+  {
+   "vinet": "III.2 (Vinet 45.6–45.14)",
+   "xylander": "para 4 (Xyl. 42.25–43.9)",
+   "remark": "From «Id uerò in Arithmetica» to «duo sit quadratus)». The sixteen/thirty-two example has corresponding dot arrays: printed on Vinet 46 before line1; the arrays in the right margin of Xyl.43 have uncertain origin (printed or manuscript)."
+  },
+  {
+   "vinet": "III.3 (Vinet 45.15–45.23)",
+   "xylander": "para 4 (Xyl. 43.9–43.16)",
+   "remark": "From «At Geometriæ» to «in diesin». Vinet supplies a lettered geometrical construction before 46.1; Xylander has no corresponding printed lettered construction in the supplied pages."
+  },
+  {
+   "vinet": "III.4 (Vinet 46.1–46.10)",
+   "xylander": "para 4 (Xyl. 43.16–44.1)",
+   "remark": "Begins at «Eorundem». Vinet calls the ensuing intervals «simplicia»; Xylander calls them «Incomposita». Their explanations occupy the same position in the argument."
+  },
+  {
+   "vinet": "III.5 (Vinet 46.11–47.14)",
+   "xylander": "para 4 (Xyl. 44.2–44.20)",
+   "remark": "Xylander additionally gives current names quarta, quinta, octaua and equivalents for the compound intervals. The order of fourth, fifth, octave and compound intervals agrees."
+  },
+  {
+   "vinet": "III.6 (Vinet 47.15–47.20)",
+   "xylander": "para 5 (Xyl. 44.21–45.2)",
+   "remark": "Ends at «quasi contrà sonans». Xylander adds explanatory glosses «quasi iuxta sonans» and «quasi contrà sonans»; Vinet gives the technical names without those glosses."
+  },
+  {
+   "vinet": "III.7 (Vinet 47.21–48.7)",
+   "xylander": "para 5 (Xyl. 45.2–45.13)",
+   "remark": "From «Inter paraphonum» to «proportionaliter». Xylander also supplies the glosses «assonans et obsonans»."
+  },
+  {
+   "vinet": "III.8 (Vinet 48.8–48.11)",
+   "xylander": "para 5 (Xyl. 45.13–45.16)",
+   "remark": "From «Cæterùm» to «non tamen consonantia». Tone, semitone and diesis considered individually."
+  },
+  {
+   "vinet": "III.9 (Vinet 48.12–48.20)",
+   "xylander": "para 5 (Xyl. 45.16–45.24)",
+   "remark": "From «Conficitur» through «Disdiapason, ex duodecim tonis». The interval totals occur in the same order."
+  },
+  {
+   "vinet": "III.10 (Vinet 48.21–49.6)",
+   "xylander": "para 5 (Xyl. 45.24–46.9)",
+   "remark": "From «Proportio» through «uiginti quatuor». Vinet explicitly includes the quadruple ratio in the initial list; Xylander gives it in the ensuing numerical example. Xylander specifies «super bipartiens tertias», whereas Vinet says «duas eius partes». Vinet alone adds the three pairs of lettered segments after 49.6."
+  },
+  {
+   "vinet": "III.11 (Vinet 49.7–50.2)",
+   "xylander": "para 5 (Xyl. 46.9–46.24)",
+   "remark": "From «At enim» through «reliquis existimandum est». The distinction between pitch ratios and counts of notes is common. For comparison with the third note, Xylander specifies «eum, eiusque bessem» where Vinet has «superpartiens»."
+  },
+  {
+   "vinet": "III.12 (Vinet 50.3–50.11)",
+   "xylander": "para 5 (Xyl. 46.24–47.5)",
+   "remark": "From «Porrò hæ proportiones» through «spiritus». Discovery of ratios by string length, thickness, tension and weights, then wind instruments."
+  },
+  {
+   "vinet": "IV.1 (Vinet 50.14–51.3)",
+   "xylander": "para 5 (Xyl. 47.5–47.17)",
+   "remark": "From «Porrò systematum» through «complectitur». Xylander spells out the string counts and adds the contemporary name «decimamquintam». Vinet explicitly names the compound intervals at 51.1–3 where Xylander refers to «ex his ipsis composita»."
+  },
+  {
+   "vinet": "IV.2 (Vinet 51.4–51.7)",
+   "xylander": "para 5 (Xyl. 47.17–47.21)",
+   "remark": "From «Inter systemata» through «intelliguntur». Material systems are distinguished from intervals considered apart from matter."
+  },
+  {
+   "vinet": "V.1 (Vinet 51.10–51.20)",
+   "xylander": "para 5 (Xyl. 47.21–48.7)",
+   "remark": "From «Harmoniæ proprium» through «cantus conflatur». Xylander includes a parenthetical explanation of melodia as cantus/cantilena and its modulation."
+  },
+  {
+   "vinet": "V.2 (Vinet 51.21–52.20)",
+   "xylander": "para 5 (Xyl. 48.7–49.1)",
+   "remark": "From «Neque tamen» through «nomen inuenit». The three genera are constructed in the same order. Vinet calls the chromatic genus sadder and more mournful than the preceding one; Xylander describes its greater efficacy in moving emotions and evoking grief."
+  },
+  {
+   "vinet": "V.3 (Vinet 52.21–52.27)",
+   "xylander": "para 5 (Xyl. 49.1–49.6)",
+   "remark": "From «Neque alia ratione» through «faciet». Extension of the tetrachord example to other systems."
+  },
+  {
+   "vinet": "V.4 (Vinet 53.1–53.6)",
+   "xylander": "para 5 (Xyl. 49.6–49.12)",
+   "remark": "From «Sanè» through «Plato quoque id receperit». Difficulty of the harmonic genus and the natural simplicity of the diatonic genus."
+  },
+  {
+   "vinet": "V.5 (Vinet 53.7–53.20)",
+   "xylander": "para 5 (Xyl. 49.12–49.24)",
+   "remark": "From «Verùm horum præterea» to the end of the body. Modes and kinds of song, then variations of performance. Xylander's «obliquioribus» corresponds here to Vinet's «lentioribus»; this lexical divergence is reported without deciding between them. Closing formulas are Xyl.49.25 and Vinet53.21."
+  }
+ ],
+ "footnotes": [
+  {
+   "ref": "Vinet 41.3",
+   "lemma": "1.",
+   "ru": "«1.» — так в транскрипции GPT-6; в транскрипции Claude «I.». Знак — прямой штрих с засечками той же формы, что арабская единица этого шрифта (в номере страницы «41»), но по одной форме 1 и I не различить; в пользу 1 говорит то, что прочие заголовки глав нумерованы арабскими цифрами («CAPVT 3.», «CAP. 4.», «CAPVT 5.»). Решили оба проверяющих (со средней уверенностью).",
+   "en": "«1.» as in GPT-6's transcription; Claude's has «I.». The glyph is a serifed upright stroke of the same form as this font's Arabic figure one (as in the page number «41»), but the shape alone cannot distinguish 1 from I; 1 is supported by the Arabic figures of the other chapter headings («CAPVT 3.», «CAP. 4.», «CAPVT 5.»). Decided by both checkers (with medium confidence)."
+  },
+  {
+   "ref": "Vinet 41.15",
+   "lemma": "portio, ipsaq́ue",
+   "ru": "«ipsaq́ue» нет ни в одной из транскрипций (Claude «ipsaque», GPT-6 «ipsáque»): над a ударения нет, короткий акут стоит над петлёй q (литера q́); оба проверяющих предлагали по конвенции q́ue = que писать «ipsaque», ассистент редактора сохранил написание, как напечатано, как и в 47.7 «neturq́ue». Пробел после запятой в «portio,» поставлен по конвенции транскрипции (в печати запятая стоит вплотную к следующему слову; у Claude без пробела, у GPT-6 с пробелом).",
+   "en": "«ipsaq́ue» is in neither transcription (Claude «ipsaque», GPT-6 «ipsáque»): the a carries no accent, and a short acute stands over the bowl of the q (the q́ sort); both checkers proposed «ipsaque» under the q́ue = que convention, and the editor's assistant kept the form as printed, as at 47.7 «neturq́ue». The space after the comma in «portio,» follows the transcription convention (the print sets the comma tight against the next word; Claude has no space, GPT-6 has one)."
+  },
+  {
+   "ref": "Vinet 44.8",
+   "lemma": "tonium, quod",
+   "ru": "«tonium» — так в транскрипции Claude; в транскрипции GPT-6 «nium»: строка ясно начинается с «to» (продолжение «hemito-» предыдущей строки); решили оба проверяющих. Пробел после запятой поставлен по конвенции транскрипции (в печати и у Claude «tonium,quod» без пробела).",
+   "en": "«tonium» as in Claude's transcription; GPT-6's has «nium»: the line clearly begins with «to» (continuing «hemito-» from the line above); decided by both checkers. The space after the comma follows the transcription convention (the print and Claude have «tonium,quod» without a space)."
+  },
+  {
+   "ref": "Vinet 44.14",
+   "lemma": "monàs",
+   "ru": "«monàs» — так в транскрипции Claude; в транскрипции GPT-6 «monas». Над a ясно виден тёмный гравис (штрих сверху слева вниз направо). Решили оба проверяющих.",
+   "en": "«monàs» as in Claude's transcription; GPT-6's has «monas». A clear dark grave (a stroke from upper left down to lower right) stands over the a. Decided by both checkers."
+  },
+  {
+   "ref": "Vinet 45.9",
+   "lemma": "nanque",
+   "ru": "«nanque» — так в транскрипции Claude; в транскрипции GPT-6 «namque». Напечатано «nanq;»: третья буква — n с двумя вертикальными штрихами, а не m с тремя, «q;» — сокращение -que, раскрытое в транскрипции. Решили оба проверяющих.",
+   "en": "«nanque» as in Claude's transcription; GPT-6's has «namque». The print has «nanq;»: the third letter is an n with two stems, not an m with three, and «q;» is the -que abbreviation, expanded in the transcription. Decided by both checkers."
+  },
+  {
+   "ref": "Vinet 45.18",
+   "lemma": "dati",
+   "ru": "«dati» — так в транскрипции Claude; в транскрипции GPT-6 «dari». Третья буква имеет перекладину на высоте строчных и ножку, загнутую вправо, как t в «diametro» той же строки; у r здесь плоская засечка внизу. Решили оба проверяющих.",
+   "en": "«dati» as in Claude's transcription; GPT-6's has «dari». The third letter has a crossbar at x-height and a foot hooked to the right, like the t of «diametro» in the same line; r here has a flat foot serif. Decided by both checkers."
+  },
+  {
+   "ref": "Vinet 46.13",
+   "lemma": "nnncupata",
+   "ru": "«nnncupata» — так в транскрипции Claude; в транскрипции GPT-6 «nuncupata». Вторая буква сомкнута аркой сверху и открыта снизу, как n (по-видимому, перевёрнутая u), в отличие от u в «-cupata»; так напечатано (опечатка). Решили оба проверяющих.",
+   "en": "«nnncupata» as in Claude's transcription; GPT-6's has «nuncupata». The second letter is closed by an arch at the top and open at the bottom like an n (apparently a turned u), unlike the u of «-cupata»; so printed (a misprint). Decided by both checkers."
+  },
+  {
+   "ref": "Vinet 47.7",
+   "lemma": "neturq́ue",
+   "ru": "«neturq́ue» — так в транскрипции Claude; в транскрипции GPT-6 «netúrque». Акут стоит над петлёй q (литера q́), над u ударения нет; за словом следует точка. Решили оба проверяющих.",
+   "en": "«neturq́ue» as in Claude's transcription; GPT-6's has «netúrque». The acute stands over the bowl of the q (the q́ sort), and the u carries no accent; a full stop follows. Decided by both checkers."
+  },
+  {
+   "ref": "Vinet 47.14",
+   "lemma": "steriora",
+   "ru": "«steriora» — так в транскрипции GPT-6; в транскрипции Claude «steríora». Проверяющие разошлись: один видит над i круглую точку на уровне точки над i в «interualla» (с бледным пятнышком справа вверху, из-за которого при малом увеличении она похожа на ударение), другой — вытянутый косой знак, т. е. акут. Решил редактор.",
+   "en": "«steriora» as in GPT-6's transcription; Claude's has «steríora». The checkers disagreed: one sees a round dot over the i, level with the i-dot of «interualla» (with a faint speck to its upper right that makes it look like an accent at low zoom), the other an elongated slanted mark, i.e. an acute. Decided by the editor."
+  },
+  {
+   "ref": "Vinet 47.27",
+   "lemma": "cùm",
+   "ru": "«cùm» — так в транскрипции Claude; в транскрипции GPT-6 «cum». Над правой половиной u — короткий бледный штрих, наклонённый вниз вправо (гравис), отделённый просветом от нижнего выносного штриха q в «æquo» строкой выше. Решили оба проверяющих (со средней уверенностью).",
+   "en": "«cùm» as in Claude's transcription; GPT-6's has «cum». Over the right half of the u is a short, faint stroke sloping down to the right (grave), separated by a gap from the q-descender of «æquo» in the line above. Decided by both checkers (with medium confidence)."
+  },
+  {
+   "ref": "Vinet 48.25",
+   "lemma": "passon | triplex:",
+   "ru": "«passon» — так в транскрипции Claude; в транскрипции GPT-6 «pason»: после «pa» напечатаны длинное ſ и круглое s («paſson»); так напечатано (по мнению одного из проверяющих, опечатка вместо pason); решили оба проверяющих. Пробел перед двоеточием, который есть в печати и у Claude («triplex :»), снят по конвенции транскрипции.",
+   "en": "«passon» as in Claude's transcription; GPT-6's has «pason»: after «pa» the print has a long ſ and a round s («paſson»); so printed (in one checker's view a misprint for pason); decided by both checkers. The space before the colon, present in the print and in Claude's transcription («triplex :»), is removed under the transcription convention."
+  },
+  {
+   "ref": "Vinet 50.5",
+   "lemma": "datum",
+   "ru": "«datum» — так в транскрипции Claude; в транскрипции GPT-6 «darum». Третья буква — t (слабый заострённый штрих над высотой строчных, перекладина вправо и ножка, уходящая вправо), а не r с симметричной засечкой; так напечатано (по мнению одного из проверяющих, опечатка: «chor-datum» вместо «chordarum»). Решили оба проверяющих.",
+   "en": "«datum» as in Claude's transcription; GPT-6's has «darum». The third letter is a t (a faint pointed tip above x-height, an arm to the right and a foot running off to the right), not an r with its symmetrical serif; so printed (in one checker's view a misprint, «chor-datum» for «chordarum»). Decided by both checkers."
+  },
+  {
+   "ref": "Vinet 50.12",
+   "lemma": "CAP.",
+   "ru": "«CAP.» — так в транскрипции Claude; в транскрипции GPT-6 «CAPVT». Заголовок набран разрядкой: «C A P.» с точкой, затем «4.»; «VT» не напечатано. Решили оба проверяющих.",
+   "en": "«CAP.» as in Claude's transcription; GPT-6's has «CAPVT». The heading is letterspaced «C A P.» with a full stop, then «4.»; no «VT» is printed. Decided by both checkers."
+  },
+  {
+   "ref": "Vinet 51.23",
+   "lemma": "runtur, | omnino, neque",
+   "ru": "«runtur,» и «omnino, neque» — так в транскрипции GPT-6; в транскрипции Claude «runtur ,» и «omnino,ṇeque». Пробелы при запятых нормализованы по конвенции транскрипции (в печати пробел перед первой запятой и лишь узкий просвет после второй); первая буква второго «neque» — слабо оттиснутая, но читаемая n, точки под ней нет, так что подстрочная точка у Claude — лишь знак сомнения. Решили оба проверяющих (по второму месту — со средней уверенностью).",
+   "en": "«runtur,» and «omnino, neque» as in GPT-6's transcription; Claude's has «runtur ,» and «omnino,ṇeque». The spacing at the commas is normalized under the transcription convention (the print has a space before the first comma and only a thin gap after the second); the first letter of the second «neque» is a weakly inked but legible n with no dot printed under it, so Claude's underdot is only a mark of doubt. Decided by both checkers (at the second point with medium confidence)."
+  },
+  {
+   "ref": "Vinet 52.12",
+   "lemma": "Chromáticum,",
+   "ru": "«Chromáticum» — так в транскрипции Claude; в транскрипции GPT-6 «Chromaticum»: над a после m ясно виден акут; решили оба проверяющих. Пробел перед запятой, который есть в печати и у Claude («Chromáticum ,»), снят по конвенции транскрипции.",
+   "en": "«Chromáticum» as in Claude's transcription; GPT-6's has «Chromaticum»: a clear acute stands over the a after m; decided by both checkers. The space before the comma, present in the print and in Claude's transcription («Chromáticum ,»), is removed under the transcription convention."
+  },
+  {
+   "ref": "Vinet 52.15",
+   "lemma": "vero",
+   "ru": "«vero» — так в транскрипции Claude; в транскрипции GPT-6 «verò». Оттиснутого ударения над o нет, лишь бледное пятно на уровне фактуры бумаги; ср. чёткий гравис в «verò» в строке 9 той же страницы. Решили оба проверяющих.",
+   "en": "«vero» as in Claude's transcription; GPT-6's has «verò». No inked accent stands over the o, only a faint smudge at the level of the paper mottling; cf. the crisp grave of «verò» in line 9 of the same page. Decided by both checkers."
+  },
+  {
+   "ref": "Vinet 52.19",
+   "lemma": "quòd | optimum,",
+   "ru": "«quòd» — так в транскрипции Claude; в транскрипции GPT-6 «quod»: над o ясно виден гравис; решили оба проверяющих. Пробел перед запятой после «optimum», который есть в печати и у Claude («optimum ,»), снят по конвенции транскрипции.",
+   "en": "«quòd» as in Claude's transcription; GPT-6's has «quod»: a clear grave stands over the o; decided by both checkers. The space before the comma after «optimum», present in the print and in Claude's transcription («optimum ,»), is removed under the transcription convention."
+  }
+ ],
+ "footnotes_note": "One footnote, in Russian and English, at every place where the two transcriptions differed (and at the later corrections): the adopted reading, the readings of Claude and GPT-6, what the scan shows, and who decided. Written and checked against the decision records by two agents each (2026-10-28)."
+}

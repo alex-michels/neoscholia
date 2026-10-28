@@ -1,0 +1,4369 @@
+{
+ "witness": "Basel 1556 (Oporinus), Greek text of the music section, pp. 23-33",
+ "status": "agreed text of two independent transcriptions (Claude, workflow 2026-10-26/27; GPT-6 Astra, Codex 2026-10-27); every difference decided against the scans by two anonymised checkers (2026-10-27), places they left open by the editor",
+ "conventions": "as printed: ligatures and contractions expanded silently; accents, breathings, punctuation and misprints as printed; Xylander's asterisks and daggers kept in the line; line-end hyphens only where printed (as in the merged Xylander); elision mark ’; high point ·",
+ "hyphens_not_printed_removed": [
+  "Bas. 23.10",
+  "Bas. 24.7",
+  "Bas. 24.15",
+  "Bas. 24.19",
+  "Bas. 25.8",
+  "Bas. 25.19",
+  "Bas. 25.21",
+  "Bas. 26.24",
+  "Bas. 27.1",
+  "Bas. 27.5",
+  "Bas. 27.9",
+  "Bas. 27.16",
+  "Bas. 27.21",
+  "Bas. 27.22",
+  "Bas. 27.24",
+  "Bas. 28.7",
+  "Bas. 28.14",
+  "Bas. 28.21",
+  "Bas. 29.5",
+  "Bas. 30.17"
+ ],
+ "lines_total": 257,
+ "identical_in_both": 189,
+ "decided": 68,
+ "pending_editor": [],
+ "lines": [
+  {
+   "page": 23,
+   "line": 1,
+   "text": "ΤΗΣ ΜΟΥΣΙΚΗΣ",
+   "heading": true
+  },
+  {
+   "page": 23,
+   "line": 2,
+   "text": "ΗΚΡΙΒΩΜΕΝΗ ΣΥΝΟΨΙΣ.",
+   "heading": true
+  },
+  {
+   "page": 23,
+   "line": 3,
+   "text": "Μουσικὴν οἱ παλαιοὶ συνέ-",
+   "para_start": true
+  },
+  {
+   "page": 23,
+   "line": 4,
+   "text": "χειν εἶπον τὸ πᾶν· οὐδὲν"
+  },
+  {
+   "page": 23,
+   "line": 5,
+   "text": "γὰρ τῶν ὄντων, συμμετρί-"
+  },
+  {
+   "page": 23,
+   "line": 6,
+   "text": "ας ἄτερ καὶ ἀναλογίας ἔστιν."
+  },
+  {
+   "page": 23,
+   "line": 7,
+   "text": "ἀλλ’ οὐδέ τι τῶν γινομένων"
+  },
+  {
+   "page": 23,
+   "line": 8,
+   "text": "μὴ κατὰ συμμετρίας τῆς προσηκούσης καὶ"
+  },
+  {
+   "page": 23,
+   "line": 9,
+   "text": "ἀναλογίας γινόμενον, καλῶς ἄν ποτε γένοι-"
+  },
+  {
+   "page": 23,
+   "line": 10,
+   "text": "το, κἂν τεχνητὸν εἴη, κἂν φυσικὸν, κἂν αἰσθή"
+  },
+  {
+   "page": 23,
+   "line": 11,
+   "text": "σει ληπτὸν, κἂν περὶ μόνην νόησιν θεωρούμενον."
+  },
+  {
+   "page": 24,
+   "line": 1,
+   "text": "Η δὲ μουσικὴ, αὐτοσυμμετρία τις ἐστὶ, καὶ"
+  },
+  {
+   "page": 24,
+   "line": 2,
+   "text": "ἀναλογία, τὸ πᾶν, οἷα τοῦ παντὸς ἁρμονία"
+  },
+  {
+   "page": 24,
+   "line": 3,
+   "text": "τυγχάνουσα. τάχα δ’ ἄν τις καὶ τὸ θεῖον αὐ-"
+  },
+  {
+   "page": 24,
+   "line": 4,
+   "text": "τὸ οὐκ ἀπεικότως, ἁρμονίαν ἑαυτοῦ τε καὶ τοῦ"
+  },
+  {
+   "page": 24,
+   "line": 5,
+   "text": "παντὸς ὀνομάσοι, ἐν ᾧ τὸ πᾶν συναρμολο-"
+  },
+  {
+   "page": 24,
+   "line": 6,
+   "text": "γούμενον καὶ συμβιβαζόμενον, εὖτε καὶ ὡς"
+  },
+  {
+   "page": 24,
+   "line": 7,
+   "text": "ἄριστα διαφαίνεται ἔχων. τοσούτου τὴν μου"
+  },
+  {
+   "page": 24,
+   "line": 8,
+   "text": "σικὴν ἠξίωσαν θαύματος. ἧς ἐν ἅπασιν οὕ-"
+  },
+  {
+   "page": 24,
+   "line": 9,
+   "text": "τω θεωρουμένης, καὶ πάντα διεπούσης καὶ"
+  },
+  {
+   "page": 24,
+   "line": 10,
+   "text": "κοσμούσης, καὶ ἡδονὴν μὲν τῇ αἰσθήσει, ἁρ-"
+  },
+  {
+   "page": 24,
+   "line": 11,
+   "text": "μονίαν δὲ τῇ φύσει, μακαριότητα δὲ τῇ νοή-"
+  },
+  {
+   "page": 24,
+   "line": 12,
+   "text": "σει χαριζομένης, περὶ τῆς ἐν αἰσθήσει μουσικῆς,"
+  },
+  {
+   "page": 24,
+   "line": 13,
+   "text": "μᾶλλον δὲ τῆς ἐν μιᾷ τῶν αἰσθήσεων τῇ ἀκοῇ"
+  },
+  {
+   "page": 24,
+   "line": 14,
+   "text": "θεωρουμένης, ἐν ἐπιτόμῳ διαληψόμεθα."
+  },
+  {
+   "page": 24,
+   "line": 15,
+   "text": "Φθόγγος ἐστὶ, φωνῆς ἀδιαστάτου ἐναρμό",
+   "para_start": true
+  },
+  {
+   "page": 24,
+   "line": 16,
+   "text": "νιος τάσις. Διάστημα δὲ φθόγγων, ἡ πρὸς"
+  },
+  {
+   "page": 24,
+   "line": 17,
+   "text": "ἀλλήλους ποιὰ σχέσις. Σύστημα δὲ, ποιὰ"
+  },
+  {
+   "page": 24,
+   "line": 18,
+   "text": "διαστημάτων περωχὴ. Αρμονία δὲ, συστη-"
+  },
+  {
+   "page": 24,
+   "line": 19,
+   "text": "μάτων σύνταξις. Ο μὲν οὖν φθόγγος ἀδιά"
+  },
+  {
+   "page": 24,
+   "line": 20,
+   "text": "στατός ἐστιν, ὡς ἡ ἐν γεωμετρίᾳ στιγμὴ. ἐναρ-"
+  },
+  {
+   "page": 24,
+   "line": 21,
+   "text": "μόνιος δὲ λέγεται, διὰ τὸ οὕτως ἐκπεφωνῆ-"
+  },
+  {
+   "page": 24,
+   "line": 22,
+   "text": "σθαι, ὡς δύνασθαι καὶ μεθ’ ἑτέρου φθόγγου ἐναρμο"
+  },
+  {
+   "page": 24,
+   "line": 23,
+   "text": "σθῆναι. εἰ δὲ μὴ οὕτως ἐκφωνηθείη, ἀπηχής"
+  },
+  {
+   "page": 24,
+   "line": 24,
+   "text": "ἐστι φθόγγος, οὐκ ἐναρμόνιος, οὐδ’ ἂν φθόγγος"
+  },
+  {
+   "page": 24,
+   "line": 25,
+   "text": "ὅλως καλοῖτο, ἀλλὰ ψόφος τις ἄλλως ἐκπε"
+  },
+  {
+   "page": 25,
+   "line": 1,
+   "text": "φωνημένος, καὶ πρὸς ἁρμονίαν οὐκ εὔχρη-"
+  },
+  {
+   "page": 25,
+   "line": 2,
+   "text": "στος. Προσηγορίαι δὲ φθόγγων διάφοροι, τῷ"
+  },
+  {
+   "page": 25,
+   "line": 3,
+   "text": "ἀπὸ τοῦ βαρέος ἐπὶ τὸ ὀξὺ προόδῳ καὶ τάξει"
+  },
+  {
+   "page": 25,
+   "line": 4,
+   "text": "τὰς προσηγορίας λαμβάνοντος· Προσλαμ-"
+  },
+  {
+   "page": 25,
+   "line": 5,
+   "text": "βανόμενος, ὑπάτη ὑπάτων, παρυπάτη"
+  },
+  {
+   "page": 25,
+   "line": 6,
+   "text": "ὑπάτων, ὑπάτη διάτονος, ὑπάτη μέσων,"
+  },
+  {
+   "page": 25,
+   "line": 7,
+   "text": "παρυπάτη μέσων, * μέση μόνως, παράμε-"
+  },
+  {
+   "page": 25,
+   "line": 8,
+   "text": "σος, τρίτη διεζευγμένη, διάτονος διαζευγμέ"
+  },
+  {
+   "page": 25,
+   "line": 9,
+   "text": "νη, νήτη διεζευγμένη, τρίτη ὑπερβολαίων,"
+  },
+  {
+   "page": 25,
+   "line": 10,
+   "text": "διάτονος ὑπερβολαίων, νήτη ὑπερβολαίων."
+  },
+  {
+   "page": 25,
+   "line": 11,
+   "text": "διὰ τούτων ἀπαρτίζεται τὸ ἐν πεντεκαι-"
+  },
+  {
+   "page": 25,
+   "line": 12,
+   "text": "δεκαχόρδῳ ἑκκαιδεκάχορδον, τοῦ περάτος"
+  },
+  {
+   "page": 25,
+   "line": 13,
+   "text": "τοῦ ὀκταχόρδου εἰς ἀρχὴν τοῖς μετέπειτα"
+  },
+  {
+   "page": 25,
+   "line": 14,
+   "text": "λαμβανομένου κατὰ συνέχειαν. ὃν γὰρ λό-"
+  },
+  {
+   "page": 25,
+   "line": 15,
+   "text": "γον ὁ πρῶτος ἔχων φθόγγος πρὸς τὸν ὄγ-"
+  },
+  {
+   "page": 25,
+   "line": 16,
+   "text": "δοον ἀναφαίνεται, τὸν αὐτὸν καὶ ὁ ὄγδοος"
+  },
+  {
+   "page": 25,
+   "line": 17,
+   "text": "πρὸς τὸν πεντεκαιδέκατον ἔχει. καὶ τὰ μὲν"
+  },
+  {
+   "page": 25,
+   "line": 18,
+   "text": "περὶ φθόγγων ἐν τούτοις."
+  },
+  {
+   "page": 25,
+   "line": 19,
+   "text": "Τῶν δὲ διαστημάτων, ἐλάχιστον μὲν ἡ δίε",
+   "para_start": true
+  },
+  {
+   "page": 25,
+   "line": 20,
+   "text": "σις. εἶτα τὸ ἡμιτόνιον, διπλὴν ἔχον ἐπὶ τὸ ὀ-"
+  },
+  {
+   "page": 25,
+   "line": 21,
+   "text": "ξὺ παραύξησιν τῆς διέσεως. εἶτα ὁ τόνος, δι"
+  },
+  {
+   "page": 25,
+   "line": 22,
+   "text": "πλοῦν ἔχον τὸ ἡμιτόνιον, τὸν ἐπόγδοον διϊ-"
+  },
+  {
+   "page": 25,
+   "line": 23,
+   "text": "στάμενος λόγον, ὡς ὁ ἔνατος ἀριθμὸς πρὸς"
+  },
+  {
+   "page": 25,
+   "line": 24,
+   "text": "τὸν ὄγδοον, ὡς εἶναι τὸ ἡμιτόνιον, οἷον * ὀκτὼ"
+  },
+  {
+   "page": 25,
+   "line": 25,
+   "text": "ἥμισυ, τὴν δὲ δίεσιν ὅσον † ὀκτωτέταρτον."
+  },
+  {
+   "page": 26,
+   "line": 1,
+   "text": "εἰ γὰρ καὶ ἡ μονὰς οὐ τέμνεται κατὰ τοὺς ἀριθ-"
+  },
+  {
+   "page": 26,
+   "line": 2,
+   "text": "μοὺς, ἀλλ’ ἡ ἐν ὕλῃ βλεπομένη μονὰς τέμνε-"
+  },
+  {
+   "page": 26,
+   "line": 3,
+   "text": "ται γεωμετρικῶς. τὴν γὰρ ἐπόγδοον δια-"
+  },
+  {
+   "page": 26,
+   "line": 4,
+   "text": "σώζουσαν λόγον νευρὰν, δυνατὸν ὑποτεμεῖν"
+  },
+  {
+   "page": 26,
+   "line": 5,
+   "text": "εἰς ἡμιεπόγδοον, ὅπερ ἔστιν ἡμιτόνιον, καὶ"
+  },
+  {
+   "page": 26,
+   "line": 6,
+   "text": "ταύτην πάλιν ὑποτεμεῖν δευτέρως εἰς"
+  },
+  {
+   "page": 26,
+   "line": 7,
+   "text": "δίεσιν. ἡ γὰρ γεωμετρία καὶ ἐλάττονα ἀπὸ"
+  },
+  {
+   "page": 26,
+   "line": 8,
+   "text": "τῆς μείζονος κατὰ πάντα τρόπον ἀφαιρεῖ-"
+  },
+  {
+   "page": 26,
+   "line": 9,
+   "text": "ται εὐθεῖαν, καὶ τῇ ἐλάττονι προστίθησι μεί-"
+  },
+  {
+   "page": 26,
+   "line": 10,
+   "text": "ζονα. ἔνθεν καὶ ἅπαν σχῆμα, καὶ παραυξῆ-"
+  },
+  {
+   "page": 26,
+   "line": 11,
+   "text": "σαι κατὰ τὸ δοκοῦν μῆκος, καὶ ἀγαγεῖν εἰς"
+  },
+  {
+   "page": 26,
+   "line": 12,
+   "text": "μείωσιν δύναται. τῇ δὲ ἀριθμητικῇ τοῦτο ἀ-"
+  },
+  {
+   "page": 26,
+   "line": 13,
+   "text": "δύνατον. αὐτίκα τὸ δοθὲν τετράγωνον, ἡ"
+  },
+  {
+   "page": 26,
+   "line": 14,
+   "text": "μὲν ἀριθμητικὴ εἰς ἴσα τεμεῖν τετράγωνα,"
+  },
+  {
+   "page": 26,
+   "line": 15,
+   "text": "ἢ διπλασιάσαι τὸ δεδομένον οὐ δύναται."
+  },
+  {
+   "page": 26,
+   "line": 16,
+   "text": "τὸν γὰρ ἑξκαιδέκατον ἀριθμὸν τετράγω-"
+  },
+  {
+   "page": 26,
+   "line": 17,
+   "text": "νον ὄντα, οὔτε εἰς ἴσα δυνατὸν διαιρεθῆναι"
+  },
+  {
+   "page": 26,
+   "line": 18,
+   "text": "τετράγωνα (τὰ γὰρ ὀκτὼ τετραγωνισθῆ-"
+  },
+  {
+   "page": 26,
+   "line": 19,
+   "text": "ναι ἀδύνατον) οὔτε εἰς ἕτερον διπλασια-"
+  },
+  {
+   "page": 26,
+   "line": 20,
+   "text": "σθῆναι τετράγωνον (τὸν γὰρ τριακοντα-"
+  },
+  {
+   "page": 26,
+   "line": 21,
+   "text": "δύο ἀριθμὸν τετραγωνισθῆναι ἀμήχανον)"
+  },
+  {
+   "page": 26,
+   "line": 22,
+   "text": "τῇ γεωμετρίᾳ δὲ τοῦτο ῥᾴδιον. τὴν γὰρ τοῦ"
+  },
+  {
+   "page": 26,
+   "line": 23,
+   "text": "δοθέντος τετραγώνου πλευρὰν εἰς διάμε-"
+  },
+  {
+   "page": 26,
+   "line": 24,
+   "text": "τρον ὁ γεωμέτρης μεταλαβὼν, καὶ τετρά"
+  },
+  {
+   "page": 26,
+   "line": 25,
+   "text": "γωνον αὐτῇ περιθεὶς, ἥμισυ τοῦ δοθέντος τε-"
+  },
+  {
+   "page": 27,
+   "line": 1,
+   "text": "τραγώνου ποιεῖ. καὶ τὴν διάμετρον πάλιν τοῦ δο"
+  },
+  {
+   "page": 27,
+   "line": 2,
+   "text": "θέντος μετειληφὼς εἰς πλευρὰν, τὸ δοθὲν δι-"
+  },
+  {
+   "page": 27,
+   "line": 3,
+   "text": "πλασιάζει τετράγωνον. ταύτη τοι καὶ ὁ ἐπόγ-"
+  },
+  {
+   "page": 27,
+   "line": 4,
+   "text": "δοος τοῦ τόνου λόγος εἰς ἡμιτόνιον διαιρεῖται, καὶ"
+  },
+  {
+   "page": 27,
+   "line": 5,
+   "text": "αὖθις εἰς δίεσιν. παραυξήσει δὲ τούτων, καὶ ἕτε"
+  },
+  {
+   "page": 27,
+   "line": 6,
+   "text": "ρα ἀσύνθετα διαστήματα γίνεται· τριδίεσις,"
+  },
+  {
+   "page": 27,
+   "line": 7,
+   "text": "τριημιτόνιον, διτόνιόν τε, καὶ τριτόνιον, καὶ"
+  },
+  {
+   "page": 27,
+   "line": 8,
+   "text": "ὡς ἄν τις βούλοιτο, καὶ ὁ ῥυθμὸς ἐπιτρέψῃ,"
+  },
+  {
+   "page": 27,
+   "line": 9,
+   "text": "ὡς ἐν τοῖς ἑπομένοις γνωσθήσεται. Ασύνθε"
+  },
+  {
+   "page": 27,
+   "line": 10,
+   "text": "τα δὲ εἴρηται, τῷ ὡς ἓν ἐκ συμφθάρσεως διὰ"
+  },
+  {
+   "page": 27,
+   "line": 11,
+   "text": "τριῶν διέσεων, ἢ τριῶν ἡμιτονίων, ἢ καὶ διαφό-"
+  },
+  {
+   "page": 27,
+   "line": 12,
+   "text": "ρων τόνων, μέλος συναπαρτίζεσθαι, δύναμιν"
+  },
+  {
+   "page": 27,
+   "line": 13,
+   "text": "μὲν ἔχον διαφόρων διαστημάτων, δι’ ἑνὸς δὲ"
+  },
+  {
+   "page": 27,
+   "line": 14,
+   "text": "διαστήματος ἀπηχούμενον. Παρὰ δὲ ταῦτα"
+  },
+  {
+   "page": 27,
+   "line": 15,
+   "text": "ἕτερα διαστήματα, τὸ διὰ τεσσάρων, καὶ διὰ"
+  },
+  {
+   "page": 27,
+   "line": 16,
+   "text": "πέντε, καὶ διὰ πασῶν. ταῦτα δὲ οὐκ ἄμε"
+  },
+  {
+   "page": 27,
+   "line": 17,
+   "text": "σα, οὐδ’ ἀσύνθετα, ἀλλὰ διὰ μέσων τῶν εἰρη-"
+  },
+  {
+   "page": 27,
+   "line": 18,
+   "text": "μένων πάντων διαστημάτων ὁδεύοντα, ἃ"
+  },
+  {
+   "page": 27,
+   "line": 19,
+   "text": "τῷ μὲν λόγῳ τῆς ἀπὸ τοῦ πρώτου φθόγγου ἐ-"
+  },
+  {
+   "page": 27,
+   "line": 20,
+   "text": "πὶ τὸν τελευταῖον ἠχῆς, διαστήματα ὀνομά-"
+  },
+  {
+   "page": 27,
+   "line": 21,
+   "text": "ζονται. τῇ δὲ τῶν διὰ μέσου φθόγγων κατατεταγ"
+  },
+  {
+   "page": 27,
+   "line": 22,
+   "text": "μένῃ ποσότητι, τὰς τοιάσδε προσηγορίας ἐδέ"
+  },
+  {
+   "page": 27,
+   "line": 23,
+   "text": "ξαντο, τὸ διὰ τεσσάρων ὡς διὰ τεσσάρων φθόγ"
+  },
+  {
+   "page": 27,
+   "line": 24,
+   "text": "γων, εἴτ’ οὖν χορδῶν διοδεύον, καὶ περαινόμε"
+  },
+  {
+   "page": 27,
+   "line": 25,
+   "text": "νον. καὶ τὸ διὰ πέντε, ὡς διὰ πέντε τελούμενον·"
+  },
+  {
+   "page": 28,
+   "line": 1,
+   "text": "καὶ τὸ διὰ πασῶν, ὡς δι’ ὀκτὼ τελούμενον."
+  },
+  {
+   "page": 28,
+   "line": 2,
+   "text": "διὰ πασῶν δὲ τὸ δι’ ὀκτὼ λέγεται, ὡς ἐν τῷ"
+  },
+  {
+   "page": 28,
+   "line": 3,
+   "text": "ὀκταχόρδῳ τῶν ὅλων διαστάσεων συμπλη-"
+  },
+  {
+   "page": 28,
+   "line": 4,
+   "text": "ρουμένων, κᾀκεῖθεν αὖθις ἀναδιπλουμένων,"
+  },
+  {
+   "page": 28,
+   "line": 5,
+   "text": "ὡς καὶ ἀπ’ αὐτῆς δηλοῦται τῆς φερωνυμίας"
+  },
+  {
+   "page": 28,
+   "line": 6,
+   "text": "τῶν κλήσεων. Δὶς γὰρ διὰ τεσσάρων, καὶ δὶς"
+  },
+  {
+   "page": 28,
+   "line": 7,
+   "text": "διὰ πέντε, καὶ δὶς διὰ πασῶν, αἱ μετὰ ταῦ"
+  },
+  {
+   "page": 28,
+   "line": 8,
+   "text": "τα διαστάσεις καλοῦνται. Συμφωνεῖ δὲ ἡ"
+  },
+  {
+   "page": 28,
+   "line": 9,
+   "text": "μὲν διὰ τεσσάρων διάστασις, καὶ ἡ διὰ πέν-"
+  },
+  {
+   "page": 28,
+   "line": 10,
+   "text": "τε, κατὰ παράφωνον. ἡ δὲ διὰ πασῶν, καὶ"
+  },
+  {
+   "page": 28,
+   "line": 11,
+   "text": "ἡ * δὶς διὰ τεσσάρων, καὶ ἡ δὶς διὰ πέντε,"
+  },
+  {
+   "page": 28,
+   "line": 12,
+   "text": "καὶ ἡ † δὶς διὰ πασῶν, κατὰ ἀντίφωνον."
+  },
+  {
+   "page": 28,
+   "line": 13,
+   "text": "Διαφέρει δ’ ἀλλήλων τότε παράφωνον, καὶ"
+  },
+  {
+   "page": 28,
+   "line": 14,
+   "text": "ἀντίφωνον, τῷ τὸ μὲν παράφωνον ἀνισοχρό"
+  },
+  {
+   "page": 28,
+   "line": 15,
+   "text": "νως συμφωνεῖν, ἡπίως πρῶτον καὶ εὐρύθμως"
+  },
+  {
+   "page": 28,
+   "line": 16,
+   "text": "διαδεχομένων ἀλλήλοις τῶν φθόγγων ἀναλο"
+  },
+  {
+   "page": 28,
+   "line": 17,
+   "text": "γίαις καὶ λόγοις καθ’ ὁμαλότητα. τὸ δὲ ἀν-"
+  },
+  {
+   "page": 28,
+   "line": 18,
+   "text": "τίφωνον, ἰσοχρόνως τοῦ ὀξέως τῷ βαρεί κα-"
+  },
+  {
+   "page": 28,
+   "line": 19,
+   "text": "τὰ ταυτὸν συμφωνοῦντος· οἷον τοῦ ὀγδόου"
+  },
+  {
+   "page": 28,
+   "line": 20,
+   "text": "τῷ πρώτῳ, τοῦ ἑνδεκάτου τῷ τετάρτῳ, τοῦ"
+  },
+  {
+   "page": 28,
+   "line": 21,
+   "text": "δωδεκάτου τῷ πέμπτῳ, καὶ τοῦ πεντεκαι"
+  },
+  {
+   "page": 28,
+   "line": 22,
+   "text": "δεκάτου τῷ ὀγδόῳ, συνανιόντων ἢ συγκα"
+  },
+  {
+   "page": 28,
+   "line": 23,
+   "text": "τιόντων ἐν ταῖς τάσεσιν ἢ ἀνέσεσι τῶν βα-"
+  },
+  {
+   "page": 28,
+   "line": 24,
+   "text": "ρέων τοῖς ὀξέσιν, ἢ τῶν ὀξέων τοῖς βαρέσι κα"
+  },
+  {
+   "page": 28,
+   "line": 25,
+   "text": "τὰ ἀνάλογον. Ο δὲ τόνος, καὶ τὸ ἡμιτόνιον,"
+  },
+  {
+   "page": 29,
+   "line": 1,
+   "text": "καὶ ἡ δίεσις, καθ’ ἑαυτὰ θεωρούμενα, ἀρχὴ"
+  },
+  {
+   "page": 29,
+   "line": 2,
+   "text": "μὲν συμφωνίας, οὔπω δὲ συμφωνία. Συμ-"
+  },
+  {
+   "page": 29,
+   "line": 3,
+   "text": "πληροῦται δὲ τὸ μὲν διὰ τεσσάρων ἐκ δύο"
+  },
+  {
+   "page": 29,
+   "line": 4,
+   "text": "τόνων, καὶ ἡμιτονίου, καὶ μικρόν τι πρὸς, ὃ"
+  },
+  {
+   "page": 29,
+   "line": 5,
+   "text": "καὶ διέσεως ἧττον ὂν, προσωνυμίας οὐκ ἔτυ"
+  },
+  {
+   "page": 29,
+   "line": 6,
+   "text": "χε. τὸ δὲ διὰ πέντε, ἐκ τριῶν καὶ ἡμιτονίου·"
+  },
+  {
+   "page": 29,
+   "line": 7,
+   "text": "τὸ δὲ διὰ πασῶν, δι’ ἕξ. τὸ δὲ διὰ πασῶν"
+  },
+  {
+   "page": 29,
+   "line": 8,
+   "text": "καὶ * δὶς διὰ τεσσάρων, δι’ ὀκτὼ καὶ ἡμιτο-"
+  },
+  {
+   "page": 29,
+   "line": 9,
+   "text": "νίου. τὸ δὲ διὰ πασῶν καὶ * δὶς διὰ πέντε,"
+  },
+  {
+   "page": 29,
+   "line": 10,
+   "text": "δι’ ἐννέα καὶ ἡμιτονίου. τὸ δὲ δὶς διὰ πα-"
+  },
+  {
+   "page": 29,
+   "line": 11,
+   "text": "σῶν, διὰ δώδεκα. Λόγος δὲ, τοῦ μὲν διὰ"
+  },
+  {
+   "page": 29,
+   "line": 12,
+   "text": "τεσσάρων, ἐπίτριτος· τοῦ δὲ διὰ πέντε, ἡ-"
+  },
+  {
+   "page": 29,
+   "line": 13,
+   "text": "μιόλιος· τοῦ δὲ διὰ πασῶν, διπλάσιος· τοῦ"
+  },
+  {
+   "page": 29,
+   "line": 14,
+   "text": "δὲ διὰ πασῶν καὶ διὰ τεσσάρων, διπλα-"
+  },
+  {
+   "page": 29,
+   "line": 15,
+   "text": "σιεπιμερὴς· τοῦ διὰ πασῶν καὶ διὰ πέντε,"
+  },
+  {
+   "page": 29,
+   "line": 16,
+   "text": "τριπλάσιος. οἷον, ὡς ἐπὶ ὑποδείγματος"
+  },
+  {
+   "page": 29,
+   "line": 17,
+   "text": "κείσθω πρῶτος ἐν ἀριθμοῖς ὅρος, ὁ ἕκτος"
+  },
+  {
+   "page": 29,
+   "line": 18,
+   "text": "ἡμῖν ἀριθμὸς. πρὸς ὃν πάντως ἐπίτριτος"
+  },
+  {
+   "page": 29,
+   "line": 19,
+   "text": "ὁ ὄγδοος, ἡμιόλιος ὁ ἔννατος, διπλάσιος ὁ δω"
+  },
+  {
+   "page": 29,
+   "line": 20,
+   "text": "δέκατος, διπλασιεπιμερὴς ὁ ἑξκαιδέκα-"
+  },
+  {
+   "page": 29,
+   "line": 21,
+   "text": "τος, τὸ ἕκτον δὶς ἔχων, καὶ δύο μέρη αὐτοῦ,"
+  },
+  {
+   "page": 29,
+   "line": 22,
+   "text": "τριπλάσιος ὁ ὀκτωκαιδέκατος, τετραπλά-"
+  },
+  {
+   "page": 29,
+   "line": 23,
+   "text": "σιος ὁ εἰκοστὸς τέταρτος. Εἰδέναι μέντοι"
+  },
+  {
+   "page": 29,
+   "line": 24,
+   "text": "χρὴ, ὡς οὐ πρὸς τὸν ἀριθμὸν τῶν φθόγγων οὒ"
+  },
+  {
+   "page": 29,
+   "line": 25,
+   "text": "τῶν χορδῶν, οἱ λόγοι τῶν διαστάσεων κρίνον-"
+  },
+  {
+   "page": 30,
+   "line": 1,
+   "text": "ται, ἀλλὰ πρὸς τὴν ἐπίτασιν τῆς ἠχῆς τῆς ἀπὸ"
+  },
+  {
+   "page": 30,
+   "line": 2,
+   "text": "τοῦ βαρέος πρὸς τὸ ὀξύτερον. ἐπείτοιγε τὸ"
+  },
+  {
+   "page": 30,
+   "line": 3,
+   "text": "διὰ πέντε διάστημα λόγον ἡμιόλιον ἔχον,"
+  },
+  {
+   "page": 30,
+   "line": 4,
+   "text": "οὐ πρὸς τὴν ὑπεροχὴν τῆς τῶν φθόγγων πο-"
+  },
+  {
+   "page": 30,
+   "line": 5,
+   "text": "σότητος, ἣν ἔχει πρὸς τὸν πρὸ αὐτοῦ συγ-"
+  },
+  {
+   "page": 30,
+   "line": 6,
+   "text": "κρινόμενος, φαίνεται ἡμιόλιος. πρὸς μὲν"
+  },
+  {
+   "page": 30,
+   "line": 7,
+   "text": "γὰρ τὸν πρῶτον φθόγγον, πενταπλασίων"
+  },
+  {
+   "page": 30,
+   "line": 8,
+   "text": "εὑρίσκεται· πρὸς δὲ τὸν δεύτερον, διπλα-"
+  },
+  {
+   "page": 30,
+   "line": 9,
+   "text": "σιημιόλιος· πρὸς δὲ τὸν τρίτον, ἐπιδιμε-"
+  },
+  {
+   "page": 30,
+   "line": 10,
+   "text": "ρὴς· πρὸς δὲ τὸν τέταρτον, ἐπιτέταρτος,"
+  },
+  {
+   "page": 30,
+   "line": 11,
+   "text": "ἐπ’ οὐδενὶ δὲ δείκνηται ἡμιόλιος. πρὸς"
+  },
+  {
+   "page": 30,
+   "line": 12,
+   "text": "τὴν ἐπίτασιν τοιγαροῦν τῆς ὀξύτητος, οὐ"
+  },
+  {
+   "page": 30,
+   "line": 13,
+   "text": "πρὸς τὸν ἀριθμὸν τῶν φθόγγων, κρίνεται ἡ-"
+  },
+  {
+   "page": 30,
+   "line": 14,
+   "text": "μιόλιος. τὸ δ’ αὐτὸ καὶ περὶ τοὺς λοιποὺς"
+  },
+  {
+   "page": 30,
+   "line": 15,
+   "text": "τῶν λόγων νοήσομεν. ἐξεύρηνται δὲ οἱ τοι-"
+  },
+  {
+   "page": 30,
+   "line": 16,
+   "text": "οῦτοι τῶν διαστάσεων λόγοι, ἀπὸ τῆς διαφο-"
+  },
+  {
+   "page": 30,
+   "line": 17,
+   "text": "ρᾶς τοῦ μήκους τῶν χορδῶν, ἢ τῆς παχύτη"
+  },
+  {
+   "page": 30,
+   "line": 18,
+   "text": "τος, ἢ τῆς τάσεως γινομένης κατὰ τὴν στρο-"
+  },
+  {
+   "page": 30,
+   "line": 19,
+   "text": "φὴν τῶν κολάβων, ἢ γνωριμώτερον ἀπὸ τῆς"
+  },
+  {
+   "page": 30,
+   "line": 20,
+   "text": "ἐξαρτήσεως τῶν βαρῶν. ἐπὶ δὲ τῶν ἐμ-"
+  },
+  {
+   "page": 30,
+   "line": 21,
+   "text": "πνευστῶν, ἢ ἀπὸ τῆς εὐρύτητος τῶν κοιλι-"
+  },
+  {
+   "page": 30,
+   "line": 22,
+   "text": "ῶν, ἢ ἀπὸ τῆς ἐπιτάσεως τοῦ πνεύματος"
+  },
+  {
+   "page": 30,
+   "line": 23,
+   "text": "καὶ ἀνέσεως. τῶν δὲ διαστημάτων, τὸ μέν"
+  },
+  {
+   "page": 30,
+   "line": 24,
+   "text": "ἐστι τετράχορδον, τὰς τοῦ διὰ τεσσάρων"
+  },
+  {
+   "page": 30,
+   "line": 25,
+   "text": "ἁπάσας ἐμπεριέχων δυνάμεις· τὸ δὲ πεν-"
+  },
+  {
+   "page": 31,
+   "line": 1,
+   "text": "τάχορδον, τὰς τοῦ † πέντε δυνάμεις πε-"
+  },
+  {
+   "page": 31,
+   "line": 2,
+   "text": "ριλαμβάνον· τὸ δὲ ὀκτάχορδον, τὴν * ὕλην"
+  },
+  {
+   "page": 31,
+   "line": 3,
+   "text": "τοῦ διὰ πασῶν περιέχον ἰσχὺν. τὸ δὲ κατὰ"
+  },
+  {
+   "page": 31,
+   "line": 4,
+   "text": "συνέχειαν, ἑκκαιδεκάχορδον, τὴν τοῦ δὶς"
+  },
+  {
+   "page": 31,
+   "line": 5,
+   "text": "διὰ πασῶν ὁλοσχερῆ συνέχον διάτασιν,"
+  },
+  {
+   "page": 31,
+   "line": 6,
+   "text": "διπλᾶς τὰς δυνάμεις ἀποφερόμενον· αὐ-"
+  },
+  {
+   "page": 31,
+   "line": 7,
+   "text": "τάς τε γὰρ τὰς προειρημένας, καὶ τὰς τοῦ"
+  },
+  {
+   "page": 31,
+   "line": 8,
+   "text": "δὶς διὰ τεσσάρων, καὶ τοῦ δὶς διὰ πέντε,"
+  },
+  {
+   "page": 31,
+   "line": 9,
+   "text": "καὶ τοῦ δὶς διὰ πασῶν ἐν ἑαυτῷ περιέχει."
+  },
+  {
+   "page": 31,
+   "line": 10,
+   "text": "Διαφέρει δὲ τὰ συστήματα τῶν ἐν μέσῳ δια-"
+  },
+  {
+   "page": 31,
+   "line": 11,
+   "text": "στημάτων, τῷ τὰ μὲν ἐν ὕλῃ τὴν σύστασιν"
+  },
+  {
+   "page": 31,
+   "line": 12,
+   "text": "ἔχειν, τὰ δὲ διαστήματα ἐξ ἀφαιρέσεως"
+  },
+  {
+   "page": 31,
+   "line": 13,
+   "text": "τῆς ὕλης νοεῖσθαι. Τῆς δὲ ἁρμονίας ἴδιον, τὸ"
+  },
+  {
+   "page": 31,
+   "line": 14,
+   "text": "τὰ τοιαῦτα συστήματα συντάττειν καὶ συ-"
+  },
+  {
+   "page": 31,
+   "line": 15,
+   "text": "ναρμολογεῖν πρὸς τὸ τοῖόνδε τῆς μελῳδίας"
+  },
+  {
+   "page": 31,
+   "line": 16,
+   "text": "γένος· οἷον τὸ διάτονον, τὸ χρωματικὸν,"
+  },
+  {
+   "page": 31,
+   "line": 17,
+   "text": "καὶ τὸ παρωνύμως ἀπ’ αὐτῆς ἁρμονίας, ἁρ-"
+  },
+  {
+   "page": 31,
+   "line": 18,
+   "text": "μονικὸν προσαγορευόμενον. Εἰ μὲν οὖν"
+  },
+  {
+   "page": 31,
+   "line": 19,
+   "text": "διὰ τόνων τὸ πλεῖστον ἡ ἁρμονία προάγοι-"
+  },
+  {
+   "page": 31,
+   "line": 20,
+   "text": "το, τὸ διάτονον οὕτω καλούμενον κατα-"
+  },
+  {
+   "page": 31,
+   "line": 21,
+   "text": "σκευάζεται γένος· εἰ δὲ δι’ ἡμιτονίων,"
+  },
+  {
+   "page": 31,
+   "line": 22,
+   "text": "τὸ χρωματικόν· εἰ δὲ διέσεσι μαλλον"
+  },
+  {
+   "page": 31,
+   "line": 23,
+   "text": "* ἢ ἁρμονία συνέχεται, τὸ ἁρμόνικον λε-"
+  },
+  {
+   "page": 31,
+   "line": 24,
+   "text": "γόμενον ἀπαρτίζεται μέλος. οὐ μὴν τὸ"
+  },
+  {
+   "page": 31,
+   "line": 25,
+   "text": "πᾶν διὰ τόνων τὰ τῆς ἁρμονίας προφέ-"
+  },
+  {
+   "page": 32,
+   "line": 1,
+   "text": "ρεται, οὐδὲ δι’ ἡμιτονίων τὸ πᾶν, οὐδὲ τὸ"
+  },
+  {
+   "page": 32,
+   "line": 2,
+   "text": "πᾶν ἐκ διέσεων, οὐδὲ γὰρ δυνατὸν. Αλλ’"
+  },
+  {
+   "page": 32,
+   "line": 3,
+   "text": "ἐπεὶ τρισὶ διαστάσεσι τὸ διὰ τεσσάρων ἀ-"
+  },
+  {
+   "page": 32,
+   "line": 4,
+   "text": "πήρτισται, δυσὶ δὲ τόνοις καὶ ἡμιτονίῳ διεί-"
+  },
+  {
+   "page": 32,
+   "line": 5,
+   "text": "ληπται, δύο τονιαίων διαστημάτων ἐκτιθε"
+  },
+  {
+   "page": 32,
+   "line": 6,
+   "text": "μένων, ἀνάγκη τὸ λοιπὸν τελεῖν ἡμιτόνιον."
+  },
+  {
+   "page": 32,
+   "line": 7,
+   "text": "καὶ τοῦτ’ ἂν εἴη τὸ διὰ τεσσάρων διάτονον"
+  },
+  {
+   "page": 32,
+   "line": 8,
+   "text": "ὀνομαζόμενον γένος, ἐξ ἡμιτονίου καὶ δύο"
+  },
+  {
+   "page": 32,
+   "line": 9,
+   "text": "ἀπαρτιζόμενον τόνων. εἰ δὲ δύο εἴη τὰ ἡμι-"
+  },
+  {
+   "page": 32,
+   "line": 10,
+   "text": "τόνια, τὸ λοιπὸν γένοιτ’ ἂν ἓν ἐκ συμφθάρ-"
+  },
+  {
+   "page": 32,
+   "line": 11,
+   "text": "σεως διάστημα, τριημιτόνιον ἀσύνθετον ἐξ"
+  },
+  {
+   "page": 32,
+   "line": 12,
+   "text": "ἡμιτονίων δύο καὶ τριημιτονίου συγκεκρα-"
+  },
+  {
+   "page": 32,
+   "line": 13,
+   "text": "μένον. εἴη δ’ ἂν τοῦτο τὸ διὰ τεσσάρων γένος"
+  },
+  {
+   "page": 32,
+   "line": 14,
+   "text": "χρωματικὸν, παθητικώτερόν τε τοῦ προτέ-"
+  },
+  {
+   "page": 32,
+   "line": 15,
+   "text": "ρου, καὶ γοέτερον. εἰ δὲ κατὰ δύο διέσεις"
+  },
+  {
+   "page": 32,
+   "line": 16,
+   "text": "ἡ μελῳδία προάγοιτο, θάτερον ἔσται τῶν δια-"
+  },
+  {
+   "page": 32,
+   "line": 17,
+   "text": "στημάτων ἓν διτόνιον ἐκ συμφθάρσεως· καὶ"
+  },
+  {
+   "page": 32,
+   "line": 18,
+   "text": "τὸ διατεσσάρων τοῦτο γένος, ἁρμονικὸν ὀνο-"
+  },
+  {
+   "page": 32,
+   "line": 19,
+   "text": "μάζεται, τῷ εἶναι ἄριστον ἐκ τῆς κοινῆς ἁρμο-"
+  },
+  {
+   "page": 32,
+   "line": 20,
+   "text": "νίας τὴν παρωνυμίαν ἀπενεγκάμενον."
+  },
+  {
+   "page": 32,
+   "line": 21,
+   "text": "τὸν ὅμοιον δὲ τρόπον καὶ τὰ λοιπὰ τῶν συ-"
+  },
+  {
+   "page": 32,
+   "line": 22,
+   "text": "στημάτων ἡ ἁρμονία συντάττει. τῷ γὰρ ἑ-"
+  },
+  {
+   "page": 32,
+   "line": 23,
+   "text": "νὸς * τὸ τετραχόρδου περὶ τὰ διαστήματα"
+  },
+  {
+   "page": 32,
+   "line": 24,
+   "text": "τοῦ διὰ τεσσάρων συντακτικῷ ὑποδείγμα-"
+  },
+  {
+   "page": 32,
+   "line": 25,
+   "text": "τι, ῥᾴδιον τῷ φιλομαθεῖ καὶ περὶ τῶν ἑξῆς"
+  },
+  {
+   "page": 33,
+   "line": 1,
+   "text": "συστημάτων καταστοχάζεσθαι. δυσμελῳδι-"
+  },
+  {
+   "page": 33,
+   "line": 2,
+   "text": "κώτατον μέντοι τὸ ἁρμονικὸν γένος τῆς με-"
+  },
+  {
+   "page": 33,
+   "line": 3,
+   "text": "λῳδίας ἐστὶ, καὶ πολλῆς τριβῆς καὶ συνηθεί-"
+  },
+  {
+   "page": 33,
+   "line": 4,
+   "text": "ας δεόμενον, ὅθεν οὐδ’ εἰς χρῆσιν ῥᾳδίως ἔρ-"
+  },
+  {
+   "page": 33,
+   "line": 5,
+   "text": "χεται. τὸ δὲ διάτονον, ἁπλοῦν τε καὶ γεν-"
+  },
+  {
+   "page": 33,
+   "line": 6,
+   "text": "ναῖον, καὶ φυσικώτερον· διὸ δὴ τοῦτο παρα-"
+  },
+  {
+   "page": 33,
+   "line": 7,
+   "text": "λαμβάνει καὶ Πλάτων. τούτων δὲ πάλιν"
+  },
+  {
+   "page": 33,
+   "line": 8,
+   "text": "ἕκαστον ποικίλλεται, καὶ εἰς πολλὰς διαιρέ-"
+  },
+  {
+   "page": 33,
+   "line": 9,
+   "text": "σεις, καὶ διαφορὰς, καὶ εἴδη μελῳδιῶν κα-"
+  },
+  {
+   "page": 33,
+   "line": 10,
+   "text": "τατέμνεται· καὶ νῦν μὲν λύδιον, νῦν δὲ"
+  },
+  {
+   "page": 33,
+   "line": 11,
+   "text": "φρύγιον, νῦν δὲ δώριον ἐναρμόζεται μέλος,"
+  },
+  {
+   "page": 33,
+   "line": 12,
+   "text": "ὧν ἐφ’ ἑκάστῳ παιήων, ὑμεραῖος, ἐξόδιος,"
+  },
+  {
+   "page": 33,
+   "line": 13,
+   "text": "καὶ ὅσα εἴδη μελῳδιῶν, ἀναφαίνεται. οὐ"
+  },
+  {
+   "page": 33,
+   "line": 14,
+   "text": "γὰρ τῇ τῶν διαστημάτων μόνῃ διαφορᾷ, ἀλλὰ"
+  },
+  {
+   "page": 33,
+   "line": 15,
+   "text": "καὶ ταῖς χολαιοτέραις καὶ ταχιναῖς μετα-"
+  },
+  {
+   "page": 33,
+   "line": 16,
+   "text": "βάσεσι, διαμοναῖς τε καὶ ῥοαῖς, καὶ ταῖς τῶν"
+  },
+  {
+   "page": 33,
+   "line": 17,
+   "text": "ἐπαφῶν καὶ κρουμάτων ποικίλαις μεταχει-"
+  },
+  {
+   "page": 33,
+   "line": 18,
+   "text": "ρίσεσι, τὰ μύρια τῶν μελῳδιῶν, καὶ"
+  },
+  {
+   "page": 33,
+   "line": 19,
+   "text": "ποίκιλα κατασκευά-"
+  },
+  {
+   "page": 33,
+   "line": 20,
+   "text": "ζεται."
+  },
+  {
+   "page": 33,
+   "line": 21,
+   "text": "Τέλος τῆς Μουσικῆς:",
+   "heading": true,
+   "para_start": true
+  }
+ ],
+ "decisions": [
+  {
+   "ref": "Bas. 23.6",
+   "claude": "ας ἄτερ καὶ ἀναλογίας ἔστιν.",
+   "gpt": "ας ἄτερ καὶ ἀναλογίας ἐστίν.",
+   "adopted": "ας ἄτερ καὶ ἀναλογίας ἔστιν.",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «ἔστιν.»  /  (2) «ἐστίν.»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — Over the ε there is a smooth breathing (a ')'-shaped hook) and next to it a short, near-vertical accent. The accent is thick at the top, and its top is about 1 px right of its foot, so it is an acute. The graves on this page slant clearly to the right (τὸ, οὐδὲν in 23.4). Nothing stands over the ι of the στι ligature. | B: 1 (high) — Smooth breathing and an accent stand together over the ε. The accent leans from top right to bottom left (acute). Nothing stands over the ι. Then the στ ligature, ι, final ν and a period."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 23.7",
+   "claude": "ἀλλ’ οὐδέ τι τῶν γινομένων",
+   "gpt": "ἀλλ’ οὐδὲ τι τῶν γινομένων",
+   "adopted": "ἀλλ’ οὐδέ τι τῶν γινομένων",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «οὐδέ»  /  (2) «οὐδὲ»",
+     "pick": "1",
+     "by": "editor",
+     "reason": "A: 1 (high) — The accent over the final ε of οὐδε is a short, vertical, wedge-shaped stroke (about x 505-508, y 1278-1287). It does not slant to the right like the graves in οὐδὲν (23.4), καὶ and γὰρ on the same page. It has the same shape as the acutes in συνέ- and ἔστιν. | B: unclear (low) — The accent over the ε is a short vertical wedge, about 9 px tall. Its fitted slope is about 0. Graves on the same page lean right (τὸ +0.13, οὐδὲν on 23.4 +0.43) and acutes lean left (ἀναλογίας −0.59, ἔστιν −0.08), so the image does not separate acute from grave here. If anything the top sits a hair to the right (acute). Grammar (enclitic τι follows) expects οὐδέ."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 24.1",
+   "claude": "Η δὲ μουσικὴ, αὐτοσυμμετρία τις ἐστι, καὶ",
+   "gpt": "Ἡ δὲ μουσικὴ, αὐτοσυμμετρία τις ἐστὶ, καὶ",
+   "adopted": "Η δὲ μουσικὴ, αὐτοσυμμετρία τις ἐστὶ, καὶ",
+   "right": "claude+gpt",
+   "differences": [
+    {
+     "difference": "(1) «Η»  /  (2) «Ἡ»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — The initial is a bold capital H. The paper to the left of it and above it is clean, with no breathing mark. | B: 1 (high) — Capital Η. At 7x the paper above and to the left of it is blank: no breathing (only a speck at baseline level, far left)."
+    },
+    {
+     "difference": "(1) «ἐστι,»  /  (2) «ἐστὶ,»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — This is the ἐστι ligature: ε with a smooth breathing and a hump over στ. Touching the hump there is a second, higher peak above the ι: a wedge that is thick at the top-left and runs down to the right, i.e. a grave. The same ligature in 24.24 (ἐστι φθόγγος) has no such peak, and in 24.15 the grave over ι stands free. | B: 2 (medium) — This is the ἐστι compendium (breathing, ε loop, caret-shaped stroke, στ, ι). Its top has two peaks: the ligature's own low caret, plus a second, taller wedge that runs from upper left down to just above the ι and touches the caret. The 24.24 compendium (no accent) has one low caret only. The 24.15 compendium (ἐστὶ) has the caret plus a separate grave at exactly this spot. So I read the extra wedge as a grave that has run into the caret."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 24.5",
+   "claude": "παντὸς ὀνομάζει, ἐν ᾧ τὸ πᾶν συναρμολο-",
+   "gpt": "παντὸς ὀνομάσοι, ἐν ᾧ τὸ πᾶν συναρμολο-",
+   "adopted": "παντὸς ὀνομάσοι, ἐν ᾧ τὸ πᾶν συναρμολο-",
+   "right": "gpt",
+   "differences": [
+    {
+     "difference": "(1) «ὀνομάσοι,»  /  (2) «ὀνομάζει,»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — After ὀνομα the α has a tall stroke rising from its right side to accent height; I take it as a joined acute (ά). Next comes a tall C-shaped σ enclosing a small ο: the σο ligature, identical to the one in τοσούτου (24.7). Compare the σα ligature in τυγχάνουσα (24.3), where the C encloses an α. Then ι and a comma. There is no ζ (compare the ζει of πλασιάζει in 27.3) and no ε. | B: 1 (high) — After ὀνομα comes a tall stroke rising from the α (the accent sort), then a tall C/6-shaped σ with a small ο inside it (the σο ligature, the same sort as in τοσούτου on 24.7), then a short ι and a comma. There is no ζ (compare the ζ in συμβιβαζόμενον on 24.6) and no ει."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 24.6",
+   "claude": "γούμενον καὶ συμβιβαζόμενον, εὖτε καὶ ὡς",
+   "gpt": "γούμενον καὶ συμβιβαζόμενον, εὖ τε καὶ ὡς",
+   "adopted": "γούμενον καὶ συμβιβαζόμενον, εὖτε καὶ ὡς",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «εὖ τε»  /  (2) «εὖτε»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — Ink-run measurement: the gap between υ (x 1170-1188) and τ (x 1193) is 4 px. That is the same as the gaps between letters inside words (1-4 px). The word spaces on this line are 9-12 px. No space is printed. | B: 2 (high) — ε, υ with breathing and circumflex, then τε. The gap between υ and τ is about 2 px, an ordinary letter gap; the gap before καὶ is about 12 px. No word space is set between εὖ and τε."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 24.7",
+   "claude": "ἄριστα διαφαίνεται ἔχων. τοσούτου τὴν μου-",
+   "gpt": "ἄριστα διαφαίνεται ἔχον. τοσοῦτον τὴν μου-",
+   "adopted": "ἄριστα διαφαίνεται ἔχων. τοσούτου τὴν μου",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «ἔχον.»  /  (2) «ἔχων.»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — After ἔχ the vowel is a double-bowled ω, followed by a final ν with a tail, and then the full stop. | B: 2 (high) — A clear double-bowled ω before the final ν, then a period."
+    },
+    {
+     "difference": "(1) «τοσοῦτον»  /  (2) «τοσούτου»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — The word reads το + σο-ligature + ύ (single acute stroke) + τ + ȣ (the ου ligature, 8-shaped and open at the top), then a word space before τὴν. No ν follows the ȣ, and the accent is an acute, not a circumflex. | B: 2 (high) — το, then the σο ligature, then υ with an acute, then τ, then the ου ligature (8-shaped). The word ends in ου; there is no final ν and no circumflex."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 24.18",
+   "claude": "διαστημάτων περωχὴ. Αρμονία δὲ, συστη-",
+   "gpt": "διαστημάτων περιοχή. Ἁρμονία δὲ, συστη-",
+   "adopted": "διαστημάτων περωχὴ. Αρμονία δὲ, συστη-",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «περωχὴ.»  /  (2) «περιοχή.»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — The letters are π, then the ερ ligature (a 6-shaped ε joined to ρ under an arch), then ω, χ, η. There is no ι or ο between ρ and ω. The accent on the final η slants clearly '\\' (top x 982-986, foot x 985-989), so it is a grave. The same arched ερ ligature appears in περάτος (25.12). | B: 1 (high) — π, then the ερ ligature (ε loop arching over ρ: the same sort as in ἑτέρου on 24.22, with no ι), then a clear double-bowled ω, χ, η, and a period. The accent on η leans right (grave, slope +0.25)."
+    },
+    {
+     "difference": "(1) «περωχὴ.»  /  (2) «εριοχή.»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — This is the same word as difference 1: the print has περωχὴ, a grave on η, and no ι or ο. | B: 1 (high) — Same word: no ι and no ο are printed. The letter is ω and the accent is grave."
+    },
+    {
+     "difference": "(1) «Αρμονία»  /  (2) «Ἁρμονία»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — Capital Α with no breathing mark to its left or above it; the area at x 1030-1055 is clean. | B: 1 (high) — Capital Α. At 7x there is no breathing before it or above it."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 24.19",
+   "claude": "μάτων σύνταξις. Ο μὲν οὖν φθόγγος ἀδιά-",
+   "gpt": "μάτων σύνταξις. Ὁ μὲν οὖν φθόγγος ἀδιά-",
+   "adopted": "μάτων σύνταξις. Ο μὲν οὖν φθόγγος ἀδιά",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «Ο»  /  (2) «Ὁ»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — A capital round Ο with no breathing mark to its left or above it; the surrounding paper is clean. | B: 1 (high) — A large round Ο after the period, with blank paper before and above it: no breathing."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 24.22",
+   "claude": "σθαι, ὡς δύνασθαι καὶ μεθ’ ἑτέρου φθόγγου ἐναρμο-",
+   "gpt": "σθαι, ὡς δύνασθαι καὶ μεθ’ ἑτέρου φθόγγου ἐναρμο",
+   "adopted": "σθαι, ὡς δύνασθαι καὶ μεθ’ ἑτέρου φθόγγου ἐναρμο",
+   "right": "gpt",
+   "differences": [
+    {
+     "difference": "(1) «ἐναρμο»  /  (2) «ἐναρμο-»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — The line ends with the ο of ἐναρμο and the margin after it is blank. No hyphen is printed, whereas the neighbouring lines (συστη-, ἐναρ-, ἐκπεφωνῆ-) do show the small dash. | B: 1 (high) — The line ends with ο of ἐναρμο. At 4x the paper is blank for about 50 px after it, up to the edge: no hyphen."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 24.23",
+   "claude": "σθῆναι. εἰ δ’ μὴ οὕτως ἐκφωνηθείη, ἀπηχής",
+   "gpt": "σθῆναι. εἰ δὲ μὴ οὕτως ἐκφωνηθείη, ἀπηχὴς",
+   "adopted": "σθῆναι. εἰ δὲ μὴ οὕτως ἐκφωνηθείη, ἀπηχής",
+   "right": "claude+gpt",
+   "differences": [
+    {
+     "difference": "(1) «δὲ»  /  (2) «δ’»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (medium) — After εἰ there is a special δ-sort with no bowl: a stroke descending below the baseline, a diagonal, and a tall right stroke. Above it at upper right is a straight '\\' stroke like a grave, not the hook-shaped apostrophe printed with δ’ in 24.3 (δ’ ἄν) and 24.24 (οὐδ’ ἂν). I read it as the abbreviation for δὲ, which is expanded silently. Elision is also impossible before μ. | B: 1 (high) — After εἰ comes δ with a straight, thick grave stroke (\\) at top right and no ε. That is the δὲ compendium (δ with grave). The apostrophe in this print is a curved comma-like hook, as in τάχα δ’ on 24.3 and οὐδ’ on 24.24, and that is not what stands here."
+    },
+    {
+     "difference": "(1) «ἀπηχὴς»  /  (2) «ἀπηχής»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — The accent over the η of ἀπηχης at the line end has its top at x 1310-1315 and its foot at x 1309-1311 (y 1430-1443). It slants '/', so it is an acute. | B: 2 (high) — The accent over the last η leans from top right to bottom left (acute). The fitted slope is −0.23; graves on this page are positive."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 24.24",
+   "claude": "ἐστι φθόγγος, οὐκ ἐναρμόνιος, οὐδ’ ἂν φθόγγος",
+   "gpt": "ἐστὶ φθόγγος, οὐκ ἐναρμόνιος, οὐδ’ ἂν φθόγγος",
+   "adopted": "ἐστι φθόγγος, οὐκ ἐναρμόνιος, οὐδ’ ἂν φθόγγος",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «ἐστι»  /  (2) «ἐστὶ»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — The ἐστι ligature has ε with a smooth breathing, one arch over στ that runs into the τ-bar, and then ι. Nothing stands above the ι (y 1480-1498 is blank at x 670-680). This contrasts with 24.1 and 24.15, where a grave is present. | B: 1 (high) — The ἐστι compendium has a breathing, a single low caret and a bar running into a short ι. The pixel map shows nothing above the ι. Compare 24.15, where a separate grave stands over the ι."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 24.25",
+   "claude": "ὅλως καλοῖτο, ἀλλὰ ψόφος τις ἄλλως ἐκπε-",
+   "gpt": "ὅλως καλοῖτο, ἀλλὰ ψόφος τις ἄλλως ἐκπε",
+   "adopted": "ὅλως καλοῖτο, ἀλλὰ ψόφος τις ἄλλως ἐκπε",
+   "right": "gpt",
+   "differences": [
+    {
+     "difference": "(1) «ἐκπε-»  /  (2) «ἐκπε»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — The line ends with ε of ἐκπε and nothing follows it. There is no hyphen; the catchword below is φωνη-, which does carry a dash. | B: 2 (high) — The line ends with the ε of ἐκπε. There is blank paper after it up to the edge: no hyphen."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 25.4",
+   "claude": "τὰς προσηγορίας λαμβανόντος· Προσλαμ-",
+   "gpt": "τὰς προσηγορίας λαμβάνοντος· Προσλαμ-",
+   "adopted": "τὰς προσηγορίας λαμβάνοντος· Προσλαμ-",
+   "right": "gpt",
+   "differences": [
+    {
+     "difference": "(1) «λαμβανόντος·»  /  (2) «λαμβάνοντος·»",
+     "pick": "2",
+     "by": "editor",
+     "reason": "A: unclear (low) — There is a single acute (x 539-544, y 361-372) standing directly over the left arm of the first ν. It is about 9 px right of α's right edge (α at x 511-530) and about 10 px left of ο's left edge (ο at x 554-563). On this page the ά sorts carry the accent at about +10 to +22 px from α's left edge, and the ό sorts at about +6 to +10 px from ο's left edge. This accent is about 11 px beyond the usual ά position and about 17-20 px short of the usual ό position. It leans slightly toward ά (reading 2) but is not decisive. | B: 2 (medium) — The acute stands over the joint of α and ν after β. That is how this type sets ά before ν: compare τυγχάνουσα on 24.3, which has the same placement. Nothing stands over the following ο."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 25.7",
+   "claude": "παρυπάτη μέσων, * μέση μόνως, παράμε-",
+   "gpt": "παρυπάτη μέσων, * μέση μόνος, παράμε-",
+   "adopted": "παρυπάτη μέσων, * μέση μόνως, παράμε-",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «μόνως,»  /  (2) «μόνος,»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — The letter after μόν is a clear double-bowled ω, followed by final ς and a comma. | B: 1 (high) — A clear double-bowled ω before the final ς, then a comma."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 25.8",
+   "claude": "σος, τρίτη διεζευγμένη, διάτονος διαζευγμέ-",
+   "gpt": "σος, τρίτη διεζευγμένη, διάτονος διεζευγμέ-",
+   "adopted": "σος, τρίτη διεζευγμένη, διάτονος διαζευγμέ",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «διεζευγμέ-»  /  (2) «διαζευγμέ-»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — The word begins with the δια ligature: a looped δ whose top stroke crosses a clearly formed α with bowl and tail. Then come ζ, the ευ ligature, γ and μέ. There is no ε between δ and ζ, unlike διεζευγμένη in 25.9, where δ, ι and ε are separate. | B: 2 (high) — The last word begins with the δια ligature: δ with a looped ι joined to an open α, as in διαστημάτων and διαφαίνεται. The earlier διεζευγμένη in the same line has a separate ε."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 25.9",
+   "claude": "νη, νήτη διεζευτμένη, τρίτη ὑπερβολαίων,",
+   "gpt": "νη, νήτη διεζευγμένη, τρίτη ὑπερβολαίων,",
+   "adopted": "νη, νήτη διεζευγμένη, τρίτη ὑπερβολαίων,",
+   "right": "gpt",
+   "differences": [
+    {
+     "difference": "(1) «διεζευγμένη,»  /  (2) «διεζευτμένη,»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — The letter before μ is Γ-shaped: a thick stem at the left end with a bar running only to the right. This is the uncial-form gamma; the same form is used for the final γ of φθόγ in 27.23. A τ in this type has its stem under the middle of the bar (compare νήτη in this line). | B: 1 (medium) — The letter after the ευ ligature is Γ-shaped: a stem on the left and a bar to the right, sitting on the baseline. It is not the usual descending γ, and it is not like the τ of νήτη (bar across a central stem). The same Γ-shaped sort ends φθόγ- on 27.23 (φθόγ|γων), where it must be γ. So this is a γ variant."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 25.12",
+   "claude": "δεκαχόρδῳ ἑκκαιδεκάχορδον, τοῦ περάτος",
+   "gpt": "δεκαχόρδῳ ἑκκαιδεκαχόρδιον, τοῦ πέρατος",
+   "adopted": "δεκαχόρδῳ ἑκκαιδεκάχορδον, τοῦ περάτος",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «ἑκκαιδεκαχόρδιον»  /  (2) «ἑκκαιδεκάχορδον,»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — There is a clear acute over the α after δεκ. After χορ comes a plain δ, then ο and ν; no ι stands between δ and ο, and there is no accent over the ο of χορ. A comma follows. | B: 2 (medium) — The acute stands over the α after κ (κά); nothing stands over the ο after χ. After ρ comes a δ with one smooth arch and a long descender (the plain-δ form, as in ὁδεύοντα 27.18 and διοδεύον 27.24). It lacks the knotted top of the δι ligature (διεζευ- 25.9, διά- 25.8), so no ι. Then ο, ν and a comma."
+    },
+    {
+     "difference": "(1) «ἑκκαιδεκαχόρδιον,»  /  (2) «ἑκκαιδεκάχορδον,»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — This is the same word as difference 1: ἑκκαιδεκάχορδον, followed by a comma. | B: 2 (medium) — Same word: accent on κά, no ι after δ, comma follows."
+    },
+    {
+     "difference": "(1) «πέρατος»  /  (2) «περάτος»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — The word is ϖ, then the arched ερ ligature (x 720-760), then an acute at x 762-770 standing between ρ and the following α, nearer the α, then α, τ, ος. Nothing is over the ε of the ερ ligature, which sits at about x 722-737. | B: 2 (medium) — π, then the ερ ligature with nothing over its arch. The acute stands right at the left shoulder of the following α, well right of the ερ ligature, then ατ and ος. I read it as the accent of the α."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 25.17",
+   "claude": "πρὸς τὸν πεντεκαιδέκατον ἔχει. καὶ τὰ ἃλλα",
+   "gpt": "πρὸς τὸν πεντεκαιδέκατον ἔχει. καὶ τὰ μὲν",
+   "adopted": "πρὸς τὸν πεντεκαιδέκατον ἔχει. καὶ τὰ μὲν",
+   "right": "gpt",
+   "differences": [
+    {
+     "difference": "(1) «ἃλλα»  /  (2) «μὲν»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — After τὰ there is a capital-height uncial Μ with splayed legs and a shallow middle V (x 796-834, y 1068-1098). Above it are a small c-shaped ε and a grave '\\'. This is the standard μ-with-superscript-ε abbreviation for μὲν. It is not the λλ ligature of this type (compare ἀλλ’ in 23.7, ἄλλως and ἀλλήλους on p. 24), and no α is present. | B: 2 (medium) — The last sign is M-shaped: two outer legs reach the baseline and the middle vertex is raised; the left leg runs down to the left, not as in λ. Above it are a small open c-curve and a grave. I read this as the μὲν compendium: μ with a superscript ε and grave. The shape gives no λλ and no α."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 25.20",
+   "claude": "σις. εἶτα τὸ ἡμιτόνιον, διπλὴν ἔχον ἐπὶ τὸ ὀ-",
+   "gpt": "σις. εἶτα τὸ ἡμιτόνιον, διπλῆν ἔχον ἐπὶ τὸ ὀ-",
+   "adopted": "σις. εἶτα τὸ ἡμιτόνιον, διπλὴν ἔχον ἐπὶ τὸ ὀ-",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «διπλὴν»  /  (2) «διπλῆν»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — Above the ην ligature is a single thin straight stroke (about x 599-603, y 1209-1219) slanting down to the right: a grave. It is not a wavy circumflex. | B: 1 (high) — The ην ligature has a single thin stroke above it, leaning from top left to bottom right (grave, slope +0.31). There is no circumflex wave."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 25.25",
+   "claude": "ἥμισυ, τὴν δὲ δίεσιν ὅσον † ὀκτωτέταρτον.",
+   "gpt": "ἥμισυ, τὴν δὲ δίεσιν ὅσον † ὀκτὼ τέταρτον.",
+   "adopted": "ἥμισυ, τὴν δὲ δίεσιν ὅσον † ὀκτωτέταρτον.",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «ὀκτὼ τέταρτον.»  /  (2) «ὀκτωτέταρτον.»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — In ὀκτω the τ-bar is joined over the ω, and τέ follows after only 3 px. Word spaces on this line are 10-18 px. No grave stands over the ω. | B: 2 (high) — ὀκτω and τέταρτον run on with no space between them, and there is no accent on the ω."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 26.2",
+   "claude": "μοὺς, ἀλλ’ ἡ ἐν ὕλῃ βλεπομένη μονὰς τέμνε-",
+   "gpt": "μούς, ἀλλ’ ἡ ἐν ὕλῃ βλεπομένη μονὰς τέμνε-",
+   "adopted": "μοὺς, ἀλλ’ ἡ ἐν ὕλῃ βλεπομένη μονὰς τέμνε-",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «μοὺς,»  /  (2) «μούς,»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (medium) — There is a thin accent over the ȣ (ου ligature) of μους (x 660-663, y 294-306). Its foot is 1-2 px right of its top, a slight '\\' slant. The grave of μονὰς on the same line slants 2-3 px to the right, while the acute of βλεπομένη slants about 3 px to the left. So this is a grave, but the slant is small. | B: 1 (high) — The accent over the ου ligature leans from top left to bottom right (grave, fitted slope +0.17; graves on these pages run +0.13 to +0.43)."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 26.5",
+   "claude": "εἰς ἡμιεπόγδοον, ὅπερ ἔστιν ἡμιτόνιον, καὶ",
+   "gpt": "εἰς ἡμιεπόγδοον, ὅπερ ἐστὶν ἡμιτόνιον, καὶ",
+   "adopted": "εἰς ἡμιεπόγδοον, ὅπερ ἔστιν ἡμιτόνιον, καὶ",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «ἐστὶν»  /  (2) «ἔστιν»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — Over the ε are a smooth breathing (a ')'-shaped hook) and, right of it, an accent whose foot sits about 1 px left of its top, i.e. an acute. Nothing stands above the ι of the στι ligature (x 1050-1080, y 455-470 is blank). | B: 2 (high) — A smooth breathing and an acute (slope −0.16) stand together over the ε. Nothing stands over the ι. The word is ε, the στ ligature, ι and ν."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 26.8",
+   "claude": "τοῦ μείζονος κατὰ πάντα τρόπον ἀφαιρεῖ-",
+   "gpt": "τῆς μείζονος κατὰ πάντα τρόπον ἀφαιρεῖ-",
+   "adopted": "τῆς μείζονος κατὰ πάντα τρόπον ἀφαιρεῖ-",
+   "right": "gpt",
+   "differences": [
+    {
+     "difference": "(1) «τοῦ»  /  (2) «τῆς»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — The first word is an abbreviation sign shaped like a looped δ with a tall stroke ('ꝺl'). It is identical to the sign in 24.13 (μᾶλλον δὲ ~ ἐν μιᾷ τῶν αἰσθήσεων) and in 25.21 (παραύξησιν ~ διέσεως), where it stands for τῆς. τοῦ is printed differently in this type (τ + ȣ, e.g. οἷα τοῦ in 24.2). | B: 2 (high) — The line opens with a compendium: a large hook at the top, a stem, and a small knotted loop at the bottom left. It is identical to the sign in 'συμμετρίας τῆς προσηκούσης' on 23.9, where τῆς is required. τοῦ in this print is τ with the ου ligature (e.g. 26.24, 26.26)."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 26.16",
+   "claude": "τὸν γὰρ ἑξκαιδέκατον ἀριθμὸν τετράγω-",
+   "gpt": "τὸν γὰρ ἑκκαιδέκατον ἀριθμὸν τετράγω-",
+   "adopted": "τὸν γὰρ ἑξκαιδέκατον ἀριθμὸν τετράγω-",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «ἑξκαιδέκατον»  /  (2) «ἑκκαιδέκατον»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — After ἑ there is a clear ξ with zigzag body and curled descender. Then comes the και ligature (κ+αι), then δέκατον. There is no second κ before the ligature. | B: 1 (high) — The ε has a rough breathing (c-shaped), and the next letter is a clear ξ (three-bar zigzag with a tail) before κ."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 27.2",
+   "claude": "θέντος μετειληφὼς εἰς πλευρὰν, τὸ δοθὲν δι-",
+   "gpt": "θέντος μεταληφὼς εἰς πλευρὰν, τὸ δοθὲν δι-",
+   "adopted": "θέντος μετειληφὼς εἰς πλευρὰν, τὸ δοθὲν δι-",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «μεταληφὼς»  /  (2) «μετειληφὼς»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (medium) — After μετ there is a curly ε-shaped sign (looped like a brace) with a tall stroke rising above the x-height (x 247-262, y 280-320). This is the ει ligature with a tall ι, not an α: there is no α bowl with a tail. Then come λ, a faintly inked η, and φὼς. | B: 2 (high) — After μετ comes the ει ligature: a ξ-like ε with a tall stroke through it. Then λ, a faintly inked η, φ, ώ (grave) and ς. There is no α."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 27.3",
+   "claude": "πλασιάζει τετράγωνον. ταύτη τοι καὶ ὁ ἐπόγ-",
+   "gpt": "πλασιάζει τετράγωνον. ταύτῃ τοι καὶ ὁ ἐπόγ-",
+   "adopted": "πλασιάζει τετράγωνον. ταύτη τοι καὶ ὁ ἐπόγ-",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «ταύτῃ»  /  (2) «ταύτη»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — The final η of ταύτη (x 545-560, y 350-367) has clean paper below it (y 368-385), so there is no iota subscript. Compare ὕλῃ in 26.2, where a subscript mark is printed under the η. | B: 2 (high) — At 8x with contrast stretched, there is nothing below the η of ταύτη: no iota subscript."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 27.7",
+   "claude": "τριημιτόνιον, διτόνιόν τε, καὶ τριτόνιον, καὶ",
+   "gpt": "τριημιτόνιον, διτόνιον τε, καὶ τριτόνιον, καὶ",
+   "adopted": "τριημιτόνιον, διτόνιόν τε, καὶ τριτόνιον, καὶ",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «διτόνιόν»  /  (2) «διτόνιον»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — διτονιον carries two acutes: one over the first ο (τό) and a second, clear acute over the last ο (-ιόν). Then a word space and τε. | B: 1 (high) — There are two clear acutes: one on the first ο (τό) and a second on the ο of -ιόν, before τε."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 27.9",
+   "claude": "ὡς ἐν τοῖς ἑπομένοις γνωσθήσεται. Ασύνθε-",
+   "gpt": "ὡς ἐν τοῖς ἑπομένοις γνωσθήσεται. Ἀσύνθε-",
+   "adopted": "ὡς ἐν τοῖς ἑπομένοις γνωσθήσεται. Ασύνθε",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «Ἀσύνθε-»  /  (2) «Ασύνθε-»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — Capital Α (x 660-690) with no breathing mark to its left or above it; the paper at x 640-660 and above the letter is clean. | B: 2 (high) — Capital Α after the period. At 6x the paper before and above it is blank: no breathing."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 27.13",
+   "claude": "μὲν ἔχον διαφόρων διαστημάτων, δι’ ἑνὸς δὲ",
+   "gpt": "μὲν ἔχον διαφόρων διαστημάτων, δι’ ἑνὸς διὲ",
+   "adopted": "μὲν ἔχον διαφόρων διαστημάτων, δι’ ἑνὸς δὲ",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «δὲ»  /  (2) «διὲ»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (medium) — The last word is a δ whose stem arches to the right and comes down to the baseline in one smooth stroke, followed by a full ε with a grave. The same smooth δ form appears where no ι is possible: ὁδεύοντα (27.18), and the second δ of διοδεύον and χορδῶν in 27.24. The real δι ligature at the start of this same line (δι’) and in διο- (27.24) has a separate ι with a spur at mid-height, which is absent here. So I read δ + ὲ, not δι + ὲ. | B: 1 (medium) — The last word is a δ with one smooth arch and a long descender to the baseline, then a separate ε with a grave. That δ form is the plain δ of this type: the same in ὁδεύοντα 27.18 and in the second δ of διοδεύον 27.24. The δι ligature in δι’ earlier in the same line has a visible knot or cross-stroke at the top, which is absent here."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 27.18",
+   "claude": "μένων πάντων διαστημάτων ὁδεύοντα, ἃ",
+   "gpt": "μένων πάντων διαστημάτων ὁδεύονται, ἃ",
+   "adopted": "μένων πάντων διαστημάτων ὁδεύοντα, ἃ",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «ὁδεύοντα,»  /  (2) «ὁδεύονται,»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — The ending is τ + α, then a comma. The α stands alone, with no ι after it. Compare the ται of γνωσθήσεται (27.9), where a separate ι-stroke follows the α. | B: 1 (high) — ντα is followed directly by a comma. The α is the plain open α with no ι stroke; compare the -ται of γνωσθήσεται on 27.9, which shows αι with an upright ι."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 27.20",
+   "claude": "πὶ τὸν τελευταῖον ἠχῆς, διαστήματα ὀνομά-",
+   "gpt": "πὶ τὸν τελευταῖον ἠχῆς, διαστήματά ὀνομά-",
+   "adopted": "πὶ τὸν τελευταῖον ἠχῆς, διαστήματα ὀνομά-",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «διαστήματά»  /  (2) «διαστήματα»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — The only accent in the word is the acute over η. Above the final τα ligature there are only the small tops of the letter strokes (y 1243-1250), attached to the letters. There is no free accent at accent height; the next mark, at x 688-692, is the breathing of ὀνομά-. | B: 2 (high) — The only accent in the word is on ή. At 8x nothing stands over the final τα. The mark just to the right is the smooth breathing of ὀνομά-."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 27.23",
+   "claude": "ξαντο, τὸ διὰ τεσσάρων ὡς διὰ τεσσάρων φθόγ-",
+   "gpt": "ξαντο, τὸ διὰ τεσσάρων ὡς διὰ τεσσάρων φθόγ",
+   "adopted": "ξαντο, τὸ διὰ τεσσάρων ὡς διὰ τεσσάρων φθόγ",
+   "right": "gpt",
+   "differences": [
+    {
+     "difference": "(1) «φθόγ»  /  (2) «φθόγ-»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — The line ends with the Γ-shaped gamma of φθόγ and the margin after it is blank. No hyphen is printed. | B: 1 (high) — The line ends with a Γ-shaped γ after φθό. At 4x there is blank paper after it: no hyphen."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 27.24",
+   "claude": "γων, εἴτ’ οὖν χορδῶν διοδεύον, καὶ περαινόμε-",
+   "gpt": "γων, εἴτ’ οὖν χορδίων διοδεῦον, καὶ περαινόμε-",
+   "adopted": "γων, εἴτ’ οὖν χορδῶν διοδεύον, καὶ περαινόμε",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «χορδῶν»  /  (2) «χορδίων»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (medium) — In χορδ the δ's stem arches right and comes down smoothly to the baseline, the same δ form used in ὁδεύοντα and in the second δ of διοδεύον. It does not have the spurred ι of the true δι ligature (δι’ in 27.13, δι- in διοδεύον). Next comes ω with a clear circumflex above it (x 370-385, y 1452-1458), then ν. There is no acute on any ι. | B: 1 (medium) — After χορ comes a δ with one smooth arch and a long descender: the plain-δ form, identical to the δ of ὁδεύοντα and of -οδεύον. It lacks the knotted top of the δι ligature at the start of διοδεύον in the same line. Then ω with a circumflex above it, and ν. No separate ι and no acute."
+    },
+    {
+     "difference": "(1) «διοδεύον,»  /  (2) «διοδεῦον,»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — The accent over the υ of the ευ ligature has its top at x 533, y 1450 and its foot at x 529, y 1459. It is a single stroke slanting '/', an acute, not a circumflex. | B: 1 (high) — In the ευ ligature (6-shaped loop plus υ), the accent is a single stroke leaning from top right to bottom left (acute, slope −0.49). It is not a circumflex wave."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 28.4",
+   "claude": "ρουμένων, κᾀκεῖθεν αὖθις ἀναδιπλουμένων,",
+   "gpt": "ρουμένων, κἀκεῖθεν αὖθις ἀναδιπλουμένων,",
+   "adopted": "ρουμένων, κᾀκεῖθεν αὖθις ἀναδιπλουμένων,",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «κἀκεῖθεν»  /  (2) «κᾀκεῖθεν»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — A smooth breathing over α and a distinct round dot centred just below α. The dot has the same form as the iota-subscript dot under ω in τῷ at 28.14 (compared side by side). So κᾀ. | B: 2 (high) — Under the α of κα a distinct dot (iota subscript). Above it an ↄ-shaped smooth breathing."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 28.13",
+   "claude": "Διαφέρει δ’ ἀλλήλων τότε παράφωνον, καὶ",
+   "gpt": "Διαφέρει δ’ ἀλλήλων τό τε παράφωνον, καὶ",
+   "adopted": "Διαφέρει δ’ ἀλλήλων τότε παράφωνον, καὶ",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «τότε»  /  (2) «τό τε»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (medium) — τό and τε are set solid: column profile gives a 4 px gap between ό and τε, the same as letter gaps inside a word, against 8 px for the word space before it. Acute on ό. Printed as one word, τότε. | B: 1 (high) — τό and τε are set solid: gap between ό and τ only about 3 px (normal letter spacing), against 8 px before and 11 px after the word; acute on the first ο."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 28.14",
+   "claude": "ἀντίφωνον, τῷ τὸ μὲν παράφωνον ἀνισοχρό-",
+   "gpt": "ἀντίφωνον, τῷ τὸ μὲν παράφωνον ἀνισχρό-",
+   "adopted": "ἀντίφωνον, τῷ τὸ μὲν παράφωνον ἀνισοχρό",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «ἀνισχρό-»  /  (2) «ἀνισοχρό-»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — Between ι and χ there is the tall '6'-shaped σο ligature, the same sort as in ἰσοχρόνως at 28.18 (compared side by side). So it reads ἀνισοχρό. | B: 2 (high) — Between ι and χ is the б-shaped σο ligature (a bowl with a tall stroke arching over to the right). It is the same sort as in ἰσοχρόνως on 28.18, which both readings take as σο."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 28.15",
+   "claude": "νως συμφωνεῖν, ἡπίως πρῶτον καὶ εὐρύθμως",
+   "gpt": "νως συμφωνεῖν, ἠπίως πρῶτον καὶ εὐρύθμως",
+   "adopted": "νως συμφωνεῖν, ἡπίως πρῶτον καὶ εὐρύθμως",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «ἠπίως»  /  (2) «ἡπίως»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — The breathing over η is c-shaped and opens to the right: the stem is on the left with strokes off to the right at top and bottom. That is a rough breathing; compare the ɔ-shaped smooth breathing in κᾀκεῖθεν. | B: 2 (high) — The breathing over η is a c-shaped hook open to the right (rough). The smooth breathing in this print is ↄ-shaped (for example over ἀ in κᾀκεῖθεν, 28.4)."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 28.16",
+   "claude": "διαδεχομένων ἀλλήλοις τῶν φθόγγων ἀναλο-",
+   "gpt": "διαδεχομένων ἀλλήλοις τῶν φθόγγων ἀναλο",
+   "adopted": "διαδεχομένων ἀλλήλοις τῶν φθόγγων ἀναλο",
+   "right": "gpt",
+   "differences": [
+    {
+     "difference": "(1) «ἀναλο»  /  (2) «ἀναλο-»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — The line ends in ο, then about 50 px of blank paper up to the frame rule. No hyphen. | B: 1 (high) — The line ends with the ο of ἀναλο (last ink at about x 1316). No hyphen stroke between it and the column rule."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 28.18",
+   "claude": "τίφωνον, ἰσοχρόνως τοῦ ὀξέως τῷ βαρεί κα-",
+   "gpt": "τίφωνον, ἰσοχρόνως τοῦ ὀξέως τῷ βάρει κα-",
+   "adopted": "τίφωνον, ἰσοχρόνως τοῦ ὀξέως τῷ βαρεί κα-",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «βαρεί»  /  (2) «βάρει»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — An acute (thick top, slanting down to the left) stands at the start of the ει ligature, after ρ. It is about 30 px to the right of α, so it is not on α. In this font an accent on ει always sits over the ligature's left part, as in δείκνυται at 30.11, which both readings transcribe as εί. | B: 1 (high) — In βαρει the only accent is an acute (top right, foot left) standing over the ει ligature after ρ. Nothing is above α."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 28.22",
+   "claude": "δεκάτου τῷ ὀγδόῳ, συνανιόντων ἢ συγκα-",
+   "gpt": "δεκάτου τῷ ὀγδόῳ, συνανιόντων ἢ συγκα",
+   "adopted": "δεκάτου τῷ ὀγδόῳ, συνανιόντων ἢ συγκα",
+   "right": "gpt",
+   "differences": [
+    {
+     "difference": "(1) «συγκα»  /  (2) «συγκα-»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — The ink ends with α of συγκα; then there is a 59 px gap of blank paper to the frame. No hyphen. | B: 1 (high) — συγκα ends at the α (last ink at about x 1313). No hyphen follows before the rule."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 28.24",
+   "claude": "ρέων τοῖς ὀξέσιν, ἢ τῶν ὀξέων τοῖς βαρέσι κα-",
+   "gpt": "ρέων τοῖς ὀξέσιν, ἢ τῶν ὀξέων τοῖς βάρεσι κα",
+   "adopted": "ρέων τοῖς ὀξέσιν, ἢ τῶν ὀξέων τοῖς βαρέσι κα",
+   "right": "claude+gpt",
+   "differences": [
+    {
+     "difference": "(1) «βαρέσι»  /  (2) «βάρεσι»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — An acute stands over ε (x≈1229-1233), after ρ; α is at x≈1186-1205 and carries no accent. So βαρέσι. | B: 1 (high) — The accent (nearly vertical stroke) stands over the ε, at about x 1228–1233, after the ρ with its descender. Nothing is over α."
+    },
+    {
+     "difference": "(1) «κα-»  /  (2) «κα»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — Pixel map: the ink ends with the α of κα, and nothing follows before the frame. Compare line 28.18, which does end in a printed hyphen after κα. | B: 2 (high) — The line ends with the α of κα (last ink at about x 1313). No hyphen, unlike κα- on 28.18 where the stroke is clearly printed."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 28.25",
+   "claude": "τὰ ἀνάλογον. Ο δὲ τόνος, καὶ τὸ ἡμιτόνιον,",
+   "gpt": "τὰ ἀνάλογον. Ὁ δὲ τόνος, καὶ τὸ ἡμιτόνιον,",
+   "adopted": "τὰ ἀνάλογον. Ο δὲ τόνος, καὶ τὸ ἡμιτόνιον,",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «Ο»  /  (2) «Ὁ»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — A bare capital Ο. Pixel map of the area above it and to its left shows no breathing mark. | B: 1 (high) — A round capital Ο with no breathing on it or before it. Clean paper around the letter."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 29.5",
+   "claude": "καὶ διέσεως ἧττον ὂν, προσωνυμίας οὐκ ἔτυ-",
+   "gpt": "καὶ διέσεως ἦττον ὂν, προσηγορίας οὐκ ἔτυ-",
+   "adopted": "καὶ διέσεως ἧττον ὂν, προσωνυμίας οὐκ ἔτυ",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «ἧττον»  /  (2) «ἦττον»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — There is a circumflex bar on top. Below it the breathing has its stem on the left and opens to the right, so it is rough. Compare the smooth+circumflex of αὖθις at 28.4, where the bulge is on the right. | B: 1 (high) — Under the circumflex over η is a c-shaped breathing open to the right (rough). Compare the ↄ form of the smooth breathing."
+    },
+    {
+     "difference": "(1) «προσωνυμίας»  /  (2) «προσηγορίας»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — The letters clearly read π-ρ-ο-σ-ω-ν-υ-μ-ί-α-ς. There is no η-γ-ο-ρ sequence. | B: 1 (high) — Clearly πρ-ο-σ-ω-ν-υ-μ-ί-α-ς: ω, then ν, υ, μ, with an acute on ι. No η, γ or ρ."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 29.15",
+   "claude": "σιεπιμερὴς· τοῦ διὰ πασῶν καὶ διὰ πέντε,",
+   "gpt": "σιεπιμοιρὴς· τοῦ διὰ πασῶν καὶ διὰ πέντε,",
+   "adopted": "σιεπιμερὴς· τοῦ διὰ πασῶν καὶ διὰ πέντε,",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «σιεπιμερὴς·»  /  (2) «σιεπιμοιρὴς·»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — After μ is the two-letter ερ ligature: an ε-loop joined to ρ by a peaked arch, with ρ's descender. It is identical to the sort in ἐμπεριέχων (30.25). There is no separate ο or ι. | B: 1 (high) — After μ is the ερ ligature: a small bowl with a long arch running into ρ and its descender. No separate ο or ι. The same sort appears in ἐμπεριέχων (30.25) and ὑμεραῖος (33.12)."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 29.18",
+   "claude": "ἡμῖν ἀριθμὸς. πρὸς ὃν πάντως ἐπίτριτος",
+   "gpt": "ἡμῖν ἀριθμός. πρὸς ὃν πάντως ἐπίτριτος",
+   "adopted": "ἡμῖν ἀριθμὸς. πρὸς ὃν πάντως ἐπίτριτος",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «ἀριθμός.»  /  (2) «ἀριθμὸς.»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (medium) — The accent on the final ο is a thin stroke that drifts slightly to the right as it goes down, exactly like the grave in πρὸς right after it. The acute in πάντως on the same line drifts left and is wedge-thick. So ἀριθμὸς. | B: 2 (medium) — The accent over the last ο of ἀριθμος is nearly vertical and leans like a grave: top at x 256, foot at x 257. The acutes on the same line (πάντως, ἐπίτριτος) clearly lean the other way."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 29.19",
+   "claude": "ὁ ὄγδοος, ἡμιόλιος ὁ ἔννατος, διπλάσιος ὁ δω-",
+   "gpt": "ὁ ὄγδοος, ἡμιόλιος ὁ ἔννατος, διπλάσιος ὁ δω",
+   "adopted": "ὁ ὄγδοος, ἡμιόλιος ὁ ἔννατος, διπλάσιος ὁ δω",
+   "right": "gpt",
+   "differences": [
+    {
+     "difference": "(1) «δω»  /  (2) «δω-»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — The line ends with ω, followed by blank paper. No hyphen. | B: 1 (high) — The line ends with ω (last ink at about x 786). Blank paper after it, no hyphen."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 29.20",
+   "claude": "δέκατος, διπλασιεπιμερὴς ὁ ἑξκαιδέκα-",
+   "gpt": "δέκατος, διπλασιεπιμοιρὴς ὁ ἑξκαιδέκα-",
+   "adopted": "δέκατος, διπλασιεπιμερὴς ὁ ἑξκαιδέκα-",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «διπλασιεπιμερὴς»  /  (2) «διπλασιεπιμοιρὴς»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — The same ερ ligature (loop plus ρ under an arch), then ὴς with a grave. No οι. | B: 1 (high) — The same ερ ligature after μ: a bowl with an arch into ρ. No ι, so not μοιρ."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 29.21",
+   "claude": "τος, τὸ ἕκτον δὶς ἔχων, καὶ δύο μέρη αὐτοῦ,",
+   "gpt": "τος, τὸ ἕκτον δὶς ἔχων, καὶ δύο μόρη αὐτοῦ,",
+   "adopted": "τος, τὸ ἕκτον δὶς ἔχων, καὶ δύο μέρη αὐτοῦ,",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «μέρη»  /  (2) «μόρη»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — μ, then the ερ ligature with an acute over the arch, then η. The loop is the ε of the ligature, not a free-standing ο. | B: 1 (high) — μ, then the ερ ligature (bowl and arch into ρ with descender), an acute over it, then η. The same shape as in -επιμερὴς on 29.15 and 29.20."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 29.23",
+   "claude": "σιος ὁ εἰκοστὸς τέταρτος. Εἰδέναι μέντοι",
+   "gpt": "σιος ὁ εἰκοσὸς τέταρτος. Εἰδέναι μέντοι",
+   "adopted": "σιος ὁ εἰκοστὸς τέταρτος. Εἰδέναι μέντοι",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «εἰκοστὸς»  /  (2) «εἰκοσὸς»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — After κο there is an s-shaped sort with a flat top bar: the στ ligature. It matches the στ in ἑκάστῳ at 33.12 and differs from the curled, descending final ς of the same word. So εἰκοστὸς. | B: 1 (high) — Between ο and ὸς is an s-shaped glyph: the στ ligature, identical at enlargement to the one in ἑκάστῳ (33.12). Plain medial σ in this print is the round σ with a top bar."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 29.24",
+   "claude": "χρὴ, ὡς οὐ πρὸς τὸν ἀριθμὸν τῶν φθόγγων οὐ",
+   "gpt": "χρὴ, ὡς οὐ πρὸς τὸν ἀριθμὸν τῶν φθόγγων ἢ",
+   "adopted": "χρὴ, ὡς οὐ πρὸς τὸν ἀριθμὸν τῶν φθόγγων οὒ",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «ἢ»  /  (2) «οὐ»",
+     "pick": "2",
+     "by": "editor",
+     "reason": "A: 1 (high) — The last sort has a smooth breathing plus a grave above it. The letter is H-shaped: two stems with a crossbar in the middle, the same as ἢ at 28.22. It is not the closed 8-shaped ου ligature seen in ὡς οὐ earlier in the same line. | B: 2 (high) — The last glyph is the ου ligature (ȣ: two small upper lobes over a bowl), as in the οὐ after ὡς on the same line. It carries an ↄ-shaped smooth breathing and a grave. It is not the н-shaped η of this print."
+    },
+    {
+     "difference": "φθόγγων οὐ -> φθόγγων οὒ",
+     "pick": "φθόγγων οὒ",
+     "right": "other",
+     "by": "assistant (from both checkers notes)",
+     "reason": "over the ου-ligature both checkers saw a smooth breathing and a grave; the editor chose the word (οὐ, not ἢ), the diacritics are as printed"
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 30.5",
+   "claude": "σότητος, ἣν ἔχει πρὸς τὸν πρὸ αὐτοῦ συγ-",
+   "gpt": "σότητος, ὧν ἔχει πρὸς τοὺς πρὸ αὐτοῦ συγ-",
+   "adopted": "σότητος, ἣν ἔχει πρὸς τὸν πρὸ αὐτοῦ συγ-",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «ἣν»  /  (2) «ὧν»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — The sort is the ην ligature: a tall stem followed by a w-like ν, the same form as τὴν at 30.1. Above it are a c-shaped rough breathing and a separate straight vertical stroke (grave). There is no circumflex and no ω+ν. | B: 1 (high) — The ην ligature: a tall upright joined to an ω-shape, the same sort as τὴν on 30.1 and 30.4. Above it a c-shaped rough breathing and a grave; no circumflex."
+    },
+    {
+     "difference": "(1) «τὸν»  /  (2) «τοὺς»",
+     "pick": "1",
+     "by": "editor",
+     "reason": "A: 1 (medium) — The word is one compact ligature sort, 51 px wide: an open loop (cursive τ) plus ο, then a ν-like open curve with a hooked upright, and a grave above. No sigma follows; there is a 13 px gap before πρὸ. With no ς, it cannot be τοὺς. I read it as a τὸν ligature, which agrees with the singular ἣν. | B: 2 (medium) — One ligature sort: a c-shaped τ stem with a top bar joined to ο, then a cup-shaped υ with a hooked right arm and a grave over it, plus a small extra mark over the ο. There is no μ-shaped final ν, which τὸν has on 30.7 to 30.10 (τὸμ). The shape fits τοὺς better than τὸν, but I could not identify the ligature with certainty."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 30.10",
+   "claude": "ρὴς· πρὸς δὲ τὸν τέταρτον, ἐπιτέταρτος,",
+   "gpt": "ρής· πρὸς δὲ τὸν τέταρτον, ἐπιτέταρτος,",
+   "adopted": "ρὴς· πρὸς δὲ τὸν τέταρτον, ἐπιτέταρτος,",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «ρής·»  /  (2) «ρὴς·»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — The accent over η runs from upper left to lower right: the pixel centroid moves from x≈8 to x≈11 going down. That is a grave. | B: 2 (high) — The accent over η runs from top left to bottom right (x 668 to 671): a grave. A raised dot follows ς."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 30.11",
+   "claude": "ἐπ’ οὐδενὶ δὲ δείκνηται ἡμιόλιος. πρὸς",
+   "gpt": "ἐπ’ οὐδενὶ δὲ δείκνυται ἡμιόλιος. πρὸς",
+   "adopted": "ἐπ’ οὐδενὶ δὲ δείκνηται ἡμιόλιος. πρὸς",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «δείκνυται»  /  (2) «δείκνηται»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — After κν the letter is H-shaped: left stem, right stem, diagonal crossbar. That is η, the same sort as the η of ἡμιόλιος on the same line. It is not the u-shaped υ. The print has the misprint δείκνηται. | B: 2 (high) — After κν the letter is the н-shaped η (two uprights joined by a bar), identical to the η of ἡμιόλιος on the same line. It is not the cup-shaped υ. A misprint, faithfully transcribed by reading 2."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 30.23",
+   "claude": "καὶ ἀνέσεως. τῶν δὲ διαστημάτων, τὸ μέν",
+   "gpt": "καὶ ἀνέσεως. τῶν δὲ διαστημάτων, τὸ μὲν",
+   "adopted": "καὶ ἀνέσεως. τῶν δὲ διαστημάτων, τὸ μέν",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «μέν»  /  (2) «μὲν»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — The accent over ε goes from upper right to lower left (centroid x≈30.6 at the top, x≈27 at the bottom). That is an acute, printed as such although a grave is expected. | B: 1 (high) — The accent over the εν ligature of μεν slants from top right to bottom left (x 1341 to 1337): an acute."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 30.25",
+   "claude": "ἁπάσας ἐμπεριέχων δυνάμεις· τὸ δὲ πεν-",
+   "gpt": "ἁπάσας ἐμπεριέχον δυνάμεις· τὸ δὲ πεν-",
+   "adopted": "ἁπάσας ἐμπεριέχων δυνάμεις· τὸ δὲ πεν-",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «ἐμπεριέχον»  /  (2) «ἐμπεριέχων»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — After χ there is a clear double-bowled ω (w-shape), then final ν. It is not ο. | B: 2 (high) — After χ comes ω followed by the μ-shaped final ν with a descender. No ο."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 31.3",
+   "claude": "τοῦ διὰ πασῶν περιέχον ἰσχὺν. τὸ δὲ κατὰ",
+   "gpt": "τοῦ διὰ πασῶν περιέχον ἰσχύν. τὸ δὲ κατὰ",
+   "adopted": "τοῦ διὰ πασῶν περιέχον ἰσχὺν. τὸ δὲ κατὰ",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «ἰσχὺν.»  /  (2) «ἰσχύν.»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — The accent over υ drifts to the right as it descends (x≈24 at the top, x≈27 at the bottom). That is a grave. Compare the acute of τάς at 31.7, which drifts left. | B: 1 (high) — The accent over υ of ἰσχυν runs from top left to bottom right (x 593.5 to 596): a grave. A period follows."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 31.7",
+   "claude": "τάς τε γὰρ τὰς προειρημένας, καὶ τὰς τοῦ",
+   "gpt": "τὰς τε γὰρ τὰς προειρημένας, καὶ τὰς τοῦ",
+   "adopted": "τάς τε γὰρ τὰς προειρημένας, καὶ τὰς τοῦ",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «τὰς»  /  (2) «τάς»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — The accent on the first τας is wedge-shaped, thick at the top, and runs from upper right to lower left (centroid x≈14 to x≈10.6). That is an acute. The grave on the following γὰρ slants the other way. | B: 2 (high) — The accent on the first τας slants from top right to bottom left (x 129 to 125): an acute. The γὰρ on the same line has a grave leaning the opposite way."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 31.15",
+   "claude": "ναρμολογεῖν πρὸς τὸ τοῖόνδε τῆς μελῳδίας",
+   "gpt": "ναρμολογεῖν πρὸς τὸ τοῖονδε τῆς μελῳδίας",
+   "adopted": "ναρμολογεῖν πρὸς τὸ τοῖόνδε τῆς μελῳδίας",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «τοῖονδε»  /  (2) «τοῖόνδε»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — A circumflex over οι and, immediately to its right, a separate acute over the second ο. Both accents are printed. | B: 2 (high) — Two separate marks: a circumflex over ι (x 473–488) and, to its right, an acute over the following ο (x 492–497, top right, foot left)."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 31.22",
+   "claude": "τὸ χρωματικόν· εἰ δὲ διέσεσι μαλλον",
+   "gpt": "τὸ χρωματικόν· εἰ δὲ διέσεσι μᾶλλον",
+   "adopted": "τὸ χρωματικόν· εἰ δὲ διέσεσι μαλλον",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «μᾶλλον»  /  (2) «μαλλον»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — There is no accent of any kind above μαλλον; the paper above α is clean. | B: 2 (high) — Nothing is above the α of μαλλον. The rows above the letters are clean paper."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 31.23",
+   "claude": "* ἢ ἁρμονία συνέχεται, τὸ ἁρμόνικον λε-",
+   "gpt": "* ἢ ἁρμονία συνέχεται, τὸ ἁρμονικὸν λε-",
+   "adopted": "* ἢ ἁρμονία συνέχεται, τὸ ἁρμόνικον λε-",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «ἁρμονικὸν»  /  (2) «ἁρμόνικον»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — An acute stands over the ο after μ. The final ο before ν has no accent. So ἁρμόνικον. | B: 2 (high) — An acute stands over the first ο (after μ). There is no accent over the final ον."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 31.24",
+   "claude": "γόμενον ἀπαρτίζεται μέλος. οὐ μὴν τὸ",
+   "gpt": "γόμενον ἀπερτίζεται μέλος. οὐ μὴν τὸ",
+   "adopted": "γόμενον ἀπαρτίζεται μέλος. οὐ μὴν τὸ",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «ἀπαρτίζεται»  /  (2) «ἀπερτίζεται»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — After π there is an α-ρ sequence (α joined to ρ). There is no arched ερ ligature with an ε-loop. | B: 1 (high) — After π is an open α joined to ρ with a descender: αρ. It is not the ερ ligature (a bowl with an arch over the top) seen in ἐμπεριέχων."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 32.2",
+   "claude": "πᾶν ἐκ διέσεων, οὐδὲ γὰρ δυνατὸν. Αλλ’",
+   "gpt": "πᾶν ἐκ διέσεων, οὐδὲ γὰρ δυνατόν. Ἀλλ’",
+   "adopted": "πᾶν ἐκ διέσεων, οὐδὲ γὰρ δυνατὸν. Αλλ’",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «δυνατόν.»  /  (2) «δυνατὸν.»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (medium) — The accent over the final ο is a thin stroke that descends slightly to the right (x≈11 to x≈13), so it is grave-like. The slant is slight. | B: 2 (medium) — The accent over the ο of δυνατον is near-vertical, top at x 1223 and foot at x 1224, leaning like a grave. It lacks the clear down-left slant of this print's acutes."
+    },
+    {
+     "difference": "(1) «Ἀλλ’»  /  (2) «Αλλ’»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — A plain capital Α. There is clean paper between the period and Α and above Α; no breathing is printed. | B: 2 (high) — Capital Α with no breathing before or above it: the area to its left and top is clean. The only mark is the apostrophe after λλ."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 32.5",
+   "claude": "ληπται, δύο τονιαίων διαστημάτων ἐκτιθε-",
+   "gpt": "ληπται, δύο τονιαίων διαστημάτων ἐκτιθε",
+   "adopted": "ληπται, δύο τονιαίων διαστημάτων ἐκτιθε",
+   "right": "gpt",
+   "differences": [
+    {
+     "difference": "(1) «ἐκτιθε-»  /  (2) «ἐκτιθε»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — The line ends with θε, then blank paper up to the frame rule. No hyphen. | B: 2 (high) — The line ends with the θε ligature (about x 1330). There is no ink between it and the column rule at about x 1360, so no hyphen."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 32.18",
+   "claude": "τὸ διατεσσάρων τοῦτο γένος, ἁρμονικὸν ὀνο-",
+   "gpt": "τὸ διὰ τεσσάρων τοῦτο γένος, ἁρμονικὸν ὀνο-",
+   "adopted": "τὸ διατεσσάρων τοῦτο γένος, ἁρμονικὸν ὀνο-",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «διατεσσάρων»  /  (2) «διὰ τεσσάρων»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — The δια ligature (δ with a tall ι stroke and α) is followed by τ after a gap of only 3 px, against 8 px or more for word spaces. There is no grave over α. Printed solid and unaccented: διατεσσάρων. | B: 1 (high) — The δια ligature is set solid with τεσσάρων: about a 4 px gap, the same as letter spacing. There is no accent on its α, unlike the spaced and accented διὰ τεσσάρων elsewhere on this page."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 33.12",
+   "claude": "ὧν ἐφ’ ἑκάστῳ παιήων, ὑμεραῖος, ἐξόδιος,",
+   "gpt": "ὧν ἐφ’ ἑκάστῳ παιῶν, ὑμέναιος, ἐξόδιος,",
+   "adopted": "ὧν ἐφ’ ἑκάστῳ παιήων, ὑμεραῖος, ἐξόδιος,",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «παιῶν,»  /  (2) «παιήων,»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — The letters are ϖ-α-ι, then an H-shaped η with an acute, then ω and final ν: παιήων. | B: 2 (high) — π, α, ι, then η with an acute, then ω and the μ-shaped final ν: παιήων."
+    },
+    {
+     "difference": "(1) «ὑμέναιος,»  /  (2) «ὑμεραῖος,»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — After ὑμ (rough breathing on υ) comes the arched ερ ligature with ρ's descender, the same sort as in ἐμπεριέχων. Then αῖ with a circumflex and the ος ligature. No ν and no accent on ε: the print reads ὑμεραῖος, a misprint for ὑμέναιος. | B: 2 (high) — ὑ μ, then the ερ ligature (a bowl with an arch into ρ and its descender), then αι with a circumflex, then the ος ligature. No ν and no acute on ε. A misprint for ὑμέναιος."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 33.15",
+   "claude": "καὶ ταῖς σχολαιοτέραις καὶ ταχιναῖς μετα-",
+   "gpt": "καὶ ταῖς σχολαιοτέραις καὶ ταχιναῖς μετα-",
+   "adopted": "καὶ ταῖς χολαιοτέραις καὶ ταχιναῖς μετα-",
+   "right": "collator",
+   "differences": [
+    {
+     "difference": "(1) «σχολαιοτέραις»  /  (2) «χολαιοτέραις»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — ταῖς ends in a final ς, then a space, then the word begins directly with χ. No σ is printed before χ. | B: 2 (high) — ταῖς ends in a final ς; then a normal 9 px word space; the next word begins directly with χ. There is no second σ."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 33.18",
+   "claude": "ρίσεσι, τὰ μύρια τῶν μελῳδιῶν, καὶ",
+   "gpt": "ρίσεσι, τὰ μυρία τῶν μελῳδιῶν, καὶ",
+   "adopted": "ρίσεσι, τὰ μύρια τῶν μελῳδιῶν, καὶ",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «μυρία»  /  (2) «μύρια»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — The acute stands over υ, the second letter. ι has no accent. | B: 2 (high) — The acute stands over υ (x 364–368). The ρι that follows is the ρι ligature without an accent; the ι carries none."
+    }
+   ]
+  },
+  {
+   "ref": "Bas. 33.21",
+   "claude": "Τέλος τῆς Μουσικῆς:",
+   "gpt": "Τέλος τῆς Μουσικῆς.",
+   "adopted": "Τέλος τῆς Μουσικῆς:",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «Μουσικῆς:»  /  (2) «Μουσικῆς.»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — After ς there are two dots one above the other: a small upper dot (rows 1345-1349) and a larger lower dot (rows 1351-1359). That is a colon, not the single diamond period used elsewhere on the page. | B: 1 (medium) — After ς there are two dots, one above the other: a larger one on the baseline and a smaller one at mid x-height directly above it. A colon, not a single period."
+    }
+   ]
+  }
+ ],
+ "marginal_notes_confirmed": [
+  {
+   "ref": "Bas. 31.23 margin",
+   "confirmed": true,
+   "seen": "A: 1 (high) — In the right margin, level with 31.23, there is a printed asterisk followed by η. Above the η is a comma-shaped breathing, thick below with its thin tail rising to the upper right: a rough breathing. No accent can be told apart. | B: 1 (high) — In the right margin opposite line 23: a small slanted asterisk, then an н-shaped η with one breathing mark above it."
+  },
+  {
+   "ref": "Bas. 32.23 margin",
+   "confirmed": true,
+   "seen": "A: 2 (high) — In the left margin, level with 32.23 («νὸς * τὸ τετραχόρδου»), there is a printed asterisk followed by τοῦ with a circumflex over the υ part. | B: 2 (high) — In the left margin opposite the line: a slanted asterisk, then τ, ο and υ with a circumflex (τοῦ)."
+  }
+ ],
+ "notes_claude": [
+  {
+   "page": 23,
+   "line": 1,
+   "what": "heading",
+   "printed": "ΤΗΣ ΜΟΥΣΙΚΗΣ / ΗΚΡΙΒΩΜΕΝΗ ΣΥΝΟΨΙΣ.",
+   "reading": "ΤΗΣ ΜΟΥΣΙΚΗΣ ΗΚΡΙΒΩΜΕΝΗ ΣΥΝΟΨΙΣ.",
+   "comment": "Two-line heading in capitals. On p. 23 the heading counts as lines 1-2 and the 9 text lines are lines 3-11. Above the heading on p. 23 is the end of the arithmetic, closing with the italic subscription «Τῶν περὶ Ἀριθμητικὴν εἴληφε τέλος ἡ σύνοψις.»; it is not transcribed."
+  },
+  {
+   "page": 23,
+   "line": 3,
+   "what": "initial letter",
+   "printed": "[woodcut M]Ουσικὴν",
+   "reading": "Μουσικὴν",
+   "comment": "Decorated woodcut initial M, four text lines high; lines 3-6 are set beside it. The letter after the woodcut is a capital-like Ο."
+  },
+  {
+   "page": 23,
+   "line": 10,
+   "what": "hyphen not printed",
+   "printed": "αἰσθή",
+   "reading": "αἰσθή-",
+   "comment": "The word is broken at line end (αἰσθή|σει) without a printed hyphen; '-' was added under the transcription rule."
+  },
+  {
+   "page": 23,
+   "line": 11,
+   "what": "page foot",
+   "printed": "β 4 … ἡ δὲ",
+   "reading": "",
+   "comment": "Signature β 4 and catchword «ἡ δὲ» at the foot of p. 23 (not part of the text)."
+  },
+  {
+   "page": 24,
+   "line": 1,
+   "what": "capital without breathing",
+   "printed": "Η δὲ",
+   "reading": "Η δὲ",
+   "comment": "Bold capital Η printed without a breathing (the catchword on p. 23 has ἡ). The line is not indented, so it is not marked as a new paragraph."
+  },
+  {
+   "page": 24,
+   "line": 1,
+   "what": "abbreviation expanded / accent",
+   "printed": "ἐστι (ligature)",
+   "reading": "ἐστι",
+   "comment": "The ἐστι ligature shows only the breathing and no visible accent; the same in 24.20 (ἐστιν) and 24.24. In 24.15 the ligature has a grave (ἐστὶ,)."
+  },
+  {
+   "page": 24,
+   "line": 5,
+   "what": "accent (resolved)",
+   "printed": "ὀνομάζει",
+   "reading": "ὀνομάζει",
+   "comment": "The acute is printed as the tall stroke joined to α (the ά-sort, as in τετρά 26.24 and ἀδιά 24.19); ὀνομάζει is confirmed."
+  },
+  {
+   "page": 24,
+   "line": 6,
+   "what": "word division",
+   "printed": "εὖτε",
+   "reading": "εὖ τε",
+   "comment": "Printed as one word."
+  },
+  {
+   "page": 24,
+   "line": 7,
+   "what": "misprint",
+   "printed": "ἔχων",
+   "reading": "ἔχον",
+   "comment": "Printed ἔχων. The subject is τὸ πᾶν, so ἔχον is expected. Compare the reverse error, ἔχον for ἔχων, in 25.22."
+  },
+  {
+   "page": 24,
+   "line": 7,
+   "what": "hyphen not printed",
+   "printed": "μου",
+   "reading": "μου-",
+   "comment": "The word is broken at line end without a printed hyphen; '-' was added under the chunk convention (checked at 4-6x)."
+  },
+  {
+   "page": 24,
+   "line": 15,
+   "what": "hyphen not printed",
+   "printed": "ἐναρμό",
+   "reading": "ἐναρμό-",
+   "comment": "The word is broken at line end without a printed hyphen; '-' was added under the chunk convention (checked at 4-6x)."
+  },
+  {
+   "page": 24,
+   "line": 18,
+   "what": "misprint",
+   "printed": "περωχὴ.",
+   "reading": "περιοχή",
+   "comment": "Printed π + ερ-ligature + ωχὴ: ι is omitted and ω is printed for ο (περωχή for περιοχή). The grave before the full stop is as printed."
+  },
+  {
+   "page": 24,
+   "line": 18,
+   "what": "capital without breathing",
+   "printed": "Αρμονία",
+   "reading": "Ἁρμονία",
+   "comment": "The capitals Α (24.18) and Ο (24.19, «Ο μὲν οὖν») are printed without a breathing; kept as printed."
+  },
+  {
+   "page": 24,
+   "line": 19,
+   "what": "hyphen not printed",
+   "printed": "ἀδιά",
+   "reading": "ἀδιά-",
+   "comment": "The word is broken at line end without a printed hyphen; '-' was added under the chunk convention (checked at 4-6x)."
+  },
+  {
+   "page": 24,
+   "line": 20,
+   "what": "accent as printed",
+   "printed": "στιγμὴ.",
+   "reading": "στιγμή.",
+   "comment": "The grave before the full stop is as printed."
+  },
+  {
+   "page": 24,
+   "line": 22,
+   "what": "hyphen not printed",
+   "printed": "ἐναρμο",
+   "reading": "ἐναρμο-",
+   "comment": "The word is broken (ἐναρμο|σθῆναι) without a printed hyphen."
+  },
+  {
+   "page": 24,
+   "line": 23,
+   "what": "misprint",
+   "printed": "εἰ δ’ μὴ",
+   "reading": "εἰ δὲ μὴ",
+   "comment": "An elided δ’ is printed before a consonant; the elision mark is clear."
+  },
+  {
+   "page": 24,
+   "line": 23,
+   "what": "accent as printed",
+   "printed": "ἀπηχής",
+   "reading": "ἀπηχής",
+   "comment": "Printed with an acute, not a grave, before the enclitic ἐστι at the start of 24.24."
+  },
+  {
+   "page": 24,
+   "line": 25,
+   "what": "page foot",
+   "printed": "φωνη-",
+   "reading": "",
+   "comment": "Catchword «φωνη-» (for φωνημένος on p. 25)."
+  },
+  {
+   "page": 24,
+   "line": 25,
+   "what": "hyphen not printed",
+   "printed": "ἐκπε",
+   "reading": "ἐκπε-",
+   "comment": "The word is broken at line end without a printed hyphen; '-' was added under the chunk convention (checked at 4-6x)."
+  },
+  {
+   "page": 25,
+   "line": 2,
+   "what": "letterform",
+   "printed": "Γροσηγορίαι",
+   "reading": "Προσηγορίαι",
+   "comment": "The capital Π in this fount has a very short right leg and looks like Γ; the same in 25.4 Προσλαμ-."
+  },
+  {
+   "page": 25,
+   "line": 2,
+   "what": "iota subscript / reading",
+   "printed": "τῷ",
+   "reading": "τῷ",
+   "comment": "ω with a circumflex and the subscript dot (iota subscript), with no final ν. Dative, with προόδῳ καὶ τάξει (25.3)."
+  },
+  {
+   "page": 25,
+   "line": 4,
+   "what": "misprint",
+   "printed": "λαμβανόντος",
+   "reading": "λαμβανόντων",
+   "comment": "The print has -όντος, with a clear ος ending. Since 25.2 ends with τῷ (dative, with προόδῳ καὶ τάξει) and not τῶν, nothing in the sentence agrees with this genitive singular; λαμβανόντων (sc. φθόγγων) is the likely intended form."
+  },
+  {
+   "page": 25,
+   "line": 6,
+   "what": "misprint / variant",
+   "printed": "ὑπάτη διάτονος",
+   "reading": "ὑπάτων διάτονος",
+   "comment": "The standard name of the 4th note is ὑπάτων διάτονος; the print has ὑπάτη."
+  },
+  {
+   "page": 25,
+   "line": 7,
+   "what": "marginal note",
+   "printed": "* (in text before μέση); margin: «* διάτονος μέσων ad-do.»",
+   "reading": "διάτονος μέσων",
+   "comment": "Xylander's marginal supplement adds διάτονος μέσων before μέση. The asterisk is kept in the text line. «μέση μόνως» is as printed."
+  },
+  {
+   "page": 25,
+   "line": 8,
+   "what": "misprint / abbreviation",
+   "printed": "διαζευγμέ- (δια- compendium)",
+   "reading": "διεζευγμένη",
+   "comment": "Printed with the δια compendium; elsewhere the form is διεζευγμένη. No line-end hyphen is visible, as the margin note adjoins."
+  },
+  {
+   "page": 25,
+   "line": 9,
+   "what": "misprint",
+   "printed": "διεζευτμένη",
+   "reading": "διεζευγμένη",
+   "comment": "τ is printed for γ: a top bar and a short stem, with no descender. Compare γ in the same word in 25.8."
+  },
+  {
+   "page": 25,
+   "line": 10,
+   "what": "speck",
+   "printed": "νήτη · ὑπερβολαίων",
+   "reading": "νήτη ὑπερβολαίων",
+   "comment": "There is a faint dot at mid-height between νήτη and ὑπερβολαίων. It is much smaller than the printed points, so it is taken as a speck and not transcribed."
+  },
+  {
+   "page": 25,
+   "line": 12,
+   "what": "accent as printed",
+   "printed": "περάτος",
+   "reading": "πέρατος",
+   "comment": "The acute is printed over α, not ε."
+  },
+  {
+   "page": 25,
+   "line": 16,
+   "what": "letterform (resolved)",
+   "printed": "ὄγδοος (δ + ο, ος-ligature)",
+   "reading": "ὄγδοος",
+   "comment": "Resolved: the sort between δ and the ος-ligature is the same δ+ο as in ὄγδοον (25.22, 25.24). The reading is certain."
+  },
+  {
+   "page": 25,
+   "line": 17,
+   "what": "breathing/accent as printed",
+   "printed": "ἃλλα (λλ-compendium with rough breathing and grave)",
+   "reading": "ἄλλα",
+   "comment": "The compendium (a Λ-shaped λλ sort, α implied) carries a c-shaped rough breathing and a grave. The grave was identified by the measured slant of the stroke, compared with the grave on τὰ and the acute on ἔχει in the same line. Printed ἃλλα for ἄλλα."
+  },
+  {
+   "page": 25,
+   "line": 19,
+   "what": "hyphen not printed",
+   "printed": "δίε",
+   "reading": "δίε-",
+   "comment": "The word is broken at line end without a printed hyphen; '-' was added under the chunk convention (checked at 4-6x)."
+  },
+  {
+   "page": 25,
+   "line": 20,
+   "what": "accent as printed",
+   "printed": "διπλὴν",
+   "reading": "διπλῆν",
+   "comment": "A grave is printed instead of a circumflex."
+  },
+  {
+   "page": 25,
+   "line": 20,
+   "what": "abbreviation expanded",
+   "printed": "Ϭ-shaped ligature",
+   "reading": "τὸ",
+   "comment": "τὸ ligature (also used elsewhere)."
+  },
+  {
+   "page": 25,
+   "line": 21,
+   "what": "hyphen not printed",
+   "printed": "δι",
+   "reading": "δι-",
+   "comment": "The word is broken at line end without a printed hyphen; '-' was added under the chunk convention (checked at 4-6x)."
+  },
+  {
+   "page": 25,
+   "line": 22,
+   "what": "misprint",
+   "printed": "ἔχον",
+   "reading": "ἔχων",
+   "comment": "The subject is ὁ τόνος, so ἔχων is expected; the print has ἔχον."
+  },
+  {
+   "page": 25,
+   "line": 24,
+   "what": "marginal note",
+   "printed": "* (before ὀκτὼ); margin: «* τοῦ ἐννέα πρὸς addo.»",
+   "reading": "οἷον τοῦ ἐννέα πρὸς ὀκτὼ ἥμισυ",
+   "comment": "Xylander's supplement, in the margin."
+  },
+  {
+   "page": 25,
+   "line": 25,
+   "what": "marginal note",
+   "printed": "† (before ὀκτωτέταρτον); margin: «† iterū eadem uerba addo.»",
+   "reading": "ὅσον τοῦ ἐννέα πρὸς ὀκτὼ τέταρτον",
+   "comment": "Xylander adds the same words (τοῦ ἐννέα πρὸς) here as well. ὀκτωτέταρτον is printed as one word (= ὀκτὼ τέταρτον)."
+  },
+  {
+   "page": 25,
+   "line": 25,
+   "what": "page foot",
+   "printed": "β 5 … εἰ γὰρ",
+   "reading": "",
+   "comment": "Signature β 5 and catchword «εἰ γὰρ»."
+  },
+  {
+   "page": 26,
+   "line": 1,
+   "what": "abbreviation expanded / uncertain letterform",
+   "printed": "compendium after κατὰ (c-shaped letter + loop + ου-ligature, with small superscript marks)",
+   "reading": "τοὺς",
+   "comment": "Not τὸν: there is no final-ν form, and the word ends in the ου-ligature. Read τοὺς, which agrees with ἀριθ-|μοὺς (26.1-2). The exact composition of the sort is unclear; see still_uncertain."
+  },
+  {
+   "page": 26,
+   "line": 2,
+   "what": "abbreviation expanded",
+   "printed": "(ἀριθ-)μȣ̀ς,",
+   "reading": "ἀριθμοὺς",
+   "comment": "Printed μ + ου-ligature (ȣ) with a grave + ς, the same sort as λοιποὺς on p. 30.14. Not a misprint: with τοὺς in 26.1 the phrase is κατὰ τοὺς ἀριθμούς (Xylander: 'ratione numeri')."
+  },
+  {
+   "page": 26,
+   "line": 4,
+   "what": "reading confirmed",
+   "printed": "νευρὰν (ευ-ligature + final-ν stroke)",
+   "reading": "νευρὰν",
+   "comment": "Read as νευρὰν, 'string'; the letterforms match πλευρὰν in 26.23, and Xylander's Latin has 'chordam' (p. 41)."
+  },
+  {
+   "page": 26,
+   "line": 4,
+   "what": "abbreviation expanded",
+   "printed": "ὑπ-ligature + οτεμεῖν (26.4 and 26.6)",
+   "reading": "ὑποτεμεῖν",
+   "comment": "In 26.4 and 26.6 the word begins with the ὑπ-ligature (a hooked stroke + ϖ, with a rough breathing), the same sort as ὑπάτη/ὑπάτων in 25.5-6. It is not the ἀπ-compendium of ἀπὸ (25.3, 26.7), which begins with α. Read ὑποτεμεῖν."
+  },
+  {
+   "page": 26,
+   "line": 5,
+   "what": "accent as printed",
+   "printed": "ἔστιν",
+   "reading": "ἐστιν",
+   "comment": "Breathing and acute on ε."
+  },
+  {
+   "page": 26,
+   "line": 14,
+   "what": "diagram (margin)",
+   "printed": "dot figure",
+   "reading": "",
+   "comment": "In the left margin beside lines 13-16: a square of 4 × 4 = 16 dots, divided by a horizontal rule after the second row (16 = 8 + 8). It shows that 16 cannot be split into two equal squares."
+  },
+  {
+   "page": 26,
+   "line": 16,
+   "what": "misprint",
+   "printed": "ἑξκαιδέκατον",
+   "reading": "ἑκκαιδέκατον",
+   "comment": "Printed with ξ and a rough breathing."
+  },
+  {
+   "page": 26,
+   "line": 18,
+   "what": "diagram (margin)",
+   "printed": "dot figure",
+   "reading": "",
+   "comment": "In the left margin beside lines 17-24: a rectangle of 4 columns × 8 rows = 32 dots, with a rule after the fourth row (32 = 16 + 16). It shows that 32, the double of 16, is not a square."
+  },
+  {
+   "page": 26,
+   "line": 24,
+   "what": "hyphen not printed",
+   "printed": "τετρά",
+   "reading": "τετρά-",
+   "comment": "The word is broken (τετρά|γωνον) without a printed hyphen."
+  },
+  {
+   "page": 26,
+   "line": 25,
+   "what": "page foot",
+   "printed": "τραγώνου",
+   "reading": "",
+   "comment": "Catchword «τραγώνου» (completing τε-|τραγώνου on p. 27)."
+  },
+  {
+   "page": 27,
+   "line": 1,
+   "what": "layout",
+   "printed": "τραγώνου",
+   "reading": "τραγώνου",
+   "comment": "Page begins mid-word: end of «τε-/τραγώνου» hyphenated at the foot of p. 26 (previous chunk); join when merging. Running head «Σύνταγμα.» with page number 27 at the right."
+  },
+  {
+   "page": 27,
+   "line": 1,
+   "what": "hyphen not printed",
+   "printed": "δο",
+   "reading": "δο-",
+   "comment": "The word is broken at the line end without a printed hyphen; '-' added under the transcription rule, as in chunk G1."
+  },
+  {
+   "page": 27,
+   "line": 2,
+   "what": "uncertain",
+   "printed": "πλευρὰν,",
+   "reading": "πλευρὰν,",
+   "comment": "Ending printed as the ὰν-ligature with a grave before the comma; transcribed as printed (normal πλευράν). Also μετειληφὼς read with grave."
+  },
+  {
+   "page": 27,
+   "line": 3,
+   "what": "uncertain",
+   "printed": "ταύτη τοι",
+   "reading": "ταύτῃ τοι",
+   "comment": "No iota subscript visible under η and almost no space between the two words; transcribed as printed «ταύτη τοι»."
+  },
+  {
+   "page": 27,
+   "line": 5,
+   "what": "hyphen not printed",
+   "printed": "ἕτε",
+   "reading": "ἕτε-",
+   "comment": "The word is broken at the line end without a printed hyphen; '-' added under the transcription rule, as in chunk G1."
+  },
+  {
+   "page": 27,
+   "line": 9,
+   "what": "misprint",
+   "printed": "Ασύνθε-",
+   "reading": "Ἀσύνθε-",
+   "comment": "No breathing visible on the capital A; transcribed without breathing. Preceded by extra space: run-in sentence/section break inside the line (this print uses no indentation in these pages)."
+  },
+  {
+   "page": 27,
+   "line": 9,
+   "what": "hyphen not printed",
+   "printed": "Ασύνθε",
+   "reading": "Ασύνθε-",
+   "comment": "The word is broken at the line end without a printed hyphen; '-' added under the transcription rule, as in chunk G1."
+  },
+  {
+   "page": 27,
+   "line": 10,
+   "what": "abbreviation expanded in a debatable way",
+   "printed": "ὡς ἓν (ἐν-ligature with rough breathing and grave)",
+   "reading": "ὡς ἓν",
+   "comment": "ἐν-ligature read as the numeral ἓν (rough breathing + grave), not the preposition ἐν."
+  },
+  {
+   "page": 27,
+   "line": 14,
+   "what": "layout",
+   "printed": "ἀπηχούμενον.   Παρὰ δὲ ταῦτα",
+   "reading": "",
+   "comment": "Extra space before «Παρὰ»: run-in section break inside the line."
+  },
+  {
+   "page": 27,
+   "line": 16,
+   "what": "hyphen not printed",
+   "printed": "ἄμε",
+   "reading": "ἄμε-",
+   "comment": "The word is broken at the line end without a printed hyphen; '-' added under the transcription rule, as in chunk G1."
+  },
+  {
+   "page": 27,
+   "line": 18,
+   "what": "layout",
+   "printed": "ἃ",
+   "reading": "",
+   "comment": "A tiny grey speck (c. 3 px, much smaller than the printed points) follows ἃ at mid-height; not a printed raised dot. No punctuation transcribed."
+  },
+  {
+   "page": 27,
+   "line": 21,
+   "what": "abbreviation expanded in a debatable way",
+   "printed": "τ̃ (τ with tilde) before διὰ μέσου",
+   "reading": "τῶν",
+   "comment": "Compendium read as τῶν (plural, agreeing with φθόγγων)."
+  },
+  {
+   "page": 27,
+   "line": 21,
+   "what": "hyphen not printed",
+   "printed": "κατατεταγ",
+   "reading": "κατατεταγ-",
+   "comment": "The word is broken at the line end without a printed hyphen; '-' added under the transcription rule, as in chunk G1."
+  },
+  {
+   "page": 27,
+   "line": 22,
+   "what": "hyphen not printed",
+   "printed": "ἐδέ",
+   "reading": "ἐδέ-",
+   "comment": "The word is broken at the line end without a printed hyphen; '-' added under the transcription rule, as in chunk G1."
+  },
+  {
+   "page": 27,
+   "line": 23,
+   "what": "hyphen not printed",
+   "printed": "φθόγ",
+   "reading": "φθόγ-",
+   "comment": "The word is broken at the line end without a printed hyphen; '-' added under the transcription rule, as in chunk G1."
+  },
+  {
+   "page": 27,
+   "line": 24,
+   "what": "misprint",
+   "printed": "διοδεύον",
+   "reading": "διοδεῦον",
+   "comment": "Printed with an acute on the ευ-ligature; expected circumflex. Transcribed as printed."
+  },
+  {
+   "page": 27,
+   "line": 24,
+   "what": "hyphen not printed",
+   "printed": "περαινόμε",
+   "reading": "περαινόμε-",
+   "comment": "The word is broken at the line end without a printed hyphen; '-' added under the transcription rule, as in chunk G1."
+  },
+  {
+   "page": 27,
+   "line": 25,
+   "what": "layout",
+   "printed": "τελούμενον· / catchword «καὶ τὸ»",
+   "reading": "",
+   "comment": "Line ends with a raised dot; catchword «καὶ τὸ» below the last line (not counted as a text line)."
+  },
+  {
+   "page": 28,
+   "line": 1,
+   "what": "layout",
+   "printed": "28  Εἰς Μουσικὴν",
+   "reading": "",
+   "comment": "Running head with page number 28 at the left; catchword «καὶ» at the foot."
+  },
+  {
+   "page": 28,
+   "line": 4,
+   "what": "iota subscript",
+   "printed": "κᾀκεῖθεν",
+   "reading": "κἀκεῖθεν",
+   "comment": "Crasis printed with coronis (smooth-breathing shape) over α and an iota-subscript dot under it: κᾀκεῖθεν. Transcribed as printed."
+  },
+  {
+   "page": 28,
+   "line": 7,
+   "what": "hyphen not printed",
+   "printed": "ταῦ",
+   "reading": "ταῦ-",
+   "comment": "The word is broken at the line end without a printed hyphen; '-' added under the transcription rule, as in chunk G1."
+  },
+  {
+   "page": 28,
+   "line": 8,
+   "what": "layout",
+   "printed": "καλοῦνται.   Συμφωνεῖ",
+   "reading": "",
+   "comment": "Extra space before «Συμφωνεῖ»: run-in section break inside the line."
+  },
+  {
+   "page": 28,
+   "line": 11,
+   "what": "marginal note",
+   "printed": "* διαπα- / σῶν καὶ διὰ / τεσσάρων",
+   "reading": "* διὰ πασῶν καὶ διὰ τεσσάρων",
+   "comment": "Left-margin note (beside ll. 11–13) keyed by the asterisk in «ἡ * δὶς διὰ τεσσάρων»: the editor proposes διὰ πασῶν καὶ διὰ τεσσάρων instead of δὶς διὰ τεσσάρων. «διαπα-» printed with a line-break hyphen."
+  },
+  {
+   "page": 28,
+   "line": 11,
+   "what": "layout",
+   "printed": "διὰ ʹ πέντε",
+   "reading": "",
+   "comment": "Besides the accent of the δια-compendium there is a second short vertical stroke between διὰ and πέντε at accent height; it has no textual value (not an accent of πέντε and not the † key). Ignored."
+  },
+  {
+   "page": 28,
+   "line": 12,
+   "what": "marginal note",
+   "printed": "† διὰ πα- / σῶν καὶ διὰ / πέντε.",
+   "reading": "† διὰ πασῶν καὶ διὰ πέντε.",
+   "comment": "Left-margin note (beside ll. 14–16, below the first note) keyed by the dagger in «καὶ ἡ † δὶς διὰ πασῶν»: proposes διὰ πασῶν καὶ διὰ πέντε. By sense it corrects δὶς διὰ πέντε (l. 11), but the dagger is printed before δὶς διὰ πασῶν in l. 12."
+  },
+  {
+   "page": 28,
+   "line": 13,
+   "what": "uncertain",
+   "printed": "τότε",
+   "reading": "τό τε",
+   "comment": "Printed apparently as one word «τότε» with one accent; the sense requires τό τε παράφωνον καὶ ἀντίφωνον. The line begins with a capital (Διαφέρει) after a full stop but is not indented: para_start left false."
+  },
+  {
+   "page": 28,
+   "line": 14,
+   "what": "hyphen not printed",
+   "printed": "ἀνισοχρό",
+   "reading": "ἀνισοχρό-",
+   "comment": "The word is broken at the line end without a printed hyphen; '-' added under the transcription rule, as in chunk G1."
+  },
+  {
+   "page": 28,
+   "line": 15,
+   "what": "misprint",
+   "printed": "ἡπίως",
+   "reading": "ἠπίως",
+   "comment": "Printed with a rough breathing (c-shaped, identical to ἡ in ll. 8–10), a misprint for ἠπίως. Transcribed as printed. (Verifier: the transcriber had read the breathing as smooth.)"
+  },
+  {
+   "page": 28,
+   "line": 16,
+   "what": "hyphen not printed",
+   "printed": "ἀναλο",
+   "reading": "ἀναλο-",
+   "comment": "The word is broken at the line end without a printed hyphen; '-' added under the transcription rule, as in chunk G1."
+  },
+  {
+   "page": 28,
+   "line": 18,
+   "what": "misprint",
+   "printed": "βαρεί (acute over the ει-ligature)",
+   "reading": "βαρεῖ",
+   "comment": "Acute printed instead of circumflex; transcribed as printed «βαρεί»."
+  },
+  {
+   "page": 28,
+   "line": 19,
+   "what": "misprint",
+   "printed": "ταυτὸν",
+   "reading": "ταὐτὸν",
+   "comment": "No coronis visible over υ; transcribed as printed."
+  },
+  {
+   "page": 28,
+   "line": 21,
+   "what": "hyphen not printed",
+   "printed": "πεντεκαι",
+   "reading": "πεντεκαι-",
+   "comment": "The word is broken at the line end without a printed hyphen; '-' added under the transcription rule, as in chunk G1."
+  },
+  {
+   "page": 28,
+   "line": 22,
+   "what": "hyphen not printed",
+   "printed": "συγκα",
+   "reading": "συγκα-",
+   "comment": "The word is broken at the line end without a printed hyphen; '-' added under the transcription rule, as in chunk G1."
+  },
+  {
+   "page": 28,
+   "line": 24,
+   "what": "hyphen not printed",
+   "printed": "κα",
+   "reading": "κα-",
+   "comment": "The word is broken at the line end without a printed hyphen; '-' added under the transcription rule, as in chunk G1."
+  },
+  {
+   "page": 28,
+   "line": 25,
+   "what": "misprint",
+   "printed": "Ο δὲ τόνος",
+   "reading": "Ὁ δὲ τόνος",
+   "comment": "No breathing visible on the capital O; transcribed without breathing. Preceded by extra space: run-in section break inside the line."
+  },
+  {
+   "page": 29,
+   "line": 1,
+   "what": "layout",
+   "printed": "Σύνταγμα.  29",
+   "reading": "",
+   "comment": "Running head; page number 29 at the right. Left margin shows the edge of the facing page (ignored). Catchword «ται,» at the foot."
+  },
+  {
+   "page": 29,
+   "line": 5,
+   "what": "accent as printed",
+   "printed": "ὂν,",
+   "reading": "ὄν,",
+   "comment": "Grave printed before the comma (the compositor regularly sets the grave before commas: πρὸς, ὃ l. 4; χρὴ, l. 24). Transcribed as printed."
+  },
+  {
+   "page": 29,
+   "line": 5,
+   "what": "hyphen not printed",
+   "printed": "ἔτυ",
+   "reading": "ἔτυ-",
+   "comment": "The word is broken at the line end without a printed hyphen; '-' added under the transcription rule, as in chunk G1."
+  },
+  {
+   "page": 29,
+   "line": 8,
+   "what": "marginal note",
+   "printed": "*abundant / omnino, & / delēda sūt.",
+   "reading": "*abundant omnino, et delenda sunt.",
+   "comment": "Right-margin note in Latin (beside ll. 8–10), keyed by the asterisks before δὶς in ll. 8 and 9: the two δὶς are superfluous and to be deleted (read τὸ δὲ διὰ πασῶν καὶ διὰ τεσσάρων / καὶ διὰ πέντε)."
+  },
+  {
+   "page": 29,
+   "line": 11,
+   "what": "layout",
+   "printed": "δώδεκα.   Λόγος δὲ",
+   "reading": "",
+   "comment": "Extra space before «Λόγος»: run-in section break inside the line."
+  },
+  {
+   "page": 29,
+   "line": 15,
+   "what": "accent as printed",
+   "printed": "διπλασιεπιμερὴς· (ερ-ligature)",
+   "reading": "διπλασιεπιμερής·",
+   "comment": "ερ-ligature expanded. The accent on η is printed grave before the raised dot, the same sort as in l. 20 (verifier corrected the transcriber's acute). Transcribed as printed."
+  },
+  {
+   "page": 29,
+   "line": 18,
+   "what": "accent as printed",
+   "printed": "ἀριθμὸς.",
+   "reading": "ἀριθμός.",
+   "comment": "Grave sort before the full stop (slight slant only). Transcribed as printed."
+  },
+  {
+   "page": 29,
+   "line": 19,
+   "what": "uncertain",
+   "printed": "ἔννατος",
+   "reading": "ἔννατος",
+   "comment": "Spelling as printed (ἐν-ligature + νατος), for ἔνατος."
+  },
+  {
+   "page": 29,
+   "line": 19,
+   "what": "hyphen not printed",
+   "printed": "δω",
+   "reading": "δω-",
+   "comment": "The word is broken at the line end without a printed hyphen; '-' added under the transcription rule, as in chunk G1."
+  },
+  {
+   "page": 29,
+   "line": 21,
+   "what": "uncertain",
+   "printed": "τὸ ἕκτον",
+   "reading": "τὸ ἕκτον",
+   "comment": "Accent on τὸ and breathing/accent on ἕκτον faintly printed."
+  },
+  {
+   "page": 29,
+   "line": 23,
+   "what": "layout",
+   "printed": "τέταρτος.   Εἰδέναι",
+   "reading": "",
+   "comment": "Extra space before «Εἰδέναι»: run-in section break inside the line. «εἰκοστὸς» printed with the στ-ligature."
+  },
+  {
+   "page": 29,
+   "line": 24,
+   "what": "uncertain",
+   "printed": "οὐ (ου-ligature with smooth breathing and grave) τῶν χορδῶν",
+   "reading": "οὐ",
+   "comment": "Read as οὐ; the sense would also admit ἢ (φθόγγων ἢ χορδῶν; cf. εἴτ’ οὖν χορδῶν, p. 27), but the glyph is the ου-ligature."
+  },
+  {
+   "page": 30,
+   "line": 1,
+   "what": "layout",
+   "printed": "30  Εἰς Μουσικὴν",
+   "reading": "",
+   "comment": "Running head with page number 30 at the left; catchword «τάχορ-» at the foot (continues πεν-/τάχορδον on p. 31)."
+  },
+  {
+   "page": 30,
+   "line": 2,
+   "what": "uncertain",
+   "printed": "ἐπείτοιγε",
+   "reading": "ἐπείτοιγε",
+   "comment": "Printed as one word."
+  },
+  {
+   "page": 30,
+   "line": 7,
+   "what": "uncertain",
+   "printed": "πενταπλασίων",
+   "reading": "πενταπλασίων",
+   "comment": "As printed (final ν); in the series one might expect πενταπλάσιος, but πενταπλασίων is an attested form."
+  },
+  {
+   "page": 30,
+   "line": 10,
+   "what": "accent as printed",
+   "printed": "ρὴς· (ἐπιδιμε-/ρὴς·)",
+   "reading": "ἐπιδιμερής·",
+   "comment": "Grave printed before the raised dot, as διπλασιεπιμερὴς· p. 29 ll. 15, 20. Transcribed as printed."
+  },
+  {
+   "page": 30,
+   "line": 11,
+   "what": "misprint",
+   "printed": "δείκνηται",
+   "reading": "δείκνυται",
+   "comment": "Glyphs read κ-ν-η (pointed ν followed by η); evidently a misprint for δείκνυται. Transcribed as printed; worth a second look."
+  },
+  {
+   "page": 30,
+   "line": 15,
+   "what": "abbreviation expanded in a debatable way",
+   "printed": "ἐξεύρ + ην-ligature + ται",
+   "reading": "ἐξεύρηνται",
+   "comment": "The ην-ligature (same glyph as in τὴν) expanded; the accent on ευ supports ἐξεύρηνται (perfect), not ἐξευρίσκονται."
+  },
+  {
+   "page": 30,
+   "line": 17,
+   "what": "hyphen not printed",
+   "printed": "παχύτη",
+   "reading": "παχύτη-",
+   "comment": "The word is broken at the line end without a printed hyphen; '-' added under the transcription rule, as in chunk G1."
+  },
+  {
+   "page": 30,
+   "line": 19,
+   "what": "uncertain",
+   "printed": "κολάβων",
+   "reading": "κολλάβων",
+   "comment": "Printed with a single λ; transcribed as printed."
+  },
+  {
+   "page": 30,
+   "line": 23,
+   "what": "abbreviation expanded in a debatable way",
+   "printed": "τὸ μέν / ἐστι (compendium)",
+   "reading": "τὸ μέν ἐστι",
+   "comment": "μέν with acute before the enclitic (regular); ἐστι expanded from the ἐστί-compendium at the start of l. 24, written unaccented as an enclitic."
+  },
+  {
+   "page": 30,
+   "line": 25,
+   "what": "uncertain",
+   "printed": "ἁπάσας",
+   "reading": "ἁπάσας",
+   "comment": "Breathing read as rough."
+  },
+  {
+   "page": 31,
+   "line": 0,
+   "what": "running head / layout",
+   "printed": "Σύνταγμα.   31",
+   "reading": "Σύνταγμα.",
+   "comment": "Running head centred, page number 31 at the outer (right) corner. The page continues the text of p. 30 (first word τάχορδον completes τετρά- of p. 30). 25 text lines; catchword at the foot (see note p. 31 line 25). No paragraph indents on this page."
+  },
+  {
+   "page": 31,
+   "line": 0,
+   "what": "general",
+   "printed": "",
+   "reading": "",
+   "comment": "Ligatures/compendia silently expanded: καί sign, ου (ȣ), στ (ς), ερ (ϐ-like), εν (γ-like), μεν, τῶν, τῆς, ὴν, τοῦ, τῷ, -ος, δὲ, ἐστί, συν, τι, σχ. Iota subscripts (printed as a dot under the vowel) given as ι subscript; raised point → ·. Acute and grave are both near-vertical strokes in this fount, so acute/grave distinctions in final syllables carry some uncertainty."
+  },
+  {
+   "page": 31,
+   "line": 1,
+   "what": "marginal note",
+   "printed": "† διὰ πέν- / τε.",
+   "reading": "† διὰ πέντε.",
+   "comment": "Obelus † in the text before πέντε, keyed to a note in the outer (right) margin printed over two lines (level with lines 1–2): «† διὰ πέν-|τε.» — i.e. read τὰς τοῦ διὰ πέντε δυνάμεις. Text transcribed as printed (τοῦ † πέντε), the † kept in the line."
+  },
+  {
+   "page": 31,
+   "line": 1,
+   "what": "abbreviation expanded",
+   "printed": "ϖ + έν-ligature + τε",
+   "reading": "πέντε",
+   "comment": "πέντε is set with the εν-ligature (looks like γ́ν); same form in line 8 (διὰ πέντε)."
+  },
+  {
+   "page": 31,
+   "line": 2,
+   "what": "marginal note",
+   "printed": "* ὅλην",
+   "reading": "* ὅλην",
+   "comment": "Asterisk in the text before ὕλην keyed to a right-margin note printed level with line 3 (line 2 of the margin is taken by «τε.»): «* ὅλην» — the editor proposes τὴν ὅλην (‘the whole’) for τὴν ὕλην. Text kept as printed."
+  },
+  {
+   "page": 31,
+   "line": 2,
+   "what": "abbreviation expanded in a debatable way",
+   "printed": "λαμβαίνον (apparent)",
+   "reading": "περιλαμβάνον",
+   "comment": "ά+ν is set with a sort in which ν is a straight stroke carrying the acute, so it looks like ‘αίν’; but no separate ν follows (contrast ἀναφαίνεται p. 33 l. 13, where αί is followed by a distinct ν). Read λαμβάνον; same sort p. 33 l. 7 (παραλαμβάνει). Verified side by side with ἀναφαίνεται (p. 33 l. 13): there the αι-sort has a short ι followed by a v-shaped ν; here the stroke after α is the v-shaped ν itself carrying the acute."
+  },
+  {
+   "page": 31,
+   "line": 2,
+   "what": "punctuation",
+   "printed": "λαμβάνον’ τὸ",
+   "reading": "λαμβάνον· τὸ",
+   "comment": "High point after λαμβάνον rendered as ·."
+  },
+  {
+   "page": 31,
+   "line": 3,
+   "what": "accent as printed",
+   "printed": "ἰσχὺν.",
+   "reading": "ἰσχὺν.",
+   "comment": "Grave (not acute) on υ before the full stop, as printed."
+  },
+  {
+   "page": 31,
+   "line": 5,
+   "what": "abbreviation expanded in a debatable way",
+   "printed": "ὁλο + σχ-ligature + ερ-ligature + ῆ",
+   "reading": "ὁλοσχερῆ",
+   "comment": "σχ ligature resembles χ and ερ ligature resembles ϐ/ό, so the word can be misread as ὁλοχορδῆ; reading ὁλοσχερῆ (‘entire’) with συνέχον διάτασιν. Verified: the first sort is the σχ-ligature (χ with a loop at the upper left), identical to σχολαιοτέραις p. 33 l. 15 and distinct from plain χ in συνέχον (same line)."
+  },
+  {
+   "page": 31,
+   "line": 9,
+   "what": "abbreviation expanded",
+   "printed": "ἑαυ + τῷ-ligature",
+   "reading": "ἑαυτῷ",
+   "comment": "τῷ printed as a single ligature (τ joined to ω, dot below = iota subscript). Same τῷ sort p. 31 l. 11 and p. 32 ll. 19, 22, 25 (there as a separate word)."
+  },
+  {
+   "page": 31,
+   "line": 10,
+   "what": "uncertain",
+   "printed": "δια",
+   "reading": "δια-",
+   "comment": "Word divided (δια-|στημάτων) without a visible hyphen; '-' supplied by convention."
+  },
+  {
+   "page": 31,
+   "line": 10,
+   "what": "paragraphing",
+   "printed": "Διαφέρει",
+   "reading": "Διαφέρει",
+   "comment": "New sentence with capital Δ at the start of the line, but no indent and no gap before it: not marked para_start. Capitals also mark sentence starts mid-line: Τῆς δὲ (l. 13), Εἰ μὲν οὖν (l. 18), Αλλ’ (p. 32 l. 2)."
+  },
+  {
+   "page": 31,
+   "line": 11,
+   "what": "abbreviation expanded",
+   "printed": "τῷ-ligature",
+   "reading": "τῷ",
+   "comment": "Articular τῷ (‘in that’), ligature."
+  },
+  {
+   "page": 31,
+   "line": 13,
+   "what": "abbreviation expanded",
+   "printed": "τῆς compendium",
+   "reading": "τῆς",
+   "comment": "Line begins with the compendium sign for τῆς (same sign p. 32 l. 19 ἐκ τῆς κοινῆς, p. 33 l. 2 γένος τῆς)."
+  },
+  {
+   "page": 31,
+   "line": 15,
+   "what": "accent as printed",
+   "printed": "τοῖόνδε",
+   "reading": "τοιόνδε",
+   "comment": "Printed with circumflex on the ι of οι plus acute on the next ο (enclitic accent), i.e. τοῖόνδε; normal τοιόνδε. Verified at high magnification: both accents are clearly printed."
+  },
+  {
+   "page": 31,
+   "line": 16,
+   "what": "abbreviation expanded",
+   "printed": "γέν + ος-compendium",
+   "reading": "γένος",
+   "comment": "-ος written with the looped ος-compendium; also γένος p. 31 l. 21, p. 32 ll. 8, 18, p. 33 l. 2; μέλος p. 31 l. 24; ὑμεραῖος p. 33 l. 12. Not in p. 32 l. 13 (γένος: εν-ligature + ος in letters) nor p. 33 l. 11 (μέλος in letters)."
+  },
+  {
+   "page": 31,
+   "line": 18,
+   "what": "layout",
+   "printed": "προσαγορευόμενον.      Εἰ μὲν οὖν",
+   "reading": "προσαγορευόμενον. Εἰ μὲν οὖν",
+   "comment": "Wide space before Εἰ μὲν οὖν (capital Ε) — possibly a sense break, but mid-line and probably justification spacing; not treated as a paragraph."
+  },
+  {
+   "page": 31,
+   "line": 22,
+   "what": "accent missing",
+   "printed": "μαλλον",
+   "reading": "μᾶλλον",
+   "comment": "No circumflex visible over the α; transcribed unaccented as printed."
+  },
+  {
+   "page": 31,
+   "line": 22,
+   "what": "accent as printed",
+   "printed": "χρωματικόν·",
+   "reading": "χρωματικόν·",
+   "comment": "Acute before the high point (cf. χρωματικὸν, with grave before comma, l. 16). Acute and grave are nearly vertical in this fount; not fully certain."
+  },
+  {
+   "page": 31,
+   "line": 23,
+   "what": "misprint + marginal note",
+   "printed": "* ἢ ἁρμονία",
+   "reading": "ἡ ἁρμονία",
+   "comment": "Text has ἢ (smooth breathing + grave) preceded by an asterisk; right-margin note level with this line: «* ἡ» (small type; mark over η looks like a tall rough breathing, no accent). The margin corrects ἢ to the article: εἰ δὲ διέσεσι μᾶλλον ἡ ἁρμονία συνέχεται. Asterisk kept at the start of the line."
+  },
+  {
+   "page": 31,
+   "line": 23,
+   "what": "misprint",
+   "printed": "ἁρμόνικον",
+   "reading": "ἁρμονικὸν",
+   "comment": "Acute printed on the ο after μ; normal ἁρμονικόν/-ὸν (cf. l. 18, p. 32 l. 18)."
+  },
+  {
+   "page": 31,
+   "line": 25,
+   "what": "catchword",
+   "printed": "ρεται,",
+   "reading": "ρεται,",
+   "comment": "Catchword at the foot, right: «ρεται,» = first word of p. 32 (προφέ-|ρεται). Not counted as a text line. A faint ‘4’-like spot at the foot left is a stain, not a signature."
+  },
+  {
+   "page": 32,
+   "line": 0,
+   "what": "running head",
+   "printed": "32   Εἰς Μουσικὴν",
+   "reading": "Εἰς Μουσικὴν",
+   "comment": "Page number 32 at the outer (left) corner; head with ὴν-ligature. Over ι of Εἰς only a dot-like mark is visible (breathing faint). Reads across the opening with p. 33: «Εἰς Μουσικὴν Σύνταγμα». No paragraph indents on this page."
+  },
+  {
+   "page": 32,
+   "line": 2,
+   "what": "breathing missing",
+   "printed": "Αλλ’",
+   "reading": "Ἀλλ’",
+   "comment": "Capital Α without a visible breathing; transcribed as printed."
+  },
+  {
+   "page": 32,
+   "line": 2,
+   "what": "accent as printed",
+   "printed": "δυνατὸν.",
+   "reading": "δυνατόν.",
+   "comment": "Accent before the full stop looks like a grave; uncertain (near-vertical strokes)."
+  },
+  {
+   "page": 32,
+   "line": 4,
+   "what": "abbreviation expanded",
+   "printed": "δυσὶ + δὲ-compendium",
+   "reading": "δυσὶ δὲ τόνοις",
+   "comment": "δὲ printed with the compendium resembling ȷ with two dots and accent; same in l. 9 (εἰ δὲ δύο)."
+  },
+  {
+   "page": 32,
+   "line": 5,
+   "what": "uncertain",
+   "printed": "ἐκτιθε",
+   "reading": "ἐκτιθε-",
+   "comment": "No hyphen printed at the line end (continues μένων); τι set as a ligature resembling π (cf. l. 25)."
+  },
+  {
+   "page": 32,
+   "line": 10,
+   "what": "accent position",
+   "printed": "συμφθαρ́-",
+   "reading": "συμφθάρ-",
+   "comment": "Acute over the α/ρ junction at line end; taken as συμφθάρ- (cf. l. 17 συμφθάρσεως); l. 11 σεως unaccented."
+  },
+  {
+   "page": 32,
+   "line": 10,
+   "what": "abbreviation expanded",
+   "printed": "εν-ligature with rough breathing + grave",
+   "reading": "ἓν",
+   "comment": "ἓν as a single ligature sort; likewise l. 17."
+  },
+  {
+   "page": 32,
+   "line": 11,
+   "what": "punctuation",
+   "printed": "ἀσύνθετον ἐξ",
+   "reading": "ἀσύνθετον ἐξ",
+   "comment": "No punctuation printed between ἀσύνθετον and ἐξ."
+  },
+  {
+   "page": 32,
+   "line": 12,
+   "what": "uncertain",
+   "printed": "συγκεκρα",
+   "reading": "συγκεκρα-",
+   "comment": "Divided (συγκεκρα-|μένον) without visible hyphen; '-' supplied."
+  },
+  {
+   "page": 32,
+   "line": 13,
+   "what": "abbreviation expanded",
+   "printed": "τοῦτο compendium",
+   "reading": "τοῦτο",
+   "comment": "τοῦτο as compendium; also l. 18, p. 33 l. 6."
+  },
+  {
+   "page": 32,
+   "line": 15,
+   "what": "misprint",
+   "printed": "γοέτερον",
+   "reading": "γοερώτερον",
+   "comment": "Printed γ-ο-έ-τ-(ερ-ligature)-ο-ν = γοέτερον; the comparative should be γοερώτερον (Xylander: ‘ad … luctum ciendum efficacius’). A thin vertical bar (spacing material) between ρου, and καὶ is ignored."
+  },
+  {
+   "page": 32,
+   "line": 18,
+   "what": "accent missing / word division",
+   "printed": "τὸ διατεσσάρων",
+   "reading": "τὸ διὰ τεσσάρων",
+   "comment": "δια-ligature without any accent and set solid with τεσσάρων (elsewhere on the page διὰ τεσσάρων with grave and a space). Transcribed as printed: διατεσσάρων."
+  },
+  {
+   "page": 32,
+   "line": 19,
+   "what": "abbreviation expanded",
+   "printed": "τῷ-ligature + εἶν with superscript αι",
+   "reading": "τῷ εἶναι",
+   "comment": "τῷ εἶναι ἄριστον (Xylander ‘eò quia sit optimum’): τῷ ligature, ending -αι written superscript over εἶν."
+  },
+  {
+   "page": 32,
+   "line": 22,
+   "what": "abbreviation expanded",
+   "printed": "τῷ-ligature",
+   "reading": "τῷ",
+   "comment": "τῷ γὰρ ἑνὸς … ὑποδείγματι (Xylander ‘quia exemplo tetrachordi ostendimus’)."
+  },
+  {
+   "page": 32,
+   "line": 23,
+   "what": "misprint + marginal note",
+   "printed": "* τὸ τετραχόρδου",
+   "reading": "τοῦ τετραχόρδου",
+   "comment": "Asterisk before τὸ; outer (left) margin, level with this line: «* τοῦ» — correction to ἑνὸς τοῦ τετραχόρδου. Text kept as printed with the asterisk."
+  },
+  {
+   "page": 32,
+   "line": 24,
+   "what": "uncertain",
+   "printed": "ὑποδείγμα",
+   "reading": "ὑποδείγμα-",
+   "comment": "Divided (ὑποδείγμα-|τι) without visible hyphen; '-' supplied."
+  },
+  {
+   "page": 32,
+   "line": 25,
+   "what": "abbreviation expanded in a debatable way",
+   "printed": "π-like sign + comma",
+   "reading": "τι,",
+   "comment": "First sign is the τι ligature (looks like π with a hook): ὑποδείγματι, ῥᾴδιον (iota subscript under α)."
+  },
+  {
+   "page": 32,
+   "line": 25,
+   "what": "catchword",
+   "printed": "συστημά-",
+   "reading": "συστημά-",
+   "comment": "Catchword at foot right = first word of p. 33. Not counted as a text line."
+  },
+  {
+   "page": 33,
+   "line": 0,
+   "what": "running head",
+   "printed": "Σύνταγμα.   33",
+   "reading": "Σύνταγμα.",
+   "comment": "Head with συν-ligature (looks like Σιώταγμα); page number 33 at the outer (right) corner."
+  },
+  {
+   "page": 33,
+   "line": 3,
+   "what": "abbreviation expanded",
+   "printed": "ὅτὶ-like compendium",
+   "reading": "ἐστὶ",
+   "comment": "The ἐστί compendium resembles ὅτι (ε with breathing + στ sign + ὶ). Expanded ἐστὶ, keeping the printed grave before the comma."
+  },
+  {
+   "page": 33,
+   "line": 7,
+   "what": "abbreviation expanded in a debatable way",
+   "printed": "λαμβαίνει (apparent)",
+   "reading": "λαμβάνει",
+   "comment": "Same ά+ν sort as p. 31 l. 2 (‘αί’ followed directly by ει, no ν): παραλαμβάνει."
+  },
+  {
+   "page": 33,
+   "line": 11,
+   "what": "abbreviation expanded",
+   "printed": "εν-ligature with smooth breathing + αρμόζεται",
+   "reading": "ἐναρμόζεται",
+   "comment": "The compound is ἐναρμόζεται, not συναρμόζεται: the sort is the εν-ligature (cf. ὅθεν l. 4), not the συν-ligature (cf. συνηθεί- l. 3)."
+  },
+  {
+   "page": 33,
+   "line": 12,
+   "what": "misprint + accent as printed",
+   "printed": "ὑμ + ερ-ligature + αῖ + ος-compendium",
+   "reading": "ὑμεραῖος",
+   "comment": "Printed ὑμεραῖος: the sort after ὑμ is the ερ-ligature (as in γοέτερον p. 32 l. 15, φυσικώτερον p. 33 l. 6), not εν. Misprint for ὑμεναῖος (usual ὑμέναιος); circumflex on αῖ as printed; -ος by compendium. παιήων in full; ὧν with rough breathing + circumflex."
+  },
+  {
+   "page": 33,
+   "line": 15,
+   "what": "abbreviation expanded",
+   "printed": "σχ-ligature + ολαιοτ + ερ-ligature + αις",
+   "reading": "σχολαιοτέραις",
+   "comment": "Initial σχ ligature resembles χ; the ερ ligature carries the acute."
+  },
+  {
+   "page": 33,
+   "line": 18,
+   "what": "layout",
+   "printed": "(indented) ρίσεσι, τὰ μύρια …",
+   "reading": "ρίσεσι, τὰ μύρια …",
+   "comment": "Lines 18–20 are set progressively narrower and centred (tapering end of section): l. 18 slightly indented, l. 19 «ποίκιλα κατασκευά-» and l. 20 «ζεται.» centred. Not paragraph starts."
+  },
+  {
+   "page": 33,
+   "line": 19,
+   "what": "misprint / accent",
+   "printed": "ποίκιλα",
+   "reading": "ποικίλα",
+   "comment": "Acute on οι (ποίκιλα) instead of ποικίλα; transcribed as printed."
+  },
+  {
+   "page": 33,
+   "line": 21,
+   "what": "heading / punctuation",
+   "printed": "Τέλος τῆς Μουσικῆς:",
+   "reading": "Τέλος τῆς Μουσικῆς.",
+   "comment": "Closing line in larger type after a blank space, centred. Final mark looks like a colon (two dots), kept as ':'."
+  },
+  {
+   "page": 33,
+   "line": 21,
+   "what": "signature / catchword",
+   "printed": "γ        Σύνοψις",
+   "reading": "",
+   "comment": "At the foot below the heading: signature «γ» (left) and catchword «Σύνοψις» (right, announcing the next section). Not part of the music section; not transcribed as lines."
+  }
+ ],
+ "notes_gpt": {
+  "misprints_printed": [
+   {
+    "ref": "Bas. 25.2",
+    "printed": "τῷ",
+    "category": "substantive"
+   },
+   {
+    "ref": "Bas. 25.4",
+    "printed": "λαμβάνοντος",
+    "category": "substantive"
+   },
+   {
+    "ref": "Bas. 25.12",
+    "printed": "ἑκκαιδεκαχόρδιον",
+    "category": "substantive"
+   },
+   {
+    "ref": "Bas. 25.22",
+    "printed": "ἔχον",
+    "category": "substantive"
+   },
+   {
+    "ref": "Bas. 27.13",
+    "printed": "διὲ",
+    "category": "substantive"
+   },
+   {
+    "ref": "Bas. 28.14–15",
+    "printed": "ἀνισχρόνως",
+    "category": "orthographic"
+   },
+   {
+    "ref": "Bas. 28.15",
+    "printed": "πρῶτον",
+    "category": "substantive"
+   },
+   {
+    "ref": "Bas. 29.21",
+    "printed": "μόρη",
+    "category": "substantive"
+   },
+   {
+    "ref": "Bas. 29.23",
+    "printed": "εἰκοσὸς",
+    "category": "orthographic"
+   },
+   {
+    "ref": "Bas. 30.5",
+    "printed": "ὧν",
+    "category": "substantive"
+   },
+   {
+    "ref": "Bas. 31.2",
+    "printed": "ὕλην",
+    "category": "substantive"
+   },
+   {
+    "ref": "Bas. 31.23",
+    "printed": "ἢ",
+    "category": "substantive"
+   },
+   {
+    "ref": "Bas. 31.24",
+    "printed": "ἀπερτίζεται",
+    "category": "substantive"
+   },
+   {
+    "ref": "Bas. 32.23",
+    "printed": "τὸ",
+    "category": "substantive"
+   }
+  ],
+  "marginalia": [
+   {
+    "ref": "Bas. 25.7",
+    "sign": "*",
+    "text": "διάτονος\nμέσων ad-\ndo.",
+    "refers_to": "Bas. 25.7 — Before μέση; supplementation of the missing meson diatonos."
+   },
+   {
+    "ref": "Bas. 25.24",
+    "sign": "*",
+    "text": "τοῦ ἐννέα\nπρὸς addo.",
+    "refers_to": "Bas. 25.24 — Before ὀκτὼ in the semitone illustration."
+   },
+   {
+    "ref": "Bas. 25.25",
+    "sign": "†",
+    "text": "iterum ea-\ndem verba\naddo.",
+    "refers_to": "Bas. 25.25 — Before ὀκτὼ in the diesis illustration; repeat τοῦ ἐννέα πρὸς. Latin suspension iterũ expanded as iterum."
+   },
+   {
+    "ref": "Bas. 28.11",
+    "sign": "*",
+    "text": "διαπα-\nσῶν καὶ διὰ\nτεσσάρων",
+    "refers_to": "Bas. 28.11 — Corrects δὶς διὰ τεσσάρων to διὰ πασῶν καὶ διὰ τεσσάρων."
+   },
+   {
+    "ref": "Bas. 28.12",
+    "sign": "†",
+    "text": "διὰ πα-\nσῶν καὶ διὰ\nπέντε.",
+    "refers_to": "Bas. 28.12 — The printed dagger stands before δὶς διὰ πασῶν on line12. The proposed label belongs to the preceding δὶς διὰ πέντε on line11; the placement is displaced or ambiguous. In the constituted text the correction is applied to that preceding label, preserving the final double octave."
+   },
+   {
+    "ref": "Bas. 29.8–9",
+    "sign": "* (twice)",
+    "text": "abundant\nomnino, &\ndelenda sunt.",
+    "refers_to": "Bas. 29.8–9 — Both δὶς in διὰ πασῶν καὶ δὶς διὰ ... are declared superfluous and to be deleted. Latin suspension sūt expanded as sunt."
+   },
+   {
+    "ref": "Bas. 31.1",
+    "sign": "†",
+    "text": "διὰ πέν-\nτε.",
+    "refers_to": "Bas. 31.1 — Replace πέντε with διὰ πέντε."
+   },
+   {
+    "ref": "Bas. 31.2",
+    "sign": "*",
+    "text": "ὅλην",
+    "refers_to": "Bas. 31.2 — Corrects ὕλην."
+   },
+   {
+    "ref": "Bas. 31.23",
+    "sign": "*",
+    "text": "ἡ",
+    "refers_to": "Bas. 31.23 — Corrects the main-text ἢ before ἁρμονία; the difference is a small accent/breathing."
+   },
+   {
+    "ref": "Bas. 32.23",
+    "sign": "*",
+    "text": "τοῦ",
+    "refers_to": "Bas. 32.23 — Corrects τὸ before τετραχόρδου."
+   }
+  ],
+  "expansions": [
+   {
+    "ref": "Bas. 23.8;24.13",
+    "printed": "Curved composite type for τῆς, often resembling αὐτῆς",
+    "expanded": "τῆς",
+    "certainty": "high"
+   },
+   {
+    "ref": "Bas. 24.14",
+    "printed": "Joined ἐπι- type, initially liable to be read ὑπο-",
+    "expanded": "ἐπιτόμῳ",
+    "certainty": "high"
+   },
+   {
+    "ref": "Bas. 24.15;24.24",
+    "printed": "Small εστ ligature, without independent future ending",
+    "expanded": "ἐστὶ",
+    "certainty": "high"
+   },
+   {
+    "ref": "Bas. 25.3;25.20;29.16",
+    "printed": "ἐπὶ composite type, distinct from a literal ὑπὸ",
+    "expanded": "ἐπὶ",
+    "certainty": "high"
+   },
+   {
+    "ref": "Bas. 25.3",
+    "printed": "Compressed προόδῳ, including δ/ῳ joining",
+    "expanded": "προόδῳ",
+    "certainty": "high"
+   },
+   {
+    "ref": "Bas. 25.12",
+    "printed": "-χόρδιον; narrow separate iota after delta",
+    "expanded": "ἑκκαιδεκαχόρδιον",
+    "certainty": "high"
+   },
+   {
+    "ref": "Bas. 26.1–2",
+    "printed": "τοὺς and ου in ἀριθμούς",
+    "expanded": "τοὺς ἀριθμούς",
+    "certainty": "high"
+   },
+   {
+    "ref": "Bas. 26.10",
+    "printed": "νθεν composite ending",
+    "expanded": "ἔνθεν",
+    "certainty": "high"
+   },
+   {
+    "ref": "Bas. 26.12;26.22;32.13;32.18;33.6",
+    "printed": "Swash τοῦτο, initially resembling ἴσως",
+    "expanded": "τοῦτο",
+    "certainty": "high"
+   },
+   {
+    "ref": "Bas. 26.18;26.21",
+    "printed": "-ισθ- join after τετραγων-",
+    "expanded": "τετραγωνισθῆναι",
+    "certainty": "high"
+   },
+   {
+    "ref": "Bas. 27.5",
+    "printed": "-σει and separate abbreviated δὲ",
+    "expanded": "παραυξήσει δὲ",
+    "certainty": "high"
+   },
+   {
+    "ref": "Bas. 27.18–19",
+    "printed": "Final -ται and following τῷ ligature",
+    "expanded": "ὁδεύονται, ἃ τῷ",
+    "certainty": "medium"
+   },
+   {
+    "ref": "Bas. 27.22",
+    "printed": "τοιάσδε compressed medial letters",
+    "expanded": "τοιάσδε",
+    "certainty": "medium"
+   },
+   {
+    "ref": "Bas. 28.15",
+    "printed": "Joined ending of the word after ἠπίως",
+    "expanded": "πρῶτον",
+    "certainty": "high"
+   },
+   {
+    "ref": "Bas. 28.22",
+    "printed": "Compressed γδ and final ῳ",
+    "expanded": "ὀγδόῳ",
+    "certainty": "high"
+   },
+   {
+    "ref": "Bas. 30.5",
+    "printed": "Relative pronoun omega/eta distinction",
+    "expanded": "ὧν",
+    "certainty": "medium"
+   },
+   {
+    "ref": "Bas. 30.15",
+    "printed": "ευρην composite group",
+    "expanded": "ἐξεύρηνται",
+    "certainty": "medium"
+   },
+   {
+    "ref": "Bas. 32.19",
+    "printed": "Superscript ending after εἶν-",
+    "expanded": "εἶναι",
+    "certainty": "high"
+   },
+   {
+    "ref": "Bas. 33.12",
+    "printed": "μεναι and -ος ligatures",
+    "expanded": "ὑμέναιος",
+    "certainty": "high"
+   }
+  ],
+  "diagrams": [
+   {
+    "ref": "Bas. 26",
+    "position": "beside lines 13–16, left margin",
+    "description": "Sixteen unlabelled dots in four rows of four. A horizontal rule separates rows2 and3, leaving8 dots above and8 below; no numeral letters or Arabic numerals are printed."
+   },
+   {
+    "ref": "Bas. 26",
+    "position": "beside lines 17–23, left margin",
+    "description": "Thirty-two unlabelled dots in eight rows of four. A horizontal rule separates the upper4 rows (16 dots) from the lower4 rows (16 dots). The bottom row remains on this image; no numeral labels. Both diagrams illustrate the arithmetic square discussion, not additional counted text lines."
+   }
+  ]
+ },
+ "footnotes": [
+  {
+   "ref": "Bas. 23.6",
+   "lemma": "ἔστιν",
+   "ru": "«ἔστιν» — так в транскрипции Claude; в транскрипции GPT-6 «ἐστίν». На скане над ε тонкое придыхание и острое ударение, над ι лигатуры στι ничего нет. Решили оба проверяющих.",
+   "en": "«ἔστιν», as in Claude's transcription; GPT-6's transcription has «ἐστίν». The scan shows a smooth breathing and an acute over the ε, and nothing over the ι of the στι ligature. Decided by both checkers."
+  },
+  {
+   "ref": "Bas. 23.7",
+   "lemma": "οὐδέ",
+   "ru": "«οὐδέ» — так в транскрипции Claude; в транскрипции GPT-6 «οὐδὲ». Ударение над конечным ε — короткий вертикальный клиновидный штрих: один проверяющий читает его как острое (по форме оно как острые на этой странице, а не как наклонённые вправо тяжёлые), другой счёл, что по изображению острое и тяжёлое здесь не различить. Решил редактор.",
+   "en": "«οὐδέ», as in Claude's transcription; GPT-6's transcription has «οὐδὲ». The accent over the final ε is a short vertical wedge: one checker reads it as an acute (shaped like the acutes on this page, not like its right-leaning graves), the other found that the image does not separate acute from grave here. Decided by the editor."
+  },
+  {
+   "ref": "Bas. 24.1",
+   "lemma": "Η | ἐστὶ",
+   "ru": "«Η» — так в транскрипции Claude; в транскрипции GPT-6 «Ἡ»: у прописной Η придыхания нет. «ἐστὶ» — так в транскрипции GPT-6; в транскрипции Claude «ἐστι»: над ι лигатуры ἐστι стоит тяжёлое ударение, сросшееся с верхней дугой лигатуры (у той же лигатуры в 24.24 его нет). В обоих местах решили оба проверяющих.",
+   "en": "«Η», as in Claude's transcription; GPT-6's has «Ἡ»: the capital Η has no breathing. «ἐστὶ», as in GPT-6's transcription; Claude's has «ἐστι»: a grave stands over the ι of the ἐστι ligature, run into the ligature's arch (the same ligature in 24.24 has none). Both points decided by both checkers."
+  },
+  {
+   "ref": "Bas. 24.5",
+   "lemma": "ὀνομάσοι",
+   "ru": "«ὀνομάσοι» — так в транскрипции GPT-6; в транскрипции Claude «ὀνομάζει». На скане после α с ударением стоит лигатура σο (как в τοσούτου, 24.7), затем ι и запятая; ни ζ, ни ε нет. Решили оба проверяющих.",
+   "en": "«ὀνομάσοι», as in GPT-6's transcription; Claude's has «ὀνομάζει». The scan shows, after the accented α, the σο ligature (as in τοσούτου, 24.7), then ι and a comma, with no ζ and no ε. Decided by both checkers."
+  },
+  {
+   "ref": "Bas. 24.6",
+   "lemma": "εὖτε",
+   "ru": "«εὖτε» — так в транскрипции Claude; в транскрипции GPT-6 «εὖ τε». Промежуток между υ и τ на скане обычный межбуквенный (2–4 px против 9–12 px между словами), пробела нет. Решили оба проверяющих.",
+   "en": "«εὖτε», as in Claude's transcription; GPT-6's has «εὖ τε». On the scan the gap between υ and τ is an ordinary letter gap (2-4 px against 9-12 px between words), so no word space is set. Decided by both checkers."
+  },
+  {
+   "ref": "Bas. 24.7",
+   "lemma": "ἔχων | τοσούτου",
+   "ru": "«ἔχων» — так в транскрипции Claude; в транскрипции GPT-6 «ἔχον»: на скане ясная ω с двумя петлями. «τοσούτου» — так в транскрипции Claude; в транскрипции GPT-6 «τοσοῦτον»: над υ острое ударение, слово кончается лигатурой ου (ȣ), конечного ν нет. В обоих местах решили оба проверяющих.",
+   "en": "«ἔχων», as in Claude's transcription; GPT-6's has «ἔχον»: the scan shows a clear double-bowled ω. «τοσούτου», as in Claude's transcription; GPT-6's has «τοσοῦτον»: there is an acute over the υ, and the word ends in the ου ligature (ȣ) with no final ν. Both points decided by both checkers."
+  },
+  {
+   "ref": "Bas. 24.18",
+   "lemma": "περωχὴ | Αρμονία",
+   "ru": "«περωχὴ» — так напечатано и так в транскрипции Claude; в транскрипции GPT-6 «περιοχή»: на скане π, лигатура ερ, ω, χ и η с тяжёлым ударением, без ι и ο. «Αρμονία» — так в транскрипции Claude; в транскрипции GPT-6 «Ἁρμονία»: у прописной Α придыхания нет. В обоих местах решили оба проверяющих.",
+   "en": "«περωχὴ», as printed and as in Claude's transcription; GPT-6's has «περιοχή»: the scan shows π, the ερ ligature, ω, χ and η with a grave, with no ι or ο. «Αρμονία», as in Claude's transcription; GPT-6's has «Ἁρμονία»: the capital Α has no breathing. Both points decided by both checkers."
+  },
+  {
+   "ref": "Bas. 24.19",
+   "lemma": "Ο",
+   "ru": "«Ο» — так в транскрипции Claude; в транскрипции GPT-6 «Ὁ»; у прописной Ο на скане придыхания нет, решили оба проверяющих.",
+   "en": "«Ο», as in Claude's transcription; GPT-6's has «Ὁ»; the capital Ο has no breathing on the scan, as both checkers decided."
+  },
+  {
+   "ref": "Bas. 24.22",
+   "lemma": "ἐναρμο",
+   "ru": "«ἐναρμο» без знака переноса, как в транскрипции GPT-6 (у Claude «ἐναρμο-»): оба проверяющих видят после ο чистое поле, хотя в соседних строках дефис напечатан.",
+   "en": "«ἐναρμο» without a hyphen, as in GPT-6's transcription (Claude «ἐναρμο-»): both checkers see blank margin after the ο, while neighbouring lines do print the hyphen."
+  },
+  {
+   "ref": "Bas. 24.23",
+   "lemma": "δὲ | ἀπηχής",
+   "ru": "«δὲ» — так в транскрипции GPT-6; в транскрипции Claude «δ’»: на скане δ с прямым штрихом тяжёлого ударения справа вверху, а не с крючкообразным апострофом, как в δ’ (24.3, 24.24), т. е. сокращение δὲ, раскрытое в тексте. «ἀπηχής» — так в транскрипции Claude; в транскрипции GPT-6 «ἀπηχὴς»: ударение над η наклонено справа сверху влево вниз, т. е. острое. В обоих местах решили оба проверяющих.",
+   "en": "«δὲ», as in GPT-6's transcription; Claude's has «δ’»: the scan shows δ with a straight grave stroke at its upper right, not the hook-shaped apostrophe of δ’ (24.3, 24.24), i.e. the abbreviation for δὲ, expanded in the text. «ἀπηχής», as in Claude's transcription; GPT-6's has «ἀπηχὴς»: the accent over the η slants from top right to bottom left, an acute. Both points decided by both checkers."
+  },
+  {
+   "ref": "Bas. 24.24",
+   "lemma": "ἐστι",
+   "ru": "«ἐστι» — так в транскрипции Claude; в транскрипции GPT-6 «ἐστὶ». Над ι лигатуры ἐστι на скане ничего нет (ср. 24.1 и 24.15, где тяжёлое ударение есть). Решили оба проверяющих.",
+   "en": "«ἐστι», as in Claude's transcription; GPT-6's has «ἐστὶ». Nothing stands over the ι of the ἐστι ligature on the scan (contrast 24.1 and 24.15, where a grave is present). Decided by both checkers."
+  },
+  {
+   "ref": "Bas. 24.25",
+   "lemma": "ἐκπε",
+   "ru": "«ἐκπε» без знака переноса, как в транскрипции GPT-6 (у Claude «ἐκπε-»): оба проверяющих видят после ε чистую бумагу до края.",
+   "en": "«ἐκπε» without a hyphen, as in GPT-6's transcription (Claude «ἐκπε-»): both checkers see blank paper after the ε up to the edge."
+  },
+  {
+   "ref": "Bas. 25.4",
+   "lemma": "λαμβάνοντος",
+   "ru": "«λαμβάνοντος» — так в транскрипции GPT-6; в транскрипции Claude «λαμβανόντος». Единственное острое ударение стоит над стыком α и первого ν: один проверяющий счёл его положение нерешающим (с небольшим перевесом в пользу ά), другой читает ά, поставленное так же, как в τυγχάνουσα (24.3). Решил редактор.",
+   "en": "«λαμβάνοντος», as in GPT-6's transcription; Claude's has «λαμβανόντος». The single acute stands over the junction of α and the first ν: one checker found its position not decisive (leaning slightly towards ά), the other reads ά, placed as in τυγχάνουσα (24.3). Decided by the editor."
+  },
+  {
+   "ref": "Bas. 25.7",
+   "lemma": "μόνως",
+   "ru": "«μόνως» — так в транскрипции Claude; в транскрипции GPT-6 «μόνος»; на скане ясная ω с двумя петлями, решили оба проверяющих.",
+   "en": "«μόνως», as in Claude's transcription; GPT-6's has «μόνος»; the scan shows a clear double-bowled ω, as both checkers decided."
+  },
+  {
+   "ref": "Bas. 25.8",
+   "lemma": "διαζευγμέ",
+   "ru": "«διαζευγμέ-» — так в транскрипции Claude; в транскрипции GPT-6 «διεζευγμέ-». Слово начинается лигатурой δια с ясно выписанной α, отдельного ε нет (в отличие от διεζευγμένη в этой же строке и в 25.9). Решили оба проверяющих. Дефиса в конце строки в печати нет, и по общему правилу он не ставится.",
+   "en": "«διαζευγμέ-», as in Claude's transcription; GPT-6's has «διεζευγμέ-». The word begins with the δια ligature with a clearly formed α and no separate ε (unlike διεζευγμένη earlier in the line and in 25.9). Decided by both checkers. No hyphen is printed at the line end, and by the general rule none is added."
+  },
+  {
+   "ref": "Bas. 25.9",
+   "lemma": "διεζευγμένη",
+   "ru": "«διεζευγμένη» — так в транскрипции GPT-6; в транскрипции Claude «διεζευτμένη». Буква перед μ имеет форму Γ (стержень слева, перекладина только вправо): это гамма той же формы, что в φθόγ (27.23), а не τ, у которого стержень под серединой перекладины. Решили оба проверяющих.",
+   "en": "«διεζευγμένη», as in GPT-6's transcription; Claude's has «διεζευτμένη». The letter before μ is Γ-shaped (stem at the left, bar running only to the right): the same gamma as in φθόγ (27.23), not τ, whose stem stands under the middle of the bar. Decided by both checkers."
+  },
+  {
+   "ref": "Bas. 25.12",
+   "lemma": "ἑκκαιδεκάχορδον | περάτος",
+   "ru": "«ἑκκαιδεκάχορδον» — так в транскрипции Claude; в транскрипции GPT-6 «ἑκκαιδεκαχόρδιον»: острое ударение над α после κ, над ο после χ ничего нет, после ρ простое δ без ι. «περάτος» — так напечатано и так в транскрипции Claude; в транскрипции GPT-6 «πέρατος»: над лигатурой ερ ничего нет, острое ударение стоит между ρ и α, ближе к α. В обоих местах решили оба проверяющих.",
+   "en": "«ἑκκαιδεκάχορδον», as in Claude's transcription; GPT-6's has «ἑκκαιδεκαχόρδιον»: the acute stands over the α after κ, nothing over the ο after χ, and after ρ comes a plain δ with no ι. «περάτος», as printed and as in Claude's transcription; GPT-6's has «πέρατος»: nothing stands over the ερ ligature, and the acute stands between ρ and α, nearer the α. Both points decided by both checkers."
+  },
+  {
+   "ref": "Bas. 25.17",
+   "lemma": "μὲν",
+   "ru": "«μὲν» — так в транскрипции GPT-6; в транскрипции Claude «ἃλλα». На скане сокращение: унциальная Μ с надстрочным ε и тяжёлым ударением, а не лигатура λλ, и α нет; сокращение раскрыто. Решили оба проверяющих.",
+   "en": "«μὲν», as in GPT-6's transcription; Claude's has «ἃλλα». The scan shows an abbreviation, an uncial Μ with a superscript ε and a grave, not the λλ ligature, and no α; the abbreviation is expanded. Decided by both checkers."
+  },
+  {
+   "ref": "Bas. 25.20",
+   "lemma": "διπλὴν",
+   "ru": "«διπλὴν» — так в транскрипции Claude; в транскрипции GPT-6 «διπλῆν». Над лигатурой ην один тонкий прямой штрих, наклонённый слева сверху вправо вниз (тяжёлое ударение), а не волнистое облечённое. Решили оба проверяющих.",
+   "en": "«διπλὴν», as in Claude's transcription; GPT-6's has «διπλῆν». Over the ην ligature there is a single thin straight stroke slanting from top left to bottom right (a grave), not a wavy circumflex. Decided by both checkers."
+  },
+  {
+   "ref": "Bas. 25.25",
+   "lemma": "ὀκτωτέταρτον",
+   "ru": "«ὀκτωτέταρτον» — так в транскрипции Claude; в транскрипции GPT-6 «ὀκτὼ τέταρτον». На скане ὀκτω и τέταρτον набраны слитно (промежуток около 3 px), над ω ударения нет. Решили оба проверяющих.",
+   "en": "«ὀκτωτέταρτον», as in Claude's transcription; GPT-6's has «ὀκτὼ τέταρτον». On the scan ὀκτω and τέταρτον are set solid (a gap of about 3 px), and the ω has no accent. Decided by both checkers."
+  },
+  {
+   "ref": "Bas. 26.2",
+   "lemma": "μοὺς",
+   "ru": "«μοὺς» — так в транскрипции Claude; в транскрипции GPT-6 «μούς». Ударение над лигатурой ου наклонено слева сверху вправо вниз, т. е. тяжёлое, хотя, по замечанию одного проверяющего, наклон невелик. Решили оба проверяющих.",
+   "en": "«μοὺς», as in Claude's transcription; GPT-6's has «μούς». The accent over the ου ligature slants from top left to bottom right, a grave, though one checker notes that the slant is small. Decided by both checkers."
+  },
+  {
+   "ref": "Bas. 26.5",
+   "lemma": "ἔστιν",
+   "ru": "«ἔστιν» — так в транскрипции Claude; в транскрипции GPT-6 «ἐστὶν». Над ε тонкое придыхание и острое ударение, над ι лигатуры στι ничего нет. Решили оба проверяющих.",
+   "en": "«ἔστιν», as in Claude's transcription; GPT-6's has «ἐστὶν». A smooth breathing and an acute stand over the ε, and nothing over the ι of the στι ligature. Decided by both checkers."
+  },
+  {
+   "ref": "Bas. 26.8",
+   "lemma": "τῆς",
+   "ru": "«τῆς» — так в транскрипции GPT-6; в транскрипции Claude «τοῦ». Строка начинается знаком сокращения в виде петлистого δ с высоким штрихом, тождественным знаку для τῆς в 23.9, 24.13 и 25.21, тогда как τοῦ здесь набирается как τ с лигатурой ου; сокращение раскрыто. Решили оба проверяющих.",
+   "en": "«τῆς», as in GPT-6's transcription; Claude's has «τοῦ». The line opens with an abbreviation sign shaped like a looped δ with a tall stroke, identical to the sign for τῆς in 23.9, 24.13 and 25.21, whereas τοῦ is set here as τ with the ου ligature; the abbreviation is expanded. Decided by both checkers."
+  },
+  {
+   "ref": "Bas. 26.16",
+   "lemma": "ἑξκαιδέκατον",
+   "ru": "«ἑξκαιδέκατον» — так в транскрипции Claude; в транскрипции GPT-6 «ἑκκαιδέκατον». После ἑ на скане ясная ξ, затем лигатура και; второго κ нет. Решили оба проверяющих.",
+   "en": "«ἑξκαιδέκατον», as in Claude's transcription; GPT-6's has «ἑκκαιδέκατον». After ἑ the scan shows a clear ξ, then the και ligature, with no second κ. Decided by both checkers."
+  },
+  {
+   "ref": "Bas. 27.2",
+   "lemma": "μετειληφὼς",
+   "ru": "«μετειληφὼς» — так в транскрипции Claude; в транскрипции GPT-6 «μεταληφὼς». После μετ стоит лигатура ει с высокой ι, а не α (нет петли α с хвостом). Решили оба проверяющих.",
+   "en": "«μετειληφὼς», as in Claude's transcription; GPT-6's has «μεταληφὼς». After μετ stands the ει ligature with a tall ι, not an α (there is no α bowl with a tail). Decided by both checkers."
+  },
+  {
+   "ref": "Bas. 27.3",
+   "lemma": "ταύτη",
+   "ru": "«ταύτη» — так в транскрипции Claude; в транскрипции GPT-6 «ταύτῃ»; под η на скане чистая бумага, подписной йоты нет (ср. ὕλῃ в 26.2), решили оба проверяющих.",
+   "en": "«ταύτη», as in Claude's transcription; GPT-6's has «ταύτῃ»; the paper below the η is clean, with no iota subscript (compare ὕλῃ in 26.2), as both checkers decided."
+  },
+  {
+   "ref": "Bas. 27.7",
+   "lemma": "διτόνιόν",
+   "ru": "«διτόνιόν» — так в транскрипции Claude; в транскрипции GPT-6 «διτόνιον»; на скане два ясных острых ударения, над первым и над последним ο, решили оба проверяющих.",
+   "en": "«διτόνιόν», as in Claude's transcription; GPT-6's has «διτόνιον»; the scan shows two clear acutes, over the first and over the last ο, as both checkers decided."
+  },
+  {
+   "ref": "Bas. 27.9",
+   "lemma": "Ασύνθε",
+   "ru": "«Ασύνθε-» — так в транскрипции Claude; в транскрипции GPT-6 «Ἀσύνθε-»; у прописной Α на скане придыхания нет, решили оба проверяющих. Дефиса в конце строки в печати нет, и по общему правилу он не ставится.",
+   "en": "«Ασύνθε-», as in Claude's transcription; GPT-6's has «Ἀσύνθε-»; the capital Α has no breathing on the scan, as both checkers decided. No hyphen is printed at the line end, and by the general rule none is added."
+  },
+  {
+   "ref": "Bas. 27.13",
+   "lemma": "δὲ",
+   "ru": "«δὲ» — так в транскрипции Claude; в транскрипции GPT-6 «διὲ». На скане простое δ одной плавной дугой (как в ὁδεύοντα, 27.18), без узла или выступа лигатуры δι (ср. δι’ в той же строке), затем ε с тяжёлым ударением. Решили оба проверяющих.",
+   "en": "«δὲ», as in Claude's transcription; GPT-6's has «διὲ». The scan shows a plain δ in one smooth arch (as in ὁδεύοντα, 27.18), without the knot or spur of the δι ligature (compare δι’ in the same line), then ε with a grave. Decided by both checkers."
+  },
+  {
+   "ref": "Bas. 27.18",
+   "lemma": "ὁδεύοντα",
+   "ru": "«ὁδεύοντα» — так в транскрипции Claude; в транскрипции GPT-6 «ὁδεύονται»; за α сразу следует запятая, ι нет (ср. -ται в γνωσθήσεται, 27.9), решили оба проверяющих.",
+   "en": "«ὁδεύοντα», as in Claude's transcription; GPT-6's has «ὁδεύονται»; the α is followed directly by a comma, with no ι (compare -ται in γνωσθήσεται, 27.9), as both checkers decided."
+  },
+  {
+   "ref": "Bas. 27.20",
+   "lemma": "διαστήματα",
+   "ru": "«διαστήματα» — так в транскрипции Claude; в транскрипции GPT-6 «διαστήματά». Единственное ударение в слове — острое над η; над конечным τα ничего нет, а знак правее — придыхание ὀνομά-. Решили оба проверяющих.",
+   "en": "«διαστήματα», as in Claude's transcription; GPT-6's has «διαστήματά». The only accent in the word is the acute over η; nothing stands over the final τα, and the mark to the right is the breathing of ὀνομά-. Decided by both checkers."
+  },
+  {
+   "ref": "Bas. 27.23",
+   "lemma": "φθόγ",
+   "ru": "«φθόγ» без знака переноса, как в транскрипции GPT-6 (у Claude «φθόγ-»): оба проверяющих видят после Γ-образной гаммы чистое поле.",
+   "en": "«φθόγ» without a hyphen, as in GPT-6's transcription (Claude «φθόγ-»): both checkers see blank margin after the Γ-shaped gamma."
+  },
+  {
+   "ref": "Bas. 27.24",
+   "lemma": "χορδῶν | διοδεύον",
+   "ru": "«χορδῶν» — так в транскрипции Claude; в транскрипции GPT-6 «χορδίων»: после ρ простое δ без ι, затем ω с облечённым ударением и ν. «διοδεύον» — так в транскрипции Claude; в транскрипции GPT-6 «διοδεῦον»: над υ лигатуры ευ один штрих, наклонённый справа сверху влево вниз, т. е. острое, а не облечённое. В обоих местах решили оба проверяющих.",
+   "en": "«χορδῶν», as in Claude's transcription; GPT-6's has «χορδίων»: after ρ comes a plain δ with no ι, then ω with a circumflex and ν. «διοδεύον», as in Claude's transcription; GPT-6's has «διοδεῦον»: over the υ of the ευ ligature there is a single stroke slanting from top right to bottom left, an acute, not a circumflex. Both points decided by both checkers."
+  },
+  {
+   "ref": "Bas. 28.4",
+   "lemma": "κᾀκεῖθεν",
+   "ru": "«κᾀκεῖθεν» — так в транскрипции Claude; в транскрипции GPT-6 «κἀκεῖθεν». Под α на скане отчётливая точка — подписная йота, той же формы, что под ω в τῷ (28.14); над α тонкое придыхание. Решили оба проверяющих.",
+   "en": "«κᾀκεῖθεν», as in Claude's transcription; GPT-6's has «κἀκεῖθεν». The scan shows a distinct dot under the α, an iota subscript of the same form as under the ω of τῷ (28.14), and a smooth breathing above. Decided by both checkers."
+  },
+  {
+   "ref": "Bas. 28.13",
+   "lemma": "τότε",
+   "ru": "«τότε» — так в транскрипции Claude; в транскрипции GPT-6 «τό τε». τό и τε набраны слитно: промежуток 3–4 px, как между буквами, против 8 px пробела перед словом; над первым ο острое ударение. Решили оба проверяющих.",
+   "en": "«τότε», as in Claude's transcription; GPT-6's has «τό τε». τό and τε are set solid: a gap of 3-4 px, as between letters, against 8 px for the word space before; the first ο carries an acute. Decided by both checkers."
+  },
+  {
+   "ref": "Bas. 28.14",
+   "lemma": "ἀνισοχρό",
+   "ru": "«ἀνισοχρό-» — так в транскрипции Claude; в транскрипции GPT-6 «ἀνισχρό-»; между ι и χ стоит лигатура σο, та же, что в ἰσοχρόνως (28.18), решили оба проверяющих. Дефиса в конце строки в печати нет, и по общему правилу он не ставится.",
+   "en": "«ἀνισοχρό-», as in Claude's transcription; GPT-6's has «ἀνισχρό-»; between ι and χ stands the σο ligature, the same sort as in ἰσοχρόνως (28.18), as both checkers decided. No hyphen is printed at the line end, and by the general rule none is added."
+  },
+  {
+   "ref": "Bas. 28.15",
+   "lemma": "ἡπίως",
+   "ru": "«ἡπίως» — так в транскрипции Claude; в транскрипции GPT-6 «ἠπίως». Придыхание над η в форме c, открытое вправо, т. е. густое (тонкое в этом издании имеет форму ↄ, ср. κᾀκεῖθεν, 28.4). Решили оба проверяющих.",
+   "en": "«ἡπίως», as in Claude's transcription; GPT-6's has «ἠπίως». The breathing over η is c-shaped and open to the right, a rough breathing (the smooth breathing in this print is ↄ-shaped, compare κᾀκεῖθεν, 28.4). Decided by both checkers."
+  },
+  {
+   "ref": "Bas. 28.16",
+   "lemma": "ἀναλο",
+   "ru": "«ἀναλο» без знака переноса, как в транскрипции GPT-6 (у Claude «ἀναλο-»): оба проверяющих видят после ο чистую бумагу до линейки рамки.",
+   "en": "«ἀναλο» without a hyphen, as in GPT-6's transcription (Claude «ἀναλο-»): both checkers see blank paper after the ο up to the frame rule."
+  },
+  {
+   "ref": "Bas. 28.18",
+   "lemma": "βαρεί",
+   "ru": "«βαρεί» — так напечатано и так в транскрипции Claude; в транскрипции GPT-6 «βάρει». Единственное ударение — острое над лигатурой ει после ρ, над α ничего нет. Решили оба проверяющих.",
+   "en": "«βαρεί», as printed and as in Claude's transcription; GPT-6's has «βάρει». The only accent is an acute over the ει ligature after ρ; nothing stands over the α. Decided by both checkers."
+  },
+  {
+   "ref": "Bas. 28.22",
+   "lemma": "συγκα",
+   "ru": "«συγκα» без знака переноса, как в транскрипции GPT-6 (у Claude «συγκα-»): оба проверяющих видят после α чистую бумагу до рамки.",
+   "en": "«συγκα» without a hyphen, as in GPT-6's transcription (Claude «συγκα-»): both checkers see blank paper after the α up to the frame."
+  },
+  {
+   "ref": "Bas. 28.24",
+   "lemma": "βαρέσι | κα",
+   "ru": "«βαρέσι» — так в транскрипции Claude; в транскрипции GPT-6 «βάρεσι»: острое ударение стоит над ε после ρ, над α ничего нет. «κα» без знака переноса, как в транскрипции GPT-6 (у Claude «κα-»): после α ничего не напечатано (ср. κα- с дефисом в 28.18). В обоих местах решили оба проверяющих.",
+   "en": "«βαρέσι», as in Claude's transcription; GPT-6's has «βάρεσι»: the acute stands over the ε after ρ, and nothing over the α. «κα» without a hyphen, as in GPT-6's transcription (Claude «κα-»): nothing is printed after the α (contrast κα- with a hyphen in 28.18). Both points decided by both checkers."
+  },
+  {
+   "ref": "Bas. 28.25",
+   "lemma": "Ο",
+   "ru": "«Ο» — так в транскрипции Claude; в транскрипции GPT-6 «Ὁ»; у прописной Ο на скане придыхания нет, решили оба проверяющих.",
+   "en": "«Ο», as in Claude's transcription; GPT-6's has «Ὁ»; the capital Ο has no breathing on the scan, as both checkers decided."
+  },
+  {
+   "ref": "Bas. 29.5",
+   "lemma": "ἧττον | προσωνυμίας",
+   "ru": "«ἧττον» — так в транскрипции Claude; в транскрипции GPT-6 «ἦττον»: под облечённым ударением придыхание в форме c, открытое вправо, т. е. густое. «προσωνυμίας» — так в транскрипции Claude; в транскрипции GPT-6 «προσηγορίας»: на скане ясно читается π-ρ-ο-σ-ω-ν-υ-μ-ί-α-ς, без η, γ и второго ρ. В обоих местах решили оба проверяющих.",
+   "en": "«ἧττον», as in Claude's transcription; GPT-6's has «ἦττον»: under the circumflex the breathing is c-shaped and open to the right, a rough breathing. «προσωνυμίας», as in Claude's transcription; GPT-6's has «προσηγορίας»: the scan clearly reads π-ρ-ο-σ-ω-ν-υ-μ-ί-α-ς, with no η, γ or second ρ. Both points decided by both checkers."
+  },
+  {
+   "ref": "Bas. 29.15",
+   "lemma": "σιεπιμερὴς",
+   "ru": "«σιεπιμερὴς» — так в транскрипции Claude; в транскрипции GPT-6 «σιεπιμοιρὴς». После μ стоит лигатура ερ (как в ἐμπεριέχων, 30.25), отдельных ο и ι нет. Решили оба проверяющих.",
+   "en": "«σιεπιμερὴς», as in Claude's transcription; GPT-6's has «σιεπιμοιρὴς». After μ stands the ερ ligature (as in ἐμπεριέχων, 30.25), with no separate ο or ι. Decided by both checkers."
+  },
+  {
+   "ref": "Bas. 29.18",
+   "lemma": "ἀριθμὸς",
+   "ru": "«ἀριθμὸς» — так в транскрипции Claude; в транскрипции GPT-6 «ἀριθμός». Ударение над конечным ο тонкое и почти вертикальное, с лёгким наклоном вправо, как тяжёлое в следующем πρὸς, тогда как острые в той же строке (πάντως, ἐπίτριτος) наклонены влево. Решили оба проверяющих.",
+   "en": "«ἀριθμὸς», as in Claude's transcription; GPT-6's has «ἀριθμός». The accent over the final ο is thin and nearly vertical, leaning slightly to the right like the grave of the following πρὸς, whereas the acutes in the same line (πάντως, ἐπίτριτος) lean left. Decided by both checkers."
+  },
+  {
+   "ref": "Bas. 29.19",
+   "lemma": "δω",
+   "ru": "«δω» без знака переноса, как в транскрипции GPT-6 (у Claude «δω-»): оба проверяющих видят после ω чистую бумагу.",
+   "en": "«δω» without a hyphen, as in GPT-6's transcription (Claude «δω-»): both checkers see blank paper after the ω."
+  },
+  {
+   "ref": "Bas. 29.20",
+   "lemma": "διπλασιεπιμερὴς",
+   "ru": "«διπλασιεπιμερὴς» — так в транскрипции Claude; в транскрипции GPT-6 «διπλασιεπιμοιρὴς»; после μ та же лигатура ερ, что в 29.15, без ο и ι, решили оба проверяющих.",
+   "en": "«διπλασιεπιμερὴς», as in Claude's transcription; GPT-6's has «διπλασιεπιμοιρὴς»; after μ stands the same ερ ligature as in 29.15, with no ο or ι, as both checkers decided."
+  },
+  {
+   "ref": "Bas. 29.21",
+   "lemma": "μέρη",
+   "ru": "«μέρη» — так в транскрипции Claude; в транскрипции GPT-6 «μόρη». После μ лигатура ερ с острым ударением; петля — это ε лигатуры, а не отдельное ο. Решили оба проверяющих.",
+   "en": "«μέρη», as in Claude's transcription; GPT-6's has «μόρη». After μ comes the ερ ligature with an acute; the loop is the ε of the ligature, not a free-standing ο. Decided by both checkers."
+  },
+  {
+   "ref": "Bas. 29.23",
+   "lemma": "εἰκοστὸς",
+   "ru": "«εἰκοστὸς» — так в транскрипции Claude; в транскрипции GPT-6 «εἰκοσὸς»; после κο стоит s-образная лигатура στ, та же, что в ἑκάστῳ (33.12), решили оба проверяющих.",
+   "en": "«εἰκοστὸς», as in Claude's transcription; GPT-6's has «εἰκοσὸς»; after κο stands the s-shaped στ ligature, the same as in ἑκάστῳ (33.12), as both checkers decided."
+  },
+  {
+   "ref": "Bas. 29.24",
+   "lemma": "οὒ",
+   "ru": "«οὒ» — слово как в транскрипции Claude («οὐ»); в транскрипции GPT-6 «ἢ». Над последним знаком строки оба проверяющих видят тонкое придыхание и тяжёлое ударение, но сам знак один читает как Н-образное η (как ἢ в 28.22), другой — как лигатуру ου (как οὐ после ὡς в этой же строке). Слово выбрал редактор; придыхание и ударение даны, как напечатано.",
+   "en": "«οὒ»: the word as in Claude's transcription («οὐ»); GPT-6's has «ἢ». Both checkers see a smooth breathing and a grave over the last sign of the line, but one reads the sign as an H-shaped η (as ἢ in 28.22), the other as the ου ligature (as the οὐ after ὡς in the same line). The word was chosen by the editor; the breathing and the accent are given as printed."
+  },
+  {
+   "ref": "Bas. 30.5",
+   "lemma": "ἣν | τὸν",
+   "ru": "«ἣν» — так в транскрипции Claude; в транскрипции GPT-6 «ὧν»: на скане лигатура ην (как в τὴν, 30.1) с густым придыханием и тяжёлым ударением, облечённого нет; решили оба проверяющих. «τὸν» — так в транскрипции Claude; в транскрипции GPT-6 «τοὺς»: слово набрано одной лигатурой с тяжёлым ударением; один проверяющий читает её как τὸν (ς за ней нет), другой находит, что форма лучше подходит к τοὺς, но уверенно опознать её не смог. Здесь решил редактор.",
+   "en": "«ἣν», as in Claude's transcription; GPT-6's has «ὧν»: the scan shows the ην ligature (as in τὴν, 30.1) with a rough breathing and a grave, and no circumflex; decided by both checkers. «τὸν», as in Claude's transcription; GPT-6's has «τοὺς»: the word is a single ligature sort with a grave; one checker reads it as τὸν (no ς follows), the other finds the shape fits τοὺς better but could not identify it with certainty. This point was decided by the editor."
+  },
+  {
+   "ref": "Bas. 30.10",
+   "lemma": "ρὴς",
+   "ru": "«ρὴς» — так в транскрипции Claude; в транскрипции GPT-6 «ρής»; ударение над η идёт слева сверху вправо вниз, т. е. тяжёлое, решили оба проверяющих.",
+   "en": "«ρὴς», as in Claude's transcription; GPT-6's has «ρής»; the accent over η runs from top left to bottom right, a grave, as both checkers decided."
+  },
+  {
+   "ref": "Bas. 30.11",
+   "lemma": "δείκνηται",
+   "ru": "«δείκνηται» — так напечатано (опечатка) и так в транскрипции Claude; в транскрипции GPT-6 «δείκνυται». После κν стоит Н-образное η, то же, что в ἡμιόλιος этой строки, а не чашеобразное υ. Решили оба проверяющих.",
+   "en": "«δείκνηται», as printed (a misprint) and as in Claude's transcription; GPT-6's has «δείκνυται». After κν stands an H-shaped η, the same as in ἡμιόλιος in this line, not the cup-shaped υ. Decided by both checkers."
+  },
+  {
+   "ref": "Bas. 30.23",
+   "lemma": "μέν",
+   "ru": "«μέν» — так напечатано и так в транскрипции Claude; в транскрипции GPT-6 «μὲν». Ударение над ε идёт справа сверху влево вниз: напечатано острое, хотя ожидалось бы тяжёлое. Решили оба проверяющих.",
+   "en": "«μέν», as printed and as in Claude's transcription; GPT-6's has «μὲν». The accent over the ε runs from top right to bottom left: an acute is printed, although a grave would be expected. Decided by both checkers."
+  },
+  {
+   "ref": "Bas. 30.25",
+   "lemma": "ἐμπεριέχων",
+   "ru": "«ἐμπεριέχων» — так в транскрипции Claude; в транскрипции GPT-6 «ἐμπεριέχον»; после χ на скане ясная ω с двумя петлями и конечное ν, решили оба проверяющих.",
+   "en": "«ἐμπεριέχων», as in Claude's transcription; GPT-6's has «ἐμπεριέχον»; after χ the scan shows a clear double-bowled ω and final ν, as both checkers decided."
+  },
+  {
+   "ref": "Bas. 31.3",
+   "lemma": "ἰσχὺν",
+   "ru": "«ἰσχὺν» — так в транскрипции Claude; в транскрипции GPT-6 «ἰσχύν»; ударение над υ идёт слева сверху вправо вниз, т. е. тяжёлое, решили оба проверяющих.",
+   "en": "«ἰσχὺν», as in Claude's transcription; GPT-6's has «ἰσχύν»; the accent over υ runs from top left to bottom right, a grave, as both checkers decided."
+  },
+  {
+   "ref": "Bas. 31.7",
+   "lemma": "τάς",
+   "ru": "«τάς» — так в транскрипции Claude; в транскрипции GPT-6 «τὰς». Ударение на первом τας клиновидное и идёт справа сверху влево вниз, т. е. острое; тяжёлое в γὰρ той же строки наклонено в другую сторону. Решили оба проверяющих.",
+   "en": "«τάς», as in Claude's transcription; GPT-6's has «τὰς». The accent on the first τας is wedge-shaped and runs from top right to bottom left, an acute; the grave of γὰρ in the same line slants the other way. Decided by both checkers."
+  },
+  {
+   "ref": "Bas. 31.15",
+   "lemma": "τοῖόνδε",
+   "ru": "«τοῖόνδε» — так в транскрипции Claude; в транскрипции GPT-6 «τοῖονδε»; на скане два отдельных знака: облечённое ударение над οι и справа от него острое над вторым ο, решили оба проверяющих.",
+   "en": "«τοῖόνδε», as in Claude's transcription; GPT-6's has «τοῖονδε»; the scan shows two separate marks, a circumflex over οι and, to its right, an acute over the second ο, as both checkers decided."
+  },
+  {
+   "ref": "Bas. 31.22",
+   "lemma": "μαλλον",
+   "ru": "«μαλλον» — так напечатано и так в транскрипции Claude; в транскрипции GPT-6 «μᾶλλον»; над словом на скане никакого ударения нет, решили оба проверяющих.",
+   "en": "«μαλλον», as printed and as in Claude's transcription; GPT-6's has «μᾶλλον»; the scan shows no accent of any kind over the word, as both checkers decided."
+  },
+  {
+   "ref": "Bas. 31.23",
+   "lemma": "ἁρμόνικον",
+   "ru": "«ἁρμόνικον» — так напечатано и так в транскрипции Claude; в транскрипции GPT-6 «ἁρμονικὸν»; острое ударение стоит над ο после μ, над конечным ον ударения нет, решили оба проверяющих.",
+   "en": "«ἁρμόνικον», as printed and as in Claude's transcription; GPT-6's has «ἁρμονικὸν»; the acute stands over the ο after μ and the final ον has no accent, as both checkers decided."
+  },
+  {
+   "ref": "Bas. 31.24",
+   "lemma": "ἀπαρτίζεται",
+   "ru": "«ἀπαρτίζεται» — так в транскрипции Claude; в транскрипции GPT-6 «ἀπερτίζεται»; после π стоит α, соединённая с ρ, а не арочная лигатура ερ, решили оба проверяющих.",
+   "en": "«ἀπαρτίζεται», as in Claude's transcription; GPT-6's has «ἀπερτίζεται»; after π stands an α joined to ρ, not the arched ερ ligature, as both checkers decided."
+  },
+  {
+   "ref": "Bas. 32.2",
+   "lemma": "δυνατὸν | Αλλ’",
+   "ru": "«δυνατὸν» — так в транскрипции Claude; в транскрипции GPT-6 «δυνατόν»: ударение над ο почти вертикальное, со слабым наклоном вправо, как у тяжёлого. «Αλλ’» — так в транскрипции Claude; в транскрипции GPT-6 «Ἀλλ’»: у прописной Α придыхания нет. В обоих местах решили оба проверяющих.",
+   "en": "«δυνατὸν», as in Claude's transcription; GPT-6's has «δυνατόν»: the accent over the ο is nearly vertical with a slight lean to the right, like a grave. «Αλλ’», as in Claude's transcription; GPT-6's has «Ἀλλ’»: the capital Α has no breathing. Both points decided by both checkers."
+  },
+  {
+   "ref": "Bas. 32.5",
+   "lemma": "ἐκτιθε",
+   "ru": "«ἐκτιθε» без знака переноса, как в транскрипции GPT-6 (у Claude «ἐκτιθε-»): оба проверяющих видят после θε чистую бумагу до линейки рамки.",
+   "en": "«ἐκτιθε» without a hyphen, as in GPT-6's transcription (Claude «ἐκτιθε-»): both checkers see blank paper after the θε up to the frame rule."
+  },
+  {
+   "ref": "Bas. 32.18",
+   "lemma": "διατεσσάρων",
+   "ru": "«διατεσσάρων» — так в транскрипции Claude; в транскрипции GPT-6 «διὰ τεσσάρων». Лигатура δια набрана слитно с τεσσάρων (промежуток 3–4 px, как между буквами) и без тяжёлого ударения над α, в отличие от раздельного διὰ τεσσάρων в других местах страницы. Решили оба проверяющих.",
+   "en": "«διατεσσάρων», as in Claude's transcription; GPT-6's has «διὰ τεσσάρων». The δια ligature is set solid with τεσσάρων (a gap of 3-4 px, as between letters) and has no grave over the α, unlike the spaced διὰ τεσσάρων elsewhere on the page. Decided by both checkers."
+  },
+  {
+   "ref": "Bas. 33.12",
+   "lemma": "παιήων | ὑμεραῖος",
+   "ru": "«παιήων» — так в транскрипции Claude; в транскрипции GPT-6 «παιῶν»: после ι стоит η с острым ударением, затем ω и ν. «ὑμεραῖος» — так напечатано (опечатка вместо «ὑμέναιος») и так в транскрипции Claude; в транскрипции GPT-6 «ὑμέναιος»: после ὑμ лигатура ερ, затем αι с облечённым ударением; ν нет, над ε ударения нет. В обоих местах решили оба проверяющих.",
+   "en": "«παιήων», as in Claude's transcription; GPT-6's has «παιῶν»: after ι stands η with an acute, then ω and ν. «ὑμεραῖος», as printed (a misprint for «ὑμέναιος») and as in Claude's transcription; GPT-6's has «ὑμέναιος»: after ὑμ comes the ερ ligature, then αι with a circumflex, with no ν and no accent on the ε. Both points decided by both checkers."
+  },
+  {
+   "ref": "Bas. 33.15",
+   "lemma": "χολαιοτέραις",
+   "ru": "«χολαιοτέραις» — так напечатано; в транскрипциях Claude и GPT-6 «σχολαιοτέραις». На скане ταῖς кончается конечной ς, за ней обычный пробел, и следующее слово начинается прямо с χ, σ перед ним нет. Решили оба проверяющих. На ошибку обеих транскрипций указал сверщик Парижского издания 1545 г.: там тоже напечатано без σ (Par. 27r.20).",
+   "en": "«χολαιοτέραις», as printed; the transcriptions of Claude and GPT-6 have «σχολαιοτέραις». On the scan ταῖς ends in a final ς followed by an ordinary word space, and the next word begins directly with χ, with no σ before it. Decided by both checkers. The error of both transcriptions was pointed out by the collator of the Paris edition of 1545, which also prints the word without σ (Par. 27r.20)."
+  },
+  {
+   "ref": "Bas. 33.18",
+   "lemma": "μύρια",
+   "ru": "«μύρια» — так в транскрипции Claude; в транскрипции GPT-6 «μυρία»; острое ударение стоит над υ, ι ударения не несёт, решили оба проверяющих.",
+   "en": "«μύρια», as in Claude's transcription; GPT-6's has «μυρία»; the acute stands over the υ and the ι carries none, as both checkers decided."
+  },
+  {
+   "ref": "Bas. 33.21",
+   "lemma": "Μουσικῆς:",
+   "ru": "«Μουσικῆς:» с двоеточием — так в транскрипции Claude; в транскрипции GPT-6 «Μουσικῆς.». После ς две точки одна над другой (верхняя меньше, нижняя на линии строки), а не одиночная ромбовидная точка, как в других местах страницы. Решили оба проверяющих.",
+   "en": "«Μουσικῆς:» with a colon, as in Claude's transcription; GPT-6's has «Μουσικῆς.». After ς there are two dots one above the other (the upper one smaller, the lower on the baseline), not the single diamond-shaped point used elsewhere on the page. Decided by both checkers."
+  }
+ ],
+ "footnotes_note": "One footnote, in Russian and English, at every place where the two transcriptions differed (and at the later corrections): the adopted reading, the readings of Claude and GPT-6, what the scan shows, and who decided. Written and checked against the decision records by two agents each (2026-10-28)."
+}

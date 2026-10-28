@@ -1,0 +1,1651 @@
+{
+ "witness": "Par.",
+ "extent": {
+  "first": "Par. 20v.1 ΤΗΣ ΜΟΥΣΙΚΗΣ ΣΥΝΟ- (heading 20v.1-2 ... ψις ἠκριβωμένη.); first text line Par. 20v.3 Μουσικὴν οἱ παλαιοί, συ-",
+  "last": "Par. 27v.4 Τέλος τῆς μουσικῆς· (last text line Par. 27v.3 διῶν, καὶ ποικίλα, κατασκευάζεται.)",
+  "before": "The arithmetic is not on 20v: 20v begins with the music heading (top of the page only show-through, no running head). The arithmetic therefore ends on f. 20r (scan 0039, not among the supplied images).",
+  "after": "Geometry begins on 27v: heading Par. 27v.5 ΣΥΝΟΨΙΣ ΑΥΤΗ, ΓΕΩ- ... 27v.6 μετρίας λόγων·, text from 27v.7 (woodcut initial Σ) ημεῖόν ἐστιν, οὗ μέρος ...",
+  "boundary_lines": "20v.1-21 music (21 lines + catchword τος·); 21r-27r 22 lines each, all music; 27v.1-4 music (1 φῶν καὶ ... με- ... 4 Τέλος τῆς μουσικῆς·), 27v.5-6 geometry heading, 27v.7ff. geometry text. Music = Par. 20v.1-27v.4 (ff. 20v-27v)."
+ },
+ "collation": [
+  {
+   "ref": "Bas. 23.1-2",
+   "lemma": "ΤΗΣ ΜΟΥΣΙΚΗΣ ΗΚΡΙΒΩΜΕΝΗ ΣΥΝΟΨΙΣ.",
+   "reading": "ΤΗΣ ΜΟΥΣΙΚΗΣ ΣΥΝΟψις ἠκριβωμένη.",
+   "witness_ref": "Par. 20v.1-2",
+   "type": "order",
+   "note": "Heading: Par. prints line 1 in capitals ΤΗΣ ΜΟΥΣΙΚΗΣ ΣΥΝΟ- and line 2 in lower case ψις ἠκριβωμένη.; noun before participle (Bas. participle before noun)."
+  },
+  {
+   "ref": "Bas. 23.8",
+   "lemma": "κατὰ",
+   "reading": "μετὰ",
+   "witness_ref": "Par. 20v.7",
+   "type": "substitution",
+   "note": "ἀλλ’ οὐδέ τι τῶν γινομένων, μὴ μετὰ συμμετρίας τῆς προσηκούσης καὶ ἀναλογίας γινόμενον."
+  },
+  {
+   "ref": "Bas. 24.7",
+   "lemma": "ἔχων",
+   "reading": "ἔχον",
+   "witness_ref": "Par. 20v.20",
+   "type": "form",
+   "note": "Neuter participle (agreeing with τὸ πᾶν) for Bas. masculine; Bas. printed ἔχων checked on the image."
+  },
+  {
+   "ref": "Bas. 24.18",
+   "lemma": "περωχὴ",
+   "reading": "περιοχή",
+   "witness_ref": "Par. 21r.12-13 (πε-|ριοχή)",
+   "type": "form",
+   "note": "Bas. prints π + ερ-ligature + ωχὴ (checked), evidently a misprint; Par. has the normal word."
+  },
+  {
+   "ref": "Bas. 24.23",
+   "lemma": "εἰ δ’ μὴ",
+   "reading": "εἰ γὰρ μὴ",
+   "witness_ref": "Par. 21r.19-20",
+   "type": "substitution",
+   "note": "γὰρ is printed with a κ-like compendium sort with accent, the same sort Par. uses at 21v.18 (ὃν γὰρ λόγον), 25v.15 (αὐτάς τε γὰρ) and 27r.18 (οὐ γὰρ), where Bas. prints γὰρ. Bas. δ’ checked on the image."
+  },
+  {
+   "ref": "Bas. 25.2",
+   "lemma": "τῷ",
+   "reading": "τῇ",
+   "witness_ref": "Par. 21v.3",
+   "type": "form",
+   "note": "τῇ ἀπὸ τοῦ βαρέος ἐπὶ τὸ ὀξὺ προόδῳ καὶ τάξει: feminine article agreeing with προόδῳ. Bas. τῷ checked on the image."
+  },
+  {
+   "ref": "Bas. 25.4",
+   "lemma": "λαμβανόντος",
+   "reading": "λαμβάνοντες",
+   "witness_ref": "Par. 21v.5-6 (λαμ-|βάνοντες)",
+   "type": "form",
+   "note": "Nominative plural participle (τὰς προσηγορίας λαμβάνοντες) for Bas. genitive singular."
+  },
+  {
+   "ref": "Bas. 25.8",
+   "lemma": "διαζευγμένη",
+   "reading": "διεζευγμένη",
+   "witness_ref": "Par. 21v.10-11",
+   "type": "form",
+   "note": "διάτονος διεζευγμένη: Par. has the same perfect-participle form as in τρίτη/νήτη διεζευγμένη; Bas. printed δια- (checked), probably a misprint."
+  },
+  {
+   "ref": "Bas. 28.1",
+   "lemma": "τελούμενον",
+   "reading": "τελειούμενον",
+   "witness_ref": "Par. 23v.7",
+   "type": "form",
+   "note": "καὶ τὸ διὰ πασῶν, ὡς δι’ ὀκτὼ τελειούμενον: Par. prints τελ + ει-ligature sort + ούμενον (the same ει sort as in διπλασιάζει 22v.21, ἔχει 25r.6), whereas the parallel τελούμενον in the line above (23v.6, = Bas. 27.25) is plain. Bas. 28.1 printed τελούμενον (checked)."
+  },
+  {
+   "ref": "Bas. 28.4",
+   "lemma": "ἀναδιπλουμένων",
+   "reading": "ἐπαναδιπλουμένων",
+   "witness_ref": "Par. 23v.10-11 (ἐπα-|ναδιπλουμένων)",
+   "type": "form",
+   "note": "Compound with ἐπ-; Bas. printed ἀναδιπλουμένων (checked)."
+  },
+  {
+   "ref": "Bas. 28.15",
+   "lemma": "πρῶτον",
+   "reading": "πῶς",
+   "witness_ref": "Par. 24r.2",
+   "type": "substitution",
+   "note": "ἠπίως πῶς καὶ εὐρύθμως; Bas. πρῶτον checked on the image."
+  },
+  {
+   "ref": "Bas. 28.18",
+   "lemma": "βαρεί",
+   "reading": "βάρει",
+   "witness_ref": "Par. 24r.6",
+   "type": "form",
+   "note": "Accent only: Par. τῷ βάρει ('weight') against Bas. τῷ βαρει/βαρεῖ ('the low note', opposed to τοῦ ὀξέως); listed because the accent changes the sense; probably a slip in Par. Bas. accent not clearly visible on the image."
+  },
+  {
+   "ref": "Bas. 29.13-14",
+   "lemma": "τοῦ δὲ διὰ πασῶν καὶ διὰ τεσσάρων",
+   "reading": "τοῦ διὰ πασῶν καὶ διὰ τεσσάρων",
+   "witness_ref": "Par. 24v.8",
+   "type": "omission",
+   "note": "δὲ om. Par."
+  },
+  {
+   "ref": "Bas. 29.15",
+   "lemma": "τοῦ διὰ πασῶν καὶ διὰ πέντε, τριπλάσιος",
+   "reading": "τοῦ διὰ πασῶν. καὶ δὶς διὰ πέντε, τριπλάσιος",
+   "witness_ref": "Par. 24v.9-11",
+   "type": "addition+term",
+   "note": "Par. adds δὶς: the ratio 3:1 is assigned to 'octave and double fifth' instead of 'octave and fifth' (cf. the δὶς in Bas. 29.8-9, which both prints have and Xylander deletes)."
+  },
+  {
+   "ref": "Bas. 29.24",
+   "lemma": "οὐ τῶν χορδῶν",
+   "reading": "ἢ τῶν χορδῶν",
+   "witness_ref": "Par. 24v.21",
+   "type": "substitution",
+   "note": "πρὸς τὸν ἀριθμὸν τῶν φθόγγων ἢ τῶν χορδῶν; Bas. prints the ου-ligature with breathing and accent (οὐ), checked."
+  },
+  {
+   "ref": "Bas. 30.25",
+   "lemma": "ἐμπεριέχων",
+   "reading": "ἐμπεριέχον",
+   "witness_ref": "Par. 25v.7",
+   "type": "form",
+   "note": "Neuter participle agreeing with τὸ ... τετράχορδον (cf. περιλαμβάνον, περιέχον that follow in both prints); Bas. printed ἐμπεριέχων (checked)."
+  },
+  {
+   "ref": "Bas. 32.5",
+   "lemma": "ἐκτιθεμένων",
+   "reading": "ἐντιθεμένων",
+   "witness_ref": "Par. 26r.21",
+   "type": "substitution",
+   "note": "δύο τονιαίων διαστημάτων ἐντιθεμένων: prefix ἐν- (ἐ with ν-compendium), clear at enlargement."
+  },
+  {
+   "ref": "Bas. 33.12",
+   "lemma": "ὑμεραῖος",
+   "reading": "ὑμέναιος",
+   "witness_ref": "Par. 27r.16",
+   "type": "substitution+term",
+   "note": "Par. has the ordinary name of the wedding song; Bas. printed ὑμ + ερ-ligature + αῖος (checked)."
+  },
+  {
+   "ref": "Bas. 33.14",
+   "lemma": "διαφορᾷ",
+   "reading": "μεταφορᾷ",
+   "witness_ref": "Par. 27r.18-19 (με-|ταφορᾷ)",
+   "type": "substitution",
+   "note": "οὐ γὰρ τῇ τῶν διαστημάτων μόνῃ μεταφορᾷ. Bas. διαφορᾷ checked."
+  },
+  {
+   "ref": "Bas. 33.14",
+   "lemma": "διαφορᾷ, ἀλλὰ",
+   "reading": "διαφορᾷ (= μεταφορᾷ). οὐδὲ τῇ μόνῃ τούτων διαφορᾷ. ἀλλὰ",
+   "witness_ref": "Par. 27r.19-20",
+   "type": "addition",
+   "note": "After μεταφορᾷ Par. adds a second clause: οὐδὲ τῇ μόνῃ τούτων διαφορᾷ (οὐδὲ printed οὐ + δὲ-compendium). Full Par. text 27r.18-20: οὐ γὰρ τῇ τῶν διαστημάτων μόνῃ μεταφορᾷ. οὐδὲ τῇ μόνῃ τούτων διαφορᾷ. ἀλλὰ καὶ ταῖς χολαιοτέραις."
+  }
+ ],
+ "three_places": [
+  {
+   "place": "a",
+   "quote": "δύναμιν μὲν ἔχον διαφόρων διαστημάτων. δι’ ἑνὸς δὲ διαστήματος ἀπηχούμενον. παρὰ δὲ ταῦτα, ἕτερα διαστήματα· τὸ διὰ τεσσάρων. καὶ διὰ πέντε.",
+   "refs": "Par. 23r.11-15 (ἀπηχούμενον ends 23r.13; παρὰ δὲ ταῦτα begins 23r.14). Nothing is added between ἀπηχούμενον and παρὰ: Par. = Bas. 27.13-14."
+  },
+  {
+   "place": "b",
+   "quote": "τριπλάσιος ὁ ὀκτωκαιδέκατος. τετραπλάσιος, ὁ εἰκοστὸς τέταρτος. εἰδέναι μέντοι χρή, ὡς οὐ πρὸς τὸν ἀριθμὸν τῶν φθόγγων ἢ τῶν χορδῶν",
+   "refs": "Par. 24v.18-21 (τέταρ-|τος 24v.19-20; εἰδέναι in 24v.20). Nothing is added after τέταρτος: Par. = Bas. 29.23 (apart from ἢ for οὐ in 24v.21, see collation)."
+  },
+  {
+   "place": "c",
+   "quote": "ἢ ἀπὸ τῆς ἐπιτάσεως τοῦ πνεύματος καὶ ἀνέσεως. τῶν δὲ διαστημάτων· τὸ μέν ἐστι τετράχορδον· τὰς τοῦ διὰ τεσσάρων",
+   "refs": "Par. 25v.3-6 (ἀνέσεως ends 25v.4; τῶν δὲ διαστημάτων begins 25v.5). Nothing is added after ἀνέσεως: Par. = Bas. 30.22-23."
+  }
+ ],
+ "bas_corrections": [
+  {
+   "ref": "Bas. 24.5",
+   "our_text": "ὀνομάζει",
+   "printed": "ὀνομα + δ-like sort + σο-like sort + ι (probably ὀνομάσοι, = Par. 20v.17-18)",
+   "note": "The printed ending is not ζει: the letter after α is not the Bas. ζ (cf. συμβιβαζόμενον 24.6), and the group before ι matches the σο-ligature of Bas. 25.8 (σος). Probably ὀνομάσοι as in Par. (which is clear: ὀνο-|μάσοι·). Uncertain; see doubts. Not entered as a variant."
+  },
+  {
+   "ref": "Bas. 25.9",
+   "our_text": "διεζευτμένη",
+   "printed": "διεζευγμένη",
+   "note": "The letter read as τ is the Γ-shaped γ (the same form occurs in Par. 21v.11 in this word)."
+  },
+  {
+   "ref": "Bas. 25.17",
+   "our_text": "καὶ τὰ ἃλλα",
+   "printed": "καὶ τὰ μὲν",
+   "note": "Single compendium sort: Μ-shaped μ with superscript ε and grave accent = μέν (the sign read as rough breathing + grave is ε + accent). Par. 21v.22 has the same word (μ with ε and grave): τὰ μὲν περὶ φθόγγων, ἐν τούτοις. Not a variant."
+  },
+  {
+   "ref": "Bas. 26.8",
+   "our_text": "τοῦ μείζονος",
+   "printed": "τῆς μείζονος",
+   "note": "Printed with the τῆς ligature sort (the same sort as in ἀπὸ τῆς εὐρύτητος Bas. 30.21); Par. 22r.18 likewise ἀπὸ τῆς μείζονος (sc. εὐθείας). Not a variant."
+  },
+  {
+   "ref": "Bas. 30.5",
+   "our_text": "πρὸς τὸν πρὸ αὐτοῦ",
+   "printed": "πρὸς τοὺς πρὸ αὐτοῦ",
+   "note": "Printed with the τοὺς ligature sort (τ + ου with grave + ς), not τὸν; Par. 25r.6 has the same sort, which Par. also uses in κατὰ τοὺς ἀριθμούς (22r.10) and τοὺς λοιποὺς (25r.17). Sense: the fifth note compared with the notes before it. Not a variant."
+  },
+  {
+   "ref": "Bas. 30.11",
+   "our_text": "δείκνηται",
+   "printed": "δείκνυται",
+   "note": "υ, not η, at enlargement; Par. 25r.13 δείκνυται. (Orthographic in any case.)"
+  },
+  {
+   "ref": "Bas. 33.15",
+   "our_text": "ταῖς σχολαιοτέραις",
+   "printed": "ταῖς χολαιοτέραις",
+   "note": "No σ before χ in the print (checked at enlargement); Par. 27r.20 has the same omission (ταῖς χολαιοτέραις). Orthographic; not a variant."
+  },
+  {
+   "ref": "Bas. 31.23 (marginalia)",
+   "our_text": "(no entry in our marginalia list)",
+   "printed": "text: * ἢ ἁρμονία; outer margin at the same line: * ἡ(?)",
+   "note": "Xylander's asterisk in the text has a marginal note at the line end, apparently the article ἡ (correction of ἢ). The marginal glyph is small and not clear at enlargement; reading uncertain. The text η carries smooth breathing + grave (ἢ), as in our text. Par. 26r.12 also ἢ (probably), i.e. Par. does not have the correction."
+  },
+  {
+   "ref": "Bas. 32.23 (marginalia)",
+   "our_text": "(no entry in our marginalia list)",
+   "printed": "text: ἑνὸς * τὸ τετραχόρδου; inner margin at the same line: * τοῦ",
+   "note": "Xylander's marginal correction τοῦ for τὸ. Par. 26v.20 has τὸ (= Bas. text), not the correction."
+  }
+ ],
+ "page_map": [
+  {
+   "bas_page": 23,
+   "starts_at": "Par. 20v.1"
+  },
+  {
+   "bas_page": 24,
+   "starts_at": "Par. 20v.12 (ἡ δὲ at line end)"
+  },
+  {
+   "bas_page": 25,
+   "starts_at": "Par. 21v.1 (ἐκπεφωνημένος in mid-line; Bas. 25.1 begins -φωνημένος)"
+  },
+  {
+   "bas_page": 26,
+   "starts_at": "Par. 22r.9 (εἰ γὰρ καὶ ἡ, end of line)"
+  },
+  {
+   "bas_page": 27,
+   "starts_at": "Par. 22v.18 (τετραγώνου ποιεῖ; Bas. 27.1 begins -τραγώνου)"
+  },
+  {
+   "bas_page": 28,
+   "starts_at": "Par. 23v.6 (καὶ τὸ διὰ πασῶν, ὡς)"
+  },
+  {
+   "bas_page": 29,
+   "starts_at": "Par. 24r.15 (καὶ ἡ δίεσις)"
+  },
+  {
+   "bas_page": 30,
+   "starts_at": "Par. 25r.1 (ται·)"
+  },
+  {
+   "bas_page": 31,
+   "starts_at": "Par. 25v.8 (πεντάχορδον; Bas. 31.1 begins -τάχορδον)"
+  },
+  {
+   "bas_page": 32,
+   "starts_at": "Par. 26r.15 (προφέρεται; Bas. 32.1 begins -ρεται)"
+  },
+  {
+   "bas_page": 33,
+   "starts_at": "Par. 27r.2 (συστημάτων κατα-)"
+  }
+ ],
+ "corrections": [],
+ "margins": [
+  {
+   "ref": "Par. 20v.3-6",
+   "what": "woodcut initial M (Μουσικὴν), lines 3-6 beside it"
+  },
+  {
+   "ref": "Par. 22r.7-22, right margin",
+   "what": "diagram: vertical rules with labels θ τόνος (beside 7), ἐπόγδο[ος] (beside 10), θ (beside 12), ἡμιτό-νιον (beside 13-14), ἡμιτό-[νιον?] (beside 15-16), θ (beside 20), δίεσ[ις] (beside 21); some labels cut at the gutter"
+  },
+  {
+   "ref": "Par. 22v.1-2, left margin",
+   "what": "label ὀκτω-|τέταρτον (end of the diagram of 22r)"
+  },
+  {
+   "ref": "Par. 22v.4-9, left margin",
+   "what": "dot figure (rows of α), square of 16"
+  },
+  {
+   "ref": "Par. 22v.11-17, left margin",
+   "what": "second dot figure (rows of α α α ...), separated from the first by a rule"
+  },
+  {
+   "ref": "Par. 25r, 26r, 27r foot",
+   "what": "signatures Δ, Δ ij, Δ iij (not counted)"
+  },
+  {
+   "ref": "running heads",
+   "what": "rectos Μουσική. with folio number (21-27); versos Ψελλοῦ; 20v has none (not counted)"
+  },
+  {
+   "ref": "catchwords",
+   "what": "20v τος· | 21r φος | 21v Τῶν | 22r ἀγα- | 22v διαι- | 23r κα- | 23v πα- | 24r τὸ | 24v ται. | 25r ἀπὸ | 25v τῆς | 26r καὶ | 26v δείγ- | 27r φῶν (not counted)"
+  }
+ ],
+ "orthographica": "Numbers, ratios and note names agree throughout except as listed in the collation (δὶς added at Par. 24v.10; διεζευγμένη at 21v.11). None of Xylander's marginal supplements or corrections in Bas. (25.7, 25.24, 25.25, 28.11, 28.12, 29.8-9, 31.1, 31.2, 31.23, 32.23) is in Par.: Par. has the uncorrected text throughout. Orthographic differences only (Par. reading first): ἐστίν / Bas. ἔστιν (20v.6, 23.6); ἐνδεκάτου / ἑνδεκάτου (24r.8, 28.20); πέρατος / περάτος (21v.16, 25.12); διπλῆν / διπλὴν (22r.2); τοιόνδε / τοῖόνδε (26r.3); ἁρμονικὸν / ἁρμόνικον (26r.13, 31.23); μᾶλλον / μαλλον (26r.12, 31.22); ἐστὶν / ἔστιν (22r.15, 26.5); μυρία / μύρια (27v.2, 33.18); ποικίλα / ποίκιλα (27v.3, 33.19); πλάτων lower case / Πλάτων (27r.10); μουσικῆς / Μουσικῆς (27v.4). Par. misprints: παρωνύμας for παρωνύμως (26r.5); λοιπὼν for λοιπὸν (26r.22). Shared by both prints: ταῖς χολαιοτέραις without σ (Par. 27r.20 = Bas. 33.15 printed). Word division: τό, τε / τότε (23v.21, 28.13); διὰ τεσσάρων / διατεσσάρων (26v.14-15, 32.18); ταύτῃ τοι / ταύτη τοι (22v.21, 27.3, iota subscript). Punctuation: Par. uses many more high points and full stops where Bas. has commas (e.g. 21v.6-13 the list of note names separated by high points; 24v.6-8 ratios separated by full stops); Bas. parentheses at 26.18-21 are absent in Par. (22v.9-13); Par. prints a double comma after μᾶλλον (26r.12, 'μᾶλλον,,'). Spellings of compendia expanded silently: καί (ϗ), δέ (ʒ-shaped), μέν (μ with ε above), τόν/τοῦ/τῶν/τῆς (τ with superscripts), γάρ (γ͂ρ ligature, and a κ-like sort at 21r.19, 21v.18, 25v.15, 27r.18), ἐν/ἐστί compendia.",
+ "doubts": [
+  {
+   "ref": "Bas. 24.5 / Par. 20v.17-18",
+   "issue": "Par. ὀνομάσοι is clear. The Bas. word is printed with a ligature group (δ-like + σο-like + ι) that we read as ὀνομάσοι, not ὀνομάζει; if a better look shows Bas. = ὀνομάζει, add a 'form' variant ὀνομάζει / ὀνομάσοι (Par. 20v.17-18)."
+  },
+  {
+   "ref": "Par. 21r.19",
+   "issue": "γὰρ is read from a κ-like compendium sort with accent (not the γ͂ρ ligature of 22r.9, 22r.12, 22v.6 etc.). The identification rests on the same sort at 21v.18, 25v.15 and 27r.18, where Bas. prints γὰρ. Bas. 24.23 has δ’ (printed, clear)."
+  },
+  {
+   "ref": "Par. 20v (last line)",
+   "issue": "τος· at the foot of 20v (right) is taken as the catchword (21r begins τος. ἧς), so 20v has 21 counted lines; all other pages 21r-27r have 22 lines plus catchword."
+  },
+  {
+   "ref": "Bas. 28.18 / Par. 24r.6",
+   "issue": "Accent of Bas. βαρει not clearly visible; Par. clearly βάρει (acute on α). Listed in the collation as an accentual form difference; may be treated as orthographic."
+  },
+  {
+   "ref": "Par. 26r.12 / Bas. 31.23",
+   "issue": "After μᾶλλον Par. prints two commas (',,'). The marks over the following η are small: read as smooth breathing + grave (ἢ), unlike the single rough breathing of the article ἡ at 26r.8; Bas. 31.23 also ἢ, with Xylander's asterisk and a marginal note that seems to be ἡ. If Par. in fact has ἡ, add a substitution variant ἢ / ἡ (Par. 26r.12) agreeing with Xylander's correction."
+  },
+  {
+   "ref": "Par. 22r margin",
+   "issue": "Diagram labels beside 22r.15-16 partly cut or blurred (ἡμιτό-? / -κτω?); not part of the counted text."
+  }
+ ],
+ "xylander_supplements": [
+  {
+   "ref": "Bas. 25.7",
+   "supplement": "διάτονος μέσων",
+   "par": "absent (Par. 21v.9 παρυπάτη μέσων· μέση μόνως παρά-|μεσος)"
+  },
+  {
+   "ref": "Bas. 25.24",
+   "supplement": "τοῦ ἐννέα πρὸς",
+   "par": "absent (Par. 22r.8 οἷον ὀκτὼ ἥμισυ)"
+  },
+  {
+   "ref": "Bas. 25.25",
+   "supplement": "τοῦ ἐννέα πρὸς (iterum)",
+   "par": "absent (Par. 22r.9 ὅσον ὀκτωτέταρτον)"
+  },
+  {
+   "ref": "Bas. 28.11",
+   "supplement": "διὰ πασῶν καὶ διὰ τεσσάρων (for δὶς διὰ τεσσάρων)",
+   "par": "Par. 23v.18-19 ἡ δὶς διὰ τεσσάρων = Bas. text"
+  },
+  {
+   "ref": "Bas. 28.12",
+   "supplement": "διὰ πασῶν καὶ διὰ πέντε (for δὶς διὰ πασῶν)",
+   "par": "Par. 23v.20 ἡ δὶς διὰ πασῶν = Bas. text"
+  },
+  {
+   "ref": "Bas. 29.8-9",
+   "supplement": "δὶς ... abundant, delenda",
+   "par": "Par. 24v.2 and 24v.3 have δὶς both times = Bas. text"
+  },
+  {
+   "ref": "Bas. 31.1",
+   "supplement": "διὰ πέντε",
+   "par": "absent (Par. 25v.8 τὰς τοῦ πέντε)"
+  },
+  {
+   "ref": "Bas. 31.2",
+   "supplement": "ὅλην (for ὕλην)",
+   "par": "Par. 25v.10 τὴν ὕλην = Bas. text"
+  },
+  {
+   "ref": "Bas. 31.23",
+   "supplement": "ἡ(?) (margin, for ἢ)",
+   "par": "Par. 26r.12 ἢ (probably) = Bas. text"
+  },
+  {
+   "ref": "Bas. 32.23",
+   "supplement": "τοῦ (margin, for τὸ)",
+   "par": "Par. 26v.20 ἑνὸς τὸ = Bas. text"
+  }
+ ],
+ "par_lines": [
+  {
+   "ref": "Par. 20v.1",
+   "text": "ΤΗΣ ΜΟΥΣΙΚΗΣ ΣΥΝΟ-"
+  },
+  {
+   "ref": "Par. 20v.2",
+   "text": "ψις ἠκριβωμένη."
+  },
+  {
+   "ref": "Par. 20v.3",
+   "text": "Μουσικὴν οἱ παλαιοί, συ-"
+  },
+  {
+   "ref": "Par. 20v.4",
+   "text": "νέχειν εἶπον τὸ πᾶν. οὐδὲν"
+  },
+  {
+   "ref": "Par. 20v.5",
+   "text": "γὰρ τῶν ὄντων, συμμετρίας"
+  },
+  {
+   "ref": "Par. 20v.6",
+   "text": "ἄτερ καὶ ἀναλογίας ἐστίν."
+  },
+  {
+   "ref": "Par. 20v.7",
+   "text": "ἀλλ’ οὐδέ τι τῶν γινομένων, μὴ μετὰ"
+  },
+  {
+   "ref": "Par. 20v.8",
+   "text": "συμμετρίας τῆς προσηκούσης, καὶ ἀ-"
+  },
+  {
+   "ref": "Par. 20v.9",
+   "text": "ναλογίας γινόμενον, καλῶς ἂν ποτε"
+  },
+  {
+   "ref": "Par. 20v.10",
+   "text": "γένοιτο. κἂν τεχνητὸν εἴη, κἂν φυ-"
+  },
+  {
+   "ref": "Par. 20v.11",
+   "text": "σικόν. κἂν αἰσθήσει ληπτόν. κἂν"
+  },
+  {
+   "ref": "Par. 20v.12",
+   "text": "περὶ μόνην νόησιν θεωρούμενον· ἡ δὲ"
+  },
+  {
+   "ref": "Par. 20v.13",
+   "text": "μουσική, αὐτοσυμμετρία τίς ἐστι καὶ"
+  },
+  {
+   "ref": "Par. 20v.14",
+   "text": "ἀναλογία, τὸ πᾶν. οἷα τοῦ παντὸς ἁρ-"
+  },
+  {
+   "ref": "Par. 20v.15",
+   "text": "μονία τυγχάνουσα. τάχα δ’ ἄν τις καὶ"
+  },
+  {
+   "ref": "Par. 20v.16",
+   "text": "τὸ θεῖον αὐτὸ οὐκ ἀπεικότως, ἁρ-"
+  },
+  {
+   "ref": "Par. 20v.17",
+   "text": "μονίαν ἑαυτοῦ τε καὶ τοῦ παντὸς ὀνο-"
+  },
+  {
+   "ref": "Par. 20v.18",
+   "text": "μάσοι· ἐν ᾧ τὸ πᾶν συναρμολογού-"
+  },
+  {
+   "ref": "Par. 20v.19",
+   "text": "μενον, καὶ συμβιβαζόμενον, εὖτε καὶ"
+  },
+  {
+   "ref": "Par. 20v.20",
+   "text": "ὡς ἄριστα διαφαίνεται ἔχον. το-"
+  },
+  {
+   "ref": "Par. 20v.21",
+   "text": "σούτου τὴν μουσικὴν ἠξίωσαν θαύμα-"
+  },
+  {
+   "ref": "Par. 21r.1",
+   "text": "τος. ἧς ἐν ἅπασιν οὕτω θεωρουμέ-"
+  },
+  {
+   "ref": "Par. 21r.2",
+   "text": "νης, καὶ πάντα διεπούσης καὶ κοσμού-"
+  },
+  {
+   "ref": "Par. 21r.3",
+   "text": "σης. καὶ ἡδονὴν μὲν τῇ αἰσθήσει. ἁρμο-"
+  },
+  {
+   "ref": "Par. 21r.4",
+   "text": "νίαν δὲ τῇ φύσει· μακαριότητα δὲ"
+  },
+  {
+   "ref": "Par. 21r.5",
+   "text": "τῇ νοήσει χαριζομένης, περὶ τῆς ἐν"
+  },
+  {
+   "ref": "Par. 21r.6",
+   "text": "αἰσθήσει μουσικῆς, μᾶλλον δὲ τῆς ἐν"
+  },
+  {
+   "ref": "Par. 21r.7",
+   "text": "μιᾷ τῶν αἰσθήσεων τῇ ἀκοῇ θεωρου-"
+  },
+  {
+   "ref": "Par. 21r.8",
+   "text": "μένης, ἐν ἐπιτόμῳ διαληψόμεθα·"
+  },
+  {
+   "ref": "Par. 21r.9",
+   "text": "Φθόγγος ἐστί, φωνῆς ἀδιαστάτου"
+  },
+  {
+   "ref": "Par. 21r.10",
+   "text": "ἐναρμόνιος τάσις. διάστημα δὲ φθόγ-"
+  },
+  {
+   "ref": "Par. 21r.11",
+   "text": "γων, ἡ πρὸς ἀλλήλους ποιὰ σχέσις·"
+  },
+  {
+   "ref": "Par. 21r.12",
+   "text": "Σύστημα δέ, ποιὰ διαστημάτων πε-"
+  },
+  {
+   "ref": "Par. 21r.13",
+   "text": "ριοχή· Ἁρμονία δέ, συστημάτων"
+  },
+  {
+   "ref": "Par. 21r.14",
+   "text": "σύνταξις·"
+  },
+  {
+   "ref": "Par. 21r.15",
+   "text": "Ὁ μὲν οὖν φθόγγος, ἀδιάστατός ἐ-"
+  },
+  {
+   "ref": "Par. 21r.16",
+   "text": "στιν· ὡς ἡ ἐν γεωμετρίᾳ στιγμή. ἐναρ-"
+  },
+  {
+   "ref": "Par. 21r.17",
+   "text": "μόνιος δὲ λέγεται, διὰ τὸ οὕτως ἐκ-"
+  },
+  {
+   "ref": "Par. 21r.18",
+   "text": "πεφωνῆσθαι, ὡς δύνασθαι καὶ μεθ’ ἑ-"
+  },
+  {
+   "ref": "Par. 21r.19",
+   "text": "τέρου φθόγγου ἐναρμοσθῆναι· εἰ γὰρ"
+  },
+  {
+   "ref": "Par. 21r.20",
+   "text": "μὴ οὕτως ἐκφωνηθείη, ἀπηχής ἐστι"
+  },
+  {
+   "ref": "Par. 21r.21",
+   "text": "φθόγγος, οὐκ ἐναρμόνιος. οὐδ’ ἂν"
+  },
+  {
+   "ref": "Par. 21r.22",
+   "text": "φθόγγος ὅλως καλοῖτο. ἀλλὰ ψό-"
+  },
+  {
+   "ref": "Par. 21v.1",
+   "text": "φος τις, ἄλλως ἐκπεφωνημένος· καὶ"
+  },
+  {
+   "ref": "Par. 21v.2",
+   "text": "πρὸς ἁρμονίαν οὐκ εὔχρηστος· προ-"
+  },
+  {
+   "ref": "Par. 21v.3",
+   "text": "σηγορίαι δὲ φθόγγων, διάφοροι· τῇ"
+  },
+  {
+   "ref": "Par. 21v.4",
+   "text": "ἀπὸ τοῦ βαρέος ἐπὶ τὸ ὀξὺ προόδῳ"
+  },
+  {
+   "ref": "Par. 21v.5",
+   "text": "καὶ τάξει, τὰς προσηγορίας λαμ-"
+  },
+  {
+   "ref": "Par. 21v.6",
+   "text": "βάνοντες· προσλαμβανόμενος. ὑπά-"
+  },
+  {
+   "ref": "Par. 21v.7",
+   "text": "τη ὑπάτων· παρυπάτη ὑπάτων·"
+  },
+  {
+   "ref": "Par. 21v.8",
+   "text": "ὑπάτη διάτονος, ὑπάτη μέσων· πα-"
+  },
+  {
+   "ref": "Par. 21v.9",
+   "text": "ρυπάτη μέσων· μέση μόνως παρά-"
+  },
+  {
+   "ref": "Par. 21v.10",
+   "text": "μεσος. τρίτη διεζευγμένη· διάτονος"
+  },
+  {
+   "ref": "Par. 21v.11",
+   "text": "διεζευγμένη. νήτη διεζευγμένη· τρί-"
+  },
+  {
+   "ref": "Par. 21v.12",
+   "text": "τη ὑπερβολαίων· διάτονος ὑπερ-"
+  },
+  {
+   "ref": "Par. 21v.13",
+   "text": "βολαίων· νήτη ὑπερβολαίων· διὰ"
+  },
+  {
+   "ref": "Par. 21v.14",
+   "text": "τούτων ἀπαρτίζεται, τὸ ἐν πεντε-"
+  },
+  {
+   "ref": "Par. 21v.15",
+   "text": "καιδεκαχόρδῳ ἑκκαιδεκάχορ-"
+  },
+  {
+   "ref": "Par. 21v.16",
+   "text": "δον. τοῦ πέρατος τοῦ ὀκταχόρδου εἰς"
+  },
+  {
+   "ref": "Par. 21v.17",
+   "text": "ἀρχὴν τοῖς μετέπειτα λαμβανομέ-"
+  },
+  {
+   "ref": "Par. 21v.18",
+   "text": "νου κατὰ συνέχειαν. ὃν γὰρ λόγον ὁ πρῶ-"
+  },
+  {
+   "ref": "Par. 21v.19",
+   "text": "τος ἔχων φθόγγος, πρὸς τὸν ὄγδοον"
+  },
+  {
+   "ref": "Par. 21v.20",
+   "text": "ἀναφαίνεται, τὸν αὐτὸν καὶ ὁ ὄγδοος,"
+  },
+  {
+   "ref": "Par. 21v.21",
+   "text": "πρὸς τὸν πεντεκαιδέκατον ἔχει· καὶ"
+  },
+  {
+   "ref": "Par. 21v.22",
+   "text": "τὰ μὲν περὶ φθόγγων, ἐν τούτοις."
+  },
+  {
+   "ref": "Par. 22r.1",
+   "text": "Τῶν δὲ διαστημάτων, ἐλάχιστον μέν,"
+  },
+  {
+   "ref": "Par. 22r.2",
+   "text": "ἡ δίεσις· εἶτα τὸ ἡμιτόνιον· διπλῆν"
+  },
+  {
+   "ref": "Par. 22r.3",
+   "text": "ἔχον ἐπὶ τὸ ὀξὺ παραύξησιν τῆς"
+  },
+  {
+   "ref": "Par. 22r.4",
+   "text": "διέσεως· εἶτα ὁ τόνος· διπλοῦν ἔ-"
+  },
+  {
+   "ref": "Par. 22r.5",
+   "text": "χον τὸ ἡμιτόνιον· τὸν ἐπόγδοον διϊ-"
+  },
+  {
+   "ref": "Par. 22r.6",
+   "text": "στάμενος λόγον, ὡς ὁ ἔνατος ἀριθμὸς"
+  },
+  {
+   "ref": "Par. 22r.7",
+   "text": "πρὸς τὸν ὄγδοον· ὡς εἶναι τὸ ἡμιτό-"
+  },
+  {
+   "ref": "Par. 22r.8",
+   "text": "νιον, οἷον ὀκτὼ ἥμισυ· Τὴν δὲ δίε-"
+  },
+  {
+   "ref": "Par. 22r.9",
+   "text": "σιν ὅσον ὀκτωτέταρτον, εἰ γὰρ καὶ ἡ"
+  },
+  {
+   "ref": "Par. 22r.10",
+   "text": "μονὰς οὐ τέμνεται κατὰ τοὺς ἀριθ-"
+  },
+  {
+   "ref": "Par. 22r.11",
+   "text": "μούς, ἀλλ’ ἡ ἐν ὕλῃ βλεπομένη μο-"
+  },
+  {
+   "ref": "Par. 22r.12",
+   "text": "νάς, τέμνεται γεωμετρικῶς· τὴν γὰρ"
+  },
+  {
+   "ref": "Par. 22r.13",
+   "text": "ἐπόγδοον διασώζουσαν λόγον νευ-"
+  },
+  {
+   "ref": "Par. 22r.14",
+   "text": "ράν, δυνατὸν ὑποτεμεῖν εἰς ἡμιε-"
+  },
+  {
+   "ref": "Par. 22r.15",
+   "text": "πόγδοον. ὅπερ ἐστὶν ἡμιτόνιον. καὶ"
+  },
+  {
+   "ref": "Par. 22r.16",
+   "text": "ταύτην πάλιν ὑποτεμεῖν δευτέ-"
+  },
+  {
+   "ref": "Par. 22r.17",
+   "text": "ρως, εἰς δίεσιν· ἡ γὰρ γεωμετρία, καὶ"
+  },
+  {
+   "ref": "Par. 22r.18",
+   "text": "ἐλάττονα ἀπὸ τῆς μείζονος κατὰ"
+  },
+  {
+   "ref": "Par. 22r.19",
+   "text": "πάντα τρόπον ἀφαιρεῖται εὐθεῖαν·"
+  },
+  {
+   "ref": "Par. 22r.20",
+   "text": "καὶ τῇ ἐλάττονι προστίθησι μείζο-"
+  },
+  {
+   "ref": "Par. 22r.21",
+   "text": "να. ἔνθεν καὶ ἅπαν σχῆμα, καὶ πα-"
+  },
+  {
+   "ref": "Par. 22r.22",
+   "text": "ραυξῆσαι κατὰ τὸ δοκοῦν μῆκος, καὶ"
+  },
+  {
+   "ref": "Par. 22v.1",
+   "text": "ἀγαγεῖν εἰς μείωσιν δύναται. τῇ δὲ"
+  },
+  {
+   "ref": "Par. 22v.2",
+   "text": "ἀριθμητικῇ τοῦτο ἀδύνατον. αὐ-"
+  },
+  {
+   "ref": "Par. 22v.3",
+   "text": "τίκα τὸ δοθὲν τετράγωνον· ἡ μὲν ἀ-"
+  },
+  {
+   "ref": "Par. 22v.4",
+   "text": "ριθμητική, εἰς ἴσα τεμεῖν τετράγω-"
+  },
+  {
+   "ref": "Par. 22v.5",
+   "text": "να. ἢ διπλασιάσαι τὸ δεδομένον, οὐ"
+  },
+  {
+   "ref": "Par. 22v.6",
+   "text": "δύναται· τὸν γὰρ ἑξκαιδέκατον ἀ-"
+  },
+  {
+   "ref": "Par. 22v.7",
+   "text": "ριθμὸν τετράγωνον ὄντα, οὔτε εἰς"
+  },
+  {
+   "ref": "Par. 22v.8",
+   "text": "ἴσα δυνατὸν διαιρεθῆναι τετράγω-"
+  },
+  {
+   "ref": "Par. 22v.9",
+   "text": "να. τὰ γὰρ ὀκτώ, τετραγωνισθῆναι,"
+  },
+  {
+   "ref": "Par. 22v.10",
+   "text": "ἀδύνατον. οὔτε εἰς ἕτερον διπλα-"
+  },
+  {
+   "ref": "Par. 22v.11",
+   "text": "σιασθῆναι τετράγωνον· τὸν γὰρ τρια-"
+  },
+  {
+   "ref": "Par. 22v.12",
+   "text": "κονταδύο ἀριθμόν, τετραγωνισθῆ-"
+  },
+  {
+   "ref": "Par. 22v.13",
+   "text": "ναι ἀμήχανον· τῇ γεωμετρίᾳ δὲ τοῦτο"
+  },
+  {
+   "ref": "Par. 22v.14",
+   "text": "ῥᾴδιον· τὴν γὰρ τοῦ δοθέντος τετρα-"
+  },
+  {
+   "ref": "Par. 22v.15",
+   "text": "γώνου πλευράν, εἰς διάμετρον ὁ γεω-"
+  },
+  {
+   "ref": "Par. 22v.16",
+   "text": "μέτρης μεταλαβών, καὶ τετράγω-"
+  },
+  {
+   "ref": "Par. 22v.17",
+   "text": "νον αὐτῇ περιθείς, ἥμισυ τοῦ δοθέν-"
+  },
+  {
+   "ref": "Par. 22v.18",
+   "text": "τος τετραγώνου ποιεῖ. καὶ τὴν διάμε-"
+  },
+  {
+   "ref": "Par. 22v.19",
+   "text": "τρον πάλιν τοῦ δοθέντος, μετειλη-"
+  },
+  {
+   "ref": "Par. 22v.20",
+   "text": "φὼς εἰς πλευράν, τὸ δοθὲν διπλα-"
+  },
+  {
+   "ref": "Par. 22v.21",
+   "text": "σιάζει τετράγωνον· ταύτῃ τοι καὶ ὁ ἐπό-"
+  },
+  {
+   "ref": "Par. 22v.22",
+   "text": "γδοος τοῦ τόνου λόγος εἰς ἡμιτόνιον"
+  },
+  {
+   "ref": "Par. 23r.1",
+   "text": "διαιρεῖται· καὶ αὖθις εἰς δίεσιν· πα-"
+  },
+  {
+   "ref": "Par. 23r.2",
+   "text": "ραυξήσει δὲ τούτων, καὶ ἕτερα ἀσύν-"
+  },
+  {
+   "ref": "Par. 23r.3",
+   "text": "θετα διαστήματα γίνεται·"
+  },
+  {
+   "ref": "Par. 23r.4",
+   "text": "Τριδίεσις. τριημιτόνιον· διτόνιόν"
+  },
+  {
+   "ref": "Par. 23r.5",
+   "text": "τε. καὶ τριτόνιον· καὶ ὡς ἄν τις βούλοι-"
+  },
+  {
+   "ref": "Par. 23r.6",
+   "text": "το. καὶ ὁ ῥυθμὸς ἐπιτρέψῃ. ὡς ἐν τοῖς"
+  },
+  {
+   "ref": "Par. 23r.7",
+   "text": "ἑπομένοις γνωσθήσεται. Ἀσύν-"
+  },
+  {
+   "ref": "Par. 23r.8",
+   "text": "θετα δὲ εἴρηται, τῷ ὡς ἓν ἐκ συμ-"
+  },
+  {
+   "ref": "Par. 23r.9",
+   "text": "φθάρσεως διὰ τριῶν διέσεων, ἢ"
+  },
+  {
+   "ref": "Par. 23r.10",
+   "text": "τριῶν ἡμιτονίων. ἢ καὶ διαφόρων τό-"
+  },
+  {
+   "ref": "Par. 23r.11",
+   "text": "νων, μέλος συναπαρτίζεσθαι· δύνα-"
+  },
+  {
+   "ref": "Par. 23r.12",
+   "text": "μιν μὲν ἔχον διαφόρων διαστημάτων."
+  },
+  {
+   "ref": "Par. 23r.13",
+   "text": "δι’ ἑνὸς δὲ διαστήματος ἀπηχούμενον."
+  },
+  {
+   "ref": "Par. 23r.14",
+   "text": "παρὰ δὲ ταῦτα, ἕτερα διαστήμα-"
+  },
+  {
+   "ref": "Par. 23r.15",
+   "text": "τα· τὸ διὰ τεσσάρων. καὶ διὰ πέντε."
+  },
+  {
+   "ref": "Par. 23r.16",
+   "text": "καὶ διὰ πασῶν. ταῦτα δὲ οὐκ ἄμεσα."
+  },
+  {
+   "ref": "Par. 23r.17",
+   "text": "οὐδ’ ἀσύνθετα. ἀλλὰ διὰ μέσων"
+  },
+  {
+   "ref": "Par. 23r.18",
+   "text": "τῶν εἰρημένων πάντων διαστημάτων·"
+  },
+  {
+   "ref": "Par. 23r.19",
+   "text": "ὁδεύοντα. ἃ τῷ μὲν λόγῳ τῆς ἀπὸ"
+  },
+  {
+   "ref": "Par. 23r.20",
+   "text": "τοῦ πρώτου φθόγγου, ἐπὶ τὸν τελευ-"
+  },
+  {
+   "ref": "Par. 23r.21",
+   "text": "ταῖον ἠχῆς, διαστήματα ὀνομάζον-"
+  },
+  {
+   "ref": "Par. 23r.22",
+   "text": "ται. τῇ δὲ τῶν διὰ μέσου φθόγγων"
+  },
+  {
+   "ref": "Par. 23v.1",
+   "text": "κατατεταγμένῃ ποσότητι, τὰς τοι-"
+  },
+  {
+   "ref": "Par. 23v.2",
+   "text": "άσδε προσηγορίας ἐδέξαντο· τὸ διὰ"
+  },
+  {
+   "ref": "Par. 23v.3",
+   "text": "τεσσάρων, ὡς διὰ τεσσάρων φθόγ-"
+  },
+  {
+   "ref": "Par. 23v.4",
+   "text": "γων. εἴτ’ οὖν χορδῶν διοδεῦον· καὶ"
+  },
+  {
+   "ref": "Par. 23v.5",
+   "text": "περαινόμενον. καὶ τὸ διὰ πέντε ὡς διὰ"
+  },
+  {
+   "ref": "Par. 23v.6",
+   "text": "πέντε τελούμενον. καὶ τὸ διὰ πασῶν, ὡς"
+  },
+  {
+   "ref": "Par. 23v.7",
+   "text": "δι’ ὀκτὼ τελειούμενον· διὰ πασῶν δέ,"
+  },
+  {
+   "ref": "Par. 23v.8",
+   "text": "τὸ δι’ ὀκτὼ λέγεται, ὡς ἐν τῷ ὀκτα-"
+  },
+  {
+   "ref": "Par. 23v.9",
+   "text": "χόρδῳ τῶν ὅλων διαστάσεων συμ-"
+  },
+  {
+   "ref": "Par. 23v.10",
+   "text": "πληρουμένων κἀκεῖθεν αὖθις ἐπα-"
+  },
+  {
+   "ref": "Par. 23v.11",
+   "text": "ναδιπλουμένων· ὡς καὶ ἀπ’ αὐτῆς"
+  },
+  {
+   "ref": "Par. 23v.12",
+   "text": "δηλοῦται τῆς φερωνυμίας τῶν κλή-"
+  },
+  {
+   "ref": "Par. 23v.13",
+   "text": "σεων· δὶς γὰρ διὰ τεσσάρων· καὶ δὶς"
+  },
+  {
+   "ref": "Par. 23v.14",
+   "text": "διὰ πέντε· καὶ δὶς διὰ πασῶν, αἱ"
+  },
+  {
+   "ref": "Par. 23v.15",
+   "text": "μετὰ ταῦτα διαστάσεις καλοῦνται."
+  },
+  {
+   "ref": "Par. 23v.16",
+   "text": "Συμφωνεῖ δέ, ἡ μὲν διὰ τεσσάρων"
+  },
+  {
+   "ref": "Par. 23v.17",
+   "text": "διάστασις καὶ ἡ διὰ πέντε, κατὰ πα-"
+  },
+  {
+   "ref": "Par. 23v.18",
+   "text": "ράφωνον· ἡ δὲ διὰ πασῶν, καὶ ἡ δὶς"
+  },
+  {
+   "ref": "Par. 23v.19",
+   "text": "διὰ τεσσάρων. καὶ ἡ δὶς διὰ πέντε."
+  },
+  {
+   "ref": "Par. 23v.20",
+   "text": "καὶ ἡ δὶς διὰ πασῶν, κατὰ ἀντίφω-"
+  },
+  {
+   "ref": "Par. 23v.21",
+   "text": "νον. διαφέρει δ’ ἀλλήλων. τό, τε πα-"
+  },
+  {
+   "ref": "Par. 23v.22",
+   "text": "ράφωνον, καὶ ἀντίφωνον, τῷ τὸ μὲν"
+  },
+  {
+   "ref": "Par. 24r.1",
+   "text": "παράφωνον ἀνισοχρόνως συμφω-"
+  },
+  {
+   "ref": "Par. 24r.2",
+   "text": "νεῖν· ἠπίως πῶς καὶ εὐρύθμως δια-"
+  },
+  {
+   "ref": "Par. 24r.3",
+   "text": "δεχομένων ἀλλήλοις τῶν φθόγ-"
+  },
+  {
+   "ref": "Par. 24r.4",
+   "text": "γων ἀναλογίαις καὶ λόγοις καθ’ ὁ-"
+  },
+  {
+   "ref": "Par. 24r.5",
+   "text": "μαλότητα· τὸ δὲ ἀντίφωνον, ἰσο-"
+  },
+  {
+   "ref": "Par. 24r.6",
+   "text": "χρόνως τοῦ ὀξέως τῷ βάρει κατὰ"
+  },
+  {
+   "ref": "Par. 24r.7",
+   "text": "ταυτὸν συμφωνοῦντος· οἷον τοῦ ὀγ-"
+  },
+  {
+   "ref": "Par. 24r.8",
+   "text": "δόου τῷ πρώτῳ· τοῦ ἐνδεκάτου,"
+  },
+  {
+   "ref": "Par. 24r.9",
+   "text": "τῷ τετάρτῳ· τοῦ δωδεκάτου τῷ"
+  },
+  {
+   "ref": "Par. 24r.10",
+   "text": "πέμπτῳ· καὶ τοῦ πεντεκαιδεκάτου"
+  },
+  {
+   "ref": "Par. 24r.11",
+   "text": "τῷ ὀγδόῳ. συνανιόντων, ἢ συγκα-"
+  },
+  {
+   "ref": "Par. 24r.12",
+   "text": "τιόντων ἐν ταῖς τάσεσιν, ἢ ἀνέσεσι"
+  },
+  {
+   "ref": "Par. 24r.13",
+   "text": "τῶν βαρέων, τοῖς ὀξέσιν· ἢ τῶν ὀξέων"
+  },
+  {
+   "ref": "Par. 24r.14",
+   "text": "τοῖς βαρέσι, κατὰ ἀνάλογον. ὁ δὲ"
+  },
+  {
+   "ref": "Par. 24r.15",
+   "text": "τόνος. καὶ τὸ ἡμιτόνιον· καὶ ἡ δίεσις,"
+  },
+  {
+   "ref": "Par. 24r.16",
+   "text": "καθ’ ἑαυτὰ θεωρούμενα, ἀρχὴ μὲν"
+  },
+  {
+   "ref": "Par. 24r.17",
+   "text": "συμφωνίας. οὔπω δὲ συμφωνία·"
+  },
+  {
+   "ref": "Par. 24r.18",
+   "text": "συμπληροῦται δέ, τὸ μὲν διὰ τεσσά-"
+  },
+  {
+   "ref": "Par. 24r.19",
+   "text": "ρων, ἐκ δύο τόνων· καὶ ἡμιτονίου. καὶ"
+  },
+  {
+   "ref": "Par. 24r.20",
+   "text": "μικρόν τι πρός. ὃ καὶ διέσεως ἧτ-"
+  },
+  {
+   "ref": "Par. 24r.21",
+   "text": "τον ὄν, προσωνυμίας οὐκ ἔτυχε· τὸ"
+  },
+  {
+   "ref": "Par. 24r.22",
+   "text": "δὲ διὰ πέντε ἐκ τριῶν καὶ ἡμιτονίου."
+  },
+  {
+   "ref": "Par. 24v.1",
+   "text": "τὸ δὲ διὰ πασῶν, δι’ ἕξ, τὸ δὲ διὰ πα-"
+  },
+  {
+   "ref": "Par. 24v.2",
+   "text": "σῶν καὶ δὶς διὰ τεσσάρων, δι’ ὀκτὼ"
+  },
+  {
+   "ref": "Par. 24v.3",
+   "text": "καὶ ἡμιτονίου. τὸ δὲ διὰ πασῶν καὶ δὶς"
+  },
+  {
+   "ref": "Par. 24v.4",
+   "text": "διὰ πέντε, δι’ ἐννέα καὶ ἡμιτονίου. τὸ δὲ"
+  },
+  {
+   "ref": "Par. 24v.5",
+   "text": "δὶς διὰ πασῶν, διὰ δώδεκα. λόγος"
+  },
+  {
+   "ref": "Par. 24v.6",
+   "text": "δὲ τοῦ μὲν διὰ τεσσάρων, ἐπίτριτος. τοῦ δὲ"
+  },
+  {
+   "ref": "Par. 24v.7",
+   "text": "διὰ πέντε, ἡμιόλιος. τοῦ δὲ διὰ πασῶν,"
+  },
+  {
+   "ref": "Par. 24v.8",
+   "text": "διπλάσιος. τοῦ διὰ πασῶν καὶ διὰ"
+  },
+  {
+   "ref": "Par. 24v.9",
+   "text": "τεσσάρων, διπλασιεπιμερής. τοῦ"
+  },
+  {
+   "ref": "Par. 24v.10",
+   "text": "διὰ πασῶν. καὶ δὶς διὰ πέντε, τρι-"
+  },
+  {
+   "ref": "Par. 24v.11",
+   "text": "πλάσιος. οἷον ὡς ἐπὶ ὑποδείγμα-"
+  },
+  {
+   "ref": "Par. 24v.12",
+   "text": "τος κείσθω πρῶτος ἐν ἀριθμοῖς ὅρος,"
+  },
+  {
+   "ref": "Par. 24v.13",
+   "text": "ὁ ἕκτος ἡμῖν ἀριθμός. πρὸς ὃν πάν-"
+  },
+  {
+   "ref": "Par. 24v.14",
+   "text": "τως ἐπίτριτος, ὁ ὄγδοος. ἡμιόλιος ὁ"
+  },
+  {
+   "ref": "Par. 24v.15",
+   "text": "ἔννατος. διπλάσιος ὁ δωδέκατος."
+  },
+  {
+   "ref": "Par. 24v.16",
+   "text": "διπλασιεπιμερής ὁ ἑξκαιδέκατος."
+  },
+  {
+   "ref": "Par. 24v.17",
+   "text": "τὸ ἕκτον δὶς ἔχων. καὶ δύο μέρη αὐ-"
+  },
+  {
+   "ref": "Par. 24v.18",
+   "text": "τοῦ τριπλάσιος ὁ ὀκτωκαιδέκατος."
+  },
+  {
+   "ref": "Par. 24v.19",
+   "text": "τετραπλάσιος, ὁ εἰκοστὸς τέταρ-"
+  },
+  {
+   "ref": "Par. 24v.20",
+   "text": "τος. εἰδέναι μέντοι χρή, ὡς οὐ πρὸς"
+  },
+  {
+   "ref": "Par. 24v.21",
+   "text": "τὸν ἀριθμὸν τῶν φθόγγων ἢ τῶν χορ-"
+  },
+  {
+   "ref": "Par. 24v.22",
+   "text": "δῶν, οἱ λόγοι τῶν διαστάσεων κρίνον-"
+  },
+  {
+   "ref": "Par. 25r.1",
+   "text": "ται· ἀλλὰ πρὸς τὴν ἐπίτασιν τῆς"
+  },
+  {
+   "ref": "Par. 25r.2",
+   "text": "ἠχῆς τῆς ἀπὸ τοῦ βαρέος πρὸς τὸ ὀ-"
+  },
+  {
+   "ref": "Par. 25r.3",
+   "text": "ξύτερον. ἐπείτοιγε τὸ διὰ πέντε διά-"
+  },
+  {
+   "ref": "Par. 25r.4",
+   "text": "στημα, λόγον ἡμιόλιον ἔχον, οὐ πρὸς"
+  },
+  {
+   "ref": "Par. 25r.5",
+   "text": "τὴν ὑπεροχὴν τῆς τῶν φθόγγων, πο-"
+  },
+  {
+   "ref": "Par. 25r.6",
+   "text": "σότητος, ἣν ἔχει πρὸς τοὺς πρὸ αὐτοῦ"
+  },
+  {
+   "ref": "Par. 25r.7",
+   "text": "συγκρινόμενος φαίνεται ἡμιόλιος·"
+  },
+  {
+   "ref": "Par. 25r.8",
+   "text": "πρὸς μὲν γὰρ τὸν πρῶτον φθόγγον,"
+  },
+  {
+   "ref": "Par. 25r.9",
+   "text": "πενταπλασίων εὑρίσκεται. πρὸς"
+  },
+  {
+   "ref": "Par. 25r.10",
+   "text": "δὲ τὸν δεύτερον, διπλασιημιόλιος."
+  },
+  {
+   "ref": "Par. 25r.11",
+   "text": "πρὸς δὲ τὸν τρίτον, ἐπιδιμερής· πρὸς"
+  },
+  {
+   "ref": "Par. 25r.12",
+   "text": "δὲ τὸν τέταρτον, ἐπιτέταρτος· ἐπ’"
+  },
+  {
+   "ref": "Par. 25r.13",
+   "text": "οὐδενὶ δὲ δείκνυται ἡμιόλιος· πρὸς"
+  },
+  {
+   "ref": "Par. 25r.14",
+   "text": "τὴν ἐπίτασιν, τοιγαροῦν τῆς ὀξύτητος,"
+  },
+  {
+   "ref": "Par. 25r.15",
+   "text": "οὐ πρὸς τὸν ἀριθμὸν τῶν φθόγγων"
+  },
+  {
+   "ref": "Par. 25r.16",
+   "text": "κρίνεται ἡμιόλιος· τὸ δ’ αὐτὸ καὶ περὶ"
+  },
+  {
+   "ref": "Par. 25r.17",
+   "text": "τοὺς λοιποὺς τῶν λόγων νοήσομεν· ἐξ-"
+  },
+  {
+   "ref": "Par. 25r.18",
+   "text": "εύρηνται δὲ οἱ τοιοῦτοι τῶν διαστάσεων"
+  },
+  {
+   "ref": "Par. 25r.19",
+   "text": "λόγοι, ἀπὸ τῆς διαφορᾶς τοῦ μήκους"
+  },
+  {
+   "ref": "Par. 25r.20",
+   "text": "τῶν χορδῶν· ἢ τῆς παχύτητος· ἢ τῆς"
+  },
+  {
+   "ref": "Par. 25r.21",
+   "text": "τάσεως, γινομένης κατὰ τὴν στρο-"
+  },
+  {
+   "ref": "Par. 25r.22",
+   "text": "φὴν τῶν κολάβων. ἢ γνωριμώτερον"
+  },
+  {
+   "ref": "Par. 25v.1",
+   "text": "ἀπὸ τῆς ἐξαρτήσεως τῶν βαρῶν."
+  },
+  {
+   "ref": "Par. 25v.2",
+   "text": "ἐπὶ δὲ τῶν ἐμπνευστῶν, ἢ ἀπὸ τῆς εὐ-"
+  },
+  {
+   "ref": "Par. 25v.3",
+   "text": "ρύτητος τῶν κοιλιῶν, ἢ ἀπὸ τῆς ἐπι-"
+  },
+  {
+   "ref": "Par. 25v.4",
+   "text": "τάσεως τοῦ πνεύματος καὶ ἀνέσεως."
+  },
+  {
+   "ref": "Par. 25v.5",
+   "text": "τῶν δὲ διαστημάτων· τὸ μέν ἐστι τε-"
+  },
+  {
+   "ref": "Par. 25v.6",
+   "text": "τράχορδον· τὰς τοῦ διὰ τεσσάρων"
+  },
+  {
+   "ref": "Par. 25v.7",
+   "text": "ἁπάσας ἐμπεριέχον δυνάμεις· τὸ"
+  },
+  {
+   "ref": "Par. 25v.8",
+   "text": "δὲ πεντάχορδον, τὰς τοῦ πέντε"
+  },
+  {
+   "ref": "Par. 25v.9",
+   "text": "δυνάμεις περιλαμβάνον· τὸ δὲ ὀκ-"
+  },
+  {
+   "ref": "Par. 25v.10",
+   "text": "τάχορδον, τὴν ὕλην τοῦ διὰ πασῶν"
+  },
+  {
+   "ref": "Par. 25v.11",
+   "text": "περιέχον ἰσχύν. τὸ δὲ κατὰ συνέ-"
+  },
+  {
+   "ref": "Par. 25v.12",
+   "text": "χειαν ἑκκαιδεκάχορδον, τὴν τοῦ"
+  },
+  {
+   "ref": "Par. 25v.13",
+   "text": "δὶς διὰ πασῶν ὁλοσχερῆ συνέχον"
+  },
+  {
+   "ref": "Par. 25v.14",
+   "text": "διάτασιν, διπλᾶς τὰς δυνάμεις ἀ-"
+  },
+  {
+   "ref": "Par. 25v.15",
+   "text": "ποφερόμενον· αὐτάς τε γὰρ τὰς προ-"
+  },
+  {
+   "ref": "Par. 25v.16",
+   "text": "ειρημένας, καὶ τὰς τοῦ δὶς διὰ τεσ-"
+  },
+  {
+   "ref": "Par. 25v.17",
+   "text": "σάρων· καὶ τοῦ δὶς διὰ πέντε, καὶ τοῦ"
+  },
+  {
+   "ref": "Par. 25v.18",
+   "text": "δὶς διὰ πασῶν. ἐν ἑαυτῷ περιέχει."
+  },
+  {
+   "ref": "Par. 25v.19",
+   "text": "Διαφέρει δὲ τὰ συστήματα τῶν ἐν μέ-"
+  },
+  {
+   "ref": "Par. 25v.20",
+   "text": "σῳ διαστημάτων, τῷ τὰ μέν, ἐν ὕλῃ"
+  },
+  {
+   "ref": "Par. 25v.21",
+   "text": "τὴν σύστασιν ἔχειν, τὰ δὲ διαστήματα"
+  },
+  {
+   "ref": "Par. 25v.22",
+   "text": "ἐξ ἀφαιρέσεως τῆς ὕλης νοεῖσθαι."
+  },
+  {
+   "ref": "Par. 26r.1",
+   "text": "τῆς δὲ ἁρμονίας ἴδιον, τὸ τὰ τοι-"
+  },
+  {
+   "ref": "Par. 26r.2",
+   "text": "αῦτα συστήματα συντάττειν καὶ"
+  },
+  {
+   "ref": "Par. 26r.3",
+   "text": "συναρμολογεῖν, πρὸς τὸ τοιόνδε τῆς"
+  },
+  {
+   "ref": "Par. 26r.4",
+   "text": "μελῳδίας γένος. οἷον τὸ διάτονον. τὸ"
+  },
+  {
+   "ref": "Par. 26r.5",
+   "text": "χρωματικόν. καὶ τὸ παρωνύμας ἀπ’"
+  },
+  {
+   "ref": "Par. 26r.6",
+   "text": "αὐτῆς ἁρμονίας, ἁρμονικὸν προσ-"
+  },
+  {
+   "ref": "Par. 26r.7",
+   "text": "αγορευόμενον. Εἰ μὲν οὖν διὰ τό-"
+  },
+  {
+   "ref": "Par. 26r.8",
+   "text": "νων τὸ πλεῖστον ἡ ἁρμονία προάγοι-"
+  },
+  {
+   "ref": "Par. 26r.9",
+   "text": "το, τὸ διάτονον οὕτω καλούμενον κα-"
+  },
+  {
+   "ref": "Par. 26r.10",
+   "text": "τασκευάζεται γένος· εἰ δὲ δι’ ἡμιτο-"
+  },
+  {
+   "ref": "Par. 26r.11",
+   "text": "νίων, τὸ χρωματικόν· εἰ δὲ διέσεσι"
+  },
+  {
+   "ref": "Par. 26r.12",
+   "text": "μᾶλλον,, ἢ ἁρμονία συνέχεται, τὸ"
+  },
+  {
+   "ref": "Par. 26r.13",
+   "text": "ἁρμονικὸν λεγόμενον ἀπαρτίζεται"
+  },
+  {
+   "ref": "Par. 26r.14",
+   "text": "μέλος· οὐ μὴν τὸ πᾶν διὰ τόνων τὰ"
+  },
+  {
+   "ref": "Par. 26r.15",
+   "text": "τῆς ἁρμονίας προφέρεται· οὐδὲ"
+  },
+  {
+   "ref": "Par. 26r.16",
+   "text": "δι’ ἡμιτονίων τὸ πᾶν. οὐδὲ τὸ πᾶν"
+  },
+  {
+   "ref": "Par. 26r.17",
+   "text": "ἐκ διέσεων, οὐδὲ γὰρ δυνατόν."
+  },
+  {
+   "ref": "Par. 26r.18",
+   "text": "Ἀλλ’ ἐπεὶ τρισὶ διαστάσεσι, τὸ διὰ"
+  },
+  {
+   "ref": "Par. 26r.19",
+   "text": "τεσσάρων ἀπήρτισται· δυσὶ δὲ τόνοις"
+  },
+  {
+   "ref": "Par. 26r.20",
+   "text": "καὶ ἡμιτονίῳ διείληπται. δύο τονι-"
+  },
+  {
+   "ref": "Par. 26r.21",
+   "text": "αίων διαστημάτων ἐντιθεμένων, ἀ-"
+  },
+  {
+   "ref": "Par. 26r.22",
+   "text": "νάγκη τὸ λοιπὼν τελεῖν ἡμιτόνιον·"
+  },
+  {
+   "ref": "Par. 26v.1",
+   "text": "καὶ τοῦτ’ ἂν εἴη τὸ διὰ τεσσάρων"
+  },
+  {
+   "ref": "Par. 26v.2",
+   "text": "διάτονον ὀνομαζόμενον γένος, ἐξ ἡ-"
+  },
+  {
+   "ref": "Par. 26v.3",
+   "text": "μιτονίου καὶ δύο ἀπαρτιζόμενον τό-"
+  },
+  {
+   "ref": "Par. 26v.4",
+   "text": "νων. Εἰ δὲ δύο εἴη τὰ ἡμιτόνια, τὸ"
+  },
+  {
+   "ref": "Par. 26v.5",
+   "text": "λοιπὸν γένοιτ’ ἂν ἓν ἐκ συμφθάρ-"
+  },
+  {
+   "ref": "Par. 26v.6",
+   "text": "σεως διάστημα. τριημιτόνιον ἀσύν-"
+  },
+  {
+   "ref": "Par. 26v.7",
+   "text": "θετον, ἐξ ἡμιτονίων δύο, καὶ τριημι-"
+  },
+  {
+   "ref": "Par. 26v.8",
+   "text": "τονίου συγκεκραμένον. εἴη δ’ ἂν τοῦ-"
+  },
+  {
+   "ref": "Par. 26v.9",
+   "text": "το, τὸ διὰ τεσσάρων γένος χρωμα-"
+  },
+  {
+   "ref": "Par. 26v.10",
+   "text": "τικόν. παθητικώτερόν τε τοῦ προτέ-"
+  },
+  {
+   "ref": "Par. 26v.11",
+   "text": "ρου καὶ γοέτερον. εἰ δὲ κατὰ δύο διέ-"
+  },
+  {
+   "ref": "Par. 26v.12",
+   "text": "σεις ἡ μελῳδία προάγοιτο, θάτε-"
+  },
+  {
+   "ref": "Par. 26v.13",
+   "text": "ρον ἔσται τῶν διαστημάτων ἓν διτό-"
+  },
+  {
+   "ref": "Par. 26v.14",
+   "text": "νιον ἐκ συμφθάρσεως, καὶ τὸ διὰ"
+  },
+  {
+   "ref": "Par. 26v.15",
+   "text": "τεσσάρων τοῦτο γένος, ἁρμονικὸν"
+  },
+  {
+   "ref": "Par. 26v.16",
+   "text": "ὀνομάζεται. τῷ εἶναι ἄριστον, ἐκ τῆς"
+  },
+  {
+   "ref": "Par. 26v.17",
+   "text": "κοινῆς ἁρμονίας τὴν παρωνυμίαν"
+  },
+  {
+   "ref": "Par. 26v.18",
+   "text": "ἀπενεγκάμενον. τὸν ὅμοιον δὲ τρό-"
+  },
+  {
+   "ref": "Par. 26v.19",
+   "text": "πον, καὶ τὰ λοιπὰ τῶν συστημάτων ἡ"
+  },
+  {
+   "ref": "Par. 26v.20",
+   "text": "ἁρμονία συντάττει. τῷ γὰρ ἑνὸς τὸ"
+  },
+  {
+   "ref": "Par. 26v.21",
+   "text": "τετραχόρδου περὶ τὰ διαστήματα"
+  },
+  {
+   "ref": "Par. 26v.22",
+   "text": "τοῦ διὰ τεσσάρων συντακτικῷ ὑπο-"
+  },
+  {
+   "ref": "Par. 27r.1",
+   "text": "δείγματι, ῥᾴδιον τῷ φιλομαθεῖ καὶ"
+  },
+  {
+   "ref": "Par. 27r.2",
+   "text": "περὶ τῶν ἑξῆς συστημάτων κατα-"
+  },
+  {
+   "ref": "Par. 27r.3",
+   "text": "στοχάζεσθαι· Δυσμελῳδικώτατον"
+  },
+  {
+   "ref": "Par. 27r.4",
+   "text": "μέντοι τὸ ἁρμονικὸν γένος τῆς με-"
+  },
+  {
+   "ref": "Par. 27r.5",
+   "text": "λῳδίας ἐστί. καὶ πολλῆς τριβῆς, καὶ"
+  },
+  {
+   "ref": "Par. 27r.6",
+   "text": "συνηθείας δεόμενον. ὅθεν οὐδ’ εἰς"
+  },
+  {
+   "ref": "Par. 27r.7",
+   "text": "χρῆσιν ῥᾳδίως ἔρχεται, τὸ δὲ διά-"
+  },
+  {
+   "ref": "Par. 27r.8",
+   "text": "τονον, ἁπλοῦν τε, καὶ γενναῖον καὶ φυ-"
+  },
+  {
+   "ref": "Par. 27r.9",
+   "text": "σικώτερον· διὸ δὴ τοῦτο παραλαμ-"
+  },
+  {
+   "ref": "Par. 27r.10",
+   "text": "βάνει καὶ πλάτων. τούτων δὲ πάλιν"
+  },
+  {
+   "ref": "Par. 27r.11",
+   "text": "ἕκαστον ποικίλλεται, καὶ εἰς πολλὰς"
+  },
+  {
+   "ref": "Par. 27r.12",
+   "text": "διαιρέσεις, καὶ διαφοράς, καὶ εἴδη"
+  },
+  {
+   "ref": "Par. 27r.13",
+   "text": "μελῳδιῶν κατατέμνεται. καὶ νῦν"
+  },
+  {
+   "ref": "Par. 27r.14",
+   "text": "μὲν λύδιον, νῦν δὲ φρύγιον, νῦν δὲ"
+  },
+  {
+   "ref": "Par. 27r.15",
+   "text": "δώριον ἐναρμόζεται μέλος. ὧν ἐφ’"
+  },
+  {
+   "ref": "Par. 27r.16",
+   "text": "ἑκάστῳ παιήων. ὑμέναιος. ἐξόδιος."
+  },
+  {
+   "ref": "Par. 27r.17",
+   "text": "καὶ ὅσα εἴδη μελῳδιῶν ἀναφαίνεται·"
+  },
+  {
+   "ref": "Par. 27r.18",
+   "text": "οὐ γὰρ τῇ τῶν διαστημάτων μόνῃ με-"
+  },
+  {
+   "ref": "Par. 27r.19",
+   "text": "ταφορᾷ. οὐδὲ τῇ μόνῃ τούτων δια-"
+  },
+  {
+   "ref": "Par. 27r.20",
+   "text": "φορᾷ. ἀλλὰ καὶ ταῖς χολαιοτέραις·"
+  },
+  {
+   "ref": "Par. 27r.21",
+   "text": "καὶ ταχιναῖς μεταβάσεσι. διαμο-"
+  },
+  {
+   "ref": "Par. 27r.22",
+   "text": "ναῖς τε καὶ ῥοαῖς· καὶ ταῖς τῶν ἐπα-"
+  },
+  {
+   "ref": "Par. 27v.1",
+   "text": "φῶν καὶ κρουμάτων ποικίλαις με-"
+  },
+  {
+   "ref": "Par. 27v.2",
+   "text": "ταχειρίσεσι, τὰ μυρία τῶν μελῳ-"
+  },
+  {
+   "ref": "Par. 27v.3",
+   "text": "διῶν, καὶ ποικίλα, κατασκευάζεται."
+  },
+  {
+   "ref": "Par. 27v.4",
+   "text": "Τέλος τῆς μουσικῆς·"
+  }
+ ]
+}

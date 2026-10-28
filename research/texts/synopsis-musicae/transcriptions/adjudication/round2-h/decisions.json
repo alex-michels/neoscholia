@@ -1,0 +1,3724 @@
+[
+ {
+  "id": "H 64r.11",
+  "group": "h1",
+  "ref": "H 64r.11",
+  "image": "source/pal-gr-281/cpgraec281_0137-f64r.jpg",
+  "reading_1": "λογία. τὸ πᾶν οἷον τοῦ παντὸς ἁρμονία",
+  "reading_2": "λογία· τὸ πᾶν οἷα τοῦ παντὸς ἁρμονία",
+  "context": "The letters of this line were already decided in an earlier round; judge ONLY the punctuation differences listed.",
+  "rows": [
+   {
+    "difference": "punctuation after word 1 «λογία»: (1) «.» (low/middle point)  /  (2) «·» (high point)",
+    "status": "decided",
+    "choice": "1",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "The point after λογία is at 1278-1286 px against α/τ at about 1262-1292. That puts it at about 0.33 of the x-height, near the baseline, so it is a low point."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "After λογία a round point sits at lower-middle height, level with the lower half of the α bowl and well below the top of the letters."
+    }
+   }
+  ],
+  "A_reading": "λογία. τὸ πᾶν ...",
+  "B_reading": "λογία. τὸ πᾶν ...",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 64r.2",
+  "group": "h1",
+  "ref": "H 64r.2",
+  "image": "source/pal-gr-281/cpgraec281_0137-f64r.jpg",
+  "reading_1": "⟦r Μ⟧ουσικὴν οἱ παλαιοί, συνέχειν εἶπον τὸ πᾶν·",
+  "reading_2": "⟦r Μ⟧ουσικὴν οἱ παλαιοὶ. συνέχειν εἶπον τὸ πᾶν·",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «παλαιοί,»  /  (2) «παλαιοὶ.»",
+    "status": "decided",
+    "choice": "other",
+    "winner": null,
+    "A": {
+     "difference": 1,
+     "choice": "other",
+     "other": "παλαιοὶ,",
+     "confidence": "high",
+     "seen": "At 8x the accent over οι runs from upper left down to lower right, so it is a grave, not an acute. After ι there is a comma at the baseline: the head is at upper right and the tail curls down to the left. It is not a round point. So reading 1 has the punctuation right and reading 2 has the accent right."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "other",
+     "other": "παλαιοὶ,",
+     "confidence": "high",
+     "seen": "The accent over -οι is a grave: the stroke runs down from upper left to lower right. After ι a mark sits on the baseline with a thick head at upper right and a tail curving down to the left, so it is a comma. It is not a round point like the one after ὄντων. on line 3. Reading 1 is right on the comma but wrong on the accent; reading 2 is right on the accent but wrong on the point."
+    }
+   }
+  ],
+  "A_reading": "⟦r Μ⟧ουσικὴν οἱ παλαιοὶ, συνέχειν εἶπον τὸ πᾶν·",
+  "B_reading": "Μουσικὴν οἱ παλαιοὶ, συνέχειν εἶπον τὸ πᾶν·",
+  "A_note": null,
+  "B_note": "Neither reading is fully right: the image has the grave accent of reading 2 and the comma of reading 1."
+ },
+ {
+  "id": "H 64r.21",
+  "group": "h1",
+  "ref": "H 64r.21",
+  "image": "source/pal-gr-281/cpgraec281_0137-f64r.jpg",
+  "reading_1": "φύσει· μακαριότητα δὲ τῆι νοήσει χαριζο",
+  "reading_2": "φύσει· μακαριότητα δὲ τῆι νοήσει χαρίζο",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «χαριζο»  /  (2) «χαρίζο»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "gpt",
+    "A": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "At 3x nothing is written above the ι, or anywhere over χαριζο; there are only tiny scattered specks in the parchment. The word's accent is on the next line: μένης has an acute on ε."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "No accent is written anywhere over χαριζο; the space above is empty apart from foxing specks. The word's accent is written on μέ- at the start of line 22 (χαριζο|μένης)."
+    }
+   }
+  ],
+  "A_reading": "φύσει· μακαριότητα δὲ τῆι νοήσει χαριζο",
+  "B_reading": "φύσει· μακαριότητα δὲ τῆι νοήσει χαριζο",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 64r.22",
+  "group": "h1",
+  "ref": "H 64r.22",
+  "image": "source/pal-gr-281/cpgraec281_0137-f64r.jpg",
+  "reading_1": "μένης. περὶ τῆς ἐν αἰσθήσει μουσικῆς.",
+  "reading_2": "μένης, περὶ τῆς ἐν αἰσθήσει μουσικῆς·",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «μένης.»  /  (2) «μένης,»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "After the lunate sigma of μένης there is a comma at and slightly below the baseline: head at upper right, tail to the lower left."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "After μένης (lunate sigma) there is a baseline hook with its head at upper right and its tail curving down-left, so it is a comma."
+    }
+   },
+   {
+    "difference": "(1) «μουσικῆς.»  /  (2) «μουσικῆς·»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "claude",
+    "A": {
+     "difference": 2,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "After the final σ of μουσικῆς there is a round point level with the top of the letters (about y 2137-2145 against the letter tops at about 2140), so it is a high point."
+    },
+    "B": {
+     "difference": 2,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "After the long final sigma of μουσικῆς a round point sits above the top of the letters, so it is a high point."
+    }
+   }
+  ],
+  "A_reading": "μένης, περὶ τῆς ἐν αἰσθήσει μουσικῆς·",
+  "B_reading": "μένης, περὶ τῆς ἐν αἰσθήσει μουσικῆς·",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 64r.5",
+  "group": "h1",
+  "ref": "H 64r.5",
+  "image": "source/pal-gr-281/cpgraec281_0137-f64r.jpg",
+  "reading_1": "νομένων. μὴ μετὰ συμμετρίας τῆς προση",
+  "reading_2": "νομένων, μὴ μετὰ συμμετρίας τῆς προση",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «νομένων.»  /  (2) «νομένων,»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "After the final ν there is a comma on the baseline: a heavy head at upper right with a tail turning down to the lower left. It is the same shape as the comma after παλαιοὶ on line 2."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "After νομένων there is a hooked mark on the baseline: thick head at upper right, tail turning down-left under the line. It is a comma."
+    }
+   }
+  ],
+  "A_reading": "νομένων, μὴ μετὰ συμμετρίας τῆς προση",
+  "B_reading": "νομένων, μὴ μετὰ συμμετρίας τῆς προση",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 64r.6",
+  "group": "h1",
+  "ref": "H 64r.6",
+  "image": "source/pal-gr-281/cpgraec281_0137-f64r.jpg",
+  "reading_1": "κούσης καὶ ἀναλογίας γινόμενον. κα",
+  "reading_2": "κούσης καὶ ἀναλογίας γινόμενον, κα",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «γινόμενον.»  /  (2) «γινόμενον,»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "medium",
+     "seen": "The mark after ν sits low, at about 0.35 of the x-height. It is a small blob, slanted from upper right to lower left, with a short tail to the lower left. Side by side it has the same shape as the commas on lines 2 and 5, but it is smaller. It is not the round point used on line 3 (ὄντων.)."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "medium",
+     "seen": "A short, kidney-shaped stroke sits in the lower half of the letter height (y 872-881; ν spans 859-885). The head is at right and the tail drops to the lower left. It has the same form as the commas on lines 2, 5 and 22 but is a little shorter. It is not the round dot used for ὄντων. on line 3."
+    }
+   }
+  ],
+  "A_reading": "κούσης καὶ ἀναλογίας γινόμενον, κα",
+  "B_reading": "κούσης καὶ ἀναλογίας γινόμενον, κα",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 64r.8",
+  "group": "h1",
+  "ref": "H 64r.8",
+  "image": "source/pal-gr-281/cpgraec281_0137-f64r.jpg",
+  "reading_1": "κἂν φυσικόν· κἂν αἰσθήσει ληπτὸν. κἂν",
+  "reading_2": "κἄν φυσικόν· κἄν αἰσθήσει ληπτὸν· κἄν",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «κἂν»  /  (2) «κἄν»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "First κἂν: a wedge-shaped smooth breathing over α, and to its right a stroke descending from upper left to lower right, which is a grave."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "On the first κἂν, a smooth breathing (small triangular blob) sits over α, and to its right an accent runs down from upper left to lower right, so it is a grave."
+    }
+   },
+   {
+    "difference": "(1) «κἂν»  /  (2) «κἄν»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "claude",
+    "A": {
+     "difference": 2,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "Second κἂν: the same smooth breathing plus a grave that descends to the right."
+    },
+    "B": {
+     "difference": 2,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "The second κἂν has the same pattern: a breathing, then a grave descending to the right."
+    }
+   },
+   {
+    "difference": "(1) «ληπτὸν. κἂν»  /  (2) «ληπτὸν· κἄν»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "claude",
+    "A": {
+     "difference": 3,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "The point after ληπτὸν is at 1032-1039 px against ν at 1019-1045, about 0.37 of the x-height, so it is low or middle. By contrast, the point after φυσικόν on the same line is at 0.79. The third κἂν again has a smooth breathing and a grave."
+    },
+    "B": {
+     "difference": 3,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "The point after ληπτὸν is in the lower-middle of the letter height (centre about 67% down; letters 1017-1045, point 1032-1039). Compare the point after φυσικόν, which sits in the upper quarter. The third κἂν again has a breathing and a grave descending to the right."
+    }
+   }
+  ],
+  "A_reading": "κἂν φυσικόν· κἂν αἰσθήσει ληπτὸν. κἂν",
+  "B_reading": "κἂν φυσικόν· κἂν αἰσθήσει ληπτὸν. κἂν",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 64v.11",
+  "group": "h1",
+  "ref": "H 64v.11",
+  "image": "source/pal-gr-281/cpgraec281_0138-f64v.jpg",
+  "reading_1": "σθῆναι· εἰ γὰρ μὴ οὕτως ἐκφωνηθείη, ἀπη",
+  "reading_2": "σθῆναι· εἰ γὰρ μὴ οὕτως ἐκφωνηθείη. ἀπη",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «ἐκφωνηθείη,»  /  (2) «ἐκφωνηθείη.»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "gpt",
+    "A": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "medium",
+     "seen": "After η there is a dark round head at mid-height. Joined to it is a thinner, pale brown tail in faded ink, running from its lower right down to the lower left and below the baseline. Taken together this is the shape of a comma, although the tail is much paler than the head."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "medium",
+     "seen": "After ἐκφωνηθείη a dark dot sits at mid-height. A paler but continuous tail runs from it down to the lower left, below the baseline, giving the shape of a comma. Only the head is dark."
+    }
+   }
+  ],
+  "A_reading": "σθῆναι· εἰ γὰρ μὴ οὕτως ἐκφωνηθείη, ἀπη",
+  "B_reading": "σθῆναι· εἰ γὰρ μὴ οὕτως ἐκφωνηθείη, ἀπη",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 64v.12",
+  "group": "h1",
+  "ref": "H 64v.12",
+  "image": "source/pal-gr-281/cpgraec281_0138-f64v.jpg",
+  "reading_1": "χὴς ἐστὶ φθόγγος οὐκ ἐναρμόνιος· οὐδ’ ἂν φθόγ",
+  "reading_2": "χής ἐστι φθόγγος οὐκ ἐναρμόνιος. οὐδ’ ἂν φθόγ",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «χὴς ἐστὶ»  /  (2) «χής ἐστι»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "Over the η of χης the accent rises from lower left to upper right, so it is an acute. ἐστι has a wedge-shaped smooth breathing on ε and no accent at all over the final ι."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "Over the η of χης the accent descends from upper right to lower left, so it is an acute. ἐστι has a smooth breathing on ε, and nothing is written over the final ι."
+    }
+   },
+   {
+    "difference": "(1) «ἐναρμόνιος·»  /  (2) «ἐναρμόνιος.»",
+    "status": "editor",
+    "choice": null,
+    "winner": null,
+    "A": {
+     "difference": 2,
+     "choice": "1",
+     "confidence": "low",
+     "seen": "After the σ of ἐναρμόνιος there is a faded orange-brown round blot above the top of the letters (about 1306-1318 px against x-height 1321-1337), in the high-point position. A second, greyer and irregular blot lies at the baseline (about 1334-1342), in a stained area. If both blots are abraded ink, the mark would be a double point ':'. I take the upper one as the point and the lower one as a stain."
+    },
+    "B": {
+     "difference": 2,
+     "choice": "unclear",
+     "confidence": "low",
+     "seen": "After ἐναρμόνιος there is no clean dark point. There are two pale, faded, fuzzy brown marks. One is above the top of the letters (y 1306-1318; x-height 1320-1338), round and ink-like. The other is on the baseline slightly to the left (y 1332-1346), smudgy, with a scraped or stained halo below it. The pale ink is the same as the faded comma tail on line 11. This may be a faded colon, or a point plus a stain. If forced to choose, the upper mark is more point-like, which would favour the high point (·)."
+    }
+   }
+  ],
+  "A_reading": "χής ἐστι φθόγγος οὐκ ἐναρμόνιος· οὐδ’ ἂν φθόγ",
+  "B_reading": "χής ἐστι φθόγγος οὐκ ἐναρμόνιος [· or :?] οὐδ’ ἂν φθόγ",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 64v.18",
+  "group": "h1",
+  "ref": "H 64v.18",
+  "image": "source/pal-gr-281/cpgraec281_0138-f64v.jpg",
+  "reading_1": "τες· προσλαμβανόμενος· ὑπάτη ὑπάτων·",
+  "reading_2": "τες· προσλαμβανόμενος. ὑπάτη ὑπάτων·",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «προσλαμβανόμενος·»  /  (2) «προσλαμβανόμενος.»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "After the lunate sigma there is a small, slightly elongated point at the baseline (about 1813-1825 px against letters at 1798-1820). The mark above, before υ, is the rough breathing of ὑπάτη and not punctuation."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "After the final lunate sigma of προσλαμβανόμενος a point sits right on the baseline (y 1814-1825; sigma spans 1798-1821)."
+    }
+   }
+  ],
+  "A_reading": "τες· προσλαμβανόμενος. ὑπάτη ὑπάτων·",
+  "B_reading": "τες· προσλαμβανόμενος. ὑπάτη ὑπάτων·",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 64v.2",
+  "group": "h1",
+  "ref": "H 64v.2",
+  "image": "source/pal-gr-281/cpgraec281_0138-f64v.jpg",
+  "reading_1": "κοῆ θεωρουμένης. ἐν ἐπιτόμω διαληψόμ(ε)θ(α)·",
+  "reading_2": "κοῆ θεωρουμένης. ἐν ἐπιτόμω διαληψόμεθ(α)·",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «διαληψόμ(ε)θ(α)·»  /  (2) «διαληψόμεθ(α)·»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "medium",
+     "seen": "After ψό the scribe writes a μ shaped like a 'u' with flat feet. Above it is a θ whose crossbar runs out to the right and ends in a hook (the α sign), and below it is a small detached S-shaped stroke. No ε letter is written anywhere between μ and θ, so ε is supplied, not written. A high point follows."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "medium",
+     "seen": "After ψό a μ sits on the line, drawn u-shaped with feet and no descender. A θ is written above it with its crossbar extended both ways, and an S-shaped stroke stands below the μ. No ε is written as a letter anywhere, so only μ and θ are written. A high point follows."
+    }
+   }
+  ],
+  "A_reading": "κοῆ θεωρουμένης. ἐν ἐπιτόμω διαληψόμ(ε)θ(α)·",
+  "B_reading": "κοῆ θεωρουμένης. ἐν ἐπιτόμω διαληψόμ(ε)θ(α)·",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 64v.20",
+  "group": "h1",
+  "ref": "H 64v.20",
+  "image": "source/pal-gr-281/cpgraec281_0138-f64v.jpg",
+  "reading_1": "πάτη μέσων· παρυπάτη μέσων· μέση μόν(...)[?]",
+  "reading_2": "πάτη μέσων· παρυπάτη μέσων· μέση μόν(ος) [?]·",
+  "context": "The letters of this line were already decided in an earlier round; judge ONLY the punctuation differences listed.",
+  "rows": [
+   {
+    "difference": "punctuation after word 6 «μόν(»: (1) «...» (...)  /  (2) «—» (no punctuation)",
+    "status": "decided",
+    "choice": "2",
+    "winner": "gpt",
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "medium",
+     "seen": "No punctuation sign is written between μο and its final abbreviated letter, which has a hook-shaped sign above it. The '(...)' in reading 1 is an unresolved expansion, not a punctuation mark. This difference is an artefact of how the readings were split into words."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "After μό the ν carries a curved superscript abbreviation sign, and no punctuation mark is written between them. The \"...\" in reading 1 is its unresolved expansion bracket, not a written mark."
+    }
+   },
+   {
+    "difference": "punctuation after word 7 «)[?]»: (1) «—» (no punctuation)  /  (2) «·» (high point)",
+    "status": "decided",
+    "choice": "1",
+    "winner": "claude",
+    "A": {
+     "difference": 2,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "At 5x the line ends with the abbreviated letter and the hook sign above it. Nothing follows to the right, neither high nor low: the parchment is blank."
+    },
+    "B": {
+     "difference": 2,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "After the abbreviated word at the end of the line the parchment is blank up to the gutter. There is no point at any height."
+    }
+   }
+  ],
+  "A_reading": "πάτη μέσων· παρυπάτη μέσων· μέση μόν(...) (no final punctuation)",
+  "B_reading": "πάτη μέσων· παρυπάτη μέσων· μέση μόν + superscript sign, with no point after it",
+  "A_note": "Both differences are about the same place. The manuscript has no punctuation after the abbreviated last word of the line.",
+  "B_note": null
+ },
+ {
+  "id": "H 64v.3",
+  "group": "h1",
+  "ref": "H 64v.3",
+  "image": "source/pal-gr-281/cpgraec281_0138-f64v.jpg",
+  "reading_1": "⟦r Φ⟧θόγγος ἐστὶ. φωνῆς ἀδιαστάτου ἐν ἁρμονί",
+  "reading_2": "⟦r Φ⟧θόγγος ἐστί. φωνῆς ἀδιαστάτου ἐναρμόνι",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «ἐστὶ.»  /  (2) «ἐστί.»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "There is a smooth breathing over ε. The accent over the final ι runs from upper left down to lower right, so it is a grave."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "Over the final ι of ἐστι the accent descends from upper left to lower right, so it is a grave. A smooth breathing is on ε. The point after it is at mid-height, as in both readings."
+    }
+   },
+   {
+    "difference": "(1) «ἐν ἁρμονί»  /  (2) «ἐναρμόνι»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "gpt",
+    "A": {
+     "difference": 2,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "A wedge-shaped breathing sits over ε. There is no breathing over α. The only accent is an acute (rising to the right) over the ο of μό, and nothing stands over the final ι. Since no breathing is written on α, it is one word: ἐναρμόνι."
+    },
+    "B": {
+     "difference": 2,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "There is a smooth breathing over the initial ε and no accent on it. Nothing is written over the α: no breathing and no accent. An acute (descending to the left) is over ό. So it is one word, ἐναρμόνι-."
+    }
+   }
+  ],
+  "A_reading": "⟦r Φ⟧θόγγος ἐστὶ. φωνῆς ἀδιαστάτου ἐναρμόνι",
+  "B_reading": "Φθόγγος ἐστὶ. φωνῆς ἀδιαστάτου ἐναρμόνι",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 64v.7",
+  "group": "h1",
+  "ref": "H 64v.7",
+  "image": "source/pal-gr-281/cpgraec281_0138-f64v.jpg",
+  "reading_1": "σύνταξις· ὁ μὲν οὖν φθόγγος. ἀδιάστατ(ος)",
+  "reading_2": "σύνταξις· ὁ μὲν οὖν φθόγγος. ἀδιάστατο(ς)",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «ἀδιάστατ(ος)»  /  (2) «ἀδιάστατο(ς)»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "After τ the scribe writes a small, clean, closed superscript ο above the end of the τ crossbar. It has no tail and no hook, and no ς is written. The oblique stroke further up and to the right lies at the level of line 6 and seems to belong to that line."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "The final τ carries a small superscript ο (a clear little circle) above it. The ο is therefore written, and only ς is supplied."
+    }
+   }
+  ],
+  "A_reading": "σύνταξις· ὁ μὲν οὖν φθόγγος. ἀδιάστατο(ς)",
+  "B_reading": "σύνταξις· ὁ μὲν οὖν φθόγγος. ἀδιάστατο(ς)",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 64v.8",
+  "group": "h1",
+  "ref": "H 64v.8",
+  "image": "source/pal-gr-281/cpgraec281_0138-f64v.jpg",
+  "reading_1": "ἐστιν· ὡς ἡ ἐν γεωμετρία στϊγμή· ἐναρμόνιος",
+  "reading_2": "ἐστιν. ὡς ἡ ἐν γεωμετρία στιγμή· ἐναρμόνιος",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «ἐστιν·»  /  (2) «ἐστιν.»",
+    "status": "editor",
+    "choice": null,
+    "winner": null,
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "low",
+     "seen": "The point after ἐστιν is at 1003-1010 px against ν at 996-1021 (centre at about 0.6 of the x-height). It sits about 7 px below the letter tops. The plain high points on this page (μέσων· on line 20, ὑπάτων· on line 18) sit 2-3 px below the tops, at about 0.7. The agreed ἐστὶ. on line 3 is at the same level as this point. So I read it as a middle point, but it is borderline."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "medium",
+     "seen": "The point after ἐστιν sits at mid-height of the ν (point y 1002-1009, letters about 997-1019, centre about 40% down). Compare the point after στιγμή on the same line, which sits at or above the letter tops."
+    }
+   },
+   {
+    "difference": "(1) «στϊγμή·»  /  (2) «στιγμή·»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "claude",
+    "A": {
+     "difference": 2,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "Two distinct dots stand over the ι of στιγμή, so a diaeresis is written. The στ area is somewhat rubbed, but the dots are clear."
+    },
+    "B": {
+     "difference": 2,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "Two distinct small dots (a trema) stand above the ι of στιγμή. The surface around στι looks rubbed, but both dots are clear."
+    }
+   }
+  ],
+  "A_reading": "ἐστιν. ὡς ἡ ἐν γεωμετρία στϊγμή· ἐναρμόνιος",
+  "B_reading": "ἐστιν. ὡς ἡ ἐν γεωμετρία στϊγμή· ἐναρμόνιος",
+  "A_note": "In both readings, the point after στιγμή is at about the same middle height (1004-1013 px, about 0.5 of the x-height) as the one after ἐστιν and the agreed ἐστὶ. on line 3. By the same criterion it could be '.' rather than '·'.",
+  "B_note": null
+ },
+ {
+  "id": "H 65r.11",
+  "group": "h1",
+  "ref": "H 65r.11",
+  "image": "source/pal-gr-281/cpgraec281_0139-f65r.jpg",
+  "reading_1": "ἐλάχιστον μὲν ἡ δίεσις. εἶτα τὸ ἡμιτόνι",
+  "reading_2": "ἐλάχιστον μὲν ἡ δίεσις· εἶτα τὸ ἡμιτόνι",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «δίεσις.»  /  (2) «δίεσις·»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "medium",
+     "seen": "The point after σ is at 1295-1302 px against σ at 1288-1306 (about 0.42 of the x-height), i.e. a middle point. On this page the high points (τούτοις·, γδοον·, ἥμισυ·) sit at the very top, 0.85-0.97."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "The point after δίεσις is at lower-middle height (y 1295-1302; σ spans 1288-1306), well below the letter tops."
+    }
+   }
+  ],
+  "A_reading": "ἐλάχιστον μὲν ἡ δίεσις. εἶτα τὸ ἡμιτόνι",
+  "B_reading": "ἐλάχιστον μὲν ἡ δίεσις. εἶτα τὸ ἡμιτόνι",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 65r.12",
+  "group": "h1",
+  "ref": "H 65r.12",
+  "image": "source/pal-gr-281/cpgraec281_0139-f65r.jpg",
+  "reading_1": "ον· διπλῆν ἔχον ἐπὶ τὸ ὀξὺ παραύξησιν",
+  "reading_2": "ον. διπλῆν ἔχον ἐπὶ τὸ ὀξὺ παράυξησιν",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «ον·»  /  (2) «ον.»",
+    "status": "editor",
+    "choice": null,
+    "winner": null,
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "low",
+     "seen": "The point after ν is at 1356-1363 px against ν at 1349-1375 (about 0.58 of the x-height). It sits clearly below the ruled line and the letter tops, at roughly mid-height. The high points on this page touch the top, at 0.85-0.97. The point is borderline but closer to the middle."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "medium",
+     "seen": "After ον the point is at mid-height (y 1356-1363; ο spans 1349-1364, ν 1348-1375). It is not at the top of the letters."
+    }
+   },
+   {
+    "difference": "(1) «παραύξησιν»  /  (2) «παράυξησιν»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "claude",
+    "A": {
+     "difference": 2,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "At 8x the acute stands to the right of the α's stem, over the left arm of the υ in the αυ ligature. It is not over α."
+    },
+    "B": {
+     "difference": 2,
+     "choice": "1",
+     "confidence": "medium",
+     "seen": "In the αυ ligature, the α's stem is at about x 1270-1279 and the υ's arms at about 1291-1299 and 1315-1323. The foot of the acute falls at about x 1290, over the left arm of υ, to the right of the α stem. The accent is therefore on υ."
+    }
+   }
+  ],
+  "A_reading": "ον. διπλῆν ἔχον ἐπὶ τὸ ὀξὺ παραύξησιν",
+  "B_reading": "ον. διπλῆν ἔχον ἐπὶ τὸ ὀξὺ παραύξησιν",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 65r.15",
+  "group": "h1",
+  "ref": "H 65r.15",
+  "image": "source/pal-gr-281/cpgraec281_0139-f65r.jpg",
+  "reading_1": "λόγον. ὡς ὁ ἔνατος ἀριθμὸς πρὸς τὸν ὄ",
+  "reading_2": "λόγον· ὡς ὁ ἔνατος ἀριθμὸς πρὸς τὸν ὄ",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «λόγον.»  /  (2) «λόγον·»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "gpt",
+    "A": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "The point after the final ν is at 1614-1621 px against letters at 1602-1626 (about 0.35 of the x-height), so it is low or middle. The high point after γδοον on the next line is at 0.88."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "The point after λόγον is in the lower half (y 1614-1621; x-height about 1602-1624, centre about 68% down)."
+    }
+   }
+  ],
+  "A_reading": "λόγον. ὡς ὁ ἔνατος ἀριθμὸς πρὸς τὸν ὄ",
+  "B_reading": "λόγον. ὡς ὁ ἔνατος ἀριθμὸς πρὸς τὸν ὄ",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 65r.16",
+  "group": "h1",
+  "ref": "H 65r.16",
+  "image": "source/pal-gr-281/cpgraec281_0139-f65r.jpg",
+  "reading_1": "γδοον· ὡς εἶναι τὸ ἡμιτόνιον. ὅσον ὀκτὼ",
+  "reading_2": "γδοον· ὡς εἶναι τὸ ἡμιτόνιον· ὅσον ὀκτὼ",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «ἡμιτόνιον.»  /  (2) «ἡμιτόνιον·»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "gpt",
+    "A": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "After ἡμιτόνιον there is a flat, dash-like point at 1701-1708 px against ν at 1688-1714 (about 0.34 of the x-height), so it is low or middle. On the same line, the point after γδοον is at the top (0.88)."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "The point after ἡμιτόνιον is a small flat blob low in the line (y 1701-1708; letters 1688-1709). It has no tail."
+    }
+   }
+  ],
+  "A_reading": "γδοον· ὡς εἶναι τὸ ἡμιτόνιον. ὅσον ὀκτὼ",
+  "B_reading": "γδοον· ὡς εἶναι τὸ ἡμιτόνιον. ὅσον ὀκτὼ",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 65r.17",
+  "group": "h1",
+  "ref": "H 65r.17",
+  "image": "source/pal-gr-281/cpgraec281_0139-f65r.jpg",
+  "reading_1": "ἥμισυ· τὴν δὲ δίεσιν. ὅσον ὀκτὼ τέ",
+  "reading_2": "ἥμισυ· τὴν δὲ δίεσιν, ὅσον ὀκτὼ τέ",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «δίεσιν.»  /  (2) «δίεσιν,»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "medium",
+     "seen": "After ν there is a mark on the baseline (1787-1793 px against ν at 1769-1795) with its head at upper right and a short tail to the lower left. It is a comma shape, unlike the flat point after ἡμιτόνιον on line 16."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "medium",
+     "seen": "After δίεσιν a small hooked stroke sits on the baseline (y 1787-1793): head at right, tail curving down-left. It is a comma, not a round dot."
+    }
+   }
+  ],
+  "A_reading": "ἥμισυ· τὴν δὲ δίεσιν, ὅσον ὀκτὼ τέ",
+  "B_reading": "ἥμισυ· τὴν δὲ δίεσιν, ὅσον ὀκτὼ τέ",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 65r.3",
+  "group": "h1",
+  "ref": "H 65r.3",
+  "image": "source/pal-gr-281/cpgraec281_0139-f65r.jpg",
+  "reading_1": "ται τὸ ἐν πέντε καὶ δεκαχόρδω ἑκκαιδεκά",
+  "reading_2": "ται τὸ ἐν πεντεκαιδεκαχόρδω ἑκκαιδεκά",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «πέντε καὶ δεκαχόρδω»  /  (2) «πεντεκαιδεκαχόρδω»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "There is no accent over πεντε, και (written with the letters κ, α, ι, not the καί sign) or δεκα. The only accent is an acute over the ό of χόρδω. The letters are spaced evenly, with no gap. Since no accent is written on the first elements, it is one word."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "πεντε has no accent and καὶ has no accent. The only accent in the group is the acute on ό of χόρδω, so it is written as one word."
+    }
+   }
+  ],
+  "A_reading": "ται τὸ ἐν πεντεκαιδεκαχόρδω ἑκκαιδεκά",
+  "B_reading": "ται τὸ ἐν πεντεκαιδεκαχόρδω ἑκκαιδεκά",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 65r.7",
+  "group": "h1",
+  "ref": "H 65r.7",
+  "image": "source/pal-gr-281/cpgraec281_0139-f65r.jpg",
+  "reading_1": "φθόγγος πρὸς τὸν ὄγδοον ἀναφαίνεται,",
+  "reading_2": "φθόγγος πρὸς τὸν ὄγδοον ἀναφαίνεται.",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «ἀναφαίνεται,»  /  (2) «ἀναφαίνεται.»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "medium",
+     "seen": "After αι, just beyond the vertical ruling, there is a mark at the baseline. It has a rounded head at upper right with a short tail to the lower left, which is a comma shape."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "After -ται at the line end there is a baseline dot with a tail curving down to the left, so it is a comma."
+    }
+   }
+  ],
+  "A_reading": "φθόγγος πρὸς τὸν ὄγδοον ἀναφαίνεται,",
+  "B_reading": "φθόγγος πρὸς τὸν ὄγδοον ἀναφαίνεται,",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 65r.8",
+  "group": "h1",
+  "ref": "H 65r.8",
+  "image": "source/pal-gr-281/cpgraec281_0139-f65r.jpg",
+  "reading_1": "τὸν αὐτὸν καὶ ὁ ὄγδοος πρὸς τὸν πέντε",
+  "reading_2": "τὸν αὐτὸν καὶ ὁ ὄγδοος πρὸς τὸν πεντε",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «πέντε»  /  (2) «πεντε»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "The word is written π, then a large raised ε joined to ν, then τ, then a final ε with a tall flourish. No separate accent stroke stands over the first ε or anywhere above the word. The flourish is joined to the last letter. The word continues on the next line as καιδέκατον."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "πεντε is written as π with a large ε-loop above it, then ν, τ, ε. No accent is visible above any part of it. The word continues as καιδέκατον on line 9."
+    }
+   }
+  ],
+  "A_reading": "τὸν αὐτὸν καὶ ὁ ὄγδοος πρὸς τὸν πεντε",
+  "B_reading": "τὸν αὐτὸν καὶ ὁ ὄγδοος πρὸς τὸν πεντε",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 65v.11",
+  "group": "h1",
+  "ref": "H 65v.11",
+  "image": "source/pal-gr-281/cpgraec281_0140-f65v.jpg",
+  "reading_1": "κὴ. εἰς ἴσα τεμεῖν τετράγωνα ἢ διπλασι",
+  "reading_2": "κὴ. εἰς ἴσα τεμεῖν τετράγωνα ἠ διπλασι",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «ἢ»  /  (2) «ἠ»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "gpt",
+    "A": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "Over η there is a wedge-shaped smooth breathing. Above it and to the right is a stroke descending from upper left to lower right, which is a grave. It lies in the space between lines, clear of the line-10 descenders."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "Over η there is a breathing (small triangular blob) and, higher and to the right, a separate oblique stroke descending from upper left to lower right. That stroke is a grave in line 11's accent zone; it is not a descender from line 10."
+    }
+   }
+  ],
+  "A_reading": "κὴ. εἰς ἴσα τεμεῖν τετράγωνα ἢ διπλασι",
+  "B_reading": "κὴ. εἰς ἴσα τεμεῖν τετράγωνα ἢ διπλασι",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 65v.18",
+  "group": "h1",
+  "ref": "H 65v.18",
+  "image": "source/pal-gr-281/cpgraec281_0140-f65v.jpg",
+  "reading_1": "κονταδύο ἀριθμὸν. τετραγωνισθῆναι",
+  "reading_2": "κοντα δύο ἀριθμὸν. τετραγωνισθῆναι",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «κονταδύο»  /  (2) «κοντα δύο»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "gpt",
+    "A": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "κοντα has no accent, and τρια at the end of line 17 has none either (checked at 3x; nothing over τρια). The only accent is the acute on ύ of δύο. The gap between α and δ is no wider than the gaps between the other letters, while there is a clear gap before ἀριθμὸν. Since no accent is written on the first element, it is one word."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "medium",
+     "seen": "τρια at the end of line 17 has no accent, and κοντα has none either. δύο carries an acute on υ. The α of κοντα nearly touches the δ (gap about 8 px, against about 24 px before ἀριθμὸν). With no accent written on the first element, the convention makes it one word."
+    }
+   }
+  ],
+  "A_reading": "κονταδύο ἀριθμὸν. τετραγωνισθῆναι",
+  "B_reading": "κονταδύο ἀριθμὸν. τετραγωνισθῆναι",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 65v.21",
+  "group": "h1",
+  "ref": "H 65v.21",
+  "image": "source/pal-gr-281/cpgraec281_0140-f65v.jpg",
+  "reading_1": "γώνου πλευρὰν· εἰς διάμετρον ὁ γεωμέ",
+  "reading_2": "γώνου πλευρὰν. εἰς διάμετρον ὁ γεωμέ",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «πλευρὰν·»  /  (2) «πλευρὰν.»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "gpt",
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "medium",
+     "seen": "The round dark point after ν is at 2062-2069 px against ν at 2052-2080 (about 0.52 of the x-height), i.e. at mid-height. The high points on this page (σχῆμα·, τετράγωνον·, γεωμετρία·) are at 0.75-0.9, and the low or middle ones (ἀριθμὸν., κὴ.) at 0.3-0.45."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "After πλευρὰν a round black point sits exactly at mid-height (y 2062-2070; letters 2051-2080)."
+    }
+   }
+  ],
+  "A_reading": "γώνου πλευρὰν. εἰς διάμετρον ὁ γεωμέ",
+  "B_reading": "γώνου πλευρὰν. εἰς διάμετρον ὁ γεωμέ",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 65v.3",
+  "group": "h1",
+  "ref": "H 65v.3",
+  "image": "source/pal-gr-281/cpgraec281_0140-f65v.jpg",
+  "reading_1": "γεωμετρία. καὶ ἐλάττονα ἀπὸ τῆς μεί",
+  "reading_2": "γεωμετρία· καὶ ἐλάττονα ἀπὸ. τῆς μεί",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «γεωμετρία.»  /  (2) «γεωμετρία·»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "The point after α is at 635-643 px, level with the top of καὶ (x-height 635-651) and at the top of the loop of the preceding α (640-658). It sits on the ruled line, so it is a high point. On this page the low points (ἀριθμὸν., κὴ.) are at 0.3-0.45."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "medium",
+     "seen": "The point after γεωμετρία (y 635-643) is level with or above the tops of ι and the α bowl (from about 640) and of καὶ (634). It sits on the ruling line, so it is a high point."
+    }
+   },
+   {
+    "difference": "(1) «ἀπὸ»  /  (2) «ἀπὸ.»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "gpt",
+    "A": {
+     "difference": 2,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "In ἀπὸ the ο is small and written high, with a grave over it. It is followed directly by the τ of τῆς, and at high contrast there is no point between them."
+    },
+    "B": {
+     "difference": 2,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "Between the ο of ἀπὸ and the τ of τῆς there is no mark. The thick blob at the left end of the τ crossbar is the τ's normal serif."
+    }
+   }
+  ],
+  "A_reading": "γεωμετρία· καὶ ἐλάττονα ἀπὸ τῆς μεί",
+  "B_reading": "γεωμετρία· καὶ ἐλάττονα ἀπὸ τῆς μεί",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 65v.6",
+  "group": "h1",
+  "ref": "H 65v.6",
+  "image": "source/pal-gr-281/cpgraec281_0140-f65v.jpg",
+  "reading_1": "μείζονα· ἔνθεν καὶ ἅπὰν σχῆμα· (καὶ) πα",
+  "reading_2": "μείζονα· ἔνθεν καὶ ἅπαν σχῆμα· (καὶ) πα",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «ἅπὰν»  /  (2) «ἅπαν»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "gpt",
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "ἅ has a rough breathing and an acute. The second α is the form with a tall stroke rising to the upper left and ending in a ball. At high contrast this stroke is continuous with the α's loop, so it is part of the letter. No separate grave is written over the second α."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "medium",
+     "seen": "The first α has a breathing and, to its right, an acute. The second α is the uncial form: a small bowl with a long club-headed diagonal running from upper left down to the right. That diagonal is continuous ink into the bowl and on into the ν, so it is part of the letter, not a separate grave accent."
+    }
+   }
+  ],
+  "A_reading": "μείζονα· ἔνθεν καὶ ἅπαν σχῆμα· (καὶ) πα",
+  "B_reading": "μείζονα· ἔνθεν καὶ ἅπαν σχῆμα· (καὶ) πα",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 65v.7",
+  "group": "h1",
+  "ref": "H 65v.7",
+  "image": "source/pal-gr-281/cpgraec281_0140-f65v.jpg",
+  "reading_1": "ραυξῆσαι κατὰ τὸ δοκοῦν μῆκος, καὶ ἀ",
+  "reading_2": "ραυξῆσαι κατὰ τὸ δοκοῦν μῆκος. καὶ ἀ",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «μῆκος,»  /  (2) «μῆκος.»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "medium",
+     "seen": "After σ there is a mark on the baseline (about 954-963 px against σ at 940-961). Its rounded head is at upper right with a tail to the lower left, which is a comma shape."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "After μῆκος a baseline dot with a tail curving down-left forms a clear comma."
+    }
+   }
+  ],
+  "A_reading": "ραυξῆσαι κατὰ τὸ δοκοῦν μῆκος, καὶ ἀ",
+  "B_reading": "ραυξῆσαι κατὰ τὸ δοκοῦν μῆκος, καὶ ἀ",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 66r.1",
+  "group": "h2",
+  "ref": "H 66r.1",
+  "image": "source/pal-gr-281/cpgraec281_0141-f66r.jpg",
+  "reading_1": "περιθείς. ἥμισυ τοῦ δοθέντος τετραγώ",
+  "reading_2": "περιθεὶς. ἥμισυ τοῦ δοθέντος τετραγώ",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «περιθείς.»  /  (2) «περιθεὶς.»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "The accent over θε of περιθ- is a grave: a short stroke falling from upper left to lower right. Compare the acute on ἥμισυ in the same line, which rises to the right. A round low point stands after σ."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "The accent over ε/ι runs from upper left (x≈433, y405) down to lower right (x≈452, y416), so it is a grave. The point that follows sits at baseline/mid height, as both readings have it."
+    }
+   }
+  ],
+  "A_reading": "περιθεὶς. ἥμισυ τοῦ δοθέντος τετραγώ",
+  "B_reading": "περιθεὶς. ἥμισυ τοῦ δοθέντος τετραγώ",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 66r.14",
+  "group": "h2",
+  "ref": "H 66r.14",
+  "image": "source/pal-gr-281/cpgraec281_0141-f66r.jpg",
+  "reading_1": "νίων. ἢ καὶ διαφόρων τόνων, μέλος συνα",
+  "reading_2": "νίων· ἢ καὶ διαφόρων τόνων. μέλος συνα",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «νίων.»  /  (2) «νίων·»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "The point after νίων is level with the top of ω (1483-1490 against ω at 1483-1507), so it is a high point."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "medium",
+     "seen": "After νίων the point (y1483-1490) hangs from the letter-top line, entirely in the upper third of the x-height. That is the high position, not the mid position seen at 66v.19 (about 0.5)."
+    }
+   },
+   {
+    "difference": "(1) «τόνων,»  /  (2) «τόνων.»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "claude",
+    "A": {
+     "difference": 2,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "After τόνων is a round oval dot at mid-height (1491-1499 against letters at 1477-1508). It has no tail, so it is not a comma."
+    },
+    "B": {
+     "difference": 2,
+     "choice": "2",
+     "confidence": "medium",
+     "seen": "After τόνων there is a slanted compact oval on the baseline with no distinct tail. It matches the scribe's ordinary low point."
+    }
+   }
+  ],
+  "A_reading": null,
+  "B_reading": "νίων· ἢ καὶ διαφόρων τόνων. μέλος συνα",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 66r.18",
+  "group": "h2",
+  "ref": "H 66r.18",
+  "image": "source/pal-gr-281/cpgraec281_0141-f66r.jpg",
+  "reading_1": "τερα διαστήματα· τὸ διὰ τεσσάρων· (καὶ)",
+  "reading_2": "τερα διαστήματα· τὸ διατεσσάρων· (καὶ)",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «διὰ τεσσάρων·»  /  (2) «διατεσσάρων·»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "A clear grave stands over the α of δια, as a separate stroke above α. τὸ also has a grave. So the text reads διὰ τεσσάρων."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "A clear grave stroke stands over the α of δια, so the words are separate."
+    }
+   }
+  ],
+  "A_reading": null,
+  "B_reading": "τερα διαστήματα· τὸ διὰ τεσσάρων· (καὶ)",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 66r.19",
+  "group": "h2",
+  "ref": "H 66r.19",
+  "image": "source/pal-gr-281/cpgraec281_0141-f66r.jpg",
+  "reading_1": "διὰ πέντε. καὶ διὰ πασῶν· ταῦτα δὲ. οὐ",
+  "reading_2": "διαπέντε. καὶ διαπασῶν· ταῦτα δὲ. οὐ",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «διὰ πέντε.»  /  (2) «διαπέντε.»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "The line opens with majuscule Δ in Δια. A grave stands over its α, and an acute over πέ: διὰ πέντε."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "The first δια (Δ-shaped δ) has a grave over α. πέντε has an acute over ε."
+    }
+   },
+   {
+    "difference": "(1) «διὰ πασῶν·»  /  (2) «διαπασῶν·»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "gpt",
+    "A": {
+     "difference": 2,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "The καὶ compendium carries a grave. The following δια has no accent over α; the only other accent is the circumflex on ῶ. So the text reads διαπασῶν."
+    },
+    "B": {
+     "difference": 2,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "The second δια, after καὶ, has nothing above it. The only accents nearby are καὶ's grave and the circumflex over ῶ, so it is one word."
+    }
+   }
+  ],
+  "A_reading": null,
+  "B_reading": "διὰ πέντε. καὶ διαπασῶν· ταῦτα δὲ. οὐ",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 66r.2",
+  "group": "h2",
+  "ref": "H 66r.2",
+  "image": "source/pal-gr-281/cpgraec281_0141-f66r.jpg",
+  "reading_1": "νου ποιεῖ· καὶ τὴν διάμετρον πάλιν τοῦ",
+  "reading_2": "νου ποιεῖ. καὶ τὴν διάμετρον πάλιν τοῦ",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «ποιεῖ·»  /  (2) «ποιεῖ.»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "gpt",
+    "A": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "The point after ποιεῖ is level with the tops of ε and ι (point y≈536-544 px, letters 535-561), so it is a high point. The low point in l.1 sits near the baseline."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "The point after ποιεῖ (y536-544) is level with the tops of ε, ι and κ, its top slightly above the letter tops: a high point."
+    }
+   }
+  ],
+  "A_reading": null,
+  "B_reading": "νου ποιεῖ· καὶ τὴν διάμετρον πάλιν τοῦ",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 66r.20",
+  "group": "h2",
+  "ref": "H 66r.20",
+  "image": "source/pal-gr-281/cpgraec281_0141-f66r.jpg",
+  "reading_1": "κ ἄμεσα· οὐδ’ ἀσύνθετα· ἀλλὰ διὰ μέσου",
+  "reading_2": "κ ἄμεσα. οὐδ’ ἀσύνθετα· ἀλλὰ διὰ μέσω(ν)",
+  "context": "The letters of this line were already decided in an earlier round; judge ONLY the punctuation differences listed.",
+  "rows": [
+   {
+    "difference": "punctuation after word 2 «ἄμεσα»: (1) «·» (high point)  /  (2) «.» (low/middle point)",
+    "status": "decided",
+    "choice": "1",
+    "winner": "gpt",
+    "A": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "medium",
+     "seen": "The point after ἄμεσα is in the upper third of the x-height. Its top edge is level with the tops of σα (point 1966-1974 against letters at 1964-1983). It sits slightly lower than the high point after ἀσύνθετα, but well above the baseline points of l.19."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "medium",
+     "seen": "The point after ἄμεσα (y1966-1974) has its top just below the tops of α and ο, and its centre sits at about 0.3 of the x-height, in the upper half. It is not at mid-height or on the baseline."
+    }
+   }
+  ],
+  "A_reading": null,
+  "B_reading": "κ ἄμεσα· οὐδ’ ἀσύνθετα· ...",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 66r.3",
+  "group": "h2",
+  "ref": "H 66r.3",
+  "image": "source/pal-gr-281/cpgraec281_0141-f66r.jpg",
+  "reading_1": "δοθέντος μεταληφὼς εἰς πλευράν. τὸ δο",
+  "reading_2": "δοθέντος μετειληφὼς εἰς πλευρὰν, τὸ δο",
+  "context": "The letters of this line were already decided in an earlier round; judge ONLY the punctuation differences listed.",
+  "rows": [
+   {
+    "difference": "punctuation after word 4 «πλευράν»: (1) «.» (low/middle point)  /  (2) «,» (comma)",
+    "status": "editor",
+    "choice": null,
+    "winner": null,
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "After πλευρὰν there is a mark on the baseline, about 11 px tall. Its head is at upper right and its tail curls down to the left: a hooked comma. It is clearly unlike the round points in ll.1 and 6."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "low",
+     "seen": "The mark after πλευρὰν sits on the baseline. It is a kidney-shaped blob with only a short lower-left flick, the same form as the scribe's ordinary low point elsewhere (e.g. 67r.15 after τεσσάρων, where both readings have '.'). It has no distinct comma tail."
+    }
+   }
+  ],
+  "A_reading": null,
+  "B_reading": "... πλευρὰν. τὸ δο",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 66r.6",
+  "group": "h2",
+  "ref": "H 66r.6",
+  "image": "source/pal-gr-281/cpgraec281_0141-f66r.jpg",
+  "reading_1": "ον διαιρεῖται. καὶ αὖθις εἰς δίεσιν· παραυ",
+  "reading_2": "ον διαιρεῖται· καὶ αὖθις εἰς δίεσιν· παραυ",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «διαιρεῖται.»  /  (2) «διαιρεῖται·»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "gpt",
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "The point after διαιρεῖται is at the top of the x-height (848-855 px against letter bodies at 846-874), so it is a high point."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "The point after διαιρεῖται (y848-855) lies exactly on the letter-top line of 'ται' and the κ bowl: a high point."
+    }
+   }
+  ],
+  "A_reading": null,
+  "B_reading": "ον διαιρεῖται· καὶ αὖθις εἰς δίεσιν· παραυ",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 66r.7",
+  "group": "h2",
+  "ref": "H 66r.7",
+  "image": "source/pal-gr-281/cpgraec281_0141-f66r.jpg",
+  "reading_1": "ξήσει δὲ τούτων. καὶ ἕτερα ἀσύνθετα δι",
+  "reading_2": "ξήσει δὲ τούτων, καὶ ἕτερα σύνθετα δι",
+  "context": "The letters of this line were already decided in an earlier round; judge ONLY the punctuation differences listed.",
+  "rows": [
+   {
+    "difference": "punctuation after word 3 «τούτων»: (1) «.» (low/middle point)  /  (2) «,» (comma)",
+    "status": "editor",
+    "choice": null,
+    "winner": null,
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "medium",
+     "seen": "After τούτων, on the baseline, is a kidney-shaped mark: thick head at upper right, short tail turning down-left. It is a smaller version of the hooked comma in l.3. It is not the round oval dot of ll.1 and 14."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "medium",
+     "seen": "A compact oval on the baseline after τούτων, with only a very small lower-left flick. Its size and shape match the agreed low points (66v.7, 66r.19), so it is a low point, not a comma."
+    }
+   }
+  ],
+  "A_reading": null,
+  "B_reading": "ξήσει δὲ τούτων. καὶ ...",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 66r.9",
+  "group": "h2",
+  "ref": "H 66r.9",
+  "image": "source/pal-gr-281/cpgraec281_0141-f66r.jpg",
+  "reading_1": "νιον· διτόνιόν τε καὶ τριτόνιον· καὶ ὡς",
+  "reading_2": "νιον. διτόνιόν τε καὶ τριτόνιον. καὶ ὡς",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «νιον·»  /  (2) «νιον.»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "gpt",
+    "A": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "The point after νιον is level with the tops of ο and ν (1084-1092 against letters at 1085-1103), so it is a high point."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "The point after νιον is level with the top of ο/ν (rel. height about 0.1): high."
+    }
+   },
+   {
+    "difference": "(1) «τριτόνιον·»  /  (2) «τριτόνιον.»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "gpt",
+    "A": {
+     "difference": 2,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "The point after τριτόνιον is at the top of the x-height (1082-1091 against letters at 1082-1104), so it is a high point."
+    },
+    "B": {
+     "difference": 2,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "The point after τριτόνιον is at the letter-top line, before the tall κ of καὶ: high."
+    }
+   }
+  ],
+  "A_reading": null,
+  "B_reading": "νιον· διτόνιόν τε καὶ τριτόνιον· καὶ ὡς",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 66v.11",
+  "group": "h2",
+  "ref": "H 66v.11",
+  "image": "source/pal-gr-281/cpgraec281_0142-f66v.jpg",
+  "reading_1": "συμπληρουμένων· κἀκεῖθεν αὖθις ἐπανα",
+  "reading_2": "συμπληρουμένων· κακεὶθεν αὖθις ἐπανα",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «κἀκεῖθεν»  /  (2) «κακεὶθεν»",
+    "status": "editor",
+    "choice": null,
+    "winner": null,
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "There is no breathing over the α of κα. Over the ει-ligature is one mark: a stroke thick at the left that tapers down to the right, i.e. a grave. It is not the arch-shaped circumflex this scribe uses, e.g. in αὖθις in the same line. So the text reads κακεὶθεν."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "other",
+     "other": "κακεῖθεν",
+     "confidence": "medium",
+     "seen": "There is nothing over the first α or κ, so no breathing or coronis is written. The single accent over ει is arched: a thick left head with a concave underside and a right leg curling down. It matches the circumflex of πασῶν (66v.8) and τῆς (66v.13), not the scribe's straight, steep grave."
+    }
+   }
+  ],
+  "A_reading": null,
+  "B_reading": "συμπληρουμένων· κακεῖθεν αὖθις ἐπανα",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 66v.14",
+  "group": "h2",
+  "ref": "H 66v.14",
+  "image": "source/pal-gr-281/cpgraec281_0142-f66v.jpg",
+  "reading_1": "διὰ τεσσάρων. (καὶ) δὶς διὰ πέντε. καὶ δὶς",
+  "reading_2": "διατεσσάρων· (καὶ) δὶς διαπέντε· καὶ δὶς",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «διὰ τεσσάρων.»  /  (2) «διατεσσάρων·»",
+    "status": "decided",
+    "choice": "other",
+    "winner": null,
+    "A": {
+     "difference": 1,
+     "choice": "other",
+     "other": "διὰ τεσσάρων·",
+     "confidence": "high",
+     "seen": "A grave stands over the α of δια. The point after τεσσάρων is level with the top of ν (1471-1480 against letters at 1470-1490), so it is a high point."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "other",
+     "other": "διὰ τεσσάρων·",
+     "confidence": "medium",
+     "seen": "A grave over the α of δια, so the words are separate (high confidence). The point after τεσσάρων (y1471-1480) hangs from the letter-top line with its centre at about 0.27 of the x-height: high, not middle."
+    }
+   },
+   {
+    "difference": "(1) «διὰ πέντε.»  /  (2) «διαπέντε·»",
+    "status": "decided",
+    "choice": "other",
+    "winner": null,
+    "A": {
+     "difference": 2,
+     "choice": "other",
+     "other": "διὰ πέντε·",
+     "confidence": "high",
+     "seen": "A grave stands over the α of δια. The point after πέντε is at the top of ε (1471-1478), so it is a high point."
+    },
+    "B": {
+     "difference": 2,
+     "choice": "other",
+     "other": "διὰ πέντε·",
+     "confidence": "medium",
+     "seen": "A grave over the α of δια (high confidence). The point after πέντε (y1471-1478) has its top at the letter-top line and its centre at about 0.2: high."
+    }
+   }
+  ],
+  "A_reading": null,
+  "B_reading": "διὰ τεσσάρων· (καὶ) δὶς διὰ πέντε· καὶ δὶς",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 66v.15",
+  "group": "h2",
+  "ref": "H 66v.15",
+  "image": "source/pal-gr-281/cpgraec281_0142-f66v.jpg",
+  "reading_1": "διὰ πασῶν, αἱ μετὰ ταῦτα διαστάσεις κα",
+  "reading_2": "διαπασῶν. αἱ μετὰ ταῦτα διαστάσεις κα",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «διὰ πασῶν,»  /  (2) «διαπασῶν.»",
+    "status": "editor",
+    "choice": null,
+    "winner": null,
+    "A": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "A grave stands over the α of δια. After πασῶν is a hooked comma on the baseline: head at upper right, tail curling down-left, about 11 px tall."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "other",
+     "other": "διὰ πασῶν.",
+     "confidence": "low",
+     "seen": "A clear grave over the α of δια, so the words are separate. After ν is a kidney-shaped blob on the baseline. It has no longer tail than the agreed low points (same form as 67r.15), so I read '.'. Reading 1's ',' is possible."
+    }
+   }
+  ],
+  "A_reading": null,
+  "B_reading": "διὰ πασῶν. αἱ μετὰ ταῦτα διαστάσεις κα",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 66v.16",
+  "group": "h2",
+  "ref": "H 66v.16",
+  "image": "source/pal-gr-281/cpgraec281_0142-f66v.jpg",
+  "reading_1": "λοῦνται· συμφωνεῖ δὲ. ἡ μεν διὰ τεσσάρω(ν)",
+  "reading_2": "λοῦνται· συμφωνεῖ δὲ. ἡ μὲν διατεσσάρων",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «μεν διὰ τεσσάρω(ν)»  /  (2) «μὲν διατεσσάρων»",
+    "status": "decided",
+    "choice": "other",
+    "winner": null,
+    "A": {
+     "difference": 1,
+     "choice": "other",
+     "other": "μὲν διὰ τεσσάρω(ν)",
+     "confidence": "high",
+     "seen": "μεν carries a grave over ε, and δια carries a grave over α. τεσσάρω ends in ω with a suspension stroke (horizontal with a hook) above and after it; ν is not written."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "other",
+     "other": "μὲν διὰ τεσσάρω(ν)",
+     "confidence": "high",
+     "seen": "A grave stands over the ε of μεν, and a grave over the α of δια. τεσσάρω ends the line: ν is not written, and a horizontal suspension stroke with an upturned hook sits above and right of ω. The acute of the word is over ά, so the stroke is not an accent."
+    }
+   }
+  ],
+  "A_reading": null,
+  "B_reading": "λοῦνται· συμφωνεῖ δὲ. ἡ μὲν διὰ τεσσάρω(ν)",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 66v.17",
+  "group": "h2",
+  "ref": "H 66v.17",
+  "image": "source/pal-gr-281/cpgraec281_0142-f66v.jpg",
+  "reading_1": "διάστασις καὶ ἡ διὰ πέντε. κατὰ παράφω",
+  "reading_2": "διάστασις καὶ ἡ διαπέντε. κατὰ παράφω",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «διὰ πέντε.»  /  (2) «διαπέντε.»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "A clear grave stands over the α of Δια, and an acute over πέ. A very faint hairline stroke higher up and to the left is not this word's accent. So the text reads διὰ πέντε."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "A grave stroke stands over the α of Δια, and an acute over the ε of πέντε."
+    }
+   }
+  ],
+  "A_reading": null,
+  "B_reading": "διάστασις καὶ ἡ διὰ πέντε. κατὰ παράφω",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 66v.18",
+  "group": "h2",
+  "ref": "H 66v.18",
+  "image": "source/pal-gr-281/cpgraec281_0142-f66v.jpg",
+  "reading_1": "νον· ἡ δὲ διαπασῶν. καὶ ἡ δὶς διατεσσά",
+  "reading_2": "νον· ἡ δὲ διὰ πασῶν. καὶ ἡ δὶς διὰ τεσσά",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «διαπασῶν.»  /  (2) «διὰ πασῶν.»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "A grave stands over the α of δια before πασῶν (separate stroke above α), followed by a baseline point."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "A grave over the α of δια after δὲ, so the words are separate."
+    }
+   },
+   {
+    "difference": "(1) «διατεσσά»  /  (2) «διὰ τεσσά»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "claude",
+    "A": {
+     "difference": 2,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "A grave stands over the α of δια before τεσσά."
+    },
+    "B": {
+     "difference": 2,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "A grave over the α of δια after δὶς, so the words are separate."
+    }
+   }
+  ],
+  "A_reading": null,
+  "B_reading": "νον· ἡ δὲ διὰ πασῶν. καὶ ἡ δὶς διὰ τεσσά",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 66v.19",
+  "group": "h2",
+  "ref": "H 66v.19",
+  "image": "source/pal-gr-281/cpgraec281_0142-f66v.jpg",
+  "reading_1": "ρων· καὶ ἡ δὶς διαπέντε· καὶ ἡ δὶς διαπα",
+  "reading_2": "ρων. καὶ ἡ δὶς διὰ πέντε. καὶ ἡ δὶς διὰ πα",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «ρων·»  /  (2) «ρων.»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "The point after ρων is exactly at mid-height (1875-1883 against letters at 1868-1890), so it is a middle point, not at the top."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "The point after ρων sits on the mid-line of the x-height (centre about 0.5), not at the top: middle point."
+    }
+   },
+   {
+    "difference": "(1) «διαπέντε·»  /  (2) «διὰ πέντε.»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "claude",
+    "A": {
+     "difference": 2,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "A grave stands over the α of δια. The point after πέντε is at mid-height (1873-1880 against letters at 1864-1890)."
+    },
+    "B": {
+     "difference": 2,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "A grave over the α of δια. The point after πέντε is at mid-height (about 0.45-0.6)."
+    }
+   },
+   {
+    "difference": "(1) «διαπα»  /  (2) «διὰ πα»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "claude",
+    "A": {
+     "difference": 3,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "A grave stands over the α of Δια (majuscule Δ) before πα."
+    },
+    "B": {
+     "difference": 3,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "A grave over the α of the last δια (Δ-shaped), so the words are separate."
+    }
+   }
+  ],
+  "A_reading": null,
+  "B_reading": "ρων. καὶ ἡ δὶς διὰ πέντε. καὶ ἡ δὶς διὰ πα",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 66v.20",
+  "group": "h2",
+  "ref": "H 66v.20",
+  "image": "source/pal-gr-281/cpgraec281_0142-f66v.jpg",
+  "reading_1": "σῶν. κατὰ ἀντίφωνον. διαφέρει δ’ ἀλλή",
+  "reading_2": "σῶν. κατὰ ἀντίφωνον· διαφέρει δ’ ἀλλή",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «ἀντίφωνον.»  /  (2) «ἀντίφωνον·»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "The point after ἀντίφωνον is at mid-to-lower height (1957-1964 against ν and ο at 1947-1969), the same level as the low point after σῶν in this line. It is not at the top."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "The point after ἀντίφωνον (y1956-1964) lies between the mid-line and the baseline (about 0.6-0.66), clearly not at the letter tops."
+    }
+   }
+  ],
+  "A_reading": null,
+  "B_reading": "σῶν. κατὰ ἀντίφωνον. διαφέρει δ’ ἀλλή",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 66v.21",
+  "group": "h2",
+  "ref": "H 66v.21",
+  "image": "source/pal-gr-281/cpgraec281_0142-f66v.jpg",
+  "reading_1": "λων· τό, τε παράφωνον καὶ ἀντίφωνον.",
+  "reading_2": "λων· τό τε παράφωνον καὶ ἀντίφωνον·",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «τό,»  /  (2) «τό»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "medium",
+     "seen": "After τό, at or just below the baseline, there is a small crescent-shaped mark: head at upper right, notch and tail to the lower left. It has the same form as the comma in l.15. Reading 2 leaves out a mark that is written."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "medium",
+     "seen": "A small dark mark sits on the baseline between τό and τε, with a slight lower-left flick. This is the usual hypodiastole of τό,τε. A mark is certainly written there, so reading 2 (nothing) is wrong."
+    }
+   },
+   {
+    "difference": "(1) «ἀντίφωνον.»  /  (2) «ἀντίφωνον·»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "gpt",
+    "A": {
+     "difference": 2,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "The point after ἀντίφωνον is level with the tops of ο and ν (2026-2033 against letters at 2026-2044), so it is a high point."
+    },
+    "B": {
+     "difference": 2,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "The final point after ἀντίφωνον (y2026-2033) is level with the tops of ο and ν: high point."
+    }
+   }
+  ],
+  "A_reading": null,
+  "B_reading": "λων· τό, τε παράφωνον καὶ ἀντίφωνον·",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 66v.4",
+  "group": "h2",
+  "ref": "H 66v.4",
+  "image": "source/pal-gr-281/cpgraec281_0142-f66v.jpg",
+  "reading_1": "τὰς τοιάσδε προσηγορίας ἐδέξαντο. τὸ",
+  "reading_2": "τὰς τοιάσδε προσηγορίας ἐδέξαντο· τὸ",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «ἐδέξαντο.»  /  (2) «ἐδέξαντο·»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "gpt",
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "The point after ἐδέξαντο is at the top of the x-height (685-692 against τ and ο at 687-708), so it is a high point."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "The point after ἐδέξαντο (y685-692) is level with the top of ο/τ: high point."
+    }
+   }
+  ],
+  "A_reading": null,
+  "B_reading": "τὰς τοιάσδε προσηγορίας ἐδέξαντο· τὸ",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 66v.5",
+  "group": "h2",
+  "ref": "H 66v.5",
+  "image": "source/pal-gr-281/cpgraec281_0142-f66v.jpg",
+  "reading_1": "διὰ τεσσάρων ὡς διὰ τεσσάρων φθόγγων.",
+  "reading_2": "διατεσσάρων ὡς διὰ τεσσάρων φθόγγων.",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «διὰ τεσσάρων»  /  (2) «διατεσσάρων»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "The first δια carries a clear grave over α: διὰ τεσσάρων."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "A grave stroke stands over the α of the first δια, so the words are separate."
+    }
+   }
+  ],
+  "A_reading": null,
+  "B_reading": "διὰ τεσσάρων ὡς διὰ τεσσάρων φθόγγων.",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 66v.7",
+  "group": "h2",
+  "ref": "H 66v.7",
+  "image": "source/pal-gr-281/cpgraec281_0142-f66v.jpg",
+  "reading_1": "καὶ τὸ διὰ πέντε. ὡς διὰ πέντε τελούμενο(ν)·",
+  "reading_2": "καὶ τὸ διαπέντε. ὡς διὰ πέντε τελούμεν(ον)·",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «διὰ πέντε.»  /  (2) «διαπέντε.»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "A grave stands over the α of δια after τὸ, and an acute over πέ. So the text reads διὰ πέντε."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "A grave over the α of δια after τὸ; the point after πέντε is on the baseline."
+    }
+   },
+   {
+    "difference": "(1) «τελούμενο(ν)·»  /  (2) «τελούμεν(ον)·»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "claude",
+    "A": {
+     "difference": 2,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "The word is written τ-ε-λ-ο-ύ-μ-ε-ν-ο: the ν is μ-shaped and is followed by a fully written ο. Above and after that ο is the ν-suspension, a horizontal stroke with an upturned hook. A high point follows. So it is τελούμενο(ν)."
+    },
+    "B": {
+     "difference": 2,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "After μ, ε and ν a round ο is clearly written. Above and right of it is a horizontal suspension stroke with an upturned hook (ν supplied), then a high point. So -ενο is written and only ν is supplied."
+    }
+   }
+  ],
+  "A_reading": null,
+  "B_reading": "καὶ τὸ διὰ πέντε. ὡς διὰ πέντε τελούμενο(ν)·",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 66v.8",
+  "group": "h2",
+  "ref": "H 66v.8",
+  "image": "source/pal-gr-281/cpgraec281_0142-f66v.jpg",
+  "reading_1": "καὶ τὸ διαπασῶν. ὡς δι’ ὀκτὼ τελειούμε",
+  "reading_2": "καὶ τὸ διὰ πασῶν, ὡς δι’ ὀκτὼ τελειούμε",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «διαπασῶν.»  /  (2) «διὰ πασῶν,»",
+    "status": "editor",
+    "choice": null,
+    "winner": null,
+    "A": {
+     "difference": 1,
+     "choice": "other",
+     "other": "διαπασῶν,",
+     "confidence": "medium",
+     "seen": "There is no accent over the α of Δια (majuscule Δ), so the word is διαπασῶν. After πασῶν is a baseline wedge with its head at upper right and a short tail angled down-left, which makes it a comma. It differs from the oval low point after πέντε in l.7."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "medium",
+     "seen": "There is no accent over Δια: the only accents are the grave on τὸ and the circumflex over ῶ, so it is one word (high confidence). After ν is a compact blob on or just below the baseline with a minimal lower-left flick, the same as the agreed low points, so '.' rather than ','."
+    }
+   }
+  ],
+  "A_reading": null,
+  "B_reading": "καὶ τὸ διαπασῶν. ὡς δι’ ὀκτὼ τελειούμε",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 67r.1",
+  "group": "h2",
+  "ref": "H 67r.1",
+  "image": "source/pal-gr-281/cpgraec281_0143-f67r.jpg",
+  "reading_1": "συμφωνεῖν ἠπίως πῶς καὶ εὐρύθμως δια",
+  "reading_2": "συμφωνεῖν ἠπίως πως καὶ εὐρύθμως δια",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «πῶς»  /  (2) «πως»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "An arch-shaped circumflex stands over the ω of πως: πῶς."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "An arched circumflex (⌒, both legs turning down) is written over the ω of πως."
+    }
+   }
+  ],
+  "A_reading": null,
+  "B_reading": "συμφωνεῖν ἠπίως πῶς καὶ εὐρύθμως δια",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 67r.14",
+  "group": "h2",
+  "ref": "H 67r.14",
+  "image": "source/pal-gr-281/cpgraec281_0143-f67r.jpg",
+  "reading_1": "νίας. οὔπω δὲ συμφωνία· συμπληροῦται δὲ.",
+  "reading_2": "νίας, οὔπω δὲ συμφωνία· συμπληροῦται δὲ.",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «νίας.»  /  (2) «νίας,»",
+    "status": "editor",
+    "choice": null,
+    "winner": null,
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "low",
+     "seen": "After νίας is a baseline wedge about 14x8 px, with its head at upper right and a short tail running down-left. By shape it is a comma rather than a round dot."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "medium",
+     "seen": "After νίας is a baseline mark with its head at upper right and a distinct thin tail running down-left. It is markedly longer than the scribe's ordinary low points (elongation about 2.4 against 1.1-1.8): a comma."
+    }
+   }
+  ],
+  "A_reading": null,
+  "B_reading": "νίας, οὔπω δὲ συμφωνία· συμπληροῦται δὲ.",
+  "A_note": "On 67r this wedge with a lower-left tail is the scribe's ordinary baseline sign. It is identical to the marks after δεκάτου (l.8), the first διαπασῶν (l.19) and τεσσάρων (l.20), which both readings print as '.'. Whatever is chosen here, comma or point, should be applied the same way across the page.",
+  "B_note": null
+ },
+ {
+  "id": "H 67r.15",
+  "group": "h2",
+  "ref": "H 67r.15",
+  "image": "source/pal-gr-281/cpgraec281_0143-f67r.jpg",
+  "reading_1": "τὸ μὲν διατεσσάρων. ἐκ δύο τόνων καὶ ἡ",
+  "reading_2": "τὸ μὲν διὰ τεσσάρων. ἐκ δύο τόνων καὶ ἡ",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «διατεσσάρων.»  /  (2) «διὰ τεσσάρων.»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "A clear grave stands over the α of δια, as a separate stroke above α. τὸ and μὲν also have graves. So the text reads διὰ τεσσάρων."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "A grave over the α of δια after μὲν, so the words are separate."
+    }
+   }
+  ],
+  "A_reading": null,
+  "B_reading": "τὸ μὲν διὰ τεσσάρων. ἐκ δύο τόνων καὶ ἡ",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 67r.17",
+  "group": "h2",
+  "ref": "H 67r.17",
+  "image": "source/pal-gr-281/cpgraec281_0143-f67r.jpg",
+  "reading_1": "ἧττον ὂν. προσωνυμίας οὐκ ἔτυχε· τὸ",
+  "reading_2": "ἧττον ὂν, προσωνυμίας οὐκ ἔτυχε· τὸ",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «ὂν.»  /  (2) «ὂν,»",
+    "status": "editor",
+    "choice": null,
+    "winner": null,
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "low",
+     "seen": "After ὂν is a baseline wedge, head at upper right with a short tail down-left. It is the same form as at l.14, comma-shaped rather than a round dot."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "medium",
+     "seen": "After ὂν is a baseline mark with a head at right and a thin tail running down-left. It has the same comma form as 67r.14 and is longer-tailed than the agreed low points."
+    }
+   }
+  ],
+  "A_reading": null,
+  "B_reading": "ἧττον ὂν, προσωνυμίας οὐκ ἔτυχε· τὸ",
+  "A_note": "Same caution as at 67r.14: the marks both readings print as '.' at ll.8, 19 and 20 have this same wedge form, so the page should be treated uniformly.",
+  "B_note": null
+ },
+ {
+  "id": "H 67r.18",
+  "group": "h2",
+  "ref": "H 67r.18",
+  "image": "source/pal-gr-281/cpgraec281_0143-f67r.jpg",
+  "reading_1": "δὲ διὰ πέντε ἐκ τριῶν καὶ ἡμιτονιου· τὸ",
+  "reading_2": "δὲ διαπέντε ἐκ τριῶν καὶ ἡμιτονίου· τὸ",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «διὰ πέντε»  /  (2) «διαπέντε»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "gpt",
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "No accent stands over the α of δια; the only accent is the acute over πέ. So the text reads διαπέντε."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "No accent over δια: only the grave of δὲ precedes and the acute over the ε of πέντε follows. One word."
+    }
+   },
+   {
+    "difference": "(1) «ἡμιτονιου·»  /  (2) «ἡμιτονίου·»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "gpt",
+    "A": {
+     "difference": 2,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "A separate short acute stands over the ι of -νίου. It sits below, and is distinct from, the arms of the χ of ἔτυχε in l.17. So the text reads ἡμιτονίου."
+    },
+    "B": {
+     "difference": 2,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "A clear acute stands over the ι of νί, separate from the χ descender of line 17 above it."
+    }
+   }
+  ],
+  "A_reading": null,
+  "B_reading": "δὲ διαπέντε ἐκ τριῶν καὶ ἡμιτονίου· τὸ",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 67r.19",
+  "group": "h2",
+  "ref": "H 67r.19",
+  "image": "source/pal-gr-281/cpgraec281_0143-f67r.jpg",
+  "reading_1": "δὲ διὰ πασῶν. δι’ ἕξ· τὸ δὲ διὰ πασῶν",
+  "reading_2": "δὲ διαπασῶν. δι’ ἕξ· τὸ δὲ διαπασῶν",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «διὰ πασῶν.»  /  (2) «διαπασῶν.»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "gpt",
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "No accent stands over the α of δια; the line's accents are the grave on δὲ and the circumflex on ῶ. So the text reads διαπασῶν."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "No accent over the first δια; the only accent in the word is the circumflex over ῶ."
+    }
+   },
+   {
+    "difference": "(1) «διὰ πασῶν»  /  (2) «διαπασῶν»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "gpt",
+    "A": {
+     "difference": 2,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "No accent stands over the α of Δια (majuscule Δ) before πασῶν. The grave nearby belongs to δὲ. So the text reads διαπασῶν."
+    },
+    "B": {
+     "difference": 2,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "No accent over the second Δια, only the circumflex over ῶ. The small gap after α is not decided by any sign."
+    }
+   }
+  ],
+  "A_reading": null,
+  "B_reading": "δὲ διαπασῶν. δι’ ἕξ· τὸ δὲ διαπασῶν",
+  "A_note": "The baseline mark after the first διαπασῶν, given as '.' in both readings, has the same wedge-with-lower-left-tail form as the marks at 67r.14 and 67r.17.",
+  "B_note": null
+ },
+ {
+  "id": "H 67r.20",
+  "group": "h2",
+  "ref": "H 67r.20",
+  "image": "source/pal-gr-281/cpgraec281_0143-f67r.jpg",
+  "reading_1": "καὶ δὶς διατεσσάρων. δι’ ὀκτὼ καὶ ἡμιτο",
+  "reading_2": "καὶ δὶς διὰ τεσσάρων. δι’ ὀκτὼ καὶ ἡμιτο",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «διατεσσάρων.»  /  (2) «διὰ τεσσάρων.»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "A clear grave stands over the α of δια, as a separate stroke. δὶς also has a grave. So the text reads διὰ τεσσάρων."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "A grave over the α of δια after δὶς."
+    }
+   }
+  ],
+  "A_reading": null,
+  "B_reading": "καὶ δὶς διὰ τεσσάρων. δι’ ὀκτὼ καὶ ἡμιτο",
+  "A_note": "The mark after τεσσάρων, given as '.' in both readings, has the same wedge form as the marks at 67r.14 and 67r.17.",
+  "B_note": null
+ },
+ {
+  "id": "H 67r.21",
+  "group": "h2",
+  "ref": "H 67r.21",
+  "image": "source/pal-gr-281/cpgraec281_0143-f67r.jpg",
+  "reading_1": "νίου· τὸ δὲ διαπασῶν καὶ δὶς διαπέν",
+  "reading_2": "νίου· τὸ δὲ διὰ πασῶν καὶ δὶς διὰ πέν",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «διαπασῶν»  /  (2) «διὰ πασῶν»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "A grave stands over the α of δια before πασῶν: διὰ πασῶν."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "A grave over the α of δια after δὲ."
+    }
+   },
+   {
+    "difference": "(1) «διαπέν»  /  (2) «διὰ πέν»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "claude",
+    "A": {
+     "difference": 2,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "A grave stands over the α of δια before πέν, and an acute over πέ: διὰ πέν."
+    },
+    "B": {
+     "difference": 2,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "A grave over the α of δια after δὶς."
+    }
+   }
+  ],
+  "A_reading": null,
+  "B_reading": "νίου· τὸ δὲ διὰ πασῶν καὶ δὶς διὰ πέν",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 67r.4",
+  "group": "h2",
+  "ref": "H 67r.4",
+  "image": "source/pal-gr-281/cpgraec281_0143-f67r.jpg",
+  "reading_1": "ἀντίφωνον. ἰσοχρόνως τοῦ ὀξέως τῶ βα",
+  "reading_2": "ἀντίφωνον. ἰσοχρόνως τοῦ ὀξέως τῶ βά",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «βα»  /  (2) «βά»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "At the end of the line, after the u-shaped β and α, is a separate acute stroke rising to the right, above and right of α. It is not part of the descender from l.3. So the text reads βά."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "At the line end, just above and right of the α of βα, there is an acute stroke (/) at the same height as the circumflex of τῶ. It is separate from the line-3 descender above."
+    }
+   }
+  ],
+  "A_reading": null,
+  "B_reading": "ἀντίφωνον. ἰσοχρόνως τοῦ ὀξέως τῶ βά",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 67r.8",
+  "group": "h2",
+  "ref": "H 67r.8",
+  "image": "source/pal-gr-281/cpgraec281_0143-f67r.jpg",
+  "reading_1": "τοῦ πεντεκαιδεκάτου. τῶ ὀγδόωι· συνανι",
+  "reading_2": "τοῦ πέντε καὶ δεκάτου. τῶ ὀγδόωι· συνανι",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «πεντεκαιδεκάτου.»  /  (2) «πέντε καὶ δεκάτου.»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "No accent stands over πεντε or over καὶ, which is written in letters (κ + αι). The only accent in the word is the acute on κά of δεκάτου, so it is one word: πεντεκαιδεκάτου."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "No accent over πεντε or over the written και (κ+αι ligature). The only accent in the word is the acute over κά, so it is one word."
+    }
+   }
+  ],
+  "A_reading": null,
+  "B_reading": "τοῦ πεντεκαιδεκάτου. τῶ ὀγδόωι· συνανι",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 67v.1",
+  "group": "h3",
+  "ref": "H 67v.1",
+  "image": "source/pal-gr-281/cpgraec281_0144-f67v.jpg",
+  "reading_1": "διὰ πασῶν. διὰ δώδεκα· λόγος δὲ τοῦ",
+  "reading_2": "διαπασῶν. διὰ δώδεκα· λόγος δὲ τοῦ",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «διὰ πασῶν.»  /  (2) «διαπασῶν.»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "At the start of the line a grave accent (a short stroke falling to the right) stands clearly above the α of δια, with nothing above it that could come from another line. So the scribe writes διὰ πασῶν. A low point follows ν."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "There is a clear grave accent over the α of δια, at the start of the line, before π. The point after πασῶν is on the baseline."
+    }
+   }
+  ],
+  "A_reading": "διὰ πασῶν. διὰ δώδεκα· λόγος δὲ τοῦ",
+  "B_reading": "διὰ πασῶν. διὰ δώδεκα· λόγος δὲ τοῦ",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 67v.10",
+  "group": "h3",
+  "ref": "H 67v.10",
+  "image": "source/pal-gr-281/cpgraec281_0144-f67v.jpg",
+  "reading_1": "ος. ὁ ἔνατος· διπλάσιος. ὁ δωδέκατος·",
+  "reading_2": "ος, ὁ ἔνατος. διπλάσιος. ὁ δωδέκατος·",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «ος.»  /  (2) «ος,»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "gpt",
+    "A": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "medium",
+     "seen": "After the line-initial ος comes a teardrop-shaped point in the lower half of the line, slightly dragged to the lower left and ending at the baseline. It has no tail descending below the line like the real comma after ἐπίτριτος in l.9. Its shape matches the low points read '.' elsewhere on the page (e.g. after διαπασῶν in l.1)."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "medium",
+     "seen": "After ος there is a round point on the baseline with only a tiny foot to the left. It does not go below the baseline. It has the same form as the scribe's ordinary baseline points (e.g. ὀκτάχορδον. on 68v.1, -ριμώτερον. on 68r.15). It is unlike the real comma after ἐπίτριτος on line 9, which has a tail going down below the line."
+    }
+   },
+   {
+    "difference": "(1) «ἔνατος·»  /  (2) «ἔνατος.»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "gpt",
+    "A": {
+     "difference": 2,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "The point after ἔνατος stands at the very top of the letters, level with the top of ς (high point ·)."
+    },
+    "B": {
+     "difference": 2,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "The point after ἔνατος is flush with the tops of τος (point 1110-1116 px against letters 1108-1135), so it is a high point."
+    }
+   }
+  ],
+  "A_reading": "ος. ὁ ἔνατος· διπλάσιος. ὁ δωδέκατος·",
+  "B_reading": "ος. ὁ ἔνατος· διπλάσιος. ὁ δωδέκατος·",
+  "A_note": null,
+  "B_note": "I read ἔνατος as written with ε-ν-α-τ-ο-ς and found no other problem."
+ },
+ {
+  "id": "H 67v.13",
+  "group": "h3",
+  "ref": "H 67v.13",
+  "image": "source/pal-gr-281/cpgraec281_0144-f67v.jpg",
+  "reading_1": "πλάσιος. ὁ ὀκτὼ καὶ δέκατος· τετραπλά",
+  "reading_2": "πλάσιος. ὁ ὀκτωκαιδέκατος· τετραπλά",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «ὀκτὼ καὶ δέκατος·»  /  (2) «ὀκτωκαιδέκατος·»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "Breathings stand over ὁ and ὀ. There is no accent over ω and none over the καί group (tall L-shaped κ + αι). The only accent in the word is the acute on έ, so ὀκτωκαιδέκατος is one word. A high point follows."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "At 5x enlargement there is no accent over the ω of ὀκτω and none over καὶ, which is written in letters, κ+αι. The only accent is the acute on the ε of δέκατος. The ο carries only a breathing. So the word is ὀκτωκαιδέκατος, one word."
+    }
+   }
+  ],
+  "A_reading": "πλάσιος. ὁ ὀκτωκαιδέκατος· τετραπλά",
+  "B_reading": "πλάσιος. ὁ ὀκτωκαιδέκατος· τετραπλά",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 67v.16",
+  "group": "h3",
+  "ref": "H 67v.16",
+  "image": "source/pal-gr-281/cpgraec281_0144-f67v.jpg",
+  "reading_1": "γων ἢ τῶν χορδῶν· οἱ λόγοι τῶν διαστά",
+  "reading_2": "γων ἢ τῶν χορδῶν. οἱ λόγοι τῶν διαστά",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «χορδῶν·»  /  (2) «χορδῶν.»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "gpt",
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "medium",
+     "seen": "The point after χορδῶν sits at mid-height of the neighbouring ν and ο (centre at about 0.55 of the letter height), clearly below the top line. It is a middle point."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "The point after χορδῶν is at mid-height (1586-1594 px against an x-height of 1578-1600), not at the top of the letters."
+    }
+   }
+  ],
+  "A_reading": "γων ἢ τῶν χορδῶν. οἱ λόγοι τῶν διαστά",
+  "B_reading": "γων ἢ τῶν χορδῶν. οἱ λόγοι τῶν διαστά",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 67v.17",
+  "group": "h3",
+  "ref": "H 67v.17",
+  "image": "source/pal-gr-281/cpgraec281_0144-f67v.jpg",
+  "reading_1": "σεων κρίνονται· ἀλλὰ πρὸς τὴν ἐπίτα",
+  "reading_2": "σεων κρίνονται. ἀλλὰ πρὸς τὴν ἐπίτα",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «κρίνονται·»  /  (2) «κρίνονται.»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "gpt",
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "medium",
+     "seen": "The point after κρίνονται stands at mid-height of αι and ἀ (centre at about 0.55 of the letter height), not at the top."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "The point after κρίνονται is at mid-height to lower-middle of ται (1666-1672 px against letters 1658-1676)."
+    }
+   }
+  ],
+  "A_reading": "σεων κρίνονται. ἀλλὰ πρὸς τὴν ἐπίτα",
+  "B_reading": "σεων κρίνονται. ἀλλὰ πρὸς τὴν ἐπίτα",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 67v.19",
+  "group": "h3",
+  "ref": "H 67v.19",
+  "image": "source/pal-gr-281/cpgraec281_0144-f67v.jpg",
+  "reading_1": "τὸ ὀξύτερον· ἐπεί τοι γε τὸ διαπέντε",
+  "reading_2": "τὸ ὀξύτερον· ἐπεί τοι γε τὸ διὰ πέντε",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «διαπέντε»  /  (2) «διὰ πέντε»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "A clear grave stands above the α of Δια, with an acute on έ of πέντε, so the two words are separate."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "After the majuscule-shaped δ there is a clear grave accent over the α of δια. Separately, πέντε carries its acute."
+    }
+   }
+  ],
+  "A_reading": "τὸ ὀξύτερον· ἐπεί τοι γε τὸ διὰ πέντε",
+  "B_reading": "τὸ ὀξύτερον· ἐπεί τοι γε τὸ διὰ πέντε",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 67v.2",
+  "group": "h3",
+  "ref": "H 67v.2",
+  "image": "source/pal-gr-281/cpgraec281_0144-f67v.jpg",
+  "reading_1": "μὲν διὰ τεσσάρων. ἐπίτριτος· τοῦ δὲ δι",
+  "reading_2": "μὲν διατεσσάρων. ἐπίτριτος· τοῦ δὲ δι",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «διὰ τεσσάρων.»  /  (2) «διατεσσάρων.»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "A clear grave accent stands above the α of δια, before τεσσάρων."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "A grave stroke stands directly over the α of δια, so the words are separate. The point after τεσσάρων is on the baseline."
+    }
+   }
+  ],
+  "A_reading": "μὲν διὰ τεσσάρων. ἐπίτριτος· τοῦ δὲ δι",
+  "B_reading": "μὲν διὰ τεσσάρων. ἐπίτριτος· τοῦ δὲ δι",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 67v.20",
+  "group": "h3",
+  "ref": "H 67v.20",
+  "image": "source/pal-gr-281/cpgraec281_0144-f67v.jpg",
+  "reading_1": "διάστημα· λόγον, ἡμιόλιον ἔχον. οὐ πρὸς",
+  "reading_2": "διάστημα· λόγον ἡμιόλιον ἔχον. οὐ πρὸς",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «λόγον,»  /  (2) «λόγον»",
+    "status": "editor",
+    "choice": null,
+    "winner": null,
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "medium",
+     "seen": "Nothing is written on the line between λόγον (ν in μ-form) and ἡμιόλιον. Below the baseline, in the space between lines, are two marks at the same level: a small comma-like stroke directly under the last stem of ν, and a round dot under the first stem of ἡ. Below them a T-shaped mark stands above l.21. These marks are not in the position of punctuation (which here sits on the line, after the letter) and seem to form one sign with the T, so I read no comma after λόγον."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "low",
+     "seen": "Under the end of λόγον's ν, just below the baseline, there is a small stroke like a comma, with a tail turning down to the left. A separate round dot lies under the left stem of ἡ. Lower, in the space between lines 20 and 21, there is a T-shaped sign. So something like a comma is written after λόγον, but it belongs to a small cluster of signs whose purpose I cannot settle."
+    }
+   }
+  ],
+  "A_reading": "διάστημα· λόγον ἡμιόλιον ἔχον. οὐ πρὸς",
+  "B_reading": "διάστημα. λόγον, ἡμιόλιον ἔχον. οὐ πρὸς",
+  "A_note": null,
+  "B_note": "Error shared by both readings: the point after διάστημα is at mid-height of μα (point 1890-1896 px against x-height 1884-1902; relative height about 0.5, while the page's high points are at 0.15 or less). It is probably '.' rather than '·'. Separately, the second dot after λόγον and the T-shaped interlinear sign above line 21 (over the gap between χὴν and τῶν) are not recorded by either reading."
+ },
+ {
+  "id": "H 67v.3",
+  "group": "h3",
+  "ref": "H 67v.3",
+  "image": "source/pal-gr-281/cpgraec281_0144-f67v.jpg",
+  "reading_1": "ὰ πέντε. ἡμιόλιος· τοῦ δὲ διὰ πασῶν. δι",
+  "reading_2": "απέντε. ἡμιόλιος· τοῦ δὲ διαπασῶν. δι",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «ὰ πέντε.»  /  (2) «απέντε.»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "The α at the start of the line carries a grave (stroke falling to the right). πέντε has an acute on έ."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "The line opens with an α carrying a grave accent (the δι is at the end of line 2), then πέντε, then a baseline point."
+    }
+   },
+   {
+    "difference": "(1) «διὰ πασῶν.»  /  (2) «διαπασῶν.»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "claude",
+    "A": {
+     "difference": 2,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "A grave accent stands above the α of δια before πασῶν, and ῶ has a circumflex. The low point follows ν."
+    },
+    "B": {
+     "difference": 2,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "There is a grave accent over the α of δια before πασῶν, and a baseline point after πασῶν."
+    }
+   }
+  ],
+  "A_reading": "ὰ πέντε. ἡμιόλιος· τοῦ δὲ διὰ πασῶν. δι",
+  "B_reading": "ὰ πέντε. ἡμιόλιος· τοῦ δὲ διὰ πασῶν. δι",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 67v.6",
+  "group": "h3",
+  "ref": "H 67v.6",
+  "image": "source/pal-gr-281/cpgraec281_0144-f67v.jpg",
+  "reading_1": "καὶ δὶς διαπέντε. τριπλάσιος· οἷον. ὡς",
+  "reading_2": "καὶ δὶς διὰ πέντε. τριπλάσιος· οἷον. ὡς",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «διαπέντε.»  /  (2) «διὰ πέντε.»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "A grave stands above the α of Δια (uncial delta) and an acute above the έ of πέντε, so the two words are separate."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "After the majuscule-shaped δ of δια there is a distinct grave accent over the α, so διὰ πέντε is two words."
+    }
+   }
+  ],
+  "A_reading": "καὶ δὶς διὰ πέντε. τριπλάσιος· οἷον. ὡς",
+  "B_reading": "καὶ δὶς διὰ πέντε. τριπλάσιος· οἷον. ὡς",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 67v.9",
+  "group": "h3",
+  "ref": "H 67v.9",
+  "image": "source/pal-gr-281/cpgraec281_0144-f67v.jpg",
+  "reading_1": "ὃν πάντως. ἐπίτριτος, ὁ ὄγδοος. ἡμιόλι",
+  "reading_2": "ὃν πάντως. ἐπίτριτος, ὁ ὄγδοος· ἡμιόλι",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «ὄγδοος.»  /  (2) «ὄγδοος·»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "medium",
+     "seen": "The round point after ὄγδοος sits at mid-height of the final ς (about 1/3 to 2/3 of the letter height). It does not reach the top of the letters as the high point after ἔνατος in l.10 does, so it is a middle point, written '.'."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "The point after ὄγδοος sits at mid-height of the small letters (about 1050-1056 px against an x-height of 1042-1064), well below the top of the letters. On this page the high points sit flush with the letter tops."
+    }
+   }
+  ],
+  "A_reading": "ὃν πάντως. ἐπίτριτος, ὁ ὄγδοος. ἡμιόλι",
+  "B_reading": "ὃν πάντως. ἐπίτριτος, ὁ ὄγδοος. ἡμιόλι",
+  "A_note": "The comma after ἐπίτριτος is a true comma: a dot with a tail that hooks down below the baseline to the left.",
+  "B_note": null
+ },
+ {
+  "id": "H 68r.12",
+  "group": "h3",
+  "ref": "H 68r.12",
+  "image": "source/pal-gr-281/cpgraec281_0145-f68r.jpg",
+  "reading_1": "ἀπὸ τῆς διαφορᾶς τοῦ μήκους τῶν χορδῶ(ν)·",
+  "reading_2": "ἀπὸ τῆς διαφορᾶς τοῦ μήκους τῶν χορδῶ(ν).",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «χορδῶ(ν)·»  /  (2) «χορδῶ(ν).»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "medium",
+     "seen": "After χορδῶ (circumflex on ω) the ν-suspension stroke runs horizontally above, with a dot at its right end at accent level, about one letter height above the line. That dot belongs to the suspension stroke. A separate small point stands right after ω at mid-to-low height (about 0.6 of the letter height); this is the punctuation, a low/middle point."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "χορδῶ has a circumflex and a horizontal suspension stroke for ν. The point after it is in the lower half of the letters (1295-1303 px against an x-height of 1286-1305), not at the top."
+    }
+   }
+  ],
+  "A_reading": "ἀπὸ τῆς διαφορᾶς τοῦ μήκους τῶν χορδῶ(ν).",
+  "B_reading": "ἀπὸ τῆς διαφορᾶς τοῦ μήκους τῶν χορδῶ(ν).",
+  "A_note": "The dot at the right end of the ν-suspension stroke could be taken for a high point, but it lies far above the top line of the letters, at accent level.",
+  "B_note": null
+ },
+ {
+  "id": "H 68r.13",
+  "group": "h3",
+  "ref": "H 68r.13",
+  "image": "source/pal-gr-281/cpgraec281_0145-f68r.jpg",
+  "reading_1": "ἢ τῆς παχύτητος· ἢ τῆς τάσεως· γενομέ(νης)",
+  "reading_2": "ἢ τῆς παχύτητος. ἢ τῆς τάσεως· γενομ(ένης)",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «παχύτητος·»  /  (2) «παχύτητος.»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "medium",
+     "seen": "The point after παχύτητος sits in the middle third of the letter height (centre at about 0.5). The point after τάσεως in the same line touches the top of the letters (high point). The two differ visibly."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "The point after παχύτητος is at mid-height (1379-1387 px against an x-height of 1370-1394). The point after τάσεως on the same line is flush with the letter tops (1365-1374 against 1364-1390), which shows the contrast."
+    }
+   },
+   {
+    "difference": "(1) «γενομέ(νης)»  /  (2) «γενομ(ένης)»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "claude",
+    "A": {
+     "difference": 2,
+     "choice": "2",
+     "confidence": "medium",
+     "seen": "The written letters are γενομ. Above μ is an S-shaped, ς-like suspension sign (hook to the right at the top, curving to the left at the bottom; not an ε, which has no middle bar and no right-opening bowl), with a separate acute to its right. Under μ is a second ς-shaped hook. No ε is written as a letter."
+    },
+    "B": {
+     "difference": 2,
+     "choice": "2",
+     "confidence": "medium",
+     "seen": "The written letters are γ-ε-ν-ο-μ, with the last μ small and lacking its descender. Above μ is an S-shaped (ς-like) abbreviation sign, with a separate acute stroke to its right. A second S-shaped sign sits below μ. The sign above is not this scribe's ε: his ε is a 6-shape, and here the lower curve turns left. So no ε is written as a letter."
+    }
+   }
+  ],
+  "A_reading": "ἢ τῆς παχύτητος. ἢ τῆς τάσεως· γενομ(ένης)",
+  "B_reading": "ἢ τῆς παχύτητος. ἢ τῆς τάσεως· γενομ(ένης)",
+  "A_note": null,
+  "B_note": "Neither reading records the second S-shaped sign below μ. It is presumably part of the abbreviation."
+ },
+ {
+  "id": "H 68r.16",
+  "group": "h3",
+  "ref": "H 68r.16",
+  "image": "source/pal-gr-281/cpgraec281_0145-f68r.jpg",
+  "reading_1": "βαρῶν· ἐπὶ δὲ τῶν ἐμπνευστῶν. ἢ ἀπὸ",
+  "reading_2": "βαρῶν· ἐπὶ δὲ τῶν ἐμπνευστῶν· ἢ ἀπὸ",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «ἐμπνευστῶν.»  /  (2) «ἐμπνευστῶν·»",
+    "status": "editor",
+    "choice": null,
+    "winner": null,
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "medium",
+     "seen": "The point after ἐμπνευστῶν sits in the upper half of the line. Its top is level with the top of ν and ἢ (centre at about 0.28 of the letter height), the same height as the high point after τάσεως in 68r.13, and higher than the middle point after παχύτητος."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "low",
+     "seen": "The point after ἐμπνευστῶν is a borderline case. Its top (1605 px) almost reaches the letter tops (1602-1603), its bottom (1614) is at the middle, and its centre is at relative height about 0.30. The page's high points sit at about 0.05-0.23 (e.g. τάσεως· at 0.20) and its middle points at about 0.52-0.55 (παχύτητος.). So it is closer to a high point."
+    }
+   }
+  ],
+  "A_reading": "βαρῶν· ἐπὶ δὲ τῶν ἐμπνευστῶν· ἢ ἀπὸ",
+  "B_reading": "βαρῶν· ἐπὶ δὲ τῶν ἐμπνευστῶν· ἢ ἀπὸ",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 68r.20",
+  "group": "h3",
+  "ref": "H 68r.20",
+  "image": "source/pal-gr-281/cpgraec281_0145-f68r.jpg",
+  "reading_1": "τὰς τοῦ διὰ τεσσάρων ἁπάσας ἐμπεριέ",
+  "reading_2": "τὰς τοῦ διατεσσάρων ἁπάσας ἐμπεριέ",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «διὰ τεσσάρων»  /  (2) «διατεσσάρων»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "A clear grave stands above the α of δια before τεσσάρων."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "There is a clear grave accent above the α of δια, separate from the acute on σά."
+    }
+   }
+  ],
+  "A_reading": "τὰς τοῦ διὰ τεσσάρων ἁπάσας ἐμπεριέ",
+  "B_reading": "τὰς τοῦ διὰ τεσσάρων ἁπάσας ἐμπεριέ",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 68r.5",
+  "group": "h3",
+  "ref": "H 68r.5",
+  "image": "source/pal-gr-281/cpgraec281_0145-f68r.jpg",
+  "reading_1": "πιδιμερής· πρὸς δὲ τὸν τέταρτον. ἐπί",
+  "reading_2": "πιδιμερής· πρὸς δὲ τὸν τέταρτον. ἐπι",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «ἐπί»  /  (2) «ἐπι»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "The line ends in ἐ (with breathing) and π followed by a tall ι with a thick head and no separate accent stroke. Compare ἐπίτριτος in 67v.2, where the tall ι carries a separate acute. The word goes on as ἐπι|τέταρτος."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "There is no accent over π or ι at the end of the line. The ι is tall because it is joined to the crossbar of π; the scribe uses this same tall ι in ἐπίτασιν on line 7, where the acute is a separate stroke above. Here there is no such stroke. The accent of the compound is the acute on τέ at the start of line 6."
+    }
+   }
+  ],
+  "A_reading": "πιδιμερής· πρὸς δὲ τὸν τέταρτον. ἐπι",
+  "B_reading": "πιδιμερής· πρὸς δὲ τὸν τέταρτον. ἐπι",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 68r.6",
+  "group": "h3",
+  "ref": "H 68r.6",
+  "image": "source/pal-gr-281/cpgraec281_0145-f68r.jpg",
+  "reading_1": "τέταρτος· ἐπουδενὶ δὲ δείκνυται ἡμιόλιος",
+  "reading_2": "τέταρτος· ἐπ’ οὐδενὶ δὲ δείκνυται ἡμιόλιος·",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «ἐπουδενὶ»  /  (2) «ἐπ’ οὐδενὶ»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "Three separate signs stand above ἐπου: a breathing over ε, a slanting apostrophe over the right end of π (stroke from upper right to lower left), and a breathing over ου. With an apostrophe and a breathing written, ἐπ’ οὐδενὶ is two words. ὶ has a grave."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "Above the word there are three separate small marks. The first is a breathing over ε. The second is a hooked mark, shaped like an apostrophe, over the right leg of π, before ο. The third is a second mark of the same kind, a breathing over ου. Two signs between π and υ mean an apostrophe plus a breathing on οὐ: ἐπ’ οὐδενὶ."
+    }
+   },
+   {
+    "difference": "(1) «ἡμιόλιος»  /  (2) «ἡμιόλιος·»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "claude",
+    "A": {
+     "difference": 2,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "After the final ς of ἡμιόλιος a round point is written at the end of the line, above the top of the letters (high point)."
+    },
+    "B": {
+     "difference": 2,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "After the final ς of ἡμιόλιος at the end of the line there is a clear point at or above the letter tops."
+    }
+   }
+  ],
+  "A_reading": "τέταρτος· ἐπ’ οὐδενὶ δὲ δείκνυται ἡμιόλιος·",
+  "B_reading": "τέταρτος· ἐπ’ οὐδενὶ δὲ δείκνυται ἡμιόλιος·",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 68v.1",
+  "group": "h3",
+  "ref": "H 68v.1",
+  "image": "source/pal-gr-281/cpgraec281_0146-f68v.jpg",
+  "reading_1": "δὲ ὀκτάχορδον. τὴ̣ν ὅλην τοῦ διὰ πα",
+  "reading_2": "δὲ ὀκτάχορδον. τὴν ὅλην τοῦ διαπα",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «τὴ̣ν»  /  (2) «τὴν»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "gpt",
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "medium",
+     "seen": "The word is τ, then η in minuscule form (a tall stem joined at the base to the next minim), then ν in u-form, with a grave above. The ink is intact and the strokes are complete. The η form is less common than the scribe's usual H-shaped η, but it is legible and the word reads τὴν without doubt, so no underdot is needed."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "At 8x the word reads as τ with its crossbar, then an h-shaped minuscule η (a tall left stroke and an arch), then ν, with a grave accent over ην. The η is plainly legible, so no dot of uncertainty is needed."
+    }
+   },
+   {
+    "difference": "(1) «διὰ πα»  /  (2) «διαπα»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "claude",
+    "A": {
+     "difference": 2,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "A clear grave stands above the α of Δια before πα (end of line)."
+    },
+    "B": {
+     "difference": 2,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "There is a grave accent over the α of δια, after the majuscule-shaped δ, so the words are separate: διὰ πα-."
+    }
+   }
+  ],
+  "A_reading": "δὲ ὀκτάχορδον. τὴν ὅλην τοῦ διὰ πα",
+  "B_reading": "δὲ ὀκτάχορδον. τὴν ὅλην τοῦ διὰ πα",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 68v.15",
+  "group": "h3",
+  "ref": "H 68v.15",
+  "image": "source/pal-gr-281/cpgraec281_0146-f68v.jpg",
+  "reading_1": "γεῖν. πρὸς τὸ τοιὸν δὲ τῆς μελωδίας γέ",
+  "reading_2": "γεῖν. πρὸς τὸ τοιόν δὲ τῆς μελωδίας γέ",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «τοιὸν»  /  (2) «τοιόν»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "The accent over the second ο of τοιον rises from lower left to upper right, so it is an acute: τοιόν."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "The accent over the second ο of τοιον rises from lower left to upper right, so it is an acute, not a grave."
+    }
+   }
+  ],
+  "A_reading": "γεῖν. πρὸς τὸ τοιόν δε τῆς μελωδίας γέ",
+  "B_reading": "γεῖν. πρὸς τὸ τοιόνδε τῆς μελωδίας γέ",
+  "A_note": "Error in both readings: the scribe writes δε here without any accent (nothing stands above Δε; the next accent is the circumflex of τῆς), but both readings print δὲ.",
+  "B_note": "Error shared by both readings: the following δε has no accent at all (at 6x the space above ε is empty; the next accent is the circumflex on τῆς). By the word-division rule this should be one word, τοιόνδε, not τοιόν/τοιὸν δὲ."
+ },
+ {
+  "id": "H 68v.17",
+  "group": "h3",
+  "ref": "H 68v.17",
+  "image": "source/pal-gr-281/cpgraec281_0146-f68v.jpg",
+  "reading_1": "(καὶ) τὸ παρωνύμως ἀπ’ αὐτῆς ἁρμονίας. ἁρ",
+  "reading_2": "καὶ τὸ παρωνύμως ἀπ’ αὐτῆς ἁρμονίας, ἁρ",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «(καὶ)»  /  (2) «καὶ»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "gpt",
+    "A": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "The line begins with the S-shaped καί compendium (ϗ-type sign) with a grave above it, not with the letters κ-α-ι. By the convention a whole-word compendium is written (καὶ)."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "The line opens with the S-shaped whole-word compendium for καί, with a grave accent above it. No letters κ-α-ι are written, so by the convention it is (καὶ)."
+    }
+   },
+   {
+    "difference": "(1) «ἁρμονίας.»  /  (2) «ἁρμονίας,»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "gpt",
+    "A": {
+     "difference": 2,
+     "choice": "1",
+     "confidence": "medium",
+     "seen": "After ἁρμονίας comes a round point in the lower part of the line (centre at about 0.8 of the letter height) with a small notch at the top left. It has no descending tail, so it is not a comma."
+    },
+    "B": {
+     "difference": 2,
+     "choice": "1",
+     "confidence": "medium",
+     "seen": "After ἁρμονίας there is a small crescent point on the baseline (1700-1708 px against σ ending at about 1706) with a slight foot to the left. It is the same form as the scribe's ordinary baseline points, with no tail descending below the line."
+    }
+   }
+  ],
+  "A_reading": "(καὶ) τὸ παρωνύμως ἀπ’ αὐτῆς ἁρμονίας. ἁρ",
+  "B_reading": "(καὶ) τὸ παρωνύμως ἀπ’ αὐτῆς ἁρμονίας. ἁρ",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 68v.6",
+  "group": "h3",
+  "ref": "H 68v.6",
+  "image": "source/pal-gr-281/cpgraec281_0146-f68v.jpg",
+  "reading_1": "αὐτάς τε γὰρ τὰς προειρημένας· καὶ τ(ὰς)",
+  "reading_2": "αὐτάς τε γὰρ τὰς προειρημένας. καὶ τ(ὰς)",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «προειρημένας·»  /  (2) «προειρημένας.»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "gpt",
+    "A": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "medium",
+     "seen": "The point after προειρημένας sits in the upper part of the line. Its top is only a little below the top of σ/α (centre at about 0.3 of the letter height), at the same height as the point after τε at the start of l.8, and higher than the middle point after τεσσάρων in l.7."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "medium",
+     "seen": "The point after προειρημένας has its top flush with the tops of α and σ (point 824-832 px against letters 821-841). Its relative height is about 0.27, the same as the high point at the end of line 5 (φερόμενον·, about 0.23), and above the middle points of line 7 (about 0.45)."
+    }
+   }
+  ],
+  "A_reading": "αὐτάς τε γὰρ τὰς προειρημένας· καὶ τ(ὰς)",
+  "B_reading": "αὐτάς τε γὰρ τὰς προειρημένας· καὶ τ(ὰς)",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 68v.7",
+  "group": "h3",
+  "ref": "H 68v.7",
+  "image": "source/pal-gr-281/cpgraec281_0146-f68v.jpg",
+  "reading_1": "τοῦ δὶς διατεσσάρων· καὶ τοῦ δὶς διαπέν",
+  "reading_2": "τοῦ δὶς διὰ τεσσάρων. καὶ τοῦ δὶς διὰ πέν",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «διατεσσάρων·»  /  (2) «διὰ τεσσάρων.»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "medium",
+     "seen": "A clear grave stands above the α of δια, so the words are separate. The point after τεσσάρων sits at mid-height (centre at about 0.54 of the letter height), lower than the high points in 68v.6 and 68v.8, so it is '.'."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "There is a grave accent over the α of δια, so the words are separate. The point after τεσσάρων is at mid-height (892-904 px against ν 886-911; relative height about 0.45)."
+    }
+   },
+   {
+    "difference": "(1) «διαπέν»  /  (2) «διὰ πέν»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "claude",
+    "A": {
+     "difference": 2,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "A clear grave stands above the α of δια before πέν, and πέν carries an acute."
+    },
+    "B": {
+     "difference": 2,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "There is a grave accent over the α of the second δια before πέν."
+    }
+   }
+  ],
+  "A_reading": "τοῦ δὶς διὰ τεσσάρων. καὶ τοῦ δὶς διὰ πέν",
+  "B_reading": "τοῦ δὶς διὰ τεσσάρων. καὶ τοῦ δὶς διὰ πέν",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 68v.8",
+  "group": "h3",
+  "ref": "H 68v.8",
+  "image": "source/pal-gr-281/cpgraec281_0146-f68v.jpg",
+  "reading_1": "τε. καὶ τοῦ δὶς διαπασῶν, ἐν ἑαυτῶι πε",
+  "reading_2": "τε· καὶ τοῦ δὶς διαπασῶν. ἐν ἑαυτῶι πε",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «τε.»  /  (2) «τε·»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "gpt",
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "medium",
+     "seen": "The point after the line-initial τε sits in the upper half of the line, its top level with the top of ε and of the καί group (centre at about 0.27 of the letter height). It is a high point."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "medium",
+     "seen": "The point after τε starts at the top of the x-height (971 px, the same as the top of ε; α starts at 973) and ends at 981, against letters 971-989. That places it at the top of the letters, not at mid-height or on the baseline."
+    }
+   },
+   {
+    "difference": "(1) «διαπασῶν,»  /  (2) «διαπασῶν.»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "gpt",
+    "A": {
+     "difference": 2,
+     "choice": "2",
+     "confidence": "medium",
+     "seen": "After διαπασῶν (no grave on α; circumflex on ῶ) comes a round point on the baseline with only a tiny notch at its upper left. It has no tail descending below the line (compare the true comma in 67v.9)."
+    },
+    "B": {
+     "difference": 2,
+     "choice": "2",
+     "confidence": "medium",
+     "seen": "After πασῶν there is a small crescent point on the baseline (988-994 px) with a little foot to the left. It does not go below the line. It has the same shape as the scribe's ordinary baseline points (e.g. ὀκτάχορδον. on line 1). It is not a comma with a descending tail like the one after ἐπίτριτος on 67v line 9."
+    }
+   }
+  ],
+  "A_reading": "τε· καὶ τοῦ δὶς διαπασῶν. ἐν ἑαυτῶι πε",
+  "B_reading": "τε· καὶ τοῦ δὶς διαπασῶν. ἐν ἑαυτῶι πε",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 69r.1",
+  "group": "h4",
+  "ref": "H 69r.1",
+  "image": "source/pal-gr-281/cpgraec281_0147-f69r.jpg",
+  "reading_1": "νία συνέχεται. τὸ ἁρμονικὸν λεγόμενον",
+  "reading_2": "μίας συνέχεται, τὸ ἁρμονικὸν λεγόμενον",
+  "context": "The letters of this line were already decided in an earlier round; judge ONLY the punctuation differences listed.",
+  "rows": [
+   {
+    "difference": "punctuation after word 2 «συνέχεται»: (1) «.» (low/middle point)  /  (2) «,» (comma)",
+    "status": "decided",
+    "choice": "2",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "After συνέχεται, on the baseline: a dot with a tail curving down to the left. The head is at upper right and the tail at lower left, c. 12x10 px. It is a comma, not a round point like those after πται (l. 8) or διέσθαι (l. 5)."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "After -ται (x≈747-758, y≈448-457) there is a mark whose head sits on the baseline and whose tail curves down and to the left below the baseline. At 5x it is a clear comma, not a round point."
+    }
+   }
+  ],
+  "A_reading": "μίας συνέχεται, τὸ ἁρμονικὸν λεγόμενον (punctuation only judged)",
+  "B_reading": "μίας συνέχεται, τὸ ἁρμονικὸν λεγόμενον (punctuation only judged)",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 69r.10",
+  "group": "h4",
+  "ref": "H 69r.10",
+  "image": "source/pal-gr-281/cpgraec281_0147-f69r.jpg",
+  "reading_1": "τόνιον· καὶ τοῦτ’ ἂν εἴη τὸ διατεσσά",
+  "reading_2": "τόνιον· καὶ τοῦτ’ ἂν εἴη τὸ διὰ τεσσά",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «διατεσσά»  /  (2) «διὰ τεσσά»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "τὸ has its own grave over ο. A second grave, straight and descending to the right, stands over ι/α of δια, at the same height as the acute on σαί. The written accent separates the words: διὰ τεσσά. A faint hollow speck just above that grave is a parchment mark, not ink."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "There is a short grave over the ι/α of δια (x≈1240-1260, y≈1090-1100): it runs from upper left to lower right and sits between line 9 and line 10, so it belongs to line 10. The small pale circle above it is a flaw in the parchment, not ink. Because δια is accented, the words are separate: διὰ τεσσά."
+    }
+   }
+  ],
+  "A_reading": "τόνιον· καὶ τοῦτ’ ἂν εἴη τὸ διὰ τεσσά",
+  "B_reading": "τόνιον· καὶ τοῦτ’ ἂν εἴη τὸ διὰ τεσσά",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 69r.19",
+  "group": "h4",
+  "ref": "H 69r.19",
+  "image": "source/pal-gr-281/cpgraec281_0147-f69r.jpg",
+  "reading_1": "τερόν τε τοῦ προτέρου καὶ γοερώτερ(ον)·",
+  "reading_2": "τερόν τε τοῦ προτέρου καὶ γοερώτερο(ν)·",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «γοερώτερ(ον)·»  /  (2) «γοερώτερο(ν)·»",
+    "status": "decided",
+    "choice": "2",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "After γοερώτερ there is a full-size ο on the line, the same size as the other ο's of the word. Above it is a horizontal ν-stroke with hooked ends. So ο is written and only ν is supplied. A high point follows, above the tops of the letters."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "high",
+     "seen": "After ρ, a full-size omicron is written on the line. Above it is a horizontal suspension stroke with a hook (for ν). A high point follows above the letter tops. So the ο is written and only ν is supplied: γοερώτερο(ν)·"
+    }
+   }
+  ],
+  "A_reading": "τερόν τε τοῦ προτέρου καὶ γοερώτερο(ν)·",
+  "B_reading": "τερόν τε τοῦ προτέρου καὶ γοερώτερο(ν)·",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 69r.22",
+  "group": "h4",
+  "ref": "H 69r.22",
+  "image": "source/pal-gr-281/cpgraec281_0147-f69r.jpg",
+  "reading_1": "ἓν διτόνιον ἐκ συμφθάρσεως. καὶ τὸ διὰ",
+  "reading_2": "ἓν διτόνιον ἐκ συμφθάρσεως· καὶ τὸ διά",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «συμφθάρσεως.»  /  (2) «συμφθάρσεως·»",
+    "status": "editor",
+    "choice": null,
+    "winner": null,
+    "A": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "low",
+     "seen": "A round point with no tail after συμφθάρσεως spans y 2089-2097. The x-height is 2086-2106 at ωc and 2087-2105 at καὶ, so the top of the point is 2-3 px below the letter tops and its centre is at c. 1/3 of the letter body. That is the upper part of the letters, the same placement as the points after μεταφορᾶ (70r l. 1) and ῥοαῖς (70r l. 4), which both readings give as '·'. It is not on the baseline like πται. or θεμένων. (69r ll. 8-9). It is borderline, slightly lower than the point on l. 7."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "medium",
+     "seen": "The round point after -σεως spans y 2089-2097, against ω/ς letters at 2085-2107. The point sits in the upper part of the x-height, with its top almost level with the tops of the letters. That is the same level as the point after σται on line 7 and higher than the mid/low point on line 8, so it is a high point."
+    }
+   },
+   {
+    "difference": "(1) «διὰ»  /  (2) «διά»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "claude",
+    "A": {
+     "difference": 2,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "Over the α of δια at the line end there is a straight stroke descending from upper left to lower right. It is a grave, not an acute."
+    },
+    "B": {
+     "difference": 2,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "The accent over the final α of δια is thick at its upper left and tapers to the lower right (x≈1575-1590, y≈2045-2055). That is a grave, not an acute: διὰ."
+    }
+   }
+  ],
+  "A_reading": "ἓν διτόνιον ἐκ συμφθάρσεως· καὶ τὸ διὰ",
+  "B_reading": "ἓν διτόνιον ἐκ συμφθάρσεως· καὶ τὸ διὰ",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 69r.6",
+  "group": "h4",
+  "ref": "H 69r.6",
+  "image": "source/pal-gr-281/cpgraec281_0147-f69r.jpg",
+  "reading_1": "σὶ διαστάσεσι τὸ διὰ τεσσάρων ἀπήρτι",
+  "reading_2": "σὶ διαστάσεσι τὸ διατεσσάρων ἀπήρτι",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «διὰ τεσσάρων»  /  (2) «διατεσσάρων»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "A clear grave accent (stroke descending from upper left to lower right) stands over the α of δια. It is separate from the grave on τὸ. δια therefore carries its own accent, so the words are separate."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "There is a separate grave over the α of δια (a stroke from upper left to lower right, x≈690-700, y≈805-815), in addition to the grave on τὸ. Because δια carries its own accent, the words are separate: διὰ τεσσάρων."
+    }
+   }
+  ],
+  "A_reading": "σὶ διαστάσεσι τὸ διὰ τεσσάρων ἀπήρτι",
+  "B_reading": "σὶ διαστάσεσι τὸ διὰ τεσσάρων ἀπήρτι",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 69r.7",
+  "group": "h4",
+  "ref": "H 69r.7",
+  "image": "source/pal-gr-281/cpgraec281_0147-f69r.jpg",
+  "reading_1": "σται· δυσὶ δὲ τόνοις καὶ ἡμιτονίω διείλη",
+  "reading_2": "σται. δυσὶ δὲ τόνοις καὶ ἡμιτονίω διείλη",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «σται·»  /  (2) «σται.»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "medium",
+     "seen": "The round point after σται spans y 906-915. The x-height of σται and of υσι is 907-926, so the top of the point is level with the tops of the letters and its centre is in the upper fifth of the letter body. It sits at the top of the letters, in the same position as the points after μεταφορᾶ, διαφορᾶι and ῥοαῖς on 70r, which both readings give as '·'. It is well above the baseline points on ll. 8-9 (πται. θεμένων.)."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "medium",
+     "seen": "The round point after -σται spans y 906-915. The α beside it spans y 905-925, so the top of the point is level with the tops of the letters and the point fills the upper half of the x-height. On line 8, the point after πται sits lower (997-1004 against α 988-1007, lower half). This point is a high point, though not as far above the letters as the one after τόνιον on line 10."
+    }
+   }
+  ],
+  "A_reading": "σται· δυσὶ δὲ τόνοις καὶ ἡμιτονίω διείλη",
+  "B_reading": "σται· δυσὶ δὲ τόνοις καὶ ἡμιτονίω διείλη",
+  "A_note": "The scribe's point heights form a continuum: some points sit clearly above the letters (τόνιον· on l. 10), some at the top of the letter body (here), some at mid-height (μέρος· on l. 2, φέρεται· on l. 3) and some on the baseline. This one falls in the top-of-letters group.",
+  "B_note": null
+ },
+ {
+  "id": "H 69v.4",
+  "group": "h4",
+  "ref": "H 69v.4",
+  "image": "source/pal-gr-281/cpgraec281_0148-f69v.jpg",
+  "reading_1": "ὅμοιον γ(ὰρ) τρόπον, (καὶ) τὰ λοιπὰ τῶν συστημάτ(ων)",
+  "reading_2": "ὅμοιον δ’ τρόπον. (καὶ) τὰ λοιπὰ τῶν συστημάτ(ων)",
+  "context": "The letters of this line were already decided in an earlier round; judge ONLY the punctuation differences listed.",
+  "rows": [
+   {
+    "difference": "punctuation after word 3 «τρόπον»: (1) «,» (comma)  /  (2) «.» (low/middle point)",
+    "status": "editor",
+    "choice": null,
+    "winner": null,
+    "A": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "medium",
+     "seen": "After τρόπον, low in the line, there is an elongated mark (c. 15-17x9 px). It has a round head at upper right and a tail tapering to the left and slightly downward. It is shaped like a comma, not like the round baseline points of this hand (e.g. 69r l. 8 πται.). The tail runs more to the left than down, hence medium confidence."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "low",
+     "seen": "After τρόπον (x≈1165-1181, y≈669-677), the mark is not a round dot. It is a tadpole shape, wider (16 px) than tall (9 px): the head is at upper right, and the tail runs left and slightly down to the baseline. It has the same form as the comma on 69r line 1, but it sits inside the lower x-height rather than dropping below the baseline. It differs from the round points on 69v lines 13, 16 and 21, but looks like the mark after ἄριστον on 69v line 2. I read it as a comma, but the scribe's comma and low point are hard to tell apart here."
+    }
+   }
+  ],
+  "A_reading": "ὅμοιον [γ(ὰρ)/δ’] τρόπον, (καὶ) τὰ λοιπὰ τῶν συστημάτ(ων) (punctuation only judged)",
+  "B_reading": "ὅμοιον γ(ὰρ) τρόπον, (καὶ) τὰ λοιπὰ τῶν συστημάτ(ων) (punctuation only judged)",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 70r.1",
+  "group": "h4",
+  "ref": "H 70r.1",
+  "image": "source/pal-gr-281/cpgraec281_0149-f70r.jpg",
+  "reading_1": "αστημάτων μόνη μεταφορά· οὐδὲ τῆ μό",
+  "reading_2": "αστημάτων μόνη μεταφορὰ· οὐδὲ τῆ μό",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «μεταφορά·»  /  (2) «μεταφορὰ·»",
+    "status": "editor",
+    "choice": null,
+    "winner": null,
+    "A": {
+     "difference": 1,
+     "choice": "other",
+     "other": "μεταφορᾶ·",
+     "confidence": "medium",
+     "seen": "The accent over the final α (λ-shaped α, no ι) is a short, flat arch, c. 19x9 px. It is thick at the left and curves down at the right end. It matches the circumflexes of this page in shape and size: ἁρμοναῖς, ῥοαῖς and ταῖς on l. 4, τῶν, ταῖς on l. 2, and διαφορᾶι, all c. 16-20x8-10 px. It does not match the graves (καὶ, ἀλλὰ, τὲ), which are long, straight and steeper, c. 20-25x13-18 px. It is not an acute, because its left end is higher. So neither μεταφορά nor μεταφορὰ; the image shows a circumflex."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "2",
+     "confidence": "medium",
+     "seen": "The accent over the final α (x 1110-1128, y 459-467) is a short, flat stroke. It is thickest at the upper left and slopes down to the right, so its direction is that of a grave. It is certainly not an acute: the acute on μόνη in the same line runs from lower left up to upper right. It also lacks the turned-down left leg of the scribe's arched circumflex (compare τῆ in the same line and ταῖς in line 2). So: μεταφορὰ·"
+    }
+   }
+  ],
+  "A_reading": "αστημάτων μόνη μεταφορᾶ· οὐδὲ τῆ μό",
+  "B_reading": "αστημάτων μόνη μεταφορὰ· οὐδὲ τῆ μό",
+  "A_note": "A circumflex fits the dative, parallel to the following τῆ μόνη τούτων διαφορᾶι.",
+  "B_note": null
+ },
+ {
+  "id": "H 70r.2",
+  "group": "h4",
+  "ref": "H 70r.2",
+  "image": "source/pal-gr-281/cpgraec281_0149-f70r.jpg",
+  "reading_1": "νη τούτων διαφορᾶ· ἀλλὰ καὶ ταῖς σχολαι",
+  "reading_2": "νη τούτων διαφορὰ· ἀλλὰ καὶ ταῖς σχολαι",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «διαφορᾶ·»  /  (2) «διαφορὰ·»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "gpt",
+    "A": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "The accent over the ending is a short arch, thick at the left and curling down at the right. It is identical to the circumflex on ταῖς on the same line. The graves on ἀλλὰ and καὶ on the same line are long, straight oblique strokes. So it is a circumflex, not a grave."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "medium",
+     "seen": "The accent over the final α (x 879-895, y 545-552) is a small arch: the left end turns down a little, the middle is high, and the right end curls down. At the same enlargement it matches the circumflex on ταῖς in the same line almost exactly. It does not look like the long straight diagonal graves on ἀλλὰ/καὶ. So: διαφορᾶ·"
+    }
+   }
+  ],
+  "A_reading": "νη τούτων διαφορᾶι· ἀλλὰ καὶ ταῖς σχολαι",
+  "B_reading": "νη τούτων διαφορᾶ· ἀλλὰ καὶ ταῖς σχολαι",
+  "A_note": "Error in BOTH readings: the iota adscript is written. After the α (bowl and stem) a second upright is joined to it at the base, the same αι ligature as in ταῖς on this line. The word should read διαφορᾶι·.",
+  "B_note": null
+ },
+ {
+  "id": "H 70r.4",
+  "group": "h4",
+  "ref": "H 70r.4",
+  "image": "source/pal-gr-281/cpgraec281_0149-f70r.jpg",
+  "reading_1": "αμοναῖς τέ καὶ ῥοαῖς· καὶ ταῖς τῶν ἐπα",
+  "reading_2": "αμοναῖς τε καὶ ῥοαῖς· καὶ ταῖς τῶν ἐπα",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «τέ»  /  (2) «τε»",
+    "status": "decided",
+    "choice": "other",
+    "winner": null,
+    "A": {
+     "difference": 1,
+     "choice": "other",
+     "other": "τὲ",
+     "confidence": "high",
+     "seen": "Over the ε of the τε ligature there is a straight stroke descending from upper left to lower right (y 681-695). It is placed at accent height, like the grave on the following καὶ, and runs opposite to this hand's acutes, which rise to the right. So an accent is written and it is a grave: τὲ. It is neither τέ nor an unaccented τε."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "other",
+     "other": "τὲ",
+     "confidence": "high",
+     "seen": "An accent is written over the ε of τε (x 575-594, y 681-695), just above the tall upper stroke of ε and separate from the grave on καὶ, which sits over its αι at x≈676-705. The pixel map shows the stroke running from upper left (row 681) to lower right (row 694), so it is a grave, not an acute. Neither reading is right: an accent is present, and it is grave."
+    }
+   }
+  ],
+  "A_reading": "αμοναῖς τὲ καὶ ῥοαῖς· καὶ ταῖς τῶν ἐπα",
+  "B_reading": "αμοναῖς τὲ καὶ ῥοαῖς· καὶ ταῖς τῶν ἐπα",
+  "A_note": null,
+  "B_note": null
+ },
+ {
+  "id": "H 70r.7",
+  "group": "h4",
+  "ref": "H 70r.7",
+  "image": "source/pal-gr-281/cpgraec281_0149-f70r.jpg",
+  "reading_1": "κίλα κατασκευάζεται· ⟦r Τέλο(ς) τ(ῆ)ς μουσικ(ῆ)ς:⟧",
+  "reading_2": "κίλα κατασκευάζεται· ⟦r Τέλ(ος) τ(ῆς) μουσικῆς·⟧",
+  "context": null,
+  "rows": [
+   {
+    "difference": "(1) «Τέλο(ς) τ(ῆ)ς μουσικ(ῆ)ς:⟧»  /  (2) «Τέλ(ος) τ(ῆς) μουσικῆς·⟧»",
+    "status": "decided",
+    "choice": "1",
+    "winner": "claude",
+    "A": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "Red ink. Τ and έ (acute), then λ with a descending abbreviation tail and a small superscript ο written above and right of the λ. The ο is a written letter, so Τέλο(ς). Next, τ with a superscript ς and a circumflex above; ς is written, so τ(ῆ)ς. Then μουσικ with a superscript ς and a circumflex above the κ; no η is written, so μουσικ(ῆ)ς. At the end there are two red dots one above the other, a double point ':' rather than '·'."
+    },
+    "B": {
+     "difference": 1,
+     "choice": "1",
+     "confidence": "high",
+     "seen": "Everything is in red. Τέλ has a small omicron written above, to the right of the λ, and no ς: Τέλο(ς). The τ has a small ς-shaped superscript with a circumflex above it, and no η: τ(ῆ)ς. μουσικ has the same superscript ς with a circumflex, and no η or ς on the line, so μουσικῆς written out in full is wrong. At the end are two red dots stacked one above the other, at the top of the x-height and on the baseline: a double point ':', not a single high point."
+    }
+   }
+  ],
+  "A_reading": "κίλα κατασκευάζεται· ⟦r Τέλο(ς) τ(ῆ)ς μουσικ(ῆ)ς:⟧",
+  "B_reading": "κίλα κατασκευάζεται· ⟦r Τέλο(ς) τ(ῆ)ς μουσικ(ῆ)ς:⟧",
+  "A_note": null,
+  "B_note": null
+ }
+]

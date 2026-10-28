@@ -1,0 +1,469 @@
+{
+ "witness": "V",
+ "extent": {
+  "first": "V 75r.12 ⟦r τ(ῆς) μουσικ(ῆς) σύνοψις ἠκριβωμένη⟧ (heading); the text begins V 75r.13 ⟦r Μ⟧ουσικὴν οἱ παλαιοὶ, συνέχειν εἶπον (large red initial Μ beside 75r.13-16)",
+  "last": "V 82v.17 κίλα κατασκευάζεται: , followed by V 82v.18 ⟦r τέλος τῆς μουσικῆς⟧ (red end formula, counted as a line)",
+  "before": "Arithmetic ends V 75r.9 ρασμένων τὴν ἔκθεσιν παραιτούμενος: ; red end formula V 75r.10-11 ⟦r τῶν περὶ ἀριθμητικῆς εἴληφε τέλος | ἡ σύνοψις:⟧; then an ornamental band (not counted) above the music heading.",
+  "after": "Under 82v.18 a red ornamental rule with dots (not counted); then the red geometry heading V 82v.19-20 σύνοψις αὐτὴ[?] γεωμετρί- | ας λογ[...] · (wording only partly legible).",
+  "boundary_lines": "75r has 19 lines: 75r.1-9 arithmetic (75r.1 πιβ̣ολαῖς ... γνω- ; 75r.9 ρασμένων ... παραιτούμενος:), 75r.10-11 red end formula of the arithmetic, 75r.12-19 music. 75v-82r: 21 lines each. 82v has 20 lines: 82v.1-17 music, 82v.18 τέλος τῆς μουσικῆς, 82v.19 σύνοψις αὐτὴ[?] γεωμετρί- (geometry heading, first word σύνοψις, last γεωμετρί-), 82v.20 ας λογ[...] · (geometry heading). Music section = V 75r.12-82v.18."
+ },
+ "collation": [
+  {
+   "ref": "Bas. 23.1-2",
+   "lemma": "ΤΗΣ ΜΟΥΣΙΚΗΣ ΗΚΡΙΒΩΜΕΝΗ ΣΥΝΟΨΙΣ",
+   "reading": "⟦r τ(ῆς) μουσικ(ῆς) σύνοψις ἠκριβωμένη⟧",
+   "witness_ref": "V 75r.12",
+   "type": "order",
+   "note": "Heading in red, one line, below an ornamental band; σύνοψις before ἠκριβωμένη."
+  },
+  {
+   "ref": "Bas. 23.8",
+   "lemma": "μὴ κατὰ συμμετρίας",
+   "reading": "μὴ μετὰ συμμετρίας",
+   "witness_ref": "V 75r.16-17",
+   "type": "substitution",
+   "note": "μὴ at end of 75r.16, μετὰ at start of 75r.17; clear at enlargement. Bas. image checked: κατὰ."
+  },
+  {
+   "ref": "Bas. 24.5",
+   "lemma": "ὀνομάζει",
+   "reading": "ὀνομάσοι",
+   "witness_ref": "V 75v.8",
+   "type": "form",
+   "note": "ὀνομα + lunate σ with long tail (not this hand's ζ, cf. συμβιβαζόμενον 75v.10), οι written above the line-end; optative after τάχα δ᾽ ἄν τις (75v.6). Accent placement unclear."
+  },
+  {
+   "ref": "Bas. 24.20-21",
+   "lemma": "ἐναρμόνιος δὲ λέγεται",
+   "reading": "ἐναρμόνιος λέγεται",
+   "witness_ref": "V 76r.7-8",
+   "type": "omission",
+   "note": "ἐ- (76r.7) | ναρμόνιος λέγεται (76r.8); no δὲ. Bas. image has δὲ."
+  },
+  {
+   "ref": "Bas. 24.23",
+   "lemma": "εἰ δ᾽ μὴ",
+   "reading": "⟦r ε⟧ἰ γὰρ μὴ",
+   "witness_ref": "V 76r.11",
+   "type": "substitution",
+   "note": "γὰρ for δ(έ); red initial ε in the margin."
+  },
+  {
+   "ref": "Bas. 25.2",
+   "lemma": "τῷ",
+   "reading": "τῆ",
+   "witness_ref": "V 76r.17",
+   "type": "form",
+   "note": "τῆ ἀπὸ τοῦ βαρέος ἐπὶ τὸ ὀξὺ προόδῳ: feminine article agreeing with προόδῳ (iota not written). Bas. image: τῷ."
+  },
+  {
+   "ref": "Bas. 25.4",
+   "lemma": "λαμβανόντος",
+   "reading": "λαμβάνοντες",
+   "witness_ref": "V 76r.19",
+   "type": "form",
+   "note": "Plural nominative participle; ending -τες clear at enlargement."
+  },
+  {
+   "ref": "Bas. 25.22",
+   "lemma": "διπλοῦν ἔχον",
+   "reading": "διπλοῦν ἔχων",
+   "witness_ref": "V 76v.18-19",
+   "type": "form",
+   "note": "ω clear (masc., agreeing with ὁ τόνος … διϊστάμενος); o/ω, possibly only orthographic. Bas. image: ἔχον. Cf. 76v.17 ἔχον = Bas. 25.20."
+  },
+  {
+   "ref": "Bas. 25.24",
+   "lemma": "οἷον * ὀκτὼ ἥμισυ",
+   "reading": "ὅσον ὀκτὼ ἥμισυ",
+   "witness_ref": "V 77r.1",
+   "type": "substitution",
+   "note": "ὅσον, parallel to ὅσον ὀκτὼ τέταρτον (77r.2). V has neither of Xylander's supplements (τοῦ ἐννέα πρὸς) here or at Bas. 25.25."
+  },
+  {
+   "ref": "Bas. 26.7-8",
+   "lemma": "ἀπὸ τοῦ μείζονος",
+   "reading": "ἀπὸ τῆς μείζονος",
+   "witness_ref": "V 77r.11",
+   "type": "form",
+   "note": "Feminine (with εὐθεῖαν, 77r.12-13). Bas. image: τοῦ (compendium)."
+  },
+  {
+   "ref": "Bas. 28.1",
+   "lemma": "ὡς δι᾽ ὀκτὼ τελούμενον",
+   "reading": "ὡς δι᾽ ὀκτὼ τελει-|ούμενον",
+   "witness_ref": "V 78v.6-7",
+   "type": "form",
+   "note": "τελειούμενον; cf. 78v.5 τελούμενον = Bas. 27.25."
+  },
+  {
+   "ref": "Bas. 28.4",
+   "lemma": "ἀναδιπλουμένων",
+   "reading": "ἐπαναδιπλουμένων",
+   "witness_ref": "V 78v.10",
+   "type": "form",
+   "note": "κἀκεῖθεν αὖθις ἐπαναδιπλουμένων; compound with ἐπ-."
+  },
+  {
+   "ref": "Bas. 28.15",
+   "lemma": "ἡπίως πρῶτον καὶ εὐρύθμως",
+   "reading": "ἠπίως πῶς καὶ εὐρύθμως",
+   "witness_ref": "V 79r.3",
+   "type": "substitution",
+   "note": "πῶς (written with circumflex) for πρῶτον. εὐ written as a ligature (cf. εὐρύτητος 80v.11)."
+  },
+  {
+   "ref": "Bas. 29.14",
+   "lemma": "τοῦ δὲ διὰ πασῶν",
+   "reading": "τοῦ διὰ πασῶν",
+   "witness_ref": "V 79v.11",
+   "type": "omission",
+   "note": "δὲ absent (Bas. 29.15 also has no δὲ before the next item)."
+  },
+  {
+   "ref": "Bas. 29.14",
+   "lemma": "καὶ διὰ τεσσάρων, διπλασιεπιμερὴς",
+   "reading": "καὶ δὶς διὰ τεσσάρων, διπλασιεπιμερής",
+   "witness_ref": "V 79v.11-12",
+   "type": "addition",
+   "note": "δὶς added; same wording as in the list of intervals above (V 79v.4, Bas. 29.8)."
+  },
+  {
+   "ref": "Bas. 29.15",
+   "lemma": "τοῦ διὰ πασῶν καὶ διὰ πέντε, τριπλάσιος",
+   "reading": "⟦r Τ⟧οῦ διὰ πασῶν καὶ δὶς διὰ πέντε, τριπλάσιος",
+   "witness_ref": "V 79v.13-14",
+   "type": "addition",
+   "note": "δὶς added; red initial Τ in the margin. Cf. V 79v.6 / Bas. 29.9."
+  },
+  {
+   "ref": "Bas. 29.21",
+   "lemma": "τὸ ἕκτον δὶς ἔχων",
+   "reading": "⟦r Τ⟧ὸν ἕκτον δὶς ἔχων",
+   "witness_ref": "V 79v.21",
+   "type": "form",
+   "note": "τὸν (masc., with ἀριθμός) for τὸ; red initial Τ."
+  },
+  {
+   "ref": "Bas. 29.24-25",
+   "lemma": "οὐ τῶν χορδῶν",
+   "reading": "ἢ τῶν χορδῶν",
+   "witness_ref": "V 80r.5",
+   "type": "substitution",
+   "note": "ἢ clear. Bas. image: ου-ligature with breathing, i.e. οὐ."
+  },
+  {
+   "ref": "Bas. 30.3",
+   "lemma": "λόγον ἡμιόλιον ἔχον",
+   "reading": "λόγον ἡμιόλιον ἔχων",
+   "witness_ref": "V 80r.9-10",
+   "type": "form",
+   "note": "ω clear; o/ω, possibly only orthographic. Bas. image: ἔχον."
+  },
+  {
+   "ref": "Bas. 30.5",
+   "lemma": "πρὸς τὸν πρὸ αὐτοῦ",
+   "reading": "πρὸς τοὺς αὐτοῦ",
+   "witness_ref": "V 80r.12",
+   "type": "form+omission",
+   "note": "τοὺς (written in the hand's -ους form that resembles -οις, as at 77r.3 κατὰ τοὺς ἀριθμούς and 80v.2 τοὺς λοιποὺς) and no πρὸ."
+  },
+  {
+   "ref": "Bas. 30.20",
+   "lemma": "ἐπὶ δὲ τῶν ἐμπνευστῶν",
+   "reading": "πὶ δὲ τῶν ἐμπνευστῶν",
+   "witness_ref": "V 80v.10",
+   "type": "omission",
+   "note": "Mechanical: the line starts a new period after βαρῶν: (80v.9), where V regularly puts a red initial in the margin; here the initial ε was never executed (margin blank). Not a real variant."
+  },
+  {
+   "ref": "Bas. 30.25",
+   "lemma": "ἐμπεριέχων",
+   "reading": "ἐμπεριέχον",
+   "witness_ref": "V 80v.15",
+   "type": "form",
+   "note": "Neuter, agreeing with τὸ … τετράχορδον; ο clear. Bas. image: ἐμπεριέχων."
+  },
+  {
+   "ref": "Bas. 31.5",
+   "lemma": "διάτασιν",
+   "reading": "διάστασιν",
+   "witness_ref": "V 81r.1",
+   "type": "substitution",
+   "note": "στ-ligature, fairly clear: συνέχον διάστασιν."
+  },
+  {
+   "ref": "Bas. 31.23",
+   "lemma": "* ἢ ἁρμονία",
+   "reading": "ἡ ἁρμονία",
+   "witness_ref": "V 81v.1",
+   "type": "substitution",
+   "note": "Article ἡ (rough breathing, no grave). Bas. prints * ἢ in the text with Xylander's marginal correction * ἡ (missing from our Bas. working file); V agrees with Xylander."
+  },
+  {
+   "ref": "Bas. 32.4-5",
+   "lemma": "διείληπται",
+   "reading": "διείρ̣ηπται",
+   "witness_ref": "V 81v.9",
+   "type": "form",
+   "note": "The letter after ει has a descender like ρ; probably a slip for διείληπται (λ/ρ) rather than a real variant (διήρηται?)."
+  },
+  {
+   "ref": "Bas. 32.5-6",
+   "lemma": "ἐκτιθεμένων",
+   "reading": "ἐντιθεμένων",
+   "witness_ref": "V 81v.10",
+   "type": "substitution",
+   "note": "ἐν clear."
+  },
+  {
+   "ref": "Bas. 33.10-11",
+   "lemma": "νῦν δὲ φρύγιον, νῦν δὲ δώριον",
+   "reading": "νῦν δὲ, φρύγιον· νῦν δὲ φρύ-|γιον· νῦν δὲ δώριον",
+   "witness_ref": "V 82v.5-6",
+   "type": "addition",
+   "note": "Dittography: νῦν δὲ φρύγιον written twice."
+  },
+  {
+   "ref": "Bas. 33.12",
+   "lemma": "ὑμεραῖος",
+   "reading": "ὑμέναι-|ος",
+   "witness_ref": "V 82v.7-8",
+   "type": "term",
+   "note": "Bas. misprint (image checked: ὑμεραῖος); V has the correct ὑμέναιος."
+  },
+  {
+   "ref": "Bas. 33.14",
+   "lemma": "μόνῃ διαφορᾷ",
+   "reading": "μόνη μεταφορᾶ",
+   "witness_ref": "V 82v.10",
+   "type": "substitution",
+   "note": "μεταφορᾶ (iota not written) for διαφορᾷ."
+  },
+  {
+   "ref": "Bas. 33.14",
+   "lemma": "διαφορᾷ, ἀλλὰ",
+   "reading": "μεταφορᾶ· οὐδὲ τῆ μόνη τούτων διαφορᾶ· ἀλλὰ",
+   "witness_ref": "V 82v.10-11",
+   "type": "addition",
+   "note": "V adds οὐδὲ τῇ μόνῃ τούτων διαφορᾷ before ἀλλὰ καὶ."
+  }
+ ],
+ "three_places": [
+  {
+   "place": "a",
+   "quote": "δύναμιν μὲν | ἔχον διαφόρων διαστημάτων· δι᾽ ἑ-|νὸς δὲ διαστήματος ἀπηχούμενον· | ⟦r Π⟧αρὰ δὲ ταῦτα, ἕτερα διαστήματ(α)· | τὸ διὰ τεσσάρων· καὶ διὰ πέντε,",
+   "refs": "V 78r.9-13 (= Bas. 27.12-15). Nothing between ἀπηχούμενον· (78r.11, line-end) and Παρὰ δὲ ταῦτα (78r.12, red initial Π in the margin); no gap, no marginal or interlinear addition."
+  },
+  {
+   "place": "b",
+   "quote": "τετραπλάσιος, ὁ εἰκοστὸς | τέταρτος: [blank] εἰδέναι μέντοι χρή, | ⟦r ὡ⟧ς οὐ πρὸς τὸν ἀριθμὸν τῶν φθόγγων | ἢ τῶν χορδῶν·",
+   "refs": "V 80r.2-5 (= Bas. 29.22-25). Nothing added after ὁ εἰκοστὸς τέταρτος. After the double point on 80r.3 there is a blank of c. 3-4 letters before εἰδέναι; no erasure visible, and the same spacing after a double point occurs elsewhere (78r.5 γνωσθήσεται: ἀσύνθετα; 81v.15 τόνων: εἰ δὲ), so it is probably only a sentence break."
+  },
+  {
+   "place": "c",
+   "quote": "ἢ ἀπὸ | τῆς ἐπιτάσεως τοῦ π(νεύματο)ς καὶ ἀνέσε-|ως· τῶν δὲ διαστημάτων, τὸ μὲν ἐ-|στι τετράχορδον·",
+   "refs": "V 80v.11-14 (= Bas. 30.21-24). πνεύματος written as the contracted πν̄ς; nothing added between ἀνέσεως· (80v.13) and τῶν δὲ διαστημάτων; no marginal note."
+  }
+ ],
+ "bas_corrections": [
+  {
+   "ref": "Bas. 25.17",
+   "our_text": "καὶ τὰ ἃλλα",
+   "printed": "καὶ τὰ μ̀ (μὲν-ligature at the line end)",
+   "note": "The printed text is καὶ τὰ μὲν περὶ φθόγγων ἐν τούτοις, so V's μὲν (76v.14) is not a variant."
+  },
+  {
+   "ref": "Bas. 24.18",
+   "our_text": "περωχὴ",
+   "printed": "πε-ρ with an arch over ρ + ωχὴ",
+   "note": "The arch over ρ is most likely the περι-compendium, i.e. περιωχὴ. V περιοχή (76r.4-5) then differs only in ο/ω."
+  },
+  {
+   "ref": "Bas. 25.9",
+   "our_text": "διεζευτμένη",
+   "printed": "διεζευγμένη",
+   "note": "The letter is the upright Γ-form of gamma, not τ."
+  },
+  {
+   "ref": "Bas. 25.4",
+   "our_text": "λαμβανόντος",
+   "printed": "λαμβάνοντος",
+   "note": "Accent only; the word itself is correct."
+  },
+  {
+   "ref": "Bas. 30.11",
+   "our_text": "δείκνηται",
+   "printed": "δείκνυται (?)",
+   "note": "At enlargement the third letter after δεικ looks like υ; uncertain, orthographic only."
+  },
+  {
+   "ref": "Bas. 31.23",
+   "our_text": "* ἢ ἁρμονία (no marginal entry)",
+   "printed": "* ἢ in the text; right margin «* ἡ»",
+   "note": "Xylander's marginal correction ἡ is missing from the marginalia list. V reads ἡ (81v.1)."
+  },
+  {
+   "ref": "Bas. 32.23",
+   "our_text": "* τὸ τετραχόρδου (no marginal entry)",
+   "printed": "* τὸ in the text; left margin «* τοῦ»",
+   "note": "Xylander's marginal correction τοῦ is missing from the marginalia list. V reads τὸ (82r.10), as in the Bas. text."
+  }
+ ],
+ "page_map": [
+  {
+   "bas_page": 23,
+   "starts_at": "V 75r.12 (heading); 23.3 Μουσικὴν = V 75r.13"
+  },
+  {
+   "bas_page": 24,
+   "starts_at": "V 75v.3 (ἡ δὲ μουσική, mid-line)"
+  },
+  {
+   "bas_page": 25,
+   "starts_at": "V 76r.14 (ἐκπε|φωνημένος: word end within ἐκπεφωνημένος)"
+  },
+  {
+   "bas_page": 26,
+   "starts_at": "V 77r.2 (εἰ γὰρ καὶ ἡ, mid-line)"
+  },
+  {
+   "bas_page": 27,
+   "starts_at": "V 77v.14 (τε|τραγώνου: within τετρά-, line-end of 77v.14; ποιεῖ at 77v.15)"
+  },
+  {
+   "bas_page": 28,
+   "starts_at": "V 78v.6 (καὶ τὸ διὰ πασῶν, line start)"
+  },
+  {
+   "bas_page": 29,
+   "starts_at": "V 79r.16 (καὶ ἡ δίεσις, mid-line)"
+  },
+  {
+   "bas_page": 30,
+   "starts_at": "V 80r.6 (κρίνον|ται: within κρίνονται)"
+  },
+  {
+   "bas_page": 31,
+   "starts_at": "V 80v.16 (πεν|τάχορδον: within πεντάχορδον)"
+  },
+  {
+   "bas_page": 32,
+   "starts_at": "V 81v.4 (προφέ|ρεται: within προφέρεται)"
+  },
+  {
+   "bas_page": 33,
+   "starts_at": "V 82r.14 (συστημάτων καταστοχάζεσθαι, line start after τῶν | at 82r.13)"
+  }
+ ],
+ "corrections": [],
+ "margins": [
+  {
+   "ref": "V 75r-82v",
+   "note": "No marginal or interlinear notes in the music section. Outside the text block: folio numbers top right (75 … 82); quire signatures at the foot of 80v and 81r (not counted). In the margins only red initials (ekthesis) and red or black flourishes/line-fillers: a red angular flourish left of 77r.21, a black flourish under the start of 81r.21, and a red flourish left of 82v.20."
+  }
+ ],
+ "xylander_marginalia_check": [
+  {
+   "ref": "Bas. 25.7",
+   "supplement": "διάτονος μέσων",
+   "in_V": "no",
+   "V": "ὑπάτη | μέσων· παρυπάτη μέσων· μέση | μόνως (V 76r.21-76v.2), as in the Bas. text"
+  },
+  {
+   "ref": "Bas. 25.24",
+   "supplement": "τοῦ ἐννέα πρὸς (before ὀκτὼ ἥμισυ)",
+   "in_V": "no",
+   "V": "ὅσον ὀκτὼ ἥμισυ (V 77r.1)"
+  },
+  {
+   "ref": "Bas. 25.25",
+   "supplement": "the same words before ὀκτωτέταρτον",
+   "in_V": "no",
+   "V": "ὅσον ὀκτὼ τέταρτον (V 77r.2), written as two words"
+  },
+  {
+   "ref": "Bas. 26.14, 26.18",
+   "supplement": "dot figures in the margin",
+   "in_V": "no",
+   "V": "no figure at V 77r.20-77v.8"
+  },
+  {
+   "ref": "Bas. 28.11",
+   "supplement": "διὰ πασῶν καὶ διὰ τεσσάρων (for δὶς διὰ τεσσάρων)",
+   "in_V": "no",
+   "V": "καὶ ἡ δὶς διὰ τεσ-|σάρων (V 78v.18-19), as in the Bas. text"
+  },
+  {
+   "ref": "Bas. 28.12",
+   "supplement": "διὰ πασῶν καὶ διὰ πέντε (for δὶς διὰ πασῶν)",
+   "in_V": "no",
+   "V": "καὶ ἡ | δὶς διὰ πασῶν (V 78v.19-20), as in the Bas. text"
+  },
+  {
+   "ref": "Bas. 29.8-9",
+   "supplement": "«abundant … delenda» (the two δὶς)",
+   "in_V": "V has both δὶς",
+   "V": "καὶ δὶς διὰ τεσσάρων (79v.4), καὶ δὶς διὰ πέντε (79v.6); V also has δὶς in the ratio list (79v.11, 79v.13), where the Bas. text has none"
+  },
+  {
+   "ref": "Bas. 31.1",
+   "supplement": "διὰ πέντε (for πέντε)",
+   "in_V": "no",
+   "V": "τὰς τοῦ πέντε (V 80v.16), as in the Bas. text"
+  },
+  {
+   "ref": "Bas. 31.2",
+   "supplement": "ὅλην (for ὕλην)",
+   "in_V": "no",
+   "V": "τὴν ὕλην (V 80v.18), as in the Bas. text"
+  },
+  {
+   "ref": "Bas. 31.23",
+   "supplement": "ἡ (for ἢ)",
+   "in_V": "yes",
+   "V": "ἡ ἁρμονία (V 81v.1)"
+  },
+  {
+   "ref": "Bas. 32.23",
+   "supplement": "τοῦ (for τὸ)",
+   "in_V": "no",
+   "V": "ἑνὸς τὸ | τετραχόρδου (V 82r.10-11), as in the Bas. text"
+  }
+ ],
+ "orthographica": "All numbers, ratios and note names agree with Bas.: 9:8; 8:1, 11:4, 12:5, 15:8; δι' ἕξ, δι' ὀκτὼ / δι' ἐννέα καὶ ἡμιτονίου, διὰ δώδεκα; 6-8-9-12-16-18-24; πενταπλασίων, διπλασιημιόλιος, ἐπιδιμερής, ἐπιτέταρτος; ἑξκαιδέκατον, τριακονταδύο, ὀκτὼ. The note names are the same except that διάτονος μέσων is missing in both texts. Numbers are written as words, never as numeral letters. Orthographic differences: iota subscript mostly not written (τῆ, μόνη μεταφορᾶ, ἐπιτόμω etc.); o/ω in περιοχή (Bas. περιωχή); 25.8 διάτονος διεζευγμένη (Bas. διαζευγμένη); 29.19 ἔνατος (Bas. ἔννατος; 25.23 ἔνατος in both); 30.11 δείκνυται (our Bas. δείκνηται); ἠπίως (Bas. ἡπίως); ἐστὶν (Bas. 23.6 ἔστιν) and other accent differences (βαρεῖ, ἀπηχὴς ἐστὶ). Word division: ὀκτὼ τέταρτον (Bas. ὀκτωτέταρτον), τό τε (Bas. τότε 28.13), ἐπείτοι γε (Bas. ἐπείτοιγε), διὰ τεσσάρων (Bas. 32.18 διατεσσάρων). Abbreviations: τ(ῆς), μουσικ(ῆς), τ(ῶν), τ(οῦ), περ(ὶ) and the contracted π(νεύματο)ς; endings often written above the line-end (εἶπ-ον, καλ-ῶς, ὀνομάσ-οι, διάφορ-οι, βούλοι-το, συμφθάρσε-ως, μέλ-ος, πέμπτ-ω, οὔπ-ω, τετράγων-α, μᾶλλ-ον); at 78r.2 τε of διτόνιόν τε is written above the line-end (part of the text, not a correction). Punctuation: frequent high points where Bas. has commas or nothing; double points (:) at period ends, often followed by a small blank (75r.9, 77r.1, 77v.20, 78r.1, 78r.5, 79r.15, 80r.3, 80v.9, 81r.21, 81v.15, 81v.19, 82r.6, 82r.8, 82r.14, 82v.17); commas used as in Bas. Rubrication: red initials in the left margin (ekthesis) at line starts, sometimes in mid-word: 75r.13 (large Μ), 75v.17 μ, 76r.1 Φ, 76r.11 ε, 77r.20 Η, 77v.5 τ, 77v.8 Τ, 77v.21 π, 78r.2 Τ, 78r.12 Π, 78v.6 κ, 78v.17 κ, 79r.11 κ, 79r.19 Τ, 79v.13 Τ, 79v.21 Τ, 80r.4 ὡ, 80r.15 π (inside πεντα-|πλασίων), 80v.2 Τ, 81r.6 ἐ, 81r.15 κ, 81v.3 ο, 81v.12 κ, 81v.20 ε, 82r.15 Δ; the initial is missing at 80v.10 (πὶ for ἐπὶ).",
+ "doubts": [
+  {
+   "ref": "V 75v.8 (Bas. 24.5)",
+   "issue": "ὀνομάσοι: lunate σ with a long tail (not ζ), οι above the line-end; accent unclear. ὀνομάσει is less likely but possible if the superscript is ει."
+  },
+  {
+   "ref": "V 81v.9 (Bas. 32.4-5)",
+   "issue": "διείρ̣ηπται: the letter after ει could be a malformed λ, so V may simply read διείληπται."
+  },
+  {
+   "ref": "V 77v.14-15 (Bas. 26.25-27.1)",
+   "issue": "τετρά-|γώνου: the ending is a flourish that could be read -ον; the accent on γώ supports -ου (= Bas.), so it is not recorded as a variant."
+  },
+  {
+   "ref": "V 80r.12 (Bas. 30.5)",
+   "issue": "τοὺς is written in the hand's -ους form, which looks like -οις; read τοὺς by comparison with 77r.3 and 80v.2."
+  },
+  {
+   "ref": "V 79r.3 (Bas. 28.15)",
+   "issue": "εὐρύθμως: the εὐ-ligature resembles ἀ; ἀρύθμως cannot be excluded at this resolution, but cf. εὐρύτητος 80v.11."
+  },
+  {
+   "ref": "V 80r.3 (Bas. 29.23)",
+   "issue": "Blank of c. 3-4 letters after τέταρτος: — no trace of an erasure at this resolution (watermarked image)."
+  },
+  {
+   "ref": "V 75r.1, 82v.19-20",
+   "issue": "Boundary lines outside the music only partly read (75r.1 πιβ̣ολαῖς; geometry heading σύνοψις αὐτὴ[?] γεωμετρί-|ας λογ[...])."
+  },
+  {
+   "ref": "Bas. 24.18, 30.11",
+   "issue": "Readings of the print (περι-compendium in περιωχὴ; δείκνυται vs δείκνηται) are made from the jpg at enlargement and are not fully certain."
+  }
+ ]
+}

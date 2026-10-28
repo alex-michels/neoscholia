@@ -1,0 +1,1250 @@
+{
+ "witness": "A.-J.-H. Vincent, Notices et extraits des manuscrits 16.2 (Paris 1847), pp. 338, 340, 342: the three places of Paris. gr. 2448 (P)",
+ "status": "agreed text of two independent transcriptions (Claude, workflow 2026-10-27; GPT-6 Astra, Codex 2026-10-27); every difference decided against the scans by two anonymised checkers (2026-10-27), places they left open by the editor",
+ "conventions": "as printed, misprints included; ligatures resolved silently; footnote numbers as superscripts; elision mark ’; high point ·; French spacing as printed",
+ "lines_total": 78,
+ "footnotes_total": 18,
+ "pending_editor": [],
+ "pages": [
+  {
+   "page": 338,
+   "lines": [
+    {
+     "n": 1,
+     "kind": "title",
+     "text": "PREMIER FRAGMENT DE PSELLUS,"
+    },
+    {
+     "n": 2,
+     "kind": "title",
+     "text": "EXTRAIT DU MANUSCRIT 2448, FOL. 1 VERSO, L. 5 EN MONTANT."
+    },
+    {
+     "n": 3,
+     "kind": "placement",
+     "text": "(A intercaler à l’édition de Paris, 1545, fol. 23 rect. après la ligne 13 qui finit à ἀπηχούμενον.)"
+    },
+    {
+     "n": 4,
+     "kind": "greek",
+     "text": "Εἰ γὰρ καὶ τοῖς ἀριθμοῖς σύμφρασις¹ οὐκ ἐγγίνεται διὰ τὸ"
+    },
+    {
+     "n": 5,
+     "kind": "greek",
+     "text": "τῶν ἀριθμῶν ἄϋλον² ἀκίνητόν τε καὶ ἄρευστον, ἀλλ’ ἐν τοῖς"
+    },
+    {
+     "n": 6,
+     "kind": "greek",
+     "text": "μέλεσι, διὰ τὸ εἰς ὕλην κατάγεσθαι, περὶ δὲ τὴν ὕλην ὁρᾶσθαι"
+    },
+    {
+     "n": 7,
+     "kind": "greek",
+     "text": "συνέχειαν, ἐντεῦθεν ἐγγίνεται καὶ τὴν σύμφρασιν³ εἶναι· καὶ"
+    },
+    {
+     "n": 8,
+     "kind": "greek",
+     "text": "τὸ περὶ δύϲ νευρὰς ἀποτεινόμενον μῆκος ἐν μιᾷ συναιρεῖται"
+    },
+    {
+     "n": 9,
+     "kind": "greek",
+     "text": "κατὰ συνέχειαν· ὥσπερ ἐκ τοῦ ἐναντίου καὶ τὸ παρὰ μίαν"
+    },
+    {
+     "n": 10,
+     "kind": "greek",
+     "text": "πάλιν εἰς πολλὰς διαιρεῖται κατὰ συνέχειαν. Ταύτῃ τοι καὶ ἡ"
+    },
+    {
+     "n": 11,
+     "kind": "greek",
+     "text": "Γεωμετρία καὶ ἐλάττονα ἀπὸ τῆς⁴ μείζονος κατὰ πάντα τρόπον"
+    },
+    {
+     "n": 12,
+     "kind": "greek",
+     "text": "ἀφαιρεῖται εὐθεῖαν, καὶ τῇ ἐλάττονι προστίθησι καὶ πεποίηται"
+    },
+    {
+     "n": 13,
+     "kind": "greek",
+     "text": "μείζονα· ἔνθα καὶ ἅπαν σχῆμα παραυξῆσαι κατὰ τὸ δοκοῦν"
+    },
+    {
+     "n": 14,
+     "kind": "greek",
+     "text": "μῆκος καὶ ἀπομειῶσαι δύναται, ὅπερ καὶ ἀριθμητικὸν ἀνεγχώ-"
+    },
+    {
+     "n": 15,
+     "kind": "greek",
+     "text": "ρητον. Αὐτίκα τὸ δοθὲν τετράγωνον· ἡ μὲν ἀριθμητικὴ εἰς ἶσα"
+    },
+    {
+     "n": 16,
+     "kind": "greek",
+     "text": "τέμνειν⁵ τετράγωνα, ἢ διπλασιάσαι τὸ δεδομένον οὐ δύναται·"
+    },
+    {
+     "n": 17,
+     "kind": "greek",
+     "text": "οἷον τὸν ἑξδέκατον⁶ ἀριθμὸν τετράγωνον ὄντα, οὔτε εἰς ἶσα"
+    },
+    {
+     "n": 18,
+     "kind": "greek",
+     "text": "δυνατὸν διαιρεθῆναι τετράγωνα (τὰ γὰρ ὀκτὼ τετραγωνισθῆ-"
+    },
+    {
+     "n": 19,
+     "kind": "greek",
+     "text": "ναι ἀδύνατον), οὔτε εἰς ἕτερον διπλασιασθῆναι τετράγωνον·"
+    },
+    {
+     "n": 20,
+     "kind": "greek",
+     "text": "τὸν γὰρ τριακονταδύο ἀριθμὸν τετραγωνισθῆναι ἀμήχανον."
+    },
+    {
+     "n": 21,
+     "kind": "greek",
+     "text": "Τῇ γεωμετρίᾳ δὲ τοῦτο ῥάδιον· τὴν γὰρ τοῦ δοθέντος τετρα-"
+    },
+    {
+     "n": 22,
+     "kind": "greek",
+     "text": "γώνου πλευρὰν εἰς διάμετρον γεωμέτρης λαβὼν, καὶ τετρά-"
+    },
+    {
+     "n": 23,
+     "kind": "greek",
+     "text": "γωνον αὐτὴν περιθεὶς, ἥμισυ τοῦ δοθέντος τετραγώνου ποιεῖ·"
+    },
+    {
+     "n": 24,
+     "kind": "greek",
+     "text": "καὶ τὴν διάμετρον πάλιν τοῦ δοθέντος μετειληφὼς εἰς πλευρὰν,"
+    },
+    {
+     "n": 25,
+     "kind": "greek",
+     "text": "τὸ δοθὲν διπλασιάζει τετράγωνον. Ἀλλὰ τὸ μὲν περὶ διαστη-"
+    },
+    {
+     "n": 26,
+     "kind": "greek",
+     "text": "μάτων, καὶ ὅτι ἐκ παραυξήσεως τῶν προτέρων διαστημάτων"
+    }
+   ],
+   "footnotes": [
+    {
+     "ref": "Vinc. 338 n. 1",
+     "text": "Il est probable qu’il faut σύγκρασις ; mais je u’ose pas faire la correction."
+    },
+    {
+     "ref": "Vinc. 338 n. 2",
+     "text": "Ms. τὸν τῶν ἀριθμόν."
+    },
+    {
+     "ref": "Vinc. 338 n. 3",
+     "text": "Ms. ἡ σύμφρασις."
+    },
+    {
+     "ref": "Vinc. 338 n. 4",
+     "text": "Ms. τοῦ."
+    },
+    {
+     "ref": "Vinc. 338 n. 5",
+     "text": "Ms. τέμνει."
+    },
+    {
+     "ref": "Vinc. 338 n. 6",
+     "text": "Ms. ἑνδ."
+    }
+   ]
+  },
+  {
+   "page": 340,
+   "lines": [
+    {
+     "n": 1,
+     "kind": "greek",
+     "text": "ἕτερα ἀσύνθετα διαστήματα γίνεται, καὶ διατί ἀσύνθετα εἴρη-"
+    },
+    {
+     "n": 2,
+     "kind": "greek",
+     "text": "ται, ἱκανῶς ἤδη εἴρηται¹."
+    },
+    {
+     "n": 3,
+     "kind": "placement",
+     "text": "Περὶ δε ταῦτα, κ. τ. λ. (Éd. παρά.)"
+    },
+    {
+     "n": 4,
+     "kind": "title",
+     "text": "DEUXIÈME FRAGMENT DE PSELLUS,"
+    },
+    {
+     "n": 5,
+     "kind": "title",
+     "text": "EXTRAIT DU MANUSCRIT 2448, FOL. 3 R."
+    },
+    {
+     "n": 6,
+     "kind": "placement",
+     "text": "(A intercaler à l’édition de 1545, au fol. 24 vers. l. 3 en montant, après le mot τέταρτος.)"
+    },
+    {
+     "n": 7,
+     "kind": "greek",
+     "text": "Σκοπητέον δὲ ὡς τὰ μὲν οὖν ἔμμεσα διαστήματα, οἷον, τὸ διὰ"
+    },
+    {
+     "n": 8,
+     "kind": "greek",
+     "text": "τεσσάρων, τὸ διὰ πέντε μέλος, τὸ διὰ πασῶν, τὸ δὶς διὰ τεσ-"
+    },
+    {
+     "n": 9,
+     "kind": "greek",
+     "text": "σάρων, τὸ δὶς διὰ πέντε, καὶ τὸ δὶς διὰ πασῶν, πρὸς τὸν προ-"
+    },
+    {
+     "n": 10,
+     "kind": "greek",
+     "text": "λαμβανόμενον φθόγγον τῶν λόγων ἔχουσι τὴν ἀναφοράν· τὰ"
+    },
+    {
+     "n": 11,
+     "kind": "greek",
+     "text": "δὲ ἄμεσα καὶ μεταξὺ τούτων κείμενα, οἷον, [ἡ] δίεσις, τὸ"
+    },
+    {
+     "n": 12,
+     "kind": "greek",
+     "text": "ἡμιτόνιον, καὶ ὁ τόνος, πρὸς τοὺς πρὸ αὐτῶν ἐγγὺς φθόγγους"
+    },
+    {
+     "n": 13,
+     "kind": "greek",
+     "text": "τὴν ποιὰν τῶν λόγων ἕξιν πεποίηνται· ὡς δὲ καὶ τὰ ἐξ φθάρ-"
+    },
+    {
+     "n": 14,
+     "kind": "greek",
+     "text": "σεως² διαστημάτων³ πλειόνων μεγεθυνόμενα διαστήματα, οἷον,"
+    },
+    {
+     "n": 15,
+     "kind": "greek",
+     "text": "ἡ τριδίεσις, τὸ τριημιτόνιον, τὸ διτόνιόν τε καὶ τριτόνιον, καὶ"
+    },
+    {
+     "n": 16,
+     "kind": "greek",
+     "text": "εἴ τι ἕτερον τοιουτότροπον εἶδος τῶν ἐν αὐτοῖς κεκραμένων⁴"
+    },
+    {
+     "n": 17,
+     "kind": "greek",
+     "text": "διαστημάτων πρὸς τοὺς ἐγγὺς φθόγγους πρότερον λογοθετη-"
+    },
+    {
+     "n": 18,
+     "kind": "greek",
+     "text": "θέντων, οὕτως εἰς ἓν διάστημα ὡς ἐξ φθάρσεως² κίρνανται."
+    },
+    {
+     "n": 19,
+     "kind": "greek",
+     "text": "Κατὰ σειρὰν μὲν γὰρ οἱ τῶν ἀμέσων διαστημάτων ἔκκεινται"
+    },
+    {
+     "n": 20,
+     "kind": "greek",
+     "text": "λόγοι· καθ’ ὑπερβατὸν δὲ, οἱ τῶν ἐν μέσῳ ὥσπερ ἐπὶ τῶν συλ-"
+    },
+    {
+     "n": 21,
+     "kind": "greek",
+     "text": "λογισμῶν αἱ προτάσεις, καὶ τὰ συμπεράσματα· αἱ μὲν γὰρ"
+    },
+    {
+     "n": 22,
+     "kind": "greek",
+     "text": "προτάσεις, ἐφεξῆς κατὰ σειρὰν οἷον πλέκονται· τὰ δὲ συμ-"
+    },
+    {
+     "n": 23,
+     "kind": "greek",
+     "text": "περάσματα, καθ’ ὑπερβατὸν⁵ τοὺς ἄκρους τῶν ὅρων συνδέου-"
+    },
+    {
+     "n": 24,
+     "kind": "greek",
+     "text": "σιν. Οὕτως οὖν ἔχει περὶ τοὺς λόγους καὶ τὰ τῆς μουσικῆς"
+    },
+    {
+     "n": 25,
+     "kind": "greek",
+     "text": "διαστήματα· τοῦ μὲν τῶν ἐμμέσων διαστημάτων λόγου, καθ’"
+    },
+    {
+     "n": 26,
+     "kind": "greek",
+     "text": "ὑπερβατὸν πρὸς τοὺς ἄκρους παραβαλλομένου τῶν φθόγγων,"
+    }
+   ],
+   "footnotes": [
+    {
+     "ref": "Vinc. 340 n. 1",
+     "text": "Peut-être εἰρήσθω : c’est une formule usitée, comme dixi en latin : le traité de Gémistus Pléthon Περὶ Εἰμαρμένης (ms. suppl. 66) finit ainsi : ὡς γοῦν μετρίως εἰρῆσθαι, ἤδη εἰρήσθω."
+    },
+    {
+     "ref": "Vinc. 340 n. 2",
+     "text": "Ms. ἐξυφθάρσεως. — Ces mots sont inconnus aux dictionnaires."
+    },
+    {
+     "ref": "Vinc. 340 n. 3",
+     "text": "Ms. διαστήματα."
+    },
+    {
+     "ref": "Vinc. 340 n. 4",
+     "text": "Ms. κεκρυμμένων."
+    },
+    {
+     "ref": "Vinc. 340 n. 5",
+     "text": "Ms. καθυπ."
+    }
+   ]
+  },
+  {
+   "page": 342,
+   "lines": [
+    {
+     "n": 1,
+     "kind": "greek",
+     "text": "τοῦ δὲ τῶν ἀμέσων, καθεξῆς πρὸς τοὺς ἐγγὺς ἀλλήλων φθόγ-"
+    },
+    {
+     "n": 2,
+     "kind": "greek",
+     "text": "γους συγκρινομένων· τῆς ἀπὸ τῶν ἐλαττόνων πρὸς τοὺς μεί-"
+    },
+    {
+     "n": 3,
+     "kind": "greek",
+     "text": "ζονας προσαυξήσεως κατὰ σειρὰν προϊούσης, μονάδων¹ μὴ"
+    },
+    {
+     "n": 4,
+     "kind": "greek",
+     "text": "τεμνομένων, ὅ, τι² μηδὲ τοῖς ἀριθμητικοῖς οὔ πω³ δέδοκται."
+    },
+    {
+     "n": 5,
+     "kind": "greek",
+     "text": "Σκοπητέον δὲ ὡς πρὸς τὸν ἀριθμὸν τῶν φθόγγων ἢ τῶν"
+    },
+    {
+     "n": 6,
+     "kind": "greek",
+     "text": "χορδῶν, οἱ λόγοι τῶν διαστάσεων κρίνονται. κ. τ. λ. (Éd. Εἰ-"
+    },
+    {
+     "n": 7,
+     "kind": "placement",
+     "text": "δέναι μέν τοι χρὴ, ὡς οὐ πρὸς τὸν ἀ. τ. φ. ἢ τ. χ.)"
+    },
+    {
+     "n": 8,
+     "kind": "title",
+     "text": "TROISIÈME FRAGMENT DE PSELLUS,"
+    },
+    {
+     "n": 9,
+     "kind": "title",
+     "text": "EXTRAIT DU MANUSCRIT 2448, FOL. 4 R."
+    },
+    {
+     "n": 10,
+     "kind": "placement",
+     "text": "(A rétablir fol. 25 r., l. 6 en montant, de l’édition de 1545. — Le premier alinéa qui suit est"
+    },
+    {
+     "n": 11,
+     "kind": "placement",
+     "text": "pris dans l’édition ; et le second Ἰστέον dans le manuscrit : celui-ci manque entièrement dans"
+    },
+    {
+     "n": 12,
+     "kind": "placement",
+     "text": "l’édition, qui, après ἀνέσεως, reprend immédiatement à τῶν δὲ διαστ. (au lieu de συστ.)"
+    },
+    {
+     "n": 13,
+     "kind": "greek",
+     "text": "Ἐξεύρηνται δὲ οἱ τοιοῦτοι τῶν διαστάσεων λόγοι, ἀπὸ τῆς"
+    },
+    {
+     "n": 14,
+     "kind": "greek",
+     "text": "διαφορᾶς τοῦ μήκους τῶν χορδῶν, ἢ τῆς παχύτητος, ἢ τῆς τά-"
+    },
+    {
+     "n": 15,
+     "kind": "greek",
+     "text": "σεως γενομένης κατὰ τὴν στροφὴν τῶν κολλάβων⁴, ἢ γνωρι-"
+    },
+    {
+     "n": 16,
+     "kind": "greek",
+     "text": "μώτερον ἀπὸ τῆς ἐξαρτήσεως⁵ τῶν βαρῶν· ἐπὶ δὲ τῶν ἐμπνευ-"
+    },
+    {
+     "n": 17,
+     "kind": "greek",
+     "text": "στῶν, ἢ ἀπὸ τῆς εὐρύτητος τῶν κοιλιῶν, ἢ ἀπὸ τῆς ἐπιτάσεως"
+    },
+    {
+     "n": 18,
+     "kind": "greek",
+     "text": "τοῦ πνεύματος καὶ ἀνέσεως."
+    },
+    {
+     "n": 19,
+     "kind": "greek",
+     "text": "Ἰστέον δὲ ὡς ἐπὶ μὲν τῆς τάσεως, ἢ τῆς ἐξαρτήσεως⁶, ἡ"
+    },
+    {
+     "n": 20,
+     "kind": "greek",
+     "text": "ἐπὶ πλέον ἐπίτασις, καὶ ἡ ἐπὶ μᾶλλον βαρύτης, τὴν ἐπὶ ὀξὺ"
+    },
+    {
+     "n": 21,
+     "kind": "greek",
+     "text": "μελῳδίαν ἐργάζεται⁷· ἐπὶ δὲ τῆς παχύτητος τῶν νευρῶν, ἢ"
+    },
+    {
+     "n": 22,
+     "kind": "greek",
+     "text": "τοῦ μήκους τούτων ἢ τῶν αὐλῶν, ἢ τῆς τῶν τρημάτων δια-"
+    },
+    {
+     "n": 23,
+     "kind": "greek",
+     "text": "τάσεως, τὸ πλεονάζον τούτων τινὸς ἀμφότερον τῆς μελῳδίας"
+    },
+    {
+     "n": 24,
+     "kind": "greek",
+     "text": "εἶδος συνίστησι."
+    },
+    {
+     "n": 25,
+     "kind": "placement",
+     "text": "Τῶν δὲ συστημάτων, τὸ μέν ἐστι τετράχορδον, κ. τ. λ. (Éd."
+    },
+    {
+     "n": 26,
+     "kind": "placement",
+     "text": "τῶν δὲ διαστημάτων, leçon fautive.)"
+    }
+   ],
+   "footnotes": [
+    {
+     "ref": "Vinc. 342 n. 1",
+     "text": "Ms. μονάδος."
+    },
+    {
+     "ref": "Vinc. 342 n. 2",
+     "text": "Ms. ὅτι."
+    },
+    {
+     "ref": "Vinc. 342 n. 3",
+     "text": "Ms. τοῦτο."
+    },
+    {
+     "ref": "Vinc. 342 n. 4",
+     "text": "Éd. κολάβων."
+    },
+    {
+     "ref": "Vinc. 342 n. 5",
+     "text": "Ms. ἐπὶ δὲ τῶν ἐ., ἀπὸ τῆς τῶν αὐλῶι ἢ τῶν τρημάτων ἀφορότητος, ἢ ἀπὸ τῆ τάσεως τοῦ πνεύματος. (Notez, en passant, les mots ἐξάρτησις, suspension, ἀφορότης, délimitation, qui paraissent nouveaux.)"
+    },
+    {
+     "ref": "Vinc. 342 n. 6",
+     "text": "Ms. ἐξαντήσεων."
+    },
+    {
+     "ref": "Vinc. 342 n. 7",
+     "text": "Peut-être ἐξάγεται"
+    }
+   ]
+  }
+ ],
+ "decisions": [
+  {
+   "ref": "Vinc. 338.8",
+   "claude": "τὸ περὶ δύϲ νευρὰς ἀποτεινόμενον μῆκος ἐν μιᾷ συναιρεῖται",
+   "gpt": "τὸ περὶ δύς νευρὰς ἀποτεινόμενον μῆκος ἐν μιᾷ συναιρεῖται",
+   "adopted": "τὸ περὶ δύϲ νευρὰς ἀποτεινόμενον μῆκος ἐν μιᾷ συναιρεῖται",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «δύς»  /  (2) «δύϲ»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — At 15-30x the last letter of δύ- is a clean c-shape, open on the right with ball terminals. It differs from the s-like final ς of νευρὰς in the same line and is not a broken ο. The print has a lunate-sigma (or c) form, probably a misprint for δύο. | B: 2 (high) — At 2x the last letter of δύ- is an open c-shape, a lunate sigma ϲ (or a stray c sort). It is clearly unlike the s-shaped final ς in νευρὰς and μῆκος on the same line."
+    }
+   ]
+  },
+  {
+   "ref": "Vinc. 338.15",
+   "claude": "ρητον. Αὐτίκα τὸ δοθὲν τετράγωνον· ἡ μὲν ἀριθμητικὴ εἰς ἶσα",
+   "gpt": "ρητον. Αὐτίκα τὸ δοθὲν τετράγωνον· ἡ μὲν ἀριθμητικὴ εἰς ἴσα",
+   "adopted": "ρητον. Αὐτίκα τὸ δοθὲν τετράγωνον· ἡ μὲν ἀριθμητικὴ εἰς ἶσα",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «ἶσα»  /  (2) «ἴσα»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — Over the iota there is a horizontal wavy (tilde) stroke with the breathing fused under it. This is the same shape as breathing+circumflex in οἷον on l.17. Breathing+acute in this type is a breathing beside a separate tall slanted stroke (ὄντα, οὔτε on l.17). So ἶσα is printed (misprint for ἴσα). | B: 1 (high) — Over the iota is a horizontal circumflex bar with a ball end, joined to a breathing. It is the same sort as on οἷον (line 17). It is not the two upright marks (breathing plus oblique acute) of ἔνθα and ἄπαν on line 13. So the print reads ἶσα."
+    }
+   ]
+  },
+  {
+   "ref": "Vinc. 338.17",
+   "claude": "οἷον τὸν ἑξδέκατον⁶ ἀριθμὸν τετράγωνον ὄντα, οὔτε εἰς ἶσα",
+   "gpt": "οἷον τὸν ἑξδέκατον⁶ ἀριθμὸν τετράγωνον ὄντα, οὔτε εἰς ἴσα",
+   "adopted": "οἷον τὸν ἑξδέκατον⁶ ἀριθμὸν τετράγωνον ὄντα, οὔτε εἰς ἶσα",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «ἶσα»  /  (2) «ἴσα»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — This is the same glyph as on l.15: a horizontal wavy circumflex stroke fused with the breathing over the iota, identical to οἷον at the start of this line. It differs from the breathing+acute in ὄντα and οὔτε. | B: 1 (high) — Same glyph as on line 15: a horizontal circumflex bar with breathing over ι, identical in shape to the mark on οἷον at the start of this line. There is no oblique acute."
+    }
+   ]
+  },
+  {
+   "ref": "Vinc. 338 n. 1",
+   "claude": "Il est probable qu’il faut σύγκρασις ; mais je u’ose pas faire la correction.",
+   "gpt": "Il est probable qu’il faut σύγχρασις; mais je n’ose pas faire la correction.",
+   "adopted": "Il est probable qu’il faut σύγκρασις ; mais je u’ose pas faire la correction.",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «σύγκρασις»  /  (2) «σύγχρασις»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — The 4th letter is the curly x-shaped kappa (ϰ). Both strokes end on the baseline and nothing descends, while the neighbouring γ and ρ go below the line. The same glyph appears twice in κεκρυμμένων (p.340 n.4), so it is kappa, not chi. | B: 1 (high) — The letter after γ is the italic x-shaped kappa (ϰ). It sits on the baseline at x-height with no descender, so it is not χ, which descends in this font (σχῆμα, χρὴ)."
+    },
+    {
+     "difference": "(1) «σύγκρασις ;»  /  (2) «σύγχρασις;»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (medium) — There is a clear gap of about 23 px (close to a word space) between the final ς and the semicolon, as in French usage. Strictly this is spacing, so it could also be treated as convention. | B: 1 (high) — There is a thin space (about 16 px) between final ς and ';'. Word spaces in this line are about 32-40 px and gaps between letters under 6 px. This is the usual French spacing before ';'."
+    },
+    {
+     "difference": "(1) «u’ose»  /  (2) «n’ose»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — At 5x the letter before the apostrophe is open at the top and closed in a bowl at the bottom, with top serifs. It is a turned n printed as u. The n in 'correction' on the same line has the arch at the top. Misprint reproduced. | B: 1 (high) — The letter before the apostrophe is open at the top and joined at the bottom: a turned 'u' (misprint for n). Compare the arched n in 'correction' on the same line."
+    }
+   ]
+  },
+  {
+   "ref": "Vinc. 338 n. 6",
+   "claude": "Ms. ἑνδ.",
+   "gpt": "Ms. ἐνδ.",
+   "adopted": "Ms. ἑνδ.",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «ἐνδ.»  /  (2) «ἑνδ.»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (medium) — The breathing is a blob whose tail leaves its lower right and drifts right: left edge moves from px 14 to 19, right edge stays fixed. That matches the rough breathing on ἡ in n.3 of this page. The smooth breathings in these footnotes have the tail on the left and drift left (ἀριθμόν n.2; ἐπὶ, ἐ., ἐξαντήσεων on p.342). The mark is tiny, hence medium. | B: 2 (medium) — In this small footnote Greek, the breathing over ε has its head on top and its tail running diagonally down and to the right. That matches the rough breathing on ἡ in n. 3. The smooth breathing on ἀ in n. 2 (ἀριθμόν) is different: its tail drops straight down or slightly left. Checked at 8-12x and in a pixel dump."
+    }
+   ]
+  },
+  {
+   "ref": "Vinc. 340.1",
+   "claude": "ἕτερα ἀσύνθετα διαστήματα γίνεται, καὶ διατί ἀσύνθετα εἴρη-",
+   "gpt": "ἕτερα ἀσύνθετα διαστήματα γίνεται, καὶ διατὶ ἀσύνθετα εἴρη-",
+   "adopted": "ἕτερα ἀσύνθετα διαστήματα γίνεται, καὶ διατί ἀσύνθετα εἴρη-",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «διατί»  /  (2) «διατὶ»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — The accent on the final iota rises from lower left to upper right (top end to the right), so it is acute. Compare the grave on καὶ just before it, whose top is at the left. | B: 1 (high) — The accent on the final ι of διατί is an oblique stroke rising to the right (top at right), i.e. an acute. It is the opposite of the grave on the preceding καὶ."
+    }
+   ]
+  },
+  {
+   "ref": "Vinc. 340.3",
+   "claude": "Περὶ δε ταῦτα, κ. τ. λ. (Éd. παρά.)",
+   "gpt": "Περὶ δὲ ταῦτα, κ. τ. λ. (Éd. παρά.)",
+   "adopted": "Περὶ δε ταῦτα, κ. τ. λ. (Éd. παρά.)",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «δε»  /  (2) «δὲ»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — At 5x there is no accent over the ε of δε; the space above it is blank, while Περὶ has a clear grave. This is a misprint, reproduced as printed. | B: 1 (high) — At 3x there is no mark at all over the ε of δε: bare δ and ε. Compare the clear grave on Περὶ and the circumflex on ταῦτα."
+    }
+   ]
+  },
+  {
+   "ref": "Vinc. 340.13",
+   "claude": "τὴν ποιὰν τῶν λόγων ἕξιν πεποίηνται· ὡς δὲ καὶ τὰ ἐξ φθάρ-",
+   "gpt": "τὴν ποιὰν τῶν λόγων ἕξιν πεποίηται· ὡς δὲ καὶ τὰ ἐξ φθάρ-",
+   "adopted": "τὴν ποιὰν τῶν λόγων ἕξιν πεποίηνται· ὡς δὲ καὶ τὰ ἐξ φθάρ-",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «πεποίηνται·»  /  (2) «πεποίηται·»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — At 4x a clear ν stands between η and τ: πεποίη-ν-ται. | B: 1 (high) — At 2.5x a clear ν stands between η and τ: π-ε-π-ο-ί-η-ν-τ-α-ι."
+    }
+   ]
+  },
+  {
+   "ref": "Vinc. 340 n. 1",
+   "claude": "Peut-être εἰρήσθω : c’est une formule usitée, comme dixi en latin : le traité de Gémistus Pléthon Περὶ Εἰμαρμένης (ms. suppl. 66) finit ainsi : ὡς γοῦν μετρίως εἰρῆσθαι, ἤδη εἰρήσθω.",
+   "gpt": "Peut-être εἰρήσθω : c’est une formule usitée, comme dixi en latin : le traité de Gémistus Pléthon Περὶ Εἱμαρμένης (ms. suppl. 66) finit ainsi : ὡς γοῦν μετρίως εἰρήσθαι, ἤδη εἰρήσθω.",
+   "adopted": "Peut-être εἰρήσθω : c’est une formule usitée, comme dixi en latin : le traité de Gémistus Pléthon Περὶ Εἰμαρμένης (ms. suppl. 66) finit ainsi : ὡς γοῦν μετρίως εἰρῆσθαι, ἤδη εἰρήσθω.",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «Εἱμαρμένης»  /  (2) «Εἰμαρμένης»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (medium) — Over the iota is a blob whose lower part tapers on the LEFT into the iota: left edge constant, right edge receding. This is the same shape as the iota breathing of the final εἰρήσθω in the same note. It is the mirror of the main-text rough ἱ (ἱκανῶς l.2), whose neck turns right. So a smooth breathing is printed: Εἰμαρμένης, a misprint for Εἱ-. The mark is tiny, hence medium. | B: 2 (medium) — The breathing is fused to the top of the ι after capital Ε. Its head is on top and its tail runs straight down, drifting slightly left. That is the smooth form, as on εἰ in εἰρήσθω on line 1 of this note. It is not the rough form of ὡς on line 4, whose tail turns right. Pixel dump compared."
+    },
+    {
+     "difference": "(1) «εἰρήσθαι,»  /  (2) «εἰρῆσθαι,»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — Over the η is a clear horizontal wavy tilde, i.e. a circumflex, not a slanted acute. Compare ἤδη right after it, which has breathing+acute. | B: 2 (high) — Over η in εἰρῆσθαι (first word of the last line) is a wavy horizontal tilde, a circumflex, not an oblique acute. Compare the acutes on ἤδη and εἰρήσθω in the same line."
+    }
+   ]
+  },
+  {
+   "ref": "Vinc. 340 n. 4",
+   "claude": "Ms. κεκρυμμένων.",
+   "gpt": "Ms. κεκρυμμένων.",
+   "adopted": "Ms. κεκρυμμένων.",
+   "right": "claude-wf+gpt",
+   "differences": [
+    {
+     "difference": "(1) «κεκρυμμένων.»  /  (2) «κεχρυμμένων.»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — The 1st and 3rd letters are identical curly x-shaped kappas (ϰ) sitting on the baseline with no descender. A chi would descend below the line as ρ does. So it reads κεκρυμμένων. | B: 1 (high) — Both κ's are the same x-shaped ϰ at x-height with no descender. The second is not the descending χ."
+    }
+   ],
+   "note": "Both independent transcriptions read κεκρυμμένων; checked against the first reading (κεχρυμμένων) of vincent1847-fragments.md."
+  },
+  {
+   "ref": "Vinc. 342.7",
+   "claude": "δέναι μέν τοι χρὴ, ὡς οὐ πρὸς τὸν ἀ. τ. φ. ἢ τ. χ.)",
+   "gpt": "δέναι μέν τοι χρή, ὡς οὐ πρὸς τὸν ἀ. τ. φ. ἢ τ. χ.)",
+   "adopted": "δέναι μέν τοι χρὴ, ὡς οὐ πρὸς τὸν ἀ. τ. φ. ἢ τ. χ.)",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «χρή,»  /  (2) «χρὴ,»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — At 5x the accent on η is thick at the upper left and thins toward the lower right, so it is grave. Compare the acute on μέν in the same line. | B: 2 (high) — The accent over η is a wedge with a thick head at top left tapering down to the right, i.e. a grave. The pixel dump shows the tail moving right as it descends."
+    }
+   ]
+  },
+  {
+   "ref": "Vinc. 342.11",
+   "claude": "pris dans l’édition ; et le second ἰστέον dans le manuscrit : celui-ci manque entièrement dans",
+   "gpt": "pris dans l’édition; et le second Ἰστέον dans le manuscrit : celui-ci manque entièrement dans",
+   "adopted": "pris dans l’édition ; et le second Ἰστέον dans le manuscrit : celui-ci manque entièrement dans",
+   "right": "claude+gpt",
+   "differences": [
+    {
+     "difference": "(1) «l’édition;»  /  (2) «l’édition ;»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (medium) — There is a thin space (about 19 px) between 'édition' and ';'. That is more than letter spacing and less than a word space (about 36 px). The comma after 'l'édition' on the next line has no space. This is spacing only, so it could also be treated as convention. | B: 2 (medium) — There is a thin space (15 px) between the n of édition and ';'. Word spaces on this line are about 33-36 px and gaps between letters 6 px or less. The same French spacing appears in 'manuscrit : celui-ci'."
+    },
+    {
+     "difference": "(1) «Ἰστέον»  /  (2) «ἰστέον»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — The first letter is tall and serifed with a wide foot, rising well above the x-height of σ: a capital Ι with its breathing fused at the upper left. A lowercase ι in this small type is a short unserifed stroke (see διας. on the next line). | B: 1 (high) — The first letter is a tall capital Ι reaching above the ascender of 'd', with a foot serif and a breathing nub at its left. It is not an x-height lowercase ι. The word is printed with the στ ligature (σ7)."
+    }
+   ]
+  },
+  {
+   "ref": "Vinc. 342.12",
+   "claude": "l’édition, qui, après ἀνέσεως, reprend immédiatement à τῶν δὲ διας. (au lieu de συς.)",
+   "gpt": "l’édition, qui, après ἀνέσεως, reprend immédiatement à τῶν δὲ διαστ. (au lieu de συστ.)",
+   "adopted": "l’édition, qui, après ἀνέσεως, reprend immédiatement à τῶν δὲ διαστ. (au lieu de συστ.)",
+   "right": "gpt",
+   "differences": [
+    {
+     "difference": "(1) «διαστ.»  /  (2) «διας.»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — The last glyph before the full stop is the στ ligature (ϛ-like: a c-shape with a top bar running right and a descending tail). It differs from the s-like final ς of ἀνέσεως on the same line, so it reads διαστ. | B: 1 (high) — The letter after διά- is not the s-shaped final ς of ἀνέσεως on the same line. It is the στ ligature: a flat top bar running right, with a hooked descending stroke (ϛ-shape). So the print gives διαστ. (abbreviation of διαστημάτων), not διας."
+    },
+    {
+     "difference": "(1) «συστ.)»  /  (2) «συς.)»",
+     "pick": "1",
+     "by": "checkers",
+     "reason": "A: 1 (high) — The same στ-ligature glyph appears in συ-στ., followed by a full stop and ')'. It is not a final ς. | B: 1 (high) — The same στ ligature, with a flat top bar unlike final ς, appears in συ-, followed by a full stop and ')'. It reads συστ."
+    }
+   ]
+  },
+  {
+   "ref": "Vinc. 342.25",
+   "claude": "Τῶν δὲ συστημάτων, τὸ μέν ἐστι τετράχορδον, κ. τ. λ. (Éd.",
+   "gpt": "Τῶν δὲ συστημάτων, τὸ μὲν ἐστι τετράχορδον, κ. τ. λ. (Éd.",
+   "adopted": "Τῶν δὲ συστημάτων, τὸ μέν ἐστι τετράχορδον, κ. τ. λ. (Éd.",
+   "right": "claude",
+   "differences": [
+    {
+     "difference": "(1) «μὲν»  /  (2) «μέν»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — The accent over the ε of μεν rises to the upper right, so it is acute. Compare τὸ just before it, whose grave has its top at the left. | B: 2 (high) — At 4x the accent on ε of μέν is an oblique stroke rising to the right, an acute. It is the mirror image of the grave on the preceding τὸ."
+    }
+   ]
+  },
+  {
+   "ref": "Vinc. 342 n. 5",
+   "claude": "Ms. ἐπὶ δὲ τῶν ἐ., ἀπὸ τῆς τῶν αὐλῶν̣ ἢ τῶν τρημάτων ἀφορότητος, ἢ ἀπὸ τῆ τάσεως τοῦ πνεύματος. (Notez, en passant, les mots ἐξάρτησις, suspension, ἀφορότης, délimitation, qui paraissent nouveaux.)",
+   "gpt": "Ms. ἐπὶ δὲ τῶν ἐ., ἀπὸ τῆς τῶν αὐλῶν ἢ τῶν τρημάτων ἀφορότητος, ἢ ἀπὸ τῇ τάσεως τοῦ πνεύματος. (Notez, en passant, les mots ἐξάρτησις, suspension, ἀφορότης, dilatation, qui paraissent nouveaux.)",
+   "adopted": "Ms. ἐπὶ δὲ τῶν ἐ., ἀπὸ τῆς τῶν αὐλῶι ἢ τῶν τρημάτων ἀφορότητος, ἢ ἀπὸ τῆ τάσεως τοῦ πνεύματος. (Notez, en passant, les mots ἐξάρτησις, suspension, ἀφορότης, délimitation, qui paraissent nouveaux.)",
+   "right": "claude+other",
+   "differences": [
+    {
+     "difference": "(1) «αὐλῶν»  /  (2) «αὐλῶν̣»",
+     "pick": "other: αὐλῶι",
+     "by": "editor",
+     "reason": "A: 2 (medium) — The last letter after ῶ is not a clean ν. It is a solid blotted block, wide at top and foot and narrow at the waist, with no V-notch. The ν of τῶν just before it is clearly notched. It looks like 'ῶι' at low zoom. A damaged or blotted ν is the best description, so the underdotted ν̣ fits the image better than a plain ν. | B: other «αὐλῶι (last letter printed as an ι-like upright stroke; possibly a damaged ν)» (medium) — After ῶ at the end of the line is a narrow upright stroke at x-height, about 14 px wide, going straight down. The ν in the neighbouring τῶν is a wide v-shape with a rounded left arm. So the print does not show a normal ν; it looks like ι or a broken ν sort. Reading 2's dotted ν̣ at least marks the doubt, but neither reading reproduces what is printed."
+    },
+    {
+     "difference": "(1) «τῇ»  /  (2) «τῆ»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — At 8x the η carries a circumflex and has nothing under it. There is no iota subscript, and the word ends the left column. | B: 2 (high) — At 8x, the last word of the left column, τῆ, has a circumflex over η. There is nothing under the η except its own right leg, so no iota subscript."
+    },
+    {
+     "difference": "(1) «dilatation,»  /  (2) «délimitation,»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — The right column clearly reads 'délimitation,' in italic: d-é-l-i-m-i-t-a-t-i-o-n. | B: 2 (high) — The right column, line 3, reads in italic 'délimitation,'. The é and the 'limi' sequence are clearly visible; it is not 'dilatation'."
+    },
+    {
+     "difference": "(1) «dilatation,»  /  (2) «limitation,»",
+     "pick": "2",
+     "by": "checkers",
+     "reason": "A: 2 (high) — Same as the previous difference: the printed word is 'délimitation', not 'dilatation'. | B: 2 (high) — Same word: the print has 'délimitation,'. Reading 2 has it in full; 'limitation' in this listing is only part of reading 2's word. Reading 1's 'dilatation' is wrong."
+    }
+   ],
+   "editor_checker_note": "last letter printed as an ι-like upright stroke; possibly a damaged ν"
+  }
+ ],
+ "fragments_claude": [
+  {
+   "n": 1,
+   "heading_refs": "Vinc. 338.1-3",
+   "greek_refs": "Vinc. 338.4 - 340.2",
+   "running_text": "Εἰ γὰρ καὶ τοῖς ἀριθμοῖς σύμφρασις¹ οὐκ ἐγγίνεται διὰ τὸ τῶν ἀριθμῶν ἄϋλον² ἀκίνητόν τε καὶ ἄρευστον, ἀλλ᾽ ἐν τοῖς μέλεσι, διὰ τὸ εἰς ὕλην κατάγεσθαι, περὶ δὲ τὴν ὕλην ὁρᾶσθαι συνέχειαν, ἐντεῦθεν ἐγγίνεται καὶ τὴν σύμφρασιν³ εἶναι· καὶ τὸ περὶ δύϲ νευρὰς ἀποτεινόμενον μῆκος ἐν μιᾷ συναιρεῖται κατὰ συνέχειαν· ὥσπερ ἐκ τοῦ ἐναντίου καὶ τὸ παρὰ μίαν πάλιν εἰς πολλὰς διαιρεῖται κατὰ συνέχειαν. Ταύτῃ τοι καὶ ἡ Γεωμετρία καὶ ἐλάττονα ἀπὸ τῆς⁴ μείζονος κατὰ πάντα τρόπον ἀφαιρεῖται εὐθεῖαν, καὶ τῇ ἐλάττονι προστίθησι καὶ πεποίηται μείζονα· ἔνθα καὶ ἅπαν σχῆμα παραυξῆσαι κατὰ τὸ δοκοῦν μῆκος καὶ ἀπομειῶσαι δύναται, ὅπερ καὶ ἀριθμητικὸν ἀνεγχώρητον. Αὐτίκα τὸ δοθὲν τετράγωνον· ἡ μὲν ἀριθμητικὴ εἰς ἶσα τέμνειν⁵ τετράγωνα, ἢ διπλασιάσαι τὸ δεδομένον οὐ δύναται· οἷον τὸν ἑξδέκατον⁶ ἀριθμὸν τετράγωνον ὄντα, οὔτε εἰς ἶσα δυνατὸν διαιρεθῆναι τετράγωνα (τὰ γὰρ ὀκτὼ τετραγωνισθῆναι ἀδύνατον), οὔτε εἰς ἕτερον διπλασιασθῆναι τετράγωνον· τὸν γὰρ τριακονταδύο ἀριθμὸν τετραγωνισθῆναι ἀμήχανον. Τῇ γεωμετρίᾳ δὲ τοῦτο ῥάδιον· τὴν γὰρ τοῦ δοθέντος τετραγώνου πλευρὰν εἰς διάμετρον γεωμέτρης λαβὼν, καὶ τετράγωνον αὐτὴν περιθεὶς, ἥμισυ τοῦ δοθέντος τετραγώνου ποιεῖ· καὶ τὴν διάμετρον πάλιν τοῦ δοθέντος μετειληφὼς εἰς πλευρὰν, τὸ δοθὲν διπλασιάζει τετράγωνον. Ἀλλὰ τὸ μὲν περὶ διαστημάτων, καὶ ὅτι ἐκ παραυξήσεως τῶν προτέρων διαστημάτων ἕτερα ἀσύνθετα διαστήματα γίνεται, καὶ διατί ἀσύνθετα εἴρηται, ἱκανῶς ἤδη εἴρηται¹.",
+   "editorial_after": "Vinc. 340.3: Περὶ δε ταῦτα, κ. τ. λ. (Éd. παρά.)"
+  },
+  {
+   "n": 2,
+   "heading_refs": "Vinc. 340.4-6",
+   "greek_refs": "Vinc. 340.7 - 342.6",
+   "running_text": "Σκοπητέον δὲ ὡς τὰ μὲν οὖν ἔμμεσα διαστήματα, οἷον, τὸ διὰ τεσσάρων, τὸ διὰ πέντε μέλος, τὸ διὰ πασῶν, τὸ δὶς διὰ τεσσάρων, τὸ δὶς διὰ πέντε, καὶ τὸ δὶς διὰ πασῶν, πρὸς τὸν προλαμβανόμενον φθόγγον τῶν λόγων ἔχουσι τὴν ἀναφοράν· τὰ δὲ ἄμεσα καὶ μεταξὺ τούτων κείμενα, οἷον, [ἡ] δίεσις, τὸ ἡμιτόνιον, καὶ ὁ τόνος, πρὸς τοὺς πρὸ αὐτῶν ἐγγὺς φθόγγους τὴν ποιὰν τῶν λόγων ἕξιν πεποίηνται· ὡς δὲ καὶ τὰ ἐξ φθάρσεως² διαστημάτων³ πλειόνων μεγεθυνόμενα διαστήματα, οἷον, ἡ τριδίεσις, τὸ τριημιτόνιον, τὸ διτόνιόν τε καὶ τριτόνιον, καὶ εἴ τι ἕτερον τοιουτότροπον εἶδος τῶν ἐν αὐτοῖς κεκραμένων⁴ διαστημάτων πρὸς τοὺς ἐγγὺς φθόγγους πρότερον λογοθετηθέντων, οὕτως εἰς ἓν διάστημα ὡς ἐξ φθάρσεως² κίρνανται. Κατὰ σειρὰν μὲν γὰρ οἱ τῶν ἀμέσων διαστημάτων ἔκκεινται λόγοι· καθ᾽ ὑπερβατὸν δὲ, οἱ τῶν ἐν μέσῳ ὥσπερ ἐπὶ τῶν συλλογισμῶν αἱ προτάσεις, καὶ τὰ συμπεράσματα· αἱ μὲν γὰρ προτάσεις, ἐφεξῆς κατὰ σειρὰν οἷον πλέκονται· τὰ δὲ συμπεράσματα, καθ᾽ ὑπερβατὸν⁵ τοὺς ἄκρους τῶν ὅρων συνδέουσιν. Οὕτως οὖν ἔχει περὶ τοὺς λόγους καὶ τὰ τῆς μουσικῆς διαστήματα· τοῦ μὲν τῶν ἐμμέσων διαστημάτων λόγου, καθ᾽ ὑπερβατὸν πρὸς τοὺς ἄκρους παραβαλλομένου τῶν φθόγγων, τοῦ δὲ τῶν ἀμέσων, καθεξῆς πρὸς τοὺς ἐγγὺς ἀλλήλων φθόγγους συγκρινομένων· τῆς ἀπὸ τῶν ἐλαττόνων πρὸς τοὺς μείζονας προσαυξήσεως κατὰ σειρὰν προϊούσης, μονάδων¹ μὴ τεμνομένων, ὅ, τι² μηδὲ τοῖς ἀριθμητικοῖς οὔ πω³ δέδοκται. Σκοπητέον δὲ ὡς πρὸς τὸν ἀριθμὸν τῶν φθόγγων ἢ τῶν χορδῶν, οἱ λόγοι τῶν διαστάσεων κρίνονται.",
+   "editorial_after": "Vinc. 342.6-7: κ. τ. λ. (Éd. Εἰδέναι μέν τοι χρὴ, ὡς οὐ πρὸς τὸν ἀ. τ. φ. ἢ τ. χ.)"
+  },
+  {
+   "n": 3,
+   "heading_refs": "Vinc. 342.8-12",
+   "greek_refs": "Vinc. 342.13 - 342.24",
+   "running_text": "Ἐξεύρηνται δὲ οἱ τοιοῦτοι τῶν διαστάσεων λόγοι, ἀπὸ τῆς διαφορᾶς τοῦ μήκους τῶν χορδῶν, ἢ τῆς παχύτητος, ἢ τῆς τάσεως γενομένης κατὰ τὴν στροφὴν τῶν κολλάβων⁴, ἢ γνωριμώτερον ἀπὸ τῆς ἐξαρτήσεως⁵ τῶν βαρῶν· ἐπὶ δὲ τῶν ἐμπνευστῶν, ἢ ἀπὸ τῆς εὐρύτητος τῶν κοιλιῶν, ἢ ἀπὸ τῆς ἐπιτάσεως τοῦ πνεύματος καὶ ἀνέσεως. Ἰστέον δὲ ὡς ἐπὶ μὲν τῆς τάσεως, ἢ τῆς ἐξαρτήσεως⁶, ἡ ἐπὶ πλέον ἐπίτασις, καὶ ἡ ἐπὶ μᾶλλον βαρύτης, τὴν ἐπὶ ὀξὺ μελῳδίαν ἐργάζεται⁷· ἐπὶ δὲ τῆς παχύτητος τῶν νευρῶν, ἢ τοῦ μήκους τούτων ἢ τῶν αὐλῶν, ἢ τῆς τῶν τρημάτων διατάσεως, τὸ πλεονάζον τούτων τινὸς ἀμφότερον τῆς μελῳδίας εἶδος συνίστησι.",
+   "editorial_after": "Vinc. 342.25-26: Τῶν δὲ συστημάτων, τὸ μέν ἐστι τετράχορδον, κ. τ. λ. (Éd. τῶν δὲ διαστημάτων, leçon fautive.) — per 342.10-12, 342.13-18 (Ἐξεύρηνται … ἀνέσεως) is the edition's paragraph, 342.19-24 (Ἰστέον …) comes from the manuscript only."
+  }
+ ],
+ "doubts_claude": [
+  {
+   "ref": "general",
+   "issue": "Typographic ligatures resolved silently: στ (σ⁊, e.g. διασ⁊ήματα, ἄρευσ⁊ον, προσ⁊ίθησι, σ⁊ροφὴν, συνίσ⁊ησι, ἐσ⁊ι), ττ, and the ου-ligature ȣ (φθόγγȣς 340.12). Footnote numerals kept as superscripts in line texts and running texts; elision mark written ᾽, ano teleia ·. Small-caps headings given in capitals. Accents were checked with a stroke-orientation measurement: on ε the near-vertical stroke is the grave, the clearly slanted one the acute; hence all δε/μεν read δὲ/μὲν except 342.7 μέν, 342.25 μέν (acute) and 340.3 δε (no accent)."
+  },
+  {
+   "ref": "Vinc. 338.8",
+   "issue": "δύϲ: the last letter is an open c-shaped sort (lunate sigma or Latin c), certainly not ο; the sense requires δύο. Transcribed δύϲ."
+  },
+  {
+   "ref": "Vinc. 338.15, 338.17",
+   "issue": "ἶσα: printed with smooth breathing + circumflex (same sort as εἶναι 338.7), not ἴσα."
+  },
+  {
+   "ref": "Vinc. 338.11, 338.12, 338.18",
+   "issue": "Specks (dot above πάντα 338.11, marks in the margin left of ἀφαιρεῖται 338.12, dots under 338.18) ignored as debris."
+  },
+  {
+   "ref": "Vinc. 338 n. 1",
+   "issue": "'u'ose' as printed (turned n), i.e. n'ose."
+  },
+  {
+   "ref": "Vinc. 338 n. 6",
+   "issue": "ἑνδ.: small type; breathing read as rough (tail turns right, as in ἡ of n. 3)."
+  },
+  {
+   "ref": "Vinc. 340.3",
+   "issue": "δε printed without accent (Περὶ δε ταῦτα), upright Greek type; line is Vincent's pointer to where the 1545 edition resumes, given kind 'placement'."
+  },
+  {
+   "ref": "Vinc. 340.8",
+   "issue": "μέλος: the acute over ε is fused with the top of λ (looks like a hook on λ); read μέλος."
+  },
+  {
+   "ref": "Vinc. 340.11",
+   "issue": "[ἡ]: square brackets printed by Vincent."
+  },
+  {
+   "ref": "Vinc. 340.24",
+   "issue": "λόγους: an extra short acute-like stroke is printed between υ and ς (λόγου΄ς); not transcribed."
+  },
+  {
+   "ref": "Vinc. 340.25",
+   "issue": "Small dot between the comma after λόγου and καθ᾽: taken as a speck."
+  },
+  {
+   "ref": "Vinc. 340 n. 1",
+   "issue": "Εἰμαρμένης: the breathing over ι looks smooth (tail turns left), not the expected Εἱ-; stray dot after '66)'."
+  },
+  {
+   "ref": "Vinc. 342.6",
+   "issue": "Speck after λόγοι (much smaller than an ano teleia): not punctuation."
+  },
+  {
+   "ref": "Vinc. 342.6-7",
+   "issue": "342.6 mixes fragment text (to κρίνονται.) and Vincent's note 'κ. τ. λ. (Éd. Εἰ-'; 342.7 is entirely the note (kind 'placement')."
+  },
+  {
+   "ref": "Vinc. 342.7",
+   "issue": "χρὴ, : a tiny dot above the comma could be taken for ';' but is far smaller than a normal point; read as a speck. Dot before τὸν also a speck."
+  },
+  {
+   "ref": "Vinc. 342.13",
+   "issue": "Ἐξεύρηνται: the mark over the capital is printed as a slanted, acute-like stroke (looks like É); read as smooth breathing."
+  },
+  {
+   "ref": "Vinc. 342.21",
+   "issue": "Dot before παχύτητος: speck."
+  },
+  {
+   "ref": "Vinc. 342.25",
+   "issue": "A thin acute-like stroke is printed before the capital Τ of Τῶν; not transcribed."
+  },
+  {
+   "ref": "Vinc. 342 n. 5",
+   "issue": "αὐλῶν̣: last letter looks like ι (damaged ν). The note runs from the bottom of the left footnote column ('ἢ ἀπὸ τῆ') to the top of the right column ('τάσεως τοῦ πνεύματος.'); printed τῆ τάσεως without ς and without hyphen (presumably for τῆς ἐπιτάσεως)."
+  },
+  {
+   "ref": "Vinc. 342 n. 7",
+   "issue": "'Peut-être': hyphen printed like a raised dot; no full stop after ἐξάγεται."
+  }
+ ],
+ "gpt": {
+  "fragments": [
+   {
+    "n": 1,
+    "heading": "PREMIER FRAGMENT DE PSELLUS,",
+    "provenance": "P is known only through Vincent’s printed text and reports. His main Greek is not automatically the manuscript reading; the footnotes preserve that distinction.",
+    "line_count_note": "Each supplied Vincent page has26 counted main-block lines. Headings and placement notes are counted; running head, marginal side title and footnotes are not."
+   },
+   {
+    "n": 2,
+    "heading": "DEUXIÈME FRAGMENT DE PSELLUS,",
+    "provenance": "P is known only through Vincent’s printed text and reports. His main Greek is not automatically the manuscript reading; the footnotes preserve that distinction.",
+    "line_count_note": "Each supplied Vincent page has26 counted main-block lines. Headings and placement notes are counted; running head, marginal side title and footnotes are not."
+   },
+   {
+    "n": 3,
+    "heading": "TROISIÈME FRAGMENT DE PSELLUS,",
+    "provenance": "P is known only through Vincent’s printed text and reports. His main Greek is not automatically the manuscript reading; the footnotes preserve that distinction.",
+    "line_count_note": "Each supplied Vincent page has26 counted main-block lines. Headings and placement notes are counted; running head, marginal side title and footnotes are not."
+   }
+  ]
+ },
+ "insertion_points_gpt": [
+  {
+   "n": 1,
+   "place_according_to_vincent": "Par. 23r, after line13 ending ἀπηχούμενον.",
+   "found_at": "Par. 23r.13: exactly matches the physical count.",
+   "Bas": "Bas. 27.13–15 «δι’ ἑνὸς διὲ / διαστήματος ἀπηχούμενον. Παρὰ δὲ ταῦτα / ἕτερα διαστήματα»",
+   "H": "H 66r.16–18 «δι’ ἑνὸς δὲ διαστήματος ἀπηχούμενον· παρὰ δὲ ταῦτα. ἕτερα διαστήματα»",
+   "paragraphs": [
+    {
+     "incipit": "Εἰ γὰρ καὶ τοῖς ἀριθμοῖς σύμφρασις",
+     "vincent_ref": "Vinc. 338.4–10",
+     "Bas": "absent at the stated place",
+     "Par": "absent at the stated place",
+     "H": "absent at the stated place",
+     "V": "absent at the stated place",
+     "parallels": {
+      "Bas": "Thematic only: Bas. 26.1–7, material μονάς and division. No continuous counterpart to the two strings/one string argument.",
+      "Par": "Thematic only: Par. 22r.9–17; no continuous verbal equivalent.",
+      "H": "Thematic only: H 65r.18–65v.2; no same continuous passage elsewhere.",
+      "V": "Thematic only: V 77r.2–10; no same continuous passage elsewhere."
+     }
+    },
+    {
+     "incipit": "Ταύτῃ τοι καὶ ἡ Γεωμετρία",
+     "vincent_ref": "Vinc. 338.10–15",
+     "Bas": "absent at the stated place",
+     "Par": "absent at the stated place",
+     "H": "absent at the stated place",
+     "V": "absent at the stated place",
+     "parallels": {
+      "Bas": "Bas. 26.7–13, close displaced parallel.",
+      "Par": "Within Par. 22r.17–22v.21, close displaced geometry parallel.",
+      "H": "Within H 65v.2–66r.4, close displaced geometry parallel.",
+      "V": "V 77r.10–18, close displaced parallel."
+     }
+    },
+    {
+     "incipit": "Αὐτίκα τὸ δοθὲν τετράγωνον",
+     "vincent_ref": "Vinc. 338.15–20",
+     "Bas": "absent at the stated place",
+     "Par": "absent at the stated place",
+     "H": "absent at the stated place",
+     "V": "absent at the stated place",
+     "parallels": {
+      "Bas": "Bas. 26.13–21,16/8/32 demonstration.",
+      "Par": "Within Par. 22r.17–22v.21;16/8/32 demonstration.",
+      "H": "H 65v.10–18;16/8/32 demonstration.",
+      "V": "V 77r.19–77v.9;16/8/32 demonstration."
+     }
+    },
+    {
+     "incipit": "Τῇ γεωμετρίᾳ δὲ τοῦτο ῥάδιον",
+     "vincent_ref": "Vinc. 338.21–25",
+     "Bas": "absent at the stated place",
+     "Par": "absent at the stated place",
+     "H": "absent at the stated place",
+     "V": "absent at the stated place",
+     "parallels": {
+      "Bas": "Bas. 26.22–27.3, close displaced parallel.",
+      "Par": "Closing part of Par. 22r.17–22v.21.",
+      "H": "H 65v.19–66r.4.",
+      "V": "V 77v.10–18."
+     }
+    },
+    {
+     "incipit": "Ἀλλὰ τὸ μὲν περὶ διαστημάτων",
+     "vincent_ref": "Vinc. 338.25–340.2",
+     "Bas": "absent at the stated place",
+     "Par": "absent at the stated place",
+     "H": "absent at the stated place",
+     "V": "absent at the stated place",
+     "parallels": {
+      "Bas": "No identical recapitulation. Related wording Bas. 27.5–14.",
+      "Par": "No identical recapitulation; related Par. 23r.1–13.",
+      "H": "No identical recapitulation; related H 66r.7–17.",
+      "V": "No identical recapitulation; related V 77v.21–78r.11."
+     }
+    },
+    {
+     "incipit": "Περὶ δὲ ταῦτα",
+     "vincent_ref": "Vinc. 340.3",
+     "Bas": "other form at the same place",
+     "Par": "other form at the same place",
+     "H": "other form at the same place",
+     "V": "other form at the same place",
+     "parallels": {
+      "Bas": "Bas. 27.14 Παρὰ δὲ ταῦτα.",
+      "Par": "Par. 23r.14 παρὰ δὲ ταῦτα.",
+      "H": "H 66r.17 παρὰ δὲ ταῦτα.",
+      "V": "V 78r.12 παρὰ δὲ ταῦτα."
+     }
+    }
+   ],
+   "remarks": "Analytical subparagraphs are separated above even where Vincent prints continuous prose. Every P-only part is absent at this join; the displaced geometric parallel is not treated as presence at the join.",
+   "Par": "Par. 23r.12–15 «μιν μὲν ἔχον διαφόρων διαστημάτων. / δι᾽ ἑνὸς δὲ διαστήματος ἀπηχούμενον. / παρὰ δὲ ταῦτα, ἕτερα Διαστήμα- / τα· τὸ διὰ τεσσάρων…»",
+   "V": "δι' ἑ/νὸς δὲ διαστήματος ἀπηχούμενον· (V 78r.10–11) / παρὰ δὲ ταῦτα, ἕτερα διαστήματ(α)· (V 78r.12)",
+   "parallels": [
+    {
+     "paragraph_incipit": "Εἰ γὰρ καὶ τοῖς ἀριθμοῖς σύμφρασις",
+     "refs": "Bas: Thematic only: Bas. 26.1–7, material μονάς and division. No continuous counterpart to the two strings/one string argument.; Par: Thematic only: Par. 22r.9–17; no continuous verbal equivalent.; H: Thematic only: H 65r.18–65v.2; no same continuous passage elsewhere.; V: Thematic only: V 77r.2–10; no same continuous passage elsewhere."
+    },
+    {
+     "paragraph_incipit": "Ταύτῃ τοι καὶ ἡ Γεωμετρία",
+     "refs": "Bas: Bas. 26.7–13, close displaced parallel.; Par: Within Par. 22r.17–22v.21, close displaced geometry parallel.; H: Within H 65v.2–66r.4, close displaced geometry parallel.; V: V 77r.10–18, close displaced parallel."
+    },
+    {
+     "paragraph_incipit": "Αὐτίκα τὸ δοθὲν τετράγωνον",
+     "refs": "Bas: Bas. 26.13–21,16/8/32 demonstration.; Par: Within Par. 22r.17–22v.21;16/8/32 demonstration.; H: H 65v.10–18;16/8/32 demonstration.; V: V 77r.19–77v.9;16/8/32 demonstration."
+    },
+    {
+     "paragraph_incipit": "Τῇ γεωμετρίᾳ δὲ τοῦτο ῥάδιον",
+     "refs": "Bas: Bas. 26.22–27.3, close displaced parallel.; Par: Closing part of Par. 22r.17–22v.21.; H: H 65v.19–66r.4.; V: V 77v.10–18."
+    },
+    {
+     "paragraph_incipit": "Ἀλλὰ τὸ μὲν περὶ διαστημάτων",
+     "refs": "Bas: No identical recapitulation. Related wording Bas. 27.5–14.; Par: No identical recapitulation; related Par. 23r.1–13.; H: No identical recapitulation; related H 66r.7–17.; V: No identical recapitulation; related V 77v.21–78r.11."
+    },
+    {
+     "paragraph_incipit": "Περὶ δὲ ταῦτα",
+     "refs": "Bas: Bas. 27.14 Παρὰ δὲ ταῦτα.; Par: Par. 23r.14 παρὰ δὲ ταῦτα.; H: H 66r.17 παρὰ δὲ ταῦτα.; V: V 78r.12 παρὰ δὲ ταῦτα."
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "place_according_to_vincent": "Par. 24v, line3 counted upward, after τέταρτος.",
+   "found_at": "Par. 24v.20 of22 lines:22−20+1=3. Exact match.",
+   "Bas": "Bas. 29.22–24 «τετραπλά- / σιος ὁ εἰκοσὸς τέταρτος. Εἰδέναι μέντοι / χρὴ, ὡς οὐ πρὸς τὸν ἀριθμόν»",
+   "H": "H 67v.14–15 «σιος. ὁ εἰκοστὸς τέταρτος· εἰδέναι μέν / τοι χρὴ. ὡς οὐ πρὸς τὸν ἀριθμὸν τῶν φθόγ»",
+   "paragraphs": [
+    {
+     "incipit": "Σκοπητέον δὲ ὡς τὰ μὲν οὖν ἔμμεσα",
+     "vincent_ref": "Vinc. 340.7–18",
+     "Bas": "absent at the stated place",
+     "Par": "absent at the stated place",
+     "H": "absent at the stated place",
+     "V": "absent at the stated place",
+     "parallels": {
+      "Bas": "No same paragraph; thematic Bas. 27.14–28.8 and29.11–30.15.",
+      "Par": "No same paragraph; thematic Par. 23r.14–23v.15 and24v.6–25r.17.",
+      "H": "No same paragraph; thematic H 66r.17–66v.16 and67v.1–68r.10.",
+      "V": "No same paragraph; thematic V 78r.12–78v.14 and79v.8–80v.3."
+     }
+    },
+    {
+     "incipit": "Κατὰ σειρὰν μὲν γὰρ",
+     "vincent_ref": "Vinc. 340.19–342.4",
+     "Bas": "absent at the stated place",
+     "Par": "absent at the stated place",
+     "H": "absent at the stated place",
+     "V": "absent at the stated place",
+     "parallels": {
+      "Bas": "none found; no syllogism analogy elsewhere.",
+      "Par": "none found; no syllogism analogy elsewhere.",
+      "H": "none found; no syllogism analogy elsewhere.",
+      "V": "none found; no syllogism analogy elsewhere."
+     }
+    },
+    {
+     "incipit": "Σκοπητέον δὲ ὡς πρὸς τὸν ἀριθμὸν",
+     "vincent_ref": "Vinc. 342.5–7",
+     "Bas": "other form at the same place",
+     "Par": "other form at the same place",
+     "H": "other form at the same place",
+     "V": "other form at the same place",
+     "parallels": {
+      "Bas": "Bas. 29.23–30.2 Εἰδέναι ... ὡς οὐ πρὸς ...; the omitted οὐ in Vincent’s P sentence reverses the assertion.",
+      "Par": "Par. 24v.20–25r.3, same negative sentence.",
+      "H": "H 67v.14–19, same negative sentence.",
+      "V": "V 80r.3–8, same negative sentence."
+     }
+    }
+   ],
+   "remarks": "The first two paragraphs are P-only additions. The final Σκοπητέον sentence is a same-place variant of the existing negative assertion; the constituted text retains the latter and prints it once.",
+   "Par": "Par. 24v.19–22 «τετραπλάσιος, ὁ εἰκοσὸς τέταρ- / τος. εἰδέναι μέντοι χρὴ, ὡς οὐ πρὸς / τὸν ἀριθμὸν τῶν φθόγγων ἢ τῶν χορ- / δῶν, οἱ λόγοι τῶν διαστάσεων κρίνον-»",
+   "V": "τριπλάσιος, ὁ ὀκτωκαιδέ/κατος· τετραπλάσιος, ὁ εἰκοστὸς / τέταρτος· (V 80r.1–3) / εἰδέναι μέντοι χρή, / ὡς οὐ πρὸς τὸν ἀριθμὸν τῶν φθόγγων / ἢ τῶν χορδῶν· οἱ λόγοι τῶν διαστά/σεων κρίνονται· (V 80r.3–6)",
+   "parallels": [
+    {
+     "paragraph_incipit": "Σκοπητέον δὲ ὡς τὰ μὲν οὖν ἔμμεσα",
+     "refs": "Bas: No same paragraph; thematic Bas. 27.14–28.8 and29.11–30.15.; Par: No same paragraph; thematic Par. 23r.14–23v.15 and24v.6–25r.17.; H: No same paragraph; thematic H 66r.17–66v.16 and67v.1–68r.10.; V: No same paragraph; thematic V 78r.12–78v.14 and79v.8–80v.3."
+    },
+    {
+     "paragraph_incipit": "Κατὰ σειρὰν μὲν γὰρ",
+     "refs": "Bas: none found; no syllogism analogy elsewhere.; Par: none found; no syllogism analogy elsewhere.; H: none found; no syllogism analogy elsewhere.; V: none found; no syllogism analogy elsewhere."
+    },
+    {
+     "paragraph_incipit": "Σκοπητέον δὲ ὡς πρὸς τὸν ἀριθμὸν",
+     "refs": "Bas: Bas. 29.23–30.2 Εἰδέναι ... ὡς οὐ πρὸς ...; the omitted οὐ in Vincent’s P sentence reverses the assertion.; Par: Par. 24v.20–25r.3, same negative sentence.; H: H 67v.14–19, same negative sentence.; V: V 80r.3–8, same negative sentence."
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "place_according_to_vincent": "Par. 25r, line6 counted upward; first paragraph from edition, second Ἰστέον from manuscript.",
+   "found_at": "Par. 25r.17 of22 lines:22−17+1=6. Exact match for the quoted paragraph’s beginning; actual insertion after Par. 25v.4.",
+   "Bas": "Bas. 30.22–24 «τῆς ἐπιτάσεως τοῦ πνεύματος / καὶ ἀνέσεως. τῶν δὲ διαστημάτων, τὸ μὲν / ἐστι τετράχορδον»",
+   "H": "H 68r.18–19 «πιτάσεως τοῦ πν(εύματο)ς καὶ ἀνέσεως· τῶν / δὲ διαστημάτων· τὸ μὲν ἐστὶ τετράχορδον»",
+   "paragraphs": [
+    {
+     "incipit": "Ἐξεύρηνται δὲ οἱ τοιοῦτοι",
+     "vincent_ref": "Vinc. 342.13–18",
+     "Bas": "present at the same place",
+     "Par": "present at the same place",
+     "H": "present at the same place",
+     "V": "present at the same place",
+     "parallels": {
+      "Bas": "Bas. 30.15–23; no second occurrence. Vincent quotes the edition here, not P directly.",
+      "Par": "Par. 25r.17–25v.4; no second occurrence.",
+      "H": "H 68r.10–18; incipit group after ξ uncertain; no second occurrence.",
+      "V": "V 80v.3–13; no second occurrence."
+     }
+    },
+    {
+     "incipit": "Ἰστέον δὲ ὡς ἐπὶ μὲν τῆς τάσεως",
+     "vincent_ref": "Vinc. 342.19–24",
+     "Bas": "absent at the stated place",
+     "Par": "absent at the stated place",
+     "H": "absent at the stated place",
+     "V": "absent at the stated place",
+     "parallels": {
+      "Bas": "none found; preceding paragraph names the factors but does not give this directional account.",
+      "Par": "none found; preceding paragraph only thematic.",
+      "H": "none found; preceding paragraph only thematic.",
+      "V": "none found; preceding paragraph only thematic."
+     }
+    },
+    {
+     "incipit": "Τῶν δὲ συστημάτων",
+     "vincent_ref": "Vinc. 342.25–26",
+     "Bas": "other form at the same place",
+     "Par": "other form at the same place",
+     "H": "other form at the same place",
+     "V": "other form at the same place",
+     "parallels": {
+      "Bas": "Bas. 30.23–31.13, same systems paragraph introduced as διαστημάτων.",
+      "Par": "Par. 25v.5–26r.3, same systems paragraph, διαστημάτων.",
+      "H": "H 68r.18–68v.12, same systems paragraph, διαστημάτων.",
+      "V": "V 80v.13–81r.10, same systems paragraph, διαστημάτων."
+     }
+    }
+   ],
+   "remarks": "Only the paragraph Ἰστέον is inserted. The preceding paragraph is already present and is explicitly quoted by Vincent from the edition. His note342n5 nevertheless reports a genuine P variant within that paragraph; his συστημάτων is a same-place variant at the resumption.",
+   "Par": "Par. 25r.17–18 «…νοήσομεν· ἐξ- / εύρηνται [?] δὲ οἱ τοιοῦτοι…»; actual insertion boundary Par. 25v.3–6 «…ἐπι- / τάσεως τοῦ πνεύματος καὶ ἀνέσεως. / Τῶν δὲ διαστημάτων· τὸ μέν ἐστι τε- / τράχορδον…»",
+   "V": "ἐξεύρηνται [?] δὲ / οἱ τοιοῦτοι ... (V 80v.3–4) / ... τοῦ πν(εύματο)ς καὶ ἀνέσε/ως· τῶν δὲ διαστημάτων, τὸ μὲν ἐ/στὶ τετράχορδον· (V 80v.12–14)",
+   "parallels": [
+    {
+     "paragraph_incipit": "Ἐξεύρηνται δὲ οἱ τοιοῦτοι",
+     "refs": "Bas: Bas. 30.15–23; no second occurrence. Vincent quotes the edition here, not P directly.; Par: Par. 25r.17–25v.4; no second occurrence.; H: H 68r.10–18; incipit group after ξ uncertain; no second occurrence.; V: V 80v.3–13; no second occurrence."
+    },
+    {
+     "paragraph_incipit": "Ἰστέον δὲ ὡς ἐπὶ μὲν τῆς τάσεως",
+     "refs": "Bas: none found; preceding paragraph names the factors but does not give this directional account.; Par: none found; preceding paragraph only thematic.; H: none found; preceding paragraph only thematic.; V: none found; preceding paragraph only thematic."
+    },
+    {
+     "paragraph_incipit": "Τῶν δὲ συστημάτων",
+     "refs": "Bas: Bas. 30.23–31.13, same systems paragraph introduced as διαστημάτων.; Par: Par. 25v.5–26r.3, same systems paragraph, διαστημάτων.; H: H 68r.18–68v.12, same systems paragraph, διαστημάτων.; V: V 80v.13–81r.10, same systems paragraph, διαστημάτων."
+    }
+   ]
+  }
+ ],
+ "footnotes": [
+  {
+   "ref": "Vinc. 338.8",
+   "lemma": "δύϲ",
+   "ru": "«δύϲ» — так в транскрипции Claude; в транскрипции GPT-6 «δύς». Последняя буква — открытая справа c-образная литера (лунообразная сигма ϲ или случайная литера c), не похожая на конечную ς в νευρὰς той же строки; так напечатано (по мнению одного из проверяющих, вероятно, опечатка вместо δύο). Решили оба проверяющих.",
+   "en": "«δύϲ» as in Claude's transcription; GPT-6's has «δύς». The last letter is a c-shape open on the right (a lunate sigma ϲ or a stray c sort), unlike the final ς of νευρὰς in the same line; so printed (in one checker's view probably a misprint for δύο). Decided by both checkers."
+  },
+  {
+   "ref": "Vinc. 338.15",
+   "lemma": "ἶσα",
+   "ru": "«ἶσα» — так в транскрипции Claude; в транскрипции GPT-6 «ἴσα». Над ι стоит горизонтальное облечённое ударение, слитое с придыханием, как в οἷον (строка 17), а не придыхание с отдельным косым акутом (ср. ὄντα, οὔτε); так напечатано (по мнению одного из проверяющих, опечатка вместо ἴσα). Решили оба проверяющих.",
+   "en": "«ἶσα» as in Claude's transcription; GPT-6's has «ἴσα». Over the ι is a horizontal circumflex fused with the breathing, as on οἷον (l. 17), not a breathing with a separate oblique acute (cf. ὄντα, οὔτε); so printed (in one checker's view a misprint for ἴσα). Decided by both checkers."
+  },
+  {
+   "ref": "Vinc. 338.17",
+   "lemma": "ἶσα",
+   "ru": "«ἶσα» — так в транскрипции Claude; в транскрипции GPT-6 «ἴσα». Тот же знак, что в строке 15: горизонтальное облечённое ударение с придыханием над ι, как в οἷον в начале этой строки, косого акута нет; так напечатано. Решили оба проверяющих.",
+   "en": "«ἶσα» as in Claude's transcription; GPT-6's has «ἴσα». The same mark as in l. 15: a horizontal circumflex with breathing over ι, as on οἷον at the start of this line, with no oblique acute; so printed. Decided by both checkers."
+  },
+  {
+   "ref": "Vinc. 338 n. 1",
+   "lemma": "σύγκρασις ; | u’ose",
+   "ru": "«σύγκρασις ;» и «u’ose» — так в транскрипции Claude; в транскрипции GPT-6 «σύγχρασις;» и «n’ose». Четвёртая буква — курсивная ϰ без нижнего выносного штриха (χ в этом шрифте опускается ниже строки); перед «;» напечатан пробел (французский обычай); в «u’ose» стоит открытая сверху литера на месте n — опечатка, воспроизведена как напечатано. Решили оба проверяющих (один допускал, что пробел можно отнести к конвенции).",
+   "en": "«σύγκρασις ;» and «u’ose» as in Claude's transcription; GPT-6's has «σύγχρασις;» and «n’ose». The fourth letter is the italic ϰ with no descender (χ descends in this font); a space is printed before «;» (French usage); «u’ose» has a letter open at the top in place of n, a misprint reproduced as printed. Decided by both checkers (one allowed that the space could be treated as a matter of convention)."
+  },
+  {
+   "ref": "Vinc. 338 n. 6",
+   "lemma": "ἑνδ.",
+   "ru": "«ἑνδ.» — так в транскрипции Claude; в транскрипции GPT-6 «ἐνδ.». Хвост придыхания над ε уходит вниз вправо, как у густого придыхания на ἡ в прим. 3, а не как у тонкого (ἀριθμόν, прим. 2); знак очень мелкий. Решили оба проверяющих (со средней уверенностью).",
+   "en": "«ἑνδ.» as in Claude's transcription; GPT-6's has «ἐνδ.». The tail of the breathing over ε runs down to the right, as with the rough breathing on ἡ in n. 3, not like the smooth one (ἀριθμόν, n. 2); the mark is very small. Decided by both checkers (with medium confidence)."
+  },
+  {
+   "ref": "Vinc. 340.1",
+   "lemma": "διατί",
+   "ru": "«διατί» — так в транскрипции Claude; в транскрипции GPT-6 «διατὶ». Ударение над конечной ι поднимается слева направо (акут), в отличие от тяжёлого ударения на предшествующем καὶ. Решили оба проверяющих.",
+   "en": "«διατί» as in Claude's transcription; GPT-6's has «διατὶ». The accent on the final ι rises from left to right (acute), unlike the grave on the preceding καὶ. Decided by both checkers."
+  },
+  {
+   "ref": "Vinc. 340.3",
+   "lemma": "δε",
+   "ru": "«δε» — так в транскрипции Claude; в транскрипции GPT-6 «δὲ». Над ε нет никакого знака, тогда как на Περὶ ясно виден гравис; так напечатано (по мнению одного из проверяющих, опечатка). Решили оба проверяющих.",
+   "en": "«δε» as in Claude's transcription; GPT-6's has «δὲ». There is no mark above the ε, while Περὶ has a clear grave; so printed (in one checker's view a misprint). Decided by both checkers."
+  },
+  {
+   "ref": "Vinc. 340.13",
+   "lemma": "πεποίηνται",
+   "ru": "«πεποίηνται» — так в транскрипции Claude; в транскрипции GPT-6 «πεποίηται». Между η и τ ясно напечатана ν. Решили оба проверяющих.",
+   "en": "«πεποίηνται» as in Claude's transcription; GPT-6's has «πεποίηται». A ν is clearly printed between η and τ. Decided by both checkers."
+  },
+  {
+   "ref": "Vinc. 340 n. 1",
+   "lemma": "Εἰμαρμένης | εἰρῆσθαι",
+   "ru": "«Εἰμαρμένης» и «εἰρῆσθαι» — так в транскрипции Claude; в транскрипции GPT-6 «Εἱμαρμένης» и «εἰρήσθαι». Над ι в Εἰ- напечатано тонкое придыхание (как в εἰρήσθω той же сноски) — так напечатано (по мнению одного из проверяющих, опечатка вместо Εἱ-); над η в εἰρῆσθαι — волнистое горизонтальное облечённое ударение, а не косой акут. Решили оба проверяющих (по первому месту — со средней уверенностью).",
+   "en": "«Εἰμαρμένης» and «εἰρῆσθαι» as in Claude's transcription; GPT-6's has «Εἱμαρμένης» and «εἰρήσθαι». A smooth breathing is printed over the ι of Εἰ- (as on εἰρήσθω in the same note), so printed (in one checker's view a misprint for Εἱ-); over the η of εἰρῆσθαι is a wavy horizontal circumflex, not an oblique acute. Decided by both checkers (at the first point with medium confidence)."
+  },
+  {
+   "ref": "Vinc. 340 n. 4",
+   "lemma": "κεκρυμμένων",
+   "ru": "«κεκρυμμένων» — так в обеих транскрипциях (Claude и GPT-6); место сверено с первоначальным чтением «κεχρυμμένων» в прежней транскрипции фрагментов. Первая и третья буквы — одинаковые x-образные ϰ на линии строки без нижнего выносного штриха, тогда как χ опускалась бы ниже строки. Решили оба проверяющих.",
+   "en": "«κεκρυμμένων» in both transcriptions (Claude's and GPT-6's); the place was checked against the first reading «κεχρυμμένων» in the earlier transcription of the fragments. The first and third letters are identical x-shaped ϰ on the baseline with no descender, whereas χ would descend below the line. Decided by both checkers."
+  },
+  {
+   "ref": "Vinc. 342.7",
+   "lemma": "χρὴ",
+   "ru": "«χρὴ» — так в транскрипции Claude; в транскрипции GPT-6 «χρή». Ударение над η толстое вверху слева и сужается вниз вправо, т. е. гравис (ср. акут на μέν той же строки). Решили оба проверяющих.",
+   "en": "«χρὴ» as in Claude's transcription; GPT-6's has «χρή». The accent over η is thick at the upper left and tapers down to the right, i.e. a grave (cf. the acute on μέν in the same line). Decided by both checkers."
+  },
+  {
+   "ref": "Vinc. 342.11",
+   "lemma": "l’édition ; | Ἰστέον",
+   "ru": "«l’édition ;» — так в транскрипции Claude (в транскрипции GPT-6 «l’édition;»); «Ἰστέον» — так в транскрипции GPT-6 (в транскрипции Claude «ἰστέον»). Перед «;» напечатан узкий пробел (шире межбуквенного, уже межсловного), как в «manuscrit : celui-ci»; первая буква слова — высокая прописная Ι с засечкой и придыханием, а не строчная ι. Решили оба проверяющих (пробел — со средней уверенностью; один допускал, что его можно отнести к конвенции).",
+   "en": "«l’édition ;» as in Claude's transcription (GPT-6's has «l’édition;»); «Ἰστέον» as in GPT-6's (Claude's has «ἰστέον»). A thin space (wider than letter spacing, narrower than a word space) is printed before «;», as in «manuscrit : celui-ci»; the first letter of the word is a tall serifed capital Ι with a breathing, not a lowercase ι. Decided by both checkers (the space with medium confidence; one allowed it could be treated as convention)."
+  },
+  {
+   "ref": "Vinc. 342.12",
+   "lemma": "διαστ. | συστ.",
+   "ru": "«διαστ.» и «συστ.» — так в транскрипции GPT-6; в транскрипции Claude «διας.» и «συς.». В обоих словах перед точкой стоит лигатура στ (ϛ-образная, с плоской верхней перекладиной и нисходящим хвостом), отличная от конечной ς в ἀνέσεως той же строки. Решили оба проверяющих.",
+   "en": "«διαστ.» and «συστ.» as in GPT-6's transcription; Claude's has «διας.» and «συς.». In both words the glyph before the full stop is the στ ligature (ϛ-shaped, with a flat top bar and a descending tail), unlike the final ς of ἀνέσεως in the same line. Decided by both checkers."
+  },
+  {
+   "ref": "Vinc. 342.25",
+   "lemma": "μέν",
+   "ru": "«μέν» — так в транскрипции Claude; в транскрипции GPT-6 «μὲν». Ударение над ε поднимается вправо (акут), зеркально тяжёлому ударению на предшествующем τὸ. Решили оба проверяющих.",
+   "en": "«μέν» as in Claude's transcription; GPT-6's has «μὲν». The accent over ε rises to the right (acute), the mirror image of the grave on the preceding τὸ. Decided by both checkers."
+  },
+  {
+   "ref": "Vinc. 342 n. 5",
+   "lemma": "αὐλῶι | τῆ | délimitation",
+   "ru": "«αὐλῶι» нет ни в одной из транскрипций (Claude «αὐλῶν̣», GPT-6 «αὐλῶν»): после ῶ напечатан узкий вертикальный штрих, похожий на ι (возможно, повреждённая ν); проверяющие разошлись (один предпочёл ν̣, другой — αὐλῶι), решил редактор. «τῆ» и «délimitation» — так в транскрипции Claude (GPT-6: «τῇ», «dilatation»): подписной йоты под η нет, во французском тексте ясно читается «délimitation»; решили оба проверяющих.",
+   "en": "«αὐλῶι» is in neither transcription (Claude «αὐλῶν̣», GPT-6 «αὐλῶν»): after ῶ the print has a narrow upright stroke like ι (possibly a damaged ν); the checkers disagreed (one preferred ν̣, the other αὐλῶι), and the editor decided. «τῆ» and «délimitation» as in Claude's transcription (GPT-6: «τῇ», «dilatation»): there is no iota subscript under η, and the French clearly reads «délimitation»; decided by both checkers."
+  }
+ ],
+ "footnotes_note": "One footnote, in Russian and English, at every place where the two transcriptions differed (and at the later corrections): the adopted reading, the readings of Claude and GPT-6, what the scan shows, and who decided. Written and checked against the decision records by two agents each (2026-10-28)."
+}

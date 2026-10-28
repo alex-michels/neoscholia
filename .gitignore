@@ -39,3 +39,6 @@ research/texts/**/source/**/*.jp2
 research/texts/**/source/**/*.jpeg
 research/texts/**/source/**/*.tiff
 research/texts/**/source/**/*.webp
+
+# local review pages for the editor (crops of the scans, which must not be published)
+research/texts/**/review/

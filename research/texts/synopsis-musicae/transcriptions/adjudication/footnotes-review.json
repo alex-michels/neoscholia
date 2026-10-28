@@ -1,0 +1,1843 @@
+[
+ {
+  "chunk": "bas",
+  "footnotes": [
+   {
+    "ref": "Bas. 23.6",
+    "lemma": "ἔστιν",
+    "ru": "«ἔστιν» — так в транскрипции Claude; в транскрипции GPT-6 «ἐστίν». На скане над ε тонкое придыхание и острое ударение, над ι лигатуры στι ничего нет. Решили оба проверяющих.",
+    "en": "«ἔστιν», as in Claude's transcription; GPT-6's transcription has «ἐστίν». The scan shows a smooth breathing and an acute over the ε, and nothing over the ι of the στι ligature. Decided by both checkers."
+   },
+   {
+    "ref": "Bas. 23.7",
+    "lemma": "οὐδέ",
+    "ru": "«οὐδέ» — так в транскрипции Claude; в транскрипции GPT-6 «οὐδὲ». Ударение над конечным ε — короткий вертикальный клиновидный штрих: один проверяющий читает его как острое (по форме оно как острые на этой странице, а не как наклонённые вправо тяжёлые), другой счёл, что по изображению острое и тяжёлое здесь не различить. Решил редактор.",
+    "en": "«οὐδέ», as in Claude's transcription; GPT-6's transcription has «οὐδὲ». The accent over the final ε is a short vertical wedge: one checker reads it as an acute (shaped like the acutes on this page, not like its right-leaning graves), the other found that the image does not separate acute from grave here. Decided by the editor."
+   },
+   {
+    "ref": "Bas. 24.1",
+    "lemma": "Η | ἐστὶ",
+    "ru": "«Η» — так в транскрипции Claude; в транскрипции GPT-6 «Ἡ»: у прописной Η придыхания нет. «ἐστὶ» — так в транскрипции GPT-6; в транскрипции Claude «ἐστι»: над ι лигатуры ἐστι стоит тяжёлое ударение, сросшееся с верхней дугой лигатуры (у той же лигатуры в 24.24 его нет). В обоих местах решили оба проверяющих.",
+    "en": "«Η», as in Claude's transcription; GPT-6's has «Ἡ»: the capital Η has no breathing. «ἐστὶ», as in GPT-6's transcription; Claude's has «ἐστι»: a grave stands over the ι of the ἐστι ligature, run into the ligature's arch (the same ligature in 24.24 has none). Both points decided by both checkers."
+   },
+   {
+    "ref": "Bas. 24.5",
+    "lemma": "ὀνομάσοι",
+    "ru": "«ὀνομάσοι» — так в транскрипции GPT-6; в транскрипции Claude «ὀνομάζει». На скане после α с ударением стоит лигатура σο (как в τοσούτου, 24.7), затем ι и запятая; ни ζ, ни ε нет. Решили оба проверяющих.",
+    "en": "«ὀνομάσοι», as in GPT-6's transcription; Claude's has «ὀνομάζει». The scan shows, after the accented α, the σο ligature (as in τοσούτου, 24.7), then ι and a comma, with no ζ and no ε. Decided by both checkers."
+   },
+   {
+    "ref": "Bas. 24.6",
+    "lemma": "εὖτε",
+    "ru": "«εὖτε» — так в транскрипции Claude; в транскрипции GPT-6 «εὖ τε». Промежуток между υ и τ на скане обычный межбуквенный (2–4 px против 9–12 px между словами), пробела нет. Решили оба проверяющих.",
+    "en": "«εὖτε», as in Claude's transcription; GPT-6's has «εὖ τε». On the scan the gap between υ and τ is an ordinary letter gap (2-4 px against 9-12 px between words), so no word space is set. Decided by both checkers."
+   },
+   {
+    "ref": "Bas. 24.7",
+    "lemma": "ἔχων | τοσούτου",
+    "ru": "«ἔχων» — так в транскрипции Claude; в транскрипции GPT-6 «ἔχον»: на скане ясная ω с двумя петлями. «τοσούτου» — так в транскрипции Claude; в транскрипции GPT-6 «τοσοῦτον»: над υ острое ударение, слово кончается лигатурой ου (ȣ), конечного ν нет. В обоих местах решили оба проверяющих.",
+    "en": "«ἔχων», as in Claude's transcription; GPT-6's has «ἔχον»: the scan shows a clear double-bowled ω. «τοσούτου», as in Claude's transcription; GPT-6's has «τοσοῦτον»: there is an acute over the υ, and the word ends in the ου ligature (ȣ) with no final ν. Both points decided by both checkers."
+   },
+   {
+    "ref": "Bas. 24.18",
+    "lemma": "περωχὴ | Αρμονία",
+    "ru": "«περωχὴ» — так напечатано и так в транскрипции Claude; в транскрипции GPT-6 «περιοχή»: на скане π, лигатура ερ, ω, χ и η с тяжёлым ударением, без ι и ο. «Αρμονία» — так в транскрипции Claude; в транскрипции GPT-6 «Ἁρμονία»: у прописной Α придыхания нет. В обоих местах решили оба проверяющих.",
+    "en": "«περωχὴ», as printed and as in Claude's transcription; GPT-6's has «περιοχή»: the scan shows π, the ερ ligature, ω, χ and η with a grave, with no ι or ο. «Αρμονία», as in Claude's transcription; GPT-6's has «Ἁρμονία»: the capital Α has no breathing. Both points decided by both checkers."
+   },
+   {
+    "ref": "Bas. 24.19",
+    "lemma": "Ο",
+    "ru": "«Ο» — так в транскрипции Claude; в транскрипции GPT-6 «Ὁ»; у прописной Ο на скане придыхания нет, решили оба проверяющих.",
+    "en": "«Ο», as in Claude's transcription; GPT-6's has «Ὁ»; the capital Ο has no breathing on the scan, as both checkers decided."
+   },
+   {
+    "ref": "Bas. 24.22",
+    "lemma": "ἐναρμο",
+    "ru": "«ἐναρμο» без знака переноса, как в транскрипции GPT-6 (у Claude «ἐναρμο-»): оба проверяющих видят после ο чистое поле, хотя в соседних строках дефис напечатан.",
+    "en": "«ἐναρμο» without a hyphen, as in GPT-6's transcription (Claude «ἐναρμο-»): both checkers see blank margin after the ο, while neighbouring lines do print the hyphen."
+   },
+   {
+    "ref": "Bas. 24.23",
+    "lemma": "δὲ | ἀπηχής",
+    "ru": "«δὲ» — так в транскрипции GPT-6; в транскрипции Claude «δ’»: на скане δ с прямым штрихом тяжёлого ударения справа вверху, а не с крючкообразным апострофом, как в δ’ (24.3, 24.24), т. е. сокращение δὲ, раскрытое в тексте. «ἀπηχής» — так в транскрипции Claude; в транскрипции GPT-6 «ἀπηχὴς»: ударение над η наклонено справа сверху влево вниз, т. е. острое. В обоих местах решили оба проверяющих.",
+    "en": "«δὲ», as in GPT-6's transcription; Claude's has «δ’»: the scan shows δ with a straight grave stroke at its upper right, not the hook-shaped apostrophe of δ’ (24.3, 24.24), i.e. the abbreviation for δὲ, expanded in the text. «ἀπηχής», as in Claude's transcription; GPT-6's has «ἀπηχὴς»: the accent over the η slants from top right to bottom left, an acute. Both points decided by both checkers."
+   },
+   {
+    "ref": "Bas. 24.24",
+    "lemma": "ἐστι",
+    "ru": "«ἐστι» — так в транскрипции Claude; в транскрипции GPT-6 «ἐστὶ». Над ι лигатуры ἐστι на скане ничего нет (ср. 24.1 и 24.15, где тяжёлое ударение есть). Решили оба проверяющих.",
+    "en": "«ἐστι», as in Claude's transcription; GPT-6's has «ἐστὶ». Nothing stands over the ι of the ἐστι ligature on the scan (contrast 24.1 and 24.15, where a grave is present). Decided by both checkers."
+   },
+   {
+    "ref": "Bas. 24.25",
+    "lemma": "ἐκπε",
+    "ru": "«ἐκπε» без знака переноса, как в транскрипции GPT-6 (у Claude «ἐκπε-»): оба проверяющих видят после ε чистую бумагу до края.",
+    "en": "«ἐκπε» without a hyphen, as in GPT-6's transcription (Claude «ἐκπε-»): both checkers see blank paper after the ε up to the edge."
+   },
+   {
+    "ref": "Bas. 25.4",
+    "lemma": "λαμβάνοντος",
+    "ru": "«λαμβάνοντος» — так в транскрипции GPT-6; в транскрипции Claude «λαμβανόντος». Единственное острое ударение стоит над стыком α и первого ν: один проверяющий счёл его положение нерешающим (с небольшим перевесом в пользу ά), другой читает ά, поставленное так же, как в τυγχάνουσα (24.3). Решил редактор.",
+    "en": "«λαμβάνοντος», as in GPT-6's transcription; Claude's has «λαμβανόντος». The single acute stands over the junction of α and the first ν: one checker found its position not decisive (leaning slightly towards ά), the other reads ά, placed as in τυγχάνουσα (24.3). Decided by the editor."
+   },
+   {
+    "ref": "Bas. 25.7",
+    "lemma": "μόνως",
+    "ru": "«μόνως» — так в транскрипции Claude; в транскрипции GPT-6 «μόνος»; на скане ясная ω с двумя петлями, решили оба проверяющих.",
+    "en": "«μόνως», as in Claude's transcription; GPT-6's has «μόνος»; the scan shows a clear double-bowled ω, as both checkers decided."
+   },
+   {
+    "ref": "Bas. 25.8",
+    "lemma": "διαζευγμέ-",
+    "ru": "«διαζευγμέ-» — так в транскрипции Claude; в транскрипции GPT-6 «διεζευγμέ-». Слово начинается лигатурой δια с ясно выписанной α, отдельного ε нет (в отличие от διεζευγμένη в этой же строке и в 25.9). Решили оба проверяющих.",
+    "en": "«διαζευγμέ-», as in Claude's transcription; GPT-6's has «διεζευγμέ-». The word begins with the δια ligature with a clearly formed α and no separate ε (unlike διεζευγμένη earlier in the line and in 25.9). Decided by both checkers."
+   },
+   {
+    "ref": "Bas. 25.9",
+    "lemma": "διεζευγμένη",
+    "ru": "«διεζευγμένη» — так в транскрипции GPT-6; в транскрипции Claude «διεζευτμένη». Буква перед μ имеет форму Γ (стержень слева, перекладина только вправо): это гамма той же формы, что в φθόγ (27.23), а не τ, у которого стержень под серединой перекладины. Решили оба проверяющих.",
+    "en": "«διεζευγμένη», as in GPT-6's transcription; Claude's has «διεζευτμένη». The letter before μ is Γ-shaped (stem at the left, bar running only to the right): the same gamma as in φθόγ (27.23), not τ, whose stem stands under the middle of the bar. Decided by both checkers."
+   },
+   {
+    "ref": "Bas. 25.12",
+    "lemma": "ἑκκαιδεκάχορδον | περάτος",
+    "ru": "«ἑκκαιδεκάχορδον» — так в транскрипции Claude; в транскрипции GPT-6 «ἑκκαιδεκαχόρδιον»: острое ударение над α после κ, над ο после χ ничего нет, после ρ простое δ без ι. «περάτος» — так напечатано и так в транскрипции Claude; в транскрипции GPT-6 «πέρατος»: над лигатурой ερ ничего нет, острое ударение стоит между ρ и α, ближе к α. В обоих местах решили оба проверяющих.",
+    "en": "«ἑκκαιδεκάχορδον», as in Claude's transcription; GPT-6's has «ἑκκαιδεκαχόρδιον»: the acute stands over the α after κ, nothing over the ο after χ, and after ρ comes a plain δ with no ι. «περάτος», as printed and as in Claude's transcription; GPT-6's has «πέρατος»: nothing stands over the ερ ligature, and the acute stands between ρ and α, nearer the α. Both points decided by both checkers."
+   },
+   {
+    "ref": "Bas. 25.17",
+    "lemma": "μὲν",
+    "ru": "«μὲν» — так в транскрипции GPT-6; в транскрипции Claude «ἃλλα». На скане сокращение: унциальная Μ с надстрочным ε и тяжёлым ударением, а не лигатура λλ, и α нет; сокращение раскрыто. Решили оба проверяющих.",
+    "en": "«μὲν», as in GPT-6's transcription; Claude's has «ἃλλα». The scan shows an abbreviation, an uncial Μ with a superscript ε and a grave, not the λλ ligature, and no α; the abbreviation is expanded. Decided by both checkers."
+   },
+   {
+    "ref": "Bas. 25.20",
+    "lemma": "διπλὴν",
+    "ru": "«διπλὴν» — так в транскрипции Claude; в транскрипции GPT-6 «διπλῆν». Над лигатурой ην один тонкий прямой штрих, наклонённый слева сверху вправо вниз (тяжёлое ударение), а не волнистое облечённое. Решили оба проверяющих.",
+    "en": "«διπλὴν», as in Claude's transcription; GPT-6's has «διπλῆν». Over the ην ligature there is a single thin straight stroke slanting from top left to bottom right (a grave), not a wavy circumflex. Decided by both checkers."
+   },
+   {
+    "ref": "Bas. 25.25",
+    "lemma": "ὀκτωτέταρτον",
+    "ru": "«ὀκτωτέταρτον» — так в транскрипции Claude; в транскрипции GPT-6 «ὀκτὼ τέταρτον». На скане ὀκτω и τέταρτον набраны слитно (промежуток около 3 px), над ω ударения нет. Решили оба проверяющих.",
+    "en": "«ὀκτωτέταρτον», as in Claude's transcription; GPT-6's has «ὀκτὼ τέταρτον». On the scan ὀκτω and τέταρτον are set solid (a gap of about 3 px), and the ω has no accent. Decided by both checkers."
+   },
+   {
+    "ref": "Bas. 26.2",
+    "lemma": "μοὺς",
+    "ru": "«μοὺς» — так в транскрипции Claude; в транскрипции GPT-6 «μούς». Ударение над лигатурой ου наклонено слева сверху вправо вниз, т. е. тяжёлое, хотя, по замечанию одного проверяющего, наклон невелик. Решили оба проверяющих.",
+    "en": "«μοὺς», as in Claude's transcription; GPT-6's has «μούς». The accent over the ου ligature slants from top left to bottom right, a grave, though one checker notes that the slant is small. Decided by both checkers."
+   },
+   {
+    "ref": "Bas. 26.5",
+    "lemma": "ἔστιν",
+    "ru": "«ἔστιν» — так в транскрипции Claude; в транскрипции GPT-6 «ἐστὶν». Над ε тонкое придыхание и острое ударение, над ι лигатуры στι ничего нет. Решили оба проверяющих.",
+    "en": "«ἔστιν», as in Claude's transcription; GPT-6's has «ἐστὶν». A smooth breathing and an acute stand over the ε, and nothing over the ι of the στι ligature. Decided by both checkers."
+   },
+   {
+    "ref": "Bas. 26.8",
+    "lemma": "τῆς",
+    "ru": "«τῆς» — так в транскрипции GPT-6; в транскрипции Claude «τοῦ». Строка начинается знаком сокращения в виде петлистого δ с высоким штрихом, тождественным знаку для τῆς в 23.9, 24.13 и 25.21, тогда как τοῦ здесь набирается как τ с лигатурой ου; сокращение раскрыто. Решили оба проверяющих.",
+    "en": "«τῆς», as in GPT-6's transcription; Claude's has «τοῦ». The line opens with an abbreviation sign shaped like a looped δ with a tall stroke, identical to the sign for τῆς in 23.9, 24.13 and 25.21, whereas τοῦ is set here as τ with the ου ligature; the abbreviation is expanded. Decided by both checkers."
+   },
+   {
+    "ref": "Bas. 26.16",
+    "lemma": "ἑξκαιδέκατον",
+    "ru": "«ἑξκαιδέκατον» — так в транскрипции Claude; в транскрипции GPT-6 «ἑκκαιδέκατον». После ἑ на скане ясная ξ, затем лигатура και; второго κ нет. Решили оба проверяющих.",
+    "en": "«ἑξκαιδέκατον», as in Claude's transcription; GPT-6's has «ἑκκαιδέκατον». After ἑ the scan shows a clear ξ, then the και ligature, with no second κ. Decided by both checkers."
+   },
+   {
+    "ref": "Bas. 27.2",
+    "lemma": "μετειληφὼς",
+    "ru": "«μετειληφὼς» — так в транскрипции Claude; в транскрипции GPT-6 «μεταληφὼς». После μετ стоит лигатура ει с высокой ι, а не α (нет петли α с хвостом). Решили оба проверяющих.",
+    "en": "«μετειληφὼς», as in Claude's transcription; GPT-6's has «μεταληφὼς». After μετ stands the ει ligature with a tall ι, not an α (there is no α bowl with a tail). Decided by both checkers."
+   },
+   {
+    "ref": "Bas. 27.3",
+    "lemma": "ταύτη",
+    "ru": "«ταύτη» — так в транскрипции Claude; в транскрипции GPT-6 «ταύτῃ»; под η на скане чистая бумага, подписной йоты нет (ср. ὕλῃ в 26.2), решили оба проверяющих.",
+    "en": "«ταύτη», as in Claude's transcription; GPT-6's has «ταύτῃ»; the paper below the η is clean, with no iota subscript (compare ὕλῃ in 26.2), as both checkers decided."
+   },
+   {
+    "ref": "Bas. 27.7",
+    "lemma": "διτόνιόν",
+    "ru": "«διτόνιόν» — так в транскрипции Claude; в транскрипции GPT-6 «διτόνιον»; на скане два ясных острых ударения, над первым и над последним ο, решили оба проверяющих.",
+    "en": "«διτόνιόν», as in Claude's transcription; GPT-6's has «διτόνιον»; the scan shows two clear acutes, over the first and over the last ο, as both checkers decided."
+   },
+   {
+    "ref": "Bas. 27.9",
+    "lemma": "Ασύνθε-",
+    "ru": "«Ασύνθε-» — так в транскрипции Claude; в транскрипции GPT-6 «Ἀσύνθε-»; у прописной Α на скане придыхания нет, решили оба проверяющих.",
+    "en": "«Ασύνθε-», as in Claude's transcription; GPT-6's has «Ἀσύνθε-»; the capital Α has no breathing on the scan, as both checkers decided."
+   },
+   {
+    "ref": "Bas. 27.13",
+    "lemma": "δὲ",
+    "ru": "«δὲ» — так в транскрипции Claude; в транскрипции GPT-6 «διὲ». На скане простое δ одной плавной дугой (как в ὁδεύοντα, 27.18), без узла или выступа лигатуры δι (ср. δι’ в той же строке), затем ε с тяжёлым ударением. Решили оба проверяющих.",
+    "en": "«δὲ», as in Claude's transcription; GPT-6's has «διὲ». The scan shows a plain δ in one smooth arch (as in ὁδεύοντα, 27.18), without the knot or spur of the δι ligature (compare δι’ in the same line), then ε with a grave. Decided by both checkers."
+   },
+   {
+    "ref": "Bas. 27.18",
+    "lemma": "ὁδεύοντα",
+    "ru": "«ὁδεύοντα» — так в транскрипции Claude; в транскрипции GPT-6 «ὁδεύονται»; за α сразу следует запятая, ι нет (ср. -ται в γνωσθήσεται, 27.9), решили оба проверяющих.",
+    "en": "«ὁδεύοντα», as in Claude's transcription; GPT-6's has «ὁδεύονται»; the α is followed directly by a comma, with no ι (compare -ται in γνωσθήσεται, 27.9), as both checkers decided."
+   },
+   {
+    "ref": "Bas. 27.20",
+    "lemma": "διαστήματα",
+    "ru": "«διαστήματα» — так в транскрипции Claude; в транскрипции GPT-6 «διαστήματά». Единственное ударение в слове — острое над η; над конечным τα ничего нет, а знак правее — придыхание ὀνομά-. Решили оба проверяющих.",
+    "en": "«διαστήματα», as in Claude's transcription; GPT-6's has «διαστήματά». The only accent in the word is the acute over η; nothing stands over the final τα, and the mark to the right is the breathing of ὀνομά-. Decided by both checkers."
+   },
+   {
+    "ref": "Bas. 27.23",
+    "lemma": "φθόγ",
+    "ru": "«φθόγ» без знака переноса, как в транскрипции GPT-6 (у Claude «φθόγ-»): оба проверяющих видят после Γ-образной гаммы чистое поле.",
+    "en": "«φθόγ» without a hyphen, as in GPT-6's transcription (Claude «φθόγ-»): both checkers see blank margin after the Γ-shaped gamma."
+   },
+   {
+    "ref": "Bas. 27.24",
+    "lemma": "χορδῶν | διοδεύον",
+    "ru": "«χορδῶν» — так в транскрипции Claude; в транскрипции GPT-6 «χορδίων»: после ρ простое δ без ι, затем ω с облечённым ударением и ν. «διοδεύον» — так в транскрипции Claude; в транскрипции GPT-6 «διοδεῦον»: над υ лигатуры ευ один штрих, наклонённый справа сверху влево вниз, т. е. острое, а не облечённое. В обоих местах решили оба проверяющих.",
+    "en": "«χορδῶν», as in Claude's transcription; GPT-6's has «χορδίων»: after ρ comes a plain δ with no ι, then ω with a circumflex and ν. «διοδεύον», as in Claude's transcription; GPT-6's has «διοδεῦον»: over the υ of the ευ ligature there is a single stroke slanting from top right to bottom left, an acute, not a circumflex. Both points decided by both checkers."
+   },
+   {
+    "ref": "Bas. 28.4",
+    "lemma": "κᾀκεῖθεν",
+    "ru": "«κᾀκεῖθεν» — так в транскрипции Claude; в транскрипции GPT-6 «κἀκεῖθεν». Под α на скане отчётливая точка — подписная йота, той же формы, что под ω в τῷ (28.14); над α тонкое придыхание. Решили оба проверяющих.",
+    "en": "«κᾀκεῖθεν», as in Claude's transcription; GPT-6's has «κἀκεῖθεν». The scan shows a distinct dot under the α, an iota subscript of the same form as under the ω of τῷ (28.14), and a smooth breathing above. Decided by both checkers."
+   },
+   {
+    "ref": "Bas. 28.13",
+    "lemma": "τότε",
+    "ru": "«τότε» — так в транскрипции Claude; в транскрипции GPT-6 «τό τε». τό и τε набраны слитно: промежуток 3–4 px, как между буквами, против 8 px пробела перед словом; над первым ο острое ударение. Решили оба проверяющих.",
+    "en": "«τότε», as in Claude's transcription; GPT-6's has «τό τε». τό and τε are set solid: a gap of 3-4 px, as between letters, against 8 px for the word space before; the first ο carries an acute. Decided by both checkers."
+   },
+   {
+    "ref": "Bas. 28.14",
+    "lemma": "ἀνισοχρό-",
+    "ru": "«ἀνισοχρό-» — так в транскрипции Claude; в транскрипции GPT-6 «ἀνισχρό-»; между ι и χ стоит лигатура σο, та же, что в ἰσοχρόνως (28.18), решили оба проверяющих.",
+    "en": "«ἀνισοχρό-», as in Claude's transcription; GPT-6's has «ἀνισχρό-»; between ι and χ stands the σο ligature, the same sort as in ἰσοχρόνως (28.18), as both checkers decided."
+   },
+   {
+    "ref": "Bas. 28.15",
+    "lemma": "ἡπίως",
+    "ru": "«ἡπίως» — так в транскрипции Claude; в транскрипции GPT-6 «ἠπίως». Придыхание над η в форме c, открытое вправо, т. е. густое (тонкое в этом издании имеет форму ↄ, ср. κᾀκεῖθεν, 28.4). Решили оба проверяющих.",
+    "en": "«ἡπίως», as in Claude's transcription; GPT-6's has «ἠπίως». The breathing over η is c-shaped and open to the right, a rough breathing (the smooth breathing in this print is ↄ-shaped, compare κᾀκεῖθεν, 28.4). Decided by both checkers."
+   },
+   {
+    "ref": "Bas. 28.16",
+    "lemma": "ἀναλο",
+    "ru": "«ἀναλο» без знака переноса, как в транскрипции GPT-6 (у Claude «ἀναλο-»): оба проверяющих видят после ο чистую бумагу до линейки рамки.",
+    "en": "«ἀναλο» without a hyphen, as in GPT-6's transcription (Claude «ἀναλο-»): both checkers see blank paper after the ο up to the frame rule."
+   },
+   {
+    "ref": "Bas. 28.18",
+    "lemma": "βαρεί",
+    "ru": "«βαρεί» — так напечатано и так в транскрипции Claude; в транскрипции GPT-6 «βάρει». Единственное ударение — острое над лигатурой ει после ρ, над α ничего нет. Решили оба проверяющих.",
+    "en": "«βαρεί», as printed and as in Claude's transcription; GPT-6's has «βάρει». The only accent is an acute over the ει ligature after ρ; nothing stands over the α. Decided by both checkers."
+   },
+   {
+    "ref": "Bas. 28.22",
+    "lemma": "συγκα",
+    "ru": "«συγκα» без знака переноса, как в транскрипции GPT-6 (у Claude «συγκα-»): оба проверяющих видят после α чистую бумагу до рамки.",
+    "en": "«συγκα» without a hyphen, as in GPT-6's transcription (Claude «συγκα-»): both checkers see blank paper after the α up to the frame."
+   },
+   {
+    "ref": "Bas. 28.24",
+    "lemma": "βαρέσι | κα",
+    "ru": "«βαρέσι» — так в транскрипции Claude; в транскрипции GPT-6 «βάρεσι»: острое ударение стоит над ε после ρ, над α ничего нет. «κα» без знака переноса, как в транскрипции GPT-6 (у Claude «κα-»): после α ничего не напечатано (ср. κα- с дефисом в 28.18). В обоих местах решили оба проверяющих.",
+    "en": "«βαρέσι», as in Claude's transcription; GPT-6's has «βάρεσι»: the acute stands over the ε after ρ, and nothing over the α. «κα» without a hyphen, as in GPT-6's transcription (Claude «κα-»): nothing is printed after the α (contrast κα- with a hyphen in 28.18). Both points decided by both checkers."
+   },
+   {
+    "ref": "Bas. 28.25",
+    "lemma": "Ο",
+    "ru": "«Ο» — так в транскрипции Claude; в транскрипции GPT-6 «Ὁ»; у прописной Ο на скане придыхания нет, решили оба проверяющих.",
+    "en": "«Ο», as in Claude's transcription; GPT-6's has «Ὁ»; the capital Ο has no breathing on the scan, as both checkers decided."
+   },
+   {
+    "ref": "Bas. 29.5",
+    "lemma": "ἧττον | προσωνυμίας",
+    "ru": "«ἧττον» — так в транскрипции Claude; в транскрипции GPT-6 «ἦττον»: под облечённым ударением придыхание в форме c, открытое вправо, т. е. густое. «προσωνυμίας» — так в транскрипции Claude; в транскрипции GPT-6 «προσηγορίας»: на скане ясно читается π-ρ-ο-σ-ω-ν-υ-μ-ί-α-ς, без η, γ и второго ρ. В обоих местах решили оба проверяющих.",
+    "en": "«ἧττον», as in Claude's transcription; GPT-6's has «ἦττον»: under the circumflex the breathing is c-shaped and open to the right, a rough breathing. «προσωνυμίας», as in Claude's transcription; GPT-6's has «προσηγορίας»: the scan clearly reads π-ρ-ο-σ-ω-ν-υ-μ-ί-α-ς, with no η, γ or second ρ. Both points decided by both checkers."
+   },
+   {
+    "ref": "Bas. 29.15",
+    "lemma": "σιεπιμερὴς",
+    "ru": "«σιεπιμερὴς» — так в транскрипции Claude; в транскрипции GPT-6 «σιεπιμοιρὴς». После μ стоит лигатура ερ (как в ἐμπεριέχων, 30.25), отдельных ο и ι нет. Решили оба проверяющих.",
+    "en": "«σιεπιμερὴς», as in Claude's transcription; GPT-6's has «σιεπιμοιρὴς». After μ stands the ερ ligature (as in ἐμπεριέχων, 30.25), with no separate ο or ι. Decided by both checkers."
+   },
+   {
+    "ref": "Bas. 29.18",
+    "lemma": "ἀριθμὸς",
+    "ru": "«ἀριθμὸς» — так в транскрипции Claude; в транскрипции GPT-6 «ἀριθμός». Ударение над конечным ο тонкое и почти вертикальное, с лёгким наклоном вправо, как тяжёлое в следующем πρὸς, тогда как острые в той же строке (πάντως, ἐπίτριτος) наклонены влево. Решили оба проверяющих.",
+    "en": "«ἀριθμὸς», as in Claude's transcription; GPT-6's has «ἀριθμός». The accent over the final ο is thin and nearly vertical, leaning slightly to the right like the grave of the following πρὸς, whereas the acutes in the same line (πάντως, ἐπίτριτος) lean left. Decided by both checkers."
+   },
+   {
+    "ref": "Bas. 29.19",
+    "lemma": "δω",
+    "ru": "«δω» без знака переноса, как в транскрипции GPT-6 (у Claude «δω-»): оба проверяющих видят после ω чистую бумагу.",
+    "en": "«δω» without a hyphen, as in GPT-6's transcription (Claude «δω-»): both checkers see blank paper after the ω."
+   },
+   {
+    "ref": "Bas. 29.20",
+    "lemma": "διπλασιεπιμερὴς",
+    "ru": "«διπλασιεπιμερὴς» — так в транскрипции Claude; в транскрипции GPT-6 «διπλασιεπιμοιρὴς»; после μ та же лигатура ερ, что в 29.15, без ο и ι, решили оба проверяющих.",
+    "en": "«διπλασιεπιμερὴς», as in Claude's transcription; GPT-6's has «διπλασιεπιμοιρὴς»; after μ stands the same ερ ligature as in 29.15, with no ο or ι, as both checkers decided."
+   },
+   {
+    "ref": "Bas. 29.21",
+    "lemma": "μέρη",
+    "ru": "«μέρη» — так в транскрипции Claude; в транскрипции GPT-6 «μόρη». После μ лигатура ερ с острым ударением; петля — это ε лигатуры, а не отдельное ο. Решили оба проверяющих.",
+    "en": "«μέρη», as in Claude's transcription; GPT-6's has «μόρη». After μ comes the ερ ligature with an acute; the loop is the ε of the ligature, not a free-standing ο. Decided by both checkers."
+   },
+   {
+    "ref": "Bas. 29.23",
+    "lemma": "εἰκοστὸς",
+    "ru": "«εἰκοστὸς» — так в транскрипции Claude; в транскрипции GPT-6 «εἰκοσὸς»; после κο стоит s-образная лигатура στ, та же, что в ἑκάστῳ (33.12), решили оба проверяющих.",
+    "en": "«εἰκοστὸς», as in Claude's transcription; GPT-6's has «εἰκοσὸς»; after κο stands the s-shaped στ ligature, the same as in ἑκάστῳ (33.12), as both checkers decided."
+   },
+   {
+    "ref": "Bas. 29.24",
+    "lemma": "οὐ",
+    "ru": "«οὐ» — так в транскрипции Claude; в транскрипции GPT-6 «ἢ». Над последним знаком строки оба проверяющих видят тонкое придыхание и тяжёлое ударение, но сам знак один читает как Н-образное η (как ἢ в 28.22), другой — как лигатуру ου (как οὐ после ὡς в этой же строке). Решил редактор.",
+    "en": "«οὐ», as in Claude's transcription; GPT-6's has «ἢ». Both checkers see a smooth breathing and a grave over the last sign of the line, but one reads the sign as an H-shaped η (as ἢ in 28.22), the other as the ου ligature (as the οὐ after ὡς in the same line). Decided by the editor."
+   },
+   {
+    "ref": "Bas. 30.5",
+    "lemma": "ἣν | τὸν",
+    "ru": "«ἣν» — так в транскрипции Claude; в транскрипции GPT-6 «ὧν»: на скане лигатура ην (как в τὴν, 30.1) с густым придыханием и тяжёлым ударением, облечённого нет; решили оба проверяющих. «τὸν» — так в транскрипции Claude; в транскрипции GPT-6 «τοὺς»: слово набрано одной лигатурой с тяжёлым ударением; один проверяющий читает её как τὸν (ς за ней нет), другой находит, что форма лучше подходит к τοὺς, но уверенно опознать её не смог. Здесь решил редактор.",
+    "en": "«ἣν», as in Claude's transcription; GPT-6's has «ὧν»: the scan shows the ην ligature (as in τὴν, 30.1) with a rough breathing and a grave, and no circumflex; decided by both checkers. «τὸν», as in Claude's transcription; GPT-6's has «τοὺς»: the word is a single ligature sort with a grave; one checker reads it as τὸν (no ς follows), the other finds the shape fits τοὺς better but could not identify it with certainty. This point was decided by the editor."
+   },
+   {
+    "ref": "Bas. 30.10",
+    "lemma": "ρὴς",
+    "ru": "«ρὴς» — так в транскрипции Claude; в транскрипции GPT-6 «ρής»; ударение над η идёт слева сверху вправо вниз, т. е. тяжёлое, решили оба проверяющих.",
+    "en": "«ρὴς», as in Claude's transcription; GPT-6's has «ρής»; the accent over η runs from top left to bottom right, a grave, as both checkers decided."
+   },
+   {
+    "ref": "Bas. 30.11",
+    "lemma": "δείκνηται",
+    "ru": "«δείκνηται» — так напечатано (опечатка) и так в транскрипции Claude; в транскрипции GPT-6 «δείκνυται». После κν стоит Н-образное η, то же, что в ἡμιόλιος этой строки, а не чашеобразное υ. Решили оба проверяющих.",
+    "en": "«δείκνηται», as printed (a misprint) and as in Claude's transcription; GPT-6's has «δείκνυται». After κν stands an H-shaped η, the same as in ἡμιόλιος in this line, not the cup-shaped υ. Decided by both checkers."
+   },
+   {
+    "ref": "Bas. 30.23",
+    "lemma": "μέν",
+    "ru": "«μέν» — так напечатано и так в транскрипции Claude; в транскрипции GPT-6 «μὲν». Ударение над ε идёт справа сверху влево вниз: напечатано острое, хотя ожидалось бы тяжёлое. Решили оба проверяющих.",
+    "en": "«μέν», as printed and as in Claude's transcription; GPT-6's has «μὲν». The accent over the ε runs from top right to bottom left: an acute is printed, although a grave would be expected. Decided by both checkers."
+   },
+   {
+    "ref": "Bas. 30.25",
+    "lemma": "ἐμπεριέχων",
+    "ru": "«ἐμπεριέχων» — так в транскрипции Claude; в транскрипции GPT-6 «ἐμπεριέχον»; после χ на скане ясная ω с двумя петлями и конечное ν, решили оба проверяющих.",
+    "en": "«ἐμπεριέχων», as in Claude's transcription; GPT-6's has «ἐμπεριέχον»; after χ the scan shows a clear double-bowled ω and final ν, as both checkers decided."
+   },
+   {
+    "ref": "Bas. 31.3",
+    "lemma": "ἰσχὺν",
+    "ru": "«ἰσχὺν» — так в транскрипции Claude; в транскрипции GPT-6 «ἰσχύν»; ударение над υ идёт слева сверху вправо вниз, т. е. тяжёлое, решили оба проверяющих.",
+    "en": "«ἰσχὺν», as in Claude's transcription; GPT-6's has «ἰσχύν»; the accent over υ runs from top left to bottom right, a grave, as both checkers decided."
+   },
+   {
+    "ref": "Bas. 31.7",
+    "lemma": "τάς",
+    "ru": "«τάς» — так в транскрипции Claude; в транскрипции GPT-6 «τὰς». Ударение на первом τας клиновидное и идёт справа сверху влево вниз, т. е. острое; тяжёлое в γὰρ той же строки наклонено в другую сторону. Решили оба проверяющих.",
+    "en": "«τάς», as in Claude's transcription; GPT-6's has «τὰς». The accent on the first τας is wedge-shaped and runs from top right to bottom left, an acute; the grave of γὰρ in the same line slants the other way. Decided by both checkers."
+   },
+   {
+    "ref": "Bas. 31.15",
+    "lemma": "τοῖόνδε",
+    "ru": "«τοῖόνδε» — так в транскрипции Claude; в транскрипции GPT-6 «τοῖονδε»; на скане два отдельных знака: облечённое ударение над οι и справа от него острое над вторым ο, решили оба проверяющих.",
+    "en": "«τοῖόνδε», as in Claude's transcription; GPT-6's has «τοῖονδε»; the scan shows two separate marks, a circumflex over οι and, to its right, an acute over the second ο, as both checkers decided."
+   },
+   {
+    "ref": "Bas. 31.22",
+    "lemma": "μαλλον",
+    "ru": "«μαλλον» — так напечатано и так в транскрипции Claude; в транскрипции GPT-6 «μᾶλλον»; над словом на скане никакого ударения нет, решили оба проверяющих.",
+    "en": "«μαλλον», as printed and as in Claude's transcription; GPT-6's has «μᾶλλον»; the scan shows no accent of any kind over the word, as both checkers decided."
+   },
+   {
+    "ref": "Bas. 31.23",
+    "lemma": "ἁρμόνικον",
+    "ru": "«ἁρμόνικον» — так напечатано и так в транскрипции Claude; в транскрипции GPT-6 «ἁρμονικὸν»; острое ударение стоит над ο после μ, над конечным ον ударения нет, решили оба проверяющих.",
+    "en": "«ἁρμόνικον», as printed and as in Claude's transcription; GPT-6's has «ἁρμονικὸν»; the acute stands over the ο after μ and the final ον has no accent, as both checkers decided."
+   },
+   {
+    "ref": "Bas. 31.24",
+    "lemma": "ἀπαρτίζεται",
+    "ru": "«ἀπαρτίζεται» — так в транскрипции Claude; в транскрипции GPT-6 «ἀπερτίζεται»; после π стоит α, соединённая с ρ, а не арочная лигатура ερ, решили оба проверяющих.",
+    "en": "«ἀπαρτίζεται», as in Claude's transcription; GPT-6's has «ἀπερτίζεται»; after π stands an α joined to ρ, not the arched ερ ligature, as both checkers decided."
+   },
+   {
+    "ref": "Bas. 32.2",
+    "lemma": "δυνατὸν | Αλλ’",
+    "ru": "«δυνατὸν» — так в транскрипции Claude; в транскрипции GPT-6 «δυνατόν»: ударение над ο почти вертикальное, со слабым наклоном вправо, как у тяжёлого. «Αλλ’» — так в транскрипции Claude; в транскрипции GPT-6 «Ἀλλ’»: у прописной Α придыхания нет. В обоих местах решили оба проверяющих.",
+    "en": "«δυνατὸν», as in Claude's transcription; GPT-6's has «δυνατόν»: the accent over the ο is nearly vertical with a slight lean to the right, like a grave. «Αλλ’», as in Claude's transcription; GPT-6's has «Ἀλλ’»: the capital Α has no breathing. Both points decided by both checkers."
+   },
+   {
+    "ref": "Bas. 32.5",
+    "lemma": "ἐκτιθε",
+    "ru": "«ἐκτιθε» без знака переноса, как в транскрипции GPT-6 (у Claude «ἐκτιθε-»): оба проверяющих видят после θε чистую бумагу до линейки рамки.",
+    "en": "«ἐκτιθε» without a hyphen, as in GPT-6's transcription (Claude «ἐκτιθε-»): both checkers see blank paper after the θε up to the frame rule."
+   },
+   {
+    "ref": "Bas. 32.18",
+    "lemma": "διατεσσάρων",
+    "ru": "«διατεσσάρων» — так в транскрипции Claude; в транскрипции GPT-6 «διὰ τεσσάρων». Лигатура δια набрана слитно с τεσσάρων (промежуток 3–4 px, как между буквами) и без тяжёлого ударения над α, в отличие от раздельного διὰ τεσσάρων в других местах страницы. Решили оба проверяющих.",
+    "en": "«διατεσσάρων», as in Claude's transcription; GPT-6's has «διὰ τεσσάρων». The δια ligature is set solid with τεσσάρων (a gap of 3-4 px, as between letters) and has no grave over the α, unlike the spaced διὰ τεσσάρων elsewhere on the page. Decided by both checkers."
+   },
+   {
+    "ref": "Bas. 33.12",
+    "lemma": "παιήων | ὑμεραῖος",
+    "ru": "«παιήων» — так в транскрипции Claude; в транскрипции GPT-6 «παιῶν»: после ι стоит η с острым ударением, затем ω и ν. «ὑμεραῖος» — так напечатано (опечатка вместо «ὑμέναιος») и так в транскрипции Claude; в транскрипции GPT-6 «ὑμέναιος»: после ὑμ лигатура ερ, затем αι с облечённым ударением; ν нет, над ε ударения нет. В обоих местах решили оба проверяющих.",
+    "en": "«παιήων», as in Claude's transcription; GPT-6's has «παιῶν»: after ι stands η with an acute, then ω and ν. «ὑμεραῖος», as printed (a misprint for «ὑμέναιος») and as in Claude's transcription; GPT-6's has «ὑμέναιος»: after ὑμ comes the ερ ligature, then αι with a circumflex, with no ν and no accent on the ε. Both points decided by both checkers."
+   },
+   {
+    "ref": "Bas. 33.15",
+    "lemma": "χολαιοτέραις",
+    "ru": "«χολαιοτέραις» — так напечатано; в транскрипциях Claude и GPT-6 «σχολαιοτέραις». На скане ταῖς кончается конечной ς, за ней обычный пробел, и следующее слово начинается прямо с χ, σ перед ним нет. Решили оба проверяющих.",
+    "en": "«χολαιοτέραις», as printed; the transcriptions of Claude and GPT-6 have «σχολαιοτέραις». On the scan ταῖς ends in a final ς followed by an ordinary word space, and the next word begins directly with χ, with no σ before it. Decided by both checkers."
+   },
+   {
+    "ref": "Bas. 33.18",
+    "lemma": "μύρια",
+    "ru": "«μύρια» — так в транскрипции Claude; в транскрипции GPT-6 «μυρία»; острое ударение стоит над υ, ι ударения не несёт, решили оба проверяющих.",
+    "en": "«μύρια», as in Claude's transcription; GPT-6's has «μυρία»; the acute stands over the υ and the ι carries none, as both checkers decided."
+   },
+   {
+    "ref": "Bas. 33.21",
+    "lemma": "Μουσικῆς:",
+    "ru": "«Μουσικῆς:» с двоеточием — так в транскрипции Claude; в транскрипции GPT-6 «Μουσικῆς.». После ς две точки одна над другой (верхняя меньше, нижняя на линии строки), а не одиночная ромбовидная точка, как в других местах страницы. Решили оба проверяющих.",
+    "en": "«Μουσικῆς:» with a colon, as in Claude's transcription; GPT-6's has «Μουσικῆς.». After ς there are two dots one above the other (the upper one smaller, the lower on the baseline), not the single diamond-shaped point used elsewhere on the page. Decided by both checkers."
+   }
+  ],
+  "corrections": [
+   {
+    "ref": "Bas. 25.17",
+    "what": "RU: in «унциальная М» the letter was Cyrillic М (U+041C); replaced with Greek Μ (U+039C), as in the English text and the record."
+   },
+   {
+    "ref": "Bas. 30.5",
+    "what": "Second point (τὸν/τοὺς): «ς за ней нет» / «no ς after it» was given as an undisputed fact, but only the checker who reads τὸν reports it. The other checker, who leans to τοὺς, does not. Moved it into that checker's reading in both languages: «один проверяющий читает её как τὸν (ς за ней нет)» / «one checker reads it as τὸν (no ς follows)»."
+   }
+  ],
+  "flags": [
+   {
+    "ref": "Bas. 33.15",
+    "problem": "The claude and gpt lines are identical at this point (both «σχολαιοτέραις»), yet the difference lists reading 2 «χολαιοτέραις», which neither transcription line in the record contains, and that reading is adopted. The record does not show where «χολαιοτέραις» came from. The footnote follows the adopted line and says that both transcriptions read «σχολαιοτέραις»."
+   },
+   {
+    "ref": "Bas. 29.24",
+    "problem": "Both checkers report a smooth breathing and a grave over the disputed sign. A reads it as ἢ ('a smooth breathing plus a grave above it'); B reads the ου ligature, which 'carries an ↄ-shaped smooth breathing and a grave'. The adopted «οὐ» has no grave. Check whether the printed grave should be kept («οὒ») or is dropped by convention."
+   },
+   {
+    "ref": "Bas. 24.18",
+    "problem": "Difference 2 repeats difference 1 with a truncated reading 2 «εριοχή.» (the π is missing). This looks like a segmentation artifact and does not affect the adopted text. The footnote covers the word once."
+   },
+   {
+    "ref": "Bas. 25.12",
+    "problem": "Difference 1 gives reading 1 as «ἑκκαιδεκαχόρδιον» without the comma, and difference 2 repeats the same place with the comma. This looks like a duplicate or artifact and does not affect the adopted text. The footnote covers the word once."
+   }
+  ]
+ },
+ {
+  "chunk": "h1",
+  "footnotes": [
+   {
+    "ref": "H 64r.2",
+    "lemma": "παλαιοὶ,",
+    "ru": "Принято «παλαιοὶ,»; транскрипция Claude — «παλαιοί,», транскрипция GPT-6 — «παλαιοὶ.». На скане над -οι тяжёлое ударение (штрих сверху слева вниз направо), а после ι на линии строки запятая (головка справа вверху, хвост загибается влево вниз), не круглая точка, так что принятое чтение не совпадает ни с одной из транскрипций. Решили оба проверяющих.",
+    "en": "Adopted «παλαιοὶ,»; Claude's transcription «παλαιοί,», GPT-6's «παλαιοὶ.». The scan shows a grave over -οι (a stroke from upper left to lower right) and after ι a comma on the baseline (head at upper right, tail curling down to the left), not a round point, so the adopted reading agrees with neither transcription. Decided by both checkers."
+   },
+   {
+    "ref": "H 64r.4",
+    "lemma": "ἀναλογίας | οὐδέ | τι",
+    "ru": "Принято «ἀναλογίας», «οὐδέ», «τι» (так в транскрипции Claude; в транскрипции GPT-6 — «ὁμολογίας», «οὐδὲ», «τί»). На скане первая буква — открытое α с тонким придыханием, за ним ν в форме μ, круглого ο нет; над ε в οὐδε острое ударение; над τι ударения нет. Решили оба проверяющих.",
+    "en": "Adopted «ἀναλογίας», «οὐδέ», «τι» (as in Claude's transcription; GPT-6's has «ὁμολογίας», «οὐδὲ», «τί»). The scan shows an open α with smooth breathing followed by the μ-shaped ν, with no round ο; an acute over the ε of οὐδε; and no accent over τι. Decided by both checkers."
+   },
+   {
+    "ref": "H 64r.5",
+    "lemma": "νομένων,",
+    "ru": "Принято «νομένων,» (так в транскрипции Claude; в транскрипции GPT-6 — «νομένων.»). На скане после ν на линии строки запятая: толстая головка справа вверху, хвост уходит влево вниз. Решили оба проверяющих.",
+    "en": "Adopted «νομένων,» (as in Claude's transcription; GPT-6's has «νομένων.»). The scan shows a comma on the baseline after ν, with a thick head at upper right and a tail turning down to the left. Decided by both checkers."
+   },
+   {
+    "ref": "H 64r.6",
+    "lemma": "γινόμενον,",
+    "ru": "Принято «γινόμενον,» (так в транскрипции Claude; в транскрипции GPT-6 — «γινόμενον.»). На скане после ν низко стоит небольшой знак с головкой справа и коротким хвостом влево вниз — та же форма, что у запятых в строках 2 и 5, только меньше, а не круглая точка, как после ὄντων в строке 3. Решили оба проверяющих.",
+    "en": "Adopted «γινόμενον,» (as in Claude's transcription; GPT-6's has «γινόμενον.»). The scan shows a small low mark after ν with its head at right and a short tail to the lower left, the same form as the commas on lines 2 and 5 though smaller, not the round point after ὄντων on line 3. Decided by both checkers."
+   },
+   {
+    "ref": "H 64r.7",
+    "lemma": "κἂν",
+    "ru": "Принято «κἂν» (так в транскрипции Claude; в транскрипции GPT-6 — «κἄν»). На скане над α точка придыхания (или корониса) и отдельный штрих сверху слева вниз направо, т. е. тяжёлое ударение. Решили оба проверяющих.",
+    "en": "Adopted «κἂν» (as in Claude's transcription; GPT-6's has «κἄν»). Over α the scan shows a breathing (or coronis) dot and a separate stroke descending from upper left to lower right, i.e. a grave. Decided by both checkers."
+   },
+   {
+    "ref": "H 64r.8",
+    "lemma": "κἂν | κἂν | ληπτὸν. κἂν",
+    "ru": "Принято трижды «κἂν» и «ληπτὸν.» (так в транскрипции Claude; в транскрипции GPT-6 — «κἄν» и «ληπτὸν·»). На скане во всех трёх κἂν над α тонкое придыхание и справа от него тяжёлое ударение; точка после ληπτὸν стоит низко, примерно на трети высоты строчных букв, тогда как точка после φυσικόν в той же строке — вверху. Решили оба проверяющих.",
+    "en": "Adopted «κἂν» three times and «ληπτὸν.» (as in Claude's transcription; GPT-6's has «κἄν» and «ληπτὸν·»). In all three κἂν the scan shows a smooth breathing over α with a grave to its right; the point after ληπτὸν sits low, at about a third of the x-height, whereas the point after φυσικόν in the same line is high. Decided by both checkers."
+   },
+   {
+    "ref": "H 64r.10",
+    "lemma": "μουσικὴ | ἀνα",
+    "ru": "Принято «μουσικὴ» и «ἀνα» (так в транскрипции Claude; в транскрипции GPT-6 — «μουσική» и «ὁμο»). На скане над κη тяжёлое ударение (штрих сверху слева вниз направо); после καὶ — открытое α с тонким придыханием, ν в форме μ и снова α, закрытого ο нет (как в ἀναλογίας, строка 4). Решили оба проверяющих.",
+    "en": "Adopted «μουσικὴ» and «ἀνα» (as in Claude's transcription; GPT-6's has «μουσική» and «ὁμο»). The scan shows a grave over κη (a stroke from upper left to lower right), and after καὶ an open α with smooth breathing, the μ-shaped ν and α again, with no closed ο (as in ἀναλογίας, line 4). Decided by both checkers."
+   },
+   {
+    "ref": "H 64r.11",
+    "lemma": "λογία. | οἷα",
+    "ru": "Принято «λογία.» и «οἷα»; транскрипция Claude — «λογία.» и «οἷον», транскрипция GPT-6 — «λογία·» и «οἷα». На скане точка после λογία стоит низко, около трети высоты строчных букв; в οἷα за ο и ι с придыханием и облечённым ударением следует α, а за ним сразу τοῦ, ν нет. Решили оба проверяющих.",
+    "en": "Adopted «λογία.» and «οἷα»; Claude's transcription «λογία.» and «οἷον», GPT-6's «λογία·» and «οἷα». On the scan the point after λογία sits low, at about a third of the x-height; in οἷα, ο and ι with breathing and circumflex are followed by α and then at once by τοῦ, with no ν. Decided by both checkers."
+   },
+   {
+    "ref": "H 64r.14",
+    "lemma": "ὀνομάσοι",
+    "ru": "Принято «ὀνομάσοι» (так в транскрипции Claude; в транскрипции GPT-6 — «ὀνομάσα̣ι»). На скане после σ узкий замкнутый овал без мачты, т. е. ο, а не α (ср. α в -μά- того же слова). Решили оба проверяющих.",
+    "en": "Adopted «ὀνομάσοι» (as in Claude's transcription; GPT-6's has «ὀνομάσα̣ι»). The scan shows after σ a narrow closed oval with no stem, i.e. ο, not α (compare the α of -μά- in the same word). Decided by both checkers."
+   },
+   {
+    "ref": "H 64r.16",
+    "lemma": "εὖ τε (καὶ)",
+    "ru": "Принято «εὖ τε (καὶ)» (так в транскрипции GPT-6; в транскрипции Claude — «αὖτὲξ[?]»). На скане первый знак — лигатура εὐ (петелька внизу слева, высокая диагональ вправо вверх, чашечка υ) с придыханием и облечённым ударением; τε отделено пробелом и без ударения; далее не ξ, а S-образное сокращение καί с тяжёлым ударением над ним, здесь раскрытое. Решили оба проверяющих.",
+    "en": "Adopted «εὖ τε (καὶ)» (as in GPT-6's transcription; Claude's has «αὖτὲξ[?]»). The scan shows the εὐ ligature (small loop at lower left, tall diagonal rising to the right, υ cup) with breathing and circumflex, then a separate unaccented τε, then not ξ but the S-shaped καί compendium with a grave above it, expanded here. Decided by both checkers."
+   },
+   {
+    "ref": "H 64r.17",
+    "lemma": "σούτου",
+    "ru": "Принято «σούτου» (так в транскрипции Claude; в транскрипции GPT-6 — «σοῦτον»). На скане над υ острое, а не облечённое ударение; слово кончается на ου, ν после него нет. Решили оба проверяющих.",
+    "en": "Adopted «σούτου» (as in Claude's transcription; GPT-6's has «σοῦτον»). The scan shows an acute, not a circumflex, over υ, and the word ends in ου with no ν after it. Decided by both checkers."
+   },
+   {
+    "ref": "H 64r.20",
+    "lemma": "τῆ",
+    "ru": "Принято «τῆ» (так в транскрипции Claude; в транскрипции GPT-6 — «τῆι»). На скане строка кончается на η с облечённым ударением, приписной йоты нет (так написано; в более раннем τῆι той же строки ι есть). Решили оба проверяющих.",
+    "en": "Adopted «τῆ» (as in Claude's transcription; GPT-6's has «τῆι»). The scan shows the line ending in η with circumflex and no adscript iota (so written; the earlier τῆι in the same line has its ι). Decided by both checkers."
+   },
+   {
+    "ref": "H 64r.21",
+    "lemma": "χαριζο",
+    "ru": "Принято «χαριζο» (так в транскрипции GPT-6; в транскрипции Claude — «χαρίζο»). На скане над χαριζο ударения нет, только мелкие пятна на пергамене; ударение слова написано в следующей строке, над ε в μένης. Решили оба проверяющих.",
+    "en": "Adopted «χαριζο» (as in GPT-6's transcription; Claude's has «χαρίζο»). The scan shows no accent over χαριζο, only specks in the parchment; the word's accent is written on the next line, over the ε of μένης. Decided by both checkers."
+   },
+   {
+    "ref": "H 64r.22",
+    "lemma": "μένης, | μουσικῆς·",
+    "ru": "Принято «μένης,» и «μουσικῆς·» (так в транскрипции Claude; в транскрипции GPT-6 — «μένης.» и «μουσικῆς.»). На скане после μένης на линии строки запятая (головка справа вверху, хвост влево вниз), а после μουσικῆς круглая точка на уровне верха букв, т. е. верхняя точка. Решили оба проверяющих.",
+    "en": "Adopted «μένης,» and «μουσικῆς·» (as in Claude's transcription; GPT-6's has «μένης.» and «μουσικῆς.»). The scan shows a comma on the baseline after μένης (head at upper right, tail to the lower left) and, after μουσικῆς, a round point level with the letter tops, i.e. a high point. Decided by both checkers."
+   },
+   {
+    "ref": "H 64v.1",
+    "lemma": "μιᾶ | τῆ",
+    "ru": "Принято «μιᾶ» и «τῆ» (так в транскрипции Claude; в транскрипции GPT-6 — «μιὰ» и «τῆι»). На скане над α в μια дугообразное облечённое ударение, как над τῆς в той же строке, а не тяжёлое; в конце строки за η с облечённым ударением сразу идёт ἀ, йоты нет (так написано). Решили оба проверяющих.",
+    "en": "Adopted «μιᾶ» and «τῆ» (as in Claude's transcription; GPT-6's has «μιὰ» and «τῆι»). The scan shows an arched circumflex over the α of μια, like that on τῆς in the same line, not a grave; at the line end η with circumflex is followed directly by ἀ, with no iota (so written). Decided by both checkers."
+   },
+   {
+    "ref": "H 64v.2",
+    "lemma": "διαληψόμ(ε)θ(α)·",
+    "ru": "Принято «διαληψόμ(ε)θ(α)·» (так в транскрипции Claude; в транскрипции GPT-6 — «διαληψόμεθ(α)·»). На скане после ψό написано μ, над ним θ с продлённой перекладиной (знак α), под ним небольшой S-образный штрих; буквы ε нигде нет, поэтому ε восполнено в скобках. Решили оба проверяющих.",
+    "en": "Adopted «διαληψόμ(ε)θ(α)·» (as in Claude's transcription; GPT-6's has «διαληψόμεθ(α)·»). The scan shows μ after ψό, a θ above it with an extended crossbar (the α sign) and a small S-shaped stroke below; no ε is written as a letter, so it is supplied in brackets. Decided by both checkers."
+   },
+   {
+    "ref": "H 64v.3",
+    "lemma": "ἐστὶ. | ἐναρμόνι",
+    "ru": "Принято «ἐστὶ.» и «ἐναρμόνι»; транскрипция Claude — «ἐστὶ.» и «ἐν ἁρμονί», транскрипция GPT-6 — «ἐστί.» и «ἐναρμόνι». На скане над конечным ι в ἐστι тяжёлое ударение; в ἐναρμόνι придыхание стоит только над ε, над α нет ни придыхания, ни ударения, единственное ударение — острое над ό, поэтому слово одно. Решили оба проверяющих.",
+    "en": "Adopted «ἐστὶ.» and «ἐναρμόνι»; Claude's transcription «ἐστὶ.» and «ἐν ἁρμονί», GPT-6's «ἐστί.» and «ἐναρμόνι». The scan shows a grave over the final ι of ἐστι; in ἐναρμόνι a breathing stands only over ε, with neither breathing nor accent over α, and the only accent is an acute over ό, so it is one word. Decided by both checkers."
+   },
+   {
+    "ref": "H 64v.7",
+    "lemma": "ἀδιάστατο(ς)",
+    "ru": "Принято «ἀδιάστατο(ς)» (так в транскрипции Claude; в транскрипции GPT-6 — «ἀδιάστατ(ος)»). На скане над концом τ написано маленькое замкнутое надстрочное ο, так что восполняется только ς; косой штрих выше и правее один проверяющий относит к строке 6. Решили оба проверяющих.",
+    "en": "Adopted «ἀδιάστατο(ς)» (as in Claude's transcription; GPT-6's has «ἀδιάστατ(ος)»). The scan shows a small closed superscript ο written above the end of τ, so only ς is supplied; one checker assigns an oblique stroke higher up to line 6. Decided by both checkers."
+   },
+   {
+    "ref": "H 64v.8",
+    "lemma": "ἐστιν. | στϊγμή·",
+    "ru": "Принято «ἐστιν.» и «στϊγμή·»; транскрипция Claude — «ἐστιν·» и «στϊγμή·», транскрипция GPT-6 — «ἐστιν.» и «στιγμή·». Точка после ἐστιν стоит ниже верха букв, ближе к середине их высоты; оба проверяющих склонились к средней точке, один назвал случай пограничным, и решил ассистент редактора (по поручению редактора). Над ι в στιγμή отчётливо видны две точки, трема (так написано; решили оба проверяющих).",
+    "en": "Adopted «ἐστιν.» and «στϊγμή·»; Claude's transcription «ἐστιν·» and «στϊγμή·», GPT-6's «ἐστιν.» and «στιγμή·». The point after ἐστιν sits below the letter tops, nearer mid-height; both checkers leaned to a middle point, one calling it borderline, and the editor's assistant decided at the editor's request. Two distinct dots (a diaeresis) stand over the ι of στιγμή (so written; decided by both checkers)."
+   },
+   {
+    "ref": "H 64v.9",
+    "lemma": "λέγεται",
+    "ru": "Принято «λέγεται» (так в транскрипции GPT-6; в транскрипции Claude — «γ̣ί̣νεται»). На скане первая буква — λ этого писца (длинный штрих вниз влево), затем ε с острым ударением, γ в виде V, уходящего под строку, лигатура ετ и αι; ни ι, ни ν нет. Решили оба проверяющих.",
+    "en": "Adopted «λέγεται» (as in GPT-6's transcription; Claude's has «γ̣ί̣νεται»). The scan shows this scribe's λ (a long stroke descending to the lower left), ε with acute, γ as a V dropping below the line, the ετ ligature and αι, with no ι or ν. Decided by both checkers."
+   },
+   {
+    "ref": "H 64v.11",
+    "lemma": "ἐκφωνηθείη,",
+    "ru": "Принято «ἐκφωνηθείη,» (так в транскрипции GPT-6; в транскрипции Claude — «ἐκφωνηθείη.»). На скане после η тёмная головка на середине высоты строки, от которой бледными выцветшими чернилами идёт хвост влево вниз под линию строки, — форма запятой. Решили оба проверяющих.",
+    "en": "Adopted «ἐκφωνηθείη,» (as in GPT-6's transcription; Claude's has «ἐκφωνηθείη.»). The scan shows a dark head at mid-height after η with a paler, faded tail running down to the left below the baseline, giving the shape of a comma. Decided by both checkers."
+   },
+   {
+    "ref": "H 64v.12",
+    "lemma": "χής ἐστι | ἐναρμόνιος·",
+    "ru": "Принято «χής ἐστι» и «ἐναρμόνιος·»; транскрипция Claude — «χής ἐστι» и «ἐναρμόνιος.», транскрипция GPT-6 — «χὴς ἐστὶ» и «ἐναρμόνιος·». Над η в χης острое ударение, над конечным ι в ἐστι ударения нет (решили оба проверяющих). После ἐναρμόνιος видны два выцветших пятна — округлое над верхом букв и неровное на линии строки (пятно на пергамене или остаток двоеточия); один проверяющий с низкой уверенностью счёл точкой верхнее, другой оставил вопрос открытым, но при вынужденном выборе склонялся к верхней точке; верхнюю точку принял ассистент редактора (по поручению редактора).",
+    "en": "Adopted «χής ἐστι» and «ἐναρμόνιος·»; Claude's transcription «χής ἐστι» and «ἐναρμόνιος.», GPT-6's «χὴς ἐστὶ» and «ἐναρμόνιος·». There is an acute over the η of χης and no accent over the final ι of ἐστι (decided by both checkers). After ἐναρμόνιος there are two faded marks, a round one above the letter tops and an irregular one on the baseline (a stain or the remains of a colon); one checker, with low confidence, took the upper one as the point, the other left it open but, if forced to choose, leaned to the high point; the editor's assistant adopted the high point at the editor's request."
+   },
+   {
+    "ref": "H 64v.13",
+    "lemma": "ὅλως",
+    "ru": "Принято «ὅλως» (так в транскрипции GPT-6; в транскрипции Claude — «ὀρθώς»). На скане четыре буквы: ο с густым придыханием и острым ударением, λ в виде одного штриха, наклонённого влево вниз (как в ἀλλὰ и ἄλλως той же строки), ω и ς; ни ρ, ни θ нет. Решили оба проверяющих.",
+    "en": "Adopted «ὅλως» (as in GPT-6's transcription; Claude's has «ὀρθώς»). The scan shows four letters: ο with rough breathing and acute, λ as a single stroke slanting down to the left (as in ἀλλὰ and ἄλλως in the same line), ω and ς, with no ρ or θ. Decided by both checkers."
+   },
+   {
+    "ref": "H 64v.15",
+    "lemma": "εὔχρηστος | προσηγορίαι",
+    "ru": "Принято «εὔχρηστος» и «προσηγορίαι» (так в транскрипции GPT-6; в транскрипции Claude — «ὤν χρηστος» и «προσηγορία»). На скане после κ лигатура εὐ с придыханием и острым ударением над υ, слитно с χρηστος, а не ω; после ρία отдельный вертикальный штрих ι. Решили оба проверяющих.",
+    "en": "Adopted «εὔχρηστος» and «προσηγορίαι» (as in GPT-6's transcription; Claude's has «ὤν χρηστος» and «προσηγορία»). The scan shows after κ the εὐ ligature with breathing and an acute over υ, written continuously with χρηστος, not ω; after ρία comes a separate upright stroke, ι. Decided by both checkers."
+   },
+   {
+    "ref": "H 64v.17",
+    "lemma": "δω",
+    "ru": "Принято «δω» (так в транскрипции GPT-6; в транскрипции Claude — «δου»). На скане после δ в форме Δ две замкнутые петли рядом, т. е. ω, а не ο и υ. Решили оба проверяющих.",
+    "en": "Adopted «δω» (as in GPT-6's transcription; Claude's has «δου»). The scan shows after the Δ-shaped δ two closed loops side by side, i.e. ω, not ο and υ. Decided by both checkers."
+   },
+   {
+    "ref": "H 64v.18",
+    "lemma": "προσλαμβανόμενος.",
+    "ru": "Принято «προσλαμβανόμενος.» (так в транскрипции Claude; в транскрипции GPT-6 — «προσλαμβανόμενος·»). На скане после лунарной сигмы небольшая точка на линии строки; знак выше, перед υ, — густое придыхание ὑπάτη, а не пунктуация. Решили оба проверяющих.",
+    "en": "Adopted «προσλαμβανόμενος.» (as in Claude's transcription; GPT-6's has «προσλαμβανόμενος·»). The scan shows a small point on the baseline after the lunate sigma; the mark higher up, before υ, is the rough breathing of ὑπάτη, not punctuation. Decided by both checkers."
+   },
+   {
+    "ref": "H 64v.20",
+    "lemma": "μόν(ος) [?]",
+    "ru": "Принято «μόν(ος) [?]»; транскрипция Claude — «μόν(...)[?]», транскрипция GPT-6 — «μόν(ος) [?]·». Над ν написан волнистый надстрочный знак, больше всего похожий на сокращение -ος (один проверяющий не исключает -η(ν)); редактор решил раскрыть его как (ος) с пометой сомнения. После слова до края пергамен чист, точки нет (решили оба проверяющих).",
+    "en": "Adopted «μόν(ος) [?]»; Claude's transcription «μόν(...)[?]», GPT-6's «μόν(ος) [?]·». Over ν there is a wavy superscript sign most like the -ος compendium (one checker does not rule out -η(ν)); the editor decided to expand it as (ος) with a mark of doubt. After the word the parchment is blank to the edge, with no point (decided by both checkers)."
+   },
+   {
+    "ref": "H 65r.3",
+    "lemma": "πεντεκαιδεκαχόρδω",
+    "ru": "Принято «πεντεκαιδεκαχόρδω» (так в транскрипции Claude; в транскрипции GPT-6 — «πέντε καὶ δεκαχόρδω»). На скане над πεντε, και (написано буквами, не знаком καί) и δεκα ударений нет, единственное ударение — острое над ό в χόρδω, интервалов нет; поскольку на первых элементах ударение не написано, группа пишется слитно. Решили оба проверяющих.",
+    "en": "Adopted «πεντεκαιδεκαχόρδω» (as in Claude's transcription; GPT-6's has «πέντε καὶ δεκαχόρδω»). The scan shows no accent over πεντε, και (written in letters, not with the καί sign) or δεκα, the only accent being the acute on the ό of χόρδω, and no gaps; since no accent is written on the first elements, the group is written as one word. Decided by both checkers."
+   },
+   {
+    "ref": "H 65r.7",
+    "lemma": "ἀναφαίνεται,",
+    "ru": "Принято «ἀναφαίνεται,» (так в транскрипции Claude; в транскрипции GPT-6 — «ἀναφαίνεται.»). На скане после αι, сразу за вертикальной линовкой, на линии строки знак с округлой головкой справа вверху и коротким хвостом влево вниз — запятая. Решили оба проверяющих.",
+    "en": "Adopted «ἀναφαίνεται,» (as in Claude's transcription; GPT-6's has «ἀναφαίνεται.»). The scan shows after αι, just beyond the vertical ruling, a mark on the baseline with a rounded head at upper right and a short tail to the lower left, i.e. a comma. Decided by both checkers."
+   },
+   {
+    "ref": "H 65r.8",
+    "lemma": "πεντε",
+    "ru": "Принято «πεντε» (так в транскрипции Claude; в транскрипции GPT-6 — «πέντε»). На скане над словом ударения нет: росчерк в конце принадлежит последней букве; слово продолжается в следующей строке как καιδέκατον. Решили оба проверяющих.",
+    "en": "Adopted «πεντε» (as in Claude's transcription; GPT-6's has «πέντε»). The scan shows no accent over the word: the flourish at the end belongs to the last letter; the word continues on the next line as καιδέκατον. Decided by both checkers."
+   },
+   {
+    "ref": "H 65r.9",
+    "lemma": "καιδέκατον | τὰ",
+    "ru": "Принято «καιδέκατον» и «τὰ»; транскрипция Claude — «καιδέκατον» и «ταῦτα», транскрипция GPT-6 — «καὶ δέκατον» и «τὰ». На скане και написано слитно с δέκατον (конец πεντε|καιδέκατον) без тяжёлого ударения, единственное ударение — острое над δέ; после καὶ идут τ и α с тяжёлым ударением, букв υτα нет. Решили оба проверяющих.",
+    "en": "Adopted «καιδέκατον» and «τὰ»; Claude's transcription «καιδέκατον» and «ταῦτα», GPT-6's «καὶ δέκατον» and «τὰ». The scan shows και written continuously with δέκατον (the end of πεντε|καιδέκατον) with no grave, the only accent being the acute on δέ; after καὶ come τ and α with a grave, with no υτα. Decided by both checkers."
+   },
+   {
+    "ref": "H 65r.11",
+    "lemma": "δίεσις.",
+    "ru": "Принято «δίεσις.» (так в транскрипции Claude; в транскрипции GPT-6 — «δίεσις·»). На скане точка после σ стоит на середине или чуть ниже середины высоты строчных букв, намного ниже верха, где на этой странице стоят верхние точки. Решили оба проверяющих.",
+    "en": "Adopted «δίεσις.» (as in Claude's transcription; GPT-6's has «δίεσις·»). The scan shows the point after σ at or a little below mid-height, well below the letter tops where the high points on this page stand. Decided by both checkers."
+   },
+   {
+    "ref": "H 65r.12",
+    "lemma": "ον. | παραύξησιν",
+    "ru": "Принято «ον.» и «παραύξησιν»; транскрипция Claude — «ον·» и «παραύξησιν», транскрипция GPT-6 — «ον.» и «παράυξησιν». Точка после ον стоит примерно на середине высоты, ниже верха букв; оба проверяющих склонились к средней точке, один считал случай пограничным, и решил ассистент редактора (по поручению редактора). Острое ударение в лигатуре αυ стоит правее мачты α, над левым плечом υ (решили оба проверяющих).",
+    "en": "Adopted «ον.» and «παραύξησιν»; Claude's transcription «ον·» and «παραύξησιν», GPT-6's «ον.» and «παράυξησιν». The point after ον sits at about mid-height, below the letter tops; both checkers leaned to a middle point, one calling it borderline, and the editor's assistant decided at the editor's request. In the αυ ligature the acute stands right of the α's stem, over the left arm of υ (decided by both checkers)."
+   },
+   {
+    "ref": "H 65r.13",
+    "lemma": "διπλοῦν",
+    "ru": "Принято «διπλοῦν» (так в транскрипции Claude; в транскрипции GPT-6 — «διπλῶν»). На скане после πλ круглое ο с облечённым ударением, затем υ и ν, а не замкнутое двухпетельное ω, как в соседнем ἔχων. Решили оба проверяющих.",
+    "en": "Adopted «διπλοῦν» (as in Claude's transcription; GPT-6's has «διπλῶν»). The scan shows after πλ a round ο with circumflex, then υ and ν, not the closed double-loop ω seen in the neighbouring ἔχων. Decided by both checkers."
+   },
+   {
+    "ref": "H 65r.14",
+    "lemma": "διϊστάμενο(ς)",
+    "ru": "Принято «διϊστάμενο(ς)»; транскрипция Claude — «διϊστάμενο(ν)», транскрипция GPT-6 — «διϊστάμεν(ος)». На скане над конечным ν (в форме μ) написано маленькое надстрочное ο и никакого другого знака, так что ο написано, а восполнено лишь окончание; оба проверяющих по смыслу (ὁ τόνος … ἔχων) восполняют -ς, а не -ν, и принятое чтение не совпадает ни с одной из транскрипций. Решили оба проверяющих.",
+    "en": "Adopted «διϊστάμενο(ς)»; Claude's transcription «διϊστάμενο(ν)», GPT-6's «διϊστάμεν(ος)». The scan shows a small superscript ο over the final (μ-shaped) ν and no other sign, so ο is written and only the ending is supplied; both checkers supply -ς rather than -ν from the sense (ὁ τόνος … ἔχων), so the adopted reading agrees with neither transcription. Decided by both checkers."
+   },
+   {
+    "ref": "H 65r.15",
+    "lemma": "λόγον.",
+    "ru": "Принято «λόγον.» (так в транскрипции GPT-6; в транскрипции Claude — «λόγον·»). На скане точка после ν стоит в нижней половине строки, около трети высоты строчных букв, тогда как верхняя точка после γδοον в следующей строке — у самого верха. Решили оба проверяющих.",
+    "en": "Adopted «λόγον.» (as in GPT-6's transcription; Claude's has «λόγον·»). The scan shows the point after ν in the lower half of the line, at about a third of the x-height, whereas the high point after γδοον on the next line is at the very top. Decided by both checkers."
+   },
+   {
+    "ref": "H 65r.16",
+    "lemma": "ἡμιτόνιον.",
+    "ru": "Принято «ἡμιτόνιον.» (так в транскрипции GPT-6; в транскрипции Claude — «ἡμιτόνιον·»). На скане после ἡμιτόνιον низко, около трети высоты строчных букв, стоит плоская точка без хвоста, тогда как точка после γδοον в той же строке — вверху. Решили оба проверяющих.",
+    "en": "Adopted «ἡμιτόνιον.» (as in GPT-6's transcription; Claude's has «ἡμιτόνιον·»). The scan shows a small flat point without a tail low in the line after ἡμιτόνιον, at about a third of the x-height, whereas the point after γδοον in the same line is at the top. Decided by both checkers."
+   },
+   {
+    "ref": "H 65r.17",
+    "lemma": "δίεσιν,",
+    "ru": "Принято «δίεσιν,» (так в транскрипции Claude; в транскрипции GPT-6 — «δίεσιν.»). На скане после ν на линии строки знак с головкой справа вверху и коротким хвостом влево вниз — запятая, в отличие от плоской точки после ἡμιτόνιον в строке 16. Решили оба проверяющих.",
+    "en": "Adopted «δίεσιν,» (as in Claude's transcription; GPT-6's has «δίεσιν.»). The scan shows a mark on the baseline after ν with its head at upper right and a short tail to the lower left, i.e. a comma, unlike the flat point after ἡμιτόνιον on line 16. Decided by both checkers."
+   },
+   {
+    "ref": "H 65r.19",
+    "lemma": "τοὺς | ἀριθμοὺς | ὕλη | βλεπομ(ένη)",
+    "ru": "Принято «τοὺς ἀριθμοὺς», «ὕλη», «βλεπομ(ένη)»; транскрипция Claude — «τοῖς ἀριθμοῖς», «ὕληι», «γε που[?]», транскрипция GPT-6 — «τοὺς ἀριθμούς», «ὕλη», «βλεπομ(ένη)». Над τους и ἀριθμους оба проверяющих видят прямое тяжёлое ударение, но один читает после ο одиночное ι, другой — лигатуру υσ; начало последнего слова один читает как γε, другой как βλε, в конце оба видят μ с надстрочным η; эти места решил редактор («ἀριθμοὺς» с тяжёлым ударением не совпадает ни с одной из транскрипций). После η в ὕλη отдельного ι нет (решили оба проверяющих).",
+    "en": "Adopted «τοὺς ἀριθμοὺς», «ὕλη», «βλεπομ(ένη)»; Claude's transcription «τοῖς ἀριθμοῖς», «ὕληι», «γε που[?]», GPT-6's «τοὺς ἀριθμούς», «ὕλη», «βλεπομ(ένη)». Over τους and ἀριθμους both checkers see a straight grave, but one reads a single ι after ο and the other the υσ ligature; one reads the start of the last word as γε, the other as βλε, and both see μ with a superscript η at its end; these places were decided by the editor («ἀριθμοὺς» with a grave agrees with neither transcription). There is no separate ι after the η of ὕλη (decided by both checkers)."
+   },
+   {
+    "ref": "H 65r.20",
+    "lemma": "μονὰς",
+    "ru": "Принято «μονὰς» (так в транскрипции Claude; в транскрипции GPT-6 — «μονάς»). На скане над α тяжёлое ударение (штрих сверху слева вниз направо). Решили оба проверяющих.",
+    "en": "Adopted «μονὰς» (as in Claude's transcription; GPT-6's has «μονάς»). The scan shows a grave over α (a stroke from upper left to lower right). Decided by both checkers."
+   },
+   {
+    "ref": "H 65r.21",
+    "lemma": "μο̣ι̣ρὰν,",
+    "ru": "Принято «μο̣ι̣ρὰν,» (так в транскрипции Claude; в транскрипции GPT-6 — «μονάδα.»). На скане слово кончается на ρ, α с тяжёлым ударением и ν, а не на -άδα (решили оба проверяющих); среднюю группу букв оба проверяющих сравнивают с лигатурой εὐ (ср. πλευρὰν, 66r.3); один из них всё же оставляет «μο̣ι̣ρὰν» с точками сомнения, другой читает «νευρὰν»; «μο̣ι̣ρὰν» принял редактор. Точка с хвостом влево вниз после слова — запятая (решил ассистент редактора по поручению редактора).",
+    "en": "Adopted «μο̣ι̣ρὰν,» (as in Claude's transcription; GPT-6's has «μονάδα.»). The scan shows the word ending in ρ, α with grave and ν, not in -άδα (decided by both checkers); both checkers liken the middle group of letters to the εὐ ligature (cf. πλευρὰν, 66r.3); one of them still keeps «μο̣ι̣ρὰν» with the dots of doubt, the other reads «νευρὰν»; the editor adopted «μο̣ι̣ρὰν». The point with a tail down to the left after the word is a comma (decided by the editor's assistant at the editor's request)."
+   },
+   {
+    "ref": "H 65v.3",
+    "lemma": "γεωμετρία· | ἀπὸ",
+    "ru": "Принято «γεωμετρία·» и «ἀπὸ» без точки; транскрипция Claude — «γεωμετρία·» и «ἀπὸ.», транскрипция GPT-6 — «γεωμετρία.» и «ἀπὸ». На скане точка после γεωμετρία стоит на уровне верха букв, на линовке, т. е. это верхняя точка; между ο в ἀπὸ и τ в τῆς знака нет (утолщение слева на перекладине τ — обычная засечка). Решили оба проверяющих.",
+    "en": "Adopted «γεωμετρία·» and «ἀπὸ» with no point; Claude's transcription «γεωμετρία·» and «ἀπὸ.», GPT-6's «γεωμετρία.» and «ἀπὸ». The scan shows the point after γεωμετρία level with the letter tops, on the ruled line, i.e. a high point; between the ο of ἀπὸ and the τ of τῆς there is no mark (the blob at the left of τ's crossbar is its normal serif). Decided by both checkers."
+   },
+   {
+    "ref": "H 65v.5",
+    "lemma": "εὐθεῖαν",
+    "ru": "Принято «εὐθεῖαν» (так в транскрипции GPT-6; в транскрипции Claude — «αὔξαν[?]»). На скане лигатура εὐ с придыханием, открытое θ, лигатура ει, α и ν; ни замкнутого α с мачтой, ни ξ нет. Один проверяющий считает ударение над θει прямым острым («εὐθείαν»), а не облечённым; решил редактор.",
+    "en": "Adopted «εὐθεῖαν» (as in GPT-6's transcription; Claude's has «αὔξαν[?]»). The scan shows the εὐ ligature with breathing, an open θ, the ει ligature, α and ν, with no closed α with stem and no ξ. One checker takes the accent over θει to be a straight acute («εὐθείαν») rather than a circumflex; decided by the editor."
+   },
+   {
+    "ref": "H 65v.6",
+    "lemma": "ἅπαν",
+    "ru": "Принято «ἅπαν» (так в транскрипции GPT-6; в транскрипции Claude — «ἅπὰν»). На скане длинный штрих над вторым α непрерывно переходит в его петлю и является частью буквы (α унциальной формы), а не отдельным тяжёлым ударением. Решили оба проверяющих.",
+    "en": "Adopted «ἅπαν» (as in GPT-6's transcription; Claude's has «ἅπὰν»). On the scan the long stroke over the second α runs continuously into its loop and is part of the letter (an uncial-type α), not a separate grave. Decided by both checkers."
+   },
+   {
+    "ref": "H 65v.7",
+    "lemma": "μῆκος,",
+    "ru": "Принято «μῆκος,» (так в транскрипции Claude; в транскрипции GPT-6 — «μῆκος.»). На скане после σ на линии строки знак с округлой головкой справа вверху и хвостом влево вниз — запятая. Решили оба проверяющих.",
+    "en": "Adopted «μῆκος,» (as in Claude's transcription; GPT-6's has «μῆκος.»). The scan shows a mark on the baseline after σ with a rounded head at upper right and a tail to the lower left, i.e. a comma. Decided by both checkers."
+   },
+   {
+    "ref": "H 65v.11",
+    "lemma": "ἢ",
+    "ru": "Принято «ἢ» (так в транскрипции GPT-6; в транскрипции Claude — «ἠ»). На скане над η тонкое придыхание, а выше и правее — штрих сверху слева вниз направо, т. е. тяжёлое ударение этой строки, а не нижний выносной элемент из строки 10. Решили оба проверяющих.",
+    "en": "Adopted «ἢ» (as in GPT-6's transcription; Claude's has «ἠ»). The scan shows a smooth breathing over η and, higher and to the right, a stroke descending from upper left to lower right, i.e. a grave belonging to this line, not a descender from line 10. Decided by both checkers."
+   },
+   {
+    "ref": "H 65v.13",
+    "lemma": "ἑξκαιδέκατον",
+    "ru": "Принято «ἑξκαιδέκατον» (так в транскрипции Claude; в транскрипции GPT-6 — «ἑκκαιδέκατον»). На скане петля ε соединена с ξ, хвост которого уходит под строку, затем одно κ и αι (так написано). Решили оба проверяющих.",
+    "en": "Adopted «ἑξκαιδέκατον» (as in Claude's transcription; GPT-6's has «ἑκκαιδέκατον»). The scan shows the ε loop joined to a ξ whose tail runs below the line, then a single κ and αι (so written). Decided by both checkers."
+   },
+   {
+    "ref": "H 65v.14",
+    "lemma": "δυνατὸν",
+    "ru": "Принято «δυνατὸν» (так в транскрипции Claude; в транскрипции GPT-6 — «δύνατον»). На скане над δυ ударения нет, тяжёлое ударение стоит над ο в -τὸν. Решили оба проверяющих.",
+    "en": "Adopted «δυνατὸν» (as in Claude's transcription; GPT-6's has «δύνατον»). The scan shows no accent over δυ and a grave over the ο of -τὸν. Decided by both checkers."
+   },
+   {
+    "ref": "H 65v.18",
+    "lemma": "κονταδύο",
+    "ru": "Принято «κονταδύο» (так в транскрипции GPT-6; в транскрипции Claude — «κοντα δύο»). На скане ни над κοντα, ни над τρια в конце строки 17 ударения нет, единственное ударение — острое над ύ в δύο, а промежуток между α и δ не шире межбуквенного; по правилу транскрипции элемент без написанного ударения пишется слитно со следующим. Решили оба проверяющих.",
+    "en": "Adopted «κονταδύο» (as in GPT-6's transcription; Claude's has «κοντα δύο»). The scan shows no accent over κοντα or over τρια at the end of line 17, the only accent being the acute on the ύ of δύο, and the gap between α and δ is no wider than between letters; by the transcription convention an element with no written accent is joined to the next. Decided by both checkers."
+   },
+   {
+    "ref": "H 65v.21",
+    "lemma": "πλευρὰν.",
+    "ru": "Принято «πλευρὰν.» (так в транскрипции GPT-6; в транскрипции Claude — «πλευρὰν·»). На скане круглая точка после ν стоит на середине высоты строчных букв, ниже верхних точек этой страницы. Решили оба проверяющих.",
+    "en": "Adopted «πλευρὰν.» (as in GPT-6's transcription; Claude's has «πλευρὰν·»). The scan shows a round point after ν at mid-height, lower than the high points on this page. Decided by both checkers."
+   },
+   {
+    "ref": "H 66r.1",
+    "lemma": "περιθεὶς.",
+    "ru": "Принято «περιθεὶς.» (так в транскрипции Claude; в транскрипции GPT-6 — «περιθείς.»). На скане над θε короткий штрих сверху слева вниз направо, т. е. тяжёлое ударение (ср. острое на ἥμισυ в той же строке). Решили оба проверяющих.",
+    "en": "Adopted «περιθεὶς.» (as in Claude's transcription; GPT-6's has «περιθείς.»). The scan shows over θε a short stroke falling from upper left to lower right, i.e. a grave (compare the acute on ἥμισυ in the same line). Decided by both checkers."
+   },
+   {
+    "ref": "H 66r.2",
+    "lemma": "ποιεῖ·",
+    "ru": "Принято «ποιεῖ·» (так в транскрипции GPT-6; в транскрипции Claude — «ποιεῖ.»). На скане точка после ποιεῖ стоит на уровне верха ε и ι, т. е. это верхняя точка. Решили оба проверяющих.",
+    "en": "Adopted «ποιεῖ·» (as in GPT-6's transcription; Claude's has «ποιεῖ.»). The scan shows the point after ποιεῖ level with the tops of ε and ι, i.e. a high point. Decided by both checkers."
+   },
+   {
+    "ref": "H 66r.3",
+    "lemma": "μετειληφὼς | πλευρὰν,",
+    "ru": "Принято «μετειληφὼς» и «πλευρὰν,» (так в транскрипции Claude; в транскрипции GPT-6 — «μεταληφὼς» и «πλευράν.»). На скане после μετ лигатура ει с ι, уходящим под строку, а не α; над α в πλευραν тяжёлое ударение (решили оба проверяющих). Знак после πλευρὰν на линии строки один проверяющий считает запятой с загнутым хвостом, другой — обычной нижней точкой с коротким штрихом; запятую принял ассистент редактора (по поручению редактора).",
+    "en": "Adopted «μετειληφὼς» and «πλευρὰν,» (as in Claude's transcription; GPT-6's has «μεταληφὼς» and «πλευράν.»). The scan shows after μετ the ει ligature with ι descending below the line, not α, and a grave over the α of πλευραν (decided by both checkers). The mark on the baseline after πλευρὰν is a hooked comma for one checker and an ordinary low point with a short flick for the other; the editor's assistant adopted the comma at the editor's request."
+   },
+   {
+    "ref": "H 66r.6",
+    "lemma": "διαιρεῖται·",
+    "ru": "Принято «διαιρεῖται·» (так в транскрипции GPT-6; в транскрипции Claude — «διαιρεῖται.»). На скане точка стоит на линии верха букв, т. е. это верхняя точка. Решили оба проверяющих.",
+    "en": "Adopted «διαιρεῖται·» (as in GPT-6's transcription; Claude's has «διαιρεῖται.»). The scan shows the point on the line of the letter tops, i.e. a high point. Decided by both checkers."
+   },
+   {
+    "ref": "H 66r.7",
+    "lemma": "τούτων. | ἀσύνθετα",
+    "ru": "Принято «τούτων.» и «ἀσύνθετα» (так в транскрипции Claude; в транскрипции GPT-6 — «τούτων,» и «σύνθετα»). После ἕτερα на скане второе, замкнутое α с придыханием, т. е. ἀσύνθετα (решили оба проверяющих). Знак после τούτων на линии строки один проверяющий считает маленькой запятой, другой — нижней точкой с едва заметным штрихом; нижнюю точку принял ассистент редактора (по поручению редактора).",
+    "en": "Adopted «τούτων.» and «ἀσύνθετα» (as in Claude's transcription; GPT-6's has «τούτων,» and «σύνθετα»). After ἕτερα the scan shows a second, closed α with breathing, i.e. ἀσύνθετα (decided by both checkers). The mark on the baseline after τούτων is a small comma for one checker and a low point with a barely visible flick for the other; the editor's assistant adopted the low point at the editor's request."
+   },
+   {
+    "ref": "H 66r.9",
+    "lemma": "νιον· | τριτόνιον·",
+    "ru": "Принято «νιον·» и «τριτόνιον·» (так в транскрипции GPT-6; в транскрипции Claude — «νιον.» и «τριτόνιον.»). На скане обе точки стоят на уровне верха букв, т. е. это верхние точки. Решили оба проверяющих.",
+    "en": "Adopted «νιον·» and «τριτόνιον·» (as in GPT-6's transcription; Claude's has «νιον.» and «τριτόνιον.»). The scan shows both points level with the letter tops, i.e. high points. Decided by both checkers."
+   },
+   {
+    "ref": "H 66r.10",
+    "lemma": "ἐπιτρέ",
+    "ru": "Принято «ἐπιτρέ» (так в транскрипции GPT-6; в транскрипции Claude — «ἐπιτέρ»). На скане после τ идёт ρ, затем ε с острым ударением; после έ ничего нет. Решили оба проверяющих.",
+    "en": "Adopted «ἐπιτρέ» (as in GPT-6's transcription; Claude's has «ἐπιτέρ»). The scan shows ρ after τ, then ε with acute, and nothing after έ. Decided by both checkers."
+   },
+   {
+    "ref": "H 66r.11",
+    "lemma": "ψη",
+    "ru": "Принято «ψη» (так в транскрипции Claude; в транскрипции GPT-6 — «πη»). На скане первая буква — крестообразное ψ: вертикаль поднимается над перекладиной и уходит под строку, а не двуногое π. Решили оба проверяющих.",
+    "en": "Adopted «ψη» (as in Claude's transcription; GPT-6's has «πη»). The scan shows a cross-shaped ψ as the first letter, its vertical rising above the bar and descending below the line, not the two-legged π. Decided by both checkers."
+   },
+   {
+    "ref": "H 66r.12",
+    "lemma": "⟦r Ἀ⟧σύνθετα | τῶι",
+    "ru": "Принято «⟦r Ἀ⟧σύνθετα» и «τῶι»; транскрипция Claude — «⟦r Α⟧σύνθετα» и «τῶι», транскрипция GPT-6 — «⟦r Ἀ⟧σύνθετα» и «τῶ.». На скане над красным инициалом Α слева небольшое красное тонкое придыхание, а после τῶ короткий вертикальный штрих, не круглая точка, — приписная йота, как в λόγωι в строке 22 (решили оба проверяющих). Поэтому точки после τῶι нет (решил ассистент редактора по поручению редактора).",
+    "en": "Adopted «⟦r Ἀ⟧σύνθετα» and «τῶι»; Claude's transcription «⟦r Α⟧σύνθετα» and «τῶι», GPT-6's «⟦r Ἀ⟧σύνθετα» and «τῶ.». The scan shows a small red smooth breathing above and left of the red initial Α, and after τῶ a short upright stroke, not a round point, i.e. an adscript iota as in λόγωι on line 22 (decided by both checkers). Hence there is no point after τῶι (decided by the editor's assistant at the editor's request)."
+   },
+   {
+    "ref": "H 66r.14",
+    "lemma": "νίων· | τόνων.",
+    "ru": "Принято «νίων·» и «τόνων.» (так в транскрипции Claude; в транскрипции GPT-6 — «νίων.» и «τόνων,»). На скане точка после νίων висит от верхней линии букв (верхняя точка); после τόνων — округлая точка без хвоста, не запятая (один проверяющий видит её на середине высоты, другой на линии строки). Решили оба проверяющих.",
+    "en": "Adopted «νίων·» and «τόνων.» (as in Claude's transcription; GPT-6's has «νίων.» and «τόνων,»). The scan shows the point after νίων hanging from the letter-top line (a high point), and after τόνων a rounded point with no tail, not a comma (one checker places it at mid-height, the other on the baseline). Decided by both checkers."
+   },
+   {
+    "ref": "H 66r.18",
+    "lemma": "διὰ τεσσάρων·",
+    "ru": "Принято «διὰ τεσσάρων·» (так в транскрипции Claude; в транскрипции GPT-6 — «διατεσσάρων·»). На скане над α в δια отдельный отчётливый штрих тяжёлого ударения, поэтому слова пишутся раздельно. Решили оба проверяющих.",
+    "en": "Adopted «διὰ τεσσάρων·» (as in Claude's transcription; GPT-6's has «διατεσσάρων·»). The scan shows a clear, separate grave over the α of δια, so the words are written apart. Decided by both checkers."
+   },
+   {
+    "ref": "H 66r.19",
+    "lemma": "διὰ πέντε. | διαπασῶν·",
+    "ru": "Принято «διὰ πέντε.» и «διαπασῶν·»; транскрипция Claude — «διὰ πέντε.» и «διὰ πασῶν·», транскрипция GPT-6 — «διαπέντε.» и «διαπασῶν·». На скане над α первого δια (с маюскульным Δ) тяжёлое ударение, а над вторым δια, после καὶ, ударения нет (рядом только тяжёлое на καὶ и облечённое на ῶ), поэтому первое пишется раздельно, второе слитно. Решили оба проверяющих.",
+    "en": "Adopted «διὰ πέντε.» and «διαπασῶν·»; Claude's transcription «διὰ πέντε.» and «διὰ πασῶν·», GPT-6's «διαπέντε.» and «διαπασῶν·». The scan shows a grave over the α of the first δια (with majuscule Δ) and no accent over the second δια, after καὶ (the only accents nearby being the grave on καὶ and the circumflex on ῶ), so the first is written apart and the second as one word. Decided by both checkers."
+   },
+   {
+    "ref": "H 66r.20",
+    "lemma": "ἄμεσα· | μέσω(ν)",
+    "ru": "Принято «ἄμεσα·» и «μέσω(ν)»; транскрипция Claude — «ἄμεσα.» и «μέσω(ν)», транскрипция GPT-6 — «ἄμεσα·» и «μέσου». На скане точка после ἄμεσα стоит в верхней трети высоты строчных букв, чуть ниже верхней точки после ἀσύνθετα, но намного выше нижних точек строки 19; в μέσω — замкнутое двухпетельное ω с горизонтальным штрихом сокращения ν справа вверху, а не ου. Решили оба проверяющих.",
+    "en": "Adopted «ἄμεσα·» and «μέσω(ν)»; Claude's transcription «ἄμεσα.» and «μέσω(ν)», GPT-6's «ἄμεσα·» and «μέσου». The scan shows the point after ἄμεσα in the upper third of the x-height, slightly lower than the high point after ἀσύνθετα but well above the low points of line 19; μέσω has a closed double-loop ω with a horizontal ν-suspension stroke at its upper right, not ου. Decided by both checkers."
+   },
+   {
+    "ref": "H 66r.22",
+    "lemma": "ὁδεύοντα | ἃ τῶ | λόγωι",
+    "ru": "Принято «ὁδεύοντα· ἃ τῶ» и «λόγωι»; транскрипция Claude — «ὁδεύονται· αὐτῶν» и «λόγωι», транскрипция GPT-6 — «ὁδεύοντα· ἃ τῶ» и «λόγω·». На скане конечное α в ὁδεύοντα без добавочного штриха ι; далее α с густым придыханием и тяжёлым ударением, τ, ω с облечённым ударением и сразу μὲν, без υ и ν; после λόγω вертикальный штрих — приписная йота, как в τῶι в строке 12 (решили оба проверяющих). Поэтому точки после λόγωι нет (решил ассистент редактора по поручению редактора).",
+    "en": "Adopted «ὁδεύοντα· ἃ τῶ» and «λόγωι»; Claude's transcription «ὁδεύονται· αὐτῶν» and «λόγωι», GPT-6's «ὁδεύοντα· ἃ τῶ» and «λόγω·». The scan shows the final α of ὁδεύοντα with no added ι stroke; then α with rough breathing and grave, τ, ω with circumflex and at once μὲν, with no υ or ν; after λόγω an upright stroke, an adscript iota as in τῶι on line 12 (decided by both checkers). Hence there is no point after λόγωι (decided by the editor's assistant at the editor's request)."
+   },
+   {
+    "ref": "H 66v.4",
+    "lemma": "ἐδέξαντο·",
+    "ru": "Принято «ἐδέξαντο·» (так в транскрипции GPT-6; в транскрипции Claude — «ἐδέξαντο.»). На скане точка стоит на уровне верха τ и ο, т. е. это верхняя точка. Решили оба проверяющих.",
+    "en": "Adopted «ἐδέξαντο·» (as in GPT-6's transcription; Claude's has «ἐδέξαντο.»). The scan shows the point level with the tops of τ and ο, i.e. a high point. Decided by both checkers."
+   },
+   {
+    "ref": "H 66v.5",
+    "lemma": "διὰ τεσσάρων",
+    "ru": "Принято «διὰ τεσσάρων» (так в транскрипции Claude; в транскрипции GPT-6 — «διατεσσάρων»). На скане над α первого δια отчётливое тяжёлое ударение, поэтому слова пишутся раздельно. Решили оба проверяющих.",
+    "en": "Adopted «διὰ τεσσάρων» (as in Claude's transcription; GPT-6's has «διατεσσάρων»). The scan shows a clear grave over the α of the first δια, so the words are written apart. Decided by both checkers."
+   },
+   {
+    "ref": "H 66v.6",
+    "lemma": "διοδεῦον",
+    "ru": "Принято «διοδεῦον» (так в транскрипции GPT-6; в транскрипции Claude — «διοδεὺον»). На скане над лигатурой εὐ утолщённый знак с изгибом и хвостом вправо вниз — такой же, как облечённое ударение в χορδῶν той же строки, и непохожий на тонкое прямое тяжёлое ударение на καὶ. Решили оба проверяющих.",
+    "en": "Adopted «διοδεῦον» (as in GPT-6's transcription; Claude's has «διοδεὺον»). The scan shows over the εὐ ligature a thick curved mark with a tail to the lower right, matching the circumflex on χορδῶν in the same line and unlike the thin straight grave on καὶ. Decided by both checkers."
+   },
+   {
+    "ref": "H 66v.7",
+    "lemma": "διὰ πέντε. | τελούμενο(ν)·",
+    "ru": "Принято «διὰ πέντε.» и «τελούμενο(ν)·» (так в транскрипции Claude; в транскрипции GPT-6 — «διαπέντε.» и «τελούμεν(ον)·»). На скане над α в δια после τὸ тяжёлое ударение; в τελούμενο после ν полностью написано ο, а над ним и правее — горизонтальный штрих сокращения ν с загнутым вверх концом, так что восполняется только ν. Решили оба проверяющих.",
+    "en": "Adopted «διὰ πέντε.» and «τελούμενο(ν)·» (as in Claude's transcription; GPT-6's has «διαπέντε.» and «τελούμεν(ον)·»). The scan shows a grave over the α of δια after τὸ; in τελούμενο a fully written ο follows ν, with a horizontal ν-suspension stroke with an upturned hook above and to its right, so only ν is supplied. Decided by both checkers."
+   },
+   {
+    "ref": "H 66v.8",
+    "lemma": "διαπασῶν,",
+    "ru": "Принято «διαπασῶν,»; транскрипция Claude — «διὰ πασῶν,», транскрипция GPT-6 — «διαπασῶν.». Оба проверяющих не видят ударения над α в Δια (поэтому слово пишется слитно); знак после πασῶν один считает запятой (клин с коротким хвостом влево вниз), другой — нижней точкой. Принятое чтение, не совпадающее ни с одной из транскрипций, выбрал ассистент редактора (по поручению редактора).",
+    "en": "Adopted «διαπασῶν,»; Claude's transcription «διὰ πασῶν,», GPT-6's «διαπασῶν.». Both checkers see no accent over the α of Δια (hence one word); the mark after πασῶν is a comma for one of them (a wedge with a short tail down to the left) and a low point for the other. The adopted reading, which agrees with neither transcription, was chosen by the editor's assistant at the editor's request."
+   },
+   {
+    "ref": "H 66v.9",
+    "lemma": "διὰ πασῶν | λέγεται",
+    "ru": "Принято «διὰ πασῶν» и «λέγεται»; транскрипция Claude — «διὰ πασῶν» и «λέγεσθαι», транскрипция GPT-6 — «διαπασῶν» и «λέγεται». Над α в δια написано тяжёлое ударение, промежуток перед πασῶν невелик, и оба проверяющих считают словораздел вопросом правила транскрипции; решил редактор. В λέγεται после γ — лигатура ετ и αι, ни σ, ни θ нет (решили оба проверяющих).",
+    "en": "Adopted «διὰ πασῶν» and «λέγεται»; Claude's transcription «διὰ πασῶν» and «λέγεσθαι», GPT-6's «διαπασῶν» and «λέγεται». A grave is written over the α of δια and the gap before πασῶν is small, and both checkers treat the word division as a matter of transcription convention; decided by the editor. In λέγεται, γ is followed by the ετ ligature and αι, with no σ or θ (decided by both checkers)."
+   },
+   {
+    "ref": "H 66v.11",
+    "lemma": "κακεὶθεν",
+    "ru": "Принято «κακεὶθεν» (так в транскрипции Claude; в транскрипции GPT-6 — «κἀκεῖθεν»). Оба проверяющих не видят над α ни придыхания, ни корониса (так написано); знак над лигатурой ει один считает тяжёлым ударением (штрих, сужающийся вправо вниз), другой — дугообразным облечённым. Решил ассистент редактора (по поручению редактора).",
+    "en": "Adopted «κακεὶθεν» (as in Claude's transcription; GPT-6's has «κἀκεῖθεν»). Both checkers see neither breathing nor coronis over α (so written); the mark over the ει ligature is a grave (a stroke tapering down to the right) for one checker and an arched circumflex for the other. Decided by the editor's assistant at the editor's request."
+   },
+   {
+    "ref": "H 66v.14",
+    "lemma": "διὰ τεσσάρων· | διὰ πέντε·",
+    "ru": "Принято «διὰ τεσσάρων·» и «διὰ πέντε·»; транскрипция Claude — «διὰ τεσσάρων.» и «διὰ πέντε.», транскрипция GPT-6 — «διατεσσάρων·» и «διαπέντε·». На скане над α обоих δια тяжёлое ударение (слова раздельно), а точки после τεσσάρων и πέντε стоят у верхней линии букв, т. е. это верхние точки; принятое чтение не совпадает ни с одной из транскрипций. Решили оба проверяющих.",
+    "en": "Adopted «διὰ τεσσάρων·» and «διὰ πέντε·»; Claude's transcription «διὰ τεσσάρων.» and «διὰ πέντε.», GPT-6's «διατεσσάρων·» and «διαπέντε·». The scan shows a grave over the α of both δια (so the words are apart), and the points after τεσσάρων and πέντε at the letter-top line, i.e. high points; the adopted reading agrees with neither transcription. Decided by both checkers."
+   },
+   {
+    "ref": "H 66v.15",
+    "lemma": "διὰ πασῶν,",
+    "ru": "Принято «διὰ πασῶν,» (так в транскрипции Claude; в транскрипции GPT-6 — «διαπασῶν.»). Над α в δια оба проверяющих видят отчётливое тяжёлое ударение (слова раздельно); знак после πασῶν на линии строки один считает запятой с загнутым хвостом, другой — нижней точкой, допуская и запятую. Решил ассистент редактора (по поручению редактора).",
+    "en": "Adopted «διὰ πασῶν,» (as in Claude's transcription; GPT-6's has «διαπασῶν.»). Both checkers see a clear grave over the α of δια (so the words are apart); the mark on the baseline after πασῶν is a hooked comma for one checker and a low point for the other, who allows a comma as possible. Decided by the editor's assistant at the editor's request."
+   },
+   {
+    "ref": "H 66v.16",
+    "lemma": "μὲν διὰ τεσσάρω(ν)",
+    "ru": "Принято «μὲν διὰ τεσσάρω(ν)»; транскрипция Claude — «μεν διὰ τεσσάρω(ν)», транскрипция GPT-6 — «μὲν διατεσσάρων». На скане над ε в μεν и над α в δια тяжёлые ударения; τεσσάρω в конце строки кончается на ω с горизонтальным штрихом сокращения с загнутым вверх концом, ν не написано; принятое чтение не совпадает ни с одной из транскрипций. Решили оба проверяющих.",
+    "en": "Adopted «μὲν διὰ τεσσάρω(ν)»; Claude's transcription «μεν διὰ τεσσάρω(ν)», GPT-6's «μὲν διατεσσάρων». The scan shows graves over the ε of μεν and the α of δια; τεσσάρω at the line end finishes in ω with a horizontal suspension stroke with an upturned hook, and ν is not written; the adopted reading agrees with neither transcription. Decided by both checkers."
+   },
+   {
+    "ref": "H 66v.17",
+    "lemma": "διὰ πέντε.",
+    "ru": "Принято «διὰ πέντε.» (так в транскрипции Claude; в транскрипции GPT-6 — «διαπέντε.»). На скане над α в Δια тяжёлое ударение, над πέ — острое; очень слабый волосяной штрих выше и левее, по мнению одного проверяющего, к этому слову не относится. Решили оба проверяющих.",
+    "en": "Adopted «διὰ πέντε.» (as in Claude's transcription; GPT-6's has «διαπέντε.»). The scan shows a grave over the α of Δια and an acute over πέ; a very faint hairline higher up and to the left is, for one checker, not this word's accent. Decided by both checkers."
+   },
+   {
+    "ref": "H 66v.18",
+    "lemma": "διὰ πασῶν. | διὰ τεσσά",
+    "ru": "Принято «διὰ πασῶν.» и «διὰ τεσσά» (так в транскрипции Claude; в транскрипции GPT-6 — «διαπασῶν.» и «διατεσσά»). На скане над α обоих δια тяжёлое ударение, поэтому слова пишутся раздельно. Решили оба проверяющих.",
+    "en": "Adopted «διὰ πασῶν.» and «διὰ τεσσά» (as in Claude's transcription; GPT-6's has «διαπασῶν.» and «διατεσσά»). The scan shows a grave over the α of both δια, so the words are written apart. Decided by both checkers."
+   },
+   {
+    "ref": "H 66v.19",
+    "lemma": "ρων. | διὰ πέντε. | διὰ πα",
+    "ru": "Принято «ρων.», «διὰ πέντε.», «διὰ πα» (так в транскрипции Claude; в транскрипции GPT-6 — «ρων·», «διαπέντε·», «διαπα»). На скане точки после ρων и после πέντε стоят на середине высоты строчных букв, а над α обоих δια тяжёлое ударение. Решили оба проверяющих.",
+    "en": "Adopted «ρων.», «διὰ πέντε.», «διὰ πα» (as in Claude's transcription; GPT-6's has «ρων·», «διαπέντε·», «διαπα»). The scan shows the points after ρων and after πέντε at mid-height, and a grave over the α of both δια. Decided by both checkers."
+   },
+   {
+    "ref": "H 66v.20",
+    "lemma": "ἀντίφωνον.",
+    "ru": "Принято «ἀντίφωνον.» (так в транскрипции Claude; в транскрипции GPT-6 — «ἀντίφωνον·»). На скане точка стоит между серединой высоты и линией строки, на одном уровне с нижней точкой после σῶν в той же строке, а не у верха букв. Решили оба проверяющих.",
+    "en": "Adopted «ἀντίφωνον.» (as in Claude's transcription; GPT-6's has «ἀντίφωνον·»). The scan shows the point between mid-height and the baseline, level with the low point after σῶν in the same line, not at the letter tops. Decided by both checkers."
+   },
+   {
+    "ref": "H 66v.21",
+    "lemma": "τό, | ἀντίφωνον·",
+    "ru": "Принято «τό,» и «ἀντίφωνον·»; транскрипция Claude — «τό,» и «ἀντίφωνον.», транскрипция GPT-6 — «τό» и «ἀντίφωνον·». На скане между τό и τε на линии строки небольшой знак с хвостиком влево вниз (один проверяющий сравнивает его с запятой в строке 15, другой определяет как обычную гиподиастолу в τό,τε), а точка после ἀντίφωνον стоит на уровне верха ο и ν, т. е. верхняя. Решили оба проверяющих.",
+    "en": "Adopted «τό,» and «ἀντίφωνον·»; Claude's transcription «τό,» and «ἀντίφωνον.», GPT-6's «τό» and «ἀντίφωνον·». The scan shows a small mark with a lower-left flick on the baseline between τό and τε (one checker compares it with the comma on line 15, the other identifies it as the usual hypodiastole of τό,τε), and the point after ἀντίφωνον level with the tops of ο and ν, i.e. a high point. Decided by both checkers."
+   },
+   {
+    "ref": "H 67r.1",
+    "lemma": "πῶς",
+    "ru": "Принято «πῶς» (так в транскрипции Claude; в транскрипции GPT-6 — «πως»). На скане над ω дугообразное облечённое ударение. Решили оба проверяющих.",
+    "en": "Adopted «πῶς» (as in Claude's transcription; GPT-6's has «πως»). The scan shows an arched circumflex over ω. Decided by both checkers."
+   }
+  ],
+  "corrections": [
+   {
+    "ref": "H 64v.8",
+    "what": "Removed «заметно» / «clearly» from the description of the point after ἐστιν. The record gives only 'about 7 px below the letter tops', and one checker calls the case borderline. Also replaced the ambiguous «ближе к середине строки» with «ближе к середине их высоты»."
+   },
+   {
+    "ref": "H 64v.11",
+    "what": "RU: changed «на середине строки» to «на середине высоты строки». The checkers mean mid-height, not the middle of the line, and the English already said 'mid-height'."
+   },
+   {
+    "ref": "H 64v.12",
+    "what": "The draft said both checkers took the upper mark after ἐναρμόνιος as the point. In the record only one checker did (low confidence). The other marked it 'unclear' and leaned to the upper mark only 'if forced to choose'. RU and EN reworded to say this."
+   },
+   {
+    "ref": "H 65r.21",
+    "what": "The draft implied neither checker supported μο̣ι̣ρὰν. In fact one checker picked «μο̣ι̣ρὰν» with the dots of doubt (while also likening the middle letters to εὐ) and the other read «νευρὰν». RU and EN reworded to say so. The reading is now cited in «»."
+   }
+  ],
+  "flags": [
+   {
+    "ref": "H 65r.19",
+    "problem": "The adopted «βλεπομ(ένη)» puts η inside the expansion brackets. Both checkers say η is written as a superscript over μ: checker A proposes «πομ(έν)η», and checker B picks reading 2 but says the superscript η 'should stand outside the brackets'. So the editor's adoption conflicts with what both checkers describe on the scan; «βλεπομ(έν)η» may be what was meant. The footnote follows the adopted line."
+   },
+   {
+    "ref": "H 65r.21",
+    "problem": "Checker A picks «μο̣ι̣ρὰν» but describes the middle letters as 'this hand's εὐ ligature (cf. πλευρὰν 66r.3)'. That description fits checker B's «νευρὰν» better than an ο-ι sequence (B notes that μ and ν look alike in this hand). The editor adopted «μο̣ι̣ρὰν» with the dots of doubt. The adopted reading may be worth reconfirming against the scan."
+   }
+  ]
+ },
+ {
+  "chunk": "h2",
+  "footnotes": [
+   {
+    "ref": "H 67r.3",
+    "lemma": "γ(ὰρ)",
+    "ru": "Принято «γ(ὰρ)», как в транскрипции Claude; в транскрипции GPT-6 «δ’». На скане после τὸ стоит 7-образный γ с тяжёлым ударением над ним (сокращение γάρ), без петли δ. Решили оба проверяющих.",
+    "en": "Adopted «γ(ὰρ)», as in Claude's transcription; GPT-6's transcription has «δ’». The scan shows after τὸ a 7-shaped γ with a grave above it (the compendium for γάρ), with no bowl of δ. Decided by both checkers."
+   },
+   {
+    "ref": "H 67r.4",
+    "lemma": "βά",
+    "ru": "Принято «βά», как в транскрипции Claude; в транскрипции GPT-6 «βα». На скане в конце строки над α и правее стоит отдельный штрих острого ударения, не связанный с выносным элементом из строки 3. Решили оба проверяющих.",
+    "en": "Adopted «βά», as in Claude's transcription; GPT-6's transcription has «βα». The scan shows at the line end a separate acute stroke above and to the right of α, distinct from the descender of line 3. Decided by both checkers."
+   },
+   {
+    "ref": "H 67r.5",
+    "lemma": "ρει | ταυτὸν | τοῦ",
+    "ru": "Принято «ρει» и «ταυτὸν», как в транскрипции Claude (в транскрипции GPT-6 «ρεῖ», «ταὐτὸν»), и «τοῦ», как в транскрипции GPT-6 (в транскрипции Claude «του»). На скане над лигатурой ει ударения нет, над υ в ταυτὸν нет придыхания, а над лигатурой ου в конце строки стоит маленькое облечённое ударение, как в συμφωνοῦντος. Решили оба проверяющих (один из них в последнем случае с умеренной уверенностью).",
+    "en": "Adopted «ρει» and «ταυτὸν», as in Claude's transcription (GPT-6's: «ρεῖ», «ταὐτὸν»), and «τοῦ», as in GPT-6's transcription (Claude's: «του»). The scan shows no accent over the ει ligature, no breathing over the υ of ταυτὸν, and a small circumflex over the ου ligature at the line end, like that of συμφωνοῦντος. Decided by both checkers (one with medium confidence on the last point)."
+   },
+   {
+    "ref": "H 67r.8",
+    "lemma": "πεντεκαιδεκάτου",
+    "ru": "Принято слитное «πεντεκαιδεκάτου», как в транскрипции Claude; в транскрипции GPT-6 «πέντε καὶ δεκάτου». На скане над πεντε и над και (написанным буквами, κ + лигатура αι) ударений нет; единственное ударение слова — острое над κά. Решили оба проверяющих.",
+    "en": "Adopted the single word «πεντεκαιδεκάτου», as in Claude's transcription; GPT-6's transcription has «πέντε καὶ δεκάτου». The scan shows no accent over πεντε or over και (written in letters, κ plus the αι ligature); the word's only accent is the acute on κά. Decided by both checkers."
+   },
+   {
+    "ref": "H 67r.9",
+    "lemma": "συγκατιόντων ἐν",
+    "ru": "Принято «συγκατιόντων ἐν», как в транскрипции GPT-6; в транскрипции Claude перед «ἐν» стоит лишнее «τῶν». На скане за συγκατιόντων сразу следует ἐν: единственное -των — безударное окончание этого слова. Решили оба проверяющих.",
+    "en": "Adopted «συγκατιόντων ἐν», as in GPT-6's transcription; Claude's transcription has an extra «τῶν» before «ἐν». The scan shows ἐν directly after συγκατιόντων, the only -των being the unaccented ending of that word. Decided by both checkers."
+   },
+   {
+    "ref": "H 67r.10",
+    "lemma": "ἀνέσεσι",
+    "ru": "Принято «ἀνέσεσι», как в транскрипции GPT-6; в транскрипции Claude «ἀνέσει». На скане после ἀν две одинаковые лигатуры εσ и затем отдельная ι; лигатуры ει нет. Решили оба проверяющих.",
+    "en": "Adopted «ἀνέσεσι», as in GPT-6's transcription; Claude's transcription has «ἀνέσει». The scan shows after ἀν two identical εσ ligatures and then a separate ι, with no ει ligature. Decided by both checkers."
+   },
+   {
+    "ref": "H 67r.11",
+    "lemma": "ἀνάλογον",
+    "ru": "Принято «ἀνάλογον», как в транскрипции GPT-6; в транскрипции Claude «ἀναλογον». На скане над второй α стоит отдельный короткий штрих острого ударения, а не хвост ξ из строки выше. Решили оба проверяющих.",
+    "en": "Adopted «ἀνάλογον», as in GPT-6's transcription; Claude's transcription has «ἀναλογον». The scan shows a separate short acute over the second α, not the tail of ξ from the line above. Decided by both checkers."
+   },
+   {
+    "ref": "H 67r.12",
+    "lemma": "⟦r Ὁ⟧",
+    "ru": "Принято «Ὁ» в красном инициале, как в транскрипции GPT-6; в транскрипции Claude «Ο» без придыхания. На скане над левым верхним краем красного инициала стоит красное густое придыхание (капля с хвостом вправо), той же формы, что чёрное придыхание над ἡ в этой строке. Решили оба проверяющих.",
+    "en": "Adopted «Ὁ» in the red initial, as in GPT-6's transcription; Claude's transcription has «Ο» without breathing. The scan shows above the top left of the red initial a red rough breathing (a blob with a tail to the right), of the same shape as the black rough breathing on ἡ in this line. Decided by both checkers."
+   },
+   {
+    "ref": "H 67r.14",
+    "lemma": "νίας,",
+    "ru": "Принята запятая «νίας,», как в транскрипции Claude; в транскрипции GPT-6 точка «νίας.». На скане после νίας на линии строки стоит знак с головкой справа вверху и хвостом вниз влево, длиннее обычных нижних точек писца; оба проверяющих склонились к запятой, но с низкой и средней уверенностью. Решил ассистент редактора (по поручению редактора).",
+    "en": "Adopted the comma «νίας,», as in Claude's transcription; GPT-6's transcription has a point, «νίας.». The scan shows after νίας a baseline mark with its head at upper right and a tail running down-left, longer than the scribe's ordinary low points; both checkers leaned to a comma, with low and medium confidence. Decided by the editor's assistant at the editor's request."
+   },
+   {
+    "ref": "H 67r.15",
+    "lemma": "διὰ τεσσάρων",
+    "ru": "Принято раздельное «διὰ τεσσάρων», как в транскрипции Claude; в транскрипции GPT-6 «διατεσσάρων». На скане над α в δια стоит отдельный штрих тяжёлого ударения. Решили оба проверяющих.",
+    "en": "Adopted the separate «διὰ τεσσάρων», as in Claude's transcription; GPT-6's transcription has «διατεσσάρων». The scan shows a separate grave stroke over the α of δια. Decided by both checkers."
+   },
+   {
+    "ref": "H 67r.17",
+    "lemma": "ὂν,",
+    "ru": "Принята запятая «ὂν,», как в транскрипции Claude; в транскрипции GPT-6 точка «ὂν.». На скане после ὂν на линии строки стоит знак с головкой справа вверху и коротким хвостом вниз влево, той же формы, что в 67r.14; уверенность проверяющих низкая и средняя. Решил ассистент редактора (по поручению редактора).",
+    "en": "Adopted the comma «ὂν,», as in Claude's transcription; GPT-6's transcription has a point, «ὂν.». The scan shows after ὂν a baseline mark with its head at upper right and a short tail down-left, the same form as in 67r.14; the checkers' confidence was low and medium. Decided by the editor's assistant at the editor's request."
+   },
+   {
+    "ref": "H 67r.18",
+    "lemma": "διαπέντε | ἡμιτονίου",
+    "ru": "Принято «διαπέντε» и «ἡμιτονίου», как в транскрипции GPT-6; в транскрипции Claude «διὰ πέντε» и «ἡμιτονιου». На скане над α в δια ударения нет (единственное ударение — острое над πέ), а над ι в -νίου стоит отдельное острое ударение, не связанное с χ слова ἔτυχε в строке 17. Решили оба проверяющих.",
+    "en": "Adopted «διαπέντε» and «ἡμιτονίου», as in GPT-6's transcription; Claude's transcription has «διὰ πέντε» and «ἡμιτονιου». The scan shows no accent over the α of δια (the only accent is the acute on πέ) and a separate acute over the ι of -νίου, distinct from the χ of ἔτυχε in line 17. Decided by both checkers."
+   },
+   {
+    "ref": "H 67r.19",
+    "lemma": "διαπασῶν | διαπασῶν",
+    "ru": "Принято оба раза слитное «διαπασῶν», как в транскрипции GPT-6; в транскрипции Claude оба раза «διὰ πασῶν». На скане ни над одним δια (второе — с маюскульной Δ) ударения нет, в слове только облечённое ударение над ῶ; небольшой промежуток после второго δια никаким знаком не отмечен. Решили оба проверяющих.",
+    "en": "Adopted «διαπασῶν» as one word both times, as in GPT-6's transcription; Claude's transcription has «διὰ πασῶν» both times. The scan shows no accent over either δια (the second with majuscule Δ), only the circumflex on ῶ; the small gap after the second δια is not marked by any sign. Decided by both checkers."
+   },
+   {
+    "ref": "H 67r.20",
+    "lemma": "διὰ τεσσάρων",
+    "ru": "Принято раздельное «διὰ τεσσάρων», как в транскрипции Claude; в транскрипции GPT-6 «διατεσσάρων». На скане над α в δια после δὶς стоит отдельный штрих тяжёлого ударения. Решили оба проверяющих.",
+    "en": "Adopted the separate «διὰ τεσσάρων», as in Claude's transcription; GPT-6's transcription has «διατεσσάρων». The scan shows a separate grave stroke over the α of δια after δὶς. Decided by both checkers."
+   },
+   {
+    "ref": "H 67r.21",
+    "lemma": "διὰ πασῶν | διὰ πέν",
+    "ru": "Принято раздельное «διὰ πασῶν» и «διὰ πέν», как в транскрипции Claude; в транскрипции GPT-6 «διαπασῶν» и «διαπέν». На скане над α в обоих δια стоит тяжёлое ударение. Решили оба проверяющих.",
+    "en": "Adopted the separate «διὰ πασῶν» and «διὰ πέν», as in Claude's transcription; GPT-6's transcription has «διαπασῶν» and «διαπέν». The scan shows a grave over the α of both δια. Decided by both checkers."
+   },
+   {
+    "ref": "H 67v.1",
+    "lemma": "διὰ πασῶν",
+    "ru": "Принято «διὰ πασῶν», как в транскрипции Claude; в транскрипции GPT-6 «διαπασῶν». На скане в начале строки над α в δια ясно стоит тяжёлое ударение, и над ним нет ничего, что могло бы прийти из другой строки. Решили оба проверяющих.",
+    "en": "Adopted «διὰ πασῶν», as in Claude's transcription; GPT-6's transcription has «διαπασῶν». The scan shows at the start of the line a clear grave above the α of δια, with nothing above it that could come from another line. Decided by both checkers."
+   },
+   {
+    "ref": "H 67v.2",
+    "lemma": "διὰ τεσσάρων",
+    "ru": "Принято «διὰ τεσσάρων», как в транскрипции Claude; в транскрипции GPT-6 «διατεσσάρων». На скане прямо над α в δια стоит штрих тяжёлого ударения. Решили оба проверяющих.",
+    "en": "Adopted «διὰ τεσσάρων», as in Claude's transcription; GPT-6's transcription has «διατεσσάρων». The scan shows a grave stroke directly over the α of δια. Decided by both checkers."
+   },
+   {
+    "ref": "H 67v.3",
+    "lemma": "ὰ πέντε | διὰ πασῶν",
+    "ru": "Принято «ὰ πέντε» и «διὰ πασῶν», как в транскрипции Claude; в транскрипции GPT-6 «απέντε» и «διαπασῶν». На скане тяжёлое ударение стоит и над α в начале строки (δι — в конце строки 2), и над α в δια перед πασῶν. Решили оба проверяющих.",
+    "en": "Adopted «ὰ πέντε» and «διὰ πασῶν», as in Claude's transcription; GPT-6's transcription has «απέντε» and «διαπασῶν». The scan shows a grave both on the α at the start of the line (the δι stands at the end of line 2) and on the α of δια before πασῶν. Decided by both checkers."
+   },
+   {
+    "ref": "H 67v.4",
+    "lemma": "διὰ πασῶν | διὰ τεσ",
+    "ru": "Принято «διὰ πασῶν» и «διὰ τεσ», как в транскрипции Claude; в транскрипции GPT-6 «διαπασῶν» и «διατε». На скане над α в обоих δια написано тяжёлое ударение (словораздел — по правилу транскрипции), а строка кончается τ с лигатурой εσ. Решили оба проверяющих.",
+    "en": "Adopted «διὰ πασῶν» and «διὰ τεσ», as in Claude's transcription; GPT-6's transcription has «διαπασῶν» and «διατε». The scan shows a grave written over the α of both δια (word division by the transcription convention), and the line ending in τ with the εσ ligature. Decided by both checkers."
+   },
+   {
+    "ref": "H 67v.5",
+    "lemma": "σάρων | διὰ πασῶν",
+    "ru": "Принято «σάρων» и «διὰ πασῶν», как в транскрипции Claude; в транскрипции GPT-6 «σσάρων» и «διαπασῶν». На скане строка начинается одной σ (вторая σ слова τεσσάρων — в конце строки 4), а над α в δια написано тяжёлое ударение (словораздел — по правилу транскрипции). Решили оба проверяющих.",
+    "en": "Adopted «σάρων» and «διὰ πασῶν», as in Claude's transcription; GPT-6's transcription has «σσάρων» and «διαπασῶν». The scan shows a single σ at the start of the line (the second σ of τεσσάρων ends line 4) and a grave written over the α of δια (word division by the transcription convention). Decided by both checkers."
+   },
+   {
+    "ref": "H 67v.6",
+    "lemma": "διὰ πέντε",
+    "ru": "Принято раздельное «διὰ πέντε», как в транскрипции Claude; в транскрипции GPT-6 «διαπέντε». На скане над α в Δια (с маюскульной дельтой) стоит тяжёлое ударение, а над έ в πέντε — острое. Решили оба проверяющих.",
+    "en": "Adopted the separate «διὰ πέντε», as in Claude's transcription; GPT-6's transcription has «διαπέντε». The scan shows a grave over the α of Δια (with majuscule delta) and an acute over the έ of πέντε. Decided by both checkers."
+   },
+   {
+    "ref": "H 67v.8",
+    "lemma": "ἀριθμός",
+    "ru": "Принято «ἀριθμός», как в транскрипции Claude; в транскрипции GPT-6 «ἀριθμὸς». На скане ударение над ο восходит слева снизу вправо вверх (острое), в отличие от нисходящего тяжёлого в πρὸς. Решили оба проверяющих.",
+    "en": "Adopted «ἀριθμός», as in Claude's transcription; GPT-6's transcription has «ἀριθμὸς». The scan shows the accent over ο rising from lower left to upper right (acute), unlike the falling grave on πρὸς. Decided by both checkers."
+   },
+   {
+    "ref": "H 67v.9",
+    "lemma": "ὄγδοος.",
+    "ru": "Принята точка «ὄγδοος.», как в транскрипции Claude; в транскрипции GPT-6 верхняя точка «ὄγδοος·». На скане точка стоит на середине высоты строчных букв, ниже верхней точки после ἔνατος в строке 10, т. е. это средняя точка, передаваемая «.». Решили оба проверяющих.",
+    "en": "Adopted the point «ὄγδοος.», as in Claude's transcription; GPT-6's transcription has a high point, «ὄγδοος·». The scan shows the point at mid-height of the small letters, below the high point after ἔνατος in line 10: a middle point, rendered «.». Decided by both checkers."
+   },
+   {
+    "ref": "H 67v.10",
+    "lemma": "ος. | ἔνατος·",
+    "ru": "Принято «ος.» и «ἔνατος·», как в транскрипции GPT-6; в транскрипции Claude «ος,» и «ἔνατος.». На скане после ος — круглая точка на линии строки без хвоста под строку (в отличие от настоящей запятой после ἐπίτριτος в строке 9), а точка после ἔνατος стоит вровень с верхом букв (верхняя точка). Решили оба проверяющих.",
+    "en": "Adopted «ος.» and «ἔνατος·», as in GPT-6's transcription; Claude's transcription has «ος,» and «ἔνατος.». The scan shows after ος a round point on the baseline with no tail below the line (unlike the true comma after ἐπίτριτος in line 9), and after ἔνατος a point level with the tops of the letters (high point). Decided by both checkers."
+   },
+   {
+    "ref": "H 67v.11",
+    "lemma": "διπλασιεπιμερὴς | ἑξκαιδέκατος",
+    "ru": "Принято «διπλασιεπιμερὴς» и «ἑξκαιδέκατος», как в транскрипции Claude; в транскрипции GPT-6 «διπλασιεπιμερής» и «ἑκκαιδέκατος». На скане ударение над η идёт сверху слева вниз направо (тяжёлое), а после ἑ стоит зигзагообразная ξ с длинным хвостом под строку, затем κ (так написано). Решили оба проверяющих.",
+    "en": "Adopted «διπλασιεπιμερὴς» and «ἑξκαιδέκατος», as in Claude's transcription; GPT-6's transcription has «διπλασιεπιμερής» and «ἑκκαιδέκατος». The scan shows the accent over η running from upper left down to the right (grave), and after ἑ a zigzag ξ with a long tail below the line, then κ (as written). Decided by both checkers."
+   },
+   {
+    "ref": "H 67v.13",
+    "lemma": "ὀκτωκαιδέκατος",
+    "ru": "Принято слитное «ὀκτωκαιδέκατος», как в транскрипции Claude; в транскрипции GPT-6 «ὀκτὼ καὶ δέκατος». На скане над ω и над καί (написанным буквами, κ + αι) ударений нет; единственное ударение слова — острое над έ. Решили оба проверяющих.",
+    "en": "Adopted the single word «ὀκτωκαιδέκατος», as in Claude's transcription; GPT-6's transcription has «ὀκτὼ καὶ δέκατος». The scan shows no accent over ω or over καί (written in letters, κ plus αι); the word's only accent is the acute on έ. Decided by both checkers."
+   },
+   {
+    "ref": "H 67v.15",
+    "lemma": "⟦r Τ⟧οι",
+    "ru": "Принята маюскульная «Τ» красного инициала, как в транскрипции Claude; в транскрипции GPT-6 строчная «τ». На скане это увеличенная красная Τ, вынесенная на поле и опускающаяся ниже строки. Решили оба проверяющих.",
+    "en": "Adopted the majuscule «Τ» of the red initial, as in Claude's transcription; GPT-6's transcription has minuscule «τ». The scan shows an enlarged red Τ standing out into the margin and descending below the line. Decided by both checkers."
+   },
+   {
+    "ref": "H 67v.16",
+    "lemma": "χορδῶν.",
+    "ru": "Принята точка «χορδῶν.», как в транскрипции GPT-6; в транскрипции Claude верхняя точка «χορδῶν·». На скане точка стоит на середине высоты соседних букв, явно ниже их верха (средняя точка). Решили оба проверяющих.",
+    "en": "Adopted the point «χορδῶν.», as in GPT-6's transcription; Claude's transcription has a high point, «χορδῶν·». The scan shows the point at mid-height of the neighbouring letters, clearly below their tops (middle point). Decided by both checkers."
+   },
+   {
+    "ref": "H 67v.17",
+    "lemma": "κρίνονται.",
+    "ru": "Принята точка «κρίνονται.», как в транскрипции GPT-6; в транскрипции Claude верхняя точка «κρίνονται·». На скане точка стоит на середине высоты букв, а не у их верха (средняя точка). Решили оба проверяющих.",
+    "en": "Adopted the point «κρίνονται.», as in GPT-6's transcription; Claude's transcription has a high point, «κρίνονται·». The scan shows the point at mid-height of the letters, not at their tops (middle point). Decided by both checkers."
+   },
+   {
+    "ref": "H 67v.19",
+    "lemma": "διὰ πέντε",
+    "ru": "Принято раздельное «διὰ πέντε», как в транскрипции Claude; в транскрипции GPT-6 «διαπέντε». На скане над α в Δια стоит ясное тяжёлое ударение, а над έ в πέντε — острое. Решили оба проверяющих.",
+    "en": "Adopted the separate «διὰ πέντε», as in Claude's transcription; GPT-6's transcription has «διαπέντε». The scan shows a clear grave over the α of Δια and an acute over the έ of πέντε. Decided by both checkers."
+   },
+   {
+    "ref": "H 67v.20",
+    "lemma": "λόγον ἡμιόλιον",
+    "ru": "Принято «λόγον» без запятой, как в транскрипции GPT-6; в транскрипции Claude «λόγον,». На самой строке между λόγον и ἡμιόλιον ничего нет, но под линией строки есть запятообразный штрих под ν, точка под ἡ и ниже Т-образный знак: один проверяющий считает их единым знаком, а не пунктуацией, другой (с низкой уверенностью) видит подобие запятой в группе знаков неясного назначения. Решил ассистент редактора (по поручению редактора).",
+    "en": "Adopted «λόγον» without a comma, as in GPT-6's transcription; Claude's transcription has «λόγον,». Nothing is written on the line between λόγον and ἡμιόλιον, but below the baseline there are a comma-like stroke under the ν, a dot under ἡ and, lower, a T-shaped sign: one checker takes them as a single sign, not punctuation, the other (with low confidence) sees something like a comma within a cluster of signs of unclear purpose. Decided by the editor's assistant at the editor's request."
+   },
+   {
+    "ref": "H 67v.21",
+    "lemma": "ὑπεροχὴν τ(ῆς)",
+    "ru": "Принято «ὑπεροχὴν τ(ῆς)», как в транскрипции GPT-6; в транскрипции Claude «τ(ῆς)» пропущено. На скане между ν слова ὑπεροχὴν и τῶν над строкой написана маленькая τ — надстрочное сокращение, раскрытое как τῆς; знак сокращения на ней, по словам одного проверяющего, неотчётлив. Решили оба проверяющих.",
+    "en": "Adopted «ὑπεροχὴν τ(ῆς)», as in GPT-6's transcription; Claude's transcription omits «τ(ῆς)». The scan shows a small τ written above the line between the ν of ὑπεροχὴν and τῶν, a superscript abbreviation expanded as τῆς; one checker found the abbreviation mark on it indistinct. Decided by both checkers."
+   },
+   {
+    "ref": "H 67v.22",
+    "lemma": "τοὺς",
+    "ru": "Принято «τοὺς», как в транскрипции GPT-6; в транскрипции Claude «τοὶς». Проверяющие разошлись: один видит после ο прямую ι, соединённую с σ, другой — u-образную υ, слитую с σ (лигатура υς), оба — с тяжёлым ударением. Решил редактор.",
+    "en": "Adopted «τοὺς», as in GPT-6's transcription; Claude's transcription has «τοὶς». The checkers disagreed: one saw after ο a plain upright ι joined to σ, the other a u-shaped υ fused with σ (υς ligature), both with a grave. Decided by the editor."
+   },
+   {
+    "ref": "H 68r.2",
+    "lemma": "⟦r Γ⟧ὰρ",
+    "ru": "Принята маюскульная «Γ» красного инициала, как в транскрипции Claude; в транскрипции GPT-6 строчная «γ». На скане это увеличенная красная прямоугольная Γ, вынесенная на поле и опускающаяся ниже строки. Решили оба проверяющих.",
+    "en": "Adopted the majuscule «Γ» of the red initial, as in Claude's transcription; GPT-6's transcription has minuscule «γ». The scan shows an enlarged red right-angled Γ standing out into the margin and descending below the line. Decided by both checkers."
+   },
+   {
+    "ref": "H 68r.5",
+    "lemma": "ἐπι",
+    "ru": "Принято «ἐπι» без ударения, как в транскрипции Claude; в транскрипции GPT-6 «ἐπί». На скане высокая ι в конце строки (высокая из-за соединения с перекладиной π) не несёт отдельного штриха ударения, в отличие от ἐπίτασιν в строке 7; ударение сложного слова — острое над τέ в начале строки 6. Решили оба проверяющих.",
+    "en": "Adopted «ἐπι» without accent, as in Claude's transcription; GPT-6's transcription has «ἐπί». The scan shows the tall ι at the line end (tall because joined to the crossbar of π) without a separate accent stroke, unlike ἐπίτασιν in line 7; the compound's accent is the acute on τέ at the start of line 6. Decided by both checkers."
+   },
+   {
+    "ref": "H 68r.6",
+    "lemma": "ἐπ’ οὐδενὶ | ἡμιόλιος·",
+    "ru": "Принято «ἐπ’ οὐδενὶ» и «ἡμιόλιος·», как в транскрипции Claude; в транскрипции GPT-6 «ἐπουδενὶ» и «ἡμιόλιος» без точки. На скане над словом три отдельных знака — придыхание над ε, апостроф над правым краем π и придыхание над ου, — а после ς слова ἡμιόλιος в конце строки стоит верхняя точка. Решили оба проверяющих.",
+    "en": "Adopted «ἐπ’ οὐδενὶ» and «ἡμιόλιος·», as in Claude's transcription; GPT-6's transcription has «ἐπουδενὶ» and «ἡμιόλιος» without a point. The scan shows three separate signs above the word (a breathing over ε, an apostrophe over the right end of π, a breathing over ου), and a high point after the final ς of ἡμιόλιος at the line end. Decided by both checkers."
+   },
+   {
+    "ref": "H 68r.7",
+    "lemma": "τοιγαροῦν",
+    "ru": "Принято «τοιγαροῦν», как в транскрипции GPT-6; в транскрипции Claude «τοιι̣δροῶν[?]». На скане после τοι стоит Γ-образная γ, верхняя перекладина которой переходит в лигатурную α, затем ρ, ο и открытые υ и ν под облечённым ударением, а не ω; слово читается ясно, знак сомнения не нужен. Решили оба проверяющих.",
+    "en": "Adopted «τοιγαροῦν», as in GPT-6's transcription; Claude's transcription has «τοιι̣δροῶν[?]». The scan shows after τοι a Γ-shaped γ whose top bar runs into a ligatured α, then ρ, ο and an open υ with ν under a circumflex, not ω; the word is legible and needs no query. Decided by both checkers."
+   },
+   {
+    "ref": "H 68r.9",
+    "lemma": "τ(οὺς)",
+    "ru": "Принято «τ(οὺς)», как в транскрипции Claude; в транскрипции GPT-6 «τῶ(ν)». На скане в конце строки τ перекладиной соединена с y-образной υ, хвост которой загибается вниз влево, с тяжёлым ударением сверху (сокращение τοὺς); ω и облечённого ударения нет. Решили оба проверяющих.",
+    "en": "Adopted «τ(οὺς)», as in Claude's transcription; GPT-6's transcription has «τῶ(ν)». The scan shows at the line end τ joined by its crossbar to a y-shaped υ with a tail curling down-left and a grave above (the compendium for τοὺς); there is no ω and no circumflex. Decided by both checkers."
+   },
+   {
+    "ref": "H 68r.10",
+    "lemma": "λοιποὺς | νοήσομεν· | ἐξά̣ρην",
+    "ru": "Принято «λοιποὺς» и «ἐξά̣ρην» (транскрипция Claude; в транскрипции GPT-6 «λοιπῶν», «ἐξή̣ρην») и «νοήσομεν·» (транскрипция GPT-6; в транскрипции Claude «μονήσομεν.»). В λοιπ- проверяющие разошлись (один читает ι + σ, т. е. «λοιποὶς», другой — лигатуру υς), как и в ἐξ-ρην (один видит α-образную букву, а не н-образную η, другой — лигатуру ει, «ἐξείρην»); оба места решил редактор. В νοήσομεν оба проверяющих читают буквы ν, ο, η с острым ударением, σ, ο, μ, ε, ν без лишнего слога, а точку после него ассистент редактора (по поручению редактора) определил как верхнюю: она стоит вровень с верхом букв, знак над ней — придыхание ἐξ.",
+    "en": "Adopted «λοιποὺς» and «ἐξά̣ρην» (Claude's transcription; GPT-6's: «λοιπῶν», «ἐξή̣ρην») and «νοήσομεν·» (GPT-6's transcription; Claude's: «μονήσομεν.»). At λοιπ- the checkers disagreed (one read ι + σ, i.e. «λοιποὶς», the other the υς ligature), as also at ἐξ-ρην (one saw an α-type letter, not the н-shaped η, the other the ει ligature, «ἐξείρην»); both points were decided by the editor. In νοήσομεν both checkers read the letters ν, ο, η with acute, σ, ο, μ, ε, ν, with no extra syllable, and the point after it was judged a high point by the editor's assistant at the editor's request: it stands level with the letter tops, the mark above it being the breathing of ἐξ."
+   },
+   {
+    "ref": "H 68r.12",
+    "lemma": "χορδῶ(ν).",
+    "ru": "Принята точка «χορδῶ(ν).», как в транскрипции Claude; в транскрипции GPT-6 верхняя точка «χορδῶ(ν)·». На скане точка на уровне ударений принадлежит концу горизонтального штриха сокращения ν, а пунктуация — отдельная точка в нижней половине букв. Решили оба проверяющих.",
+    "en": "Adopted the point «χορδῶ(ν).», as in Claude's transcription; GPT-6's transcription has a high point, «χορδῶ(ν)·». The scan shows that the dot at accent level belongs to the end of the horizontal ν-suspension stroke, while the punctuation is a separate point in the lower half of the letters. Decided by both checkers."
+   },
+   {
+    "ref": "H 68r.13",
+    "lemma": "παχύτητος. | γενομ(ένης)",
+    "ru": "Принято «παχύτητος.» и «γενομ(ένης)», как в транскрипции Claude; в транскрипции GPT-6 «παχύτητος·» и «γενομέ(νης)». На скане точка после παχύτητος стоит на середине высоты букв, ниже верхней точки после τάσεως в той же строке; в γενομ над μ стоит S-образный знак сокращения (не ε) с отдельным острым ударением справа, так что ε буквой не написана. Решили оба проверяющих.",
+    "en": "Adopted «παχύτητος.» and «γενομ(ένης)», as in Claude's transcription; GPT-6's transcription has «παχύτητος·» and «γενομέ(νης)». The scan shows the point after παχύτητος at mid-height, below the high point after τάσεως in the same line; in γενομ an S-shaped suspension sign (not an ε) stands above μ with a separate acute to its right, so no ε is written as a letter. Decided by both checkers."
+   },
+   {
+    "ref": "H 68r.16",
+    "lemma": "ἐμπνευστῶν·",
+    "ru": "Принята верхняя точка «ἐμπνευστῶν·», как в транскрипции GPT-6; в транскрипции Claude «ἐμπνευστῶν.». На скане верх точки почти вровень с верхом букв, центр примерно на 0,3 высоты буквы — ближе к верхним точкам страницы (как после τάσεως в 68r.13), чем к средним; один проверяющий считает случай пограничным. Решил ассистент редактора (по поручению редактора).",
+    "en": "Adopted the high point «ἐμπνευστῶν·», as in GPT-6's transcription; Claude's transcription has «ἐμπνευστῶν.». The scan shows the top of the point almost level with the letter tops and its centre at about 0.3 of the letter height, nearer the page's high points (as after τάσεως in 68r.13) than its middle points; one checker calls it borderline. Decided by the editor's assistant at the editor's request."
+   },
+   {
+    "ref": "H 68r.17",
+    "lemma": "⟦r Τ⟧ῆς",
+    "ru": "Принята маюскульная «Τ» красного инициала, как в транскрипции Claude; в транскрипции GPT-6 строчная «τ». На скане это увеличенная красная Τ с засечками, вынесенная на поле и опускающаяся ниже строки. Решили оба проверяющих.",
+    "en": "Adopted the majuscule «Τ» of the red initial, as in Claude's transcription; GPT-6's transcription has minuscule «τ». The scan shows an enlarged red Τ with serifs standing out into the margin and descending below the line. Decided by both checkers."
+   },
+   {
+    "ref": "H 68r.19",
+    "lemma": "μέν | ἐστι",
+    "ru": "Принято «μέν» и «ἐστι», как в транскрипции Claude; в транскрипции GPT-6 «μὲν» и «ἐστὶ». На скане ударение над ε в μεν восходит слева снизу вправо вверх (острое), а над τι в ἐστι ударения нет, есть только придыхание над ε. Решили оба проверяющих.",
+    "en": "Adopted «μέν» and «ἐστι», as in Claude's transcription; GPT-6's transcription has «μὲν» and «ἐστὶ». The scan shows a rising accent over the ε of μεν (acute) and no accent over the τι of ἐστι, only a breathing over its ε. Decided by both checkers."
+   },
+   {
+    "ref": "H 68r.20",
+    "lemma": "διὰ τεσσάρων",
+    "ru": "Принято раздельное «διὰ τεσσάρων», как в транскрипции Claude; в транскрипции GPT-6 «διατεσσάρων». На скане над α в δια стоит ясное тяжёлое ударение, отдельное от острого над σά. Решили оба проверяющих.",
+    "en": "Adopted the separate «διὰ τεσσάρων», as in Claude's transcription; GPT-6's transcription has «διατεσσάρων». The scan shows a clear grave over the α of δια, separate from the acute on σά. Decided by both checkers."
+   },
+   {
+    "ref": "H 68v.1",
+    "lemma": "τὴν | διὰ πα",
+    "ru": "Принято «τὴν» без точки под буквой, как в транскрипции GPT-6 (в транскрипции Claude «τὴ̣ν»), и «διὰ πα», как в транскрипции Claude (в транскрипции GPT-6 «διαπα»). На скане η написана в строчной h-образной форме, более редкой у писца, но читается ясно; над α в Δια стоит тяжёлое ударение. Решили оба проверяющих.",
+    "en": "Adopted «τὴν» without an underdot, as in GPT-6's transcription (Claude's: «τὴ̣ν»), and «διὰ πα», as in Claude's transcription (GPT-6's: «διαπα»). The scan shows η in the minuscule h-shaped form, less common with this scribe but clearly legible, and a grave over the α of Δια. Decided by both checkers."
+   },
+   {
+    "ref": "H 68v.2",
+    "lemma": "ἰσχύν | συνέ",
+    "ru": "Принято «ἰσχύν» и «συνέ», как в транскрипции GPT-6; в транскрипции Claude «ἰαχώ[?]» и «συνε». На скане после ἰ стоит σ (замкнутая петля, верхняя перекладина которой переходит в χ, без мачты α), затем χ и открытые υ и ν с острым ударением, а не ω — слово читается ясно, знак сомнения не нужен; над конечной маюскульной Ε в конце строки стоит острое ударение. Решили оба проверяющих.",
+    "en": "Adopted «ἰσχύν» and «συνέ», as in GPT-6's transcription; Claude's transcription has «ἰαχώ[?]» and «συνε». The scan shows after ἰ a σ (a closed loop whose top bar runs into χ, with no α stem), then χ and an open υ and ν with an acute, not ω, clearly legible and needing no query; an acute stands over the final majuscule Ε at the line end. Decided by both checkers."
+   },
+   {
+    "ref": "H 68v.3",
+    "lemma": "ἐκκαιδεκάχορδον | δὶς δι",
+    "ru": "Принято «ἐκκαιδεκάχορδον» и «δὶς δι», как в транскрипции Claude; в транскрипции GPT-6 «ἑκκαιδεκάχορδον» и «δισδι». На скане придыхание над ε — бесхвостая капля (тонкое, как в ὀκτάχορδον и ἰσχύν; густое имеет хвост вправо), а над ι в δὶς стоит тяжёлое ударение, которое чтение GPT-6 опускает. Решили оба проверяющих (один в первом случае с умеренной уверенностью).",
+    "en": "Adopted «ἐκκαιδεκάχορδον» and «δὶς δι», as in Claude's transcription; GPT-6's transcription has «ἑκκαιδεκάχορδον» and «δισδι». The scan shows over the ε a tailless breathing (smooth, as on ὀκτάχορδον and ἰσχύν; the rough one has a tail to the right), and a grave over the ι of δὶς, which GPT-6's reading omits. Decided by both checkers (one with medium confidence on the breathing)."
+   },
+   {
+    "ref": "H 68v.6",
+    "lemma": "προειρημένας·",
+    "ru": "Принята верхняя точка «προειρημένας·», как в транскрипции GPT-6; в транскрипции Claude «προειρημένας.». На скане верх точки почти вровень с верхом α и σ, на той же высоте, что верхние точки в конце строки 5 и после τε в строке 8, и выше средних точек строки 7. Решили оба проверяющих.",
+    "en": "Adopted the high point «προειρημένας·», as in GPT-6's transcription; Claude's transcription has «προειρημένας.». The scan shows the top of the point almost level with the tops of α and σ, at the same height as the high points at the end of line 5 and after τε in line 8, and above the middle points of line 7. Decided by both checkers."
+   },
+   {
+    "ref": "H 68v.7",
+    "lemma": "διὰ τεσσάρων. | διὰ πέν",
+    "ru": "Принято «διὰ τεσσάρων.» и «διὰ πέν», как в транскрипции Claude; в транскрипции GPT-6 «διατεσσάρων·» и «διαπέν». На скане над α в обоих δια стоит тяжёлое ударение, а точка после τεσσάρων — на середине высоты букв, ниже верхних точек в 68v.6 и 68v.8. Решили оба проверяющих.",
+    "en": "Adopted «διὰ τεσσάρων.» and «διὰ πέν», as in Claude's transcription; GPT-6's transcription has «διατεσσάρων·» and «διαπέν». The scan shows a grave over the α of both δια, and the point after τεσσάρων at mid-height, lower than the high points in 68v.6 and 68v.8. Decided by both checkers."
+   },
+   {
+    "ref": "H 68v.8",
+    "lemma": "τε· | διαπασῶν.",
+    "ru": "Принято «τε·» и «διαπασῶν.», как в транскрипции GPT-6; в транскрипции Claude «τε.» и «διαπασῶν,». На скане верх точки после τε вровень с верхом ε (верхняя точка), а после διαπασῶν стоит круглая точка на линии строки с крошечной зарубкой, без хвоста под строку, в отличие от запятой в 67v.9. Решили оба проверяющих.",
+    "en": "Adopted «τε·» and «διαπασῶν.», as in GPT-6's transcription; Claude's transcription has «τε.» and «διαπασῶν,». The scan shows the top of the point after τε level with the top of ε (high point), and after διαπασῶν a round point on the baseline with a tiny notch and no tail below the line, unlike the comma in 67v.9. Decided by both checkers."
+   },
+   {
+    "ref": "H 68v.10",
+    "lemma": "ἐμ̣μέσω",
+    "ru": "Принято «ἐμ̣μέσω» с точкой под первой μ; в транскрипции Claude «ἐμμέσω», в транскрипции GPT-6 «ἐν μέσω». На скане после ἐ две одинаковые μ-образные буквы без промежутка, но этот писец так же пишет и ν, поэтому оба проверяющих сочли, что по скану выбор сделать нельзя. Решил редактор.",
+    "en": "Adopted «ἐμ̣μέσω», with a dot under the first μ; Claude's transcription has «ἐμμέσω», GPT-6's «ἐν μέσω». The scan shows after ἐ two identical μ-shaped letters with no space between them, but this scribe writes ν with the same shape, so both checkers found that the scan cannot decide. Decided by the editor."
+   },
+   {
+    "ref": "H 68v.11",
+    "lemma": "διαστήμα",
+    "ru": "Принято «διαστήμα» в конце строки, как в транскрипции GPT-6; в транскрипции Claude «διαστήματα». На скане после α до поля чистый пергамен, а строка 12 начинается с τα, так что чтение Claude удваивает τα. Решили оба проверяющих.",
+    "en": "Adopted «διαστήμα» at the line end, as in GPT-6's transcription; Claude's transcription has «διαστήματα». The scan shows blank parchment after α up to the margin, and line 12 begins with τα, so Claude's reading doubles the τα. Decided by both checkers."
+   },
+   {
+    "ref": "H 68v.12",
+    "lemma": "αφαιρέσεως",
+    "ru": "Принято «αφαιρέσεως» без придыхания (так написано), как в транскрипции Claude; в транскрипции GPT-6 «ἀφαιρέσεως». На скане придыхание есть над ε в ἐξ, а над начальной α слова αφαι- его нет. Решили оба проверяющих.",
+    "en": "Adopted «αφαιρέσεως» without breathing (as written), as in Claude's transcription; GPT-6's transcription has «ἀφαιρέσεως». The scan shows a breathing over the ε of ἐξ but none over the initial α of αφαι-. Decided by both checkers."
+   },
+   {
+    "ref": "H 68v.15",
+    "lemma": "τοιόν",
+    "ru": "Принято «τοιόν», как в транскрипции Claude; в транскрипции GPT-6 «τοιὸν». На скане ударение над второй ο восходит слева снизу вправо вверх (острое). Решили оба проверяющих.",
+    "en": "Adopted «τοιόν», as in Claude's transcription; GPT-6's transcription has «τοιὸν». The scan shows the accent over the second ο rising from lower left to upper right (acute). Decided by both checkers."
+   },
+   {
+    "ref": "H 68v.17",
+    "lemma": "(καὶ) | ἁρμονίας.",
+    "ru": "Принято «(καὶ)» и «ἁρμονίας.», как в транскрипции GPT-6; в транскрипции Claude «καὶ» и «ἁρμονίας,». На скане строка начинается S-образным сокращением καί с тяжёлым ударением, без букв κ-α-ι, что по правилу транскрипции передаётся «(καὶ)»; после ἁρμονίας — круглая точка у линии строки с небольшой зарубкой, без хвоста под строку. Решили оба проверяющих.",
+    "en": "Adopted «(καὶ)» and «ἁρμονίας.», as in GPT-6's transcription; Claude's transcription has «καὶ» and «ἁρμονίας,». The scan shows the line opening with the S-shaped compendium for καί with a grave, with no letters κ-α-ι, rendered «(καὶ)» by the transcription convention; after ἁρμονίας there is a round point at the baseline with a small notch and no tail below the line. Decided by both checkers."
+   },
+   {
+    "ref": "H 69r.1",
+    "lemma": "νία | συνέχεται,",
+    "ru": "Принято «νία», как в транскрипции GPT-6 (в транскрипции Claude «μίας»), и запятая «συνέχεται,», как в транскрипции Claude (в транскрипции GPT-6 «συνέχεται.»). На скане первая буква — μ-образная форма, которой писец пишет и ν (68v.22 кончается на ἁρμο-); между α и υ лишь одна σ, принадлежащая συνέχεται; после συνέχεται стоит знак с хвостом, загибающимся вниз влево под линию строки, — запятая. Решили оба проверяющих.",
+    "en": "Adopted «νία», as in GPT-6's transcription (Claude's: «μίας»), and the comma «συνέχεται,», as in Claude's transcription (GPT-6's: «συνέχεται.»). The scan shows as first letter the μ-shaped form this scribe also uses for ν (68v.22 ends in ἁρμο-), a single σ between α and υ that belongs to συνέχεται, and after συνέχεται a mark whose tail curves down-left below the baseline, a comma. Decided by both checkers."
+   },
+   {
+    "ref": "H 69r.2",
+    "lemma": "μέλος.",
+    "ru": "Принято «μέλος.»: буквы — как в транскрипции GPT-6 (в транскрипции Claude «μέρος»), точка — как в транскрипции Claude (в транскрипции GPT-6 «·»). На скане после μέ длинный косой штрих сверху справа вниз влево под строку без петли — лигатурная λ (ρ у этого писца всегда с петлёй); это решили оба проверяющих. Точка после μέλος стоит на середине высоты букв (знак над ней — придыхание οὐ); её определил ассистент редактора (по поручению редактора).",
+    "en": "Adopted «μέλος.»: the letters as in GPT-6's transcription (Claude's: «μέρος»), the point as in Claude's transcription (GPT-6's: «·»). The scan shows after μέ a long oblique stroke from upper right down to lower left below the line, with no bowl, the ligature form of λ (ρ in this hand always has a bowl); decided by both checkers. The point after μέλος stands at mid-height (the mark above it is the breathing of οὐ); decided by the editor's assistant at the editor's request."
+   },
+   {
+    "ref": "H 69r.3",
+    "lemma": "προφέρεται | οὐ γ(ὰρ)",
+    "ru": "Принято «προφέρεται», как в транскрипции GPT-6 (в транскрипции Claude «περιφέρεται»), и «οὐ γ(ὰρ)», как в транскрипции Claude (в транскрипции GPT-6 «οὐδ’»). На скане между π и φ только ρ и ο, без ε-ρ-ι, а в конце строки после οὐ стоит 7-образный γ с тяжёлым ударением (сокращение γάρ, как в 67r.3), без петли δ. Решили оба проверяющих.",
+    "en": "Adopted «προφέρεται», as in GPT-6's transcription (Claude's: «περιφέρεται»), and «οὐ γ(ὰρ)», as in Claude's transcription (GPT-6's: «οὐδ’»). The scan shows only ρ and ο between π and φ, with no ε-ρ-ι, and at the line end after οὐ a 7-shaped γ with a grave (the compendium for γάρ, as in 67r.3), with no bowl of δ. Decided by both checkers."
+   },
+   {
+    "ref": "H 69r.6",
+    "lemma": "διὰ τεσσάρων",
+    "ru": "Принято раздельное «διὰ τεσσάρων», как в транскрипции Claude; в транскрипции GPT-6 «διατεσσάρων». На скане над α в δια стоит собственное тяжёлое ударение, отдельное от тяжёлого над τὸ. Решили оба проверяющих.",
+    "en": "Adopted the separate «διὰ τεσσάρων», as in Claude's transcription; GPT-6's transcription has «διατεσσάρων». The scan shows a grave of its own over the α of δια, separate from the grave on τὸ. Decided by both checkers."
+   },
+   {
+    "ref": "H 69r.7",
+    "lemma": "σται·",
+    "ru": "Принята верхняя точка «σται·», как в транскрипции Claude; в транскрипции GPT-6 «σται.». На скане верх точки вровень с верхом букв, она занимает верхнюю часть их высоты и стоит заметно выше нижних точек в строках 8-9 (πται. θεμένων.). Решили оба проверяющих.",
+    "en": "Adopted the high point «σται·», as in Claude's transcription; GPT-6's transcription has «σται.». The scan shows the top of the point level with the letter tops, in the upper part of the letter height, well above the low points in lines 8-9 (πται. θεμένων.). Decided by both checkers."
+   },
+   {
+    "ref": "H 69r.8",
+    "lemma": "δύο | ἐντι",
+    "ru": "Принято «δύο» и «ἐντι», как в транскрипции GPT-6; в транскрипции Claude «διὸ» и «ἐν τι». В первом месте проверяющие разошлись: один видит буквы δ-ι-ο с острым ударением («διό»), другой — u-образную υ, соединённую с ο, с острым ударением над υ; решил редактор. Во втором месте — только словораздел (строка 9 начинается с θεμένων), решённый обоими проверяющими по правилу транскрипции.",
+    "en": "Adopted «δύο» and «ἐντι», as in GPT-6's transcription; Claude's transcription has «διὸ» and «ἐν τι». At the first point the checkers disagreed: one saw the letters δ-ι-ο with an acute («διό»), the other a u-shaped υ joined to ο with the acute over υ; decided by the editor. The second is word division only (line 9 begins θεμένων), settled by both checkers under the transcription convention."
+   },
+   {
+    "ref": "H 69r.10",
+    "lemma": "διὰ τεσσά",
+    "ru": "Принято раздельное «διὰ τεσσά», как в транскрипции Claude; в транскрипции GPT-6 «διατεσσά». На скане над ι/α в δια стоит второе тяжёлое ударение, отдельное от ударения над τὸ; бледное пятнышко над ним — дефект пергамена, а не чернила. Решили оба проверяющих.",
+    "en": "Adopted the separate «διὰ τεσσά», as in Claude's transcription; GPT-6's transcription has «διατεσσά». The scan shows a second grave over the ι/α of δια, separate from that on τὸ; the pale speck above it is a flaw in the parchment, not ink. Decided by both checkers."
+   },
+   {
+    "ref": "H 69r.17",
+    "lemma": "κεκραμένον | διὰ τεσ",
+    "ru": "Принято «κεκραμένον», как в транскрипции GPT-6 (в транскрипции Claude «κεκρωμένον»), и «διὰ τεσ», как в транскрипции Claude (в транскрипции GPT-6 «διατε»). На скане после κεκρ стоит α (замкнутая петля с мачтой справа), а не широкая двухпетлевая ω; над α в δια написано тяжёлое ударение (словораздел — по правилу транскрипции), а строка кончается τ с лигатурой εσ. Решили оба проверяющих.",
+    "en": "Adopted «κεκραμένον», as in GPT-6's transcription (Claude's: «κεκρωμένον»), and «διὰ τεσ», as in Claude's transcription (GPT-6's: «διατε»). The scan shows after κεκρ an α (a closed bowl with an upright stem on the right), not the wide double-bowled ω; a grave is written over the α of δια (word division by the transcription convention), and the line ends in τ with the εσ ligature. Decided by both checkers."
+   },
+   {
+    "ref": "H 69r.18",
+    "lemma": "σάρων",
+    "ru": "Принято «σάρων», как в транскрипции Claude; в транскрипции GPT-6 «σσάρων»: на скане строка начинается одной σ перед ά. Решили оба проверяющих.",
+    "en": "Adopted «σάρων», as in Claude's transcription; GPT-6's transcription has «σσάρων»: the scan shows a single σ before ά at the start of the line. Decided by both checkers."
+   },
+   {
+    "ref": "H 69r.19",
+    "lemma": "γοερώτερο(ν)·",
+    "ru": "Принято «γοερώτερο(ν)·», как в транскрипции Claude; в транскрипции GPT-6 «γοερώτερ(ον)·». На скане после ρ на строке написана полноразмерная ο, над ней — горизонтальный штрих сокращения ν, так что восполняется только ν. Решили оба проверяющих.",
+    "en": "Adopted «γοερώτερο(ν)·», as in Claude's transcription; GPT-6's transcription has «γοερώτερ(ον)·». The scan shows a full-size ο written on the line after ρ, with a horizontal ν-suspension stroke above it, so only ν is supplied. Decided by both checkers."
+   },
+   {
+    "ref": "H 69r.22",
+    "lemma": "συμφθάρσεως· | διὰ",
+    "ru": "Принято «συμφθάρσεως·» (транскрипция GPT-6; в транскрипции Claude «συμφθάρσεως.») и «διὰ» (транскрипция Claude; в транскрипции GPT-6 «διά»). На скане круглая точка стоит в верхней части букв, её верх чуть ниже их верха (один проверяющий называет случай пограничным), а ударение над α в δια идёт сверху слева вниз направо (тяжёлое). Точку определил ассистент редактора (по поручению редактора), ударение — оба проверяющих.",
+    "en": "Adopted «συμφθάρσεως·» (GPT-6's transcription; Claude's: «συμφθάρσεως.») and «διὰ» (Claude's transcription; GPT-6's: «διά»). The scan shows a round point in the upper part of the letters, its top just below the letter tops (one checker calls it borderline), and the accent over the α of δια running from upper left down to the right (grave). The point was decided by the editor's assistant at the editor's request, the accent by both checkers."
+   },
+   {
+    "ref": "H 69v.4",
+    "lemma": "γ(ὰρ) | τρόπον,",
+    "ru": "Принято «γ(ὰρ)» и запятая «τρόπον,», как в транскрипции Claude; в транскрипции GPT-6 «δ’» и «τρόπον.». На скане после ὅμοιον — 7-образный γ с тяжёлым ударением (сокращение γάρ), без петли δ (решили оба проверяющих); после τρόπον — вытянутый знак с круглой головкой справа вверху и хвостом влево и слегка вниз, по форме запятая, хотя один проверяющий отмечает, что запятая и нижняя точка здесь трудно различимы. Знак после τρόπον определил ассистент редактора (по поручению редактора).",
+    "en": "Adopted «γ(ὰρ)» and the comma «τρόπον,», as in Claude's transcription; GPT-6's transcription has «δ’» and «τρόπον.». The scan shows after ὅμοιον a 7-shaped γ with a grave (the compendium for γάρ), with no bowl of δ (decided by both checkers); after τρόπον an elongated mark with a round head at upper right and a tail running left and slightly down, comma-shaped, though one checker notes that the scribe's comma and low point are hard to tell apart here. The mark after τρόπον was decided by the editor's assistant at the editor's request."
+   },
+   {
+    "ref": "H 69v.6",
+    "lemma": "διὰ τεσ",
+    "ru": "Принято «διὰ τεσ», как в транскрипции Claude; в транскрипции GPT-6 «διατε». На скане над α в δια написано тяжёлое ударение (словораздел — по правилу транскрипции), а строка кончается τ с лигатурой εσ. Решили оба проверяющих.",
+    "en": "Adopted «διὰ τεσ», as in Claude's transcription; GPT-6's transcription has «διατε». The scan shows a grave written over the α of δια (word division by the transcription convention) and the line ending in τ with the εσ ligature. Decided by both checkers."
+   },
+   {
+    "ref": "H 69v.7",
+    "lemma": "σάρων",
+    "ru": "Принято «σάρων», как в транскрипции Claude; в транскрипции GPT-6 «σσάρων»: на скане строка начинается одной σ, вторая σ — в конце строки 6. Решили оба проверяющих.",
+    "en": "Adopted «σάρων», as in Claude's transcription; GPT-6's transcription has «σσάρων»: the scan shows a single σ at the start of the line, the second σ standing at the end of line 6. Decided by both checkers."
+   },
+   {
+    "ref": "H 69v.11",
+    "lemma": "ἐστὶ",
+    "ru": "Принято «ἐστὶ», как в транскрипции Claude; в транскрипции GPT-6 «ἐστί». На скане над τι стоит отдельное ударение, идущее сверху слева вниз направо (тяжёлое). Решили оба проверяющих.",
+    "en": "Adopted «ἐστὶ», as in Claude's transcription; GPT-6's transcription has «ἐστί». The scan shows a free-standing accent over τι running from upper left down to the right (grave). Decided by both checkers."
+   },
+   {
+    "ref": "H 69v.12",
+    "lemma": "οὐδ’",
+    "ru": "Принято «οὐδ’», как в транскрипции Claude; в транскрипции GPT-6 «οὐδὲ». На скане написана одна ε (δ, затем Ε, ι, ς), а сверху — апостроф и придыхание над ει; второй ε и тяжёлого ударения нет. Решили оба проверяющих.",
+    "en": "Adopted «οὐδ’», as in Claude's transcription; GPT-6's transcription has «οὐδὲ». The scan shows a single ε (δ, then Ε, ι, ς) and, above, an apostrophe and a breathing over the ει; there is no second ε and no grave. Decided by both checkers."
+   },
+   {
+    "ref": "H 69v.13",
+    "lemma": "τε",
+    "ru": "Принято «τε» без ударения, как в транскрипции GPT-6; в транскрипции Claude «τέ». На скане восходящий вправо штрих — верхний штрих самой ε в лигатуре τε, отдельного ударения нет; ближайшее ударение — тяжёлое над καὶ. Решили оба проверяющих.",
+    "en": "Adopted «τε» without accent, as in GPT-6's transcription; Claude's transcription has «τέ». The scan shows that the stroke rising to the right is the upper stroke of the ε itself in the τε ligature, with no separate accent; the nearest accent is the grave on καὶ. Decided by both checkers."
+   },
+   {
+    "ref": "H 69v.16",
+    "lemma": "πάλιν",
+    "ru": "Принято «πάλιν», как в транскрипции GPT-6; в транскрипции Claude «πάν η». На скане после πά — лигатурная λ (длинный косой штрих ниже строки, как во второй λ слова ποικίλλεται), затем ι и ν маюскульной формы, а не η. Решили оба проверяющих.",
+    "en": "Adopted «πάλιν», as in GPT-6's transcription; Claude's transcription has «πάν η». The scan shows after πά the ligature λ (a long oblique stroke below the line, as in the second λ of ποικίλλεται), then ι and a majuscule-form ν, not η. Decided by both checkers."
+   },
+   {
+    "ref": "H 69v.20",
+    "lemma": "ἐφ | παιήων",
+    "ru": "Принято «ἐφ» без апострофа (так написано) и «παιήων», как в транскрипции Claude; в транскрипции GPT-6 «ἐφ’» и «παιών». На скане после φ апострофа нет (знаки сверху — тонкое придыхание над ἐ и густое над ἑ), а после παι ясно написана Н-образная η с острым ударением, затем ω и ν. Решили оба проверяющих.",
+    "en": "Adopted «ἐφ» without apostrophe (as written) and «παιήων», as in Claude's transcription; GPT-6's transcription has «ἐφ’» and «παιών». The scan shows no apostrophe after φ (the marks above are the smooth breathing on ἐ and the rough breathing on ἑ), and after παι a clearly written H-shaped η with an acute, then ω and ν. Decided by both checkers."
+   },
+   {
+    "ref": "H 69v.22",
+    "lemma": "τῆ",
+    "ru": "Принято «τῆ» без приписной йоты, как в транскрипции Claude; в транскрипции GPT-6 «τῆι». На скане после η с облечённым ударением сразу следует τῶν; приписная йота не написана. Решили оба проверяющих.",
+    "en": "Adopted «τῆ» without adscript iota, as in Claude's transcription; GPT-6's transcription has «τῆι». The scan shows η with a circumflex followed directly by τῶν; no adscript iota is written. Decided by both checkers."
+   },
+   {
+    "ref": "H 70r.1",
+    "lemma": "μεταφορᾶ·",
+    "ru": "Принято «μεταφορᾶ·» с облечённым ударением; в транскрипции Claude «μεταφορὰ·», в транскрипции GPT-6 «μεταφορά·». Оба проверяющих исключают острое ударение, но разошлись: один видит короткую плоскую дугу, по форме и размеру совпадающую с облечёнными ударениями страницы, другой — короткий штрих, спускающийся вправо, без загнутой вниз левой ножки облечённого, т. е. тяжёлое. Решил ассистент редактора (по поручению редактора).",
+    "en": "Adopted «μεταφορᾶ·» with a circumflex; Claude's transcription has «μεταφορὰ·», GPT-6's «μεταφορά·». Both checkers rule out an acute but disagreed: one saw a short flat arch matching the page's circumflexes in shape and size, the other a short stroke sloping down to the right, lacking the turned-down left leg of the circumflex, i.e. a grave. Decided by the editor's assistant at the editor's request."
+   },
+   {
+    "ref": "H 70r.2",
+    "lemma": "διαφορᾶ·",
+    "ru": "Принято «διαφορᾶ·», как в транскрипции GPT-6; в транскрипции Claude «διαφορὰ·». На скане ударение над конечной α — короткая дуга, загибающаяся вниз справа, почти тождественная облечённому над ταῖς в той же строке и непохожая на длинные прямые тяжёлые ударения в ἀλλὰ и καὶ. Решили оба проверяющих.",
+    "en": "Adopted «διαφορᾶ·», as in GPT-6's transcription; Claude's transcription has «διαφορὰ·». The scan shows over the final α a short arch curling down at the right, almost identical to the circumflex on ταῖς in the same line and unlike the long straight graves on ἀλλὰ and καὶ. Decided by both checkers."
+   },
+   {
+    "ref": "H 70r.3",
+    "lemma": "μεταβάσεσι",
+    "ru": "Принято «μεταβάσεσι», как в транскрипции GPT-6; в транскрипции Claude «μετακινήσεσι». На скане после μετα стоит u-образная β, затем ά с острым ударением, σ, лигатура εσ и ι; между μετα и σεσι лишь две буквы, последовательности κινη- нет. Решили оба проверяющих.",
+    "en": "Adopted «μεταβάσεσι», as in GPT-6's transcription; Claude's transcription has «μετακινήσεσι». The scan shows after μετα a u-shaped β, then ά with an acute, σ, the εσ ligature and ι; only two letters stand between μετα and σεσι, with no κινη- sequence. Decided by both checkers."
+   },
+   {
+    "ref": "H 70r.4",
+    "lemma": "τὲ",
+    "ru": "Принято «τὲ» с тяжёлым ударением (так написано); в транскрипции Claude «τέ», в транскрипции GPT-6 «τε». На скане над ε лигатуры τε стоит прямой штрих, идущий сверху слева вниз направо, отдельный от тяжёлого ударения над καὶ. Оба проверяющих отвергли оба чтения и прочли «τὲ».",
+    "en": "Adopted «τὲ» with a grave (as written); Claude's transcription has «τέ», GPT-6's «τε». The scan shows over the ε of the τε ligature a straight stroke running from upper left down to the right, separate from the grave on καὶ. Both checkers rejected both readings and read «τὲ»."
+   },
+   {
+    "ref": "H 70r.7",
+    "lemma": "Τέλο(ς) τ(ῆ)ς μουσικ(ῆ)ς:",
+    "ru": "Принято «Τέλο(ς) τ(ῆ)ς μουσικ(ῆ)ς:», как в транскрипции Claude; в транскрипции GPT-6 «Τέλ(ος) τ(ῆς) μουσικῆς·». На скане (всё красными чернилами) над λ справа написана маленькая ο, над τ и над κ — надстрочная ς с облечённым ударением, без η, а в конце — две красные точки одна над другой (двоеточие). Решили оба проверяющих.",
+    "en": "Adopted «Τέλο(ς) τ(ῆ)ς μουσικ(ῆ)ς:», as in Claude's transcription; GPT-6's transcription has «Τέλ(ος) τ(ῆς) μουσικῆς·». The scan (all in red ink) shows a small ο written above and to the right of λ, a superscript ς with a circumflex over τ and over κ, with no η, and at the end two red dots one above the other (a double point). Decided by both checkers."
+   }
+  ],
+  "corrections": [
+   {
+    "ref": "H 68r.10",
+    "what": "Evidence for νοήσομεν was overstated: only one checker said 'exactly eight letters' and called the first ν μ-shaped (the other gave the μ-like form to the ν of λόγων). Changed 'оба проверяющих насчитали восемь букв (μ-образная ν, ο, …)' / 'both checkers counted eight letters (μ-shaped ν, ο, …)' to 'оба проверяющих читают буквы ν, ο, η с острым ударением, σ, ο, μ, ε, ν' / 'both checkers read the letters ν, ο, η with acute, σ, ο, μ, ε, ν'."
+   },
+   {
+    "ref": "H 69v.12",
+    "what": "The Russian put the apostrophe over the ε ('над которой стоят апостроф…'), which the record does not say; the English was ambiguous. Changed to 'а сверху — апостроф и придыхание над ει' / 'and, above, an apostrophe and a breathing over the ει'."
+   }
+  ],
+  "flags": []
+ },
+ {
+  "chunk": "small",
+  "footnotes": [
+   {
+    "ref": "Par. 21r.19-20 (= Bas. 24.23)",
+    "lemma": "γὰρ",
+    "ru": "«γὰρ» — так в транскрипции Claude; в транскрипции GPT-6 «δ’». После εἰ стоит одна литера-сокращение: κ-образный знак с ударением вверху справа, та же, что перед λόγον в 21v.18; знак δέ в этом издании другой, и это не δ с апострофом. Решили оба проверяющих.",
+    "en": "«γὰρ» as in Claude's transcription; GPT-6's has «δ’». After εἰ stands a single compendium sort, a κ-like sign with an accent at the upper right, the same sort as before λόγον at 21v.18; this print's δέ sign is different, and this is not δ with an apostrophe. Decided by both checkers."
+   },
+   {
+    "ref": "Par. 21v.18 (= Bas. 25.14)",
+    "lemma": "γὰρ",
+    "ru": "«γὰρ» — так в транскрипции Claude; в транскрипции GPT-6 «δὲ». Между ὃν и λόγον стоит то же κ-образное сокращение γάρ с ударением, что в 21r.19; ни знака δέ этого издания, ни δὲ, написанного полностью, нет. Решили оба проверяющих.",
+    "en": "«γὰρ» as in Claude's transcription; GPT-6's has «δὲ». Between ὃν and λόγον stands the same κ-like γάρ compendium with an accent as at 21r.19; there is neither this print's δέ sign nor δὲ written out. Decided by both checkers."
+   },
+   {
+    "ref": "Par. 23r.16 (= Bas. 27.16)",
+    "lemma": "ἄμεσα",
+    "ru": "«ἄμεσα» — так в транскрипции Claude; в транскрипции GPT-6 «ἀμερῆ». Напечатаны ἄ (тонкое придыхание и акут), μ, ε и лигатура σα (большая C-образная литера с α внутри); ни ρ, ни η, ни облечённого ударения нет. Решили оба проверяющих.",
+    "en": "«ἄμεσα» as in Claude's transcription; GPT-6's has «ἀμερῆ». The print has ἄ (smooth breathing and acute), μ, ε and the σα ligature (a large C-shape enclosing α); there is no ρ, no η and no circumflex. Decided by both checkers."
+   },
+   {
+    "ref": "Par. 23v.4-5 (= Bas. 27.24)",
+    "lemma": "περαινόμενον",
+    "ru": "«περαινόμενον» — так в транскрипции Claude; в транскрипции GPT-6 «περαινούμενον». После περαιν стоит простое маленькое ο с акутом, затем лигатура μεν и ον; лигатуры ου (ȣ) нет, ср. иную форму ȣ́ в τελούμενον следующей строки. Решили оба проверяющих.",
+    "en": "«περαινόμενον» as in Claude's transcription; GPT-6's has «περαινούμενον». After περαιν comes a plain small ο with an acute, then the μεν ligature and ον; there is no ου (ȣ) ligature, cf. the different ȣ́ in τελούμενον in the next line. Decided by both checkers."
+   },
+   {
+    "ref": "Par. 23v.7 (= Bas. 28.1)",
+    "lemma": "τελειούμενον",
+    "ru": "«τελειούμενον» — так в транскрипции Claude; в транскрипции GPT-6 «τελούμενον». После τελ стоит лигатура ει, затем ȣ́ (ου с акутом), μεν и ον; строкой выше (23v.6) напечатано τελούμενον без ει, так что две строки различаются в самом издании. Решили оба проверяющих.",
+    "en": "«τελειούμενον» as in Claude's transcription; GPT-6's has «τελούμενον». After τελ stands the ει ligature, then ȣ́ (ου with acute), μεν and ον; the line above (23v.6) prints τελούμενον without ει, so the two lines differ in the print itself. Decided by both checkers."
+   },
+   {
+    "ref": "Par. 26r.12 (= Bas. 31.23)",
+    "lemma": "ἢ",
+    "ru": "«ἢ» (частица) — так в транскрипции GPT-6; в транскрипции Claude «ἡ» (артикль). Над η два отдельных знака: тонкое придыхание и тяжёлое ударение; артикль ἡ в этом издании (26r.8) имеет густое придыхание и не имеет ударения. Решили оба проверяющих.",
+    "en": "«ἢ» (particle) as in GPT-6's transcription; Claude's has «ἡ» (article). Above the η are two separate marks, a smooth breathing and a grave; the article ἡ in this print (26r.8) has a rough breathing and no accent. Decided by both checkers."
+   },
+   {
+    "ref": "Par. 27r.16 (= Bas. 33.12)",
+    "lemma": "παιήων",
+    "ru": "«παιήων» — так в транскрипции Claude; в транскрипции GPT-6 «παιάν». Ясно читаются шесть букв π α ι η ω ν, над η акут; окончания -άν нет. Решили оба проверяющих.",
+    "en": "«παιήων» as in Claude's transcription; GPT-6's has «παιάν». Six clear letters π α ι η ω ν, with an acute on η; there is no ending -άν. Decided by both checkers."
+   },
+   {
+    "ref": "V 75r.19 (= Bas. 23.10)",
+    "lemma": "τεχνητὸν",
+    "ru": "«τεχνητὸν» — так в транскрипции Claude; в транскрипции GPT-6 «τεχνικὸν». После τεχν стоят η, затем τ и ὸν с тяжёлым ударением; сочетания ι+κ нет (κ у этого писца ϰ-образное, как в κἂν непосредственно перед этим). Решили оба проверяющих.",
+    "en": "«τεχνητὸν» as in Claude's transcription; GPT-6's has «τεχνικὸν». After τεχν come η, then τ and ὸν with a grave; there is no ι+κ sequence (this scribe's κ is ϰ-shaped, as in κἂν just before). Decided by both checkers."
+   },
+   {
+    "ref": "V 75v.8 (= Bas. 24.5)",
+    "lemma": "ὀνομάσοι",
+    "ru": "«ὀνομάσοι» — так в транскрипции Claude; в транскрипции GPT-6 «ὀνομάζοι». После ὀνομα стоит плоская σ, протянутая по линии строки и загнутая вверх на конце, с οι над ней; ζ этого писца (χαρίζο-, βιαζόμενον) имеет хвост далеко ниже строки. Решили оба проверяющих.",
+    "en": "«ὀνομάσοι» as in Claude's transcription; GPT-6's has «ὀνομάζοι». After ὀνομα is a flat σ drawn along the baseline and turned up at its end, with οι written above it; this scribe's ζ (χαρίζο-, βιαζόμενον) has a tail well below the line. Decided by both checkers."
+   },
+   {
+    "ref": "V 76r.13 (= Bas. 24.25)",
+    "lemma": "ὅλως",
+    "ru": "«ὅλως» — так в транскрипции Claude; в транскрипции GPT-6 «ὅμως». Буква после ὅ — λ этого почерка (длинный косой штрих из-под строки, сомкнутый вверху, как в καλοῖτο той же строки); μ у писца u-образное, открытое сверху. Решили оба проверяющих.",
+    "en": "«ὅλως» as in Claude's transcription; GPT-6's has «ὅμως». The letter after ὅ is this hand's λ (a long oblique stroke from below the line, closed at the top, as in καλοῖτο in the same line); the scribe's μ is u-shaped and open at the top. Decided by both checkers."
+   },
+   {
+    "ref": "V 76v.17 (= Bas. 25.20)",
+    "lemma": "διπλῆν",
+    "ru": "«διπλῆν» — так в транскрипции Claude; в транскрипции GPT-6 «διπλῶν». После πλ — высокий штрих и три коротких, соединённых у линии строки, с облечённым ударением: это группа ην этого писца (как в ἀρχὴν 76v.9, τὴν 80r.10), тогда как его ω не имеет восходящего штриха; при малом увеличении группа похожа на «lῶ». Решили оба проверяющих (со средней уверенностью).",
+    "en": "«διπλῆν» as in Claude's transcription; GPT-6's has «διπλῶν». After πλ comes a tall stroke and three short ones joined at the baseline, with a circumflex: this scribe's ην group (as in ἀρχὴν 76v.9, τὴν 80r.10), whereas his ω has no ascender; at low magnification the group looks like «lῶ». Decided by both checkers (with medium confidence)."
+   },
+   {
+    "ref": "V 79r.16 (= Bas. 29.1)",
+    "lemma": "ἑαυτὰ",
+    "ru": "«ἑαυτὰ» — так в транскрипции Claude; в транскрипции GPT-6 «ἑαυτὸ». Последняя буква — α той же формы, что α в начале слова, с тяжёлым ударением, а не маленькое замкнутое ο. Решили оба проверяющих.",
+    "en": "«ἑαυτὰ» as in Claude's transcription; GPT-6's has «ἑαυτὸ». The last letter is an α of the same form as the α at the start of the word, with a grave, not a small closed ο. Decided by both checkers."
+   },
+   {
+    "ref": "V 79r.3 (= Bas. 28.15)",
+    "lemma": "πῶς | εὐρύθμως",
+    "ru": "«πῶς» и «εὐρύθμως» — так в транскрипции Claude; в транскрипции GPT-6 «πως» и «ἐῤῥύθμως». Над ω в πῶς ясно написано облечённое ударение; во втором слове за тонким придыханием следует ευ (проверяющие по-разному описывают начертание: как лигатуру или как ε с чашеобразным υ) и только одна ρ с нижним выносным штрихом, так что ἐρρ- исключено. Решили оба проверяющих (по второму месту — со средней уверенностью).",
+    "en": "«πῶς» and «εὐρύθμως» as in Claude's transcription; GPT-6's has «πως» and «ἐῤῥύθμως». A circumflex is clearly written over the ω of πῶς; in the second word the smooth breathing is followed by ευ (the checkers describe its form differently: as a ligature, or as ε with a cup-shaped υ) and a single ρ with a descender, so ἐρρ- is excluded. Decided by both checkers (at the second point with medium confidence)."
+   },
+   {
+    "ref": "V 80r.12 (= Bas. 30.5)",
+    "lemma": "ἣν",
+    "ru": "«ἣν» — так в транскрипции Claude; в транскрипции GPT-6 «ὧν». Первое слово — высокий штрих и три коротких (группа ην этого писца, как в τὴν 80r.10 и χὴν 80r.11) с маленьким густым придыханием и прямым тяжёлым ударением; облечённого ударения и замкнутой ω этого почерка нет. Решили оба проверяющих.",
+    "en": "«ἣν» as in Claude's transcription; GPT-6's has «ὧν». The first word is a tall stroke and three short ones (this scribe's ην group, as in τὴν 80r.10 and χὴν 80r.11) with a small rough breathing and a straight grave; there is no circumflex and none of this hand's closed ω. Decided by both checkers."
+   },
+   {
+    "ref": "V 80r.9-10 (= Bas. 30.3)",
+    "lemma": "ἔχων",
+    "ru": "«ἔχων» — так в транскрипции Claude; в транскрипции GPT-6 «ἔχον». После χ — большая замкнутая петля с внутренним штрихом, примерно вдвое шире ο: это ω этого писца (как в τῶν 80r.11), затем ν. Решили оба проверяющих.",
+    "en": "«ἔχων» as in Claude's transcription; GPT-6's has «ἔχον». After χ is a large closed loop with an inner stroke, about twice the width of ο: this scribe's ω (as in τῶν 80r.11), followed by ν. Decided by both checkers."
+   },
+   {
+    "ref": "V 80v.10 (= Bas. 30.20)",
+    "lemma": "πὶ δὲ",
+    "ru": "«πὶ δὲ» (без начальной ε) — так в транскрипции Claude; в транскрипции GPT-6 «τῇ δὲ». Строка начинается с π (длинная перекладина на двух ножках) и ι с диерезой и тяжёлым ударением; поле слева, где на этих листах стоят выдвинутые красные инициалы, пусто, так что начальная ε не написана (один из проверяющих оговаривает, что отсутствие киноварного инициала — вывод). Решили оба проверяющих (по поводу отсутствующей начальной ε — со средней уверенностью).",
+    "en": "«πὶ δὲ» (without the initial ε) as in Claude's transcription; GPT-6's has «τῇ δὲ». The line begins with π (a long crossbar on two legs) and ι with diaeresis and a grave; the margin to its left, where outdented red initials stand on these pages, is blank, so the initial ε was not written (one checker notes that the missing red initial is an inference). Decided by both checkers (on the missing initial ε with medium confidence)."
+   },
+   {
+    "ref": "V 81v.1 (= Bas. 31.23)",
+    "lemma": "ἢ",
+    "ru": "«ἢ» (частица) — так в транскрипции GPT-6; в транскрипции Claude «ἡ» (артикль). Над η — серповидное тонкое придыхание и длинное тяжёлое ударение; густые придыхания на ἁρμονία рядом имеют другую форму. Решили оба проверяющих.",
+    "en": "«ἢ» (particle) as in GPT-6's transcription; Claude's has «ἡ» (article). Above the η are a crescent-shaped smooth breathing and a long grave; the rough breathings on ἁρμονία next to it have a different shape. Decided by both checkers."
+   },
+   {
+    "ref": "V 81v.2 (= Bas. 31.24)",
+    "lemma": "ἀπαρτίζεται",
+    "ru": "«ἀπαρτίζεται» — так в транскрипции Claude; в транскрипции GPT-6 «καταρτίζεται». Слово начинается с α с тонким придыханием, затем π с длинной перекладиной; ни κ, ни κατ- перед -αρτ- нет. Решили оба проверяющих.",
+    "en": "«ἀπαρτίζεται» as in Claude's transcription; GPT-6's has «καταρτίζεται». The word begins with α with a smooth breathing, then a long-barred π; there is no κ and no κατ- before -αρτ-. Decided by both checkers."
+   },
+   {
+    "ref": "V 81v.4 (= Bas. 31.25-32.1)",
+    "lemma": "προφέρεται",
+    "ru": "«προφέρεται» — так в транскрипции Claude; в транскрипции GPT-6 «περιφέρεται». После π стоит лигатура ρο (петля, хвост которой уходит под строку во вторую петлю), как в πρὸς 80r.12; περι- этот писец пишет с отдельными ε и ι (περιέχον 80v.15), а здесь их нет. Решили оба проверяющих.",
+    "en": "«προφέρεται» as in Claude's transcription; GPT-6's has «περιφέρεται». After π stands the ρο ligature (a loop whose tail sweeps under the line into a second loop), as in πρὸς at 80r.12; this scribe writes περι- with separate ε and ι (περιέχον 80v.15), and there are none here. Decided by both checkers."
+   },
+   {
+    "ref": "V 81v.8 (= Bas. 32.4)",
+    "lemma": "ἀπήρτισται",
+    "ru": "«ἀπήρτισται» — так в транскрипции Claude; в транскрипции GPT-6 «ἀπήρτιται». После τι под длинной перекладиной стоит замкнутая петля, соединённая со штрихом с крючком, — лигатура στ, затем αι; простое τ этого почерка (ἀπαρτίζεται, -πται) петли не имеет. Решили оба проверяющих.",
+    "en": "«ἀπήρτισται» as in Claude's transcription; GPT-6's has «ἀπήρτιται». After τι, under a long bar, a closed loop is joined to a hooked stem: the στ ligature, followed by αι; this hand's plain τ (ἀπαρτίζεται, -πται) has no loop. Decided by both checkers."
+   },
+   {
+    "ref": "V 81v.9 (= Bas. 32.5)",
+    "lemma": "διείρηπται",
+    "ru": "«διείρηπται» — так в транскрипции Claude; в транскрипции GPT-6 «διείληπται». Проверяющие разошлись: один видит после διεί λ этого почерка (косой штрих с открытой аркой, как в ὅλως 76r.13), другой — ρ (заполненная петля на высоте строчных с длинным нижним выносным штрихом, как в ἀπήρτισται 81v.8). Решил редактор, предписав держать в виду оба чтения и, если это имеет смысл, рассмотреть перевод обоих.",
+    "en": "«διείρηπται» as in Claude's transcription; GPT-6's has «διείληπται». The checkers disagreed: one sees this hand's λ after διεί (an oblique stroke with an open arch, as in ὅλως 76r.13), the other a ρ (a filled bowl at x-height with a long descender, as in ἀπήρτισται 81v.8). Decided by the editor, who asked for both readings to be kept in view and both to be considered in translation where this makes sense."
+   },
+   {
+    "ref": "V 82r.11 (= Bas. 32.23)",
+    "lemma": "τὰ | διαστήματα",
+    "ru": "«τὰ διαστήματα» — так в транскрипции Claude; в транскрипции GPT-6 «τὸ διάστημα». После τ стоит открытая α с тяжёлым ударением, а не ο; акут стоит над η (διαστή-), над α в δια- ударения нет; за μα следует τα (-ματα). Решили оба проверяющих.",
+    "en": "«τὰ διαστήματα» as in Claude's transcription; GPT-6's has «τὸ διάστημα». After τ is an open α with a grave, not ο; the acute stands over η (διαστή-), and the α of δια- is unaccented; μα is followed by τα (-ματα). Decided by both checkers."
+   },
+   {
+    "ref": "Vinc. 338.8",
+    "lemma": "δύϲ",
+    "ru": "«δύϲ» — так в транскрипции Claude; в транскрипции GPT-6 «δύς». Последняя буква — открытая справа c-образная литера (лунообразная сигма ϲ или случайная литера c), не похожая на конечную ς в νευρὰς той же строки; так напечатано (по мнению одного из проверяющих, вероятно, опечатка вместо δύο). Решили оба проверяющих.",
+    "en": "«δύϲ» as in Claude's transcription; GPT-6's has «δύς». The last letter is a c-shape open on the right (a lunate sigma ϲ or a stray c sort), unlike the final ς of νευρὰς in the same line; so printed (in one checker's view probably a misprint for δύο). Decided by both checkers."
+   },
+   {
+    "ref": "Vinc. 338.15",
+    "lemma": "ἶσα",
+    "ru": "«ἶσα» — так в транскрипции Claude; в транскрипции GPT-6 «ἴσα». Над ι стоит горизонтальное облечённое ударение, слитое с придыханием, как в οἷον (строка 17), а не придыхание с отдельным косым акутом (ср. ὄντα, οὔτε); так напечатано (по мнению одного из проверяющих, опечатка вместо ἴσα). Решили оба проверяющих.",
+    "en": "«ἶσα» as in Claude's transcription; GPT-6's has «ἴσα». Over the ι is a horizontal circumflex fused with the breathing, as on οἷον (l. 17), not a breathing with a separate oblique acute (cf. ὄντα, οὔτε); so printed (in one checker's view a misprint for ἴσα). Decided by both checkers."
+   },
+   {
+    "ref": "Vinc. 338.17",
+    "lemma": "ἶσα",
+    "ru": "«ἶσα» — так в транскрипции Claude; в транскрипции GPT-6 «ἴσα». Тот же знак, что в строке 15: горизонтальное облечённое ударение с придыханием над ι, как в οἷον в начале этой строки, косого акута нет; так напечатано. Решили оба проверяющих.",
+    "en": "«ἶσα» as in Claude's transcription; GPT-6's has «ἴσα». The same mark as in l. 15: a horizontal circumflex with breathing over ι, as on οἷον at the start of this line, with no oblique acute; so printed. Decided by both checkers."
+   },
+   {
+    "ref": "Vinc. 338 n. 1",
+    "lemma": "σύγκρασις ; | u’ose",
+    "ru": "«σύγκρασις ;» и «u’ose» — так в транскрипции Claude; в транскрипции GPT-6 «σύγχρασις;» и «n’ose». Четвёртая буква — курсивная ϰ без нижнего выносного штриха (χ в этом шрифте опускается ниже строки); перед «;» напечатан пробел (французский обычай); в «u’ose» стоит открытая сверху литера на месте n — опечатка, воспроизведена как напечатано. Решили оба проверяющих (один допускал, что пробел можно отнести к конвенции).",
+    "en": "«σύγκρασις ;» and «u’ose» as in Claude's transcription; GPT-6's has «σύγχρασις;» and «n’ose». The fourth letter is the italic ϰ with no descender (χ descends in this font); a space is printed before «;» (French usage); «u’ose» has a letter open at the top in place of n, a misprint reproduced as printed. Decided by both checkers (one allowed that the space could be treated as a matter of convention)."
+   },
+   {
+    "ref": "Vinc. 338 n. 6",
+    "lemma": "ἑνδ.",
+    "ru": "«ἑνδ.» — так в транскрипции Claude; в транскрипции GPT-6 «ἐνδ.». Хвост придыхания над ε уходит вниз вправо, как у густого придыхания на ἡ в прим. 3, а не как у тонкого (ἀριθμόν, прим. 2); знак очень мелкий. Решили оба проверяющих (со средней уверенностью).",
+    "en": "«ἑνδ.» as in Claude's transcription; GPT-6's has «ἐνδ.». The tail of the breathing over ε runs down to the right, as with the rough breathing on ἡ in n. 3, not like the smooth one (ἀριθμόν, n. 2); the mark is very small. Decided by both checkers (with medium confidence)."
+   },
+   {
+    "ref": "Vinc. 340.1",
+    "lemma": "διατί",
+    "ru": "«διατί» — так в транскрипции Claude; в транскрипции GPT-6 «διατὶ». Ударение над конечной ι поднимается слева направо (акут), в отличие от тяжёлого ударения на предшествующем καὶ. Решили оба проверяющих.",
+    "en": "«διατί» as in Claude's transcription; GPT-6's has «διατὶ». The accent on the final ι rises from left to right (acute), unlike the grave on the preceding καὶ. Decided by both checkers."
+   },
+   {
+    "ref": "Vinc. 340.3",
+    "lemma": "δε",
+    "ru": "«δε» — так в транскрипции Claude; в транскрипции GPT-6 «δὲ». Над ε нет никакого знака, тогда как на Περὶ ясно виден гравис; так напечатано (по мнению одного из проверяющих, опечатка). Решили оба проверяющих.",
+    "en": "«δε» as in Claude's transcription; GPT-6's has «δὲ». There is no mark above the ε, while Περὶ has a clear grave; so printed (in one checker's view a misprint). Decided by both checkers."
+   },
+   {
+    "ref": "Vinc. 340.13",
+    "lemma": "πεποίηνται",
+    "ru": "«πεποίηνται» — так в транскрипции Claude; в транскрипции GPT-6 «πεποίηται». Между η и τ ясно напечатана ν. Решили оба проверяющих.",
+    "en": "«πεποίηνται» as in Claude's transcription; GPT-6's has «πεποίηται». A ν is clearly printed between η and τ. Decided by both checkers."
+   },
+   {
+    "ref": "Vinc. 340 n. 1",
+    "lemma": "Εἰμαρμένης | εἰρῆσθαι",
+    "ru": "«Εἰμαρμένης» и «εἰρῆσθαι» — так в транскрипции Claude; в транскрипции GPT-6 «Εἱμαρμένης» и «εἰρήσθαι». Над ι в Εἰ- напечатано тонкое придыхание (как в εἰρήσθω той же сноски) — так напечатано (по мнению одного из проверяющих, опечатка вместо Εἱ-); над η в εἰρῆσθαι — волнистое горизонтальное облечённое ударение, а не косой акут. Решили оба проверяющих (по первому месту — со средней уверенностью).",
+    "en": "«Εἰμαρμένης» and «εἰρῆσθαι» as in Claude's transcription; GPT-6's has «Εἱμαρμένης» and «εἰρήσθαι». A smooth breathing is printed over the ι of Εἰ- (as on εἰρήσθω in the same note), so printed (in one checker's view a misprint for Εἱ-); over the η of εἰρῆσθαι is a wavy horizontal circumflex, not an oblique acute. Decided by both checkers (at the first point with medium confidence)."
+   },
+   {
+    "ref": "Vinc. 340 n. 4",
+    "lemma": "κεκρυμμένων",
+    "ru": "«κεκρυμμένων» — так в обеих транскрипциях (Claude и GPT-6); место сверено с первоначальным чтением «κεχρυμμένων» в прежней транскрипции фрагментов. Первая и третья буквы — одинаковые x-образные ϰ на линии строки без нижнего выносного штриха, тогда как χ опускалась бы ниже строки. Решили оба проверяющих.",
+    "en": "«κεκρυμμένων» in both transcriptions (Claude's and GPT-6's); the place was checked against the first reading «κεχρυμμένων» in the earlier transcription of the fragments. The first and third letters are identical x-shaped ϰ on the baseline with no descender, whereas χ would descend below the line. Decided by both checkers."
+   },
+   {
+    "ref": "Vinc. 342.7",
+    "lemma": "χρὴ",
+    "ru": "«χρὴ» — так в транскрипции Claude; в транскрипции GPT-6 «χρή». Ударение над η толстое вверху слева и сужается вниз вправо, т. е. гравис (ср. акут на μέν той же строки). Решили оба проверяющих.",
+    "en": "«χρὴ» as in Claude's transcription; GPT-6's has «χρή». The accent over η is thick at the upper left and tapers down to the right, i.e. a grave (cf. the acute on μέν in the same line). Decided by both checkers."
+   },
+   {
+    "ref": "Vinc. 342.11",
+    "lemma": "l’édition ; | Ἰστέον",
+    "ru": "«l’édition ;» — так в транскрипции Claude (в транскрипции GPT-6 «l’édition;»); «Ἰστέον» — так в транскрипции GPT-6 (в транскрипции Claude «ἰστέον»). Перед «;» напечатан узкий пробел (шире межбуквенного, уже межсловного), как в «manuscrit : celui-ci»; первая буква слова — высокая прописная Ι с засечкой и придыханием, а не строчная ι. Решили оба проверяющих (пробел — со средней уверенностью; один допускал, что его можно отнести к конвенции).",
+    "en": "«l’édition ;» as in Claude's transcription (GPT-6's has «l’édition;»); «Ἰστέον» as in GPT-6's (Claude's has «ἰστέον»). A thin space (wider than letter spacing, narrower than a word space) is printed before «;», as in «manuscrit : celui-ci»; the first letter of the word is a tall serifed capital Ι with a breathing, not a lowercase ι. Decided by both checkers (the space with medium confidence; one allowed it could be treated as convention)."
+   },
+   {
+    "ref": "Vinc. 342.12",
+    "lemma": "διαστ. | συστ.",
+    "ru": "«διαστ.» и «συστ.» — так в транскрипции GPT-6; в транскрипции Claude «διας.» и «συς.». В обоих словах перед точкой стоит лигатура στ (ϛ-образная, с плоской верхней перекладиной и нисходящим хвостом), отличная от конечной ς в ἀνέσεως той же строки. Решили оба проверяющих.",
+    "en": "«διαστ.» and «συστ.» as in GPT-6's transcription; Claude's has «διας.» and «συς.». In both words the glyph before the full stop is the στ ligature (ϛ-shaped, with a flat top bar and a descending tail), unlike the final ς of ἀνέσεως in the same line. Decided by both checkers."
+   },
+   {
+    "ref": "Vinc. 342.25",
+    "lemma": "μέν",
+    "ru": "«μέν» — так в транскрипции Claude; в транскрипции GPT-6 «μὲν». Ударение над ε поднимается вправо (акут), зеркально тяжёлому ударению на предшествующем τὸ. Решили оба проверяющих.",
+    "en": "«μέν» as in Claude's transcription; GPT-6's has «μὲν». The accent over ε rises to the right (acute), the mirror image of the grave on the preceding τὸ. Decided by both checkers."
+   },
+   {
+    "ref": "Vinc. 342 n. 5",
+    "lemma": "αὐλῶι | τῆ | délimitation",
+    "ru": "«αὐλῶι» нет ни в одной из транскрипций (Claude «αὐλῶν̣», GPT-6 «αὐλῶν»): после ῶ напечатан узкий вертикальный штрих, похожий на ι (возможно, повреждённая ν); проверяющие разошлись (один предпочёл ν̣, другой — αὐλῶι), решил редактор. «τῆ» и «délimitation» — так в транскрипции Claude (GPT-6: «τῇ», «dilatation»): подписной йоты под η нет, во французском тексте ясно читается «délimitation»; решили оба проверяющих.",
+    "en": "«αὐλῶι» is in neither transcription (Claude «αὐλῶν̣», GPT-6 «αὐλῶν»): after ῶ the print has a narrow upright stroke like ι (possibly a damaged ν); the checkers disagreed (one preferred ν̣, the other αὐλῶι), and the editor decided. «τῆ» and «délimitation» as in Claude's transcription (GPT-6: «τῇ», «dilatation»): there is no iota subscript under η, and the French clearly reads «délimitation»; decided by both checkers."
+   },
+   {
+    "ref": "Vinet 41.3",
+    "lemma": "1.",
+    "ru": "«1.» — так в транскрипции GPT-6; в транскрипции Claude «I.». Знак — прямой штрих с засечками той же формы, что арабская единица этого шрифта (в номере страницы «41»), но по одной форме 1 и I не различить; в пользу 1 говорит то, что прочие заголовки глав нумерованы арабскими цифрами («CAPVT 3.», «CAP. 4.», «CAPVT 5.»). Решили оба проверяющих (со средней уверенностью).",
+    "en": "«1.» as in GPT-6's transcription; Claude's has «I.». The glyph is a serifed upright stroke of the same form as this font's Arabic figure one (as in the page number «41»), but the shape alone cannot distinguish 1 from I; 1 is supported by the Arabic figures of the other chapter headings («CAPVT 3.», «CAP. 4.», «CAPVT 5.»). Decided by both checkers (with medium confidence)."
+   },
+   {
+    "ref": "Vinet 41.15",
+    "lemma": "portio, ipsaq́ue",
+    "ru": "«ipsaq́ue» нет ни в одной из транскрипций (Claude «ipsaque», GPT-6 «ipsáque»): над a ударения нет, короткий акут стоит над петлёй q (литера q́); оба проверяющих предлагали по конвенции q́ue = que писать «ipsaque», редактор принял написание, как напечатано. Пробел после запятой в «portio,» поставлен по конвенции транскрипции (в печати запятая стоит вплотную к следующему слову; у Claude без пробела, у GPT-6 с пробелом).",
+    "en": "«ipsaq́ue» is in neither transcription (Claude «ipsaque», GPT-6 «ipsáque»): the a carries no accent, and a short acute stands over the bowl of the q (the q́ sort); both checkers proposed «ipsaque» under the q́ue = que convention, and the editor adopted the form as printed. The space after the comma in «portio,» follows the transcription convention (the print sets the comma tight against the next word; Claude has no space, GPT-6 has one)."
+   },
+   {
+    "ref": "Vinet 44.8",
+    "lemma": "tonium, quod",
+    "ru": "«tonium» — так в транскрипции Claude; в транскрипции GPT-6 «nium»: строка ясно начинается с «to» (продолжение «hemito-» предыдущей строки); решили оба проверяющих. Пробел после запятой поставлен по конвенции транскрипции (в печати и у Claude «tonium,quod» без пробела).",
+    "en": "«tonium» as in Claude's transcription; GPT-6's has «nium»: the line clearly begins with «to» (continuing «hemito-» from the line above); decided by both checkers. The space after the comma follows the transcription convention (the print and Claude have «tonium,quod» without a space)."
+   },
+   {
+    "ref": "Vinet 44.14",
+    "lemma": "monàs",
+    "ru": "«monàs» — так в транскрипции Claude; в транскрипции GPT-6 «monas». Над a ясно виден тёмный гравис (штрих сверху слева вниз направо). Решили оба проверяющих.",
+    "en": "«monàs» as in Claude's transcription; GPT-6's has «monas». A clear dark grave (a stroke from upper left down to lower right) stands over the a. Decided by both checkers."
+   },
+   {
+    "ref": "Vinet 45.9",
+    "lemma": "nanque",
+    "ru": "«nanque» — так в транскрипции Claude; в транскрипции GPT-6 «namque». Напечатано «nanq;»: третья буква — n с двумя вертикальными штрихами, а не m с тремя, «q;» — сокращение -que, раскрытое в транскрипции. Решили оба проверяющих.",
+    "en": "«nanque» as in Claude's transcription; GPT-6's has «namque». The print has «nanq;»: the third letter is an n with two stems, not an m with three, and «q;» is the -que abbreviation, expanded in the transcription. Decided by both checkers."
+   },
+   {
+    "ref": "Vinet 45.18",
+    "lemma": "dati",
+    "ru": "«dati» — так в транскрипции Claude; в транскрипции GPT-6 «dari». Третья буква имеет перекладину на высоте строчных и ножку, загнутую вправо, как t в «diametro» той же строки; у r здесь плоская засечка внизу. Решили оба проверяющих.",
+    "en": "«dati» as in Claude's transcription; GPT-6's has «dari». The third letter has a crossbar at x-height and a foot hooked to the right, like the t of «diametro» in the same line; r here has a flat foot serif. Decided by both checkers."
+   },
+   {
+    "ref": "Vinet 46.13",
+    "lemma": "nnncupata",
+    "ru": "«nnncupata» — так в транскрипции Claude; в транскрипции GPT-6 «nuncupata». Вторая буква сомкнута аркой сверху и открыта снизу, как n (по-видимому, перевёрнутая u), в отличие от u в «-cupata»; так напечатано (опечатка). Решили оба проверяющих.",
+    "en": "«nnncupata» as in Claude's transcription; GPT-6's has «nuncupata». The second letter is closed by an arch at the top and open at the bottom like an n (apparently a turned u), unlike the u of «-cupata»; so printed (a misprint). Decided by both checkers."
+   },
+   {
+    "ref": "Vinet 47.7",
+    "lemma": "neturq́ue",
+    "ru": "«neturq́ue» — так в транскрипции Claude; в транскрипции GPT-6 «netúrque». Акут стоит над петлёй q (литера q́), над u ударения нет; за словом следует точка. Решили оба проверяющих.",
+    "en": "«neturq́ue» as in Claude's transcription; GPT-6's has «netúrque». The acute stands over the bowl of the q (the q́ sort), and the u carries no accent; a full stop follows. Decided by both checkers."
+   },
+   {
+    "ref": "Vinet 47.14",
+    "lemma": "steriora",
+    "ru": "«steriora» — так в транскрипции GPT-6; в транскрипции Claude «steríora». Проверяющие разошлись: один видит над i круглую точку на уровне точки над i в «interualla» (с бледным пятнышком справа вверху, из-за которого при малом увеличении она похожа на ударение), другой — вытянутый косой знак, т. е. акут. Решил редактор.",
+    "en": "«steriora» as in GPT-6's transcription; Claude's has «steríora». The checkers disagreed: one sees a round dot over the i, level with the i-dot of «interualla» (with a faint speck to its upper right that makes it look like an accent at low zoom), the other an elongated slanted mark, i.e. an acute. Decided by the editor."
+   },
+   {
+    "ref": "Vinet 47.27",
+    "lemma": "cùm",
+    "ru": "«cùm» — так в транскрипции Claude; в транскрипции GPT-6 «cum». Над правой половиной u — короткий бледный штрих, наклонённый вниз вправо (гравис), отделённый просветом от нижнего выносного штриха q в «æquo» строкой выше. Решили оба проверяющих (со средней уверенностью).",
+    "en": "«cùm» as in Claude's transcription; GPT-6's has «cum». Over the right half of the u is a short, faint stroke sloping down to the right (grave), separated by a gap from the q-descender of «æquo» in the line above. Decided by both checkers (with medium confidence)."
+   },
+   {
+    "ref": "Vinet 48.25",
+    "lemma": "passon | triplex:",
+    "ru": "«passon» — так в транскрипции Claude; в транскрипции GPT-6 «pason»: после «pa» напечатаны длинное ſ и круглое s («paſson»); так напечатано (по мнению одного из проверяющих, опечатка вместо pason); решили оба проверяющих. Пробел перед двоеточием, который есть в печати и у Claude («triplex :»), снят по конвенции транскрипции.",
+    "en": "«passon» as in Claude's transcription; GPT-6's has «pason»: after «pa» the print has a long ſ and a round s («paſson»); so printed (in one checker's view a misprint for pason); decided by both checkers. The space before the colon, present in the print and in Claude's transcription («triplex :»), is removed under the transcription convention."
+   },
+   {
+    "ref": "Vinet 50.5",
+    "lemma": "datum",
+    "ru": "«datum» — так в транскрипции Claude; в транскрипции GPT-6 «darum». Третья буква — t (слабый заострённый штрих над высотой строчных, перекладина вправо и ножка, уходящая вправо), а не r с симметричной засечкой; так напечатано (по мнению одного из проверяющих, опечатка: «chor-datum» вместо «chordarum»). Решили оба проверяющих.",
+    "en": "«datum» as in Claude's transcription; GPT-6's has «darum». The third letter is a t (a faint pointed tip above x-height, an arm to the right and a foot running off to the right), not an r with its symmetrical serif; so printed (in one checker's view a misprint, «chor-datum» for «chordarum»). Decided by both checkers."
+   },
+   {
+    "ref": "Vinet 50.12",
+    "lemma": "CAP.",
+    "ru": "«CAP.» — так в транскрипции Claude; в транскрипции GPT-6 «CAPVT». Заголовок набран разрядкой: «C A P.» с точкой, затем «4.»; «VT» не напечатано. Решили оба проверяющих.",
+    "en": "«CAP.» as in Claude's transcription; GPT-6's has «CAPVT». The heading is letterspaced «C A P.» with a full stop, then «4.»; no «VT» is printed. Decided by both checkers."
+   },
+   {
+    "ref": "Vinet 51.23",
+    "lemma": "runtur, | omnino, neque",
+    "ru": "«runtur,» и «omnino, neque» — так в транскрипции GPT-6; в транскрипции Claude «runtur ,» и «omnino,ṇeque». Пробелы при запятых нормализованы по конвенции транскрипции (в печати пробел перед первой запятой и лишь узкий просвет после второй); первая буква второго «neque» — слабо оттиснутая, но читаемая n, точки под ней нет, так что подстрочная точка у Claude — лишь знак сомнения. Решили оба проверяющих (по второму месту — со средней уверенностью).",
+    "en": "«runtur,» and «omnino, neque» as in GPT-6's transcription; Claude's has «runtur ,» and «omnino,ṇeque». The spacing at the commas is normalized under the transcription convention (the print has a space before the first comma and only a thin gap after the second); the first letter of the second «neque» is a weakly inked but legible n with no dot printed under it, so Claude's underdot is only a mark of doubt. Decided by both checkers (at the second point with medium confidence)."
+   },
+   {
+    "ref": "Vinet 52.12",
+    "lemma": "Chromáticum,",
+    "ru": "«Chromáticum» — так в транскрипции Claude; в транскрипции GPT-6 «Chromaticum»: над a после m ясно виден акут; решили оба проверяющих. Пробел перед запятой, который есть в печати и у Claude («Chromáticum ,»), снят по конвенции транскрипции.",
+    "en": "«Chromáticum» as in Claude's transcription; GPT-6's has «Chromaticum»: a clear acute stands over the a after m; decided by both checkers. The space before the comma, present in the print and in Claude's transcription («Chromáticum ,»), is removed under the transcription convention."
+   },
+   {
+    "ref": "Vinet 52.15",
+    "lemma": "vero",
+    "ru": "«vero» — так в транскрипции Claude; в транскрипции GPT-6 «verò». Оттиснутого ударения над o нет, лишь бледное пятно на уровне фактуры бумаги; ср. чёткий гравис в «verò» в строке 9 той же страницы. Решили оба проверяющих.",
+    "en": "«vero» as in Claude's transcription; GPT-6's has «verò». No inked accent stands over the o, only a faint smudge at the level of the paper mottling; cf. the crisp grave of «verò» in line 9 of the same page. Decided by both checkers."
+   },
+   {
+    "ref": "Vinet 52.19",
+    "lemma": "quòd | optimum,",
+    "ru": "«quòd» — так в транскрипции Claude; в транскрипции GPT-6 «quod»: над o ясно виден гравис; решили оба проверяющих. Пробел перед запятой после «optimum», который есть в печати и у Claude («optimum ,»), снят по конвенции транскрипции.",
+    "en": "«quòd» as in Claude's transcription; GPT-6's has «quod»: a clear grave stands over the o; decided by both checkers. The space before the comma after «optimum», present in the print and in Claude's transcription («optimum ,»), is removed under the transcription convention."
+   }
+  ],
+  "corrections": [
+   {
+    "ref": "Vinc. 338 n. 1",
+    "what": "Removed 'узкий / thin' from the space before «;». The checkers disagree about its width: one measured about 23 px, close to a word space, and the other about 16 px, a thin space. The footnote now says only that a space is printed (French usage)."
+   },
+   {
+    "ref": "Vinc. 340.3",
+    "what": "'так напечатано (опечатка) / so printed (a misprint)' changed to 'по мнению одного из проверяющих, опечатка / in one checker's view a misprint'. Only one checker calls it a misprint. This matches how the other footnotes attribute such judgements (338.8, 338.15, 340 n. 1, Vinet 50.5)."
+   },
+   {
+    "ref": "Vinet 48.25",
+    "what": "'опечатка вместо pason / a misprint for pason' is now attributed to one checker. Only one checker calls it a misprint; the other only reads 'paſson' = 'passon'."
+   },
+   {
+    "ref": "V 80v.10 (= Bas. 30.20)",
+    "what": "Added that both checkers decided the missing initial ε (the second difference) with medium confidence. This follows the draft's own practice where both checkers are medium at a point (cf. 79r.3, 340 n. 1)."
+   },
+   {
+    "ref": "Vinet 51.23",
+    "what": "Added 'по второму месту — со средней уверенностью / at the second point with medium confidence'. Both checkers marked the second difference (omnino, neque) as medium."
+   },
+   {
+    "ref": "Vinc. 340 n. 4",
+    "what": "Russian wording: changed the calque 'место проверено против первоначального чтения' to 'место сверено с первоначальным чтением'. The content is unchanged."
+   }
+  ],
+  "flags": [
+   {
+    "ref": "Vinet 44.8",
+    "problem": "Second difference: pick '1' = «nium,quod» (no space), but the adopted line has «tonium, quod» (with space). Both checkers answered 'convention', so the adopted line follows the spacing convention and the pick label looks like a default. The footnote follows the adopted line."
+   },
+   {
+    "ref": "Vinet 48.25",
+    "problem": "Second difference: pick '1' = «triplex :» (space before colon), but the adopted line has «triplex:». Both checkers answered 'convention'. The footnote follows the adopted line, with the space removed by convention."
+   },
+   {
+    "ref": "Vinet 52.12",
+    "problem": "Second difference: pick '1' = «Chromáticum ,» (space before comma), but the adopted line has «Chromáticum,». Both checkers answered 'convention'. The footnote follows the adopted line."
+   },
+   {
+    "ref": "Vinet 52.19",
+    "problem": "Second difference: pick '1' = «optimum ,» (space before comma), but the adopted line has «optimum,». Both checkers answered 'convention'. The footnote follows the adopted line."
+   },
+   {
+    "ref": "Vinet 41.15",
+    "problem": "First difference: pick '1' = «portio, ipsáque», which includes the accented «ipsáque» that the adopted line rejects (the accent is settled by difference 2, where the editor chose «ipsaq́ue»). Both checkers also cite a convention 'q́ue = que', while the editor here and the checkers at Vinet 47.7 keep q́ue as printed. The edition's convention for q́ue should be stated consistently."
+   },
+   {
+    "ref": "Vinc. 340 n. 4",
+    "problem": "The claude and gpt lines are identical («κεκρυμμένων»). The variant «κεχρυμμένων» comes from the first reading in vincent1847-fragments.md, not from either transcription. The footnote says so instead of quoting a Claude/GPT-6 variant."
+   },
+   {
+    "ref": "V 81v.9 (= Bas. 32.5)",
+    "problem": "Not an inconsistency, but there is a follow-up. The checkers split (λ vs ρ), and the editor adopted «διείρηπται» while asking for both readings to be considered in translation. The translation may need a matching note on «διείληπται» (the Basel reading)."
+   }
+  ]
+ }
+]
