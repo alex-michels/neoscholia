@@ -1,0 +1,99 @@
+{
+ "note": "question -> label -> option text, as shuffled in the package (kept out of the judges' package)",
+ "questions": {
+  "Q01": "Bas. 25.4 (H 64v.17)",
+  "Q02": "Bas. 25.7 (wording of the supplement)",
+  "Q03": "Bas. 26.4",
+  "Q04": "P (Vinc. 338.7)",
+  "Q05": "P (Vinc. 338.14)",
+  "Q06": "Bas. 29.15-16 (after τριπλάσιος)",
+  "Q07": "Bas. 29.3-6, 29.11-23",
+  "Q08": "P (Vinc. 340.8)",
+  "Q09": "P (Vinc. 340.11)",
+  "Q10": "P (Vinc. 340.20)",
+  "Q11": "P (Vinc. 342.1-2)",
+  "Q12": "Bas. 30.23",
+  "Q13": "Bas. 30.23 (P passage)",
+  "Q14": "Bas. 31.4",
+  "Q15": "Bas. 32.11–13"
+ },
+ "order": {
+  "Q01": {
+   "a": "λαμβανούσ(ας) (a possible reading of H's interlinear addition)",
+   "b": "λαμβανόντων (a conjecture)",
+   "c": "λαμβάνουσ(ι) (a possible reading of H's interlinear addition)",
+   "d": "λαμβάνοντες (H line text, Par., V)"
+  },
+  "Q02": {
+   "a": "λιχανὸς μέσων διάτονος (a conjecture)",
+   "b": "μέση διάτονος (a conjecture)",
+   "c": "μέσων διάτονος (a conjecture)",
+   "d": "no supplement: the list as transmitted, with a note",
+   "e": "διάτονος μέσων (Xylander's marginal note)"
+  },
+  "Q03": {
+   "a": "νευρὰν (Bas., Par., V)",
+   "b": "μοῖραν (H, written μοιρὰν)"
+  },
+  "Q04": {
+   "a": "ἡ σύμφρασις (P, reported in Vincent's note)",
+   "b": "τὴν σύμφρασιν (Vincent's print)"
+  },
+  "Q05": {
+   "a": "ἀριθμητικῇ (a conjecture)",
+   "b": "ἀριθμητικόν (P, Vincent's print)",
+   "c": "ἀριθμητικῷ (a conjecture)",
+   "d": "ἀριθμητικῶς (a conjecture)"
+  },
+  "Q06": {
+   "a": "⟨τοῦ δὲ δὶς διὰ πασῶν τετραπλάσιος⟩ after τριπλάσιος (a conjecture)",
+   "b": "Lacuna *** after τριπλάσιος (a conjecture)",
+   "c": "Keep as transmitted (Bas., H, Par., V)"
+  },
+  "Q07": {
+   "a": "Emend διπλασιεπιμερής only (no conjecture proposed)",
+   "b": "Emend at both points (no conjecture proposed)",
+   "c": "Emend the account of the fourth only (no conjecture proposed)",
+   "d": "Keep both points as transmitted (Bas., H, Par., V)"
+  },
+  "Q08": {
+   "a": "τὸ διὰ πέντε {μέλος}, deleted (a conjecture)",
+   "b": "τὸ διὰ πέντε μέλος (Vincent's print)",
+   "c": "τὸ διὰ πέντε †μέλος† (Vincent's print, obelized)"
+  },
+  "Q09": {
+   "a": "ἡ δίεσις (P, if it has the article)",
+   "b": "⟨ἡ⟩ δίεσις (Vincent's print, brackets read as a supplement)",
+   "c": "δίεσις, no article (P or Vincent's print, by the brackets' meaning)"
+  },
+  "Q10": {
+   "a": "οἱ τῶν ἐμμέσων (a conjecture)",
+   "b": "οἱ τῶν ἐν μέσῳ (Vincent's print)"
+  },
+  "Q11": {
+   "a": "συγκρινομένου (a conjecture)",
+   "b": "συγκρινομένων (Vincent's print)"
+  },
+  "Q12": {
+   "a": "τῶν δὲ συστημάτων (P, Vincent's print)",
+   "b": "τῶν δὲ διαστημάτων (Bas., H, Par., V)"
+  },
+  "Q13": {
+   "a": "ἀμβλύτερον (a conjecture)",
+   "b": "βαρύτερον (a conjecture)",
+   "c": "τὸ πλεονάζον ⟨καὶ τὸ ἐλλεῖπον⟩ … ἀμφότερον (a conjecture)",
+   "d": "†ἀμφότερον† (Vincent's print, obelized)",
+   "e": "θάτερον (a conjecture)",
+   "f": "ἀμφότερον (Vincent's print, unchanged)"
+  },
+  "Q14": {
+   "a": "ἑκκαιδεκάχορδον (Bas., H, Par., V)",
+   "b": "πεντεκαιδεκάχορδον (a conjecture)"
+  },
+  "Q15": {
+   "a": "High point after ἀσύνθετον, stop after συγκεκραμένον (H, V)",
+   "b": "Comma after ἀσύνθετον, stop after συγκεκραμένον (Par.)",
+   "c": "Stop after ἀσύνθετον only, συγκεκραμένον joined to εἴη δ’ ἂν τοῦτο (a conjecture)"
+  }
+ }
+}

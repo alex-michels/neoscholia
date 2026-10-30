@@ -1,0 +1,632 @@
+{
+ "Q01": {
+  "claude-Claude B": {
+   "choice": "d",
+   "option": "λαμβάνοντες (H line text, Par., V)",
+   "form": "λαμβάνοντες",
+   "confidence": "medium",
+   "n_refs": 3,
+   "n_checked": 3
+  },
+  "claude-Claude A": {
+   "choice": "d",
+   "option": "λαμβάνοντες (H line text, Par., V)",
+   "form": "τὰς προσηγορίας λαμβάνοντες·",
+   "confidence": "medium",
+   "n_refs": 3,
+   "n_checked": 3
+  },
+  "astra": {
+   "choice": "d",
+   "option": "λαμβάνοντες (H line text, Par., V)",
+   "form": "λαμβάνοντες",
+   "confidence": "medium",
+   "n_refs": 2,
+   "n_checked": 2
+  },
+  "terra": {
+   "choice": "d",
+   "option": "λαμβάνοντες (H line text, Par., V)",
+   "form": "λαμβάνοντες",
+   "confidence": "low",
+   "n_refs": 2,
+   "n_checked": 2
+  },
+  "sol": {
+   "choice": "d",
+   "option": "λαμβάνοντες (H line text, Par., V)",
+   "form": "λαμβάνοντες",
+   "confidence": "medium",
+   "n_refs": 3,
+   "n_checked": 3
+  }
+ },
+ "Q02": {
+  "claude-Claude B": {
+   "choice": "e",
+   "option": "διάτονος μέσων (Xylander's marginal note)",
+   "form": "παρυπάτη μέσων, ⟨διάτονος μέσων,⟩ μέση μόνως",
+   "confidence": "medium",
+   "n_refs": 5,
+   "n_checked": 5
+  },
+  "claude-Claude A": {
+   "choice": "c",
+   "option": "μέσων διάτονος (a conjecture)",
+   "form": "παρυπάτη μέσων, ⟨μέσων διάτονος⟩, μέση μόνως",
+   "confidence": "high",
+   "n_refs": 4,
+   "n_checked": 4
+  },
+  "astra": {
+   "choice": "e",
+   "option": "διάτονος μέσων (Xylander's marginal note)",
+   "form": "⟨διάτονος μέσων⟩",
+   "confidence": "medium",
+   "n_refs": 3,
+   "n_checked": 3
+  },
+  "terra": {
+   "choice": "d",
+   "option": "no supplement: the list as transmitted, with a note",
+   "form": "παρυπάτη μέσων, μέση μόνως",
+   "confidence": "medium",
+   "n_refs": 1,
+   "n_checked": 1
+  },
+  "sol": {
+   "choice": "e",
+   "option": "διάτονος μέσων (Xylander's marginal note)",
+   "form": "⟨διάτονος μέσων⟩",
+   "confidence": "medium",
+   "n_refs": 3,
+   "n_checked": 3
+  }
+ },
+ "Q03": {
+  "claude-Claude B": {
+   "choice": "a",
+   "option": "νευρὰν (Bas., Par., V)",
+   "form": "νευράν",
+   "confidence": "medium",
+   "n_refs": 4,
+   "n_checked": 4
+  },
+  "claude-Claude A": {
+   "choice": "a",
+   "option": "νευρὰν (Bas., Par., V)",
+   "form": "τὴν γὰρ ἐπόγδοον διασώζουσαν λόγον νευράν, δυνατὸν ὑποτεμεῖν",
+   "confidence": "medium",
+   "n_refs": 4,
+   "n_checked": 4
+  },
+  "astra": {
+   "choice": "a",
+   "option": "νευρὰν (Bas., Par., V)",
+   "form": "νευράν",
+   "confidence": "medium",
+   "n_refs": 3,
+   "n_checked": 3
+  },
+  "terra": {
+   "choice": "a",
+   "option": "νευρὰν (Bas., Par., V)",
+   "form": "νευράν",
+   "confidence": "medium",
+   "n_refs": 3,
+   "n_checked": 3
+  },
+  "sol": {
+   "choice": "a",
+   "option": "νευρὰν (Bas., Par., V)",
+   "form": "νευρὰν",
+   "confidence": "medium",
+   "n_refs": 5,
+   "n_checked": 5
+  }
+ },
+ "Q04": {
+  "claude-Claude B": {
+   "choice": "b",
+   "option": "τὴν σύμφρασιν (Vincent's print)",
+   "form": "τὴν σύμφρασιν",
+   "confidence": "medium",
+   "n_refs": 3,
+   "n_checked": 3
+  },
+  "claude-Claude A": {
+   "choice": "a",
+   "option": "ἡ σύμφρασις (P, reported in Vincent's note)",
+   "form": "ἐντεῦθεν ἐγγίνεται καὶ ἡ σύμφρασις εἶναι·",
+   "confidence": "medium",
+   "n_refs": 3,
+   "n_checked": 3
+  },
+  "astra": {
+   "choice": "a",
+   "option": "ἡ σύμφρασις (P, reported in Vincent's note)",
+   "form": "ἡ σύμφρασις",
+   "confidence": "low",
+   "n_refs": 2,
+   "n_checked": 2
+  },
+  "terra": {
+   "choice": "b",
+   "option": "τὴν σύμφρασιν (Vincent's print)",
+   "form": "⟨τὴν σύμφρασιν⟩",
+   "confidence": "low",
+   "n_refs": 4,
+   "n_checked": 4
+  },
+  "sol": {
+   "choice": "a",
+   "option": "ἡ σύμφρασις (P, reported in Vincent's note)",
+   "form": "ἡ σύμφρασις",
+   "confidence": "medium",
+   "n_refs": 2,
+   "n_checked": 2
+  }
+ },
+ "Q05": {
+  "claude-Claude B": {
+   "choice": "a",
+   "option": "ἀριθμητικῇ (a conjecture)",
+   "form": "ὅπερ καὶ ἀριθμητικῇ ἀνεγχώρητον",
+   "confidence": "medium",
+   "n_refs": 3,
+   "n_checked": 3
+  },
+  "claude-Claude A": {
+   "choice": "a",
+   "option": "ἀριθμητικῇ (a conjecture)",
+   "form": "ὅπερ καὶ ἀριθμητικῇ ἀνεγχώρητον.",
+   "confidence": "low",
+   "n_refs": 3,
+   "n_checked": 3
+  },
+  "astra": {
+   "choice": "b",
+   "option": "ἀριθμητικόν (P, Vincent's print)",
+   "form": "ἀριθμητικόν",
+   "confidence": "medium",
+   "n_refs": 3,
+   "n_checked": 2
+  },
+  "terra": {
+   "choice": "b",
+   "option": "ἀριθμητικόν (P, Vincent's print)",
+   "form": "ἀριθμητικόν",
+   "confidence": "low",
+   "n_refs": 3,
+   "n_checked": 3
+  },
+  "sol": {
+   "choice": "b",
+   "option": "ἀριθμητικόν (P, Vincent's print)",
+   "form": "ὅπερ καὶ ἀριθμητικὸν ἀνεγχώρητον",
+   "confidence": "medium",
+   "n_refs": 4,
+   "n_checked": 4
+  }
+ },
+ "Q06": {
+  "claude-Claude B": {
+   "choice": "a",
+   "option": "⟨τοῦ δὲ δὶς διὰ πασῶν τετραπλάσιος⟩ after τριπλάσιος (a conjecture)",
+   "form": "τοῦ διὰ πασῶν καὶ δὶς διὰ πέντε, τριπλάσιος· ⟨τοῦ δὲ δὶς διὰ πασῶν, τετραπλάσιος⟩. οἷον",
+   "confidence": "medium",
+   "n_refs": 3,
+   "n_checked": 2
+  },
+  "claude-Claude A": {
+   "choice": "a",
+   "option": "⟨τοῦ δὲ δὶς διὰ πασῶν τετραπλάσιος⟩ after τριπλάσιος (a conjecture)",
+   "form": "τοῦ διὰ πασῶν καὶ δὶς διὰ πέντε, τριπλάσιος· ⟨τοῦ δὲ δὶς διὰ πασῶν, τετραπλάσιος⟩. οἷον, ὡς ἐπὶ ὑποδείγματος",
+   "confidence": "medium",
+   "n_refs": 3,
+   "n_checked": 2
+  },
+  "astra": {
+   "choice": "c",
+   "option": "Keep as transmitted (Bas., H, Par., V)",
+   "form": "τριπλάσιος. οἷον, ὡς ἐπὶ ὑποδείγματος",
+   "confidence": "medium",
+   "n_refs": 1,
+   "n_checked": 1
+  },
+  "terra": {
+   "choice": "c",
+   "option": "Keep as transmitted (Bas., H, Par., V)",
+   "form": "τοῦ διὰ πασῶν καὶ διὰ πέντε, τριπλάσιος. οἷον",
+   "confidence": "medium",
+   "n_refs": 2,
+   "n_checked": 2
+  },
+  "sol": {
+   "choice": "c",
+   "option": "Keep as transmitted (Bas., H, Par., V)",
+   "form": "τοῦ διὰ πασῶν καὶ διὰ πέντε, τριπλάσιος. οἷον, ὡς ἐπὶ ὑποδείγματος",
+   "confidence": "medium",
+   "n_refs": 2,
+   "n_checked": 2
+  }
+ },
+ "Q07": {
+  "claude-Claude B": {
+   "choice": "d",
+   "option": "Keep both points as transmitted (Bas., H, Par., V)",
+   "form": "As transmitted: πληροῦται/συμπληροῦται δὲ τὸ μὲν διὰ τεσσάρων ἐκ δύο τόνων καὶ ἡμιτονίου καὶ μικρόν τι πρός … and διπλασιεπιμερής (twice)",
+   "confidence": "high",
+   "n_refs": 4,
+   "n_checked": 3
+  },
+  "claude-Claude A": {
+   "choice": "d",
+   "option": "Keep both points as transmitted (Bas., H, Par., V)",
+   "form": "As transmitted: … ἐκ δύο τόνων καὶ ἡμιτονίου καὶ μικρόν τι πρός, ὃ καὶ διέσεως ἧττον ὂν προσωνυμίας οὐκ ἔτυχε … and διπλασιεπιμερής (both places)",
+   "confidence": "high",
+   "n_refs": 4,
+   "n_checked": 4
+  },
+  "astra": {
+   "choice": "d",
+   "option": "Keep both points as transmitted (Bas., H, Par., V)",
+   "form": "ἐκ δύο τόνων καὶ ἡμιτονίου, καὶ μικρόν τι πρός, ὃ καὶ διέσεως ἧττον ὂν προσωνυμίας οὐκ ἔτυχε.\nδιπλασιεπιμερής",
+   "confidence": "medium",
+   "n_refs": 3,
+   "n_checked": 3
+  },
+  "terra": {
+   "choice": "d",
+   "option": "Keep both points as transmitted (Bas., H, Par., V)",
+   "form": "ἐκ δύο τόνων καὶ ἡμιτονίου καὶ μικρόν τι πρός; διπλασιεπιμερής",
+   "confidence": "high",
+   "n_refs": 3,
+   "n_checked": 3
+  },
+  "sol": {
+   "choice": "d",
+   "option": "Keep both points as transmitted (Bas., H, Par., V)",
+   "form": "ἐκ δύο τόνων καὶ ἡμιτονίου, καὶ μικρόν τι πρός, ὃ καὶ διέσεως ἧττον ὂν προσωνυμίας οὐκ ἔτυχε\nδιπλασιεπιμερής\nδιπλασιεπιμερὴς",
+   "confidence": "medium",
+   "n_refs": 2,
+   "n_checked": 2
+  }
+ },
+ "Q08": {
+  "claude-Claude B": {
+   "choice": "b",
+   "option": "τὸ διὰ πέντε μέλος (Vincent's print)",
+   "form": "τὸ διὰ πέντε μέλος",
+   "confidence": "low",
+   "n_refs": 3,
+   "n_checked": 2
+  },
+  "claude-Claude A": {
+   "choice": "a",
+   "option": "τὸ διὰ πέντε {μέλος}, deleted (a conjecture)",
+   "form": "τὸ διὰ πέντε {μέλος}",
+   "confidence": "low",
+   "n_refs": 2,
+   "n_checked": 2
+  },
+  "astra": {
+   "choice": "b",
+   "option": "τὸ διὰ πέντε μέλος (Vincent's print)",
+   "form": "τὸ διὰ πέντε μέλος",
+   "confidence": "medium",
+   "n_refs": 2,
+   "n_checked": 2
+  },
+  "terra": {
+   "choice": "b",
+   "option": "τὸ διὰ πέντε μέλος (Vincent's print)",
+   "form": "τὸ διὰ πέντε μέλος",
+   "confidence": "medium",
+   "n_refs": 3,
+   "n_checked": 3
+  },
+  "sol": {
+   "choice": "b",
+   "option": "τὸ διὰ πέντε μέλος (Vincent's print)",
+   "form": "τὸ διὰ πέντε μέλος",
+   "confidence": "medium",
+   "n_refs": 3,
+   "n_checked": 3
+  }
+ },
+ "Q09": {
+  "claude-Claude B": {
+   "choice": "b",
+   "option": "⟨ἡ⟩ δίεσις (Vincent's print, brackets read as a supplement)",
+   "form": "⟨ἡ⟩ δίεσις",
+   "confidence": "low",
+   "n_refs": 3,
+   "n_checked": 2
+  },
+  "claude-Claude A": {
+   "choice": "b",
+   "option": "⟨ἡ⟩ δίεσις (Vincent's print, brackets read as a supplement)",
+   "form": "⟨ἡ⟩ δίεσις",
+   "confidence": "medium",
+   "n_refs": 2,
+   "n_checked": 2
+  },
+  "astra": {
+   "choice": "c",
+   "option": "δίεσις, no article (P or Vincent's print, by the brackets' meaning)",
+   "form": "δίεσις",
+   "confidence": "low",
+   "n_refs": 3,
+   "n_checked": 3
+  },
+  "terra": {
+   "choice": "b",
+   "option": "⟨ἡ⟩ δίεσις (Vincent's print, brackets read as a supplement)",
+   "form": "⟨ἡ⟩ δίεσις",
+   "confidence": "low",
+   "n_refs": 2,
+   "n_checked": 2
+  },
+  "sol": {
+   "choice": "c",
+   "option": "δίεσις, no article (P or Vincent's print, by the brackets' meaning)",
+   "form": "δίεσις",
+   "confidence": "low",
+   "n_refs": 3,
+   "n_checked": 3
+  }
+ },
+ "Q10": {
+  "claude-Claude B": {
+   "choice": "a",
+   "option": "οἱ τῶν ἐμμέσων (a conjecture)",
+   "form": "οἱ τῶν ἐμμέσων",
+   "confidence": "medium",
+   "n_refs": 3,
+   "n_checked": 3
+  },
+  "claude-Claude A": {
+   "choice": "a",
+   "option": "οἱ τῶν ἐμμέσων (a conjecture)",
+   "form": "καθ’ ὑπερβατὸν δέ, οἱ τῶν ἐμμέσων",
+   "confidence": "high",
+   "n_refs": 3,
+   "n_checked": 3
+  },
+  "astra": {
+   "choice": "a",
+   "option": "οἱ τῶν ἐμμέσων (a conjecture)",
+   "form": "οἱ τῶν ἐμμέσων",
+   "confidence": "medium",
+   "n_refs": 3,
+   "n_checked": 3
+  },
+  "terra": {
+   "choice": "b",
+   "option": "οἱ τῶν ἐν μέσῳ (Vincent's print)",
+   "form": "οἱ τῶν ἐν μέσῳ",
+   "confidence": "medium",
+   "n_refs": 3,
+   "n_checked": 3
+  },
+  "sol": {
+   "choice": "a",
+   "option": "οἱ τῶν ἐμμέσων (a conjecture)",
+   "form": "οἱ τῶν ἐμμέσων",
+   "confidence": "medium",
+   "n_refs": 4,
+   "n_checked": 4
+  }
+ },
+ "Q11": {
+  "claude-Claude B": {
+   "choice": "b",
+   "option": "συγκρινομένων (Vincent's print)",
+   "form": "συγκρινομένων",
+   "confidence": "medium",
+   "n_refs": 3,
+   "n_checked": 3
+  },
+  "claude-Claude A": {
+   "choice": "a",
+   "option": "συγκρινομένου (a conjecture)",
+   "form": "τοῦ δὲ τῶν ἀμέσων, καθεξῆς πρὸς τοὺς ἐγγὺς ἀλλήλων φθόγγους συγκρινομένου·",
+   "confidence": "medium",
+   "n_refs": 2,
+   "n_checked": 2
+  },
+  "astra": {
+   "choice": "b",
+   "option": "συγκρινομένων (Vincent's print)",
+   "form": "συγκρινομένων",
+   "confidence": "low",
+   "n_refs": 3,
+   "n_checked": 3
+  },
+  "terra": {
+   "choice": "b",
+   "option": "συγκρινομένων (Vincent's print)",
+   "form": "συγκρινομένων",
+   "confidence": "medium",
+   "n_refs": 3,
+   "n_checked": 3
+  },
+  "sol": {
+   "choice": "a",
+   "option": "συγκρινομένου (a conjecture)",
+   "form": "συγκρινομένου",
+   "confidence": "medium",
+   "n_refs": 4,
+   "n_checked": 4
+  }
+ },
+ "Q12": {
+  "claude-Claude B": {
+   "choice": "a",
+   "option": "τῶν δὲ συστημάτων (P, Vincent's print)",
+   "form": "τῶν δὲ συστημάτων",
+   "confidence": "high",
+   "n_refs": 4,
+   "n_checked": 4
+  },
+  "claude-Claude A": {
+   "choice": "a",
+   "option": "τῶν δὲ συστημάτων (P, Vincent's print)",
+   "form": "τῶν δὲ συστημάτων, τὸ μέν ἐστι τετράχορδον",
+   "confidence": "high",
+   "n_refs": 3,
+   "n_checked": 3
+  },
+  "astra": {
+   "choice": "a",
+   "option": "τῶν δὲ συστημάτων (P, Vincent's print)",
+   "form": "τῶν δὲ συστημάτων",
+   "confidence": "high",
+   "n_refs": 2,
+   "n_checked": 2
+  },
+  "terra": {
+   "choice": "a",
+   "option": "τῶν δὲ συστημάτων (P, Vincent's print)",
+   "form": "τῶν δὲ συστημάτων",
+   "confidence": "medium",
+   "n_refs": 2,
+   "n_checked": 2
+  },
+  "sol": {
+   "choice": "a",
+   "option": "τῶν δὲ συστημάτων (P, Vincent's print)",
+   "form": "τῶν δὲ συστημάτων",
+   "confidence": "high",
+   "n_refs": 3,
+   "n_checked": 3
+  }
+ },
+ "Q13": {
+  "claude-Claude B": {
+   "choice": "e",
+   "option": "θάτερον (a conjecture)",
+   "form": "θάτερον",
+   "confidence": "low",
+   "n_refs": 6,
+   "n_checked": 5
+  },
+  "claude-Claude A": {
+   "choice": "d",
+   "option": "†ἀμφότερον† (Vincent's print, obelized)",
+   "form": "τὸ πλεονάζον τούτων τινὸς †ἀμφότερον† τῆς μελῳδίας εἶδος συνίστησι.",
+   "confidence": "medium",
+   "n_refs": 4,
+   "n_checked": 4
+  },
+  "astra": {
+   "choice": "d",
+   "option": "†ἀμφότερον† (Vincent's print, obelized)",
+   "form": "†ἀμφότερον†",
+   "confidence": "low",
+   "n_refs": 5,
+   "n_checked": 5
+  },
+  "terra": {
+   "choice": "d",
+   "option": "†ἀμφότερον† (Vincent's print, obelized)",
+   "form": "†ἀμφότερον†",
+   "confidence": "low",
+   "n_refs": 3,
+   "n_checked": 3
+  },
+  "sol": {
+   "choice": "d",
+   "option": "†ἀμφότερον† (Vincent's print, obelized)",
+   "form": "τὸ πλεονάζον τούτων τινὸς †ἀμφότερον† τῆς μελῳδίας εἶδος συνίστησι",
+   "confidence": "medium",
+   "n_refs": 5,
+   "n_checked": 5
+  }
+ },
+ "Q14": {
+  "claude-Claude B": {
+   "choice": "a",
+   "option": "ἑκκαιδεκάχορδον (Bas., H, Par., V)",
+   "form": "ἑκκαιδεκάχορδον",
+   "confidence": "high",
+   "n_refs": 3,
+   "n_checked": 3
+  },
+  "claude-Claude A": {
+   "choice": "a",
+   "option": "ἑκκαιδεκάχορδον (Bas., H, Par., V)",
+   "form": "τὸ δὲ κατὰ συνέχειαν ἑκκαιδεκάχορδον",
+   "confidence": "high",
+   "n_refs": 2,
+   "n_checked": 2
+  },
+  "astra": {
+   "choice": "a",
+   "option": "ἑκκαιδεκάχορδον (Bas., H, Par., V)",
+   "form": "ἑκκαιδεκάχορδον",
+   "confidence": "high",
+   "n_refs": 2,
+   "n_checked": 2
+  },
+  "terra": {
+   "choice": "a",
+   "option": "ἑκκαιδεκάχορδον (Bas., H, Par., V)",
+   "form": "ἑκκαιδεκάχορδον",
+   "confidence": "high",
+   "n_refs": 2,
+   "n_checked": 2
+  },
+  "sol": {
+   "choice": "a",
+   "option": "ἑκκαιδεκάχορδον (Bas., H, Par., V)",
+   "form": "ἑκκαιδεκάχορδον",
+   "confidence": "high",
+   "n_refs": 3,
+   "n_checked": 3
+  }
+ },
+ "Q15": {
+  "claude-Claude B": {
+   "choice": "a",
+   "option": "High point after ἀσύνθετον, stop after συγκεκραμένον (H, V)",
+   "form": "τὸ λοιπὸν γένοιτ’ ἂν ἓν ἐκ συμφθάρσεως διάστημα, τριημιτόνιον ἀσύνθετον· ἐξ ἡμιτονίων δύο καὶ τριημιτονίου συγκεκραμένον. εἴη δ’ ἂν τοῦτο τὸ διὰ τεσσάρων γένος χρωματικόν",
+   "confidence": "medium",
+   "n_refs": 3,
+   "n_checked": 3
+  },
+  "claude-Claude A": {
+   "choice": "a",
+   "option": "High point after ἀσύνθετον, stop after συγκεκραμένον (H, V)",
+   "form": "τὸ λοιπὸν γένοιτ’ ἂν ἓν ἐκ συμφθάρσεως διάστημα, τριημιτόνιον ἀσύνθετον· ἐξ ἡμιτονίων δύο καὶ τριημιτονίου συγκεκραμένον. εἴη δ’ ἂν τοῦτο τὸ διὰ τεσσάρων γένος χρωματικόν",
+   "confidence": "medium",
+   "n_refs": 3,
+   "n_checked": 3
+  },
+  "astra": {
+   "choice": "c",
+   "option": "Stop after ἀσύνθετον only, συγκεκραμένον joined to εἴη δ’ ἂν τοῦτο (a conjecture)",
+   "form": "εἰ δὲ δύο εἴη τὰ ἡμιτόνια, τὸ λοιπὸν γένοιτ’ ἂν ἓν ἐκ συμφθάρσεως διάστημα, τριημιτόνιον ἀσύνθετον. ἐξ ἡμιτονίων δύο καὶ τριημιτονίου συγκεκραμένον, εἴη δ’ ἂν τοῦτο τὸ διὰ τεσσάρων γένος χρωματικόν.",
+   "confidence": "medium",
+   "n_refs": 5,
+   "n_checked": 5
+  },
+  "terra": {
+   "choice": "c",
+   "option": "Stop after ἀσύνθετον only, συγκεκραμένον joined to εἴη δ’ ἂν τοῦτο (a conjecture)",
+   "form": "τριημιτόνιον ἀσύνθετον. ἐξ ἡμιτονίων δύο καὶ τριημιτονίου συγκεκραμένον εἴη δ’ ἂν τοῦτο τὸ διὰ τεσσάρων γένος χρωματικόν",
+   "confidence": "medium",
+   "n_refs": 2,
+   "n_checked": 2
+  },
+  "sol": {
+   "choice": "c",
+   "option": "Stop after ἀσύνθετον only, συγκεκραμένον joined to εἴη δ’ ἂν τοῦτο (a conjecture)",
+   "form": "εἰ δὲ δύο εἴη τὰ ἡμιτόνια, τὸ λοιπὸν γένοιτ’ ἂν ἓν ἐκ συμφθάρσεως διάστημα, τριημιτόνιον ἀσύνθετον. ἐξ ἡμιτονίων δύο καὶ τριημιτονίου συγκεκραμένον εἴη δ’ ἂν τοῦτο τὸ διὰ τεσσάρων γένος χρωματικόν",
+   "confidence": "medium",
+   "n_refs": 5,
+   "n_checked": 5
+  }
+ }
+}

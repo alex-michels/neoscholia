@@ -1,0 +1,467 @@
+{
+    "judge":  {
+                  "model":  "GPT-6",
+                  "date":  "2026-10-30",
+                  "web_access":  "true",
+                  "model_version_note":  "The session identifies this agent as Codex based on GPT-6. A more specific runtime model name or version was not exposed; no variant or version number has been invented. GPT-6 is therefore the most specific model identification used in the filename."
+              },
+    "verdicts":  [
+                     {
+                         "question":  "Q01",
+                         "choice":  "d",
+                         "form":  "λαμβάνοντες",
+                         "confidence":  "medium",
+                         "references":  [
+                                            {
+                                                "source":  "H. W. Smyth, Greek Grammar, §§2040–2042, 2056, 2148b–c and note; https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.22.html",
+                                                "status":  "checked",
+                                                "found":  "A participle ordinarily agrees in gender, number and case with its substantive, but §2148 allows agreement with the logical subject. Especially close is Sophocles, Antigone 259: nominative φύλαξ ἐλέγχων follows a clause about the guards\u0027 words, although a genitive construction would have been regular. The note recognizes nominative participles in elliptical clauses when a finite verb is understood.",
+                                                "bears_on":  "Supports the possibility of d as an anacoluthon; establishes why b is grammatically regular but not obligatory, and why a has no suitable antecedent. Does not certify this particular Byzantine sentence."
+                                            },
+                                            {
+                                                "source":  "Cleonides, Introductio harmonica 4, C. von Jan, Musici scriptores Graeci (1895), pp.182–185, especially p.182; Harvard/First1KGreek transcription: https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0361/tlg001/tlg0361.tlg001.1st1K-grc1.xml",
+                                                "status":  "checked",
+                                                "found":  "The list is introduced as a list of φθόγγοι and begins with nominative προσλαμβανόμενος. It confirms that the coming list supplies note names and that its first item is not a second participle continuing the syntax of λαμβάνοντες.",
+                                                "bears_on":  "d and c can both introduce this list with the notes as logical subject; excludes construing προσλαμβανόμενος as an unrelated continuation that would solve the preceding agreement."
+                                            },
+                                            {
+                                                "source":  "Supplied manuscript photographs, img/H-64v-17.jpg and img/H-64v-17-zoom.jpg; witness facts in questions.json Q01 and evidence/section-2.json, corrections_in_H",
+                                                "status":  "checked",
+                                                "found":  "The small interlinear υ and following sign are visible, but they do not securely establish either λαμβανούσας or λαμβάνουσι. The supplied diplomatic reading and explicit uncertainty are retained.",
+                                                "bears_on":  "The apparent correction cannot give a or c the weight of a securely transmitted reading."
+                                            }
+                                        ],
+                         "reasoning":  "Retain the nominative plural agreed by H\u0027s line text, Par. and V, correcting Bas.\u0027s isolated singular λαμβάνοντος. The discourse passes from the notes\u0027 different appellations to the notes themselves, represented immediately by their nominative names. The masculine participle can refer to those logical subjects in a loose enumerative construction; Smyth\u0027s Sophoclean parallel shows that a change from a possessor to a nominative logical subject is an attested kind of anacoluthon. This is an argument for admissibility, not an assertion of exact syntactic identity. λαμβανόντων would give smooth agreement with φθόγγων, but it is an unsupported normalization where an intelligible transmitted construction survives. λαμβάνουσι is an attractive finite-verb correction, with the notes understood as subject, but its presumed manuscript support is explicitly uncertain. λαμβανούσας has no feminine accusative subject to which it can intelligibly attach: τὰς προσηγορίας is the object of receiving, not a suitable receiver. The supplied image cannot decide the expansion of H\u0027s sign, and grammatical convenience should not manufacture certainty about it.",
+                         "note":  "λαμβάνοντες H ante correctionem? Par. V : λαμβάνοντος Bas.; H has an uncertain interlinear correction or alternative above -νον, possibly -ουσι or -ούσας; λαμβανόντων conjectured. Explain the shift to the notes as logical subject if the translator needs it."
+                     },
+                     {
+                         "question":  "Q02",
+                         "choice":  "e",
+                         "form":  "⟨διάτονος μέσων⟩",
+                         "confidence":  "medium",
+                         "references":  [
+                                            {
+                                                "source":  "Cleonides, Introductio harmonica 4, Jan (1895), p.182, and pp.185–186; https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0361/tlg001/tlg0361.tlg001.1st1K-grc1.xml",
+                                                "status":  "checked",
+                                                "found":  "The diatonic list places λιχανὸς μέσων διάτονος between παρυπάτη μέσων and μέση. The later division distinguishes fixed μέση from the movable diatonic lichanos. Jan\u0027s apparatus also records omissions within lists, including omission of μέση at p.183, illustrating the vulnerability of such enumerations.",
+                                                "bears_on":  "Confirms the missing pitch and attests a, but does not require its full wording here; argues against interpreting b as another form of ordinary μέση. Provides external grounds against d."
+                                            },
+                                            {
+                                                "source":  "Nicomachus, Enchiridion harmonices 11, Jan (1895), pp.257–259, especially p.257 and p.258; https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0358/tlg002/tlg0358.tlg002.1st1K-grc1.xml",
+                                                "status":  "checked",
+                                                "found":  "Nicomachus expressly treats διάτονος ὑπατῶν and λιχανὸς ὑπατῶν as alternative names; his meson list likewise identifies lichanos with διάτονος. His account places mese eighth in fifteen notes. Thus διάτονος alone can be a note name without λιχανός.",
+                                                "bears_on":  "Supports the short name in c and e and the missing item; a supplies more terminology than necessary. Does not establish the author\u0027s word order."
+                                            },
+                                            {
+                                                "source":  "LSJ and Bailly, s.v. διάτονος, through the Berlin-Brandenburg Academy of Sciences CLD; https://cld.bbaw.de/lemma/grc/%CE%B4%CE%B9%CE%AC%CF%84%CE%BF%CE%BD%CE%BF%CF%82",
+                                                "status":  "checked",
+                                                "found":  "Both entries distinguish the musical diatonic sense from the general sense of stretching; Bailly describes the diatonic fourth as two tones and a semitone. These general entries do not themselves specify the missing individual note\u0027s name or word order.",
+                                                "bears_on":  "Checks the word and musical sense common to a, b, c and e; the ancient note lists provide the more discriminating evidence."
+                                            }
+                                        ],
+                         "reasoning":  "The ancient lists establish precisely the absent member, and the author\u0027s own subsequent description requires the central note to be eighth, whereas the surviving enumeration makes it seventh. A short omission in the enumeration is better supported than intentional omission, so d is rejected. Supply διάτονος μέσων, explicitly as Xylander\u0027s conjecture, not as manuscript evidence. It matches the local shortened διάτονος ὑπερβολαίων and the head-first διάτονος διεζευγμένη, while Nicomachus confirms that διάτονος need not be expanded to λιχανός. The sequence παρυπάτη μέσων, διάτονος μέσων would also offer a straightforward opportunity for an eye-skip between repeated μέσων; this is a possible mechanism, not a witnessed fact. a is correct standard terminology but unnecessarily imports the full classical label. c is a possible equivalent name, yet its reversed order is less well supported by this author\u0027s surviving list. b would imitate the anomalous local ὑπάτη διάτονος but risks conflating lichanos with fixed μέση and lacks an equally strong external naming parallel. The missing pitch is much more certain than the exact restored wording, hence medium confidence.",
+                         "note":  "διάτονος μέσων suppl. Xyl. in marg.; om. Bas. H Par. V. Note that the supplied pitch is the diatonic lichanos of the meson tetrachord; alternative wording λιχανὸς μέσων διάτονος or μέσων διάτονος would identify the same pitch. Retain the author\u0027s other transmitted shortened or irregular names rather than silently standardizing the whole list."
+                     },
+                     {
+                         "question":  "Q03",
+                         "choice":  "a",
+                         "form":  "νευρὰν",
+                         "confidence":  "medium",
+                         "references":  [
+                                            {
+                                                "source":  "IEMA, Greek Music Thesaurus, s.v. χορδή, including the quotation attributed to Hesychius s.v. χορδή and reference to Pollux 4.62; https://www.iema.gr/thesaurus_s?id=1118\u0026lang=en\u0026q=%CF%87%CE%BF%CF%81%CE%B4%CE%AE",
+                                                "status":  "checked",
+                                                "found":  "The entry explicitly recognizes νευρά as a word for a musical string, alongside χορδή, and quotes the ancient lexicographical gloss χορδή· νευρά κιθάρας. The underlying Hesychius and Pollux passages were not independently opened; the checked evidence is the professional dictionary\u0027s report.",
+                                                "bears_on":  "Supports a; the use of χορδή elsewhere does not make νευρά inauthentic or unsuitable."
+                                            },
+                                            {
+                                                "source":  "Bailly, Dictionnaire grec-français, s.v. μοῖρα I, especially I.2; https://bailly.app/moira",
+                                                "status":  "checked",
+                                                "found":  "The feminine noun means part or portion, with examples in Homer and Plato. It also has the geometrical sense degree of a circle in Ptolemy, Geography 1. The entry gives no special musical-string sense.",
+                                                "bears_on":  "b is a legitimate form and could denote a material portion. Its geometrical sense makes it a serious alternative, but does not establish it as the particular object carrying a 9:8 musical ratio here."
+                                            },
+                                            {
+                                                "source":  "Nicomachus, Enchiridion harmonices 12, Jan (1895), pp.263–264; https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0358/tlg002/tlg0358.tlg002.1st1K-grc1.xml",
+                                                "status":  "checked",
+                                                "found":  "Nicomachus warns that the intervals called semitones are not literally halves of whole tones. This distinguishes numerical musical ratios from a simple physical halving and prevents using a corrected mathematical theory to select the noun here.",
+                                                "bears_on":  "Neither a nor b repairs the author\u0027s stated division; harmonic theory cannot compel a lexical emendation merely to make the argument mathematically orthodox."
+                                            },
+                                            {
+                                                "source":  "Supplied manuscript photograph img/H-65r-21.jpg, Q03 facts in questions.json, and evidence/section-2.json",
+                                                "status":  "checked",
+                                                "found":  "H\u0027s photographed word is compatible with the supplied uncertain reading μο̣ι̣ρὰν. Its final accent is transmitted, but the prescribed normalized spelling of that noun would be μοῖραν. No new palaeographical certainty beyond the agreed facts is claimed.",
+                                                "bears_on":  "Allows b its proper weight as the oldest witness\u0027s distinct reading without treating its uncertain middle letters or misplaced accent as decisive."
+                                            },
+                                            {
+                                                "source":  "Bailly, Dictionnaire grec-français, s.v. νευρά 2; https://bailly.app/neura",
+                                                "status":  "checked",
+                                                "found":  "Explicitly records a string of a musical instrument, citing Alexander of Aphrodisias, Problems 2.72. The cited ancient passage was not independently opened; the checked evidence is Bailly.",
+                                                "bears_on":  "Confirms a independently of the supplied P passages and the professional music dictionary."
+                                            }
+                                        ],
+                         "reasoning":  "Keep the base\u0027s νευράν, agreed by Par. and V. A material string carrying a musical ratio is a concrete instance of the preceding unit embodied in matter, and the checked musical dictionary confirms the requisite sense of νευρά. It also supplies an ancient lexicographical equation with χορδή, so the author\u0027s normal preference for χορδή is no objection to a. The independently supplied P passages demonstrate that νευρά belongs to the work\u0027s transmitted musical vocabulary, although P does not witness this particular noun. H\u0027s μοῖραν can mean a portion and is intelligible, but leaves the material portion less explicitly identified; its earlier date does not alone displace an acceptable, more specific reading shared by the other witnesses. The following ταύτην can refer to either feminine noun and therefore decides nothing. Nor should H\u0027s accent be used as proof against its reading, since orthography is normalized. The theoretical difficulty about half an epogdoic interval persists under both nouns and must be explained rather than solved by choosing μοῖραν. Medium confidence reflects the genuinely acceptable alternative in H.",
+                         "note":  "νευρὰν Bas. Par. V : μο̣ι̣ρὰν H (normalized μοῖραν). Translate νευρά as string. A translator\u0027s note may distinguish geometrical divisibility of material magnitude from exact bisection of a musical ratio; the author\u0027s claim is not made orthodox by altering the noun."
+                     },
+                     {
+                         "question":  "Q04",
+                         "choice":  "a",
+                         "form":  "ἡ σύμφρασις",
+                         "confidence":  "medium",
+                         "references":  [
+                                            {
+                                                "source":  "LSJ, s.v. ἐγγίγνομαι I and III, and Bailly, same entry, consulted in the Berlin-Brandenburg Academy\u0027s CLD: https://cld.bbaw.de/lemma/grc/ἐγγίγνομαι",
+                                                "status":  "checked",
+                                                "found":  "The verb can denote something arising or happening in something; it also has an impersonal construction with an infinitive meaning that something is possible. These are distinct available constructions, not a requirement that every occurrence be impersonal.",
+                                                "bears_on":  "Both options: the lexical evidence permits Vincent\u0027s impersonal analysis but does not impose it."
+                                            },
+                                            {
+                                                "source":  "H. W. Smyth, Greek Grammar, §§1972–1975 and 1982a: https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.21.html",
+                                                "status":  "checked",
+                                                "found":  "The normal expressed subject of an independent infinitive is accusative, but personal constructions also occur with verbs of happening. Section 1982a cites Plato, Philebus 55a, πολλή τις ἀλογία ξυμβαίνει γίγνεσθαι, with a nominative subject and infinitive.",
+                                                "bears_on":  "For a against treating b as grammatically compulsory; the Platonic example is an analogous construction with a different verb, not an exact parallel for ἐγγίνεται."
+                                            }
+                                        ],
+                         "reasoning":  "P expressly has the nominative according to Vincent\u0027s note, whereas his accusative is a conjecture. The first half of this very sentence already presents σύμφρασις as the subject of οὐκ ἐγγίνεται; the positive half can resume that subject, now with an explanatory infinitive εἶναι: combination comes to exist in the material realm. The checked grammar establishes that a nominative-plus-infinitive personal construction with a verb of happening is a real Greek possibility. It therefore removes the chief argument for imposing the accusative. I have not found an independent exact parallel with this particular verb, and the expression is somewhat redundant; this warrants medium confidence. The inaccuracies Vincent reports elsewhere in P do not demonstrate corruption here. Neither a replacement of the noun by σύγκρασις nor deletion of εἶναι belongs to this decision.",
+                         "note":  "Within the P-only passage, whose full extent must be enclosed in ⟨⟨ ⟩⟩, print the reported manuscript reading. Apparatus: ἡ σύμφρασις P teste Vincentio : τὴν σύμφρασιν Vincent coni. The personal construction is retained; the accusative would be a possible grammatical recasting."
+                     },
+                     {
+                         "question":  "Q05",
+                         "choice":  "b",
+                         "form":  "ὅπερ καὶ ἀριθμητικὸν ἀνεγχώρητον",
+                         "confidence":  "medium",
+                         "references":  [
+                                            {
+                                                "source":  "LSJ and Bailly, s.v. ἀριθμητικός, CLD: https://cld.bbaw.de/lemma/grc/ἀριθμητικός",
+                                                "status":  "checked",
+                                                "found":  "The adjective means arithmetical; the feminine substantive names arithmetic, and the masculine can describe a person skilled in reckoning. LSJ also records the adverb ἀριθμητικῶς, including Theon of Smyrna p.116 Hiller.",
+                                                "bears_on":  "All four options are possible forms with different functions: a would name the discipline in the dative, c an expert, d the adverb; b can remain an agreeing neuter adjective."
+                                            },
+                                            {
+                                                "source":  "Bailly, Dictionnaire grec-français, s.v. ἀνεγχώρητος, p.254 in the 2020 electronic edition: https://sites.ac-nancy-metz.fr/langues-anciennes/wp-content/uploads/bailly-2020-04.pdf",
+                                                "status":  "checked",
+                                                "found":  "The adjective is glossed as inadmissible or impossible, with a citation to Gregory of Nazianzus. It is not a noun lexically restricted to a particular case construction.",
+                                                "bears_on":  "Allows the neuter adjective to denote an impossible thing; it does not itself demand a dative complement."
+                                            },
+                                            {
+                                                "source":  "Smyth, Greek Grammar, §§1018, 1020–1023 and 1039: https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.14.html",
+                                                "status":  "checked",
+                                                "found":  "Adjectives may acquire substantive value; neuters can denote things in general. A substantivized adjective may itself take an attributive adjective (§1039). Thus two agreeing adjectives need not be two competing predicates.",
+                                                "bears_on":  "For b: analyse ἀριθμητικὸν ἀνεγχώρητον as an arithmetical impossibility, rather than making ἀριθμητικόν an unattested adverb."
+                                            },
+                                            {
+                                                "source":  "Smyth, Greek Grammar, §§1606–1609: https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.18.html",
+                                                "status":  "checked",
+                                                "found":  "Adverbial accusatives exist, including neuter adjectives; their existence is a general grammatical fact, not a particular attestation of ἀριθμητικόν as an adverb.",
+                                                "bears_on":  "An alternative defence of b was considered but is not needed for the chosen substantive-predicate analysis."
+                                            }
+                                        ],
+                         "reasoning":  "Retain the only reported wording: ὅπερ καὶ ἀριθμητικὸν ἀνεγχώρητον, with an understood copula, means that the preceding operation is also an arithmetical impossibility. Here ἀνεγχώρητον has substantive force (\u0027an impossible thing\u0027), qualified by the agreeing ἀριθμητικόν. This construction is supported by the checked general grammar, although no exact independent instance of this particular adjective pair was found. The supplied parallel τῇ δὲ ἀριθμητικῇ τοῦτο ἀδύνατον confirms the meaning very strongly, but does not require P\u0027s expanded passage to repeat its syntax. Option a is the best conjecture if correction were necessary. Option c shifts the reference to an arithmetician; option d yields a normal attested adverb. Neither improves the sense enough to justify discarding an intelligible transmitted expression. Confidence is medium because P can only be inspected through Vincent and the particular substantive use is inferred, not independently attested.",
+                         "note":  "Inside the full ⟨⟨ ⟩⟩ P passage, retain ἀριθμητικόν (grave ἀριθμητικὸν before ἀνεγχώρητον in continuous text). A translator may render \u0027an arithmetical impossibility\u0027. Research disclosure: one search inadvertently combined the two adjacent disputed words, contrary to the prompt\u0027s phrase-search restriction; it yielded no target-text result, and no prohibited edition or discussion was opened or used."
+                     },
+                     {
+                         "question":  "Q06",
+                         "choice":  "c",
+                         "form":  "τοῦ διὰ πασῶν καὶ διὰ πέντε, τριπλάσιος. οἷον, ὡς ἐπὶ ὑποδείγματος",
+                         "confidence":  "medium",
+                         "references":  [
+                                            {
+                                                "source":  "Nicomachus, Introduction to Arithmetic I.5.1, Hoche\u0027s text as identified by the electronic edition: https://ancientlibrary.net/nicomachus-of-gerasa-introduction-to-arithmetic/",
+                                                "status":  "checked",
+                                                "found":  "Nicomachus explicitly assigns 3:1 to the octave plus fifth and 4:1 to the double octave. This independently verifies what the proposed supplement would say.",
+                                                "bears_on":  "For the harmonic correctness of a, but not evidence that this author\u0027s sentence contained it."
+                                            },
+                                            {
+                                                "source":  "Andrew Barker, The Science of Harmonics in Classical Greece (2007), pp.359–360, summary of Euclid, Sectio canonis propositions 12–15: https://www.examenapium.it/cs/biblio/Barker2007.pdf",
+                                                "status":  "checked",
+                                                "found":  "The summary of proposition 12 gives the double octave as 4:1. It also distinguishes interval ratios from tone counts, which need not form identical enumerations.",
+                                                "bears_on":  "Confirms the mathematical content common to the supplement and the following numerical example; does not establish omitted wording."
+                                            }
+                                        ],
+                         "reasoning":  "All witnesses pass directly from τριπλάσιος to οἷον, and the transition is grammatical. The following example immediately supplies τετραπλάσιος and 24 against the initial 6. Thus the author communicates the double-octave ratio without the conjectured additional clause. The matching six-item interval list and numerical illustration make an omission plausible, but they do not show that it occurred in copying rather than in the author\u0027s exposition. The external parallels establish beyond doubt that 4:1 is correct; they cannot establish that the missing clause was once present, or its exact particles. Neither an asserted lacuna nor a fluent supplement is needed for an intelligible critical text. Preserve the discrepancy and explain it. The form field quotes the unchanged Bas. transition; the separate variants containing δὶς are outside the proposed supplementation.",
+                         "note":  "Note the absence of a separate double-octave item in every witness and state that the next example nevertheless gives 24:6 = 4:1. Record ⟨τοῦ δὲ δὶς διὰ πασῶν τετραπλάσιος⟩ as a possible supplement in the apparatus, without printing it or ***."
+                     },
+                     {
+                         "question":  "Q07",
+                         "choice":  "d",
+                         "form":  "ἐκ δύο τόνων καὶ ἡμιτονίου, καὶ μικρόν τι πρός, ὃ καὶ διέσεως ἧττον ὂν προσωνυμίας οὐκ ἔτυχε\nδιπλασιεπιμερής\nδιπλασιεπιμερὴς",
+                         "confidence":  "medium",
+                         "references":  [
+                                            {
+                                                "source":  "Barker, The Science of Harmonics in Classical Greece (2007), pp.359–360, discussing Sectio canonis propositions 14–16: https://www.examenapium.it/cs/biblio/Barker2007.pdf",
+                                                "status":  "checked",
+                                                "found":  "The mathematical tradition makes the fourth smaller than two and a half epogdoic tones. This is an actual conflict with adding a positive excess if \u0027semitone\u0027 means exactly half such a tone.",
+                                                "bears_on":  "Exposes the theoretical problem behind b and c; it does not furnish a textual correction."
+                                            },
+                                            {
+                                                "source":  "Nicomachus, Introduction to Arithmetic I.23.1–3, Hoche\u0027s text in the electronic edition: https://ancientlibrary.net/nicomachus-of-gerasa-introduction-to-arithmetic/",
+                                                "status":  "checked",
+                                                "found":  "The generic multiple-superpartient relation contains a number more than once plus several parts of it. For 8:3 and 16:6 Nicomachus uses the more explicit διπλασιεπιδιμερής. This is a parallel in classification and numbers, not an exact attestation of the shorter form in the question.",
+                                                "bears_on":  "Against requiring a or b: the transmitted shorter compound can describe the correct generic relation, which the author\u0027s numbers and explanation specify."
+                                            }
+                                        ],
+                         "reasoning":  "The fourth\u0027s positive small remainder does not agree with an exact half-tone interpretation: the independent mathematical account gives the opposite inequality. But all witnesses transmit the same explanatory relative clause, the fifth and octave have conventional approximate tone counts, and no alternative wording or credible uniquely recoverable corruption is supplied. Replacing an author\u0027s mistaken or mixed account with a scientifically consistent one would exceed the evidence. Retain it and warn the translator about its theory. At the other point 16:6 = 8:3 = 2 + 2/3; this is a double multiple with a superpartient excess. The text twice calls it διπλασιεπιμερής and expressly explains twice six plus two parts of six. Nicomachus provides the precise longer designation, but a general designation made specific by its explanation is acceptable; supplying the additional δι would normalize terminology without necessity. No witness supports either correction. The full verb συμπληροῦται also belongs to Bas., whose Συμ- is at the preceding line end; joining that line division is not a variant or a change to the disputed arithmetic account.",
+                         "note":  "Retain both loci. Explain that the fourth\u0027s positive excess is not orthodox epogdoic arithmetic and that no secure textual repair is available. Gloss διπλασιεπιμερής as the ratio 8:3, \u0027twice and two-thirds\u0027, noting the more explicit ancient name διπλασιεπιδιμερής without substituting it. The three lines in the form field give the first disputed clause and the two occurrences of the ratio name, respectively; they are separate loci, not one continuous passage."
+                     },
+                     {
+                         "question":  "Q08",
+                         "choice":  "b",
+                         "form":  "τὸ διὰ πέντε μέλος",
+                         "confidence":  "medium",
+                         "references":  [
+                                            {
+                                                "source":  "LSJ, s.v. μέλος B, accessible transcription: https://bible-teka.com/strong/greek/3196/dict/liddell-scott-jones/",
+                                                "status":  "checked",
+                                                "found":  "Musical senses extend from a musical member or phrase to tune, instrumental melody, and generally tone (citing Euripides, Electra 756). The word is not confined to a complete song.",
+                                                "bears_on":  "For b; against declaring μέλος meaningless and therefore deleting or obelizing it."
+                                            },
+                                            {
+                                                "source":  "Bailly, s.v. μέλος II, p.1519 of the 2020 electronic edition: https://sites.ac-nancy-metz.fr/langues-anciennes/wp-content/uploads/bailly-2020-04.pdf",
+                                                "status":  "checked",
+                                                "found":  "The musical sense begins with a member of a musical phrase and includes instrumental music, with references to Pindar, Pythian 12.19, and Theognis 761. It supports a broad musical application rather than a single narrowly fixed technical sense.",
+                                                "bears_on":  "Supports retaining a looser explanatory noun in an interval list; supplies no exact independent fifth-plus-μέλος expression."
+                                            },
+                                            {
+                                                "source":  "Nicomachus, Introduction to Arithmetic I.5.1: https://ancientlibrary.net/nicomachus-of-gerasa-introduction-to-arithmetic/",
+                                                "status":  "checked",
+                                                "found":  "The interval names for fourth, fifth and octave occur together without a following μέλος. This confirms that the noun is unnecessary to identify the fifth, rather than proving that it is corrupt when present.",
+                                                "bears_on":  "The parallel makes a shorter list stylistically normal, but does not decide for the conjectural deletion a."
+                                            }
+                                        ],
+                         "reasoning":  "P as printed has a grammatically coherent neuter noun with its article and interval qualification: the musical member or stretch constituting the fifth. The lexica support a broader musical sense than an entire song. The other list members can remain substantivized interval expressions; a list need not repeat an explanatory noun uniformly. The supplied usage μέλος συναπαρτίζεσθαι likewise shows this author using μέλος for a musical unit formed from intervals. A gloss incorporated into the text is possible, but neither its position nor any witness establishes that history. Deletion would assert such a corruption without necessity, while obelization would overstate the semantic difficulty. No exact external instance of this particular expression was located, hence medium confidence.",
+                         "note":  "Retain μέλος within the full ⟨⟨ ⟩⟩ P passage. State that it is present in Vincent without a variant note; translate the musical fifth or the melodic stretch of a fifth. If an apparatus lists rejected conjectures, record deletion as conjectural, without braces in the edited wording."
+                     },
+                     {
+                         "question":  "Q09",
+                         "choice":  "c",
+                         "form":  "δίεσις",
+                         "confidence":  "low",
+                         "references":  [
+                                            {
+                                                "source":  "Smyth, A Greek Grammar for Colleges, §§1118, 1126, 1131–1132: https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.16.html",
+                                                "status":  "checked",
+                                                "found":  "Generic nouns can take the article; omission, especially with general or abstract conceptions, need not appreciably change meaning.",
+                                                "bears_on":  "Makes a/b natural, but shows that c need not be repaired for grammar alone."
+                                            },
+                                            {
+                                                "source":  "Cleonides, Harmonic Introduction §5, Jan, Musici scriptores Graeci (1895), p.187.17–18, Harvard/First1KGreek transcription: https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0361/tlg001/tlg0361.tlg001.1st1K-grc1.xml",
+                                                "status":  "checked",
+                                                "found":  "The list of intervals smaller than a fourth includes anarthrous δίεσις, ἡμιτόνιον and τόνος. This is an actual technical enumeration without articles.",
+                                                "bears_on":  "For the grammatical and technical acceptability of c; it does not determine Vincent\u0027s bracket convention."
+                                            },
+                                            {
+                                                "source":  "Supplied questions.json Q09; evidence/section-4.json, Vinc.340.11 and H67r.12, Par.24r.14–15, V79r.15–16 (local evidence; no external URL)",
+                                                "status":  "checked",
+                                                "found":  "The supplied Vincent text alone gives [ἡ]; its editorial meaning is explicitly uncertain. Parallel lists in the other supplied witnesses have the article.",
+                                                "bears_on":  "For a/b as possible wording, against treating either P\u0027s article or P\u0027s omission as a securely established fact."
+                                            }
+                                        ],
+                         "reasoning":  "Print the independently secure word δίεσις without introducing a new article into the critical text. The article would be idiomatic and would match the following two nouns and the author\u0027s other lists; that is evidence of likelihood, not proof of its presence in P. Vincent\u0027s [ἡ] is the only evidence at this point and the facts forbid deciding whether those brackets add or remove. Reference grammar and Cleonides\u0027 technical enumeration show that the article is not necessary for an acceptable text. Thus the edition\u0027s restriction on conjecturing when an acceptable wording exists favours c. This is an editorial choice under documentary uncertainty, not a claim that P certainly omitted ἡ. Neither reference evidence nor the supplied excerpt resolves Vincent\u0027s convention; confidence must remain low.",
+                         "note":  "Report exactly: Vincent [ἡ] δίεσις, with no note; P\u0027s article uncertain, since the sense of the brackets cannot be established from the supplied material. Do not report an unqualified omission by P. The enclosing P-only passage receives ⟨⟨ … ⟩⟩, as stipulated."
+                     },
+                     {
+                         "question":  "Q10",
+                         "choice":  "a",
+                         "form":  "οἱ τῶν ἐμμέσων",
+                         "confidence":  "medium",
+                         "references":  [
+                                            {
+                                                "source":  "LSJ, s.v. ἔμμεσος I and III, Scaife ATLAS: https://atlas.perseus.tufts.edu/dictionaries/entry/urn:cite2:scaife-viewer:dictionaries.v1:lsj-n34151/",
+                                                "status":  "checked",
+                                                "found":  "Records intermediate, having a mean, and mediate; cites Simplicius, in Cael.340.33, for opposites with an intermediate term, and Themistius, in APo.31.6, for the adverb.",
+                                                "bears_on":  "For a as an established philosophical term suited to the contrast with immediate intervals and the syllogistic comparison."
+                                            },
+                                            {
+                                                "source":  "LSJ, s.v. μέσος III.1.a, Scaife ATLAS: https://atlas.perseus.tufts.edu/dictionaries/entry/urn:cite2:scaife-viewer:dictionaries.v1:lsj-n66494/",
+                                                "status":  "checked",
+                                                "found":  "The prepositional expression denotes things in between: the entry cites Sophocles, OC583, and El.1364, for intervening things or words.",
+                                                "bears_on":  "For the linguistic validity of b, but not its equivalence to intervals spanning intervening notes."
+                                            },
+                                            {
+                                                "source":  "Smyth, A Greek Grammar for Colleges, §§1153c, 1156: https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.16.html",
+                                                "status":  "checked",
+                                                "found":  "An article can substantivize a preposition with its case; such phrases also function attributively.",
+                                                "bears_on":  "Against rejecting b as ungrammatical; the question is its sense here."
+                                            },
+                                            {
+                                                "source":  "Cleonides, Harmonic Introduction §5, Jan (1895), p.188.3–10, Harvard/First1KGreek transcription: https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0361/tlg001/tlg0361.tlg001.1st1K-grc1.xml",
+                                                "status":  "checked",
+                                                "found":  "Distinguishes uncompounded intervals bounded by successive notes from compounded intervals bounded by nonsuccessive notes.",
+                                                "bears_on":  "Supports the conceptual contrast that a restores; it is not evidence for this author\u0027s exact terminology."
+                                            }
+                                        ],
+                         "reasoning":  "The transmitted phrase is grammatical, so correction cannot rest on a preference for a compound adjective. Its ordinary sense, however, is intervals lying in between. In the supplied passage those are precisely the small immediate intervals of 340.11; their ratios are arranged consecutively, not by skipping. The contrasting clause must concern the mediate intervals whose endpoints are compared across intervening notes. The passage calls them ἔμμεσα at 340.7 and ἐμμέσων at 340.25, where the same καθ\u0027 ὑπερβατόν comparison is explicitly repeated. LSJ confirms the established mediate sense and its philosophical setting; Cleonides provides the corresponding ancient distinction between successive and nonsuccessive endpoints. The syllogism analogy likewise contrasts adjacent premises with a conclusion connecting extreme terms. The author\u0027s τῶν ἐν μέσῳ διαστημάτων at Bas.31.10 is genuine evidence against automatic normalization, but there it describes internal constituent intervals and therefore does not establish the needed mediate sense here. A separation or reinterpretation of ἐμμέσων as ἐν μέσῳ is plausible, although unproved without P. Restore the local antithesis by conjecture, with medium confidence.",
+                         "note":  "ἐμμέσων coni. : ἐν μέσῳ Vincent, no manuscript note. Explain that the mediate intervals span intervening notes; do not attribute the conjecture to P. The whole additional passage remains within ⟨⟨ … ⟩⟩."
+                     },
+                     {
+                         "question":  "Q11",
+                         "choice":  "a",
+                         "form":  "συγκρινομένου",
+                         "confidence":  "medium",
+                         "references":  [
+                                            {
+                                                "source":  "Smyth, A Greek Grammar for Colleges, §§2058, 2070: https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.22.html",
+                                                "status":  "checked",
+                                                "found":  "A genitive absolute contains a circumstantial participle agreeing with its own genitive subject; examples include Xenophon, Anabasis1.2.22, and Isocrates9.56.",
+                                                "bears_on":  "For singular a when the understood subject is λόγου; against attaching b to that singular noun."
+                                            },
+                                            {
+                                                "source":  "Goodell, A School Grammar of Attic Greek, §580a, Dickinson College Commentaries: https://dcc.dickinson.edu/pl/grammar/goodell/participles",
+                                                "status":  "checked",
+                                                "found":  "A participle is both verbal and adjectival; in its adjectival function it agrees with its noun or pronoun.",
+                                                "bears_on":  "Supports requiring an identifiable plural subject for b rather than assuming that a nearby plural genitive automatically licenses it."
+                                            },
+                                            {
+                                                "source":  "Smyth, A Greek Grammar for Colleges, §1044: https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.14.html",
+                                                "status":  "checked",
+                                                "found":  "A collective singular can have a plural circumstantial participle, illustrated by Xenophon, Anabasis2.1.6, with the army and those killing cattle.",
+                                                "bears_on":  "Provides a genuine exception relevant to defending b, but λόγος here is a mathematical ratio rather than a collective of agents."
+                                            },
+                                            {
+                                                "source":  "Supplied questions.json Q11 and evidence/section-4.json, Vinc.340.25–26,342.1–4 (local evidence; no external URL)",
+                                                "status":  "checked",
+                                                "found":  "The μέν member has τοῦ … λόγου … παραβαλλομένου; the δέ member retains singular τοῦ before the plural dependent genitive but has συγκρινομένων. Vincent gives no note on the participle.",
+                                                "bears_on":  "Direct local evidence for restoring singular a; b is only Vincent\u0027s unchecked report at this point."
+                                            }
+                                        ],
+                         "reasoning":  "Understand τοῦ δὲ τῶν ἀμέσων as τοῦ δὲ τῶν ἀμέσων [διαστημάτων λόγου]. The singular article resumes the singular subject λόγου and the contrast is exactly parallel to τοῦ μὲν … λόγου … παραβαλλομένου. Singular συγκρινομένου completes that structure with one small ending correction. The printed plural can arise under the influence of τῶν ἀμέσων [διαστημάτων], but making those intervals the subject leaves the initial τοῦ without its expected construction; the accusative φθόγγους is governed by πρὸς and cannot supply the genitive subject. Smyth\u0027s genuine plural-with-collective exception was considered, but a ratio is not a collective noun of the illustrated sort. I found no checked parallel establishing this particular change of construction as the author\u0027s Byzantine usage. That absence is not proof that such an anacoluthon is impossible; combined with the exact local μέν/δέ parallel, however, it makes the singular the better text. Confidence is medium because P cannot be checked and an authorial shift to the plural is conceivable.",
+                         "note":  "συγκρινομένου coni. : συγκρινομένων Vincent, without note. Supply λόγου only in explanation or translation; it is a normal contextual ellipsis and need not be inserted into the Greek. Keep the enclosing additional passage in ⟨⟨ … ⟩⟩."
+                     },
+                     {
+                         "question":  "Q12",
+                         "choice":  "a",
+                         "form":  "τῶν δὲ συστημάτων",
+                         "confidence":  "high",
+                         "references":  [
+                                            {
+                                                "source":  "LSJ, s.v. σύστημα I.6, Logeion: https://logeion.org/σύστημα",
+                                                "status":  "checked",
+                                                "found":  "The musical sense is a scale or system of intervals; cited parallels include Plato, Philebus17d, Aristoxenus, Harmonics p.2 M., and Cleonides1, with octave systems explicitly included.",
+                                                "bears_on":  "For a as the established name of an arrangement comprising several intervals; against using b merely as an interchangeable technical heading."
+                                            },
+                                            {
+                                                "source":  "Cleonides, Harmonic Introduction §1, Jan, Musici scriptores Graeci (1895), pp.179.10–11,180.2–3; §8, p.193.3–8, Harvard/First1KGreek transcription: https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0361/tlg001/tlg0361.tlg001.1st1K-grc1.xml",
+                                                "status":  "checked",
+                                                "found":  "An interval is bounded by two notes differing in pitch; a system consists of more than one interval. Cleonides separately classifies systems while acknowledging several properties shared with intervals.",
+                                                "bears_on":  "Supports a and explains why the overlap of interval and system classifications does not erase their distinction."
+                                            },
+                                            {
+                                                "source":  "Supplied questions.json Q12 and evidence/section-5.json, Bas.30.23–31.14 and Vinc.342.25–26 (local evidence; no external URL)",
+                                                "status":  "checked",
+                                                "found":  "Bas., H, Par. and V have διαστημάτων; P is reported as συστημάτων. The list is immediately followed by an explicit distinction between material systems and abstract intervals, then by τὰ τοιαῦτα συστήματα.",
+                                                "bears_on":  "Decisive internal support for P\u0027s a against the majority reading b."
+                                            }
+                                        ],
+                         "reasoning":  "Adopt P\u0027s reported συστημάτων. The four-, five-, eight- and sixteen-string arrangements contain the capacities and intervals being discussed; the following sentence distinguishes such material systems from abstract intervals and then refers back to them as τὰ τοιαῦτα συστήματα. LSJ and Cleonides confirm this technical distinction. A fourth or octave can of course be called an interval, and Cleonides allows systems and intervals to share classifications; therefore the majority reading cannot be rejected simply because the list spans fourths and octaves. What decides is the concrete string arrangements and the author\u0027s own immediately following explanation of their status as systems. The familiar heading τῶν δὲ διαστημάτων at Bas.25.19 offers a plausible source of assimilation to διαστημάτων, though no genealogical independence or particular copying event can be proved. P\u0027s divergent wording elsewhere and Vincent\u0027s possible intervention limit any claim to have recovered an autograph reading, but the supplied facts explicitly give P as witness to the preferable form. No unsupported conjecture is required.",
+                         "note":  "συστημάτων P, as printed/reported by Vincent : διαστημάτων Bas. H Par. V. State that P is known here only through Vincent and that the reading also matches the explicit distinction at Bas.31.10–14."
+                     },
+                     {
+                         "question":  "Q13",
+                         "choice":  "d",
+                         "form":  "τὸ πλεονάζον τούτων τινὸς †ἀμφότερον† τῆς μελῳδίας εἶδος συνίστησι",
+                         "confidence":  "medium",
+                         "references":  [
+                                            {
+                                                "source":  "Bailly, Dictionnaire grec-français, s.v. ἀμφότερος I, III.2; https://bailly.app/amphoteros",
+                                                "status":  "checked",
+                                                "found":  "The singular can mean both together; adverbial ἀμφότερον introduces two coordinated properties, illustrated by Homer, Iliad 3.179, and Plato, Ion 541b. It does not mean the other member of an opposition.",
+                                                "bears_on":  "f and c: the transmitted form is real Greek, but requires two applicable members; adding a deficient amount would supply a second member only by conjecture. Supports d over an unqualified retention."
+                                            },
+                                            {
+                                                "source":  "LSJ, s.v. βαρύς, comparative forms and III.1; https://atlas.perseus.tufts.edu/dictionaries/entry/urn:cite2:scaife-viewer:dictionaries.v1:lsj-n19477/",
+                                                "status":  "checked",
+                                                "found":  "The comparative is βαρύτερος. The musical sense is low in pitch, opposed to ὀξύς; examples include Plato, Phaedrus 268e, and Aristoxenus, Harmonica p.3 M. The entry also records the comparative adverb of playing on a lower note in Aristotle, Generation of Animals 788a22.",
+                                                "bears_on":  "b: βαρύτερον would give a precise and independently established musical sense, but the entry supplies no evidence for its transmission here."
+                                            },
+                                            {
+                                                "source":  "Bailly, s.v. ἀμβλύς I–II and comparison; https://bailly.app/amblus",
+                                                "status":  "checked",
+                                                "found":  "The word means blunted, weak or ineffective, and the comparative in -ύτερος is attested. Its opposition to sharpness includes physical points and angles; the hearing example concerns weak hearing. This entry supplies no musical-pitch parallel for ἀμβλύτερον.",
+                                                "bears_on":  "a: the proposed form is morphologically sound, but this lexical check does not establish it as the precise counterpart of high pitch."
+                                            },
+                                            {
+                                                "source":  "Bailly, s.v. ἕτερος I.1; https://bailly.app/heteros ; Cambridge Grammar of Classical Greek (2019), §1.45 note 3, p.16; https://api.pageplace.de/preview/DT0400.9781108229456_A37027823/preview-9781108229456_A37027823.pdf",
+                                                "status":  "checked",
+                                                "found":  "Bailly records θάτερον for the one or other of two, with examples including Plato, Theaetetus 187b, and Sophocles, Electra 345. The grammar explains its historical crasis and development as an alternative pronoun.",
+                                                "bears_on":  "e: θάτερον could express the other kind in contrast with the preceding high kind; its legitimacy does not identify it as the lost wording."
+                                            },
+                                            {
+                                                "source":  "Nicomachus, Harmonicum enchiridion 4, Jan, Musici scriptores Graeci (1895), pp.243–244; https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0358/tlg002/tlg0358.tlg002.1st1K-grc1.xml",
+                                                "status":  "checked",
+                                                "found":  "Greater string tension gives higher notes; greater pipe lengths and cavities yield a lower note. The explanation is directional, contrasting increased tension with increased dimensions. Jan\u0027s incidental references to later Byzantine writers were ignored.",
+                                                "bears_on":  "b, e versus f: independent ancient acoustics supports the expected lower or opposite result, but cannot decide which replacement P once had, or whether an omitted second subject caused the difficulty."
+                                            }
+                                        ],
+                         "reasoning":  "P is available only through Vincent\u0027s unchecked transcription, which prints ἀμφότερον without a variant. A singular neuter for \u0027both\u0027 is not itself corrupt; the difficulty is its reference. In this contrast, increasing one of the listed dimensions is said to produce both kinds, whereas the preceding clause has explained the high result of greater tension or suspended weight. No second condition is expressed that would yield the second kind. Reading the word adverbially leaves the same difficulty. The references establish good Greek and a plausible sense for βαρύτερον and θάτερον; ἀμβλύτερον is a possible form but lacks an equally specific pitch parallel in the checked entry. None has witness support or a demonstrable path of corruption. The proposed supplement adding deficiency could make a two-sided statement, but there is no independent trace of that omission and other reconstructions remain possible. I therefore mark the one word as unresolved. Confidence concerns the decision to signal uncertainty, not certainty that the author\u0027s intended wording is unrecoverable in principle.",
+                         "note":  "Within the enclosing ⟨⟨ P-only passage ⟩⟩, print †ἀμφότερον†. Apparatus: ἀμφότερον Vincent, without manuscript variant; βαρύτερον, θάτερον and ἀμβλύτερον conjectural alternatives; supplement καὶ τὸ ἐλλεῖπον also conjectural. Translator: a lower or opposite kind is probably intended, but do not translate a conjecture as established Greek. No target-text edition or discussion was used."
+                     },
+                     {
+                         "question":  "Q14",
+                         "choice":  "a",
+                         "form":  "ἑκκαιδεκάχορδον",
+                         "confidence":  "high",
+                         "references":  [
+                                            {
+                                                "source":  "LSJ, s.v. κανών, musical sense, as reproduced by the Berlin-Brandenburg Academy CLD; https://cld.bbaw.de/lemma/grc/κανών",
+                                                "status":  "checked",
+                                                "found":  "The entry records an eight-stringed and a fifteen-stringed canon, citing Ptolemy, Harmonica 2.2 and the title of 3.1. These are lexical references, not a claim that Ptolemy\u0027s passages themselves were opened.",
+                                                "bears_on":  "b: fifteen strings is established terminology, but that does not require an author who counts two eight-note spans to use it at this place."
+                                            },
+                                            {
+                                                "source":  "Cleonides, Introductio harmonica 10, Jan (1895), pp.199–201, First1KGreek; https://beta.perseus.tufts.edu/urn:cts:greekLit:tlg0361.tlg001.1st1K-grc1:10/",
+                                                "status":  "checked",
+                                                "found":  "The Greater Perfect System has four tetrachords arranged in two conjunct pairs, with the additional tones described, and is bounded by the double octave. The definitions distinguish a shared conjunction note from a tone of disjunction. Incidental Bryennius references in Jan\u0027s apparatus were ignored.",
+                                                "bears_on":  "a and b: confirms the harmonic structure underlying fifteen distinct notes, and the relevance of shared endpoints; it does not attest this author\u0027s sixteen-string designation."
+                                            },
+                                            {
+                                                "source":  "Nicomachus, Harmonicum enchiridion 11.4, Jan (1895), p.258; https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0358/tlg002/tlg0358.tlg002.1st1K-grc1.xml",
+                                                "status":  "checked",
+                                                "found":  "Nicomachus explicitly makes mese eighth from either end among fifteen notes, with an eight-note system on each side and the whole spanning a double octave. References to Pachymeres in the surrounding editorial apparatus were ignored.",
+                                                "bears_on":  "b as the standard count; a as an intelligible double counting of a shared eighth note in the supplied author\u0027s own explanation."
+                                            }
+                                        ],
+                         "reasoning":  "The standard theoretical count is fifteen distinct pitches; the checked Nicomachus parallel makes that especially explicit. Nevertheless, all four witnesses spell out sixteen here, and all four also transmit the earlier explanation that the sixteen-stringed arrangement is in a fifteen-stringed one, the endpoint of one octave becoming the beginning of the next. The comparisons first:eighth and eighth:fifteenth show that the author knows the shared middle position. The number sixteen therefore belongs to his repeated designation or his doubled counting, whether felicitous or erroneous, rather than to an isolated numeral-sign corruption. Replacing it with fifteen would erase the distinction made earlier and correct the author\u0027s terminology into the standard textbook account. Normalize H\u0027s breathing, retain the word, and explain the counting. No independent attestation of the precise sixteen-string designation was established in the reference research; this interpretation rests on the supplied internal explanation, not on a claimed lexical parallel.",
+                         "note":  "ἑκκαιδεκάχορδον Bas. H Par. V (H smooth breathing); πεντεκαιδεκάχορδον conjecture rejected. Translator: two eight-note octaves share mese and contain fifteen distinct notes; the author\u0027s sixteen apparently counts the common boundary twice. Preserve the numerical peculiarity in translation."
+                     },
+                     {
+                         "question":  "Q15",
+                         "choice":  "c",
+                         "form":  "εἰ δὲ δύο εἴη τὰ ἡμιτόνια, τὸ λοιπὸν γένοιτ’ ἂν ἓν ἐκ συμφθάρσεως διάστημα, τριημιτόνιον ἀσύνθετον. ἐξ ἡμιτονίων δύο καὶ τριημιτονίου συγκεκραμένον εἴη δ’ ἂν τοῦτο τὸ διὰ τεσσάρων γένος χρωματικόν",
+                         "confidence":  "medium",
+                         "references":  [
+                                            {
+                                                "source":  "Cleonides, Introductio harmonica 3, Jan (1895), pp.181–182; https://beta.perseus.tufts.edu/urn:cts:greekLit:tlg0361.tlg001.1st1K-grc1:3/",
+                                                "status":  "checked",
+                                                "found":  "The chromatic genus ascends through semitone, semitone and trisemitone; the diatonic ascends through semitone, tone and tone. These are divisions of the complete tetrachord.",
+                                                "bears_on":  "c: the mixture of two semitones and a trisemitone describes the whole chromatic tetrachord. Against a or b if the participle is attached to the remaining single interval."
+                                            },
+                                            {
+                                                "source":  "Cleonides, Introductio harmonica 5, Jan (1895), pp.187–189; https://beta.perseus.tufts.edu/urn:cts:greekLit:tlg0361.tlg001.1st1K-grc1:5/",
+                                                "status":  "checked",
+                                                "found":  "Incomposite intervals are bounded by consecutive notes in the relevant genus. A trisemitone is incomposite in the chromatic genus but composite in the diatonic. Later Byzantine comparisons in the apparatus were ignored.",
+                                                "bears_on":  "a, b and c: validates τριημιτόνιον ἀσύνθετον as the single remaining chromatic step; incomposite does not turn that step into a full tetrachord."
+                                            },
+                                            {
+                                                "source":  "Smyth, Greek Grammar, §§2054–2056, circumstantial participle; https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.22.html",
+                                                "status":  "checked",
+                                                "found":  "An anarthrous circumstantial participle qualifies the main assertion and agrees with its subject or object. It can stand before the article. Smyth illustrates a preceding participial phrase with Thucydides 1.29.",
+                                                "bears_on":  "c: a preceding neuter singular participial phrase can qualify τοῦτο τὸ διὰ τεσσάρων γένος in the following assertion; it need not modify the nearest preceding διάστημα."
+                                            },
+                                            {
+                                                "source":  "Cambridge Grammar of Classical Greek (2019), §1.9 note 1 and §1.13, pp.5–7; https://api.pageplace.de/preview/DT0400.9781108229456_A37027823/preview-9781108229456_A37027823.pdf",
+                                                "status":  "checked",
+                                                "found":  "Modern punctuation is an editorial convention and need not reflect ancient intonation or writing; systematic punctuation and word divisions are later developments. This is a general editorial principle, not evidence about the dates or authority of these particular stops.",
+                                                "bears_on":  "c against mechanically preserving a or b: punctuation can be reassigned for syntax and sense without positing lost or altered Greek words."
+                                            },
+                                            {
+                                                "source":  "Smyth, Greek Grammar, §2837, apodotic δέ; https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.36.html",
+                                                "status":  "checked",
+                                                "found":  "The principal clause can be marked by δέ after an antecedent participial expression. Thus its position after the initial participial unit does not require moving any Greek words.",
+                                                "bears_on":  "c: supports construing the initial participle with the following assertion despite the deferred position of δέ."
+                                            }
+                                        ],
+                         "reasoning":  "The two semitones and trisemitone total five semitones, the complete fourth; they cannot be the composition of the trisemitone left after the first two steps. The ancient parallel independently establishes both the chromatic division and the technical validity of an incomposite trisemitone. End the first assertion at ἀσύνθετον, then take συγκεκραμένον with the following neuter subject τοῦτο τὸ διὰ τεσσάρων γένος. The preceding diatonic sentence provides an internal structural parallel: the genus is described by the intervals of which the whole is constituted. A comma after ἀσύνθετον makes the wrong backward attachment especially natural; a high point followed by the inherited stop would require an unexpressed change of subject and a detached elliptical assertion about the whole. That is possible as loose exposition, but less persuasive than joining the extant participle to its extant subject and verb. The agreement of all witnesses in stopping after συγκεκραμένον is real evidence and should be reported; it does not outweigh the combined syntactic and musical clarification obtained solely by punctuation. No supplement or verbal emendation is required. Confidence is medium for the exact punctuation: theory establishes the whole-tetrachord referent more firmly than it excludes an elliptical version of a.",
+                         "note":  "Repunctuate: full stop after ἀσύνθετον; no sentence stop after συγκεκραμένον. Record that H V have a high point after ἀσύνθετον, Par. a comma, Bas. none, and all witnesses stop after συγκεκραμένον. Translate the mixture as a property of the complete chromatic tetrachord, not of its trisemitone step."
+                     }
+                 ],
+    "summary":  "Q01 is difficult because H\u0027s interlinear correction is unreadable and the transmitted nominative needs a defensible change to the logical subject. Q05 can be retained as a substantive predicate, but no exact independent collocation was found; Q09 remains low-confidence because Vincent\u0027s bracket convention is unknown. Q13 is obelized because the probable acoustic contrast does not uniquely recover the wording, and Q15 is repunctuated with medium confidence because an elliptical construction remains possible. The missing note in Q02 is more certain than its precise restored name; Q07 and Q14 preserve potentially authorial scientific or terminological peculiarities. Reference-access failures were worked around where possible and unverified claims were not promoted to checked evidence. One search-procedure lapse is disclosed under Q05: two adjacent disputed words were searched together, but the search produced no target-text hit and no prohibited edition or discussion was opened or used; incidental references to excluded later Byzantine writers in ancient editions\u0027 apparatus were ignored."
+}

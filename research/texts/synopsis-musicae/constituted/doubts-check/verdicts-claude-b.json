@@ -1,0 +1,477 @@
+{
+ "judge": {
+  "model": "Claude Opus 5.5 (claude-opus-5-5)",
+  "web_access": "true"
+ },
+ "verdicts": [
+  {
+   "question": "Q01",
+   "choice": "d",
+   "form": "λαμβάνοντες",
+   "confidence": "medium",
+   "references": [
+    {
+     "source": "Smyth, Greek Grammar §2148 and §2148a/c (Alpheios online Smyth, https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.22.html)",
+     "status": "checked",
+     "found": "'The participle often agrees with the logical, and not with the grammatical, subject'; a participle in the nominative may refer to a word in an oblique case, or stand in the nominative regardless of the construction that follows.",
+     "bears_on": "For d. The nominative λαμβάνοντες refers to the notes (logical subject, grammatically φθόγγων): a normal construction according to sense, and not an error."
+    },
+    {
+     "source": "Smyth §3008a, c, e (Alpheios, https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.37.html)",
+     "status": "checked",
+     "found": "Anacoluthon in which the construction follows the thought; 'many cases occur in connection with the use of a participle'; nominative 'in suspense'.",
+     "bears_on": "For d, against the normalising conjecture b (λαμβανόντων)."
+    },
+    {
+     "source": "Witness lines and corrections_in_H, evidence/section-2.json; images img/H-64v-17.jpg and H-64v-17-zoom.jpg",
+     "status": "checked",
+     "found": "The line text of H, Par. and V all read λαμβάνοντες. Bas. λαμβάνοντος is a misprint. Above -νον H has a small accented υ and a ʒ-shaped sign, read on the image. τες at the start of the next line has no cancellation reported, so the addition cannot be read with certainty and does not clearly replace -ντες.",
+     "bears_on": "For d. The readings λαμβάνουσ(ι) (c) and λαμβανούσ(ας) (a) rest on an uncertain sign. λαμβανούσας has no possible agreement (τὰς προσηγορίας cannot be its subject)."
+    }
+   ],
+   "reasoning": "Every witness has λαμβάνοντες in its line text: H (λαμβάνον|τες), Par. and V. Bas.'s λαμβάνοντος is an obvious misprint. The participle agrees with the notes, the logical subject of the sentence (προσηγορίαι φθόγγων … λαμβάνοντες, '[the notes] taking their names by the order from low to high'), and it introduces the list of masculine note names (προσλαμβανόμενος …). Smyth §2148 describes exactly this kind of agreement with the logical subject. It is Byzantine-tolerable Greek and should not be normalised, so conjecture b is unnecessary.\n\nH's interlinear υ + ʒ may be the scribe's attempt to make a finite verb (λαμβάνουσι), or a variant. But the sign is uncertain, and the following τες is not cancelled. An easier construction, added between the lines and illegible, should not displace the reading that all the line texts share.\n\nThe accusative λαμβανούσας (a) is grammatically impossible here. The evidence is moderately strong; the only real uncertainty is the reading of H's sign.",
+   "note": "App.: λαμβάνοντες H (line text) Par. V : λαμβάνοντος Bas. (misprint). Above -νον H has an interlinear υ + ʒ-shaped sign (same hand?), possibly λαμβάνουσ(ι) or λαμβανούσ(ας); uncertain. Translator: the participle refers to the notes."
+  },
+  {
+   "question": "Q02",
+   "choice": "e",
+   "form": "παρυπάτη μέσων, ⟨διάτονος μέσων,⟩ μέση μόνως",
+   "confidence": "medium",
+   "references": [
+    {
+     "source": "Gaudentius, Harm. intr., in Jan, Musici scriptores Graeci (1895), OCR at https://archive.org/stream/musiciscriptoresjank/musiciscriptoresjank_djvu.txt (offset ~700000; Meibom p. 6 as given in Jan's margin)",
+     "status": "checked",
+     "found": "The lichanos meson is called 'ἡ λιχανὸς τῶν μέσων ἤτοι διάτονος μέσων', and the lichanos hypaton 'διάτονος ὑπατῶν … ἐν τῷ διατονικῷ γένει' (OCR text).",
+     "bears_on": "For e. The exact form διάτονος μέσων, with διάτονος used as a noun and placed before the tetrachord genitive, is the standard name in a theorist."
+    },
+    {
+     "source": "Alypius, Isagoge, Lydian and Hypolydian diatonic tables, same Jan OCR (offset ~700000)",
+     "status": "checked",
+     "found": "The note names are ὑπατῶν διάτονος, μέσων διάτονος, διεζευγμένων διάτονος, ὑπερβολαίων διάτονος.",
+     "bears_on": "Shows that the order 'μέσων διάτονος' (c) is also standard. It explains the author's ὑπάτη διάτονος (= ὑπατῶν διάτονος), but not his διάτονος ὑπερβολαίων or διάτονος διεζευγμένη."
+    },
+    {
+     "source": "Cleonides, Isagoge, same Jan OCR (offset ~400000)",
+     "status": "checked",
+     "found": "The note names are λιχανὸς ὑπατῶν διάτονος, λιχανὸς μέσων διάτονος, παρανήτη συνημμένων διάτονος.",
+     "bears_on": "Option a is the full Cleonidean name. But the author never uses λιχανός or παρανήτη in this list, so a goes against his usage."
+    },
+    {
+     "source": "Ptolemy, Harm. 2.5, Wallis ed. (Opera mathematica III, 1699) p. 89, https://sourcelibrary.org/book/69905abeaaa7f10ed4cfb1a5/page-number/89",
+     "status": "checked",
+     "found": "The names by position are λιχανὸν ὑπατῶν, λιχανὸν μέσων, παρανήτην διεζευγμένων, etc. A list of 15 notes from προσλαμβανόμενος to νήτη ὑπερβολαίων.",
+     "bears_on": "Confirms that a note is missing between παρυπάτη μέσων and μέση; with the 15-note system, μέση must be 8th. Against d."
+    },
+    {
+     "source": "Internal: Bas. 25.11-17 and witness lines (evidence/section-2.json)",
+     "status": "checked",
+     "found": "The list must yield the πεντεκαιδεκάχορδον, and the 1st→8th and 8th→15th notes form octaves. As transmitted, μέση is the 7th name. The author's other diatonic names are διάτονος διεζευγμένη and διάτονος ὑπερβολαίων, with the genitive plural μέσων in ὑπάτη μέσων and παρυπάτη μέσων.",
+     "bears_on": "Against d. For e: the author's own order for the upper tetrachords, and his genitive μέσων."
+    }
+   ],
+   "reasoning": "A name has to be supplied. With 14 names, μέση is the 7th, while the text itself requires μέση to be the 8th of 15 (ὁ πρῶτος πρὸς τὸν ὄγδοον … ὁ ὄγδοος πρὸς τὸν πεντεκαιδέκατον). So option d is excluded.\n\nFor the wording I follow the author's own system in this list. He does not use λιχανός, which excludes a. He names the diatonic notes of the upper tetrachords διάτονος + tetrachord (διάτονος διεζευγμένη, διάτονος ὑπερβολαίων), and he uses the genitive plural μέσων for the meson tetrachord. This gives διάτονος μέσων. That is exactly Gaudentius' name for the note ('ἡ λιχανὸς τῶν μέσων ἤτοι διάτονος μέσων').\n\nIt also accounts for the loss perfectly. In 'παρυπάτη μέσων· διάτονος μέσων· μέση' the eye skips from μέσων to μέσων (saut du même au même), which leaves exactly the transmitted text. The following μέση μόνως ('mese simply', without μέσων) reads naturally after three names ending in μέσων.\n\nμέσων διάτονος (c), Alypius' order, is a serious alternative and also matches the order of ὑπάτη διάτονος. But it gives a less clean mechanism for the omission. μέση διάτονος (b) copies the corrupt-looking ὑπάτη διάτονος and would give two notes called μέση.\n\nThe evidence for a supplement is strong. The exact wording is only moderately certain.",
+   "note": "App.: διάτονος μέσων suppl. Xylander (margin of Bas.); omitted in all witnesses (saut du même au même μέσων … μέσων). Cf. Gaudentius (διάτονος μέσων); Alypius (μέσων διάτονος). Translator: 'the diatonic (lichanos) of the meson'."
+  },
+  {
+   "question": "Q03",
+   "choice": "a",
+   "form": "νευράν",
+   "confidence": "medium",
+   "references": [
+    {
+     "source": "LSJ s.v. νευρά (lsj.gr, https://lsj.gr/wiki/νευρά), with Pape",
+     "status": "checked",
+     "found": "LSJ 2: 'harpstring, Poll. 4.62'; Pape: 'die Darmsaite' (later authors), Lucian Nigr. 36 (τὰς νευρὰς ἐπιτεῖναι).",
+     "bears_on": "For a. νευρά is attested as a musical string."
+    },
+    {
+     "source": "LSJ s.v. μοῖρα (lsj.gr, https://lsj.gr/wiki/μοῖρα)",
+     "status": "checked",
+     "found": "μοῖρα (properispomenon), acc. μοῖραν; senses part, portion, division, and degree (astronomy).",
+     "bears_on": "Against b. H's accent μοιρὰν (oxytone) is not a form of μοῖρα; it is the accent of νευράν."
+    },
+    {
+     "source": "P, Vinc. 338.8 and 342.21 (evidence/section-3.json, section-5.json)",
+     "status": "checked",
+     "found": "In P's version of the same argument about continuity and geometric division: τὸ περὶ δύο νευρὰς ἀποτεινόμενον μῆκος …; and ἐπὶ δὲ τῆς παχύτητος τῶν νευρῶν.",
+     "bears_on": "For a. The author (or the P recension) uses νευρά in exactly this context."
+    },
+    {
+     "source": "Image img/H-65r-21.jpg and witness lines (evidence/section-2.json)",
+     "status": "checked",
+     "found": "H μο̣ι̣ρὰν, with ο and ι uncertain and the accent on the last syllable; Bas., Par. and V read νευράν.",
+     "bears_on": "For a."
+    }
+   ],
+   "reasoning": "Bas., Par. and V read νευράν. H's μοιρὰν carries an oxytone accent that μοῖρα cannot have: LSJ gives μοῖρα, acc. μοῖραν. The accent position is exactly that of νευράν, so H's word is best explained as a misreading of νευρὰν (ν/μ, ευ/οι) that kept the original accent.\n\nThe sense also suits νευρά. 'The unit seen in matter' is the string length, and 'the string that keeps the 9:8 ratio can be subdivided into a half-epogdoon … and this (ταύτην, feminine) again into a diesis'.\n\nP's parallel version of this very argument speaks of strings as νευραί (338.8; also 342.21). This shows that νευρά belongs to the author's vocabulary in this context, even though χορδή is his usual word elsewhere. μοῖρα occurs nowhere else in the text and has no technical use in harmonics in the lexica I checked.\n\nThe evidence is fairly strong (accent, agreement of the witnesses, author's usage), though H is the oldest witness.",
+   "note": "App.: νευράν Bas. Par. V : μοιρὰν (sic, oxytone) H. Translator: 'string'. A note may mention that H has 'portion' (μοῖραν)."
+  },
+  {
+   "question": "Q04",
+   "choice": "b",
+   "form": "τὴν σύμφρασιν",
+   "confidence": "medium",
+   "references": [
+    {
+     "source": "LSJ and DGE s.v. ἐγγίγνομαι (lsj.gr, https://lsj.gr/wiki/ἐγγίγνομαι)",
+     "status": "checked",
+     "found": "LSJ III: 'ἐγγίγνεται, impers., it is allowed or possible, c. inf.' (Hdt. 1.132, 6.38, And. 1.141, Pl. Phd. 66c); DGE III: impersonal 'es posible' with dative of person + inf., and without dative + inf. (D. 40.55; Gal. 4.197). No construction with a nominative subject + infinitive.",
+     "bears_on": "For b. With an impersonal 'it is possible' + εἶναι, the subject of the infinitive must be accusative; ἡ σύμφρασις … εἶναι cannot be construed."
+    },
+    {
+     "source": "Internal: Vinc. 338.6-7 (P) and Bas. 25.24-25 (evidence/section-2.json, section-3.json)",
+     "status": "checked",
+     "found": "Same sentence in P: διὰ τὸ … περὶ δὲ τὴν ὕλην ὁρᾶσθαι συνέχειαν (acc. subject of the infinitive). Main text: ὡς εἶναι τὸ ἡμιτόνιον … τὴν δὲ δίεσιν ὅσον ὀκτὼ τέταρτον (acc. + εἶναι).",
+     "bears_on": "For b. The author's own usage is accusative + infinitive."
+    },
+    {
+     "source": "Vincent's notes on p. 338 (evidence/section-3.json)",
+     "status": "checked",
+     "found": "P makes frequent ending errors: τὸν τῶν ἀριθμόν for τὸ τῶν ἀριθμῶν, τοῦ for τῆς, τέμνει for τέμνειν, ἑνδ.",
+     "bears_on": "For b. ἡ σύμφρασις is easily explained as carried over from the nominative σύμφρασις three lines above (338.4)."
+    }
+   ],
+   "reasoning": "In 'ἐντεῦθεν ἐγγίνεται καὶ … εἶναι', ἐγγίνεται is the impersonal 'it becomes possible' + infinitive (LSJ III, DGE III). The subject of εἶναι must therefore be accusative: τὴν σύμφρασιν. P's nominative cannot be construed with εἶναι, so P gives no acceptable text, and the conjecture is justified.\n\nIn the same sentence the author writes the accusative + infinitive περὶ δὲ τὴν ὕλην ὁρᾶσθαι συνέχειαν, and elsewhere ὡς εἶναι … τὴν δὲ δίεσιν. The nominative is a typical P ending error, carried over from the personal construction σύμφρασις οὐκ ἐγγίνεται at 338.4.\n\nThe nominative is not a Byzantine usage to be respected here: the author himself uses the accusative. The evidence is moderately strong.",
+   "note": "App.: τὴν σύμφρασιν Vincent : ἡ σύμφρασις P. (σύμφρασις itself is doubted by Vincent, n. 1: perhaps σύγκρασις; not at issue here.)"
+  },
+  {
+   "question": "Q05",
+   "choice": "a",
+   "form": "ὅπερ καὶ ἀριθμητικῇ ἀνεγχώρητον",
+   "confidence": "medium",
+   "references": [
+    {
+     "source": "LSJ, DGE, Pape s.v. ἀνεγχώρητος (lsj.gr, https://lsj.gr/wiki/ἀνεγχώρητος)",
+     "status": "checked",
+     "found": "'impossible' (Sch. Hermog. in Rh. 7.135 W.); DGE: Gr. Naz. M.36.116C 'ἀδύνατον καὶ ἀνεγχώρητον'; Hesych. ἀνεγχώρητον· ἀμήχανον.",
+     "bears_on": "ἀνεγχώρητον is a later synonym of ἀδύνατον. P's clause is therefore a rewording of the main witnesses' τῇ δὲ ἀριθμητικῇ τοῦτο ἀδύνατον. For a."
+    },
+    {
+     "source": "Main witnesses at the same point: Bas. 26.12-13, H 65v.8-9, Par. 22v.1-2, V 77r.17-18; P itself at Vinc. 338.21 (evidence/section-2.json, section-3.json)",
+     "status": "checked",
+     "found": "τῇ δὲ ἀριθμητικῇ τοῦτο ἀδύνατον; P: Τῇ γεωμετρίᾳ δὲ τοῦτο ῥάδιον; P 338.15: ἡ μὲν ἀριθμητικὴ … οὐ δύναται.",
+     "bears_on": "For a. The science stands in the dative with a neuter adjective of (im)possibility, in both recensions."
+    },
+    {
+     "source": "Vincent's notes, pp. 338, 340, 342 (evidence/section-3.json, section-4.json)",
+     "status": "checked",
+     "found": "P often errs in endings: ἀριθμόν/ἀριθμῶν, τέμνει/τέμνειν, διαστήματα/διαστημάτων, μονάδος/μονάδων.",
+     "bears_on": "Makes a corrupted ending in ἀριθμητικόν likely. The -ον is explained by assimilation to the neighbouring neuter ἀνεγχώρητον and ὅπερ."
+    }
+   ],
+   "reasoning": "'ὅπερ καὶ ἀριθμητικὸν ἀνεγχώρητον' cannot be construed naturally. ἀριθμητικόν has no noun to agree with and no function in the clause. It must hide the person or discipline for which the thing is impossible.\n\nThe decisive parallel is the other recension at exactly this point: τῇ δὲ ἀριθμητικῇ τοῦτο ἀδύνατον. ἀνεγχώρητον = ἀδύνατον (DGE: Greg. Naz. ἀδύνατον καὶ ἀνεγχώρητον). P itself goes on with the same pattern for geometry (Τῇ γεωμετρίᾳ δὲ τοῦτο ῥάδιον), with ἡ ἀριθμητική as the agent at 338.15. So ἀριθμητικῇ restores the construction with the smallest change of ending, which P corrupts constantly.\n\nἀριθμητικῷ ('for the arithmetician') has some support in P's τοῖς ἀριθμητικοῖς (342.4). ἀριθμητικῶς echoes γεωμετρικῶς. Both are possible, but neither matches the parallel sentence as closely. The sense is secure; the exact form is only moderately certain.",
+   "note": "App.: ἀριθμητικῇ scripsi (cf. τῇ δὲ ἀριθμητικῇ τοῦτο ἀδύνατον in Bas. H Par. V) : ἀριθμητικὸν P (Vincent, without a note); ἀριθμητικῷ or ἀριθμητικῶς also possible. Translator: 'which is impossible for arithmetic'."
+  },
+  {
+   "question": "Q06",
+   "choice": "a",
+   "form": "τοῦ διὰ πασῶν καὶ δὶς διὰ πέντε, τριπλάσιος· ⟨τοῦ δὲ δὶς διὰ πασῶν, τετραπλάσιος⟩. οἷον",
+   "confidence": "medium",
+   "references": [
+    {
+     "source": "Internal: Bas. 29.10-23 with H, Par., V (evidence/section-4.json)",
+     "status": "checked",
+     "found": "The list of intervals ends with τὸ δὲ δὶς διὰ πασῶν, διὰ δώδεκα. The numerical example that immediately follows the list of ratios runs ἐπίτριτος, ἡμιόλιος, διπλάσιος, διπλασιεπιμερής, τριπλάσιος, and τετραπλάσιος ὁ εἰκοστὸς τέταρτος (24:6).",
+     "bears_on": "For a. The example illustrates six ratios, one more than the list gives, so it presupposes the missing clause."
+    },
+    {
+     "source": "P, Vinc. 340.7-10 (evidence/section-4.json)",
+     "status": "checked",
+     "found": "The ἔμμεσα διαστήματα referred to the proslambanomenos: fourth, fifth, octave, δὶς διὰ τεσσάρων, δὶς διὰ πέντε, and τὸ δὶς διὰ πασῶν.",
+     "bears_on": "For a. The author's set of consonances includes the double octave."
+    },
+    {
+     "source": "M. L. West, Textual Criticism and Editorial Technique (1973), on saut du même au même / homoeoteleuton",
+     "status": "from memory, unverified",
+     "found": "Omission by the eye passing from one ending to an identical later ending is the commonest cause of loss.",
+     "bears_on": "For a. τριπλάσιος … τετραπλάσιος share the ending -πλάσιος, so the clause in between is easily lost."
+    }
+   ],
+   "reasoning": "The ratio list stops at the octave and fifth, but it runs parallel to the interval list, which ends with the double octave. The example built on the list gives τετραπλάσιος ὁ εἰκοστὸς τέταρτος, which only makes sense if the list named the ratio 4:1 of the double octave. P's list of consonances also ends with τὸ δὶς διὰ πασῶν.\n\nThe loss is easily explained. In '…τριπλάσιος· τοῦ δὲ δὶς διὰ πασῶν, τετραπλάσιος· οἷον' the scribe's eye could pass from -πλάσιος to -πλάσιος. The archetype shared by all witnesses would then have lost the clause.\n\nThe wording of the supplement follows the list's own formula (τοῦ δὲ διὰ πασῶν, διπλάσιος) and the term the example uses (τετραπλάσιος). So a supplement is better than a bare lacuna, because its content is certain. An authorial omission cannot be excluded, but the example makes it unlikely.",
+   "note": "App.: τοῦ δὲ δὶς διὰ πασῶν τετραπλάσιος suppl. (cf. τετραπλάσιος ὁ εἰκοστὸς τέταρτος below); omitted in all witnesses, probably by homoeoteleuton (-πλάσιος)."
+  },
+  {
+   "question": "Q07",
+   "choice": "d",
+   "form": "As transmitted: πληροῦται/συμπληροῦται δὲ τὸ μὲν διὰ τεσσάρων ἐκ δύο τόνων καὶ ἡμιτονίου καὶ μικρόν τι πρός … and διπλασιεπιμερής (twice)",
+   "confidence": "high",
+   "references": [
+    {
+     "source": "LSJ, DGE, Pape s.v. διπλασιεπιδιμερής (lsj.gr, https://lsj.gr/wiki/διπλασιεπιδιμερής)",
+     "status": "checked",
+     "found": "'2⅔ times as great', Nicom. Ar. 1.23; DGE also Iambl. in Nic. 50, 51.",
+     "bears_on": "The strictly specific name of 8:3 is διπλασιεπιδιμερής. διπλασιεπιμερής is the corresponding family name ('double-superpartient', 2 + m/n). 8:3 belongs to that family, so the transmitted term is not false."
+    },
+    {
+     "source": "Nicomachus, Introd. arith. 1.22-23, the class πολλαπλασιεπιμερής with 8:3 as example",
+     "status": "from memory, unverified",
+     "found": "Multiple-superpartient ratios (m + k/n); 8:3 = 2 + 2/3 is the standard example.",
+     "bears_on": "For d. The author's gloss τὸ ἕκτον δὶς ἔχων καὶ δύο μέρη αὐτοῦ shows that he understood the ratio correctly."
+    },
+    {
+     "source": "Wikipedia, 'Pythagorean limma' (https://en.wikipedia.org/wiki/Pythagorean_limma); Plato Tim. 36b (from memory)",
+     "status": "checked",
+     "found": "256:243 = 4/3 ÷ (9/8)², the remainder of the fourth after two tones, smaller than a half-tone.",
+     "bears_on": "Shows the account of the fourth is theoretically inexact (Pythagorean: less than 2½ tones). But it is a consistent authorial statement, not a scribal corruption."
+    },
+    {
+     "source": "Internal: Bas. 25.24-25 (ἡμιτόνιον ὅσον ὀκτὼ ἥμισυ, δίεσις ὅσον ὀκτὼ τέταρτον) and Bas. 29.3-23 (evidence/section-2.json, section-4.json)",
+     "status": "checked",
+     "found": "The author treats the semitone and diesis as arithmetic halves and quarters of the tone. On the base 6→8 (fourth): 2 tones of 0.75 + a semitone of 0.375 = 1.875, which leaves 0.125, less than the diesis (0.1875). There is no variant in counts, names or numbers.",
+     "bears_on": "For d. The odd 'μικρόν τι πρός, ὃ καὶ διέσεως ἧττον ὄν' can be derived from the author's own crude arithmetic, so it is authorial."
+    }
+   ],
+   "reasoning": "Both points are in all witnesses without any variant. Both are deliberate and elaborated statements, not slips.\n\nThe 'small remainder, less than a diesis, which got no name' is explicitly commented on by the author. It can be produced from his own arithmetic definitions of the semitone and diesis (ὀκτὼ ἥμισυ, ὀκτὼ τέταρτον): on the example base 6→8, two additive tones plus a semitone leave 0.125, less than the diesis of 0.1875. It is theoretically wrong by Pythagorean standards (fourth = two tones + leimma), but it is the author's.\n\nδιπλασιεπιμερής names the class (double + superpartient) to which 8:3 belongs. The author adds the correct analysis 'twice six and two parts of it'. Nicomachus' specific name διπλασιεπιδιμερής (LSJ) is more precise, but correcting the author's terminology would be rewriting him.\n\nNo witness offers anything else and no conjecture is proposed. Keep both, and explain them in a note.",
+   "note": "Translator's note: the fourth is in fact (Pythagorean) two tones + leimma 256:243, i.e. less than 2½ tones; the author's 'a little more, less than a diesis' follows from his arithmetical semitone (8½:8) and diesis (8¼:8). 8:3 is specifically διπλασιεπιδιμερής in Nicomachus; the author uses the class name."
+  },
+  {
+   "question": "Q08",
+   "choice": "b",
+   "form": "τὸ διὰ πέντε μέλος",
+   "confidence": "low",
+   "references": [
+    {
+     "source": "Internal: Bas. 27.9-14 with H 66r.6-15, Par. 23r.1-11, V 77v.21-78r.9 (evidence/section-3.json)",
+     "status": "checked",
+     "found": "Ἀσύνθετα δὲ εἴρηται, τῷ ὡς ἓν ἐκ συμφθάρσεως … μέλος συναπαρτίζεσθαι: the author uses μέλος for a single sung interval-span.",
+     "bears_on": "For b. 'τὸ διὰ πέντε μέλος' (the fifth as a melodic span) is within the author's use of the word."
+    },
+    {
+     "source": "Vincent's notes on p. 340 (evidence/section-4.json)",
+     "status": "checked",
+     "found": "Vincent did not recognise the obvious corruption ἐξ φθάρσεως (Ms. ἐξυφθάρσεως = ἐκ συμφθάρσεως) and commented on it only as unknown words.",
+     "bears_on": "His silence at μέλος proves nothing either way. It neither confirms the word nor shows it to be corrupt."
+    },
+    {
+     "source": "LSJ s.v. μέλος (sense 'song, tune, melody')",
+     "status": "from memory, unverified",
+     "found": "μέλος = song, melody, tune; in harmonic writers 'melody'.",
+     "bears_on": "Neutral. The word is not a technical interval term, which is why it is suspect."
+    }
+   ],
+   "reasoning": "The word stands only in P, as reported by Vincent, and only with the fifth. That makes it suspect: it could be an intrusion, which would call for deletion. But no mechanism of intrusion is visible: no dittography, no neighbouring μέλος, no obvious gloss. An obelus is the wrong tool, because the list is complete without the word. If μέλος is corrupt, the cure is deletion, not an obelus.\n\nThe choice is therefore between keeping and deleting. The phrase is grammatical and intelligible ('the fifth-span'). The author elsewhere uses μέλος for an interval sung as one unit (ὡς ἓν … μέλος συναπαρτίζεσθαι). Under the rule that a conjecture is made only where the witness is unacceptable, I keep it, with a note.\n\nThe evidence is weak either way. Deletion is a reasonable alternative.",
+   "note": "App./note: μέλος only here in the list (P, Vincent, without a note); suspect, perhaps an intrusion (del.?). Translator: 'the fifth (as a melodic span)', with a note."
+  },
+  {
+   "question": "Q09",
+   "choice": "b",
+   "form": "⟨ἡ⟩ δίεσις",
+   "confidence": "low",
+   "references": [
+    {
+     "source": "Internal: Bas. 28.25-29.1; H 67r.12, Par. 24r.14-15, V 79r.15-16; H 65r.11, Par. 22r.1-2, V 76v.15-16 (evidence/section-2.json, section-4.json)",
+     "status": "checked",
+     "found": "ὁ δὲ τόνος καὶ τὸ ἡμιτόνιον καὶ ἡ δίεσις; ἐλάχιστον μὲν ἡ δίεσις: the author always uses the article with these three terms in lists.",
+     "bears_on": "The article belongs in the text (against c)."
+    },
+    {
+     "source": "Vinc. 340.11 and his note practice on pp. 338-342 (evidence/section-4.json)",
+     "status": "checked",
+     "found": "When Vincent changes P's text he normally gives 'Ms. …' in a note. Here there is no note, only brackets around ἡ, in a series whose other members (τὸ ἡμιτόνιον, ὁ τόνος) have the article.",
+     "bears_on": "Vincent had a motive to add the article for parallelism and none to delete it. So the brackets most probably mark his supplement, and P probably lacked ἡ. For b against a."
+    },
+    {
+     "source": "Conventions of square brackets in 19th-c. editions (deletion in Bekker/Teubner practice, restoration in epigraphy)",
+     "status": "from memory, unverified",
+     "found": "The meaning of [ ] varied in the period.",
+     "bears_on": "Explains why the facts leave the meaning uncertain. The decision rests on the motive argument above."
+    }
+   ],
+   "reasoning": "On the substance, the article is required: all three terms of the series carry it in P's print, and the author always writes ἡ δίεσις in the parallel lists. On the transmission, Vincent has no footnote and only brackets. He had no reason to delete an article that matches the other two members, but every reason to supply a missing one. So the brackets most probably mark his addition, and P probably read οἷον, δίεσις.\n\nThe loss of a one-letter article is trivial in so careless a copy. The anarthrous form, although construable, breaks the author's consistent usage.\n\nI therefore print the article as a supplement. This also tells the reader that its transmission is uncertain. If the brackets were in fact a deletion sign, the printed text would be the same and only the sign would change. The evidence is weak.",
+   "note": "App.: ἡ in square brackets in Vincent, without a note; probably his supplement (P δίεσις?), possibly P's reading marked for deletion."
+  },
+  {
+   "question": "Q10",
+   "choice": "a",
+   "form": "οἱ τῶν ἐμμέσων",
+   "confidence": "medium",
+   "references": [
+    {
+     "source": "LSJ and DGE s.v. ἔμμεσος (lsj.gr, https://lsj.gr/wiki/ἔμμεσος)",
+     "status": "checked",
+     "found": "'intermediate'; 'having a middle term', opposite ἄμεσος (Olymp., Simp.); 'mediate' (Eustr.); adverb ἐμμέσως opposite ἀμέσως (Them. in APo., Eust., and the musical Anon. Bellerm. 4).",
+     "bears_on": "For a. ἔμμεσος/ἄμεσος is the technical pair from logic, used also in a music treatise. The passage's comparison with syllogisms (προτάσεις, συμπεράσματα, ἄκροι ὅροι) draws on exactly this terminology."
+    },
+    {
+     "source": "P, Vinc. 340.7, 340.10-11, 340.25-26, 342.1 (evidence/section-4.json)",
+     "status": "checked",
+     "found": "τὰ μὲν οὖν ἔμμεσα διαστήματα … τὰ δὲ ἄμεσα καὶ μεταξὺ τούτων κείμενα …; τοῦ μὲν τῶν ἐμμέσων … τοῦ δὲ τῶν ἀμέσων.",
+     "bears_on": "For a. The pair is consistent everywhere else. 'ἐν μέσῳ' would describe the ἄμεσα (μεταξὺ κείμενα), the wrong class, and would make the sentence contradictory."
+    },
+    {
+     "source": "Bas. 31.10 with H 68v.9-10, Par. 25v.19-20, V 81r.6-7 (evidence/section-6.json)",
+     "status": "checked",
+     "found": "τῶν ἐν μέσῳ διαστημάτων in Bas., Par. and V against τῶ(ν) ἐμ̣μέσω H.",
+     "bears_on": "For a. The same corruption, ἐμμέσων → ἐν μέσῳ (identical pronunciation), is documented in this text's tradition."
+    }
+   ],
+   "reasoning": "The sentence contrasts the ratios of the immediate intervals (κατὰ σειράν) with those of the mediate ones (καθ' ὑπερβατόν), on the model of premises and conclusions. The passage's own terms are ἔμμεσα (340.7) and ἐμμέσων (340.25) against ἀμέσων: the logicians' pair ἔμμεσος/ἄμεσος (DGE).\n\n'οἱ τῶν ἐν μέσῳ' is not an acceptable variant. 'Those in the middle' fits the ἄμεσα, which P itself calls μεταξὺ τούτων κείμενα, not the class meant. The change from ἐμμέσων to ἐν μέσῳ is a misdivision produced by identical sound. It is attested in this very text, where H has ἐμμέσω and the other witnesses ἐν μέσῳ at Bas. 31.10.\n\nThe conjecture changes almost nothing and restores the consistent terminology. The evidence is fairly strong.",
+   "note": "App.: ἐμμέσων scripsi (cf. 340.7, 340.25) : ἐν μέσῳ P (Vincent); the same confusion is found at Bas. 31.10 (ἐμμέσω H : ἐν μέσῳ cett.)."
+  },
+  {
+   "question": "Q11",
+   "choice": "b",
+   "form": "συγκρινομένων",
+   "confidence": "medium",
+   "references": [
+    {
+     "source": "Smyth §2148 (Alpheios, https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.22.html)",
+     "status": "checked",
+     "found": "The participle often agrees with the logical, not the grammatical, subject; construction according to sense.",
+     "bears_on": "For b. A participle agreeing with τῶν ἀμέσων [διαστημάτων] is a tolerable loose construction."
+    },
+    {
+     "source": "P, Vinc. 340.11-13 and 340.25-342.3 (evidence/section-4.json)",
+     "status": "checked",
+     "found": "τὰ δὲ ἄμεσα … πρὸς τοὺς πρὸ αὐτῶν ἐγγὺς φθόγγους τὴν ποιὰν τῶν λόγων ἕξιν πεποίηνται: the intervals themselves are related to adjacent notes. The μέν clause has τοῦ … λόγου … παραβαλλομένου.",
+     "bears_on": "The parallel favours a singular (a), but the earlier sentence shows that the plural (the intervals compared to adjacent notes) gives correct sense (b)."
+    },
+    {
+     "source": "Vincent's notes p. 342 (evidence/section-5.json)",
+     "status": "checked",
+     "found": "P has ending errors nearby (μονάδος for μονάδων), and Vincent reports none at συγκρινομένων.",
+     "bears_on": "Shows that P's endings are unreliable, which makes a possible. But it gives no positive sign of corruption at this word."
+    }
+   ],
+   "reasoning": "With the plural, the sentence construes: 'that [the ratio] of the immediate [intervals], which are compared successively with the notes next to one another'. The participle goes with τῶν ἀμέσων, and the governing participle of the δέ-member is understood from παραβαλλομένου. This is brachylogy, and it is a natural attraction to the nearest genitive. In sense it repeats what P said a few lines before: the ἄμεσα relate to the adjacent notes.\n\nThe strict μέν/δέ parallel with παραβαλλομένου, and P's frequent ending errors, make συγκρινομένου attractive. But the transmitted text is acceptable, and the edition does not conjecture where the witness gives an acceptable text. The difference in meaning for the translation is negligible.",
+   "note": "App./note: συγκρινομένων P (Vincent) is kept; συγκρινομένου (parallel to παραβαλλομένου) is possible."
+  },
+  {
+   "question": "Q12",
+   "choice": "a",
+   "form": "τῶν δὲ συστημάτων",
+   "confidence": "high",
+   "references": [
+    {
+     "source": "Internal definitions, Bas. 24.16-19 (evidence/section-1.json)",
+     "status": "checked",
+     "found": "Διάστημα … ἡ πρὸς ἀλλήλους ποιὰ σχέσις. Σύστημα δέ, ποιὰ διαστημάτων περιοχή. Ἁρμονία δέ, συστημάτων σύνταξις.",
+     "bears_on": "For a. Tetrachord, pentachord and octachord are described as 'containing/embracing' (ἐμπεριέχον, περιλαμβάνον, περιέχον) the powers of the intervals, which matches the definition of σύστημα."
+    },
+    {
+     "source": "Internal: Bas. 31.10-14 and 32.21-33.1 (evidence/section-6.json, section-7.json)",
+     "status": "checked",
+     "found": "διαφέρει δὲ τὰ συστήματα τῶν ἐμμέσων διαστημάτων …; τὰ τοιαῦτα συστήματα συντάττειν; τὰ λοιπὰ τῶν συστημάτων … τῷ γὰρ ἑνὸς τοῦ τετραχόρδου … ὑποδείγματι … περὶ τῶν ἑξῆς συστημάτων.",
+     "bears_on": "For a. The author himself calls the tetrachord a σύστημα, and the next sentence contrasts the systems just listed with intervals."
+    },
+    {
+     "source": "Cleonides, Isagoge (Strunk transl., https://www.attalus.org/translate/cleonides.html)",
+     "status": "checked",
+     "found": "'A system is what is made up of more than one interval'; systems differ in magnitude (diatessaron, diapente, diapason).",
+     "bears_on": "For a. In standard theory, tetrachord etc. are systems."
+    },
+    {
+     "source": "Vinc. 342.10-12, 342.25-26; section-5 facts (evidence/section-5.json)",
+     "status": "checked",
+     "found": "Vincent prints Τῶν δὲ συστημάτων from P and calls the edition's διαστημάτων 'leçon fautive'. P's text here also differs elsewhere and contains an extra paragraph.",
+     "bears_on": "For a. P is an independent witness of this passage, not a conjecture."
+    }
+   ],
+   "reasoning": "P gives συστημάτων, and sense, definition and the immediate context demand it. The author defines σύστημα as a 'περιοχή of intervals'. The four items are each said to contain (ἐμπεριέχον, περιλαμβάνον, περιέχον, συνέχον) the δυνάμεις of an interval. The very next sentence says 'the systems differ from the [mediate] intervals', which presupposes that the list just given was of systems. Later the author calls the tetrachord a σύστημα (τὰ λοιπὰ τῶν συστημάτων … ἑνὸς τοῦ τετραχόρδου … τῶν ἑξῆς συστημάτων). Cleonides' definition agrees.\n\nWith διαστημάτων the author would call the tetrachord an interval and then at once oppose systems to intervals, a contradiction. The main tradition's reading is easily explained as a perseveration of the formula τῶν δὲ διαστημάτων, which opens the interval list at Bas. 25.19.\n\nThe evidence is strong.",
+   "note": "App.: συστημάτων P (Vincent) : διαστημάτων Bas. H Par. V."
+  },
+  {
+   "question": "Q13",
+   "choice": "e",
+   "form": "θάτερον",
+   "confidence": "low",
+   "references": [
+    {
+     "source": "LSJ s.v. ἀμφότερος (lsj.gr, https://lsj.gr/wiki/ἀμφότερος), with DGE and Pape",
+     "status": "checked",
+     "found": "'rare in sg.' (mainly the adverbial neuter ἀμφότερον τε … καί; Pl. Sph. 248d); late plural sense 'all together'. No singular sense 'the other' or 'one of two'.",
+     "bears_on": "Against f. 'ἀμφότερον … εἶδος' cannot mean 'the other kind', and 'both kinds' contradicts the physics."
+    },
+    {
+     "source": "LSJ s.v. ἕτερος (lsj.gr, https://lsj.gr/wiki/ἕτερος)",
+     "status": "checked",
+     "found": "'one or the other of two'; Attic crasis θάτερον (A. Ag. 344, And. 2.7).",
+     "bears_on": "For e. 'θάτερον τῆς μελῳδίας εἶδος' = 'the other of the two kinds of melody'."
+    },
+    {
+     "source": "Internal: Bas. 32.16 (evidence/section-6.json); Bas. 25.3, 28.18 (βαρύς/ὀξύς)",
+     "status": "checked",
+     "found": "θάτερον ἔσται τῶν διαστημάτων ἓν διτόνιον: the author uses θάτερον. He calls low pitch βαρύς.",
+     "bears_on": "For e (author's vocabulary). βαρύτερον (b) is possible in sense but palaeographically remote. In the same sentence βαρύτης also means 'weight', which may have led the author to avoid it."
+    },
+    {
+     "source": "Aristotle, De anima 2.8, 420a29-b3 (el.wikisource, https://el.wikisource.org/wiki/Περί_ψυχής/Β)",
+     "status": "checked",
+     "found": "ἔοικεν ἀνάλογον ἔχειν τῷ περὶ τὴν ἁφὴν ὀξεῖ καὶ ἀμβλεῖ· τὸ μὲν γὰρ ὀξὺ οἷον κεντεῖ, τὸ δ' ἀμβλὺ οἷον ὠθεῖ.",
+     "bears_on": "ἀμβλύ is only the tactile analogue of the low pitch, not a pitch term. This weakens a."
+    },
+    {
+     "source": "LSJ s.v. ἀμβλύς (lsj.gr, https://lsj.gr/wiki/ἀμβλύς)",
+     "status": "checked",
+     "found": "No sense of low pitch; of hearing as 'duller' sense (Arist. Pr. 886b32).",
+     "bears_on": "Against a (ἀμβλύτερον), despite its graphic closeness to ἀμφότερον."
+    },
+    {
+     "source": "Ptolemy, Harm. 1.3 on causes of pitch (thicker, longer strings and pipes, holes farther from the mouthpiece give lower notes)",
+     "status": "from memory, unverified",
+     "found": "Greater thickness and length, and greater distance of holes, produce lower pitch; greater tension produces higher pitch.",
+     "bears_on": "Confirms that the δέ-clause must mean 'the low kind'. Against c (both kinds) and f."
+    }
+   ],
+   "reasoning": "The μέν/δέ structure fixes the sense. For tension and hanging weight, more produces the high (ἐπὶ ὀξύ) melody. For thickness of strings, length of strings or pipes, and the spacing of holes, an excess of any of them must produce the opposite, low kind. That is the physical fact.\n\nἀμφότερον gives no such sense: LSJ notes it is rare in the singular, and it never means 'the other'. 'Both kinds' (c, with ⟨καὶ τὸ ἐλλεῖπον⟩) contradicts the point of the contrast and leaves a singular εἶδος with 'both'. So the transmitted word is unacceptable, and a conjecture is legitimate.\n\nθάτερον ('the other of the two kinds') gives exactly the required sense, is idiomatic, and is in the author's vocabulary (θάτερον, Bas. 32.16). Its replacement by ἀμφότερον is a typical substitution between correlative pronouns of duality (polar error).\n\nἀμβλύτερον is graphically closer, but it is not a pitch term: in Aristotle and LSJ it is only the tactile analogue. βαρύτερον fits the sense but is graphically remote.\n\nBecause the sense is certain, a conjecture is better than an obelus. But the exact word is uncertain, so confidence is low.",
+   "note": "App.: θάτερον scripsi : ἀμφότερον P (Vincent, without a note); βαρύτερον or ἀμβλύτερον also possible; the sense 'the lower (other) kind of melody' is required by the μέν/δέ contrast. Translator: 'produces the other (i.e. the lower) kind of melody'."
+  },
+  {
+   "question": "Q14",
+   "choice": "a",
+   "form": "ἑκκαιδεκάχορδον",
+   "confidence": "high",
+   "references": [
+    {
+     "source": "LSJ s.v. πεντεκαιδεκάχορδος (lsj.gr, https://lsj.gr/wiki/πεντεκαιδεκάχορδος)",
+     "status": "checked",
+     "found": "'with fifteen strings', Adrastus ap. Theon Sm. p. 64 H., Ptol. Harm. 3.1 tit., Porph. in Harm. p. 168 D.",
+     "bears_on": "The standard term for the double-octave system is πεντεκαιδεκάχορδον. This is the case for b, but it is outweighed by the author's own explicit concept."
+    },
+    {
+     "source": "Internal: Bas. 25.11-17 with H 65r.2-9, Par. 21v.13-21, V 76v.6-14; Bas. 28.2-4 (evidence/section-2.json, section-3.json)",
+     "status": "checked",
+     "found": "διὰ τούτων ἀπαρτίζεται τὸ ἐν πεντεκαιδεκαχόρδῳ ἑκκαιδεκάχορδον, τοῦ πέρατος τοῦ ὀκταχόρδου εἰς ἀρχὴν τοῖς μετέπειτα λαμβανομένου κατὰ συνέχειαν; the octachord … κἀκεῖθεν αὖθις ἀναδιπλουμένων.",
+     "bears_on": "For a. For the author, the double octave is a 'sixteen-chord' (two octachords) realised in fifteen strings κατὰ συνέχειαν. At Bas. 31.4 the same words κατὰ συνέχειαν are attached to ἑκκαιδεκάχορδον."
+    },
+    {
+     "source": "Internal: Bas. 31.3-9 (evidence/section-5.json)",
+     "status": "checked",
+     "found": "τὸ δὲ κατὰ συνέχειαν ἑκκαιδεκάχορδον … διπλᾶς τὰς δυνάμεις ἀποφερόμενον; the series 4-5-8-16.",
+     "bears_on": "For a. 'Doubled powers' corresponds to 2 × 8 = 16."
+    }
+   ],
+   "reasoning": "All witnesses write the word out in full, so there is no numeral to have been misread. The author explains the concept himself: the ἑκκαιδεκάχορδον (two octachords, 8 + 8) is realised 'in a fifteen-chord', because the end of the first octachord is taken as the beginning of the next κατὰ συνέχειαν. At 31.4 he repeats that very qualification, τὸ δὲ κατὰ συνέχειαν ἑκκαιδεκάχορδον, and adds 'with doubled powers'.\n\nThe usual term elsewhere is πεντεκαιδεκάχορδον (LSJ: Adrastus, Ptolemy, Porphyry). But the author's deliberate idiosyncrasy is internally consistent and must not be normalised. The evidence is strong.",
+   "note": "Translator's note: 'sixteen-chord', i.e. two octachords joined by a common note (cf. Bas. 25.11-14: τὸ ἐν πεντεκαιδεκαχόρδῳ ἑκκαιδεκάχορδον); the standard name is πεντεκαιδεκάχορδον."
+  },
+  {
+   "question": "Q15",
+   "choice": "a",
+   "form": "τὸ λοιπὸν γένοιτ’ ἂν ἓν ἐκ συμφθάρσεως διάστημα, τριημιτόνιον ἀσύνθετον· ἐξ ἡμιτονίων δύο καὶ τριημιτονίου συγκεκραμένον. εἴη δ’ ἂν τοῦτο τὸ διὰ τεσσάρων γένος χρωματικόν",
+   "confidence": "medium",
+   "references": [
+    {
+     "source": "Smyth §2914, 2916 (Alpheios, https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.36.html); §2772",
+     "status": "checked",
+     "found": "δέ is postpositive and stands after the first word or close word-group. In prose it takes the third place only after a preposition + anarthrous noun. Poetry allows the third and even fourth place.",
+     "bears_on": "Against c. Joining the phrase to εἴη δ' ἂν τοῦτο would put δέ in seventh position."
+    },
+    {
+     "source": "Cleonides, Isagoge (Strunk transl., https://www.attalus.org/translate/cleonides.html)",
+     "status": "checked",
+     "found": "The chromatic is sung ascending by semitone, semitone, trihemitone; the trihemitone 'is incomposite in the chromatic genus'.",
+     "bears_on": "Confirms that 'ἐξ ἡμιτονίων δύο καὶ τριημιτονίου' describes the whole tetrachord, not the trihemitone. So the participle must be separated from τριημιτόνιον ἀσύνθετον: for a over b."
+    },
+    {
+     "source": "Internal: Bas. 32.3-9 (evidence/section-6.json); witnesses H 69r.15-17, V 81v.18-20, Par. 26v.6-9",
+     "status": "checked",
+     "found": "Diatonic parallel: … ἐξ ἡμιτονίου καὶ δύο ἀπαρτιζόμενον τόνων, where the participial description of the whole stands as a summary of the genus. All witnesses have a stop after συγκεκραμένον; H and V have a high point after ἀσύνθετον, Par. a comma.",
+     "bears_on": "For a."
+    }
+   ],
+   "reasoning": "The phrase 'ἐξ ἡμιτονίων δύο καὶ τριημιτονίου συγκεκραμένον' describes the whole chromatic tetrachord (semitone + semitone + incomposite trihemitone; Cleonides). It cannot describe the trihemitone itself.\n\nOption c would give the smoothest syntax, but it puts δέ in seventh position (… συγκεκραμένον εἴη δ' ἂν τοῦτο). That is impossible in prose (Smyth §2914-2916), and it also goes against all four witnesses, which stop after συγκεκραμένον. The participial phrase therefore closes the conditional sentence as a summary, '[the fourth thus being] blended of two semitones and a trihemitone', just as the diatonic sentence ends with ἐξ ἡμιτονίου καὶ δύο ἀπαρτιζόμενον τόνων.\n\nA high point after ἀσύνθετον, with H and V, separates the summary from τριημιτόνιον ἀσύνθετον. It prevents the false construal 'a trihemitone blended of … a trihemitone', which a comma (Par.) invites.\n\nThe evidence against c is strong. The choice between a and b is a matter of clarity of punctuation.",
+   "note": "Translator: the participle refers to the fourth/tetrachord as a whole ('it being blended of two semitones and a trihemitone'), not to the trihemitone."
+  }
+ ],
+ "summary": "I decided all 15 questions. In outline: the transmitted text is kept for Q01 (λαμβάνοντες), Q03 (νευράν), Q07 (both points), Q08 (μέλος), Q11 (συγκρινομένων) and Q14 (ἑκκαιδεκάχορδον). Q12 takes P's reading (συστημάτων), Q15 takes the H/V punctuation, and Vincent's correction is accepted at Q04 (τὴν σύμφρασιν). New supplements or conjectures are made at Q02 (⟨διάτονος μέσων⟩), Q05 (ἀριθμητικῇ), Q06 (⟨τοῦ δὲ δὶς διὰ πασῶν τετραπλάσιος⟩), Q09 (⟨ἡ⟩), Q10 (ἐμμέσων) and Q13 (θάτερον).\n\nHardest were:\n- **Q13 (ἀμφότερον).** The required sense, 'the low kind', is certain from the μέν/δέ contrast and from acoustics. The word is not: θάτερον, βαρύτερον and ἀμβλύτερον each have one advantage (author's usage, sense, graphic closeness) and one weakness.\n- **Q08 (μέλος).** It is a lone, suspect word in a single uncheckable witness. It is construable from the author's own use of μέλος for a sung span, so keeping it and deleting it are close.\n- **Q09 ([ἡ]).** It depends on what Vincent's unexplained brackets mean. I take them as his supplement, because he had a motive to add the article and none to delete it.\n- **Q02.** The supplement is certain from the note count. The wording is uncertain, because the theorists use both διάτονος μέσων (Gaudentius) and μέσων διάτονος (Alypius).\n- **Q01.** H's interlinear sign cannot be read securely.\n\nKey sources I opened:\n- Jan's Musici scriptores Graeci OCR on archive.org, for the note names in Cleonides, Gaudentius and Alypius.\n- Ptolemy Harm. 2.5 in Wallis's edition (sourcelibrary).\n- LSJ, DGE and Pape via lsj.gr.\n- Smyth on participle agreement and the position of δέ.\n- Aristotle, De anima 2.8 on ὀξύ/ἀμβλύ.\n\nItems marked \"from memory, unverified\": Nicomachus 1.23, Ptolemy Harm. 1.3, West on homoeoteleuton, the 19th-century bracket conventions, and the LSJ entry for μέλος.\n\nI saw no edition, translation or discussion of this text in any lexicon entry or search hit."
+}
