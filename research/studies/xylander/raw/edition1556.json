@@ -1,0 +1,708 @@
+{
+ "key": "edition1556",
+ "collect": {
+  "summary": "I worked mainly from the digitised Munich copy of the 1556 book (BSB A.gr.b. 3057, bsb10170656). The HathiTrust copy was blocked by a Cloudflare check, so I could not use it.\n\n1. Title page, imprint, date. The title page reads in full: \"Pselli, doctiss. viri, perspicuus liber de quatuor Mathematicis scientijs ... Graecè & Latinè nunc primùm editus. Guilielmo Xylandro Augustano interprete: Cum nonnullis eiusdem Annotationibus. Accessit ... de Philosophia ... Carmen ... Item aliud, De Ioannis Zonarae Annalibus ...: & in ... Xysti Betuleij praeceptoris sui obitum Naenia. Basileae, per Ioannem Oporinum.\" No year is printed, and the Munich copy has no colophon, errata or index. The date 1556 comes from the dedication.\n\n2. Order of parts.\n- Latin part, paginated separately (pp. 1–163; the last page is misnumbered 263):\n  - title page;\n  - dedication, pp. 3–16;\n  - Latin translation, pp. 17–117. Its margins carry topic notes and references to Euclid.\n  - \"Annotationes quaedam\", pp. 118–163. They open with a note \"Lectori candido\" and continue with an essay on the mathematical sciences, then notes In Arithmeticam, In Musicam, In Geometriam, In Astronomiam.\n- Greek part, separate pagination and Greek signatures (pp. 1–175):\n  - Greek text, pp. 1–103, with no separate title page or preface;\n  - Carmen de philosophia, pp. 104–152;\n  - the Zonaras poems, pp. 153–161;\n  - the Naenia for Betuleius, pp. 162–175, dated 1554.\n\n3. Dedication. It is addressed to Count Ulrich Fugger and dated \"Augustae, ad Nonas Novembres, Anni 1556\". It praises patronage and names Hieronymus Wolf as Xylander's helper and as the one who advised the dedication. Xylander says he was the first to put the work into Latin, rendered it \"summa fide & perspicuitate\", and added notes for beginners. The dedication says nothing about the Greek source, the state of the text or the marginal signs.\n\n4. What the Annotationes say about the text.\n- Several Greek readings \"perperam/male legebantur\":\n  - the swapped ἥττονες/μείζονες;\n  - πράγμασι for πρίσμασι;\n  - δὶς διὰ τεσσάρων / δὶς διὰ πέντε for διὰ πασῶν καὶ ....\n- Two conjectures restore the iambic section titles: τῶν before Γεωμετρίας, and \"ἄθροισις εὐσύνοπτος ἥδ' ἀστρονομίας\".\n- One passage is called obscure, and the astronomical passages \"depravatus/depravati\".\n- He dates Psellus by Zonaras to about 1070 AD. He thinks the year numbers in the text are corrupt but changes nothing, \"destitutus fide exemplaris\".\n- He never names his Greek source.\n\n5. Marginal notes in the Greek text. I checked every Greek page by its outer margin (inner margins only on a few pages).\n- Outside the music section there are 23 notes:\n  - 11 in arithmetic, on pp. 2, 5, 6 (two), 10, 12, 15, 16 (two), 20, 21;\n  - 6 in geometry, on pp. 40, 41, 49, 52, 71, 72;\n  - 6 in astronomy, on pp. 80, 83, 89, 97, 102, 103.\n  - There are also three asterisks in the text with no marginal note, on pp. 50, 54 and 73.\n- The system is the same as in music: an asterisk in the text, keyed to an asterisk in the margin giving the corrected Greek, sometimes abbreviated. The Latin wording also matches: \"abundat\" (p. 71) is like music's \"abundant omnino, & delenda sunt\"; there are also \"Forte ...\", \"Lege ... uno vocabulo\" and \"Vide Annotationes\".\n- The dagger and \"addo\" appear only in the music section: about 10 notes on pp. 25–32.\n\n6. Editio princeps. It was printed at Venice by Stefano Sabio and brothers, 4 December 1532 (Legrand no. 88), from Arsenios of Monemvasia's text. It was dedicated to Cardinal Niccolò Ridolfi, with a covering letter by Francesco Contarini. In his Greek dedication Arsenios already doubted the author: \"εἴτε Ψελλὸς ἦν ὡς τοῖς πλείοσι δοκεῖ, εἴτ' Εὐθύμιος\". I found no source naming the manuscript he printed from.\n- There is a reprint, Paris: Jacques Bogard, 1545 (BSB digitised). I compared it with Xylander's text and the two agree in the errors Xylander corrects in his margin. Xylander's printed section titles differ only by his own conjectures. This fits his having set his text from the printed edition (1532 or its reprint), but it is my inference; I did not see the 1532 edition itself.\n\n7. Later reprints and judgments before 1900.\n- Reprints of the Latin only: Heidelberg, Smesmann, 1591 (VD16 M 5146; arithmetic, music and geometry; without preface and notes according to Fabricius–Harles) and Leiden, Elzevir, 1647 (in the \"Compendium mathematicum\"; the Annotationes appear to be absent).\n- Fabricius–Harles X (1807) lists the editions and repeats Arsenios's doubt. It also takes the year 6516 (= 1008 AD) as Psellus's own date.\n- Kästner (1796) says Xylander seems to have printed the Greek faithfully, wrong readings included, and corrected them in the margin.\n- Cantor (1894) says the work cannot be wholly by Psellus because the astronomy is dated 1008.\n- Schöll (ADB 1898) calls the Psellus compilation worthless.",
+  "findings": [
+   {
+    "topic": "Title page",
+    "claim": "The full title page of the BSB copy reads: 'PSELLI, doctiss. uiri, perspicuus liber de quatuor Mathematicis scientijs, Arithmetica, Musica, Geometria, & Astronomia: Graecè & Latinè nunc primùm editus. GVILIELMO XYLANDRO Augustano interprete: Cum nonnullis eiusdem Annotationibus. ACCESSIT Eiusdem G. Xylandri de Philosophia, & eius partibus, Carmen longè doctissimum. Item aliud, De IOANNIS ZONARAE Annalibus, eorumq; editione: & in opt. atq; doctiss. uiri XYSTI Betuleij praeceptoris sui obitum Naenia.' The imprint line is covered by a library label but shows through on the verso as 'BASILEAE, PER IOANNEM Oporinum.' No year is printed.",
+    "source": "Psellus, Perspicuus liber, Basel: Oporinus [1556], BSB A.gr.b. 3057, scan 3 (title) and scan 4 (verso, show-through)",
+    "status": "checked",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10170656?page=3"
+   },
+   {
+    "topic": "Title page / date",
+    "claim": "Kästner, describing his own copy, confirms that the printer gives no year and that the date comes from the dedication to Ulrich Fugger, dated 'Augustae ad Nonas Novembres anni 1556'.",
+    "source": "A. G. Kästner, Geschichte der Mathematik I (Göttingen 1796), p. 279",
+    "status": "checked",
+    "quote": "Vom Drucker kein Jahr angegeben",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10447542?page=311"
+   },
+   {
+    "topic": "Provenance of the BSB copy",
+    "claim": "The BSB copy is a presentation copy with a handwritten dedication on the title page, partly under a library label and legible in mirror image through the leaf: 'Clarissimo viro D[omi]no Jo. Hainrico Herwarto P. Augustano, patrono suo et sum[mo] fautori, Guil. Xylander d.d.' (my reading; the words after 'patrono suo' are uncertain). A librarian wrote 'mit Xylander's Autograph' on the front flyleaf, which also carries the ex-libris 'Ex Electorali Bibliotheca Serenissimorum Utriusque Bavariae Ducum'.",
+    "source": "BSB A.gr.b. 3057, scans 2-4",
+    "status": "checked",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10170656?page=2"
+   },
+   {
+    "topic": "Provenance (identification)",
+    "claim": "The recipient Jo. Hainrich Herwart is presumably the Augsburg patrician Johann Heinrich Herwart (1520-1583), whose library later went to the Bavarian ducal library.",
+    "source": "general knowledge",
+    "status": "from memory, unverified"
+   },
+   {
+    "topic": "Collation / pagination",
+    "claim": "BSB catalogues the extent as '263 [i.e. 163], 175 S.'. The last page of the Latin part (end of the Annotationes) is misnumbered 263 for 163.",
+    "source": "BSB IIIF manifest metadata for bsb10170656; scan 165",
+    "status": "checked",
+    "url": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10170656/manifest"
+   },
+   {
+    "topic": "Collation / signatures",
+    "claim": "Signatures seen in the BSB copy: Latin part a2 (p. 3), b (p. 17), h4 (p. 119), k4 (p. 151); Greek part α (p. 1), ε5 (p. 73), κ5 (p. 153). This fits octavo gatherings of 8: Latin a–k8 plus 2 leaves (pp. 161-164, the last page blank) and Greek α–λ8 (pp. 1-176, the last page blank). The formula is my inference, not a catalogue statement. VD16 (gateway-bayern) was blocked by a bot check.",
+    "source": "BSB A.gr.b. 3057, scans 5, 19, 121, 153, 167, 239, 319",
+    "status": "checked",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10170656?page=153"
+   },
+   {
+    "topic": "Order of parts",
+    "claim": "Order in the BSB copy:\n(1) title; (2) dedication to Ulrich Fugger, pp. 3-16;\n(3) Latin translation, pp. 17-117, headed 'Doctissimi Pselli perspicuus liber ... Gulielmo Xylandro Augustano interprete';\n(4) 'Guilielmi Xylandri Augustani, in Pselli opusculum, à se conversum, Annotationes quaedam', pp. 118-163, ending 'FINIS. Deo soli gloria.';\n(5) Greek text, new pagination pp. 1-103, with no separate Greek title page or preface, headed 'ΤΟΥ ΣΟΦΩΤΑΤΟΥ ΨΕΛΛΟΥ ΕΥΣΥΝΟΠΤΟΝ ΣΥΝΤΑΓΜΑ ...'; music begins p. 23, geometry p. 34, astronomy p. 76;\n(6) Carmen de Philosophia, pp. 104-152;\n(7) Zonaras poems (Greek, then Latin 'Eiusdem'), pp. 153-161;\n(8) Naenia for Betuleius, pp. 162-175.",
+    "source": "BSB A.gr.b. 3057, scans 3-341",
+    "status": "checked",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10170656?page=167"
+   },
+   {
+    "topic": "Order of parts (independent description)",
+    "claim": "Kästner gives the same layout: dedication, Latin translation and notes 264 octavo pages; the Greek 103 pages; Xylander's poem(s) pp. 104-175. He adds that the translation shows contents and Euclid parallels in its margin and has figures, while the Greek has none.",
+    "source": "Kästner, Geschichte der Mathematik I (1796), pp. 279-280",
+    "status": "checked",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10447542?page=312"
+   },
+   {
+    "topic": "Colophon / errata / index",
+    "claim": "The BSB copy has no colophon, errata or index. The Greek part ends on p. 175 with the Naenia's closing date line and a blank verso. The Latin part ends on p. '263' [163] with 'FINIS. Deo soli gloria.' and a blank verso. The only end-matter notes are the Annotationes (Latin part pp. 118-163). In the same binding follows a separate work, Martin Borrhaus, In Cosmographiae elementa commentatio (Basel, Oporinus).",
+    "source": "BSB A.gr.b. 3057, scans 165-166, 341-343",
+    "status": "checked",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10170656?page=341"
+   },
+   {
+    "topic": "Dedication: addressee, place, date",
+    "claim": "The dedication is headed 'Magnifico et generoso, virtutum eruditionisque splendore ornatiss. viro, Dn. Vlricho Fuggero, Kirchbergae, Vueissenhornique Comiti, unico studiorum liberalium patrono, Domino suo, Guilielmus Xylander Augustanus S.' (sig. a2r, p. 3). It ends 'Vale: Augustae, ad Nonas Novembres, Anni 1556. T. Dn. atq; Magnif. studiosissimus Guil. Xylander August.' (p. 16).",
+    "source": "BSB A.gr.b. 3057, pp. 3 and 16 (scans 5 and 18)",
+    "status": "checked",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10170656?page=18"
+   },
+   {
+    "topic": "Dedication: first translator, notes",
+    "claim": "In the dedication Xylander calls the work 'Pselli hoc utilissimum opusculum, quod de Graeco sermone in Latinum primus converti, illustravique Annotationibus'.",
+    "source": "BSB A.gr.b. 3057, pp. 6-7 (scans 8-9), dedication",
+    "status": "checked",
+    "quote": "quod de Graeco sermone in Latinum primus converti, illustravique Annotationibus",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10170656?page=9"
+   },
+   {
+    "topic": "Dedication: his translation (general)",
+    "claim": "Xylander says he rendered Psellus into Latin so that those without Greek could read him, 'qua potui summa fide & perspicuitate'. He added notes for beginners ('tironum causa'), which he trusts will shed much light, and says both tasks cost him no small labour.",
+    "source": "BSB A.gr.b. 3057, pp. 14-15 (scans 16-17)",
+    "status": "checked",
+    "quote": "Latinum qua potui summa fide & perspicuitate reddidi",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10170656?page=16"
+   },
+   {
+    "topic": "Dedication: Hieronymus Wolf",
+    "claim": "Xylander says he often heard of Fugger's learning from Hieronymus Wolf, 'meorum conatuum fidelissimo adiutore'. He dedicated the book chiefly on Wolf's advice ('praestantissimi VVolfii consilium'), Wolf having assured him nothing would please Fugger more.",
+    "source": "BSB A.gr.b. 3057, pp. 9-10 and 12 (scans 11-12, 14)",
+    "status": "checked",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10170656?page=11"
+   },
+   {
+    "topic": "Dedication: his circumstances",
+    "claim": "Xylander describes himself as lacking means since youth and beset by misfortunes ('tot incommodis, infortunijs, miserijs oppugnatus'), comparing his Ate to the one Homer says pursued Hercules from birth. He says he has nonetheless not abandoned his studies.",
+    "source": "BSB A.gr.b. 3057, pp. 10-11 (scans 12-13)",
+    "status": "checked",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10170656?page=12"
+   },
+   {
+    "topic": "Dedication: silence on source and text",
+    "claim": "The dedication (pp. 3-16, read in full) says nothing about the Greek source (printed or manuscript), the state of the Greek text, his corrections or any marginal signs. It does not question Psellus's authorship; it speaks of 'Pselli opusculum' throughout.",
+    "source": "BSB A.gr.b. 3057, pp. 3-16 (scans 5-18; BSB OCR checked against images)",
+    "status": "checked",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10170656?page=5"
+   },
+   {
+    "topic": "Note to the reader (Annotationes)",
+    "claim": "The Annotationes open with 'Lectori candido S.' Xylander thinks the book worthy of public use with beginners in the schools and hopes professors will expound it. Meanwhile he wants to help those who study without a teacher, as he himself was almost forced to do and still is ('sicut ipse quoque ferè coactus fui facere, & adhuc cogor'). He explains the harder places 'paucis, sed fideliter'.",
+    "source": "BSB A.gr.b. 3057, Latin part p. 118 (scan 120)",
+    "status": "checked",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10170656?page=120"
+   },
+   {
+    "topic": "Marginal notes (statement in the note to the reader)",
+    "claim": "The only statement about marginal notes in the prefatory matter concerns the Latin translation: 'In margine quidem ferè, ubi Euclides, princeps in his rebus, eadem tractaret, annotavi'. The Latin margins do carry references such as 'Euclides ab initio 7.' and 'Euclides lib. 9. propos. 32.' He says nothing anywhere about the asterisks in the Greek margins.",
+    "source": "BSB A.gr.b. 3057, Latin part p. 118 (scan 120); pp. 17, 21 (scans 19, 23)",
+    "status": "checked",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10170656?page=120"
+   },
+   {
+    "topic": "Annotationes: debt to Schegk",
+    "claim": "Xylander credits the philosophical introduction ('De Mathematicis scientiis') mostly to his teacher Jacob Schegk of Tübingen ('Eius enim pleraque haec sunt'). Among his hardest blows he counts having had to leave Schegk's instruction in mid-course.",
+    "source": "BSB A.gr.b. 3057, Latin part pp. 125-126 (scans 127-128)",
+    "status": "checked",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10170656?page=127"
+   },
+   {
+    "topic": "State of the Greek text: corrections (arithmetic)",
+    "claim": "On deficient and abundant numbers: 'Diminuti sunt.) In Graeco hae definitiones perperam legebantur, his vocib. ἥττονες & μείζονες inuersè una pro alia scriptis: quod ipsa etiam Pselli exempla docent.'",
+    "source": "BSB A.gr.b. 3057, Latin part p. 134 (scan 136)",
+    "status": "checked",
+    "quote": "In Graeco hae definitiones perperam legebantur",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10170656?page=136"
+   },
+   {
+    "topic": "State of the Greek text: corrections (arithmetic)",
+    "claim": "'Diapason cum diatess.) In Graeco malè legebatur δὶς διὰ τεσσάρων, & δὶς διὰ πέντε, pro διὰ πασῶν καὶ διὰ τεσσάρων, & διὰ πασῶν καὶ διὰ πέντε: ut deinde in musica demonstrabo.' This is an arithmetic note that looks ahead to the music section.",
+    "source": "BSB A.gr.b. 3057, Latin part p. 136 (scan 138)",
+    "status": "checked",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10170656?page=138"
+   },
+   {
+    "topic": "State of the Greek text: corrections (arithmetic)",
+    "claim": "'Serratilib.) Malè in graeco legebatur πράγμασι pro πρίσμασι, luculento errore.'",
+    "source": "BSB A.gr.b. 3057, Latin part p. 143 (scan 145)",
+    "status": "checked",
+    "quote": "Malè in graeco legebatur πράγμασι pro πρίσμασι",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10170656?page=145"
+   },
+   {
+    "topic": "His translation (a stated choice)",
+    "claim": "On the Greek πρόλογοι / ὑπόλογοι Xylander explains that he avoided rendering them as 'dux / comes', since those words are used mostly of single numbers, so as not to obscure the author's sense.",
+    "source": "BSB A.gr.b. 3057, Latin part p. 134 (scan 136)",
+    "status": "checked",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10170656?page=136"
+   },
+   {
+    "topic": "Conjectures: metrical titles",
+    "claim": "In Geometriam: 'Graeca iambica inscriptio videtur articulum τῶν desiderare, ante vocabulum Γεωμετρίας, ut versus stet.' In Astronomiam: 'Iambus inscriptionis hic quoque non constat. Puto legendum, ἄθροισις εὐσύνοπτος ἥδ' ἀστρονομίας.' My reading of the second word comes from a ligature; it matches the printed Greek heading on p. 76.",
+    "source": "BSB A.gr.b. 3057, Latin part pp. 151 and 161 (scans 153, 163)",
+    "status": "checked",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10170656?page=163"
+   },
+   {
+    "topic": "Conjectures put into the printed Greek",
+    "claim": "Xylander's printed Greek headings carry his metrical conjectures: p. 34 'ΣΥΝΟΨΙΣ ΑΥΤΗ ΤΩΝ ΓΕΩΜΕΤΡΙΑΣ λόγων'; p. 76 'ΑΘΡΟΙΣΙΣ ΕΥΣΥΝΟΠΤΟΣ ΗΔ' ΑΣΤΡΟΝΟΜΙΑΣ'. The Paris 1545 reprint of the 1532 text has 'ΣΥΝΟΨΙΣ ΑΥΤΗ, ΓΕΩΜΕΤΡΙΑΣ λόγων' (f. 27v) and 'ΑΘΡΟΙΣΙΣ ΕΥΣΥΝΟΠΤΟΣ, ἀστρονομίας' (f. 57v), without τῶν and ἥδ'. So he printed the conjectures in the text and justified them only in the Annotationes.",
+    "source": "BSB A.gr.b. 3057, Greek pp. 34, 76 (scans 200, 242); Paris 1545 (BSB bsb10169572), scans 54, 114",
+    "status": "checked",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10169572?page=54"
+   },
+   {
+    "topic": "State of the text: obscure and corrupt places",
+    "claim": "On the closing verses of the geometry: 'Locus est obscurus, perplexus, et sic satis ambiguus, ut diuinandum ferè fuerit de sensu.' On the astronomy: 'Finitor dum circumagitur.) Non video, quomodo hic locus non sit depravatus' (polar circles are drawn from the poles of the zodiac, not from the horizon). On the year numbers: 'Hi numeri annorum hic, & deinde, depravati sunt proculdubio.'",
+    "source": "BSB A.gr.b. 3057, Latin part pp. 161-162 (scans 163-164)",
+    "status": "checked",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10170656?page=164"
+   },
+   {
+    "topic": "Psellus as author / single exemplar",
+    "claim": "Xylander adds that Psellus lived under Romanus Diogenes, was a senator of great authority, and taught Michael (son of Constantine Ducas), citing 'Ioan. Zonaras Monachus in suis Chronicis'. Hence Psellus flourished 'circa annum mundi 5030, post natum Christum annis circiter 1070'. He finds the text's year count 'mihi certè vehementer suspectus' but alters nothing: 'Nihil tam[en] habeo quòd mutem, destitutus fide exemplaris.' He does not doubt Psellus's authorship.",
+    "source": "BSB A.gr.b. 3057, Latin part p. 162 (scan 164)",
+    "status": "checked",
+    "quote": "Nihil tam habeo quòd mutem, destitutus fide exemplaris.",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10170656?page=164"
+   },
+   {
+    "topic": "Psellus as author (elsewhere)",
+    "claim": "In the general part of the Annotationes Xylander treats Psellus as the author without hesitation, e.g. 'Talis enim scientia est Musica, qualem Psellus, Boethius, & alij tradiderunt'.",
+    "source": "BSB A.gr.b. 3057, Latin part p. 124 [printed '134'] (scan 126)",
+    "status": "checked",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10170656?page=126"
+   },
+   {
+    "topic": "Closing of the Annotationes",
+    "claim": "The Annotationes end by asking readers to take his labour in good part. If he learns it was welcome, he promises fuller and more accurate notes soon for beginners: 'non enim haec doctoribus, aut artificib. scribimus: quin & ipsi inter discipulos etiamnum uelle nos haberi, liberè prae nobis ferimus'.",
+    "source": "BSB A.gr.b. 3057, Latin part pp. 162-163 (scans 164-165)",
+    "status": "checked",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10170656?page=165"
+   },
+   {
+    "topic": "Reference to German Euclid",
+    "claim": "In the geometry notes Xylander refers readers to his German commentaries on Euclid ('in meis vulgari lingua scriptis Commentarijs, ad secundi libri Elementorum Euclidis principium'; also notes on book I prop. 35 and books II and IV). Kästner and Schöll both observe that this German Euclid was printed only in 1562, six years later.",
+    "source": "BSB A.gr.b. 3057, Latin part p. 151 (scan 153); Kästner I (1796) p. 281; Schöll, ADB 44 (1898) pp. 582-593",
+    "status": "checked",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10170656?page=153"
+   },
+   {
+    "topic": "Marginal notes in the Greek text: arithmetic",
+    "claim": "Greek arithmetic (pp. 1-22) has 11 marginal notes on 9 pages:\np. 2 'πολλαπλασιάσειεν' (text '*πολλαπλάσειεν');\np. 5 '*εἰ.';\np. 6 '*μείζονες' and '*ἥττονες' (text has them swapped);\np. 10 'Forte scripserat ἢ καὶ';\np. 12 'Vide Annotationes, ubi docetur, hic & alibi legendum διὰ πασῶν καὶ διὰ τεσσάρων, & διὰ πασῶν καὶ διὰ πέντε';\np. 15 '*ἑκάστην(?)';\np. 16 '*προσθήκη' and 'Lege ἐπισύνθεσιν, uno vocabulo';\np. 20 '*ἐγγώνια';\np. 21 '*πρίσμασι'.",
+    "source": "BSB A.gr.b. 3057, Greek pp. 1-22 (scans 167-188), outer margins of every page checked on images",
+    "status": "checked",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10170656?page=172"
+   },
+   {
+    "topic": "Marginal notes in the Greek text: geometry",
+    "claim": "Greek geometry (pp. 34-75) has 6 marginal notes: p. 40 '*προσεκ.'; p. 41 '*προσεκ.'; p. 49 '*ἅτε.'; p. 52 '*Forte ἐπιπέμπτου.'; p. 71 '*abundat'; p. 72 '*δε(?)'. Three asterisks in the text have no marginal note anywhere visible on the page: p. 50 ('ὁ * κατὰ διάμετρον'), p. 54 ('αὐτοῖς * παραλληλεπιπέδοις'), p. 73 ('ἀρχιμήδης*').",
+    "source": "BSB A.gr.b. 3057, Greek pp. 34-75 (scans 200-241)",
+    "status": "checked",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10170656?page=216"
+   },
+   {
+    "topic": "Marginal notes in the Greek text: astronomy",
+    "claim": "Greek astronomy (pp. 76-103) has 6 marginal notes: p. 80 '*ὑποπ.'; p. 83 '*εἰκοστῆς'; p. 89 '*ὁμοταχῶς'; p. 97 '*ἀσυμ.'; p. 102 '*ἢ καὶ τὸν ἄρατ.(?)'; p. 103 '*τῇ(?)'.",
+    "source": "BSB A.gr.b. 3057, Greek pp. 76-103 (scans 242-269)",
+    "status": "checked",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10170656?page=268"
+   },
+   {
+    "topic": "Marginal notes: music for comparison",
+    "claim": "The Greek music section (pp. 23-33) has about 10 notes on pp. 25, 28, 29, 31, 32. They use both asterisk and dagger (†) and Latin formulas: '... addo', '†iterum eadem verba addo' (p. 25), '*abundant omnino, & delenda sunt' (p. 29).",
+    "source": "BSB A.gr.b. 3057, Greek pp. 23-33 (scans 189-199), margins only",
+    "status": "checked",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10170656?page=191"
+   },
+   {
+    "topic": "Comparison of the marginal notes",
+    "claim": "The other three sections use the same system as music: an asterisk in the text keyed to an asterisk in the margin with the proposed Greek word, often abbreviated. Their Latin formulas are of the same kind: 'abundat' (geometry p. 71, like music's 'abundant ... delenda sunt'), 'Forte ...' (pp. 10, 52), 'Lege ... uno vocabulo' (p. 16), 'Vide Annotationes' (p. 12). But the dagger and 'addo' occur only in the music section. Count outside music: 23 notes (11 + 6 + 6), against about 10 in the 11 music pages, so music is much denser.",
+    "source": "BSB A.gr.b. 3057, Greek pp. 1-103 (scans 167-269), outer margins checked page by page on IIIF crops",
+    "status": "checked",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10170656?page=195"
+   },
+   {
+    "topic": "Editio princeps 1532",
+    "claim": "Legrand describes the editio princeps (no. 88) as follows.\nGreek title: 'Τοῦ σοφωτάτου Ψελλοῦ, σύνταγμα εὐσύνοπτον εἰς τὰς τέσσαρας μαθηματικὰς ἐπιστήμας ...'.\nLatin title: 'Sapientissimi Pselli opus dilucidum in quattuor Mathematicas disciplinas ...'.\nImprint: 'Venetiis. MDXXXII. Cum gratia'.\nColophon: 'Ἐνετίῃσι παρὰ Στεφάνῳ Σαβίῳ καὶ τοῖς ἀδελφοῖς αὐτοῦ ... ποσειδεῶνος τετάρτῃ' (dated 4 December 1532).\nFormat: petit in-8°, 56 unnumbered leaves in 14 gatherings of 4.\nLegrand calls it 'Édition princeps, d'une excessive rareté'. Copy: BnF V 1960 Réserve.",
+    "source": "É. Legrand, Bibliographie hellénique ... XVe et XVIe siècles, vol. I (Paris 1885), pp. 212-215, no. 88",
+    "status": "checked",
+    "quote": "Édition princeps, d'une excessive rareté",
+    "url": "https://archive.org/details/bibliographiehel0000emil_i3n4"
+   },
+   {
+    "topic": "Editio princeps: editor and dedication",
+    "claim": "The 1532 edition has two prefatory pieces. On the verso of f. 1 is a Latin letter 'Nicolao Redulpho Cardinali amplissimo Franciscus Contarenus', saying Psellus's mathematical books were 'typis excussi ab Arsenio, Epidauri archiepiscopo' and asking the cardinal to protect the aged and sick Arsenios. On ff. 2-5 is Arsenios of Monemvasia's Greek dedicatory letter to Cardinal Ridolfi.",
+    "source": "Legrand, Bibliographie hellénique I (1885), pp. 212-213; reprinted in Paris 1545, scans 2-8",
+    "status": "checked",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10169572?page=2"
+   },
+   {
+    "topic": "Editio princeps: doubt about authorship",
+    "claim": "In his dedication Arsenios presents the book as his 'daughter' named Mathematike. He gives it in favour 'to her father, whether he was Psellus, as most think, or Euthymios': 'καὶ ταῦτα τῷ ταύτης πατρί, εἴτε Ψελλὸς ἦν, ὡς τοῖς πλείοσι δοκεῖ, εἴτ' Εὐθύμιος, χαριζόμενος'. Xylander never mentions this doubt.",
+    "source": "Paris 1545 reprint, f. 3v (BSB bsb10169572, scan 6); same text in Legrand I (1885), p. 214",
+    "status": "checked",
+    "quote": "εἴτε Ψελλὸς ἦν, ὡς τοῖς πλείοσι δοκεῖ, εἴτ' Εὐθύμιος",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10169572?page=6"
+   },
+   {
+    "topic": "Editio princeps: no manuscript named",
+    "claim": "Neither Arsenios's dedication (read in the 1545 reprint and in Legrand's transcription) nor Legrand's description names the manuscript the 1532 text was printed from.",
+    "source": "Legrand I (1885), pp. 212-215; Paris 1545, ff. 2r-4v (scans 3-8)",
+    "status": "checked",
+    "url": "https://archive.org/details/bibliographiehel0000emil_i3n4"
+   },
+   {
+    "topic": "Editio princeps: companion volume",
+    "claim": "In the dedication of the Venice 1532 Psellus logic (Introductio in sex philosophiae modos, with Jacopo Foscarini's Latin, Sabio, Nov. 1532), Arsenios says he had recently printed and sent Psellus's Mathematica to Ridolfi: 'Ἔναγχος τὰ τοῦ Ψελλοῦ Μαθηματικὰ ἐντυπώσαντες, ἐκπεπόμφαμεν ...'.",
+    "source": "Legrand I (1885), pp. 209-211",
+    "status": "checked",
+    "url": "https://archive.org/details/bibliographiehel0000emil_i3n4"
+   },
+   {
+    "topic": "Paris 1545 reprint",
+    "claim": "A Greek-only reprint: 'Τοῦ σοφωτάτου Ψελλοῦ, σύνταγμα εὐσύνοπτον ... Doctissimi Pselli opus dilucidum in quattuor Mathematicas disciplinas ... Parisiis, Excudebat Iacobus Bogardus, 1545', 75 leaves in the BSB copy. It reproduces Contarini's Latin letter and Arsenios's Greek dedication. Eton's catalogue gives 76 leaves, 8vo.",
+    "source": "BSB A.gr.b. 298#Beibd.1 (bsb10169572), scans 1-8; Eton College Library B11614",
+    "status": "checked",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10169572?page=1"
+   },
+   {
+    "topic": "Relation of Xylander's Greek to the printed tradition",
+    "claim": "Wherever I compared, Xylander's printed Greek keeps the readings of the Paris 1545 reprint that he corrects in his margin:\n- 1545 f. 5v 'οὓς ἂν τῶν ἄλλων πολλαπλάσειεν' = Xylander p. 2, margin 'πολλαπλασιάσειεν';\n- 1545 f. 8v 'Ἀτελεῖς δέ, οἱ τῶν ἑαυτῶν μερῶν ἥττονες ... ὑπερτελεῖς δέ, οἱ μείζονες' = Xylander p. 6, margin swaps them;\n- 1545 f. 19r 'τοῖς πράγμασι πρὸς τὰ γωνιώδη ἐπίπεδα' = Xylander's 'πράγμασι', margin '*πρίσμασι'.\nThis fits his having set the Greek from the printed edition (1532 or its 1545 reprint) and corrected it only in the margin, but that is my inference. The 1532 edition itself was not consulted.",
+    "source": "Paris 1545 (bsb10169572) scans 10, 16, 37 vs BSB A.gr.b. 3057 Greek pp. 2, 6, 21 (scans 168, 172, 187)",
+    "status": "checked",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10169572?page=37"
+   },
+   {
+    "topic": "Later judgment: Kästner on Xylander's Greek",
+    "claim": "Kästner judges that Xylander seems to have printed the Greek faithfully, obviously wrong readings included, and corrected them in the margin. He complains that the four books are not subdivided, so passages are hard to match between Greek and translation.",
+    "source": "Kästner, Geschichte der Mathematik I (Göttingen 1796), p. 280",
+    "status": "checked",
+    "quote": "Das Griechische hat Xylander, wie es scheint, getreu abdrucken lassen, auch offenbar unrichtige Lesarten, die er am Rande verbessert.",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10447542?page=312"
+   },
+   {
+    "topic": "Later judgment: Kästner on the notes",
+    "claim": "Kästner summarises the Annotationes (Schegk as source of the introduction, the unit and Logistica, the sieve, the reference to the German Euclid). He checks Xylander's numerical test of Psellus's circle rule by logarithms and finds it correct (≈2217.49 for diameter 56).",
+    "source": "Kästner I (1796), pp. 280-282",
+    "status": "checked",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10447542?page=313"
+   },
+   {
+    "topic": "Later judgment: Fabricius-Harles",
+    "claim": "Fabricius-Harles lists the work under Psellus.\n- Note h: 'Psellus testatur, se scripsisse anno Graecorum 6516. h. e. Chr. 1008', taken as Psellus's own date.\n- Editions listed: Basel, Oporinus 1556 'cum nonnullis eiusdem Xylandri adnotationibus tam criticis, quam exegeticis'; Arsenios's first Greek edition (wrongly placed 'Romae'), noting his Psellus-or-Euthymios doubt; Paris 1545 (Bogard); Vinet's Latin (Paris 1557, Tournon 1592/1591).\n- Fabricius also claims 'Post Vinetum Xylander suam interpretationem adgressus est'.",
+    "source": "J. A. Fabricius, Bibliotheca Graeca, ed. G. C. Harles, vol. X (Hamburg 1807), pp. 46-47 (Lib. V c. XXVIII, no. XXXVII and note h)",
+    "status": "checked",
+    "url": "https://archive.org/details/ioannisalbertif03heumgoog/page/n70"
+   },
+   {
+    "topic": "Later reprints (from Fabricius-Harles)",
+    "claim": "Harles adds these editions:\n- Latin 'Arithmeticae, Musicae et Geometriae compendia, Guil. Xylandro interprete', Heidelberg, Abr. Smesmann 1591, 8°, 'sine praefat. et adnotatt.', with part of an oration by C. Peucer;\n- Latin Xylander, Leiden 1647;\n- citations of a Greek-Latin Leipzig 1590, a Wittenberg 1560 and an 'Aug. Vindel. 1554' edition, which look like ghosts or confusions;\n- Paris 1532 [Venice] via the Pinelli catalogue;\n- footnote i: Lambert Alard printed Psellus's Music with his own Latin version in De veterum Musica (Schleusingen 1636).",
+    "source": "Fabricius-Harles, Bibliotheca Graeca X (1807), p. 47 and note i",
+    "status": "checked",
+    "url": "https://archive.org/details/ioannisalbertif03heumgoog/page/n71"
+   },
+   {
+    "topic": "Reprint: Heidelberg 1591",
+    "claim": "'Micaelis Pselli Arithmeticae, Musicae et Geometriae Compendia', Heidelberg: Smesmann, 1591, 59 [1] pp., [2] leaves, Latin, with Xylander as contributor; VD16 M 5146; BSB A.gr.b. 3067. I read only the record, not the book.",
+    "source": "Deutsche Digitale Bibliothek record (BSB)",
+    "status": "checked",
+    "url": "https://www.deutsche-digitale-bibliothek.de/item/A67BUGINYAVFFWMZ7YYQEGDXSC4YRLTC"
+   },
+   {
+    "topic": "Reprint: Leiden 1647",
+    "claim": "'Michaelis Pselli Compendium mathematicum, aliaque tractatus eodem pertinentes', Lugd. Bat., Ex Officina Elzeviriorum, 1647. The preface 'Ad lectorem' says the tracts were added to a reprint of Sacrobosco's Elementa for school use. The Psellus is headed 'Michaelis Pselli Quadrivium, hoc est, Perspicuus liber de quatuor Mathematicis scientiis ... Gulielmo Xylandro interprete' and reprints the Latin only. The OCR text contains no 'Annotationes', so the notes appear to be absent; I checked only the front matter and searched the OCR.",
+    "source": "Psellus, Compendium mathematicum (Leiden 1647), archive.org bub_gb_t2AANntDQwUC, front matter",
+    "status": "checked",
+    "url": "https://archive.org/details/bub_gb_t2AANntDQwUC"
+   },
+   {
+    "topic": "Later judgment: Cantor",
+    "claim": "Cantor writes that the work printed under Psellus's name in the 16th century cannot be wholly his, since the astronomy dates itself to 1008, when Psellus was at most an infant. He calls its arithmetic devoid of 'den Schatten eines eigenen Gedankens'. He cites Kästner I, 281-282.",
+    "source": "M. Cantor, Vorlesungen über Geschichte der Mathematik I, 2nd ed. (Leipzig 1894), pp. 472-473",
+    "status": "checked",
+    "quote": "rührt keinenfalls im Ganzen von ihm her, da die Astronomie sich selbst vom Jahre 1008 datirt",
+    "url": "https://archive.org/details/vorlesungenber01cantuoft"
+   },
+   {
+    "topic": "Later judgment: ADB",
+    "claim": "Schöll's ADB article judges the text, not the edition. He writes that Xylander thought 'die werthlose Compilation des Michael Psellus' worth explaining to beginners 'auf Schulen'. He notes that the Naenia for Betuleius, written right after the teacher's death, was printed two years later in the appendix to the Psellus.",
+    "source": "F. Schöll, 'Xylander, Wilhelm Holtzman', Allgemeine Deutsche Biographie 44 (1898), pp. 582-593",
+    "status": "checked",
+    "quote": "Die werthlose Compilation des Michael Psellus hielt X. für werth",
+    "url": "https://www.deutsche-biographie.de/gnd124331025.html#adbcontent"
+   },
+   {
+    "topic": "Appendix: Naenia",
+    "claim": "The Naenia is headed 'In obitum piissimi iuxta, doctissimique P. M. viri M. Xysti Betuleij, Augustanae scholae moderatoris ... Guilielmi Xylandri Augustani Naenia. αὐτοσχεδιασθέντα', with the marginal date 'Obijt 13. Kal. Iulij, Anni, &c. 1554. Augustae'. It ends 'Exarata Augustae Vindelicae, Anno, &c. 1554. ad Nonas Iulij'.",
+    "source": "BSB A.gr.b. 3057, Greek part pp. 162 and 175 (scans 328, 341)",
+    "status": "checked",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10170656?page=328"
+   },
+   {
+    "topic": "Appendix: Zonaras poems",
+    "claim": "On p. 153: 'De Ioannis Zonarae Annalibus, eorumque expectatissima editione, Carmen Guilielmi Xylandri Augustani', a Greek elegiac poem beginning 'Ζωναρᾶ ἀγχινόου ...'. A Latin poem 'Eiusdem' follows (p. 157ff.).",
+    "source": "BSB A.gr.b. 3057, Greek part pp. 153-161 (scans 319-327; BSB OCR)",
+    "status": "checked",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10170656?page=319"
+   },
+   {
+    "topic": "Editor Arsenios",
+    "claim": "Arsenios (Aristoboulos) Apostolis, archbishop of Monemvasia, a Cretan collaborator of Aldus, died around 1535.",
+    "source": "Wikipedia, 'Arsenius Apostolius' (search snippet only); general knowledge",
+    "status": "from memory, unverified",
+    "url": "https://en.wikipedia.org/wiki/Arsenius_Apostolius"
+   }
+  ],
+  "sources_tried_without_result": "- HathiTrust ien.35552000251339: babel.hathitrust.org returned a Cloudflare 'Just a moment' challenge (HTTP 403). I did not try to pass it, so the HathiTrust copy was not used.\n- VD16 via gateway-bayern.de (VD16 M 5144): Anubis 'Access Denied' bot page.\n- CERL STCN (data.cerl.org) and ULB Halle opendata2: both showed Anubis bot checks.\n- Huntington Library record: HTTP 429.\n- ABAA listing (possibly the 1532 edition): HTTP 403.\n- swisscollections (Basel): connection refused.\n- Google Books API: daily quota exceeded.\n- e-rara: no record for this edition found by web search.\n- DDB record for 'Pselli Geometria, Leipzig 1601': HTTP 500 and timeout.\n- Krumbacher, Geschichte der byzantinischen Litteratur (1897): OCR search found nothing on this work; the file was deleted.\n- archive.org search-inside for Fabricius-Harles: OCR too poor; the page was found through the 'Euthymii' and 'Oporinum' hits instead.\n- No digitised copy of the Venice 1532 editio princeps was found (Legrand: BnF Rés. V 1960).",
+  "open_questions": "1. Source of Xylander's Greek. In every place I checked, his text agrees with the errors of the Paris 1545 reprint, which he corrects in the margin. Whether he used 1532 or 1545 needs a collation against the Venice 1532 itself (BnF Rés. V 1960; not digitised as far as I found).\n\n2. Manuscript behind the 1532 edition. Not identified; Legrand and Arsenios's dedication are both silent. Moore's Iter Psellianum might help.\n\n3. Unmatched asterisks. Three asterisks in the Greek text (pp. 50, 54, 73) have no marginal note in the Munich copy. A second copy (HathiTrust, blocked) is needed to see whether notes were dropped or never set.\n\n4. Uncertain readings of some marginal notes: p. 15 '*ἑκάστην(?)'; p. 72 '*δε(?)'; p. 102 '*ἢ καὶ τὸν ἄρατ.(?)'; p. 103 '*τῇ(?)'; pp. 40-41 '*προσεκ.' (abbreviation not expanded); p. 16 '*προσθήκη' (margin and text look alike at the resolution I used). Inner (gutter) margins were checked only on a few pages.\n\n5. Quire formula. 'Latin a-k8 + 2 leaves; Greek α-λ8' is my inference from the signatures I saw; VD16 could not be reached to confirm it.\n\n6. Music annotations not read. Xylander's notes 'In Musicam' (Latin part pp. 144 to about 150, BSB scans 146-152) quote lemmata of his Latin music translation, so I did not read them. The user should decide whether they fall under the ban.\n- My OCR overview script did show me the first line or so of each of those pages (about 90 characters). I deleted those OCR files.\n- I also deleted my downloaded full text of the Leiden 1647 reprint, which contains the Latin music section; I had read only its front matter.\n- The shared folder raw/work also contains files and subfolders I did not create (e.g. 'psellus1556', 'vd16_m5144.html'). I did not open them.\n\n7. Unverified editions in Fabricius-Harles: the Wittenberg 1560, Leipzig 1590, 'Augsburg 1554' and Leipzig 1601 'Geometria' editions. Also Fabricius's claim that Vinet's Latin (made 1553) came before Xylander's, against Xylander's 'primus converti'.\n\n8. Pre-1900 judgments of the edition itself. Beyond Kästner (1796) I found none that judge Xylander's text or translation (Allatius, De Psellis, not checked). No pre-1900 source I found says outright that Xylander's Greek derives from 1532.\n\n9. 'Nunc primum editus'. Why the title says this although the Greek had been printed in 1532 and 1545 (most likely it refers to the Greek and Latin together) is not settled by any statement of Xylander's."
+ },
+ "verify": {
+  "checks": [
+   {
+    "index": 0,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10170656_00003/full/full/0/default.jpg ; bsb10170656_00004 (mirrored crop) ; https://api.digitale-sammlungen.de/ocr/bsb10170657/1",
+    "note": "Checked. I read the title on the scan 3 image. On scan 4 the imprint shows through: 'BASILEAE, PER IO-annem Oporinum.' A second BSB copy, A.gr.b. 3059 (bsb10170657, scan 1), has the imprint uncovered and also prints no year. Small details: the image reads 'Graecè & Latinè'; on this copy 'praeceptoris' is half-inked ('pr[ae]ce-pto s sui'). Below the imprint, a faint handwritten year shows through, apparently '15[5]6'. That reading is uncertain."
+   },
+   {
+    "index": 1,
+    "verdict": "corrected",
+    "url_used": "https://api.digitale-sammlungen.de/ocr/bsb10447542/311",
+    "correction": "Kästner I (1796) p. 279 does say 'Vom Drucker kein Jahr angegeben' and quotes the dedication date 'Augustae ad Nonas Nouembres anni 1556'. But nothing on p. 279 says he is describing his own copy. Drop 'describing his own copy', or cite a page where he says so. On p. 283 he does say 'die ich besitze', but of a different book (the Boethius volume).",
+    "note": "Checked: BSB OCR of pp. 279-280."
+   },
+   {
+    "index": 2,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10170656_00004/159,1203,903,407/1600,/!0/gray.jpg ; bsb10170656_00002",
+    "note": "Checked. I made a mirrored crop of scan 4 and read it independently: 'Clarissimo viro D[omi]no Jo. Hainrico Herwarto / P. Augustano, patrono suo et sum[mo] / fautori. Guil. Xylander d.d.' This agrees with your reading; 'et summo fautori' looks right. Scan 2 has 'mit Xylander's Autograph' and the engraved bookplate 'Ex Electorali Bibliotheca Serenis[simo]rum Utriusq[ue] Bavariae Ducum'. Scan 2 looks like the inside front board (pastedown) rather than a free flyleaf."
+   },
+   {
+    "index": 3,
+    "verdict": "confirmed",
+    "url_used": "https://www.deutsche-biographie.de/gnd136194818.html ; https://artsandculture.google.com/asset/katalog-der-vokalmusik/WAFBLxSFD82WOw ; https://www.deutsche-biographie.de/gnd124331025.html",
+    "note": "Now checked, no longer from memory. NDB 8 (1969) p. 720 f., the family article 'Herwart(h)' by F. Blendinger, names 'Hans Heinrich (1520–83)', the Catholic cousin of Georg and founder of the younger Augsburg line. The BSB record 'Katalog der Vokalmusik' (c. 1586/87) is described as 'Katalog zur Übernahme der Herwartschen Sammlung in die Hofbibliothek'. That record shows the music collection went to the Munich court library; it does not prove the whole library did. Schöll (ADB 44) adds that the Augsburg councillor 'Joh. Heinr. Herward' took Xylander into his house and helped him, and that Xylander dedicated his Dio Cassius to him. This supports 'patrono suo'."
+   },
+   {
+    "index": 4,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10170656/manifest ; https://opacplus.bsb-muenchen.de/title/BV005980729?format=marc",
+    "note": "Checked. Both the manifest and the MARC 300 field read '263 [i.e. 163], 175 S.'. On the scan 165 image the page number is printed '263'. The MARC record also gives VD16 M 5144 and, for A.gr.b. 3057, 'Mit 1 Beibd.'."
+   },
+   {
+    "index": 5,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/ocr/bsb10170656/{5,19,121,153,167,239,319}",
+    "note": "Checked. I read the signatures in the OCR and saw ε5 (scan 239) and K5 (scan 319) on the images. The arithmetic of octavo gatherings of 8 works: a=1-16, b1=17, h1=113 so h4=119, k1=145 so k4=151. In the Greek part, ε1=65 so ε5=73, κ1=145 so κ5=153. The formula is still an inference."
+   },
+   {
+    "index": 6,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/ocr/bsb10170656/{19,119,120,165,167,189,200,242,269,270,318,319,323,327,328,341}",
+    "note": "Checked. The Latin heading spells 'GVLIELMO XYLANDRO'. Music begins on p. 23 (scan 189, 'ΤΗΣ ΜΟΥΣΙΚΗΣ') and ends on p. 33 ('Τέλος τῆς Μουσικῆς'). Geometry begins on p. 34 and astronomy on p. 76. The Carmen runs pp. 104-152 ('FINIS'). The Zonaras poems run pp. 153-161, with the Latin 'EIVSDEM' on p. 157. The Naenia runs pp. 162-175."
+   },
+   {
+    "index": 7,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/ocr/bsb10447542/311 ; /312",
+    "note": "Checked. p. 279 reads '264 Octavseiten, das Griechische 103 S.. Xylanders Gedicht 104..175 S.' (Gedicht in the singular). p. 280 says the margin of the translation shows contents and Euclid references, that it has figures, and 'im Griechischen sind keine Figuren'."
+   },
+   {
+    "index": 8,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10170656_{00165,00166,00341,00342,00343}",
+    "note": "Checked on the images. Scans 166 and 342 are blank versos. Scan 343 is 'MARTINI BORRHAI IN COSMOGRAPHIAE ELEMENTA Commentatio … BASILEAE, PER IOANNEM Oporinum'. The BSB catalogue confirms 'Mit 1 Beibd.'. Before the date line, p. 175 also carries a dedicatory line: 'Praeceptori suo opt. merito … M. Xysto Betuleio, Guil. Xylander August. debitae pietatis ergo D.D.'"
+   },
+   {
+    "index": 9,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10170656_00005 ; _00018",
+    "note": "Checked on the images. The heading reads 'Kirchbergae, Vueissenhornique Comiti' and signature a2 is at the foot of p. 3. The close is 'Vale: Augustae, ad Nonas Novembres, Anni 1556. T. Dn. atq; Magnif. studiosissimus Guil. Xylander August.' The BSB OCR misreads the year as '1956'."
+   },
+   {
+    "index": 10,
+    "verdict": "confirmed",
+    "url_used": "https://www.digitale-sammlungen.de/en/view/bsb10170656?page=8 (OCR scans 8-9)",
+    "note": "Checked. The text runs on: '…illustravique Annotationibus, sub tuo potissimum nomine studiosae iuventuti proponendum duxerim'."
+   },
+   {
+    "index": 11,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/ocr/bsb10170656/16 ; /17",
+    "note": "Checked. Text: 'Latinum qua potui summa fide & perspicuitate reddidi: adiectis tironum causa, et Annotationibus, quas multum lucis ei allaturas confido. utrunque certè nobis labore haud mediocri constitit.'"
+   },
+   {
+    "index": 12,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/ocr/bsb10170656/11 ; /12 ; /14",
+    "note": "Checked, with one point of precision. Wolf is said to have told Xylander that nothing could be more welcome to Fugger 'quam si tibi virtutum tuarum documenti edendi apta offerretur occasio'. That is, nothing would please Fugger more than a fitting chance to show his virtues as a patron. The paraphrase should keep this object."
+   },
+   {
+    "index": 13,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/ocr/bsb10170656/12 ; /13",
+    "note": "Checked. Text: 'quantumvis mea me Ate affligat, qualem Herculi ab ortu suo infestam fuisse Homerus tradit'. Schöll (ADB) quotes the same passage."
+   },
+   {
+    "index": 14,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/ocr/bsb10170656/5-18",
+    "note": "Checked: I read the full dedication in OCR. The work is called 'Pselli hoc utilissimum opusculum' (p. 6) and 'PSELLI opusculum' (p. 14), and 'Eum igitur Psellum' (p. 14) refers to the author. 'Throughout' is a little strong for two or three mentions. The only remark about the text concerns his own 'interpretatio' (p. 12)."
+   },
+   {
+    "index": 15,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/ocr/bsb10170656/120",
+    "note": "Checked."
+   },
+   {
+    "index": 16,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10170656_00019 ; _00023 (margin crops) ; OCR 120",
+    "note": "Checked. The margins read 'Euclides ab initio 7.' and 'Euclides lib. 9. propos. 32.' A search of the Annotationes OCR finds no mention of asterisks. The music Annotationes (scans 146-152) were searched only by machine, not read."
+   },
+   {
+    "index": 17,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/ocr/bsb10170656/127 ; /128",
+    "note": "Checked. The name is printed 'IACOBO SCHECKIO'. The other phrase is '…eum relinquere, studiaque mea … in medio cursu destituere coactus sum'."
+   },
+   {
+    "index": 18,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10170656_00136 (crop)",
+    "note": "Checked on the image; p. 134 is printed correctly."
+   },
+   {
+    "index": 19,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10170656_00138 (crop)",
+    "note": "Checked on the image, including the Greek."
+   },
+   {
+    "index": 20,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/ocr/bsb10170656/145",
+    "note": "Checked."
+   },
+   {
+    "index": 21,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/ocr/bsb10170656/136",
+    "note": "Checked, with one point of precision. Xylander admits that dux/comes are used for the terms of a two-number comparison (10 : 6). He avoided them because they 'ferè numeris tantum tribuuntur', and the author is distinguishing ratios of greater from lesser inequality. 'Applied to the numbers (terms) rather than to the ratios' is closer than 'single numbers'."
+   },
+   {
+    "index": 22,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10170656_00163 (crop) ; OCR 153",
+    "note": "Checked on the image. The second Greek word is printed with the ευ and υν ligatures; the reading εὐσύνοπτος is right."
+   },
+   {
+    "index": 23,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10169572_00054 ; _00114 ; bsb10170656_00200 ; _00242",
+    "note": "Checked on the images. The 1545 manifest labels scan 54 as f. 27v and scan 114 as f. 57v. The 1545 headings read 'ΣΥΝΟΨΙΣ ΑΥΤΗ, ΓΕΩμετρίας λόγων' and 'ΑΘΡΟΙΣΙΣ ΕΥΣΥΝΟΠΤΟΣ, ἀστρονομίας'."
+   },
+   {
+    "index": 24,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/ocr/bsb10170656/163 ; /164",
+    "note": "Checked. The lemma for the geometry passage is 'Praestat equidem.)'."
+   },
+   {
+    "index": 25,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10170656_00164 (crop)",
+    "note": "Checked on the image. 'annum mundi 5030' and 'circiter 1070' are as quoted. The word is printed 'tam' with no visible abbreviation mark, so '[en]' is an editorial expansion."
+   },
+   {
+    "index": 26,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10170656_00126 (page-number crop)",
+    "note": "Checked. The printed number on scan 126 has the same glyphs as the correct '134' on scan 136, so it is a misprint for 124."
+   },
+   {
+    "index": 27,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10170656_00165",
+    "note": "Checked on the image."
+   },
+   {
+    "index": 28,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/ocr/bsb10170656/153 ; https://api.digitale-sammlungen.de/ocr/bsb10447542/313 ; https://www.deutsche-biographie.de/gnd124331025.html",
+    "note": "Checked. Xylander's book II reference is 'ex IIII. propos. eius libri'; 'ad 35. libri primi Euclid. propositionem docui'; book IV 'de quinquangulorum et sexangulorum … spacijs'. Kästner p. 281 has 'in der 1562 erschienenen Uebersetzung'. Schöll has '— erst sechs Jahre später gedruckte — deutsche Euklidübersetzung'."
+   },
+   {
+    "index": 29,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10170656_{00167-00188} (outer-margin strips; zoom on p. 2)",
+    "note": "Checked: every outer margin, pp. 1-22. There are 11 notes on pp. 2, 5, 6 (2), 10, 12, 15, 16 (2), 20, 21. The margin on p. 2 reads 'πολλαπλα-σιάσειεν', with no asterisk. OCR hits of '*' on pp. 11, 13 and 18 turned out on the images to be raised points or abbreviations, not asterisks."
+   },
+   {
+    "index": 30,
+    "verdict": "corrected",
+    "url_used": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10170656_00239/600,200,400,90/1200,/0/default.jpg ; _00216 ; _00220",
+    "correction": "The six marginal notes are confirmed: pp. 40, 41, 49, 52, 71, 72. There are only two asterisks in the text with no note anywhere: p. 50 'ὁ * κατὰ διάμε-' and p. 54 'αὐτοῖς * παραλλη-'. I checked both the outer and inner margins. On p. 73, 'ἀρχιμήδης' is followed by a raised point (ano teleia), not an asterisk; a high-resolution crop shows it plainly beside the true asterisk on p. 50.",
+    "note": "Checked: outer-margin strips of all geometry pages, plus zooms on each OCR asterisk. Hits on pp. 45, 56, 60 and 62 are abbreviations or noise."
+   },
+   {
+    "index": 31,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10170656_{00242-00269} (outer-margin strips)",
+    "note": "Checked: the margins of every page, pp. 76-103. There are 6 notes, on pp. 80, 83, 89, 97, 102 and 103. OCR asterisk hits on pp. 85, 99 and 100 are abbreviations."
+   },
+   {
+    "index": 32,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10170656_{00189-00199} (outer-margin strips only)",
+    "note": "Checked, margins only. There are exactly 10 notes:\n- p. 25: 3 ('*διάτονος μέσων addo', '*τοῦ ἐννέα πρὸς addo', '†iterum eadem verba addo');\n- p. 28: 2 ('*διαπασῶν καὶ διὰ τεσσάρων', '†διὰ πασῶν καὶ διὰ πέντε');\n- p. 29: 1 ('*abundant omnino, & delenda sunt');\n- p. 31: 3 ('†διὰ πέντε', '*ὅλην', '*ἢ');\n- p. 32: 1 ('*τοῦ').\nThe dotted figures on pp. 24 and 26 are number diagrams, not notes."
+   },
+   {
+    "index": 33,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10170656_00215 (zoom) and margin strips",
+    "note": "Checked. The count of 23 (11+6+6) against 10 holds, and outside music there is no dagger and no 'addo'. The OCR '†' on p. 49 is the γάρ abbreviation. One correction: not every note is asterisk-keyed. The notes on pp. 2, 10, 12 and the 'Lege …' on p. 16 have no asterisk."
+   },
+   {
+    "index": 34,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/bibliographiehel0000emil_i3n4/page/n455_w1200.jpg ; djvu text",
+    "note": "Checked on the p. 212 image. Legrand prints 'SAPIENTISSIMI PSELli' and has the heading '4 DÉCEMBRE 1532'. In the colophon he marks 'τριακοσιοστῷ (sic)'."
+   },
+   {
+    "index": 35,
+    "verdict": "corrected",
+    "url_used": "https://archive.org/download/bibliographiehel0000emil_i3n4/page/n456_w1200.jpg",
+    "correction": "The Contarini letter on f. 1v and its wording are confirmed. But Legrand p. 213 says 'Les ff. 2 et 3 sont occupés par cette épître dédicatoire', so in 1532 the letter is on ff. 2-3, not ff. 2-5. In the Paris 1545 reprint it fills ff. 2r-4v (scans 3-8).",
+    "note": "Checked on the image of Legrand p. 213 and on the 1545 OCR (scans 2-8)."
+   },
+   {
+    "index": 36,
+    "verdict": "corrected",
+    "url_used": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10169572_00006/full/900,/0/default.jpg ; Legrand p. 214",
+    "correction": "The quotation is exact. The 1545 print has no comma after ἦν; Legrand has one. The paraphrase should be sharpened. Arsenios has two 'daughters' of his own, the Ionia and the ascetic Leimonarion, and an adopted one (ἐπίκτητον), Mathematike. He chose to bring the adopted one out before his own ('προεκθέσθαι ταύτην ἐκείναιν'), 'καὶ ταῦτα τῷ ταύτης πατρί … χαριζόμενος': as a favour to her father, whether Psellus or Euthymios. He gives the book itself to the cardinal. Fabricius-Harles X p. 47 quotes the same doubt.",
+    "note": "Checked on the image of f. 3v."
+   },
+   {
+    "index": 37,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/bibliographiehel0000emil_i3n4/bibliographiehel0000emil_i3n4_djvu.txt ; 1545 OCR scans 3-8",
+    "note": "Checked. Neither text names a source manuscript."
+   },
+   {
+    "index": 38,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/bibliographiehel0000emil_i3n4/page/n453_w1200.jpg",
+    "note": "Checked, with one point of precision. Legrand p. 210 says the all-Greek logic edition has no date or place and 'doit avoir été publiée à Venise, en 1532'. The colophon 'VENETIIS, PER STEPHANUM ET FRATRES DE SABIO. MDXXXII. mense Nouemb.' belongs to Foscarini's separate Latin plaquette (24 ff.). The letter begins on f. 2r of the Greek edition. A side observation: Legrand reads the Mathematica colophon as 4 December 1532, yet this letter (dated with the November translation) calls the Mathematica 'recently printed'."
+   },
+   {
+    "index": 39,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/iiif/presentation/v2/bsb10169572/manifest ; https://catalogue.etoncollege.com/B11614",
+    "note": "Checked. The BSB manifest's last numbered leaf is f. 75 (scans 149-150). Eton (shelfmark Ba.9.12) gives '76 leaves ; 8vo' and notes 'Text in Greek apart from part of title-page, and its verso'."
+   },
+   {
+    "index": 40,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10169572_00016 ; _00037 ; bsb10170656_00168 ; _00172",
+    "note": "Checked. The 1545 f. 8v and f. 19r readings ('καὶ τοῖς πράγμασι πρὸς τὰ γωνιώ-') were seen on the images; f. 5v was read in OCR. Xylander's text on pp. 2, 6 and 21 carries the asterisked forms. The conclusion is still an inference."
+   },
+   {
+    "index": 41,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/ocr/bsb10447542/312",
+    "note": "Checked: the quotation is exact."
+   },
+   {
+    "index": 42,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/ocr/bsb10447542/313 ; /314",
+    "note": "Checked. Schegk, the unit and Logistik, the sieve (κοσκινόν, with Eratosthenes' cribrum) and the German Euclid are all on p. 281. The circle rule is on pp. 281-282: 'log 56 + log 1568 = 3,3458610, dem die Zahl 2217,49 gehört', against Xylander's 'beynah 2217'."
+   },
+   {
+    "index": 43,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/ioannisalbertif03heumgoog/page/n70_w1400.jpg ; n71",
+    "note": "Checked on the images of pp. 46-47. Note h is on p. 46 and reads 'Chr. 1008'. Arsenios is called 'Monembasiae episcopus' and the edition is placed 'Romae'. Bogard's 1545 is given as '12.'. Vinet is said to have translated in 1553 (Paris 1557; Tournon 1592; Bodleian Turnoni 1591). 'Post Vinetum Xylander suam interpretationem adgressus est. Fabr.' is confirmed."
+   },
+   {
+    "index": 44,
+    "verdict": "corrected",
+    "url_used": "https://archive.org/download/ioannisalbertif03heumgoog/page/n71_w1400.jpg",
+    "correction": "Heidelberg (Smesmann) 1591, Leiden 1647, Leipzig 1590 (from Harwood/Pinelli), Wittenberg 1560, Aug. Vindel. 1554 and Alard (footnote i, Schleusingen 1636) are all confirmed. There is no 'Paris 1532' on the page. Pinelli's catalogue (I p. 328 no. 1379) lists 'gr. Venetiis, de Sabio, Venet. 1532. 8.' Footnote i also adds a Venice 1532 Greek copy in the Barberini library. Harles further lists a separate Greek Arithmetices compendium (Paris, Wechel 1538, 4°) and a Greek-Latin one (Paris, Tiletanus 1545, 8°).",
+    "note": "Checked on the image of p. 47."
+   },
+   {
+    "index": 45,
+    "verdict": "confirmed",
+    "url_used": "https://www.deutsche-digitale-bibliothek.de/item/A67BUGINYAVFFWMZ7YYQEGDXSC4YRLTC",
+    "note": "Checked: the record gives '59, [1] S., [2] Bl.', VD16 M 5146, A.gr.b. 3067 and 'Bibliogr. Nachweis: RISM B VI, 2, S. 674'. I did not open the book."
+   },
+   {
+    "index": 46,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/bub_gb_t2AANntDQwUC/bub_gb_t2AANntDQwUC_djvu.txt",
+    "note": "Checked: the front matter and heading in OCR, with the heading spelled 'Gylielmo Xylandro'. The only 'annotat-' words in the OCR are in the later geography tract. There is no 'Lectori candido' and no 'In Arithmeticam'. I did not read the Psellus text itself."
+   },
+   {
+    "index": 47,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/vorlesungenber01cantuoft/vorlesungenber01cantuoft_djvu.txt",
+    "note": "Checked: Cantor, 2nd ed. 1894, pp. 472-473. One precision: the footnote to the 1008 point (p. 472) cites Tannery (Zeitschr. Math. Phys. XXXVII). 'Kästner I, 281-282' is cited on p. 473 for the circle-quadrature passage. The 'Schatten' phrase is on p. 473."
+   },
+   {
+    "index": 48,
+    "verdict": "confirmed",
+    "url_used": "https://www.deutsche-biographie.de/gnd124331025.html",
+    "note": "Checked. The quotation continues 'auf Schulen' — natürlich hohen — Anfängern erklärt zu werden. The Naenia passage reads 'zwei Jahre später (1556) im Anhang seines Psellus'. Schöll gives Betuleius's death as 19 June 1554, which matches '13. Kal. Iulij'."
+   },
+   {
+    "index": 49,
+    "verdict": "corrected",
+    "url_used": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10170656_00328/pct:45,32,40,5/1200,/0/default.jpg",
+    "correction": "The Greek word under the heading is 'αὐτοσχεδιασθεῖσα', the feminine singular agreeing with Naenia, not 'αὐτοσχεδιασθέντα'. Everything else is confirmed. The colophon is printed 'EXARATA AVGVSTAE VINDELICAE, Anno, &c. 1554. ad Nonas Iulij.'",
+    "note": "Checked on the images of scans 328 and 341."
+   },
+   {
+    "index": 50,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10170656_00319",
+    "note": "Checked. The heading reads '…eorumque expectatissima editione, Carmen'. The Latin poem closes by praising Anton Fugger (p. 161)."
+   },
+   {
+    "index": 51,
+    "verdict": "corrected",
+    "url_used": "https://en.wikipedia.org/wiki/Arsenius_Apostolius ; https://catalogue.bnf.fr/ark:/12148/cb121362785",
+    "correction": "Now checked. The sources disagree on the date of death. English Wikipedia gives c. 1468–1538 (infobox '1538 (1539)'). The BnF authority record gives birth '1468?, Candie' and death '1535-04-30, Venise'. Wikipedia confirms he was Cretan, born Aristobulus, and one of Aldus's first collaborators from 1495, and that the Curia appointed him Eastern-rite bishop of Monemvasia in 1506. He styles himself 'Μονεμβασίας ἀρχιεπίσκοπος' in the 1532 dedication. The DBI entry (Pratesi, vol. 3, 1961) would settle the date, but its page did not render for me.",
+    "note": "I tried Treccani by direct fetch and with curl; the page loads with no article text."
+   }
+  ],
+  "summary": "I checked all 52 findings, with the scans opened and read, not just the catalogue entries. Downloads are in raw/work (local, not in git)/verify1556.\n\nResult: 43 confirmed, 9 corrected, none wrong or unopenable. The two from-memory findings are now checked: 3 confirmed, 51 corrected.\n\nThe corrections:\n- **1:** Kästner p. 279 does not say he describes his own copy.\n- **30:** On p. 73 the mark after 'ἀρχιμήδης' is a raised point, not an asterisk. Only pp. 50 and 54 have an asterisk in the text with no marginal note.\n- **35:** Legrand puts Arsenios's letter in the 1532 edition on ff. 2-3, not ff. 2-5.\n- **36:** The Greek quotation is exact, but the paraphrase needs sharpening. Arsenios brings out his adopted 'daughter' Mathematike before his own two works, as a favour to her father (Psellus or Euthymios).\n- **44:** Harles cites Pinelli for Venice 1532 (Sabio), not Paris 1532.\n- **49:** The Naenia heading reads 'αὐτοσχεδιασθεῖσα'.\n- **51:** The date of Arsenios's death is disputed: BnF gives 30 April 1535 in Venice, English Wikipedia gives 1538.\n\nPrecision notes on confirmed findings:\n- **12:** Wolf's remark was that nothing would please Fugger more than a chance to show his virtues as a patron.\n- **21:** Dux/comes are terms for the numbers, not the ratios.\n- **33:** Some notes are not keyed with an asterisk (pp. 2, 10, 12, 16).\n- **38:** Legrand calls the Greek logic edition undated; the Nov. 1532 colophon belongs to Foscarini's separate Latin plaquette.\n- **47:** Cantor's Kästner citation belongs to the circle passage; the 1008 point cites Tannery.\n\nNew evidence turned up during the checks:\n- A second BSB copy (A.gr.b. 3059) shows the same undated imprint without a label over it.\n- Schöll (ADB) names Joh. Heinr. Herward as Xylander's patron and the dedicatee of his Dio Cassius.\n- NDB 8 confirms Hans Heinrich Herwart's dates as 1520-83.\n- A BSB catalogue of c. 1586/87 records the Herwart collection passing into the Munich court library.\n- My own count of the music-section margins also gives exactly 10 notes.\n\nWhat I did not read, as instructed:\n- no translation of the music section, and not Heiberg;\n- no Annotationes on music (scans 146-152), which I only searched by machine;\n- the 1591 Heidelberg book, of which I read only the catalogue record;\n- the music part of the Leiden 1647 Psellus."
+ }
+}

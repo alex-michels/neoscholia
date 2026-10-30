@@ -1,0 +1,891 @@
+{
+ "key": "critic",
+ "collect": {
+  "summary": "I collected about 55 checkable findings on Xylander as a textual critic, mostly from primary sources and editors' prefaces that I opened myself. Downloads are in raw/work (local, not in git) (OCR texts, page images, the ADB wikitext, and the folders ma1558, ma1568 and psellus1556).\n\nMain results:\n(1) Marcus Aurelius. The 1558 title page says the texts come \"E Bibliotheca ... Othonis Henrici\". Conrad Gesner's Greek dedication, dated Zurich, mid-February 1559, says he received the books of Marcus from the poet Michael Toxites, out of the Elector Palatine's library. Xylander's own dedication is dated Heidelberg, 1 October 1558, which explains why both 1558 and 1559 are given. In 1568 Xylander says only that Gesner had assured him the copy came from Otto Heinrich's library. H. Schenkl therefore doubted that the manuscript was Palatine and gave it the siglum T; Farquharson rejected this.\n(2) His method, in his own words. In the 1558 notes he marks doubtful places with an asterisk \"rather than act arrogantly\", and admits to \"divination\" and to bold departures from the Greek codex. In 1568 he prefers to leave places untouched rather than bring in foreign words by conjecture. The lost codex had marginal variant readings, and he sometimes followed them. In 1568 he already judged the work to be ἐκλογαί, excerpts, which is a view Farquharson credits to Barthius.\n(3) Psellus 1556. His marginal conjectures in the Greek text are keyed by asterisks (\"* Forte ἐπὶ πέμπτον\"). In the margins of his Latin translation he cites the book of Euclid's Elements that treats the same point. He corrects a passage on astronomical grounds. He also refuses to change corrupt year numbers because he has no manuscript to check them against (\"destitutus fide exemplaris\"). I avoided the music section entirely.\n(4) The Palatine library. Xylander transcribed the paradoxographers and published them first (1568) from a Palatine codex, Pal. gr. 398, which also holds the Strabo epitome, the only manuscript Kramer says he had for Strabo. As prefect of the Palatina he lent Pal. gr. 396 to Crusius. Pal. gr. 391, a Diophantus copy with German notes for the printer, was made by him or for him.\n(5) Modern judgments.\n- Cassius Dio: Boissevain praises him (he healed very many corruptions \"rectissimo iudicio\") but notes he worked from R. Estienne's printed edition.\n- Strabo: Kramer says he removed the obvious Aldine errors but left the deeper ones.\n- Marcus: Schenkl estimated (as reported by Farquharson) that in 1568 Xylander corrected 36 errors and missed 44.\n- Diophantus: Heath calls Bachet's treatment of him unfair; Tannery made almost no use of his translation.\n- Histories of scholarship: Sandys speaks of his \"singular acumen\", Bursian ranks him just below Sylburg, Wilamowitz says Plutarch is still cited by the pages of Xylander's edition, and Schöll (ADB 1898) gives the fullest account.\nPfeiffer, Dalfen, Hadot and Ceporina could not be read.",
+  "findings": [
+   {
+    "topic": "Biography / Heidelberg",
+    "claim": "Bursian states that Xylander (properly Holtzmann), born at Augsburg 26 Dec. 1532, received in 1558, as Micyllus' successor, the professorship of Greek and the post of librarian of the Electoral library at Heidelberg, received the professorship of logic in 1562, and died 10 Feb. 1576.",
+    "source": "C. Bursian, Geschichte der classischen Philologie in Deutschland, vol. I (München/Leipzig 1883), p. 228",
+    "url": "https://archive.org/details/geschichtedercl01burs/page/228",
+    "status": "checked",
+    "quote": "im Jahre 1558 als Nachfolger des Micyllus die Professur der griechischen Sprache und die Stelle des Bibliothekars"
+   },
+   {
+    "topic": "Biography / Heidelberg (date conflict)",
+    "claim": "Schöll's ADB article dates Xylander's appointment as librarian of the Electoral library to 1561, at a salary of 20 fl. This conflicts with Bursian and Sandys, who give 1558.",
+    "source": "Fr. Schöll, 'Xylander, Wilhelm Holtzman', Allgemeine Deutsche Biographie 44 (1898), pp. 582–593, here p. 587",
+    "url": "https://de.wikisource.org/wiki/ADB:Xylander,_Wilhelm",
+    "status": "checked",
+    "quote": "Im J. 1561 war er ferner als Bibliothekar an der kurfürstlichen Bibliothek angestellt worden mit einer Besoldung von 20 fl."
+   },
+   {
+    "topic": "Biography / Heidelberg (date conflict)",
+    "claim": "Schöll says Xylander exchanged chairs with Hermann Witekind at the beginning of 1563 and became 'publicus Organi Aristotelici interpres', the first public professor of logic at Heidelberg. Bursian dates the logic chair to 1562.",
+    "source": "Schöll, ADB 44 (1898), p. 588",
+    "url": "https://de.wikisource.org/wiki/ADB:Xylander,_Wilhelm",
+    "status": "checked"
+   },
+   {
+    "topic": "Relation to the Bibliotheca Palatina",
+    "claim": "Stevenson's catalogue records a note in Pal. gr. 396 (Laonicus Chalcocondyles) in which Martin Crusius testifies in his own hand, in 1575, that Xylander, then prefect of the Palatine library, lent him the codex to read at Tübingen.",
+    "source": "H. Stevenson, Codices manuscripti Palatini Graeci Bibliothecae Vaticanae (Rome 1885), pp. 253–254 (Pal. gr. 396)",
+    "url": "https://archive.org/details/codicesmanuscrip00stevuoft",
+    "status": "checked",
+    "quote": "Gulielmum Xylandrum, (Bibliothecae Palatinae tunc temporis praefectum)"
+   },
+   {
+    "topic": "Relation to the Bibliotheca Palatina (paradoxographers)",
+    "claim": "Stevenson describes Pal. gr. 398, which contains among other things the Strabo chrestomathy, Antoninus Liberalis and Phlegon. He records that Xylander first published Antoninus Liberalis, Phlegon (with the Olympiads fragment) and the mirabilia of Apollonius and Antigonus from this very codex (Basel 1568).",
+    "source": "Stevenson, Codices manuscripti Palatini Graeci (1885), pp. 254–256 (Pal. gr. 398)",
+    "url": "https://archive.org/details/codicesmanuscrip00stevuoft",
+    "status": "checked",
+    "quote": "Edid. primum ex hoc codice ... Guil. Xylander, Basil. 1568"
+   },
+   {
+    "topic": "Relation to the Bibliotheca Palatina (his own words)",
+    "claim": "In the 1568 Basel volume Xylander says he translated these Greek libelli from a codex he had himself found in the library of his Prince. The codex was written on very old parchment in a script he had never seen before, and he transcribed it with the Prince's permission.",
+    "source": "Xylander, dedication to Albert von Stetten, in Antonini Liberalis Transformationum congeries ... M. Antonini ... de vita sua libri XII (Basel: Th. Guarinus, 1568), p. 3 (e-rara, UB Basel)",
+    "url": "https://www.e-rara.ch/bau_1/content/zoom/698326",
+    "status": "checked",
+    "quote": "ex vetustissimis membranis, rarissimo, mihique alias nunquam uiso literarum genere conscriptis ... in cuius bibliotheca is codex abs me erat repertus, transcriptos"
+   },
+   {
+    "topic": "Marcus Aurelius: title page",
+    "claim": "The Latin title page of the editio princeps (Zurich, Andreas Gesner F.) states that the texts (Marcus, and Marinus' Life of Proclus) are taken from Otto Heinrich's library. In the BSB copy the title page carries no printed date, only a handwritten '(1558)'.",
+    "source": "M. Antonini Imperatoris Romani ... De seipso seu vita sua Libri XII (Tiguri: apud Andream Gesnerum F., [1558/59]), title page; BSB A.gr.b. 350 (VD16 M 963), scan 7",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10169588?page=7",
+    "status": "checked",
+    "quote": "E BIBLIOTHECA ILLVSTRISSIMI principis Othonis Henrici"
+   },
+   {
+    "topic": "Marcus Aurelius: dates 1558/1559",
+    "claim": "Xylander's Latin dedication of the Marcus, to Georg von Stetten the younger of Augsburg, is dated 'Heidelbergae Calendis Octobribus Anno Salutis 1558'. In it he says he translated the work at Conrad Gesner's prompting ('instinctu Corradi Gesneri').",
+    "source": "Editio princeps (Zurich 1558/59), dedication, scans 9 and 16",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10169588?page=16",
+    "status": "checked"
+   },
+   {
+    "topic": "Marcus Aurelius: dates 1558/1559",
+    "claim": "Conrad Gesner's Greek dedication of the Greek part, addressed to Anton Werther, is dated at Zurich in the year of salvation 1559 (αφνθ'), mid-February. This explains why both 1558 and 1559 are given for the editio princeps.",
+    "source": "Editio princeps, Greek part, Gesner's dedication, p. 12 (scan 296)",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10169588?page=296",
+    "status": "checked",
+    "quote": "ἔτει σωτηρίας αφνθ', Φεβρουαρίου μηνὸς μεσοῦντος"
+   },
+   {
+    "topic": "Marcus Aurelius: source of the manuscript",
+    "claim": "In his Greek dedication Gesner says he received the books of Antoninus from the poet Michael Toxites, from the library of Otto Heinrich, the Palatine ruler.",
+    "source": "Editio princeps, Greek part, Gesner's dedication, p. 10 (scan 294)",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10169588?page=294",
+    "status": "checked",
+    "quote": "παρὰ ... ἀνδρὸς Μιχαήλου Τοξίτου, ποιητοῦ εὐφυεστάτου (ἐκ τῆς Ὄθωνος Εἰνρείχου τοῦ Παλατίνου ἄρχοντος λαμπροτάτης βιβλιοθήκης) λαβών"
+   },
+   {
+    "topic": "Marcus Aurelius: state of the manuscript",
+    "claim": "In 1558 Xylander describes the books of Antoninus, as they reached him, as mutilated and for the greater part cut short. He expects critics to object that a book 'interrupted and interpolated in many places' was being offered to readers.",
+    "source": "Editio princeps (1558), Xylander's dedication, scans 10 and 14",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10169588?page=10",
+    "status": "checked",
+    "quote": "esse mutilos, misereque & maiore sui parte decurtatos"
+   },
+   {
+    "topic": "Method: divination and departures from the codex",
+    "claim": "Xylander admits that in some places he had to 'divine', or departed boldly from the Greek codex or from common usage, and that he noted this only occasionally in brief notes because he lacked time for a commentary. He says he followed the sense rather than weighing words.",
+    "source": "Editio princeps (1558), Xylander's dedication, scan 15 (printed p. 25 according to Farquharson)",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10169588?page=15",
+    "status": "checked",
+    "quote": "in quibusdam me velut diuinare opus habuisse, vel audacter à codice Graeco aut sensu communi discessisse"
+   },
+   {
+    "topic": "Method: asterisks",
+    "claim": "In his 1558 notes on Marcus Book I, Xylander declines to translate an unclear phrase and marks it with an asterisk instead, 'rather than do something arrogantly'.",
+    "source": "Editio princeps (1558), Xylander's Annotationes in librum I (scan 229)",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10169588?page=229",
+    "status": "checked",
+    "quote": "Malui itaque asterisco notare, quàm arroganter aliquid facere."
+   },
+   {
+    "topic": "Method: asterisks / divination",
+    "claim": "In the same 1558 notes Xylander states his habit of marking with an asterisk the places he suspects are defective ('mutilus est locus'). Elsewhere he writes 'diuinaui hoc loco'.",
+    "source": "Editio princeps (1558), Annotationes (scan 230)",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10169588?page=230",
+    "status": "checked",
+    "quote": "soleo asterisco notare, quae manca suspicer"
+   },
+   {
+    "topic": "Marcus Aurelius: the lost codex had marginal variants",
+    "claim": "Xylander's 1558 notes show that the lost Marcus manuscript carried marginal variant readings, which he sometimes adopted. At 2.7 he follows ῥεμβός ('altera lectio annotata ... quam probaui, & secutus sum'); in another note a reading 'erat in margine annotata'.",
+    "source": "Editio princeps (1558), Annotationes (scans 231, 233; read from the MDZ OCR, image not checked for scan 233)",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10169588?page=231",
+    "status": "checked",
+    "quote": "quae lectio erat in margine annotata"
+   },
+   {
+    "topic": "Marcus Aurelius: Xylander's interpretation",
+    "claim": "Already in 1558 Xylander interpreted the notes 'among the Quadi' and 'at Carnuntum' as the author's own notes of where each part was written.",
+    "source": "Editio princeps (1558), Annotationes (scan 230)",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10169588?page=230",
+    "status": "checked",
+    "quote": "puto solitum annotare, quibus in locis singula esset commentatus"
+   },
+   {
+    "topic": "Marcus Aurelius: second edition 1568",
+    "claim": "In the 1568 dedication Xylander complains that his first edition had been so foully corrupted by the printers' carelessness that it could fairly be regarded as not edited at all.",
+    "source": "Xylander, dedication to Albert von Stetten (Basel 1568), pp. 3–4",
+    "url": "https://www.e-rara.ch/bau_1/content/zoom/698327",
+    "status": "checked",
+    "quote": "foede esset incuria operarum typographicarum deprauata, itaque plane edita, ut pro non edita censeri optimo iure posset"
+   },
+   {
+    "topic": "Marcus Aurelius: provenance only on Gesner's word",
+    "claim": "In 1568 Xylander says that it was Gesner who affirmed that the copy of Antoninus he used had been taken from a book of Otto Heinrich's library. He does not claim to know this himself.",
+    "source": "Xylander, dedication (Basel 1568), p. 4",
+    "url": "https://www.e-rara.ch/bau_1/content/zoom/698327",
+    "status": "checked",
+    "quote": "Antonini exemplum quo usus sum, de Palatini Electoris ... OTHONIS HENRICI, & bibliothecae libro fuisse transsumtum, Gesnerus ... affirmauit"
+   },
+   {
+    "topic": "Method: restraint in conjecture",
+    "claim": "In 1568 Xylander says he corrected the preface, the Greek and Latin text and the notes. He deliberately left some places untouched rather than possibly bring in by conjecture words foreign to Antoninus.",
+    "source": "Xylander, dedication (Basel 1568), p. 5",
+    "url": "https://www.e-rara.ch/bau_1/content/zoom/698328",
+    "status": "checked",
+    "quote": "Sunt quaedam in eo Libro quae prorsus non attingere videbatur praestare, quàm coniiciendo aliena pro Antoninianis fortassis ingerere."
+   },
+   {
+    "topic": "Marcus Aurelius: excerpts, not the whole work",
+    "claim": "In 1568 Xylander already judged that the extant books are excerpts (ἐκλογαί) of the work rather than the work itself. Farquharson credits Barthius with first expressing the view that what survives is a collection of extracts.",
+    "source": "Xylander, dedication (Basel 1568), p. 3; compare A. S. L. Farquharson, The Meditations of the Emperor Marcus Antoninus (Oxford 1944), vol. I, Introduction §VIII",
+    "url": "https://www.e-rara.ch/bau_1/content/zoom/698326",
+    "status": "checked",
+    "quote": "quanquam ἐκλογὰς potius operis, quàm ipsum opus, ipsosque integros libros esse iudico"
+   },
+   {
+    "topic": "Marcus Aurelius: modern judgment (Farquharson)",
+    "claim": "Farquharson says Xylander made only a few corrections to the manuscript text, most of which Gesner adopted. Otherwise he left the text as he found it and let his Latin version silently indicate many emendations. Farquharson sees the same scrupulous regard for the manuscript in his Plutarch.",
+    "source": "A. S. L. Farquharson, The Meditations of the Emperor Marcus Antoninus, vol. I (Oxford 1944), Introduction §V 'The Editio Princeps, A.D. 1559' (archive.org copy of the Wikisource transcription)",
+    "url": "https://archive.org/details/the-meditations-of-the-emperor-marcus-antoninus-1",
+    "status": "checked",
+    "quote": "scrupulous regard for the manuscript text"
+   },
+   {
+    "topic": "Marcus Aurelius: statistics (Schenkl via Farquharson)",
+    "claim": "Farquharson reports Schenkl's estimate that in the 1568 revision Xylander corrected 36 mistakes of the printed text but overlooked 44 generally graver ones, which he had silently amended in his original Latin version. Farquharson explains this by Xylander no longer having the manuscript.",
+    "source": "Farquharson 1944, vol. I, Introduction §VII (reporting H. Schenkl's 1913 Teubner edition)",
+    "url": "https://archive.org/details/the-meditations-of-the-emperor-marcus-antoninus-1",
+    "status": "checked"
+   },
+   {
+    "topic": "Marcus Aurelius: Schenkl's Toxites hypothesis",
+    "claim": "Farquharson reports that H. Schenkl argued the Marcus manuscript did not come from the Palatina but was procured by Toxites from an unknown source, and that Gesner confused it with the Marinus. Schenkl identified Gesner's Marinus source with Pal. gr. 404, fols. 73–101 (ed. maj. 1913, Praef. pp. viii–ix; BphW 1914). Farquharson rejects this: the printer's note says both texts were in the same codex, and Pal. gr. 404 was written by Andreas Darmarius only in 1579.",
+    "source": "Farquharson 1944, vol. I, Introduction §V and notes",
+    "url": "https://archive.org/details/the-meditations-of-the-emperor-marcus-antoninus-1",
+    "status": "checked"
+   },
+   {
+    "topic": "Marcus Aurelius: siglum P / T",
+    "claim": "Haines' Loeb edition gives the siglum equation 'P = Codex Palatinus (Xylander), = T (Schenkl)'. It also calls the 1558 edition the premier edition 'from the lost Palatine MS.'.",
+    "source": "C. R. Haines, The Communings with Himself of Marcus Aurelius Antoninus (Loeb, 1916), Introduction pp. xv–xvi and sigla/bibliography pp. xxi–xxiii",
+    "url": "https://archive.org/details/thecommuningswit00marcuoft",
+    "status": "checked",
+    "quote": "P = Codex Palatinus (Xylander), = T (Schenkl)"
+   },
+   {
+    "topic": "Marcus Aurelius: modern judgment (Leopold)",
+    "claim": "Leopold writes that, since the codex vanished, Xylander's editio princeps has the authority of a codex, but is so full of printing errors that much of its divergent readings reflects the compositors rather than the manuscript. He quotes Schultz's verdict that Xylander had the Palatinus printed 'sed non admodum diligenter'.",
+    "source": "I. H. Leopold, M. Antoninus imperator ad se ipsum (Oxford 1908), Praefatio p. iii",
+    "url": "https://archive.org/details/mantoninusimpera00marcuoft",
+    "status": "checked",
+    "quote": "iam codicis auctoritate fruitur, si tamen codicis vice fungi potest editio"
+   },
+   {
+    "topic": "Marcus Aurelius: chapter division",
+    "claim": "Leopold notes that P rarely marks chapters, but that Xylander divided the text in his version almost as later editors did, and that A mostly confirms this division.",
+    "source": "Leopold 1908, Praefatio pp. vi–vii, n. 1",
+    "url": "https://archive.org/details/mantoninusimpera00marcuoft",
+    "status": "checked"
+   },
+   {
+    "topic": "Marcus Aurelius: modern judgment (Stich)",
+    "claim": "Stich says Xylander first edited the work in 1558 at Zurich from a Palatine codex that must now be considered lost. He argues that Vat. gr. 1950 cannot be that codex, comparing its faultiness with 'illius integritate'.",
+    "source": "J. Stich, M. Antonini imperatoris commentariorum libri XII (Leipzig: Teubner, 2nd ed. 1903), Praefatio pp. V, VII",
+    "url": "https://archive.org/details/markouantninoua00marc",
+    "status": "checked",
+    "quote": "e codice Palatino, qui nunc amissus putari debet"
+   },
+   {
+    "topic": "Marcus Aurelius: title and book division",
+    "claim": "Stich doubted whether the title τῶν εἰς ἑαυτὸν βιβλία ιβ´ was found by Xylander in the Palatinus or added by him. He says the division into twelve books rests mainly on the evidence of the editio princeps.",
+    "source": "Stich 1903, Praefatio pp. XIV–XV",
+    "url": "https://archive.org/details/markouantninoua00marc",
+    "status": "checked",
+    "quote": "utrum a Xylandro esset inventus in codice Palatino an ultro illatus"
+   },
+   {
+    "topic": "Marcus Aurelius: Xylander's Latin translation (recent scholarship)",
+    "claim": "In an SCS abstract, Peter Anderson argues that Xylander's Stoic terminology in his Latin Marcus derives from Cicero rather than Seneca. He says Méric Casaubon's 1643 edition was almost entirely a reprint of Xylander's 1568 edition. He cites Kraye (2002, 109): 'The problems start on the title page…'.",
+    "source": "Peter Anderson, 'Xylander's Latin Translation of Marcus Aurelius', abstract, SCS Annual Meeting 149, paper 29.1",
+    "url": "https://classicalstudies.org/xylander%E2%80%99s-latin-translation-marcus-aurelius",
+    "status": "checked"
+   },
+   {
+    "topic": "Marcus Aurelius: ADB judgment",
+    "claim": "Schöll singles out the 1558 Marcus as the editio princeps and the representative of a Heidelberg codex lost since. He adds that it has considerable defects, partly because of careless printing, which led Xylander to revise it ten years later.",
+    "source": "Schöll, ADB 44 (1898), p. 584",
+    "url": "https://de.wikisource.org/wiki/ADB:Xylander,_Wilhelm",
+    "status": "checked",
+    "quote": "als Vertreterin eines seitdem verschollenen Heidelberger Codex: sie hat aber erhebliche Mängel"
+   },
+   {
+    "topic": "Cassius Dio: Boissevain's judgment",
+    "claim": "Boissevain says Xylander translated Dio from Robert Estienne's printed edition, 'healed very many corruptions with the soundest judgment', divided books 57–60 (previously two) into four, and added the first index. He did this at 25, within seven months, driven by poverty, and thus 'bene de Dione meruisse putandus est'.",
+    "source": "U. Ph. Boissevain, Cassii Dionis Cocceiani Historiarum Romanarum quae supersunt, vol. I (Berlin 1895), Praefatio p. XCII",
+    "url": "https://archive.org/details/cassiidionishist01cassuoft",
+    "status": "checked",
+    "quote": "corruptelas permultas rectissimo iudicio sanavit"
+   },
+   {
+    "topic": "Cassius Dio: printed edition vs. manuscripts",
+    "claim": "Boissevain records that the title page of the 1558 Dio announces a separate Greek edition 'accurate ab eodem emendati', and notes that it never appeared. He describes Xylander's base as Robert Estienne's printed edition, which contrasts with Bursian's statement that the Dio translation used manuscript aids.",
+    "source": "Boissevain 1895, vol. I, Praefatio p. XCII and n. 1",
+    "url": "https://archive.org/details/cassiidionishist01cassuoft",
+    "status": "checked",
+    "quote": "Quod numquam factum est."
+   },
+   {
+    "topic": "Cassius Dio: rough statistics",
+    "claim": "A rough count of the siglum 'Xyl.' (Xylander) in the archive.org OCR of Boissevain's apparatus gives about 97 occurrences in vol. I and about 233 in vol. II. This is only indicative: OCR errors and the preface are included, and it is not a count of accepted conjectures.",
+    "source": "Boissevain 1895, vols. I–II, OCR counts (my own count)",
+    "url": "https://archive.org/details/cassiidionishist02cassuoft",
+    "status": "checked"
+   },
+   {
+    "topic": "Cassius Dio: ADB",
+    "claim": "Schöll writes that Xylander translated Dio in seven months in 1557, and that despite the haste the translation and notes on Dio and Xiphilinus contain a great number of emendations, some of lasting value.",
+    "source": "Schöll, ADB 44 (1898), p. 584",
+    "url": "https://de.wikisource.org/wiki/ADB:Xylander,_Wilhelm",
+    "status": "checked",
+    "quote": "eine große Anzahl Emendationen, zum Theil von bleibendem Werth"
+   },
+   {
+    "topic": "Strabo: Kramer's judgment and the Palatine epitome",
+    "claim": "Kramer says Xylander was the first to set about emending Strabo but had no manuscript except the Palatine Epitome. Xylander removed innumerable errors of the Aldine that offered themselves to a learned reader, but left almost all the deeper ones untouched.",
+    "source": "G. Kramer, Strabonis Geographica, vol. I (Berlin 1844), Praefatio pp. v–vi",
+    "url": "https://archive.org/details/strabonisgeogra04kramgoog",
+    "status": "checked",
+    "quote": "quum praeter Epitomen Palatinam ... nullum haberet codicem manu scriptum"
+   },
+   {
+    "topic": "Strabo: Casaubon's criticism",
+    "claim": "Schöll notes that Casaubon reproached Xylander's Strabo (Basel 1571) for haste and carelessness. He adds that many of Xylander's emendations nevertheless proved sound and have held.",
+    "source": "Schöll, ADB 44 (1898), p. 587",
+    "url": "https://de.wikisource.org/wiki/ADB:Xylander,_Wilhelm",
+    "status": "checked",
+    "quote": "Trotz der Eilfertigkeit und Flüchtigkeit, welche Casaubonus dieser Arbeit zum Vorwurf machte"
+   },
+   {
+    "topic": "Plutarch: Wilamowitz",
+    "claim": "Wilamowitz counts Xylander's Plutarch, with his Marcus Aurelius 'den er zuerst druckte', among the German Greek editions of lasting value of the later 16th century. He adds that we still cite Plutarch by the pages of that edition.",
+    "source": "U. v. Wilamowitz-Moellendorff, Geschichte der Philologie, in Gercke–Norden, Einleitung in die Altertumswissenschaft I 1 (Leipzig/Berlin 1921), p. 21 (page from the OCR marker)",
+    "url": "https://archive.org/details/bub_gb_nrQzAQAAMAAJ",
+    "status": "checked",
+    "quote": "wir zitieren noch alle nach den Seiten dieser Ausgabe"
+   },
+   {
+    "topic": "Plutarch: ADB",
+    "claim": "Schöll says Xylander wrote 'fami non famae' (to keep from hunger, not for fame) in his Plutarch preface. Working through Balduin, since he had no French, he was pleased to find that he often agreed with Amyot independently in his corrections. Schöll judges that he did 'nicht geringes für den Text', recognised by Wyttenbach and others.",
+    "source": "Schöll, ADB 44 (1898), p. 586",
+    "url": "https://de.wikisource.org/wiki/ADB:Xylander,_Wilhelm",
+    "status": "checked"
+   },
+   {
+    "topic": "Plutarch: Wyttenbach's tribute (secondhand)",
+    "claim": "Farquharson quotes Wyttenbach's tribute that he loves Xylander for his candour, probity and honesty, and cites it as Plutarchi Moralia (Oxford 1795), p. cvi. I did not see Wyttenbach's page itself.",
+    "source": "Farquharson 1944, vol. I, Introduction §V, note",
+    "url": "https://archive.org/details/the-meditations-of-the-emperor-marcus-antoninus-1",
+    "status": "checked",
+    "quote": "Xylandrum etiam amo, propter animi ejus candorem, probitatem, honestatem"
+   },
+   {
+    "topic": "Diophantus: the manuscripts",
+    "claim": "Heath states that Xylander used Guelferbytanus Gudianus 1 (15th c.), following Tannery. He adds that Pal. gr. 391 (end of the 16th c.) has German marginal notes showing it was meant for printing and was written by Xylander or for him.",
+    "source": "T. L. Heath, Diophantus of Alexandria (2nd ed., Cambridge 1910), p. 17",
+    "url": "https://archive.org/details/diophantusofalex00heatiala",
+    "status": "checked"
+   },
+   {
+    "topic": "Diophantus: Tannery on Xylander's codex",
+    "claim": "Tannery argues that the codex Xylander borrowed from Andreas Dudith is the Gudianus 1, unless it is lost. He says Pal. gr. 391 was copied by or for Xylander, and that nothing in Xylander's version or commentary points to a source older than the Marcianus.",
+    "source": "P. Tannery, Diophanti Alexandrini opera omnia, vol. II (Leipzig 1895), Prolegomena pp. xxviii–xxix",
+    "url": "https://archive.org/details/diophantialexan01diopgoog",
+    "status": "checked",
+    "quote": "descriptum igitur fuisse vel a Xylandro ipso vel Xylandri cura"
+   },
+   {
+    "topic": "Diophantus: Tannery's use of Xylander",
+    "claim": "Tannery says Xylander's Latin translation (Basel 1575) was of hardly any use to him. He notes that the Palatine copy (Pal. gr. 391) had been prepared by Xylander for printing.",
+    "source": "Tannery, Diophanti Alexandrini opera omnia, vol. I (Leipzig 1893), Praefatio pp. iv–v",
+    "url": "https://archive.org/details/diophantialexan01plangoog",
+    "status": "checked",
+    "quote": "Xylandri interpretatio latina ... vix mihi usui fuit"
+   },
+   {
+    "topic": "Diophantus: Pal. gr. 391 described",
+    "claim": "Stevenson describes Pal. gr. 391 (16th c.) as Diophantus' Arithmetica with Planudes' scholia and a few German annotations, some in the margin and some in the text itself, plus De polygonis numeris.",
+    "source": "Stevenson, Codices manuscripti Palatini Graeci (1885), p. 251",
+    "url": "https://archive.org/details/codicesmanuscrip00stevuoft",
+    "status": "checked"
+   },
+   {
+    "topic": "Method: textual criticism and mathematics (Diophantus preface)",
+    "claim": "In his 1575 preface (quoted by Heath) Xylander says he found everything wonderfully corrupt, especially the numbers of both problems and solutions. He says the struggle against copyists' carelessness was nothing new to him, as his Dio, Plutarch, Strabo and Stephanus show.",
+    "source": "Xylander, Diophanti Alexandrini Rerum arithmeticarum libri sex (Basel 1575), Epistola nuncupatoria, as quoted by Heath 1910, p. 24 n. 1",
+    "url": "https://archive.org/details/diophantusofalex00heatiala",
+    "status": "checked",
+    "quote": "neque enim mihi novum aut insolens est aduersus librariorum incuriam certamen"
+   },
+   {
+    "topic": "Diophantus: Heath's appreciation",
+    "claim": "Heath calls Xylander's achievement 'quite inadequately appreciated' and quotes Nesselmann that it was 'a highly meritorious achievement' despite a single faulty manuscript. He judges Bachet's disparagement of Xylander unfair and calls it 'the great blot' in Bachet's edition.",
+    "source": "Heath 1910, pp. 25–26",
+    "url": "https://archive.org/details/diophantusofalex00heatiala",
+    "status": "checked",
+    "quote": "the great blot in Bachet's otherwise excellent edition"
+   },
+   {
+    "topic": "Diophantus: Bachet's criticism",
+    "claim": "Heath reports that Bachet (1621) said Xylander barely touched much of Book V, all of Book VI and the polygonal numbers. Bachet claimed his corrections changed Xylander's version so much that it was almost fairer to call the translation his own.",
+    "source": "Heath 1910, pp. 27–28",
+    "url": "https://archive.org/details/diophantusofalex00heatiala",
+    "status": "checked"
+   },
+   {
+    "topic": "Diophantus: notation",
+    "claim": "Heath notes that in the notes to his 1575 translation (p. 76) Xylander already used a symbol for equality, two short vertical parallel lines (||).",
+    "source": "Heath 1910, p. 48",
+    "url": "https://archive.org/details/diophantusofalex00heatiala",
+    "status": "checked"
+   },
+   {
+    "topic": "Diophantus: ADB/Cantor",
+    "claim": "Schöll says later editors often disparaged this 'versio princeps', but that M. Cantor recognised that, with a single very defective manuscript, Xylander did great and far from useless work, applying the critical skill he had gained on Dio, Plutarch, Strabo and Stephanus.",
+    "source": "Schöll, ADB 44 (1898), pp. 590–591",
+    "url": "https://de.wikisource.org/wiki/ADB:Xylander,_Wilhelm",
+    "status": "checked"
+   },
+   {
+    "topic": "Method: Euclid as authority (Psellus 1556)",
+    "claim": "In his note 'Lectori candido' before the Annotationes to Psellus, Xylander says that in the margin he has usually noted where Euclid, 'princeps in his rebus', treats the same matters.",
+    "source": "Pselli ... liber de quatuor mathematicis scientiis (Basel: Oporinus, 1556), Annotationes, 'Lectori candido', p. 118 (BSB A.gr.b. 3057, scan 120)",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10170656?page=120",
+    "status": "checked",
+    "quote": "In margine quidem fere, ubi Euclides, princeps in his rebus, eadem tractaret, annotaui."
+   },
+   {
+    "topic": "Method: Euclid margins (Psellus 1556)",
+    "claim": "In the arithmetic section of the Latin translation, the margins give references such as 'Euclides li. 7' and 'Euclid. li. 5' together with worked numerical examples. In the geometry section they cite, for example, 'Euclid. lib. 1 propos. 29'.",
+    "source": "Psellus 1556, Latin p. 23 (scan 25; image checked) and p. 57 (scan 59; MDZ OCR)",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10170656?page=25",
+    "status": "checked"
+   },
+   {
+    "topic": "Method: asterisk-keyed marginal conjectures (Psellus 1556, Greek)",
+    "claim": "In the Greek text of the Psellus, a word is marked with an asterisk and a conjecture is given in the margin. On geometry p. 52, against πεντάγωνου γωνίας ὀρθῆς καὶ * πέμπτου, the margin reads '* Forte ἐπὶ πέμπτον' (a mathematically motivated reading). On p. 49 '* ἅτε' is proposed against ἄτερ.",
+    "source": "Psellus 1556, Greek part, pp. 49 and 52 (scans 215, 218; images checked; music section not consulted)",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10170656?page=218",
+    "status": "checked",
+    "quote": "* Forte ἐπὶ πέμπτον"
+   },
+   {
+    "topic": "Method: correcting by the standards of the discipline (astronomy)",
+    "claim": "In his Psellus notes on astronomy, Xylander declares a passage corrupt on astronomical grounds: the polar circles are described from the poles of the zodiac, not from the horizon.",
+    "source": "Psellus 1556, Annotationes p. 162 (scan 164; MDZ OCR)",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10170656?page=164",
+    "status": "checked",
+    "quote": "Non uideo, quomodo hic locus non sit deprauatus, cum constet, Polares circulos à Zodiaci polis, non ab Horizonte describi."
+   },
+   {
+    "topic": "Method: no change without manuscript support",
+    "claim": "Xylander judges the year numbers in Psellus' astronomy to be undoubtedly corrupt and dates Psellus to about 1070 AD using Zonaras. He nevertheless declines to alter the text because he lacks a manuscript against which to check it.",
+    "source": "Psellus 1556, Annotationes p. 162 (scan 164; MDZ OCR)",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10170656?page=164",
+    "status": "checked",
+    "quote": "Nihil tamen habeo quòd mutem, destitutus fide exemplaris."
+   },
+   {
+    "topic": "Psellus 1556: conjecture on the title",
+    "claim": "At the head of his notes on the astronomy section Xylander says that here too the reading of the title is uncertain and proposes an emended Greek title ('Puto legendum ...').",
+    "source": "Psellus 1556, Annotationes p. 161 (scan 163; MDZ OCR)",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10170656?page=163",
+    "status": "checked",
+    "quote": "inscriptionis hic quoque non constat. Puto legendum"
+   },
+   {
+    "topic": "Psellus 1556: a presentation copy (autograph)",
+    "claim": "The BSB copy of the Psellus (A.gr.b. 3057) has a handwritten inscription on the title page to 'Clarissimo viro D[omi]no Jo. Hainrico Herwarto ...', partly covered by a library label. A later library note on the flyleaf reads 'mit Xylander's Autograph'. Herwart is the Augsburg councillor who, according to the ADB, took Xylander into his house.",
+    "source": "Psellus 1556, BSB A.gr.b. 3057, flyleaf and title page (scans 2–3); ADB 44, p. 583",
+    "url": "https://www.digitale-sammlungen.de/en/view/bsb10170656?page=3",
+    "status": "checked",
+    "quote": "mit Xylander's Autograph"
+   },
+   {
+    "topic": "Stephanus of Byzantium",
+    "claim": "Meineke uses the siglum X for Xylander's edition of Stephanus (Basel 1568) and calls him the author of the so-called vulgate.",
+    "source": "A. Meineke, Stephani Byzantii Ethnicorum quae supersunt, vol. I (Berlin 1849), Praemonitum p. vi",
+    "url": "https://archive.org/details/bub_gb_0NIPAAAAQAAJ",
+    "status": "checked",
+    "quote": "X Xylander, vulgatae quam dicunt auctor habendus"
+   },
+   {
+    "topic": "Histories of scholarship: Sandys",
+    "claim": "Sandys says Xylander, as professor of Greek and librarian at Heidelberg from 1558, produced the editio princeps of Marcus Aurelius, which Sandys dates to 1558, and important editions of Plutarch, Strabo and Stephanus of Byzantium. He 'made good use of the MSS accessible to him' and showed 'a singular acumen in the emendation of texts'.",
+    "source": "J. E. Sandys, A History of Classical Scholarship, vol. II (Cambridge 1908), p. 270 (also the table of editiones principes, pp. 104–105)",
+    "url": "https://archive.org/details/historyofclassic02sandiala",
+    "status": "checked",
+    "quote": "a singular acumen in the emendation of texts"
+   },
+   {
+    "topic": "Histories of scholarship: Bursian",
+    "claim": "Bursian names as Xylander's most important achievements the Latin translations of Cassius Dio (1558), Plutarch (1560–70) and Strabo (1571), made 'mit Benutzung handschriftlicher Hülfsmittel'. He says their short notes contain numerous emendations attesting his acumen and his knowledge of Greek usage and ancient history.",
+    "source": "Bursian, Geschichte der classischen Philologie in Deutschland I (1883), p. 228",
+    "url": "https://archive.org/details/geschichtedercl01burs/page/228",
+    "status": "checked",
+    "quote": "zahlreiche Emendationen des griechischen Textes, welche ebenso sehr von dem Scharfsinne Xylander's ... Zeugniß geben"
+   },
+   {
+    "topic": "Histories of scholarship: Bursian on the Marcus and minor works",
+    "claim": "Bursian calls the Marcus edition (which he dates Zurich 1558) the editio princeps 'nach einer jetzt, wie es scheint, verlornen Heidelberger Handschrift'. He rates Xylander's work on Homer, Euripides, Theocritus and Horace as of far less importance, and says Rhodoman's Diodorus soon eclipsed Xylander's.",
+    "source": "Bursian I (1883), pp. 228–229",
+    "url": "https://archive.org/details/geschichtedercl01burs/page/229",
+    "status": "checked"
+   },
+   {
+    "topic": "Histories of scholarship: Bursian comparing Sylburg",
+    "claim": "Bursian judges Sylburg equal to Xylander in tireless activity and in 'glücklicher Divinationsgabe', but superior in care, accuracy and fineness of observation of Greek usage. The ADB repeats this comparison.",
+    "source": "Bursian I (1883), p. 229; Schöll, ADB 44, p. 592",
+    "url": "https://archive.org/details/geschichtedercl01burs/page/229",
+    "status": "checked",
+    "quote": "an glücklicher Divinationsgabe ebenbürtig"
+   },
+   {
+    "topic": "Histories of scholarship: Bursian's dating of the Psellus",
+    "claim": "Bursian dates Xylander's Latin Psellus 'Augsburg 1554 u. ö.'. This conflicts with the Basel (Oporinus) 1556 edition (BSB, VD16 M 5144), with Xylander's dedication to Ulrich Fugger (dated Augsburg, Nov. 1556, according to the ADB) and with Wilamowitz ('Basel 1556').",
+    "source": "Bursian I (1883), p. 229; Schöll, ADB 44, p. 583",
+    "url": "https://archive.org/details/geschichtedercl01burs/page/229",
+    "status": "checked"
+   },
+   {
+    "topic": "Reputation: Scaliger and Thuanus",
+    "claim": "Schöll traces the story that drink hastened Xylander's death to the Scaligerana ('sed quoties erat ebrius', II p. 155) and Thuanus ('intemperantia vitae accelerata'). He rejects it for lack of any support in the university annals or church-council records.",
+    "source": "Schöll, ADB 44 (1898), pp. 591–592",
+    "url": "https://de.wikisource.org/wiki/ADB:Xylander,_Wilhelm",
+    "status": "checked",
+    "quote": "Xylander Augustanus doctus erat et bene legerat: sed quoties erat ebrius"
+   },
+   {
+    "topic": "State of research (1898)",
+    "claim": "Schöll states that no even moderately complete treatment of Xylander's life and work exists. His main sources are the university records and Xylander's own prefaces and dedications. He also cites L. Kayser, Festschrift zur 24. Versammlung deutscher Philologen (1865), pp. 139 ff., and M. Cantor, Vorlesungen über Geschichte der Mathematik II (1892), pp. 507 ff.",
+    "source": "Schöll, ADB 44 (1898), p. 593",
+    "url": "https://de.wikisource.org/wiki/ADB:Xylander,_Wilhelm",
+    "status": "checked",
+    "quote": "Eine auch nur einigermaßen vollständige Behandlung des Lebens und Wirkens von X. gibt es nicht."
+   }
+  ],
+  "sources_tried_without_result": "- Padua thesis 'Prolegomeni a un nuovo testo di Marco Aurelio A se stesso I–VI' (thesis.unipd.it): blocked by a Cloudflare 'Just a moment' bot check. I did not try to get past it.\n- Heidelberg digital library page for Cod. Pal. graec. 398 (digi.ub.uni-heidelberg.de): blocked by the Anubis bot protection.\n- Morgan Library record for the 1558 Marcus (themorgan.org/printed-books/175242): HTTP 403.\n- Schenkl's 1913 Teubner edition on archive.org (markouantninouau00marcuoft): the OCR is unusable (Latin read as Greek). Schenkl's arguments are therefore reported only through Farquharson.\n- Pfeiffer, History of Classical Scholarship 1300–1850 (archive.org historyofclassic0000pfei): lending-library copy only; my attempt at a full-text search inside it was refused by the permission system, so it was not read.\n- Google Books API: daily quota exceeded.\n- Kayser's 1865 Heidelberg Festschrift article (pp. 139 ff.): no digitised copy found.\n- Wyttenbach's Plutarchi Moralia (Oxford 1795), vol. I Praefatio p. cvi: none of the 1795 volumes I checked on archive.org contained the passage. It is reported only as quoted by Farquharson.\n- LacusCurtius (Loeb Moralia introduction): connection refused.\n- attalus.org: no information on the source of the Moralia pagination.\n- Web searches for the views of Dalfen (Teubner 1979/1987), Hadot (Budé 1998) and Ceporina on Xylander and the lost T/P manuscript, and for Kraye's 'Ethnicorum omnium sanctissimus' chapter, found no readable text.\n- The Wilamowitz text (Gercke–Norden 1921) was read in poor OCR. Page numbers 21 and 30 are inferred from OCR page markers.",
+  "open_questions": "1. Pfeiffer (1976): does he discuss Xylander, and how does he judge him? Not checked.\n2. Dalfen, Hadot and Ceporina: their exact views on the lost Marcus manuscript (T/P), on Toxites, and on how far Xylander's Greek text and Latin version can be trusted. Not seen. The same goes for Schenkl's own wording (1913 Praef. pp. viii–ix; Berliner philologische Wochenschrift 1914) and Kraye's chapter (2000/2002).\n3. Date of the librarianship: 1558 (Bursian, Sandys) or 1561 (ADB)? The logic chair: 1562 (Bursian) or early 1563 (ADB)? This needs the Heidelberg university records (Hautz; Töpke's Matrikel).\n4. Cassius Dio: Bursian says Xylander used manuscript aids, while Boissevain names only Robert Estienne's printed edition as his base. Did Xylander consult any Dio manuscript, Palatine or other?\n5. Stephanus of Byzantium (1568): did Xylander use the two Palatine manuscripts later collated by Salmasius? Meineke says nothing about this.\n6. Strabo: Kramer's 'Epitome Palatina' fits Pal. gr. 398, which contains a Strabo chrestomathy (Stevenson). Explicit confirmation that Xylander used this codex for Strabo is still needed, for example from Diller (1975) or Radt.\n7. Plutarch: does the standard Moralia pagination ('wir zitieren noch alle nach den Seiten dieser Ausgabe', Wilamowitz) derive from the Frankfurt 1599 Greek-Latin edition with Xylander's version? Not verified.\n8. Statistics: there is no reliable count of Xylander's conjectures accepted by modern editors of Dio, Strabo, Plutarch or Marcus. The Boissevain figure is only a rough OCR count of the siglum. Schenkl's 36/44 figure is known only through Farquharson.\n9. Xylander's sign system: asterisks keying marginal conjectures are confirmed in the Marcus (1558) and the Psellus (1556, non-music sections only). I found no daggers, 'addo' or 'delenda' in the non-music parts of the Psellus or in the 1558 Marcus notes. The music section was deliberately not consulted.\n10. The BSB Psellus copy A.gr.b. 3057, a presentation copy to Johann Heinrich Herwart: the full inscription is partly hidden under a library label, and nobody has yet checked whether the copy contains annotations in Xylander's hand.\n11. Wyttenbach's tribute (Moralia, Oxford 1795, p. cvi) and Gesner's 1562 letter to Turner have not been verified in the originals."
+ },
+ "verify": {
+  "checks": [
+   {
+    "index": 0,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/geschichtedercl01burs/geschichtedercl01burs_djvu.txt",
+    "note": "Checked p. 228. Bursian says 'Holtzmann', born Augsburg 26 Dec. 1532, studied at Tübingen 1549–1556. 'im Jahre 1558 als Nachfolger des Micyllus die Professur der griechischen Sprache und die Stelle des Bibliothekars an der kurfürstlichen Bibliothek in Heidelberg, 1562 die Professur der Logik' and died 10 Feb. 1576. The quotation matches."
+   },
+   {
+    "index": 1,
+    "verdict": "confirmed",
+    "url_used": "https://de.wikisource.org/w/api.php?action=parse&page=ADB:Xylander,_Wilhelm",
+    "note": "Checked ADB p. 587: 'Im J. 1561 war er ferner als Bibliothekar an der kurfürstlichen Bibliothek angestellt worden mit einer Besoldung von 20 fl.' The conflict is real: Bursian p. 228 and Sandys II p. 270 both give 1558."
+   },
+   {
+    "index": 2,
+    "verdict": "corrected",
+    "url_used": "https://de.wikisource.org/w/api.php?action=parse&page=ADB:Xylander,_Wilhelm",
+    "correction": "The ADB text (Wikisource transcription) reads 'publicus Organi Aristotelij interpres', not 'Aristotelici'.",
+    "note": "Otherwise confirmed on p. 588. Xylander was moved to an actual exchange of chairs with Hermann Witekind at the beginning of 1563, at the Senate's urgent wish, and was the first public professor of logic at Heidelberg (Schöll cites Wundt). Bursian p. 228 gives 1562, as the claim says."
+   },
+   {
+    "index": 3,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/codicesmanuscrip00stevuoft/codicesmanuscrip00stevuoft_djvu.txt",
+    "note": "The Pal. gr. 396 entry runs from p. 253 to p. 254: 'Gulielmum Xylandrum, (Bibliothecae Palatinae tunc temporis praefectum), hunc codicem sibi perlegendum Tubingae commodasse, sua ipsius manu testatur in fine Martinus Crusius, anno 1575.' The codex is Chalcocondyles."
+   },
+   {
+    "index": 4,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/codicesmanuscrip00stevuoft/codicesmanuscrip00stevuoft_djvu.txt",
+    "note": "The Pal. gr. 398 entry runs pp. 254–256 (membr., saec. X ineunt.). It contains the Strabo Chrestomathy, Antoninus Liberalis ('Edid. primum ex hoc cod. Guil. [Xylander, OCR garbled], Basil. 1568') and Phlegon. For Phlegon p. 256 reads: 'Edid. primum ex hoc codice, una cum fragmento de Olympiis et Antigoni Apolloniique mirabilibus, Guil. Xylander, Basil. 1568.'"
+   },
+   {
+    "index": 5,
+    "verdict": "confirmed",
+    "url_used": "https://www.e-rara.ch/i3f/v20/698326/full/full/0/default.jpg",
+    "note": "The e-rara zoom page showed a browser check, so I did not use it. I read the same page image through e-rara's IIIF image server instead. Printed p. 3 matches the quotation. It adds that he translated them 'superiore anno, cum ociosus Augustae essem'. Title page (IIIF 698324): 'BASILEAE, per Thomam Guarinum, M.D.LXVIII'."
+   },
+   {
+    "index": 6,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10169588_00007/full/900,/0/default.jpg",
+    "note": "Image checked. The title reads 'E BIBLIOTHECA ILLVSTRISSIMI principis Othonis Henrici', 'TIGVRI APVD ANDREAM Gesnerum F.' There is no printed date, only a handwritten '(1558)'. The MDZ record gives VD16 M 963, A.gr.b. 350, date 1558. Caution: Farquharson's transcription of the Latin title (Introd. §VI, Bywater's Bodleian copy) ends 'Gesnerum F. M.D.LIX.', so copies may differ."
+   },
+   {
+    "index": 7,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10169588_00016/full/900,/0/default.jpg",
+    "note": "Images of scans 9 and 16 checked. Addressee: 'GEORGIO A STETTEN IVNIORI, PATRICIO AVGVSTANO'. The text says he translated 'instinctu CORRADI GESNERI'. Dated 'Heidelbergae Calendis Octobribus. Anno salutis 1558'."
+   },
+   {
+    "index": 8,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10169588_00296/full/900,/0/default.jpg",
+    "note": "Image checked, Greek part p. 12: 'Ἐκ τῆς τῶν Τιγουρίνων πόλεως ... ἔτει σωτηρίας αφνθ', Φεβρουαρίου μηνὸς μεσοῦντος'. The heading on scan 287 confirms the addressee: 'Εὐγενεστάτῳ ἀνδρὶ Ἀντωνίῳ Βερθήρῳ Βεχλίγγης δεσπότῃ Κονρᾶδος Γεσνῆρος' (Anton Werther, lord of Bechlingen)."
+   },
+   {
+    "index": 9,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10169588_00294/full/900,/0/default.jpg",
+    "note": "Image checked, Greek p. 10: 'τούτου τὰ βιβλία παρὰ καλοῦ κἀγαθοῦ ἀνδρὸς Μιχαήλου Τοξίτου, ποιητοῦ εὐφυεστάτου (ἐκ τῆς Ὄθωνος Εἰνρείχου τοῦ Παλατίνου ἄρχοντος λαμπροτάτης βιβλιοθήκης) λαβών'."
+   },
+   {
+    "index": 10,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10169588_00010/full/900,/0/default.jpg",
+    "note": "Images of scans 10 and 14 checked. Scan 10: 'libellos hos ANTONINI (ut quidem in nostras ii manus peruenerunt) esse mutilos, misereque & maiore sui parte decurtatos'. Scan 14 (printed p. 24) is softer than the claim's 'expects': 'Neque vero metuo ne quis hanc editionem sit insectaturus, nisi si ii sint extituri, qui librum mutilum & plerisque locis interruptum interpolatumque indigne sint laturi lectoribus offerri'. He does not fear an attack, except from those who would object to this."
+   },
+   {
+    "index": 11,
+    "verdict": "corrected",
+    "url_used": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10169588_00015/pct:0,38,100,20/1200,/0/default.jpg",
+    "correction": "The print reads 'in quibusdam me vel ut diuinarem opus habuisse, vel audacter à codice Graeco aut vsu communi discessisse'. That is 'vel ut diuinarem', not 'velut diuinare', and 'usu communi', not 'sensu communi'. Farquharson's note (p. 25 'i.e. p. 9') also reads 'usu communi'.",
+    "note": "Image zoomed. The printed page number on scan 15 is 25. The rest is confirmed: 'Verba appendere ad trutinam neque volui, neque vero debui: sensum quidem secutus sum'; 'annotatiunculis (eram enim occupatior, quam commentandi otium suppeteret) aliquando consului'."
+   },
+   {
+    "index": 12,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10169588_00229/full/900,/0/default.jpg",
+    "note": "Image checked. The note is on 'Erga priuatos)': 'quod in Graeco sequitur, καὶ τὸ ἀθεώρητον τῶν οἰομένων, conuertissem, si intellexissem. Malui itaque asterisco notare, quàm arroganter aliquid facere.'"
+   },
+   {
+    "index": 13,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10169588_00230/full/900,/0/default.jpg",
+    "note": "Image checked: 'soleo asterisco notare, quae manca suspicer ... mutilus est locus.' 'diuinaui hoc loco' (on 'Non utebatur alieno tempore.)') is on the same page, not elsewhere."
+   },
+   {
+    "index": 14,
+    "verdict": "corrected",
+    "url_used": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10169588_00231/full/900,/0/default.jpg",
+    "correction": "The passage 'ἡ δὲ ψυχὴ ῥόμβος / ῥεμβός' is Meditations 2.17, not 2.7. Xylander supports ῥεμβός by Marcus' own 'παῦσαι ῥεμβόμενος' 'sub initium libri huius', which is 2.7. Leopold's 1908 apparatus at 2.17 independently gives 'ῥόμβος P adscripto ῥεμβὸς'.",
+    "note": "Images of scans 231 and 233 checked, so scan 233 is no longer OCR-only. Scan 231: 'Est autem altera lectio annotata ῥεμβός, quam probaui, & secutus sum'. Scan 233 ('Oliuis maturissimis', = 3.2 δρυπεπεῖς/δρυπετεῖς): '(quae lectio erat in margine annotata)'."
+   },
+   {
+    "index": 15,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10169588_00230/full/900,/0/default.jpg",
+    "note": "Image checked: 'Haec in Quadis.) puto solitum annotare, quibus in locis singula esset commentatus. sic ad finem libri secundi est, Carnunt[i] ea esse scripta. Sequentia cum prioribus non cohaerent.'"
+   },
+   {
+    "index": 16,
+    "verdict": "confirmed",
+    "url_used": "https://www.e-rara.ch/i3f/v20/698327/full/full/0/default.jpg",
+    "note": "Images of pp. 3–4 checked through IIIF. The quotation is exact. The 1568 title page also says the Marcus books are 'ab innumeris quibus antea scatebant mendis repurgati, & nunc demum vere editi'."
+   },
+   {
+    "index": 17,
+    "verdict": "confirmed",
+    "url_used": "https://www.e-rara.ch/i3f/v20/698327/full/full/0/default.jpg",
+    "note": "Image checked, p. 4. The quotation matches ('transsumtum'). Nuance: the main clause itself asserts 'Cum enim ex eodem omnia haec opuscula penu sint deprompta'. Gesner's 'affirmauit' is given in parentheses as the warrant for this. The reading 'he does not claim to know this himself' is Schenkl's, as reported by Farquharson (Introd. §V, citing BphW 1914 col. 485)."
+   },
+   {
+    "index": 18,
+    "verdict": "confirmed",
+    "url_used": "https://www.e-rara.ch/i3f/v20/698328/full/full/0/default.jpg",
+    "note": "Image checked, p. 5: 'emendaui Praefationem, Graeca Latinaque autoris verba, Annotationesque ... & nonnulla loca translationis meae recognita correxi, Annotationumque auxi'. The quotation is exact ('coniiciendo'). Farquharson cites this as 'p. 4', but it is on p. 5."
+   },
+   {
+    "index": 19,
+    "verdict": "confirmed",
+    "url_used": "https://www.e-rara.ch/i3f/v20/698326/full/full/0/default.jpg",
+    "note": "Image checked, p. 3: 'quos (quanquam ἐκλογὰς potius operis, quàm ipsum opus, ipsosque integros libros esse iudico) ante annos ferè nouem à me Latinos factos'. Farquharson §VIII (Printed Editions): Barthius 'first expressed the view that what has been preserved is merely a collection of extracts'. In §X Farquharson adds that Casaubon sometimes refers to Xylander as though he held this opinion."
+   },
+   {
+    "index": 20,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/the-meditations-of-the-emperor-marcus-antoninus-1/The_Meditations_of_the_Emperor_Marcus_Antoninus%20%281%29_djvu.txt",
+    "note": "§V: 'Xylander, as he states in his notes, made a few corrections of the manuscript text, and these were most, not quite all, adopted by Gesner ... silently suggesting a good many emendations. This is the same scrupulous regard for the manuscript text which he observed in his edition of Plutarch (Vitae 1560, Moralia 1570).'"
+   },
+   {
+    "index": 21,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/the-meditations-of-the-emperor-marcus-antoninus-1/The_Meditations_of_the_Emperor_Marcus_Antoninus%20%281%29_djvu.txt",
+    "note": "§VII confirms 36 corrected and 44 overlooked 'generally graver' errors. Farquharson gives two reasons, not just one. First, 'he was now working on the printed text and no longer had the manuscript to consult'. Second, as 'an at least plausible explanation of his apparent negligence', that Xylander 'was anxious to preserve, so far as possible, the text of the original manuscript'."
+   },
+   {
+    "index": 22,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/the-meditations-of-the-emperor-marcus-antoninus-1/The_Meditations_of_the_Emperor_Marcus_Antoninus%20%281%29_djvu.txt",
+    "note": "§V and its notes: Schenkl ed. maj. 1913, Praef. pp. viii–ix: 'est cod. Pal. Gr. 404 (fol. 73-101)'. Also cited: BphW 1914 col. 485. Farquharson's counter-arguments: the printer's note 'cum in eodem codice manuscripto M. Antonini libris, Marini Proclus quoque contineretur'; the Vatican MS was written by Andreas Darmarius in Madrid for Julius Pacius in 1579; and the first edition stops at ch. 22, while Pacius' MS has all 38 chapters."
+   },
+   {
+    "index": 23,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/thecommuningswit00marcuoft/thecommuningswit00marcuoft_djvu.txt",
+    "note": "Introd. p. xv: 'the Codex Palatinus (P) first printed in 1558 by Xylander but now lost'. Bibliography: 'Xyl.—The premier edition from the lost Palatine MS., issued in 1558'. Sigla, p. xxii/xxiii: 'P = Codex Palatinus (Xylander), = T (Schenkl).'"
+   },
+   {
+    "index": 24,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/mantoninusimpera00marcuoft/mantoninusimpera00marcuoft_djvu.txt",
+    "note": "Praefatio p. iii. The quotation is exact. The note quotes Xylander's 1568 complaint and Schultz (praef. ed. ii, p. iv): 'quem typis exscribi curavit Guil. Xylander, sed non admodum diligenter'. Leopold says 'a. 1558 edidit' on p. iii but 'Turici prodierat a. 1559' on p. vi."
+   },
+   {
+    "index": 25,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/mantoninusimpera00marcuoft/mantoninusimpera00marcuoft_djvu.txt",
+    "note": "Note 1 to p. vi, continued on p. vii: 'In P singula capita non nisi rarissime distinguuntur, attamen Xylander in versione contextum eodem fere modo quo sequentes editores in capita diviserat; traditam hanc divisionem plerumque comprobat A.' Leopold credits the Lyon 1626 anonymous edition as the first to divide the books into chapters."
+   },
+   {
+    "index": 26,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/markouantninoua00marc/markouantninoua00marc_djvu.txt",
+    "note": "p. V: 'primum editus est a Guilielmo Xylandro a. 1558 Tiguri e codice Palatino, qui nunc amissus putari debet'. p. VII: 'minime hunc Vaticanum eundem esse atque illum Palatinum, si comparamus huius vitiositatem cum illius integritate'. Stich also notes that Vat. gr. 1950 came to the Vatican as a bequest of Abbot Gradi, not from the Palatina."
+   },
+   {
+    "index": 27,
+    "verdict": "corrected",
+    "url_used": "https://archive.org/download/markouantninoua00marc/markouantninoua00marc_djvu.txt",
+    "correction": "On p. XIV Stich writes 'dubitabam' (past tense): he had doubted, and earlier judged the title spurious. He now says 'cautius nunc statuere velim', because he found the same title, with αὐτοκράτορος, in another manuscript (siglum unclear in the OCR, probably 'Mo 1') that does not derive from ed. I.",
+    "note": "p. XV is confirmed: 'Divisio in XII libros maxime fide editionis I nititur, tamen in cod. A quoque vestigia huius divisionis reperiuntur.'"
+   },
+   {
+    "index": 28,
+    "verdict": "confirmed",
+    "url_used": "https://classicalstudies.org/xylander%E2%80%99s-latin-translation-marcus-aurelius",
+    "note": "WebFetch got 403; curl with a browser user-agent returned the page. The page has Session/Paper 29.1, Annual Meeting 149. It says Xylander's primary source for Stoic terminology 'was Cicero (and not Seneca)'. It says Casaubon's edition 'was almost entirely a reprint of Xylander's 1568 edition'. It quotes Kraye (2002, 109): 'The problems start on the title page…'. The abstract itself wrongly says the MS was 'found by his friend Conrad Gessner'."
+   },
+   {
+    "index": 29,
+    "verdict": "confirmed",
+    "url_used": "https://de.wikisource.org/w/api.php?action=parse&page=ADB:Xylander,_Wilhelm",
+    "note": "p. 584: 'als editio princeps ... und als Vertreterin eines seitdem verschollenen Heidelberger Codex: sie hat aber erhebliche Mängel, auch durch den flüchtigen Druck, der zehn Jahre später X. selbst zu einer Revision veranlaßte.'"
+   },
+   {
+    "index": 30,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/cassiidionishist01cassuoft/cassiidionishist01cassuoft_djvu.txt",
+    "note": "Praefatio p. XCII: 'Xylander Dionem, R. Stephani editione usus ... corruptelas permultas rectissimo iudicio sanavit. Cumque praeterea libros 57—60, in duos adhuc contractos, diviserit in quattuor, indicemque rerum primus adiecerit, bene de Dione meruisse putandus est ... viginti tantum et quinque annos natus intra septem menses, impellente dura paupertate'."
+   },
+   {
+    "index": 31,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/cassiidionishist01cassuoft/cassiidionishist01cassuoft_djvu.txt",
+    "note": "p. XCII. The title transcription reads: 'Iidem libri Dionis ac Xiphilini seorsim Graecé quoque eduntur, accuraté ab eodem emendati.1)'. Note 1: 'Quod numquam factum est.' Colophon: Basel, Oporinus, March 1558. Bursian's 'mit Benutzung handschriftlicher Hülfsmittel' covers the Dio, Plutarch and Strabo translations together."
+   },
+   {
+    "index": 32,
+    "verdict": "corrected",
+    "url_used": "https://archive.org/download/cassiidionishist02cassuoft/cassiidionishist02cassuoft_djvu.txt",
+    "correction": "97 and 233 are case-insensitive counts of the string 'xyl'. They include full forms such as Xylander/Xylandro (9 in vol. I, 5 in vol. II). Strict 'Xyl.' with a full stop gives 53 (vol. I) and 213 (vol. II). 'Xyl' followed by a space or punctuation gives 87 and 224.",
+    "note": "I recounted on freshly downloaded OCR of both volumes. The figures remain only indicative."
+   },
+   {
+    "index": 33,
+    "verdict": "confirmed",
+    "url_used": "https://de.wikisource.org/w/api.php?action=parse&page=ADB:Xylander,_Wilhelm",
+    "note": "p. 584: 'Den Dio hatte X. im J. 1557 in sieben Monaten übersetzt: und trotz dieser eiligen Arbeit finden sich in der Uebersetzung und in den Anmerkungen zu Dio und Xiphilin eine große Anzahl Emendationen, zum Theil von bleibendem Werth.'"
+   },
+   {
+    "index": 34,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/strabonisgeogra04kramgoog/strabonisgeogra04kramgoog_djvu.txt",
+    "note": "Praefatio pp. v–vi: 'Xylander enim, qui primus ad emendandos Strabonis libros accessit, quum praeter Epitomen Palatinam, egregiam quidem illam, sed breviorem ... nullum haberet codicem manu scriptum, innumerabilia quidem sustulit Aldinae menda ea, quae docto lectori facile se offerebant, sed ea, quae altioris erant investigationis ac magis recondita, intacta reliquit tantum non omnia.'"
+   },
+   {
+    "index": 35,
+    "verdict": "confirmed",
+    "url_used": "https://de.wikisource.org/w/api.php?action=parse&page=ADB:Xylander,_Wilhelm",
+    "note": "p. 587: 'Trotz der Eilfertigkeit und Flüchtigkeit, welche Casaubonus dieser Arbeit zum Vorwurf machte, haben sich auch hier nicht wenige Emendationen des X. bewährt und gehalten.'"
+   },
+   {
+    "index": 36,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/bub_gb_nrQzAQAAMAAJ/bub_gb_nrQzAQAAMAAJ_djvu.txt",
+    "note": "p. 21: 'Xylander für Plutarch (wir zitieren noch alle nach den Seiten dieser Ausgabe) und Marc Aurel, den er zuerst druckte'. This is among German 16th-c. editions 'von dauerndem Werte'."
+   },
+   {
+    "index": 37,
+    "verdict": "confirmed",
+    "url_used": "https://de.wikisource.org/w/api.php?action=parse&page=ADB:Xylander,_Wilhelm",
+    "note": "p. 586: 'da X. des Französischen nicht mächtig war, half ihm der Jurist Franz Balduin aus, und X. gewahrte mit Vergnügen, daß er oft unabhängig in Verbesserungen mit Amyot übereinstimmte'. Also: 'Nothwendigkeit fami non famae zu schreiben, wie er selbst sagt'; 'nicht geringes für den Text geleistet ... Wyttenbach u. A.'"
+   },
+   {
+    "index": 38,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/the-meditations-of-the-emperor-marcus-antoninus-1/The_Meditations_of_the_Emperor_Marcus_Antoninus%20%281%29_djvu.txt",
+    "note": "Farquharson's note reads: 'Xylandrum etiam amo, propter animi ejus candorem, probitatem, honestatem, quarum virtutum manifesta exstant indicia, cum in scriptis viri, tum in tota ejus vita' Plu. Moralia Oxon. A.D. 1795, p. cvi. I also could not see Wyttenbach's page: two archive.org Wyttenbach volumes I tried do not contain the praefatio."
+   },
+   {
+    "index": 39,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/diophantusofalex00heatiala/diophantusofalex00heatiala_djvu.txt",
+    "note": "p. 17, nos. 11–12. Heath writes 'It seems certain' that Gudianus 1 (15th c.) was Xylander's MS, following Tannery. Pal. gr. 391 (end of 16th c.) 'has notes in German in the margin which show that it was intended to print from it; it was written either by Xylander himself or for him.'"
+   },
+   {
+    "index": 40,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/diophantialexan01diopgoog/diophantialexan01diopgoog_djvu.txt",
+    "note": "Vol. II (Leipzig 1895), Prolegomena pp. xxviii–xxix: 'Nisi ergo statuas Dudithii codicem deperditum esse, certum est illum eundem esse ac Guelferbytanum'. Also: 'Constat autem Xylandri vel interpretationem vel commentarios nihil continere quod antiquiorem Marciano fontem indicet'. On Pal. gr. 391: 'descriptum igitur fuisse vel a Xylandro ipso vel Xylandri cura'."
+   },
+   {
+    "index": 41,
+    "verdict": "corrected",
+    "url_used": "https://archive.org/download/diophantialexan01plangoog/page/n11_w600.jpg",
+    "correction": "The print reads 'vix mihi usu fuit', not 'usui'.",
+    "note": "Page image checked, vol. I (1893) Praefatio p. iv: 'Xylandri interpretatio latina, quae prima Basileae, 1575, prodiit, vix mihi usu fuit'. p. v: Pal. gr. 391 'a Xylandro ut typis mandaretur, paratus fuerat'."
+   },
+   {
+    "index": 42,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/codicesmanuscrip00stevuoft/codicesmanuscrip00stevuoft_djvu.txt",
+    "note": "p. 251, Pal. gr. 391, saec. XVI, fol. 198: Diophantus' Arithmetica with Planudes' scholia, 'et adnotatiunculis aliquot germanice, modo in margine, modo in ipso operis contextu additis'. Also 'Eiusdem, de Polygonis numeris'."
+   },
+   {
+    "index": 43,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/diophantusofalex00heatiala/diophantusofalex00heatiala_djvu.txt",
+    "note": "p. 24 n. 1: 'quod mirifice deprauata omnia inueni ... ac passim numeri ... tam problematum quam solutionum siue explicationum corruptissimi ... neque enim mihi novum aut insolens est aduersus librariorum incuriam certamen ... Dio, Plutarchus, Strabo, Stephanusque nostri testantur.' The Latin names Dio; Heath's English paraphrase leaves it out. Dedication dated 'Heidelbergae postrid. Eidus Sextiles 1574' (p. 25 n. 2)."
+   },
+   {
+    "index": 44,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/diophantusofalex00heatiala/diophantusofalex00heatiala_djvu.txt",
+    "note": "p. 25: 'quite inadequately appreciated'. p. 26: Nesselmann's 'a highly meritorious achievement'; 'it is the great blot in Bachet's otherwise excellent edition that he did not see fit to acknowledge the fact'."
+   },
+   {
+    "index": 45,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/diophantusofalex00heatiala/diophantusofalex00heatiala_djvu.txt",
+    "note": "pp. 27–28: Xylander 'scarcely touched a considerable part of the fifth book, the whole of the sixth and the treatise on multangular numbers'. Also: 'it is almost fairer to attribute the translation to me than to Xilander'."
+   },
+   {
+    "index": 46,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/diophantusofalex00heatiala/diophantusofalex00heatiala_djvu.txt",
+    "note": "p. 48: 'in the notes to his earlier translation (1575) Xylander had already used a symbol to denote equality, namely ||, two short vertical parallel lines. Thus we find, for example (p. 76)'."
+   },
+   {
+    "index": 47,
+    "verdict": "confirmed",
+    "url_used": "https://de.wikisource.org/w/api.php?action=parse&page=ADB:Xylander,_Wilhelm",
+    "note": "pp. 590–591: 'editio oder vielmehr versio princeps ... M. Cantor anerkannt, daß mit seiner einzigen und sehr mangelhaften Handschrift – nach ... Tannery dem jetzigen Wolffenbüttelanus – X. auch hier mit seiner an Dio, Plutarch, Strabo und Stephanus gewonnenen Kritik eine große und keineswegs vergebliche Arbeit gethan hatte.'"
+   },
+   {
+    "index": 48,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10170656_00120/full/900,/0/default.jpg",
+    "note": "Image checked, p. 118, heading 'LECTORI CANDIDO S.' The quotation is exact."
+   },
+   {
+    "index": 49,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10170656_00059/full/900,/0/default.jpg",
+    "note": "Images of both pages checked. p. 23 (scan 25) margins: 'Euclides li. 7.', 'Ut septies 5 sunt 35.', 'Ut 4. 9. 16. 25.', 'Euclid. li. 5.' p. 57 (scan 59) margin: 'Euclid. lib. 1 propos. 29.' The Latin music pages were not opened."
+   },
+   {
+    "index": 50,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10170656_00218/full/900,/0/default.jpg",
+    "note": "Images checked. Greek p. 52: text 'πενταγώνου γωνίας ὀρθῆς, καὶ * πέμπτου', margin '* Forte ἐπὶ πέμπτον'. Greek p. 49: text '* ἄτερ', margin '* ἅτε'. 'Mathematically motivated' is the claimant's interpretation."
+   },
+   {
+    "index": 51,
+    "verdict": "confirmed",
+    "url_used": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10170656_00164/full/900,/0/default.jpg",
+    "note": "Image checked, Annotationes p. 162, lemma 'Finitor dum circumagitur.)'. The quotation is exact."
+   },
+   {
+    "index": 52,
+    "verdict": "corrected",
+    "url_used": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10170656_00164/pct:25,58,75,8/1400,/0/default.jpg",
+    "correction": "The print reads 'Nihil tam habeo quòd mutem, destitutus fide exemplaris'. It has 'tam', not 'tamen' (probably a misprint, but the printed word is 'tam').",
+    "note": "Image zoomed. Also on p. 162: 'Hi numeri annorum hic, & deinde, depravati sunt proculdubio'. He dates Psellus under Diogenes Romanus and as tutor of Michael Ducas, citing Zonaras: 'circa annum mundi 5030, post natum Christum annis circiter 1070'."
+   },
+   {
+    "index": 53,
+    "verdict": "corrected",
+    "url_used": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10170656_00163/pct:5,40,95,10/1400,/0/default.jpg",
+    "correction": "The text reads 'Iambus inscriptionis hic quoque non constat. Puto legendum, ἄθροισις συνοπτὸς ἥδε ἀστρονομίας' (Greek read from the image, accents uncertain). The problem is metrical: the iambic verse of the title does not scan, here too. The claim's 'the reading of the title is uncertain' misses this, and the quotation leaves out 'Iambus'.",
+    "note": "Image zoomed, p. 161, 'IN ASTRONOMIAM'."
+   },
+   {
+    "index": 54,
+    "verdict": "corrected",
+    "url_used": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb10170656_00002/full/900,/0/default.jpg",
+    "correction": "The note 'mit Xylander's Autograph' is written on the inside of the front cover (pastedown), next to the bookplate 'Ex Electorali Bibliotheca Sereniss. Utriusq. Bavariae Ducum'. It is not on a flyleaf.",
+    "note": "Images checked. The title-page inscription reads 'Clarissimo viro Dn̄o Jo. Hainrico Herwarto' and is partly covered by the BSB label. ADB p. 583: 'Eine Zeit lang nahm ihn der Augsburger Rathsherr Joh. Heinr. Herward bei sich auf'."
+   },
+   {
+    "index": 55,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/bub_gb_0NIPAAAAQAAJ/bub_gb_0NIPAAAAQAAJ_djvu.txt",
+    "note": "Praemonitum p. vi, list of sigla: 'X Xylander, vulgatae quam dicunt auctor habendus'. Dated Berlin, April 1849."
+   },
+   {
+    "index": 56,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/historyofclassic02sandiala/historyofclassic02sandiala_djvu.txt",
+    "note": "p. 270: 'who in 1558 succeeded Micyllus as professor of Greek and as librarian at Heidelberg, produced the editio princeps of Marcus Aurelius (1558), and important editions of Plutarch (1560-70), Strabo (1571), and Stephanus of Byzantium (1568). He made good use of the MSS accessible to him, and also gave proof of a singular acumen in the emendation of texts.' The editiones principes table lists 1558 Marcus Aurelius, 'Xylander et C. Gesner', And. Gesner. The index puts the table at p. 104 f.; I did not pin the exact page."
+   },
+   {
+    "index": 57,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/geschichtedercl01burs/geschichtedercl01burs_djvu.txt",
+    "note": "p. 228: 'die mit Benutzung handschriftlicher Hülfsmittel für die Verbesserung des Urtextes gefertigten lateinischen Uebersetzungen des Cassius Dio (Basel 1558), der sämmtlichen Werke des Plutarch (Frankfurt a. M. 1560–70) und der Geographie des Strabo (Basel 1571)'. Also: 'zahlreiche Emendationen ... von dem Scharfsinne Xylander's als von seiner tüchtigen Kenntniß des griechischen Sprachgebrauchs und der alten Geschichte Zeugniß geben'."
+   },
+   {
+    "index": 58,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/geschichtedercl01burs/geschichtedercl01burs_djvu.txt",
+    "note": "pp. 228–229: Marcus 'Zürich 1558, die editio princeps ... nach einer jetzt, wie es scheint, verlornen Heidelberger Handschrift'; 'Von weit geringerer Bedeutung sind seine Arbeiten zu griechischen Dichtern (Homer, Euripides und Theokritos) und zu Horatius'. It is specifically his Latin translation of Diodorus (Basel 1578) that Rhodoman's eclipsed."
+   },
+   {
+    "index": 59,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/geschichtedercl01burs/geschichtedercl01burs_djvu.txt",
+    "note": "Bursian p. 229: 'Dem Xylander war an rastloser Thätigkeit ... und an glücklicher Divinationsgabe ebenbürtig, an Sorgfalt und Genauigkeit des Arbeitens sowie an Feinheit der Beobachtung des griechischen Sprachgebrauchs noch überlegen Friedrich Sylburg'. ADB p. 592 repeats this in similar terms."
+   },
+   {
+    "index": 60,
+    "verdict": "corrected",
+    "url_used": "https://archive.org/download/bub_gb_nrQzAQAAMAAJ/bub_gb_nrQzAQAAMAAJ_djvu.txt",
+    "correction": "The Wilamowitz point is not supported. The OCR of his Geschichte der Philologie (1921) has no Psellus edition and no '1556', so 'Basel 1556' must come from another source and should be dropped or re-sourced. The other parts hold: Bursian p. 229 has '(Augsburg 1554 u. ö.)'; the MDZ record gives Basel, Oporinus, [1556], VD16 M 5144; ADB p. 583 gives the dedication to Ulrich Fugger as 'Augsburg, November 1556'.",
+    "note": "The MDZ record puts the date in brackets, i.e. not printed on the title page."
+   },
+   {
+    "index": 61,
+    "verdict": "confirmed",
+    "url_used": "https://de.wikisource.org/w/api.php?action=parse&page=ADB:Xylander,_Wilhelm",
+    "note": "pp. 591–592. Schöll quotes Scaligerana II p. 155 and Thuanus 'intemperantia vitae accelerata'. He finds no hint 'in den Zeugnissen wirklich ihm nahe stehender Männer, noch in den akademischen Annalen, noch in den Kirchenrathsprotokollen'. He suggests Scaliger misunderstood Xylander's debt from the wine-and-grain administration. He also cites Xylander's attack on drinkers in the Polybius dedication."
+   },
+   {
+    "index": 62,
+    "verdict": "confirmed",
+    "url_used": "https://de.wikisource.org/w/api.php?action=parse&page=ADB:Xylander,_Wilhelm",
+    "note": "p. 593. The quotation is exact. Main sources: 'außer den Universitätsacten ... seine eigenen Vorreden und Widmungen'. He cites L. Kayser, Festschr. zur 24. Vers. Deutscher Philol., 1865, S. 139 ff., and M. Cantor, Vorl. über Gesch. d. Mathem. II, 1892, S. 507 ff."
+   }
+  ],
+  "summary": "All 63 findings checked against the sources: 51 confirmed, 12 corrected, none wrong, not found or unopenable.\n\nHow I read the sources: ADB from the Wikisource text. Archive.org OCR for Bursian, Stevenson, Farquharson, Haines, Leopold, Stich, Boissevain I–II, Kramer, Wilamowitz 1921, Heath, Tannery I–II, Meineke and Sandys. Page images for the old prints: MDZ IIIF for the Zurich 1558/59 Marcus and the Basel 1556 Psellus. The e-rara zoom pages show a browser check, so I did not use them and read the same 1568 Basel page images through e-rara's IIIF image server instead. Downloads are in raw/work (local, not in git)/check2. I did not open the music pages (Greek or Latin) of the Psellus.\n\nThe 12 corrections:\n- #2: ADB reads 'Organi Aristotelij', not 'Aristotelici'.\n- #11: the print has 'vel ut diuinarem ... aut usu communi', not 'velut diuinare ... sensu communi'.\n- #14: the ῥεμβός passage is Meditations 2.17, not 2.7. Scan 233 is now checked on the image.\n- #27: Stich had doubted the title ('dubitabam') but now judges more cautiously, having found it in another manuscript.\n- #32: 97/233 count every 'xyl' string; strict 'Xyl.' gives 53/213.\n- #41: Tannery prints 'vix mihi usu fuit'.\n- #52: the Psellus print reads 'Nihil tam habeo', not 'tamen'.\n- #53: 'Iambus inscriptionis ... non constat' is a metrical point; the quotation leaves out 'Iambus'.\n- #54: the 'mit Xylander's Autograph' note is on the inside front cover, not a flyleaf.\n- #60: the Wilamowitz 'Basel 1556' is not in his 1921 Geschichte der Philologie.\n\nPoints to keep in mind when writing:\n- #6: Farquharson transcribes the Latin title as ending 'M.D.LIX.', while the BSB copy has no printed date. Copies may differ.\n- #10: Xylander only says he does not fear criticism except from those who would object to a mutilated text.\n- #17: reading 'Gesnerus affirmauit' as 'he did not know it himself' is Schenkl's interpretation.\n- #18: Farquharson cites the passage as p. 4, but it is on p. 5.\n- #21: Farquharson also explains the oversights by Xylander's wish to preserve the manuscript text.\n- #38: Wyttenbach's own page is still unseen."
+ }
+}

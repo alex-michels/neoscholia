@@ -42,3 +42,6 @@ research/texts/**/source/**/*.webp
 
 # local review pages for the editor (crops of the scans, which must not be published)
 research/texts/**/review/
+
+# downloads made by research agents for studies (page images, OCR, PDFs): local only
+research/studies/*/raw/work/

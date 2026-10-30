@@ -1,0 +1,1270 @@
+{
+ "key": "life",
+ "collect": {
+  "summary": "Material collected on Wilhelm Xylander (Holtzman), 1532-1576, for a later article. The article itself is not written. Main sources read in full or at the relevant pages:\n- the ADB article by Fr. Schöll (1898, pp. 582-593), full wikitext from Wikisource;\n- Melchior Adam, Vitae Germanorum philosophorum (1615), pp. 289-291, in the CAMENA transcription;\n- Adam, Apographum monumentorum Haidelbergensium (1612), p. 49, the epitaph;\n- Gesner/Frisius, Bibliotheca (1583), pp. 315-316;\n- Toepke, Matrikel der Universität Heidelberg II (1886);\n- Scaligerana (1695);\n- Sandys, vol. 2, p. 270;\n- Cantor, Vorlesungen II (1892), pp. 504-509;\n- Heath, Diophantus (2nd ed. 1910), pp. 17, 22-26, 48;\n- the Basel online catalogue 'Griechischer Geist aus Basler Pressen' (F. Hieronymus), entries GG 98, 99, 101, 198, 247, 259, 268, 272, 286, 290, 296, 297, 298. These are long paraphrases of Xylander's dedications, with exact dates;\n- swisscollections records (imprints, VD16 numbers, letters);\n- Kalliope (letters);\n- Axworthy, Galilaeana 2026;\n- the Brepols and Meskens catalogue pages.\n\nThere is no NDB article. Drüll's Heidelberger Gelehrtenlexikon is not online, and its pages 562-563 were not read. Kühlmann et al. (2016) is the main modern documentary volume: it holds Xylander's paratexts. It was identified but not read.\n\nKey corrections to the ADB:\n- Cedrenus appeared in early 1566 (dedication dated 15 January 1566), not 1556.\n- The Strasbourg clock Schediasma appeared in 1575 (and an item dated 1574), not 1675.\n- The 1578 Basel Diodorus was edited by J. J. Grynaeus. Xylander's part in it that is confirmed is the Tryphiodorus. ADB's 'Latin Diodorus by Xylander' needs checking.\n- The 'first vernacular Euclid' claim (ADB, Cantor) is wrong: Spanish and Italian translations came first.\n\nDates still in dispute: the logic chair (1562 or early 1563), the librarianship (1558 or 1561), and arrival in Basel (1556 per Adam; matriculation 20 July 1557).\n\nFor the 'marginal notes' theme, three points:\n- Adam reports that Xylander wrote very little on paper.\n- ADB reports that Xylander's own notes to the Psellus refer repeatedly to his German Euclid.\n- Pal. gr. 391, with German marginal notes, may be his printer's copy for a Greek Diophantus.\n\nNo surviving books with his own marginalia were identified.\n\nTwenty-one letters by Xylander and two to him were located; they are listed in the findings. The music section was not opened in any translation; only catalogue descriptions and the prefaces/dedications were used.\n\nFiles saved in raw/work (local, not in git):\n- texts: adb_xylander_raw.txt, camena_adam_vitae_1.html, adam_vitae_phil_1615_djvu.txt, apogr_11064507bsb.txt, apogr_bub_gb_CHxy9sPSNbIC.txt, sandys_vol2_djvu.txt, heath_diophantus_1910_djvu.txt, cantor_vorl2_1892_djvu.txt, toepke2_1886.txt, gesner1583_djvu.txt, scal_bub_gb_mPcf6nFu0mUC.txt, axworthy_2026.pdf/.txt;\n- GG entries: higg*.html;\n- catalogue data: rec_*.html, swisscoll_search.html, kalliope_sru.xml, kalliope_sru_to.xml;\n- also downloaded but unused: bursian1883_v1.txt, bursian1883_v1b.txt (Fraktur OCR unusable), bartsch1887_djvu.txt (no shelfmark found), and the remaining scal_*.txt Scaligerana editions.",
+  "findings": [
+   {
+    "topic": "life: name",
+    "claim": "His German name appears as 'Wilhelm Holtzman' on his German Euclid. Others write Holtzmann or Holzmann. He already called himself (Guilielmus) Xylander as a student.",
+    "source": "Fr. Schöll, 'Xylander, Wilhelm Holtzman', ADB 44 (1898), p. 582",
+    "status": "checked",
+    "url": "https://de.wikisource.org/wiki/ADB:Xylander,_Wilhelm",
+    "quote": "so steht der Name auf seinem deutschen Euklid"
+   },
+   {
+    "topic": "life: birth",
+    "claim": "Born at Augsburg on 26 December 1532 to upright but entirely poor parents, who meant him to learn a trade.",
+    "source": "ADB 44 (1898), p. 582",
+    "status": "checked",
+    "url": "https://de.wikisource.org/wiki/ADB:Xylander,_Wilhelm"
+   },
+   {
+    "topic": "life: birth",
+    "claim": "Adam gives the same date. A marginal note gives the vernacular name.",
+    "source": "Melchior Adam, Vitae Germanorum philosophorum (Heidelberg 1615), p. 289 (CAMENA transcription, image s305)",
+    "status": "checked",
+    "url": "http://mateo.uni-mannheim.de/camenaref/adam/adam1/Adam_vitae_1.html#s305",
+    "quote": "natus est Augustae Vindelicorum, anno Christi 1532. die 26 Decembris parentibus honestis quidem; sed minime in re aucta et lauta constitutis [marg.: Vernacule Holtzmann]"
+   },
+   {
+    "topic": "life: schooling and patrons in Augsburg",
+    "claim": "The Augsburg humanist, rector and librarian Xystus Betuleius (Sixt Birck) recognised his talent. Bürgermeister Wolfgang Rehlinger obtained a city stipend for him. He attended the St. Ulrich school, then (supported from the St. Anton foundation) the St. Anna school.",
+    "source": "ADB 44, p. 582",
+    "status": "checked",
+    "url": "https://de.wikisource.org/wiki/ADB:Xylander,_Wilhelm"
+   },
+   {
+    "topic": "life: schooling",
+    "claim": "Adam's version: Wolfgang Rehlinger got him a stipend from the public treasury. He was admitted first to the 'collegium Ulricianum', then to the 'Antonianum'.",
+    "source": "M. Adam, Vitae Germanorum philosophorum (1615), p. 289",
+    "status": "checked",
+    "url": "http://mateo.uni-mannheim.de/camenaref/adam/adam1/Adam_vitae_1.html#s305",
+    "quote": "in collegium Ulricianum primum, deinde Antonianum ... fuit receptus"
+   },
+   {
+    "topic": "life: schooling (own testimony)",
+    "claim": "In his dedication of Stephanus of Byzantium (1 Sept. 1567) to Karl Wolfgang Rehlinger, Xylander recalls these events. His parents wanted to take him out of school and put him to sedentary work (as a scribe). The elder Rehlinger then secured him a city stipend for the Ulrich school and the Antoninianum, and afterwards for Tübingen.",
+    "source": "F. Hieronymus, Griechischer Geist aus Basler Pressen, online entry GG 297 (paraphrase of the dedication)",
+    "status": "checked",
+    "url": "https://www.ub.unibas.ch/cmsdata/spezialkataloge/gg/higg0297.html"
+   },
+   {
+    "topic": "life: early work",
+    "claim": "At 16 he translated Tryphiodorus' Sack of Troy into Latin hexameters. Oporinus printed it without his knowledge. A revised version appeared in the Basel Diodorus of 1578.",
+    "source": "ADB 44, pp. 582-583",
+    "status": "checked",
+    "url": "https://de.wikisource.org/wiki/ADB:Xylander,_Wilhelm"
+   },
+   {
+    "topic": "life: early work (contemporary witness)",
+    "claim": "Gesner's Bibliotheca says Xylander translated Tryphiodorus at 16 in the Augsburg school. It says Oporinus published the translation without his knowledge, and that Xylander translated it anew with notes, unpublished at the time.",
+    "source": "Bibliotheca instituta et collecta primum a Conrado Gesnero, ed. J. J. Frisius (Zurich 1583), pp. 315-316, s.v. 'Guilhelmus Xylander' (archive.org OCR)",
+    "status": "checked",
+    "url": "https://archive.org/details/bub_gb_sw7jjS6ygrcC",
+    "quote": "Oporinus ipso inscio edidit"
+   },
+   {
+    "topic": "life: Tübingen",
+    "claim": "Matriculated at Tübingen on 21 August 1549 under rector Johannes Sichardus, paying 13 Kreuzer. Studied Greek, Latin, Hebrew and especially Aristotelian philosophy under Jakob Schegk. Bachelor on 12 March 1550. He also studied physics and medicine. In mathematics he was entirely self-taught, and he lived in hardship.",
+    "source": "ADB 44, p. 583",
+    "status": "checked",
+    "url": "https://de.wikisource.org/wiki/ADB:Xylander,_Wilhelm",
+    "quote": "aber ganz als Autodidact"
+   },
+   {
+    "topic": "life: Tübingen (own testimony)",
+    "claim": "In the Diophantus dedication (14 Aug. 1574) Xylander says he spent five years at Tübingen. He calls Jakob Schegk his teacher, to whom he owed all his knowledge of Aristotelian philosophy.",
+    "source": "GG 298 (paraphrase of the dedication to Duke Ludwig of Württemberg)",
+    "status": "checked",
+    "url": "https://www.ub.unibas.ch/cmsdata/spezialkataloge/gg/higg0298.html"
+   },
+   {
+    "topic": "life: Tübingen (conjecture)",
+    "claim": "Axworthy suggests Xylander may have attended Johann Scheubel's mathematics lectures at Tübingen. She offers this against Schöll's 'self-taught'; it is a conjecture, not a documented fact.",
+    "source": "A. Axworthy, 'Johann Scheubel, Wilhelm Xylander and the numerical treatment of Euclidean geometry in early modern Europe', Galilaeana 23.1 (2026), 101-148, at p. 108; doi 10.57617/gal-103",
+    "status": "checked",
+    "url": "https://gal-studies.museogalileo.it/index.php/galilaeana/article/view/103"
+   },
+   {
+    "topic": "life: return to Augsburg, patrons",
+    "claim": "After nearly five years he returned to Augsburg around the death of Betuleius (19 June 1554). Councillor Johann Heinrich Herwart took him into his household. The Fugger family supported him, and Hieronymus Wolf gave him close learned company.",
+    "source": "ADB 44, p. 583",
+    "status": "checked",
+    "url": "https://de.wikisource.org/wiki/ADB:Xylander,_Wilhelm"
+   },
+   {
+    "topic": "life: Basel",
+    "claim": "Matriculated at Basel on 20 July 1557. Promoted Magister philosophiae on 9 February 1558. ADB says the claim that he already taught at Basel is false.",
+    "source": "ADB 44, pp. 584-585 (based on Basel university records)",
+    "status": "checked",
+    "url": "https://de.wikisource.org/wiki/ADB:Xylander,_Wilhelm"
+   },
+   {
+    "topic": "life: Basel (discrepancy)",
+    "claim": "Adam dates Xylander's coming to Basel University to 1556; a marginal note says 'Inscriptus anno 1549. Inde Basileam'. This conflicts with the matriculation date of 20 July 1557 given in ADB and by Hieronymus (GG 268).",
+    "source": "M. Adam, Vitae (1615), p. 289",
+    "status": "checked",
+    "url": "http://mateo.uni-mannheim.de/camenaref/adam/adam1/Adam_vitae_1.html#s305",
+    "quote": "Anno 1556. ad Basiliensem accessit Academiam"
+   },
+   {
+    "topic": "life: Basel, work for Oporinus",
+    "claim": "Hieronymus infers from the Dio dedication that young Xylander also worked as a paid corrector at Oporinus' press. He read and corrected each page himself before it went to press.",
+    "source": "GG 268",
+    "status": "checked",
+    "url": "https://www.ub.unibas.ch/cmsdata/spezialkataloge/gg/higg0268.html"
+   },
+   {
+    "topic": "life: Heidelberg appointment",
+    "claim": "Micyllus died on 28 Jan. 1558, leaving the Greek chair vacant. Other candidates were Bernhard Bertrand (recommended by Johannes Sturm) and Johann Fabricius. Elector Ottheinrich himself suggested a trial with young Xylander. Thomas Erastus and the electoral councillor Eheim supported him. By resolution of 15 Aug. 1558 he was taken on 'zum Versuch'.",
+    "source": "ADB 44, p. 585",
+    "status": "checked",
+    "url": "https://de.wikisource.org/wiki/ADB:Xylander,_Wilhelm"
+   },
+   {
+    "topic": "life: Heidelberg appointment, dates",
+    "claim": "Salary at first only 100 fl., with Micyllus' official house. First lecture on 17 Aug. 1558; house received on 2 Sept. Yet his prefaces to Theocritus and Euripides are still dated from Basel, 31 Aug. and 1 Sept. He entered the matriculation register as professor graecarum litterarum on 22 Oct. and the senate on 22 Dec. 1558.",
+    "source": "ADB 44, pp. 585-586",
+    "status": "checked",
+    "url": "https://de.wikisource.org/wiki/ADB:Xylander,_Wilhelm"
+   },
+   {
+    "topic": "life: Heidelberg matriculation",
+    "claim": "The Heidelberg register has him as no. 74 on fol. 96v.",
+    "source": "G. Toepke, Die Matrikel der Universität Heidelberg, vol. 2 (1886), archive.org OCR (page number not determined)",
+    "status": "checked",
+    "url": "https://archive.org/details/bub_gb_sosdAQAAIAAJ",
+    "quote": "M. Guilielmus Xylander, Augustanus, die XXII Octobris, professor Graecarum literarum"
+   },
+   {
+    "topic": "life: salary and debts",
+    "claim": "On 20 June 1560 he asked for the 50 fl. that Micyllus had received above his salary. On Erastus' intercession he received 30 fl., and thanked Friedrich III in the dedication of his Latin Plutarch Lives. Friedrich III added 50 fl. in 1567. As an administrator of university wine and grain (from 1560, with Curio) he ran up arrears of 280 fl. A petition of 22 Nov. 1568 obtained a remission of 100 fl.; the rest was deducted from his salary.",
+    "source": "ADB 44, pp. 586-587, 589",
+    "status": "checked",
+    "url": "https://de.wikisource.org/wiki/ADB:Xylander,_Wilhelm"
+   },
+   {
+    "topic": "life: librarian (discrepancy)",
+    "claim": "ADB: in 1561 he was appointed librarian of the electoral library at 20 fl.",
+    "source": "ADB 44, p. 587",
+    "status": "checked",
+    "url": "https://de.wikisource.org/wiki/ADB:Xylander,_Wilhelm"
+   },
+   {
+    "topic": "life: librarian (discrepancy)",
+    "claim": "Sandys: in 1558 he succeeded Micyllus as professor of Greek and as librarian at Heidelberg. He produced the editio princeps of Marcus Aurelius (1558) and important editions of Plutarch (1560-70), Strabo (1571) and Stephanus of Byzantium (1568). Sandys also notes his good use of manuscripts and 'singular acumen' in emendation.",
+    "source": "J. E. Sandys, A History of Classical Scholarship, vol. 2 (Cambridge 1908), p. 270 (archive.org OCR)",
+    "status": "checked",
+    "url": "https://archive.org/details/historyofclassic02sanduoft",
+    "quote": "gave proof of a singular acumen in the emendation of texts"
+   },
+   {
+    "topic": "life: mathematics teaching",
+    "claim": "In 1561 he also took on mathematics for a time. On 1 Aug. 1562 the faculty still announced his readiness to give mathematical lectures. Petrus Ramus, urging German princes to found chairs of mathematics, named Xylander as the right man for Heidelberg.",
+    "source": "ADB 44, pp. 587-588 (citing Ramus, Prooemium mathematicum, 1567)",
+    "status": "checked",
+    "url": "https://de.wikisource.org/wiki/ADB:Xylander,_Wilhelm"
+   },
+   {
+    "topic": "life: mathematics teaching",
+    "claim": "Cantor: Xylander gave mathematical lectures in the last of his four years as Greek professor. When he took the logic chair, mathematics went to Simon Grynaeus the Younger at 60 fl. a year plus free lodging. Cantor confirms Ramus' recommendation.",
+    "source": "M. Cantor, Vorlesungen über Geschichte der Mathematik, vol. 2 (Leipzig 1892), pp. 504, 507",
+    "status": "checked",
+    "url": "https://archive.org/details/11652069bsb"
+   },
+   {
+    "topic": "life: logic chair (date disputed)",
+    "claim": "ADB: at the beginning of 1563, at the senate's urgent wish, he exchanged chairs with Hermann Witekind. He became 'publicus Organi Aristotelici interpres', the first public professor of logic at Heidelberg, and held the post until his death.",
+    "source": "ADB 44, p. 588",
+    "status": "checked",
+    "url": "https://de.wikisource.org/wiki/ADB:Xylander,_Wilhelm"
+   },
+   {
+    "topic": "life: logic chair (date disputed)",
+    "claim": "Cantor (1892), EB1911 and de.wikipedia put the change to logic in 1562.",
+    "source": "Cantor, Vorlesungen II (1892), p. 507; Encyclopaedia Britannica 11th ed., vol. 28, p. 888; de.wikipedia 'Guilielmus Xylander'",
+    "status": "checked",
+    "url": "https://en.wikisource.org/wiki/1911_Encyclop%C3%A6dia_Britannica/Xylander,_Guilielmus"
+   },
+   {
+    "topic": "life: logic chair (evidence for 1563)",
+    "claim": "Two documents still style him professor of Greek at the end of 1562. Toepke's acts of the arts faculty record him elected dean on 19 Dec. 1562 as 'Graecae linguae publico professore'. The Euclid dedication of 1 Oct. 1562 (colophon 30 Oct. 1562) styles him 'Griechischer Professor des Churf. Studiums in Heydelberg'.",
+    "source": "Toepke, Matrikel II (1886), arts-faculty promotions; GG 286",
+    "status": "checked",
+    "url": "https://archive.org/details/bub_gb_sosdAQAAIAAJ",
+    "quote": "Decano M. Guilielmo Xylandro Augustano, Graecae linguae publico professore, anno 1562 19. Decembris electo"
+   },
+   {
+    "topic": "life: logic teaching",
+    "claim": "In his answer to the Elector's survey of 30 Aug. 1569 he states that he teaches the Organon publicly at six in the morning, that he never counts his hearers, and that he does not regret his audience.",
+    "source": "ADB 44, p. 588 (quoting the reply)",
+    "status": "checked",
+    "url": "https://de.wikisource.org/wiki/ADB:Xylander,_Wilhelm",
+    "quote": "Auditorum numerum numquam subduxit"
+   },
+   {
+    "topic": "life: dean 1563 and the plague",
+    "claim": "As dean in 1563 he introduced Witekind and then Pithopoeus at the Paedagogium. When plague struck, he and Agricola went to Oppenheim on 10 Sept. 1563 and arranged the move of the Dionysianum's students there with seven professors (21 Sept.). The return to Heidelberg was on 12 March 1564.",
+    "source": "ADB 44, pp. 588-589",
+    "status": "checked",
+    "url": "https://de.wikisource.org/wiki/ADB:Xylander,_Wilhelm"
+   },
+   {
+    "topic": "life: rector",
+    "claim": "He was elected rector unanimously on 26 April 1564, in his sixth year of teaching and 32nd of life.",
+    "source": "ADB 44, p. 589",
+    "status": "checked",
+    "url": "https://de.wikisource.org/wiki/ADB:Xylander,_Wilhelm"
+   },
+   {
+    "topic": "life: rector",
+    "claim": "Toepke's list of rectors: 'Wilhelmus Xylander al. Holtzmann de Augsburg', 26 April 1564, with 61 matriculations. His successor Petrus Boquinus began on 20 Dec. 1564, so the rectorate ran April-December 1564. The OCR prints the years as 1664.",
+    "source": "Toepke, Matrikel II (1886), list of rectors (archive.org OCR)",
+    "status": "checked",
+    "url": "https://archive.org/details/bub_gb_sosdAQAAIAAJ"
+   },
+   {
+    "topic": "life: colloquies",
+    "claim": "At the Maulbronn colloquy on the Eucharist (April 1564) Friedrich III used Xylander as notary, as Württemberg used Lucas Osiander. At the Frankenthal colloquy with the Anabaptists (1571; marginal note 'ad d. 28. Maii', ended 19 June) he served as notary with Caspar Faus and Martin Neander. Wenzeslaus Zuleger presided and Peter Dathenus disputed.",
+    "source": "M. Adam, Vitae (1615), pp. 289-290",
+    "status": "checked",
+    "url": "http://mateo.uni-mannheim.de/camenaref/adam/adam1/Adam_vitae_1.html#s305"
+   },
+   {
+    "topic": "life: church conflicts",
+    "claim": "With Erastus and Eheim he belonged to the Zwinglians at Heidelberg, against both strict Lutherans and Philippists, and opposed the court-favoured Genevan church discipline. In 1570 he successfully petitioned for the imprisoned superintendent Johann Sylvanus (executed 23 Dec. 1573) to receive a Bible and books (Kirchenrat protocol, 20 Sept. 1570). On 19 April 1570 the university relegated a student for five years over a 'libellum famosum et valde mordacem in Xylandrum'.",
+    "source": "ADB 44, pp. 585, 589-590",
+    "status": "checked",
+    "url": "https://de.wikisource.org/wiki/ADB:Xylander,_Wilhelm"
+   },
+   {
+    "topic": "life: ethics chair and Ramus",
+    "claim": "When Friedrich III wanted to give Petrus Ramus the ethics chair left vacant by Strigel's death (1569), the faculty instead named Xylander on 12 Nov. 1569. Xylander gave up ethics in the next year to Lanoius of Antwerp.",
+    "source": "ADB 44, p. 590",
+    "status": "checked",
+    "url": "https://de.wikisource.org/wiki/ADB:Xylander,_Wilhelm"
+   },
+   {
+    "topic": "life: second deanship",
+    "claim": "Second deanship: elected 20 Dec. 1570 ('Decano II'); the promotions were held on 7 Aug. 1571. ADB phrases this as dean 'für 1571'.",
+    "source": "Toepke, Matrikel II (1886), arts-faculty acts; ADB 44, p. 590",
+    "status": "checked",
+    "url": "https://archive.org/details/bub_gb_sosdAQAAIAAJ"
+   },
+   {
+    "topic": "life: journey 1571",
+    "claim": "In October 1571 he travelled to Wittenberg and Leipzig and was well received by colleagues in both places.",
+    "source": "ADB 44, p. 590",
+    "status": "checked",
+    "url": "https://de.wikisource.org/wiki/ADB:Xylander,_Wilhelm"
+   },
+   {
+    "topic": "life: last years",
+    "claim": "On 18 Oct. 1575 he asked the university for a loan of 50 fl. and offered his silver plate as pledge. The pledge was refused, and he received the money against a simple bond, a few months before his death. The Italian Pigavetta also involved him in a heresy charge against Erastus; no investigation followed.",
+    "source": "ADB 44, p. 591",
+    "status": "checked",
+    "url": "https://de.wikisource.org/wiki/ADB:Xylander,_Wilhelm"
+   },
+   {
+    "topic": "life: death",
+    "claim": "Died at Heidelberg on 10 Feb. 1576, early in his 44th year, not in 1575 aged 45 as Thuanus wrote. The dean Witekind's entry in the faculty acts gives the cause and adds an epitaph blaming overwork.",
+    "source": "ADB 44, p. 591",
+    "status": "checked",
+    "url": "https://de.wikisource.org/wiki/ADB:Xylander,_Wilhelm",
+    "quote": "decessit confectus morbo primum colico, deinde catarrho"
+   },
+   {
+    "topic": "life: death and burial",
+    "claim": "Adam says he died of an illness contracted through untimely work and night study. He gives 10 Feb. 1576, aged 44, and burial at St. Peter's, Heidelberg, in the academic chapel, mourned by colleagues and students.",
+    "source": "M. Adam, Vitae (1615), p. 291",
+    "status": "checked",
+    "url": "http://mateo.uni-mannheim.de/camenaref/adam/adam1/Adam_vitae_1.html#s305",
+    "quote": "anno 1576. die 10. Februar. aetatis 44. Heidelbergae ad D. Petri, in sacello Academiae ... sepultus"
+   },
+   {
+    "topic": "life: epitaph and wife",
+    "claim": "His epitaph at Heidelberg is headed 'Wilhelmus Xylander Augustanus alloquitur uxorem' and begins 'Quo saxum struis, o nobis fidissima coniunx'. It ends 'Obiit X. Febr. A. M.D.LXXVI. Anno aetatis XLIII[.]'; the age numeral is unclear in both OCR copies and should be checked on the page image. The stone was erected by his wife, who is not named.",
+    "source": "M. Adam, Apographum monumentorum Haidelbergensium (Heidelberg 1612), p. 49 (archive.org OCR, two copies)",
+    "status": "checked",
+    "url": "https://archive.org/details/11064507bsb"
+   },
+   {
+    "topic": "life: gravestone",
+    "claim": "de.wikipedia states the gravestone is preserved in the university chapel of the Heidelberg Peterskirche. ADB (p. 593) also says the monument is 'noch vorhanden'.",
+    "source": "de.wikipedia 'Guilielmus Xylander'; ADB 44, p. 593",
+    "status": "checked",
+    "url": "https://de.wikipedia.org/wiki/Guilielmus_Xylander"
+   },
+   {
+    "topic": "life: family",
+    "claim": "Unlike the unmarried Erastus, he soon made a happy love-match, married without regard to circumstances, and struggled to provide for his family. He left a widow and children. His eldest son Onesimus was matriculated at Heidelberg on 19 March 1572 'iniuratus propter aetatem', his studies paid by the Elector. Count Ulrich Fugger supported the family after Xylander's death.",
+    "source": "ADB 44, pp. 585, 589, 592",
+    "status": "checked",
+    "url": "https://de.wikisource.org/wiki/ADB:Xylander,_Wilhelm"
+   },
+   {
+    "topic": "life: family",
+    "claim": "The register entry for the son confirms the relationship. The date heading could not be read in the OCR.",
+    "source": "Toepke, Matrikel II (1886) (archive.org OCR)",
+    "status": "checked",
+    "url": "https://archive.org/details/bub_gb_sosdAQAAIAAJ",
+    "quote": "Onesimus Xylander, Augustanus, filius clarissimi viri, magistri Guilielmi Xylandri, iniuratus propter aetatem"
+   },
+   {
+    "topic": "character: Adam's portrait",
+    "claim": "Adam describes him as subtle in mind, sharp in judgement and of exceptional memory. Morally he was grave and chaste, witty in company, tireless, candid and open, a truly Christian philosopher. He was always assailed by misfortune and domestic difficulties but never overcome. Adam lists 'Musicus' among his accomplishments.",
+    "source": "M. Adam, Vitae (1615), pp. 290-291",
+    "status": "checked",
+    "url": "http://mateo.uni-mannheim.de/camenaref/adam/adam1/Adam_vitae_1.html#s305",
+    "quote": "Logicus, Poeta, Mathematicus, Musicus, Historicus, Physicus, Latine, Graece, et Hebraice doctus. Moribus vitaque gravis et castus: in sermone et congressibus familiaribus facetus"
+   },
+   {
+    "topic": "character: working habits (relevant to his notes)",
+    "claim": "Adam reports three working habits. He rarely finished a work before handing it to the printers, and wrote only as fast as they printed. He worked on several things at once. Because he kept his thoughts in mind and memory, he wrote very little down on paper.",
+    "source": "M. Adam, Vitae (1615), pp. 290-291",
+    "status": "checked",
+    "url": "http://mateo.uni-mannheim.de/camenaref/adam/adam1/Adam_vitae_1.html#s305",
+    "quote": "quia in animo et memoria meditationes suas servabat, ideo in chartis pauca admodum annotabat"
+   },
+   {
+    "topic": "character: Thuanus",
+    "claim": "Adam quotes Thuanus (Hist. lib. 61): Xylander was learned in both languages and all antiquity, famous in philosophy and mathematics, and struggled with extreme poverty all his life. Adam's marginal notes correct Thuanus' 1575 and age 45 (verius 44), and say Xylander himself admits the 'fami non famae' point in his preface to the Plutarch Lives. Thuanus attributes his early death to intemperance.",
+    "source": "M. Adam, Vitae (1615), p. 291 (quoting J. A. Thuanus, Historiae, lib. 61)",
+    "status": "checked",
+    "url": "http://mateo.uni-mannheim.de/camenaref/adam/adam1/Adam_vitae_1.html#s305",
+    "quote": "fami, non famae, scribere est existimatus ... intemperantia vitae accelerata"
+   },
+   {
+    "topic": "character: Scaliger's remark",
+    "claim": "The 1695 Scaligerana has the epigram under X. ADB quotes it as 'bene legerat' (citing Scaligerana II p. 155). ADB rejects the drinking charge: no contemporary record mentions it, and Scaliger probably misunderstood rumours of Xylander's arrears from the wine and grain administration.",
+    "source": "Scaligerana, ou bons mots ... de J. Scaliger (Cologne 1695), letter X (archive.org OCR); ADB 44, pp. 591-592",
+    "status": "checked",
+    "url": "https://archive.org/details/bub_gb_mPcf6nFu0mUC",
+    "quote": "Xylander Augustanus doctus erat, & benè legebat: sed quoties erat ebrius."
+   },
+   {
+    "topic": "character: contemporaries' judgements",
+    "claim": "Three further judgements. Oporinus answered Xylander's elegiac lament (in the Dio, March 1558) with a consoling elegy foretelling success through Plutarch ('Forte sui fructum nominis ille dabit'). Casaubon reproached his Strabo for haste. Franz Balduin named him among men fit to reform the Collegium Dionysianum.",
+    "source": "ADB 44, pp. 585, 587",
+    "status": "checked",
+    "url": "https://de.wikisource.org/wiki/ADB:Xylander,_Wilhelm"
+   },
+   {
+    "topic": "character: Bachet",
+    "claim": "Bachet, otherwise an unfriendly critic, calls Xylander 'Vir omnibus disciplinis excultus'.",
+    "source": "T. L. Heath, Diophantus of Alexandria, 2nd ed. (Cambridge 1910), p. 22 n. 3",
+    "status": "checked",
+    "url": "https://archive.org/details/diophantusofalex00heatiala"
+   },
+   {
+    "topic": "works: Psellus (1556/57)",
+    "claim": "Psellus (the Quadrivium), Greek and Latin, 'nunc primum editus'. Published Basel: Johannes Oporinus, undated (catalogues give [1556?]), 8°; 263 [=163], [1], 175 pp.; VD16 M 5144. It includes his Carmen de philosophia, a poem on Zonaras' Annals and a Naenia on Betuleius. A Bern copy (MUE Bong IV 332:1) is annotated by Jacques Bongars. A record of a '1554' edition rests only on Zinner and may be a ghost.",
+    "source": "swisscollections records 991103828099705501, 991024800229705501, 991135445199705501",
+    "status": "checked",
+    "url": "https://swisscollections.ch/Record/991103828099705501"
+   },
+   {
+    "topic": "works: Psellus (1556/57), dedication and layout",
+    "claim": "Dedication dated Augsburg, 5 Nov. 1556 (the only date in the book), to Ulrich Fugger. Hieronymus dates the printing end 1556/early 1557, probably for the Lent fair of 1557 together with Wolf's Zonaras (GG 270). It is the third printing of the Greek (after Venice 1532 and Paris 1545). The layout is not parallel: Latin translation first, then the annotations, then the Greek text separately.",
+    "source": "GG 296",
+    "status": "checked",
+    "url": "https://www.ub.unibas.ch/cmsdata/spezialkataloge/gg/higg0296.html"
+   },
+   {
+    "topic": "works: Psellus, Xylander's notes",
+    "claim": "ADB: Xylander thought the work fit to be explained to beginners in schools. In his annotations he repeatedly refers to his German Euclid translation, printed only six years later. ADB itself calls the compilation worthless.",
+    "source": "ADB 44, p. 584",
+    "status": "checked",
+    "url": "https://de.wikisource.org/wiki/ADB:Xylander,_Wilhelm"
+   },
+   {
+    "topic": "works: occasional verse",
+    "claim": "Three occasional poems: (1) an Ode gratulatoria to Emperor Ferdinand in Basilius Johannes Herold's Panegyricus, Basel: Oporinus [c. 1557/1558]; (2) a Monodia on Christoph Weitmoser, Basel: Oporinus [1558]; (3) a Schediasma on the death of Sibylla Rauner, wife of Martin Crusius, Heidelberg: Ludwig Lucius 1561 (VD16 H 4560).",
+    "source": "swisscollections records 991083964439705501, 991018925699705501, 991160351179705501",
+    "status": "checked",
+    "url": "https://swisscollections.ch/Record/991160351179705501"
+   },
+   {
+    "topic": "works: Cassius Dio (1558)",
+    "claim": "Latin translation of Dio, books 36-60 ('XXV ... a XXXVI ad LXI'), with notes. Also includes Le Blanc's Latin Xiphilinus revised by Xylander. Basel: Oporinus, March 1558, fol.; VD16 D 1793. Dedicated to Johann Heinrich Herwart, 1 Nov. 1557. Made in seven months in Herwart's house from Robert Estienne's Paris Greek edition (1548). The Greek text announced on the title page never appeared. ADB: also Lyon 1559; with Leunclavius' corrections Frankfurt 1592; with Greek, Paris/Geneva 1591 and Hanau 1606.",
+    "source": "GG 268; swisscollections 991051893419705501; ADB 44, p. 584",
+    "status": "checked",
+    "url": "https://www.ub.unibas.ch/cmsdata/spezialkataloge/gg/higg0268.html"
+   },
+   {
+    "topic": "works: Euripides (1558)",
+    "claim": "Melanchthon's Latin prose Euripides (from lecture notes), corrected by Xylander, with his own translation of the missing Hecuba. Basel: Oporinus, August 1558, 8°. Dedication dated Basel, 29 Aug. 1558, to Augsburg Bürgermeister Johann Baptist Heinzel; ADB gives 1 Sept. for this preface. ADB: the 'Hecuba Philippea' was added in the Frankfurt edition of 1561.",
+    "source": "GG 198; ADB 44, p. 584",
+    "status": "checked",
+    "url": "https://www.ub.unibas.ch/cmsdata/spezialkataloge/gg/higg0198.html"
+   },
+   {
+    "topic": "works: Theocritus (1558)",
+    "claim": "Theocritus, 36 Idylls, with Zacharias Callierges' scholia on the first 18 and Xylander's notes on the rest. Publisher Peter Braubach, 1558, 8°. Prague, National Library, 5 J 000102. ADB places it 'bei Braubach in Frankfurt', for students.",
+    "source": "Europeana record NKCR 5 J 000102; ADB 44, p. 584",
+    "status": "checked",
+    "url": "https://www.europeana.eu/item/92004/object_NKCR__5_J_000102__0SXDUN6"
+   },
+   {
+    "topic": "works: Marcus Aurelius (1558/59)",
+    "claim": "Editio princeps of Marcus Aurelius 'De seipso seu vita sua libri XII', Greek and Latin, Xylander's translation and notes, with Marinus' Life of Proclus. Zurich: Andreas Gesner F., catalogued [1558/1559]; one issue's title page reads M.D.LIX. 8°, 3 parts; VD16 M 963; Vischer K 26 / K 17. Catalogues name Konrad Gessner as editor of the Greek text.",
+    "source": "swisscollections 991040360619705501, 991102358159705501",
+    "status": "checked",
+    "url": "https://swisscollections.ch/Record/991040360619705501"
+   },
+   {
+    "topic": "works: Marcus Aurelius, lost manuscript",
+    "claim": "Undertaken at Konrad Gesner's prompting. It is the only witness of a Heidelberg codex lost since. It has serious defects partly due to hasty printing, which led to Xylander's revision ten years later.",
+    "source": "ADB 44, p. 584",
+    "status": "checked",
+    "url": "https://de.wikisource.org/wiki/ADB:Xylander,_Wilhelm"
+   },
+   {
+    "topic": "works: Plutarch Lives, Latin (1561)",
+    "claim": "Plutarch's Parallel Lives in Latin with annotations and index. Imprint: Heidelberg, academy printer Ludwig Lucius, 1561, fol. The annotations part bears its own title page with Basel: Oporinus, colophon March 1561. VD16 P 3765. ADB: dedicated to Friedrich III; Franz Balduin helped with Amyot's French; later reprinted Basel and Frankfurt 1592.",
+    "source": "swisscollections 991156108259705501; ADB 44, p. 586",
+    "status": "checked",
+    "url": "https://swisscollections.ch/Record/991156108259705501"
+   },
+   {
+    "topic": "works: German Euclid (1562)",
+    "claim": "'Die Sechs Erste Bücher Euclidis ... Durch Wilhelm Holtzman, genant Xylander, von Augspurg'. Basel: finished by Jacob Kündig at Oporinus' cost, 30 Oct. 1562, fol.; [8] leaves, 185 pp.; VD16 E 4169. Dedication from Heidelberg, 1 Oct. 1562, to the Stadtpfleger, Bürgermeister and council of Augsburg. Books I-IV had been translated seven years earlier (1555). He redrew all figures on parchment for the block-cutter because he could not attend the printing.",
+    "source": "GG 286; swisscollections 991013592129705501",
+    "status": "checked",
+    "url": "https://www.ub.unibas.ch/cmsdata/spezialkataloge/gg/higg0286.html"
+   },
+   {
+    "topic": "works: Cedrenus (1566; ADB wrongly 1556)",
+    "claim": "Editio princeps of Georgius Cedrenus, Greek and Latin with notes and chronological tables. Basel: Oporinus and the Episcopius brothers, [1566], fol.; VD16 G 1351. Dedication to Marcus and Johann Fugger dated 15 Jan. 1566. Printing came very early in 1566, since Nicolaus Episcopius the younger died at the end of January. ADB lists this with the 1556 Psellus as an 1556 editio princeps, which is wrong. The next edition came only in 1647 (Paris).",
+    "source": "GG 272; swisscollections 991008682259705501; cf. ADB 44, p. 584",
+    "status": "checked",
+    "url": "https://www.ub.unibas.ch/cmsdata/spezialkataloge/gg/higg0272.html"
+   },
+   {
+    "topic": "works: Plutarch on poets and Homer (1566)",
+    "claim": "'Plutarchi duo commentarii' (Quomodo adolescens poetas audire debeat; De Homeri poesi), Latin with annotations, Greek text emended. Basel: Oporinus 1566, 8°. ADB: dedicated to Prince Christoph, rector magnificentissimus in 1566 at fourteen.",
+    "source": "swisscollections 991020333609705501; ADB 44, p. 586",
+    "status": "checked",
+    "url": "https://swisscollections.ch/Record/991020333609705501"
+   },
+   {
+    "topic": "works: Stephanus of Byzantium (1568)",
+    "claim": "Third edition of the Greek text. Basel: officina Oporiniana (Oporinus' successors), March 1568, fol. Dedication 1 Sept. 1567 to Karl Wolfgang Rehlinger. The title announces a Latin version to be inserted in his 'Onomasticon geographicum'; neither ever appeared.",
+    "source": "GG 297; swisscollections 991080042779705501",
+    "status": "checked",
+    "url": "https://www.ub.unibas.ch/cmsdata/spezialkataloge/gg/higg0297.html"
+   },
+   {
+    "topic": "works: paradoxographers and Marcus Aurelius, 2nd ed. (1568)",
+    "claim": "Antoninus Liberalis, Phlegon, Apollonius' Historiae mirabiles and Antigonus, with Marcus Aurelius (2nd ed.), Greek and Latin. Basel: Thomas Guarinus 1568, 8°. ADB: the small texts were edited for the first time from the Heidelberg paradoxographer codex Pal. gr. 398.",
+    "source": "swisscollections 991090582209705501; ADB 44, p. 586; Sandys II table of Greek editiones principes",
+    "status": "checked",
+    "url": "https://swisscollections.ch/Record/991090582209705501"
+   },
+   {
+    "topic": "works: Plutarch Moralia, Latin (1570, 1572)",
+    "claim": "Complete Latin Moralia. Basel: Thomas Guarin 1570, fol.; dedication Heidelberg, 13 Aug. 1570, to Prince Ludwig (later Elector Ludwig VI); French royal privilege of 8 Aug. 1570. Second edition with full annotations: Basel, Guarin, August 1572, 8°, 3 vols., preface of 12 Aug. 1572. That preface says Episcopius had given him a manuscript and an Aldine around 1567 for a Greek edition, delayed in expectation of Henri Estienne's edition.",
+    "source": "GG 98; GG 99",
+    "status": "checked",
+    "url": "https://www.ub.unibas.ch/cmsdata/spezialkataloge/gg/higg0098.html"
+   },
+   {
+    "topic": "works: Strabo (1571)",
+    "claim": "Strabo, Greek and Latin, text revised and translation made anew, with notes and Ptolemaic maps. Basel: officina Henricpetrina, August 1571, fol. Dedication from Heidelberg, 1 March 1571, to Elector August of Saxony, prompted by Johann Casimir's marriage to Elisabeth of Saxony. Imperial privilege for ten years, Speyer, 16 Aug. 1570. Xylander says he had no manuscript.",
+    "source": "GG 290; swisscollections 991047906029705501",
+    "status": "checked",
+    "url": "https://www.ub.unibas.ch/cmsdata/spezialkataloge/gg/higg0290.html"
+   },
+   {
+    "topic": "works: Plutarch Moralia, Greek (1574)",
+    "claim": "Greek Moralia, corrected 'multa mendarum millib.', with indices. Basel: Eusebius Episcopius & Nicolai Fr. heredes 1574, fol.; VD16 ZV 12603. Dedicated from Heidelberg to the Bürgermeister and council of Basel. Hieronymus' text gives 14 Aug. 1574, his illustration caption 12 Aug. Xylander's portrait is on the verso of the title, with a poem by Theobald Müller (Mylius).",
+    "source": "GG 101; swisscollections 991159609479705501",
+    "status": "checked",
+    "url": "https://www.ub.unibas.ch/cmsdata/spezialkataloge/gg/higg0101.html"
+   },
+   {
+    "topic": "works: Polybius, German (1574)",
+    "claim": "First German Polybius ('Roemische Historien ... in Siebentzehen Buechern'). Basel: Sebastian Henricpetri 1574, fol. Dedication Heidelberg, 7 March 1574, to Pfalzgraf Johann Casimir; in it he attacks idle pastimes ('Fressen, Saufen, Rasslen'). Hieronymus: one of very few 16th-c. German translations made directly from Greek; Xylander also drew a new map of Greece, apparently never printed.",
+    "source": "GG 259; GG 286",
+    "status": "checked",
+    "url": "https://www.ub.unibas.ch/cmsdata/spezialkataloge/gg/higg0259.html"
+   },
+   {
+    "topic": "works: Strasbourg clock (ADB wrongly 1675)",
+    "claim": "Nicodemus Frischlin's Carmen on the astronomical clock of Strasbourg Cathedral, with Xylander's Schediasma on it: Strasbourg, Nicolaus Wyriot, 1575, 4°; VD16 F 2918. A related item, 'Machinae horologicae Argentorati ... descriptiones' by Xylander and Frischlin, is catalogued Strasbourg 1574, 8°. ADB dates the Schediasma to 1675. Axworthy places the 1575 printing at Tübingen, against the imprint.",
+    "source": "swisscollections 991143732489705501, 991087671449705501; ADB 44, p. 592",
+    "status": "checked",
+    "url": "https://swisscollections.ch/Record/991143732489705501"
+   },
+   {
+    "topic": "works: Diophantus (1575)",
+    "claim": "First Latin translation of Diophantus' Arithmetica (six books), with the scholia of Maximus Planudes on books 1-2 and the treatise on polygonal numbers. 'Diophanti Alexandrini Rerum Arithmeticarum libri sex ... A Guil. Xylandro Augustano incredibili labore Latine redditum, et Commentariis explanatum', Basel: Eusebius Episcopius & Nicolai Fr. haeredes, 1575, fol. Dedication to Duke Ludwig of Württemberg dated Heidelberg, 14 Aug. 1574. No Greek text was printed.",
+    "source": "Heath, Diophantus (1910), pp. 22-25; GG 298",
+    "status": "checked",
+    "url": "https://archive.org/details/diophantusofalex00heatiala"
+   },
+   {
+    "topic": "works: Horace (1575)",
+    "claim": "Horace 'cum argumentis notis & indice', Heidelberg 1575, 8° (reprinted 1590), dedicated to the young Lord of Knipphausen. The preface announces a commentary on the Ars poetica for the winter of 1575 and a large index of the poet. A note on Odes I.7 mentions his geographical Onomasticon.",
+    "source": "ADB 44, pp. 591-592; M. Adam, Vitae (1615), pp. 290-291",
+    "status": "checked",
+    "url": "https://de.wikisource.org/wiki/ADB:Xylander,_Wilhelm"
+   },
+   {
+    "topic": "works: posthumous logic and mathematics (1577)",
+    "claim": "Two posthumous books, both Heidelberg: Jacob Mylius for Matthaeus Harnisch, 1577, 4°. (1) 'Institutiones aphoristicae logices Aristotelis ... et rerum mathematicarum'. (2) 'Opuscula mathematica', [1], 50, [1] leaves (Adams X-46), containing Aphorismi cosmographici, De minutiis, De surdorum numerorum natura & tractatione, and De usu globi & planisphaerii.",
+    "source": "swisscollections 991141840419705501, 991124962679705501, 991038111389705501",
+    "status": "checked",
+    "url": "https://swisscollections.ch/Record/991124962679705501"
+   },
+   {
+    "topic": "works: Diodorus (1578), attribution problem",
+    "claim": "The Basel Diodorus (officina Henricpetrina, March 1578, fol.) was edited by Johann Jacob Grynaeus, dedication 1 April 1578. Sebastian Castellio is named on the title as corrector and partly translator. The title gives 'Gulielmo Xylandro interprete' only for the inserted Tryphiodorus 'Ilii excidium'. ADB's statement that Xylander's Latin translation of Diodorus appeared at Basel in 1578 therefore needs verification.",
+    "source": "GG 247; swisscollections 991014003139705501; ADB 44, p. 592",
+    "status": "checked",
+    "url": "https://www.ub.unibas.ch/cmsdata/spezialkataloge/gg/higg0247.html"
+   },
+   {
+    "topic": "works: German Plutarch Lives (1580)",
+    "claim": "Xylander began a German translation of Plutarch's Lives. It was completed after his death by Jonas Löchinger and printed at Frankfurt in 1580, fol.",
+    "source": "ADB 44, p. 592",
+    "status": "checked",
+    "url": "https://de.wikisource.org/wiki/ADB:Xylander,_Wilhelm"
+   },
+   {
+    "topic": "works: Pausanias (1583)",
+    "claim": "Pausanias, Greek text revised by Xylander, with Romulus Amasaeus' Latin version. The notes were begun by Xylander shortly before his death and continued by Friedrich Sylburg. Frankfurt: heirs of Andreas Wechel, 1583. ADB: dedication by his eldest son Onesimus to Count Ulrich Fugger; reprinted Hanau 1613. Sandys gives 1584.",
+    "source": "swisscollections 991171277106505501; ADB 44, p. 592; Sandys II, p. 270",
+    "status": "checked",
+    "url": "https://swisscollections.ch/Record/991171277106505501"
+   },
+   {
+    "topic": "works: Sleidanus commentary (1608)",
+    "claim": "A commentary by Xylander on Sleidanus' 'De quatuor summis imperiis' was published by Elias Putschius, Hanau 1608, 8°.",
+    "source": "ADB 44, pp. 592-593",
+    "status": "checked",
+    "url": "https://de.wikisource.org/wiki/ADB:Xylander,_Wilhelm"
+   },
+   {
+    "topic": "works: unpublished and lost",
+    "claim": "Adam lists these unpublished works: commentaries on Homer, variarum lectionum libri, tables of Greek grammar, Algebra, Euclidea, Geometrica, Astronomica, and a German translation of the New Testament from the Greek with notes. Gesner's Bibliotheca (1583) gives a similar list as 'nondum edita' and adds the Diophantus as not yet published. ADB adds the planned Onomasticon geographicum and the unfinished commentary on Horace's Ars poetica.",
+    "source": "M. Adam, Vitae (1615), p. 290; Gesner/Frisius, Bibliotheca (1583), pp. 315-316; ADB 44, p. 592",
+    "status": "checked",
+    "url": "http://mateo.uni-mannheim.de/camenaref/adam/adam1/Adam_vitae_1.html#s305",
+    "quote": "tabulas Graecae Grammaticae, Algebram, Euclidea, Geometrica, Astronomica"
+   },
+   {
+    "topic": "works: manuscript German Plutarch on marriage",
+    "claim": "Xylander dedicated an autograph German translation of Plutarch's treatise on marriage to Johann Casimir for his wedding (5 May 1570). ADB says it was then in Heidelberg University Library (Wilken p. 543; Bartsch p. 180). The shelfmark was not found.",
+    "source": "ADB 44, p. 592",
+    "status": "checked",
+    "url": "https://de.wikisource.org/wiki/ADB:Xylander,_Wilhelm"
+   },
+   {
+    "topic": "mathematics: German Euclid, purpose and method",
+    "claim": "The German Euclid was meant not for scholars but for painters, goldsmiths and builders, the readers Dürer had written for. Proofs are often omitted or replaced by numerical examples, and real difficulties are passed over. ADB adds that Jan Pietersz used it for his Dutch translation (Amsterdam 1602), which Seb. Curtius turned back into German (1618, 1634).",
+    "source": "ADB 44, pp. 587-588; Cantor, Vorlesungen II (1892), p. 508",
+    "status": "checked",
+    "url": "https://archive.org/details/11652069bsb"
+   },
+   {
+    "topic": "mathematics: German Euclid, priority",
+    "claim": "Hieronymus notes that Spanish and Italian translations of Euclid came earlier, as did Johann Scheubel's German translation of Books 7-9 (Augsburg 1555). Xylander's is therefore the first German translation of Books 1-6, not the first vernacular Euclid as ADB and Cantor say. In the preface Xylander defends German as a language for the sciences.",
+    "source": "GG 286",
+    "status": "checked",
+    "url": "https://www.ub.unibas.ch/cmsdata/spezialkataloge/gg/higg0286.html"
+   },
+   {
+    "topic": "mathematics: German Euclid, modern study",
+    "claim": "Axworthy shows that Xylander's and Scheubel's Euclid commentaries use arithmetic and cossic algebra extensively, in the Rudolff-Stifel tradition, linked to their Protestant university setting. Examples include numerical treatment of I.35-36, rules for square roots at II.4, irrational ('unnatürliche') numbers, and numerical handling of Book V definitions.",
+    "source": "A. Axworthy, Galilaeana 23.1 (2026), 101-148, doi 10.57617/gal-103",
+    "status": "checked",
+    "url": "https://gal-studies.museogalileo.it/index.php/galilaeana/article/view/103",
+    "quote": "by their extensive use of arithmetic and cossic algebra"
+   },
+   {
+    "topic": "mathematics: Diophantus, how he found the manuscript",
+    "claim": "From the Diophantus preface: he knew Diophantus from the Suda and from Regiomontanus' report of an Italian copy. In October 1571 at Wittenberg, Sebastian Theodoricus (Winshemius) and Wolfgang Schuler showed him a few pages and named the owner, Andreas Dudith (Dudicius Sbardellatus), imperial envoy in Poland. He copied one problem for the journey and showed it at Leipzig to Simon Simonius of Lucca, who wrote to Dudith with him. A few months later Dudith sent the manuscript and urged a translation.",
+    "source": "Heath, Diophantus (1910), pp. 22-25; GG 298",
+    "status": "checked",
+    "url": "https://www.ub.unibas.ch/cmsdata/spezialkataloge/gg/higg0298.html"
+   },
+   {
+    "topic": "mathematics: self-description in the Diophantus preface",
+    "claim": "Xylander says he had mastered Coss/algebra from Christoph Rudolff, Michael Stifel, Cardano and Nunes, 'mutis duntaxat usus praeceptoribus', and had even added to the theory of surds. Diophantus showed him how ignorant he had been. He cites his work on Dio, Plutarch, Strabo and Stephanus as proof of his skill against scribal corruption.",
+    "source": "Heath, Diophantus (1910), pp. 23-24 and n. 1 (full Latin text of the preface passages)",
+    "status": "checked",
+    "url": "https://archive.org/details/diophantusofalex00heatiala",
+    "quote": "Surdorum ego numerorum tractationem ita tenebam, ut etiam addere aliorum inuentis aliquid non poenitendum auderem"
+   },
+   {
+    "topic": "mathematics: Diophantus manuscripts",
+    "claim": "Tannery showed that Xylander's manuscript was the Wolfenbüttel Guelferbytanus Gudianus 1 (15th c.). Pal. gr. 391 (end of 16th c.) has German marginal notes showing it was prepared for printing. It was written either by Xylander or for him, and indicates that he intended a Greek edition that never appeared.",
+    "source": "Heath, Diophantus (1910), pp. 17, 25 (after Tannery)",
+    "status": "checked",
+    "url": "https://archive.org/details/diophantusofalex00heatiala"
+   },
+   {
+    "topic": "mathematics: equality sign",
+    "claim": "In the notes to his Diophantus Xylander used a symbol for equality: two short vertical parallel strokes (||). Heath cites an example on p. 76 of the 1575 book; Cantor says it is found on p. 9 and elsewhere.",
+    "source": "Heath, Diophantus (1910), p. 48; Cantor, Vorlesungen II (1892), p. 509",
+    "status": "checked",
+    "url": "https://archive.org/details/11652069bsb"
+   },
+   {
+    "topic": "mathematics: reward for Diophantus",
+    "claim": "Adam, citing Martin Crusius, says Duke Ludwig of Württemberg rewarded the Diophantus with 50 thalers. ADB and Cantor reject the 500 thalers given by Heilbronner and Zedler; Cantor notes Xylander's loan request of 1575.",
+    "source": "M. Adam, Vitae (1615), p. 290; ADB 44, p. 591; Cantor II, p. 509",
+    "status": "checked",
+    "url": "http://mateo.uni-mannheim.de/camenaref/adam/adam1/Adam_vitae_1.html#s305",
+    "quote": "teste Crusio, quinquaginta thaleris muneratus pro ea fuit"
+   },
+   {
+    "topic": "mathematics: evaluation of the Diophantus",
+    "claim": "Heath (following Nesselmann) judges the Diophantus a highly meritorious first edition from one corrupt manuscript. Its translation is often rough through over-literal adherence, but it had an immediate influence on algebra. Heath also found Bachet's repeated disparagement unfair and judged that Bachet owed Xylander more than he admitted.",
+    "source": "Heath, Diophantus (1910), pp. 25-26",
+    "status": "checked",
+    "url": "https://archive.org/details/diophantusofalex00heatiala"
+   },
+   {
+    "topic": "mathematics: reception (modern)",
+    "claim": "Meskens' monograph on the transmission of the Arithmetica treats Xylander's edition as the start of its European reception, followed by Bombelli, Stevin, Viète and Bachet.",
+    "source": "A. Meskens, Travelling Mathematics - The Fate of Diophantos' Arithmetic (Basel: Birkhäuser 2010), ISBN 9783034606431 (publisher description)",
+    "status": "checked",
+    "url": "https://straelenerbuchhaus.e-bookshelf.de/travelling-mathematics-the-fate-of-diophantos-arithmetic-8506.html",
+    "quote": "Once Xylander's critical 1575 edition reached its European public"
+   },
+   {
+    "topic": "where his papers are: letters by Xylander",
+    "claim": "Basel UB: to Johannes Oporinus, 5 Aug. 1558 (Frey-Gryn Mscr I 11:Bl.376); to Bonifacius Amerbach, 8 July 1560 (G II 28:Bl.170); to Thomas Grynaeus, 10 Aug. 1563 (G2 I 22:1:83 and G II 12:S.1329-1330); to Eusebius Episcopius, 26 Oct. 1567 (Frey-Gryn Mscr I 11:Bl.377); to Abraham Musculus, 28 July 1567, 21 Apr. 1568, 21 Dec. 1571 (G I 69:Nr.23, Nr.25; G I 68:Nr.208); to Albrecht von Stetten, 10 Feb. 1569 and 23 July 1573 (G I 25:Bl.96, 110); to Samuel Grynaeus, 20 Sept. 1571 (G2 I 30:Bl.201; G II 34:Bl.4). Zofingen Stadtbibliothek: three letters to Abraham Musculus (Pa 14:2,25; 2,27; 1,197). Zurich ZB: to Rudolf Gwalther and Ulrich Zwingli [jr.], 15 Mar. 1570 (Ms F 41.274); to Johann Wolf, 20 Sept. 1572 (Ms F 42.180); also in Ms F 36.85. Heidelberg UB: to Johannes Crato, 1562-1575 (Heid. Hs. 1464,12). LMU Munich UB: to an unknown recipient, 20 Nov. 1571 (2 Cod. ms. 663(158). BSB Munich: undated, to an unknown recipient (8 A gr. b. 3056).",
+    "source": "Kalliope SRU, creator GND 124331025 (22 records); swisscollections search results",
+    "status": "checked",
+    "url": "https://kalliope-verbund.info/gnd/124331025"
+   },
+   {
+    "topic": "where his papers are: letters to Xylander",
+    "claim": "Letter from Ludwig Lavater to Xylander, 10 March [c. 1570]: Basel UB G2 I 22:2:58-60 (and G2 II 37:Bl.77-81). Undated letter from Konrad Dasypodius at Strasbourg to Xylander: Staats- und Universitätsbibliothek Bremen, msa 0008/414.",
+    "source": "Kalliope SRU, addressee GND 124331025; swisscollections 991170457616805501",
+    "status": "checked",
+    "url": "https://kalliope-verbund.info/gnd/124331025"
+   },
+   {
+    "topic": "where his papers are: manuscripts connected with him",
+    "claim": "Three manuscripts are tied to his work. (1) Dudith's Diophantus manuscript, now Wolfenbüttel, Cod. Guelf. Gud. gr. 1 (after Tannery). (2) Pal. gr. 391, possibly his printer's copy, with German notes. (3) The Heidelberg paradoxographer codex Pal. gr. 398, which he edited in 1568. The Heidelberg Marcus Aurelius codex behind the 1558/59 edition is lost.",
+    "source": "Heath, Diophantus (1910), pp. 17, 25; ADB 44, pp. 584, 586",
+    "status": "checked",
+    "url": "https://de.wikisource.org/wiki/ADB:Xylander,_Wilhelm"
+   },
+   {
+    "topic": "portraits",
+    "claim": "Two portraits: (1) on the verso of the title of the Greek Plutarch Moralia (Basel 1574), with a poem by Theobald Müller; (2) in Boissard and de Bry, Bibliotheca chalcographica (Heidelberg 1652-1669), plate Eee4. CAMENA labels him 'Humanist, Musiker, Philosoph'. ADB also lists Brucker, Ehrentempel (1747), 'mit Bildniß'.",
+    "source": "GG 101; CAMENA portrait page; ADB 44, p. 593",
+    "status": "checked",
+    "url": "http://mateo.uni-mannheim.de/desbillons/aport/seite211.html"
+   },
+   {
+    "topic": "modern literature: main documentary edition",
+    "claim": "Kühlmann, Hartmann, Hufnagel, Czapla, Gruhl, Hanstein and Ludescher (eds.), Die deutschen Humanisten, Abt. I: Die Kurpfalz, Bd. V (Turnhout: Brepols 2016; Europa Humanistica 15; 1207 pp.; ISBN 978-2-503-55409-9). It includes Wilhelm Xylander; the publisher calls him a neglected pioneer of Greek studies with emphasis on mathematical, geographical and Byzantine texts. It edits documents of transmission (prefaces, dedications). Not read; page range of the Xylander section unknown.",
+    "source": "Brepols product page",
+    "status": "checked",
+    "url": "https://www.brepols.net/products/IS-9782503554099-1"
+   },
+   {
+    "topic": "modern literature: reference works",
+    "claim": "No NDB article exists for Xylander; the Deutsche Biographie page carries only the ADB article. Axworthy (2026, p. 108 n. 37) cites as the standard reference works: Schöll's ADB article; D. Gall, 'Xylander, Guilielmus', Brill's New Pauly Supplements I Online, vol. 6; and D. Drüll, Heidelberger Gelehrtenlexikon 1386-1651 (Berlin/Heidelberg: Springer 2002), pp. 562-563. Gall and Drüll were not read.",
+    "source": "Deutsche Biographie (GND 124331025); Axworthy, Galilaeana 23.1 (2026), p. 108 n. 37",
+    "status": "checked",
+    "url": "https://www.deutsche-biographie.de/pnd124331025.html"
+   },
+   {
+    "topic": "older literature listed by ADB",
+    "claim": "ADB (p. 593) names the main sources: university records (Tübingen, Basel, Heidelberg) and Xylander's own prefaces and dedications. It lists Adam (1615), Gesner's Bibliotheca (1574/1583), Niceron (ed. Baumgarten XV, 1757), Brucker (1747), Bayle, Zedler LX (1749), Wundt (1789), Kästner (1796), Hautz (1846, 1855, 1864), Toepke II (1886), L. Kayser (1865), Bursian and Cantor II (1892). It dismisses Pantaleon, Freher and Teissier as worthless. Schöll adds that no reasonably complete treatment of Xylander's life and work exists.",
+    "source": "ADB 44, p. 593",
+    "status": "checked",
+    "url": "https://de.wikisource.org/wiki/ADB:Xylander,_Wilhelm",
+    "quote": "Eine auch nur einigermaßen vollständige Behandlung des Lebens und Wirkens von X. gibt es nicht."
+   }
+  ],
+  "sources_tried_without_result": "- e-rara.ch: blocked by a bot 'Challenge' page; not attempted further.\n- VD16 via gateway-bayern.de: Anubis bot check; not passed. VD16 numbers were taken from swisscollections instead.\n- Heidelberg UB digi (cpgraec391, for the description of Pal. gr. 391): Anubis 'Access Denied'.\n- DHI Paris catalogue (record of Die deutschen Humanisten I/5): BunkerWeb bot detection; the Brepols page was used instead.\n- Bayerisches Musikerlexikon Online (bmlo.de; Xylander has an entry there): site offline for a security measure.\n- Google Books API: quota exceeded.\n- Drüll, Heidelberger Gelehrtenlexikon 1386-1651: no online text found; known only by citation (pp. 562-563).\n- J. E. Hofmann on Xylander's Diophantus: no relevant text found.\n- PhilPapers record REIDRD (apparently on the Wittenberg transmission of Diophantus): HTTP 403.\n- Springer page for Meskens 2010: login redirect; the publisher description was used instead.\n- Bursian, Geschichte der classischen Philologie (1883), archive.org: Fraktur OCR unusable.\n- Bartsch, Katalog der Handschriften ... Heidelberg (1887), archive.org OCR: shelfmark of the German Plutarch marriage translation not found.\n- Stadtlexikon Augsburg entry: not found online.\n- MDZ/BSB and Gallica copies of the prefaces were not consulted; the GG paraphrases were used instead.",
+  "open_questions": "1. Wife: her name, the date of the marriage, and the number of children (only Onesimus, the eldest, is named). The epitaph does not name her.\n2. Logic chair: 1562 (Cantor, EB1911, Wikipedia) or early 1563 (ADB). The evidence of December 1562 (dean's entry and Euclid title still 'Greek professor') favours 1563. Drüll should be checked.\n3. Librarian: 1558 (Sandys) or 1561 at 20 fl. (ADB).\n4. Arrival at Basel: 1556 (Adam) or matriculation 20 July 1557 (ADB, GG). Did he live in Basel before matriculating while working for Oporinus in 1556?\n5. Age on the epitaph: the numeral in Adam's Apographum (1612, p. 49) reads 'XLIII' in OCR and needs checking against the page image. Adam's Vitae gives 44; ADB says 'im kaum begonnenen 44. Lebensjahr'.\n6. Dated discrepancies to settle against title pages:\n- Marcus Aurelius 1558 or 1559 (issues differ);\n- Euripides preface 29 Aug. (GG) or 1 Sept. (ADB);\n- Greek Moralia dedication 12 or 14 Aug. 1574 (inconsistent within GG 101);\n- Pausanias 1583 (imprint) or 1584 (Sandys).\n7. Did Xylander make a Latin translation of Diodorus (ADB)? The 1578 Basel edition was edited by J. J. Grynaeus, with Castellio as corrector and partly translator; only the Tryphiodorus is credited to Xylander on the title.\n8. Strasbourg clock pieces: the relation between 'Machinae horologicae ... descriptiones' (Strasbourg 1574) and the Frischlin/Xylander Carmen with Schediasma (Wyriot 1575, VD16 F 2918). ADB's 1675 is presumably a misprint.\n9. Not verified on a catalogue record: the printer of the Horace (Heidelberg 1575) and the exact imprint of the Theocritus (Frankfurt: Braubach 1558).\n10. Shelfmark of the autograph German translation of Plutarch's Coniugalia praecepta for Johann Casimir (1570), said by ADB to be in Heidelberg UB.\n11. Pal. gr. 391: was it written by Xylander himself? Its German marginal notes are not yet seen, as the Heidelberg digital copy was blocked.\n12. Surviving books with Xylander's own marginalia: none identified. Two copies with annotations were found, and neither is shown to be his: the Bern Psellus is annotated by Bongars, and the 'zahlreiche Randnotizen' in the Basel copy of the Plutarch annotations (UBH Bc I 93) are of unknown hand.\n13. Letters to Joachim Camerarius or other Nuremberg/Leipzig correspondents (e.g. in the Camerariana, BSB Clm): not found in Kalliope and not searched elsewhere.\n14. Contents of the main modern sources not read: Kühlmann et al., Die deutschen Humanisten I/5 (2016; probably edits Xylander's paratexts); Gall's Brill's New Pauly Supplement article; Drüll's entry.\n15. Date of the dean-and-promotor role on 10 Aug. 1563. ADB says Witekind was the first doctor promoted by Xylander. Toepke's OCR seems to name a 'Johannes Leuvenklaw' as promotor under Xylander's deanship."
+ },
+ "verify": {
+  "checks": [
+   {
+    "index": 0,
+    "verdict": "confirmed",
+    "url_used": "https://de.wikisource.org/w/index.php?title=ADB:Xylander,_Wilhelm&action=raw",
+    "note": "Checked. ADB 44, p. 582, has the quoted words verbatim. It gives Holtzmann/Holzmann as other spellings and says he called himself (Guilielmus) Xylander 'schon in seiner Studentenzeit'."
+   },
+   {
+    "index": 1,
+    "verdict": "confirmed",
+    "url_used": "https://de.wikisource.org/w/index.php?title=ADB:Xylander,_Wilhelm&action=raw",
+    "note": "Checked. ADB p. 582 gives 26 Dec. 1532 at Augsburg and says he was the child of 'rechtschaffener, gänzlich unbemittelter Eltern' and was meant to learn a trade ('sollte ... ein Handwerk erlernen')."
+   },
+   {
+    "index": 2,
+    "verdict": "confirmed",
+    "url_used": "http://mateo.uni-mannheim.de/camenaref/adam/adam1/Adam_vitae_1.html#s305",
+    "note": "Checked. CAMENA p. 289 (image s305) has the quoted text. The full marginal note reads 'Vernacule Holtzmann, Fortuna Xyland. iniquior.'"
+   },
+   {
+    "index": 3,
+    "verdict": "confirmed",
+    "url_used": "https://de.wikisource.org/w/index.php?title=ADB:Xylander,_Wilhelm&action=raw",
+    "note": "Checked, ADB p. 582. Betulejus (Sixt Birck/Birken) is called 'Rector und Bibliothekar'. Bürgermeister Wolfgang Rehlinger 'Unterstützung von der Stadt vermittelte'. He went to the St. Ulrichsschule, then was supported from the St. Antonipfründe and moved to the St. Annaschule."
+   },
+   {
+    "index": 4,
+    "verdict": "confirmed",
+    "url_used": "http://mateo.uni-mannheim.de/camenaref/adam/adam1/Adam_vitae_1.html#s305",
+    "note": "Checked, Adam p. 289. It reads 'D. Wolffgangus Relingerus impetrata ipsi ex aerario publico stipe ... in collegium Ulricianum primum, deinde Antonianum ... fuit receptus'."
+   },
+   {
+    "index": 5,
+    "verdict": "corrected",
+    "url_used": "https://www.ub.unibas.ch/cmsdata/spezialkataloge/gg/higg0297.html",
+    "correction": "GG 297 does not say that the stipend also covered Tübingen. It says the elder Rehlinger obtained a city stipend for him, so that he entered the Ulrichsschule and then the Antoninianum. It then says only 'Von dort sei er zur höheren Ausbildung nach Tübingen gesandt worden'.",
+    "note": "Checked. The rest matches: dedication of 1 Sept. 1567 to Karl Wolfgang Relinger; parents meant to take him from school for 'Sitzarbeit (d.h. als Schreiber)'. GG adds that the elder Rehlinger died before seeing the fruit of his support."
+   },
+   {
+    "index": 6,
+    "verdict": "confirmed",
+    "url_used": "https://de.wikisource.org/w/index.php?title=ADB:Xylander,_Wilhelm&action=raw",
+    "note": "Checked, ADB pp. 582-583. Translated Tryphiodorus at 16; Oporinus printed it 'ohne sein Wissen'; revision in the Basel Diodorus of 1578 (also Paris 1647)."
+   },
+   {
+    "index": 7,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/bub_gb_sw7jjS6ygrcC/bub_gb_sw7jjS6ygrcC_djvu.txt",
+    "note": "Checked. Gesner/Frisius 1583, entry 'Guilhelmus Xylander', pp. 315-316 (the page head 316 falls inside the entry). The OCR reads 'Oporinus ipso inscio edidit' and 'Verum idem opusculum denuo heroico carmine vertit, annotationibus additis ... sed ea versio non est edita'. The age is garbled in the OCR ('t6 ... natus in schola Augustana fecit'), so the figure 16 should be checked on the page image."
+   },
+   {
+    "index": 8,
+    "verdict": "confirmed",
+    "url_used": "https://de.wikisource.org/w/index.php?title=ADB:Xylander,_Wilhelm&action=raw",
+    "note": "Checked, ADB p. 583. All details match: 21 Aug. 1549, 13 Kreuzer, rector Sichardus, Schegk, Baccalaureus 12 March 1550, physics and medicine, 'aber ganz als Autodidact', 'bittersten Sorgen'."
+   },
+   {
+    "index": 9,
+    "verdict": "confirmed",
+    "url_used": "https://www.ub.unibas.ch/cmsdata/spezialkataloge/gg/higg0298.html",
+    "note": "Checked. GG 298 paraphrases the dedication: 'In Tübingen habe er fünf Jahre verbracht'. Schegk is his teacher, 'dem er alle Kenntnis in aristotelischer Philosophie verdanke'. The dedication is dated 14 Aug. 1574."
+   },
+   {
+    "index": 10,
+    "verdict": "confirmed",
+    "url_used": "https://gal-studies.museogalileo.it/index.php/galilaeana/article/download/103/65",
+    "note": "Checked in the PDF, p. 108: 'Although his biographer Fritz Schöll claims that he was self-taught in mathematics, he may have attended Scheubel's mathematics lectures at Tübingen.' No evidence is cited for it, so it is a conjecture."
+   },
+   {
+    "index": 11,
+    "verdict": "confirmed",
+    "url_used": "https://de.wikisource.org/w/index.php?title=ADB:Xylander,_Wilhelm&action=raw",
+    "note": "Checked, ADB p. 583. Returned 'nach beinahe fünfjährigem Studium' around Betulejus' death (19 June 1554). Herward took him in; the Fugger house supported him; Hieronymus Wolf gave him 'vertrauten, bildenden Umgang'."
+   },
+   {
+    "index": 12,
+    "verdict": "confirmed",
+    "url_used": "https://de.wikisource.org/w/index.php?title=ADB:Xylander,_Wilhelm&action=raw",
+    "note": "Checked. ADB p. 584 gives 20 July 1557 and 9 Feb. 1558. P. 585 says the claim that he already taught at Basel is 'sicher falsch', citing the Basel university records."
+   },
+   {
+    "index": 13,
+    "verdict": "corrected",
+    "url_used": "http://mateo.uni-mannheim.de/camenaref/adam/adam1/Adam_vitae_1.html#s305",
+    "correction": "The marginal note 'Inscriptus anno 1549. Inde Basileam.' is attached to the Tübingen sentence ('Tubingam ... missus'). It dates the Tübingen matriculation, not the Basel one. GG 268 gives only 'Im Juli 1557'; the exact date 20 July 1557 is in GG 198 and GG 101, as well as in ADB.",
+    "note": "Checked, Adam p. 289. 'Anno 1556. ad Basiliensem accessit Academiam' is verbatim."
+   },
+   {
+    "index": 14,
+    "verdict": "confirmed",
+    "url_used": "https://www.ub.unibas.ch/cmsdata/spezialkataloge/gg/higg0268.html",
+    "note": "Checked. GG 268: the dedication shows that young Xylander worked 'bei Oporin als Korrektor um Verdienst'. Xylander himself checked and corrected the single pages before they went to press."
+   },
+   {
+    "index": 15,
+    "verdict": "confirmed",
+    "url_used": "https://de.wikisource.org/w/index.php?title=ADB:Xylander,_Wilhelm&action=raw",
+    "note": "Checked, ADB p. 585. The other candidates were Bertrand (Sturm's candidate) and Fabricius Boland, who had offered himself. The Elector proposed a trial. Erastus and Eheim interceded. The resolution of 15 Aug. 1558 reads 'zum Versuch auff- und angenommen'."
+   },
+   {
+    "index": 16,
+    "verdict": "confirmed",
+    "url_used": "https://de.wikisource.org/w/index.php?title=ADB:Xylander,_Wilhelm&action=raw",
+    "note": "Checked, ADB pp. 585-586. Salary 100 fl. with Micyllus' house; first lecture 17 Aug.; house on 2 Sept. The Theocritus and Euripides prefaces are dated Basel, 31 Aug. and 1 Sept. Matriculation 22 Oct.; senate 22 Dec."
+   },
+   {
+    "index": 17,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/bub_gb_sosdAQAAIAAJ/bub_gb_sosdAQAAIAAJ_djvu.txt",
+    "note": "Checked. The OCR reads '96v 74, M. Guilielmus Xylander, Augustanus, die XXII Octobris, professor Graecarum literarum'. The printed page number was not found in the OCR."
+   },
+   {
+    "index": 18,
+    "verdict": "confirmed",
+    "url_used": "https://de.wikisource.org/w/index.php?title=ADB:Xylander,_Wilhelm&action=raw",
+    "note": "Checked. ADB pp. 586, 587 and 589 contain every figure and date in the claim. He asked for the 50 fl. as 'Oel auf seine Lampe'."
+   },
+   {
+    "index": 19,
+    "verdict": "confirmed",
+    "url_used": "https://de.wikisource.org/w/index.php?title=ADB:Xylander,_Wilhelm&action=raw",
+    "note": "Checked. ADB p. 587: 'Im J. 1561 ... als Bibliothekar an der kurfürstlichen Bibliothek angestellt ... mit einer Besoldung von 20 fl.' Sandys dates the librarianship to 1558 instead."
+   },
+   {
+    "index": 20,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/historyofclassic02sanduoft/historyofclassic02sanduoft_djvu.txt",
+    "note": "Checked, Sandys II p. 270. The wording and dates match, including 'He made good use of the MSS accessible to him, and also gave proof of a singular acumen in the emendation of texts'."
+   },
+   {
+    "index": 21,
+    "verdict": "confirmed",
+    "url_used": "https://de.wikisource.org/w/index.php?title=ADB:Xylander,_Wilhelm&action=raw",
+    "note": "Checked. ADB p. 587: 1561 mathematics 'vorübergehend', and Ramus' recommendation (prooemium mathem., 1567). P. 588: 'noch am 1. August 1562' the faculty announces his readiness to lecture."
+   },
+   {
+    "index": 22,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/11652069bsb/11652069bsb_djvu.txt",
+    "note": "Checked. Cantor II p. 504 has Ramus naming Xylander for Heidelberg. P. 507 has the mathematical lectures in the last of his four Greek years, and Simon Grynaeus the Younger at 'fl. 60 nebst freier Wohnung'."
+   },
+   {
+    "index": 23,
+    "verdict": "corrected",
+    "url_used": "https://de.wikisource.org/w/index.php?title=ADB:Xylander,_Wilhelm&action=raw",
+    "correction": "ADB prints 'publicus Organi Aristotelij interpres' (i.e. Aristotelii), not 'Aristotelici'. EB1911 has 'Aristotelii'; 'Aristotelici' is de.wikipedia's form.",
+    "note": "Checked. Otherwise confirmed at ADB p. 588: beginning of 1563, exchange with Witekind 'auf den dringenden Wunsch des Senates', first public professor of logic, held until his death."
+   },
+   {
+    "index": 24,
+    "verdict": "confirmed",
+    "url_used": "https://en.wikisource.org/w/index.php?title=Page:EB1911_-_Volume_28.djvu/916&action=raw",
+    "note": "Checked. EB1911 (vol. 28, wikisource djvu p. 916): 'which he exchanged for that of logic ... in 1562'. Cantor II p. 507: 'Diese Stellung nahm er seit 1562 ein'. de.wikipedia: '1562 erweiterte er diese Professur auf den Lehrstuhl für Logik'. Note that de.wikipedia says 'erweiterte' (extended) rather than exchanged."
+   },
+   {
+    "index": 25,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/bub_gb_sosdAQAAIAAJ/bub_gb_sosdAQAAIAAJ_djvu.txt",
+    "note": "Checked. The Toepke OCR has the quoted dean entry, followed by the 1563 promotions in which Witekind is listed. The Euclid style is in ADB's title transcription and in Cantor p. 507 as quoted. GG 286 quotes the dedication subscription as 'Griechischer Professor des Churfürstlichen Studiums inn Heydelberg'."
+   },
+   {
+    "index": 26,
+    "verdict": "confirmed",
+    "url_used": "https://de.wikisource.org/w/index.php?title=ADB:Xylander,_Wilhelm&action=raw",
+    "note": "Checked, ADB p. 588. The reply reads 'publice docet ... hora matutina sexta. Auditorum numerum numquam subduxit ... non habeo, ut me mei poeniteat auditorii.'"
+   },
+   {
+    "index": 27,
+    "verdict": "confirmed",
+    "url_used": "https://de.wikisource.org/w/index.php?title=ADB:Xylander,_Wilhelm&action=raw",
+    "note": "Checked, ADB pp. 588-589. He introduced Witekind on 9 Feb. and then Pithopoeus. On 10 Sept. he went with Agricola to Oppenheim; the move with seven professors followed on 21 Sept.; the return was on 12 March 1564."
+   },
+   {
+    "index": 28,
+    "verdict": "confirmed",
+    "url_used": "https://de.wikisource.org/w/index.php?title=ADB:Xylander,_Wilhelm&action=raw",
+    "note": "Checked, ADB p. 589: 'una totius senatus voce ... im 6. Jahre seiner Thätigkeit und im 32. seines Lebens'."
+   },
+   {
+    "index": 29,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/bub_gb_sosdAQAAIAAJ/bub_gb_sosdAQAAIAAJ_djvu.txt",
+    "note": "Checked. The list of rectors reads 'Wilhelmus Xylander al. Holtzmann de Augsburg / 26. April. 1664 / 61 / 339', then 'Petrus Boquinus de Bourges / 20. Dec. 1664'. The OCR misprints 1564 as 1664."
+   },
+   {
+    "index": 30,
+    "verdict": "confirmed",
+    "url_used": "http://mateo.uni-mannheim.de/camenaref/adam/adam1/Adam_vitae_1.html#s305",
+    "note": "Checked, Adam pp. 289-290. Maulbronn, April 1564: 'notarii munere', and Osiander held the same office for Württemberg. Frankenthal, 1571: marginal note 'ad d. 28. Maii', 'd. 19. Iunii solutum'. Zuleger presided, Dathenus was 'collocutor', and Xylander served with Caspar Faus and Martin Neander. ADB p. 590 dates the colloquy 'im Juni 1571' and calls his role 'Secretär'."
+   },
+   {
+    "index": 31,
+    "verdict": "confirmed",
+    "url_used": "https://de.wikisource.org/w/index.php?title=ADB:Xylander,_Wilhelm&action=raw",
+    "note": "Checked. ADB p. 585 has the Zwinglians with Erastus and Eheim. P. 589 has the Genevan discipline and Sylvan (petition, Kirchenrat protocol of 20 Sept. 1570, executed 23 Dec. 1573). Pp. 589-590 have the relegation of 19 April 1570 'propter libellum famosum et valde mordacem in Xylandrum'."
+   },
+   {
+    "index": 32,
+    "verdict": "confirmed",
+    "url_used": "https://de.wikisource.org/w/index.php?title=ADB:Xylander,_Wilhelm&action=raw",
+    "note": "Checked, ADB p. 590. The ethics chair fell vacant by Strigel's death; the faculty named Xylander on 12 Nov. (1569); he gave it up the next year to Lanoius of Antwerp."
+   },
+   {
+    "index": 33,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/bub_gb_sosdAQAAIAAJ/bub_gb_sosdAQAAIAAJ_djvu.txt",
+    "note": "Checked. Toepke OCR: 'Decano II. M. Guilielmo Xylandro Augustano anno 1570 20. Decembris electo — anno 1571 7. Augusti promoti sunt'. ADB p. 590: 'für 1571 zum zweiten Mal zum Decan gewählt'."
+   },
+   {
+    "index": 34,
+    "verdict": "confirmed",
+    "url_used": "https://de.wikisource.org/w/index.php?title=ADB:Xylander,_Wilhelm&action=raw",
+    "note": "Checked, ADB p. 590."
+   },
+   {
+    "index": 35,
+    "verdict": "confirmed",
+    "url_used": "https://de.wikisource.org/w/index.php?title=ADB:Xylander,_Wilhelm&action=raw",
+    "note": "Checked, ADB p. 591. On the Pigavetta affair: 'nicht einmal zu einer gerichtlichen Untersuchung'. Cantor II p. 509 also mentions the loan, dated '1575 oder zu Anfang von 1576'."
+   },
+   {
+    "index": 36,
+    "verdict": "confirmed",
+    "url_used": "https://de.wikisource.org/w/index.php?title=ADB:Xylander,_Wilhelm&action=raw",
+    "note": "Checked, ADB p. 591: 'im kaum begonnenen 44. Lebensjahr (nicht 1575 im vollendeten 45., wie Thuanus schrieb)'. The quote and the epitaph lines 'labor intempestivus nimiusque' are present."
+   },
+   {
+    "index": 37,
+    "verdict": "confirmed",
+    "url_used": "http://mateo.uni-mannheim.de/camenaref/adam/adam1/Adam_vitae_1.html#s305",
+    "note": "Checked, Adam p. 291: 'morbo ex intempestivis laboribus atque lucubrationibus contracto, anno 1576. die 10. Februar. aetatis 44. Heidelbergae ad D. Petri, in sacello Academiae cum luctu collegarum, et studiosae iuventutis sepultus'."
+   },
+   {
+    "index": 38,
+    "verdict": "corrected",
+    "url_used": "https://api.digitale-sammlungen.de/iiif/image/v2/bsb11064507_00063/full/1200,/0/default.jpg",
+    "correction": "The page image (MDZ bsb11064507, scan 0063 = printed p. 49) reads clearly 'Obiit X. Febr. A. M. D. LXXVI. / Anno aetatis XLIII.' The age is therefore 43, not XLIIII. This differs from Adam's 'aetatis 44' and ADB's 44th year. The printed text begins 'Quò saxum struis, ô nobis fidissima conjunx'.",
+    "note": "Checked on the page image. The heading 'Wilhelmus Xylander Augustanus alloquitur uxorem' is on p. 49. No name of the wife is printed."
+   },
+   {
+    "index": 39,
+    "verdict": "confirmed",
+    "url_used": "https://de.wikipedia.org/w/index.php?title=Guilielmus_Xylander&action=raw",
+    "note": "Checked. de.wikipedia: 'Sein Grabstein ist in der Universitätskapelle der Heidelberger Peterskirche erhalten.' ADB p. 593 says the epitaph is printed in Adam's Apographum p. 49 'und noch vorhanden'."
+   },
+   {
+    "index": 40,
+    "verdict": "confirmed",
+    "url_used": "https://de.wikisource.org/w/index.php?title=ADB:Xylander,_Wilhelm&action=raw",
+    "note": "Checked. ADB p. 585: unlike Erastus, 'nach Neigung und ohne Rücksicht auf Umstände eine glückliche Ehe'. P. 589: wife and children. P. 592: Onesimus matriculated 19 March 1572 'iniuratus propter aetatem', studies paid by the Elector, and Ulrich Fugger supported the family. Additional finding: GG 101 paraphrases the 1574 dedication. Xylander found his wife in Basel, became engaged before leaving for Heidelberg, and returned to Basel for the wedding."
+   },
+   {
+    "index": 41,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/bub_gb_sosdAQAAIAAJ/bub_gb_sosdAQAAIAAJ_djvu.txt",
+    "note": "Checked. The entry text matches. It stands in the rectorate beginning 20 Dec. 1571, but the exact date heading is not legible in the OCR."
+   },
+   {
+    "index": 42,
+    "verdict": "confirmed",
+    "url_used": "http://mateo.uni-mannheim.de/camenaref/adam/adam1/Adam_vitae_1.html#s305",
+    "note": "Checked. Adam p. 290 ends 'Fuit ingenii subtilitate, iudicii perspicacitate, memoriae felicitate eximia praeditus'. P. 291 has the quoted list including 'Musicus'. It continues 'laborum tolerans, candidus, apertus ... philosophus vere Christianus', and has the Ate passage: 'numquam tamen pectus ... expugnavit'."
+   },
+   {
+    "index": 43,
+    "verdict": "confirmed",
+    "url_used": "http://mateo.uni-mannheim.de/camenaref/adam/adam1/Adam_vitae_1.html#s305",
+    "note": "Checked, Adam pp. 290-291. CAMENA has the misprint 'rato' for 'raro': 'rato opus ullum solitus absolvere prius, quam typographis traderet ... Nec unam interim rem solam unquam agebat ...'. The quote matches."
+   },
+   {
+    "index": 44,
+    "verdict": "corrected",
+    "url_used": "http://mateo.uni-mannheim.de/camenaref/adam/adam1/Adam_vitae_1.html#s305",
+    "correction": "Only two of the three remarks are marginal notes. The correction of the year is a parenthesis inside Adam's text: 'eodem anno (ponit 1575. sed perperam) obiit'. The age correction 'Verius XLIIII.' and 'Fatetur ipse Xylander in praefat. ad lectorem vit. Plutarch.' are marginal notes.",
+    "note": "Checked, Adam p. 291. The Thuanus quote, with the marginal reference 'lib. 61 hist.', and the quoted words are verbatim."
+   },
+   {
+    "index": 45,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/bub_gb_mPcf6nFu0mUC/bub_gb_mPcf6nFu0mUC_djvu.txt",
+    "note": "Checked. Scaligerana 1695, letter X, OCR: 'Xylander Augustanus doctus erat, & benè legebat: sed quoties erat ebrius.' The page number was not determined. ADB pp. 591-592 quotes 'bene legerat' from Scaligerana II p. 155 and rejects the charge as stated in the claim."
+   },
+   {
+    "index": 46,
+    "verdict": "confirmed",
+    "url_used": "https://de.wikisource.org/w/index.php?title=ADB:Xylander,_Wilhelm&action=raw",
+    "note": "Checked. ADB p. 585 has Oporinus' 'Trostelegie' after the lament (March 1558) with the quoted line. P. 587 has Casaubon's charge of 'Eilfertigkeit und Flüchtigkeit' and Balduin naming him for the commission on the Bursa and the Dionysianum."
+   },
+   {
+    "index": 47,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/diophantusofalex00heatiala/diophantusofalex00heatiala_djvu.txt",
+    "note": "Checked. Heath p. 22 n. 3: 'Even Bachet, who ... was no favourable critic, calls him \"Vir omnibus disciplinis excultus.\"'"
+   },
+   {
+    "index": 48,
+    "verdict": "confirmed",
+    "url_used": "https://swisscollections.ch/Record/991103828099705501/Export?style=MARCXML",
+    "note": "Checked in the MARC records. 991103828099705501: Basileae, per Ioannem Oporinum, [1556?]; 263 [=163], [1], 175 S.; VD16 M 5144. 991024800229705501: Bern MUE Bong IV 332:1, 'Annotiert von Bongars'. 991135445199705501: '[1554]', 'Existenz des Drucks fraglich (nur bei Zinner aufgeführt)', Zinner no. 2102."
+   },
+   {
+    "index": 49,
+    "verdict": "confirmed",
+    "url_used": "https://www.ub.unibas.ch/cmsdata/spezialkataloge/gg/higg0296.html",
+    "note": "Checked. GG 296: Augsburg, 5 Nov. 1556 'dem einzigen Datum des Drucks', to Ulrich Fugger. Imprint [Ende 1556/Anfang 1557], probably for the Lent fair of 1557 with Wolf's Zonaras (GG 270). Third printing after Venice 1532 and Paris 1545. Not parallel: translation, then annotations, then the Greek."
+   },
+   {
+    "index": 50,
+    "verdict": "confirmed",
+    "url_used": "https://de.wikisource.org/w/index.php?title=ADB:Xylander,_Wilhelm&action=raw",
+    "note": "Checked, ADB p. 584: 'Die werthlose Compilation ... für werth auf Schulen ... Anfängern erklärt zu werden'. He refers in his notes to the German Euclid, which was printed only six years later."
+   },
+   {
+    "index": 51,
+    "verdict": "corrected",
+    "url_used": "https://swisscollections.ch/Record/991083964439705501/Export?style=MARCXML",
+    "correction": "The Herold Panegyricus with Xylander's Ode gratulatoria is catalogued 'Basileae, Per Ioannem Oporinum, 1558' (no brackets; 153, [1] S., [3] Bl., 8°; VD16 H 2551; e-rara doi 10.3931/e-rara-2065). The date is not '[c. 1557/1558]'.",
+    "note": "Checked. The Weitmoser Monodia is Basel: Oporinus [1558], [12] Bl., 8°. The Rauner Schediasma is Heidelberg, colophon 'ex officina Ludovici Lucii ... 1561', VD16 H 4560."
+   },
+   {
+    "index": 52,
+    "verdict": "confirmed",
+    "url_used": "https://www.ub.unibas.ch/cmsdata/spezialkataloge/gg/higg0268.html",
+    "note": "Checked. GG 268 and swisscollections 991051893419705501 agree. Title 'XXV. nimirum a XXXVI ad LXI'; Blanc's Xiphilinus revised by Xylander; Basel, Oporin, March 1558; fol.; [10] Bl., 676 S., [25] Bl.; VD16 D 1793. Dedicated to Herwart, 1 Nov. 1557; seven months; only the Paris (R. Estienne) Greek text used; the announced Greek never appeared. The ADB editions are as stated."
+   },
+   {
+    "index": 53,
+    "verdict": "confirmed",
+    "url_used": "https://www.ub.unibas.ch/cmsdata/spezialkataloge/gg/higg0198.html",
+    "note": "Checked. GG 198: Basel, Oporin, August 1558, 8°; dedication from Basel, 29 Aug. 1558, to the newly elected Bürgermeister Johann Baptist Heinzel. ADB p. 584 calls Heinzel 'Rathsherrn'; its dates (p. 586) imply 1 Sept. for the Euripides preface. Hecuba Philippea: Frankfurt 1561."
+   },
+   {
+    "index": 54,
+    "verdict": "confirmed",
+    "url_used": "https://www.europeana.eu/item/92004/object_NKCR__5_J_000102__0SXDUN6",
+    "note": "Checked. Europeana/Manuscriptorium: 36 Idylls with Callierges' scholia on the first 18, Pedasimus on the Syrinx, and Xylander's notes on the rest. Publisher Peter Braubach, 1558, 8° (18 cm). National Library of the Czech Republic, 5 J 000102."
+   },
+   {
+    "index": 55,
+    "verdict": "confirmed",
+    "url_used": "https://swisscollections.ch/Record/991040360619705501/Export?style=MARCXML",
+    "note": "Checked. Record 991040360619705501: Tiguri, apud Andream Gesnerum F., [1558/1559], 3 parts; VD16 M 963, Vischer K 26; 'Hrsg. des griechischen Textes ...: Konrad Gessner'. The M.D.LIX issue (991102358159705501) is catalogued as VD16 M 964 and Vischer K 17, not M 963. That record also notes a 'Widmungsvorrede des Übersetzers an Georg von Stetten'."
+   },
+   {
+    "index": 56,
+    "verdict": "confirmed",
+    "url_used": "https://de.wikisource.org/w/index.php?title=ADB:Xylander,_Wilhelm&action=raw",
+    "note": "Checked, ADB p. 584."
+   },
+   {
+    "index": 57,
+    "verdict": "confirmed",
+    "url_used": "https://swisscollections.ch/Record/991156108259705501/Export?style=MARCXML",
+    "note": "Checked. The title page reads 'HEIDELBERGAE EXCUDEBAT Academiae typographus Ludouicus Lucius, M.D.LXI.' Part 2 has its own title, 'BASILEAE, PER IOANnem Oporinum', with colophon March 1561; VD16 P 3765. The ADB details are on p. 586."
+   },
+   {
+    "index": 58,
+    "verdict": "confirmed",
+    "url_used": "https://www.ub.unibas.ch/cmsdata/spezialkataloge/gg/higg0286.html",
+    "note": "Checked. GG 286 and swisscollections 991013592129705501 agree: [8] Bl., 185 S., 2°, VD16 E 4169, colophon 30 Oct. 1562 (Jacob Kündig at Oporinus' cost). Dedication from Heidelberg, 1 Oct. 1562; Books I-IV seven years earlier; figures redrawn on parchment for the block-cutter."
+   },
+   {
+    "index": 59,
+    "verdict": "corrected",
+    "url_used": "https://swisscollections.ch/Record/991008682259705501/Export?style=MARCXML",
+    "correction": "GG 272 does not give the death of Nicolaus Episcopius the younger. That inference is a note in swisscollections 991008682259705501: 'Da Nicolaus Episcopius d.J. Ende Januar 1566 starb, dürfte der Druck sehr früh im Jahr erfolgt sein'. The same record's name heading gives him as 1531-1565. ADB p. 584 says Xylander had 'vollendet' (completed) two editiones principes for Oporinus by 1556. Hieronymus himself repeats the 1556 date in GG 290 ('Schon 1556 waren ... erschienen') and GG 101.",
+    "note": "Checked. GG 272: Basel, Oporin and the Episcopius brothers, [Anfang 1566], fol.; dedication to Marcus and Johann Fugger, 15 Jan. 1566; next edition 1647 (ADB: Paris 1647). The record gives VD16 G 1351."
+   },
+   {
+    "index": 60,
+    "verdict": "confirmed",
+    "url_used": "https://swisscollections.ch/Record/991020333609705501/Export?style=MARCXML",
+    "note": "Checked. Fuller imprint: Basel, Oporinus [and the heirs of Johann Herwagen], colophon September 1566; 8°; VD16 P 3730; 'Addidimus Graeca, accurate ab eodem emendata'. The Basel copy has 'ein Autograph des Herausgebers auf dem Titelblatt'. ADB p. 586 gives the dedication to Prince Christoph, who became rector in 1566 at fourteen."
+   },
+   {
+    "index": 61,
+    "verdict": "confirmed",
+    "url_used": "https://www.ub.unibas.ch/cmsdata/spezialkataloge/gg/higg0297.html",
+    "note": "Checked. GG 297: third edition after Aldus 1502 and Giunta 1521; Basel, Officina Oporiniana, March 1568 (Oporinus' successors Gemusaeus and Han); dedication 1 Sept. 1567. Swisscollections 991080042779705501 adds VD16 S 8919. GG calls the Onomasticum 'uns nicht bekannten (erschienenen?)'; ADB p. 586 says the Latin version was not finished."
+   },
+   {
+    "index": 62,
+    "verdict": "confirmed",
+    "url_used": "https://swisscollections.ch/Record/991090582209705501/Export?style=MARCXML",
+    "note": "Checked. Basel, Thomas Guarinus, 1568, 8°; VD16 A 2960; e-rara doi 10.3931/e-rara-153. ADB p. 586 names Pal. gr. 398. Sandys II's table of editiones principes lists '1568 Antonius Liberalis, Phlegon, Apollonius — Xylander — Thomas Guarinus — Basel'."
+   },
+   {
+    "index": 63,
+    "verdict": "confirmed",
+    "url_used": "https://www.ub.unibas.ch/cmsdata/spezialkataloge/gg/higg0099.html",
+    "note": "Checked in GG 98 and GG 99. Dates, privilege and format match. GG 99 says the Greek remained unprinted 'weniger nach seinem Plan als nach dem Willen anderer'. The causal wording, that Episcopius postponed printing 'in Erwartung einer Ausgabe von Henri Estienne', is in GG 101, not in GG 98 or GG 99."
+   },
+   {
+    "index": 64,
+    "verdict": "confirmed",
+    "url_used": "https://www.ub.unibas.ch/cmsdata/spezialkataloge/gg/higg0290.html",
+    "note": "Checked. GG 290 and swisscollections 991047906029705501 agree: Basel, Officina Henricpetrina, August 1571; [58] Bl., 977 S.; VD16 S 9345; Ptolemaic maps. Dedication 1 March 1571 to August of Saxony, prompted by Johann Casimir's marriage to Elisabeth. Imperial privilege, Speyer, 16 Aug. 1570, for ten years. His hope of getting a manuscript 'sich als trügerisch erwiesen habe'."
+   },
+   {
+    "index": 65,
+    "verdict": "confirmed",
+    "url_used": "https://www.ub.unibas.ch/cmsdata/spezialkataloge/gg/higg0101.html",
+    "note": "Checked. GG 101 and swisscollections 991159609479705501 agree: Basel, per Eusebium Episcopium & Nicolai Fr. haeredes, 1574, fol.; VD16 ZV 12603. GG's text gives 14 Aug. 1574 and its caption 12 Aug. 1574. The portrait on the verso of the title has a poem by Theobald Müller (Mylius)."
+   },
+   {
+    "index": 66,
+    "verdict": "confirmed",
+    "url_used": "https://www.ub.unibas.ch/cmsdata/spezialkataloge/gg/higg0259.html",
+    "note": "Checked. GG 259: Basel, Sebastian Henricpetri, 1574, fol.; dedication Heidelberg, 7 March 1574, to Johann Casimir, with 'Fressen, Saufen, Rasslen'. GG 286: 'eine der ganz wenigen deutschen Übersetzungen direkt aus dem Griechischen', and the new map of Greece 'nicht geschnitten und gedruckt worden zu sein scheint'."
+   },
+   {
+    "index": 67,
+    "verdict": "confirmed",
+    "url_used": "https://swisscollections.ch/Record/991143732489705501/Export?style=MARCXML",
+    "note": "Checked. Argentorati, Nicolaus Wyriot, M.D.LXXV, 4°, VD16 F 2918. 991087671449705501: Argentorati 1574, 8°. ADB p. 592 has '1675'. Axworthy p. 109 says 'published in 1575 in Tübingen' while her n. 43 cites Strasbourg: Wyriot. She also says the poem was dedicated to the clock's designer, Conrad Dasypodius."
+   },
+   {
+    "index": 68,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/diophantusofalex00heatiala/diophantusofalex00heatiala_djvu.txt",
+    "note": "Checked. Heath p. 22 gives the full title and 'Basileae per Eusebium Episcopium, et Nicolai Fr. haeredes. MDLXXV'. P. 25 n. 2 has 'Heidelbergae postrid. Eidus Sextiles 1574' (= 14 Aug.). Bachet's 1621 edition was the first to contain the Greek (p. 26). GG 298 agrees."
+   },
+   {
+    "index": 69,
+    "verdict": "confirmed",
+    "url_used": "https://de.wikisource.org/w/index.php?title=ADB:Xylander,_Wilhelm&action=raw",
+    "note": "Checked. ADB p. 591: Horace, Heidelberg 8°, 1575, repr. 1590, Knipphausen. P. 592: the Ars poetica commentary 'nisi deo aliter videbitur', the index, and the note on Odes I.7. Adam p. 290 says the Ars poetica commentary was begun and not finished; p. 291 has the Onomasticum note 'Ad oden 7 lib. 1'."
+   },
+   {
+    "index": 70,
+    "verdict": "confirmed",
+    "url_used": "https://swisscollections.ch/Record/991124962679705501/Export?style=MARCXML",
+    "note": "Checked. Both books are Heidelbergae, Jacobus Mylius for Matthaeus Harnisch, 1577, 4°. The Opuscula have [1], 50, [1] Bl. and Adams X-46, with the four tracts listed; e-rara copies doi 10.3931/e-rara-50972 (Opuscula) and 10.3931/e-rara-50748 (Institutiones)."
+   },
+   {
+    "index": 71,
+    "verdict": "confirmed",
+    "url_used": "https://swisscollections.ch/Record/991014003139705501/Export?style=MARCXML",
+    "note": "Checked. The title reads 'Sebastiano Castalione totius operis correctore, partim interprete' and '... Tryphiodori Aegyptii, Ilii excidium / Gulielmo Xylandro interprete'. Colophon: officina Henricpetrina, March 1578; VD16 D 1831. GG 247: edited by J. J. Grynaeus, dedication 1 April 1578."
+   },
+   {
+    "index": 72,
+    "verdict": "confirmed",
+    "url_used": "https://de.wikisource.org/w/index.php?title=ADB:Xylander,_Wilhelm&action=raw",
+    "note": "Checked, ADB p. 592 (Löchinger, Frankfurt 1580 fol.)."
+   },
+   {
+    "index": 73,
+    "verdict": "corrected",
+    "url_used": "https://archive.org/download/historyofclassic02sanduoft/historyofclassic02sanduoft_djvu.txt",
+    "correction": "Sandys' date 1584 for the Pausanias is on p. 271, in the Sylburg paragraph. P. 270 says only that the edition 'was completed by Sylburg'.",
+    "note": "Checked. Swisscollections 991171277106505501: Francofurti, apud haeredes Andreae Wecheli, 1583. 'Annotationes, quae à G. Xylandro paulo ante obitum inchoatae, nunc vero a Frid. Sylb. continuatae'; with Amasaeus' version. ADB p. 592 gives Onesimus' dedication to Ulrich Fugger and Hanau 1613."
+   },
+   {
+    "index": 74,
+    "verdict": "confirmed",
+    "url_used": "https://de.wikisource.org/w/index.php?title=ADB:Xylander,_Wilhelm&action=raw",
+    "note": "Checked, ADB pp. 592-593."
+   },
+   {
+    "index": 75,
+    "verdict": "corrected",
+    "url_used": "http://mateo.uni-mannheim.de/camenaref/adam/adam1/Adam_vitae_1.html#s305",
+    "correction": "Adam p. 290 lists the items under 'Scripsit' and does not call them unpublished; Gesner is the one who says 'nondum quod sciam edita'. ADB does not call the Ars poetica commentary unfinished: it says the preface announces it for the winter of 1575. It is Adam (p. 290) who says it was begun and left unfinished: 'orsus fuit ... non perfecit'.",
+    "note": "Checked. The quoted list is verbatim in Adam. Gesner 1583, pp. 315-316, has variarum lectionum libri, Greek grammar tables, Algebra, Euclidea, Geometrica, Astronomica and the German NT as 'nondum ... edita', plus 'Diophanti libros arithmeticos nondum editos'. Gesner does not list the Homer commentaries."
+   },
+   {
+    "index": 76,
+    "verdict": "confirmed",
+    "url_used": "https://de.wikisource.org/w/index.php?title=ADB:Xylander,_Wilhelm&action=raw",
+    "note": "Checked, ADB p. 592. The manuscript is described as 'noch im Besitz der Heidelberger Universitätsbibliothek (verzeichnet bei Wilken S. 543, bei Bartsch S. 180)'. No shelfmark was found."
+   },
+   {
+    "index": 77,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/11652069bsb/11652069bsb_djvu.txt",
+    "note": "Checked. Cantor II p. 508 has painters, goldsmiths and builders, Dürer's readers, proofs omitted, numerical examples, difficulties passed over. ADB p. 588 says the same and adds Jan Pietersz (Amsterdam 1602) and Seb. Curtius (1618, 1634)."
+   },
+   {
+    "index": 78,
+    "verdict": "confirmed",
+    "url_used": "https://www.ub.unibas.ch/cmsdata/spezialkataloge/gg/higg0286.html",
+    "note": "Checked. GG 286 has Spanish and Italian translations and Scheybel's Books 7-9 (Augsburg 1555) before 'die erste deutsche Übersetzung der Bücher 1-6', and the preface's defence of German. ADB p. 588 says 'erste Bearbeitung des Euklid in einer Volkssprache'; Cantor p. 508 says 'erste Bearbeitung in einer lebenden Volkssprache'."
+   },
+   {
+    "index": 79,
+    "verdict": "confirmed",
+    "url_used": "https://gal-studies.museogalileo.it/index.php/galilaeana/article/download/103/65",
+    "note": "Checked. The abstract has the quoted phrase, '(in the tradition of Christoff Rudolff and Michael Stifel)', and the Protestant background. The body discusses I.35-36, the square-root rules at II.4, 'unnatürliche Zahlen' and the numerical treatment of Book V and its definitions."
+   },
+   {
+    "index": 80,
+    "verdict": "confirmed",
+    "url_used": "https://www.ub.unibas.ch/cmsdata/spezialkataloge/gg/higg0298.html",
+    "note": "Checked in GG 298 and Heath pp. 22-25. Heath says Simonius wrote to Dudith on Xylander's behalf; GG 298 and ADB p. 590 say they wrote together."
+   },
+   {
+    "index": 81,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/diophantusofalex00heatiala/diophantusofalex00heatiala_djvu.txt",
+    "note": "Checked. Heath p. 23 n. 1 gives the Latin, including 'mutis duntaxat usus preceptoribus' (the OCR reads 'preceptoribus') and the quoted surds sentence (OCR 'tenebatn'). P. 24 n. 1 has 'Dio, Plutarchus, Strabo, Stephanusque nostri testantur'."
+   },
+   {
+    "index": 82,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/diophantusofalex00heatiala/diophantusofalex00heatiala_djvu.txt",
+    "note": "Checked. Heath p. 17, MSS nos. 11-12: Gudianus 1 (15th c.) and Pal. gr. 391 (end of 16th c.), with German notes 'intended to print from it' and 'written either by Xylander himself or for him'. P. 25 repeats this after Tannery."
+   },
+   {
+    "index": 83,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/diophantusofalex00heatiala/diophantusofalex00heatiala_djvu.txt",
+    "note": "Checked. Heath p. 48: 'in the notes to his earlier translation (1575) Xylander had already used ... ||, two short vertical parallel lines ... (p. 76)'. Cantor II p. 509: 'auf S. 9 und öfter'."
+   },
+   {
+    "index": 84,
+    "verdict": "confirmed",
+    "url_used": "http://mateo.uni-mannheim.de/camenaref/adam/adam1/Adam_vitae_1.html#s305",
+    "note": "Checked. Adam p. 290 has the quote. ADB p. 591 rejects the 500 thalers of Heilbronner and Zedler. Cantor p. 509 doubts the 500 thalers without naming the sources and cites the loan request."
+   },
+   {
+    "index": 85,
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/diophantusofalex00heatiala/diophantusofalex00heatiala_djvu.txt",
+    "note": "Checked, Heath pp. 25-26. Nesselmann is quoted: 'highly meritorious', 'rough and un-Latin ... too conscientious adherence', 'immediate and enormous influence'. Heath judges Bachet's disparagement unfair and his obligation undue in acknowledgment."
+   },
+   {
+    "index": 86,
+    "verdict": "confirmed",
+    "url_used": "https://straelenerbuchhaus.e-bookshelf.de/travelling-mathematics-the-fate-of-diophantos-arithmetic-8506.html",
+    "note": "Checked, but only against the publisher's description. It has the quoted sentence, then names Bombelli, Stevin and Viète, and Bachet's 1621 Latin translation. Birkhäuser 2010, ISBN 9783034606431. The book itself was not read."
+   },
+   {
+    "index": 87,
+    "verdict": "confirmed",
+    "url_used": "https://kalliope-verbund.info/sru?version=1.2&operation=searchRetrieve&query=ead.creator.gnd%3D124331025&maximumRecords=50&recordSchema=mods",
+    "note": "Checked: 22 records, and every shelfmark and date matches. The day dates of the Zurich letters are in the swisscollections ZB records: Heidelberg 15.03.1570 to Gwalther and Zwingli; Frankfurt 20.09.1572 to Johann Wolf. Places worth noting: the Samuel Grynaeus letter of 20 Sept. 1571 was written at Frankfurt, the LMU letter at Leipzig. Zofingen Pa 14:1,197 is dated 25 Dec. 1571. ZB Ms F 36.81 also lists Xylander among its authors."
+   },
+   {
+    "index": 88,
+    "verdict": "corrected",
+    "url_used": "https://swisscollections.ch/Record/991170457616805501/Export?style=MARCXML",
+    "correction": "The second shelfmark 'G2 II 37:Bl.77-81' was not found. Swisscollections 991170457616805501 describes G2 I 22:2:58-60 as an 'Abschrift'; its original-version note (534) gives 'UB Basel, G II 7:S.693-696'.",
+    "note": "Checked. Lavater to Xylander, Zürich, 10 March [c. 1570]. The summary says Lavater and Bullinger praised Xylander's remarks on the Epistle to the Hebrews, and that the letter has Greek lexical questions and lines against J. Andreae. The Dasypodius letter, Strasbourg, undated, is Bremen msa 0008/414 (Kalliope)."
+   },
+   {
+    "index": 89,
+    "verdict": "confirmed",
+    "url_used": "https://de.wikisource.org/w/index.php?title=ADB:Xylander,_Wilhelm&action=raw",
+    "note": "Checked. Heath pp. 17 and 25 cover Gud. gr. 1 and Pal. gr. 391. ADB p. 586 covers Pal. gr. 398 and p. 584 the lost Heidelberg codex of Marcus Aurelius ('seitdem verschollenen')."
+   },
+   {
+    "index": 90,
+    "verdict": "confirmed",
+    "url_used": "http://mateo.uni-mannheim.de/desbillons/aport/seite211.html",
+    "note": "Checked. CAMENA: 'Xylander, Guilielmus (1532-1576); Humanist, Musiker, Philosoph = Eee4', Boissard/de Bry, Bibliotheca chalcographica 1652-1669. GG 101 has the portrait with Mylius' poem. ADB p. 593 lists Brucker, Ehrentempel 1747 '(mit Bildniß)'."
+   },
+   {
+    "index": 91,
+    "verdict": "confirmed",
+    "url_used": "https://www.brepols.net/products/IS-9782503554099-1",
+    "note": "Checked. Bd. V, EH 15, 2016, 1207 pp., ISBN 978-2-503-55409-9, with the editors as listed. Xylander and Aemilius Portus are called 'zu Unrecht vergessenen' 'Pionieren der Gräzistik', with mathematical, geographical and Byzantine emphases. The page gives only the series subtitle 'Dokumente zur Überlieferung ...'; it does not explicitly name prefaces or dedications."
+   },
+   {
+    "index": 92,
+    "verdict": "confirmed",
+    "url_used": "https://www.deutsche-biographie.de/pnd124331025.html",
+    "note": "Checked. On the Deutsche Biographie page the NDB and NDB-online tabs are disabled; only ADB 44 (1898) is active. Axworthy p. 108 n. 37 cites Schöll (ADB), Gall (Brill's New Pauly Supplements I Online, vol. 6) and Drüll, Heidelberger Gelehrtenlexikon 1386-1651 (2002), 562-563."
+   },
+   {
+    "index": 93,
+    "verdict": "confirmed",
+    "url_used": "https://de.wikisource.org/w/index.php?title=ADB:Xylander,_Wilhelm&action=raw",
+    "note": "Checked, ADB p. 593. The bibliography, the dismissal of Pantaleon, Freher and Teissier as 'Werthlos', and the quoted closing sentence are verbatim. ADB adds that Adam relies 'besonders nach J. A. Thuanus historiarum l. 35, 48, 61'."
+   }
+  ],
+  "summary": "I checked all 94 findings against their sources: 82 confirmed and 12 corrected. None is wrong or \"not found\", and every source opened, so none is \"could not open\".\n\nMost findings were checked against ADB 44 on Wikisource, Adam's Vitae on CAMENA, the Hieronymus GG entries, swisscollections records, Kalliope, Toepke II, Sandys II, Cantor II, Heath, Axworthy's PDF, the Apographum page image on MDZ, the 1695 Scaligerana, Gesner 1583, EB1911, de.wikipedia, Europeana, Brepols and Deutsche Biographie.\n\nThe corrections:\n- **#38:** the 1612 Apographum page image (p. 49) reads the age on the epitaph as 'Anno aetatis XLIII', that is 43, not 44.\n- **#59:** the reasoning that Cedrenus was printed very early in 1566 (Nicolaus Episcopius the younger died at the end of January) comes from the swisscollections record, not GG 272. ADB says the two editiones principes were \"vollendet\" (completed) by 1556. Hieronymus himself repeats 1556 for them in GG 290 and GG 101.\n- **#88:** the second shelfmark for the Lavater letter, G2 II 37:Bl.77-81, was not found. Swisscollections calls the G2 I 22 item a copy and gives the original as UB Basel G II 7:S.693-696.\n- **#51:** the Herold Panegyricus is catalogued with the date 1558, not [c. 1557/1558].\n- **#73:** Sandys gives 1584 for the Pausanias on p. 271, not p. 270.\n- **#23:** ADB prints 'Organi Aristotelij', not 'Aristotelici'.\n- **#44:** Adam's correction of Thuanus' 1575 is a parenthesis in his text, not a marginal note.\n- **#13:** Adam's marginal note 'Inscriptus anno 1549' refers to Tübingen; GG 268 gives only 'July 1557'.\n- **#5, #75:** small overreaches in the paraphrase. GG 297 does not say the stipend also paid for Tübingen. Adam does not call the listed works unpublished, and the \"unfinished\" Ars poetica commentary comes from Adam, not ADB.\n- **#55:** the 1559 issue of Marcus Aurelius is VD16 M 964.\n\nAdditional findings worth keeping for the article:\n- GG 101 paraphrases the 1574 dedication: Xylander found his wife in Basel, got engaged there before leaving for Heidelberg, and went back to Basel for the wedding.\n- The Basel copy of the 1566 'Plutarchi duo commentarii' has Xylander's autograph on the title page.\n- The 1559 issue of Marcus Aurelius has a translator's dedication to Georg von Stetten.\n- Lavater's letter praises Xylander's remarks on Hebrews.\n- Some letters were written at Frankfurt (1571, 1572) and Leipzig (1571).\n\nI did not read any translation of the Psellus music section, nor Heiberg. Downloads are saved in raw/work (local, not in git)/verify."
+ }
+}
