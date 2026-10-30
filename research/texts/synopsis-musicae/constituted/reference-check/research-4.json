@@ -1,0 +1,313 @@
+{
+ "places": [
+  {
+   "place": "place 20",
+   "findings": [
+    {
+     "source": "Evidence file section-4.json, P fr. 2 (Vinc. 340.7-13 and 340.18), with Vincent's footnotes 340 nn. 1-5",
+     "status": "checked",
+     "found": "The sentence is built on μέν/δέ. The μέν clause reads «τὰ μὲν οὖν ἔμμεσα διαστήματα … ἔχουσι τὴν ἀναφοράν», a plural verb with a neuter plural subject. The δέ clause reads «τὰ δὲ ἄμεσα … πεποίηνται». In the next sentence «τὰ … μεγεθυνόμενα διαστήματα … κίρνανται» (340.18) is plural again. Vincent footnotes every place where the Ms. differs on this page (nn. 2-5), and he has no footnote at πεποίηνται, so P's reading is πεποίηνται.",
+     "bears_on": "reading 1",
+     "how": "Reading 1 is the transmitted text of P, and its plural verb matches the parallel ἔχουσι in the same μέν/δέ period and κίρνανται. Reading 2 brings in a singular verb that no witness has."
+    },
+    {
+     "source": "Evidence files: Bas. 27.6 (H 66r.7-8), P fr. 1 end (Vinc. 340.1), Bas. 31.10 (all witnesses)",
+     "status": "checked",
+     "found": "Elsewhere the author also uses the singular verb with a neuter plural subject: «ἕτερα ἀσύνθετα διαστήματα γίνεται» (Bas. 27.6, and again at Vinc. 340.1) and «Διαφέρει δὲ τὰ συστήματα» (Bas. 31.10).",
+     "bears_on": "both",
+     "how": "The author uses both kinds of concord, so a singular would not be impossible for him. Within P fr. 2, though, every verb with a neuter plural subject is plural."
+    },
+    {
+     "source": "Evidence file section-3/section-4, P fr. 1 (Vinc. 338.12)",
+     "status": "checked",
+     "found": "«ἡ Γεωμετρία … τῇ ἐλάττονι προστίθησι καὶ πεποίηται μείζονα»: the author uses the perfect middle of ποιέω with a singular subject.",
+     "bears_on": "neither",
+     "how": "It shows the form is the author's, with its number following the subject. It does not decide this place."
+    },
+    {
+     "source": "H. W. Smyth, A Greek Grammar for Colleges (1920), §§958-959a",
+     "url": "https://archive.org/details/agreekgrammarfo02smytgoog",
+     "status": "checked",
+     "found": "§958: a neuter plural subject is treated as a collective and takes a singular verb. §959: a plural verb may be used when the stress is on the subject being made up of persons or of several parts (Th. 4.88; X. A. 1.7.17). §959a: apart from that exception, Attic regularly uses the singular.",
+     "bears_on": "both",
+     "how": "The Attic rule would produce reading 2. The exception in §959 covers a plural where several distinct items are meant (here: diesis, semitone, tone)."
+    },
+    {
+     "source": "A. N. Jannaris, An Historical Greek Grammar (1897), §§1169-1171, p. 313",
+     "url": "https://archive.org/details/jannaris-an-historical-greek-grammar",
+     "status": "checked",
+     "found": "The singular verb with a neuter plural subject is 'chiefly' Attic (σχῆμα Ἀττικόν). It is not rigidly kept even by Attic writers; examples include Lys. 25.2 «ἃ … γεγένηνται», a perfect plural. Post-classical writers, Atticists excepted, follow the common language, which agrees subject and verb in number.",
+     "bears_on": "reading 1",
+     "how": "A plural perfect such as πεποίηνται is ordinary post-classical and Byzantine usage. Reading 2 would correct the author's usage into classical Greek."
+    }
+   ],
+   "nothing_found": "I did not open Blass-Debrunner §133 or Kühner-Gerth on this point. I found no reference that treats this particular collocation (ἕξιν ποιεῖσθαι).",
+   "supports": "reading 1",
+   "strength": "strong",
+   "reasoning": "Reading 1 is P's own text: Vincent prints it without a 'Ms.' note, although he notes every Ms. difference around it. It is also parallel to ἔχουσι in the same μέν/δέ sentence and to κίρνανται in the next. Jannaris §§1170-1171 shows that a plural verb with a neuter plural subject is normal in post-classical Greek. Smyth §959 shows that even Attic allows it when several items are meant. Reading 2 is a classicising normalisation that no witness has, and the edition's principles exclude it."
+  },
+  {
+   "place": "place 21",
+   "findings": [
+    {
+     "source": "Evidence file section-4.json, Vinc. 340 n. 2, attached to 340.13-14 and 340.18",
+     "status": "checked",
+     "found": "At both places the manuscript reads «ἐξυφθάρσεως». Vincent comments: «Ces mots sont inconnus aux dictionnaires.» His printed «ἐξ φθάρσεως» is his own division of that form.",
+     "bears_on": "both",
+     "how": "Neither reading is literally P's text, so both are interpretations of ἐξυφθάρσεως. The Ms. form is identical in both places, which points to a word or term the scribe really wrote, not to a random slip."
+    },
+    {
+     "source": "Evidence files section-3.json and section-6.json: Bas. 27.9-10 (H 66r.12-13), Bas. 32.10-11 (H 69r.14), Bas. 32.17 (H 69r.22); Par. and V agree",
+     "status": "checked",
+     "found": "The author's own term, in every witness: «Ἀσύνθετα δὲ εἴρηται, τῷ ὡς ἓν ἐκ συμφθάρσεως διὰ τριῶν διέσεων … μέλος συναπαρτίζεσθαι» (27.10), «ἓν ἐκ συμφθάρσεως διάστημα, τριημιτόνιον ἀσύνθετον … συγκεκραμένον» (32.10-12) and «ἓν διτόνιον ἐκ συμφθάρσεως» (32.17). The incomposite intervals listed at Bas. 27.6-7 (τριδίεσις, τριημιτόνιον, διτόνιον, τριτόνιον) are exactly the list in P fr. 2 (Vinc. 340.15). P fr. 2 says these are blended «εἰς ἓν διάστημα», and P fr. 1 ends by referring back to why they are called ἀσύνθετα (Vinc. 340.1-2).",
+     "bears_on": "reading 1",
+     "how": "Reading 1 repeats the author's fixed phrase for exactly these intervals, including the ἓν … ἐκ συμφθάρσεως collocation."
+    },
+    {
+     "source": "LSJ s.v. σύμφθαρσις; Pape s.v. (both on lsj.gr)",
+     "url": "https://lsj.gr/wiki/σύμφθαρσις",
+     "status": "checked",
+     "found": "LSJ gives two senses. (1) 'Simultaneous destruction' of the substances mixed, as another body comes into being: Alex. Aphr. Mixt. 216.24, cf. Meno Iatr. 14.16. (2) 'Melting into one another', «τῶν ἰδεῶν»: Hermog. Id. 1.12, cf. Iamb. in Nic. p. 80 P. Pape glosses 'das Ineinanderfließen und Verschmelzen'.",
+     "bears_on": "reading 1",
+     "how": "The word is established, and its sense is exactly fusion into one, which suits «εἰς ἓν διάστημα … κίρνανται»."
+    },
+    {
+     "source": "Alexander of Aphrodisias, De mixtione, ed. Bruns (Suppl. Arist. II.2, 1892), p. 216; Scaife/First1KGreek section 3",
+     "url": "https://atlas.perseus.tufts.edu/library/passage/urn:cts:greekLit:tlg0732.tlg001.1st1K-grc1:3/",
+     "status": "checked",
+     "found": "Chrysippus' kinds of mixture are set out here. In σύγχυσις the substances and their qualities are destroyed together («συμφθειρομένων ἀλλήλαις»), as with drugs, «κατὰ σύμφθαρσιν τῶν μιγνυμένων, ἄλλου τινὸς ἐξ αὐτῶν γεννωμένου σώματος». This is contrasted with κρᾶσις.",
+     "bears_on": "reading 1",
+     "how": "σύμφθαρσις is the technical term of mixture theory and takes a genitive of the components. This matches «ἐκ συμφθάρσεως διαστημάτων πλειόνων» and the verbs κεράννυμι/κίρνημι in the same sentence."
+    },
+    {
+     "source": "Bailly (2020), s.v. φθάρσις, as given on lsj.gr",
+     "url": "https://lsj.gr/wiki/φθάρσις",
+     "status": "checked",
+     "found": "«φθάρσις, εως (ἡ) c. φθορά», citing Ocellus (Stob. Ecl. 428 Mein.). I did not open the Ocellus passage itself.",
+     "bears_on": "reading 2",
+     "how": "φθάρσις exists as a very rare equivalent of φθορά, so reading 2 is not built on a ghost word. 'From destruction', however, lacks the 'together, into one' sense the context needs."
+    },
+    {
+     "source": "Smyth, A Greek Grammar for Colleges, §136",
+     "url": "https://archive.org/details/agreekgrammarfo02smytgoog",
+     "status": "checked",
+     "found": "ἐξ is used before vowels and ἐκ before consonants (ἐξ ἀγορᾶς, but ἐκ τῆς ἀγορᾶς).",
+     "bears_on": "reading 2",
+     "how": "This tells against reading 2: ἐξ before φ is irregular, so Vincent's text is not well-formed as printed. Reading 1 has the regular ἐκ. ἐκ συ- and ἐξυ- sound the same (ξ = κσ), so the Ms. ἐξυφθάρσεως differs from ἐκ συμφθάρσεως only in spelling and in a lost μ before φ."
+    }
+   ],
+   "nothing_found": "I could not verify the Iamblichus reference (in Nic. p. 80 Pistelli) cited by LSJ: the Scaife passage numbered 80 has no form of σύμφθαρσις, and the next page would not load. I did not open the Ocellus/Stobaeus passage for φθάρσις. I found no handbook that discusses ἐξ for ἐκ before σ- as a scribal habit.",
+   "supports": "reading 1",
+   "strength": "strong",
+   "reasoning": "The deciding fact is the author's own usage. In every witness he names these very intervals (τριδίεσις, τριημιτόνιον, διτόνιον, τριτόνιον) as one interval «ἐκ συμφθάρσεως» (Bas. 27.10, 32.10, 32.17), and P fr. 2 repeats that list and the «εἰς ἓν» idea. σύμφθαρσις is an established mixture-theory term (LSJ; Alexander, Mixt. 216) and fits κίρνανται. The Ms. ἐξυφθάρσεως is ἐκ συμφθάρσεως with ξ written for κσ and the μ lost. Vincent's ἐξ φθάρσεως breaks the rule for ἐκ before consonants (Smyth §136). It also rests on a word attested only marginally (Bailly) and gives weaker sense."
+  },
+  {
+   "place": "place 22",
+   "findings": [
+    {
+     "source": "Evidence file section-4.json, Vinc. 340 n. 4",
+     "status": "checked",
+     "found": "Vincent prints «κεκραμένων» with the note «Ms. κεκρυμμένων».",
+     "bears_on": "reading 2",
+     "how": "Reading 2 is the transmitted text of P, the only witness. Reading 1 is Vincent's correction. The edition allows conjecture only where no witness gives an acceptable text."
+    },
+    {
+     "source": "Evidence files: Bas. 32.12-13 (H 69r.16-17, V 81v.19, Par. 26v.7-8); P fr. 2, Vinc. 340.18",
+     "status": "checked",
+     "found": "The author describes a fused interval with the same verb: «τριημιτόνιον ἀσύνθετον ἐξ ἡμιτονίων δύο καὶ τριημιτονίου συγκεκραμένον». The same P sentence ends «εἰς ἓν διάστημα ὡς ἐκ συμφθάρσεως κίρνανται».",
+     "bears_on": "reading 1",
+     "how": "The author's own word for the fusion of intervals is (συγ)κεράννυμι. A scribe's anticipation of κίρνανται would also explain why Vincent preferred κεκραμένων. Conversely, κεκραμένων right before κίρνανται would be somewhat redundant."
+    },
+    {
+     "source": "Evidence file section-3.json, Bas. 27.12-14 (H 66r.15-17)",
+     "status": "checked",
+     "found": "The fused incomposite interval is «δύναμιν μὲν ἔχον διαφόρων διαστημάτων, δι’ ἑνὸς δὲ διαστήματος ἀπηχούμενον»: it holds several intervals in potentiality but sounds as one.",
+     "bears_on": "reading 2",
+     "how": "In the author's own account the component intervals are present but not heard separately, so 'the intervals hidden in them' gives good, author-consistent sense."
+    },
+    {
+     "source": "LSJ s.v. κεράννυμι (lsj.gr)",
+     "url": "https://lsj.gr/wiki/κεράννυμι",
+     "status": "checked",
+     "found": "The sense of blending into a compound. Musical use: «ἁρμονίας ῥυθμοῖς κραθείσας» (Pl. Lg. 835b) and «τῆς εὖ κεκραμένης ἁρμονίας» (Arist. Pol. 1290a26). With ἐν + dative only «ἐν ταῖς εὖ κεκρ. πολιτείαις» (Arist. Pol. 1307b30), which is locative, not 'mixed in'.",
+     "bears_on": "both",
+     "how": "κεκραμένος belongs to musical vocabulary, which supports reading 1. I found no lexicon example of κεκραμένος ἐν + dative meaning 'mixed into', which slightly favours the idiom of reading 2."
+    },
+    {
+     "source": "Cleonides, Isagoge 5, p. 187 Jan (Musici scriptores Graeci, 1895); Jan's prolegomena to Gaudentius, pp. 321-323",
+     "url": "https://archive.org/details/musiciscriptoresjank",
+     "status": "checked",
+     "found": "Cleonides defines «συμφωνία μὲν κρᾶσις δύο φθόγγων ὀξυτέρου καὶ βαρυτέρου». Jan notes that Bacchius also calls symphonia κρᾶσις. He quotes Porphyry (In Ptol., p. 217-218 Wallis), drawing on Aelianus: συμφωνία is «πτῶσις καὶ κρᾶσις», the notes struck together make «ἕν τι ἕτερον εἶδος φθόγγου», a κρᾶμα in which neither note shows its own δύναμις.",
+     "bears_on": "both",
+     "how": "The theorists' word for fusing two sounds into one is κρᾶσις, which supports κεκραμένων. Their point that neither component shows its own power is, however, close to the 'hidden' sense of κεκρυμμένων."
+    },
+    {
+     "source": "LSJ s.v. κρύπτω (lsj.gr)",
+     "url": "https://lsj.gr/wiki/κρύπτω",
+     "status": "checked",
+     "found": "Passive 'lie hidden in' with ἐν + dative: «ἐν βένθεσιν … κεκρύφθαι» (Pi. O. 7.57). The perfect participle κεκρυμμένος means hidden or secret (E. Andr. 32; S. OT 1398). The page also gives Thayer's NT example «κέκρυπται … ἐν τῷ Θεῷ».",
+     "bears_on": "reading 2",
+     "how": "«τῶν ἐν αὐτοῖς κεκρυμμένων διαστημάτων» is an idiomatic construction, so the Ms. text is grammatically sound."
+    }
+   ],
+   "nothing_found": "I found no instance of κεκρυμμένος/κεκραμένος as a recorded variant pair elsewhere, and no handbook on α/υ confusion in minuscule. The single-word web search for the pair gave nothing relevant. I found no theorist who calls component intervals 'hidden' (κεκρυμμένα).",
+   "supports": "both acceptable",
+   "strength": "weak",
+   "reasoning": "Both readings give good sense. κεκραμένων (reading 1) has the author's own συγκεκραμένον (Bas. 32.12), κίρνανται in the same sentence, and the theorists' κρᾶσις term (Cleonides; Bacchius and Aelianus via Jan) behind it. κεκρυμμένων (reading 2) is P's actual reading. It is idiomatic with ἐν (LSJ s.v. κρύπτω) and fits the author's account of the fused interval holding its parts 'in potentiality' (Bas. 27.12-14). In context it is the lectio difficilior: a scribe facing κίρνανται would more likely write κεκραμένων than the reverse. The lexical evidence alone does not decide. Under the edition's rule that conjecture is allowed only where no witness gives an acceptable text, the balance tips toward keeping reading 2 and recording κεκραμένων as Vincent's conjecture."
+  },
+  {
+   "place": "place 23",
+   "findings": [
+    {
+     "source": "Evidence file section-4.json, Vinc. 342.3-4 with nn. 1-3",
+     "status": "checked",
+     "found": "Vincent prints «μονάδων μὴ τεμνομένων, ὅ, τι μηδὲ τοῖς ἀριθμητικοῖς οὔ πω δέδοκται». His notes read «Ms. μονάδος», «Ms. ὅτι» and «Ms. τοῦτο».",
+     "bears_on": "reading 1",
+     "how": "Reading 1 (ὅτι … τοῦτο) is P's text. Reading 2 contains two conjectures of Vincent: ὅ τι for ὅτι, and οὔ πω for τοῦτο, which is not a palaeographic change."
+    },
+    {
+     "source": "Plato, Republic 7.525d-e (Burnet), Scaife",
+     "url": "https://atlas.perseus.tufts.edu/library/passage/urn:cts:greekLit:tlg0059.tlg030.perseus-grc2:7.525/",
+     "status": "checked",
+     "found": "Those skilled in arithmetic, if anyone tries to cut the one itself in argument, «καταγελῶσί τε καὶ οὐκ ἀποδέχονται».",
+     "bears_on": "reading 1",
+     "how": "This is the standard doctrine that 'not even the arithmeticians accept this', namely the cutting of the unit. Reading 1 states it exactly, with τοῦτο referring to the division of units."
+    },
+    {
+     "source": "Theon of Smyrna, Expositio, ed. Hiller (1878), p. 18.15, 19.6; p. 70.1-3, 70.14-19",
+     "url": "https://archive.org/details/theonissmyrnaei00theogoog",
+     "status": "checked",
+     "found": "«ὥστε ἀμέριστον καὶ ἀδιαίρετον τὸ ἓν ὡς ἕν» (18.15) and «ἀδιαίρετος ἄρα ἡ μονὰς ὡς ἀριθμός» (19.6). In the musical section, on the 9:8 tone, «ἡ μονὰς οὐ τέμνεται» (70.2-3), and the tone cannot be halved because «… μονάδα, ἥτις ἀδιαίρετος … μονὰς γὰρ οὐ διαιρεῖται» (70.15-19).",
+     "bears_on": "reading 1",
+     "how": "This is the exact musical-arithmetical context: intervals expressed in numbers cannot be split because the arithmeticians do not divide the unit. Reading 1 gives that causal statement directly."
+    },
+    {
+     "source": "LSJ s.v. δοκέω, II.4 (lsj.gr)",
+     "url": "https://lsj.gr/wiki/δοκέω",
+     "status": "checked",
+     "found": "δοκεῖ μοι, ἔδοξε τῇ βουλῇ, and the passive perfect δέδοκται (visum est), e.g. Pl. Lg. 799e; S. Ant. 576.",
+     "bears_on": "reading 1",
+     "how": "«τοῖς ἀριθμητικοῖς τοῦτο δέδοκται» ('this has been resolved/accepted by the arithmeticians') is idiomatic, with τοῦτο as subject."
+    },
+    {
+     "source": "Jannaris, An Historical Greek Grammar, §1818 (pp. 430-431); §1945 (p. 453)",
+     "url": "https://archive.org/details/jannaris-an-historical-greek-grammar",
+     "status": "checked",
+     "found": "§1945: classical causal clauses take οὐ. §1818: in post-classical Greek μή also appears with the indicative after causal ὅτι and ἐπεί. Examples: Jos. Ap. 1.23 «ὅτι μὴ ταῖς ἱεραῖς ἡμῶν βίβλοις ἐνέτυχον»; Cleomedes 37.1 «ὅτι τοίνυν μή ἐστι»; John 3:18 «ὅτι μὴ πεπίστευκεν»; also Lucian, Aelius Aristides, Justin, Cyril of Jerusalem.",
+     "bears_on": "reading 1",
+     "how": "The causal ὅτι μηδέ of reading 1 is normal post-classical usage, including in technical prose (Cleomedes). It is no reason to change ὅτι into a relative."
+    },
+    {
+     "source": "Smyth, A Greek Grammar for Colleges, §§2760-2761 (pp. 628-629)",
+     "url": "https://archive.org/details/agreekgrammarfo02smytgoog",
+     "status": "checked",
+     "found": "When a simple negative with a verb follows a negative in the same clause, each keeps its force if they belong to different expressions, and they make an affirmative if they belong to the same one (e.g. οὐδεὶς οὐκ ἔπασχέ τι, 'everybody suffered something'). A compound negative after a negative confirms it.",
+     "bears_on": "reading 2",
+     "how": "This tells against reading 2: «μηδὲ … οὔ πω δέδοκται» puts a simple οὐ-negative after μηδέ on the same verb, which by this rule cancels or confuses the negation. It also mixes the μή and οὐ series."
+    }
+   ],
+   "nothing_found": "I did not open Blass-Debrunner §428 or Kühner-Gerth on μή in causal clauses, and relied on Jannaris. I found no parallel for «ὅ τι μηδὲ … οὔ πω».",
+   "supports": "reading 1",
+   "strength": "strong",
+   "reasoning": "Reading 1 is the text of P as Vincent himself reports it (Ms. ὅτι, Ms. τοῦτο). It gives exactly the doctrine of the indivisible unit that the arithmeticians uphold (Plato, Rep. 525d-e; Theon pp. 18-19 and 70 Hiller), in a passage where Theon applies it to musical ratios. ὅτι μή with the indicative in a causal clause is well attested in post-classical Greek (Jannaris §1818). Reading 2 needs two conjectures, one not palaeographic, and produces an anomalous double negative (Smyth §2760)."
+  },
+  {
+   "place": "place 24",
+   "findings": [
+    {
+     "source": "Evidence file section-6.json: H 69r.19; Par. 26v.11; V 82r.1; Bas. 32.15",
+     "status": "checked",
+     "found": "H reads «γοερώτερο(ν)». Par., V and Bas. read «γοέτερον». The context is the chromatic genus, «παθητικώτερόν τε τοῦ προτέρου καὶ …».",
+     "bears_on": "reading 1",
+     "how": "The oldest witness, H, has reading 1. Reading 2 is an error shared by the later tradition."
+    },
+    {
+     "source": "LSJ, DGE, Pape, Bailly and other lexica s.v. γοερός, as given on lsj.gr",
+     "url": "https://lsj.gr/wiki/γοερός",
+     "status": "checked",
+     "found": "γοερός means 'mournful', of things including song: «τὸ γ. καὶ ἡσύχιον μέλος» (Arist. Pr. 922b19), «μέλος γοερόν» (E. Hec. 84). The only variant listed is γοηρός. No lexicon on the page records a form γοέτερος.",
+     "bears_on": "reading 1",
+     "how": "γοερός is the established word for the plaintive character of a melody. γοέτερον is not a recorded form."
+    },
+    {
+     "source": "Smyth, A Greek Grammar for Colleges, §314",
+     "url": "https://archive.org/details/agreekgrammarfo02smytgoog",
+     "status": "checked",
+     "found": "Adjectives in -ος with a short penult lengthen ο to ω in the comparative and superlative (νέος, νεώτερος; χαλεπός, χαλεπώτερος).",
+     "bears_on": "reading 1",
+     "how": "γοερός (short ε) correctly gives γοερώτερος. γοέτερον corresponds to no positive adjective. It is best explained as haplography of -ρω- before -ρο-: γοε[ρώ]τερον."
+    },
+    {
+     "source": "Aristides Quintilianus, De musica, ed. Winnington-Ingram (1963), Book II, p. 92.19-30 (bracketed by W.-I., following Meibom's deletion), at 92.26",
+     "url": "https://archive.org/details/winnington-ingram-1963-aristides-quintilianus-de-musica_202010",
+     "status": "checked",
+     "found": "On the genera: «χρωματικὸν δὲ καλεῖται παρὰ τὸ χρώζειν … ἔστι δὲ ἥδιστόν τε καὶ γοερόν», while the diatonic is «ἀρρενωπὸν … καὶ αὐστηρότερον».",
+     "bears_on": "reading 1",
+     "how": "This is a direct parallel: the chromatic genus is called γοερός, as against the diatonic, just as our text calls the chromatic more παθητικόν and more γοερόν than the preceding diatonic. The passage is bracketed in W.-I.'s edition but transmitted in the Aristides manuscripts."
+    },
+    {
+     "source": "Aristides Quintilianus, De musica II, p. 81.13 and 85.5 W.-I. (index s.v. γοερός: 81.13; 85.5; [92.26])",
+     "url": "https://archive.org/details/winnington-ingram-1963-aristides-quintilianus-de-musica_202010",
+     "status": "checked",
+     "found": "High systems are described as «γοερά τε ὄντα καὶ ἐκβοητικά» (81.13), and the Phrygian aulos as «γοερόν τε ὄντα καὶ θρηνώδη» (85.5).",
+     "bears_on": "reading 1",
+     "how": "γοερός is a regular ethos term in the theorists."
+    },
+    {
+     "source": "[Aristotle], Problemata XIX.48 (922b19), in Jan, Musici scriptores Graeci (1895), p. 109",
+     "url": "https://archive.org/details/musiciscriptoresjank",
+     "status": "checked",
+     "found": "«διὸ καὶ ἁρμόζει αὐτῷ τὸ γοερὸν καὶ ἡσύχιον ἦθος καὶ μέλος»",
+     "bears_on": "reading 1",
+     "how": "γοερός is used of a melodic ethos in music-theoretical prose."
+    }
+   ],
+   "nothing_found": "I found no attested instance of the comparative γοερώτερος in the sources I could open: web searches for the forms gave nothing, and lexica list no comparative. γοέτερος is not in any lexicon I opened. I found no checked handbook passage on haplography to cite with a page.",
+   "supports": "reading 1",
+   "strength": "strong",
+   "reasoning": "The deciding findings are: H, the oldest witness, reads γοερώτερον; it is the regular comparative of γοερός (Smyth §314); and the theorists use γοερός for exactly this ethos. Aristides Quintilianus calls the chromatic genus «ἥδιστόν τε καὶ γοερόν» (p. 92.26 W.-I.), as against the austere diatonic, which matches our text's contrast. γοέτερον is not a Greek word. It is explained as a haplography of -ρω- shared by Par., V and Bas."
+  },
+  {
+   "place": "place 25",
+   "findings": [
+    {
+     "source": "Evidence file section-7.json: H 69v.20; Par. 27r.16; V 82v.7; Bas. 33.12",
+     "status": "checked",
+     "found": "All four witnesses read «παιήων». No witness has παιών.",
+     "bears_on": "reading 1",
+     "how": "Reading 1 is the unanimous transmitted text. Reading 2 would be an editorial normalisation."
+    },
+    {
+     "source": "LSJ s.v. παιάν, with Frisk, Dvoretsky and Mantoulidis on the same lsj.gr page",
+     "url": "https://lsj.gr/wiki/παιάν",
+     "status": "checked",
+     "found": "LSJ gives παιήων as the Epic form; it is used of the choral song in «καλὸν ἀείδοντες παιήονα» (Il. 1.473), of a song of triumph (Il. 22.391), and at h.Ap. 518. παιών is Attic and Ionic. παιάν is common in Attic prose (X., D., Aeschin.). The metrical foot is 'always παιών'. Frisk: παιήων Homeric, παιών Ionic-Attic, παιάν Doric, tragic and Hellenistic.",
+     "bears_on": "both",
+     "how": "Both are genuine forms of the word for the song. παιήων is the Homeric form used of the song itself, so it is a legitimate (learned, Homericising) choice for a Byzantine author. παιών is the Attic form and is especially the name of the metrical foot. Neither is an error, so the edition principle (keep the author's usage, conjecture only where no witness is acceptable) favours the transmitted παιήων."
+    },
+    {
+     "source": "Cleonides, Isagoge 13, p. 206 Jan (Musici scriptores Graeci, 1895)",
+     "url": "https://archive.org/details/musiciscriptoresjank",
+     "status": "checked",
+     "found": "On the hesychastic ethos: «ἁρμόσουσι δὲ αὐτῷ ὕμνοι παιᾶνες ἐγκώμια συμβουλαί».",
+     "bears_on": "neither",
+     "how": "The theorists name this song type παιάν, not παιών. A normalising editor would have no theorist's authority for παιών in particular."
+    },
+    {
+     "source": "E. A. Sophocles, Greek Lexicon of the Roman and Byzantine Periods (1914 printing), archive.org full text",
+     "url": "https://archive.org/details/greeklexiconofro00soph",
+     "status": "checked",
+     "found": "There is no headword παιάν or παιήων, only παιανικός, παιανισμός and παιανογράφος.",
+     "bears_on": "neither",
+     "how": "The lexicon gives no information on Byzantine preference between παιήων and παιών."
+    }
+   ],
+   "nothing_found": "I found no post-classical prose attestation of παιήων for the song in the sources I could open (Sophocles' lexicon, web search). DGE does not yet cover π. I could not consult Lampe, LBG or Kriaras online for this word.",
+   "supports": "reading 1",
+   "strength": "strong",
+   "reasoning": "All four witnesses (H, Par., V, Bas.) read παιήων. It is a genuine form of the word, the Homeric form used of the paean-song itself (LSJ, Frisk). παιών is a legitimate Attic form but is not transmitted here, and even the theorists' own form is παιάν (Cleonides). Under the edition's principles (do not correct the author's usage; conjecture only where no witness gives an acceptable text), reading 2 is an unwarranted normalisation."
+  }
+ ],
+ "seen_prohibited": "1) The lsj.gr page for φθάρσις (https://lsj.gr/wiki/φθάρσις) contains the Greek 'Liddell-Scott' (Konstantinides) entry. It cites «Μιχ. Ψελλ. παρὰ A. J. H. Vincent, Notices des Manuscr. τ. 16, μέρ. 2, σ. 340», which is this text (P fr. 2, Vinc. 340) under the Ps.-Psellus attribution. I saw it and did not use it as evidence. From that page I used only the independent Bailly entry, which cites Ocellus/Stobaeus. 2) Prohibited later writers appeared in apparatus and prolegomena of sources I opened: Manuel Bryennius in Hiller's Theon apparatus and in Winnington-Ingram's Aristides apparatus ('Bry. 387'), and Pachymeres in Jan's prolegomena to Gaudentius. I saw them in passing and used none of them. 3) The Sophocles lexicon's abbreviation list includes 'Psell.' (Michael Psellus) generally. I did not look up or use any Psellus citation. No other search hit, entry or corpus result quoted or discussed this text, Heiberg's edition, 'Anon. Quadr.' or the Quadrivium of 1008. I put no Greek phrases of this text into search engines; my searches were single words, forms, lexicon headwords and the titles of editions. I read only files in the pkg folder (the place's evidence files, plus grep and inspection of the other section files for the author's own usage), and saved working files only in work-4.",
+ "summary": "For R4's six places, the reference evidence favours the transmitted text in five and leaves one open. Place 20 (πεποίηνται): reading 1, strong. It is P's own text, parallel to ἔχουσι and κίρνανται in the same passage, and normal post-classical concord (Jannaris §§1169-1171; Smyth §959). Place 21: reading 1 (ἐκ συμφθάρσεως), strong. In every witness the author calls these same incomposite intervals one interval 'ἐκ συμφθάρσεως' (Bas. 27.10, 32.10, 32.17). σύμφθαρσις is the mixture-theory term (LSJ; Alexander, Mixt. 216). The Ms. ἐξυφθάρσεως is that phrase with ξ written for κσ and μ lost, while Vincent's 'ἐξ φθάρσεως' breaks the ἐκ/ἐξ rule (Smyth §136). Place 22: both acceptable, weak. κεκραμένων has the author's συγκεκραμένον, κίρνανται and the theorists' κρᾶσις behind it. κεκρυμμένων is P's actual reading, idiomatic, and fits Bas. 27.12-14. On the edition's principle the balance tips toward keeping κεκρυμμένων. Place 23: reading 1 (ὅτι … τοῦτο), strong. It is P's text and gives the doctrine that arithmeticians do not divide the unit (Plato, Rep. 525d-e; Theon pp. 18-19 and 70 Hiller); causal ὅτι μή is post-classical usage (Jannaris §1818). Vincent's 'ὅ τι … οὔ πω' makes an anomalous double negative (Smyth §2760). Place 24: reading 1 (γοερώτερον, H), strong. It is the regular comparative (Smyth §314), and Aristides Quintilianus calls the chromatic genus «ἥδιστόν τε καὶ γοερόν» (p. 92.26 W.-I.). γοέτερον is a haplography and not a word. Place 25: reading 1 (παιήων), strong. All witnesses have it, and it is a genuine Homeric form for the song (LSJ, Frisk); παιών would be a normalisation, and the theorists themselves write παιάν. Working files (downloaded full texts of Smyth, Jannaris, Theon (Hiller), Jan's Musici scriptores Graeci, Aristides Quintilianus (W.-I.) and Sophocles' lexicon) are in work-4."
+}

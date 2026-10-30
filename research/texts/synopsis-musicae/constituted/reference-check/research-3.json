@@ -1,0 +1,384 @@
+{
+ "places": [
+  {
+   "place": "place 14",
+   "findings": [
+    {
+     "source": "Euclid, Sectio canonis prop. 11, in C. Jan, Musici scriptores Graeci (1895), p. 159.1-3 (and app. crit. to l. 2)",
+     "status": "checked",
+     "url": "https://archive.org/download/musiciscriptoresjank/page/n260_w700.jpg",
+     "found": "In the proof, the interval from nete synemmenon to hypate meson is called «δὶς διὰ τεσσάρων» and declared «διάφωνον». So in the theorists «δὶς διὰ τεσσάρων» means two fourths (16:9), a dissonance. The apparatus to l. 2 reads «δὶς M² supra»: δὶς was added above the line by a second hand.",
+     "bears_on": "both",
+     "how": "Against reading 2 if «δὶς διὰ τεσσάρων» is taken in its standard sense: a dissonant double fourth cannot be listed as an antiphonal consonance. The apparatus shows that δὶς is a word scribes add and drop in interval names."
+    },
+    {
+     "source": "Ps.-Aristotle, Problemata XIX.34 (Jan p. 95) and XIX.41 (Jan p. 102)",
+     "status": "checked",
+     "url": "https://archive.org/download/musiciscriptoresjank/musiciscriptoresjank_djvu.txt",
+     "found": "Both problems ask why the double fifth (δὶς δι' ὀξειῶν) and the double fourth (δὶς διὰ τεττάρων) are not consonant while the double octave is. The answer in 41 is that their ratios are neither superparticular nor multiple.",
+     "bears_on": "reading 1",
+     "how": "In standard theory the double fourth and double fifth are not consonances, so a list of antiphonal consonances requires the octave+fourth and octave+fifth (reading 1)."
+    },
+    {
+     "source": "Cleonides, Isagoge 5, Jan p. 194.2-15; app. to p. 194.21 and 195.1",
+     "status": "checked",
+     "url": "https://archive.org/download/musiciscriptoresjank/page/n295_w1000.jpg",
+     "found": "Lists six consonances: fourth, fifth, octave, «τὸ διὰ πασῶν καὶ διὰ τεσσάρων» (8½ tones, proslambanomenos to nete synemmenon), «τὸ διὰ πασῶν καὶ διὰ πέντε» (9½ tones, to nete diezeugmenon), and «τὸ δὶς διὰ πασῶν» (12 tones). Apparatus: «δὶς om. M¹WB, item p.195,1, habent LM³».",
+     "bears_on": "both",
+     "how": "This is the standard naming of the six consonances, as in reading 1. The apparatus is another case of δὶς being dropped or added in the transmission of compound interval names."
+    },
+    {
+     "source": "Gaudentius, Harmonica introductio 9, Jan p. 338.8-339.20",
+     "status": "checked",
+     "url": "https://archive.org/download/musiciscriptoresjank/page/n440_w1000.jpg",
+     "found": "Six consonances: the fourth, fifth, octave, «τὸ διὰ πασῶν τε ἅμα καὶ διὰ τεσσάρων», «τὸ διὰ πασῶν τε ἅμα καὶ διὰ πέντε» and «τὸ δὶς διὰ πασῶν». Sizes: the octave+fourth spans 11 notes (φθόγγων ια) and 8½ tones; the octave+fifth 12 notes and 9½ tones; the double octave 15 notes and 12 tones.",
+     "bears_on": "reading 1",
+     "how": "The note-counts 11, 12 and 15 are exactly the author's 11th, 12th and 15th notes at Bas. 28.20-22. Counted from note 1, these are the octave+fourth, octave+fifth and double octave. A double fourth would end on note 7 and a double fifth on note 9."
+    },
+    {
+     "source": "Theon of Smyrna (Thrasyllus), ed. Hiller (1878), p. 48.17-23",
+     "status": "checked",
+     "url": "https://archive.org/download/theonissmyrnaei00theogoog/page/n69_w800.jpg",
+     "found": "«σύμφωνα μὲν τά τε κατ' ἀντίφωνον, οἷόν ἐστι τὸ διὰ πασῶν καὶ τὸ δὶς διὰ πασῶν, καὶ τὰ ⟨κατὰ⟩ παράφωνον, οἷον τὸ διὰ πέντε, τὸ διὰ τεσσάρων». Theon p. 49.4-5 (OCR) reads «ὁ γὰρ τόνος καὶ ἡ δίεσις ἀρχὴ μὲν συμφωνίας, οὔπω δὲ συμφωνία», which is word for word Bas. 29.1-2.",
+     "bears_on": "both",
+     "how": "This is the author's source for the paraphonal/antiphonal division. In it antiphony is an octave relation, and neither the double fourth nor the double fifth is antiphonal. Thrasyllus' antiphonal list has only the octave and double octave, so neither reading's middle members come from him."
+    },
+    {
+     "source": "Ps.-Aristotle, Problemata XIX.39b (Jan p. 100); LSJ s.v. ἀντίφωνος; Gaudentius 20 (Jan p. 347.26-348.1)",
+     "status": "checked",
+     "url": "https://anastrophe.uchicago.edu/logeion-api/detail?type=normal&w=%E1%BC%80%CE%BD%CF%84%CE%AF%CF%86%CF%89%CE%BD%CE%BF%CF%82",
+     "found": "Probl. XIX.39b: «τὸ μὲν ἀντίφωνον σύμφωνόν ἐστι διὰ πασῶν». LSJ glosses ἀντίφωνος as «concordant, as in the octave» and τὸ ἀ. as «concord in the octave» (Arist. Pr. 918b30, 921a8). Gaudentius 20: the mese is «ἀντίφωνος» to the proslambanomenos.",
+     "bears_on": "both",
+     "how": "Antiphony is octave equivalence. The author's examples (8th with 1st, 11th with 4th, 12th with 5th, 15th with 8th) are all octave pairs."
+    },
+    {
+     "source": "Internal evidence: Bas. 28.2-7 (all witnesses); P fr. 2, Vinc. 340.8-9; Bas. 28.19-22 (evidence/section-3.json, section-4.json)",
+     "status": "checked",
+     "found": "The author says the intervals are completed in the octachord and then re-doubled («ἐπαναδιπλουμένων»), «as the very names show: δὶς γὰρ διὰ τεσσάρων, καὶ δὶς διὰ πέντε, καὶ δὶς διὰ πασῶν, αἱ μετὰ ταῦτα διαστάσεις καλοῦνται». P fr. 2 lists «τὸ δὶς διὰ τεσσάρων, τὸ δὶς διὰ πέντε, καὶ τὸ δὶς διὰ πασῶν». The examples pair the 11th note with the 4th, the 12th with the 5th and the 15th with the 8th. All witnesses (Bas., H, Par., V) read δὶς … δὶς at 28.11.",
+     "bears_on": "reading 2",
+     "how": "The δὶς-names carry the author's argument at 28.6-7 and are in every branch, P included. They are most likely the author's own non-standard name for the fourth, fifth and octave repeated in the upper octave, so reading 1 would correct the author rather than the scribes."
+    },
+    {
+     "source": "Internal evidence: Bas. 29.7-23 (evidence/section-4.json)",
+     "status": "checked",
+     "found": "The same intervals are given 8½ and 9½ tones and the ratios 16:6 (διπλασιεπιμερής) and 18:6 (τριπλάσιος). These are octave+fourth and octave+fifth.",
+     "bears_on": "reading 1",
+     "how": "The intervals meant are the octave+fourth and octave+fifth. This is the substance of reading 1."
+    },
+    {
+     "source": "Xylander's marginal notes, Bas. p. 28 (evidence/section-3.json)",
+     "status": "checked",
+     "found": "Xylander proposes «διὰ πασῶν καὶ διὰ τεσσάρων» and «διὰ πασῶν καὶ διὰ πέντε» in place of the δὶς-terms.",
+     "bears_on": "reading 1",
+     "how": "Reading 1 is Xylander's conjecture; no witness has it."
+    }
+   ],
+   "nothing_found": "I found no instance anywhere of «δὶς διὰ τεσσάρων» or «δὶς διὰ πέντε» meaning octave+fourth or octave+fifth. I checked Jan's corpus (Probl., Euclid, Cleonides, Nicomachus' Enchiridion, Bacchius, Gaudentius, Alypius), Theon and LSJ; everywhere δὶς διὰ τεσσάρων means two fourths. I did not use Ptolemy's Harmonics: the only online copy of Düring I found is a Z-Library upload, not a legitimate source.",
+   "supports": "reading 2",
+   "strength": "weak",
+   "reasoning": "The theorists are unanimous (Euclid 11; Probl. XIX.34, 41; Cleonides 5; Gaudentius 9) that the octave+fourth and octave+fifth are correctly «διὰ πασῶν καὶ διὰ τεσσάρων/πέντε» and that the double fourth and double fifth are dissonant. On substance, reading 1 is right. But no witness has reading 1. The δὶς-nomenclature is defined by the author himself at 28.6-7, where it carries the argument, it recurs in P, and the 11:4, 12:5, 15:8 examples fit it. So the transmitted text is most likely authorial. Under the edition's rule of conjecture only where no witness is acceptable, the evidence favours printing reading 2 with a note giving the standard names and Xylander's conjecture. This turns on whether the editor corrects an author's technical error."
+  },
+  {
+   "place": "place 15",
+   "findings": [
+    {
+     "source": "Smyth, Greek Grammar for Colleges (1920), §296, p. 79",
+     "status": "checked",
+     "url": "https://archive.org/download/smyth-greek-grammar-for-colleges-1920/Smyth%2C%20A%20Greek%20Grammar%20for%20Colleges%20%281920%29_djvu.txt",
+     "found": "For u-stem adjectives (ἡδύς type), «the genitive singular masculine and neuter ends in -ος (not -ως)».",
+     "bears_on": "reading 2",
+     "how": "The standard genitive is ὀξέος. The witnesses' ὀξέως is a form taken over from the noun type (πήχεως, πόλεως)."
+    },
+    {
+     "source": "LSJ s.v. ἥμισυς (via Logeion)",
+     "status": "checked",
+     "url": "https://anastrophe.uchicago.edu/logeion-api/detail?type=normal&w=%E1%BC%A5%CE%BC%CE%B9%CF%83%CF%85%CF%82",
+     "found": "Gen. ἡμίσεος; «ἡμίσεως is sts. a v.l., as in Th. ll. cc., and is found in later writers, as Dsc. 2.70».",
+     "bears_on": "both",
+     "how": "The -εως genitive of u-stem adjectives is a known manuscript variant and post-classical form. Editors print -εος and report -εως as a variant."
+    },
+    {
+     "source": "Cleonides, Isagoge 5, Jan p. 194, app. to ll. 4, 6, 10",
+     "status": "checked",
+     "url": "https://archive.org/download/musiciscriptoresjank/page/n295_w1000.jpg",
+     "found": "Jan prints ἡμίσεος. His apparatus reads «4 ἡμίσεως W, item 6» and «10 ἡμίσους M¹W, ἡμίσεως M⁴».",
+     "bears_on": "reading 2",
+     "how": "The same -εως/-εος variant occurs in a music-theory manuscript tradition, and the editor normalizes to -εος."
+    },
+    {
+     "source": "Internal evidence: Bas. 25.3 and 30.1-2 (all witnesses) (evidence/section-2.json, section-4.json)",
+     "status": "checked",
+     "found": "The author writes «ἀπὸ τοῦ βαρέος» and «τῆς ἀπὸ τοῦ βαρέος», with the -έος genitive.",
+     "bears_on": "reading 2",
+     "how": "The author's own genitive of a u-stem adjective is in -έος, so ὀξέως is scribal spelling to be normalized."
+    },
+    {
+     "source": "LSJ s.v. βάρος IX; DGE s.v. βάρος I.5 (via Logeion)",
+     "status": "checked",
+     "url": "https://anastrophe.uchicago.edu/logeion-api/detail?type=normal&w=%CE%B2%CE%AC%CF%81%CE%BF%CF%82",
+     "found": "LSJ: «in Music, = βαρύτης, low pitch, Aristid.Quint. 1.11». DGE: «mús. tono grave Aristid.Quint.23.8».",
+     "bears_on": "reading 1",
+     "how": "The noun βάρος («low pitch») is attested in music theory, so τῷ βάρει can be a noun."
+    },
+    {
+     "source": "Theon of Smyrna (Thrasyllus), Hiller p. 48.21-23",
+     "status": "checked",
+     "url": "https://archive.org/download/theonissmyrnaei00theogoog/page/n69_w800.jpg",
+     "found": "«τά τε γὰρ κατ' ἀντίφωνον σύμφωνά ἐστιν, ἐπειδὰν τὸ ἀντικείμενον τῇ ὀξύτητι βάρος συμφωνῇ».",
+     "bears_on": "reading 1",
+     "how": "βάρος appears in the very definition of antiphony, in a source the author demonstrably uses (Bas. 29.1-2 = Theon 49.4-5). This supports βάρει, the reading of H and Par."
+    },
+    {
+     "source": "Ps.-Aristotle, Problemata XIX.17, Jan p. 87",
+     "status": "checked",
+     "url": "https://archive.org/download/musiciscriptoresjank/musiciscriptoresjank_djvu.txt",
+     "found": "On the octave: «ἐκείνη γὰρ ἐν τῷ βαρεῖ ἀνάλογον ὡς ἡ ὀξεῖα ἐν τῷ ὀξεῖ».",
+     "bears_on": "reading 2",
+     "how": "Substantive adjectives «τὸ βαρύ / τὸ ὀξύ» are used in the same octave context, so the dative τῷ βαρεῖ is idiomatic."
+    },
+    {
+     "source": "Internal evidence: Bas. 28.23-24 and the witnesses at 28.18 (evidence/section-4.json)",
+     "status": "checked",
+     "found": "Two lines later the author writes «τῶν βαρέων τοῖς ὀξέσιν, ἢ τῶν ὀξέων τοῖς βαρέσι», with adjectives on both sides. At 28.18 H has «ὀξέως τῶ βά|ρει», Par. «ὀξέως τῷ βάρει», V «ὀξέως τῷ βαρεῖ», Bas. «ὀξέως τῷ βαρεί». All witnesses have ὀξέως.",
+     "bears_on": "both",
+     "how": "The matched adjectives favour βαρεῖ (reading 2). The witness count favours βάρει (H, the oldest, with Par.; reading 1). On ὀξέως there is no variant: it is an orthographic matter."
+    }
+   ],
+   "nothing_found": "I found no lexicon or grammar that treats ὀξέως as an accepted genitive of ὀξύς. LSJ ὀξύς gives no such form.",
+   "supports": "undecided",
+   "strength": "weak",
+   "reasoning": "The place combines two separate questions. (a) ὀξέως/ὀξέος: Smyth §296, LSJ ἥμισυς, Jan's practice in Cleonides and the author's own βαρέος all point to normalizing to ὀξέος, as in reading 2. (b) βάρει/βαρεῖ: H and Par., the noun's musical sense in LSJ and DGE, and Theon's definition of antiphony with βάρος favour βάρει (reading 1). The author's matched adjectives at 28.23-24, Probl. XIX.17 and V favour βαρεῖ (reading 2). Neither printed string is clearly better; on these findings the best-supported text would be normalized ὀξέος with H's βάρει."
+  },
+  {
+   "place": "place 16",
+   "findings": [
+    {
+     "source": "Witnesses at Bas. 29.5 (evidence/section-4.json)",
+     "status": "checked",
+     "found": "Bas. «προσωνυμίας οὐκ ἔτυχε»; H 67r.17 «προσωνυμίας οὐκ ἔτυχε»; Par. 24r.21 «προσωνυμίας»; V 79r.21-79v.1 «προσωνυ|μίας». No witness reads προσηγορίας.",
+     "bears_on": "reading 1",
+     "how": "The reading is unanimous in all witnesses."
+    },
+    {
+     "source": "Sophocles, Greek Lexicon of the Roman and Byzantine Periods, s.v. προσωνυμία",
+     "status": "checked",
+     "url": "https://archive.org/download/greeklexiconofro00soph/greeklexiconofro00soph_djvu.txt",
+     "found": "«προσωνυμία, ας, ἡ, (ὄνομα) appellation, name. Diosc. 3,151 (161). Plut. 1, 156 B. Just. Apol. 2, 2. Afric. 69.»",
+     "bears_on": "reading 1",
+     "how": "In Roman and Byzantine Greek the word means simply «name, appellation», so «did not get a name» is good usage."
+    },
+    {
+     "source": "LSJ s.v. προσωνυμία; Bailly s.v. (via Logeion)",
+     "status": "checked",
+     "url": "https://anastrophe.uchicago.edu/logeion-api/detail?type=normal&w=%CF%80%CF%81%CE%BF%CF%83%CF%89%CE%BD%CF%85%CE%BC%CE%AF%CE%B1",
+     "found": "LSJ: «surname, Hp. Morb.Sacr. 1, Dsc. 2.142, 3.3, Plu. Per. 8, 39, Gal. 6.778, D.C. 41.39». Bailly: «surnom».",
+     "bears_on": "reading 1",
+     "how": "The word is well attested from the Hippocratic corpus to Dio Cassius, often of a distinguishing name."
+    },
+    {
+     "source": "LSJ s.v. προσηγορία; Pape s.v. (via Logeion)",
+     "status": "checked",
+     "url": "https://anastrophe.uchicago.edu/logeion-api/detail?type=normal&w=%CF%80%CF%81%CE%BF%CF%83%CE%B7%CE%B3%CE%BF%CF%81%CE%AF%CE%B1",
+     "found": "LSJ: «appellation, name, Isoc. 15.284 … D. 6.25, Arist. Pol. 1275a6 …». Pape: «die Benennung, der Name».",
+     "bears_on": "reading 2",
+     "how": "Reading 2 is lexically just as good; nothing in the lexica excludes either word."
+    },
+    {
+     "source": "Theon of Smyrna, Hiller p. 77.5-7 and p. 51.18-20",
+     "status": "checked",
+     "url": "https://archive.org/download/theonissmyrnaei00theogoog/page/n98_w800.jpg",
+     "found": "p. 77: «διὸ καὶ ἀπὸ τῆς τῶν μερῶν ὀνομασίας ἕκαστος τῶν ἐπιμορίων ἰδίας ἔτυχε προσηγορίας». p. 51 (OCR): «τῶν πρώτων συμφωνιῶν αἱ προσηγορίαι φυλάττονται».",
+     "bears_on": "reading 2",
+     "how": "The idiom τυγχάνω + προσηγορίας for getting a name occurs in a source the author uses, and προσηγορία names intervals there. This makes reading 2 plausible, but as a normalization with no manuscript support."
+    },
+    {
+     "source": "Internal evidence: the author's naming vocabulary (evidence/section-2.json, section-3.json)",
+     "status": "checked",
+     "found": "«Προσηγορίαι δὲ φθόγγων» (25.2), «τὰς προσηγορίας λαμβάνοντος» (25.4), «τὰς τοιάσδε προσηγορίας ἐδέξαντο» (27.22), «τῆς φερωνυμίας» (28.5), «τῶν κλήσεων» (28.6), «προσωνυμίας» (29.5).",
+     "bears_on": "both",
+     "how": "The author usually says προσηγορία, which could prompt a normalizing conjecture. But he also varies the word (φερωνυμία, κλῆσις), so a single προσωνυμία is unremarkable."
+    }
+   ],
+   "nothing_found": "I did not search corpora for προσωνυμία construed with τυγχάνω, because that would mean searching with this text's own phrase. No lexicon entry I opened cites that combination. No theorist I checked (Jan's corpus, Theon) uses προσωνυμία.",
+   "supports": "reading 1",
+   "strength": "strong",
+   "reasoning": "All four witnesses read προσωνυμίας, and the word means «appellation, name» in Roman and Byzantine Greek (Sophocles; LSJ). Reading 2 has a good idiomatic parallel in Theon p. 77 and matches the author's usual προσηγορία. But it has no witness, and replacing a well-attested synonym would normalize the author's vocabulary."
+  },
+  {
+   "place": "place 17",
+   "findings": [
+    {
+     "source": "Cleonides, Isagoge 5, Jan p. 194.8-15",
+     "status": "checked",
+     "url": "https://archive.org/download/musiciscriptoresjank/page/n295_w1000.jpg",
+     "found": "«τέταρτον δὲ τὸ διὰ πασῶν καὶ διὰ τεσσάρων, τόνων ὀκτὼ καὶ ἡμίσεος … πέμπτον τὸ διὰ πασῶν καὶ διὰ πέντε, τόνων ἐννέα ἡμίσεος … ἕκτον τὸ δὶς διὰ πασῶν, τόνων δώδεκα».",
+     "bears_on": "reading 1",
+     "how": "This is the same series as Bas. 29.7-11 («δι' ὀκτὼ καὶ ἡμιτονίου», «δι' ἐννέα καὶ ἡμιτονίου», «διὰ δώδεκα»), without δὶς."
+    },
+    {
+     "source": "Gaudentius, Harm. intr. 9, Jan p. 339.14-20",
+     "status": "checked",
+     "url": "https://archive.org/download/musiciscriptoresjank/page/n440_w1000.jpg",
+     "found": "«τὸ δὲ διὰ πασῶν καὶ διὰ τεσσάρων … τόνων ὀκτὼ ἡμίσους … τὸ δὲ διὰ πασῶν καὶ διὰ πέντε … τόνων ἐννέα ἡμίσους … τὸ δὲ δὶς διὰ πασῶν … τόνων δώδεκα».",
+     "bears_on": "reading 1",
+     "how": "A second handbook gives the same sizes under names without δὶς."
+    },
+    {
+     "source": "Arithmetic check on the transmitted sentence (Bas. 29.7-11)",
+     "status": "checked",
+     "found": "Octave (6 tones) + fourth (2½) = 8½ tones, as stated. Octave + double fourth = 11 tones. Octave + fifth (3½) = 9½, as stated. Octave + double fifth = 13.",
+     "bears_on": "reading 1",
+     "how": "With δὶς the sentence contradicts its own tone counts under any sense of δὶς. Even in the author's own sense at 28.6-7 (δὶς διὰ τεσσάρων = octave+fourth), «διὰ πασῶν καὶ δὶς διὰ τεσσάρων» would be 14½ tones."
+    },
+    {
+     "source": "Euclid, Sectio canonis 11, Jan p. 159; Ps.-Arist. Probl. XIX.34 and 41, Jan pp. 95, 102",
+     "status": "checked",
+     "url": "https://archive.org/download/musiciscriptoresjank/page/n260_w700.jpg",
+     "found": "The double fourth is «διάφωνον» (Euclid). The double fourth and double fifth are not consonant (Probl.).",
+     "bears_on": "reading 1",
+     "how": "No consonance contains a double fourth or double fifth."
+    },
+    {
+     "source": "Euclid app. Jan p. 159 («δὶς M² supra»); Cleonides app. Jan p. 194.21 («δὶς om. M¹WB, item p.195,1, habent LM³»)",
+     "status": "checked",
+     "url": "https://archive.org/download/musiciscriptoresjank/page/n295_w1000.jpg",
+     "found": "In both traditions δὶς is added above the line or omitted by some manuscripts in compound interval names.",
+     "bears_on": "reading 1",
+     "how": "This is the same type of variant: δὶς is easily intruded or lost when διὰ πασῶν / δὶς διὰ πασῶν and similar names stand side by side."
+    },
+    {
+     "source": "Xylander's marginal note, Bas. p. 29 (evidence/section-4.json); witnesses at 29.8-9",
+     "status": "checked",
+     "found": "Xylander: «abundant omnino, & delenda sunt» (the two δὶς). H 67r.20-21, Par. 24v.2-3 and V 79v.4-6 all read «διὰ πασῶν καὶ δὶς διὰ τεσσάρων … διὰ πασῶν καὶ δὶς διὰ πέντε».",
+     "bears_on": "both",
+     "how": "Reading 1 is Xylander's deletion. Reading 2 is in every witness, probably carried over from the author's δὶς-nomenclature at 28.6-7 and 28.11, whether by the author or by the scribes of the archetype."
+    }
+   ],
+   "nothing_found": "I found no instance of «διὰ πασῶν καὶ δὶς διὰ τεσσάρων/πέντε» as a name for any interval in Jan's corpus or Theon.",
+   "supports": "reading 1",
+   "strength": "moderate",
+   "reasoning": "Unlike place 14, the δὶς here makes the sentence contradict itself: «δι' ὀκτὼ καὶ ἡμιτονίου» and «δι' ἐννέα καὶ ἡμιτονίου» are exactly the octave+fourth and octave+fifth of Cleonides and Gaudentius, under any sense of δὶς. The δὶς is a known volatile element in such names. Against this, the transmission is unanimous, and the intrusion may go back to the author's own conflation with his δὶς-names. So deletion is a conjecture, and the strength is moderate rather than strong."
+  },
+  {
+   "place": "place 18",
+   "findings": [
+    {
+     "source": "Theon of Smyrna, Hiller p. 56.12-16",
+     "status": "checked",
+     "url": "https://archive.org/download/theonissmyrnaei00theogoog/page/n77_w800.jpg",
+     "found": "«καὶ τοὺς μὲν διὰ πασῶν καὶ διὰ τεσσάρων ἐν λόγῳ τῶν η' πρὸς γ', ὅς ἐστι πολλαπλασιεπιμερής … τοὺς δὲ διὰ πασῶν καὶ διὰ πέντε ἐν λόγῳ τριπλασίῳ, τοὺς δὲ δὶς διὰ πασῶν ἐν τετραπλασίῳ».",
+     "bears_on": "reading 1",
+     "how": "The multiple-superpartient ratio (8:3) and the triple ratio belong to the octave+fourth and octave+fifth, without δὶς."
+    },
+    {
+     "source": "Gaudentius, Harm. intr. 10, Jan p. 339.21-340.3",
+     "status": "checked",
+     "url": "https://archive.org/download/musiciscriptoresjank/page/n440_w1000.jpg",
+     "found": "«τῆς δὲ διὰ πασῶν τε ἅμα καὶ διὰ τεσσάρων διπλασιεπιδίμοιρος, ὃν ἔχει ὁ κδ πρὸς τὸν θ» and (p. 340, OCR) «τῆς μὲν διὰ πασῶν καὶ διὰ πέντε τριπλάσιος … τῆς δὲ δὶς διὰ πασῶν τετραπλάσιος». The diagram's numbers are 24, 18, 16, 12, 9, 8, 6.",
+     "bears_on": "reading 1",
+     "how": "This is the same set of numbers as the author's example (6, 8, 9, 12, 16, 18, 24). 16:6 and 18:6 are the octave+fourth and octave+fifth."
+    },
+    {
+     "source": "Nicomachus, Introductio arithmetica I.23, ed. Hoche p. 64; Sophocles Lexicon s.v. διπλασιεπιδιμερής",
+     "status": "checked",
+     "url": "https://archive.org/download/nicomachigerasen00nicouoft/nicomachigerasen00nicouoft_djvu.txt",
+     "found": "Nicomachus: the species of πολλαπλασιεπιμερής are διπλασιεπιδιμερής and so on, «οἷον ὁ μὲν η' τοῦ γ' διπλασιεπιδιμερὴς καὶ ὁ ις' τοῦ ς' διπλασιεπιδιμερής». Sophocles: «διπλασιεπιδιμερής … as 8 : 3. Nicom. 104».",
+     "bears_on": "reading 1",
+     "how": "The author's own pair 16:6 is the textbook example of this multiple-superpartient ratio, which is the octave+fourth."
+    },
+    {
+     "source": "Theon, Hiller p. 79 (OCR); Euclid, Sectio canonis 12, Jan p. 160 (OCR)",
+     "status": "checked",
+     "url": "https://archive.org/download/theonissmyrnaei00theogoog/theonissmyrnaei00theogoog_djvu.txt",
+     "found": "Theon: «ὁ μὲν τῶν η' δὶς ἔχει τὸν τῶν γ' καὶ δύο τρίτα αὐτοῦ» (compare the author's «τὸ ἕκτον δὶς ἔχων, καὶ δύο μέρη αὐτοῦ»). Euclid: «τὸ διὰ πέντε καὶ διὰ πασῶν τριπλάσιόν ἐστιν … Τὸ δὲ δὶς διὰ πασῶν τετραπλάσιόν ἐστιν».",
+     "bears_on": "reading 1",
+     "how": "The triple ratio is the octave+fifth. With δὶς, the double fourth is 16:9 and the octave + double fifth is 9:2, neither of which is διπλασιεπιμερής or τριπλάσιος."
+    },
+    {
+     "source": "Witnesses at Bas. 29.13-15 (evidence/section-4.json)",
+     "status": "checked",
+     "found": "Bas.: «τοῦ δὲ διὰ πασῶν καὶ διὰ τεσσάρων … τοῦ διὰ πασῶν καὶ διὰ πέντε». H 67v.4-6 and V 79v.11-13: «τοῦ διὰ πασῶν καὶ δὶς διὰ τεσσάρων … τοῦ διὰ πασῶν καὶ δὶς διὰ πέντε». Par. 24v.8-10: «τοῦ διὰ πασῶν καὶ διὰ τεσσάρων … τοῦ διὰ πασῶν. καὶ δὶς διὰ πέντε». δὲ is in Bas. alone; the next member (29.15) has no δὲ in any witness.",
+     "bears_on": "both",
+     "how": "For the first member, omitting δὶς has witness support (Par.). For the second it is Xylander's correction. The δὲ of reading 1 has no manuscript support: H, Par. and V all omit it."
+    }
+   ],
+   "nothing_found": "I found no theorist who gives a ratio for «διὰ πασῶν καὶ δὶς διὰ τεσσάρων/πέντε». I also found no external evidence for or against δὲ at this point; Gaudentius' parallel list uses δέ throughout, which decides nothing.",
+   "supports": "reading 1",
+   "strength": "moderate",
+   "reasoning": "The ratios in the same sentence, 8:3 and 3:1, and the worked example 16:6 and 18:6 fix the intervals as octave+fourth and octave+fifth (Theon p. 56; Gaudentius 10; Nicomachus I.23; Euclid 12). The δὶς is therefore wrong in substance, and Par. lacks it in the first member. But the oldest witnesses (H, V) carry δὶς in both members, and reading 1's δὲ is found in Bas. only. The evidence supports reading 1 on δὶς, while an editor may prefer to drop the unattested δὲ."
+  },
+  {
+   "place": "place 19",
+   "findings": [
+    {
+     "source": "LSJ s.v. προσλαμβάνω I.2.c (via Logeion)",
+     "status": "checked",
+     "url": "https://anastrophe.uchicago.edu/logeion-api/detail?type=normal&w=%CF%80%CF%81%CE%BF%CF%83%CE%BB%CE%B1%CE%BC%CE%B2%CE%AC%CE%BD%CF%89",
+     "found": "«in Music, ὁ προσλαμβανόμενος [τόνος] the added note at the bottom of the scale, Ph. 1.111, Plu. An.procr. 2.1028f, etc.»",
+     "bears_on": "reading 2",
+     "how": "προσλαμβανόμενος is the technical name of the lowest note of the system."
+    },
+    {
+     "source": "LSJ s.v. προλαμβάνω (via Logeion)",
+     "status": "checked",
+     "url": "https://anastrophe.uchicago.edu/logeion-api/detail?type=normal&w=%CF%80%CF%81%CE%BF%CE%BB%CE%B1%CE%BC%CE%B2%CE%AC%CE%BD%CF%89",
+     "found": "Senses include take beforehand, anticipate, «precede, go before» (ὁ προλαβών, τὰ προλαβόντα). There is no musical sense and no use as a note name.",
+     "bears_on": "reading 2",
+     "how": "προλαμβανόμενος φθόγγος would be an unattested coinage («the note taken beforehand»). It is barely conceivable in contrast to «τοὺς πρὸ αὐτῶν ἐγγὺς φθόγγους», but has no support."
+    },
+    {
+     "source": "Sophocles, Greek Lexicon of the Roman and Byzantine Periods, s.v. προσλαμβάνω 3",
+     "status": "checked",
+     "url": "https://archive.org/download/greeklexiconofro00soph/greeklexiconofro00soph_djvu.txt",
+     "found": "«Participle, προσλαμβανόμενος, L. adquisitus, the name of a musical note. Philon I, 111, 38.» Sophocles has no entry for προλαμβανόμενος as a note.",
+     "bears_on": "reading 2",
+     "how": "The Byzantine-period lexicon knows only the προσ- form as the note name."
+    },
+    {
+     "source": "Internal evidence: Bas. 25.4-5 (all witnesses) (evidence/section-2.json)",
+     "status": "checked",
+     "found": "The author's list of note names opens «Προσλαμβανόμενος, ὑπάτη ὑπάτων …» in Bas., H, Par. and V.",
+     "bears_on": "reading 2",
+     "how": "The author knows and uses the correct term."
+    },
+    {
+     "source": "Cleonides, Isagoge 5, Jan p. 194.5-15",
+     "status": "checked",
+     "url": "https://archive.org/download/musiciscriptoresjank/page/n295_w1000.jpg",
+     "found": "The fifth, octave, octave+fourth, octave+fifth and double octave are each illustrated «ἀπὸ προσλαμβανομένου ἐπὶ …».",
+     "bears_on": "reading 2",
+     "how": "This is the same idea as P's sentence: the composite (ἔμμεσα) consonances are referred to the proslambanomenos, the incomposite intervals to the neighbouring notes."
+    },
+    {
+     "source": "Gaudentius, Harm. intr. 16 and 20, Jan pp. 344 and 347-348",
+     "status": "checked",
+     "url": "https://archive.org/download/musiciscriptoresjank/musiciscriptoresjank_djvu.txt",
+     "found": "Ch. 16: «ἄρχεται δὲ ὁ προσλαμβανόμενος ἀπὸ τοῦ μεγίστου τῶν ἀριθμῶν». Ch. 20: the whole system is tuned «πρὸς τοῦτον», the proslambanomenos, and the mese is «πρὸς τοῦτον ἀντίφωνον».",
+     "bears_on": "reading 2",
+     "how": "The numerical ratios of the system are reckoned from the proslambanomenos."
+    },
+    {
+     "source": "Theon of Smyrna, Hiller p. 195, app. to l. 14",
+     "status": "checked",
+     "url": "https://archive.org/download/theonissmyrnaei00theogoog/theonissmyrnaei00theogoog_djvu.txt",
+     "found": "«φωτιζόμενον] προσλαμβάνον B, προλαμβάνον Mart.»",
+     "bears_on": "reading 2",
+     "how": "Here the manuscript has προσλαμβάνον and the earlier editor (Martin) printed προλαμβάνον. προσλαμβ-/προλαμβ- is a real confusion, and the loss of σ is the easy direction."
+    },
+    {
+     "source": "P fr. 2 as printed by Vincent, 340.9-10 (evidence/section-4.json)",
+     "status": "checked",
+     "found": "«πρὸς τὸν προ-|λαμβανόμενον φθόγγον τῶν λόγων ἔχουσι τὴν ἀναφοράν». Vincent gives no «Ms.» footnote here.",
+     "bears_on": "reading 1",
+     "how": "This is the only witness, and it reads προλ-. Whether the slip is P's or Vincent's typesetting cannot be told."
+    }
+   ],
+   "nothing_found": "I found no attestation of προλαμβανόμενος, or Latin «prolambanomenos», as a note name. I checked LSJ, Sophocles, Jan's corpus (OCR search), Theon (OCR search) and web searches.",
+   "supports": "reading 2",
+   "strength": "strong",
+   "reasoning": "προσλαμβανόμενος is the standard technical term (LSJ, Sophocles). The author uses it himself at 25.4-5, and the theorists (Cleonides 5, Gaudentius 16, 20) refer the composite consonances and the system's numbers to that note, as P's sentence does. προλαμβανόμενος has no musical sense or attestation. The variant is a simple loss of σ, with a documented parallel in the προσλαμβάνον/προλαμβάνον confusion in Theon p. 195."
+  }
+ ],
+ "seen_prohibited": "1) C. Jan, Musici scriptores Graeci (1895), p. 338, note to Gaudentius ch. 8, l. 3. While reading Gaudentius in the archive.org OCR, I saw a note that quotes «Psellus mus. p. 28» (this text, the paraphonon sentence at Bas. 28.8-10) together with Meibom's proposal (not. ad Gaud. p. 36) to insert «καὶ ἡ διὰ πασῶν καὶ διὰ τεσσάρων καὶ ἡ διὰ πασῶν καὶ διὰ πέντε». I did not use it. The same note mentions Thrasyllus; I verified Thrasyllus independently in Theon (Hiller p. 48) and cite only Theon. 2) Jan, prolegomena (OCR around the description of cod. Matritensis N 62, copied by Constantine Lascaris in 1460). It describes an anonymous «de musica» edited by Ruelle, quoting «δὶς διὰ τεσσάρων … τουτέστι δι' ὀκτὼ φθόγγων» and a syllogism analogy resembling P fr. 2. It may be related to or dependent on this text, so I did not use it. 3) I did not search any Greek phrase from this text in search engines. All web and corpus searches were for single words or terms (e.g. «prolambanomenos», lemmas through the Logeion API). No other hit I opened quoted or discussed this text. 4) I avoided an archive.org copy of Düring's Ptolemy because it is a Z-Library upload, not a legitimate source.",
+ "summary": "I researched places 14-19 in Jan's Musici scriptores Graeci (Euclid, Cleonides, Gaudentius, Ps.-Aristotle Problemata), Hiller's Theon, Hoche's Nicomachus, Smyth, LSJ/DGE/Bailly/Pape (via Logeion), and Sophocles' Lexicon. Key passages were checked on page images. Downloaded files are in work-3.\n\nPlaces 14, 17 and 18 (δὶς in compound intervals): the theorists are unanimous. Octave+fourth (8½ tones, 8:3, the 11th note) and octave+fifth (9½ tones, 3:1, the 12th note) are «διὰ πασῶν καὶ διὰ τεσσάρων/πέντε». The double fourth and double fifth are dissonant (Euclid Sectio 11; Probl. XIX.34, 41). Cleonides p. 194 and Gaudentius p. 339 give the author's very series (8½, 9½, 12 tones; notes 11, 12, 15), and Gaudentius' numbers 6-8-9-12-16-18-24 are the author's example set.\n- Place 14: the δὶς-names are defined by the author himself at 28.6-7, recur in P, and fit his 11:4/12:5/15:8 examples. They look authorial, so I lean to the transmitted reading 2 (weak), with the standard names and Xylander's conjecture in a note.\n- Places 17 and 18: δὶς contradicts the tone counts and ratios in the same sentence, so reading 1 (moderate). At place 18 the δὲ of reading 1 is in Bas. only.\n\nPlace 15: split.\n- ὀξέως should be normalized to ὀξέος (Smyth §296; LSJ ἥμισυς on the -εως variant; Jan's practice in Cleonides; the author's own βαρέος).\n- βάρει, a noun meaning «low pitch», is supported by H and Par., LSJ/DGE, and Theon's definition of antiphony with βάρος. βαρεῖ is supported by V, the author's matched adjectives two lines later, and Probl. XIX.17.\n- Verdict: undecided.\n\nPlace 16: προσωνυμίας is in every witness and means «appellation, name» in Roman and Byzantine Greek (Sophocles; LSJ). Reading 1, strong.\n\nPlace 19: προσλαμβανόμενος is the technical term, used by the author himself at 25.4-5 and by Cleonides and Gaudentius as the note from which composite intervals are reckoned. προλαμβανόμενος is unattested as a note name, and the same σ-loss confusion occurs in Theon p. 195. Reading 2, strong."
+}

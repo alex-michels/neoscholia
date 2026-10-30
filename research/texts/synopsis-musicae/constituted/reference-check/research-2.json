@@ -1,0 +1,439 @@
+{
+ "places": [
+  {
+   "place": "place 08",
+   "findings": [
+    {
+     "source": "Witness evidence, evidence/section-2.json: Bas. 27.2; H 66r.3; Par. 22v.19-20; V 77v.16; P fr. 1 at Vinc. 338.24",
+     "status": "checked",
+     "found": "Every witness reads μετειληφὼς: Bas., H, Par. (μετειλη-|φὼς), V, and P fr. 1 as printed by Vincent (338.24, with no footnote). No witness has μεταληφώς. At 26.24 all witnesses have the aorist μεταλαβών, and at 27.2 they all switch to the perfect.",
+     "bears_on": "reading 2",
+     "how": "Unanimous documentary support for reading 2. Reading 1 is attested in no witness."
+    },
+    {
+     "source": "Smyth, Greek Grammar §445",
+     "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0007:smythp=445",
+     "status": "checked",
+     "found": "Some verbs beginning with a liquid or μ take ει instead of reduplication: λαμβάνω, εἴ-ληφα, εἴ-λημμαι.",
+     "bears_on": "reading 2",
+     "how": "The regular perfect of (μετα)λαμβάνω is (μετ)είληφα, so the perfect participle is μετειληφώς. μεταληφώς lacks the ει- that stands in for reduplication."
+    },
+    {
+     "source": "LSJ s.v. λαμβάνω (principal parts)",
+     "url": "https://lsj.gr/wiki/λαμβάνω",
+     "status": "checked",
+     "found": "pf. εἴληφα (S. OT 643, Ar. Ra. 591, etc.); Ion., Dor., Arc. λελάβηκα (Hdt. 4.79, Epidaurus, Tegea). No perfect without reduplication is listed.",
+     "bears_on": "reading 2",
+     "how": "The lexicon gives no form of the type *ληφα / *-ληφώς."
+    },
+    {
+     "source": "LSJ s.v. μεταλαμβάνω (also Pape, Bailly abrégé, Dvoretsky on the same page)",
+     "url": "https://lsj.gr/wiki/μεταλαμβάνω",
+     "status": "checked",
+     "found": "Only the future μεταλήψομαι is listed among the principal parts. Sense III: 'take instead, take in exchange, substitute'.",
+     "bears_on": "neither",
+     "how": "Confirms the sense 'take X as (εἰς) Y'. Says nothing on the form of the perfect."
+    },
+    {
+     "source": "Perseus Greek Word Study Tool (morphology)",
+     "url": "https://www.perseus.tufts.edu/hopper/morph?l=meteilhfw%2Fs&la=greek",
+     "status": "checked",
+     "found": "μετειληφώς is parsed as the perf. act. part. masc. nom./voc. sg. of μεταλαμβάνω. For μεταληφώς (https://www.perseus.tufts.edu/hopper/morph?l=metalhfw%2Fs&la=greek) the tool says 'Sorry, no information was found'.",
+     "bears_on": "both",
+     "how": "Reading 2 is a recognised form. Reading 1 is not recognised."
+    },
+    {
+     "source": "Perseus corpus search for μετειληφώς",
+     "url": "https://www.perseus.tufts.edu/hopper/searchresults?q=meteilhfw%2Fs&target=greek",
+     "status": "checked",
+     "found": "Six hits: Demosthenes 19.209 (αὐτὸς εἰληφὼς ἢ μετειληφώς); Xenophon, Hell. 5.2; Athenaeus 1.3; Dionysius of Halicarnassus, AR 4.4; Aelius Aristides, Or. 45.",
+     "bears_on": "reading 2",
+     "how": "Shows the participle in use in classical and imperial prose."
+    },
+    {
+     "source": "Web search for the exact form \"μεταληφώς\"",
+     "status": "checked",
+     "found": "No page returned the form. The hits were only μεταληπτικός, μετάληψις and similar words.",
+     "bears_on": "reading 1",
+     "how": "No attestation of reading 1 was found."
+    },
+    {
+     "source": "Jannaris, An Historical Greek Grammar (1897) §734 (archive.org OCR, pp. 189-190)",
+     "url": "https://archive.org/details/jannaris-an-historical-greek-grammar",
+     "status": "checked",
+     "found": "'Several verbs beginning with a liquid take εἰ- instead of the reduplication, as: εἴληφα εἵλημμαι from λαμβάνω'.",
+     "bears_on": "reading 2",
+     "how": "Same rule as Smyth, in the historical grammar that covers the Byzantine period."
+    },
+    {
+     "source": "Jannaris, Historical Greek Grammar §736 ('Reduplication lost or misapplied', archive.org OCR, pp. 189-190)",
+     "url": "https://archive.org/details/jannaris-an-historical-greek-grammar",
+     "status": "checked",
+     "found": "Post-classical and Byzantine Greek increasingly drops reduplication. Most examples are perfect passive participles (γραμμένος type, δενδροκοπημένης, ψηφισμένον); a few are active (βασιλευκότες, πρεσβευκέναι, ἐποίηκας, διεθήκασι). Jannaris gives no example from λαμβάνω or its compounds.",
+     "bears_on": "reading 1",
+     "how": "A theoretical basis on which an unreduplicated μεταληφώς could be a Byzantine form. It is weak: no such form of λαμβάνω is cited, and no witness has it."
+    }
+   ],
+   "nothing_found": "No dictionary (LSJ, Pape, Bailly, Dvoretsky) and no corpus (Perseus) and no web page attests μεταληφώς. Not consulted: Lampe, LBG, DGE (does not reach μ), Kühner–Gerth, Schwyzer.",
+   "supports": "reading 2",
+   "strength": "strong",
+   "reasoning": "μετειληφώς is the regular perfect participle of μεταλαμβάνω (Smyth §445; Jannaris §734; LSJ s.v. λαμβάνω: pf. εἴληφα). It is well attested (Perseus: Dem. 19.209, X. HG 5.2, etc.) and is read by every witness, P included (Vinc. 338.24). μεταληφώς is not recognised by Perseus morphology and turns up in no search. Jannaris §736 shows that reduplication was sometimes lost in later Greek, so reading 1 is not unthinkable as a Byzantine form, but nothing documents it for λαμβάνω, and no witness has it. The decisive findings are the unanimity of the witnesses and the absence of any attestation of μεταληφώς."
+  },
+  {
+   "place": "place 09",
+   "findings": [
+    {
+     "source": "P fr. 1, Vincent pp. 338.4 and 338.7 with nn. 1 and 3 (evidence/section-3.json)",
+     "status": "checked",
+     "found": "At 338.4 Vincent prints σύμφρασις, and his n. 1 reads 'Il est probable qu'il faut σύγκρασις ; mais je n'ose pas faire la correction'. At 338.7 he prints τὴν σύμφρασιν, and his n. 3 reads 'Ms. ἡ σύμφρασις'. Fr. 1 is to be inserted after ἀπηχούμενον (Bas. 27.14). Its subject: numbers do not admit X because they are immaterial and do not flow; melodies, being in matter, have συνέχεια, and 'the length extended over two strings is combined into one by continuity'.",
+     "bears_on": "both",
+     "how": "The only witness reads σύμφρασις twice. But its own editor doubted the word and wanted a word meaning 'blending'."
+    },
+    {
+     "source": "The author's own usage: Bas. 27.10 (H 66r.12-13, Par. 23r.8-9, V 78r.6-7), Bas. 32.10 (H 69r.14, Par. 26v.5) and Bas. 32.17 (H 69r.22, Par. 26v.14, V 82r.4); evidence/section-3.json and section-6.json",
+     "status": "checked",
+     "found": "In every witness: 'Ἀσύνθετα δὲ εἴρηται, τῷ ὡς ἓν ἐκ συμφθάρσεως διὰ τριῶν διέσεων … μέλος συναπαρτίζεσθαι' (27.10); 'γένοιτ’ ἂν ἓν ἐκ συμφθάρσεως' (32.10); 'ἓν διτόνιον ἐκ συμφθάρσεως' (32.17).",
+     "bears_on": "reading 2",
+     "how": "σύμφθαρσις is the author's technical term, used three times, for several intervals fusing into one. Its first use stands three lines before the point where fr. 1 is inserted, and fr. 1 explains that very fusion (the length over two strings 'συναιρεῖται' into one)."
+    },
+    {
+     "source": "P fr. 2, Vinc. 340.13-14, 340.16 and 340.18 with n. 2 (evidence/section-4.json)",
+     "status": "checked",
+     "found": "Vincent prints 'τὰ ἐξ φθάρσεως διαστημάτων' and 'ὡς ἐξ φθάρσεως κίρνανται', with n. 2: 'Ms. ἐξυφθάρσεως. — Ces mots sont inconnus aux dictionnaires'. The same passage has κεκραμένων (P κεκρυμμένων) and κίρνανται.",
+     "bears_on": "reading 2",
+     "how": "Elsewhere the P scribe garbles the same word (ἐκ συμφθάρσεως > ἐξυφθάρσεως), so he had trouble with it. The fragment pairs it with the vocabulary of mixing (κεραννύναι), which fits σύμφθαρσις 'fusion'."
+    },
+    {
+     "source": "LSJ s.v. σύμφθαρσις; Pape and Greek Liddell-Scott on the same page",
+     "url": "https://lsj.gr/wiki/σύμφθαρσις",
+     "status": "checked",
+     "found": "LSJ: '1. simultaneous destruction, τῶν μιγνυμένων ἄλλου τινὸς γεννωμένου σώματος Alex.Aphr. Mixt. 216.24, cf. Meno Iatr. 14.16. 2. melting into one another, (sc. τῶν ἰδεῶν) Hermog. Id. 1.12, cf. Iamb. in Nic. p.80 P.' Pape: 'das Ineinanderfließen und Verschmelzen, bes. der Farben'. Greek L-S: 'σύγκρασις καὶ σύμμιξις, ἐπὶ χρωμάτων, Ἰάμβλ. εἰς Νικομ. Ἀριθμ.'",
+     "bears_on": "reading 2",
+     "how": "The attested sense, 'blending into one so that the components are lost', is exactly what the passage needs. It is also the sense Vincent sought with his σύγκρασις."
+    },
+    {
+     "source": "Iamblichus, In Nicomachi arithmeticam introductionem, ed. Pistelli (1894), pp. 80.24-81.15 (archive.org scan, OCR text read; index s.v. σύμφθαρσις: 80,25; 81,1 sq.)",
+     "url": "https://archive.org/details/iamblichiinnicom00iamb",
+     "status": "checked",
+     "found": "Of numbers generated κατ’ ἔγκρασιν: 'τοὺς γνώμονας εἰλικρινεῖς ἀποδοῦναι οὐκέτι ἔχει διὰ τὴν σύμφθαρσιν' (80); 'ἀλλ’ ἡ σύμφθαρσις πλέον τι τῆς ποσότητος τῶν γνωμόνων ἀπετέλεσε … καθὰ καὶ ἐπὶ τῶν ἐγκιρναμένων ὑγρῶν … διὰ τὸ συνεφθάρθαι καὶ συνεμφαίνεσθαι τὰς ποιότητας. κατὰ δὲ παράθεσιν καὶ σύνθεσιν εἴρηται ἡ ἑτέρα πλάσις, ὅτι δυνατὸν λύεσθαι…' (81).",
+     "bears_on": "reading 2",
+     "how": "A quadrivial author uses σύμφθαρσις as a technical term for fusion into a whole that cannot be resolved into its parts. He opposes it to σύνθεσις/παράθεσις, which parallels the text's ἀσύνθετα … ἐκ συμφθάρσεως. Note that Iamblichus applies it to numbers, whereas fr. 1 denies it to numbers: the term is the same, the doctrine differs."
+    },
+    {
+     "source": "Nicomachus, Harmonicum enchiridion 2, in Jan, Musici scriptores Graeci (1895) p. 239.1-4 (Meibom p. 4); page image read",
+     "url": "https://archive.org/details/musiciscriptoresjank/page/n340",
+     "status": "checked",
+     "found": "Diastematic notes are distinct, 'ὥσπερ κατὰ σωρείαν καὶ οὐ κατ’ ἔγκρασιν τῶν τῆς φωνῆς μορίων ἀλλήλοις παρακειμένων, εὐχωρίστων τε καὶ εὐδιαγνώστων καὶ παντοίως μὴ συνεφθαρμένων'.",
+     "bears_on": "reading 2",
+     "how": "A standard music theorist uses συμφθείρομαι for the fusion of sound parts, set against discrete juxtaposition. This is the semantic field of σύμφθαρσις in music theory."
+    },
+    {
+     "source": "LSJ s.v. συμφθείρω II",
+     "url": "https://lsj.gr/wiki/συμφθείρω",
+     "status": "checked",
+     "found": "Pass., of colours, 'melt or die away into each other', Plu. 2.436b; of sounds, D.H. Dem. 48; -εφθαρμένα ἀλλήλοις of π and ς in ψ, D.H. Comp. 14; of qualities, Iamb. in Nic. p.81 P.",
+     "bears_on": "reading 2",
+     "how": "The verb is used of sounds merging. That supports the noun σύμφθαρσις in an acoustic and harmonic context."
+    },
+    {
+     "source": "LSJ s.v. σύμφρασις; Pape; Greek Liddell-Scott; Greek Monolingual; Bailly 2020 (all on the same page)",
+     "url": "https://lsj.gr/wiki/σύμφρασις",
+     "status": "checked",
+     "found": "LSJ: '-εως, ἡ, continuous speech, Hdn.Gr.1.10, Phot. Bibl. p.107 B.; v.l. for συμφρόνησις, Philol.10'. Pape: 'der Zusammenhang der Rede, Context'. Greek L-S: 'ἡ συνέχεια τοῦ λόγου, τὰ συμφραζόμενα'. Monolingual: 'σύμφρασις δὲ ἡ συνακολούθησις τοῦ λόγου ἢ λέξεων σύνθεσις' (Choerob.). Bailly 2020: 'resserrement des mots, concision' (J. Alex.).",
+     "bears_on": "both",
+     "how": "σύμφρασις is a real word, so reading 1 is not a non-word. But it is attested only as a grammatical or rhetorical term for the linking of words in speech. It is never used of numbers, intervals or melody. One could argue it is extended from 'συνέχεια τοῦ λόγου' to the συνέχεια of fr. 1, but no lexicon attests that use."
+    },
+    {
+     "source": "Nicomachus, Introductio arithmetica 2.19.1, ed. Hoche (1866), p. 115.4 and apparatus (page image read)",
+     "url": "https://archive.org/details/nicomachigerasen00nicouoft/page/n132",
+     "status": "checked",
+     "found": "Text: 'ἁρμονία πολυμιγέων ἕνωσις καὶ δίχα φρονεόντων συμφρόνησις' (Philolaus). Apparatus: '4. σύμφρασις GP  συμφρόνασις CΓ  συμφρόνησις SH (Theo Smyrn. I. p.15) dissentientium consensio Boëth. II, 22'. Hoche's index has 'σύμφρασις … pro συμφρόνησις'. This is the source of LSJ's 'v.l. for συμφρόνησις'.",
+     "bears_on": "reading 2",
+     "how": "In the manuscripts of a quadrivial text, on a harmonic subject, scribes turned a similar-looking rarer word into σύμφρασις. That is the same type of corruption (trivialisation into a known word) that the conjecture assumes in P."
+    },
+    {
+     "source": "LSJ s.v. σύγκρασις (Vincent's proposal, n. 1)",
+     "url": "https://lsj.gr/wiki/σύγκρασις",
+     "status": "checked",
+     "found": "'mixing together, commixture, blending, tempering', e.g. ἡ σύγκρασις τῶν χρωμάτων Pl. Plt. 277c.",
+     "bears_on": "reading 2",
+     "how": "Vincent's own sense of the passage was 'blending'. σύμφθαρσις gives that sense, is the author's own word, and is closer in letters to σύμφρασις (σύμφ-θαρ-σις > σύμφ-ρα-σις: loss of θ and transposition of αρ/ρα)."
+    }
+   ],
+   "nothing_found": "σύμφρασις is not found in any music-theoretical or arithmetical text with the sense required. In Jan's Musici scriptores, searched by OCR, there is no σύμφρασις, and συμφθαρ- occurs only in the prolegomena hit reported under seen_prohibited. Not consulted: Lampe, LBG, Sophocles (the archive.org OCR is not searchable in Greek), DGE (does not reach σ), Montanari. Hermogenes, Id. 1.12 and Alexander, De mixtione 216.24 were not opened; they are taken from LSJ.",
+   "supports": "reading 2",
+   "strength": "strong",
+   "reasoning": "P is the only witness and reads σύμφρασις twice. But σύμφρασις is attested only as a grammarians' term for continuous speech or word-linking (LSJ, Pape, Choeroboscus, Bailly). σύμφθαρσις is (a) the author's own technical term for intervals fusing into one, used three times in all witnesses (Bas. 27.10, 32.10, 32.17), the first time in the sentence just before the insertion point of fr. 1, which elaborates that fusion; (b) a quadrivial term for unresolvable blending in Iamblichus, In Nic. pp. 80-81 Pistelli, set against σύνθεσις; (c) supported by Nicomachus' musical use of συνεφθαρμένων (Ench. 2) and by LSJ's συμφθείρω of sounds. P's scribe also garbles the same word in fr. 2 (Ms. ἐξυφθάρσεως), and Nicomachus' manuscripts show the very corruption into σύμφρασις (Hoche p. 115 app.). Vincent himself felt that a word for 'blending' was needed. The conjecture goes against the only witness, and fr. 1 may not be by the author. Still, the reference evidence clearly favours reading 2."
+  },
+  {
+   "place": "place 10",
+   "findings": [
+    {
+     "source": "Witnesses: Bas. 27.18; H 66r.22; Par. 23r.19; V 78r.17 (evidence/section-3.json)",
+     "status": "checked",
+     "found": "All read ὁδεύοντα (H 'ὁδεύοντα· ἃ', Par. 'ὁδεύοντα. ἃ', V 'ὁδεύοντα· ἃ'). No witness has ὁδεύονται.",
+     "bears_on": "reading 2",
+     "how": "Unanimous documentary support. Reading 1 would be a conjecture."
+    },
+    {
+     "source": "LSJ s.v. ὁδεύω (also Pape, Bailly, Dvoretsky, Middle Liddell on the same page)",
+     "url": "https://lsj.gr/wiki/ὁδεύω",
+     "status": "checked",
+     "found": "Active intransitive 'go, travel': ἐπὶ νῆας Il. 11.569; δι’ Ἀδραμυττίου X. An. 7.8.8; ἐξ ὑγιείας εἰς νόσον Arist. Fr. 41. The passive is used only of places: ὁδευομένη 'thoroughfare, highway' (POxy. 1537.18, iii A.D.); of Ravenna, 'provided with thoroughfares' (Str. 5.1.7). No middle is recorded.",
+     "bears_on": "reading 2",
+     "how": "The text's 'διὰ μέσων … ὁδεύοντα' is the classical active construction ὁδεύω διά + gen. A passive ὁδεύονται would make the intervals the road that is travelled over. An intransitive middle is not recorded."
+    },
+    {
+     "source": "DGE s.v. διοδεύω (on lsj.gr)",
+     "url": "https://lsj.gr/wiki/διοδεύω",
+     "status": "checked",
+     "found": "Among the intransitive uses: 'en v. med. mismo sent. διοδεύμενοι διὰ τῆς … διόδου BGU 1273.56 (III a.C.)'. The passive is used of places traversed.",
+     "bears_on": "reading 1",
+     "how": "A middle in active sense is attested for the compound in a papyrus. So an intransitive middle ὁδεύονται is not strictly impossible in non-literary Greek. This is weak support for reading 1."
+    },
+    {
+     "source": "Perseus corpus search for ὁδεύονται and ὁδεύοντα",
+     "url": "https://www.perseus.tufts.edu/hopper/searchresults?q=o%28deu%2Fonta&target=greek",
+     "status": "checked",
+     "found": "ὁδεύονται: no results. ὁδεύοντα: Appian, Mithridatic Wars 15; Julian, Or. 7.227b ('τὴν σύντομον ὁδεύοντα').",
+     "bears_on": "reading 2",
+     "how": "Only the active participle is found in the corpus."
+    },
+    {
+     "source": "The author's own usage, Bas. 27.23-25 (H 66v.5-6, Par. 23v.3-5, V 78v.2-4)",
+     "status": "checked",
+     "found": "'τὸ διὰ τεσσάρων ὡς διὰ τεσσάρων φθόγγων, εἴτ’ οὖν χορδῶν διοδεῦον καὶ περαινόμενον'. The active participle of the compound is used of an interval running through notes, in a verbless phrase.",
+     "bears_on": "reading 2",
+     "how": "Six lines later the author expresses the same idea with the active (δι)οδεύω in participial form."
+    },
+    {
+     "source": "Smyth, Greek Grammar §944 (ellipsis of the copula)",
+     "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0007:smythp=944",
+     "status": "checked",
+     "found": "'The copulative verb εἶναι is often omitted, especially the forms ἐστί and εἰσί', with examples.",
+     "bears_on": "reading 2",
+     "how": "'ταῦτα δὲ οὐκ ἄμεσα, οὐδ’ ἀσύνθετα, ἀλλὰ … ὁδεύοντα' has three predicates in a row (two adjectives and a participle) with εἰσί omitted. The relative clause 'ἃ … ὀνομάζονται … ἐδέξαντο' supplies the finite verbs. No finite verb is needed in the main clause."
+    },
+    {
+     "source": "Jannaris, Historical Greek Grammar §2168 b (archive.org OCR)",
+     "url": "https://archive.org/details/jannaris-an-historical-greek-grammar",
+     "status": "checked",
+     "found": "In post-classical and Byzantine Greek the participle is identified with the finite verb, 'and its consequent misuse as an independent finite verb or even its co-ordination to them by means of καί'.",
+     "bears_on": "reading 2",
+     "how": "Verbless participial predicates are normal in the author's period. Normalising ὁδεύοντα into a finite verb would correct Byzantine usage."
+    }
+   ],
+   "nothing_found": "No theorist in Jan's Musici scriptores (searched by OCR) uses ὁδεύω or διοδεύω as a technical term for intervals. The only hit is Nicomachus' non-technical 'ἐν αὐτῇ τῇ ὁδεύσει'. No attestation of ὁδεύονται was found. Not consulted: Lampe, LBG, Kühner–Gerth, Blass–Debrunner.",
+   "supports": "reading 2",
+   "strength": "strong",
+   "reasoning": "Every witness reads ὁδεύοντα. LSJ gives ὁδεύω as an active intransitive with διά + gen. (X. An. 7.8.8). Its passive is used only of roads or places, and no middle is listed. The author uses the active participle διοδεῦον for the same idea at 27.24. The sentence is a normal nominal clause with εἰσί omitted (Smyth §944), its participle coordinated with ἄμεσα and ἀσύνθετα, and the relative clause carries the finite verbs. A middle is attested for διοδεύω in one papyrus (DGE), so ὁδεύονται is not impossible. But it would be a conjecture without need, and Perseus has no instance of it."
+  },
+  {
+   "place": "place 11",
+   "findings": [
+    {
+     "source": "Witnesses: Bas. 27.24; H 66v.6; Par. 23v.4; V 78v.3 (evidence/section-3.json)",
+     "status": "checked",
+     "found": "All read χορδῶν (Bas. prints διοδεύον; H, Par. and V have διοδεῦον). No witness reads χορδίων.",
+     "bears_on": "reading 2",
+     "how": "Unanimous documentary support for χορδῶν."
+    },
+    {
+     "source": "The author's own usage (evidence/section-4.json, section-5.json)",
+     "status": "checked",
+     "found": "'τῶν χορδῶν' at Bas. 29.25 (H 67v.16, V 80r.5) and Bas. 30.17 (H 68r.12, Par. 25r.20, V 80v.6); P fr. 2 at Vinc. 342.14 'τοῦ μήκους τῶν χορδῶν'. Compounds: ἑκκαιδεκάχορδον, ὀκτάχορδον, τετράχορδον, πεντάχορδον. The author never uses χορδίον.",
+     "bears_on": "reading 2",
+     "how": "The author's word for 'string' is χορδή."
+    },
+    {
+     "source": "LSJ s.v. χορδίον; Greek Monolingual on the same page",
+     "url": "https://lsj.gr/wiki/χορδίον",
+     "status": "checked",
+     "found": "LSJ: 'τό, = χορδή (gut, tripe, string of gut, gut-string) 1, SIG 1002.10 (Milet., v/iv BC)'. The single citation is for sense 1, 'guts, tripe', in a Milesian sacrificial text. Monolingual: 'τὸ, Μ, υποκορ. τ. του χορδή' (a medieval diminutive).",
+     "bears_on": "reading 1",
+     "how": "χορδίον exists, but it is attested only once, and in the sense 'gut or tripe', not 'string of an instrument'. It has no musical attestation."
+    },
+    {
+     "source": "LSJ s.v. χορδή II.1",
+     "url": "https://lsj.gr/wiki/χορδή",
+     "status": "checked",
+     "found": "'string of a lyre or harp … χορδὰς ἐπιτείνειν … ὀξυτάτην καὶ βαρυτάτην χορδὴν ποιεῖν Pl. Phdr. 268e'; 'b. musical note, Pl. Phlb. 56a'.",
+     "bears_on": "reading 2",
+     "how": "χορδή is the standard word, and it can even mean 'note', which suits 'φθόγγων, εἴτ’ οὖν χορδῶν'."
+    },
+    {
+     "source": "Nicomachus, Harm. ench. 6, Jan p. 245.19-21 (Meibom p. 10); page image read",
+     "url": "https://archive.org/details/musiciscriptoresjank/page/n346",
+     "status": "checked",
+     "found": "'ἥτε διὰ τεσσάρων χορδῶν ἀπόστασις ἥτε διὰ πέντε καὶ ἡ κατ’ ἀμφοτέρων σύνοδον διὰ πασῶν λεγομένη'.",
+     "bears_on": "reading 2",
+     "how": "A standard theorist names the fourth 'through four strings' with χορδῶν, the same expression as in the text."
+    },
+    {
+     "source": "Nicomachus, Harm. ench. 12, Jan p. 263 (archive.org OCR)",
+     "url": "https://archive.org/details/musiciscriptoresjank",
+     "status": "checked",
+     "found": "'Σύστημα δὲ οὖσα ἡ διὰ πασῶν … ἐν ὀκτὼ χορδαῖς'.",
+     "bears_on": "reading 2",
+     "how": "Theorists count the octave in χορδαί."
+    },
+    {
+     "source": "Theon of Smyrna, ed. Hiller (1878), p. 51.4-18, quoting Adrastus (archive.org OCR)",
+     "url": "https://archive.org/details/theonissmyrnaei00theogoog",
+     "status": "checked",
+     "found": "The fourths, fifths and eighths are named διὰ τεσσάρων, διὰ πέντε, διὰ πασῶν, the last 'οὕτω προσαγορευθεῖσαν ἐπειδὴ τὸ πρῶτον ἀπὸ τῆς ὀκταχόρδου λύρας ὁ πρῶτος … φθόγγος … τῷ τελευταίῳ … τὴν αὐτὴν εὑρέθη συνέχων συμφωνίαν'; '… τοῖς προϋπάρχουσιν ὀκτὼ φθόγγοις'.",
+     "bears_on": "reading 2",
+     "how": "The theorists' explanation of the names uses φθόγγοι and χορδαί (or -χορδος), never a diminutive."
+    },
+    {
+     "source": "Perseus corpus search for χορδίων; Kriaras' online lexicon (greek-language.gr) for χορδ-",
+     "url": "https://www.perseus.tufts.edu/hopper/searchresults?q=xordi%2Fwn&target=greek",
+     "status": "checked",
+     "found": "Perseus: no results for χορδίων. Kriaras' online search for 'χορδ*' returned no results (the online lexicon does not cover the letter).",
+     "bears_on": "reading 1",
+     "how": "No literary attestation of χορδίων was found."
+    }
+   ],
+   "nothing_found": "No instance of χορδίον meaning 'string' was found in any lexicon or theorist. Not consulted: LBG, Lampe, Sophocles (the OCR is not searchable in Greek), Montanari.",
+   "supports": "reading 2",
+   "strength": "strong",
+   "reasoning": "Every witness reads χορδῶν. The author elsewhere always says χορδή (Bas. 29.25, 30.17; P fr. 2). The theorists explain the interval names with χορδαί (Nicomachus, Ench. 6: 'διὰ τεσσάρων χορδῶν ἀπόστασις'; Ench. 12) or φθόγγοι (Theon/Adrastus). The diminutive χορδίον is attested once (SIG 1002.10, LSJ) in the sense 'gut or tripe', and never for a string. Nothing in the reference works supports χορδίων."
+  },
+  {
+   "place": "place 12",
+   "findings": [
+    {
+     "source": "Witnesses: Bas. 28.1 vs H 66v.8-9, Par. 23v.7, V 78v.6-7; and Bas. 27.25 (evidence/section-3.json)",
+     "status": "checked",
+     "found": "Bas. reads 'ὡς δι’ ὀκτὼ τελούμενον'. H reads 'τελειούμε|νον', Par. 'τελειούμενον', V 'τελει|ούμενον'. In the clause just before (27.25), all witnesses read 'ὡς διὰ πέντε τελούμενον' (H 66v.7, Par. 23v.6, V 78v.5).",
+     "bears_on": "reading 1",
+     "how": "The three independent witnesses, including the oldest (H), agree on τελειούμενον. Bas. alone has τελούμενον, which repeats the word of the line above: a typical assimilation to a neighbouring word."
+    },
+    {
+     "source": "LSJ s.v. τελειόω",
+     "url": "https://lsj.gr/wiki/τελειόω",
+     "status": "checked",
+     "found": "'and τελεόω (the latter always in Hdt., and the prevailing form in Att. Prose)… make perfect, complete … Pass., to be accomplished, Hdt. 1.160, S. Tr. 1257; ἐπειδὴ χρόνος ἐτελεώθη Pl. Plt. 272d'; also 'Pass., of prophecies, to be fulfilled, Ev.Jo. 19.28'.",
+     "bears_on": "reading 1",
+     "how": "The passive τελειοῦσθαι 'to be completed' is good Greek. It suits the octave, the interval that completes the series of eight."
+    },
+    {
+     "source": "Greek Monolingual dictionary s.v. τελειῶ/τελειόω (on lsj.gr)",
+     "url": "https://lsj.gr/wiki/τελειόω",
+     "status": "checked",
+     "found": "'τελειῶ, τελειόω, ΝΜΑ, και τελεῶ Α … φέρνω εις πέρας, περατώνω, συμπληρώνω, ολοκληρώνω' (ancient, medieval and modern).",
+     "bears_on": "reading 1",
+     "how": "τελειόω for 'bring to completion' runs continuously from ancient to medieval and modern Greek (τελειώνω). It is natural Byzantine usage and should not be normalised."
+    },
+    {
+     "source": "Alypius, Isagoge 1, Jan p. 367.3-4 (page image read)",
+     "url": "https://archive.org/details/musiciscriptoresjank/page/n468",
+     "status": "checked",
+     "found": "'Τῆς μουσικῆς ἐκ τριῶν τῶν συνεκτικωτάτων ἐπιστημῶν τελειουμένης, ἁρμονικῆς ῥυθμικῆς μετρικῆς'.",
+     "bears_on": "reading 1",
+     "how": "The passive τελειόομαι in a standard music handbook."
+    },
+    {
+     "source": "Nicomachus, Harm. ench. 12, Jan p. 260 (archive.org OCR)",
+     "url": "https://archive.org/details/musiciscriptoresjank",
+     "status": "checked",
+     "found": "'ἀπὸ τετραχόρδου τὴν ἀρχὴν ποιησάμενοι μέχρι τῆς τελειοτάτης καταπυκνώσεως τῆς διὰ πασῶν'.",
+     "bears_on": "reading 1",
+     "how": "A theorist links the octave with τέλειος ('most complete'). This weakly favours the τελει- stem for the octave in particular."
+    },
+    {
+     "source": "Aristotle, Problemata 15.3, 910b23-31 Bekker (page image read)",
+     "url": "https://archive.org/details/aristotelisopera02arisuoft/page/n127",
+     "status": "checked",
+     "found": "Men count up to ten and then repeat ('εἶτα ἐκεῖθεν ἐπαναδιπλοῦσιν'). One explanation: 'πότερον ὅτι τὰ δέκα τέλειος ἀριθμός'.",
+     "bears_on": "reading 1",
+     "how": "The limit after which a counting cycle repeats is called τέλειος. This is the same conceptual frame as 'δι’ ὀκτὼ τελειούμενον … κἀκεῖθεν αὖθις ἐπαναδιπλουμένων'. Weak support."
+    },
+    {
+     "source": "John 19:28 (Westcott–Hort text, Perseus)",
+     "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0155:book=John:chapter=19:verse=28",
+     "status": "checked",
+     "found": "'εἰδὼς ὁ Ἰησοῦς ὅτι ἤδη πάντα τετέλεσται ἵνα τελειωθῇ ἡ γραφή'.",
+     "bears_on": "reading 1",
+     "how": "τελέω and τελειόω stand side by side in one sentence. A writer may vary the two verbs in adjacent clauses, as H, Par. and V have the author do at 27.25 / 28.1. There is no need to level them."
+    },
+    {
+     "source": "The author's own usage: Bas. 27.24-25 and 32.6 (evidence/section-3.json, section-6.json)",
+     "status": "checked",
+     "found": "He varies the verbs: διοδεῦον καὶ περαινόμενον (fourth), τελούμενον (fifth). He also uses τελέω elsewhere: 'ἀνάγκη τὸ λοιπὸν τελεῖν ἡμιτόνιον' (Bas. 32.6; H 69r.9, Par. 26r.22, V 81v.11).",
+     "bears_on": "both",
+     "how": "τελέω is part of his vocabulary, which supports the plausibility of reading 2. But his habit of varying synonyms in this very sequence makes τελειούμενον after τελούμενον unsurprising (reading 1)."
+    },
+    {
+     "source": "M. L. West, Textual Criticism and Editorial Technique (1973), on assimilation of a word to a neighbouring word",
+     "status": "from memory, unverified",
+     "found": "West lists assimilation to nearby words among the common types of scribal error. Page not verified.",
+     "bears_on": "reading 1",
+     "how": "Bas.'s τελούμενον repeats the τελούμενον of 27.25, a recognised type of corruption. (The book was not opened: the only full copies on archive.org appear unauthorised or need a loan.)"
+    }
+   ],
+   "nothing_found": "No theorist was found who says the octave is 'τελειούμενον' or 'τελούμενον' δι’ ὀκτώ. No manual note was found that treats τελέω/τελειόω as a standard manuscript confusion. Not consulted: Lampe, LBG, Kühner–Gerth.",
+   "supports": "reading 1",
+   "strength": "moderate",
+   "reasoning": "Both verbs are good Greek, and the author uses τελέω elsewhere, so the lexica alone cannot decide. The deciding points are these. H, Par. and V independently read τελειούμενον. Bas.'s τελούμενον is explained as assimilation to τελούμενον in the line above (27.25). τελειόομαι 'be completed' is natural ancient and Byzantine usage (LSJ; Greek Monolingual: τελειῶ ΝΜΑ) and occurs in a music handbook (Alypius 1). The octave is linked with τέλειος in Nicomachus (Ench. 12). And alternating τελέω and τελειόω in adjacent clauses has a parallel (Ev. Jo. 19.28)."
+  },
+  {
+   "place": "place 13",
+   "findings": [
+    {
+     "source": "Witnesses: Bas. 28.4 vs H 66v.11-12, Par. 23v.10-11, V 78v.10 (evidence/section-3.json)",
+     "status": "checked",
+     "found": "Bas. reads 'κᾀκεῖθεν αὖθις ἀναδιπλουμένων'. H reads 'κακεὶθεν αὖθις ἐπανα|διπλουμένων', Par. 'κἀκεῖθεν αὖθις ἐπα-|ναδιπλουμένων', V 'κἀκεῖθεν αὖθις ἐπαναδιπλουμένων'.",
+     "bears_on": "reading 2",
+     "how": "All three independent witnesses have the double compound. Only the printed Bas. has the simple compound, a typical loss of a preverb or simplification."
+    },
+    {
+     "source": "LSJ s.v. ἐπαναδιπλόω; Pape, Greek L-S, Dvoretsky, Bailly 2020 on the same page",
+     "url": "https://lsj.gr/wiki/ἐπαναδιπλόω",
+     "status": "checked",
+     "found": "LSJ: 'repeat yet again, Arist. Pr. 910b25, Gal. 15.879:—Pass., to be repeated, Arist. APr. 49a11, Metaph. 1003b28'. Bailly 2020: 'doubler, redoubler, ARSTT. Probl. 15, 3'. Dvoretsky: 'удваивать, повторять'.",
+     "bears_on": "reading 2",
+     "how": "The verb is attested in Aristotle and Galen, in active and passive, in the sense 'repeat (again)'."
+    },
+    {
+     "source": "Aristotle, Problemata 15.3, 910b23-28 Bekker (Aristotelis opera vol. 2, 1831; page image and OCR read)",
+     "url": "https://archive.org/details/aristotelisopera02arisuoft/page/n127",
+     "status": "checked",
+     "found": "Why does everyone count to ten 'καὶ οὐκ εἰς ἄλλον ἀριθμόν, οἷον β΄, γ΄, δ΄, ε΄, εἶτα πάλιν ἐπαναδιπλοῦσιν, ἓν πέντε, δύο πέντε, ὥσπερ ἕνδεκα, δώδεκα· οὐδ’ αὖ ἐξωτέρω παυσάμενοι τῶν δέκα, εἶτα ἐκεῖθεν ἐπαναδιπλοῦσιν;'",
+     "bears_on": "reading 2",
+     "how": "A close parallel. It describes a series that runs to a fixed limit and then starts over 'from there', with the same collocation ἐκεῖθεν + ἐπαναδιπλόω and the same pleonasm of an adverb of repetition (πάλιν ~ αὖθις) with ἐπανα-. This is the situation of the octave: eight notes, then the series repeats."
+    },
+    {
+     "source": "LSJ and DGE s.v. ἀναδιπλόω; Pape, Bailly, Dvoretsky on the same page",
+     "url": "https://lsj.gr/wiki/ἀναδιπλόω",
+     "status": "checked",
+     "found": "LSJ: 'double, fold, Sor. 1.84:—Pass., to be made double, φάλαγξ … ἀναδιπλουμένη being made twice as deep, X. Cyr. 7.5.5. 2 Gramm., reduplicate … 3 Rhet., repeat, Phoeb. Fig. 2.4'. DGE adds 'τὸ ἀναδιπλούμενον, variante del tetrámetro jónico' (Atil. Fortunat.). Pape: 'wieder verdoppeln'.",
+     "bears_on": "reading 1",
+     "how": "ἀναδιπλόω is classical and could mean 'be doubled' or 'repeated'. Reading 1 is therefore lexically acceptable, but it has no attestation for a series repeating after its limit."
+    },
+    {
+     "source": "LSJ s.vv. ἐπαναδίπλωσις and ἀναδίπλωσις",
+     "url": "https://lsj.gr/wiki/ἐπαναδίπλωσις",
+     "status": "checked",
+     "found": "ἐπαναδίπλωσις: 'doubling, folding … II repetition, Arist. APr. 49a26; 2 Rhet., = ἀναστροφή'. ἀναδίπλωσις (https://lsj.gr/wiki/ἀναδίπλωσις): 'convolution … 2 repetition, duplication … esp. in Rhet. … 4 Gramm., reduplication'.",
+     "bears_on": "both",
+     "how": "Both families mean 'repetition'. The ἐπ- form is the one Aristotle uses for repetition in a number series."
+    },
+    {
+     "source": "Aristotle, Problemata 19.32 (Jan pp. 94-95, OCR) and Theon of Smyrna p. 51 Hiller (OCR), on the name διὰ πασῶν",
+     "url": "https://archive.org/details/musiciscriptoresjank",
+     "status": "checked",
+     "found": "Probl. 19.32: 'Διὰ τί διὰ πασῶν καλεῖται, ἀλλ’ οὐ κατὰ τὸν ἀριθμὸν δι’ ὀκτώ …; ἢ ὅτι ἑπτὰ ἦσαν αἱ χορδαὶ τὸ ἀρχαῖον … ἐκλήθη διὰ πασῶν, ἀλλ’ οὐ δι’ ὀκτώ· δι’ ἑπτὰ γὰρ ἦν'. Theon/Adrastus derives διὰ πασῶν from the eight-stringed lyre.",
+     "bears_on": "neither",
+     "how": "These are the theorists' accounts of the name that the text discusses (διὰ πασῶν = δι’ ὀκτώ, octachord). Neither uses ἀναδιπλόω or ἐπαναδιπλόω."
+    }
+   ],
+   "nothing_found": "Neither verb was found in the music theorists in Jan's edition (OCR search). Not consulted: Lampe, LBG, Sophocles (the OCR is not searchable in Greek), Montanari.",
+   "supports": "reading 2",
+   "strength": "strong",
+   "reasoning": "Both compounds are classical (LSJ), so reading 1 is lexically possible. But H, Par. and V agree on ἐπαναδιπλουμένων, and Bas.'s ἀναδιπλουμένων is a simple loss of a preverb. The decisive parallel is Aristotle, Probl. 15.3 (910b25-27): there ἐπαναδιπλόω, with πάλιν and with ἐκεῖθεν, is the verb for a series that runs to its limit (ten) and then repeats. That is exactly the situation of the eight notes of the octave in 'κἀκεῖθεν αὖθις ἐπαναδιπλουμένων'. LSJ's sense 'repeat yet again' also explains the pleonasm with αὖθις."
+  }
+ ],
+ "seen_prohibited": "One search hit quoted this text. I searched the archive.org OCR text of Jan, Musici scriptores Graeci (1895; https://archive.org/details/musiciscriptoresjank) for the stem φθαρ. One hit lay in Jan's Prolegomena, section 'De codicibus manuscriptis' (around pp. LXVI–LXX). It quotes 'Vincent 338: εἰ γὰρ καὶ τοῖς ἀριθμοῖς σύμφθαρσις Sic.', the opening of P fr. 1. I saw only that one grep line. I did not read its context and did not use it. Two other grep hits fell in the same Prolegomena section and may also concern this text or its manuscript: one with 'γένεσις ἀπό τινων ἐφθαρμένων', one with 'ἡ δίεσις λόγον ἔχει ἐπιτριακοστοδεύτερον'. I did not read them or use them. From Jan I used only the theorists' texts themselves (Nicomachus, Alypius, Gaudentius, Problemata 19). No dictionary entry (LSJ, DGE, Pape, Bailly, Dvoretsky, Greek L-S on lsj.gr) and no corpus hit (Perseus) that I saw cited Anon. Quadr., Heiberg, Ps.-Psellus or the Quadrivium of 1008. No Greek phrase of the text went into a search engine; only single words and forms were searched (e.g. μεταληφώς, μετειληφώς, ὁδεύονται, χορδίων). I did not use Psellus, Italicus, Zonaras, Pachymeres or Bryennius. A Bryennius reference appears in Hiller's apparatus to Theon p. 51, and I ignored it.",
+ "summary": "I covered six places (08–13) from the evidence files, lexica (LSJ, DGE, Pape, Bailly and others on lsj.gr), grammars (Smyth, Jannaris), the theorists in their standard editions (Jan's Musici scriptores, Theon ed. Hiller, Iamblichus In Nic. ed. Pistelli, Nicomachus Arith. ed. Hoche), Aristotle's Problemata (Bekker) and the Perseus corpus and morphology. Results:\n- 08: μετειληφώς (reading 2), strong. It is the regular perfect participle and every witness has it, P included. μεταληφώς is unattested anywhere.\n- 09: σύμφθαρσις (reading 2, the conjecture), strong. It is the author's own term (ἐκ συμφθάρσεως at Bas. 27.10, 32.10, 32.17, all witnesses) and a quadrivial term in Iamblichus, In Nic. pp. 80-81 Pistelli and Nicomachus, Ench. 2. σύμφρασις is attested only as a grammarians' term, and the same corruption into σύμφρασις occurs in Nicomachus' manuscripts (Hoche p. 115 app.).\n- 10: ὁδεύοντα (reading 2), strong. Every witness has it; LSJ gives ὁδεύω διά + gen. as active; the author uses διοδεῦον for the same idea; the clause simply omits the copula.\n- 11: χορδῶν (reading 2), strong. Every witness has it; the author and the theorists say χορδή; χορδίον is attested only once (LSJ), meaning 'gut or tripe'.\n- 12: τελειούμενον (reading 1, H Par. V), moderate. Bas.'s τελούμενον looks like assimilation to the line above; τελειόομαι is good ancient and Byzantine usage (Alypius 1; Nicomachus links the octave with τέλειος).\n- 13: ἐπαναδιπλουμένων (reading 2, H Par. V), strong. The decisive parallel is Arist. Probl. 15.3, 910b25-27: 'εἶτα ἐκεῖθεν ἐπαναδιπλοῦσιν', said of a number series that repeats after its limit.\nWorking files and downloads are in work-2."
+}

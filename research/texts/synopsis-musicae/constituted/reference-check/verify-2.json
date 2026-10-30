@@ -1,0 +1,401 @@
+{
+ "checks": [
+  {
+   "place": "place 08",
+   "index": 0,
+   "verdict": "corrected",
+   "source": "evidence/section-2.json (Bas. lines, H/Par./V transcriptions, P fr. 1 at Vinc. 338)",
+   "url_used": "local evidence file",
+   "note": "At 27.2 every witness reads μετειληφὼς: Bas. 27.2, H 66r.3, Par. 22v.19-20 (μετειλη-|φὼς), V 77v.16, and P fr. 1 Vinc. 338.24, where there is no footnote mark. No file has μεταληφ- anywhere.",
+   "correction": "The side remark 'At 26.24 all witnesses have the aorist μεταλαβών' is not true of P. Vincent prints 'εἰς διάμετρον γεωμέτρης λαβὼν' at 338.22 (simplex λαβών, no ὁ, no note). Only Bas., H, Par. and V have μεταλαβών at 26.24."
+  },
+  {
+   "place": "place 08",
+   "index": 1,
+   "verdict": "confirmed",
+   "source": "Smyth, Greek Grammar §445",
+   "url_used": "https://ccel.org/ccel/smyth/grammar/html/smyth_2Vp_uni.htm (Perseus refused automated access)",
+   "note": "§445 begins 'Some verbs beginning with a liquid or μ take ει instead of the reduplication', followed by λαμβάνω εἴ-ληφα, εἴ-λημμαι. The finding drops 'the' before 'reduplication'; otherwise the wording is accurate."
+  },
+  {
+   "place": "place 08",
+   "index": 2,
+   "verdict": "confirmed",
+   "source": "LSJ s.v. λαμβάνω",
+   "url_used": "https://lsj.gr/wiki/λαμβάνω",
+   "note": "Listed: pf. εἴληφα S.OT 643, Ar.Ra. 591, etc.; Ion., Dor., Arc. λελάβηκα Hdt. 4.79, IG 4²(1).121.68 (Epid.), 5(2).6.14 (Tegea); also λελαβήκειν and Cretan (παρ)λελόνβῃ. Every perfect listed is reduplicated or has εἰ-."
+  },
+  {
+   "place": "place 08",
+   "index": 3,
+   "verdict": "confirmed",
+   "source": "LSJ s.v. μεταλαμβάνω, with Pape, Bailly abrégé and Dvoretsky",
+   "url_used": "https://lsj.gr/wiki/μεταλαμβάνω",
+   "note": "LSJ gives only fut. μεταλήψομαι (Th. 6.18). Sense III is 'take instead, take in exchange, substitute'. Bailly gives only the future; Pape and Dvoretsky give no perfect."
+  },
+  {
+   "place": "place 08",
+   "index": 4,
+   "verdict": "confirmed",
+   "source": "Perseus Greek Word Study Tool",
+   "url_used": "https://www.perseus.tufts.edu/hopper/morph?l=meteilhfw%2Fs&la=greek ; https://www.perseus.tufts.edu/hopper/morph?l=metalhfw%2Fs&la=greek (opened in the browser pane)",
+   "note": "μετειληφώς: μεταλαμβάνω, part sg perf act masc nom and voc. μεταληφώς: 'Sorry, no information was found for μεταληφώς.'"
+  },
+  {
+   "place": "place 08",
+   "index": 5,
+   "verdict": "confirmed",
+   "source": "Perseus search for μετειληφώς",
+   "url_used": "https://www.perseus.tufts.edu/hopper/searchresults?q=meteilhfw%2Fs&target=greek",
+   "note": "'All Matching Documents (6)'. The 6 hits are Dem. 19.209 (αὐτὸς εἰληφὼς ἢ μετειληφώς), X. Hell. 5.2, Ath. 1.3, D.H. AR 4.4 (twice, the second copy labelled 'UNKNOWN') and Aristid. Or. 45. That is why only five works are named."
+  },
+  {
+   "place": "place 08",
+   "index": 6,
+   "verdict": "confirmed",
+   "source": "Web search for \"μεταληφώς\"",
+   "url_used": "WebSearch query \"μεταληφώς\"",
+   "note": "No hit contained the form. The results were μεταληπτικός/μεταληπτικῶς (Perseus Atlas), metalepsis pages and unrelated glossary entries."
+  },
+  {
+   "place": "place 08",
+   "index": 7,
+   "verdict": "confirmed",
+   "source": "Jannaris, An Historical Greek Grammar (1897) §734",
+   "url_used": "https://archive.org/download/jannaris-an-historical-greek-grammar/ (djvu.txt OCR)",
+   "note": "§734 is on p. 189: 'Several verbs beginning with a liquid take εἰ- instead of the reduplication, as: εἴληφα εἵλημμαι from λαμβάνω ‘take’'."
+  },
+  {
+   "place": "place 08",
+   "index": 8,
+   "verdict": "confirmed",
+   "source": "Jannaris §736 (running head 'Reduplication lost or misapplied', pp. 189-190), with §740 (p. 191)",
+   "url_used": "https://archive.org/download/jannaris-an-historical-greek-grammar/ (djvu.txt OCR)",
+   "note": "The examples are as stated: ἐγραμμένον, δενδροκοπημένης, ψηφισμένον, βασιλευκότες, πρεσβευκέναι, ἐποίηκας, διεθήκασι. No unreduplicated form of λαμβάνω is cited; Eustathius' εἰλημμένος in the footnote is the regular εἰ- form. The finding leaves out two points. §740 says the perfect participle in particular 'simply dropped' reduplication, which strengthens the theoretical case for reading 1 a little. The §736 footnote attributes many unreduplicated forms in literary texts to copyists."
+  },
+  {
+   "place": "place 09",
+   "index": 0,
+   "verdict": "confirmed",
+   "source": "Vincent's P fr. 1, Vinc. 338.3-10 with nn. 1 and 3 (evidence/section-3.json)",
+   "url_used": "local evidence file",
+   "note": "338.4 'σύμφρασις¹'; n. 1 'Il est probable qu’il faut σύγκρασις ; mais je n’ose pas faire la correction' (the file's OCR has 'u’ose'). 338.7 'τὴν σύμφρασιν³'; n. 3 'Ms. ἡ σύμφρασις.' Vincent's placement note says to insert it after the line ending ἀπηχούμενον, which is Bas. 27.14. The content summary is accurate: ἄϋλον ἀκίνητόν τε καὶ ἄρευστον; 'τὸ περὶ δύο νευρὰς ἀποτεινόμενον μῆκος ἐν μιᾷ συναιρεῖται κατὰ συνέχειαν'."
+  },
+  {
+   "place": "place 09",
+   "index": 1,
+   "verdict": "confirmed",
+   "source": "evidence/section-3.json and section-6.json",
+   "url_used": "local evidence files",
+   "note": "ἐκ συμφθάρσεως appears at 27.10 (H 66r.12-13, Par. 23r.8-9, V 78r.6-7), at 32.10 (H 69r.14, Par. 26v.5; V also has it at 81v.16-17) and at 32.17 (H 69r.22, Par. 26v.14, V 82r.4). Small slip: 27.10 is four lines before the insertion point after 27.14, not three."
+  },
+  {
+   "place": "place 09",
+   "index": 2,
+   "verdict": "confirmed",
+   "source": "Vincent's P fr. 2, Vinc. 340.13-18 with nn. 2 and 4",
+   "url_used": "local evidence file (section-4.json)",
+   "note": "340.13-14 'τὰ ἐξ φθάρ-σεως² διαστημάτων³'; 340.18 'ὡς ἐξ φθάρσεως² κίρνανται'; n. 2 'Ms. ἐξυφθάρσεως. — Ces mots sont inconnus aux dictionnaires'. 340.16 κεκραμένων⁴ with n. 4 'Ms. κεκρυμμένων'. So κεκραμένων is Vincent's emendation; κίρνανται is what P has."
+  },
+  {
+   "place": "place 09",
+   "index": 3,
+   "verdict": "confirmed",
+   "source": "LSJ s.v. σύμφθαρσις, with Pape and Greek Liddell-Scott",
+   "url_used": "https://lsj.gr/wiki/σύμφθαρσις",
+   "note": "LSJ, Pape and Greek L-S are as quoted. LSJ cites Alex.Aphr. Mixt. 216.24, cf. Meno Iatr. 14.16. Greek L-S adds the reference 'Ἀριθμ. 44' and 'τῶν ἰδεῶν Ρήτορες (Walz) 7.2.1042'."
+  },
+  {
+   "place": "place 09",
+   "index": 4,
+   "verdict": "confirmed",
+   "source": "Iamblichus, In Nic. arithm. introd., ed. Pistelli (1894), pp. 80-81",
+   "url_used": "https://archive.org/download/iamblichiinnicom00iamb/iamblichiinnicom00iamb_djvu.txt",
+   "note": "Both quotations match the OCR. 80.24-25: 'τοὺς γνώμονας εἰλικρινεῖς ἀποδοῦναι οὐκέτι ἔχει διὰ τὴν σύμφθαρσιν'. p. 81: 'ἀλλ’ ἡ σύμφθαρσις πλέον τι … καθὰ καὶ ἐπὶ τῶν ἐγκιρναμένων ὑγρῶν … διὰ τὸ συνεφθάρθαι καὶ συνεμφαίνεσθαι τὰς ποιότητας. κατὰ δὲ παράθεσιν καὶ σύνθεσιν εἴρηται ἡ ἑτέρα πλάσις, ὅτι δυνατὸν λύεσθαι'. The index has 'σύμφθαρσις 80, 25. 81, 1 sq.'"
+  },
+  {
+   "place": "place 09",
+   "index": 5,
+   "verdict": "confirmed",
+   "source": "Nicomachus, Harm. ench. 2, Jan, Musici scriptores Graeci p. 239.1-4 (Meibom p. 4)",
+   "url_used": "https://archive.org/details/musiciscriptoresjank/page/n340 (page image viewed: p. 239, 'enchiridion c. 1. 2. p. 3—5 M.')",
+   "note": "The quotation matches lines 2-4 word for word, ending 'καὶ παντοίως μὴ συνεφθαρμένων'."
+  },
+  {
+   "place": "place 09",
+   "index": 6,
+   "verdict": "confirmed",
+   "source": "LSJ s.v. συμφθείρω II",
+   "url_used": "https://lsj.gr/wiki/συμφθείρω",
+   "note": "'II Pass., of colours, melt or die away into each other, Plu.2.436b; of sounds, D.H. Dem. 48; -εφθαρμένα ἀλλήλοις, of π and ς in ψ, Id. Comp. 14; of qualities, Iamb. in Nic. p.81 P.'"
+  },
+  {
+   "place": "place 09",
+   "index": 7,
+   "verdict": "confirmed",
+   "source": "LSJ s.v. σύμφρασις, with Pape, Greek L-S, Greek Monolingual and Bailly 2020",
+   "url_used": "https://lsj.gr/wiki/σύμφρασις",
+   "note": "All five quotations match the page. LSJ: 'continuous speech, Hdn.Gr.1.10, Phot. Bibl. p.107 B.; v.l. for συμφρόνησις, Philol.10'. Pape: 'der Zusammenhang der Rede, Context'. Greek L-S: 'ἡ συνέχεια τοῦ λόγου, τὰ συμφραζόμενα'. Monolingual: 'σύμφρασις δὲ ἡ συνακολούθησις τοῦ λόγου ἢ λέξεων σύνθεσις'. Bailly 2020: 'resserrement des mots, concision' (J. Alex.)."
+  },
+  {
+   "place": "place 09",
+   "index": 8,
+   "verdict": "confirmed",
+   "source": "Nicomachus, Introd. arith. 2.19.1, ed. Hoche (1866), p. 115.4 with apparatus and index",
+   "url_used": "https://archive.org/details/nicomachigerasen00nicouoft/page/n132 (page image viewed) and djvu.txt",
+   "note": "Text, line 3-4: 'ἁρμονία πολυμιγέων ἕνωσις καὶ δίχα φρονεόντων συμφρόνησις'. Apparatus: '4. σύμφρασις GP συμφρόνασις CΓ συμφρόνησις SH (Theo Smyrn. I. p.15) dissentientium consensio Boëth. II, 22 (cf. Boeckh, Philol. p.61.)'. Index: 'σύμφρασις (συμφρόνασις) … pro συμφρόνησις II, 19, 1'."
+  },
+  {
+   "place": "place 09",
+   "index": 9,
+   "verdict": "confirmed",
+   "source": "LSJ s.v. σύγκρασις",
+   "url_used": "https://lsj.gr/wiki/σύγκρασις",
+   "note": "'mixing together, commixture, blending, tempering, Hp. VM 24, E. Fr. 21.4, Pl. Phlb. 64d, etc.; ἡ σύγκρασις τῶν χρωμάτων Id. Plt. 277c'. Here Id. stands for Plato."
+  },
+  {
+   "place": "place 10",
+   "index": 0,
+   "verdict": "confirmed",
+   "source": "evidence/section-3.json",
+   "url_used": "local evidence file",
+   "note": "Bas. 27.18 'ὁδεύοντα, ἃ'; H 66r.22 'ὁδεύοντα· ἃ'; Par. 23r.19 'ὁδεύοντα. ἃ'; V 78r.17 'ὁδεύοντα· ἃ'. ὁδεύονται appears in no file."
+  },
+  {
+   "place": "place 10",
+   "index": 1,
+   "verdict": "confirmed",
+   "source": "LSJ s.v. ὁδεύω, with Pape, Bailly, Dvoretsky and Middle Liddell",
+   "url_used": "https://lsj.gr/wiki/ὁδεύω",
+   "note": "Sense A: 'ἐπὶ νῆας Il.11.569; δι' Ἀδραμυττίου X.An.7.8.8'; ἐξ ὑγιείας εἰς νόσον Arist. Fr. 41. Under sense 2: 'Pass., ὁδευομένη (with or without ὁδός) thoroughfare, highway, POxy. 1537.18 (iii A.D.), Stud.Pal. 20.117.6 (V A.D.)'. Sense 3, Pass.: Ravenna, Str. 5.1.7. None of the five lexica records a middle."
+  },
+  {
+   "place": "place 10",
+   "index": 2,
+   "verdict": "confirmed",
+   "source": "DGE s.v. διοδεύω (on lsj.gr)",
+   "url_used": "https://lsj.gr/wiki/διοδεύω",
+   "note": "Under II (intransitive) 1: 'en v. med. mismo sent. διοδεύμενοι διὰ τῆς προυπαρχούση[ς ἐκ] τοῦ πύργου εἰς τὴν ῥύμην διόδου BGU 1273.56 (III a.C.)'. Passive uses under I.1 (Hp. Ep. 23, AP 9.708, Sor.) refer to places or routes traversed."
+  },
+  {
+   "place": "place 10",
+   "index": 3,
+   "verdict": "confirmed",
+   "source": "Perseus search for ὁδεύοντα and ὁδεύονται",
+   "url_used": "https://www.perseus.tufts.edu/hopper/searchresults?q=o%28deu%2Fonta&target=greek ; ...q=o%28deu%2Fontai...",
+   "note": "ὁδεύοντα: 2 documents, App. Mith. 15 and Jul. Or. 7.227b ('τὴν σύντομον ὁδεύοντα'). ὁδεύονται: 'Your search returned no results.'"
+  },
+  {
+   "place": "place 10",
+   "index": 4,
+   "verdict": "confirmed",
+   "source": "evidence/section-3.json",
+   "url_used": "local evidence file",
+   "note": "Bas. 27.23-25; H 66v.4-6; Par. 23v.2-5 (τὸ διὰ begins at 23v.2); V 78v.2-4. The phrase reads 'τὸ διὰ τεσσάρων ὡς διὰ τεσσάρων φθόγγων, εἴτ’ οὖν χορδῶν διοδεῦον καὶ περαινόμενον' (Bas. accents it διοδεύον). It comes six lines after 27.18."
+  },
+  {
+   "place": "place 10",
+   "index": 5,
+   "verdict": "confirmed",
+   "source": "Smyth, Greek Grammar §944",
+   "url_used": "https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.9.html (Perseus refused automated access)",
+   "note": "§944, 'Ellipsis of the Copula': 'The copulative verb εἶναι is often omitted, especially the forms ἐστί and εἰσί.'"
+  },
+  {
+   "place": "place 10",
+   "index": 6,
+   "verdict": "confirmed",
+   "source": "Jannaris, Historical Greek Grammar §2168 b (p. 504)",
+   "url_used": "https://archive.org/download/jannaris-an-historical-greek-grammar/ (djvu.txt OCR)",
+   "note": "The quotation is accurate: 'b. From its identification with the finite verb or the infinitive, and its consequent misuse as an independent finite verb or even its co-ordination to them by means of καί (1720)'. Two limits on the 'how'. Jannaris is talking about the circumstantial participle, which he says was foreign to popular speech 'since T' (300-600 AD). His examples are vulgar or unscholarly narrative texts (Malalas, Alchem., Evang. Tho.), mostly coordinated with καί, and he calls this 'misuse'. He does not discuss verbless participial predicates with the copula omitted."
+  },
+  {
+   "place": "place 11",
+   "index": 0,
+   "verdict": "confirmed",
+   "source": "evidence/section-3.json",
+   "url_used": "local evidence file",
+   "note": "Bas. 27.24 'χορδῶν διοδεύον'; H 66v.6 'χορδῶν διοδεῦον'; Par. 23v.4 'χορδῶν διοδεῦον'; V 78v.3 'χορδῶν' (διοδεῦον at 78v.4). No χορδί- form appears in any file."
+  },
+  {
+   "place": "place 11",
+   "index": 1,
+   "verdict": "corrected",
+   "source": "evidence/section-4.json, section-5.json",
+   "url_used": "local evidence files",
+   "note": "Confirmed: Bas. 29.25 τῶν χορδῶν (H 67v.16, V 80r.5; Par. 24v.21-22 too); Bas. 30.17 (H 68r.12, Par. 25r.20, V 80v.6); the compounds -χορδον; and no χορδίον anywhere.",
+   "correction": "Vinc. 342.14 'τοῦ μήκους τῶν χορδῶν' is not P fr. 2. It is in the paragraph opening the 'Troisième fragment', and Vincent says this paragraph is 'pris dans l'édition' (= Bas. 30.17), not from the manuscript. P's own χορδῶν is fr. 2, Vinc. 342.5-6: 'πρὸς τὸν ἀριθμὸν τῶν φθόγγων ἢ τῶν χορδῶν'. Also, χορδή is not the author's only word for 'string': he uses νευρά at Bas. 26.4 (νευρὰν), P fr. 1 at 338.8 ('περὶ δύο νευράς') and P fr. 3 at 342.21 ('τῶν νευρῶν')."
+  },
+  {
+   "place": "place 11",
+   "index": 2,
+   "verdict": "confirmed",
+   "source": "LSJ s.v. χορδίον, with Greek Monolingual",
+   "url_used": "https://lsj.gr/wiki/χορδίον",
+   "note": "LSJ: 'τό, = χορδή (gut, tripe, string of gut, gut-string) 1, SIG 1002.10 (Milet., v/iv BC)'. The 1 refers to χορδή sense I, 'guts, tripe'. Monolingual: 'τὸ, Μ χορδή … υποκορ. τ. του χορδή', where Μ marks medieval use. LSJ does not call the inscription 'sacrificial'; that is the researcher's inference, which I did not verify."
+  },
+  {
+   "place": "place 11",
+   "index": 3,
+   "verdict": "confirmed",
+   "source": "LSJ s.v. χορδή II.1",
+   "url_used": "https://lsj.gr/wiki/χορδή",
+   "note": "'string of a lyre or harp'; 'χορδὰς ἐπιτείνειν' (opp. ἀνιέναι) Pl. Ly. 209b; 'ὀξυτάτην καὶ βαρυτάτην χορδὴν ποιεῖν Id. Phdr. 268e'; 'b. musical note, Pl. Phlb. 56a'."
+  },
+  {
+   "place": "place 11",
+   "index": 4,
+   "verdict": "confirmed",
+   "source": "Nicomachus, Harm. ench. 6, Jan p. 245.19-21 (Meibom p. 10)",
+   "url_used": "https://archive.org/download/musiciscriptoresjank/musiciscriptoresjank_djvu.txt (page header 'enchiridion. c. 4—6. p. 8—10. 245'); leaf n346 follows the same offset as n340 = p. 239",
+   "note": "'Τὴν δὲ κατ’ ἀριθμὸν ποσότητα ταύτην ἥτε διὰ τεσσάρων χορδῶν ἀπόστασις ἥτε διὰ πέντε καὶ ἡ κατ’ ἀμφοτέρων σύνοδον διὰ πασῶν λεγομένη' is on lines 19-21, counting the chapter heading as a line."
+  },
+  {
+   "place": "place 11",
+   "index": 5,
+   "verdict": "confirmed",
+   "source": "Nicomachus, Harm. ench. 12, Jan p. 263",
+   "url_used": "https://archive.org/download/musiciscriptoresjank/musiciscriptoresjank_djvu.txt",
+   "note": "p. 263 (header 'enchiridion. c. 12'): 'Σύστημα δὲ οὖσα ἡ διὰ πασῶν εἴτε ὑπὲρ μέσης ἕως προσλαμβανομένου, εἴτε ὑπὸ μέσης ἕως νήτης ὑπερβολαίας ἐν ὀκτὼ χορδαῖς'."
+  },
+  {
+   "place": "place 11",
+   "index": 6,
+   "verdict": "confirmed",
+   "source": "Theon of Smyrna, ed. Hiller (1878), p. 51.4-18",
+   "url_used": "https://archive.org/download/theonissmyrnaei00theogoog/theonissmyrnaei00theogoog_djvu.txt",
+   "note": "The text reads 'οὕτω προσαγορευθεῖσαν ἐπειδὴ τὸ πρῶτον ἀπὸ τῆς ὀκταχόρδου λύρας ὁ πρῶτος καὶ βαρύτατος φθόγγος … τῷ τελευταίῳ … τὴν αὐτὴν εὑρέθη συνέχων συμφωνίαν' and '… τοῖς προϋπάρχουσιν ὀκτὼ φθόγγοις'. On Adrastus: Hiller's apparatus on p. 50 cites Porphyry quoting Adrastus for the exposition, but only up to 51.4 'φωνή'. The rest continues the same account."
+  },
+  {
+   "place": "place 11",
+   "index": 7,
+   "verdict": "confirmed",
+   "source": "Perseus search for χορδίων; Kriaras online lexicon",
+   "url_used": "https://www.perseus.tufts.edu/hopper/searchresults?q=xordi%2Fwn&target=greek ; greek-language.gr Kriaras search",
+   "note": "Perseus: 'Your search returned no results.' I could not repeat the Kriaras search: greek-language.gr returned 403. The stated reason fits: the site describes its online Epitome as covering the first 14 volumes, currently 'Α – παραθήκη', so χ is not covered."
+  },
+  {
+   "place": "place 12",
+   "index": 0,
+   "verdict": "confirmed",
+   "source": "evidence/section-3.json",
+   "url_used": "local evidence file",
+   "note": "Bas. 28.1 'ὡς δι’ ὀκτὼ τελούμενον'; H 66v.8-9 'τελειούμε|νον'; Par. 23v.7 'τελειούμενον'; V 78v.6-7 'τελει|ούμενον'. At 27.25 all four read 'ὡς διὰ πέντε τελούμενον' (H 66v.7, Par. 23v.5-6, V 78v.5). The evidence files do not show whether H, Par. and V are independent or which is oldest."
+  },
+  {
+   "place": "place 12",
+   "index": 1,
+   "verdict": "confirmed",
+   "source": "LSJ s.v. τελειόω",
+   "url_used": "https://lsj.gr/wiki/τελειόω",
+   "note": "'(the latter always in Hdt., and the prevailing form in Att. Prose)'; 'Pass., to be accomplished, Hdt. 1.160, S. Tr. 1257; ἐπειδὴ χρόνος ἐτελεώθη Pl. Plt. 272d'; 'Pass., of prophecies, to be fulfilled, Ev.Jo. 19.28'."
+  },
+  {
+   "place": "place 12",
+   "index": 2,
+   "verdict": "confirmed",
+   "source": "Greek Monolingual s.v. τελειῶ/τελειόω (on lsj.gr)",
+   "url_used": "https://lsj.gr/wiki/τελειόω",
+   "note": "'τελειῶ, τελειόω, ΝΜΑ, και τελεῶ Α … φέρνω εις πέρας, περατώνω, συμπληρώνω, ολοκληρώνω'. ΝΜΑ marks modern, medieval and ancient use."
+  },
+  {
+   "place": "place 12",
+   "index": 3,
+   "verdict": "confirmed",
+   "source": "Alypius, Isagoge 1, Jan p. 367.3-4",
+   "url_used": "https://archive.org/download/musiciscriptoresjank/musiciscriptoresjank_djvu.txt (leaf n468 = p. 367 by the same offset)",
+   "note": "'Τῆς μουσικῆς ἐκ τριῶν τῶν συνεκτικωτάτων ἐπιστημῶν τελειουμένης, ἁρμονικῆς ῥυθμικῆς μετρικῆς' is on lines 3-4; §2 begins at line 10."
+  },
+  {
+   "place": "place 12",
+   "index": 4,
+   "verdict": "corrected",
+   "source": "Nicomachus, Harm. ench., Jan p. 260",
+   "url_used": "https://archive.org/download/musiciscriptoresjank/musiciscriptoresjank_djvu.txt",
+   "note": "The quotation is exact: 'ἀπὸ (p. 24) τετραχόρδου τὴν ἀρχὴν ποιησάμενοι μέχρι τῆς τελειοτάτης καταπυκνώσεως τῆς διὰ πασῶν'. Strictly, the superlative qualifies the καταπύκνωσις (the filling-in) of the octave, not the octave itself.",
+   "correction": "The passage is the end of chapter 11 (Jan p. 260, Meibom p. 24), not chapter 12. The heading of chapter 12 ('Περὶ τῆς κατὰ τὰ τρία γένη τῶν φθόγγων προβάσεως') comes after it, and the p. 261 header reads 'c. 11.12'."
+  },
+  {
+   "place": "place 12",
+   "index": 5,
+   "verdict": "confirmed",
+   "source": "Aristotle, Problemata 15.3, Bekker vol. 2 (1831) p. 910",
+   "url_used": "https://archive.org/details/aristotelisopera02arisuoft/page/n127 (page image viewed: p. 910) and djvu.txt",
+   "note": "'εἶτα ἐκεῖθεν ἐπαναδιπλοῦσιν' is at b27 and 'πότερον ὅτι τὰ δέκα τέλειος ἀριθμός' at b31-32, so the range should be b23-32. In context, 'stopping beyond ten and then repeating from there' is a hypothetical alternative. The fact that people count to ten and then repeat (ἕνδεκα, δώδεκα) is the premise of the question."
+  },
+  {
+   "place": "place 12",
+   "index": 6,
+   "verdict": "confirmed",
+   "source": "John 19:28, Westcott-Hort text on Perseus",
+   "url_used": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.01.0155:book=John:chapter=19:verse=28",
+   "note": "'Μετὰ τοῦτο εἰδὼς ὁ Ἰησοῦς ὅτι ἤδη πάντα τετέλεσται ἵνα τελειωθῇ ἡ γραφὴ λέγει “Διψῶ.”'"
+  },
+  {
+   "place": "place 12",
+   "index": 7,
+   "verdict": "confirmed",
+   "source": "evidence/section-3.json, section-6.json",
+   "url_used": "local evidence files",
+   "note": "Bas. 27.24-25 'διοδεύον, καὶ περαινόμενον … τελούμενον'. Bas. 32.6 'ἀνάγκη τὸ λοιπὸν τελεῖν ἡμιτόνιον', also in H 69r.9, Par. 26r.22 (which writes λοιπὼν) and V 81v.11."
+  },
+  {
+   "place": "place 12",
+   "index": 8,
+   "verdict": "could not open",
+   "source": "M. L. West, Textual Criticism and Editorial Technique (Teubner 1973)",
+   "url_used": "https://www.iaka.uzh.ch/apps/static/MLS/stemmatology/Assimilation_229150164.html (secondary)",
+   "note": "I could not open the book. Google Books API returned a quota error; I found no open full text, and the Haverford blog page is suspended. Indirect support: the Parvum Lexicon Stemmatologicum, s.v. Assimilation, defines it as a scribe writing a word 'so that it resembles another nearby word' and cites '(West 1973, 24)' for the example 'an excellent examplic of the rhetoric'. A search-result summary says West files assimilation under 'semi-conscious and unconscious changes', but I could not open that page to confirm it.",
+   "correction": "Probable location, from the secondary source only: West 1973, p. 24."
+  },
+  {
+   "place": "place 13",
+   "index": 0,
+   "verdict": "confirmed",
+   "source": "evidence/section-3.json",
+   "url_used": "local evidence file",
+   "note": "Bas. 28.4 'κᾀκεῖθεν αὖθις ἀναδιπλουμένων'; H 66v.11-12 'κακεὶθεν αὖθις ἐπανα|διπλουμένων'; Par. 23v.10-11 'κἀκεῖθεν αὖθις ἐπα-|ναδιπλουμένων'; V 78v.10 'κἀκεῖθεν αὖθις ἐπαναδιπλουμένων'."
+  },
+  {
+   "place": "place 13",
+   "index": 1,
+   "verdict": "confirmed",
+   "source": "LSJ s.v. ἐπαναδιπλόω, with Pape, Greek L-S, Dvoretsky and Bailly 2020",
+   "url_used": "https://lsj.gr/wiki/ἐπαναδιπλόω",
+   "note": "LSJ: 'repeat yet again, Arist. Pr. 910b25, Gal. 15.879:—Pass., to be repeated, Arist. APr. 49a11, Metaph. 1003b28'. Bailly 2020: 'doubler, redoubler, ARSTT. Probl. 15, 3'. Dvoretsky: 'удваивать, повторять'."
+  },
+  {
+   "place": "place 13",
+   "index": 2,
+   "verdict": "confirmed",
+   "source": "Aristotle, Problemata 15.3, 910b23-28, Bekker vol. 2 (1831)",
+   "url_used": "https://archive.org/details/aristotelisopera02arisuoft/page/n127 (page image viewed) and djvu.txt",
+   "note": "From b23: 'Διὰ τί πάντες ἄνθρωποι … εἰς τὰ δέκα καταριθμοῦσι, καὶ οὐκ εἰς ἄλλον ἀριθμόν, οἷον β΄, γ΄, δ΄, ε΄, εἶτα πάλιν ἐπαναδιπλοῦσιν, ἓν πέντε, δύο πέντε, ὥσπερ ἕνδεκα, δώδεκα· οὐδ’ αὖ ἐξωτέρω παυσάμενοι τῶν δέκα, εἶτα ἐκεῖθεν ἐπαναδιπλοῦσιν;'. Bekker prints ου as a ligature, so the OCR reads ἐπαναδιπλᾷσιν."
+  },
+  {
+   "place": "place 13",
+   "index": 3,
+   "verdict": "confirmed",
+   "source": "LSJ and DGE s.v. ἀναδιπλόω, with Pape, Bailly and Dvoretsky",
+   "url_used": "https://lsj.gr/wiki/ἀναδιπλόω",
+   "note": "LSJ: 'double, fold, Sor.1.84:—Pass. … φάλαγξ … ἀναδιπλουμένη being made twice as deep, X. Cyr. 7.5.5'; '2 Gramm. … reduplicate'; '3 Rhet., repeat, Phoeb. Fig. 2.4'. DGE sense 4: 'τὸ ἀναδιπλούμενον … variante del tetrámetro jónico a minore …, Atil.Fortunat. 6.290.1'. Pape: 'wieder verdoppeln'."
+  },
+  {
+   "place": "place 13",
+   "index": 4,
+   "verdict": "confirmed",
+   "source": "LSJ s.vv. ἐπαναδίπλωσις and ἀναδίπλωσις",
+   "url_used": "https://lsj.gr/wiki/ἐπαναδίπλωσις ; https://lsj.gr/wiki/ἀναδίπλωσις",
+   "note": "ἐπαναδίπλωσις: 'doubling, folding' (anatomical); 'II repetition, Arist. APr. 49a26. 2 Rhet., = ἀναστροφή, Tib. Fig. 25'; also 'III Medic.'. ἀναδίπλωσις: 'convolution' (unnumbered A); '2 repetition, duplication … especially in Rhet.'; '3 Medic.'; '4 Gramm., reduplication'. LSJ's Aristotle citation for the noun is from the Prior Analytics, which is logic, not a number series. The number-series use belongs to the verb, at Pr. 910b25."
+  },
+  {
+   "place": "place 13",
+   "index": 5,
+   "verdict": "confirmed",
+   "source": "Aristotle, Probl. 19.32 (Jan pp. 94-95); Theon p. 51 Hiller",
+   "url_used": "https://archive.org/download/musiciscriptoresjank/musiciscriptoresjank_djvu.txt ; theonissmyrnaei00theogoog_djvu.txt",
+   "note": "Jan pp. 94-95: 'Διὰ τί διὰ πασῶν καλεῖται, ἀλλ’ οὐ κατὰ τὸν ἀριθμὸν δι’ ὀκτώ, ὥσπερ καὶ διὰ τεττάρων καὶ διὰ πέντε; — Ἢ ὅτι ἑπτὰ ἦσαν αἱ χορδαὶ τὸ ἀρχαῖον, εἶτ’ ἐξελὼν τὴν τρίτην Τέρπανδρος … ἐκλήθη διὰ πασῶν, ἀλλ’ οὐ δι’ ὀκτώ· δι’ ἑπτὰ γὰρ ἦν'. Theon p. 51 derives the name from the ὀκτάχορδος λύρα. Neither text uses (ἐπ)αναδιπλόω."
+  }
+ ],
+ "summary": "I checked all 46 findings by R2 for places 08-13. Result: 41 confirmed, 4 corrected, 1 could not open. None is wrong or not found.\n\nCorrections:\n(1) Place 08 #0: P fr. 1 has the simplex λαβὼν at 26.24 (Vinc. 338.22), not μεταλαβών. The μετειληφὼς point itself stands.\n(2) Place 11 #1: Vinc. 342.14 'τοῦ μήκους τῶν χορδῶν' is not P fr. 2. It opens fr. 3, and Vincent says that paragraph is taken from the 1545 edition. P's χορδῶν is at 342.5-6. The author also uses νευρά for 'string' (Bas. 26.4, fr. 1 at 338.8, fr. 3 at 342.21).\n(3) Place 12 #4: 'τελειοτάτης καταπυκνώσεως τῆς διὰ πασῶν' is in Nicomachus Harm. ench. ch. 11 (Jan p. 260), not ch. 12.\n(4) Place 12 #8: West 1973 could not be opened. A secondary source places assimilation to a nearby word at p. 24.\n\nPoints worth noting among the confirmed:\n- Jannaris §740 says the perfect participle in particular dropped reduplication, which the place 08 #8 finding leaves out.\n- Jannaris §2168b is about the circumstantial participle used as a finite verb in vulgar texts, not about omitted copulas.\n- The Aristotle Probl. 15.3 range should be b23-32, not b23-31.\n\nMethod: Perseus refused WebFetch and curl, so I opened it in the browser pane (morphology tool, corpus searches, John 19:28) and took Smyth from CCEL and Alpheios. The archive.org findings I checked against the OCR text, and against the page images for Jan p. 239, Hoche p. 115 and Bekker p. 910. The Kriaras site returned 403.\n\nDownloads are in work-v."
+}

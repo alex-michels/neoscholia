@@ -1,0 +1,347 @@
+{
+ "summary": "I checked all 42 findings for places 14-19 against the page images and OCR on archive.org, the Logeion API (LSJ, DGE, Bailly, Pape) and the package's evidence files. 36 are confirmed and 6 need corrections. None is wrong, not found or unreachable.\n\nThe corrections:\n- **Place 14, finding 4:** Theon p. 49.4-5 and Bas. 28.25-29.2 share only the clause «ἀρχὴ μὲν συμφωνίας, οὔπω δὲ συμφωνία». They are not word for word.\n- **Place 14, finding 5:** The antiphonon passage is Probl. XIX.39a in Jan, not 39b.\n- **Place 14, finding 6:** «ἐπαναδιπλουμένων» is the reading of H, Par. and V. Bas. has «ἀναδιπλουμένων».\n- **Place 15, finding 4:** The DGE musical sense of βάρος is at II.5, not I.5.\n- **Place 15, finding 7:** The adjective pair at Bas. 28.23-24 comes five lines after 28.18, not two.\n- **Place 19, finding 6:** Theon p. 195 is an editor's change (Martin's προλαμβάνον against B's προσλαμβάνον), in an astronomical passage. It is not a scribal slip in the note name.\n\nThere are also small line-number slips that I note without changing the verdict:\n- Cleonides p. 194.9-15, not 194.8-15.\n- Par. 24v.2-4, not 24v.2-3.\n- Place 18, finding 3: the octave plus a double fourth is 32:9.",
+ "checks": [
+  {
+   "place": "place 14",
+   "index": 0,
+   "verdict": "confirmed",
+   "source": "Euclid, Sectio canonis prop. 11, Jan p. 159.1-3 and app. to l. 2",
+   "url_used": "https://archive.org/download/musiciscriptoresjank/page/n260_w1000.jpg",
+   "note": "Page image checked. Jan p. 159.1-3 (proof of prop. 11; prop. 12 starts at l. 10) reads: nete synemmenon α, mese β, hypate meson γ; «τὸ ἄρα αγ διάστημα δὶς διὰ τεσσάρων ὂν ἐστὶ διάφωνον». The apparatus reads «2 δὶς M² supra»."
+  },
+  {
+   "place": "place 14",
+   "index": 1,
+   "verdict": "confirmed",
+   "source": "Ps.-Arist. Probl. XIX.34 (Jan p. 95.10-13) and XIX.41 (Jan p. 102)",
+   "url_used": "https://archive.org/download/musiciscriptoresjank/musiciscriptoresjank_djvu.txt",
+   "note": "Both problems ask why the double fifth (δὶς δι' ὀξειῶν) and the double fourth (δὶς διὰ τεττάρων) are not consonant while the double octave is. Pr. 34 answers that they are not superparticular. Pr. 41 answers «οὔτε γὰρ ἐπιμόριοι οὔτε πολλαπλάσιοι ἔσονται». The page headers confirm pp. 95 and 102."
+  },
+  {
+   "place": "place 14",
+   "index": 2,
+   "verdict": "confirmed",
+   "source": "Cleonides, Isagoge, Jan p. 194.2-16; app. to 194.21",
+   "url_used": "https://archive.org/download/musiciscriptoresjank/page/n295_w1000.jpg",
+   "note": "Page image checked. The six consonances and their sizes and limiting notes are as stated. The apparatus reads «21 … δὶς om. M¹WB, item p.195,1, habent LM³». The OCR of p. 195.1 shows the context: «ὅπερ ἐστὶ δὶς διὰ πασῶν καὶ διὰ τεσσάρων καὶ δὶς διὰ πασῶν καὶ διὰ πέντε». So the δὶς dropped by M¹WB belongs to the compound names double octave + fourth and double octave + fifth. This fits the 'how' well."
+  },
+  {
+   "place": "place 14",
+   "index": 3,
+   "verdict": "confirmed",
+   "source": "Gaudentius, Harm. intr. 9, Jan p. 338.8-339.20",
+   "url_used": "https://archive.org/download/musiciscriptoresjank/page/n440_w1000.jpg",
+   "note": "P. 338.8 begins ch. 9 with «τετάρτη … τὸ διὰ πασῶν τε ἅμα καὶ διὰ [τεσσάρων]», and p. 339.1-2 continues «πέμπτη τὸ διὰ πασῶν τε ἅμα καὶ διὰ πέντε. ἕκτη τὸ δὶς διὰ πασῶν». P. 339.14-20 gives the sizes: octave + fourth φθόγγων ια, 8½ tones; octave + fifth φθόγγων δώδεκα, 9½ tones; double octave φθόγγων δεκαπέντε, 12 tones. Bas. 28.20-22 pairs the 11th with the 4th, the 12th with the 5th and the 15th with the 8th, as the 'how' says."
+  },
+  {
+   "place": "place 14",
+   "index": 4,
+   "verdict": "corrected",
+   "source": "Theon (Thrasyllus), Hiller p. 48.17-23 and p. 49.4-5",
+   "url_used": "https://archive.org/download/theonissmyrnaei00theogoog/page/n69_w800.jpg",
+   "correction": "The quotation from p. 48.17-20 and the reading of p. 49.4-5 are exact. But 'word for word Bas. 29.1-2' overstates it. Theon has «ὁ γὰρ τόνος καὶ ἡ δίεσις ἀρχὴ μὲν συμφωνίας, οὔπω δὲ συμφωνία». Bas. 28.25-29.2 (and H, Par., V) has «Ὁ δὲ τόνος, καὶ τὸ ἡμιτόνιον, καὶ ἡ δίεσις, καθ' ἑαυτὰ θεωρούμενα, ἀρχὴ μὲν συμφωνίας, οὔπω δὲ συμφωνία». Only the clause «ἀρχὴ μὲν συμφωνίας, οὔπω δὲ συμφωνία» is verbatim, and the parallel starts at 28.25.",
+   "note": "The page image confirms that Thrasyllus' antiphonal examples are only the octave and the double octave."
+  },
+  {
+   "place": "place 14",
+   "index": 5,
+   "verdict": "corrected",
+   "source": "Ps.-Arist. Probl. XIX.39a (Jan p. 100.3-5); LSJ s.v. ἀντίφωνος; Gaudentius 20 (Jan p. 347.26-348.1)",
+   "url_used": "https://archive.org/download/musiciscriptoresjank/page/n201_w1000.jpg",
+   "correction": "In Jan the passage «Ἢ ὅτι τὸ μὲν ἀντίφωνον σύμφωνόν ἐστι διὰ πασῶν» is Probl. XIX.39ᵃ (p. 100.3-5). 39ᵇ is the following [Μαγαδίζουσι …] section. Cite it as XIX.39a, or XIX.39 = Bekker 921a8.",
+   "note": "LSJ (Logeion) is as quoted: 'sounding in answer, concordant, as in the octave'; III τὸ ἀ. 'concord in the octave', Arist. Pr. 918b30, 921a8. Gaudentius p. 347.26 reads «καὶ μέσην τὸν πρὸς τοῦτον ἀντίφωνον» (τὸν is Meibom's) and p. 348.1 «τὴν μέσην τὴν νῦν ἀντίφωνον τῷ προσλαμβανομένῳ». Both are correct."
+  },
+  {
+   "place": "place 14",
+   "index": 6,
+   "verdict": "corrected",
+   "source": "Internal evidence, evidence/section-3.json; P fr. 2 in Vincent 340.8-9",
+   "url_used": "",
+   "correction": "Bas. 28.4 reads «κᾀκεῖθεν αὖθις ἀναδιπλουμένων». «ἐπαναδιπλουμένων» is the reading of H 66v.11-12, Par. 23v.10-11 and V 78v.10. So the quoted word is not 'all witnesses'.",
+   "note": "Everything else checks out. The δὶς-sentence at 28.6-8 is in all four witnesses. P fr. 2 (Vinc. 340.8-9) has «τὸ δὶς διὰ τεσσάρων, τὸ δὶς διὰ πέντε, καὶ τὸ δὶς διὰ πασῶν». The examples at 28.19-22 are as stated. Bas., H, Par. and V all read «ἡ δὶς διὰ τεσσάρων … ἡ δὶς διὰ πέντε» at 28.11."
+  },
+  {
+   "place": "place 14",
+   "index": 7,
+   "verdict": "confirmed",
+   "source": "Internal evidence, Bas. 29.7-22 (evidence/section-4.json)",
+   "url_used": "",
+   "note": "Bas. 29.7-10 gives «δι' ὀκτὼ καὶ ἡμιτονίου» and «δι' ἐννέα καὶ ἡμιτονίου». 29.20-22 gives «διπλασιεπιμερὴς ὁ ἑξκαιδέκατος» and «τριπλάσιος ὁ ὀκτωκαιδέκατος» against the 6. One caveat: at 29.7-10 these intervals are named «διὰ πασῶν καὶ δὶς διὰ …», not «δὶς διὰ …» as at 28.11. Identifying them with the 28.11 intervals is an inference."
+  },
+  {
+   "place": "place 14",
+   "index": 8,
+   "verdict": "confirmed",
+   "source": "Xylander's marginal notes, Bas. p. 28 (evidence/section-3.json)",
+   "url_used": "",
+   "note": "The notes keyed at 28.11-12 propose «διὰ πασῶν καὶ διὰ τεσσάρων» and «διὰ πασῶν καὶ διὰ πέντε». H, Par., V and P all have δὶς, so reading 1 has no witness."
+  },
+  {
+   "place": "place 15",
+   "index": 0,
+   "verdict": "confirmed",
+   "source": "Smyth, Greek Grammar (1920), §296, p. 79",
+   "url_used": "https://archive.org/download/smyth-greek-grammar-for-colleges-1920/Smyth%2C%20A%20Greek%20Grammar%20for%20Colleges%20%281920%29_djvu.txt",
+   "note": "§296 (p. 79): stems in υ have the inflection of πῆχυς and ἄστυ, 'except that the genitive singular masculine and neuter ends in -ος (not -ως)'. This supports the 'how' about the noun-type -εως."
+  },
+  {
+   "place": "place 15",
+   "index": 1,
+   "verdict": "confirmed",
+   "source": "LSJ s.v. ἥμισυς",
+   "url_used": "https://anastrophe.uchicago.edu/logeion-api/detail?type=normal&w=%E1%BC%A5%CE%BC%CE%B9%CF%83%CF%85%CF%82",
+   "note": "The entry is as quoted: 'gen. ἡμίσεος … (ἡμίσεως is sts. a v.l., as in Th. ll. cc., and is found in later writers, as Dsc. 2.70)'."
+  },
+  {
+   "place": "place 15",
+   "index": 2,
+   "verdict": "confirmed",
+   "source": "Cleonides, Jan p. 194, app. to ll. 4, 6, 10",
+   "url_used": "https://archive.org/download/musiciscriptoresjank/page/n295_w1000.jpg",
+   "note": "The page image shows ἡμίσεος in the text and the apparatus «4 ἡμίσεως W, item 6» and «10 ἡμίσους M¹W, ἡμίσεως M⁴»."
+  },
+  {
+   "place": "place 15",
+   "index": 3,
+   "verdict": "confirmed",
+   "source": "Internal evidence, Bas. 25.3 and 30.1-2 (evidence/section-2.json, section-4.json)",
+   "url_used": "",
+   "note": "Bas. 25.3 «ἀπὸ τοῦ βαρέος» (also H 64v.16, Par. 21v.4, V 76r.17). Bas. 30.1-2 «τῆς ἀπὸ τοῦ βαρέος» (also H 67v.18, Par. 25r.2, V 80r.7-8)."
+  },
+  {
+   "place": "place 15",
+   "index": 4,
+   "verdict": "corrected",
+   "source": "LSJ s.v. βάρος IX; DGE s.v. βάρος II.5",
+   "url_used": "https://anastrophe.uchicago.edu/logeion-api/detail?type=normal&w=%CE%B2%CE%AC%CF%81%CE%BF%CF%82",
+   "correction": "The DGE musical sense ('mús. tono grave Aristid.Quint.23.8') is at II.5, not I.5. Section I covers 'peso' and its senses 1-3; II.1-5 covers 'abundancia … fuerza … gravedad … gram. … mús.'.",
+   "note": "LSJ IX is as quoted: 'in Music, = βαρύτης, low pitch, Aristid.Quint. 1.11'."
+  },
+  {
+   "place": "place 15",
+   "index": 5,
+   "verdict": "confirmed",
+   "source": "Theon (Thrasyllus), Hiller p. 48.21-23",
+   "url_used": "https://archive.org/download/theonissmyrnaei00theogoog/page/n69_w800.jpg",
+   "note": "Page image checked; the quotation is exact. The parenthesis 'Bas. 29.1-2 = Theon 49.4-5' in the 'how' carries the same overstatement noted at place 14, finding 4: only the closing clause is verbatim."
+  },
+  {
+   "place": "place 15",
+   "index": 6,
+   "verdict": "confirmed",
+   "source": "Ps.-Arist. Probl. XIX.17, Jan p. 87.13-19",
+   "url_used": "https://archive.org/download/musiciscriptoresjank/page/n188_w600.jpg",
+   "note": "Page image checked. Pr. 17 («Διὰ τί διὰ πέντε οὐκ ἄδουσιν ἀντίφωνα;») reads at ll. 14-16: «… ὥσπερ ἐν τῷ διὰ πασῶν· ἐκείνη γὰρ ἐν τῷ βαρεῖ ἀνάλογον, ὡς ἡ ὀξεῖα ἐν τῷ ὀξεῖ»."
+  },
+  {
+   "place": "place 15",
+   "index": 7,
+   "verdict": "corrected",
+   "source": "Internal evidence, Bas. 28.18 and 28.23-24 (evidence/section-4.json)",
+   "url_used": "",
+   "correction": "«τῶν βαρέων τοῖς ὀξέσιν, ἢ τῶν ὀξέων τοῖς βαρέσι» is at Bas. 28.23-24. That is five lines after 28.18, not two.",
+   "note": "The witness readings at 28.18 are exact: H 67r.4-5 «ὀξέως τῶ βά|ρει», Par. 24r.6 «ὀξέως τῷ βάρει», V 79r.7 «ὀξέως τῷ βαρεῖ», Bas. «ὀξέως τῷ βαρεί» (accent printed acute). All have ὀξέως."
+  },
+  {
+   "place": "place 16",
+   "index": 0,
+   "verdict": "confirmed",
+   "source": "Witnesses at Bas. 29.5 (evidence/section-4.json)",
+   "url_used": "",
+   "note": "Bas. 29.5-6, H 67r.17, Par. 24r.21 and V 79r.21-79v.1 all read προσωνυμίας as stated. None reads προσηγορίας."
+  },
+  {
+   "place": "place 16",
+   "index": 1,
+   "verdict": "confirmed",
+   "source": "Sophocles, Greek Lexicon of the Roman and Byzantine Periods, s.v. προσωνυμία",
+   "url_used": "https://archive.org/download/greeklexiconofro00soph/greeklexiconofro00soph_djvu.txt",
+   "note": "The entry is as quoted: 'appellation, name. Diosc. 3,151 (161). Plut. 1, 156 B. Just. Apol. 2, 2. Afric. 69.'"
+  },
+  {
+   "place": "place 16",
+   "index": 2,
+   "verdict": "confirmed",
+   "source": "LSJ and Bailly 2024 s.v. προσωνυμία",
+   "url_used": "https://anastrophe.uchicago.edu/logeion-api/detail?type=normal&w=%CF%80%CF%81%CE%BF%CF%83%CF%89%CE%BD%CF%85%CE%BC%CE%AF%CE%B1",
+   "note": "LSJ: 'surname, Hp. Morb.Sacr. 1, Dsc. 2.142, 3.3, Plu. Per. 8, 39, Gal. 6.778, D.C. 41.39'. Bailly: 'surnom'."
+  },
+  {
+   "place": "place 16",
+   "index": 3,
+   "verdict": "confirmed",
+   "source": "LSJ and Pape s.v. προσηγορία",
+   "url_used": "https://anastrophe.uchicago.edu/logeion-api/detail?type=normal&w=%CF%80%CF%81%CE%BF%CF%83%CE%B7%CE%B3%CE%BF%CF%81%CE%AF%CE%B1",
+   "note": "LSJ II: 'appellation, name, Isoc. 15.284, Com.Adesp. 143, D. 6.25, Arist. Pol. 1275a6 …' (the finding's ellipsis covers Com.Adesp.). Pape: 'Die Benennung, der Name'."
+  },
+  {
+   "place": "place 16",
+   "index": 4,
+   "verdict": "confirmed",
+   "source": "Theon, Hiller p. 77.5-7 and p. 51.18-20",
+   "url_used": "https://archive.org/download/theonissmyrnaei00theogoog/page/n98_w800.jpg",
+   "note": "The p. 77 image shows «διὸ καὶ ἀπὸ τῆς τῶν μερῶν ὀνομασίας ἕκαστος τῶν ἐπιμορίων ἰδίας ἔτυχε προσηγορίας». Here the names are those of superparticular ratios. P. 51.18-20 (OCR) reads «ὅμως τῶν πρώτων συμφωνιῶν αἱ προσηγορίαι φυλάττονται, διὰ τεσσάρων, διὰ πέντε, διὰ πασῶν»; here the names are those of intervals."
+  },
+  {
+   "place": "place 16",
+   "index": 5,
+   "verdict": "confirmed",
+   "source": "Internal evidence, Bas. 25.2-4, 27.22, 28.5-6, 29.5 (evidence/section-2/3/4.json)",
+   "url_used": "",
+   "note": "All six expressions are at the stated Bas. lines. At 25.4 Bas. has λαμβάνοντος, where H, Par. and V have λαμβάνοντες; this does not affect the point."
+  },
+  {
+   "place": "place 17",
+   "index": 0,
+   "verdict": "confirmed",
+   "source": "Cleonides, Jan p. 194.9-15",
+   "url_used": "https://archive.org/download/musiciscriptoresjank/page/n295_w1000.jpg",
+   "note": "The quotation is exact («τόνων ὀκτὼ καὶ ἡμίσεος … τόνων ἐννέα ἡμίσεος … ἕκτον τὸ δὶς διὰ πασῶν, τόνων δώδεκα»). It begins at l. 9 («τέταρτον δὲ …»), not l. 8."
+  },
+  {
+   "place": "place 17",
+   "index": 1,
+   "verdict": "confirmed",
+   "source": "Gaudentius 9, Jan p. 339.14-20",
+   "url_used": "https://archive.org/download/musiciscriptoresjank/page/n440_w1000.jpg",
+   "note": "Page image checked. «τὸ δὲ διὰ πασῶν καὶ διὰ τεσσάρων … τόνων ὀκτὼ ἡμίσους … τὸ δὲ διὰ πασῶν καὶ διὰ πέντε … τόνων ἐννέα ἡμίσους … τὸ δὲ δὶς διὰ πασῶν … τόνων δώδεκα»."
+  },
+  {
+   "place": "place 17",
+   "index": 2,
+   "verdict": "confirmed",
+   "source": "Arithmetic on Bas. 29.7-11",
+   "url_used": "",
+   "note": "This is a calculation, not a citation, and it is correct: 6+2½=8½; 6+5=11; 6+3½=9½; 6+7=13; 6+8½=14½. The tone counts at Bas. 29.8-10 are as stated."
+  },
+  {
+   "place": "place 17",
+   "index": 3,
+   "verdict": "confirmed",
+   "source": "Euclid, Sect. can. 11, Jan p. 159; Probl. XIX.34 and 41, Jan pp. 95, 102",
+   "url_used": "https://archive.org/download/musiciscriptoresjank/page/n260_w700.jpg",
+   "note": "Same passages as place 14, findings 0 and 1, and they check out."
+  },
+  {
+   "place": "place 17",
+   "index": 4,
+   "verdict": "confirmed",
+   "source": "Euclid app. Jan p. 159 l. 2; Cleonides app. Jan p. 194 l. 21",
+   "url_used": "https://archive.org/download/musiciscriptoresjank/page/n295_w1000.jpg",
+   "note": "«2 δὶς M² supra» (Euclid) and «δὶς om. M¹WB, item p.195,1, habent LM³» (Cleonides) are both on the page images. In Cleonides the δὶς belongs to «δὶς διὰ πασῶν καὶ διὰ τεσσάρων / καὶ διὰ πέντε» (p. 194.21-195.1), so it is exactly a compound-name δὶς."
+  },
+  {
+   "place": "place 17",
+   "index": 5,
+   "verdict": "confirmed",
+   "source": "Xylander's note, Bas. p. 29; witnesses at 29.8-9 (evidence/section-4.json)",
+   "url_used": "",
+   "note": "The note is printed «abundant omnino, & delēda sūt». H 67r.19-22, Par. 24v.1-4 (the second phrase runs to 24v.4, not 24v.3) and V 79v.3-6 all read «… καὶ δὶς διὰ τεσσάρων … καὶ δὶς διὰ πέντε»."
+  },
+  {
+   "place": "place 18",
+   "index": 0,
+   "verdict": "confirmed",
+   "source": "Theon, Hiller p. 56.12-16",
+   "url_used": "https://archive.org/download/theonissmyrnaei00theogoog/page/n77_w800.jpg",
+   "note": "Page image checked; the quotation is exact (8:3 «πολλαπλασιεπιμερής, διπλάσιος γὰρ καὶ δισεπίτριτος»)."
+  },
+  {
+   "place": "place 18",
+   "index": 1,
+   "verdict": "confirmed",
+   "source": "Gaudentius 10, Jan p. 339.21-340.3",
+   "url_used": "https://archive.org/download/musiciscriptoresjank/page/n440_w1000.jpg",
+   "note": "Page images of pp. 339 and 340 checked; the quotations are exact. The text pairs 24 with 18, 16, 12, 9, 8 and 6. The diagram numbers 24 18 16 12 / 12 9 8 6 are Jan's emended version, printed in his note at p. 340. The diagram in N and H has κδ ιη ιβ, κδ ις θ, κδ η ιβ ς."
+  },
+  {
+   "place": "place 18",
+   "index": 2,
+   "verdict": "confirmed",
+   "source": "Nicomachus, Intr. arith. I.23.3, ed. Hoche p. 64; Sophocles Lexicon s.v. διπλασιεπιδιμερής",
+   "url_used": "https://archive.org/download/nicomachigerasen00nicouoft/nicomachigerasen00nicouoft_djvu.txt",
+   "note": "Hoche p. 64 (OCR) lists the species «διπλασιεπιδιμερής, εἶτα διπλασιεπιτριμερής …· οἷον ὁ μὲν η' τοῦ γ' διπλασιεπιδιμερὴς καὶ ὁ ις' τοῦ ς' διπλασιεπιδιμερής». Sophocles has 'twice and two thirds as large; as 8 : 3. Nicom. 104.'"
+  },
+  {
+   "place": "place 18",
+   "index": 3,
+   "verdict": "confirmed",
+   "source": "Theon, Hiller p. 79.17-19; Euclid, Sect. can. 12, Jan p. 160.4-9",
+   "url_used": "https://archive.org/download/theonissmyrnaei00theogoog/theonissmyrnaei00theogoog_djvu.txt",
+   "note": "Theon p. 79 (image checked) reads «ὁ μὲν τῶν η' δὶς ἔχει τὸν τῶν γ' καὶ δύο τρίτα αὐτοῦ, λέγεται δὲ διπλάσιος καὶ δὶς ἐπίτριτος». Euclid p. 160 is as quoted. A small point in the 'how': with δὶς, the transmitted 'octave + double fourth' would be 32:9, not 16:9 (16:9 is the bare double fourth). Neither is διπλασιεπιμερής."
+  },
+  {
+   "place": "place 18",
+   "index": 4,
+   "verdict": "confirmed",
+   "source": "Witnesses at Bas. 29.13-15 (evidence/section-4.json)",
+   "url_used": "",
+   "note": "Bas. «τοῦ δὲ διὰ πασῶν καὶ διὰ τεσσάρων … τοῦ διὰ πασῶν καὶ διὰ πέντε». H 67v.4-6 and V 79v.11-13 have δὶς in both members. Par. 24v.8-10 reads «καὶ διὰ τεσσάρων … τοῦ διὰ πασῶν. καὶ δὶς διὰ πέντε». H, Par. and V have no δὲ."
+  },
+  {
+   "place": "place 19",
+   "index": 0,
+   "verdict": "confirmed",
+   "source": "LSJ s.v. προσλαμβάνω I.2.c",
+   "url_used": "https://anastrophe.uchicago.edu/logeion-api/detail?type=normal&w=%CF%80%CF%81%CE%BF%CF%83%CE%BB%CE%B1%CE%BC%CE%B2%CE%AC%CE%BD%CF%89",
+   "note": "The entry is as quoted: 'c in Music, ὁ προσλαμβανόμενος [τόνος] the added note at the bottom of the scale, Ph. 1.111, Plu. An.procr. 2.1028f'."
+  },
+  {
+   "place": "place 19",
+   "index": 1,
+   "verdict": "confirmed",
+   "source": "LSJ s.v. προλαμβάνω",
+   "url_used": "https://anastrophe.uchicago.edu/logeion-api/detail?type=normal&w=%CF%80%CF%81%CE%BF%CE%BB%CE%B1%CE%BC%CE%B2%CE%AC%CE%BD%CF%89",
+   "note": "Sense II.8.c is 'precede, go before, ὁ προλαβὼν βίος … τὰ προλαβόντα'. The entry has no musical sense."
+  },
+  {
+   "place": "place 19",
+   "index": 2,
+   "verdict": "confirmed",
+   "source": "Sophocles Lexicon s.v. προσλαμβάνω 3 and s.v. προλαμβάνω",
+   "url_used": "https://archive.org/download/greeklexiconofro00soph/greeklexiconofro00soph_djvu.txt",
+   "note": "προσλαμβάνω 3: 'Participle, προσλαμβανόμενος, L. adquisitus, the name of a musical note. Philon I, 111, 38.' προλαμβάνω has only '= προμανθάνω' and '2. Participle, προλαβών, former, previous', with no note name."
+  },
+  {
+   "place": "place 19",
+   "index": 3,
+   "verdict": "confirmed",
+   "source": "Internal evidence, Bas. 25.4-5 (evidence/section-2.json)",
+   "url_used": "",
+   "note": "The note list opens «Προσλαμβανόμενος, ὑπάτη ὑπάτων» in Bas. 25.4-5, H 64v.18, Par. 21v.6-7 and V 76r.19-20."
+  },
+  {
+   "place": "place 19",
+   "index": 4,
+   "verdict": "confirmed",
+   "source": "Cleonides, Jan p. 194.5-16",
+   "url_used": "https://archive.org/download/musiciscriptoresjank/page/n295_w1000.jpg",
+   "note": "The fifth, octave, octave + fourth, octave + fifth and double octave are each illustrated «ἀπὸ προσλαμβανομένου ἐπὶ …». The fourth is illustrated from hypate hypaton."
+  },
+  {
+   "place": "place 19",
+   "index": 5,
+   "verdict": "confirmed",
+   "source": "Gaudentius 16 (Jan p. 344.22-24) and 20 (Jan p. 347.26-348.10)",
+   "url_used": "https://archive.org/download/musiciscriptoresjank/musiciscriptoresjank_djvu.txt",
+   "note": "P. 344 reads «ἄρχεται δὲ ὁ προσλαμβανόμενος ἀπὸ τοῦ μεγίστου τῶν ἀριθμῶν» (in the chromatic number diagram). P. 347.26 reads «μέσην τὸν πρὸς τοῦτον ἀντίφωνον», and p. 348.8 reads «τὴν τάσιν τοῦ παντὸς συστήματος πρὸς τοῦτον ἁρμόζομεν»."
+  },
+  {
+   "place": "place 19",
+   "index": 6,
+   "verdict": "corrected",
+   "source": "Theon, Hiller p. 195, app. to l. 14",
+   "url_used": "https://archive.org/download/theonissmyrnaei00theogoog/theonissmyrnaei00theogoog_djvu.txt",
+   "correction": "The apparatus is quoted correctly: «φωτιζόμενον] προσλαμβάνον B, προλαμβάνον Mart.». But the passage is about the illuminated body in the lunar-eclipse section, not the note name. Hiller prints φωτιζόμενον from Chalcidius. προλαμβάνον is Martin's editorial reading, not a manuscript variant. So it shows an editor altering προσλαμβ- to προλαμβ-. It is not evidence of a scribal loss of σ.",
+   "note": "This is weak support for the 'easy direction' claim."
+  },
+  {
+   "place": "place 19",
+   "index": 7,
+   "verdict": "confirmed",
+   "source": "P fr. 2, Vincent p. 340.7-10 (evidence/section-4.json)",
+   "url_used": "",
+   "note": "Vinc. 340.9-10 reads «πρὸς τὸν προ-|λαμβανόμενον φθόγγον τῶν λόγων ἔχουσι τὴν ἀναφοράν». Vincent's footnotes on p. 340 (nn. 1-5) have none on this word."
+  }
+ ]
+}

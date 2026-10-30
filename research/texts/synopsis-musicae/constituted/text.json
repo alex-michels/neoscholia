@@ -734,7 +734,7 @@
      "ref": "Bas. 28.18",
      "entry": "βαρεῖ Bas. V] βάρει H Par.",
      "type": "accent (different word)",
-     "note": "The difference is in the accent only, but βάρει is the dative of βάρος ('weight') and gives no sense against τοῦ ὀξέος. In H (βά|ρει, divided at the line end) it is probably a mere misplaced accent. It is listed because the two accentuations give two different words (the adjective βαρύς, the noun βάρος), and H and Par. agree on the noun; accent differences that leave the word the same go to the orthographica (e.g. μύρια Bas. 33.18). Bas. prints βαρεί (acute), an accent misprint."
+     "note": "The difference is in the accent only, but it gives two words: the adjective βαρύς (βαρεῖ, paired with τοῦ ὀξέος, as the author pairs the adjectives at 28.23-24) and the noun βάρος, which in music means low pitch (LSJ s.v. IX; Theon p. 48 Hiller, in the definition of antiphony: τὸ ἀντικείμενον τῇ ὀξύτητι βάρος). H divides βά|ρει at the line end. Bas. prints βαρεί (acute), an accent misprint."
     },
     {
      "ref": "Bas. 29.8",
@@ -1719,6 +1719,18 @@
       "reasoning": "H 64r.1, Par. 20v.1–2 and V 75r.12 put σύνοψις before ἠκριβωμένη. Bas. alone reverses the words; the sense is unchanged, and its two-line heading may have encouraged rearrangement.",
       "apparatus": "ἠκριβωμένη σύνοψις Bas."
      }
+    },
+    "reference_check": {
+     "research_group": 1,
+     "place": "place 01",
+     "evidence_supports": "reading 2",
+     "strength": "strong",
+     "relation_to_adopted": "agrees",
+     "findings": 5,
+     "verification": {
+      "confirmed": 5
+     },
+     "reasoning": "The reference works are neutral: both orders are grammatical and the participle is well attested. The witnesses decide. H, V and Par. (the princeps tradition) agree on σύνοψις ἠκριβωμένη, and Bas. alone inverts the order in a typeset capitals heading. The edition corrects Bas. where another witness gives the original text, so reading 2."
     }
    },
    {
@@ -1756,6 +1768,18 @@
       "reasoning": "Bas., H, Par. and V all have τοσούτου; the genitive fits ἠξίωσαν with θαύματος.",
       "apparatus": "τοσοῦτον is unsupported."
      }
+    },
+    "reference_check": {
+     "research_group": 1,
+     "place": "place 02",
+     "evidence_supports": "reading 2",
+     "strength": "strong",
+     "relation_to_adopted": "agrees",
+     "findings": 5,
+     "verification": {
+      "confirmed": 5
+     },
+     "reasoning": "All four witnesses read τοσούτου. LSJ gives the standard acc. + gen. construction of ἀξιόω and a close parallel with a quantity word in agreement (Pl. Lg. 917d). Smyth shows that this kind of hyperbaton is ordinary in prose. Reading 1 is grammatical but has no witness, and nothing makes the transmitted text unacceptable."
     }
    },
    {
@@ -1793,6 +1817,18 @@
       "reasoning": "H 64v.11, Par. 21r.19–20 and V 76r.11 have γάρ. The clause explains the preceding definition; Bas. δ’ would also make sense as a contrast, but stands alone.",
       "apparatus": "δ’ Bas."
      }
+    },
+    "reference_check": {
+     "research_group": 1,
+     "place": "place 03",
+     "evidence_supports": "reading 1",
+     "strength": "strong",
+     "relation_to_adopted": "agrees",
+     "findings": 4,
+     "verification": {
+      "confirmed": 4
+     },
+     "reasoning": "The witnesses decide: H, V and Par. read γάρ, and Bas. stands alone. The reference works show that both particles are grammatical and that γάρ/δέ is a known confusion. The familiar idiom εἰ δὲ μή explains how Bas.'s δέ could arise. The explanatory logic suits the author's γάρ."
     }
    },
    {
@@ -1830,6 +1866,20 @@
       "reasoning": "All four witnesses have ὑπάτη διάτονος, despite the position of the note in the sequence. The author also uses nonstandard note names such as διεζευγμένη and παράμεσος; this permits retention without asserting that the words are incurable.",
       "apparatus": "ὑπάτων διάτονος and διάτονος ὑπάτων are possible unattested corrections; †ὑπάτη διάτονος† is an alternative editorial judgment."
      }
+    },
+    "reference_check": {
+     "research_group": 1,
+     "place": "place 04",
+     "evidence_supports": "reading 2",
+     "strength": "moderate",
+     "relation_to_adopted": "against",
+     "findings": 11,
+     "verification": {
+      "confirmed": 9,
+      "corrected": 2
+     },
+     "reasoning": "Every theorist names this note διάτονος ὑπατῶν / ὑπατῶν διάτονος or λιχανὸς ὑπατῶν. Nicomachus explicitly says the genitive ὑπατῶν is added. ὑπάτη is the name of another note, so the transmitted name is unattested and contradicts itself. The corruption -ων > -η in exactly these names is documented in Cleonides' manuscripts (Jan p. 200). Two things keep the strength moderate. All witnesses agree. And the archetype has the same nominative for genitive plural three times (διεζευγμένη), so archetypal or authorial looseness cannot be fully excluded. The probable original ὑπατῶν διάτονος would be a conjecture, so the obelus is the evidence-based choice between the two readings offered.",
+     "assessment": "Not decisive: the same name ὑπάτη διάτονος stands in the diagram of Theon's codex A (Hiller p. 206, checked on the page image), with διεζευγμένη in the nominative as here; the name is attested, so no obeli."
     }
    },
    {
@@ -1867,6 +1917,20 @@
       "reasoning": "Bas., Par. and V explicitly have μόνως, reasonably meaning that μέση is named without a tetrachord qualifier. H 64v.20 has a suspension whose expansion is uncertain, so it does not compel μόνος.",
       "apparatus": "μόν(ος) H, expansion uncertain; †μόνος† editorial."
      }
+    },
+    "reference_check": {
+     "research_group": 1,
+     "place": "place 05",
+     "evidence_supports": "reading 2",
+     "strength": "weak",
+     "relation_to_adopted": "against",
+     "findings": 6,
+     "verification": {
+      "confirmed": 4,
+      "corrected": 2
+     },
+     "reasoning": "The internal arithmetic (15 notes; 1:8 = 8:15) shows a name lost exactly where μόνως stands, and no theorist ever qualifies μέση. Both facts suggest the place is disturbed, which supports marking it. But μόνως is the reading of Bas., Par. and V, and LSJ attests later μόνως = 'simply, only', so 'mese simply' is not impossible. H's μόν(ος) is uncertain, and masculine μόνος with μέση would not agree. The evidence shows a corrupt context more clearly than it shows the word itself is corrupt. The editor may prefer to keep μόνως and mark the lacuna instead.",
+     "assessment": "Weak: the researcher grants that the context (a lost name) is disturbed rather than μόνως itself; his claim that μόνως stands in the place of the lost name was found wrong by the verifier (it follows μέση)."
     }
    },
    {
@@ -1905,6 +1969,19 @@
       "reasoning": "H 65r.16–18 and V 77r.1–2 have ὅσον in the first clause; Bas. and Par. have οἷον. The second ὅσον is unanimous. The figures 8½ and 8¼ fall between 8 and 9 and can be understood with the author’s following discussion of division, without twice inserting an unattested ratio.",
       "apparatus": "οἷον Bas. Par. at first occurrence; τοῦ ἐννέα πρὸς added twice Xyl. in margin, conjecture."
      }
+    },
+    "reference_check": {
+     "research_group": 1,
+     "place": "place 06",
+     "evidence_supports": "reading 1",
+     "strength": "strong",
+     "relation_to_adopted": "agrees",
+     "findings": 10,
+     "verification": {
+      "confirmed": 9,
+      "corrected": 1
+     },
+     "reasoning": "H and V transmit ὅσον ὀκτὼ ἥμισυ … ὅσον ὀκτὼ τέταρτον. LSJ (ἥμισυς II) and Hiller's note on Theon p. 70.6 show that 'numeral + ἥμισυ' without καί is a normal mixed number (8½), and that editors keep it rather than supplement. Theon (pp. 69-70) and Plutarch (De an. procr. 1021e) show that 8½:8 = 17:16 is the arithmetically halved tone. The text's next sentence, on cutting the unit, presupposes exactly these numbers. Xylander's ⟨τοῦ ἐννέα πρὸς⟩ is a conjecture in no witness, and the transmitted text is acceptable. ὅσον and οἷον are both lexically fine; ὅσον has the better witnesses (H, V) and parallels the second clause."
     }
    },
    {
@@ -1943,6 +2020,19 @@
       "reasoning": "Revised after edition 1 notes that ἑξκαιδέκατος is an independently attested lexical form, not merely an orthographic error. H, Bas., Par. and V have ἑξκαι- at the two main-text places, so retain it. At P Vincent reports only ἑνδ.; expansion is uncertain, and the following 8 and 32 show that 16 is intended. The P numeral is therefore a marked conjecture.",
       "apparatus": "P ἑνδ. (Vinc. 338 n. 6); ἑξδέκατον Vincent; ἑκκαιδέκατον / ἑκκαιδέκατος alternative normalized forms."
      }
+    },
+    "reference_check": {
+     "research_group": 1,
+     "place": "place 07",
+     "evidence_supports": "reading 1",
+     "strength": "moderate",
+     "relation_to_adopted": "agrees",
+     "findings": 9,
+     "verification": {
+      "confirmed": 7,
+      "corrected": 2
+     },
+     "reasoning": "The ξκ spelling is unanimous in all witnesses at both places. LSJ, Bailly and Pape treat it as a recognised post-classical form with its own headwords, attested in Hippocrates, Plutarch, Ps.-Ptolemy, Aelian, Hephaestion and the scholia. Modern editors of Plutarch keep it in arithmetical and musical contexts closely parallel to ours (De Iside 367e: ἑξκαίδεκα τετράγωνος; De an. procr. 1021e: ἐφεξκαιδέκατος). It is a form, not a mere misspelling, so the rule against correcting Byzantine usage favours keeping it. For reading 2: ἑκκαιδέκατος is the main headword (LSJ, DGE); the author's own compound has κκ, so normalising would make the text consistent; and Hiller prints κκ in Theon. If the editor counts ξκ/κκ as orthography, reading 2 is defensible."
     }
    },
    {
@@ -1980,6 +2070,19 @@
       "reasoning": "Bas., H, Par. and V all have μετειληφώς, a defensible perfect of μεταλαμβάνω: the diagonal has been taken as the side.",
       "apparatus": "μεταληφὼς edition 1, unattested here."
      }
+    },
+    "reference_check": {
+     "research_group": 2,
+     "place": "place 08",
+     "evidence_supports": "reading 2",
+     "strength": "strong",
+     "relation_to_adopted": "agrees",
+     "findings": 9,
+     "verification": {
+      "corrected": 1,
+      "confirmed": 8
+     },
+     "reasoning": "μετειληφώς is the regular perfect participle of μεταλαμβάνω (Smyth §445; Jannaris §734; LSJ s.v. λαμβάνω: pf. εἴληφα). It is well attested (Perseus: Dem. 19.209, X. HG 5.2, etc.) and is read by every witness, P included (Vinc. 338.24). μεταληφώς is not recognised by Perseus morphology and turns up in no search. Jannaris §736 shows that reduplication was sometimes lost in later Greek, so reading 1 is not unthinkable as a Byzantine form, but nothing documents it for λαμβάνω, and no witness has it. The decisive findings are the unanimity of the witnesses and the absence of any attestation of μεταληφώς."
     }
    },
    {
@@ -2018,7 +2121,19 @@
       "apparatus": "τὴν σύμφρασιν Vincent at 338.7, grammatical conjecture; σύμφθαρσις conjecture; σύγκρασις suggested by Vincent 338 n. 1. The established footnote reads σύγκρασις, despite a different claim in edition 1’s note."
      }
     },
-    "editor_decision": "σύμφθαρσις … τὴν σύμφθαρσιν (conjecture; σύμφρασις P in the apparatus) — editor, 30.10.2026"
+    "editor_decision": "σύμφθαρσις … τὴν σύμφθαρσιν (conjecture; σύμφρασις P in the apparatus) — editor, 30.10.2026",
+    "reference_check": {
+     "research_group": 2,
+     "place": "place 09",
+     "evidence_supports": "reading 2",
+     "strength": "strong",
+     "relation_to_adopted": "agrees",
+     "findings": 10,
+     "verification": {
+      "confirmed": 10
+     },
+     "reasoning": "P is the only witness and reads σύμφρασις twice. But σύμφρασις is attested only as a grammarians' term for continuous speech or word-linking (LSJ, Pape, Choeroboscus, Bailly). σύμφθαρσις is (a) the author's own technical term for intervals fusing into one, used three times in all witnesses (Bas. 27.10, 32.10, 32.17), the first time in the sentence just before the insertion point of fr. 1, which elaborates that fusion; (b) a quadrivial term for unresolvable blending in Iamblichus, In Nic. pp. 80-81 Pistelli, set against σύνθεσις; (c) supported by Nicomachus' musical use of συνεφθαρμένων (Ench. 2) and by LSJ's συμφθείρω of sounds. P's scribe also garbles the same word in fr. 2 (Ms. ἐξυφθάρσεως), and Nicomachus' manuscripts show the very corruption into σύμφρασις (Hoche p. 115 app.). Vincent himself felt that a word for 'blending' was needed. The conjecture goes against the only witness, and fr. 1 may not be by the author. Still, the reference evidence clearly favours reading 2."
+    }
    },
    {
     "id": "27.18",
@@ -2055,6 +2170,18 @@
       "reasoning": "The actual transcriptions of Bas. 27.18, H 66r.22, Par. 23r.19 and V 78r.17 all read ὁδεύοντα. It agrees with διαστήματα. Edition 1’s note claims Bas. and V have ὁδεύονται, but their established witness lines contradict it.",
       "apparatus": "ὁδεύονται edition 1, unsupported by the witness lines."
      }
+    },
+    "reference_check": {
+     "research_group": 2,
+     "place": "place 10",
+     "evidence_supports": "reading 2",
+     "strength": "strong",
+     "relation_to_adopted": "agrees",
+     "findings": 7,
+     "verification": {
+      "confirmed": 7
+     },
+     "reasoning": "Every witness reads ὁδεύοντα. LSJ gives ὁδεύω as an active intransitive with διά + gen. (X. An. 7.8.8). Its passive is used only of roads or places, and no middle is listed. The author uses the active participle διοδεῦον for the same idea at 27.24. The sentence is a normal nominal clause with εἰσί omitted (Smyth §944), its participle coordinated with ἄμεσα and ἀσύνθετα, and the relative clause carries the finite verbs. A middle is attested for διοδεύω in one papyrus (DGE), so ὁδεύονται is not impossible. But it would be a conjecture without need, and Perseus has no instance of it."
     }
    },
    {
@@ -2092,6 +2219,19 @@
       "reasoning": "Bas., H, Par. and V read χορδῶν, coordinated with φθόγγων in the description of what the interval traverses.",
       "apparatus": "χορδίων edition 1, unattested."
      }
+    },
+    "reference_check": {
+     "research_group": 2,
+     "place": "place 11",
+     "evidence_supports": "reading 2",
+     "strength": "strong",
+     "relation_to_adopted": "agrees",
+     "findings": 8,
+     "verification": {
+      "confirmed": 7,
+      "corrected": 1
+     },
+     "reasoning": "Every witness reads χορδῶν. The author elsewhere always says χορδή (Bas. 29.25, 30.17; P fr. 2). The theorists explain the interval names with χορδαί (Nicomachus, Ench. 6: 'διὰ τεσσάρων χορδῶν ἀπόστασις'; Ench. 12) or φθόγγοι (Theon/Adrastus). The diminutive χορδίον is attested once (SIG 1002.10, LSJ) in the sense 'gut or tripe', and never for a string. Nothing in the reference works supports χορδίων."
     }
    },
    {
@@ -2129,6 +2269,20 @@
       "reasoning": "H, Par. and V give τελειούμενον, while Bas. τελούμενον can have been assimilated to the same word in the preceding line. The fuller verb suits completion of the octave.",
       "apparatus": "τελούμενον Bas."
      }
+    },
+    "reference_check": {
+     "research_group": 2,
+     "place": "place 12",
+     "evidence_supports": "reading 1",
+     "strength": "moderate",
+     "relation_to_adopted": "agrees",
+     "findings": 9,
+     "verification": {
+      "confirmed": 7,
+      "corrected": 1,
+      "could not open": 1
+     },
+     "reasoning": "Both verbs are good Greek, and the author uses τελέω elsewhere, so the lexica alone cannot decide. The deciding points are these. H, Par. and V independently read τελειούμενον. Bas.'s τελούμενον is explained as assimilation to τελούμενον in the line above (27.25). τελειόομαι 'be completed' is natural ancient and Byzantine usage (LSJ; Greek Monolingual: τελειῶ ΝΜΑ) and occurs in a music handbook (Alypius 1). The octave is linked with τέλειος in Nicomachus (Ench. 12). And alternating τελέω and τελειόω in adjacent clauses has a parallel (Ev. Jo. 19.28)."
     }
    },
    {
@@ -2166,6 +2320,18 @@
       "reasoning": "H, Par. and V have ἐπαναδιπλουμένων, compatible with αὖθις and repeated unfolding from the octave. Bas. alone omits ἐπ-.",
       "apparatus": "ἀναδιπλουμένων Bas."
      }
+    },
+    "reference_check": {
+     "research_group": 2,
+     "place": "place 13",
+     "evidence_supports": "reading 2",
+     "strength": "strong",
+     "relation_to_adopted": "agrees",
+     "findings": 6,
+     "verification": {
+      "confirmed": 6
+     },
+     "reasoning": "Both compounds are classical (LSJ), so reading 1 is lexically possible. But H, Par. and V agree on ἐπαναδιπλουμένων, and Bas.'s ἀναδιπλουμένων is a simple loss of a preverb. The decisive parallel is Aristotle, Probl. 15.3 (910b25-27): there ἐπαναδιπλόω, with πάλιν and with ἐκεῖθεν, is the verb for a series that runs to its limit (ten) and then repeats. That is exactly the situation of the eight notes of the octave in 'κἀκεῖθεν αὖθις ἐπαναδιπλουμένων'. LSJ's sense 'repeat yet again' also explains the pleonasm with αὖθις."
     }
    },
    {
@@ -2204,6 +2370,19 @@
       "reasoning": "Bas., H, Par. and V all use δὶς; the same names recur at 28.6–7 and in P fr. 2. As edition 2 argues, the surrounding examples and ratios identify an octave plus fourth or fifth, so δὶς can describe those intervals occurring again above the octave. Preserve the author’s recurring terminology.",
       "apparatus": "Xyl. in margin proposes διὰ πασῶν καὶ διὰ τεσσάρων / διὰ πέντε in place of δὶς διὰ τεσσάρων / διὰ πέντε; conjectures."
      }
+    },
+    "reference_check": {
+     "research_group": 3,
+     "place": "place 14",
+     "evidence_supports": "reading 2",
+     "strength": "weak",
+     "relation_to_adopted": "agrees",
+     "findings": 9,
+     "verification": {
+      "confirmed": 6,
+      "corrected": 3
+     },
+     "reasoning": "The theorists are unanimous (Euclid 11; Probl. XIX.34, 41; Cleonides 5; Gaudentius 9) that the octave+fourth and octave+fifth are correctly «διὰ πασῶν καὶ διὰ τεσσάρων/πέντε» and that the double fourth and double fifth are dissonant. On substance, reading 1 is right. But no witness has reading 1. The δὶς-nomenclature is defined by the author himself at 28.6-7, where it carries the argument, it recurs in P, and the 11:4, 12:5, 15:8 examples fit it. So the transmitted text is most likely authorial. Under the edition's rule of conjecture only where no witness is acceptable, the evidence favours printing reading 2 with a note giving the standard names and Xylander's conjecture. This turns on whether the editor corrects an author's technical error."
     }
    },
    {
@@ -2242,7 +2421,21 @@
       "apparatus": "βάρει H Par.; βαρεί Bas.; τοῦ ὀξέος τῷ βαρεῖ edition 2."
      }
     },
-    "editor_decision": "ὀξέος (normalised, as the author's τοῦ βαρέος at 25.3 and 30.2; ὀξέως of all witnesses in the orthographica) — editor, 30.10.2026"
+    "editor_decision": "ὀξέος (normalised, as the author's τοῦ βαρέος at 25.3 and 30.2; ὀξέως of all witnesses in the orthographica) — editor, 30.10.2026",
+    "reference_check": {
+     "research_group": 3,
+     "place": "place 15",
+     "evidence_supports": "undecided",
+     "strength": "weak",
+     "relation_to_adopted": "neutral",
+     "findings": 8,
+     "verification": {
+      "confirmed": 6,
+      "corrected": 2
+     },
+     "reasoning": "The place combines two separate questions. (a) ὀξέως/ὀξέος: Smyth §296, LSJ ἥμισυς, Jan's practice in Cleonides and the author's own βαρέος all point to normalizing to ὀξέος, as in reading 2. (b) βάρει/βαρεῖ: H and Par., the noun's musical sense in LSJ and DGE, and Theon's definition of antiphony with βάρος favour βάρει (reading 1). The author's matched adjectives at 28.23-24, Probl. XIX.17 and V favour βαρεῖ (reading 2). Neither printed string is clearly better; on these findings the best-supported text would be normalized ὀξέος with H's βάρει.",
+     "assessment": "Undecided between βαρεῖ (Bas. V) and βάρει (H Par.): βάρος has a musical sense, low pitch (LSJ s.v. IX; Theon p. 48 Hiller in the definition of antiphony); the paired adjectives at 28.23-24 favour βαρεῖ. ὀξέος confirmed (Smyth §296; Jan's practice in Cleonides). The apparatus note is corrected."
+    }
    },
    {
     "id": "29.5",
@@ -2279,6 +2472,18 @@
       "reasoning": "All four witnesses read προσωνυμίας, an intelligible genitive with ἔτυχε. No correction to the synonym is needed.",
       "apparatus": "προσηγορίας edition 2, unattested."
      }
+    },
+    "reference_check": {
+     "research_group": 3,
+     "place": "place 16",
+     "evidence_supports": "reading 1",
+     "strength": "strong",
+     "relation_to_adopted": "agrees",
+     "findings": 6,
+     "verification": {
+      "confirmed": 6
+     },
+     "reasoning": "All four witnesses read προσωνυμίας, and the word means «appellation, name» in Roman and Byzantine Greek (Sophocles; LSJ). Reading 2 has a good idiomatic parallel in Theon p. 77 and matches the author's usual προσηγορία. But it has no witness, and replacing a well-attested synonym would normalize the author's vocabulary."
     }
    },
    {
@@ -2317,6 +2522,19 @@
       "reasoning": "Revised after edition 2: the manuscript tradition repeatedly uses δὶς for the fourth or fifth occurring again in the second octave, including P fr. 2 and the lists at 28.6–12. The explicit 8½ and 9½ tones fix the intended compounds. Although deleting δὶς yields standard terminology, the recurrent usage is defensible.",
       "apparatus": "δὶς omitted twice by Xyl. in margin, conjectural deletion; retained Bas. H Par. V."
      }
+    },
+    "reference_check": {
+     "research_group": 3,
+     "place": "place 17",
+     "evidence_supports": "reading 1",
+     "strength": "moderate",
+     "relation_to_adopted": "against",
+     "findings": 6,
+     "verification": {
+      "confirmed": 6
+     },
+     "reasoning": "Unlike place 14, the δὶς here makes the sentence contradict itself: «δι' ὀκτὼ καὶ ἡμιτονίου» and «δι' ἐννέα καὶ ἡμιτονίου» are exactly the octave+fourth and octave+fifth of Cleonides and Gaudentius, under any sense of δὶς. The δὶς is a known volatile element in such names. Against this, the transmission is unanimous, and the intrusion may go back to the author's own conflation with his δὶς-names. So deletion is a conjecture, and the strength is moderate rather than strong.",
+     "assessment": "Not decisive: the researcher's argument that δὶς contradicts the tone counts under any sense fails under the author's own nomenclature (28.6-7), in which δὶς διὰ τεσσάρων is the fourth repeated in the second octave (notes 8-11): octave + that fourth = 1-11 = 8½ tones, as stated. Non-standard but consistent; to be explained in the translator's note."
     }
    },
    {
@@ -2356,6 +2574,19 @@
       "reasoning": "Revised after edition 2: H and V have δὶς in both items, and the same nonstandard terminology recurs throughout this author’s lists. The ratios 8:3 and 3:1 identify the octave compounds and do not require removing his δὶς. Bas. omits both; Par. omits the first only. Bas. may reflect correction, but this is an inference.",
       "apparatus": "first δὶς omitted Bas. Par.; second δὶς omitted Bas.; Bas. additionally has δὲ after the first τοῦ."
      }
+    },
+    "reference_check": {
+     "research_group": 3,
+     "place": "place 18",
+     "evidence_supports": "reading 1",
+     "strength": "moderate",
+     "relation_to_adopted": "against",
+     "findings": 5,
+     "verification": {
+      "confirmed": 5
+     },
+     "reasoning": "The ratios in the same sentence, 8:3 and 3:1, and the worked example 16:6 and 18:6 fix the intervals as octave+fourth and octave+fifth (Theon p. 56; Gaudentius 10; Nicomachus I.23; Euclid 12). The δὶς is therefore wrong in substance, and Par. lacks it in the first member. But the oldest witnesses (H, V) carry δὶς in both members, and reading 1's δὲ is found in Bas. only. The evidence supports reading 1 on δὶς, while an editor may prefer to drop the unattested δὲ.",
+     "assessment": "Not decisive, for the same reason as 29.8: octave + the second-octave fourth = 1-11 = 8:3 (διπλασιεπιμερής)."
     }
    },
    {
@@ -2393,6 +2624,20 @@
       "reasoning": "P as reported by Vincent has προλαμβανόμενον. It can mean the pitch taken first as the base for the ratios, contrasting with immediately adjacent notes. The author elsewhere uses προσλαμβανόμενος as a technical note name, but the transmitted phrase is intelligible. Print within ⟨⟨the P passage⟩⟩.",
       "apparatus": "προσλαμβανόμενον conjecture, attractive as the name of the lowest note."
      }
+    },
+    "reference_check": {
+     "research_group": 3,
+     "place": "place 19",
+     "evidence_supports": "reading 2",
+     "strength": "strong",
+     "relation_to_adopted": "against",
+     "findings": 8,
+     "verification": {
+      "confirmed": 7,
+      "corrected": 1
+     },
+     "reasoning": "προσλαμβανόμενος is the standard technical term (LSJ, Sophocles). The author uses it himself at 25.4-5, and the theorists (Cleonides 5, Gaudentius 16, 20) refer the composite consonances and the system's numbers to that note, as P's sentence does. προλαμβανόμενος has no musical sense or attestation. The variant is a simple loss of σ, with a documented parallel in the προσλαμβάνον/προλαμβάνον confusion in Theon p. 195.",
+     "assessment": "Strong and verified: προλαμβανόμενος is unattested as a note name (LSJ, Sophocles, the theorists); προσλαμβανόμενος is the author's term (25.4-5), and Cleonides Isag. 5 refers the composite consonances ἀπὸ προσλαμβανομένου, as P's sentence does. To the editor."
     }
    },
    {
@@ -2430,6 +2675,18 @@
       "reasoning": "P as printed by Vincent has plural πεποίηνται, agreeing with τὰ ἄμεσα καὶ μεταξὺ τούτων … διαστήματα. Print within ⟨⟨the P passage⟩⟩.",
       "apparatus": "πεποίηται edition 2, unattested."
      }
+    },
+    "reference_check": {
+     "research_group": 4,
+     "place": "place 20",
+     "evidence_supports": "reading 1",
+     "strength": "strong",
+     "relation_to_adopted": "agrees",
+     "findings": 5,
+     "verification": {
+      "confirmed": 5
+     },
+     "reasoning": "Reading 1 is P's own text: Vincent prints it without a 'Ms.' note, although he notes every Ms. difference around it. It is also parallel to ἔχουσι in the same μέν/δέ sentence and to κίρνανται in the next. Jannaris §§1170-1171 shows that a plural verb with a neuter plural subject is normal in post-classical Greek. Smyth §959 shows that even Attic allows it when several items are meant. Reading 2 is a classicising normalisation that no witness has, and the edition's principles exclude it."
     }
    },
    {
@@ -2467,6 +2724,19 @@
       "reasoning": "P is reported as ἐξυφθάρσεως at both occurrences, not Vincent’s ἐξ φθάρσεως. The former cannot be confidently construed; the author’s repeated ἐκ συμφθάρσεως for the formation of one interval at Bas. 27.10, 32.10–11 and 32.17 makes this conjecture particularly apt. Vincent’s διαστημάτων also replaces P διαστήματα and is needed for the syntax. Both substitutions are marked as conjectural inside the P passage.",
       "apparatus": "ἐξυφθάρσεως P (Vinc. 340 n. 2); ἐξ φθάρσεως Vincent; διαστήματα P (340 n. 3), διαστημάτων Vincent."
      }
+    },
+    "reference_check": {
+     "research_group": 4,
+     "place": "place 21",
+     "evidence_supports": "reading 1",
+     "strength": "strong",
+     "relation_to_adopted": "agrees",
+     "findings": 6,
+     "verification": {
+      "corrected": 2,
+      "confirmed": 4
+     },
+     "reasoning": "The deciding fact is the author's own usage. In every witness he names these very intervals (τριδίεσις, τριημιτόνιον, διτόνιον, τριτόνιον) as one interval «ἐκ συμφθάρσεως» (Bas. 27.10, 32.10, 32.17), and P fr. 2 repeats that list and the «εἰς ἓν» idea. σύμφθαρσις is an established mixture-theory term (LSJ; Alexander, Mixt. 216) and fits κίρνανται. The Ms. ἐξυφθάρσεως is ἐκ συμφθάρσεως with ξ written for κσ and the μ lost. Vincent's ἐξ φθάρσεως breaks the rule for ἐκ before consonants (Smyth §136). It also rests on a word attested only marginally (Bailly) and gives weaker sense."
     }
    },
    {
@@ -2504,6 +2774,19 @@
       "reasoning": "Vincent 340 n. 4 reports P κεκρυμμένων; components can intelligibly be described as latent within the composite intervals. Vincent’s κεκραμένων echoes κίρνανται, but is not required. Print within ⟨⟨the P passage⟩⟩.",
       "apparatus": "κεκραμένων Vincent, conjecture."
      }
+    },
+    "reference_check": {
+     "research_group": 4,
+     "place": "place 22",
+     "evidence_supports": "both acceptable",
+     "strength": "weak",
+     "relation_to_adopted": "neutral",
+     "findings": 6,
+     "verification": {
+      "confirmed": 5,
+      "corrected": 1
+     },
+     "reasoning": "Both readings give good sense. κεκραμένων (reading 1) has the author's own συγκεκραμένον (Bas. 32.12), κίρνανται in the same sentence, and the theorists' κρᾶσις term (Cleonides; Bacchius and Aelianus via Jan) behind it. κεκρυμμένων (reading 2) is P's actual reading. It is idiomatic with ἐν (LSJ s.v. κρύπτω) and fits the author's account of the fused interval holding its parts 'in potentiality' (Bas. 27.12-14). In context it is the lectio difficilior: a scribe facing κίρνανται would more likely write κεκραμένων than the reverse. The lexical evidence alone does not decide. Under the edition's rule that conjecture is allowed only where no witness gives an acceptable text, the balance tips toward keeping reading 2 and recording κεκραμένων as Vincent's conjecture."
     }
    },
    {
@@ -2541,6 +2824,19 @@
       "reasoning": "P has μονάδος, ὅτι and τοῦτο, according to Vincent 342 nn. 1–3. The singular μονάδος conflicts with plural τεμνομένων; Vincent’s plural is a minimal grammatical correction, marked here. P’s causal ὅτι and τοῦτο are intelligible: the arithmeticians do not accept division of the unit.",
       "apparatus": "μονάδος P; μονάδων Vincent, conjecture; ὅ, τι … οὔ πω Vincent, against ὅτι … τοῦτο P."
      }
+    },
+    "reference_check": {
+     "research_group": 4,
+     "place": "place 23",
+     "evidence_supports": "reading 1",
+     "strength": "strong",
+     "relation_to_adopted": "agrees",
+     "findings": 6,
+     "verification": {
+      "confirmed": 3,
+      "corrected": 3
+     },
+     "reasoning": "Reading 1 is the text of P as Vincent himself reports it (Ms. ὅτι, Ms. τοῦτο). It gives exactly the doctrine of the indivisible unit that the arithmeticians uphold (Plato, Rep. 525d-e; Theon pp. 18-19 and 70 Hiller), in a passage where Theon applies it to musical ratios. ὅτι μή with the indicative in a causal clause is well attested in post-classical Greek (Jannaris §1818). Reading 2 needs two conjectures, one not palaeographic, and produces an anomalous double negative (Smyth §2760)."
     }
    },
    {
@@ -2578,6 +2874,18 @@
       "reasoning": "H 69r.19 has γοερώτερον, a regular comparative of γοερός alongside παθητικώτερον. Bas., Par. and V have γοέτερον; H offers the better form without conjecture.",
       "apparatus": "γοέτερον Bas. Par. V."
      }
+    },
+    "reference_check": {
+     "research_group": 4,
+     "place": "place 24",
+     "evidence_supports": "reading 1",
+     "strength": "strong",
+     "relation_to_adopted": "agrees",
+     "findings": 6,
+     "verification": {
+      "confirmed": 6
+     },
+     "reasoning": "The deciding findings are: H, the oldest witness, reads γοερώτερον; it is the regular comparative of γοερός (Smyth §314); and the theorists use γοερός for exactly this ethos. Aristides Quintilianus calls the chromatic genus «ἥδιστόν τε καὶ γοερόν» (p. 92.26 W.-I.), as against the austere diatonic, which matches our text's contrast. γοέτερον is not a Greek word. It is explained as a haplography of -ρω- shared by Par., V and Bas."
     }
    },
    {
@@ -2615,6 +2923,19 @@
       "reasoning": "Bas., H, Par. and V all have παιήων, a legitimate form for a paean. H, Par. and V also support ὑμέναιος against the misprint ὑμεραῖος in Bas.",
       "apparatus": "παιών edition 2; ὑμεραῖος Bas."
      }
+    },
+    "reference_check": {
+     "research_group": 4,
+     "place": "place 25",
+     "evidence_supports": "reading 1",
+     "strength": "strong",
+     "relation_to_adopted": "agrees",
+     "findings": 4,
+     "verification": {
+      "confirmed": 3,
+      "wrong": 1
+     },
+     "reasoning": "All four witnesses (H, Par., V, Bas.) read παιήων. It is a genuine form of the word, the Homeric form used of the paean-song itself (LSJ, Frisk). παιών is a legitimate Attic form but is not transmitted here, and even the theorists' own form is παιάν (Cleonides). Under the edition's principles (do not correct the author's usage; conjecture only where no witness gives an acceptable text), reading 2 is an unwarranted normalisation."
     }
    }
   ],
@@ -2960,7 +3281,8 @@
     ]
    }
   ],
-  "cross_check": "The same 25 places, anonymised and with both editions' arguments rewritten in one neutral style, were judged independently by GPT-6 Astra (ultra) and then by GPT-6.1 Terra (ultra) in Codex, each deciding first from the witnesses alone. All four judges agree at 20 places; at 3 more (16th, P2-symphthar, P2-end) GPT-6.1 Terra gives the same reading in its own critical notation. The GPT judges differ at 2 places, decided by the editor: P fr. 1 σύμφθαρσις (three judges; Terra keeps P's σύμφρασις, low confidence) and 28.18 ὀξέος (Claude judges; both GPT judges keep ὀξέως). Both decisions confirm the text. The 24 : 1 result of the Claude judges is therefore not a family effect."
+  "cross_check": "The same 25 places, anonymised and with both editions' arguments rewritten in one neutral style, were judged independently by GPT-6 Astra (ultra) and then by GPT-6.1 Terra (ultra) in Codex, each deciding first from the witnesses alone. All four judges agree at 20 places; at 3 more (16th, P2-symphthar, P2-end) GPT-6.1 Terra gives the same reading in its own critical notation. The GPT judges differ at 2 places, decided by the editor: P fr. 1 σύμφθαρσις (three judges; Terra keeps P's σύμφρασις, low confidence) and 28.18 ὀξέος (Claude judges; both GPT judges keep ὀξέως). Both decisions confirm the text. The 24 : 1 result of the Claude judges is therefore not a family effect.",
+  "reference_check": "30-31.10.2026: the 25 places were researched in lexica, grammars, the theorists and handbooks by four researchers (Claude Opus 5.5), readings anonymised, then every cited source was opened by four verifiers: 150 citations confirmed, 22 corrected in detail, 1 wrong, 1 not reachable. The evidence agrees with the adopted reading at 18 places, is neutral at 2, and leans against it at 5 (25.6, 25.7, 29.8, 29.14, P2-proslamb); of these only P2-proslamb is decisive in my assessment and goes to the editor. Package and results in reference-check/."
  },
  "text": "|23.1|Τῆς μουσικῆς |23.2|σύνοψις ἠκριβωμένη\n\n|23.3|Μουσικὴν οἱ παλαιοὶ συνέ|23.4|χειν εἶπον τὸ πᾶν· οὐδὲν |23.5|γὰρ τῶν ὄντων συμμετρί|23.6|ας ἄτερ καὶ ἀναλογίας ἐστίν. |23.7|ἀλλ’ οὐδέ τι τῶν γινομένων, |23.8|μὴ μετὰ συμμετρίας τῆς προσηκούσης καὶ |23.9|ἀναλογίας γινόμενον, καλῶς ἄν ποτε γένοι|23.10|το, κἂν τεχνητὸν εἴη, κἂν φυσικόν, κἂν αἰσθή|23.11|σει ληπτόν, κἂν περὶ μόνην νόησιν θεωρούμενον. |24.1|ἡ δὲ μουσικὴ αὐτοσυμμετρία τίς ἐστι καὶ |24.2|ἀναλογία, τὸ πᾶν, οἷα τοῦ παντὸς ἁρμονία |24.3|τυγχάνουσα. τάχα δ’ ἄν τις καὶ τὸ θεῖον αὐ|24.4|τὸ οὐκ ἀπεικότως ἁρμονίαν ἑαυτοῦ τε καὶ τοῦ |24.5|παντὸς ὀνομάσοι, ἐν ᾧ τὸ πᾶν συναρμολο|24.6|γούμενον καὶ συμβιβαζόμενον εὖ τε καὶ ὡς |24.7|ἄριστα διαφαίνεται ἔχον. τοσούτου τὴν μου|24.8|σικὴν ἠξίωσαν θαύματος. ἧς ἐν ἅπασιν οὕ|24.9|τω θεωρουμένης καὶ πάντα διεπούσης καὶ |24.10|κοσμούσης, καὶ ἡδονὴν μὲν τῇ αἰσθήσει, ἁρ|24.11|μονίαν δὲ τῇ φύσει, μακαριότητα δὲ τῇ νοή|24.12|σει χαριζομένης, περὶ τῆς ἐν αἰσθήσει μουσικῆς, |24.13|μᾶλλον δὲ τῆς ἐν μιᾷ τῶν αἰσθήσεων τῇ ἀκοῇ |24.14|θεωρουμένης, ἐν ἐπιτόμῳ διαληψόμεθα.\n\n|24.15|Φθόγγος ἐστὶ φωνῆς ἀδιαστάτου ἐναρμό|24.16|νιος τάσις. διάστημα δὲ φθόγγων ἡ πρὸς |24.17|ἀλλήλους ποιὰ σχέσις. σύστημα δὲ ποιὰ |24.18|διαστημάτων περιοχή. ἁρμονία δὲ συστη|24.19|μάτων σύνταξις.\n\nὉ μὲν οὖν φθόγγος ἀδιά|24.20|στατός ἐστιν, ὡς ἡ ἐν γεωμετρίᾳ στιγμή· ἐναρ|24.21|μόνιος δὲ λέγεται διὰ τὸ οὕτως ἐκπεφωνῆ|24.22|σθαι ὡς δύνασθαι καὶ μεθ’ ἑτέρου φθόγγου ἐναρμο|24.23|σθῆναι. εἰ γὰρ μὴ οὕτως ἐκφωνηθείη, ἀπηχής |24.24|ἐστι φθόγγος, οὐκ ἐναρμόνιος· οὐδ’ ἂν φθόγγος |24.25|ὅλως καλοῖτο, ἀλλὰ ψόφος τις ἄλλως ἐκπε|25.1|φωνημένος καὶ πρὸς ἁρμονίαν οὐκ εὔχρη|25.2|στος. Προσηγορίαι δὲ φθόγγων διάφοροι, τῇ |25.3|ἀπὸ τοῦ βαρέος ἐπὶ τὸ ὀξὺ προόδῳ καὶ τάξει |25.4|τὰς προσηγορίας λαμβάνοντες· προσλαμ|25.5|βανόμενος, ὑπάτη ὑπάτων, παρυπάτη |25.6|ὑπάτων, ὑπάτη διάτονος, ὑπάτη μέσων, |25.7|παρυπάτη μέσων, ⟨διάτονος μέσων,⟩ μέση μόνως, παράμε|25.8|σος, τρίτη διεζευγμένη, διάτονος διεζευγμέ|25.9|νη, νήτη διεζευγμένη, τρίτη ὑπερβολαίων, |25.10|διάτονος ὑπερβολαίων, νήτη ὑπερβολαίων. |25.11|διὰ τούτων ἀπαρτίζεται τὸ ἐν πεντεκαι|25.12|δεκαχόρδῳ ἑκκαιδεκάχορδον, τοῦ πέρατος |25.13|τοῦ ὀκταχόρδου εἰς ἀρχὴν τοῖς μετέπειτα |25.14|λαμβανομένου κατὰ συνέχειαν. ὃν γὰρ λό|25.15|γον ὁ πρῶτος ἔχων φθόγγος πρὸς τὸν ὄγ|25.16|δοον ἀναφαίνεται, τὸν αὐτὸν καὶ ὁ ὄγδοος |25.17|πρὸς τὸν πεντεκαιδέκατον ἔχει. καὶ τὰ μὲν |25.18|περὶ φθόγγων ἐν τούτοις.\n\n|25.19|Τῶν δὲ διαστημάτων ἐλάχιστον μὲν ἡ δίε|25.20|σις· εἶτα τὸ ἡμιτόνιον, διπλῆν ἔχον ἐπὶ τὸ ὀ|25.21|ξὺ παραύξησιν τῆς διέσεως· εἶτα ὁ τόνος, δι|25.22|πλοῦν ἔχων τὸ ἡμιτόνιον, τὸν ἐπόγδοον διι|25.23|στάμενος λόγον, ὡς ὁ ἔνατος ἀριθμὸς πρὸς |25.24|τὸν ὄγδοον, ὡς εἶναι τὸ ἡμιτόνιον ὅσον ὀκτὼ |25.25|ἥμισυ, τὴν δὲ δίεσιν ὅσον ὀκτὼ τέταρτον. |26.1|εἰ γὰρ καὶ ἡ μονὰς οὐ τέμνεται κατὰ τοὺς ἀριθ|26.2|μούς, ἀλλ’ ἡ ἐν ὕλῃ βλεπομένη μονὰς τέμνε|26.3|ται γεωμετρικῶς. τὴν γὰρ ἐπόγδοον δια|26.4|σώζουσαν λόγον νευρὰν δυνατὸν ὑποτεμεῖν |26.5|εἰς ἡμιεπόγδοον, ὅπερ ἐστὶν ἡμιτόνιον, καὶ |26.6|ταύτην πάλιν ὑποτεμεῖν δευτέρως εἰς |26.7|δίεσιν. ἡ γὰρ γεωμετρία καὶ ἐλάττονα ἀπὸ |26.8|τῆς μείζονος κατὰ πάντα τρόπον ἀφαιρεῖ|26.9|ται εὐθεῖαν καὶ τῇ ἐλάττονι προστίθησι μεί|26.10|ζονα· ἔνθεν καὶ ἅπαν σχῆμα καὶ παραυξῆ|26.11|σαι κατὰ τὸ δοκοῦν μῆκος καὶ ἀγαγεῖν εἰς |26.12|μείωσιν δύναται. τῇ δὲ ἀριθμητικῇ τοῦτο ἀ|26.13|δύνατον. αὐτίκα τὸ δοθὲν τετράγωνον ἡ |26.14|μὲν ἀριθμητικὴ εἰς ἴσα τεμεῖν τετράγωνα |26.15|ἢ διπλασιάσαι τὸ δεδομένον οὐ δύναται· |26.16|τὸν γὰρ ἑξκαιδέκατον ἀριθμὸν τετράγω|26.17|νον ὄντα οὔτε εἰς ἴσα δυνατὸν διαιρεθῆναι |26.18|τετράγωνα (τὰ γὰρ ὀκτὼ τετραγωνισθῆ|26.19|ναι ἀδύνατον) οὔτε εἰς ἕτερον διπλασια|26.20|σθῆναι τετράγωνον (τὸν γὰρ τριακοντα|26.21|δύο ἀριθμὸν τετραγωνισθῆναι ἀμήχανον)· |26.22|τῇ γεωμετρίᾳ δὲ τοῦτο ῥᾴδιον. τὴν γὰρ τοῦ |26.23|δοθέντος τετραγώνου πλευρὰν εἰς διάμε|26.24|τρον ὁ γεωμέτρης μεταλαβὼν καὶ τετρά|26.25|γωνον αὐτῇ περιθεὶς ἥμισυ τοῦ δοθέντος τε|27.1|τραγώνου ποιεῖ· καὶ τὴν διάμετρον πάλιν τοῦ δο|27.2|θέντος μετειληφὼς εἰς πλευρὰν τὸ δοθὲν δι|27.3|πλασιάζει τετράγωνον. ταύτῃ τοι καὶ ὁ ἐπόγ|27.4|δοος τοῦ τόνου λόγος εἰς ἡμιτόνιον διαιρεῖται καὶ |27.5|αὖθις εἰς δίεσιν. παραυξήσει δὲ τούτων καὶ ἕτε|27.6|ρα ἀσύνθετα διαστήματα γίνεται· τριδίεσις, |27.7|τριημιτόνιον, διτόνιόν τε καὶ τριτόνιον, καὶ |27.8|ὡς ἄν τις βούλοιτο καὶ ὁ ῥυθμὸς ἐπιτρέψῃ, |27.9|ὡς ἐν τοῖς ἑπομένοις γνωσθήσεται.\n\nἈσύνθε|27.10|τα δὲ εἴρηται, τῷ ὡς ἓν ἐκ συμφθάρσεως διὰ |27.11|τριῶν διέσεων ἢ τριῶν ἡμιτονίων ἢ καὶ διαφό|27.12|ρων τόνων μέλος συναπαρτίζεσθαι, δύναμιν |27.13|μὲν ἔχον διαφόρων διαστημάτων, δι’ ἑνὸς δὲ |27.14|διαστήματος ἀπηχούμενον. ⟨⟨εἰ γὰρ καὶ τοῖς ἀριθμοῖς σύμφθαρσις οὐκ ἐγγίνεται διὰ τὸ τῶν ἀριθμῶν ἄυλον ἀκίνητόν τε καὶ ἄρρευστον, ἀλλ’ ἐν τοῖς μέλεσι, διὰ τὸ εἰς ὕλην κατάγεσθαι, περὶ δὲ τὴν ὕλην ὁρᾶσθαι συνέχειαν, ἐντεῦθεν ἐγγίνεται καὶ τὴν σύμφθαρσιν εἶναι· καὶ τὸ περὶ δύο νευρὰς ἀποτεινόμενον μῆκος ἐν μιᾷ συναιρεῖται κατὰ συνέχειαν, ὥσπερ ἐκ τοῦ ἐναντίου καὶ τὸ παρὰ μίαν πάλιν εἰς πολλὰς διαιρεῖται κατὰ συνέχειαν. ταύτῃ τοι καὶ ἡ γεωμετρία καὶ ἐλάττονα ἀπὸ τῆς μείζονος κατὰ πάντα τρόπον ἀφαιρεῖται εὐθεῖαν καὶ τῇ ἐλάττονι προστίθησι καὶ πεποίηται μείζονα· ἔνθα καὶ ἅπαν σχῆμα παραυξῆσαι κατὰ τὸ δοκοῦν μῆκος καὶ ἀπομειῶσαι δύναται, ὅπερ καὶ ἀριθμητικὸν ἀνεγχώρητον. αὐτίκα τὸ δοθὲν τετράγωνον ἡ μὲν ἀριθμητικὴ εἰς ἴσα τέμνειν τετράγωνα ἢ διπλασιάσαι τὸ δεδομένον οὐ δύναται· οἷον τὸν ἑξκαιδέκατον ἀριθμὸν τετράγωνον ὄντα οὔτε εἰς ἴσα δυνατὸν διαιρεθῆναι τετράγωνα (τὰ γὰρ ὀκτὼ τετραγωνισθῆναι ἀδύνατον) οὔτε εἰς ἕτερον διπλασιασθῆναι τετράγωνον· τὸν γὰρ τριακονταδύο ἀριθμὸν τετραγωνισθῆναι ἀμήχανον. τῇ γεωμετρίᾳ δὲ τοῦτο ῥᾴδιον· τὴν γὰρ τοῦ δοθέντος τετραγώνου πλευρὰν εἰς διάμετρον γεωμέτρης λαβὼν καὶ τετράγωνον αὐτὴν περιθεὶς ἥμισυ τοῦ δοθέντος τετραγώνου ποιεῖ, καὶ τὴν διάμετρον πάλιν τοῦ δοθέντος μετειληφὼς εἰς πλευρὰν τὸ δοθὲν διπλασιάζει τετράγωνον. ἀλλὰ τὸ μὲν περὶ διαστημάτων, καὶ ὅτι ἐκ παραυξήσεως τῶν προτέρων διαστημάτων ἕτερα ἀσύνθετα διαστήματα γίνεται, καὶ διὰ τί ἀσύνθετα εἴρηται, ἱκανῶς ἤδη εἴρηται.⟩⟩\n\nΠαρὰ δὲ ταῦτα |27.15|ἕτερα διαστήματα, τὸ διὰ τεσσάρων καὶ διὰ |27.16|πέντε καὶ διὰ πασῶν. ταῦτα δὲ οὐκ ἄμε|27.17|σα οὐδ’ ἀσύνθετα, ἀλλὰ διὰ μέσων τῶν εἰρη|27.18|μένων πάντων διαστημάτων ὁδεύοντα, ἃ |27.19|τῷ μὲν λόγῳ τῆς ἀπὸ τοῦ πρώτου φθόγγου ἐ|27.20|πὶ τὸν τελευταῖον ἠχῆς διαστήματα ὀνομά|27.21|ζονται, τῇ δὲ τῶν διὰ μέσου φθόγγων κατατεταγ|27.22|μένῃ ποσότητι τὰς τοιάσδε προσηγορίας ἐδέ|27.23|ξαντο· τὸ διὰ τεσσάρων ὡς διὰ τεσσάρων φθόγ|27.24|γων, εἴτ’ οὖν χορδῶν, διοδεῦον καὶ περαινόμε|27.25|νον, καὶ τὸ διὰ πέντε ὡς διὰ πέντε τελούμενον, |28.1|καὶ τὸ διὰ πασῶν ὡς δι’ ὀκτὼ τελειούμενον. |28.2|διὰ πασῶν δὲ τὸ δι’ ὀκτὼ λέγεται ὡς ἐν τῷ |28.3|ὀκταχόρδῳ τῶν ὅλων διαστάσεων συμπλη|28.4|ρουμένων κἀκεῖθεν αὖθις ἐπαναδιπλουμένων, |28.5|ὡς καὶ ἀπ’ αὐτῆς δηλοῦται τῆς φερωνυμίας |28.6|τῶν κλήσεων· δὶς γὰρ διὰ τεσσάρων καὶ δὶς |28.7|διὰ πέντε καὶ δὶς διὰ πασῶν αἱ μετὰ ταῦ|28.8|τα διαστάσεις καλοῦνται.\n\nΣυμφωνεῖ δὲ ἡ |28.9|μὲν διὰ τεσσάρων διάστασις καὶ ἡ διὰ πέν|28.10|τε κατὰ παράφωνον, ἡ δὲ διὰ πασῶν καὶ |28.11|ἡ δὶς διὰ τεσσάρων καὶ ἡ δὶς διὰ πέντε |28.12|καὶ ἡ δὶς διὰ πασῶν κατὰ ἀντίφωνον. |28.13|Διαφέρει δ’ ἀλλήλων τό τε παράφωνον καὶ |28.14|ἀντίφωνον, τῷ τὸ μὲν παράφωνον ἀνισοχρό|28.15|νως συμφωνεῖν, ἠπίως πως καὶ εὐρύθμως |28.16|διαδεχομένων ἀλλήλοις τῶν φθόγγων ἀναλο|28.17|γίαις καὶ λόγοις καθ’ ὁμαλότητα· τὸ δὲ ἀν|28.18|τίφωνον ἰσοχρόνως, τοῦ ὀξέος τῷ βαρεῖ κα|28.19|τὰ ταὐτὸν συμφωνοῦντος, οἷον τοῦ ὀγδόου |28.20|τῷ πρώτῳ, τοῦ ἑνδεκάτου τῷ τετάρτῳ, τοῦ |28.21|δωδεκάτου τῷ πέμπτῳ καὶ τοῦ πεντεκαι|28.22|δεκάτου τῷ ὀγδόῳ, συνανιόντων ἢ συγκα|28.23|τιόντων ἐν ταῖς τάσεσιν ἢ ἀνέσεσι τῶν βα|28.24|ρέων τοῖς ὀξέσιν ἢ τῶν ὀξέων τοῖς βαρέσι κα|28.25|τὰ ἀνάλογον.\n\nὉ δὲ τόνος καὶ τὸ ἡμιτόνιον |29.1|καὶ ἡ δίεσις, καθ’ ἑαυτὰ θεωρούμενα, ἀρχὴ |29.2|μὲν συμφωνίας, οὔπω δὲ συμφωνία. συμ|29.3|πληροῦται δὲ τὸ μὲν διὰ τεσσάρων ἐκ δύο |29.4|τόνων καὶ ἡμιτονίου καὶ μικρόν τι πρός, ὃ |29.5|καὶ διέσεως ἧττον ὂν προσωνυμίας οὐκ ἔτυ|29.6|χε· τὸ δὲ διὰ πέντε ἐκ τριῶν καὶ ἡμιτονίου· |29.7|τὸ δὲ διὰ πασῶν δι’ ἕξ· τὸ δὲ διὰ πασῶν |29.8|καὶ δὶς διὰ τεσσάρων δι’ ὀκτὼ καὶ ἡμιτο|29.9|νίου· τὸ δὲ διὰ πασῶν καὶ δὶς διὰ πέντε |29.10|δι’ ἐννέα καὶ ἡμιτονίου· τὸ δὲ δὶς διὰ πα|29.11|σῶν διὰ δώδεκα.\n\nΛόγος δέ, τοῦ μὲν διὰ |29.12|τεσσάρων ἐπίτριτος· τοῦ δὲ διὰ πέντε ἡ|29.13|μιόλιος· τοῦ δὲ διὰ πασῶν διπλάσιος· τοῦ |29.14|διὰ πασῶν καὶ δὶς διὰ τεσσάρων διπλα|29.15|σιεπιμερής· τοῦ διὰ πασῶν καὶ δὶς διὰ πέντε |29.16|τριπλάσιος. οἷον, ὡς ἐπὶ ὑποδείγματος, |29.17|κείσθω πρῶτος ἐν ἀριθμοῖς ὅρος ὁ ἕκτος |29.18|ἡμῖν ἀριθμός· πρὸς ὃν πάντως ἐπίτριτος |29.19|ὁ ὄγδοος, ἡμιόλιος ὁ ἔνατος, διπλάσιος ὁ δω|29.20|δέκατος, διπλασιεπιμερὴς ὁ ἑξκαιδέκα|29.21|τος, τὸν ἕκτον δὶς ἔχων καὶ δύο μέρη αὐτοῦ, |29.22|τριπλάσιος ὁ ὀκτωκαιδέκατος, τετραπλά|29.23|σιος ὁ εἰκοστὸς τέταρτος.\n\n⟨⟨Σκοπητέον δὲ ὡς τὰ μὲν οὖν ἔμμεσα διαστήματα, οἷον τὸ διὰ τεσσάρων, τὸ διὰ πέντε μέλος, τὸ διὰ πασῶν, τὸ δὶς διὰ τεσσάρων, τὸ δὶς διὰ πέντε καὶ τὸ δὶς διὰ πασῶν, πρὸς τὸν προλαμβανόμενον φθόγγον τῶν λόγων ἔχουσι τὴν ἀναφοράν· τὰ δὲ ἄμεσα καὶ μεταξὺ τούτων κείμενα, οἷον ⟨ἡ⟩ δίεσις, τὸ ἡμιτόνιον καὶ ὁ τόνος, πρὸς τοὺς πρὸ αὐτῶν ἐγγὺς φθόγγους τὴν ποιὰν τῶν λόγων ἕξιν πεποίηνται· ὡς δὲ καὶ τὰ ἐκ συμφθάρσεως διαστημάτων πλειόνων μεγεθυνόμενα διαστήματα, οἷον ἡ τριδίεσις, τὸ τριημιτόνιον, τὸ διτόνιόν τε καὶ τριτόνιον καὶ εἴ τι ἕτερον τοιουτότροπον εἶδος, τῶν ἐν αὐτοῖς κεκρυμμένων διαστημάτων πρὸς τοὺς ἐγγὺς φθόγγους πρότερον λογοθετηθέντων, οὕτως εἰς ἓν διάστημα ὡς ἐκ συμφθάρσεως κίρνανται. κατὰ σειρὰν μὲν γὰρ οἱ τῶν ἀμέσων διαστημάτων ἔκκεινται λόγοι, καθ’ ὑπερβατὸν δὲ οἱ τῶν ἐμμέσων, ὥσπερ ἐπὶ τῶν συλλογισμῶν αἱ προτάσεις καὶ τὰ συμπεράσματα· αἱ μὲν γὰρ προτάσεις ἐφεξῆς κατὰ σειρὰν οἷον πλέκονται, τὰ δὲ συμπεράσματα καθ’ ὑπερβατὸν τοὺς ἄκρους τῶν ὅρων συνδέουσιν. οὕτως οὖν ἔχει περὶ τοὺς λόγους καὶ τὰ τῆς μουσικῆς διαστήματα, τοῦ μὲν τῶν ἐμμέσων διαστημάτων λόγου καθ’ ὑπερβατὸν πρὸς τοὺς ἄκρους παραβαλλομένου τῶν φθόγγων, τοῦ δὲ τῶν ἀμέσων καθεξῆς πρὸς τοὺς ἐγγὺς ἀλλήλων φθόγγους συγκρινομένων, τῆς ἀπὸ τῶν ἐλαττόνων πρὸς τοὺς μείζονας προσαυξήσεως κατὰ σειρὰν προϊούσης, μονάδων μὴ τεμνομένων, ὅτι μηδὲ τοῖς ἀριθμητικοῖς τοῦτο δέδοκται.⟩⟩\n\nΕἰδέναι μέντοι |29.24|χρή, ὡς οὐ πρὸς τὸν ἀριθμὸν τῶν φθόγγων ἢ |29.25|τῶν χορδῶν οἱ λόγοι τῶν διαστάσεων κρίνον|30.1|ται, ἀλλὰ πρὸς τὴν ἐπίτασιν τῆς ἠχῆς τῆς ἀπὸ |30.2|τοῦ βαρέος πρὸς τὸ ὀξύτερον. ἐπεί τοί γε τὸ |30.3|διὰ πέντε διάστημα λόγον ἡμιόλιον ἔχον, |30.4|οὐ πρὸς τὴν ὑπεροχὴν τῆς τῶν φθόγγων πο|30.5|σότητος, ἣν ἔχει πρὸς τοὺς πρὸ αὐτοῦ συγ|30.6|κρινόμενος, φαίνεται ἡμιόλιος· πρὸς μὲν |30.7|γὰρ τὸν πρῶτον φθόγγον πενταπλασίων |30.8|εὑρίσκεται, πρὸς δὲ τὸν δεύτερον διπλα|30.9|σιημιόλιος, πρὸς δὲ τὸν τρίτον ἐπιδιμε|30.10|ρής, πρὸς δὲ τὸν τέταρτον ἐπιτέταρτος, |30.11|ἐπ’ οὐδενὶ δὲ δείκνυται ἡμιόλιος. πρὸς |30.12|τὴν ἐπίτασιν τοιγαροῦν τῆς ὀξύτητος, οὐ |30.13|πρὸς τὸν ἀριθμὸν τῶν φθόγγων, κρίνεται ἡ|30.14|μιόλιος. τὸ δ’ αὐτὸ καὶ περὶ τοὺς λοιποὺς |30.15|τῶν λόγων νοήσομεν. ἐξεύρηνται δὲ οἱ τοι|30.16|οῦτοι τῶν διαστάσεων λόγοι ἀπὸ τῆς διαφο|30.17|ρᾶς τοῦ μήκους τῶν χορδῶν, ἢ τῆς παχύτη|30.18|τος, ἢ τῆς τάσεως γινομένης κατὰ τὴν στρο|30.19|φὴν τῶν κολλάβων, ἢ γνωριμώτερον ἀπὸ τῆς |30.20|ἐξαρτήσεως τῶν βαρῶν· ἐπὶ δὲ τῶν ἐμ|30.21|πνευστῶν, ἢ ἀπὸ τῆς εὐρύτητος τῶν κοιλι|30.22|ῶν, ἢ ἀπὸ τῆς ἐπιτάσεως τοῦ πνεύματος |30.23|καὶ ἀνέσεως.\n\n⟨⟨Ἰστέον δὲ ὡς ἐπὶ μὲν τῆς τάσεως ἢ τῆς ἐξαρτήσεως ἡ ἐπὶ πλέον ἐπίτασις καὶ ἡ ἐπὶ μᾶλλον βαρύτης τὴν ἐπὶ ὀξὺ μελῳδίαν ἐργάζεται· ἐπὶ δὲ τῆς παχύτητος τῶν νευρῶν ἢ τοῦ μήκους τούτων ἢ τῶν αὐλῶν ἢ τῆς τῶν τρημάτων διατάσεως τὸ πλεονάζον τούτων τινὸς †ἀμφότερον† τῆς μελῳδίας εἶδος συνίστησι.⟩⟩\n\nΤῶν δὲ συστημάτων τὸ μέν |30.24|ἐστι τετράχορδον, τὰς τοῦ διὰ τεσσάρων |30.25|ἁπάσας ἐμπεριέχον δυνάμεις· τὸ δὲ πεν|31.1|τάχορδον, τὰς τοῦ ⟨διὰ⟩ πέντε δυνάμεις πε|31.2|ριλαμβάνον· τὸ δὲ ὀκτάχορδον, τὴν ὅλην |31.3|τοῦ διὰ πασῶν περιέχον ἰσχύν· τὸ δὲ κατὰ |31.4|συνέχειαν ἑκκαιδεκάχορδον, τὴν τοῦ δὶς |31.5|διὰ πασῶν ὁλοσχερῆ συνέχον διάστασιν, |31.6|διπλᾶς τὰς δυνάμεις ἀποφερόμενον· αὐ|31.7|τάς τε γὰρ τὰς προειρημένας καὶ τὰς τοῦ |31.8|δὶς διὰ τεσσάρων καὶ τοῦ δὶς διὰ πέντε |31.9|καὶ τοῦ δὶς διὰ πασῶν ἐν ἑαυτῷ περιέχει. |31.10|Διαφέρει δὲ τὰ συστήματα τῶν ἐν μέσῳ δια|31.11|στημάτων, τῷ τὰ μὲν ἐν ὕλῃ τὴν σύστασιν |31.12|ἔχειν, τὰ δὲ διαστήματα ἐξ ἀφαιρέσεως |31.13|τῆς ὕλης νοεῖσθαι. τῆς δὲ ἁρμονίας ἴδιον τὸ |31.14|τὰ τοιαῦτα συστήματα συντάττειν καὶ συ|31.15|ναρμολογεῖν πρὸς τὸ τοιόνδε τῆς μελῳδίας |31.16|γένος, οἷον τὸ διάτονον, τὸ χρωματικὸν |31.17|καὶ τὸ παρωνύμως ἀπ’ αὐτῆς ἁρμονίας ἁρ|31.18|μονικὸν προσαγορευόμενον. εἰ μὲν οὖν |31.19|διὰ τόνων τὸ πλεῖστον ἡ ἁρμονία προάγοι|31.20|το, τὸ διάτονον οὕτω καλούμενον κατα|31.21|σκευάζεται γένος· εἰ δὲ δι’ ἡμιτονίων, |31.22|τὸ χρωματικόν· εἰ δὲ διέσεσι μᾶλλον |31.23|ἡ ἁρμονία συνέχεται, τὸ ἁρμονικὸν λε|31.24|γόμενον ἀπαρτίζεται μέλος. οὐ μὴν τὸ |31.25|πᾶν διὰ τόνων τὰ τῆς ἁρμονίας προφέ|32.1|ρεται, οὐδὲ δι’ ἡμιτονίων τὸ πᾶν, οὐδὲ τὸ |32.2|πᾶν ἐκ διέσεων· οὐδὲ γὰρ δυνατόν. ἀλλ’ |32.3|ἐπεὶ τρισὶ διαστάσεσι τὸ διὰ τεσσάρων ἀ|32.4|πήρτισται, δυσὶ δὲ τόνοις καὶ ἡμιτονίῳ διεί|32.5|ληπται, δύο τονιαίων διαστημάτων ἐντιθε|32.6|μένων ἀνάγκη τὸ λοιπὸν τελεῖν ἡμιτόνιον. |32.7|καὶ τοῦτ’ ἂν εἴη τὸ διὰ τεσσάρων διάτονον |32.8|ὀνομαζόμενον γένος, ἐξ ἡμιτονίου καὶ δύο |32.9|ἀπαρτιζόμενον τόνων. εἰ δὲ δύο εἴη τὰ ἡμι|32.10|τόνια, τὸ λοιπὸν γένοιτ’ ἂν ἓν ἐκ συμφθάρ|32.11|σεως διάστημα, τριημιτόνιον ἀσύνθετον· ἐξ |32.12|ἡμιτονίων δύο καὶ τριημιτονίου συγκεκρα|32.13|μένον. εἴη δ’ ἂν τοῦτο τὸ διὰ τεσσάρων γένος |32.14|χρωματικόν, παθητικώτερόν τε τοῦ προτέ|32.15|ρου καὶ γοερώτερον. εἰ δὲ κατὰ δύο διέσεις |32.16|ἡ μελῳδία προάγοιτο, θάτερον ἔσται τῶν δια|32.17|στημάτων ἓν διτόνιον ἐκ συμφθάρσεως· καὶ |32.18|τὸ διὰ τεσσάρων τοῦτο γένος ἁρμονικὸν ὀνο|32.19|μάζεται, τῷ εἶναι ἄριστον, ἐκ τῆς κοινῆς ἁρμο|32.20|νίας τὴν παρωνυμίαν ἀπενεγκάμενον. |32.21|τὸν ὅμοιον δὲ τρόπον καὶ τὰ λοιπὰ τῶν συ|32.22|στημάτων ἡ ἁρμονία συντάττει. τῷ γὰρ ἑ|32.23|νὸς τοῦ τετραχόρδου περὶ τὰ διαστήματα |32.24|τοῦ διὰ τεσσάρων συντακτικῷ ὑποδείγμα|32.25|τι, ῥᾴδιον τῷ φιλομαθεῖ καὶ περὶ τῶν ἑξῆς |33.1|συστημάτων καταστοχάζεσθαι. δυσμελῳδι|33.2|κώτατον μέντοι τὸ ἁρμονικὸν γένος τῆς με|33.3|λῳδίας ἐστί, καὶ πολλῆς τριβῆς καὶ συνηθεί|33.4|ας δεόμενον, ὅθεν οὐδ’ εἰς χρῆσιν ῥᾳδίως ἔρ|33.5|χεται. τὸ δὲ διάτονον ἁπλοῦν τε καὶ γεν|33.6|ναῖον καὶ φυσικώτερον· διὸ δὴ τοῦτο παρα|33.7|λαμβάνει καὶ Πλάτων. τούτων δὲ πάλιν |33.8|ἕκαστον ποικίλλεται καὶ εἰς πολλὰς διαιρέ|33.9|σεις καὶ διαφορὰς καὶ εἴδη μελῳδιῶν κα|33.10|τατέμνεται· καὶ νῦν μὲν λύδιον, νῦν δὲ |33.11|φρύγιον, νῦν δὲ δώριον ἐναρμόζεται μέλος, |33.12|ὧν ἐφ’ ἑκάστῳ παιήων, ὑμέναιος, ἐξόδιος |33.13|καὶ ὅσα εἴδη μελῳδιῶν ἀναφαίνεται. οὐ |33.14|γὰρ τῇ τῶν διαστημάτων μόνῃ μεταφορᾷ, οὐδὲ τῇ μόνῃ τούτων διαφορᾷ, ἀλλὰ |33.15|καὶ ταῖς σχολαιοτέραις καὶ ταχιναῖς μετα|33.16|βάσεσι, διαμοναῖς τε καὶ ῥοαῖς, καὶ ταῖς τῶν |33.17|ἐπαφῶν καὶ κρουμάτων ποικίλαις μεταχει|33.18|ρίσεσι, τὰ μυρία τῶν μελῳδιῶν καὶ |33.19|ποικίλα κατασκευά|33.20|ζεται.\n\n|33.21|Τέλος τῆς μουσικῆς."
 }

@@ -1,0 +1,90 @@
+{
+ "blocking": false,
+ "summary": "I found no real leak. I checked every place against key.json and comparison.places[].adopted in text.json. The adopted reading is reading 1 at 13 places and reading 2 at 12, so the order really is mixed. The readings have been neutralised: the second edition's capital Ἠ at place 01 is gone, its commas at 06, 14 and 18 are gone, and the \"(printed without obeli)\" note at 04 is gone. No place ids such as \"16th\" or \"P2-kekr\" appear. The evidence files carry only the described fields, and no field records a decision. The words \"kept\", \"adopted\", \"editor\", \"claude\" and \"gpt\" do not occur. The \"printed form\", \"edition\" and \"Éd.\" hits all belong to Bas. or to Vincent. The PROMPT's principles are general and do not repeat the established text's own list of decisions. One pattern does correlate with adoption: at the five places where one reading carries editorial signs (04, 05, 06, 14, 17), the reading with signs is never the adopted one. The signs are the content of those readings, though, so this is not a leak. Nothing here should block the run. The fixes that matter most: the verdict choices need a \"neither / third reading / split\" option, because places 06, 15, 18 and 21 each combine more than one decision; place 07 says the P reading is something Vincent does not print; source labels are applied unevenly across places; and the PROMPT should ask for the reference verdict separately from how much H weighs. Package root: pkg",
+ "issues": [
+  {
+   "file": "pkg/PROMPT.md",
+   "where": "'Then say which reading the evidence supports — reading 1, reading 2, both acceptable, or undecided' (How to work, step 3)",
+   "problem": "The verdict has no 'neither / another reading' option and no way to split a verdict. Several places combine separate decisions. Place 06: οἷον/ὅσον plus Xylander's supplement ⟨τοῦ ἐννέα πρὸς⟩, added twice. Place 15: the spelling ὀξέως/ὀξέος plus the noun βάρει against the adjective βαρεῖ. Place 18: δὲ plus δὶς twice. The evidence also offers third options: Vincent's σύγκρασις (338 n. 1), Ms. ἑνδ. (338 n. 6) and Ms. ἐξυφθάρσεως (340 n. 2). Researchers whose evidence supports a mixed combination are pushed into a forced binary choice or into 'undecided'.",
+   "fix": "Add 'neither (name the reading the evidence supports)' to the verdict options. Add the instruction: 'where a reading differs in more than one element, research and judge each element separately, then give the verdict per element'.",
+   "severity": "medium"
+  },
+  {
+   "file": "pkg/places.json",
+   "where": "place 07, reading_1 and reading_2: '… and ἑξκαιδέκατον / ἑκκαιδέκατον in P fr. 1 (Vinc. 338.17)'",
+   "problem": "Both readings present their form as P's text at Vinc. 338.17. Vincent actually prints ἑξδέκατον there, and n. 6 gives 'Ms. ἑνδ.'. Neither form is P's, so a researcher may take one of them as attested in P or decide the package is wrong. Both readings carry the error equally, so it is not a leak.",
+   "fix": "Add one neutral note that applies to both readings: 'at Vinc. 338.17 Vincent prints ἑξδέκατον (n. 6: Ms. ἑνδ.); the reading would print ἑξκαιδέκατον / ἑκκαιδέκατον there'.",
+   "severity": "medium"
+  },
+  {
+   "file": "pkg/PROMPT.md",
+   "where": "Principles of the edition: 'Weighing. H weighs most…' and 'Base. The base is Bas.…', combined with step 3 'say which reading the evidence supports'",
+   "problem": "These are rules for weighing witnesses. They are not reference evidence, and the task's product is reference evidence. H is the adopted reading at 7 of the 9 places where H stands apart (01, 03, 06, 12, 13, 18, 24; it is not at 05 or 15), so a researcher who settles a place by H's weight will mostly land on the adopted text without doing the lexical research. This is a one-sided nudge, not a leak. The principle 'Conjecture only where no witness gives an acceptable text' pulls against the adopted reading at 09 and 21, so the principles as a whole are roughly balanced.",
+   "fix": "Keep the principles, but add: 'Give the verdict on the reference evidence alone. Report witness support (which witnesses have each reading) in a separate line. Do not let H's weight or the Bas. base decide the reference verdict.'",
+   "severity": "medium"
+  },
+  {
+   "file": "pkg/places.json",
+   "where": "places 04, 05, 06, 14, 17 (critical signs †…†, { }, ⟨ ⟩)",
+   "problem": "Only one reading carries editorial signs at each of these places. All signed readings come from the same edition, and at all five the signed reading is the one not adopted. A researcher who assumes 'the printed text is the less interventionist one' would guess the adopted reading 5 times out of 5. The signs are the substance of these variants (at 04 the obeli are the only difference), so this is not a leak and the signs should stay.",
+   "fix": "No change to the readings. In PROMPT.md, state once that a reading with editorial signs is presented on equal terms. Explain the signs as described in the separate issue on sign definitions.",
+   "severity": "low"
+  },
+  {
+   "file": "pkg/places.json",
+   "where": "source labels on places 09, 19, 21 versus none on 20, 22, 23, 07 and on all places from Bas.",
+   "problem": "Labelling is uneven. Places 09, 19 and 21 have labels, worded three different ways for the same status: 'P as reported…', 'P as printed by Vincent' and 'Vincent's text', alongside '(conjecture)'. Other places have no labels, although place 20 reading 2 (πεποίηται) is not in Vincent, place 22 is Vincent's text against the Ms. (n. 4), and place 23 is the Ms. (nn. 2–3) against Vincent's text. Readings from Bas. places that no witness has also go unlabelled: 02 τοσοῦτον, 08 μεταληφώς, 10 ὁδεύονται, 11 χορδίων, 16 προσηγορίας, 25 παιών. A researcher may conclude that unlabelled readings are attested. Checked against the key, the labels do not track adoption (the conjecture is adopted at 09 and 21, Vincent's text at 19), so this is not a leak.",
+   "fix": "Choose one approach. Either remove all source labels and add to PROMPT.md: 'a reading may be found in no witness; establish each reading's support from the evidence yourself'. Or put labels on both readings at every place, from one fixed list: Vincent's text / Ms. per Vincent's note / conjecture / Bas. / H / Par. / V / no witness.",
+   "severity": "low"
+  },
+  {
+   "file": "pkg/places.json",
+   "where": "place 09, reading_1: '(P as reported, with Vincent's accusative at 338.7)'",
+   "problem": "The descriptions are asymmetric. Reading 2 also uses Vincent's accusative τὴν σύμφθαρσιν (n. 3: Ms. ἡ σύμφρασις), but only reading 1 says so. Reading 2 looks like a cleaner single conjecture.",
+   "fix": "Remove the clause from reading 1 and add a shared note: 'both readings follow Vincent's τὴν at 338.7 (Ms. ἡ, n. 3)'.",
+   "severity": "low"
+  },
+  {
+   "file": "pkg/evidence/section-2.json",
+   "where": "collation_mechanical.H, Bas. 25.7: μόνως / μόν(ος), kind 'probably orthographic'; also witnesses.H 64v.20 'μόν(ος) [?]'. Similarly section-4.json orthographic_differences: Bas. 28.18 βαρεί / βά|ρει (H), βάρει (Par.), βαρεῖ (V)",
+   "problem": "The machine labels prejudge the very questions at places 05 and 15. Calling ο/ω at 25.7 'orthographic' favours μόνως (reading 1). Listing βάρει (noun) against βαρεῖ (adjective) as orthographic hides a grammatical difference. In addition, H's '(ος)' expands an abbreviation, which is the transcriber's judgement, yet the PROMPT says to take witness lines 'as facts'. These labels come from the collation tool, not from the decisions, so they are not a leak.",
+   "fix": "For the 25 places, set kind to a neutral 'differs' and move the 28.18 entries out of orthographic_differences. Describe the sign at H 64v.20 (what the ending compendium looks like) instead of only its expansion. Add to PROMPT.md: letters supplied in ( ) and words marked [?] are the transcribers' resolutions, not settled facts.",
+   "severity": "low"
+  },
+  {
+   "file": "pkg/PROMPT.md",
+   "where": "Witnesses table and 'The files' section (no key to signs)",
+   "problem": "The same sign has two meanings. In the Bas. lines, * and † are Xylander's reference marks to his margin (Bas. 25.7, 25.24–25, 28.11–12, 29.8–9, 31.1). In readings 04 and 05, †…† marks a corrupt passage (crux). The editorial signs { } and ⟨ ⟩ in readings 06, 14 and 17 are never explained, and ⟦r …⟧ (red ink) clashes with the Leiden convention where ⟦ ⟧ marks a deletion. Researchers may tie the crux at 05 to Xylander's asterisk, or misread the brackets.",
+   "fix": "Add one line: 'In Bas. lines, * and † are Xylander's marks keyed to his margin (see notes_on_Bas). In the readings, †…† = marked as corrupt, { } = editorial deletion, ⟨ ⟩ = editorial supplement (at 06, 14 and 17 these follow Xylander's margin).'",
+   "severity": "low"
+  },
+  {
+   "file": "pkg/PROMPT.md",
+   "where": "'nothing tells you which one is printed'",
+   "problem": "The word 'printed' is ambiguous here. The package also uses it for Bas.'s printed forms (notes_on_Bas 'printed form') and for Vincent's printed text, so a researcher can read the sentence as 'which one Bas. prints'.",
+   "fix": "Change it to 'nothing tells you which one the edition adopts'.",
+   "severity": "low"
+  },
+  {
+   "file": "pkg/PROMPT.md",
+   "where": "reference list (grammars; theorists)",
+   "problem": "Several places turn on post-classical morphology and spelling: 07 ἑξ-/ἑκκαιδέκατος, 08 μεταληφώς/μετειληφώς, 15 ὀξέως/ὀξέος, 20 a plural verb with a neuter plural subject, 25 παιήων/παιών. The list has no standard works on these questions. It also leaves out two theorist sources with a lot of terminology.",
+   "fix": "Add Gignac (Grammar of the Greek Papyri), Mayser, Psaltes (Grammatik der byzantinischen Chroniken), Dieterich and Hatzidakis. Add Porphyry's commentary on Ptolemy's Harmonics (Düring 1932) and the Anonymi Bellermann (Najock).",
+   "severity": "low"
+  },
+  {
+   "file": "pkg/PROMPT.md",
+   "where": "citation conventions; places.json place 08",
+   "problem": "'P fr. 1/2' and 'Vinc. page.line' are never defined. The line number is the evidence's n, which counts heading and placement lines. Place 07 lists its locus in P, but place 08 does not point to the parallel at Vinc. 338.24 (μετειληφὼς), which is in section-2.json; the scope differs from place to place.",
+   "fix": "Define 'Vinc. page.line = p_fragments page and line n, counting title and placement lines'. At every place, list all loci in Bas. and P that are relevant, in the same way.",
+   "severity": "low"
+  },
+  {
+   "file": "pkg/PROMPT.md",
+   "where": "'How to work' and 'Save … only in the work folder named in your task'",
+   "problem": "The PROMPT gives no output structure (per-finding fields, per-reading sections, verdict fields). It also relies on the launching task to name the work folder. If the task message does not supply both, outputs will be heterogeneous and hard to check source by source.",
+   "fix": "Make sure the per-researcher task message names the work folder and supplies an output schema (for each reading, findings with source, location, URL and status; then witness support; then verdict and strength).",
+   "severity": "low"
+  }
+ ]
+}

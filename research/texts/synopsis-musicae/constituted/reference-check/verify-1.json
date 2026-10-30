@@ -1,0 +1,412 @@
+{
+ "summary": "All 48 R1 findings checked. 39 confirmed, 9 corrected, none wrong or unreachable. Perseus (Smyth) returned a 403 cookie wall, so Smyth §§1154/1156/1168, 2346d and 3028 were checked in the archive.org scan of the same 1920 edition (agreekgrammarfo02smytgoog). Jan, Musici scriptores Graeci, was checked in the archive.org OCR, with page images n301, n358 and n365 viewed. Hiller's Theon was checked in the OCR and the page image of p. 70 (n91). Plutarch was read on Perseids CTS (Bernardakis). LSJ, DGE, Bailly and Pape came from the Logeion API, Jannaris from the archive.org OCR, Thayer from bibliaparalela, and the witness lines from the evidence files. Corrections: (1) Nicomachus Ench. 11 is Jan p. 257.7-10 and Meibom p. 21, not 22. (2) In Bacchius (Jan p. 293), Jan's note says the note names survive only in M and he doubts they are ancient; it does not say \"one branch\". (3) Place 05: μόνως follows μέση; it does not stand between παρυπάτη μέσων and μέση, and Xylander's asterisk is before μέση. (4) Bailly μόνως cites only Xenophon, so it supports a classical word, not a later one. (5) Plutarch, An. procr. 1021e, uses the 16:17:18 split to argue that neither part is a semitone; this tells against the \"how\" of place 06 index 5. (6) Plutarch, Is. 42: the text Bernardakis prints is «διαιρεῖ τὸν ἐπόγδοον λόγον εἰς ἄνισα διαστήματα τεμνόμενος»; «κατὰ τὸν» is the reading of W in his apparatus. (7) The ξκ compounds are each single attestations, in astrological, tactical, astronomical, metrical and scholiastic texts; \"widespread … mathematical\" overstates them. Not verifiable under the rules (no searching on the text's own witnesses): the dates of H (AD 1040), the 1532 princeps and Bas. 1556. The transcriptions themselves match the evidence files.",
+ "checks": [
+  {
+   "place": "place 01",
+   "index": 0,
+   "verdict": "confirmed",
+   "source": "Evidence file section-1.json",
+   "url_used": "",
+   "note": "Witness lines exactly as claimed: H 64r.1, V 75r.12 (rubric ⟦r⟧), Par. 20v.1-2, Bas. 23.1-2. The date of H (AD 1040) and the description of Par. as a reprint of the princeps are not in the evidence file and could not be checked under the rules."
+  },
+  {
+   "place": "place 01",
+   "index": 1,
+   "verdict": "confirmed",
+   "source": "LSJ s.v. ἀκριβόω",
+   "url_used": "https://anastrophe.uchicago.edu/logeion-api/detail?w=ἀκριβόω&type=normal",
+   "note": "LSJ: «Pass., to be exact or perfect, Ar. Ra. 1483; ἠκριβῶσθαι πρὸς πᾶσαν ἀρετήν Arist. Pol. 1279b1.» Verbatim."
+  },
+  {
+   "place": "place 01",
+   "index": 2,
+   "verdict": "confirmed",
+   "source": "DGE s.v. ἀκριβόω II.1",
+   "url_used": "https://anastrophe.uchicago.edu/logeion-api/detail?w=ἀκριβόω&type=normal",
+   "note": "DGE II.1: «construir con perfección, formar con precisión στέγην E.Hipp.469, de una obra de arte εὖ σμίλῃσιν ἠκριβωμένην Call.Fr.202.66». The finding's ellipsis replaces στέγην E.Hipp.469."
+  },
+  {
+   "place": "place 01",
+   "index": 3,
+   "verdict": "confirmed",
+   "source": "LSJ s.v. σύνοψις 2",
+   "url_used": "https://anastrophe.uchicago.edu/logeion-api/detail?w=σύνοψις&type=normal",
+   "note": "LSJ: «2 epitome, Plu. Stoic. absurd. 2.1057c tit.; recapitulation, Herm. in Phdr. p.158 A.»"
+  },
+  {
+   "place": "place 01",
+   "index": 4,
+   "verdict": "confirmed",
+   "source": "Smyth §§1154, 1156, 1168",
+   "url_used": "https://archive.org/download/agreekgrammarfo02smytgoog/agreekgrammarfo02smytgoog_djvu.txt",
+   "note": "Perseus returned 403, so I used the 1920 edition on archive.org (same numbering). §1154 defines the attributive position, §1156 says that words preceded by the article have attributive position, and §1168 gives the predicate position. None of them treats an anarthrous noun and participle, so the claim that they are neutral holds."
+  },
+  {
+   "place": "place 02",
+   "index": 0,
+   "verdict": "confirmed",
+   "source": "Evidence file section-1.json",
+   "url_used": "",
+   "note": "Bas. 24.7 τοσούτου; H 64r.16-17 το|σούτου; Par. 20v.20-21 το-|σούτου; V 75v.11-12 τὸ-|σούτου. No witness has τοσοῦτον."
+  },
+  {
+   "place": "place 02",
+   "index": 1,
+   "verdict": "confirmed",
+   "source": "LSJ s.v. ἀξιόω I.1",
+   "url_used": "https://anastrophe.uchicago.edu/logeion-api/detail?w=ἀξιόω&type=normal",
+   "note": "LSJ: «think, deem worthy, I c. acc. et gen. … ἡμᾶς ἀξιοῖ λόγου E. Med. 962; ἑαυτὸν τῶν καλλίστων X. An. 3.2.7»."
+  },
+  {
+   "place": "place 02",
+   "index": 2,
+   "verdict": "confirmed",
+   "source": "LSJ s.v. ἀξιόω I.3",
+   "url_used": "https://anastrophe.uchicago.edu/logeion-api/detail?w=ἀξιόω&type=normal",
+   "note": "LSJ I.3: «value at a certain price, ὁπόσης ἂν τιμῆς ἀξιώσῃ τὸ πωλούμενον Pl. Lg. 917d». This is the genitive of price, a related but separate sense, so it is a parallel and not proof."
+  },
+  {
+   "place": "place 02",
+   "index": 3,
+   "verdict": "confirmed",
+   "source": "Smyth §3028",
+   "url_used": "https://archive.org/download/agreekgrammarfo02smytgoog/agreekgrammarfo02smytgoog_djvu.txt",
+   "note": "Checked in the archive.org scan because Perseus returned 403. Smyth: «In prose hyperbaton is less common than in poetry, but even in prose it is frequent», and the displacement usually gives prominence to the first word. The example D. 18.158 is given."
+  },
+  {
+   "place": "place 02",
+   "index": 4,
+   "verdict": "confirmed",
+   "source": "LSJ s.v. τοσοῦτος III",
+   "url_used": "https://anastrophe.uchicago.edu/logeion-api/detail?w=τοσοῦτος&type=normal",
+   "note": "LSJ: «III neut. also as Adv., so much, so far»."
+  },
+  {
+   "place": "place 03",
+   "index": 0,
+   "verdict": "confirmed",
+   "source": "Evidence file section-1.json",
+   "url_used": "",
+   "note": "H 64v.11, Par. 21r.19 and V 76r.11 have εἰ γὰρ; Bas. 24.23 has εἰ δὲ μὴ. The dates 1532 and 1556 are not in the evidence file and could not be checked."
+  },
+  {
+   "place": "place 03",
+   "index": 1,
+   "verdict": "confirmed",
+   "source": "Smyth §2346d, N.1",
+   "url_used": "https://archive.org/download/agreekgrammarfo02smytgoog/agreekgrammarfo02smytgoog_djvu.txt",
+   "note": "§2346d: «εἰ δὲ μή (but if not …) otherwise. In alternatives.» N.1: «εἰ δὲ μή often occurs even where the preceding clause is negative and we expect εἰ δέ». The remark about compositors is labelled correctly as the researcher's inference."
+  },
+  {
+   "place": "place 03",
+   "index": 2,
+   "verdict": "confirmed",
+   "source": "Thayer s.v. δέ §6",
+   "url_used": "https://www.bibliaparalela.com/thayers/1161.htm",
+   "note": "Thayer: «the particle not infrequently came to be confounded in the manuscripts (of secular writings also) with γάρ». He cites Winer on Gal. 1:11, Fritzsche on Mark 14:2 (and on Romans), Winer's Grammar 452 and Buttmann 363."
+  },
+  {
+   "place": "place 03",
+   "index": 3,
+   "verdict": "confirmed",
+   "source": "Evidence files section-2, section-3, section-6",
+   "url_used": "",
+   "note": "Bas. 26.1 «εἰ γὰρ καὶ ἡ μονάς»; P fr. 1, Vinc. 338.4 «Εἰ γὰρ καὶ τοῖς ἀριθμοῖς»; εἰ δέ for alternatives at Bas. 31.21-22, 32.9 and 32.15."
+  },
+  {
+   "place": "place 04",
+   "index": 0,
+   "verdict": "confirmed",
+   "source": "Evidence file section-2.json",
+   "url_used": "",
+   "note": "ὑπάτη διάτονος appears at Bas. 25.6, H 64v.19, Par. 21v.8 and V 76r.21; ὑπάτη ὑπάτων and παρυπάτη ὑπάτων come just before. Small detail: Bas. 25.8-9 prints διαζευγμέ|νη (δια-), while H, Par. and V have διεζευγμένη."
+  },
+  {
+   "place": "place 04",
+   "index": 1,
+   "verdict": "corrected",
+   "source": "Nicomachus Ench. 11, Jan p. 257",
+   "url_used": "https://archive.org/download/musiciscriptoresjank/page/n358_w800.jpg",
+   "note": "The page image confirms the text verbatim at Jan p. 257, lines 7-10.",
+   "correction": "Location: Jan p. 257.7-10 is Meibom p. 21, not p. 22. The Meibom marker (p. 22) comes only at line 21 of the page, and the running head reads 'p. 20—22 M.'"
+  },
+  {
+   "place": "place 04",
+   "index": 2,
+   "verdict": "confirmed",
+   "source": "Nicomachus Ench. 12 list, Jan p. 264",
+   "url_used": "https://archive.org/download/musiciscriptoresjank/page/n365_w800.jpg",
+   "note": "The page image shows διάτονος ὑπατῶν, μέσων διάτονος (the Meibom marker 'p. 28' falls inside the list), διάτονος διεζευγμένων and διάτονος ὑπερβολαίων. μέση stands alone. This list has παραμέση."
+  },
+  {
+   "place": "place 04",
+   "index": 3,
+   "verdict": "confirmed",
+   "source": "Excerpta ex Nicomacho 9, Jan pp. 280-281",
+   "url_used": "https://archive.org/download/musiciscriptoresjank/musiciscriptoresjank_djvu.txt",
+   "note": "All names as quoted, including παράμεσος (no. 18). The running head reads 'p. 39. 40 M.'"
+  },
+  {
+   "place": "place 04",
+   "index": 4,
+   "verdict": "confirmed",
+   "source": "Gaudentius Isag. 6, Jan pp. 332-333",
+   "url_used": "https://archive.org/download/musiciscriptoresjank/musiciscriptoresjank_djvu.txt",
+   "note": "Jan p. 332: «εἶτα λιχανὸν ὑπάτων … ἥτις καὶ διάτονος ὑπάτων ἐκαλεῖτο ἐν τῷ διατονικῷ γένει». Jan p. 333: «ἡ λιχανὸς τῶν μέσων ἤτοι διάτονος μέσων»."
+  },
+  {
+   "place": "place 04",
+   "index": 5,
+   "verdict": "confirmed",
+   "source": "Cleonides Isag. 4, Jan p. 182",
+   "url_used": "https://archive.org/download/musiciscriptoresjank/musiciscriptoresjank_djvu.txt",
+   "note": "The list of diatonic notes includes λιχανὸς ὑπάτων διάτονος, λιχανὸς μέσων διάτονος and παρανήτη διεζευγμένων διάτονος. The Meibom marker (p. 4) is in the list."
+  },
+  {
+   "place": "place 04",
+   "index": 6,
+   "verdict": "corrected",
+   "source": "Bacchius Isag., Jan p. 293",
+   "url_used": "https://archive.org/download/musiciscriptoresjank/musiciscriptoresjank_djvu.txt",
+   "note": "The bracketed names [προσλαμβανόμενος] and [ὑπατῶν διάτονος] are on p. 293.",
+   "correction": "Jan's note (to line 18) reads «προσλαμβανόμενος ceteraque sonorum nomina in solo exstant M, dubito sintne antiqua». The names are in M alone, not in 'one branch', and Jan doubts that they are ancient. That weakens them as evidence."
+  },
+  {
+   "place": "place 04",
+   "index": 7,
+   "verdict": "confirmed",
+   "source": "Alypius, Lydian diatonic, Jan p. 369",
+   "url_used": "https://archive.org/download/musiciscriptoresjank/musiciscriptoresjank_djvu.txt",
+   "note": "παρυπάτη ὑπάτων, ὑπάτων διάτονος, ὑπάτη μέσων, μέσων διάτονος, μέση, διεζευγμένων διάτονος and ὑπερβολαίων διάτονος, on the page between 368 and 370."
+  },
+  {
+   "place": "place 04",
+   "index": 8,
+   "verdict": "confirmed",
+   "source": "DGE s.v. διάτονος I.2",
+   "url_used": "https://anastrophe.uchicago.edu/logeion-api/detail?w=διάτονος&type=normal",
+   "note": "DGE I.2: «(φθόγγος) ὑπάτων δ. Aristid.Quint.7.20»."
+  },
+  {
+   "place": "place 04",
+   "index": 9,
+   "verdict": "confirmed",
+   "source": "LSJ s.v. ὑπάτη",
+   "url_used": "https://anastrophe.uchicago.edu/logeion-api/detail?w=ὑπάτη&type=normal",
+   "note": "LSJ: «the highest of the three strings … but the lowest in pitch … ὑπάτη ὑπατῶν ibid. (but ὑ. ὑπάτων Cleonid. Harm. 4)»."
+  },
+  {
+   "place": "place 04",
+   "index": 10,
+   "verdict": "confirmed",
+   "source": "Cleonides Isag. 10, Jan p. 200 apparatus",
+   "url_used": "https://archive.org/download/musiciscriptoresjank/page/n301_w800.jpg",
+   "note": "The page image shows «4 συνημμένων M⁴NL, συνημμένη M¹WB» and «14 ὑπάτων] ὑπὸ τῶν N, ὑπάτη B». Chapter 10 begins on p. 199."
+  },
+  {
+   "place": "place 05",
+   "index": 0,
+   "verdict": "confirmed",
+   "source": "Evidence file section-2.json",
+   "url_used": "",
+   "note": "Bas. 25.7 «* μέση μόνως», with the margin «* διάτονος μέσων ad-do.»; Par. 21v.9 μόνως; V 76v.1-2 μέση|μόνως; H 64v.20 «μέση μόν(ος) [?]»."
+  },
+  {
+   "place": "place 05",
+   "index": 1,
+   "verdict": "corrected",
+   "source": "Evidence file section-2.json, Bas. 25.4-25.17",
+   "url_used": "",
+   "note": "The count is right: 14 names, with μέση 7th. The diatonic of the meson tetrachord is missing.",
+   "correction": "μόνως does not stand between παρυπάτη μέσων and μέση. It follows μέση («παρυπάτη μέσων, * μέση μόνως, παράμεσος»), and Xylander's asterisk is printed before μέση. The text says «διὰ τούτων ἀπαρτίζεται τὸ ἐν πεντεκαιδεκαχόρδῳ ἑκκαιδεκάχορδον»; it does not say simply that the list makes up the πεντεκαιδεκάχορδον. The 1:8 = 8:15 statement is at Bas. 25.14-17."
+  },
+  {
+   "place": "place 05",
+   "index": 2,
+   "verdict": "confirmed",
+   "source": "LSJ s.v. μόνος B",
+   "url_used": "https://anastrophe.uchicago.edu/logeion-api/detail?w=μόνος&type=normal",
+   "note": "Verbatim. The ellipsis omits «folld. by εἰ»."
+  },
+  {
+   "place": "place 05",
+   "index": 3,
+   "verdict": "corrected",
+   "source": "Bailly 2024 s.v. μόνως",
+   "url_used": "https://anastrophe.uchicago.edu/logeion-api/detail?w=μόνως&type=normal",
+   "note": "Bailly: «μόνως, adv. seulement, Xén. Mem. 1, 5, 5 ; Cyr. 3, 2, 23.» The quotation is correct.",
+   "correction": "The 'how' should say that Bailly attests the adverb only for classical prose (Xenophon). It gives no later uses, so it does not show the word as 'later'."
+  },
+  {
+   "place": "place 05",
+   "index": 4,
+   "verdict": "confirmed",
+   "source": "Jan, theorists' note lists",
+   "url_used": "https://archive.org/download/musiciscriptoresjank/musiciscriptoresjank_djvu.txt",
+   "note": "In every list cited, μέση stands alone, and the note before it is as stated. A search of the whole Jan OCR (accents stripped) found no μέση μόνως/μόνη/μόνος."
+  },
+  {
+   "place": "place 05",
+   "index": 5,
+   "verdict": "confirmed",
+   "source": "Bacchius Isag., Jan p. 300",
+   "url_used": "https://archive.org/download/musiciscriptoresjank/musiciscriptoresjank_djvu.txt",
+   "note": "«Ἡ μέντοι μέση δοκεῖ ἔχειν πρὸς τὰς λοιπάς τινα διαφοράν· κατὰ μὲν γὰρ τὰς συναφὰς βαρύπυκνος, κατὰ δὲ τὴν διάζευξιν ἄπυκνος.» The page head is p. 300."
+  },
+  {
+   "place": "place 06",
+   "index": 0,
+   "verdict": "confirmed",
+   "source": "Evidence file section-2.json",
+   "url_used": "",
+   "note": "All the readings and Xylander's margins are as stated. Minor point: H's τέ|ταρτον runs onto H 65r.18, so the reference is H 65r.16-18."
+  },
+  {
+   "place": "place 06",
+   "index": 1,
+   "verdict": "confirmed",
+   "source": "LSJ s.v. ἥμισυς II",
+   "url_used": "https://anastrophe.uchicago.edu/logeion-api/detail?w=ἥμισυς&type=normal",
+   "note": "The passage is in section II («as Subst. in neut.») and is verbatim."
+  },
+  {
+   "place": "place 06",
+   "index": 2,
+   "verdict": "confirmed",
+   "source": "Theon, ed. Hiller p. 70.6 and apparatus",
+   "url_used": "https://archive.org/download/theonissmyrnaei00theogoog/page/n91_w800.jpg",
+   "note": "The page image shows text line 6 «γενέσθαι δύο ἥμισυ τόνων τελείων» and the apparatus «6 δύο καὶ ἥμισυ Bull. cf. Strab. VIII p. 379 τριῶν ἥμισυ σταδίων. Didymus apud Prisc. … Plut. Cat. min. 44 δεκαδύο ἥμισυ μυριάδας»."
+  },
+  {
+   "place": "place 06",
+   "index": 3,
+   "verdict": "confirmed",
+   "source": "Theon, ed. Hiller p. 69.13-18",
+   "url_used": "https://archive.org/download/theonissmyrnaei00theogoog/theonissmyrnaei00theogoog_djvu.txt",
+   "note": "«τοῦ γὰρ τόνου ἐπογδόου ὄντος τὸ ἡμιτόνιον δὶς ἐπόγδοον ἔσται, τουτέστιν ἐφεκκαιδέκατον … οὐδὲ γὰρ οἷόν τε τὸ ἐπόγδοον διαίρεσιν ἐπιδέξασθαι». The quotation actually starts at line 14."
+  },
+  {
+   "place": "place 06",
+   "index": 4,
+   "verdict": "confirmed",
+   "source": "Theon, ed. Hiller p. 70.1-3, 14-19",
+   "url_used": "https://archive.org/download/theonissmyrnaei00theogoog/page/n91_w800.jpg",
+   "note": "Both quotations are on the page image (lines 1-3, and lines 15-16 and 19)."
+  },
+  {
+   "place": "place 06",
+   "index": 5,
+   "verdict": "corrected",
+   "source": "Plutarch, An. procr. 18 (1021e), Bernardakis 1895",
+   "url_used": "https://cts.perseids.org/read/greekLit/tlg0007/tlg134/perseus-grc2/18",
+   "note": "The quotation is accurate.",
+   "correction": "The 'how' misrepresents Plutarch. He doubles 9:8 to 18:16 and takes 17 between them only to show that the epogdoon is divided unequally, and he concludes «οὐδέτερον ἄρα γίγνεται … τῶν τμημάτων ἡμιτόνιον». He attests the arithmetic 16:17:18 division, but denies that 17:16 is a semitone. He is therefore no witness for an established doctrine of 8½:8 as the semitone."
+  },
+  {
+   "place": "place 06",
+   "index": 6,
+   "verdict": "confirmed",
+   "source": "Theon, ed. Hiller p. 53.8-16",
+   "url_used": "https://archive.org/download/theonissmyrnaei00theogoog/theonissmyrnaei00theogoog_djvu.txt",
+   "note": "«τὸ μέντοι ἡμιτόνιον οὐχ ὡς ἥμισυ τόνου λέγεται, ὥσπερ Ἀριστόξενος ἡγεῖται … τὰ γὰρ θ' οὐχ οἷόν τε διαιρεθῆναι εἰς ἴσα», at lines 8-16."
+  },
+  {
+   "place": "place 06",
+   "index": 7,
+   "verdict": "confirmed",
+   "source": "LSJ s.v. ὅσος IV.3",
+   "url_used": "https://anastrophe.uchicago.edu/logeion-api/detail?w=ὅσος&type=normal",
+   "note": "Verbatim."
+  },
+  {
+   "place": "place 06",
+   "index": 8,
+   "verdict": "confirmed",
+   "source": "LSJ s.v. οἷος; evidence files",
+   "url_used": "https://anastrophe.uchicago.edu/logeion-api/detail?w=οἷος&type=normal",
+   "note": "LSJ: «b as for instance … c in numerical estimates, about, οἷον δέκα σταδίους Th. 4.90». The author uses οἷον at Bas. 28.19, 29.16 and 31.16, as stated."
+  },
+  {
+   "place": "place 06",
+   "index": 9,
+   "verdict": "confirmed",
+   "source": "LSJ s.v. τέταρτος II.2",
+   "url_used": "https://anastrophe.uchicago.edu/logeion-api/detail?w=τέταρτος&type=normal",
+   "note": "«2 (sc. μέρος) a quarter, D.S. 1.50, POxy. 1293.25 (ii A.D.)»."
+  },
+  {
+   "place": "place 07",
+   "index": 0,
+   "verdict": "confirmed",
+   "source": "Evidence files section-2, section-4, section-5",
+   "url_used": "",
+   "note": "Every reference matches: ἑξκαιδέκατον at Bas. 26.16, H 65v.13, Par. 22v.6, V 77v.2; ἑξκαιδέκα-|τος at Bas. 29.20-21, H 67v.11, Par. 24v.16, V 79v.20; ἑκκαιδεκάχορδον at Bas. 25.12 and 31.4, with H 68v.3 ἐκκ-. At Vinc. 338.17 the P fragment has ἑξδέκατον, n. 6 «Ms. ἑνδ.», which is neither the ξκ nor the κκ spelling."
+  },
+  {
+   "place": "place 07",
+   "index": 1,
+   "verdict": "confirmed",
+   "source": "LSJ s.vv. ἑξκαιδέκατος, ἑξκαίδεκα",
+   "url_used": "https://anastrophe.uchicago.edu/logeion-api/detail?w=ἑξκαιδέκατος&type=normal",
+   "note": "Both entries verbatim."
+  },
+  {
+   "place": "place 07",
+   "index": 2,
+   "verdict": "corrected",
+   "source": "LSJ, Bailly, Pape s.vv. ξκ compounds",
+   "url_used": "https://anastrophe.uchicago.edu/logeion-api/detail?w=ἑξκαιπεντηκονταπλάσιος&type=normal",
+   "note": "Every citation and Pape's «(nicht getrennt zu schreiben), für ἑκκαιπ.» is verified.",
+   "correction": "Each form is a single attestation. They come from astrological (Ps.-Ptol.), tactical (Ael.), astronomical (Plu. Fac.), scholiastic (Sch. Ar.) and metrical (Heph.) texts, and none is a mathematical treatise. They show that the ξκ spelling is attested in late technical Greek; 'widespread … including mathematical' overstates this."
+  },
+  {
+   "place": "place 07",
+   "index": 3,
+   "verdict": "confirmed",
+   "source": "Bailly 2024, Pape s.v. ἑξκαιδέκατος",
+   "url_used": "https://anastrophe.uchicago.edu/logeion-api/detail?w=ἑξκαιδέκατος&type=normal",
+   "note": "Verbatim."
+  },
+  {
+   "place": "place 07",
+   "index": 4,
+   "verdict": "confirmed",
+   "source": "DGE s.vv. ἑκκαίδεκα, ἑκκαιδέκατος",
+   "url_used": "https://anastrophe.uchicago.edu/logeion-api/detail?w=ἑκκαιδέκατος&type=normal",
+   "note": "The alolemas are as stated: ἑξκαίδεκα Plu.2.367e, together with ϝεκαίδεκα. Under ἑκκαιδέκατος II.1, «ἡ ἑ. … Hp.Epid.1.26.5». LSJ files the same passage under ἑξκαιδέκατος."
+  },
+  {
+   "place": "place 07",
+   "index": 5,
+   "verdict": "corrected",
+   "source": "Plutarch, Is. 42 (367e-f), Bernardakis 1889",
+   "url_used": "https://cts.perseids.org/read/greekLit/tlg0007/tlg089/perseus-grc2/42",
+   "note": "«τοῦ γὰρ ἑξκαίδεκα τετραγώνου καὶ τοῦ ὀκτωκαίδεκα ἑτερομήκους» is verified.",
+   "correction": "In the second quotation, Bernardakis's text reads «καὶ διαιρεῖ τὸν ἐπόγδοον λόγον εἰς ἄνισα διαστήματα τεμνόμενος». «κατὰ τὸν» is the reading of ms. W, given in his apparatus («τὸν] κατὰ τὸν W»). The editor is Bernardakis (Teubner 1889)."
+  },
+  {
+   "place": "place 07",
+   "index": 6,
+   "verdict": "confirmed",
+   "source": "Plutarch, An. procr. 18; LSJ s.v. ἐφεξκαιδέκατος",
+   "url_used": "https://cts.perseids.org/read/greekLit/tlg0007/tlg134/perseus-grc2/18",
+   "note": "The text has «τὸ δὲ δεύτερον ἐφεξκαιδέκατον». LSJ: «ἐφεξκαιδέκατος, ον, = ἐφεκκαιδέκατος, λόγος Plu. An.procr. 2.1021e.»"
+  },
+  {
+   "place": "place 07",
+   "index": 7,
+   "verdict": "confirmed",
+   "source": "Theon, ed. Hiller p. 69.15-17",
+   "url_used": "https://archive.org/download/theonissmyrnaei00theogoog/theonissmyrnaei00theogoog_djvu.txt",
+   "note": "«τουτέστιν ἐφεκκαιδέκατον … ὅ ἐστι μέρος ἔλαττον ἑκκαιδεκάτου». Verbatim."
+  },
+  {
+   "place": "place 07",
+   "index": 8,
+   "verdict": "confirmed",
+   "source": "Jannaris 1897 §§645-646",
+   "url_used": "https://archive.org/download/jannaris-an-historical-greek-grammar/Jannaris%2C%20An%20Historical%20Greek%20Grammar%20%281897%29_djvu.txt",
+   "note": "§645 (p. 172) gives ἑκκαίδεκα and δέκα ἕξ, with modern δεκάξε/δεκάξη. §646 (p. 173) gives 16th as «ἕκτος καὶ δέκατος». Jannaris has no ξκ spelling anywhere."
+  }
+ ]
+}

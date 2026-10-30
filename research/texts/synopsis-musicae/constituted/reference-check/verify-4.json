@@ -1,0 +1,276 @@
+{
+ "checks": [
+  {
+   "place": "place 20",
+   "index": 0,
+   "verdict": "confirmed",
+   "source": "Evidence file section-4.json, P fr. 2, Vinc. 340.7-18 with 340 nn. 1-5",
+   "url_used": "evidence/section-4.json",
+   "note": "The text is as quoted: ἔχουσι (340.10), πεποίηνται (340.13) and κίρνανται (340.18), with no footnote at πεποίηνται. Two caveats. Vincent marks one other departure from the Ms. by brackets rather than a footnote ([ἡ] δίεσις, 340.11). Note 1 is a conjecture, not a Ms. report. 'P reads πεποίηνται' is therefore a sound argument from silence, not a reported reading."
+  },
+  {
+   "place": "place 20",
+   "index": 1,
+   "verdict": "confirmed",
+   "source": "Evidence files section-3.json, section-4.json, section-6.json",
+   "url_used": "evidence/section-3.json; evidence/section-4.json; evidence/section-6.json",
+   "note": "Bas. 27.5-6 and H 66r.7-8 read «ἕτερα ἀσύνθετα διαστήματα γίνεται», and so do Par. 23r.2-3 and V 77v.21-78r.1. Vinc. 340.1 has the same. Bas. 31.10 «Διαφέρει δὲ τὰ συστήματα» is in H 68v.9, Par. 25v.19 and V 81r.6-7. In P fr. 2 every finite verb with a neuter plural subject is plural (ἔχουσι, πεποίηνται, κίρνανται, συνδέουσιν). In «Οὕτως οὖν ἔχει περὶ τοὺς λόγους καὶ τὰ … διαστήματα» (340.24-25) the noun depends on περί, so it is not a counter-example."
+  },
+  {
+   "place": "place 20",
+   "index": 2,
+   "verdict": "confirmed",
+   "source": "Evidence file section-3.json, P fr. 1, Vinc. 338.10-13",
+   "url_used": "evidence/section-3.json",
+   "note": "«ἡ Γεωμετρία … τῇ ἐλάττονι προστίθησι καὶ πεποίηται μείζονα», with πεποίηται at 338.12. Vincent has no note on it; his n. 4 on this line concerns τῆς (Ms. τοῦ)."
+  },
+  {
+   "place": "place 20",
+   "index": 3,
+   "verdict": "confirmed",
+   "source": "Smyth, A Greek Grammar for Colleges (1920), §§958-959a",
+   "url_used": "https://archive.org/download/agreekgrammarfo02smytgoog/agreekgrammarfo02smytgoog_djvu.txt",
+   "note": "The archive.org item is the 1920 edition. §958 says a neuter plural subject is a collective and takes a singular verb. §959 allows a plural 'when stress is laid on the fact that the neuter plural subject is composed of persons or of several parts', citing T. 4.88 and X. A. 1.7.17. §959a: 'With the above exception Attic regularly uses the singular verb.'"
+  },
+  {
+   "place": "place 20",
+   "index": 4,
+   "verdict": "confirmed",
+   "source": "Jannaris, An Historical Greek Grammar (1897), §§1169-1171",
+   "url_used": "https://archive.org/details/jannaris-an-historical-greek-grammar (djvu text)",
+   "note": "Minor location point: §1169 (the rule) is on p. 312, and §§1170-1171 are on p. 313. §1170 says the usage 'refers chiefly to A, hence it is called σχῆμα Ἀττικόν', and that it is 'not rigidly adhered to even by A writers'. Its examples include Lys. 25.2 «ἃ ὑπὸ τῶν τριάκοντα γεγένηνται». §1171: 'P writers, except Atticists, follow the common language', which agrees subject and verb in number."
+  },
+  {
+   "place": "place 21",
+   "index": 0,
+   "verdict": "corrected",
+   "source": "Evidence file section-4.json, Vinc. 340 n. 2 (marker at 340.14 and 340.18)",
+   "url_used": "evidence/section-4.json",
+   "correction": "Vincent's printed «ἐξ φθάρσεως» is not just his division of the Ms. form. Going from ἐξυφθάρσεως to ἐξ φθάρσεως also drops the υ.",
+   "note": "The note «Ms. ἐξυφθάρσεως. — Ces mots sont inconnus aux dictionnaires.» is attached by the same marker ² at both places, so the Ms. form is the same at both. The rest of the finding is accurate."
+  },
+  {
+   "place": "place 21",
+   "index": 1,
+   "verdict": "confirmed",
+   "source": "Evidence files section-3.json and section-6.json",
+   "url_used": "evidence/section-3.json; evidence/section-6.json",
+   "note": "«ἐκ συμφθάρσεως» appears at Bas. 27.10 (H 66r.12-13, Par. 23r.8-9, V 78r.6-7), at Bas. 32.10-11 (H 69r.14, Par. 26v.5-6, V 81v.16-17) and at Bas. 32.17 (H 69r.22, Par. 26v.14, V 82r.4). The list τριδίεσις, τριημιτόνιον, διτόνιόν τε καὶ τριτόνιον (Bas. 27.6-7) matches Vinc. 340.15. «εἰς ἓν διάστημα» is at 340.18, and «διατί ἀσύνθετα εἴρηται» at 340.1-2. Small location point: the 27.10 sentence actually runs over Bas. 27.9-12."
+  },
+  {
+   "place": "place 21",
+   "index": 2,
+   "verdict": "confirmed",
+   "source": "LSJ and Pape s.v. σύμφθαρσις on lsj.gr",
+   "url_used": "https://lsj.gr/wiki/σύμφθαρσις",
+   "note": "LSJ sense 1 is 'simultaneous destruction, τῶν μιγνυμένων ἄλλου τινὸς γεννωμένου σώματος Alex.Aphr.Mixt.216.24, cf. Meno Iatr. 14.16'. Sense 2 is 'melting into one another, (sc. τῶν ἰδεῶν) Hermog.Id.1.12, cf. Iamb.in Nic.p.80 P.'. Pape gives 'das Ineinanderfließen und Verschmelzen, bes. der Farben, Sp.'; the finding leaves out 'especially of colours'."
+  },
+  {
+   "place": "place 21",
+   "index": 3,
+   "verdict": "confirmed",
+   "source": "Alexander of Aphrodisias, De mixtione, Bruns p. 216 (First1KGreek section 3)",
+   "url_used": "https://atlas.perseus.tufts.edu/library/passage/urn:cts:greekLit:tlg0732.tlg001.1st1K-grc1:3/",
+   "note": "The page has «τὰς δέ τινας συγχύσει δι’ ὅλων τῶν τε οὐσιῶν αὐτῶν καὶ τῶν ἐν αὐταῖς ποιοτήτων συμφθειρομένων ἀλλήλαις, ὡς γίνεσθαί φησιν ἐπὶ τῶν ἰατρικῶν φαρμάκων κατὰ σύμφθαρσιν τῶν μιγνυμένων ἄλλου τινὸς ἐξ αὐτῶν γεννωμένου σώματος». It is set against κρᾶσις, and Bruns's page marker 217 comes later, so the passage is on p. 216."
+  },
+  {
+   "place": "place 21",
+   "index": 4,
+   "verdict": "corrected",
+   "source": "lsj.gr s.v. φθάρσις (Bailly 2020; Liddell-Scott Greek edition)",
+   "url_used": "https://lsj.gr/wiki/φθάρσις",
+   "correction": "The Bailly entry is quoted correctly. But the same page also carries the Greek Liddell-Scott entry «φθάρσις: -εως, ἡ, φθορά, Μιχ. Ψελλ. παρὰ A. J. H. Vincent Notices des Manuscr. τ. 16, μέρ. 2, σ. 340.10», which cites Vincent's printed text of this very passage. That attestation is circular for this place. Only Bailly's Ocellus reference (Stob. Ecl. 428 Mein.) is independent, and it remains unchecked.",
+   "note": "I also could not find the Ocellus passage: a web search turned up nothing, and no Stobaeus text was opened. The 'how' should say that the word's lexical standing rests partly on Vincent's reading of P itself."
+  },
+  {
+   "place": "place 21",
+   "index": 5,
+   "verdict": "confirmed",
+   "source": "Smyth (1920), §136",
+   "url_used": "https://archive.org/download/agreekgrammarfo02smytgoog/agreekgrammarfo02smytgoog_djvu.txt",
+   "note": "§136 (movable ς): ἐξ is used before vowels and ἐκ before consonants, e.g. ἐξ ἀγορᾶς but ἐκ τῆς ἀγορᾶς. The phonetic remark in 'how' (ξ = κσ) is the researcher's own inference, but it is accurate."
+  },
+  {
+   "place": "place 22",
+   "index": 0,
+   "verdict": "confirmed",
+   "source": "Evidence file section-4.json, Vinc. 340.16 n. 4",
+   "url_used": "evidence/section-4.json",
+   "note": "Vincent prints κεκραμένων⁴, and n. 4 reads «Ms. κεκρυμμένων»."
+  },
+  {
+   "place": "place 22",
+   "index": 1,
+   "verdict": "confirmed",
+   "source": "Evidence file section-6.json, Bas. 32.11-13; section-4.json, Vinc. 340.18",
+   "url_used": "evidence/section-6.json; evidence/section-4.json",
+   "note": "«τριημιτόνιον ἀσύνθετον ἐξ ἡμιτονίων δύο καὶ τριημιτονίου συγκεκραμένον» is in all witnesses (H 69r.15-17, Par. 26v.6-8, V 81v.17-19). Vinc. 340.18 reads «εἰς ἓν διάστημα ὡς ἐξ φθάρσεως κίρνανται»; the finding gives it with reading 1's ἐκ συμφθάρσεως, not as Vincent printed it. The remark about scribal anticipation in 'how' is speculation, not evidence."
+  },
+  {
+   "place": "place 22",
+   "index": 2,
+   "verdict": "confirmed",
+   "source": "Evidence file section-3.json, Bas. 27.12-14",
+   "url_used": "evidence/section-3.json",
+   "note": "«δύναμιν μὲν ἔχον διαφόρων διαστημάτων, δι’ ἑνὸς δὲ διαστήματος ἀπηχούμενον» is the reading of Bas. and H 66r.15-17, and Par. and V have it too."
+  },
+  {
+   "place": "place 22",
+   "index": 3,
+   "verdict": "corrected",
+   "source": "LSJ s.v. κεράννυμι (lsj.gr)",
+   "url_used": "https://lsj.gr/wiki/κεράννυμι",
+   "correction": "The musical citations are correct: «ἁρμονίας ῥυθμοῖς κραθείσας» (Pl.Lg.835b) and «τῆς εὖ κεκραμένης ἁρμονίας» (Arist.Pol.1290a26). But «ἐν ταῖς εὖ κεκρ. πολιτείαις» is not the entry's only use with ἐν + dative. LSJ also cites «οἶνον… ἐνὶ κρητῆρι κέρωνται» (Il. 4.260) and «ἐν τῷ ποτηρίῳ ᾧ ἐκέρασε» (Apoc. 18.6). Both are locative too ('in the bowl/cup'), so the finding's conclusion still holds: there is no lexicon example of ἐν + dative meaning 'mixed into'. For the perfect participle, Pol. 1307b30 is indeed the only ἐν example.",
+   "note": ""
+  },
+  {
+   "place": "place 22",
+   "index": 4,
+   "verdict": "confirmed",
+   "source": "Jan, Musici scriptores Graeci (1895): Cleonides c. 5, p. 187.20; prolegomena to Gaudentius, pp. 321-323",
+   "url_used": "https://archive.org/download/musiciscriptoresjank/musiciscriptoresjank_djvu.txt",
+   "note": "Cleonides p. 187 reads «ἔστι δὲ συμφωνία μὲν κρᾶσις δύο φθόγγων ὀξυτέρου καὶ βαρυτέρου». On pp. 322-323 Jan quotes Porphyry In Ptol. (he gives p. 216-18, with the quotations at 217 inf. and 218), who follows Aelianus: «κατὰ τὸ αὐτὸ πτῶσις καὶ κρᾶσις· δεῖ γὰρ τοὺς φθόγγους συγκρουσθέντας ἕν τι ἕτερον εἶδος φθόγγου ἀποτελεῖν», and «κρᾶμα μηδετέρου τῶν φθόγγων τὴν ἰδίαν παρεμφαίνοντος δύναμιν». On p. 323 Jan adds that Bacchius 'symphoniam dicit κρᾶσιν'."
+  },
+  {
+   "place": "place 22",
+   "index": 5,
+   "verdict": "confirmed",
+   "source": "LSJ s.v. κρύπτω (lsj.gr), with Thayer on the same page",
+   "url_used": "https://lsj.gr/wiki/κρύπτω",
+   "note": "LSJ has «ἁλμυροῖς δ' ἐν βένθεσιν νᾶσον κεκρύφθαι» (Pi.O.7.57), «φάρμακα κεκρυμμένα secret, E.Andr.32» and «κεκρυμμένη νάπη = secret, S.OT 1398». Thayer has «κέκρυπται … ἐν τῷ Θεῷ»."
+  },
+  {
+   "place": "place 23",
+   "index": 0,
+   "verdict": "confirmed",
+   "source": "Evidence file section-4.json, Vinc. 342.3-4 nn. 1-3",
+   "url_used": "evidence/section-4.json",
+   "note": "The notes read Ms. μονάδος, Ms. ὅτι and Ms. τοῦτο, as stated. One caveat: both readings keep Vincent's correction μονάδων (Ms. μονάδος), so reading 1 is P's text only for ὅτι … τοῦτο."
+  },
+  {
+   "place": "place 23",
+   "index": 1,
+   "verdict": "confirmed",
+   "source": "Plato, Republic 525d-e (Burnet), Scaife",
+   "url_used": "https://atlas.perseus.tufts.edu/library/passage/urn:cts:greekLit:tlg0059.tlg030.perseus-grc2:7.525/",
+   "note": "«ἐάν τις αὐτὸ τὸ ἓν ἐπιχειρῇ τῷ λόγῳ τέμνειν, καταγελῶσί τε καὶ οὐκ ἀποδέχονται». The sentence begins at 525d, and the 525e marker falls inside it."
+  },
+  {
+   "place": "place 23",
+   "index": 2,
+   "verdict": "confirmed",
+   "source": "Theon of Smyrna, ed. Hiller (1878), pp. 18-19 and 70",
+   "url_used": "https://archive.org/download/theonissmyrnaei00theogoog/theonissmyrnaei00theogoog_djvu.txt",
+   "note": "Theon has «ὥστε ἀμέριστον καὶ ἀδιαίρετον τὸ ἓν ὡς ἕν» at 18.15 and «ἀδιαίρετος ἄρα ἡ μονὰς ὡς ἀριθμός» at 19.6-7. At 70.1-3 he writes «τοῦ ἐπογδόου πυθμένος τὸ διάστημα … ἡ μονὰς οὐ τέμνεται». At 70.14-19: «ὅτι δὲ ὁ τόνος δίχα οὐ διαιρεῖται … μονάδα, ἥτις ἀδιαίρετος … μονὰς γὰρ οὐ διαιρεῖται». Theon does not name 'the arithmeticians' here; the 'how' paraphrases."
+  },
+  {
+   "place": "place 23",
+   "index": 3,
+   "verdict": "corrected",
+   "source": "LSJ s.v. δοκέω (lsj.gr)",
+   "url_used": "https://lsj.gr/wiki/δοκέω",
+   "correction": "The material is under II.4.b, not II.4. The examples of δέδοκται itself are Hdt. 4.68 and S. Ph. 1277. Pl. Lg. 799e has δεδόχθω, and S. Ant. 576 has δεδογμέν' [ἐστί]. The gloss 'visum est' is not in LSJ. The idiom is supported, and II.5 ('be an established opinion', Arist. APo. 76b24) is also relevant.",
+   "note": ""
+  },
+  {
+   "place": "place 23",
+   "index": 4,
+   "verdict": "corrected",
+   "source": "Jannaris (1897), §1818 and §1945",
+   "url_used": "https://archive.org/details/jannaris-an-historical-greek-grammar (djvu text)",
+   "correction": "The examples are accurately reported: Jos. Ap. 1.23, Cleomed. 37.1, John 3:18, and Lucian, Aristides, Justin, Cyril H. §1818 sits on p. 430, and §1945 begins on p. 452, with 'Negation οὐ' on p. 453. But Jannaris presents μή with the indicative after ὅτι/ἐπεί as an intrusion: 'its aggression on the indicative met with a successful resistance… the instances… are not of such number and character as to have influenced the ultimate issue'. So 'how' should call causal ὅτι μηδέ an attested post-classical usage (his note adds: even in Atticistic writers), not 'normal'.",
+   "note": ""
+  },
+  {
+   "place": "place 23",
+   "index": 5,
+   "verdict": "corrected",
+   "source": "Smyth (1920), §§2760-2761, pp. 628-629",
+   "url_used": "https://archive.org/download/agreekgrammarfo02smytgoog/agreekgrammarfo02smytgoog_djvu.txt",
+   "correction": "The summary of Smyth is accurate. §2760 deals with a simple negative after a negative, which keeps its force or makes an affirmative; the example is οὐδεὶς οὐκ ἔπασχέ τι. §2761 says a compound negative after a negative confirms it. The application in 'how' is doubtful. οὔ πω (= οὔπω) is ordinarily treated as a compound of οὐ (cf. §2688), so by §2761 it would confirm μηδέ rather than cancel it. These sections do not show that reading 2's negation cancels. What they leave is the mixture of the μή and οὐ series and the redundancy.",
+   "note": ""
+  },
+  {
+   "place": "place 24",
+   "index": 0,
+   "verdict": "confirmed",
+   "source": "Evidence file section-6.json",
+   "url_used": "evidence/section-6.json",
+   "note": "H 69r.19 reads «γοερώτερο(ν)», and Par. 26v.11, V 82r.1 and Bas. 32.15 read «γοέτερον». The context is «παθητικώτερόν τε τοῦ προτέρου καὶ …». The claim that H is the 'oldest witness' cannot be checked from the files I was allowed to read."
+  },
+  {
+   "place": "place 24",
+   "index": 1,
+   "verdict": "confirmed",
+   "source": "lsj.gr s.v. γοερός (LSJ, DGE, Pape, Bailly, Dvoretsky, etc.)",
+   "url_used": "https://lsj.gr/wiki/γοερός",
+   "note": "LSJ has «τὸ γ. καὶ ἡσύχιον μέλος Arist.Pr.922b19» and «ἥξει τι μέλος γοερὸν γοεραῖς E.Hec.84»; LSJ and DGE put the Hec. line under persons. The only variant on the page is γοηρός, in the Greek Monolingual entry. No form γοέτερος and no comparative appears."
+  },
+  {
+   "place": "place 24",
+   "index": 2,
+   "verdict": "confirmed",
+   "source": "Smyth (1920), §314",
+   "url_used": "https://archive.org/download/agreekgrammarfo02smytgoog/agreekgrammarfo02smytgoog_djvu.txt",
+   "note": "§314: 'Adjectives in -ος with a short penult lengthen ο to ω': νέος νεώτερος, χαλεπός χαλεπώτερος. The haplography explanation in 'how' is the researcher's own inference, not something Smyth says."
+  },
+  {
+   "place": "place 24",
+   "index": 3,
+   "verdict": "confirmed",
+   "source": "Aristides Quintilianus, ed. Winnington-Ingram (1963), p. 92.19-30",
+   "url_used": "https://archive.org/details/winnington-ingram-1963-aristides-quintilianus-de-musica_202010 (djvu text)",
+   "note": "The bracketed passage contains «διάτονον … ἀρρενωπὸν δ’ ἐστὶ καὶ αὐστηρότερον. χρωματικὸν δὲ καλεῖται παρὰ τὸ χρώζειν … ἔστι δὲ ἥδιστόν τε καὶ γοερόν». The apparatus reads '19-30 damnavit Mb' and reports readings of the codd. (V, N, etc.), so the passage is transmitted."
+  },
+  {
+   "place": "place 24",
+   "index": 4,
+   "verdict": "confirmed",
+   "source": "Aristides Quintilianus, ed. W.-I., index and pp. 81.13, 85.5",
+   "url_used": "https://archive.org/details/winnington-ingram-1963-aristides-quintilianus-de-musica_202010 (djvu text)",
+   "note": "The index reads 'γοερός 81. 13; 85. 5; [92. 26]'. The text has «γοερά τε ὄντα καὶ ἐκβοητικά» (81.13) and «τὸν φρύγιον γοερόν τε ὄντα καὶ θρηνώδη» (85.5)."
+  },
+  {
+   "place": "place 24",
+   "index": 5,
+   "verdict": "confirmed",
+   "source": "[Arist.] Probl. XIX.48 in Jan, Musici scriptores Graeci, p. 109",
+   "url_used": "https://archive.org/download/musiciscriptoresjank/musiciscriptoresjank_djvu.txt",
+   "note": "«διὸ καὶ ἁρμόζει αὐτῷ τὸ γοερὸν καὶ ἡσύχιον ἦθος καὶ μέλος» is on p. 109, under the running head 'Problemata XIX 47. 48.'."
+  },
+  {
+   "place": "place 25",
+   "index": 0,
+   "verdict": "confirmed",
+   "source": "Evidence file section-7.json",
+   "url_used": "evidence/section-7.json",
+   "note": "«παιήων» is the reading of H 69v.20, Par. 27r.16, V 82v.7 and Bas. 33.12. No witness has παιών."
+  },
+  {
+   "place": "place 25",
+   "index": 1,
+   "verdict": "confirmed",
+   "source": "lsj.gr s.v. παιάν (LSJ, Frisk, Dvoretsky, Mantoulidis)",
+   "url_used": "https://lsj.gr/wiki/παιάν",
+   "note": "LSJ: 'Epic παιήων, Attic, Ionic παιών', with Il. 1.473, h.Ap. 518 and Il. 22.391. 'παιάν in Antiph. 4, D. 19.338, Aeschin. 2.162, and freq. in X.'; 'the metrical foot is always παιών'. Frisk: παιήων ep., παιών ion.-att., παιάν dor., trag., hell. Mantoulidis accents the epic form παιηών."
+  },
+  {
+   "place": "place 25",
+   "index": 2,
+   "verdict": "confirmed",
+   "source": "Cleonides, Isagoge 13, Jan p. 206",
+   "url_used": "https://archive.org/download/musiciscriptoresjank/musiciscriptoresjank_djvu.txt",
+   "note": "«ἁρμόσουσι δὲ αὐτῷ ὕμνοι παιᾶνες ἐγκώμια συμβουλαὶ καὶ τὰ τούτοις ὅμοια», on the hesychastic ethos. 'The theorists' rests here on this one passage."
+  },
+  {
+   "place": "place 25",
+   "index": 3,
+   "verdict": "wrong",
+   "source": "E. A. Sophocles, Greek Lexicon of the Roman and Byzantine Periods (1914 printing)",
+   "url_used": "https://archive.org/download/greeklexiconofro00soph/greeklexiconofro00soph_djvu.txt",
+   "correction": "The lexicon does have a headword παιάν: «παιάν, ᾶνος, ὁ, = παίων, the foot ⏑⏑⏑–. Aristot. Rhet. 3, 8, 4.6. Dion. H. V, 204, 14, 205, 13». It also has «παίων, ωνος, ὁ, paeon, the foot … Dion. H., Drac., Heph. 3, 8, Ps.-Demetr., Aristid. Q. 38. 39», besides παιανικός, παιανισμός and παιανογράφος. Both headwords are given only for the metrical foot. There is no παιήων and no entry for the song sense, so the lexicon still says nothing about which form Byzantine authors preferred for the song.",
+   "note": ""
+  }
+ ],
+ "summary": "I checked all 30 findings of R4. 21 are confirmed, 8 corrected and 1 is wrong.\n\nThe wrong one is place 25 #3. Sophocles' lexicon does have headwords παιάν (= παίων, the metrical foot) and παίων; the finding said it had none.\n\nCorrections:\n- Place 21 #0: Vincent's ἐξ φθάρσεως also drops the υ of Ms. ἐξυφθάρσεως; it is not just a word division.\n- Place 21 #4: on the same lsj.gr page, the Greek Liddell-Scott entry for φθάρσις cites this very passage (Psellus ap. Vincent p. 340.10), so that attestation is circular. Only Bailly's Ocellus reference is independent, and I could not verify it.\n- Place 22 #3: LSJ s.v. κεράννυμι also has ἐν + dative at Il. 4.260 and Apoc. 18.6. Both are locative, so the finding's conclusion still holds.\n- Place 23 #3: the material is LSJ δοκέω II.4.b. The examples of δέδοκται itself are Hdt. 4.68 and S. Ph. 1277; Pl. Lg. 799e has δεδόχθω and S. Ant. 576 has δεδογμέν'.\n- Place 23 #4: §1818 is on p. 430. Jannaris calls μή with the indicative after causal ὅτι a limited intrusion, so it is attested, not 'normal'.\n- Place 23 #5: οὔ πω is ordinarily a compound negative, so by Smyth §2761 it would confirm μηδέ, not cancel it.\n- Places 21 #1, 22 #1, 23 #0, 20 #4 and 24 #0 carry only small location or caveat notes.\n\nFiles I downloaded for checking are in work-v/r4v_dl."
+}

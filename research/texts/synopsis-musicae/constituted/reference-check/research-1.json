@@ -1,0 +1,460 @@
+{
+ "places": [
+  {
+   "place": "place 01",
+   "findings": [
+    {
+     "source": "Evidence file section-1.json (witness lines, established transcriptions)",
+     "status": "checked",
+     "found": "H 64r.1 «τῆς μουσικῆς σύνοψις ἠκριβωμένη», V 75r.12 «τ(ῆς) μουσικ(ῆς) σύνοψις ἠκριβωμένη» (in red), Par. 20v.1-2 «ΤΗΣ ΜΟΥΣΙΚΗΣ ΣΥΝΟ-|ψις ἠκριβωμένη». Bas. 23.1-2 alone has «ΤΗΣ ΜΟΥΣΙΚΗΣ / ΗΚΡΙΒΩΜΕΝΗ ΣΥΝΟΨΙΣ», a heading set in two lines of capitals.",
+     "bears_on": "reading 2",
+     "how": "Three witnesses agree on noun before participle: the oldest (H, AD 1040), V, and Par., the reprint of the editio princeps. Bas. is isolated, and its inversion is in a typeset capitals heading."
+    },
+    {
+     "source": "LSJ s.v. ἀκριβόω (Logeion API)",
+     "url": "https://anastrophe.uchicago.edu/logeion-api/detail?w=ἀκριβόω&type=normal",
+     "status": "checked",
+     "found": "Pass. «to be exact or perfect», Ar. Ra. 1483; ἠκριβῶσθαι πρὸς πᾶσαν ἀρετήν Arist. Pol. 1279b1.",
+     "bears_on": "both",
+     "how": "The perfect passive participle as 'exact, perfected' is good Greek. Nothing here concerns word order."
+    },
+    {
+     "source": "DGE s.v. ἀκριβόω II.1 (Logeion API)",
+     "url": "https://anastrophe.uchicago.edu/logeion-api/detail?w=ἀκριβόω&type=normal",
+     "status": "checked",
+     "found": "«construir con perfección, formar con precisión … de una obra de arte εὖ σμίλῃσιν ἠκριβωμένην Call.Fr.202.66».",
+     "bears_on": "both",
+     "how": "Shows the perfect participle used as an attribute of a finished, carefully made work, the sense of the title. Neutral on order."
+    },
+    {
+     "source": "LSJ s.v. σύνοψις 2 (Logeion API)",
+     "url": "https://anastrophe.uchicago.edu/logeion-api/detail?w=σύνοψις&type=normal",
+     "status": "checked",
+     "found": "«epitome, Plu. Stoic. absurd. 2.1057c tit.»",
+     "bears_on": "both",
+     "how": "σύνοψις is a recognised title word ('epitome'). Neutral on order."
+    },
+    {
+     "source": "Smyth, Greek Grammar §§1154, 1156, 1168 (Perseus)",
+     "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0007:smythp=1154",
+     "status": "checked",
+     "found": "These sections give the attributive and predicate positions for phrases with the article. Nothing makes either order of an anarthrous noun and participle in a title incorrect.",
+     "bears_on": "both",
+     "how": "The grammar is neutral. Both orders are acceptable Greek."
+    }
+   ],
+   "nothing_found": "I found no lexicon or grammar statement and no title parallel that prefers one order. A web search for title formulas with ἠκριβωμένη (without σύνοψις) returned only morphology pages. Sophocles' Lexicon on archive.org has unusable Greek OCR. Lampe and Trapp (LBG) were not accessible.",
+   "supports": "reading 2",
+   "strength": "strong",
+   "reasoning": "The reference works are neutral: both orders are grammatical and the participle is well attested. The witnesses decide. H, V and Par. (the princeps tradition) agree on σύνοψις ἠκριβωμένη, and Bas. alone inverts the order in a typeset capitals heading. The edition corrects Bas. where another witness gives the original text, so reading 2."
+  },
+  {
+   "place": "place 02",
+   "findings": [
+    {
+     "source": "Evidence file section-1.json (witness lines)",
+     "status": "checked",
+     "found": "Bas. 24.7 «τοσούτου»; H 64r.16-17 «το|σούτου»; Par. 20v.20-21 «το-|σούτου»; V 75v.11-12 «τὸ-|σούτου». No witness has τοσοῦτον.",
+     "bears_on": "reading 2",
+     "how": "Every witness has τοσούτου, so reading 1 would be a conjecture. The edition allows conjecture only where no witness gives an acceptable text."
+    },
+    {
+     "source": "LSJ s.v. ἀξιόω I.1 (Logeion API)",
+     "url": "https://anastrophe.uchicago.edu/logeion-api/detail?w=ἀξιόω&type=normal",
+     "status": "checked",
+     "found": "«think, deem worthy, I c. acc. et gen. … ἡμᾶς ἀξιοῖ λόγου E. Med. 962; ἑαυτὸν τῶν καλλίστων X. An. 3.2.7».",
+     "bears_on": "reading 2",
+     "how": "The standard construction is accusative of the person (τὴν μουσικήν) and genitive of the thing (θαύματος). τοσούτου agrees with θαύματος."
+    },
+    {
+     "source": "LSJ s.v. ἀξιόω I.3 (Logeion API)",
+     "url": "https://anastrophe.uchicago.edu/logeion-api/detail?w=ἀξιόω&type=normal",
+     "status": "checked",
+     "found": "«value at a certain price, ὁπόσης ἂν τιμῆς ἀξιώσῃ τὸ πωλούμενον Pl. Lg. 917d».",
+     "bears_on": "reading 2",
+     "how": "Parallel structure: a quantity correlative in the genitive agrees with the genitive noun governed by ἀξιόω, as τοσούτου … θαύματος does."
+    },
+    {
+     "source": "Smyth §3028 (Hyperbaton) (Perseus)",
+     "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0007:smythp=3028",
+     "status": "checked",
+     "found": "«In prose hyperbaton is less common than in poetry, but even in prose it is frequent…» Example: «ὑφ᾽ ἑνὸς τοιαῦτα πέπονθεν ἡ Ἑλλὰς ἀνθρώπου» D. 18.158.",
+     "bears_on": "reading 2",
+     "how": "Separating a pronominal or quantitative adjective from its noun by the verb (τοσούτου τὴν μουσικὴν ἠξίωσαν θαύματος) is normal prose hyperbaton, with emphasis on the first word."
+    },
+    {
+     "source": "LSJ s.v. τοσοῦτος III (Logeion API)",
+     "url": "https://anastrophe.uchicago.edu/logeion-api/detail?w=τοσοῦτος&type=normal",
+     "status": "checked",
+     "found": "«neut. also as Adv., so much, so far».",
+     "bears_on": "reading 1",
+     "how": "An adverbial τοσοῦτον would be grammatical, so reading 1 is not impossible, but no witness has it."
+    }
+   ],
+   "nothing_found": "Web searches for exact parallels of the pattern (τοσαύτης/τοσούτου with forms of ἀξιόω) found no text passages, only morphology pages. I did not search phrases of this text.",
+   "supports": "reading 2",
+   "strength": "strong",
+   "reasoning": "All four witnesses read τοσούτου. LSJ gives the standard acc. + gen. construction of ἀξιόω and a close parallel with a quantity word in agreement (Pl. Lg. 917d). Smyth shows that this kind of hyperbaton is ordinary in prose. Reading 1 is grammatical but has no witness, and nothing makes the transmitted text unacceptable."
+  },
+  {
+   "place": "place 03",
+   "findings": [
+    {
+     "source": "Evidence file section-1.json (witness lines)",
+     "status": "checked",
+     "found": "H 64v.11 «εἰ γὰρ μὴ οὕτως ἐκφωνηθείη»; Par. 21r.19 «εἰ γὰρ»; V 76r.11 «εἰ γὰρ μὴ». Bas. 24.23 alone has «εἰ δὲ μὴ».",
+     "bears_on": "reading 1",
+     "how": "H, V and Par. (a reprint of the 1532 princeps) agree on γάρ, so δέ is an innovation of Bas. (1556)."
+    },
+    {
+     "source": "Smyth §2346d with N.1 (Perseus)",
+     "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:1999.04.0007:smythp=2346",
+     "status": "checked",
+     "found": "εἰ δὲ μή «otherwise, in alternatives». N.1: «εἰ δὲ μή often occurs even where the preceding clause is negative and we expect εἰ δέ».",
+     "bears_on": "reading 1",
+     "how": "εἰ δὲ μή is a stereotyped, very frequent phrase, so a compositor or editor could easily drift into it. This is my inference from Smyth, not his statement about errors."
+    },
+    {
+     "source": "Thayer, Greek-English Lexicon of the NT, s.v. δέ §6",
+     "url": "https://www.bibliaparalela.com/thayers/1161.htm",
+     "status": "checked",
+     "found": "Because δέ is used in explanatory remarks, «the particle not infrequently came to be confounded in the manuscripts (of secular writings also) with γάρ». Cites Winer on Gal. 1:11, Fritzsche on Mark 14:2, and Winer's and Buttmann's grammars.",
+     "bears_on": "both",
+     "how": "The γάρ/δέ interchange is a recognised type of variant. It does not show which direction the change went here."
+    },
+    {
+     "source": "Evidence files section-2, section-3 and section-6 (the author's usage)",
+     "status": "checked",
+     "found": "The author opens explanatory conditionals with «εἰ γὰρ καί» (Bas. 26.1; P fr. 1, Vinc. 338.4 «Εἰ γὰρ καὶ τοῖς ἀριθμοῖς…»). He uses «εἰ δέ» for successive alternatives (Bas. 31.21-22, 32.9, 32.15).",
+     "bears_on": "reading 1",
+     "how": "Here the clause justifies the term ἐναρμόνιος (it is so called because, if not so uttered, it is ἀπηχής). That is explanatory, the author's γάρ context. Both particles occur in his usage."
+    }
+   ],
+   "nothing_found": "I found no lexicon or grammar statement that makes either particle impossible. Denniston's Greek Particles and West's Textual Criticism were not available legitimately online, so they were not consulted.",
+   "supports": "reading 1",
+   "strength": "strong",
+   "reasoning": "The witnesses decide: H, V and Par. read γάρ, and Bas. stands alone. The reference works show that both particles are grammatical and that γάρ/δέ is a known confusion. The familiar idiom εἰ δὲ μή explains how Bas.'s δέ could arise. The explanatory logic suits the author's γάρ."
+  },
+  {
+   "place": "place 04",
+   "findings": [
+    {
+     "source": "Evidence file section-2.json (witness lines)",
+     "status": "checked",
+     "found": "«ὑπάτη διάτονος» in all witnesses: Bas. 25.6, H 64v.19, Par. 21v.8, V 76r.21. The same list has «ὑπάτη ὑπάτων, παρυπάτη ὑπάτων» just before (genitive plural), «διάτονος ὑπερβολαίων», and «τρίτη / διάτονος / νήτη διεζευγμένη» (nominative where the theorists have διεζευγμένων).",
+     "bears_on": "both",
+     "how": "The reading belongs to the archetype, so no witness offers an alternative. The archetype also turns -ων into -η in διεζευγμένη three times."
+    },
+    {
+     "source": "Nicomachus, Harm. Ench. 11, ed. Jan, Musici scriptores Graeci (1895) p. 257 (Meibom p. 22); page image checked",
+     "url": "https://archive.org/details/musiciscriptoresjank",
+     "status": "checked",
+     "found": "«προσετέθη γὰρ ἑκάστῳ τὸ ὑπατῶν, οἷον ὑπάτη ὑπατῶν, παρυπάτη ὑπατῶν, διάτονος ὑπατῶν ἢ λιχανὸς ὑπατῶν· οὐδὲν γὰρ διαφέρει ὁποτερωσοῦν ὀνομάζειν.»",
+     "bears_on": "reading 2",
+     "how": "Nicomachus says the genitive ὑπατῶν was added to each note of this tetrachord. This note is διάτονος ὑπατῶν or λιχανὸς ὑπατῶν, never ὑπάτη."
+    },
+    {
+     "source": "Nicomachus, Harm. Ench. 12, list of names, Jan p. 264 (Meibom pp. 27-28), archive.org OCR of the scan",
+     "url": "https://archive.org/download/musiciscriptoresjank/musiciscriptoresjank_djvu.txt",
+     "status": "checked",
+     "found": "«διάτονος ὑπατῶν … μέσων διάτονος … διάτονος διεζευγμένων … διάτονος ὑπερβολαίων».",
+     "bears_on": "reading 2",
+     "how": "Gives the standard name. «διάτονος + tetrachord genitive» is also the order this text uses in διάτονος διεζευγμένη and διάτονος ὑπερβολαίων."
+    },
+    {
+     "source": "Excerpta ex Nicomacho 9, Jan pp. 280-281 (Meibom pp. 39-40), archive.org OCR",
+     "url": "https://archive.org/download/musiciscriptoresjank/musiciscriptoresjank_djvu.txt",
+     "status": "checked",
+     "found": "«ὑπατῶν διάτονος», «ὑπάτη μέσων», «μέσων διάτονος», «μέση», «παράμεσος», «διεζευγμένων διάτονος», «ὑπερβολαίων διάτονος».",
+     "bears_on": "reading 2",
+     "how": "Same name in the order «tetrachord + διάτονος». Note also παράμεσος in the masculine, as in this text."
+    },
+    {
+     "source": "Gaudentius, Harm. Isag. 6, Jan pp. 332-333 (Meibom pp. 6-7), archive.org OCR",
+     "url": "https://archive.org/download/musiciscriptoresjank/musiciscriptoresjank_djvu.txt",
+     "status": "checked",
+     "found": "«εἶτα λιχανὸν ὑπάτων … ἥτις καὶ διάτονος ὑπάτων ἐκαλεῖτο ἐν τῷ διατονικῷ γένει» and «ἡ λιχανὸς τῶν μέσων ἤτοι διάτονος μέσων».",
+     "bears_on": "reading 2",
+     "how": "States explicitly that the diatonic lichanos of the hypaton tetrachord is called διάτονος ὑπάτων."
+    },
+    {
+     "source": "Cleonides, Isag. 4, Jan p. 182 (Meibom pp. 3-4), archive.org OCR",
+     "url": "https://archive.org/download/musiciscriptoresjank/musiciscriptoresjank_djvu.txt",
+     "status": "checked",
+     "found": "Diatonic notes: «λιχανὸς ὑπάτων διάτονος», «λιχανὸς μέσων διάτονος», «παρανήτη διεζευγμένων διάτονος».",
+     "bears_on": "reading 2",
+     "how": "Same note, always with the genitive of the tetrachord."
+    },
+    {
+     "source": "Bacchius, Isag., Jan p. 293, archive.org OCR",
+     "url": "https://archive.org/download/musiciscriptoresjank/musiciscriptoresjank_djvu.txt",
+     "status": "checked",
+     "found": "Note names in brackets, «[προσλαμβανόμενος] … [ὑπατῶν διάτονος]». Jan's note: the names are found in only one branch of the manuscripts.",
+     "bears_on": "reading 2",
+     "how": "Same form of the name."
+    },
+    {
+     "source": "Alypius, Isag., Lydian diatonic, Jan p. 369, archive.org OCR",
+     "url": "https://archive.org/download/musiciscriptoresjank/musiciscriptoresjank_djvu.txt",
+     "status": "checked",
+     "found": "«παρυπάτη ὑπάτων … ὑπάτων διάτονος … ὑπάτη μέσων … μέσων διάτονος … μέση … διεζευγμένων διάτονος … ὑπερβολαίων διάτονος».",
+     "bears_on": "reading 2",
+     "how": "In the notation tables the name is always «ὑπάτων διάτονος»."
+    },
+    {
+     "source": "DGE s.v. διάτονος I.2 (Logeion API)",
+     "url": "https://anastrophe.uchicago.edu/logeion-api/detail?w=διάτονος&type=normal",
+     "status": "checked",
+     "found": "«(φθόγγος) ὑπάτων δ. Aristid.Quint.7.20».",
+     "bears_on": "reading 2",
+     "how": "Aristides Quintilianus uses the same name."
+    },
+    {
+     "source": "LSJ s.v. ὑπάτη (Logeion API)",
+     "url": "https://anastrophe.uchicago.edu/logeion-api/detail?w=ὑπάτη&type=normal",
+     "status": "checked",
+     "found": "ὑπάτη is the lowest-pitched note; «ὑπάτη ὑπατῶν» Nicom. Harm. 11 (but «ὑ. ὑπάτων» Cleonid. Harm. 4).",
+     "bears_on": "reading 2",
+     "how": "ὑπάτη names a different note, the bottom of a tetrachord (ὑπάτη ὑπάτων, ὑπάτη μέσων). As a name for the diatonic lichanos, ὑπάτη διάτονος contradicts itself."
+    },
+    {
+     "source": "Cleonides, Isag. 10, ed. Jan p. 200, apparatus criticus to lines 4 and 14; page image checked",
+     "url": "https://archive.org/details/musiciscriptoresjank",
+     "status": "checked",
+     "found": "«4 συνημμένων M⁴NL, συνημμένη M¹WB» and «14 ὑπάτων] ὑπὸ τῶν N, ὑπάτη B».",
+     "bears_on": "reading 2",
+     "how": "In the manuscripts of a theorist, the genitive plural of tetrachord names becomes -η: ὑπάτων > ὑπάτη, συνημμένων > συνημμένη. This is exactly the error that would turn ὑπατῶν διάτονος into ὑπάτη διάτονος, and διεζευγμένων into the διεζευγμένη of this list."
+    }
+   ],
+   "nothing_found": "«ὑπάτη διάτονος» as a note name occurs nowhere in Jan's Musici scriptores Graeci (full OCR search: Nicomachus, Excerpta, Cleonides, Bacchius, Gaudentius, Alypius), nor in LSJ or DGE. Ptolemy (Düring) and West's or Mathiesen's handbooks were not consulted.",
+   "supports": "reading 2",
+   "strength": "moderate",
+   "reasoning": "Every theorist names this note διάτονος ὑπατῶν / ὑπατῶν διάτονος or λιχανὸς ὑπατῶν. Nicomachus explicitly says the genitive ὑπατῶν is added. ὑπάτη is the name of another note, so the transmitted name is unattested and contradicts itself. The corruption -ων > -η in exactly these names is documented in Cleonides' manuscripts (Jan p. 200). Two things keep the strength moderate. All witnesses agree. And the archetype has the same nominative for genitive plural three times (διεζευγμένη), so archetypal or authorial looseness cannot be fully excluded. The probable original ὑπατῶν διάτονος would be a conjecture, so the obelus is the evidence-based choice between the two readings offered."
+  },
+  {
+   "place": "place 05",
+   "findings": [
+    {
+     "source": "Evidence file section-2.json (witness lines and notes on Bas.)",
+     "status": "checked",
+     "found": "Bas. 25.7 «παρυπάτη μέσων, * μέση μόνως», with Xylander's margin «* διάτονος μέσων ad-do.» Par. 21v.9 «μέση μόνως». V 76v.1-2 «μέση | μόνως». H 64v.20 «μέση μόν(ος) [?]», an abbreviated ending of uncertain reading.",
+     "bears_on": "both",
+     "how": "Bas., Par. and V give μόνως. H's ending is uncertain, so H gives no clear support to μόνος."
+    },
+    {
+     "source": "Evidence file section-2.json, internal count (Bas. 25.4-25.17 and the parallel witness lines)",
+     "status": "checked",
+     "found": "The text says the list makes up the πεντεκαιδεκάχορδον and that the 1st note is to the 8th as the 8th to the 15th. As transmitted the list has 14 names, with μέση in 7th place. The missing name is the diatonic of the meson tetrachord. It belongs between παρυπάτη μέσων and μέση, which is where μόνως stands and where Xylander supplied «διάτονος μέσων».",
+     "bears_on": "reading 2",
+     "how": "The text is demonstrably disturbed at this exact point: a name is lost and μόνως occupies its place. That fits marking the place as corrupt."
+    },
+    {
+     "source": "LSJ s.v. μόνος, B (adv. μόνως) (Logeion API)",
+     "url": "https://anastrophe.uchicago.edu/logeion-api/detail?w=μόνος&type=normal",
+     "status": "checked",
+     "found": "«Adv. μόνως, on one condition only … Th. 8.81, X. Mem. 1.5.5 …; in one way only, Them. in Ph. 29.22; in a unique manner, Dam. Pr. 98: later, simply, only, Phld. Oec. p.53 J., Ph. 1.559, AP 12.254 (Strat.), Iamb. Myst. 4.7, Procl. in Prm. p.479 S.»",
+     "bears_on": "reading 1",
+     "how": "In later Greek μόνως means 'simply, only', so 'mese simply' (the note named without a tetrachord qualifier) is lexically possible."
+    },
+    {
+     "source": "Bailly 2024 s.v. μόνως (Logeion API)",
+     "url": "https://anastrophe.uchicago.edu/logeion-api/detail?w=μόνως&type=normal",
+     "status": "checked",
+     "found": "«μόνως, adv. seulement, Xén. Mem. 1, 5, 5; Cyr. 3, 2, 23.»",
+     "bears_on": "reading 1",
+     "how": "Confirms the adverb as a classical and later word. It gives no technical usage."
+    },
+    {
+     "source": "Theorists' lists of note names, Jan, Musici scriptores Graeci: Nicomachus Ench. 11-12 (pp. 257, 264); Excerpta 9 (pp. 280-281); Cleonides 4 (p. 182); Gaudentius 6 (p. 333); Alypius (p. 369)",
+     "url": "https://archive.org/download/musiciscriptoresjank/musiciscriptoresjank_djvu.txt",
+     "status": "checked",
+     "found": "μέση always stands alone with no adverb or adjective. The note before it is «μέσων διάτονος» (Exc. 9, Alypius), «λιχανὸς μέσων διάτονος» (Cleonides 4), or «ἡ λιχανὸς τῶν μέσων ἤτοι διάτονος μέσων» (Gaudentius 6, p. 333).",
+     "bears_on": "reading 2",
+     "how": "No theorist has «μέση μόνως / μόνη / μόνος». The lists confirm which note is lost at this point."
+    },
+    {
+     "source": "Bacchius, Isag., Jan p. 300, archive.org OCR",
+     "url": "https://archive.org/download/musiciscriptoresjank/musiciscriptoresjank_djvu.txt",
+     "status": "checked",
+     "found": "«Ἡ μέντοι μέση δοκεῖ ἔχειν πρὸς τὰς λοιπάς τινα διαφοράν· κατὰ μὲν γὰρ τὰς συναφὰς βαρύπυκνος, κατὰ δὲ τὴν διάζευξιν ἄπυκνος.»",
+     "bears_on": "neither",
+     "how": "The theorists did single out the mese, but here for its pyknon position, not for its name. It is no parallel for 'μέση μόνως'."
+    }
+   ],
+   "nothing_found": "I found no attestation in any theorist, or in LSJ, DGE or Bailly, of μόνως or μόνος qualifying a note name. Lampe, Sophocles (OCR unusable), LBG and Kriaras were not checked for μόνως.",
+   "supports": "reading 2",
+   "strength": "weak",
+   "reasoning": "The internal arithmetic (15 notes; 1:8 = 8:15) shows a name lost exactly where μόνως stands, and no theorist ever qualifies μέση. Both facts suggest the place is disturbed, which supports marking it. But μόνως is the reading of Bas., Par. and V, and LSJ attests later μόνως = 'simply, only', so 'mese simply' is not impossible. H's μόν(ος) is uncertain, and masculine μόνος with μέση would not agree. The evidence shows a corrupt context more clearly than it shows the word itself is corrupt. The editor may prefer to keep μόνως and mark the lacuna instead."
+  },
+  {
+   "place": "place 06",
+   "findings": [
+    {
+     "source": "Evidence file section-2.json (witness lines and notes on Bas.)",
+     "status": "checked",
+     "found": "H 65r.16-17 «ὅσον ὀκτὼ ἥμισυ· τὴν δὲ δίεσιν, ὅσον ὀκτὼ τέταρτον». V 77r.1-2 «ὅσον ὀκτὼ ἥμισυ … ὅσον ὀκτὼ τέταρτον». Par. 22r.8-9 «οἷον ὀκτὼ ἥμισυ … ὅσον ὀκτωτέταρτον». Bas. 25.24-25 «οἷον * ὀκτὼ ἥμισυ … ὅσον † ὀκτωτέταρτον», with Xylander's margins «* τοῦ ἐννέα πρὸς addo.» and «† iterū eadem uerba addo.»",
+     "bears_on": "reading 1",
+     "how": "The supplement ⟨τοῦ ἐννέα πρὸς⟩ is Xylander's conjecture and is in no witness. H and V have ὅσον both times. οἷον is found only in Bas. and Par."
+    },
+    {
+     "source": "LSJ s.v. ἥμισυς II (Logeion API)",
+     "url": "https://anastrophe.uchicago.edu/logeion-api/detail?w=ἥμισυς&type=normal",
+     "status": "checked",
+     "found": "«after Numerals, ἐν δυοῖν καὶ ἡμίσει ἡμέρας …; without καί, μυριάδων ἑπτὰ ἡμίσους Plu. Mar. 34: indecl., τριῶν ἥμισυ σταδίων Str. 8.6.21, cf. PTeb. 110.5 (i B.C.), Plu. Cat.Mi. 44, etc.»",
+     "bears_on": "reading 1",
+     "how": "A numeral followed by indeclinable ἥμισυ without καί is the normal way to write a mixed number, so «ὀκτὼ ἥμισυ» = 8½ is idiomatic and needs no supplement."
+    },
+    {
+     "source": "Theon of Smyrna, Expositio, ed. Hiller (1878) p. 70.6 and apparatus; page image checked",
+     "url": "https://archive.org/details/theonissmyrnaei00theogoog",
+     "status": "checked",
+     "found": "Text «γενέσθαι δύο ἥμισυ τόνων τελείων». Apparatus: «6 δύο καὶ ἥμισυ Bull. cf. Strab. VIII p. 379 τριῶν ἥμισυ σταδίων. Didymus apud Prisc. de fig. num. 17 τοὺς τέσσαρας ἥμισυ πήχεις. Plut. Cat. min. 44 δεκαδύο ἥμισυ μυριάδας».",
+     "bears_on": "reading 1",
+     "how": "This is how an editor treated the same idiom. Hiller keeps the transmitted «δύο ἥμισυ» (2½) against Bullialdus' supplement «καὶ» and defends it with parallels. The same principle tells against adding words to «ὀκτὼ ἥμισυ»."
+    },
+    {
+     "source": "Theon of Smyrna, ed. Hiller p. 69.13-18; page image checked",
+     "url": "https://archive.org/details/theonissmyrnaei00theogoog",
+     "status": "checked",
+     "found": "«τοῦ γὰρ τόνου ἐπογδόου ὄντος τὸ ἡμιτόνιον δὶς ἐπόγδοον ἔσται, τουτέστιν ἐφεκκαιδέκατον … οὐδὲ γὰρ οἷόν τε τὸ ἐπόγδοον διαίρεσιν ἐπιδέξασθαι».",
+     "bears_on": "reading 1",
+     "how": "For a 9:8 tone, the 'semitone' as a doubled eighth is 17:16, which is exactly 8½:8. These are reading 1's numbers without any supplement."
+    },
+    {
+     "source": "Theon of Smyrna, ed. Hiller p. 70.1-3 and 14-19; page image checked",
+     "url": "https://archive.org/details/theonissmyrnaei00theogoog",
+     "status": "checked",
+     "found": "«ἀμέλει τοῦ ἐπογδόου πυθμένος τὸ διάστημα τουτέστι τῶν θ' πρὸς τὰ η' ἡ μονὰς οὐ τέμνεται» and «ὁ ἐπόγδοος πυθμὴν τὸ διάστημα ἔχει μονάδα, ἥτις ἀδιαίρετος … μονὰς γὰρ οὐ διαιρεῖται».",
+     "bears_on": "reading 1",
+     "how": "The sentence that follows in our text (Bas. 26.1, «εἰ γὰρ καὶ ἡ μονὰς οὐ τέμνεται κατὰ τοὺς ἀριθμούς, ἀλλ’ ἡ ἐν ὕλῃ … τέμνεται») answers exactly this objection about the unit between 8 and 9. It presupposes that the unit is split, giving 8½ and 8¼, which is reading 1's sense."
+    },
+    {
+     "source": "Plutarch, De animae procreatione 18 (1021e), ed. Bernardakis (Teubner 1895), Perseids CTS",
+     "url": "https://cts.perseids.org/read/greekLit/tlg0007/tlg134/perseus-grc2/18",
+     "status": "checked",
+     "found": "«ἔστι γὰρ τὸ μὲν πρότερον ἐφεπτακαιδέκατον, τὸ δὲ δεύτερον ἐφεξκαιδέκατον· εἰς ἄνισα τοίνυν τέμνεται τὸ ἐπόγδοον».",
+     "bears_on": "reading 1",
+     "how": "Splitting 9:8 arithmetically at its midpoint (16:17:18 = 8:8½:9) is an established doctrine. The text's 8½:8 semitone is that doctrine."
+    },
+    {
+     "source": "Theon of Smyrna, ed. Hiller p. 53.8-16, archive.org OCR",
+     "url": "https://archive.org/download/theonissmyrnaei00theogoog/theonissmyrnaei00theogoog_djvu.txt",
+     "status": "checked",
+     "found": "«τὸ μέντοι ἡμιτόνιον οὐχ ὡς ἥμισυ τόνου λέγεται, ὥσπερ Ἀριστόξενος ἡγεῖται … τὰ γὰρ θ' οὐχ οἷόν τε διαιρεθῆναι εἰς ἴσα».",
+     "bears_on": "both",
+     "how": "Both notions are current in the tradition: the Aristoxenian 'half of the tone' (the sense Xylander's 'half of 9:8' would give) and the Pythagorean refusal to halve 9:8. This does not decide the place."
+    },
+    {
+     "source": "LSJ s.v. ὅσος IV.3 (Logeion API)",
+     "url": "https://anastrophe.uchicago.edu/logeion-api/detail?w=ὅσος&type=normal",
+     "status": "checked",
+     "found": "«of size or distance, ὅσον τε about, nearly … ὅσον τ' ἐπὶ ἥμισυ Od. 13.114 …; in Att. ὅσον alone, ὅσον δύο πλέθρα Th. 7.38; ὅσον δύ' ἢ τρία στάδια Pl. Phdr. 229c».",
+     "bears_on": "reading 1",
+     "how": "ὅσον with numerals is idiomatic, so H and V's ὅσον … ὅσον is good Greek and keeps the two clauses parallel."
+    },
+    {
+     "source": "LSJ s.v. οἷος (Logeion API)",
+     "url": "https://anastrophe.uchicago.edu/logeion-api/detail?w=οἷος&type=normal",
+     "status": "checked",
+     "found": "οἷον «b as for instance …; c in numerical estimates, about, οἷον δέκα σταδίους Th. 4.90».",
+     "bears_on": "both",
+     "how": "οἷον with a numeral is also good Greek. The author uses οἷον = 'for instance' at Bas. 28.19, 29.16 and 31.16, so the οἷον of Bas. and Par. is lexically acceptable. The supplement, not οἷον, is what separates reading 2."
+    },
+    {
+     "source": "LSJ s.v. τέταρτος II.2 (Logeion API)",
+     "url": "https://anastrophe.uchicago.edu/logeion-api/detail?w=τέταρτος&type=normal",
+     "status": "checked",
+     "found": "«(sc. μέρος) a quarter, D.S. 1.50, POxy. 1293.25 (ii A.D.)».",
+     "bears_on": "reading 1",
+     "how": "τέταρτον = '¼' works like ἥμισυ, so «ὀκτὼ τέταρτον» = 8¼ by the same idiom."
+    }
+   ],
+   "nothing_found": "I found no attestation of a phrase like «τοῦ ἐννέα πρὸς ὀκτὼ ἥμισυ» meaning 'half of 9:8' in the sources consulted. I found no direct attestation of «ὀκτὼ τέταρτον» specifically; it rests on the analogy with ἥμισυ.",
+   "supports": "reading 1",
+   "strength": "strong",
+   "reasoning": "H and V transmit ὅσον ὀκτὼ ἥμισυ … ὅσον ὀκτὼ τέταρτον. LSJ (ἥμισυς II) and Hiller's note on Theon p. 70.6 show that 'numeral + ἥμισυ' without καί is a normal mixed number (8½), and that editors keep it rather than supplement. Theon (pp. 69-70) and Plutarch (De an. procr. 1021e) show that 8½:8 = 17:16 is the arithmetically halved tone. The text's next sentence, on cutting the unit, presupposes exactly these numbers. Xylander's ⟨τοῦ ἐννέα πρὸς⟩ is a conjecture in no witness, and the transmitted text is acceptable. ὅσον and οἷον are both lexically fine; ὅσον has the better witnesses (H, V) and parallels the second clause."
+  },
+  {
+   "place": "place 07",
+   "findings": [
+    {
+     "source": "Evidence files section-2, section-4 and section-5 (witness lines); section-2 P fragment",
+     "status": "checked",
+     "found": "At 26.16 ἑξκαιδέκατον in Bas., H 65v.13, Par. 22v.6 and V 77v.2. At 29.20 ἑξκαιδέκατος in Bas., H 67v.11, Par. 24v.16 and V 79v.20. But the compound has κκ: ἑκκαιδεκάχορδον at Bas. 25.12 (H 65r.3, Par. 21v.15, V 76v.8) and Bas. 31.4 (H 68v.3 ἐκκαιδεκάχορδον). At P fr. 1, Vincent prints ἑξδέκατον (Vinc. 338.17), with n. 6 «Ms. ἑνδ.».",
+     "bears_on": "reading 1",
+     "how": "All witnesses spell the ordinal with ξκ and the compound with κκ, at both places each. That stable distribution points to the archetype or the author's practice, not random scribal spelling. Normalising would make the ordinal match the compound."
+    },
+    {
+     "source": "LSJ s.vv. ἑξκαιδέκατος and ἑξκαίδεκα (Logeion API)",
+     "url": "https://anastrophe.uchicago.edu/logeion-api/detail?w=ἑξκαιδέκατος&type=normal",
+     "status": "checked",
+     "found": "«ἑξκαιδέκατος, sixteenth, Hp. Epid. 1.4.5 [1.26.εʹ].» «ἑξκαί-δεκα, sixteen, Hp. Acut.(Sp.) 8, Plu. Isid. 2.367f.»",
+     "bears_on": "reading 1",
+     "how": "LSJ gives the ξκ forms their own headwords. They are an accepted spelling, not a misspelling to be normalised away."
+    },
+    {
+     "source": "LSJ and Bailly 2024 s.vv. ἑξκαιδεκάεδρος, ἑξκαιδεκάκροτος, ἑξκαιπεντηκονταπλάσιος, ἑξκαιτεσσαρακοντάμετρος, ἑξκαιδεκασύλλαβος (Logeion API)",
+     "url": "https://anastrophe.uchicago.edu/logeion-api/detail?w=ἑξκαιπεντηκονταπλάσιος&type=normal",
+     "status": "checked",
+     "found": "LSJ: ἑξκαιδεκάεδρος Ps.-Ptol. Centil. 222; ἑξκαιδεκάκροτος Ael. Tact.; ἑξκαιπεντηκονταπλάσιος Plu. Fac.lun. 925c; ἑξκαιτεσσαρακοντάμετρος Sch. Ar. Pax 974. Bailly: ἑξκαιδεκασύλλαβος Héph. 10, 12. Pape on ἑξκαιπεντηκονταπλάσιος: «(nicht getrennt zu schreiben), für ἑκκαιπ.»",
+     "bears_on": "reading 1",
+     "how": "The ξκ spelling is widespread in post-classical scientific and technical Greek, including mathematical and astronomical texts."
+    },
+    {
+     "source": "Bailly 2024 and Pape s.v. ἑξκαιδέκατος (Logeion API)",
+     "url": "https://anastrophe.uchicago.edu/logeion-api/detail?w=ἑξκαιδέκατος&type=normal",
+     "status": "checked",
+     "found": "Bailly: «ἑξ·και·δέκατος, c. ἑκκαιδέκατος, Hpc.» Pape: «ἑξκαιδέκατος, u. ä., = ἑκκαιδέκατος usw., Hippocr. u. Sp.»",
+     "bears_on": "reading 1",
+     "how": "The form is attested in Hippocrates and later writers ('Sp.')."
+    },
+    {
+     "source": "DGE s.vv. ἑκκαίδεκα and ἑκκαιδέκατος (Logeion API)",
+     "url": "https://anastrophe.uchicago.edu/logeion-api/detail?w=ἑκκαιδέκατος&type=normal",
+     "status": "checked",
+     "found": "Under ἑκκαίδεκα: «Alolema: … ἑξκαίδεκα Plu.2.367e». Under ἑκκαιδέκατος: alolemas fem. -α, Lesb. ἐκκαιδέκοτος, Boeot. ἑσκηδέκατος. It cites «ἡ ἑ. … Hp.Epid.1.26.5» under ἑκκαιδέκατος, where LSJ cites the same passage as ἑξκαιδέκατος.",
+     "bears_on": "both",
+     "how": "The main headword is ἑκκαιδέκατος, which supports reading 2 as the standard form. But lexica and editions treat the same Hippocratic passage differently, so practice is not uniform."
+    },
+    {
+     "source": "Plutarch, De Iside et Osiride 42 (367e-f), Perseus Greek text (perseus-grc2)",
+     "url": "https://cts.perseids.org/read/greekLit/tlg0007/tlg089/perseus-grc2/42",
+     "status": "checked",
+     "found": "«τοῦ γὰρ ἑξκαίδεκα τετραγώνου καὶ τοῦ ὀκτωκαίδεκα ἑτερομήκους» and «κατὰ τὸν ἐπόγδοον λόγον εἰς ἄνισα διαστήματα τεμνόμενος».",
+     "bears_on": "reading 1",
+     "how": "This is a close topical parallel: 16 as a square number, in an arithmetical-musical passage on the epogdoon, spelled with ξκ and kept so by the modern editor."
+    },
+    {
+     "source": "Plutarch, De an. procr. 18 (1021e), ed. Bernardakis, Perseids CTS; LSJ s.v. ἐφεξκαιδέκατος",
+     "url": "https://cts.perseids.org/read/greekLit/tlg0007/tlg134/perseus-grc2/18",
+     "status": "checked",
+     "found": "Text: «τὸ δὲ δεύτερον ἐφεξκαιδέκατον». LSJ: «ἐφεξκαιδέκατος, ον, = ἐφεκκαιδέκατος, λόγος Plu. An.procr. 2.1021e.»",
+     "bears_on": "reading 1",
+     "how": "In a music-ratio context, both the editor and LSJ keep the ξκ spelling."
+    },
+    {
+     "source": "Theon of Smyrna, ed. Hiller p. 69.15-17; page image checked",
+     "url": "https://archive.org/details/theonissmyrnaei00theogoog",
+     "status": "checked",
+     "found": "«τουτέστιν ἐφεκκαιδέκατον … ὅ ἐστι μέρος ἔλαττον ἑκκαιδεκάτου».",
+     "bears_on": "reading 2",
+     "how": "A standard edition of a music theorist prints the κκ form. Both spellings coexist in edited theory texts."
+    },
+    {
+     "source": "Jannaris, An Historical Greek Grammar (1897) §§645-646, pp. 172-173 (archive.org OCR)",
+     "url": "https://archive.org/details/jannaris-an-historical-greek-grammar",
+     "status": "checked",
+     "found": "§645: 16 = ἑκκαίδεκα (ancient), δέκα ἕξ (later), modern Greek δεκάξε. §646: the ordinal is given as «ἕκτος καὶ δέκατος». The ξκ spelling is not mentioned.",
+     "bears_on": "neither",
+     "how": "Jannaris does not discuss ξκ against κκ."
+    }
+   ],
+   "nothing_found": "Gignac, Mayser and Threatte on ξκ/κκ were not accessible. papyri.info and Scaife searches were blocked by bot checks. LBG and Kriaras were not consulted. I found no statement of the practice of modern Byzantine editions on normalising ἑξκαι-.",
+   "supports": "reading 1",
+   "strength": "moderate",
+   "reasoning": "The ξκ spelling is unanimous in all witnesses at both places. LSJ, Bailly and Pape treat it as a recognised post-classical form with its own headwords, attested in Hippocrates, Plutarch, Ps.-Ptolemy, Aelian, Hephaestion and the scholia. Modern editors of Plutarch keep it in arithmetical and musical contexts closely parallel to ours (De Iside 367e: ἑξκαίδεκα τετράγωνος; De an. procr. 1021e: ἐφεξκαιδέκατος). It is a form, not a mere misspelling, so the rule against correcting Byzantine usage favours keeping it. For reading 2: ἑκκαιδέκατος is the main headword (LSJ, DGE); the author's own compound has κκ, so normalising would make the text consistent; and Hiller prints κκ in Theon. If the editor counts ξκ/κκ as orthography, reading 2 is defensible."
+  }
+ ],
+ "seen_prohibited": "1) Bailly 2024 s.v. ἐφεξκαιδέκατος (Logeion) cites «Anon. (Vincent, Notices sur div. manuscr. de mus. p. 292)». The P fragments of this text appear in the same Vincent volume at pp. 338-342. Page 292 is probably a different anonymous treatise, but I could not verify that without opening the volume. I did not open it and did not use the Bailly citation as evidence. 2) Jan's Musici scriptores Graeci has editorial notes that mention later Byzantine writers excluded here: Pachymeres (note on Nicomachus, Jan p. 257) and Bryennius (Cleonides notes and apparatus «Bry.», pp. 182, 199-200). I saw them and did not use them. 3) No search hit, dictionary entry or corpus page I saw quoted or discussed this text as Anon. Quadr., Heiberg, Ps.-Psellus or the Quadrivium of 1008. The searches for ἑξκαιδέκατος and ἠκριβωμένη returned only lexicon, morphology and word-list pages (Galen, Epiphanius). I put no Greek phrase of this text into any search engine; I searched only single words, technical terms and constructions with other words.",
+ "summary": "Work files are in work-1 (Logeion API downloads, Jan and Hiller OCR texts, page-image crops). Results by place:\n- 01: reading 2, strong. H, V and Par. agree on σύνοψις ἠκριβωμένη; Bas. stands alone, and the lexica and grammars are neutral.\n- 02: reading 2, strong. Every witness has τοσούτου; LSJ ἀξιόω (acc. + gen., with Pl. Lg. 917d ὁπόσης … τιμῆς) and Smyth §3028 on hyperbaton fit it.\n- 03: reading 1, strong. H, V and Par. read γάρ against Bas.'s δέ. Smyth §2346d shows εἰ δὲ μή is a fixed idiom a printer could drift into, and Thayer s.v. δέ documents γάρ/δέ confusion in manuscripts.\n- 04: reading 2 (obelus), moderate. Every theorist (Nicomachus Ench. 11-12, Exc. 9, Cleonides 4, Bacchius, Gaudentius 6, Alypius, Aristides via DGE) calls this note διάτονος ὑπατῶν / ὑπατῶν διάτονος / λιχανὸς ὑπατῶν. The -ων > -η corruption in these names is documented in Cleonides' manuscripts (Jan p. 200: ὑπάτων] ὑπάτη B; συνημμένη M¹WB). All witnesses agree, which keeps the strength moderate.\n- 05: reading 2, weak. A note name is demonstrably lost exactly where μόνως stands (15-note count; Xylander's διάτονος μέσων), and no theorist qualifies μέση. But LSJ attests later μόνως = 'simply'.\n- 06: reading 1, strong. H and V read ὅσον … ὅσον. LSJ ἥμισυς II and Hiller's note at Theon p. 70.6 show that 'numeral + ἥμισυ' without καί is idiomatic. Theon pp. 69-70 and Plutarch 1021e show 8½:8 = 17:16 as the halved tone, and the text's next sentence on cutting the unit presupposes these numbers. Xylander's supplement is in no witness.\n- 07: reading 1, moderate. ξκ is unanimous in the witnesses and has its own headwords in LSJ, Bailly and Pape; Plutarch editors keep it (De Iside 367e ἑξκαίδεκα τετράγωνος; De an. procr. 1021e ἐφεξκαιδέκατος). Against it: ἑκκαιδέκατος is the main headword, and the author writes ἑκκαιδεκάχορδον with κκ."
+}
