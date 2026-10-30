@@ -1,0 +1,132 @@
+{
+ "place_numbers": {
+  "place 01": "23.2",
+  "place 02": "24.7",
+  "place 03": "24.23",
+  "place 04": "25.6",
+  "place 05": "25.7",
+  "place 06": "25.24",
+  "place 07": "16th",
+  "place 08": "27.2",
+  "place 09": "P1-symphthar",
+  "place 10": "27.18",
+  "place 11": "27.24",
+  "place 12": "28.1",
+  "place 13": "28.4",
+  "place 14": "28.11",
+  "place 15": "28.18",
+  "place 16": "29.5",
+  "place 17": "29.8",
+  "place 18": "29.14",
+  "place 19": "P2-proslamb",
+  "place 20": "P2-pepoientai",
+  "place 21": "P2-symphthar",
+  "place 22": "P2-kekr",
+  "place 23": "P2-end",
+  "place 24": "32.15",
+  "place 25": "33.12"
+ },
+ "key": {
+  "23.2": {
+   "1": "gpt",
+   "2": "claude"
+  },
+  "24.7": {
+   "1": "gpt",
+   "2": "claude"
+  },
+  "24.23": {
+   "1": "claude",
+   "2": "gpt"
+  },
+  "25.6": {
+   "1": "claude",
+   "2": "gpt"
+  },
+  "25.7": {
+   "1": "claude",
+   "2": "gpt"
+  },
+  "25.24": {
+   "1": "claude",
+   "2": "gpt"
+  },
+  "16th": {
+   "1": "claude",
+   "2": "gpt"
+  },
+  "27.2": {
+   "1": "gpt",
+   "2": "claude"
+  },
+  "P1-symphthar": {
+   "1": "gpt",
+   "2": "claude"
+  },
+  "27.18": {
+   "1": "gpt",
+   "2": "claude"
+  },
+  "27.24": {
+   "1": "gpt",
+   "2": "claude"
+  },
+  "28.1": {
+   "1": "claude",
+   "2": "gpt"
+  },
+  "28.4": {
+   "1": "gpt",
+   "2": "claude"
+  },
+  "28.11": {
+   "1": "gpt",
+   "2": "claude"
+  },
+  "28.18": {
+   "1": "gpt",
+   "2": "claude"
+  },
+  "29.5": {
+   "1": "claude",
+   "2": "gpt"
+  },
+  "29.8": {
+   "1": "gpt",
+   "2": "claude"
+  },
+  "29.14": {
+   "1": "gpt",
+   "2": "claude"
+  },
+  "P2-proslamb": {
+   "1": "gpt",
+   "2": "claude"
+  },
+  "P2-pepoientai": {
+   "1": "claude",
+   "2": "gpt"
+  },
+  "P2-symphthar": {
+   "1": "claude",
+   "2": "gpt"
+  },
+  "P2-kekr": {
+   "1": "gpt",
+   "2": "claude"
+  },
+  "P2-end": {
+   "1": "claude",
+   "2": "gpt"
+  },
+  "32.15": {
+   "1": "claude",
+   "2": "gpt"
+  },
+  "33.12": {
+   "1": "claude",
+   "2": "gpt"
+  }
+ },
+ "note": "place NN -> place id; for each id, which edition reading 1 and 2 belong to (kept out of the judges' package)"
+}

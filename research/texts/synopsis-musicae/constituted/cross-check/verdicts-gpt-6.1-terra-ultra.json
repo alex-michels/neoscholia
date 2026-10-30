@@ -1,0 +1,215 @@
+{
+  "judge": {
+    "model": "GPT-6",
+    "date": "2026-10-30",
+    "web_access": "false"
+  },
+  "verdicts": [
+    {
+      "place": "place 01",
+      "choice": "2",
+      "confidence": "high",
+      "first_view": "2: H, Par., V place σύνοψις before ἠκριβωμένη; Bas. reverses them.",
+      "reasoning": "H 64r.1, Par. 20v.1–2 and V 75r.12 put σύνοψις before ἠκριβωμένη. Bas. alone reverses the words; the sense is unchanged, and its two-line heading may have encouraged rearrangement.",
+      "apparatus": "ἠκριβωμένη σύνοψις Bas."
+    },
+    {
+      "place": "place 02",
+      "choice": "2",
+      "confidence": "high",
+      "first_view": "2: All four witnesses give τοσούτου, a genitive with ἠξίωσαν θαύματος.",
+      "reasoning": "Bas., H, Par. and V all have τοσούτου; the genitive fits ἠξίωσαν with θαύματος.",
+      "apparatus": "τοσοῦτον is unsupported."
+    },
+    {
+      "place": "place 03",
+      "choice": "1",
+      "confidence": "high",
+      "first_view": "1: H, Par., V give explanatory γάρ, against Bas. δέ.",
+      "reasoning": "H 64v.11, Par. 21r.19–20 and V 76r.11 have γάρ. The clause explains the preceding definition; Bas. δ’ would also make sense as a contrast, but stands alone.",
+      "apparatus": "δ’ Bas."
+    },
+    {
+      "place": "place 04",
+      "choice": "1",
+      "confidence": "medium",
+      "first_view": "1: All witnesses give ὑπάτη διάτονος; its anomalous note-name need not be treated as incurable.",
+      "reasoning": "All four witnesses have ὑπάτη διάτονος, despite the position of the note in the sequence. The author also uses nonstandard note names such as διεζευγμένη and παράμεσος; this permits retention without asserting that the words are incurable.",
+      "apparatus": "ὑπάτων διάτονος and διάτονος ὑπάτων are possible unattested corrections; †ὑπάτη διάτονος† is an alternative editorial judgment."
+    },
+    {
+      "place": "place 05",
+      "choice": "1",
+      "confidence": "medium",
+      "first_view": "1: Bas., Par., V give μόνως; H has doubtful μόν(ος). The adverb is defensible as describing μέση named alone.",
+      "reasoning": "Bas., Par. and V explicitly have μόνως, reasonably meaning that μέση is named without a tetrachord qualifier. H 64v.20 has a suspension whose expansion is uncertain, so it does not compel μόνος.",
+      "apparatus": "μόν(ος) H, expansion uncertain; †μόνος† editorial."
+    },
+    {
+      "place": "place 06",
+      "choice": "1",
+      "confidence": "medium",
+      "first_view": "1: H and V give ὅσον twice; the fractional figures can be read against eight without the unattested double supplement.",
+      "reasoning": "H 65r.16–18 and V 77r.1–2 have ὅσον in the first clause; Bas. and Par. have οἷον. The second ὅσον is unanimous. The figures 8½ and 8¼ fall between 8 and 9 and can be understood with the author’s following discussion of division, without twice inserting an unattested ratio.",
+      "apparatus": "οἷον Bas. Par. at first occurrence; τοῦ ἐννέα πρὸς added twice Xyl. in margin, conjecture."
+    },
+    {
+      "place": "place 07",
+      "choice": "other",
+      "other": "ἑξκαιδέκατον (26.16); ἑξκαιδέκατος (29.20); ⟨⟨{ἑνδ.} ⟨ἑξκαιδέκατον⟩⟩⟩ (P fr. 1, Vinc. 338.17)",
+      "confidence": "medium",
+      "first_view": "other: ἑκκαιδέκατον and ἑκκαιδέκατος in the two main-text places, normalized; in P ⟨ἑκκαιδέκατον⟩, within the P passage. P has abbreviated ἑνδ., not an unambiguous full form; sixteen is needed by the arithmetic.",
+      "reasoning": "Revised after edition 1 notes that ἑξκαιδέκατος is an independently attested lexical form, not merely an orthographic error. H, Bas., Par. and V have ἑξκαι- at the two main-text places, so retain it. At P Vincent reports only ἑνδ.; expansion is uncertain, and the following 8 and 32 show that 16 is intended. The P numeral is therefore a marked conjecture.",
+      "apparatus": "P ἑνδ. (Vinc. 338 n. 6); ἑξδέκατον Vincent; ἑκκαιδέκατον / ἑκκαιδέκατος alternative normalized forms."
+    },
+    {
+      "place": "place 08",
+      "choice": "2",
+      "confidence": "high",
+      "first_view": "2: All four witnesses give μετειληφώς, an acceptable perfect.",
+      "reasoning": "Bas., H, Par. and V all have μετειληφώς, a defensible perfect of μεταλαμβάνω: the diagonal has been taken as the side.",
+      "apparatus": "μεταληφὼς edition 1, unattested here."
+    },
+    {
+      "place": "place 09",
+      "choice": "other",
+      "other": "⟨⟨σύμφρασις … ἡ σύμφρασις⟩⟩",
+      "confidence": "low",
+      "first_view": "other: ⟨⟨σύμφρασις … ἡ σύμφρασις⟩⟩, preserving the P reading in Vincent's footnote; the syntax is awkward and confidence low.",
+      "reasoning": "P has σύμφρασις at 338.4, and Vincent 338 n. 3 expressly reports ἡ σύμφρασις at 338.7. The nominative with ἐγγίνεται … εἶναι is awkward, but I retain the reported reading provisionally. Edition 2 makes a serious case for σύμφθαρσις from fusion and the author’s συμφθάρσεως elsewhere; its internal support does not establish the word in P.",
+      "apparatus": "τὴν σύμφρασιν Vincent at 338.7, grammatical conjecture; σύμφθαρσις conjecture; σύγκρασις suggested by Vincent 338 n. 1. The established footnote reads σύγκρασις, despite a different claim in edition 1’s note."
+    },
+    {
+      "place": "place 10",
+      "choice": "2",
+      "confidence": "high",
+      "first_view": "2: All four witnesses give ὁδεύοντα, a participle agreeing with διαστήματα.",
+      "reasoning": "The actual transcriptions of Bas. 27.18, H 66r.22, Par. 23r.19 and V 78r.17 all read ὁδεύοντα. It agrees with διαστήματα. Edition 1’s note claims Bas. and V have ὁδεύονται, but their established witness lines contradict it.",
+      "apparatus": "ὁδεύονται edition 1, unsupported by the witness lines."
+    },
+    {
+      "place": "place 11",
+      "choice": "2",
+      "confidence": "high",
+      "first_view": "2: All four witnesses have χορδῶν; χορδίων has no attestation.",
+      "reasoning": "Bas., H, Par. and V read χορδῶν, coordinated with φθόγγων in the description of what the interval traverses.",
+      "apparatus": "χορδίων edition 1, unattested."
+    },
+    {
+      "place": "place 12",
+      "choice": "1",
+      "confidence": "high",
+      "first_view": "1: H, Par., V have τελειούμενον, Bas. τελούμενον, probably assimilated to nearby τελούμενον.",
+      "reasoning": "H, Par. and V give τελειούμενον, while Bas. τελούμενον can have been assimilated to the same word in the preceding line. The fuller verb suits completion of the octave.",
+      "apparatus": "τελούμενον Bas."
+    },
+    {
+      "place": "place 13",
+      "choice": "2",
+      "confidence": "high",
+      "first_view": "2: H, Par., V have ἐπαναδιπλουμένων; Bas. has ἀναδιπλουμένων.",
+      "reasoning": "H, Par. and V have ἐπαναδιπλουμένων, compatible with αὖθις and repeated unfolding from the octave. Bas. alone omits ἐπ-.",
+      "apparatus": "ἀναδιπλουμένων Bas."
+    },
+    {
+      "place": "place 14",
+      "choice": "2",
+      "confidence": "medium",
+      "first_view": "2: All four give δὶς twice; the following passage shows inconsistent terminology, but no witness supports rewriting both names.",
+      "reasoning": "Bas., H, Par. and V all use δὶς; the same names recur at 28.6–7 and in P fr. 2. As edition 2 argues, the surrounding examples and ratios identify an octave plus fourth or fifth, so δὶς can describe those intervals occurring again above the octave. Preserve the author’s recurring terminology.",
+      "apparatus": "Xyl. in margin proposes διὰ πασῶν καὶ διὰ τεσσάρων / διὰ πέντε in place of δὶς διὰ τεσσάρων / διὰ πέντε; conjectures."
+    },
+    {
+      "place": "place 15",
+      "choice": "other",
+      "other": "ἰσοχρόνως τοῦ ὀξέως τῷ βαρεῖ",
+      "confidence": "medium",
+      "first_view": "1: H, Bas., Par. read ὀξέως τῷ βάρει; preserve Byzantine ὀξέως and the noun βάρει.",
+      "reasoning": "Revised after edition 2’s argument: τῷ βαρεῖ, the adjective in V, balances τοῦ ὀξέως and the nearby paired substantives τῶν βαρέων / τῶν ὀξέων. H and Par. accent βάρει as the noun, while Bas. has βαρεί. Retain the transmitted Byzantine genitive ὀξέως rather than silently replace it with ὀξέος.",
+      "apparatus": "βάρει H Par.; βαρεί Bas.; τοῦ ὀξέος τῷ βαρεῖ edition 2."
+    },
+    {
+      "place": "place 16",
+      "choice": "1",
+      "confidence": "high",
+      "first_view": "1: All four have προσωνυμίας, a perfectly sound genitive.",
+      "reasoning": "All four witnesses read προσωνυμίας, an intelligible genitive with ἔτυχε. No correction to the synonym is needed.",
+      "apparatus": "προσηγορίας edition 2, unattested."
+    },
+    {
+      "place": "place 17",
+      "choice": "2",
+      "confidence": "medium",
+      "first_view": "1: Delete the two unanimous occurrences of δὶς: the given 8½ and 9½ tones require an octave plus a fourth and an octave plus a fifth.",
+      "reasoning": "Revised after edition 2: the manuscript tradition repeatedly uses δὶς for the fourth or fifth occurring again in the second octave, including P fr. 2 and the lists at 28.6–12. The explicit 8½ and 9½ tones fix the intended compounds. Although deleting δὶς yields standard terminology, the recurrent usage is defensible.",
+      "apparatus": "δὶς omitted twice by Xyl. in margin, conjectural deletion; retained Bas. H Par. V."
+    },
+    {
+      "place": "place 18",
+      "choice": "2",
+      "confidence": "medium",
+      "first_view": "1: Bas. omits both occurrences of δὶς and the numerical ratios 8:3 and 3:1 support its text; Par. omits the first, H and V retain both.",
+      "reasoning": "Revised after edition 2: H and V have δὶς in both items, and the same nonstandard terminology recurs throughout this author’s lists. The ratios 8:3 and 3:1 identify the octave compounds and do not require removing his δὶς. Bas. omits both; Par. omits the first only. Bas. may reflect correction, but this is an inference.",
+      "apparatus": "first δὶς omitted Bas. Par.; second δὶς omitted Bas.; Bas. additionally has δὲ after the first τοῦ."
+    },
+    {
+      "place": "place 19",
+      "choice": "1",
+      "confidence": "medium",
+      "first_view": "1: P has προλαμβανόμενον; a previously taken pitch makes sense in the contrast with immediately adjacent notes.",
+      "reasoning": "P as reported by Vincent has προλαμβανόμενον. It can mean the pitch taken first as the base for the ratios, contrasting with immediately adjacent notes. The author elsewhere uses προσλαμβανόμενος as a technical note name, but the transmitted phrase is intelligible. Print within ⟨⟨the P passage⟩⟩.",
+      "apparatus": "προσλαμβανόμενον conjecture, attractive as the name of the lowest note."
+    },
+    {
+      "place": "place 20",
+      "choice": "1",
+      "confidence": "high",
+      "first_view": "1: P πεποίηνται agrees with plural τὰ ἄμεσα διαστήματα.",
+      "reasoning": "P as printed by Vincent has plural πεποίηνται, agreeing with τὰ ἄμεσα καὶ μεταξὺ τούτων … διαστήματα. Print within ⟨⟨the P passage⟩⟩.",
+      "apparatus": "πεποίηται edition 2, unattested."
+    },
+    {
+      "place": "place 21",
+      "choice": "other",
+      "other": "⟨⟨τὰ {ἐξυφθάρσεως} ⟨ἐκ συμφθάρσεως⟩ {διαστήματα} ⟨διαστημάτων⟩ … ὡς {ἐξυφθάρσεως} ⟨ἐκ συμφθάρσεως⟩ κίρνανται⟩⟩",
+      "confidence": "medium",
+      "first_view": "1: P reports ἐξυφθάρσεως twice; conjecture ἐκ συμφθάρσεως because the author's other usage and the context suggest combination of intervals.",
+      "reasoning": "P is reported as ἐξυφθάρσεως at both occurrences, not Vincent’s ἐξ φθάρσεως. The former cannot be confidently construed; the author’s repeated ἐκ συμφθάρσεως for the formation of one interval at Bas. 27.10, 32.10–11 and 32.17 makes this conjecture particularly apt. Vincent’s διαστημάτων also replaces P διαστήματα and is needed for the syntax. Both substitutions are marked as conjectural inside the P passage.",
+      "apparatus": "ἐξυφθάρσεως P (Vinc. 340 n. 2); ἐξ φθάρσεως Vincent; διαστήματα P (340 n. 3), διαστημάτων Vincent."
+    },
+    {
+      "place": "place 22",
+      "choice": "2",
+      "confidence": "medium",
+      "first_view": "2: P has κεκρυμμένων; constituent intervals may be described as hidden in the larger interval, so preserve the witness provisionally.",
+      "reasoning": "Vincent 340 n. 4 reports P κεκρυμμένων; components can intelligibly be described as latent within the composite intervals. Vincent’s κεκραμένων echoes κίρνανται, but is not required. Print within ⟨⟨the P passage⟩⟩.",
+      "apparatus": "κεκραμένων Vincent, conjecture."
+    },
+    {
+      "place": "place 23",
+      "choice": "other",
+      "other": "⟨⟨{μονάδος} ⟨μονάδων⟩ μὴ τεμνομένων, ὅτι μηδὲ τοῖς ἀριθμητικοῖς τοῦτο δέδοκται⟩⟩",
+      "confidence": "medium",
+      "first_view": "1: P has μονάδος, ὅτι, τοῦτο. Correct μονάδος to plural μονάδων to agree with τεμνομένων; ὅτι and τοῦτο are intelligible.",
+      "reasoning": "P has μονάδος, ὅτι and τοῦτο, according to Vincent 342 nn. 1–3. The singular μονάδος conflicts with plural τεμνομένων; Vincent’s plural is a minimal grammatical correction, marked here. P’s causal ὅτι and τοῦτο are intelligible: the arithmeticians do not accept division of the unit.",
+      "apparatus": "μονάδος P; μονάδων Vincent, conjecture; ὅ, τι … οὔ πω Vincent, against ὅτι … τοῦτο P."
+    },
+    {
+      "place": "place 24",
+      "choice": "1",
+      "confidence": "high",
+      "first_view": "1: H γοερώτερον fits the preceding comparative; Bas., Par., V have γοέτερον.",
+      "reasoning": "H 69r.19 has γοερώτερον, a regular comparative of γοερός alongside παθητικώτερον. Bas., Par. and V have γοέτερον; H offers the better form without conjecture.",
+      "apparatus": "γοέτερον Bas. Par. V."
+    },
+    {
+      "place": "place 25",
+      "choice": "1",
+      "confidence": "high",
+      "first_view": "1: παιήων is unanimous and a legitimate form; H, Par., V also correct Bas. ὑμεραῖος to ὑμέναιος.",
+      "reasoning": "Bas., H, Par. and V all have παιήων, a legitimate form for a paean. H, Par. and V also support ὑμέναιος against the misprint ὑμεραῖος in Bas.",
+      "apparatus": "παιών edition 2; ὑμεραῖος Bas."
+    }
+  ],
+  "summary": "The hardest decisions concern the author’s repeated but nonstandard names for compound intervals (14, 17–18), and P’s indirectly reported readings (9, 21–23). The explicit arithmetic makes the intended intervals clear, but does not by itself prove that the recurring terminology should be rewritten. In P the manuscript readings must be distinguished from Vincent’s printed conjectures; at 9 the interpretation remains particularly uncertain."
+}

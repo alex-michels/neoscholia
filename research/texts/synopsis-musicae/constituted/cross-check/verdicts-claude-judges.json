@@ -1,0 +1,388 @@
+[
+ {
+  "chunk": "A",
+  "judge": "A",
+  "result": {
+   "verdicts": [
+    {
+     "id": "23.2",
+     "choice": "2",
+     "confidence": "high",
+     "reasoning": "The heading reads τῆς μουσικῆς σύνοψις ἠκριβωμένη in H 64r.1 (between crosses), Par. 20v.1–2 (ΤΗΣ ΜΟΥΣΙΚΗΣ ΣΥΝΟ-|ψις ἠκριβωμένη) and V 75r.12 (in red). Only Bas. 23.1–2 has ΗΚΡΙΒΩΜΕΝΗ ΣΥΝΟΨΙΣ. Par. reprints the princeps, so the 1532 printed tradition had the noun first as well. Bas.'s order therefore goes back to the 1556 setting, probably to balance a two-line heading in capitals, and has no manuscript support. Both orders mean the same thing, so witness agreement decides. Edition 1's capital Ἠ only copies Bas.'s capitals. Print: Τῆς μουσικῆς σύνοψις ἠκριβωμένη.",
+     "apparatus": "Positive entry: σύνοψις ἠκριβωμένη H Par. V] ἠκριβωμένη σύνοψις Bas. (word order)."
+    },
+    {
+     "id": "24.7",
+     "choice": "2",
+     "confidence": "high",
+     "reasoning": "Every witness reads τοσούτου: Bas. 24.7, H 64r.16–17 (το|σούτου), Par. 20v.20–21, V 75v.11–12. No witness has τοσοῦτον, and edition 1 gives no note for it, so it is a slip in that edition. The genitive is also required by the grammar: ἀξιόω takes the person in the accusative (τὴν μουσικήν) and the thing deemed worthy in the genitive (τοσούτου θαύματος). Both editions agree on ἔχον (H Par.) against ἔχων (Bas. V) in the same line, which is right because the subject is τὸ πᾶν.",
+     "apparatus": "None. τοσοῦτον has no witness and is not recorded."
+    },
+    {
+     "id": "24.23",
+     "choice": "1",
+     "confidence": "high",
+     "reasoning": "H 64v.11, Par. 21r.19 and V 76r.11 all read εἰ γὰρ μή. Bas. stands alone, and its print is actually εἰ δ’ μή, an elided δ’ before a consonant with a clear elision mark (Bas. note; both collators checked the image). That is a typographical anomaly, not a considered reading. Par. prints γάρ with a κ-like compendium sort, the same sort it uses at 21v.18, 25v.15 and 27r.18, where Bas. prints γάρ. A compositor misreading that compendium in the printed copy explains Bas.'s δ’. The sense requires γάρ: the clause gives the reason for the definition just stated by stating its contrary. A note is called ἐναρμόνιος because it can be fitted to another note, for if it is not so uttered it is ἀπηχής and only a ψόφος. δέ would be possible Greek but has no support.",
+     "apparatus": "Positive entry: γὰρ H Par. V] δ’ Bas. (sic, elided before a consonant; = δέ)."
+    },
+    {
+     "id": "25.6",
+     "choice": "1",
+     "confidence": "medium",
+     "reasoning": "All four witnesses read ὑπάτη διάτονος: Bas. 25.6, H 64v.19 (written out in full), Par. 21v.8 and V 76r.21. The position of the note is fixed by its neighbours (παρυπάτη ὑπάτων before it, ὑπάτη μέσων after it), so it is the diatonic lichanos hypaton. The standard name would be λιχανὸς ὑπάτων διάτονος or διάτονος ὑπάτων. The obelus is the wrong tool here, whichever view one takes. If the words are corrupt, the cure (ὑπάτων) is obvious and the sense is certain, so the place is not incurable. If they are the author's, they need no sign. They can be the author's: he uses non-standard names elsewhere, in all witnesses. He writes adjectival διεζευγμένη (τρίτη / διάτονος / νήτη διεζευγμένη) for the standard διεζευγμένων, and παράμεσος for παραμέση. ὑπάτη is itself an adjective in origin, so 'the diatonic of the ὑπάτη tetrachord' is intelligible on the model of διάτονος διεζευγμένη. The form also stands in H, written in full only 32 years after the work was composed. Under the rule 'conjecture only where no witness gives an acceptable text', the unanimous reading is kept without obeli, and the difficulty goes in a note.",
+     "apparatus": "No variant entry. Add a note: 'ὑπάτη διάτονος Bas. H Par. V: the standard name is λιχανὸς ὑπάτων διάτονος / διάτονος ὑπάτων; ὑπάτων διάτονος would be the easy correction (cf. the author's διάτονος ὑπερβολαίων 25.10), but cf. his adjectival διάτονος διεζευγμένη 25.8; not emended.' Edition 2's obeli are an editorial sign, not a reading, and are not recorded."
+    },
+    {
+     "id": "25.7",
+     "choice": "1",
+     "confidence": "high",
+     "reasoning": "Bas. 25.7, Par. 21v.9 and V 76v.2 all read μόνως, written out. H 64v.20 has only μόν with a curl over the ν at the line end. That is a suspension whose expansion is uncertain: the H notes offer μόν(η), μόν(ος) or μόν(ον), and a curl of this kind can equally stand for -ως. So H does not attest μόνος and cannot be set against the clear reading of the other three. Edition 2 obelizes μόνος, which is one possible expansion of H's compendium, and prints it against three explicit witnesses. That turns an uncertainty in one witness into a corruption of the text. μέση μόνως ('plain mese', 'just mese') makes good sense. It is the only name in the list without a tetrachord qualifier, and comes straight after a run of names ending in …μέσων. Both editions agree on Xylander's supplement ⟨διάτονος μέσων⟩, which the 15-note count of 25.11–17 requires. That is not at issue here. Print: παρυπάτη μέσων, ⟨διάτονος μέσων⟩, μέση μόνως, παράμεσος.",
+     "apparatus": "μόνως Bas. Par. V] μόν(…) H (suspension at the line end, expansion uncertain: μόν(ως)? μόν(ος)? μόν(η)?). Edition 2's †μόνος† is not recorded as a reading."
+    },
+    {
+     "id": "25.24",
+     "choice": "1",
+     "confidence": "high",
+     "reasoning": "There are two questions here. (a) οἷον or ὅσον in the first clause. H 65r.16 and V 77r.1 read ὅσον; Bas. and Par. 22r.8 read οἷον. Bas. and Par. both go back to the 1532 princeps, so in effect they are one witness against H, the oldest, and V. In the second clause all witnesses read ὅσον (Bas. 25.25, H 65r.17, Par. 22r.9, V 77r.2). The two clauses are strictly parallel, and ὅσον expresses the quantity the sentence is about. Print ὅσον in both. (b) Xylander's marginal supplement τοῦ ἐννέα πρὸς, at both places, is in no witness: H, Par. and V all lack it. It is a conjecture, and the transmitted text does not need it. With the tone set as 9 : 8, ὅσον ὀκτὼ ἥμισυ / ὀκτὼ τέταρτον means 8½ and 8¼, that is, the unit between 8 and 9 halved and quartered. The very next sentence confirms this reading. At 26.1–3 (εἰ γὰρ καὶ ἡ μονὰς οὐ τέμνεται κατὰ τοὺς ἀριθμούς, ἀλλ’ ἡ ἐν ὕλῃ βλεπομένη μονὰς τέμνεται γεωμετρικῶς) the author answers exactly the objection that a unit cannot be split in numbers. That objection only arises if he has just written 8½ and 8¼. Edition 2 also keeps Bas.'s οἷον in the first clause but ὅσον in the second, which mixes the printed and manuscript traditions without any reason. ὀκτωτέταρτον in Bas. Par. against ὀκτὼ τέταρτον in H V is word division only. Print: ὡς εἶναι τὸ ἡμιτόνιον ὅσον ὀκτὼ ἥμισυ, τὴν δὲ δίεσιν ὅσον ὀκτὼ τέταρτον.",
+     "apparatus": "Entry 1: ὅσον H V] οἷον Bas. Par. Entry 2: ὀκτὼ (bis)] τοῦ ἐννέα πρὸς ὀκτὼ Xyl. in marg. (utroque loco: «* τοῦ ἐννέα πρὸς addo», «† iterum eadem verba addo»). The translator's note should explain the two ways of understanding the passage: 8½ and 8¼ as transmitted, against 'half / a quarter of 9 : 8' with Xylander's supplement."
+    },
+    {
+     "id": "16th",
+     "choice": "1",
+     "confidence": "high",
+     "reasoning": "At 26.16 all four witnesses read ἑξκαιδέκατον: Bas. 26.16, H 65v.13, Par. 22v.6 and V 77v.2. The Bas. note calls it a 'misprint' only by classical standards. The form exists: LSJ has ἑξκαιδέκατος as a lemma of its own ('sixteenth', Hp. Epid. 1.26), Pape gives it for Hippocrates and later writers, and the Greek monolingual dictionary marks it as ancient and medieval. Printing ἑκκαιδέκατον would correct the author's Byzantine usage into classical Greek, which the edition's principles forbid. A ξ/κ difference that changes the form of the word is not a matter of accent or breathing for orthographic normalisation to settle. The author's ἑκκαιδεκάχορδον at 25.12, in all witnesses, is a different word and is kept as it stands: the variation is transmitted and need not be levelled. For P fr. 1 (Vinc. 338.17), P's ἑνδ(έκατον) ('Ms. ἑνδ.') is impossible, because 11 is not a square. The number has to be 16, since its half (8) and its double (32) are not squares, as the text itself says. This P passage is a doublet of 26.13–27.3, so the emendation should take the form of the main text, ἑξκαιδέκατον. That is also closest to Vincent's ἑξδέκατον and to the ἑ-δ letters P reports. At 29.20 I could not see the witnesses, because that line is outside my evidence file. Apply the same rule there: keep ἑξκαιδέκατος if the witnesses agree on it, as edition 1's printing of Bas. implies, and do not normalise it.",
+     "apparatus": "26.16: no variant. Optional orthographic note: 'ἑξκαιδέκατον Bas. H Par. V (cf. LSJ s.v. ἑξκαιδέκατος); not normalised'. P fr. 1 (Vinc. 338.17): ἑξκαιδέκατον coni. (cf. 26.16)] ἑνδ(έκατον) P teste Vinc. | ἑξδέκατον Vinc. 29.20: an entry only if the witnesses there differ."
+    },
+    {
+     "id": "27.2",
+     "choice": "2",
+     "confidence": "high",
+     "reasoning": "Bas. 27.2, Par. 22v.19–20 (μετειλη-|φὼς) and V 77v.16 all read μετειληφώς, and so does P fr. 1 as Vincent prints it (Vinc. 338.24). H 66r.3 has a q-shaped ligature after μετ- that this scribe uses for both ει and α. The H transcription prefers μετειληφώς, so H is at best ambiguous and gives no support to the other form. μεταληφώς, with neither augment nor reduplication, is not a regular perfect participle of μεταλαμβάνω. It looks like an assimilation to the aorist μεταλαβών two lines earlier (26.24). Edition 1 gives no note for it. Comma after πλευράν, or none, is editorial punctuation.",
+     "apparatus": "None. At most a note: 'H's ligature can be read as ει or α; read μετειληφώς'."
+    },
+    {
+     "id": "P1-symphthar",
+     "choice": "2",
+     "confidence": "medium",
+     "reasoning": "Inside ⟨⟨ ⟩⟩ P is the only witness. Its σύμφρασις (338.4, and ἡ σύμφρασις at 338.7) does not give an acceptable text, so a conjecture is legitimate. LSJ glosses σύμφρασις only as 'continuous speech' (Hdn.Gr., Phot.), which is a term of discourse. Pape and the Greek dictionaries give 'connection of speech' or 'composition of words', never fusion. The argument, however, needs fusion: numbers are immaterial, unmoving and ἄρρευστα and so do not admit X; melodies, being in matter where there is continuity, do admit X; and the length over two strings is joined into one κατὰ συνέχειαν. The fragment opens with εἰ γάρ, so it justifies the preceding main-text phrase ὡς ἓν ἐκ συμφθάρσεως (27.10, unanimous in Bas. H Par. V). LSJ s.v. σύμφθαρσις 2 gives 'melting into one another' (Hermog., Iambl.), and Pape gives 'das Ineinanderfließen und Verschmelzen', exactly the sense required. The contrast with ἄρρευστον ('non-flowing') points the same way. P is shown elsewhere to garble this very word: in fr. 2 it writes ἐξυφθάρσεως twice for ἐκ συμφθάρσεως (Vinc. 340 n. 2), and Vincent himself doubted σύμφρασις (n. 1). The change from σύμφθαρσις to σύμφρασις is easy: θ is lost and αρ/ρα is metathesised, turning a rare word into a familiar one. Vincent's σύγκρασις gives a similar sense, and the Greek Liddell–Scott even glosses σύμφθαρσις by σύγκρασις. But σύγκρασις needs a change of consonants (γκ for μφ) and drops the author's own term. Against the conjecture, P has σύμφρασις consistently, twice, so it is printed as a conjecture with full apparatus. Both editions accept Vincent's accusative τήν at 338.7, and that is not at issue here. Orthography inside the passage is normalised: ἄυλον, ἄρρευστον, διὰ τί.",
+     "apparatus": "338.4: σύμφθαρσις coni. (cf. 27.10 ἐκ συμφθάρσεως)] σύμφρασις P teste Vinc. | σύγκρασις Vinc. in nota ('il est probable… je n'ose pas'). 338.7: τὴν σύμφθαρσιν coni. (casum iam Vinc.)] ἡ σύμφρασις P | τὴν σύμφρασιν Vinc. Add a translator's note that P's word, if kept, would have to be strained to mean 'joining into continuity'."
+    },
+    {
+     "id": "27.18",
+     "choice": "2",
+     "confidence": "high",
+     "reasoning": "Every witness reads ὁδεύοντα: Bas. 27.18 ('ὁδεύοντα, ἃ'), H 66r.22, Par. 23r.19 and V 78r.17. The mechanical collation shows no variant at this place. Edition 1's doubt note ('Retain Bas ὁδεύονται … V has -ται') is contradicted by the established Bas. and V lines, so ὁδεύονται has no witness. The participle is good Greek and good sense. The predicate is ταῦτα δὲ οὐκ ἄμεσα οὐδ’ ἀσύνθετα, ἀλλὰ … ὁδεύοντα, with ἐστί understood, and the relative clause follows: ἃ … διαστήματα ὀνομάζονται. ὁδεύω is intransitive here ('proceed through'), so a passive ὁδεύονται would be odd.",
+     "apparatus": "None. ὁδεύονται has no witness."
+    },
+    {
+     "id": "27.24",
+     "choice": "2",
+     "confidence": "high",
+     "reasoning": "Every witness reads χορδῶν: Bas. 27.24, H 66v.6, Par. 23v.4 and V 78v.3. No witness has χορδίων, and edition 1 gives no note for it, so it is a slip. χορδῶν also matches φθόγγων, which it glosses: διὰ τεσσάρων φθόγγων, εἴτ’ οὖν χορδῶν. Edition 2's punctuation is also better, because διοδεῦον καὶ περαινόμενον are coordinated participles that both govern διὰ τεσσάρων φθόγγων. διοδεῦον normalises Bas.'s misprinted acute (διοδεύον). Print: τὸ διὰ τεσσάρων ὡς διὰ τεσσάρων φθόγγων, εἴτ’ οὖν χορδῶν, διοδεῦον καὶ περαινόμενον.",
+     "apparatus": "None. χορδίων has no witness."
+    },
+    {
+     "id": "28.1",
+     "choice": "1",
+     "confidence": "high",
+     "reasoning": "H 66v.8–9, Par. 23v.7 and V 78v.6–7 all read τελειούμενον. Par. prints it with the ει-ligature sort, plainly distinct from the plain τελούμενον of the line above. Bas. alone has τελούμενον. That is easily explained as assimilation to τελούμενον in the line before (27.25, the fifth, unanimous). The reverse change would have had to happen independently in H, in the princeps behind Par., and in V. τελειόω suits the octave, which is the complete system: ὡς ἐν τῷ ὀκταχόρδῳ τῶν ὅλων διαστάσεων συμπληρουμένων (28.2–4). Bas. alone against H Par. V is a Bas. error.",
+     "apparatus": "Positive entry: τελειούμενον H Par. V] τελούμενον Bas. (assimilated to 27.25)."
+    },
+    {
+     "id": "28.4",
+     "choice": "2",
+     "confidence": "high",
+     "reasoning": "H 66v.11–12 (ἐπανα|διπλουμένων), Par. 23v.10–11 (ἐπα|ναδιπλουμένων) and V 78v.10 all read ἐπαναδιπλουμένων. Bas. alone has ἀναδιπλουμένων. ἐπαναδιπλόω is a well-attested compound, and the ἐπ- ('yet again') goes naturally with αὖθις: from the octachord the intervals are doubled again. Losing a prefix is a simple shortening in Bas., whether a misprint or Xylander's simplification. Bas. alone against all three witnesses is corrected. The crasis κἀκεῖθεν is normalised, in both editions.",
+     "apparatus": "Positive entry: ἐπαναδιπλουμένων H Par. V] ἀναδιπλουμένων Bas."
+    }
+   ],
+   "summary": "I decided all 12 places in places-A.json, checking each against the evidence files section-1.json, section-2.json and section-3.json in scratchpad/wf7/.\n\n**Edition 1 is followed at 6 places:**\n- 24.23 γάρ, from H Par. V; Bas. has a stray δ’ before a consonant.\n- 25.6 ὑπάτη διάτονος, kept without obeli and with a note.\n- 25.7 μέση μόνως, from Bas. Par. V; H has only an uncertain compendium.\n- 25.24 ὅσον … ὅσον, from H V, without Xylander's supplement τοῦ ἐννέα πρὸς. The transmitted 8½ and 8¼ are confirmed by the next sentence, 26.1–3, on cutting the unit.\n- '16th': keep ἑξκαιδέκατον, which all witnesses have at 26.16; it is a form LSJ lists. The P fragment is emended to it.\n- 28.1 τελειούμενον, from H Par. V against Bas. alone.\n\n**Edition 2 is followed at 6 places:**\n- 23.2 σύνοψις ἠκριβωμένη, from H Par. V against Bas. alone.\n- 24.7 τοσούτου, in all witnesses.\n- 27.2 μετειληφώς, in all witnesses.\n- P fragment 1: σύμφθαρσις as a conjecture for P's σύμφρασις (medium confidence). The sense needed is fusion, the main text at 27.10 has συμφθάρσεως, and P garbles the same word in fragment 2.\n- 27.18 ὁδεύοντα, in all witnesses.\n- 28.4 ἐπαναδιπλουμένων, from H Par. V.\n\n**Readings with no witness behind them:**\n- In the edition that has ἑκκ- throughout, which is edition 1 at most places: τοσοῦτον (24.7), μεταληφώς (27.2), ὁδεύονται (27.18) and χορδίων (27.24). These look like slips. That edition's note at 27.18 contradicts the established Bas. and V lines.\n- In the edition that has ἑξκ- throughout: οἷον, ⟨τοῦ ἐννέα πρὸς⟩ and the obeli at 25.6 and 25.7. These printed Bas. readings or Xylander's conjectures against better witnesses, or treated a doubtful expansion of H as a corruption.\n\n**One check is still open.** For 29.20 I could not see the witnesses, because that line is not in the evidence files I was given. The rule there is the same: keep ἑξκαιδέκατος unless the witnesses differ.\n\nLSJ entries for σύμφρασις, σύμφθαρσις and ἑξκαιδέκατος were checked on lsj.gr; these were the only outside lookups."
+  }
+ },
+ {
+  "chunk": "A",
+  "judge": "B",
+  "result": {
+   "verdicts": [
+    {
+     "id": "23.2",
+     "choice": "2",
+     "confidence": "high",
+     "reasoning": "Bas. (ΗΚΡΙΒΩΜΕΝΗ ΣΥΝΟΨΙΣ) is alone in this order. H 64r.1 (τῆς μουσικῆς σύνοψις ἠκριβωμένη, between crosses), Par. 20v.1-2 (ΣΥΝΟ|ψις ἠκριβωμένη) and V 75r.12 (in red) all put the noun first. Bas. has a two-line heading in capitals, which probably explains its order. The sense is the same either way, so the agreement of all three witnesses decides. Edition 1 also capitalises Ἠκριβωμένη inside the title, which has no basis. I decided this before reading the notes, and edition 2's note gives the same argument.",
+     "apparatus": "σύνοψις ἠκριβωμένη H Par. V] ἠκριβωμένη σύνοψις Bas. (word order)"
+    },
+    {
+     "id": "24.7",
+     "choice": "2",
+     "confidence": "high",
+     "reasoning": "Bas. 24.7, H 64r.16-17, Par. 20v.20-21 and V 75v.11-12 all read τοσούτου. The construction is ἀξιόω τινά τινος: they 'thought music worthy of so great admiration', with τοσούτου agreeing with θαύματος. Edition 1's τοσοῦτον has no witness and no note to support it. It would leave θαύματος as a bare genitive beside an adverbial 'so much', which is weaker Greek. It looks like a slip of that edition.",
+     "apparatus": "None. There is no variant in the witnesses. If an entry is wanted: τοσούτου Bas. H Par. V (τοσοῦτον, without witness, rejected)."
+    },
+    {
+     "id": "24.23",
+     "choice": "1",
+     "confidence": "high",
+     "reasoning": "Bas. reads δέ, which per the Bas. note and both collators is actually printed as an elided δ’ before a consonant. Bas. is alone against H 64v.11, Par. 21r.19 (γάρ written with a compendium) and V 76r.11, which all read εἰ γὰρ μή. Explanatory γάρ fits: a note is ἐναρμόνιος because it is so uttered that it can be fitted to another note, 'for if it is not so uttered, it is ἀπηχής'. δέ would also make sense, but an elided δ’ before a consonant looks like a misprint, possibly a misread γάρ compendium in the copy. Edition 1's note agrees, so I made no revision.",
+     "apparatus": "γὰρ H Par. V] δὲ (δ’ ut vid.) Bas."
+    },
+    {
+     "id": "25.6",
+     "choice": "1",
+     "confidence": "medium",
+     "reasoning": "Bas. 25.6, H 64v.19 (written in full), Par. 21v.8 and V 76r.21 all read ὑπάτη διάτονος. The standard name of the 4th note is (λιχανὸς) ὑπάτων διάτονος, so the transmitted name is not the theorists' name. The obelus is still the wrong tool. Its position in the list makes clear which note is meant, so the place is not incurable, and the easy cure ὑπάτων would be a conjecture against unanimous witnesses that include H, copied only 32 years after the work was composed. The author's nomenclature is non-standard elsewhere and accepted by both editions: παράμεσος for παραμέση, and the adjectival τρίτη / διάτονος / νήτη διεζευγμένη. After reading the notes, edition 1's point (c) at 25.7 strengthened my view. If the author called the lichanoi 'ὑπάτη διάτονος' and 'μέση διάτονος', then the unanimous μέση μόνως ('plain mese') that follows makes good sense as a contrast, and the lost name would have fallen out by a skip from μέση to μέση. So ὑπάτη διάτονος may well be the author's own form. Print it without obeli and record the expected standard name in the apparatus.",
+     "apparatus": "ὑπάτη διάτονος Bas. H Par. V: the standard name is ὑπάτων διάτονος (λιχανὸς ὑπάτων); ὑπάτων διάτονος could be conjectured (a misread suspended -ων among the surrounding ὑπάτη), but the form may be the author's own (cf. μέση μόνως 25.7). The obeli of the other edition are not adopted."
+    },
+    {
+     "id": "25.7",
+     "choice": "1",
+     "confidence": "medium",
+     "reasoning": "Par. 21v.9 and V 76v.2 write μόνως in full, as does Bas. H 64v.20 has only μόν with a curl over the ν at the line end. The H notes leave the expansion open (μόν(η) / μόν(ος) / μόν(ον)), and a sign for -ως cannot be excluded. The witnesses that write the word in full therefore decide, and H is compatible with them. μόνως, an adverb meaning 'solely', gives acceptable sense: 'mese, simply', the one name in this run with no qualifier after a series in μέσων. It makes even better sense if a lost preceding name was 'μέση διάτονος' (see 25.6). Edition 2's μόνος is the least supported expansion of an ambiguous abbreviation. It is also ungrammatical with the feminine μέση, and edition 2 obelizes a reading that no witness clearly has. The wording of the supplement before μέση (⟨διάτονος μέσων⟩ in both editions, Xylander's) is a separate question. If 25.6 is kept as the author's form, ⟨μέση διάτονος⟩ deserves consideration. No revision after reading the notes.",
+     "apparatus": "μόνως Bas. Par. V] μόν + suspension H (μόν(ος)? expansion uncertain)"
+    },
+    {
+     "id": "25.24",
+     "choice": "1",
+     "confidence": "high",
+     "reasoning": "There are two questions here. (1) οἷον or ὅσον: H 65r.16 and V 77r.1 read ὅσον ὀκτὼ ἥμισυ, while Bas. and Par. 22r.8 read οἷον. H, the oldest witness, and V give the reading that is parallel to the unanimous ὅσον ὀκτὼ τέταρτον that follows. ὅσον expresses the quantity the passage is about. Bas. and Par. form one print tradition, and they share the one-word ὀκτωτέταρτον. (2) Xylander's marginal τοῦ ἐννέα πρὸς, added twice: no witness has these words, so under the edition's rules they are conjectures. They are also unnecessary. The transmitted text means 8½ and 8¼: with the tone at 9:8, the semitone reaches 8½ and the diesis 8¼. The next sentence (26.1-7: the unit is not divided in numbers but is divided in matter, geometrically) justifies exactly this halving and quartering of the unit 9 − 8. Edition 2 both keeps the weaker οἷον and adds an unneeded conjecture. Edition 1's notes argue the same way, so I made no revision.",
+     "apparatus": "ὅσον H V] οἷον Bas. Par. | ὀκτὼ (bis)] τοῦ ἐννέα πρὸς ὀκτὼ Xyl. in marg. (conjecture, rejected) | ὀκτὼ τέταρτον H V] ὀκτωτέταρτον Bas. Par. (word division only)"
+    },
+    {
+     "id": "16th",
+     "choice": "1",
+     "confidence": "medium",
+     "reasoning": "At 26.16 every witness has ξ: Bas., H 65v.13, Par. 22v.6 and V 77v.2 all read ἑξκαιδέκατον. So the Bas. note's 'misprint' is wrong. ἑξκαιδέκατος is a genuine post-classical form, not a spelling error. LSJ has it as a separate lemma (Hp. Epid. 1.26), and Pape cites it for Hippocrates and later authors. Changing it to ἑκκαιδέκατος would correct the author's usage into classical Greek, which the edition's principles forbid. The author does write ἑκκαιδεκάχορδον at 25.12 in all witnesses, but such mixed usage is normal and is no reason to level the forms. At 29.20 Bas. has ἑξκαιδέκατος. I have not seen the other witnesses there (that evidence is not in this file): keep ξ unless H shows κκ at that place. In P fr. 1 the manuscript has ἑνδ(έκατον), which is impossible because 11 is not a square. Any correction there is a conjecture, and it should take the same form as the main text, ἑξκαιδέκατον, rather than Vincent's ἑξδέκατον, which has no LSJ entry. The edition notes did not change my view. Note that this place's labels are swapped relative to the P1 place, where the ἑξ- form is edition 2's.",
+     "apparatus": "Main text: no entry; the reading is unanimous at 26.16. P fr. 1: ἑξκαιδέκατον coni.] ἑνδ(έκατον) P (Vinc. 338 n. 6) | ἑξδέκατον Vinc. A note may record that the author also writes ἑκκαιδεκάχορδον (25.12)."
+    },
+    {
+     "id": "27.2",
+     "choice": "2",
+     "confidence": "high",
+     "reasoning": "Bas. 27.2, Par. 22v.19-20, V 77v.16 and P (Vinc. 338.24) all read μετειληφώς. H 66r.3 is read as μετειληφὼς: the q-shaped ligature is ambiguous between ει and α, and ει is the preferred reading. The perfect participle of μεταλαμβάνω is μετειληφώς, and 'μεταληφώς' is not a Greek form. Edition 1 gives no note for it. It probably comes from the ambiguous H ligature or from contamination by μεταλαβών at 26.24. Even if H were read with α, that would be a scribal slip, not a reading to print.",
+     "apparatus": "None needed. At most: μετειληφὼς Bas. Par. V P, H (ut vid.)."
+    },
+    {
+     "id": "P1-symphthar",
+     "choice": "2",
+     "confidence": "medium",
+     "reasoning": "Inside ⟨⟨ ⟩⟩, P is the only witness. P has σύμφρασις at 338.4 and ἡ σύμφρασις at 338.7. The accusative τὴν σύμφρασιν is Vincent's correction, so edition 1's label 'as reported' is not accurate at 338.7. σύμφρασις means 'continuous speech' or 'concision' (LSJ, Bailly), which makes no sense in an argument that numbers, being immaterial, unmoving and non-flowing, do not admit X, whereas melody, being continuous in matter, does. σύμφθαρσις fits exactly. LSJ gives 'melting into one another' (sense 2) and the joint destruction of components in a mixture (sense 1). The fragment is placed directly after 27.10-14, where all witnesses have ὡς ἓν ἐκ συμφθάρσεως, and it opens with εἰ γάρ, explaining that very fusion. The corruption is easy: θ is lost and αρ/ρα are transposed, turning a rare word into a known one. P garbles the same word again in fr. 2 (ἐξυφθάρσεως). Vincent himself distrusted σύμφρασις and suggested σύγκρασις, which is the gloss Liddell–Scott's Greek edition gives for σύμφθαρσις. With no acceptable text in the single witness, a conjecture is justified. I reached this independently, and edition 2's notes, read afterwards, confirm it.",
+     "apparatus": "338.4 σύμφθαρσις coni.] σύμφρασις P | σύγκρασις Vinc. in n. (not printed). 338.7 τὴν σύμφθαρσιν coni. (accusative already Vinc.)] ἡ σύμφρασις P | τὴν σύμφρασιν Vinc."
+    },
+    {
+     "id": "27.18",
+     "choice": "2",
+     "confidence": "high",
+     "reasoning": "The evidence file, established against the scans, shows ὁδεύοντα in every witness: Bas. 27.18, H 66r.22, Par. 23r.19 and V 78r.17. The mechanical collation records no variant here. Edition 1's doubt claims that Bas. and V read -ται, which contradicts these facts. The syntax is sound: ταῦτα δὲ οὐκ ἄμεσα, οὐδ’ ἀσύνθετα, ἀλλὰ … ὁδεύοντα is a nominal sentence with the copula understood, and the participle is parallel to the adjectives. The relative clause ἃ … ὀνομάζονται follows. A passive ὁδεύονται of the intransitive ὁδεύω would make poor sense. I read edition 1's note and it did not convince me, because its premises contradict the evidence file.",
+     "apparatus": "None. The reading is unanimous, and ὁδεύονται (edition 1) has no witness."
+    },
+    {
+     "id": "27.24",
+     "choice": "2",
+     "confidence": "high",
+     "reasoning": "Bas. 27.24, H 66v.6, Par. 23v.4 and V 78v.3 all read χορδῶν. Edition 1's diminutive χορδίων has no witness and no note. The plural genitive 'of notes, or rather of strings' is parallel to φθόγγων. The accent of διοδεῦον is normalised: Bas. prints διοδεύον and H has a grave-like stroke. Punctuation is a separate matter: I would keep 'χορδῶν διοδεῦον καὶ περαινόμενον' together without the comma edition 2 puts after χορδῶν.",
+     "apparatus": "None for χορδῶν, which is unanimous. Accent: διοδεῦον] διοδεύον Bas. (misprint), διοδεὺον H (orthographic, need not be recorded)."
+    },
+    {
+     "id": "28.1",
+     "choice": "1",
+     "confidence": "high",
+     "reasoning": "Bas. is alone with τελούμενον. H 66v.8-9, Par. 23v.7 and V 78v.6-7 all read τελειούμενον. Bas.'s form is easily explained as assimilation to the τελούμενον of the line above (27.25, the fifth, unanimous). The reverse change would have had to happen independently in H, in Par.'s source and in V. τελειούμενον also suits the octave as the complete system (ἐν τῷ ὀκταχόρδῳ τῶν ὅλων διαστάσεων συμπληρουμένων, 28.2-4). Edition 1's note agrees, so I made no revision.",
+     "apparatus": "τελειούμενον H Par. V] τελούμενον Bas."
+    },
+    {
+     "id": "28.4",
+     "choice": "2",
+     "confidence": "high",
+     "reasoning": "Bas. is alone with ἀναδιπλουμένων. H 66v.11-12 (ἐπανα|διπλουμένων), Par. 23v.10-11 (ἐπα|ναδιπλουμένων) and V 78v.10 all have the compound ἐπαναδιπλουμένων. This is a well-attested verb, 'to be doubled again', and it goes naturally with αὖθις. The shorter form in Bas. is a misprint or a simplification by Xylander. Edition 2's note agrees, so I made no revision.",
+     "apparatus": "ἐπαναδιπλουμένων H Par. V] ἀναδιπλουμένων Bas."
+    }
+   ],
+   "summary": "I judged the 13 places in places-A by deciding from the witnesses first and reading the editions' notes afterwards. The notes changed no verdict; at 25.6/25.7 an argument in edition 1's notes strengthened my reasoning.\n\nWherever Bas. stands alone, I follow H with Par. and V:\n- σύνοψις ἠκριβωμένη (23.2)\n- γάρ (24.23)\n- τελειούμενον (28.1)\n- ἐπαναδιπλουμένων (28.4)\n\nWhere the witnesses are unanimous, I keep their text against one edition's unsupported reading:\n- τοσούτου (24.7)\n- μετειληφώς (27.2)\n- ὁδεύοντα (27.18). Edition 1's note on this place contradicts the scan-checked evidence file.\n- χορδῶν (27.24)\n\nThe harder places:\n- **25.24:** print ὅσον ὀκτὼ ἥμισυ … ὅσον ὀκτὼ τέταρτον, with H and V. Xylander's supplement τοῦ ἐννέα πρὸς is rejected: the transmitted text means 8½ and 8¼, and 26.1-7 (the unit is divided in matter) justifies exactly that.\n- **25.6:** print ὑπάτη διάτονος, which all witnesses have, without obeli. The apparatus should record the standard name ὑπάτων διάτονος.\n- **25.7:** print μόνως, written in full by Bas., Par. and V; H's suspension is ambiguous. If the author named the lichanoi ὑπάτη / μέση διάτονος, then μέση μόνως means 'plain mese', which would make both forms the author's own. On that view the supplement ⟨διάτονος μέσων⟩ is worth reconsidering as ⟨μέση διάτονος⟩.\n- **16th:** keep the unanimous ἑξκαιδέκατος. It is a genuine post-classical form: LSJ lists it as its own lemma (Hp. Epid. 1.26). The conjecture in P fr. 1 should use the same form. For 29.20 I saw only the Bas. reading, because that evidence is not in my file.\n- **P fr. 1:** print the conjecture σύμφθαρσις. P's σύμφρασις ('continuous speech') does not fit the argument, while the main text at 27.10 has ἐκ συμφθάρσεως in every witness. P garbles the same word in fr. 2, and Vincent himself suspected σύγκρασις.\n\nThe edition numbering is not consistent across places: at P1 and 16th the same edition is labelled 2 in one and 1 in the other. I decided each place on its own labels."
+  }
+ },
+ {
+  "chunk": "B",
+  "judge": "A",
+  "result": {
+   "verdicts": [
+    {
+     "id": "28.11",
+     "choice": "2",
+     "confidence": "high",
+     "reasoning": "Every witness has δὶς διὰ τεσσάρων and δὶς διὰ πέντε: Bas. 28.11, H 66v.18-19, Par. 23v.18-19 and V 78v.18-19. The only source of edition 1's text is Xylander's two marginal notes (* and †), which under the edition's rules are conjectures. The transmitted text is acceptable because it uses the author's own terminology. He has just defined it at 28.2-8: the octave is named from the octachord, the intervals are then doubled again (κἀκεῖθεν αὖθις ἐπαναδιπλουμένων, H Par. V), and 'Δὶς γὰρ διὰ τεσσάρων, καὶ δὶς διὰ πέντε, καὶ δὶς διὰ πασῶν, αἱ μετὰ ταῦτα διαστάσεις καλοῦνται' (28.6-8, again in all witnesses, with no marginal note). At 28.11-12 he simply reuses these names. The same names come back at 29.8-9 and 29.14-15 (H V) and in P fr. 2 (τὸ δὶς διὰ τεσσάρων, τὸ δὶς διὰ πέντε, Vinc. 340.8-9). Edition 1 prints those P forms unchanged, so its own text is inconsistent. In this usage δὶς means the fourth or fifth taken again in the second octave, not a doubled interval. Xylander's διὰ πασῶν καὶ διὰ τεσσάρων is the classical name for the same interval, and the rules forbid classicising. Edition 1 also moves the † correction off the word it is keyed to (δὶς διὰ πασῶν, 28.12), which is itself an editorial guess. Print the transmitted text.",
+     "apparatus": "Two apparatus entries. 28.11 δὶς διὰ τεσσάρων Bas. H Par. V] διὰ πασῶν καὶ διὰ τεσσάρων Xyl. in marg. (signo *). 28.11 δὶς διὰ πέντε Bas. H Par. V] διὰ πασῶν καὶ διὰ πέντε Xyl. in marg. (the key † is printed before δὶς διὰ πασῶν at 28.12, but by sense the note belongs here). Translator's note: 'the fourth / fifth again' in the second octave = octave + fourth (8:3) and octave + fifth (3:1)."
+    },
+    {
+     "id": "28.18",
+     "choice": "2",
+     "confidence": "high",
+     "reasoning": "The substantive point is βαρεῖ against βάρει. βαρεῖ is the reading of V, and of Bas. with an accent misprint (βαρεί). βάρει is the reading of H (βά|ρει, divided at the line end; the H notes allow it to be βαρεῖ with a misplaced accent) and of Par. The sense needs the adjective, 'the low (note)', set against τοῦ ὀξέος. Compare the same pairing a few lines later: τῶν βαρέων τοῖς ὀξέσιν, ἢ τῶν ὀξέων τοῖς βαρέσι (28.23-24, all witnesses), and τοῦ βαρέος πρὸς τὸ ὀξύτερον (30.2). βάρος ('weight') is not a pitch term; the theorists' abstract noun is βαρύτης. So βάρει is an accent error, shared by H and Par., and not a real variant. ὀξέος against ὀξέως: all four witnesses write ὀξέως. With the article, though, the word can only be the genitive of ὀξύς, not the adverb. The author's own genitive of this adjective type is -έος: τοῦ βαρέος at 30.2, in Bas. H Par. V alike. So -έως here is an ο/ω spelling slip (perhaps under the influence of the ἰσοχρόνως just before), not a Byzantine morphology, and the edition's rule of normalised orthography applies. Edition 1 is wrong in substance because βάρει gives the wrong word. If one preferred to keep the unanimous spelling, the reading to print would be τοῦ ὀξέως τῷ βαρεῖ, which is still not edition 1. A side point I did not decide: H Par. V and Bas. all punctuate after ἀντίφωνον, not after ἰσοχρόνως.",
+     "apparatus": "Apparatus: 28.18 βαρεῖ V (βαρεί Bas.)] βάρει H Par. In the orthographica (or the apparatus, since it is unanimous): ὀξέος scripsi (cf. τοῦ βαρέος 30.2)] ὀξέως Bas. H Par. V."
+    },
+    {
+     "id": "29.5",
+     "choice": "1",
+     "confidence": "high",
+     "reasoning": "All witnesses read προσωνυμίας: Bas. 29.5, H 67r.17, Par. 24r.21 and V 79r.21-79v.1. Edition 2's προσηγορίας has no witness behind it and no note to justify it. It looks like a slip, probably a carry-over from προσηγορίας at 27.22. προσωνυμίας οὐκ ἔτυχε ('received no name') gives good sense of the small remainder of the fourth, which is less than a diesis. Edition 1's note concerns 25.4 and has nothing to do with this place.",
+     "apparatus": "No entry: προσηγορίας has no witness."
+    },
+    {
+     "id": "29.8",
+     "choice": "2",
+     "confidence": "high",
+     "reasoning": "δὶς at 29.8 and 29.9 is in all four witnesses: Bas. (keyed to the margin by *), H 67r.20-21, Par. 24v.2-3 and V 79v.4-6. The deletion comes only from Xylander's marginal note 'abundant omnino, et delenda sunt', which is a conjecture. The transmitted wording is not pleonastic in the author's system. If δὶς διὰ τεσσάρων is the fourth again in the second octave (28.6-7), then τὸ διὰ πασῶν καὶ δὶς διὰ τεσσάρων means 'the octave plus the second fourth'. That is notes 1 to 8 plus 8 to 11, which gives exactly the δι’ ὀκτὼ καὶ ἡμιτονίου (6 + 2½ tones) stated. Likewise 1 to 8 plus 8 to 12 gives the 9½ tones of δι’ ἐννέα καὶ ἡμιτονίου. A literal 'octave plus two fourths' would be 11 tones and contradicts the author's figures, so the δὶς cannot be a multiplier. It is the author's marker of repetition, unanimous, and also present at 29.14-15 (H V; H Par. V at 29.15) and in P fr. 2. Deleting it classicises the text.",
+     "apparatus": "Apparatus: 29.8 δὶς Bas. H Par. V] del. Xyl. in marg. ('abundant omnino, et delenda sunt'); 29.9 δὶς Bas. H Par. V] del. Xyl. (same note). Translator's note: octave + fourth (8:3) / octave + fifth (3:1)."
+    },
+    {
+     "id": "29.14",
+     "choice": "2",
+     "confidence": "high",
+     "reasoning": "Three points. (a) τοῦ against τοῦ δὲ (29.13-14). H 67v.4, Par. 24v.8 and V 79v.11 all lack δὲ; Bas. stands alone. No witness has δὲ at the next item either (29.15, Bas. included). Bas. alone against H Par. V on a particle that regularises the list should give way. (b) δὶς at 29.14. It is in H 67v.4 and V 79v.11, and missing from Bas. and Par. 24v.8. (c) δὶς at 29.15. It is in H 67v.6, Par. 24v.10 and V 79v.13; Bas. alone lacks it. Bas. is inconsistent with itself: it prints δὶς at 29.8-9, where Xylander only proposes deletion in the margin, and drops it at 29.15 against Par. This points to Xylander's own silent regularisation, which at 29.14 happens to agree with an isolated omission in Par. The oldest witness H, with V, has δὶς at both places. That matches the unanimous wording of the same intervals at 29.8-9 and the usage at 28.6-7 and 28.11. The ratios fit the intended octave + fourth and octave + fifth whichever reading is printed: διπλασιεπιμερής 8:3 = 16:6, τριπλάσιος 3:1 = 18:6. Edition 1 here simply prints Xylander's classicised Bas.",
+     "apparatus": "Apparatus: 29.13-14 τοῦ H Par. V] τοῦ δὲ Bas.; 29.14 δὶς H V] om. Bas. Par.; 29.15 δὶς H Par. V] om. Bas. (cf. Xyl. in marg. at 29.8-9). Edition 2's doubt about a possible lost clause ⟨τοῦ δὲ δὶς διὰ πασῶν τετραπλάσιος⟩ is not decided here: keep the text as transmitted, with at most a note."
+    },
+    {
+     "id": "P2-proslamb",
+     "choice": "1",
+     "confidence": "medium",
+     "reasoning": "Inside the ⟨⟨ ⟩⟩ passage, P as Vincent reports it is the only witness. Vincent prints προ-|λαμβανόμενον (340.9-10) with no footnote, although he records much smaller manuscript readings elsewhere on the page (καθυπ., διαστήματα, κεκρυμμένων). So προλαμβανόμενον is P's reported text. The rules allow conjecture only where no witness gives an acceptable text. προλαμβανόμενον gives a grammatical and tolerable sense: 'the note taken first/beforehand', that is, the base term set first (cf. κείσθω πρῶτος ἐν ἀριθμοῖς ὅρος, 29.17). It also contrasts naturally with the next clause, πρὸς τοὺς πρὸ αὐτῶν ἐγγὺς φθόγγους. Edition 2 itself concedes this 'tolerable sense'. The case for προσλαμβανόμενον is real. It is the standard technical name of note 1 of the Greater Perfect System in every theorist (Cleonides, Bacchius, Aristides Quintilianus, Ptolemy, Nicomachus). The example numbers 6, 8, 9, 12, 16, 18, 24 correspond to notes 1, 4, 5, 8, 11, 12 and 15 counted at 28.19-22. The P scribe also makes many letter-level errors. But both forms name the same note, and the loss of σ cannot be shown to be a corruption rather than a different expression. I could not check the claimed use of προσλαμβανόμενος at 25.4-5 against my evidence files. Print P, and give the conjecture and the technical identification in the apparatus and the translation note.",
+     "apparatus": "Apparatus: προλαμβανόμενον P (Vinc. 340.9-10, sine nota)] προσλαμβανόμενον fort. legendum (coni.; cf. 25.4-5). Translator's note: the note meant is the proslambanomenos, the lowest note of the system = the base term 6 of the example."
+    },
+    {
+     "id": "P2-pepoientai",
+     "choice": "1",
+     "confidence": "high",
+     "reasoning": "Vincent prints πεποίηνται at 340.13 with no footnote, so this is P's reported reading. πεποίηται has no source: it is a slip in edition 2's transcription of Vincent. The plural verb with a neuter plural subject (τὰ δὲ ἄμεσα) is the usage of the passage itself: τὰ μὲν οὖν ἔμμεσα διαστήματα … ἔχουσι, and τὰ … διαστήματα … κίρνανται in the same period. It is not to be classicised to the singular.",
+     "apparatus": "No entry: πεποίηται has no witness."
+    },
+    {
+     "id": "P2-symphthar",
+     "choice": "1",
+     "confidence": "high",
+     "reasoning": "Here both readings are conjectures. The only witness is P, which reads ἐξυφθάρσεως at both places (Vinc. 340 n. 2: 'Ms. ἐξυφθάρσεως … inconnus aux dictionnaires'), and that is not a word, so a conjecture is permitted. Vincent's printed ἐξ φθάρσεως is his own correction. It is ungrammatical (ἐξ before φ) and gives no fitting sense. ἐκ συμφθάρσεως keeps every letter of -υφθάρσεως. It needs only ΕΚ Σ- written as ΕΞ- (κσ = ξ) and the loss of μ before φ. It is also the author's own phrase in the same context, unanimous in Bas. H Par. V: ὡς ἓν ἐκ συμφθάρσεως at 27.10, about exactly the same composite intervals (τριδίεσις, τριημιτόνιον, διτόνιον, τριτόνιον, 27.6-7), and ἓν ἐκ συμφθάρσεως διάστημα at 32.10-11 and ἓν διτόνιον ἐκ συμφθάρσεως at 32.17. The fragment's εἰς ἓν διάστημα ὡς ἐκ συμφθάρσεως κίρνανται almost repeats 27.10. P also garbles the same word in fr. 1 (σύμφρασις).",
+     "apparatus": "Apparatus (at both places): ἐκ συμφθάρσεως coni. (cf. 27.10, 32.10-11, 32.17)] ἐξυφθάρσεως P (Vinc. 340 n. 2) | ἐξ φθάρσεως Vinc."
+    },
+    {
+     "id": "P2-kekr",
+     "choice": "2",
+     "confidence": "high",
+     "reasoning": "P reads κεκρυμμένων (Vinc. 340 n. 4: 'Ms. κεκρυμμένων'). κεκραμένων is Vincent's correction, which under the rules is a conjecture, and P's text needs none. 'The intervals hidden (latent) within them, whose ratios were set beforehand against the adjacent notes' gives exact sense. It matches the author's account of incomposite intervals: δύναμιν μὲν ἔχον διαφόρων διαστημάτων, δι’ ἑνὸς δὲ διαστήματος ἀπηχούμενον (27.12-14). The component intervals are present in potency but not heard. Vincent's κεκραμένων would anticipate the sentence's own κίρνανται, producing the near-tautology 'the intervals mixed in them … are mixed into one interval'. The best support for Vincent is the author's συγκεκραμένον at 32.12, which deserves mention in the apparatus. It does not make P's reading unacceptable.",
+     "apparatus": "Apparatus: κεκρυμμένων P] κεκραμένων Vinc. (cf. συγκεκραμένον 32.12)."
+    },
+    {
+     "id": "P2-end",
+     "choice": "1",
+     "confidence": "high",
+     "reasoning": "P reads ὅτι (Vinc. 342 n. 2) and τοῦτο (Vinc. 342 n. 3). Vincent's printed ὅ, τι … οὔ πω is his double conjecture. P's text is sound and gives the expected sense: '…the units not being divided, since not even the arithmeticians have accepted this', that is, division of the unit. This agrees with arithmetical doctrine that the monad is indivisible (Theon of Smyrna, Nicomachus) and with fr. 1's contrast between arithmetic and geometry (Vinc. 338). Vincent's text puts μηδὲ … οὔ πω together, an awkward combination of negatives, and needs two changes where none is needed. μονάδων (Vincent, for P's μονάδος) is common to both editions and is not at issue.",
+     "apparatus": "Apparatus: ὅτι … τοῦτο P] ὅ, τι … οὔ πω Vinc."
+    },
+    {
+     "id": "32.15",
+     "choice": "1",
+     "confidence": "high",
+     "reasoning": "H 69r.19 reads γοερώτερο(ν); Bas. 32.15, Par. 26v.11 and V 82r.1 read γοέτερον. γοέτερον is not a Byzantine variant of the comparative. It has lost part of the stem (γοε[ρω]τερον), and no adjective yields such a form; even a levelled Byzantine comparative would be γοερότερος. The regular comparative of γοερός is γοερώτερος, and the sense demands a comparative of 'mournful' alongside παθητικώτερον. Xylander's own Latin, 'ad … luctum ciendum efficacius', renders exactly that. This is a shared error of the branch Par. V Bas., and the oldest witness keeps the correct form. The edition's principle of correcting Bas. by the oldest manuscript applies. Edition 2's objection that it would be 'classicising' does not hold, because there is no Byzantine form to protect.",
+     "apparatus": "Apparatus: γοερώτερον H] γοέτερον Bas. Par. V."
+    },
+    {
+     "id": "33.12",
+     "choice": "1",
+     "confidence": "high",
+     "reasoning": "παιήων is unanimous: Bas. 33.12 (in full, as the Bas. notes say), H 69v.20, Par. 27r.16 and V 82v.7. Edition 2's Attic παιών has no witness and no note. Changing the form is a matter of morphology and dialect, not orthography, so it would classicise the author's usage, which the rules forbid. παιήων is a regular Greek form of the word. Both editions agree on correcting Bas.'s misprint ὑμεραῖος to ὑμέναιος (H Par. V), so that point is not at issue.",
+     "apparatus": "No entry for παιών: it has no witness. The apparatus keeps the agreed entry ὑμέναιος H Par. V] ὑμεραῖος Bas."
+    }
+   ],
+   "summary": "I decided all 12 places in places-B.json, checked against section-3, -4, -6 and -7.json in wf7.\n\nEdition 2 wins at five places:\n- **28.11, 29.8, 29.14:** the author's δὶς διὰ τεσσάρων / δὶς διὰ πέντε (meaning the fourth or fifth again, in the second octave) is kept. It is unanimous at 28.6-7, 28.11 and 29.8-9, is in H V at 29.14 and H Par. V at 29.15, and appears in P fr. 2. Xylander's corrections are classicising conjectures. At 29.14 the text also drops Bas.'s δὲ, which only Bas. has, against H Par. V.\n- **28.18:** βαρεῖ (V, and Bas. with a misprinted accent) against βάρει (H Par.). The spelling ὀξέος is normalised, with the author's τοῦ βαρέος at 30.2 as support.\n- **P2-kekr:** P's κεκρυμμένων is kept against Vincent's conjecture κεκραμένων.\n\nEdition 1 wins at seven places:\n- **29.5:** προσωνυμίας is in every witness; edition 2's προσηγορίας has none.\n- **P2-proslamb:** P's προλαμβανόμενον is kept because its sense is acceptable. Medium confidence. The conjecture προσλαμβανόμενον goes in the apparatus.\n- **P2-pepoientai:** πεποίηνται is Vincent's own print; edition 2's πεποίηται is a transcription slip.\n- **P2-symphthar:** the conjecture ἐκ συμφθάρσεως replaces P's ἐξυφθάρσεως. It is the author's own phrase at 27.10, 32.10-11 and 32.17, and needs only a small change of letters.\n- **P2-end:** P's ὅτι … τοῦτο is kept against Vincent's ὅ, τι … οὔ πω.\n- **32.15:** H's γοερώτερον replaces γοέτερον, an error shared by Bas. Par. V.\n- **33.12:** παιήων is unanimous; edition 2's Attic παιών is not adopted.\n\nOne claim I could not check: that the main text uses προσλαμβανόμενος at 25.4-5. Bas. 25 is not in my evidence files."
+  }
+ },
+ {
+  "chunk": "B",
+  "judge": "B",
+  "result": {
+   "verdicts": [
+    {
+     "id": "28.11",
+     "choice": "2",
+     "confidence": "high",
+     "reasoning": "First judgement, from the witnesses: all four witnesses read ἡ δὶς διὰ τεσσάρων … ἡ δὶς διὰ πέντε … ἡ δὶς διὰ πασῶν: Bas. 28.11–12, H 66v.18–20, Par. 23v.18–20 and V 78v.18–20. The only alternative is Xylander's marginal conjecture (διὰ πασῶν καὶ διὰ τεσσάρων / διὰ πέντε), which no witness supports. The name is the author's own and is used consistently. Four lines earlier he introduces it explicitly: Δὶς γὰρ διὰ τεσσάρων, καὶ δὶς διὰ πέντε, καὶ δὶς διὰ πασῶν, αἱ μετὰ ταῦτα διαστάσεις καλοῦνται (28.6–8, unanimous, no marginal note). He also justifies it by the re-doubling of the octachord (κἀκεῖθεν αὖθις ἐπαναδιπλουμένων, 28.4, H Par. V). The antiphony examples that follow (28.19–22, unanimous) give the sense. They pair the 8th note with the 1st, the 11th with the 4th, the 12th with the 5th and the 15th with the 8th. These are exactly octave, 'δὶς διὰ τεσσάρων' (= note 11, octave + fourth), 'δὶς διὰ πέντε' (= note 12) and double octave. So δὶς here means 'the fourth/fifth a second time', in the second octave, not a multiplier. The intervals are the octave + fourth (8:3) and octave + fifth (3:1), which are octave-related consonances. P fr. 2 uses the same names. Xylander's correction classicises the author's terminology, which the principles forbid. Edition 1 also has to move Xylander's dagger from δὶς διὰ πασῶν to δὶς διὰ πέντε by its own judgement. After reading the notes: edition 1 says the sense is octave + fourth, which is true, but this does not justify changing a unanimous, deliberately introduced term. Edition 2's argument agrees with mine. No revision.",
+     "apparatus": "Apparatus: δὶς διὰ τεσσάρων … δὶς διὰ πέντε Bas. H Par. V (cf. 28.6–7 and P fr. 2) : διὰ πασῶν καὶ διὰ τεσσάρων … διὰ πασῶν καὶ διὰ πέντε Xyl. in marg. Note that Xylander's dagger stands before δὶς διὰ πασῶν (28.12), but by sense the note belongs to δὶς διὰ πέντε. A translation note should say that the author's 'double fourth/fifth' means the fourth/fifth above the octave (8:3, 3:1)."
+    },
+    {
+     "id": "28.18",
+     "choice": "2",
+     "confidence": "medium",
+     "reasoning": "There are two elements. (1) βαρεῖ / βάρει: V has βαρεῖ. Bas. has βαρεί, a misprint whose accent stands on the ultima, so it agrees with V on the word. H (βά|ρει, divided at the line end) and Par. have βάρει. Sense requires the substantivised adjective: τοῦ ὀξέος τῷ βαρεῖ, 'the high note with the low'. The author pairs the two adjectives in the next lines, τῶν βαρέων τοῖς ὀξέσιν, ἢ τῶν ὀξέων τοῖς βαρέσι (28.23–24, unanimous), and again at 30.2 (τοῦ βαρέος πρὸς τὸ ὀξύτερον). βάρος ('weight') is not used for pitch: the noun for lowness of pitch is βαρύτης. H's accent is a common misplacement in Byzantine accentuation, and the collator's own note reads H's βά|ρει as = βαρεῖ. (2) ὀξέως / ὀξέος: all witnesses have ὀξέως, but with the article τοῦ it can only be the genitive. The author's own genitive of this declension is βαρέος (30.2, Bas. H Par. V), so ὀξέως looks like a scribal ο/ω spelling assimilated to the common adverb. I treat it as orthography to be normalised, not as the author's morphology. After reading the notes: edition 2 argues βαρεῖ on the same grounds. Edition 1 has no note and simply follows H Par. Not revised. If the project prefers to keep ὀξέως as a Byzantine genitive, print τοῦ ὀξέως τῷ βαρεῖ; the substantive decision is βαρεῖ.",
+     "apparatus": "Apparatus: βαρεῖ V (βαρεί Bas.) : βάρει H Par. Orthographica (or apparatus, since the form borders on morphology): ὀξέος scripsi : ὀξέως Bas. H Par. V."
+    },
+    {
+     "id": "29.5",
+     "choice": "1",
+     "confidence": "high",
+     "reasoning": "προσωνυμίας is unanimous: Bas. 29.5, H 67r.17, Par. 24r.21, V 79r.21–79v.1 (προσωνυ-|μίας). No witness and no marginal note has προσηγορίας, and edition 2 gives no note for its reading. It looks like a slip, contaminated by τὰς τοιάσδε προσηγορίας at 27.22. προσωνυμίας οὐκ ἔτυχε ('received no name', of the remainder of the fourth smaller than a diesis) is good Greek and fits the author's φερωνυμίας (28.5). After reading the notes: edition 1's only note at this place concerns another passage (Bas. 25.4) and is irrelevant here. No revision.",
+     "apparatus": "No entry needed: προσωνυμίας is unanimous and προσηγορίας has no witness. At most an internal note that edition 2's προσηγορίας was a slip."
+    },
+    {
+     "id": "29.8",
+     "choice": "2",
+     "confidence": "high",
+     "reasoning": "All witnesses have δὶς at both places: Bas. 29.8–9 (with Xylander's asterisks), H 67r.20–21, Par. 24v.2–3 and V 79v.4–6. The deletion rests only on Xylander's margin ('abundant omnino, et delenda sunt'), so it is a conjecture. The expression continues the author's terminology of 28.6 and 28.11, where 'δὶς διὰ τεσσάρων' is the fourth a second time, above the octave. The figures fix the meaning: δι’ ὀκτὼ καὶ ἡμιτονίου (8½ tones = 6 + 2½) and δι’ ἐννέα καὶ ἡμιτονίου (9½ = 6 + 3½). So δὶς is not a multiplier: a literal octave + double fourth would be 11 tones. The phrase means 'the octave and the fourth again'. The same wording recurs at 29.14–15 in H V and partly in Par. It therefore stands in the archetype at four places, already in H (1040), which makes a repeated accident unlikely. After reading the notes: edition 1's reason ('redundant doubling') is a classicising argument. Edition 2's account agrees with mine. No revision.",
+     "apparatus": "Apparatus: δὶς (bis) Bas. H Par. V : del. Xyl. in marg. ('abundant omnino, et delenda sunt'). A translation note should say that 8½ and 9½ tones = octave + fourth and octave + fifth."
+    },
+    {
+     "id": "29.14",
+     "choice": "2",
+     "confidence": "medium",
+     "reasoning": "There are two elements. (1) δὲ before διὰ πασῶν: only Bas. has it. H 67v.4, Par. 24v.8 and V 79v.11 have τοῦ διὰ πασῶν, and no witness, Bas. included, has δὲ before the next item (29.15). Bas. alone against H Par. V, so delete it. (2) δὶς: H (67v.4, 67v.6) and V (79v.11, 79v.13) have it twice. Par. lacks it in the first item but has it in the second (24v.10 καὶ δὶς διὰ πέντε). Bas. lacks it in both, probably Xylander silently applying his own deletion from 29.8–9, where Bas. still prints δὶς with asterisks. So the archetype, including Par.'s branch, had δὶς here, as at 29.8–9 (unanimous). Par.'s single omission is an isolated slip or normalisation. The ratios (διπλασιεπιμερής = 8:3 = 16:6; τριπλάσιος = 3:1 = 18:6) confirm octave + fourth and octave + fifth, in the author's naming. Medium rather than high confidence because Par. agrees with Bas. in the first item. After reading the notes: edition 2's analysis matches mine. Edition 1 simply prints Bas. without argument. No revision.",
+     "apparatus": "Apparatus: τοῦ διὰ πασῶν H Par. V : τοῦ δὲ διὰ πασῶν Bas. Then καὶ δὶς διὰ τεσσάρων H V : καὶ διὰ τεσσάρων Bas. Par. Then καὶ δὶς διὰ πέντε H Par. V : καὶ διὰ πέντε Bas. (cf. Xyl. ad 29.8–9)."
+    },
+    {
+     "id": "P2-proslamb",
+     "choice": "1",
+     "confidence": "medium",
+     "reasoning": "P as reported (Vinc. 340.9–10, printed προ-|λαμβανόμενον with no footnote) reads προλαμβανόμενον. Inside ⟨⟨ ⟩⟩, P is the only witness, and a conjecture is allowed only when it gives no acceptable text. Here it does: 'the note taken first', i.e. the base term (cf. ἀπὸ τοῦ πρώτου φθόγγου, 27.19; κείσθω πρῶτος ἐν ἀριθμοῖς ὅρος, 29.17). It stands in a clear antithesis to the ἄμεσα, which are referred πρὸς τοὺς πρὸ αὐτῶν ἐγγὺς φθόγγους. Later in the fragment the ἔμμεσα are again compared πρὸς τοὺς ἄκρους … τῶν φθόγγων. Vincent was a specialist in Greek music, and he footnoted his corrections elsewhere in the fragment, yet he printed this form without comment. The referent is the same either way: note 1 of the fifteen counted in 28.19–22, i.e. the number 6 of the example. So nothing in the sense requires the change. After reading the notes: edition 2's case for προσλαμβανόμενον is strong. It is the technical name in exactly the same participial shape; the loss of a σ is trivial, possibly at Vincent's line break; and edition 2 reports the term at 25.4–5, which I could not check from my evidence. That case is strong enough for the apparatus but does not meet the rule for printing a conjecture. The P passage may also not be by the author, so the author's usage at 25.4–5 binds it less. Kept, with medium confidence.",
+     "apparatus": "Apparatus: προλαμβανόμενον P (Vinc., without a note, divided προ-|λαμβανόμενον) : προσλαμβανόμενον fort. recte coni. (the technical name of note 1; cf. 25.4–5 if confirmed there). A translation note may name the proslambanomenos."
+    },
+    {
+     "id": "P2-pepoientai",
+     "choice": "1",
+     "confidence": "high",
+     "reasoning": "Vincent prints πεποίηνται (340.13) without a footnote, so this is P as reported. Edition 2's πεποίηται is neither P nor Vincent. The plural verb with a neuter plural subject (τὰ δὲ ἄμεσα … πεποίηνται) is the author's own construction in this same sentence: τὰ μὲν οὖν ἔμμεσα διαστήματα … ἔχουσι τὴν ἀναφοράν, and later τὰ … διαστήματα … κίρνανται. Making it singular would be classicising, against the principles. After reading the notes: edition 2 gives no note justifying the change. No revision.",
+     "apparatus": "No apparatus entry is needed (P's reading is printed). If one is wanted: πεποίηνται P (Vinc.) : πεποίηται perperam edition 2 (not to be recorded as a variant)."
+    },
+    {
+     "id": "P2-symphthar",
+     "choice": "1",
+     "confidence": "high",
+     "reasoning": "P has ἐξυφθάρσεως at both places (Vinc. 340 n. 2, applied to 340.13–14 and 340.18). It is not a word, so P gives no acceptable text and a conjecture is permitted. Vincent's ἐξ φθάρσεως is itself a conjecture, and a bad one: ἐξ cannot stand before φ, and 'from destruction' does not fit κίρνανται / εἰς ἓν διάστημα. ἐκ συμφθάρσεως keeps every transmitted letter of -υφθάρσεως. It needs only the phonetic spelling ἐξ- for ἐκ σ- (κσ = ξ) and the loss of μ before φ. It is also the author's own phrase for exactly these 'incomposite' intervals formed as one: ὡς ἓν ἐκ συμφθάρσεως (27.10; H 66r.12–13 συμφθάρ|σεως), ἓν ἐκ συμφθάρσεως διάστημα (32.10–11) and ἓν διτόνιον ἐκ συμφθάρσεως (32.17), all unanimous. The fragment lists the same intervals as 27.6–7 (τριδίεσις, τριημιτόνιον, διτόνιον, τριτόνιον). After reading the notes: edition 1 makes the same arguments in fuller form. I agree.",
+     "apparatus": "Apparatus, at both places: ἐκ συμφθάρσεως coni. (cf. 27.10, 32.10–11, 32.17) : ἐξυφθάρσεως P (Vinc. n. 2) : ἐξ φθάρσεως Vinc. A cautious alternative for the text would be †ἐξυφθάρσεως†."
+    },
+    {
+     "id": "P2-kekr",
+     "choice": "2",
+     "confidence": "medium",
+     "reasoning": "Vinc. 340 n. 4 reports 'Ms. κεκρυμμένων'. Vincent's κεκραμένων is a conjecture. P's reading gives good sense, so it must be kept: τῶν ἐν αὐτοῖς κεκρυμμένων διαστημάτων means 'the intervals hidden, latent, in them' (in the tridiesis, trihemitone, ditone, tritone). This is exactly the doctrine of the main text: such an interval is δύναμιν μὲν ἔχον διαφόρων διαστημάτων, δι’ ἑνὸς δὲ διαστήματος ἀπηχούμενον (27.12–14). In the genitive absolute, the component intervals were assigned their ratios beforehand and lie hidden in the single interval, which then sounds as one. Vincent's form was prompted by κίρνανται at the end of the sentence. The author's συγκεκραμένον (32.12) lends it some colour, but that same echo makes κεκραμένων the easier reading, and a scribe would more likely have produced it than κεκρυμμένων. After reading the notes: edition 2 argues the same. Edition 1 has no note. No revision.",
+     "apparatus": "Apparatus: κεκρυμμένων P : κεκραμένων Vinc. (cf. κίρνανται and 32.12 συγκεκραμένον)."
+    },
+    {
+     "id": "P2-end",
+     "choice": "1",
+     "confidence": "high",
+     "reasoning": "P as reported reads ὅτι … τοῦτο (Vinc. 342 nn. 2–3: 'Ms. ὅτι', 'Ms. τοῦτο'). Vincent's ὅ, τι … οὔ πω is a double conjecture. P's text is sound: μονάδων μὴ τεμνομένων, ὅτι μηδὲ τοῖς ἀριθμητικοῖς τοῦτο δέδοκται, 'the units not being cut, since not even the arithmeticians accept this', i.e. the division of the unit, which is indivisible in arithmetic. μηδέ in a causal clause is ordinary Byzantine usage. Vincent's change is needed only if ὅτι is taken as a relative, and it produces an awkward double negative (μηδὲ … οὔ πω). μονάδων (Vincent, for P's μονάδος) is common to both editions and is needed for agreement with τεμνομένων. After reading the notes: edition 1 makes the same argument. Edition 2 has no note. No revision.",
+     "apparatus": "Apparatus: ὅτι … τοῦτο P : ὅ, τι … οὔ πω Vinc. Separately: μονάδων Vinc. : μονάδος P."
+    },
+    {
+     "id": "32.15",
+     "choice": "1",
+     "confidence": "high",
+     "reasoning": "H 69r.19 has γοερώτερο(ν). Bas., Par. 26v.11 and V 82r.1 have γοέτερον. γοέτερον is no Greek form: there is no positive from which it could be formed. It is not Byzantine usage but a mechanical loss of the syllable -ρω- (γοε[ρώ]τερον), perhaps helped by the familiar ending -έτερος. The comparative of γοερός (short syllable before the ending) is regularly γοερώτερος. This is the case where the oldest manuscript corrects the shared error of the printed tradition and its relative V. It is also paired with παθητικώτερον, as the sense requires. Xylander's version ('ad … luctum ciendum efficacius') presupposes the comparative of γοερός. After reading the notes: edition 2 doubts the change in order not to 'classicise the author's possible usage', but an impossible form is not usage. Not convinced; no revision.",
+     "apparatus": "Apparatus: γοερώτερον H : γοέτερον Bas. Par. V."
+    },
+    {
+     "id": "33.12",
+     "choice": "1",
+     "confidence": "high",
+     "reasoning": "παιήων is unanimous: Bas. 33.12, H 69v.20 (the collator confirms παιήων), Par. 27r.16 and V 82v.7. It is a genuine Greek form for the paean song (the Ionic-epic form, used in later literary Greek as well). It belongs to the author's diction, so changing it to παιών is a change of form, not an orthographic normalisation, and has no witness. After reading the notes: edition 2 gives no justification. Edition 1's notes concern ὑμέναιος, which both editions print. No revision.",
+     "apparatus": "No apparatus entry is needed (unanimous). Bas.'s ὑμεραῖος in the same line is recorded separately: ὑμέναιος H Par. V : ὑμεραῖος Bas. (misprint)."
+    }
+   ],
+   "summary": "Judge B decided 12 places, first from the witnesses, then checked against both editions' notes. No initial decision was changed after the notes, though at P2-proslamb the conjecture προσλαμβανόμενον goes into the apparatus as a strong alternative.\n\nDecisions:\n- 28.11, 29.8, 29.14: the author's own naming is kept, against Xylander's classicising corrections. All witnesses have δὶς διὰ τεσσάρων / δὶς διὰ πέντε. The author introduces the name at 28.6–7, and the examples at 28.19–22 (11th note with 4th, 12th with 5th) and the tone counts at 29.8–10 (8½ and 9½ tones) show it means the fourth/fifth again above the octave. At 29.14 the H V text without δὲ is printed: δὲ is in Bas. alone, and Par. has δὶς in the second item.\n- 28.18: τοῦ ὀξέος τῷ βαρεῖ is printed. βαρεῖ is the decisive point, read in V and, by accent position, in Bas.; ὀξέως is normalised to the author's own βαρέος type (30.2).\n- 29.5: προσωνυμίας is unanimous; edition 2's προσηγορίας has no witness.\n- 32.15: γοερώτερον (H) against the impossible γοέτερον of Bas. Par. V.\n- 33.12: παιήων is unanimous.\n- In the P fragment 2 (P-only passage, ⟨⟨ ⟩⟩), P as reported is printed wherever it gives sense: προλαμβανόμενον (medium confidence), πεποίηνται, κεκρυμμένων, ὅτι … τοῦτο. The one conjecture is ἐκ συμφθάρσεως for P's non-word ἐξυφθάρσεως; it is the author's own phrase at 27.10, 32.10–11 and 32.17.\n\nFiles used: scratchpad/wf8/places-B.json and, in scratchpad/wf7/, section-3.json, section-4.json, section-6.json and section-7.json."
+  }
+ }
+]

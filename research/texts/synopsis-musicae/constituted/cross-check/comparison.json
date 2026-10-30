@@ -1,0 +1,463 @@
+[
+ {
+  "place": "place 01",
+  "id": "23.2",
+  "sides": {
+   "claude-A": "claude",
+   "claude-B": "claude",
+   "astra": "claude",
+   "terra": "claude"
+  },
+  "status": "all agree",
+  "confidence": {
+   "claude-A": "high",
+   "claude-B": "high",
+   "astra": "high",
+   "terra": "high"
+  },
+  "other": {}
+ },
+ {
+  "place": "place 02",
+  "id": "24.7",
+  "sides": {
+   "claude-A": "claude",
+   "claude-B": "claude",
+   "astra": "claude",
+   "terra": "claude"
+  },
+  "status": "all agree",
+  "confidence": {
+   "claude-A": "high",
+   "claude-B": "high",
+   "astra": "high",
+   "terra": "high"
+  },
+  "other": {}
+ },
+ {
+  "place": "place 03",
+  "id": "24.23",
+  "sides": {
+   "claude-A": "claude",
+   "claude-B": "claude",
+   "astra": "claude",
+   "terra": "claude"
+  },
+  "status": "all agree",
+  "confidence": {
+   "claude-A": "high",
+   "claude-B": "high",
+   "astra": "high",
+   "terra": "high"
+  },
+  "other": {}
+ },
+ {
+  "place": "place 04",
+  "id": "25.6",
+  "sides": {
+   "claude-A": "claude",
+   "claude-B": "claude",
+   "astra": "claude",
+   "terra": "claude"
+  },
+  "status": "all agree",
+  "confidence": {
+   "claude-A": "medium",
+   "claude-B": "medium",
+   "astra": "medium",
+   "terra": "medium"
+  },
+  "other": {}
+ },
+ {
+  "place": "place 05",
+  "id": "25.7",
+  "sides": {
+   "claude-A": "claude",
+   "claude-B": "claude",
+   "astra": "claude",
+   "terra": "claude"
+  },
+  "status": "all agree",
+  "confidence": {
+   "claude-A": "high",
+   "claude-B": "medium",
+   "astra": "high",
+   "terra": "medium"
+  },
+  "other": {}
+ },
+ {
+  "place": "place 06",
+  "id": "25.24",
+  "sides": {
+   "claude-A": "claude",
+   "claude-B": "claude",
+   "astra": "claude",
+   "terra": "claude"
+  },
+  "status": "all agree",
+  "confidence": {
+   "claude-A": "high",
+   "claude-B": "high",
+   "astra": "medium",
+   "terra": "medium"
+  },
+  "other": {}
+ },
+ {
+  "place": "place 07",
+  "id": "16th",
+  "sides": {
+   "claude-A": "claude",
+   "claude-B": "claude",
+   "astra": "claude",
+   "terra": "other"
+  },
+  "status": "split",
+  "confidence": {
+   "claude-A": "high",
+   "claude-B": "medium",
+   "astra": "medium",
+   "terra": "medium"
+  },
+  "other": {
+   "terra": "ἑξκαιδέκατον (26.16); ἑξκαιδέκατος (29.20); ⟨⟨{ἑνδ.} ⟨ἑξκαιδέκατον⟩⟩⟩ (P fr. 1, Vinc. 338.17)"
+  }
+ },
+ {
+  "place": "place 08",
+  "id": "27.2",
+  "sides": {
+   "claude-A": "claude",
+   "claude-B": "claude",
+   "astra": "claude",
+   "terra": "claude"
+  },
+  "status": "all agree",
+  "confidence": {
+   "claude-A": "high",
+   "claude-B": "high",
+   "astra": "high",
+   "terra": "high"
+  },
+  "other": {}
+ },
+ {
+  "place": "place 09",
+  "id": "P1-symphthar",
+  "sides": {
+   "claude-A": "claude",
+   "claude-B": "claude",
+   "astra": "claude",
+   "terra": "other"
+  },
+  "status": "split",
+  "confidence": {
+   "claude-A": "medium",
+   "claude-B": "medium",
+   "astra": "medium",
+   "terra": "low"
+  },
+  "other": {
+   "terra": "⟨⟨σύμφρασις … ἡ σύμφρασις⟩⟩"
+  }
+ },
+ {
+  "place": "place 10",
+  "id": "27.18",
+  "sides": {
+   "claude-A": "claude",
+   "claude-B": "claude",
+   "astra": "claude",
+   "terra": "claude"
+  },
+  "status": "all agree",
+  "confidence": {
+   "claude-A": "high",
+   "claude-B": "high",
+   "astra": "high",
+   "terra": "high"
+  },
+  "other": {}
+ },
+ {
+  "place": "place 11",
+  "id": "27.24",
+  "sides": {
+   "claude-A": "claude",
+   "claude-B": "claude",
+   "astra": "claude",
+   "terra": "claude"
+  },
+  "status": "all agree",
+  "confidence": {
+   "claude-A": "high",
+   "claude-B": "high",
+   "astra": "high",
+   "terra": "high"
+  },
+  "other": {}
+ },
+ {
+  "place": "place 12",
+  "id": "28.1",
+  "sides": {
+   "claude-A": "claude",
+   "claude-B": "claude",
+   "astra": "claude",
+   "terra": "claude"
+  },
+  "status": "all agree",
+  "confidence": {
+   "claude-A": "high",
+   "claude-B": "high",
+   "astra": "high",
+   "terra": "high"
+  },
+  "other": {}
+ },
+ {
+  "place": "place 13",
+  "id": "28.4",
+  "sides": {
+   "claude-A": "claude",
+   "claude-B": "claude",
+   "astra": "claude",
+   "terra": "claude"
+  },
+  "status": "all agree",
+  "confidence": {
+   "claude-A": "high",
+   "claude-B": "high",
+   "astra": "high",
+   "terra": "high"
+  },
+  "other": {}
+ },
+ {
+  "place": "place 14",
+  "id": "28.11",
+  "sides": {
+   "claude-A": "claude",
+   "claude-B": "claude",
+   "astra": "claude",
+   "terra": "claude"
+  },
+  "status": "all agree",
+  "confidence": {
+   "claude-A": "high",
+   "claude-B": "high",
+   "astra": "medium",
+   "terra": "medium"
+  },
+  "other": {}
+ },
+ {
+  "place": "place 15",
+  "id": "28.18",
+  "sides": {
+   "claude-A": "claude",
+   "claude-B": "claude",
+   "astra": "other",
+   "terra": "other"
+  },
+  "status": "split",
+  "confidence": {
+   "claude-A": "high",
+   "claude-B": "medium",
+   "astra": "medium",
+   "terra": "medium"
+  },
+  "other": {
+   "astra": "ἰσοχρόνως τοῦ ὀξέως τῷ βαρεῖ",
+   "terra": "ἰσοχρόνως τοῦ ὀξέως τῷ βαρεῖ"
+  }
+ },
+ {
+  "place": "place 16",
+  "id": "29.5",
+  "sides": {
+   "claude-A": "claude",
+   "claude-B": "claude",
+   "astra": "claude",
+   "terra": "claude"
+  },
+  "status": "all agree",
+  "confidence": {
+   "claude-A": "high",
+   "claude-B": "high",
+   "astra": "high",
+   "terra": "high"
+  },
+  "other": {}
+ },
+ {
+  "place": "place 17",
+  "id": "29.8",
+  "sides": {
+   "claude-A": "claude",
+   "claude-B": "claude",
+   "astra": "claude",
+   "terra": "claude"
+  },
+  "status": "all agree",
+  "confidence": {
+   "claude-A": "high",
+   "claude-B": "high",
+   "astra": "medium",
+   "terra": "medium"
+  },
+  "other": {}
+ },
+ {
+  "place": "place 18",
+  "id": "29.14",
+  "sides": {
+   "claude-A": "claude",
+   "claude-B": "claude",
+   "astra": "claude",
+   "terra": "claude"
+  },
+  "status": "all agree",
+  "confidence": {
+   "claude-A": "high",
+   "claude-B": "medium",
+   "astra": "medium",
+   "terra": "medium"
+  },
+  "other": {}
+ },
+ {
+  "place": "place 19",
+  "id": "P2-proslamb",
+  "sides": {
+   "claude-A": "gpt",
+   "claude-B": "gpt",
+   "astra": "gpt",
+   "terra": "gpt"
+  },
+  "status": "all agree",
+  "confidence": {
+   "claude-A": "medium",
+   "claude-B": "medium",
+   "astra": "medium",
+   "terra": "medium"
+  },
+  "other": {}
+ },
+ {
+  "place": "place 20",
+  "id": "P2-pepoientai",
+  "sides": {
+   "claude-A": "claude",
+   "claude-B": "claude",
+   "astra": "claude",
+   "terra": "claude"
+  },
+  "status": "all agree",
+  "confidence": {
+   "claude-A": "high",
+   "claude-B": "high",
+   "astra": "high",
+   "terra": "high"
+  },
+  "other": {}
+ },
+ {
+  "place": "place 21",
+  "id": "P2-symphthar",
+  "sides": {
+   "claude-A": "claude",
+   "claude-B": "claude",
+   "astra": "claude",
+   "terra": "other"
+  },
+  "status": "split",
+  "confidence": {
+   "claude-A": "high",
+   "claude-B": "high",
+   "astra": "medium",
+   "terra": "medium"
+  },
+  "other": {
+   "terra": "⟨⟨τὰ {ἐξυφθάρσεως} ⟨ἐκ συμφθάρσεως⟩ {διαστήματα} ⟨διαστημάτων⟩ … ὡς {ἐξυφθάρσεως} ⟨ἐκ συμφθάρσεως⟩ κίρνανται⟩⟩"
+  }
+ },
+ {
+  "place": "place 22",
+  "id": "P2-kekr",
+  "sides": {
+   "claude-A": "claude",
+   "claude-B": "claude",
+   "astra": "claude",
+   "terra": "claude"
+  },
+  "status": "all agree",
+  "confidence": {
+   "claude-A": "high",
+   "claude-B": "medium",
+   "astra": "medium",
+   "terra": "medium"
+  },
+  "other": {}
+ },
+ {
+  "place": "place 23",
+  "id": "P2-end",
+  "sides": {
+   "claude-A": "claude",
+   "claude-B": "claude",
+   "astra": "claude",
+   "terra": "other"
+  },
+  "status": "split",
+  "confidence": {
+   "claude-A": "high",
+   "claude-B": "high",
+   "astra": "high",
+   "terra": "medium"
+  },
+  "other": {
+   "terra": "⟨⟨{μονάδος} ⟨μονάδων⟩ μὴ τεμνομένων, ὅτι μηδὲ τοῖς ἀριθμητικοῖς τοῦτο δέδοκται⟩⟩"
+  }
+ },
+ {
+  "place": "place 24",
+  "id": "32.15",
+  "sides": {
+   "claude-A": "claude",
+   "claude-B": "claude",
+   "astra": "claude",
+   "terra": "claude"
+  },
+  "status": "all agree",
+  "confidence": {
+   "claude-A": "high",
+   "claude-B": "high",
+   "astra": "medium",
+   "terra": "high"
+  },
+  "other": {}
+ },
+ {
+  "place": "place 25",
+  "id": "33.12",
+  "sides": {
+   "claude-A": "claude",
+   "claude-B": "claude",
+   "astra": "claude",
+   "terra": "claude"
+  },
+  "status": "all agree",
+  "confidence": {
+   "claude-A": "high",
+   "claude-B": "high",
+   "astra": "high",
+   "terra": "high"
+  },
+  "other": {}
+ }
+]
