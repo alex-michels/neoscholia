@@ -9,7 +9,7 @@
 | GPT-6 Astra | Codex CLI, ultra, поиск в сети | 31.10.2026 |
 | Claude Opus 5.5 | агент Claude Code, effort max | 31.10.2026 |
 | Claude Sonnet 5.5 | агент Claude Code, effort max | 31.10.2026 |
-| Kimi K3 | приложение GitHub Copilot | запускает редактор |
+| Kimi K3 | приложение GitHub Copilot, reasoning High | 31.10.2026, запустил редактор |
 
 ## Пакет
 
