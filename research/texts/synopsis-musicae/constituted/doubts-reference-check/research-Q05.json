@@ -1,0 +1,221 @@
+{
+ "question": "Q05",
+ "prior_assessment": [
+  {
+   "id": "Q05-01",
+   "holds": "holds",
+   "note": "The LSJ/DGE/LS(Gr.) data check out (Logeion; lsj.gr via WebFetch). DGE cites Gr.Naz. M.36.116C 'ἀδύνατον καὶ ἀνεγχώρητον ποιεῖν τι τὸν υἱόν', 'cf. Hsch.' and Sch.Hermog. Rh. 7.135. No lexicon records a dative or an attributive construction. The step to option a (the main recension's τῇ δὲ ἀριθμητικῇ τοῦτο ἀδύνατον) is an inference, though a sound one."
+  },
+  {
+   "id": "Q05-02",
+   "holds": "weaker than claimed",
+   "note": "'Attested only as an Egyptian land tax' is wrong. DGE gives subst. τὸ ἀ. 'número cardinal' (D.T. 636.15, 637.25; Sch.D.T. 243.1). Sophocles p. 246 has 'numeral, applied to the cardinal numbers' (D.T. 636,15 ὄνομα; Herodn.). LSJ II cites a predicative neuter (Dam. Pr. 117), and the scholia have 'ἀριθμητικὸν γάρ ἐστι' (of ἕξ). The conclusion still holds: no sense means 'arithmetically' or 'for arithmetic'. On d: the adverb is idiomatic with verbs, but no instance with ἀδύνατον was found."
+  },
+  {
+   "id": "Q05-03",
+   "holds": "holds",
+   "note": "Confirmed and extended. Lampe p. 131 lists Gr.Naz. or. 30.11, Ps.-Ath. disp. 10 (M.28.449A) and Chrys. hom. 38.4 in Jo. In three of the six attestations the word is paired with ἀδύνατον (Gregory, Chrysostom, Sch. Hermog.). Reading P's clause as a rewording of τῇ δὲ ἀριθμητικῇ τοῦτο ἀδύνατον remains an inference."
+  },
+  {
+   "id": "Q05-04",
+   "holds": "holds",
+   "note": "Logeion LSJ: Adv. -κῶς Plu. QConv. 643c, Theo Sm. p. 116 H. Both passages were opened: Plutarch 643c 'ἀριθμητικῶς οὐ γεωμετρικῶς ὁρίζων', and Theon p. 116 'ἀριθμητικῶς τρισὶν ὑπερέχων'."
+  },
+  {
+   "id": "Q05-05",
+   "holds": "weaker than claimed",
+   "note": "Smyth §1021 says a substantivized attributive adjective 'generally' takes the article. The §1039 example is οἱ ὑμέτεροι δυσμενεῖς, with the article. None of the six attestations of ἀνεγχώρητος uses it as a substantive with an attributive adjective: all are predicative. The analysis 'an arithmetical impossibility' is grammatically conceivable but has no parallel."
+  },
+  {
+   "id": "Q05-06",
+   "holds": "holds",
+   "note": "Now verified through Logeion (Bailly 2024): 'ἀνεγχώρητος, ος, ον, inadmissible, impossible, Naz. 8, 255'."
+  },
+  {
+   "id": "Q05-07",
+   "holds": "holds",
+   "note": "Logeion Bailly 2024: ἀριθμητικός 'qui concerne les nombres … ἡ ἀριθμητική (s.e. τέχνη) … habile à compter'; ἀριθμητικῶς 'numériquement, Plut. M. 643c'."
+  },
+  {
+   "id": "Q05-08",
+   "holds": "weaker than claimed",
+   "note": "The gloss is correct. The bearing on b ('a neuter impossible thing, qualified by ἀριθμητικόν') is not supported by Bailly or by any attestation."
+  },
+  {
+   "id": "Q05-09",
+   "holds": "holds",
+   "note": "Smyth §341: the adverbial neuter accusatives cited are πολύ, μικρόν, πρῶτον, τήμερον, πολλά, all of quantity, order or time. Relational -ικός adjectives form adverbs in -ικῶς. Little bearing on the question."
+  },
+  {
+   "id": "Q05-10",
+   "holds": "holds",
+   "note": "Consistent with the Logeion LSJ/Bailly text."
+  },
+  {
+   "id": "Q05-11",
+   "holds": "holds",
+   "note": "Bailly entry confirmed (Naz. 8, 255). Correct that no dative complement is recorded."
+  },
+  {
+   "id": "Q05-12",
+   "holds": "weaker than claimed",
+   "note": "The text of Smyth §1039 is verified, but its example has the article and a masculine person. The application to an anarthrous neuter predicate ἀνεγχώρητον has no attestation. Every use found is predicative and paired with or equivalent to ἀδύνατον."
+  },
+  {
+   "id": "Q05-13",
+   "holds": "weaker than claimed",
+   "note": "§§1606–1609 are general (manner, measure, degree). Nothing in them supports an adverbial ἀριθμητικόν."
+  }
+ ],
+ "new_findings": [
+  {
+   "source": "Lampe, Patristic Greek Lexicon, p. 131, s.v. ἀνεγχώρητος (page image, archive.org leaf n177)",
+   "status": "checked",
+   "url": "https://archive.org/details/a-patristic-greek-lexicon-edited-by-g.-w.-h.-lampe.-1961pdf",
+   "found": "'ἀνεγχώρητος, impossible ἀδύνατον καὶ ἀ. ποιεῖν τι τὸν υἱόν, ὧν οὐ ποιεῖ ὁ πατήρ Gr.Naz.or.30.11(p.123.6; M.36.116C); ‡Ath.disp.10 (M.28.449A); Chrys.hom.38.4 in Jo.(8.222B).' No construction with a dative or an attributive adjective is recorded.",
+   "bears_on": "neither",
+   "how": "Gives the full patristic attestation. Every instance is predicative and synonymous with ἀδύνατον. This removes the lexical basis for b's 'arithmetical impossibility' analysis but does not choose between a, c and d."
+  },
+  {
+   "source": "Gregory of Nazianzus, Or. 30.11, ed. Mason (1899), First1KGreek tlg2022.tlg010",
+   "status": "checked",
+   "url": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg2022/tlg010/tlg2022.tlg010.1st1K-grc1.xml",
+   "found": "'οὕτως ἀδύνατον καὶ ἀνεγχώρητον ποιεῖν τι τὸν υἱόν, ὧν οὐ ποιεῖ ὁ πατήρ'. The same chapter classifies impossibilities and has 'ὃ τῇ φύσει μὲν ἀδύνατον, θεῷ δὲ δυνατὸν βουληθέντι'.",
+   "bears_on": "a",
+   "how": "ἀνεγχώρητον = ἀδύνατον. In the very passage where the word occurs, the domain or agent of (im)possibility is a dative (τῇ φύσει, anarthrous θεῷ) after a relative pronoun, the same frame as ὅπερ … ἀριθμητικῇ ἀνεγχώρητον. It equally allows a dative of the person (c)."
+  },
+  {
+   "source": "Ps.-Athanasius, Disputatio contra Arium 10, PG 28.449A (page image, archive.org patrologiae_cursus_completus_gr_vol_028, leaf n231)",
+   "status": "checked",
+   "url": "https://archive.org/details/patrologiae_cursus_completus_gr_vol_028",
+   "found": "'Ἐὰν τοῦτο ἀποδείξῃς, ὅπερ ἀνεγχώρητόν ἐστι, τάχα κἀμὲ ποιήσεις τῷ σῷ φρονήματι ἐπακολουθῆσαι.' The Latin version renders it 'quod sane fieri non potest'.",
+   "bears_on": "neither",
+   "how": "The nearest construction to P's ὅπερ … ἀνεγχώρητον: a relative with a predicative ἀνεγχώρητον, not qualified by any adjective. It shows the predicate needs no noun to agree with, which tells against reading ἀριθμητικόν as an attribute."
+  },
+  {
+   "source": "Ps.-Athanasius, Disputatio contra Arium 20, PG 28.461C, with footnote (23) (page image, leaf n237)",
+   "status": "checked",
+   "url": "https://archive.org/details/patrologiae_cursus_completus_gr_vol_028",
+   "found": "'Εἰ οὖν ἀνεγχώρητον δύο βασιλεῖς φῆσαι ἐπὶ βασιλέως ἑνός …'. Note (23): 'Mox idem et Basiliensis, Εἰ οὖν ἀνεγχείρητον.'",
+   "bears_on": "neither",
+   "how": "A predicative use with an infinitive. The variant ἀνεγχείρητον shows that this rare word is itself exposed to scribal alteration."
+  },
+  {
+   "source": "Ps.-Athanasius, Disputatio contra Arium 31, PG 28.480D (page image, leaf n246)",
+   "status": "checked",
+   "url": "https://archive.org/details/patrologiae_cursus_completus_gr_vol_028",
+   "found": "'διὰ τὸ ἀνεγχώρητον ἐπ᾽ ἀνθρώπου ἐκλαβεῖν τινα ἑτερούσιον τὸν βραχίονα'. The Latin version renders it 'quia nimirum in homine concipi non potest'.",
+   "bears_on": "neither",
+   "how": "The only attested qualifier of the domain of ἀνεγχώρητον is a prepositional phrase, ἐπί + genitive. No adjective or adverb is used."
+  },
+  {
+   "source": "John Chrysostom, Hom. 38.4 in Jo., PG 59.216–217 (page images, archive.org patrologiae_cursus_completus_gr_vol_059, leaves n216–217)",
+   "status": "checked",
+   "url": "https://archive.org/details/patrologiae_cursus_completus_gr_vol_059",
+   "found": "'τοῦτο λέγει, ὅτι Ἀδύνατον καὶ ἀνεγχώρητόν ἐστιν ἐμὲ ποιῆσαί τι ἐναντίον τῷ Πατρί.'",
+   "bears_on": "a",
+   "how": "A third pairing with ἀδύνατον, with accusative + infinitive. It confirms the word is a plain synonym of ἀδύνατον, so P's clause matches the main recension's τῇ δὲ ἀριθμητικῇ τοῦτο ἀδύνατον."
+  },
+  {
+   "source": "Scholia in Hermogenis Status, Walz, Rhetores Graeci 7.1, p. 135.24–25 (page image, archive.org p1rhetoresgraeci07walzuoft, leaf n146)",
+   "status": "checked",
+   "url": "https://archive.org/details/p1rhetoresgraeci07walzuoft",
+   "found": "'ἀδύνατον γὰρ εἶναι τοῦτο καὶ ἀνεγχώρητον'. Also p. 136.27–28: 'ὅπερ ἐπὶ τῶν πλαστῶν στοχασμῶν οὐκ ἐγχωρεῖ γενέσθαι', where the domain is again ἐπί + genitive.",
+   "bears_on": "a",
+   "how": "A fourth pairing with ἀδύνατον, predicative, with τοῦτο as subject: τοῦτο … ἀδύνατον καὶ ἀνεγχώρητον mirrors the main recension's τοῦτο ἀδύνατον."
+  },
+  {
+   "source": "Sophocles, Greek Lexicon of the Roman and Byzantine Periods, p. 160 s.v. ἀνεγχώρητος; pp. 246–247 s.vv. ἀριθμητικός, ἀριθμητικῶς (page images)",
+   "status": "checked",
+   "url": "https://archive.org/details/greeklexiconofro00soph",
+   "found": "'ἀνεγχώρητος, ον, (ἐγχωρέω) = ἀχώρητος. Pseudo-Athan. IV, 449 A.' 'ἀριθμητικός … numeral, applied to the cardinal numbers. Dion. Thr. 636, 15, ὄνομα … Herodn. … 2. Arithmetical. Athenag. Legat. 6, λόγος.' 'ἀριθμητικῶς, adv. numerically. Plut. II, 643 C. Hippol. Haer. 264, 38.'",
+   "bears_on": "neither",
+   "how": "Sophocles' gloss 'ἀχώρητος' is contradicted by the passage he cites (Latin: 'quod sane fieri non potest'). Besides 'arithmetical' (λόγος), the entry gives only the grammatical sense 'numeral' and lists no adverbial use."
+  },
+  {
+   "source": "Logeion: LSJ, DGE, Bailly 2024, Pape s.vv. ἀνεγχώρητος, ἀριθμητικός, ἀριθμητικῶς",
+   "status": "checked",
+   "url": "https://anastrophe.uchicago.edu/logeion-api/detail?type=normal&w=ἀριθμητικός",
+   "found": "DGE ἀριθμητικός: '• subst. τὸ ἀ. número cardinal op. ordinal, D.T.636.15, 637.25, Sch.D.T.243.1'; '3 τὸ ἀριθμητικόν contribución … Egipto'; 'II adv. -ῶς … ἀ. οὐ γεωμετρικῶς … Plu.2.643c, ἀ. τρισὶν ὑπερέχειν Theo Sm.116'. LSJ II: 'τὸ ἓν ἁπλῶς οὐκ ἦν ἀ. Dam. Pr. 117'. ἀνεγχώρητος: LSJ 'impossible, Sch.Hermog.'; DGE 'imposible' (Gr.Naz., Hsch., Sch.Hermog.); Bailly 'inadmissible, impossible, Naz. 8, 255'; Pape 'unzulässig, unmöglich, Sp.'",
+   "bears_on": "neither",
+   "how": "Answers the neuter lead. Besides the tax there is a grammatical sense ('cardinal numeral') and a predicative 'numerical'. None gives 'arithmetically' or 'for arithmetic', so b has no lexical support in that sense."
+  },
+  {
+   "source": "Scholia in Odysseam 9.246 (and Herodian, Prosodia Odysseaca), First1KGreek tlg5026.tlg007 / tlg0087.tlg008; Scholia in Isocratem (vetera), tlg5028.tlg001",
+   "status": "checked",
+   "url": "https://github.com/OpenGreekAndLatin/First1KGreek",
+   "found": "'τὸ ἓξ δασυντέον· ἀριθμητικὸν γάρ ἐστι'. Scholia on Isocrates: 'τοῦτο μὲν γὰρ ἀριθμητικόν ἐστι τὸ σχῆμα'.",
+   "bears_on": "neither",
+   "how": "The only predicative neuter ἀριθμητικόν found means 'a numeral' or 'enumerative', not 'arithmetically'. A predicative ἀριθμητικόν in P would naturally read 'numerical', which makes no sense with ἀνεγχώρητον. This tells against b."
+  },
+  {
+   "source": "Corpus search, accent-insensitive regex over all Greek XML in OpenGreekAndLatin First1KGreek (master zip) and PerseusDL canonical-greekLit (master zip): all forms of ἀριθμητικῶς",
+   "status": "checked",
+   "url": "https://github.com/OpenGreekAndLatin/First1KGreek",
+   "found": "26 hits counting duplicate editions. Theon p. 116 H.; Iamblichus, De comm. math. sc. 32 ('περὶ τῶν τεττάρων στοιχείων γεωμετρικῶς ἢ ἀριθμητικῶς ἢ ἁρμονικῶς'); Proclus, In Remp. II (Kroll), 'δεικνύσθω δὲ … ἀριθμητικῶς' and 'ἀριθμητικῶς μὲν οὑτωσὶ … γεωμετρικῶς δέ'; Plutarch, QConv 643c; Hippolytus, Ref. (twice); Simplicius, In Phys.; Syrianus, In Metaph.; Anon. in EN; Pindar scholia. In every case the adverb modifies a verb or participle (show, consider, treat, exceed), often against γεωμετρικῶς. Never with ἀδύνατον, ἀμήχανον or an equivalent.",
+   "bears_on": "d",
+   "how": "d is the idiomatic form for 'in the arithmetical way' as opposed to the geometrical, but no attested pattern adverb + adjective of impossibility was found."
+  },
+  {
+   "source": "Proclus, In Rempublicam, ed. Kroll, vol. II p. 38 (First1KGreek tlg4036.tlg001 opp-grc1, page markers)",
+   "status": "checked",
+   "url": "https://github.com/OpenGreekAndLatin/First1KGreek/tree/master/data/tlg4036/tlg001",
+   "found": "'οὐ γὰρ ἔστιν ἀριθμὸν λαβεῖν τετράγωνον τετραγώνου διπλάσιον … (αὐτὸ τοῦτο γὰρ ἀδύνατον)'. This is the same mathematical fact as in P (32 is not square).",
+   "bears_on": "neither",
+   "how": "The ancient statement of this impossibility uses no discipline adjective, adverb or dative. It does not discriminate between the options."
+  },
+  {
+   "source": "Euclid, Elements VII.31 (Heiberg; PerseusDL tlg1799.tlg001 perseus-grc2); Heron, Metrica I.18 (Schöne p. 50; First1KGreek tlg0559.tlg006)",
+   "status": "checked",
+   "url": "https://github.com/PerseusDL/canonical-greekLit/tree/master/data/tlg1799/tlg001",
+   "found": "Euclid: '… ὧν ἕτερος ἑτέρου ἐλάσσων ἐστίν· ὅπερ ἐστὶν ἀδύνατον ἐν ἀριθμοῖς.' Heron: 'ἐπεὶ ἐν ἀριθμοῖς οὐκ ἔστιν εὑρεῖν τετράγωνον τετραγώνου πενταπλάσιον'.",
+   "bears_on": "neither",
+   "how": "The standard technical idiom for 'arithmetically impossible' is relative ὅπερ + ἀδύνατον + ἐν ἀριθμοῖς. None of the four options follows it. It shows only that ὅπερ … ἀδύνατον/ἀνεγχώρητον + qualifier of the domain is a natural frame."
+  },
+  {
+   "source": "Galen, De constitutione artis medicae ad Patrophilum 12, Kühn I 264–265 (First1KGreek tlg0057.tlg006)",
+   "status": "checked",
+   "url": "https://github.com/OpenGreekAndLatin/First1KGreek/tree/master/data/tlg0057/tlg006",
+   "found": "'ἀλλὰ τινὰ μὲν τῇ φύσει, τινὰ δὲ τοῖς ἰατροῖς ἐστιν ἀδύνατα … ἀδύνατον ὀρθῶσαι …, τῷ δὲ ἰατρῷ δυνατόν. … ἰατρῷ μὲν ἐμβαλεῖν δυνατόν, ἀδύνατον δὲ τῇ φύσει. … τῇ φύσει μέν ἐστι δυνατόν, ἀδύνατον δ᾽ ἰατρῷ'.",
+   "bears_on": "a",
+   "how": "A clear parallel for ἀδύνατον with a dative of the agent or power (τῇ φύσει), which is the type of the main recension's τῇ ἀριθμητικῇ. It is equally a parallel for an anarthrous dative of the practitioner (ἰατρῷ), the type of c. It supports a and c alike and favours neither b nor d."
+  },
+  {
+   "source": "Aristotle, Analytica Posteriora 76b2 (First1KGreek tlg0086.tlg001)",
+   "status": "checked",
+   "url": "https://github.com/OpenGreekAndLatin/First1KGreek/tree/master/data/tlg0086/tlg001",
+   "found": "'ταὐτὸ γὰρ ποιήσει … ἐπὶ μεγεθῶν μόνον, τῷ δ᾽ ἀριθμητικῷ ἐπ᾽ ἀριθμῶν.'",
+   "bears_on": "c",
+   "how": "The dative of ὁ ἀριθμητικός, 'the arithmetician', is standard, so the form c requires is available. The parallel is for the form only, not for its use with ἀδύνατον."
+  },
+  {
+   "source": "Galen, De alimentorum facultatibus 1.2, Kühn VI 454; Aspasius, In EN p. 136 Heylbut (First1KGreek tlg0057.tlg037, tlg0615.tlg001)",
+   "status": "checked",
+   "url": "https://github.com/OpenGreekAndLatin/First1KGreek",
+   "found": "Galen: 'ὥσπερ ἐν γεωμετρίᾳ καὶ ἀριθμητικῇ συνεφωνεῖτο πάντα'. Aspasius: 'οἷον ἐν γεωμετρίᾳ καὶ ἀριθμητικῇ ἃς ὁ μὴ παραδεξάμενος …'.",
+   "bears_on": "a",
+   "how": "An anarthrous dative ἀριθμητικῇ naming the discipline is attested. Option a's missing article (P elsewhere has ἡ ἀριθμητική, τῇ γεωμετρίᾳ) is therefore no real objection, although these instances follow ἐν."
+  },
+  {
+   "source": "Corpus search (same corpora): adjective or adverb in -ικ- immediately before ἀδύνατ-, ἀμήχαν-, ἀνεπίδεκτ- or ἀνέφικτ-",
+   "status": "checked",
+   "url": "https://github.com/PerseusDL/canonical-greekLit",
+   "found": "Hits: Alexander, In An. Pr. ('ὧν δεικνυμένων συλλογιστικῶς ἀδύνατον ἦν λαβεῖν'); Galen, In Hipp. Aph. ('ἀναχυθῆναι τὴν χολὴν κριτικῶς ἀδύνατόν ἐστιν'); Galen, De crisibus ('ἐξευρεῖν ἔργον τι τεχνικὸν ἀμήχανόν ἐστι'). In each the -ικῶς belongs to the verb or participle and the -ικόν agrees with a noun (ἔργον).",
+   "bears_on": "neither",
+   "how": "There is no parallel anywhere for 'X-ικόν ἀδύνατον' as 'impossible in respect of X' (b), nor for 'X-ικῶς ἀδύνατον' as 'X-ly impossible' (d)."
+  },
+  {
+   "source": "Package evidence, evidence/section-3.json: Vincent pp. 338, 340 with footnotes (P's readings)",
+   "status": "checked",
+   "found": "P's recorded scribal errors: τὸν τῶν ἀριθμόν for τὸ τῶν ἀριθμῶν (338 n. 2: added ν, ω>ο); τοῦ for τῆς (n. 4); τέμνει for τέμνειν (n. 5); διαστήματα for διαστημάτων (340 n. 3); κεκρυμμένων for κεκραμένων (340 n. 4). In P's own wording the antithesis to our clause is 'ἡ μὲν ἀριθμητικὴ … οὐ δύναται' (338.15–16) and 'Τῇ γεωμετρίᾳ δὲ τοῦτο ῥάδιον' (338.21), and P has an anarthrous practitioner, 'γεωμέτρης λαβών' (338.22), where H, Par. and V have 'ὁ γεωμέτρης μεταλαβών'.",
+   "bears_on": "a",
+   "how": "P's scribe demonstrably corrupts case endings, including -ῶν > -όν and an added ν, so ἀριθμητικόν assimilated to ἀνεγχώρητον is a plausible error. P's own dative-of-discipline antithesis (τῇ γεωμετρίᾳ … ῥάδιον) points to a. The ο/ω + ν pattern and the anarthrous γεωμέτρης are the best case for c."
+  }
+ ],
+ "searched_without_result": "1. LBG (Trapp). The online LBG at stephanus.tlg.uci.edu is a JavaScript app. Its data endpoint is captcha-gated, and a direct query was refused by the permission system, so I did not pursue it. NOT CHECKED.\n2. Hesychius' gloss ἀνεγχώρητον· ἀμήχανον. Schmidt's editions on archive.org have unusable Greek OCR; I rely on DGE's 'cf. Hsch.' and LS (Gr.). Not verified on the page.\n3. Proclus In Euclidem and the scholia on Euclid (Heiberg, Euclidis opera V): not in the GitHub corpora, and the archive.org OCR of Greek is unusable. Not searched.\n4. In all First1KGreek and PerseusDL canonical-greekLit Greek texts (accent-insensitive regex), none of the following was found:\n   - any form of ἀνεγχώρητος except Gregory, Or. 30.11;\n   - ἀνεγχώρητος with a dative of person or discipline, with an attributive adjective, or with an adverb;\n   - ἀριθμητικῶς near ἀδύνατ-, ἀμήχαν-, ἀνέφικτ-, οὐχ οἷόν τε or οὐκ ἐνδέχεται;\n   - ἀριθμητικόν + ἀδύνατον/ἀμήχανον as 'arithmetically impossible';\n   - (τῇ) ἀριθμητικῇ / γεωμετρίᾳ / μουσικῇ within 0–3 words of ἀδύνατ- or ἀμήχαν-;\n   - the collocation σχῆμα ἀριθμητικόν.\n5. Lampe has no special construction for ἀνεγχώρητος. The full-text pattern search for the article before dative ἀριθμητικῇ/-ῷ (raw, unnormalised corpus) did not finish in time; anarthrous dative ἀριθμητικῇ was confirmed separately (Galen, Aspasius).\n6. M. L. West, Textual Criticism (on the assimilation of endings to neighbouring words): not opened, not used.",
+ "supports": "a",
+ "strength": "moderate",
+ "decisive": "Nothing is decisive. No reference work or text attests ἀνεγχώρητος with any of the four forms, or with a dative, an attributive adjective or an adverb. All six attestations are predicative, three of them paired with ἀδύνατον: Gr. Naz. Or. 30.11; Ps.-Ath. Disp. 10, 20, 31; Chrys. hom. 38.4 in Jo.; Sch. Hermog. The lexical evidence only establishes that ἀνεγχώρητον = ἀδύνατον. The choice of a over c rests on the parallel with the main recension (τῇ δὲ ἀριθμητικῇ τοῦτο ἀδύνατον) and on P's own antithesis (Τῇ γεωμετρίᾳ δὲ τοῦτο ῥάδιον), which is internal evidence, not reference evidence.",
+ "reasoning": "1. The lexical facts. ἀνεγχώρητος is a rare late synonym of ἀδύνατον. Lampe p. 131 lists Gregory, Ps.-Athanasius and Chrysostom; LSJ and DGE add the scholia on Hermogenes and Hesychius' gloss ἀμήχανον. I read every attestation in its source:\n   - three are pairings 'ἀδύνατον καὶ ἀνεγχώρητον';\n   - one is 'ὅπερ ἀνεγχώρητόν ἐστι' (Ps.-Ath. PG 28.449A);\n   - one specifies the domain by ἐπ᾽ ἀνθρώπου (PG 28.480D);\n   - none takes an attributive adjective or a dative.\n\n   So P's clause ὅπερ καὶ X ἀνεγχώρητον is the synonym of the main recension's τῇ δὲ ἀριθμητικῇ τοῦτο ἀδύνατον: ὅπερ = τοῦτο, ἀνεγχώρητον = ἀδύνατον, X = the qualifier of the domain.\n\n2. Against b. The transmitted ἀριθμητικόν can be defended only as an attribute of a substantivized ἀνεγχώρητον ('an arithmetical impossibility') or as an adverbial neuter.\n   - Neither has a parallel. The word is never a substantive with an adjective.\n   - The neuter ἀριθμητικόν means a tax, a numeral (D.T., scholia 'ἀριθμητικὸν γάρ ἐστι') or 'numerical' attributively. It never means 'arithmetically'.\n   - Pattern searches for -ικόν + ἀδύνατον/ἀμήχανον find only agreement with a noun.\n   - P's scribe is shown by Vincent's notes to corrupt endings (ἀριθμόν for ἀριθμῶν, τὸν for τό, διαστήματα for διαστημάτων), so an assimilation to ἀνεγχώρητον is easy.\n   b is therefore the weakest option, though as the transmitted text it cannot be wholly excluded.\n\n3. On d. ἀριθμητικῶς is a real adverb, idiomatic in the arithmetic-versus-geometry contrast (Plutarch 643c, Theon 116, Iamblichus, Proclus In Remp.). But it always modifies a verb of treating, showing or considering, and is never attested with ἀδύνατον or a synonym.\n\n4. Between a and c. A dative with ἀδύνατον is well paralleled for both an agent or power and a practitioner: Galen, De const. art. med. 12 (τῇ φύσει … ἀδύνατον δ᾽ ἰατρῷ); Gregory, Or. 30.11 (ὃ τῇ φύσει μὲν ἀδύνατον, θεῷ δὲ δυνατόν), in the very chapter that uses ἀνεγχώρητον.\n   - For a:\n     - the main recension at this exact place reads τῇ … ἀριθμητικῇ;\n     - P itself continues with ἡ μὲν ἀριθμητικὴ … οὐ δύναται and Τῇ γεωμετρίᾳ δὲ τοῦτο ῥάδιον, a discipline in the dative;\n     - an anarthrous dative ἀριθμητικῇ for the discipline is attested (Galen, Aspasius, after ἐν).\n   - For c:\n     - the arithmetician (τῷ ἀριθμητικῷ) is a standard dative (Arist. An. Post. 76b2);\n     - P uses an anarthrous person, γεωμέτρης λαβών;\n     - the change ῷ > όν matches P's recorded ο/ω and added-ν errors.\n\n   On balance the evidence favours a. The strength is moderate, because the deciding consideration is the parallel with the other recension rather than any reference attestation.",
+ "seen_prohibited": "None seen. No lexicon entry consulted cites this text: LSJ, DGE, Bailly 2024, Pape, LS (Gr.), Lampe and Sophocles for ἀνεγχώρητος, ἀριθμητικός and ἀριθμητικῶς. No corpus hit or web-search result quoted or discussed the Quadrivium of 1008, Heiberg's edition or Ps.-Psellus. I did not open or use any edition, transcription or translation of this text. I put no Greek phrase of the text into a search engine; I searched only single words (ἀνεγχώρητον with author names, ἀνεγχώρητος with 'Lexikon byzantinischen Gräzität'), with no hit on this text. The only material from the text itself that I used is the package evidence (Vincent pp. 338/340 and the facts in questions.json)."
+}

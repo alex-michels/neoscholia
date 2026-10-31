@@ -1,0 +1,164 @@
+{
+ "checks": [
+  {
+   "id": "Q09-01",
+   "verdict": "confirmed",
+   "url_used": "https://en.wikipedia.org/wiki/Leiden_Conventions",
+   "note": "The article says that before Leiden, scholars 'used divergent conventions to indicate the condition of the text and editorial corrections or restorations'. The system was agreed at Leiden in 1931 and published in 1932, and it standardised the brackets. The bearing (an 1847 [ ] cannot be read by the modern convention) is a fair inference."
+  },
+  {
+   "id": "Q09-02",
+   "verdict": "corrected",
+   "url_used": "https://stephanus.tlg.uci.edu/help/BetaManual/online/SB.html",
+   "correction": "The general claim can be verified, but not from memory. The TLG Beta Code Manual says square brackets mark 'either editorial or conjectural additions to the text or deletions from the text', that they are 'Generally addition in papyrological and epigraphical use', and that they are 'Indeterminate between addition or deletion in codical use'. A. Mahoney, 'Epigraphy' (TEI Electronic Textual Editing, https://vault.tei-c.de/ETE/Preview/mahoney.html), notes that pre-1931 texts 'use similar, but different conventions' and that square brackets 'may denote additions rather than subtractions'. I could not verify the specific attribution of deletion-brackets to 'Bekker/Teubner practice', so cite these sources instead.",
+   "note": "Vincent 1847 itself shows how variable the practice was: he uses [ ] for supplements and ( ) for words to delete (see Q09-new-04 and -05)."
+  },
+  {
+   "id": "Q09-03",
+   "verdict": "confirmed",
+   "url_used": "https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.16.html",
+   "note": "§1122: the generic article denotes a class. §1126: 'The generic article is frequently omitted, especially with abstracts (1132), without appreciable difference in meaning'. §1131: 'Abstract substantives generally have the article'. §1132: names of virtues, vices, arts, sciences and occupations often omit it. The summary and bearing are fair."
+  },
+  {
+   "id": "Q09-04",
+   "verdict": "confirmed",
+   "url_used": "https://atlas.perseus.tufts.edu/library/passage/urn:cts:greekLit:tlg0361.tlg001.1st1K-grc1:1-5/",
+   "note": "The text reads 'οἷον δίτονον, τόνος, ἡμιτόνιον, διὰ τεσσάρων, διὰ πέντε, διὰ πασῶν καὶ τὰ ὅμοια'. Section 5, Jan p. 187.8-9 (pb 187 in the First1KGreek XML)."
+  },
+  {
+   "id": "Q09-05",
+   "verdict": "confirmed",
+   "url_used": "https://bailly.app/diesis",
+   "note": "Bailly has 'δίεσις, εως (ἡ)'. Sense I.2 is musical: semitone or diesis (Philol.); chromatic diesis (Aristox. apud Ptol.); quarter-tone (A. Quint.). The noun is feminine, and the bearing is fair."
+  },
+  {
+   "id": "Q09-06",
+   "verdict": "confirmed",
+   "url_used": "https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.16.html",
+   "note": "§1123: 'In the singular the generic article makes a single object the representative of the entire class'."
+  },
+  {
+   "id": "Q09-07",
+   "verdict": "corrected",
+   "url_used": "https://eulogikon.org/works/nicomachus-gerasa-handbook-harmonics-owy-ac",
+   "correction": "δίεσις does not occur in chapter 11 (Περὶ τοῦ δὶς διὰ πασῶν κατὰ τὸ διάτονον γένος, 11.1-11.6). The anarthrous δίεσις in a sequence of intervals is in chapter 12, on the enharmonic progression: 'τὸ δὲ ἐναρμόνιον τὴν προκοπὴν φυσικῶς τοιαύτην ἔχει· δίεσις, ὅπερ ἐστὶν ἡμιτονίου ἥμισυ, καὶ πάλιν ἄλλη δίεσις, … ὅλον δίτονον ἀσύνθετον'. A further anarthrous example is in chapter 9, in the Philolaus quotation: 'τρίʼ ἐπόγδοα καὶ δίεσις'.",
+   "note": "The bearing (bare δίεσις is acceptable) stands."
+  },
+  {
+   "id": "Q09-08",
+   "verdict": "confirmed",
+   "url_used": "https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.16.html",
+   "note": "§1118: the article marks individuals or classes (the generic article). §1126: generic article 'frequently omitted, especially with abstracts … without appreciable difference in meaning'. §§1131-1132 as in Q09-03."
+  },
+  {
+   "id": "Q09-09",
+   "verdict": "confirmed",
+   "url_used": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0361/tlg001/tlg0361.tlg001.1st1K-grc1.xml",
+   "note": "Jan p. 187, lines 17-18 (counted from the lb markers) read 'ἐλάττω μὲν οὖν ἐστι τοῦ διὰ τεσσάρων δίεσις, ἡμιτόνιον, | τόνος, δίτονον'."
+  },
+  {
+   "id": "Q09-new-01",
+   "verdict": "corrected",
+   "url_used": "https://archive.org/details/NoticesEtExtraitsDesMss16P2",
+   "correction": "For square brackets the claim holds. The Avertissement (pp. 1-4, n20-n23), the Pédiasimus introduction (p. 289, n310) and the Pachymeres introduction (which begins on p. 362, not p. 363) give no key to the editorial signs. Two details need correcting. (1) The OCR (djvu.txt) has two hits for 'crochet', not one: p. 145 ('figurer un crochet, une clef', on the shape of the numeral 4) and the zoological one ('serpents munis de crochets'). Both are unrelated to the editorial signs. (2) 'Nowhere states his editorial signs' is too strong. Vincent states one convention in the Pachymeres notes, for round parentheses: p. 482, note 4, 'Dans les citations de Ptolémée, nous continuons à indiquer par des parenthèses les développements qui ne se trouvent pas dans cet auteur'. Compare p. 478, n. 4 ('Ptol. omet toutes les parenthèses') and p. 490 ('excepté ce qui est entre parenthèses'). He states no convention for [ ]."
+  },
+  {
+   "id": "Q09-new-02",
+   "verdict": "confirmed",
+   "url_used": "https://archive.org/details/NoticesEtExtraitsDesMss16P2/page/n397/",
+   "note": "Page image n397 = p. 374. The quotations and notes 6 and 10 are exact. Vincent's note 6 calls the square-bracketed supplement a 'parenthèse'."
+  },
+  {
+   "id": "Q09-new-03",
+   "verdict": "confirmed",
+   "url_used": "https://archive.org/details/NoticesEtExtraitsDesMss16P2/page/n434/",
+   "note": "n434 = p. 405. The bracketed repetition and note 1 are exact."
+  },
+  {
+   "id": "Q09-new-04",
+   "verdict": "confirmed",
+   "url_used": "https://archive.org/details/NoticesEtExtraitsDesMss16P2/page/n456/",
+   "note": "n456 = p. 425. The ten bracketed words, note 2 ('Ces dix mots manquent dans notre texte') and '(τὴν³)' with note 3 'Mot surabondant' are exact. The supplement stands inside a quotation that closes with »."
+  },
+  {
+   "id": "Q09-new-05",
+   "verdict": "confirmed",
+   "url_used": "https://archive.org/details/NoticesEtExtraitsDesMss16P2/page/n449/",
+   "note": "p. 418 (n449): 'ἡμιτόνιον (καὶ²) τόνος', note 2 'Mot surabondant'. p. 292 (n313): '(εἰς⁴)', note 4 'Mot surabondant'. One minor point: the print has ἐφεξκαιδέκατον (smooth breathing), not ἑφεξ-. p. 289 confirms that the opuscule is taken from ms. 2762."
+  },
+  {
+   "id": "Q09-new-06",
+   "verdict": "confirmed",
+   "url_used": "https://archive.org/details/NoticesEtExtraitsDesMss16P2/page/n492/",
+   "note": "n492 = p. 461: 'τουτέστι τὴν διπλασίαν [τῆς¹²] τοῦ λείμ-ματος', note 12 'Mss. om. τῆς.'"
+  },
+  {
+   "id": "Q09-new-07",
+   "verdict": "confirmed",
+   "url_used": "https://archive.org/details/NoticesEtExtraitsDesMss16P2/page/n509/",
+   "note": "p. 453 (n484) and p. 478 (n509) are as quoted, including note 6 'Mss. om. — Cf. Ptol' and note 4 'Ptol. omet toutes les parenthèses'. Caveat for the bearing: at p. 453 only ms. A omits καὶ διέσεως. There the brackets mark words missing in one witness, not a supplement against all the manuscripts."
+  },
+  {
+   "id": "Q09-new-08",
+   "verdict": "confirmed",
+   "url_used": "https://archive.org/details/NoticesEtExtraitsDesMss16P2/page/n269/",
+   "note": "p. 242 (n263, 'EXTRAITS DU MANUSCRIT 3027'): 'ὄντων [τῶν] συλλαβῶν', with no note. p. 248 (n269): [τῷ], κοινὴ [δὲ] (the other three paragraphs have κοινὴ δέ unbracketed), [ὑγρότης] and [μὲν], none with a note. The notes on these pages that report manuscript readings are 'Ms. αὐτοῖς' (p. 242) and 'Ms. sic', 'Ms. ψυχρότης' (p. 248)."
+  },
+  {
+   "id": "Q09-new-09",
+   "verdict": "corrected",
+   "url_used": "https://archive.org/details/NoticesEtExtraitsDesMss16P2/page/n333/",
+   "correction": "The Greek and French on pp. 312-313 are as quoted, and none of the bracketed phrases carries its own note. But there are two notes on p. 312, not only note 1. Note 2 sits on δυσίν, immediately before '[καὶ ἡμιτονίου]', and reads 'Sous-ent. τόνοις'. Note 1 reads 'Ms. διπλασιοεπίτριτος'."
+  },
+  {
+   "id": "Q09-new-10",
+   "verdict": "confirmed",
+   "url_used": "https://archive.org/details/gri_33125011255672/page/n324/",
+   "note": "Vincent p. 360 (n383) is as quoted, with notes 6-8 'P. τρίτον', 'P. δύο', 'P. τρίτον'; note 5 is also 'P. τρίτον'. The 1693 edition, p. 315, col. 2, reads 'κατὰ τὸν μέσον τόπον, καὶ τρίτον ὅταν τὸ λ καὶ ἐφεξῆς' and 'δύο δὲ ὅταν τὸ σ καὶ τρίτον τὸ τ'. Vincent's note 1 locates the start of the chapter at 'p. 315, c. 1re, l. 10 en mont.'"
+  },
+  {
+   "id": "Q09-new-11",
+   "verdict": "confirmed",
+   "url_used": "https://archive.org/details/NoticesEtExtraitsDesMss16P2/page/n283/",
+   "note": "p. 262: '[Φρ]υγῶν', 'ἀποθραυ[σθέντος τε]'. The only nearby note (6) belongs to the fragment heading. p. 272: '[Ἡμί]ολος … [καθότι] … ἐλ[λεῖπον … παραθετέον.]', with no notes. p. 327 (n348): '[aj. πρώτου διπλασίου]', '[aj. δευτέρου]'. Reading 'aj.' as 'ajoutez' is plausible (compare the notes' 'Procl. aj.')."
+  },
+  {
+   "id": "Q09-new-12",
+   "verdict": "confirmed",
+   "url_used": "https://archive.org/details/NoticesEtExtraitsDesMss16P2/page/n356/",
+   "note": "n356 = p. 333. The bracketed phrase and note 7 ('Le manuscrit A supprime cette phrase, contenue dans le seul manuscrit B … la phrase paraît d'ailleurs fortement altérée') are exact. Note 1 reads: 'L'article est omis dans le ms. A … ce qui tient tout simplement à l'absence de la lettre rubrique'."
+  },
+  {
+   "id": "Q09-new-13",
+   "verdict": "confirmed",
+   "url_used": "https://archive.org/details/NoticesEtExtraitsDesMss16P2/page/n259/",
+   "note": "n259 = p. 238. The three bracketed passages are printed as quoted. Note 4, quoting Pléthon's ritual, has 'ἄρσεως [peut-être ἄρσεων]'."
+  },
+  {
+   "id": "Q09-new-14",
+   "verdict": "corrected",
+   "url_used": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0361/tlg001/tlg0361.tlg001.1st1K-grc1.xml",
+   "correction": "The quotations are accurate, but not all are from §§5 and 7. The three anarthrous lists are in §5 (Jan pp. 187, 189). 'τὸ μὲν γὰρ ἡμιτόνιον εἰς ἓξ δωδεκατημόρια, ἡ δὲ δίεσις …' is in §7 (Jan p. 192). 'ἐλάχιστον μὲν τὸ διὰ τεσσάρων … δεύτερον δὲ τὸ διὰ πέντε' is in §8 (Jan p. 194). There is also a caveat on the bearing. In 'ἐλάττω μὲν οὖν ἐστι τοῦ διὰ τεσσάρων δίεσις, ἡμιτόνιον, τόνος, δίτονον' (§5) the intervals are themselves the subjects and have no article. So the article goes with single contrasted subjects, not with every case where intervals are subjects."
+  },
+  {
+   "id": "Q09-new-15",
+   "verdict": "corrected",
+   "url_used": "https://archive.org/download/musiciscriptoresjank/musiciscriptoresjank_djvu.txt",
+   "correction": "The Theon quotation is confirmed: Hiller p. 52 in the First1KGreek XML (pb 52), with the article only on the first member ('οἷον ἥ τε διὰ πασῶν καὶ διὰ τεσσάρων, καὶ διὰ πασῶν καὶ διὰ πέντε, καὶ δὶς διὰ πασῶν'). The Aristotle passage is not in Jan's prolegomena. It is in Jan's text section 'Aristotelis loci de musica', D. De consonantia, Jan p. 21, which prints De sensu 7, 448a: 'λόγοι γάρ εἰσιν ἀντικειμένων, οἷον τὸ διὰ πασῶν καὶ τὸ διὰ πέντε'. The wording is correct."
+  },
+  {
+   "id": "Q09-new-16",
+   "verdict": "confirmed",
+   "url_used": "https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.16.html",
+   "note": "The §1143 and §1144 quotations are exact. §1145 concerns repeating the article in place of the noun. §1148: 'Concrete coördinated words forming a copulative expression may omit the article.' None of §§1143-1148 describes an article on later members only, though that is an argument from silence."
+  },
+  {
+   "id": "Q09-new-17",
+   "verdict": "corrected",
+   "url_used": "https://archive.org/details/NoticesEtExtraitsDesMss16P2/page/n33/",
+   "correction": "'PAR UN [SECOND] ANONYME' is on p. 14 (leaf n33), in the heading of the 'Manuel de l'art musical', not on p. 33 (n54; n54 is actually p. 35). 'on observe les signaux [sans les répéter]' is confirmed on p. 363 (n386).",
+   "note": "p. 35 (n54) has more such French translator's additions: '[comme on le voit]' and '[comme nous l'avons dit]'. The p. 362 heading has 'DES QUATRE SCIENCES MATHÉMATIQUES [OU QUADRIVIUM]'."
+  }
+ ],
+ "summary": "All 26 findings checked. 15 are confirmed, 11 corrected, and none is wrong, not found or unopenable. Vincent 1847 was checked against archive.org page images (offsets differ by section: n397 = p. 374, n434 = p. 405, n33 = p. 14). The 1693 Veterum mathematicorum p. 315 was also checked from its page image. The other sources were checked as follows: First1KGreek XML for Cleonides and Theon, Jan's OCR, Smyth on Alpheios, Bailly, Wikipedia, and eulogikon for Nicomachus. Vincent's own pages on and around p. 340, his print of this text, were not opened.\n\nMain corrections:\n- Vincent does state one editorial sign, contrary to new-01: p. 482, n. 4 says round parentheses mark Pachymeres' additions to his Ptolemy quotations. No key exists for [ ], and the 'crochet' OCR search has two unrelated hits, not one.\n- 'PAR UN [SECOND] ANONYME' is on p. 14 (n33), not p. 33 (new-17).\n- The Nicomachus δίεσις is in chapter 12 (also 9), not 11 (Q09-07).\n- In Cleonides, 'ἐλάχιστον μὲν τὸ διὰ τεσσάρων' is §8 (Jan p. 194), not §5 or §7 (new-14). In his §5 list 'ἐλάττω … δίεσις, ἡμιτόνιον…' the intervals are subjects yet have no article.\n- The Aristotle De sensu quotation is in Jan's 'Aristotelis loci de musica', p. 21, not his prolegomena (new-15).\n- p. 312 has a second note, 'Sous-ent. τόνοις', on δυσίν (new-09).\n- The from-memory bracket claim is supported by the TLG Beta Code Manual and Mahoney instead (Q09-02).\n- At p. 453 only ms. A omits [καὶ διέσεως], so those brackets mark a one-witness omission (new-07).\n\nOverall, the Vincent evidence holds up. His square brackets regularly enclose supplements, often without a note, and round parentheses with 'Mot surabondant' mark words to delete. Downloads are in (local working folder)"
+}

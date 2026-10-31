@@ -1,0 +1,614 @@
+{
+ "note": "References found by earlier research on these questions. Not yet verified: the \"status\" field records the earlier researcher's own claim, not a verification. Labels a, b, … are those of questions.json.",
+ "references": {
+  "Q02": [
+   {
+    "source": "Theon Smyrnaeus, ed. Hiller (1878), p. 206: diagram from cod. A after the music section, https://archive.org/details/theonissmyrnaei00theogoog (page image n227)",
+    "status": "checked",
+    "found": "Fifteen names: προσλαμβανόμενος, ὑπάτη ὑπατῶν, παρυπάτη ὑπατῶν, ὑπάτη διάτονος, ὑπάτη μέσων, παρυπάτη μέσων, μέσων διάτονος, μέση, παραμέση, τρίτη διεζευγμένη, διεζευγμένη διάτονος, νήτη διεζευγμένη, τρίτη ὑπερβολαίων, διάτονος ὑπερβολαίων, νήτη ὑπερβολαίων. They are bracketed with διὰ δ΄ ἐπίτριτος … δὶς διὰ πασῶν τετραπλάσιος.",
+    "bears_on": "Decisive for c. The list shares this text's peculiar forms (ὑπάτη διάτονος, τρίτη/νήτη διεζευγμένη, διάτονος ὑπερβολαίων), and its seventh name is μέσων διάτονος.",
+    "id": "Q02-01"
+   },
+   {
+    "source": "Nicomachus, Enchiridion 12, in Jan, Musici scriptores Graeci (1895) p. 264 (Meibom pp. 27-28), https://archive.org/details/musiciscriptoresjank (page image)",
+    "status": "checked",
+    "found": "Mixed list: διάτονος ὑπατῶν, but μέσων διάτονος and συνημμένων διάτονος, then διάτονος διεζευγμένων and διάτονος ὑπερβολαίων.",
+    "bears_on": "For c: the standard Nicomachean name of this note puts the genitive first (μέσων διάτονος), even in a list that puts διάτονος first elsewhere.",
+    "id": "Q02-02"
+   },
+   {
+    "source": "Gaudentius, Isagoge 6, Jan, MSG p. 333.6-7 (page image), and p. 332 (OCR)",
+    "status": "checked",
+    "found": "ἡ λιχανὸς τῶν μέσων ἤτοι διάτονος μέσων; ἥτις καὶ διάτονος ὑπάτων ἐκαλεῖτο.",
+    "bears_on": "Shows that e (διάτονος μέσων) is also an attested ancient form. It is not the form of this text's model list.",
+    "id": "Q02-03"
+   },
+   {
+    "source": "Cleonides, Isagoge 4, Jan, MSG pp. 186-187 (OCR text of the scan); Alypius' tables in Jan (OCR)",
+    "status": "checked",
+    "found": "Cleonides: λιχανὸς ὑπάτων διάτονος, λιχανὸς μέσων διάτονος. Alypius: ὑπάτων διάτονος, μέσων διάτονος …",
+    "bears_on": "Against a: this author never uses λιχανός. For c: genitive + διάτονος is the common form.",
+    "id": "Q02-04"
+   },
+   {
+    "source": "Gaudentius, Harm. intr., in Jan, Musici scriptores Graeci (1895), OCR at https://archive.org/stream/musiciscriptoresjank/musiciscriptoresjank_djvu.txt (offset ~700000; Meibom p. 6 as given in Jan's margin)",
+    "status": "checked",
+    "found": "The lichanos meson is called 'ἡ λιχανὸς τῶν μέσων ἤτοι διάτονος μέσων', and the lichanos hypaton 'διάτονος ὑπατῶν … ἐν τῷ διατονικῷ γένει' (OCR text).",
+    "bears_on": "For e. The exact form διάτονος μέσων, with διάτονος used as a noun and placed before the tetrachord genitive, is the standard name in a theorist.",
+    "id": "Q02-05"
+   },
+   {
+    "source": "Alypius, Isagoge, Lydian and Hypolydian diatonic tables, same Jan OCR (offset ~700000)",
+    "status": "checked",
+    "found": "The note names are ὑπατῶν διάτονος, μέσων διάτονος, διεζευγμένων διάτονος, ὑπερβολαίων διάτονος.",
+    "bears_on": "Shows that the order 'μέσων διάτονος' (c) is also standard. It explains the author's ὑπάτη διάτονος (= ὑπατῶν διάτονος), but not his διάτονος ὑπερβολαίων or διάτονος διεζευγμένη.",
+    "id": "Q02-06"
+   },
+   {
+    "source": "Cleonides, Isagoge, same Jan OCR (offset ~400000)",
+    "status": "checked",
+    "found": "The note names are λιχανὸς ὑπατῶν διάτονος, λιχανὸς μέσων διάτονος, παρανήτη συνημμένων διάτονος.",
+    "bears_on": "Option a is the full Cleonidean name. But the author never uses λιχανός or παρανήτη in this list, so a goes against his usage.",
+    "id": "Q02-07"
+   },
+   {
+    "source": "Ptolemy, Harm. 2.5, Wallis ed. (Opera mathematica III, 1699) p. 89, https://sourcelibrary.org/book/69905abeaaa7f10ed4cfb1a5/page-number/89",
+    "status": "checked",
+    "found": "The names by position are λιχανὸν ὑπατῶν, λιχανὸν μέσων, παρανήτην διεζευγμένων, etc. A list of 15 notes from προσλαμβανόμενος to νήτη ὑπερβολαίων.",
+    "bears_on": "Confirms that a note is missing between παρυπάτη μέσων and μέση; with the 15-note system, μέση must be 8th. Against d.",
+    "id": "Q02-08"
+   },
+   {
+    "source": "Cleonides, Introductio harmonica §4, ed. C. Jan, Musici scriptores Graeci (1895), pp. 182, 185–187, https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0361/tlg001/tlg0361.tlg001.1st1K-grc1.xml",
+    "status": "checked",
+    "found": "The diatonic list puts λιχανὸς μέσων διάτονος between parhypate meson and mese. Mese belongs to the fixed notes, while lichanos changes with the genus.",
+    "bears_on": "Directly attests a and identifies the missing position; supports supplementation against d. It gives no support to b as the regular name.",
+    "id": "Q02-09"
+   },
+   {
+    "source": "Euclid, Sectio canonis §20, ed. C. Jan, Musici scriptores Graeci (1895), p. 165, https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg1799/tlg015/tlg1799.tlg015.1st1K-grc2.xml",
+    "status": "checked",
+    "found": "The construction names the meson diatonic note in the abbreviated form μέσων διάτονον. The apparatus records μέσον for μέσων in MN.",
+    "bears_on": "Directly supports the abbreviated terminology of c; e reverses its order in accordance with the local list. The variant illustrates instability of the inflected designation, without attesting b.",
+    "id": "Q02-10"
+   },
+   {
+    "source": "Nicomachus, Enchiridion harmonices §11.4, ed. C. Jan, Musici scriptores Graeci (1895), pp. 258–259, https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0358/tlg002/tlg0358.tlg002.1st1K-grc1.xml",
+    "status": "checked",
+    "found": "Lichanos meson is also called diatonos; mese follows and is eighth in the fifteen-note double octave. Jan's apparatus at p. 258 reports omission of the parhypate meson entry in R.",
+    "bears_on": "Confirms the missing degree and abbreviated name; supplies an independent comparable omission from a note list.",
+    "id": "Q02-11"
+   },
+   {
+    "source": "Cleonides, Introduction to Harmonics §4, translated by O. Strunk, https://www.attalus.org/translate/cleonides.html",
+    "status": "checked",
+    "found": "The ascending list has diatonic lichanos meson between parhypate meson and mese; mese is a fixed note, while the diatonic lichanos is movable.",
+    "bears_on": "a, c, e: a name is theoretically missing; against b, which would misidentify the fixed mese as the missing note; does not settle this author's wording.",
+    "id": "Q02-12"
+   },
+   {
+    "source": "Cleonides, Introductio harmonica 4, Jan (1895), p.182, and pp.185–186; https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0361/tlg001/tlg0361.tlg001.1st1K-grc1.xml",
+    "status": "checked",
+    "found": "The diatonic list places λιχανὸς μέσων διάτονος between παρυπάτη μέσων and μέση. The later division distinguishes fixed μέση from the movable diatonic lichanos. Jan's apparatus also records omissions within lists, including omission of μέση at p.183, illustrating the vulnerability of such enumerations.",
+    "bears_on": "Confirms the missing pitch and attests a, but does not require its full wording here; argues against interpreting b as another form of ordinary μέση. Provides external grounds against d.",
+    "id": "Q02-13"
+   },
+   {
+    "source": "Nicomachus, Enchiridion harmonices 11, Jan (1895), pp.257–259, especially p.257 and p.258; https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0358/tlg002/tlg0358.tlg002.1st1K-grc1.xml",
+    "status": "checked",
+    "found": "Nicomachus expressly treats διάτονος ὑπατῶν and λιχανὸς ὑπατῶν as alternative names; his meson list likewise identifies lichanos with διάτονος. His account places mese eighth in fifteen notes. Thus διάτονος alone can be a note name without λιχανός.",
+    "bears_on": "Supports the short name in c and e and the missing item; a supplies more terminology than necessary. Does not establish the author's word order.",
+    "id": "Q02-14"
+   },
+   {
+    "source": "LSJ and Bailly, s.v. διάτονος, through the Berlin-Brandenburg Academy of Sciences CLD; https://cld.bbaw.de/lemma/grc/%CE%B4%CE%B9%CE%AC%CF%84%CE%BF%CE%BD%CE%BF%CF%82",
+    "status": "checked",
+    "found": "Both entries distinguish the musical diatonic sense from the general sense of stretching; Bailly describes the diatonic fourth as two tones and a semitone. These general entries do not themselves specify the missing individual note's name or word order.",
+    "bears_on": "Checks the word and musical sense common to a, b, c and e; the ancient note lists provide the more discriminating evidence.",
+    "id": "Q02-15"
+   }
+  ],
+  "Q04": [
+   {
+    "source": "LSJ s.v. ἐγγίγνομαι III (with DGE, Pape on the same page), https://lsj.gr/wiki/ἐγγίγνομαι",
+    "status": "checked",
+    "found": "Impersonal ἐγγίγνεται 'it is possible' + infinitive, with a dative of the person (Hdt. 1.132, 6.38; Antiph. 5.17; Pl. Phd. 66c). No accusative-and-infinitive construction is cited.",
+    "bears_on": "Against b: Vincent's τὴν σύμφρασιν εἶναι is not the classical construction. It is a normalisation, not a restoration.",
+    "id": "Q04-01"
+   },
+   {
+    "source": "Smyth §§1982-1983, https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.21.html",
+    "status": "checked",
+    "found": "Greek often uses the personal construction, 'the accusative becoming the nominative' (Κῦρος ἠγγέλθη νικῆσαι; δίκαιός εἰμι ἀπελθεῖν; δοκῶ … εἶναι).",
+    "bears_on": "For a: a nominative subject with a personal verb plus a complementary infinitive is a normal pattern.",
+    "id": "Q04-02"
+   },
+   {
+    "source": "LSJ and DGE s.v. ἐγγίγνομαι (lsj.gr, https://lsj.gr/wiki/ἐγγίγνομαι)",
+    "status": "checked",
+    "found": "LSJ III: 'ἐγγίγνεται, impers., it is allowed or possible, c. inf.' (Hdt. 1.132, 6.38, And. 1.141, Pl. Phd. 66c); DGE III: impersonal 'es posible' with dative of person + inf., and without dative + inf. (D. 40.55; Gal. 4.197). No construction with a nominative subject + infinitive.",
+    "bears_on": "For b. With an impersonal 'it is possible' + εἶναι, the subject of the infinitive must be accusative; ἡ σύμφρασις … εἶναι cannot be construed.",
+    "id": "Q04-03"
+   },
+   {
+    "source": "LSJ, s.v. ἐγγίγνομαι I.2–3, III, https://atlas.perseus.tufts.edu/dictionaries/entry/urn:cite2:scaife-viewer:dictionaries.v1:lsj-n29974/",
+    "status": "checked",
+    "found": "The verb can denote arising or occurring; it also has an impersonal construction with an infinitive meaning that something is possible or permitted. The later form ἐγγίνομαι is recognized. No exact nominative-plus-infinitive parallel for this verb was established by this entry.",
+    "bears_on": "Both a personal interpretation of a and the ordinary impersonal interpretation underlying b have lexical grounds; the latter has more direct constructional attestation.",
+    "id": "Q04-04"
+   },
+   {
+    "source": "Smyth, Greek Grammar §§1972–1975, 1982a, https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.21.html",
+    "status": "checked",
+    "found": "An infinitive with a distinct subject ordinarily takes an accusative. However, §1982a allows personal constructions with συμβαίνει and illustrates one with an abstract nominative subject in Plato, Philebus 55a.",
+    "bears_on": "Explains b's regular grammar and supplies an analogous personal construction supporting a; the analogy is not an exact attestation of ἐγγίνεται.",
+    "id": "Q04-05"
+   },
+   {
+    "source": "Smyth, Greek Grammar §§933, 936–937, https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.7.html",
+    "status": "checked",
+    "found": "A quasi-impersonal verb may take an infinitival clause as logical subject, and an explicitly expressed infinitive subject is normally accusative; when the infinitive shares the main clause subject, its subject is usually omitted.",
+    "bears_on": "b: supports Vincent's accusative as the explicit subject of εἶναι; a: nominative subject with redundant εἶναι requires an unusual construction.",
+    "id": "Q04-06"
+   },
+   {
+    "source": "Cambridge Grammar of Classical Greek §36.1, p. 466, https://www.cs.toronto.edu/~simon/Athens/Thucydides3/cgcg.pdf#page=486",
+    "status": "checked",
+    "found": "A quasi-impersonal expression may have an accusative-and-infinitive as subject; the example is δεῖ με γίγνεσθαι.",
+    "bears_on": "b: illustrates the structure, although the example is not the verb ἐγγίνεται.",
+    "id": "Q04-07"
+   },
+   {
+    "source": "Furman University, Homeric Odyssey 13.208–235 reader, LSJ reference for ἐγγίγνομαι, https://folio2.furman.edu/dramaturg/Homer/Odyssey/pages/chunk_228.html",
+    "status": "checked",
+    "found": "The entry summary includes impersonal ‘to be allowed/possible’ alongside personal ‘arise’.",
+    "bears_on": "a and b: either the personal or impersonal sense is possible in principle; does not itself settle the case construction.",
+    "id": "Q04-08"
+   },
+   {
+    "source": "Bailly, Dictionnaire grec-français, s.v. σύμφρασις, https://sites.ac-nancy-metz.fr/langues-anciennes/wp-content/uploads/bailly-2020-04.pdf",
+    "status": "checked",
+    "found": "The listed sense is concision or compression of words (John of Alexandria); it is not evidence for a musical sense.",
+    "bears_on": "Bears on the noun, not on the case: both options keep σύμφρασις, whose meaning here remains uncertain.",
+    "id": "Q04-09"
+   },
+   {
+    "source": "LSJ, s.v. ἐγγίγνομαι I and III, and Bailly, same entry, consulted in the Berlin-Brandenburg Academy's CLD: https://cld.bbaw.de/lemma/grc/ἐγγίγνομαι",
+    "status": "checked",
+    "found": "The verb can denote something arising or happening in something; it also has an impersonal construction with an infinitive meaning that something is possible. These are distinct available constructions, not a requirement that every occurrence be impersonal.",
+    "bears_on": "Both options: the lexical evidence permits Vincent's impersonal analysis but does not impose it.",
+    "id": "Q04-10"
+   },
+   {
+    "source": "H. W. Smyth, Greek Grammar, §§1972–1975 and 1982a: https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.21.html",
+    "status": "checked",
+    "found": "The normal expressed subject of an independent infinitive is accusative, but personal constructions also occur with verbs of happening. Section 1982a cites Plato, Philebus 55a, πολλή τις ἀλογία ξυμβαίνει γίγνεσθαι, with a nominative subject and infinitive.",
+    "bears_on": "For a against treating b as grammatically compulsory; the Platonic example is an analogous construction with a different verb, not an exact parallel for ἐγγίνεται.",
+    "id": "Q04-11"
+   }
+  ],
+  "Q05": [
+   {
+    "source": "LSJ, DGE, Liddell–Scott (Gr.) s.v. ἀνεγχώρητος, https://lsj.gr/wiki/ἀνεγχώρητος",
+    "status": "checked",
+    "found": "'Impossible' (Sch. Hermog.). DGE: Gr. Naz. ἀδύνατον καὶ ἀνεγχώρητον ποιεῖν τι τὸν υἱόν. Liddell–Scott (Gr.) glosses ἀδύνατον, and Hesychius ἀμήχανον.",
+    "bears_on": "For a: ἀνεγχώρητον is a synonym of ἀδύνατον, and the main recension at this point reads τῇ δὲ ἀριθμητικῇ τοῦτο ἀδύνατον (dative of the discipline).",
+    "id": "Q05-01"
+   },
+   {
+    "source": "LSJ s.v. ἀριθμητικός, https://lsj.gr/wiki/ἀριθμητικός",
+    "status": "checked",
+    "found": "ἡ ἀριθμητική 'arithmetic'; adverb ἀριθμητικῶς 'numerically' (Theo Sm. p. 116 H.). The neuter τὸ ἀριθμητικόν is attested only as an Egyptian land tax.",
+    "bears_on": "Against b: the neuter adjective has no relevant sense. d is possible, but it lacks the parallel.",
+    "id": "Q05-02"
+   },
+   {
+    "source": "LSJ, DGE, Pape s.v. ἀνεγχώρητος (lsj.gr, https://lsj.gr/wiki/ἀνεγχώρητος)",
+    "status": "checked",
+    "found": "'impossible' (Sch. Hermog. in Rh. 7.135 W.); DGE: Gr. Naz. M.36.116C 'ἀδύνατον καὶ ἀνεγχώρητον'; Hesych. ἀνεγχώρητον· ἀμήχανον.",
+    "bears_on": "ἀνεγχώρητον is a later synonym of ἀδύνατον. P's clause is therefore a rewording of the main witnesses' τῇ δὲ ἀριθμητικῇ τοῦτο ἀδύνατον. For a.",
+    "id": "Q05-03"
+   },
+   {
+    "source": "LSJ, s.v. ἀριθμητικός I–II, https://atlas.perseus.tufts.edu/dictionaries/entry/urn:cite2:scaife-viewer:dictionaries.v1:lsj-n15043/",
+    "status": "checked",
+    "found": "The adjective means skilled in reckoning or arithmetical; the feminine substantive denotes arithmetic. The adverb ἀριθμητικῶς is attested in Plutarch, Quaestiones convivales 643c, and Theon of Smyrna, p. 116 Hiller.",
+    "bears_on": "Supports b as an ordinary adjective, a as a reference to arithmetic, c as referring to a reckoner, and d as an attested adverb. It does not establish adverbial ἀριθμητικόν.",
+    "id": "Q05-04"
+   },
+   {
+    "source": "Smyth, Greek Grammar §§1018, 1021–1023, 1039, 1047–1048, https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.14.html",
+    "status": "checked",
+    "found": "An adjective can qualify a substantive or a substantivized adjective; neuter adjectives can denote things or abstract notions. A neuter predicate can itself have substantive force.",
+    "bears_on": "Supports construing b as modifying substantival ἀνεγχώρητον: an arithmetical impossibility. This is grammatical inference, not a cited occurrence of the full expression.",
+    "id": "Q05-05"
+   },
+   {
+    "source": "Bailly, Dictionnaire grec-français, s.v. ἀνεγχώρητος, online PDF p. 254, https://sites.ac-nancy-metz.fr/langues-anciennes/wp-content/uploads/bailly-2020-04.pdf",
+    "status": "from memory, unverified",
+    "found": "A search-index extract gives the adjective the senses inadmissible/impossible and cites Gregory of Nazianzus 8,255. Opening the PDF returned 404; neither the underlying entry nor its cited passage was independently opened. No exact substantive use was verified.",
+    "bears_on": "Tentative lexical corroboration only; it is not treated as checked evidence for a special substantival idiom.",
+    "id": "Q05-06"
+   },
+   {
+    "source": "Bailly, Dictionnaire grec-français, s.vv. ἀριθμητικός, ἀριθμητικῶς, https://sites.ac-nancy-metz.fr/langues-anciennes/wp-content/uploads/bailly-2020-04.pdf",
+    "status": "checked",
+    "found": "ἀριθμητικός means pertaining to number; ἡ ἀριθμητική means arithmetic, with τέχνη understood; the adverb ἀριθμητικῶς means numerically.",
+    "bears_on": "a, c: a feminine dative can mean ‘for arithmetic’ whereas the masculine dative implies an arithmetic practitioner; d is a genuine numerical adverb; b is an adjective with a relevant meaning.",
+    "id": "Q05-07"
+   },
+   {
+    "source": "Bailly, Dictionnaire grec-français, s.v. ἀνεγχώρητος, https://sites.ac-nancy-metz.fr/langues-anciennes/wp-content/uploads/bailly-2020-04.pdf",
+    "status": "checked",
+    "found": "ἀνεγχώρητος means inadmissible or impossible.",
+    "bears_on": "b: ἀνεγχώρητον can be read as a neuter impossible thing, qualified by ἀριθμητικόν.",
+    "id": "Q05-08"
+   },
+   {
+    "source": "Smyth, Greek Grammar §341, https://grammars.alpheios.net/smyth/xhtml/body.1_div1.2_div2.7.html",
+    "status": "checked",
+    "found": "Neuter accusatives of adjectives are frequently used adverbially, but the examples do not include ἀριθμητικόν.",
+    "bears_on": "b: an adverbial reading is formally conceivable but not specifically demonstrated; d: adverbial form would be more explicit.",
+    "id": "Q05-09"
+   },
+   {
+    "source": "LSJ and Bailly, s.v. ἀριθμητικός, CLD: https://cld.bbaw.de/lemma/grc/ἀριθμητικός",
+    "status": "checked",
+    "found": "The adjective means arithmetical; the feminine substantive names arithmetic, and the masculine can describe a person skilled in reckoning. LSJ also records the adverb ἀριθμητικῶς, including Theon of Smyrna p.116 Hiller.",
+    "bears_on": "All four options are possible forms with different functions: a would name the discipline in the dative, c an expert, d the adverb; b can remain an agreeing neuter adjective.",
+    "id": "Q05-10"
+   },
+   {
+    "source": "Bailly, Dictionnaire grec-français, s.v. ἀνεγχώρητος, p.254 in the 2020 electronic edition: https://sites.ac-nancy-metz.fr/langues-anciennes/wp-content/uploads/bailly-2020-04.pdf",
+    "status": "checked",
+    "found": "The adjective is glossed as inadmissible or impossible, with a citation to Gregory of Nazianzus. It is not a noun lexically restricted to a particular case construction.",
+    "bears_on": "Allows the neuter adjective to denote an impossible thing; it does not itself demand a dative complement.",
+    "id": "Q05-11"
+   },
+   {
+    "source": "Smyth, Greek Grammar, §§1018, 1020–1023 and 1039: https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.14.html",
+    "status": "checked",
+    "found": "Adjectives may acquire substantive value; neuters can denote things in general. A substantivized adjective may itself take an attributive adjective (§1039). Thus two agreeing adjectives need not be two competing predicates.",
+    "bears_on": "For b: analyse ἀριθμητικὸν ἀνεγχώρητον as an arithmetical impossibility, rather than making ἀριθμητικόν an unattested adverb.",
+    "id": "Q05-12"
+   },
+   {
+    "source": "Smyth, Greek Grammar, §§1606–1609: https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.18.html",
+    "status": "checked",
+    "found": "Adverbial accusatives exist, including neuter adjectives; their existence is a general grammatical fact, not a particular attestation of ἀριθμητικόν as an adverb.",
+    "bears_on": "An alternative defence of b, not needed for the substantive-predicate analysis of Q05-12.",
+    "id": "Q05-13"
+   }
+  ],
+  "Q06": [
+   {
+    "source": "Theon Smyrnaeus, ed. Hiller p. 56.9-16 (page image), https://archive.org/details/theonissmyrnaei00theogoog",
+    "status": "checked",
+    "found": "τοὺς μὲν διὰ τεσσάρων ἐν ἐπιτρίτῳ … διὰ πασῶν καὶ διὰ τεσσάρων ἐν λόγῳ τῶν η΄ πρὸς γ΄ … τοὺς δὲ διὰ πασῶν καὶ διὰ πέντε ἐν λόγῳ τριπλασίῳ, τοὺς δὲ δὶς διὰ πασῶν ἐν τετραπλασίῳ.",
+    "bears_on": "For a: the author's main source gives the same sequence of ratios and closes it with the double octave's τετραπλάσιος. p. 56.1-5 of the same page is copied almost verbatim at Bas. 33.1-7.",
+    "id": "Q06-01"
+   },
+   {
+    "source": "Theon, ed. Hiller p. 206, diagram of cod. A (page image)",
+    "status": "checked",
+    "found": "The outermost bracket of the 15-note list reads δὶς διὰ πασῶν τετραπλάσιος.",
+    "bears_on": "For a.",
+    "id": "Q06-02"
+   },
+   {
+    "source": "M. L. West, Textual Criticism and Editorial Technique (1973), on omission by homoeoteleuton",
+    "status": "from memory, unverified",
+    "found": "Saut du même au même, the omission of the words between two similar endings, is among the commonest scribal errors.",
+    "bears_on": "For a: τριπλάσιος· [τοῦ δὲ δὶς διὰ πασῶν, τετραπλάσιος·] οἷον, a skip from -πλάσιος to -πλάσιος.",
+    "id": "Q06-03"
+   },
+   {
+    "source": "M. L. West, Textual Criticism and Editorial Technique (1973), on saut du même au même / homoeoteleuton",
+    "status": "from memory, unverified",
+    "found": "Omission by the eye passing from one ending to an identical later ending is the commonest cause of loss.",
+    "bears_on": "For a. τριπλάσιος … τετραπλάσιος share the ending -πλάσιος, so the clause in between is easily lost.",
+    "id": "Q06-04"
+   },
+   {
+    "source": "Euclid, Sectio canonis 12, in C. Jan, Musici scriptores Graeci (1895), pp. 159–160, especially p. 160.8–12; checked in the Open Greek and Latin digital transcription: https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg1799/tlg015/tlg1799.tlg015.1st1K-grc2.xml",
+    "status": "checked",
+    "found": "After deriving the octave's double ratio and the octave-plus-fifth's triple ratio, the text expressly assigns the quadruple ratio to the double octave. This establishes the missing mathematical correspondence, but does not establish a textual omission in the present work.",
+    "bears_on": "The content of a is correct; the parallel cannot by itself decide whether a clause was lost (a or b) rather than left unstated (c).",
+    "id": "Q06-05"
+   },
+   {
+    "source": "Nicomachus, Introduction to Arithmetic 2.26, translated in the University of Athens teaching edition, https://eclass.uoa.gr/modules/document/file.php/PHS717/Primary%20texts/Nicomachus-Introduction-to-Arithmetic-Teacher-Edition.pdf",
+    "status": "checked",
+    "found": "The double octave is a quadruple ratio.",
+    "bears_on": "a is mathematically accurate; also c and b, since it shows the list's incompleteness.",
+    "id": "Q06-06"
+   },
+   {
+    "source": "J. G. Landels, Music in Ancient Greece and Rome, p. 147, https://users.iit.demokritos.gr/~k.palaiologos/thymeli/upd_pdf_files/Landels%20-%20Music%20in%20ancient%20Greece%20and%20Rome.pdf",
+    "status": "checked",
+    "found": "The octave and fifth is 3:1 and the double octave 4:1.",
+    "bears_on": "a, b and c: ratio identification, but does not establish that any text has been lost.",
+    "id": "Q06-07"
+   },
+   {
+    "source": "Nicomachus, Introduction to Arithmetic I.5.1, Hoche's text as identified by the electronic edition: https://ancientlibrary.net/nicomachus-of-gerasa-introduction-to-arithmetic/",
+    "status": "checked",
+    "found": "Nicomachus explicitly assigns 3:1 to the octave plus fifth and 4:1 to the double octave. This independently verifies what the proposed supplement would say.",
+    "bears_on": "For the harmonic correctness of a, but not evidence that this author's sentence contained it.",
+    "id": "Q06-08"
+   },
+   {
+    "source": "Andrew Barker, The Science of Harmonics in Classical Greece (2007), pp.359–360, summary of Euclid, Sectio canonis propositions 12–15: https://www.examenapium.it/cs/biblio/Barker2007.pdf",
+    "status": "checked",
+    "found": "The summary of proposition 12 gives the double octave as 4:1. It also distinguishes interval ratios from tone counts, which need not form identical enumerations.",
+    "bears_on": "Confirms the mathematical content common to the supplement and the following numerical example; does not establish omitted wording.",
+    "id": "Q06-09"
+   }
+  ],
+  "Q09": [
+   {
+    "source": "Wikipedia, 'Leiden Conventions', https://en.wikipedia.org/wiki/Leiden_Conventions",
+    "status": "checked",
+    "found": "Before 1931 editors used 'divergent conventions' for editorial corrections or restorations, and the Leiden system standardized brackets.",
+    "bears_on": "Vincent's 1847 [ ] cannot be read by modern convention, so it must be interpreted from context.",
+    "id": "Q09-01"
+   },
+   {
+    "source": "Conventions of square brackets in 19th-c. editions (deletion in Bekker/Teubner practice, restoration in epigraphy)",
+    "status": "from memory, unverified",
+    "found": "The meaning of [ ] varied in the period.",
+    "bears_on": "Explains why the meaning of [ ] cannot be assumed from modern convention.",
+    "id": "Q09-02"
+   },
+   {
+    "source": "H. W. Smyth, A Greek Grammar for Colleges (1920), §§1122–1123, 1126, 1131–1132; electronic text: https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.16.html",
+    "status": "checked",
+    "found": "The generic article can represent a class, but its omission is variable; abstract names generally take it, while names of arts and sciences and other abstract terms can omit it. These rules support both article-bearing terminology and anarthrous naming; they do not decode an editor's brackets.",
+    "bears_on": "Article-bearing a and b are grammatically natural, but grammatical regularity alone cannot require the supplement b or establish a's manuscript attribution.",
+    "id": "Q09-03"
+   },
+   {
+    "source": "Cleonides, Introductio harmonica 5, C. Jan, Musici scriptores Graeci (1895), p. 187; digital Greek text: https://atlas.perseus.tufts.edu/library/passage/urn:cts:greekLit:tlg0361.tlg001.1st1K-grc1:1-5/",
+    "status": "checked",
+    "found": "An interval enumeration introduced by οἷον has bare names including δίτονον, τόνος and ἡμιτόνιον, then fourth, fifth and octave. This is an independent musical-theoretical parallel for anarthrous terms in an illustrative list.",
+    "bears_on": "For the grammatical acceptability of c; against treating an article as indispensable merely because neighboring members have one.",
+    "id": "Q09-04"
+   },
+   {
+    "source": "A. Bailly, Dictionnaire grec-français, s.v. δίεσις I.2, electronic transcription: https://bailly.app/diesis",
+    "status": "checked",
+    "found": "The noun is feminine and has technical musical senses including the semitone and diesis, with ancient citations to Philolaus, Aristoxenus and Aristides Quintilianus. No change of noun or gender is required.",
+    "bears_on": "Confirms that ἡ is the right article if supplied, while providing no evidence that this occurrence requires one.",
+    "id": "Q09-05"
+   },
+   {
+    "source": "Smyth, Greek Grammar §§1122–1123, https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.16.html",
+    "status": "checked",
+    "found": "The Greek generic article can mark a singular representative of a class.",
+    "bears_on": "a and b: ἡ is syntactically natural, but a generic noun need not always have an article; grammar cannot determine the manuscript reading.",
+    "id": "Q09-06"
+   },
+   {
+    "source": "Nicomachus, Handbook of Harmonics 11, https://eulogikon.org/works/nicomachus-gerasa-handbook-harmonics-owy-ac",
+    "status": "checked",
+    "found": "In a list of intervals δίεσις appears without an article.",
+    "bears_on": "c: bare δίεσις is also grammatical; article is not compulsory.",
+    "id": "Q09-07"
+   },
+   {
+    "source": "Smyth, A Greek Grammar for Colleges, §§1118, 1126, 1131–1132: https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.16.html",
+    "status": "checked",
+    "found": "Generic nouns can take the article; omission, especially with general or abstract conceptions, need not appreciably change meaning.",
+    "bears_on": "Makes a/b natural, but shows that c need not be repaired for grammar alone.",
+    "id": "Q09-08"
+   },
+   {
+    "source": "Cleonides, Harmonic Introduction §5, Jan, Musici scriptores Graeci (1895), p.187.17–18, Harvard/First1KGreek transcription: https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0361/tlg001/tlg0361.tlg001.1st1K-grc1.xml",
+    "status": "checked",
+    "found": "The list of intervals smaller than a fourth includes anarthrous δίεσις, ἡμιτόνιον and τόνος. This is an actual technical enumeration without articles.",
+    "bears_on": "For the grammatical and technical acceptability of c; it does not determine Vincent's bracket convention.",
+    "id": "Q09-09"
+   }
+  ],
+  "Q11": [
+   {
+    "source": "Smyth §2070 (genitive absolute), https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.22.html",
+    "status": "checked",
+    "found": "The genitive absolute is a circumstantial participle agreeing with a genitive noun or pronoun outside the main construction.",
+    "bears_on": "For a: τοῦ δὲ [λόγου] needs its own agreeing participle, as τοῦ μὲν … λόγου has παραβαλλομένου.",
+    "id": "Q11-01"
+   },
+   {
+    "source": "Smyth §2148 (Alpheios, https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.22.html)",
+    "status": "checked",
+    "found": "The participle often agrees with the logical, not the grammatical, subject; construction according to sense.",
+    "bears_on": "For b. A participle agreeing with τῶν ἀμέσων [διαστημάτων] is a tolerable loose construction.",
+    "id": "Q11-02"
+   },
+   {
+    "source": "H. W. Smyth, Greek Grammar §§925–926, https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.5.html",
+    "status": "checked",
+    "found": "Agreement normally follows the noun's number, gender and case; §926 expressly recognizes agreement according to sense and attraction as exceptions.",
+    "bears_on": "Supports a's regular agreement, while preventing rejection of b merely because it is irregular.",
+    "id": "Q11-03"
+   },
+   {
+    "source": "H. W. Smyth, Greek Grammar §§2070, 2072–2074, https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.22.html",
+    "status": "checked",
+    "found": "The genitive absolute consists of a participle agreeing with its genitive subject; the subject can be omitted when recoverable from context. The cited exceptions concern the subject's relation to the main clause, not this particular number mismatch.",
+    "bears_on": "Supports supplying λόγου mentally after τοῦ δέ and making the participle singular; supplies no precise parallel establishing b.",
+    "id": "Q11-04"
+   },
+   {
+    "source": "Theon of Smyrna, Expositio rerum mathematicarum ad legendum Platonem utilium, ed. Hiller (1878), p. 66.10 and apparatus, https://fgh.perseids.org/read/greekLit/tlg1724/tlg001/1st1K-grc1/61-80",
+    "status": "checked",
+    "found": "Hiller's text has plural predicates agreeing with the lower notes, whereas the apparatus reports singular predicates in A. This is an actual editorial treatment of disturbed number agreement in a musical discussion.",
+    "bears_on": "A comparable kind of editorial problem, supporting the possibility of a; it does not establish the origin of the error here.",
+    "id": "Q11-05"
+   },
+   {
+    "source": "Smyth, Greek Grammar §§1020–1021, https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.14.html",
+    "status": "checked",
+    "found": "A participle agrees with its substantive; an adjective with an article may stand without a substantive recoverable from context.",
+    "bears_on": "b: plural agreement with the implied plural διαστημάτων is possible; a: singular would agree instead with λόγου.",
+    "id": "Q11-06"
+   },
+   {
+    "source": "Smyth, Greek Grammar §2058, https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.22.html",
+    "status": "checked",
+    "found": "A genitive absolute has a genitive participle agreeing with its own subject.",
+    "bears_on": "a and b: either singular λόγου or plural τῶν ἀμέσων can grammatically provide a subject, with different constructions.",
+    "id": "Q11-07"
+   },
+   {
+    "source": "Atticism project, συγκρίνω, σύγκρισις, citing John of Sardis on Aphthonius 180.19–181.10, https://atticism.eu/corpus/item/view?id=e49bbf5c-099a-48a0-93ae-68084c1cbb3f",
+    "status": "checked",
+    "found": "The ancient commentator relates συγκρίνειν in the sense compare to παραβάλλειν; the entry documents the later use.",
+    "bears_on": "a and b: the change of verb from παραβάλλειν to συγκρίνειν does not itself establish a different meaning or an error.",
+    "id": "Q11-08"
+   },
+   {
+    "source": "Smyth, A Greek Grammar for Colleges, §§2058, 2070: https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.22.html",
+    "status": "checked",
+    "found": "A genitive absolute contains a circumstantial participle agreeing with its own genitive subject; examples include Xenophon, Anabasis1.2.22, and Isocrates9.56.",
+    "bears_on": "For singular a when the understood subject is λόγου; against attaching b to that singular noun.",
+    "id": "Q11-09"
+   },
+   {
+    "source": "Goodell, A School Grammar of Attic Greek, §580a, Dickinson College Commentaries: https://dcc.dickinson.edu/pl/grammar/goodell/participles",
+    "status": "checked",
+    "found": "A participle is both verbal and adjectival; in its adjectival function it agrees with its noun or pronoun.",
+    "bears_on": "Supports requiring an identifiable plural subject for b rather than assuming that a nearby plural genitive automatically licenses it.",
+    "id": "Q11-10"
+   },
+   {
+    "source": "Smyth, A Greek Grammar for Colleges, §1044: https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.14.html",
+    "status": "checked",
+    "found": "A collective singular can have a plural circumstantial participle, illustrated by Xenophon, Anabasis2.1.6, with the army and those killing cattle.",
+    "bears_on": "Provides a genuine exception relevant to defending b, but λόγος here is a mathematical ratio rather than a collective of agents.",
+    "id": "Q11-11"
+   }
+  ],
+  "Q15": [
+   {
+    "source": "Smyth §§2914, 2916 (position of μέν and δέ), https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.36.html",
+    "status": "checked",
+    "found": "δέ is placed next to the contrasted word. After a preposition + anarthrous noun it 'usually takes the third place'. It 'may often come third when an emphatic word is placed before it, and even fourth.'",
+    "bears_on": "Against c: joining the six-word participial phrase to εἴη δ’ ἂν τοῦτο would put δέ in seventh position.",
+    "id": "Q15-01"
+   },
+   {
+    "source": "Theon, ed. Hiller p. 56 table (page image)",
+    "status": "checked",
+    "found": "χρωματικόν: ἡμιτόνιον, ἡμιτόνιον, τριημιτόνιον (diatonic ἡμιτόνιον, τόνος, τόνος; enharmonic δίεσις, δίεσις, δίτονον).",
+    "bears_on": "'ἐξ ἡμιτονίων δύο καὶ τριημιτονίου' describes the whole tetrachord, not the trihemitone. It must be separated from τριημιτόνιον ἀσύνθετον, which supports a's strong stop against b's comma.",
+    "id": "Q15-02"
+   },
+   {
+    "source": "Nicomachus, Ench. 12, Jan MSG pp. 261-262 (Meibom p. 26), OCR text of the scan",
+    "status": "checked",
+    "found": "τὸ δὲ χρωματικὸν οὕτω προβιβάζεται· ἡμιτόνιον, εἶτα ἄλλο ἡμιτόνιον, εἶτα ἐπὶ τούτοις ἀσύνθετον τριημιτόνιον.",
+    "bears_on": "'(ἀσύνθετον) τριημιτόνιον' is a closed unit, and the makeup of the tetrachord is a separate statement. For a.",
+    "id": "Q15-03"
+   },
+   {
+    "source": "Smyth §2914, 2916 (Alpheios, https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.36.html); §2772",
+    "status": "checked",
+    "found": "δέ is postpositive and stands after the first word or close word-group. In prose it takes the third place only after a preposition + anarthrous noun. Poetry allows the third and even fourth place.",
+    "bears_on": "Against c. Joining the phrase to εἴη δ' ἂν τοῦτο would put δέ in seventh position.",
+    "id": "Q15-04"
+   },
+   {
+    "source": "Cleonides, Isagoge (Strunk transl., https://www.attalus.org/translate/cleonides.html)",
+    "status": "checked",
+    "found": "The chromatic is sung ascending by semitone, semitone, trihemitone; the trihemitone 'is incomposite in the chromatic genus'.",
+    "bears_on": "Confirms that 'ἐξ ἡμιτονίων δύο καὶ τριημιτονίου' describes the whole tetrachord, not the trihemitone. So the participle must be separated from τριημιτόνιον ἀσύνθετον: for a over b.",
+    "id": "Q15-05"
+   },
+   {
+    "source": "Cleonides, Harmonic Introduction §§3, 5, 7, translation in O. Strunk, Source Readings in Music History, https://www.attalus.org/translate/cleonides.html",
+    "status": "checked",
+    "found": "The chromatic tetrachord ascends through two semitones and a trihemitone. A trihemitone can count as incomposite in the chromatic genus; incomposite concerns consecutive scale notes, not inability to measure an interval in smaller units.",
+    "bears_on": "Supports attaching the mixture to the whole chromatic fourth in c; it explains why ἀσύνθετον itself needs no correction.",
+    "id": "Q15-06"
+   },
+   {
+    "source": "H. W. Smyth, Greek Grammar §2837, https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.36.html",
+    "status": "checked",
+    "found": "Apodotic δέ can mark the principal clause after an antecedent clause; the grammar expressly includes antecedents expressed by participles, although this is uncommon in Attic prose.",
+    "bears_on": "Supports construing the fronted participial phrase with εἴη δ’ ἂν τοῦτο in c; δέ's position does not force a stop before εἴη.",
+    "id": "Q15-07"
+   },
+   {
+    "source": "H. W. Smyth, Greek Grammar §943, https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.8.html",
+    "status": "checked",
+    "found": "A subject can shift without an explicit warning when the sense remains clear; examples include Thucydides 7.25 and Demosthenes 59.115.",
+    "bears_on": "Supports the possibility of a's implicit shift from the remaining interval to the whole tetrachord.",
+    "id": "Q15-08"
+   },
+   {
+    "source": "H. W. Smyth, Greek Grammar §§944–945, 948, https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.9.html",
+    "status": "checked",
+    "found": "Copular forms can be omitted, and a verb readily recoverable from context need not be repeated.",
+    "bears_on": "Supplies a grammatical basis for reading a as an elliptical independent statement; a is less explicit, not impossible Greek.",
+    "id": "Q15-09"
+   },
+   {
+    "source": "H. W. Smyth, Greek Grammar §§2054–2056, https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.22.html",
+    "status": "checked",
+    "found": "A circumstantial participle can agree with the main clause’s subject and express an antecedent condition or circumstance.",
+    "bears_on": "Supports reading συγκεκραμένον as an antecedent participial clause agreeing with τοῦτο, alongside the apodotic δέ analysis in §2837.",
+    "id": "Q15-10"
+   },
+   {
+    "source": "Cleonides, Introduction to Harmonics §§3, 6, https://www.attalus.org/translate/cleonides.html",
+    "status": "checked",
+    "found": "The chromatic tetrachord consists of two semitones and a trihemitone; incomposite intervals are not divided by an intervening note in the relevant melody.",
+    "bears_on": "c: the three ingredients define the chromatic tetrachord as a whole, not the remaining single trihemitone. a and b: can be interpreted only as an elliptical shift of subject or a loose construction.",
+    "id": "Q15-11"
+   },
+   {
+    "source": "Smyth, Greek Grammar §2914, https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.36.html",
+    "status": "checked",
+    "found": "μέν and δέ are commonly placed next to the words they contrast.",
+    "bears_on": "a and b: εἴη δ’ naturally initiates a fresh contrasted clause; c: connecting a preceding participial phrase across δέ is syntactically less straightforward and must be weighed.",
+    "id": "Q15-12"
+   },
+   {
+    "source": "Cleonides, Introductio harmonica 3, Jan (1895), pp.181–182; https://beta.perseus.tufts.edu/urn:cts:greekLit:tlg0361.tlg001.1st1K-grc1:3/",
+    "status": "checked",
+    "found": "The chromatic genus ascends through semitone, semitone and trisemitone; the diatonic ascends through semitone, tone and tone. These are divisions of the complete tetrachord.",
+    "bears_on": "c: the mixture of two semitones and a trisemitone describes the whole chromatic tetrachord. Against a or b if the participle is attached to the remaining single interval.",
+    "id": "Q15-13"
+   },
+   {
+    "source": "Cleonides, Introductio harmonica 5, Jan (1895), pp.187–189; https://beta.perseus.tufts.edu/urn:cts:greekLit:tlg0361.tlg001.1st1K-grc1:5/",
+    "status": "checked",
+    "found": "Incomposite intervals are bounded by consecutive notes in the relevant genus. A trisemitone is incomposite in the chromatic genus but composite in the diatonic. Later Byzantine comparisons in the apparatus were ignored.",
+    "bears_on": "a, b and c: validates τριημιτόνιον ἀσύνθετον as the single remaining chromatic step; incomposite does not turn that step into a full tetrachord.",
+    "id": "Q15-14"
+   },
+   {
+    "source": "Smyth, Greek Grammar, §§2054–2056, circumstantial participle; https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.22.html",
+    "status": "checked",
+    "found": "An anarthrous circumstantial participle qualifies the main assertion and agrees with its subject or object. It can stand before the article. Smyth illustrates a preceding participial phrase with Thucydides 1.29.",
+    "bears_on": "c: a preceding neuter singular participial phrase can qualify τοῦτο τὸ διὰ τεσσάρων γένος in the following assertion; it need not modify the nearest preceding διάστημα.",
+    "id": "Q15-15"
+   },
+   {
+    "source": "Cambridge Grammar of Classical Greek (2019), §1.9 note 1 and §1.13, pp.5–7; https://api.pageplace.de/preview/DT0400.9781108229456_A37027823/preview-9781108229456_A37027823.pdf",
+    "status": "checked",
+    "found": "Modern punctuation is an editorial convention and need not reflect ancient intonation or writing; systematic punctuation and word divisions are later developments. This is a general editorial principle, not evidence about the dates or authority of these particular stops.",
+    "bears_on": "c against mechanically preserving a or b: punctuation can be reassigned for syntax and sense without positing lost or altered Greek words.",
+    "id": "Q15-16"
+   },
+   {
+    "source": "Smyth, Greek Grammar, §2837, apodotic δέ; https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.36.html",
+    "status": "checked",
+    "found": "The principal clause can be marked by δέ after an antecedent participial expression. Thus its position after the initial participial unit does not require moving any Greek words.",
+    "bears_on": "c: supports construing the initial participle with the following assertion despite the deferred position of δέ.",
+    "id": "Q15-17"
+   }
+  ]
+ }
+}

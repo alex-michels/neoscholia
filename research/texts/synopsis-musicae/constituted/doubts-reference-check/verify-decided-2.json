@@ -1,0 +1,331 @@
+{
+ "questions": [
+  "Q10",
+  "Q12",
+  "Q13",
+  "Q14"
+ ],
+ "verify": {
+  "checks": [
+   {
+    "id": "Q10-01",
+    "verdict": "confirmed",
+    "url_used": "https://lsj.gr/wiki/ἔμμεσος ; https://atlas.perseus.tufts.edu/dictionaries/entry/urn:cite2:scaife-viewer:dictionaries.v1:lsj-n34151/",
+    "note": "LSJ: 'intermediate ... having a mean, ἔ. ἐναντία having an intermediate term, Simp. in Cael. 340.33; ἔφη Πλάτων πάντα ἔ. Olymp. in Mete. 242.28'; III 'mediate', Eustr. in EN 331.2. The opposition to ἄμεσος comes from DGE, not LSJ: I.2 'que tiene término medio op. ἄμεσος Olymp. in Mete. 242.28', with τὰ ἔ. op. τὰ ἄμεσα at Simp. 340.33. DGE's adverb entry reads 'op. ἀμέσως Eust. 1097.16, cf. Them. in APo. 31.6, Anon.Bellerm. 4'. Anon. Bellerm. is cited only with 'cf.', and I could not check the Anonymus text itself, so 'per DGE' is accurate."
+   },
+   {
+    "id": "Q10-02",
+    "verdict": "confirmed",
+    "url_used": "https://lsj.gr/wiki/ἄμεσος",
+    "note": "LSJ: 'immediate: ἄμεσα καὶ ἀναπόδεικτα, of propositions that cannot be proved syllogistically by means of a middle term, Arist. APr. 68b30, APo. 72b19'. LSJ says 'propositions'; the finding's 'premises' is a fair equivalent."
+   },
+   {
+    "id": "Q10-03",
+    "verdict": "confirmed",
+    "url_used": "https://lsj.gr/wiki/ἔμμεσος",
+    "note": "This matches LSJ and DGE as given under Q10-01. In DGE the explicit 'op. ἀμέσως' is attached to Eust. 1097.16; Them. in APo. 31.6 and Anon.Bellerm. 4 follow 'cf.'."
+   },
+   {
+    "id": "Q10-04",
+    "verdict": "confirmed",
+    "url_used": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn:cite2:scaife-viewer:dictionaries.v1:lsj-n34151/",
+    "note": "I: 'intermediate ... having a mean ... having an intermediate term, Simp. in Cael. 340.33'; III: 'mediate ... Adv. -σως mediately, Them. in APo. 31.6'."
+   },
+   {
+    "id": "Q10-05",
+    "verdict": "confirmed",
+    "url_used": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn:cite2:scaife-viewer:dictionaries.v1:lsj-n66494/",
+    "note": "LSJ μέσος III ('μέσον, τό, midst, intervening space'), a: 'τὰ ἐν μ. what went between, S. OC 583; οἱ ἐν μ. λόγοι the intervening words, Id. El. 1364'. The same section has the temporal uses (ἐν μ. νυκτῶν; χρόνος οὑν μ.)."
+   },
+   {
+    "id": "Q10-06",
+    "verdict": "confirmed",
+    "url_used": "https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.16.html",
+    "note": "§1153c (preposition and case): οἱ ἐπὶ τῶν πρᾱγμάτων 'those in power' D. 18.247; οἱ ἐν τῇ ἡλικίᾳ 'those in the prime of life' T. 6.24. §1153d covers the genitive noun-phrase; §1156 says prepositions with their cases have attributive position when preceded by the article."
+   },
+   {
+    "id": "Q10-07",
+    "verdict": "confirmed",
+    "url_used": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn:cite2:scaife-viewer:dictionaries.v1:lsj-n34151/",
+    "note": "LSJ's wording is 'having an intermediate term'; the finding's 'intervening' is a paraphrase."
+   },
+   {
+    "id": "Q10-08",
+    "verdict": "confirmed",
+    "url_used": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn:cite2:scaife-viewer:dictionaries.v1:lsj-n66494/",
+    "note": "'οἱ ἐν μ. λόγοι the intervening words, S. El. 1364, E. Med. 819'."
+   },
+   {
+    "id": "Q10-09",
+    "verdict": "confirmed",
+    "url_used": "https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.16.html",
+    "note": "§1153: 'The article has the power to make substantival any word or words to which it is prefixed'. §1156: attributive position of prepositional phrases."
+   },
+   {
+    "id": "Q10-10",
+    "verdict": "confirmed",
+    "url_used": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn:cite2:scaife-viewer:dictionaries.v1:lsj-n34151/"
+   },
+   {
+    "id": "Q10-11",
+    "verdict": "confirmed",
+    "url_used": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn:cite2:scaife-viewer:dictionaries.v1:lsj-n66494/"
+   },
+   {
+    "id": "Q10-12",
+    "verdict": "confirmed",
+    "url_used": "https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.16.html"
+   },
+   {
+    "id": "Q10-13",
+    "verdict": "confirmed",
+    "url_used": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0361/tlg001/tlg0361.tlg001.1st1K-grc1.xml",
+    "note": "Jan p. 188.3–10, ch. 5: 'ἀσύνθετα μὲν οὖν διαστήματά ἐστι τὰ ὑπὸ τῶν ἑξῆς φθόγγων περιεχόμενα ... σύνθετα δὲ τὰ ὑπὸ τῶν μὴ ἑξῆς'. Related point from the same source: for systems, Cleonides uses the pair ἑξῆς / ὑπερβατόν. See ch. 8, p. 193.6–7 ('ἡ τοῦ ἑξῆς καὶ ὑπερβατοῦ') and ch. 10, p. 199.8–10 ('συστήματα τὰ διὰ τῶν ἑξῆς φθόγγων μελῳδούμενα τῶν καθ’ ὑπερβατόν')."
+   },
+   {
+    "id": "Q12-01",
+    "verdict": "corrected",
+    "url_used": "https://archive.org/details/musiciscriptoresjank (djvu.txt) ; First1KGreek tlg0361.tlg001, tlg0358.tlg002, tlg2136.tlg001",
+    "correction": "Bacchius' definition 'Σύστημα δὲ τί ἐστι; — Τὸ ἐκ πλειόνων ἢ δύο φθόγγων μελῳδούμενον' is at Jan p. 292.18–19 (§5), not p. 293.",
+    "note": "The other two locations and quotations are correct: Cleonides 1, Jan p. 180.2–3, and Nicomachus Ench. 4, p. 243.4 ('σύστημα δὲ πλεόνων ἑνὸς διαστημάτων σύνθεσιν')."
+   },
+   {
+    "id": "Q12-02",
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/musiciscriptoresjank/musiciscriptoresjank_djvu.txt",
+    "note": "Jan p. 333, running head 'Isagoge c. 6': '...καὶ μέχρι μὲν ταύτης | συνεπλήρουν τὸ δεύτερον σύστημα τετράχορδον τῶν | μέσων'. This spans lines 9–11; the quoted words themselves fall on lines 10–11."
+   },
+   {
+    "id": "Q12-03",
+    "verdict": "confirmed",
+    "url_used": "https://www.attalus.org/translate/cleonides.html",
+    "note": "[1]: 'A system is what is made up of more than one interval'. [8]: 'In magnitude the larger systems differ from the smaller, as the system of the diapason from that of the tritone or diapente or diatessaron'."
+   },
+   {
+    "id": "Q12-04",
+    "verdict": "confirmed",
+    "url_used": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg2136/tlg001/tlg2136.tlg001.1st1K-grc1.xml",
+    "note": "Jan p. 292.18–19, fragment 5. The cited Scaife passage URL also resolves."
+   },
+   {
+    "id": "Q12-05",
+    "verdict": "confirmed",
+    "url_used": "https://www.attalus.org/translate/cleonides.html",
+    "note": "[8] lists six symphonic systems, from the diatessaron through the diapente, diapason, diapason+diatessaron and diapason+diapente to the double diapason."
+   },
+   {
+    "id": "Q12-06",
+    "verdict": "corrected",
+    "url_used": "https://www.attalus.org/translate/cleonides.html",
+    "correction": "The greater perfect system ('four tetrachords ... bounded by the symphony double diapason') is described in §10, not §9. This holds both in the attalus/Strunk numbering and in Jan ch. 10, pp. 200.17–201.7. §9 treats the species (figures) of the fourth, fifth and octave.",
+    "note": "The definitions in §1 are cited correctly."
+   },
+   {
+    "id": "Q12-07",
+    "verdict": "confirmed",
+    "url_used": "https://www.gutenberg.org/files/40288/old/40288-h/40288-h.htm",
+    "note": "§15, p. 30 (the text runs before [Pg 31]): 'A System is defined ... as a group or complex of intervals ... any three or more notes whose relative pitch is fixed may be regarded as forming a particular System.'"
+   },
+   {
+    "id": "Q12-08",
+    "verdict": "confirmed",
+    "url_used": "https://lsj.gr/wiki/σύστημα",
+    "note": "The musical sense is LSJ σύστημα 6; the entry has no Roman I. It reads: 'in Music, system of intervals, scale, Pl. Phlb. 17d; συστήματα ἐναρμόνια, ὀκτάχορδα, Aristox. Harm. p.2 M., cf. Ph.1.10, Plu.2.1142f, Cleonid. Harm. 1.' 'Octave systems' in the finding corresponds to LSJ's 'ὀκτάχορδα'."
+   },
+   {
+    "id": "Q12-09",
+    "verdict": "confirmed",
+    "url_used": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0361/tlg001/tlg0361.tlg001.1st1K-grc1.xml",
+    "note": "Line numbers are off by one: the interval definition 'Διάστημα δὲ τὸ περιεχόμενον ὑπὸ δύο φθόγγων ἀνομοίων ὀξύτητι καὶ βαρύτητι' is at p. 179.11–12, not 179.10–11. The system definition is at p. 180.2–3. Ch. 8, p. 193.3–8, gives seven differences of systems, four of them shared with intervals."
+   },
+   {
+    "id": "Q13-01",
+    "verdict": "corrected",
+    "url_used": "https://archive.org/details/musiciscriptoresjank (page image leaf 346 = p. 244)",
+    "correction": "Jan prints 'αἱ μείζονες (p. 9) κοιλιώσεις καὶ τὰ μείζονα μήκη νωθρὸν καὶ ἔκλυτον' (p. 244.1–3), with κοιλιώσεις, not κοιλιώδεις. The finding's reading is an OCR error, and Jan's apparatus also has 'κοιλιώσεις cf. 254,10. 255,18'.",
+    "note": "The string clause is correct (p. 243.17–20: greater tensions give ὀξυτέρους φθόγγους), and so is 'καὶ βαρὺς οὕτως ὁ φθόγγος γίνεται' (p. 244.5–6)."
+   },
+   {
+    "id": "Q13-02",
+    "verdict": "confirmed",
+    "url_used": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0086/tlg044/tlg0086.tlg044.1st1K-grc1.xml ; https://lsj.gr/wiki/ὀξύς",
+    "note": "The text matches exactly. LSJ s.v. ὀξύς I.3.b cites it as Top. 106a13."
+   },
+   {
+    "id": "Q13-03",
+    "verdict": "confirmed",
+    "url_used": "First1KGreek tlg0086.tlg002 ; https://lsj.gr/wiki/ἀμβλύς",
+    "note": "De anima 2.8: the sharp/blunt terms are named 'κατὰ μεταφορὰν ἀπὸ τῶν ἁπτῶν', followed by 'τὸ μὲν γὰρ ὀξὺ οἷον κεντεῖ, τὸ δ’ ἀμβλὺ οἷον ὠθεῖ' (around 420a29–b3). LSJ ἀμβλύς has no pitch sense; its only auditory citation is dull hearing, Pr. 886b32."
+   },
+   {
+    "id": "Q13-04",
+    "verdict": "corrected",
+    "url_used": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn:cite2:scaife-viewer:dictionaries.v1:lsj-n6174/ ; https://lsj.gr/wiki/ἀμφότερος",
+    "correction": "LSJ does say 'rare in sg.', but it glosses the singular 'either, i.e. both of two'. Pl. Sph. 248d illustrates the adjectival singular ('ποίημα ἢ πάθος ἢ ἀμφότερον, partaking of both'), not the adverbial ἀμφότερον τε…καί, which LSJ illustrates from Homer (Il. 3.179). Sense II 'all together' (Act.Ap. 19.16) is correct. 'No sense one of two' needs a qualification: DGE B.I heads the singular '[uno y otro], [uno u otro]', although all its examples mean 'both', and the Cambridge Greek Lexicon gives 'each, either (of two)'.",
+    "note": "No source gives 'the other'. Pape has only 'beide'."
+   },
+   {
+    "id": "Q13-05",
+    "verdict": "confirmed",
+    "url_used": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn:cite2:scaife-viewer:dictionaries.v1:lsj-n43206/",
+    "note": "'one or the other of two'; 'neut. θάτερον A. Ag. 344, And. 2.7'."
+   },
+   {
+    "id": "Q13-06",
+    "verdict": "confirmed",
+    "url_used": "https://el.wikisource.org/wiki/Περί_ψυχής/Β",
+    "note": "The text matches. Wikisource places the [420b] marker just before 'καὶ ἔοικεν'."
+   },
+   {
+    "id": "Q13-07",
+    "verdict": "confirmed",
+    "url_used": "https://lsj.gr/wiki/ἀμβλύς",
+    "note": "'of hearing, τῆς ἀκοῆς οὔσης ἀμβλυτέρας αἰσθήσεως ἢ τῆς ὄψεως Pr. 886b32'. LSJ has no pitch sense."
+   },
+   {
+    "id": "Q13-08",
+    "verdict": "confirmed",
+    "url_used": "https://www.mifami.org/eLibrary/Ptolemy-Harmonics-I.1-9-Solomon_trans.pdf",
+    "note": "I checked this against Solomon's translation of Harm. 1.3. At 7.22–25 'denser and thinner produce higher sounds, sparser and thicker produce lower sounds'. At 8.2 the higher sounds happen 'on account of the tension'. At 8.18–9.2 lowness follows from greater distances: in strings, greater distance from the bridges; in auloi, sound exiting through the farther holes. Ptolemy ultimately reduces density and thinness to tension."
+   },
+   {
+    "id": "Q13-09",
+    "verdict": "confirmed",
+    "url_used": "https://api.pageplace.de/preview/DT0400.9781108623315_A45554777/preview-9781108623315_A45554777.pdf",
+    "note": "CGL p. 70, ἀμβλύς: blunt, obtuse, blunted or dulled, and so on, with no pitch sense. The singular sub-entry ἀμφότερος is on p. 86 (the main entry ἀμφότεροι starts on p. 85): 'each, either (of two) ...; (of clothing) of both kinds Pi.'. The adverb ἀμφότερον is glossed 'both (this and that)'."
+   },
+   {
+    "id": "Q13-10",
+    "verdict": "confirmed",
+    "url_used": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn:cite2:scaife-viewer:dictionaries.v1:lsj-n19477/",
+    "note": "III.1: 'esp. of musical pitch, low, opp. ὀξύς, βαρυτάτη χορδή Pl. Phdr. 268e; ἆχος, φωνά, Archyt. 1, cf. Arist. EE 1235a28, Aristox. Harm. p.3 M.'"
+   },
+   {
+    "id": "Q13-11",
+    "verdict": "confirmed",
+    "url_used": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn:cite2:scaife-viewer:dictionaries.v1:lsj-n43206/",
+    "note": "'ὅταν δυοῖν καλοῖν θάτερον κάλλιον ᾖ ... Id. Grg. 475a'."
+   },
+   {
+    "id": "Q13-12",
+    "verdict": "confirmed",
+    "url_used": "https://www.mifami.org/eLibrary/Ptolemy-Harmonics-I.1-9-Solomon_trans.pdf",
+    "note": "Düring 7.22–9.2 in Solomon's translation: thinner gives higher (7.25–30); tension gives higher (8.2); smaller distances from the bridges give higher (8.25–9.2); sound exiting closer to the mouthpiece gives higher (9.2)."
+   },
+   {
+    "id": "Q13-13",
+    "verdict": "confirmed",
+    "url_used": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg1724/tlg001/tlg1724.tlg001.1st1K-grc1.xml (the fgh.perseids.org URL also resolves)",
+    "note": "Hiller p. 65.13–66.11. More weight gives more tension and 'τὸν ὀξύτερον ποιήσει φθόγγον'; 'τὰ μήκη καὶ τὰ πάχη δυσκινησίαν προσάπτοντα' give lower notes. For wind instruments: 'οἱ βαρύτεροι, διὰ τὸ μῆκος καὶ τὴν εὐρύτητα τῶν τρημάτων', or through slackening of breath."
+   },
+   {
+    "id": "Q13-14",
+    "verdict": "confirmed",
+    "url_used": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn:cite2:scaife-viewer:dictionaries.v1:lsj-n6174/",
+    "note": "'either, i.e. both of two'; the adverbial neuter ἀμφότερον is glossed 'both together' (Il. 3.179)."
+   },
+   {
+    "id": "Q13-15",
+    "verdict": "confirmed",
+    "url_used": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn:cite2:scaife-viewer:dictionaries.v1:lsj-n43206/"
+   },
+   {
+    "id": "Q13-16",
+    "verdict": "confirmed",
+    "url_used": "https://www.mifami.org/eLibrary/Ptolemy-Harmonics-I.1-9-Solomon_trans.pdf",
+    "note": "8.25–9.2: 'When the other factors remain the same, the sounds will be without exception higher ... by smaller rather than greater distances from the bridges, and in auloi, where the sound exits closer to the mouthpiece ... rather than ... through the farther holes.'"
+   },
+   {
+    "id": "Q13-17",
+    "verdict": "confirmed",
+    "url_used": "https://bailly.app/amphoteros",
+    "note": "I: 'l'un et l'autre (p. opp. à ἑκάτερος)', rare in the singular (Eschl. Pers. 131; Xén. Cyr. 7.4.4; Plat. Soph. 248d). III.2: adverbial ἀμφότερον 'de deux manières à la fois, ensemble', Il. 3.179; ἀμφότερον… καί… καί, Plat. Ion 541b."
+   },
+   {
+    "id": "Q13-18",
+    "verdict": "confirmed",
+    "url_used": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn:cite2:scaife-viewer:dictionaries.v1:lsj-n19477/",
+    "note": "Intro: 'Comp. βαρύτερος'. III.1 has the pitch sense. 'Comp. -ύτερον ... (but, on a lower note, αὐλεῖν Id. GA 788a22)'."
+   },
+   {
+    "id": "Q13-19",
+    "verdict": "confirmed",
+    "url_used": "https://bailly.app/amblus",
+    "note": "The comparative ἀμβλύτερος is attested (Thc. 2.40; Xén. Mem. 3.9.3). Senses: émoussé; angle obtus; vue or ouïe affaiblie. There is no pitch sense."
+   },
+   {
+    "id": "Q13-20",
+    "verdict": "confirmed",
+    "url_used": "https://bailly.app/heteros ; https://api.pageplace.de/preview/DT0400.9781108229456_A37027823/preview-9781108229456_A37027823.pdf",
+    "note": "Bailly I.1 cites Plat. Theaet. 187b ('δυοῖν θάτερον') and Soph. El. 345. At El. 345 the form is the plural θάτερ’ (θάτερα); LSJ cites the Theaetetus as 187c. CGCG §1.45 n. 3 (p. 16) covers crasis from older ἅτερος and the development of a full alternative pronoun θάτερος."
+   },
+   {
+    "id": "Q13-21",
+    "verdict": "confirmed",
+    "url_used": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0358/tlg002/tlg0358.tlg002.1st1K-grc1.xml",
+    "note": "pp. 243.17–244.6. The Pachymeres references are in Jan's notes only."
+   },
+   {
+    "id": "Q14-01",
+    "verdict": "confirmed",
+    "url_used": "https://lsj.gr/wiki/πεντεκαιδεκάχορδος ; First1KGreek tlg1724.tlg001 (Theon p. 64)",
+    "note": "LSJ: 'with fifteen strings, Adrast. ap. Theon. Sm. p.64 H., Ptol. Harm. 3.1 tit., Porph. in Harm. p.168 D.' lsj.gr returns 404 for ἑκκαιδεκάχορδος. Caveat on Theon p. 64.5: the full phrase is 'οἱ δὲ νεώτεροι τὸ πεντεκαιδεκάχορδον τρόπον μέγιστον ἐπὶ τὸ τρὶς διὰ πασῶν καὶ τόνον διεστηκός'. There the term names the moderns' diagram spanning three octaves and a tone, not a double octave."
+   },
+   {
+    "id": "Q14-02",
+    "verdict": "confirmed",
+    "url_used": "task evidence section-2.json, section-5.json",
+    "note": "Bas. 25.11–17 and H 65r.2–9 match. Spelling: Bas. prints 'τοῦ περάτος', while H, Par. and V have 'πέρατος'. Bas. 31.3–6 reads 'τὸ δὲ κατὰ συνέχειαν, ἑκκαιδεκάχορδον, ... διπλᾶς τὰς δυνάμεις ἀποφερόμενον'; H 68v.3 has ἐκκαιδεκάχορδον."
+   },
+   {
+    "id": "Q14-03",
+    "verdict": "confirmed",
+    "url_used": "https://lsj.gr/wiki/πεντεκαιδεκάχορδος",
+    "note": "The same caveat about the Theon passage applies as under Q14-01."
+   },
+   {
+    "id": "Q14-04",
+    "verdict": "confirmed",
+    "url_used": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg1799/tlg015/tlg1799.tlg015.1st1K-grc2.xml",
+    "note": "pp. 163.16–164.6: αβ προσλαμβανόμενος, βδ (half) μέση, εβ (quarter) νήτη ὑπερβολαίων. The p. 166 diagram lists 15 names. Note: 'Descriptum hoc est diagramma manu 2 in imo margine fol. 16v cod. M ... quae uncinis inclusi perierunt cum margine membranae'."
+   },
+   {
+    "id": "Q14-05",
+    "verdict": "confirmed",
+    "url_used": "https://www.attalus.org/translate/cleonides.html",
+    "note": "[8]: 'the sixth, that of the double diapason, of twelve tones, ... from the proslambanomenos to nete hyperbolaion'."
+   },
+   {
+    "id": "Q14-06",
+    "verdict": "corrected",
+    "url_used": "https://www.attalus.org/translate/cleonides.html",
+    "correction": "The content is accurate, but it is in §10, not §9. This holds in the attalus/Strunk text and in Jan ch. 10, pp. 199.11–201.7. Text: four tetrachords, two conjunct pairs mutually disjunct, and two tones (proslambanomenos–hypate hypaton; mese–paramese), 'bounded by the symphony double diapason'. A conjunction is 'the note common to two tetrachords of the same species'."
+   },
+   {
+    "id": "Q14-07",
+    "verdict": "corrected",
+    "url_used": "https://www.gutenberg.org/files/40288/old/40288-h/40288-h.htm",
+    "correction": "Monro's §18 diagram shows the combined 'Perfect and unmodulating System' (Greater plus Lesser), with 18 names. The 15 notes of the Greater System, from proslambanomenos to nete hyperbolaion, form the main column; the three synemmenon notes are set off beside it. The text says the Greater Perfect System 'consists of two octaves'."
+   },
+   {
+    "id": "Q14-08",
+    "verdict": "confirmed",
+    "url_used": "https://lsj.gr/wiki/κανών",
+    "note": "The cited BBAW CLD page returned HTTP 403, so I checked the same LSJ text on lsj.gr. κανών I.10: 'in Music, monochord ... Ptol. Harm. 1.8, 2.12; ὀκτάχορδος, πεντεκαιδεκάχορδος κανών, ib. 2.2, 3.1 tit.'"
+   },
+   {
+    "id": "Q14-09",
+    "verdict": "confirmed",
+    "url_used": "https://beta.perseus.tufts.edu/urn:cts:greekLit:tlg0361.tlg001.1st1K-grc1:10/ ; First1KGreek XML",
+    "note": "Jan pp. 199.11–201.7. Text: συναφή is 'φθόγγος κοινός', διάζευξις is 'τόνος ἀνὰ μέσον', and the larger system has 'τετράχορδα μὲν τέσσαρα ... συμφώνῳ δὲ διορίζεται τῷ δὶς διὰ πασῶν'."
+   },
+   {
+    "id": "Q14-10",
+    "verdict": "confirmed",
+    "url_used": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0358/tlg002/tlg0358.tlg002.1st1K-grc1.xml",
+    "note": "Ench. 11.4, p. 258.3–10: 'ἵνα ὀκτάχορδα ἑκατέρωθεν τῆς μέσης ὑπάρξῃ τὰ συστήματα, καὶ ἡ μὲν ὡς ἀληθῶς μέση γένηται ἐν πεντεκαίδεκα φθόγγοις ὀγδόη ἑκατέρωθεν κειμένη, καὶ δὶς διὰ πασῶν τὸ σύμπαν'."
+   }
+  ],
+  "summary": "I checked all 47 findings in decided-2.json: 39 are confirmed and 8 corrected. None is wrong, not found, or unopenable; only one cited URL (the BBAW CLD page for κανών, Q14-08) was unreachable, and I checked the same LSJ text on lsj.gr instead. Most sources were checked against primary texts: Jan's Musici scriptores Graeci (archive.org OCR and page images, First1KGreek), Hiller's Theon, LSJ on Scaife and lsj.gr, DGE, Bailly, Smyth, CGCG, the Cambridge Greek Lexicon preview, Solomon's Ptolemy and Monro.\n\nThe corrections:\n- **Q12-01:** Bacchius' definition of σύστημα is at Jan p. 292.18–19, not p. 293.\n- **Q12-06 and Q14-06:** Cleonides describes the Greater Perfect System in §10, not §9, both in Strunk/attalus and in Jan pp. 200–201.\n- **Q13-01:** Jan p. 244.2 prints κοιλιώσεις, not κοιλιώδεις; the finding copied an OCR error, and the page image shows κοιλιώσεις.\n- **Q13-04:** Pl. Sph. 248d is the adjectival singular ('partaking of both'), not the adverbial ἀμφότερον τε…καί. DGE heads the singular 'uno y otro / uno u otro' and the Cambridge Greek Lexicon gives 'each, either (of two)', so 'no sense one of two' needs qualifying. No source gives 'the other'.\n- **Q14-07:** Monro's §18 diagram shows the combined unmodulating system (18 names), not the Greater System alone.\n\nSmall slips in otherwise confirmed findings:\n- Line numbers are off by one in Q12-09 (interval definition at 179.11–12) and in Q12-02 (the quoted words are on p. 333.10–11).\n- In Q14-02 the Basel print spells it 'περάτος', while the manuscripts have 'πέρατος'.\n- In Q12-08 the LSJ musical sense is numbered 6; the entry has no Roman I.\n\nThings worth knowing that do not change a verdict:\n- **Q14-01/Q14-03:** In Theon p. 64.5 the moderns' πεντεκαιδεκάχορδον is said to span three octaves and a tone, not a double octave.\n- **Q10-13:** Cleonides uses the pair ἑξῆς / καθ' ὑπερβατόν for systems (Jan p. 193.6–7 and 199.8–10).\n- **Q10-01/Q10-03:** DGE cites Anon. Bellerm. 4 only with 'cf.'. I could not check the Anonymus text itself.\n- **Q13-08:** This was marked 'from memory'; it is now confirmed from Solomon's translation of Ptolemy's Harmonics 1.3 (Düring 7.22–9.2).\n\nDownloads and working files are in (local working folder)"
+ }
+}

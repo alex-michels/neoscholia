@@ -1,0 +1,168 @@
+{
+ "checks": [
+  {
+   "id": "Q15-01",
+   "verdict": "corrected",
+   "url_used": "https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.36.html",
+   "note": "§2914: μέν and δέ are 'commonly placed next to the words they contrast'. §2914b: after a preposition with an anarthrous noun, δέ 'usually takes the third place'. Both confirmed.",
+   "correction": "The sentence quoted from §2916 begins 'In poetry μέν and δέ often have a freer position than in prose. δέ may often come third ... and even fourth.' The finding leaves out that this is about poetry. §2914a also lets prose break the rule to stress the word before δέ (X. M. 1.1.12 τὰ δαιμόνια δέ; T. 3.22 ἀνὰ τὸ σκοτεινὸν μέν). The 'seventh position' bearing misapplies these sections. Under c, δέ would be apodotic (§2837), and Smyth counts its place from the start of the main clause, not the participial antecedent. In εἴη δ’ ἂν it is second. These sections give no argument against c."
+  },
+  {
+   "id": "Q15-02",
+   "verdict": "confirmed",
+   "url_used": "https://iiif.archive.org/iiif/theonissmyrnaei00theogoog$78/full/1100,/0/default.jpg",
+   "note": "Hiller p. 56, table after line 5: διάτονον ἡμιτόνιον τόνος τόνος; χρωματικόν ἡμιτόνιον ἡμιτόνιον τριημιτόνιον; ἁρμονικόν (not 'ἐναρμόνιον') δίεσις δίεσις δίτονον. The labels follow the apographs. A and Z label differently (apparatus lines 6-8), but the intervals are the same. That the phrase describes the whole tetrachord is a fair inference. The step from there to a high stop rather than a comma is the finder's own argument."
+  },
+  {
+   "id": "Q15-03",
+   "verdict": "confirmed",
+   "url_used": "https://iiif.archive.org/iiif/musiciscriptoresjank$364/full/1200,/0/default.jpg",
+   "note": "Jan p. 262.16-18 (Meibom p. 26), word for word: 'τὸ δὲ χρωματικὸν οὕτω προβιβάζεται· ἡμιτόνιον, εἶτα ἄλλο ἡμιτόνιον, εἶτα ἐπὶ τούτοις ἀσύνθετον τριημιτόνιον.' The passage is all on p. 262, none on p. 261. Nicomachus then makes a separate statement about the whole tetrachord: 'ἵνα καὶ τοῦτο, εἰ καὶ μὴ ἐκ δύο τόνων καὶ ἡμιτονίου ἀντικρύς ἐστιν, ἀλλ’ οὖν ἴσα ἔχον φαίνηται τὰ διαστήματα δυσὶ τόνοις καὶ ἡμιτονίῳ' (262.18-21). This fits the bearing."
+  },
+  {
+   "id": "Q15-04",
+   "verdict": "corrected",
+   "url_used": "https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.36.html",
+   "note": "§2772: postpositive particles such as δέ 'find their place only after one or more words at the beginning'. §2916 (poetry: third and even fourth place) is confirmed.",
+   "correction": "§2772 says 'after one or more words', not 'after the first word or close word-group'. §2914b says δέ 'usually', not 'only', takes third place after a preposition with an anarthrous noun. §2914a allows prose exceptions for emphasis (X. M. 1.1.12; T. 3.22). As with Q15-01, counting δέ's place from the start of a preposed participial antecedent is not what these sections describe. Apodotic δέ (§2837) is counted inside the main clause."
+  },
+  {
+   "id": "Q15-05",
+   "verdict": "confirmed",
+   "url_used": "https://www.attalus.org/translate/cleonides.html",
+   "note": "The page credits the translation to 'O.Strunk' (Source Readings, pp. 34-46). §3: the chromatic is sung descending by trihemitone, semitone, semitone, and ascending in reverse. §5: 'the trihemitone is incomposite in the chromatic genus, but composite in the diatonic'. The Greek is in Jan p. 181.15-18 and p. 188.14-15. The bearing (whole tetrachord; a over b) is a fair inference."
+  },
+  {
+   "id": "Q15-06",
+   "verdict": "confirmed",
+   "url_used": "https://www.attalus.org/translate/cleonides.html",
+   "note": "§3 gives the chromatic as semitone, semitone, trihemitone. §5 defines incomposite intervals as 'bounded by consecutive notes' and says the trihemitone is incomposite in the chromatic. §7: the tonic chromatic is 'sung by semitone, semitone, and trihemitone'. The bearing is one-sided. Cleonides supports reading the mixture as the whole fourth, but option a reads it that way too (as a separate statement after the high stop). So it tells against b, not for c over a."
+  },
+  {
+   "id": "Q15-07",
+   "verdict": "confirmed",
+   "url_used": "https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.36.html",
+   "note": "§2837: apodotic δέ is 'very common in Homer and Herodotus, not rare in Attic poetry, but infrequent in Attic prose, where it is used especially after an emphatic personal or demonstrative pronoun or when a participle represents the antecedent clause.' Examples: T. 1.11; P. S. 220b. Infrequency applies to apodotic δέ in Attic prose generally. A participial antecedent is one of the settings where it is most often found there. The bearing is fair: under c, δέ would be second word of the main clause."
+  },
+  {
+   "id": "Q15-08",
+   "verdict": "confirmed",
+   "url_used": "https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.8.html",
+   "note": "§943: 'When there is no danger of obscurity, the subject may shift without warning'. Examples T. 7.25 and D. 59.115, as cited. Both examples concern the subject of finite verbs. Applying the rule to a participle with no expressed head (option a) is an analogy."
+  },
+  {
+   "id": "Q15-09",
+   "verdict": "confirmed",
+   "url_used": "https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.9.html",
+   "note": "§944: the copula εἶναι is often omitted, especially ἐστί/εἰσί. §945: other forms of εἶναι are omitted less often. §948: 'A verb that may easily be supplied from the context is often omitted.' The bearing is a fair analogy."
+  },
+  {
+   "id": "Q15-10",
+   "verdict": "confirmed",
+   "url_used": "https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.22.html",
+   "note": "§2054: the circumstantial participle sets out a circumstance of the main action, equivalent to a clause of time, condition, cause, etc. §2056: its subject is the same as the subject or object of the leading verb, and it agrees with it."
+  },
+  {
+   "id": "Q15-11",
+   "verdict": "corrected",
+   "url_used": "https://www.attalus.org/translate/cleonides.html",
+   "note": "§3 (chromatic: two semitones and a trihemitone) is confirmed. The content claims are accurate.",
+   "correction": "The definition of incomposite intervals ('bounded by consecutive notes') and the trihemitone statement are in Cleonides §5 (Jan p. 188.3-17), not §6. §6 is about pure, common and mixed genera. Cite §§3, 5."
+  },
+  {
+   "id": "Q15-12",
+   "verdict": "confirmed",
+   "url_used": "https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.36.html",
+   "note": "§2914: 'μέν and δέ are commonly placed next to the words they contrast'. Correctly stated. For c, the relevant section is §2837 (apodotic δέ), which the bearing does not mention."
+  },
+  {
+   "id": "Q15-13",
+   "verdict": "confirmed",
+   "url_used": "https://beta.perseus.tufts.edu/urn:cts:greekLit:tlg0361.tlg001.1st1K-grc1:3/",
+   "note": "Jan p. 181.12-18 (checked on the page image too): diatonic downward κατὰ τόνον καὶ τόνον καὶ ἡμιτόνιον, upward ἡμιτόνιον, τόνον, τόνον; chromatic downward κατὰ τριημιτόνιον καὶ ἡμιτόνιον καὶ ἡμιτόνιον, upward ἐναντίως κατὰ ἡμιτόνιον καὶ ἡμιτόνιον καὶ τριημιτόνιον. The passage is all on p. 181. The Perseus beta URL works."
+  },
+  {
+   "id": "Q15-14",
+   "verdict": "confirmed",
+   "url_used": "https://iiif.archive.org/iiif/musiciscriptoresjank$290/full/1200,/0/default.jpg",
+   "note": "Jan p. 188.3-17 (within the cited pp. 187-189): 'ἀσύνθετα μὲν οὖν διαστήματά ἐστι τὰ ὑπὸ τῶν ἑξῆς φθόγγων περιεχόμενα ... τὸ τριημιτόνιον ἐν μὲν χρώματι ἀσύνθετον, ἐν δὲ διατόνῳ σύνθετον'. The apparatus on that page quotes a later text and refers to Bryennius p. 382."
+  },
+  {
+   "id": "Q15-15",
+   "verdict": "confirmed",
+   "url_used": "https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.22.html",
+   "note": "§2054b: the circumstantial participle has no article; agreeing with a noun and its article, it stands before the article or after the noun. §2056 gives T. 1.29 (προπέμψαντες κήρυκα ...), quoted without its main verb. The example that shows a participle before its main verb is X. A. 4.2.7 (λιπόντες ... φεύγοντες ὀλίγοι ἀπέθνῃσκον)."
+  },
+  {
+   "id": "Q15-16",
+   "verdict": "confirmed",
+   "url_used": "https://api.pageplace.de/preview/DT0400.9781108229456_A37027823/preview-9781108229456_A37027823.pdf",
+   "note": "CGCG §1.9 Note 1 (p. 5): modern punctuation follows modern conventions and 'often does not reflect the probable ancient intonation and/or writing conventions'. §1.13 (p. 7): Greeks did not use punctuation or word division systematically; 'Both were introduced in Byzantine times'. One caveat on the bearing: by §1.13 systematic punctuation is itself Byzantine. For an author of 1008 with a witness of 1040 (H), the principle does not by itself discount the manuscript stops."
+  },
+  {
+   "id": "Q15-17",
+   "verdict": "confirmed",
+   "url_used": "https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.36.html",
+   "note": "§2837 says apodotic δέ is used in Attic prose 'when a participle represents the antecedent clause'. Examples T. 1.11 and P. S. 220b. The bearing is fair."
+  },
+  {
+   "id": "Q15-new-01",
+   "verdict": "corrected",
+   "url_used": "https://iiif.archive.org/iiif/theonissmyrnaei00theogoog$77/full/1100,/0/default.jpg",
+   "note": "Pages checked on the Hiller images (IIIF $76-$78 = pp. 54-56; BookReader n76 = p. 55, as cited) and in First1KGreek tlg1724.tlg001. The chromatic passage quoted at 54.16-55.7 is exact: high point before ὥστε, then 'ὥστε γίνεσθαι τὴν τοιαύτην μελῳδίαν κατὰ ἡμιτόνιον καὶ ἡμιτόνιον καὶ τριημιτόνιον ἀσύνθετον. καλεῖται δὲ πάλιν τὸ γένος ... χρωματικὸν διὰ τὸ ... γοερώτερόν τε καὶ παθητικώτερον ἦθος ἐμφαίνειν.' The subject of the ὥστε-clause is τὴν τοιαύτην μελῳδίαν.",
+   "correction": "Line references: 'διὰ τῶν τόνων τὸ πλεῖστον' is at p. 54.13-14, not 54.11. 'διὰ τὸ εἶναι ἄριστον, ἀπενεγκάμενον ... τὴν προσηγορίαν' runs 55.16-56.1. The δυσμελῳδητότατον ... Πλάτων sentence is p. 56.1-5. Bas. 33.1-7 paraphrases it closely but not word for word (δυσμελῳδικώτατον; πολλῆς τριβῆς καὶ συνηθείας; φυσικώτερον). On the diatonic: in 'καλεῖται δὲ τὸ οὕτω μελῳδηθὲν σύστημα τετράχορδον, συνεστηκὸς ἐκ ... ἡμιτονίου καὶ τόνου καὶ τόνου' (54.6-8), the name given is τετράχορδον, not διάτονον. The genus is named διάτονον in a separate sentence (54.12-15), which gives reasons (ἤτοι ὅτι ...) and no composition. So the parallel with Bas. 32.7-9 (name followed by a participle of composition) holds in structure only, not 'exactly'."
+  },
+  {
+   "id": "Q15-new-02",
+   "verdict": "confirmed",
+   "url_used": "https://iiif.archive.org/iiif/theonissmyrnaei00theogoog$77/pct:0,58,100,11/1600,/0/default.jpg",
+   "note": "Hiller p. 55, apparatus to line 4: 'τὸ τριημιτόνιον (τρημητόνιον A¹) τριῶν ἐστὶν ἡμιτονίων, τόνου ας· εἶτα τὰ β ἡμιτόνια· γίνεται ἡ πᾶσα τόνων βς mg. A'. The wording matches. The note is keyed to line 4, where τριημιτόνιον ἀσύνθετον ends the ὥστε-clause and καλεῖται begins. 'Attached to the naming' is the finder's reading of where the marginal note sits. The apparatus gives only the line."
+  },
+  {
+   "id": "Q15-new-03",
+   "verdict": "confirmed",
+   "url_used": "https://iiif.archive.org/iiif/p2ausfhrlichegra02khuoft$293/full/1300,/0/default.jpg",
+   "note": "KG II.2 §532 'Δέ im Nachsatze' begins p. 275. P. 276: chiefly Homeric, 'ziemlich oft bei Herodot, seltener bei den Attikern', in prose 'häufig in Verbindung mit einem Personal- oder Demonstrativpronomen'. P. 277 Anmerk., word for word: 'So steht δέ, besonders bei den Attikern, auch hinter verkürzten Vordersätzen in der Form des Partizips.' Examples: X. Comm. (= Mem.) 3.7.8 χειρούμενος, τούτοις δὲ ... ('obgleich .. doch'); An. 6.6.16; Hell. 3.3.7; Pl. Symp. 220b ... οὗτος δ’; Hdt. 5.50; Antiph. 1.12, 2.β.4; Isocr. 15.71. The page is leafNum 293 (BookReader n292), as cited. In every example δέ follows a contrasted pronoun or phrase in the main clause."
+  },
+  {
+   "id": "Q15-new-04",
+   "verdict": "confirmed",
+   "url_used": "https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.36.html",
+   "note": "§2837 examples: A 193; X. H. 4.1.33; Hdt. 1.112; X. C. 8.5.12; T. 1.11 (ἐπειδὴ δὲ ἀφικόμενοι μάχῃ ἐκράτησαν ..., φαίνονται δ’ οὐδ’ ἐνταῦθα ...); P. S. 220b (καί ποτε ὄντος πάγου ..., οὗτος δ’ ...). §2837a adds X. A. 5.6.20 (an εἰ-clause containing ἐκλεξάμενοι; main clause πλοῖα δ’ ...). None has a bare circumstantial participle agreeing with the main subject and followed by verb + δέ. Accurate."
+  },
+  {
+   "id": "Q15-new-05",
+   "verdict": "corrected",
+   "url_used": "pkg/evidence/section-1..7.json (Bas. lines; p_fragments Vinc. 338)",
+   "note": "Checked in evidence: Bas. 23.8-10 γινόμενον, καλῶς ἄν ποτε γένοιτο; 24.8-14 (genitive absolute) ἐν ἐπιτόμῳ διαληψόμεθα; 32.5-6 ἐκτιθεμένων, ἀνάγκη; 26.24-27.1 μεταλαβὼν ... περιθεὶς, ἥμισυ ... ποιεῖ; 27.1-3 μετειληφὼς ..., τὸ δοθὲν διπλασιάζει; 30.2-6 ἔχον ... φαίνεται ἡμιόλιος (inside an ἐπείτοιγε-clause). εἰ-clauses: 24.23; 31.18-24; 32.9-10; 32.15-16. None of these main clauses has apodotic δέ. Confirmed.",
+   "correction": "(1) 'τάχα δ’ ἄν τις' is Bas. 24.3, not 24.4. Neither example shows 'δέ after a verb plus ἄν': at 24.3 δέ follows the adverb τάχα, and 26.22 τῇ γεωμετρίᾳ δέ has no ἄν (δέ third, after article + noun). The only verb + δ’ ἄν in the text is εἴη δ’ ἂν at 32.13 itself. (2) The main clause in P (Vinc. 338.4-7) is not unmarked. After concessive Εἰ γὰρ καί it opens with apodotic ἀλλ’ ('ἀλλ’ ἐν τοῖς μέλεσι ... ἐντεῦθεν ἐγγίνεται'). The author does the same at Bas. 26.1-3 (εἰ γὰρ καὶ ἡ μονὰς οὐ τέμνεται ..., ἀλλ’ ἡ ἐν ὕλῃ ... μονὰς τέμνεται), an εἰ-clause the list leaves out. The claim 'no apodotic δέ' still holds. The text does, however, mark main clauses with an adversative particle."
+  },
+  {
+   "id": "Q15-new-06",
+   "verdict": "corrected",
+   "url_used": "pkg/evidence/section-1..6.json (H and V witness lines)",
+   "note": "Every cited locus checks out as described. H: 64r.6; 64r.22; 64v.11; 65r.7(-8); 65v.13-14; 66r.1; 65v.22 μεταλαβὼν·; 66r.3; 68v.20; 68v.21; 69r.1; 69r.9; 69r.13; 69r.21; '·' after συγκεκραμένον (69r.17). V: commas at 81r.18, 81r.20, 81v.1, 81v.10, 82r.3; 77v.3 ὄντα·; ':' at 81v.19; red ε at 81v.20 and none at 81v.19. In every case examined, H marks the antecedent/main-clause boundary with ',' or '.' and never with '·'.",
+   "correction": "Calling '·' H's 'stronger stop, the one it uses at the end of a colon or period' overstates it. H uses '·' for small internal breaks (64r.14 ἐν ὧ· τὸ πᾶν; 64v.1 αἰσθήσεων· τῇ ἀκοῇ; 65v.3 γεωμετρία· καὶ; 65v.22). It uses '.' at some sentence ends (66v.20 ἀντίφωνον. διαφέρει; 69r.2 μέλος. οὐ μὴν). It also puts '·' before a following participial phrase that belongs to the preceding clause (66r.14-15 συναπαρτίζεσθαι· δύναμιν μὲν ἔχον ...). For V, 82r.6 is not a sentence end. Its ':' stands before the dependent τῷ εἶναι ἄριστον ... ἀπενεγκάμενον, and 77r.1 ':' falls inside a ὡς-clause, so ':' is not reserved for sentence ends. V's red initials recur every 8-11 lines whatever the syntax: mid-sentence at 75v.17, 78v.17, 79r.11, 80r.4, 81r.6, 81r.15, and mid-word at 80r.15 (πλασίων). The red ε at 81v.20 is therefore no evidence that a sentence begins there."
+  },
+  {
+   "id": "Q15-new-07",
+   "verdict": "confirmed",
+   "url_used": "https://www.fdr.uni-hamburg.de/record/605/files/COMSt_Newsletter_8_2014-1822-Giannouli.pdf?download=1",
+   "note": "Giannouli, COMSt Newsletter 8 (2014) 18-22, CC BY 4.0, §1 'Byzantine punctuation'. Dionysius Thrax: three dots, of which 'only two of them (the upper and low dot) are connected to the (in)completeness of a thought'. Practice 'from the ninth to the twelfth century' shows 'that, in principle, the scribes followed the theoretical guidelines of the grammarians'. Transmitted punctuation 'marks the cola'. 'Especially in the case of post ninth-century Byzantine authors, the transmitted punctuation should be taken into account by modern editors ... Variations, especially with regard to the strong pauses, are less than some editors would think.' Several of these points are reported views ('It has been suggested'; Delatte–Severyns, Bidez, Drachmann for 'shows how ancient editors understood the text'). They concern autographs or 'the most reliable text witnesses'."
+  },
+  {
+   "id": "Q15-new-08",
+   "verdict": "confirmed",
+   "url_used": "https://iiif.archive.org/iiif/musiciscriptoresjank$400/full/1200,/0/default.jpg",
+   "note": "Bacchius §23, Jan p. 298.10-12: 'Τὸ δὲ χρῶμα πῶς μελῳδεῖται; — Ἐπὶ μὲν τὸ ὀξὺ καθ’ ἡμιτόνιον καὶ ἡμιτόνιον καὶ τριημιτόνιον'. Gaudentius 5, Jan p. 331.17-21 (Meibom p. 6): 'τὸ δὲ χρωματικὸν πολυειδῶς ... ἐπὶ μὲν τὸ ὀξὺ καθ’ ἡμιτόνιον καὶ ἡμιτόνιον καὶ τριημιτόνιον'. Cleonides 3, Jan p. 181.15-18: an elliptical τὸ δὲ χρῶμα clause sharing μελῳδεῖται with the diatonic. Nicomachus 12, Jan p. 262.16-18: a list. None uses συγκεκραμένον or συγκείμενον ἐξ for the chromatic tetrachord. For completeness: Bacchius §20 uses συγκείμενον for the πυκνόν; Gaudentius 4 uses συγκείμενον for σύστημα in general; Theon 54.7 uses συνεστηκὸς ἐκ for the diatonic tetrachord. Nicomachus also follows his list with a statement about the whole tetrachord containing the participle ἔχον (262.18-21)."
+  },
+  {
+   "id": "Q15-new-09",
+   "verdict": "corrected",
+   "url_used": "pkg/evidence/section-4.json (p_fragments, Vinc. p. 340 lines 13-18 and notes)",
+   "note": "Vinc. 340.13-18 reads as quoted: '... τῶν ἐν αὐτοῖς κεκραμένων διαστημάτων ... οὕτως εἰς ἓν διάστημα ὡς ἐξ φθάρσεως κίρνανται.'",
+   "correction": "Vincent's own notes qualify the reading. 340 n. 4: 'Ms. κεκρυμμένων', so κεκραμένων is Vincent's correction. 340 n. 2: 'Ms. ἐξυφθάρσεως'. Only κίρνανται is transmitted. The comparison passage 'ὡς ἓν ἐκ συμφθάρσεως διὰ ... τριῶν ἡμιτονίων' is Bas. 27.10-11 (Ἀσύνθετα δὲ εἴρηται, τῷ ὡς ἓν ἐκ συμφθάρσεως ...), not Bas. 27.6-8, which lists τριδίεσις, τριημιτόνιον, etc."
+  }
+ ],
+ "summary": "I checked all 26 findings: 16 confirmed, 10 corrected, none wrong, not found or unreachable. Sources checked: page images of Hiller's Theon, Jan MSG and Kühner–Gerth on archive.org IIIF; Smyth on Alpheios; CGCG preview PDF; Giannouli PDF; attalus.org Cleonides; Perseus beta; the evidence files.\n\nCorrections that matter:\n(1) Q15-01 and Q15-04: Smyth §2916's third/fourth place for δέ is about poetry. §2914b says 'usually', not 'only', and §2914a allows exceptions in prose. Counting δέ to 'seventh position' misapplies these rules: under c, δέ is apodotic (§2837) and second in its own clause.\n(2) Q15-new-01: line references are off (54.13 not 54.11). Theon's 'καλεῖται ... σύστημα τετράχορδον, συνεστηκὸς ἐκ ...' names the tetrachord, not the diatonic, so the parallel with Bas. 32.7-9 is not exact.\n(3) Q15-new-05: the closing examples about 'δέ after a verb plus ἄν' do not show that. The P passage and Bas. 26.1-3 mark the main clause with apodotic ἀλλ’ after εἰ καί.\n(4) Q15-new-06: every cited locus checks out. But H also uses '·' for small breaks and '.' at some sentence ends. V's ':' at 82r.6 is not a sentence end. V's red initials recur every 8-11 lines regardless of syntax, so the red ε at 81v.20 proves nothing.\n(5) Q15-new-09: κεκραμένων is Vincent's correction of the manuscript's κεκρυμμένων (n. 4). The Bas. parallel is 27.10-11.\n(6) Q15-11: the incomposite definition is Cleonides §5, not §6.\n\nDownloads are in (local working folder)"
+}

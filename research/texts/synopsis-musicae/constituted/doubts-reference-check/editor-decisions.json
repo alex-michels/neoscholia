@@ -1,0 +1,75 @@
+{
+ "provisional_30_10": {
+  "Q02": {
+   "ref": "Bas. 25.7",
+   "choice": "⟨διάτονος μέσων⟩ (text unchanged)"
+  },
+  "Q04": {
+   "ref": "P (Vinc. 338.7)",
+   "choice": "τὴν σύμφθαρσιν (text unchanged)"
+  },
+  "Q05": {
+   "ref": "P (Vinc. 338.14)",
+   "choice": "ἀριθμητικόν (text unchanged)"
+  },
+  "Q06": {
+   "ref": "Bas. 29.15-16",
+   "choice": "keep as transmitted; supplement in the apparatus (text unchanged)"
+  },
+  "Q09": {
+   "ref": "P (Vinc. 340.11)",
+   "choice": "δίεσις without article; Vincent's [ἡ] in the apparatus (TEXT CHANGES)"
+  },
+  "Q11": {
+   "ref": "P (Vinc. 342.1-2)",
+   "choice": "συγκρινομένων (text unchanged)"
+  },
+  "Q15": {
+   "ref": "Bas. 32.11-13",
+   "choice": "H/V punctuation (text unchanged)"
+  }
+ },
+ "final_31_10": {
+  "Q02": {
+   "ref": "Bas. 25.7 (wording of the supplement)",
+   "choice": "c",
+   "text": "μέσων διάτονος (a conjecture)"
+  },
+  "Q04": {
+   "ref": "P (Vinc. 338.7)",
+   "choice": "b",
+   "text": "τὴν σύμφρασιν (Vincent's print)",
+   "printed": "τὴν σύμφθαρσιν (Vincent's accusative; the noun is this edition's conjecture of 30.10.2026)"
+  },
+  "Q05": {
+   "ref": "P (Vinc. 338.14)",
+   "choice": "a",
+   "text": "ἀριθμητικῇ (a conjecture)"
+  },
+  "Q06": {
+   "ref": "Bas. 29.15-16 (after τριπλάσιος)",
+   "choice": "c",
+   "text": "No supplement and no lacuna: the list as transmitted in Bas., H, Par., V"
+  },
+  "Q09": {
+   "ref": "P (Vinc. 340.11)",
+   "choice": "c",
+   "text": "δίεσις, no article (P or Vincent's print, by the brackets' meaning)"
+  },
+  "Q11": {
+   "ref": "P (Vinc. 342.1-2)",
+   "choice": "b",
+   "text": "συγκρινομένων (Vincent's print)"
+  },
+  "Q15": {
+   "ref": "Bas. 32.11–13",
+   "choice": "a",
+   "text": "High point after ἀσύνθετον, stop after συγκεκραμένον (H, V)"
+  },
+  "P2": {
+   "ref": "P (Vinc. 340.9-10)",
+   "choice": "προσλαμβανόμενον (conjecture); προλαμβανόμενον P in the apparatus"
+  }
+ },
+ "note": "Options as labelled in questions.json. The editor saw the provisional decisions and the verified reference findings side by side on a local page before deciding."
+}

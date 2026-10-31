@@ -1,0 +1,194 @@
+{
+ "question": "Q09",
+ "prior_assessment": [
+  {
+   "id": "Q09-01",
+   "holds": "holds",
+   "note": "Checked on Wikipedia. Before Leiden (1931) editors 'used divergent conventions to indicate the condition of the text and editorial corrections or restorations'. In the Leiden system [abc] means letters restored by the editor. This is true but general. Vincent's own usage in the same volume settles what his brackets mean (see new findings)."
+  },
+  {
+   "id": "Q09-02",
+   "holds": "weaker than claimed",
+   "note": "From memory and not verified. The Teubner side is partly confirmed: Hiller's Theon (1878), in the First1KGreek transcription, has 'οἷον [ὁ]' for a deletion and '〈ἡ〉' for an addition (p. 110). I did not check Bekker. Vincent's 1847 practice is the opposite of the deletion reading: his [ ] always marks a supplement. Applied to this place, the implication that [ ] could mean deletion is wrong."
+  },
+  {
+   "id": "Q09-03",
+   "holds": "holds",
+   "note": "Checked on Alpheios. §1126 says the generic article 'is frequently omitted, especially with abstracts', and §1132 says names of arts 'often omit the article'. Correct, but general grammar. It does not decode the brackets or decide b against c."
+  },
+  {
+   "id": "Q09-04",
+   "holds": "weaker than claimed",
+   "note": "The text is confirmed (Cleonides 5, First1KGreek transcription of Jan): 'οἷον δίτονον, τόνος, ἡμιτόνιον, διὰ τεσσάρων, διὰ πέντε, διὰ πασῶν'. But every member of that list lacks the article, and the list is predicative ('ἃ μέν ἐστι μείζονα … οἷον'). It shows that bare interval names are acceptable. It does not show a mixed list like P's, where the neighbouring members have the article, so its second inference ('against treating an article as indispensable merely because neighbouring members have one') is not supported."
+  },
+  {
+   "id": "Q09-05",
+   "holds": "holds",
+   "note": "I did not open Bailly. The point is not in doubt: δίεσις is feminine, and Cleonides has 'ἡ δὲ δίεσις' (First1KGreek). Irrelevant to the bracket question."
+  },
+  {
+   "id": "Q09-06",
+   "holds": "holds",
+   "note": "Smyth §§1122-1123 checked. General grammar, not decisive."
+  },
+  {
+   "id": "Q09-07",
+   "holds": "holds",
+   "note": "Holds in substance, but the passage is Ench. 12 in Jan's numbering (Jan p. 262, Meibom p. 26), not 11: 'δίεσις, ὅπερ ἐστὶν ἡμιτονίου ἥμισυ, καὶ πάλιν ἄλλη δίεσις …, καὶ τὸ λειπόμενον τοῦ τετραχόρδου, ὅλον δίτονον ἀσύνθετον'. It is a list of the steps of the genus without articles. The only τό is on a participle, not on an interval name."
+  },
+  {
+   "id": "Q09-08",
+   "holds": "holds",
+   "note": "Smyth §§1118, 1126, 1131-1132 checked. General grammar, not decisive."
+  },
+  {
+   "id": "Q09-09",
+   "holds": "holds",
+   "note": "Confirmed in First1KGreek: 'ἐλάττω μὲν οὖν ἐστι τοῦ διὰ τεσσάρων δίεσις, ἡμιτόνιον, τόνος, δίτονον'. This is a predicate list without articles. It shows that c is acceptable Greek. It does not bear on Vincent's convention."
+  }
+ ],
+ "new_findings": [
+  {
+   "source": "Vincent, Notices et extraits 16.2 (1847), Avertissement pp. 1-4 (PDF leaves n20-n23); introduction to Pachymeres p. 363 (n386); introduction to Pédiasimus p. 289 (n310)",
+   "url": "https://archive.org/details/NoticesEtExtraitsDesMss16P2",
+   "status": "checked",
+   "found": "Vincent nowhere states his editorial signs. A full-text search of the volume's OCR for 'crochet' finds only an unrelated zoological use. The bracket question must therefore be settled from his usage.",
+   "bears_on": "neither",
+   "how": "Shows that no explicit convention exists, so usage decides."
+  },
+  {
+   "source": "Vincent 1847, p. 374, Pachymeres, Quadrivium introduction, edited from mss. (PDF n397)",
+   "url": "https://archive.org/details/NoticesEtExtraitsDesMss16P2/page/n397/",
+   "status": "checked",
+   "found": "'διὰ τοῦτο λέγομεν [τὰ μὲν κυρίως ὄντα, τὰ δὲ ὁμονύμως. Τῶν τοίνυν⁶] ὄντων'. Note 6: 'Au lieu de cette parenthèse, il n'y a dans le ms. que l'article τῶν. — Cf. Nicom. p. 68.' The same page has '[καὶ οἷον κατὰ σωρείαν¹⁰,]' with note 10 'Nicom. p. 69.'",
+   "bears_on": "b, c (against a)",
+   "how": "Vincent states it himself: the square-bracketed words are not in the manuscript but supplied by him (from Nicomachus). He calls the square bracket 'parenthèse'."
+  },
+  {
+   "source": "Vincent 1847, p. 405, Pachymeres, Harmonics (n434)",
+   "url": "https://archive.org/details/NoticesEtExtraitsDesMss16P2/page/n434/",
+   "status": "checked",
+   "found": "'[καὶ αὖθις τόνος, τόνος, καὶ ἡμιτόνιον· καὶ αὖθις τόνος, τόνος, τόνος, καὶ ἡμιτόνιον¹,]'. Note 1: 'Tous les mss. omettent cette répétition que les copistes auront regardée comme fautive.'",
+   "bears_on": "b, c (against a)",
+   "how": "Square brackets enclose words that every manuscript omits and Vincent supplies."
+  },
+  {
+   "source": "Vincent 1847, p. 425, Pachymeres (n456)",
+   "url": "https://archive.org/details/NoticesEtExtraitsDesMss16P2/page/n456/",
+   "status": "checked",
+   "found": "Supplement: '[τὰ ἄλλα χρώματα, ἢ καὶ πάσας τὰς χρόας ἐν ἀριθμοῖς²,]', note 2 'Ces dix mots manquent dans notre texte.' On the same page an article to be deleted: 'κατὰ διαφοράν τινα (τὴν³)', note 3 'Mot surabondant.'",
+   "bears_on": "b, c (against a)",
+   "how": "The two signs contrast on one page. Missing words go in [ ]; a superfluous article in the manuscript goes in round ( ) with a note. Had Vincent wanted to delete P's ἡ, he would have printed (ἡ) with 'Mot surabondant', not [ἡ]."
+  },
+  {
+   "source": "Vincent 1847, p. 418, Pachymeres (n449), and p. 292, Pédiasimus, single ms. 2762 (n313)",
+   "url": "https://archive.org/details/NoticesEtExtraitsDesMss16P2/page/n449/",
+   "status": "checked",
+   "found": "p. 418: 'ἡμιτόνιον (καὶ²) τόνος', note 2 'Mot surabondant.' p. 292: 'τεμνόμενον, (εἰς⁴) ἑφεξκαιδέκατον', note 4 'Mot surabondant.'",
+   "bears_on": "b, c (against a)",
+   "how": "Vincent's sign for a superfluous word is round brackets with a note, in a multi-manuscript text and in a single-witness text alike. It is never [ ]."
+  },
+  {
+   "source": "Vincent 1847, p. 461, Pachymeres (n492)",
+   "url": "https://archive.org/details/NoticesEtExtraitsDesMss16P2/page/n492/",
+   "status": "checked",
+   "found": "'τουτέστι τὴν διπλασίαν [τῆς¹²] τοῦ λείμματος', note 12 'Mss. om. τῆς.'",
+   "bears_on": "b, c (against a)",
+   "how": "A close parallel: an article in square brackets is an article the manuscripts lack, supplied by Vincent."
+  },
+  {
+   "source": "Vincent 1847, p. 453 (n484) and p. 478 (n509), Pachymeres",
+   "url": "https://archive.org/details/NoticesEtExtraitsDesMss16P2/page/n509/",
+   "status": "checked",
+   "found": "p. 453: 'ἐνταῦθα δὲ διέσεως [καὶ διέσεως⁵]', note 5 'A om. καὶ δ.' p. 478: '[ἔτι τούτων ἑκατέρα (ΒΖ, ΖΔ, διπλασία) τῆς ΕΘ, ἐπεὶ καὶ⁶]' and '[ἡ ΔΒ πρὸς τὴν ΗΜ· … οὕτως⁶]', note 6 'Mss. om. — Cf. Ptol.' On p. 478 round brackets have a different use: Pachymeres' own expansions of Ptolemy, per note 4 'Ptol. omet toutes les parenthèses'.",
+   "bears_on": "b, c (against a)",
+   "how": "Further cases where [ ] marks words missing from the base manuscript(s) and supplied (from Ptolemy or another ms.)."
+  },
+  {
+   "source": "Vincent 1847, pp. 242 and 248, extracts from the single ms. Paris. gr. 3027 (n263, n269)",
+   "url": "https://archive.org/details/NoticesEtExtraitsDesMss16P2/page/n269/",
+   "status": "checked",
+   "found": "p. 242: 'ὄντων [τῶν] συλλαβῶν καὶ τῶν γραμμάτων', no note. p. 248: '[τῷ] γένει καὶ τῇ διαιρέσει', 'κοινὴ [δὲ] πρὸς μὲν τὸ πῦρ' (the other three paragraphs have κοινὴ δέ unbracketed), 'Ὕδατος ποιότητες, ψυχρότης, [ὑγρότης]', 'κοινὴ δὲ πρὸς [μὲν] τὸν ἀέρα … πρὸς δὲ τὴν γῆν'. None of these has a note, while other notes on the same pages report manuscript readings ('Ms. αὐτοῖς', 'Ms. sic', 'Ms. ψυχρότης').",
+   "bears_on": "b, c (against a)",
+   "how": "Same pattern as [ἡ] δίεσις. In a single-witness text Vincent supplies words, including articles, to match articular coordinates (τῷ … τῇ; τῶν … τῶν). He gives no note. Readings he changes get a 'Ms.' note. The bracketed words must be supplements, not deletions: deleting [ὑγρότης] or [δὲ] would ruin the parallel paragraphs."
+  },
+  {
+   "source": "Vincent 1847, pp. 312-313, Pédiasimus, Greek and French (n333, n334)",
+   "url": "https://archive.org/details/NoticesEtExtraitsDesMss16P2/page/n333/",
+   "status": "checked",
+   "found": "Greek: 'ἀλλὰ δυσίν [καὶ ἡμιτονίου]· ἐκ πέντε γὰρ τόνων καὶ [δὶς] ἡμιτονίου τὸ διὰ πασῶν … ἐκ δύο μὲν γὰρ τόνων [καὶ ἡμιτονίου] … ἐκ τριῶν [τόνων καὶ ἡμιτονίου] … πέντε εἰσὶ τόνοι [καὶ δύο ἡμιτόνια]'. None has a note; note 1 reads 'Ms. διπλασιοεπίτριτος'. Vincent's French on p. 313 translates the bracketed words as text: 'deux tons et un demi-ton', '5 tons et 2 demi-tons', '3 tons et 1 demi-ton'.",
+   "bears_on": "b, c (against a)",
+   "how": "Vincent translates his bracketed words, so they belong to his text: they are supplements, not deletions."
+  },
+  {
+   "source": "Vincent 1847, p. 360, Julius Africanus, Cestes 76, Περὶ πυρσῶν (n383), checked against Veterum mathematicorum … opera (Paris 1693) p. 315, col. 2",
+   "url": "https://archive.org/details/gri_33125011255672/page/n324/",
+   "status": "checked",
+   "found": "Vincent prints: 'κατὰ τὸν μέσον τόπον, [καὶ δὶς ὅταν τὸ κ,] καὶ τρὶς⁶ ὅταν τὸ λ' and 'δὶς⁷ δὲ ὅταν τὸ σ, καὶ τρὶς⁸ [ὅταν] τὸ τ'. His notes cover only the changed words: 'P. τρίτον', 'P. δύο', 'P. τρίτον'. The 1693 edition reads 'κατὰ τὸν μέσον τόπον, καὶ τρίτον ὅταν τὸ λ καὶ ἐφεξῆς' and 'δύο δὲ ὅταν τὸ σ καὶ τρίτον τὸ τ', without the bracketed words.",
+   "bears_on": "b, c (against a)",
+   "how": "Independent check against Vincent's own source. His unannotated bracketed words are absent from that source and supplied by him, while words he altered get notes. This is the typographic pattern of Vinc. 340.11."
+  },
+  {
+   "source": "Vincent 1847, p. 262 (n283) and p. 272 (n293), Hagiopolite fragments; p. 327 (n348), Psellus, Psychogonia (a different text)",
+   "url": "https://archive.org/details/NoticesEtExtraitsDesMss16P2/page/n283/",
+   "status": "checked",
+   "found": "p. 262: '[Φρ]υγῶν', 'ἀποθραυ[σθέντος τε]'. p. 272: '[Ἡμι]ολος … [καθότι] … ἐλ[λεῖπον τὸ ἥμισυ … παραθετέον.]'. None has a note. p. 327: '[aj. πρώτου διπλασίου]' and '[aj. δευτέρου]', where 'aj.' means 'ajoutez'.",
+   "bears_on": "b, c (against a)",
+   "how": "Brackets mark letters or words that Vincent restores or adds, sometimes labelled 'aj.' inside the bracket."
+  },
+  {
+   "source": "Vincent 1847, p. 333, Psellus, Psychogonia, mss. A and B (n356)",
+   "url": "https://archive.org/details/NoticesEtExtraitsDesMss16P2/page/n356/",
+   "status": "checked",
+   "found": "'Καὶ εἰ τοῦτο, [ἵνα τι … ἐν ἑκάστῃ τομῇ γνώσεως⁷,]'. Note 7: 'Le manuscrit A supprime cette phrase, contenue dans le seul manuscrit B … la phrase paraît d'ailleurs fortement altérée.' Note 1 on the same page: the article Ἡ is printed without brackets although 'omis dans le ms. A', because of the missing rubric letter.",
+   "bears_on": "b, c",
+   "how": "This is the only bracket I found that also carries doubt. Even here it encloses text absent from the main ms. A; it is not a deletion of a reading of the witness. Nothing in the volume uses [ ] to mark an existing word for deletion."
+  },
+  {
+   "source": "Vincent 1847, p. 238, Pléthon section (n259)",
+   "url": "https://archive.org/details/NoticesEtExtraitsDesMss16P2/page/n259/",
+   "status": "checked",
+   "found": "'δώδεκα τόνων [μὲν τῷ λόγῳ, τῇ δ' ἀκριβείᾳ δέκα τόνων] καὶ τεττάρων ἡμιτονίων', '[ἢ πέντε τόνων]', 'ἐκ μακρᾶς τε [μιᾶς] θέσεως'. In note 4, 'ἄρσεως [peut-être ἄρσεων]'.",
+   "bears_on": "b, c (against a)",
+   "how": "Further editorial insertions in [ ]. There are none for deletion."
+  },
+  {
+   "source": "Cleonides, Isagoge 5 and 7, Jan, Musici scriptores Graeci (1895); First1KGreek transcription",
+   "url": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0361/tlg001/tlg0361.tlg001.1st1K-grc1.xml",
+   "status": "checked",
+   "found": "Lists without articles: 'οἷον δίτονον, τόνος, ἡμιτόνιον, διὰ τεσσάρων, διὰ πέντε, διὰ πασῶν'; 'οἷον τόνον ἡμιτόνιον δίτονον τρίτονον'; 'ἐλάττω … δίεσις, ἡμιτόνιον, τόνος, δίτονον'. Where the intervals are subjects they have the article: 'τὸ μὲν γὰρ ἡμιτόνιον εἰς ἓξ δωδεκατημόρια, ἡ δὲ δίεσις …'; 'ἐλάχιστον μὲν τὸ διὰ τεσσάρων … δεύτερον δὲ τὸ διὰ πέντε'.",
+   "bears_on": "c (acceptability); b (the article is usual when the intervals are subjects)",
+   "how": "Bare δίεσις in a list is acceptable Greek. The theorists' lists without articles, however, lack the article throughout. They give no parallel for P's mixed list."
+  },
+  {
+   "source": "Theon of Smyrna, ed. Hiller p. 52 (First1KGreek transcription; page image not opened); Aristotle, De sensu, quoted in Jan's prolegomena (archive.org OCR)",
+   "url": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg1724/tlg001/tlg1724.tlg001.1st1K-grc1.xml",
+   "status": "checked",
+   "found": "Theon: 'οἷον ἥ τε διὰ πασῶν καὶ διὰ τεσσάρων, καὶ διὰ πασῶν καὶ διὰ πέντε, καὶ δὶς διὰ πασῶν'. The article is on the first member only. Aristotle: 'οἷον τὸ διὰ πασῶν καὶ τὸ διὰ πέντε', with the article on every member.",
+   "bears_on": "b",
+   "how": "Attested patterns are: article on every member, or on the first member only. I found no list with a bare first member followed by members with the article, which is what P would have without the supplement."
+  },
+  {
+   "source": "Smyth, Greek Grammar §§1143-1145, 1148 (Alpheios)",
+   "url": "https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.16.html",
+   "status": "checked",
+   "found": "§1143: 'A single article, used with the first of two or more nouns connected by and, produces the effect of a single notion.' §1144: 'A repeated article lays stress on each word.' §1148: coordinated concrete words may omit the article. No section allows the article on later members only.",
+   "bears_on": "b",
+   "how": "Gives grammatical support for treating P's bare δίεσις beside τὸ ἡμιτόνιον, καὶ ὁ τόνος as an accidental loss. It is not compelling."
+  },
+  {
+   "source": "Vincent 1847, French translations, p. 33 (n54?) and p. 363 (n386)",
+   "url": "https://archive.org/details/NoticesEtExtraitsDesMss16P2/page/n386/",
+   "status": "checked",
+   "found": "'PAR UN [SECOND] ANONYME'; 'on observe les signaux [sans les répéter]'.",
+   "bears_on": "b, c",
+   "how": "In his French translations too, Vincent uses [ ] only for words he adds."
+  }
+ ],
+ "searched_without_result": "Not found:\n- **A statement of signs by Vincent.** I read the Avertissement (pp. 1-4) and the introductions to Pachymeres (p. 363) and Pédiasimus (p. 289). I searched the volume's OCR for 'crochet', 'parenthèse', 'supprim', 'surabondant', 'aj.' and 'om.'. Only the usage notes cited above turned up.\n- **A [ ] used for deletion in the volume.** I examined about 25 bracketed passages in 10 texts: Pléthon, the ms. 3027 fragments, the Hagiopolite, Pédiasimus, Psellus' Psychogonia, Africanus, Pachymeres' Quadrivium introduction and Harmonics. None marks a word of the witness for deletion; Vincent's deletions are always ( ) with 'Mot surabondant'.\n- **A list of intervals in the theorists with a bare first member and the article on later members.** None found in Cleonides, Nicomachus' Enchiridion, Theon (First1KGreek), Gaudentius or Bacchius (Jan OCR).\n\nNot checked:\n- Bekker, G. Hermann, Lachmann, W. Dindorf, Boissonade and Hase.\n- Hiller's page image (the archive.org djvu returned a 500 error); only the First1KGreek transcription.\n- A modern edition of the ms. 3027 fragments, for an independent check of [τῶν] and [τῷ]. Not accessible.",
+ "supports": "both acceptable",
+ "strength": "strong",
+ "decisive": "Vincent's own usage in Notices et extraits 16.2 is decisive for the meaning of the brackets. In that volume [ ] always encloses words not in the witness, supplied by the editor. He says so in his notes:\n- p. 374 n. 6: 'Au lieu de cette parenthèse, il n'y a dans le ms. que l'article τῶν';\n- p. 405 n. 1: 'Tous les mss. omettent cette répétition';\n- p. 425 n. 2: 'Ces dix mots manquent dans notre texte';\n- p. 461 n. 12: '[τῆς]' with 'Mss. om. τῆς';\n- p. 478 n. 6: 'Mss. om.'\n\nThe 1693 Paris edition confirms the practice independently: Vincent's unannotated [καὶ δὶς ὅταν τὸ κ,] and [ὅταν] are absent from his source.\n\nHis sign for deletion is different: round brackets with 'Mot surabondant', as in (εἰς) p. 292, (καὶ) p. 418, (τὴν) p. 425. In single-witness texts he supplies articles in [ ] without a note: [τῶν] p. 242, [τῷ] p. 248.\n\nSo P had no article before δίεσις, and option a is excluded. Nothing decides between b and c. That is an editorial choice between Vincent's supplement and P's text without the article, and both are defensible Greek.",
+ "reasoning": "1. **What the brackets mean.** The task was to find out what Vincent's [ ] means. Vincent states no convention anywhere in the volume. His usage, however, is uniform across about 25 instances in 10 texts. Where the text survives in several manuscripts (Pachymeres), [ ] is tied to apparatus notes saying the words are omitted by the mss. ('Mss. om.', 'A om.', 'manquent dans notre texte', 'il n'y a dans le ms. que …'). Where the text survives in one witness (the ms. 3027 fragments, Pédiasimus, the Hagiopolite, Africanus), [ ] marks his unannotated supplements. These include articles added to match coordinated members ([τῷ] γένει καὶ τῇ διαιρέσει; [τῶν] συλλαβῶν καὶ τῶν γραμμάτων). The Africanus case is confirmed against his source edition of 1693. He translates his bracketed words, so they belong to his text. Words he judges superfluous go in round brackets with the note 'Mot surabondant', in a multi-manuscript text and a single-witness text alike, and once for an article: (τὴν), p. 425.\n   - The P fragments follow this practice: footnotes 'Ms. …' report P's readings where Vincent changed a word, and there is no note at [ἡ].\n   - So [ἡ] is Vincent's supplement, and P read 'οἷον, δίεσις, τὸ ἡμιτόνιον, καὶ ὁ τόνος'.\n   - This excludes a, the option that P has the article.\n   - The one residual nuance: on p. 333, brackets enclose a phrase found only in ms. B and judged corrupt. That is still text absent from the principal witness, not a word of the witness marked for deletion.\n\n2. **The choice between b and c.** This remains editorial.\n   - **For c:** bare interval names are standard in the theorists' lists (Cleonides 5: 'οἷον δίτονον, τόνος, ἡμιτόνιον …', 'δίεσις, ἡμιτόνιον, τόνος, δίτονον'; Nicomachus, Ench. 12). The edition admits conjecture only where no witness gives an acceptable text.\n   - **For b:**\n     - every οἷον-list in the P passages has the article on each member (340.7-9; 340.14-15), and the other two members of this very list have it;\n     - the main text has the same triad with articles ('ὁ δὲ τόνος καὶ τὸ ἡμιτόνιον καὶ ἡ δίεσις'; 'ἐλάχιστον μὲν ἡ δίεσις');\n     - P's version of the ἀσύνθετα list adds articles where the main text has none;\n     - I found no parallel for a bare first member followed by members with the article, and Smyth (§§1143-1144) describes only the article on all members or on the first member only;\n     - Vincent's footnotes show many slips in P, and a one-letter ἡ is easily lost.\n   - These points make the supplement attractive, but they do not compel it.\n\nOn the reference evidence, b (⟨ἡ⟩, reported as Vincent's supplement) and c (δίεσις, P's text) are both acceptable. Option a should not be printed as P's reading.",
+ "seen_prohibited": "I opened the table of contents of Notices et extraits 16.2. It lists 'Fragment de Psellus' at pp. 338, 340 and 342.\n\nGrep and search snippets of the OCR showed lines from or about Vincent's section on Paris. gr. 2448 and this text. I saw these only as single output lines and did not read their context:\n- the fragment titles and the placement notes '(A intercaler à l'édition de Paris, 1545 …)', with the opening words of the P passages, already in the evidence;\n- one line of his introduction to that section (OCR line about 25194, 'Or l'anonyme n'est autre que le même Michel Psellus, dont nous retrouv[ons] …');\n- grep lines where his notes elsewhere cite this text ('Suivant Psellus (init. music.)', 'ou de Psellus (f. 6 r.', '(V. Psellus, édition de Paris, 1545, fol. 26 v.)', '… que celui de Psellus?', and an Additions et corrections line 'Après Psellus, ajoutez dans la parenthèse').\n\nI deliberately excluded PDF leaves n361-n366 (pp. 338-343) when listing brackets and rendering pages. I did not read Vincent's French translation of this text.\n\nNone of this was used as evidence. My conclusions rest only on his editions of other texts in the volume, the 1693 Africanus edition, and the theorists and grammars cited. I made no searches with Greek phrases from this text and had no lexicon or corpus hits on it."
+}

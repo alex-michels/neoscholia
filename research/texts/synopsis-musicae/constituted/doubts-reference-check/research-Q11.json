@@ -1,0 +1,180 @@
+{
+ "question": "Q11 (P, Vinc. 342.1-2): in τοῦ δὲ τῶν ἀμέσων, καθεξῆς πρὸς τοὺς ἐγγὺς ἀλλήλων φθόγγους συγκρινομένων, should the participle be read as the singular συγκρινομένου (a, a conjecture) or the plural συγκρινομένων (b, Vincent's print, which is P's reading because he gives no note)?",
+ "prior_assessment": [
+  {
+   "id": "Q11-01",
+   "holds": "weaker than claimed",
+   "note": "Smyth §2070 (Alpheios) does define the genitive absolute in these terms. It says nothing about a head noun left out after the article, or about agreement by sense. The claim that 'τοῦ δέ [λόγου] needs its own agreeing participle' is the researcher's inference, not Smyth's."
+  },
+  {
+   "id": "Q11-02",
+   "holds": "weaker than claimed",
+   "note": "The sentence is in §2148 ('The participle often agrees with the logical, and not with the grammatical, subject'). Its subsections a–d deal with nominative, accusative or dative participles referring to a logical subject (anacoluthon, partitive apposition). None concerns number agreement inside a genitive absolute. The relevant rules for b are Smyth §1014 and Kühner–Gerth §359.4–5 (see new findings)."
+  },
+  {
+   "id": "Q11-03",
+   "holds": "holds",
+   "note": "Checked. §925 gives the three concords. §926 a–b names construction according to sense and attraction as the explanations of apparent breaches. These are general statements only."
+  },
+  {
+   "id": "Q11-04",
+   "holds": "weaker than claimed",
+   "note": "§2072 reads 'The genitive of the participle may stand without its noun or pronoun'. That covers omitting the whole subject (as in οὕτως ἐχόντων), not leaving out the head noun after an article that is expressed. §§2073–2074 deal with other matters. The section does not specifically support supplying λόγου."
+  },
+  {
+   "id": "Q11-05",
+   "holds": "holds",
+   "note": "Checked on fgh.perseids (Hiller p. 66 apparatus). At 66.5 the apparatus has 'κέκτηνται Bull.] κέκτηται A'. At 66.10 manuscript A has ἀτονώτερος … γινόμενος … ἔχει where Hiller prints plurals. So editors did correct number discord in a music text. But the correction runs singular to plural and involves a finite verb and a subject. It is an analogy only, as the reference itself says."
+  },
+  {
+   "id": "Q11-06",
+   "holds": "holds",
+   "note": "§§1020–1021 state the general rule and the substantival use of the article with an adjective. Both are general; neither decides the question."
+  },
+  {
+   "id": "Q11-07",
+   "holds": "holds",
+   "note": "§2058 is a correct general definition. It is neutral between a and b."
+  },
+  {
+   "id": "Q11-08",
+   "holds": "weaker than claimed",
+   "note": "The Atticism entry (on Phrynichus, Ecl. 243) gives ἀντεξετάζω and παραβάλλω as Phrynichus' approved alternatives to συγκρίνω 'compare'. John of Sardis glosses ἀντεξετάζειν as παραβάλλειν. The entry does not equate συγκρίνειν with παραβάλλειν directly, and it has no bearing on number. It does not mention this text."
+  },
+  {
+   "id": "Q11-09",
+   "holds": "holds",
+   "note": "Same Smyth sections as Q11-01 and Q11-07. A correct general definition that does not decide anything."
+  },
+  {
+   "id": "Q11-10",
+   "holds": "holds",
+   "note": "Goodell §580a gives only the general rule of agreement. The same page has §587, where a predicate participle may agree 'according to the meaning', and §589a, where the noun of a genitive absolute is supplied from context. The reference is general."
+  },
+  {
+   "id": "Q11-11",
+   "holds": "holds",
+   "note": "Smyth §1044 does allow a plural participle with a collective noun. As the reference itself says, λόγος is not a collective, so the rule does not apply here."
+  }
+ ],
+ "new_findings": [
+  {
+   "source": "Kühner–Gerth, Ausführliche Grammatik II.1 (1898), §359.4–5, pp. 57–58 (page image of p. 58 read, archive.org p1ausfhrlichegra02khuoft, leaf n73)",
+   "status": "checked",
+   "url": "https://archive.org/details/p1ausfhrlichegra02khuoft",
+   "found": "§359.4: when the subject is τό/τά with a noun in the genitive plural, the verb is regularly plural, and a predicate adjective is plural and takes the gender of the genitive (Pl. Rep. 563c, Leg. 657d τὸ τῶν πρεσβυτέρων ἡμῶν … θεωροῦντες … χαίροντες, Phil. 45e). §359.5: when a subject noun with a genitive noun paraphrases a single notion, a participle in 'remoter attributive relation' agrees 'in der Regel' with the subject in case but with the genitive in gender and number. The examples are Od. 11.90, Od. 16.476, Il. 2.459, Il. 17.756, Od. 11.15 and Soph. Ant. 1002. The counter-example is Thuc. 1.110 τὰ τῶν Ἑλλήνων πράγματα … πολεμήσαντα, 'nicht πολεμήσαντες κατὰ σύνεσιν'.",
+   "bears_on": "b (and a)",
+   "how": "For b: this is the recognised pattern of b. The case comes from the head (genitive τοῦ [λόγου]) and the number from the genitive τῶν ἀμέσων [διαστημάτων]. Against: §359.4 concerns the periphrastic neuter τό, not an article standing for a definite noun (λόγου). The §359.5 examples are almost all poetic, and K-G's one prose case (Thucydides) keeps grammatical agreement."
+  },
+  {
+   "source": "Smyth, Greek Grammar §1014 'Periphrases' (with §1013), Alpheios",
+   "status": "checked",
+   "url": "https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.12.html",
+   "found": "Agreement by sense extends to periphrases, e.g. Hom. π 476 ἲς Τηλεμάχοιο … ἰδών and Pl. Leg. 657d τὸ δὲ τῶν πρεσβυτέρων ἡμῶν … χαίροντες.",
+   "bears_on": "b",
+   "how": "A standard grammar recognises agreement with the genitive that carries the notion. The Plato example has the same shape as ours (a δέ-member, article + τῶν + genitive plural, participle plural), but its article is the periphrastic neuter τό."
+  },
+  {
+   "source": "The author's own usage at Bas. 25.2–4: H 64v.15–18, Par. 21v.2–6, V 76r.16–19 (evidence/section-2.json)",
+   "status": "checked",
+   "url": "",
+   "found": "All three manuscript witnesses read Προσηγορίαι δὲ φθόγγων διάφοροι· τῇ ἀπὸ τοῦ βαρέος ἐπὶ τὸ ὀξὺ προόδῳ καὶ τάξει τὰς προσηγορίας λαμβάνοντες. Bas. alone prints λαμβάνοντος. The participle takes the case of the subject (nominative, like προσηγορίαι) but the gender and number of the dependent genitive φθόγγων: it is the notes, not the names, that 'take the names'.",
+   "bears_on": "b",
+   "how": "The author's own text, in the oldest witness H, has exactly the K-G §359.5 type: a participle whose gender and number follow a dependent genitive rather than the head noun. So b fits the author's usage and cannot be dismissed as a scribal solecism on grammatical grounds."
+  },
+  {
+   "source": "The author's own usage at Bas. 30.2–6: H 67v.19–68r.1, Par. 25r.3–7, V 80r.8–13 (evidence/section-5.json)",
+   "status": "checked",
+   "url": "",
+   "found": "All witnesses read τὸ διὰ πέντε διάστημα, λόγον ἡμιόλιον ἔχον (V ἔχων), … ἣν ἔχει πρὸς τοὺς πρὸ αὐτοῦ (V αὐτοῦ) συγκρινόμενος, φαίνεται ἡμιόλιος. The masculine συγκρινόμενος does not agree with the neuter subject διάστημα; it is construed by sense (with the note or the ratio).",
+   "bears_on": "b",
+   "how": "Weak support. With this very verb (συγκρίνομαι πρὸς τοὺς … φθόγγους) the author lets the participle follow the sense rather than the grammatical head. Here the mismatch is in gender in the nominative, not in number in a genitive absolute."
+  },
+  {
+   "source": "P itself, Vincent 340.11–13 and 340.16–18 (evidence/section-4.json)",
+   "status": "checked",
+   "url": "",
+   "found": "340.11–13: τὰ δὲ ἄμεσα … πρὸς τοὺς πρὸ αὐτῶν ἐγγὺς φθόγγους τὴν ποιὰν τῶν λόγων ἕξιν πεποίηνται. 340.16–18: τῶν ἐν αὐτοῖς κεκραμένων διαστημάτων πρὸς τοὺς ἐγγὺς φθόγγους πρότερον λογοθετηθέντων, where the plural participle agrees with διαστημάτων. In the μέν-member (340.25–26) the participle agrees with λόγου (παραβαλλομένου).",
+   "bears_on": "b (and a)",
+   "how": "Earlier in the passage the author makes the immediate intervals themselves the subject of a relation πρὸς τοὺς ἐγγὺς φθόγγους. A plural participle referring to τῶν ἀμέσων [διαστημάτων] therefore makes sense in his own terms. The singular μέν-member pulls the other way, towards a, by parallelism."
+  },
+  {
+   "source": "Vincent, Notices et extraits 16.2, pp. 338–342, footnotes on P (evidence files sections 2 and 4)",
+   "status": "checked",
+   "url": "",
+   "found": "Of Vincent's 17 'Ms.' notes, about six concern inflectional endings. 338 n. 2: Ms. τὸν τῶν ἀριθμόν for τὸ τῶν ἀριθμῶν. 338 n. 4: τοῦ for τῆς. 338 n. 5: τέμνει for τέμνειν. 340 n. 3: διαστήματα for διαστημάτων. 342 n. 1: μονάδος for μονάδων. 342 n. 6: ἐξαντήσεων for ἐξαρτήσεως. 342.3 is a genitive absolute two lines after our place: P reads μονάδος μὴ τεμνομένων, a number discord that Vincent resolved by changing the noun to the plural. There is no -ου/-ων confusion among the notes.",
+   "bears_on": "a (P's reliability)",
+   "how": "P is demonstrably unreliable in genitive endings in this very fragment. It shows a number discord inside a genitive absolute two lines later, and it writes a false -ων once (ἐξαντήσεων). So P's -ων at 342.2 is weak testimony, and an error from -ου is easily possible. Vincent harmonised μονάδος but left συγκρινομένων alone, which shows only that he read it as acceptable."
+  },
+  {
+   "source": "Ps.-Galen [Porphyry], Ad Gaurum 1.1, ed. Kalbfleisch (1895) p. 33.5–7 (First1KGreek TEI)",
+   "status": "checked",
+   "url": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0530/tlg006/tlg0530.tlg006.1st1K-grc1.xml",
+   "found": "τῆς μὲν ἰδιότητος τοῦ ζῴου ἐν αἰσθήσει καὶ ὁρμῇ συνισταμένης, τῆς δὲ τῶν φυτῶν ἐν θρεπτικῇ τε καὶ αὐξητικῇ χωρὶς αἰσθήσεώς τε καὶ ὁρμῆς θεωρουμένης. These are paired genitive absolutes. The head is expressed in the μέν-member; in the δέ-member it is left out after τῆς δὲ τῶν + genitive plural, and the participle is singular, agreeing with the head that is left out.",
+   "bears_on": "a",
+   "how": "This is the closest structural parallel found, in technical-philosophical prose, to τοῦ μὲν … λόγου … παραβαλλομένου, τοῦ δὲ τῶν ἀμέσων … -ου/-ων. Here the agreement is strict. A gender-neutral θεωρουμένων would have been possible but was not used."
+  },
+  {
+   "source": "Plotinus, Enn. IV.4.17, ed. Volkmann II p. 64 (First1KGreek TEI)",
+   "status": "checked",
+   "url": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg2000/tlg001/tlg2000.tlg001.1st1K-grc1.xml",
+   "found": "οἷον διττῆς πόλεως οὔσης, τῆς μὲν ἄνω, τῆς δὲ τῶν κάτω, κατὰ τὰ ἄνω κοσμουμένης. The head πόλεως is left out after τῆς δέ, which is followed by a genitive plural, and the participle is singular.",
+   "bears_on": "a",
+   "how": "A second instance of the norm: after τῆς δὲ τῶν + genitive plural, with the head noun left out, the participle agrees with that head."
+  },
+  {
+   "source": "Galen, In Hippocratis Aphorismos commentarius (Aph. 1.14), ed. Kühn 17B p. 410 (First1KGreek TEI)",
+   "status": "checked",
+   "url": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0057/tlg092/tlg0057.tlg092.1st1K-grc1.xml",
+   "found": "οὐ παραπλησίαν γε τὴν θερμὴν οὐσίαν … ὑπάρχειν ἐροῦμεν, τῆς μὲν τῶν παίδων ὑγρᾶς οὔσης, τῆς δὲ τῶν ἀκμαζόντων ξηρᾶς. These are paired genitive absolutes with the head (οὐσίας) left out in both members and the predicate singular, despite τῶν παίδων and τῶν ἀκμαζόντων.",
+   "bears_on": "a",
+   "how": "A third instance in technical prose, the same configuration with the same strict agreement."
+  },
+  {
+   "source": "Ptolemy, Tetrabiblos 1.3, ed. Robbins (Perseus TEI); also Sextus Emp. M. 1 and Philoponus, In de An. (corpus hits)",
+   "status": "checked",
+   "url": "https://raw.githubusercontent.com/PerseusDL/canonical-greekLit/master/data/tlg0363/tlg007/tlg0363.tlg007.perseus-grc2.xml",
+   "found": "τῆς μὲν τῶν οὐρανίων κινήσεως … ἀποτελουμένης, τῆς δὲ τῶν ἐπιγείων ἀλλοιώσεως … λαμβανούσης. Similarly τῆς δὲ τῶν πάντων γνώσεως ἀδυνάτου … καθεστώσης (Sextus) and τῆς δὲ τῶν μορίων πάντων ἁρμονίας ἀναιρεθείσης (Philoponus).",
+   "bears_on": "a",
+   "how": "Weak. In these the head is expressed, so they show only that a plural genitive standing between head and participle does not usually pull the participle into the plural."
+  },
+  {
+   "source": "Own regex search of PerseusDL canonical-greekLit + First1KGreek (2,036 Greek TEI files, ~617 MB; Psellus, Zonaras, Pachymeres excluded)",
+   "status": "checked",
+   "url": "https://github.com/OpenGreekAndLatin/First1KGreek",
+   "found": "I searched for every article (gen. sg.) + δέ + τῶν followed by a genitive participle within 12 words. There were 46 hits (with duplicate editions). Every case where the head is left out and a participle or predicate follows (Ad Gaurum, Plotinus, Galen) has the singular agreeing with the left-out head. No plural attracted to the genitive was found in this configuration.",
+   "bears_on": "a",
+   "how": "A well-searched absence in a sizeable prose corpus. The type of b is not the norm in this exact configuration. The search was limited: an accent-stripped regex that took only the first participle-shaped word, with no TLG."
+  },
+  {
+   "source": "T. Janz, 'Minuscule Abbreviations', Greek Paleography: Thematic Pathways (Vatican Library Spotlight)",
+   "status": "checked",
+   "url": "https://spotlight.vatlib.it/greek-paleography/feature/minuscule-abbreviations",
+   "found": "In minuscule, ου has a superscript abbreviation ('always above the headline'), and ων is a suspension 'identical in shape to a circumflex, but usually larger'.",
+   "bears_on": "a",
+   "how": "Weak, general. Both endings were often written as small superscript suspensions, so an exchange of -ου and -ων in an ending is palaeographically easy. The page says nothing about confusion of these two signs specifically."
+  },
+  {
+   "source": "Jannaris, An Historical Greek Grammar (1897) §§2141–2145, §1176, §1181b (archive.org OCR)",
+   "status": "checked",
+   "url": "https://archive.org/details/jannaris-an-historical-greek-grammar",
+   "found": "§2145: in post-classical and Byzantine times the functions of the absolute cases were 'lost sight of' and confused (genitive absolute with the same subject as the main clause, nominative absolutes). §1176: a verb may agree with the nearest of several subjects. §1181b: agreement breaks down in vernacular texts.",
+   "bears_on": "neither",
+   "how": "These are general looseness phenomena. None is attraction of a genitive-absolute participle to a dependent genitive, and they are mostly vernacular."
+  },
+  {
+   "source": "Blass, Grammatik des neutestamentlichen Griechisch, 2nd ed. 1911, §31.4 (archive.org grammatikdesneut00blas_2)",
+   "status": "checked",
+   "url": "https://archive.org/details/grammatikdesneut00blas_2",
+   "found": "Construction by sense, mostly with collectives of persons, including singular noun + dependent genitive plural + plural predicate or participle (e.g. Acts 6:7; Acts 25:24 ἅπαν τὸ πλῆθος τῶν Ἰουδαίων ἐνέτυχον … βοῶντες).",
+   "bears_on": "neither",
+   "how": "Only collectives of persons; not applicable to λόγος."
+  }
+ ],
+ "searched_without_result": "I could not open West, Textual Criticism and Editorial Technique (1973). The archive.org copy is lending-only and its search-inside facility is unavailable, so I could not verify any statement there on endings assimilated to neighbouring words. I found no grammar (Smyth §§2058–2075, K-G II.2 §486, Jannaris §§2141–2146, Blass 1911 §31) that treats number attraction of a genitive-absolute participle to a dependent genitive after an article whose head noun is left out. The nearest rules are K-G I §359.4–5 and Smyth §1014. Among Vincent's 17 footnotes on P there is no -ου/-ων confusion; P's ending errors are of other kinds (-ον/-ῶν, -α/-ων, -ος/-ων, -εως/-εων, τοῦ/τῆς). In Perseus + First1KGreek I found no example where, after τοῦ/τῆς δὲ τῶν + genitive plural with the head left out, the participle is plural. All three such cases found are singular. I did not consult Schwyzer, Syntax II, or Gildersleeve, and the TLG was not available. A web search for Byzantine-specific studies on number attraction in genitive absolutes found nothing usable.",
+ "supports": "b",
+ "strength": "weak",
+ "decisive": "Nothing is decisive.\n\n**Grammar allows b.**\n- K-G §359.4–5 and Smyth §1014 recognise a participle taking its number from the genitive that carries the notion, with its case from the head.\n- The author does exactly this at Bas. 25.4: λαμβάνοντες, agreeing with φθόγγων, in H, Par. and V.\n\n**The norm favours a.**\n- The μέν-member has the singular (λόγου … παραβαλλομένου).\n- The three closest structural parallels found (Ps.-Galen/Porphyry, Ad Gaurum 1.1; Plotinus IV.4.17; Galen, In Hipp. Aph., Kühn 17B.410) all keep the singular after (art.) δὲ τῶν + genitive plural with the head left out.\n- P makes repeated ending errors in this very fragment, including a number discord in a genitive absolute two lines later (μονάδος … τεμνομένων).\n\n**Why it stays open.** P is the only witness, and Vincent gives no report of its script at this place. So nothing shows whether the -ων is the author's or the copyist's.",
+ "reasoning": "**The case for a**\n- **Parallelism.** The μέν-member expresses the head and has the singular: τοῦ μὲν τῶν ἐμμέσων διαστημάτων λόγου … παραβαλλομένου. A strict writer would continue with τοῦ δέ [λόγου] … συγκρινομένου.\n- **Corpus norm.** In the same configuration in later prose, the predicate is singular every time I found it: Ad Gaurum (τῆς δὲ τῶν φυτῶν … θεωρουμένης), Plotinus (τῆς δὲ τῶν κάτω … κοσμουμένης), Galen (τῆς μὲν τῶν παίδων ὑγρᾶς οὔσης). A sizeable corpus search found no plural attraction there.\n- **P's reliability.** P is a weak witness for endings. Vincent's notes show about six ending errors in two pages, including μονάδος beside a plural participle in the next genitive absolute. An -ου → -ων change after τῶν ἀμέσων is easy, the endings often being written as superscript suspensions.\n\n**The case for b**\n- **It is transmitted.** It is the reading of the only witness, and Vincent, who did correct the number discord at 342.3, left it standing.\n- **It is grammatical.** It falls under a recognised construction by sense: K-G §359.4–5 and Smyth §1014. The case comes from the head (genitive) and the number from the genitive τῶν ἀμέσων [διαστημάτων]. That genitive is the only nominal word actually written in the δέ-member, since λόγου is left out.\n- **It is the author's usage.** In the base text the author writes, in all three manuscript witnesses, Προσηγορίαι δὲ φθόγγων … λαμβάνοντες (Bas. 25.4). That is exactly the K-G §359.5 pattern. He also construes συγκρινόμενος by sense at Bas. 30.5–6.\n- **It fits the passage.** In P itself the immediate intervals are what is related πρὸς τοὺς ἐγγὺς φθόγγους (340.11–13; 340.16–18, λογοθετηθέντων with διαστημάτων), so the plural participle is natural in sense.\n\n**Weighing**\n- The edition's rules allow conjecture only when no witness gives an acceptable text, and forbid correcting the author's usage into classical Greek. b is acceptable Greek and matches the author's own habit, so the evidence tips towards keeping b.\n- The tip is slight. The external norm and P's demonstrated ending errors make a a reasonable conjecture, not an unnecessary one.\n- What the evidence establishes is that b is acceptable, not that b is what the author wrote.\n\n**Prior references.** These were all general Smyth sections. They hold as statements, but most do not bear specifically on this construction. §2148 in particular does not address agreement with a dependent genitive.\n\n**Method note.** I ran no Greek phrases of this text through search engines. I applied the construction pattern 'article (gen. sg.) + δέ + τῶν + participle' as a regex only to downloaded texts of other authors, with Psellus, Zonaras and Pachymeres excluded.",
+ "seen_prohibited": "None. No search result, dictionary entry, corpus hit or page I opened quoted or discussed this text (Anon. Quadr., Heiberg, Ps.-Psellus, the Quadrivium of 1008). The Atticism entry on συγκρίνω does not mention it. I left the authors excluded by the rules (Psellus, Zonaras, Pachymeres) out of the downloaded corpus before searching it. The corpus contains no work by Michael Italicus or Manuel Bryennius, and no copy of this text. I used nothing prohibited."
+}

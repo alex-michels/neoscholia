@@ -1,0 +1,160 @@
+{
+ "question": "Q06, Bas. 29.15-16 (after τριπλάσιος). Should the ratio list, which ends with the octave and fifth (τριπλάσιος) in all witnesses, be supplemented with ⟨τοῦ δὲ δὶς διὰ πασῶν τετραπλάσιος⟩ (a), marked with a lacuna (b), or printed as transmitted (c)?",
+ "prior_assessment": [
+  {
+   "id": "Q06-01",
+   "holds": "weaker than claimed",
+   "note": "Checked on Hiller's page image (p. 56.9-16). The text is as quoted and the list ends τοὺς δὲ δὶς διὰ πασῶν ἐν τετραπλασίῳ. Two parts are overstated. (1) Bas. 33.1-7 is not 'almost verbatim' from Theon 56.1-5. It is a close paraphrase that drops ὡς ἐκεῖνός φησι and φιλότεχνον, adds τριβῆς, and changes δυσμελῳδητότατον to δυσμελῳδικώτατον and μᾶλλον κατὰ φύσιν to φυσικώτερον. (2) In form, the ratio list at Bas. 29.11-16 is closer to two other passages: Theon p. 62.6-8 (λόγος δὲ τοῦ μὲν διὰ πασῶν διπλάσιος, τοῦ δὲ διὰ τεσσάρων ἐπίτριτος, τοῦ δὲ …, base number 6) and Gaudentius 10. Theon 56 uses τοὺς μὲν … ἐν ἐπιτρίτῳ. The parallel shows what the author's sources contained, not what he wrote."
+  },
+  {
+   "id": "Q06-02",
+   "holds": "holds",
+   "note": "Checked on the page image (Hiller p. 206). The outermost bracket reads δὶς διὰ πασῶν τετραπλάσιος. The diagram brackets only the fourth, fifth, octave and double octave, with no octave plus fourth and no octave plus fifth. So it confirms the content of a but is only a general parallel to a six-member ratio list."
+  },
+  {
+   "id": "Q06-03",
+   "holds": "weaker than claimed",
+   "note": "I could not open West directly: the archive.org lending copy is restricted and its search-inside returns 403. The Lexicon of Scholarly Editing (Antwerp) cites West 1973 p. 24 for saut du même au même, and the Stemmatology wiki cites p. 25 for homoeoteleuton. The mechanism is real, and τριπλάσιος· … τετραπλάσιος· does give a -πλάσιος / -πλάσιος skip. The superlative 'commonest' is unverified, and a mechanism shows that the omission was possible, not that it happened."
+  },
+  {
+   "id": "Q06-04",
+   "holds": "weaker than claimed",
+   "note": "Same as Q06-03: the page reference is confirmed only through secondary reference works, and the wording 'commonest cause of loss' is not verified. It explains how a clause could drop out; it is not evidence that one did."
+  },
+  {
+   "id": "Q06-05",
+   "holds": "holds",
+   "note": "Checked in the First1KGreek transcription of Jan (Sect. can. prop. 12). After the triple ratio of διὰ πέντε καὶ διὰ πασῶν, the text has Τὸ δὲ δὶς διὰ πασῶν τετραπλάσιόν ἐστιν. Ἀποδέδεικται ἄρα τῶν συμφώνων ἕκαστον… on Jan p. 160, at about lines 6-9 rather than 8-12. The researcher's own caveat is correct: it confirms the content, not an omission."
+  },
+  {
+   "id": "Q06-06",
+   "holds": "holds",
+   "note": "Checked in Hoche's Greek (First1KGreek tlg0358.tlg001), Intro. arith. II.26, pp. 134-136, not in the translation PDF. One list ends 'τελευταῖον δὲ καὶ μέγιστον σύμφωνον τὸ λεγόμενον δὶς διὰ πασῶν … ἐν λόγῳ τετραπλασίῳ'; the second, at p. 135-136, also ends with δὶς διὰ πασῶν. This confirms the content only."
+  },
+  {
+   "id": "Q06-07",
+   "holds": "not checked",
+   "note": "Not opened: the PDF of Landels' copyrighted book is hosted on a personal university page, and its legitimacy is doubtful. Its content (3:1 and 4:1) is confirmed by the primary sources above."
+  },
+  {
+   "id": "Q06-08",
+   "holds": "holds",
+   "note": "Checked in Hoche's Greek (First1KGreek), Intro. arith. I.5.1, p. 11. It reads: ἡ μὲν διὰ τεσσάρων ἐπίτριτος, ἡ δὲ διὰ πέντε ἡμιόλιος, ἡ δὲ διὰ πασῶν διπλάσιος, τριπλάσιος δὲ ἡ διὰ πασῶν ἅμα καὶ διὰ πέντε, τετραπλάσιος δὲ ἡ τελειοτάτη ἡ δὶς διὰ πασῶν. The same sentence names only three consonances but gives five ratios: two parallel enumerations of unequal length, tolerated in the transmitted text."
+  },
+  {
+   "id": "Q06-09",
+   "holds": "not checked",
+   "note": "Not opened: a PDF of Barker 2007 (copyrighted) on a third-party site. Its content is confirmed by Euclid prop. 12, which I checked."
+  }
+ ],
+ "new_findings": [
+  {
+   "source": "Gaudentius, Harmonica introductio 9-10, ed. C. Jan, Musici scriptores Graeci (1895) pp. 339.6-340.3 (page images n440, n441)",
+   "status": "checked",
+   "url": "https://archive.org/details/musiciscriptoresjank (page images https://archive.org/download/musiciscriptoresjank/page/n440.jpg and n441.jpg)",
+   "found": "This is the closest structural parallel to the whole passage at Bas. 29.2-23. Chapter 9 counts the tones of the six consonances in order: fourth 2½, fifth 3½, octave 6, octave plus fourth 8½, octave plus fifth 9½, double octave 12. These are the author's counts at Bas. 29.3-11. Chapter 10 begins 'Λόγοι δέ εἰσιν ἐν ἀριθμοῖς ηὑρημένοι τῶν συμφωνιῶν' and runs: τῆς μὲν διὰ τεσσάρων ἐπίτριτος (24:18) … διὰ πασῶν διπλάσιος (24:12) … διὰ πασῶν τε ἅμα καὶ διὰ τεσσάρων διπλασιεπιδίμοιρος (24:9) … καὶ πάλιν τῆς μὲν διὰ πασῶν καὶ διὰ πέντε τριπλάσιος (24:8). τῆς δὲ δὶς διὰ πασῶν τετραπλάσιος, ὃν ἔχει ὁ κδ πρὸς τὸν ἕξ. The numbers are 24, 18, 16, 12, 9, 8, 6, the same seven as the author's example (6, 8, 9, 12, 16, 18, 24); a diagram in N and H shows them. Gaudentius' 'διπλασιεπιδίμοιρος' also matches the author's description of 16 as 'τὸ ἕκτον δὶς ἔχων καὶ δύο μέρη αὐτοῦ'.",
+   "bears_on": "a (against c). The model sequence (tone counts, then a 'Λόγοι δέ' ratio list, then numbers 6-24) has six ratios ending with the double octave's τετραπλάσιος. In the author the sixth ratio is missing only from the ratio list, not from the tone counts or the numbers.",
+   "how": "Read Jan's printed text and apparatus on the page images."
+  },
+  {
+   "source": "Theon Smyrnaeus, ed. Hiller (1878) p. 62.4-63.21 and diagrams p. 64 (page images n83, n84, n85)",
+   "status": "checked",
+   "url": "https://archive.org/details/theonissmyrnaei00theogoog (https://archive.org/download/theonissmyrnaei00theogoog/page/n83.jpg, n84.jpg, n85.jpg)",
+   "found": "p. 62.6-8: 'λόγος δὲ τοῦ μὲν διὰ πασῶν διπλάσιος, τοῦ δὲ διὰ τεσσάρων ἐπίτριτος, τοῦ δὲ διὰ πέντε ἡμιόλιος'. This is the author's construction (Λόγος δέ, τοῦ μὲν … τοῦ δὲ …), worked with base 6: 6, 8, 9, 12. p. 63 continues with the octave plus fourth (8:3), the octave plus fifth as triple (18:6), and 'ὁμοίως δὲ τὸ δὶς διὰ πασῶν ἐν λόγῳ τετραπλασίῳ' (24:6). The p. 64 diagrams have six arcs (12-8-6, 8-4-3, 18-9-6, 24-12-6), labelled ἐπίτριτος, ἡμιόλιος, διπλάσιος, διπλάσιος καὶ δισεπίτριτος, τριπλάσιος, τετραπλάσιος.",
+   "bears_on": "a. In every Theon list that goes as far as the triple, the next item is the double octave's τετραπλάσιος; the base number 6 is the author's.",
+   "how": "Read on Hiller's page images."
+  },
+  {
+   "source": "Theon Smyrnaeus, ed. Hiller p. 75.7-24 (page image n96)",
+   "status": "checked",
+   "url": "https://archive.org/download/theonissmyrnaei00theogoog/page/n96.jpg",
+   "found": "Bas. 28.25-29.7 is built on this page. Theon 75.15-17: 'ὁ γὰρ τόνος καὶ τὸ λεῖμμα ἀρχαὶ μέν εἰσι συμφωνίας καὶ συμπληρωτικαὶ συμφωνίας, οὔπω δὲ συμφωνίαι'; the author has '… ἀρχὴ μὲν συμφωνίας, οὔπω δὲ συμφωνία. Συμπληροῦται δὲ…'. Theon 75.21-24: 'συνέστηκε δὲ τὸ μὲν διὰ τεσσάρων ἐκ δυεῖν τόνων καὶ λείμματος, τὸ δὲ διὰ πέντε ἐκ τριῶν τόνων καὶ λείμματος, τὸ δὲ διὰ πασῶν …'. Theon's tone-count list has 3 items; the author extends it to 6, through the double octave. Theon 75.7-12 also pairs ratios with consonances, ending ὁ δὲ τετραπλάσιος ἐν τῇ δὶς διὰ πασῶν.",
+   "bears_on": "a. In this very passage the author extends his source's enumeration to the full six consonances rather than shortening it, which makes a deliberate stop at five in the next sentence less likely.",
+   "how": "Compared Hiller's page image with Bas. 28.25-29.11 in the evidence file."
+  },
+  {
+   "source": "Theon, ed. Hiller p. 56.1-5 and p. 55.4-17, compared with Bas. 33.1-7 and Bas. 32.13-20 (page images n77 and OCR of p. 55)",
+   "status": "checked",
+   "url": "https://archive.org/download/theonissmyrnaei00theogoog/page/n77.jpg",
+   "found": "Bas. 33.1-7 paraphrases Theon 56.1-5 and drops two elements (ὡς ἐκεῖνός φησι; φιλότεχνον), adds τριβῆς, and recasts μᾶλλον κατὰ φύσιν as φυσικώτερον. Bas. 32.13-20 (χρωματικόν, παθητικώτερον … γοέτερον; ἁρμονικὸν … τῷ εἶναι ἄριστον … ἀπενεγκάμενον) paraphrases Theon 55.4-7 and 55.15-56.1. The author works from Theon pp. 53-75 throughout this section, freely and selectively.",
+   "bears_on": "neither (slightly c). The author paraphrases and abridges phrases, so exact correspondence with his source cannot be assumed.",
+   "how": "Compared on the page image (p. 56) and Hiller's OCR (p. 55) against section-6/7 Bas. lines."
+  },
+  {
+   "source": "Theon, ed. Hiller p. 57.1-7 (page image n78), compared with P, Vinc. 342.13-18 and Vinc. 342 n. 5 (evidence section-4)",
+   "status": "checked",
+   "url": "https://archive.org/download/theonissmyrnaei00theogoog/page/n78.jpg",
+   "found": "P's third fragment (Ἐξεύρηνται δὲ οἱ τοιοῦτοι τῶν διαστάσεων λόγοι, ἀπὸ … τοῦ μήκους τῶν χορδῶν, ἢ τῆς παχύτητος, ἢ τῆς τάσεως … κατὰ τὴν στροφὴν τῶν κολλάβων, ἢ γνωριμώτερον ἀπὸ τῆς ἐξαρτήσεως τῶν βαρῶν· ἐπὶ δὲ τῶν ἐμπνευστῶν …) paraphrases Theon 57.1-7. P drops the last member of Theon's list, ἢ δι’ ὄγκων καὶ σταθμῶν οἷον δίσκων ἢ ἀγγείων, both in Vincent's print and in the manuscript reading of his n. 5. The P manuscript's wording differs from Theon even more than Vincent's print. The next paragraph (Ἰστέον …) deals only with strings and pipes, so the cut looks topical.",
+   "bears_on": "c (weak). This is a real case of the author shortening a Theon enumeration by dropping its final item. But the dropped item belongs to another category (vessels and discs), and the cut fits the next paragraph. Here, by contrast, the dropped item is the one the following example needs.",
+   "how": "Compared Hiller's page image with Vincent's lines and footnote 5 in evidence/section-4.json."
+  },
+  {
+   "source": "Gaudentius 11, ed. Jan p. 341.1-11 and apparatus (page image n442)",
+   "status": "checked",
+   "url": "https://archive.org/download/musiciscriptoresjank/page/n442.jpg",
+   "found": "(1) A string-and-weight experiment list goes fourth (4:3), fifth, octave (double), 'τριπλασίονα δὲ ποιήσας τὸ διὰ πασῶν τε ἅμα καὶ διὰ πέντε σύμφωνον ἐθεώρει. καὶ τὰ ἑξῆς ὁμοίως.' This enumeration stops at the triple, but with an explicit 'and the rest likewise'. (2) Jan's apparatus: '8 a διὰ πασῶν N errat ad 10 δ. πασ.' Codex N skipped from one διὰ πασῶν to the next and lost a member of this very kind of ratio list.",
+   "bears_on": "(1) c, weakly: stopping at the triple occurs, but it is signalled, and our text has no such signal. (2) a/b: an attested eye-skip within a consonance-ratio list in a theorist's manuscript.",
+   "how": "Read Jan's text and apparatus on the page image."
+  },
+  {
+   "source": "Euclid, Sectio canonis prop. 12, Jan p. 160; Nicomachus, Enchiridion 6, Jan pp. 245-248; Nicomachus, Intro. arith. I.5.1 (Hoche p. 11) and II.26 (pp. 134-136)",
+   "status": "checked",
+   "url": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg1799/tlg015/tlg1799.tlg015.1st1K-grc2.xml ; https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0358/tlg002/tlg0358.tlg002.1st1K-grc1.xml ; https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0358/tlg001/tlg0358.tlg001.1st1K-grc1.xml",
+   "found": "Euclid and both Nicomachus Arithmetic passages run their ratio lists through τριπλάσιος to the double octave's τετραπλάσιος; Nicomachus II.26 calls it 'τελευταῖον δὲ καὶ μέγιστον σύμφωνον'. The Enchiridion 6 hammer story gives only octave (12:6), fifth, fourth and tone, with no compound consonances, so it stops before the double octave but is a different kind of list. Nicomachus I.5.1 and Theon p. 59.1-3 (Hiller, page image n80) both name three consonances alongside five ratios, so unequal parallel lists occur and are printed as transmitted. In those cases, though, the ratio list is the complete one.",
+   "bears_on": "a for the content (no list that reaches the triple stops short of the double octave). The unequal-list cases weakly allow c.",
+   "how": "Searched the digital Jan and Hoche texts for τριπλάσι-/τετραπλάσι-/δὶς διὰ πασῶν and read each passage in context; Theon p. 59 on the page image."
+  },
+  {
+   "source": "Bacchius, Isagoge §§ 9-11?, ed. Jan pp. 293-294 (OCR text of the scan)",
+   "status": "checked",
+   "url": "https://archive.org/download/musiciscriptoresjank/musiciscriptoresjank_djvu.txt",
+   "found": "Six consonances (διὰ τεσσάρων … δὶς διὰ πασῶν), then tone counts for each, ending 'Ἡ δὲ δὶς διὰ πασῶν; — Ἐκ τόνων ιβ'. Bacchius gives no ratio list.",
+   "bears_on": "a, weakly: the six-member set through the double octave is the standard canon in the catechism handbooks too.",
+   "how": "Read in Jan's OCR, not on a page image; the section numbers are uncertain."
+  },
+  {
+   "source": "Hiller's editorial practice in Theon: p. 62.16 apparatus; p. 62.20; p. 57.9; p. 59.10, 13-14, 18 (page images n83, n78, n80)",
+   "status": "checked",
+   "url": "https://archive.org/download/theonissmyrnaei00theogoog/page/n83.jpg ; n78.jpg ; n80.jpg",
+   "found": "(1) Where a parallel member seems missing (Theon gives the fifth's tone count without the fourth's), Hiller leaves the text alone and notes in the apparatus: '16 τὸ μὲν — ἡμιτονίου del. vid., nisi exciderunt verba τὸ δὲ διὰ τεσσάρων δυεῖν τόνων καὶ ἡμιτονίου'. (2) When the wording is certain he supplies it in the text with ⟨ ⟩: ⟨ἐπιτρίτου⟩ 62.20, ⟨ἴσων⟩ 57.9, ⟨πληρώσας⟩ 59.13-14, ⟨ὅτε⟩ 59.18. (3) Where words are lost and their wording is unknown, he marks a lacuna with a row of dots (59.10 'συμφωνίαι ……'). Jan likewise supplies a missing numeral ⟨ε⟩ in Exc. Neap. § 25 (p. 420, page image n521).",
+   "bears_on": "Editorial choice: if an omission is accepted, a rather than b, because the wording is fixed by the parallel members, the interval list (τὸ δὲ δὶς διὰ πασῶν) and the example (τετραπλάσιος). b suits only losses of unknown extent or wording. For a suspected but unproven omission, a cautious editor (Hiller 62.16) chooses c with an apparatus note.",
+   "how": "Read text and apparatus on Hiller's page images; Jan p. 420 on its page image."
+  },
+  {
+   "source": "Excerpta Neapolitana § 25, ed. Jan pp. 419-420 (page images n520, n521)",
+   "status": "checked",
+   "url": "https://archive.org/download/musiciscriptoresjank/page/n521.jpg",
+   "found": "'συμφωνιῶν δὲ ἐν λόγοις ἐπιμορίοις καὶ πολλαπλασίοις· διὰ τεσσάρων ἐν ἐπιτρίτοις ε, διὰ πέντε ἐν ἡμιολίοις δ, διὰ πασῶν ἐν διπλασίοις ⟨ε⟩, δὶς διὰ πασῶν ἐν τετραπλασίοις β'. The list skips the triple and Jan does not supplement it, but it counts ratios found in a particular set of numbers rather than listing the consonances in general.",
+   "bears_on": "neither. It is not a comparable general list; it only shows Jan supplying a certain missing item with ⟨ ⟩.",
+   "how": "Read on the page images."
+  },
+  {
+   "source": "P, Vinc. 340.7-10 (evidence section-4; fact in questions.json)",
+   "status": "checked",
+   "found": "P's fragment, inserted right after the example (after τέταρτος), names as the ἔμμεσα διαστήματα whose ratios are referred πρὸς τὸν προλαμβανόμενον φθόγγον the six intervals διὰ τεσσάρων … καὶ τὸ δὶς διὰ πασῶν. That is the set of the example, all taken against the base term 6.",
+   "bears_on": "a. The author, or the P recension, regards the just-given ratios as a six-member set ending with the double octave. Vincent reports nothing on P's reading of the ratio list itself, and that silence is not evidence.",
+   "how": "Read Vincent's lines and placement note in evidence/section-4.json."
+  },
+  {
+   "source": "Lexicon of Scholarly Editing (Univ. Antwerp), s.v. saut du même au même; Stemmatology wiki (Univ. Zürich), s.v. Homoeoteleuton",
+   "status": "checked",
+   "url": "https://lexiconse.uantwerpen.be/lexicon/sautDuMemeAuMeme.html ; https://www.iaka.uzh.ch/apps/static/MLS/stemmatology/Homoeoteleuton_229150155.html",
+   "found": "Both cite West, Textual Criticism and Editorial Technique (1973): p. 24 on saut du même au même (repeated words on the page lead the scribe to omit what lies between) and p. 25 on homoeoteleuton.",
+   "bears_on": "a/b: the mechanism for τριπλάσιος· [τοῦ δὲ δὶς διὰ πασῶν, τετραπλάσιος·] οἷον. Confirmed through secondary works only.",
+   "how": "Opened both entries; West's own text was not accessible."
+  },
+  {
+   "source": "Same text, Q02 facts in questions.json (note list Bas. 25.4-10)",
+   "status": "checked",
+   "found": "In another list taken from Theon-type material, all four witnesses again lack one item: there is no name between παρυπάτη μέσων and μέση, and the transmitted list has 14 names against Theon's 15.",
+   "bears_on": "neither (context). A unanimous gap in an enumeration recurs in this tradition. It fits either an archetypal omission or the author's carelessness.",
+   "how": "Read the Q02 facts."
+  }
+ ],
+ "searched_without_result": "I found no ancient list of consonance ratios that reaches the octave plus fourth or octave plus fifth and then stops at the triple without a signal, short of the double octave. I checked Theon (Hiller pp. 56, 57, 59, 62-64, 75, 206), Euclid Sect. can. prop. 12, Nicomachus (Ench. 6 and 11; Intro. arith. I.5.1 and II.26), Gaudentius 9-11, Bacchius (tone counts) and Exc. Neap. § 25. The only lists that stop earlier are Nicomachus Ench. 6 (simple consonances only) and Gaudentius 11 (stops at the triple with 'καὶ τὰ ἑξῆς ὁμοίως'). For West, Textual Criticism, the archive.org lending copy is access-restricted and its search-inside returned 403. I did not open user-uploaded copies of doubtful legitimacy. So West's own guidance on lacuna versus supplement is unverified, and only his pp. 24-25 are confirmed through secondary works. Aristides Quintilianus: I found no readable legitimate Greek text (the Meibom 1652 OCR is unusable; Jahn 1882 is only on Google Books), so his list is unchecked. Ptolemy Harm. 1.5 (Düring) is unchecked; the First1KGreek 'Musica' file under tlg0363 is not the Harmonics. I did not open the Landels and Barker PDFs (copyrighted books on third-party sites). Vincent reports no P reading for the ratio list itself.",
+ "supports": "a",
+ "strength": "moderate",
+ "decisive": "Nothing decisive. No witness has the clause, and the four witnesses include H (AD 1040, 32 years after composition), so the gap may go back to the archetype or even to the author. The evidence firmly establishes what the list was meant to contain: Gaudentius 9-10 gives tone counts, then a ratio list ending τῆς δὲ δὶς διὰ πασῶν τετραπλάσιος, with the numbers 24…6, the same seven as the author's example; Theon pp. 62-64 gives the same construction with base 6; the author's own interval list and example each have six members; and P's list has six. It does not establish that a scribe, rather than the author, dropped the clause. The edition's rule 'conjecture only where no witness gives an acceptable text' leaves room for c with a note, since the transmitted text is grammatical and only inconsistent with its context.",
+ "reasoning": "1. Content. Every comparable ancient list that reaches the octave plus fifth (τριπλάσιος) goes on to the double octave (τετραπλάσιος): Theon 56.9-16, 63.5-21, the p. 64 diagrams and 75.7-12; Euclid prop. 12; Nicomachus Arith. I.5.1 and II.26; Gaudentius 10. The only lists that stop earlier either give no compound consonances (Nicomachus Ench. 6) or signal the stop with 'καὶ τὰ ἑξῆς ὁμοίως' (Gaudentius 11).\n2. Structure. The author's passage matches Gaudentius 9-10 almost point by point: tone counts of six consonances, then 'Λόγοι/Λόγος δέ' ratios, then the numbers 6-8-9-12-16-18-24. It also borrows Theon's wording (75.15-24; 62.6-8). In the same passage he extends Theon's three-item tone-count list to six, which argues against a deliberate stop at five.\n3. Internal evidence. The interval list (six items) and the οἷον-example (six items, including τετραπλάσιος ὁ εἰκοστὸς τέταρτος) frame a five-item ratio list. The example is offered as an illustration of that list, and P's fragment, inserted right after the example, again names the six intervals.\n4. Mechanism. τριπλάσιος· … τετραπλάσιος· is a textbook homoeoteleuton (West pp. 24-25, via secondary works). Jan's apparatus records the same kind of eye-skip within a consonance-ratio list in Gaudentius' codex N.\n5. Against emendation. All witnesses agree. The author paraphrases and selects from Theon: at Bas. 33.1-7 he drops phrases, and in P fr. 3 he drops the last member of Theon's list of methods, though that was a topical cut. Ancient writers tolerate parallel lists of unequal length (Theon 59.1-3; Nicomachus I.5.1). So c is defensible, but those parallels lack what this place has: a following example that requires the missing item.\n6. a versus b. If the gap is treated as an omission, the wording is certain from the parallel members, from τὸ δὲ δὶς διὰ πασῶν (Bas. 29.10-11) and from τετραπλάσιος in the example. Only the presence of δέ is open, since the transmitted members vary. Hiller's practice (⟨ ⟩ when the wording is certain, dots only when it is unknown) and Jan's ⟨ε⟩ favour a over b.\nOverall: a over c, moderately; b is the weakest option.",
+ "seen_prohibited": "1. Jan, Musici scriptores Graeci p. 338, note on Gaudentius 8, seen in the archive.org OCR while locating Gaudentius. It quotes 'Psellus mus. p. 28: συμφωνεῖ δὲ ἡ μὲν διὰ τεσσάρων διάστασις καὶ ἡ διὰ πέντε … κατὰ παράφωνον' and reports a supplement by Meibom. This evidently cites this text (the Ps.-Psellus Quadrivium, on παράφωνον near Bas. 28). I saw it in passing and did not use it.\n2. Hiller's Theon apparatus at p. 55.2 cites Bryennius (a prohibited later writer) as a witness for a Theon variant. It is unrelated to this place and was not used.\nNo other hit quoted or discussed this text. I put no Greek phrase from this text into any search engine; I only searched digital corpora of other authors for ratio terms."
+}

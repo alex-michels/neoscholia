@@ -1,0 +1,191 @@
+{
+ "checks": [
+  {
+   "id": "Q05-01",
+   "verdict": "confirmed",
+   "url_used": "https://lsj.gr/wiki/ἀνεγχώρητος (via WebFetch); Logeion API https://anastrophe.uchicago.edu/logeion-api/detail?type=normal&w=ἀνεγχώρητος",
+   "note": "LSJ: 'impossible, Sch. Hermog. in Rh. 7.135 W.' DGE: 'imposible', citing ἀδύνατον καὶ ἀνεγχώρητον ποιεῖν τι τὸν υἱόν (Gr.Naz. M.36.116C). The Greek Liddell–Scott glosses it '... ἀδύνατον' and quotes Hesychius «ἀνεγχώρητον· ἀμήχανον». The reading τῇ δὲ ἀριθμητικῇ τοῦτο ἀδύνατον in H, Par., V and Bas. is confirmed by the package facts."
+  },
+  {
+   "id": "Q05-02",
+   "verdict": "corrected",
+   "url_used": "Logeion API (LSJ, DGE) https://anastrophe.uchicago.edu/logeion-api/detail?type=normal&w=ἀριθμητικός",
+   "correction": "LSJ does not gloss the adverb. It gives only 'Adv. -κῶς ib. QConv. 643c, Theo Sm. p.116 H.', so Plutarch comes first and 'numerically' is the gloss in Bailly and Sophocles. It is also untrue that the neuter is 'attested only as an Egyptian land tax'. Only LSJ's substantive sense III (τὸ -κόν) is the tax. LSJ II has the neuter predicative adjective 'τὸ ἓν ἁπλῶς οὐκ ἦν ἀ.' (Dam. Pr. 117). DGE has 'subst. τὸ ἀ. número cardinal' (D.T. 636.15, 637.25; Sch.D.T. 243.1). The scholia also use neuter ἀριθμητικόν ἐστι (Sch. Od. 9.246; Sch. Isocr.). The bearing 'the neuter adjective has no relevant sense' is therefore overstated."
+  },
+  {
+   "id": "Q05-03",
+   "verdict": "confirmed",
+   "url_used": "Logeion API; lsj.gr; Hesychius ed. Schmidt vol. I (archive.org bub_gb_nbAtAAAAQAAJ, djvu text)",
+   "note": "LSJ 'impossible, Sch. Hermog. in Rh. 7.135 W.' and DGE 'Gr.Naz. M.36.116C ... cf. Hsch.' are verbatim. The Hesychian gloss 'ἀνεγχώρητον· ἀμήχανον' is in the Greek Liddell–Scott and also appears in Schmidt's Hesychius (vol. I, in a list of glosses). The rest of the bearing ('therefore a rewording') is inference."
+  },
+  {
+   "id": "Q05-04",
+   "verdict": "confirmed",
+   "url_used": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn:cite2:scaife-viewer:dictionaries.v1:lsj-n15043/ ; Logeion LSJ",
+   "note": "The URL resolves to LSJ ἀριθμητικός. Sense I is 'of or for reckoning, skilled therein'. Sense II is 'arithmetical', with ἡ ἀ. (sc. τέχνη) 'arithmetic'. The adverb is cited from Plu. QConv. 643c and Theo Sm. p.116 H. The bearing is a fair reading."
+  },
+  {
+   "id": "Q05-05",
+   "verdict": "confirmed",
+   "url_used": "https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.14.html",
+   "note": "§1018: adjectives modify substantives, including words used substantively. §1021–1023: substantivized adjectives, with the neuter for 'thing in general' (τὸ ἀληθές 'truth'). §1039: 'Adjectives used substantively may take an attributive'. §1047: a neuter predicate with an infinitive or sentence subject. §1048: a neuter predicate 'equivalent to a substantive'. The finding itself says it is inference, not an attestation."
+  },
+  {
+   "id": "Q05-06",
+   "verdict": "confirmed",
+   "url_used": "Logeion API (Bailly 2024) https://anastrophe.uchicago.edu/logeion-api/detail?type=normal&w=ἀνεγχώρητος; the PDF URL https://sites.ac-nancy-metz.fr/langues-anciennes/wp-content/uploads/bailly-2020-04.pdf still returns 404",
+   "note": "Bailly (Logeion, 2024 edition) reads: 'ἀν·εγχώρητος, ος, ον, inadmissible, impossible, Naz. 8, 255'. The glosses and the Nazianzen citation are confirmed. The page number 254 of the 2020 PDF could not be checked: the PDF is 404 and the mirror URLs tried returned 500 or 404."
+  },
+  {
+   "id": "Q05-07",
+   "verdict": "confirmed",
+   "url_used": "Logeion API (Bailly 2024) for ἀριθμητικός and ἀριθμητικῶς",
+   "note": "Bailly: '1 qui concerne les nombres ...; ἡ ἀριθμητική (s. e. τέχνη) ... l'art de compter, l'arithmétique || 2 habile à compter, habile calculateur, Plat. Gorg. 453e'. ἀριθμητικῶς: 'adv. numériquement, Plut. M. 643c'. Seen via Logeion, not the 2020 PDF, which is 404."
+  },
+  {
+   "id": "Q05-08",
+   "verdict": "confirmed",
+   "url_used": "Logeion API (Bailly 2024)",
+   "note": "'inadmissible, impossible, Naz. 8, 255'. The bearing is an interpretation."
+  },
+  {
+   "id": "Q05-09",
+   "verdict": "confirmed",
+   "url_used": "https://grammars.alpheios.net/smyth/xhtml/body.1_div1.2_div2.7.html",
+   "note": "§341 (origin of adverbs), under Accusative: 'very common, especially such adverbs as have the form of the accusative of neuter adjectives, as πολύ, μῑκρόν, πρῶτον ...', referring to 1606–1611. ἀριθμητικόν is not among the examples."
+  },
+  {
+   "id": "Q05-10",
+   "verdict": "confirmed",
+   "url_used": "https://cld.bbaw.de/lemma/grc/ἀριθμητικός returned HTTP 403 (WebFetch and urllib); content checked via Logeion API (LSJ, Bailly 2024)",
+   "note": "The CLD page itself could not be opened (403). The LSJ and Bailly texts it would reproduce say exactly this: arithmetical; ἡ ἀ. 'arithmetic'; 'skilled therein' / 'habile calculateur' of persons; LSJ adverb 'Theo Sm. p.116 H.'"
+  },
+  {
+   "id": "Q05-11",
+   "verdict": "confirmed",
+   "url_used": "Logeion API (Bailly 2024); the 2020 PDF URL returns 404",
+   "note": "The entry text is confirmed: 'inadmissible, impossible, Naz. 8, 255'. The page number 'p.254 in the 2020 electronic edition' could not be verified because the PDF is unavailable."
+  },
+  {
+   "id": "Q05-12",
+   "verdict": "confirmed",
+   "url_used": "https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.14.html",
+   "note": "§1039 says verbatim 'Adjectives used substantively may take an attributive: οἱ ὑμέτεροι δυσμενεῖς your enemies (X. H. 5.2.33)'. §§1018, 1020–1023 say what the finding reports. Applying this to ἀριθμητικὸν ἀνεγχώρητον is inference."
+  },
+  {
+   "id": "Q05-13",
+   "verdict": "confirmed",
+   "url_used": "https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.18.html",
+   "note": "§1606: 'Many accusatives marking limitations of the verbal action serve the same function as adverbs'. §1607: the adverbial use of adjectives (μέγα πλούσιος). §1608–1609: manner, measure and degree (μέγα, πολύ, οὐδέν ...). No relational adjective like ἀριθμητικόν is exemplified."
+  },
+  {
+   "id": "Q05-new-01",
+   "verdict": "confirmed",
+   "url_used": "https://archive.org/download/a-patristic-greek-lexicon-edited-by-g.-w.-h.-lampe.-1961pdf/page/n177_w1600.jpg",
+   "note": "Lampe p. 131, column 1, verbatim: 'ἀνεγχώρητος, impossible ἀδύνατον καὶ ἀ. ποιεῖν τι τὸν υἱόν, ὧν οὐ ποιεῖ ὁ πατήρ Gr.Naz.or.30.11(p.123.6; M.36.116C); ‡Ath.disp.10(M.28.449A); Chrys.hom.38.4 in Jo.(8.222B).' The entry records no other constructions."
+  },
+  {
+   "id": "Q05-new-02",
+   "verdict": "corrected",
+   "url_used": "First1KGreek master zip, data/tlg2022/tlg010/tlg2022.tlg010.1st1K-grc1.xml (Mason 1899)",
+   "correction": "The quotation 'οὕτως ἀδύνατον καὶ ἀνεγχώρητον ποιεῖν τι τὸν υἱόν, ὧν οὐ ποιεῖ ὁ πατήρ' is in 30.11 (Mason p. 123). But 'ὃ τῇ φύσει μὲν ἀδύνατον, θεῷ δὲ δυνατὸν βουληθέντι' is not in the same chapter. It closes 30.10 (Mason p. 122). Chapter 11 opens 'τούτων δὲ πάντων ἐκτὸς τὸ παντελῶς ἀδύνατον καὶ ἀνεπίδεκτον', so the classification of impossibilities runs across 30.10–11."
+  },
+  {
+   "id": "Q05-new-03",
+   "verdict": "confirmed",
+   "url_used": "https://archive.org/download/patrologiae_cursus_completus_gr_vol_028/page/n231_w1800.jpg",
+   "note": "PG 28.449A (§10), verbatim: 'Ἐὰν τοῦτο ἀποδείξῃς, ὅπερ ἀνεγχώρητόν ἐστι, τάχα κἀμὲ ποιήσεις τῷ σῷ φρονήματι ἐπακολουθῆσαι.' The Latin is 'Si id ostenderis, quod sane fieri non potest, forte et me in tuam sententiam ire compelles.'"
+  },
+  {
+   "id": "Q05-new-04",
+   "verdict": "corrected",
+   "url_used": "https://archive.org/download/patrologiae_cursus_completus_gr_vol_028/page/n237_w1800.jpg",
+   "correction": "The text and note are as quoted: 'Εἰ οὖν ἀνεγχώρητον δύο βασιλεῖς φῆσαι ἐπὶ βασιλέως ἑνός ...'. Note (23) reads 'Reg. ἐκ τῆς πορφυρίδος βασιλεύειν. Mox idem et Basiliensis, Εἰ οὖν ἀνεγχείρητον.' Two points need correcting. The sentence begins three lines above the C mark, so it should be cited as PG 28.461B–C. And note (23) is keyed to the earlier word βασιλεύειν; its second sentence ('Mox ...') records the ἀνεγχείρητον variant."
+  },
+  {
+   "id": "Q05-new-05",
+   "verdict": "confirmed",
+   "url_used": "https://archive.org/download/patrologiae_cursus_completus_gr_vol_028/page/n246_w1800.jpg",
+   "note": "PG 28.480D (the D mark is on this line): 'τῷ Πατρί, διὰ τὸ ἀνεγχώρητον ἐπ᾽ ἀνθρώπου ἐκλαβεῖν τινα ἑτερούσιον τὸν βραχίονα'. The Latin is 'quia nimirum in homine concipi non potest'."
+  },
+  {
+   "id": "Q05-new-06",
+   "verdict": "confirmed",
+   "url_used": "https://archive.org/download/patrologiae_cursus_completus_gr_vol_059/page/n216_w1800.jpg and n217",
+   "note": "Hom. 38 §4 (δ') begins in PG 59.216; the Montfaucon page [222] is marked there. The sentence stands at the top of col. 217: 'τοῦτο λέγει, ὅτι Ἀδύνατον καὶ ἀνεγχώρητόν ἐστιν ἐμὲ ποιῆσαί τι ἐναντίον τῷ Πατρί.'"
+  },
+  {
+   "id": "Q05-new-07",
+   "verdict": "confirmed",
+   "url_used": "https://archive.org/download/p1rhetoresgraeci07walzuoft/page/n146_w1800.jpg and n147",
+   "note": "Walz VII p. 135.24–25: 'ἀδύνατον γὰρ εἶναι τοῦτο καὶ ἀνεγχώρητον'. p. 136.27–28: 'ὅπερ ἐπὶ τῶν πλαστῶν στοχασμῶν οὐκ ἐγχωρεῖ γενέσθαι'. Line numbers were checked against the printed margins."
+  },
+  {
+   "id": "Q05-new-08",
+   "verdict": "confirmed",
+   "url_used": "https://archive.org/download/greeklexiconofro00soph/page/n183_w1800.jpg, n269, n270",
+   "note": "p. 160 (leaf n183, not n184): 'ἀνεγχώρητος, ον, (ἐγχωρέω) = ἀχώρητος. Pseud-Athan. IV, 449 A.' p. 246: 'ἀριθμητικός, ή, όν, numeral, applied to the cardinal numbers. Dion. Thr. 636, 15, ὄνομα (εἷς, δύο, τρεῖς). Herodn. Gr. Schem. 580, 7. — 2. Arithmetical. Athenag. Legat. 6, λόγος, arithmetical ratio.' p. 247: 'ἀριθμητικῶς, adv. numerically. Plut. II, 643 C. Hippol. Haer. 264, 38.'"
+  },
+  {
+   "id": "Q05-new-09",
+   "verdict": "confirmed",
+   "url_used": "https://anastrophe.uchicago.edu/logeion-api/detail?type=normal&w=ἀριθμητικός (and ἀνεγχώρητος)",
+   "note": "All the quoted dictionary items match: DGE subst. τὸ ἀ. 'número cardinal' (D.T.636.15, 637.25, Sch.D.T.243.1); DGE sense 3 (Egyptian contribution); DGE II adv. (Plu.2.643c, Theo Sm.116); LSJ II Dam. Pr. 117; LSJ, DGE, Bailly and Pape for ἀνεγχώρητος."
+  },
+  {
+   "id": "Q05-new-10",
+   "verdict": "confirmed",
+   "url_used": "First1KGreek master zip: tlg5026.tlg007, tlg0087.tlg008, tlg5028.tlg001",
+   "note": "Sch. Od. 9.246: 'τὸ ἕξ δασυντέον· ἀριθμητικὸν γάρ ἐστι. H.'. Herodian, Pros. Od. 246: '... ἀριθμητικὸν γάρ ἐστιν'. Sch. Isocr. (vetera) 27: 'τοῦτο μὲν γὰρ ἀριθμητικόν ἐστι τὸ σχῆμα'."
+  },
+  {
+   "id": "Q05-new-11",
+   "verdict": "corrected",
+   "url_used": "Own accent-insensitive regex over First1KGreek and canonical-greekLit master zips (codeload.github.com)",
+   "correction": "The count is reproduced exactly: 26 hits, duplicates included. Three points need correcting. (1) Hippolytus, Ref., has it three times, not twice: ἀριθμητικῶς γινομένη θεωρεῖται, ἀριθμητικῶς ἐργαζόμεθα, and εἴ τις ἀριθμητικῶς ... τέμνει. (2) 'In every case the adverb modifies a verb or participle' is not true. Ps.-Heliodorus, In EN paraphr. (filed under Anon. in EN, tlg4033.tlg003), has 'οὐκ ἔσται ἀνάλογον ἀριθμητικῶς', with the adverb on a predicate adjective, and also 'ἀνάλογον ἔχει ἀριθμητικῶς'. The Pindar scholia use it without a verb: 'ἑκατοντακάρανος: οὐκ ἀριθμητικῶς, ἀλλ᾿ ἀντὶ τοῦ πολυκέφαλος' and 'ἤτοι ἀριθμητικῶς ἓξ'. (3) Two of the 26 are not text: one Proclus hit is Kroll's German index note, and one Ps.-Heliodorus hit is an apparatus entry. 'Never with ἀδύνατον, ἀμήχανον or an equivalent' is confirmed."
+  },
+  {
+   "id": "Q05-new-12",
+   "verdict": "confirmed",
+   "url_used": "First1KGreek master zip, tlg4036.tlg001.opp-grc1.xml (Kroll vol. II)",
+   "note": "After page marker 38: 'οὐ γὰρ ἔστιν ἀριθμὸν λαβεῖν τετράγωνον τετραγώνου διπλάσιον ... (αὐτὸ τοῦτο γὰρ ἀδύνατον)'. The digitized text has lost the opening parenthesis. Calling it 'the same mathematical fact' is fair: Proclus states it in general, P with 16 and 32."
+  },
+  {
+   "id": "Q05-new-13",
+   "verdict": "confirmed",
+   "url_used": "canonical-greekLit tlg1799.tlg001.perseus-grc2.xml; First1KGreek tlg0559.tlg006.1st1K-grc1.xml",
+   "note": "Euclid VII.31: '... ὧν ἕτερος ἑτέρου ἐλάσσων ἐστίν· ὅπερ ἐστὶν ἀδύνατον ἐν ἀριθμοῖς.' Heron, Metrica I.18 (Schöne p. 50): 'ἀλλ᾿ ἐπεὶ ἐν ἀριθμοῖς οὐκ ἔστιν εὑρεῖν τετράγωνον τετραγώνου πενταπλάσιον, ὡς σύνεγγυς δεῖ λαβεῖν'."
+  },
+  {
+   "id": "Q05-new-14",
+   "verdict": "confirmed",
+   "url_used": "First1KGreek tlg0057.tlg006.1st1K-grc1.xml",
+   "note": "Ch. 12, Kühn I 264–265 (page break 265 at 'τὸ κοῖλον | δ’ ἕλκος'). Verbatim: 'ἀλλὰ τινὰ μέν τῇ φύσει, τινὰ δὲ τοῖς ἰατροῖς ἐστιν ἀδύνατα ... ἀδύνατον ὀρθῶσαι ..., τῷ δὲ ἰατρῷ δυνατόν ... ἰατρῷ μὲν ἐμβαλεῖν δυνατὸν, ἀδύνατον δὲ τῇ φύσει ... τῇ φύσει μέν ἐστι δυνατὸν, ἀδύνατον δ’ ἰατρῷ'."
+  },
+  {
+   "id": "Q05-new-15",
+   "verdict": "confirmed",
+   "url_used": "First1KGreek tlg0086.tlg001.1st1K-grc1.xml",
+   "note": "An. Post. I.10, 76a41–b2: 'ταὐτὸ γὰρ ποιήσει, κἂν μὴ κατὰ πάντων λάβῃ ἀλλ᾿ ἐπὶ μεγεθῶν μόνον, τῷ δ᾿ ἀριθμητικῷ ἐπ᾿ ἀριθμῶν.' The First1KGreek file is labelled 'Analytica priora', but the edition contains the Posterior Analytics too."
+  },
+  {
+   "id": "Q05-new-16",
+   "verdict": "corrected",
+   "url_used": "First1KGreek tlg0057.tlg037.1st1K-grc1.xml; tlg0615.tlg001.1st1K-grc1.xml",
+   "correction": "Both quotations are verbatim. Galen: 'εἰ μὲν οὖν ὥσπερ ἐν γεωμετρίᾳ καὶ ἀριθμητικῇ συνεφωνεῖτο πάντα'. Aspasius, In EN p. 136 Heylbut: 'οἷον ἐν γεωμετρίᾳ καὶ ἀριθμητικῇ ἃς ὁ μὴ παραδεξάμενος ...'. The Galen location needs correcting. It is De alim. fac. I 1.2 (book 1, chapter 1, section 2), Kühn VI 454. '1.2' would point to book 1, chapter 2."
+  },
+  {
+   "id": "Q05-new-17",
+   "verdict": "corrected",
+   "url_used": "Own regex over First1KGreek and canonical-greekLit master zips",
+   "correction": "The three cited hits exist as quoted. They are Alexander, In An. Pr. ('ὧν δεικνυμένων συλλογιστικῶς ἀδύνατον ἦν λαβεῖν'), Galen, In Hipp. Aph. ('ἀναχυθῆναι τὴν χολὴν κριτικῶς ἀδύνατόν ἐστιν') and Galen, De crisibus ('ἐξευρεῖν ἔργον τι τεχνικὸν ἀμήχανόν ἐστι'). But they are not all the hits for the stated pattern. Missed -ικῶς case: Catena in Acta (tlg4102.tlg008), 'κεκτημένον φυσικῶς ἀνεπίδεκτον φύσιν τε καὶ ὑπόστασιν πάσης τροπῆς'; here φυσικῶς could go with ἀνεπίδεκτον. Missed -ικόν + ἀδύνατ- cases: Galen, De marcore, 'τὸν πυρετὸν ἀκριβῶς ἑκτικὸν ἀδύνατον ὑπάρχειν'; Irenaeus (and Epiphanius) 'τὸ χοϊκὸν ἀδύνατον σωτηρίας μετασχεῖν'; Philoponus, In An. Pr., 'τὸ καθόλου ἀποφατικὸν ἀδύνατον ... συναγαγεῖν'; Plato, Gorg. 461a, 'τὸν ῥητορικὸν ἀδύνατον εἶναι'. Also of note is Simplicius, In Cael., 'ἐπὶ μὲν τῶν μαθημάτων ἀληθὲς λέγει, ἐπὶ δὲ τῶν φυσικῶν ἀδύνατον', where the domain is expressed by ἐπί + genitive. In all of these the -ικ- word is construed apart from the impossibility adjective (subject, predicate or substantive), except possibly the Catena φυσικῶς."
+  },
+  {
+   "id": "Q05-new-18",
+   "verdict": "confirmed",
+   "url_used": "Package evidence file evidence/section-3.json (p_fragments, Vincent pp. 338, 340)",
+   "note": "Vinc. 338 notes: n. 2 'Ms. τὸν τῶν ἀριθμόν', n. 4 'Ms. τοῦ', n. 5 'Ms. τέμνει'. Vinc. 340 notes: n. 3 'Ms. διαστήματα', n. 4 'Ms. κεκρυμμένων'. 338.15–16 reads 'ἡ μὲν ἀριθμητικὴ ... οὐ δύναται', 338.21 'Τῇ γεωμετρίᾳ δὲ τοῦτο ῥάδιον', 338.22 'γεωμέτρης λαβὼν'. The package facts give 'ὁ γεωμέτρης μεταλαβών' for H 65v.21-22, Par. 22v.15-16 and V 77v.12 (also Bas. 26.24). The list of P's errors is a selection; it leaves out n. 3 'Ms. ἡ σύμφρασις' and n. 6 'Ms. ἑνδ.'"
+  }
+ ],
+ "summary": "All 31 findings were checked: 24 confirmed and 7 corrected, none wrong or unreachable. Sources were page images on archive.org (Lampe; PG 28 and 59; Walz vol. 7; Sophocles' lexicon), Logeion (LSJ, DGE, Bailly 2024, Pape), lsj.gr, Smyth on Alpheios, and my own accent-insensitive search of the First1KGreek and canonical-greekLit master zips. Downloads are in (local working folder) Q05-02: LSJ does not gloss ἀριθμητικῶς, and the neuter is not 'only' the land tax. LSJ II cites Dam. Pr. 117 and DGE has τὸ ἀ. 'cardinal number'.\n- Q05-new-02: 'τῇ φύσει μὲν ἀδύνατον, θεῷ δὲ δυνατόν' is in Or. 30.10, not 30.11.\n- Q05-new-04: the passage begins in PG 28.461B, so cite 461B–C.\n- Q05-new-11: Hippolytus has the adverb three times, not twice. Ps.-Heliodorus has 'οὐκ ἔσται ἀνάλογον ἀριθμητικῶς' (adverb on a predicate adjective) and the Pindar scholia use it without a verb. So 'always with a verb or participle' is false.\n- Q05-new-16: the Galen passage is De alim. fac. I 1.2, not '1.2'.\n- Q05-new-17: the list of hits is incomplete. It misses Catena in Acta 'φυσικῶς ἀνεπίδεκτον' and several -ικόν + ἀδύνατον cases.\n\nNot checkable:\n- The Bailly 2020 PDF is offline (404), so 'p. 254' (Q05-06, Q05-11) could not be checked. The entry text is confirmed via Logeion's Bailly 2024.\n- The CLD page (Q05-10) returned 403; its content is confirmed from the same LSJ and Bailly entries."
+}

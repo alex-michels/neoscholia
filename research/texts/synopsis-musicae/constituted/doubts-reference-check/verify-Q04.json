@@ -1,0 +1,125 @@
+{
+ "checks": [
+  {
+   "id": "Q04-01",
+   "verdict": "confirmed",
+   "url_used": "https://lsj.gr/wiki/ἐγγίγνομαι (LSJ, DGE, Pape, Bailly abrégé on one page)",
+   "note": "LSJ III says: 'ἐγγίγνεται, impers., it is allowed or possible, c. inf., Hdt.1.132, 6.38, And.1.141, Pl.Phd.66c; ὥστε μὴ ἐγγενέσθαι μοι ποιῆσαι Antipho 5.17; ἐγγενόμενον ἡμῖν … Is.5.19'. LSJ itself does not name the dative; DGE III does ('c. dat. de pers. e inf.'). DGE III also lists uses without a dative (D.40.55; Gal.4.197) and an accusative absolute (Is.5.19). None of the three lexica cites an accusative + infinitive."
+  },
+  {
+   "id": "Q04-02",
+   "verdict": "confirmed",
+   "url_used": "https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.21.html",
+   "note": "§1982 says: 'Greek often uses the personal passive construction, the accusative becoming the nominative', with Κῦρος ἠγγέλθη νικῆσαι and δίκαιός εἰμι ἀπελθεῖν. §1983 gives δοκῶ … εἶναι (δοκῶ γάρ μοι ἀδύνατος εἶναι). §1982 is framed around impersonal passive verbs; §1982a adds συμβαίνει and adjectives with εἶναι. It does not mention ἐγγίγνεται."
+  },
+  {
+   "id": "Q04-03",
+   "verdict": "confirmed",
+   "url_used": "https://lsj.gr/wiki/ἐγγίγνομαι; https://anastrophe.uchicago.edu/logeion-api/detail?w=ἐγγίγνομαι&type=normal",
+   "note": "The lexical data are correct. LSJ III: Hdt.1.132, 6.38, And.1.141, Pl.Phd.66c. DGE III: dative of the person + infinitive; 'sin dat.' D.40.55 and Gal.4.197. No lexicon gives a nominative subject + infinitive. The bearing ('the subject of the infinitive must be accusative') is the finder's own inference: no lexicon cites an accusative + infinitive with this verb either. A corpus instance of one does exist; see Q04-new-05 (Paus. 5.13.11)."
+  },
+  {
+   "id": "Q04-04",
+   "verdict": "confirmed",
+   "url_used": "https://atlas.perseus.tufts.edu/dictionaries/entry/urn:cite2:scaife-viewer:dictionaries.v1:lsj-n29974/",
+   "note": "The page is LSJ ἐγγίγνομαι: 'Ion. and later ἐγγίνομαι'. I.2 'spring up, appear in or among'; I.3 'take place or happen in or among'; III impersonal 'it is allowed or possible, c. inf.'"
+  },
+  {
+   "id": "Q04-05",
+   "verdict": "confirmed",
+   "url_used": "https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.21.html",
+   "note": "§§1972 and 1975: the expressed subject of the infinitive, or a different subject, is in the accusative. §1982a: the personal construction is 'more common … with συμβαίνει', e.g. πολλή τις ἀλογίᾱ ξυμβαίνει γίγνεσθαι (P. Phil. 55a)."
+  },
+  {
+   "id": "Q04-06",
+   "verdict": "confirmed",
+   "url_used": "https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.7.html",
+   "note": "§933a: quasi-impersonal verbs, where the indefinite 'it' anticipates an infinitive that forms the logical subject. §936: 'The subject of the infinitive is in the accusative'. §937: the subject is usually not expressed when it is the same as the subject or object of the principal verb. The bearing on option a is the finder's own interpretation."
+  },
+  {
+   "id": "Q04-07",
+   "verdict": "corrected",
+   "url_used": "cs.toronto.edu PDF returned HTTP 401 (password-protected); checked instead by searching inside CGCG on Google Books, id l_-PDwAAQBAJ (books.google.de), pp. 464-467",
+   "correction": "Ch. 36 'Impersonal Constructions' begins on p. 465; §36.1 is the introduction and the 'proper vs quasi-impersonal' distinction. On p. 466 (sections 36.1-4), under 'Quasi-Impersonal Verbs and Constructions: Verbs', CGCG says: 'The following common quasi-impersonal verbs take an (accusative-and-) infinitive construction as their subject (→51.11): δεῖ (με) + inf., χρή (με) + inf.' The example is (6) τί δεῖ ἡμᾶς, ὦ ἄνδρες, μάχεσθαι; (Xen. Hell. 7.4.25). I did not find the example 'δεῖ με γίγνεσθαι'. The δεῖ/χρή statement is in §36.2 or 36.3, not 36.1. §36.4 adds that δοκεῖ (μοι), ἔξεστι/πάρεστι (μοι), πρέπει, προσήκει etc. 'take an (accusative and) infinitive as subject, and frequently also a complement in the dative'. P. 467 notes that with some of these verbs there 'appears to be little difference' between the dative-complement and the accusative-and-infinitive constructions. CGCG does not treat ἐγγίγνεται."
+  },
+  {
+   "id": "Q04-08",
+   "verdict": "confirmed",
+   "url_used": "https://folio2.furman.edu/dramaturg/Homer/Odyssey/pages/chunk_228.html",
+   "note": "The page is the reader for Od. 13.208-235. The gloss is attached to ἐγγεγάασιν (13.233) and is an LSJ short definition (urn …lsj.chicago_md:n29974): 'to be born in; (impersonal) to be allowed; … spring up, appear in; … possible'. Its wording is 'spring up, appear in', not 'arise'. As evidence it adds nothing beyond LSJ."
+  },
+  {
+   "id": "Q04-09",
+   "verdict": "confirmed",
+   "url_used": "https://anastrophe.uchicago.edu/logeion-api/detail?w=σύμφρασις&type=normal (Bailly 2024, LSJ, Pape); the ac-nancy-metz Bailly 2020 PDF was not downloaded",
+   "note": "The query is mis-encoded in the finding; the word is σύμφρασις. Bailly gives: 'resserrement des mots, concision, J. Alex. π. τόν. παραγγ. p. 3, 28; 6, 7'. Note that LSJ gives a different sense: 'continuous speech, Hdn.Gr. 1.10, Phot. Bibl. p.107 B.; v.l. for συμφρόνησις, Philol. 10'. Philolaus fr. 10 is a definition of ἁρμονία, so a harmonic context does exist as a manuscript variant. Pape: 'Zusammenhang der Rede, Context'."
+  },
+  {
+   "id": "Q04-10",
+   "verdict": "confirmed",
+   "url_used": "cld.bbaw.de returned HTTP 403 (WebFetch and curl); LSJ checked at https://lsj.gr/wiki/ἐγγίγνομαι, Bailly 2024 at Logeion",
+   "note": "I could not open the CLD page itself. The content checks out in LSJ (I 'be born in … spring up … take place'; III impersonal 'allowed or possible, c. inf.') and in Bailly 2024 (I 'naître dans …'; 'II impers. ἐγγίγνεται, se produire, d'où être possible, avec l'inf.'). Neither lexicon says that every occurrence is impersonal."
+  },
+  {
+   "id": "Q04-11",
+   "verdict": "confirmed",
+   "url_used": "https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.21.html",
+   "note": "§§1972-1975 are as reported. §1982a cites πολλή τις ἀλογίᾱ ξυμβαίνει γίγνεσθαι (P. Phil. 55a). Smyth names only συμβαίνει here, not 'verbs of happening' in general."
+  },
+  {
+   "id": "Q04-new-01",
+   "verdict": "confirmed",
+   "url_used": "https://archive.org/download/p2ausfhrlichegra02khuoft/p2ausfhrlichegra02khuoft_djvu.txt (KG II.2, 1904, §477 pp. 33-36)",
+   "note": "§477, p. 33, says Greek 'die persönliche Konstruktion statt der unpersönlichen zu gebrauchen liebt'. §477c, p. 35: συμβαίνει α) with acc. + inf. (Pl. civ. 375d; Phaed. 74a); β) personal (Phil. 55a, Phaed. 67c, Civ. 438e, vgl. Parm. 134a). The subject normally precedes the verb in the personal construction but follows it with acc. + inf.; 'Zuweilen jedoch geht auch συμβαίνειν voran. Pl. Crat. 396b συμβαίνει οὖν ὀρθῶς ὀνομάζεσθαι οὗτος ὁ θεὸς εἶναι'. §477f, p. 36, under 'Seltener sind Beispiele wie …': Hdt. 7,52 ἐπὶ τούτοισι ἡ πᾶσα Περσικὴ στρατιὴ ἐγένετο διαφθεῖραι καὶ περιποιῆσαι 'st. ἐπὶ τούτοισι ἐγένετο τὴν πᾶσαν Περσικὴν στρατιὴν δ. κ. π.' KG does not gloss the sense ('in their power'); reading it as 'be possible', parallel to ἐγγίγνεται, is the finder's inference. In Crat. 396b ὀρθῶς ὀνομάζεσθαι comes between the verb and the subject."
+  },
+  {
+   "id": "Q04-new-02",
+   "verdict": "confirmed",
+   "url_used": "https://archive.org/download/jannaris-an-historical-greek-grammar/ (djvu text)",
+   "note": "§2083 (p. 484) is quoted accurately; there δεῖ means 'it lacks'. §2084 (p. 484) is verbatim: 'popular speech gives unqualified preference to the impersonal construction (2124)'. §2081 begins on p. 483. §2065 (p. 480) cites Th. 3.74 ἡ πόλις ἐκινδύνευσε πᾶσα διαφθαρῆναι, but as an example of an omitted identical subject whose predicate takes the leading subject's case, not of personal-for-impersonal. §2064 adds that the accusative subject of the infinitive is used 'So too in P-B compositions'."
+  },
+  {
+   "id": "Q04-new-03",
+   "verdict": "confirmed",
+   "url_used": "https://anastrophe.uchicago.edu/logeion-api/detail?w=ἐγγίγνομαι&type=normal; https://lsj.gr/wiki/ἐγγίγνομαι",
+   "note": "DGE II.1 is 'producirse, formarse, surgir c. dat.', with ἐγγίνεται μὲν γάρ οἱ ὕβρις Hdt.3.80. Aristox. Harm. 9.4 is in II.1 but under 'c. compl. prep. y dat.' (ἐν τοῖς συστήμασι). Aristid. Quint. 65.26 is under 'c. rég. impl.', with no expressed dative. DGE II.5 'cop., c. pred. llegar a ser' is correct. DGE III: dative + inf., 'sin dat.', and an accusative absolute. Bailly 2024: 'II impers. … être possible, avec l'inf.' Pape and Middle Liddell agree. No dictionary gives a nominative or accusative + infinitive. The corpus does contain an accusative + infinitive that no dictionary records; see Q04-new-05."
+  },
+  {
+   "id": "Q04-new-04",
+   "verdict": "corrected",
+   "url_used": "https://anastrophe.uchicago.edu/logeion-api/detail?w=ἐνδέχομαι&type=normal; ...?w=ἐγχωρέω&type=normal (LSJ, DGE)",
+   "correction": "These citations are correct: Th. 1.142 (LSJ III, DGE A.II.1); Arist. Cael. 283b26 (DGE); GA 731b24 (DGE; LSJ 731b25); Epicur. Ep. [3] 87; LSJ III.3 'impers. … c. acc. et inf., Th. 1.124, 140'. What the finding leaves out: DGE A.II.1 restricts the personal ἐνδέχομαι with an infinitive of εἰμί 'sólo cuando está negado o modificado por un adv.' (καὶ εἶναι καὶ μὴ εἶναι; ἄλλως ἔχειν; πλεοναχῶς γίνεσθαι). For ἐγχωρέω, DGE puts APr. 32b21 and Str. 3.1.5 under II.1 intr. 'caber, ser posible' and does not label them 'with an accusative subject'. In APr. 32b21 συλλογισμόν is an accusative subject. In Str. 3.1.5, ταῦτα (neuter plural) is ambiguous in case. LSJ and DGE also record impersonal ἐγχωρεῖ c. dat. pers. et inf. with εἶναι and a dative predicate: οἷς ἐγχωρεῖ ὑβρισταῖς εἶναι, Lys. 24.15."
+  },
+  {
+   "id": "Q04-new-05",
+   "verdict": "wrong",
+   "url_used": "https://codeload.github.com/PerseusDL/canonical-greekLit and https://codeload.github.com/OpenGreekAndLatin/First1KGreek (full tarballs; all *grc*.xml scanned for εγγι(γ)ν-/ενεγι(γ)ν-/εγγεν-/ενεγεν-/εγγεγ- forms)",
+   "correction": "Both of the finding's key negative claims fail in the Perseus corpus. (1) Accusative subject + infinitive with impersonal ἐγγίγνεται: Paus. 5.13.11 (tlg0525.tlg001, ch. 13 §11) ὑπὸ δὲ ἄλλου τὴν τέφραν ὕδατος ποιηθῆναι πηλὸν οὐ μή ποτε ἐγγένηται. (2) Impersonal ἐγγίγνεται with εἶναι: Xen. Hiero 10.2 (tlg0032.tlg008) ὥσπερ ἐν ἵπποις οὕτως καὶ ἐν ἀνθρώποις τισὶν ἐγγίγνεται, ὅσῳ ἂν ἔκπλεα τὰ δέοντα ἔχωσι, τοσούτῳ ὑβριστοτέροις εἶναι. The predicate here is attracted to the dative. The passage cited as 'Socrates HE' is Sozomen HE 6.20.4 (First1KGreek tlg2048.tlg001: Λογισάμενος οὖν Λούκιος, ὡς οὐκ ἐγγενήσεται τοῖς Ἀρείου βεβαίως κρατῆσαι …), as DGE also cites it; Socrates HE (tlg2057) has only 4 hits and not this sentence. These parts are confirmed: Hippocr. βῆξαί τε θυμὸς (τούτοισιν) ἐγγίγνεται (tlg0627.tlg003; also tlg0627.tlg017; similar in Aret. SA 2.2.4) and Aristid. Or. 2 μή τις ἐγγένηται λέγειν καὶ πείθειν δυνατός (tlg0284.tlg045). The overall picture also holds: the impersonal use is mostly with a dative or no expressed subject, in Isoc., Dem., Aen. Tact., D.H., Plut., Philo, Galen, Heliodorus, Libanius Or. 1 and a catena on Ephesians. I found no nominative subject + infinitive in the sense 'is possible'. My hit counts used a different pattern (Perseus 867 raw / 634 verb-like; F1K 2488 / 1822), so the 665/1598 figures cannot be reproduced."
+  },
+  {
+   "id": "Q04-new-06",
+   "verdict": "confirmed",
+   "url_used": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg1724/tlg001/tlg1724.tlg001.1st1K-grc1.xml",
+   "note": "Hiller p. 150 (lines 3-4, directly after <pb n=\"150\"/>) reads: ἐγγίνεται δʼ ἡ μεταβολὴ τῇ ποικίλῃ φορᾷ τῶν πλανωμένων. This is a personal use with a nominative subject and a dative, in the astronomical part of Theon. It parallels P's first clause, not a construction with εἶναι."
+  },
+  {
+   "id": "Q04-new-07",
+   "verdict": "corrected",
+   "url_used": "evidence/section-3.json and section-4.json (p_fragments: Vinc. 338 n. 1-6, 340 n. 1-5, 342 n. 1-7)",
+   "correction": "All the readings listed are reported accurately, and none of P's variants is a nominative written for an accusative. Two characterisations need correcting. (a) At 338 n. 2, in the same sentence, P has τὸν τῶν ἀριθμόν for τὸ τῶν ἀριθμῶν. That error affects two words, the article and the noun ending, and the result is internally consistent (masculine accusative singular). So P's case errors are not all 'single-word ending slips', and the argument that ἡ σύμφρασις stands apart because it changes both article and ending, consistently, is weakened. (b) Vincent's printed interventions do include τοῦτο → οὔ πω and the normalisations. But 'Peut-être ἐξάγεται' (342 n. 7) and 'Peut-être εἰρήσθω' (340 n. 1) are only suggestions in notes; ἐργάζεται and εἴρηται stay in his text. At 338 n. 1 he explicitly declines to emend σύμφρασις → σύγκρασις ('je n'ose pas faire la correction'). 'Intervened freely' therefore overstates his practice."
+  },
+  {
+   "id": "Q04-new-08",
+   "verdict": "corrected",
+   "url_used": "https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.21.html; https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.7.html",
+   "correction": "§933a lists δοκεῖ, συμβαίνει, ἔξεστι, πρέπει, προσήκει, φαίνεται, ἐγένετο, εἰσῄει με, δηλοῖ, with the example ὑ̄μᾶς προσήκει προθῡμοτέρους εἶναι (X. A. 3.2.15). It does not list ἔνεστι, and it does not say these verbs take accusative + infinitive 'regularly'. Smyth uses 'regularly' only for δεῖ and χρή (§1985b). §1985c: 'The subject of the infinitive is expressed or omitted according to the sense.' §1978: ἔξεστιν ἡμῖν ἀγαθοῖς/ἀγαθοὺς εἶναι, i.e. a dative of the person. §1982a says the personal construction is 'more common' with συμβαίνει, which is in any case not a verb of possibility. §1985a, on the 'attraction in τὸ πλῆθος τῶν ἐνόντων εἰπεῖν (I. 5.110) (for τούτων ἃ ἔνεστιν)', is reported correctly. Smyth places it among personal uses (after ἄξιός εἰμι, δοκῶ, δέομαι), so it points toward a personal construction rather than toward b."
+  },
+  {
+   "id": "Q04-new-09",
+   "verdict": "confirmed",
+   "url_used": "https://archive.org/details/greeklexiconofro00soph (djvu text); https://archive.org/details/a-patristic-greek-lexicon-edited-by-g.-w.-h.-lampe.-1961pdf (djvu text)",
+   "note": "Sophocles (1914): ἐγγιάω, ἐγγίζω, ἐγγιστάριος, ἔγγλαυκος. ἐγγιστάριος also stands between ἐγγίζω and ἔγγλαυκος, and there is no ἐγγίγνομαι/ἐγγίνομαι. Lampe: ἐγγαστρόω, ἐγγεωργέω, ἐγγλυκαίνω, with no entry for the verb. Lampe does quote the verb inside other entries, all in ordinary personal uses with a dative, e.g. χαρακτήρ τις ἡμῖν ἐγγίγνεται τοῦ θεοῦ."
+  }
+ ],
+ "summary": "I checked all 20 findings: 13 confirmed, 6 corrected, 1 wrong.\n\nThe one that matters most for Q04 is Q04-new-05 (the corpus search), which is wrong. It claims there is no impersonal ἐγγίγνεται with an accusative subject + infinitive and none with εἶναι. Perseus has both:\n- Paus. 5.13.11: ὑπὸ δὲ ἄλλου τὴν τέφραν ὕδατος ποιηθῆναι πηλὸν οὐ μή ποτε ἐγγένηται. This is impersonal + accusative + infinitive, the same construction Vincent printed (option b).\n- Xen. Hiero 10.2: ἐν ἀνθρώποις τισὶν ἐγγίγνεται … τοσούτῳ ὑβριστοτέροις εἶναι. This is impersonal with εἶναI and a dative predicate.\n\nThe same finding attributes a passage to 'Socrates HE' that is actually Sozomen HE 6.20.4.\n\nCorrections:\n- **Q04-07 (CGCG):** the cited section is wrong and the example δεῖ με γίγνεσθαι does not appear; the book's example is τί δεῖ ἡμᾶς … μάχεσθαι (Xen. Hell. 7.4.25). The cs.toronto.edu link returned 401, so I checked through Google Books.\n- **Q04-new-04 (ἐνδέχομαι, ἐγχωρέω):** DGE allows personal ἐνδέχομαι + εἶναι only when it is negated or qualified by an adverb, which the finding leaves out. DGE does not label the ἐγχωρέω examples as having an accusative subject, and in Str. 3.1.5 ταῦτα could be either case.\n- **Q04-new-07 (P's errors):** P's τὸν τῶν ἀριθμόν (Vinc. 338 n. 2) is a consistent error across two words, so P's mistakes are not all single-word slips. 'Vincent intervened freely' overstates his practice: several of his notes are only suggestions, and at 338 n. 1 he declines to emend σύμφρασις.\n- **Q04-new-08 (Smyth):** Smyth does not say these verbs 'regularly' take accusative + infinitive; that word is used only for δεῖ and χρή. §1982a says the personal construction is more common with συμβαίνει.\n\nNotes on confirmed findings:\n- **Q04-09:** LSJ also gives σύμφρασις as a manuscript variant in Philolaus fr. 10, a passage on harmonia. So a harmonic context does exist for the word.\n- **Q04-10:** the CLD BBAW page returned 403. I verified it through LSJ (lsj.gr) and Bailly 2024 (Logeion) instead.\n\nAll downloads and scripts are in (local working folder) One curl download (c228.html) landed in the project root by mistake when a cd failed. I moved it to work-v/furman right away and opened no project files."
+}

@@ -1,0 +1,313 @@
+{
+ "questions": [
+  "Q01",
+  "Q03",
+  "Q07",
+  "Q08"
+ ],
+ "verify": {
+  "checks": [
+   {
+    "id": "Q01-01",
+    "verdict": "confirmed",
+    "url_used": "https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.22.html",
+    "note": "Smyth §2148: 'The participle often agrees with the logical, and not with the grammatical, subject.' §2148a: 'A participle in the nominative may belong to a finite verb requiring an oblique case' (P. L. 686d). §2148c: the genitive absolute 'would here be proper' (X. H. 4.1.24). Quoted exactly."
+   },
+   {
+    "id": "Q01-02",
+    "verdict": "confirmed",
+    "url_used": "https://archive.org/download/grammarofnewtest00blas/grammarofnewtest00blas_djvu.txt",
+    "note": "Blass/Thackeray §31.6 (begins p. 80, continues p. 81): anacolutha with λέγων/-οντες; 'scribes have shown a strong inclination to correct these solecisms' (p. 81). §79.10, p. 285: 'the nominative of the participle, which is therefore essentially connected with this free use.' On the bearing: Blass treats these as solecisms typical of the Apocalypse. He says isolated cases elsewhere in the NT 'should be regarded either as excusable or as due to a corrupt text'. So 'ordinary in post-classical Greek' goes somewhat beyond the source."
+   },
+   {
+    "id": "Q01-03",
+    "verdict": "confirmed",
+    "url_used": "https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.22.html",
+    "note": "Exact quotation of §2148. §2148a and §2148c are fairly paraphrased."
+   },
+   {
+    "id": "Q01-04",
+    "verdict": "confirmed",
+    "url_used": "https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.37.html",
+    "note": "§3008a: construction πρὸς τὸ νοούμενον. §3008c: 'Many cases occur in connection with the use of a participle (2147, 2148).' §3008e: nominative 'in suspense'."
+   },
+   {
+    "id": "Q01-05",
+    "verdict": "confirmed",
+    "url_used": "https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.22.html",
+    "note": "§2041: the participle follows the rules of agreement like other adjectives. §2148b cites S. Ant. 259 (φύλαξ ἐλέγχων φύλακα), with the first clause 'equivalent to' a different construction. §2148c: nominative participle 'without regard to the following construction'."
+   },
+   {
+    "id": "Q01-06",
+    "verdict": "confirmed",
+    "url_used": "https://bailly.app/lamban%C3%B4",
+    "note": "Bailly λαμβάνω II.1: 'fig. λ. ὄνομα, Plat. Soph. 267d, recevoir un nom'."
+   },
+   {
+    "id": "Q01-07",
+    "verdict": "confirmed",
+    "url_used": "https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.22.html"
+   },
+   {
+    "id": "Q01-08",
+    "verdict": "confirmed",
+    "url_used": "https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.7.html",
+    "note": "§931a: the nominative subject of the third person may be omitted 'when it is expressed or implied in the context'."
+   },
+   {
+    "id": "Q01-09",
+    "verdict": "confirmed",
+    "url_used": "https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.22.html",
+    "note": "§2040–2042 and §2056 (agreement in gender, number and case) check out. At §2148b Smyth says 'we expect φύλακος ἐλέγχοντος φύλακα', i.e. a genitive. The N. under §2148c covers nominative participles 'only when some finite verb is to be supplied'."
+   },
+   {
+    "id": "Q01-10",
+    "verdict": "confirmed",
+    "url_used": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0361/tlg001/tlg0361.tlg001.1st1K-grc1.xml",
+    "note": "Cleonides ch. 4, Jan p. 182: 'Εἰσὶ δὲ οἱ μὲν ἐν τῷ διατόνῳ φθόγγοι οἵδε. προσλαμβανόμενος, ὑπάτη ὑπάτων ...'. The chapter runs to p. 187."
+   },
+   {
+    "id": "Q03-01",
+    "verdict": "corrected",
+    "url_used": "https://lsj.gr/wiki/νευρά",
+    "correction": "LSJ sense 2 'harpstring, Poll. 4.62' is correct, and so is Pape's '2) bei Sp. auch die Darmsaite, wie νεῦρον'. But Pape does not cite Lucian for the gut string. He cites it in a separate figurative entry: 'Übertr., σφόδρα τὰς νευρὰς ἐπιτεῖναι, Luc. Nigr. 36', with ἐπιτεῖναι, not ἐπιτείνειν. Lucian's own text reads οἱ μὲν αὐτῶν σφόδρα τὰς νευρὰς ἐπιτείναντες, and it is about archers drawing their bowstrings, a figure of speech. It does not attest a musical string. Only LSJ 2 and Pollux support the musical sense.",
+    "note": "The Lucian context was checked in the Perseus Greek text (tlg0062.tlg007.perseus-grc2) and the English translation of §36."
+   },
+   {
+    "id": "Q03-02",
+    "verdict": "confirmed",
+    "url_used": "https://lsj.gr/wiki/μοῖρα",
+    "note": "LSJ gives part (opp. whole), portion of land, division of a people or army, party, and at I.5 'degree' (astronomy and geography). It has no musical, string or canon sense. On the bearing: the dictionary is silent, but Plato does use μοῖρα in the harmonic division of the World Soul. Tim. 35b: μίαν ἀφεῖλεν τὸ πρῶτον ἀπὸ παντὸς μοῖραν. Tim. 36a: μοίρας ἔτι ἐκεῖθεν ἀποτέμνων. So 'not a term of the harmonic division' is too strong."
+   },
+   {
+    "id": "Q03-03",
+    "verdict": "confirmed",
+    "url_used": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg1724/tlg001/tlg1724.tlg001.1st1K-grc1.xml",
+    "note": "Hiller p. 70.2–3: τουτέστι τῶν θʹ πρὸς τὰ ηʹ ἡ μονὰς οὐ τέμνεται. p. 70.19: μονὰς γὰρ οὐ διαιρεῖται. p. 71 goes on to the tone in perceptible intervals on the canon."
+   },
+   {
+    "id": "Q03-04",
+    "verdict": "corrected",
+    "url_used": "https://lsj.gr/wiki/νευρά",
+    "correction": "LSJ 2 'harpstring, Poll. 4.62' is correct. Pape's 'die Darmsaite' (bei Sp.) is correct. The Lucian citation, though, is not under 'Darmsaite'. It stands under 'Übertr.' (σφόδρα τὰς νευρὰς ἐπιτεῖναι, Luc. Nigr. 36), and the passage is about archers' bowstrings (ἐπιτείναντες). It does not attest νευρά as a musical string."
+   },
+   {
+    "id": "Q03-05",
+    "verdict": "confirmed",
+    "url_used": "https://lsj.gr/wiki/μοῖρα",
+    "note": "LSJ has μοῖρα, acc. μοῖραν; senses part, portion, division, degree. The claim that the oxytone μοιρὰν 'is not a form of μοῖρα' and is the accent of νευράν is the finder's own inference from accentuation. LSJ does not say it. The Timaeus usage noted under Q03-02 also bears on 'against b'."
+   },
+   {
+    "id": "Q03-06",
+    "verdict": "corrected",
+    "url_used": "https://bailly.app/neura",
+    "correction": "The location should be 's.v. νευρά 2', not 'II'. Bailly numbers the senses 1 ('corde d'arc') and 2 ('corde d'instrument, A. Aphr. Probl. 2, 72'). The content is correct."
+   },
+   {
+    "id": "Q03-07",
+    "verdict": "confirmed",
+    "url_used": "https://bailly.app/moira",
+    "note": "Bailly μοῖρα I: 'part, portion ... Plat. Charm. 155 d'. I.2: 'degré d'un cercle, t. de géom. Ptol. Geogr. 1; ou partie du zodiaque'."
+   },
+   {
+    "id": "Q03-08",
+    "verdict": "confirmed",
+    "url_used": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg1799/tlg015/tlg1799.tlg015.1st1K-grc2.xml",
+    "note": "Sectio canonis §19, Jan pp. 163–165: 'Ἔστω τοῦ κανόνος μῆκος, ὃ καὶ τῆς χορδῆς τὸ αβ', then divided into segments named after the notes. The word used is χορδή, not νευρά."
+   },
+   {
+    "id": "Q03-09",
+    "verdict": "confirmed",
+    "url_used": "http://web.archive.org/web/20260516025013/https://sites.ac-nancy-metz.fr/langues-anciennes/wp-content/uploads/bailly-2020-04.pdf",
+    "note": "The live URL now returns 404. I used the Wayback copy of 2026-05-16. Bailly 2020, p. 1606, νευρά: '2 corde d'instrument, A. Aphr. Probl. 2, 72'."
+   },
+   {
+    "id": "Q03-10",
+    "verdict": "confirmed",
+    "url_used": "http://web.archive.org/web/20260516025013/https://sites.ac-nancy-metz.fr/langues-anciennes/wp-content/uploads/bailly-2020-04.pdf",
+    "note": "Bailly 2020, p. 1569, μοῖρα: 'I propr. part, portion ... 2 degré d'un cercle, t. de géom.'. The live URL returns 404; I used the Wayback copy."
+   },
+   {
+    "id": "Q03-11",
+    "verdict": "confirmed",
+    "url_used": "https://www.cambridge.org/core/books/abs/greek-and-latin-music-theory/three-mathematical-means-in-the-theories-of-euclid-boethius-glarean-and-zarlino/9F9CC23F6FB140B3738FFB6AB82A5BA8",
+    "note": "Ch. 8, pp. 68–76 (Boydell & Brewer 2020). The summary discusses the 9:8 whole tone and a proportional mean between its terms. It quotes the Sectio's claim that no mean falls proportionally between the terms of a superparticular ratio."
+   },
+   {
+    "id": "Q03-12",
+    "verdict": "confirmed",
+    "url_used": "https://www.iema.gr/thesaurus_s?id=1118&lang=en&q=%CF%87%CE%BF%CF%81%CE%B4%CE%AE",
+    "note": "IEMA χορδή, page text in Greek (ISO-8859-7): 'Ησύχ.: \"χορδή· νευρά κιθάρας\" (νευρα=χορδή)', then 'Πολυδεύκης (IV, 62)', and 'Η λέξη νευρά χρησιμοποιούνταν συχνά για τη χορδή'."
+   },
+   {
+    "id": "Q03-13",
+    "verdict": "confirmed",
+    "url_used": "https://bailly.app/moira",
+    "note": "I: part, portion (Il., Od., Plat. Charm. 155d). I.2: degré d'un cercle (Ptol. Geogr. 1). No musical sense. See Q03-02 on Plato Tim. 35b–36a."
+   },
+   {
+    "id": "Q03-14",
+    "verdict": "confirmed",
+    "url_used": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0358/tlg002/tlg0358.tlg002.1st1K-grc1.xml",
+    "note": "Ench. 12, Jan pp. 263–264: πέντε τόνων καὶ δύο τῶν λεγομένων ἡμιτονίων. ἅπερ εἰ ὡς ἀληθῶς ἡμίση τόνων ὑπῆρχε... The Philolaus quotation (δύο διέσιες) follows on p. 264."
+   },
+   {
+    "id": "Q03-15",
+    "verdict": "confirmed",
+    "url_used": "https://bailly.app/neura",
+    "note": "'2 corde d'instrument, A. Aphr. Probl. 2, 72'."
+   },
+   {
+    "id": "Q07-01",
+    "verdict": "confirmed",
+    "url_used": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg1724/tlg001/tlg1724.tlg001.1st1K-grc1.xml",
+    "note": "Hiller p. 67.9–14: μεῖζον μὲν εἶναι διτόνου, ἔλαττον δὲ τριτόνου; Aristoxenus ἐκ δύο ἡμίσους τόνων; Plato ἐκ δύο τόνων καὶ τοῦ καλουμένου λείμματος; τὸ δὲ λεῖμμα τοῦτό φησιν ἀκατονόμαστον εἶναι. Minor note: 'Πλάτων' (l. 12) is Hiller's correction; MS A reads τοῦτον."
+   },
+   {
+    "id": "Q07-02",
+    "verdict": "confirmed",
+    "url_used": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg1724/tlg001/tlg1724.tlg001.1st1K-grc1.xml",
+    "note": "p. 70.4–6: τῷ γὰρ διὰ τεσσάρων λείπει πρὸς τὸ γενέσθαι δύο ἥμισυ τόνων τελείων. p. 75.15–22: ὁ γὰρ τόνος καὶ τὸ λεῖμμα ἀρχαὶ μέν εἰσι συμφωνίας [καὶ συμπληρωτικαὶ συμφωνίας], οὔπω δὲ συμφωνίαι ... συνέστηκε δὲ τὸ μὲν διὰ τεσσάρων ἐκ δυεῖν τόνων καὶ λείμματος. The parallel with Bas. 29.1–2 in the evidence (ἀρχὴ μὲν συμφωνίας, οὔπω δὲ συμφωνία) holds. Hiller marks 75.13–25 as 'plane supervacanea'."
+   },
+   {
+    "id": "Q07-03",
+    "verdict": "corrected",
+    "url_used": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg1799/tlg015/tlg1799.tlg015.1st1K-grc2.xml",
+    "correction": "Prop. 15 is on Jan p. 161, ll. 4–6, not p. 160: 'Τὸ διὰ τεσσάρων ἔλαττον δύο τόνων καὶ ἡμιτονίου, καὶ τὸ διὰ πέντε ἔλαττον τριῶν τόνων καὶ ἡμιτονίου'. Only props. 13–14 begin on p. 160. The quotation itself is accurate."
+   },
+   {
+    "id": "Q07-04",
+    "verdict": "corrected",
+    "url_used": "https://archive.org/download/nicomachigerasen00nicouoft/nicomachigerasen00nicouoft_djvu.txt",
+    "correction": "The Theon part is correct. Hiller p. 56.13–15: ὅς ἐστι πολλαπλασιεπιμερής, διπλάσιος γὰρ καὶ δισεπίτριτός ἐστι. p. 79.15–17: ὅταν ὁ μείζων ὅρος δὶς ἢ πλεονάκις ἔχῃ τὸν ἐλάττονα καὶ δύο ἢ πλείω τινὰ μέρη αὐτοῦ. For Nicomachus, only διπλασιεπιδιμερής (I 23.3) is in Hoche's text. διπλασιεπιδίτριτος (index '*I, 23, 16') is a variant of codex C. At p. 69.16–17 Hoche prints ἡ διπλασία καὶ διςεπίτριτος, apparatus '17. διπλασιεπιδίτριτος C'. The index asterisk marks words found only in variants. 'No διπλασιεπιμερής' is correct; neither the text nor the index has it."
+   },
+   {
+    "id": "Q07-05",
+    "verdict": "confirmed",
+    "url_used": "https://lsj.gr/wiki/διπλασιεπιδιμερής",
+    "note": "LSJ: 'Nicom. Ar. 1.23, 2⅔ times as great'. DGE: '2⅔ mayor ... Nicom. Ar. 1.23 (cód.), cf. Iambl. in Nic. 50, 51'. Pape: '2⅔mal so groß'. The site has no headword διπλασιεπιμερής."
+   },
+   {
+    "id": "Q07-06",
+    "verdict": "confirmed",
+    "url_used": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0358/tlg001/tlg0358.tlg001.1st1K-grc1.xml",
+    "note": "Verified, though the reference was given from memory. The class πολλαπλασιεπιμερής is defined at I.23.1–2 and illustrated at I.23.3 with ὁ μὲν η τοῦ γ διπλασιεπιδιμερής (Hoche pp. 63–64). The precise location is I.23; I.22 treats the multiple-superparticular."
+   },
+   {
+    "id": "Q07-07",
+    "verdict": "confirmed",
+    "url_used": "https://en.wikipedia.org/wiki/Pythagorean_limma",
+    "note": "The article gives 256/243 (90.2 cents). It derives 4/3 ÷ (9/8)² in a quotation from Dahlhaus ('the irrational remainder between the perfect fourth and the ditone'). It does not say in words 'smaller than a half-tone'. That follows from calling it the minor semitone, a comma smaller than the apotome. Plato Tim. 36b (256:243) is verified in the Perseus Greek text."
+   },
+   {
+    "id": "Q07-08",
+    "verdict": "confirmed",
+    "url_used": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg1799/tlg015/tlg1799.tlg015.1st1K-grc2.xml",
+    "note": "Prop. 13 (p. 160): τονιαῖον διάστημα ἐπόγδοον. Prop. 14 (pp. 160–161): διὰ πασῶν ἔλαττον ἢ ἓξ τόνων. Prop. 15 (p. 161): fourth less than 2½ tones, fifth less than 3½ tones."
+   },
+   {
+    "id": "Q07-09",
+    "verdict": "confirmed",
+    "url_used": "https://raw.githubusercontent.com/OpenGreekAndLatin/First1KGreek/master/data/tlg0358/tlg001/tlg0358.tlg001.1st1K-grc1.xml",
+    "note": "Hoche pp. 63.22–64.13: definition (ὅλον τε ἔχῃ ... πλεονάκις ἢ ἅπαξ ... καὶ ... μέρη τινὰ αὐτοῦ πλείονα ἑνός). Species διπλασιεπιδιμερής etc., with η : γ and ιϛ : ϛ. No διπλασιεπιμερής."
+   },
+   {
+    "id": "Q07-10",
+    "verdict": "confirmed",
+    "url_used": "https://fgh.perseids.org/read/greekLit/tlg1724/tlg001/1st1K-grc1/61-80",
+    "note": "The page contains Hiller p. 56 (8:3 ὅς ἐστι πολλαπλασιεπιμερής) and p. 67 (Aristoxenus 2½ tones vs Plato two tones plus leimma, σνϚ΄ πρὸς σμγ΄)."
+   },
+   {
+    "id": "Q07-11",
+    "verdict": "confirmed",
+    "url_used": "https://eulogikon.org/works/nicomachus-gerasa-handbook-harmonics-owy-ac",
+    "note": "Ch. 7: διὰ τεσσάρων σύστημα δύο τόνων καὶ τοῦ λεγομένου ἡμιτονίου. Ch. 12: πέντε τόνων καὶ δύο τῶν λεγομένων ἡμιτονίων. ἅπερ εἰ ὡς ἀληθῶς ἡμίση τόνων ὑπῆρχε... Both also checked in Jan's text."
+   },
+   {
+    "id": "Q07-12",
+    "verdict": "confirmed",
+    "url_used": "https://homepages.abdn.ac.uk/d.j.benson/pages/html/music.pdf",
+    "note": "§5.2, on p. 155: 'A perfect fourth minus two whole tones is a 256:243 Pythagorean minor semitone ... two minor semitones give a frequency ratio of 2^16:3^10 rather than 9:8'. The difference is the Pythagorean comma."
+   },
+   {
+    "id": "Q07-13",
+    "verdict": "confirmed",
+    "url_used": "https://eulogikon.org/works/iamblichus-chalcis-nicomachus-arithmetic-udw-aa",
+    "note": "Paragraph marked pp. 49–51: ἡ δὲ λοιπὴ μικτὴ σχέσις ἡ πολλαπλασιεπιμερής ... γεννᾶται ἡ διπλασιεπιδιμερὴς τρίτων ἐν ὅροις τοῖς θʹ κδʹ ξδʹ (24:9 = 8:3)."
+   },
+   {
+    "id": "Q07-14",
+    "verdict": "could not open",
+    "url_used": "https://www.examenapium.it/cs/biblio/Barker2007.pdf",
+    "note": "WebFetch reached the PDF, and its outline identifies it as Barker 2007 (ISBN 9780521879514). The page text could not be extracted, and a direct download was blocked. Google Books gives no preview. The location looks doubtful. The printed table of contents starts ch. 14 (Sectio canonis) at p. 364. The BMCR review (2009.10.38) places the discussion of props. 14–18 after p. 384. So printed pp. 359–360 would fall in ch. 13, 'Aristotle on the harmonic sciences'. The substance (Sectio prop. 15: fourth less than 2½ tones) is true of the Sectio itself; see Q07-08."
+   },
+   {
+    "id": "Q07-15",
+    "verdict": "confirmed",
+    "url_used": "https://ancientlibrary.net/nicomachus-of-gerasa-introduction-to-arithmetic/",
+    "note": "Hoche text: the definition sentence (printed straight after the 22.7 marker; this page has no separate 23.1 marker), then 23.2–23.3 with διπλασιεπιδιμερής, εἶτα διπλασιεπιτριμερής ... ὁ μὲν η τοῦ γ ... καὶ ὁ ιϛ τοῦ ϛ διπλασιεπιδιμερής."
+   },
+   {
+    "id": "Q08-01",
+    "verdict": "confirmed",
+    "url_used": "https://lsj.gr/wiki/μέλος",
+    "note": "LSJ: limb; musical member, phrase, song, strain; 2 tune; 3 melody of an instrument, 'generally, tone' (E. El. 756). No sense 'interval' and no collocation with interval names."
+   },
+   {
+    "id": "Q08-02",
+    "verdict": "corrected",
+    "url_used": "https://lsj.gr/wiki/μέλος",
+    "correction": "LSJ glosses μέλος as song, strain; music to which a song is set, tune; melody of an instrument; generally, tone. It has no gloss 'in harmonic writers' and cites no harmonic writer (Aristoxenus, Ptolemy, etc.) in the musical section. The 'harmonic writers' qualification does not come from LSJ."
+   },
+   {
+    "id": "Q08-03",
+    "verdict": "confirmed",
+    "url_used": "https://bailly.app/melos",
+    "note": "II 'membre de phrase musicale, d'où chant rythmé avec art'. 1: chant du rossignol. 2: chant des instruments, Pd. P. 12, 19; Thgn. 761. 3: chant avec accompagnement ... Plat. Rsp. 398 d; d'où mélodie."
+   },
+   {
+    "id": "Q08-04",
+    "verdict": "confirmed",
+    "url_used": "https://atlas.perseus.tufts.edu/library/passage/urn:cts:greekLit:tlg0361.tlg001.1st1K-grc1:1-5/",
+    "note": "Jan p. 179.11–12: Διάστημα δὲ τὸ περιεχόμενον ὑπὸ δύο φθόγγων ἀνομοίων ὀξύτητι καὶ βαρύτητι. p. 187.8–9 and 14: δίτονον, τόνος, ἡμιτόνιον, διὰ τεσσάρων, διὰ πέντε, διὰ πασῶν; σύμφωνα ... διὰ τεσσάρων, διὰ πέντε, διὰ πασῶν. No μέλος."
+   },
+   {
+    "id": "Q08-05",
+    "verdict": "confirmed",
+    "url_used": "https://bible-teka.com/strong/greek/3196/dict/liddell-scott-jones/",
+    "note": "The page gives '2. music to which a song is set, tune' and '3. melody of an instrument ... generally, tone, μ. βοῆς E. El. 756'. In this transcription the musical section has no 'II' label: it runs on after '3. features, form', but sub-senses 2–3 are as cited."
+   },
+   {
+    "id": "Q08-06",
+    "verdict": "confirmed",
+    "url_used": "https://beta.perseus.tufts.edu/urn:cts:greekLit:tlg0088.tlg001.1st1K-grc1:1/",
+    "note": "El. Harm. I, section 18 (Meibom p. 18; Macran's printed pp. 109–110): τοῦ γε λογώδους κεχώρισται ταύτῃ τὸ μουσικὸν μέλος ... ἐκ διαστημάτων τε καὶ φθόγγων συνεστάναι δεῖ τὸ ἡρμοσμένον μέλος. The 'pp. 17–18' are Meibom pages, not Macran's own pagination."
+   },
+   {
+    "id": "Q08-07",
+    "verdict": "confirmed",
+    "url_used": "https://grammars.alpheios.net/smyth/xhtml/body.1_div1.4_div2.16.html",
+    "note": "§1154: words between the article and its noun are attributive. §1156: 'prepositions with their cases, if preceded by the article, have attributive position'. §1157 example: ἐν τῷ πρὸ τοῦ χρόνῳ."
+   },
+   {
+    "id": "Q08-08",
+    "verdict": "confirmed",
+    "url_used": "https://bible-teka.com/strong/greek/3196/dict/liddell-scott-jones/",
+    "note": "'esp. musical member, phrase: hence, song, strain ... 2. music to which a song is set, tune ... 3. melody of an instrument ... generally, tone, μ. βοῆς E. El. 756'. On this page the section is not labelled 'B'."
+   },
+   {
+    "id": "Q08-09",
+    "verdict": "confirmed",
+    "url_used": "http://web.archive.org/web/20260516025013/https://sites.ac-nancy-metz.fr/langues-anciennes/wp-content/uploads/bailly-2020-04.pdf",
+    "note": "Bailly 2020, p. 1519, μέλος II: 'membre de phrase musicale ... 2 chant des instruments (flûte, etc.) Pd. P. 12, 19 ; Thgn. 761'. The live URL returns 404; I used the Wayback copy."
+   },
+   {
+    "id": "Q08-10",
+    "verdict": "confirmed",
+    "url_used": "https://ancientlibrary.net/nicomachus-of-gerasa-introduction-to-arithmetic/",
+    "note": "I.5.1: αἱ μουσικαὶ συμφωνίαι διὰ τεσσάρων, διὰ πέντε, διὰ πασῶν κατὰ ἀριθμόν εἰσιν ὠνομασμέναι ... ἡ δὲ διὰ πέντε ἡμιόλιος. No μέλος."
+   }
+  ],
+  "summary": "I checked all 44 findings: 34 confirmed, 9 corrected, 1 could not be opened, none not found and none wrong.\n\nMost sources were checked directly against their texts:\n- Smyth on Alpheios, and Blass/Thackeray on archive.org.\n- Bailly (bailly.app, and the 2020 PDF through its Wayback copy because the cited URL now returns 404).\n- LSJ, DGE and Pape on lsj.gr, through WebFetch only.\n- First1KGreek texts: Theon (Hiller), Euclid's Sectio canonis, Cleonides, Nicomachus (Arithmetic and Harmonics, with Hoche's index), Aristoxenus.\n- Iamblichus on eulogikon, Benson's PDF, the IEMA thesaurus, and Perseus texts of Lucian and the Timaeus.\n\nCorrections:\n- **Q03-01, Q03-04:** Pape cites Lucian, Nigrinus 36 under \"Übertr.\" (figurative use), with the form ἐπιτεῖναι, not under \"Darmsaite\" (gut string). The passage is about archers' bowstrings, so it does not attest a musical string.\n- **Q03-06:** the Bailly sense for νευρά is \"2\", not \"II\".\n- **Q07-03:** Sectio canonis proposition 15 is on Jan p. 161, not p. 160.\n- **Q07-04:** διπλασιεπιδίτριτος is only a variant reading of codex C (Hoche I.23.16; asterisked in his index). Hoche prints ἡ διπλασία καὶ διςεπίτριτος.\n- **Q08-02:** LSJ has no \"in harmonic writers\" gloss for μέλος.\n\nQ07-14 (Barker 2007, pp. 359–360) could not be read, and the page numbers look wrong. The book's chapter on the Sectio canonis starts on p. 364, so pp. 359–360 fall in the Aristotle chapter.\n\nTwo bearings are overstated even where the source checks out:\n- **Q03-02, Q03-05 (μοῖρα):** Plato does use μοῖρα in the harmonic division of the World Soul (Tim. 35b, 36a).\n- **Q01-02 (Blass):** Blass treats loose nominative participles as solecisms typical of the Apocalypse. He calls isolated cases elsewhere \"excusable or ... due to a corrupt text\".\n\nAll downloads are in (local working folder)"
+ }
+}

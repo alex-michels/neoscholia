@@ -1,0 +1,76 @@
+{
+ "blocking": false,
+ "summary": "Second review of wf12/pkg. I found no real leak. None of the package files names or implies the printed option or the editor's provisional decision: no \"adopted\", \"kept\", \"currently\" or \"editor\", no decision notes, and no edition-only forms (the edition's σύμφθαρσις for Q04 appears nowhere). I compared all 7 questions with text.json doubts (printed: Q02 e, Q04 b, Q05 b, Q06 c, Q09 b, Q11 b, Q15 a) and with editor-decisions-provisional.json (same, except Q09 c).\n\nThe evidence files hold only witness data. Their one decision-like item is Xylander's printed marginal note at Bas. 25.7, which is a fact of Bas.\n\nprior-references.json does not leak the earlier judges' votes. It has no tallies, no judge names and no adoption language. I checked every bears_on label against the current option texts and the relabelling is consistent. The weight of references does not track the printed options either: Q02 leans to c while e is printed; Q05 opens with refs for a while b is printed; Q15 is heavy for c while a is printed.\n\nThe first-review fixes hold, with one partial exception and some leftovers:\n- Xylander's supplement is now correctly called a conjecture, but Vincent's own corrections are still labelled only \"Vincent's print\". The same word \"print\" echoes PROMPT's \"which one is printed now\", and it sits on the printed option in Q04, Q05, Q09 and Q11.\n- Some facts are missing or argument-shaped. Q04 lacks the main-text parallel Bas. 26.1–3, and its \"P careless\" footnote list mirrors the editor's argument for b. Q05 lacks P's own τοῖς ἀριθμητικοῖς (Vinc. 342.4). Q11 omits the content of Vincent's n. 1 («Ms. μονάδος»).\n- PROMPT.md describes P's passages inaccurately: the first is a reworded doublet of Bas. 26.1–27.3. Its ban on Vincent's whole 2448 section may also hide the most direct evidence for Q09.\n\nNone of these is blocking, but items 1–3 and 5–6 should be fixed before dispatch.",
+ "issues": [
+  {
+   "file": "questions.json",
+   "where": "Q04 option b; Q09 option b; Q05 option b; Q11 option b (compare Q02 option e)",
+   "problem": "Editors' interventions are labelled inconsistently. Xylander's supplement (Q02 e) is labelled \"a conjecture\". Vincent's departure from P in Q04 b is a correction (his n. 3: «Ms. ἡ σύμφρασις»), yet it is labelled only \"(Vincent's print)\". The same goes for Q09 b, which is Vincent's supplement if the brackets mark one. Under PROMPT's principle \"Conjecture only where no witness gives an acceptable text\", this makes the printed option b look backed by a witness in both questions. The labels also disagree for the same situation: Q05 b says \"(P, Vincent's print)\" and Q11 b says \"(Vincent's print)\", though both rest only on the absence of a note. The word \"print\" also echoes PROMPT line 94 (\"which one is printed now\"). It sits on the printed option in all four P questions, and it is b every time.",
+   "severity": "medium",
+   "fix": "Use one scheme and drop the word \"print\". Q04 b: \"τὴν σύμφρασιν (Vincent's correction; P has ἡ σύμφρασις, his n. 3)\". Q09: a \"ἡ δίεσις (P's reading, if the brackets mark a deletion)\"; b \"⟨ἡ⟩ δίεσις (Vincent's supplement, if the brackets mark one)\"; c \"δίεσις (P's reading if the brackets mark a supplement; Vincent's text if they mark a deletion)\". Q05 b and Q11 b both: \"(P as given by Vincent, no note)\". Optionally shorten Q02 e to \"(a conjecture: Xylander's marginal note)\"."
+  },
+  {
+   "file": "questions.json",
+   "where": "Q04 facts and evidence_file",
+   "problem": "Two problems. (1) The facts leave out that P's first passage (Vinc. 338.4–25) is a reworded version of Bas. 26.1–27.3: εἰ γὰρ καὶ ἡ μονὰς οὐ τέμνεται κατὰ τοὺς ἀριθμούς, ἀλλ’ ἡ ἐν ὕλῃ βλεπομένη μονὰς τέμνεται γεωμετρικῶς … That model sentence uses a personal construction with a nominative subject in its second member, which bears on a vs b. Q04's evidence_file is section-3, whose Bas./H/Par./V lines begin at 27.5, so a Q04 researcher will not see this. (2) The last fact lists P's other slips on the page (τοῦ, τέμνει, ἑνδ.), which together with n. 2 is exactly the editor's case for the printed b. Only τοῦ is given with Vincent's printed form. The net effect tilts the facts toward b.",
+   "severity": "medium",
+   "fix": "Add a fact: \"Vinc. 338.4–25 runs parallel, in different wording, to the main text Bas. 26.1–27.3 (H, Par., V refs); Bas. 26.1–3 reads εἰ γὰρ καὶ ἡ μονὰς οὐ τέμνεται κατὰ τοὺς ἀριθμούς, ἀλλ’ ἡ ἐν ὕλῃ βλεπομένη μονὰς τέμνεται γεωμετρικῶς.\" Set evidence_file to section-2 and section-3. Replace the summarising fact with all six p. 338 footnotes in the vincent array, each with Vincent's printed form (τῆς / Ms. τοῦ; τέμνειν / Ms. τέμνει; ἑξδέκατον / Ms. ἑνδ.)."
+  },
+  {
+   "file": "PROMPT.md",
+   "where": "Witnesses table, row P (line 70)",
+   "problem": "\"He prints three passages that are absent from the other witnesses\" is inaccurate. The first passage (338.4–340.2) is a differently worded doublet of Bas. 26.1–27.3, followed by a summary of 27.5–14, and Vincent places it after 27.14. Vincent's own note at the third passage says its first paragraph is taken from the printed edition. This matters for Q04 and Q05, where the question is whether P's wording is read against the main-text version.",
+   "severity": "medium",
+   "fix": "Rewrite as: \"He prints three passages that stand at their places only in P. The first is a differently worded version of Bas. 26.1–27.3, placed after Bas. 27.14. By Vincent's own note, the first paragraph of the third is taken from the printed edition. He also reports P's readings at a few other places.\""
+  },
+  {
+   "file": "PROMPT.md",
+   "where": "Independence rules, the Vincent sub-bullet (line 54)",
+   "problem": "Q09's issue says Vincent's bracket usage \"may settle it\". The likeliest place for an explicit statement of his signs for P is his own introduction to the Paris. gr. 2448 section, which this rule forbids outright. As written, the most direct evidence for Q09 is excluded, and the same applies to whether P also has the main-text version of Bas. 26.1–27.3.",
+   "severity": "medium",
+   "fix": "Allow reading Vincent's prose in the 2448 section only for statements about his editorial signs and about what P contains. Keep the ban on his French translation and on any comment on readings. Alternatively, have the orchestrator extract any such statement and add it to the evidence before dispatch."
+  },
+  {
+   "file": "questions.json",
+   "where": "Q11 vincent array and facts",
+   "problem": "The facts say only that note 1 is attached to μονάδων. The note itself reads «Ms. μονάδος»: P has μονάδος μὴ τεμνομένων, a singular/plural discord in the very next genitive absolute, which Vincent corrected and reported (n. 2 Ms. ὅτι and n. 3 Ms. τοῦτο also fall in this sentence). This is direct evidence on how P handles number and on whether Vincent's silence at συγκρινομένων means P has it. It cuts both ways but is withheld from the question. The μέν-clause cited in the facts (Vinc. 340.25–26) is also missing from the vincent array.",
+   "severity": "low-medium",
+   "fix": "Add \"Vinc. 342 n. 1: Ms. μονάδος.\" (with n. 2 and n. 3) to the vincent array, and change the fact to: \"Vincent has no note at συγκρινομένων; his n. 1 reports Ms. μονάδος for his μονάδων (342.3).\" Add the lines Vinc. 340.24–26."
+  },
+  {
+   "file": "questions.json",
+   "where": "Q05 facts, issue and evidence_file",
+   "problem": "The facts give the parallels for a (τῇ δὲ ἀριθμητικῇ … ἀδύνατον; τῇ γεωμετρίᾳ) and for c (γεωμέτρης). They omit P's own use of the person-noun in the dative, ὅ, τι μηδὲ τοῖς ἀριθμητικοῖς οὔ πω δέδοκται (Vinc. 342.4), the closest internal parallel for c. The evidence_file is section-3, which contains neither p. 342 nor the main-text lines Bas. 26.10–24 cited in the facts (those are in section-2). The issue sentence says \"the form of the word\" without naming the word.",
+   "severity": "low-medium",
+   "fix": "Add the fact \"P at Vinc. 342.4 reads ὅ, τι μηδὲ τοῖς ἀριθμητικοῖς οὔ πω δέδοκται (n. 2 Ms. ὅτι; n. 3 Ms. τοῦτο)\". List section-2, section-3 and section-4 as evidence files. Reword the issue: \"Which form of ἀριθμητικόν in ὅπερ καὶ ἀριθμητικὸν ἀνεγχώρητον (Vincent, no note) is to be read.\""
+  },
+  {
+   "file": "questions.json",
+   "where": "Q15 option c label and fact 7",
+   "problem": "Option c is labelled \"(editorial punctuation; no witness punctuates so)\", and a separate summary fact says \"All four witnesses have a stop after συγκεκραμένον.\" Each witness's punctuation is already stated, so the point against c is made twice, and it is the edition's own main argument for the printed a. This does not reveal a vs b, but it tilts the question toward the a/b group.",
+   "severity": "low",
+   "fix": "Label c simply \"(editorial punctuation)\". Delete fact 7, which is redundant with facts 2–5, or keep it next to the existing fact that the witnesses also disagree after διάστημα."
+  },
+  {
+   "file": "questions.json",
+   "where": "Option order across all questions; Q06 issue wording",
+   "problem": "The printed option is never labelled a except in Q15. It is the last option in Q02, Q04, Q06 and Q11. The option described as Vincent's text is b in all four P questions (chance about 1 in 48). After the first-review reordering this looks over-corrected. It cannot be exploited by itself, because the descriptions already identify the transmitted option. In Q06 the issue gives the verb \"printed\" only to the printed option c (\"or printed as transmitted (c)\"), which echoes \"printed now\".",
+   "severity": "low",
+   "fix": "Re-shuffle the options with a recorded seed and regenerate the issue sentences in label order. In Q06 write \"or left as transmitted (c)\"."
+  },
+  {
+   "file": "prior-references.json",
+   "where": "Q06-06 bears_on; Q15-16 bears_on",
+   "problem": "Two leftover phrasings. Q06-06 says \"a is mathematically accurate; also c and b, since it shows the list's incompleteness\". This is incoherent for c (the list as transmitted) and looks like a relabelling slip. Q15-16 says \"c against mechanically preserving a or b\", where \"preserving\" frames a/b as the status quo. Neither reveals the printed option or any vote. No tallies, judge names or adoption words remain, and every other label matches the current option texts.",
+   "severity": "low",
+   "fix": "Q06-06: \"a is mathematically accurate; the list's incompleteness bears on b; it does not exclude c.\" Q15-16: \"c, against mechanically following the witnesses' punctuation (a or b)\"."
+  },
+  {
+   "file": "PROMPT.md",
+   "where": "Independence rules (line 46); Signs (line 83); Reference works (lines 17–42); Recording findings",
+   "problem": "Small instruction gaps:\n- \"Do not list or read any other folder\" literally forbids reading one's own downloads in the work folder.\n- The lacuna sign *** used in Q06 b is not defined.\n- Aristoxenus (Elementa harmonica, Da Rios) and Porphyry's commentary on Ptolemy (Düring) are missing from the music theorists, and no medieval Greek grammar is listed for the Byzantine-construction questions (Q04, Q11). The Cambridge Grammar of Medieval and Early Modern Greek (Holton et al.) would fill that gap.\n- Each question has a single evidence_file, while facts cite lines in other section files.\n- Researchers are not asked to cite prior-reference ids when they test claims.",
+   "severity": "low",
+   "fix": "Add \"except the work folder named in your task\". Add \"*** — lacuna\" to Signs. Add Aristoxenus, Porphyry and a medieval Greek grammar to the reference list. Add \"facts may cite lines in other section files; all are in evidence/\". Under Recording findings add \"when you test a prior reference, cite its id and say: holds / weaker / wrong\"."
+  }
+ ]
+}
