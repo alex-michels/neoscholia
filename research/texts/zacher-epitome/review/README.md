@@ -8,7 +8,7 @@
 |---|---|---|---|
 | 0.1 | GPT-6 Astra (OpenAI, Codex) | [`external/gpt-6-astra.md`](external/gpt-6-astra.md), [`external/gpt-6-astra.json`](external/gpt-6-astra.json) | 22 замечания: 20 принято (13 с уточнениями), 2 отклонено; учтено в версии 0.2. Сверка спорных мест — [`../raw/v02-verify.json`](../raw/v02-verify.json), решения — [`../arbitration-log.md`](../arbitration-log.md) |
 
-Пакет `book1-for-review.md` теперь соответствует версии 0.2. Цитаты в рецензии GPT-6 Astra относятся к версии 0.1 (коммит `812c5b3`).
+Пакет `book1-for-review.md` теперь соответствует версии 0.2. Цитаты в рецензии GPT-6 Astra относятся к версии 0.1 (коммит `67e22bc`).
 
 ## Что где лежит
 
