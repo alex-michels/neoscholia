@@ -6,8 +6,8 @@ sys.stdout.reconfigure(encoding='utf-8')
 SP = Path(sys.argv[1])
 sys.path.insert(0, str(SP))
 from merge_lib import nfc, norm_cmp, char_ops, adopt, load_json, dump_json, reason
-REPO = Path('C:/Users/user/Documents/Projects/Neoscholia/research/texts/synopsis-musicae')
-G = load_json('C:/Users/user/Documents/Projects/Neoscholia-runs/synopsis-musicae-greek/transcription-gpt-6-astra.json')
+REPO = Path(__file__).resolve().parents[2]
+G = load_json(str(Path(__file__).resolve().parents[6] / 'Neoscholia-runs' / 'synopsis-musicae-greek' / 'transcription-gpt-6-astra.json'))
 ED = load_json(sys.argv[3]) if len(sys.argv) > 3 else {}
 
 C = [load_json(REPO / f'transcriptions/claude/basel1556-greek-{p}.json') for p in ('p23-26', 'p27-30', 'p31-33')]

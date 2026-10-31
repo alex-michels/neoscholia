@@ -25,7 +25,7 @@
 
 ## Как запустить, когда пакет будет готов
 
-1. Откройте **новую** сессию Codex так, чтобы рабочей папкой была эта папка: `C:\Users\user\Documents\Projects\Neoscholia\research\texts\synopsis-musicae\independent`.
+1. Откройте **новую** сессию Codex так, чтобы рабочей папкой была эта папка: `Neoscholia\research\texts\synopsis-musicae\independent`.
 2. Выберите модель GPT-6 (или GPT-6.1 Sol), режим Ultra.
 3. Разрешите доступ в интернет.
 4. Дайте задание: «Выполни задание из файла PROMPT.md».

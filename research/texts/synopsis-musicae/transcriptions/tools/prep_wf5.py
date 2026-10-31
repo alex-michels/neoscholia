@@ -7,8 +7,8 @@ import difflib, json, re, sys, unicodedata, zlib
 from pathlib import Path
 sys.stdout.reconfigure(encoding='utf-8')
 sp = Path(sys.argv[1])
-SRC = 'C:/Users/user/Documents/Projects/Neoscholia/research/texts/synopsis-musicae/source'
-G = json.load(open('C:/Users/user/Documents/Projects/Neoscholia-runs/synopsis-musicae-greek/transcription-gpt-6-astra.json', encoding='utf-8'))
+SRC = str(Path(__file__).resolve().parents[2] / 'source')
+G = json.load(open(str(Path(__file__).resolve().parents[6] / 'Neoscholia-runs' / 'synopsis-musicae-greek' / 'transcription-gpt-6-astra.json'), encoding='utf-8'))
 H_FOL = ['64r', '64v', '65r', '65v', '66r', '66v', '67r', '67v', '68r', '68v', '69r', '69v', '70r']
 h_img = lambda f: f'{SRC}/pal-gr-281/cpgraec281_{137 + H_FOL.index(f):04d}-f{f}.jpg'
 P = '.·,:;'

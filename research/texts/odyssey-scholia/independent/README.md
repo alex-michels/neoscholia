@@ -8,7 +8,7 @@
 
 ## Как запустить
 
-1. Откройте **новую** сессию Codex так, чтобы рабочей папкой была эта папка: `C:\Users\user\Documents\Projects\Neoscholia\research\texts\odyssey-scholia\independent`.
+1. Откройте **новую** сессию Codex так, чтобы рабочей папкой была эта папка: `Neoscholia\research\texts\odyssey-scholia\independent`.
 2. Выберите модель: GPT-6 Astra или GPT-6.1 Sol.
 3. Разрешите доступ в интернет: переводчику нужны сканы Диндорфа, Евстафия, Гемина и схолий к Арату.
 4. Дайте задание: «Выполни задание из файла PROMPT.md».

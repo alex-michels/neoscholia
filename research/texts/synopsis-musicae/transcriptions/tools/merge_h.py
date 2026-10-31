@@ -9,7 +9,7 @@ SP = Path(sys.argv[1])
 sys.path.insert(0, str(SP))
 from merge_lib import nfc, char_ops, word_ops, adopt, load_json, dump_json, reason, STRIP
 ED = load_json(sys.argv[3]) if len(sys.argv) > 3 else {}
-G = load_json('C:/Users/user/Documents/Projects/Neoscholia-runs/synopsis-musicae-greek/transcription-gpt-6-astra.json')
+G = load_json(str(Path(__file__).resolve().parents[6] / 'Neoscholia-runs' / 'synopsis-musicae-greek' / 'transcription-gpt-6-astra.json'))
 
 def nfc5(s):
     """prep_wf5.nfc: rubric crosses '+', no line-end hyphen, single spaces."""

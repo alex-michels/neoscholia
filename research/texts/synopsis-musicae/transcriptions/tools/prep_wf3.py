@@ -5,7 +5,7 @@ import difflib, json, re, sys, unicodedata, zlib
 from pathlib import Path
 sys.stdout.reconfigure(encoding='utf-8')
 sp = Path(sys.argv[1])
-SRC = 'C:/Users/user/Documents/Projects/Neoscholia/research/texts/synopsis-musicae/source'
+SRC = str(Path(__file__).resolve().parents[2] / 'source')
 
 def nfc(s):
     s = unicodedata.normalize('NFC', s or '')
@@ -55,7 +55,7 @@ def v_img(f):
     return f'{SRC}/vat-pal-gr-262/Pal.gr.262_0{sc}_fa_00{n}{s}_m.jpg'
 
 # 1. Basel: 67 line differences
-bas = json.load(open('C:/Users/user/Documents/Projects/Neoscholia/research/texts/synopsis-musicae/transcriptions/basel1556-greek-comparison.json', encoding='utf-8'))
+bas = json.load(open(Path(__file__).resolve().parents[1] / 'basel1556-greek-comparison.json', encoding='utf-8'))
 for r in bas['diffs']:
     pg, ln = map(int, r['ref'].split()[1].split('.'))
     place(r['ref'], 'bas-a' if pg <= 27 else 'bas-b', bas_img(pg), r['ref'], r['claude'], r['gpt'], 'claude', 'gpt')

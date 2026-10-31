@@ -25,7 +25,7 @@
 
 ## Где запускать: папка вне репозитория
 
-`C:\Users\user\Documents\Projects\Neoscholia-runs\synopsis-musicae-latin\`
+`Neoscholia-runs\synopsis-musicae-latin\`
 
 В ней только:
 - `PROMPT.md` — копия этого задания;
@@ -38,7 +38,7 @@
 
 ## Как запустить
 
-1. Откройте **новую** сессию Codex с рабочей папкой `C:\Users\user\Documents\Projects\Neoscholia-runs\synopsis-musicae-latin`.
+1. Откройте **новую** сессию Codex с рабочей папкой `Neoscholia-runs\synopsis-musicae-latin`.
 2. Модель GPT-6 (или GPT-6.1 Sol), режим Ultra.
 3. Разрешите доступ в интернет: для словарей.
 4. Задание: «Выполни задание из файла PROMPT.md».

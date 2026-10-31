@@ -9,7 +9,7 @@ sys.path.insert(0, str(SP))
 from merge_lib import nfc, load_json, dump_json, reason
 OUT = Path(sys.argv[2])
 ED = load_json(sys.argv[3]) if len(sys.argv) > 3 else {}
-G = load_json('C:/Users/user/Documents/Projects/Neoscholia-runs/synopsis-musicae-greek/transcription-gpt-6-astra.json')
+G = load_json(str(Path(__file__).resolve().parents[6] / 'Neoscholia-runs' / 'synopsis-musicae-greek' / 'transcription-gpt-6-astra.json'))
 items = {it['id']: it for it in load_json(SP / 'wf3/decisions.json') if it['group'] == 'coll'}
 key = load_json(SP / 'wf3/places-key.json')
 

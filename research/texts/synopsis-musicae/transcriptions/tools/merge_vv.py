@@ -10,8 +10,8 @@ sys.path.insert(0, str(SP))
 from merge_lib import nfc, norm_cmp, char_ops, adopt, load_json, dump_json, reason
 OUT = Path(sys.argv[2])
 ED = load_json(sys.argv[3]) if len(sys.argv) > 3 else {}
-G = load_json('C:/Users/user/Documents/Projects/Neoscholia-runs/synopsis-musicae-greek/transcription-gpt-6-astra.json')
-L = load_json('C:/Users/user/Documents/Projects/Neoscholia-runs/synopsis-musicae-latin/transcription-latin-gpt-6-astra.json')
+G = load_json(str(Path(__file__).resolve().parents[6] / 'Neoscholia-runs' / 'synopsis-musicae-greek' / 'transcription-gpt-6-astra.json'))
+L = load_json(str(Path(__file__).resolve().parents[6] / 'Neoscholia-runs' / 'synopsis-musicae-latin' / 'transcription-latin-gpt-6-astra.json'))
 places = {p['id']: p for g in ('vincent', 'vinet') for p in load_json(SP / f'wf4/{g}-A/places.json')['places']}
 items = {it['id']: it for it in load_json(SP / 'wf4/decisions.json')}
 key = load_json(SP / 'wf4/places-key.json')

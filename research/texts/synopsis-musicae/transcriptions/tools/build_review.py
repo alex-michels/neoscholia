@@ -9,7 +9,7 @@ SP = Path(__file__).parent
 OUT = Path(sys.argv[1])
 DEBUG = len(sys.argv) > 2
 (OUT / 'img').mkdir(parents=True, exist_ok=True)
-SRC = Path('C:/Users/user/Documents/Projects/Neoscholia/research/texts/synopsis-musicae/source')
+SRC = Path(__file__).resolve().parents[2] / 'source'
 
 sys.path.insert(0, str(SP))
 from review_spec import SPEC  # list of places: id, src (wf dir), band or y, tok, line (optional), questions

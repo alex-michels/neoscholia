@@ -33,7 +33,7 @@
 
 Чтобы GPT не увидел нашу работу (git-историю, наши транскрипции, описания с чтениями), сессия идёт **в отдельной папке вне репозитория**:
 
-`C:\Users\user\Documents\Projects\Neoscholia-runs\synopsis-musicae-greek\`
+`Neoscholia-runs\synopsis-musicae-greek\`
 
 В ней только:
 - `PROMPT.md` — копия этого задания;
@@ -48,7 +48,7 @@
 
 ## Как запустить
 
-1. Откройте **новую** сессию Codex с рабочей папкой `C:\Users\user\Documents\Projects\Neoscholia-runs\synopsis-musicae-greek`.
+1. Откройте **новую** сессию Codex с рабочей папкой `Neoscholia-runs\synopsis-musicae-greek`.
 2. Модель GPT-6 (или GPT-6.1 Sol), режим Ultra.
 3. Разрешите доступ в интернет: для словарей и таблиц сокращений.
 4. Задание: «Выполни задание из файла PROMPT.md».
