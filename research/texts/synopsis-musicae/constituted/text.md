@@ -215,7 +215,7 @@
 | Bas. 26.4 | νευρὰν (Bas., Par., V) — Claude B, Claude A, GPT-6 Astra, GPT-6.1 Terra, GPT-6.1 Sol | решено |
 | P (Vinc. 338.7) | ἡ σύμφρασις (P, reported in Vincent's note) — Claude A, GPT-6 Astra, GPT-6.1 Sol; τὴν σύμφρασιν (Vincent's print) — Claude B, GPT-6.1 Terra | решено редактором 31.10: τὴν σύμφθαρσιν (винительный Венсана) |
 | P (Vinc. 338.14) | ἀριθμητικόν (P, Vincent's print) — GPT-6 Astra, GPT-6.1 Terra, GPT-6.1 Sol; ἀριθμητικῇ (a conjecture) — Claude B, Claude A | решено редактором 31.10: ἀριθμητικῇ (конъектура) |
-| Bas. 29.15-16 (after τριπλάσιος) | Keep as transmitted (Bas., H, Par., V) — GPT-6 Astra, GPT-6.1 Terra, GPT-6.1 Sol; ⟨τοῦ δὲ δὶς διὰ πασῶν τετραπλάσιος⟩ after τριπλάσιος (a conjecture) — Claude B, Claude A | решено редактором 31.10: как в свидетелях; восполнение — в аппарате |
+| Bas. 29.15-16 (after τριπλάσιος) | Keep as transmitted (Bas., H, Par., V) — GPT-6 Astra, GPT-6.1 Terra, GPT-6.1 Sol; ⟨τοῦ δὲ δὶς διὰ πασῶν τετραπλάσιος⟩ after τριπλάσιος (a conjecture) — Claude B, Claude A | решено редактором 31.10: как в источниках; восполнение — в аппарате |
 | Bas. 29.3-6, 29.11-23 | Keep both points as transmitted (Bas., H, Par., V) — Claude B, Claude A, GPT-6 Astra, GPT-6.1 Terra, GPT-6.1 Sol | решено |
 | P (Vinc. 340.8) | τὸ διὰ πέντε μέλος (Vincent's print) — Claude B, GPT-6 Astra, GPT-6.1 Terra, GPT-6.1 Sol; τὸ διὰ πέντε {μέλος}, deleted (a conjecture) — Claude A | решено |
 | P (Vinc. 340.11) | ⟨ἡ⟩ δίεσις (Vincent's print, brackets read as a supplement) — Claude B, Claude A, GPT-6.1 Terra; δίεσις, no article (P or Vincent's print, by the brackets' meaning) — GPT-6 Astra, GPT-6.1 Sol | решено редактором 31.10: δίεσις без артикля, как в P |
