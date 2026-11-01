@@ -123,3 +123,8 @@ details.review summary { cursor: pointer; font-family: var(--font-label); letter
   .process-grid div:nth-child(3) { border-left: 0; }
   .process-grid div:nth-child(n+3) { border-top: 1px solid var(--rule); }
 }
+/* section headings between paragraphs and the bibliography (texts with sections, e.g. the Synopsis of music) */
+.sec-head { font-family: var(--font-display); font-weight: 400; font-size: clamp(1.2rem, 2.1vw, 1.45rem); margin: 2.4rem 0 .4rem; scroll-margin-top: 5rem; }
+.sec-head:first-of-type { margin-top: 1rem; }
+.biblio { max-width: 48rem; font-size: .92rem; line-height: 1.5; }
+.biblio li { overflow-wrap: anywhere; }
