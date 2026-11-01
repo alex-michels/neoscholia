@@ -1,0 +1,2000 @@
+{
+ "translator": {
+  "model": "Claude Opus 5.5 (claude-opus-5-5)",
+  "provider": "Anthropic",
+  "date": "2026-10-31",
+  "web_access": "true",
+  "subagents": "None. Lexicon, doctrine, arithmetic and revision were all done by the same model instance; Python was used only for arithmetic and for assembling the output files in work/."
+ },
+ "units": [
+  {
+   "id": "U001",
+   "ru": "Точный синопсис музыки",
+   "en": "A Precise Synopsis of Music",
+   "doctrine": "Title of the music section, the second of the four mathematical synopses (after arithmetic). The order arithmetic - music follows the Platonic-Nicomachean sequence of the mathemata: Theon of Smyrna places 'music in numbers' directly after arithmetic (Expositio p. 17 Hiller).",
+   "checks": "No numbers in this unit.",
+   "notes": [
+    {
+     "ru": "ἠκριβωμένη — причастие перфекта страдательного залога от ἀκριβόω «делать точным, тщательно выверять»: заглавие обещает точность, а не только краткость. Bas. даёт обратный порядок слов (ἠκριβωμένη σύνοψις) без изменения смысла.",
+     "en": "ἠκριβωμένη is the perfect passive participle of ἀκριβόω, 'make exact, work out carefully': the title claims accuracy, not only brevity. Bas. inverts the word order (ἠκριβωμένη σύνοψις) without change of sense.",
+     "source": "LSJ s.v. ἀκριβόω [from memory]; apparatus to Bas. 23.2 [checked]"
+    },
+    {
+     "ru": "Место музыки сразу после арифметики соответствует порядку математических наук у Феона Смирнского: «после арифметики пусть будет поставлена музыка в числах» (ἡ ἐν ἀριθμοῖς μουσική).",
+     "en": "The position of music directly after arithmetic matches Theon of Smyrna's order of the mathematical sciences: 'after arithmetic let music in numbers (ἡ ἐν ἀριθμοῖς μουσική) be placed'.",
+     "source": "Theon Smyrn., Expositio rerum mathematicarum, ed. E. Hiller (1878), p. 17 [checked: archive.org scan, OCR text; page from the running head]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U002",
+   "ru": "Древние говорили, что музыка скрепляет вселенную: ведь ничто из сущего не бывает без соразмерности (συμμετρία) и пропорции (ἀναλογία).",
+   "en": "The ancients said that music holds the universe together; for none of the things that are exists without commensurability (συμμετρία) and proportion (ἀναλογία).",
+   "doctrine": "Opening commonplace of Pythagorean-Platonic origin: harmonia (music) binds the cosmos, because whatever exists rests on measure and proportion. Theon reports the Pythagorean view that music unites and fits together the many and that 'in the cosmos there is harmonia' (Expositio p. 12-13 Hiller).",
+   "checks": "No numbers in this unit.",
+   "notes": [
+    {
+     "ru": "«Древние» — пифагорейская традиция. Ср. у Феона: цель музыки — объединять и слаживать, «в космосе — гармония, в государстве — благозаконие»; ср. также сообщение Аристотеля о пифагорейцах, считавших всё небо гармонией и числом.",
+     "en": "'The ancients' are the Pythagorean tradition. Cf. Theon: the end of music is to unite and fit together, 'in the cosmos harmonia, in the city good order'; cf. also Aristotle's report that the Pythagoreans held the whole heaven to be harmonia and number.",
+     "source": "Theon Smyrn., ed. Hiller, p. 12-13 [checked: archive.org OCR]; Aristotle, Metaph. A 5, 986a2-3 [from memory]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U003",
+   "ru": "Да и ничто из возникающего, если оно возникает не с подобающей соразмерностью и пропорцией, никогда не могло бы возникнуть хорошо — будь оно искусственным или природным, воспринимаемым чувством или созерцаемым одним лишь мышлением.",
+   "en": "Nor indeed could anything that comes to be ever come to be well, if it does not come to be with the fitting commensurability and proportion — whether it be artificial or natural, whether graspable by sense or contemplated by intellection alone.",
+   "doctrine": "The principle is extended from being (U002) to becoming and to four domains (art, nature, sensibles, intelligibles): the Platonic doctrine that measure and proportion are the condition of goodness and beauty (cf. Plato, Philebus 64d-e).",
+   "checks": "No numbers in this unit.",
+   "notes": [
+    {
+     "ru": "Ср. Платон, «Филеб» 64d–e: мера и соразмерность (μετριότης καὶ συμμετρία) повсюду оказываются красотой и добродетелью.",
+     "en": "Cf. Plato, Philebus 64d-e: measure and commensurability (μετριότης καὶ συμμετρία) turn out everywhere to be beauty and excellence.",
+     "source": "Plato, Philebus 64d-e [from memory]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U004",
+   "ru": "Музыка же есть некая самосоразмерность (αὐτοσυμμετρία) и пропорция — всецело, поскольку она является гармонией (ἁρμονία) вселенной.",
+   "en": "Music is a kind of self-commensurability (αὐτοσυμμετρία) and proportion — wholly so — inasmuch as it is the harmony (ἁρμονία) of the universe.",
+   "doctrine": "Music is not a proportioned thing but proportion itself (αὐτοσυμμετρία), because it is the harmonia of the All: identification of music with the cosmic harmonia of the Pythagorean-Platonic tradition.",
+   "checks": "No numbers in this unit.",
+   "notes": [
+    {
+     "ru": "Слово αὐτοσυμμετρία не отмечено в LSJ, DGE, Bailly и Pape; оно образовано по типу платоновских αὐτο-композит: музыка — сама соразмерность, а не соразмерная вещь.",
+     "en": "αὐτοσυμμετρία is not recorded in LSJ, DGE, Bailly or Pape; it is formed like the Platonic αὐτο- compounds: music is commensurability itself, not a commensurate thing.",
+     "source": "LSJ, DGE, Bailly 2024, Pape via Logeion: no entry [checked]; LBG not consulted"
+    }
+   ],
+   "doubts": [
+    {
+     "greek": "τὸ πᾶν",
+     "issue": "Function of τὸ πᾶν, set off by commas between ἀναλογία and οἷα: adverbial accusative ('wholly, altogether') or noun in apposition ('the universe').",
+     "options": "(a) adverbial 'wholly, altogether', as the compiler himself uses τὸ πᾶν at U055 (οὐ μὴν τὸ πᾶν διὰ τόνων ... οὐδὲ τὸ πᾶν ἐκ διέσεων); (b) noun 'the All, the universe' in apposition: music is the universe, being its harmony.",
+     "choice": "(a). The adverbial use is certain in this author (U055), and (b) makes the causal clause 'inasmuch as it is the harmony of the universe' almost tautological. The play on τὸ πᾶν / τοῦ παντός (U002, U004, U005) stays visible in (a).",
+     "evidence": "LSJ s.v. πᾶς, adverbial τὸ πᾶν 'altogether' [from memory]; the author's usage at U055 [checked in the text].",
+     "alternative_ru": "Музыка же есть некая самосоразмерность и пропорция, [она —] вселенная, поскольку является гармонией вселенной.",
+     "alternative_en": "Music is a kind of self-commensurability and proportion — [it is] the universe — inasmuch as it is the harmony of the universe."
+    }
+   ]
+  },
+  {
+   "id": "U005",
+   "ru": "И пожалуй, кто-нибудь не без основания назвал бы и само божество гармонией — как самого себя, так и вселенной: в нём вселенная, слаживаемая (συναρμολογούμενον) и согласуемая (συμβιβαζόμενον), со всей ясностью предстаёт пребывающей в добром и наилучшем состоянии.",
+   "en": "And perhaps one might, not unreasonably, call the Divine itself a harmony both of itself and of the universe, in which the universe, being fitted together (συναρμολογούμενον) and brought into accord (συμβιβαζόμενον), is plainly seen to be in a good — indeed the best possible — state.",
+   "doctrine": "Theological climax of the proem: the Divine as the harmony of itself and of the All. The relative clause echoes St Paul (Eph. 2:21 ἐν ᾧ ... συναρμολογουμένη; 4:16 συναρμολογούμενον καὶ συμβιβαζόμενον), Christianizing the Pythagorean commonplace.",
+   "checks": "No numbers in this unit.",
+   "notes": [
+    {
+     "ru": "Ср. Еф. 4:16 «ἐξ οὗ πᾶν τὸ σῶμα συναρμολογούμενον καὶ συμβιβαζόμενον» и 2:21 «ἐν ᾧ πᾶσα οἰκοδομὴ συναρμολογουμένη»: составитель переносит на вселенную слова апостола о Церкви как теле. ἐν ᾧ относится к τὸ θεῖον (средний род), а не к ἁρμονία.",
+     "en": "Cf. Eph. 4:16 'ἐξ οὗ πᾶν τὸ σῶμα συναρμολογούμενον καὶ συμβιβαζόμενον' and 2:21 'ἐν ᾧ πᾶσα οἰκοδομὴ συναρμολογουμένη': the compiler transfers to the universe the apostle's words on the Church as a body. ἐν ᾧ refers to τὸ θεῖον (neuter), not to ἁρμονία.",
+     "source": "Ephesians 2:21; 4:16, SBL Greek New Testament (BibleGateway) [checked]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U006",
+   "ru": "Столь великого восхищения удостоили [древние] музыку.",
+   "en": "Of such great wonder did they deem music worthy.",
+   "doctrine": "Closing sentence of the encomium; the implied subject is οἱ παλαιοί of U002.",
+   "checks": "No numbers in this unit.",
+   "notes": [],
+   "doubts": []
+  },
+  {
+   "id": "U007",
+   "ru": "А поскольку она так созерцается во всём, всё пронизывает и всё устрояет, даруя чувству — удовольствие, природе — гармонию, мышлению — блаженство, мы вкратце поведём речь о музыке, [воспринимаемой] чувством, а вернее — о той, что созерцается в одном из чувств, в слухе.",
+   "en": "And since it is thus contemplated in all things, and pervades and orders all things, bestowing pleasure on sense, harmony on nature and blessedness on intellection, we shall treat in summary form of music in sense — or rather of the music contemplated in one of the senses, hearing.",
+   "doctrine": "Transition from cosmic to audible music. The triad sense / nature / intellection recalls the late-antique division of music into cosmic, human and instrumental, or into music in instruments, in numbers and in the cosmos (Theon p. 16-17 Hiller); the synopsis restricts itself to audible music.",
+   "checks": "No numbers in this unit.",
+   "notes": [
+    {
+     "ru": "Ср. у Феона различение музыки «в инструментах», «в числах» и «в космосе», у Боэция — mundana, humana, instrumentalis. Составитель выделяет музыку, доступную слуху. ἧς в начале фразы — соединительное относительное местоимение в родительном самостоятельном.",
+     "en": "Cf. Theon's distinction of music 'in instruments', 'in numbers' and 'in the cosmos', and Boethius' mundana, humana, instrumentalis. The compiler singles out the music accessible to hearing. ἧς at the start is a connecting relative in a genitive absolute.",
+     "source": "Theon Smyrn., ed. Hiller, p. 16-17 [checked: archive.org OCR]; Boethius, De institutione musica I.2, ed. Friedlein (1867) [from memory]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U008",
+   "ru": "Звук (φθόγγος) есть гармоничное (ἐναρμόνιος) напряжение (τάσις) непротяжённого (ἀδιάστατος) голоса.",
+   "en": "A note (φθόγγος) is a harmonious (ἐναρμόνιος) tension (τάσις) of unextended (ἀδιάστατος) voice.",
+   "doctrine": "Definition of the note that conflates Thrasyllus' 'φωνῆς ἐναρμονίου τάσις' (quoted by Theon p. 47 Hiller) with Nicomachus' 'τάσις ... φθόγγου ἀδιαστάτου' (Ench. 4). The Aristoxenian definition is different: 'φωνῆς πτῶσις ἐπὶ μίαν τάσιν' (Cleonides 1; Gaudentius 2).",
+   "checks": "No numbers in this unit.",
+   "notes": [
+    {
+     "ru": "Источник — Фрасилл у Феона: «звук есть напряжение гармоничного голоса» (φωνῆς ἐναρμονίου τάσις). Составитель переносит эпитет ἐναρμόνιος с голоса на напряжение и даёт голосу эпитет ἀδιάστατος, по-видимому, из Никомаха («напряжение есть некое пребывание и тождество по величине непротяжённого звука»). Здесь ἐναρμόνιος значит «пригодный для гармонии» (LSJ, значение I), а не «энармонический».",
+     "en": "The source is Thrasyllus in Theon: 'a note is the tension of harmonious voice' (φωνῆς ἐναρμονίου τάσις). The compiler moves ἐναρμόνιος from the voice to the tension and gives the voice the epithet ἀδιάστατος, apparently from Nicomachus ('tension is a kind of rest and sameness in magnitude of an unextended note'). Here ἐναρμόνιος means 'fit for harmony' (LSJ sense I), not 'enharmonic'.",
+     "source": "Theon Smyrn., ed. Hiller, p. 47 [checked: archive.org OCR]; Nicomachus, Enchiridion 4 (p. 7 Meibom), in K. von Jan, Musici scriptores Graeci (1895) [checked: archive.org OCR]; LSJ s.v. ἐναρμόνιος via Logeion [checked]"
+    },
+    {
+     "ru": "Аристоксеново определение иное: звук — «падение голоса на одно напряжение» (Клеонид 1: φωνῆς πτῶσις ἐμμελὴς ἐπὶ μίαν τάσιν; так же Гауденций 2).",
+     "en": "The Aristoxenian definition is different: a note is 'the incidence of the voice on one tension' (Cleonides 1: φωνῆς πτῶσις ἐμμελὴς ἐπὶ μίαν τάσιν; likewise Gaudentius 2).",
+     "source": "Cleonides, Isagoge 1; Gaudentius, Harmonica introductio 2, in Jan, MSG (1895) [checked: archive.org OCR]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U009",
+   "ru": "Интервал (διάστημα) же — определённое соотношение (σχέσις) звуков друг с другом.",
+   "en": "An interval (διάστημα) is a certain relation (σχέσις) of notes to one another.",
+   "doctrine": "Thrasyllus' definition, almost verbatim from Theon p. 48 Hiller ('διάστημα ... φθόγγων τὴν πρὸς ἀλλήλους ποιὰν σχέσιν'); Theon's examples (fourth, fifth, octave) are left out. The Aristoxenians define the interval as what is bounded by two notes unlike in pitch (Cleonides 1).",
+   "checks": "No numbers in this unit.",
+   "notes": [
+    {
+     "ru": "Почти дословно из Фрасилла у Феона; ср. аристоксеново определение у Клеонида: интервал — то, что заключено между двумя звуками, неодинаковыми по высоте и низости.",
+     "en": "Almost verbatim from Thrasyllus in Theon; cf. the Aristoxenian definition in Cleonides: an interval is what is contained by two notes unlike in highness and lowness.",
+     "source": "Theon Smyrn., ed. Hiller, p. 48 [checked: archive.org OCR]; Cleonides, Isag. 1 (Jan, MSG p. 179) [checked: archive.org OCR]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U010",
+   "ru": "Система (σύστημα) — определённый охват (περιοχή) интервалов.",
+   "en": "A system (σύστημα) is a certain compass (περιοχή) of intervals.",
+   "doctrine": "Thrasyllus in Theon p. 48 Hiller ('σύστημα δὲ διαστημάτων ποιὰν περιοχήν', with the examples tetrachord, pentachord, octachord). Cleonides 1: a system is what is composed of more than one interval.",
+   "checks": "No numbers in this unit.",
+   "notes": [
+    {
+     "ru": "Примеры Фрасилла (тетрахорд, пентахорд, октахорд) составитель приводит ниже, в U051, добавив к ним шестнадцатихорд. Опечатка Bas. περωχή исправлена по H Par. V.",
+     "en": "Thrasyllus' examples (tetrachord, pentachord, octachord) are given by the compiler later, at U051, with the sixteen-chord added. The misprint of Bas. περωχή is corrected from H Par. V.",
+     "source": "Theon Smyrn., ed. Hiller, p. 48 [checked: archive.org OCR]; apparatus to Bas. 24.18 [checked]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U011",
+   "ru": "Гармония (ἁρμονία) — упорядочение (σύνταξις) систем.",
+   "en": "Harmony (ἁρμονία) is an arrangement (σύνταξις) of systems.",
+   "doctrine": "Thrasyllus in Theon p. 48 Hiller ('ἁρμονία δέ ἐστι συστημάτων σύνταξις, οἷον Λύδιος, Φρύγιος, Δώριος'). The same three examples, in the same order, reappear at U065.",
+   "checks": "No numbers in this unit.",
+   "notes": [
+    {
+     "ru": "Здесь ἁρμονία — технический термин: строй, составленный из систем. Примеры Фрасилла — лидийская, фригийская, дорийская — появятся в U065 в том же порядке. Ср. U053: гармонии свойственно упорядочивать системы по родам.",
+     "en": "Here ἁρμονία is technical: an attunement made of systems. Thrasyllus' examples — Lydian, Phrygian, Dorian — reappear at U065 in the same order. Cf. U053: it is proper to harmony to arrange systems by genus.",
+     "source": "Theon Smyrn., ed. Hiller, p. 48 [checked: archive.org OCR]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U012",
+   "ru": "Итак, звук непротяжён, как точка (στιγμή) в геометрии; гармоничным же он называется потому, что произнесён так, чтобы мог гармонически сочетаться (ἐναρμοσθῆναι) и с другим звуком.",
+   "en": "The note, then, is unextended, like the point (στιγμή) in geometry; and it is called harmonious because it has been uttered in such a way as to be able to be harmonized (ἐναρμοσθῆναι) with another note as well.",
+   "doctrine": "The note as the indivisible element of music, like the geometrical point: Nicomachus, Ench. 12 ('φωνὴ ἄτομος, οἷον μονὰς κατ' ἀκοήν') and Excerpta 6 (unit in number, point in geometry, letter in writing). The compiler's explanation of ἐναρμόνιος (able to be joined to another note) differs from Thrasyllus' (a note that can be found higher than a high one and lower than a low one, and also a middle one: Theon p. 47).",
+   "checks": "No numbers in this unit.",
+   "notes": [
+    {
+     "ru": "Сравнение звука с точкой (и единицей) — у Никомаха: «звук есть неделимый голос, как бы единица для слуха»; «в числе — единица, в геометрии — точка, в письме — буква». Фрасилл объяснял ἐναρμόνιος иначе: звук, который может оказаться и выше высокого, и ниже низкого, и средним.",
+     "en": "The comparison of the note with the point (and the unit) is in Nicomachus: 'a note is an indivisible sound, like a unit for hearing'; 'in number the unit, in geometry the point, in writing the letter'. Thrasyllus explained ἐναρμόνιος differently: a note that can be found higher than a high one, lower than a low one, and a middle one.",
+     "source": "Nicomachus, Ench. 12 (p. 24 Meibom) and Excerpta 6 (p. 86-88 Meibom), in Jan, MSG (1895) [checked: archive.org OCR]; Theon Smyrn., ed. Hiller, p. 47 [checked]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U013",
+   "ru": "Ведь если он произнесён не так, это звук нестройный (ἀπηχής), а не гармоничный; да его и вовсе нельзя было бы назвать звуком — скорее, это какой-то шум (ψόφος), произнесённый как попало и для гармонии непригодный.",
+   "en": "For if it is not uttered in this way, it is a discordant (ἀπηχής) note, not a harmonious one; nor could it be called a note at all, but rather some noise (ψόφος) uttered at random and of no use for harmony.",
+   "doctrine": "Note versus noise: only a sound uttered so as to be combinable with others is a φθόγγος; otherwise it is ψόφος. Adrastus in Theon defines ψόφος physically, as a blow of the air (p. 50 Hiller).",
+   "checks": "No numbers in this unit.",
+   "notes": [
+    {
+     "ru": "ἀπηχής — «нестройный, неблагозвучный» (LSJ: discordant; Лукиан, Vit. auct. 10). Ψόφος у Адраста (у Феона) — удар воздуха, без музыкальной определённости. Условный период смешанный: оптатив в протасисе, индикатив в аподосисе.",
+     "en": "ἀπηχής means 'discordant, ill-sounding' (LSJ; Lucian, Vit. auct. 10). For Adrastus (in Theon) ψόφος is a blow of the air without musical definition. The conditional is mixed: optative in the protasis, indicative in the apodosis.",
+     "source": "LSJ, DGE, Pape s.v. ἀπηχής via Logeion [checked]; Theon Smyrn., ed. Hiller, p. 50 [checked: archive.org OCR]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U014",
+   "ru": "Наименования (προσηγορίαι) же звуков различны: [звуки] получают наименования по [своему] продвижению и порядку от низкого к высокому: просламбаномен, гипата низших, парипата низших, гипата диатоническая, гипата средних, парипата средних, ⟨диатоническая средних,⟩ меса просто, парамес, трита отделённая, диатоническая отделённая, нета отделённая, трита высших, диатоническая высших, нета высших.",
+   "en": "The names (προσηγορίαι) of the notes are various, [the notes] taking their names from [their] progression and order from the low to the high: proslambanomenos, hypatē hypatōn, parhypatē hypatōn, hypatē diatonos, hypatē mesōn, parhypatē mesōn, ⟨mesōn diatonos,⟩ mesē simply, paramesos, tritē diezeugmenē, diatonos diezeugmenē, nētē diezeugmenē, tritē hyperbolaiōn, diatonos hyperbolaiōn, nētē hyperbolaiōn.",
+   "doctrine": "The fifteen notes of the Greater Perfect (disjunct) System in the diatonic genus, from proslambanomenos to nete hyperbolaion. Lichanos and paranete are called 'diatonos', as in the positional names of Ptolemaic type (Nicomachus, Ench. 12 'διάτονος ὑπατῶν'; Bacchius 'ὑπάτων διάτονον'; Gaudentius 8 'μέσων διάτονος'). The conjunct (synemmenon) tetrachord is not mentioned.",
+   "checks": "With ⟨μέσων διάτονος⟩ the list has 15 names, as U015 requires (fifteen strings) and as U016 and U037 presuppose (the 8th note is the octave of the 1st, the 15th the octave of the 8th, the 11th of the 4th, the 12th of the 5th). Without the addition there are 14 names and mese would be the 7th. Verified against the Pythagorean diatonic scale (see note 1).",
+   "notes": [
+    {
+     "ru": "Подразумеваемая схема (большая полная система, диатоника). Место: имя в тексте = обычное имя (современное буквенное обозначение); далее интервал до следующего звука. 1 просламбаномен (A) — тон — 2 гипата низших (B) — полутон — 3 парипата низших (c) — тон — 4 «гипата диатоническая» = лихана низших (d) — тон — 5 гипата средних (e) — полутон — 6 парипата средних (f) — тон — 7 ⟨«диатоническая средних»⟩ = лихана средних (g) — тон — 8 меса (a) — тон (разделение) — 9 «парамес» = парамеса (b) — полутон — 10 «трита отделённая» = трита отделённых (c′) — тон — 11 «диатоническая отделённая» = паранета отделённых (d′) — тон — 12 «нета отделённая» = нета отделённых (e′) — полутон — 13 трита высших (f′) — тон — 14 «диатоническая высших» = паранета высших (g′) — тон — 15 нета высших (a′). Тетрахорды: низших 2–5, средних 5–8, отделённых 9–12, высших 12–15. Если принять просламбаномен = 6, как сам составитель в U041 (числа растут с высотой), то неподвижные звуки 4, 5, 8, 11, 12, 15 получают 8, 9, 12, 16, 18, 24; подвижные в пифагорейском строе — 6¾, 7 1/9, 9 13/27, 10 2/3, 13½, 14 2/9, 18 26/27, 21 1/3 (полутон = лимма 256:243).",
+     "en": "Implied diagram (Greater Perfect System, diatonic). Position: name in the text = standard name (modern letter); then the interval to the next note. 1 proslambanomenos (A) - tone - 2 hypatē hypatōn (B) - semitone - 3 parhypatē hypatōn (c) - tone - 4 'hypatē diatonos' = lichanos hypatōn (d) - tone - 5 hypatē mesōn (e) - semitone - 6 parhypatē mesōn (f) - tone - 7 ⟨'mesōn diatonos'⟩ = lichanos mesōn (g) - tone - 8 mesē (a) - tone (disjunction) - 9 'paramesos' = paramesē (b) - semitone - 10 'tritē diezeugmenē' = tritē diezeugmenōn (c') - tone - 11 'diatonos diezeugmenē' = paranētē diezeugmenōn (d') - tone - 12 'nētē diezeugmenē' = nētē diezeugmenōn (e') - semitone - 13 tritē hyperbolaiōn (f') - tone - 14 'diatonos hyperbolaiōn' = paranētē hyperbolaiōn (g') - tone - 15 nētē hyperbolaiōn (a'). Tetrachords: hypatōn 2-5, mesōn 5-8, diezeugmenōn 9-12, hyperbolaiōn 12-15. Taking proslambanomenos = 6, as the compiler himself does at U041 (numbers rising with pitch), the fixed notes 4, 5, 8, 11, 12, 15 get 8, 9, 12, 16, 18, 24; the movable ones, in Pythagorean tuning, 6 3/4, 7 1/9, 9 13/27, 10 2/3, 13 1/2, 14 2/9, 18 26/27, 21 1/3 (semitone = leimma 256:243).",
+     "source": "Nicomachus, Ench. 11-12; Bacchius, Isagoge (p. 2-3 Meibom); Gaudentius, Harm. 8, in Jan, MSG (1895) [checked: archive.org OCR]; Pythagorean values recomputed [checked: own computation]"
+    },
+    {
+     "ru": "Необычные формы сохранены изданием как переданные всеми свидетелями: «гипата диатоническая» (ὑπάτη διάτονος) вместо обычного ὑπάτων διάτονος / λιχανὸς ὑπάτων; определение διεζευγμένη в им. п. ед. ч., согласованное с именем звука, вместо род. п. мн. ч. διεζευγμένων; παράμεσος (форма Никомаха: «εἶτα παράμεσος μετὰ ὅλον τόνον») вместо παραμέση; μέση μόνως — «меса просто», т. е. без указания тетрахорда (H: μόν(ος) с сокращением). Русские имена даны по системе В. Г. Цыпина (низших, средних, отделённых, высших), с сохранением особенностей греческих форм.",
+     "en": "The unusual forms are kept by the edition as transmitted by all witnesses: 'hypatē diatonos' (ὑπάτη διάτονος) for the usual ὑπάτων διάτονος / λιχανὸς ὑπάτων; the qualifier διεζευγμένη in the nominative singular, agreeing with the note name, instead of the genitive plural διεζευγμένων; παράμεσος (Nicomachus' form: 'εἶτα παράμεσος μετὰ ὅλον τόνον') for παραμέση; μέση μόνως, 'mesē simply', i.e. without a tetrachord qualifier (H: μόν(ος), suspended). The English keeps the transliterated Greek forms.",
+     "source": "Nicomachus, Ench. 11 (p. 22 Meibom), in Jan, MSG [checked: archive.org OCR]; apparatus to Bas. 25.7-9 [checked]; V. G. Tsypin's forms as listed in about.md § 5 [checked]"
+    },
+    {
+     "ru": "Конъектура ⟨μέσων διάτονος⟩ (у Ксиландра ⟨διάτονος μέσων⟩) восполняет пропущенную лихану средних. Именно форму μέσων διάτονος как имя звука употребляет Гауденций («ἀπὸ μέσων διατόνου ἐπὶ παραμέσην»); порядок διάτονος ὑπερβολαίων у самого составителя говорил бы скорее за Ксиландра. На смысл это не влияет.",
+     "en": "The conjecture ⟨μέσων διάτονος⟩ (Xylander ⟨διάτονος μέσων⟩) restores the missing lichanos mesōn. Gaudentius uses exactly μέσων διάτονος as a note name ('ἀπὸ μέσων διατόνου ἐπὶ παραμέσην'); the compiler's own order in διάτονος ὑπερβολαίων would rather favour Xylander. The sense is not affected.",
+     "source": "Gaudentius, Harm. 8, in Jan, MSG [checked: archive.org OCR]; apparatus to Bas. 25.7 [checked]"
+    }
+   ],
+   "doubts": [
+    {
+     "greek": "ὑπάτη διάτονος",
+     "issue": "The standard name of the fourth note is ὑπάτων διάτονος (lichanos hypatōn). The printed ὑπάτη looks like the note name 'hypate' and gives 'diatonic hypate', which is no note of the system.",
+     "options": "(a) printed ὑπάτη taken adjectivally ('the hypate, i.e. of the hypatai, diatonos'), parallel to the compiler's adjectival διεζευγμένη in τρίτη / διάτονος / νήτη διεζευγμένη; (b) early corruption of ὑπάτων διάτονος by assimilation to the neighbouring ὑπάτη ὑπάτων and ὑπάτη μέσων.",
+     "choice": "Translate as printed (all witnesses agree; the edition keeps the author's usage) and transliterate, so that the oddity stays visible. Either way the note meant is lichanos hypatōn (d), as the position (4th) and U037 show.",
+     "evidence": "Nicomachus, Ench. 12 'διάτονος ὑπατῶν'; Bacchius, Isag. 'ὑπάτων διάτονον' (Jan, MSG) [checked]; no variant in the apparatus [checked].",
+     "alternative_ru": "…парипата низших, диатоническая низших, гипата средних…",
+     "alternative_en": "… parhypatē hypatōn, hypatōn diatonos, hypatē mesōn …"
+    }
+   ]
+  },
+  {
+   "id": "U015",
+   "ru": "Ими составляется шестнадцатихорд (ἑκκαιδεκάχορδον) в пятнадцатихорде (πεντεκαιδεκάχορδον), поскольку конец октахорда (ὀκτάχορδον) по непрерывности (κατὰ συνέχειαν) берётся началом для последующих [звуков].",
+   "en": "Through these the sixteen-chord (ἑκκαιδεκάχορδον) within a fifteen-chord (πεντεκαιδεκάχορδον) is completed, since the end of the octachord (ὀκτάχορδον) is taken, by continuity (κατὰ συνέχειαν), as the beginning for the [notes] that follow.",
+   "doctrine": "Two octachords (notes 1-8 and 8-15) share mese, so that sixteen places are realized on fifteen strings: the double octave of the Greater Perfect System, built by joining 'by continuity' (κατὰ συνέχειαν). Cf. U051, 'the continuous sixteen-chord'.",
+   "checks": "8 + 8 = 16 places; minus the shared mese = 15 strings. Correct.",
+   "notes": [
+    {
+     "ru": "«Шестнадцатихорд в пятнадцатихорде»: два октахорда по восемь звуков, соединённые общим звуком (месой), дают шестнадцать мест на пятнадцати струнах. Выражение κατὰ συνέχειαν («по непрерывности») обозначает здесь присоединение второй октавы к первой через общий звук; у теоретиков такое соединение систем общим звуком называется συναφή, в отличие от διάζευξις (разделения тоном).",
+     "en": "'The sixteen-chord within a fifteen-chord': two octachords of eight notes joined by a common note (mese) give sixteen places on fifteen strings. κατὰ συνέχειαν ('by continuity') here denotes the attachment of the second octave to the first through a shared note; the theorists call such a joining of systems by a common note συναφή, as opposed to διάζευξις (separation by a tone).",
+     "source": "Cleonides, Isagoge, chapter on systems (συναφή / διάζευξις) [from memory]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U016",
+   "ru": "Ведь какое отношение (λόγος), как обнаруживается, имеет первый звук к восьмому, такое же имеет и восьмой к пятнадцатому.",
+   "en": "For the ratio (λόγος) which the first note is seen to have to the eighth is the same as the eighth has to the fifteenth.",
+   "doctrine": "Both octaves of the double octave are in the same (double) ratio: proslambanomenos : mese = mese : nete hyperbolaion.",
+   "checks": "With the compiler's own numbers (U041): 12:6 = 24:12 = 2:1. Correct.",
+   "notes": [],
+   "doubts": []
+  },
+  {
+   "id": "U017",
+   "ru": "Вот то, что касается звуков.",
+   "en": "So much, then, for what concerns the notes.",
+   "doctrine": "Closing formula of the section on notes (μέν answered by the δέ of U018).",
+   "checks": "No numbers in this unit.",
+   "notes": [],
+   "doubts": []
+  },
+  {
+   "id": "U018",
+   "ru": "Из интервалов наименьший — диеса (δίεσις); затем полутон (ἡμιτόνιον), имеющий к высокому удвоенное приращение (παραύξησις) диесы; затем тон (τόνος), содержащий полутон дважды и отстоящий в эпогдоическом (ἐπόγδοος) отношении, как число девять к восьми, так что полутон составляет столько, сколько восемь с половиной, а диеса — столько, сколько восемь с четвертью [против восьми].",
+   "en": "Of the intervals the smallest is the diesis (δίεσις); next the semitone (ἡμιτόνιον), which has toward the high a double augmentation (παραύξησις) of the diesis; next the tone (τόνος), which contains the semitone twice and spans the epogdoic (ἐπόγδοος) ratio, as the number nine to eight; so that the semitone is as much as eight and a half, and the diesis as much as eight and a quarter [against eight].",
+   "doctrine": "Aristoxenian scale of sizes (diesis = quarter-tone < semitone = half-tone < tone), joined to the Pythagorean tone 9:8. The compiler divides the 9:8 arithmetically, 8 - 8 1/4 - 8 1/2 - 9, so that semitone = 17:16 and diesis = 33:32. Against him stand Theon p. 53 Hiller ('τὸ μέντοι ἡμιτόνιον οὐχ ὡς ἥμισυ τόνου λέγεται, ὥσπερ Ἀριστόξενος ἡγεῖται'; 9 cannot be divided into equals) and Sectio canonis 16 (the tone cannot be divided into two or more equal parts).",
+   "checks": "Cents = 1200·log2(ratio). Tone 9:8 = 203.91 c. Semitone 8 1/2 : 8 = 17:16 = 104.96 c; the remaining part 9 : 8 1/2 = 18:17 = 98.95 c, so the two 'halves' are unequal. Diesis 8 1/4 : 8 = 33:32 = 53.27 c; next step 8 1/2 : 8 1/4 = 34:33 = 51.68 c. Squares: (33:32)^2 = 1089:1024, not 17:16 = 1088:1024; (17:16)^2 = 289:256, not 9:8 = 288:256. The 'doubling' holds for the excesses (1/4, 1/2, 1 over 8), not for the ratios. True half-tone = √(9/8) = 101.96 c; true quarter = 50.98 c. Pythagorean leimma 256:243 = 90.22 c, apotome 2187:2048 = 113.69 c.",
+   "notes": [
+    {
+     "ru": "Тон 9:8 делится арифметически: 8 — 8¼ — 8½ — 9, т. е. полутон = 8½:8 = 17:16, диеса = 8¼:8 = 33:32. «Удвоение» верно лишь для избытков (¼, ½, 1), но не для отношений: 17:16 и 18:17 неравны, а (33:32)² ≠ 17:16. Пифагорейцы отрицают деление тона пополам (Феон: полутон называется так «не как половина тона, как полагает Аристоксен», ибо девять не делится на равные части; Sectio canonis, предл. 16). Составитель берёт аристоксеновы величины (диеса = ¼ тона, полутон = ½), но выражает их пифагорейскими числами.",
+     "en": "The tone 9:8 is divided arithmetically: 8 - 8 1/4 - 8 1/2 - 9, i.e. semitone = 8 1/2 : 8 = 17:16, diesis = 8 1/4 : 8 = 33:32. The 'doubling' is true only of the excesses (1/4, 1/2, 1), not of the ratios: 17:16 and 18:17 are unequal, and (33:32)^2 is not 17:16. The Pythagoreans deny that the tone can be halved (Theon: the semitone is so called 'not as half of the tone, as Aristoxenus thinks', since nine cannot be divided into equals; Sectio canonis, prop. 16). The compiler takes the Aristoxenian sizes (diesis = 1/4 tone, semitone = 1/2) but expresses them in Pythagorean numbers.",
+     "source": "Theon Smyrn., ed. Hiller, p. 53-54 [checked: archive.org OCR]; Sectio canonis prop. 16, in Jan, MSG [checked: archive.org OCR]; computation [checked: own computation]"
+    },
+    {
+     "ru": "«Число девять» и т. п.: в греческом порядковые числительные (ὁ ἔνατος ἀριθμός, букв. «девятое число») обозначают само число; так же в U023 (ὁ ἑξκαιδέκατος = 16) и U041. «Восемь с половиной», «восемь с четвертью» (ὀκτὼ ἥμισυ, ὀκτὼ τέταρτον) — смешанные числа, ср. византийскую запись η΄ ∠΄, η΄ δ΄. В H V — ὅσον, в Bas. Par. — οἷον.",
+     "en": "'The number nine' etc.: in the Greek ordinal numerals (ὁ ἔνατος ἀριθμός, literally 'the ninth number') denote the number itself; so too at U023 (ὁ ἑξκαιδέκατος = 16) and U041. 'Eight and a half', 'eight and a quarter' (ὀκτὼ ἥμισυ, ὀκτὼ τέταρτον) are mixed numbers, cf. Byzantine notation η΄ ∠΄, η΄ δ΄. H V read ὅσον, Bas. Par. οἷον.",
+     "source": "The text itself, U018, U023, U041 [checked]; Byzantine fraction notation [from memory]; apparatus to Bas. 25.24 [checked]"
+    }
+   ],
+   "doubts": [
+    {
+     "greek": "ὡς εἶναι τὸ ἡμιτόνιον ὅσον ὀκτὼ ἥμισυ, τὴν δὲ δίεσιν ὅσον ὀκτὼ τέταρτον",
+     "issue": "What 'eight half' and 'eight quarter' denote; Xylander conjectured τοῦ ἐννέα πρὸς ὀκτὼ in both places.",
+     "options": "(a) printed, read as mixed numbers 8 1/2 and 8 1/4 against 8, the unit between 8 and 9 being halved and quartered; (b) Xylander: 'half of [the ratio] 9 to 8 ... a quarter of 9 to 8', the sizes stated as fractions of the tone; (c) 'half of eight' (= 4): no musical sense.",
+     "choice": "(a). All witnesses agree, and the next sentence (U019: the unit is not cut in numbers, but in matter it is) presupposes that the unit between 8 and 9 has just been cut, which is what 8 1/2 and 8 1/4 do. The result is 17:16 and 33:32.",
+     "evidence": "Apparatus to Bas. 25.24-25 (Xyl.) [checked]; U019 [checked in the text]; Byzantine notation of fractions [from memory].",
+     "alternative_ru": "…так что полутон составляет половину [отношения] девяти к восьми, а диеса — четверть [отношения] девяти к восьми.",
+     "alternative_en": "… so that the semitone is as much as half of [the ratio of] nine to eight, and the diesis as much as a quarter of nine to eight."
+    }
+   ]
+  },
+  {
+   "id": "U019",
+   "ru": "Ведь хотя единица (μονάς) в числах и не рассекается, однако единица, усматриваемая в материи (ὕλη), рассекается геометрически.",
+   "en": "For even if the unit (μονάς) is not cut in numbers, yet the unit seen in matter (ὕλη) is cut geometrically.",
+   "doctrine": "Answer to the Pythagorean objection (the unit is indivisible, so 9:8 has no mean in whole numbers): the 'unit' between 8 and 9, taken in matter (on the string), can be cut. Cf. Theon p. 19-20 Hiller: the unit as intelligible number is indivisible, the one as sensible is divisible to infinity.",
+   "checks": "No new numbers; refers to the unit between 8 and 9 of U018.",
+   "notes": [
+    {
+     "ru": "Ср. Феон: «единица как умопостигаемое неделима, а единое как чувственное рассекаемо до бесконечности»; «неделима, следовательно, единица как число». Ср. также Платон, «Государство» VII 525d–e (если рассекать единое, арифметики его умножают).",
+     "en": "Cf. Theon: 'the unit, being intelligible, is indivisible, but the one as sensible is divisible to infinity'; 'indivisible, then, is the unit as number'. Cf. also Plato, Republic VII 525d-e (if one cuts the one, the arithmeticians multiply it).",
+     "source": "Theon Smyrn., ed. Hiller, p. 19-20 [checked: archive.org OCR]; Plato, Resp. VII 525d-e [from memory]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U020",
+   "ru": "Ведь жилу (νευρά), сохраняющую эпогдоическое отношение, можно подразделить на полуэпогдоическое (ἡμιεπόγδοον), то есть на полутон, а её снова подразделить, во второй раз, на диесу.",
+   "en": "For the cord (νευρά) that preserves the epogdoic ratio can be subdivided into a hemi-epogdoic [one] (ἡμιεπόγδοον), which is a semitone, and this [cord] can again be subdivided, a second time, into a diesis.",
+   "doctrine": "Canonic (physical) division: on a string the segment that sounds the 9:8 can be cut so as to give the 'hemi-epogdoic' semitone and, cut again, the diesis.",
+   "checks": "Hemi-epogdoic = 1 + 1/16 = 17:16 (104.96 c); halving the excess again gives 1 + 1/32 = 33:32 (53.27 c), the diesis of U018.",
+   "notes": [
+    {
+     "ru": "ἡμιεπόγδοος не отмечено в LSJ, Bailly, Pape: прозрачное сложение ἡμι- + ἐπόγδοος, «половинно-эпогдоический», т. е. с избытком в 1/16. ταύτην относится к νευράν.",
+     "en": "ἡμιεπόγδοος is not recorded in LSJ, Bailly or Pape: a transparent compound of ἡμι- + ἐπόγδοος, 'half-epogdoic', i.e. exceeding by 1/16. ταύτην refers to νευράν.",
+     "source": "LSJ, Bailly, Pape via Logeion: no entry [checked]"
+    }
+   ],
+   "doubts": [
+    {
+     "greek": "νευρὰν Bas. Par. V] μοῖραν H",
+     "issue": "The oldest witness (H) reads μοῖραν, 'portion, segment', instead of νευράν, 'cord, string'.",
+     "options": "(a) νευράν (printed): the string that sounds the 9:8; (b) μοῖραν (H): the portion of the measured string that corresponds to the tone.",
+     "choice": "Printed (a): the author (and P at U028, U050) uses νευρά for the string, and 'the unit seen in matter' (U019) suits a physical string. But (b) is the older reading and gives equally good sense; a reviewer should weigh it.",
+     "evidence": "Apparatus to Bas. 26.4 [checked]; νευρά at U028 and U050 [checked in the text].",
+     "alternative_ru": "Ведь долю (μοῖρα), сохраняющую эпогдоическое отношение, можно подразделить на полуэпогдоическую, то есть на полутон, а её снова подразделить, во второй раз, на диесу.",
+     "alternative_en": "For the portion (μοῖρα) that preserves the epogdoic ratio can be subdivided into a hemi-epogdoic [one], which is a semitone, and this [portion] can again be subdivided, a second time, into a diesis."
+    }
+   ]
+  },
+  {
+   "id": "U021",
+   "ru": "Ведь геометрия и отнимает всяким способом от большей прямой меньшую, и к меньшей прибавляет большую; оттого она и может любую фигуру и увеличить на какую угодно длину, и привести к уменьшению.",
+   "en": "For geometry both takes away, in every manner, a smaller straight line from the greater, and adds a greater to the smaller; hence it is able both to enlarge any figure by whatever length it pleases and to bring it to diminution.",
+   "doctrine": "Geometry works with continuous magnitude: from the greater of two lines it can cut off one equal to the less (Euclid, Elements I.3), it can produce a line indefinitely (Postulate 2), and it can enlarge or reduce any figure. The P version (U029) repeats this with variants.",
+   "checks": "No numbers in this unit.",
+   "notes": [
+    {
+     "ru": "Ср. Евклид, «Начала» I.3: «даны две неравные прямые; от большей отнять прямую, равную меньшей» (ἀπὸ τῆς μείζονος τῇ ἐλάσσονι ἴσην εὐθεῖαν ἀφελεῖν), и постулат 2 (продолжать ограниченную прямую непрерывно).",
+     "en": "Cf. Euclid, Elements I.3: 'given two unequal straight lines, to cut off from the greater a straight line equal to the less' (ἀπὸ τῆς μείζονος τῇ ἐλάσσονι ἴσην εὐθεῖαν ἀφελεῖν), and Postulate 2 (to produce a finite straight line continuously).",
+     "source": "Euclid, Elements I.3 (Greek text, Clay Mathematics Institute Euclid pages) [checked: enunciation]; Postulate 2 [from memory]"
+    }
+   ],
+   "doubts": [
+    {
+     "greek": "τῇ ἐλάττονι προστίθησι μείζονα",
+     "issue": "μείζονα may be the object ('adds a greater [line] to the smaller') or predicative ('adds to the smaller [so that it becomes] greater'); P's version (U029) has τῇ ἐλάττονι προστίθησι καὶ πεποίηται μείζονα.",
+     "options": "(a) object: 'adds a greater to the smaller', parallel to ἐλάττονα ... ἀφαιρεῖται εὐθεῖαν in the first member; (b) predicative: 'adds to the smaller [and makes it] greater', as P spells out.",
+     "choice": "(a), as the more natural construction after the first member; the sense of the whole (geometry can diminish and augment lines at will) is the same in (b).",
+     "evidence": "P's wording at U029 [checked in the text]; H. W. Smyth, Greek Grammar, on predicative and proleptic adjectives [from memory].",
+     "alternative_ru": "…и к меньшей прибавляет, [делая её] большей…",
+     "alternative_en": "… and adds to the smaller [line, making it] greater …"
+    }
+   ]
+  },
+  {
+   "id": "U022",
+   "ru": "Для арифметики же это невозможно.",
+   "en": "For arithmetic, however, this is impossible.",
+   "doctrine": "Discrete quantity cannot be divided or enlarged at will, since its unit is indivisible (cf. U019).",
+   "checks": "No numbers in this unit.",
+   "notes": [],
+   "doubts": []
+  },
+  {
+   "id": "U023",
+   "ru": "Например, данный квадрат арифметика не может ни рассечь на равные квадраты, ни удвоить данное: ведь число шестнадцать, будучи квадратом, нельзя ни разделить на равные квадраты (ибо восемь невозможно обратить в квадрат), ни удвоить в другой квадрат (ибо число тридцать два никак невозможно обратить в квадрат); для геометрии же это легко.",
+   "en": "For instance, arithmetic cannot cut the given square into equal squares, or double what is given: for the number sixteen, which is a square, can neither be divided into equal squares (for eight cannot be squared) nor be doubled into another square (for the number thirty-two cannot possibly be squared); but for geometry this is easy.",
+   "doctrine": "Example of the contrast arithmetic / geometry: the square number 16 cannot be halved or doubled into square numbers (8 and 32 are not squares), whereas geometry can halve or double any square (U024).",
+   "checks": "16 = 4 × 4. 16/2 = 8 and 2 × 16 = 32 are not square numbers (√8 ≈ 2.828, √32 ≈ 5.657). Correct.",
+   "notes": [
+    {
+     "ru": "Фигура: в Bas., Par. и V на полях у Bas. 26.14 и 26.18 изображены фигуры из точек — квадрат 4 × 4 (= 16) и прямоугольник 4 × 8 (= 32, «продолговатое», не квадратное число); издание их не печатает.",
+     "en": "Figure: Bas., Par. and V have in the margin, at Bas. 26.14 and 26.18, figures of dots: a square of 4 × 4 (= 16) and a rectangle of 4 × 8 (= 32, an oblong, not a square number); the edition does not print them.",
+     "source": "about.md § 3 (description of the witnesses) [checked]"
+    },
+    {
+     "ru": "«На равные квадраты» означает здесь «на два равных квадрата»: на четыре равных квадрата по 4 (2 × 2) шестнадцать делится без труда; утверждение верно только для деления пополам, как и показывает пояснение «ибо восемь невозможно обратить в квадрат». τετραγωνισθῆναι — «стать квадратным числом».",
+     "en": "'Into equal squares' must mean 'into two equal squares': sixteen is easily cut into four equal squares of 4 (2 × 2); the claim holds only for halving, as the explanation 'for eight cannot be squared' shows. τετραγωνισθῆναι = 'to become a square number'.",
+     "source": "Own arithmetic [checked: own computation]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U024",
+   "ru": "Ведь геометр, приняв сторону данного квадрата за диагональ (διάμετρος) и описав около неё квадрат, получает половину данного квадрата; и опять же, приняв диагональ данного [квадрата] за сторону, он удваивает данный квадрат.",
+   "en": "For the geometer, taking the side of the given square as a diagonal (διάμετρος) and placing a square around it, makes half of the given square; and again, taking the diagonal of the given [square] as a side, he doubles the given square.",
+   "doctrine": "The construction of Plato's Meno (82b-85b): the square on the diagonal is double the given square; conversely, the square that has the given side as its diagonal is half of it. Applied to 16, geometry obtains exactly the 8 and 32 that arithmetic cannot.",
+   "checks": "Side 4, area 16. Square with diagonal 4: side 4/√2 = 2√2 ≈ 2.828, area 8 = 16/2. Square on the diagonal 4√2 ≈ 5.657: area 32 = 2 × 16. Correct.",
+   "notes": [
+    {
+     "ru": "Фигура: квадрат ABCD со стороной 4 (площадь 16). (1) Сторона AB принимается за диагональ нового квадрата, «описанного около неё»: его сторона 2√2, площадь 8. (2) Диагональ AC = 4√2 принимается за сторону: квадрат на ней имеет площадь 32. Это построение Платона в «Меноне» 82b–85b. διάμετρος — обычное греческое слово для диагонали квадрата.",
+     "en": "Figure: a square ABCD of side 4 (area 16). (1) The side AB is taken as the diagonal of a new square 'placed around it': its side is 2√2, its area 8. (2) The diagonal AC = 4√2 is taken as a side: the square on it has area 32. This is the construction of Plato's Meno 82b-85b. διάμετρος is the usual Greek word for the diagonal of a square.",
+     "source": "Plato, Meno 82b-85b [from memory]; computation [checked: own computation]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U025",
+   "ru": "Именно так и эпогдоическое отношение тона делится на полутон и далее на диесу.",
+   "en": "In just this way, too, the epogdoic ratio of the tone is divided into a semitone and, again, into a diesis.",
+   "doctrine": "Conclusion of the excursus: as geometry halves a square, so on the string the 9:8 of the tone is halved (semitone) and halved again (diesis).",
+   "checks": "The geometric halving of 9:8 is the mean proportional between 8 and 9: √72 ≈ 8.485 (101.96 c); the quarter-point is 8·(9/8)^(1/4) ≈ 8.239 (50.98 c). The compiler's values 8 1/2 and 8 1/4 (U018) are arithmetic, not geometric, means (104.96 c and 53.27 c).",
+   "notes": [
+    {
+     "ru": "Аналогия составителя хромает: сторона квадрата вдвое меньшей (большей) площади — среднее пропорциональное (Евклид VI.13), и геометрическое деление тона дало бы √72 ≈ 8,485 против 8, т. е. иррациональную точку, а не 8½ из U018. Геометрия оправдывает равное деление тона по величине, но не то арифметическое деление, которое составитель выразил числами.",
+     "en": "The compiler's analogy limps: the side of the square of half (double) area is a mean proportional (Euclid VI.13), and a geometric division of the tone would give √72 ≈ 8.485 against 8, an irrational point, not the 8 1/2 of U018. Geometry justifies an equal division of the tone in size, but not the arithmetic division that the compiler has expressed in numbers.",
+     "source": "Euclid, Elements VI.13 (mean proportional) [from memory]; computation [checked: own computation]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U026",
+   "ru": "Приращением же их возникают и другие несоставные (ἀσύνθετα) интервалы: тридиеса (τριδίεσις), трихемитон (τριημιτόνιον), дитон (διτόνιον) и тритон (τριτόνιον), — и как кто пожелает и как позволит мера (ῥυθμός), что станет известно из дальнейшего.",
+   "en": "By augmentation of these, other incomposite (ἀσύνθετα) intervals also arise: the tridiesis (τριδίεσις), the trihemitone (τριημιτόνιον), the ditone (διτόνιον) and the tritone (τριτόνιον) — and [others] as one may wish and the measure (ῥυθμός) may allow, as will become known in what follows.",
+   "doctrine": "Multiples of the elementary intervals: tridiesis (3 dieses = 3/4 tone), trihemitone (3 semitones = 1 1/2 tones), ditone (2 tones), tritone (3 tones). In Aristoxenian theory the trihemitone and the ditone are the incomposite upper intervals of the chromatic and enharmonic tetrachords (Theon p. 54-55 Hiller; Cleonides 5); the tritone is a dissonance lying between consonances (Cleonides 5). 'What follows' is the doctrine of the genera (U053-U060).",
+   "checks": "In quarter-tones: tridiesis 3, trihemitone 6, ditone 8, tritone 12 (in tones 3/4, 1 1/2, 2, 3). Pythagorean ditone (9:8)^2 = 81:64 = 407.82 c; tritone (9:8)^3 = 729:512 = 611.73 c.",
+   "notes": [
+    {
+     "ru": "τριδίεσις не отмечено в LSJ, Bailly и Pape; это аристоксенова величина в три четверти тона. Формы διτόνιον и τριτόνιον образованы по образцу ἡμιτόνιον; у Клеонида и Вакхия — δίτονον, τρίτονον (LSJ s.v. τρίτονος: Cleonid. 5; Bacch. 47).",
+     "en": "τριδίεσις is not recorded in LSJ, Bailly or Pape; it is the Aristoxenian size of three quarter-tones. The forms διτόνιον and τριτόνιον are modelled on ἡμιτόνιον; Cleonides and Bacchius have δίτονον, τρίτονον (LSJ s.v. τρίτονος: Cleonid. 5; Bacch. 47).",
+     "source": "LSJ, Bailly, Pape via Logeion, s.v. τριδίεσις (no entry) and τρίτονος [checked]; Cleonides, Isag. 5 (Jan, MSG) [checked: archive.org OCR]"
+    }
+   ],
+   "doubts": [
+    {
+     "greek": "καὶ ὡς ἄν τις βούλοιτο καὶ ὁ ῥυθμὸς ἐπιτρέψῃ",
+     "issue": "Sense of ὁ ῥυθμός: musical rhythm, or measure / proportion / pattern of the structure.",
+     "options": "(a) 'rhythm' in the temporal sense; (b) 'measure, proportion, pattern' (LSJ II 'measure, proportion, symmetry of parts', III 'arrangement', V 'form', VI 'manner'), i.e. the structure of the system that limits how far intervals may be fused.",
+     "choice": "(b), rendered by words that keep the musical overtone ('measure', «мера»): what follows (U056-U060) shows the limits set by the structure of the fourth, not by rhythm; temporal rhythm does not limit interval size.",
+     "evidence": "LSJ s.v. ῥυθμός II-VI via Logeion [checked]; the doctrine of U056-U060 [checked in the text].",
+     "alternative_ru": "…— и как кто пожелает и как позволит ритм, что станет известно из дальнейшего.",
+     "alternative_en": "… — and [others] as one may wish and the rhythm may allow, as will become known in what follows."
+    }
+   ]
+  },
+  {
+   "id": "U027",
+   "ru": "Несоставными же они названы потому, что мелос (μέλος) через три диесы, или три полутона, или же несколько тонов составляется как одно целое путём слияния (ἐκ συμφθάρσεως), имея силу (δύναμις) нескольких интервалов, но звуча одним интервалом.",
+   "en": "They have been called incomposite because the melos (μέλος) is completed as one, by fusion (ἐκ συμφθάρσεως), through three dieses or three semitones or else several tones, having the power (δύναμις) of several intervals but sounding forth through a single interval.",
+   "doctrine": "The compiler's own notion of an incomposite interval: several elementary steps 'fused' into one sounding interval that keeps their value. For Aristoxenus and Cleonides an interval is incomposite simply when it is bounded by successive notes of a genus, so that the same size may be incomposite in one genus and composite in another (Cleonides 5: the trihemitone is incomposite in the chromatic, composite in the diatonic).",
+   "checks": "Three dieses = 3/4 tone; three semitones = 1 1/2 tones; 'several tones' = 2 (ditone) or 3 (tritone): the four intervals of U026.",
+   "notes": [
+    {
+     "ru": "σύμφθαρσις: LSJ — 1) «совместное уничтожение» (Alex. Aphr. Mixt. 216.24, в изложении стоического учения о смешении), 2) «слияние, вливание одного в другое» (Hermog. Id. 1.12; ср. Iambl. in Nic. p. 80 Pistelli); Pape: das Ineinanderfließen und Verschmelzen. Образ: составляющие интервалы гибнут как отдельные и сливаются в один. Перевод «слияние» (букв. «совместная гибель»).",
+     "en": "σύμφθαρσις: LSJ 1) 'simultaneous destruction' (Alex. Aphr. Mixt. 216.24, on the Stoic theory of mixture), 2) 'melting into one another' (Hermog. Id. 1.12; cf. Iambl. in Nic. p. 80 Pistelli); Pape: das Ineinanderfließen und Verschmelzen. The image: the component intervals perish as separate entities and fuse into one. Rendered 'fusion' (literally 'joint perishing').",
+     "source": "LSJ, Bailly 2024, Pape s.v. σύμφθαρσις via Logeion [checked]"
+    },
+    {
+     "ru": "У Клеонида несоставные интервалы — те, что заключены между соседними звуками, составные — между несоседними; трихемитон несоставной в хроматике и составной в диатонике. У Феона хроматический тетрахорд оканчивается «несоставным трихемитоновым» (τὸ τριημιτονιαῖον ἀσύνθετον). Составитель же выводит «несоставность» из слияния, т. е. из звучания, а не из положения звуков.",
+     "en": "For Cleonides incomposite intervals are those bounded by successive notes, composite ones those bounded by non-successive notes; the trihemitone is incomposite in the chromatic and composite in the diatonic. In Theon the chromatic tetrachord ends with 'the incomposite trihemitonic [interval]' (τὸ τριημιτονιαῖον ἀσύνθετον). The compiler instead derives incompositeness from fusion, i.e. from how the interval sounds, not from the position of the notes.",
+     "source": "Cleonides, Isag. 5 (Jan, MSG p. 188) [checked: archive.org OCR]; Theon Smyrn., ed. Hiller, p. 54 [checked]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U028",
+   "ru": "⟨⟨Ведь хотя в числах слияние и не возникает — из-за невещественности, неподвижности и нетекучести чисел, — однако в мелосе, поскольку он низводится в материю, а в материи усматривается непрерывность (συνέχεια), отсюда оказывается возможным и существование слияния; и длина, протянутая по двум жилам, соединяется в одной по непрерывности, так же как, наоборот, и [длина] вдоль одной снова делится на многие [жилы] по непрерывности.",
+   "en": "⟨⟨For even if fusion does not occur in numbers, because of the immateriality, immobility and non-fluidity of numbers, yet in melē, because they are brought down into matter and continuity (συνέχεια) is seen in matter, hence it becomes possible for fusion, too, to exist; and the length stretched over two cords is drawn together into one by continuity, just as, conversely, [the length] along one is again divided into many [cords] by continuity.",
+   "doctrine": "P's addition grounds 'fusion' in the contrast between number and matter already used at U019-U022: numbers are immaterial and discrete, melodies exist in continuous matter, so lengths of string can be added into one or divided into many.",
+   "checks": "No numbers in this unit.",
+   "notes": [
+    {
+     "ru": "Текст: σύμφθαρσις — конъектура вместо σύμφρασις P (Венсан в примечании предлагал σύγκρασις, «смешение»); τὸ τῶν ἀριθμῶν — исправление Венсана вместо τὸν τῶν ἀριθμόν P; τὴν σύμφθαρσιν — конъектура вместо ἡ σύμφρασις P; τῆς (Vinc.) вместо τοῦ. Текст P известен только по изданию Венсана (1847); в P он стоит после ἀπηχούμενον (Bas. 27.14). Русское «в мелосе» передаёт обобщающее мн. ч. ἐν τοῖς μέλεσι.",
+     "en": "Text: σύμφθαρσις is a conjecture for P's σύμφρασις (Vincent in a note suggested σύγκρασις, 'blending'); τὸ τῶν ἀριθμῶν is Vincent's correction of P's τὸν τῶν ἀριθμόν; τὴν σύμφθαρσιν is a conjecture for P's ἡ σύμφρασις; τῆς (Vinc.) for τοῦ. P's text is known only from Vincent (1847); in P it follows ἀπηχούμενον (Bas. 27.14). The Russian singular «в мелосе» renders the generalizing plural ἐν τοῖς μέλεσι.",
+     "source": "Apparatus, P (Vinc. 338.4-11) [checked]"
+    },
+    {
+     "ru": "Числа «невещественны, неподвижны и нетекучи» — платоновские признаки умопостигаемого; число — величина раздельная, линия — непрерывная (Аристотель, «Категории» 6). ἐγγίνεται с инфинитивом — «оказывается возможным».",
+     "en": "Numbers 'immaterial, unmoved and unflowing' carry the Platonic attributes of the intelligible; number is a discrete quantity, the line a continuous one (Aristotle, Categories 6). ἐγγίνεται with the infinitive = 'it is possible'.",
+     "source": "Aristotle, Categories 6, 4b20-25 [from memory]; LSJ s.v. ἐγγίγνομαι, impersonal 'it is possible' [from memory]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U029",
+   "ru": "Именно так и геометрия отнимает всяким способом от большей прямой меньшую, а к меньшей прибавляет и делает [её] большей; где она может и любую фигуру увеличить на какую угодно длину, и уменьшить, — что как раз для арифметики недопустимо (ἀνεγχώρητον).",
+   "en": "In just this way geometry, too, both takes away, in every manner, a smaller straight line from the greater, and adds to the smaller and makes [it] greater; where it can also enlarge any figure by whatever length it pleases and reduce it — which is precisely what is inadmissible (ἀνεγχώρητον) for arithmetic.",
+   "doctrine": "P's version of U021-U022, joined into one sentence and attached by ταύτῃ τοι to the argument about fusion in continuous matter.",
+   "checks": "No numbers in this unit.",
+   "notes": [
+    {
+     "ru": "Повторение U021–U022 с разночтениями: ταύτῃ τοι («именно так») вместо γάρ; καὶ πεποίηται μείζονα (перфект медия, букв. «и сделала большей»); ἔνθα вместо ἔνθεν; ἀπομειῶσαι вместо ἀγαγεῖν εἰς μείωσιν; относительное придаточное ὅπερ καὶ ἀριθμητικῇ ἀνεγχώρητον вместо τῇ δὲ ἀριθμητικῇ τοῦτο ἀδύνατον. ἀριθμητικῇ — конъектура вместо ἀριθμητικόν P. ἀνεγχώρητος — «невозможный, недопустимый» (LSJ; DGE со ссылкой на Григория Богослова).",
+     "en": "Repeats U021-U022 with variants: ταύτῃ τοι ('in just this way') for γάρ; καὶ πεποίηται μείζονα (perfect middle, lit. 'and has made [it] greater'); ἔνθα for ἔνθεν; ἀπομειῶσαι for ἀγαγεῖν εἰς μείωσιν; the relative clause ὅπερ καὶ ἀριθμητικῇ ἀνεγχώρητον for τῇ δὲ ἀριθμητικῇ τοῦτο ἀδύνατον. ἀριθμητικῇ is a conjecture for P's ἀριθμητικόν. ἀνεγχώρητος = 'impossible, inadmissible' (LSJ; DGE citing Gregory of Nazianzus).",
+     "source": "Apparatus, P (Vinc. 338.14) [checked]; LSJ, DGE s.v. ἀνεγχώρητος via Logeion [checked]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U030",
+   "ru": "Например, данный квадрат арифметика не может ни рассекать на равные квадраты, ни удвоить данное: так, число шестнадцать, будучи квадратом, нельзя ни разделить на равные квадраты (ибо восемь невозможно обратить в квадрат), ни удвоить в другой квадрат: ведь число тридцать два никак невозможно обратить в квадрат.",
+   "en": "For instance, arithmetic cannot cut the given square into equal squares, or double what is given: thus the number sixteen, which is a square, can neither be divided into equal squares (for eight cannot be squared) nor be doubled into another square; for the number thirty-two cannot possibly be squared.",
+   "doctrine": "P's version of U023.",
+   "checks": "As at U023: 16 = 4^2; 8 and 32 are not squares. With P's own reading ἑνδέκατον (11) the example fails: 11 is not a square, and 8 and 32 are not its half and double; hence the conjecture ἑξκαιδέκατον.",
+   "notes": [
+    {
+     "ru": "Разночтения против U023: τέμνειν (исправление Венсана; P τέμνει) вместо τεμεῖν; οἷον вместо γάρ; последняя мотивировка — самостоятельное предложение. ἑξκαιδέκατον — конъектура вместо ἑνδέκατον P (Венсан: ἑξδέκατον).",
+     "en": "Variants against U023: τέμνειν (Vincent's correction; P τέμνει) for τεμεῖν; οἷον for γάρ; the last justification is an independent sentence. ἑξκαιδέκατον is a conjecture for P's ἑνδέκατον (Vincent: ἑξδέκατον).",
+     "source": "Apparatus, P (Vinc. 338.16-17) [checked]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U031",
+   "ru": "Для геометрии же это легко: ведь геометр, взяв сторону данного квадрата за диагональ и описав около неё квадрат, получает половину данного квадрата и, опять же, приняв диагональ данного за сторону, удваивает данный квадрат.",
+   "en": "But for geometry this is easy: for a geometer, taking the side of the given square as a diagonal and putting a square around it, makes half of the given square, and again, taking the diagonal of the given [square] as a side, he doubles the given square.",
+   "doctrine": "P's version of the end of U023 and of U024 (the Meno construction).",
+   "checks": "As at U024: 8 = 16/2, 32 = 2 × 16.",
+   "notes": [
+    {
+     "ru": "Разночтения против U024: γεωμέτρης без артикля; λαβών вместо μεταλαβών; αὐτήν (вин. п.) вместо αὐτῇ. При περιτίθημι винительный мог бы обозначать то, что «облекается» квадратом, но вероятнее описка; смысл тот же.",
+     "en": "Variants against U024: γεωμέτρης without the article; λαβών for μεταλαβών; αὐτήν (accusative) for αὐτῇ. With περιτίθημι the accusative could denote what is 'invested' with the square, but a slip is more likely; the sense is the same.",
+     "source": "Comparison with U024 [checked in the text]; LSJ s.v. περιτίθημι [from memory]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U032",
+   "ru": "Но об интервалах — и о том, что из приращения прежних интервалов возникают другие, несоставные интервалы, и почему они названы несоставными, — уже сказано достаточно.⟩⟩",
+   "en": "But the [account] of intervals — both that other, incomposite intervals arise from the augmentation of the earlier intervals, and why they are called incomposite — has now been given sufficiently.⟩⟩",
+   "doctrine": "Closing formula of P's first addition, summing up U026-U031.",
+   "checks": "No numbers in this unit.",
+   "notes": [
+    {
+     "ru": "Венсан в примечании (неуверенно) предлагал εἰρήσθω («пусть будет сказанным»); напечатано εἴρηται P. Повтор εἴρηται … εἴρηται обыгрывает «названы» и «сказано».",
+     "en": "Vincent in a note (tentatively) suggested εἰρήσθω ('let it count as said'); P's εἴρηται is printed. The repetition εἴρηται ... εἴρηται plays on 'are called' and 'has been said'.",
+     "source": "Apparatus, P (Vinc. 340.2) [checked]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U033",
+   "ru": "Помимо них есть и другие интервалы: кварта (τὸ διὰ τεσσάρων), квинта (διὰ πέντε) и октава (διὰ πασῶν).",
+   "en": "Besides these there are other intervals: the fourth (τὸ διὰ τεσσάρων), the fifth (διὰ πέντε) and the octave (διὰ πασῶν).",
+   "doctrine": "Transition to the consonant, composite intervals.",
+   "checks": "Their ratios (4:3, 3:2, 2:1) are given at U040.",
+   "notes": [
+    {
+     "ru": "P читает Περὶ δὲ ταῦτα («о них же…») вместо Παρὰ δὲ ταῦτα; не принято.",
+     "en": "P reads Περὶ δὲ ταῦτα ('concerning these…') for Παρὰ δὲ ταῦτα; not printed.",
+     "source": "Apparatus to Bas. 27.14 [checked]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U034",
+   "ru": "Однако они не являются ни непосредственными (ἄμεσα), ни несоставными, но проходят через все названные интервалы посередине; интервалами они именуются в силу отношения (λόγος) звучания от первого звука к последнему, а такие наименования получили по упорядоченному количеству промежуточных звуков: кварта (τὸ διὰ τεσσάρων, «через четыре») — как проходящая через четыре звука, то есть струны, и [ими] ограничиваемая; квинта («через пять») — как завершаемая через пять; октава (τὸ διὰ πασῶν, «через все») — как достигающая полноты через восемь.",
+   "en": "These, however, are not immediate (ἄμεσα) or incomposite, but proceed through all the aforesaid intervals in between; they are named 'intervals' by the ratio (λόγος) of the sound from the first note to the last, but they have received such names from the ordered quantity of the notes in between: the fourth (τὸ διὰ τεσσάρων, 'through four') as passing through four notes, that is, strings, and being terminated [by them]; the fifth ('through five') as being accomplished through five; and the octave (τὸ διὰ πασῶν, 'through all') as being perfected through eight.",
+   "doctrine": "The consonances are composite, bounded by non-successive notes (Cleonides 5). Their names count the notes from first to last inclusively. Adrastus in Theon (p. 50-51 Hiller) explains the names in the same way: notes fourth in order are consonant 'through four', fifth 'through five', eighth 'through all', the last name coming from the eight-stringed lyre, whose first and last notes (hypate, nete) are consonant antiphonally.",
+   "checks": "Fourth: notes 1-4 (three intervals); fifth: 1-5 (four intervals); octave: 1-8 (seven intervals). The names count notes inclusively, as stated.",
+   "notes": [
+    {
+     "ru": "Ср. Адраст у Феона: «четвёртые по порядку [звуки] консонируют друг с другом консонансом, который поэтому называется „через четыре“… затем пятые — „через пять“… а отстоящие друг от друга на восемь — „через все“, названным так потому, что первоначально на восьмиструнной лире первый и самый низкий звук, гипата, оказался в том же консонансе с последним и самым высоким, нетой, антифонно».",
+     "en": "Cf. Adrastus in Theon: 'notes fourth in order are consonant with one another with the consonance called for this very reason ‘through four’ ... then the fifth ones ‘through five’ ... and those eighth from one another ‘through all’, so called because originally on the eight-stringed lyre the first and lowest note, called hypate, was found to hold the same consonance with the last and highest, nete, antiphonally'.",
+     "source": "Theon Smyrn., ed. Hiller, p. 50-51 [checked: archive.org OCR]"
+    },
+    {
+     "ru": "ἄμεσος — логический термин: «без среднего» (о посылках без среднего термина: Аристотель, APr. 68b30; APo. 72b19). В музыке Аноним Беллермана (§§ 4, 6) говорит ἀμέσως / ἐμμέσως о ходе мелодии между соседними звуками или через промежуточные. εἴτ’ οὖν — «или, иначе говоря».",
+     "en": "ἄμεσος is a logical term, 'without a middle' (of premises without a middle term: Aristotle, APr. 68b30; APo. 72b19). In music the Anonymus Bellermanni (§§ 4, 6) uses ἀμέσως / ἐμμέσως of melodic movement between adjacent notes or through intermediate ones. εἴτ’ οὖν = 'or, in other words'.",
+     "source": "LSJ, DGE s.v. ἄμεσος, ἔμμεσος via Logeion [checked]; Anonymi scriptio de musica, ed. F. Bellermann (1841), §§ 4, 6 [checked: archive.org OCR]"
+    }
+   ],
+   "doubts": [
+    {
+     "greek": "τῷ μὲν λόγῳ τῆς ἀπὸ τοῦ πρώτου φθόγγου ἐπὶ τὸν τελευταῖον ἠχῆς",
+     "issue": "Whether λόγος is here the technical 'ratio' or non-technical 'reason, account'.",
+     "options": "(a) 'by the ratio of the sound from the first note to the last': technical λόγος, contrasted with the ποσότης (number) of notes, as at U045-U047; (b) 'by reason of the sound [extending] from the first note to the last'.",
+     "choice": "(a): the author uses λόγος = ratio throughout, defines an interval as a relation of notes (U009) and opposes ratio to the number of notes at U045-U047.",
+     "evidence": "U009, U045-U047 [checked in the text]; LSJ s.v. λόγος [from memory].",
+     "alternative_ru": "…интервалами они именуются по причине звучания от первого звука к последнему…",
+     "alternative_en": "… they are named 'intervals' by reason of the sound [extending] from the first note to the last …"
+    }
+   ]
+  },
+  {
+   "id": "U035",
+   "ru": "«Через все» (διὰ πασῶν) называется [интервал] «через восемь» потому, что в октахорде восполняются все расстояния (διαστάσεις) и оттуда снова удваиваются, как явствует и из самой меткости наименований (φερωνυμία): ведь следующие за ними расстояния называются двойной квартой (δὶς διὰ τεσσάρων, «дважды через четыре»), двойной квинтой и двойной октавой.",
+   "en": "The [interval] 'through eight' is called 'through all' (διὰ πασῶν) because in the octachord all the distances (διαστάσεις) are filled up and from there are doubled again, as is shown also by the very aptness of the names (φερωνυμία): for the distances after these are called 'double fourth' (δὶς διὰ τεσσάρων, 'twice through four'), 'double fifth' and 'double octave'.",
+   "doctrine": "Etymology of διὰ πασῶν from the octachord, which contains 'all' the distances; beyond the octave the same distances recur ('are doubled'), hence δὶς διὰ τεσσάρων = the fourth in the second octave (octave + fourth, the 11th), δὶς διὰ πέντε = octave + fifth (12th), δὶς διὰ πασῶν = double octave (15th). In the classical theorists δὶς διὰ τεσσάρων means two conjunct fourths (16:9), a dissonance (Sectio canonis 11).",
+   "checks": "From U037 and U041: 'double fourth' = notes 1-11 = 16:6 = 8:3; 'double fifth' = notes 1-12 = 18:6 = 3:1; 'double octave' = notes 1-15 = 24:6 = 4:1. Two fourths in the classical sense would be (4/3)^2 = 16:9 = 996.09 c, not 8:3 = 1698.04 c.",
+   "notes": [
+    {
+     "ru": "δίς здесь означает повторение в следующей октаве, а не удвоение интервала. В Sectio canonis (предл. 11) δὶς διὰ τεσσάρων — две смежные кварты (16:9), и оно названо диссонансом; Феон называет 8:3 и 3:1 «октава и кварта» и «октава и квинта» (διὰ πασῶν καὶ διὰ τεσσάρων, … καὶ διὰ πέντε). Номенклатура составителя своеобразна и определяет U036, U039–U042, U051.",
+     "en": "δίς here means repetition in the next octave, not doubling of the interval. In the Sectio canonis (prop. 11) δὶς διὰ τεσσάρων is two conjunct fourths (16:9) and is called dissonant; Theon names 8:3 and 3:1 'octave and fourth' and 'octave and fifth' (διὰ πασῶν καὶ διὰ τεσσάρων, ... καὶ διὰ πέντε). The compiler's nomenclature is idiosyncratic and governs U036, U039-U042, U051.",
+     "source": "Sectio canonis, proposition that the fourth and fifth are epimoric (prop. 11 in the usual numbering, from memory; the OCR label is garbled), in Jan, MSG [checked: text of the proof in archive.org OCR]; Theon Smyrn., ed. Hiller, p. 56-57 [checked]"
+    },
+    {
+     "ru": "ἐπαναδιπλουμένων (H Par. V) — «снова удваиваемых»; Bas.: ἀναδιπλουμένων. φερωνυμία — «соответствие имени предмету».",
+     "en": "ἐπαναδιπλουμένων (H Par. V), 'doubled again'; Bas. ἀναδιπλουμένων. φερωνυμία = 'the fitness of a name to its object'.",
+     "source": "Apparatus to Bas. 28.4 [checked]; LSJ s.v. φερωνυμία [from memory]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U036",
+   "ru": "Консонируют (συμφωνεῖ) же расстояние кварты и [расстояние] квинты — парафонно (κατὰ παράφωνον), а октава, двойная кварта, двойная квинта и двойная октава — антифонно (κατὰ ἀντίφωνον).",
+   "en": "The distance of the fourth and that of the fifth are consonant (συμφωνεῖ) paraphonally (κατὰ παράφωνον), whereas the octave, the double fourth, the double fifth and the double octave [are consonant] antiphonally (κατὰ ἀντίφωνον).",
+   "doctrine": "Thrasyllus' classification of consonances (Theon p. 48 Hiller): antiphonal the octave and the double octave, paraphonal the fifth and the fourth. The compiler adds his 'double fourth' and 'double fifth' (11th, 12th) to the antiphonal class. In Gaudentius 8 παράφωνοι are instead intervals between consonance and dissonance (tritone, ditone); ἀντίφωνον for the octave is the usage of the Aristotelian Problems XIX.",
+   "checks": "Antiphonal: 2:1, 8:3, 3:1, 4:1; paraphonal: 4:3, 3:2. In Thrasyllus only 2:1 and 4:1 are antiphonal.",
+   "notes": [
+    {
+     "ru": "Фрасилл у Феона: консонансы — «антифонно, как октава и двойная октава, и парафонно, как квинта и кварта». Ян отмечает, что именно Фрасилл называл квинту и кварту парафонными. У Гауденция παράφωνοι иное: средние между консонансом и диссонансом (тритон от парипаты средних до парамесы, дитон от диатоны средних до парамесы). ἀντίφωνον как октава — «Проблемы» XIX.39 (антифон из голосов мальчиков и мужчин); LSJ s.v. ἀντίφωνος III.",
+     "en": "Thrasyllus in Theon: consonances are 'antiphonal, like the octave and the double octave, and paraphonal, like the fifth and the fourth'. Jan notes that it was Thrasyllus who called the fifth and fourth paraphonal. In Gaudentius παράφωνοι are something else: intermediate between consonance and dissonance (the tritone from parhypate meson to paramese, the ditone from meson diatonos to paramese). ἀντίφωνον as the octave: Problems XIX.39 (the antiphon of boys and men); LSJ s.v. ἀντίφωνος III.",
+     "source": "Theon Smyrn., ed. Hiller, p. 48 [checked]; Gaudentius, Harm. 8, and Jan's note on Bacchius, in Jan, MSG [checked: archive.org OCR]; [Arist.] Probl. XIX.39 (Jan p. 100-101) [checked]; LSJ s.v. ἀντίφωνος, παράφωνος via Logeion [checked]"
+    },
+    {
+     "ru": "Ксиландр предлагал здесь «октава и кварта», «октава и квинта» вместо «двойная кварта», «двойная квинта»; издание сохраняет чтение свидетелей (номенклатура самого составителя, U035). Предмет речи от этого не меняется.",
+     "en": "Xylander proposed 'octave and fourth', 'octave and fifth' here for 'double fourth', 'double fifth'; the edition keeps the witnesses (the compiler's own nomenclature, U035). The intervals meant are the same either way.",
+     "source": "Apparatus to Bas. 28.11 [checked]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U037",
+   "ru": "Различаются же друг от друга парафонное и антифонное тем, что парафонное консонирует неизохронно (ἀνισοχρόνως): звуки как-то мягко и ритмично сменяют друг друга в пропорциях и отношениях, равномерно; антифонное же — изохронно (ἰσοχρόνως): высокий [звук] консонирует с низким в одно и то же [время], как восьмой с первым, одиннадцатый с четвёртым, двенадцатый с пятым и пятнадцатый с восьмым, причём при напряжениях (τάσεις) или ослаблениях (ἀνέσεις) низкие поднимаются или опускаются вместе с высокими, или высокие вместе с низкими, пропорционально.",
+   "en": "The paraphonal and the antiphonal differ from each other in that the paraphonal is consonant anisochronously (ἀνισοχρόνως), the notes succeeding one another somehow gently and rhythmically, in proportions and ratios, with evenness; the antiphonal, isochronously (ἰσοχρόνως), the high [note] being consonant with the low at the same [time], as the eighth with the first, the eleventh with the fourth, the twelfth with the fifth and the fifteenth with the eighth, the low [notes] rising or falling together with the high in their tensions (τάσεις) or relaxations (ἀνέσεις), or the high with the low, proportionally.",
+   "doctrine": "Antiphonal consonance is the octave relation between notes of the system (pairs 1-8, 4-11, 5-12, 8-15 of U014), whose two notes coincide in time ('isochronously') and move in parallel when the strings are retuned; in paraphonal consonance (fourth, fifth) the notes 'succeed one another' in even proportion. The distinction recalls the explanation of consonance by the timing of motions in [Arist.] Probl. XIX.39: in consonances other than the octave the returns of one of the two notes are incomplete.",
+   "checks": "With the numbers of U041 (proslambanomenos = 6): note 8 : note 1 = 12:6, 11:4 = 16:8, 12:5 = 18:9, 15:8 = 24:12, each 2:1. Every example pair is an octave; the 'double fourth' (notes 1-11) and 'double fifth' (1-12) are not octaves themselves, but their upper notes are the octaves of notes 4 and 5.",
+   "notes": [
+    {
+     "ru": "Ср. «Проблемы» XIX.39: как стопы в метрах, так и звуки в консонансе «имеют отношение движения» друг к другу, и «у прочих консонансов возвраты одного из двух [звуков] неполны»; антифон «возникает из голосов юных мальчиков и мужчин». Ср. XIX.18: из консонансов поётся только октава, потому что лишь она состоит из антифонных струн.",
+     "en": "Cf. Problems XIX.39: as feet in metres, so notes in a consonance 'have a ratio of motion' to each other, and 'in the other consonances the returns of one of the two are incomplete'; the antiphon 'arises from young boys and men'. Cf. XIX.18: of the consonances only the octave is sung, because only it consists of antiphonal strings.",
+     "source": "[Arist.] Problemata XIX.18, 39, in Jan, MSG p. 88, 100-101 [checked: archive.org OCR]"
+    },
+    {
+     "ru": "Текст: πως (H Par. V; Bas. πρῶτον); βαρεῖ (Bas. V) — «низкому [звуку]», а не βάρει (H Par.) — «тяжести»; δέ (Bas. Par. V; H γάρ). ἀνισοχρόνως / ἰσοχρόνως не находят точной параллели у теоретиков; ср. теорию совпадения движений в «Проблемах».",
+     "en": "Text: πως (H Par. V; Bas. πρῶτον); βαρεῖ (Bas. V), 'with the low [note]', not βάρει (H Par.), 'weight'; δέ (Bas. Par. V; H γάρ). ἀνισοχρόνως / ἰσοχρόνως have no exact parallel in the theorists I checked; cf. the coincidence theory of the Problems.",
+     "source": "Apparatus to Bas. 28.15-18 [checked]"
+    }
+   ],
+   "doubts": [
+    {
+     "greek": "τοῦ ὀξέος τῷ βαρεῖ κατὰ ταὐτὸν συμφωνοῦντος",
+     "issue": "κατὰ ταὐτόν may mean 'at the same [time]' or 'in the same [way], as the same [note]' (octave identity).",
+     "options": "(a) temporal, glossing ἰσοχρόνως and opposed to the paraphonal notes that 'succeed one another'; (b) 'as the same', i.e. the two notes of the octave sound as one (the later notion of homophony).",
+     "choice": "(a), because ἰσοχρόνως immediately precedes and the paraphonal notes are said to succeed one another (διαδεχομένων); (b) remains possible and would make the point octave identity rather than simultaneity.",
+     "evidence": "Context of U037 [checked in the text]; [Arist.] Probl. XIX.39 (coincidence of motions) [checked].",
+     "alternative_ru": "…антифонное же — изохронно: высокий [звук] консонирует с низким как тождественный [ему]…",
+     "alternative_en": "… the antiphonal, isochronously, the high [note] being consonant with the low as the same [note] …"
+    }
+   ]
+  },
+  {
+   "id": "U038",
+   "ru": "Тон же, полутон и диеса, рассматриваемые сами по себе, — начало консонанса (συμφωνία), но ещё не консонанс.",
+   "en": "The tone, the semitone and the diesis, considered in themselves, are a beginning of consonance (συμφωνία), but not yet consonance.",
+   "doctrine": "Adapted from Theon p. 50 Hiller ('ὁ γὰρ τόνος καὶ ἡ δίεσις ἀρχὴ μὲν συμφωνίας, οὔπω δὲ συμφωνία'), with the semitone added; for Theon notes a tone or a diesis apart are dissonant.",
+   "checks": "No numbers in this unit.",
+   "notes": [
+    {
+     "ru": "Почти дословно из Феона: «диссонантны же и не консонантны звуки, интервал которых — тон или диеса: ибо тон и диеса — начало консонанса, но ещё не консонанс». Составитель добавляет полутон.",
+     "en": "Almost verbatim from Theon: 'notes are dissonant and not consonant whose interval is a tone or a diesis: for the tone and the diesis are a beginning of consonance, but not yet consonance'. The compiler adds the semitone.",
+     "source": "Theon Smyrn., ed. Hiller, p. 50 [checked: archive.org OCR]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U039",
+   "ru": "Кварта восполняется из двух тонов, полутона и ещё чего-то малого сверх того, что, будучи меньше даже диесы, не получило наименования; квинта — из трёх [тонов] и полутона; октава — через шесть; октава и двойная кварта — через восемь и полутон; октава и двойная квинта — через девять и полутон; двойная октава — через двенадцать.",
+   "en": "The fourth is filled up from two tones and a semitone and a little something besides, which, being smaller even than a diesis, has received no name; the fifth from three [tones] and a semitone; the octave through six; the octave and double fourth through eight and a semitone; the octave and double fifth through nine and a semitone; the double octave through twelve.",
+   "doctrine": "Sizes of the consonances in tones, in Aristoxenian style (fourth 2 1/2, fifth 3 1/2, octave 6, 11th 8 1/2, 12th 9 1/2, 15th 12), except for the 'small remainder' of the fourth, which belongs to neither school: for Aristoxenus the fourth is exactly 2 1/2 tones; for the Pythagoreans it is two tones and the leimma 256:243, i.e. less than 2 1/2 tones (Theon p. 67 Hiller: greater than a ditone, less than a tritone, made of two tones and the so-called leimma). The Sectio canonis proves the opposite of the compiler on both points: the octave is less than six tones (prop. 14), the fourth less than two tones and a semitone, the fifth less than three tones and a semitone (prop. 15).",
+   "checks": "Aristoxenian sums: 2 1/2 + 1 = 3 1/2 (fifth); 2 1/2 + 3 1/2 = 6 (octave); 6 + 2 1/2 = 8 1/2; 6 + 3 1/2 = 9 1/2; 6 + 6 = 12: all consistent. Pythagorean: (9/8)^2 · 256/243 = 4/3 exactly; two tones plus a true half-tone, (9/8)^2.5 = 1.3424, exceed 4/3 by 11.73 c; two tones plus 17:16 = 1377:1024 exceed 4/3 by 14.73 c. In ratios, then, the fourth is less, not more, than two tones and a semitone. A positive remainder appears only if the excesses are added linearly: 1/8 + 1/8 + 1/16 = 15/48 against 4:3 = 1 + 16/48, leaving 1/48, which is smaller than the diesis excess 1/32. Six Pythagorean tones = 531441:262144 exceed the octave 2:1 by the comma, 23.46 c.",
+   "notes": [
+    {
+     "ru": "Остаток «меньше диесы» не согласуется ни с Аристоксеном (кварта ровно 2½ тона), ни с пифагорейцами (кварта = два тона и лимма 256:243, т. е. меньше 2½ тона; Феон: кварта «больше дитона, меньше тритона… из двух тонов и так называемого лиммы»). В отношениях кварта меньше двух тонов с полутоном, а не больше. Положительный остаток получается, лишь если складывать избытки линейно: ⅛ + ⅛ + 1/16 = 15/48 против ⅓ = 16/48; остаток 1/48 меньше «избытка» диесы 1/32. Возможно, так и рассуждал составитель (гипотеза). Пифагорейцы как раз дают остатку имя — λεῖμμα.",
+     "en": "A remainder 'smaller than a diesis' agrees neither with Aristoxenus (the fourth is exactly 2 1/2 tones) nor with the Pythagoreans (the fourth is two tones and the leimma 256:243, i.e. less than 2 1/2 tones; Theon: the fourth is 'greater than a ditone, less than a tritone ... of two tones and the so-called leimma'). In ratios the fourth is less, not more, than two tones and a semitone. A positive remainder appears only if the excesses are added linearly: 1/8 + 1/8 + 1/16 = 15/48 against 1/3 = 16/48, leaving 1/48, smaller than the diesis excess 1/32. This may have been the compiler's reasoning (a hypothesis). The Pythagoreans in fact give the remainder a name, λεῖμμα.",
+     "source": "Theon Smyrn., ed. Hiller, p. 67 [checked: archive.org OCR]; computation [checked: own computation]"
+    },
+    {
+     "ru": "Евклидово «Деление канона» доказывает прямо противоположное: «октава меньше шести тонов» (предл. 14); «кварта меньше двух тонов и полутона, а квинта меньше трёх тонов и полутона» (предл. 15). Составитель и в октаве («через шесть»), и в квинте следует аристоксеновым круглым числам, а в кварте прибавляет излишек.",
+     "en": "The Euclidean Sectio canonis proves exactly the opposite: 'the octave is less than six tones' (prop. 14); 'the fourth is less than two tones and a semitone, and the fifth less than three tones and a semitone' (prop. 15). The compiler follows the round Aristoxenian figures for the octave ('through six') and the fifth, and adds a surplus to the fourth.",
+     "source": "Sectio canonis props. 14-15, in Jan, MSG [checked: archive.org OCR]"
+    }
+   ],
+   "doubts": [
+    {
+     "greek": "τὸ δὲ διὰ πασῶν καὶ δὶς διὰ τεσσάρων ... τὸ δὲ διὰ πασῶν καὶ δὶς διὰ πέντε (also U040)",
+     "issue": "Read literally, 'octave and double fourth' would be an octave plus the compiler's double fourth (itself an 11th); but 8 1/2 and 9 1/2 tones here and 8:3 and 3:1 at U040 show that the 11th (octave + fourth) and 12th (octave + fifth) are meant. Xylander deleted δίς here; Bas. Par. lack δίς at Bas. 29.14 (U040) and Bas. at 29.15.",
+     "options": "(a) printed: a conflation of the standard names διὰ πασῶν καὶ διὰ τεσσάρων / διὰ πέντε (Theon p. 56) with the compiler's δὶς διὰ τεσσάρων / πέντε (U035), denoting the same interval; (b) delete δίς with Xylander (and with Bas. Par. at 29.14).",
+     "choice": "(a): δίς stands in the oldest witness at all four places and is probably the compiler's; the numbers fix the reference. Translated as printed, explained in notes.",
+     "evidence": "Apparatus to Bas. 29.8, 29.9, 29.14, 29.15 [checked]; Theon Smyrn., ed. Hiller, p. 56-57 [checked]; U035 [checked in the text].",
+     "alternative_ru": "…октава и кварта — через восемь и полутон; октава и квинта — через девять и полутон…",
+     "alternative_en": "… the octave and fourth through eight and a semitone; the octave and fifth through nine and a semitone …"
+    }
+   ]
+  },
+  {
+   "id": "U040",
+   "ru": "Отношение же кварты — эпитритное (ἐπίτριτος), квинты — полуторное (ἡμιόλιος), октавы — двукратное (διπλάσιος), октавы и двойной кварты — двукратно-сверхмногочастное (διπλασιεπιμερής), октавы и двойной квинты — трёхкратное (τριπλάσιος).",
+   "en": "The ratio of the fourth is epitritic (ἐπίτριτος); of the fifth, hemiolic (ἡμιόλιος); of the octave, double (διπλάσιος); of the octave and double fourth, double-superpartient (διπλασιεπιμερής); of the octave and double fifth, triple (τριπλάσιος).",
+   "doctrine": "Ratios of the consonances after Theon p. 56-57 Hiller: 4:3, 3:2, 2:1, 8:3 ('πολλαπλασιεπιμερής ... διπλάσιος γὰρ καὶ δισεπίτριτός ἐστι'), 3:1, and 4:1 for the double octave. The compiler omits the double octave here, though U039 and U041 include it.",
+   "checks": "4:3, 3:2, 2:1 correct; 8:3 = 2 + 2/3, correctly 'double-superpartient' (more exactly double-superbipartient); 3:1 correct. The 4:1 of the double octave is missing here (it appears at U041 as 24:6).",
+   "notes": [
+    {
+     "ru": "Ср. Феон: «кварту — в эпитритном, квинту — в полуторном, октаву — в двукратном, октаву и кварту — в отношении 8 к 3, которое кратно-сверхмногочастное, ибо оно двукратное и сверх того две трети, октаву и квинту — в трёхкратном, двойную октаву — в четырёхкратном». διπλασιεπιμερής — родовое имя (2 + m/n); 8:3 точнее — «двукратно-сверхдвучастное». Феон называет 8:3 и 3:1 «октава и кварта», «октава и квинта» без δίς.",
+     "en": "Cf. Theon: 'the fourth in the epitritic, the fifth in the hemiolic, the octave in the double, the octave and fourth in the ratio of 8 to 3, which is multiple-superpartient, for it is double and two-thirds besides, the octave and fifth in the triple, the double octave in the quadruple'. διπλασιεπιμερής is a class name (2 + m/n); 8:3 is more exactly double-superbipartient. Theon calls 8:3 and 3:1 'octave and fourth', 'octave and fifth', without δίς.",
+     "source": "Theon Smyrn., ed. Hiller, p. 56-57 [checked: archive.org OCR]"
+    },
+    {
+     "ru": "Текст: τοῦ διὰ πασῶν (H Par. V; Bas. τοῦ δὲ); καὶ δὶς διὰ τεσσάρων (H V; Bas. Par. без δίς); καὶ δὶς διὰ πέντε (H Par. V; Bas. без δίς). О δίς см. сомнение к U039.",
+     "en": "Text: τοῦ διὰ πασῶν (H Par. V; Bas. τοῦ δὲ); καὶ δὶς διὰ τεσσάρων (H V; Bas. Par. without δίς); καὶ δὶς διὰ πέντε (H Par. V; Bas. without δίς). On δίς see the doubt at U039.",
+     "source": "Apparatus to Bas. 29.13-15 [checked]"
+    }
+   ],
+   "doubts": [
+    {
+     "greek": "τοῦ διὰ πασῶν καὶ δὶς διὰ πέντε τριπλάσιος.",
+     "issue": "The ratio of the double octave (4:1) is missing, though U039 gives its size (twelve tones), U041 its number (24 to 6) and Theon its ratio; the edition considered and did not adopt the supplement τοῦ δὲ δὶς διὰ πασῶν τετραπλάσιος.",
+     "options": "(a) printed: the compiler stops at 3:1; (b) a lacuna by homoeoteleuton (-πλάσιος ... -πλάσιος), to be filled with ⟨τοῦ δὲ δὶς διὰ πασῶν τετραπλάσιος⟩.",
+     "choice": "Translated as printed; I prefer (b) (see text_issues): the parallel lists of U039 and U041 and the source (Theon) all include the double octave, and the omission is mechanically easy.",
+     "evidence": "Apparatus to Bas. 29.16 [checked]; Theon Smyrn., ed. Hiller, p. 56-57 [checked]; U039, U041 [checked in the text].",
+     "alternative_ru": "…октавы и двойной квинты — трёхкратное, ⟨двойной октавы — четырёхкратное⟩.",
+     "alternative_en": "…; of the octave and double fifth, triple; ⟨of the double octave, quadruple⟩."
+    }
+   ]
+  },
+  {
+   "id": "U041",
+   "ru": "Например, для образца, пусть первым членом (ὅρος) в числах у нас будет положено число шесть; к нему, разумеется, эпитритным будет восемь, полуторным — девять, двукратным — двенадцать, двукратно-сверхмногочастным — шестнадцать, содержащее число шесть дважды и две его части, трёхкратным — восемнадцать, четырёхкратным (τετραπλάσιος) — двадцать четыре.",
+   "en": "For example, as a model, let our first term (ὅρος) among numbers be set as the number six; to it, of course, eight is epitritic, nine hemiolic, twelve double, sixteen double-superpartient — containing six twice and two parts of it — eighteen triple, and twenty-four quadruple (τετραπλάσιος).",
+   "doctrine": "Numerical model with 6 as the lowest term; 6, 8, 9, 12, 16, 18, 24 are exactly the values of notes 1, 4, 5, 8, 11, 12, 15 of the system (U014, U037) if proslambanomenos = 6, i.e. the consonances measured from proslambanomenos, as P's addition (U042) states.",
+   "checks": "8:6 = 4:3; 9:6 = 3:2; 12:6 = 2:1; 16:6 = 8:3 = 2 + 2/3 (16 = 2·6 + 2·2: 'two parts' = two thirds of 6 = 4); 18:6 = 3:1; 24:6 = 4:1. All correct. The series also contains the tone 9:8 (8 to 9; 16 to 18) and the octaves 12:6, 16:8, 18:9, 24:12 of U037.",
+   "notes": [
+    {
+     "ru": "Порядковые числительные в значении количественных: ὁ ἕκτος ἡμῖν ἀριθμός (букв. «шестое у нас число») = 6, ὁ ὄγδοος = 8 и т. д., как в U018 и U023. «Две части» (δύο μέρη) — по терминологии Никомаха две трети: сверхмногочастное отношение содержит целое и несколько частей его.",
+     "en": "Ordinals used for cardinals: ὁ ἕκτος ἡμῖν ἀριθμός (literally 'our sixth number') = 6, ὁ ὄγδοος = 8, and so on, as at U018 and U023. 'Two parts' (δύο μέρη) are, in Nicomachus' terminology, two thirds: a superpartient ratio contains the whole and several parts of it.",
+     "source": "The text itself [checked]; Nicomachus, Introductio arithmetica I.20 (ed. Hoche 1866) [from memory]"
+    },
+    {
+     "ru": "τὸν ἕκτον (H V) — «число шесть»; Bas. Par.: τό.",
+     "en": "τὸν ἕκτον (H V), 'the number six'; Bas. Par. τό.",
+     "source": "Apparatus to Bas. 29.21 [checked]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U042",
+   "ru": "⟨⟨Следует же рассмотреть, что опосредованные (ἔμμεσα) интервалы — такие, как кварта, мелос квинты, октава, двойная кварта, двойная квинта и двойная октава, — относят свои отношения к звуку просламбаномену, а непосредственные (ἄμεσα), лежащие между ними, — такие, как диеса, полутон и тон, — получили своё определённое состояние отношений относительно близких звуков, предшествующих им; и что также интервалы, укрупняемые путём слияния нескольких интервалов, — такие, как тридиеса, трихемитон, дитон и тритон, и всякий другой подобный вид, — после того как скрытые в них интервалы сперва были исчислены (λογοθετηθέντων) относительно близких звуков, таким образом смешиваются в один интервал, как бы путём слияния.",
+   "en": "⟨⟨It must be observed that the mediate (ἔμμεσα) intervals — such as the fourth, the melos of the fifth, the octave, the double fourth, the double fifth and the double octave — have the reference of their ratios to the proslambanomenos note; while the immediate (ἄμεσα) ones lying between these — such as diesis, the semitone and the tone — have formed the particular state of their ratios with respect to the near notes before them; and that the intervals enlarged by the fusion of several intervals as well — such as the tridiesis, the trihemitone, the ditone and tritone, and any other species of this kind — the intervals hidden in them having first been reckoned (λογοθετηθέντων) against the near notes, are thus blended into one interval as by fusion.",
+   "doctrine": "P's second addition: consonances (intervals with intermediate notes) are measured from the lowest note, proslambanomenos (cf. U041: 6 to 8, 9, 12, 16, 18, 24); elementary steps are measured between adjacent notes; fused intervals are compounds of adjacent steps. ἄμεσος / ἔμμεσος are logical terms (premises without / with a middle term), used of melodic movement between adjacent or non-adjacent notes in the Anonymus Bellermanni (§§ 4-6).",
+   "checks": "From 6: fourth 8, fifth 9, octave 12, 'double fourth' 16, 'double fifth' 18, double octave 24 (U041). A fused interval is the product of its hidden step ratios, e.g. ditone = 9/8 · 9/8 = 81:64; trihemitone in the compiler's terms = three 17:16-type semitones.",
+   "notes": [
+    {
+     "ru": "Текст P: προσλαμβανόμενον — конъектура вместо προλαμβανόμενον P; ἐκ συμφθάρσεως (дважды) — конъектура вместо ἐξυφθάρσεως P (Венсан: ἐξ φθάρσεως); διαστημάτων — исправление Венсана вместо διαστήματα P; κεκρυμμένων («скрытых») P, у Венсана κεκραμένων («смешанных»); δίεσις без артикля (Венсан: [ἡ] δίεσις); μέλος сохранено, но, возможно, подлежит удалению (см. сомнение).",
+     "en": "P's text: προσλαμβανόμενον is a conjecture for P's προλαμβανόμενον; ἐκ συμφθάρσεως (twice) a conjecture for P's ἐξυφθάρσεως (Vincent ἐξ φθάρσεως); διαστημάτων is Vincent's correction of P's διαστήματα; κεκρυμμένων ('hidden') P, Vincent κεκραμένων ('blended'); δίεσις without article (Vincent [ἡ] δίεσις); μέλος kept but perhaps to be deleted (see doubt).",
+     "source": "Apparatus, P (Vinc. 340.8-18) [checked]"
+    },
+    {
+     "ru": "λογοθετέω обычно — «требовать отчёта, проверять счета» (LSJ; Brill-Montanari); здесь — «определять отношение (λόγος)», с игрой слов. Перевод «исчислены» сохраняет и счётный смысл.",
+     "en": "λογοθετέω normally means 'call to account, audit' (LSJ; Brill-Montanari); here it is 'assign a ratio (λόγος)', a pun. The rendering 'reckoned' keeps the accounting sense.",
+     "source": "LSJ, Brill-Montanari s.v. λογοθετέω via Logeion [checked]"
+    },
+    {
+     "ru": "Опосредованные/непосредственные: в логике ἄμεσος — посылка без среднего термина (Аристотель, APr. 68b30; APo. 72b19), ἔμμεσος — «имеющий средний термин» (LSJ, DGE). В музыке ср. Аноним Беллермана § 4: мелодическая фигура «бывает разнообразно — непосредственно и через середину», § 6: «непосредственно … опосредованно — через три [звука]».",
+     "en": "Mediate / immediate: in logic ἄμεσος is a premise without a middle term (Aristotle, APr. 68b30; APo. 72b19), ἔμμεσος 'having a middle term' (LSJ, DGE). In music cf. the Anonymus Bellermanni § 4: a melodic figure 'occurs in various ways, immediately and through a middle', § 6: 'immediately ... mediately, through three [notes]'.",
+     "source": "LSJ, DGE s.v. ἄμεσος, ἔμμεσος via Logeion [checked]; Anonymi scriptio de musica, ed. Bellermann (1841), §§ 4, 6 [checked: archive.org OCR]"
+    }
+   ],
+   "doubts": [
+    {
+     "greek": "τὸ διὰ πέντε μέλος",
+     "issue": "μέλος stands only with the fifth in a list of interval names; the edition keeps P's word but marks it as perhaps to be deleted.",
+     "options": "(a) keep: 'the melos of the fifth', i.e. the fifth as a melodic interval; (b) delete μέλος as an intrusion (a gloss or a scribal error).",
+     "choice": "Translated as printed; I prefer (b) (see text_issues): no other member of the list has a noun, and μέλος adds nothing to the sense.",
+     "evidence": "Apparatus, P (Vinc. 340.8) [checked]; parallel lists at U036 and U039 [checked in the text].",
+     "alternative_ru": "…такие, как кварта, квинта, октава, двойная кварта…",
+     "alternative_en": "… such as the fourth, the fifth, the octave, the double fourth …"
+    }
+   ]
+  },
+  {
+   "id": "U043",
+   "ru": "Ведь отношения непосредственных интервалов выставлены цепью (κατὰ σειράν), а опосредованных — с перешагиванием (καθ’ ὑπερβατόν), как посылки и заключения в силлогизмах: посылки сплетаются как бы цепью, одна за другой, а заключения с перешагиванием связывают крайние из членов (ὅροι).",
+   "en": "For the ratios of the immediate intervals are set out in a chain (κατὰ σειράν), those of the mediate by overstepping (καθ’ ὑπερβατόν), like the premises and the conclusions in syllogisms: for the premises are, as it were, woven together one after another in a chain, whereas the conclusions, by overstepping, bind together the extremes of the terms (ὅροι).",
+   "doctrine": "Analogy with the syllogism: the middle term links the extremes, the conclusion joins the extreme terms (Aristotle, APr. I.4). Step ratios between adjacent notes are like a chain of premises; the consonance between the extreme notes is like the conclusion that steps over the middle. The compendium itself opens with a synopsis of logic (about.md § 1), on which the analogy draws.",
+   "checks": "E.g. 6 : 6 3/4 : 7 1/9 : 8 (tone, leimma, tone: the 'chain') against 6 : 8 = 4:3 (the 'conclusion' joining the extremes).",
+   "notes": [
+    {
+     "ru": "Ср. Аристотель, «Первая аналитика» I.4: при трёх терминах средний связывает крайние, и заключение соединяет крайние (ἄκρα). ὅρος здесь — логический «термин», в U041 — «член» отношения; русское «член» охватывает оба значения.",
+     "en": "Cf. Aristotle, Prior Analytics I.4: with three terms the middle links the extremes, and the conclusion joins the extremes (ἄκρα). ὅρος is here the logical 'term', at U041 the 'term' of a ratio; the Russian «член» covers both.",
+     "source": "Aristotle, APr. I.4, 25b32-26a2 [from memory]; about.md § 1 (structure of the compendium) [checked]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U044",
+   "ru": "Так же, стало быть, обстоит дело с отношениями и интервалами музыки: отношение опосредованных интервалов сопоставляется с перешагиванием с крайними из звуков, а [отношения] непосредственных сравниваются по порядку со звуками, близкими друг к другу, причём прирост (προσαύξησις) от меньших к большим продвигается цепью, а единицы не рассекаются, ибо и арифметики этого не принимают.⟩⟩",
+   "en": "Such, then, is the case with the ratios and the intervals of music: the ratio of the mediate intervals is compared, by overstepping, with the extreme notes, while those of the immediate are compared successively with the notes near one another, the increase (προσαύξησις) from the smaller to the greater proceeding in a chain, and the units not being cut, since the arithmeticians do not accept this either.⟩⟩",
+   "doctrine": "Application of the syllogistic analogy; the closing clause restates the arithmeticians' rule that the unit is not divided (cf. U019), so that the model series uses whole numbers.",
+   "checks": "In the series 6, 8, 9, 12, 16, 18, 24 all terms are whole numbers: no unit is cut, unlike 8 1/2 and 8 1/4 at U018.",
+   "notes": [
+    {
+     "ru": "Текст P: συγκρινομένων (мн. ч.) напечатано, хотя параллель τοῦ μὲν … παραβαλλομένου требует ед. ч. συγκρινομένου (конъектура не принята; см. text_issues); μονάδων — исправление Венсана вместо μονάδος P; ὅτι … τοῦτο P против ὅ, τι … οὔ πω у Венсана. δέδοκται с дат. — «признано, принято».",
+     "en": "P's text: the plural συγκρινομένων is printed, though the parallel τοῦ μὲν ... παραβαλλομένου calls for the singular συγκρινομένου (conjecture not adopted; see text_issues); μονάδων is Vincent's correction of P's μονάδος; ὅτι ... τοῦτο P against Vincent's ὅ, τι ... οὔ πω. δέδοκται with the dative = 'it is accepted by'.",
+     "source": "Apparatus, P (Vinc. 342.1-4) [checked]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U045",
+   "ru": "Следует, однако, знать, что отношения расстояний определяются не по числу звуков или струн, а по усилению (ἐπίτασις) звучания от низкого к более высокому.",
+   "en": "One must know, however, that the ratios of the distances are judged not by the number of the notes or of the strings, but by the intensification (ἐπίτασις) of the sound from the low to the higher.",
+   "doctrine": "Ratios measure pitch, not the count of notes or strings: the ordinal names of U034 and the numbers of positions are not ratios (developed at U046-U047).",
+   "checks": "No numbers in this unit.",
+   "notes": [
+    {
+     "ru": "P продолжает здесь основной текст словами Σκοπητέον δὲ ὡς вместо Εἰδέναι μέντοι χρή, ὡς; ἢ (H Par. V P) против οὐ Bas.",
+     "en": "P resumes the main text here with Σκοπητέον δὲ ὡς instead of Εἰδέναι μέντοι χρή, ὡς; ἢ (H Par. V P) against Bas. οὐ.",
+     "source": "Apparatus to Bas. 29.23-24 [checked]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U046",
+   "ru": "Ведь интервал квинты, имеющий полуторное отношение, оказывается полуторным не по превышению в количестве звуков, которое он имеет, когда его сравнивают с предшествующими ему [звуками]: по отношению к первому звуку он оказывается пятикратным (πενταπλασίων), ко второму — двукратным с половиной (διπλασιημιόλιος), к третьему — сверхдвучастным (ἐπιδιμερής), к четвёртому — сверхчетвертным (ἐπιτέταρτος), и ни в каком случае не обнаруживается полуторным.",
+   "en": "For indeed the interval of the fifth, which has the hemiolic ratio, does not appear hemiolic with respect to the excess in the quantity of notes that it has when compared with those before it: compared with the first note it is found [to be] quintuple (πενταπλασίων), with the second double-hemiolic (διπλασιημιόλιος), with the third superbipartient (ἐπιδιμερής), with the fourth epitetartic (ἐπιτέταρτος), and in no case is it shown [to be] hemiolic.",
+   "doctrine": "Reductio of counting: taken as the 5th note, the fifth would stand to notes 1-4 as 5:1, 5:2, 5:3, 5:4, never 3:2. Ratios belong to pitch, not to ordinal position; the point guards against reading the names of U034 ('through five') as ratios.",
+   "checks": "5:1 quintuple; 5:2 = 2 1/2 double-hemiolic; 5:3 = 1 2/3 superbipartient; 5:4 = 1 1/4 epitetartic. All correct; none equals 3:2.",
+   "notes": [
+    {
+     "ru": "Грамматика: при подлежащем среднего рода (τὸ διὰ πέντε διάστημα) стоят причастие и предикат мужского рода (συγκρινόμενος, ἡμιόλιος): автор мыслит квинту как её верхний, пятый звук или как λόγος. Русское «интервал» (м. р.) позволяет сохранить согласование. πενταπλασίων = πενταπλάσιος. Названия отношений — никомаховы: διπλασιημιόλιος (5:2), ἐπιδιμερής (5:3), ἐπιτέταρτος (5:4).",
+     "en": "Grammar: with a neuter subject (τὸ διὰ πέντε διάστημα) the participle and predicate are masculine (συγκρινόμενος, ἡμιόλιος): the author thinks of the fifth as its upper, fifth note or as a λόγος. πενταπλασίων = πενταπλάσιος. The ratio names are Nicomachean: διπλασιημιόλιος (5:2), ἐπιδιμερής (5:3), ἐπιτέταρτος (5:4).",
+     "source": "Nicomachus, Introductio arithmetica I.19-23 (ed. Hoche 1866) [from memory]; LSJ s.v. πενταπλασίων [from memory]"
+    },
+    {
+     "ru": "Текст: ἔχον (Bas. H Par.; V ἔχων); τοὺς πρὸ (H Par.; Bas. τὸν πρὸ; V τοὺς).",
+     "en": "Text: ἔχον (Bas. H Par.; V ἔχων); τοὺς πρὸ (H Par.; Bas. τὸν πρὸ; V τοὺς).",
+     "source": "Apparatus to Bas. 30.3, 30.5 [checked]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U047",
+   "ru": "Следовательно, он определяется как полуторный по усилению высоты (ὀξύτης), а не по числу звуков.",
+   "en": "Therefore it is judged hemiolic by the intensification of acuteness (ὀξύτης), not by the number of the notes.",
+   "doctrine": "Conclusion of U045-U046: 3:2 is a ratio of pitch.",
+   "checks": "No new numbers.",
+   "notes": [],
+   "doubts": []
+  },
+  {
+   "id": "U048",
+   "ru": "То же самое мы будем понимать и об остальных отношениях.",
+   "en": "We shall understand the same about the remaining ratios too.",
+   "doctrine": "Generalization to all consonances.",
+   "checks": "For the fourth as the 4th note: 4:1, 4:2 = 2:1, 4:3; for the octave as the 8th note: 8:1 ... 8:7, of which 8:4 = 2:1 and 8:6 = 4:3 coincide numerically with real ratios but between the wrong notes. Counting never gives the ratio between the first and the last note, so the generalization holds.",
+   "notes": [],
+   "doubts": []
+  },
+  {
+   "id": "U049",
+   "ru": "Такие отношения расстояний были найдены по различию длины струн, или толщины, или напряжения, возникающего при повороте колков (κόλλαβοι), или — что более известно — по подвешиванию (ἐξάρτησις) грузов; а у духовых (ἐμπνευστά) — либо по ширине полостей (κοιλίαι), либо по усилению и ослаблению дыхания.",
+   "en": "Such ratios of the distances were discovered from the difference in the length of the strings, or in their thickness, or in the tension produced by the turning of the pegs (κόλλαβοι), or — more familiarly — from the hanging (ἐξάρτησις) of weights; and in wind instruments (ἐμπνευστά) either from the width of the bores (κοιλίαι) or from the intensification and relaxation of the breath.",
+   "doctrine": "Almost verbatim from Theon p. 56-57 Hiller, on Pythagoras' testing of the ratios: lengths and thicknesses of strings, tension by turning the pegs 'or more familiarly' by hanging weights; in wind instruments by the width of the bores or by tightening and slackening the breath (Theon adds discs and vessels). Cf. the smithy legend in Nicomachus, Ench. 6, and Gaudentius 11.",
+   "checks": "No numbers. (Physically, frequency varies inversely with length and diameter but with the square root of tension: weights in the ratio 2:1 do not give the octave, 4:1 would be needed; the legend's weights cannot give the stated ratios. A modern remark, not a claim of the text.)",
+   "notes": [
+    {
+     "ru": "Феон: Пифагор проверял отношения «длиной и толщиной струн, а также напряжением, возникающим при повороте колков, или, что более известно, подвешиванием грузов, а у духовых — шириной полостей или усилением и ослаблением дыхания, или же объёмами и весами, как диски или сосуды». Составитель опускает последнее. Ср. у Никомаха (Ench. 6) струны с подвешенными грузами и поворот колков; у Гауденция (11) — грузы в три и четыре части.",
+     "en": "Theon: Pythagoras tested the ratios 'by the length and thickness of strings, and also by the tension produced by turning the pegs, or more familiarly by hanging weights, and in wind instruments by the width of the bores or by tightening and slackening the breath, or by volumes and weights, such as discs or vessels'. The compiler omits the last item. Cf. Nicomachus (Ench. 6), strings with hanging weights and the turning of the pegs; Gaudentius (11), weights of three and four parts.",
+     "source": "Theon Smyrn., ed. Hiller, p. 56-57 [checked: archive.org OCR]; Nicomachus, Ench. 6; Gaudentius, Harm. 11, in Jan, MSG [checked: archive.org OCR]"
+    },
+    {
+     "ru": "Текст: ἐξεύρηνται (Bas. Par. V; H ἐξά̣ρηνται); γινομένης (H γενομένης). P вместо «по ширине полостей» читает ἀπὸ τῆς τῶν αὐλῶν ἢ τῶν τρημάτων ἀφορότητος, τάσεως вместо ἐπιτάσεως и опускает καὶ ἀνέσεως (не принято). κοιλία — канал (полость) авлоса; κόλλαβος — колок.",
+     "en": "Text: ἐξεύρηνται (Bas. Par. V; H ἐξά̣ρηνται); γινομένης (H γενομένης). For 'the width of the bores' P reads ἀπὸ τῆς τῶν αὐλῶν ἢ τῶν τρημάτων ἀφορότητος, has τάσεως for ἐπιτάσεως and omits καὶ ἀνέσεως (not printed). κοιλία is the bore of the aulos; κόλλαβος the tuning peg.",
+     "source": "Apparatus to Bas. 30.15-23 [checked]; LSJ s.v. κόλλαβος, κοιλία [from memory]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U050",
+   "ru": "⟨⟨Следует же знать, что при напряжении или подвешивании бо́льшее усиление и бо́льшая тяжесть (βαρύτης) производят мелодию к высокому; а при толщине жил, или их длине, или [длине] авлосов (αὐλοί), или отстоянии отверстий (τρήματα) избыток любого из них составляет †оба† вида мелодии.⟩⟩",
+   "en": "⟨⟨It should be known that, in the case of tension or of hanging, greater intensification and greater heaviness (βαρύτης) produce melody toward the high; but in the case of the thickness of the cords, or of their length, or [that] of the auloi (αὐλοί), or of the spacing of the holes (τρήματα), the excess of any one of these constitutes †both† species of melody.⟩⟩",
+   "doctrine": "P's third addition states the direction of the effects: more tension or more weight raises the pitch; more thickness or length of strings, more length of pipes, greater distance of the holes lowers it (the second member, corrupt, must have said 'the other', i.e. the low). Qualitatively correct.",
+   "checks": "No numbers. Direction check: frequency rises with tension (and hanging weight) and falls with string length, string thickness, pipe length and distance of the open hole from the mouthpiece: correct for the first member and, with the expected sense, for the second.",
+   "notes": [
+    {
+     "ru": "Подвешенный груз натягивает струну, поэтому «бо́льшая тяжесть» (βαρύτης) даёт высокий звук: игра слов, так как βαρύτης значит и «тяжесть», и «низость звука». Текст: ἐξαρτήσεως — исправление Венсана вместо ἐξαντήσεων P; ἐργάζεται P (Венсан в примечании неуверенно: ἐξάγεται). διάτασις τῶν τρημάτων — «отстояние отверстий» (от мундштука).",
+     "en": "A hanging weight stretches the string, so 'greater heaviness' (βαρύτης) gives a high note: a play on words, since βαρύτης means both 'heaviness' and 'lowness of pitch'. Text: ἐξαρτήσεως is Vincent's correction of P's ἐξαντήσεων; ἐργάζεται P (Vincent in a note, tentatively, ἐξάγεται). διάτασις τῶν τρημάτων = the spacing (distance) of the holes (from the mouthpiece).",
+     "source": "Apparatus, P (Vinc. 342.19-24) [checked]; Theon Smyrn., ed. Hiller, p. 56-57 (weights and tension) [checked]"
+    }
+   ],
+   "doubts": [
+    {
+     "greek": "τὸ πλεονάζον τούτων τινὸς †ἀμφότερον† τῆς μελῳδίας εἶδος συνίστησι",
+     "issue": "ἀμφότερον ('both') gives no sense and does not even construe with the singular εἶδος; the sense requires the low pitch, opposite to the high of the first member.",
+     "options": "θάτερον ('the other [species]'), βαρύτερον ('the lower'), ἀμβλύτερον ('the duller', i.e. lower: cf. Aristotle's use of ὀξύ / ἀμβλύ as the tactile analogues of high / low), all considered and not adopted by the edition, which obelizes.",
+     "choice": "The obelized word is rendered '†both†' / «†оба†». I prefer θάτερον for the idiom of the μέν / δέ antithesis ('the high ... the other'); ἀμβλύτερον is the closest in letters. The sense 'the lower' is certain.",
+     "evidence": "Apparatus, P (Vinc. 342.19-24, no footnote) [checked]; Aristotle, De anima II.8, 420a29-b4 [from memory].",
+     "alternative_ru": "⟨⟨…избыток любого из них составляет другой вид мелодии [т. е. низкий].⟩⟩",
+     "alternative_en": "⟨⟨… the excess of any one of these constitutes the other species of melody [i.e. the low].⟩⟩"
+    }
+   ]
+  },
+  {
+   "id": "U051",
+   "ru": "Из систем одна — тетрахорд, заключающий в себе все силы (δυνάμεις) кварты; другая — пентахорд, охватывающий силы ⟨квинты⟩; иная — октахорд, содержащий всю мощь (ἰσχύς) октавы; иная же — непрерывный шестнадцатихорд, объемлющий целиком всё расстояние двойной октавы и получающий удвоенные силы: ведь он содержит в себе и названные прежде [силы], и [силы] двойной кварты, двойной квинты и двойной октавы.",
+   "en": "Of the systems, one is the tetrachord, which encompasses all the powers (δυνάμεις) of the fourth; another the pentachord, which comprises the powers of the ⟨fifth⟩; another the octachord, which contains the whole force (ἰσχύς) of the octave; and another the continuous sixteen-chord, which holds together the entire distance of the double octave and obtains double powers: for it contains in itself both the aforesaid [powers] and those of the double fourth, of the double fifth and of the double octave.",
+   "doctrine": "Systems named after Thrasyllus' examples (tetrachord, pentachord, octachord: Theon p. 48 Hiller) plus the double-octave 'sixteen-chord' of U015; each system contains the 'powers' of the consonance it spans, i.e. the interval structures (genera) that consonance can hold. 'Double' powers: the double octave contains the fourth, fifth and octave twice over and also the compound consonances.",
+   "checks": "Tetrachord: 4 notes, 3 intervals, 4:3; pentachord: 5 notes, 4 intervals, 3:2; octachord: 8 notes, 7 intervals, 2:1; sixteen-chord: 16 places on 15 strings, 14 intervals, 4:1, containing also 8:3 and 3:1 (U040-U041).",
+   "notes": [
+    {
+     "ru": "⟨διὰ⟩ добавлено Ксиландром (у всех свидетелей τοῦ πέντε, «пяти»); в переводе угловые скобки охватывают слово «квинты» / 'fifth', так как διὰ πέντε передано одним словом. Текст: ἐμπεριέχον (H Par. V; Bas. -ων); ὅλην (H, Xyl.; Bas. Par. V ὕλην, «материю»); διάστασιν (H V; Bas. Par. διάτασιν).",
+     "en": "⟨διὰ⟩ is Xylander's addition (all witnesses τοῦ πέντε, 'of the five'); in the translation the angle brackets enclose the word 'fifth' / «квинты», since διὰ πέντε is rendered by one word. Text: ἐμπεριέχον (H Par. V; Bas. -ων); ὅλην (H, Xyl.; Bas. Par. V ὕλην, 'matter'); διάστασιν (H V; Bas. Par. διάτασιν).",
+     "source": "Apparatus to Bas. 30.25-31.5 [checked]"
+    },
+    {
+     "ru": "δύναμις здесь не аристоксенова «функция» звука в системе, а «сила, объём возможностей»: то, что консонанс способен вместить (ср. U027: несоставной интервал «имеет силу нескольких интервалов»). Примеры систем — у Фрасилла (тетрахорд, пентахорд, октахорд).",
+     "en": "δύναμις is not here the Aristoxenian 'function' of a note within a system, but 'power, capacity': what a consonance can hold (cf. U027: an incomposite interval 'has the power of several intervals'). The examples of systems are Thrasyllus' (tetrachord, pentachord, octachord).",
+     "source": "Theon Smyrn., ed. Hiller, p. 48 [checked]; Cleonides on δύναμις as the function of a note [from memory]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U052",
+   "ru": "Отличаются же системы от интервалов, [лежащих] посередине, тем, что первые имеют своё строение (σύστασις) в материи, а интервалы мыслятся через отвлечение (ἐξ ἀφαιρέσεως) от материи.",
+   "en": "Systems differ from the intervals in between in that the former have their constitution (σύστασις) in matter, whereas the intervals are conceived by abstraction (ἐξ ἀφαιρέσεως) from matter.",
+   "doctrine": "Aristotelian distinction: mathematical objects are conceived 'by abstraction' (ἐξ ἀφαιρέσεως) from matter; intervals (ratios) are abstract, systems (sets of sounding strings) material. There is some tension with U019-U020 and U028, where the divisibility of intervals was grounded in matter.",
+   "checks": "No numbers in this unit.",
+   "notes": [
+    {
+     "ru": "ἐξ ἀφαιρέσεως — аристотелевский термин для математических предметов, мыслимых в отвлечении от материи («О душе» III.7; «Метафизика» K 3).",
+     "en": "ἐξ ἀφαιρέσεως is Aristotle's term for mathematical objects, conceived in abstraction from matter (De anima III.7; Metaphysics K 3).",
+     "source": "Aristotle, De anima III.7, 431b12-16; Metaph. K 3, 1061a28-b3 [from memory]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U053",
+   "ru": "Гармонии же свойственно упорядочивать и слаживать такие системы для того или иного рода (γένος) мелодии — например, диатонического (διάτονον), хроматического (χρωματικόν) и того, что отыменно (παρωνύμως) от самой гармонии называется гармоническим (ἁρμονικόν).",
+   "en": "It is proper to harmony to arrange and fit together such systems for this or that genus (γένος) of melody — for instance, the diatonic (διάτονον), the chromatic (χρωματικόν), and the one called 'harmonic' (ἁρμονικόν), paronymously (παρωνύμως) from harmony itself.",
+   "doctrine": "The three genera; the enharmonic is called ἁρμονικόν after Aristoxenus' name ἁρμονία for it (Cleonides 3: 'γένη δέ ἐστι τρία· διάτονον, χρῶμα, ἁρμονία'; Theon p. 56 Hiller). Harmony is here the agent that arranges systems into genera (cf. U011).",
+   "checks": "No numbers in this unit.",
+   "notes": [
+    {
+     "ru": "«Гармонический» род — энармонический: у Аристоксена и Клеонида он называется просто ἁρμονία («роды же три: диатоника, хроматика, гармония»); Феон передаёт объяснение Аристоксена (см. U060). παρωνύμως — «отыменно», в смысле аристотелевых «отыменных» (παρώνυμα) слов.",
+     "en": "The 'harmonic' genus is the enharmonic: in Aristoxenus and Cleonides it is called simply ἁρμονία ('the genera are three: diatonic, chromatic, harmonia'); Theon reports Aristoxenus' explanation (see U060). παρωνύμως = 'paronymously', in the sense of Aristotle's paronyms (παρώνυμα).",
+     "source": "Cleonides, Isag. 3 (Jan, MSG) [checked: archive.org OCR]; Theon Smyrn., ed. Hiller, p. 56 [checked]; Aristotle, Categories 1, 1a12-15 [from memory]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U054",
+   "ru": "Итак, если гармония продвигается по большей части через тоны (διὰ τόνων), строится род, потому так и называемый диатоническим (διάτονον); если через полутоны — хроматический; если же гармония держится скорее на диесах, составляется мелос, называемый гармоническим.",
+   "en": "If, then, harmony proceeds for the most part through tones (διὰ τόνων), the genus called 'diatonic' (διάτονον) on this account is constructed; if through semitones, the chromatic; and if harmony is held together rather by dieses, the melos called 'harmonic' is completed.",
+   "doctrine": "Etymology of 'diatonic' from διὰ τόνων, after Theon p. 53 Hiller ('διάτονον, ἤτοι ὅτι διὰ τῶν τόνων τὸ πλεῖστον διοδεύει'); the chromatic and enharmonic are characterized by their semitones and dieses. Theon's etymology of 'chromatic' (from its being 'turned aside', παρατετράφθαι, and altered) is dropped.",
+   "checks": "Tetrachords of U057-U060: diatonic 2 tones of 3 steps, chromatic 2 semitones of 3, enharmonic 2 dieses of 3: 'for the most part' holds in each case.",
+   "notes": [
+    {
+     "ru": "Ср. Феон: «такой род мелодии называется диатоническим — либо потому, что он по большей части проходит через тоны, либо потому, что являет величавый, мужественный и напряжённый нрав»; хроматический — «потому что он отклонён и изменён по сравнению с прежним». Текст: ἡ (H, Xyl.) вместо ἢ (Bas. Par. V).",
+     "en": "Cf. Theon: 'such a genus of melody is called diatonic, either because it mostly passes through tones, or because it displays a solemn, vigorous and well-strung character'; chromatic 'because it is turned aside and altered from the former'. Text: ἡ (H, Xyl.) for ἢ (Bas. Par. V).",
+     "source": "Theon Smyrn., ed. Hiller, p. 53-54 [checked: archive.org OCR]; apparatus to Bas. 31.23 [checked]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U055",
+   "ru": "Однако [построения] гармонии производятся не целиком через тоны, и не целиком через полутоны, и не целиком из диес: это и невозможно.",
+   "en": "Yet the [structures] of harmony are not produced entirely through tones, nor entirely through semitones, nor entirely from dieses; for that is not even possible.",
+   "doctrine": "No genus fills the fourth with a single kind of step.",
+   "checks": "Fourth = 2 1/2 tones = 5 semitones = 10 dieses (Aristoxenian). In quantity five semitones or ten dieses would fill it; only 'all tones' fails (2 1/2 is not a whole number). The impossibility therefore rests on the structure of the tetrachord (three intervals, four notes: U056), not on arithmetic alone.",
+   "notes": [
+    {
+     "ru": "Текст: οὐδὲ (Bas. Par. V; H οὐ γάρ). τὸ πᾶν здесь наречие «целиком» (ср. сомнение к U004).",
+     "en": "Text: οὐδὲ (Bas. Par. V; H οὐ γάρ). τὸ πᾶν is here adverbial, 'entirely' (cf. the doubt at U004).",
+     "source": "Apparatus to Bas. 32.1 [checked]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U056",
+   "ru": "Но поскольку кварта составлена тремя расстояниями и разделена двумя тонами и полутоном, то, когда вставлены два тоновых (τονιαῖα) интервала, остаток необходимо составит полутон.",
+   "en": "But since the fourth has been completed by three distances and is divided into two tones and a semitone, when two tonal (τονιαῖα) intervals are inserted the remainder must necessarily make a semitone.",
+   "doctrine": "The tetrachord spans a fourth with three intervals and four notes (Theon p. 53 Hiller: 'συνεστηκὸς ἐκ διαστημάτων μὲν τριῶν, ἡμιτονίου καὶ τόνου καὶ τόνου, φθόγγων δὲ τεσσάρων'). Here the fourth is exactly two tones and a semitone, without the 'little remainder' of U039.",
+   "checks": "2 + 1/2 = 2 1/2 tones (Aristoxenian). Pythagorean: (9/8)^2 · 256/243 = 4/3, the 'semitone' being the leimma.",
+   "notes": [
+    {
+     "ru": "Ср. Феон: тетрахорд «состоит из трёх интервалов — полутона, тона и тона — и четырёх звуков». Текст: διείληπται (Bas. H Par.; V διείρηπται); ἐντιθεμένων (H Par. V; Bas. ἐκτιθεμένων).",
+     "en": "Cf. Theon: the tetrachord 'consists of three intervals, semitone, tone and tone, and of four notes'. Text: διείληπται (Bas. H Par.; V διείρηπται); ἐντιθεμένων (H Par. V; Bas. ἐκτιθεμένων).",
+     "source": "Theon Smyrn., ed. Hiller, p. 53 [checked: archive.org OCR]; apparatus to Bas. 32.4-6 [checked]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U057",
+   "ru": "И это будет так называемый диатонический род кварты, составляемый из полутона и двух тонов.",
+   "en": "And this would be the genus of the fourth named diatonic, completed from a semitone and two tones.",
+   "doctrine": "Diatonic tetrachord: semitone, tone, tone (ascending), as in Theon p. 53 Hiller.",
+   "checks": "1/2 + 1 + 1 = 2 1/2 tones.",
+   "notes": [],
+   "doubts": []
+  },
+  {
+   "id": "U058",
+   "ru": "Если же полутонов будет два, то остаток станет одним интервалом путём слияния — несоставным трихемитоном; [род] смешан (συγκεκραμένον) из двух полутонов и трихемитона.",
+   "en": "If the semitones are two, the remainder would become a single interval by fusion, an incomposite trihemitone; [the genus is] blended (συγκεκραμένον) from two semitones and a trihemitone.",
+   "doctrine": "Chromatic tetrachord: semitone, semitone, incomposite trihemitone (Theon p. 54 Hiller: 'τὸ λειπόμενον ... τὸ τριημιτονιαῖον ἀσύνθετον'): Aristoxenus' tonic chromatic.",
+   "checks": "1/2 + 1/2 + 1 1/2 = 2 1/2 tones.",
+   "notes": [
+    {
+     "ru": "συγκεκραμένον (ср. р.) согласуется с подразумеваемым γένος (ср. U057, U059). Ср. Феон: «остаток первоначального тетрахорда — несоставной трихемитоновый [интервал]».",
+     "en": "συγκεκραμένον (neuter) agrees with an implied γένος (cf. U057, U059). Cf. Theon: 'the remainder of the original tetrachord, the incomposite trihemitonic [interval]'.",
+     "source": "Theon Smyrn., ed. Hiller, p. 54 [checked: archive.org OCR]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U059",
+   "ru": "Это будет хроматический род кварты, более страстный, чем первый, и более жалобный.",
+   "en": "This would be the chromatic genus of the fourth, more emotional than the former and more plaintive.",
+   "doctrine": "Ethos of the chromatic after Theon p. 53-54 Hiller ('γοερώτερόν τε καὶ παθητικώτερον ἦθος ἐμφαίνειν'), which also confirms H's γοερώτερον against γοέτερον of Bas. Par. V.",
+   "checks": "No numbers in this unit.",
+   "notes": [
+    {
+     "ru": "Феон: хроматический род «являет более жалобный и более страстный нрав». Чтение H γοερώτερον («более жалобный», от γόος «плач») подтверждено Феоном; γοέτερον Bas. Par. V — бессмыслица.",
+     "en": "Theon: the chromatic genus 'displays a more plaintive and more emotional character'. H's γοερώτερον ('more plaintive', from γόος 'lament') is confirmed by Theon; γοέτερον of Bas. Par. V is nonsense.",
+     "source": "Theon Smyrn., ed. Hiller, p. 53-54 [checked: archive.org OCR]; apparatus to Bas. 32.15 [checked]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U060",
+   "ru": "Если же мелодия продвигается двумя диесами, то другой из интервалов будет одним дитоном путём слияния; и этот род кварты называется гармоническим, поскольку он наилучший, — получив отыменное название от общей гармонии.",
+   "en": "If the melody proceeds by two dieses, the other of the intervals will be a single ditone by fusion; and this genus of the fourth is named 'harmonic' because it is the best, having taken its paronymous name from the common harmony.",
+   "doctrine": "Enharmonic tetrachord: diesis, diesis, incomposite ditone (Theon p. 55 Hiller: 'κατὰ δίεσιν καὶ δίεσιν καὶ δίτονον'); its name explained after Aristoxenus as reported by Theon p. 56: 'καλεῖσθαι ... ἁρμονίαν διὰ τὸ εἶναι ἄριστον, ἀπενεγκάμενον τοῦ παντὸς ἡρμοσμένου τὴν προσηγορίαν'.",
+   "checks": "1/4 + 1/4 + 2 = 2 1/2 tones.",
+   "notes": [
+    {
+     "ru": "Феон: «Аристоксен говорит, что этот род называется гармонией, потому что он наилучший, получив наименование от всего слаженного». Составитель заменяет «всё слаженное» на «общую гармонию» и ἁρμονία — на ἁρμονικόν. θάτερον — «другой» (из двух: после двух диес остаётся один интервал).",
+     "en": "Theon: 'Aristoxenus says that this genus is called harmonia because it is the best, having taken its name from the whole that is attuned'. The compiler replaces 'the whole that is attuned' with 'the common harmony' and ἁρμονία with ἁρμονικόν. θάτερον = 'the other' (after the two dieses one interval remains).",
+     "source": "Theon Smyrn., ed. Hiller, p. 55-56 [checked: archive.org OCR]"
+    }
+   ],
+   "doubts": [
+    {
+     "greek": "ἐκ τῆς κοινῆς ἁρμονίας τὴν παρωνυμίαν ἀπενεγκάμενον",
+     "issue": "'The common harmony': harmony as the general name, or the universal, cosmic harmony of the proem.",
+     "options": "(a) 'from harmony in general', i.e. from the generic name ἁρμονία, applied par excellence to the best genus; (b) 'from the universal harmony', the harmony of the All (U004-U005), corresponding to Theon's τοῦ παντὸς ἡρμοσμένου ('the whole that is attuned').",
+     "choice": "Literal 'the common harmony' / «общей гармонии», which keeps both readings open; (b) is supported by the source phrase and by U004-U005, (a) by the grammatical notion of paronymy (U053).",
+     "evidence": "Theon Smyrn., ed. Hiller, p. 56 [checked]; U004-U005, U053 [checked in the text].",
+     "alternative_ru": "…получив отыменное название от вселенской гармонии.",
+     "alternative_en": "… having taken its paronymous name from the universal harmony."
+    }
+   ]
+  },
+  {
+   "id": "U061",
+   "ru": "Подобным же образом гармония упорядочивает и остальные системы.",
+   "en": "In like manner harmony arranges the remaining systems too.",
+   "doctrine": "The tetrachordal construction applies to the pentachord, octachord and double octave (U051).",
+   "checks": "No numbers in this unit.",
+   "notes": [
+    {
+     "ru": "Текст: δέ (Bas. Par. V; H γάρ).",
+     "en": "Text: δέ (Bas. Par. V; H γάρ).",
+     "source": "Apparatus to Bas. 32.21 [checked]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U062",
+   "ru": "Ведь по примеру упорядочения одного тетрахорда в отношении интервалов кварты любознательному легко догадаться и о последующих системах.",
+   "en": "For by the example of the arrangement of a single tetrachord with respect to the intervals of the fourth, it is easy for the lover of learning to infer about the subsequent systems as well.",
+   "doctrine": "Didactic economy of a school synopsis: the tetrachord is the model, the reader extends it to larger systems.",
+   "checks": "No numbers in this unit.",
+   "notes": [
+    {
+     "ru": "Текст: τοῦ (H, Xyl.; Bas. Par. V τό). συντακτικὸν ὑπόδειγμα — «пример упорядочения», от σύνταξις (U011).",
+     "en": "Text: τοῦ (H, Xyl.; Bas. Par. V τό). συντακτικὸν ὑπόδειγμα = 'example of arrangement', from σύνταξις (U011).",
+     "source": "Apparatus to Bas. 32.23 [checked]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U063",
+   "ru": "Гармонический же род мелодии труднее всего для пения (δυσμελῳδικώτατον) и требует большого упражнения и привычки; потому он и в употребление входит нелегко.",
+   "en": "The harmonic genus of melody, however, is the most difficult to sing (δυσμελῳδικώτατον) and requires much practice and habituation; hence it does not readily come into use either.",
+   "doctrine": "From Theon p. 56 Hiller ('ἔστι δὲ δυσμελῳδητότατον καί, ὡς ἐκεῖνός φησι, φιλότεχνον καὶ πολλῆς δεόμενον συνηθείας, ὅθεν οὐδ’ εἰς χρῆσιν ῥᾳδίως ἔρχεται'); cf. Aristoxenus on the perception's late and laborious habituation to the enharmonic.",
+   "checks": "No numbers in this unit.",
+   "notes": [
+    {
+     "ru": "Почти дословно из Феона, где речь об энармоническом роде (LSJ s.v. δυσμελῴδητος: 'hard to employ in melody', об энармонических интервалах, Theo Sm. p. 56 H.). Составитель пишет δυσμελῳδικώτατον (такой формы в словарях нет) и добавляет τριβῆς («упражнения»), опуская φιλότεχνον. Ср. Аристоксен: к энармонике чувство привыкает последней и с трудом.",
+     "en": "Almost verbatim from Theon, where the subject is the enharmonic genus (LSJ s.v. δυσμελῴδητος: 'hard to employ in melody', of enharmonic intervals, Theo Sm. p. 56 H.). The compiler writes δυσμελῳδικώτατον (a form not in the lexica) and adds τριβῆς ('practice'), dropping φιλότεχνον. Cf. Aristoxenus: perception becomes accustomed to the enharmonic last and with difficulty.",
+     "source": "Theon Smyrn., ed. Hiller, p. 56 [checked: archive.org OCR]; LSJ, DGE s.v. δυσμελῴδητος via Logeion [checked]; Aristoxenus, Elementa harmonica I, on the order of the genera [from memory]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U064",
+   "ru": "Диатонический же прост, благороден и более естествен; потому-то его и принимает Платон.",
+   "en": "The diatonic is simple, noble and more natural; that is precisely why Plato too adopts it.",
+   "doctrine": "From Theon p. 56 Hiller ('τὸ δὲ διάτονον γένος ἁπλοῦν τι καὶ γενναῖον καὶ μᾶλλον κατὰ φύσιν· διὸ μᾶλλον τοῦτο παραλαμβάνει Πλάτων'): Plato's division of the World Soul (Timaeus 35b-36b) uses tones of 9:8 and the leimma 256:243, i.e. the Pythagorean diatonic.",
+   "checks": "Plato's tetrachord: 9/8 · 9/8 · 256/243 = 4/3.",
+   "notes": [
+    {
+     "ru": "Феон: «диатонический же род — нечто простое, благородное и более согласное с природой; поэтому его скорее и принимает Платон». Составитель заменяет μᾶλλον κατὰ φύσιν на φυσικώτερον. У Платона («Тимей» 36a–b) интервалы мировой души — тоны 9:8 и «остаток» (λεῖμμα) 256:243.",
+     "en": "Theon: 'the diatonic genus is something simple, noble and more in accord with nature; that is why Plato rather adopts it'. The compiler replaces μᾶλλον κατὰ φύσιν with φυσικώτερον. In Plato (Timaeus 36a-b) the intervals of the World Soul are tones of 9:8 and the 'remainder' (λεῖμμα) 256:243.",
+     "source": "Theon Smyrn., ed. Hiller, p. 56 [checked: archive.org OCR]; Plato, Timaeus 36a-b [from memory]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U065",
+   "ru": "Каждый же из них, в свою очередь, разнообразится и рассекается на многие деления, различия и виды мелодий; и то лидийский, то фригийский, то дорийский мелос гармонически слагается (ἐναρμόζεται), и в каждом из них являются пеан (παιήων), гименей (ὑμέναιος), эксодий (ἐξόδιος) и все какие ни есть виды мелодий.",
+   "en": "Each of these, in turn, is varied and cut up into many divisions and differences and species of melodies; and now a Lydian, now a Phrygian, now a Dorian melos is harmonized (ἐναρμόζεται), in each of which appear the paean (παιήων), the hymenaeus (ὑμέναιος), the exodios (ἐξόδιος) and all the species of melodies there are.",
+   "doctrine": "The genera are subdivided (the 'shades' of the theorists), and melodies are set in the Lydian, Phrygian and Dorian harmoniai — Thrasyllus' examples of ἁρμονία, in the same order (Theon p. 48 Hiller) — within which song types (paean, wedding song, exodios) are composed.",
+   "checks": "No numbers in this unit.",
+   "notes": [
+    {
+     "ru": "Лидийская, фригийская, дорийская — примеры гармонии у Фрасилла (у Феона) в том же порядке. Виды песен: παιήων — пеан; ὑμέναιος — свадебная песнь (Bas. ὑμεραῖος — опечатка); ἐξόδιος (м. р., подразумевается νόμος или ὕμνος) — «исходная» песнь: LSJ приводит ἐξόδιοι νόμοι Кратина и τὸ ἐξόδιον как финал пьесы, Pape — песнь уходящего хора (Поллукс 4.108). V повторяет νῦν δὲ φρύγιον.",
+     "en": "Lydian, Phrygian, Dorian are Thrasyllus' examples of harmonia (in Theon) in the same order. Song types: παιήων, the paean; ὑμέναιος, the wedding song (Bas. ὑμεραῖος is a misprint); ἐξόδιος (masculine, sc. νόμος or ὕμνος), the 'exit' song: LSJ cites Cratinus' ἐξόδιοι νόμοι and τὸ ἐξόδιον as the finale of a play, Pape the song of the departing chorus (Pollux 4.108). V repeats νῦν δὲ φρύγιον.",
+     "source": "Theon Smyrn., ed. Hiller, p. 48 [checked]; LSJ, Pape, Bailly s.v. ἐξόδιος via Logeion [checked]; apparatus to Bas. 33.10-12 [checked]"
+    }
+   ],
+   "doubts": [
+    {
+     "greek": "ἐξόδιος",
+     "issue": "What kind of song ἐξόδιος denotes.",
+     "options": "(a) 'exodios', a closing or departure song (LSJ: ἐξόδιοι νόμοι, Cratinus; τὸ ἐξόδιον, the finale; Pollux 4.108, the song of the departing chorus); (b) a funeral song, after the Byzantine use of ἐξόδιος for the funeral rite, which would give a life-cycle triad: praise (paean), wedding (hymenaeus), funeral (exodios).",
+     "choice": "Transliterated 'exodios' / «эксодий», leaving (a) and (b) open; (b) is attractive in an eleventh-century author but rests on later usage that I could not check in Lampe or Sophocles.",
+     "evidence": "LSJ, Pape, Bailly s.v. ἐξόδιος via Logeion [checked]; Byzantine ἐξόδιος ἀκολουθία, 'funeral service' [from memory].",
+     "alternative_ru": "…являются пеан, гименей, погребальная песнь и все какие ни есть виды мелодий.",
+     "alternative_en": "… there appear the paean, the hymenaeus, the funeral song and all the species of melodies there are."
+    }
+   ]
+  },
+  {
+   "id": "U066",
+   "ru": "Ведь не одним лишь переносом (μεταφορά) интервалов и не одним лишь их различием, но и более медленными и быстрыми переходами, выдерживаниями (διαμοναί) и течениями (ῥοαί), и разнообразными приёмами касаний (ἐπαφαί) и ударов (κρούματα) создаются бесчисленные и разнообразные мелодии.",
+   "en": "For it is not by the mere transference (μεταφορά) of the intervals, nor by their mere difference, but also by slower and quick transitions, by sustainings (διαμοναί) and flows (ῥοαί), and by the varied handling of touches (ἐπαφαί) and strokes (κρούματα), that the countless and varied melodies are constructed.",
+   "doctrine": "Melodic variety arises not only from interval structure (the placing and the kind of intervals) but from the tempo of transitions, held notes and flowing passages, and instrumental technique. Cf. Cleonides 14 on the usages of melodic composition (ἀγωγή, πλοκή, πεττεία, τονή), τονή being a prolonged μονή on one utterance of the voice.",
+   "checks": "No numbers in this unit.",
+   "notes": [
+    {
+     "ru": "Ср. Клеонид 14: «тона (τονή) — более долгое пребывание (μονή) на одном произнесении голоса»; «ведение (ἀγωγή) — путь мелоса через соседние звуки». ἐπαφή — «касание», в том числе струн лиры (LSJ: Euryphamus ap. Stob. 4.39.27); κροῦμα — звук, извлечённый ударом по струне (LSJ). Игра слов μεταφορά / διαφορά.",
+     "en": "Cf. Cleonides 14: 'τονή is a longer dwelling (μονή) on one utterance of the voice'; 'ἀγωγή is the path of the melos through successive notes'. ἐπαφή is 'touch', including on the strings of the lyre (LSJ: Euryphamus ap. Stob. 4.39.27); κροῦμα a note struck on a string (LSJ). Note the wordplay μεταφορά / διαφορά.",
+     "source": "Cleonides, Isag. 14 (p. 22 Meibom), in Jan, MSG [checked: archive.org OCR]; LSJ s.v. ἐπαφή, κροῦμα via Logeion [checked]"
+    },
+    {
+     "ru": "Текст: Bas. опускает μεταφορᾷ οὐδὲ τῇ μόνῃ τούτων (скачок от μόνῃ к μόνῃ); σχολαιοτέραις (H V; Bas. Par. χολαιοτέραις). Сравнительная и положительная степени рядом (σχολαιοτέραις καὶ ταχιναῖς) сохранены.",
+     "en": "Text: Bas. omits μεταφορᾷ οὐδὲ τῇ μόνῃ τούτων (a leap from μόνῃ to μόνῃ); σχολαιοτέραις (H V; Bas. Par. χολαιοτέραις). The comparative and positive side by side (σχολαιοτέραις καὶ ταχιναῖς) are kept.",
+     "source": "Apparatus to Bas. 33.14-15 [checked]"
+    }
+   ],
+   "doubts": []
+  },
+  {
+   "id": "U067",
+   "ru": "Конец [раздела] музыки.",
+   "en": "End of the [section on] music.",
+   "doctrine": "Explicit of the music section.",
+   "checks": "No numbers in this unit.",
+   "notes": [],
+   "doubts": []
+  }
+ ],
+ "terms": [
+  {
+   "greek": "σύνοψις",
+   "ru": "синопсис",
+   "en": "synopsis",
+   "meaning_here": "School summary of a discipline (title, U001).",
+   "evidence": "about.md § 1 [checked]; LSJ s.v. [from memory]"
+  },
+  {
+   "greek": "μουσική",
+   "ru": "музыка",
+   "en": "music",
+   "meaning_here": "The discipline of musical sound and ratio; in the proem also the cosmic order (U002-U007).",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 16-17 [checked]"
+  },
+  {
+   "greek": "συμμετρία",
+   "ru": "соразмерность",
+   "en": "commensurability",
+   "meaning_here": "Due measure of parts; with ἀναλογία the condition of being and of becoming well (U002-U003).",
+   "evidence": "Plato, Philebus 64d-e [from memory]; LSJ s.v. [from memory]"
+  },
+  {
+   "greek": "αὐτοσυμμετρία",
+   "ru": "самосоразмерность",
+   "en": "self-commensurability",
+   "meaning_here": "Commensurability itself: music as proportion, not a proportioned thing (U004).",
+   "evidence": "No entry in LSJ, DGE, Bailly, Pape via Logeion [checked]"
+  },
+  {
+   "greek": "ἀναλογία; κατὰ ἀνάλογον",
+   "ru": "пропорция; пропорционально",
+   "en": "proportion; proportionally",
+   "meaning_here": "Proportion in general (U002-U004, U037); κατὰ ἀνάλογον of the parallel motion of octave notes (U037).",
+   "evidence": "LSJ s.v. ἀναλογία [from memory]"
+  },
+  {
+   "greek": "ἁρμονία",
+   "ru": "гармония",
+   "en": "harmony",
+   "meaning_here": "(1) Cosmic harmony (U004-U005); (2) arrangement of systems (U011, Thrasyllus); (3) the agent that arranges systems into genera (U053-U061); (4) source of the name of the 'harmonic' genus (U053, U060). One rendering is kept for all senses because the compiler plays on them.",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 48, 56 [checked]; Cleonides, Isag. 3 (ἁρμονία = enharmonic genus), Jan MSG [checked]"
+  },
+  {
+   "greek": "ἐναρμόνιος; ἐναρμόζω",
+   "ru": "гармоничный; гармонически сочетаться (слагаться)",
+   "en": "harmonious; be harmonized",
+   "meaning_here": "Fit to be joined with another note in harmony (U008, U012-U013), not 'enharmonic'; ἐναρμόζεται at U065 of a melos set in a harmonia.",
+   "evidence": "LSJ s.v. ἐναρμόνιος I vs II, via Logeion [checked]; Thrasyllus in Theon p. 47 [checked]"
+  },
+  {
+   "greek": "φθόγγος",
+   "ru": "звук",
+   "en": "note",
+   "meaning_here": "Musical sound of one pitch, the element of melody, counted by position (U014-U016, U037).",
+   "evidence": "Theon p. 47 (Thrasyllus); Cleonides 1; Nicomachus, Ench. 12 (Jan MSG) [checked]; Tsypin's usage, about.md § 5 [checked]"
+  },
+  {
+   "greek": "φωνή",
+   "ru": "голос",
+   "en": "voice",
+   "meaning_here": "The sounding voice whose tension is the note (U008).",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 47 [checked]"
+  },
+  {
+   "greek": "ἠχή",
+   "ru": "звучание",
+   "en": "sound",
+   "meaning_here": "The sounding that spans an interval (U034) or rises in pitch (U045).",
+   "evidence": "LSJ s.v. [from memory]"
+  },
+  {
+   "greek": "ψόφος",
+   "ru": "шум",
+   "en": "noise",
+   "meaning_here": "Unmusical sound (U013).",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 50 (Adrastus) [checked]"
+  },
+  {
+   "greek": "ἀπηχής",
+   "ru": "нестройный",
+   "en": "discordant",
+   "meaning_here": "Out of tune, not combinable with other notes (U013).",
+   "evidence": "LSJ, DGE, Pape s.v. via Logeion [checked]"
+  },
+  {
+   "greek": "ἀδιάστατος",
+   "ru": "непротяжённый",
+   "en": "unextended",
+   "meaning_here": "Without extension, like the geometrical point; also 'not spanning an interval' (U008, U012).",
+   "evidence": "LSJ s.v. II (Plu. 601c, of a point), via Logeion [checked]; Nicomachus, Ench. 4 φθόγγου ἀδιαστάτου (Jan MSG) [checked]"
+  },
+  {
+   "greek": "στιγμή",
+   "ru": "точка",
+   "en": "point",
+   "meaning_here": "The geometrical point, analogue of the note (U012).",
+   "evidence": "Nicomachus, Excerpta 6 (unit, point, letter), Jan MSG [checked]"
+  },
+  {
+   "greek": "τάσις",
+   "ru": "напряжение",
+   "en": "tension",
+   "meaning_here": "Pitch-tension of the voice (U008); physical tension of strings (U037, U049-U050).",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 47, 56-57 [checked]"
+  },
+  {
+   "greek": "ἐπίτασις / ἄνεσις",
+   "ru": "усиление / ослабление",
+   "en": "intensification / relaxation",
+   "meaning_here": "Rise / fall in pitch (U045, U047), tightening / slackening of strings and breath (U037, U049-U050).",
+   "evidence": "Bacchius, Isag. (p. 12 Meibom) and Cleonides 2, Jan MSG [checked]"
+  },
+  {
+   "greek": "ὀξύτης",
+   "ru": "высота",
+   "en": "acuteness",
+   "meaning_here": "Highness of pitch (U047).",
+   "evidence": "LSJ s.v. [from memory]"
+  },
+  {
+   "greek": "βαρύτης",
+   "ru": "тяжесть",
+   "en": "heaviness",
+   "meaning_here": "Weight of hanging loads in U050 (with a play on 'lowness of pitch').",
+   "evidence": "LSJ s.v. [from memory]"
+  },
+  {
+   "greek": "διάστημα",
+   "ru": "интервал",
+   "en": "interval",
+   "meaning_here": "Relation of two notes (U009); elementary, fused and consonant intervals.",
+   "evidence": "Theon p. 48; Cleonides 1 (Jan MSG) [checked]"
+  },
+  {
+   "greek": "διάστασις",
+   "ru": "расстояние",
+   "en": "distance",
+   "meaning_here": "The compiler's near-synonym of διάστημα, used of consonances and of the span of systems (U035-U036, U045, U049, U051, U056).",
+   "evidence": "LSJ s.v. [from memory]"
+  },
+  {
+   "greek": "σχέσις",
+   "ru": "соотношение",
+   "en": "relation",
+   "meaning_here": "The relation of two notes that constitutes an interval (U009).",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 48 (Thrasyllus) [checked]"
+  },
+  {
+   "greek": "σύστημα",
+   "ru": "система",
+   "en": "system",
+   "meaning_here": "A compass of several intervals, from tetrachord to double octave (U010, U051-U052, U061-U062).",
+   "evidence": "Theon p. 48; Cleonides 1 (Jan MSG) [checked]"
+  },
+  {
+   "greek": "περιοχή",
+   "ru": "охват",
+   "en": "compass",
+   "meaning_here": "The encompassing of intervals by a system (U010).",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 48 [checked]"
+  },
+  {
+   "greek": "σύνταξις; συντάττω; συντακτικός",
+   "ru": "упорядочение; упорядочивать; [пример] упорядочения",
+   "en": "arrangement; arrange; of arrangement",
+   "meaning_here": "Ordering of systems into a harmonia or a genus (U011, U053, U061-U062).",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 48 [checked]"
+  },
+  {
+   "greek": "συναρμολογέω; συμβιβάζω",
+   "ru": "слаживать; согласовывать",
+   "en": "fit together; bring into accord",
+   "meaning_here": "Joining parts harmoniously (U005, U053); Pauline wording at U005.",
+   "evidence": "Ephesians 2:21; 4:16, SBLGNT [checked]"
+  },
+  {
+   "greek": "λόγος",
+   "ru": "отношение",
+   "en": "ratio",
+   "meaning_here": "Numerical ratio of pitches (passim; at U034 see the doubt).",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 56-57 [checked]"
+  },
+  {
+   "greek": "ὅρος",
+   "ru": "член",
+   "en": "term",
+   "meaning_here": "Term of a ratio (U041) and term of a syllogism (U043).",
+   "evidence": "Aristotle, APr. I.4 [from memory]; LSJ s.v. [from memory]"
+  },
+  {
+   "greek": "ἐπόγδοος",
+   "ru": "эпогдоический",
+   "en": "epogdoic",
+   "meaning_here": "9:8, the ratio of the tone.",
+   "evidence": "Theon p. 56-57 (ἐν ἐπογδόῳ λόγῳ) [checked]; 'эпогдоон' in the Aleksandrova-Myakin school, about.md § 5 [checked]"
+  },
+  {
+   "greek": "ἡμιεπόγδοος",
+   "ru": "полуэпогдоический",
+   "en": "hemi-epogdoic",
+   "meaning_here": "The semitone in the compiler's arithmetic, 1 + 1/16 = 17:16 (U020).",
+   "evidence": "No entry in LSJ, Bailly, Pape via Logeion [checked]"
+  },
+  {
+   "greek": "ἐπίτριτος",
+   "ru": "эпитритный",
+   "en": "epitritic",
+   "meaning_here": "4:3.",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 56 [checked]; 'эпитрит', about.md § 5 [checked]"
+  },
+  {
+   "greek": "ἡμιόλιος",
+   "ru": "полуторный",
+   "en": "hemiolic",
+   "meaning_here": "3:2.",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 56 [checked]; 'полуторное', about.md § 5 [checked]"
+  },
+  {
+   "greek": "διπλάσιος",
+   "ru": "двукратный",
+   "en": "double",
+   "meaning_here": "2:1.",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 56 [checked]"
+  },
+  {
+   "greek": "διπλασιεπιμερής",
+   "ru": "двукратно-сверхмногочастный",
+   "en": "double-superpartient",
+   "meaning_here": "2 + m/n; here 8:3 (U040-U041).",
+   "evidence": "Theon p. 56-57 (πολλαπλασιεπιμερής ... διπλάσιος καὶ δισεπίτριτος) [checked]; Nicomachus, Intr. arith. I.23 [from memory]"
+  },
+  {
+   "greek": "τριπλάσιος",
+   "ru": "трёхкратный",
+   "en": "triple",
+   "meaning_here": "3:1.",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 56-57 [checked]"
+  },
+  {
+   "greek": "τετραπλάσιος",
+   "ru": "четырёхкратный",
+   "en": "quadruple",
+   "meaning_here": "4:1.",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 56-57 [checked]"
+  },
+  {
+   "greek": "πενταπλασίων",
+   "ru": "пятикратный",
+   "en": "quintuple",
+   "meaning_here": "5:1 (= πενταπλάσιος), U046.",
+   "evidence": "LSJ s.v. [from memory]"
+  },
+  {
+   "greek": "διπλασιημιόλιος",
+   "ru": "двукратный с половиной",
+   "en": "double-hemiolic",
+   "meaning_here": "5:2 (U046).",
+   "evidence": "Nicomachus, Intr. arith. I.22-23 [from memory]"
+  },
+  {
+   "greek": "ἐπιδιμερής",
+   "ru": "сверхдвучастный",
+   "en": "superbipartient",
+   "meaning_here": "5:3 = 1 + 2/3 (U046).",
+   "evidence": "Nicomachus, Intr. arith. I.20 [from memory]"
+  },
+  {
+   "greek": "ἐπιτέταρτος",
+   "ru": "сверхчетвертной",
+   "en": "epitetartic",
+   "meaning_here": "5:4 (U046).",
+   "evidence": "Nicomachus, Intr. arith. I.19 [from memory]"
+  },
+  {
+   "greek": "δίεσις",
+   "ru": "диеса",
+   "en": "diesis",
+   "meaning_here": "The smallest interval, a quarter-tone; in the compiler's numbers 8 1/4 : 8 = 33:32 (U018).",
+   "evidence": "Theon p. 55 (τεταρτημόριον τοῦ τόνου, Aristoxenians) [checked]; Tsypin 'диеса', about.md § 5 [checked]"
+  },
+  {
+   "greek": "ἡμιτόνιον",
+   "ru": "полутон",
+   "en": "semitone",
+   "meaning_here": "Half the tone; in the compiler's numbers 8 1/2 : 8 = 17:16 (U018).",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 53 [checked]"
+  },
+  {
+   "greek": "τόνος; τονιαῖος",
+   "ru": "тон; тоновый",
+   "en": "tone; tonal",
+   "meaning_here": "9:8; an interval of a tone (U056).",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 56-57 [checked]"
+  },
+  {
+   "greek": "τριδίεσις",
+   "ru": "тридиеса",
+   "en": "tridiesis",
+   "meaning_here": "Three dieses, 3/4 tone (U026, U042).",
+   "evidence": "No entry in LSJ, Bailly, Pape via Logeion [checked]"
+  },
+  {
+   "greek": "τριημιτόνιον",
+   "ru": "трихемитон",
+   "en": "trihemitone",
+   "meaning_here": "Three semitones, 1 1/2 tones; incomposite in the chromatic (U026, U058).",
+   "evidence": "Theon p. 54 (τριημιτονιαῖον); Cleonides 5 (Jan MSG) [checked]"
+  },
+  {
+   "greek": "διτόνιον",
+   "ru": "дитон",
+   "en": "ditone",
+   "meaning_here": "Two tones; incomposite in the enharmonic (U026, U060).",
+   "evidence": "Theon p. 55 (δίτονον) [checked]"
+  },
+  {
+   "greek": "τριτόνιον",
+   "ru": "тритон",
+   "en": "tritone",
+   "meaning_here": "Three tones (U026, U042).",
+   "evidence": "LSJ s.v. τρίτονος (Cleonid. 5; Bacch. 47), via Logeion [checked]"
+  },
+  {
+   "greek": "ἀσύνθετος",
+   "ru": "несоставной",
+   "en": "incomposite",
+   "meaning_here": "For the compiler an interval that sounds as one though equal to several fused steps (U026-U027, U058); for the Aristoxenians an interval between successive notes.",
+   "evidence": "Cleonides 5 (Jan MSG) [checked]; Tsypin 'несоставной', about.md § 5 [checked]"
+  },
+  {
+   "greek": "σύμφθαρσις; ἐκ συμφθάρσεως",
+   "ru": "слияние; путём слияния",
+   "en": "fusion; by fusion",
+   "meaning_here": "Merging of several intervals into one sounding interval, literally 'joint perishing' (U027-U028, U042, U058, U060).",
+   "evidence": "LSJ (1 simultaneous destruction, 2 melting into one another), Bailly, Pape s.v., via Logeion [checked]"
+  },
+  {
+   "greek": "παραύξησις",
+   "ru": "приращение",
+   "en": "augmentation",
+   "meaning_here": "Increase of an interval toward the high; multiplication of elementary intervals (U018, U026, U032).",
+   "evidence": "LSJ s.v. [from memory]"
+  },
+  {
+   "greek": "προσαύξησις",
+   "ru": "прирост",
+   "en": "increase",
+   "meaning_here": "Increase from smaller to greater numbers in a series (U044).",
+   "evidence": "LSJ s.v. [from memory]"
+  },
+  {
+   "greek": "ἄμεσος / ἔμμεσος",
+   "ru": "непосредственный / опосредованный",
+   "en": "immediate / mediate",
+   "meaning_here": "Intervals between adjacent notes / with intermediate notes (U034, U042-U044); from the logical 'without / with a middle term'.",
+   "evidence": "LSJ, DGE s.v. via Logeion [checked]; Anonymus Bellermanni §§ 4, 6, ed. Bellermann 1841 [checked]"
+  },
+  {
+   "greek": "κατὰ σειράν; καθ’ ὑπερβατόν; ἐφεξῆς, καθεξῆς",
+   "ru": "цепью; с перешагиванием; одна за другой, по порядку",
+   "en": "in a chain; by overstepping; one after another, successively",
+   "meaning_here": "Ratios set out between adjacent notes vs. between the extremes, skipping the middle (U043-U044).",
+   "evidence": "LSJ s.v. σειρά, ὑπερβατός [from memory]"
+  },
+  {
+   "greek": "λογοθετέω",
+   "ru": "исчислять",
+   "en": "reckon",
+   "meaning_here": "Assign a ratio (λόγος), with a pun on 'audit accounts' (U042).",
+   "evidence": "LSJ, Brill-Montanari s.v. via Logeion [checked]"
+  },
+  {
+   "greek": "κίρνημι; συγκεράννυμι",
+   "ru": "смешивать; смешанный",
+   "en": "blend; blended",
+   "meaning_here": "Combination of steps into one interval or genus (U042, U058).",
+   "evidence": "LSJ s.vv. [from memory]"
+  },
+  {
+   "greek": "διὰ τεσσάρων",
+   "ru": "кварта",
+   "en": "fourth",
+   "meaning_here": "The consonance 'through four' notes, 4:3.",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 50-51, 56 [checked]"
+  },
+  {
+   "greek": "διὰ πέντε",
+   "ru": "квинта",
+   "en": "fifth",
+   "meaning_here": "The consonance 'through five' notes, 3:2.",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 50-51, 56 [checked]"
+  },
+  {
+   "greek": "διὰ πασῶν",
+   "ru": "октава",
+   "en": "octave",
+   "meaning_here": "The consonance 'through all', 2:1.",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 50-51, 56 [checked]"
+  },
+  {
+   "greek": "δὶς διὰ τεσσάρων",
+   "ru": "двойная кварта",
+   "en": "double fourth",
+   "meaning_here": "In this compiler the fourth of the second octave = octave + fourth, 8:3 (U035-U042, U051); not two fourths (16:9).",
+   "evidence": "Sectio canonis 11 (16:9, dissonant), Jan MSG [checked]; U035, U037, U041 [checked in the text]"
+  },
+  {
+   "greek": "δὶς διὰ πέντε",
+   "ru": "двойная квинта",
+   "en": "double fifth",
+   "meaning_here": "Octave + fifth, 3:1.",
+   "evidence": "U035, U037, U041 [checked in the text]"
+  },
+  {
+   "greek": "δὶς διὰ πασῶν",
+   "ru": "двойная октава",
+   "en": "double octave",
+   "meaning_here": "4:1.",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 48, 56-57 [checked]"
+  },
+  {
+   "greek": "συμφωνία; συμφωνέω",
+   "ru": "консонанс; консонировать",
+   "en": "consonance; be consonant",
+   "meaning_here": "Consonance (U036-U038).",
+   "evidence": "Theon p. 48-50 [checked]; Tsypin 'консонанс', about.md § 5 [checked]"
+  },
+  {
+   "greek": "κατὰ παράφωνον; παράφωνον",
+   "ru": "парафонно; парафонное",
+   "en": "paraphonally; paraphonal",
+   "meaning_here": "Consonance of the fourth and the fifth (Thrasyllus' sense), anisochronous (U036-U037).",
+   "evidence": "Theon p. 48 [checked]; LSJ s.v. παράφωνος (Gaudentius' different sense), via Logeion [checked]"
+  },
+  {
+   "greek": "κατὰ ἀντίφωνον; ἀντίφωνον",
+   "ru": "антифонно; антифонное",
+   "en": "antiphonally; antiphonal",
+   "meaning_here": "Octave-type consonance, isochronous (U036-U037).",
+   "evidence": "Theon p. 48, 51 [checked]; LSJ s.v. ἀντίφωνος III, via Logeion [checked]; [Arist.] Probl. XIX.39 [checked]"
+  },
+  {
+   "greek": "ἰσοχρόνως / ἀνισοχρόνως",
+   "ru": "изохронно / неизохронно",
+   "en": "isochronously / anisochronously",
+   "meaning_here": "With the two notes coinciding / not coinciding in time (U037).",
+   "evidence": "No exact parallel found; cf. [Arist.] Probl. XIX.39 (Jan MSG p. 100-101) [checked]"
+  },
+  {
+   "greek": "τετράχορδον; πεντάχορδον; ὀκτάχορδον",
+   "ru": "тетрахорд; пентахорд; октахорд",
+   "en": "tetrachord; pentachord; octachord",
+   "meaning_here": "Systems spanning a fourth, a fifth, an octave (U015, U035, U051).",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 48 [checked]"
+  },
+  {
+   "greek": "ἑκκαιδεκάχορδον; πεντεκαιδεκάχορδον",
+   "ru": "шестнадцатихорд; пятнадцатихорд",
+   "en": "sixteen-chord; fifteen-chord",
+   "meaning_here": "Two octachords joined: sixteen places on fifteen strings (U015, U051).",
+   "evidence": "U014-U016, U051 [checked in the text]"
+  },
+  {
+   "greek": "κατὰ συνέχειαν; συνέχεια",
+   "ru": "по непрерывности; непрерывность",
+   "en": "by continuity; continuity",
+   "meaning_here": "Joining by a shared note (U015, U051); continuity of matter (U028).",
+   "evidence": "Aristotle, Categories 6 (continuous vs discrete) [from memory]"
+  },
+  {
+   "greek": "χορδή",
+   "ru": "струна",
+   "en": "string",
+   "meaning_here": "String of an instrument, equated with the note (U034, U045, U049).",
+   "evidence": "LSJ s.v. [from memory]"
+  },
+  {
+   "greek": "νευρά",
+   "ru": "жила",
+   "en": "cord",
+   "meaning_here": "Gut string as a measured physical length (U020, U028, U050).",
+   "evidence": "LSJ s.v. [from memory]"
+  },
+  {
+   "greek": "μονάς",
+   "ru": "единица",
+   "en": "unit",
+   "meaning_here": "Arithmetical unit, indivisible in numbers but divisible in matter (U019, U044).",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 19-20 [checked]"
+  },
+  {
+   "greek": "ὕλη",
+   "ru": "материя",
+   "en": "matter",
+   "meaning_here": "Physical substrate of sound (U019, U028, U052).",
+   "evidence": "Aristotle, De anima III.7 [from memory]"
+  },
+  {
+   "greek": "ἐξ ἀφαιρέσεως",
+   "ru": "через отвлечение",
+   "en": "by abstraction",
+   "meaning_here": "Aristotelian abstraction of mathematical objects from matter (U052).",
+   "evidence": "Aristotle, De anima III.7; Metaph. K 3 [from memory]"
+  },
+  {
+   "greek": "δύναμις",
+   "ru": "сила",
+   "en": "power",
+   "meaning_here": "Capacity of a consonance or a fused interval, i.e. the intervals it holds (U027, U051); not the Aristoxenian 'function' of a note.",
+   "evidence": "LSJ s.v. [from memory]"
+  },
+  {
+   "greek": "ἰσχύς",
+   "ru": "мощь",
+   "en": "force",
+   "meaning_here": "Near-synonym of δύναμις (U051).",
+   "evidence": "LSJ s.v. [from memory]"
+  },
+  {
+   "greek": "γένος; διάτονον; χρωματικόν; ἁρμονικόν",
+   "ru": "род; диатонический; хроматический; гармонический",
+   "en": "genus; diatonic; chromatic; harmonic",
+   "meaning_here": "The three genera; 'harmonic' = enharmonic, so named after ἁρμονία (U053-U064). Russian 'гармонический' rather than Tsypin's 'энармоника' to keep the paronymy that the text explains.",
+   "evidence": "Theon p. 53-56 [checked]; Cleonides 3 (Jan MSG) [checked]; Tsypin, about.md § 5 [checked]"
+  },
+  {
+   "greek": "μέλος",
+   "ru": "мелос",
+   "en": "melos",
+   "meaning_here": "Melody as an ordered sequence of pitches; a kind of melody (U027-U028, U042, U054, U065).",
+   "evidence": "Cleonides 14 (Jan MSG) [checked]"
+  },
+  {
+   "greek": "μελῳδία",
+   "ru": "мелодия",
+   "en": "melody",
+   "meaning_here": "Melodic movement; species of melody (U050, U053, U060, U063, U065-U066).",
+   "evidence": "LSJ s.v. [from memory]"
+  },
+  {
+   "greek": "εἶδος",
+   "ru": "вид",
+   "en": "species",
+   "meaning_here": "Kind (of interval, of melody) (U042, U050, U065).",
+   "evidence": "LSJ s.v. [from memory]"
+  },
+  {
+   "greek": "δυσμελῳδικώτατον",
+   "ru": "труднее всего для пения",
+   "en": "most difficult to sing",
+   "meaning_here": "Hardest to use in melody (U063); variant formation for Theon's δυσμελῳδητότατον.",
+   "evidence": "LSJ, DGE s.v. δυσμελῴδητος (Theo Sm. p. 56 H.), via Logeion [checked]"
+  },
+  {
+   "greek": "προσηγορία; κλῆσις; φερωνυμία",
+   "ru": "наименование; название; меткость наименований",
+   "en": "appellation; name; aptness of the names",
+   "meaning_here": "Names of notes and intervals (U014, U034-U035).",
+   "evidence": "LSJ s.vv. [from memory]"
+  },
+  {
+   "greek": "προσλαμβανόμενος",
+   "ru": "просламбаномен",
+   "en": "proslambanomenos",
+   "meaning_here": "Note 1 (A).",
+   "evidence": "Tsypin, about.md § 5 [checked]"
+  },
+  {
+   "greek": "ὑπάτη ὑπάτων",
+   "ru": "гипата низших",
+   "en": "hypatē hypatōn",
+   "meaning_here": "Note 2 (B).",
+   "evidence": "Tsypin, about.md § 5 [checked]"
+  },
+  {
+   "greek": "παρυπάτη ὑπάτων",
+   "ru": "парипата низших",
+   "en": "parhypatē hypatōn",
+   "meaning_here": "Note 3 (c).",
+   "evidence": "Tsypin, about.md § 5 [checked]"
+  },
+  {
+   "greek": "ὑπάτη διάτονος",
+   "ru": "гипата диатоническая",
+   "en": "hypatē diatonos",
+   "meaning_here": "Note 4 (d) = lichanos hypatōn; standard ὑπάτων διάτονος (see doubt at U014).",
+   "evidence": "Nicomachus, Ench. 12; Bacchius, Isag. (Jan MSG) [checked]"
+  },
+  {
+   "greek": "ὑπάτη μέσων",
+   "ru": "гипата средних",
+   "en": "hypatē mesōn",
+   "meaning_here": "Note 5 (e).",
+   "evidence": "Tsypin, about.md § 5 [checked]"
+  },
+  {
+   "greek": "παρυπάτη μέσων",
+   "ru": "парипата средних",
+   "en": "parhypatē mesōn",
+   "meaning_here": "Note 6 (f).",
+   "evidence": "Tsypin, about.md § 5 [checked]"
+  },
+  {
+   "greek": "⟨μέσων διάτονος⟩",
+   "ru": "⟨диатоническая средних⟩",
+   "en": "⟨mesōn diatonos⟩",
+   "meaning_here": "Note 7 (g) = lichanos mesōn, restored by conjecture.",
+   "evidence": "Gaudentius 8 (μέσων διάτονος as a note name), Jan MSG [checked]"
+  },
+  {
+   "greek": "μέση μόνως",
+   "ru": "меса просто",
+   "en": "mesē simply",
+   "meaning_here": "Note 8 (a), named without a tetrachord qualifier.",
+   "evidence": "Apparatus to Bas. 25.7 [checked]"
+  },
+  {
+   "greek": "παράμεσος",
+   "ru": "парамес",
+   "en": "paramesos",
+   "meaning_here": "Note 9 (b) = paramesē; Nicomachus' form.",
+   "evidence": "Nicomachus, Ench. 11 (Jan MSG) [checked]"
+  },
+  {
+   "greek": "τρίτη διεζευγμένη",
+   "ru": "трита отделённая",
+   "en": "tritē diezeugmenē",
+   "meaning_here": "Note 10 (c'); qualifier in the nominative singular.",
+   "evidence": "Tsypin, about.md § 5 [checked]; apparatus to Bas. 25.8-9 [checked]"
+  },
+  {
+   "greek": "διάτονος διεζευγμένη",
+   "ru": "диатоническая отделённая",
+   "en": "diatonos diezeugmenē",
+   "meaning_here": "Note 11 (d') = paranētē diezeugmenōn.",
+   "evidence": "Bacchius, Isag. (diatonos names), Jan MSG [checked]"
+  },
+  {
+   "greek": "νήτη διεζευγμένη",
+   "ru": "нета отделённая",
+   "en": "nētē diezeugmenē",
+   "meaning_here": "Note 12 (e').",
+   "evidence": "Tsypin, about.md § 5 [checked]"
+  },
+  {
+   "greek": "τρίτη ὑπερβολαίων",
+   "ru": "трита высших",
+   "en": "tritē hyperbolaiōn",
+   "meaning_here": "Note 13 (f').",
+   "evidence": "Tsypin, about.md § 5 [checked]"
+  },
+  {
+   "greek": "διάτονος ὑπερβολαίων",
+   "ru": "диатоническая высших",
+   "en": "diatonos hyperbolaiōn",
+   "meaning_here": "Note 14 (g') = paranētē hyperbolaiōn.",
+   "evidence": "Bacchius, Isag., Jan MSG [checked]"
+  },
+  {
+   "greek": "νήτη ὑπερβολαίων",
+   "ru": "нета высших",
+   "en": "nētē hyperbolaiōn",
+   "meaning_here": "Note 15 (a').",
+   "evidence": "Tsypin, about.md § 5 [checked]"
+  },
+  {
+   "greek": "ἐξάρτησις τῶν βαρῶν",
+   "ru": "подвешивание грузов",
+   "en": "hanging of weights",
+   "meaning_here": "The weight experiment of the Pythagoras legend (U049-U050).",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 56-57 [checked]; Nicomachus, Ench. 6 (Jan MSG) [checked]"
+  },
+  {
+   "greek": "κόλλαβος",
+   "ru": "колок",
+   "en": "peg",
+   "meaning_here": "Tuning peg (U049).",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 56-57 [checked]"
+  },
+  {
+   "greek": "ἐμπνευστά; κοιλία; αὐλός; τρῆμα",
+   "ru": "духовые; полость; авлос; отверстие",
+   "en": "wind instruments; bore; aulos; hole",
+   "meaning_here": "Wind instruments, their bore, the pipe and its finger-holes (U049-U050).",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 56-57, 60 [checked]"
+  },
+  {
+   "greek": "μεταφορά; μετάβασις",
+   "ru": "перенос; переход",
+   "en": "transference; transition",
+   "meaning_here": "Shifting of intervals; passage from note to note (U066).",
+   "evidence": "LSJ s.vv. [from memory]"
+  },
+  {
+   "greek": "διαμονή; ῥοή",
+   "ru": "выдерживание; течение",
+   "en": "sustaining; flow",
+   "meaning_here": "Held notes; flowing passages (U066).",
+   "evidence": "Cleonides 14 (μονή in the definition of τονή), Jan MSG [checked]"
+  },
+  {
+   "greek": "ἐπαφή; κροῦμα",
+   "ru": "касание; удар",
+   "en": "touch; stroke",
+   "meaning_here": "Touching and striking of strings (U066).",
+   "evidence": "LSJ s.vv. via Logeion [checked]"
+  },
+  {
+   "greek": "παιήων; ὑμέναιος; ἐξόδιος",
+   "ru": "пеан; гименей; эксодий",
+   "en": "paean; hymenaeus; exodios",
+   "meaning_here": "Song types (U065); ἐξόδιος a closing or departure song (see doubt).",
+   "evidence": "LSJ, Pape s.v. ἐξόδιος via Logeion [checked]"
+  },
+  {
+   "greek": "λύδιον, φρύγιον, δώριον [μέλος]",
+   "ru": "лидийский, фригийский, дорийский [мелос]",
+   "en": "Lydian, Phrygian, Dorian [melos]",
+   "meaning_here": "The three harmoniai, Thrasyllus' examples (U065).",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 48 [checked]"
+  },
+  {
+   "greek": "ῥυθμός",
+   "ru": "мера",
+   "en": "measure",
+   "meaning_here": "Proportion or pattern of the structure that limits fused intervals (U026; see doubt).",
+   "evidence": "LSJ s.v. II-VI via Logeion [checked]"
+  },
+  {
+   "greek": "διάμετρος",
+   "ru": "диагональ",
+   "en": "diagonal",
+   "meaning_here": "Diagonal of the square (U024, U031).",
+   "evidence": "Plato, Meno 85b [from memory]"
+  },
+  {
+   "greek": "τετραγωνίζομαι",
+   "ru": "обратиться в квадрат",
+   "en": "be squared",
+   "meaning_here": "Become a square number (U023, U030).",
+   "evidence": "LSJ s.v. τετραγωνίζω [from memory]"
+  },
+  {
+   "greek": "ἀνεγχώρητος",
+   "ru": "недопустимый",
+   "en": "inadmissible",
+   "meaning_here": "Impossible (U029).",
+   "evidence": "LSJ, DGE s.v. via Logeion [checked]"
+  }
+ ],
+ "text_issues": [
+  {
+   "unit": "U040",
+   "printed": "τοῦ διὰ πασῶν καὶ δὶς διὰ πέντε τριπλάσιος.",
+   "proposal": "τοῦ διὰ πασῶν καὶ δὶς διὰ πέντε τριπλάσιος· ⟨τοῦ δὲ δὶς διὰ πασῶν τετραπλάσιος⟩.",
+   "source": "Conjecture considered and not adopted by the edition (apparatus to Bas. 29.16); parallel: Theon Smyrn., ed. Hiller, p. 56-57.",
+   "argument": "U039 gives the size of the double octave (twelve tones) and U041 its number (24 to 6, 'quadruple'); the source, Theon, lists 'the double octave in the quadruple [ratio]'. The omission is mechanically easy by homoeoteleuton (-πλάσιος ... -πλάσιος).",
+   "effect_on_sense": "Adds the ratio 4:1 of the double octave and completes the parallel with U039 and U041."
+  },
+  {
+   "unit": "U050",
+   "printed": "†ἀμφότερον†",
+   "proposal": "θάτερον",
+   "source": "Conjecture considered by the edition (with βαρύτερον, ἀμβλύτερον).",
+   "argument": "The sense requires the low pitch, opposite of τὴν ἐπὶ ὀξὺ μελῳδίαν in the μέν-clause; θάτερον τῆς μελῳδίας εἶδος gives the idiomatic antithesis and construes with the singular εἶδος. ἀμβλύτερον is closer in letters and also fits (Aristotle's ὀξύ / ἀμβλύ for high / low), βαρύτερον is the plain technical word.",
+   "effect_on_sense": "'the other (low) species of melody' instead of the meaningless 'both species'."
+  },
+  {
+   "unit": "U042",
+   "printed": "τὸ διὰ πέντε μέλος",
+   "proposal": "τὸ διὰ πέντε {μέλος}",
+   "source": "Deletion considered by the edition ('del. fort.').",
+   "argument": "No other member of the list carries a noun; μέλος adds nothing and is probably an intrusion in P or in Vincent's report.",
+   "effect_on_sense": "'the fifth' instead of 'the melos of the fifth'; no doctrinal change."
+  },
+  {
+   "unit": "U044",
+   "printed": "τοῦ δὲ τῶν ἀμέσων καθεξῆς πρὸς τοὺς ἐγγὺς ἀλλήλων φθόγγους συγκρινομένων",
+   "proposal": "… συγκρινομένου",
+   "source": "Conjecture considered by the edition.",
+   "argument": "The genitive absolute parallels τοῦ μὲν τῶν ἐμμέσων διαστημάτων λόγου ... παραβαλλομένου, so the singular is required; the plural is an attraction to τῶν ἀμέσων.",
+   "effect_on_sense": "None: grammar only."
+  }
+ ],
+ "contamination": [],
+ "summary": "The music section is a school compendium built largely from Theon of Smyrna: Thrasyllus' definitions of note, interval, system and harmony, his antiphonal/paraphonal classes, the discovery of the ratios, the genera with their ethos and Plato's preference for the diatonic; I checked these parallels in Hiller's edition, and they settled several renderings and confirmed readings such as H's γοερώτερον. The hardest passage is U018-U025: the compiler divides the 9:8 tone arithmetically into 8 1/4 and 8 1/2 against 8 (33:32 and 17:16) and defends this with a geometrical analogy that in fact implies the geometric mean √72, so the doctrine is internally inconsistent; I translated ὀκτὼ ἥμισυ / τέταρτον as mixed numbers and argued against Xylander's conjecture in a doubt. The second difficulty is the compiler's own naming of compound consonances: δὶς διὰ τεσσάρων is for him the fourth of the second octave (8:3), not two fourths (16:9), and U039-U040 conflate it with the standard 'octave and fourth'; I kept the printed text and let the numbers fix the reference. The 'little remainder smaller than a diesis' of the fourth (U039) fits neither Aristoxenus nor the Pythagoreans; only an additive treatment of excesses (1/48 < 1/32) produces it, which I offer as a hypothesis. The P passages (U028-U032, U042-U044, U050) rest on Vincent's report and several conjectures; in U042-U044 I rendered the logical terms ἄμεσος / ἔμμεσος and the syllogistic analogy as immediate / mediate, in a chain / by overstepping. I am least sure of ὁ ῥυθμός at U026 (rendered 'measure', not 'rhythm'), of κατὰ ταὐτόν at U037, of the 'common harmony' at U060, of ἐξόδιος at U065 (perhaps a funeral song), and of the obelized ἀμφότερον at U050, where I prefer θάτερον. The isochronous / anisochronous distinction of U037 has no exact parallel that I could find; I connect it tentatively with the timing theory of Problems XIX.39. A reviewer should check first U018 (the reading of ὀκτὼ ἥμισυ), U020 (H's μοῖραν against νευράν), U039-U041 (δίς and the probably lost 4:1), and the Russian ratio terminology, which uses the established эпогдоический / эпитритный / полуторный beside descriptive names for the purely arithmetical ratios. Note names are kept in their transmitted, partly irregular forms (ὑπάτη διάτονος, διεζευγμένη, παράμεσος, μέση μόνως) and explained in a diagram note at U014. Lexica were consulted through Logeion (LSJ, DGE, Bailly, Pape, Montanari); Lampe, Sophocles and the LBG were not consulted, so Byzantine senses remain unverified. Page references to Theon, Jan and Bellermann were taken from archive.org scans with OCR and running heads and should be verified against the printed pages; references marked [from memory] were not opened."
+}

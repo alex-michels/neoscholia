@@ -1,0 +1,188 @@
+
+##### P01 Названия интервалов: διὰ τεσσάρων, διὰ πέντε, διὰ πασῶν
+ EDITOR: a — кварта / квинта / октава (fourth / fifth / octave), при первом упоминании с греческим; там, где автор объясняет название (U035: διὰ πασῶν — «через все»), бу
+  ASTRA div U033 [high, to_editor=False] τὸ διὰ τεσσάρων καὶ διὰ πέντε καὶ διὰ πασῶν
+    REC: кварта, квинта и октава | the fourth, fifth and octave
+    V: Both strategies identify the same intervals and neither is an error. Conventional names serve the continuous translation better; give the literal names when the etymology is explained in U034–U035. C’s claimed support from about.md is a separate bibliographic fault.
+  ASTRA term διὰ τεσσάρων: кварта | fourth — Standard terms are clearer than through four; a literal gloss can explain the naming at first occurrence.
+  ASTRA term διὰ πέντε: квинта | fifth — Standard interval name, preserving the distinction between note count and intervening steps.
+  ASTRA term διὰ πασῶν: октава | octave — The lexicalized interval name should not be left as through all without explanation.
+
+##### P02 Авторские названия δὶς διὰ τεσσάρων / πέντε / πασῶν
+ EDITOR: a — «двойная кварта / квинта / октава» (double fourth / fifth / octave), с примечанием о смысле при U035 (D, E, F; оба рецензента в глоссарии)
+  ASTRA term δὶς διὰ τεσσάρων: двойная кварта | double fourth — Preserve the anomalous printed label, but explain that the stated 8:3 ratio identifies octave plus fourth, not two successive fourths. The label and the doctrinal identification must remain distinct.
+  ASTRA term δὶς διὰ πέντε: двойная квинта | double fifth — Preserve the anomalous printed label, but explain that the stated 3:1 ratio identifies octave plus fifth, not two successive fifths. The editor should retain or explain this irregular usage rather than silently substitute the conventional name.
+  ASTRA term δὶς διὰ πασῶν: двойная октава | double octave — The established compound interval; its ratio is 4:1.
+
+##### P03 Названия отношений по-русски: ἐπόγδοος, ἐπίτριτος, ἡμιόλιος и др.
+ EDITOR: своё: возьми укоренившийся понятный современности музыкальный термин, а кальку и буквальный перевод в комментарии
+  ASTRA term ἐπόγδοος: эпогдоическое [9:8] | sesquioctave — English sesquioctave is standard; Russian technical epogdoic avoids the opaque сверхосьмой. Эпогдоон or a transparent one-and-one-eighth gloss are legitimate house-style options. Aleksandrova/Myakin’s transliterated nouns and Shchetnikov’s сверх- formations bo
+  ASTRA term ἡμιεπόγδοος: полуэпогдоическое | half-sesquioctave — The rare compound should remain visibly tied to epogdoic; an excess of 1/16 is the contextual arithmetic interpretation, not a verified independent lexical definition.
+  ASTRA term ἐπίτριτος: эпитритное [4:3] | sesquitertian — Use a recognizable technical form with a first ratio gloss; эпитрит and сверхтретий are legitimate consistent alternatives. Aleksandrova/Myakin’s transliterated nouns and Shchetnikov’s сверх- formations both have published precedent; the recommendation is chos
+  ASTRA term ἡμιόλιος: полуторное [3:2] | sesquialteran — Russian полуторное is immediately intelligible and shared with Aleksandrova/Myakin usage; transliterated гемиольное is acceptable but less transparent. Aleksandrova/Myakin’s transliterated nouns and Shchetnikov’s сверх- formations both have published precedent
+  ASTRA term τριπλάσιος: тройное | triple — Plain multiplier terminology states the ratio without unnecessary transliteration.
+  ASTRA term τετραπλάσιος: четверное | quadruple — Plain multiplier terminology states 4:1; fourfold is equally good English.
+  ASTRA term πενταπλασίων; πενταπλάσιος: пятикратное | quintuple — Keep the stated fivefold ratio even where subsequent examples require criticism.
+  ASTRA term διπλασιεπιμερής: двойное сверхмногочастное | double-superpartient — Distinguish multiple additional parts from superparticular one-part ratios; do not translate this as simple doubling of an epimeric ratio.
+  ASTRA term διπλασιημιόλιος: двойное с половиной | double-and-a-half — Express 2+1/2 rather than 2×3/2. The text’s incompatible numerical examples must not alter the term’s meaning.
+  ASTRA term ἐπιδιμερής: сверхдвухчастное | superbipartient — Indicates two fractional parts added; the denominator must come from the particular ratio, not be assumed to be two.
+  ASTRA term ἐπιτέταρτος: сверхчетвертное | sesquiquartan — The ratio is one plus a quarter, here 5:4. The transparent Russian calque and conventional English sesqui- term distinguish this from a general superpartient ratio; give 5:4 in commentary, not as an unmarked addition to the translation.
+
+##### P04 Названия отношений по-английски
+ EDITOR: a — Greek-based: epogdoic, half-epogdoic, epitritic, hemiolic, epitetartic, epidimeric, double-epimeric, double-hemiolic (Claude; A, C, D, E)
+  ASTRA term ἐπόγδοος: эпогдоическое [9:8] | sesquioctave — English sesquioctave is standard; Russian technical epogdoic avoids the opaque сверхосьмой. Эпогдоон or a transparent one-and-one-eighth gloss are legitimate house-style options. Aleksandrova/Myakin’s transliterated nouns and Shchetnikov’s сверх- formations bo
+  ASTRA term ἡμιεπόγδοος: полуэпогдоическое | half-sesquioctave — The rare compound should remain visibly tied to epogdoic; an excess of 1/16 is the contextual arithmetic interpretation, not a verified independent lexical definition.
+  ASTRA term ἐπίτριτος: эпитритное [4:3] | sesquitertian — Use a recognizable technical form with a first ratio gloss; эпитрит and сверхтретий are legitimate consistent alternatives. Aleksandrova/Myakin’s transliterated nouns and Shchetnikov’s сверх- formations both have published precedent; the recommendation is chos
+  ASTRA term διπλασιεπιμερής: двойное сверхмногочастное | double-superpartient — Distinguish multiple additional parts from superparticular one-part ratios; do not translate this as simple doubling of an epimeric ratio.
+  ASTRA term διπλασιημιόλιος: двойное с половиной | double-and-a-half — Express 2+1/2 rather than 2×3/2. The text’s incompatible numerical examples must not alter the term’s meaning.
+  ASTRA term ἐπιδιμερής: сверхдвухчастное | superbipartient — Indicates two fractional parts added; the denominator must come from the particular ratio, not be assumed to be two.
+  ASTRA term ἐπιτέταρτος: сверхчетвертное | sesquiquartan — The ratio is one plus a quarter, here 5:4. The transparent Russian calque and conventional English sesqui- term distinguish this from a general superpartient ratio; give 5:4 in commentary, not as an unmarked addition to the translation.
+
+##### P05 διάτονος в названиях ступеней (ὑπάτη διάτονος, διάτονος διεζευγμένη…)
+ EDITOR: a — «диатоническая» (гипата диатоническая, диатоническая отделённая) (Claude)
+  ASTRA div U014 [high, to_editor=False] τρίτη διεζευγμένη, διάτονος διεζευγμένη, νήτη διεζευγμένη
+    REC: трита отделённая, диатонос отделённая, нета отделённая | trite diezeugmene, diatonos diezeugmene, nete diezeugmene
+    V: The supplied edition deliberately retains singular διεζευγμένη. The standard plural genitive identifies the same degrees, but belongs in commentary rather than silently replacing the printed nomenclature.
+  ASTRA term διάτονος (note name): диатонос | diatonos — A nominal transliteration distinguishes the note-name from the genus adjective and preserves the transmitted irregular combinations; диатон is a legitimate alternative. The nominal диатон is attested in Aleksandrova/Myakin and Shchetnikov; диатонос is recommen
+  ASTRA term ὑπάτη διάτονος: гипата диатонос | hypate diatonos — Preserve the anomalous printed name; identify conventional lichanos hypaton only in commentary. The nominal диатон is attested in Aleksandrova/Myakin and Shchetnikov; диатонос is recommended here to distinguish the irregular printed note-name from the genus ad
+  ASTRA term ⟨μέσων διάτονος⟩: ⟨диатонос средних⟩ | ⟨meson diatonos⟩ — The entire supplied name remains in single angle brackets; the alternative word order identifies the same degree. The nominal диатон is attested in Aleksandrova/Myakin and Shchetnikov; диатонос is recommended here to distinguish the irregular printed note-name
+  ASTRA term διάτονος διεζευγμένη: диатонос отделённая | diatonos diezeugmene — Retains both the unusual note-name and singular adjective; conventional paranete diezeugmenon is only its identification. The nominal диатон is attested in Aleksandrova/Myakin and Shchetnikov; диатонос is recommended here to distinguish the irregular printed n
+  ASTRA term διάτονος ὑπερβολαίων: диатонос высших | diatonos hyperbolaion — Preserve diatonos rather than replacing it with conventional paranete. The nominal диатон is attested in Aleksandrova/Myakin and Shchetnikov; диатонос is recommended here to distinguish the irregular printed note-name from the genus adjective, subject to the e
+
+##### P06 ὀκτάχορδον, πεντεκαιδεκάχορδον, ἑκκαιδεκάχορδον
+ EDITOR: a — октахорд, пятнадцатихорд, шестнадцатихорд (как тетрахорд, пентахорд) (Claude)
+  ASTRA term πεντεκαιδεκάχορδον: пятнадцатиструнная система | fifteen-string system — Transparent wording states the actual count; пятнадцатихорд is also defensible but less familiar.
+  ASTRA term ἑκκαιδεκάχορδον: шестнадцатиструнная система | sixteen-string system — Retain the apparently conflicting transmitted count and explain double membership of the shared mese; do not emend to fifteen in translation.
+  ASTRA term ὀκτάχορδον: октахорд | octachord — Established technical compound; give eight-note/eight-string system at first mention to connect the counting argument.
+  ASTRA term πεντάχορδον: пентахорд | pentachord — Keeps system terminology parallel to tetrachord and octachord.
+  ASTRA term τετράχορδον: тетрахорд | tetrachord — Established term in both Russian schools and English harmonics.
+
+##### P07 μέλος и μελῳδία
+ EDITOR: b — «напев» (μέλος) и «мелодия» (μελῳδία) (Claude)
+  ASTRA term μέλος: напев | melody — Напев is idiomatic and remains distinct from the process of melodic composition; мелос may be chosen consistently but is not required.
+  ASTRA term μελῳδία: мелодия | melody — Do not force an artificial English distinction from μέλος where the Greek uses them broadly; Russian melodic course may clarify a local argument.
+
+##### P08 ἐπίτασις / ἄνεσις
+ EDITOR: b — по контексту: «повышение / понижение» о высоте, «усиление натяжения / ослабление» о струнах (raising / lowering; tightening) (Sol)
+  ASTRA term ἐπίτασις: повышение; усиление; натяжение | raising; intensification; tightening — The object determines whether pitch rises, breath increases, or a string is tightened; mechanically uniform wording would mislead.
+  ASTRA term ἄνεσις: понижение; ослабление | lowering; relaxation — Pair with the appropriate sense of ἐπίτασις or τάσις rather than assume identical physical operations throughout.
+
+##### P09 ἄμεσος / ἔμμεσος (U042)
+ EDITOR: своё: возьми традиционный понятный современности исторический музыкальный термин, а кальку, объяснения и буквальный перевод в комментарии
+  ASTRA div U042 [high, to_editor=False] τὰ μὲν οὖν ἔμμεσα διαστήματα
+    REC: опосредованные интервалы | mediate intervals
+    V: Mediate is correct. The opposition to ἄμεσα and the analogy of outer versus intermediate terms are explicit. Melodic would require a different word, such as ἐμμελής, and destroys the stated classification in Russian.
+  ASTRA term παράμεσος: парамесос | paramesos — Preserves the actual transmitted form rather than silently normalizing to παραμέση; парамеса remains the ordinary equivalent in commentary.
+  ASTRA term ἄμεσος: непосредственный [без среднего члена] | immediate [without an intermediate term] — The definition is contextual: absence of intermediate terms, not merely temporal immediacy. State the intended intermediate object locally.
+  ASTRA term ἔμμεσος: опосредованный [через средний член] | mediate [with an intermediate term] — Do not confuse ἔμμεσος with ἔμμελος, melodic. Explanatory wording is useful where numerical ratio composition is meant.
+
+##### P10 δύναμις (и ἰσχύς)
+ EDITOR: своё: возьми традиционный понятный современности исторический музыкальный термин, а кальку, объяснения и буквальный перевод в комментарии
+  ASTRA term δύναμις: свойство; возможность [по контексту] | capacity [contextually] — Musical function, capability and magnitude must be adjudicated locally; power is defensible but should not suggest amplitude automatically.
+
+##### P11 τριημιτόνιον
+ EDITOR: b — «трёхполутоновый интервал» (trihemitone) (Sol)
+  ASTRA term τριημιτόνιον: трёхполутоновый интервал | trihemitone — Transparent Russian avoids choosing among тригемитон/трихемитон/триполутоние; English trihemitone is conventional. Tsypin’s триполутон and Shchetnikov’s трёхполутон support a transparent Russian size-name; тригемитон/трихемитон remain transliteration options.
+
+##### P12 παρωνύμως / παρωνυμία (U053, U060)
+ EDITOR: своё: возьми традиционный понятный современности исторический музыкальный термин, а кальку, объяснения и буквальный перевод в комментарии
+  ASTRA div U060 [medium, to_editor=True] ἐκ τῆς κοινῆς ἁρμονίας
+    REC: получив производное название от гармонии вообще | deriving its name from harmony in general
+    V: Harmony in general best fits the naming argument and U053. Theon’s parallel invokes the designation of the whole harmonized domain, not an explicit assertion about cosmic harmony. The cosmic reading remains possible as a thematic association, not established as the sense.
+  ASTRA term παρωνύμως; παρωνυμία: по производному названию; производность названия | by derivation of name; derivative naming — The relationship is derivation of a name from another name: harmonic from harmony. Derived name is clearer English than paronymous name without changing the etymological argument.
+
+##### P13 ἰσοχρόνως / ἀνισοχρόνως (U037)
+ EDITOR: b — «при равном / неравном времени звучания» (with equal / unequal timing) (Sol)
+  ASTRA div U037 [medium, to_editor=True] ἀνισοχρόνως ... ἰσοχρόνως
+    REC: парафонное созвучие возникает в неравное время ... антифонное — в равное время | the paraphonic is consonant at unequal times ... the antiphonic at equal times
+    V: Successive versus simultaneous sounding is the strongest contextual reading because διαδεχομένων describes succession and κατὰ ταὐτόν simultaneity. LSJ nevertheless supports duration as the ordinary sense of the adjectives, so D is not a demonstrated lexical error. Preserve the temporal wording or explicitly mark the contextual interpretation; do not identify equal times with equal vibration periods. Theon supplies t
+  ASTRA term ἀνισοχρόνως; ἰσοχρόνως: в неравное время; в равное время | at unequal times; at equal times — Preserve the temporal wording; synchronization, duration and periodicity are not interchangeable and the local doctrine remains disputed.
+
+##### P14 περιοχή (U010)
+ EDITOR: своё: возьми традиционный понятный современности исторический музыкальный термин по смыслу, а кальку, объяснения и буквальный перевод в комментарии
+  ASTRA term περιοχή: охват | compass — Preserves bounded encompassing rather than a loose collection; совокупность is acceptable but less literal.
+
+##### P15 Заглавие: Μουσικῆς σύνοψις ἠκριβωμένη (U001)
+ EDITOR: своё: Точный синопсис музыки
+  ASTRA term σύνοψις: обзор | synopsis — Both обзор and синопсис express a concise survey; обзор is more transparent Russian, while начертание is legitimate but archaic.
+  ASTRA term ἠκριβωμένη: тщательно выверенный | carefully worked out — The perfect participle claims achieved accuracy; it does not promise comprehensiveness.
+
+##### L01 Родительный самостоятельный ἧς … θεωρουμένης
+ EDITOR: b — «Хотя музыка…»
+  ASTRA div U007 [medium, to_editor=True] ἧς ἐν ἅπασιν οὕτω θεωρουμένης
+    REC: Хотя музыка таким образом усматривается во всём | Although music is thus discerned in all things
+    V: Both are legitimate circumstantial readings. A concessive transition brings out the move from universal music to the restricted subject of hearing; a causal transition treats music’s universal presence as grounds for selecting its sensible aspect. The participle does not itself decide the relation.
+
+##### L02 ψόφος τις ἄλλως ἐκπεφωνημένος
+ EDITOR: b — «иначе» (otherwise) (Sol; A, B)
+  ASTRA div U013 [medium, to_editor=True] ἄλλως ἐκπεφωνημένος
+    REC: изданным иначе | uttered otherwise
+    V: Otherwise directly recalls οὕτως, while at random and merely are also established lexical senses. The context admits both an opposition of manner and a purposeless-noise interpretation; the editor may choose without treating either as an error.
+
+##### L03 ὑποτεμεῖν … εἰς ἡμιεπόγδοον
+ EDITOR: своё: не знаю, но нужен понятный литературный термин, а кальку в сноски
+
+##### L04 κατὰ τὸ δοκοῦν μῆκος
+ EDITOR: a — «до желаемой длины» (A, B, C, F)
+  ASTRA div U021 [medium, to_editor=True] κατὰ τὸ δοκοῦν μῆκος
+    REC: увеличить до желаемой длины | enlarge to the desired length
+    V: The phrase gives the chosen extent of enlargement; either target length or amount of increase fits the general claim. The former is clearer in modern prose and should not be used to convict the latter as mathematically false.
+
+##### L05 εἰς ἴσα … τετράγωνα
+ EDITOR: b — «на [два] равных квадрата»
+  ASTRA div U023 [high, to_editor=False] τετραγωνισθῆναι
+    REC: восемь невозможно представить квадратом | eight cannot be represented as a square number
+    V: The intended operation is representation as an integer square of unchanged value. In modern English squared usually means exponentiation, making E’s verb misleading; the surrounding argument and E’s explicit note recover the intended meaning, so this is a minor wording fault rather than evidence of a mistaken mathematical belief.
+
+##### L06 καὶ μικρόν τι πρός, ὃ καὶ διέσεως ἧττον ὂν προσωνυμίας οὐκ ἔτυχε
+ EDITOR: c — дать оба объяснения
+
+##### L07 Пропуск: ⟨τοῦ δὲ δὶς διὰ πασῶν τετραπλάσιος⟩
+ EDITOR: a — переводить напечатанное, восполнение дать в примечании (Claude; A, D, B, F)
+
+##### L08 τὸ διὰ πέντε μέλος
+ EDITOR: своё: смотри как в традиции переводят и в музыке значение
+
+##### L09 λογοθετηθέντων
+ EDITOR: b — «были установлены отношения» (assigned ratios) (Sol; B, C, D, F)
+  ASTRA term λογοθετέω: устанавливать отношения | assign ratios — The ordinary accounting verb is applied to λόγοι here: determine or assign ratios to the component intervals. Reckon preserves the accounting resonance, but assign ratios makes the local technical operation explicit.
+
+##### L10 οὕτως οὖν ἔχει περὶ τοὺς λόγους καὶ τὰ τῆς μουσικῆς διαστήματα
+ EDITOR: a — «Так обстоит дело с отношениями и с интервалами музыки» (A, B, C, E, F)
+
+##### L11 οὐ πρὸς τὴν ὑπεροχὴν τῆς τῶν φθόγγων ποσότητος
+ EDITOR: b — с пояснением в скобках «[пятый звук]» (Sol)
+  ASTRA div U046 [medium, to_editor=False] τῆς τῶν φθόγγων ποσότητος ... συγκρινόμενος
+    REC: при сравнении [пятого звука] с предшествующими | when [the fifth note] is compared with the preceding ones
+    V: The computation compares ordinal five with one, two, three and four; the masculine forms support an understood note or number. A bracketed clarification is useful. The versions without it are not thereby wrong.
+
+##### L12 ἢ γνωριμώτερον ἀπὸ τῆς ἐξαρτήσεως τῶν βαρῶν
+ EDITOR: b — «или, более наглядно» (more intelligibly) (Sol; B, C, D, F)
+  ASTRA div U049 [medium, to_editor=True] ἢ γνωριμώτερον ἀπὸ τῆς ἐξαρτήσεως τῶν βαρῶν
+    REC: или, более наглядно, по подвешиванию грузов | or, more clearly, from suspending weights
+    V: Both knowledge and intelligibility are within the comparative; Theon p.57 preserves the same expression but does not decide between historical familiarity and clarity of demonstration. Prefer more clearly, without calling the familiar-experiment interpretation an error.
+
+##### L13 †ἀμφότερον† … εἶδος
+ EDITOR: a — «†и то и другое†» / †both†, в примечании: по смыслу нужно «более низкий» (Claude; A, B, C, E)
+  ASTRA div U050 [medium, to_editor=True] †ἀμφότερον† ... εἶδος
+    REC: создаёт †двоякий† вид мелодии | produces a †twofold† kind of melody
+    V: The crux must remain visible. Singular twofold is an explicitly approximate way to retain the singular form; literal both with a note is also defensible. Because ἀμφότερον itself is corrupt and can have rare singular uses, an obelized both kinds/species is not counted as a separate translation error. The context strongly suggests the lower direction but does not identify the lost word. Preserve the singular Greek in 
+
+##### L14 παιήων, ὑμέναιος, ἐξόδιος
+ EDITOR: a — «эксодий», в примечании: заключительная («выходная») песнь; в византийском словоупотреблении, возможно, погребальная (Claude)
+  ASTRA div U065 [medium, to_editor=True] ἐξόδιος
+    REC: [песнь] при выходе (эксодий) | an exit [song] (exodios)
+    V: Exit/departure song conveys the securely relevant ordinary sense without silently specifying a funeral. Transliteration with a gloss is equally legitimate. A funeral interpretation requires evidence beyond the unspecific adjective in this list.
+  ASTRA term ὑμέναιος: гименей | hymenaeal song — The specific wedding-song type; свадебная песнь/wedding song is a defensible explanatory rendering.
+  ASTRA term ἐξόδιος: песнь при выходе | departure song — The exit/departure sense is independently attested. A funerary specification is possible in some contexts but is not established by this bare list; retain that question in commentary rather than making funeral song the default.
+
+##### L15 μεταφορᾷ … διαμοναῖς τε καὶ ῥοαῖς
+ EDITOR: своё: возьми традиционный понятный современности исторический музыкальный термин, а кальку, объяснения и буквальный перевод в комментарии
+  ASTRA div U066 [medium, to_editor=True] μεταφορᾷ ... διαμοναῖς τε καὶ ῥοαῖς
+    REC: переносом интервалов ... выдерживаниями и текучими движениями | by shifting intervals ... sustainings and flows
+    V: Transfer need not denote a specified modern transposition procedure. Dwellings most naturally concerns sustained sound; it does not inherently mean silence. Cleonides 14 distinguishes prolonging a note from other melodic movements. Prefer broad terms; do not claim the text defines a precise technique.
+  ASTRA term μεταφορά: перенос | shifting — A broad transfer or shift is certain; identifying a single modern transposition procedure is an interpretation. Use shifting here and leave any technical specification to commentary.
+  ASTRA term διαμονή: выдерживание | sustaining — Continuance suggests lingering on or sustaining a sound; it does not inherently require silence. Pause or rest is more specific and remains an editorial interpretation.
+  ASTRA term ῥοή: течение | flow — Flow contrasts with sustained dwelling and preserves the metaphor without inventing a particular ornament or run. A’s malformed inflection in U066 is separately listed as a language error.
+
+ASTRA best ru [('A', 1), ('B', 11), ('C', 1), ('D', 28), ('E', 8), ('F', 34)] en [('A', 1), ('B', 13), ('D', 25), ('E', 2), ('F', 46)]

@@ -1,0 +1,149 @@
+=== #1 U005 [C] only CLAUDE | type construal lang both | check: modified
+GREEK: τάχα δ’ ἄν τις καὶ τὸ θεῖον αὐτὸ οὐκ ἀπεικότως ἁρμονίαν ἑαυτοῦ τε καὶ τοῦ παντὸς ὀνομάσοι, ἐν ᾧ τὸ πᾶν συναρμολογούμενον καὶ συμβιβαζόμενον εὖ τε καὶ ὡς ἄριστα διαφαίνεται ἔχον.
+C RU: Пожалуй, и само божественное кто-то мог бы не без основания назвать гармонией его самого и всего, — той, в которой всё, будучи слажено и приведено в согласие, являет себя пребывающим хорошо и наилучшим образом.
+C EN: And perhaps one might, not unreasonably, call even the divine itself the harmony of itself and of the All — that in which the All, being fitted together and brought into concord, plainly abides in a good and in the best possible state.
+QUOTE: той, в которой всё ... / that in which the All ...
+PROBLEM: The relative is attached to the feminine 'harmony' against the gender of ᾧ, so the clause no longer says that the universe is held together in the Divine.
+FIX: в нём (в божественном) всё ... / in which [the Divine] the All ...
+VERIFIER: It is a real grammatical error, but the sense shift is small. The sentence identifies the Divine with that harmony, so 'in which [harmony]' still places the universe in the Divine-as-harmony. | CORR: Severity minor.
+
+=== #2 U012 [A] only SOL | type note-claim lang notes | check: added
+GREEK: Ὁ μὲν οὖν φθόγγος ἀδιάστατός ἐστιν, ὡς ἡ ἐν γεωμετρίᾳ στιγμή· ἐναρμόνιος δὲ λέγεται διὰ τὸ οὕτως ἐκπεφωνῆσθαι ὡς δύνασθαι καὶ μεθ’ ἑτέρου φθόγγου ἐναρμοσθῆναι.
+A RU: Итак, звук не имеет протяжённости, подобно точке (στιγμή) в геометрии; а «гармоничным» (ἐναρμόνιος) он называется потому, что произнесён так, что может быть приведён в гармонию (ἐναρμοσθῆναι) и с другим звуком.
+A EN: The note, then, is without extension, like the point (στιγμή) in geometry; and it is called harmonious (ἐναρμόνιος) because it has been so sounded that it can also be fitted in harmony (ἐναρμοσθῆναι) with another note.
+QUOTE: звук, который можно найти и выше самого высокого, и ниже самого низкого
+PROBLEM: The Russian account of Thrasyllus reverses the range condition: a note is musically usable when a higher can be found than the high one and a lower than the low one. The following sentences exclude a sound exceeding every high pitch and one below which none can be found. Theon Hiller47.19–48.7, First1KGreek own text [checked].
+FIX: A note within a usable range, with a higher and a lower note possible; avoid attributing highest/lowest extremes to this note.
+
+=== #3 U018 [C] only SOL | type number lang notes | check: confirmed
+GREEK: Τῶν δὲ διαστημάτων ἐλάχιστον μὲν ἡ δίεσις· εἶτα τὸ ἡμιτόνιον, διπλῆν ἔχον ἐπὶ τὸ ὀξὺ παραύξησιν τῆς διέσεως· εἶτα ὁ τόνος, διπλοῦν ἔχων τὸ ἡμιτόνιον, τὸν ἐπόγδοον διιστάμενος λόγον, ὡς ὁ ἔνατος ἀριθμὸς πρὸς τὸν ὄγδοον, ὡς εἶναι τὸ ἡμιτόνιον ὅσον ὀκτὼ ἥμισυ, τὴν δὲ δίεσιν ὅσον ὀκτὼ τέταρτον.
+C RU: Из интервалов наименьшая — диеса (δίεσις); затем полутон (ἡμιτόνιον), имеющий по направлению к высокому удвоенное приращение диесы; затем тон (τόνος), имеющий удвоенный полутон и выражаемый отношением эпогдоона, как число девять к восьми, так что полутон оказывается как восемь с половиной, а диеса — как восемь с четвертью.
+C EN: Of the intervals, the smallest is the diesis; then the semitone, which has, towards the high, a doubling of the diesis' increase; then the tone, which has the semitone doubled and maintains the epogdoic ratio, as the number nine is to eight, so that the semitone is as much as eight and a half, and the diesis as much as eight and a quarter.
+QUOTE: √72:8 ≈ 8.485
+PROBLEM: 8.485... is √72, the intervening magnitude; √72:8 is approximately1.060660.
+FIX: √72≈8.485281; √72/8=√(9/8)≈1.060660.
+
+=== #4 U020 [C] only SOL | type note-claim lang notes | check: confirmed
+GREEK: τὴν γὰρ ἐπόγδοον διασώζουσαν λόγον νευρὰν δυνατὸν ὑποτεμεῖν εἰς ἡμιεπόγδοον, ὅπερ ἐστὶν ἡμιτόνιον, καὶ ταύτην πάλιν ὑποτεμεῖν δευτέρως εἰς δίεσιν.
+C RU: Ибо струну, сохраняющую отношение эпогдоона, можно разделить до полуэпогдоона (ἡμιεπόγδοον), который и есть полутон, а эту [часть] снова вторично разделить до диесы.
+C EN: For the string that preserves the epogdoic ratio can be subdivided into the half-epogdoic, which is the semitone, and this again can be subdivided a second time into a diesis.
+QUOTE: H's reading μοῖραν ('portion') is a simplification that destroys the image of string division
+PROBLEM: Portion can refer to a portion of the same material string. The variant neither proves simplification nor destroys that image; its relative priority is not established by the apparatus.
+FIX: Treat portion as a viable variant whose narrower physical specification is implicit, not demonstrably destructive.
+
+=== #5 U024 [C] only CLAUDE | type mistranslation lang both | check: confirmed
+GREEK: τὴν γὰρ τοῦ δοθέντος τετραγώνου πλευρὰν εἰς διάμετρον ὁ γεωμέτρης μεταλαβὼν καὶ τετράγωνον αὐτῇ περιθεὶς ἥμισυ τοῦ δοθέντος τετραγώνου ποιεῖ· καὶ τὴν διάμετρον πάλιν τοῦ δοθέντος μετειληφὼς εἰς πλευρὰν τὸ δοθὲν διπλασιάζει τετράγωνον.
+C RU: Ибо геометр, взяв сторону данного квадрата как диагональ и описав на ней квадрат, делает [его] половиной данного квадрата; и, снова взяв диагональ данного как сторону, удваивает данный квадрат.
+C EN: For the geometer, taking the side of the given square as a diagonal and describing a square upon it, makes [a square that is] half of the given square; and again, taking the diagonal of the given one as a side, he doubles the given square.
+QUOTE: describing a square upon it / описав на ней квадрат
+PROBLEM: In standard geometrical language this is the square on the line as side, which contradicts 'taking the side as a diagonal' and loses the halving construction.
+FIX: putting a square around it / описав вокруг неё квадрат
+VERIFIER: Major is defensible. Under standard geometrical idiom, 'describing a square upon it' contradicts 'taking ... as a diagonal' and hides περι-, even though translator C's checks show the right construction. | CORR: None
+
+=== #6 U027 [C] only CLAUDE | type mistranslation lang both | check: confirmed
+GREEK: Ἀσύνθετα δὲ εἴρηται, τῷ ὡς ἓν ἐκ συμφθάρσεως διὰ τριῶν διέσεων ἢ τριῶν ἡμιτονίων ἢ καὶ διαφόρων τόνων μέλος συναπαρτίζεσθαι, δύναμιν μὲν ἔχον διαφόρων διαστημάτων, δι’ ἑνὸς δὲ διαστήματος ἀπηχούμενον.
+C RU: Несоставными же они названы потому, что мелодия завершается как один [интервал] путём сжатия (σύμφθαρσις) через три диесы, или три полутона, или даже различные тоны, имея силу различных интервалов, но воздаваясь через один интервал.
+C EN: And they have been called 'incomposite' because the melody is completed, as one [interval], by compression (symphtharsis) through three dieses or three semitones or even different tones, having the power of different intervals but being sounded through a single interval.
+QUOTE: путём сжатия (σύμφθαρσις) / by compression (symphtharsis)
+PROBLEM: No lexicon sense 'compression': LSJ, Pape and Bailly give fusion or melting together. The error carries a false doctrine into the text.
+FIX: путём слияния / by fusion
+VERIFIER: Major. See divergence 1. The rendering is unsupported by any lexicon and imports a false doctrine. | CORR: None
+
+=== #7 U028 [C] only CLAUDE | type mistranslation lang both | check: confirmed
+GREEK: ⟨⟨εἰ γὰρ καὶ τοῖς ἀριθμοῖς σύμφθαρσις οὐκ ἐγγίνεται διὰ τὸ τῶν ἀριθμῶν ἄυλον ἀκίνητόν τε καὶ ἄρρευστον, ἀλλ’ ἐν τοῖς μέλεσι, διὰ τὸ εἰς ὕλην κατάγεσθαι, περὶ δὲ τὴν ὕλην ὁρᾶσθαι συνέχειαν, ἐντεῦθεν ἐγγίνεται καὶ τὴν σύμφθαρσιν εἶναι· καὶ τὸ περὶ δύο νευρὰς ἀποτεινόμενον μῆκος ἐν μιᾷ συναιρεῖται κατὰ συνέχειαν, ὥσπερ ἐκ τοῦ ἐναντίου καὶ τὸ παρὰ μίαν πάλιν εἰς πολλὰς διαιρεῖται κατὰ συνέχειαν.
+C RU: ⟨⟨Ибо хотя в числах сжатие и не возникает — из-за бестелесности чисел, [ибо они] неподвижны и не текучи, — но в напевах, поскольку они нисходят в материю, а в материи усматривается непрерывность, отсюда происходит и то, что сжатие существует; и длина, натянутая на две струны, по непрерывности собирается в одну, как, наоборот, и [длина] вдоль одной [струны] снова делится на многие по непрерывности.
+C EN: ⟨⟨For even if no compression occurs in numbers — because of the immateriality of numbers, [which are] unmoved and unflowing — yet in melodies, because they are brought down into matter and continuity is observed about matter, from this it comes about that compression exists too; and the length stretched over two strings is contracted into one by continuity, just as, conversely, that which [runs] along one is divided again into many by continuity.
+QUOTE: сжатие и не возникает / no compression occurs in numbers
+PROBLEM: Same error as in U027: σύμφθαρσις is fusion, not compression
+FIX: слияние / fusion
+VERIFIER: Major. It is a consequence of the U027 error; count it as one error carried through. | CORR: None
+
+=== #8 U033 [C] only SOL | type note-claim lang notes | check: confirmed
+GREEK: Παρὰ δὲ ταῦτα ἕτερα διαστήματα, τὸ διὰ τεσσάρων καὶ διὰ πέντε καὶ διὰ πασῶν.
+C RU: Кроме них есть другие интервалы: [интервал] через четыре (διὰ τεσσάρων), через пять (διὰ πέντε) и через все (διὰ πασῶν).
+C EN: Besides these there are other intervals: that through four (dia tessaron), that through five (dia pente), and that through all (dia pason).
+QUOTE: В. Г. Цыпин: «через четыре» и т. д. … source: about.md §5 [checked]
+PROBLEM: The cited supplied section contains neither these three interval-name entries nor the claimed attribution to Tsypin. The external claim about his actual usage is not verified, rather than declared false.
+FIX: Remove the unsupported attribution or supply a legitimate checked passage from Tsypin’s translations of another theorist; describe the literal labels simply as this translation’s choice. Supplied about.md §5 [checked].
+
+=== #9 U035 [F] only CLAUDE | type mistranslation lang both | check: confirmed
+GREEK: διὰ πασῶν δὲ τὸ δι’ ὀκτὼ λέγεται ὡς ἐν τῷ ὀκταχόρδῳ τῶν ὅλων διαστάσεων συμπληρουμένων κἀκεῖθεν αὖθις ἐπαναδιπλουμένων, ὡς καὶ ἀπ’ αὐτῆς δηλοῦται τῆς φερωνυμίας τῶν κλήσεων· δὶς γὰρ διὰ τεσσάρων καὶ δὶς διὰ πέντε καὶ δὶς διὰ πασῶν αἱ μετὰ ταῦτα διαστάσεις καλοῦνται.
+F RU: Интервал через восемь называется октавой, поскольку в восьмиструннике восполняются все интервалы, а оттуда вновь удваиваются, как видно и из самих значащих названий: ведь следующие за ними интервалы называются двойной квартой (δὶς διὰ τεσσάρων), двойной квинтой (δὶς διὰ πέντε) и двойной октавой (δὶς διὰ πασῶν).
+F EN: The interval through eight is called the octave because all the intervals are completed in the eight-string system and are then doubled again from that point, as is clear from the meaningful names themselves: for the subsequent intervals are called the double fourth (δὶς διὰ τεσσάρων), the double fifth (δὶς διὰ πέντε) and the double octave (δὶς διὰ πασῶν).
+QUOTE: Интервал через восемь называется октавой / The interval through eight is called the octave
+PROBLEM: Rendering διὰ πασῶν as 'octave' destroys the etymology the sentence gives (all intervals completed → 'through all'); the sentence becomes tautological
+FIX: называется «через все» (διὰ πασῶν) / is called 'through all' (διὰ πασῶν)
+VERIFIER: The sentence exists only to explain the name 'through all', and rendering διὰ πασῶν as 'octave' without the Greek empties it. Major. | CORR: None
+
+=== #10 U037 [C] only SOL | type note-claim lang notes | check: confirmed
+GREEK: Διαφέρει δ’ ἀλλήλων τό τε παράφωνον καὶ ἀντίφωνον, τῷ τὸ μὲν παράφωνον ἀνισοχρόνως συμφωνεῖν, ἠπίως πως καὶ εὐρύθμως διαδεχομένων ἀλλήλοις τῶν φθόγγων ἀναλογίαις καὶ λόγοις καθ’ ὁμαλότητα· τὸ δὲ ἀντίφωνον ἰσοχρόνως, τοῦ ὀξέος τῷ βαρεῖ κατὰ ταὐτὸν συμφωνοῦντος, οἷον τοῦ ὀγδόου τῷ πρώτῳ, τοῦ ἑνδεκάτου τῷ τετάρτῳ, τοῦ δωδεκάτου τῷ πέμπτῳ καὶ τοῦ πεντεκαιδεκάτου τῷ ὀγδόῳ, συνανιόντων ἢ συγκατιόντων ἐν ταῖς τάσεσιν ἢ ἀνέσεσι τῶν βαρέων τοῖς ὀξέσιν ἢ τῶν ὀξέων τοῖς βαρέσι κατὰ ἀνάλογον.
+C RU: Различаются же друг от друга парафон и антифон тем, что парафон созвучит не в одно время, — когда звуки сменяют друг друга кротко и как-то стройно, в пропорциях и отношениях, с равномерностью, — а антифон — в одно время, когда высокий созвучит с низким одновременно, как восьмой с первым, одиннадцатый с четвёртым, двенадцатый с пятым и пятнадцатый с восьмым, когда [звуки] вместе поднимаются или вместе опускаются в натяжениях или ослаблениях — низкие с высокими или высокие с низкими — соразмерно.
+C EN: The paraphone and the antiphone differ from one another in that the paraphone is consonant at unequal times, the notes succeeding one another gently and, so to speak, rhythmically, in proportions and ratios, with evenness; the antiphone at equal times, the high sounding with the low at the same time — as the eighth with the first, the eleventh with the fourth, the twelfth with the fifth and the fifteenth with the eighth — when [the notes] rise together or sink together in their tensions or relaxations, the low with the high or the high with the low, proportionally.
+QUOTE: cf. Cleonid. Eisag. 12 [from memory]
+PROBLEM: The cited chapter concerns the four meanings of tonos and the transposition keys, not the successive/simultaneous distinction asserted in this note. Cleonides 12 was opened in the Jan XML; it does not verify the claim.
+FIX: Remove this supporting reference; cite the local wording and Theon48–49 for the independently attested consonance categories, without attributing this temporal explanation to Cleonides.
+
+=== #11 U040 [F] only CLAUDE | type term lang ru | check: confirmed
+GREEK: Λόγος δέ, τοῦ μὲν διὰ τεσσάρων ἐπίτριτος· τοῦ δὲ διὰ πέντε ἡμιόλιος· τοῦ δὲ διὰ πασῶν διπλάσιος· τοῦ διὰ πασῶν καὶ δὶς διὰ τεσσάρων διπλασιεπιμερής· τοῦ διὰ πασῶν καὶ δὶς διὰ πέντε τριπλάσιος.
+F RU: Отношение же кварты — эпитритное (ἐπίτριτος); квинты — полуторное (ἡμιόλιος); октавы — двойное (διπλάσιος); октавы с двойной квартой — двойное сверхчастное (διπλασιεπιμερής); октавы с двойной квинтой — тройное (τριπλάσιος).
+F EN: The ratio of the fourth is sesquitertian (ἐπίτριτος); of the fifth, sesquialteran (ἡμιόλιος); of the octave, double (διπλάσιος); of the octave and double fourth, double-superpartient (διπλασιεπιμερής); of the octave and double fifth, triple (τριπλάσιος).
+QUOTE: октавы с двойной квартой — двойное сверхчастное (διπλασιεπιμερής)
+PROBLEM: In Russian ratio terminology 'сверхчастное' = ἐπιμόριος (superparticular). The term names the wrong class (2 + 1/n); 8:3 is double-superpartient.
+FIX: двукратно-сверхмногочастное (or 'двойное с несколькими долями')
+VERIFIER: Per Shchetnikov, 'сверхчастное' names the superparticular class (ἐπιμόριον), so F's ru names the wrong class for 8:3 [checked]. Major. It is one terminology slip, repeated in U041; fix both together. | CORR: None
+
+=== #12 U041 [F] only CLAUDE | type term lang ru | check: modified
+GREEK: οἷον, ὡς ἐπὶ ὑποδείγματος, κείσθω πρῶτος ἐν ἀριθμοῖς ὅρος ὁ ἕκτος ἡμῖν ἀριθμός· πρὸς ὃν πάντως ἐπίτριτος ὁ ὄγδοος, ἡμιόλιος ὁ ἔνατος, διπλάσιος ὁ δωδέκατος, διπλασιεπιμερὴς ὁ ἑξκαιδέκατος, τὸν ἕκτον δὶς ἔχων καὶ δύο μέρη αὐτοῦ, τριπλάσιος ὁ ὀκτωκαιδέκατος, τετραπλάσιος ὁ εἰκοστὸς τέταρτος.
+F RU: Например, для пояснения, пусть первым членом (ὅρος) среди чисел будет у нас число шесть; по отношению к нему восемь непременно будет эпитритным, девять — полуторным, двенадцать — двойным, шестнадцать — двойным сверхчастным, содержащим шесть дважды и две его доли, восемнадцать — тройным, двадцать четыре — четверным (τετραπλάσιος).
+F EN: For example, by way of illustration, let the number six be our first numerical term (ὅρος); in relation to it eight is necessarily sesquitertian, nine sesquialteran, twelve double, sixteen double-superpartient, containing six twice and two parts of it, eighteen triple, and twenty-four quadruple (τετραπλάσιος).
+QUOTE: шестнадцать — двойным сверхчастным
+PROBLEM: 'сверхчастное' = superparticular (as in U040). 16:6 is double-superpartient.
+FIX: двукратно-сверхмногочастным
+VERIFIER: The same error as U040, error 1. | CORR: Count it once (with U040), not as a second major error.
+
+=== #13 U042 [C] only CLAUDE | type mistranslation lang both | check: confirmed
+GREEK: ⟨⟨Σκοπητέον δὲ ὡς τὰ μὲν οὖν ἔμμεσα διαστήματα, οἷον τὸ διὰ τεσσάρων, τὸ διὰ πέντε μέλος, τὸ διὰ πασῶν, τὸ δὶς διὰ τεσσάρων, τὸ δὶς διὰ πέντε καὶ τὸ δὶς διὰ πασῶν, πρὸς τὸν προσλαμβανόμενον φθόγγον τῶν λόγων ἔχουσι τὴν ἀναφοράν· τὰ δὲ ἄμεσα καὶ μεταξὺ τούτων κείμενα, οἷον δίεσις, τὸ ἡμιτόνιον καὶ ὁ τόνος, πρὸς τοὺς πρὸ αὐτῶν ἐγγὺς φθόγγους τὴν ποιὰν τῶν λόγων ἕξιν πεποίηνται· ὡς δὲ καὶ τὰ ἐκ συμφθάρσεως διαστημάτων πλειόνων μεγεθυνόμενα διαστήματα, οἷον ἡ τριδίεσις, τὸ τριημιτόνιον, τὸ διτόνιόν τε καὶ τριτόνιον καὶ εἴ τι ἕτερον τοιουτότροπον εἶδος, τῶν ἐν αὐτοῖς κεκρυμμένων διαστημάτων πρὸς τοὺς ἐγγὺς φθόγγους πρότερον λογοθετηθέντων, οὕτως εἰς ἓν διάστημα ὡς ἐκ συμφθάρσεως κίρνανται.
+C RU: ⟨⟨Надлежит усмотреть, что мелодические (ἔμμεσα) интервалы, такие как [интервал] через четыре, через пять — напев, через все, дважды через четыре, дважды через пять и дважды через все, имеют отнесение отношений к звуку просламбаномену; а непосредственные, лежащие между ними, как диеса, полутон и тон, приобрели своё качественное состояние отношений по отношению к ближним звукам перед ними; и как также интервалы, возрастающие из сжатия нескольких интервалов, — как тридиеса, триполутоние, дитон и тритон и любой другой такого же рода вид, — когда скрытые в них интервалы сперва соотнесены по отношению к ближним звукам, так смешиваются в один интервал, как бы из сжатия.
+C EN: ⟨⟨One must observe that the mediate (emmesa) intervals — such as the through-four, the through-five melody, the through-all, the twice-through-four, the twice-through-five and the twice-through-all — have the reference of their ratios to the note proslambanomenos; while the immediate ones lying between these, such as the diesis, the semitone and the tone, have acquired their qualified state of ratio relative to the nearby notes before them; and just as also the intervals that grow from the compression of several intervals — such as the tridiesis, the trihemitone, the ditone and tritone, and any other form of the same kind — when the intervals hidden in them have first been assigned ratios relative to the nearby notes, are thus blended into one interval as from compression.
+QUOTE: возрастающие из сжатия ... как бы из сжатия / that grow from the compression ... as from compression
+PROBLEM: σύμφθαρσις is fusion: the components melt into one (LSJ). 'Compression' is wrong and contradicts μεγεθυνόμενα.
+FIX: увеличенные слиянием ... как бы путём слияния / enlarged by fusion ... as by fusion
+VERIFIER: Major: a wrong lexical sense, in both languages, twice. | CORR: None
+
+=== #14 U053 [C] only CLAUDE | type term lang both | check: confirmed
+GREEK: τῆς δὲ ἁρμονίας ἴδιον τὸ τὰ τοιαῦτα συστήματα συντάττειν καὶ συναρμολογεῖν πρὸς τὸ τοιόνδε τῆς μελῳδίας γένος, οἷον τὸ διάτονον, τὸ χρωματικὸν καὶ τὸ παρωνύμως ἀπ’ αὐτῆς ἁρμονίας ἁρμονικὸν προσαγορευόμενον.
+C RU: Свойство же гармонии — строить такие системы и слаживать их под тот или иной род мелодии, как-то: диатонический, хроматический и называемый энармоническим (ἁρμονικόν) — по производному имени от самой гармонии.
+C EN: It is proper to harmonia to arrange such systems and to fit them together for such-and-such a genus of melody: for instance the diatonic, the chromatic, and the one called enharmonic (harmonikon) — paronymously, from harmonia itself.
+QUOTE: называемый энармоническим (ἁρμονικόν) / the one called enharmonic (harmonikon)
+PROBLEM: Normalizes the author's term. The explicit paronymy from ἁρμονία no longer reads, against about.md §4.
+FIX: «гармоническим (ἁρμονικόν)» / 'harmonic (ἁρμονικόν)', with a note that it is the classical enharmonic
+VERIFIER: Major under about.md §4, because the sentence is about the name itself. It is mitigated here by C's (ἁρμονικόν) in parentheses. It is a single systematic choice, also in U054, U060 and U063; weigh it once. | CORR: None
+
+=== #15 U058 [C] only CLAUDE | type term lang both | check: confirmed
+GREEK: εἰ δὲ δύο εἴη τὰ ἡμιτόνια, τὸ λοιπὸν γένοιτ’ ἂν ἓν ἐκ συμφθάρσεως διάστημα, τριημιτόνιον ἀσύνθετον· ἐξ ἡμιτονίων δύο καὶ τριημιτονίου συγκεκραμένον.
+C RU: Если же полутонов было бы два, остаток был бы единым несоставным интервалом из сжатия — триполутонием: [тетрахорд], смешанный из двух полутонов и триполутония.
+C EN: If there were two semitones, the remainder would be one incomposite interval from compression — the trihemitone: [a tetrachord] blended from two semitones and a trihemitone.
+QUOTE: из сжатия / from compression
+PROBLEM: Mistranslates σύμφθαρσις; the doctrine becomes a shrinking of intervals, not their fusion into one.
+FIX: «из слияния» / 'by fusion'
+VERIFIER: Major. 'Compression' is a wrong sense for a key doctrinal term (cf. U027, U042). | CORR: None
+
+=== #16 U060 [C] only CLAUDE | type term lang both | check: confirmed
+GREEK: εἰ δὲ κατὰ δύο διέσεις ἡ μελῳδία προάγοιτο, θάτερον ἔσται τῶν διαστημάτων ἓν διτόνιον ἐκ συμφθάρσεως· καὶ τὸ διὰ τεσσάρων τοῦτο γένος ἁρμονικὸν ὀνομάζεται, τῷ εἶναι ἄριστον, ἐκ τῆς κοινῆς ἁρμονίας τὴν παρωνυμίαν ἀπενεγκάμενον.
+C RU: Если же мелодия двигалась бы через две диесы, другой из интервалов будет единым дитоном из сжатия; и этот род [интервала] через четыре называется энармоническим, как наилучший, получив производное имя от общей гармонии.
+C EN: If the melody proceeded by two dieses, the other of the intervals will be one ditone from compression; and this genus of the through-four is called enharmonic, because it is the best, having taken its paronymous name from the common harmonia.
+QUOTE: называется энармоническим ... получив производное имя от общей гармонии / is called enharmonic ... having taken its paronymous name
+PROBLEM: The normalized term makes the stated paronymy incoherent.
+FIX: «гармоническим (ἁρμονικόν)» / 'harmonic (ἁρμονικόν)'
+VERIFIER: Major. Here no Greek mitigates it. This is the same systematic fault as U053. | CORR: None
+
+=== #17 U060 [C] only CLAUDE | type term lang both | check: confirmed
+GREEK: εἰ δὲ κατὰ δύο διέσεις ἡ μελῳδία προάγοιτο, θάτερον ἔσται τῶν διαστημάτων ἓν διτόνιον ἐκ συμφθάρσεως· καὶ τὸ διὰ τεσσάρων τοῦτο γένος ἁρμονικὸν ὀνομάζεται, τῷ εἶναι ἄριστον, ἐκ τῆς κοινῆς ἁρμονίας τὴν παρωνυμίαν ἀπενεγκάμενον.
+C RU: Если же мелодия двигалась бы через две диесы, другой из интервалов будет единым дитоном из сжатия; и этот род [интервала] через четыре называется энармоническим, как наилучший, получив производное имя от общей гармонии.
+C EN: If the melody proceeded by two dieses, the other of the intervals will be one ditone from compression; and this genus of the through-four is called enharmonic, because it is the best, having taken its paronymous name from the common harmonia.
+QUOTE: единым дитоном из сжатия / one ditone from compression
+PROBLEM: σύμφθαρσις is not compression (as in U058).
+FIX: «путём слияния» / 'by fusion'
+VERIFIER: Major, but it is the same systematic fault as U058; count it once. | CORR: None
+
+total 17

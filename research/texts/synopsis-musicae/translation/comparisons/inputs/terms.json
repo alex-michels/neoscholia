@@ -1,0 +1,3787 @@
+{
+ "A": [
+  {
+   "greek": "σύνοψις",
+   "ru": "обзор",
+   "en": "synopsis",
+   "meaning_here": "general survey, epitome (title)",
+   "evidence": "LSJ s.v. σύνοψις: general view, epitome [checked]"
+  },
+  {
+   "greek": "ἠκριβωμένη",
+   "ru": "тщательно выверенный",
+   "en": "accurately worked out",
+   "meaning_here": "pf. pass. ptc. of ἀκριβόω, made exact",
+   "evidence": "LSJ s.v. ἀκριβόω [checked]"
+  },
+  {
+   "greek": "συμμετρία",
+   "ru": "соразмерность",
+   "en": "commensurability",
+   "meaning_here": "due measure / proportion between parts",
+   "evidence": "LSJ s.v. συμμετρία: commensurability; symmetry, due proportion (Pl. Phlb. 64e) [checked]"
+  },
+  {
+   "greek": "ἀναλογία",
+   "ru": "пропорция",
+   "en": "proportion",
+   "meaning_here": "equality of ratios, proportion",
+   "evidence": "LSJ s.v. ἀναλογία (Pl. Ti. 31c, 32c) [checked]"
+  },
+  {
+   "greek": "αὐτοσυμμετρία",
+   "ru": "сама соразмерность",
+   "en": "commensurability itself",
+   "meaning_here": "Platonic αὐτο- abstract: commensurability as such",
+   "evidence": "not in LSJ [checked]; αὐτο- compounds [from memory]"
+  },
+  {
+   "greek": "τὸ πᾶν",
+   "ru": "Вселенная; (нареч.) целиком",
+   "en": "the universe; (adverb) wholly",
+   "meaning_here": "the All (U002, U005); adverbial accusative in U004 and U055",
+   "evidence": "internal usage U055 [checked]; LSJ s.v. πᾶς [from memory]"
+  },
+  {
+   "greek": "τὸ θεῖον",
+   "ru": "Божественное",
+   "en": "the Divine",
+   "meaning_here": "the divine principle in which the universe is held together",
+   "evidence": "context; Eph. 4:16 [checked]"
+  },
+  {
+   "greek": "ἁρμονία",
+   "ru": "гармония",
+   "en": "harmony",
+   "meaning_here": "(a) cosmic harmony (U004-U005); (b) the arrangement of systems (U011, U053, U061); (c) the mode (U011 examples, U065)",
+   "evidence": "Theon 48.12-13 H [checked]"
+  },
+  {
+   "greek": "αἴσθησις",
+   "ru": "ощущение",
+   "en": "sense-perception",
+   "meaning_here": "perception by the senses; also a single sense (hearing)",
+   "evidence": "LSJ [from memory]"
+  },
+  {
+   "greek": "νόησις",
+   "ru": "мышление",
+   "en": "thought",
+   "meaning_here": "intellection, the faculty of pure thought",
+   "evidence": "context U003, U007"
+  },
+  {
+   "greek": "φθόγγος",
+   "ru": "звук",
+   "en": "note",
+   "meaning_here": "a single point-like pitch of the voice or an instrument",
+   "evidence": "LSJ s.v. φθόγγος [checked]; Theon 47.18-48.7 H; Cleonid. 1 [checked]"
+  },
+  {
+   "greek": "φωνή",
+   "ru": "голос",
+   "en": "voice",
+   "meaning_here": "the sounding voice that produces notes",
+   "evidence": "Theon 47.18 H [checked]"
+  },
+  {
+   "greek": "ψόφος",
+   "ru": "шум",
+   "en": "noise",
+   "meaning_here": "sound that is not a note",
+   "evidence": "LSJ s.v. ψόφος [checked]; Theon 50.14-16 H [checked]"
+  },
+  {
+   "greek": "τάσις",
+   "ru": "напряжение",
+   "en": "tension",
+   "meaning_here": "stretching; in U008 the single pitch-level; physical tension in U037, U049",
+   "evidence": "LSJ s.v. τάσις [checked]; Cleonid. 2 [checked]"
+  },
+  {
+   "greek": "ἐπίτασις",
+   "ru": "усиление (напряжения)",
+   "en": "increase (of tension)",
+   "meaning_here": "tightening; rise of pitch",
+   "evidence": "LSJ s.v. ἐπίτασις [checked]"
+  },
+  {
+   "greek": "ἄνεσις",
+   "ru": "ослабление",
+   "en": "relaxation",
+   "meaning_here": "slackening; fall of pitch",
+   "evidence": "LSJ s.v. ἄνεσις [checked]"
+  },
+  {
+   "greek": "ἀδιάστατος",
+   "ru": "не имеющий протяжённости",
+   "en": "without extension",
+   "meaning_here": "of the note: point-like, without interval",
+   "evidence": "LSJ s.v. ἀδιάστατος II [checked]; Nicom. Ench. 2, 12 [checked]"
+  },
+  {
+   "greek": "ἐναρμόνιος",
+   "ru": "гармоничный",
+   "en": "harmonious",
+   "meaning_here": "of a note: able to be fitted into harmony (not the genus)",
+   "evidence": "LSJ s.v. ἐναρμόνιος I [checked]; Theon 47.19-48.7 H [checked]"
+  },
+  {
+   "greek": "ἀπηχής",
+   "ru": "нестройный",
+   "en": "discordant",
+   "meaning_here": "out of tune, not fit for harmony",
+   "evidence": "LSJ s.v. ἀπηχής [checked]"
+  },
+  {
+   "greek": "ὀξύς, ὀξύτης",
+   "ru": "высокий, высота",
+   "en": "high, high pitch",
+   "meaning_here": "high pitch (acuteness)",
+   "evidence": "Cleonid. 2 [checked]"
+  },
+  {
+   "greek": "βαρύς, βαρύτης",
+   "ru": "низкий, низкота; в U050 «тяжесть»",
+   "en": "low, low pitch; in U050 \"weight\"",
+   "meaning_here": "low pitch; in U050 the heaviness of a hung weight",
+   "evidence": "Cleonid. 2 [checked]; context"
+  },
+  {
+   "greek": "διάστημα",
+   "ru": "интервал",
+   "en": "interval",
+   "meaning_here": "the relation / extent between two notes",
+   "evidence": "Theon 48.8-10 H; Cleonid. 1 [checked]"
+  },
+  {
+   "greek": "διάστασις",
+   "ru": "расстояние",
+   "en": "span",
+   "meaning_here": "interval taken as extent (esp. of the consonances)",
+   "evidence": "context U034-U036, U045, U051"
+  },
+  {
+   "greek": "σύστημα",
+   "ru": "система",
+   "en": "system",
+   "meaning_here": "an encompassing of intervals: tetrachord, pentachord, octachord ...",
+   "evidence": "Theon 48.10-12 H [checked]"
+  },
+  {
+   "greek": "σχέσις",
+   "ru": "отношение",
+   "en": "relation",
+   "meaning_here": "the relation of two notes (in the definition of the interval)",
+   "evidence": "Theon 48.9 H [checked]"
+  },
+  {
+   "greek": "ποιός (ποιά)",
+   "ru": "некий определённый",
+   "en": "a certain",
+   "meaning_here": "of a definite kind (in the definitions)",
+   "evidence": "Cleonid. 1 [checked]"
+  },
+  {
+   "greek": "περιοχή",
+   "ru": "охват",
+   "en": "encompassing",
+   "meaning_here": "that which embraces the intervals of a system",
+   "evidence": "LSJ s.v. περιοχή [from memory]"
+  },
+  {
+   "greek": "σύνταξις, συντάττειν",
+   "ru": "расположение, располагать",
+   "en": "arrangement, to arrange",
+   "meaning_here": "ordering of systems by harmony",
+   "evidence": "Theon 48.12-13 H [checked]"
+  },
+  {
+   "greek": "πρόοδος",
+   "ru": "продвижение",
+   "en": "progression",
+   "meaning_here": "the ordered advance from low to high",
+   "evidence": "context U014; LSJ entry not retrieved"
+  },
+  {
+   "greek": "προσηγορία",
+   "ru": "название",
+   "en": "name",
+   "meaning_here": "appellation of a note or interval",
+   "evidence": "LSJ s.v. προσηγορία [checked]"
+  },
+  {
+   "greek": "προσλαμβανόμενος",
+   "ru": "просламбаномен",
+   "en": "proslambanomenos",
+   "meaning_here": "the added note, the lowest of the fifteen",
+   "evidence": "Nicom. Ench. 11; Cleonid. 4 [checked]"
+  },
+  {
+   "greek": "ὑπάτη",
+   "ru": "гипата",
+   "en": "hypate",
+   "meaning_here": "name of the lowest note of the hypaton and meson tetrachords",
+   "evidence": "Cleonid. 4 [checked]"
+  },
+  {
+   "greek": "παρυπάτη",
+   "ru": "парипата",
+   "en": "parhypate",
+   "meaning_here": "the note next to the hypate",
+   "evidence": "Cleonid. 4 [checked]"
+  },
+  {
+   "greek": "διάτονος (name of a note)",
+   "ru": "диатонос",
+   "en": "diatonos",
+   "meaning_here": "here the name of the third note of a tetrachord (usually λιχανός / παρανήτη)",
+   "evidence": "Nicom. Ench. 11 (διάτονος ὑπάτων ἢ λιχανὸς ὑπάτων); Theon, Epilogus diagram [checked]"
+  },
+  {
+   "greek": "μέση",
+   "ru": "меса",
+   "en": "mese",
+   "meaning_here": "the middle note, eighth of fifteen",
+   "evidence": "Cleonid. 4 [checked]"
+  },
+  {
+   "greek": "μόνως",
+   "ru": "просто, единственно",
+   "en": "alone",
+   "meaning_here": "adverb: named without qualifier (μέση μόνως)",
+   "evidence": "no parallel found [checked, negative]"
+  },
+  {
+   "greek": "παράμεσος",
+   "ru": "парамесос",
+   "en": "paramesos",
+   "meaning_here": "the note after the mese (usually παραμέση)",
+   "evidence": "Theon, Epilogus diagram: παραμέση [checked]"
+  },
+  {
+   "greek": "τρίτη, νήτη",
+   "ru": "трита, нета",
+   "en": "trite, nete",
+   "meaning_here": "third and last notes of a tetrachord counted from the top",
+   "evidence": "Cleonid. 4 [checked]"
+  },
+  {
+   "greek": "ὑπάτων, μέσων, διεζευγμένη / -ων, ὑπερβολαίων",
+   "ru": "низших, средних, отделённая / -ых, высших",
+   "en": "hypaton, meson, diezeugmene / -on, hyperbolaion",
+   "meaning_here": "genitives naming the four tetrachords: lowest, middle, disjoined, highest",
+   "evidence": "Cleonid. 4 [checked]; Tsypin (about.md § 5)"
+  },
+  {
+   "greek": "πεντεκαιδεκάχορδον",
+   "ru": "пятнадцатихорд",
+   "en": "fifteen-chord",
+   "meaning_here": "the fifteen-note system, the Greater Perfect System",
+   "evidence": "the word occurs in Adrastus ap. Theon 64 H [checked]; sense there not examined"
+  },
+  {
+   "greek": "ἑκκαιδεκάχορδον",
+   "ru": "шестнадцатихорд",
+   "en": "sixteen-chord",
+   "meaning_here": "the same system counted as two octachords sharing the mese",
+   "evidence": "not found elsewhere [checked, negative]"
+  },
+  {
+   "greek": "ὀκτάχορδον, πεντάχορδον, τετράχορδον",
+   "ru": "октахорд, пентахорд, тетрахорд",
+   "en": "octachord, pentachord, tetrachord",
+   "meaning_here": "systems of 8, 5, 4 notes",
+   "evidence": "Theon 48.10-12 H [checked]"
+  },
+  {
+   "greek": "κατὰ συνέχειαν",
+   "ru": "в непрерывности",
+   "en": "in continuity",
+   "meaning_here": "continuously; with a shared end-note (U015); of matter (U028)",
+   "evidence": "LSJ s.v. συνέχω [checked in part]"
+  },
+  {
+   "greek": "δίεσις",
+   "ru": "диеса",
+   "en": "diesis",
+   "meaning_here": "the least melodic interval, a quarter of a tone",
+   "evidence": "Theon 55.11-13 H [checked]"
+  },
+  {
+   "greek": "ἡμιτόνιον",
+   "ru": "полутон",
+   "en": "semitone",
+   "meaning_here": "half of a tone (Aristoxenian) or the leimma",
+   "evidence": "Theon 53.8-16 H [checked]"
+  },
+  {
+   "greek": "τόνος",
+   "ru": "тон",
+   "en": "tone",
+   "meaning_here": "the interval of the ratio 9:8",
+   "evidence": "Theon 53.1-8 H [checked]"
+  },
+  {
+   "greek": "ἐπόγδοος λόγος",
+   "ru": "эпогдойное отношение",
+   "en": "epogdoic ratio",
+   "meaning_here": "9:8",
+   "evidence": "LSJ s.v. ἐπόγδοος (Pl. Ti. 36a, b) [checked]"
+  },
+  {
+   "greek": "ἡμιεπόγδοον",
+   "ru": "полуэпогдоон",
+   "en": "half-epogdoon",
+   "meaning_here": "half of the epogdoic ratio, the semitone (author's coinage)",
+   "evidence": "not in LSJ [checked]"
+  },
+  {
+   "greek": "νευρά, χορδή",
+   "ru": "струна",
+   "en": "string",
+   "meaning_here": "string of an instrument; also \"note\" in compounds",
+   "evidence": "context"
+  },
+  {
+   "greek": "μονάς",
+   "ru": "единица",
+   "en": "unit",
+   "meaning_here": "the arithmetical monad, indivisible among numbers",
+   "evidence": "Euclid, Elements VII def. 1 [from memory]"
+  },
+  {
+   "greek": "γεωμετρικῶς",
+   "ru": "геометрически",
+   "en": "geometrically",
+   "meaning_here": "by dividing continuous magnitudes",
+   "evidence": "context U019"
+  },
+  {
+   "greek": "ἀσύνθετος",
+   "ru": "несоставной",
+   "en": "uncomposite",
+   "meaning_here": "interval sounded as one step; here by fusion of several smaller ones",
+   "evidence": "LSJ s.v. ἀσύνθετος [checked]; Cleonid. 5 [checked]; Tsypin (about.md § 5)"
+  },
+  {
+   "greek": "σύμφθαρσις",
+   "ru": "слияние",
+   "en": "fusion",
+   "meaning_here": "melting of several intervals into one",
+   "evidence": "LSJ s.vv. σύμφθαρσις, συμφθείρω [checked]"
+  },
+  {
+   "greek": "τριδίεσις",
+   "ru": "тридиеса",
+   "en": "tridiesis",
+   "meaning_here": "three dieses, 3/4 tone",
+   "evidence": "context U026"
+  },
+  {
+   "greek": "τριημιτόνιον",
+   "ru": "тригемитон",
+   "en": "trihemitone",
+   "meaning_here": "three semitones, 1 1/2 tones",
+   "evidence": "LSJ s.v. τριημιτόνιον (Cleonid. 3) [checked]"
+  },
+  {
+   "greek": "διτόνιον",
+   "ru": "дитон",
+   "en": "ditone",
+   "meaning_here": "two tones",
+   "evidence": "Cleonid. 5 [checked]"
+  },
+  {
+   "greek": "τριτόνιον",
+   "ru": "тритон",
+   "en": "tritone",
+   "meaning_here": "three tones",
+   "evidence": "Cleonid. 5 (τρίτονον) [checked]"
+  },
+  {
+   "greek": "ῥυθμός",
+   "ru": "ритм",
+   "en": "rhythm",
+   "meaning_here": "measured motion; or the course of the exposition (doubt U026)",
+   "evidence": "LSJ s.v. ῥυθμός [checked in part]"
+  },
+  {
+   "greek": "μέλος",
+   "ru": "мелодия",
+   "en": "melody",
+   "meaning_here": "a tune, a melodic stretch",
+   "evidence": "context"
+  },
+  {
+   "greek": "μελῳδία",
+   "ru": "мелодика",
+   "en": "melodic line",
+   "meaning_here": "melodic progression / composition",
+   "evidence": "context"
+  },
+  {
+   "greek": "δύναμις",
+   "ru": "сила",
+   "en": "power",
+   "meaning_here": "capacity of an interval to yield other intervals",
+   "evidence": "context U027, U051"
+  },
+  {
+   "greek": "ἰσχύς",
+   "ru": "мощь",
+   "en": "force",
+   "meaning_here": "force of the octave (U051)",
+   "evidence": "context"
+  },
+  {
+   "greek": "διὰ τεσσάρων / διὰ πέντε / διὰ πασῶν",
+   "ru": "кварта / квинта / октава",
+   "en": "fourth / fifth / octave",
+   "meaning_here": "\"through four / five / all\" notes",
+   "evidence": "Theon 51.5-20 H [checked]"
+  },
+  {
+   "greek": "δὶς διὰ τεσσάρων / δὶς διὰ πέντε / δὶς διὰ πασῶν",
+   "ru": "двукратная кварта / квинта / октава",
+   "en": "twice-fourth / twice-fifth / twice-octave",
+   "meaning_here": "compound consonances: eleventh, twelfth, double octave",
+   "evidence": "context U035, U039-U040 [checked]"
+  },
+  {
+   "greek": "συμφωνία, συμφωνεῖν",
+   "ru": "консонанс, быть созвучным",
+   "en": "consonance, to be consonant",
+   "meaning_here": "concord of two notes",
+   "evidence": "Cleonid. 5; Theon 48-49 H [checked]; Tsypin"
+  },
+  {
+   "greek": "ἀντίφωνον",
+   "ru": "антифония",
+   "en": "antiphony",
+   "meaning_here": "consonance of the octave type, high and low at the same time",
+   "evidence": "LSJ s.v. ἀντίφωνος III [checked]; Theon 48.16-23 H [checked]"
+  },
+  {
+   "greek": "παράφωνον",
+   "ru": "парафония",
+   "en": "paraphony",
+   "meaning_here": "consonance of the fourth / fifth type, notes in succession",
+   "evidence": "Theon 48.16-23 H [checked]"
+  },
+  {
+   "greek": "ἰσοχρόνως, ἀνισοχρόνως",
+   "ru": "в равное время, в неравное время",
+   "en": "in equal time, in unequal time",
+   "meaning_here": "simultaneity vs succession (doubt U037)",
+   "evidence": "LSJ s.vv. ἰσόχρονος, ἀνισόχρονος [checked]"
+  },
+  {
+   "greek": "ἔμμεσον, ἄμεσον",
+   "ru": "опосредованный, непосредственный",
+   "en": "mediate, immediate",
+   "meaning_here": "interval with / without intermediate notes",
+   "evidence": "LSJ s.vv. ἔμμεσος, ἄμεσος [checked]"
+  },
+  {
+   "greek": "λόγος",
+   "ru": "отношение",
+   "en": "ratio",
+   "meaning_here": "numerical ratio of two magnitudes",
+   "evidence": "context"
+  },
+  {
+   "greek": "ἐπίτριτος",
+   "ru": "эпитритное (4:3)",
+   "en": "epitritic (4:3)",
+   "meaning_here": "ratio of the fourth",
+   "evidence": "LSJ s.v. ἐπίτριτος [checked]"
+  },
+  {
+   "greek": "ἡμιόλιος",
+   "ru": "гемиольное (3:2)",
+   "en": "hemiolic (3:2)",
+   "meaning_here": "ratio of the fifth",
+   "evidence": "LSJ s.v. ἡμιόλιος [checked]"
+  },
+  {
+   "greek": "διπλάσιος, τριπλάσιος, τετραπλάσιος",
+   "ru": "двойное, тройное, четверное",
+   "en": "double, triple, quadruple",
+   "meaning_here": "2:1, 3:1, 4:1",
+   "evidence": "context U040-U041"
+  },
+  {
+   "greek": "διπλασιεπιμερής",
+   "ru": "двойное эпимерное",
+   "en": "double-epimeric",
+   "meaning_here": "2 + 2/3 = 8:3",
+   "evidence": "Nicom. Arith. I 22-23 (Hoche, index) [checked in part]"
+  },
+  {
+   "greek": "πενταπλασίων, διπλασιημιόλιος, ἐπιδιμερής, ἐπιτέταρτος",
+   "ru": "пятикратное, двойное гемиольное, эпидимерное, эпитетартное",
+   "en": "quintuple, double-hemiolic, epidimeric, epitetartic",
+   "meaning_here": "5:1, 5:2, 5:3, 5:4",
+   "evidence": "LSJ s.vv. [checked]"
+  },
+  {
+   "greek": "ὅρος",
+   "ru": "член (в ряду чисел); термин (в силлогизме)",
+   "en": "term",
+   "meaning_here": "term of a series of numbers (U041); term of a syllogism (U043)",
+   "evidence": "context"
+  },
+  {
+   "greek": "ὑπερβατόν (καθ᾽ ὑπερβατόν)",
+   "ru": "с перескоком",
+   "en": "by leaping over (hyperbaton)",
+   "meaning_here": "joining extreme terms and skipping the middle",
+   "evidence": "LSJ s.vv. ὑπερβατός, ὑπερβατόν [checked]"
+  },
+  {
+   "greek": "κατὰ σειράν",
+   "ru": "рядом, цепью",
+   "en": "in a series",
+   "meaning_here": "one after another",
+   "evidence": "context U043"
+  },
+  {
+   "greek": "συλλογισμός, πρότασις, συμπέρασμα",
+   "ru": "силлогизм, посылка, заключение",
+   "en": "syllogism, premise, conclusion",
+   "meaning_here": "Aristotelian logic",
+   "evidence": "Arist. APr. [from memory]; LSJ s.v. ἄμεσος [checked]"
+  },
+  {
+   "greek": "ποσότης",
+   "ru": "количество",
+   "en": "quantity",
+   "meaning_here": "number of notes",
+   "evidence": "context U034, U046"
+  },
+  {
+   "greek": "ὑπεροχή",
+   "ru": "превышение",
+   "en": "excess",
+   "meaning_here": "surplus of one number over another",
+   "evidence": "context U046"
+  },
+  {
+   "greek": "κόλλαβοι",
+   "ru": "колки",
+   "en": "pegs",
+   "meaning_here": "tuning pegs of the lyre",
+   "evidence": "Nicom. Ench. 6 (Jan 248.12); LSJ s.v. κόλλοψ [checked]"
+  },
+  {
+   "greek": "ἐξάρτησις τῶν βαρῶν",
+   "ru": "подвешивание грузов",
+   "en": "hanging of weights",
+   "meaning_here": "Pythagorean experiment with weights",
+   "evidence": "LSJ s.v. ἐξάρτησις II [checked]; Theon 57 H [checked]"
+  },
+  {
+   "greek": "ἐμπνευστά",
+   "ru": "духовые",
+   "en": "wind instruments",
+   "meaning_here": "the instruments that are blown",
+   "evidence": "LSJ s.v. ἐμπνευστός; Theon 57 H [checked]"
+  },
+  {
+   "greek": "κοιλία",
+   "ru": "полость",
+   "en": "hollow (bore)",
+   "meaning_here": "inner cavity of a pipe",
+   "evidence": "Theon 57.4 H [checked]"
+  },
+  {
+   "greek": "αὐλός, τρῆμα",
+   "ru": "авлос, отверстие",
+   "en": "aulos, hole",
+   "meaning_here": "reed pipe; finger-hole",
+   "evidence": "LSJ s.v. τρῆμα [checked]"
+  },
+  {
+   "greek": "σύστασις",
+   "ru": "состав",
+   "en": "constitution",
+   "meaning_here": "how systems exist in matter (U052)",
+   "evidence": "context"
+  },
+  {
+   "greek": "ὕλη, ἄυλον",
+   "ru": "материя, нематериальное",
+   "en": "matter, immaterial",
+   "meaning_here": "the material substrate; numbers are immaterial (U028)",
+   "evidence": "context"
+  },
+  {
+   "greek": "ἀφαίρεσις",
+   "ru": "отвлечение",
+   "en": "abstraction",
+   "meaning_here": "conceiving without matter",
+   "evidence": "LSJ s.v. ἀφαίρεσις II [checked]"
+  },
+  {
+   "greek": "γένος",
+   "ru": "род",
+   "en": "genus",
+   "meaning_here": "genus of the tetrachord: diatonic, chromatic, harmonic",
+   "evidence": "Cleonid. 1, 3 [checked]; Theon 54-56 H [checked]"
+  },
+  {
+   "greek": "διάτονον, χρωματικόν, ἁρμονικόν (γένος)",
+   "ru": "диатонический, хроматический, гармонический (род)",
+   "en": "diatonic, chromatic, harmonic (genus)",
+   "meaning_here": "\"harmonic\" = the classical enharmonic",
+   "evidence": "Theon 54-56 H (diagram: ἁρμονικόν) [checked]"
+  },
+  {
+   "greek": "παρωνύμως, παρωνυμία",
+   "ru": "производно, производное название",
+   "en": "paronymously, paronymy",
+   "meaning_here": "name derived by slight change from another word",
+   "evidence": "LSJ s.v. παρώνυμος [checked]"
+  },
+  {
+   "greek": "τονιαῖος",
+   "ru": "тоновый (в один тон)",
+   "en": "of one tone",
+   "meaning_here": "an interval of a single tone",
+   "evidence": "LSJ s.v. τονιαῖος [checked]"
+  },
+  {
+   "greek": "παθητικός",
+   "ru": "страстный",
+   "en": "emotional",
+   "meaning_here": "of the chromatic genus",
+   "evidence": "LSJ s.v. παθητικός [checked]; Theon 55.6 H"
+  },
+  {
+   "greek": "γοερός",
+   "ru": "скорбный",
+   "en": "mournful",
+   "meaning_here": "of the chromatic genus",
+   "evidence": "LSJ s.v. γοερός [checked]; Theon 55.6 H"
+  },
+  {
+   "greek": "συντακτικός",
+   "ru": "слагающий",
+   "en": "arranging",
+   "meaning_here": "putting together (U062)",
+   "evidence": "LSJ s.v. συντακτικός [checked]"
+  },
+  {
+   "greek": "δυσμελῳδικός",
+   "ru": "трудный для мелодического исполнения",
+   "en": "hard to put into melody",
+   "meaning_here": "of the harmonic genus",
+   "evidence": "Theon 56.1 H (δυσμελῳδητός) [checked]"
+  },
+  {
+   "greek": "τριβή, συνήθεια",
+   "ru": "упражнённость, привычка",
+   "en": "practice, familiarity",
+   "meaning_here": "what the harmonic genus demands",
+   "evidence": "LSJ s.v. τριβή [checked]"
+  },
+  {
+   "greek": "γενναῖος, φυσικός",
+   "ru": "благородный, естественный",
+   "en": "noble, natural",
+   "meaning_here": "of the diatonic genus",
+   "evidence": "LSJ s.v. γενναῖος [checked]; Theon 56.3-4 H"
+  },
+  {
+   "greek": "λύδιον, φρύγιον, δώριον (μέλος)",
+   "ru": "лидийская, фригийская, дорийская (мелодия)",
+   "en": "Lydian, Phrygian, Dorian (melody)",
+   "meaning_here": "the three modes",
+   "evidence": "Theon 48.12-13 H [checked]"
+  },
+  {
+   "greek": "παιήων, ὑμέναιος, ἐξόδιος",
+   "ru": "пеан, гименей, эксодий",
+   "en": "paean, hymenaeus, exodios",
+   "meaning_here": "kinds of song",
+   "evidence": "LSJ s.vv. ὑμέναιος, ἐξόδιος [checked]"
+  },
+  {
+   "greek": "μεταφορά, μετάβασις",
+   "ru": "перенесение, переход",
+   "en": "shifting, transition",
+   "meaning_here": "transference of intervals; passing from note to note",
+   "evidence": "LSJ s.vv. [checked]"
+  },
+  {
+   "greek": "διαμονή, ῥοή",
+   "ru": "задержка, течение",
+   "en": "lingering, flow",
+   "meaning_here": "holding vs running passages",
+   "evidence": "LSJ s.vv. [checked]"
+  },
+  {
+   "greek": "ἐπαφή, κρούμα, μεταχείρισις",
+   "ru": "прикосновение, удар, приём",
+   "en": "touch, stroke, handling",
+   "meaning_here": "technique of the player",
+   "evidence": "LSJ s.vv. ἐπαφή, μεταχείρισις [checked]"
+  }
+ ],
+ "B": [
+  {
+   "greek": "μουσική",
+   "ru": "музыка",
+   "en": "music",
+   "meaning_here": "Cosmic order and, in the narrower discussion, audible music.",
+   "evidence": "musical terminology [from memory]"
+  },
+  {
+   "greek": "συμμετρία",
+   "ru": "соразмерность",
+   "en": "commensurability",
+   "meaning_here": "Measured relation between parts.",
+   "evidence": "musical terminology [from memory]"
+  },
+  {
+   "greek": "ἀναλογία",
+   "ru": "пропорция",
+   "en": "proportion",
+   "meaning_here": "A proportional relation.",
+   "evidence": "musical terminology [from memory]"
+  },
+  {
+   "greek": "ἁρμονία",
+   "ru": "гармония",
+   "en": "harmony",
+   "meaning_here": "An ordered combination; at first the order of the cosmos, later an arrangement of systems.",
+   "evidence": "musical terminology [from memory]"
+  },
+  {
+   "greek": "φθόγγος",
+   "ru": "звук",
+   "en": "note",
+   "meaning_here": "A musically usable sound at a definite pitch.",
+   "evidence": "Cleonides, Introductio harmonica 1, [checked]"
+  },
+  {
+   "greek": "τάσις",
+   "ru": "высота",
+   "en": "pitch",
+   "meaning_here": "The pitch on which the voice rests.",
+   "evidence": "Cleonides, Introductio harmonica 1, [checked]"
+  },
+  {
+   "greek": "ἐναρμόνιος",
+   "ru": "пригодный для гармонии",
+   "en": "suitable for harmony",
+   "meaning_here": "Capable of being combined with another musical note, not necessarily the enharmonic genus.",
+   "evidence": "musical terminology [from memory]"
+  },
+  {
+   "greek": "διάστημα",
+   "ru": "интервал",
+   "en": "interval",
+   "meaning_here": "The relationship or distance between two pitches.",
+   "evidence": "Cleonides, Introductio harmonica 1, [checked]"
+  },
+  {
+   "greek": "σύστημα",
+   "ru": "система",
+   "en": "system",
+   "meaning_here": "A span or arrangement of intervals.",
+   "evidence": "Cleonides, Introductio harmonica 1, [checked]"
+  },
+  {
+   "greek": "προσλαμβανόμενος",
+   "ru": "просламбаномен",
+   "en": "proslambanomenos",
+   "meaning_here": "The added lowest note.",
+   "evidence": "about.md §5 [checked]; musical terminology [from memory]"
+  },
+  {
+   "greek": "ὑπάτη",
+   "ru": "гипата",
+   "en": "hypate",
+   "meaning_here": "The lowest note of a named tetrachord.",
+   "evidence": "about.md §5 [checked]; musical terminology [from memory]"
+  },
+  {
+   "greek": "παρυπάτη",
+   "ru": "парипата",
+   "en": "parhypate",
+   "meaning_here": "The note next to hypate.",
+   "evidence": "about.md §5 [checked]; musical terminology [from memory]"
+  },
+  {
+   "greek": "διάτονος",
+   "ru": "диатонный",
+   "en": "diatonic",
+   "meaning_here": "A pitch named for its place in a diatonic arrangement.",
+   "evidence": "musical terminology [from memory]"
+  },
+  {
+   "greek": "μέση",
+   "ru": "меса",
+   "en": "mese",
+   "meaning_here": "The central note.",
+   "evidence": "about.md §5 [checked]; musical terminology [from memory]"
+  },
+  {
+   "greek": "παράμεσος",
+   "ru": "парамеса",
+   "en": "paramese",
+   "meaning_here": "The note adjacent to mese above it.",
+   "evidence": "about.md §5 [checked]; musical terminology [from memory]"
+  },
+  {
+   "greek": "τρίτη",
+   "ru": "трита",
+   "en": "trite",
+   "meaning_here": "The note named third in the upper tetrachords.",
+   "evidence": "about.md §5 [checked]; musical terminology [from memory]"
+  },
+  {
+   "greek": "νήτη",
+   "ru": "нета",
+   "en": "nete",
+   "meaning_here": "The highest note in a named tetrachord.",
+   "evidence": "about.md §5 [checked]; musical terminology [from memory]"
+  },
+  {
+   "greek": "διεζευγμένη",
+   "ru": "отделённых",
+   "en": "of the disjunct",
+   "meaning_here": "Refers to the disjunct tetrachord.",
+   "evidence": "about.md §5 [checked]; musical terminology [from memory]"
+  },
+  {
+   "greek": "ὑπερβολαίων",
+   "ru": "высших",
+   "en": "of the hyperbolaion",
+   "meaning_here": "The highest tetrachord in the Greater Perfect System.",
+   "evidence": "about.md §5 [checked]; musical terminology [from memory]"
+  },
+  {
+   "greek": "δίεσις",
+   "ru": "диеса",
+   "en": "diesis",
+   "meaning_here": "The smallest interval in this account.",
+   "evidence": "about.md §5 [checked]; musical terminology [from memory]"
+  },
+  {
+   "greek": "ἡμιτόνιον",
+   "ru": "полутон",
+   "en": "semitone",
+   "meaning_here": "An interval twice the diesis and half the tone in the author’s model.",
+   "evidence": "musical terminology [from memory]"
+  },
+  {
+   "greek": "τόνος",
+   "ru": "тон",
+   "en": "tone",
+   "meaning_here": "An interval in the 9:8 ratio.",
+   "evidence": "musical terminology [from memory]"
+  },
+  {
+   "greek": "ἐπόγδοος",
+   "ru": "сверхосьмой",
+   "en": "sesquioctave",
+   "meaning_here": "A ratio of a number to that number plus its eighth, here 9:8.",
+   "evidence": "musical terminology [from memory]"
+  },
+  {
+   "greek": "μονάς",
+   "ru": "единица",
+   "en": "unit",
+   "meaning_here": "An indivisible numerical unit, as contrasted with continuous magnitude.",
+   "evidence": "musical terminology [from memory]"
+  },
+  {
+   "greek": "ἡμιεπόγδοος",
+   "ru": "половинный сверхосьмой",
+   "en": "half-sesquioctave",
+   "meaning_here": "The alleged half of the sesquioctave interval.",
+   "evidence": "musical terminology [from memory]"
+  },
+  {
+   "greek": "ἀσύνθετον διάστημα",
+   "ru": "несоставной интервал",
+   "en": "incomposite interval",
+   "meaning_here": "A span sounded as one leap, although equivalent in magnitude to several intervals.",
+   "evidence": "greek-text.json, U026–U027 [checked]; Aristoxenus, Elementa harmonica I [from memory]"
+  },
+  {
+   "greek": "σύμφθαρσις",
+   "ru": "слияние",
+   "en": "coalescence",
+   "meaning_here": "The merging of potential component intervals into one sounding span.",
+   "evidence": "greek-text.json, U027–U028 [checked]"
+  },
+  {
+   "greek": "διὰ τεσσάρων",
+   "ru": "кварта",
+   "en": "fourth",
+   "meaning_here": "A consonant span comprising four notes.",
+   "evidence": "greek-text.json, U033–U034 [checked]"
+  },
+  {
+   "greek": "διὰ πέντε",
+   "ru": "квинта",
+   "en": "fifth",
+   "meaning_here": "A consonant span comprising five notes.",
+   "evidence": "greek-text.json, U033–U034 [checked]"
+  },
+  {
+   "greek": "διὰ πασῶν",
+   "ru": "октава",
+   "en": "octave",
+   "meaning_here": "The eight-note consonant span.",
+   "evidence": "greek-text.json, U033–U035 [checked]"
+  },
+  {
+   "greek": "παράφωνον",
+   "ru": "парафония",
+   "en": "paraphony",
+   "meaning_here": "A class of consonance exemplified by the fourth and fifth, defined here in terms of successive sound.",
+   "evidence": "greek-text.json, U036–U037 [checked]"
+  },
+  {
+   "greek": "ἀντίφωνον",
+   "ru": "антифония",
+   "en": "antiphony",
+   "meaning_here": "A class of consonance exemplified by the octave and larger spans, described here in terms of simultaneous sound.",
+   "evidence": "greek-text.json, U036–U037 [checked]"
+  },
+  {
+   "greek": "τριδίεσις",
+   "ru": "тридиеса",
+   "en": "tridiesis",
+   "meaning_here": "An interval with the magnitude of three dieses.",
+   "evidence": "greek-text.json, U026–U027 [checked]"
+  },
+  {
+   "greek": "τριημιτόνιον",
+   "ru": "тригемитон",
+   "en": "trihemitone",
+   "meaning_here": "An interval with the magnitude of three semitones.",
+   "evidence": "greek-text.json, U026–U027 [checked]"
+  },
+  {
+   "greek": "διτόνιον",
+   "ru": "дитон",
+   "en": "ditone",
+   "meaning_here": "An interval with the magnitude of two tones.",
+   "evidence": "greek-text.json, U026 [checked]"
+  },
+  {
+   "greek": "τριτόνιον",
+   "ru": "тритон",
+   "en": "tritone",
+   "meaning_here": "An interval with the magnitude of three tones.",
+   "evidence": "greek-text.json, U026 [checked]"
+  },
+  {
+   "greek": "ἄμεσον / ἔμμεσον",
+   "ru": "непосредственный / опосредованный",
+   "en": "immediate / mediated",
+   "meaning_here": "Adjacent-note interval versus interval containing intermediate notes.",
+   "evidence": "greek-text.json, U042–U044 [checked]"
+  },
+  {
+   "greek": "διπλασιεπιμερής",
+   "ru": "двойное с долями",
+   "en": "double plus parts",
+   "meaning_here": "A ratio greater than 2:1 by a multiple fraction, illustrated by 16:6.",
+   "evidence": "greek-text.json, U040–U041 [checked]"
+  },
+  {
+   "greek": "γένος διάτονον",
+   "ru": "диатонический род",
+   "en": "diatonic genus",
+   "meaning_here": "A tetrachordal genus with two tones and a semitone in the author’s schematic division",
+   "evidence": "Nicomachus, Harmonicum enchiridion 12 [from memory]"
+  },
+  {
+   "greek": "γένος χρωματικόν",
+   "ru": "хроматический род",
+   "en": "chromatic genus",
+   "meaning_here": "A genus characterized here by two semitones and a trihemitone",
+   "evidence": "Nicomachus, Harmonicum enchiridion 12 [from memory]"
+  },
+  {
+   "greek": "γένος ἁρμονικόν",
+   "ru": "гармонический род",
+   "en": "harmonic genus",
+   "meaning_here": "The genus normally called enharmonic",
+   "evidence": "Nicomachus, Harmonicum enchiridion 12 [from memory]"
+  },
+  {
+   "greek": "ἐκ συμφθάρσεως",
+   "ru": "из слияния",
+   "en": "through coalescence",
+   "meaning_here": "Said of an interval arising from the combination of smaller units without an intervening sounded note",
+   "evidence": "apparatus, Bas. 32.10 [checked]"
+  },
+  {
+   "greek": "γένος",
+   "ru": "род",
+   "en": "genus",
+   "meaning_here": "Mode of tetrachordal division",
+   "evidence": "Greek text, U053–U060 [checked]"
+  },
+  {
+   "greek": "συμφωνία",
+   "ru": "консонанс",
+   "en": "consonance",
+   "meaning_here": "An interval described as concordant",
+   "evidence": "about.md §5 [checked]"
+  },
+  {
+   "greek": "τετράχορδον",
+   "ru": "тетрахорд",
+   "en": "tetrachord",
+   "meaning_here": "Four-note system spanning a fourth",
+   "evidence": "Greek text, U051 [checked]"
+  },
+  {
+   "greek": "πεντάχορδον",
+   "ru": "пентахорд",
+   "en": "pentachord",
+   "meaning_here": "Five-note system spanning a fifth",
+   "evidence": "Greek text, U051 [checked]"
+  },
+  {
+   "greek": "ὀκτάχορδον",
+   "ru": "октахорд",
+   "en": "octachord",
+   "meaning_here": "Eight-note system spanning an octave",
+   "evidence": "Greek text, U051 [checked]"
+  },
+  {
+   "greek": "ἑκκαιδεκάχορδον",
+   "ru": "шестнадцатиструнная система",
+   "en": "sixteen-string system",
+   "meaning_here": "The double-octave system counted with its junction twice",
+   "evidence": "Greek text, U015–U016 and U051 [checked]"
+  },
+  {
+   "greek": "μέλος",
+   "ru": "мелодия; напев",
+   "en": "melody",
+   "meaning_here": "Melodic span or tune, according to context",
+   "evidence": "Greek text, U027 and U065 [checked]"
+  },
+  {
+   "greek": "ἐπίτριτος",
+   "ru": "сверхтретий",
+   "en": "sesquitertian",
+   "meaning_here": "A ratio of 4:3",
+   "evidence": "Greek text, U040–U041 [checked]"
+  },
+  {
+   "greek": "ἡμιόλιος",
+   "ru": "полуторный",
+   "en": "sesquialter",
+   "meaning_here": "A ratio of 3:2",
+   "evidence": "Greek text, U040–U041 [checked]"
+  }
+ ],
+ "C": [
+  {
+   "greek": "φθόγγος",
+   "ru": "звук",
+   "en": "note",
+   "meaning_here": "The musical note: the harmonically adjusted tension of a voice (U008).",
+   "evidence": "Cleonid. Eisag. 1 [from memory]"
+  },
+  {
+   "greek": "διάστημα",
+   "ru": "интервал",
+   "en": "interval",
+   "meaning_here": "Interval of notes (U009).",
+   "evidence": "Cleonid. Eisag. 2 [from memory]"
+  },
+  {
+   "greek": "σύστημα",
+   "ru": "система",
+   "en": "system",
+   "meaning_here": "Compound of intervals (tetrachord etc.) (U010, U051).",
+   "evidence": "Cleonid. Eisag. 8 [from memory]"
+  },
+  {
+   "greek": "ἁρμονία",
+   "ru": "гармония",
+   "en": "harmonia",
+   "meaning_here": "Ordering of systems (U011); also the cosmic harmony (U004–U005) and the harmonising art (U053).",
+   "evidence": "general [from memory]"
+  },
+  {
+   "greek": "προσλαμβανόμενος",
+   "ru": "просламбаномен",
+   "en": "proslambanomenos",
+   "meaning_here": "The lowest note of the system (U014), the point of reference for the consonant ratios (U042).",
+   "evidence": "Nicom. Ench. 5; Cleonid. Eisag. 2 [from memory]"
+  },
+  {
+   "greek": "ὑπάτη",
+   "ru": "гипата",
+   "en": "hypate",
+   "meaning_here": "The lowest note of a tetrachord (U014).",
+   "evidence": "about.md §5 [checked]"
+  },
+  {
+   "greek": "παρυπάτη",
+   "ru": "парипата",
+   "en": "parhypate",
+   "meaning_here": "The second note of a tetrachord (U014).",
+   "evidence": "about.md §5 [checked]"
+  },
+  {
+   "greek": "διάτονος (ὑπάτη / μέσων / διεζευγμένη / ὑπερβολαίων)",
+   "ru": "диатон (гипата-диатон; диатон средних / отделённых / высших)",
+   "en": "diatonos (diatonic hypate; diatonos of the mesai / of the diezeugmenai / of the hyperbolai)",
+   "meaning_here": "The third note of a tetrachord, classically λιχανός; here called διάτονος (U014).",
+   "evidence": "Nicom. Ench. 5; Cleonid. Eisag. 11 (λίχανος) [from memory]"
+  },
+  {
+   "greek": "μέση μόνως",
+   "ru": "меса как таковая",
+   "en": "mese simply",
+   "meaning_here": "The middle note of the system (U014).",
+   "evidence": "Nicom. Ench. 5 [from memory]"
+  },
+  {
+   "greek": "παράμεσος",
+   "ru": "парамес",
+   "en": "paramese",
+   "meaning_here": "The note next above mese (U014).",
+   "evidence": "Nicom. Ench. 5 [from memory]"
+  },
+  {
+   "greek": "τρίτη",
+   "ru": "трита",
+   "en": "trite",
+   "meaning_here": "The third note from the top of a tetrachord (U014).",
+   "evidence": "about.md §5 [checked]"
+  },
+  {
+   "greek": "νήτη",
+   "ru": "нета",
+   "en": "nete",
+   "meaning_here": "The highest note of a tetrachord (U014).",
+   "evidence": "about.md §5 [checked]"
+  },
+  {
+   "greek": "διεζευγμέναι / ὑπερβολαῖοι",
+   "ru": "отделённые / высшие",
+   "en": "diezeugmenai / hyperbolai",
+   "meaning_here": "The tetrachords 'of the disjoined' and 'of the highest' notes (U014).",
+   "evidence": "about.md §5 [checked]"
+  },
+  {
+   "greek": "δίεσις",
+   "ru": "диеса",
+   "en": "diesis",
+   "meaning_here": "The quarter-tone, smallest interval (U018).",
+   "evidence": "about.md §5 [checked]"
+  },
+  {
+   "greek": "ἡμιτόνιον",
+   "ru": "полутон",
+   "en": "semitone",
+   "meaning_here": "The semitone, twice the diesis (U018).",
+   "evidence": "general [from memory]"
+  },
+  {
+   "greek": "τόνος",
+   "ru": "тон",
+   "en": "tone",
+   "meaning_here": "The tone, 9:8, twice the semitone (U018).",
+   "evidence": "general [from memory]"
+  },
+  {
+   "greek": "τριδίεσις / τριημιτόνιον / διτόνιον / τριτόνιον",
+   "ru": "тридиеса / триполутоние / дитон / тритон",
+   "en": "tridiesis / trihemitone / ditone / tritone",
+   "meaning_here": "Incomposite intervals of three quarter-tones, three semitones, two tones, three tones (U026).",
+   "evidence": "Aristox. Harm. 1.21, 27 [from memory]"
+  },
+  {
+   "greek": "ἀσύνθετον (διάστημα)",
+   "ru": "несоставной (интервал)",
+   "en": "incomposite (interval)",
+   "meaning_here": "An interval sung as one, by compression of micro-steps (U026–U027).",
+   "evidence": "about.md §5 [checked]; Aristox. Harm. 1.21 [from memory]"
+  },
+  {
+   "greek": "σύμφθαρσις",
+   "ru": "сжатие",
+   "en": "compression",
+   "meaning_here": "The compression of several micro-intervals into one continuous movement (U027–U028, U042, U058, U060); the edition's conjecture for P's σύμφρασις.",
+   "evidence": "apparatus [checked]; Aristoxenian πύκνωμα doctrine [from memory]"
+  },
+  {
+   "greek": "ἄμεσα / ἔμμεσα διαστήματα",
+   "ru": "непосредственные / мелодические (имеющие промежутки) интервалы",
+   "en": "immediate / mediate intervals",
+   "meaning_here": "Intervals bounded by consecutive notes vs intervals containing notes between their bounds (U034, U042–U044).",
+   "evidence": "Cleonid. Eisag. 3 [from memory]"
+  },
+  {
+   "greek": "διὰ τεσσάρων / διὰ πέντε / διὰ πασῶν",
+   "ru": "через четыре / через пять / через все",
+   "en": "through four / through five / through all",
+   "meaning_here": "The fourth (4:3), the fifth (3:2), the octave (2:1) (U033–U040).",
+   "evidence": "about.md §5 [checked]"
+  },
+  {
+   "greek": "δὶς διὰ τεσσάρων / δὶς διὰ πέντε / δὶς διὰ πασῶν",
+   "ru": "дважды-через-четыре / дважды-через-пять / дважды-через-все",
+   "en": "twice-through-four / twice-through-five / twice-through-all",
+   "meaning_here": "Octave-plus-fourth (8:3), octave-plus-fifth (3:1), double octave (4:1) (U035–U041).",
+   "evidence": "U035–U041 [checked]"
+  },
+  {
+   "greek": "συμφωνία / συμφωνεῖν",
+   "ru": "консонанс / консонировать",
+   "en": "consonance / to be consonant",
+   "meaning_here": "Consonance of intervals (U036–U038).",
+   "evidence": "about.md §5 [checked]"
+  },
+  {
+   "greek": "παράφωνον / ἀντίφωνον",
+   "ru": "парафон / антифон",
+   "en": "paraphone / antiphone",
+   "meaning_here": "Consonance of successive notes (fourth, fifth) / of simultaneous notes an octave apart (U036–U037).",
+   "evidence": "Cleonid. Eisag. 12 [from memory]"
+  },
+  {
+   "greek": "λόγος",
+   "ru": "отношение",
+   "en": "ratio",
+   "meaning_here": "Numerical ratio of an interval (U040–U049).",
+   "evidence": "Nicom. Ar. 1.17–23 [from memory]"
+  },
+  {
+   "greek": "ἐπόγδοος",
+   "ru": "эпогдоон",
+   "en": "epogdoos",
+   "meaning_here": "The ratio 9:8, the tone (U018, U020, U025).",
+   "evidence": "Nicom. Ar. 1.19 [from memory]"
+  },
+  {
+   "greek": "ἡμιεπόγδοον",
+   "ru": "полуэпогдоон",
+   "en": "half-epogdoos",
+   "meaning_here": "The ratio 17:16 (8½:8), the arithmetically halved tone = semitone (U020).",
+   "evidence": "Boethius Inst. mus. 2.28 ff. (the 17:16 division) [from memory]"
+  },
+  {
+   "greek": "ἐπίτριτος / ἡμιόλιος / διπλάσιος / τριπλάσιος / τετραπλάσιος",
+   "ru": "эпитрит / гемиолий / двойное / тройное / четверное",
+   "en": "epitritic / hemiolic / double / triple / quadruple",
+   "meaning_here": "The ratios 4:3, 3:2, 2:1, 3:1, 4:1 (U040–U041).",
+   "evidence": "Nicom. Ar. 1.17–23 [from memory]"
+  },
+  {
+   "greek": "διπλασιεπιμερής",
+   "ru": "двойно-надчастное",
+   "en": "double-superpartient",
+   "meaning_here": "The ratio 8:3 (2 + 2/3), the octave-plus-fourth (U040–U041).",
+   "evidence": "Nicom. Ar. 1.23 [from memory]"
+  },
+  {
+   "greek": "πενταπλάσιος / διπλασιημιόλιος / ἐπιδιμερής / ἐπιτέταρτος",
+   "ru": "пятикратное / двойно-полуторное / над-двучастное / надчетвертичное",
+   "en": "fivefold / two-and-a-half-fold / super-bipartient / super-quartient",
+   "meaning_here": "The ratios 5:1, 5:2, 5:3, 5:4 of the ordinal note-counts (U046).",
+   "evidence": "Nicom. Ar. 1.17–23 [from memory]"
+  },
+  {
+   "greek": "τετράχορδον / πεντάχορδον / ὀκτάχορδον",
+   "ru": "тетрахорд / пентахорд / октахорд",
+   "en": "tetrachord / pentachord / octachord",
+   "meaning_here": "Systems of four, five, eight notes spanning the fourth, fifth, octave (U051).",
+   "evidence": "Cleonid. Eisag. 8 [from memory]"
+  },
+  {
+   "greek": "πεντεκαιδεκάχορδον / ἑκκαιδεκάχορδον",
+   "ru": "пятнадцатиструнная / шестнадцатиструнная [система]",
+   "en": "fifteen-stringed / sixteen-stringed [system]",
+   "meaning_here": "The double-octave system of fifteen sounding strings counting sixteen notes (U015, U051).",
+   "evidence": "U015 [checked]"
+  },
+  {
+   "greek": "γένος (διάτονον / χρωματικόν / ἁρμονικόν)",
+   "ru": "род (диатонический / хроматический / энармонический)",
+   "en": "genus (diatonic / chromatic / enharmonic)",
+   "meaning_here": "The three genera of tetrachord-division (U053–U060); the text's ἁρμονικόν = classical ἐναρμόνιον.",
+   "evidence": "Aristox. Harm. 1.21–28 [from memory]"
+  },
+  {
+   "greek": "σύνθετον διάστημα",
+   "ru": "составной интервал",
+   "en": "composite interval",
+   "meaning_here": "Interval divisible into smaller ones (opposite of ἀσύνθετον; U027 context).",
+   "evidence": "about.md §5 [checked]"
+  },
+  {
+   "greek": "χορδή / νευρά",
+   "ru": "струна",
+   "en": "string",
+   "meaning_here": "String of the instrument (U020, U034, U045, U049–U050).",
+   "evidence": "general [from memory]"
+  },
+  {
+   "greek": "κόλλαβοι",
+   "ru": "колки",
+   "en": "pegs",
+   "meaning_here": "Tuning pegs of the lyre, by whose turning the string is tensed (U049).",
+   "evidence": "Porphyry and the theorists on the lyre [from memory]"
+  },
+  {
+   "greek": "βάρη (ἐξάρτησις τῶν βαρῶν)",
+   "ru": "грузы (подвешивание грузов)",
+   "en": "weights (suspension of weights)",
+   "meaning_here": "Weights suspended from strings in the acoustic experiment (U049–U050).",
+   "evidence": "Nicom. Ench. 6; Boethius Inst. mus. 1.10–11 [from memory]"
+  },
+  {
+   "greek": "ἐμπνευστά",
+   "ru": "духовые [инструменты]",
+   "en": "wind-blown [instruments]",
+   "meaning_here": "Wind instruments, i.e. auloi (U049–U050).",
+   "evidence": "general [from memory]"
+  },
+  {
+   "greek": "ἐπίτασις / ἄνεσις",
+   "ru": "напряжение / ослабление",
+   "en": "tension / relaxation",
+   "meaning_here": "Raising / lowering of pitch (U037, U045, U049–U050).",
+   "evidence": "Aristox. Harm. 1.8–10 [from memory]"
+  },
+  {
+   "greek": "βαρύς / ὀξύς",
+   "ru": "низкий / высокий",
+   "en": "low / high",
+   "meaning_here": "Low and high pitch (U014, U037, U045, U050).",
+   "evidence": "general [from memory]"
+  },
+  {
+   "greek": "ἠχή",
+   "ru": "звучание",
+   "en": "sound",
+   "meaning_here": "The sounding of the voice/string, whose tension carries the ratio (U034, U045).",
+   "evidence": "general [from memory]"
+  },
+  {
+   "greek": "καθ' ὑπερβατόν",
+   "ru": "путём пропуска",
+   "en": "by way of skipping",
+   "meaning_here": "Referring the ratio across the middle terms to the extremes (U043–U044).",
+   "evidence": "logical usage [from memory]"
+  },
+  {
+   "greek": "μελῳδία / μέλος",
+   "ru": "мелодия / напев",
+   "en": "melody / tune",
+   "meaning_here": "Melody and the individual melodious utterance (passim).",
+   "evidence": "general [from memory]"
+  },
+  {
+   "greek": "μεταβάσεις / διαμοναί / ῥοαί",
+   "ru": "переходы / остановки / течения",
+   "en": "transitions / stays / flows",
+   "meaning_here": "Kinds of melodic movement (U066).",
+   "evidence": "Aristox. Harm. 2.38–40; Aristid. Quint. 1.12 [from memory]"
+  },
+  {
+   "greek": "ἐπαφαί / κρούματα",
+   "ru": "касания / удары",
+   "en": "touches / plucks",
+   "meaning_here": "Ways of setting the strings in motion (U066).",
+   "evidence": "Aristox. Harm. 2.38–39 [from memory]"
+  },
+  {
+   "greek": "παθητικός / γοερός",
+   "ru": "патетический / жалобный",
+   "en": "emotional / plaintive",
+   "meaning_here": "Ethos of the chromatic genus (U059).",
+   "evidence": "Aristid. Quint. 2 [from memory]"
+  },
+  {
+   "greek": "δυσμελῳδικός",
+   "ru": "трудный для мелопении",
+   "en": "hard to melodise",
+   "meaning_here": "Said of the enharmonic genus (U063).",
+   "evidence": "Aristox. Harm. 1.23 [from memory]"
+  },
+  {
+   "greek": "λύδιον / φρύγιον / δώριον (μέλος)",
+   "ru": "лидийский / фригийский / дорийский (напев)",
+   "en": "Lydian / Phrygian / Dorian (melody)",
+   "meaning_here": "The harmoniai or tropoi (U065).",
+   "evidence": "general [from memory]"
+  },
+  {
+   "greek": "παιήων / ὑμέναιος / ἐξόδιος",
+   "ru": "пеан / гименей / эксодий",
+   "en": "paean / hymenaios / exodios",
+   "meaning_here": "Kinds of song (U065).",
+   "evidence": "Plat. Leg. 700a–b; Pollux Onom. 4 [from memory]"
+  },
+  {
+   "greek": "συμμετρία / ἀναλογία",
+   "ru": "соразмерность / соотношение",
+   "en": "commensurability / proportion",
+   "meaning_here": "The principles by which all things exist (U002–U004).",
+   "evidence": "general [from memory]"
+  },
+  {
+   "greek": "αὐτοσυμμετρία",
+   "ru": "самосоразмерность",
+   "en": "self-commensurability",
+   "meaning_here": "The commensurability of the All with itself (U004).",
+   "evidence": "LSJ s.v. [from memory]"
+  }
+ ],
+ "D": [
+  {
+   "greek": "μουσική",
+   "ru": "музыка",
+   "en": "music",
+   "meaning_here": "The mathematical science of music, initially extended to cosmic order, then restricted to auditory music.",
+   "evidence": "U001–U007 [checked]; Plato, Timaeus 35b–36b [checked]."
+  },
+  {
+   "greek": "συμμετρία",
+   "ru": "соразмерность",
+   "en": "commensurability",
+   "meaning_here": "Proportionate correspondence or due measure in the cosmological proem, not solely a test of rational measurability.",
+   "evidence": "U002–U004 [checked]; LSJ s.v. συμμετρία [from memory]."
+  },
+  {
+   "greek": "ἀναλογία",
+   "ru": "пропорция",
+   "en": "proportion",
+   "meaning_here": "Correspondence of ratios or proportional order; broader in the proem than a formal four-term equation.",
+   "evidence": "U002–U005, U037 [checked]; Plato, Timaeus 35b–36b [checked]."
+  },
+  {
+   "greek": "αὐτοσυμμετρία",
+   "ru": "сама соразмерность",
+   "en": "commensurability itself",
+   "meaning_here": "A philosophically intensified abstract quality; the possible self-commensurability sense remains open.",
+   "evidence": "U004 [checked]; philosophical αὐτο- compounds [from memory]. No independent entry for this rare compound was verified; no gloss derived from this text was used."
+  },
+  {
+   "greek": "ἁρμονία",
+   "ru": "гармония",
+   "en": "harmony",
+   "meaning_here": "Fitting together: cosmic order in the proem, and the ordering of systems into melodic genera in U011 and U053. It is not restricted to modern chordal harmony.",
+   "evidence": "U004–U012, U053–U060 [checked]; Aristoxenus, Elementa harmonica I.8–10 [checked]."
+  },
+  {
+   "greek": "φθόγγος",
+   "ru": "звук",
+   "en": "note",
+   "meaning_here": "A musically usable determinate pitch, distinguished from sound in general and noise.",
+   "evidence": "Cleonides, Introduction to Harmonics 1–2, pp.179–181, ed. K. von Jan, Musici scriptores Graeci (1895) [checked]."
+  },
+  {
+   "greek": "φωνή",
+   "ru": "звучание",
+   "en": "sound",
+   "meaning_here": "Sound or voice considered as the bearer of a determinate pitch; no exclusively vocal instrument is asserted.",
+   "evidence": "Cleonides, Introduction to Harmonics 1–2, pp.179–181, ed. K. von Jan, Musici scriptores Graeci (1895) [checked]. U008 [checked]."
+  },
+  {
+   "greek": "τάσις",
+   "ru": "высота; натяжение",
+   "en": "pitch; tightening or tension",
+   "meaning_here": "Pitch in the definition U008; tightening/tension in U037 and the physical discussion U049–U050. These contextual senses are explicitly distinguished.",
+   "evidence": "LSJ s.v. τάσις I.3, Logeion [checked]. U008, U037, U049 [checked]."
+  },
+  {
+   "greek": "ἀδιάστατος",
+   "ru": "не имеющий интервальной протяжённости",
+   "en": "without intervallic extension",
+   "meaning_here": "Extensionless in pitch, as a geometric point is extensionless; not a statement of zero duration.",
+   "evidence": "LSJ s.v. ἀδιάστατος II, Logeion [checked]."
+  },
+  {
+   "greek": "ἐναρμόνιος",
+   "ru": "пригодный для гармонии",
+   "en": "fitted for harmony",
+   "meaning_here": "Broad suitability for musical combination at U008–U013, distinct from the later genus called harmonic.",
+   "evidence": "LSJ s.v. ἐναρμόνιος I–II, Logeion [checked]."
+  },
+  {
+   "greek": "διάστημα",
+   "ru": "интервал",
+   "en": "interval",
+   "meaning_here": "Relation of pitches abstracted from material realization; can be composite or incomposite.",
+   "evidence": "Cleonides, Introduction to Harmonics 1, p.180, ed. K. von Jan, Musici scriptores Graeci (1895) [checked]. U009, U052 [checked]."
+  },
+  {
+   "greek": "σύστημα",
+   "ru": "система",
+   "en": "system",
+   "meaning_here": "A collection or material configuration encompassing intervals, distinguished from an interval by abstraction.",
+   "evidence": "Cleonides, Introduction to Harmonics 1, p.180, ed. K. von Jan, Musici scriptores Graeci (1895) [checked]. U010, U051–U052 [checked]."
+  },
+  {
+   "greek": "περιοχή",
+   "ru": "совокупность",
+   "en": "collection",
+   "meaning_here": "An encompassing collection of intervals; not an independently named scale species.",
+   "evidence": "definition U010 [checked]; LSJ s.v. περιοχή [from memory]."
+  },
+  {
+   "greek": "σύνταξις; συντάττειν",
+   "ru": "упорядочение; упорядочивать",
+   "en": "ordering; to order",
+   "meaning_here": "The arrangement of systems by harmony; the verb retains the same organizing sense.",
+   "evidence": "U011, U053, U061–U062 [checked]; LSJ s.vv. σύνταξις, συντάσσω [from memory]."
+  },
+  {
+   "greek": "στιγμή",
+   "ru": "точка",
+   "en": "point",
+   "meaning_here": "Geometrical analogue for a pitch without intervallic extension.",
+   "evidence": "U012 [checked]; Euclid, Elements I, definition 1 [from memory]."
+  },
+  {
+   "greek": "γεωμετρία",
+   "ru": "геометрия",
+   "en": "geometry",
+   "meaning_here": "Study and construction of continuous magnitudes, contrasted with arithmetic of whole units.",
+   "evidence": "U012, U019–U025, U029–U031 [checked]."
+  },
+  {
+   "greek": "ἀπηχής",
+   "ru": "неблагозвучный",
+   "en": "ill-sounding",
+   "meaning_here": "Unsuitable for harmonic combination, not merely a legitimate dissonant interval.",
+   "evidence": "LSJ s.v. ἀπηχής, Logeion [checked]."
+  },
+  {
+   "greek": "ἀπηχούμενον",
+   "ru": "звучащий",
+   "en": "sounded",
+   "meaning_here": "Neutral verbal use in U027; it does not import the negative evaluation of the adjective ἀπηχής.",
+   "evidence": "LSJ s.v. ἀπηχέω I.2, II, Logeion [checked]."
+  },
+  {
+   "greek": "ψόφος",
+   "ru": "шум",
+   "en": "noise",
+   "meaning_here": "Sound denied the full technical status of a musical note.",
+   "evidence": "U013 [checked]; LSJ s.v. ψόφος [from memory]."
+  },
+  {
+   "greek": "βαρύς; ὀξύς",
+   "ru": "низкий; высокий",
+   "en": "low; high",
+   "meaning_here": "Pitch polarity, not volume or emotional weight.",
+   "evidence": "Aristoxenus, Elementa harmonica I.8–10, I.15–16 [checked]; U014, U037 [checked]."
+  },
+  {
+   "greek": "προσλαμβανόμενος",
+   "ru": "просламбаномен",
+   "en": "proslambanomenos",
+   "meaning_here": "Added lowest note, position 1.",
+   "evidence": "U014 and apparatus Bas.25.7 [checked]; Cleonides, Introduction to Harmonics 4, p.182, ed. K. von Jan, Musici scriptores Graeci (1895) [checked]. Gaudentius, Introduction to Harmonics 6, p.332, ed. K. von Jan (1895) [checked]. Russian nomenclature in about.md §5 [checked], adapted to preserve the printed forms."
+  },
+  {
+   "greek": "ὑπάτη ὑπάτων",
+   "ru": "гипата низших",
+   "en": "hypatē hypatōn",
+   "meaning_here": "Position 2, lower endpoint of the lowest tetrachord.",
+   "evidence": "U014 and apparatus Bas.25.7 [checked]; Cleonides, Introduction to Harmonics 4, p.182, ed. K. von Jan, Musici scriptores Graeci (1895) [checked]. Gaudentius, Introduction to Harmonics 6, p.332, ed. K. von Jan (1895) [checked]. Russian nomenclature in about.md §5 [checked], adapted to preserve the printed forms."
+  },
+  {
+   "greek": "παρυπάτη ὑπάτων",
+   "ru": "парипата низших",
+   "en": "parhypatē hypatōn",
+   "meaning_here": "Position 3, second note of the lowest tetrachord.",
+   "evidence": "U014 and apparatus Bas.25.7 [checked]; Cleonides, Introduction to Harmonics 4, p.182, ed. K. von Jan, Musici scriptores Graeci (1895) [checked]. Gaudentius, Introduction to Harmonics 6, p.332, ed. K. von Jan (1895) [checked]. Russian nomenclature in about.md §5 [checked], adapted to preserve the printed forms."
+  },
+  {
+   "greek": "ὑπάτη διάτονος",
+   "ru": "гипата диатонная",
+   "en": "hypatē diatonos",
+   "meaning_here": "Unusual printed name for position 4, corresponding to the diatonic lichanos hypatōn; not normalized.",
+   "evidence": "U014 and apparatus Bas.25.7 [checked]; Cleonides, Introduction to Harmonics 4, p.182, ed. K. von Jan, Musici scriptores Graeci (1895) [checked]. Gaudentius, Introduction to Harmonics 6, p.332, ed. K. von Jan (1895) [checked]. Russian nomenclature in about.md §5 [checked], adapted to preserve the printed forms."
+  },
+  {
+   "greek": "ὑπάτη μέσων",
+   "ru": "гипата средних",
+   "en": "hypatē mesōn",
+   "meaning_here": "Position 5, common endpoint of the lowest and middle tetrachords.",
+   "evidence": "U014 and apparatus Bas.25.7 [checked]; Cleonides, Introduction to Harmonics 4, p.182, ed. K. von Jan, Musici scriptores Graeci (1895) [checked]. Gaudentius, Introduction to Harmonics 6, p.332, ed. K. von Jan (1895) [checked]. Russian nomenclature in about.md §5 [checked], adapted to preserve the printed forms."
+  },
+  {
+   "greek": "παρυπάτη μέσων",
+   "ru": "парипата средних",
+   "en": "parhypatē mesōn",
+   "meaning_here": "Position 6, second note of the middle tetrachord.",
+   "evidence": "U014 and apparatus Bas.25.7 [checked]; Cleonides, Introduction to Harmonics 4, p.182, ed. K. von Jan, Musici scriptores Graeci (1895) [checked]. Gaudentius, Introduction to Harmonics 6, p.332, ed. K. von Jan (1895) [checked]. Russian nomenclature in about.md §5 [checked], adapted to preserve the printed forms."
+  },
+  {
+   "greek": "μέσων διάτονος",
+   "ru": "диатонная средних",
+   "en": "mesōn diatonos",
+   "meaning_here": "Editorially supplied position 7, corresponding to diatonic lichanos mesōn.",
+   "evidence": "U014 and apparatus Bas.25.7 [checked]; Cleonides, Introduction to Harmonics 4, p.182, ed. K. von Jan, Musici scriptores Graeci (1895) [checked]. Gaudentius, Introduction to Harmonics 6, p.332, ed. K. von Jan (1895) [checked]. Russian nomenclature in about.md §5 [checked], adapted to preserve the printed forms."
+  },
+  {
+   "greek": "μέση",
+   "ru": "меса",
+   "en": "mesē",
+   "meaning_here": "Unqualified middle note, position 8; common endpoint of the two octave spans.",
+   "evidence": "U014 and apparatus Bas.25.7 [checked]; Cleonides, Introduction to Harmonics 4, p.182, ed. K. von Jan, Musici scriptores Graeci (1895) [checked]. Gaudentius, Introduction to Harmonics 6, p.332, ed. K. von Jan (1895) [checked]. Russian nomenclature in about.md §5 [checked], adapted to preserve the printed forms."
+  },
+  {
+   "greek": "παράμεσος",
+   "ru": "парамесос",
+   "en": "paramesos",
+   "meaning_here": "Printed form for position 9 above mesē; conventional nomenclature often has paramesē.",
+   "evidence": "U014 and apparatus Bas.25.7 [checked]; Cleonides, Introduction to Harmonics 4, p.182, ed. K. von Jan, Musici scriptores Graeci (1895) [checked]. Gaudentius, Introduction to Harmonics 6, p.332, ed. K. von Jan (1895) [checked]. Russian nomenclature in about.md §5 [checked], adapted to preserve the printed forms."
+  },
+  {
+   "greek": "τρίτη διεζευγμένη",
+   "ru": "трита отделённая",
+   "en": "tritē diezeugmenē",
+   "meaning_here": "Position 10; printed singular qualifier preserved, rather than standard plural-genitive diezeugmenōn.",
+   "evidence": "U014 and apparatus Bas.25.7 [checked]; Cleonides, Introduction to Harmonics 4, p.182, ed. K. von Jan, Musici scriptores Graeci (1895) [checked]. Gaudentius, Introduction to Harmonics 6, p.332, ed. K. von Jan (1895) [checked]. Russian nomenclature in about.md §5 [checked], adapted to preserve the printed forms."
+  },
+  {
+   "greek": "διάτονος διεζευγμένη",
+   "ru": "диатонная отделённая",
+   "en": "diatonos diezeugmenē",
+   "meaning_here": "Position 11, corresponding to diatonic paranētē diezeugmenōn.",
+   "evidence": "U014 and apparatus Bas.25.7 [checked]; Cleonides, Introduction to Harmonics 4, p.182, ed. K. von Jan, Musici scriptores Graeci (1895) [checked]. Gaudentius, Introduction to Harmonics 6, p.332, ed. K. von Jan (1895) [checked]. Russian nomenclature in about.md §5 [checked], adapted to preserve the printed forms."
+  },
+  {
+   "greek": "νήτη διεζευγμένη",
+   "ru": "нета отделённая",
+   "en": "nētē diezeugmenē",
+   "meaning_here": "Position 12, shared endpoint of the disjunct and highest tetrachords.",
+   "evidence": "U014 and apparatus Bas.25.7 [checked]; Cleonides, Introduction to Harmonics 4, p.182, ed. K. von Jan, Musici scriptores Graeci (1895) [checked]. Gaudentius, Introduction to Harmonics 6, p.332, ed. K. von Jan (1895) [checked]. Russian nomenclature in about.md §5 [checked], adapted to preserve the printed forms."
+  },
+  {
+   "greek": "τρίτη ὑπερβολαίων",
+   "ru": "трита высших",
+   "en": "tritē hyperbolaiōn",
+   "meaning_here": "Position 13, second note of the highest tetrachord.",
+   "evidence": "U014 and apparatus Bas.25.7 [checked]; Cleonides, Introduction to Harmonics 4, p.182, ed. K. von Jan, Musici scriptores Graeci (1895) [checked]. Gaudentius, Introduction to Harmonics 6, p.332, ed. K. von Jan (1895) [checked]. Russian nomenclature in about.md §5 [checked], adapted to preserve the printed forms."
+  },
+  {
+   "greek": "διάτονος ὑπερβολαίων",
+   "ru": "диатонная высших",
+   "en": "diatonos hyperbolaiōn",
+   "meaning_here": "Position 14, corresponding to diatonic paranētē hyperbolaiōn.",
+   "evidence": "U014 and apparatus Bas.25.7 [checked]; Cleonides, Introduction to Harmonics 4, p.182, ed. K. von Jan, Musici scriptores Graeci (1895) [checked]. Gaudentius, Introduction to Harmonics 6, p.332, ed. K. von Jan (1895) [checked]. Russian nomenclature in about.md §5 [checked], adapted to preserve the printed forms."
+  },
+  {
+   "greek": "νήτη ὑπερβολαίων",
+   "ru": "нета высших",
+   "en": "nētē hyperbolaiōn",
+   "meaning_here": "Position 15, upper endpoint of the two-octave system.",
+   "evidence": "U014 and apparatus Bas.25.7 [checked]; Cleonides, Introduction to Harmonics 4, p.182, ed. K. von Jan, Musici scriptores Graeci (1895) [checked]. Gaudentius, Introduction to Harmonics 6, p.332, ed. K. von Jan (1895) [checked]. Russian nomenclature in about.md §5 [checked], adapted to preserve the printed forms."
+  },
+  {
+   "greek": "πεντεκαιδεκάχορδον",
+   "ru": "пятнадцатиструнная [система]",
+   "en": "fifteen-string [system]",
+   "meaning_here": "Fifteen distinct pitches across two joined octaves.",
+   "evidence": "U015–U016, U028, U040–U048 [checked]."
+  },
+  {
+   "greek": "ἑκκαιδεκάχορδον",
+   "ru": "шестнадцатиструнная [система]",
+   "en": "sixteen-string [system]",
+   "meaning_here": "Two eight-note octave spans with their common endpoint counted twice conceptually, not sixteen distinct pitches.",
+   "evidence": "U015–U016, U028, U040–U048 [checked]."
+  },
+  {
+   "greek": "ὀκτάχορδον",
+   "ru": "восьмиструнная [система]",
+   "en": "eight-string [system]",
+   "meaning_here": "Eight-note configuration spanning an octave.",
+   "evidence": "U015–U016, U028, U040–U048 [checked]."
+  },
+  {
+   "greek": "κατὰ συνέχειαν; συνέχεια",
+   "ru": "в непрерывной последовательности; непрерывность",
+   "en": "in continuity; continuity",
+   "meaning_here": "Continuity of shared-endpoint succession in U015 and of material magnitude in U028.",
+   "evidence": "U015–U016, U028, U040–U048 [checked]."
+  },
+  {
+   "greek": "λόγος",
+   "ru": "отношение",
+   "en": "ratio",
+   "meaning_here": "The mathematical relation of two magnitudes; not a ratio of ordinal scale indices.",
+   "evidence": "U015–U016, U028, U040–U048 [checked]."
+  },
+  {
+   "greek": "δίεσις",
+   "ru": "диеса",
+   "en": "diesis",
+   "meaning_here": "The quarter-tone of the schematic enharmonic division in this text, not every historical size called diesis.",
+   "evidence": "Cleonides, Introduction to Harmonics 5, pp.188–189; 7, pp.190–193, ed. K. von Jan, Musici scriptores Graeci (1895) [checked]. Gaudentius, Introduction to Harmonics 4–5, pp.330–331, ed. K. von Jan (1895) [checked]. U018, U026–U027, U056–U060 [checked]."
+  },
+  {
+   "greek": "ἡμιτόνιον",
+   "ru": "полутон",
+   "en": "semitone",
+   "meaning_here": "Half a tone in the additive scheme; inconsistently linked to arithmetic subdivision and the rational tone elsewhere.",
+   "evidence": "Cleonides, Introduction to Harmonics 5, pp.188–189; 7, pp.190–193, ed. K. von Jan, Musici scriptores Graeci (1895) [checked]. Gaudentius, Introduction to Harmonics 4–5, pp.330–331, ed. K. von Jan (1895) [checked]. U018, U026–U027, U056–U060 [checked]."
+  },
+  {
+   "greek": "τόνος",
+   "ru": "тон",
+   "en": "tone",
+   "meaning_here": "A whole-tone interval, explicitly 9:8 in U018; distinct from pitch/tension τάσις.",
+   "evidence": "Cleonides, Introduction to Harmonics 5, pp.188–189; 7, pp.190–193, ed. K. von Jan, Musici scriptores Graeci (1895) [checked]. Gaudentius, Introduction to Harmonics 4–5, pp.330–331, ed. K. von Jan (1895) [checked]. U018, U026–U027, U056–U060 [checked]."
+  },
+  {
+   "greek": "τριδίεσις",
+   "ru": "тридиеса",
+   "en": "tridiesis",
+   "meaning_here": "A single interval of three quarter-tone dieses, or three quarters of a tone.",
+   "evidence": "Cleonides, Introduction to Harmonics 5, pp.188–189; 7, pp.190–193, ed. K. von Jan, Musici scriptores Graeci (1895) [checked]. Gaudentius, Introduction to Harmonics 4–5, pp.330–331, ed. K. von Jan (1895) [checked]. U018, U026–U027, U056–U060 [checked]."
+  },
+  {
+   "greek": "τριημιτόνιον",
+   "ru": "трёхполутоновый интервал",
+   "en": "trihemitone",
+   "meaning_here": "One interval with the size of three semitones, not three separately articulated notes.",
+   "evidence": "Cleonides, Introduction to Harmonics 5, pp.188–189; 7, pp.190–193, ed. K. von Jan, Musici scriptores Graeci (1895) [checked]. Gaudentius, Introduction to Harmonics 4–5, pp.330–331, ed. K. von Jan (1895) [checked]. U018, U026–U027, U056–U060 [checked]."
+  },
+  {
+   "greek": "διτόνιον",
+   "ru": "дитон",
+   "en": "ditone",
+   "meaning_here": "A two-tone interval, incomposite in the schematic enharmonic genus.",
+   "evidence": "Cleonides, Introduction to Harmonics 5, pp.188–189; 7, pp.190–193, ed. K. von Jan, Musici scriptores Graeci (1895) [checked]. Gaudentius, Introduction to Harmonics 4–5, pp.330–331, ed. K. von Jan (1895) [checked]. U018, U026–U027, U056–U060 [checked]."
+  },
+  {
+   "greek": "τριτόνιον",
+   "ru": "тритон",
+   "en": "tritone",
+   "meaning_here": "A three-tone interval; its description as incomposite departs from the standard upper limit.",
+   "evidence": "Cleonides, Introduction to Harmonics 5, pp.188–189; 7, pp.190–193, ed. K. von Jan, Musici scriptores Graeci (1895) [checked]. Gaudentius, Introduction to Harmonics 4–5, pp.330–331, ed. K. von Jan (1895) [checked]. U018, U026–U027, U056–U060 [checked]."
+  },
+  {
+   "greek": "ἀσύνθετος",
+   "ru": "несоставной",
+   "en": "incomposite",
+   "meaning_here": "An interval treated here as one fused melodic step; standard theory defines it relative to available intermediate notes in a genus.",
+   "evidence": "Cleonides, Introduction to Harmonics 5, pp.188–189; 7, pp.190–193, ed. K. von Jan, Musici scriptores Graeci (1895) [checked]. Gaudentius, Introduction to Harmonics 4–5, pp.330–331, ed. K. von Jan (1895) [checked]. U018, U026–U027, U056–U060 [checked]."
+  },
+  {
+   "greek": "ἐπόγδοος",
+   "ru": "с прибавлением одной восьмой",
+   "en": "epogdoic",
+   "meaning_here": "Superparticular ratio 1+1/8 = 9:8.",
+   "evidence": "LSJ s.v. ἐπόγδοος, Logeion [checked]. U018, U040–U041, U046 and direct computation [checked]. The opened entry does not cite this work; its quoted ancient references were not all independently opened."
+  },
+  {
+   "greek": "ἐπίτριτος",
+   "ru": "с прибавлением одной трети",
+   "en": "epitritic",
+   "meaning_here": "Superparticular ratio 1+1/3 = 4:3.",
+   "evidence": "LSJ s.v. ἐπίτριτος, Logeion [checked]. U018, U040–U041, U046 and direct computation [checked]. The opened entry does not cite this work; its quoted ancient references were not all independently opened."
+  },
+  {
+   "greek": "ἡμιόλιος",
+   "ru": "полуторный",
+   "en": "hemiolic",
+   "meaning_here": "Sesquialteral ratio 1+1/2 = 3:2.",
+   "evidence": "LSJ s.v. ἡμιόλιος, Logeion [checked]. U018, U040–U041, U046 and direct computation [checked]. The opened entry does not cite this work; its quoted ancient references were not all independently opened."
+  },
+  {
+   "greek": "διπλάσιος",
+   "ru": "двойной",
+   "en": "double",
+   "meaning_here": "Ratio 2:1.",
+   "evidence": "U018, U040–U041, U046 and direct computation [checked]; Sectio canonis 12–13, pp.159–160, ed. K. von Jan (1895) [checked]. LSJ corresponding ratio entries [from memory]."
+  },
+  {
+   "greek": "διπλασιεπιμερής",
+   "ru": "двойной с прибавлением нескольких долей",
+   "en": "double-epimeric",
+   "meaning_here": "A double-superpartient category; context specifies 2+2/3 = 8:3.",
+   "evidence": "U040–U041 and direct computation [checked]. LSJ s.v. διπλασιεπιδίμοιρος, including the related form διπλασιεπιδιμερής, Logeion [checked]. The dictionary’s related compound means 8:3, but is not the exact printed διπλασιεπιμερής; no δι- is added to the text. The cited Nicomachus passage was not independently opened and the entry does not cite this work."
+  },
+  {
+   "greek": "τριπλάσιος",
+   "ru": "тройной",
+   "en": "triple",
+   "meaning_here": "Ratio 3:1.",
+   "evidence": "U018, U040–U041, U046 and direct computation [checked]; Sectio canonis 12–13, pp.159–160, ed. K. von Jan (1895) [checked]. LSJ corresponding ratio entries [from memory]."
+  },
+  {
+   "greek": "τετραπλάσιος",
+   "ru": "четверной",
+   "en": "quadruple",
+   "meaning_here": "Ratio 4:1.",
+   "evidence": "U018, U040–U041, U046 and direct computation [checked]; Sectio canonis 12–13, pp.159–160, ed. K. von Jan (1895) [checked]. LSJ corresponding ratio entries [from memory]."
+  },
+  {
+   "greek": "διπλασιημιόλιος",
+   "ru": "двойной с прибавлением половины",
+   "en": "double-and-a-half",
+   "meaning_here": "In U046, 5:2 = 2+1/2, not twice 3:2.",
+   "evidence": "U018, U040–U041, U046 and direct computation [checked]; Sectio canonis 12–13, pp.159–160, ed. K. von Jan (1895) [checked]. LSJ corresponding ratio entries [from memory]."
+  },
+  {
+   "greek": "ἐπιδιμερής",
+   "ru": "с прибавлением двух долей",
+   "en": "epimeric by two parts",
+   "meaning_here": "In U046, 5:3 = 1+2/3; the denominator is supplied by the example, not the general term.",
+   "evidence": "LSJ s.v. ἐπιδιμερής, Logeion [checked]. U018, U040–U041, U046 and direct computation [checked]. The opened entry does not cite this work; its quoted ancient references were not all independently opened."
+  },
+  {
+   "greek": "ἐπιτέταρτος",
+   "ru": "с прибавлением одной четверти",
+   "en": "epitetartic",
+   "meaning_here": "Superparticular ratio 1+1/4 = 5:4.",
+   "evidence": "U018, U040–U041, U046 and direct computation [checked]; Sectio canonis 12–13, pp.159–160, ed. K. von Jan (1895) [checked]. LSJ corresponding ratio entries [from memory]."
+  },
+  {
+   "greek": "ἡμιεπόγδοος",
+   "ru": "с прибавлением половины одной восьмой",
+   "en": "half-epogdoic",
+   "meaning_here": "Rare compound construed from U018 as half of the epogdoic excess, hence 17:16; a true half of the musical interval is an alternative, not the same ratio.",
+   "evidence": "U018–U020 [checked]; no independent lexical entry verified. See U020 doubts."
+  },
+  {
+   "greek": "μονάς",
+   "ru": "единица",
+   "en": "unit",
+   "meaning_here": "An indivisible arithmetical unit contrasted with its divisible realization in material magnitude.",
+   "evidence": "U019, U044 [checked]; Sectio canonis 3, Jan pp.152–153 [checked]."
+  },
+  {
+   "greek": "ὕλη",
+   "ru": "материя",
+   "en": "matter",
+   "meaning_here": "Material embodiment of strings or systems, as distinct from abstract mathematical relations.",
+   "evidence": "U019, U028, U052 [checked]; LSJ s.v. ὕλη, philosophical sense [from memory]."
+  },
+  {
+   "greek": "νευρά; χορδή",
+   "ru": "струна",
+   "en": "string",
+   "meaning_here": "Two Greek words for an instrumental string; nerve/gut etymology does not require asserting a specific material here.",
+   "evidence": "U020, U028, U034, U049–U050 [checked]; LSJ s.vv. νευρά, χορδή [from memory]."
+  },
+  {
+   "greek": "εὐθεῖα",
+   "ru": "прямая",
+   "en": "straight line",
+   "meaning_here": "A finite straight-line magnitude in the geometrical argument.",
+   "evidence": "U021 and U029 [checked]; Euclid, Elements I, definition 4 [from memory]."
+  },
+  {
+   "greek": "ἀριθμητική",
+   "ru": "арифметика",
+   "en": "arithmetic",
+   "meaning_here": "Arithmetic considered here as the science of discrete whole-number units.",
+   "evidence": "U022–U023, U029–U030, U044 [checked]."
+  },
+  {
+   "greek": "τετράγωνον",
+   "ru": "квадрат",
+   "en": "square",
+   "meaning_here": "A square number or a geometrical square according to context; the distinction makes the example work.",
+   "evidence": "U023–U024, U030–U031 and direct computation [checked]; Euclid, Elements I.47 [from memory]."
+  },
+  {
+   "greek": "πλευρά",
+   "ru": "сторона",
+   "en": "side",
+   "meaning_here": "Side of the geometrical square, interchanged with a diagonal in the construction.",
+   "evidence": "U024, U031 [checked]; Euclid, Elements I.47 [from memory]."
+  },
+  {
+   "greek": "διάμετρος",
+   "ru": "диагональ",
+   "en": "diagonal",
+   "meaning_here": "The line joining opposite vertices of a square, not a diameter of a circle.",
+   "evidence": "U024, U031 [checked]; Euclid, Elements I.47 [from memory]."
+  },
+  {
+   "greek": "ῥυθμός",
+   "ru": "ритм",
+   "en": "rhythm",
+   "meaning_here": "A constraint on melodic interval realization, asserted in U026 without a detailed subsequent rhythm theory.",
+   "evidence": "U026 [checked]; LSJ s.v. ῥυθμός [from memory]."
+  },
+  {
+   "greek": "μέλος",
+   "ru": "напев",
+   "en": "melody",
+   "meaning_here": "A musical melodic configuration, which may be a single intervallic gesture in U027 or the anomalous fifth-melody in U042.",
+   "evidence": "U027, U028, U042, U054, U065 [checked]; Aristoxenus, Elementa harmonica I.8–10 [checked]."
+  },
+  {
+   "greek": "σύμφθαρσις",
+   "ru": "слияние",
+   "en": "fusion",
+   "meaning_here": "Coalescence of smaller constituents into one articulated melodic step; some P occurrences are editorial conjectures.",
+   "evidence": "LSJ s.v. σύμφθαρσις 2, Logeion [checked]. The opened entry does not cite this work. Its Hermogenes and Iamblichus references were not independently opened. apparatus [checked]."
+  },
+  {
+   "greek": "δύναμις",
+   "ru": "возможность; возможности",
+   "en": "capacity; capacities",
+   "meaning_here": "The intervallic potential present in a fused interval or encompassed by a system; rendered consistently as capacities in the plural target formulations.",
+   "evidence": "U027, U051 [checked]; LSJ s.v. δύναμις [from memory]."
+  },
+  {
+   "greek": "διὰ τεσσάρων",
+   "ru": "кварта",
+   "en": "fourth",
+   "meaning_here": "Consonant span of four notes, ratio 4:3.",
+   "evidence": "U033–U041, U051 [checked]; Cleonides, Introduction to Harmonics 8, p.194, ed. K. von Jan, Musici scriptores Graeci (1895) [checked]. Sectio canonis 12, pp.159–160, ed. K. von Jan (1895) [checked]."
+  },
+  {
+   "greek": "διὰ πέντε",
+   "ru": "квинта",
+   "en": "fifth",
+   "meaning_here": "Consonant span of five notes, ratio 3:2; rendered through five only to preserve the separately supplied διὰ in U051.",
+   "evidence": "U033–U041, U051 [checked]; Cleonides, Introduction to Harmonics 8, p.194, ed. K. von Jan, Musici scriptores Graeci (1895) [checked]. Sectio canonis 12, pp.159–160, ed. K. von Jan (1895) [checked]."
+  },
+  {
+   "greek": "διὰ πασῶν",
+   "ru": "октава",
+   "en": "octave",
+   "meaning_here": "Literally through all strings, the eight-note span of ratio 2:1; the etymological wording is retained in U035.",
+   "evidence": "U033–U041, U051 [checked]; Cleonides, Introduction to Harmonics 8, p.194, ed. K. von Jan, Musici scriptores Graeci (1895) [checked]. Sectio canonis 12, pp.159–160, ed. K. von Jan (1895) [checked]."
+  },
+  {
+   "greek": "δὶς διὰ τεσσάρων",
+   "ru": "двойная кварта",
+   "en": "double fourth",
+   "meaning_here": "Printed nonstandard name probably referring to the fourth in the next octave; literal doubling would be 16:9.",
+   "evidence": "U033–U041, U051 [checked]; Cleonides, Introduction to Harmonics 8, p.194, ed. K. von Jan, Musici scriptores Graeci (1895) [checked]. Sectio canonis 12, pp.159–160, ed. K. von Jan (1895) [checked]."
+  },
+  {
+   "greek": "δὶς διὰ πέντε",
+   "ru": "двойная квинта",
+   "en": "double fifth",
+   "meaning_here": "Printed nonstandard name probably referring to the fifth in the next octave; literal doubling would be 9:4.",
+   "evidence": "U033–U041, U051 [checked]; Cleonides, Introduction to Harmonics 8, p.194, ed. K. von Jan, Musici scriptores Graeci (1895) [checked]. Sectio canonis 12, pp.159–160, ed. K. von Jan (1895) [checked]."
+  },
+  {
+   "greek": "δὶς διὰ πασῶν",
+   "ru": "двойная октава",
+   "en": "double octave",
+   "meaning_here": "Two-octave span, ratio 4:1.",
+   "evidence": "U033–U041, U051 [checked]; Cleonides, Introduction to Harmonics 8, p.194, ed. K. von Jan, Musici scriptores Graeci (1895) [checked]. Sectio canonis 12, pp.159–160, ed. K. von Jan (1895) [checked]."
+  },
+  {
+   "greek": "διάστασις",
+   "ru": "интервальное расстояние",
+   "en": "intervallic span",
+   "meaning_here": "Spatial/magnitudinal aspect of the interval, usually interchangeable in doctrine with διάστημα; a distinct rendering keeps the wording visible.",
+   "evidence": "U033–U041, U051 [checked]; Cleonides, Introduction to Harmonics 8, p.194, ed. K. von Jan, Musici scriptores Graeci (1895) [checked]. Sectio canonis 12, pp.159–160, ed. K. von Jan (1895) [checked]."
+  },
+  {
+   "greek": "ἄμεσος; ἔμμεσος",
+   "ru": "без промежуточных звуков; с промежуточными звуками",
+   "en": "without intermediate notes; with intermediate notes",
+   "meaning_here": "Opposed descriptions of local melodic steps and spans across intervening notes; not merely immediacy of perception.",
+   "evidence": "U034, U042–U044 [checked]; Gaudentius 4, Jan pp.330–331 [checked]."
+  },
+  {
+   "greek": "ἠχή",
+   "ru": "звучание",
+   "en": "sounding",
+   "meaning_here": "The sounding manifestation of a pitch relation from lower to higher notes.",
+   "evidence": "U034, U045 [checked]; LSJ s.v. ἠχή [from memory]."
+  },
+  {
+   "greek": "συμφωνεῖν; συμφωνία",
+   "ru": "образовывать созвучие; созвучие",
+   "en": "to be consonant; consonance",
+   "meaning_here": "Concord of pitches; the small intervals are components but not themselves consonances.",
+   "evidence": "Cleonides, Introduction to Harmonics 5, p.188; 8, pp.194–195, ed. K. von Jan, Musici scriptores Graeci (1895) [checked]. U036–U038 [checked]."
+  },
+  {
+   "greek": "παράφωνον",
+   "ru": "парафонное созвучие",
+   "en": "paraphonic consonance",
+   "meaning_here": "The author’s class comprising the fourth and fifth, explained through unequal timing.",
+   "evidence": "LSJ s.v. παράφωνος; παραφωνία, Logeion [checked]. U036–U037 [checked]. The lexicon entries do not cite this work; author-specific classifications should not be conflated."
+  },
+  {
+   "greek": "ἀντίφωνον",
+   "ru": "антифонное созвучие",
+   "en": "antiphonic consonance",
+   "meaning_here": "Octave-related concord in the examples, with a broader and problematic list in U036; not modern alternating-choir performance.",
+   "evidence": "LSJ s.v. ἀντίφωνος I, III, Logeion [checked]. U036–U037 [checked]. The opened entry does not cite this work."
+  },
+  {
+   "greek": "ἀνισοχρόνως; ἰσοχρόνως",
+   "ru": "при неравных длительностях; при равных длительностях",
+   "en": "at unequal durations; at equal durations",
+   "meaning_here": "Uncertain temporal contrast; no assertion of equal oscillation periods is intended by the translation.",
+   "evidence": "LSJ s.v. ἀνισόχρονος, Logeion [checked]. LSJ s.v. ἰσόχρονος, Logeion [checked]. U037 [checked]."
+  },
+  {
+   "greek": "ἄνεσις",
+   "ru": "ослабление",
+   "en": "relaxation",
+   "meaning_here": "Relaxing tension or breath, and the associated lowering movement where applicable.",
+   "evidence": "U037, U049 [checked]; Aristoxenus, Elementa harmonica I.15–16 [checked]."
+  },
+  {
+   "greek": "ἐπίτασις",
+   "ru": "повышение; усиление; натяжение",
+   "en": "rise; strengthening; tightening",
+   "meaning_here": "Raising pitch in U045–U047, increasing breath in U049, and tightening in U050. Context determines the physical or melodic sense.",
+   "evidence": "U045–U050 [checked]; Aristoxenus, Elementa harmonica I.15–16 [checked]."
+  },
+  {
+   "greek": "ὅρος",
+   "ru": "член; термин",
+   "en": "term",
+   "meaning_here": "A numerical term in U041 and a logical term in U043; the syllogism analogy relies on this overlap.",
+   "evidence": "U041, U043 [checked]; LSJ s.v. ὅρος [from memory]."
+  },
+  {
+   "greek": "καθ’ ὑπερβατόν",
+   "ru": "с пропуском",
+   "en": "skipping over",
+   "meaning_here": "Comparison of extreme notes or logical terms across intermediates.",
+   "evidence": "U043–U044 [checked]; LSJ s.v. ὑπερβατός [from memory]."
+  },
+  {
+   "greek": "λογοθετηθέντων",
+   "ru": "после установления отношений",
+   "en": "after assignment of ratios",
+   "meaning_here": "Contextual sense of assigning ratios to intervals before their fusion.",
+   "evidence": "U042 [checked]. No independent lexical parallel for this particular technical use was verified."
+  },
+  {
+   "greek": "συλλογισμός",
+   "ru": "силлогизм",
+   "en": "syllogism",
+   "meaning_here": "Logical inference serving as an analogy for relations across an intermediate note.",
+   "evidence": "U043 [checked]; Aristotle, Prior Analytics I.1 and I.4 [from memory]."
+  },
+  {
+   "greek": "πρότασις",
+   "ru": "посылка",
+   "en": "premise",
+   "meaning_here": "A link between adjacent terms in the logical analogy.",
+   "evidence": "U043 [checked]; Aristotle, Prior Analytics I.1 and I.4 [from memory]."
+  },
+  {
+   "greek": "συμπέρασμα",
+   "ru": "заключение",
+   "en": "conclusion",
+   "meaning_here": "The inferred link joining the extreme terms.",
+   "evidence": "U043 [checked]; Aristotle, Prior Analytics I.1 and I.4 [from memory]."
+  },
+  {
+   "greek": "κόλλαβος",
+   "ru": "колок",
+   "en": "tuning peg",
+   "meaning_here": "Peg turned to alter string tension.",
+   "evidence": "U049–U050 [checked]; LSJ corresponding entries [from memory]."
+  },
+  {
+   "greek": "ἐξάρτησις",
+   "ru": "подвешивание",
+   "en": "suspension",
+   "meaning_here": "Suspension of weights used to alter or compare string tension.",
+   "evidence": "U049–U050 [checked]; LSJ corresponding entries [from memory]."
+  },
+  {
+   "greek": "ἐμπνευστά",
+   "ru": "духовые [инструменты]",
+   "en": "wind [instruments]",
+   "meaning_here": "Instruments sounded by blowing.",
+   "evidence": "U049–U050 [checked]; LSJ corresponding entries [from memory]."
+  },
+  {
+   "greek": "κοιλία",
+   "ru": "полость",
+   "en": "cavity",
+   "meaning_here": "Hollow interior of a wind instrument; its width is named without a quantitative law.",
+   "evidence": "U049–U050 [checked]; LSJ corresponding entries [from memory]."
+  },
+  {
+   "greek": "αὐλός",
+   "ru": "авлос",
+   "en": "aulos",
+   "meaning_here": "Ancient wind instrument; not silently identified with the modern flute.",
+   "evidence": "U049–U050 [checked]; LSJ corresponding entries [from memory]."
+  },
+  {
+   "greek": "τρῆμα",
+   "ru": "отверстие",
+   "en": "hole",
+   "meaning_here": "An opening of the wind instrument.",
+   "evidence": "U049–U050 [checked]; LSJ corresponding entries [from memory]."
+  },
+  {
+   "greek": "διάτασις",
+   "ru": "расстояние между отверстиями",
+   "en": "spacing of holes",
+   "meaning_here": "Spread or spacing, with widening as an unresolved alternative.",
+   "evidence": "U049–U050 [checked]; LSJ corresponding entries [from memory]."
+  },
+  {
+   "greek": "μελῳδία",
+   "ru": "мелодия",
+   "en": "melody",
+   "meaning_here": "Melodic production or configuration; kept distinct from μέλος in Russian, while English uses melody for both nouns.",
+   "evidence": "U050, U053–U066 [checked]; Cleonides 14, Jan pp.206–207 [checked]."
+  },
+  {
+   "greek": "†ἀμφότερον†",
+   "ru": "†двоякий†",
+   "en": "†twofold†",
+   "meaning_here": "Attempted rendering of an unresolved corrupt adjective; the text has singular εἶδος. The probable lower-pitch contrast is confined to doubts.",
+   "evidence": "LSJ s.v. ἀμφότερος, rare singular uses, Logeion [checked]. U050 and apparatus [checked]."
+  },
+  {
+   "greek": "τετράχορδον",
+   "ru": "четырёхструнная [система], тетрахорд",
+   "en": "four-string [system], tetrachord",
+   "meaning_here": "Four-note configuration whose three steps span a fourth.",
+   "evidence": "Cleonides, Introduction to Harmonics 3, pp.181–182, ed. K. von Jan, Musici scriptores Graeci (1895) [checked]. U051, U056–U062 [checked]."
+  },
+  {
+   "greek": "πεντάχορδον",
+   "ru": "пятиструнная [система], пентахорд",
+   "en": "five-string [system], pentachord",
+   "meaning_here": "Five-note configuration encompassing a fifth.",
+   "evidence": "U051 [checked]; Cleonides 8, p.194 [checked]."
+  },
+  {
+   "greek": "ἰσχύς",
+   "ru": "сила",
+   "en": "force",
+   "meaning_here": "Full intervallic compass or efficacy of the octave in U051, distinguished lexically from δύναμις.",
+   "evidence": "U051 [checked]; LSJ s.v. ἰσχύς [from memory]."
+  },
+  {
+   "greek": "ἀφαίρεσις",
+   "ru": "отвлечение",
+   "en": "abstraction",
+   "meaning_here": "Mental abstraction from matter in conceiving an interval.",
+   "evidence": "U052 [checked]; LSJ s.v. ἀφαίρεσις [from memory]."
+  },
+  {
+   "greek": "γένος μελῳδίας; γένος",
+   "ru": "род мелодии; род",
+   "en": "genus of melody; genus",
+   "meaning_here": "A melodic genus defined by the arrangement of intervals in a tetrachord.",
+   "evidence": "Cleonides, Introduction to Harmonics 3, pp.181–182; 7, pp.190–193, ed. K. von Jan, Musici scriptores Graeci (1895) [checked]."
+  },
+  {
+   "greek": "διάτονον",
+   "ru": "диатонный",
+   "en": "diatonic",
+   "meaning_here": "Genus illustrated by semitone–tone–tone; not a modern key.",
+   "evidence": "Cleonides, Introduction to Harmonics 3, pp.181–182; 7, pp.190–193, ed. K. von Jan, Musici scriptores Graeci (1895) [checked]."
+  },
+  {
+   "greek": "χρωματικόν",
+   "ru": "хроматический",
+   "en": "chromatic",
+   "meaning_here": "Genus illustrated by semitone–semitone–trihemitone; not merely modern chromatic alteration.",
+   "evidence": "Cleonides, Introduction to Harmonics 3, pp.181–182; 7, pp.190–193, ed. K. von Jan, Musici scriptores Graeci (1895) [checked]."
+  },
+  {
+   "greek": "ἁρμονικόν",
+   "ru": "гармонический",
+   "en": "harmonic",
+   "meaning_here": "The enharmonic genus, illustrated by diesis–diesis–ditone; the printed name is retained to preserve the etymology from harmony.",
+   "evidence": "Gaudentius, Introduction to Harmonics 5, p.331, ed. K. von Jan (1895) [checked]. U053, U060 [checked]."
+  },
+  {
+   "greek": "εἶδος",
+   "ru": "вид",
+   "en": "kind; form",
+   "meaning_here": "A general kind or form in U042, U050 and U065, not consistently a rigorously defined interval species.",
+   "evidence": "U042, U050, U065 [checked]; LSJ s.v. εἶδος [from memory]."
+  },
+  {
+   "greek": "λύδιον",
+   "ru": "лидийский",
+   "en": "Lydian",
+   "meaning_here": "Ethnic or modal melodic designation, not identified with a modern key or assigned an exact scale by this passage.",
+   "evidence": "U065 [checked]; ancient modal nomenclature [from memory]."
+  },
+  {
+   "greek": "φρύγιον",
+   "ru": "фригийский",
+   "en": "Phrygian",
+   "meaning_here": "Ethnic or modal melodic designation, not identified with a modern key or assigned an exact scale by this passage.",
+   "evidence": "U065 [checked]; ancient modal nomenclature [from memory]."
+  },
+  {
+   "greek": "δώριον",
+   "ru": "дорийский",
+   "en": "Dorian",
+   "meaning_here": "Ethnic or modal melodic designation, not identified with a modern key or assigned an exact scale by this passage.",
+   "evidence": "U065 [checked]; ancient modal nomenclature [from memory]."
+  },
+  {
+   "greek": "παιήων",
+   "ru": "пеан",
+   "en": "paean",
+   "meaning_here": "A named kind of song, here juxtaposed with melodic modal labels.",
+   "evidence": "U065 [checked]; LSJ s.v. παιάν, variant παιήων [from memory]."
+  },
+  {
+   "greek": "ὑμέναιος",
+   "ru": "гименей",
+   "en": "hymenaeal song",
+   "meaning_here": "Wedding-song category.",
+   "evidence": "U065 and apparatus Bas.33.12 [checked]; LSJ s.v. ὑμέναιος [from memory]."
+  },
+  {
+   "greek": "ἐξόδιος",
+   "ru": "прощальная песнь",
+   "en": "departure song",
+   "meaning_here": "A song associated with departure or conclusion; funerary specialization remains uncertain.",
+   "evidence": "LSJ s.v. ἐξόδιος I–II, Logeion [checked]."
+  },
+  {
+   "greek": "μεταφορά",
+   "ru": "перемещение",
+   "en": "shifting",
+   "meaning_here": "Transfer or rearrangement of intervals; technical modern transposition is possible but not established.",
+   "evidence": "U066 [checked]; LSJ s.v. μεταφορά [from memory]."
+  },
+  {
+   "greek": "μετάβασις",
+   "ru": "переход",
+   "en": "transition",
+   "meaning_here": "Movement between musical elements, qualified by speed.",
+   "evidence": "U066 [checked]; Cleonides 14, Jan pp.206–207 [checked] as a general parallel, not an identical technical classification."
+  },
+  {
+   "greek": "διαμονή",
+   "ru": "задержка",
+   "en": "dwelling",
+   "meaning_here": "Sustained continuance as opposed to flow; not necessarily a silent rest.",
+   "evidence": "LSJ s.v. διαμονή, Logeion [checked]."
+  },
+  {
+   "greek": "ῥοή",
+   "ru": "течение",
+   "en": "flow",
+   "meaning_here": "Flowing movement, paired with dwelling in the performance account.",
+   "evidence": "LSJ s.v. ῥοή, Logeion [checked]."
+  },
+  {
+   "greek": "ἐπαφή",
+   "ru": "касание",
+   "en": "touch",
+   "meaning_here": "Instrumental touch or handling without a specified finger/plectrum division.",
+   "evidence": "LSJ s.v. ἐπαφή I, Logeion [checked]. The entry’s Euryph. ap. Stob.4.39.27 citation was not separately opened; this work is not cited in the entry."
+  },
+  {
+   "greek": "κροῦμα",
+   "ru": "удар",
+   "en": "stroke",
+   "meaning_here": "Instrumental stroke or its sounding result; not restricted to modern percussion.",
+   "evidence": "LSJ s.v. κροῦμα I.2, Logeion [checked]. The opened entry does not cite this work."
+  }
+ ],
+ "E": [
+  {
+   "greek": "σύνοψις",
+   "ru": "синопсис",
+   "en": "synopsis",
+   "meaning_here": "School summary of a discipline (title, U001).",
+   "evidence": "about.md § 1 [checked]; LSJ s.v. [from memory]"
+  },
+  {
+   "greek": "μουσική",
+   "ru": "музыка",
+   "en": "music",
+   "meaning_here": "The discipline of musical sound and ratio; in the proem also the cosmic order (U002-U007).",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 16-17 [checked]"
+  },
+  {
+   "greek": "συμμετρία",
+   "ru": "соразмерность",
+   "en": "commensurability",
+   "meaning_here": "Due measure of parts; with ἀναλογία the condition of being and of becoming well (U002-U003).",
+   "evidence": "Plato, Philebus 64d-e [from memory]; LSJ s.v. [from memory]"
+  },
+  {
+   "greek": "αὐτοσυμμετρία",
+   "ru": "самосоразмерность",
+   "en": "self-commensurability",
+   "meaning_here": "Commensurability itself: music as proportion, not a proportioned thing (U004).",
+   "evidence": "No entry in LSJ, DGE, Bailly, Pape via Logeion [checked]"
+  },
+  {
+   "greek": "ἀναλογία; κατὰ ἀνάλογον",
+   "ru": "пропорция; пропорционально",
+   "en": "proportion; proportionally",
+   "meaning_here": "Proportion in general (U002-U004, U037); κατὰ ἀνάλογον of the parallel motion of octave notes (U037).",
+   "evidence": "LSJ s.v. ἀναλογία [from memory]"
+  },
+  {
+   "greek": "ἁρμονία",
+   "ru": "гармония",
+   "en": "harmony",
+   "meaning_here": "(1) Cosmic harmony (U004-U005); (2) arrangement of systems (U011, Thrasyllus); (3) the agent that arranges systems into genera (U053-U061); (4) source of the name of the 'harmonic' genus (U053, U060). One rendering is kept for all senses because the compiler plays on them.",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 48, 56 [checked]; Cleonides, Isag. 3 (ἁρμονία = enharmonic genus), Jan MSG [checked]"
+  },
+  {
+   "greek": "ἐναρμόνιος; ἐναρμόζω",
+   "ru": "гармоничный; гармонически сочетаться (слагаться)",
+   "en": "harmonious; be harmonized",
+   "meaning_here": "Fit to be joined with another note in harmony (U008, U012-U013), not 'enharmonic'; ἐναρμόζεται at U065 of a melos set in a harmonia.",
+   "evidence": "LSJ s.v. ἐναρμόνιος I vs II, via Logeion [checked]; Thrasyllus in Theon p. 47 [checked]"
+  },
+  {
+   "greek": "φθόγγος",
+   "ru": "звук",
+   "en": "note",
+   "meaning_here": "Musical sound of one pitch, the element of melody, counted by position (U014-U016, U037).",
+   "evidence": "Theon p. 47 (Thrasyllus); Cleonides 1; Nicomachus, Ench. 12 (Jan MSG) [checked]; Tsypin's usage, about.md § 5 [checked]"
+  },
+  {
+   "greek": "φωνή",
+   "ru": "голос",
+   "en": "voice",
+   "meaning_here": "The sounding voice whose tension is the note (U008).",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 47 [checked]"
+  },
+  {
+   "greek": "ἠχή",
+   "ru": "звучание",
+   "en": "sound",
+   "meaning_here": "The sounding that spans an interval (U034) or rises in pitch (U045).",
+   "evidence": "LSJ s.v. [from memory]"
+  },
+  {
+   "greek": "ψόφος",
+   "ru": "шум",
+   "en": "noise",
+   "meaning_here": "Unmusical sound (U013).",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 50 (Adrastus) [checked]"
+  },
+  {
+   "greek": "ἀπηχής",
+   "ru": "нестройный",
+   "en": "discordant",
+   "meaning_here": "Out of tune, not combinable with other notes (U013).",
+   "evidence": "LSJ, DGE, Pape s.v. via Logeion [checked]"
+  },
+  {
+   "greek": "ἀδιάστατος",
+   "ru": "непротяжённый",
+   "en": "unextended",
+   "meaning_here": "Without extension, like the geometrical point; also 'not spanning an interval' (U008, U012).",
+   "evidence": "LSJ s.v. II (Plu. 601c, of a point), via Logeion [checked]; Nicomachus, Ench. 4 φθόγγου ἀδιαστάτου (Jan MSG) [checked]"
+  },
+  {
+   "greek": "στιγμή",
+   "ru": "точка",
+   "en": "point",
+   "meaning_here": "The geometrical point, analogue of the note (U012).",
+   "evidence": "Nicomachus, Excerpta 6 (unit, point, letter), Jan MSG [checked]"
+  },
+  {
+   "greek": "τάσις",
+   "ru": "напряжение",
+   "en": "tension",
+   "meaning_here": "Pitch-tension of the voice (U008); physical tension of strings (U037, U049-U050).",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 47, 56-57 [checked]"
+  },
+  {
+   "greek": "ἐπίτασις / ἄνεσις",
+   "ru": "усиление / ослабление",
+   "en": "intensification / relaxation",
+   "meaning_here": "Rise / fall in pitch (U045, U047), tightening / slackening of strings and breath (U037, U049-U050).",
+   "evidence": "Bacchius, Isag. (p. 12 Meibom) and Cleonides 2, Jan MSG [checked]"
+  },
+  {
+   "greek": "ὀξύτης",
+   "ru": "высота",
+   "en": "acuteness",
+   "meaning_here": "Highness of pitch (U047).",
+   "evidence": "LSJ s.v. [from memory]"
+  },
+  {
+   "greek": "βαρύτης",
+   "ru": "тяжесть",
+   "en": "heaviness",
+   "meaning_here": "Weight of hanging loads in U050 (with a play on 'lowness of pitch').",
+   "evidence": "LSJ s.v. [from memory]"
+  },
+  {
+   "greek": "διάστημα",
+   "ru": "интервал",
+   "en": "interval",
+   "meaning_here": "Relation of two notes (U009); elementary, fused and consonant intervals.",
+   "evidence": "Theon p. 48; Cleonides 1 (Jan MSG) [checked]"
+  },
+  {
+   "greek": "διάστασις",
+   "ru": "расстояние",
+   "en": "distance",
+   "meaning_here": "The compiler's near-synonym of διάστημα, used of consonances and of the span of systems (U035-U036, U045, U049, U051, U056).",
+   "evidence": "LSJ s.v. [from memory]"
+  },
+  {
+   "greek": "σχέσις",
+   "ru": "соотношение",
+   "en": "relation",
+   "meaning_here": "The relation of two notes that constitutes an interval (U009).",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 48 (Thrasyllus) [checked]"
+  },
+  {
+   "greek": "σύστημα",
+   "ru": "система",
+   "en": "system",
+   "meaning_here": "A compass of several intervals, from tetrachord to double octave (U010, U051-U052, U061-U062).",
+   "evidence": "Theon p. 48; Cleonides 1 (Jan MSG) [checked]"
+  },
+  {
+   "greek": "περιοχή",
+   "ru": "охват",
+   "en": "compass",
+   "meaning_here": "The encompassing of intervals by a system (U010).",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 48 [checked]"
+  },
+  {
+   "greek": "σύνταξις; συντάττω; συντακτικός",
+   "ru": "упорядочение; упорядочивать; [пример] упорядочения",
+   "en": "arrangement; arrange; of arrangement",
+   "meaning_here": "Ordering of systems into a harmonia or a genus (U011, U053, U061-U062).",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 48 [checked]"
+  },
+  {
+   "greek": "συναρμολογέω; συμβιβάζω",
+   "ru": "слаживать; согласовывать",
+   "en": "fit together; bring into accord",
+   "meaning_here": "Joining parts harmoniously (U005, U053); Pauline wording at U005.",
+   "evidence": "Ephesians 2:21; 4:16, SBLGNT [checked]"
+  },
+  {
+   "greek": "λόγος",
+   "ru": "отношение",
+   "en": "ratio",
+   "meaning_here": "Numerical ratio of pitches (passim; at U034 see the doubt).",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 56-57 [checked]"
+  },
+  {
+   "greek": "ὅρος",
+   "ru": "член",
+   "en": "term",
+   "meaning_here": "Term of a ratio (U041) and term of a syllogism (U043).",
+   "evidence": "Aristotle, APr. I.4 [from memory]; LSJ s.v. [from memory]"
+  },
+  {
+   "greek": "ἐπόγδοος",
+   "ru": "эпогдоический",
+   "en": "epogdoic",
+   "meaning_here": "9:8, the ratio of the tone.",
+   "evidence": "Theon p. 56-57 (ἐν ἐπογδόῳ λόγῳ) [checked]; 'эпогдоон' in the Aleksandrova-Myakin school, about.md § 5 [checked]"
+  },
+  {
+   "greek": "ἡμιεπόγδοος",
+   "ru": "полуэпогдоический",
+   "en": "hemi-epogdoic",
+   "meaning_here": "The semitone in the compiler's arithmetic, 1 + 1/16 = 17:16 (U020).",
+   "evidence": "No entry in LSJ, Bailly, Pape via Logeion [checked]"
+  },
+  {
+   "greek": "ἐπίτριτος",
+   "ru": "эпитритный",
+   "en": "epitritic",
+   "meaning_here": "4:3.",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 56 [checked]; 'эпитрит', about.md § 5 [checked]"
+  },
+  {
+   "greek": "ἡμιόλιος",
+   "ru": "полуторный",
+   "en": "hemiolic",
+   "meaning_here": "3:2.",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 56 [checked]; 'полуторное', about.md § 5 [checked]"
+  },
+  {
+   "greek": "διπλάσιος",
+   "ru": "двукратный",
+   "en": "double",
+   "meaning_here": "2:1.",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 56 [checked]"
+  },
+  {
+   "greek": "διπλασιεπιμερής",
+   "ru": "двукратно-сверхмногочастный",
+   "en": "double-superpartient",
+   "meaning_here": "2 + m/n; here 8:3 (U040-U041).",
+   "evidence": "Theon p. 56-57 (πολλαπλασιεπιμερής ... διπλάσιος καὶ δισεπίτριτος) [checked]; Nicomachus, Intr. arith. I.23 [from memory]"
+  },
+  {
+   "greek": "τριπλάσιος",
+   "ru": "трёхкратный",
+   "en": "triple",
+   "meaning_here": "3:1.",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 56-57 [checked]"
+  },
+  {
+   "greek": "τετραπλάσιος",
+   "ru": "четырёхкратный",
+   "en": "quadruple",
+   "meaning_here": "4:1.",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 56-57 [checked]"
+  },
+  {
+   "greek": "πενταπλασίων",
+   "ru": "пятикратный",
+   "en": "quintuple",
+   "meaning_here": "5:1 (= πενταπλάσιος), U046.",
+   "evidence": "LSJ s.v. [from memory]"
+  },
+  {
+   "greek": "διπλασιημιόλιος",
+   "ru": "двукратный с половиной",
+   "en": "double-hemiolic",
+   "meaning_here": "5:2 (U046).",
+   "evidence": "Nicomachus, Intr. arith. I.22-23 [from memory]"
+  },
+  {
+   "greek": "ἐπιδιμερής",
+   "ru": "сверхдвучастный",
+   "en": "superbipartient",
+   "meaning_here": "5:3 = 1 + 2/3 (U046).",
+   "evidence": "Nicomachus, Intr. arith. I.20 [from memory]"
+  },
+  {
+   "greek": "ἐπιτέταρτος",
+   "ru": "сверхчетвертной",
+   "en": "epitetartic",
+   "meaning_here": "5:4 (U046).",
+   "evidence": "Nicomachus, Intr. arith. I.19 [from memory]"
+  },
+  {
+   "greek": "δίεσις",
+   "ru": "диеса",
+   "en": "diesis",
+   "meaning_here": "The smallest interval, a quarter-tone; in the compiler's numbers 8 1/4 : 8 = 33:32 (U018).",
+   "evidence": "Theon p. 55 (τεταρτημόριον τοῦ τόνου, Aristoxenians) [checked]; Tsypin 'диеса', about.md § 5 [checked]"
+  },
+  {
+   "greek": "ἡμιτόνιον",
+   "ru": "полутон",
+   "en": "semitone",
+   "meaning_here": "Half the tone; in the compiler's numbers 8 1/2 : 8 = 17:16 (U018).",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 53 [checked]"
+  },
+  {
+   "greek": "τόνος; τονιαῖος",
+   "ru": "тон; тоновый",
+   "en": "tone; tonal",
+   "meaning_here": "9:8; an interval of a tone (U056).",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 56-57 [checked]"
+  },
+  {
+   "greek": "τριδίεσις",
+   "ru": "тридиеса",
+   "en": "tridiesis",
+   "meaning_here": "Three dieses, 3/4 tone (U026, U042).",
+   "evidence": "No entry in LSJ, Bailly, Pape via Logeion [checked]"
+  },
+  {
+   "greek": "τριημιτόνιον",
+   "ru": "трихемитон",
+   "en": "trihemitone",
+   "meaning_here": "Three semitones, 1 1/2 tones; incomposite in the chromatic (U026, U058).",
+   "evidence": "Theon p. 54 (τριημιτονιαῖον); Cleonides 5 (Jan MSG) [checked]"
+  },
+  {
+   "greek": "διτόνιον",
+   "ru": "дитон",
+   "en": "ditone",
+   "meaning_here": "Two tones; incomposite in the enharmonic (U026, U060).",
+   "evidence": "Theon p. 55 (δίτονον) [checked]"
+  },
+  {
+   "greek": "τριτόνιον",
+   "ru": "тритон",
+   "en": "tritone",
+   "meaning_here": "Three tones (U026, U042).",
+   "evidence": "LSJ s.v. τρίτονος (Cleonid. 5; Bacch. 47), via Logeion [checked]"
+  },
+  {
+   "greek": "ἀσύνθετος",
+   "ru": "несоставной",
+   "en": "incomposite",
+   "meaning_here": "For the compiler an interval that sounds as one though equal to several fused steps (U026-U027, U058); for the Aristoxenians an interval between successive notes.",
+   "evidence": "Cleonides 5 (Jan MSG) [checked]; Tsypin 'несоставной', about.md § 5 [checked]"
+  },
+  {
+   "greek": "σύμφθαρσις; ἐκ συμφθάρσεως",
+   "ru": "слияние; путём слияния",
+   "en": "fusion; by fusion",
+   "meaning_here": "Merging of several intervals into one sounding interval, literally 'joint perishing' (U027-U028, U042, U058, U060).",
+   "evidence": "LSJ (1 simultaneous destruction, 2 melting into one another), Bailly, Pape s.v., via Logeion [checked]"
+  },
+  {
+   "greek": "παραύξησις",
+   "ru": "приращение",
+   "en": "augmentation",
+   "meaning_here": "Increase of an interval toward the high; multiplication of elementary intervals (U018, U026, U032).",
+   "evidence": "LSJ s.v. [from memory]"
+  },
+  {
+   "greek": "προσαύξησις",
+   "ru": "прирост",
+   "en": "increase",
+   "meaning_here": "Increase from smaller to greater numbers in a series (U044).",
+   "evidence": "LSJ s.v. [from memory]"
+  },
+  {
+   "greek": "ἄμεσος / ἔμμεσος",
+   "ru": "непосредственный / опосредованный",
+   "en": "immediate / mediate",
+   "meaning_here": "Intervals between adjacent notes / with intermediate notes (U034, U042-U044); from the logical 'without / with a middle term'.",
+   "evidence": "LSJ, DGE s.v. via Logeion [checked]; Anonymus Bellermanni §§ 4, 6, ed. Bellermann 1841 [checked]"
+  },
+  {
+   "greek": "κατὰ σειράν; καθ’ ὑπερβατόν; ἐφεξῆς, καθεξῆς",
+   "ru": "цепью; с перешагиванием; одна за другой, по порядку",
+   "en": "in a chain; by overstepping; one after another, successively",
+   "meaning_here": "Ratios set out between adjacent notes vs. between the extremes, skipping the middle (U043-U044).",
+   "evidence": "LSJ s.v. σειρά, ὑπερβατός [from memory]"
+  },
+  {
+   "greek": "λογοθετέω",
+   "ru": "исчислять",
+   "en": "reckon",
+   "meaning_here": "Assign a ratio (λόγος), with a pun on 'audit accounts' (U042).",
+   "evidence": "LSJ, Brill-Montanari s.v. via Logeion [checked]"
+  },
+  {
+   "greek": "κίρνημι; συγκεράννυμι",
+   "ru": "смешивать; смешанный",
+   "en": "blend; blended",
+   "meaning_here": "Combination of steps into one interval or genus (U042, U058).",
+   "evidence": "LSJ s.vv. [from memory]"
+  },
+  {
+   "greek": "διὰ τεσσάρων",
+   "ru": "кварта",
+   "en": "fourth",
+   "meaning_here": "The consonance 'through four' notes, 4:3.",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 50-51, 56 [checked]"
+  },
+  {
+   "greek": "διὰ πέντε",
+   "ru": "квинта",
+   "en": "fifth",
+   "meaning_here": "The consonance 'through five' notes, 3:2.",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 50-51, 56 [checked]"
+  },
+  {
+   "greek": "διὰ πασῶν",
+   "ru": "октава",
+   "en": "octave",
+   "meaning_here": "The consonance 'through all', 2:1.",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 50-51, 56 [checked]"
+  },
+  {
+   "greek": "δὶς διὰ τεσσάρων",
+   "ru": "двойная кварта",
+   "en": "double fourth",
+   "meaning_here": "In this compiler the fourth of the second octave = octave + fourth, 8:3 (U035-U042, U051); not two fourths (16:9).",
+   "evidence": "Sectio canonis 11 (16:9, dissonant), Jan MSG [checked]; U035, U037, U041 [checked in the text]"
+  },
+  {
+   "greek": "δὶς διὰ πέντε",
+   "ru": "двойная квинта",
+   "en": "double fifth",
+   "meaning_here": "Octave + fifth, 3:1.",
+   "evidence": "U035, U037, U041 [checked in the text]"
+  },
+  {
+   "greek": "δὶς διὰ πασῶν",
+   "ru": "двойная октава",
+   "en": "double octave",
+   "meaning_here": "4:1.",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 48, 56-57 [checked]"
+  },
+  {
+   "greek": "συμφωνία; συμφωνέω",
+   "ru": "консонанс; консонировать",
+   "en": "consonance; be consonant",
+   "meaning_here": "Consonance (U036-U038).",
+   "evidence": "Theon p. 48-50 [checked]; Tsypin 'консонанс', about.md § 5 [checked]"
+  },
+  {
+   "greek": "κατὰ παράφωνον; παράφωνον",
+   "ru": "парафонно; парафонное",
+   "en": "paraphonally; paraphonal",
+   "meaning_here": "Consonance of the fourth and the fifth (Thrasyllus' sense), anisochronous (U036-U037).",
+   "evidence": "Theon p. 48 [checked]; LSJ s.v. παράφωνος (Gaudentius' different sense), via Logeion [checked]"
+  },
+  {
+   "greek": "κατὰ ἀντίφωνον; ἀντίφωνον",
+   "ru": "антифонно; антифонное",
+   "en": "antiphonally; antiphonal",
+   "meaning_here": "Octave-type consonance, isochronous (U036-U037).",
+   "evidence": "Theon p. 48, 51 [checked]; LSJ s.v. ἀντίφωνος III, via Logeion [checked]; [Arist.] Probl. XIX.39 [checked]"
+  },
+  {
+   "greek": "ἰσοχρόνως / ἀνισοχρόνως",
+   "ru": "изохронно / неизохронно",
+   "en": "isochronously / anisochronously",
+   "meaning_here": "With the two notes coinciding / not coinciding in time (U037).",
+   "evidence": "No exact parallel found; cf. [Arist.] Probl. XIX.39 (Jan MSG p. 100-101) [checked]"
+  },
+  {
+   "greek": "τετράχορδον; πεντάχορδον; ὀκτάχορδον",
+   "ru": "тетрахорд; пентахорд; октахорд",
+   "en": "tetrachord; pentachord; octachord",
+   "meaning_here": "Systems spanning a fourth, a fifth, an octave (U015, U035, U051).",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 48 [checked]"
+  },
+  {
+   "greek": "ἑκκαιδεκάχορδον; πεντεκαιδεκάχορδον",
+   "ru": "шестнадцатихорд; пятнадцатихорд",
+   "en": "sixteen-chord; fifteen-chord",
+   "meaning_here": "Two octachords joined: sixteen places on fifteen strings (U015, U051).",
+   "evidence": "U014-U016, U051 [checked in the text]"
+  },
+  {
+   "greek": "κατὰ συνέχειαν; συνέχεια",
+   "ru": "по непрерывности; непрерывность",
+   "en": "by continuity; continuity",
+   "meaning_here": "Joining by a shared note (U015, U051); continuity of matter (U028).",
+   "evidence": "Aristotle, Categories 6 (continuous vs discrete) [from memory]"
+  },
+  {
+   "greek": "χορδή",
+   "ru": "струна",
+   "en": "string",
+   "meaning_here": "String of an instrument, equated with the note (U034, U045, U049).",
+   "evidence": "LSJ s.v. [from memory]"
+  },
+  {
+   "greek": "νευρά",
+   "ru": "жила",
+   "en": "cord",
+   "meaning_here": "Gut string as a measured physical length (U020, U028, U050).",
+   "evidence": "LSJ s.v. [from memory]"
+  },
+  {
+   "greek": "μονάς",
+   "ru": "единица",
+   "en": "unit",
+   "meaning_here": "Arithmetical unit, indivisible in numbers but divisible in matter (U019, U044).",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 19-20 [checked]"
+  },
+  {
+   "greek": "ὕλη",
+   "ru": "материя",
+   "en": "matter",
+   "meaning_here": "Physical substrate of sound (U019, U028, U052).",
+   "evidence": "Aristotle, De anima III.7 [from memory]"
+  },
+  {
+   "greek": "ἐξ ἀφαιρέσεως",
+   "ru": "через отвлечение",
+   "en": "by abstraction",
+   "meaning_here": "Aristotelian abstraction of mathematical objects from matter (U052).",
+   "evidence": "Aristotle, De anima III.7; Metaph. K 3 [from memory]"
+  },
+  {
+   "greek": "δύναμις",
+   "ru": "сила",
+   "en": "power",
+   "meaning_here": "Capacity of a consonance or a fused interval, i.e. the intervals it holds (U027, U051); not the Aristoxenian 'function' of a note.",
+   "evidence": "LSJ s.v. [from memory]"
+  },
+  {
+   "greek": "ἰσχύς",
+   "ru": "мощь",
+   "en": "force",
+   "meaning_here": "Near-synonym of δύναμις (U051).",
+   "evidence": "LSJ s.v. [from memory]"
+  },
+  {
+   "greek": "γένος; διάτονον; χρωματικόν; ἁρμονικόν",
+   "ru": "род; диатонический; хроматический; гармонический",
+   "en": "genus; diatonic; chromatic; harmonic",
+   "meaning_here": "The three genera; 'harmonic' = enharmonic, so named after ἁρμονία (U053-U064). Russian 'гармонический' rather than Tsypin's 'энармоника' to keep the paronymy that the text explains.",
+   "evidence": "Theon p. 53-56 [checked]; Cleonides 3 (Jan MSG) [checked]; Tsypin, about.md § 5 [checked]"
+  },
+  {
+   "greek": "μέλος",
+   "ru": "мелос",
+   "en": "melos",
+   "meaning_here": "Melody as an ordered sequence of pitches; a kind of melody (U027-U028, U042, U054, U065).",
+   "evidence": "Cleonides 14 (Jan MSG) [checked]"
+  },
+  {
+   "greek": "μελῳδία",
+   "ru": "мелодия",
+   "en": "melody",
+   "meaning_here": "Melodic movement; species of melody (U050, U053, U060, U063, U065-U066).",
+   "evidence": "LSJ s.v. [from memory]"
+  },
+  {
+   "greek": "εἶδος",
+   "ru": "вид",
+   "en": "species",
+   "meaning_here": "Kind (of interval, of melody) (U042, U050, U065).",
+   "evidence": "LSJ s.v. [from memory]"
+  },
+  {
+   "greek": "δυσμελῳδικώτατον",
+   "ru": "труднее всего для пения",
+   "en": "most difficult to sing",
+   "meaning_here": "Hardest to use in melody (U063); variant formation for Theon's δυσμελῳδητότατον.",
+   "evidence": "LSJ, DGE s.v. δυσμελῴδητος (Theo Sm. p. 56 H.), via Logeion [checked]"
+  },
+  {
+   "greek": "προσηγορία; κλῆσις; φερωνυμία",
+   "ru": "наименование; название; меткость наименований",
+   "en": "appellation; name; aptness of the names",
+   "meaning_here": "Names of notes and intervals (U014, U034-U035).",
+   "evidence": "LSJ s.vv. [from memory]"
+  },
+  {
+   "greek": "προσλαμβανόμενος",
+   "ru": "просламбаномен",
+   "en": "proslambanomenos",
+   "meaning_here": "Note 1 (A).",
+   "evidence": "Tsypin, about.md § 5 [checked]"
+  },
+  {
+   "greek": "ὑπάτη ὑπάτων",
+   "ru": "гипата низших",
+   "en": "hypatē hypatōn",
+   "meaning_here": "Note 2 (B).",
+   "evidence": "Tsypin, about.md § 5 [checked]"
+  },
+  {
+   "greek": "παρυπάτη ὑπάτων",
+   "ru": "парипата низших",
+   "en": "parhypatē hypatōn",
+   "meaning_here": "Note 3 (c).",
+   "evidence": "Tsypin, about.md § 5 [checked]"
+  },
+  {
+   "greek": "ὑπάτη διάτονος",
+   "ru": "гипата диатоническая",
+   "en": "hypatē diatonos",
+   "meaning_here": "Note 4 (d) = lichanos hypatōn; standard ὑπάτων διάτονος (see doubt at U014).",
+   "evidence": "Nicomachus, Ench. 12; Bacchius, Isag. (Jan MSG) [checked]"
+  },
+  {
+   "greek": "ὑπάτη μέσων",
+   "ru": "гипата средних",
+   "en": "hypatē mesōn",
+   "meaning_here": "Note 5 (e).",
+   "evidence": "Tsypin, about.md § 5 [checked]"
+  },
+  {
+   "greek": "παρυπάτη μέσων",
+   "ru": "парипата средних",
+   "en": "parhypatē mesōn",
+   "meaning_here": "Note 6 (f).",
+   "evidence": "Tsypin, about.md § 5 [checked]"
+  },
+  {
+   "greek": "⟨μέσων διάτονος⟩",
+   "ru": "⟨диатоническая средних⟩",
+   "en": "⟨mesōn diatonos⟩",
+   "meaning_here": "Note 7 (g) = lichanos mesōn, restored by conjecture.",
+   "evidence": "Gaudentius 8 (μέσων διάτονος as a note name), Jan MSG [checked]"
+  },
+  {
+   "greek": "μέση μόνως",
+   "ru": "меса просто",
+   "en": "mesē simply",
+   "meaning_here": "Note 8 (a), named without a tetrachord qualifier.",
+   "evidence": "Apparatus to Bas. 25.7 [checked]"
+  },
+  {
+   "greek": "παράμεσος",
+   "ru": "парамес",
+   "en": "paramesos",
+   "meaning_here": "Note 9 (b) = paramesē; Nicomachus' form.",
+   "evidence": "Nicomachus, Ench. 11 (Jan MSG) [checked]"
+  },
+  {
+   "greek": "τρίτη διεζευγμένη",
+   "ru": "трита отделённая",
+   "en": "tritē diezeugmenē",
+   "meaning_here": "Note 10 (c'); qualifier in the nominative singular.",
+   "evidence": "Tsypin, about.md § 5 [checked]; apparatus to Bas. 25.8-9 [checked]"
+  },
+  {
+   "greek": "διάτονος διεζευγμένη",
+   "ru": "диатоническая отделённая",
+   "en": "diatonos diezeugmenē",
+   "meaning_here": "Note 11 (d') = paranētē diezeugmenōn.",
+   "evidence": "Bacchius, Isag. (diatonos names), Jan MSG [checked]"
+  },
+  {
+   "greek": "νήτη διεζευγμένη",
+   "ru": "нета отделённая",
+   "en": "nētē diezeugmenē",
+   "meaning_here": "Note 12 (e').",
+   "evidence": "Tsypin, about.md § 5 [checked]"
+  },
+  {
+   "greek": "τρίτη ὑπερβολαίων",
+   "ru": "трита высших",
+   "en": "tritē hyperbolaiōn",
+   "meaning_here": "Note 13 (f').",
+   "evidence": "Tsypin, about.md § 5 [checked]"
+  },
+  {
+   "greek": "διάτονος ὑπερβολαίων",
+   "ru": "диатоническая высших",
+   "en": "diatonos hyperbolaiōn",
+   "meaning_here": "Note 14 (g') = paranētē hyperbolaiōn.",
+   "evidence": "Bacchius, Isag., Jan MSG [checked]"
+  },
+  {
+   "greek": "νήτη ὑπερβολαίων",
+   "ru": "нета высших",
+   "en": "nētē hyperbolaiōn",
+   "meaning_here": "Note 15 (a').",
+   "evidence": "Tsypin, about.md § 5 [checked]"
+  },
+  {
+   "greek": "ἐξάρτησις τῶν βαρῶν",
+   "ru": "подвешивание грузов",
+   "en": "hanging of weights",
+   "meaning_here": "The weight experiment of the Pythagoras legend (U049-U050).",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 56-57 [checked]; Nicomachus, Ench. 6 (Jan MSG) [checked]"
+  },
+  {
+   "greek": "κόλλαβος",
+   "ru": "колок",
+   "en": "peg",
+   "meaning_here": "Tuning peg (U049).",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 56-57 [checked]"
+  },
+  {
+   "greek": "ἐμπνευστά; κοιλία; αὐλός; τρῆμα",
+   "ru": "духовые; полость; авлос; отверстие",
+   "en": "wind instruments; bore; aulos; hole",
+   "meaning_here": "Wind instruments, their bore, the pipe and its finger-holes (U049-U050).",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 56-57, 60 [checked]"
+  },
+  {
+   "greek": "μεταφορά; μετάβασις",
+   "ru": "перенос; переход",
+   "en": "transference; transition",
+   "meaning_here": "Shifting of intervals; passage from note to note (U066).",
+   "evidence": "LSJ s.vv. [from memory]"
+  },
+  {
+   "greek": "διαμονή; ῥοή",
+   "ru": "выдерживание; течение",
+   "en": "sustaining; flow",
+   "meaning_here": "Held notes; flowing passages (U066).",
+   "evidence": "Cleonides 14 (μονή in the definition of τονή), Jan MSG [checked]"
+  },
+  {
+   "greek": "ἐπαφή; κροῦμα",
+   "ru": "касание; удар",
+   "en": "touch; stroke",
+   "meaning_here": "Touching and striking of strings (U066).",
+   "evidence": "LSJ s.vv. via Logeion [checked]"
+  },
+  {
+   "greek": "παιήων; ὑμέναιος; ἐξόδιος",
+   "ru": "пеан; гименей; эксодий",
+   "en": "paean; hymenaeus; exodios",
+   "meaning_here": "Song types (U065); ἐξόδιος a closing or departure song (see doubt).",
+   "evidence": "LSJ, Pape s.v. ἐξόδιος via Logeion [checked]"
+  },
+  {
+   "greek": "λύδιον, φρύγιον, δώριον [μέλος]",
+   "ru": "лидийский, фригийский, дорийский [мелос]",
+   "en": "Lydian, Phrygian, Dorian [melos]",
+   "meaning_here": "The three harmoniai, Thrasyllus' examples (U065).",
+   "evidence": "Theon Smyrn., ed. Hiller, p. 48 [checked]"
+  },
+  {
+   "greek": "ῥυθμός",
+   "ru": "мера",
+   "en": "measure",
+   "meaning_here": "Proportion or pattern of the structure that limits fused intervals (U026; see doubt).",
+   "evidence": "LSJ s.v. II-VI via Logeion [checked]"
+  },
+  {
+   "greek": "διάμετρος",
+   "ru": "диагональ",
+   "en": "diagonal",
+   "meaning_here": "Diagonal of the square (U024, U031).",
+   "evidence": "Plato, Meno 85b [from memory]"
+  },
+  {
+   "greek": "τετραγωνίζομαι",
+   "ru": "обратиться в квадрат",
+   "en": "be squared",
+   "meaning_here": "Become a square number (U023, U030).",
+   "evidence": "LSJ s.v. τετραγωνίζω [from memory]"
+  },
+  {
+   "greek": "ἀνεγχώρητος",
+   "ru": "недопустимый",
+   "en": "inadmissible",
+   "meaning_here": "Impossible (U029).",
+   "evidence": "LSJ, DGE s.v. via Logeion [checked]"
+  }
+ ],
+ "F": [
+  {
+   "greek": "μουσική",
+   "ru": "музыка",
+   "en": "music",
+   "meaning_here": "Universal mathematical ordering in the introduction; subsequently the theory of audible music.",
+   "evidence": "U002–U007 [checked]; Plato, Timaeus35b–36b [from memory]."
+  },
+  {
+   "greek": "συμμετρία",
+   "ru": "соразмерность",
+   "en": "commensurability",
+   "meaning_here": "Appropriate mutual measure or proportion, not necessarily literal geometrical symmetry.",
+   "evidence": "U002–U004 [checked]; LSJ s.v. συμμετρία [from memory]."
+  },
+  {
+   "greek": "ἀναλογία",
+   "ru": "пропорция",
+   "en": "proportion",
+   "meaning_here": "Proportional ordering or correspondence; distinct from an individual two-term ratio.",
+   "evidence": "U002–U004,U037 [checked]; LSJ s.v. ἀναλογία [from memory]."
+  },
+  {
+   "greek": "αὐτοσυμμετρία",
+   "ru": "соразмерность сама по себе",
+   "en": "commensurability itself",
+   "meaning_here": "A transparent intensifying compound, not securely an independently established technical hypostasis.",
+   "evidence": "U004 [checked]; no independent entry located in LSJ (negative search only, not proof of absence from every lexicon)."
+  },
+  {
+   "greek": "ἁρμονία",
+   "ru": "гармония",
+   "en": "harmony",
+   "meaning_here": "The fitting or arrangement of systems, also the cosmic principle of fitting in the introduction.",
+   "evidence": "Cleonides, Introductio harmonica §§1–4, Jan, Musici scriptores Graeci (1895), pp. 179–182 [checked], First1KGreek (main Greek text only). definition U011 [checked]."
+  },
+  {
+   "greek": "φθόγγος",
+   "ru": "звук",
+   "en": "note",
+   "meaning_here": "A determinate musical pitch as opposed to mere noise.",
+   "evidence": "Cleonides, Introductio harmonica §§1–4, Jan, Musici scriptores Graeci (1895), pp. 179–182 [checked], First1KGreek (main Greek text only)."
+  },
+  {
+   "greek": "φωνή",
+   "ru": "голос",
+   "en": "voice",
+   "meaning_here": "Sound as voiced or sounded, not restricted to the human voice.",
+   "evidence": "Cleonides, Introductio harmonica §§1–4, Jan, Musici scriptores Graeci (1895), pp. 179–182 [checked], First1KGreek (main Greek text only)."
+  },
+  {
+   "greek": "τάσις",
+   "ru": "высота; повышение; натяжение",
+   "en": "pitch; raising; tension",
+   "meaning_here": "Determinate pitch at U008; raising in U037; physical string tension in U049. The English/Russian equivalents distinguish these contextual senses rather than conflating pitch with force.",
+   "evidence": "Cleonides, Introductio harmonica §§1–4, Jan, Musici scriptores Graeci (1895), pp. 179–182 [checked], First1KGreek (main Greek text only). U008,U037,U049 [checked]."
+  },
+  {
+   "greek": "ἀδιάστατος",
+   "ru": "не имеющий интервальной протяжённости",
+   "en": "without intervallic extension",
+   "meaning_here": "Having no internal intervallic span, like a geometrical point; not unpitched.",
+   "evidence": "LSJ s.v. ἀδιάστατος II [checked], Logeion; it does not cite the present text."
+  },
+  {
+   "greek": "ἐναρμόνιος",
+   "ru": "пригодный для гармонии",
+   "en": "fit for harmony",
+   "meaning_here": "Musically fitted or combinable, not here specifically of the enharmonic genus.",
+   "evidence": "LSJ s.v. ἐναρμόνιος I–II [checked], Logeion; it does not cite the present text."
+  },
+  {
+   "greek": "διάστημα / διάστασις",
+   "ru": "интервал",
+   "en": "interval",
+   "meaning_here": "A relational pitch distance; the two nouns are not assigned separate numerical meanings.",
+   "evidence": "Cleonides, Introductio harmonica §§1–4, Jan, Musici scriptores Graeci (1895), pp. 179–182 [checked], First1KGreek (main Greek text only). U009,U033–U045 [checked]."
+  },
+  {
+   "greek": "σχέσις",
+   "ru": "отношение",
+   "en": "relation",
+   "meaning_here": "The determinate relation of notes, before the numerical ratio is specified.",
+   "evidence": "U009 [checked]; LSJ s.v. σχέσις [from memory]."
+  },
+  {
+   "greek": "σύστημα",
+   "ru": "система",
+   "en": "system",
+   "meaning_here": "An ordered compass of intervals; the compiler later stresses its material realization.",
+   "evidence": "Cleonides, Introductio harmonica §§1–4, Jan, Musici scriptores Graeci (1895), pp. 179–182 [checked], First1KGreek (main Greek text only). U010,U051–U052 [checked]."
+  },
+  {
+   "greek": "περιοχή",
+   "ru": "совокупность",
+   "en": "compass",
+   "meaning_here": "A bounded encompassing of intervals in the definition of a system.",
+   "evidence": "U010 and apparatus at24.18 [checked]; LSJ s.v. περιοχή [from memory]."
+  },
+  {
+   "greek": "σύνταξις / συντάττειν",
+   "ru": "упорядочение / упорядочивать",
+   "en": "arrangement / arrange",
+   "meaning_here": "The ordered fitting of systems in harmony.",
+   "evidence": "U011,U053,U061 [checked]; LSJ s.vv. σύνταξις, συντάσσω [from memory]."
+  },
+  {
+   "greek": "ἀπηχής",
+   "ru": "нестройный",
+   "en": "out-of-tune",
+   "meaning_here": "Musically unsuitable sound; distinct from a measured dissonant interval.",
+   "evidence": "LSJ s.v. ἀπηχής [checked], Logeion; it does not cite the present text."
+  },
+  {
+   "greek": "ψόφος",
+   "ru": "шум",
+   "en": "noise",
+   "meaning_here": "Mere sound lacking the suitability required of a musical note.",
+   "evidence": "U013 [checked]; LSJ s.v. ψόφος [from memory]."
+  },
+  {
+   "greek": "βαρύς / ὀξύς",
+   "ru": "низкий / высокий",
+   "en": "low / high",
+   "meaning_here": "Low and high pitch, not loudness or softness.",
+   "evidence": "Cleonides, Introductio harmonica §§1–4, Jan, Musici scriptores Graeci (1895), pp. 179–182 [checked], First1KGreek (main Greek text only)."
+  },
+  {
+   "greek": "προσλαμβανόμενος",
+   "ru": "просламбаномен",
+   "en": "proslambanomenos",
+   "meaning_here": "Added lowest note of the disjunct fifteen-note system; reference note in U042.",
+   "evidence": "Cleonides, Introductio harmonica §§1–4, Jan, Musici scriptores Graeci (1895), pp. 179–182 [checked], First1KGreek (main Greek text only). Sectio canonis §§11–16,19–20, Jan, Musici scriptores Graeci (1895) [checked]."
+  },
+  {
+   "greek": "ὑπάτη ὑπάτων",
+   "ru": "гипата низших",
+   "en": "hypate hypaton",
+   "meaning_here": "Second degree; lower boundary of the lowest tetrachord.",
+   "evidence": "Cleonides, Introductio harmonica §§1–4, Jan, Musici scriptores Graeci (1895), pp. 179–182 [checked], First1KGreek (main Greek text only)."
+  },
+  {
+   "greek": "παρυπάτη ὑπάτων",
+   "ru": "парипата низших",
+   "en": "parhypate hypaton",
+   "meaning_here": "Third degree, above hypate hypaton.",
+   "evidence": "Cleonides, Introductio harmonica §§1–4, Jan, Musici scriptores Graeci (1895), pp. 179–182 [checked], First1KGreek (main Greek text only)."
+  },
+  {
+   "greek": "ὑπάτη διάτονος",
+   "ru": "гипата диатонная",
+   "en": "hypate diatonos",
+   "meaning_here": "Printed irregular name for degree4, occupying the normal lichanos hypaton diatonos position.",
+   "evidence": "Cleonides, Introductio harmonica §§1–4, Jan, Musici scriptores Graeci (1895), pp. 179–182 [checked], First1KGreek (main Greek text only). U014 [checked]; no silent emendation."
+  },
+  {
+   "greek": "ὑπάτη μέσων",
+   "ru": "гипата средних",
+   "en": "hypate meson",
+   "meaning_here": "Degree5, shared boundary of the two lower tetrachords.",
+   "evidence": "Cleonides, Introductio harmonica §§1–4, Jan, Musici scriptores Graeci (1895), pp. 179–182 [checked], First1KGreek (main Greek text only)."
+  },
+  {
+   "greek": "παρυπάτη μέσων",
+   "ru": "парипата средних",
+   "en": "parhypate meson",
+   "meaning_here": "Degree6, above hypate meson.",
+   "evidence": "Cleonides, Introductio harmonica §§1–4, Jan, Musici scriptores Graeci (1895), pp. 179–182 [checked], First1KGreek (main Greek text only)."
+  },
+  {
+   "greek": "⟨μέσων διάτονος⟩",
+   "ru": "⟨диатонос средних⟩",
+   "en": "⟨meson diatonos⟩",
+   "meaning_here": "Editorially supplied degree7, normally lichanos meson diatonos.",
+   "evidence": "Cleonides, Introductio harmonica §§1–4, Jan, Musici scriptores Graeci (1895), pp. 179–182 [checked], First1KGreek (main Greek text only). apparatus at25.7 [checked]."
+  },
+  {
+   "greek": "μέση μόνως",
+   "ru": "просто меса",
+   "en": "simply mese",
+   "meaning_here": "Degree8, shared note of the two octaves; μόνως qualifies its naming.",
+   "evidence": "Cleonides, Introductio harmonica §§1–4, Jan, Musici scriptores Graeci (1895), pp. 179–182 [checked], First1KGreek (main Greek text only). U014 [checked]."
+  },
+  {
+   "greek": "παράμεσος",
+   "ru": "парамесос",
+   "en": "paramesos",
+   "meaning_here": "Degree9, normally called paramese; the printed form is retained.",
+   "evidence": "Cleonides, Introductio harmonica §§1–4, Jan, Musici scriptores Graeci (1895), pp. 179–182 [checked], First1KGreek (main Greek text only). U014 [checked]."
+  },
+  {
+   "greek": "τρίτη διεζευγμένη",
+   "ru": "трита отделённая",
+   "en": "trite diezeugmene",
+   "meaning_here": "Degree10; printed singular adjective preserved instead of standard genitive plural.",
+   "evidence": "Cleonides, Introductio harmonica §§1–4, Jan, Musici scriptores Graeci (1895), pp. 179–182 [checked], First1KGreek (main Greek text only). U014 [checked]."
+  },
+  {
+   "greek": "διάτονος διεζευγμένη",
+   "ru": "диатонос отделённая",
+   "en": "diatonos diezeugmene",
+   "meaning_here": "Degree11, normally paranete diezeugmenon diatonos.",
+   "evidence": "Cleonides, Introductio harmonica §§1–4, Jan, Musici scriptores Graeci (1895), pp. 179–182 [checked], First1KGreek (main Greek text only). U014 [checked]."
+  },
+  {
+   "greek": "νήτη διεζευγμένη",
+   "ru": "нета отделённая",
+   "en": "nete diezeugmene",
+   "meaning_here": "Degree12, upper boundary of the disjunct tetrachord.",
+   "evidence": "Cleonides, Introductio harmonica §§1–4, Jan, Musici scriptores Graeci (1895), pp. 179–182 [checked], First1KGreek (main Greek text only). U014 [checked]."
+  },
+  {
+   "greek": "τρίτη ὑπερβολαίων",
+   "ru": "трита высших",
+   "en": "trite hyperbolaion",
+   "meaning_here": "Degree13 in the highest tetrachord.",
+   "evidence": "Cleonides, Introductio harmonica §§1–4, Jan, Musici scriptores Graeci (1895), pp. 179–182 [checked], First1KGreek (main Greek text only)."
+  },
+  {
+   "greek": "διάτονος ὑπερβολαίων",
+   "ru": "диатонос высших",
+   "en": "diatonos hyperbolaion",
+   "meaning_here": "Degree14, normally paranete hyperbolaion diatonos.",
+   "evidence": "Cleonides, Introductio harmonica §§1–4, Jan, Musici scriptores Graeci (1895), pp. 179–182 [checked], First1KGreek (main Greek text only). U014 [checked]."
+  },
+  {
+   "greek": "νήτη ὑπερβολαίων",
+   "ru": "нета высших",
+   "en": "nete hyperbolaion",
+   "meaning_here": "Degree15, upper endpoint of the double octave.",
+   "evidence": "Cleonides, Introductio harmonica §§1–4, Jan, Musici scriptores Graeci (1895), pp. 179–182 [checked], First1KGreek (main Greek text only)."
+  },
+  {
+   "greek": "πεντεκαιδεκάχορδον",
+   "ru": "пятнадцатиструнник",
+   "en": "fifteen-string system",
+   "meaning_here": "Fifteen distinct pitches spanning a double octave.",
+   "evidence": "U014–U016 [checked]; Sectio canonis §§11–16,19–20, Jan, Musici scriptores Graeci (1895) [checked]."
+  },
+  {
+   "greek": "ἑκκαιδεκάχορδον",
+   "ru": "шестнадцатиструнник",
+   "en": "sixteen-string system",
+   "meaning_here": "The author’s count of two octachords before subtracting their common note; not sixteen distinct pitches.",
+   "evidence": "U015,U051 [checked];8+8−1=15 [checked]."
+  },
+  {
+   "greek": "ὀκτάχορδον",
+   "ru": "восьмиструнник; октахорд",
+   "en": "eight-string system; octachord",
+   "meaning_here": "Eight-note octave system; descriptive adjective at U015, named system at U051.",
+   "evidence": "U015,U035,U051 [checked]; Sectio canonis §§11–16,19–20, Jan, Musici scriptores Graeci (1895) [checked]."
+  },
+  {
+   "greek": "λόγος",
+   "ru": "отношение",
+   "en": "ratio",
+   "meaning_here": "A numerical relation of two quantities; also the scale-wide pitch relation rather than the ordinal note count.",
+   "evidence": "Sectio canonis §§11–16,19–20, Jan, Musici scriptores Graeci (1895) [checked]."
+  },
+  {
+   "greek": "δίεσις",
+   "ru": "диеса",
+   "en": "diesis",
+   "meaning_here": "Smallest interval in this account, a quarter-tone in the additive scheme; not the Pythagorean limma.",
+   "evidence": "Cleonides, Introductio harmonica §§1–4, Jan, Musici scriptores Graeci (1895), pp. 179–182 [checked], First1KGreek (main Greek text only). U018,U060 [checked]."
+  },
+  {
+   "greek": "ἡμιτόνιον",
+   "ru": "полутон",
+   "en": "semitone",
+   "meaning_here": "Nominal half-tone; the compiler alternates incompatible additive and ratio constructions.",
+   "evidence": "Cleonides, Introductio harmonica §§1–4, Jan, Musici scriptores Graeci (1895), pp. 179–182 [checked], First1KGreek (main Greek text only). Sectio canonis §§11–16,19–20, Jan, Musici scriptores Graeci (1895) [checked]."
+  },
+  {
+   "greek": "τόνος",
+   "ru": "тон",
+   "en": "tone",
+   "meaning_here": "Whole-tone interval9:8; not here a transposition key or mode.",
+   "evidence": "Sectio canonis §§11–16,19–20, Jan, Musici scriptores Graeci (1895) [checked]."
+  },
+  {
+   "greek": "ἐπόγδοος",
+   "ru": "эпогдоическое",
+   "en": "sesquioctave",
+   "meaning_here": "The ratio one and an eighth,9:8.",
+   "evidence": "LSJ s.v. ἐπόγδοος [checked], Logeion; it does not cite the present text. Sectio canonis §§11–16,19–20, Jan, Musici scriptores Graeci (1895) [checked]."
+  },
+  {
+   "greek": "ἡμιεπόγδοος",
+   "ru": "полуэпогдоическое",
+   "en": "half-sesquioctave",
+   "meaning_here": "A half of the9:8 interval as conceived by the compiler, not necessarily a correctly constructed geometric mean.",
+   "evidence": "U020 [checked]; no independent LSJ attestation located; the translation follows the compound and local explanation only."
+  },
+  {
+   "greek": "μονάς",
+   "ru": "единица",
+   "en": "unit",
+   "meaning_here": "Indivisible unit of discrete arithmetic, distinguished from a divisible material unit.",
+   "evidence": "U019,U044 [checked]; Sectio canonis §3 [checked]; Euclid, Elements VII definitions1–2 [from memory]."
+  },
+  {
+   "greek": "ὕλη",
+   "ru": "материя",
+   "en": "matter",
+   "meaning_here": "Material instantiation and continuity, opposed to abstract numbers and intervals.",
+   "evidence": "U019,U028,U052 [checked]; LSJ s.v. ὕλη [from memory]."
+  },
+  {
+   "greek": "νευρά / χορδή",
+   "ru": "струна",
+   "en": "string",
+   "meaning_here": "Material string; the two Greek nouns are synonymous here.",
+   "evidence": "U020,U028,U034,U049–U050 [checked]; Sectio canonis §§11–16,19–20, Jan, Musici scriptores Graeci (1895) [checked]."
+  },
+  {
+   "greek": "εὐθεῖα",
+   "ru": "прямая",
+   "en": "straight line",
+   "meaning_here": "A finite straight-line segment in the geometrical operations.",
+   "evidence": "U021,U029 [checked]; Euclid, Elements I definitions2–4 [from memory]."
+  },
+  {
+   "greek": "σχῆμα",
+   "ru": "фигура",
+   "en": "figure",
+   "meaning_here": "A geometrical figure capable of enlargement or reduction.",
+   "evidence": "U021,U029 [checked]; Euclid, Elements I definition14 [from memory]."
+  },
+  {
+   "greek": "τετράγωνον",
+   "ru": "квадрат",
+   "en": "square",
+   "meaning_here": "A square figure, and by extension an integer square number in the arithmetic contrast.",
+   "evidence": "U023–U024,U030–U031 [checked]; Euclid, Elements I.47 [from memory]."
+  },
+  {
+   "greek": "διάμετρος",
+   "ru": "диагональ",
+   "en": "diagonal",
+   "meaning_here": "The diagonal of a square; not the diameter of a circle.",
+   "evidence": "U024,U031 [checked]; Euclid, Elements I.47 [from memory]."
+  },
+  {
+   "greek": "ἀσύνθετος",
+   "ru": "несоставной",
+   "en": "incomposite",
+   "meaning_here": "Melodically single in the author’s explanation, though its magnitude equals several smaller intervals.",
+   "evidence": "U026–U027,U058–U060 [checked]; Cleonides §5 [from memory]."
+  },
+  {
+   "greek": "τριδίεσις",
+   "ru": "тридиеса",
+   "en": "tridiesis",
+   "meaning_here": "A magnitude of three dieses, nominally three quarter-tones.",
+   "evidence": "U026,U042 [checked]; additive calculation [checked]."
+  },
+  {
+   "greek": "τριημιτόνιον",
+   "ru": "трёхполутоновый интервал",
+   "en": "trisemitone",
+   "meaning_here": "A single interval with the magnitude of three semitones, especially the large chromatic step.",
+   "evidence": "Cleonides, Introductio harmonica §§1–4, Jan, Musici scriptores Graeci (1895), pp. 179–182 [checked], First1KGreek (main Greek text only)."
+  },
+  {
+   "greek": "διτόνιον",
+   "ru": "двухтоновый интервал",
+   "en": "ditone",
+   "meaning_here": "A single step of two tones, especially in the enharmonic tetrachord.",
+   "evidence": "Cleonides, Introductio harmonica §§1–4, Jan, Musici scriptores Graeci (1895), pp. 179–182 [checked], First1KGreek (main Greek text only)."
+  },
+  {
+   "greek": "τριτόνιον",
+   "ru": "трёхтоновый интервал",
+   "en": "tritone",
+   "meaning_here": "A single step with the extent of three tones; not called a consonance here.",
+   "evidence": "U026,U042 [checked]; LSJ s.v. τριτόνιον [from memory]."
+  },
+  {
+   "greek": "ῥυθμός",
+   "ru": "ритм",
+   "en": "rhythm",
+   "meaning_here": "The condition invoked for allowable interval enlargement; the compiler does not explain a precise quantitative rule.",
+   "evidence": "U026 [checked]; LSJ s.v. ῥυθμός [from memory]."
+  },
+  {
+   "greek": "μέλος / μελῳδία",
+   "ru": "мелодия",
+   "en": "melody",
+   "meaning_here": "Melodic sounding, a melodic unit, or a kind of song; the scale varies with context.",
+   "evidence": "Cleonides, Introductio harmonica §§1–4, Jan, Musici scriptores Graeci (1895), pp. 179–182 [checked], First1KGreek (main Greek text only). U027,U042,U065 [checked]."
+  },
+  {
+   "greek": "σύμφθαρσις",
+   "ru": "слияние",
+   "en": "fusion",
+   "meaning_here": "Coalescence of component interval magnitudes in one sounded step; conjectural in several P readings.",
+   "evidence": "LSJ s.v. σύμφθαρσις2 [checked], Logeion; it does not cite the present text. apparatus [checked]."
+  },
+  {
+   "greek": "δύναμις",
+   "ru": "величина; возможность",
+   "en": "magnitude; capacity",
+   "meaning_here": "Effect/extent of component intervals at U027 and capacities of systems at U051; same word with related contextual senses.",
+   "evidence": "U027,U051 [checked]; Cleonides §2 on note-function [checked], used as a contrast rather than imposed on this passage."
+  },
+  {
+   "greek": "συνέχεια",
+   "ru": "непрерывность",
+   "en": "continuity",
+   "meaning_here": "Continuity of material magnitudes; continuous succession when systems are linked.",
+   "evidence": "U015,U028–U029,U051 [checked]; LSJ s.v. συνέχεια [from memory]."
+  },
+  {
+   "greek": "διὰ τεσσάρων",
+   "ru": "кварта",
+   "en": "fourth",
+   "meaning_here": "Inclusive four-note span, conventionally4:3.",
+   "evidence": "Sectio canonis §§11–16,19–20, Jan, Musici scriptores Graeci (1895) [checked]."
+  },
+  {
+   "greek": "διὰ πέντε",
+   "ru": "квинта",
+   "en": "fifth",
+   "meaning_here": "Inclusive five-note span, conventionally3:2.",
+   "evidence": "Sectio canonis §§11–16,19–20, Jan, Musici scriptores Graeci (1895) [checked]."
+  },
+  {
+   "greek": "διὰ πασῶν",
+   "ru": "октава",
+   "en": "octave",
+   "meaning_here": "Inclusive eight-note span,2:1; literally through all strings.",
+   "evidence": "Sectio canonis §§11–16,19–20, Jan, Musici scriptores Graeci (1895) [checked]."
+  },
+  {
+   "greek": "δὶς διὰ τεσσάρων",
+   "ru": "двойная кварта",
+   "en": "double fourth",
+   "meaning_here": "Printed label, literally two fourths; context often seems to intend octave-plus-fourth. The translation does not normalize it.",
+   "evidence": "U035–U042,U051 [checked]; Sectio canonis §§11–16,19–20, Jan, Musici scriptores Graeci (1895) [checked]."
+  },
+  {
+   "greek": "δὶς διὰ πέντε",
+   "ru": "двойная квинта",
+   "en": "double fifth",
+   "meaning_here": "Printed label, literally two fifths; context often seems to intend octave-plus-fifth.",
+   "evidence": "U035–U042,U051 [checked]; Sectio canonis §§11–16,19–20, Jan, Musici scriptores Graeci (1895) [checked]."
+  },
+  {
+   "greek": "δὶς διὰ πασῶν",
+   "ru": "двойная октава",
+   "en": "double octave",
+   "meaning_here": "Two successive octaves,4:1.",
+   "evidence": "Sectio canonis §§11–16,19–20, Jan, Musici scriptores Graeci (1895) [checked]."
+  },
+  {
+   "greek": "ἄμεσος",
+   "ru": "непосредственный",
+   "en": "immediate",
+   "meaning_here": "Without an intervening sounded step in the local melodic context; contrasted with mediate spans.",
+   "evidence": "U034,U042–U044 [checked]."
+  },
+  {
+   "greek": "ἔμμεσος",
+   "ru": "опосредованный",
+   "en": "mediate",
+   "meaning_here": "Relating remote endpoints across intermediate notes; explicitly compared with a syllogistic conclusion.",
+   "evidence": "U042–U044 and apparatus [checked]."
+  },
+  {
+   "greek": "συμφωνία / συμφωνεῖν",
+   "ru": "консонанс / образовывать консонанс",
+   "en": "consonance / be consonant",
+   "meaning_here": "Consonant sounding, distinguished from its sub-consonant intervallic constituents.",
+   "evidence": "Sectio canonis §§11–16,19–20, Jan, Musici scriptores Graeci (1895) [checked]."
+  },
+  {
+   "greek": "παράφωνον",
+   "ru": "парафонное; парафонно",
+   "en": "paraphonic; paraphonically",
+   "meaning_here": "The compiler’s fourth/fifth category, subsequently associated with successive sounding; not automatically Gaudentius’s different use.",
+   "evidence": "LSJ s.v. παράφωνος, παραφωνία [checked], Logeion; it does not cite the present text. U036–U037 [checked]."
+  },
+  {
+   "greek": "ἀντίφωνον",
+   "ru": "антифонное; антифонно",
+   "en": "antiphonic; antiphonically",
+   "meaning_here": "Locally exemplified by octave-related pairs sounding together, rather than alternating choirs.",
+   "evidence": "LSJ s.v. ἀντίφωνος I,III [checked], Logeion; it does not cite the present text."
+  },
+  {
+   "greek": "ἀνισοχρόνως / ἰσοχρόνως",
+   "ru": "в неравное время / в равное время",
+   "en": "at unequal times / at equal times",
+   "meaning_here": "Temporal contrast preserved literally; succession/simultaneity is a contextual interpretation, not an inserted acoustic theory.",
+   "evidence": "LSJ s.v. ἀνισόχρονος [checked], Logeion; it does not cite the present text. U037 [checked]."
+  },
+  {
+   "greek": "ἄνεσις / ἐπίτασις",
+   "ru": "понижение / повышение; ослабление / усиление",
+   "en": "lowering / raising; relaxation / intensification",
+   "meaning_here": "Pitch movement in harmonics; relaxation/intensification of breath or force when the physical context requires it.",
+   "evidence": "Cleonides, Introductio harmonica §§1–4, Jan, Musici scriptores Graeci (1895), pp. 179–182 [checked], First1KGreek (main Greek text only). U037,U045,U049–U050 [checked]."
+  },
+  {
+   "greek": "ἐπίτριτος",
+   "ru": "эпитритное",
+   "en": "sesquitertian",
+   "meaning_here": "One and one third,4:3.",
+   "evidence": "Sectio canonis §§11–16,19–20, Jan, Musici scriptores Graeci (1895) [checked]."
+  },
+  {
+   "greek": "ἡμιόλιος",
+   "ru": "полуторное",
+   "en": "sesquialteran",
+   "meaning_here": "One and a half,3:2.",
+   "evidence": "Sectio canonis §§11–16,19–20, Jan, Musici scriptores Graeci (1895) [checked]."
+  },
+  {
+   "greek": "διπλάσιος",
+   "ru": "двойное",
+   "en": "double",
+   "meaning_here": "Twofold ratio2:1.",
+   "evidence": "Sectio canonis §§11–16,19–20, Jan, Musici scriptores Graeci (1895) [checked]."
+  },
+  {
+   "greek": "διπλασιεπιμερής",
+   "ru": "двойное сверхчастное",
+   "en": "double-superpartient",
+   "meaning_here": "Twice plus several proper parts; specifically2+2/3 in U041, though the generic printed term lacks a denominator.",
+   "evidence": "LSJ s.v. ἐπιμερής [checked], Logeion; it does not cite the present text. U040–U041 [checked]."
+  },
+  {
+   "greek": "τριπλάσιος",
+   "ru": "тройное",
+   "en": "triple",
+   "meaning_here": "Threefold ratio3:1.",
+   "evidence": "Sectio canonis §§11–16,19–20, Jan, Musici scriptores Graeci (1895) [checked]."
+  },
+  {
+   "greek": "τετραπλάσιος",
+   "ru": "четверное",
+   "en": "quadruple",
+   "meaning_here": "Fourfold ratio4:1.",
+   "evidence": "Sectio canonis §§11–16,19–20, Jan, Musici scriptores Graeci (1895) [checked]."
+  },
+  {
+   "greek": "ὅρος",
+   "ru": "член",
+   "en": "term",
+   "meaning_here": "A term of a numerical ratio; also the term of a syllogism in the analogy.",
+   "evidence": "U041,U043 [checked]; LSJ s.v. ὅρος [from memory]."
+  },
+  {
+   "greek": "καθ’ ὑπερβατόν",
+   "ru": "с пропуском [средних членов]",
+   "en": "skipping over [intervening terms]",
+   "meaning_here": "Connecting endpoints over intermediate terms, not primarily rhetorical inversion.",
+   "evidence": "U043–U044 [checked]; LSJ s.v. ὑπερβατός [from memory]."
+  },
+  {
+   "greek": "διπλασιημιόλιος",
+   "ru": "двойное с половиной",
+   "en": "double-and-a-half",
+   "meaning_here": "Ratio5:2, not2×3:2.",
+   "evidence": "LSJ s.v. διπλασιημιόλιος [checked], Logeion; it does not cite the present text."
+  },
+  {
+   "greek": "ἐπιδιμερής",
+   "ru": "сверхдвухчастное",
+   "en": "superbipartient",
+   "meaning_here": "In U046, one plus two thirds,5:3.",
+   "evidence": "LSJ s.v. ἐπιδιμερής [checked], Logeion; it does not cite the present text."
+  },
+  {
+   "greek": "ἐπιτέταρτος",
+   "ru": "эпитетартное",
+   "en": "sesquiquartan",
+   "meaning_here": "One and one quarter,5:4.",
+   "evidence": "U046 and5/4 calculation [checked]; LSJ s.v. ἐπιτέταρτος [from memory]."
+  },
+  {
+   "greek": "κόλλαβοι",
+   "ru": "колки",
+   "en": "tuning pegs",
+   "meaning_here": "Pegs turned to alter string tension.",
+   "evidence": "U049 [checked]; LSJ s.v. κόλλαβος [from memory]."
+  },
+  {
+   "greek": "ἔμπνευστα",
+   "ru": "духовые [инструменты]",
+   "en": "wind [instruments]",
+   "meaning_here": "Instruments sounded by breath.",
+   "evidence": "U049 [checked]; LSJ s.v. ἔμπνευστος [from memory]."
+  },
+  {
+   "greek": "αὐλοί",
+   "ru": "авлосы",
+   "en": "auloi",
+   "meaning_here": "Ancient wind instruments; not silently modernized as flutes.",
+   "evidence": "U050 [checked]; LSJ s.v. αὐλός [from memory]."
+  },
+  {
+   "greek": "τῶν τρημάτων διάτασις",
+   "ru": "расстояние между отверстиями",
+   "en": "spacing of the holes",
+   "meaning_here": "Physical spacing, distinct from an abstract musical interval.",
+   "evidence": "U050 [checked]; LSJ s.v. διάτασις [from memory]."
+  },
+  {
+   "greek": "τετράχορδον",
+   "ru": "тетрахорд",
+   "en": "tetrachord",
+   "meaning_here": "Four-note system spanning a fourth and containing three steps.",
+   "evidence": "Cleonides, Introductio harmonica §§1–4, Jan, Musici scriptores Graeci (1895), pp. 179–182 [checked], First1KGreek (main Greek text only). U051–U060 [checked]."
+  },
+  {
+   "greek": "πεντάχορδον",
+   "ru": "пентахорд",
+   "en": "pentachord",
+   "meaning_here": "Five-note system spanning a fifth and containing four steps.",
+   "evidence": "U051 [checked]; Sectio canonis §§11–16,19–20, Jan, Musici scriptores Graeci (1895) [checked]."
+  },
+  {
+   "greek": "ἀφαίρεσις",
+   "ru": "отвлечение",
+   "en": "abstraction",
+   "meaning_here": "Conception of interval apart from material instantiation.",
+   "evidence": "U052 [checked]; LSJ s.v. ἀφαίρεσις [from memory]."
+  },
+  {
+   "greek": "γένος",
+   "ru": "род",
+   "en": "genus",
+   "meaning_here": "Division of the tetrachord according to the pattern of its three successive steps.",
+   "evidence": "Cleonides, Introductio harmonica §§1–4, Jan, Musici scriptores Graeci (1895), pp. 179–182 [checked], First1KGreek (main Greek text only)."
+  },
+  {
+   "greek": "διάτονον",
+   "ru": "диатонный [род]",
+   "en": "diatonic [genus]",
+   "meaning_here": "The semitone–tone–tone division of the tetrachord.",
+   "evidence": "Cleonides, Introductio harmonica §§1–4, Jan, Musici scriptores Graeci (1895), pp. 179–182 [checked], First1KGreek (main Greek text only)."
+  },
+  {
+   "greek": "χρωματικόν",
+   "ru": "хроматический [род]",
+   "en": "chromatic [genus]",
+   "meaning_here": "The semitone–semitone–trisemitone division stated here.",
+   "evidence": "Cleonides, Introductio harmonica §§1–4, Jan, Musici scriptores Graeci (1895), pp. 179–182 [checked], First1KGreek (main Greek text only)."
+  },
+  {
+   "greek": "ἁρμονικόν",
+   "ru": "гармонический [род]",
+   "en": "harmonic [genus]",
+   "meaning_here": "The author’s name for the usual enharmonic, diesis–diesis–ditone; preserves the derivation from harmony.",
+   "evidence": "LSJ s.v. ἁρμονικός I–II [checked], Logeion; it does not cite the present text. Cleonides, Introductio harmonica §§1–4, Jan, Musici scriptores Graeci (1895), pp. 179–182 [checked], First1KGreek (main Greek text only)."
+  },
+  {
+   "greek": "λύδιον / φρύγιον / δώριον",
+   "ru": "лидийская / фригийская / дорийская",
+   "en": "Lydian / Phrygian / Dorian",
+   "meaning_here": "Names of melodic configurations; the passage does not fix a modern key or church mode.",
+   "evidence": "U065 [checked]; Plato, Republic399a–c [from memory]."
+  },
+  {
+   "greek": "παιήων",
+   "ru": "пеан",
+   "en": "paean",
+   "meaning_here": "A named functional song type; spelling παιήων is printed.",
+   "evidence": "U065 [checked]; LSJ s.v. παιάν [from memory]."
+  },
+  {
+   "greek": "ὑμέναιος",
+   "ru": "гименей",
+   "en": "wedding song",
+   "meaning_here": "Wedding song; musical song-type rather than interval or genus.",
+   "evidence": "U065 and apparatus at33.12 [checked]; LSJ s.v. ὑμέναιος [from memory]."
+  },
+  {
+   "greek": "ἐξόδιος",
+   "ru": "[песнь] при выходе",
+   "en": "exit [song]",
+   "meaning_here": "An exit or concluding song with the song noun understood.",
+   "evidence": "LSJ s.v. ἐξόδιος [checked], Logeion; it does not cite the present text."
+  },
+  {
+   "greek": "μεταφορά",
+   "ru": "перенос",
+   "en": "transfer",
+   "meaning_here": "Transfer/displacement of intervals; transposition is a possible more specific interpretation.",
+   "evidence": "U066 [checked]; LSJ s.v. μεταφορά [from memory]."
+  },
+  {
+   "greek": "μεταβάσεις",
+   "ru": "переходы",
+   "en": "transitions",
+   "meaning_here": "Movements between notes with variable speed.",
+   "evidence": "Cleonides, Introductio harmonica §§1–4, Jan, Musici scriptores Graeci (1895), pp. 179–182 [checked], First1KGreek (main Greek text only). U066 [checked]."
+  },
+  {
+   "greek": "διαμοναί",
+   "ru": "задержки",
+   "en": "dwellings",
+   "meaning_here": "Sustained dwelling, contrasted with flowing movement; not necessarily rests.",
+   "evidence": "U066 [checked]; LSJ s.v. διαμονή [from memory]."
+  },
+  {
+   "greek": "ῥοαί",
+   "ru": "текучие движения",
+   "en": "flows",
+   "meaning_here": "Flowing melodic movement; no specific run or ornament is determined.",
+   "evidence": "U066 [checked]; LSJ s.v. ῥοή [from memory]."
+  },
+  {
+   "greek": "ἐπαφαί",
+   "ru": "прикосновения",
+   "en": "touches",
+   "meaning_here": "Instrumental touching or handling, without specifying a modern fingering technique.",
+   "evidence": "LSJ s.v. ἐπαφή I [checked], Logeion; it does not cite the present text."
+  },
+  {
+   "greek": "κρούματα",
+   "ru": "удары",
+   "en": "strokes",
+   "meaning_here": "Instrumental strokes and the sounds they produce; not limited by the translation to one instrument.",
+   "evidence": "LSJ s.v. κροῦμα I.2 [checked], Logeion; it does not cite the present text."
+  }
+ ]
+}

@@ -1,0 +1,1251 @@
+{
+  "translator": {
+    "model": "GPT-6 (Codex; exact version not exposed)",
+    "provider": "OpenAI",
+    "date": "2026-10-31",
+    "web_access": true,
+    "subagents": "Parallel draft translations of U001–U046 and independent cross-reviews and arithmetic review; integrated and revised against the supplied Greek by the principal translator."
+  },
+  "units": [
+    {
+      "id": "U001",
+      "ru": "Точный обзор музыки.",
+      "en": "A precise synopsis of music.",
+      "doctrine": "The passage states its contribution to the definition or exposition of music and its elements.",
+      "checks": "No numerical claim in this unit.",
+      "notes": [],
+      "doubts": []
+    },
+    {
+      "id": "U002",
+      "ru": "Древние говорили, что музыка (μουσική) скрепляет всё: ведь ничто из сущего не бывает без соразмерности (συμμετρία) и пропорции (ἀναλογία).",
+      "en": "The ancients said that music (μουσική) holds the whole together: for none of the things that exist is without commensurability (συμμετρία) and proportion (ἀναλογία).",
+      "doctrine": "Music is the universal principle of commensurability and proportion.",
+      "checks": "No numerical claim in this unit.",
+      "notes": [],
+      "doubts": []
+    },
+    {
+      "id": "U003",
+      "ru": "Но и ничто из возникающего не могло бы возникнуть хорошо, если бы возникало без подобающей соразмерности и пропорции, будь оно искусственным или природным, воспринимаемым чувствами или созерцаемым одним лишь умом.",
+      "en": "Nor could anything that comes to be come to be well if it came to be without the appropriate commensurability and proportion, whether it is artificial or natural, apprehended by sense or contemplated by thought alone.",
+      "doctrine": "All well-formed things exhibit proportion, whether natural or artificial, sensible or intelligible.",
+      "checks": "No numerical claim in this unit.",
+      "notes": [],
+      "doubts": []
+    },
+    {
+      "id": "U004",
+      "ru": "Музыка же есть некая сама соразмерность и пропорция, всё, поскольку она есть гармония (ἁρμονία) всего.",
+      "en": "Music is a kind of commensurability itself and proportion, the whole, inasmuch as it is the harmony (ἁρμονία) of the whole.",
+      "doctrine": "Music is identified with cosmic harmony and commensurability.",
+      "checks": "No numerical claim in this unit.",
+      "notes": [],
+      "doubts": [
+        {
+          "greek": "τὸ πᾶν",
+          "issue": "The appositional syntax is abrupt: τὸ πᾶν lacks an explicit verb.",
+          "options": "It can be taken as an apposition to music or as an elliptical clause.",
+          "choice": "The printed words are retained literally; no emendation is assumed.",
+          "evidence": "greek-text.json, 24.1–3 [checked]",
+          "alternative_ru": "",
+          "alternative_en": ""
+        }
+      ]
+    },
+    {
+      "id": "U005",
+      "ru": "Быть может, и само божественное было бы небезосновательно назвать гармонией самого себя и всего: в нём всё, будучи соединено и согласовано, оказывается устроенным хорошо и наилучшим образом.",
+      "en": "Perhaps one might with good reason call the divine itself the harmony of itself and of the whole, in which the whole, joined and fitted together, is seen to be in good and the best possible order.",
+      "doctrine": "The divine is described as the ordering harmony of itself and the cosmos.",
+      "checks": "No numerical claim in this unit.",
+      "notes": [],
+      "doubts": []
+    },
+    {
+      "id": "U006",
+      "ru": "Такого восхищения они удостоили музыку.",
+      "en": "Such was the admiration in which they held music.",
+      "doctrine": "The ancients attribute great dignity to music.",
+      "checks": "No numerical claim in this unit.",
+      "notes": [],
+      "doubts": []
+    },
+    {
+      "id": "U007",
+      "ru": "Итак, хотя она усматривается во всём, всем управляет и всё упорядочивает, даруя чувству удовольствие, природе гармонию, а уму блаженство, мы кратко рассмотрим музыку, воспринимаемую чувствами, вернее же — усматриваемую в одном из чувств, слухе.",
+      "en": "Thus, although it is observed in all things, governs and orders everything, and grants pleasure to sense, harmony to nature, and blessedness to thought, we shall treat in outline the music apprehended by sense, or rather observed in one of the senses, hearing.",
+      "doctrine": "The enquiry narrows from cosmic harmony to music as heard.",
+      "checks": "No numerical claim in this unit.",
+      "notes": [],
+      "doubts": []
+    },
+    {
+      "id": "U008",
+      "ru": "Звук (φθόγγος) есть пригодная для гармонии высота (ἐναρμόνιος τάσις) голоса, не имеющего протяжения.",
+      "en": "A note (φθόγγος) is a pitch suitable for harmony (ἐναρμόνιος τάσις) of an voice without extension.",
+      "doctrine": "A note is an extensionless voice at a musically usable pitch; compare Cleonides, Introduction to Harmonics 1 [checked].",
+      "checks": "No numerical claim in this unit.",
+      "notes": [
+        {
+          "ru": "Ср. определение звука как пребывания голоса на одной высоте у Клеонида и Аристоксена. Здесь ἐναρμόνιος означает пригодность для гармонии, а не энармонический род.",
+          "en": "Compare Cleonides and Aristoxenus on the voice at one pitch. Here ἐναρμόνιος denotes suitability for harmony, not the enharmonic genus.",
+          "source": "Cleonides, Introductio harmonica 1, ed. von Jan, https://beta.perseus.tufts.edu/urn:cts:greekLit:tlg0361.tlg001.1st1K-grc1:1/ [checked]; Aristoxenus, Elementa harmonica I, pp. 14–15, https://beta.perseus.tufts.edu/urn:cts:greekLit:tlg0088.tlg001.1st1K-grc1:1/ [checked]"
+        }
+      ],
+      "doubts": []
+    },
+    {
+      "id": "U009",
+      "ru": "Интервал (διάστημα) же — некоторое отношение звуков друг к другу.",
+      "en": "An interval (διάστημα) is a certain relation of notes to one another.",
+      "doctrine": "An interval is a relation of notes; compare Cleonides, Introduction to Harmonics 1 [checked].",
+      "checks": "No numerical claim in this unit.",
+      "notes": [],
+      "doubts": []
+    },
+    {
+      "id": "U010",
+      "ru": "Система (σύστημα) же — некоторый охват интервалов.",
+      "en": "A system (σύστημα) is a certain encompassing of intervals.",
+      "doctrine": "A system is a collection of intervals; compare Cleonides, Introduction to Harmonics 1 [checked].",
+      "checks": "No numerical claim in this unit.",
+      "notes": [],
+      "doubts": []
+    },
+    {
+      "id": "U011",
+      "ru": "Гармония же — соединение систем.",
+      "en": "Harmony is an arrangement of systems.",
+      "doctrine": "Harmony arranges systems into an ordered whole.",
+      "checks": "No numerical claim in this unit.",
+      "notes": [],
+      "doubts": []
+    },
+    {
+      "id": "U012",
+      "ru": "Итак, звук не имеет протяжения, как точка в геометрии; пригодным же для гармонии он называется потому, что издаётся так, что может сочетаться и с другим звуком.",
+      "en": "Now the note is without extension, like a point in geometry; it is called suitable for harmony because it is sounded in such a way that it can be fitted together with another note.",
+      "doctrine": "The note is indivisible like a point and must combine with another note.",
+      "checks": "No numerical claim in this unit.",
+      "notes": [],
+      "doubts": []
+    },
+    {
+      "id": "U013",
+      "ru": "Ибо если он не будет издан таким образом, это неблагозвучный звук, не пригодный для гармонии; да и вообще его назвали бы не звуком, а неким шумом, изданным иначе и непригодным для гармонии.",
+      "en": "For if it is not sounded in this way, it is an unmusical note, not suitable for harmony; indeed it would not be called a note at all, but a kind of noise sounded otherwise and of no use for harmony.",
+      "doctrine": "Inharmonious sound fails to qualify as a musical note.",
+      "checks": "No numerical claim in this unit.",
+      "notes": [],
+      "doubts": []
+    },
+    {
+      "id": "U014",
+      "ru": "Названия звуков различны: они получают названия по восходящему движению и порядку от низкого к высокому: просламбаномен (προσλαμβανόμενος), гипата низших (ὑπάτη ὑπάτων), парипата низших (παρυπάτη ὑπάτων), диатонная гипата (ὑπάτη διάτονος), гипата средних (ὑπάτη μέσων), парипата средних (παρυπάτη μέσων), ⟨диатонная [нота] средних (μέσων διάτονος),⟩ просто меса (μέση), парамеса (παράμεσος), трита отделённых (τρίτη διεζευγμένη), диатонная [нота] отделённых (διάτονος διεζευγμένη), нета отделённых (νήτη διεζευγμένη), трита высших (τρίτη ὑπερβολαίων), диатонная [нота] высших (διάτονος ὑπερβολαίων), нета высших (νήτη ὑπερβολαίων).",
+      "en": "Notes have different names, receiving their names according to their progression and order from low to high: proslambanomenos (προσλαμβανόμενος), hypate hypaton (ὑπάτη ὑπάτων), parhypate hypaton (παρυπάτη ὑπάτων), diatonic hypate (ὑπάτη διάτονος), hypate meson (ὑπάτη μέσων), parhypate meson (παρυπάτη μέσων), ⟨diatonic [note] of the middle [notes] (μέσων διάτονος),⟩ mese (μέση) alone, paramese (παράμεσος), trite diezeugmene (τρίτη διεζευγμένη), diatonic [note] of the disjunct (διάτονος διεζευγμένη), nete diezeugmene (νήτη διεζευγμένη), trite hyperbolaion (τρίτη ὑπερβολαίων), diatonic [note] of the hyperbolaion (διάτονος ὑπερβολαίων), nete hyperbolaion (νήτη ὑπερβολαίων).",
+      "doctrine": "The fifteen named pitches run from proslambanomenos through nete hyperbolaion; a middle diatonic note is supplied by the edition.",
+      "checks": "There are 15 named positions including the editorial supplement; without it there are 14.",
+      "notes": [
+        {
+          "ru": "Добавление в угловых скобках отсутствует во всех названных свидетелях; оно восполняет ожидаемую пятнадцатую ступень. Названия диатонных ступеней здесь не вполне совпадают с общепринятыми.",
+          "en": "The bracketed supplement is absent from all listed witnesses and supplies the expected fifteenth position. The names of the diatonic notes do not entirely match the usual nomenclature.",
+          "source": "greek-text.json, apparatus ad 25.7 [checked]"
+        }
+      ],
+      "doubts": []
+    },
+    {
+      "id": "U015",
+      "ru": "Из них составляется шестнадцатиструнная [система] в пятнадцатиструнной, поскольку конец восьмиструнной [системы] принимается вследствие непрерывности за начало последующих [струн].",
+      "en": "From these the sixteen-string [system] in fifteen strings is completed, since the end of the eight-string [system] is taken as the beginning of those that follow, by continuity.",
+      "doctrine": "Two octachords share their boundary, giving fifteen distinct positions.",
+      "checks": "8 + 8 − 1 = 15, not 16 distinct positions.",
+      "notes": [
+        {
+          "ru": "При наложении конца первой восьмиструнной системы на начало второй получается 8 + 8 − 1 = 15 отдельных ступеней; «шестнадцатиструнная» учитывает общую ступень дважды.",
+          "en": "When the last note of the first eight-string system is also the first of the second, 8 + 8 − 1 = 15 distinct positions result; “sixteen-string” counts the shared position twice.",
+          "source": "greek-text.json, 25.11–14 [checked]; calculation"
+        }
+      ],
+      "doubts": []
+    },
+    {
+      "id": "U016",
+      "ru": "Ибо в каком отношении, как оказывается, находится первый звук к восьмому, в том же находится и восьмой к пятнадцатому.",
+      "en": "For the ratio that the first note is seen to have to the eighth is the same as that which the eighth has to the fifteenth.",
+      "doctrine": "Two successive octaves, first to eighth and eighth to fifteenth, have the same ratio.",
+      "checks": "1 to 8 and 8 to 15 each spans seven steps; conventionally their frequency ratios are 2:1 and 2:1.",
+      "notes": [],
+      "doubts": []
+    },
+    {
+      "id": "U017",
+      "ru": "Этим [ограничимся] в рассуждении о звуках.",
+      "en": "So much, then, for notes.",
+      "doctrine": "The treatment of notes ends.",
+      "checks": "No numerical claim in this unit.",
+      "notes": [],
+      "doubts": []
+    },
+    {
+      "id": "U018",
+      "ru": "Из интервалов наименьший — диеса (δίεσις); затем полутон (ἡμιτόνιον), увеличение которого по направлению к высокому вдвое больше диесы; затем тон (τόνος), содержащий двойной полутон и имеющий протяжение в сверхосьмом отношении (ἐπόγδοος), как девятое число к восьмому, так что полутон равен восьми с половиной, а диеса — восьми с четвертью.",
+      "en": "Of intervals the smallest is the diesis (δίεσις); next the semitone (ἡμιτόνιον), whose increase towards the high is twice the diesis; next the tone (τόνος), containing a double semitone and spanning the sesquioctave ratio (ἐπόγδοος), as the ninth number to the eighth, so that the semitone is as much as eight and a half, and the diesis as much as eight and a quarter.",
+      "doctrine": "The diesis, semitone and tone are progressively doubled in size; the tone is a 9:8 ratio.",
+      "checks": "9:8 = 1.125. Equal logarithmic halves have ratio √(9/8), not 17:16; the four quarters have ratio (9/8)^(1/4).",
+      "notes": [
+        {
+          "ru": "Если подразумевается сравнение с восемью, то восемь с половиной к восьми дают 17:16, а восемь с четвертью к восьми — 33:32. Равное интервальное деление 9:8 требует отношения √(9/8), а не простого деления числовой разности.",
+          "en": "If comparison with eight is understood, eight and a half to eight gives 17:16, and eight and a quarter to eight gives 33:32. Equal division of the interval 9:8 requires √(9/8), not simple division of the numerical difference.",
+          "source": "greek-text.json, 25.19–25 and apparatus [checked]; calculation"
+        }
+      ],
+      "doubts": [
+        {
+          "greek": "ὅσον ὀκτὼ ἥμισυ … ὅσον ὀκτὼ τέταρτον",
+          "issue": "The passage specifies eight and fractional increments without stating the term of comparison; interpreting these as proportions gives arithmetic rather than geometrically equal divisions.",
+          "options": "Xyl. in the supplied apparatus substitutes «of nine to eight» for both occurrences of «eight».",
+          "choice": "The transmitted figures are retained; eight as common denominator is an interpretive possibility, not explicit in the Greek.",
+          "evidence": "greek-text.json, apparatus ad 25.24–25 [checked]",
+          "alternative_ru": "так что полутон равен половине [отношения] девяти к восьми, а диеса — четверти [отношения] девяти к восьми",
+          "alternative_en": "so that the semitone is half of [the ratio of] nine to eight, and the diesis a quarter of [the ratio of] nine to eight"
+        }
+      ]
+    },
+    {
+      "id": "U019",
+      "ru": "Ведь хотя единица (μονάς) в числах неделима, единица, рассматриваемая в материи, делится геометрически.",
+      "en": "For although the unit (μονάς) is not divided among numbers, the unit seen in matter is divided geometrically.",
+      "doctrine": "Arithmetic treats the unit as indivisible, whereas geometry treats a material magnitude as divisible.",
+      "checks": "No numerical claim in this unit.",
+      "notes": [],
+      "doubts": []
+    },
+    {
+      "id": "U020",
+      "ru": "Ибо струну, сохраняющую сверхосьмое отношение, можно подразделить до половинного сверхосьмого отношения (ἡμιεπόγδοος), что есть полутон, и её снова подразделить во второй раз до диесы.",
+      "en": "For it is possible to subdivide a string preserving the sesquioctave ratio into a half-sesquioctave (ἡμιεπόγδοος), which is a semitone, and to subdivide it again a second time into a diesis.",
+      "doctrine": "The author applies geometrical division to the string and to the tone.",
+      "checks": "The geometric mean between 8 and 9 is √72; equal pitch-interval halves of 9:8 each have ratio √(9/8).",
+      "notes": [
+        {
+          "ru": "Деление длины и деление музыкального интервала не тождественны: для равных по высоте половин отношения требуется среднее геометрическое, а не арифметическое.",
+          "en": "Dividing a length and dividing a musical interval are not identical: equal pitch-interval halves require the geometric, rather than arithmetic, mean.",
+          "source": "greek-text.json, 26.3–7 [checked]; calculation"
+        }
+      ],
+      "doubts": [
+        {
+          "greek": "νευρὰν",
+          "issue": "The object is a string said to preserve a ratio; a ratio normally compares two magnitudes.",
+          "options": "H has μοῖραν, “portion”, where the remaining witnesses have νευράν, “string”.",
+          "choice": "Translate the printed string and leave its relationship to a second magnitude implicit.",
+          "evidence": "greek-text.json, apparatus ad 26.4 [checked]",
+          "alternative_ru": "часть, сохраняющую отношение девяти к восьми",
+          "alternative_en": "a portion preserving the sesquioctave ratio"
+        }
+      ]
+    },
+    {
+      "id": "U021",
+      "ru": "Геометрия ведь отсекает и меньшую прямую от большей каким угодно способом, и прибавляет большую к меньшей; поэтому она может и увеличить любую фигуру до желаемой длины, и уменьшить её.",
+      "en": "For geometry both takes a smaller straight line from a greater in any manner and adds a greater to a smaller; hence it can both increase any figure to the desired length and bring it to diminution.",
+      "doctrine": "Geometrical lines can be added or subtracted and figures enlarged or diminished.",
+      "checks": "No numerical claim in this unit.",
+      "notes": [],
+      "doubts": []
+    },
+    {
+      "id": "U022",
+      "ru": "Для арифметики же это невозможно.",
+      "en": "For arithmetic, however, this is impossible.",
+      "doctrine": "The author denies the same operations to arithmetic, treating numbers as indivisible units.",
+      "checks": "No numerical claim in this unit.",
+      "notes": [],
+      "doubts": []
+    },
+    {
+      "id": "U023",
+      "ru": "Так, арифметика не может ни разделить данный квадрат на равные квадраты, ни удвоить данный [квадрат]: ведь число шестнадцать, будучи квадратом, нельзя ни разделить на равные квадраты (поскольку восемь не может быть квадратом), ни удвоить в другой квадрат (поскольку невозможно, чтобы число тридцать два было квадратом); геометрии же это легко.",
+      "en": "For example, arithmetic cannot cut a given square into equal squares or double the given [square]; for the number sixteen, being a square, can neither be divided into equal squares (since eight cannot be a square) nor be doubled into another square (since the number thirty-two cannot be a square); but for geometry this is easy.",
+      "doctrine": "Squares of integer numbers are contrasted with geometric squares capable of bisection and duplication.",
+      "checks": "16 = 4²; half is 8 and twice is 32; neither 8 nor 32 is an integer square. A square of side 4 has diagonals 4√2; its half-square has side 2√2.",
+      "notes": [
+        {
+          "ru": "Ср. квадрат из 4 × 4 точек (16) и прямоугольник из 4 × 8 точек (32), находящиеся на полях Bas., Par. и V. В тексте речь идёт о двух равных квадратных половинах, а не о делении на произвольное число квадратов.",
+          "en": "Compare the marginal 4 × 4 array of dots (16) and the 4 × 8 rectangle (32) in Bas., Par. and V. The argument concerns two equal square halves, not division into any number of squares.",
+          "source": "about.md §3 [checked]; greek-text.json, 26.13–22 [checked]"
+        }
+      ],
+      "doubts": []
+    },
+    {
+      "id": "U024",
+      "ru": "Ибо геометр, взяв сторону данного квадрата за диагональ и построив на ней квадрат, получает половину данного квадрата; а взяв, наоборот, диагональ данного квадрата за сторону, он удваивает данный квадрат.",
+      "en": "For the geometer, taking the side of the given square as a diagonal and constructing a square about it, produces half the given square; and conversely, taking the diagonal of the given square as a side, he doubles the given square.",
+      "doctrine": "A geometric construction halves and doubles a square.",
+      "checks": "If the original side is a, a square with diagonal a has area a²/2; a square with side a√2 has area 2a².",
+      "notes": [
+        {
+          "ru": "Если сторона исходного квадрата равна a, квадрат с диагональю a имеет площадь a²/2, а квадрат со стороной a√2 — площадь 2a².",
+          "en": "If the original side is a, a square with diagonal a has area a²/2 and the square with side a√2 has area 2a².",
+          "source": "Direct geometric calculation [checked]"
+        }
+      ],
+      "doubts": []
+    },
+    {
+      "id": "U025",
+      "ru": "Таким-то образом и сверхосьмое отношение тона делится на полутон и снова на диесу.",
+      "en": "In this way the sesquioctave ratio of the tone, too, is divided into a semitone and again into a diesis.",
+      "doctrine": "Geometric divisibility is extended to musical intervals.",
+      "checks": "A tone 9/8 split into equal pitch intervals has ratio √(9/8) per half and (9/8)^(1/4) per quarter.",
+      "notes": [
+        {
+          "ru": "Равные в высотном отношении половины тона 9:8 имеют отношение √(9/8), четверти — (9/8)^(1/4); это не целочисленные отношения. Геометрическое деление отличается от деления арифметической разности.",
+          "en": "Equal pitch halves of the 9:8 tone have ratio √(9/8), quarters (9/8)^(1/4); these are not ratios of integers. Geometric division differs from halving an arithmetical difference.",
+          "source": "E. Nowacki, “The Three Mathematical Means,” summary, Cambridge Core, https://doi.org/10.1017/9781787449169.010 [checked]; calculation [checked]"
+        }
+      ],
+      "doubts": []
+    },
+    {
+      "id": "U026",
+      "ru": "При увеличении их возникают и другие несоставные интервалы: тридиеса (τριδίεσις), тригемитон (τριημιτόνιον), дитон (διτόνιον) и тритон (τριτόνιον), и [иные], какие угодно, поскольку это позволяет ритм, как станет известно из дальнейшего.",
+      "en": "By increasing these, other incomposite intervals also arise: the tridiesis (τριδίεσις), trihemitone (τριημιτόνιον), ditone (διτόνιον), and tritone (τριτόνιον), and [others] as one may wish and rhythm permits, as will be made clear in what follows.",
+      "doctrine": "A single melodic leap can have the magnitude of several smaller intervals.",
+      "checks": "The named magnitudes are respectively three dieses, three semitones, two tones and three tones; no equal-temperament assumption follows necessarily.",
+      "notes": [],
+      "doubts": []
+    },
+    {
+      "id": "U027",
+      "ru": "Несоставными же они названы потому, что мелодия (μέλος), [охватывающая] три диесы, или три полутона, или даже несколько тонов, складывается как одно [целое] вследствие слияния (σύμφθαρσις): она содержит в себе возможности разных интервалов, но звучит одним интервалом.",
+      "en": "They are called incomposite because a melody (μέλος) spanning three dieses, or three semitones, or several tones, is formed as one through coalescence (σύμφθαρσις): it has the potential of different intervals but is sounded as a single interval.",
+      "doctrine": "Incomposite here means sung as one span although it has the potential magnitude of multiple intervals.",
+      "checks": "",
+      "notes": [],
+      "doubts": [
+        {
+          "greek": "ἐκ συμφθάρσεως",
+          "issue": "The precise technical force of the noun is uncertain; it refers to formation of one span from several potential intervals.",
+          "options": "Coalescence, conflation, or merger.",
+          "choice": "Coalescence preserves the stated merging without presuming literal destruction.",
+          "evidence": "Greek text and apparatus, 27.9–14 [checked]; LSJ s.v. συμφθείρω [from memory]",
+          "alternative_ru": "",
+          "alternative_en": ""
+        }
+      ]
+    },
+    {
+      "id": "U028",
+      "ru": "⟨⟨Ведь хотя в числах слияние не возникает из-за нематериальности, неподвижности и отсутствия текучести чисел, в мелодиях же, поскольку они воплощаются в материи, а в материи наблюдается непрерывность, отсюда возникает и то, что слияние существует; и длина, протянутая по двум струнам, сводится к одной непрерывно, подобно тому как, наоборот, длина одной снова непрерывно разделяется на многие.",
+      "en": "⟨⟨For although coalescence does not arise in numbers because of their immateriality, immobility and lack of flux, yet in melodies, because they are brought into matter and continuity is observed in matter, hence it also comes about that coalescence exists; and the length stretched along two strings is combined continuously in one, just as conversely the length along one is again divided continuously into many.",
+      "doctrine": "The P-only passage grounds coalescence in continuity of material lengths rather than discrete numbers.",
+      "checks": "",
+      "notes": [
+        {
+          "ru": "Отрывок U028–U032 засвидетельствован только P; рукописное σύμφρασις исправлено издателем на σύμφθαρσις.",
+          "en": "The passage U028–U032 is attested only by P; its σύμφρασις is emended by the editor to σύμφθαρσις.",
+          "source": "greek-text.json, apparatus at P 338.4, 338.7 [checked]"
+        }
+      ],
+      "doubts": []
+    },
+    {
+      "id": "U029",
+      "ru": "Таким-то образом и геометрия во всех случаях вычитает из большей прямой меньшую и прибавляет [прямую] к меньшей и получает большую; поэтому она может и всякую фигуру увеличить до какой угодно длины, и уменьшить её, что недоступно арифметике.",
+      "en": "In this way geometry, too, subtracts a smaller straight line from a larger in every manner, and adds [a line] to a smaller one and produces a larger; hence it can increase any figure to whatever length is desired and diminish it, which arithmetic cannot do.",
+      "doctrine": "Geometrical continuous magnitudes permit arbitrary addition and subtraction, as distinct from arithmetic.",
+      "checks": "",
+      "notes": [
+        {
+          "ru": "Ср. U021–U022: здесь повторяется тот же довод с несколькими словесными отличиями.",
+          "en": "Compare U021–U022, which repeat the same argument with several verbal differences.",
+          "source": "greek-text.json, U021–U022 [checked]"
+        }
+      ],
+      "doubts": []
+    },
+    {
+      "id": "U030",
+      "ru": "Так, арифметика не может разделить данный квадрат на равные квадраты или удвоить данный [квадрат]; например, число шестнадцать, будучи квадратом, невозможно ни разделить на равные квадраты (ибо восемь не может быть квадратом), ни удвоить в другой квадрат: ведь число тридцать два не может быть квадратом.",
+      "en": "Thus arithmetic cannot cut a given square into equal squares or double the given [square]; for instance, sixteen, being a square number, cannot be divided into equal squares (for eight cannot be a square), nor doubled into another square: for thirty-two cannot be a square.",
+      "doctrine": "The example concerns halving and doubling a square integer to obtain square integers.",
+      "checks": "16=4²; 16/2=8 and 2×16=32 are not integer squares.",
+      "notes": [
+        {
+          "ru": "Утверждение о делении следует понимать как деление на два равных квадрата: иначе шестнадцать делится, например, на четыре четвёрки. Рукопись имеет «одиннадцать»; «шестнадцать» — конъектура издания.",
+          "en": "The claim about division must mean division into two equal squares: sixteen can otherwise be divided into four fours. The manuscript has “eleven”; “sixteen” is the edition’s conjecture.",
+          "source": "greek-text.json, apparatus at P 338.17 [checked]; arithmetic [checked]"
+        }
+      ],
+      "doubts": []
+    },
+    {
+      "id": "U031",
+      "ru": "Для геометрии же это легко: геометр, взяв сторону данного квадрата за диагональ и построив вокруг неё квадрат, получает половину данного квадрата и, взяв, наоборот, диагональ данного [квадрата] за сторону, удваивает данный квадрат.",
+      "en": "For geometry this is easy: taking the side of the given square as a diagonal and constructing a square about it, a geometer produces half the given square; and conversely, taking the diagonal of the given [square] as a side, he doubles the given square.",
+      "doctrine": "The geometric solution repeats U024.",
+      "checks": "For side a, the resulting square areas are a²/2 and 2a².",
+      "notes": [],
+      "doubts": []
+    },
+    {
+      "id": "U032",
+      "ru": "Но об интервалах, о том, что при увеличении прежних интервалов возникают другие несоставные интервалы, и о том, почему они названы несоставными, уже сказано достаточно.⟩⟩",
+      "en": "But enough has now been said about intervals, about how other incomposite intervals arise through the increase of the previous intervals, and about why they are called incomposite.⟩⟩",
+      "doctrine": "This closes the P-only discussion of incomposite intervals.",
+      "checks": "",
+      "notes": [],
+      "doubts": []
+    },
+    {
+      "id": "U033",
+      "ru": "Кроме них есть другие интервалы: кварта (διὰ τεσσάρων), квинта (διὰ πέντε) и октава (διὰ πασῶν).",
+      "en": "Besides these there are other intervals: the fourth (διὰ τεσσάρων), fifth (διὰ πέντε), and octave (διὰ πασῶν).",
+      "doctrine": "The three basic concordant spans are introduced.",
+      "checks": "",
+      "notes": [],
+      "doubts": []
+    },
+    {
+      "id": "U034",
+      "ru": "Они же не непосредственные и не несоставные, но проходят через все названные промежуточные интервалы. Их называют интервалами по отношению звучания от первого звука к последнему, а такие названия они получили по числу расположенных между ними звуков: кварта — потому, что она проходит и завершается через четыре звука, или струны; квинта — потому, что она проходит через пять; октава — потому, что она завершается через восемь.",
+      "en": "These are neither immediate nor incomposite, but proceed through all the intervening intervals mentioned. They are called intervals in respect of the ratio of the sound from the first note to the last, but have received these names from the number of the notes arranged in between: the fourth because it passes through and ends at four notes, or strings; the fifth because it is performed through five; and the octave because it is completed through eight.",
+      "doctrine": "Consonant spans are named by inclusive note count, although each can be considered as a relation between endpoints.",
+      "checks": "Four, five and eight notes span three, four and seven adjacent intervals respectively.",
+      "notes": [
+        {
+          "ru": "Числа 4, 5 и 8 включают оба крайних звука; соответственно между ними расположены 3, 4 и 7 промежутков.",
+          "en": "The counts 4, 5 and 8 include both endpoints; there are respectively 3, 4 and 7 gaps between them.",
+          "source": "Calculation from inclusive counts [checked]"
+        }
+      ],
+      "doubts": []
+    },
+    {
+      "id": "U035",
+      "ru": "[Интервал] через восемь называется [интервалом] через все [струны] (диапасоном), поскольку в восьмиструнной системе все интервалы завершаются и оттуда снова удваиваются, как ясно и из самого происхождения их названий: ведь следующие за ними интервалы называются двойная кварта, двойная квинта и двойная октава.",
+      "en": "The [interval] through eight is called “through all” (diapason) because in the eight-string system the whole set of intervals is completed and from there doubled again, as is also clear from the derivation of the names themselves: the subsequent intervals are called twice the fourth, twice the fifth, and twice the octave.",
+      "doctrine": "The octave completes a cycle; larger consonances are described by doubling names.",
+      "checks": "The terminology is ambiguous: literal 2×fourth = 16/9 and 2×fifth = 9/4, not an octave plus fourth or fifth (8/3 and 3).",
+      "notes": [
+        {
+          "ru": "«Дважды диатессарон» и «дважды диапенте» здесь, по-видимому, означают октаву с квартой и октаву с квинтой, а не два последовательных интервала кварты или квинты; ср. U040–U041.",
+          "en": "“Twice the fourth” and “twice the fifth” apparently mean octave plus fourth and octave plus fifth here, not two consecutive fourths or fifths; compare U040–U041.",
+          "source": "greek-text.json, U040–U041 and apparatus at 28.11 [checked]; arithmetic [checked]"
+        }
+      ],
+      "doubts": []
+    },
+    {
+      "id": "U036",
+      "ru": "Согласуются же интервал кварты и интервал квинты по парафонии (παράφωνον), а октава, двойная кварта, двойная квинта и двойная октава — по антифонии (ἀντίφωνον).",
+      "en": "The interval of the fourth and that of the fifth concord by paraphony (παράφωνον), while the octave, twice the fourth, twice the fifth, and twice the octave concord by antiphony (ἀντίφωνον).",
+      "doctrine": "The author classes the fourth and fifth as paraphonic and all octave-extended consonances as antiphonic.",
+      "checks": "See U037 for the unusual temporal explanation.",
+      "notes": [],
+      "doubts": []
+    },
+    {
+      "id": "U037",
+      "ru": "Парафония и антифония отличаются друг от друга тем, что парафония согласуется неодновременно, когда звуки, несколько мягко и ритмично следуя друг за другом, находятся в равномерных пропорциях и отношениях; антифония же — одновременно, когда высокий [звук] согласуется с низким в одно и то же время, как восьмой с первым, одиннадцатый с четвёртым, двенадцатый с пятым и пятнадцатый с восьмым, причём при натяжении или ослаблении низкие [звуки] вместе с высокими или высокие вместе с низкими соответственно восходят или нисходят.",
+      "en": "Paraphony and antiphony differ from one another in that paraphony concords at different times, the notes following each other somewhat gently and rhythmically in even proportions and ratios; antiphony, at the same time, the high [note] concording simultaneously with the low, as the eighth with the first, the eleventh with the fourth, the twelfth with the fifth, and the fifteenth with the eighth, the low notes ascending or descending together with the high, or the high with the low, proportionally in tightening or loosening.",
+      "doctrine": "Paraphony and antiphony are distinguished by successiveness and simultaneity, with octave pairs moving proportionally.",
+      "checks": "8−1=7, 11−4=7, 12−5=7, 15−8=7: each pair is an octave by inclusive counting.",
+      "notes": [
+        {
+          "ru": "Все четыре пары разнесены на семь ступеней, то есть на октаву при счёте обоих крайних звуков. Авторское объяснение через одновременность и последовательность следует читать с осторожностью.",
+          "en": "All four pairs are seven steps apart, that is, an octave in inclusive counting. The author’s explanation in terms of simultaneity and succession should be treated with caution.",
+          "source": "Calculation [checked]; Greek text 28.13–25 [checked]"
+        }
+      ],
+      "doubts": []
+    },
+    {
+      "id": "U038",
+      "ru": "Тон же, полутон и диеса, рассматриваемые сами по себе, — начало консонанса, но ещё не консонанс.",
+      "en": "The tone, semitone and diesis, considered in themselves, are the beginning of consonance, but not yet consonance.",
+      "doctrine": "The smaller intervals are components, not consonances in themselves.",
+      "checks": "",
+      "notes": [],
+      "doubts": []
+    },
+    {
+      "id": "U039",
+      "ru": "Кварта же составляется из двух тонов и полутона и ещё некоторой малой [величины], которая меньше диесы и не получила названия; квинта — из трёх [тонов] и полутона; октава — из шести; октава и двойная кварта — из восьми и полутона; октава и двойная квинта — из девяти и полутона; двойная октава — из двенадцати.",
+      "en": "The fourth is completed from two tones and a semitone and a small [amount] besides, which is smaller than a diesis and has received no name; the fifth from three [tones] and a semitone; the octave from six; the octave and twice the fourth from eight and a semitone; the octave and twice the fifth from nine and a semitone; twice the octave from twelve.",
+      "doctrine": "The text combines tone-counts with an additional residual and repeated fourth/fifth terms.",
+      "checks": "If tone=9/8 and semitone=√(9/8), (9/8)^2.5 > 4/3; 6 tones exceed 2 by the Pythagorean comma 531441/524288. Octave+fourth is 8/3, not octave plus two literal fourths.",
+      "notes": [
+        {
+          "ru": "При равном делении тона 9:8 на полутон 2½ тона больше кварты 4:3, а не меньше её. Пифагорейская лимма 256:243 меньше половины тона; шесть тонов превышают октаву на комму 531441:524288. Сочетания «диапасон и дважды диатессарон/диапенте» проблематичны и отличаются от U035–U036.",
+          "en": "If the 9:8 tone is equally halved, 2½ tones exceed the 4:3 fourth, rather than fall short. The Pythagorean limma 256:243 is smaller than half a tone; six tones exceed an octave by the comma 531441:524288. “Octave and twice the fourth/fifth” is problematic and differs from U035–U036.",
+          "source": "Calculation [checked]; E. Nowacki, “Aristoxenus’s Proof,” summary, https://doi.org/10.1017/9781787449169.008 [checked]; greek-text.json, U035–U036 and apparatus 29.8–9 [checked]"
+        }
+      ],
+      "doubts": [
+        {
+          "greek": "καὶ δὶς διὰ τεσσάρων ... καὶ δὶς διὰ πέντε",
+          "issue": "If “twice the fourth/fifth” is understood as two successive fourths/fifths, adding it to an octave conflicts with the numbers; if the phrase denotes octave plus fourth/fifth, the added octave is redundant.",
+          "options": "Retain δὶς or delete it as in the apparatus.",
+          "choice": "Translate the printed wording; deletion accords with the named ratios and tone counts.",
+          "evidence": "greek-text.json, apparatus at 29.8–9 [checked]",
+          "alternative_ru": "октава и кварта … октава и квинта",
+          "alternative_en": "the octave and the fourth … the octave and the fifth"
+        }
+      ]
+    },
+    {
+      "id": "U040",
+      "ru": "Отношение же кварты — сверхтретье; квинты — полуторное; октавы — двойное; октавы и двойной кварты — двойное с долями; октавы и двойной квинты — тройное.",
+      "en": "The ratio of the fourth is sesquitertian; of the fifth, sesquialter; of the octave, double; of the octave and twice the fourth, double plus parts; of the octave and twice the fifth, triple.",
+      "doctrine": "The consonances are assigned numerical ratios.",
+      "checks": "4/3, 3/2, 2/1, 8/3 and 3/1 respectively if the named compound spans mean octave+fourth and octave+fifth. A double octave 4/1 is omitted here but given U041.",
+      "notes": [
+        {
+          "ru": "Для примера отношения двойного с долями см. U041: 16:6 = 8:3. В перечне отсутствует отношение двойной октавы 4:1, приведённое далее.",
+          "en": "For the ratio double plus parts see U041: 16:6 = 8:3. The list omits the double-octave ratio 4:1, supplied in the following sentence.",
+          "source": "greek-text.json, U041 and apparatus at 29.16 [checked]; arithmetic [checked]"
+        }
+      ],
+      "doubts": [
+        {
+          "greek": "καὶ δὶς διὰ τεσσάρων ... καὶ δὶς διὰ πέντε",
+          "issue": "As in U039, literal “octave and twice” conflicts with the numerical exemplification.",
+          "options": "Accept the wording, or read octave plus fourth and octave plus fifth.",
+          "choice": "The wording is retained in translation; deletion of δὶς gives the standard spans.",
+          "evidence": "greek-text.json, apparatus at 29.14–15 [checked]",
+          "alternative_ru": "октавы и кварты … октавы и квинты",
+          "alternative_en": "the octave and the fourth … the octave and the fifth"
+        }
+      ]
+    },
+    {
+      "id": "U041",
+      "ru": "Пусть, например, в качестве первого числового члена у нас будет положено число шесть; по отношению к нему, конечно, восемь находится в сверхтретьем отношении, девять — в полуторном, двенадцать — в двойном, шестнадцать — в двойном с долями, поскольку содержит шесть дважды и две его части, восемнадцать — в тройном, двадцать четыре — в четверном.",
+      "en": "For example, let the number six be posited as our first numerical term; then eight is surely sesquitertian to it, nine sesquialter, twelve double, sixteen double plus parts, containing six twice and two parts of it, eighteen triple, and twenty-four quadruple.",
+      "doctrine": "A single base term illustrates the series of consonance ratios.",
+      "checks": "8/6=4/3; 9/6=3/2; 12/6=2; 16/6=8/3=2+2/3; 18/6=3; 24/6=4.",
+      "notes": [
+        {
+          "ru": "Две части числа 6 — две трети, то есть 4; 16 = 2×6 + 2×(6/3).",
+          "en": "The two parts of 6 are two thirds, or 4; 16 = 2×6 + 2×(6/3).",
+          "source": "Arithmetic [checked]"
+        }
+      ],
+      "doubts": []
+    },
+    {
+      "id": "U042",
+      "ru": "⟨⟨Следует рассмотреть, что опосредованные интервалы, каковы кварта, мелодия квинты, октава, двойная кварта, двойная квинта и двойная октава, имеют соотнесение отношений с просламбаноменом; непосредственные же, лежащие между ними, каковы диеса, полутон и тон, установили определённое отношение числовых отношений к ближайшим предшествующим звукам. И точно так же интервалы, увеличенные вследствие слияния нескольких интервалов, каковы тридиеса, тригемитон, дитон и тритон и всякий иной подобный вид, после того как отношения скрытых в них интервалов к ближайшим звукам были определены прежде, смешиваются таким образом в один интервал как бы вследствие слияния.",
+      "en": "⟨⟨One must observe that mediated intervals, such as the fourth, the melody through five, the octave, twice the fourth, twice the fifth, and twice the octave, have the reference of their ratios to the proslambanomenos; whereas the immediate intervals lying between them, such as diesis, semitone, and tone, have established a certain relation of ratios to the nearest preceding notes. And so too intervals enlarged through the coalescence of several intervals, such as the tridiesis, trihemitone, ditone, and tritone and any other such kind, when the ratios of the intervals concealed in them to the nearest notes have first been determined, are thus blended into one interval as if by coalescence.",
+      "doctrine": "The P-only text contrasts endpoints referred to the lowest added note with relations between neighboring notes and composite magnitudes.",
+      "checks": "",
+      "notes": [
+        {
+          "ru": "Слово μέλος («мелодия») в перечислении сохранено по P, хотя синтаксически оно затруднительно; аппарат допускает его исключение.",
+          "en": "The word μέλος (“melody”) is retained in the list from P although syntactically awkward; the apparatus allows its deletion.",
+          "source": "greek-text.json, apparatus at P 340.8 [checked]"
+        }
+      ],
+      "doubts": [
+        {
+          "greek": "τὸ διὰ πέντε μέλος",
+          "issue": "The transmitted μέλος sits awkwardly in the list of intervals.",
+          "options": "Retain as an independent item, or delete it; alternatively take it with διὰ πέντε.",
+          "choice": "Retain the word and construe it with “through five”, while acknowledging uncertainty.",
+          "evidence": "greek-text.json, apparatus at P 340.8 [checked]",
+          "alternative_ru": "кварта, квинта, октава",
+          "alternative_en": "the fourth, the fifth, the octave"
+        }
+      ]
+    },
+    {
+      "id": "U043",
+      "ru": "В самом деле, отношения непосредственных интервалов располагаются по порядку, а опосредованных — через промежутки, подобно посылкам и заключениям в силлогизмах: посылки сплетаются одна за другой по порядку, а заключения связывают крайние термины через промежуточные.",
+      "en": "For the ratios of immediate intervals are laid out in sequence, and those of mediated intervals by passing over intermediate terms, like premises and conclusions in syllogisms: the premises are woven together one after another in sequence, whereas the conclusions connect the extreme terms by passing over the intermediate ones.",
+      "doctrine": "Adjacent and nonadjacent ratios are compared to premises and conclusions in syllogistic reasoning.",
+      "checks": "",
+      "notes": [],
+      "doubts": []
+    },
+    {
+      "id": "U044",
+      "ru": "Так обстоит дело с отношениями и музыкальными интервалами: отношение опосредованных интервалов сопоставляется через промежутки с крайними звуками, а отношение непосредственных последовательно сравнивается с соседними звуками; увеличение от меньших к большим происходит по порядку, причём единицы не делятся, поскольку этого не допускают и арифметики.⟩⟩",
+      "en": "So it is with ratios and musical intervals: the ratio of mediated intervals is compared across intermediate terms with the extreme notes, while that of immediate intervals is compared successively with adjacent notes; the increase from smaller to larger proceeds in sequence, without division of units, since the arithmeticians do not admit this either.⟩⟩",
+      "doctrine": "Mediated intervals connect endpoints; immediate ones connect consecutive notes, with indivisible arithmetic units.",
+      "checks": "",
+      "notes": [],
+      "doubts": []
+    },
+    {
+      "id": "U045",
+      "ru": "Однако нужно знать, что отношения интервалов определяются не по числу звуков или струн, а по повышению звучания от низкого к более высокому.",
+      "en": "One must know, however, that the ratios of intervals are determined not by the number of notes or strings, but by the increase of pitch from the low to the higher sound.",
+      "doctrine": "Pitch ratios are distinguished from the ordinal count of notes or strings.",
+      "checks": "",
+      "notes": [],
+      "doubts": []
+    },
+    {
+      "id": "U046",
+      "ru": "Ибо интервал квинты, имеющий полуторное отношение, оказывается полуторным не по превышению числа звуков, которое имеет [пятый звук] при сравнении с предшествующими: ведь по отношению к первому звуку он оказывается впятеро большим, по отношению ко второму — в два с половиной раза, по отношению к третьему — на две трети больше, по отношению к четвёртому — на четверть больше, и ни в одном случае он не оказывается полуторным.",
+      "en": "For the interval of a fifth, though it has a sesquialter ratio, proves sesquialter not with respect to the excess in the number of notes which [the fifth note] has when compared with the preceding ones: relative to the first note it is found to be fivefold, relative to the second two and a half times, relative to the third greater by two thirds, relative to the fourth greater by a quarter, and in no case is it shown to be sesquialter.",
+      "doctrine": "The ordinal number five does not yield 3:2 when compared with preceding ordinal numbers.",
+      "checks": "5/1=5; 5/2=2.5; 5/3=1+2/3; 5/4=1+1/4; none is 3/2.",
+      "notes": [],
+      "doubts": []
+    },
+    {
+      "id": "U047",
+      "ru": "Стало быть, его называют полуторным по повышению высоты, а не по числу звуков.",
+      "en": "The ratio is therefore judged sesquialter in relation to the increase in pitch, not to the number of notes.",
+      "doctrine": "Pitch ratios are distinguished from counts of notes.",
+      "checks": "",
+      "notes": [],
+      "doubts": []
+    },
+    {
+      "id": "U048",
+      "ru": "То же мы будем разуметь и относительно остальных отношений.",
+      "en": "We shall understand the same of the other ratios.",
+      "doctrine": "The distinction applies to other intervals.",
+      "checks": "",
+      "notes": [],
+      "doubts": []
+    },
+    {
+      "id": "U049",
+      "ru": "Такие отношения интервалов установлены по различию длины струн, или их толщины, или натяжения, возникающего при повороте колков, или, ещё нагляднее, по подвешенным грузам; у духовых же [инструментов] — по ширине полостей или по усилению и ослаблению дыхания.",
+      "en": "Such ratios of intervals have been discovered from differences in the length of strings, or their thickness, or the tension produced by turning the pegs, or, more clearly, from the suspension of weights; in wind instruments, from the width of the cavities or from the tightening and slackening of the breath.",
+      "doctrine": "Intervals are investigated through the physical means of producing pitch.",
+      "checks": "",
+      "notes": [
+        {
+          "ru": "При прочих равных условиях частота струны обратно пропорциональна длине и пропорциональна квадратному корню из натяжения; отношения грузов нельзя без оговорки приравнивать отношениям частот.",
+          "en": "With other factors fixed, string frequency is inversely proportional to length and proportional to the square root of tension; weight ratios are not simply pitch ratios.",
+          "source": "Physical calculation [checked]."
+        }
+      ],
+      "doubts": []
+    },
+    {
+      "id": "U050",
+      "ru": "⟨⟨Следует знать, что при натяжении или подвешивании грузов большее натяжение и больший вес производят движение мелодии к высокому звуку; что же до толщины или длины струн, длины авлосов или расширения отверстий увеличение чего-либо из этого создаёт †оба† вида мелодии.⟩⟩",
+      "en": "⟨⟨One must know that, in tension or suspension, greater tightening and greater weight produce melodic movement towards the high; but in the thickness or length of strings, or the length of pipes, or the extension of the holes, an increase in any of these produces the †both† kind of melody.⟩⟩",
+      "doctrine": "The P-only passage contrasts increased tension with increased dimensions.",
+      "checks": "",
+      "notes": [
+        {
+          "ru": "Слово под обелами неисправно: сопоставление требует, по-видимому, низкого звучания. Происхождение и смысл выражения о протяжённости отверстий также неясны. Греческое слово «вид» стоит в единственном числе; множественное число в переводе вызвано неисправным «оба».",
+          "en": "The obelized word is corrupt: the contrast appears to require lower pitch. The reference to the extension of holes is also uncertain.",
+          "source": "Supplied apparatus, Bas. 30.23 [checked]."
+        }
+      ],
+      "doubts": [
+        {
+          "greek": "†ἀμφότερον†",
+          "issue": "The transmitted word does not make a coherent contrast with higher pitch.",
+          "options": "The apparatus proposes θάτερον, βαρύτερον, or ἀμβλύτερον.",
+          "choice": "Retain the corrupt word and mark it.",
+          "evidence": "Supplied apparatus, Bas. 30.23 [checked].",
+          "alternative_ru": "более низкий вид мелодии",
+          "alternative_en": "a lower kind of melody"
+        }
+      ]
+    },
+    {
+      "id": "U051",
+      "ru": "Из систем (συστήματα) одна — тетрахорд, заключающий все возможности кварты; другая — пентахорд, содержащий возможности [интервала] ⟨через⟩ пять; иная — октахорд, содержащий всю силу октавы; наконец, шестнадцатиструнная [система] по непрерывности охватывает весь интервал двойной октавы и обладает двойными возможностями: она заключает в себе как названные [созвучия], так и двойную кварту, двойную квинту и двойную октаву.",
+      "en": "Of systems (συστήματα), one is the tetrachord, containing all the powers of the fourth; another is the pentachord, encompassing the powers of the [interval] ⟨through⟩ five; another is the octachord, containing the whole power of the octave; and the sixteen-string system, by continuity, encompasses the entire span of the double octave and has double powers: it contains in itself both those already mentioned and the twice-fourth, twice-fifth and double octave.",
+      "doctrine": "Systems encompass the stated intervals and their powers.",
+      "checks": "A two-octave system of 15 distinct notes arises by joining two eight-note octaves at a shared endpoint; the text calls it sixteen-string.",
+      "notes": [
+        {
+          "ru": "В рукописях перед «пятью» пропущено διὰ; это слово восстановлено изданием. О счёте шестнадцати струн и пятнадцати звуков см. U015–U016.",
+          "en": "The edition supplies διὰ, absent from the witnesses. On sixteen strings and fifteen distinct notes see U015–U016.",
+          "source": "Supplied apparatus, Bas. 31.1 [checked]."
+        }
+      ],
+      "doubts": []
+    },
+    {
+      "id": "U052",
+      "ru": "Системы отличаются от заключённых в них интервалов тем, что первые существуют в материи, а интервалы мыслятся отвлечённо от материи.",
+      "en": "Systems differ from the intervals within them in that the former have their constitution in matter, while intervals are conceived by abstraction from matter.",
+      "doctrine": "The author distinguishes material systems from abstract intervals.",
+      "checks": "",
+      "notes": [],
+      "doubts": []
+    },
+    {
+      "id": "U053",
+      "ru": "Свойство же гармонии — составлять и соединять такие системы для того или иного рода мелодии, например диатонического, хроматического и называемого гармоническим по самому имени гармонии.",
+      "en": "It is the property of harmony to arrange and fit together such systems for a particular genus of melody, such as the diatonic, the chromatic, and that called harmonic after harmony itself.",
+      "doctrine": "Harmony organizes systems into three melodic genera.",
+      "checks": "",
+      "notes": [],
+      "doubts": []
+    },
+    {
+      "id": "U054",
+      "ru": "Итак, если гармония движется преимущественно по тонам, образуется род, именуемый потому диатоническим; если по полутонам — хроматический; если же гармония строится преимущественно на диесах, возникает напев, именуемый гармоническим.",
+      "en": "If harmony proceeds mostly by tones, the genus so called diatonic is formed; if by semitones, the chromatic; and if harmony is held together rather by dieses, the melody called harmonic is completed.",
+      "doctrine": "The genera are characterized by their smaller intervals.",
+      "checks": "",
+      "notes": [
+        {
+          "ru": "«Гармонический» род здесь соответствует обычно называемому энармоническим.",
+          "en": "The genus called “harmonic” here corresponds to what is generally called enharmonic.",
+          "source": "Nicomachus, Harmonicum enchiridion 12, ed. von Jan [from memory]."
+        }
+      ],
+      "doubts": []
+    },
+    {
+      "id": "U055",
+      "ru": "Однако гармония не осуществляется целиком ни посредством тонов, ни целиком посредством полутонов, ни целиком посредством диес: это и невозможно.",
+      "en": "Nevertheless, the elements of harmony do not proceed entirely by tones, nor entirely by semitones, nor entirely by dieses; for that is impossible.",
+      "doctrine": "No genus proceeds exclusively by one small interval.",
+      "checks": "",
+      "notes": [],
+      "doubts": []
+    },
+    {
+      "id": "U056",
+      "ru": "Но поскольку кварта составлена из трёх промежутков и разделена на два тона и полутон, то, когда помещены два тоновых интервала, остатку необходимо составить полутон.",
+      "en": "But since the fourth is completed by three spans and divided into two tones and a semitone, when two tone intervals are put in, the remainder must amount to a semitone.",
+      "doctrine": "The fourth is represented as two tones and a semitone.",
+      "checks": "If tone = 9:8 and fourth = 4:3, the remainder is 256:243, not exactly half a 9:8 tone.",
+      "notes": [
+        {
+          "ru": "При пифагорейском тоне 9:8 остаток кварты равен 256:243, то есть лимме; он меньше точной половины тона.",
+          "en": "With the Pythagorean tone 9:8, the remainder of the fourth is 256:243, the leimma, less than an exact half-tone.",
+          "source": "Arithmetic calculation [checked]; Nicomachus, Harmonicum enchiridion 7 [from memory]."
+        }
+      ],
+      "doubts": []
+    },
+    {
+      "id": "U057",
+      "ru": "Это и будет так называемый диатонический род кварты, составленный из полутона и двух тонов.",
+      "en": "This would be the so-called diatonic genus of the fourth, made up of a semitone and two tones.",
+      "doctrine": "The diatonic fourth comprises semitone and two tones.",
+      "checks": "½ + 1 + 1 = 2½ tones in the author’s schematic division.",
+      "notes": [],
+      "doubts": []
+    },
+    {
+      "id": "U058",
+      "ru": "Если же полутонов будет два, то остаток станет одним интервалом, возникшим из слияния (ἐκ συμφθάρσεως), — несоставным тригемитоном; [кварта будет] составлена из двух полутонов и тригемитона.",
+      "en": "If there are two semitones, the remainder would become one interval through coalescence (ἐκ συμφθάρσεως), an incomposite trihemitone; [the fourth is] compounded of two semitones and a trihemitone.",
+      "doctrine": "A chromatic fourth has two semitones and an incomposite trihemitone.",
+      "checks": "½ + ½ + 1½ = 2½ tones.",
+      "notes": [
+        {
+          "ru": "Причастие грамматически согласуется с ближайшим словом «интервал», однако тогда тригемитон оказывается составленным из двух полутонов и самого себя. Возможно, подразумевается кварта; это толкование принято в переводе.",
+          "en": "The participle agrees grammatically with the nearby “interval”, but then the trihemitone is said to consist of two semitones and itself. The implied subject may instead be the fourth; the translation adopts this interpretation.",
+          "source": "Greek text, Bas. 32.9–13 [checked]."
+        }
+      ],
+      "doubts": [
+        {
+          "greek": "ἐξ ἡμιτονίων δύο καὶ τριημιτονίου συγκεκραμένον",
+          "issue": "The participle agrees with the nearby interval, but makes the trihemitone a compound including itself.",
+          "options": "Attach it to the preceding interval, or understand an elliptical reference to the fourth or its genus.",
+          "choice": "Supply the fourth in brackets, while recording the literal construction.",
+          "evidence": "Greek text, Bas. 32.9–13 [checked].",
+          "alternative_ru": "[интервал], составленный из двух полутонов и тригемитона",
+          "alternative_en": "[an interval] compounded of two semitones and a trihemitone"
+        }
+      ]
+    },
+    {
+      "id": "U059",
+      "ru": "Это будет хроматический род кварты, более страстный и более скорбный, чем предшествующий.",
+      "en": "This would be the chromatic genus of the fourth, more emotional and more plaintive than the preceding one.",
+      "doctrine": "The chromatic genus is assigned an emotional character.",
+      "checks": "",
+      "notes": [],
+      "doubts": []
+    },
+    {
+      "id": "U060",
+      "ru": "Если же мелодия движется по двум диесам, другой из интервалов будет одним дитоном, возникшим из слияния; этот род кварты называется гармоническим, поскольку он наилучший и получил своё название от общего имени гармонии.",
+      "en": "If the melody proceeds by two dieses, the other interval will be a single ditone formed through coalescence; this genus of the fourth is called harmonic, having taken its derivative name from harmony in general because it is the best.",
+      "doctrine": "Two dieses and a ditone make the enharmonic fourth.",
+      "checks": "¼ + ¼ + 2 = 2½ tones under the simplified scheme of U018.",
+      "notes": [],
+      "doubts": []
+    },
+    {
+      "id": "U061",
+      "ru": "Подобным же образом гармония составляет и остальные системы.",
+      "en": "In the same way harmony also arranges the remaining systems.",
+      "doctrine": "The same procedure extends to other systems.",
+      "checks": "",
+      "notes": [],
+      "doubts": []
+    },
+    {
+      "id": "U062",
+      "ru": "Ибо по образцу построения одного тетрахорда в отношении интервалов кварты любознательному легко догадаться и о следующих системах.",
+      "en": "For from the model of the arrangement of one tetrachord with respect to the intervals of the fourth, it is easy for the eager student to infer the subsequent systems as well.",
+      "doctrine": "A tetrachord provides a model for larger systems.",
+      "checks": "",
+      "notes": [],
+      "doubts": []
+    },
+    {
+      "id": "U063",
+      "ru": "Однако гармонический род мелодии труднее всего исполнять, и он требует большого упражнения и привычки, почему и не входит легко в употребление.",
+      "en": "The harmonic genus of melody, however, is the hardest to sing and requires much practice and familiarity; hence it does not readily come into use.",
+      "doctrine": "The enharmonic genus is difficult to perform.",
+      "checks": "",
+      "notes": [],
+      "doubts": []
+    },
+    {
+      "id": "U064",
+      "ru": "Диатонический же [род] прост, благороден и более естествен; поэтому его принимает и Платон.",
+      "en": "The diatonic [genus] is simple, noble, and more natural; that is why Plato too adopts it.",
+      "doctrine": "The author associates Plato with the diatonic genus.",
+      "checks": "",
+      "notes": [
+        {
+          "ru": "Утверждение о Платоне требует проверки: в «Государстве» III 398c–399c он обсуждает лады и этос, но не называет здесь диатонический род.",
+          "en": "The claim about Plato requires scrutiny: Republic III 398c–399c discusses harmoniai and ethos but does not there name the diatonic genus.",
+          "source": "Plato, Republic 398c–399c [from memory]."
+        }
+      ],
+      "doubts": []
+    },
+    {
+      "id": "U065",
+      "ru": "Каждый из этих [родов] в свою очередь разнообразится и делится на многие подразделения, различия и виды мелодий: напев настраивается то в лидийском, то во фригийском, то в дорийском [ладе], причём в каждом из них возникают пеан, свадебная песнь, исходная песнь и другие виды мелодий.",
+      "en": "Each of these in turn is varied and divided into many divisions, differences and kinds of melody; now a Lydian, now a Phrygian, now a Dorian melody is fitted together, and in each of these appear the paean, the wedding song, the song of departure and the other kinds of melody.",
+      "doctrine": "The genera admit further divisions and named melodic types.",
+      "checks": "",
+      "notes": [],
+      "doubts": [
+        {
+          "greek": "ἐξόδιος",
+          "issue": "The song’s performance context is not specified.",
+          "options": "An exit song, funeral song, or processional song.",
+          "choice": "Use “song of departure” in both languages, without asserting a funeral context.",
+          "evidence": "LSJ s.v. ἐξόδιος [from memory].",
+          "alternative_ru": "",
+          "alternative_en": ""
+        }
+      ]
+    },
+    {
+      "id": "U066",
+      "ru": "Ибо неисчислимое разнообразие мелодий создаётся не одним лишь перемещением интервалов и не одним лишь их различием, но и более медленными и быстрыми переходами, задержками и протеканием, а также разнообразным применением прикосновений и ударов.",
+      "en": "For the innumerable varieties of melody are fashioned not only by the transposition of intervals, nor only by their difference, but also by slower and faster transitions, pauses and flows, and by the varied handling of touches and strokes.",
+      "doctrine": "Melodic variety results from interval, movement, duration, and performance.",
+      "checks": "",
+      "notes": [],
+      "doubts": []
+    },
+    {
+      "id": "U067",
+      "ru": "Конец музыки.",
+      "en": "End of music.",
+      "doctrine": "Closing formula.",
+      "checks": "",
+      "notes": [],
+      "doubts": []
+    }
+  ],
+  "terms": [
+    {
+      "greek": "μουσική",
+      "ru": "музыка",
+      "en": "music",
+      "meaning_here": "Cosmic order and, in the narrower discussion, audible music.",
+      "evidence": "musical terminology [from memory]"
+    },
+    {
+      "greek": "συμμετρία",
+      "ru": "соразмерность",
+      "en": "commensurability",
+      "meaning_here": "Measured relation between parts.",
+      "evidence": "musical terminology [from memory]"
+    },
+    {
+      "greek": "ἀναλογία",
+      "ru": "пропорция",
+      "en": "proportion",
+      "meaning_here": "A proportional relation.",
+      "evidence": "musical terminology [from memory]"
+    },
+    {
+      "greek": "ἁρμονία",
+      "ru": "гармония",
+      "en": "harmony",
+      "meaning_here": "An ordered combination; at first the order of the cosmos, later an arrangement of systems.",
+      "evidence": "musical terminology [from memory]"
+    },
+    {
+      "greek": "φθόγγος",
+      "ru": "звук",
+      "en": "note",
+      "meaning_here": "A musically usable sound at a definite pitch.",
+      "evidence": "Cleonides, Introductio harmonica 1, https://beta.perseus.tufts.edu/urn:cts:greekLit:tlg0361.tlg001.1st1K-grc1:1/ [checked]"
+    },
+    {
+      "greek": "τάσις",
+      "ru": "высота",
+      "en": "pitch",
+      "meaning_here": "The pitch on which the voice rests.",
+      "evidence": "Cleonides, Introductio harmonica 1, https://beta.perseus.tufts.edu/urn:cts:greekLit:tlg0361.tlg001.1st1K-grc1:1/ [checked]"
+    },
+    {
+      "greek": "ἐναρμόνιος",
+      "ru": "пригодный для гармонии",
+      "en": "suitable for harmony",
+      "meaning_here": "Capable of being combined with another musical note, not necessarily the enharmonic genus.",
+      "evidence": "musical terminology [from memory]"
+    },
+    {
+      "greek": "διάστημα",
+      "ru": "интервал",
+      "en": "interval",
+      "meaning_here": "The relationship or distance between two pitches.",
+      "evidence": "Cleonides, Introductio harmonica 1, https://beta.perseus.tufts.edu/urn:cts:greekLit:tlg0361.tlg001.1st1K-grc1:1/ [checked]"
+    },
+    {
+      "greek": "σύστημα",
+      "ru": "система",
+      "en": "system",
+      "meaning_here": "A span or arrangement of intervals.",
+      "evidence": "Cleonides, Introductio harmonica 1, https://beta.perseus.tufts.edu/urn:cts:greekLit:tlg0361.tlg001.1st1K-grc1:1/ [checked]"
+    },
+    {
+      "greek": "προσλαμβανόμενος",
+      "ru": "просламбаномен",
+      "en": "proslambanomenos",
+      "meaning_here": "The added lowest note.",
+      "evidence": "about.md §5 [checked]; musical terminology [from memory]"
+    },
+    {
+      "greek": "ὑπάτη",
+      "ru": "гипата",
+      "en": "hypate",
+      "meaning_here": "The lowest note of a named tetrachord.",
+      "evidence": "about.md §5 [checked]; musical terminology [from memory]"
+    },
+    {
+      "greek": "παρυπάτη",
+      "ru": "парипата",
+      "en": "parhypate",
+      "meaning_here": "The note next to hypate.",
+      "evidence": "about.md §5 [checked]; musical terminology [from memory]"
+    },
+    {
+      "greek": "διάτονος",
+      "ru": "диатонный",
+      "en": "diatonic",
+      "meaning_here": "A pitch named for its place in a diatonic arrangement.",
+      "evidence": "musical terminology [from memory]"
+    },
+    {
+      "greek": "μέση",
+      "ru": "меса",
+      "en": "mese",
+      "meaning_here": "The central note.",
+      "evidence": "about.md §5 [checked]; musical terminology [from memory]"
+    },
+    {
+      "greek": "παράμεσος",
+      "ru": "парамеса",
+      "en": "paramese",
+      "meaning_here": "The note adjacent to mese above it.",
+      "evidence": "about.md §5 [checked]; musical terminology [from memory]"
+    },
+    {
+      "greek": "τρίτη",
+      "ru": "трита",
+      "en": "trite",
+      "meaning_here": "The note named third in the upper tetrachords.",
+      "evidence": "about.md §5 [checked]; musical terminology [from memory]"
+    },
+    {
+      "greek": "νήτη",
+      "ru": "нета",
+      "en": "nete",
+      "meaning_here": "The highest note in a named tetrachord.",
+      "evidence": "about.md §5 [checked]; musical terminology [from memory]"
+    },
+    {
+      "greek": "διεζευγμένη",
+      "ru": "отделённых",
+      "en": "of the disjunct",
+      "meaning_here": "Refers to the disjunct tetrachord.",
+      "evidence": "about.md §5 [checked]; musical terminology [from memory]"
+    },
+    {
+      "greek": "ὑπερβολαίων",
+      "ru": "высших",
+      "en": "of the hyperbolaion",
+      "meaning_here": "The highest tetrachord in the Greater Perfect System.",
+      "evidence": "about.md §5 [checked]; musical terminology [from memory]"
+    },
+    {
+      "greek": "δίεσις",
+      "ru": "диеса",
+      "en": "diesis",
+      "meaning_here": "The smallest interval in this account.",
+      "evidence": "about.md §5 [checked]; musical terminology [from memory]"
+    },
+    {
+      "greek": "ἡμιτόνιον",
+      "ru": "полутон",
+      "en": "semitone",
+      "meaning_here": "An interval twice the diesis and half the tone in the author’s model.",
+      "evidence": "musical terminology [from memory]"
+    },
+    {
+      "greek": "τόνος",
+      "ru": "тон",
+      "en": "tone",
+      "meaning_here": "An interval in the 9:8 ratio.",
+      "evidence": "musical terminology [from memory]"
+    },
+    {
+      "greek": "ἐπόγδοος",
+      "ru": "сверхосьмой",
+      "en": "sesquioctave",
+      "meaning_here": "A ratio of a number to that number plus its eighth, here 9:8.",
+      "evidence": "musical terminology [from memory]"
+    },
+    {
+      "greek": "μονάς",
+      "ru": "единица",
+      "en": "unit",
+      "meaning_here": "An indivisible numerical unit, as contrasted with continuous magnitude.",
+      "evidence": "musical terminology [from memory]"
+    },
+    {
+      "greek": "ἡμιεπόγδοος",
+      "ru": "половинный сверхосьмой",
+      "en": "half-sesquioctave",
+      "meaning_here": "The alleged half of the sesquioctave interval.",
+      "evidence": "musical terminology [from memory]"
+    },
+    {
+      "greek": "ἀσύνθετον διάστημα",
+      "ru": "несоставной интервал",
+      "en": "incomposite interval",
+      "meaning_here": "A span sounded as one leap, although equivalent in magnitude to several intervals.",
+      "evidence": "greek-text.json, U026–U027 [checked]; Aristoxenus, Elementa harmonica I [from memory]"
+    },
+    {
+      "greek": "σύμφθαρσις",
+      "ru": "слияние",
+      "en": "coalescence",
+      "meaning_here": "The merging of potential component intervals into one sounding span.",
+      "evidence": "greek-text.json, U027–U028 [checked]"
+    },
+    {
+      "greek": "διὰ τεσσάρων",
+      "ru": "кварта",
+      "en": "fourth",
+      "meaning_here": "A consonant span comprising four notes.",
+      "evidence": "greek-text.json, U033–U034 [checked]"
+    },
+    {
+      "greek": "διὰ πέντε",
+      "ru": "квинта",
+      "en": "fifth",
+      "meaning_here": "A consonant span comprising five notes.",
+      "evidence": "greek-text.json, U033–U034 [checked]"
+    },
+    {
+      "greek": "διὰ πασῶν",
+      "ru": "октава",
+      "en": "octave",
+      "meaning_here": "The eight-note consonant span.",
+      "evidence": "greek-text.json, U033–U035 [checked]"
+    },
+    {
+      "greek": "παράφωνον",
+      "ru": "парафония",
+      "en": "paraphony",
+      "meaning_here": "A class of consonance exemplified by the fourth and fifth, defined here in terms of successive sound.",
+      "evidence": "greek-text.json, U036–U037 [checked]"
+    },
+    {
+      "greek": "ἀντίφωνον",
+      "ru": "антифония",
+      "en": "antiphony",
+      "meaning_here": "A class of consonance exemplified by the octave and larger spans, described here in terms of simultaneous sound.",
+      "evidence": "greek-text.json, U036–U037 [checked]"
+    },
+    {
+      "greek": "τριδίεσις",
+      "ru": "тридиеса",
+      "en": "tridiesis",
+      "meaning_here": "An interval with the magnitude of three dieses.",
+      "evidence": "greek-text.json, U026–U027 [checked]"
+    },
+    {
+      "greek": "τριημιτόνιον",
+      "ru": "тригемитон",
+      "en": "trihemitone",
+      "meaning_here": "An interval with the magnitude of three semitones.",
+      "evidence": "greek-text.json, U026–U027 [checked]"
+    },
+    {
+      "greek": "διτόνιον",
+      "ru": "дитон",
+      "en": "ditone",
+      "meaning_here": "An interval with the magnitude of two tones.",
+      "evidence": "greek-text.json, U026 [checked]"
+    },
+    {
+      "greek": "τριτόνιον",
+      "ru": "тритон",
+      "en": "tritone",
+      "meaning_here": "An interval with the magnitude of three tones.",
+      "evidence": "greek-text.json, U026 [checked]"
+    },
+    {
+      "greek": "ἄμεσον / ἔμμεσον",
+      "ru": "непосредственный / опосредованный",
+      "en": "immediate / mediated",
+      "meaning_here": "Adjacent-note interval versus interval containing intermediate notes.",
+      "evidence": "greek-text.json, U042–U044 [checked]"
+    },
+    {
+      "greek": "διπλασιεπιμερής",
+      "ru": "двойное с долями",
+      "en": "double plus parts",
+      "meaning_here": "A ratio greater than 2:1 by a multiple fraction, illustrated by 16:6.",
+      "evidence": "greek-text.json, U040–U041 [checked]"
+    },
+    {
+      "greek": "γένος διάτονον",
+      "ru": "диатонический род",
+      "en": "diatonic genus",
+      "meaning_here": "A tetrachordal genus with two tones and a semitone in the author’s schematic division",
+      "evidence": "Nicomachus, Harmonicum enchiridion 12 [from memory]"
+    },
+    {
+      "greek": "γένος χρωματικόν",
+      "ru": "хроматический род",
+      "en": "chromatic genus",
+      "meaning_here": "A genus characterized here by two semitones and a trihemitone",
+      "evidence": "Nicomachus, Harmonicum enchiridion 12 [from memory]"
+    },
+    {
+      "greek": "γένος ἁρμονικόν",
+      "ru": "гармонический род",
+      "en": "harmonic genus",
+      "meaning_here": "The genus normally called enharmonic",
+      "evidence": "Nicomachus, Harmonicum enchiridion 12 [from memory]"
+    },
+    {
+      "greek": "ἐκ συμφθάρσεως",
+      "ru": "из слияния",
+      "en": "through coalescence",
+      "meaning_here": "Said of an interval arising from the combination of smaller units without an intervening sounded note",
+      "evidence": "Supplied apparatus, Bas. 32.10 [checked]"
+    },
+    {
+      "greek": "γένος",
+      "ru": "род",
+      "en": "genus",
+      "meaning_here": "Mode of tetrachordal division",
+      "evidence": "Greek text, U053–U060 [checked]"
+    },
+    {
+      "greek": "συμφωνία",
+      "ru": "консонанс",
+      "en": "consonance",
+      "meaning_here": "An interval described as concordant",
+      "evidence": "about.md §5 [checked]"
+    },
+    {
+      "greek": "τετράχορδον",
+      "ru": "тетрахорд",
+      "en": "tetrachord",
+      "meaning_here": "Four-note system spanning a fourth",
+      "evidence": "Greek text, U051 [checked]"
+    },
+    {
+      "greek": "πεντάχορδον",
+      "ru": "пентахорд",
+      "en": "pentachord",
+      "meaning_here": "Five-note system spanning a fifth",
+      "evidence": "Greek text, U051 [checked]"
+    },
+    {
+      "greek": "ὀκτάχορδον",
+      "ru": "октахорд",
+      "en": "octachord",
+      "meaning_here": "Eight-note system spanning an octave",
+      "evidence": "Greek text, U051 [checked]"
+    },
+    {
+      "greek": "ἑκκαιδεκάχορδον",
+      "ru": "шестнадцатиструнная система",
+      "en": "sixteen-string system",
+      "meaning_here": "The double-octave system counted with its junction twice",
+      "evidence": "Greek text, U015–U016 and U051 [checked]"
+    },
+    {
+      "greek": "μέλος",
+      "ru": "мелодия; напев",
+      "en": "melody",
+      "meaning_here": "Melodic span or tune, according to context",
+      "evidence": "Greek text, U027 and U065 [checked]"
+    },
+    {
+      "greek": "ἐπίτριτος",
+      "ru": "сверхтретий",
+      "en": "sesquitertian",
+      "meaning_here": "A ratio of 4:3",
+      "evidence": "Greek text, U040–U041 [checked]"
+    },
+    {
+      "greek": "ἡμιόλιος",
+      "ru": "полуторный",
+      "en": "sesquialter",
+      "meaning_here": "A ratio of 3:2",
+      "evidence": "Greek text, U040–U041 [checked]"
+    }
+  ],
+  "text_issues": [
+    {
+      "unit": "U039",
+      "printed": "καὶ δὶς διὰ τεσσάρων ... καὶ δὶς διὰ πέντε",
+      "proposal": "καὶ διὰ τεσσάρων ... καὶ διὰ πέντε",
+      "source": "Xylander’s deletion of each δὶς, reported in the supplied apparatus [checked]",
+      "argument": "Octave plus fourth and octave plus fifth fit the listed magnitudes; literal double fourth or fifth added to an octave does not.",
+      "effect_on_sense": "Changes octave plus twice a fourth or fifth to octave plus one fourth or fifth."
+    },
+    {
+      "unit": "U040",
+      "printed": "καὶ δὶς διὰ τεσσάρων ... καὶ δὶς διὰ πέντε",
+      "proposal": "καὶ διὰ τεσσάρων ... καὶ διὰ πέντε",
+      "source": "Conjectural deletion, cf. apparatus at 29.8–9 [checked]",
+      "argument": "The ratios 8:3 and 3:1 in U041 refer to octave plus fourth and octave plus fifth.",
+      "effect_on_sense": "The compound consonances become the conventional octave plus fourth and octave plus fifth."
+    },
+    {
+      "unit": "U050",
+      "printed": "†ἀμφότερον†",
+      "proposal": "βαρύτερον (tentative)",
+      "source": "Supplied apparatus, Bas. 30.23 [checked]",
+      "argument": "The contrast calls for a lower pitch, although several conjectures are possible.",
+      "effect_on_sense": "The increase would produce a lower, rather than both, kinds of melody."
+    }
+  ],
+  "contamination": [],
+  "summary": "The text combines mathematical ratio theory with a theory of melodic genera. The most difficult passages connect indivisible arithmetic units to continuous lengths and uncomposed melodic intervals. The printed numbers eight and a half and eight and a quarter do not state their denominator, so the ratios 17:16 and 33:32 are only possible interpretations. The tone 9:8 cannot be halved as a pitch interval by simply halving its numerical difference. The assertion that a fourth contains two tones, a semitone, and a further increment conflicts with a fourth of 4:3 if the 9:8 tone and an exact half-tone are used. The interval names with twice the fourth and twice the fifth do not match the magnitudes and ratios supplied in the same account. The overlapping two octaves explain fifteen distinct notes in the stated sixteen-string count. The Paris-only passages preserve additional arguments and are marked only at their actual opening and closing boundaries. The corrupt word in U050 has not been silently corrected, and the syntax of U058 remains ambiguous. The terminology is consistent where possible, though several of the author’s note names and interval names are unusual. The attribution of the diatonic genus to Plato and the physical account of weights and wind instruments need specialist review. The reviewer should first examine U018, U035–U041, U050 and U058 against the Greek and the supplied apparatus. External checking was selective; many parallels and lexical identifications remain marked as from memory rather than presented as verified."
+}
