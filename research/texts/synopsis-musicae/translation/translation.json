@@ -2,7 +2,7 @@
  "title_ru": "Точный синопсис музыки",
  "title_en": "A Precise Synopsis of Music",
  "work": "Anonymous, Quadrivium of 1008: the music section (Τῆς μουσικῆς σύνοψις ἠκριβωμένη)",
- "status": "composed from six independent translations after three reviews and the editor's decisions, 31.10.2026; verified and read for consistency; notes fact-checked against the sources, 1.11.2026; open questions remain for the editor; not yet signed by the editor",
+ "status": "composed from six independent translations after three reviews and the editor's decisions, 31.10.2026; verified and read for consistency; notes fact-checked against the sources, 1.11.2026; the editor's answers to the open questions applied, 1.11.2026; not yet signed by the editor",
  "sections": [
   {
    "section": 1,
@@ -190,11 +190,10 @@
    "basis": "RU follows E's structure with A/D's «сама соразмерность» (glossary) for αὐτοσυμμετρία; EN follows E/A ('commensurability itself', 'wholly so'). τὸ πᾶν is adverbial, as all three reviewers recommend; the appositional reading of the edition's punctuation and the H/V construal are in the note. Errors avoided: C's 'as it were' hedge and added 'itself', D's «вообще», F's «в целом». Greek moved to the notes.",
    "decisions": [],
    "verify": [
-    "No change"
+    "No change",
+    "Editor's answers, 1.11.2026: τὸ πᾶν stays adverbial («всецело» / “wholly so”), as recommended."
    ],
-   "open": [
-    "τὸ πᾶν: the edition paraphrases its adopted (Bas.) punctuation as an apposition ('the All'); following the three reviewers and U055, the text takes it adverbially («всецело» / 'wholly so') and gives the apposition in the note. Please confirm, or switch to «— вселенная, —» / '— the All —'."
-   ]
+   "open": []
   },
   {
    "id": "U005",
@@ -490,11 +489,10 @@
     "L02"
    ],
    "verify": [
-    "No change"
+    "No change",
+    "Editor's answers, 1.11.2026: no Greek in the text: the derivation is visible in the translation («пригодный для гармонии … сочетаться в гармонии»). Rule: Greek stands in the text only where the derivation is not visible in the translation (U035, U054)."
    ],
-   "open": [
-    "DECISIONS § 2 allows Greek in the text where the author derives a name. Here the translation carries the derivation, so «(ἐναρμόνιος)» / '(ἐναρμόνιος)' was not added after «пригодным же для гармонии» / 'fit for harmony'. Add it if every explained name should show the Greek."
-   ]
+   "open": []
   },
   {
    "id": "U013",
@@ -572,9 +570,9 @@
      "anchor_ru": "гипата диатоническая",
      "anchor_en": "hypate diatonos",
      "kind": "term",
-     "ru": "διάτονος — прилагательное двух окончаний; здесь, в согласовании с ὑπάτη и διεζευγμένη, оно женского рода; букв. «диатоническая [струна]», транслитерация «диатонос». Так названа третья снизу ступень тетрахорда в диатоническом роде: лихана низших и средних, паранета отделённых и высших. Никомах производит это название от диатонического рода («Руководство», 11), а род назван так потому, что он один идёт «через тоны» («Руководство», 12). В русских переводах Никомаха ступень называется «диатон» (Щетников 2008а; Александрова, Мякин 2009) или «диатоника» (Щетников 2008а); «диатоническая лихана», «диатоническая паранета» — у Цыпина (Цыпин 2014). Напечатанное во всех источниках текста ὑπάτη διάτονος соответствует обычному ὑπάτων διάτονος, то есть лихане низших (Клеонид, гл. 4: λιχανὸς ὑπάτων διάτονος; Гауденций, «Гармоническое введение», 6: διάτονος ὑπάτων); издание сохраняет переданную форму.",
+     "ru": "διάτονος — прилагательное двух окончаний; здесь, в согласовании с ὑπάτη и διεζευγμένη, оно женского рода; букв. «диатоническая [струна]», транслитерация «диатонос». Так названа третья снизу ступень тетрахорда в диатоническом роде: лихана низших и средних, паранета отделённых и высших. Никомах производит это название от диатонического рода («Руководство», 11), а род назван так потому, что он один идёт «через тоны» («Руководство», 12). В русских переводах Никомаха ступень называется «диатон» (Щетников 2008а; Мякин, Александрова 2009) или «диатоника» (Щетников 2008а); «диатоническая лихана», «диатоническая паранета» — у Цыпина (Цыпин 2014). Напечатанное во всех источниках текста ὑπάτη διάτονος соответствует обычному ὑπάτων διάτονος, то есть лихане низших (Клеонид, гл. 4: λιχανὸς ὑπάτων διάτονος; Гауденций, «Гармоническое введение», 6: διάτονος ὑπάτων); издание сохраняет переданную форму.",
      "en": "διάτονος, a two-termination adjective, is feminine here where it agrees with ὑπάτη and διεζευγμένη; lit. “diatonic [string]”. It names the third note from the bottom of a tetrachord in the diatonic genus: lichanos hypaton and meson, paranete diezeugmenon and hyperbolaion. Nicomachus derives the name from the diatonic genus (Manual 11), which is so called because it alone proceeds “through tones” (Manual 12). Barker transliterates it as “diatonos” (Barker 1989). The printed ὑπάτη διάτονος, in all witnesses, corresponds to the usual ὑπάτων διάτονος, i.e. lichanos hypaton (Cleonides ch. 4: λιχανὸς ὑπάτων διάτονος; Gaudentius, Harmonic Introduction 6: διάτονος ὑπάτων); the edition keeps the transmitted form.",
-     "source": "Nicomachus, Manual 11, 12; Cleonides ch. 4 (Jan p. 182); Gaudentius, Harmonic Introduction 6 (Jan p. 332); Shchetnikov 2008a; Aleksandrova, Myakin 2009; Tsypin 2014; Barker 1989",
+     "source": "Nicomachus, Manual 11, 12; Cleonides ch. 4 (Jan p. 182); Gaudentius, Harmonic Introduction 6 (Jan p. 332); Shchetnikov 2008a; Myakin, Aleksandrova 2009; Tsypin 2014; Barker 1989",
      "verified": "checked"
     },
     {
@@ -616,7 +614,8 @@
     "Note 3: the meson name is contrasted with the hypaton, diezeugmenon and hyperbolaion names, as in the edition, not with “all the others” (Nicomachus also has συνημμένων διάτονος)",
     "Note 3 RU: Boethius cited as «Основы музыки», as in U025",
     "EN notes and source: single-page Theon line range written “p.”",
-    "Adversarial check 1.11.2026: notes 3, 5: «с. [206] Hiller» form; «списки» → «перечни» (list of names, not manuscript); «кодекс моложе 1008 г.» replaced by Hiller’s dating s. XI vel XII"
+    "Adversarial check 1.11.2026: notes 3, 5: «с. [206] Hiller» form; «списки» → «перечни» (list of names, not manuscript); «кодекс моложе 1008 г.» replaced by Hiller’s dating s. XI vel XII",
+    "Editor's answers, 1.11.2026: key «Мякин, Александрова 2009» / “Myakin, Aleksandrova 2009”, in the order of the publication."
    ],
    "open": []
   },
@@ -703,7 +702,7 @@
    "p_only": false,
    "paragraph_start": true,
    "greek": "Τῶν δὲ διαστημάτων ἐλάχιστον μὲν ἡ δίεσις· εἶτα τὸ ἡμιτόνιον, διπλῆν ἔχον ἐπὶ τὸ ὀξὺ παραύξησιν τῆς διέσεως· εἶτα ὁ τόνος, διπλοῦν ἔχων τὸ ἡμιτόνιον, τὸν ἐπόγδοον διιστάμενος λόγον, ὡς ὁ ἔνατος ἀριθμὸς πρὸς τὸν ὄγδοον, ὡς εἶναι τὸ ἡμιτόνιον ὅσον ὀκτὼ ἥμισυ, τὴν δὲ δίεσιν ὅσον ὀκτὼ τέταρτον.",
-   "ru": "Из интервалов же наименьший — диеса; затем полутон, имеющий по направлению к высокому двойное приращение диесы; затем тон, который содержит двойной полутон, образуя сверхосминное отношение [9:8], как число девять к восьми, так что полутон составляет столько, сколько восемь с половиной, а диеса — столько, сколько восемь с четвертью.",
+   "ru": "Из интервалов же наименьший — диеса; затем полутон, имеющий по направлению к высокому двойное приращение диесы; затем тон, который содержит полутон дважды, образуя сверхосминное отношение [9:8], как число девять к восьми, так что полутон составляет столько, сколько восемь с половиной, а диеса — столько, сколько восемь с четвертью.",
    "en": "Of the intervals, the smallest is the diesis; next the semitone, which has towards the high a double augmentation of the diesis; next the tone, which contains the semitone twice and spans the epogdoic ratio [9:8], as the number nine to eight, so that the semitone is as much as eight and a half, and the diesis as much as eight and a quarter.",
    "notes": [
     {
@@ -721,9 +720,9 @@
      "anchor_ru": "сверхосминное отношение [9:8]",
      "anchor_en": "the epogdoic ratio [9:8]",
      "kind": "term",
-     "ru": "ἐπόγδοος (λόγος) — букв. «целое и восьмая»; калька: «сверхосминное». Названия отношений — пифагорейские. В переводе даны русские кальки, как в переводе Птолемея и Порфирия (Цыпин 2013: двукратное, трёхкратное, четырёхкратное, пятикратное, полуторное, сверхтретное, сверхосминное, сверхчетвертное) и у Щетникова («сверхдвухчастное»; «двукратное-и-половинное», откуда «двукратное с половиной»; Щетников 2008б); при каждом названии в квадратных скобках указано числовое отношение. «Полусверхосминное» (U020) — калька авторского ἡμιεπόγδοον; в словарях (LSJ, Bailly, Pape) это слово не отмечено (DGE до η ещё не дошёл). В ходу и формы греческого происхождения: «эпитритное», «эпогдоосное», «эпогдоос» (Герцман 2010); «эпогдоон», «эпитрит», «гемиолий» (Александрова, Мякин 2009). Буквальные значения других названий: ἐπίτριτος — «целое и треть»; ἐπιτέταρτος — «целое и четверть»; ἐπιδιμερής — «целое и две части [трети]»; διπλασιεπιμερής — «дважды и несколько частей сверх»; διπλασιημιόλιος — «дважды с половиной», то есть 5:2, а не 2 × 3:2.",
+     "ru": "ἐπόγδοος (λόγος) — букв. «целое и восьмая»; калька: «сверхосминное». Названия отношений — пифагорейские. В переводе даны русские кальки, как в переводе Птолемея и Порфирия (Цыпин 2013: двукратное, трёхкратное, четырёхкратное, пятикратное, полуторное, сверхтретное, сверхосминное, сверхчетвертное) и у Щетникова («сверхдвухчастное»; «двукратное-и-половинное», откуда «двукратное с половиной»; Щетников 2008б); при каждом названии в квадратных скобках указано числовое отношение. «Полусверхосминное» (U020) — калька авторского ἡμιεπόγδοον; в словарях (LSJ, Bailly, Pape) это слово не отмечено (DGE до η ещё не дошёл). В ходу и формы греческого происхождения: «эпитритное», «эпогдоосное», «эпогдоос» (Герцман 2010); «эпогдоон», «эпитрит», «гемиолий» (Мякин, Александрова 2009). Буквальные значения других названий: ἐπίτριτος — «целое и треть»; ἐπιτέταρτος — «целое и четверть»; ἐπιδιμερής — «целое и две части [трети]»; διπλασιεπιμερής — «дважды и несколько частей сверх»; διπλασιημιόλιος — «дважды с половиной», то есть 5:2, а не 2 × 3:2.",
      "en": "ἐπόγδοος (λόγος), lit. “a whole and an eighth”: the epogdoic ratio, 9:8. The ratio names are the Pythagorean ones. The English uses Greek-based terms, as Barker does (Barker 1989), with the ratio in square brackets at each occurrence; the Latin equivalents are sesquioctavus (9:8), sesquitertius (4:3), sesquialter (3:2), sesquiquartus (5:4), superbipartiens (5:3). The literal senses of the other names: ἐπίτριτος “a whole and a third”; ἐπιτέταρτος “a whole and a quarter”; ἐπιδιμερής “a whole and two parts [thirds]”; διπλασιεπιμερής “twice and several parts over”; διπλασιημιόλιος “twice and a half”, i.e. 5:2, not 2 × 3:2. “Half-epogdoic” (U020) renders the author’s ἡμιεπόγδοον, a word not recorded in LSJ, Bailly or Pape (DGE has not yet reached η).",
-     "source": "Tsypin 2013; Shchetnikov 2008b; Gertsman 2010; Aleksandrova, Myakin 2009; Barker 1989; LSJ s.vv. ἐπόγδοος, ἐπιτέταρτος, ἐπιδιμερής, διπλασιημιόλιος; LSJ, Bailly, Pape: no entry for ἡμιεπόγδοος (DGE not yet at η)",
+     "source": "Tsypin 2013; Shchetnikov 2008b; Gertsman 2010; Myakin, Aleksandrova 2009; Barker 1989; LSJ s.vv. ἐπόγδοος, ἐπιτέταρτος, ἐπιδιμερής, διπλασιημιόλιος; LSJ, Bailly, Pape: no entry for ἡμιεπόγδοος (DGE not yet at η)",
      "verified": "checked"
     },
     {
@@ -737,7 +736,7 @@
      "verified": "checked"
     }
    ],
-   "basis": "RU follows E and A (best by Claude), with the DECISIONS wording «двойное приращение», «двойной полутон», «образуя сверхосминное отношение [9:8]» (P03 a); EN follows A and E with 'spans the epogdoic ratio [9:8]' (P04 a, Claude's verdict on διιστάμενος). The transmitted 8½ and 8¼ are kept without a bracketed 'against eight'; Xylander's supplement goes to the note. Avoided: C's 'maintains' for διιστάμενος, C's claim that the doubling holds for the ratios, its Sectio canonis 17 and its unqualified 'geometric halving is impossible'. No Greek in the running text (the Greek-parenthesis 'error' for C is superseded by DECISIONS § 2).",
+   "basis": "RU follows E and A (best by Claude), with the DECISIONS wording «двойное приращение», «двойной полутон», «образуя сверхосминное отношение [9:8]» (P03 a); EN follows A and E with 'spans the epogdoic ratio [9:8]' (P04 a, Claude's verdict on διιστάμενος). The transmitted 8½ and 8¼ are kept without a bracketed 'against eight'; Xylander's supplement goes to the note. Avoided: C's 'maintains' for διιστάμενος, C's claim that the doubling holds for the ratios, its Sectio canonis 17 and its unqualified 'geometric halving is impossible'. No Greek in the running text (the Greek-parenthesis 'error' for C is superseded by DECISIONS § 2). [Changed in part by the editor's answers of 1.11.2026; see verify.]",
    "decisions": [
     "P03",
     "P04"
@@ -745,11 +744,11 @@
    "verify": [
     "Note 1: “Pythagorean numbers 9, 8½, 8¼” rephrased: the compiler expresses Aristoxenian sizes as numerical ratios to 8, in the Pythagorean manner",
     "Note 2 RU: calque label in the DECISIONS form «калька: …»",
-    "Adversarial check 1.11.2026: note 1 «аристоксеновские»; note 2 DGE dropped from the negative (DGE not yet at η); note 3 Theon p. 69 qualified (17:16 a working value in the leimma proof), range 69.12–70.1"
+    "Adversarial check 1.11.2026: note 1 «аристоксеновские»; note 2 DGE dropped from the negative (DGE not yet at η); note 3 Theon p. 69 qualified (17:16 a working value in the leimma proof), range 69.12–70.1",
+    "Editor's answers, 1.11.2026: RU «содержит полутон дважды», as the EN “contains the semitone twice”.",
+    "Editor's answers, 1.11.2026: key «Мякин, Александрова 2009» / “Myakin, Aleksandrova 2009”, in the order of the publication."
    ],
-   "open": [
-    "RU text «тон, который содержит двойной полутон»: DECISIONS (ratio section) keeps «содержащий двойной полутон» as ordinary «двойной»; the copy-editor finds it ambiguous beside the interval names «двойная октава / кварта / квинта» and proposes «содержит полутон дважды» (as the EN 'contains the semitone twice'). Editor to confirm or change."
-   ]
+   "open": []
   },
   {
    "id": "U019",
@@ -996,9 +995,9 @@
      "anchor_ru": "трёхполутон",
      "anchor_en": "trihemitone",
      "kind": "term",
-     "ru": "τριημιτόνιον — букв. «три полутона»: интервал в полтора тона, приблизительно малая терция (в зависимости от строя; LSJ, Pape). Устоявшиеся русские названия: «трёхполутон» (Щетников 2008а; Александрова, Мякин 2009), «трёхполутоний» (Герцман 2010), «триполутон» и «полуторатон» (Цыпин 2014; Цыпин 2013). В хроматическом роде этот интервал несоставной (см. примеч. к [U058]).",
+     "ru": "τριημιτόνιον — букв. «три полутона»: интервал в полтора тона, приблизительно малая терция (в зависимости от строя; LSJ, Pape). Устоявшиеся русские названия: «трёхполутон» (Щетников 2008а; Мякин, Александрова 2009), «трёхполутоний» (Герцман 2010), «триполутон» и «полуторатон» (Цыпин 2014; Цыпин 2013). В хроматическом роде этот интервал несоставной (см. примеч. к [U058]).",
      "en": "τριημιτόνιον, lit. “three half-tones”: an interval of a tone and a half, approximately a minor third, depending on the tuning (LSJ; Pape). The usual English term is “trihemitone” (so Strunk). In the chromatic genus it is incomposite (see the note on [U058]).",
-     "source": "LSJ s.v. τριημιτόνιον; Pape; Shchetnikov 2008a; Aleksandrova, Myakin 2009; Gertsman 2010; Tsypin 2014; Tsypin 2013; Strunk; U058",
+     "source": "LSJ s.v. τριημιτόνιον; Pape; Shchetnikov 2008a; Myakin, Aleksandrova 2009; Gertsman 2010; Tsypin 2014; Tsypin 2013; Strunk; U058",
      "verified": "checked"
     },
     {
@@ -1018,7 +1017,8 @@
    ],
    "verify": [
     "Note 3: last sentence no longer contradicts the preceding one (no account is given only if ῥυθμός is temporal rhythm)",
-    "Adversarial check 1.11.2026: note 1 «Слово τριδίεσις»; note 2 EN: Strunk has ‘trihemitone’, not ‘trisemitone’ (attalus.org read)"
+    "Adversarial check 1.11.2026: note 1 «Слово τριδίεσις»; note 2 EN: Strunk has ‘trihemitone’, not ‘trisemitone’ (attalus.org read)",
+    "Editor's answers, 1.11.2026: key «Мякин, Александрова 2009» / “Myakin, Aleksandrova 2009”, in the order of the publication."
    ],
    "open": []
   },
@@ -1131,11 +1131,10 @@
    ],
    "verify": [
     "RU text: the causal phrase on numbers joined to its verb («не возникает из-за их нематериальности…») and the causal clause on melodies set off by dashes, so that «в напевах» joins «оказывается возможным»",
-    "Adversarial check 1.11.2026: RU «тем самым … и слияние» (EN ‘thereby’); note 2 source LSJ μέλος B; open question unchanged"
+    "Adversarial check 1.11.2026: RU «тем самым … и слияние» (EN ‘thereby’); note 2 source LSJ μέλος B; open question unchanged",
+    "Editor's answers, 1.11.2026: the possibility reading stays («оказывается возможным»), as recommended."
    ],
-   "open": [
-    "ἐντεῦθεν ἐγγίνεται καὶ τὴν σύμφθαρσιν εἶναι is rendered as possibility («оказывается возможным», 'becomes possible'; LSJ impers., preferred by Claude and Astra). Sol prefers occurrence ('comes about'), closer to the personal ἐγγίνεται of the first clause. The note gives both; the editor may wish to confirm."
-   ]
+   "open": []
   },
   {
    "id": "U029",
@@ -1144,17 +1143,17 @@
    "p_only": true,
    "paragraph_start": false,
    "greek": "ταύτῃ τοι καὶ ἡ γεωμετρία καὶ ἐλάττονα ἀπὸ τῆς μείζονος κατὰ πάντα τρόπον ἀφαιρεῖται εὐθεῖαν καὶ τῇ ἐλάττονι προστίθησι καὶ πεποίηται μείζονα· ἔνθα καὶ ἅπαν σχῆμα παραυξῆσαι κατὰ τὸ δοκοῦν μῆκος καὶ ἀπομειῶσαι δύναται, ὅπερ καὶ ἀριθμητικῇ ἀνεγχώρητον.",
-   "ru": "Потому-то и геометрия всяким способом вычитает из большей прямой меньшую, а к меньшей прибавляет и делает [её] большей; благодаря этому она может любую фигуру и увеличить до желаемой длины, и уменьшить, что для арифметики как раз недопустимо.",
-   "en": "That is why geometry too subtracts a smaller straight line from the greater in every way, and adds to the smaller and makes [it] greater; thereby it can both enlarge any figure to the desired length and reduce it, which is indeed inadmissible for arithmetic.",
+   "ru": "Именно так и геометрия всяким способом вычитает из большей прямой меньшую, а к меньшей прибавляет и делает [её] большей; благодаря этому она может любую фигуру и увеличить до желаемой длины, и уменьшить, что для арифметики как раз недопустимо.",
+   "en": "In just this way geometry too subtracts a smaller straight line from the greater in every way, and adds to the smaller and makes [it] greater; thereby it can both enlarge any figure to the desired length and reduce it, which is indeed inadmissible for arithmetic.",
    "notes": [
     {
      "n": 53,
-     "anchor_ru": "Потому-то и геометрия",
-     "anchor_en": "That is why geometry too",
+     "anchor_ru": "Именно так и геометрия",
+     "anchor_en": "In just this way geometry too",
      "kind": "text",
-     "ru": "ταύτῃ τοι καὶ ἡ γεωμετρία … — отрывок P (см. примеч. к [U028]) повторяет здесь довод основного текста (U021–U022) с отличиями: ταύτῃ τοι («потому-то») вместо γάρ; добавлено καὶ πεποίηται μείζονα (перфект медия, букв. «и сделала [её] большей»); ἔνθα вместо ἔνθεν; ἀπομειῶσαι вместо ἀγαγεῖν εἰς μείωσιν; относительное придаточное ὅπερ … ἀνεγχώρητον вместо τῇ δὲ ἀριθμητικῇ τοῦτο ἀδύνατον. Довод тот же: непрерывная величина геометрии допускает прибавление и отнятие в любой мере, число — нет.",
-     "en": "ταύτῃ τοι καὶ ἡ γεωμετρία …: the P passage (see the note on [U028]) here repeats the argument of the main text (U021–U022) with differences: ταύτῃ τοι (“that is why”) for γάρ; the added καὶ πεποίηται μείζονα (perfect middle, lit. “and has made [it] greater”); ἔνθα for ἔνθεν; ἀπομειῶσαι for ἀγαγεῖν εἰς μείωσιν; the relative clause ὅπερ … ἀνεγχώρητον for τῇ δὲ ἀριθμητικῇ τοῦτο ἀδύνατον. The argument is the same: the continuous magnitude of geometry admits addition and subtraction in any measure, number does not.",
-     "source": "U021–U022 compared with U029 (Greek text)",
+     "ru": "ταύτῃ τοι καὶ ἡ γεωμετρία … — отрывок P (см. примеч. к [U028]) повторяет здесь довод основного текста (U021–U022) с отличиями: ταύτῃ τοι («именно так») вместо γάρ; добавлено καὶ πεποίηται μείζονα (перфект медия, букв. «и сделала [её] большей»); ἔνθα вместо ἔνθεν; ἀπομειῶσαι вместо ἀγαγεῖν εἰς μείωσιν; относительное придаточное ὅπερ … ἀνεγχώρητον вместо τῇ δὲ ἀριθμητικῇ τοῦτο ἀδύνατον. Довод тот же: непрерывная величина геометрии допускает прибавление и отнятие в любой мере, число — нет. Формула ταύτῃ τοι καί передана так же, как в U025: LSJ (s.v. οὗτος VIII.4) даёт для ταύτῃ только значения «здесь», «в этом», «так, этим способом», Дворецкий — местные значения, «так» и «в этом отношении»; причинное «потому-то» допускает лишь Bailly («par conséquent»; «à cause de cela, pour cela» — со ссылкой на Лукиана, «Нигрин» 23).",
+     "en": "ταύτῃ τοι καὶ ἡ γεωμετρία …: the P passage (see the note on [U028]) here repeats the argument of the main text (U021–U022) with differences: ταύτῃ τοι (“in just this way”) for γάρ; the added καὶ πεποίηται μείζονα (perfect middle, lit. “and has made [it] greater”); ἔνθα for ἔνθεν; ἀπομειῶσαι for ἀγαγεῖν εἰς μείωσιν; the relative clause ὅπερ … ἀνεγχώρητον for τῇ δὲ ἀριθμητικῇ τοῦτο ἀδύνατον. The argument is the same: the continuous magnitude of geometry admits addition and subtraction in any measure, number does not. The formula ταύτῃ τοι καί is rendered as in U025: LSJ (s.v. οὗτος VIII.4) gives ταύτῃ only as “here”, “herein”, “in this way, thus”, and Dvoretsky only local senses, “thus” and “in this respect”; only Bailly allows a causal sense (“par conséquent”; “à cause de cela, pour cela”, citing Lucian, Nigrinus 23).",
+     "source": "U021–U022 compared with U029 (Greek text); LSJ s.v. οὗτος VIII.4; Dvoretsky; Bailly",
      "verified": "checked"
     },
     {
@@ -1168,7 +1167,7 @@
      "verified": "checked"
     }
    ],
-   "basis": "RU mainly follows D (the Claude review's pick, B for the others) and EN D/E, with L04 a «до желаемой длины» / 'to the desired length' (A, B, C, F). ταύτῃ τοι is taken causally («Потому-то» / 'That is why'), as in the Claude review's sense line, where all six have 'in this way'; the emphatic καί («как раз» / 'indeed') follows the Claude review. C's listed error «там же» for ἔνθα is avoided («благодаря этому» / 'thereby'), and E's note on τῆς, misplaced at U028, is given here. No Greek in the running text.",
+   "basis": "RU mainly follows D (the Claude review's pick, B for the others) and EN D/E, with L04 a «до желаемой длины» / 'to the desired length' (A, B, C, F). ταύτῃ τοι is taken causally («Потому-то» / 'That is why'), as in the Claude review's sense line, where all six have 'in this way'; the emphatic καί («как раз» / 'indeed') follows the Claude review. C's listed error «там же» for ἔνθα is avoided («благодаря этому» / 'thereby'), and E's note on τῆς, misplaced at U028, is given here. No Greek in the running text. [Changed in part by the editor's answers of 1.11.2026; see verify.]",
    "decisions": [
     "L04"
    ],
@@ -1176,11 +1175,10 @@
     "EN text: word order of “in every way”",
     "Note 1: πεποίηται glossed as perfect middle, lit. “has made” (was “perfect, ‘makes’”)",
     "Note 2: Vincent’s text rendered with the edition’s wording “an arithmetical impossibility”, removing the clash with “nowhere means ‘arithmetically’”",
-    "EN: straight apostrophes made typographic (’)"
+    "EN: straight apostrophes made typographic (’)",
+    "Editor's answers, 1.11.2026: ταύτῃ τοι rendered «Именно так» / “In just this way”, as in U025; the causal reading in note 1."
    ],
-   "open": [
-    "ταύτῃ τοι is rendered causally («Потому-то» / 'That is why'), where all six versions have 'in this way'. Lexica (checked on lsj.gr, 1.11.2026): LSJ s.v. οὗτος VIII.4 gives ταύτῃ only as 'on this spot, here', 'in this point, herein', 'in this way, thus'; Dvoretsky gives local and modal senses only; Bailly abrégé adds «par ce moyen, ainsi, par conséquent». That the causal sense is the usual Byzantine one is not documented (no TLG check). The same formula ταύτῃ τοι καί is rendered «Именно так» / 'In just this way' in U025. The accuracy reader recommends the manner reading here as in U025: «Именно так и геометрия…» / 'In just this way geometry too…', with the causal sense as an alternative in note 1."
-   ]
+   "open": []
   },
   {
    "id": "U030",
@@ -1248,11 +1246,10 @@
    "basis": "RU follows A/D and EN A/E (the Claude review's picks; B, D and F, picked by the other reviewers, differ only in wording), aligned with the composed U024. C's listed construal ('describing it as a square … makes [it] half') is avoided. The printed accusative αὐτήν is translated by the construction it must denote, without emendation, as the reviewers agree. No Greek in the running text.",
    "decisions": [],
    "verify": [
-    "No change"
+    "No change",
+    "Editor's answers, 1.11.2026: P's αὐτήν is kept as a loose construction; note 1 states the lexical facts."
    ],
-   "open": [
-    "αὐτήν (P) is kept. The lexica record no double accusative with περιτίθημι: in the reverse construction (LSJ II.2, π. τινὰ ὕβρει) the thing put round is in the dative. Keep P's reading as a loose construction, or correct to αὐτῇ after U024 (the question the reviewers raised in the packet)? The translation is the same either way."
-   ]
+   "open": []
   },
   {
    "id": "U032",
@@ -1319,11 +1316,10 @@
    ],
    "verify": [
     "Note 2 EN: “p. 51.4–20” (one page); “concord” → “consonance”, as in the running text",
-    "EN: straight apostrophes made typographic (’)"
+    "EN: straight apostrophes made typographic (’)",
+    "Editor's answers, 1.11.2026: the main P01 note stays at the first mention."
    ],
-   "open": [
-    "DECISIONS names no place for the main P01 note; I put it here, at the first mention, with cross-references from U034 and U035."
-   ]
+   "open": []
   },
   {
    "id": "U034",
@@ -1332,7 +1328,7 @@
    "p_only": false,
    "paragraph_start": false,
    "greek": "ταῦτα δὲ οὐκ ἄμεσα οὐδ’ ἀσύνθετα, ἀλλὰ διὰ μέσων τῶν εἰρημένων πάντων διαστημάτων ὁδεύοντα, ἃ τῷ μὲν λόγῳ τῆς ἀπὸ τοῦ πρώτου φθόγγου ἐπὶ τὸν τελευταῖον ἠχῆς διαστήματα ὀνομάζονται, τῇ δὲ τῶν διὰ μέσου φθόγγων κατατεταγμένῃ ποσότητι τὰς τοιάσδε προσηγορίας ἐδέξαντο· τὸ διὰ τεσσάρων ὡς διὰ τεσσάρων φθόγγων, εἴτ’ οὖν χορδῶν, διοδεῦον καὶ περαινόμενον, καὶ τὸ διὰ πέντε ὡς διὰ πέντε τελούμενον, καὶ τὸ διὰ πασῶν ὡς δι’ ὀκτὼ τελειούμενον.",
-   "ru": "Эти же [интервалы] лежат не между смежными звуками и не являются несоставными: они проходят через все названные интервалы, лежащие посередине; по отношению между звучанием первого и последнего звука они именуются интервалами, а по упорядоченному количеству промежуточных звуков получили такие названия: кварта — как проходящая и завершающаяся через четыре звука, то есть струны; квинта — как завершаемая через пять; октава — как достигающая полноты через восемь.",
+   "ru": "Эти же [интервалы] лежат не между смежными звуками и не являются несоставными: они проходят через все названные интервалы, лежащие посередине; по отношению между звучанием первого и последнего звука они именуются интервалами, а по упорядоченному количеству промежуточных звуков получили такие названия: кварта — как проходящая и оканчивающаяся через четыре звука, то есть струны; квинта — как завершаемая через пять; октава — как достигающая полноты через восемь.",
    "en": "These [intervals], however, do not lie between adjacent notes and are not incomposite: they proceed through all the aforesaid intervals lying in between; by the ratio of the sound from the first note to the last they are named intervals, but from the ordered quantity of the notes in between they have received the following names: the fourth as passing and ending through four notes, that is strings; the fifth as completed through five; the octave as perfected through eight.",
    "notes": [
     {
@@ -1360,13 +1356,13 @@
      "anchor_ru": "достигающая полноты",
      "anchor_en": "perfected",
      "kind": "text",
-     "ru": "τελειούμενον — об октаве автор говорит τελειούμενον («доводимая до полноты, до совершенства»), о кварте и квинте — близкими синонимами περαινόμενον и τελούμενον («завершающаяся», «завершаемая»). τελειούμενον — чтение H, Par., V; в Bas. τελούμενον, уподобление строке выше (о квинте). τελειόω подходит к октаве как к полной системе: в октахорде «восполняются все интервалы» (U035).",
+     "ru": "τελειούμενον — об октаве автор говорит τελειούμενον («доводимая до полноты, до совершенства»), о кварте и квинте — близкими синонимами περαινόμενον и τελούμενον («оканчивающаяся», «завершаемая»). τελειούμενον — чтение H, Par., V; в Bas. τελούμενον, уподобление строке выше (о квинте). τελειόω подходит к октаве как к полной системе: в октахорде «восполняются все интервалы» (U035).",
      "en": "τελειούμενον: of the octave the author says τελειούμενον (“brought to completeness, perfected”), of the fourth and the fifth the near-synonyms περαινόμενον and τελούμενον (“ending”, “completed”). τελειούμενον is the reading of H, Par. and V; Bas. has τελούμενον, assimilated to the line above (on the fifth). τελειόω suits the octave as the complete system: in the octachord “all the intervals are completed” (U035).",
      "source": "Edition, apparatus and departures at Bas. 28.1; LSJ s.v. περαίνω",
      "verified": "checked"
     }
    ],
-   "basis": "RU and EN follow the DECISIONS wording (P09 b for οὐκ ἄμεσα; P01 without literal insertions), filled out from E and A (λόγος as 'ratio', with the Claude review). One departure from the DECISIONS sample: τελειούμενον is «достигающая полноты» / 'perfected', not «завершаемая» / 'completed', because giving τελούμενον and τελειούμενον one verb is a listed error (C; F) and the edition's adopted reading turns on it. The author explains the names here, but per DECISIONS no Greek or literal gloss stands in the text; both are in the notes. Also avoided: C's 'account' for λόγος, B's «проходит» for τελούμενον, C's 'unmelodious' doubt and its Cleonides 3 reference.",
+   "basis": "RU and EN follow the DECISIONS wording (P09 b for οὐκ ἄμεσα; P01 without literal insertions), filled out from E and A (λόγος as 'ratio', with the Claude review). One departure from the DECISIONS sample: τελειούμενον is «достигающая полноты» / 'perfected', not «завершаемая» / 'completed', because giving τελούμενον and τελειούμενον one verb is a listed error (C; F) and the edition's adopted reading turns on it. The author explains the names here, but per DECISIONS no Greek or literal gloss stands in the text; both are in the notes. Also avoided: C's 'account' for λόγος, B's «проходит» for τελούμενον, C's 'unmelodious' doubt and its Cleonides 3 reference. [Changed in part by the editor's answers of 1.11.2026; see verify.]",
    "decisions": [
     "P01",
     "P09"
@@ -1374,12 +1370,11 @@
    "verify": [
     "RU/EN text: κατατεταγμένῃ agrees with ποσότητι: «по упорядоченному числу промежуточных звуков» / “from the ordered number of the notes in between”",
     "Note 2: opens with the Greek lemma; EN “p. 51.4–20”",
-    "EN: straight apostrophes made typographic (’)"
+    "EN: straight apostrophes made typographic (’)",
+    "Editor's answers, 1.11.2026: «достигающая полноты» / “perfected” for τελειούμενον is confirmed.",
+    "Editor's answers, 1.11.2026: περαινόμενον «оканчивающаяся»: three roots (конец / завершение / полнота), as in the EN."
    ],
-   "open": [
-    "DECISIONS (P01) gives «квинта — как завершаемая через пять; октава — как завершаемая через восемь» / 'completed … completed'. That repeats the error listed for C (τελούμενον and τελειούμενον given the same verb) and hides the H Par. V reading the edition adopts against Bas. I kept the DECISIONS wording for the fourth and the fifth and wrote «октава — как достигающая полноты через восемь» / 'the octave as perfected through eight'. Revert if the editor wants the DECISIONS wording exactly.",
-    "Accuracy reader (1.11.2026): RU «проходящая и завершающаяся … завершаемая» gives περαινόμενον and τελούμενον one root, as the EN does not ('ending', 'completed', 'perfected'). Proposed: «кварта — как проходящая и оканчивающаяся через четыре звука, то есть струны; квинта — как завершаемая через пять; октава — как достигающая полноты через восемь» (three roots: конец / завершение / полнота), note 3 «(«оканчивающаяся», «завершаемая»)». DECISIONS P01 prescribes «завершающаяся», so not applied."
-   ]
+   "open": []
   },
   {
    "id": "U035",
@@ -1482,9 +1477,9 @@
      "anchor_ru": "при неравном времени звучания",
      "anchor_en": "with unequal timing",
      "kind": "term",
-     "ru": "ἀνισοχρόνως / ἰσοχρόνως — букв. «неравновременно / равновременно» (заимствованные формы: «анизохронно / изохронно»). По LSJ ἀνισόχρονος значит «неравной длительности». Но сам текст поясняет ἰσοχρόνως словами κατὰ ταὐτόν, «одновременно» (LSJ s.v. αὐτός IV.4: κατὰ τὸ αὐτό — «вместе, одновременно»; ср. у Теона Смирнского, с. 51 Hiller: κατὰ ταὐτὸ … ἅμα κρουσθέντων, «извлечённые вместе», Щетников 2009), а о парафонном созвучии говорит, что звуки «сменяют друг друга» (διαδεχομένων ἀλλήλοις). Вероятно, противопоставлены последовательное и одновременное звучание, по-современному — мелодический и гармонический интервал; понимание «при неравных / равных длительностях» лексически возможно. Равенство периодов колебаний здесь не имеется в виду: у звуков октавы они различны. В проверенных текстах теоретиков этого признака нет: Фрасилл у Теона (с. 48.16–49.2 Hiller) определяет оба вида иначе — антифонное созвучие дают противолежащие друг другу низкий и высокий звуки, парафонное — звуки, не совпадающие по высоте и не диссонирующие, а сходные на известном расстоянии. Ср. [Аристотель], «Проблемы» XIX 39 (консонанс как отношение движений, подобное стопам в метре; антифон из одновременно звучащих голосов мальчиков и мужчин) и XIX 18 (из консонансов магадизируют, то есть поют двумя голосами одновременно, только в октаву).",
-     "en": "ἀνισοχρόνως / ἰσοχρόνως, lit. “at unequal / equal time” (borrowed forms: “anisochronously / isochronously”). LSJ gives ἀνισόχρονος as “of unequal duration”. But the text itself explains ἰσοχρόνως by κατὰ ταὐτόν, “at the same time” (LSJ s.v. αὐτός IV.4: κατὰ τὸ αὐτό “together, at the same time”; cf. Theon of Smyrna, p. 51 Hiller: κατὰ ταὐτὸ … ἅμα κρουσθέντων), and says of the paraphonic that the notes “succeed one another” (διαδεχομένων ἀλλήλοις). The contrast is probably between successive and simultaneous sounding, in modern terms between a melodic and a harmonic interval; a reading as unequal / equal durations is lexically possible. Equal vibration periods cannot be meant: the notes of an octave have different periods. The criterion is not found in the theorists checked: Thrasyllus in Theon (pp. 48.16–49.2 Hiller) defines the two kinds otherwise, the antiphonic as the consonance of a low note opposed to a high one, the paraphonic as that of notes neither of the same pitch nor dissonant but similar at a known interval. Cf. [Aristotle], Problems XIX 39 (consonance as a ratio of motions, like feet in metre; the antiphon of boys’ and men’s voices sounding together) and XIX 18 (of the consonances only the octave is magadised, i.e. sung by two voices at once).",
-     "source": "LSJ s.vv. ἀνισόχρονος, ἰσόχρονος, αὐτός IV.4; Theon of Smyrna, pp. 48.16–49.2, 51 Hiller; Shchetnikov 2009; [Aristotle], Problems XIX 18, 39 (Jan pp. 88, 100–101)",
+     "ru": "ἀνισοχρόνως / ἰσοχρόνως — букв. «неравновременно / равновременно» (заимствованные формы: «анизохронно / изохронно»). По LSJ ἀνισόχρονος значит «неравной длительности». Но сам текст поясняет ἰσοχρόνως словами κατὰ ταὐτόν, «одновременно» (LSJ s.v. αὐτός IV.4: κατὰ τὸ αὐτό — «вместе, одновременно»; ср. у Теона Смирнского, с. 51 Hiller: κατὰ ταὐτὸ … ἅμα κρουσθέντων, «извлечённые вместе», Щетников 2009), а о парафонном созвучии говорит, что звуки «сменяют друг друга» (διαδεχομένων ἀλλήλοις). Вероятно, противопоставлены последовательное и одновременное звучание, по-современному — мелодический и гармонический интервал; понимание «при неравных / равных длительностях» лексически возможно. Равенство периодов колебаний здесь не имеется в виду: у звуков октавы они различны. В проверенных текстах теоретиков этого признака нет: Фрасилл у Теона (с. 48.16–49.2 Hiller) определяет оба вида иначе — антифонное созвучие дают противолежащие друг другу низкий и высокий звуки, парафонное — звуки, не совпадающие по высоте и не диссонирующие, а сходные на известном расстоянии. Ср. [Аристотель], «Проблемы» XIX 39 (консонанс как отношение движений, подобное стопам в метре; антифон из одновременно звучащих голосов мальчиков и мужчин) и XIX 18 (из консонансов магадизируют, то есть поют двумя голосами одновременно, только в октаву). Ср., однако, там же, XIX 39 (921a21–22; у Яна — 39b): в октаве у звуков «один и тот же конец периодов» (τὴν αὐτὴν τελευτὴν τῶν ἐν τοῖς φθόγγοις περιόδων), а в других созвучиях — нет; на такое совпадение концов периодов могут опираться и слова ἰσοχρόνως / ἀνισοχρόνως.",
+     "en": "ἀνισοχρόνως / ἰσοχρόνως, lit. “at unequal / equal time” (borrowed forms: “anisochronously / isochronously”). LSJ gives ἀνισόχρονος as “of unequal duration”. But the text itself explains ἰσοχρόνως by κατὰ ταὐτόν, “at the same time” (LSJ s.v. αὐτός IV.4: κατὰ τὸ αὐτό “together, at the same time”; cf. Theon of Smyrna, p. 51 Hiller: κατὰ ταὐτὸ … ἅμα κρουσθέντων), and says of the paraphonic that the notes “succeed one another” (διαδεχομένων ἀλλήλοις). The contrast is probably between successive and simultaneous sounding, in modern terms between a melodic and a harmonic interval; a reading as unequal / equal durations is lexically possible. Equal vibration periods cannot be meant: the notes of an octave have different periods. The criterion is not found in the theorists checked: Thrasyllus in Theon (pp. 48.16–49.2 Hiller) defines the two kinds otherwise, the antiphonic as the consonance of a low note opposed to a high one, the paraphonic as that of notes neither of the same pitch nor dissonant but similar at a known interval. Cf. [Aristotle], Problems XIX 39 (consonance as a ratio of motions, like feet in metre; the antiphon of boys’ and men’s voices sounding together) and XIX 18 (of the consonances only the octave is magadised, i.e. sung by two voices at once). Cf., however, the same problem, XIX 39 (921a21–22; 39b in Jan): in the octave the notes share “the same end of their periods” (τὴν αὐτὴν τελευτὴν τῶν ἐν τοῖς φθόγγοις περιόδων), unlike the other consonances; ἰσοχρόνως / ἀνισοχρόνως may reflect such a coincidence of the ends of the periods.",
+     "source": "LSJ s.vv. ἀνισόχρονος, ἰσόχρονος, αὐτός IV.4; Theon of Smyrna, pp. 48.16–49.2, 51 Hiller; Shchetnikov 2009; [Aristotle], Problems XIX 18, 39 (921a21–22; Jan pp. 88, 100–101, where 39 is divided into 39a and 39b)",
      "verified": "checked"
     },
     {
@@ -1525,12 +1520,11 @@
    ],
    "verify": [
     "Note 3: opens with the Greek lemma",
-    "EN: straight apostrophes made typographic (’)"
+    "EN: straight apostrophes made typographic (’)",
+    "Editor's answers, 1.11.2026: the main P08 note stays at the first occurrence.",
+    "Editor's answers, 1.11.2026: the Problems XIX 39b sentence is added to note 1."
    ],
-   "open": [
-    "DECISIONS names no place for the main P08 note; I put it here, at the first occurrence of the pair (τάσις for ἐπίτασις). U045, U047, U049 and U050 should give only cross-references to [U037].",
-    "Fact-checker (1.11.2026): [Aristotle], Problems XIX 39b (921a; Jan's text) says that in the octave the notes have ‘the same end of their periods’ (τὴν αὐτὴν τελευτὴν τῶν ἐν τοῖς φθόγγοις περιόδων), unlike the other consonances. Note 1 rightly excludes equal periods but does not mention this coincidence of periods, a possible background of ἰσοχρόνως / ἀνισοχρόνως in the very source it cites. Add a sentence (draft in factcheck/apply-U029-U042.md)? Interpretation, so the editor's decision."
-   ]
+   "open": []
   },
   {
    "id": "U038",
@@ -1704,7 +1698,7 @@
    "p_only": true,
    "paragraph_start": true,
    "greek": "⟨⟨Σκοπητέον δὲ ὡς τὰ μὲν οὖν ἔμμεσα διαστήματα, οἷον τὸ διὰ τεσσάρων, τὸ διὰ πέντε μέλος, τὸ διὰ πασῶν, τὸ δὶς διὰ τεσσάρων, τὸ δὶς διὰ πέντε καὶ τὸ δὶς διὰ πασῶν, πρὸς τὸν προσλαμβανόμενον φθόγγον τῶν λόγων ἔχουσι τὴν ἀναφοράν· τὰ δὲ ἄμεσα καὶ μεταξὺ τούτων κείμενα, οἷον δίεσις, τὸ ἡμιτόνιον καὶ ὁ τόνος, πρὸς τοὺς πρὸ αὐτῶν ἐγγὺς φθόγγους τὴν ποιὰν τῶν λόγων ἕξιν πεποίηνται· ὡς δὲ καὶ τὰ ἐκ συμφθάρσεως διαστημάτων πλειόνων μεγεθυνόμενα διαστήματα, οἷον ἡ τριδίεσις, τὸ τριημιτόνιον, τὸ διτόνιόν τε καὶ τριτόνιον καὶ εἴ τι ἕτερον τοιουτότροπον εἶδος, τῶν ἐν αὐτοῖς κεκρυμμένων διαστημάτων πρὸς τοὺς ἐγγὺς φθόγγους πρότερον λογοθετηθέντων, οὕτως εἰς ἓν διάστημα ὡς ἐκ συμφθάρσεως κίρνανται.",
-   "ru": "⟨⟨Следует же заметить, что интервалы между несмежными звуками — например кварта, мелодическая квинта, октава, октава с квартой, октава с квинтой и двойная октава — относят свои отношения к звуку просламбаномену, а интервалы между смежными звуками, лежащие посреди них, — например диеса, полутон и тон — имеют определённое расположение своих отношений относительно соседних звуков перед ними; а также что интервалы, увеличенные слиянием нескольких интервалов, — например тридиеса, трёхполутон, дитон и тритон и любой другой подобный вид, — после того как для скрытых в них интервалов сперва были установлены отношения к соседним звукам, таким образом смешиваются в один интервал, как бы путём слияния.",
+   "ru": "⟨⟨Следует же заметить, что интервалы между несмежными звуками — например кварта, мелодическая квинта, октава, октава с квартой, октава с квинтой и двойная октава — относят свои отношения к звуку просламбаномену, а интервалы между смежными звуками, лежащие посреди них, — например диеса, полутон и тон — имеют определённое расположение своих отношений к соседним звукам перед ними; а также что интервалы, увеличенные слиянием нескольких интервалов, — например тридиеса, трёхполутон, дитон и тритон и любой другой подобный вид, — после того как для скрытых в них интервалов сперва были установлены отношения к соседним звукам, таким образом смешиваются в один интервал, как бы путём слияния.",
    "en": "⟨⟨It should be observed that the intervals between non-adjacent notes — such as the fourth, the melodic fifth, the octave, the octave and a fourth, the octave and a fifth, and the double octave — refer their ratios to the note proslambanomenos, while the intervals between adjacent notes, which lie in the midst of these — such as the diesis, the semitone and the tone — have a certain disposition of their ratios in relation to the neighbouring notes before them; and also that the intervals enlarged by the fusion of several intervals — such as the tridiesis, the trihemitone, the ditone and the tritone, and any other kind of this sort — are thus blended into one interval, as by fusion, the intervals hidden within them having first been assigned their ratios to the neighbouring notes.",
    "notes": [
     {
@@ -1778,7 +1772,7 @@
      "verified": "checked"
     }
    ],
-   "basis": "Construal of A, E and F and of the Claude and Astra verdicts: Σκοπητέον δὲ ὡς governs two clauses, and ὡς δὲ καὶ … οὕτως … κίρνανται is a third object clause, with οὕτως resuming the genitive absolute (B and D's independent “likewise” sentence is avoided). RU builds on D and E, EN on D and E, with the wording fixed by DECISIONS: P09 b (between non-adjacent / adjacent notes), L08 «мелодическая квинта» / “the melodic fifth”, P02 b, P14 (ποιὰν … ἕξιν translated in full), P11 a «трёхполутон», L09 b, ἐγγὺς φθόγγοι «соседние звуки» / “neighbouring notes”, σύμφθαρσις «слияние» / “fusion”. Avoided: C's «мелодические» for ἔμμεσα and «сжатие» / “compression” for σύμφθαρσις; A's and F's “the fifth melody”; B's and E's «рассмотреть, что» (now «заметить»); A's unstable Russian syntax; C's Cleonides 11 claim. ⟨⟨ kept at the start; no Greek in the running text.",
+   "basis": "Construal of A, E and F and of the Claude and Astra verdicts: Σκοπητέον δὲ ὡς governs two clauses, and ὡς δὲ καὶ … οὕτως … κίρνανται is a third object clause, with οὕτως resuming the genitive absolute (B and D's independent “likewise” sentence is avoided). RU builds on D and E, EN on D and E, with the wording fixed by DECISIONS: P09 b (between non-adjacent / adjacent notes), L08 «мелодическая квинта» / “the melodic fifth”, P02 b, P14 (ποιὰν … ἕξιν translated in full), P11 a «трёхполутон», L09 b, ἐγγὺς φθόγγοι «соседние звуки» / “neighbouring notes”, σύμφθαρσις «слияние» / “fusion”. Avoided: C's «мелодические» for ἔμμεσα and «сжатие» / “compression” for σύμφθαρσις; A's and F's “the fifth melody”; B's and E's «рассмотреть, что» (now «заметить»); A's unstable Russian syntax; C's Cleonides 11 claim. ⟨⟨ kept at the start; no Greek in the running text. [Changed in part by the editor's answers of 1.11.2026; see verify.]",
    "decisions": [
     "P01",
     "P02",
@@ -1791,11 +1785,10 @@
    ],
    "verify": [
     "EN text: unbalanced comma/dash in the third clause; the genitive absolute moved after the verb, list set off by dashes",
-    "Note 2 RU: literal glosses «с серединой / без середины», as in U034"
+    "Note 2 RU: literal glosses «с серединой / без середины», as in U034",
+    "Editor's answers, 1.11.2026: RU «своих отношений к соседним звукам перед ними»."
    ],
-   "open": [
-    "DECISIONS P14 prescribes «…имеют определённое расположение своих отношений относительно соседних звуков перед ними». The language reader (1.11.2026) finds «отношений относительно» a jingle and proposes «…своих отношений к соседним звукам перед ними» («к» keeps the sense of a ratio to, πρὸς τοὺς … ἐγγὺς φθόγγους). Not applied: the wording is the editor's."
-   ]
+   "open": []
   },
   {
    "id": "U043",
@@ -1917,8 +1910,8 @@
    "p_only": false,
    "paragraph_start": true,
    "greek": "Εἰδέναι μέντοι χρή, ὡς οὐ πρὸς τὸν ἀριθμὸν τῶν φθόγγων ἢ τῶν χορδῶν οἱ λόγοι τῶν διαστάσεων κρίνονται, ἀλλὰ πρὸς τὴν ἐπίτασιν τῆς ἠχῆς τῆς ἀπὸ τοῦ βαρέος πρὸς τὸ ὀξύτερον.",
-   "ru": "Следует, однако, знать, что отношения интервальных расстояний определяются не по числу звуков или струн, а по повышению звучания от низкого к более высокому.",
-   "en": "One must know, however, that the ratios of the intervallic spans are judged not by the number of the notes or of the strings, but by the raising of the sound from the low to the higher.",
+   "ru": "Следует, однако, знать, что отношения расстояний определяются не по числу звуков или струн, а по повышению звучания от низкого к более высокому.",
+   "en": "One must know, however, that the ratios of the spans are judged not by the number of the notes or of the strings, but by the raising of the sound from the low to the higher.",
    "notes": [
     {
      "n": 94,
@@ -1932,11 +1925,11 @@
     },
     {
      "n": 95,
-     "anchor_ru": "интервальных расстояний",
-     "anchor_en": "intervallic spans",
+     "anchor_ru": "расстояний",
+     "anchor_en": "spans",
      "kind": "term",
-     "ru": "τῶν διαστάσεων — διάστασις, букв. «расстояние»; в музыке — то же, что διάστημα «интервал» (LSJ s.v. διάστασις III: «интервал», о музыке — со ссылкой на Аристоксена). Автор употребляет оба слова; слово διάστασις передано здесь, в U049 и U056 как «интервальное расстояние», в U051 — как «расстояние», в U035–U036 — как «интервалы».",
-     "en": "τῶν διαστάσεων: διάστασις, lit. “distance”, is in music the same as διάστημα, “interval” (LSJ s.v. διάστασις III: “interval”, in music, citing Aristoxenus). The author uses both words; διάστασις is rendered “intervallic span” here and at U049 and U056, “span” at U051 and “intervals” at U035–U036.",
+     "ru": "τῶν διαστάσεων — διάστασις, букв. «расстояние»; в музыке — то же, что διάστημα «интервал» (LSJ s.v. διάστασις III: «интервал», о музыке — со ссылкой на Аристоксена). Автор употребляет оба слова; слово διάστασις передано здесь, в U049, U051 и U056 как «расстояние», в U035–U036 — как «интервалы».",
+     "en": "τῶν διαστάσεων: διάστασις, lit. “distance”, is in music the same as διάστημα, “interval” (LSJ s.v. διάστασις III: “interval”, in music, citing Aristoxenus). The author uses both words; διάστασις is rendered “span” here and at U049, U051 and U056, and “intervals” at U035–U036.",
      "source": "LSJ s.v. διάστασις III; U035, U036, U049, U051, U056",
      "verified": "checked"
     },
@@ -1951,17 +1944,16 @@
      "verified": "checked"
     }
    ],
-   "basis": "RU follows F, with D's «интервальных расстояний» for τῶν διαστάσεων; EN follows D, with P08's 'the raising of the sound'. διάστασις is rendered «интервальное расстояние» / 'intervallic span' to keep it apart from διάστημα «интервал» / 'interval' (Sol and Astra glossaries; Claude's glossary has «расстояние» / 'span'); the same in U049. Errors avoided: A's and E's «усиление» / 'intensification' (loudness). The 'missing Greek gloss' items listed for B, C, F are overridden by DECISIONS § 2 (no Greek in the running text).",
+   "basis": "RU follows F, with D's «интервальных расстояний» for τῶν διαστάσεων; EN follows D, with P08's 'the raising of the sound'. διάστασις is rendered «интервальное расстояние» / 'intervallic span' to keep it apart from διάστημα «интервал» / 'interval' (Sol and Astra glossaries; Claude's glossary has «расстояние» / 'span'); the same in U049. Errors avoided: A's and E's «усиление» / 'intensification' (loudness). The 'missing Greek gloss' items listed for B, C, F are overridden by DECISIONS § 2 (no Greek in the running text). [Changed in part by the editor's answers of 1.11.2026; see verify.]",
    "decisions": [
     "P08"
    ],
    "verify": [
     "text note: P's lack of οὐ given as probable, as in the edition; term note: ἄνεσις named so that \"the pair\" has a referent",
-    "factcheck pass: note added on διάστασις «интервальное расстояние» (LSJ s.v. διάστασις III checked via Logeion); question on the rendering added to open"
+    "factcheck pass: note added on διάστασις «интервальное расстояние» (LSJ s.v. διάστασις III checked via Logeion); question on the rendering added to open",
+    "Editor's answers, 1.11.2026: διάστασις «расстояние» / “span” throughout (U045, U049, U051, U056)."
    ],
-   "open": [
-    "διάστασις «интервальное расстояние» / ‘intervallic span’ (glossary; also U049, U056): the language reader finds the Russian pleonastic and asks whether to use «расстояние» / ‘span’ throughout, as at U051. Kept as in the glossary; the new note 2 records the rendering and must be adapted if it changes."
-   ]
+   "open": []
   },
   {
    "id": "U046",
@@ -2065,13 +2057,13 @@
    "p_only": false,
    "paragraph_start": false,
    "greek": "ἐξεύρηνται δὲ οἱ τοιοῦτοι τῶν διαστάσεων λόγοι ἀπὸ τῆς διαφορᾶς τοῦ μήκους τῶν χορδῶν, ἢ τῆς παχύτητος, ἢ τῆς τάσεως γινομένης κατὰ τὴν στροφὴν τῶν κολλάβων, ἢ γνωριμώτερον ἀπὸ τῆς ἐξαρτήσεως τῶν βαρῶν· ἐπὶ δὲ τῶν ἐμπνευστῶν, ἢ ἀπὸ τῆς εὐρύτητος τῶν κοιλιῶν, ἢ ἀπὸ τῆς ἐπιτάσεως τοῦ πνεύματος καὶ ἀνέσεως.",
-   "ru": "Найдены же такие отношения интервальных расстояний по различию длины струн, или толщины, или натяжения, возникающего при повороте колков, или, более наглядно, по подвешиванию грузов; а у духовых [инструментов] — либо по ширине полостей, либо по усилению и ослаблению дыхания.",
-   "en": "Such ratios of the intervallic spans have been discovered from the difference in the length of the strings, or in thickness, or in the tension produced by turning the pegs, or, more intelligibly, from the suspension of weights; and on wind instruments, either from the width of the cavities or from the intensifying and slackening of the breath.",
+   "ru": "Найдены же такие отношения расстояний по различию длины струн, или толщины, или натяжения, возникающего при повороте колков, или, более наглядно, по подвешиванию грузов; а у духовых [инструментов] — либо по ширине полостей, либо по усилению и ослаблению дыхания.",
+   "en": "Such ratios of the spans have been discovered from the difference in the length of the strings, or in thickness, or in the tension produced by turning the pegs, or, more intelligibly, from the suspension of weights; and on wind instruments, either from the width of the cavities or from the intensifying and slackening of the breath.",
    "notes": [
     {
      "n": 100,
      "anchor_ru": "Найдены же такие отношения",
-     "anchor_en": "Such ratios of the intervallic spans have been discovered",
+     "anchor_en": "Such ratios of the spans have been discovered",
      "kind": "doctrine",
      "ru": "ἐξεύρηνται δὲ οἱ τοιοῦτοι τῶν διαστάσεων λόγοι …: фраза почти дословно взята у Теона Смирнского (с. 56.9–57.6 Hiller), где Пифагор исследует отношения διά τε τοῦ μήκους καὶ πάχους τῶν χορδῶν, ἔτι δὲ τῆς τάσεως γινομένης κατὰ τὴν στροφὴν τῶν κολλάβων ἢ γνωριμώτερον κατὰ τὴν ἐξάρτησιν τῶν βαρῶν, ἐπὶ δὲ τῶν ἐμπνευστῶν καὶ διὰ τῆς εὐρύτητος τῶν κοιλιῶν ἢ διὰ τῆς ἐπιτάσεως καὶ ἀνέσεως τοῦ πνεύματος. О паре ἐπίτασις / ἄνεσις и о переводе последних слов см. примеч. к [U037]. Теон называет ещё объёмы и веса (δι’ ὄγκων καὶ σταθμῶν, οἷον δίσκων ἢ ἀγγείων); составитель это опускает. Этот раздел об открытии консонансов Теон сам отделяет от изложения Адраста: ταυτὶ μὲν περὶ τῆς εὑρέσεως τῶν συμφωνιῶν· ἐπανέλθωμεν δὲ ἐπὶ τὰ ὑπὸ τοῦ Ἀδράστου παραδεδομένα, «вот и всё об открытии консонансов; вернёмся же к тому, что передал Адраст» (с. 61.18–19 Hiller). О повороте колков (κόλλαβοι) при натяжении струн говорит и Никомах («Руководство», 6).",
      "en": "ἐξεύρηνται δὲ οἱ τοιοῦτοι τῶν διαστάσεων λόγοι …: the sentence is taken almost word for word from Theon of Smyrna, pp. 56.9–57.6 Hiller, where Pythagoras examines the ratios διά τε τοῦ μήκους καὶ πάχους τῶν χορδῶν, ἔτι δὲ τῆς τάσεως γινομένης κατὰ τὴν στροφὴν τῶν κολλάβων ἢ γνωριμώτερον κατὰ τὴν ἐξάρτησιν τῶν βαρῶν, ἐπὶ δὲ τῶν ἐμπνευστῶν καὶ διὰ τῆς εὐρύτητος τῶν κοιλιῶν ἢ διὰ τῆς ἐπιτάσεως καὶ ἀνέσεως τοῦ πνεύματος (on the pair ἐπίτασις / ἄνεσις and the rendering of these last words see the note on [U037]). Theon also names volumes and weights (δι’ ὄγκων καὶ σταθμῶν, οἷον δίσκων ἢ ἀγγείων), which the compiler leaves out. Theon himself sets this section on the discovery of the consonances apart from Adrastus’ account: ταυτὶ μὲν περὶ τῆς εὑρέσεως τῶν συμφωνιῶν· ἐπανέλθωμεν δὲ ἐπὶ τὰ ὑπὸ τοῦ Ἀδράστου παραδεδομένα, “so much for the discovery of the consonances; let us return to what Adrastus has handed down” (p. 61.18–19 Hiller). Nicomachus, too, speaks of turning the pegs (κόλλαβοι) to tighten strings (Manual 6).",
@@ -2109,7 +2101,7 @@
      "verified": "checked"
     }
    ],
-   "basis": "RU follows E/F, with L12 b «или, более наглядно» and P08's «по усилению и ослаблению дыхания» (Shchetnikov's Theon); EN follows A/E, with L12 b 'more intelligibly' and P08's 'the intensifying and slackening of the breath'. διάστασις as in U045 («интервальное расстояние» / 'intervallic span'); ἐξάρτησις 'suspension' and κοιλίαι 'cavities' follow the Sol and Astra glossaries; τάσις «натяжение» / 'tension' (P08). Errors avoided: C's claim about Boethius is not used, F's misaccented Greek does not arise (no Greek in the text). The 'missing Greek gloss' items listed for B and C are overridden by DECISIONS § 2.",
+   "basis": "RU follows E/F, with L12 b «или, более наглядно» and P08's «по усилению и ослаблению дыхания» (Shchetnikov's Theon); EN follows A/E, with L12 b 'more intelligibly' and P08's 'the intensifying and slackening of the breath'. διάστασις as in U045 («интервальное расстояние» / 'intervallic span'); ἐξάρτησις 'suspension' and κοιλίαι 'cavities' follow the Sol and Astra glossaries; τάσις «натяжение» / 'tension' (P08). Errors avoided: C's claim about Boethius is not used, F's misaccented Greek does not arise (no Greek in the text). The 'missing Greek gloss' items listed for B and C are overridden by DECISIONS § 2. [Changed in part by the editor's answers of 1.11.2026; see verify.]",
    "decisions": [
     "L12",
     "P08"
@@ -2117,7 +2109,8 @@
    "verify": [
     "text note: «нет в словарях» / \"in no lexicon\" -> not in LSJ (what was checked); Vincent's gloss added",
     "notes 1, 3, 4 open with the Greek lemma (DECISIONS § 4)",
-    "factcheck pass: note 1 «из Адраста» / \"from Adrastus\" removed (Theon 61.18–19 sets the section apart from Adrastus), Theon’s own words added; note 4: ἀφορότης absent from LSJ, DGE, Bailly, Pape (Logeion)"
+    "factcheck pass: note 1 «из Адраста» / \"from Adrastus\" removed (Theon 61.18–19 sets the section apart from Adrastus), Theon’s own words added; note 4: ἀφορότης absent from LSJ, DGE, Bailly, Pape (Logeion)",
+    "Editor's answers, 1.11.2026: διάστασις «расстояние» / “span”, as at U045."
    ],
    "open": []
   },
@@ -2128,8 +2121,8 @@
    "p_only": true,
    "paragraph_start": true,
    "greek": "⟨⟨Ἰστέον δὲ ὡς ἐπὶ μὲν τῆς τάσεως ἢ τῆς ἐξαρτήσεως ἡ ἐπὶ πλέον ἐπίτασις καὶ ἡ ἐπὶ μᾶλλον βαρύτης τὴν ἐπὶ ὀξὺ μελῳδίαν ἐργάζεται· ἐπὶ δὲ τῆς παχύτητος τῶν νευρῶν ἢ τοῦ μήκους τούτων ἢ τῶν αὐλῶν ἢ τῆς τῶν τρημάτων διατάσεως τὸ πλεονάζον τούτων τινὸς †ἀμφότερον† τῆς μελῳδίας εἶδος συνίστησι.⟩⟩",
-   "ru": "⟨⟨Следует знать, что при натяжении или подвешивании [грузов] большее усиление натяжения и бо́льшая тяжесть производят мелодию, [направленную] к высокому; а при толщине струн, или их длине, или [длине] авлосов, или протяжённости отверстий избыток чего-либо из этого образует †и то и другое† вид мелодии.⟩⟩",
-   "en": "⟨⟨It should be known that, with tension or suspension [of weights], greater tightening and greater weight produce the melody towards the high; but with the thickness of the strings, or their length, or [the length] of the auloi, or the extension of the holes, the excess of any one of these constitutes †both† kind of melody.⟩⟩",
+   "ru": "⟨⟨Следует знать, что при натяжении или подвешивании [грузов] большее усиление натяжения и бо́льшая тяжесть производят мелодию, [направленную] к высокому; а при толщине струн, или их длине, или [длине] авлосов, или расширении отверстий избыток чего-либо из этого образует †и то и другое† вид мелодии.⟩⟩",
+   "en": "⟨⟨It should be known that, with tension or suspension [of weights], greater tightening and greater weight produce the melody towards the high; but with the thickness of the strings, or their length, or [the length] of the auloi, or the widening of the holes, the excess of any one of these constitutes †both† kind of melody.⟩⟩",
    "notes": [
     {
      "n": 104,
@@ -2153,11 +2146,11 @@
     },
     {
      "n": 106,
-     "anchor_ru": "протяжённости отверстий",
-     "anchor_en": "extension of the holes",
+     "anchor_ru": "расширении отверстий",
+     "anchor_en": "widening of the holes",
      "kind": "term",
-     "ru": "διάτασις τῶν τρημάτων: LSJ даёт для διάτασις «натяжение, расширение, протяжение» (DGE и Bailly также дают «расширение»); значения «расстояние между…» у этого слова нет (оно было бы у διάστασις). Поэтому передано нейтрально: «протяжённость». Можно понимать как расширение отверстий (ср. у Теона Смирнского, с. 66.7–8 Hiller, τὴν εὐρύτητα τῶν τρημάτων, «ширину отверстий») или как протяжённость [трубки] до отверстий; оба понимания согласуются с ожидаемым «более низким».",
-     "en": "διάτασις τῶν τρημάτων: LSJ gives διάτασις as “tension, dilatation, extension” (DGE and Bailly also give “dilatation”); it has no sense “distance between”, which would be διάστασις. Hence the neutral “extension”. It may mean the widening of the holes (cf. Theon of Smyrna, p. 66.7–8 Hiller, τὴν εὐρύτητα τῶν τρημάτων, “the width of the holes”) or the extent [of the pipe] up to the holes; either fits the expected “lower”.",
+     "ru": "διάτασις τῶν τρημάτων: LSJ даёт для διάτασις «натяжение, расширение, протяжение» (DGE и Bailly также дают «расширение»); значения «расстояние между…» у этого слова нет (оно было бы у διάστασις). Переведено «расширение»: абзац пересказывает Адраста у Теона Смирнского, у которого более низкие звуки духовых объясняются длиной и шириной отверстий (διὰ τὸ μῆκος καὶ τὴν εὐρύτητα τῶν τρημάτων, с. 66.6–8 Hiller); длину P относит к самим авлосам (τοῦ μήκους … τῶν αὐλῶν), так что διάτασις отвечает ширине отверстий. Понимание «протяжённость [трубки] до отверстий» требует значения «расстояние», которого у слова нет, и повторяло бы длину.",
+     "en": "διάτασις τῶν τρημάτων: LSJ gives διάτασις as “tension, dilatation, extension” (DGE and Bailly also give “dilatation”); it has no sense “distance between”, which would be διάστασις. It is rendered “widening”: the paragraph summarises Adrastus in Theon of Smyrna, who explains the lower notes of wind instruments by the length and the width of the holes (διὰ τὸ μῆκος καὶ τὴν εὐρύτητα τῶν τρημάτων, p. 66.6–8 Hiller); P gives the length to the auloi themselves (τοῦ μήκους … τῶν αὐλῶν), so that διάτασις answers to the width of the holes. The reading “the extent [of the pipe] up to the holes” would need the sense “distance”, which the word does not have, and would repeat the length.",
      "source": "LSJ, DGE, Bailly, Pape s.v. διάτασις; Theon of Smyrna, p. 66.6–8 Hiller",
      "verified": "checked"
     },
@@ -2172,7 +2165,7 @@
      "verified": "checked"
     }
    ],
-   "basis": "RU follows A (Claude's best RU), with D/F wording in the first half; EN follows A = E. L13 a «†и то и другое†» / '†both†', with the required sense «более низкий» / 'lower' in the note; P08 «большее усиление натяжения» / 'greater tightening' beside τάσις «натяжение» / 'tension'; P07 μελῳδία «мелодия» / 'melody'. διάτασις τῶν τρημάτων is rendered neutrally «протяжённость» / 'extension' (Claude's recommendation), since 'spacing / distance' is listed as A's error. Errors avoided: B's and C's unbracketed 'movement / motion', C's «[каналов] авлов». The missing Greek gloss for αὐλοί (A) is overridden by DECISIONS § 2.",
+   "basis": "RU follows A (Claude's best RU), with D/F wording in the first half; EN follows A = E. L13 a «†и то и другое†» / '†both†', with the required sense «более низкий» / 'lower' in the note; P08 «большее усиление натяжения» / 'greater tightening' beside τάσις «натяжение» / 'tension'; P07 μελῳδία «мелодия» / 'melody'. διάτασις τῶν τρημάτων is rendered neutrally «протяжённость» / 'extension' (Claude's recommendation), since 'spacing / distance' is listed as A's error. Errors avoided: B's and C's unbracketed 'movement / motion', C's «[каналов] авлов». The missing Greek gloss for αὐλοί (A) is overridden by DECISIONS § 2. [Changed in part by the editor's answers of 1.11.2026; see verify.]",
    "decisions": [
     "L13",
     "P07",
@@ -2181,11 +2174,10 @@
    "verify": [
     "EN: \"a †both† kind\" -> \"†both† kind\" (L13 a; \"a … kind\" was option b); crux note: conjectures attributed to the edition's apparatus, vote count removed; διάτασις note: \"distance along the pipe\" (a sense the note itself excludes) -> \"extent [of the pipe] up to the holes\"",
     "the P-passage note opens with the Greek lemma",
-    "factcheck pass: notes reordered (1, 3, 4, 2); P-passage note: P’s version of U049 is not \"shorter\" (Vinc. 342 n. 5); διάτασις note: DGE and Bailly \"dilatation\" added, Theon line 66.7–8"
+    "factcheck pass: notes reordered (1, 3, 4, 2); P-passage note: P’s version of U049 is not \"shorter\" (Vinc. 342 n. 5); διάτασις note: DGE and Bailly \"dilatation\" added, Theon line 66.7–8",
+    "Editor's answers, 1.11.2026: διάτασις «расширение» / “widening”, as recommended by both checkers; note 3 rewritten."
    ],
-   "open": [
-    "διάτασις τῶν τρημάτων: «протяжённость отверстий» / 'the extension of the holes' was chosen as neutral; if the editor prefers a definite sense, the reviewer's fix «расширения отверстий» / 'the widening of the holes' (cf. Theon p. 66 Hiller) is the lexically supported one."
-   ]
+   "open": []
   },
   {
    "id": "U051",
@@ -2194,8 +2186,8 @@
    "p_only": false,
    "paragraph_start": true,
    "greek": "Τῶν δὲ συστημάτων τὸ μέν ἐστι τετράχορδον, τὰς τοῦ διὰ τεσσάρων ἁπάσας ἐμπεριέχον δυνάμεις· τὸ δὲ πεντάχορδον, τὰς τοῦ ⟨διὰ⟩ πέντε δυνάμεις περιλαμβάνον· τὸ δὲ ὀκτάχορδον, τὴν ὅλην τοῦ διὰ πασῶν περιέχον ἰσχύν· τὸ δὲ κατὰ συνέχειαν ἑκκαιδεκάχορδον, τὴν τοῦ δὶς διὰ πασῶν ὁλοσχερῆ συνέχον διάστασιν, διπλᾶς τὰς δυνάμεις ἀποφερόμενον· αὐτάς τε γὰρ τὰς προειρημένας καὶ τὰς τοῦ δὶς διὰ τεσσάρων καὶ τοῦ δὶς διὰ πέντε καὶ τοῦ δὶς διὰ πασῶν ἐν ἑαυτῷ περιέχει.",
-   "ru": "Из систем же одна — тетрахорд, заключающий в себе все значения кварты; другая — пентахорд, охватывающий значения [интервала] ⟨через⟩ пять [то есть квинты]; третья — октахорд, содержащий всю силу октавы; четвёртая — шестнадцатизвуковая система, [построенная] по непрерывности, объемлющая расстояние двойной октавы целиком и обладающая удвоенными значениями: ведь она содержит в себе и сами названные прежде [значения], и [значения] октавы с квартой, октавы с квинтой и двойной октавы.",
-   "en": "As for the systems, one is the tetrachord, which contains within itself all the values of the fourth; another the pentachord, which comprises the values of the [interval] ⟨through⟩ five [i.e. the fifth]; another the octachord, which contains the whole force of the octave; and another the sixteen-note system, [built] by continuity, which holds together the entire span of the double octave and carries doubled values: for it contains within itself both the aforesaid [values] themselves and those of the octave and a fourth, of the octave and a fifth and of the double octave.",
+   "ru": "Из систем же одна — тетрахорд, заключающий в себе все значения кварты; другая — пентахорд, охватывающий значения ⟨квинты⟩; третья — октахорд, содержащий всю силу октавы; четвёртая — шестнадцатизвуковая система, [построенная] по непрерывности, объемлющая расстояние двойной октавы целиком и обладающая удвоенными значениями: ведь она содержит в себе и сами названные прежде [значения], и [значения] октавы с квартой, октавы с квинтой и двойной октавы.",
+   "en": "As for the systems, one is the tetrachord, which contains within itself all the values of the fourth; another the pentachord, which comprises the values of the ⟨fifth⟩; another the octachord, which contains the whole force of the octave; and another the sixteen-note system, [built] by continuity, which holds together the entire span of the double octave and carries doubled values: for it contains within itself both the aforesaid [values] themselves and those of the octave and a fourth, of the octave and a fifth and of the double octave.",
    "notes": [
     {
      "n": 108,
@@ -2209,11 +2201,11 @@
     },
     {
      "n": 109,
-     "anchor_ru": "⟨через⟩ пять",
-     "anchor_en": "⟨through⟩ five",
+     "anchor_ru": "⟨квинты⟩",
+     "anchor_en": "⟨fifth⟩",
      "kind": "text",
-     "ru": "⟨διὰ⟩ πέντε — дополнение Ксиландра (на полях: «† διὰ πέντε»); во всех источниках текста — τοῦ πέντε: пропуск восходит к их общему архетипу. Чтобы угловые скобки охватывали только дополненное слово, здесь дан буквальный перевод «через пять»; в остальных местах διὰ πέντε — «квинта».",
-     "en": "⟨διὰ⟩ πέντε is Xylander’s supplement (margin: “† διὰ πέντε”); all the witnesses have τοῦ πέντε, an omission of their common archetype. So that the angle brackets enclose only the supplied word, the literal “through five” is given here; elsewhere διὰ πέντε is “the fifth”.",
+     "ru": "⟨διὰ⟩ πέντε — дополнение Ксиландра (на полях: «† διὰ πέντε»); во всех источниках текста — τοῦ πέντε: пропуск восходит к их общему архетипу. Дополнено только διά; угловые скобки охватывают название «квинта», которым, как и везде, передано всё διὰ πέντε (букв. «через пять»).",
+     "en": "⟨διὰ⟩ πέντε is Xylander’s supplement (margin: “† διὰ πέντε”); all the witnesses have τοῦ πέντε, an omission of their common archetype. Only διά is supplied; the angle brackets enclose the name “fifth”, by which, as everywhere, the whole of διὰ πέντε (lit. “through five”) is rendered.",
      "source": "Edition, apparatus at Bas. 31.1",
      "verified": "checked"
     },
@@ -2248,7 +2240,7 @@
      "verified": "checked"
     }
    ],
-   "basis": "RU follows E (Claude's best) and F, EN E = F, with DECISIONS' wording: P10 «значения» / 'values' for δυνάμεις and «сила» / 'force' for ἰσχύς ('carries doubled values'); P06 «шестнадцатизвуковая система, [построенная] по непрерывности» / 'the sixteen-note system, [built] by continuity'; P02 b «октава с квартой», «октава с квинтой», «двойная октава» / 'the octave and a fourth', 'the octave and a fifth', 'the double octave'. For ⟨διὰ⟩ πέντε the literal «[интервала] ⟨через⟩ пять [то есть квинты]» / '[interval] ⟨through⟩ five [i.e. the fifth]' (B, D, F; recommended by all three reviewers) keeps the sign on the supplied word only, since A's and E's renderings are listed errors; this is the one place where P01's «квинта» does not stand alone. διάστασις here «расстояние» / 'span' (in U045, U049 «интервальное расстояние» / 'intervallic span'). Errors avoided: B's omitted γάρ and «[созвучия]», B's EN 'power' for both words, C's '⟨five⟩', D's 'four-string' doublets. No Greek in the running text.",
+   "basis": "RU follows E (Claude's best) and F, EN E = F, with DECISIONS' wording: P10 «значения» / 'values' for δυνάμεις and «сила» / 'force' for ἰσχύς ('carries doubled values'); P06 «шестнадцатизвуковая система, [построенная] по непрерывности» / 'the sixteen-note system, [built] by continuity'; P02 b «октава с квартой», «октава с квинтой», «двойная октава» / 'the octave and a fourth', 'the octave and a fifth', 'the double octave'. For ⟨διὰ⟩ πέντε the literal «[интервала] ⟨через⟩ пять [то есть квинты]» / '[interval] ⟨through⟩ five [i.e. the fifth]' (B, D, F; recommended by all three reviewers) keeps the sign on the supplied word only, since A's and E's renderings are listed errors; this is the one place where P01's «квинта» does not stand alone. διάστασις here «расстояние» / 'span' (in U045, U049 «интервальное расстояние» / 'intervallic span'). Errors avoided: B's omitted γάρ and «[созвучия]», B's EN 'power' for both words, C's '⟨five⟩', D's 'four-string' doublets. No Greek in the running text. [Changed in part by the editor's answers of 1.11.2026; see verify.]",
    "decisions": [
     "P01",
     "P02",
@@ -2257,11 +2249,10 @@
    ],
    "verify": [
     "text note: internal remark on the judges' vote removed",
-    "factcheck pass: RU note 3 «не строится» -> «синтаксически не связывается»"
+    "factcheck pass: RU note 3 «не строится» -> «синтаксически не связывается»",
+    "Editor's answers, 1.11.2026: «значения ⟨квинты⟩» / “the values of the ⟨fifth⟩”; note 2 explains the brackets."
    ],
-   "open": [
-    "⟨διὰ⟩ πέντε: the literal «[интервала] ⟨через⟩ пять [то есть квинты]» departs from P01 (кварта / квинта / октава everywhere except U033 and U035) so that the edition's sign covers only the supplement; does the editor accept this, or prefer E's «⟨квинты⟩» / '⟨fifth⟩' with a note (listed as an error by Sol)?"
-   ]
+   "open": []
   },
   {
    "id": "U052",
@@ -2278,9 +2269,9 @@
      "anchor_ru": "лежащих между [их звуками]",
      "anchor_en": "lying between [their notes]",
      "kind": "text",
-     "ru": "τῶν ἐν μέσῳ διαστημάτων — букв. «интервалов посередине», то есть интервалов между звуками системы, из которых она составлена (ср. определение системы в U010). Это не «интервалы между несмежными звуками» (ἔμμεσα) U042–U044: здесь системы противопоставлены всем составляющим их интервалам. По указанию издания (аппарат к отрывку P, Vinc. 340.20), H читает здесь ἐμμέσω, Bas., Par., V — ἐν μέσῳ; в византийском произношении эти формы почти не различаются. Напечатано ἐν μέσῳ.",
-     "en": "τῶν ἐν μέσῳ διαστημάτων, lit. “the intervals in the middle”, i.e. the intervals between the notes of a system, of which it is made up (cf. the definition of a system at U010). They are not the “intervals between non-adjacent notes” (ἔμμεσα) of U042–U044: here systems are contrasted with all the intervals that make them up. According to the edition (apparatus to the P passage, Vinc. 340.20), H reads ἐμμέσω here, Bas., Par., V ἐν μέσῳ; in Byzantine pronunciation the two hardly differ. ἐν μέσῳ is printed.",
-     "source": "Edition, apparatus and resolved doubts at P (Vinc. 340.20), departures at Bas. 30.23; U010; U042–U044",
+     "ru": "τῶν ἐν μέσῳ διαστημάτων — букв. «интервалов посередине», то есть интервалов между звуками системы, из которых она составлена (ср. определение системы в U010). Это не «интервалы между несмежными звуками» (ἔμμεσα) U042–U044: здесь системы противопоставлены всем составляющим их интервалам. В H здесь ἐμ̣μέσω (по скану чтение сомнительно: этот писец пишет ν почти как μ), в Bas., Par., V — ἐν μέσῳ; в византийском произношении эти формы почти не различаются. Напечатано ἐν μέσῳ.",
+     "en": "τῶν ἐν μέσῳ διαστημάτων, lit. “the intervals in the middle”, i.e. the intervals between the notes of a system, of which it is made up (cf. the definition of a system at U010). They are not the “intervals between non-adjacent notes” (ἔμμεσα) of U042–U044: here systems are contrasted with all the intervals that make them up. H has ἐμ̣μέσω here (doubtful on the scan: this scribe writes ν almost like μ), Bas., Par., V ἐν μέσῳ; in Byzantine pronunciation the two hardly differ. ἐν μέσῳ is printed.",
+     "source": "Edition, apparatus at Bas. 31.10; apparatus and resolved doubts at P (Vinc. 340.20), departures at Bas. 30.23; U010; U042–U044",
      "verified": "checked"
     },
     {
@@ -2298,11 +2289,10 @@
    "decisions": [],
    "verify": [
     "text note: Bas. Par. V reading added; remark on the edition's internal inconsistency left to \"open\" only",
-    "factcheck pass: «фрагмент P» / \"P fragment\" -> «отрывок P» / \"P passage\", as elsewhere"
+    "factcheck pass: «фрагмент P» / \"P fragment\" -> «отрывок P» / \"P passage\", as elsewhere",
+    "Editor's answers, 1.11.2026: H's ἐμ̣μέσω checked in the H transcription and added to the section 6 apparatus (Bas. 31.10)."
    ],
-   "open": [
-    "The edition (section 4, apparatus and resolved doubt at P, Vinc. 340.20) says that H reads ἐμμέσω at Bas. 31.10 (this unit), but the section 6 apparatus records no variant here. Please confirm H’s reading and, if it stands, add it to the apparatus; the note reports it as the edition states it."
-   ]
+   "open": []
   },
   {
    "id": "U053",
@@ -2403,11 +2393,10 @@
    ],
    "verify": [
     "unchanged; Greek (διὰ τόνων), (διάτονον) kept in the running text under DECISIONS § 2 (the author derives the name), although check_composed.py flags it",
-    "factcheck pass: notes reordered by anchor position (2, 1, 3, 4)"
+    "factcheck pass: notes reordered by anchor position (2, 1, 3, 4)",
+    "Editor's answers, 1.11.2026: the Greek stays: the derivation of διάτονον from διὰ τόνων is not visible in the translation (rule as at U012)."
    ],
-   "open": [
-    "Greek (διὰ τόνων), (διάτονον) is kept in the running text of U054 under DECISIONS § 2 (the author derives the name); the checker’s fixed list of Greek-bearing units (U033, U035) does not include it. If the editor prefers, the etymology can go to the note only: «строится род, который потому и называется диатоническим» / ‘the genus that is for this reason called diatonic’."
-   ]
+   "open": []
   },
   {
    "id": "U055",
@@ -2455,16 +2444,16 @@
    "p_only": false,
    "paragraph_start": false,
    "greek": "ἀλλ’ ἐπεὶ τρισὶ διαστάσεσι τὸ διὰ τεσσάρων ἀπήρτισται, δυσὶ δὲ τόνοις καὶ ἡμιτονίῳ διείληπται, δύο τονιαίων διαστημάτων ἐντιθεμένων ἀνάγκη τὸ λοιπὸν τελεῖν ἡμιτόνιον.",
-   "ru": "Но поскольку кварта составлена из трёх интервальных расстояний и разделена на два тона и полутон, то, когда в неё вставлены два интервала величиной в тон, остаток необходимо составляет полутон.",
-   "en": "But since the fourth has been made up of three intervallic spans and is divided into two tones and a semitone, when two tone-sized intervals are inserted the remainder must amount to a semitone.",
+   "ru": "Но поскольку кварта составлена из трёх расстояний и разделена на два тона и полутон, то, когда в неё вставлены два интервала величиной в тон, остаток необходимо составляет полутон.",
+   "en": "But since the fourth has been made up of three spans and is divided into two tones and a semitone, when two tone-sized intervals are inserted the remainder must amount to a semitone.",
    "notes": [
     {
      "n": 123,
-     "anchor_ru": "из трёх интервальных расстояний",
-     "anchor_en": "of three intervallic spans",
+     "anchor_ru": "из трёх расстояний",
+     "anchor_en": "of three spans",
      "kind": "doctrine",
-     "ru": "τρισὶ διαστάσεσι — «тремя интервальными расстояниями», то есть тремя шагами тетрахорда между его четырьмя звуками. Ср. Теон Смирнский, с. 54.6–9 Hiller: тетрахорд συνεστηκὸς ἐκ διαστημάτων μὲν τριῶν, ἡμιτονίου καὶ τόνου καὶ τόνου, φθόγγων δὲ τεσσάρων — «состоящий из трёх интервалов — полутона, тона и тона — и четырёх звуков». τονιαῖα διαστήματα — «интервалы величиной в тон» (LSJ s.v. τονιαῖος: «в один тон»).",
-     "en": "τρισὶ διαστάσεσι, “by three intervallic spans”, i.e. the three steps of the tetrachord between its four notes. Cf. Theon of Smyrna, p. 54.6–9 Hiller: the tetrachord is συνεστηκὸς ἐκ διαστημάτων μὲν τριῶν, ἡμιτονίου καὶ τόνου καὶ τόνου, φθόγγων δὲ τεσσάρων, “consisting of three intervals, a semitone, a tone and a tone, and of four notes”. τονιαῖα διαστήματα, “tone-sized intervals” (LSJ s.v. τονιαῖος: “of one tone”).",
+     "ru": "τρισὶ διαστάσεσι — «тремя расстояниями», то есть тремя шагами тетрахорда между его четырьмя звуками. Ср. Теон Смирнский, с. 54.6–9 Hiller: тетрахорд συνεστηκὸς ἐκ διαστημάτων μὲν τριῶν, ἡμιτονίου καὶ τόνου καὶ τόνου, φθόγγων δὲ τεσσάρων — «состоящий из трёх интервалов — полутона, тона и тона — и четырёх звуков». τονιαῖα διαστήματα — «интервалы величиной в тон» (LSJ s.v. τονιαῖος: «в один тон»).",
+     "en": "τρισὶ διαστάσεσι, “by three spans”, i.e. the three steps of the tetrachord between its four notes. Cf. Theon of Smyrna, p. 54.6–9 Hiller: the tetrachord is συνεστηκὸς ἐκ διαστημάτων μὲν τριῶν, ἡμιτονίου καὶ τόνου καὶ τόνου, φθόγγων δὲ τεσσάρων, “consisting of three intervals, a semitone, a tone and a tone, and of four notes”. τονιαῖα διαστήματα, “tone-sized intervals” (LSJ s.v. τονιαῖος: “of one tone”).",
      "source": "Theon of Smyrna, p. 54.6–9 Hiller; LSJ s.v. τονιαῖος",
      "verified": "checked"
     },
@@ -2489,14 +2478,15 @@
      "verified": "checked"
     }
    ],
-   "basis": "RU follows A (construction; ‘тоновых’ made explicit as «величиной в тон») with DECISIONS’ «составлена» for ἀπήρτισται and «интервальное расстояние» for διάστασις, as in U045 and U049; EN follows A/F with ‘has been made up’ and ‘intervallic span’ (U045, U049). C’s «завершается полутоном», F’s noun-like «остальной» and the use of ‘intervals’ for διάστασις (B, F) are avoided; E’s Theon page is corrected to 54.6–9.",
+   "basis": "RU follows A (construction; ‘тоновых’ made explicit as «величиной в тон») with DECISIONS’ «составлена» for ἀπήρτισται and «интервальное расстояние» for διάστασις, as in U045 and U049; EN follows A/F with ‘has been made up’ and ‘intervallic span’ (U045, U049). C’s «завершается полутоном», F’s noun-like «остальной» and the use of ‘intervals’ for διάστασις (B, F) are avoided; E’s Theon page is corrected to 54.6–9. [Changed in part by the editor's answers of 1.11.2026; see verify.]",
    "decisions": [
     "P01"
    ],
    "verify": [
     "arithmetic note: Euclid, Sectio canonis 15 removed (not in the materials)",
     "the note opens with the Greek lemma",
-    "factcheck pass: notes reordered by anchor position (1, 3, 2)"
+    "factcheck pass: notes reordered by anchor position (1, 3, 2)",
+    "Editor's answers, 1.11.2026: διάστασις «расстояние» / “span”, as at U045."
    ],
    "open": []
   },
@@ -2659,20 +2649,19 @@
      "anchor_ru": "гармония упорядочивает",
      "anchor_en": "harmony also arranges",
      "kind": "text",
-     "ru": "τὸν ὅμοιον δὲ τρόπον — δέ (Bas., Par., V); в H γάρ («ведь подобным же образом…»), вероятно, предвосхищение γάρ следующей фразы (U062). ἡ ἁρμονία συντάττει повторяет определение гармонии как упорядочения систем (U011) и слова U053 (τῆς δὲ ἁρμονίας ἴδιον τὸ τὰ τοιαῦτα συστήματα συντάττειν); «остальные системы» — пентахорд, октахорд и шестнадцатизвуковая система (U051). Издание считает весьма вероятным, что ἡ ἁρμονία здесь — старое название самого энармонического рода (так у Клеонида и, по Теону Смирнскому, у Аристоксена; см. примеч. к [U053]), на что наводит предшествующее рассуждение о производном названии (U060). Но глагол «упорядочивает» и связь с U053, где гармония упорядочивает системы для всех трёх родов, говорят скорее о гармонии вообще; перевод «гармония» допускает оба понимания.",
-     "en": "τὸν ὅμοιον δὲ τρόπον: δέ (Bas., Par., V); H has γάρ (“for in the same way…”), probably anticipating the γάρ of the next sentence (U062). ἡ ἁρμονία συντάττει echoes the definition of harmony as the arrangement of systems (U011) and the wording of U053 (τῆς δὲ ἁρμονίας ἴδιον τὸ τὰ τοιαῦτα συστήματα συντάττειν); “the remaining systems” are the pentachord, the octachord and the sixteen-note system (U051). The edition considers it very probable that ἡ ἁρμονία is here the old name of the enharmonic genus itself (so in Cleonides and, according to Theon of Smyrna, in Aristoxenus; see the note on [U053]), as the preceding clause on the derived name (U060) suggests. But the verb “arranges” and the link with U053, where harmony arranges the systems for all three genera, rather favour harmony in general; the rendering “harmony” allows both readings.",
-     "source": "Edition, apparatus and alternatives for translation at Bas. 32.21; U011, U051, U053",
+     "ru": "τὸν ὅμοιον δὲ τρόπον — δέ (Bas., Par., V); в H γάρ («ведь подобным же образом…»), вероятно, предвосхищение γάρ следующей фразы (U062). ἡ ἁρμονία συντάττει повторяет определение гармонии как упорядочения систем (U011) и слова U053 (τῆς δὲ ἁρμονίας ἴδιον τὸ τὰ τοιαῦτα συστήματα συντάττειν); «остальные системы» — пентахорд, октахорд и шестнадцатизвуковая система (U051). Издание считает весьма вероятным, что ἡ ἁρμονία здесь — старое название самого энармонического рода (так у Клеонида и, по Теону Смирнскому, у Аристоксена; см. примеч. к [U053]), на что наводит предшествующее рассуждение о производном названии (U060). Но глагол «упорядочивает» и связь с U053, где гармония упорядочивает системы для всех трёх родов, говорят скорее о гармонии вообще. О том же говорит и словоупотребление автора: энармонический род он называет только ἁρμονικόν, «гармоническим» (U053, U054, U060, U063), и нигде больше не называет его ἡ ἁρμονία; ἡ ἁρμονία с артиклем у него производит все три рода (U054–U055), а в U060 род получает название от «общей гармонии» (ἐκ τῆς κοινῆς ἁρμονίας). Перевод «гармония» допускает оба понимания.",
+     "en": "τὸν ὅμοιον δὲ τρόπον: δέ (Bas., Par., V); H has γάρ (“for in the same way…”), probably anticipating the γάρ of the next sentence (U062). ἡ ἁρμονία συντάττει echoes the definition of harmony as the arrangement of systems (U011) and the wording of U053 (τῆς δὲ ἁρμονίας ἴδιον τὸ τὰ τοιαῦτα συστήματα συντάττειν); “the remaining systems” are the pentachord, the octachord and the sixteen-note system (U051). The edition considers it very probable that ἡ ἁρμονία is here the old name of the enharmonic genus itself (so in Cleonides and, according to Theon of Smyrna, in Aristoxenus; see the note on [U053]), as the preceding clause on the derived name (U060) suggests. But the verb “arranges” and the link with U053, where harmony arranges the systems for all three genera, rather favour harmony in general. So does the author’s usage: he calls the enharmonic genus only ἁρμονικόν, “harmonic” (U053, U054, U060, U063), and nowhere else ἡ ἁρμονία; ἡ ἁρμονία with the article produces all three genera (U054–U055), and in U060 the genus takes its name from “the general harmony” (ἐκ τῆς κοινῆς ἁρμονίας). The rendering “harmony” allows both readings.",
+     "source": "Edition, apparatus and alternatives for translation at Bas. 32.21; U011, U051, U053; U054, U055, U060, U063",
      "verified": "checked"
     }
    ],
    "basis": "RU follows D/E/F (‘упорядочивает’, as for συντάττειν in U053); EN follows B/E with ‘arranges’. No listed errors.",
    "decisions": [],
    "verify": [
-    "text note and open: the edition's view (\"very probably the enharmonic genus\") stated as strongly as the edition states it"
+    "text note and open: the edition's view (\"very probably the enharmonic genus\") stated as strongly as the edition states it",
+    "Editor's answers, 1.11.2026: ἡ ἁρμονία stays «гармония»; the grounds for “harmony in general” are added to note 1."
    ],
-   "open": [
-    "The edition (section 7, alternatives for translation at Bas. 32.21) considers it very probable that ἡ ἁρμονία in U061 means the enharmonic genus by its old name; I took it as harmony the arranger of systems (U011, U053). «Гармония» / ‘harmony’ in the text covers both; the note gives the alternative."
-   ]
+   "open": []
   },
   {
    "id": "U062",
@@ -2907,12 +2896,6 @@
    "en": "Aleksandrova, L. V. 2025. “O formirovanii antichnoy muzykal'noy sistemy v trudakh drevnikh uchenykh” [On the formation of the ancient musical system in the works of ancient scholars]. Vestnik muzykal'noy nauki 13 (4): 9–21. https://doi.org/10.63219/2308-1031-2025-4-9-21."
   },
   {
-   "key_ru": "Александрова, Мякин 2009",
-   "key_en": "Aleksandrova, Myakin 2009",
-   "ru": "Никомах из Герасы. Руководство по гармонике / пер. Т. Г. Мякина и Л. В. Александровой; вступ. ст. Л. В. Александровой // ΣΧΟΛΗ. 2009. Т. 3, вып. 1. С. 161–205 (статья «О трактате и его источниках» — с. 161–178; перевод — с. 179–205).",
-   "en": "Myakin, T. G., and L. V. Aleksandrova, trans. 2009. “Nikomakh iz Gerasy. Rukovodstvo po garmonike” [Nicomachus of Gerasa, Manual of Harmonics]. With an introductory essay by L. V. Aleksandrova. ΣΧΟΛΗ (Schole) 3 (1): 161–205 (translation, 179–205)."
-  },
-  {
    "key_ru": "Bailly",
    "key_en": "Bailly",
    "ru": "Bailly A. Dictionnaire grec-français. Paris: Hachette, 1895. Использованы электронное издание G. Gréco, A. Charbonnet, M. de Wilde, B. Maréchal по изданию 1935 г. («Bailly 2020 Hugo Chávez»; на Logeion — версия «Bailly 2024») и сокращённое издание: Bailly A. Abrégé du dictionnaire grec-français. Paris: Hachette, 1901 (на lsj.gr).",
@@ -3013,6 +2996,12 @@
    "key_en": "Meibom",
    "ru": "Antiquae musicae auctores septem. Graece et Latine / ed. M. Meibomius. Vol. 1–2. Amsterdam: L. Elzevir, 1652. По страницам Мейбома (т. 1) цитируются «Элементы гармоники» Аристоксена; в материалах также Никомах и Вакхий.",
    "en": "Meibom, Marcus, ed. 1652. Antiquae musicae auctores septem. Graece et Latine. 2 vols. Amsterdam: Louis Elzevir. The edition by whose pages (vol. 1) Aristoxenus’ Elementa harmonica is cited; in the materials also Nicomachus and Bacchius."
+  },
+  {
+   "key_ru": "Мякин, Александрова 2009",
+   "key_en": "Myakin, Aleksandrova 2009",
+   "ru": "Никомах из Герасы. Руководство по гармонике / пер. Т. Г. Мякина и Л. В. Александровой; вступ. ст. Л. В. Александровой // ΣΧΟΛΗ. 2009. Т. 3, вып. 1. С. 161–205 (статья «О трактате и его источниках» — с. 161–178; перевод — с. 179–205).",
+   "en": "Myakin, T. G., and L. V. Aleksandrova, trans. 2009. “Nikomakh iz Gerasy. Rukovodstvo po garmonike” [Nicomachus of Gerasa, Manual of Harmonics]. With an introductory essay by L. V. Aleksandrova. ΣΧΟΛΗ (Schole) 3 (1): 161–205 (translation, 179–205)."
   },
   {
    "key_ru": "Pape",

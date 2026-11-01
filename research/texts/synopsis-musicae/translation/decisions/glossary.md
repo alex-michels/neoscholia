@@ -232,7 +232,7 @@ The editor raised no objection to the agreed glossary. Terms decided by a card f
 - **ὀξύς; ὀξύτης**: высокий; высота / high; high pitch [U014, U018, U037, U045, U047, U050]
 - **βαρύς; βαρύτης**: низкий; низкий звук; тяжесть [по контексту] / low; low pitch; weight [contextually] [U014, U037, U045, U050]
 - **διάστημα**: интервал / interval [U009, U010, U018, U026, U027, U032, U033, U034, U042, U043, U044, U046, U052, U056, U058, U060, U062, U066]
-- **διάστασις**: интервальное расстояние / intervallic span [U035, U036, U045, U049, U051, U056]
+- **διάστασις**: расстояние / span [U045, U049, U051, U056]; интервалы / intervals [U035, U036] (1.11.2026)
 - **σχέσις**: отношение / relation [U009]
 - **ποιός (ποιά)**: определённый / determinate [U009, U010, U042]
 - **σύστημα**: система / system [U010, U011, U051, U052, U053, U061, U062]

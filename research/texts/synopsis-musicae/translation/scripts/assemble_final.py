@@ -31,7 +31,7 @@ doc = {'title_ru': 'Точный синопсис музыки', 'title_en': 'A 
        'work': 'Anonymous, Quadrivium of 1008: the music section (Τῆς μουσικῆς σύνοψις ἠκριβωμένη)',
        'status': 'composed from six independent translations after three reviews and the editor\'s decisions, 31.10.2026; '
                  'verified and read for consistency; notes fact-checked against the sources, 1.11.2026; '
-                 'open questions remain for the editor; not yet signed by the editor',
+                 "the editor's answers to the open questions applied, 1.11.2026; not yet signed by the editor",
        'sections': [{'section': k, 'title_ru': s['title_ru'], 'title_en': s['title_en'], 'ref_bas': s['ref_bas']} for k, s in sorted(SEC.items())],
        'units': units, 'bibliography': BIB}
 json.dump(doc, open(f'{OUT}/translation.json', 'w', encoding='utf-8'), ensure_ascii=False, indent=1)

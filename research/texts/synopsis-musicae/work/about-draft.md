@@ -143,7 +143,7 @@ Joseph Rhakendytes (14th c.) took the whole mathematical part into his encyclopa
   - Gertsman, "Музыкально-теоретические знания Михаила Пселла", *ВВ* 54 (1993) 75–80 [✔ data; content not seen].
   - Gertsman, *Палестинский сборник* 32 (95) (1993) 66–71: only the Russian titles [✔ read].
   - Gertsman, *Первый исторический этап европейского музыкального антиковедения* (St Petersburg: RIII, 2022), **ch. 4 "Под именем Михаила Пселла", pp. 158–240** [✔ table of contents]. Eighty pages on this treatise; it very probably contains Russian translations of many passages [?]. **Treat it as another translation of this text: do not use it.**
-  - Gertsman's *«Синопсис музыки», или Памятник агонии musica speculativa* (Moscow: Kompozitor, 2000) is, according to our earlier check, a **different** treatise [~].
+  - Gertsman's *«Синопсис музыки», или Памятник агонии musica speculativa* (Moscow: Kompozitor, 2000) is about a **different, later** treatise [✔] (confirmed by the editor, 1.11.2026).
 - **English:** no translation found. Di Mambro 2020 may render the quoted passages [?].
 - **Modern Greek:** Katsiampoura's 2004 thesis may contain one [?].
 

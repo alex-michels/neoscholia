@@ -2,6 +2,8 @@
 
 This file is authoritative. Where it differs from a card, from the term research or from a reviewer, this file wins.
 
+**1.11.2026.** The editor's answers to the open questions (`editor-decisions.txt`, last entry) supersede this file where they differ. The lines they changed are updated below and marked (1.11.2026).
+
 Order of authority:
 1. the Greek text as printed (the constituted text in the unit packets);
 2. this file;
@@ -48,14 +50,14 @@ Grammar:
 - U025: «сверхосминное отношение тона [9:8]».
 - U046 (masculine subject, card L11 b): «…по отношению к первому звуку он [пятый звук] оказывается пятикратным [5:1], ко второму — двукратным с половиной [5:2], к третьему — сверхдвухчастным [5:3], к четвёртому — сверхчетвертным [5:4], и ни в одном случае не оказывается полуторным [3:2]».
 
-Ordinary «двойной», «двойная» (διπλοῦς, διπλῆ, e.g. U018 «двойное приращение», «содержащий двойной полутон») is not a ratio name and stays.
+Ordinary «двойной», «двойная» (διπλοῦς, διπλῆ, e.g. U018 «двойное приращение») is not a ratio name and stays. (1.11.2026: U018 now «содержит полутон дважды».)
 
 **RU note** (at the first ratio, U018; shorter cross-references at U040, U041, U046):
 - The names are Pythagorean.
 - The Russian calques follow Цыпин 2013 (двукратное, трёхкратное, четырёхкратное, пятикратное, полуторное, сверхтретное, сверхосминное, сверхчетвертное) and Щетников («сверхдвухчастное»; «двукратное-и-половинное», whence «двукратное с половиной»).
 - «Двукратное сверхчастное» follows Tsypin, for whom «сверхчастные» = ἐπιμερεῖς and «сверхчастичные» = ἐπιμόριοι. Щетников uses «сверхчастное» for ἐπιμόριος. Say this at U040, so that the reader of Shchetnikov is not misled.
 - «Полусверхосминное» is a calque of the author's ἡμιεπόγδοον, a word not recorded in LSJ, Bailly or Pape (DGE has not yet reached η).
-- Greek-based Russian forms are also in use: «эпитритное», «эпогдоосное», «эпогдоос» (Герцман 2010); «эпогдоон», «эпитрит», «гемиолий» (Александрова, Мякин 2009).
+- Greek-based Russian forms are also in use: «эпитритное», «эпогдоосное», «эпогдоос» (Герцман 2010); «эпогдоон», «эпитрит», «гемиолий» (Мякин, Александрова 2009).
 - Literal senses: ἐπίτριτος — «целое и треть»; ἐπόγδοος — «целое и восьмая»; ἐπιτέταρτος — «целое и четверть»; ἐπιδιμερής — «целое и две части [трети]»; διπλασιεπιμερής — «дважды и несколько частей сверх»; διπλασιημιόλιος — «дважды с половиной», то есть 5:2, а не 2 × 3:2.
 - Arithmetic of U018: tone 9:8, semitone 8½:8 = 17:16, diesis 8¼:8 = 33:32. The semitone halves the excess, not the ratio 9:8, whose exact half has no rational expression (cf. Теон, с. 69 Hiller).
 
@@ -71,7 +73,7 @@ The verified material is in `cards/P03.md` (main_ru, main_en and the notes there
 
 **P01 (choice a).** кварта / квинта / октава; EN fourth / fifth / octave.
 - The Greek stands in the text at the first mention only (U033): «кварта (διὰ τεσσάρων), квинта (διὰ πέντε) и октава (διὰ πασῶν)».
-- U034: no literal insertions in the text. The author's explanation of the names stays as he gives it: «…кварта — как проходящая и завершающаяся через четыре звука, то есть струны; квинта — как завершаемая через пять; октава — как завершаемая через восемь».
+- U034: no literal insertions in the text. The author's explanation of the names stays as he gives it: «…кварта — как проходящая и оканчивающаяся через четыре звука, то есть струны; квинта — как завершаемая через пять; октава — как достигающая полноты через восемь» (1.11.2026).
 - U035: the explanation needs the literal sense, so the gloss stands in the text: «Октавой же (διὰ πασῶν, букв. «через все») называется [интервал] «через восемь», так как…». EN: 'The [interval] “through eight” is called the octave (διὰ πασῶν, lit. “through all”), because…'. Mind the syntax: τὸ δι’ ὀκτώ is the subject.
 - Note: literal 'through four / five / all' (подразумеваются звуки, то есть струны); inclusive counting; Теон Смирнский, с. 51 Hiller (the eight-stringed lyre). See `cards/P01.md`.
 
@@ -191,7 +193,7 @@ RU «трёхполутон»; EN 'trihemitone'.
 Note:
 - lit. «три полутона»;
 - approximately a minor third, depending on the tuning;
-- established forms: «трёхполутон» (Щетников 2008; Александрова, Мякин 2009), «трёхполутоний» (Герцман 2010), «триполутон», «полуторатон» (Цыпин 2014; Цыпин 2013);
+- established forms: «трёхполутон» (Щетников 2008; Мякин, Александрова 2009), «трёхполутоний» (Герцман 2010), «триполутон», «полуторатон» (Цыпин 2014; Цыпин 2013);
 - Теон, с. 55 Hiller.
 
 ### Other cards
@@ -219,7 +221,7 @@ The note gives 'tension / relaxation' as the handbook English.
 **P14.** περιοχή «совокупность» / 'collection'.
 - U010: «Система — определённая совокупность интервалов» / 'A system is a certain collection of intervals'.
 - The Greek σύστημα goes into the note, not the text.
-- ποιός «определённый» / 'certain' in U009, U010 and U042. U042 τὴν ποιὰν τῶν λόγων ἕξιν is translated in full: «…имеют определённое расположение своих отношений относительно соседних звуков перед ними» / '…have a certain disposition of their ratios in relation to the neighbouring notes before them'.
+- ποιός «определённый» / 'certain' in U009, U010 and U042. U042 τὴν ποιὰν τῶν λόγων ἕξιν is translated in full: «…имеют определённое расположение своих отношений к соседним звукам перед ними (1.11.2026)» / '…have a certain disposition of their ratios in relation to the neighbouring notes before them'.
 
 **P15.** Title: «Точный синопсис музыки» / 'A Precise Synopsis of Music'.
 
@@ -277,7 +279,7 @@ Line markers are not reproduced.
 - EN: 'Euclid, Sectio canonis 11'; 'Aristotle, Prior Analytics 68b30'; 'Nicomachus, Manual 11'; 'Cleonides ch. N'; 'Anonymus Bellermanni §§ 4–6'.
 
 **Modern scholars.** Author–year without initials:
-- «Цыпин 2013» (Ptolemy, Porphyry), «Цыпин 2014» (Cleonides), «Щетников 2008», «Герцман 2010», «Александрова, Мякин 2009»;
+- «Цыпин 2013» (Ptolemy, Porphyry), «Цыпин 2014» (Cleonides), «Щетников 2008», «Герцман 2010», «Мякин, Александрова 2009»;
 - EN 'Tsypin 2013', 'Barker 1989' etc.
 
 Full references go into the bibliography, which the final consistency pass compiles.
