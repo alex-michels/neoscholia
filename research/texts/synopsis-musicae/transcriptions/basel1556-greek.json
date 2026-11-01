@@ -1287,7 +1287,7 @@
   {
    "page": 33,
    "line": 15,
-   "text": "καὶ ταῖς χολαιοτέραις καὶ ταχιναῖς μετα-"
+   "text": "καὶ ταῖς σχολαιοτέραις καὶ ταχιναῖς μετα-"
   },
   {
    "page": 33,
@@ -2387,7 +2387,7 @@
    "ref": "Bas. 33.15",
    "claude": "καὶ ταῖς σχολαιοτέραις καὶ ταχιναῖς μετα-",
    "gpt": "καὶ ταῖς σχολαιοτέραις καὶ ταχιναῖς μετα-",
-   "adopted": "καὶ ταῖς χολαιοτέραις καὶ ταχιναῖς μετα-",
+   "adopted": "καὶ ταῖς σχολαιοτέραις καὶ ταχιναῖς μετα-",
    "right": "collator",
    "differences": [
     {
@@ -2396,7 +2396,8 @@
      "by": "checkers",
      "reason": "A: 2 (high) — ταῖς ends in a final ς, then a space, then the word begins directly with χ. No σ is printed before χ. | B: 2 (high) — ταῖς ends in a final ς; then a normal 9 px word space; the next word begins directly with χ. There is no second σ."
     }
-   ]
+   ],
+   "correction_2026_11_01": "The checkers' pick (2) is withdrawn: the print has the σχ-ligature. σχολαιοτέραις is printed with the σχ-ligature (a closed loop at the upper left of χ), the same sort as in σχέσις (Bas. 24.16, Par. 21r); plain χ, as in ταχιναῖς on the same line, has no loop. Re-examined 1.11.2026 at enlargement, prompted by the comparison with Mizler 1746; Alard 1636 (p. 188) and Mizler (p. 200) print the same ligature."
   },
   {
    "ref": "Bas. 33.18",
@@ -4348,9 +4349,9 @@
   },
   {
    "ref": "Bas. 33.15",
-   "lemma": "χολαιοτέραις",
-   "ru": "«χολαιοτέραις» — так напечатано; в транскрипциях Claude и GPT-6 «σχολαιοτέραις». На скане ταῖς кончается конечной ς, за ней обычный пробел, и следующее слово начинается прямо с χ, σ перед ним нет. Решили оба проверяющих. На ошибку обеих транскрипций указал сверщик Парижского издания 1545 г.: там тоже напечатано без σ (Par. 27r.20).",
-   "en": "«χολαιοτέραις», as printed; the transcriptions of Claude and GPT-6 have «σχολαιοτέραις». On the scan ταῖς ends in a final ς followed by an ordinary word space, and the next word begins directly with χ, with no σ before it. Decided by both checkers. The error of both transcriptions was pointed out by the collator of the Paris edition of 1545, which also prints the word without σ (Par. 27r.20)."
+   "lemma": "σχολαιοτέραις",
+   "ru": "«σχολαιοτέραις» — так напечатано и так в транскрипциях Claude и GPT-6: первая литера — лигатура σχ, похожая на χ (замкнутая петля слева вверху, как в σχέσις, Bas. 24.16; у простого χ в ταχιναῖς той же строки петли нет). Сверщик Парижского издания и затем оба проверяющих приняли её за χ; ошибка исправлена 1.11.2026 при сверке с Мицлером (1746). В Par. 27r.20 та же лигатура.",
+   "en": "«σχολαιοτέραις», as printed and as in the transcriptions of Claude and GPT-6: the first sort is the σχ-ligature, which resembles χ (a closed loop at the upper left, as in σχέσις, Bas. 24.16; plain χ in ταχιναῖς on the same line has none). The collator of the Paris edition and then both checkers took it for χ; corrected 1.11.2026 in the comparison with Mizler (1746). Par. 27r.20 has the same ligature."
   },
   {
    "ref": "Bas. 33.18",

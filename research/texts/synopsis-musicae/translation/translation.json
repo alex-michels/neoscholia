@@ -1,8 +1,8 @@
 {
- "title_ru": "Точный синопсис музыки",
+ "title_ru": "Точный Синопсис Музыки",
  "title_en": "A Precise Synopsis of Music",
  "work": "Anonymous, Quadrivium of 1008: the music section (Τῆς μουσικῆς σύνοψις ἠκριβωμένη)",
- "status": "composed from six independent translations after three reviews and the editor's decisions, 31.10.2026; verified and read for consistency; notes fact-checked against the sources, 1.11.2026; the editor's answers to the open questions applied, 1.11.2026; not yet signed by the editor",
+ "status": "composed from six independent translations after three reviews and the editor's decisions, 31.10.2026; verified and read for consistency; notes fact-checked against the sources, 1.11.2026; the editor's answers to the open questions applied, 1.11.2026; compared with Mizler's German translation (1746) and corrected, 1.11.2026; not yet signed by the editor",
  "sections": [
   {
    "section": 1,
@@ -55,12 +55,12 @@
    "p_only": false,
    "paragraph_start": true,
    "greek": "Τῆς μουσικῆς σύνοψις ἠκριβωμένη",
-   "ru": "Точный синопсис музыки",
+   "ru": "Точный Синопсис Музыки",
    "en": "A Precise Synopsis of Music",
    "notes": [
     {
      "n": 1,
-     "anchor_ru": "синопсис",
+     "anchor_ru": "Синопсис",
      "anchor_en": "Synopsis",
      "kind": "term",
      "ru": "σύνοψις — букв. «взгляд на всё вместе», обозрение; LSJ s.v. σύνοψις: «общий обзор», «краткое изложение». Этим словом озаглавлена каждая из четырёх математических наук Квадривия 1008 г. ἠκριβωμένη — причастие перфекта страдательного залога от ἀκριβόω «делать точным, тщательно выверять» (LSJ s.v. ἀκριβόω): заглавие обещает точность, а не только краткость; возможен и перевод «тщательно выверенный». В Bas. обратный порядок слов (ἠκριβωμένη σύνοψις); смысл тот же.",
@@ -70,7 +70,7 @@
     },
     {
      "n": 2,
-     "anchor_ru": "музыки",
+     "anchor_ru": "Музыки",
      "anchor_en": "Music",
      "kind": "doctrine",
      "ru": "Музыка стоит в Квадривии второй, после арифметики. Таков у Теона Смирнского порядок изучения: «для нашего рассмотрения» он ставит после арифметики «музыку в числах» (ἡ ἐν ἀριθμοῖς μουσική), хотя «по природе» пятое место, после астрономии, принадлежит музыке как учению о гармонии космоса (с. 16.24–17.25 Hiller).",
@@ -85,7 +85,8 @@
    ],
    "verify": [
     "No change",
-    "Adversarial check 1.11.2026: note 2: Theon’s order qualified as the order of study, not by nature (Hiller 17.8–25 read); range 16.24–17.25"
+    "Adversarial check 1.11.2026: note 2: Theon’s order qualified as the order of study, not by nature (Hiller 17.8–25 read); range 16.24–17.25",
+    "The editor, 1.11.2026: the Russian title is written «Точный Синопсис Музыки»."
    ],
    "open": []
   },
@@ -580,9 +581,9 @@
      "anchor_ru": "диатоническая средних",
      "anchor_en": "meson diatonos",
      "kind": "text",
-     "ru": "⟨μέσων διάτονος⟩ — дополнение издания. Во всех источниках текста (Bas., H, Par., V) названий четырнадцать, и меса оказывается седьмой. Но текст требует пятнадцати: шестнадцатизвуковая система составляется внутри пятнадцатизвуковой (U015), а первый звук относится к восьмому, как восьмой к пятнадцатому (U016); значит, меса — восьмая, и пропущена лихана средних. Пропуск, общий для всех источников, восходит по меньшей мере к их общему оригиналу. У Ксиландра он отмечен звёздочкой на полях: «διάτονος μέσων addo» — это альтернативное название у Гауденция («Гармоническое введение», 6, Jan, с. 333: λιχανὸς τῶν μέσων ἤτοι διάτονος μέσων; ср. Боэций, «Основы музыки», I 22: diatonos meson). Издание печатает μέσων διάτονος: это обычная форма (Евклид, «Деление канона», 20, Jan, с. 165); она стоит седьмой в схеме из пятнадцати названий в кодексе A Теона Смирнского (Marc. gr. Z. 307, XI–XII вв.; с. [206] Hiller); в смешанных перечнях названий у Никомаха («Руководство», 12, Jan, с. 264) и Теона (с. 92.11–12 Hiller) название средних начинается с родительного падежа, а названия низших, отделённых и высших — с διάτονος, как здесь διάτονος διεζευγμένη и διάτονος ὑπερβολαίων. Обе формы — конъектуры; на смысл порядок слов не влияет.",
-     "en": "⟨μέσων διάτονος⟩ is supplied by the edition. All witnesses (Bas., H, Par., V) have fourteen names, so that mese comes seventh. But the text requires fifteen: the sixteen-note system is made up within the fifteen-note system (U015), and the first note is to the eighth as the eighth to the fifteenth (U016); so mese is the eighth, and lichanos meson has dropped out. The omission, shared by all witnesses, goes back at least to their common source. Xylander marks it with an asterisk in his margin, “διάτονος μέσων addo”, which is Gaudentius’ alternative name (Harmonic Introduction 6, Jan p. 333: λιχανὸς τῶν μέσων ἤτοι διάτονος μέσων; cf. Boethius, De institutione musica I 22: diatonos meson). The edition prints μέσων διάτονος: it is the common form (Euclid, Sectio canonis 20, Jan p. 165); it stands seventh in the fifteen-name diagram in Theon of Smyrna’s codex A (Marc. gr. Z. 307, s. XI–XII; p. [206] Hiller); and in the mixed lists of Nicomachus (Manual 12, Jan p. 264) and Theon (p. 92.11–12 Hiller) the meson name puts the genitive first, while the hypaton, diezeugmenon and hyperbolaion names begin with διάτονος, as διάτονος διεζευγμένη and διάτονος ὑπερβολαίων do here. Both wordings are conjectures; the word order does not affect the sense.",
-     "source": "Edition, apparatus and departures at Bas. 25.7; Gaudentius, Harmonic Introduction 6 (Jan p. 333); Boethius, De institutione musica I 22; Euclid, Sectio canonis 20 (Jan p. 165); Theon of Smyrna, p. [206], p. 92.11–12 Hiller; Nicomachus, Manual 12 (Jan p. 264)",
+     "ru": "⟨μέσων διάτονος⟩ — дополнение издания. Во всех источниках текста (Bas., H, Par., V) названий четырнадцать, и меса оказывается седьмой. Но текст требует пятнадцати: шестнадцатизвуковая система составляется внутри пятнадцатизвуковой (U015), а первый звук относится к восьмому, как восьмой к пятнадцатому (U016); значит, меса — восьмая, и пропущена лихана средних. Пропуск, общий для всех источников, восходит по меньшей мере к их общему оригиналу. У Ксиландра он отмечен звёздочкой на полях: «διάτονος μέσων addo» — это альтернативное название у Гауденция («Гармоническое введение», 6, Jan, с. 333: λιχανὸς τῶν μέσων ἤτοι διάτονος μέσων; ср. Боэций, «Основы музыки», I 22: diatonos meson). Издание печатает μέσων διάτονος: это обычная форма (Евклид, «Деление канона», 20, Jan, с. 165); она стоит седьмой в схеме из пятнадцати названий в кодексе A Теона Смирнского (Marc. gr. Z. 307, XI–XII вв.; с. [206] Hiller); в смешанных перечнях названий у Никомаха («Руководство», 12, Jan, с. 264) и Теона (с. 92.11–12 Hiller) название средних начинается с родительного падежа, а названия низших, отделённых и высших — с διάτονος, как здесь διάτονος διεζευγμένη и διάτονος ὑπερβολαίων. Обе формы — конъектуры; на смысл порядок слов не влияет. Мицлер (1746, с. 176–177, прим. 4) вслед за Ксиландром вставляет это название в немецкий перевод; в его греческом столбце, как и во всех источниках текста, названия нет.",
+     "en": "⟨μέσων διάτονος⟩ is supplied by the edition. All witnesses (Bas., H, Par., V) have fourteen names, so that mese comes seventh. But the text requires fifteen: the sixteen-note system is made up within the fifteen-note system (U015), and the first note is to the eighth as the eighth to the fifteenth (U016); so mese is the eighth, and lichanos meson has dropped out. The omission, shared by all witnesses, goes back at least to their common source. Xylander marks it with an asterisk in his margin, “διάτονος μέσων addo”, which is Gaudentius’ alternative name (Harmonic Introduction 6, Jan p. 333: λιχανὸς τῶν μέσων ἤτοι διάτονος μέσων; cf. Boethius, De institutione musica I 22: diatonos meson). The edition prints μέσων διάτονος: it is the common form (Euclid, Sectio canonis 20, Jan p. 165); it stands seventh in the fifteen-name diagram in Theon of Smyrna’s codex A (Marc. gr. Z. 307, s. XI–XII; p. [206] Hiller); and in the mixed lists of Nicomachus (Manual 12, Jan p. 264) and Theon (p. 92.11–12 Hiller) the meson name puts the genitive first, while the hypaton, diezeugmenon and hyperbolaion names begin with διάτονος, as διάτονος διεζευγμένη and διάτονος ὑπερβολαίων do here. Both wordings are conjectures; the word order does not affect the sense. Mizler (1746, pp. 176–177, n. 4), following Xylander, inserts the name in his German translation; his Greek column, like all the witnesses, lacks it.",
+     "source": "Edition, apparatus and departures at Bas. 25.7; Gaudentius, Harmonic Introduction 6 (Jan p. 333); Boethius, De institutione musica I 22; Euclid, Sectio canonis 20 (Jan p. 165); Theon of Smyrna, p. [206], p. 92.11–12 Hiller; Nicomachus, Manual 12 (Jan p. 264); Mizler 1746, pp. 176–177",
      "verified": "checked"
     },
     {
@@ -615,7 +616,8 @@
     "Note 3 RU: Boethius cited as «Основы музыки», as in U025",
     "EN notes and source: single-page Theon line range written “p.”",
     "Adversarial check 1.11.2026: notes 3, 5: «с. [206] Hiller» form; «списки» → «перечни» (list of names, not manuscript); «кодекс моложе 1008 г.» replaced by Hiller’s dating s. XI vel XII",
-    "Editor's answers, 1.11.2026: key «Мякин, Александрова 2009» / “Myakin, Aleksandrova 2009”, in the order of the publication."
+    "Editor's answers, 1.11.2026: key «Мякин, Александрова 2009» / “Myakin, Aleksandrova 2009”, in the order of the publication.",
+    "Mizler comparison, 1.11.2026: note 3: Mizler 1746 added (his German inserts διάτονος μέσων after Xylander)."
    ],
    "open": []
   },
@@ -730,9 +732,9 @@
      "anchor_ru": "восемь с половиной",
      "anchor_en": "eight and a half",
      "kind": "arithmetic",
-     "ru": "ὅσον ὀκτὼ ἥμισυ … ὅσον ὀκτὼ τέταρτον — смешанные числа 8½ и 8¼; ὁ ἔνατος ἀριθμός, букв. «девятое число», — само число девять (так же ὁ ἑξκαιδέκατος = 16 в U023). Мерой служит восемь: тон 9:8, полутон 8½:8 = 17:16, диеса 8¼:8 = 33:32. Единица между 8 и 9 делится арифметически: 8 — 8¼ — 8½ — 9; это деление и оправдывается в U019. «Удвоение» верно лишь для избытков над восемью (¼, ½, 1), но не для отношений: (33:32)² = 1089:1024, а 17:16 = 1088:1024; (17:16)² = 289:256, а 9:8 = 288:256. Полутон делит пополам избыток, а не само отношение 9:8, точная половина которого в целых числах не выражается (√(9/8) = √72/8 ≈ 1,0607). Теон Смирнский допускает то же деление избытка пополам лишь как рабочую меру: доказывая, что лимма 256:243 меньше полутона, он при тоне 9:8 принимает полутон за δὶς ἐπόγδοον, τουτέστιν ἐφεκκαιδέκατον, то есть 17:16, и тут же добавляет: οὐδὲ γὰρ οἷόν τε τὸ ἐπόγδοον διαίρεσιν ἐπιδέξασθαι, «ведь сверхосминное [отношение] не может принять деления», хотя так полагают те, кто судит об этом не разумом, а слухом (с. 69.12–70.1 Hiller). В центах (1200 log₂ r): тон ≈ 203,91, его точная половина ≈ 101,96, четверть ≈ 50,98; 17:16 ≈ 104,96, 33:32 ≈ 53,27. Ксиландр на полях дополнял в обоих местах τοῦ ἐννέα πρὸς («половина / четверть [отношения] девяти к восьми»); все источники текста дают одно ὀκτώ. Вместо ὅσον (H, V) в Bas. и Par. — οἷον («как бы восемь с половиной»).",
-     "en": "ὅσον ὀκτὼ ἥμισυ … ὅσον ὀκτὼ τέταρτον are mixed numbers, 8½ and 8¼; ὁ ἔνατος ἀριθμός, lit. “the ninth number”, is the number nine itself (so also ὁ ἑξκαιδέκατος = 16 in U023). The measure is eight: tone 9:8, semitone 8½:8 = 17:16, diesis 8¼:8 = 33:32. The unit between 8 and 9 is divided arithmetically, 8 – 8¼ – 8½ – 9, and U019 sets out to justify this division. The “doubling” holds only for the excesses over eight (¼, ½, 1), not for the ratios: (33:32)² = 1089:1024, whereas 17:16 = 1088:1024; (17:16)² = 289:256, whereas 9:8 = 288:256. The semitone halves the excess, not the ratio 9:8 itself, whose exact half cannot be expressed in whole numbers (√(9/8) = √72/8 ≈ 1.0607). Theon of Smyrna allows the same halving of the excess only as a working measure: proving that the leimma 256:243 is smaller than a semitone, he takes the semitone, with the tone at 9:8, as δὶς ἐπόγδοον, τουτέστιν ἐφεκκαιδέκατον, i.e. 17:16, and adds at once οὐδὲ γὰρ οἷόν τε τὸ ἐπόγδοον διαίρεσιν ἐπιδέξασθαι, “for the epogdoic [ratio] cannot admit division”, though those who judge these matters by hearing rather than by reason think so (pp. 69.12–70.1 Hiller). In cents (1200 log₂ r): tone ≈ 203.91, its exact half ≈ 101.96, its quarter ≈ 50.98; 17:16 ≈ 104.96, 33:32 ≈ 53.27. Xylander’s margin supplies τοῦ ἐννέα πρὸς in both places (“half / a quarter of [the ratio of] nine to eight”); all witnesses have ὀκτώ alone. For ὅσον (H, V), Bas. and Par. read οἷον (“as it were eight and a half”).",
-     "source": "Edition, apparatus and alternatives for translation at Bas. 25.24–25; Theon of Smyrna, pp. 69.12–70.1 Hiller; calculation",
+     "ru": "ὅσον ὀκτὼ ἥμισυ … ὅσον ὀκτὼ τέταρτον — смешанные числа 8½ и 8¼; ὁ ἔνατος ἀριθμός, букв. «девятое число», — само число девять (так же ὁ ἑξκαιδέκατος = 16 в U023). Мерой служит восемь: тон 9:8, полутон 8½:8 = 17:16, диеса 8¼:8 = 33:32. Единица между 8 и 9 делится арифметически: 8 — 8¼ — 8½ — 9; это деление и оправдывается в U019. «Удвоение» верно лишь для избытков над восемью (¼, ½, 1), но не для отношений: (33:32)² = 1089:1024, а 17:16 = 1088:1024; (17:16)² = 289:256, а 9:8 = 288:256. Полутон делит пополам избыток, а не само отношение 9:8, точная половина которого в целых числах не выражается (√(9/8) = √72/8 ≈ 1,0607). Теон Смирнский допускает то же деление избытка пополам лишь как рабочую меру: доказывая, что лимма 256:243 меньше полутона, он при тоне 9:8 принимает полутон за δὶς ἐπόγδοον, τουτέστιν ἐφεκκαιδέκατον, то есть 17:16, и тут же добавляет: οὐδὲ γὰρ οἷόν τε τὸ ἐπόγδοον διαίρεσιν ἐπιδέξασθαι, «ведь сверхосминное [отношение] не может принять деления», хотя так полагают те, кто судит об этом не разумом, а слухом (с. 69.12–70.1 Hiller). В центах (1200 log₂ r): тон ≈ 203,91, его точная половина ≈ 101,96, четверть ≈ 50,98; 17:16 ≈ 104,96, 33:32 ≈ 53,27. Ксиландр на полях дополнял в обоих местах τοῦ ἐννέα πρὸς («половина / четверть [отношения] девяти к восьми»); все источники текста дают одно ὀκτώ. Так же понимает место Мицлер: по-немецки у него «половина» и «четверть» сверхосминного отношения, как у Ксиландра по-латыни (dimidium, quadrans), а его примечание 5 — перевод рассуждения Ксиландра об этом месте (1746, с. 179–181). Вместо ὅσον (H, V) в Bas. и Par. — οἷον («как бы восемь с половиной»).",
+     "en": "ὅσον ὀκτὼ ἥμισυ … ὅσον ὀκτὼ τέταρτον are mixed numbers, 8½ and 8¼; ὁ ἔνατος ἀριθμός, lit. “the ninth number”, is the number nine itself (so also ὁ ἑξκαιδέκατος = 16 in U023). The measure is eight: tone 9:8, semitone 8½:8 = 17:16, diesis 8¼:8 = 33:32. The unit between 8 and 9 is divided arithmetically, 8 – 8¼ – 8½ – 9, and U019 sets out to justify this division. The “doubling” holds only for the excesses over eight (¼, ½, 1), not for the ratios: (33:32)² = 1089:1024, whereas 17:16 = 1088:1024; (17:16)² = 289:256, whereas 9:8 = 288:256. The semitone halves the excess, not the ratio 9:8 itself, whose exact half cannot be expressed in whole numbers (√(9/8) = √72/8 ≈ 1.0607). Theon of Smyrna allows the same halving of the excess only as a working measure: proving that the leimma 256:243 is smaller than a semitone, he takes the semitone, with the tone at 9:8, as δὶς ἐπόγδοον, τουτέστιν ἐφεκκαιδέκατον, i.e. 17:16, and adds at once οὐδὲ γὰρ οἷόν τε τὸ ἐπόγδοον διαίρεσιν ἐπιδέξασθαι, “for the epogdoic [ratio] cannot admit division”, though those who judge these matters by hearing rather than by reason think so (pp. 69.12–70.1 Hiller). In cents (1200 log₂ r): tone ≈ 203.91, its exact half ≈ 101.96, its quarter ≈ 50.98; 17:16 ≈ 104.96, 33:32 ≈ 53.27. Xylander’s margin supplies τοῦ ἐννέα πρὸς in both places (“half / a quarter of [the ratio of] nine to eight”); all witnesses have ὀκτώ alone. Mizler takes the passage the same way: his German has “half” and “a quarter” of the epogdoic ratio, as Xylander’s Latin has dimidium and quadrans, and his note 5 translates Xylander’s discussion of the passage (1746, pp. 179–181). For ὅσον (H, V), Bas. and Par. read οἷον (“as it were eight and a half”).",
+     "source": "Edition, apparatus and alternatives for translation at Bas. 25.24–25; Theon of Smyrna, pp. 69.12–70.1 Hiller; calculation; Mizler 1746, pp. 179–181",
      "verified": "checked"
     }
    ],
@@ -746,7 +748,8 @@
     "Note 2 RU: calque label in the DECISIONS form «калька: …»",
     "Adversarial check 1.11.2026: note 1 «аристоксеновские»; note 2 DGE dropped from the negative (DGE not yet at η); note 3 Theon p. 69 qualified (17:16 a working value in the leimma proof), range 69.12–70.1",
     "Editor's answers, 1.11.2026: RU «содержит полутон дважды», as the EN “contains the semitone twice”.",
-    "Editor's answers, 1.11.2026: key «Мякин, Александрова 2009» / “Myakin, Aleksandrova 2009”, in the order of the publication."
+    "Editor's answers, 1.11.2026: key «Мякин, Александрова 2009» / “Myakin, Aleksandrova 2009”, in the order of the publication.",
+    "Mizler comparison, 1.11.2026: note 3: Mizler 1746 added (he follows Xylander’s “half / a quarter of 9:8”)."
    ],
    "open": []
   },
@@ -1005,9 +1008,9 @@
      "anchor_ru": "ритм",
      "anchor_en": "rhythm",
      "kind": "term",
-     "ru": "ὁ ῥυθμός — букв. «ритм». LSJ s.v. ῥυθμός даёт, кроме «размеренного движения, ритма» (I), значения «мера, соразмерность, симметрия частей» (II) и «расположение, порядок» (III). Временной ритм величины интервала не ограничивает, а дальнейшее (U056–U060) показывает пределы, заданные строением тетрахорда; поэтому вероятнее значение «порядок, соразмерность». Если же понимать слово как временной ритм, то обещанного объяснения текст не даёт.",
-     "en": "ὁ ῥυθμός, lit. “rhythm”. Besides “measured motion, rhythm” (I), LSJ s.v. ῥυθμός gives “measure, proportion, symmetry of parts” (II) and “arrangement, order” (III). Temporal rhythm sets no limit to the size of an interval, while what follows (U056–U060) shows limits set by the structure of the tetrachord; so the sense “order, proportion” is the likelier. If the word is taken as temporal rhythm, the text never gives the promised account.",
-     "source": "LSJ s.v. ῥυθμός; Pape; Bailly",
+     "ru": "ὁ ῥυθμός — букв. «ритм». LSJ s.v. ῥυθμός даёт, кроме «размеренного движения, ритма» (I), значения «мера, соразмерность, симметрия частей» (II) и «расположение, порядок» (III). Временной ритм величины интервала не ограничивает, а дальнейшее (U056–U060) показывает пределы, заданные строением тетрахорда; поэтому вероятнее значение «порядок, соразмерность». Если же понимать слово как временной ритм, то обещанного объяснения текст не даёт. Не во временном смысле понимал слово уже Мицлер: «das Maaß der Leiter», «мера звукоряда» (1746, с. 184).",
+     "en": "ὁ ῥυθμός, lit. “rhythm”. Besides “measured motion, rhythm” (I), LSJ s.v. ῥυθμός gives “measure, proportion, symmetry of parts” (II) and “arrangement, order” (III). Temporal rhythm sets no limit to the size of an interval, while what follows (U056–U060) shows limits set by the structure of the tetrachord; so the sense “order, proportion” is the likelier. If the word is taken as temporal rhythm, the text never gives the promised account. Mizler already took the word in a non-temporal sense: “das Maaß der Leiter”, “the measure of the scale” (1746, p. 184).",
+     "source": "LSJ s.v. ῥυθμός; Pape; Bailly; Mizler 1746, p. 184",
      "verified": "checked"
     }
    ],
@@ -1018,7 +1021,8 @@
    "verify": [
     "Note 3: last sentence no longer contradicts the preceding one (no account is given only if ῥυθμός is temporal rhythm)",
     "Adversarial check 1.11.2026: note 1 «Слово τριδίεσις»; note 2 EN: Strunk has ‘trihemitone’, not ‘trisemitone’ (attalus.org read)",
-    "Editor's answers, 1.11.2026: key «Мякин, Александрова 2009» / “Myakin, Aleksandrova 2009”, in the order of the publication."
+    "Editor's answers, 1.11.2026: key «Мякин, Александрова 2009» / “Myakin, Aleksandrova 2009”, in the order of the publication.",
+    "Mizler comparison, 1.11.2026: note 3: Mizler’s “das Maaß der Leiter” added as an early non-temporal reading of ῥυθμός."
    ],
    "open": []
   },
@@ -1336,8 +1340,8 @@
      "anchor_ru": "лежат не между смежными звуками",
      "anchor_en": "do not lie between adjacent notes",
      "kind": "term",
-     "ru": "οὐκ ἄμεσα — пара ἄμεσα / ἔμμεσα (διαστήματα), букв. «без середины» / «с серединой» (от μέσος «средний»); автор сразу обыгрывает слово: эти интервалы проходят «через середины» (διὰ μέσων). Это термины логики: ἄμεσος — о посылках без среднего термина (Аристотель, «Первая аналитика» 68b30; «Вторая аналитика» 72b19); ἔμμεσος, «имеющий средний термин», в противоположность ἄμεσος, — у поздних комментаторов (Олимпиодор, комментарий к «Метеорологике», 242.28; наречие ἐμμέσως, «опосредованно», — Фемистий, парафраз «Второй аналитики», 31.6; у Симпликия, комментарий к трактату «О небе», 340.33, — о противоположностях, допускающих промежуточное; LSJ, DGE). В русской логике — «непосредственные / опосредованные». Отсюда и сравнение этих интервалов с посылками и заключением силлогизма в U043. Музыкальная параллель — Аноним Беллермана, §§ 4–6: ἀμέσως — «к соседнему звуку», ἐμμέσως — «через три, четыре, пять звуков» (DGE приводит § 4 среди примеров ἐμμέσως). Устоявшегося музыкального термина для этой пары нет; описательный перевод «между смежными / несмежными звуками» следует тому, как Цыпин передаёт выражения ἑξῆς / μὴ ἑξῆς φθόγγοι у Клеонида (гл. 5; Цыпин 2014). ἔμμεσα появляется в U042–U044.",
-     "en": "οὐκ ἄμεσα: the pair ἄμεσα / ἔμμεσα (διαστήματα), lit. “without a middle” / “with a middle” (from μέσος, “middle”); the author at once plays on the word: these intervals proceed “through middles” (διὰ μέσων). They are terms of logic: ἄμεσος of premises without a middle term (Aristotle, Prior Analytics 68b30; Posterior Analytics 72b19); ἔμμεσος, “having a middle term”, as opposed to ἄμεσος, in the late commentators (Olympiodorus, commentary on the Meteorology 242.28; the adverb ἐμμέσως, “mediately”, Themistius, paraphrase of the Posterior Analytics 31.6; in Simplicius, commentary on On the Heavens 340.33, of contraries that admit an intermediate; LSJ, DGE); in English logic “immediate / mediate”. Hence the author’s comparison of these intervals with the premises and conclusion of a syllogism in U043. The musical parallel is Anonymus Bellermanni §§ 4–6: ἀμέσως “to the adjacent note”, ἐμμέσως “through three, four, five notes” (DGE cites § 4 for ἐμμέσως). There is no established musical term for the pair; the translation describes them by Cleonides’ criterion of adjacent and non-adjacent notes (ἑξῆς / μὴ ἑξῆς φθόγγοι, ch. 5; Strunk: “consecutive notes”). ἔμμεσα occurs in U042–U044.",
+     "ru": "οὐκ ἄμεσα — пара ἄμεσα / ἔμμεσα (διαστήματα), букв. «без середины» / «с серединой» (от μέσος «средний»); автор сразу обыгрывает слово: эти интервалы проходят «через середины» (διὰ μέσων). Это термины логики: ἄμεσος — о посылках, которые нельзя доказать силлогизмом через средний термин (Аристотель, «Первая аналитика» 68b30; «Вторая аналитика» 72b19); ἔμμεσος, «имеющий средний термин», в противоположность ἄμεσος, — у поздних комментаторов (Олимпиодор, комментарий к «Метеорологике», 242.28; наречие ἐμμέσως, «опосредованно», — Фемистий, парафраз «Второй аналитики», 31.6; у Симпликия, комментарий к трактату «О небе», 340.33, — о противоположностях, допускающих промежуточное; LSJ, DGE). В русской логике — «непосредственные / опосредованные». Отсюда и сравнение этих интервалов с посылками и заключением силлогизма в U043. Музыкальная параллель — Аноним Беллермана, §§ 4–6: ἀμέσως — «к соседнему звуку», ἐμμέσως — «через три, четыре, пять звуков» (DGE приводит § 4 среди примеров ἐμμέσως). Устоявшегося музыкального термина для этой пары нет; описательный перевод «между смежными / несмежными звуками» следует тому, как Цыпин передаёт выражения ἑξῆς / μὴ ἑξῆς φθόγγοι у Клеонида (гл. 5; Цыпин 2014). ἔμμεσα появляется в U042–U044.",
+     "en": "οὐκ ἄμεσα: the pair ἄμεσα / ἔμμεσα (διαστήματα), lit. “without a middle” / “with a middle” (from μέσος, “middle”); the author at once plays on the word: these intervals proceed “through middles” (διὰ μέσων). They are terms of logic: ἄμεσος of premises that cannot be proved syllogistically through a middle term (Aristotle, Prior Analytics 68b30; Posterior Analytics 72b19); ἔμμεσος, “having a middle term”, as opposed to ἄμεσος, in the late commentators (Olympiodorus, commentary on the Meteorology 242.28; the adverb ἐμμέσως, “mediately”, Themistius, paraphrase of the Posterior Analytics 31.6; in Simplicius, commentary on On the Heavens 340.33, of contraries that admit an intermediate; LSJ, DGE); in English logic “immediate / mediate”. Hence the author’s comparison of these intervals with the premises and conclusion of a syllogism in U043. The musical parallel is Anonymus Bellermanni §§ 4–6: ἀμέσως “to the adjacent note”, ἐμμέσως “through three, four, five notes” (DGE cites § 4 for ἐμμέσως). There is no established musical term for the pair; the translation describes them by Cleonides’ criterion of adjacent and non-adjacent notes (ἑξῆς / μὴ ἑξῆς φθόγγοι, ch. 5; Strunk: “consecutive notes”). ἔμμεσα occurs in U042–U044.",
      "source": "LSJ, DGE s.vv. ἄμεσος, ἔμμεσος; Aristotle, Prior Analytics 68b30; Posterior Analytics 72b19; Olympiodorus, in Mete. 242.28, Simplicius, in Cael. 340.33, Themistius, in APo. 31.6 (as cited in LSJ, DGE); Anonymus Bellermanni §§ 4–6 (Bellermann 1841); Cleonides ch. 5; Tsypin 2014; Strunk",
      "verified": "checked"
     },
@@ -1372,7 +1376,8 @@
     "Note 2: opens with the Greek lemma; EN “p. 51.4–20”",
     "EN: straight apostrophes made typographic (’)",
     "Editor's answers, 1.11.2026: «достигающая полноты» / “perfected” for τελειούμενον is confirmed.",
-    "Editor's answers, 1.11.2026: περαινόμενον «оканчивающаяся»: three roots (конец / завершение / полнота), as in the EN."
+    "Editor's answers, 1.11.2026: περαινόμενον «оканчивающаяся»: three roots (конец / завершение / полнота), as in the EN.",
+    "Mizler comparison, 1.11.2026: note 1: ἄμεσος worded as in LSJ («нельзя доказать силлогизмом через средний термин»), so that “without a middle term” is not read as “not containing the middle term”."
    ],
    "open": []
   },
@@ -1477,9 +1482,9 @@
      "anchor_ru": "при неравном времени звучания",
      "anchor_en": "with unequal timing",
      "kind": "term",
-     "ru": "ἀνισοχρόνως / ἰσοχρόνως — букв. «неравновременно / равновременно» (заимствованные формы: «анизохронно / изохронно»). По LSJ ἀνισόχρονος значит «неравной длительности». Но сам текст поясняет ἰσοχρόνως словами κατὰ ταὐτόν, «одновременно» (LSJ s.v. αὐτός IV.4: κατὰ τὸ αὐτό — «вместе, одновременно»; ср. у Теона Смирнского, с. 51 Hiller: κατὰ ταὐτὸ … ἅμα κρουσθέντων, «извлечённые вместе», Щетников 2009), а о парафонном созвучии говорит, что звуки «сменяют друг друга» (διαδεχομένων ἀλλήλοις). Вероятно, противопоставлены последовательное и одновременное звучание, по-современному — мелодический и гармонический интервал; понимание «при неравных / равных длительностях» лексически возможно. Равенство периодов колебаний здесь не имеется в виду: у звуков октавы они различны. В проверенных текстах теоретиков этого признака нет: Фрасилл у Теона (с. 48.16–49.2 Hiller) определяет оба вида иначе — антифонное созвучие дают противолежащие друг другу низкий и высокий звуки, парафонное — звуки, не совпадающие по высоте и не диссонирующие, а сходные на известном расстоянии. Ср. [Аристотель], «Проблемы» XIX 39 (консонанс как отношение движений, подобное стопам в метре; антифон из одновременно звучащих голосов мальчиков и мужчин) и XIX 18 (из консонансов магадизируют, то есть поют двумя голосами одновременно, только в октаву). Ср., однако, там же, XIX 39 (921a21–22; у Яна — 39b): в октаве у звуков «один и тот же конец периодов» (τὴν αὐτὴν τελευτὴν τῶν ἐν τοῖς φθόγγοις περιόδων), а в других созвучиях — нет; на такое совпадение концов периодов могут опираться и слова ἰσοχρόνως / ἀνισοχρόνως.",
-     "en": "ἀνισοχρόνως / ἰσοχρόνως, lit. “at unequal / equal time” (borrowed forms: “anisochronously / isochronously”). LSJ gives ἀνισόχρονος as “of unequal duration”. But the text itself explains ἰσοχρόνως by κατὰ ταὐτόν, “at the same time” (LSJ s.v. αὐτός IV.4: κατὰ τὸ αὐτό “together, at the same time”; cf. Theon of Smyrna, p. 51 Hiller: κατὰ ταὐτὸ … ἅμα κρουσθέντων), and says of the paraphonic that the notes “succeed one another” (διαδεχομένων ἀλλήλοις). The contrast is probably between successive and simultaneous sounding, in modern terms between a melodic and a harmonic interval; a reading as unequal / equal durations is lexically possible. Equal vibration periods cannot be meant: the notes of an octave have different periods. The criterion is not found in the theorists checked: Thrasyllus in Theon (pp. 48.16–49.2 Hiller) defines the two kinds otherwise, the antiphonic as the consonance of a low note opposed to a high one, the paraphonic as that of notes neither of the same pitch nor dissonant but similar at a known interval. Cf. [Aristotle], Problems XIX 39 (consonance as a ratio of motions, like feet in metre; the antiphon of boys’ and men’s voices sounding together) and XIX 18 (of the consonances only the octave is magadised, i.e. sung by two voices at once). Cf., however, the same problem, XIX 39 (921a21–22; 39b in Jan): in the octave the notes share “the same end of their periods” (τὴν αὐτὴν τελευτὴν τῶν ἐν τοῖς φθόγγοις περιόδων), unlike the other consonances; ἰσοχρόνως / ἀνισοχρόνως may reflect such a coincidence of the ends of the periods.",
-     "source": "LSJ s.vv. ἀνισόχρονος, ἰσόχρονος, αὐτός IV.4; Theon of Smyrna, pp. 48.16–49.2, 51 Hiller; Shchetnikov 2009; [Aristotle], Problems XIX 18, 39 (921a21–22; Jan pp. 88, 100–101, where 39 is divided into 39a and 39b)",
+     "ru": "ἀνισοχρόνως / ἰσοχρόνως — букв. «неравновременно / равновременно» (заимствованные формы: «анизохронно / изохронно»). По LSJ ἀνισόχρονος значит «неравной длительности». Но сам текст поясняет ἰσοχρόνως словами κατὰ ταὐτόν, «одновременно» (LSJ s.v. αὐτός IV.4: κατὰ τὸ αὐτό — «вместе, одновременно»; ср. у Теона Смирнского, с. 51 Hiller: κατὰ ταὐτὸ … ἅμα κρουσθέντων, «извлечённые вместе», Щетников 2009), а о парафонном созвучии говорит, что звуки «сменяют друг друга» (διαδεχομένων ἀλλήλοις). Вероятно, противопоставлены последовательное и одновременное звучание, по-современному — мелодический и гармонический интервал; понимание «при неравных / равных длительностях» лексически возможно. Равенство периодов колебаний здесь не имеется в виду: у звуков октавы они различны. В проверенных текстах теоретиков этого признака нет: Фрасилл у Теона (с. 48.16–49.2 Hiller) определяет оба вида иначе — антифонное созвучие дают противолежащие друг другу низкий и высокий звуки, парафонное — звуки, не совпадающие по высоте и не диссонирующие, а сходные на известном расстоянии. Ср. [Аристотель], «Проблемы» XIX 39 (консонанс как отношение движений, подобное стопам в метре; антифон из одновременно звучащих голосов мальчиков и мужчин) и XIX 18 (из консонансов магадизируют, то есть поют двумя голосами одновременно, только в октаву). Ср., однако, там же, XIX 39 (921a21–22; у Яна — 39b): в октаве у звуков «один и тот же конец периодов» (τὴν αὐτὴν τελευτὴν τῶν ἐν τοῖς φθόγγοις περιόδων), а в других созвучиях — нет; на такое совпадение концов периодов могут опираться и слова ἰσοχρόνως / ἀνισοχρόνως. Так же понимал место Мицлер: парафонное созвучие — «консонанс в мелодии», антифонное — «консонанс в гармонии» (1746, с. 188, прим. 10).",
+     "en": "ἀνισοχρόνως / ἰσοχρόνως, lit. “at unequal / equal time” (borrowed forms: “anisochronously / isochronously”). LSJ gives ἀνισόχρονος as “of unequal duration”. But the text itself explains ἰσοχρόνως by κατὰ ταὐτόν, “at the same time” (LSJ s.v. αὐτός IV.4: κατὰ τὸ αὐτό “together, at the same time”; cf. Theon of Smyrna, p. 51 Hiller: κατὰ ταὐτὸ … ἅμα κρουσθέντων), and says of the paraphonic that the notes “succeed one another” (διαδεχομένων ἀλλήλοις). The contrast is probably between successive and simultaneous sounding, in modern terms between a melodic and a harmonic interval; a reading as unequal / equal durations is lexically possible. Equal vibration periods cannot be meant: the notes of an octave have different periods. The criterion is not found in the theorists checked: Thrasyllus in Theon (pp. 48.16–49.2 Hiller) defines the two kinds otherwise, the antiphonic as the consonance of a low note opposed to a high one, the paraphonic as that of notes neither of the same pitch nor dissonant but similar at a known interval. Cf. [Aristotle], Problems XIX 39 (consonance as a ratio of motions, like feet in metre; the antiphon of boys’ and men’s voices sounding together) and XIX 18 (of the consonances only the octave is magadised, i.e. sung by two voices at once). Cf., however, the same problem, XIX 39 (921a21–22; 39b in Jan): in the octave the notes share “the same end of their periods” (τὴν αὐτὴν τελευτὴν τῶν ἐν τοῖς φθόγγοις περιόδων), unlike the other consonances; ἰσοχρόνως / ἀνισοχρόνως may reflect such a coincidence of the ends of the periods. Mizler read the passage the same way: paraphonic is “a consonance in melody”, antiphonic “a consonance in harmony” (1746, p. 188, n. 10).",
+     "source": "LSJ s.vv. ἀνισόχρονος, ἰσόχρονος, αὐτός IV.4; Theon of Smyrna, pp. 48.16–49.2, 51 Hiller; Shchetnikov 2009; [Aristotle], Problems XIX 18, 39 (921a21–22; Jan pp. 88, 100–101, where 39 is divided into 39a and 39b); Mizler 1746, p. 188",
      "verified": "checked"
     },
     {
@@ -1522,7 +1527,8 @@
     "Note 3: opens with the Greek lemma",
     "EN: straight apostrophes made typographic (’)",
     "Editor's answers, 1.11.2026: the main P08 note stays at the first occurrence.",
-    "Editor's answers, 1.11.2026: the Problems XIX 39b sentence is added to note 1."
+    "Editor's answers, 1.11.2026: the Problems XIX 39b sentence is added to note 1.",
+    "Mizler comparison, 1.11.2026: note 1: Mizler’s reading (melody / harmony) added."
    ],
    "open": []
   },
@@ -1805,9 +1811,9 @@
      "anchor_ru": "между смежными звуками",
      "anchor_en": "between adjacent notes",
      "kind": "term",
-     "ru": "ἄμεσα / ἔμμεσα, букв. «без середины» / «с серединой», — термины логики: ἄμεσος говорится о посылке без среднего термина, ἔμμεσος — о посылке со средним термином. Интервал между смежными звуками подобен посылке, связывающей соседние термины; интервал между несмежными звуками, как заключение, связывает крайние, минуя средний. На этом двойном смысле и построено сравнение с силлогизмом. В тексте дано описательное «между смежными / несмежными звуками»; подробнее см. примеч. к [U034].",
-     "en": "ἄμεσα / ἔμμεσα, lit. “without a middle” / “with a middle”, are terms of logic: ἄμεσος is said of a premise without a middle term, ἔμμεσος of one with a middle term. An interval between adjacent notes is like a premise linking neighbouring terms; an interval between non-adjacent notes, like the conclusion, links the extremes and passes over the middle. The comparison with the syllogism rests on this double sense. The text has the description “between adjacent / non-adjacent notes”; for more see the note on [U034].",
-     "source": "U034",
+     "ru": "ἄμεσα / ἔμμεσα, букв. «без середины» / «с серединой», — термины логики: ἄμεσος говорится о посылке, которую нельзя доказать через средний термин, ἔμμεσος («опосредованный») — о том, что доказывается через средний термин. Интервал между смежными звуками подобен посылке, связывающей соседние термины; интервал между несмежными звуками, как заключение, связывает крайние, минуя средний. На этом двойном смысле и построено сравнение с силлогизмом. В тексте дано описательное «между смежными / несмежными звуками»; подробнее см. примеч. к [U034].",
+     "en": "ἄμεσα / ἔμμεσα, lit. “without a middle” / “with a middle”, are terms of logic: ἄμεσος is said of a premise that cannot be proved through a middle term, ἔμμεσος (“mediate”) of what is proved through one. An interval between adjacent notes is like a premise linking neighbouring terms; an interval between non-adjacent notes, like the conclusion, links the extremes and passes over the middle. The comparison with the syllogism rests on this double sense. The text has the description “between adjacent / non-adjacent notes”; for more see the note on [U034].",
+     "source": "U034; LSJ s.vv. ἄμεσος, ἔμμεσος",
      "verified": "checked"
     },
     {
@@ -1837,7 +1843,8 @@
    ],
    "verify": [
     "text note: quotation of U042 (μεταξὺ τούτων κείμενα) aligned with the U042 rendering; internal remark on the judges' vote removed",
-    "factcheck pass: notes reordered by anchor position (1, 3, 2); doctrine note RU «соседних звуков» -> «смежных звуков» (ἄμεσα, P09)"
+    "factcheck pass: notes reordered by anchor position (1, 3, 2); doctrine note RU «соседних звуков» -> «смежных звуков» (ἄμεσα, P09)",
+    "Mizler comparison, 1.11.2026: note 1: ἄμεσος / ἔμμεσος worded as in LSJ (“cannot be proved syllogistically by means of a middle term”; “mediate”)."
    ],
    "open": []
   },
@@ -2121,7 +2128,7 @@
    "p_only": true,
    "paragraph_start": true,
    "greek": "⟨⟨Ἰστέον δὲ ὡς ἐπὶ μὲν τῆς τάσεως ἢ τῆς ἐξαρτήσεως ἡ ἐπὶ πλέον ἐπίτασις καὶ ἡ ἐπὶ μᾶλλον βαρύτης τὴν ἐπὶ ὀξὺ μελῳδίαν ἐργάζεται· ἐπὶ δὲ τῆς παχύτητος τῶν νευρῶν ἢ τοῦ μήκους τούτων ἢ τῶν αὐλῶν ἢ τῆς τῶν τρημάτων διατάσεως τὸ πλεονάζον τούτων τινὸς †ἀμφότερον† τῆς μελῳδίας εἶδος συνίστησι.⟩⟩",
-   "ru": "⟨⟨Следует знать, что при натяжении или подвешивании [грузов] большее усиление натяжения и бо́льшая тяжесть производят мелодию, [направленную] к высокому; а при толщине струн, или их длине, или [длине] авлосов, или расширении отверстий избыток чего-либо из этого образует †и то и другое† вид мелодии.⟩⟩",
+   "ru": "⟨⟨Следует знать, что при натяжении или подвешивании [грузов] большее усиление натяжения и бо́льшая тяжесть производят мелодию, [направленную] к высокому; а при толщине струн, или их длине, или [длине] авлосов, или расширении отверстий избыток чего-либо из этого образует †и тот и другой† вид мелодии.⟩⟩",
    "en": "⟨⟨It should be known that, with tension or suspension [of weights], greater tightening and greater weight produce the melody towards the high; but with the thickness of the strings, or their length, or [the length] of the auloi, or the widening of the holes, the excess of any one of these constitutes †both† kind of melody.⟩⟩",
    "notes": [
     {
@@ -2156,7 +2163,7 @@
     },
     {
      "n": 107,
-     "anchor_ru": "†и то и другое†",
+     "anchor_ru": "†и тот и другой†",
      "anchor_en": "†both†",
      "kind": "text",
      "ru": "†ἀμφότερον† (P; у Венсана без примечания) смысла не даёт: по смыслу нужно «более низкий» [вид мелодии], в противоположность мелодии «к высокому» в первой части. У Теона Смирнского (с. 65.10–66.11 Hiller), откуда взято содержание, больший груз даёт более высокий звук (τὸ πλεῖον βάρος … τὸν ὀξύτερον ποιήσει φθόγγον), а длина и толщина струн и длина и ширина отверстий у духовых — более низкие (οἱ βαρύτεροι). В аппарате издания приведены конъектуры θάτερον («другой»), βαρύτερον («более низкий») и ἀμβλύτερον («более глухой»; ближе всего по буквам); ни одна не надёжна, и издание сохраняет кресты.",
@@ -2175,7 +2182,8 @@
     "EN: \"a †both† kind\" -> \"†both† kind\" (L13 a; \"a … kind\" was option b); crux note: conjectures attributed to the edition's apparatus, vote count removed; διάτασις note: \"distance along the pipe\" (a sense the note itself excludes) -> \"extent [of the pipe] up to the holes\"",
     "the P-passage note opens with the Greek lemma",
     "factcheck pass: notes reordered (1, 3, 4, 2); P-passage note: P’s version of U049 is not \"shorter\" (Vinc. 342 n. 5); διάτασις note: DGE and Bailly \"dilatation\" added, Theon line 66.7–8",
-    "Editor's answers, 1.11.2026: διάτασις «расширение» / “widening”, as recommended by both checkers; note 3 rewritten."
+    "Editor's answers, 1.11.2026: διάτασις «расширение» / “widening”, as recommended by both checkers; note 3 rewritten.",
+    "Mizler comparison, 1.11.2026: «†и то и другое† вид» -> «†и тот и другой† вид»: «вид» is masculine; the obeli and the singular stay. EN “†both† kind” kept (it keeps the singular εἶδος of the crux)."
    ],
    "open": []
   },
@@ -2813,23 +2821,23 @@
    "p_only": false,
    "paragraph_start": false,
    "greek": "οὐ γὰρ τῇ τῶν διαστημάτων μόνῃ μεταφορᾷ, οὐδὲ τῇ μόνῃ τούτων διαφορᾷ, ἀλλὰ καὶ ταῖς σχολαιοτέραις καὶ ταχιναῖς μεταβάσεσι, διαμοναῖς τε καὶ ῥοαῖς, καὶ ταῖς τῶν ἐπαφῶν καὶ κρουμάτων ποικίλαις μεταχειρίσεσι, τὰ μυρία τῶν μελῳδιῶν καὶ ποικίλα κατασκευάζεται.",
-   "ru": "Ведь бесчисленные и разнообразные мелодии создаются не одним лишь переносом интервалов и не одним лишь их различием, но и более медленными и быстрыми переходами, выдержанными звуками и плавным движением, а также разнообразными приёмами касаний и ударов.",
-   "en": "For the countless and varied melodies are produced not by the shifting of the intervals alone, nor by their difference alone, but also by slower and quick transitions, by sustained notes and smooth motion, and by the varied handling of touches and strokes.",
+   "ru": "Ведь бесчисленные и разнообразные мелодии создаются не одним лишь переносом интервалов и не одним лишь их различием, но и более медленными и быстрыми переходами, выдержанными звуками и текучим движением, а также разнообразными приёмами касаний и ударов.",
+   "en": "For the countless and varied melodies are produced not by the shifting of the intervals alone, nor by their difference alone, but also by slower and quick transitions, by sustained notes and flowing motion, and by the varied handling of touches and strokes.",
    "notes": [
     {
      "n": 139,
      "anchor_ru": "не одним лишь переносом интервалов",
      "anchor_en": "not by the shifting of the intervals alone",
      "kind": "text",
-     "ru": "μεταφορᾷ … διαφορᾷ — игра слов: «перенос» интервалов даёт лидийский, фригийский и дорийский напевы (U065), их «различие» — роды (U054–U060). μεταφορά («перенесение», LSJ) — не технический термин транспозиции (у теоретиков это μεταβολή, Клеонид, гл. 1), поэтому сохранено общее слово. Слова μεταφορᾷ, οὐδὲ τῇ μόνῃ τούτων есть в H, Par. и V; в Bas. они выпали, и там читается «не одним лишь различием интервалов, но…». Вероятно, наборщик перескочил с конца одной строки на конец следующей (в Par. пропущенные слова стоят ровно между слогами με- и δια- в концах соседних строк), хотя не исключено и намеренное сокращение. σχολαιοτέραις («более медленными»; H, V) — в Bas. и Par. несуществующее χολαιοτέραις. Сравнительная и положительная степени рядом (σχολαιοτέραις καὶ ταχιναῖς) сохранены.",
-     "en": "μεταφορᾷ … διαφορᾷ: a play on words: the “shifting” of the intervals yields the Lydian, Phrygian and Dorian melodies (U065), their “difference” the genera (U054–U060). μεταφορά (“transference”, LSJ) is not the technical term for transposition (the theorists’ μεταβολή, Cleonides ch. 1), so the general word is kept. The words μεταφορᾷ, οὐδὲ τῇ μόνῃ τούτων are in H, Par. and V; Bas. omits them and reads “not by the difference of the intervals alone, but …”, probably by a compositor’s skip from one line end to the next (in Par. the missing words lie exactly between the line-end syllables με- and δια-), though a deliberate shortening cannot be ruled out. σχολαιοτέραις (“slower”; H, V): Bas. and Par. have the non-word χολαιοτέραις. The comparative and the positive side by side (σχολαιοτέραις καὶ ταχιναῖς) are kept.",
-     "source": "Edition, apparatus, departures and alternatives for translation at Bas. 33.13–15; LSJ s.v. μεταφορά; Cleonides ch. 1",
+     "ru": "μεταφορᾷ … διαφορᾷ — игра слов: «перенос» интервалов даёт лидийский, фригийский и дорийский напевы (U065), их «различие» — роды (U054–U060). μεταφορά («перенесение», LSJ) — не технический термин транспозиции (у теоретиков это μεταβολή, Клеонид, гл. 1), поэтому сохранено общее слово. Слова μεταφορᾷ, οὐδὲ τῇ μόνῃ τούτων есть в H, Par. и V; в Bas. они выпали, и там читается «не одним лишь различием интервалов, но…». Вероятно, наборщик перескочил с конца одной строки на конец следующей (в Par. пропущенные слова стоят ровно между слогами με- и δια- в концах соседних строк), хотя не исключено и намеренное сокращение. σχολαιοτέραις («более медленными») — во всех источниках текста; в Bas. и Par. слово начинается лигатурой σχ, похожей на χ. Сравнительная и положительная степени рядом (σχολαιοτέραις καὶ ταχιναῖς) сохранены.",
+     "en": "μεταφορᾷ … διαφορᾷ: a play on words: the “shifting” of the intervals yields the Lydian, Phrygian and Dorian melodies (U065), their “difference” the genera (U054–U060). μεταφορά (“transference”, LSJ) is not the technical term for transposition (the theorists’ μεταβολή, Cleonides ch. 1), so the general word is kept. The words μεταφορᾷ, οὐδὲ τῇ μόνῃ τούτων are in H, Par. and V; Bas. omits them and reads “not by the difference of the intervals alone, but …”, probably by a compositor’s skip from one line end to the next (in Par. the missing words lie exactly between the line-end syllables με- and δια-), though a deliberate shortening cannot be ruled out. σχολαιοτέραις (“slower”) is in all the witnesses; in Bas. and Par. the word begins with the σχ-ligature, which resembles χ. The comparative and the positive side by side (σχολαιοτέραις καὶ ταχιναῖς) are kept.",
+     "source": "Edition, apparatus, departures and alternatives for translation at Bas. 33.13–14; LSJ s.v. μεταφορά; Cleonides ch. 1",
      "verified": "checked"
     },
     {
      "n": 140,
-     "anchor_ru": "выдержанными звуками и плавным движением",
-     "anchor_en": "by sustained notes and smooth motion",
+     "anchor_ru": "выдержанными звуками и текучим движением",
+     "anchor_en": "by sustained notes and flowing motion",
      "kind": "term",
      "ru": "διαμοναῖς τε καὶ ῥοαῖς — διαμοναί, букв. «пребывания, длительности» (LSJ s.v. διαμονή: «продолжительность»), то есть задержка голоса на одном звуке, а не паузы. Ср. у Клеонида μοναί — «остановки» голоса на определённой высоте (гл. 2: τὰς μὲν οὖν μονὰς τάσεις καλοῦμεν, «Остановки мы называем высотами», Цыпин 2014) и τονή — ἡ ἐπὶ πλείονα χρόνον μονὴ κατὰ μίαν … προφορὰν τῆς φωνῆς, «более продолжительная остановка голоса на одном звуке» (гл. 14, Цыпин 2014). ῥοαί, букв. «течения, потоки» (LSJ; ῥοαὶ Μοισᾶν, «поток песни», у Пиндара, «Немейские оды» 7.12); музыкального значения словари не дают. Здесь это противоположность выдерживанию: текучее движение голоса по звукам. Имеется ли в виду поступенное движение (ср. ἀγωγή у Клеонида, гл. 14, — «движение мелодии по смежным звукам», Цыпин 2014) или быстрые пассажи, из текста не ясно. Калька: «пребываниями и течениями».",
      "en": "διαμοναῖς τε καὶ ῥοαῖς: διαμοναί, lit. “continuances, stays” (LSJ s.v. διαμονή: “continuance”), i.e. holding the voice on one note, not rests. Cf. Cleonides’ μοναί, the stops of the voice on a pitch (ch. 2: τὰς μὲν οὖν μονὰς τάσεις καλοῦμεν), and τονή, ἡ ἐπὶ πλείονα χρόνον μονὴ κατὰ μίαν … προφορὰν τῆς φωνῆς, “a longer dwelling on a single utterance of the voice” (ch. 14). ῥοαί, lit. “streams, flows” (LSJ; Pindar’s ῥοαὶ Μοισᾶν, “stream of song”, Nemean 7.12); the lexica give no musical sense. Here it is the opposite of the held note: the voice flowing on through the notes. Whether stepwise motion (cf. Cleonides’ ἀγωγή, “a progression of the melody by consecutive notes”, ch. 14, Strunk) or quick runs is meant cannot be decided. Calque: “stays and flows”.",
@@ -2854,7 +2862,9 @@
    ],
    "verify": [
     "term note: ἐπαφή \"touching of the lyre\" as in LSJ, not \"the strings of the lyre\"",
-    "factcheck pass: RU note 1 «с одного конца строки на другой» -> «с конца одной строки на конец следующей» (as the EN and the edition, Par. 27r.18–20)"
+    "factcheck pass: RU note 1 «с одного конца строки на другой» -> «с конца одной строки на конец следующей» (as the EN and the edition, Par. 27r.18–20)",
+    "Mizler comparison, 1.11.2026: note 1: «χολαιοτέραις Bas. Par.» withdrawn: both print σχολαιοτέραις with the σχ-ligature (checked at enlargement against σχέσις, Bas. 24.16, Par. 21r).",
+    "Mizler comparison, 1.11.2026: «плавным движением» -> «текучим движением», “smooth” -> “flowing” (the editor, 1.11.2026): in Russian music theory «плавное движение» is stepwise motion, which the text does not say (note 2 leaves it open)."
    ],
    "open": []
   },
@@ -2996,6 +3006,12 @@
    "key_en": "Meibom",
    "ru": "Antiquae musicae auctores septem. Graece et Latine / ed. M. Meibomius. Vol. 1–2. Amsterdam: L. Elzevir, 1652. По страницам Мейбома (т. 1) цитируются «Элементы гармоники» Аристоксена; в материалах также Никомах и Вакхий.",
    "en": "Meibom, Marcus, ed. 1652. Antiquae musicae auctores septem. Graece et Latine. 2 vols. Amsterdam: Louis Elzevir. The edition by whose pages (vol. 1) Aristoxenus’ Elementa harmonica is cited; in the materials also Nicomachus and Bacchius."
+  },
+  {
+   "key_ru": "Мицлер 1746",
+   "key_en": "Mizler 1746",
+   "ru": "Mizler L. Ch. Des Psellus vollständiger kurzer Inbegriff der Musik // Musikalische Bibliothek. Bd. III, Th. 2. Leipzig, 1746. S. 171–200. Греческий текст (близкий к изданию Л. Аларда, Шлойзинген, 1636) и немецкий перевод в два столбца, с примечаниями Ксиландра (X) и Мицлера; ссылки по страницам.",
+   "en": "Mizler, Lorenz Christoph. 1746. “Des Psellus vollständiger kurzer Inbegriff der Musik.” Musikalische Bibliothek, vol. 3, part 2, pp. 171–200. Leipzig. Greek text (close to L. Alard’s edition, Schleusingen 1636) and German translation in two columns, with Xylander’s (X) and Mizler’s notes; cited by page."
   },
   {
    "key_ru": "Мякин, Александрова 2009",
