@@ -17,7 +17,7 @@ mock: "<b>Макет страницы раздела.</b> Статусы пер�
         <p class="editor">Раздел ведёт: Александр Михельс, PhD · рецензенты-музыковеды приглашаются</p>
         <dl class="facts">
           <div><dt>Нет перевода ни на одном языке</dt><dd>Георгий Пахимер, «Гармоника» (ок. 1300)</dd></div>
-          <div><dt>Опубликовано</dt><dd><a href="synopsis-musicae.html">Анонимный «Синопсис Музыки» (1008)</a> — короткий трактат; греческий текст установлен заново по рукописям и старопечатным изданиям, перевод на русский и английский — версия 0.2</dd></div>
+          <div><dt>Опубликовано</dt><dd><a href="synopsis-musicae.html">Анонимный «Синопсис Музыки» (1008)</a> — короткий трактат; греческий текст установлен заново по рукописям и старопечатным изданиям, перевод на русский и английский — версия {{ texts["synopsis-musicae"].versions[0].version }}</dd></div>
         </dl>
       </div>
 
@@ -82,7 +82,7 @@ mock: "<b>Макет страницы раздела.</b> Статусы пер�
         <div class="have" role="cell"><span class="tag">Уже по-русски</span><ul><li><i class="dot ru"></i><span>«Петербургский теоретикон» (Герцман)</span></li></ul></div>
         <div class="gap" role="cell"><span class="tag">Пробелы</span><ul>
           <li><i class="dot none"></i><span>Пахимер, «Гармоника» <b class="star">★</b></span></li>
-          <li><i class="dot part"></i><span><a href="synopsis-musicae.html">Анонимный «Синопсис Музыки» (1008)</a> <b class="star">★</b><br><small>Neoscholia: перевод, версия 0.2</small></span></li>
+          <li><i class="dot part"></i><span><a href="synopsis-musicae.html">Анонимный «Синопсис Музыки» (1008)</a> <b class="star">★</b><br><small>Neoscholia: перевод, версия {{ texts["synopsis-musicae"].versions[0].version }}</small></span></li>
           <li><i class="dot none"></i><span>Мануил Вриенний, «Гармоника»</span></li>
           <li><i class="dot part"></i><span>«Агиополит»</span></li>
         </ul></div>
@@ -117,11 +117,11 @@ mock: "<b>Макет страницы раздела.</b> Статусы пер�
 
       <div class="cards" id="cards">
         <article class="card flag" data-g="byz" data-nowhere="0">
-          <div class="group"><span>Византийская передача</span><span class="plan">опубликовано · версия 0.1</span></div>
+          <div class="group"><span>Византийская передача</span><span class="plan">опубликовано · версия {{ texts["synopsis-musicae"].versions[0].version }}</span></div>
           <h3><a href="synopsis-musicae.html">Анонимный «Синопсис Музыки»</a></h3>
           <p class="orig"><span lang="grc">Τῆς μουσικῆς σύνοψις ἠκριβωμένη</span> — из анонимного «Четверокнижия» 1008 г.; прежде приписывался Пселлу</p>
           <p class="meta">1008 г. · греческий · короткий учебник гармоники, 11 страниц издания 1556 г.</p>
-          <div class="st"><span>RU, EN: Neoscholia, версия 0.1</span><span>DE: полный (Mizler 1746)</span></div>
+          <div class="st"><span>RU, EN: Neoscholia, версия {{ texts["synopsis-musicae"].versions[0].version }}</span><span>DE: полный (Mizler 1746)</span></div>
           <dl><dt>Основа</dt><dd>свой критический текст: рукописи Pal. gr. 281 (1040) и Pal. gr. 262, издания 1545 и 1556 гг., места Paris. gr. 2448 по Венсану (1847)</dd><dt>Как</dt><dd>каждый источник текста прочитан дважды; текст установлен дважды независимо (Claude и GPT-6); спорные места решали судьи двух семейств моделей по словарям и теоретикам, ссылки сверены; решает редактор</dd><dt>Перевод</dt><dd>шесть независимых переводов моделей трёх компаний, три слепых сравнения, решения редактора по спорным местам; ссылки в примечаниях сверены с источниками</dd><dt>Дальше</dt><dd>сверка с переводами Мицлера (1746), Ксиландра и Вине; глава о трактате у Е. В. Герцмана (2022)</dd><dt>Зачем</dt><dd>самый ранний византийский учебник гармоники; источник Зонары, Михаила Италика, Вриенния</dd></dl>
         </article>
 

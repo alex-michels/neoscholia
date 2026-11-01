@@ -39,9 +39,18 @@
   apply();
 
   // Audio: one player for the page; each chapter has a button per language (pre-recorded synthetic speech).
+  // data-src is the copy on the site (scripts/fetch-audio.mjs, at deploy); data-fallback is the GitHub release,
+  // used when the copy is missing, as on a local build.
   var player = new Audio(), current = null;
   player.preload = 'none';
   function stopped() { if (current) { current.setAttribute('aria-pressed', 'false'); current.classList.remove('playing'); } current = null; }
+  function start(b, src) {
+    player.src = src;
+    player.play().catch(function () {
+      if (current === b && b.dataset.fallback && src !== b.dataset.fallback) start(b, b.dataset.fallback);
+      else if (current === b) stopped();
+    });
+  }
   player.addEventListener('ended', stopped);
   player.addEventListener('pause', function () { if (current && player.ended === false && player.currentTime > 0 && player.paused) current.classList.remove('playing'); });
   document.querySelectorAll('button.listen').forEach(function (b) {
@@ -52,9 +61,8 @@
         return;
       }
       stopped();
-      player.src = b.dataset.src;
-      player.play().catch(function () { stopped(); });
       current = b; b.classList.add('playing'); b.setAttribute('aria-pressed', 'true');
+      start(b, b.dataset.src);
     });
   });
   // switching the language stops the other language's reading
