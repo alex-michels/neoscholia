@@ -1,0 +1,4594 @@
+{
+ "A": [
+  {
+   "latin": "sonus",
+   "version": "both",
+   "ru": "звук",
+   "en": "note",
+   "meaning_here": "Xylander: a musical note, a degree of the system; Vinet: a musical note of definite pitch (II.1)",
+   "evidence": "Xylander: about.md § 4.5; Boethius, De institutione musica, ed. Friedlein, read in the Latin Wikisource transcription of that edition, 1.8 [checked]; Vinet: about.md § 4.5 [checked]; Boethius, De institutione musica I, 8, ed. Friedlein p. 195 [checked]"
+  },
+  {
+   "latin": "sonitus",
+   "version": "xylander",
+   "ru": "звучание",
+   "en": "sound",
+   "meaning_here": "the sound as extended in pitch between two notes (X29, X37), distinct from sonus",
+   "evidence": "context of X29, X37; rendering departs from the table of about.md, which gives ‘note’ for sonitus as a musical note, because here it is not a note [checked]"
+  },
+  {
+   "latin": "strepitus",
+   "version": "xylander",
+   "ru": "шум",
+   "en": "noise",
+   "meaning_here": "unmusical sound",
+   "evidence": "Lewis & Short, s.v. [from memory]"
+  },
+  {
+   "latin": "intensio",
+   "version": "xylander",
+   "ru": "напряжение",
+   "en": "tension",
+   "meaning_here": "pitch as the degree of tension of the voice or sound (X08, X37, X39)",
+   "evidence": "Lewis & Short, s.v. intensio (Censor. 12), via Logeion [checked]"
+  },
+  {
+   "latin": "tenor",
+   "version": "xylander",
+   "ru": "удержание",
+   "en": "holding",
+   "meaning_here": "the sustaining of the voice at one pitch (X08)",
+   "evidence": "Lewis & Short, s.v. tenor, via Logeion [checked]"
+  },
+  {
+   "latin": "intensiones remissionesve",
+   "version": "both",
+   "ru": "повышения или понижения",
+   "en": "raisings or lowerings",
+   "meaning_here": "Xylander: of pitch (X32); Vinet: of pitch (V37)",
+   "evidence": "about.md § 4.5 [checked]"
+  },
+  {
+   "latin": "intensio et remissio spiritus",
+   "version": "xylander",
+   "ru": "напряжение и ослабление дыхания",
+   "en": "tension and relaxation of the breath",
+   "meaning_here": "of the breath in wind instruments, not of pitch (X41)",
+   "evidence": "Lewis & Short, s.v. intensio (Sen. Q. N. 7, 1, 3: intensionibus ac remissionibus), via Logeion [checked]"
+  },
+  {
+   "latin": "tensio",
+   "version": "xylander",
+   "ru": "натяжение",
+   "en": "stretching (of a string)",
+   "meaning_here": "the stretching of a string by the pegs (X41)",
+   "evidence": "Lewis & Short, s.v. tensio (‘a stretching, stretching out’), and DMLBS, s.v. 1 tensio, via Logeion [checked]"
+  },
+  {
+   "latin": "acuitas",
+   "version": "xylander",
+   "ru": "высота",
+   "en": "high pitch",
+   "meaning_here": "highness of pitch (X39)",
+   "evidence": "DMLBS, s.v. acuitas, via Logeion [checked]"
+  },
+  {
+   "latin": "acutus / gravis",
+   "version": "xylander",
+   "ru": "высокий / низкий",
+   "en": "high / low",
+   "meaning_here": "of pitch",
+   "evidence": "about.md § 4.5 [checked]"
+  },
+  {
+   "latin": "intervallum",
+   "version": "both",
+   "ru": "интервал",
+   "en": "interval",
+   "meaning_here": "Vinet: as in the field",
+   "evidence": "about.md § 4.2 [checked]"
+  },
+  {
+   "latin": "ratio",
+   "version": "both",
+   "ru": "отношение",
+   "en": "ratio",
+   "meaning_here": "Xylander: numerical ratio (X09, X16, X18, X20); in ‘ratione numeri’ (X19), ‘ea ratione’ (X38), ‘ratione sonitus’ (X29) the ordinary ‘reckoning, respect’; Vinet: numerical ratio of an interval",
+   "evidence": "Xylander: Boethius, De institutione arithmetica 2.40 [from memory]; Vinet: Boethius, De institutione musica passim [from memory]"
+  },
+  {
+   "latin": "respectus",
+   "version": "xylander",
+   "ru": "соотнесённость",
+   "en": "relation",
+   "meaning_here": "gloss on ratio (X09); in ‘respectu’, ‘in respectu’ = ‘in comparison with’",
+   "evidence": "DMLBS, s.v. respectus, senses 4 and 5, via Logeion [checked]"
+  },
+  {
+   "latin": "proportio",
+   "version": "both",
+   "ru": "пропорция",
+   "en": "proportion",
+   "meaning_here": "Xylander: the numerical ratio of an interval (X25, X35–38, X41); in the proem with commensuratio; Vinet: proportion (V03–V05, V37)",
+   "evidence": "Xylander: Boethius, De institutione musica 1.4 [from memory]; Vinet: Lewis & Short s.v. proportio [from memory]"
+  },
+  {
+   "latin": "proportionalitas",
+   "version": "xylander",
+   "ru": "пропорциональность",
+   "en": "proportionality",
+   "meaning_here": "X04, X32",
+   "evidence": "Lewis & Short, DMLBS, s.v., via Logeion [checked]"
+  },
+  {
+   "latin": "commensuratio",
+   "version": "xylander",
+   "ru": "соразмерность",
+   "en": "commensuration",
+   "meaning_here": "due measure, symmetry",
+   "evidence": "Lewis & Short, Gaffiot, DMLBS, s.v., via Logeion [checked]"
+  },
+  {
+   "latin": "systema",
+   "version": "both",
+   "ru": "система",
+   "en": "system",
+   "meaning_here": "Vinet: a set of intervals on strings: tetrachord, pentachord, octachord, the sixteen-stringed",
+   "evidence": "about.md § 4.5 [checked]"
+  },
+  {
+   "latin": "complexus",
+   "version": "xylander",
+   "ru": "совокупность",
+   "en": "combination",
+   "meaning_here": "in the definition of the system (X10)",
+   "evidence": "Lewis & Short, s.v. complexus [from memory]"
+  },
+  {
+   "latin": "harmonia",
+   "version": "both",
+   "ru": "гармония",
+   "en": "harmony",
+   "meaning_here": "Xylander: the fitting together of notes and systems; also the cosmic harmony of the proem; Vinet: the composition of systems and their fitting to a genus (V14, V52–V60); in chapter I the harmony of the universe",
+   "evidence": "about.md § 4.5 [checked]"
+  },
+  {
+   "latin": "concinnare; coaptare, coaptatio",
+   "version": "xylander",
+   "ru": "слаживать; прилаживать, прилаживание",
+   "en": "to frame; to fit (together), fitting together",
+   "meaning_here": "Xylander's verbs for the joining of harmony; concinne (X32) is rendered «складно» / ‘neatly’",
+   "evidence": "Lewis & Short, s.vv. concinno, coapto, coaptatio (‘a word coined by Augustine for translating the Gr. ἁρμονία’), via Logeion [checked]"
+  },
+  {
+   "latin": "consonantia; consonare, consonus",
+   "version": "xylander",
+   "ru": "консонанс; консонировать, консонирующий",
+   "en": "consonance; to be consonant, consonant",
+   "meaning_here": "",
+   "evidence": "about.md § 4.5 [checked]"
+  },
+  {
+   "latin": "dissonus",
+   "version": "xylander",
+   "ru": "диссонирующий",
+   "en": "dissonant",
+   "meaning_here": "X13: unfit for melody",
+   "evidence": "Lewis & Short, s.v. dissonus [from memory]"
+  },
+  {
+   "latin": "nomenclatio",
+   "version": "xylander",
+   "ru": "наименование",
+   "en": "name",
+   "meaning_here": "X14",
+   "evidence": "Lewis & Short, s.v., via Logeion [checked]"
+  },
+  {
+   "latin": "proslambanomenos... nete hyperbolaeon",
+   "version": "xylander",
+   "ru": "просламбаномен... нета высших",
+   "en": "proslambanomenos... nete hyperbolaion",
+   "meaning_here": "the fifteen notes, as in about.md § 4.4",
+   "evidence": "about.md § 4.4; Boethius, De institutione musica, ed. Friedlein, read in the Latin Wikisource transcription of that edition, 1.20 and 1.22 [checked]"
+  },
+  {
+   "latin": "hypate diatonos",
+   "version": "xylander",
+   "ru": "гипата диатоническая",
+   "en": "hypate diatonos",
+   "meaning_here": "the fourth note, usually lichanos (diatonos) hypaton",
+   "evidence": "about.md § 4.4; Boethius, De institutione musica, ed. Friedlein, read in the Latin Wikisource transcription of that edition, 1.22 (‘lichanos hypaton diatonos’) [checked]"
+  },
+  {
+   "latin": "mese monos",
+   "version": "xylander",
+   "ru": "меса монос",
+   "en": "mese monos",
+   "meaning_here": "mese with the addition monos (‘alone’)",
+   "evidence": "page image p. 41 [checked]"
+  },
+  {
+   "latin": "paramesos",
+   "version": "xylander",
+   "ru": "парамес",
+   "en": "paramesos",
+   "meaning_here": "",
+   "evidence": "about.md § 4.4 [checked]"
+  },
+  {
+   "latin": "heccaedecachordum",
+   "version": "xylander",
+   "ru": "геккайдекахорд",
+   "en": "hekkaidekachord",
+   "meaning_here": "instrument or system of sixteen strings",
+   "evidence": "Greek hekkaideka + chorde; not a headword in LSJ via Logeion [checked]"
+  },
+  {
+   "latin": "pentecaedecachordum",
+   "version": "xylander",
+   "ru": "пентекайдекахорд",
+   "en": "pentekaidekachord",
+   "meaning_here": "instrument of fifteen strings",
+   "evidence": "Greek pentekaideka + chorde; not a headword in LSJ via Logeion [checked]"
+  },
+  {
+   "latin": "organum",
+   "version": "xylander",
+   "ru": "инструмент",
+   "en": "instrument",
+   "meaning_here": "X15",
+   "evidence": "Lewis & Short, s.v. organum [from memory]"
+  },
+  {
+   "latin": "chorda; fides; nervus",
+   "version": "xylander",
+   "ru": "струна",
+   "en": "string",
+   "meaning_here": "three words for the string, not distinguished in sense",
+   "evidence": "Lewis & Short, s.vv. [from memory]"
+  },
+  {
+   "latin": "tetrachordum, pentachordum, octachordum",
+   "version": "both",
+   "ru": "тетрахорд, пентахорд, октахорд",
+   "en": "tetrachord, pentachord, octachord",
+   "meaning_here": "Vinet: systems of 4, 5, 8 strings",
+   "evidence": "about.md § 4.5 [checked]"
+  },
+  {
+   "latin": "diesis",
+   "version": "both",
+   "ru": "диеса",
+   "en": "diesis",
+   "meaning_here": "Xylander: quarter of a tone; Vinet: quarter-tone, half of the semitone (V22, V59)",
+   "evidence": "Xylander: about.md § 4.2; Boethius, De institutione musica, ed. Friedlein, read in the Latin Wikisource transcription of that edition, 1.21 (‘diesis autem est semitonii dimidium’) [checked]; Vinet: about.md § 4.2 [checked]; Boethius, De institutione musica I, 21, ed. Friedlein p. 213 [checked]"
+  },
+  {
+   "latin": "semitonium",
+   "version": "xylander",
+   "ru": "полутон",
+   "en": "semitone",
+   "meaning_here": "half of a tone",
+   "evidence": "about.md § 4.2 [checked]"
+  },
+  {
+   "latin": "tonus",
+   "version": "both",
+   "ru": "тон",
+   "en": "tone",
+   "meaning_here": "9:8",
+   "evidence": "about.md § 4.2 [checked]"
+  },
+  {
+   "latin": "tridiesis",
+   "version": "xylander",
+   "ru": "тридиеса",
+   "en": "tridiesis",
+   "meaning_here": "three dieses, 3/4 tone",
+   "evidence": "about.md § 4.2 [checked]"
+  },
+  {
+   "latin": "trisemitonium",
+   "version": "xylander",
+   "ru": "трёхполутон",
+   "en": "trihemitone",
+   "meaning_here": "three semitones, 1½ tones",
+   "evidence": "about.md § 4.2 [checked]"
+  },
+  {
+   "latin": "ditonus",
+   "version": "xylander",
+   "ru": "дитон",
+   "en": "ditone",
+   "meaning_here": "two tones",
+   "evidence": "about.md § 4.2 [checked]"
+  },
+  {
+   "latin": "tritonus",
+   "version": "xylander",
+   "ru": "тритон",
+   "en": "tritone",
+   "meaning_here": "three tones",
+   "evidence": "about.md § 4.2 [checked]"
+  },
+  {
+   "latin": "compositum / incompositum intervallum",
+   "version": "xylander",
+   "ru": "составной / несоставной интервал",
+   "en": "composite / incomposite interval",
+   "meaning_here": "X26–27, X29, X49",
+   "evidence": "about.md § 4.2; Cleonides, Isagoge 5 [from memory]"
+  },
+  {
+   "latin": "immediatum",
+   "version": "xylander",
+   "ru": "непосредственный",
+   "en": "immediate",
+   "meaning_here": "of an interval with no notes between its extremes (X29)",
+   "evidence": "context [checked]"
+  },
+  {
+   "latin": "coalitus; coalescere",
+   "version": "xylander",
+   "ru": "слияние; сливаться",
+   "en": "coalescence; to coalesce",
+   "meaning_here": "the fusing of several small intervals into one incomposite interval",
+   "evidence": "Lewis & Short, s.v. coalitus, via Logeion [checked]"
+  },
+  {
+   "latin": "diatessaron",
+   "version": "xylander",
+   "ru": "кварта (в X28–30, X35 рядом с quarta — «через четыре»)",
+   "en": "the fourth (in X28–30, X35 beside quarta: the ‘through four’)",
+   "meaning_here": "",
+   "evidence": "about.md § 4.1–4.2 [checked]"
+  },
+  {
+   "latin": "diapente",
+   "version": "xylander",
+   "ru": "квинта (в X28–30 — «через пять»)",
+   "en": "the fifth (in X28–30: the ‘through five’)",
+   "meaning_here": "",
+   "evidence": "about.md § 4.2 [checked]"
+  },
+  {
+   "latin": "diapason",
+   "version": "xylander",
+   "ru": "октава (в X28–30 — «через все»)",
+   "en": "the octave (in X28–30: the ‘through all’)",
+   "meaning_here": "",
+   "evidence": "about.md § 4.2 [checked]"
+  },
+  {
+   "latin": "quarta, quinta, octava",
+   "version": "xylander",
+   "ru": "кварта, квинта, октава",
+   "en": "the fourth, the fifth, the octave",
+   "meaning_here": "the common Latin names with which Xylander glosses the Greek ones",
+   "evidence": "X28 of this text [checked]"
+  },
+  {
+   "latin": "diapason cum diatessaron",
+   "version": "xylander",
+   "ru": "октава с квартой",
+   "en": "the octave and a fourth",
+   "meaning_here": "",
+   "evidence": "about.md § 4.2 [checked]"
+  },
+  {
+   "latin": "diapason cum diapente",
+   "version": "xylander",
+   "ru": "октава с квинтой",
+   "en": "the octave and a fifth",
+   "meaning_here": "",
+   "evidence": "about.md § 4.2 [checked]"
+  },
+  {
+   "latin": "disdiapason",
+   "version": "xylander",
+   "ru": "двойная октава",
+   "en": "the double octave",
+   "meaning_here": "",
+   "evidence": "about.md § 4.2 [checked]"
+  },
+  {
+   "latin": "duae octavae",
+   "version": "xylander",
+   "ru": "две октавы",
+   "en": "two octaves",
+   "meaning_here": "X30",
+   "evidence": "context [checked]"
+  },
+  {
+   "latin": "decimaquinta",
+   "version": "xylander",
+   "ru": "квинтдецима",
+   "en": "the fifteenth",
+   "meaning_here": "sixteenth-century name of the double octave (X42)",
+   "evidence": "[from memory]; no dictionary entry found on Logeion [checked]"
+  },
+  {
+   "latin": "paraphonum (iuxta sonans; assonans)",
+   "version": "xylander",
+   "ru": "парафонное («звучащее рядом»; «звучащее при»)",
+   "en": "paraphonon (‘sounding beside’; ‘sounding to’)",
+   "meaning_here": "the kind of consonance of the fourth and fifth",
+   "evidence": "Theon of Smyrna, ed. Hiller, pp. 48–49 [from memory]; Lewis & Short, s.v. assono, via Logeion [checked]"
+  },
+  {
+   "latin": "antiphonum (contra sonans; obsonans)",
+   "version": "xylander",
+   "ru": "антифонное («звучащее против»; «звучащее навстречу»)",
+   "en": "antiphonon (‘sounding against’; ‘sounding over against’)",
+   "meaning_here": "the kind of consonance of the octave and larger intervals",
+   "evidence": "Theon of Smyrna, ed. Hiller, pp. 48–49 [from memory]; Lewis & Short, s.v. obsono (2), via Logeion [checked]"
+  },
+  {
+   "latin": "sesquioctava (ratio, proportio)",
+   "version": "xylander",
+   "ru": "сверхосминное [9:8]",
+   "en": "sesquioctave [9:8]",
+   "meaning_here": "",
+   "evidence": "about.md § 4.3 [checked]"
+  },
+  {
+   "latin": "semisesquioctava",
+   "version": "both",
+   "ru": "полусверхосминное",
+   "en": "semisesquioctave",
+   "meaning_here": "Xylander: half of 9:8, the semitone; Vinet: half of the 9:8 ratio, the semitone (V24)",
+   "evidence": "about.md § 4.3 [checked]"
+  },
+  {
+   "latin": "sesquitertia, sesquitertius",
+   "version": "xylander",
+   "ru": "сверхтретное [4:3]",
+   "en": "sesquitertian [4:3]",
+   "meaning_here": "",
+   "evidence": "about.md § 4.3 [checked]"
+  },
+  {
+   "latin": "sesquialtera, sesquialter",
+   "version": "xylander",
+   "ru": "полуторное [3:2]",
+   "en": "sesquialter [3:2]",
+   "meaning_here": "",
+   "evidence": "about.md § 4.3 [checked]"
+  },
+  {
+   "latin": "dupla, duplus",
+   "version": "xylander",
+   "ru": "двукратное [2:1]",
+   "en": "duple [2:1]",
+   "meaning_here": "as a ratio name (X35–36); ordinary ‘double’ in X18, X23–24",
+   "evidence": "about.md § 4.3 [checked]"
+  },
+  {
+   "latin": "dupla superpartiens, duplus superpartiens",
+   "version": "xylander",
+   "ru": "двукратное сверхчастное [8:3]",
+   "en": "duple superpartient [8:3]",
+   "meaning_here": "",
+   "evidence": "about.md § 4.3 [checked]"
+  },
+  {
+   "latin": "super bipartiens tertias",
+   "version": "xylander",
+   "ru": "сверхдвучастное третей",
+   "en": "superbipartient thirds",
+   "meaning_here": "the species of superpartient with two thirds over (X36)",
+   "evidence": "Gaffiot and DMLBS, s.v. superbipartiens, via Logeion [checked]"
+  },
+  {
+   "latin": "tripla, triplus",
+   "version": "xylander",
+   "ru": "трёхкратное [3:1]",
+   "en": "triple [3:1]",
+   "meaning_here": "",
+   "evidence": "about.md § 4.3 [checked]"
+  },
+  {
+   "latin": "quadruplus",
+   "version": "xylander",
+   "ru": "четырёхкратное [4:1]",
+   "en": "quadruple [4:1]",
+   "meaning_here": "",
+   "evidence": "about.md § 4.3 [checked]"
+  },
+  {
+   "latin": "quincuplum",
+   "version": "xylander",
+   "ru": "пятикратное [5:1]",
+   "en": "quintuple [5:1]",
+   "meaning_here": "",
+   "evidence": "about.md § 4.3 [checked]"
+  },
+  {
+   "latin": "duplum sesquialterum",
+   "version": "xylander",
+   "ru": "двукратное полуторное [5:2]",
+   "en": "duple sesquialter [5:2]",
+   "meaning_here": "multiple superparticular 5:2 (X38); name formed on the pattern of the table",
+   "evidence": "Boethius, De institutione arithmetica 1.29 [from memory]"
+  },
+  {
+   "latin": "sesquiquartum",
+   "version": "xylander",
+   "ru": "сверхчетвертное [5:4]",
+   "en": "sesquiquartan [5:4]",
+   "meaning_here": "",
+   "evidence": "about.md § 4.3 [checked]"
+  },
+  {
+   "latin": "bes",
+   "version": "xylander",
+   "ru": "две трети",
+   "en": "two thirds",
+   "meaning_here": "X38",
+   "evidence": "Lewis & Short, s.v. bes, via Logeion [checked]"
+  },
+  {
+   "latin": "terminus",
+   "version": "xylander",
+   "ru": "член",
+   "en": "term",
+   "meaning_here": "term of a ratio (X36)",
+   "evidence": "Boethius, De institutione arithmetica, passim [from memory]"
+  },
+  {
+   "latin": "quadratum; radix quadrata; diametrum; latus",
+   "version": "xylander",
+   "ru": "квадрат; квадратный корень; диагональ; сторона",
+   "en": "square; square root; diagonal; side",
+   "meaning_here": "X23–24",
+   "evidence": "context; Euclid, Elements [from memory]"
+  },
+  {
+   "latin": "vis; potestas; materies; ambitus (intervalli)",
+   "version": "xylander",
+   "ru": "сила; мощь; материя; объём (интервала)",
+   "en": "force; power; matter; compass (of the interval)",
+   "meaning_here": "four words for the whole content of an interval within a system (X42)",
+   "evidence": "context [checked]"
+  },
+  {
+   "latin": "constitutio",
+   "version": "xylander",
+   "ru": "устроение (X43); составление (X48)",
+   "en": "constitution",
+   "meaning_here": "X43, X48",
+   "evidence": "Lewis & Short, s.v. constitutio [from memory]"
+  },
+  {
+   "latin": "melodia",
+   "version": "xylander",
+   "ru": "мелодия",
+   "en": "melody",
+   "meaning_here": "",
+   "evidence": "about.md § 4.5 (own choice) [checked]"
+  },
+  {
+   "latin": "cantus",
+   "version": "xylander",
+   "ru": "пение",
+   "en": "song",
+   "meaning_here": "X44, X45, X54, X56 (in X56 the plural cantuum: Russian «пения», English ‘songs’)",
+   "evidence": "Lewis & Short, s.v. cantus [from memory]"
+  },
+  {
+   "latin": "cantilena",
+   "version": "xylander",
+   "ru": "напев",
+   "en": "tune",
+   "meaning_here": "X27, X44, X56, X57",
+   "evidence": "Lewis & Short, s.v. cantilena [from memory]"
+  },
+  {
+   "latin": "modulatio",
+   "version": "xylander",
+   "ru": "мерное ведение",
+   "en": "measured shaping",
+   "meaning_here": "measured, regulated singing (X44)",
+   "evidence": "Lewis & Short, s.v. modulatio, via Logeion [checked]"
+  },
+  {
+   "latin": "genus diatonicum (diatonon), chromaticum, harmonicum",
+   "version": "xylander",
+   "ru": "диатонический, хроматический, гармонический род",
+   "en": "the diatonic, chromatic, harmonic genus",
+   "meaning_here": "harmonicum = the enharmonic genus",
+   "evidence": "about.md § 4.5; Boethius, De institutione musica, ed. Friedlein, read in the Latin Wikisource transcription of that edition, 1.21 [checked]"
+  },
+  {
+   "latin": "genus diatessaron",
+   "version": "xylander",
+   "ru": "род кварты",
+   "en": "genus of the fourth",
+   "meaning_here": "X48, X50, X51",
+   "evidence": "context [checked]"
+  },
+  {
+   "latin": "coloratum",
+   "version": "xylander",
+   "ru": "«окрашенный»",
+   "en": "‘coloured’",
+   "meaning_here": "gloss on chromaticum (X45)",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein, read in the Latin Wikisource transcription of that edition, 1.21 (‘Chroma autem, quod dicitur color’) [checked]"
+  },
+  {
+   "latin": "rhythmus",
+   "version": "xylander",
+   "ru": "ритм",
+   "en": "rhythm",
+   "meaning_here": "X26, of unclear application",
+   "evidence": "Lewis & Short, s.v. rhythmus [from memory]"
+  },
+  {
+   "latin": "Lydia, Phrygia, Dorica cantilena",
+   "version": "xylander",
+   "ru": "лидийский, фригийский, дорийский напев",
+   "en": "Lydian, Phrygian, Dorian tune",
+   "meaning_here": "modes",
+   "evidence": "context [checked]"
+  },
+  {
+   "latin": "Paean, Hymenaeus, Exodius",
+   "version": "xylander",
+   "ru": "пеан, гименей, эксодий",
+   "en": "paean, hymenaeus, exodius",
+   "meaning_here": "kinds of song",
+   "evidence": "Lewis & Short, s.v. exodium, via Logeion [checked]"
+  },
+  {
+   "latin": "transitus; mansio; fluxus",
+   "version": "xylander",
+   "ru": "переход; остановка; течение",
+   "en": "transition; dwelling; flowing",
+   "meaning_here": "means of melodic composition (X57)",
+   "evidence": "Lewis & Short, s.v. mansio, via Logeion [checked]; Cleonides, Isagoge 14 [from memory]"
+  },
+  {
+   "latin": "tactus; pulsatio",
+   "version": "xylander",
+   "ru": "касание; удар",
+   "en": "touch; stroke",
+   "meaning_here": "touching and striking of the strings (X57)",
+   "evidence": "Lewis & Short, s.v. tactus; DMLBS, s.v. pulsatio, via Logeion [checked]"
+  },
+  {
+   "latin": "administratio",
+   "version": "xylander",
+   "ru": "управление",
+   "en": "handling",
+   "meaning_here": "X57",
+   "evidence": "Lewis & Short, s.v. administratio [from memory]"
+  },
+  {
+   "latin": "clavus",
+   "version": "xylander",
+   "ru": "колок",
+   "en": "peg",
+   "meaning_here": "tuning peg of a stringed instrument (X41)",
+   "evidence": "DMLBS, s.v. 3 clavus, 1g (‘peg of mus. instrument’), via Logeion [checked]"
+  },
+  {
+   "latin": "diversus",
+   "version": "xylander",
+   "ru": "различный",
+   "en": "various",
+   "meaning_here": "‘various, sundry’ (X27: diversis tonis, diversa intervalla)",
+   "evidence": "Du Cange, s.v. diversus (= varius), via Logeion [checked]"
+  },
+  {
+   "latin": "aptare",
+   "version": "xylander",
+   "ru": "приспосабливать",
+   "en": "to adapt",
+   "meaning_here": "X56, of the kinds of melody fitted to the Lydian, Phrygian and Dorian tune; kept apart from concinnare and coaptare",
+   "evidence": "Lewis & Short, s.v. apto [from memory]"
+  },
+  {
+   "latin": "amplitudo cavitatis",
+   "version": "xylander",
+   "ru": "величина полости",
+   "en": "size of the cavity",
+   "meaning_here": "the size of the hollow of a wind instrument (X41)",
+   "evidence": "Lewis & Short, s.v. amplitudo (‘wide extent, breadth, width, amplitude, size, bulk’), via Logeion [checked]"
+  },
+  {
+   "latin": "species",
+   "version": "xylander",
+   "ru": "вид",
+   "en": "species",
+   "meaning_here": "a sort or class: of notes (X15), of intervals (X26), of songs (X56); not a technical term of harmonics here",
+   "evidence": "Lewis & Short, s.v. species [from memory]; X15, X26, X56 of this text [checked]"
+  },
+  {
+   "latin": "genus (outside the three genera)",
+   "version": "xylander",
+   "ru": "род",
+   "en": "kind",
+   "meaning_here": "a kind in general: of intervals (X18), of consonance (X31), of melodies (X56), of tunes (X57); the technical 'genus' is kept for the three genera of melody and of the fourth (X44–52)",
+   "evidence": "Lewis & Short, s.v. genus [from memory]; X18, X31, X56, X57 of this text [checked]"
+  },
+  {
+   "latin": "vox",
+   "version": "vinet",
+   "ru": "голос",
+   "en": "voice",
+   "meaning_here": "sounding voice, of which the note is a 'tension' (V11, V34, V43)",
+   "evidence": "Lewis & Short s.v. vox [from memory]"
+  },
+  {
+   "latin": "intensio, intentio (alone)",
+   "version": "vinet",
+   "ru": "напряжение",
+   "en": "tension",
+   "meaning_here": "pitch as a degree of tautness (V11, V43, V45, V49); the tension of a string (V47)",
+   "evidence": "Lewis & Short s.v. intentio I ('a stretching out, straining, tension') and s.v. intensio I.A, II ('the tune'), read [checked]; Boethius, De institutione musica I, 8, ed. Friedlein p. 195 (in unam intensionem) [checked]"
+  },
+  {
+   "latin": "intensio spiritus ac remissio",
+   "version": "vinet",
+   "ru": "напряжение и ослабление дыхания",
+   "en": "tension and slackening of the breath",
+   "meaning_here": "of the breath in wind instruments, not of pitch (V47)",
+   "evidence": "the Latin text [checked]"
+  },
+  {
+   "latin": "conveniens; convenire; convenientia",
+   "version": "vinet",
+   "ru": "согласный; согласоваться; согласие",
+   "en": "accordant; to accord; accord",
+   "meaning_here": "fit to combine with another note (V11, V15–16); convenientia glosses and replaces harmonia in chapter I (V05, V06, V08)",
+   "evidence": "Lewis & Short s.v. convenientia, read [checked]; s.v. convenio [from memory]"
+  },
+  {
+   "latin": "concentus",
+   "version": "vinet",
+   "ru": "созвучие",
+   "en": "concord",
+   "meaning_here": "sounding together in tune (V16)",
+   "evidence": "Lewis & Short s.v. concentus [from memory]"
+  },
+  {
+   "latin": "absurdus et absonus",
+   "version": "vinet",
+   "ru": "нестройный и неблагозвучный",
+   "en": "harsh and ill-sounding",
+   "meaning_here": "out of tune (V16); Ciceronian pair",
+   "evidence": "Lewis & Short s.v. absurdus I, absonus I (Cic. De or. 3, 41), read [checked]"
+  },
+  {
+   "latin": "crepitus",
+   "version": "vinet",
+   "ru": "шум",
+   "en": "noise",
+   "meaning_here": "unmusical sound (V16)",
+   "evidence": "Lewis & Short s.v. crepitus I ('a rattling, creaking, clattering, clashing, rustling, a noise'), read [checked]"
+  },
+  {
+   "latin": "habitudo",
+   "version": "vinet",
+   "ru": "соотношение",
+   "en": "relation",
+   "meaning_here": "relation of notes to one another (V12); late Latin sense, Greek schesis",
+   "evidence": "Lewis & Short, Gaffiot, Georges s.v. habitudo (classical sense only), read [checked]; Boethius, De institutione arithmetica II, 40, ed. Friedlein [checked]"
+  },
+  {
+   "latin": "symmetria",
+   "version": "vinet",
+   "ru": "соразмерность",
+   "en": "due measure (V04, with apta: fitting measure)",
+   "meaning_here": "commensurateness of parts (V03–V05); Greek word kept by Vinet",
+   "evidence": "Lewis & Short, Gaffiot s.v. symmetria, read [checked]"
+  },
+  {
+   "latin": "Universitas",
+   "version": "vinet",
+   "ru": "Вселенная",
+   "en": "the Universe",
+   "meaning_here": "the world as a whole (V03, V05, V06)",
+   "evidence": "Lewis & Short s.v. universitas II.A, read [checked]"
+  },
+  {
+   "latin": "complexio",
+   "version": "vinet",
+   "ru": "сочетание",
+   "en": "combination",
+   "meaning_here": "a system as a combination of intervals (V13)",
+   "evidence": "Lewis & Short s.v. complexio [from memory]"
+  },
+  {
+   "latin": "compositio; componere",
+   "version": "vinet",
+   "ru": "составление; составлять (в V08: упорядочивать)",
+   "en": "composition; to compose (V08: to order)",
+   "meaning_here": "putting together of systems (V14, V52, V61)",
+   "evidence": "Lewis & Short s.v. compono [from memory]"
+  },
+  {
+   "latin": "dimensio",
+   "version": "vinet",
+   "ru": "измерение",
+   "en": "dimension",
+   "meaning_here": "extension (V15)",
+   "evidence": "Lewis & Short s.v. dimensio [from memory]"
+  },
+  {
+   "latin": "Pentekaedecachordum; Heckaedecachordum",
+   "version": "vinet",
+   "ru": "пятнадцатиструнная [система]; шестнадцатиструнная [система]",
+   "en": "the fifteen-stringed [system]; the sixteen-stringed [system]",
+   "meaning_here": "the two-octave system counted as 15 strings, or as two octachords of 8 (V18, V49)",
+   "evidence": "page image p. 43 [checked]; LSJ s.v. πεντεκαιδεκάχορδος [from memory]"
+  },
+  {
+   "latin": "Proslambanomenos … Nete hyperbolaeon (15 names)",
+   "version": "vinet",
+   "ru": "просламбаномен; гипата низших; парипата низших; гипата диатоническая; гипата средних; парипата средних; диатоническая средних; меса; парамеса; трита / диатоническая / нета отделённая; трита / диатоническая / нета высших",
+   "en": "proslambanomenos; hypate hypaton; parhypate hypaton; hypate diatonos; hypate meson; parhypate meson; diatonos meson; mese; paramese; trite / diatonos / nete diezeugmene; trite / diatonos / nete hyperbolaion",
+   "meaning_here": "the notes of the two-octave system (V17)",
+   "evidence": "about.md § 4.4 [checked]"
+  },
+  {
+   "latin": "Mese solum",
+   "version": "vinet",
+   "ru": "просто меса",
+   "en": "mese only",
+   "meaning_here": "the note with a one-word name (V17)",
+   "evidence": "page image p. 43 [checked]"
+  },
+  {
+   "latin": "hemitonium",
+   "version": "vinet",
+   "ru": "полутон",
+   "en": "semitone",
+   "meaning_here": "half of the tone (Vinet's Greek form)",
+   "evidence": "about.md § 4.2 [checked]"
+  },
+  {
+   "latin": "Tridiesis; Trihemitonium; Ditonium; Tritonium",
+   "version": "vinet",
+   "ru": "тридиеса; трёхполутон; дитон; тритон",
+   "en": "tridiesis; trihemitone; ditone; tritone",
+   "meaning_here": "3 dieses; 3 semitones; 2 tones; 3 tones (V31)",
+   "evidence": "about.md § 4.2 [checked]"
+  },
+  {
+   "latin": "simplex (intervallum)",
+   "version": "vinet",
+   "ru": "простой",
+   "en": "simple",
+   "meaning_here": "incomposite interval (V31, V32, V57); Vinet's own word, kept apart from non-compositus",
+   "evidence": "the Latin text [checked]"
+  },
+  {
+   "latin": "non-compositus",
+   "version": "vinet",
+   "ru": "несоставной",
+   "en": "incomposite",
+   "meaning_here": "incomposite (V34)",
+   "evidence": "about.md § 4.2 [checked]"
+  },
+  {
+   "latin": "non sine medio",
+   "version": "vinet",
+   "ru": "не без середины",
+   "en": "not without a middle",
+   "meaning_here": "not immediate: with notes between the extremes (V34)",
+   "evidence": "the Latin text [checked]"
+  },
+  {
+   "latin": "Dia-tessaron; Dia-pente; Dia-pason",
+   "version": "vinet",
+   "ru": "кварта; квинта; октава",
+   "en": "the fourth; the fifth; the octave",
+   "meaning_here": "as in the field; hyphenated with Greek accents in the print",
+   "evidence": "about.md § 4.2 [checked]"
+  },
+  {
+   "latin": "Dia-pason (cum) Dia-tessaron; Dia-pason (cum) Dia-pente; bis Dia-pason",
+   "version": "vinet",
+   "ru": "октава с квартой; октава с квинтой; двойная октава",
+   "en": "the octave and a fourth; the octave and a fifth; the double octave",
+   "meaning_here": "8:3; 3:1; 4:1",
+   "evidence": "about.md § 4.2 [checked]"
+  },
+  {
+   "latin": "consonare; consonantia",
+   "version": "vinet",
+   "ru": "консонировать; консонанс",
+   "en": "to be consonant; consonance",
+   "meaning_here": "as in the field",
+   "evidence": "about.md § 4.5 [checked]"
+  },
+  {
+   "latin": "secundum paraphonum; secundum antiphonum; Paraphonum, antiphonum",
+   "version": "vinet",
+   "ru": "по парафонии; по антифонии; парафония, антифония",
+   "en": "by paraphony; by antiphony; paraphony, antiphony",
+   "meaning_here": "two kinds of consonance: of the fourth and fifth, and of the octave and its compounds (V36–V37); Greek neuter adjectives in the Latin",
+   "evidence": "LSJ s.v. ἀντίφωνος, παράφωνος, read [checked]; Theon of Smyrna, ed. Hiller p. 48–49 [from memory]"
+  },
+  {
+   "latin": "sesquioctava",
+   "version": "vinet",
+   "ru": "сверхосминное [9:8]",
+   "en": "sesquioctave [9:8]",
+   "meaning_here": "9:8",
+   "evidence": "about.md § 4.3 [checked]"
+  },
+  {
+   "latin": "sesquitertia; sesquialtera; duplex; triplex; quadruplex",
+   "version": "vinet",
+   "ru": "сверхтретное [4:3]; полуторное [3:2]; двукратное [2:1]; трёхкратное [3:1]; четырёхкратное [4:1]",
+   "en": "sesquitertian [4:3]; sesquialter [3:2]; duple [2:1]; triple [3:1]; quadruple [4:1]",
+   "meaning_here": "ratios of the consonances (V40–V42)",
+   "evidence": "about.md § 4.3 [checked]"
+  },
+  {
+   "latin": "duplex-superpartiens",
+   "version": "vinet",
+   "ru": "двукратное сверхчастное [8:3]",
+   "en": "duple superpartient [8:3]",
+   "meaning_here": "8:3, the octave and a fourth (V40, V42)",
+   "evidence": "about.md § 4.3 [checked]; Boethius, De institutione arithmetica I, 31, ed. Friedlein p. 65 [checked]"
+  },
+  {
+   "latin": "quincuplex; duplum sesquialterum; superpartiens; sesquiquartum",
+   "version": "vinet",
+   "ru": "пятикратное [5:1]; двукратное полуторное [5:2]; сверхчастное [5:3]; сверхчетвертное [5:4]",
+   "en": "quintuple [5:1]; duple sesquialter [5:2]; superpartient [5:3]; sesquiquartan [5:4]",
+   "meaning_here": "ratios of 5 to 1, 2, 3, 4 (V44); 'duple sesquialter' and bare 'superpartient' are formed on the pattern of the table",
+   "evidence": "about.md § 4.3 [checked]; Boethius, De institutione arithmetica I, 28–29, 31, ed. Friedlein p. 57–65 [checked]"
+  },
+  {
+   "latin": "monas",
+   "version": "vinet",
+   "ru": "единица",
+   "en": "unit",
+   "meaning_here": "the arithmetical unit (V23); Greek word kept",
+   "evidence": "Lewis & Short s.v. monas ('unity; a unit, monad'), read [checked]"
+  },
+  {
+   "latin": "diametrus; dimetiens",
+   "version": "vinet",
+   "ru": "диагональ",
+   "en": "diagonal",
+   "meaning_here": "diagonal of a square (V29)",
+   "evidence": "Gaffiot, Georges s.v. dimetiens, read [checked]"
+  },
+  {
+   "latin": "adauctus",
+   "version": "vinet",
+   "ru": "приращение",
+   "en": "increase",
+   "meaning_here": "enlargement of the small intervals (V31)",
+   "evidence": "Lewis & Short s.v. adauctus, read [checked]"
+  },
+  {
+   "latin": "confusio; confusus",
+   "version": "vinet",
+   "ru": "слияние; слитый",
+   "en": "blending; blended",
+   "meaning_here": "fusion of several small intervals into one step (V32, V57, V59)",
+   "evidence": "Lewis & Short s.v. confusio ('a mingling, mixing') [from memory]"
+  },
+  {
+   "latin": "melos",
+   "version": "vinet",
+   "ru": "мелос",
+   "en": "melos",
+   "meaning_here": "a single melodic move (V32)",
+   "evidence": "Lewis & Short s.v. melos ('a tune, air, strain, song'), read [checked]"
+  },
+  {
+   "latin": "modulatio",
+   "version": "vinet",
+   "ru": "мелодия",
+   "en": "melody",
+   "meaning_here": "melody, melodic movement (V52, V53, V59, V64, V65)",
+   "evidence": "Lewis & Short s.v. modulatio II, read [checked]"
+  },
+  {
+   "latin": "modulatu (difficillimum)",
+   "version": "vinet",
+   "ru": "в мелодическом исполнении",
+   "en": "to render in melody",
+   "meaning_here": "supine of modulari (V62)",
+   "evidence": "Lewis & Short s.v. modulor II, read [checked]"
+  },
+  {
+   "latin": "modulus",
+   "version": "vinet",
+   "ru": "лад",
+   "en": "mode",
+   "meaning_here": "Lydian, Phrygian, Dorian (V64)",
+   "evidence": "Lewis & Short s.v. modulus I.4 (Plin. 7, 204), read [checked]"
+  },
+  {
+   "latin": "genus (Diatonon / Diatonum, Chromaticon / Chromaticum, Harmonicum)",
+   "version": "vinet",
+   "ru": "род (диатонический, хроматический, гармонический)",
+   "en": "genus (diatonic, chromatic, harmonic)",
+   "meaning_here": "the three genera of the fourth; in V64 genera modulationum are kinds of song",
+   "evidence": "about.md § 4.5 [checked]"
+  },
+  {
+   "latin": "facultas; vis",
+   "version": "vinet",
+   "ru": "возможность; сила",
+   "en": "power; force",
+   "meaning_here": "what an interval can do within a system (V32, V49)",
+   "evidence": "Lewis & Short s.v. facultas I ('capability, possibility, power, means'), read [checked]"
+  },
+  {
+   "latin": "temperare; temperamentum",
+   "version": "vinet",
+   "ru": "слаживать; мера",
+   "en": "to temper; control",
+   "meaning_here": "to mix in due measure (V58, V60); the hand's control (V65)",
+   "evidence": "Lewis & Short s.v. temperamentum and s.v. tempero I, read [checked]"
+  },
+  {
+   "latin": "meditatio; exercitatio",
+   "version": "vinet",
+   "ru": "подготовка; упражнение",
+   "en": "practice; exercise",
+   "meaning_here": "training (V62)",
+   "evidence": "Lewis & Short s.v. meditatio II.A, read [checked]"
+  },
+  {
+   "latin": "chorda; nervus",
+   "version": "vinet",
+   "ru": "струна",
+   "en": "string",
+   "meaning_here": "string (both words, V34, V43, V47)",
+   "evidence": "Lewis & Short s.v. chorda, nervus [from memory]"
+  },
+  {
+   "latin": "torsio claviculorum",
+   "version": "vinet",
+   "ru": "вращение колков",
+   "en": "the turning of the pegs",
+   "meaning_here": "tuning by the pegs (V47); both words in senses not in the classical dictionaries",
+   "evidence": "Lewis & Short, Gaffiot, Georges s.v. torsio; Gaffiot, Georges s.v. claviculus, read [checked]"
+  },
+  {
+   "latin": "appensio",
+   "version": "vinet",
+   "ru": "подвешивание",
+   "en": "hanging",
+   "meaning_here": "hanging weights from strings (V47)",
+   "evidence": "Gaffiot, Georges s.v. appensio (Augustine, 'weighing'), read [checked]"
+  },
+  {
+   "latin": "fistula",
+   "version": "vinet",
+   "ru": "трубка",
+   "en": "pipe",
+   "meaning_here": "pipe of a wind instrument (V47)",
+   "evidence": "Lewis & Short s.v. fistula [from memory]"
+  },
+  {
+   "latin": "transitio; pausa; fluxus; tactus; pulsus",
+   "version": "vinet",
+   "ru": "переход; пауза; течение; касание; удар",
+   "en": "transition; pause; flowing; touch; stroke",
+   "meaning_here": "means of melody besides the intervals (V65)",
+   "evidence": "Lewis & Short s.v. pausa, read [checked]; s.v. pulsus [from memory]"
+  },
+  {
+   "latin": "Paeeon; Hymenaeus; Exodius",
+   "version": "vinet",
+   "ru": "пеан; гименей; эксодий",
+   "en": "paean; hymenaeus; exodius",
+   "meaning_here": "kinds of song (V64)",
+   "evidence": "Lewis & Short s.v. exodium, read [checked]"
+  },
+  {
+   "latin": "simplum; generosum",
+   "version": "vinet",
+   "ru": "прост; благороден",
+   "en": "simple; noble",
+   "meaning_here": "of the diatonic genus (V63)",
+   "evidence": "Lewis & Short, Gaffiot s.v. simplus, read [checked]"
+  },
+  {
+   "latin": "ratio (in ex ratione numeri sonorum)",
+   "version": "vinet",
+   "ru": "счёт («если считать по числу»)",
+   "en": "reckoning",
+   "meaning_here": "reckoning, not 'ratio' (V44)",
+   "evidence": "Lewis & Short s.v. ratio ('a reckoning, account, calculation'), read [checked]"
+  },
+  {
+   "latin": "concitatus",
+   "version": "vinet",
+   "ru": "стремительный",
+   "en": "rapid",
+   "meaning_here": "of quick melodic transitions (V65)",
+   "evidence": "Lewis & Short s.v. concito (concitatus A, 'rapid, swift, quick'), read [checked]"
+  }
+ ],
+ "B": [
+  {
+   "latin": "Musica",
+   "version": "both",
+   "ru": "музыка",
+   "en": "music",
+   "meaning_here": "The general mathematical and cosmic discipline, also its audible branch.",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein (1867), I.2 [checked]"
+  },
+  {
+   "latin": "commensuratio",
+   "version": "xylander",
+   "ru": "соразмерность",
+   "en": "commensurateness",
+   "meaning_here": "Due measure between constituents of things.",
+   "evidence": "Félix Gaffiot, Dictionnaire illustré latin-français (1934), s.v. commensuratio [checked] Xylander, Basel (1556), p. 40 [checked]."
+  },
+  {
+   "latin": "symmetria",
+   "version": "vinet",
+   "ru": "соразмерность",
+   "en": "symmetry",
+   "meaning_here": "Proportion or correspondence of measures.",
+   "evidence": "Lewis & Short, A Latin Dictionary (1879), s.v. symmetria [checked]"
+  },
+  {
+   "latin": "proportio",
+   "version": "both",
+   "ru": "пропорция",
+   "en": "proportion",
+   "meaning_here": "Proportional ordering in the introduction, a determinate numerical relation in the harmonics.",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein (1867), I.4–7 [checked]"
+  },
+  {
+   "latin": "proportionalitas",
+   "version": "xylander",
+   "ru": "пропорциональность",
+   "en": "proportionality",
+   "meaning_here": "The property of being proportionate, also the mutual proportional relations in succession.",
+   "evidence": "Xylander, Basel (1556), pp. 40, 45 [checked]."
+  },
+  {
+   "latin": "congruentia",
+   "version": "xylander",
+   "ru": "согласованность",
+   "en": "accord",
+   "meaning_here": "What music bestows on nature, explicitly glossed as harmonia.",
+   "evidence": "Xylander, Basel (1556), p. 40 [checked]."
+  },
+  {
+   "latin": "convenientia, conveniens, convenire",
+   "version": "vinet",
+   "ru": "согласованность, пригодный для согласования, согласоваться",
+   "en": "accord, fitting, to accord",
+   "meaning_here": "Cosmic agreement and the ability of one musical note to fit another.",
+   "evidence": "Lewis & Short, A Latin Dictionary (1879), s.v. convenientia [checked] Vinet, Tournon (1591), pp. 41–43 [checked]."
+  },
+  {
+   "latin": "harmonia",
+   "version": "both",
+   "ru": "гармония",
+   "en": "harmony",
+   "meaning_here": "Concord of the universe, or the construction and fitting together of systems.",
+   "evidence": "Cleonides, Introduction to Harmonics, ed. von Jan (1895), §§1–3 [checked] Boethius, De institutione musica, ed. Friedlein (1867), I.2, I.21 [checked]"
+  },
+  {
+   "latin": "sonus",
+   "version": "both",
+   "ru": "звук",
+   "en": "note",
+   "meaning_here": "A determinate musical sound with the potential to fit another.",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein (1867), I.8 [checked]"
+  },
+  {
+   "latin": "sonitus",
+   "version": "xylander",
+   "ru": "звучание",
+   "en": "sounding",
+   "meaning_here": "The sounding across the span of an interval or its change in pitch.",
+   "evidence": "Xylander, Basel (1556), pp. 44, 46 [checked]."
+  },
+  {
+   "latin": "vox",
+   "version": "both",
+   "ru": "голосовое звучание, звучание",
+   "en": "vocal sound, sounding",
+   "meaning_here": "The continuum of voice or sound in which the pitch is fixed or altered.",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein (1867), I.8, I.12 [checked]"
+  },
+  {
+   "latin": "intensio, intentio",
+   "version": "both",
+   "ru": "высота, повышение, натяжение, усиление, высотная протяжённость",
+   "en": "pitch, rise in pitch, tension, strengthening, pitch range",
+   "meaning_here": "Intensio denotes pitch or its increase in both, also tension in Vinet's string experiment and extent in his double-octave span. Vinet varies the spelling with intentio at V43.",
+   "evidence": "Lewis & Short, A Latin Dictionary (1879), s.v. intentio [checked] Boethius, De institutione musica, ed. Friedlein (1867), I.8, I.11–12 [checked] Boethius, De institutione musica, ed. Friedlein (1867), IV.5 [checked]"
+  },
+  {
+   "latin": "tenor",
+   "version": "xylander",
+   "ru": "выдерживаемый тон",
+   "en": "sustained tone",
+   "meaning_here": "Xylander's gloss on intensio, the steady holding of a vocal pitch.",
+   "evidence": "Lewis & Short, A Latin Dictionary (1879), s.v. tenor [checked] Xylander, Basel (1556), p. 41 [checked]."
+  },
+  {
+   "latin": "intensio et remissio",
+   "version": "both",
+   "ru": "повышение и понижение",
+   "en": "raising and lowering",
+   "meaning_here": "Raising and lowering the pitch in parallel motion. Applied to spiritus, strengthening and weakening the breath.",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein (1867), IV.5 [checked] Lewis & Short, A Latin Dictionary (1879), s.v. intentio [checked]"
+  },
+  {
+   "latin": "acutus, gravis",
+   "version": "both",
+   "ru": "высокий, низкий",
+   "en": "high, low",
+   "meaning_here": "The high and low sides of the pitch contrast.",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein (1867), I.8, I.12 [checked]"
+  },
+  {
+   "latin": "intervallum",
+   "version": "both",
+   "ru": "интервал",
+   "en": "interval",
+   "meaning_here": "A relation or span between two notes.",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein (1867), I.8 [checked] Cleonides, Introduction to Harmonics, ed. von Jan (1895), §1 [checked]"
+  },
+  {
+   "latin": "ratio, respectus",
+   "version": "xylander",
+   "ru": "отношение, соотнесённость",
+   "en": "ratio, relation",
+   "meaning_here": "Pair of terms in the definition of interval. Ratio is also the explicit numerical ratio.",
+   "evidence": "Xylander, Basel (1556), p. 41 [checked]. Boethius, De institutione musica, ed. Friedlein (1867), I.8 [checked]"
+  },
+  {
+   "latin": "ratio, habitudo",
+   "version": "vinet",
+   "ru": "отношение, соотношение",
+   "en": "ratio, relation",
+   "meaning_here": "Ratio for a quantitative relation, habitudo in the definition of interval.",
+   "evidence": "Vinet, Tournon (1591), pp. 42, 48–49 [checked]."
+  },
+  {
+   "latin": "systema",
+   "version": "both",
+   "ru": "система",
+   "en": "system",
+   "meaning_here": "An organised combination of intervals with concrete realisation.",
+   "evidence": "Cleonides, Introduction to Harmonics, ed. von Jan (1895), §1 [checked]"
+  },
+  {
+   "latin": "consonantia, consonare",
+   "version": "both",
+   "ru": "консонанс, консонировать",
+   "en": "consonance, to be consonant",
+   "meaning_here": "A consonant pairing or interval and its operation.",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein (1867), I.7–8 [checked]"
+  },
+  {
+   "latin": "dissonus, consonus",
+   "version": "xylander",
+   "ru": "диссонирующий, консонантный",
+   "en": "dissonant, consonant",
+   "meaning_here": "Failure or ability to fit another note harmonically.",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein (1867), I.8 [checked] Xylander, Basel (1556), p. 41 [checked]."
+  },
+  {
+   "latin": "absurdus, absonus, concentus",
+   "version": "vinet",
+   "ru": "неблагозвучный, фальшивый, созвучие",
+   "en": "harsh, discordant, concord",
+   "meaning_here": "Two adjectives for an ill-sounding utterance and the concord of which it is incapable.",
+   "evidence": "Lewis & Short, A Latin Dictionary (1879), s.v. absonus [checked] Lewis & Short, A Latin Dictionary (1879), s.v. concentus [checked]"
+  },
+  {
+   "latin": "strepitus",
+   "version": "xylander",
+   "ru": "шум",
+   "en": "noise",
+   "meaning_here": "A sound produced at random and unusable in consonance.",
+   "evidence": "Xylander, Basel (1556), p. 41 [checked]."
+  },
+  {
+   "latin": "crepitus",
+   "version": "vinet",
+   "ru": "грохот",
+   "en": "clatter",
+   "meaning_here": "An accidental noise without capacity for concord.",
+   "evidence": "Vinet, Tournon (1591), p. 43 [checked]."
+  },
+  {
+   "latin": "nomenclationes",
+   "version": "xylander",
+   "ru": "названия",
+   "en": "names",
+   "meaning_here": "Designations acquired by notes in their ordered succession.",
+   "evidence": "J. M. Gesner, Novus linguae Latinae thesaurus, vol. 3 (CAMENA), s.v. nomenclatio [checked] Xylander, Basel (1556), p. 41 [checked]."
+  },
+  {
+   "latin": "proslambanomenos",
+   "version": "both",
+   "ru": "просламбаномен",
+   "en": "proslambanomenos",
+   "meaning_here": "The lowest, added note in the two-octave sequence.",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein (1867), I.20, I.22 [checked] Cleonides, Introduction to Harmonics, ed. von Jan (1895), §4 [checked]"
+  },
+  {
+   "latin": "hypate hypaton",
+   "version": "both",
+   "ru": "гипата низших",
+   "en": "hypate hypaton",
+   "meaning_here": "The lowest note in the lowest tetrachord, second overall.",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein (1867), I.22 [checked] Cleonides, Introduction to Harmonics, ed. von Jan (1895), §4 [checked]"
+  },
+  {
+   "latin": "parhypate hypaton",
+   "version": "both",
+   "ru": "парипата низших",
+   "en": "parhypate hypaton",
+   "meaning_here": "The next note beside hypate in the lowest tetrachord.",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein (1867), I.22 [checked] Cleonides, Introduction to Harmonics, ed. von Jan (1895), §4 [checked]"
+  },
+  {
+   "latin": "hypate diatonos",
+   "version": "both",
+   "ru": "гипата диатоническая",
+   "en": "hypate diatonos",
+   "meaning_here": "The fourth note, called diatonic lichanos hypaton in standard nomenclature.",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein (1867), I.22 [checked] Cleonides, Introduction to Harmonics, ed. von Jan (1895), §4 [checked]"
+  },
+  {
+   "latin": "hypate meson",
+   "version": "both",
+   "ru": "гипата средних",
+   "en": "hypate meson",
+   "meaning_here": "Common boundary between lowest and middle tetrachords.",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein (1867), I.22 [checked] Cleonides, Introduction to Harmonics, ed. von Jan (1895), §4 [checked]"
+  },
+  {
+   "latin": "parhypate meson",
+   "version": "both",
+   "ru": "парипата средних",
+   "en": "parhypate meson",
+   "meaning_here": "The second note in the middle tetrachord.",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein (1867), I.22 [checked] Cleonides, Introduction to Harmonics, ed. von Jan (1895), §4 [checked]"
+  },
+  {
+   "latin": "diatonos meson",
+   "version": "both",
+   "ru": "диатоническая средних",
+   "en": "diatonos meson",
+   "meaning_here": "The variable note below mese in the diatonic middle tetrachord, also called lichanos meson.",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein (1867), I.22 [checked] Cleonides, Introduction to Harmonics, ed. von Jan (1895), §4 [checked]"
+  },
+  {
+   "latin": "mese monos, mese solum",
+   "version": "both",
+   "ru": "просто меса",
+   "en": "simply mese",
+   "meaning_here": "The middle note, eighth in the sequence. Monos is Xylander's Greek qualifier and solum Vinet's Latin one.",
+   "evidence": "Xylander, Basel (1556), p. 41 [checked]. Vinet, Tournon (1591), p. 43 [checked]. Cleonides, Introduction to Harmonics, ed. von Jan (1895), §4 [checked]"
+  },
+  {
+   "latin": "paramesos",
+   "version": "xylander",
+   "ru": "парамес",
+   "en": "paramesos",
+   "meaning_here": "First note of the disjunct tetrachord, a tone above mese in the theoretical system.",
+   "evidence": "Xylander, Basel (1556), p. 41 [checked]. Boethius, De institutione musica, ed. Friedlein (1867), I.20, I.25 [checked]"
+  },
+  {
+   "latin": "paramese",
+   "version": "vinet",
+   "ru": "парамеса",
+   "en": "paramese",
+   "meaning_here": "First note of the disjunct tetrachord, a tone above mese in the theoretical system.",
+   "evidence": "Vinet, Tournon (1591), p. 43 [checked]. Boethius, De institutione musica, ed. Friedlein (1867), I.20, I.25 [checked]"
+  },
+  {
+   "latin": "trite diezeugmene",
+   "version": "both",
+   "ru": "трита отделённая",
+   "en": "trite diezeugmene",
+   "meaning_here": "The third note from the top in the disjunct tetrachord.",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein (1867), I.22 [checked] Cleonides, Introduction to Harmonics, ed. von Jan (1895), §4 [checked]"
+  },
+  {
+   "latin": "diatonos diezeugmene",
+   "version": "both",
+   "ru": "диатоническая отделённая",
+   "en": "diatonos diezeugmene",
+   "meaning_here": "The note below the top of the disjunct tetrachord, also called diatonic paranete.",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein (1867), I.22 [checked] Cleonides, Introduction to Harmonics, ed. von Jan (1895), §4 [checked]"
+  },
+  {
+   "latin": "nete diezeugmene",
+   "version": "both",
+   "ru": "нета отделённая",
+   "en": "nete diezeugmene",
+   "meaning_here": "Top note of the disjunct tetrachord and basis of the highest one.",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein (1867), I.22 [checked] Cleonides, Introduction to Harmonics, ed. von Jan (1895), §4 [checked]"
+  },
+  {
+   "latin": "trite hyperbolaeon",
+   "version": "both",
+   "ru": "трита высших",
+   "en": "trite hyperbolaion",
+   "meaning_here": "Third note from the top in the highest tetrachord.",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein (1867), I.22 [checked] Cleonides, Introduction to Harmonics, ed. von Jan (1895), §4 [checked]"
+  },
+  {
+   "latin": "diatonos hyperbolaeon",
+   "version": "both",
+   "ru": "диатоническая высших",
+   "en": "diatonos hyperbolaion",
+   "meaning_here": "Highest tetrachord's diatonic note immediately below the nete, also called diatonic paranete.",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein (1867), I.22 [checked] Cleonides, Introduction to Harmonics, ed. von Jan (1895), §4 [checked]"
+  },
+  {
+   "latin": "nete hyperbolaeon",
+   "version": "both",
+   "ru": "нета высших",
+   "en": "nete hyperbolaion",
+   "meaning_here": "Top note of the highest tetrachord and of the two-octave sequence.",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein (1867), I.20, I.22 [checked] Cleonides, Introduction to Harmonics, ed. von Jan (1895), §4 [checked]"
+  },
+  {
+   "latin": "heccaedecachordum",
+   "version": "xylander",
+   "ru": "шестнадцатиструнная система",
+   "en": "sixteen-string system",
+   "meaning_here": "Double-octave system, counted as sixteen in X15 and specified as sixteen consecutive strings in X42.",
+   "evidence": "Xylander, Basel (1556), pp. 41–42, 47 [checked]. Boethius, De institutione musica, ed. Friedlein (1867), I.20 [checked]"
+  },
+  {
+   "latin": "Heckaedecachordum",
+   "version": "vinet",
+   "ru": "шестнадцатиструнная система",
+   "en": "sixteen-string system",
+   "meaning_here": "Double-octave system, the sixteen-position count within the fifteen-string system.",
+   "evidence": "Vinet, Tournon (1591), pp. 43, 50–51 [checked]. Boethius, De institutione musica, ed. Friedlein (1867), I.20 [checked]"
+  },
+  {
+   "latin": "Pentecaedecachordum",
+   "version": "xylander",
+   "ru": "пятнадцатиструнник",
+   "en": "fifteen-string instrument",
+   "meaning_here": "The fifteen distinct strings named for the Greek formation.",
+   "evidence": "Xylander, Basel (1556), pp. 41–42 [checked]. Boethius, De institutione musica, ed. Friedlein (1867), I.20 [checked]"
+  },
+  {
+   "latin": "Pentekaedecachordum",
+   "version": "vinet",
+   "ru": "пятнадцатиструнная система",
+   "en": "fifteen-string system",
+   "meaning_here": "The fifteen distinct positions with the boundary of the two octaves shared.",
+   "evidence": "Vinet, Tournon (1591), p. 43 [checked]. Boethius, De institutione musica, ed. Friedlein (1867), I.20 [checked]"
+  },
+  {
+   "latin": "chorda, nervus",
+   "version": "both",
+   "ru": "струна",
+   "en": "string",
+   "meaning_here": "Alternative names of a physical string.",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein (1867), I.10–11, I.20 [checked]"
+  },
+  {
+   "latin": "fides",
+   "version": "xylander",
+   "ru": "струна",
+   "en": "string",
+   "meaning_here": "A string, or collectively strings as a dimension of the instrument.",
+   "evidence": "Xylander, Basel (1556), pp. 41–42, 46 [checked]. Boethius, De institutione musica, ed. Friedlein (1867), I.20 [checked]"
+  },
+  {
+   "latin": "diesis",
+   "version": "both",
+   "ru": "диеса",
+   "en": "diesis",
+   "meaning_here": "Smallest interval, approximately a quarter-tone on the stated model.",
+   "evidence": "Boethius, De musica, ed. Migne (1847), V.15 [checked] Cleonides, Introduction to Harmonics, ed. von Jan (1895), §3 [checked]"
+  },
+  {
+   "latin": "semitonium",
+   "version": "xylander",
+   "ru": "полутон",
+   "en": "semitone",
+   "meaning_here": "Half a tone in the elementary argument.",
+   "evidence": "Xylander, Basel (1556), p. 42 [checked]. Boethius, De institutione musica, ed. Friedlein (1867), I.16–17 [checked]"
+  },
+  {
+   "latin": "hemitonium",
+   "version": "vinet",
+   "ru": "полутон",
+   "en": "semitone",
+   "meaning_here": "Half a tone in the elementary argument, illustrated by 8½ against 8.",
+   "evidence": "Vinet, Tournon (1591), p. 44 [checked]. Boethius, De institutione musica, ed. Friedlein (1867), I.16–17 [checked]"
+  },
+  {
+   "latin": "tonus",
+   "version": "both",
+   "ru": "тон",
+   "en": "tone",
+   "meaning_here": "The whole tone, named with a 9:8 ratio.",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein (1867), I.16 [checked]"
+  },
+  {
+   "latin": "unitas",
+   "version": "xylander",
+   "ru": "единица",
+   "en": "unity",
+   "meaning_here": "The numerical unit contrasted with a divisible material magnitude.",
+   "evidence": "Xylander, Basel (1556), p. 42 [checked]."
+  },
+  {
+   "latin": "monas",
+   "version": "vinet",
+   "ru": "единица",
+   "en": "unit",
+   "meaning_here": "The numerical unit contrasted with a divisible material magnitude.",
+   "evidence": "Vinet, Tournon (1591), p. 44 [checked]."
+  },
+  {
+   "latin": "sesquioctavus, sesquioctava",
+   "version": "both",
+   "ru": "сверхосминное [9:8]",
+   "en": "sesquioctave [9:8]",
+   "meaning_here": "The whole plus one eighth.",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein (1867), I.16 [checked]"
+  },
+  {
+   "latin": "semisesquioctava",
+   "version": "both",
+   "ru": "полусверхосминное",
+   "en": "semisesquioctave",
+   "meaning_here": "The half-sesquioctave used to define semitone.",
+   "evidence": "Xylander, Basel (1556), p. 42 [checked]. Vinet, Tournon (1591), p. 44 [checked]. Boethius, De institutione musica, ed. Friedlein (1867), III.1–4 [checked]"
+  },
+  {
+   "latin": "compositum, compositae",
+   "version": "xylander",
+   "ru": "составной",
+   "en": "composite",
+   "meaning_here": "An interval composed of lesser steps. The adjective in X26 stands beside the following incomposita and is discussed as a textual difficulty.",
+   "evidence": "Xylander, Basel (1556), p. 43 [checked]. Cleonides, Introduction to Harmonics, ed. von Jan (1895), §5 [checked]"
+  },
+  {
+   "latin": "incompositum",
+   "version": "xylander",
+   "ru": "несоставной",
+   "en": "incomposite",
+   "meaning_here": "An interval sounded as a single step, even when it has the magnitude of several constituent intervals.",
+   "evidence": "Cleonides, Introduction to Harmonics, ed. von Jan (1895), §5 [checked] Xylander, Basel (1556), pp. 43–44, 48 [checked]."
+  },
+  {
+   "latin": "simplex, simplicia, non-composita",
+   "version": "vinet",
+   "ru": "несоставной",
+   "en": "incomposite",
+   "meaning_here": "Simplex names intervals sounded as one step. Non-composita appears under negation for intervals that have intermediate steps.",
+   "evidence": "Cleonides, Introduction to Harmonics, ed. von Jan (1895), §5 [checked] Vinet, Tournon (1591), pp. 46, 52 [checked]."
+  },
+  {
+   "latin": "tridiesis",
+   "version": "both",
+   "ru": "тридиеса",
+   "en": "tridiesis",
+   "meaning_here": "Three dieses, or three quarters of a tone on the stated model.",
+   "evidence": "Xylander, Basel (1556), p. 43 [checked]. Vinet, Tournon (1591), p. 46 [checked]."
+  },
+  {
+   "latin": "trisemitonium, trihemitonium",
+   "version": "both",
+   "ru": "трёхполутон",
+   "en": "trihemitone",
+   "meaning_here": "The magnitude of three semitones. The first form is Xylander's, the second Vinet's.",
+   "evidence": "Cleonides, Introduction to Harmonics, ed. von Jan (1895), §5 [checked] Boethius, De institutione musica, ed. Friedlein (1867), I.21 [checked]"
+  },
+  {
+   "latin": "ditonus, ditonium",
+   "version": "both",
+   "ru": "дитон",
+   "en": "ditone",
+   "meaning_here": "A two-tone interval. Xylander uses ditonus, Vinet ditonium.",
+   "evidence": "Cleonides, Introduction to Harmonics, ed. von Jan (1895), §§3, 5 [checked] Boethius, De institutione musica, ed. Friedlein (1867), I.21 [checked]"
+  },
+  {
+   "latin": "tritonus, tritonium",
+   "version": "both",
+   "ru": "тритон",
+   "en": "tritone",
+   "meaning_here": "A three-tone interval. Xylander uses tritonus, Vinet tritonium.",
+   "evidence": "Xylander, Basel (1556), p. 43 [checked]. Vinet, Tournon (1591), p. 46 [checked]."
+  },
+  {
+   "latin": "rhythmus, rythmus",
+   "version": "both",
+   "ru": "ритм",
+   "en": "rhythm",
+   "meaning_here": "Constraint on combining intervals, unspecified in the passage. Vinet prints the second form.",
+   "evidence": "Xylander, Basel (1556), p. 43 [checked]. Vinet, Tournon (1591), p. 46 [checked]."
+  },
+  {
+   "latin": "diatessaron, Dia-tessaron, quarta",
+   "version": "both",
+   "ru": "кварта",
+   "en": "fourth",
+   "meaning_here": "The span of four note positions counting both endpoints, 4:3. Quarta is Xylander's Latin gloss.",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein (1867), I.7, I.20 [checked]"
+  },
+  {
+   "latin": "diapente, Dia-pente, quinta",
+   "version": "both",
+   "ru": "квинта",
+   "en": "fifth",
+   "meaning_here": "The span of five positions, 3:2. Quinta is Xylander's Latin gloss.",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein (1867), I.7, I.20 [checked]"
+  },
+  {
+   "latin": "diapason, Dia-pason, octava",
+   "version": "both",
+   "ru": "октава",
+   "en": "octave",
+   "meaning_here": "The span of eight positions, 2:1. Octava is Xylander's Latin gloss.",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein (1867), I.7, I.20 [checked]"
+  },
+  {
+   "latin": "diapason cum diatessaron, Dia-pason (cum) Dia-tessaron",
+   "version": "both",
+   "ru": "октава с квартой",
+   "en": "octave and a fourth",
+   "meaning_here": "Compound interval 8:3. Vinet omits cum in the list at V49.",
+   "evidence": "Boethius, De musica, ed. Migne (1847), V.6–11 [checked] Vinet, Tournon (1591), p. 51 [checked]."
+  },
+  {
+   "latin": "diapason cum diapente, Dia-pason (cum) Dia-pente",
+   "version": "both",
+   "ru": "октава с квинтой",
+   "en": "octave and a fifth",
+   "meaning_here": "Compound interval 3:1. Vinet omits cum in the list at V49.",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein (1867), I.7 [checked] Vinet, Tournon (1591), p. 51 [checked]."
+  },
+  {
+   "latin": "disdiapason, bis Dia-pason",
+   "version": "both",
+   "ru": "двойная октава",
+   "en": "double octave",
+   "meaning_here": "Two successive octaves, 4:1. Xylander has the first form, Vinet the second.",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein (1867), I.7, I.20 [checked]"
+  },
+  {
+   "latin": "decima quinta",
+   "version": "xylander",
+   "ru": "пятнадцатая",
+   "en": "fifteenth",
+   "meaning_here": "Contemporary name for the double octave, counting the two endpoints.",
+   "evidence": "Xylander, Basel (1556), p. 47 [checked]. Lippius, Synopsis musicae novae (1612), f. C1r–v [checked]."
+  },
+  {
+   "latin": "paraphonum",
+   "version": "both",
+   "ru": "парафония",
+   "en": "paraphony",
+   "meaning_here": "The fourth and fifth in this taxonomy, exemplified by succession rather than simultaneous notes.",
+   "evidence": "Xylander, Basel (1556), pp. 44–45 [checked]. Vinet, Tournon (1591), pp. 47–48 [checked]."
+  },
+  {
+   "latin": "antiphonum",
+   "version": "both",
+   "ru": "антифония",
+   "en": "antiphony",
+   "meaning_here": "The octave and its compounds in this taxonomy, exemplified by simultaneous paired pitches.",
+   "evidence": "Pseudo-Aristotle, Problemata, ed. Ruelle (1922), 19.39 [checked] Boethius, De musica, ed. Migne (1847), V.10–11 [checked]"
+  },
+  {
+   "latin": "assonans, obsonans",
+   "version": "xylander",
+   "ru": "вторящее, ответное созвучие",
+   "en": "sounding in accompaniment, sounding in answer",
+   "meaning_here": "Xylander's Latin glosses of paraphonum and antiphonum.",
+   "evidence": "Xylander, Basel (1556), p. 45 [checked]."
+  },
+  {
+   "latin": "sesquitertius, sesquitertia",
+   "version": "both",
+   "ru": "сверхтретное [4:3]",
+   "en": "sesquitertian [4:3]",
+   "meaning_here": "A whole plus a third, the fourth.",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein (1867), I.4, I.7 [checked]"
+  },
+  {
+   "latin": "sesquialter, sesquialtera",
+   "version": "both",
+   "ru": "полуторное [3:2]",
+   "en": "sesquialter [3:2]",
+   "meaning_here": "A whole plus a half, the fifth.",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein (1867), I.4, I.7 [checked]"
+  },
+  {
+   "latin": "duplus, dupla, duplex",
+   "version": "both",
+   "ru": "двукратное [2:1]",
+   "en": "duple [2:1]",
+   "meaning_here": "The double ratio, the octave. Ordinary double elsewhere expresses a quantity rather than a ratio name.",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein (1867), I.4, I.7 [checked]"
+  },
+  {
+   "latin": "duplus superpartiens, dupla superpartiens, duplex-superpartiens",
+   "version": "both",
+   "ru": "двукратное сверхчастное [8:3]",
+   "en": "duple superpartient [8:3]",
+   "meaning_here": "Two wholes plus two thirds in the given example, the octave and a fourth.",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein (1867), I.4 [checked] Boethius, De musica, ed. Migne (1847), V.6–11 [checked]"
+  },
+  {
+   "latin": "super bipartiens tertias",
+   "version": "xylander",
+   "ru": "с избытком в две трети",
+   "en": "with two thirds in excess",
+   "meaning_here": "Specifies the superpartient surplus beyond the duple ratio.",
+   "evidence": "Xylander, Basel (1556), p. 46 [checked]. Boethius, De institutione musica, ed. Friedlein (1867), I.4 [checked]"
+  },
+  {
+   "latin": "triplus, tripla, triplex",
+   "version": "both",
+   "ru": "трёхкратное [3:1]",
+   "en": "triple [3:1]",
+   "meaning_here": "Three times the base, the octave and a fifth.",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein (1867), I.4, I.7 [checked]"
+  },
+  {
+   "latin": "quadruplus, quadruplex",
+   "version": "both",
+   "ru": "четырёхкратное [4:1]",
+   "en": "quadruple [4:1]",
+   "meaning_here": "Four times the base, the double octave.",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein (1867), I.4, I.7 [checked]"
+  },
+  {
+   "latin": "quincuplum, quincuplex",
+   "version": "both",
+   "ru": "пятикратное [5:1]",
+   "en": "quintuple [5:1]",
+   "meaning_here": "The relation of the position of the fifth note to the first.",
+   "evidence": "Xylander, Basel (1556), p. 46 [checked]. Vinet, Tournon (1591), p. 49 [checked]."
+  },
+  {
+   "latin": "duplum sesquialterum",
+   "version": "both",
+   "ru": "двукратно-полуторное [5:2]",
+   "en": "duple sesquialter [5:2]",
+   "meaning_here": "The fifth position relative to the second, twice the base plus half of it.",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein (1867), I.4 [checked]"
+  },
+  {
+   "latin": "superpartiens",
+   "version": "vinet",
+   "ru": "сверхчастное [5:3]",
+   "en": "superpartient [5:3]",
+   "meaning_here": "One whole plus two thirds here, the fifth position relative to the third. The term by itself designates a class.",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein (1867), I.4 [checked] Vinet, Tournon (1591), p. 49 [checked]."
+  },
+  {
+   "latin": "bes",
+   "version": "xylander",
+   "ru": "две трети",
+   "en": "two thirds",
+   "meaning_here": "The surplus of five over three, measured against three as a whole.",
+   "evidence": "Lewis & Short, A Latin Dictionary (1879), s.v. bes [checked]"
+  },
+  {
+   "latin": "sesquiquartum",
+   "version": "both",
+   "ru": "сверхчетвертное [5:4]",
+   "en": "sesquiquartan [5:4]",
+   "meaning_here": "One whole plus a quarter, the fifth position relative to the fourth.",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein (1867), I.4 [checked]"
+  },
+  {
+   "latin": "clavi, claviculorum",
+   "version": "both",
+   "ru": "колки",
+   "en": "pegs",
+   "meaning_here": "Pegs turned to alter string tension. The first form is Xylander's, the second is Vinet's genitive plural.",
+   "evidence": "Xylander, Basel (1556), p. 47 [checked]. Vinet, Tournon (1591), p. 50 [checked]."
+  },
+  {
+   "latin": "tensio",
+   "version": "xylander",
+   "ru": "натяжение",
+   "en": "tension",
+   "meaning_here": "Tension of an instrument string. Vinet expresses it with intensio.",
+   "evidence": "Xylander, Basel (1556), p. 47 [checked]. Boethius, De institutione musica, ed. Friedlein (1867), I.11 [checked]"
+  },
+  {
+   "latin": "cavitas",
+   "version": "xylander",
+   "ru": "полость",
+   "en": "cavity",
+   "meaning_here": "Interior space of a blown instrument.",
+   "evidence": "Xylander, Basel (1556), p. 47 [checked]. Boethius, De institutione musica, ed. Friedlein (1867), I.11 [checked]"
+  },
+  {
+   "latin": "fistula",
+   "version": "vinet",
+   "ru": "трубка",
+   "en": "pipe",
+   "meaning_here": "Pipe of a blown instrument.",
+   "evidence": "Vinet, Tournon (1591), p. 50 [checked]. Boethius, De institutione musica, ed. Friedlein (1867), I.11 [checked]"
+  },
+  {
+   "latin": "spiritus",
+   "version": "both",
+   "ru": "дыхание",
+   "en": "breath",
+   "meaning_here": "Air as blown through a wind instrument.",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein (1867), I.11 [checked] Lewis & Short, A Latin Dictionary (1879), s.v. spiritus [checked]"
+  },
+  {
+   "latin": "tetrachordum",
+   "version": "both",
+   "ru": "тетрахорд",
+   "en": "tetrachord",
+   "meaning_here": "Four-note system spanning a fourth.",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein (1867), I.20–21 [checked] Cleonides, Introduction to Harmonics, ed. von Jan (1895), §3 [checked]"
+  },
+  {
+   "latin": "pentachordum",
+   "version": "both",
+   "ru": "пентахорд",
+   "en": "pentachord",
+   "meaning_here": "Five-note system spanning a fifth.",
+   "evidence": "Xylander, Basel (1556), p. 47 [checked]. Vinet, Tournon (1591), p. 50 [checked]."
+  },
+  {
+   "latin": "octachordum",
+   "version": "both",
+   "ru": "октахорд",
+   "en": "octachord",
+   "meaning_here": "Eight-note system spanning an octave.",
+   "evidence": "Xylander, Basel (1556), pp. 42, 44, 47 [checked]. Vinet, Tournon (1591), pp. 43, 47, 50 [checked]."
+  },
+  {
+   "latin": "melodia",
+   "version": "xylander",
+   "ru": "мелодия",
+   "en": "melody",
+   "meaning_here": "General term for melodic practice, glossed with cantus, cantilena and modulatio.",
+   "evidence": "Xylander, Basel (1556), pp. 47–49 [checked]. Cleonides, Introduction to Harmonics, ed. von Jan (1895), §§13–14 [checked]"
+  },
+  {
+   "latin": "melos",
+   "version": "vinet",
+   "ru": "мелодия",
+   "en": "melody",
+   "meaning_here": "A unified sounding entity spanning the one interval under consideration.",
+   "evidence": "Vinet, Tournon (1591), p. 46 [checked]. Cleonides, Introduction to Harmonics, ed. von Jan (1895), §5 [checked]"
+  },
+  {
+   "latin": "cantus",
+   "version": "xylander",
+   "ru": "пение",
+   "en": "singing",
+   "meaning_here": "The act of singing and the repertory so sung.",
+   "evidence": "Xylander, Basel (1556), pp. 47–49 [checked]. Boethius, De institutione musica, ed. Friedlein (1867), I.21 [checked]"
+  },
+  {
+   "latin": "cantilena",
+   "version": "xylander",
+   "ru": "напев",
+   "en": "tune",
+   "meaning_here": "A melodic entity, including a tune designated Lydian, Phrygian or Dorian.",
+   "evidence": "Xylander, Basel (1556), pp. 43, 47–49 [checked]. Boethius, De institutione musica, ed. Friedlein (1867), I.21 [checked]"
+  },
+  {
+   "latin": "modulatio",
+   "version": "both",
+   "ru": "мелодическое движение",
+   "en": "melodic movement",
+   "meaning_here": "Melodically patterned performance or its product.",
+   "evidence": "Lewis & Short, A Latin Dictionary (1879), s.v. modulatio [checked]"
+  },
+  {
+   "latin": "modulus",
+   "version": "vinet",
+   "ru": "лад",
+   "en": "mode",
+   "meaning_here": "A Lydian, Phrygian or Dorian mode.",
+   "evidence": "Lewis & Short, A Latin Dictionary (1879), s.v. modulus [checked] Cleonides, Introduction to Harmonics, ed. von Jan (1895), §12 [checked]"
+  },
+  {
+   "latin": "diatonon, diatonicum, Diatonum",
+   "version": "both",
+   "ru": "диатонический род",
+   "en": "diatonic genus",
+   "meaning_here": "The division of the fourth involving two tones and a semitone.",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein (1867), I.21 [checked] Cleonides, Introduction to Harmonics, ed. von Jan (1895), §3 [checked]"
+  },
+  {
+   "latin": "chromaticum, Chromaticon",
+   "version": "both",
+   "ru": "хроматический род",
+   "en": "chromatic genus",
+   "meaning_here": "The division involving two semitones and a trihemitone.",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein (1867), I.21 [checked] Cleonides, Introduction to Harmonics, ed. von Jan (1895), §3 [checked]"
+  },
+  {
+   "latin": "harmonicum",
+   "version": "both",
+   "ru": "гармонический род",
+   "en": "harmonic genus",
+   "meaning_here": "The genus elsewhere called enharmonic, here described with two dieses and a ditone.",
+   "evidence": "Boethius, De institutione musica, ed. Friedlein (1867), I.21 [checked] Cleonides, Introduction to Harmonics, ed. von Jan (1895), §3 [checked]"
+  },
+  {
+   "latin": "coalitus",
+   "version": "xylander",
+   "ru": "слияние",
+   "en": "coalescence",
+   "meaning_here": "Joining component magnitudes to form one sounded interval.",
+   "evidence": "Xylander, Basel (1556), pp. 48–49 [checked]. Cleonides, Introduction to Harmonics, ed. von Jan (1895), §5 [checked]"
+  },
+  {
+   "latin": "confusio",
+   "version": "vinet",
+   "ru": "слияние",
+   "en": "merging",
+   "meaning_here": "Joining component magnitudes to form one sounded interval.",
+   "evidence": "Lewis & Short, A Latin Dictionary (1879), s.v. confusio [checked] Cleonides, Introduction to Harmonics, ed. von Jan (1895), §5 [checked]"
+  },
+  {
+   "latin": "meditatio, exercitatio",
+   "version": "vinet",
+   "ru": "подготовка, упражнение",
+   "en": "preparation, practice",
+   "meaning_here": "Rehearsal and practice required for harmonic performance.",
+   "evidence": "Lewis & Short, A Latin Dictionary (1879), s.v. meditatio [checked] Vinet, Tournon (1591), p. 53 [checked]."
+  },
+  {
+   "latin": "Lydia, Phrygia, Dorica",
+   "version": "xylander",
+   "ru": "лидийский, фригийский, дорийский",
+   "en": "Lydian, Phrygian, Dorian",
+   "meaning_here": "Qualifiers of cantilena in the discussion of varieties of singing.",
+   "evidence": "Xylander, Basel (1556), p. 49 [checked]. Cleonides, Introduction to Harmonics, ed. von Jan (1895), §12 [checked]"
+  },
+  {
+   "latin": "Lydius, Phrygius, Dorius",
+   "version": "vinet",
+   "ru": "лидийский, фригийский, дорийский",
+   "en": "Lydian, Phrygian, Dorian",
+   "meaning_here": "Qualifiers of modulus, attested for musical usage in Pliny.",
+   "evidence": "Lewis & Short, A Latin Dictionary (1879), s.v. modulus [checked] Cleonides, Introduction to Harmonics, ed. von Jan (1895), §12 [checked]"
+  },
+  {
+   "latin": "Paean, Paeeon",
+   "version": "both",
+   "ru": "пеан",
+   "en": "paean",
+   "meaning_here": "The traditional song type, with different spellings in the two versions.",
+   "evidence": "LSJ, s.v. παιάν II [checked]."
+  },
+  {
+   "latin": "Hymenaeus",
+   "version": "both",
+   "ru": "гименей",
+   "en": "hymenaeus",
+   "meaning_here": "Wedding song.",
+   "evidence": "Catullus, Carmina 61.1–15 [checked]."
+  },
+  {
+   "latin": "Exodius",
+   "version": "both",
+   "ru": "заключительная песнь",
+   "en": "exit song",
+   "meaning_here": "A song associated with leaving, parallel to Pollux's melos exodion.",
+   "evidence": "Pollux, Onomasticon IV.108, ed. Bekker (1846), p. 168 [checked]."
+  },
+  {
+   "latin": "transitus, transitiones",
+   "version": "both",
+   "ru": "переходы",
+   "en": "transitions",
+   "meaning_here": "Movements between pitches or portions of a tune. Xylander uses the first, Vinet the second.",
+   "evidence": "Cleonides, Introduction to Harmonics, ed. von Jan (1895), §§13–14 [checked]"
+  },
+  {
+   "latin": "obliquioribus",
+   "version": "xylander",
+   "ru": "более непрямыми",
+   "en": "more oblique",
+   "meaning_here": "Xylander's qualifier of transitions. The exact kind of indirection is unspecified.",
+   "evidence": "Lewis & Short, A Latin Dictionary (1879), s.v. obliquus [checked]"
+  },
+  {
+   "latin": "mansiones, pausae",
+   "version": "both",
+   "ru": "задержки, паузы",
+   "en": "lingering, pauses",
+   "meaning_here": "The first is Xylander's, suggesting arrests or dwelling. The second is Vinet's, explicitly denoting pauses.",
+   "evidence": "Cleonides, Introduction to Harmonics, ed. von Jan (1895), §13 [checked] Xylander, Basel (1556), p. 49 [checked]. Vinet, Tournon (1591), p. 53 [checked]."
+  },
+  {
+   "latin": "fluxus",
+   "version": "both",
+   "ru": "плавное движение",
+   "en": "flowing movement",
+   "meaning_here": "A feature of melodic execution alongside transitions and dwelling or pauses.",
+   "evidence": "Cleonides, Introduction to Harmonics, ed. von Jan (1895), §13 [checked] Xylander, Basel (1556), p. 49 [checked]. Vinet, Tournon (1591), p. 53 [checked]."
+  },
+  {
+   "latin": "tactus, pulsationes, pulsus",
+   "version": "both",
+   "ru": "касания, удары",
+   "en": "touches, strokes",
+   "meaning_here": "Actions involved in sounding notes. Xylander has pulsationes and Vinet pulsus.",
+   "evidence": "Cleonides, Introduction to Harmonics, ed. von Jan (1895), §14 [checked] Xylander, Basel (1556), p. 49 [checked]. Vinet, Tournon (1591), p. 53 [checked]."
+  },
+  {
+   "latin": "temperamentum manus",
+   "version": "vinet",
+   "ru": "управление движением руки",
+   "en": "control of the hand",
+   "meaning_here": "The way the hand regulates performance.",
+   "evidence": "Lewis & Short, A Latin Dictionary (1879), s.v. temperamentum [checked] Vinet, Tournon (1591), p. 53 [checked]."
+  },
+  {
+   "latin": "organum, instrumentum",
+   "version": "xylander",
+   "ru": "инструмент",
+   "en": "instrument",
+   "meaning_here": "A stringed instrument in the explanation of the two octave counts.",
+   "evidence": "Lewis & Short, A Latin Dictionary (1879), s.v. organum [checked] Xylander, Basel (1556), pp. 41–42 [checked]."
+  },
+  {
+   "latin": "diameter, dimetiens",
+   "version": "both",
+   "ru": "диагональ",
+   "en": "diagonal",
+   "meaning_here": "The diagonal of a square in the halving and doubling constructions. Xylander uses diameter, Vinet both terms.",
+   "evidence": "Lewis & Short, A Latin Dictionary (1879), s.v. dimetior [checked] Xylander, Basel (1556), p. 43 [checked]. Vinet, Tournon (1591), p. 45 [checked]."
+  },
+  {
+   "latin": "semis, quadrans",
+   "version": "both",
+   "ru": "половина, четверть",
+   "en": "half, quarter",
+   "meaning_here": "In Vinet, the portions of a unit added to eight in the division of the tone. Xylander has quadrans as a quarter of the sesquioctave ratio.",
+   "evidence": "Lewis & Short, A Latin Dictionary (1879), s.v. semis [checked] Lewis & Short, A Latin Dictionary (1879), s.v. quadrans [checked]"
+  },
+  {
+   "latin": "quadratum, numerus quadratus",
+   "version": "both",
+   "ru": "квадрат, квадратное число",
+   "en": "square, square number",
+   "meaning_here": "A geometrical figure or an integer that is the square of an integer.",
+   "evidence": "Xylander, Basel (1556), p. 43 [checked]. Vinet, Tournon (1591), p. 45 [checked]."
+  },
+  {
+   "latin": "radix quadrata",
+   "version": "xylander",
+   "ru": "квадратный корень",
+   "en": "square root",
+   "meaning_here": "Under the stipulated integer arithmetic, the integer whose square is the given number.",
+   "evidence": "Xylander, Basel (1556), p. 43 [checked]."
+  }
+ ],
+ "C": [
+  {
+   "latin": "Musica",
+   "version": "both",
+   "ru": "музыка",
+   "en": "music",
+   "meaning_here": "music as cosmic proportion (X02–X07, V03–V08) and as the audible art (X07 ff., V09 ff.); in the title and the closing formula the name of the section (X58, V01, V66: «Музыка» / the Music)",
+   "evidence": "context of both texts [checked]"
+  },
+  {
+   "latin": "Universitas, universitas",
+   "version": "vinet",
+   "ru": "вселенная",
+   "en": "the universe",
+   "meaning_here": "the whole of things",
+   "evidence": "Lewis & Short s.v. universitas (in universitate rerum, Cic. N. D. 1.120) [checked]"
+  },
+  {
+   "latin": "diatessaron (Vinet: Dia-tessaron)",
+   "version": "both",
+   "ru": "кварта (у Ксиландра в X28–X30 и X35, где греческое название противопоставлено латинскому quarta: диатессарон)",
+   "en": "the fourth (in Xylander X28–X30 and X35, where the Greek name is set against Latin quarta: diatessaron)",
+   "meaning_here": "the interval of the fourth, 4:3; Vinet explains the name as “through four” (V34)",
+   "evidence": "about.md §4.1–4.2 [checked]; Boethius, De inst. mus. I.21, ed. Friedlein p. 213 [checked]"
+  },
+  {
+   "latin": "diapente (Vinet: Dia-pente)",
+   "version": "both",
+   "ru": "квинта (у Ксиландра в X28–X30: диапенте)",
+   "en": "the fifth (in Xylander X28–X30: diapente)",
+   "meaning_here": "the fifth, 3:2",
+   "evidence": "about.md §4.2 [checked]"
+  },
+  {
+   "latin": "diapason (Vinet: Dia-pason)",
+   "version": "both",
+   "ru": "октава (у Ксиландра в X28–X30: диапазон)",
+   "en": "the octave (in Xylander X28–X30: diapason)",
+   "meaning_here": "the octave, 2:1; Xylander explains the name as per omnes, hoc est, per octo (X29), Vinet as per octo (V34–V35)",
+   "evidence": "about.md §4.2 [checked]; LSJ s.v. διαπασῶν [checked]"
+  },
+  {
+   "latin": "disdiapason (Xylander); bis Dia-pason (Vinet)",
+   "version": "both",
+   "ru": "двойная октава (у Ксиландра в X30: дисдиапазон)",
+   "en": "the double octave (in Xylander X30: disdiapason)",
+   "meaning_here": "the double octave, 4:1",
+   "evidence": "about.md §4.2 [checked]"
+  },
+  {
+   "latin": "diapason cum diatessaron, diapason cum diapente (Xylander); Dia-pason (cum) Dia-tessaron, Dia-pason (cum) Dia-pente (Vinet)",
+   "version": "both",
+   "ru": "октава с квартой; октава с квинтой (у Ксиландра в X30: диапазон с диатессароном, диапазон с диапенте)",
+   "en": "the octave and a fourth; the octave and a fifth (in Xylander X30: diapason with diatessaron, diapason with diapente)",
+   "meaning_here": "8:3 and 3:1; Vinet calls them, with the double octave, posteriora intervalla “the subsequent intervals” (V35)",
+   "evidence": "about.md §4.2 [checked]"
+  },
+  {
+   "latin": "quarta, quinta, octava; octava cum quarta, octava cum quinta, duae octavae",
+   "version": "xylander",
+   "ru": "кварта, квинта, октава; октава с квартой, октава с квинтой, две октавы",
+   "en": "the fourth, the fifth, the octave; the octave and a fourth, the octave and a fifth, two octaves",
+   "meaning_here": "the Latin names of Xylander's own day, given as glosses on the Greek names (X28, X30, X35, X42)",
+   "evidence": "usage of this text; about.md §4.1 [checked]"
+  },
+  {
+   "latin": "decima quinta",
+   "version": "xylander",
+   "ru": "пятнадцатая",
+   "en": "the fifteenth",
+   "meaning_here": "modern name of the double octave (X42)",
+   "evidence": "usage of Renaissance theory and organ practice [from memory]"
+  },
+  {
+   "latin": "tonus",
+   "version": "both",
+   "ru": "тон",
+   "en": "tone",
+   "meaning_here": "the tone, 9:8",
+   "evidence": "about.md §4.2 [checked]"
+  },
+  {
+   "latin": "semitonium (Xylander); hemitonium (Vinet)",
+   "version": "both",
+   "ru": "полутон",
+   "en": "semitone",
+   "meaning_here": "half of the tone: for Xylander “as it were half of the sesquioctave”, divided geometrically (X18–X20); for Vinet “eight and a half” to eight, i.e. 17:16 (V22), the exact division being geometrical (V23–V30)",
+   "evidence": "about.md §4.2 [checked]"
+  },
+  {
+   "latin": "diesis",
+   "version": "both",
+   "ru": "диеса",
+   "en": "diesis",
+   "meaning_here": "the smallest interval, half of the semitone: for Xylander “as it were a quarter” of the tone (X18), for Vinet “eight and a quarter” to eight, i.e. 33:32 (V22)",
+   "evidence": "about.md §4.2 [checked]; Boethius, De inst. mus. I.21, ed. Friedlein p. 213.17 [checked]; Theon, ed. Hiller p. 55.11–15 [checked]"
+  },
+  {
+   "latin": "tridiesis",
+   "version": "both",
+   "ru": "тридиеса",
+   "en": "tridiesis",
+   "meaning_here": "three dieses, ¾ tone (X26, V31)",
+   "evidence": "about.md §4.2 [checked]"
+  },
+  {
+   "latin": "trisemitonium (Xylander); trihemitonium (Vinet)",
+   "version": "both",
+   "ru": "трёхполутон",
+   "en": "trihemitone",
+   "meaning_here": "1½ tones; the incomposite (Vinet: simple) interval of the chromatic tetrachord (X49, V57)",
+   "evidence": "about.md §4.2 [checked]; Theon, ed. Hiller p. 54.22–23, 55.3–4 [checked]"
+  },
+  {
+   "latin": "ditonus (Xylander); ditonium (Vinet)",
+   "version": "both",
+   "ru": "дитон",
+   "en": "ditone",
+   "meaning_here": "two tones; the incomposite interval of the harmonic tetrachord (X51, V59)",
+   "evidence": "about.md §4.2 [checked]"
+  },
+  {
+   "latin": "tritonus (Xylander); tritonium (Vinet)",
+   "version": "both",
+   "ru": "тритон",
+   "en": "tritone",
+   "meaning_here": "three tones (X26, V31)",
+   "evidence": "about.md §4.2 [checked]"
+  },
+  {
+   "latin": "intervallum",
+   "version": "both",
+   "ru": "интервал",
+   "en": "interval",
+   "meaning_here": "relation of two notes (X09, V12)",
+   "evidence": "about.md §4.2 [checked]"
+  },
+  {
+   "latin": "compositus / incompositus",
+   "version": "xylander",
+   "ru": "составной / несоставной",
+   "en": "composite / incomposite",
+   "meaning_here": "incomposite: sung as one interval though containing smaller ones in potency (X27); in X26 Xylander calls the same intervals compositae",
+   "evidence": "about.md §4.2 [checked]; Vinet V31 'simplicia' [checked]"
+  },
+  {
+   "latin": "immediatus",
+   "version": "xylander",
+   "ru": "непосредственный",
+   "en": "immediate",
+   "meaning_here": "without intermediate notes (X29)",
+   "evidence": "DMLBS s.v. immediatus [checked]"
+  },
+  {
+   "latin": "simplex intervallum (simplicia intervalla)",
+   "version": "vinet",
+   "ru": "простой интервал",
+   "en": "simple interval",
+   "meaning_here": "incomposite interval (Xylander: incompositum)",
+   "evidence": "Theon p. 54–55 ἀσύνθετον [checked]"
+  },
+  {
+   "latin": "non-compositum",
+   "version": "vinet",
+   "ru": "несоставной",
+   "en": "incomposite",
+   "meaning_here": "negated: the fourth, fifth, octave are neque non-composita",
+   "evidence": "about.md § 4.2 [checked]"
+  },
+  {
+   "latin": "adauctus",
+   "version": "vinet",
+   "ru": "приращение",
+   "en": "increase",
+   "meaning_here": "adding intervals together",
+   "evidence": "Lewis & Short s.v. adauctus [checked]"
+  },
+  {
+   "latin": "ex confusione",
+   "version": "vinet",
+   "ru": "слиянием",
+   "en": "by fusion",
+   "meaning_here": "of an incomposite interval made of several smaller ones",
+   "evidence": "context V32, V57, V59 [checked]"
+  },
+  {
+   "latin": "melos",
+   "version": "vinet",
+   "ru": "мелос",
+   "en": "melos",
+   "meaning_here": "a melodic step heard as one (Greek loan; only in III.4)",
+   "evidence": "LSJ s.v. μέλος B [checked]"
+  },
+  {
+   "latin": "sesquioctavus, -a",
+   "version": "both",
+   "ru": "сверхосминное [9:8]",
+   "en": "sesquioctave [9:8]",
+   "meaning_here": "ratio of the tone",
+   "evidence": "about.md §4.3 [checked]"
+  },
+  {
+   "latin": "semisesquioctava",
+   "version": "both",
+   "ru": "полусверхосминное",
+   "en": "semisesquioctave",
+   "meaning_here": "half of 9:8, i.e. the semitone (X20, V24); no bracket, since the text says what it is",
+   "evidence": "about.md §4.3 [checked]"
+  },
+  {
+   "latin": "sesquitertius, -a",
+   "version": "both",
+   "ru": "сверхтретное [4:3]",
+   "en": "sesquitertian [4:3]",
+   "meaning_here": "ratio of the fourth",
+   "evidence": "about.md §4.3 [checked]"
+  },
+  {
+   "latin": "sesquialter, -a, -um",
+   "version": "both",
+   "ru": "полуторное [3:2]",
+   "en": "sesquialter [3:2]",
+   "meaning_here": "ratio of the fifth",
+   "evidence": "about.md §4.3 [checked]"
+  },
+  {
+   "latin": "sesquiquartus, -um",
+   "version": "both",
+   "ru": "сверхчетвертное [5:4]",
+   "en": "sesquiquartan [5:4]",
+   "meaning_here": "the fifth note to the fourth (X38, V44)",
+   "evidence": "about.md §4.3 [checked]"
+  },
+  {
+   "latin": "duplus, -a (Xylander); duplex (Vinet)",
+   "version": "both",
+   "ru": "двукратное [2:1]",
+   "en": "duple [2:1]",
+   "meaning_here": "ratio of the octave",
+   "evidence": "about.md §4.3 [checked]"
+  },
+  {
+   "latin": "triplus, -a (Xylander); triplex (Vinet)",
+   "version": "both",
+   "ru": "трёхкратное [3:1]",
+   "en": "triple [3:1]",
+   "meaning_here": "ratio of the octave and a fifth",
+   "evidence": "about.md §4.3 [checked]"
+  },
+  {
+   "latin": "quadruplus (Xylander); quadruplex (Vinet)",
+   "version": "both",
+   "ru": "четырёхкратное [4:1]",
+   "en": "quadruple [4:1]",
+   "meaning_here": "ratio of the double octave (X36, V41–V42)",
+   "evidence": "about.md §4.3 [checked]"
+  },
+  {
+   "latin": "quincuplum (Xylander); quincuplex (Vinet)",
+   "version": "both",
+   "ru": "пятикратное [5:1]",
+   "en": "quintuple [5:1]",
+   "meaning_here": "the fifth note to the first (X38, V44)",
+   "evidence": "about.md §4.3 [checked]"
+  },
+  {
+   "latin": "duplum sesquialterum",
+   "version": "both",
+   "ru": "двукратное полуторное [5:2]",
+   "en": "duple sesquialter [5:2]",
+   "meaning_here": "the fifth note to the second (X38, V44); Boethius’ duplex supersesqualter; name formed on the pattern of about.md §4.3",
+   "evidence": "Boethius, De inst. mus. I.4, ed. Friedlein p. 192.4–5 [checked]; De inst. arith. I.29, ed. Friedlein p. 61 [checked]"
+  },
+  {
+   "latin": "duplus superpartiens (Xylander); duplex-superpartiens (Vinet)",
+   "version": "both",
+   "ru": "двукратное сверхчастное [8:3]",
+   "en": "duple superpartient [8:3]",
+   "meaning_here": "ratio of the octave and a fourth; Boethius’ duplex superbipartiens",
+   "evidence": "about.md §4.3 [checked]; Boethius, De inst. mus. I.4, ed. Friedlein p. 192.14–16, and V.10, p. 360 [checked]"
+  },
+  {
+   "latin": "super bipartiens tertias",
+   "version": "xylander",
+   "ru": "сверхдвучастное по третям",
+   "en": "superbipartient by thirds",
+   "meaning_here": "specifies the superpartient excess of 8:3 as two thirds (X36); formed on the pattern of about.md §4.3",
+   "evidence": "Boethius I.4, ed. Friedlein p. 192.14–16 [checked]"
+  },
+  {
+   "latin": "superpartiens (alone)",
+   "version": "vinet",
+   "ru": "сверхчастное [5:3]",
+   "en": "superpartient [5:3]",
+   "meaning_here": "5th note to the 3rd (III.11); Boethius' superbipartiens",
+   "evidence": "Boethius, De inst. arith. I.29, Friedlein p. 60; De inst. mus. I.4, p. 191 (superbipartiens, ut sunt quinque ad tres) [checked]"
+  },
+  {
+   "latin": "duae partes",
+   "version": "vinet",
+   "ru": "две трети",
+   "en": "two thirds",
+   "meaning_here": "idiom: two (third) parts",
+   "evidence": "Gaffiot 2016 s.v. pars [checked]; Boethius, De inst. arith. I.29 [checked]"
+  },
+  {
+   "latin": "ratio",
+   "version": "both",
+   "ru": "отношение",
+   "en": "ratio",
+   "meaning_here": "ratio of two notes or numbers (X09, X16, X18, X20, X32; V19, V22, V40, V43–V46); in non-technical uses rendered by context (Xylander ratione numeri, ea ratione, alia ratione; Vinet appellationum ratio “the rationale of the names”, V35)",
+   "evidence": "Boethius, passim [from memory]"
+  },
+  {
+   "latin": "proportio",
+   "version": "both",
+   "ru": "пропорция",
+   "en": "proportion",
+   "meaning_here": "proportion in general (X02–X03, V03–V05) and the ratio of an interval or between notes (X25, X35, X37–X38, X41; V37), as in Boethius; kept apart from ratio",
+   "evidence": "Boethius, De inst. mus. I.10–11, ed. Friedlein p. 198 [checked]; De inst. arith. II.40, ed. Friedlein p. 137 [checked]"
+  },
+  {
+   "latin": "proportionalitas",
+   "version": "xylander",
+   "ru": "пропорциональность",
+   "en": "proportionality",
+   "meaning_here": "proportion as a relation of ratios (X04, X32)",
+   "evidence": "Lewis & Short s.v. proportionalitas [checked]"
+  },
+  {
+   "latin": "commensuratio",
+   "version": "xylander",
+   "ru": "соразмерность",
+   "en": "commensuration",
+   "meaning_here": "due measure, symmetry (X02–X04)",
+   "evidence": "Lewis & Short, DMLBS s.v. commensuratio [checked]"
+  },
+  {
+   "latin": "respectus",
+   "version": "xylander",
+   "ru": "соотнесённость (в определении интервала); иначе по контексту (respectu dieseos — «по сравнению с диесой»)",
+   "en": "relation (in the definition of interval); otherwise by context ('in respect of')",
+   "meaning_here": "relation (X09)",
+   "evidence": "DMLBS s.v. respectus, senses 4 '(phil.) relation' and 5b 'in comparison with' [checked]"
+  },
+  {
+   "latin": "symmetria",
+   "version": "vinet",
+   "ru": "соразмерность",
+   "en": "commensurability",
+   "meaning_here": "due proportion of parts (Greek loan)",
+   "evidence": "Lewis & Short s.v. symmetria [checked]; Vitruvius 1.2.4 [checked]"
+  },
+  {
+   "latin": "habitudo",
+   "version": "vinet",
+   "ru": "соотношение",
+   "en": "relation",
+   "meaning_here": "relation of two notes (Boethian sense)",
+   "evidence": "Boethius, De inst. arith. II.40, Friedlein p. 137 [checked]; Lewis & Short s.v. [checked]"
+  },
+  {
+   "latin": "terminus",
+   "version": "both",
+   "ru": "член",
+   "en": "term",
+   "meaning_here": "term of a ratio (X36, V42)",
+   "evidence": "Boethius, De inst. arith. II.40 [checked]"
+  },
+  {
+   "latin": "sonus",
+   "version": "both",
+   "ru": "звук",
+   "en": "note",
+   "meaning_here": "a musical note, a degree of the system (φθόγγος)",
+   "evidence": "about.md §4.5 [checked]"
+  },
+  {
+   "latin": "sonitus",
+   "version": "xylander",
+   "ru": "звучание",
+   "en": "sounding",
+   "meaning_here": "the sounding (span from first to last note, X29; the sound itself, X37), not a single note",
+   "evidence": "usage of this text (latin-texts.json) [checked]"
+  },
+  {
+   "latin": "vox",
+   "version": "both",
+   "ru": "голос",
+   "en": "voice",
+   "meaning_here": "the voice whose tension is a note (X08, V11; also V34, V43)",
+   "evidence": "Boethius, De inst. mus. I.8, ed. Friedlein p. 195 [checked]"
+  },
+  {
+   "latin": "intensio (alone); Vinet also intentio",
+   "version": "both",
+   "ru": "напряжение",
+   "en": "tension",
+   "meaning_here": "pitch conceived as the tension of the voice or sound (X08, X37, X39; V11, V43, V45); in Vinet also the tension of strings (V47) and the whole compass of a system (V49)",
+   "evidence": "Boethius, De inst. mus. I.8, ed. Friedlein p. 195 [checked]; Lewis & Short s.vv. intensio, intentio [checked]; Theon, ed. Hiller p. 47 (τάσις) [checked]; Shchetnikov’s Russian Nicomachus, ch. 4 [checked]"
+  },
+  {
+   "latin": "intensiones remissionesve (of pitch)",
+   "version": "both",
+   "ru": "повышения или понижения",
+   "en": "raisings or lowerings",
+   "meaning_here": "rising and falling in pitch (X32, V37)",
+   "evidence": "about.md §4.5 [checked]"
+  },
+  {
+   "latin": "intensio et remissio spiritus (Xylander); intensio spiritus ac remissio (Vinet)",
+   "version": "both",
+   "ru": "напряжение и ослабление дыхания",
+   "en": "tension and slackening of the breath",
+   "meaning_here": "stronger and weaker blowing in wind instruments (X41, V47), not the pitch pair of about.md §4.5; explained in a note in each version",
+   "evidence": "Theon, ed. Hiller p. 57.6 (ἐπίτασις καὶ ἄνεσις τοῦ πνεύματος) [checked]"
+  },
+  {
+   "latin": "tensio",
+   "version": "xylander",
+   "ru": "натяжение",
+   "en": "tightening",
+   "meaning_here": "tightening of strings by turning the pegs (X41)",
+   "evidence": "Shchetnikov's Russian Nicomachus, ch. 4 [checked]"
+  },
+  {
+   "latin": "tenor",
+   "version": "xylander",
+   "ru": "высота",
+   "en": "pitch",
+   "meaning_here": "the held pitch of a note (X08)",
+   "evidence": "Lewis & Short s.v. tenor (Quint. 1.5.22, 26) [checked]"
+  },
+  {
+   "latin": "acuitas",
+   "version": "xylander",
+   "ru": "высота",
+   "en": "acuteness",
+   "meaning_here": "acuteness, i.e. highness of pitch (X39); same Russian word as tenor",
+   "evidence": "DMLBS s.v. acuitas c [checked]"
+  },
+  {
+   "latin": "acutus / gravis",
+   "version": "both",
+   "ru": "высокий / низкий",
+   "en": "high / low",
+   "meaning_here": "of pitch (X14, X18, X32, X37; V17, V22, V37, V43, V45)",
+   "evidence": "about.md §4.5 [checked]"
+  },
+  {
+   "latin": "systema",
+   "version": "both",
+   "ru": "система",
+   "en": "system",
+   "meaning_here": "a (definite) combination of intervals (X10, V13)",
+   "evidence": "about.md §4.5 [checked]"
+  },
+  {
+   "latin": "complexus",
+   "version": "xylander",
+   "ru": "сочетание",
+   "en": "combination",
+   "meaning_here": "X10",
+   "evidence": "Lewis & Short s.v. complexus [checked]"
+  },
+  {
+   "latin": "constructio",
+   "version": "xylander",
+   "ru": "построение",
+   "en": "construction",
+   "meaning_here": "X11",
+   "evidence": "usage of this text (latin-texts.json) [checked]"
+  },
+  {
+   "latin": "complexio",
+   "version": "vinet",
+   "ru": "сочетание",
+   "en": "combination",
+   "meaning_here": "a joining together (of intervals)",
+   "evidence": "Gaffiot 2016 s.v. complexio [checked]"
+  },
+  {
+   "latin": "compositio",
+   "version": "vinet",
+   "ru": "составление",
+   "en": "composition",
+   "meaning_here": "putting together (of systems)",
+   "evidence": "Theon p. 48 σύνταξις [checked]"
+  },
+  {
+   "latin": "dimensio",
+   "version": "vinet",
+   "ru": "измерение",
+   "en": "dimension",
+   "meaning_here": "extension (the note has none, like a point)",
+   "evidence": "context [checked]"
+  },
+  {
+   "latin": "harmonia",
+   "version": "both",
+   "ru": "гармония",
+   "en": "harmony",
+   "meaning_here": "cosmic harmony (X04–X05, V05); the construction or composition of systems (X11, V14); the fitting of consonances (X45) and the agent that fits systems to a genus (X44, V52–V60)",
+   "evidence": "about.md §4.5 [checked]; Theon, ed. Hiller p. 48.12–13 [checked]"
+  },
+  {
+   "latin": "harmoniae particeps",
+   "version": "xylander",
+   "ru": "причастный гармонии",
+   "en": "partaking of harmony",
+   "meaning_here": "able to be attuned with another note (X08, X12)",
+   "evidence": "Theon, ed. Hiller p. 47.18–24 [checked]"
+  },
+  {
+   "latin": "convenientia",
+   "version": "vinet",
+   "ru": "согласие",
+   "en": "accord",
+   "meaning_here": "agreement, harmony; cognate with conveniens and convenire, kept visible",
+   "evidence": "Lewis & Short s.v. convenientia [checked]"
+  },
+  {
+   "latin": "conveniens (of a note)",
+   "version": "vinet",
+   "ru": "согласующийся",
+   "en": "accordant",
+   "meaning_here": "able to accord with another note (Vinet's own gloss, II.1)",
+   "evidence": "the Latin of V11/V15 [checked]; Boethius I.8 emmeles, aptus melo [checked]"
+  },
+  {
+   "latin": "convenire",
+   "version": "vinet",
+   "ru": "согласоваться",
+   "en": "to accord",
+   "meaning_here": "to agree with another note (II.1); of antiphonic consonance (III.7)",
+   "evidence": "context [checked]"
+  },
+  {
+   "latin": "concentus",
+   "version": "vinet",
+   "ru": "созвучие",
+   "en": "concord",
+   "meaning_here": "harmonious sounding together",
+   "evidence": "Lewis & Short s.v. concentus [checked]"
+  },
+  {
+   "latin": "absurdus et absonus",
+   "version": "vinet",
+   "ru": "нестройный и неблагозвучный",
+   "en": "out of tune and discordant",
+   "meaning_here": "unmusical sound",
+   "evidence": "Lewis & Short s.v. absurdus [checked]"
+  },
+  {
+   "latin": "crepitus",
+   "version": "vinet",
+   "ru": "треск",
+   "en": "clatter",
+   "meaning_here": "unmusical noise",
+   "evidence": "Lewis & Short s.v. crepitus [checked]"
+  },
+  {
+   "latin": "consonantia; consonare (both); consonus / dissonus (Xylander)",
+   "version": "both",
+   "ru": "консонанс; консонировать; консонирующий / диссонирующий",
+   "en": "consonance; to be consonant; consonant / dissonant",
+   "meaning_here": "X05, X13, X31–X33; V36–V38",
+   "evidence": "about.md §4.5 [checked]"
+  },
+  {
+   "latin": "paraphonum / antiphonum",
+   "version": "xylander",
+   "ru": "парафонное / антифонное",
+   "en": "paraphonon / antiphonon",
+   "meaning_here": "consonance of fourth and fifth (heard in succession) / of octave and its compounds (simultaneous) (X31–X32); Vinet leaves the same words without gloss, rendered “the paraphonic / the antiphonic” (V36–V37)",
+   "evidence": "Theon, ed. Hiller p. 48.16–49.2; LSJ s.vv. [checked]"
+  },
+  {
+   "latin": "paraphonum",
+   "version": "vinet",
+   "ru": "парафонное",
+   "en": "the paraphonic",
+   "meaning_here": "the kind of consonance of the fourth and fifth, sounding in unequal time; Xylander glosses the same word and it is rendered there by the Greek form (paraphonon, X31–X32)",
+   "evidence": "Theon, ed. Hiller p. 48.16–20 [checked]; Gaudentius 8, von Jan pp. 337–338 (different use) [checked]"
+  },
+  {
+   "latin": "antiphonum",
+   "version": "vinet",
+   "ru": "антифонное",
+   "en": "the antiphonic",
+   "meaning_here": "the kind of consonance of the octave and the intervals containing it, sounding in equal time; Xylander glosses the same word and it is rendered there by the Greek form (antiphonon, X31–X32)",
+   "evidence": "Theon, ed. Hiller p. 48.16–20 [checked]; Ps.-Aristotle, Problems XIX.16–17, von Jan p. 87 [checked]"
+  },
+  {
+   "latin": "assonans / obsonans",
+   "version": "xylander",
+   "ru": "«призвучное» / «противозвучное»",
+   "en": "'sounding-to' / 'sounding-against'",
+   "meaning_here": "Xylander's Latin calques of paraphonon and antiphonon (X32)",
+   "evidence": "Gaffiot s.v. adsono; Lewis & Short s.v. obsono [checked]"
+  },
+  {
+   "latin": "principium consonantiae",
+   "version": "vinet",
+   "ru": "начало консонанса",
+   "en": "the beginning of consonance",
+   "meaning_here": "tone, semitone, diesis",
+   "evidence": "Theon, ed. Hiller p. 49.4–5 [checked]"
+  },
+  {
+   "latin": "tetrachordum, pentachordum, octachordum",
+   "version": "both",
+   "ru": "тетрахорд, пентахорд, октахорд",
+   "en": "tetrachord, pentachord, octachord",
+   "meaning_here": "systems of the fourth, fifth and octave, of 4, 5 and 8 strings (X42, V49)",
+   "evidence": "about.md §4.5 [checked]"
+  },
+  {
+   "latin": "heccaedecachordum; Pentecaedecachordum",
+   "version": "xylander",
+   "ru": "геккайдекахорд; пентекайдекахорд",
+   "en": "hekkaidekachord; pentekaidekachord",
+   "meaning_here": "sixteen-note scheme of two octachords; fifteen-string instrument (X15)",
+   "evidence": "LSJ s.v. πεντεκαιδεκάχορδος [checked]"
+  },
+  {
+   "latin": "Pentekaedecachordum",
+   "version": "vinet",
+   "ru": "пятнадцатиструнный [инструмент]",
+   "en": "fifteen-string [instrument]",
+   "meaning_here": "the fifteen notes of the system",
+   "evidence": "LSJ s.v. πεντεκαιδεκάχορδος [checked]"
+  },
+  {
+   "latin": "Heckaedecachordum",
+   "version": "vinet",
+   "ru": "шестнадцатиструнная [система]",
+   "en": "sixteen-string [system]",
+   "meaning_here": "the two-octave system counted as two octachords (8 + 8)",
+   "evidence": "context V18, V49 [checked]"
+  },
+  {
+   "latin": "Proslambanomenos … nete hyperbolaeon (note names)",
+   "version": "xylander",
+   "ru": "просламбаномен, гипата низших, парипата низших, гипата диатоническая, гипата средних, парипата средних, диатоническая средних, меса единственная, парамес, трита отделённая, диатоническая отделённая, нета отделённая, трита высших, диатоническая высших, нета высших",
+   "en": "proslambanomenos, hypate hypaton, parhypate hypaton, hypate diatonos, hypate meson, parhypate meson, diatonos meson, mese monos, paramesos, trite diezeugmene, diatonos diezeugmene, nete diezeugmene, trite hyperbolaion, diatonos hyperbolaion, nete hyperbolaion",
+   "meaning_here": "the fifteen notes of the disjunct two-octave system (X14)",
+   "evidence": "about.md §4.4 [checked]; Boethius I.20, I.22 [checked]"
+  },
+  {
+   "latin": "mese monos",
+   "version": "xylander",
+   "ru": "меса единственная",
+   "en": "mese monos",
+   "meaning_here": "the mese, the one note without a tetrachord qualifier (μόνος 'alone')",
+   "evidence": "Vinet V17 'Mese solum' [checked]; LSJ s.v. μόνος [from memory]"
+  },
+  {
+   "latin": "Proslambanomenos … Nete hyperbolaeon",
+   "version": "vinet",
+   "ru": "просламбаномен, гипата низших, парипата низших, гипата диатоническая, гипата средних, парипата средних, диатоническая средних, меса, парамеса, трита / диатоническая / нета отделённая, трита / диатоническая / нета высших",
+   "en": "proslambanomenos, hypate hypaton, parhypate hypaton, hypate diatonos, hypate meson, parhypate meson, diatonos meson, mese, paramese, trite / diatonos / nete diezeugmene, trite / diatonos / nete hyperbolaion",
+   "meaning_here": "the fifteen notes of the two-octave system",
+   "evidence": "about.md § 4.4 [checked]"
+  },
+  {
+   "latin": "Mese solum",
+   "version": "vinet",
+   "ru": "меса одна",
+   "en": "mese alone",
+   "meaning_here": "the one note named without a tetrachord",
+   "evidence": "context [checked]"
+  },
+  {
+   "latin": "Paramese",
+   "version": "vinet",
+   "ru": "парамеса",
+   "en": "paramese",
+   "meaning_here": "the note above mese (Xylander: paramesos)",
+   "evidence": "about.md § 4.4 [checked]"
+  },
+  {
+   "latin": "genus",
+   "version": "both",
+   "ru": "род",
+   "en": "genus",
+   "meaning_here": "kind: of interval (X18), of consonance (X31), the three genera of melody (X44–X54, V52–V62), of systems (X52), and kinds of song or melody in general (X56–X57, V64)",
+   "evidence": "about.md §4.5 [checked]; usage of the texts (latin-texts.json) [checked]"
+  },
+  {
+   "latin": "species",
+   "version": "xylander",
+   "ru": "вид",
+   "en": "species",
+   "meaning_here": "species of notes (X15), of intervals (X26), of song (X56)",
+   "evidence": "usage of this text (latin-texts.json) [checked]"
+  },
+  {
+   "latin": "genus diatonicum (diatonon), chromaticum, harmonicum (Xylander); Diatonon / Diatonum, Chromaticon / Chromaticum, Harmonicum (Vinet)",
+   "version": "both",
+   "ru": "диатонический, хроматический, гармонический род",
+   "en": "the diatonic, chromatic, harmonic genus",
+   "meaning_here": "the three genera of the tetrachord; harmonicum is the genus usually called enharmonic, and both versions derive its name from harmonia (X44, X51; V52, V59)",
+   "evidence": "about.md §4.5 [checked]; Boethius, De inst. mus. I.21, ed. Friedlein pp. 212–213 [checked]; Theon, ed. Hiller p. 55.8 [checked]"
+  },
+  {
+   "latin": "melodia",
+   "version": "xylander",
+   "ru": "мелодия",
+   "en": "melody",
+   "meaning_here": "X44, X45, X51, X54, X56",
+   "evidence": "usage of this text (latin-texts.json) [checked]"
+  },
+  {
+   "latin": "cantilena",
+   "version": "xylander",
+   "ru": "напев",
+   "en": "tune",
+   "meaning_here": "a melodic line or song (X27, X44, X56, X57); Boethius' word",
+   "evidence": "Boethius I.21 heading, ed. Friedlein p. 212 [checked]"
+  },
+  {
+   "latin": "cantus",
+   "version": "xylander",
+   "ru": "пение",
+   "en": "song",
+   "meaning_here": "song, singing (X44, X45, X54, X56)",
+   "evidence": "usage of this text (latin-texts.json) [checked]"
+  },
+  {
+   "latin": "modulatio",
+   "version": "xylander",
+   "ru": "мелодическое движение",
+   "en": "modulation (classical sense)",
+   "meaning_here": "measured melodic movement, Xylander's gloss on melodia (X44); Xylander keeps “melody” for melodia, so modulatio needs another word (Vinet, who has no melodia, renders modulatio “melody”)",
+   "evidence": "Lewis & Short s.v. modulatio II [checked]"
+  },
+  {
+   "latin": "modulatio",
+   "version": "vinet",
+   "ru": "мелодия",
+   "en": "melody",
+   "meaning_here": "melody, melodic progression (V52–V65); Xylander’s modulatio (X44) is rendered differently, since he has melodia beside it",
+   "evidence": "context [checked]"
+  },
+  {
+   "latin": "modulus",
+   "version": "vinet",
+   "ru": "лад",
+   "en": "mode",
+   "meaning_here": "Lydian, Phrygian, Dorian",
+   "evidence": "Lewis & Short s.v. modulus [checked]; Gaffiot 2016 s.v. modulus ¶ 4 (mode, mélodie) [checked]"
+  },
+  {
+   "latin": "modulatu (supine)",
+   "version": "vinet",
+   "ru": "для исполнения",
+   "en": "to perform",
+   "meaning_here": "supine of modulor with difficillimum",
+   "evidence": "Lewis & Short s.v. modulatus, -us [checked]"
+  },
+  {
+   "latin": "chorda, nervus (both); fides (Xylander)",
+   "version": "both",
+   "ru": "струна",
+   "en": "string",
+   "meaning_here": "string of an instrument; synonyms in both versions",
+   "evidence": "Lewis & Short s.vv. chorda, nervus, fides [from memory]; usage of the texts (latin-texts.json) [checked]"
+  },
+  {
+   "latin": "clavus",
+   "version": "xylander",
+   "ru": "колок",
+   "en": "peg",
+   "meaning_here": "tuning peg (X41)",
+   "evidence": "DMLBS s.v. clavus (3) g [checked]"
+  },
+  {
+   "latin": "claviculi",
+   "version": "vinet",
+   "ru": "колки",
+   "en": "pegs",
+   "meaning_here": "tuning pegs",
+   "evidence": "DMLBS s.v. claviculus [checked]; Theon p. 57.3 κόλλαβοι [checked]"
+  },
+  {
+   "latin": "fistula",
+   "version": "vinet",
+   "ru": "трубка",
+   "en": "pipe",
+   "meaning_here": "pipe of a wind instrument",
+   "evidence": "Lewis & Short s.v. fistula [checked]"
+  },
+  {
+   "latin": "instrumentum, organum",
+   "version": "xylander",
+   "ru": "инструмент (оба)",
+   "en": "instrument (both)",
+   "meaning_here": "X15",
+   "evidence": "usage of this text (latin-texts.json) [checked]"
+  },
+  {
+   "latin": "concinno; concinne",
+   "version": "xylander",
+   "ru": "слаживать; слаженно",
+   "en": "attune; harmoniously",
+   "meaning_here": "X05, X12, X32, X44, X56",
+   "evidence": "Lewis & Short s.v. concinno [checked]"
+  },
+  {
+   "latin": "coapto; coaptatio",
+   "version": "xylander",
+   "ru": "прилаживать; прилаживание",
+   "en": "fit (together); fitting-together",
+   "meaning_here": "X05, X45, X47",
+   "evidence": "Lewis & Short s.v. coapto [checked]"
+  },
+  {
+   "latin": "apto",
+   "version": "xylander",
+   "ru": "приспосабливать",
+   "en": "adapt",
+   "meaning_here": "X56",
+   "evidence": "usage of this text (latin-texts.json) [checked]"
+  },
+  {
+   "latin": "auctio",
+   "version": "xylander",
+   "ru": "наращивание",
+   "en": "augmentation",
+   "meaning_here": "increase (X26)",
+   "evidence": "Lewis & Short s.v. auctio I [checked]"
+  },
+  {
+   "latin": "coalitus; coalesco",
+   "version": "xylander",
+   "ru": "срастание; срастаться",
+   "en": "coalescence; coalesce",
+   "meaning_here": "X27, X49, X51",
+   "evidence": "Lewis & Short s.v. coalitus [checked]"
+  },
+  {
+   "latin": "potentia sive facultas",
+   "version": "xylander",
+   "ru": "в возможности, или по способности",
+   "en": "in potency, or capacity",
+   "meaning_here": "X27",
+   "evidence": "[from memory]"
+  },
+  {
+   "latin": "vis, potestas, materies, ambitus",
+   "version": "xylander",
+   "ru": "сила, мощь, материя, объём",
+   "en": "force, power, matter, compass",
+   "meaning_here": "what a system contains of its interval (X42)",
+   "evidence": "usage of this text; Vinet V49 [checked]"
+  },
+  {
+   "latin": "facultas",
+   "version": "vinet",
+   "ru": "возможность",
+   "en": "capacity",
+   "meaning_here": "what a system can contain of an interval",
+   "evidence": "Lewis & Short s.v. facultas [checked]"
+  },
+  {
+   "latin": "vis",
+   "version": "vinet",
+   "ru": "сила",
+   "en": "force",
+   "meaning_here": "the force, value of an interval (III.4, IV.1)",
+   "evidence": "context [checked]"
+  },
+  {
+   "latin": "materia",
+   "version": "both",
+   "ru": "материя",
+   "en": "matter",
+   "meaning_here": "physical embodiment, as opposed to abstraction (X19, X43; V23, V50)",
+   "evidence": "usage of the texts (latin-texts.json) [checked]"
+  },
+  {
+   "latin": "monas",
+   "version": "vinet",
+   "ru": "единица",
+   "en": "unit",
+   "meaning_here": "the arithmetical unit (Greek loan)",
+   "evidence": "Lewis & Short s.v. monas [checked]"
+  },
+  {
+   "latin": "diametrus (both); dimetiens (Vinet)",
+   "version": "both",
+   "ru": "диагональ",
+   "en": "diagonal",
+   "meaning_here": "diagonal of a square (X24, V29)",
+   "evidence": "Gaffiot 2016 s.v. dimetiens; Lewis & Short s.v. dimetior [checked]"
+  },
+  {
+   "latin": "rhythmus (Xylander); rythmus (Vinet)",
+   "version": "both",
+   "ru": "ритм",
+   "en": "rhythm",
+   "meaning_here": "rhythm, or more broadly ordered arrangement (X26, V31)",
+   "evidence": "DMLBS s.v. rhythmus, sense 1 [checked]; Gaffiot 2016 s.v. rhythmus [checked]"
+  },
+  {
+   "latin": "transitus, mansio, fluxus, tactus, pulsatio, administratio",
+   "version": "xylander",
+   "ru": "переход, задержка, течение, касание, удар, обращение",
+   "en": "transition, stay, flowing, touch, stroke, handling",
+   "meaning_here": "features of melodic and instrumental practice (X57)",
+   "evidence": "Lewis & Short s.v. mansio; LSJ s.v. μονή [checked]"
+  },
+  {
+   "latin": "transitio; pausa; fluxus; tactus; pulsus",
+   "version": "vinet",
+   "ru": "переход; пауза; течение; касание; удар",
+   "en": "transition; pause; flowing; touch; stroke",
+   "meaning_here": "factors of melodic variety",
+   "evidence": "Lewis & Short s.vv. [checked]; DMLBS s.v. pausa [checked]"
+  },
+  {
+   "latin": "Paean, Hymenaeus, Exodius (Xylander); Paeeon, Hymenaeus, Exodius (Vinet)",
+   "version": "both",
+   "ru": "пеан, гименей, эксодий",
+   "en": "the paean, the hymenaeus, the exodius",
+   "meaning_here": "kinds of song (X56, V64); Exodius, as printed in both versions, is masculine in agreement with the other two, for the usual exodium",
+   "evidence": "Lewis & Short s.v. exodium; LSJ s.v. ἐξόδιος [checked]; LSJ s.v. Παιάν (Ep. Παιήων) [checked]"
+  },
+  {
+   "latin": "temperare; temperatum",
+   "version": "vinet",
+   "ru": "соразмерять; соразмерно составленный",
+   "en": "to blend; blended",
+   "meaning_here": "to mix in due measure",
+   "evidence": "Lewis & Short s.v. tempero [checked]"
+  },
+  {
+   "latin": "temperamentum (manus)",
+   "version": "vinet",
+   "ru": "мера [движений руки]",
+   "en": "measure (of the hand)",
+   "meaning_here": "due measure of the hand's movements",
+   "evidence": "Lewis & Short s.v. temperamentum [checked]"
+  },
+  {
+   "latin": "meditatio; exercitatio",
+   "version": "vinet",
+   "ru": "подготовка; упражнение",
+   "en": "preparation; practice",
+   "meaning_here": "rehearsal and practice",
+   "evidence": "Lewis & Short s.v. meditatio [checked]"
+  },
+  {
+   "latin": "simplum; generosum; naturale",
+   "version": "vinet",
+   "ru": "простой; благородный; естественный",
+   "en": "simple; noble; natural",
+   "meaning_here": "qualities of the diatonic genus",
+   "evidence": "Lewis & Short s.v. simplus, generosus [checked]; Theon p. 56.3–5 [checked]"
+  },
+  {
+   "latin": "affectus",
+   "version": "xylander",
+   "ru": "душевные движения",
+   "en": "affections",
+   "meaning_here": "emotions (X50)",
+   "evidence": "usage of this text (latin-texts.json) [checked]"
+  },
+  {
+   "latin": "nomenclatio",
+   "version": "xylander",
+   "ru": "наименование",
+   "en": "name",
+   "meaning_here": "X14",
+   "evidence": "Lewis & Short s.v. nomenclatio [checked]"
+  },
+  {
+   "latin": "sensus; intellectus",
+   "version": "xylander",
+   "ru": "чувство; ум",
+   "en": "sense; intellect",
+   "meaning_here": "X03, X07",
+   "evidence": "usage of this text (latin-texts.json) [checked]"
+  },
+  {
+   "latin": "beatitas; congruentia",
+   "version": "xylander",
+   "ru": "блаженство; согласованность",
+   "en": "blessedness; congruence",
+   "meaning_here": "X07",
+   "evidence": "Lewis & Short s.v. beatitas [checked]"
+  }
+ ],
+ "D": [
+  {
+   "latin": "Musica",
+   "version": "xylander",
+   "ru": "музыка",
+   "en": "music",
+   "meaning_here": "Both the principle holding the universe together and, within the chosen field of inquiry, the art apprehended by hearing.",
+   "evidence": "Xylander 40.3–41.3 [checked]."
+  },
+  {
+   "latin": "commensuratio",
+   "version": "xylander",
+   "ru": "соразмерность",
+   "en": "commensuration",
+   "meaning_here": "Agreement of things in measure, paired with proportion.",
+   "evidence": "Xylander 40.3–15 [checked]."
+  },
+  {
+   "latin": "proportio",
+   "version": "xylander",
+   "ru": "пропорция; отношение",
+   "en": "proportion; ratio",
+   "meaning_here": "Proportion in the account of the world, then a numerical relation between quantities in the theory of intervals.",
+   "evidence": "Xylander 40.3–15 and 45.24–46.3 [checked]."
+  },
+  {
+   "latin": "proportionalitas",
+   "version": "xylander",
+   "ru": "пропорциональность",
+   "en": "proportionality",
+   "meaning_here": "The ordering of relations to one another. In Boethius the word can specifically denote an arrangement of equal ratios.",
+   "evidence": "Xylander 40.13–15 [checked]. Boethius, De institutione musica II.12, ed. Friedlein (1867) [checked]"
+  },
+  {
+   "latin": "harmonia",
+   "version": "xylander",
+   "ru": "гармония",
+   "en": "harmony",
+   "meaning_here": "Applies first to the universe, then to the building and fitting together of musical systems.",
+   "evidence": "Xylander 40.13–20, 41.8–13, 47.21–48.1 [checked]."
+  },
+  {
+   "latin": "consonantia",
+   "version": "both",
+   "ru": "консонанс",
+   "en": "consonance",
+   "meaning_here": "Consonance. Xylander first uses the term for the fit of the cosmos. Both versions use it in classifying musical intervals.",
+   "evidence": "Xylander 40.15–20 and 41.13–16 [checked]. Boethius, De institutione musica I.8, ed. Friedlein (1867), p. 195 [checked] Vinet, Tournon 1591, 48.8–11 [checked]."
+  },
+  {
+   "latin": "congruentia",
+   "version": "xylander",
+   "ru": "согласие",
+   "en": "agreement",
+   "meaning_here": "Agreement in nature, glossed by Xylander as harmony.",
+   "evidence": "Xylander 40.21–41.3 [checked]."
+  },
+  {
+   "latin": "sonus",
+   "version": "xylander",
+   "ru": "звук",
+   "en": "note",
+   "meaning_here": "An individual musical sound of determinate pitch, with a capacity for harmony.",
+   "evidence": "Xylander 41.4–16 [checked]. Boethius, De institutione musica I.8, ed. Friedlein (1867), p. 195 [checked]"
+  },
+  {
+   "latin": "vox",
+   "version": "xylander",
+   "ru": "голос",
+   "en": "voice",
+   "meaning_here": "The sounding voice whose pitch constitutes a note.",
+   "evidence": "Xylander 41.4–5 [checked]. Boethius, De institutione musica I.8, ed. Friedlein (1867), p. 195 [checked]"
+  },
+  {
+   "latin": "intensio",
+   "version": "xylander",
+   "ru": "высота",
+   "en": "pitch",
+   "meaning_here": "In the definition of one note, the level at which the voice sounds.",
+   "evidence": "Xylander 41.4–5 [checked]. Boethius, De institutione musica I.8, ed. Friedlein (1867), p. 195 [checked]"
+  },
+  {
+   "latin": "tenor",
+   "version": "xylander",
+   "ru": "ровное звучание",
+   "en": "steady tone",
+   "meaning_here": "Xylander’s gloss for the pitch at which a voice is held.",
+   "evidence": "Lewis & Short, s.v. tenor I [checked] Xylander 41.4–5 [checked]."
+  },
+  {
+   "latin": "intervallum",
+   "version": "xylander",
+   "ru": "интервал",
+   "en": "interval",
+   "meaning_here": "The relation between two notes.",
+   "evidence": "Xylander 41.5–7 [checked]. Boethius, De institutione musica I.8, ed. Friedlein (1867), p. 195 [checked]"
+  },
+  {
+   "latin": "ratio",
+   "version": "xylander",
+   "ru": "отношение",
+   "en": "ratio",
+   "meaning_here": "The relation of one thing to another, specified by numbers in the discussion of consonances.",
+   "evidence": "Xylander 41.5–7 and 42.8–15 [checked]."
+  },
+  {
+   "latin": "respectus",
+   "version": "xylander",
+   "ru": "соотношение",
+   "en": "relation",
+   "meaning_here": "The broader term Xylander uses to gloss ratio in the definition of an interval.",
+   "evidence": "Xylander 41.5–7 [checked]."
+  },
+  {
+   "latin": "systema",
+   "version": "xylander",
+   "ru": "система",
+   "en": "system",
+   "meaning_here": "A definite combination of intervals.",
+   "evidence": "Xylander 41.7–8 and 47.5–17 [checked]."
+  },
+  {
+   "latin": "complexus",
+   "version": "xylander",
+   "ru": "сочетание",
+   "en": "combination",
+   "meaning_here": "The association of intervals which constitutes a system.",
+   "evidence": "Xylander 41.7–8 [checked]."
+  },
+  {
+   "latin": "constructio",
+   "version": "xylander",
+   "ru": "построение",
+   "en": "construction",
+   "meaning_here": "The building or organization of systems that defines harmony.",
+   "evidence": "Xylander 41.8–9 and 47.21–48.1 [checked]."
+  },
+  {
+   "latin": "consonus",
+   "version": "xylander",
+   "ru": "консонантный",
+   "en": "consonant",
+   "meaning_here": "Describes a note capable of fitting harmoniously with another.",
+   "evidence": "Xylander 41.9–16 [checked]."
+  },
+  {
+   "latin": "dissonus",
+   "version": "xylander",
+   "ru": "диссонантный",
+   "en": "dissonant",
+   "meaning_here": "Describes a note that does not fit another in harmony.",
+   "evidence": "Xylander 41.9–16 [checked]."
+  },
+  {
+   "latin": "strepitus",
+   "version": "xylander",
+   "ru": "шум",
+   "en": "noise",
+   "meaning_here": "A random sound incapable of serving consonance.",
+   "evidence": "Xylander 41.13–16 [checked]."
+  },
+  {
+   "latin": "gravis / acutus",
+   "version": "xylander",
+   "ru": "низкий / высокий",
+   "en": "low / high",
+   "meaning_here": "The two directions or regions of pitch.",
+   "evidence": "Xylander 41.16–20 [checked]."
+  },
+  {
+   "latin": "Proslambanomenos",
+   "version": "xylander",
+   "ru": "просламбаномен",
+   "en": "proslambanomenos",
+   "meaning_here": "Ascending position 1. Added note below the lowest tetrachord.",
+   "evidence": "Xylander 41.16–25, printed list [checked]. Boethius, De institutione musica I.22, ed. Friedlein (1867) [checked]_ed._Friedlein)/Liber_primus"
+  },
+  {
+   "latin": "Hypate hypaton",
+   "version": "xylander",
+   "ru": "гипата низших",
+   "en": "hypate hypaton",
+   "meaning_here": "Ascending position 2. Lower boundary of the lowest tetrachord.",
+   "evidence": "Xylander 41.16–25, printed list [checked]. Boethius, De institutione musica I.22, ed. Friedlein (1867) [checked]_ed._Friedlein)/Liber_primus"
+  },
+  {
+   "latin": "parhypate hypaton",
+   "version": "xylander",
+   "ru": "парипата низших",
+   "en": "parhypate hypaton",
+   "meaning_here": "Ascending position 3. Lower interior note of the lowest tetrachord.",
+   "evidence": "Xylander 41.16–25, printed list [checked]. Boethius, De institutione musica I.22, ed. Friedlein (1867) [checked]_ed._Friedlein)/Liber_primus"
+  },
+  {
+   "latin": "hypate diatonos",
+   "version": "xylander",
+   "ru": "гипата диатоническая",
+   "en": "hypate diatonos",
+   "meaning_here": "Ascending position 4. Upper interior note of the lowest tetrachord, in the position usually called lichanos hypaton.",
+   "evidence": "Xylander 41.16–25, printed list [checked]. Boethius, De institutione musica I.22, ed. Friedlein (1867) [checked]_ed._Friedlein)/Liber_primus"
+  },
+  {
+   "latin": "hypate meson",
+   "version": "xylander",
+   "ru": "гипата средних",
+   "en": "hypate meson",
+   "meaning_here": "Ascending position 5. Shared boundary of the lowest and middle tetrachords.",
+   "evidence": "Xylander 41.16–25, printed list [checked]. Boethius, De institutione musica I.22, ed. Friedlein (1867) [checked]_ed._Friedlein)/Liber_primus"
+  },
+  {
+   "latin": "parhypate meson",
+   "version": "xylander",
+   "ru": "парипата средних",
+   "en": "parhypate meson",
+   "meaning_here": "Ascending position 6. Lower interior note of the middle tetrachord.",
+   "evidence": "Xylander 41.16–25, printed list [checked]. Boethius, De institutione musica I.22, ed. Friedlein (1867) [checked]_ed._Friedlein)/Liber_primus"
+  },
+  {
+   "latin": "diatonos meson",
+   "version": "xylander",
+   "ru": "диатоническая средних",
+   "en": "diatonos meson",
+   "meaning_here": "Ascending position 7. Upper interior note of the middle tetrachord.",
+   "evidence": "Xylander 41.16–25, printed list [checked]. Boethius, De institutione musica I.22, ed. Friedlein (1867) [checked]_ed._Friedlein)/Liber_primus"
+  },
+  {
+   "latin": "mese monos",
+   "version": "xylander",
+   "ru": "просто меса",
+   "en": "simply mese",
+   "meaning_here": "Ascending position 8. The middle note. Monos appears to indicate that the name stands alone.",
+   "evidence": "Xylander 41.16–25, printed list [checked]. Boethius, De institutione musica I.22, ed. Friedlein (1867) [checked]_ed._Friedlein)/Liber_primus"
+  },
+  {
+   "latin": "paramesos",
+   "version": "xylander",
+   "ru": "парамес",
+   "en": "paramesos",
+   "meaning_here": "Ascending position 9. The note above mese across the tone of disjunction.",
+   "evidence": "Xylander 41.16–25, printed list [checked]. Boethius, De institutione musica I.22, ed. Friedlein (1867) [checked]_ed._Friedlein)/Liber_primus"
+  },
+  {
+   "latin": "trite diezeugmene",
+   "version": "xylander",
+   "ru": "трита отделённая",
+   "en": "trite diezeugmene",
+   "meaning_here": "Ascending position 10. Lower interior note of the disjunct tetrachord.",
+   "evidence": "Xylander 41.16–25, printed list [checked]. Boethius, De institutione musica I.22, ed. Friedlein (1867) [checked]_ed._Friedlein)/Liber_primus"
+  },
+  {
+   "latin": "diatonos diezeugmene",
+   "version": "xylander",
+   "ru": "диатоническая отделённая",
+   "en": "diatonos diezeugmene",
+   "meaning_here": "Ascending position 11. Upper interior note of the disjunct tetrachord.",
+   "evidence": "Xylander 41.16–25, printed list [checked]. Boethius, De institutione musica I.22, ed. Friedlein (1867) [checked]_ed._Friedlein)/Liber_primus"
+  },
+  {
+   "latin": "nete diezeugmene",
+   "version": "xylander",
+   "ru": "нета отделённая",
+   "en": "nete diezeugmene",
+   "meaning_here": "Ascending position 12. Shared boundary of the disjunct and highest tetrachords.",
+   "evidence": "Xylander 41.16–25, printed list [checked]. Boethius, De institutione musica I.22, ed. Friedlein (1867) [checked]_ed._Friedlein)/Liber_primus"
+  },
+  {
+   "latin": "trite hyperbolaeon",
+   "version": "xylander",
+   "ru": "трита высших",
+   "en": "trite hyperbolaion",
+   "meaning_here": "Ascending position 13. Lower interior note of the highest tetrachord.",
+   "evidence": "Xylander 41.16–25, printed list [checked]. Boethius, De institutione musica I.22, ed. Friedlein (1867) [checked]_ed._Friedlein)/Liber_primus"
+  },
+  {
+   "latin": "diatonos hyperbolaeon",
+   "version": "xylander",
+   "ru": "диатоническая высших",
+   "en": "diatonos hyperbolaion",
+   "meaning_here": "Ascending position 14. Upper interior note of the highest tetrachord.",
+   "evidence": "Xylander 41.16–25, printed list [checked]. Boethius, De institutione musica I.22, ed. Friedlein (1867) [checked]_ed._Friedlein)/Liber_primus"
+  },
+  {
+   "latin": "nete hyperbolaeon",
+   "version": "xylander",
+   "ru": "нета высших",
+   "en": "nete hyperbolaion",
+   "meaning_here": "Ascending position 15. Upper limit of the highest tetrachord and of the whole series.",
+   "evidence": "Xylander 41.16–25, printed list [checked]. Boethius, De institutione musica I.22, ed. Friedlein (1867) [checked]_ed._Friedlein)/Liber_primus"
+  },
+  {
+   "latin": "heccaedecachordum",
+   "version": "xylander",
+   "ru": "шестнадцатиструнный [инструмент]",
+   "en": "sixteen-stringed instrument",
+   "meaning_here": "The system formed by counting both octachords in full, glossed by Xylander as an instrument of sixteen strings.",
+   "evidence": "Xylander 41.25–42.5, printed pages [checked]."
+  },
+  {
+   "latin": "Pentecaedecachordum",
+   "version": "xylander",
+   "ru": "пятнадцатиструнный [инструмент]",
+   "en": "fifteen-stringed instrument",
+   "meaning_here": "The Greek name offered for the instrument with fifteen distinct strings.",
+   "evidence": "Xylander 41.25–42.5, printed pages [checked]."
+  },
+  {
+   "latin": "chorda / fides",
+   "version": "xylander",
+   "ru": "струна",
+   "en": "string",
+   "meaning_here": "The actual string of an instrument or the single pitch it supplies.",
+   "evidence": "Xylander 41.25–42.5 and 42.18–21 [checked]."
+  },
+  {
+   "latin": "organum / instrumentum",
+   "version": "xylander",
+   "ru": "инструмент",
+   "en": "instrument",
+   "meaning_here": "The physical instrument on which the notes are realized.",
+   "evidence": "Xylander 41.25–42.5 [checked]."
+  },
+  {
+   "latin": "octachordum",
+   "version": "xylander",
+   "ru": "октахорд",
+   "en": "octachord",
+   "meaning_here": "A system of eight notes, whose last note can serve as the first note of the next series.",
+   "evidence": "Xylander 41.25–42.7 [checked]."
+  },
+  {
+   "latin": "diesis",
+   "version": "xylander",
+   "ru": "диеса",
+   "en": "diesis",
+   "meaning_here": "The smallest interval in this reckoning, described as half a semitone.",
+   "evidence": "Xylander 42.8–15 [checked]. Boethius, De institutione musica I.16–17, ed. Friedlein (1867) [checked]"
+  },
+  {
+   "latin": "semitonium",
+   "version": "xylander",
+   "ru": "полутон",
+   "en": "semitone",
+   "meaning_here": "Twice the rise of the diesis and nominally half the tone in Xylander’s account.",
+   "evidence": "Xylander 42.8–15 [checked]. Boethius, De institutione musica I.16–17, ed. Friedlein (1867) [checked]"
+  },
+  {
+   "latin": "tonus",
+   "version": "xylander",
+   "ru": "тон",
+   "en": "tone",
+   "meaning_here": "An interval with the ratio 9:8, described here as two semitones.",
+   "evidence": "Xylander 42.8–15 [checked]. Boethius, De institutione musica I.16–17, ed. Friedlein (1867) [checked]"
+  },
+  {
+   "latin": "sesquioctava",
+   "version": "xylander",
+   "ru": "сверхосминное [9:8]",
+   "en": "sesquioctave [9:8]",
+   "meaning_here": "The greater term contains the lesser plus one eighth of the lesser.",
+   "evidence": "Xylander 42.8–15 [checked]. Boethius, De institutione musica I.16–17, ed. Friedlein (1867) [checked]"
+  },
+  {
+   "latin": "semisesquioctava",
+   "version": "xylander",
+   "ru": "полусверхосминное [отношение]",
+   "en": "semisesquioctave",
+   "meaning_here": "An interval half the size of that designated by the sesquioctave ratio.",
+   "evidence": "Xylander 42.18–21 [checked]."
+  },
+  {
+   "latin": "unitas",
+   "version": "xylander",
+   "ru": "единица",
+   "en": "unit",
+   "meaning_here": "Indivisible in reckoning by whole units, divisible when represented by a continuous magnitude.",
+   "evidence": "Euclid, Elements VII, definitions 1–2 [checked] Xylander 42.15–18 [checked]."
+  },
+  {
+   "latin": "quadratum / numerus quadratus",
+   "version": "xylander",
+   "ru": "квадрат / квадратное число",
+   "en": "square / square number",
+   "meaning_here": "A square area or, in arithmetic, the product of a whole number by itself.",
+   "evidence": "Xylander 43.1–14, including the diagrams [checked]."
+  },
+  {
+   "latin": "radix quadrata",
+   "version": "xylander",
+   "ru": "квадратный корень",
+   "en": "square root",
+   "meaning_here": "Here a whole number whose square is the number in question.",
+   "evidence": "Xylander 43.1–10 [checked]."
+  },
+  {
+   "latin": "diameter",
+   "version": "xylander",
+   "ru": "диагональ",
+   "en": "diagonal",
+   "meaning_here": "The diagonal of the square, used as the side of a larger square or determined by the side of a smaller original.",
+   "evidence": "Xylander 43.10–14 [checked]. Euclid, Elements I.47 [checked]"
+  },
+  {
+   "latin": "auctio",
+   "version": "xylander",
+   "ru": "увеличение",
+   "en": "increase",
+   "meaning_here": "Formation of a larger interval by adding the measures of smaller intervals.",
+   "evidence": "Lewis & Short, s.v. auctio I [checked] Xylander 43.16–21 [checked]."
+  },
+  {
+   "latin": "tridiesis",
+   "version": "xylander",
+   "ru": "тридиеса",
+   "en": "tridiesis",
+   "meaning_here": "The sum of three dieses.",
+   "evidence": "Xylander 43.16–44.1 [checked]."
+  },
+  {
+   "latin": "trisemitonium",
+   "version": "xylander",
+   "ru": "трёхполутон",
+   "en": "trihemitone",
+   "meaning_here": "An interval with the span of three semitones.",
+   "evidence": "Xylander 43.16–44.1 and 48.16–22 [checked]."
+  },
+  {
+   "latin": "ditonus",
+   "version": "xylander",
+   "ru": "дитон",
+   "en": "ditone",
+   "meaning_here": "An interval with the span of two tones.",
+   "evidence": "Xylander 43.16–21 and 48.22–49.1 [checked]."
+  },
+  {
+   "latin": "tritonus",
+   "version": "xylander",
+   "ru": "тритон",
+   "en": "tritone",
+   "meaning_here": "An interval with the span of three tones.",
+   "evidence": "Xylander 43.16–21 [checked]."
+  },
+  {
+   "latin": "rhythmus",
+   "version": "xylander",
+   "ru": "ритм",
+   "en": "rhythm",
+   "meaning_here": "Rhythm as a condition on which interval combinations can be admitted.",
+   "evidence": "Xylander 43.16–21 [checked]."
+  },
+  {
+   "latin": "compositum / incompositum intervallum",
+   "version": "xylander",
+   "ru": "составной / несоставной интервал",
+   "en": "composite / incomposite interval",
+   "meaning_here": "In the juxtaposed definitions, the components may be counted although the interval is performed as one step.",
+   "evidence": "Xylander 43.16–44.5 [checked]. Boethius, De institutione musica I.23, ed. Friedlein (1867) [checked]_ed._Friedlein)/Liber_primus"
+  },
+  {
+   "latin": "cantilena",
+   "version": "xylander",
+   "ru": "напев",
+   "en": "tune",
+   "meaning_here": "A tune, here envisaged as being sounded in a single interval.",
+   "evidence": "Lewis & Short, s.v. cantilena II [checked] Xylander 43.21–44.1 [checked]."
+  },
+  {
+   "latin": "potentia / facultas",
+   "version": "xylander",
+   "ru": "возможность / способность",
+   "en": "potential / capacity",
+   "meaning_here": "How distinct musical magnitudes can be contained in one sounded interval.",
+   "evidence": "Xylander 43.21–44.1 [checked]."
+  },
+  {
+   "latin": "Musica",
+   "version": "vinet",
+   "ru": "музыка",
+   "en": "music",
+   "meaning_here": "The discipline of music, extending from the order of the universe to audible sound.",
+   "evidence": "Vinet, Tournon 1591, I.1–2, pp. 41–42 [checked]. Boethius, De institutione musica I.2, ed. Friedlein (1867), pp. 187–188 [checked]."
+  },
+  {
+   "latin": "Universitas",
+   "version": "vinet",
+   "ru": "вселенная",
+   "en": "universe",
+   "meaning_here": "The totality of things, also expressly identified with music.",
+   "evidence": "Vinet, Tournon 1591, I.1, p. 41 [checked]."
+  },
+  {
+   "latin": "symmetria",
+   "version": "vinet",
+   "ru": "соразмерность",
+   "en": "symmetry",
+   "meaning_here": "Commensurate arrangement of parts.",
+   "evidence": "Vinet, Tournon 1591, I.1, p. 41 [checked]. Lewis and Short, s.v. symmetria [checked]."
+  },
+  {
+   "latin": "proportio",
+   "version": "vinet",
+   "ru": "пропорция",
+   "en": "proportion",
+   "meaning_here": "Proportion in nature and artistic production, later applied to musical quantities.",
+   "evidence": "Vinet, Tournon 1591, I.1, p. 41 [checked]. Lewis and Short, s.v. proportio [checked]."
+  },
+  {
+   "latin": "convenientia",
+   "version": "vinet",
+   "ru": "согласие",
+   "en": "accord",
+   "meaning_here": "Agreement in the universe, nature or the sounding of notes.",
+   "evidence": "Vinet, Tournon 1591, I.1 and II.1, pp. 41–43 [checked]. Lewis and Short, s.v. convenientia [checked]."
+  },
+  {
+   "latin": "harmonia",
+   "version": "vinet",
+   "ru": "гармония",
+   "en": "harmony",
+   "meaning_here": "In the opening, concord of the universe. Technically, the putting together of systems.",
+   "evidence": "Vinet, Tournon 1591, I.1 and II.1, pp. 41–42 [checked]."
+  },
+  {
+   "latin": "sonus",
+   "version": "vinet",
+   "ru": "звук",
+   "en": "note",
+   "meaning_here": "A musical note defined by pitch and the possibility of accord.",
+   "evidence": "Vinet, Tournon 1591, II.1, p. 42 [checked]. Boethius, De institutione musica I.8, ed. Friedlein (1867), p. 195 [checked]."
+  },
+  {
+   "latin": "vox",
+   "version": "vinet",
+   "ru": "голос",
+   "en": "voice",
+   "meaning_here": "The voice sounding at a pitch.",
+   "evidence": "Vinet, Tournon 1591, II.1, p. 42 [checked]. Boethius, De institutione musica I.8, ed. Friedlein (1867), p. 195 [checked]."
+  },
+  {
+   "latin": "intensio",
+   "version": "vinet",
+   "ru": "высота",
+   "en": "pitch",
+   "meaning_here": "In V11 the determinate pitch at which a voice sounds.",
+   "evidence": "Vinet, Tournon 1591, II.1, p. 42 [checked]. Boethius, De institutione musica I.8, ed. Friedlein (1867), p. 195 [checked]."
+  },
+  {
+   "latin": "conveniens; convenire",
+   "version": "vinet",
+   "ru": "способный к согласию; согласоваться",
+   "en": "capable of accord; to accord",
+   "meaning_here": "Capable of agreeing in pitch with another note in a musical context.",
+   "evidence": "Vinet, Tournon 1591, II.1, pp. 42–43 [checked]. Lewis and Short, s.v. convenientia [checked]."
+  },
+  {
+   "latin": "intervallum",
+   "version": "vinet",
+   "ru": "интервал",
+   "en": "interval",
+   "meaning_here": "A relation between notes, later given a size.",
+   "evidence": "Vinet, Tournon 1591, II.1, p. 42 [checked]. Boethius, De institutione musica I.8, ed. Friedlein (1867), p. 195 [checked]."
+  },
+  {
+   "latin": "habitudo",
+   "version": "vinet",
+   "ru": "отношение",
+   "en": "relation",
+   "meaning_here": "The way one sound stands to another.",
+   "evidence": "Vinet, Tournon 1591, II.1, p. 42 [checked]."
+  },
+  {
+   "latin": "systema",
+   "version": "vinet",
+   "ru": "система",
+   "en": "system",
+   "meaning_here": "A collection of intervals regarded as a whole.",
+   "evidence": "Vinet, Tournon 1591, II.1, p. 42 [checked]."
+  },
+  {
+   "latin": "complexio",
+   "version": "vinet",
+   "ru": "сочетание",
+   "en": "grouping",
+   "meaning_here": "A combination of intervals that constitutes a system.",
+   "evidence": "Vinet, Tournon 1591, II.1, p. 42 [checked]. Lewis and Short, s.v. complexio [checked]."
+  },
+  {
+   "latin": "compositio",
+   "version": "vinet",
+   "ru": "соединение",
+   "en": "putting together",
+   "meaning_here": "The assembling of musical systems in the definition of harmony.",
+   "evidence": "Vinet, Tournon 1591, II.1, p. 42 [checked]."
+  },
+  {
+   "latin": "punctum",
+   "version": "both",
+   "ru": "точка",
+   "en": "point",
+   "meaning_here": "An entity without parts, used to illustrate the lack of pitch-dimension of a note.",
+   "evidence": "Vinet, Tournon 1591, II.1, p. 42 [checked]. Euclid, Elements I, def. 1 (Clark University edition, ed. D. Joyce) [checked]. Xylander, Basel 1556, 41.9–13 [checked]."
+  },
+  {
+   "latin": "dimensio",
+   "version": "vinet",
+   "ru": "протяжённость",
+   "en": "dimension",
+   "meaning_here": "Extent, absent from a single sounding pitch.",
+   "evidence": "Vinet, Tournon 1591, II.1, p. 42 [checked]."
+  },
+  {
+   "latin": "crepitus",
+   "version": "vinet",
+   "ru": "шум",
+   "en": "noise",
+   "meaning_here": "A chance sound that cannot participate in musical accord.",
+   "evidence": "Vinet, Tournon 1591, II.1, p. 43 [checked]. Lewis and Short, s.v. crepitus [checked]."
+  },
+  {
+   "latin": "absurdus; absonus",
+   "version": "vinet",
+   "ru": "неблагозвучный; нестройный",
+   "en": "jarring; out of tune",
+   "meaning_here": "Two near-synonyms applied to a sound unfit for accord with another.",
+   "evidence": "Vinet, Tournon 1591, II.1, pp. 42–43 [checked]. Lewis and Short, s.vv. absurdus, absonus [checked]."
+  },
+  {
+   "latin": "concentus",
+   "version": "vinet",
+   "ru": "созвучие",
+   "en": "concord",
+   "meaning_here": "The harmonious sounding together of notes.",
+   "evidence": "Vinet, Tournon 1591, II.1, p. 43 [checked]. Lewis and Short, s.v. concentus [checked]."
+  },
+  {
+   "latin": "gravis; acutus",
+   "version": "vinet",
+   "ru": "низкий; высокий",
+   "en": "low; high",
+   "meaning_here": "Pitch distinctions determining the direction of the list.",
+   "evidence": "Vinet, Tournon 1591, II.2, p. 43 [checked]. Vitruvius, De architectura V.4.2 [checked]."
+  },
+  {
+   "latin": "Proslambanomenos",
+   "version": "vinet",
+   "ru": "просламбаномен",
+   "en": "proslambanomenos",
+   "meaning_here": "The added lowest note.",
+   "evidence": "Vinet, Tournon 1591, II.2, p. 43 [checked]. Boethius, De institutione musica I.20, I.22, PL 63, cols. 1186–1190 (TML, BOEDIM1) [checked]."
+  },
+  {
+   "latin": "Hypate hypaton",
+   "version": "vinet",
+   "ru": "гипата низших",
+   "en": "hypate hypaton",
+   "meaning_here": "Lower boundary of the lowest tetrachord.",
+   "evidence": "Vinet, Tournon 1591, II.2, p. 43 [checked]. Boethius, De institutione musica I.20, I.22, PL 63, cols. 1186–1190 (TML, BOEDIM1) [checked]."
+  },
+  {
+   "latin": "Parhypate hypaton",
+   "version": "vinet",
+   "ru": "парипата низших",
+   "en": "parhypate hypaton",
+   "meaning_here": "First interior note of the lowest tetrachord.",
+   "evidence": "Vinet, Tournon 1591, II.2, p. 43 [checked]. Boethius, De institutione musica I.20, I.22, PL 63, cols. 1186–1190 (TML, BOEDIM1) [checked]."
+  },
+  {
+   "latin": "Hypate diatonos",
+   "version": "vinet",
+   "ru": "гипата диатоническая",
+   "en": "hypate diatonos",
+   "meaning_here": "Second interior note of the lowest tetrachord, in the usual place of lichanos hypaton.",
+   "evidence": "Vinet, Tournon 1591, II.2, p. 43 [checked]. Boethius, De institutione musica I.20, I.22, PL 63, cols. 1186–1190 (TML, BOEDIM1) [checked]."
+  },
+  {
+   "latin": "Hypate meson",
+   "version": "vinet",
+   "ru": "гипата средних",
+   "en": "hypate meson",
+   "meaning_here": "Boundary common to the lowest and middle tetrachords.",
+   "evidence": "Vinet, Tournon 1591, II.2, p. 43 [checked]. Boethius, De institutione musica I.20, I.22, PL 63, cols. 1186–1190 (TML, BOEDIM1) [checked]."
+  },
+  {
+   "latin": "Parhypate meson",
+   "version": "vinet",
+   "ru": "парипата средних",
+   "en": "parhypate meson",
+   "meaning_here": "First interior note of the middle tetrachord.",
+   "evidence": "Vinet, Tournon 1591, II.2, p. 43 [checked]. Boethius, De institutione musica I.20, I.22, PL 63, cols. 1186–1190 (TML, BOEDIM1) [checked]."
+  },
+  {
+   "latin": "Diatonos meson",
+   "version": "vinet",
+   "ru": "диатоническая средних",
+   "en": "diatonos meson",
+   "meaning_here": "Second interior note of the middle tetrachord.",
+   "evidence": "Vinet, Tournon 1591, II.2, p. 43 [checked]. Boethius, De institutione musica I.20, I.22, PL 63, cols. 1186–1190 (TML, BOEDIM1) [checked]."
+  },
+  {
+   "latin": "Mese solum",
+   "version": "vinet",
+   "ru": "просто меса",
+   "en": "simply mese",
+   "meaning_here": "Eighth note, the central pitch with no qualifying name.",
+   "evidence": "Vinet, Tournon 1591, II.2, p. 43 [checked]. Boethius, De institutione musica I.20, I.22, PL 63, cols. 1186–1190 (TML, BOEDIM1) [checked]."
+  },
+  {
+   "latin": "Paramese",
+   "version": "vinet",
+   "ru": "парамеса",
+   "en": "paramese",
+   "meaning_here": "Note above mese, lower boundary of the disjunct tetrachord.",
+   "evidence": "Vinet, Tournon 1591, II.2, p. 43 [checked]. Boethius, De institutione musica I.20, I.22, PL 63, cols. 1186–1190 (TML, BOEDIM1) [checked]."
+  },
+  {
+   "latin": "Trite diezeugmene",
+   "version": "vinet",
+   "ru": "трита отделённая",
+   "en": "trite diezeugmene",
+   "meaning_here": "First interior note of the disjunct tetrachord.",
+   "evidence": "Vinet, Tournon 1591, II.2, p. 43 [checked]. Boethius, De institutione musica I.20, I.22, PL 63, cols. 1186–1190 (TML, BOEDIM1) [checked]."
+  },
+  {
+   "latin": "Diatonos diezeugmene",
+   "version": "vinet",
+   "ru": "диатоническая отделённая",
+   "en": "diatonos diezeugmene",
+   "meaning_here": "Second interior note of the disjunct tetrachord.",
+   "evidence": "Vinet, Tournon 1591, II.2, p. 43 [checked]. Boethius, De institutione musica I.20, I.22, PL 63, cols. 1186–1190 (TML, BOEDIM1) [checked]."
+  },
+  {
+   "latin": "Nete diezeugmene",
+   "version": "vinet",
+   "ru": "нета отделённая",
+   "en": "nete diezeugmene",
+   "meaning_here": "Shared boundary of the disjunct and highest tetrachords.",
+   "evidence": "Vinet, Tournon 1591, II.2, p. 43 [checked]. Boethius, De institutione musica I.20, I.22, PL 63, cols. 1186–1190 (TML, BOEDIM1) [checked]."
+  },
+  {
+   "latin": "Trite hyperbolaeon",
+   "version": "vinet",
+   "ru": "трита высших",
+   "en": "trite hyperbolaion",
+   "meaning_here": "First interior note of the highest tetrachord.",
+   "evidence": "Vinet, Tournon 1591, II.2, p. 43 [checked]. Boethius, De institutione musica I.20, I.22, PL 63, cols. 1186–1190 (TML, BOEDIM1) [checked]."
+  },
+  {
+   "latin": "Diatonos hyperbolaeon",
+   "version": "vinet",
+   "ru": "диатоническая высших",
+   "en": "diatonos hyperbolaion",
+   "meaning_here": "Second interior note of the highest tetrachord.",
+   "evidence": "Vinet, Tournon 1591, II.2, p. 43 [checked]. Boethius, De institutione musica I.20, I.22, PL 63, cols. 1186–1190 (TML, BOEDIM1) [checked]."
+  },
+  {
+   "latin": "Nete hyperbolaeon",
+   "version": "vinet",
+   "ru": "нета высших",
+   "en": "nete hyperbolaion",
+   "meaning_here": "Highest note and upper boundary of the highest tetrachord.",
+   "evidence": "Vinet, Tournon 1591, II.2, p. 43 [checked]. Boethius, De institutione musica I.20, I.22, PL 63, cols. 1186–1190 (TML, BOEDIM1) [checked]."
+  },
+  {
+   "latin": "Pentekaedecachordum",
+   "version": "vinet",
+   "ru": "пятнадцатиструнный инструмент",
+   "en": "fifteen-string instrument",
+   "meaning_here": "The instrument counting the common note of its octachords once.",
+   "evidence": "Vinet, Tournon 1591, II.3, p. 43 [checked]."
+  },
+  {
+   "latin": "Heckaedecachordum",
+   "version": "vinet",
+   "ru": "шестнадцатиструнная система",
+   "en": "sixteen-string system",
+   "meaning_here": "Two octachords counted with all their places.",
+   "evidence": "Vinet, Tournon 1591, II.3 and IV.1, pp. 43, 50–51 [checked]."
+  },
+  {
+   "latin": "Octachordum",
+   "version": "vinet",
+   "ru": "октахорд",
+   "en": "octachord",
+   "meaning_here": "Eight ordered notes or strings, including both ends.",
+   "evidence": "Vinet, Tournon 1591, II.3, pp. 43–44 [checked]. Vinet, Tournon 1591, II.2, p. 43 [checked]. Boethius, De institutione musica I.20, I.22, PL 63, cols. 1186–1190 (TML, BOEDIM1) [checked]."
+  },
+  {
+   "latin": "ratio",
+   "version": "vinet",
+   "ru": "отношение",
+   "en": "ratio",
+   "meaning_here": "Comparison of the magnitudes at the ends of an interval.",
+   "evidence": "Vinet, Tournon 1591, II.3–III.1, pp. 43–44 [checked]. Boethius, De institutione musica I.16–17, ed. Friedlein (1867), pp. 202–204 [checked]."
+  },
+  {
+   "latin": "Diesis",
+   "version": "vinet",
+   "ru": "диеса",
+   "en": "diesis",
+   "meaning_here": "The smallest interval in the exposition, half a semitone.",
+   "evidence": "Vinet, Tournon 1591, III.1, p. 44 [checked]. Vitruvius, De architectura V.4.3 [checked]."
+  },
+  {
+   "latin": "hemitonium",
+   "version": "vinet",
+   "ru": "полутон",
+   "en": "semitone",
+   "meaning_here": "A half-tone in the additive account.",
+   "evidence": "Vinet, Tournon 1591, III.1, p. 44 [checked]. Vitruvius, De architectura V.4.3 [checked]."
+  },
+  {
+   "latin": "Tonus",
+   "version": "vinet",
+   "ru": "тон",
+   "en": "tone",
+   "meaning_here": "The interval taken as two semitones and also as 9:8.",
+   "evidence": "Vinet, Tournon 1591, III.1, p. 44 [checked]. Boethius, De institutione musica I.16–17, ed. Friedlein (1867), pp. 202–204 [checked]."
+  },
+  {
+   "latin": "sesquioctava",
+   "version": "vinet",
+   "ru": "сверхосминное [9:8]",
+   "en": "sesquioctave [9:8]",
+   "meaning_here": "The larger quantity equals the smaller plus one eighth of the smaller.",
+   "evidence": "Vinet, Tournon 1591, III.1, p. 44 [checked]. Boethius, De institutione musica I.16–17, ed. Friedlein (1867), pp. 202–204 [checked]."
+  },
+  {
+   "latin": "semis",
+   "version": "vinet",
+   "ru": "половина",
+   "en": "half",
+   "meaning_here": "Half the unit difference between 8 and 9.",
+   "evidence": "Vinet, Tournon 1591, III.1, p. 44 [checked]. Lewis and Short, s.v. semis [checked]."
+  },
+  {
+   "latin": "quadrans",
+   "version": "vinet",
+   "ru": "четверть",
+   "en": "quarter",
+   "meaning_here": "A quarter of the unit difference between 8 and 9.",
+   "evidence": "Vinet, Tournon 1591, III.1, p. 44 [checked]. Lewis and Short, s.v. quadrans [checked]."
+  },
+  {
+   "latin": "monas",
+   "version": "vinet",
+   "ru": "единица",
+   "en": "unit",
+   "meaning_here": "The unit of counting, contrasted with a unit of continuous magnitude.",
+   "evidence": "Vinet, Tournon 1591, III.1, p. 44 [checked]. Euclid, Elements VII, defs. 1–2 (Clark University edition, ed. D. Joyce) [checked]."
+  },
+  {
+   "latin": "chorda",
+   "version": "vinet",
+   "ru": "струна",
+   "en": "string",
+   "meaning_here": "String on which a ratio and its subdivisions are represented.",
+   "evidence": "Vinet, Tournon 1591, III.1, pp. 44–45 [checked]. Lewis and Short, s.v. chorda [checked]."
+  },
+  {
+   "latin": "semisesquioctava",
+   "version": "vinet",
+   "ru": "полусверхосминное",
+   "en": "semisesquioctave",
+   "meaning_here": "Vinet’s name for the result of dividing the sesquioctave to obtain a semitone.",
+   "evidence": "Vinet, Tournon 1591, III.1, pp. 44–45 [checked]."
+  },
+  {
+   "latin": "quadratum; numerus quadratus",
+   "version": "vinet",
+   "ru": "квадрат; квадратное число",
+   "en": "square; square number",
+   "meaning_here": "Geometrical square or an integer that is the product of an integer by itself.",
+   "evidence": "Vinet, Tournon 1591, III.2–3, pp. 45–46 [checked]. Euclid, Elements I.47 (Clark University edition, ed. D. Joyce) [checked]."
+  },
+  {
+   "latin": "diametros; dimetiens",
+   "version": "vinet",
+   "ru": "диагональ",
+   "en": "diagonal",
+   "meaning_here": "Synonyms for the line between opposite vertices of the square.",
+   "evidence": "Vinet, Tournon 1591, III.3, pp. 45–46 [checked]. Lewis and Short, s.v. dimetior [checked]. Euclid, Elements I.47 (Clark University edition, ed. D. Joyce) [checked]."
+  },
+  {
+   "latin": "simplicia intervalla",
+   "version": "vinet",
+   "ru": "простые интервалы",
+   "en": "simple intervals",
+   "meaning_here": "Intervals heard as a single melodic step despite their component quantities.",
+   "evidence": "Vinet, Tournon 1591, III.4, p. 46 [checked]."
+  },
+  {
+   "latin": "Tridiesis",
+   "version": "vinet",
+   "ru": "тридиеса",
+   "en": "tridiesis",
+   "meaning_here": "Three dieses.",
+   "evidence": "Vinet, Tournon 1591, III.4, p. 46 [checked]."
+  },
+  {
+   "latin": "Trihemitonium",
+   "version": "vinet",
+   "ru": "трёхполутон",
+   "en": "trihemitone",
+   "meaning_here": "Three semitones.",
+   "evidence": "Vinet, Tournon 1591, III.4, p. 46 [checked]. Vitruvius, De architectura V.4.3 [checked]."
+  },
+  {
+   "latin": "Ditonium",
+   "version": "vinet",
+   "ru": "дитон",
+   "en": "ditone",
+   "meaning_here": "Two tones.",
+   "evidence": "Vinet, Tournon 1591, III.4 and V.2, pp. 46, 52 [checked]. Vitruvius, De architectura V.4.3 [checked]."
+  },
+  {
+   "latin": "Tritonium",
+   "version": "vinet",
+   "ru": "тритон",
+   "en": "tritone",
+   "meaning_here": "Three tones.",
+   "evidence": "Vinet, Tournon 1591, III.4, p. 46 [checked]."
+  },
+  {
+   "latin": "rythmus",
+   "version": "vinet",
+   "ru": "ритм",
+   "en": "rhythm",
+   "meaning_here": "Rhythm constrains the formation of intervals.",
+   "evidence": "Vinet, Tournon 1591, III.4, p. 46 [checked]."
+  },
+  {
+   "latin": "melos",
+   "version": "vinet",
+   "ru": "напев",
+   "en": "melodic strain",
+   "meaning_here": "The melodic unit produced through a single interval.",
+   "evidence": "Vinet, Tournon 1591, III.4, p. 46 [checked]. Lewis and Short, s.v. melos [checked]."
+  },
+  {
+   "latin": "diatessaron / Dia-tessaron",
+   "version": "both",
+   "ru": "кварта",
+   "en": "fourth",
+   "meaning_here": "Span of four notes inclusively, with a pitch ratio of 4:3. Vinet hyphenates the Greek-derived names.",
+   "evidence": "Xylander (1556), pp. 44–47 [checked]. Vinet (1591), III.5–12, pp. 46–50 [checked]. Boethius, De institutione musica, ed. G. Friedlein (1867), I.7, 16–19 [checked]"
+  },
+  {
+   "latin": "diapente / Dia-pente",
+   "version": "both",
+   "ru": "квинта",
+   "en": "fifth",
+   "meaning_here": "Span of five notes inclusively, with a pitch ratio of 3:2.",
+   "evidence": "Xylander (1556), pp. 44–47 [checked]. Vinet (1591), III.5–12, pp. 46–50 [checked]. Boethius, De institutione musica, ed. G. Friedlein (1867), I.7, 16–19 [checked]"
+  },
+  {
+   "latin": "diapason / Dia-pason",
+   "version": "both",
+   "ru": "октава",
+   "en": "octave",
+   "meaning_here": "The span through all eight notes of the octachord, in the ratio 2:1.",
+   "evidence": "Xylander (1556), pp. 44–47 [checked]. Vinet (1591), III.5–12, pp. 46–50 [checked]. Boethius, De institutione musica, ed. G. Friedlein (1867), I.7, 16–19 [checked]"
+  },
+  {
+   "latin": "quarta, quinta, octava",
+   "version": "xylander",
+   "ru": "четвёртая, пятая, восьмая",
+   "en": "fourth, fifth, eighth",
+   "meaning_here": "Ordinary ordinal names quoted as vernacular-style equivalents of the three technical names.",
+   "evidence": "Xylander (1556), pp. 44–47 [checked]. Boethius, De institutione musica, ed. G. Friedlein (1867), I.7, 16–19 [checked]"
+  },
+  {
+   "latin": "immediata / sine medio",
+   "version": "both",
+   "ru": "без промежуточной ступени",
+   "en": "without an intermediate step",
+   "meaning_here": "Terms negated in describing the fourth, fifth and octave. The qualifications concern a step intervening between the bounding sounds.",
+   "evidence": "Xylander (1556), pp. 44–47 [checked]. Vinet (1591), III.5–12, pp. 46–50 [checked]."
+  },
+  {
+   "latin": "diapason cum diatessaron / Dia-pason cum Dia-tessaron",
+   "version": "both",
+   "ru": "октава с квартой",
+   "en": "octave and a fourth",
+   "meaning_here": "Compound consonance spanning an eleventh, with pitch ratio 8:3.",
+   "evidence": "Xylander (1556), pp. 44–47 [checked]. Vinet (1591), III.5–12, pp. 46–50 [checked]. Boethius, De musica, ed. J.-P. Migne, PL 63, V.8–10 [checked]"
+  },
+  {
+   "latin": "diapason cum diapente / Dia-pason cum Dia-pente",
+   "version": "both",
+   "ru": "октава с квинтой",
+   "en": "octave and a fifth",
+   "meaning_here": "Compound consonance spanning a twelfth, with pitch ratio 3:1.",
+   "evidence": "Xylander (1556), pp. 44–47 [checked]. Vinet (1591), III.5–12, pp. 46–50 [checked]. Boethius, De institutione musica, ed. G. Friedlein (1867), I.7, 16–19 [checked]"
+  },
+  {
+   "latin": "disdiapason / bis Dia-pason",
+   "version": "both",
+   "ru": "двойная октава",
+   "en": "double octave",
+   "meaning_here": "Two successive octaves giving a pitch ratio of 4:1.",
+   "evidence": "Xylander (1556), pp. 44–47 [checked]. Vinet (1591), III.5–12, pp. 46–50 [checked]. Boethius, De institutione musica, ed. G. Friedlein (1867), I.7, 16–19 [checked]"
+  },
+  {
+   "latin": "paraphonum",
+   "version": "both",
+   "ru": "парафония",
+   "en": "paraphony",
+   "meaning_here": "Type of consonance assigned to the fourth and fifth, illustrated by sounds occurring in succession.",
+   "evidence": "Xylander (1556), pp. 44–47 [checked]. Vinet (1591), III.5–12, pp. 46–50 [checked]."
+  },
+  {
+   "latin": "antiphonum",
+   "version": "both",
+   "ru": "антифония",
+   "en": "antiphony",
+   "meaning_here": "Type assigned to the octave and three larger consonances, illustrated by simultaneous motion in octaves.",
+   "evidence": "Xylander (1556), pp. 44–47 [checked]. Vinet (1591), III.5–12, pp. 46–50 [checked]. LSJ, s.v. ἀντίφωνος I [checked]"
+  },
+  {
+   "latin": "assonans",
+   "version": "xylander",
+   "ru": "звучание в ответ",
+   "en": "sounding in response",
+   "meaning_here": "Latin rendering of paraphonum after the gloss iuxta sonans, ‘sounding alongside’.",
+   "evidence": "Xylander (1556), pp. 44–47 [checked]."
+  },
+  {
+   "latin": "obsonans",
+   "version": "xylander",
+   "ru": "встречное звучание",
+   "en": "sounding opposite",
+   "meaning_here": "Xylander’s verbal counterpart to assonans, glossing antiphonum alongside contra sonans.",
+   "evidence": "Xylander (1556), pp. 44–47 [checked]."
+  },
+  {
+   "latin": "intensio et remissio",
+   "version": "both",
+   "ru": "повышение и понижение",
+   "en": "raising and lowering",
+   "meaning_here": "Paired terms for motion toward a higher or lower pitch.",
+   "evidence": "Xylander (1556), pp. 44–47 [checked]. Vinet (1591), III.5–12, pp. 46–50 [checked]. Boethius, De institutione musica, ed. G. Friedlein (1867), I.3 [checked]"
+  },
+  {
+   "latin": "sesquitertia / sesquitertius",
+   "version": "both",
+   "ru": "сверхтретное [4:3]",
+   "en": "sesquitertian [4:3]",
+   "meaning_here": "One whole plus one third of the smaller term. The fourth.",
+   "evidence": "Xylander (1556), pp. 44–47 [checked]. Vinet (1591), III.5–12, pp. 46–50 [checked]. Boethius, De institutione musica, ed. G. Friedlein (1867), I.4, 7 [checked]"
+  },
+  {
+   "latin": "sesquialtera / sesquialter",
+   "version": "both",
+   "ru": "полуторное [3:2]",
+   "en": "sesquialter [3:2]",
+   "meaning_here": "One whole plus one half of the smaller term. The fifth.",
+   "evidence": "Xylander (1556), pp. 44–47 [checked]. Vinet (1591), III.5–12, pp. 46–50 [checked]. Boethius, De institutione musica, ed. G. Friedlein (1867), I.4, 7 [checked]"
+  },
+  {
+   "latin": "dupla / duplus / duplex",
+   "version": "both",
+   "ru": "двукратное [2:1]",
+   "en": "duple [2:1]",
+   "meaning_here": "Twice the smaller term. The octave.",
+   "evidence": "Xylander (1556), pp. 44–47 [checked]. Vinet (1591), III.5–12, pp. 46–50 [checked]. Boethius, De institutione musica, ed. G. Friedlein (1867), I.4, 7 [checked]"
+  },
+  {
+   "latin": "duplus superpartiens / duplex-superpartiens",
+   "version": "both",
+   "ru": "двукратное сверхчастное [8:3]",
+   "en": "duple superpartient [8:3]",
+   "meaning_here": "Two wholes plus more than one aliquot part. The example fixes the excess at two thirds.",
+   "evidence": "Xylander (1556), pp. 44–47 [checked]. Vinet (1591), III.5–12, pp. 46–50 [checked]. Boethius, De institutione musica, ed. G. Friedlein (1867), I.4, 7 [checked]"
+  },
+  {
+   "latin": "super bipartiens tertias",
+   "version": "xylander",
+   "ru": "[двукратное] с избытком в две трети [8:3]",
+   "en": "[the double] plus two thirds [8:3]",
+   "meaning_here": "A specification of duplus superpartiens. The two thirds are added to the double, giving 8:3 here.",
+   "evidence": "Xylander (1556), pp. 44–47 [checked]. Boethius, De institutione musica, ed. G. Friedlein (1867), I.4, 7 [checked]"
+  },
+  {
+   "latin": "tripla / triplus / triplex",
+   "version": "both",
+   "ru": "трёхкратное [3:1]",
+   "en": "triple [3:1]",
+   "meaning_here": "Three times the smaller term. The octave and a fifth.",
+   "evidence": "Xylander (1556), pp. 44–47 [checked]. Vinet (1591), III.5–12, pp. 46–50 [checked]. Boethius, De institutione musica, ed. G. Friedlein (1867), I.4, 7 [checked]"
+  },
+  {
+   "latin": "quadruplus / quadruplex",
+   "version": "both",
+   "ru": "четырёхкратное [4:1]",
+   "en": "quadruple [4:1]",
+   "meaning_here": "Four times the smaller term. The ratio obtained by taking two octaves.",
+   "evidence": "Xylander (1556), pp. 44–47 [checked]. Vinet (1591), III.5–12, pp. 46–50 [checked]. Boethius, De institutione musica, ed. G. Friedlein (1867), I.4, 7 [checked]"
+  },
+  {
+   "latin": "quincuplum / quincuplex",
+   "version": "both",
+   "ru": "пятикратное [5:1]",
+   "en": "quintuple [5:1]",
+   "meaning_here": "Five times the smaller term. Here it is the positional ratio of the fifth note to the first.",
+   "evidence": "Xylander (1556), pp. 44–47 [checked]. Vinet (1591), III.5–12, pp. 46–50 [checked]. Boethius, De institutione musica, ed. G. Friedlein (1867), I.4, 7 [checked]"
+  },
+  {
+   "latin": "duplum sesquialterum",
+   "version": "both",
+   "ru": "двукратное полуторное [5:2]",
+   "en": "duple sesquialter [5:2]",
+   "meaning_here": "Nonstandard compound. The example takes the smaller term twice plus an additional half of that term.",
+   "evidence": "Xylander (1556), pp. 44–47 [checked]. Vinet (1591), III.5–12, pp. 46–50 [checked]. Boethius, De institutione musica, ed. G. Friedlein (1867), I.4, 7 [checked]"
+  },
+  {
+   "latin": "bessem",
+   "version": "xylander",
+   "ru": "две трети",
+   "en": "two thirds",
+   "meaning_here": "The accusative of bes in the numerical comparison 5=3+⅔×3.",
+   "evidence": "Xylander (1556), pp. 44–47 [checked]. Lewis & Short, s.v. bes I.B [checked]"
+  },
+  {
+   "latin": "superpartiens",
+   "version": "vinet",
+   "ru": "сверхчастное [5:3]",
+   "en": "superpartient [5:3]",
+   "meaning_here": "A number contains the smaller term once plus several aliquot parts of it. Between ordinal positions five and three the surplus is two thirds.",
+   "evidence": "Vinet (1591), III.5–12, pp. 46–50 [checked]. Boethius, De institutione musica, ed. G. Friedlein (1867), I.4, 7 [checked]"
+  },
+  {
+   "latin": "sesquiquartum",
+   "version": "both",
+   "ru": "сверхчетвертное [5:4]",
+   "en": "sesquiquartan [5:4]",
+   "meaning_here": "One whole plus a quarter of the smaller term. The positional ratio of the fifth note to the fourth.",
+   "evidence": "Xylander (1556), pp. 44–47 [checked]. Vinet (1591), III.5–12, pp. 46–50 [checked]. Boethius, De institutione musica, ed. G. Friedlein (1867), I.4, 7 [checked]"
+  },
+  {
+   "latin": "terminus",
+   "version": "both",
+   "ru": "член [отношения]",
+   "en": "term",
+   "meaning_here": "Either of the two quantities in a ratio. Six serves as the common first term.",
+   "evidence": "Xylander (1556), pp. 44–47 [checked]. Vinet (1591), III.5–12, pp. 46–50 [checked]. Boethius, De institutione musica, ed. G. Friedlein (1867), I.4, 7 [checked]"
+  },
+  {
+   "latin": "clavi / claviculi",
+   "version": "both",
+   "ru": "колки",
+   "en": "tuning pegs",
+   "meaning_here": "Devices turned to alter string tension. Claviculi is Vinet’s diminutive.",
+   "evidence": "Xylander (1556), pp. 44–47 [checked]. Vinet (1591), III.5–12, pp. 46–50 [checked]."
+  },
+  {
+   "latin": "tensio / intensio",
+   "version": "both",
+   "ru": "натяжение",
+   "en": "tension",
+   "meaning_here": "Physical string tension varied by turning pegs or hanging weights. Xylander uses tensio and Vinet intensio.",
+   "evidence": "Xylander (1556), pp. 44–47 [checked]. Vinet (1591), III.5–12, pp. 46–50 [checked]. Brooklyn College, Standing Waves on a String, eqs. 1–3 [checked]"
+  },
+  {
+   "latin": "intensio et remissio spiritus",
+   "version": "both",
+   "ru": "усиление и ослабление струи воздуха",
+   "en": "strengthening and slackening of the breath",
+   "meaning_here": "Variation of the breath supplied to a wind instrument.",
+   "evidence": "Xylander (1556), pp. 44–47 [checked]. Vinet (1591), III.5–12, pp. 46–50 [checked]."
+  },
+  {
+   "latin": "cavitatis amplitudo / fistularum amplitudo",
+   "version": "both",
+   "ru": "величина внутренней полости / величина трубок",
+   "en": "size of the cavity / size of the pipes",
+   "meaning_here": "The dimension is left unspecified. Xylander speaks of the cavity, Vinet of the pipes.",
+   "evidence": "Xylander (1556), pp. 44–47 [checked]. Vinet (1591), III.5–12, pp. 46–50 [checked]."
+  },
+  {
+   "latin": "intensio sonitus / intentio vocis",
+   "version": "both",
+   "ru": "повышение звука / повышение голоса",
+   "en": "rise in pitch of the sound / rise of the voice",
+   "meaning_here": "Difference of pitch between endpoints. Vinet also uses intensio in the same argument.",
+   "evidence": "Xylander (1556), pp. 44–47 [checked]. Vinet (1591), III.5–12, pp. 46–50 [checked]. Lewis & Short, s.v. intentio I–I.B [checked]"
+  },
+  {
+   "latin": "tetrachordum",
+   "version": "both",
+   "ru": "тетрахорд",
+   "en": "tetrachord",
+   "meaning_here": "A four-string system encompassing a fourth.",
+   "evidence": "Vitruvius, De architectura V.4.3, LacusCurtius [checked]."
+  },
+  {
+   "latin": "pentachordum",
+   "version": "both",
+   "ru": "пентахорд",
+   "en": "pentachord",
+   "meaning_here": "A five-string system encompassing a fifth.",
+   "evidence": "Xylander, Basel 1556, pp. 47–49 [checked]. Vinet, Tournon 1591, IV–V, pp. 50–53 [checked]."
+  },
+  {
+   "latin": "decimamquintam",
+   "version": "xylander",
+   "ru": "квинтдецима",
+   "en": "fifteenth",
+   "meaning_here": "The contemporary interval name offered for the double octave, with both endpoint notes included.",
+   "evidence": "Xylander, Basel 1556, 47.12–16 [checked]."
+  },
+  {
+   "latin": "vis, potestas, materia, ambitus",
+   "version": "xylander",
+   "ru": "сила, возможности, содержание, диапазон",
+   "en": "power, capacity, content, compass",
+   "meaning_here": "The system’s ability to realize an interval, the interval’s whole content, and the distance it spans. Xylander varies these descriptions for different systems.",
+   "evidence": "Xylander, Basel 1556, pp. 47–49 [checked]."
+  },
+  {
+   "latin": "facultates, vis, intensio",
+   "version": "vinet",
+   "ru": "возможности, сила, подъём",
+   "en": "capacities, power, rise",
+   "meaning_here": "Terms for what a system can realize, or the entire extent that it covers from low to high. In IV.1 intensio characterizes the double octave.",
+   "evidence": "Vinet, Tournon 1591, IV–V, pp. 50–53 [checked]."
+  },
+  {
+   "latin": "materia",
+   "version": "both",
+   "ru": "материя",
+   "en": "matter",
+   "meaning_here": "The material embodiment of a system, for example its strings. By abstraction one can consider its intervals independently.",
+   "evidence": "Xylander, Basel 1556, pp. 47–49 [checked]. Vinet, Tournon 1591, IV–V, pp. 50–53 [checked]."
+  },
+  {
+   "latin": "melodia",
+   "version": "xylander",
+   "ru": "мелодия",
+   "en": "melody",
+   "meaning_here": "The melodic shaping of singing or of a tune. Xylander expressly gives a Latin explanation of this loanword.",
+   "evidence": "Lewis & Short, s.v. melodia, Corpus of Latin Dictionaries [checked]."
+  },
+  {
+   "latin": "cantus",
+   "version": "xylander",
+   "ru": "пение",
+   "en": "singing",
+   "meaning_here": "Song considered as sung, or the practice of singing, including the styles into which it divides.",
+   "evidence": "Xylander, Basel 1556, pp. 47–49 [checked]."
+  },
+  {
+   "latin": "cantus seu cantilenae modulatio",
+   "version": "xylander",
+   "ru": "мелодический строй пения или напева",
+   "en": "melodic shaping of singing or of a tune",
+   "meaning_here": "Xylander’s approximate definition of melodia. Modulatio concerns the formation or delivery of melody.",
+   "evidence": "Lewis & Short, s.v. modulatio, Corpus of Latin Dictionaries [checked]."
+  },
+  {
+   "latin": "modulatio",
+   "version": "vinet",
+   "ru": "мелодия",
+   "en": "melody",
+   "meaning_here": "Melody understood both as a course of notes and as the product of performance.",
+   "evidence": "Lewis & Short, s.v. modulatio, Corpus of Latin Dictionaries [checked]."
+  },
+  {
+   "latin": "genus diatonicum (diatonon, Diatonum)",
+   "version": "both",
+   "ru": "диатонический род",
+   "en": "diatonic genus",
+   "meaning_here": "In this division, a fourth containing two tones and a semitone.",
+   "evidence": "Vitruvius, De architectura V.4.3, LacusCurtius [checked]."
+  },
+  {
+   "latin": "genus chromaticum (Chromaticon)",
+   "version": "both",
+   "ru": "хроматический род",
+   "en": "chromatic genus",
+   "meaning_here": "A fourth articulated in two semitones and one trihemitone.",
+   "evidence": "Vitruvius, De architectura V.4.3, LacusCurtius [checked]."
+  },
+  {
+   "latin": "genus harmonicum",
+   "version": "both",
+   "ru": "гармонический род",
+   "en": "harmonic genus",
+   "meaning_here": "A fourth articulated in two dieses and one ditone. The form of its name links it to harmonia.",
+   "evidence": "Vitruvius, De architectura V.4.3, LacusCurtius [checked]."
+  },
+  {
+   "latin": "consonantiarum coaptatio",
+   "version": "xylander",
+   "ru": "сочетание консонансов",
+   "en": "fitting together of consonances",
+   "meaning_here": "The explanation of harmony immediately before the description of the genera.",
+   "evidence": "Xylander, Basel 1556, pp. 47–49 [checked]."
+  },
+  {
+   "latin": "coloratum",
+   "version": "xylander",
+   "ru": "окрашенный",
+   "en": "coloured",
+   "meaning_here": "Xylander’s gloss of the name of the chromatic genus.",
+   "evidence": "Boethius, De institutione musica I.21, Thesaurus Musicarum Latinarum, BOEDIM1 [checked]."
+  },
+  {
+   "latin": "ex coalitu",
+   "version": "xylander",
+   "ru": "из слияния",
+   "en": "by fusion",
+   "meaning_here": "Several elementary spans are traversed in a single step. This phrase is used for both the trihemitone and the ditone.",
+   "evidence": "Xylander, Basel 1556, pp. 47–49 [checked]."
+  },
+  {
+   "latin": "ex confusione",
+   "version": "vinet",
+   "ru": "от слияния",
+   "en": "by blending",
+   "meaning_here": "Several elementary spans count as one interval in the actual progression of the tune.",
+   "evidence": "Vinet, Tournon 1591, IV–V, pp. 50–53 [checked]."
+  },
+  {
+   "latin": "affectus, luctus",
+   "version": "xylander",
+   "ru": "чувства, скорбь",
+   "en": "feelings, grief",
+   "meaning_here": "The chromatic genus is characterized by the listener’s response.",
+   "evidence": "Xylander, Basel 1556, pp. 47–49 [checked]."
+  },
+  {
+   "latin": "moestius luctuosiusque",
+   "version": "vinet",
+   "ru": "печальнее и скорбнее",
+   "en": "sadder and more mournful",
+   "meaning_here": "Comparative qualities of the chromatic genus relative to the diatonic.",
+   "evidence": "Vinet, Tournon 1591, IV–V, pp. 50–53 [checked]."
+  },
+  {
+   "latin": "modulatu",
+   "version": "vinet",
+   "ru": "исполнять",
+   "en": "to perform",
+   "meaning_here": "Supine in -u after difficillimum, specifying the activity in which the genus gives difficulty.",
+   "evidence": "Vinet, Tournon 1591, IV–V, pp. 50–53 [checked]. Allen & Greenough, New Latin Grammar §510 [checked]."
+  },
+  {
+   "latin": "Lydia, Phrygia, Dorica cantilena",
+   "version": "xylander",
+   "ru": "лидийский, фригийский, дорийский напев",
+   "en": "Lydian, Phrygian, Dorian tune",
+   "meaning_here": "Three ways of fashioning a tune to which different song types may be fitted.",
+   "evidence": "Xylander, Basel 1556, pp. 47–49 [checked]."
+  },
+  {
+   "latin": "Lydius, Phrygius, Dorius modulus",
+   "version": "vinet",
+   "ru": "лидийский, фригийский, дорийский лад",
+   "en": "Lydian, Phrygian, Dorian mode",
+   "meaning_here": "Three named modes from any of which the ensuing song types can arise.",
+   "evidence": "Lewis & Short, s.v. modulus, Corpus of Latin Dictionaries [checked]."
+  },
+  {
+   "latin": "Paean / Paeeon",
+   "version": "both",
+   "ru": "пеан",
+   "en": "paean",
+   "meaning_here": "A traditional choral song, especially one addressed to Apollo. The second spelling is Vinet’s.",
+   "evidence": "LSJ, s.v. Παιάν II [checked]."
+  },
+  {
+   "latin": "Hymenaeus",
+   "version": "both",
+   "ru": "свадебная песнь",
+   "en": "wedding song",
+   "meaning_here": "The song at a marriage, used here as a genre name.",
+   "evidence": "W. J. Slater, Lexicon to Pindar, s.v. ὑμέναιος [checked]."
+  },
+  {
+   "latin": "Exodius",
+   "version": "both",
+   "ru": "прощальная песнь",
+   "en": "song of departure",
+   "meaning_here": "A song for a departure. A ritual or theatrical setting is possible. Neither translator specifies the occasion.",
+   "evidence": "Pollux, Onomasticon IV.108 [checked]. • Canon for Holy Saturday, ode I, first troparion, in Hymnologia tēs Megalēs Hebdomados, pp. 350–351 (Democritus University of Thrace) [checked]."
+  },
+  {
+   "latin": "transitus",
+   "version": "xylander",
+   "ru": "переход",
+   "en": "transition",
+   "meaning_here": "The path or speed of movement through a tune.",
+   "evidence": "Lewis & Short, s.v. obliquus, Logeion [checked]. • Xylander, Basel 1556, pp. 47–49 [checked]."
+  },
+  {
+   "latin": "transitio",
+   "version": "vinet",
+   "ru": "переход",
+   "en": "transition",
+   "meaning_here": "A transition characterized here by relative slowness or animation.",
+   "evidence": "Vinet, Tournon 1591, IV–V, pp. 50–53 [checked]."
+  },
+  {
+   "latin": "mansio",
+   "version": "xylander",
+   "ru": "остановка",
+   "en": "point of rest",
+   "meaning_here": "A resting point set against the flow of melodic movement.",
+   "evidence": "Xylander, Basel 1556, pp. 47–49 [checked]."
+  },
+  {
+   "latin": "pausa",
+   "version": "vinet",
+   "ru": "пауза",
+   "en": "pause",
+   "meaning_here": "A break contrasted with the ongoing movement of the melody.",
+   "evidence": "Vinet, Tournon 1591, IV–V, pp. 50–53 [checked]."
+  },
+  {
+   "latin": "fluxus",
+   "version": "both",
+   "ru": "непрерывное движение",
+   "en": "passage of flowing movement",
+   "meaning_here": "A run of movement, paired with mansiones or pausae in the list of features of delivery.",
+   "evidence": "Xylander, Basel 1556, pp. 47–49 [checked]. Vinet, Tournon 1591, IV–V, pp. 50–53 [checked]."
+  },
+  {
+   "latin": "tactus",
+   "version": "both",
+   "ru": "прикосновение",
+   "en": "touch",
+   "meaning_here": "Physical touches in musical execution. The paired words for strokes differ between the two versions.",
+   "evidence": "Xylander, Basel 1556, pp. 47–49 [checked]. Vinet, Tournon 1591, IV–V, pp. 50–53 [checked]."
+  },
+  {
+   "latin": "pulsatio / pulsus",
+   "version": "both",
+   "ru": "удар",
+   "en": "stroke",
+   "meaning_here": "A stroke in playing. Xylander uses pulsationum, Vinet pulsibus.",
+   "evidence": "Lewis & Short, s.v. pulsus, Corpus of Latin Dictionaries [checked]. • Xylander, Basel 1556, pp. 47–49 [checked]. Vinet, Tournon 1591, IV–V, pp. 50–53 [checked]."
+  },
+  {
+   "latin": "manus temperamentum",
+   "version": "vinet",
+   "ru": "то, как управляет рука",
+   "en": "control of the hand",
+   "meaning_here": "The performer’s regulation of touches and strokes.",
+   "evidence": "Lewis & Short, s.v. temperamentum, Corpus of Latin Dictionaries [checked]."
+  },
+  {
+   "latin": "temperare",
+   "version": "vinet",
+   "ru": "соразмерять",
+   "en": "to proportion",
+   "meaning_here": "In the last chapter, to put intervals together in due proportion or so dispose a system.",
+   "evidence": "Vinet, Tournon 1591, IV–V, pp. 50–53 [checked]."
+  },
+  {
+   "latin": "sonitus",
+   "version": "xylander",
+   "ru": "звучание",
+   "en": "sound",
+   "meaning_here": "The audible sounding or span of an interval in X29 and X37.",
+   "evidence": "Xylander, Basel 1556, 44.5–13, 46.9–13 [checked]."
+  },
+  {
+   "latin": "nervus",
+   "version": "both",
+   "ru": "струна",
+   "en": "string",
+   "meaning_here": "The physical string of an instrument, including one subject to a suspended weight.",
+   "evidence": "Xylander, Basel 1556, 44.9–13 [checked]. Vinet, Tournon 1591, 50.3–11 [checked]."
+  },
+  {
+   "latin": "consonare",
+   "version": "both",
+   "ru": "консонировать",
+   "en": "to be consonant",
+   "meaning_here": "The verb used of notes forming a consonance in one of the two ways described.",
+   "evidence": "Xylander, Basel 1556, 44.21–45.2 [checked]. Vinet, Tournon 1591, 47.15–20 [checked]."
+  },
+  {
+   "latin": "recta / linea",
+   "version": "both",
+   "ru": "отрезок",
+   "en": "straight line / line",
+   "meaning_here": "A finite length used in a subtraction or addition. Xylander specifies a straight line, Vinet simply a line.",
+   "evidence": "Xylander, Basel 1556, 42.21–25 [checked]. Vinet, Tournon 1591, 45.1–5 [checked]."
+  },
+  {
+   "latin": "figura",
+   "version": "both",
+   "ru": "фигура",
+   "en": "figure",
+   "meaning_here": "The shape that can be enlarged or diminished by geometrical operations.",
+   "evidence": "Xylander, Basel 1556, 42.21–25 [checked]. Vinet, Tournon 1591, 45.1–5 [checked]."
+  },
+  {
+   "latin": "adauctu",
+   "version": "vinet",
+   "ru": "при увеличении",
+   "en": "by increasing",
+   "meaning_here": "The increase in an elementary magnitude which yields a larger melodic interval.",
+   "evidence": "Vinet, Tournon 1591, III.4, 46.1–5 [checked]."
+  },
+  {
+   "latin": "non-composita",
+   "version": "vinet",
+   "ru": "несоставные",
+   "en": "incomposite",
+   "meaning_here": "Vinet denies this description to the fourth, fifth and octave. His earlier term for intervals heard in one step is simplicia.",
+   "evidence": "Vinet, Tournon 1591, III.4–5, 46.1–47.7 [checked]."
+  }
+ ]
+}

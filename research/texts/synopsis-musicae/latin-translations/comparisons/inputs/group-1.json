@@ -1,0 +1,2746 @@
+{
+ "group": 1,
+ "version": "xylander",
+ "segments_to_judge": "X01–X29",
+ "segments": [
+  {
+   "id": "X01",
+   "starts_paragraph": "title",
+   "ref": "Xyl. 40.1–2",
+   "latin": "Exacta summa hic, evidensque Musicae.",
+   "printed": [
+    {
+     "ref": "40.1",
+     "text": "EXACTA SVMMA HIC,"
+    },
+    {
+     "ref": "40.2",
+     "text": "euidensqúe Musicæ."
+    }
+   ],
+   "translations": {
+    "A": {
+     "ru": "Здесь — точный и ясный свод музыки.",
+     "en": "Here is an exact and clear summary of Music.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "Заглавие раздела у Ксиландра; summa — «свод, краткое изложение целого».",
+       "en": "Xylander's heading of the section; summa is a ‘sum, compendious account of the whole’.",
+       "source": "Lewis & Short, s.v. summa [from memory]"
+      }
+     ],
+     "doubts": []
+    },
+    "B": {
+     "ru": "Здесь дано точное и ясное изложение музыки.",
+     "en": "Here is an exact and clear account of music.",
+     "checks": "",
+     "notes": [],
+     "doubts": []
+    },
+    "C": {
+     "ru": "Здесь — точный и ясный свод музыки.",
+     "en": "Here is an exact and clear summary of music.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "Заглавие Ксиландра не называет автора. Колонтитулы этой части книги — DE MVSICA на левых страницах и COMPENDIVM на правых. Слово summa («итог, сводка») передано как «свод».",
+       "en": "Xylander's heading names no author. The running heads of this part of the volume are DE MVSICA on the versos and COMPENDIVM on the rectos. The word summa ('sum, summary') is rendered 'summary'.",
+       "source": "Page images xylander-p40 to p49 [checked]"
+      }
+     ],
+     "doubts": []
+    },
+    "D": {
+     "ru": "Здесь кратко, точно и ясно изложено [учение] о музыке.",
+     "en": "Here is a precise and lucid summary of music.",
+     "checks": "",
+     "notes": [],
+     "doubts": []
+    }
+   }
+  },
+  {
+   "id": "X02",
+   "starts_paragraph": "1",
+   "ref": "Xyl. 40.3–7",
+   "latin": "Universum hoc, antiqui Musica contineri perhibuerunt. Nihil enim in rerum natura absque commensuratione et proportione consistit:",
+   "printed": [
+    {
+     "ref": "40.3",
+     "text": "VNiuersum hoc, antiqui Musica"
+    },
+    {
+     "ref": "40.4",
+     "text": "contineri perhibuerunt. Nihil e-"
+    },
+    {
+     "ref": "40.5",
+     "text": "nim in rerum natura absque com-"
+    },
+    {
+     "ref": "40.6",
+     "text": "mensuratione et proportione con-"
+    },
+    {
+     "ref": "40.7",
+     "text": "sistit: neque quicquam eorum quæ"
+    }
+   ],
+   "translations": {
+    "B": {
+     "ru": "Древние утверждали, что весь этот мир держится музыкой. Ведь в природе ничто не существует без соразмерности и пропорции,",
+     "en": "The ancients maintained that this whole universe is held together by music. For nothing in nature subsists without commensurateness and proportion,",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "Соразмерность (commensuratio) здесь означает согласование величин, пропорция (proportio) — их отношение. У Вине тот же тезис выражен через symmetria.",
+       "en": "Commensuratio is due measure among quantities, and proportio is their relation. Vinet expresses the corresponding claim with symmetria.",
+       "source": "Xylander, Basel (1556), p. 40 [checked]. Félix Gaffiot, Dictionnaire illustré latin-français (1934), s.v. commensuratio [checked] Boethius, De institutione musica, ed. Friedlein (1867), I.2 [checked]"
+      }
+     ],
+     "doubts": []
+    },
+    "C": {
+     "ru": "Эта вселенная, как утверждали древние, держится музыкой. Ведь ничто в природе вещей не существует без соразмерности и пропорции:",
+     "en": "This universe, the ancients declared, is held together by music. For nothing in the nature of things subsists without commensuration and proportion,",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "Commensuratio — позднелатинское слово (у Боэция) со значением «соизмеримость, должная мера, симметрия»; Ксиландр ставит его в пару с proportio (здесь и в X03) и с proportionalitas (X04); у Вине в этом месте symmetria. Передаётся как «соразмерность».",
+       "en": "Commensuratio is a late Latin word (Boethius) meaning 'commensurability, due measure, symmetry'. Xylander pairs it with proportio (here and in X03) and with proportionalitas (X04); Vinet has symmetria at this point. Rendered 'commensuration'.",
+       "source": "Lewis & Short s.v. commensuratio (Boeth.); DMLBS s.v. commensuratio, sense b 'just proportion, symmetry, harmony'; Boethius, De inst. mus. I.31, ed. Friedlein (1867) p. 222.11 'ipsa commensuratio' [checked]"
+      },
+      {
+       "ru": "Proportio у Ксиландра, как у Боэция, — также и техническое слово для отношения двух чисел (X25, X35, X37, X38, X41). Чтобы различие слов было видно, proportio везде передаётся как «пропорция», ratio — как «отношение», proportionalitas — как «пропорциональность».",
+       "en": "For Xylander, as for Boethius, proportio is also the technical word for the ratio of two numbers (X25, X35, X37, X38, X41). To keep the words apart, proportio is rendered 'proportion' throughout, ratio 'ratio', proportionalitas 'proportionality'.",
+       "source": "Boethius, De inst. mus. I.10, ed. Friedlein p. 198.4 ('epitritam proportionem'), and I.11, p. 198.12 ('in his proportionibus') [checked]; Lewis & Short s.v. proportionalitas (Boeth. Arith. 2.40) [checked]"
+      }
+     ],
+     "doubts": [
+      {
+       "latin": "Musica contineri",
+       "issue": "contineri: 'be contained in' or 'be held together by'.",
+       "options": "«держится музыкой» / 'is held together by music'; «содержится в музыке» / 'is contained in music'.",
+       "choice": "Ablative of means with the passive: 'is held together by music', which suits the cosmic sense of the next sentences.",
+       "evidence": "Lewis & Short s.v. contineo ('hold together') [from memory]",
+       "alternative_ru": "Эта вселенная, как утверждали древние, заключена в музыке.",
+       "alternative_en": "This universe, the ancients declared, is contained in music."
+      }
+     ]
+    },
+    "D": {
+     "ru": "Древние утверждали, что музыка скрепляет эту вселенную. Ведь ничто в природе вещей не существует без соразмерности и пропорции,",
+     "en": "The ancients maintained that music holds this universe together. For nothing in nature subsists without commensuration and proportion,",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "Commensuratio означает здесь соразмерность вещей, proportio — пропорцию, в которой они находятся. У Боэция мировая музыка обнаруживается в строении неба, соединении стихий и смене времён года.",
+       "en": "Commensuratio is the correspondence of things in measure, proportio the proportion in which they stand. For Boethius cosmic music can be discerned in the heavens, the combination of the elements and the succession of the seasons.",
+       "source": "Xylander 40.3–7 [checked]. Boethius, De institutione musica I.2, ed. Friedlein (1867), pp. 187–189 [checked]"
+      }
+     ],
+     "doubts": []
+    },
+    "A": {
+     "ru": "Древние утверждали, что эта вселенная держится музыкой. Ведь ничто в природе вещей не существует без соразмерности и пропорции;",
+     "en": "The ancients declared that this universe is held together by Music. For nothing in the nature of things subsists without commensuration and proportion;",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "commensuratio et proportio — парное выражение, которое проходит через всё вступление; commensuratio — позднее слово (Боэций) со значением «соразмерность, симметрия». Proportio у Ксиландра далее (X25, X35–38) означает и числовое отношение интервала, как у Боэция (proportio в отличие от proportionalitas); перевод «пропорция» сохраняет его слово.",
+       "en": "commensuratio et proportio is a pair that runs through the whole proem; commensuratio is a late word (Boethius) meaning ‘symmetry, due measure’. Later (X25, X35–38) Xylander uses proportio for the numerical ratio of an interval, as Boethius does (proportio as against proportionalitas); the rendering ‘proportion’ keeps his word.",
+       "source": "Lewis & Short and Gaffiot, s.v. commensuratio (Boeth. Mus. 1, 31), DMLBS s.v. commensuratio, via Logeion [checked]; Boethius, De institutione arithmetica 2.40 on proportio / proportionalitas [from memory]"
+      }
+     ],
+     "doubts": []
+    }
+   }
+  },
+  {
+   "id": "X03",
+   "ref": "Xyl. 40.7–12",
+   "latin": "neque quicquam eorum quae fiunt, sine debita commensuratione et proportione si fiat, recte productum natumve esse dicitur: sive id ab arte efficiatur, sive a natura: et sive sub sensum illud cadat, sive solo intellectu perspiciatur.",
+   "printed": [
+    {
+     "ref": "40.7",
+     "text": "sistit: neque quicquam eorum quæ"
+    },
+    {
+     "ref": "40.8",
+     "text": "fiunt, sine debita commensuratione et propor-"
+    },
+    {
+     "ref": "40.9",
+     "text": "tione si fiat, rectè productum natumúe esse di-"
+    },
+    {
+     "ref": "40.10",
+     "text": "citur: siue id ab arte efficiatur, siue à natura: et"
+    },
+    {
+     "ref": "40.11",
+     "text": "siue sub sensum illud cadat, siue solo intellectu"
+    },
+    {
+     "ref": "40.12",
+     "text": "perspiciatur."
+    }
+   ],
+   "translations": {
+    "C": {
+     "ru": "и ничто из того, что возникает, если оно возникает без должной соразмерности и пропорции, не называется правильно произведённым или рождённым, создаётся ли оно искусством или природой и подпадает ли оно под чувство или усматривается одним лишь умом.",
+     "en": "nor is anything among the things that come to be, if it comes to be without due commensuration and proportion, said to have been rightly produced or born, whether it is brought about by art or by nature, and whether it falls under sense or is discerned by the intellect alone.",
+     "checks": "",
+     "notes": [],
+     "doubts": []
+    },
+    "D": {
+     "ru": "и ни о чём из того, что возникает без должной соразмерности и пропорции, нельзя сказать, что оно создано или родилось как должно, будь оно произведением искусства или природы, доступно ли оно чувству или постижимо одним лишь умом.",
+     "en": "and of all the things that come to be, none that comes about without due commensuration and proportion is said to have been duly produced or born, whether art or nature brings it about and whether it falls within the reach of sense or is discernible by the intellect alone.",
+     "checks": "",
+     "notes": [],
+     "doubts": []
+    },
+    "A": {
+     "ru": "и ни о чём из возникающего, если оно возникает без должной соразмерности и пропорции, не говорят, что оно произведено или рождено правильно, — создаётся ли оно искусством или природой, подпадает ли под чувство или усматривается одним лишь умом.",
+     "en": "nor is anything among the things that come to be said to have been rightly produced or brought forth, if it comes to be without due commensuration and proportion: whether it is wrought by art or by nature, and whether it falls under sense or is discerned by the intellect alone.",
+     "checks": "",
+     "notes": [],
+     "doubts": []
+    },
+    "B": {
+     "ru": "да и ничто из того, что возникает, нельзя назвать правильно произведённым или рождённым, если оно возникает без должной соразмерности и пропорции, будь оно создано искусством или природой, доступно чувству или постижимо одним лишь разумом.",
+     "en": "and of the things that come into being, nothing is said to have been rightly produced or born if it comes into being without due commensurateness and proportion, whether made by art or by nature, and whether it falls within the range of sense or is discerned by the intellect alone.",
+     "checks": "",
+     "notes": [],
+     "doubts": []
+    }
+   }
+  },
+  {
+   "id": "X04",
+   "starts_paragraph": "2",
+   "ref": "Xyl. 40.13–15",
+   "latin": "Caeterum Musica ipsa per se commensuratio quaedam omnino et proportionalitas est, nimirum harmonia universi existens.",
+   "printed": [
+    {
+     "ref": "40.13",
+     "text": "Cæterùm Musica ipsa per se commensura-"
+    },
+    {
+     "ref": "40.14",
+     "text": "tio quædam omnino et proportionalitas est, ni-"
+    },
+    {
+     "ref": "40.15",
+     "text": "mirum harmonia uniuersi existens. Fortassis et"
+    }
+   ],
+   "translations": {
+    "D": {
+     "ru": "Сама же музыка есть, без сомнения, некая соразмерность и пропорциональность, ибо она и есть гармония вселенной.",
+     "en": "Music in itself is certainly a kind of commensuration and proportionality, being, of course, the harmony of the universe.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "Ксиландр меняет proportio на proportionalitas. В обоснование он называет музыку harmonia universi, гармонией Вселенной. У Вине в соответствующем месте музыка прямо названа и самой Вселенной.",
+       "en": "Xylander changes from proportio to proportionalitas. He gives as his reason that music is harmonia universi, the harmony of the universe. In the corresponding passage Vinet calls music the universe itself as well.",
+       "source": "Xylander 40.7–15 [checked]. Vinet 41.13–17 [checked]."
+      }
+     ],
+     "doubts": []
+    },
+    "A": {
+     "ru": "Музыка же сама по себе есть всецело некая соразмерность и пропорциональность, будучи, разумеется, гармонией вселенной.",
+     "en": "Music itself, moreover, is in its own right altogether a certain commensuration and proportionality, being, to be sure, the harmony of the universe.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "Здесь вместо proportio стоит proportionalitas (у Боэция — «пропорция» как равенство отношений); различие слов сохранено: «пропорциональность».",
+       "en": "Here proportionalitas stands in place of proportio (in Boethius, ‘proportion’ as a likeness of ratios); the difference of words is kept: ‘proportionality’.",
+       "source": "Lewis & Short, Gaffiot, DMLBS, s.v. proportionalitas (Boeth. Arithm. 2, 40), via Logeion [checked]"
+      }
+     ],
+     "doubts": []
+    },
+    "B": {
+     "ru": "Сама же музыка по себе, несомненно, есть своего рода соразмерность и пропорциональность, ибо она представляет собой гармонию вселенной.",
+     "en": "Music in itself is assuredly a kind of commensurateness and proportionality, for it is the harmony of the universe.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "Слово proportionalitas обозначает свойство быть пропорциональным. У Боэция различение мировой, человеческой и инструментальной музыки даёт близкий контекст. Ксиландр же прямо называет музыку гармонией (harmonia) вселенной.",
+       "en": "Proportionalitas is the quality of being proportionate. Boethius distinguishes cosmic, human and instrumental music, a parallel to this account in which Xylander calls music the harmony (harmonia) of the universe.",
+       "source": "Boethius, De institutione musica, ed. Friedlein (1867), I.2 [checked]"
+      }
+     ],
+     "doubts": [
+      {
+       "latin": "quaedam omnino",
+       "issue": "Quaedam qualifies the kind of measure while omnino can emphasise the assertion or the extent to which it holds.",
+       "options": "“Certainly a kind of commensurateness” or “in every respect a kind of commensurateness.”",
+       "choice": "The first fits the assertion and allows quaedam its ordinary approximating force.",
+       "evidence": "Xylander, Basel (1556), p. 40 [checked].",
+       "alternative_ru": "Сама музыка по себе во всех отношениях есть своего рода соразмерность и пропорциональность.",
+       "alternative_en": "Music itself is in every respect a kind of commensurateness and proportionality."
+      }
+     ]
+    },
+    "C": {
+     "ru": "Музыка же сама по себе есть всецело некая соразмерность и пропорциональность: она, разумеется, и есть гармония вселенной.",
+     "en": "Now music itself is in itself altogether a kind of commensuration and proportionality, being, indeed, the harmony of the universe.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "Existens (также X13 nulli existens usui) — причастие от exsisto в роли недостающего причастия от esse, обычная калька греческого ὤν у гуманистов, переводивших с греческого; передано «будучи».",
+       "en": "Existens (also X13 nulli existens usui) is the participle of exsisto standing in for the missing present participle of esse, a usual rendering of Greek ὤν in humanist translations from Greek; rendered 'being'.",
+       "source": "Lewis & Short s.v. exsisto [from memory]"
+      }
+     ],
+     "doubts": []
+    }
+   }
+  },
+  {
+   "id": "X05",
+   "ref": "Xyl. 40.15–20",
+   "latin": "Fortassis et ipsam divinam naturam haud inconvenienter sui ipsius et universi harmoniam quispiam dixerit: siquidem in Deo concinnatus, et ad consonantiam coaptatus mundus, bene, atque adeo quam optime se habere videtur.",
+   "printed": [
+    {
+     "ref": "40.15",
+     "text": "mirum harmonia uniuersi existens. Fortassis et"
+    },
+    {
+     "ref": "40.16",
+     "text": "ipsam diuinam naturam haud inconuenienter sui"
+    },
+    {
+     "ref": "40.17",
+     "text": "ipsius et uniuersi harmoniam quispiam dixerit:"
+    },
+    {
+     "ref": "40.18",
+     "text": "siquidem in Deo concinnatus, et ad consonan-"
+    },
+    {
+     "ref": "40.19",
+     "text": "tiam coaptatus mundus, bene, atque adeò quàm"
+    },
+    {
+     "ref": "40.20",
+     "text": "optimè se habere uidetur. Tanto nimirum Mu-"
+    }
+   ],
+   "translations": {
+    "A": {
+     "ru": "Пожалуй, и саму божественную природу кто-нибудь вполне уместно назвал бы гармонией самой себя и вселенной: ведь мир, слаженный в Боге и прилаженный к консонансу, устроен, как видно, хорошо и даже как нельзя лучше.",
+     "en": "Perhaps one might not unfittingly call even the divine nature itself the harmony of itself and of the universe: since the world, framed in God and fitted to consonance, is seen to be in a good, and indeed in the best possible, state.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "concinnatus, coaptatus: глаголы concinnare («ладно соединять, устраивать») и coaptare («прилаживать», слово церковной латыни) у Ксиландра постоянно передают «слаживание» гармонии (ср. X12, X44, X45, X47, X56); в переводе первый — «слаживать», второй — «прилаживать». Consonantia здесь — «согласное звучание» в широком смысле, но по принятому условию переведено «консонанс». Haud inconvenienter — литота («не неуместно»).",
+       "en": "concinnatus, coaptatus: the verbs concinnare (‘to join fitly, arrange’) and coaptare (‘to fit together’, a word of ecclesiastical Latin) are Xylander's standing words for the ‘fitting together’ of harmony (cf. X12, X44, X45, X47, X56); the first is rendered ‘to frame’, the second ‘to fit’. Consonantia is here ‘concord’ in a broad sense, but is rendered ‘consonance’ by the project's convention. Haud inconvenienter is a litotes (‘not unfittingly’).",
+       "source": "Lewis & Short, s.vv. concinno, coapto, via Logeion [checked]"
+      }
+     ],
+     "doubts": []
+    },
+    "B": {
+     "ru": "Пожалуй, и саму божественную природу можно было бы не без основания назвать гармонией её самой и вселенной, поскольку мир, в Боге стройно устроенный и приведённый к консонансу, явно пребывает в добром, даже наилучшем состоянии.",
+     "en": "Perhaps one might without impropriety call the divine nature itself the harmony of itself and of the universe, since the world, ordered in God and brought into consonance, seems to fare well, indeed as well as possible.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "Ксиландр говорит о «божественной природе» (divina natura) и о консонансе (consonantia) мира в Боге. Вине называет самого Бога согласованностью.",
+       "en": "Xylander speaks of the “divine nature” (divina natura) and of the world's consonance (consonantia) in God. Vinet calls God himself its accord.",
+       "source": "Xylander, Basel (1556), p. 40 [checked]. Vinet, Tournon (1591), pp. 41–42 [checked]."
+      }
+     ],
+     "doubts": []
+    },
+    "C": {
+     "ru": "Пожалуй, и саму божественную природу кто-нибудь не без оснований назвал бы гармонией самой себя и вселенной, коль скоро мир, слаженный в Боге и прилаженный к консонансу, представляется пребывающим в добром, более того — в наилучшем состоянии.",
+     "en": "Perhaps someone might not unfittingly call the divine nature itself, too, the harmony of itself and of the universe, since the world, attuned in God and fitted to consonance, appears to be in a good, indeed in the best possible, condition.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "Concinnatus и coaptatus. Concinno — «соединять подобающим образом, слаживать» (классическое слово); coapto — церковная латынь, «прилаживать». Ксиландр пользуется обоими для музыкального «слаживания»: concinno передаётся везде как «слаживать» (X12, X44, X56; наречие concinne в X32 — «слаженно»), coapto и coaptatio — как «прилаживать», «прилаживание» (X45, X47).",
+       "en": "Concinnatus and coaptatus. Concinno is 'to join fitly together, arrange' (classical); coapto is ecclesiastical Latin, 'to fit together'. Xylander uses both for musical fitting: concinno is rendered 'attune' throughout (X12, X44, X56; the adverb concinne in X32 'harmoniously'), coapto and coaptatio 'fit (together)', 'fitting-together' (X45, X47).",
+       "source": "Lewis & Short s.vv. concinno, coapto (Aug., Prud.) [checked]"
+      },
+      {
+       "ru": "Consonantia здесь — космическое «созвучие», но по принятому правилу передаётся тем же термином «консонанс», что и в учении об интервалах (X31 сл.): текст сам связывает гармонию мира с музыкальным консонансом.",
+       "en": "Consonantia here is the 'concord' of the cosmos, but by the project's rule it is rendered by the same term 'consonance' as in the doctrine of intervals (X31 ff.): the text itself links the harmony of the world with musical consonance.",
+       "source": "about.md §4.5 [checked]"
+      }
+     ],
+     "doubts": []
+    },
+    "D": {
+     "ru": "Пожалуй, и саму божественную природу можно с основанием назвать гармонией — и её собственной, и гармонией всей вселенной. Ведь мир, стройно устроенный в Боге и приведённый к консонансу, пребывает, как видно, в благом и даже в наилучшем состоянии.",
+     "en": "One might perhaps aptly call the divine nature itself the harmony both of its own being and of the universe, since the world, ordered in God and fitted together in consonance, appears to be in a good, indeed the best possible, state.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "Слово consonantia («консонанс») уже здесь вводит музыкальный смысл в описание устройства мира. Concinnatus и coaptatus обозначают согласованность его частей.",
+       "en": "Consonantia, ‘consonance’, already lends a musical sense to the description of the world. Concinnatus and coaptatus describe the fitting together of its parts.",
+       "source": "Xylander 40.15–20 [checked]. Boethius, De institutione musica I.2, ed. Friedlein (1867), pp. 187–189 [checked]"
+      }
+     ],
+     "doubts": []
+    }
+   }
+  },
+  {
+   "id": "X06",
+   "ref": "Xyl. 40.20–21",
+   "latin": "Tanto nimirum Musicam illi dignati sunt miraculo.",
+   "printed": [
+    {
+     "ref": "40.20",
+     "text": "optimè se habere uidetur. Tanto nimirum Mu-"
+    },
+    {
+     "ref": "40.21",
+     "text": "sicam illi dignati sunt miraculo. Ea quando in"
+    }
+   ],
+   "translations": {
+    "B": {
+     "ru": "Вот какого изумления они удостоили музыку.",
+     "en": "Such was the wonder they thought music deserved.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "Miraculum может обозначать предмет восхищения. Оборот dignari с аккузативом и аблативом характеризует степень удивления древних.",
+       "en": "Miraculum can denote an object of wonder. Dignari with accusative and ablative expresses the degree of admiration accorded by the ancients.",
+       "source": "Lewis & Short, A Latin Dictionary (1879), s.v. miraculum [checked] Lewis & Short, A Latin Dictionary (1879), s.v. dignor [checked]"
+      }
+     ],
+     "doubts": []
+    },
+    "C": {
+     "ru": "Столь великого восхищения, разумеется, удостоили они музыку.",
+     "en": "Of so great a wonder, indeed, did they deem music worthy.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "Illi — древние из X02. Dignari aliquem aliqua re — «считать кого-либо достойным чего-либо»; miraculum — «предмет удивления, чудо», здесь «восхищение».",
+       "en": "Illi are the ancients of X02. Dignari aliquem aliqua re is 'to deem someone worthy of something'; miraculum is 'an object of wonder', here 'wonder'.",
+       "source": "Lewis & Short s.vv. dignor, miraculum [from memory]"
+      }
+     ],
+     "doubts": []
+    },
+    "D": {
+     "ru": "Вот какого удивления древние считали музыку достойной.",
+     "en": "Such was the wonder they thought music deserved.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "У miraculum здесь смысл «удивление, восхищение». Ср. у Плиния digna miraculo — о дереве, достойном изумления.",
+       "en": "Miraculum here conveys the wonder felt by an observer. Compare Pliny’s digna miraculo of a tree that excites wonder.",
+       "source": "Lewis & Short, s.v. miraculum I [checked]"
+      }
+     ],
+     "doubts": []
+    },
+    "A": {
+     "ru": "Вот сколь великого удивления удостоили они музыку.",
+     "en": "Of so great a wonder, evidently, did they deem Music worthy.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "illi — «древние» из X02. Miraculum — «диво, предмет удивления» (не «чудо» в церковном смысле): букв. «столь великого дива удостоили».",
+       "en": "illi are the ‘ancients’ of X02. Miraculum is ‘a wonder, a thing to marvel at’ (not a ‘miracle’ in the ecclesiastical sense): literally ‘they deemed Music worthy of so great a marvel’.",
+       "source": "Lewis & Short, s.v. miraculum (‘a wonderful, strange, or marvellous thing, a wonder, marvel’; ‘digna miraculo’, Plin. 12, 1, 5), via Logeion [checked]"
+      }
+     ],
+     "doubts": [
+      {
+       "latin": "Tanto... dignati sunt miraculo",
+       "issue": "miraculum: the wonder that Music is, or the admiration paid to it",
+       "options": "‘deemed Music worthy of so great a wonder’ / ‘honoured Music with so great admiration’",
+       "choice": "‘wonder’ in English; «удивление» in Russian (in its sense of ‘wonder’), where the literal «дива» is not idiomatic; the two now agree",
+       "evidence": "Lewis & Short, s.v. miraculum, via Logeion [checked]",
+       "alternative_ru": "",
+       "alternative_en": ""
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "X07",
+   "ref": "Xyl. 40.21–41.3",
+   "latin": "Ea quando in omnibus conspicitur, atque universa temperat, exornatque, tum sensui voluptatem, congruentiam autem (harmoniam dico) Naturae, beatitatem denique intellectui largitur: nos de ea Musica quae in sensibus, aut potius uno sensuum auditu consideratur, paucis disseremus.",
+   "printed": [
+    {
+     "ref": "40.21",
+     "text": "sicam illi dignati sunt miraculo. Ea quando in"
+    },
+    {
+     "ref": "40.22",
+     "text": "omnibus conspicitur, atque uniuersa temperat, e-"
+    },
+    {
+     "ref": "40.23",
+     "text": "xornatqúe, tum sensui uoluptatem, congruentiam"
+    },
+    {
+     "ref": "40.24",
+     "text": "autem (harmoniam dico) Naturæ, beatitatem"
+    },
+    {
+     "ref": "41.1",
+     "text": "denique intellectui largitur: nos de ea Musica quæ"
+    },
+    {
+     "ref": "41.2",
+     "text": "in sensibus, aut potius uno sensuum auditu con-"
+    },
+    {
+     "ref": "41.3",
+     "text": "sideratur, paucis disseremus."
+    }
+   ],
+   "translations": {
+    "C": {
+     "ru": "Поскольку она усматривается во всём, всё умеряет и украшает и дарует чувству наслаждение, природе — согласованность (я разумею гармонию), а уму, наконец, — блаженство, мы вкратце поведём речь о той музыке, которая рассматривается в чувствах, или, вернее, в одном из чувств — в слухе.",
+     "en": "Since it is seen in all things, and tempers and adorns all things, and bestows pleasure on sense, congruence (I mean harmony) on Nature, and finally blessedness on the intellect, we shall discuss briefly that music which is considered in the senses, or rather in the one sense of hearing.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "Beatitas — слово, созданное Цицероном (De natura deorum I.95), который сам называет его и beatitudo «жёсткими»; позднее оно встречается редко (Апулей, Макробий, Августин). Ксиландр выбирает его вместо обычного beatitudo; у Вине — beatitudinem.",
+       "en": "Beatitas is a word coined by Cicero (De natura deorum I.95), who himself calls it and beatitudo 'harsh'; later it is rare (Apuleius, Macrobius, Augustine). Xylander chooses it rather than the common beatitudo; Vinet has beatitudinem.",
+       "source": "Lewis & Short s.v. beatitas (Cic. N.D. 1.34.95; Quint. 8.3.32); Gaffiot s.v. beatitas [checked]"
+      },
+      {
+       "ru": "Quando здесь причинное («поскольку»). Temperare — «умерять, приводить в должную меру».",
+       "en": "Quando is causal here ('since'). Temperare is 'to temper, bring into due measure'.",
+       "source": "Lewis & Short s.vv. quando, tempero [from memory]"
+      }
+     ],
+     "doubts": []
+    },
+    "D": {
+     "ru": "Поскольку музыка обнаруживается во всём, всему даёт строй и всё украшает, а также дарует чувству удовольствие, природе — согласие (я разумею гармонию), а уму, наконец, — блаженство, мы вкратце скажем о той музыке, которую воспринимают чувствами, вернее, одним из чувств — слухом.",
+     "en": "Since music is discernible in all things, brings all things into due order and adorns them, and gives pleasure to sense, agreement (I mean harmony) to nature and, finally, blessedness to the intellect, we shall speak briefly of the music that is perceived by the senses, or, more precisely, by one of them, hearing.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "Словом harmonia Ксиландр поясняет congruentia, «согласие». Temperat, «даёт строй», подразумевает приведение частей целого в должное соотношение.",
+       "en": "Xylander glosses congruentia, ‘agreement’, with harmonia. Temperat conveys bringing the parts of a whole into their proper relation.",
+       "source": "Xylander 40.21–41.3 [checked]."
+      }
+     ],
+     "doubts": []
+    },
+    "A": {
+     "ru": "Поскольку она усматривается во всём, всё упорядочивает и украшает и к тому же дарует чувству наслаждение, природе — согласованность (я разумею гармонию), а уму, наконец, — блаженство, мы кратко скажем о той музыке, которая рассматривается в чувствах, или, вернее, в одном из чувств — слухе.",
+     "en": "Since it is seen in all things, and tempers and adorns the whole, and moreover bestows pleasure on sense, congruence (I mean harmony) on Nature, and lastly blessedness on the intellect, we shall discourse briefly of that Music which is considered in the senses, or rather in one of the senses, hearing.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "Тройное деление: музыка чувственная, природная и умопостигаемая; трактат ограничивается первой. Вставка «harmoniam dico» — пояснение к слову congruentia внутри самого перевода Ксиландра. Ср. у Боэция деление на musica mundana, humana и instrumentalis (иное по составу).",
+       "en": "A threefold division: music of sense, of nature and of the intellect; the treatise confines itself to the first. The parenthesis harmoniam dico is a gloss on congruentia inside Xylander's own version. Compare Boethius' division into musica mundana, humana and instrumentalis (different in content).",
+       "source": "Boethius, De institutione musica, ed. Friedlein, read in the Latin Wikisource transcription of that edition, 1.2 (‘Tres esse musicas’: mundana, humana, and that which ‘in quibusdam constituta est instrumentis’) [checked]"
+      }
+     ],
+     "doubts": [
+      {
+       "latin": "Ea quando... tum sensui voluptatem... largitur: nos...",
+       "issue": "quando causal or temporal; tum correlative or simply ‘and moreover’",
+       "options": "‘since it... and bestows’ / ‘when it..., then it bestows’",
+       "choice": "causal quando, with the whole period as the ground for nos... disseremus; the colon before nos marks the main clause",
+       "evidence": "Allen & Greenough on causal quando [from memory]",
+       "alternative_ru": "",
+       "alternative_en": ""
+      }
+     ]
+    },
+    "B": {
+     "ru": "Музыка обнаруживается во всём, всё соразмеряет и украшает, доставляет чувству удовольствие, природе — согласованность (я имею в виду гармонию), а разуму — блаженство. Поэтому мы вкратце поговорим о музыке, которую рассматривают посредством чувств, вернее, одного из них — слуха.",
+     "en": "Since music is discernible in all things, tempers and adorns them all, and grants pleasure to sense, accord (I mean harmony) to nature, and finally blessedness to the intellect, we shall speak briefly of music as considered by the senses, or rather by one of them, hearing.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "Congruentia означает согласованность, которую Ксиландр тут же отождествляет с гармонией. У Вине в таком же сопоставлении convenientia.",
+       "en": "Congruentia is the accord Xylander immediately identifies with harmony. Vinet uses convenientia in the corresponding comparison.",
+       "source": "Xylander, Basel (1556), pp. 40–41 [checked]. Vinet, Tournon (1591), p. 42 [checked]."
+      }
+     ],
+     "doubts": []
+    }
+   }
+  },
+  {
+   "id": "X08",
+   "starts_paragraph": "3",
+   "ref": "Xyl. 41.4–5",
+   "latin": "Sonus est, vocis nullo intervallo divisae harmoniae particeps intensio, seu tenor.",
+   "printed": [
+    {
+     "ref": "41.4",
+     "text": "Sonus est, uocis nullo interuallo diuisæ har-"
+    },
+    {
+     "ref": "41.5",
+     "text": "moniæ particeps intensio, seu tenor. Interuallum"
+    }
+   ],
+   "translations": {
+    "D": {
+     "ru": "Звук — это высота голоса, не разделённого никаким интервалом, иначе говоря, его ровное звучание, причастное гармонии.",
+     "en": "A note is the pitch, or steady tone, of a voice undivided by any interval, a pitch that partakes of harmony.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "Sonus здесь — отдельный музыкальный звук. Для intensio Ксиландр даёт синоним tenor, подчёркивающий, что голос держится на одной высоте. В определении звука у Боэция также важны пригодность для мелодии и одна высота.",
+       "en": "Sonus here is an individual musical note. Xylander glosses intensio with tenor, suggesting a voice holding a pitch steady. Suitability for melody and a single pitch also enter Boethius’ definition.",
+       "source": "Boethius, De institutione musica I.8, ed. Friedlein (1867), p. 195 [checked] Lewis & Short, s.v. tenor I [checked]"
+      }
+     ],
+     "doubts": []
+    },
+    "A": {
+     "ru": "Звук есть причастное гармонии напряжение, или удержание, голоса, не разделённого никаким интервалом.",
+     "en": "A note is a tension, or sustained holding, of a voice divided by no interval, [a tension] that partakes of harmony.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "Определение из трёх признаков: (1) intensio seu tenor — «напряжение, или удержание» голоса на одной высоте (intensio у Цензорина — «высота тона»; tenor — «непрерывное удержание», у Квинтилиана «тон, ударение»); (2) nullo intervallo divisae — без протяжения в высоту, ср. X12, где звук сравнён с точкой; (3) harmoniae particeps — пригодность к мелодии, ср. X12–13. Слово intensio в определении звука — боэциевское: «Sonus igitur est vocis casus emmeles, id est aptus melo, in unam intensionem». Ср. также определения у Никомаха («не имеющее ширины напряжение мелодического голоса») и Клеонида («мелодическое попадание голоса на одну высоту»).",
+       "en": "A definition by three marks: (1) intensio seu tenor, the ‘tension, or holding’ of the voice at one pitch (intensio in Censorinus is ‘pitch’; tenor is ‘an uninterrupted holding’, in Quintilian ‘tone, accent’); (2) nullo intervallo divisae, without extension in pitch, cf. X12, where the note is compared to a point; (3) harmoniae particeps, fitness for melody, cf. X12–13. Intensio in the definition of the note is Boethius' word: ‘Sonus igitur est vocis casus emmeles, id est aptus melo, in unam intensionem’. Compare also the definitions in Nicomachus (‘a breadthless pitch of melodic voice’) and Cleonides (‘a melodic incidence of the voice upon one pitch’).",
+       "source": "Lewis & Short, s.vv. intensio (Censor. 12), tenor (Quint. 1, 5, 22–26), via Logeion [checked]; Boethius, De institutione musica, ed. Friedlein, read in the Latin Wikisource transcription of that edition, 1.8 [checked]; Nicomachus, Enchiridion 12, and Cleonides, Isagoge 1, in Jan, Musici scriptores Graeci [from memory]"
+      }
+     ],
+     "doubts": [
+      {
+       "latin": "vocis nullo intervallo divisae harmoniae particeps intensio",
+       "issue": "divisae may go with vocis or with harmoniae",
+       "options": "‘a tension of the voice undivided by any interval, partaking of harmony’ / ‘a tension of the voice partaking of a harmony divided by no interval’",
+       "choice": "with vocis: particeps is nominative and can only go with intensio, so that harmoniae depends on particeps; divisae (genitive) is then most naturally taken with vocis, and X12 explains the two marks separately (the note is indivisible; it partakes of harmony)",
+       "evidence": "X12 of this text; Nicomachus, Enchiridion 12 [from memory]",
+       "alternative_ru": "Звук есть напряжение, или удержание, голоса, причастное гармонии, не разделённой никаким интервалом.",
+       "alternative_en": "A note is a tension, or sustained holding, of the voice that partakes of a harmony divided by no interval."
+      }
+     ]
+    },
+    "B": {
+     "ru": "Звук — это высота, или выдерживаемый тон, голосового звучания, не разделённого никаким интервалом, причём эта высота причастна гармонии.",
+     "en": "A note is a pitch, or sustained tone, of vocal sound undivided by any interval, a pitch that partakes of harmony.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "Здесь sonus — музыкальный звук, vox — голосовое звучание, intensio — взятая высота. Tenor поясняет её как удерживаемый тон. Боэций определяет музыкальный звук как приход голоса к одной высоте, пригодной для мелодии.",
+       "en": "Sonus means a musical note, vox vocal sound and intensio a given pitch. Tenor glosses this as a sustained tone. Boethius defines a note as vocal sound falling on one pitch suitable for melody.",
+       "source": "Boethius, De institutione musica, ed. Friedlein (1867), I.8, p. 195 [checked] Lewis & Short, A Latin Dictionary (1879), s.v. tenor [checked]"
+      }
+     ],
+     "doubts": [
+      {
+       "latin": "vocis nullo intervallo divisae harmoniae particeps intensio, seu tenor",
+       "issue": "Particeps may describe the pitch, while tenor can be heard either as a gloss on pitch or as a gloss involving its holding.",
+       "options": "“Pitch that partakes of harmony, or sustained tone”; more abstractly “an intensity or steady pitch capable of harmony.”",
+       "choice": "Sustained tone keeps the connection with tenere and the definition's way of holding one pitch. Vocis and divisae agree.",
+       "evidence": "Lewis & Short, A Latin Dictionary (1879), s.v. tenor [checked] Boethius, De institutione musica, ed. Friedlein (1867), I.8 [checked]",
+       "alternative_ru": "Звук — причастная гармонии высота, или устойчивый уровень высоты, голосового звучания, не разделённого никаким интервалом.",
+       "alternative_en": "A note is a pitch, or steady level of pitch, of vocal sound undivided by any interval, which participates in harmony."
+      }
+     ]
+    },
+    "C": {
+     "ru": "Звук есть причастное гармонии напряжение, или высота, голоса, не разделённого никаким интервалом.",
+     "en": "A note is the tension, or pitch, of a voice undivided by any interval, [a tension] partaking of harmony.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "Параллели: у Фрасилла (в передаче Феона Смирнского) звук определён как «напряжение (τάσις) голоса, причастного гармонии (ἐναρμονίου)», причём «гармоничным» назван звук, по отношению к которому можно найти и более высокий, и более низкий; у Боэция: «Sonus igitur est vocis casus emmeles, id est aptus melo, in unam intensionem». Harmoniae particeps у Ксиландра объяснено им самим в X12 (звук может быть слажен с другим в гармонию); у Вине — conveniens.",
+       "en": "Parallels: Thrasyllus (as reported by Theon of Smyrna) defines the note as 'the tension (τάσις) of a voice partaking of harmony (ἐναρμονίου)', a note being 'harmonious' when a higher and a lower can be found for it; Boethius: 'Sonus igitur est vocis casus emmeles, id est aptus melo, in unam intensionem'. Xylander himself explains harmoniae particeps in X12 (the note can be attuned with another into harmony); Vinet has conveniens.",
+       "source": "Theon of Smyrna, Expositio, ed. Hiller (1878) p. 47.18–24; Boethius, De inst. mus. I.8, ed. Friedlein p. 195.3–4 [checked]"
+      },
+      {
+       "ru": "Intensio, seu tenor. Intensio — слово Боэция для высотного «напряжения» звука; когда оно стоит одно, передаётся везде как «напряжение». Tenor — «непрерывное течение, выдержанность», у Квинтилиана — «ударение, тон голоса» (1.5.22, 26); здесь «высота».",
+       "en": "Intensio, seu tenor. Intensio is Boethius' word for the pitch-'tension' of a note; standing alone it is rendered 'tension' throughout. Tenor is 'continuous course, holding', in Quintilian 'accent, tone of the voice' (1.5.22, 26); here 'pitch'.",
+       "source": "Lewis & Short s.v. tenor (Quint. 1.5.22, 26); Gaffiot s.v. tenor, sense 3 [checked]; Boethius I.8 as above [checked]"
+      }
+     ],
+     "doubts": []
+    }
+   }
+  },
+  {
+   "id": "X09",
+   "ref": "Xyl. 41.5–7",
+   "latin": "Intervallum autem, sonorum mutua unius ad alterum ratio, sive respectus.",
+   "printed": [
+    {
+     "ref": "41.5",
+     "text": "moniæ particeps intensio, seu tenor. Interuallum"
+    },
+    {
+     "ref": "41.6",
+     "text": "autem, sonorum mutua unius ad alterum ratio,"
+    },
+    {
+     "ref": "41.7",
+     "text": "siue respectus. Systema, complexus est certus"
+    }
+   ],
+   "translations": {
+    "A": {
+     "ru": "Интервал же есть взаимное отношение, или соотнесённость, звуков — одного к другому.",
+     "en": "An interval is the mutual ratio, or relation, of notes, of the one to the other.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "ratio, sive respectus: двойной перевод одного термина; respectus — «соотнесённость» (схоластическое употребление; ср. respectu в X18, in respectu в X38).",
+       "en": "ratio, sive respectus: a double rendering of one term; respectus is ‘relation’ in the scholastic sense (cf. respectu in X18, in respectu in X38).",
+       "source": "DMLBS, s.v. respectus, senses 4 (‘(phil.) relation’) and 5 (‘respectu, in respectu’ with the genitive: ‘as regards, with respect to; in comparison with’), via Logeion [checked]"
+      }
+     ],
+     "doubts": []
+    },
+    "B": {
+     "ru": "Интервал же — взаимное отношение звуков, или соотнесённость одного звука с другим.",
+     "en": "An interval is the mutual ratio of notes, or the relation of one to another.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "Intervallum определён через ratio и respectus, то есть через отношение и соотнесённость, без указания на меру расстояния.",
+       "en": "Xylander defines intervallum in terms of ratio and respectus, a ratio or relation, without specifying a measure of distance.",
+       "source": "Xylander, Basel (1556), p. 41 [checked]. Boethius, De institutione musica, ed. Friedlein (1867), I.8 [checked]"
+      }
+     ],
+     "doubts": []
+    },
+    "C": {
+     "ru": "Интервал же — взаимное отношение звуков, одного к другому, или соотнесённость.",
+     "en": "An interval is the mutual ratio of notes, of one to the other, or [their] relation.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "Respectus классически — «оглядка, внимание», в средневековой и схоластической латыни — также «отношение» (философский термин); здесь глосса к ratio, передано «соотнесённость». Ср. Фрасилла у Феона: интервал — «некое отношение (ποιὰ σχέσις) звуков друг к другу». У Вине — habitudo.",
+       "en": "Respectus is classically 'a looking back, regard'; in medieval and scholastic Latin also 'relation' (a philosophical term). Here it glosses ratio; rendered 'relation'. Cf. Thrasyllus in Theon: an interval is 'a certain relation (ποιὰ σχέσις) of notes to one another'. Vinet has habitudo.",
+       "source": "DMLBS s.v. respectus, sense 4 '(phil.) relation' (sense 5b 'in comparison with' fits respectu dieseos in X18) [checked]; Theon, ed. Hiller p. 48.8–10 [checked]"
+      }
+     ],
+     "doubts": []
+    },
+    "D": {
+     "ru": "Интервал же — отношение одного звука к другому, или их взаимное соотношение.",
+     "en": "An interval, in turn, is the ratio of one note to another, or their relation to each other.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "В определении intervallum слово ratio поясняется более общим respectus. Боэций определяет интервал через расстояние между высоким и низким звуками.",
+       "en": "In the definition of intervallum, the broader respectus glosses ratio. Boethius defines an interval as the distance between a high and a low note.",
+       "source": "Xylander 41.5–7 [checked]. Boethius, De institutione musica I.8, ed. Friedlein (1867), p. 195 [checked]"
+      }
+     ],
+     "doubts": []
+    }
+   }
+  },
+  {
+   "id": "X10",
+   "ref": "Xyl. 41.7–8",
+   "latin": "Systema, complexus est certus intervallorum.",
+   "printed": [
+    {
+     "ref": "41.7",
+     "text": "siue respectus. Systema, complexus est certus"
+    },
+    {
+     "ref": "41.8",
+     "text": "interuallorum. Harmonia, ipsa constructio sy-"
+    }
+   ],
+   "translations": {
+    "B": {
+     "ru": "Система — определённое сочетание интервалов.",
+     "en": "A system is a definite combination of intervals.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "Systema — соединение интервалов. Клеонид уточняет, что их больше одного.",
+       "en": "Systema means a combination of intervals. Cleonides specifies that there must be more than one.",
+       "source": "Cleonides, Introduction to Harmonics, ed. von Jan (1895), §1, p. 179 [checked]"
+      }
+     ],
+     "doubts": []
+    },
+    "C": {
+     "ru": "Система — определённое сочетание интервалов.",
+     "en": "A system is a definite combination of intervals.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "Complexus — «объятие, охват, совокупность»; передано «сочетание». Ср. Фрасилла у Феона: система — «некий охват (ποιὰ περιοχή) интервалов». У Вине — quaedam intervallorum complexio.",
+       "en": "Complexus is 'embrace, encompassing, combination'; rendered 'combination'. Cf. Thrasyllus in Theon: a system is 'a certain comprehension (ποιὰ περιοχή) of intervals'. Vinet has quaedam intervallorum complexio.",
+       "source": "Lewis & Short s.v. complexus (2); Theon, ed. Hiller p. 48.10–12 [checked]"
+      }
+     ],
+     "doubts": [
+      {
+       "latin": "complexus est certus",
+       "issue": "certus may mean 'fixed, definite' or, more loosely, 'a certain' (= quidam, as in Vinet).",
+       "options": "«определённое сочетание» / 'a definite combination'; «некое сочетание» / 'a certain combination'.",
+       "choice": "'Definite': certus normally keeps this sense; Xylander does not write quidam.",
+       "evidence": "Lewis & Short s.v. certus [from memory]",
+       "alternative_ru": "Система — некое сочетание интервалов.",
+       "alternative_en": "A system is a certain combination of intervals."
+      }
+     ]
+    },
+    "D": {
+     "ru": "Система — определённое сочетание интервалов.",
+     "en": "A system is a definite combination of intervals.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "Systema — сочетание (complexus) интервалов. Определение допускает системы разного объёма, как показывают последующие примеры тетрахорда, пентахорда и октахорда.",
+       "en": "Systema combines intervals into a complexus. The later examples of the tetrachord, pentachord and octachord show that systems can differ in extent.",
+       "source": "Xylander 41.7–8 and 47.5–17 [checked]."
+      }
+     ],
+     "doubts": []
+    },
+    "A": {
+     "ru": "Система есть определённая совокупность интервалов.",
+     "en": "A system is a determinate combination of intervals.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "complexus — букв. «охват, сплетение»; ср. обычное определение системы как составленного более чем из одного интервала.",
+       "en": "complexus is literally an ‘embracing, interweaving’; compare the usual definition of a system as that which is composed of more than one interval.",
+       "source": "Cleonides, Isagoge 1 (Jan) [from memory]"
+      }
+     ],
+     "doubts": []
+    }
+   }
+  },
+  {
+   "id": "X11",
+   "ref": "Xyl. 41.8–9",
+   "latin": "Harmonia, ipsa constructio systematum.",
+   "printed": [
+    {
+     "ref": "41.8",
+     "text": "interuallorum. Harmonia, ipsa constructio sy-"
+    },
+    {
+     "ref": "41.9",
+     "text": "stematum. Enimuerò sonus diuisionis capax"
+    }
+   ],
+   "translations": {
+    "C": {
+     "ru": "Гармония — само построение систем.",
+     "en": "Harmony is the very construction of systems.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "Ср. Фрасилла у Феона: гармония — «сочетание (σύνταξις) систем, например лидийская, фригийская, дорийская».",
+       "en": "Cf. Thrasyllus in Theon: harmony is 'an arrangement (σύνταξις) of systems, such as the Lydian, Phrygian, Dorian'.",
+       "source": "Theon, ed. Hiller p. 48.12–13 [checked]"
+      }
+     ],
+     "doubts": []
+    },
+    "D": {
+     "ru": "Гармония — само построение систем.",
+     "en": "Harmony is the very construction of systems.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "Constructio systematum обозначает здесь действие. Ниже Ксиландр называет построение и согласование систем собственным делом гармонии.",
+       "en": "Constructio systematum has an active sense here. Later Xylander calls the construction and fitting together of systems the proper work of harmony.",
+       "source": "Xylander 41.8–9 and 47.21–48.1 [checked]."
+      }
+     ],
+     "doubts": []
+    },
+    "A": {
+     "ru": "Гармония — само построение систем.",
+     "en": "Harmony is the very construction of systems.",
+     "checks": "",
+     "notes": [],
+     "doubts": []
+    },
+    "B": {
+     "ru": "Гармония — само построение систем.",
+     "en": "Harmony is the actual construction of systems.",
+     "checks": "",
+     "notes": [],
+     "doubts": []
+    }
+   }
+  },
+  {
+   "id": "X12",
+   "ref": "Xyl. 41.9–13",
+   "latin": "Enimvero sonus divisionis capax non est, ut neque punctum in Geometria. Harmoniae participem diximus, quia ita effertur, ut possit etiam cum alio sono ad harmoniam concinnari.",
+   "printed": [
+    {
+     "ref": "41.9",
+     "text": "stematum. Enimuerò sonus diuisionis capax"
+    },
+    {
+     "ref": "41.10",
+     "text": "non est, ut neque punctum in Geometria. Har-"
+    },
+    {
+     "ref": "41.11",
+     "text": "moniæ participem diximus, quia ita effertur, ut"
+    },
+    {
+     "ref": "41.12",
+     "text": "possit etiam cum alio sono ad harmoniam con-"
+    },
+    {
+     "ref": "41.13",
+     "text": "cinnari. Quod nisi fiat, iam is dissonus sit sonus,"
+    }
+   ],
+   "translations": {
+    "D": {
+     "ru": "В самом деле, звук так же не допускает деления, как точка в геометрии. Мы назвали его причастным гармонии, потому что его издают так, что он может быть согласован и с другим звуком, образуя гармонию.",
+     "en": "Indeed a note admits of no division, any more than a point does in geometry. We said that it partakes of harmony because it is sounded in such a way that it can also be fitted to another note to form a harmony.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "Звук сравнивается с геометрической точкой (punctum). Сравнение касается неделимости отдельной высоты.",
+       "en": "The comparison with a geometrical point (punctum) concerns the indivisibility of a single pitch.",
+       "source": "Xylander, Basel 1556, 41.9–13 [checked]."
+      }
+     ],
+     "doubts": []
+    },
+    "A": {
+     "ru": "В самом деле, звук не допускает деления, как и точка в геометрии. Причастным же гармонии мы назвали его потому, что он издаётся так, что может быть слажен в гармонию и с другим звуком.",
+     "en": "For indeed a note does not admit of division, any more than a point in geometry. We called it ‘partaking of harmony’ because it is uttered in such a way that it can also be framed into harmony with another note.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "Сравнение звука с точкой обычно в античной гармонике.",
+       "en": "The comparison of the note with the point is common in ancient harmonics.",
+       "source": "Nicomachus, Enchiridion 12 (Jan) [from memory]"
+      }
+     ],
+     "doubts": []
+    },
+    "B": {
+     "ru": "В самом деле, звук не делится, как и точка в геометрии. Мы сказали, что он причастен гармонии, потому что его издают так, что его можно стройно соединить и с другим звуком, образовав гармонию.",
+     "en": "A note admits of no division, any more than a point in geometry. We said it partakes of harmony because it is produced in such a way that it can also be fitted to another note to make harmony.",
+     "checks": "",
+     "notes": [],
+     "doubts": []
+    },
+    "C": {
+     "ru": "Ведь звук неспособен к делению, как и точка в геометрии. Причастным гармонии мы назвали его потому, что он издаётся так, что может быть слажен и с другим звуком в гармонию.",
+     "en": "For a note is not capable of division, any more than a point in geometry. We called it ‘partaking of harmony’ because it is uttered in such a way that it can also be attuned with another note into harmony.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "Точка — то, что не имеет частей (Евклид, «Начала», I, опр. 1).",
+       "en": "A point is that which has no part (Euclid, Elements I, def. 1).",
+       "source": "Euclid, Elements I def. 1 [from memory]"
+      }
+     ],
+     "doubts": []
+    }
+   }
+  },
+  {
+   "id": "X13",
+   "ref": "Xyl. 41.13–16",
+   "latin": "Quod nisi fiat, iam is dissonus sit sonus, non consonus: imo neque sonus dicetur esse, sed strepitus quispiam temere editus, et ad consonantiam nulli existens usui.",
+   "printed": [
+    {
+     "ref": "41.13",
+     "text": "cinnari. Quod nisi fiat, iam is dissonus sit sonus,"
+    },
+    {
+     "ref": "41.14",
+     "text": "non consonus: imò neque sonus dicetur esse, sed stre"
+    },
+    {
+     "ref": "41.15",
+     "text": "pitus quispiam temerè editus, et ad consonan-"
+    },
+    {
+     "ref": "41.16",
+     "text": "tiam nulli existens usui. Proinde diuersæ sunt"
+    }
+   ],
+   "translations": {
+    "A": {
+     "ru": "Если же этого не будет, то такой звук окажется уже диссонирующим, а не консонирующим; более того, его и звуком не назовут, а неким шумом, изданным наугад и совершенно бесполезным для консонанса.",
+     "en": "Should this not be so, that note would then be dissonant, not consonant; indeed it will not even be called a note, but some noise uttered at random and of no use for consonance.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "dissonus / consonus здесь означают «непригодный / пригодный к мелодии», а не консонанс в узком смысле X31–33.",
+       "en": "dissonus / consonus here mean ‘unfit / fit for melody’, not consonance in the narrow sense of X31–33.",
+       "source": "X31–33 of this text [checked]"
+      }
+     ],
+     "doubts": []
+    },
+    "B": {
+     "ru": "Если же этого не происходит, звук будет диссонирующим, а не консонантным. Более того, его и звуком не назовут: это какой-то случайно изданный шум, совершенно непригодный для консонанса.",
+     "en": "If that does not happen, the note will be dissonant, with no consonance. Indeed, it will not even be called a note, but merely a noise produced at random and of no use for consonance.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "Здесь dissonus и consonus — соответственно «диссонирующий» и «консонантный». Случайный шум назван strepitus, у Вине — crepitus.",
+       "en": "Dissonus and consonus mean “dissonant” and “consonant.” Xylander calls the fortuitous noise strepitus, where Vinet writes crepitus.",
+       "source": "Xylander, Basel (1556), p. 41 [checked]. Vinet, Tournon (1591), pp. 42–43 [checked]. Boethius, De institutione musica, ed. Friedlein (1867), I.8 [checked]"
+      }
+     ],
+     "doubts": []
+    },
+    "C": {
+     "ru": "Если же этого не происходит, то такой звук был бы уже диссонирующим, а не консонирующим; более того, он и звуком не будет называться, а неким шумом, изданным наобум и ни к чему не пригодным для консонанса.",
+     "en": "If that does not happen, then that note would be dissonant, not consonant; indeed, it will not even be said to be a note, but some noise produced at random and of no use for consonance.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "Dissonus и consonus переданы как «диссонирующий» и «консонирующий», в одном ряду с consonantia — «консонанс», consonare — «консонировать». Strepitus — «шум» (у Вине crepitus).",
+       "en": "Dissonus and consonus are rendered 'dissonant' and 'consonant', in line with consonantia 'consonance' and consonare 'to be consonant'. Strepitus is 'noise' (Vinet: crepitus).",
+       "source": "about.md §4.5 [checked]"
+      }
+     ],
+     "doubts": []
+    },
+    "D": {
+     "ru": "Если же этого не происходит, звук будет диссонантным, а не консонантным. Более того, его и звуком не назовут: это всего лишь какой-то шум, изданный наугад, совершенно непригодный для консонанса.",
+     "en": "If this does not happen, the note will be dissonant, not consonant. Indeed, it will not even be called a note, but a mere noise produced at random and of no use in forming a consonance.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "Dissonus и consonus — определения звука. Strepitus («шум») вынесен за пределы так понимаемого sonus.",
+       "en": "Dissonus and consonus qualify a note. Strepitus (‘noise’) falls outside the definition of sonus.",
+       "source": "Xylander 41.13–16 [checked]. Boethius, De institutione musica I.8, ed. Friedlein (1867), p. 195 [checked]"
+      }
+     ],
+     "doubts": []
+    }
+   }
+  },
+  {
+   "id": "X14",
+   "ref": "Xyl. 41.16–25",
+   "latin": "Proinde diversae sunt sonorum, quas illi progressu et ordine, quem a gravi ad acutum observant, nanciscuntur nomenclationes: Proslambanomenos, Hypate hypaton, parhypate hypaton, hypate diatonos, hypate meson, parhypate meson, diatonos meson, mese monos, paramesos, trite diezeugmene, diatonos diezeugmene, nete diezeugmene, trite hyperbolaeon, diatonos hyperbolaeon, nete hyperbolaeon.",
+   "printed": [
+    {
+     "ref": "41.16",
+     "text": "tiam nulli existens usui. Proinde diuersæ sunt"
+    },
+    {
+     "ref": "41.17",
+     "text": "sonorum, quas illi progressu et ordine, quem à"
+    },
+    {
+     "ref": "41.18",
+     "text": "graui ad acutum obseruant, nanciscuntur no-"
+    },
+    {
+     "ref": "41.19",
+     "text": "menclationes: Proslambanomenos, Hypate hy-"
+    },
+    {
+     "ref": "41.20",
+     "text": "paton, parhypate hypaton, hypate diatonos, hy-"
+    },
+    {
+     "ref": "41.21",
+     "text": "pate meson, parhypate meson, diatonos meson,"
+    },
+    {
+     "ref": "41.22",
+     "text": "mese monos, paramesos, trite diezeugmene, dia-"
+    },
+    {
+     "ref": "41.23",
+     "text": "tonos diezeugmene, nete diezeugmene, trite"
+    },
+    {
+     "ref": "41.24",
+     "text": "hyperbolæon, diatonos hyperbolæon, nete hy-"
+    },
+    {
+     "ref": "41.25",
+     "text": "perbolæon. Per has sonorum species heccæde"
+    }
+   ],
+   "translations": {
+    "B": {
+     "ru": "Поэтому звуки носят различные названия, которые получают по порядку своего движения от низкого к высокому: просламбаномен, гипата низших, парипата низших, гипата диатоническая, гипата средних, парипата средних, диатоническая средних, просто меса, парамес, трита отделённая, диатоническая отделённая, нета отделённая, трита высших, диатоническая высших, нета высших.",
+     "en": "Thus the notes have different names, which they acquire from their progression and order as they move from low to high: proslambanomenos, hypate hypaton, parhypate hypaton, hypate diatonos, hypate meson, parhypate meson, diatonos meson, simply mese, paramesos, trite diezeugmene, diatonos diezeugmene, nete diezeugmene, trite hyperbolaion, diatonos hyperbolaion, nete hyperbolaion.",
+     "checks": "Fifteen names counted. Mese is eighth, paramese or paramesos ninth, and nete hyperbolaion fifteenth.",
+     "notes": [
+      {
+       "ru": "Nomenclationes — наименования. Список содержит пятнадцать звуков. Формы hypate diatonos и diatonos diezeugmene переданы как в издании. В обычной номенклатуре им соответствуют диатонический лиханос низших и диатоническая паранета отделённых. Уточнение monos при mese у Клеонида отсутствует. Ксиландр пишет paramesos, Вине — paramese. В списках обоих переводчиков опущены три звука тетрахорда соединённых.",
+       "en": "Nomenclationes are designations. The list has fifteen notes. Hypate diatonos and diatonos diezeugmene are retained as printed. In standard nomenclature they correspond to diatonic lichanos hypaton and diatonic paranete diezeugmenon. Cleonides does not add monos to mese. Xylander has paramesos, Vinet paramese. Both translators omit the three notes of the conjunct tetrachord.",
+       "source": "Xylander, Basel (1556), p. 41 [checked]. Cleonides, Introduction to Harmonics, ed. von Jan (1895), §4, pp. 182–185 [checked] Boethius, De institutione musica, ed. Friedlein (1867), I.20–22 [checked] J. M. Gesner, Novus linguae Latinae thesaurus, vol. 3 (CAMENA), s.v. nomenclatio [checked]"
+      },
+      {
+       "ru": "Gravis и acutus задают направление от низкого звука к высокому. Название proslambanomenos означает прибавленный звук, hypaton, meson и hyperbolaeon разграничивают низшие, средние и высшие звуки, diezeugmene указывает на отделённый тетрахорд.",
+       "en": "Gravis and acutus define the direction from low to high. Proslambanomenos denotes the added note, hypaton, meson and hyperbolaeon identify the lowest, middle and highest groups, and diezeugmene points to the disjunct tetrachord.",
+       "source": "Cleonides, Introduction to Harmonics, ed. von Jan (1895), §4 [checked] Boethius, De institutione musica, ed. Friedlein (1867), I.20, I.22, I.25 [checked]"
+      }
+     ],
+     "doubts": [
+      {
+       "latin": "mese monos",
+       "issue": "The qualifier is anomalous in the note list and can restrict the name or the quantity of notes.",
+       "options": "“Simply mese” or “mese alone.”",
+       "choice": "The first takes the phrase as a qualifier of the designation in a sequence of names. The second remains possible, with the note singled out.",
+       "evidence": "Xylander, Basel (1556), p. 41 [checked]. Cleonides, Introduction to Harmonics, ed. von Jan (1895), §4 [checked]",
+       "alternative_ru": "одна лишь меса",
+       "alternative_en": "mese alone"
+      }
+     ]
+    },
+    "C": {
+     "ru": "Поэтому различны наименования звуков, которые они получают по ходу и порядку, соблюдаемому ими от низкого к высокому: просламбаномен, гипата низших, парипата низших, гипата диатоническая, гипата средних, парипата средних, диатоническая средних, меса единственная, парамес, трита отделённая, диатоническая отделённая, нета отделённая, трита высших, диатоническая высших, нета высших.",
+     "en": "Accordingly, the names that the notes obtain from the progression and order which they keep from low to high are different: proslambanomenos, hypate hypaton, parhypate hypaton, hypate diatonos, hypate meson, parhypate meson, diatonos meson, mese monos, paramesos, trite diezeugmene, diatonos diezeugmene, nete diezeugmene, trite hyperbolaion, diatonos hyperbolaion, nete hyperbolaion.",
+     "checks": "Fifteen names, i.e. the two-octave system in the disjunct form (proslambanomenos + tetrachords hypaton, meson, diezeugmenon, hyperbolaion); no synemmenon tetrachord. Numbered 1–15 these are the notes referred to in X16 and X32.",
+     "notes": [
+      {
+       "ru": "Nomenclatio — редкое классическое слово «называние по имени; перечень» (Квинт Цицерон, Колумелла); передано «наименования».",
+       "en": "Nomenclatio is a rare classical word, 'a calling by name; list' (Q. Cicero, Columella); rendered 'names'.",
+       "source": "Lewis & Short s.v. nomenclatio [checked]"
+      },
+      {
+       "ru": "Отличия от обычной латинской номенклатуры (Боэций: lichanos hypaton [diatonos], lichanos meson или diatonos meson, mese, paramese, paranete diezeugmenon, paranete hyperboleon; названия тетрахордов в родительном множественного — diezeugmenon). У Ксиландра: четвёртый звук назван hypate diatonos (обычно lichanos hypaton или hypaton diatonos); третий звук тетрахорда средних, отделённых и высших назван diatonos (обычно lichanos / paranete); paramesos вместо paramese; diezeugmene (им. п. ед. ч.) вместо diezeugmenon.",
+       "en": "Differences from the usual Latin nomenclature (Boethius: lichanos hypaton [diatonos], lichanos meson or diatonos meson, mese, paramese, paranete diezeugmenon, paranete hyperboleon; tetrachord names in the genitive plural, diezeugmenon). Xylander has: hypate diatonos for the fourth note (usually lichanos hypaton or hypaton diatonos); diatonos for the third note of the meson, diezeugmenon and hyperbolaion tetrachords (usually lichanos / paranete); paramesos for paramese; diezeugmene (nominative singular) for diezeugmenon.",
+       "source": "Boethius, De inst. mus. I.20, ed. Friedlein p. 212; I.22, p. 214.6–16 [checked]"
+      },
+      {
+       "ru": "Mese monos: monos — греческое μόνος «один, единственный», оставленное Ксиландром без перевода, по-видимому как часть названия: меса — единственный звук без указания тетрахорда. Вине переводит: Mese solum. В русском тексте определение переведено, как переводятся определения других звуков («меса единственная»); в английском, как и у других звуков, оставлено греческое слово.",
+       "en": "Mese monos: monos is Greek μόνος 'alone, single', left untranslated by Xylander, apparently as part of the name: the mese is the one note without a tetrachord qualifier. Vinet translates Mese solum. The Russian translates the qualifier as it translates those of the other notes; the English keeps the Greek word, as for the other notes.",
+       "source": "LSJ s.v. μόνος [from memory]; Vinet's version, segment V17 [checked]"
+      }
+     ],
+     "doubts": [
+      {
+       "latin": "mese monos",
+       "issue": "Whether monos belongs to the name or is a comment ('the mese alone').",
+       "options": "As part of the name: «меса единственная» / 'mese monos'; as a comment: «меса (одна)» / 'the mese (alone)'.",
+       "choice": "Part of the list, since Xylander prints it inside the series of names without a break.",
+       "evidence": "Page image xylander-p41, line 22 [checked]; Vinet V17 'Mese solum' [checked]",
+       "alternative_ru": "…диатоническая средних, меса — одна, парамес…",
+       "alternative_en": "…diatonos meson, the mese alone, paramesos…"
+      }
+     ]
+    },
+    "D": {
+     "ru": "Поэтому звуки получают разные названия сообразно тому, в каком порядке они следуют от низкого к высокому: просламбаномен, гипата низших, парипата низших, гипата диатоническая, гипата средних, парипата средних, диатоническая средних, просто меса, парамес, трита отделённая, диатоническая отделённая, нета отделённая, трита высших, диатоническая высших, нета высших.",
+     "en": "The notes accordingly receive different names from their progression and the order they follow from low to high: proslambanomenos, hypate hypaton, parhypate hypaton, hypate diatonos, hypate meson, parhypate meson, diatonos meson, simply mese, paramesos, trite diezeugmene, diatonos diezeugmene, nete diezeugmene, trite hyperbolaion, diatonos hyperbolaion, nete hyperbolaion.",
+     "checks": "There are 15 distinct positions, ascending. The eighth is mese, the ninth paramesos. The conjunct alternative above mese is absent.",
+     "notes": [
+      {
+       "ru": "Начальное и конечное названия — Proslambanomenos и nete hyperbolaeon. В четвёртой позиции Ксиландр пишет hypate diatonos, где у Боэция стоит лиханос низших диатоническая. Для седьмой, одиннадцатой и четырнадцатой позиций у Боэция тоже засвидетельствованы названия с diatonos. Ксиландр пишет diezeugmene в единственном числе и paramesos, тогда как у Боэция — diezeugmenon и paramese.",
+       "en": "The names run from Proslambanomenos to nete hyperbolaeon. At position four Xylander has hypate diatonos where Boethius has the diatonic lichanos hypaton. Boethius also attests names using diatonos for positions seven, eleven and fourteen. Xylander has singular diezeugmene and the form paramesos where Boethius has diezeugmenon and paramese.",
+       "source": "Xylander 41.16–25, including the printed list [checked]. Boethius, De institutione musica I.22, ed. Friedlein (1867) [checked]_ed._Friedlein)/Liber_primus"
+      },
+      {
+       "ru": "От низкого к высокому — a gravi ad acutum. Соотнесение латинских названий с позициями в ряду дано в словаре по порядку. Латинские названия по порядку: Proslambanomenos, Hypate hypaton, parhypate hypaton, hypate diatonos, hypate meson, parhypate meson, diatonos meson, mese monos, paramesos, trite diezeugmene, diatonos diezeugmene, nete diezeugmene, trite hyperbolaeon, diatonos hyperbolaeon, nete hyperbolaeon.",
+       "en": "A gravi ad acutum specifies the direction from low to high. The glossary identifies each Latin name by its position in that order. The Latin forms in order are Proslambanomenos, Hypate hypaton, parhypate hypaton, hypate diatonos, hypate meson, parhypate meson, diatonos meson, mese monos, paramesos, trite diezeugmene, diatonos diezeugmene, nete diezeugmene, trite hyperbolaeon, diatonos hyperbolaeon and nete hyperbolaeon.",
+       "source": "Xylander 41.16–25 [checked]."
+      }
+     ],
+     "doubts": [
+      {
+       "latin": "mese monos",
+       "issue": "Monos follows the name of the unqualified middle note. Its masculine ending does not agree with feminine mese as an ordinary Greek adjective.",
+       "options": "Take monos as a comment that the name stands alone, or reproduce the entire printed expression as a label.",
+       "choice": "‘Simply mese’ marks the absence of a tetrachord qualifier. In the enumeration it occupies one place. Vinet’s Latin solum in his own list gives an explicit parallel.",
+       "evidence": "Xylander 41.22 and Vinet 43.5–22 [checked]. Boethius, De institutione musica I.22, ed. Friedlein (1867) [checked]_ed._Friedlein)/Liber_primus",
+       "alternative_ru": "меса монос",
+       "alternative_en": "mese monos"
+      }
+     ]
+    },
+    "A": {
+     "ru": "Соответственно различны и наименования звуков, которые те получают сообразно продвижению и порядку, соблюдаемому ими от низкого к высокому: просламбаномен, гипата низших, парипата низших, гипата диатоническая, гипата средних, парипата средних, диатоническая средних, меса монос, парамес, трита отделённая, диатоническая отделённая, нета отделённая, трита высших, диатоническая высших, нета высших.",
+     "en": "Accordingly, the names of the notes are various, which they acquire by the progression and order that they keep from low to high: proslambanomenos, hypate hypaton, parhypate hypaton, hypate diatonos, hypate meson, parhypate meson, diatonos meson, mese monos, paramesos, trite diezeugmene, diatonos diezeugmene, nete diezeugmene, trite hyperbolaion, diatonos hyperbolaion, nete hyperbolaion.",
+     "checks": "15 names are listed, the fifteen notes of the two-octave (Greater Perfect) system; the tetrachord synemmenon is absent.",
+     "notes": [
+      {
+       "ru": "Пятнадцать звуков двухоктавной системы. Отличия от обычной номенклатуры (у Боэция): четвёртый звук назван hypate diatonos вместо lichanos hypaton (у Боэция в диатоническом роде — «lichanos hypaton diatonos»); «диатоническая» (diatonos) везде заменяет lichanos / paranete (у Боэция также «diatonos meson», «diatonos diezeugmenon»); у месы стоит добавление monos (греч. «один, единственный», в мужском роде при женском mese) — вероятно, в том смысле, что меса одна не носит имени тетрахорда; название тетрахорда diezeugmene стоит в единственном числе вместо diezeugmenon. Nomenclatio — редкое слово (Колумелла).",
+       "en": "The fifteen notes of the two-octave system. Departures from the usual nomenclature (as in Boethius): the fourth note is called hypate diatonos instead of lichanos hypaton (in Boethius, in the diatonic genus, ‘lichanos hypaton diatonos’); diatonos everywhere replaces lichanos / paranete (Boethius too has ‘diatonos meson’, ‘diatonos diezeugmenon’); mese carries the addition monos (Greek ‘alone, single’, masculine beside the feminine mese), presumably in the sense that mese alone bears no tetrachord name; the tetrachord name diezeugmene stands in the singular instead of diezeugmenon. Nomenclatio is a rare word (Columella).",
+       "source": "Boethius, De institutione musica, ed. Friedlein, read in the Latin Wikisource transcription of that edition, 1.20 and 1.22 [checked]; Lewis & Short, s.v. nomenclatio (Col. 3, 2, 31), via Logeion [checked]; page image of p. 41 for ‘mese monos’ [checked]"
+      }
+     ],
+     "doubts": [
+      {
+       "latin": "mese monos",
+       "issue": "monos is not part of the usual name of mese",
+       "options": "keep as a name (‘mese monos’) / translate (‘mese alone’, ‘the single mese’)",
+       "choice": "kept as printed, since the convention is to keep the names as the version gives them; explained in the note",
+       "evidence": "page image p. 41, line 22 [checked]",
+       "alternative_ru": "меса одиночная",
+       "alternative_en": "the single mese"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "X15",
+   "ref": "Xyl. 41.25–42.5",
+   "latin": "Per has sonorum species heccaedecachordum, hoc est, sedecim chordarum instrumentum in quindecim fidibus instructo organo (Pentecaedecachordum vocant Graeci) absolvitur, fine octachordi ad principium sequentium continuo assumpto.",
+   "printed": [
+    {
+     "ref": "41.25",
+     "text": "perbolæon. Per has sonorum species heccæde"
+    },
+    {
+     "ref": "42.1",
+     "text": "cachordum, hoc est, sedecim chordarum instru-"
+    },
+    {
+     "ref": "42.2",
+     "text": "mentum in quindecim fidibus instructo organo"
+    },
+    {
+     "ref": "42.3",
+     "text": "(Pentecædecachordum uocant Græci) absol-"
+    },
+    {
+     "ref": "42.4",
+     "text": "uitur, fine octachordi ad principium sequentium"
+    },
+    {
+     "ref": "42.5",
+     "text": "continuò assumpto. Quam enim rationem ha-"
+    }
+   ],
+   "translations": {
+    "C": {
+     "ru": "Посредством этих видов звуков геккайдекахорд, то есть инструмент из шестнадцати струн, осуществляется на инструменте, снабжённом пятнадцатью струнами (греки называют его пентекайдекахордом): конец октахорда сразу же принимается за начало последующих [звуков].",
+     "en": "Through these species of notes the hekkaidekachord, that is, an instrument of sixteen strings, is completed on an instrument fitted with fifteen strings (the Greeks call it the pentekaidekachord), the end of the octachord being taken immediately as the beginning of the following [notes].",
+     "checks": "Two octachords = 8 + 8 = 16 notes; the eighth note (mese) ends the first and begins the second, so 16 − 1 = 15 strings. Agrees with the fifteen names of X14 and with X16 (1:8 = 8:15).",
+     "notes": [
+      {
+       "ru": "Heccaedecachordum и Pentecaedecachordum — греческие ἑκκαιδεκάχορδον «шестнадцатиструнный» и πεντεκαιδεκάχορδον «пятнадцатиструнный» в латинском облике. Второе слово засвидетельствовано (Адраст у Феона, заглавие Птолемея, «Гармоника» III.1), первого в LSJ нет; Ксиландр сам поясняет его. «Геккайдекахорд», «пентекайдекахорд» — транслитерации.",
+       "en": "Heccaedecachordum and Pentecaedecachordum are Greek ἑκκαιδεκάχορδον 'sixteen-stringed' and πεντεκαιδεκάχορδον 'fifteen-stringed' in Latin dress. The second is attested (Adrastus in Theon; the title of Ptolemy, Harmonics III.1); the first has no entry in LSJ, and Xylander glosses it himself. 'Hekkaidekachord' and 'pentekaidekachord' are transliterations.",
+       "source": "LSJ s.v. πεντεκαιδεκάχορδος; no LSJ entry for ἑκκαιδεκάχορδος [checked]"
+      },
+      {
+       "ru": "Смысл сжатой фразы: схема из шестнадцати звуков (два октахорда) осуществляется на пятнадцати струнах, потому что восьмой звук служит дважды — концом первого октахорда и началом второго. Instrumentum и organum оба переданы словом «инструмент».",
+       "en": "The sense of the compressed sentence: the sixteen-note scheme (two octachords) is realised on fifteen strings because the eighth note serves twice, as the end of the first octachord and the beginning of the second. Instrumentum and organum are both rendered 'instrument'.",
+       "source": "Arithmetic of the text itself (X14–X16), recomputed [checked]"
+      }
+     ],
+     "doubts": [
+      {
+       "latin": "Per has sonorum species",
+       "issue": "species: 'kinds' of notes (the fifteen named notes) or 'forms'.",
+       "options": "«посредством этих видов звуков» / 'through these species of notes'; «посредством этих звуков» / 'by means of these notes'.",
+       "choice": "Literal 'species', rendered «вид» / 'species' as everywhere in this version.",
+       "evidence": "Lewis & Short s.v. species [from memory]",
+       "alternative_ru": "",
+       "alternative_en": ""
+      }
+     ]
+    },
+    "D": {
+     "ru": "Из этих видов звуков на инструменте с пятнадцатью струнами (греки называют его пятнадцатиструнным) складывается шестнадцатиструнный [инструмент], то есть инструмент с шестнадцатью струнами. При этом конец октахорда непосредственно принимается за начало следующих [звуков].",
+     "en": "On an instrument strung with fifteen strings (the Greeks call it the fifteen-stringed instrument), these kinds of notes complete the sixteen-stringed instrument, that is, an instrument of sixteen strings. The end of the octachord is taken straightaway as the beginning of the [notes] that follow.",
+     "checks": "Two eight-note series share the eighth note. Thus 8 + 8 = 16 counted places, but 8 + 8 − 1 = 15 distinct notes or strings. There are 14 successive steps.",
+     "notes": [
+      {
+       "ru": "В тексте противопоставлены heccaedecachordum и Pentecaedecachordum. Ксиландр сам переводит первое слово как «инструмент с шестнадцатью струнами». Объяснение общим граничным звуком относится к счёту мест в двух октахордах: действительных струн, как он здесь прямо говорит, пятнадцать. Chordae и fides обозначают струны, organum — инструмент. Словом octachordum обозначен октахорд.",
+       "en": "The text sets heccaedecachordum beside Pentecaedecachordum. Xylander himself glosses the first as an instrument of sixteen strings. The shared boundary explains the count of places in the two octachords, while the actual strings are explicitly fifteen here. Chordae and fides both mean strings and organum means an instrument. Octachordum denotes the octachord.",
+       "source": "Xylander 41.25–42.7, including the page images [checked]."
+      }
+     ],
+     "doubts": []
+    },
+    "A": {
+     "ru": "Этими видами звуков геккайдекахорд, то есть инструмент о шестнадцати струнах, осуществляется на инструменте, снабжённом пятнадцатью струнами (греки называют его пентекайдекахордом), поскольку конец октахорда тотчас принимается за начало последующих.",
+     "en": "Through these species of notes the hekkaidekachord, that is, the instrument of sixteen strings, is completed on an instrument furnished with fifteen strings (the Greeks call it a pentekaidekachord), the end of the octachord being taken up directly as the beginning of those that follow.",
+     "checks": "Two octachords: 8 + 8 = 16 notes; the eighth note is shared, so 16 − 1 = 15 strings. Consistent with the 15 names of X14.",
+     "notes": [
+      {
+       "ru": "heccaedecachordum, pentecaedecachordum — греческие слова в латинской одежде («шестнадцатиструнный», «пятнадцатиструнный»), переданы транслитерацией; «hoc est, sedecim chordarum instrumentum» — пояснение в самом тексте. Смысл: два октахорда дали бы шестнадцать звуков, но восьмой звук служит одновременно концом первого и началом второго, поэтому струн пятнадцать. Для струны у Ксиландра три слова: chorda, fides (здесь), nervus (X29–30, X41–42); все переведены «струна».",
+       "en": "heccaedecachordum, pentecaedecachordum are Greek words in Latin dress (‘sixteen-stringed’, ‘fifteen-stringed’), rendered by transliteration; hoc est, sedecim chordarum instrumentum is a gloss in the text itself. The sense: two octachords would give sixteen notes, but the eighth note serves at once as the end of the first and the beginning of the second, so the strings are fifteen. Xylander has three words for a string: chorda, fides (here), nervus (X29–30, X41–42); all are rendered ‘string’.",
+       "source": "Greek hekkaideka, pentekaideka + chorde; the compounds were looked for as headwords in LSJ via Logeion and not found there [checked]"
+      }
+     ],
+     "doubts": [
+      {
+       "latin": "fine octachordi ad principium sequentium continuo assumpto",
+       "issue": "sequentium: of the following notes, strings or octachord; continuo: adverb (‘immediately’) or adjective",
+       "options": "‘taken up directly as the beginning of those that follow’ / ‘taken in continuity to the beginning of the following [strings]’",
+       "choice": "‘directly... of those that follow’, leaving the noun open as the Latin does; continuo is the adverb: the printing marks it with the grave accent of adverbs (continuò)",
+       "evidence": "printed line 42.5 in the diplomatic transcription of the data file [checked]; Lewis & Short, s.v. continuus, adv. continuo (‘immediately, forthwith’), via Logeion [checked]",
+       "alternative_ru": "",
+       "alternative_en": ""
+      },
+      {
+       "latin": "heccaedecachordum... in quindecim fidibus instructo organo... absolvitur",
+       "issue": "the sentence says that a sixteen-string instrument is realised on a fifteen-string one",
+       "options": "as translated",
+       "choice": "rendered as it stands; the ablative absolute gives the explanation (the shared eighth note)",
+       "evidence": "arithmetic in checks [checked]",
+       "alternative_ru": "",
+       "alternative_en": ""
+      }
+     ]
+    },
+    "B": {
+     "ru": "Эти виды звуков образуют шестнадцатиструнную систему, то есть шестнадцатиструнный инструмент в инструменте, снабжённом пятнадцатью струнами (греки называют его пятнадцатиструнником): конец октахорда сразу принимают за начало следующих [звуков].",
+     "en": "These kinds of notes complete a sixteen-string system, that is, an instrument of sixteen strings within an instrument equipped with fifteen strings (the Greeks call it a fifteen-string instrument), the end of the octachord being taken immediately as the beginning of the [notes] that follow.",
+     "checks": "8 + 8 = 16 counted positions, or 8 + 8 − 1 = 15 distinct notes since the eighth is shared.",
+     "notes": [
+      {
+       "ru": "Heccaedecachordum («шестнадцатиструнник») и Pentecaedecachordum («пятнадцатиструнник») обозначают два способа счёта. Два октахорда дают шестнадцать мест при раздельном счёте, но общий звук занимает только одну струну. Ксиландр поясняет оба числительных и называет второе слово греческим. Fides здесь значит «струна».",
+       "en": "Heccaedecachordum (sixteen-string instrument) and Pentecaedecachordum (fifteen-string instrument) express two counts. Two octachords give sixteen positions counted separately, but their shared note occupies a single string. Xylander explains both numbers and identifies the second word as Greek. Fides here is a string.",
+       "source": "Xylander, Basel (1556), pp. 41–42 [checked]. Boethius, De institutione musica, ed. Friedlein (1867), I.20 [checked]"
+      },
+      {
+       "ru": "Octachordum — октахорд. Instrumentum и organum оба обозначают инструмент, хотя второе слово может обозначать и орган в других контекстах.",
+       "en": "Octachordum is an octachord. Both instrumentum and organum mean an instrument here, and organum can refer to an organ in other contexts.",
+       "source": "Lewis & Short, A Latin Dictionary (1879), s.v. organum [checked] Xylander, Basel (1556), pp. 41–42 [checked]."
+      }
+     ],
+     "doubts": [
+      {
+       "latin": "ad principium sequentium",
+       "issue": "The genitive plural has no expressed head.",
+       "options": "“As the beginning of the [notes] that follow” or “as the beginning of those [octachords] that follow.”",
+       "choice": "Notes are the stated subject of the description. The equality X16 implies a second octachord sharing the boundary.",
+       "evidence": "Xylander, Basel (1556), pp. 41–42 [checked]. Boethius, De institutione musica, ed. Friedlein (1867), I.20 [checked]",
+       "alternative_ru": "конец октахорда сразу принимают за начало следующих [октахордов]",
+       "alternative_en": "the end of the octachord being taken immediately as the beginning of the [octachords] that follow"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "X16",
+   "ref": "Xyl. 42.5–7",
+   "latin": "Quam enim rationem habet primus sonus ad octavum, eandem octavus ad decimumquintum obtinet.",
+   "printed": [
+    {
+     "ref": "42.5",
+     "text": "continuò assumpto. Quam enim rationem ha-"
+    },
+    {
+     "ref": "42.6",
+     "text": "bet primus sonus ad octauum, eandem octauus"
+    },
+    {
+     "ref": "42.7",
+     "text": "ad decimumquintum obtinet. Et hæc de sonis."
+    }
+   ],
+   "translations": {
+    "D": {
+     "ru": "Ведь первый звук относится к восьмому так же, как восьмой к пятнадцатому.",
+     "en": "For the first note stands in the same ratio to the eighth as the eighth does to the fifteenth.",
+     "checks": "Positions 1–8 and 8–15 each span seven steps. Their ascending pitch multipliers are 2 and 2. In the order ‘first to eighth’ and ‘eighth to fifteenth’ both frequency ratios are 1:2.",
+     "notes": [],
+     "doubts": []
+    },
+    "A": {
+     "ru": "Ибо какое отношение имеет первый звук к восьмому, такое же восьмой имеет к пятнадцатому.",
+     "en": "For the ratio that the first note has to the eighth, the eighth holds to the fifteenth.",
+     "checks": "1st : 8th = octave, 2:1; 8th : 15th = octave, 2:1; 1st : 15th = 4:1 (cf. X36).",
+     "notes": [],
+     "doubts": []
+    },
+    "B": {
+     "ru": "Ведь отношение первого звука к восьмому такое же, как отношение восьмого к пятнадцатому.",
+     "en": "For the eighth note stands to the fifteenth in the same ratio as the first does to the eighth.",
+     "checks": "From first to eighth and from eighth to fifteenth there are seven steps in each span. Each is an octave, so the corresponding high-to-low pitch ratios are 2:1 and 2:1, with compound ratio 4:1. As literally ordered from lower to higher in the Latin, each ratio is 1:2 if interpreted as frequency.",
+     "notes": [],
+     "doubts": []
+    },
+    "C": {
+     "ru": "Ибо какое отношение имеет первый звук к восьмому, такое же восьмой имеет к пятнадцатому.",
+     "en": "For the ratio that the first note has to the eighth, the eighth has to the fifteenth.",
+     "checks": "1 (proslambanomenos) : 8 (mese) = 8 (mese) : 15 (nete hyperbolaion) = an octave, 2:1 in each case; 1 : 15 = double octave, 4:1.",
+     "notes": [],
+     "doubts": []
+    }
+   }
+  },
+  {
+   "id": "X17",
+   "ref": "Xyl. 42.7",
+   "latin": "Et haec de sonis.",
+   "printed": [
+    {
+     "ref": "42.7",
+     "text": "ad decimumquintum obtinet. Et hæc de sonis."
+    }
+   ],
+   "translations": {
+    "A": {
+     "ru": "Это о звуках.",
+     "en": "So much for the notes.",
+     "checks": "",
+     "notes": [],
+     "doubts": []
+    },
+    "B": {
+     "ru": "Вот что касается звуков.",
+     "en": "So much for notes.",
+     "checks": "",
+     "notes": [],
+     "doubts": []
+    },
+    "C": {
+     "ru": "Вот и всё о звуках.",
+     "en": "So much for notes.",
+     "checks": "",
+     "notes": [],
+     "doubts": []
+    },
+    "D": {
+     "ru": "Вот и всё о звуках.",
+     "en": "So much for notes.",
+     "checks": "",
+     "notes": [],
+     "doubts": []
+    }
+   }
+  },
+  {
+   "id": "X18",
+   "starts_paragraph": "4",
+   "ref": "Xyl. 42.8–15",
+   "latin": "Intervallorum autem minimum genus est, quod diesin vocant: deinde semitonium, cuius dupla ad acutum est accessio, respectu dieseos. Deinde est tonus duplici constans semitonio, et rationem sesquioctavam constituens, ut est novenarii ad octonarium numerum. Quo fit, ut semitonium sit quasi dimidium sesquioctavae diesis autem quasi quadrans eiusdem.",
+   "printed": [
+    {
+     "ref": "42.8",
+     "text": "Interuallorum autem minimum genus est,"
+    },
+    {
+     "ref": "42.9",
+     "text": "quod diesin uocant: deinde semitonium, cuius du-"
+    },
+    {
+     "ref": "42.10",
+     "text": "pla ad acutum est accessio, respectu dieseos. De-"
+    },
+    {
+     "ref": "42.11",
+     "text": "inde est tonus duplici constans semitonio, et ra-"
+    },
+    {
+     "ref": "42.12",
+     "text": "tionem sesquioctauam constituens, ut est noue-"
+    },
+    {
+     "ref": "42.13",
+     "text": "narij ad octonarium numerum. Quo fit, ut semi"
+    },
+    {
+     "ref": "42.14",
+     "text": "tonium sit quasi dimidium sesquioctauæ diesis au-"
+    },
+    {
+     "ref": "42.15",
+     "text": "tem quasi quadrans eiusdem. Quamuis enim ra"
+    }
+   ],
+   "translations": {
+    "B": {
+     "ru": "Наименьший вид интервала называют диесой. Далее следует полутон, у которого приращение в сторону высокого звука вдвое больше, чем у диесы. Затем идёт тон, состоящий из двух полутонов и образующий сверхосминное [9:8] отношение, как у числа девять к числу восемь. Поэтому полутон составляет как бы половину сверхосминного [9:8] отношения, а диеса — как бы его четверть.",
+     "en": "The smallest kind of interval, then, is what they call a diesis. Next comes the semitone, whose advance towards the high pitch is twice that of a diesis. Then there is the tone, consisting of two semitones and making a sesquioctave [9:8] ratio, like that of nine to eight. Thus the semitone is, as it were, half of the sesquioctave [9:8] ratio and the diesis a quarter of it.",
+     "checks": "9/8 = 1 + 1/8. Half and quarter of its linear excess are 1/16 and 1/32, giving 17/16 and 33/32 on the original base, whereas two equal multiplicative steps require √(9/8), and four equal steps (9/8)^(1/4). These are 101.955 and 50.978 cents respectively, with c(r) = 1200 log₂(r). Linear splitting is an analogy, not an explicit assignment of 17:16 and 33:32 in Xylander.",
+     "notes": [
+      {
+       "ru": "Diesis здесь четверть тона, semitonium — полутон, tonus — тон, sesquioctava — сверхосминное отношение. Quasi допускает приближённость. Для точного деления интервала в логарифмической мере нужны отношения (9/8)^(1/2) и (9/8)^(1/4). Боэций возражает против равного деления сверхосминного отношения в целых числах.",
+       "en": "Diesis is a quarter-tone here, semitonium a semitone, tonus a tone and sesquioctava the sesquioctave ratio. Quasi allows for approximation. Equal division of the interval in logarithmic measure requires (9/8)^(1/2) and (9/8)^(1/4). Boethius objects to halving the sesquioctave ratio in whole numbers.",
+       "source": "Boethius, De institutione musica, ed. Friedlein (1867), I.16–17 [checked] Boethius, De institutione musica, ed. Friedlein (1867), III.1–4 [checked] Boethius, De musica, ed. Migne (1847), V.15 [checked]"
+      }
+     ],
+     "doubts": []
+    },
+    "C": {
+     "ru": "Наименьший же род интервалов — тот, который называют диесой; затем полутон, прибавка которого в сторону высокого вдвое больше по сравнению с диесой. Далее — тон, состоящий из двойного полутона и образующий сверхосминное [9:8] отношение, каково [отношение] числа девять к числу восемь. Отсюда следует, что полутон есть как бы половина сверхосминного [9:8], а диеса — как бы его четверть.",
+     "en": "The smallest genus of intervals is the one they call the diesis; next, the semitone, whose increment towards the high is double in comparison with the diesis. Next is the tone, consisting of a double semitone and constituting the sesquioctave [9:8] ratio, as is [the ratio] of the number nine to the number eight. Hence the semitone is, as it were, half of the sesquioctave [9:8], and the diesis, as it were, a quarter of it.",
+     "checks": "9:8 = 1.125 (203.91 cents; cents = 1200·log2 r). Halved geometrically, as X19–X20 require, 9:8 gives √(9/8) ≈ 1.0607 (101.96 cents) for the semitone and (9/8)^(1/4) ≈ 1.0299 (50.98 cents) for the diesis; then 2 dieses = 1 semitone and 2 semitones = 1 tone exactly. For comparison, Vinet's 'octo cum semisse' and 'octo cum quadrante' give 17:16 (104.96 cents) and 33:32 (53.27 cents).",
+     "notes": [
+      {
+       "ru": "Dupla accessio — «вдвое большая прибавка» в обычном смысле: полутон прибавляет к высоте вдвое больше, чем диеса (утверждение о величине интервала, а не отношение 2:1); поэтому скобки с отношением нет. То же — duplici semitonio.",
+       "en": "Dupla accessio is a 'double increment' in the ordinary sense: the semitone adds twice as much as the diesis (a statement about the size of the interval, not a 2:1 ratio); hence no bracket. Likewise duplici semitonio.",
+       "source": "about.md §4.3, last point [checked]"
+      },
+      {
+       "ru": "Quasi dimidium … quasi quadrans: «как бы половина … как бы четверть». Ксиландр не говорит, как делится тон; следующие фразы (X19–X20) делают деление геометрическим. Вине здесь даёт числа (8½ и 8¼ при 8), то есть арифметическое деление. Ср. Боэций: «diesis autem est semitonii dimidium»; у Боэция же тон «никогда не делится на две равные части» в числах (пример 16 : 17 : 18).",
+       "en": "Quasi dimidium … quasi quadrans: 'as it were half … as it were a quarter'. Xylander does not say how the tone is divided; the following sentences (X19–X20) make the division geometrical. Vinet gives numbers here (8½ and 8¼ against 8), i.e. an arithmetical division. Cf. Boethius: 'diesis autem est semitonii dimidium'; and in Boethius the tone 'is never divided into two equal parts' in numbers (example 16 : 17 : 18).",
+       "source": "Boethius, De inst. mus. I.21, ed. Friedlein p. 213.17; I.16, p. 202.17–203.5 [checked]"
+      },
+      {
+       "ru": "Genus здесь — «род, разновидность» интервала; как и везде в этой версии, передаётся словом «род», чтобы было видно то же латинское слово, что в «родах» мелодии. Novenarius, octonarius — числительные прилагательные: numerus novenarius = «число девять»; ими же Ксиландр называет числа в X36 (senarius, duodenarius).",
+       "en": "Genus here is the 'kind' of interval; as everywhere in this version it is rendered 'genus', so that the same Latin word as in the 'genera' of melody stays visible. Novenarius, octonarius are numeral adjectives: numerus novenarius = 'the number nine'; Xylander names numbers the same way in X36 (senarius, duodenarius).",
+       "source": "Lewis & Short s.vv. genus, novenarius [from memory]"
+      }
+     ],
+     "doubts": []
+    },
+    "D": {
+     "ru": "Наименьший вид интервала — тот, который называют диесой. За ней следует полутон: подъём к высокому звуку здесь вдвое больше, чем у диесы. Далее идёт тон, состоящий из двух полутонов и образующий сверхосминное [9:8] отношение, как девять к восьми. Отсюда следует, что полутон есть как бы половина сверхосминного [9:8] отношения, а диеса — как бы его четверть.",
+     "en": "The smallest kind of interval is the one they call a diesis. Next comes the semitone, whose rise in pitch is twice that of the diesis. Then comes the tone, consisting of two semitones and forming a sesquioctave [9:8] ratio, as nine is to eight. Thus the semitone is, as it were, half the sesquioctave [9:8], and the diesis, as it were, a quarter of it.",
+     "checks": "In the text’s units 2 dieses = 1 semitone and 2 semitones = 1 tone, hence 4 dieses = 1 tone. 9/8 = 1 + 1/8. Equal interval halves require h² = 9/8, and equal quarters require q⁴ = 9/8.",
+     "notes": [
+      {
+       "ru": "Diesis, semitonium и tonus — диеса, полутон и тон. Sesquioctava означает отношение девяти к восьми. Вдвое больше здесь именно подъём (accessio), а не частота звука. Ксиландр дважды оговаривается: quasi, «как бы». При равном делении интервала отношения полутона и диесы были бы √(9/8) и ⁴√(9/8). У Боэция при численном делении тона получаются два неравных интервала.",
+       "en": "The names are diesis, semitonium and tonus. Sesquioctava names the ratio of nine to eight. It is the rise (accessio) that is doubled, not the frequency of a note. Xylander qualifies both subdivisions with quasi, ‘as it were’. Equal divisions of the interval would give ratios of √(9/8) and ⁴√(9/8). Boethius’ numerical division of the tone gives two unequal intervals.",
+       "source": "Xylander 42.8–15 [checked]. Boethius, De institutione musica I.16–17, ed. Friedlein (1867), pp. 202–204 [checked]"
+      },
+      {
+       "ru": "У Аристоксена величина наименьшей энармонической диесы равна четверти тона, а наименьшей хроматической — трети тона. Эти величины он сопоставляет через разность в одну двенадцатую тона. Ксиландр здесь говорит просто о диесе.",
+       "en": "Aristoxenus compares the least enharmonic diesis, a quarter-tone, with the least chromatic diesis, a third of a tone. Their difference is one twelfth of a tone. Xylander speaks simply of the diesis here.",
+       "source": "Aristoxenus, Harmonic Elements I, comparison of the lowest chromatic and enharmonic lichanoi, trans. H. S. Macran (1902) [checked]"
+      }
+     ],
+     "doubts": []
+    },
+    "A": {
+     "ru": "Наименьший же род интервалов — тот, что называют диесой; затем идёт полутон, продвижение которого к высокому вдвое больше по сравнению с диесой. Затем идёт тон, состоящий из двух полутонов и образующий сверхосминное [9:8] отношение, каково отношение числа девять к числу восемь. Отсюда получается, что полутон есть как бы половина сверхосминного [9:8], а диеса — как бы его четверть.",
+     "en": "Of intervals, the smallest kind is that which they call the diesis; next the semitone, whose advance toward the high is double in comparison with the diesis. Next is the tone, consisting of two semitones and constituting the sesquioctave [9:8] ratio, as is that of the number nine to the number eight. Whence it comes about that the semitone is, as it were, half of the sesquioctave [9:8], and the diesis, as it were, a quarter of the same.",
+     "checks": "Tone 9:8 = 203.91 cents (1200·log2(9/8)). Its exact half is √(9/8) ≈ 1.06066 (101.96 cents), its quarter (9/8)^(1/4) ≈ 1.02988 (50.98 cents); neither is a ratio of whole numbers, hence the text's ‘quasi’. Diesis = 1/4 tone, semitone = 2 dieses = 1/2 tone, tone = 2 semitones: consistent.",
+     "notes": [
+      {
+       "ru": "Диеса здесь — четверть тона (энгармоническая диеса); величины по Аристоксену (тон = 2 полутона = 4 диесы), но тон определён пифагорейски, отношением 9:8. Слово quasi («как бы») отмечает, что половина и четверть отношения 9:8 не выражаются в числах; это обосновывается в X19–25. У Боэция, напротив, доказывается, что тон на две равные части не делится. Dupla... accessio — обычное «вдвое», а не название отношения, поэтому без скобок.",
+       "en": "The diesis is here the quarter-tone (the enharmonic diesis); the magnitudes are Aristoxenian (tone = 2 semitones = 4 dieses), but the tone is defined in the Pythagorean way by the ratio 9:8. The word quasi (‘as it were’) marks that the half and the quarter of 9:8 cannot be expressed in numbers; this is argued in X19–25. Boethius, on the contrary, proves that the tone cannot be divided into two equal parts. Dupla... accessio is an ordinary ‘double’, not a ratio name, and so has no bracket.",
+       "source": "Boethius, De institutione musica 3.1 and 1.16–17, ed. Friedlein; Euclid, Sectio canonis, prop. 16; Cleonides, Isagoge 2 (Jan) [from memory]; Lewis & Short, s.v. accessio (‘approach; increase’), via Logeion [checked]"
+      }
+     ],
+     "doubts": [
+      {
+       "latin": "cuius dupla ad acutum est accessio, respectu dieseos",
+       "issue": "accessio: ‘approach, advance’ or ‘increase’",
+       "options": "‘whose advance toward the high is double’ / ‘whose increase toward the high is double’",
+       "choice": "‘advance’: movement in pitch toward the high (ad acutum)",
+       "evidence": "Lewis & Short, s.v. accessio, via Logeion [checked]",
+       "alternative_ru": "",
+       "alternative_en": ""
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "X19",
+   "ref": "Xyl. 42.15–18",
+   "latin": "Quamvis enim ratione numeri unitas dividi non potest, utique tamen unitas quae in materia conspicitur, dividitur Geometrice.",
+   "printed": [
+    {
+     "ref": "42.15",
+     "text": "tem quasi quadrans eiusdem. Quamuis enim ra"
+    },
+    {
+     "ref": "42.16",
+     "text": "tione numeri unitas diuidi non potest, utique tamen"
+    },
+    {
+     "ref": "42.17",
+     "text": "unitas quæ in materia conspicitur, diuiditur Geo-"
+    },
+    {
+     "ref": "42.18",
+     "text": "metricè. Nam chordam eam quæ obseruat ra-"
+    }
+   ],
+   "translations": {
+    "C": {
+     "ru": "Ибо хотя с точки зрения числа единица не может быть разделена, однако единица, которая усматривается в материи, безусловно делится геометрически.",
+     "en": "For although, by the reckoning of number, unity cannot be divided, yet unity that is seen in matter is certainly divided geometrically.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "Quamvis с изъявительным наклонением (potest) обычно в послеклассической и гуманистической латыни. Учение: единица как число неделима, а единица в чувственных вещах делится как тело (Теон Смирнский). Ср. у Теона же довод против деления тона пополам: разность чисел 9 и 8 — единица, а единица неделима; по Теону, тон не делится точно пополам и на каноне. Ксиландр, напротив, утверждает геометрическое деление.",
+       "en": "Quamvis with the indicative (potest) is usual in post-classical and humanist Latin. The doctrine: the unit as number is indivisible, while the one in sensible things is divided as a body (Theon of Smyrna). Compare Theon's argument against halving the tone: the difference of 9 and 8 is a unit, and the unit is indivisible; for Theon the tone cannot be halved exactly even on the canon. Xylander, by contrast, affirms a geometrical division.",
+       "source": "Allen & Greenough §527e [from memory]; Theon of Smyrna, ed. Hiller (1878) pp. 18.15–19.7 and 20.1–4 (unit indivisible as number, the sensible one divisible), pp. 70.14–71.10 (the tone not divisible into equal parts, in numbers or on the canon) [checked]"
+      }
+     ],
+     "doubts": []
+    },
+    "D": {
+     "ru": "Ведь хотя единица, если рассматривать её как число, не поддаётся делению, единицу, данную в материи, всё же можно разделить геометрически.",
+     "en": "For although the unit cannot be divided when considered numerically, the unit as discerned in matter can certainly be divided geometrically.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "Unitas — единица, из повторения которой составляется число. Здесь различаются счёт целыми единицами и деление непрерывной величины. Так же у Боэция можно неограниченно делить отрезок, хотя числовая единица даёт нижний предел для счёта.",
+       "en": "Unitas is the unit of which a number is composed. The distinction here is between counting in whole units and dividing a continuous magnitude. Boethius likewise allows endless divisions of a line, while the unit gives counting its lower limit.",
+       "source": "Euclid, Elements VII, definitions 1–2 [checked] Boethius, De institutione musica I.6, ed. Friedlein (1867), pp. 192–193 [checked]"
+      }
+     ],
+     "doubts": []
+    },
+    "A": {
+     "ru": "Ведь хотя с точки зрения числа единица делиться не может, всё же единица, усматриваемая в материи, делится геометрически.",
+     "en": "For although in terms of number the unit cannot be divided, yet the unit that is seen in matter is divided geometrically.",
+     "checks": "The excess of 9 over 8 is 1; halving the ratio in numbers gives 16 : 17 : 18, and 17:16 ≠ 18:17, so an exact half would require dividing the unit.",
+     "notes": [
+      {
+       "ru": "Единица, на которую 9 превышает 8, арифметически неделима; но на струне («в материи») соответствующий отрезок есть величина и делится. Ratione numeri — «по счёту, с точки зрения числа»; ratio здесь не термин «отношение».",
+       "en": "The unit by which 9 exceeds 8 is arithmetically indivisible; but on a string (‘in matter’) the corresponding segment is a magnitude and can be divided. Ratione numeri is ‘on the reckoning of number’; ratio is not here the term ‘ratio’.",
+       "source": "Boethius, De institutione musica 3.1–2 [from memory]"
+      }
+     ],
+     "doubts": []
+    },
+    "B": {
+     "ru": "Ведь хотя единица как число неделима, единица, которую мы наблюдаем в материи, вполне допускает геометрическое деление.",
+     "en": "For although unity cannot be divided as a number, unity as observed in matter can indeed be divided geometrically.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "Unitas — единица целочисленного счёта или единичная материальная величина. Вторая, например длина отрезка, делима.",
+       "en": "Unitas can be the unit of whole-number arithmetic or a single magnitude embodied in matter. The latter, for instance a length, can be divided.",
+       "source": "Xylander, Basel (1556), p. 42 [checked]. Boethius, De institutione musica, ed. Friedlein (1867), III.1–4 [checked]"
+      }
+     ],
+     "doubts": []
+    }
+   }
+  },
+  {
+   "id": "X20",
+   "ref": "Xyl. 42.18–21",
+   "latin": "Nam chordam eam quae observat rationem sesquioctavam, possibile est dividi in semisesquioctavam, quod est semitonium, et hoc denuo dividi in diesin.",
+   "printed": [
+    {
+     "ref": "42.18",
+     "text": "metricè. Nam chordam eam quæ obseruat ra-"
+    },
+    {
+     "ref": "42.19",
+     "text": "tionem sesquioctauam, possibile est diuidi in semi"
+    },
+    {
+     "ref": "42.20",
+     "text": "sesquioctauam, quod est semitonium, et hoc de-"
+    },
+    {
+     "ref": "42.21",
+     "text": "nuò diuidi in diesin. Geometriæ enim est, semper"
+    }
+   ],
+   "translations": {
+    "D": {
+     "ru": "Так, струну, соответствующую сверхосминному [9:8] отношению, можно разделить так, чтобы получилось полусверхосминное отношение, то есть полутон. Разделив же полутон ещё раз, получим диесу.",
+     "en": "For a string that observes the sesquioctave [9:8] ratio can be divided to yield a semisesquioctave, which is a semitone, and this can be divided again to yield a diesis.",
+     "checks": "If string lengths delimiting the tone are 8 and 9, the length dividing the interval equally is √72. The two length ratios are √72/8 = 9/√72 = √(9/8).",
+     "notes": [
+      {
+       "ru": "Semisesquioctava — название половины интервала со сверхосминным отношением. Слово hoc среднего рода отсылает к semitonium. Чтобы разделить интервал пополам, нужно взять среднее геометрическое двух длин. Деление самой струны на две равные длины дало бы октаву между целой струной и её половиной.",
+       "en": "Semisesquioctava names half the interval with the sesquioctave ratio. Neuter hoc refers back to semitonium. The geometric mean of the two string lengths bisects the interval. Cutting a string into two equal lengths would give an octave between the whole length and either half.",
+       "source": "Xylander 42.18–21 [checked]. Boethius, De institutione musica II.12, ed. Friedlein (1867) [checked]"
+      }
+     ],
+     "doubts": []
+    },
+    "A": {
+     "ru": "Ибо струну, которая соблюдает сверхосминное [9:8] отношение, возможно разделить на полусверхосминное, то есть полутон, а его в свой черёд разделить на диесу.",
+     "en": "For the string that keeps the sesquioctave [9:8] ratio can be divided into the semisesquioctave, which is the semitone, and this again be divided into the diesis.",
+     "checks": "Semisesquioctave = √(9/8) ≈ 1.06066 (irrational); diesis = (9/8)^(1/4) ≈ 1.02988. On a string these are found geometrically as mean proportionals (between lengths 9 and 8: √72 ≈ 8.485).",
+     "notes": [
+      {
+       "ru": "semisesquioctava — образование по образцу semitonium («половина сверхосминного отношения»). Геометрически половина отношения — это средняя пропорциональная между двумя длинами струны.",
+       "en": "semisesquioctava is a formation on the model of semitonium (‘half of the sesquioctave ratio’). Geometrically, half of a ratio is the mean proportional between two string lengths.",
+       "source": "Euclid, Elements 6.13 (mean proportional) [from memory]"
+      }
+     ],
+     "doubts": []
+    },
+    "B": {
+     "ru": "Так, струну, находящуюся в сверхосминном [9:8] отношении, можно разделить до полусверхосминного, то есть до полутона, а его, в свою очередь, разделить до диесы.",
+     "en": "For a string that observes the sesquioctave [9:8] ratio can be divided to yield the semisesquioctave, which is a semitone, and this can in turn be divided to yield a diesis.",
+     "checks": "Assuming an equal musical division of 9:8, the half has ratio (9/8)^(1/2), and a half of that (9/8)^(1/4). Neither is a ratio of integers.",
+     "notes": [
+      {
+       "ru": "Semisesquioctava, буквально «половина сверхосминного», — собственное имя полутона в этом рассуждении. Ксиландр не задаёт здесь отдельной пары чисел. Chorda обозначает струну.",
+       "en": "Semisesquioctava, literally “half-sesquioctave,” is the passage's name for the semitone. Xylander gives no separate pair of numbers here. Chorda denotes a string.",
+       "source": "Xylander, Basel (1556), p. 42 [checked]. Boethius, De institutione musica, ed. Friedlein (1867), III.1–4 [checked]"
+      }
+     ],
+     "doubts": []
+    },
+    "C": {
+     "ru": "Ведь струну, которая соблюдает сверхосминное [9:8] отношение, можно разделить на полусверхосминное, то есть на полутон, а его, в свою очередь, — на диесу.",
+     "en": "For the string that keeps the sesquioctave [9:8] ratio can be divided into the semisesquioctave, which is the semitone, and this again into the diesis.",
+     "checks": "Semisesquioctave = √(9/8) ≈ 1.0607 if taken geometrically, as X19 requires; the diesis then = (9/8)^(1/4) ≈ 1.0299.",
+     "notes": [
+      {
+       "ru": "Semisesquioctava — «половина сверхосминного», образовано по образцу боэциевых названий отношений; текст сам объясняет, что это полутон, поэтому скобки с отношением нет. Слово есть и у Вине. Chorda здесь — отрезок струны (монохорда), дающий тон.",
+       "en": "Semisesquioctava, 'half of the sesquioctave', is formed on the pattern of the Boethian names of ratios; the text itself says it is the semitone, so there is no bracket. Vinet has the word too. Chorda here is the length of string (of a monochord) that gives the tone.",
+       "source": "about.md §4.3 (semisesquioctava) [checked]; Vinet V24 [checked]"
+      }
+     ],
+     "doubts": []
+    }
+   }
+  },
+  {
+   "id": "X21",
+   "ref": "Xyl. 42.21–25",
+   "latin": "Geometriae enim est, semper a maiori recta minorem posse detrahere, semperque posse minori apponere maiorem. ex quo sequitur, ut quaelibet figura ad placitum possit cum augeri, tum diminui.",
+   "printed": [
+    {
+     "ref": "42.21",
+     "text": "nuò diuidi in diesin. Geometriæ enim est, semper"
+    },
+    {
+     "ref": "42.22",
+     "text": "à maiori recta minorem posse detrahere, sem-"
+    },
+    {
+     "ref": "42.23",
+     "text": "perqúe posse minori apponere maiorem. ex quo se-"
+    },
+    {
+     "ref": "42.24",
+     "text": "quitur, ut quælibet figura ad placitum possit cùm"
+    },
+    {
+     "ref": "42.25",
+     "text": "augeri, tum diminui. Id uerò in Arithmetica lo-"
+    }
+   ],
+   "translations": {
+    "A": {
+     "ru": "Ибо геометрии свойственно то, что всегда можно от большей прямой отнять меньшую и всегда можно к меньшей прибавить большую; из чего следует, что любую фигуру можно по желанию как увеличивать, так и уменьшать.",
+     "en": "For it belongs to geometry that one can always take away a lesser straight line from a greater, and always add a greater to a lesser; from which it follows that any figure whatever can at will be both increased and diminished.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "Непрерывная величина делима и наращиваема без ограничения, в отличие от числа, составленного из неделимых единиц. Ср. у Евклида отнятие от большей прямой отрезка, равного меньшей.",
+       "en": "Continuous magnitude can be divided and increased without limit, unlike number, which is made up of indivisible units. Compare Euclid's cutting off from the greater straight line a part equal to the less.",
+       "source": "Euclid, Elements 1.3 [from memory]"
+      }
+     ],
+     "doubts": []
+    },
+    "B": {
+     "ru": "Ведь в геометрии из большей прямой всегда можно вычесть меньшую и к меньшей всегда прибавить большую. Отсюда следует, что любую фигуру можно по желанию увеличивать и уменьшать.",
+     "en": "For in geometry it is always possible to subtract a lesser straight line from a greater and to add a greater to a lesser. It follows that any figure can be enlarged or diminished at will.",
+     "checks": "",
+     "notes": [],
+     "doubts": []
+    },
+    "C": {
+     "ru": "Ибо геометрии свойственно всегда иметь возможность отнять от большей прямой меньшую и всегда иметь возможность приложить к меньшей бóльшую; отсюда следует, что любую фигуру можно по желанию как увеличить, так и уменьшить.",
+     "en": "For it belongs to geometry always to be able to take a smaller straight line away from a greater, and always to be able to add a greater to a smaller; from which it follows that any figure can, at will, be both enlarged and diminished.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "Recta = recta linea, «прямая». Ср. Евклид, «Начала», I.3: от большей из двух неравных прямых отсечь прямую, равную меньшей.",
+       "en": "Recta = recta linea, 'straight line'. Cf. Euclid, Elements I.3: from the greater of two unequal straight lines to cut off a straight line equal to the less.",
+       "source": "Euclid, Elements I.3 [from memory]"
+      }
+     ],
+     "doubts": []
+    },
+    "D": {
+     "ru": "В самом деле, в геометрии всегда можно отнять меньший отрезок прямой от большего и всегда можно прибавить больший к меньшему. Отсюда следует, что любую фигуру можно по желанию и увеличивать, и уменьшать.",
+     "en": "For in geometry one can always take a shorter straight line from a longer and always add a longer to a shorter. It follows that any figure can be enlarged or diminished at will.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "Recta — прямая линия, здесь отрезок, от которого можно отнять другой. Figura обозначает фигуру, допускающую изменение величины.",
+       "en": "Recta is a straight line, here a length from which another can be cut off. Figura denotes a figure whose size may vary.",
+       "source": "Xylander, Basel 1556, 42.21–25 [checked]."
+      }
+     ],
+     "doubts": []
+    }
+   }
+  },
+  {
+   "id": "X22",
+   "ref": "Xyl. 42.25–43.1",
+   "latin": "Id vero in Arithmetica locum non habet.",
+   "printed": [
+    {
+     "ref": "42.25",
+     "text": "augeri, tum diminui. Id uerò in Arithmetica lo-"
+    },
+    {
+     "ref": "43.1",
+     "text": "cum non habet. Ad hæc, propositum quadratum"
+    }
+   ],
+   "translations": {
+    "B": {
+     "ru": "В арифметике же это неосуществимо.",
+     "en": "This cannot be done in arithmetic.",
+     "checks": "",
+     "notes": [],
+     "doubts": []
+    },
+    "C": {
+     "ru": "В арифметике же это не имеет места.",
+     "en": "But in arithmetic this has no place.",
+     "checks": "",
+     "notes": [],
+     "doubts": []
+    },
+    "D": {
+     "ru": "В арифметике же это не так.",
+     "en": "In arithmetic, however, this does not hold.",
+     "checks": "",
+     "notes": [],
+     "doubts": []
+    },
+    "A": {
+     "ru": "В арифметике же этому нет места.",
+     "en": "But this has no place in arithmetic.",
+     "checks": "",
+     "notes": [],
+     "doubts": []
+    }
+   }
+  },
+  {
+   "id": "X23",
+   "ref": "Xyl. 43.1–10",
+   "latin": "Ad haec, propositum quadratum in aequalia partiri quadrata, aut duplum efficere non potest. Numerorum enim sedecim, qui est quadratus, neque in duo potest diducere quadrata (octo enim Arithmetice quadratum esse, aut eius numeri dare radicem quadratam, impossibile est) neque duplum eius aliud quadratum dare (fieri enim non potest, ut numerus triginta duo sit quadratus) At Geometriae hoc factu non est difficile.",
+   "printed": [
+    {
+     "ref": "43.1",
+     "text": "cum non habet. Ad hæc, propositum quadratum"
+    },
+    {
+     "ref": "43.2",
+     "text": "in æqualia partiri quadrata, aut duplum efficere"
+    },
+    {
+     "ref": "43.3",
+     "text": "non potest. Numerorum enim sedecim, qui est"
+    },
+    {
+     "ref": "43.4",
+     "text": "quadratus, neque in duo potest diducere quadra"
+    },
+    {
+     "ref": "43.5",
+     "text": "ta (octo enim Arithmeticè quadratum esse, aut"
+    },
+    {
+     "ref": "43.6",
+     "text": "eius numeri dare radicem quadratam, impos-"
+    },
+    {
+     "ref": "43.7",
+     "text": "sibile est) neque duplum eius aliud quadratum"
+    },
+    {
+     "ref": "43.8",
+     "text": "dare (fieri enim non potest, ut numerus triginta"
+    },
+    {
+     "ref": "43.9",
+     "text": "duo sit quadratus) At Geometriæ hoc factu"
+    },
+    {
+     "ref": "43.10",
+     "text": "non est difficile. nam Geometer dati quadrati la"
+    }
+   ],
+   "translations": {
+    "C": {
+     "ru": "Кроме того, [арифметика] не может ни разделить предложенный квадрат на равные квадраты, ни сделать его двойным. Ведь число шестнадцать, которое является квадратом, она не может ни разложить на два квадрата (ибо невозможно ни восьми быть арифметически квадратом, ни дать квадратный корень этого числа), ни дать другой квадрат, вдвое больший его (ибо не может быть, чтобы число тридцать два было квадратом). Геометрии же сделать это нетрудно.",
+     "en": "Moreover, [arithmetic] cannot divide a proposed square into equal squares, or make it double. For it cannot split the number sixteen, which is a square, into two squares (for it is impossible for eight to be arithmetically a square, or to give the square root of that number), nor give another square double of it (for it cannot be that the number thirty-two is a square). But for geometry this is not difficult to do.",
+     "checks": "16 = 4²; 16 : 2 = 8, and √8 ≈ 2.828 is not a whole number; 2 × 16 = 32, and √32 ≈ 5.657 is not a whole number. Correct.",
+     "notes": [
+      {
+       "ru": "Чертёж: на поле с. 43 напечатаны две точечные фигуры, на которые текст не ссылается. Против строк 43.4–43.7 — квадрат из 4 × 4 = 16 точек, разрезанный горизонтальной чертой на два прямоугольника по 2 × 4 = 8 точек (половина 16 — не квадрат). Против строк 43.10–43.15 — восемь рядов по 4 точки = 32 точки, с чертой после четвёртого ряда: два квадрата по 16 точек образуют прямоугольник 8 × 4 (удвоенное 16 — не квадрат).",
+       "en": "Figure: in the margin of p. 43 there are two dot figures, not referred to in the text. Opposite lines 43.4–43.7, a square of 4 × 4 = 16 points cut by a horizontal line into two oblongs of 2 × 4 = 8 points (half of 16 is not a square). Opposite lines 43.10–43.15, eight rows of 4 points = 32 points, with a line after the fourth row: two squares of 16 points forming an oblong 8 × 4 (16 doubled is not a square).",
+       "source": "Page image xylander-p43, outer margin [checked]"
+      },
+      {
+       "ru": "Подлежащее potest — арифметика из X22. Numerorum (род. мн.) в напечатанном тексте не согласуется ни с sedecim, ни с qui est quadratus; переведено «число шестнадцать» (см. text_issues).",
+       "en": "The subject of potest is arithmetic, from X22. Numerorum (genitive plural) in the printed text agrees neither with sedecim nor with qui est quadratus; translated 'the number sixteen' (see text_issues).",
+       "source": "Page image xylander-p43, line 3 [checked]"
+      }
+     ],
+     "doubts": []
+    },
+    "D": {
+     "ru": "Кроме того, арифметика не может ни разделить данный квадрат на равные квадраты, ни удвоить его. Таково, например, квадратное число шестнадцать. Арифметика не может ни разложить его на два квадрата (ведь невозможно, чтобы восемь было квадратом в арифметическом смысле или чтобы можно было указать квадратный корень этого числа), ни получить другой квадрат, удвоив шестнадцать (ведь число тридцать два не может быть квадратом). Геометрии же сделать это нетрудно.",
+     "en": "Moreover, arithmetic cannot divide a given square into equal squares or double it. Take the number sixteen, which is a square. Arithmetic can neither resolve it into two squares (for eight cannot be a square in arithmetic, nor can one give a square root of that number) nor give its double as another square (for the number thirty-two cannot be a square). Geometry, however, finds no difficulty in doing this.",
+     "checks": "16 = 4². Its two equal parts are 8 and 8, with 2² < 8 < 3². Its double is 32, with 5² < 32 < 6². Neither √8 nor √32 is an integer.",
+     "notes": [
+      {
+       "ru": "На поле страницы две ненумерованные схемы из точек. Вверху — четыре ряда по четыре точки; черта между вторым и третьим рядами делит шестнадцать на восемь и восемь. Внизу — восемь рядов по четыре; черта посредине отделяет шестнадцать от шестнадцати. Всего тридцать две точки образуют прямоугольник. Поэтому утверждение о невозможности деления относится именно к двум равным квадратам: на четыре равных квадратных числа шестнадцать разложить можно.",
+       "en": "Two unnumbered dot diagrams occupy the margin. The upper has four rows of four. A rule between the second and third rows divides sixteen into eight and eight. The lower has eight rows of four, with a rule separating sixteen from sixteen. The thirty-two dots form a rectangle. The impossibility thus concerns division into two equal squares in particular. Sixteen can be divided into four equal square numbers.",
+       "source": "Xylander 43.1–10 and marginal diagrams on p. 43 [checked]."
+      },
+      {
+       "ru": "Напечатано numerorum … sedecim, буквально «из чисел — шестнадцать». Мужской род qui … quadratus указывает на подразумеваемое numerus. Смысл примера от этого не меняется.",
+       "en": "Numerorum … sedecim gives, literally, ‘of numbers, sixteen’. Masculine qui … quadratus points to an understood numerus. The example remains clear.",
+       "source": "Xylander 43.3–4, printed page [checked]. Compare Allen & Greenough, New Latin Grammar §346 on the partitive genitive [checked]"
+      }
+     ],
+     "doubts": []
+    },
+    "A": {
+     "ru": "Кроме того, [арифметика] не может разделить предложенный квадрат на равные квадраты или построить вдвое больший. Ведь среди чисел шестнадцать, которое есть квадрат, она не может ни разложить на два квадрата (ибо арифметически невозможно, чтобы восемь было квадратом, и невозможно дать квадратный корень этого числа), ни дать другой квадрат, вдвое больший его (ибо не может быть, чтобы число тридцать два было квадратом). А для геометрии сделать это нетрудно.",
+     "en": "Moreover, [arithmetic] cannot divide a given square into equal squares, or produce its double. For among numbers sixteen, which is a square, it can neither part into two squares (for it is impossible arithmetically for eight to be a square, or to give the square root of that number), nor can it give another square that is its double (for it cannot be that the number thirty-two is a square). But for geometry this is not hard to do.",
+     "checks": "16 = 4² is a square; 16 / 2 = 8, √8 ≈ 2.828, not a whole number; 2 × 16 = 32, √32 ≈ 5.657, not a whole number. Correct.",
+     "notes": [
+      {
+       "ru": "Подлежащее при non potest — арифметика (из X22); в переводе оно восполнено в скобках. Duplum efficere, duplum eius — обычное «вдвое больший», не название отношения. На поле страницы 43 — фигура из точек: вверху четыре ряда по четыре точки (16), разделённые чертой после второго ряда на 8 и 8; ниже восемь рядов по четыре точки (32), разделённые чертой после четвёртого ряда на 16 и 16.",
+       "en": "The subject of non potest is arithmetic (from X22); the translation supplies it in brackets. Duplum efficere, duplum eius are an ordinary ‘double’, not a ratio name. In the margin of p. 43 there is a figure of dots: above, four rows of four dots (16), divided by a line after the second row into 8 and 8; below, eight rows of four dots (32), divided by a line after the fourth row into 16 and 16.",
+       "source": "page image of p. 43 [checked]"
+      }
+     ],
+     "doubts": [
+      {
+       "latin": "Numerorum enim sedecim, qui est quadratus, neque in duo potest diducere quadrata",
+       "issue": "Numerorum (genitive plural) has no clear construction; diducere needs an accusative object",
+       "options": "partitive ‘of numbers, sixteen...’ / a misprint for Numerum",
+       "choice": "translated with the partitive genitive (‘among numbers, sixteen’), which the printed text allows; see text_issues",
+       "evidence": "page image of p. 43, line 3 [checked]",
+       "alternative_ru": "",
+       "alternative_en": ""
+      }
+     ]
+    },
+    "B": {
+     "ru": "Кроме того, данный квадрат нельзя разделить на равные квадраты или получить из него квадрат вдвое больший. Ведь число шестнадцать — квадратное, но его нельзя ни разложить на два [равных] квадрата (в арифметике число восемь не может быть квадратом, и квадратный корень из него дать невозможно), ни удвоить так, чтобы получить другой квадрат (число тридцать два не может быть квадратным). В геометрии же сделать это нетрудно.",
+     "en": "Moreover, a given square cannot be divided into equal squares or made into a square twice its size. For one cannot split the number sixteen, which is square, into two [equal] squares (in arithmetic eight cannot be a square, nor can a square root be given for that number), or double it to give another square (for thirty-two cannot be a square number). In geometry this is not difficult to do.",
+     "checks": "16 = 4², 16/2 = 8, 2×16 = 32. The integers 8 and 32 lie between consecutive integer squares (4 < 8 < 9 and 25 < 32 < 36), so their square roots 2√2 and 4√2 are not integers. Other partitions of 16 into equal square numbers are possible, e.g. four copies of 4.",
+     "notes": [
+      {
+       "ru": "На полях две схемы без цифр. Верхняя содержит 4 ряда по 4 точки и черту посередине: 16 = 8 + 8, две группы по 2×4. Нижняя содержит 8 рядов по 4, разделённых чертой на две группы по 4×4: 32 = 16 + 16. Под равным делением здесь имеется в виду деление пополам.",
+       "en": "The margin has two diagrams without numerical labels. The upper shows 4 rows of 4 dots and a dividing rule, giving 16 = 8 + 8 in two 2×4 arrays. The lower shows 8 rows of 4 divided by a rule into two 4×4 arrays, giving 32 = 16 + 16. Equal partition here means bisection.",
+       "source": "Xylander, Basel (1556), p. 43 [checked]."
+      }
+     ],
+     "doubts": []
+    }
+   }
+  },
+  {
+   "id": "X24",
+   "ref": "Xyl. 43.10–14",
+   "latin": "nam Geometer dati quadrati latere loco diametri accepto, ubi circumposuit quadratum, id statim propositi est dimidium: iterumque accepta dati quadrati diametro loco lateris, ex eo quadratum describet, quod propositum dupli esse constat.",
+   "printed": [
+    {
+     "ref": "43.10",
+     "text": "non est difficile. nam Geometer dati quadrati la"
+    },
+    {
+     "ref": "43.11",
+     "text": "tere loco diametri accepto, ubi circumposuit qua-"
+    },
+    {
+     "ref": "43.12",
+     "text": "dratum, id statim propositi est dimidium: iterumqúe acce"
+    },
+    {
+     "ref": "43.13",
+     "text": "pta dati quadrati diametro loco lateris, ex eo qua"
+    },
+    {
+     "ref": "43.14",
+     "text": "dratum describet, quod propositum dupli esse constat."
+    }
+   ],
+   "translations": {
+    "D": {
+     "ru": "В самом деле, если геометр возьмёт сторону данного квадрата за диагональ и опишет вокруг неё квадрат, то сразу получит половину исходного квадрата. Если же он, наоборот, примет диагональ данного квадрата за сторону, то опишет на ней квадрат и тем самым, очевидно, получит искомое удвоение.",
+     "en": "For if the geometer takes the side of the given square as a diagonal and constructs a square about it, the result is at once half the original. If in turn he takes the diagonal of the given square as a side, he will draw on it a square which clearly gives the doubling proposed.",
+     "checks": "For original side a the area is a². A square with diagonal a has area a²/2. A square on the original diagonal a√2 has area 2a². For a = 4 the areas are 8 and 32.",
+     "notes": [
+      {
+       "ru": "Diameter здесь — диагональ квадрата. Обе операции следуют из равенства квадрата диагонали сумме квадратов двух сторон. Строятся новые квадраты заданной площади, без требования, чтобы сторона была целым числом.",
+       "en": "Diameter is the diagonal of the square. Both constructions use the equality of the square on the diagonal to the sum of the squares on two sides. They construct new squares of the required area without requiring an integral side length.",
+       "source": "Euclid, Elements I.47 [checked]"
+      }
+     ],
+     "doubts": [
+      {
+       "latin": "quod propositum dupli esse constat",
+       "issue": "The case endings do not give the expected expression ‘twice the original’. The geometric construction itself is unambiguous.",
+       "options": "Read propositum as the proposed result and dupli as specifying its double value, an unusual expression in light of ordinary classical usage. Alternatively the case endings may have changed places.",
+       "choice": "The translation gives the proposed doubling as the result, with the irregular construction left on record. The first operation explicitly refers to the original as propositi.",
+       "evidence": "Xylander 43.10–14, printed page [checked]. Lewis & Short, s.v. duplus II.A [checked] Euclid, Elements I.47 [checked] For the limits of classical predicative genitives of value compare Allen & Greenough, New Latin Grammar §417 [checked]",
+       "alternative_ru": "который, как известно, вдвое больше исходного квадрата",
+       "alternative_en": "which is known to be twice the original square"
+      }
+     ]
+    },
+    "A": {
+     "ru": "Ибо стоит геометру, приняв сторону данного квадрата за диагональ, построить вокруг [неё] квадрат, как тот сразу оказывается половиной предложенного; и опять-таки, приняв диагональ данного квадрата за сторону, он начертит на ней квадрат, который, как известно, вдвое больше предложенного.",
+     "en": "For the geometer, having taken the side of the given square in place of the diagonal, has only to set a square about [it], and that is at once the half of the one proposed; and again, taking the diagonal of the given square in place of the side, he will describe on it a square which is known to be the double of the one proposed.",
+     "checks": "Square with side s, area s². A square whose diagonal is s has side s/√2 and area s²/2: half. A square whose side is the diagonal s√2 has area 2s²: double. For s = 4: 16, 8, 32, the numbers of X23. Correct.",
+     "notes": [
+      {
+       "ru": "diametrum квадрата — его диагональ (греческое употребление, обычное в латинской геометрии XVI века). Удвоение квадрата построением на диагонали — пример из «Менона» Платона. Circumposuit — букв. «расположил вокруг»: квадрат строится вокруг отрезка, взятого как диагональ.",
+       "en": "The diametrum of a square is its diagonal (the Greek usage, normal in sixteenth-century Latin geometry). Doubling the square by building on the diagonal is the example of Plato's Meno. Circumposuit is literally ‘has placed around’: the square is built around the line taken as its diagonal.",
+       "source": "Plato, Meno 82b–85b; Euclid, Elements 1.47 [from memory]"
+      }
+     ],
+     "doubts": [
+      {
+       "latin": "quod propositum dupli esse constat",
+       "issue": "as printed, propositum (accusative) and dupli (genitive) do not construe naturally; the expected phrase is propositi duplum",
+       "options": "‘which is agreed to be the double of the one proposed’ (as if propositi duplum) / ‘[a square] of which it is agreed that the one proposed is [a part] of the double’",
+       "choice": "the sense is fixed by the geometry and by the parallel clause ‘id statim propositi est dimidium’; translated accordingly; see text_issues",
+       "evidence": "page image of p. 43, line 14: ‘propositū dupli’ [checked]",
+       "alternative_ru": "",
+       "alternative_en": ""
+      }
+     ]
+    },
+    "B": {
+     "ru": "В самом деле, если геометр возьмёт сторону данного квадрата за диагональ и построит вокруг неё квадрат, то сразу получит половину данного квадрата. Если же он примет диагональ данного квадрата за сторону, то построит на ней квадрат, который, как ясно, вдвое больше данного.",
+     "en": "For when a geometer takes the side of the given square as a diagonal and constructs a square around it, the new square is at once half the given one. Conversely, he will take the diagonal of the given square as a side and construct on it a square evidently twice the size of the original.",
+     "checks": "For side s the original area is s². With s as diagonal the side is s/√2 and area s²/2. With the original diagonal s√2 as side, area = 2s².",
+     "notes": [],
+     "doubts": []
+    },
+    "C": {
+     "ru": "Ведь геометр, приняв сторону данного квадрата вместо диагонали, — едва он опишет вокруг [неё] квадрат, этот [квадрат] тотчас оказывается половиной предложенного; и опять, приняв диагональ данного квадрата вместо стороны, он опишет на ней квадрат, который, как известно, есть предложенный [квадрат] в двойном размере.",
+     "en": "For the geometer, having taken the side of the given square in place of a diagonal, as soon as he has drawn a square around [it], that [square] is at once half of the proposed one; and again, having taken the diagonal of the given square in place of a side, he will describe a square on it, which, as is evident, is the proposed [square] of double [size].",
+     "checks": "Side a taken as a diagonal: the new square has side a/√2 and area a²/2, half. Diagonal a√2 taken as a side: area 2a², double. Correct.",
+     "notes": [
+      {
+       "ru": "Geometer — позднелатинская форма (Боэций, перевод «Топики» Аристотеля), обычная в средневековой латыни, вместо классического geometres. Удвоение квадрата построением на диагонали — построение «Менона» Платона (82b–85b); деление пополам обращает его. Первая фраза построена с анаколуфом (подлежащее geometer сменяется на id), что сохранено в переводе.",
+       "en": "Geometer is a late Latin form (Boethius' translation of Aristotle's Topics), usual in medieval Latin, for classical geometres. Doubling the square by building on the diagonal is the construction of Plato's Meno (82b–85b); the halving reverses it. The first clause is an anacoluthon (the subject geometer gives way to id), kept in the translation.",
+       "source": "Lewis & Short s.v. geometres; Gaffiot s.v. geometer (Boet. Top. Arist.); DMLBS s.v. geometer [checked]; Plato, Meno 82b–85b [from memory]"
+      }
+     ],
+     "doubts": [
+      {
+       "latin": "quod propositum dupli esse constat",
+       "issue": "The printed words are hard to construe; one expects quod propositi duplum esse constat 'which is evidently double the proposed'.",
+       "options": "(a) as printed, propositum taken with quod as 'the proposed [square]' and dupli as a genitive of measure: 'which is evidently the proposed [square] of double [size]'; (b) emended: 'which is evidently double the proposed [square]'.",
+       "choice": "(a), translating the reading text; the sense is the same in both. See text_issues.",
+       "evidence": "Page image xylander-p43, line 14 'quod propositũ dupli esse cõstat' [checked]; genitive of quality/measure (Allen & Greenough §345) or of value (§417) [from memory]",
+       "alternative_ru": "…он опишет на ней квадрат, который, как известно, вдвое больше предложенного.",
+       "alternative_en": "…he will describe a square on it, which is evidently double the proposed one."
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "X25",
+   "ref": "Xyl. 43.15–16",
+   "latin": "Sic etiam sesquioctava toni proportio dividi poterit in semitonium, iterumque in diesin.",
+   "printed": [
+    {
+     "ref": "43.15",
+     "text": "Sic etiam sesquioctaua toni proportio diuidi poterit"
+    },
+    {
+     "ref": "43.16",
+     "text": "in semitonium, iterúmque in diesin. Eorundem"
+    }
+   ],
+   "translations": {
+    "A": {
+     "ru": "Так и сверхосминная [9:8] пропорция тона сможет быть разделена на полутон и, опять-таки, на диесу.",
+     "en": "So too the sesquioctave [9:8] proportion of the tone can be divided into the semitone, and again into the diesis.",
+     "checks": "As in X20: √(9/8) and (9/8)^(1/4), obtainable only geometrically.",
+     "notes": [],
+     "doubts": []
+    },
+    "B": {
+     "ru": "Так и сверхосминную [9:8] пропорцию тона можно разделить, получив полутон, а затем снова разделить, получив диесу.",
+     "en": "So too the sesquioctave [9:8] proportion of the tone can be divided to yield a semitone, and then divided again to yield a diesis.",
+     "checks": "Assuming an equal musical division of 9:8, the half has ratio (9/8)^(1/2), and a half of that (9/8)^(1/4). Neither is a ratio of integers.",
+     "notes": [],
+     "doubts": []
+    },
+    "C": {
+     "ru": "Так и сверхосминная [9:8] пропорция тона может быть разделена на полутон и снова на диесу.",
+     "en": "So too the sesquioctave [9:8] proportion of the tone can be divided into the semitone, and again into the diesis.",
+     "checks": "As in X18 and X20: geometric halves and quarters of 9:8.",
+     "notes": [],
+     "doubts": []
+    },
+    "D": {
+     "ru": "Так и сверхосминное [9:8] отношение тона можно будет разделить, получив полутон, а при повторном делении — диесу.",
+     "en": "In this way the sesquioctave [9:8] ratio of the tone, too, can be divided to yield a semitone and divided again to yield a diesis.",
+     "checks": "(√(9/8))² = 9/8, and (⁴√(9/8))² = √(9/8). The geometric analogy allows non-integral lengths.",
+     "notes": [],
+     "doubts": []
+    }
+   }
+  },
+  {
+   "id": "X26",
+   "ref": "Xyl. 43.16–21",
+   "latin": "Eorundem quoque auctione, compositae quoque reliquae intervallorum species constituuntur: tridiesis, trisemitonium, ditonus, tritonus, et quo quis modo voluerit, idque rhythmus admiserit, veluti ex sequentibus cognoscetur.",
+   "printed": [
+    {
+     "ref": "43.16",
+     "text": "in semitonium, iterúmque in diesin. Eorundem"
+    },
+    {
+     "ref": "43.17",
+     "text": "quoque auctione, compositæ quoque reliquæ in-"
+    },
+    {
+     "ref": "43.18",
+     "text": "teruallorum species constituuntur: tridiesis, tri-"
+    },
+    {
+     "ref": "43.19",
+     "text": "semitonium, ditonus, tritonus, et quo quis mo-"
+    },
+    {
+     "ref": "43.20",
+     "text": "do uoluerit, idqúe rhythmus admiserit, ueluti ex"
+    },
+    {
+     "ref": "43.21",
+     "text": "sequentibus cognoscetur. Incomposita autem"
+    }
+   ],
+   "translations": {
+    "B": {
+     "ru": "Увеличением тех же [интервалов] образуются и остальные составные виды интервала: тридиеса, трёхполутон, дитон, тритон — и как угодно ещё, если это допускает ритм, как будет видно из дальнейшего.",
+     "en": "By increasing these same [intervals] the remaining composite kinds of interval are also formed: the tridiesis, trihemitone, ditone, tritone, and whatever else one wishes and rhythm allows, as will be seen from what follows.",
+     "checks": "On the stated quarter-tone model, 3 dieses = 3/4 tone, 3 semitones = 3/2 tones, a ditone = 2 tones, and a tritone = 3 tones.",
+     "notes": [
+      {
+       "ru": "В издании compositae («составные»), уже в следующем предложении incomposita («несоставные»). Перечислены tridiesis (три диесы), trisemitonium (три полутона), ditonus (два тона) и tritonus (три тона). Rhythmus здесь задаёт допустимые пределы, но автор их не определяет.",
+       "en": "The print has compositae (“composite”), followed in the next sentence by incomposita (“incomposite”). It lists tridiesis (three dieses), trisemitonium (three semitones), ditonus (two tones) and tritonus (three tones). Rhythmus sets a limit to what is permissible, which the text leaves undefined.",
+       "source": "Xylander, Basel (1556), p. 43 [checked]. Cleonides, Introduction to Harmonics, ed. von Jan (1895), §5 [checked]"
+      }
+     ],
+     "doubts": [
+      {
+       "latin": "compositae … Incomposita",
+       "issue": "One sentence calls the enlargements composite and the next calls them incomposite.",
+       "options": "The text may distinguish composition in magnitude from incompositeness in emission, or compositae could be an error for incompositae.",
+       "choice": "The translation retains both labels. A change of category in X26 belongs to textual criticism.",
+       "evidence": "Xylander, Basel (1556), p. 43 [checked]. Cleonides, Introduction to Harmonics, ed. von Jan (1895), §5 [checked]",
+       "alternative_ru": "Увеличением тех же [интервалов] образуются и остальные несоставные виды интервала.",
+       "alternative_en": "By increasing these same [intervals] the remaining incomposite kinds of interval are also formed."
+      }
+     ]
+    },
+    "C": {
+     "ru": "Их же наращиванием образуются и остальные виды интервалов, также составные: тридиеса, трёхполутон, дитон, тритон — и каким кто ни пожелает образом и [насколько] это допустит ритм, как станет ясно из последующего.",
+     "en": "By the augmentation of the same the remaining species of intervals, likewise composite, are also constituted: the tridiesis, the trihemitone, the ditone, the tritone, and in whatever way anyone wishes and the rhythm admits it, as will be learned from what follows.",
+     "checks": "In tones, as the text counts them (diesis = ¼, semitone = ½): tridiesis = ¾, trihemitone = 1½, ditone = 2, tritone = 3.",
+     "notes": [
+      {
+       "ru": "Compositae: Ксиландр называет интервалы, получаемые наращиванием, «составными», а следующая фраза объясняет, почему они тем не менее «называются несоставными» (autem противительное); ср. X29 (кварта и др. neque incomposita) и X49 (trisemitonium incompositum). У Вине — simplicia. Переведено, как стоит в латинском тексте; противоречие — у Ксиландра (о возможной поправке см. text_issues).",
+       "en": "Compositae: Xylander calls the intervals produced by augmentation 'composite', and the next sentence explains why they are nevertheless 'called incomposite' (adversative autem); cf. X29 (the fourth etc. neque incomposita) and X49 (trisemitonium incompositum). Vinet has simplicia. Translated as the Latin stands; the tension is Xylander's (for a possible emendation see text_issues).",
+       "source": "Page image xylander-p43, line 17 'compositæ' [checked]; Vinet V31–V32 [checked]"
+      },
+      {
+       "ru": "Auctio классически — «аукцион», но также «увеличение, приращение» (Тацит, Макробий); передано «наращивание».",
+       "en": "Auctio is classically 'auction', but also 'an increasing' (Tacitus, Macrobius); rendered 'augmentation'.",
+       "source": "Lewis & Short s.v. auctio, sense I; Gaffiot s.v. auctio, sense 2 [checked]"
+      },
+      {
+       "ru": "Rhythmus — греческое ῥυθμός; может значить музыкальный «ритм» или шире — «упорядоченное устройство, фигуру». Сохранено как «ритм»; у Вине тоже rythmus.",
+       "en": "Rhythmus is Greek ῥυθμός; it may mean musical 'rhythm' or, more broadly, 'ordered arrangement, shape'. Kept as 'rhythm'; Vinet also has rythmus.",
+       "source": "DMLBS s.v. rhythmus, sense 1 ('sequence of sounds that forms a pattern, rhythm, arranged shape') [checked]"
+      }
+     ],
+     "doubts": [
+      {
+       "latin": "compositae quoque reliquae intervallorum species",
+       "issue": "compositae may be attributive ('the remaining, likewise composite, species') or predicative ('are constituted as composite').",
+       "options": "Attributive (chosen) or predicative: «образуются составными» / 'are constituted as composite'.",
+       "choice": "Attributive, with quoque; the sense hardly changes.",
+       "evidence": "Grammar of the sentence [from memory]",
+       "alternative_ru": "",
+       "alternative_en": ""
+      }
+     ]
+    },
+    "D": {
+     "ru": "При увеличении этих же [интервалов] образуются и остальные виды интервалов — составные: тридиеса, трёхполутон, дитон, тритон, а также [другие], какие угодно и какие допустит ритм, как будет видно из дальнейшего.",
+     "en": "By increasing these same [intervals] one also forms the other, composite kinds of intervals: the tridiesis, the trihemitone, the ditone, the tritone and [others] in whatever manner one wishes and the rhythm allows, as will appear from what follows.",
+     "checks": "In the units of X18, a tridiesis is 3 dieses = ¾ tone, a trihemitone 3 semitones = 1½ tones, a ditone 2 tones, a tritone 3 tones. The resulting ratios of the last two, using 9/8, are 81/64 and 729/512.",
+     "notes": [
+      {
+       "ru": "Auctio — увеличение исходных интервалов; в названиях tridiesis, trisemitonium, ditonus и tritonus первая часть указывает число составляющих величин. Напечатано именно compositae, «составные»; в следующем предложении те же интервалы названы несоставными. Вине в соответствующем месте сразу пишет simplicia, «простые».",
+       "en": "Auctio means an increase of the starting intervals. The prefixes of tridiesis, trisemitonium, ditonus and tritonus count the component magnitudes. The printed word is compositae, ‘composite’. The next sentence calls the same intervals incomposite. Vinet has simplicia, ‘simple’, at the outset.",
+       "source": "Xylander 43.16–21, printed page [checked]. Vinet 46.1–10 [checked]. Lewis & Short, s.v. auctio I [checked]"
+      }
+     ],
+     "doubts": []
+    },
+    "A": {
+     "ru": "Приращением их же образуются и прочие, составные, виды интервалов: тридиеса, трёхполутон, дитон, тритон и [иные] — как кто пожелает и как допустит ритм, что станет понятно из дальнейшего.",
+     "en": "By the increase of these same, the remaining, composite species of intervals are also constituted: the tridiesis, the trihemitone, the ditone, the tritone, and [others] in whatever way one may wish and rhythm allow, as will be learned from what follows.",
+     "checks": "Tridiesis = 3 dieses = 3/4 tone; trihemitone = 3 semitones = 1½ tones; ditone = 2 tones; tritone = 3 tones.",
+     "notes": [
+      {
+       "ru": "Eorundem — диесы, полутона и тона. Слово rhythmus («ритм») в рассуждении о величине интервалов неожиданно: по смыслу ждёшь «мелодия» или «строй»; переведено то, что стоит в латинском тексте. «Из дальнейшего» — см. X44–51 о родах.",
+       "en": "Eorundem are the diesis, the semitone and the tone. The word rhythmus (‘rhythm’) is unexpected in an argument about the size of intervals: the sense calls for ‘melody’ or ‘the scale’; what the Latin says has been translated. ‘From what follows’: see X44–51 on the genera.",
+       "source": "X44–51 of this text [checked]"
+      }
+     ],
+     "doubts": [
+      {
+       "latin": "et quo quis modo voluerit, idque rhythmus admiserit",
+       "issue": "what rhythmus means here, and whether idque... admiserit is a condition",
+       "options": "‘and in whatever way one may wish and rhythm allow’ / ‘... provided that rhythm allows it’",
+       "choice": "the first, keeping the parallel perfect subjunctives; rhythmus kept as ‘rhythm’",
+       "evidence": "Lewis & Short, s.v. rhythmus [from memory]",
+       "alternative_ru": "и так, как кто пожелает, лишь бы это допустил ритм",
+       "alternative_en": "and in whatever way one may wish, provided that rhythm allows it"
+      }
+     ]
+    }
+   }
+  },
+  {
+   "id": "X27",
+   "ref": "Xyl. 43.21–44.1",
+   "latin": "Incomposita autem dicuntur, quia tanquam una cantilena ex coalescentibus in unum tribus diesibus, aut semitoniis totidem, aut diversis tonis conflatur, potentia quidem sive facultate diversa intervalla continens, sed unico tamen intervallo edita.",
+   "printed": [
+    {
+     "ref": "43.21",
+     "text": "sequentibus cognoscetur. Incomposita autem"
+    },
+    {
+     "ref": "43.22",
+     "text": "dicuntur, quia tanquam una cantilena ex coale-"
+    },
+    {
+     "ref": "43.23",
+     "text": "scentibus in unum tribus diesibus, aut semito-"
+    },
+    {
+     "ref": "43.24",
+     "text": "nijs totidem, aut diuersis tonis conflatur, po-"
+    },
+    {
+     "ref": "43.25",
+     "text": "tentia quidem siue facultate diuersa interualla"
+    },
+    {
+     "ref": "44.1",
+     "text": "continens, sed unico tamen interuallo edita."
+    }
+   ],
+   "translations": {
+    "C": {
+     "ru": "Несоставными же они называются потому, что как бы единый напев слагается из трёх диес, срастающихся в одно, или из стольких же полутонов, или из нескольких тонов: он содержит в возможности, или по способности, разные интервалы, но издаётся всё же единым интервалом.",
+     "en": "But they are called incomposite because, as it were, a single tune is formed from three dieses coalescing into one, or from as many semitones, or from several tones, containing in potency, or capacity, different intervals, yet uttered in a single interval.",
+     "checks": "Three dieses = ¾ tone (tridiesis); three semitones = 1½ tones (trihemitone); several tones = ditone, tritone.",
+     "notes": [
+      {
+       "ru": "Diversis tonis: в послеклассической латыни diversus значит «разный, несколько» (Дюканж: «Varius, Gallis Divers»); ср. у Вине multis etiam tonis. Передано «из нескольких тонов»; в той же фразе diversa intervalla — «разные интервалы».",
+       "en": "Diversis tonis: in post-classical Latin diversus means 'various, several' (Du Cange: 'Varius, Gallis Divers'); cf. Vinet's multis etiam tonis. Rendered 'from several tones'; in the same sentence diversa intervalla is 'different intervals'.",
+       "source": "Du Cange s.v. diversus [checked]; Vinet V32 [checked]"
+      },
+      {
+       "ru": "Potentia sive facultate — аристотелевская «возможность» (δύναμις), поясненная словом facultas. Cantilena — слово Боэция для мелодии (заглавие гл. I.21: «De generibus cantilenae»); везде передаётся как «напев».",
+       "en": "Potentia sive facultate is the Aristotelian 'potency' (δύναμις), glossed by facultas. Cantilena is Boethius' word for melody (heading of ch. I.21: 'De generibus cantilenae'); rendered 'tune' throughout.",
+       "source": "Boethius, De inst. mus. I.21, ed. Friedlein p. 212 (heading) [checked]"
+      }
+     ],
+     "doubts": []
+    },
+    "D": {
+     "ru": "Несоставными же их называют потому, что из трёх диес, или из стольких же полутонов, или из разных тонов, сливающихся воедино, образуется как бы один напев. Потенциально, то есть по своим возможностям, такой напев содержит разные интервалы, но звучит как единый интервал.",
+     "en": "They are called incomposite because three dieses, or as many semitones, or distinct tones, coalescing into one, form what is, as it were, a single tune. It contains different intervals potentially, or by virtue of its capacity, yet is sounded as a single interval.",
+     "checks": "Three dieses = ¾ tone and three semitones = 1½ tones under X18. In each example the several contributing measures are performed in one interval.",
+     "notes": [
+      {
+       "ru": "Incomposita указывает здесь на исполнение одним интервалом; potentia и facultas — на возможность различить в нём несколько величин. Cantilena — «напев». У Боэция один и тот же трёхполутон несоставен в хроматическом роде, когда звучит одним интервалом, и составен в диатоническом, когда звучат тон и полутон.",
+       "en": "Incomposita describes performance in a single interval. Potentia and facultas refer to the several measures one can distinguish in it. Cantilena means a tune. Boethius treats the same trihemitone as incomposite in the chromatic genus when it occupies one interval and as composite in the diatonic when it is sounded in two.",
+       "source": "Xylander 43.21–44.1 [checked]. Boethius, De institutione musica I.23, ed. Friedlein (1867) [checked]_ed._Friedlein)/Liber_primus. Lewis & Short, s.v. cantilena II [checked]"
+      }
+     ],
+     "doubts": []
+    },
+    "A": {
+     "ru": "Несоставными же они называются потому, что из сливающихся воедино трёх диес, или стольких же полутонов, или различных тонов сплавляется как бы единый напев, который, правда, в возможности, или в способности, содержит различные интервалы, но издан всё же одним-единственным интервалом.",
+     "en": "They are called incomposite, however, because, as it were, a single tune is fused out of three dieses coalescing into one, or as many semitones, or various tones: [a tune] which contains various intervals in potency, or capacity, yet is uttered as one single interval.",
+     "checks": "Three dieses = tridiesis; three semitones = trihemitone; ‘different tones’ = ditone (2) or tritone (3): the same four intervals as in X26.",
+     "notes": [
+      {
+       "ru": "Те же интервалы, что в X26 названы составными (compositae) по величине, здесь называются несоставными (incomposita), когда берутся в мелодии одним ходом, без промежуточного звука; ср. X49 «trisemitonium incompositum». Это учение о несоставном интервале как ограниченном соседними звуками. Potentia sive facultate — двойной перевод одного слова («в возможности», то есть потенциально). Diversus здесь в позднем значении «разный, различный» (= varius): два или три тона.",
+       "en": "The same intervals that X26 calls composite (compositae) in magnitude are here called incomposite (incomposita) when taken in melody as one step, with no note between; cf. X49 trisemitonium incompositum. This is the doctrine of the incomposite interval as one bounded by successive notes. Potentia sive facultate is a double rendering of one word (‘in potency’, potentially). Diversus has here its later sense ‘various, sundry’ (= varius): two or three tones.",
+       "source": "Cleonides, Isagoge 5 (Jan); Aristoxenus, Elementa harmonica 3 [from memory]; Du Cange, s.v. diversus (‘Diversus, Varius’; Papias: ‘Diversus, pro vario’), via Logeion [checked]"
+      }
+     ],
+     "doubts": [
+      {
+       "latin": "aut diversis tonis",
+       "issue": "diversis: ‘different’, ‘several’ or ‘separate’",
+       "options": "‘different tones’ / ‘various (several) tones’ / ‘separate tones’",
+       "choice": "‘various’ (Russian «различных»), the same word as diversa intervalla in the next clause; the meaning is two or three tones",
+       "evidence": "Du Cange, s.v. diversus (= varius), and Gaffiot, s.v. diversus, via Logeion [checked]",
+       "alternative_ru": "",
+       "alternative_en": ""
+      },
+      {
+       "latin": "tanquam una cantilena... conflatur",
+       "issue": "cantilena for a single interval is odd",
+       "options": "‘a single tune’ / ‘a single sung sound’",
+       "choice": "‘tune’, the rendering of cantilena kept throughout (X44, X56, X57)",
+       "evidence": "Lewis & Short, s.v. cantilena [from memory]",
+       "alternative_ru": "",
+       "alternative_en": ""
+      }
+     ]
+    },
+    "B": {
+     "ru": "Несоставными же их называют потому, что из трёх диес, или стольких же полутонов, или разных тонов, сливающихся воедино, складывается как бы один напев: в возможности, или по своей силе, он содержит разные интервалы, но звучит как один-единственный интервал.",
+     "en": "They are called incomposite because what is, as it were, a single tune is formed from three dieses, or as many semitones, or different tones merging into one. It contains different intervals in potency, or capacity, but is sounded as a single interval.",
+     "checks": "Three dieses give 3/4 tone, and three semitones 3/2 tones on the stated additive model. The number of tones in the third example is unspecified.",
+     "notes": [
+      {
+       "ru": "Cantilena — напев. Несоставной интервал здесь звучит одним шагом, хотя по величине включает меньшие интервалы. У Клеонида несоставность зависит от того, соседствуют ли граничные звуки в данном роде.",
+       "en": "Cantilena means a tune. An incomposite interval here sounds as a single step even though its magnitude comprises smaller intervals. For Cleonides incompositeness depends on whether the bounding notes are adjacent in the genus.",
+       "source": "Cleonides, Introduction to Harmonics, ed. von Jan (1895), §5 [checked] Boethius, De institutione musica, ed. Friedlein (1867), I.21 [checked]"
+      }
+     ],
+     "doubts": []
+    }
+   }
+  },
+  {
+   "id": "X28",
+   "ref": "Xyl. 44.2–5",
+   "latin": "Praeter haec sunt et alia intervalla: diatessaron, quartam vulgo dicunt: diapente, iisdem quinta est: et diapason, quam trito vocabulo octavam nominant.",
+   "printed": [
+    {
+     "ref": "44.2",
+     "text": "Præter hæc sunt et alia interualla: diatessaron,"
+    },
+    {
+     "ref": "44.3",
+     "text": "quartam uulgò dicunt: diapente, ijsdem quinta est:"
+    },
+    {
+     "ref": "44.4",
+     "text": "et diapason, quam trito uocabulo octauam no-"
+    },
+    {
+     "ref": "44.5",
+     "text": "minant. Hæc autem neque immediata sunt, neque"
+    }
+   ],
+   "translations": {
+    "D": {
+     "ru": "Помимо этих интервалов есть и другие. Кварту [«через четыре»] в обиходе называют «четвёртой», квинту [«через пять»] те же люди называют «пятой», а октаву [«через все»], по привычному выражению, — «восьмой».",
+     "en": "There are other intervals besides these. The interval ‘through four’ is commonly called the fourth, ‘through five’ is what the same people call the fifth, and ‘through all’ goes by the familiar name of octave.",
+     "checks": "The Latin ordinal names correspond to positions 4, 5 and 8.",
+     "notes": [
+      {
+       "ru": "Ксиландр ставит рядом греческие по происхождению интервальные названия diatessaron, diapente, diapason и обычные латинские порядковые числительные quarta, quinta, octava. Буквальный смысл первых трёх раскрывается в следующем предложении.",
+       "en": "Xylander pairs the Greek-derived interval names diatessaron, diapente and diapason with the ordinary Latin ordinals quarta, quinta and octava. The next sentence supplies the literal senses of the Greek names.",
+       "source": "Xylander (1556), pp. 44.2–13 [checked]."
+      }
+     ],
+     "doubts": []
+    },
+    "A": {
+     "ru": "Кроме них есть и другие интервалы: «через четыре», который в обиходе называют квартой; «через пять» — у них же это квинта; и «через все», который расхожим словом именуют октавой.",
+     "en": "Besides these there are other intervals as well: the ‘through four’, which they commonly call the fourth; the ‘through five’, which for the same people is the fifth; and the ‘through all’, which they name by the well-worn word ‘octave’.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "Ксиландр сам поясняет греческие названия diatessaron, diapente, diapason ходовыми латинскими quarta, quinta, octava («vulgo», «trito vocabulo» — «истёртым, расхожим словом»). Так как по принятому условию и те и другие переводятся «кварта, квинта, октава», в этом месте греческие названия даны буквально («через четыре» и т. д.), а обиходные — установившимся термином. Далее diatessaron, diapente, diapason переводятся «кварта, квинта, октава».",
+       "en": "Xylander himself glosses the Greek names diatessaron, diapente, diapason with the current Latin quarta, quinta, octava (vulgo; trito vocabulo, ‘by the worn, hackneyed word’). Since by the project's convention both sets are rendered ‘fourth, fifth, octave’, the Greek names are here given literally (‘through four’ and so on) and the common names by the established term. Elsewhere diatessaron, diapente, diapason are rendered ‘fourth, fifth, octave’.",
+       "source": "Gaffiot, s.v. tritus (‘souvent employé, usité, commun’), via Logeion [checked]"
+      }
+     ],
+     "doubts": []
+    },
+    "B": {
+     "ru": "Есть и другие интервалы. Кварту обычно называют «четвёртой», квинту те же люди называют «пятой», а для октавы употребляют расхожее слово «восьмая».",
+     "en": "There are other intervals besides these. The fourth and fifth go by those names in ordinary speech, and the octave is commonly called the “eighth.”",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "Ксиландр ставит рядом греческие diatessaron, diapente, diapason и общеупотребительные латинские quarta, quinta, octava. У Вине только греческие названия, с дефисами.",
+       "en": "Xylander sets Greek diatessaron, diapente and diapason beside common Latin quarta, quinta and octava. Vinet uses the Greek names alone, with hyphens.",
+       "source": "Xylander, Basel (1556), p. 44 [checked]. Vinet, Tournon (1591), p. 46 [checked]."
+      }
+     ],
+     "doubts": []
+    },
+    "C": {
+     "ru": "Кроме них, есть и другие интервалы: диатессарон — в обиходе его называют квартой; диапенте — у тех же это квинта; и диапазон, который расхожим словом именуют октавой.",
+     "en": "Besides these there are also other intervals: diatessaron, which is commonly called the fourth; diapente, which for the same people is the fifth; and diapason, which by a well-worn word they name the octave.",
+     "checks": "",
+     "notes": [
+      {
+       "ru": "Здесь Ксиландр противопоставляет греческие названия латинским названиям теории своего времени (quarta, quinta, octava; vulgo, trito vocabulo). Чтобы это было видно, в X28–X30 и в X35 (diatessaron seu quartae) греческие названия оставлены в транслитерации, а установленные термины стоят там, где Ксиландр даёт латинские; в остальном тексте diatessaron, diapente, diapason, disdiapason переданы как «кварта», «квинта», «октава», «двойная октава» (так и в X42, где глосса decima quinta передана «пятнадцатая» и тавтологии не возникает).",
+       "en": "Here Xylander sets the Greek names against the Latin names of the theory of his own day (quarta, quinta, octava; vulgo, trito vocabulo). To keep this visible, in X28–X30 and in X35 (diatessaron seu quartae) the Greek names are kept in transliteration and the established terms appear where Xylander gives the Latin ones; elsewhere diatessaron, diapente, diapason, disdiapason are rendered 'the fourth', 'the fifth', 'the octave', 'the double octave' (so also in X42, where the gloss decima quinta is rendered 'the fifteenth' and no tautology arises).",
+       "source": "about.md §4.1 (explaining names) [checked]"
+      },
+      {
+       "ru": "Tritus — «избитый, общеупотребительный»; vulgo — «обычно, в обиходной речи».",
+       "en": "Tritus is 'well-worn, common'; vulgo 'commonly, in ordinary usage'.",
+       "source": "Lewis & Short s.vv. tero (tritus), vulgo [from memory]"
+      }
+     ],
+     "doubts": []
+    }
+   }
+  },
+  {
+   "id": "X29",
+   "ref": "Xyl. 44.5–13",
+   "latin": "Haec autem neque immediata sunt, neque incomposita, sed per media omnia dicta intervalla transeunt. Atque haec quidem intervalla dicuntur, ratione sonitus qui est a primo sono ad extremum: quantitate autem intermediorum sonorum huiusmodi appellationes invenerunt, diatessaron quidem, quia per quatuor sonos aut nervos transit: diapente, quia per quinque: diapason, quia per omnes, hoc est, per octo.",
+   "printed": [
+    {
+     "ref": "44.5",
+     "text": "minant. Hæc autem neque immediata sunt, neque"
+    },
+    {
+     "ref": "44.6",
+     "text": "incomposita, sed per media omnia dicta interual-"
+    },
+    {
+     "ref": "44.7",
+     "text": "la transeunt. Atque hæc quidem interualla dicun-"
+    },
+    {
+     "ref": "44.8",
+     "text": "tur, ratione sonitus qui est à primo sono ad extre"
+    },
+    {
+     "ref": "44.9",
+     "text": "mum: quantitate autem intermediorum sonorum"
+    },
+    {
+     "ref": "44.10",
+     "text": "huiusmodi appellationes inuenerunt, diatessaron"
+    },
+    {
+     "ref": "44.11",
+     "text": "quidem, quia per quatuor sonos aut neruos tran-"
+    },
+    {
+     "ref": "44.12",
+     "text": "sit: diapente, quia per quinque: diapason, quia per"
+    },
+    {
+     "ref": "44.13",
+     "text": "omnes, hoc est, per octo. Nam quia omnia inter-"
+    }
+   ],
+   "translations": {
+    "A": {
+     "ru": "Они же не являются ни непосредственными, ни несоставными, но проходят через все названные интервалы как через промежуточные. И интервалами они называются по звучанию, которое простирается от первого звука до крайнего; а такие названия они получили по количеству промежуточных звуков: кварта [«через четыре»] — потому что проходит через четыре звука, или струны; квинта [«через пять»] — потому что через пять; октава [«через все»] — потому что через все, то есть через восемь.",
+     "en": "These, however, are neither immediate nor incomposite, but pass through all the aforesaid intervals as intermediate ones. And they are called intervals, indeed, with respect to the sound that there is from the first note to the last; but from the quantity of the intermediate notes they have found names of this kind: the fourth [‘through four’], because it passes through four notes or strings; the fifth [‘through five’], because through five; the octave [‘through all’], because through all, that is, through eight.",
+     "checks": "Fourth: 4 notes (3 steps); fifth: 5 notes (4 steps); octave: 8 notes (7 steps). The counts include both extreme notes, although the text says ‘intermediate’.",
+     "notes": [
+      {
+       "ru": "Sonitus (в отличие от sonus «звук, ступень») — звучание, заполняющее промежуток между крайними звуками; ср. X37. Счёт «промежуточных» звуков включает оба крайних. Immediata — «непосредственные», то есть без звуков между крайними.",
+       "en": "Sonitus (as distinct from sonus, ‘note’) is the sound that fills the span between the extreme notes; cf. X37. The count of the ‘intermediate’ notes includes both extremes. Immediata are ‘immediate’, that is, with no notes between the extremes.",
+       "source": "X37 of this text [checked]"
+      }
+     ],
+     "doubts": [
+      {
+       "latin": "per media omnia dicta intervalla transeunt",
+       "issue": "media: predicative with intervalla, or ‘through the middle of’",
+       "options": "‘pass through all the aforesaid intervals as intermediate ones’ / ‘pass through the midst of all the aforesaid intervals’",
+       "choice": "the first: the larger intervals are made up of the small ones (diesis, semitone, tone and their compounds) lying between their extremes",
+       "evidence": "context of X26–27 [checked]",
+       "alternative_ru": "",
+       "alternative_en": ""
+      }
+     ]
+    },
+    "B": {
+     "ru": "Они же не непосредственны и не несоставны, поскольку проходят через все названные промежуточные интервалы. Интервалами они называются по звучанию от первого звука до последнего, а названия такого рода были придуманы по числу промежуточных звуков: кварта — потому что проходит через четыре звука или струны, квинта — через пять, октава — через все, то есть через восемь.",
+     "en": "These intervals are neither immediate nor incomposite, for they pass through all the intermediate intervals just mentioned. They are called intervals with reference to the sound from the first note to the last. Their particular names were devised from the number of intervening notes: the fourth because it passes through four notes or strings, the fifth because it passes through five, and the octave because it passes through all of them, that is, through eight.",
+     "checks": "Inclusive counts 4, 5 and 8 correspond to 3, 4 and 7 note-to-note steps, with respectively 2, 3 and 6 strictly interior notes.",
+     "notes": [
+      {
+       "ru": "Греческие названия буквально значат «через четыре», «через пять», «через все». В приводимом счёте учтены оба крайних звука, хотя текст говорит о промежуточных. Nervus значит «струна», sonitus — звучание интервала.",
+       "en": "The Greek names literally mean “through four,” “through five” and “through all.” The counts include both endpoints even though the prose speaks of intervening notes. Nervus means a string and sonitus the sounding of the interval.",
+       "source": "Xylander, Basel (1556), p. 44 [checked]. Boethius, De institutione musica, ed. Friedlein (1867), I.20 [checked]"
+      }
+     ],
+     "doubts": []
+    },
+    "C": {
+     "ru": "Они же не являются ни непосредственными, ни несоставными, но проходят через все названные промежуточные интервалы. И интервалами они называются по звучанию, которое простирается от первого звука до последнего; а по количеству промежуточных звуков они получили такие наименования: диатессарон — потому что проходит через четыре звука, или струны; диапенте — потому что через пять; диапазон — потому что через все, то есть через восемь.",
+     "en": "These are neither immediate nor incomposite, but pass through all the aforesaid intervals in between. And they are called intervals by reason of the sounding that runs from the first note to the last; but from the quantity of the intermediate notes they received names of this kind: diatessaron, because it passes through four notes or strings; diapente, because through five; diapason, because through all, that is, through eight.",
+     "checks": "Fourth = 4 notes (3 steps), fifth = 5 notes, octave = 8 notes, counted inclusively.",
+     "notes": [
+      {
+       "ru": "Греческие названия: διὰ τεσσάρων «через четыре», διὰ πέντε «через пять», διὰ πασῶν «через все [струны]». Immediatus — позднелатинское и схоластическое «непосредственный, без середины»; у Вине non sine medio. Sonitus здесь — не отдельный звук, а «звучание» (так же в X37).",
+       "en": "The Greek names: διὰ τεσσάρων 'through four', διὰ πέντε 'through five', διὰ πασῶν 'through all [the strings]'. Immediatus is late and scholastic Latin, 'immediate, without a middle'; Vinet has non sine medio. Sonitus here is not a single note but 'the sounding' (likewise X37).",
+       "source": "LSJ s.v. διά [from memory]; DMLBS s.v. immediatus [checked]"
+      }
+     ],
+     "doubts": []
+    },
+    "D": {
+     "ru": "У этих интервалов есть промежуточные [ступени], и сами они не принадлежат к числу несоставных, а проходят через все названные промежуточные интервалы. Интервалами их называют по звучанию от первого звука до последнего, а свои особые названия они получили по числу промежуточных звуков. Так, кварта [называется «через четыре»], потому что проходит через четыре звука или струны, квинта — через пять, октава — через все, то есть через восемь.",
+     "en": "These intervals neither lack intermediate [steps] nor are they incomposite. They pass through all the intervening intervals mentioned above. They are called intervals in view of the sound from the first note to the last. They acquired their particular names from the number of intervening notes. The fourth [is called ‘through four’] because it passes through four notes or strings, the fifth because it passes through five, and the octave because it passes through all, that is, through eight.",
+     "checks": "Inclusive count: 4, 5 and 8 notes give 3, 4 and 7 successive gaps. A strictly interior count would give 2, 3 and 6 notes.",
+     "notes": [
+      {
+       "ru": "Immediata — интервалы без промежуточной ступени. Sonitus обозначает здесь звучание от одного предельного звука до другого. По примерам видно, что в число «промежуточных» звуков включены и оба крайних.",
+       "en": "Immediata means intervals with no intermediate step. Sonitus here is the sounding span from one bounding note to the other. The examples count both endpoints among the ‘intervening’ notes.",
+       "source": "Xylander (1556), p. 44.5–13 [checked]. Boethius, De institutione musica, ed. G. Friedlein (1867), I.17–18 [checked]"
+      },
+      {
+       "ru": "Sonitus здесь — звучание на всём протяжении интервала. Nervi, как и chordae, — струны.",
+       "en": "Sonitus here is the sounding of the whole span. Nervi, like chordae, are strings.",
+       "source": "Xylander, Basel 1556, 44.5–13 [checked]."
+      }
+     ],
+     "doubts": []
+    }
+   }
+  },
+  {
+   "id": "X30",
+   "ref": "Xyl. 44.13–20",
+   "latin": "Nam quia omnia intervalla complentur in octachordo, atque inde iterum geminantur, diapason dicitur, quod per octo nervos transit. Argumento sunt etiam nomina, quae sequentibus intervallis obtigerunt, ut sunt diapason cum diatessaron, diapason cum diapente: disdiapason, hoc est, octava cum quarta, octava cum quinta, et duae octavae.",
+   "printed": [
+    {
+     "ref": "44.13",
+     "text": "omnes, hoc est, per octo. Nam quia omnia inter-"
+    },
+    {
+     "ref": "44.14",
+     "text": "ualla complentur in octachordo, atque inde i-"
+    },
+    {
+     "ref": "44.15",
+     "text": "terum geminantur, diapason dicitur, quod per o-"
+    },
+    {
+     "ref": "44.16",
+     "text": "cto neruos transit. Argumento sunt etiam no-"
+    },
+    {
+     "ref": "44.17",
+     "text": "mina, quæ sequentibus interuallis obtigerunt, ut"
+    },
+    {
+     "ref": "44.18",
+     "text": "sunt diapason cum diatessaron, diapason cum dia"
+    },
+    {
+     "ref": "44.19",
+     "text": "pente: disdiapason, hoc est, octaua cum quarta, o-"
+    },
+    {
+     "ref": "44.20",
+     "text": "ctaua cum quinta, et duæ octauæ."
+    }
+   ],
+   "context_only": "Context only: this segment belongs to the neighbouring group. Read it; do not judge it.",
+   "translations": {
+    "B": {
+     "ru": "Поскольку все интервалы исчерпываются в октахорде, а затем повторяются, октава называется «через все», так как проходит через восемь струн. Об этом свидетельствуют и названия, доставшиеся следующим интервалам: октава с квартой, октава с квинтой и двойная октава, то есть октава вместе с квартой, октава вместе с квинтой и две октавы.",
+     "en": "For all the intervals are comprised in the octachord and from there are repeated. The octave is called “through all” because it passes through eight strings. The names given to the following intervals are further evidence: the octave and a fourth, the octave and a fifth, and the double octave, that is, an octave with a fourth, an octave with a fifth, and two octaves.",
+     "checks": "An octave spans 7 steps. Octave plus fourth spans 7+3 = 10 steps (11 note positions), octave plus fifth 7+4 = 11 (12 positions), and two octaves 7+7 = 14 (15 positions).",
+     "notes": [
+      {
+       "ru": "Octachordum — октахорд, diapason cum diatessaron и diapason cum diapente — составные названия, disdiapason буквально «дважды через все». На полях стоит отсылка «Vide Annotationes».",
+       "en": "Octachordum is an octachord. Diapason cum diatessaron and diapason cum diapente are compound names, and disdiapason literally means “twice through all.” The margin says “Vide Annotationes.”",
+       "source": "Xylander, Basel (1556), p. 44 [checked]."
+      }
+     ],
+     "doubts": []
+    },
+    "C": {
+     "ru": "Ибо, так как все интервалы завершаются в октахорде и оттуда снова удваиваются, [этот интервал] называется диапазоном, поскольку проходит через восемь струн. Доказательством служат и наименования, доставшиеся последующим интервалам, каковы диапазон с диатессароном, диапазон с диапенте, дисдиапазон, то есть октава с квартой, октава с квинтой и две октавы.",
+     "en": "For since all the intervals are completed in the octachord and from there are doubled again, it is called diapason, because it passes through eight strings. The names that fell to the subsequent intervals are also evidence of this, such as diapason with diatessaron, diapason with diapente, disdiapason, that is, the octave and a fourth, the octave and a fifth, and two octaves.",
+     "checks": "Octave + fourth = 2 × 4/3 = 8:3; octave + fifth = 2 × 3/2 = 3:1; two octaves = 4:1 (cf. X35–X36).",
+     "notes": [
+      {
+       "ru": "На поле против строк 44.17–18 (nomina … diapason cum diatessaron) напечатано «Vide Annotationes»; примечания Ксиландра здесь не приводятся (about.md, §2).",
+       "en": "In the margin opposite lines 44.17–18 (nomina … diapason cum diatessaron) is printed 'Vide Annotationes'; Xylander's annotations are not supplied here (about.md §2).",
+       "source": "Page image xylander-p44, left margin [checked]"
+      },
+      {
+       "ru": "Duae octavae — буквально «две октавы»: так Ксиландр по-латыни поясняет disdiapason; в остальном тексте disdiapason — «двойная октава».",
+       "en": "Duae octavae is literally 'two octaves': Xylander's Latin gloss on disdiapason; elsewhere disdiapason is 'the double octave'.",
+       "source": "about.md §4.2 [checked]"
+      }
+     ],
+     "doubts": []
+    },
+    "D": {
+     "ru": "Ведь все интервалы укладываются в октахорд, а затем удваиваются вновь. Поэтому интервал, проходящий через восемь струн, называют октавой [«через все»]. Об этом свидетельствуют и названия, доставшиеся следующим интервалам: октава с квартой, октава с квинтой, двойная октава, то есть «восьмая с четвёртой», «восьмая с пятой» и «две восьмых».",
+     "en": "For all the intervals are completed within the octachord and thereafter doubled in turn. Hence the interval that passes through eight strings is called the octave [‘through all’]. Further evidence comes from the names given to the succeeding intervals, such as the octave and a fourth, the octave and a fifth, and the double octave, that is, ‘an eighth with a fourth’, ‘an eighth with a fifth’, and ‘two eighths’.",
+     "checks": "The octachord has 8 strings. The three compound intervals span 8+4−1=11, 8+5−1=12 and 8+8−1=15 positions.",
+     "notes": [
+      {
+       "ru": "В названиях составных интервалов diapason cum diatessaron, diapason cum diapente и disdiapason Ксиландр снова поочерёдно даёт греческое и обиходное названия каждой величины. При сочетании двух интервалов их общий звук считается один раз.",
+       "en": "Xylander again gives Greek-derived names and ordinary names for the same spans: diapason cum diatessaron, diapason cum diapente and disdiapason. Joining two intervals counts their common note once.",
+       "source": "Xylander (1556), p. 44.13–20 [checked]."
+      }
+     ],
+     "doubts": []
+    },
+    "A": {
+     "ru": "Ведь поскольку все интервалы завершаются в октахорде, а оттуда вновь удваиваются, [интервал] называется октавой [«через все»], потому что проходит через восемь струн. Доказательством служат и названия, доставшиеся следующим интервалам, каковы «через все» с «через четыре», «через все» с «через пять», «дважды через все», то есть октава с квартой, октава с квинтой и две октавы.",
+     "en": "For because all the intervals are completed within the octachord, and from there are doubled over again, it is called the octave [‘through all’], because it passes through eight strings. The names that have fallen to the following intervals are also evidence, such as the ‘through all’ with the ‘through four’, the ‘through all’ with the ‘through five’, the ‘twice through all’, that is, the octave with a fourth, the octave with a fifth, and two octaves.",
+     "checks": "Octave + fourth = 11 notes; octave + fifth = 12 notes; double octave = 15 notes (cf. X32).",
+     "notes": [
+      {
+       "ru": "Как и в X28, греческие названия (diapason cum diatessaron, diapason cum diapente, disdiapason) Ксиландр переводит обиходными (octava cum quarta, octava cum quinta, duae octavae); чтобы пояснение не стало тавтологией, первые даны буквально. «Через все» значит «через все восемь»: после восьмого звука интервалы повторяются. На поле против строк 44.17–18 стоит отсылка Ксиландра «Vide Annotationes»; его примечания здесь не привлекаются.",
+       "en": "As in X28, Xylander translates the Greek names (diapason cum diatessaron, diapason cum diapente, disdiapason) by the common ones (octava cum quarta, octava cum quinta, duae octavae); so that the gloss does not become a tautology, the former are given literally. ‘Through all’ means ‘through all eight’: after the eighth note the intervals repeat. In the margin beside lines 44.17–18 stands Xylander's reference ‘Vide Annotationes’; his annotations are not consulted here.",
+       "source": "X28 of this text; page image of p. 44 [checked]"
+      }
+     ],
+     "doubts": [
+      {
+       "latin": "complentur in octachordo, atque inde iterum geminantur",
+       "issue": "complentur: ‘are completed’ or ‘are all contained’; geminantur: ‘are doubled’ or ‘are repeated’",
+       "options": "‘are completed within the octachord, and from there are doubled over again’ / ‘are all found in the octachord and thereafter are repeated’",
+       "choice": "the first, closer to the words; the sense is the same",
+       "evidence": "Lewis & Short, s.vv. compleo, gemino [from memory]",
+       "alternative_ru": "",
+       "alternative_en": ""
+      }
+     ]
+    }
+   }
+  }
+ ],
+ "corrections": [
+  {
+   "ref": "Xyl. 48.20",
+   "printed": "diatesseron",
+   "reading": "diatessaron",
+   "reason": "misprint: the interval is diatessaron everywhere else (48.11, 48.14, 48.24)"
+  },
+  {
+   "ref": "Xyl. 49.16",
+   "printed": "unamquan- with the -que sign",
+   "reading": "unamquamque",
+   "reason": "misprint: n before the -que sign; accusative unamquamque"
+  },
+  {
+   "ref": "Xyl. 49.18",
+   "printed": "meliodiarum",
+   "reading": "melodiarum",
+   "reason": "misprint: the word is melodia everywhere else"
+  }
+ ],
+ "text_issues": {
+  "A": [
+   {
+    "version": "xylander",
+    "segment": "X18",
+    "reading": "dimidium sesquioctavae diesis autem",
+    "printed": "dimidium sesquioctauæ diesis autem (42.14)",
+    "proposal": "punctuate: dimidium sesquioctavae, diesis autem",
+    "argument": "A comma or colon is wanting between the two clauses.",
+    "effect_on_sense": "None."
+   },
+   {
+    "version": "xylander",
+    "segment": "X23",
+    "reading": "Numerorum enim sedecim, qui est quadratus, neque in duo potest diducere quadrata",
+    "printed": "Numerorum enim sedecim, qui est quadratus (43.3; confirmed on the page image)",
+    "proposal": "Numerum enim sedecim, qui est quadratus",
+    "argument": "diducere and dare need an accusative object, and the relative qui est quadratus refers to a masculine singular (numerus); the genitive plural Numerorum can only be construed as a loose partitive. Probably a slip of the compositor or of the translator (-orum for -um). The reading text keeps the printed form, and the translation follows it as a partitive.",
+    "effect_on_sense": "None: ‘for the number sixteen, which is a square, it can neither part into two squares...’ instead of ‘for, among numbers, sixteen...’."
+   },
+   {
+    "version": "xylander",
+    "segment": "X24",
+    "reading": "quod propositum dupli esse constat",
+    "printed": "quod propositū dupli esse cōstat (43.14; confirmed on the page image)",
+    "proposal": "quod propositi duplum esse constat",
+    "argument": "The parallel clause is ‘id statim propositi est dimidium’; the geometry requires that the square on the diagonal be double the given square. As printed, the endings of the two words seem to have been exchanged (propositum dupli for propositi duplum).",
+    "effect_on_sense": "None for the translation, which follows the geometry: ‘which is agreed to be the double of the one proposed’. Taken strictly as printed, the clause would say that the proposed square is ‘of the double’, which gives no usable sense."
+   }
+  ],
+  "B": [
+   {
+    "version": "xylander",
+    "segment": "X23",
+    "reading": "Numerorum enim sedecim, qui est quadratus",
+    "printed": "Numerorum enim sedecim, qui est quadratus",
+    "proposal": "Numerum enim sedecim, qui est quadratus",
+    "argument": "The scan confirms numerorum. Numerum would supply an explicit accusative object for diducere and a singular antecedent for qui. The transmitted genitive can also be read partitively with sedecim, with numerus understood before qui. Basel (1556), p. 43 [checked].",
+    "effect_on_sense": "The two constructions give the same practical assertion about sixteen."
+   },
+   {
+    "version": "xylander",
+    "segment": "X24",
+    "reading": "quod propositum dupli esse constat",
+    "printed": "quod propositũ dupli esse cōstat",
+    "proposal": "quod propositi duplum esse constat",
+    "argument": "The printed wording leaves propositum and dupli in an awkward relation. Propositi duplum gives the construction expected from the preceding description and corresponds to the earlier propositi … dimidium. I take the transmitted clause in the demonstrable geometric sense. Basel (1556), p. 43 [checked].",
+    "effect_on_sense": "This makes the direction of doubling grammatically explicit. The resulting square has twice the area of the given one."
+   },
+   {
+    "version": "xylander",
+    "segment": "X26",
+    "reading": "compositae quoque reliquae intervallorum species",
+    "printed": "compositæ quoque reliquæ inter- / uallorum species",
+    "proposal": "Possibly incompositae quoque reliquae intervallorum species",
+    "argument": "The next sentence immediately calls the same intervals incomposite. The adjective is clear in the scan. Xylander's distinction between magnitude made up of components and an interval sounded in one step gives a possible rationale for the transmitted wording. Basel (1556), p. 43 [checked].",
+    "effect_on_sense": "The conjecture would make both sentences call the enlarged intervals incomposite.",
+    "alternative_ru": "Увеличением тех же [интервалов] образуются и остальные несоставные виды интервала.",
+    "alternative_en": "By increasing these same [intervals] the remaining incomposite kinds of interval are also formed."
+   }
+  ],
+  "C": [
+   {
+    "version": "xylander",
+    "segment": "X23",
+    "reading": "Numerorum enim sedecim, qui est quadratus",
+    "printed": "Numerorum enim sedecim, qui est",
+    "proposal": "Numerum enim sedecim, qui est quadratus",
+    "argument": "The genitive plural numerorum agrees neither with the indeclinable sedecim nor with the singular qui est quadratus, and leaves diducere without a clear object. Numerum (object of diducere, 'the number sixteen') gives the expected construction; compare numerus triginta duo a few lines below. A partitive reading 'of numbers, sixteen' is just possible but forced. The page image confirms the printed letters.",
+    "effect_on_sense": "None: the translation already reads 'the number sixteen'."
+   },
+   {
+    "version": "xylander",
+    "segment": "X24",
+    "reading": "quod propositum dupli esse constat",
+    "printed": "dratum describet, quod propositum dupli esse constat.",
+    "proposal": "quod propositi duplum esse constat",
+    "argument": "The parallel 'id statim propositi est dimidium' in the same sentence and 'propositum quadratum … duplum efficere' in X23 lead one to expect propositi duplum 'double the proposed [square]'. As printed, the words can be construed only with strain (propositum with quod, dupli as a genitive of measure). The page image confirms the printed letters (with abbreviation marks).",
+    "effect_on_sense": "Slight. Reading text, translated: «который, как известно, есть предложенный [квадрат] в двойном размере» / 'which, as is evident, is the proposed [square] of double [size]'. Proposed reading: «который, как известно, вдвое больше предложенного» / 'which is evidently double the proposed [square]'."
+   },
+   {
+    "version": "xylander",
+    "segment": "X26",
+    "reading": "compositae quoque reliquae intervallorum species constituuntur",
+    "printed": "quoque auctione, compositæ quoque reliquæ in-",
+    "proposal": "Keep compositae; an emendation incompositae would be possible but is not necessary.",
+    "argument": "The next sentence begins 'Incomposita autem dicuntur', and X29 and X49 call these intervals incomposite (Vinet: simplicia); incompositae quoque ('likewise incomposite') would read smoothly. But compositae makes sense with an adversative autem ('they are formed by composition, but are called incomposite because …'), and the page image confirms compositae.",
+    "effect_on_sense": "If incompositae: «Их же наращиванием образуются и остальные виды интервалов, также несоставные…» / 'By the augmentation of the same the remaining species of intervals, likewise incomposite, are also constituted…'; X27 would then begin 'They are called incomposite because…' as an explanation, not a contrast."
+   }
+  ],
+  "D": [
+   {
+    "version": "xylander",
+    "segment": "X24",
+    "reading": "quod propositum dupli esse constat",
+    "printed": "quod propositum dupli esse constat (propositum with an abbreviated ending)",
+    "proposal": "quod propositi duplum esse constat (conjecture)",
+    "argument": "The page confirms the transmitted endings. Interchanging them makes propositi depend on duplum, in parallel with propositi... dimidium earlier in the same sentence. The new square has twice the original area. The conjecture clarifies which square is being compared.",
+    "effect_on_sense": "The geometric result is the same. The proposed reading explicitly compares the areas of the new square and the original.",
+    "alternative_ru": "который, как известно, вдвое больше исходного квадрата",
+    "alternative_en": "which is known to be twice the original square"
+   }
+  ]
+ }
+}
