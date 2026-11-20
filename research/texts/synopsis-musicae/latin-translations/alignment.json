@@ -1,0 +1,917 @@
+{
+ "status": "alignment of the Latin reading texts with the 67 units of the Greek text, 2026-11-20: one aligner per version (Claude Opus 5.5 agents, Greek and Latin only), every segment and boundary checked by a second agent (no errors found); the segments reproduce the reading texts exactly (build_package.py checks it); the segment texts follow the reading text as revised on the same day (Vinet 48.23 Dia-pason, the chapter title De intervallis)",
+ "xylander": {
+  "segments": [
+   {
+    "block": "title",
+    "units": [
+     "U001"
+    ],
+    "text": "Exacta summa hic, evidensque Musicae."
+   },
+   {
+    "block": "para 1",
+    "units": [
+     "U002"
+    ],
+    "text": "Universum hoc, antiqui Musica contineri perhibuerunt. Nihil enim in rerum natura absque commensuratione et proportione consistit:"
+   },
+   {
+    "block": "para 1",
+    "units": [
+     "U003"
+    ],
+    "text": "neque quicquam eorum quae fiunt, sine debita commensuratione et proportione si fiat, recte productum natumve esse dicitur: sive id ab arte efficiatur, sive a natura: et sive sub sensum illud cadat, sive solo intellectu perspiciatur."
+   },
+   {
+    "block": "para 2",
+    "units": [
+     "U004"
+    ],
+    "text": "Caeterum Musica ipsa per se commensuratio quaedam omnino et proportionalitas est, nimirum harmonia universi existens."
+   },
+   {
+    "block": "para 2",
+    "units": [
+     "U005"
+    ],
+    "text": "Fortassis et ipsam divinam naturam haud inconvenienter sui ipsius et universi harmoniam quispiam dixerit: siquidem in Deo concinnatus, et ad consonantiam coaptatus mundus, bene, atque adeo quam optime se habere videtur."
+   },
+   {
+    "block": "para 2",
+    "units": [
+     "U006"
+    ],
+    "text": "Tanto nimirum Musicam illi dignati sunt miraculo."
+   },
+   {
+    "block": "para 2",
+    "units": [
+     "U007"
+    ],
+    "text": "Ea quando in omnibus conspicitur, atque universa temperat, exornatque, tum sensui voluptatem, congruentiam autem (harmoniam dico) Naturae, beatitatem denique intellectui largitur: nos de ea Musica quae in sensibus, aut potius uno sensuum auditu consideratur, paucis disseremus.",
+    "note": "'(harmoniam dico)' is the translator's gloss on 'congruentiam'."
+   },
+   {
+    "block": "para 3",
+    "units": [
+     "U008"
+    ],
+    "text": "Sonus est, vocis nullo intervallo divisae harmoniae particeps intensio, seu tenor."
+   },
+   {
+    "block": "para 3",
+    "units": [
+     "U009"
+    ],
+    "text": "Intervallum autem, sonorum mutua unius ad alterum ratio, sive respectus."
+   },
+   {
+    "block": "para 3",
+    "units": [
+     "U010"
+    ],
+    "text": "Systema, complexus est certus intervallorum."
+   },
+   {
+    "block": "para 3",
+    "units": [
+     "U011"
+    ],
+    "text": "Harmonia, ipsa constructio systematum."
+   },
+   {
+    "block": "para 3",
+    "units": [
+     "U012"
+    ],
+    "text": "Enimvero sonus divisionis capax non est, ut neque punctum in Geometria. Harmoniae participem diximus, quia ita effertur, ut possit etiam cum alio sono ad harmoniam concinnari."
+   },
+   {
+    "block": "para 3",
+    "units": [
+     "U013"
+    ],
+    "text": "Quod nisi fiat, iam is dissonus sit sonus, non consonus: imo neque sonus dicetur esse, sed strepitus quispiam temere editus, et ad consonantiam nulli existens usui."
+   },
+   {
+    "block": "para 3",
+    "units": [
+     "U014"
+    ],
+    "text": "Proinde diversae sunt sonorum, quas illi progressu et ordine, quem a gravi ad acutum observant, nanciscuntur nomenclationes: Proslambanomenos, Hypate hypaton, parhypate hypaton, hypate diatonos, hypate meson, parhypate meson, diatonos meson, mese monos, paramesos, trite diezeugmene, diatonos diezeugmene, nete diezeugmene, trite hyperbolaeon, diatonos hyperbolaeon, nete hyperbolaeon.",
+    "note": "'diatonos meson' corresponds to the supplement ⟨μέσων διάτονος⟩ in the Greek."
+   },
+   {
+    "block": "para 3",
+    "units": [
+     "U015"
+    ],
+    "text": "Per has sonorum species heccaedecachordum, hoc est, sedecim chordarum instrumentum in quindecim fidibus instructo organo (Pentecaedecachordum vocant Graeci) absolvitur, fine octachordi ad principium sequentium continuo assumpto.",
+    "note": "Contains the translator's glosses 'hoc est, sedecim chordarum instrumentum' and '(Pentecaedecachordum vocant Graeci)', woven into the clause."
+   },
+   {
+    "block": "para 3",
+    "units": [
+     "U016"
+    ],
+    "text": "Quam enim rationem habet primus sonus ad octavum, eandem octavus ad decimumquintum obtinet."
+   },
+   {
+    "block": "para 3",
+    "units": [
+     "U017"
+    ],
+    "text": "Et haec de sonis."
+   },
+   {
+    "block": "para 4",
+    "units": [
+     "U018"
+    ],
+    "text": "Intervallorum autem minimum genus est, quod diesin vocant: deinde semitonium, cuius dupla ad acutum est accessio, respectu dieseos. Deinde est tonus duplici constans semitonio, et rationem sesquioctavam constituens, ut est novenarii ad octonarium numerum. Quo fit, ut semitonium sit quasi dimidium sesquioctavae diesis autem quasi quadrans eiusdem."
+   },
+   {
+    "block": "para 4",
+    "units": [
+     "U019"
+    ],
+    "text": "Quamvis enim ratione numeri unitas dividi non potest, utique tamen unitas quae in materia conspicitur, dividitur Geometrice."
+   },
+   {
+    "block": "para 4",
+    "units": [
+     "U020"
+    ],
+    "text": "Nam chordam eam quae observat rationem sesquioctavam, possibile est dividi in semisesquioctavam, quod est semitonium, et hoc denuo dividi in diesin."
+   },
+   {
+    "block": "para 4",
+    "units": [
+     "U021"
+    ],
+    "text": "Geometriae enim est, semper a maiori recta minorem posse detrahere, semperque posse minori apponere maiorem. ex quo sequitur, ut quaelibet figura ad placitum possit cum augeri, tum diminui."
+   },
+   {
+    "block": "para 4",
+    "units": [
+     "U022"
+    ],
+    "text": "Id vero in Arithmetica locum non habet."
+   },
+   {
+    "block": "para 4",
+    "units": [
+     "U023"
+    ],
+    "text": "Ad haec, propositum quadratum in aequalia partiri quadrata, aut duplum efficere non potest. Numerorum enim sedecim, qui est quadratus, neque in duo potest diducere quadrata (octo enim Arithmetice quadratum esse, aut eius numeri dare radicem quadratam, impossibile est) neque duplum eius aliud quadratum dare (fieri enim non potest, ut numerus triginta duo sit quadratus) At Geometriae hoc factu non est difficile.",
+    "note": "'Ad haec' renders αὐτίκα loosely; 'aut eius numeri dare radicem quadratam' is an explanatory addition of the translator."
+   },
+   {
+    "block": "para 4",
+    "units": [
+     "U024"
+    ],
+    "text": "nam Geometer dati quadrati latere loco diametri accepto, ubi circumposuit quadratum, id statim propositi est dimidium: iterumque accepta dati quadrati diametro loco lateris, ex eo quadratum describet, quod propositum dupli esse constat."
+   },
+   {
+    "block": "para 4",
+    "units": [
+     "U025"
+    ],
+    "text": "Sic etiam sesquioctava toni proportio dividi poterit in semitonium, iterumque in diesin."
+   },
+   {
+    "block": "para 4",
+    "units": [
+     "U026"
+    ],
+    "text": "Eorundem quoque auctione, compositae quoque reliquae intervallorum species constituuntur: tridiesis, trisemitonium, ditonus, tritonus, et quo quis modo voluerit, idque rhythmus admiserit, veluti ex sequentibus cognoscetur.",
+    "note": "'compositae' stands where the Greek has ἀσύνθετα ('incomposite'); the next sentence ('Incomposita autem dicuntur') follows the Greek."
+   },
+   {
+    "block": "para 4",
+    "units": [
+     "U027"
+    ],
+    "text": "Incomposita autem dicuntur, quia tanquam una cantilena ex coalescentibus in unum tribus diesibus, aut semitoniis totidem, aut diversis tonis conflatur, potentia quidem sive facultate diversa intervalla continens, sed unico tamen intervallo edita."
+   },
+   {
+    "block": "para 4",
+    "units": [
+     "U033"
+    ],
+    "text": "Praeter haec sunt et alia intervalla: diatessaron, quartam vulgo dicunt: diapente, iisdem quinta est: et diapason, quam trito vocabulo octavam nominant.",
+    "note": "Contains the translator's glosses with the vernacular names: 'quartam vulgo dicunt', 'iisdem quinta est', 'quam trito vocabulo octavam nominant'."
+   },
+   {
+    "block": "para 4",
+    "units": [
+     "U034"
+    ],
+    "text": "Haec autem neque immediata sunt, neque incomposita, sed per media omnia dicta intervalla transeunt. Atque haec quidem intervalla dicuntur, ratione sonitus qui est a primo sono ad extremum: quantitate autem intermediorum sonorum huiusmodi appellationes invenerunt, diatessaron quidem, quia per quatuor sonos aut nervos transit: diapente, quia per quinque: diapason, quia per omnes, hoc est, per octo.",
+    "note": "'quia per omnes, hoc est,' is the translator's addition explaining diapason."
+   },
+   {
+    "block": "para 4",
+    "units": [
+     "U035"
+    ],
+    "text": "Nam quia omnia intervalla complentur in octachordo, atque inde iterum geminantur, diapason dicitur, quod per octo nervos transit. Argumento sunt etiam nomina, quae sequentibus intervallis obtigerunt, ut sunt diapason cum diatessaron, diapason cum diapente: disdiapason, hoc est, octava cum quarta, octava cum quinta, et duae octavae.",
+    "note": "δὶς διὰ τεσσάρων / δὶς διὰ πέντε / δὶς διὰ πασῶν rendered as 'diapason cum diatessaron, diapason cum diapente, disdiapason', followed by the translator's gloss 'hoc est, octava cum quarta, octava cum quinta, et duae octavae'."
+   },
+   {
+    "block": "para 5",
+    "units": [
+     "U036"
+    ],
+    "text": "Consonant autem diatessaron dictum intervallum, et diapente, secundum id genus consonantiae quod Paraphonum Graeci dicunt, quasi iuxta sonans. Diapason autem, diapason cum diatessaron, diapason cum diapente, et disdiapason, secundum id genus consonantiae quod Antiphonum appellant, quasi contra sonans.",
+    "note": "Contains the translator's glosses 'quod Paraphonum Graeci dicunt, quasi iuxta sonans' and 'quod Antiphonum appellant, quasi contra sonans'."
+   },
+   {
+    "block": "para 5",
+    "units": [
+     "U037"
+    ],
+    "text": "Inter paraphonum et antiphonum, hoc est assonans et obsonans, hoc differt, quod illud quidem consonat inaequali tempore, quando soni mutuas suas proportionalitates atque rationes aequalitate quadam leniter et concinne sibi invicem succedunt. Antiphonum autem est, cum simul eodem tempore acutum cum gravi consonat: ut cum octavus primo, undecimus quarto, duodecimus quinto, decimusquintus octavo aequaliter ascendit vel descendit in intensionibus remissionibusve, ita ut acutis graves, vel contra, respondeant proportionaliter.",
+    "note": "'hoc est assonans et obsonans' is the translator's gloss."
+   },
+   {
+    "block": "para 5",
+    "units": [
+     "U038"
+    ],
+    "text": "Caeterum tonus, semitonium, atque diesis per se considerata, initium quidem seu principium sunt consonantiae, non tamen consonantia."
+   },
+   {
+    "block": "para 5",
+    "units": [
+     "U039"
+    ],
+    "text": "Conficitur autem diatessaron duobus ex tonis, unoque, semitonio, et praeterea quopiam exiguo: quod quia minus diesi est, appellationem peculiarem non invenit. Diapente vero ex tribus tonis, semitonioque constat. Diapason autem ex sex tonis conficitur. Diapason autem cum diatessaron, ex octo tonis et semitonio conflatur. Diapason cum diapente, ex novem tonis et semitonio. Disdiapason, ex duodecim tonis."
+   },
+   {
+    "block": "para 5",
+    "units": [
+     "U040"
+    ],
+    "text": "Proportio autem diatessaron seu quartae est sesquitertia, diapente sesquialteram constituit, diapason duplam. Diapason cum diatessaron, duplam superpartientem: diapason cum diapente, triplam."
+   },
+   {
+    "block": "para 5",
+    "units": [
+     "U041"
+    ],
+    "text": "Id quo melius intelligatur, exempli causa constituatur in numeris primus terminus senarius: ad eum sesquitertius est octonarius, sesquialter novenarius, duplus duodenarius, duplus superpartiens (nimirum super bipartiens tertias) sedecim. Triplus denique, octodecim: quadruplus, viginti quatuor.",
+    "note": "'Id quo melius intelligatur' is added; '(nimirum super bipartiens tertias)' replaces the Greek explanation τὸν ἕκτον δὶς ἔχων καὶ δύο μέρη αὐτοῦ."
+   },
+   {
+    "block": "para 5",
+    "units": [
+     "U045"
+    ],
+    "text": "At enim scire hoc oportet, proportiones intervallorum nequaquam iudicari ad numeros sonorum vel fidium facta collatione, sed ad sonitus ipsius intensionem a gravi ad acutum."
+   },
+   {
+    "block": "para 5",
+    "units": [
+     "U046"
+    ],
+    "text": "Nam quia intervallum diapente diximus habere sesquialteram proportionem, equidem id non intelligendum est ad excessum quantitatis respiciendo, qua in respectu se praecedentium sonorum habet. Ea namque ratione ad primum esset quincuplum, ad secundum duplum sesquialterum: at tertio collatum, eum, eiusque bessem continet: sesquiquartum vero est ad quartum, nulli autem horum omnium sesquialtera proportione quadrat."
+   },
+   {
+    "block": "para 5",
+    "units": [
+     "U047"
+    ],
+    "text": "Ergo ad intensionem acuitatis, non ad numerum sonorum respiciendum. eo enim tandem modo sesquialterum erit,"
+   },
+   {
+    "block": "para 5",
+    "units": [
+     "U048"
+    ],
+    "text": "quod idem de reliquis existimandum est.",
+    "note": "The translator attaches U048 to the preceding sentence as a relative clause."
+   },
+   {
+    "block": "para 5",
+    "units": [
+     "U049"
+    ],
+    "text": "Porro hae proportiones intervallorum, aut per differentiam longitudinis, crassitieive nervorum, aut per tensionem, quae fit conversione clavorum, deprehensae sunt, aut a ponderum tractione forte manifestius: in illis vero quae inflantur, vel per cavitatis amplitudinem, vel ab intensione et remissione spiritus."
+   },
+   {
+    "block": "para 5",
+    "units": [
+     "U051"
+    ],
+    "text": "Porro systematum aliud est tetrachordum, quod quatuor componitur nervis, omnem vim intervalli diatessaron complectens: aliud pentachordum, quinque ex nervis constitutum, diapente intervalli omnem potestatem in se continens: aliud octachordum, octo ex nervis constructum, omnem octavae materiem ambiens. Est et quod continentibus sedecim nervis conficitur, omnem disdiapason (decimamquintam hodie vocant) intervalli ambitum comprehendens, eoque ad duplices usus habile, quod et praedicta intervalla, et ex his ipsis composita complectitur.",
+    "note": "Additions of the translator: 'quod quatuor componitur nervis', 'quinque ex nervis constitutum', 'octo ex nervis constructum', '(decimamquintam hodie vocant)'; the list of δὶς διὰ τεσσάρων, δὶς διὰ πέντε, δὶς διὰ πασῶν is condensed into 'ex his ipsis composita'."
+   },
+   {
+    "block": "para 5",
+    "units": [
+     "U052"
+    ],
+    "text": "Inter systemata proinde, ac in medio eorum concepta intervalla hoc interest, quod systematum omnis constitutio in materia spectatur: cogitatione autem separata materia, intervalla intelliguntur."
+   },
+   {
+    "block": "para 5",
+    "units": [
+     "U053"
+    ],
+    "text": "Harmoniae proprium est, ut ea systemata construat atque concinnet ad horum melodiae (eam cantus seu cantilenae modulationem fere dixeris) generum aliquod, quae sunt diatonon, chromaticum, et harmonicum, cui ab ipsa Harmonia nomen obtigit.",
+    "note": "'(eam cantus seu cantilenae modulationem fere dixeris)' is the translator's gloss on 'melodiae'."
+   },
+   {
+    "block": "para 5",
+    "units": [
+     "U054"
+    ],
+    "text": "Nam siquidem harmonia ipsa seu consonantiarum coaptatio potissimum per tonos progrediatur, eo modo diatonicum conficitur genus melodiae: sin per semitonia, chromaticum, quasi coloratum dicas: sin ipsa harmonia diesibus maiore sui parte absolvatur, harmonicus eo modo cantus conflatur.",
+    "note": "'seu consonantiarum coaptatio' and 'quasi coloratum dicas' are the translator's glosses."
+   },
+   {
+    "block": "para 5",
+    "units": [
+     "U055"
+    ],
+    "text": "Neque tamen aut solis ex tonis universa harmonia componitur, aut ex solis semitoniis, solisve diesibus: id enim fieri nequit."
+   },
+   {
+    "block": "para 5",
+    "units": [
+     "U056"
+    ],
+    "text": "Sed quoniam quidem tribus ex intervallis constat diatessaron, comprehensum videlicet duobus tonis et semitonio: in harmoniam coaptatis duobus tonis, opus est reliquum semitonio perfici."
+   },
+   {
+    "block": "para 5",
+    "units": [
+     "U057"
+    ],
+    "text": "hocque genus diatessaron, diatonicum vocatur: quanquam ad eius constitutionem, praeter duos tonos, semitonium quoque accesserit.",
+    "note": "ἐξ ἡμιτονίου καὶ δύο ἀπαρτιζόμενον τόνων rendered freely as a concessive clause ('quanquam ... accesserit')."
+   },
+   {
+    "block": "para 5",
+    "units": [
+     "U058"
+    ],
+    "text": "Iam si duo sint semitonia, quod superest, ex coalitu utique conflatur intervallum, trisemitonium incompositum:"
+   },
+   {
+    "block": "para 5",
+    "units": [
+     "U058",
+     "U059"
+    ],
+    "text": "atque ita ex duobus semitoniis et trisemitonio confundetur genus diatessaron, quod Chromaticum vocatur, ad movendos affectus et luctum ciendum efficacius.",
+    "note": "Merged: the end of U058 (ἐξ ἡμιτονίων δύο καὶ τριημιτονίου συγκεκραμένον) becomes the predicate 'ex duobus semitoniis et trisemitonio confundetur' of U059's subject 'genus diatessaron ... Chromaticum'; one clause, cannot be separated. The comparison τοῦ προτέρου is not rendered."
+   },
+   {
+    "block": "para 5",
+    "units": [
+     "U060"
+    ],
+    "text": "Sin melodia per duas dieses procedat, alterum intervallorum erit ditonus ex coalitu: idque genus diatessaron, Harmonicum dicetur, quod eo quia sit optimum, a communi harmoniae vocabulo nomen invenit."
+   },
+   {
+    "block": "para 5",
+    "units": [
+     "U061"
+    ],
+    "text": "Neque alia ratione etiam ab harmonia reliqua systematum genera conficiuntur."
+   },
+   {
+    "block": "para 5",
+    "units": [
+     "U062"
+    ],
+    "text": "Verum quia exemplo tetrachordi ostendimus, quomodo intervalla ipsa inter se contexerentur, facile studiosus lector etiam de reliquis systematibus coniecturam faciet."
+   },
+   {
+    "block": "para 5",
+    "units": [
+     "U063"
+    ],
+    "text": "Sane ad cantum difficilime omnium genus melodiae harmonicum applicari potest, multumque ea res usum ad consuetudinem requirit: quare neque in usum fere venit."
+   },
+   {
+    "block": "para 5",
+    "units": [
+     "U064"
+    ],
+    "text": "Contra diatonicum simplex est, egregium, naturaeque aptum: quo factum est, ut Plato quoque id receperit."
+   },
+   {
+    "block": "para 5",
+    "units": [
+     "U065"
+    ],
+    "text": "Verum horum praeterea unumquodque variatur, inque haud paucas cantuum divisiones, differentias atque species diducitur. Modo enim Lydia, modo Phrygia, mox etiam Dorica cantilena concinnatur: ad quarum unamquamque Paean, Hymenaeus, Exodius, et alia quaecunque melodiarum genera aptantur."
+   },
+   {
+    "block": "para 5",
+    "units": [
+     "U066"
+    ],
+    "text": "Neque enim sola intervallorum mutatione, aut eorum discrimine, sed praeterea etiam obliquioribus aut celerioribus transitibus, mansionibus, fluxibus, tum tactuum ipsorum pulsationumque variis administrationibus, innumera, atque plane varia cantilenarum genera comparantur."
+   },
+   {
+    "block": "closing",
+    "units": [
+     "U067"
+    ],
+    "text": "Finis Musicae."
+   }
+  ],
+  "not_translated": [],
+  "aligner_remarks": "I made the cuts with a script and checked them with it too. In every block, the segments joined with single spaces give back the block text exactly. No only_in_P unit is assigned (U028-U032, U042-U044 and U050 have no Latin counterpart, as expected). Every other unit has a Latin counterpart, so not_translated is empty. Xylander's headings are not separate blocks, and he adds no passage of his own long enough to need units []. His additions are glosses woven into translated clauses, and the notes list them. Only one segment carries two units: U058 and U059 are merged in 'atque ita ... efficacius'. In U026, 'compositae' stands where the Greek has ἀσύνθετα.json",
+  "checker_summary": "I checked every segment and every cut against the Greek units and Xylander's blocks, and found no real errors. Each cut falls where the Latin moves from one Greek unit to the next. Several of the connectives that open a new unit match the Greek closely: 'Quod nisi fiat' for εἰ γὰρ μή (U013), 'Quamvis enim' for εἰ γὰρ καί (U019), 'Ad haec' for αὐτίκα (U023), 'Ergo' for τοιγαροῦν (U047), 'hocque genus' for καὶ τοῦτ' ἂν εἴη (U057). The sentence 'At Geometriae hoc factu non est difficile' is correctly left in U023, and 'nam Geometer' correctly opens U024. U047 and U048: 'Ergo ... respiciendum. eo enim tandem modo sesquialterum erit,' all renders κρίνεται ἡμιόλιος, so cutting before 'quod idem de reliquis existimandum est' (U048) is right. U058 and U059: 'ex duobus semitoniis et trisemitonio confundetur genus diatessaron, quod Chromaticum vocatur' is a single clause. The end of U058 has become the verb and its complement, and U059 supplies the subject, so merging the two is justified. The only alternative would be to cut between the verb and its subject. The units marked only_in_P are absent from the Latin. Nothing stands between 'edita' (U027) and 'Praeter haec' (U033), so U028–U032 are missing. 'viginti quatuor' (U041) runs straight into 'At enim scire' (U045), so U042–U044 are missing. 'spiritus' (U049) runs straight into 'Porro systematum' (U051), so U050 is missing. Every other unit appears in the Latin, so not_translated is rightly empty. One limitation: I did not rerun the join check on the segment texts myself. I compared them with the blocks by eye, especially at the boundaries."
+ },
+ "vinet": {
+  "segments": [
+   {
+    "block": "title",
+    "units": [
+     "U001"
+    ],
+    "text": "Michaelis Pselli Musica.",
+    "note": "Free rendering of the Greek title: 'Musica' stands for Τῆς μουσικῆς; σύνοψις ἠκριβωμένη is not rendered, and the attribution to Michael Psellus is added by the translator."
+   },
+   {
+    "block": "chapter I",
+    "units": [],
+    "text": "Caput I. De Musica in commune.",
+    "note": "Chapter heading added by the translator (Vinet's own division); no counterpart in the Greek."
+   },
+   {
+    "block": "I.1",
+    "units": [
+     "U002"
+    ],
+    "text": "Musica Universitatem contineri veteres dixerunt. Rerum enim naturalium nulla est, quae vacet symmetria, et proportione:",
+    "note": "τῶν ὄντων rendered narrowly as 'rerum naturalium'."
+   },
+   {
+    "block": "I.1",
+    "units": [
+     "U003"
+    ],
+    "text": "quinimo eorum quae fiunt, si quid non cum apta symmetria et proportione efficitur, nunquam pulchre factum fuerit, sive artis id opus sit, sive naturae: sive sensu id percipiatur aliquo, sive sola mente comprehendi possit."
+   },
+   {
+    "block": "I.1",
+    "units": [
+     "U004"
+    ],
+    "text": "Musica autem est ipsa per se symmetria et proportio, ipsaque adeo Universitas, utpote quae universitatis harmonia est ac convenientia."
+   },
+   {
+    "block": "I.1",
+    "units": [
+     "U005"
+    ],
+    "text": "Quin et Deum ipsum quoque non inepte fortasse tum sui ipsius, tum universitatis convenientiam dixeris: in quo ita apte consistit universitas, ut perpulchre optimeque habere conspiciatur:"
+   },
+   {
+    "block": "I.1",
+    "units": [
+     "U006"
+    ],
+    "text": "tanta dignam admiratione Musicam existimarunt."
+   },
+   {
+    "block": "I.1",
+    "units": [
+     "U007"
+    ],
+    "text": "Musica itaque in rebus ad hunc modum omnibus deprehenditur, omnia componit ornatque, et voluptatem quidem sensui, convenientiam vero naturae, et beatitudinem menti praestat.",
+    "note": "The Greek genitive absolute of U007 is turned into an independent sentence; the main clause of U007 follows in block I.2."
+   },
+   {
+    "block": "I.2",
+    "units": [
+     "U007"
+    ],
+    "text": "Nos autem hic de Musica illa, quam sensus aut potius sensuum unus auditus, percipit contemplaturque, breviter disceptabimus.",
+    "note": "Continues U007 (main clause περὶ τῆς ἐν αἰσθήσει μουσικῆς ... διαληψόμεθα), set by the translator as a separate paragraph."
+   },
+   {
+    "block": "chapter II",
+    "units": [],
+    "text": "Caput II. De Soni natura, et variis appellationibus.",
+    "note": "Chapter heading added by the translator (Vinet's own division); no counterpart in the Greek."
+   },
+   {
+    "block": "II.1",
+    "units": [
+     "U008"
+    ],
+    "text": "Sonus est vocis intervallo carentis conveniens intensio."
+   },
+   {
+    "block": "II.1",
+    "units": [
+     "U009"
+    ],
+    "text": "Intervallum, quaedam sonorum inter se habitudo."
+   },
+   {
+    "block": "II.1",
+    "units": [
+     "U010"
+    ],
+    "text": "Systema, quaedam intervallorum complexio."
+   },
+   {
+    "block": "II.1",
+    "units": [
+     "U011"
+    ],
+    "text": "Harmonia, systematum compositio."
+   },
+   {
+    "block": "II.1",
+    "units": [
+     "U012"
+    ],
+    "text": "Sonus itaque intervallo dimensioneque vacat, ut punctum in Geometria. Conveniens vero dicitur, quod ita efferri oportet, ut cum alio sono convenire possit,",
+    "note": "'dimensioneque' is a translator's doublet added to 'intervallo'."
+   },
+   {
+    "block": "II.1",
+    "units": [
+     "U013"
+    ],
+    "text": "quoniam nisi sic elatus sit, absurdus et absonus sonus est, non conveniens: imo vero ne sonus quidem omnino vocandus, sed crepitus quidam temere editus, et ad convenientiam concentumque ineptus."
+   },
+   {
+    "block": "II.2",
+    "units": [
+     "U014"
+    ],
+    "text": "Porro autem sonorum appellationes variae sunt, qui ut a gravi ad acutum ordine progrediuntur, sic nominari solent, Proslambanomenos, Hypate hypaton, Parhypate hypaton, Hypate diatonos, Hypate meson, Parhypate meson, Diatonos meson, Mese solum, Paramese, Trite diezeugmene, Diatonos diezeugmene, Nete diezeugmene, Trite hyperbolaeon, Diatonos hyperbolaeon, Nete hyperbolaeon.",
+    "note": "The list has fifteen names including 'Diatonos meson', i.e. the item ⟨μέσων διάτονος⟩ that the Greek unit gives only as an editorial supplement."
+   },
+   {
+    "block": "II.3",
+    "units": [
+     "U015"
+    ],
+    "text": "Ex his conficitur, quod in Pentekaedecachordo est Heckaedecachordum: quando finis Octachordi, principium deinceps continuo sequentibus constituitur."
+   },
+   {
+    "block": "II.3",
+    "units": [
+     "U016"
+    ],
+    "text": "Quam enim rationem primus sonus ad octavum habere cernitur, eandem et octavus quoque ipse ad quindecimum habet."
+   },
+   {
+    "block": "II.3",
+    "units": [
+     "U017"
+    ],
+    "text": "Atque de sonis quidem hactenus."
+   },
+   {
+    "block": "chapter III",
+    "units": [],
+    "text": "Caput III. De intervallis.",
+    "note": "Chapter heading added by the translator (Vinet's own division); no counterpart in the Greek."
+   },
+   {
+    "block": "III.1",
+    "units": [
+     "U018"
+    ],
+    "text": "Iam vero intervallorum minimum quidem est Diesis. Deinde hemitonium, quod Diesi duplo acutius est: Postremo Tonus, ex duobus constans hemitoniis: cuius quidem intervalli ratio sesquioctava est, quomodo novem numerus ad octo habet: ut sit Hemitonium, veluti octo cum semisse: et Diesis, ut, octo cum quadrante:"
+   },
+   {
+    "block": "III.1",
+    "units": [
+     "U019"
+    ],
+    "text": "quandoquidem licet monas non possit dividi per numeros, illa tamen geometrico modo dividi potest, ubi in materia consideratur."
+   },
+   {
+    "block": "III.1",
+    "units": [
+     "U020"
+    ],
+    "text": "Chordam enim, quae sesquioctavam continet rationem, potes partiri in semisesquioctavam, quod hemitonium est: et eandem rursus dividere in diesin:"
+   },
+   {
+    "block": "III.1",
+    "units": [
+     "U021"
+    ],
+    "text": "quoniam Geometria tum minorem a maiore omni modo abscindit lineam, tum minori addit maiorem: indeque fit, ut quaelibet figura augeri quantumvis et minui possit."
+   },
+   {
+    "block": "III.2",
+    "units": [
+     "U022"
+    ],
+    "text": "Arithmetica vero id facere nequit:"
+   },
+   {
+    "block": "III.2",
+    "units": [
+     "U023"
+    ],
+    "text": "haec enim datum quadratum distribuere in quadrata aequalia non potest, nec duplicare datum. Sedecim namque numerum quadratum, neque in paria dividi quadrata est possibile (octo enim quadrari non possunt) neque in quadratum aliud duplicari: quoniam triginta duo numerus quadrari nullo modo potest.",
+    "note": "U023 continues into block III.3 (its last clause τῇ γεωμετρίᾳ δὲ τοῦτο ῥᾴδιον)."
+   },
+   {
+    "block": "III.3",
+    "units": [
+     "U023"
+    ],
+    "text": "At Geometriae facillimum hoc:",
+    "note": "Final clause of U023 (τῇ γεωμετρίᾳ δὲ τοῦτο ῥᾴδιον), placed by the translator at the head of a new paragraph."
+   },
+   {
+    "block": "III.3",
+    "units": [
+     "U024"
+    ],
+    "text": "Quadrati enim latus Geometra si in diametrum traduxerit, et ei quadratum circumiecerit diametro, dimidium dati quadrati habebit, atque ex quadrati dimetiente rursus si latus Geometra effecerit, datum duplicaverit quadratum."
+   },
+   {
+    "block": "III.3",
+    "units": [
+     "U025"
+    ],
+    "text": "Ad hunc sane modum et sesquioctava toni ratio in hemitonium dividitur, rursusque in diesin."
+   },
+   {
+    "block": "III.4",
+    "units": [
+     "U026"
+    ],
+    "text": "Horum autem adauctu, alia quoque simplicia intervalla fiunt, Tridiesis, Trihemitonium, Ditonium, et Tritonium; et ut volueris, et rythmus tulerit, quomodo ex sequentibus cognoscetur."
+   },
+   {
+    "block": "III.4",
+    "units": [
+     "U027"
+    ],
+    "text": "Simplicia autem ideo dicta sunt, quod veluti unum ex coniunctis confusisque tribus diesibus, seu tribus hemitoniis seu multis etiam tonis conficiatur melos, quod licet multorum vim habeat intervallorum, tamen per unicum resonet intervallum.",
+    "note": "The following units U028-U032 (only in P) have no Latin counterpart, as expected."
+   },
+   {
+    "block": "III.5",
+    "units": [
+     "U033"
+    ],
+    "text": "Caeterum alia praeter illa sunt intervalla, Dia-tessaron, Dia-pente, et Dia-pason nuncupata:"
+   },
+   {
+    "block": "III.5",
+    "units": [
+     "U034"
+    ],
+    "text": "sed haec non sine medio, neque non-composita sunt, quando per media omnia supradicta intervalla incedunt: quae ratione quidem vocis primi soni ad ultimum, intervalla appellantur: sed a numero tamen ordineque, qui in medio sunt, sonorum, haec nomina receperunt: Dia-tessaron, ut quod per quatuor: Dia-pente, per quinque: Dia-pason per octo sonos aut chordas ingrediatur termineturque.",
+    "note": "The closing list is compressed: εἴτ’ οὖν χορδῶν is moved to the end ('per octo sonos aut chordas') and the three participles διοδεῦον καὶ περαινόμενον / τελούμενον / τελειούμενον are merged into 'ingrediatur termineturque'."
+   },
+   {
+    "block": "III.5",
+    "units": [
+     "U035"
+    ],
+    "text": "Dia-pason autem per octo dicitur, tanquam in Octachordo intervallis omnibus comprehensis completisque, et hinc rursus repetitis, quemadmodum ex ipsa liquet appellationum ratione. Nam Dia-pason cum Dia-tessaron, et Dia-pason cum Dia-pente, et bis Dia-pason posteriora intervalla vocantur.",
+    "note": "δίς + interval rendered as octave plus that interval ('Dia-pason cum ...'), i.e. Vinet takes the 'double fourth/fifth' as the compound 11th/12th, consistent with the Greek examples in U037."
+   },
+   {
+    "block": "III.6",
+    "units": [
+     "U036"
+    ],
+    "text": "Consonat autem intervallum Dia-tessaron, et Dia-pente secundum paraphonum: Dia-pason vero, et Dia-pason cum Dia-tessaron, et Dia-pason cum Dia-pente, et bis Dia-pason secundum antiphonum.",
+    "note": "δίς + interval rendered as octave plus that interval ('Dia-pason cum ...'), i.e. Vinet takes the 'double fourth/fifth' as the compound 11th/12th, consistent with the Greek examples in U037."
+   },
+   {
+    "block": "III.7",
+    "units": [
+     "U037"
+    ],
+    "text": "Differunt autem inter se Paraphonum et antiphonum, quod Paraphonum impari temporis spatio consonat, leniter quodammodo et apposite excipientibus inter se sonis, secundum proportiones et rationes aequabiliter: antiphonum vero aequo convenit temporis spacio, acuto cum gravi pariter consonante, ut octavo cum primo, undecimo cum quarto, duodecimo cum quinto, quintodecimo cum octavo, gravibus nimirum una cum acutis, aut acutis cum gravibus peraequa proportione simul ascendentibus vel descendentibus, in intensionibus remissionibusve."
+   },
+   {
+    "block": "III.8",
+    "units": [
+     "U038"
+    ],
+    "text": "Porro tonus et hemitonium et diesis per se ipsa considerata, principium quidem consonantiae sunt, sed nondum tamen consonantia."
+   },
+   {
+    "block": "III.9",
+    "units": [
+     "U039"
+    ],
+    "text": "Conficitur autem Dia-tessaron duobus tonis et hemitonio et modica praeterea toni parte, quae diesi minor, nomine vacat: Dia-pente vero tribus tonis et hemitonio: et Dia-pason sex tonis: ac Dia-pason cum Dia-tessaron, tonis octo et hemitonio: Dia-pason cum Dia-pente, novem tonis et hemitonio: bis Dia-pason tonis duodecim.",
+    "note": "διὰ πασῶν καὶ δὶς διὰ τεσσάρων / καὶ δὶς διὰ πέντε rendered 'Dia-pason cum Dia-tessaron / cum Dia-pente' (δίς not rendered)."
+   },
+   {
+    "block": "III.10",
+    "units": [
+     "U040"
+    ],
+    "text": "Ratio autem intervalli Dia-tessaron, est sesquitertia: Dia-pente, sesquialtera: Dia-pason, duplex: Dia-pason cum Dia-tessaron duplex-superpartiens: Dia-pason cum Dia-pente, triplex:"
+   },
+   {
+    "block": "III.10",
+    "units": [],
+    "text": "Bis Dia-pason, quadruplex:",
+    "note": "Translator's addition: the Greek list of ratios (U040) ends with the triple ratio and gives none for δὶς διὰ πασῶν; Vinet supplies 'quadruplex' from the numerical example (τετραπλάσιος, U041)."
+   },
+   {
+    "block": "III.10",
+    "units": [
+     "U041"
+    ],
+    "text": "ut exempli gratia in numeris, primus proponatur nobis terminus, numerus sex, cuius sesquitertius est plane octo: sesquialter, novem: duplex, duodecim: duplex-superpartiens, sedecim, sex bis continens, et duas eius partes: triplex, octodecim: quadruplex, viginti quatuor."
+   },
+   {
+    "block": "III.11",
+    "units": [
+     "U045"
+    ],
+    "text": "Verumtamen sciendum, rationes intervallorum, non ex sonorum, aut ex chordarum numero iudicari; sed ex intentione vocis a gravi ad acutius:",
+    "note": "The preceding units U042-U044 (only in P) have no Latin counterpart, as expected."
+   },
+   {
+    "block": "III.11",
+    "units": [
+     "U046"
+    ],
+    "text": "quandoquidem intervallum Dia-pente, cuius est ratio sesquialtera, sesquialterum minime videtur ex ratione numeri sonorum, quo numero superat sonos, qui ipsum praecedunt. Nam primi soni quincuplex invenitur: secundi vero, duplum sesquialterum: tertii, superpartiens: quarti, sesquiquartum: nullius vero sesquialterum demonstrari potest.",
+    "note": "ἐπιδιμερής rendered loosely as 'superpartiens'."
+   },
+   {
+    "block": "III.11",
+    "units": [
+     "U047"
+    ],
+    "text": "Ab intensione itaque acuti, non a sonorum numero, sesquialterum censetur."
+   },
+   {
+    "block": "III.11",
+    "units": [
+     "U048"
+    ],
+    "text": "Idem autem et in reliquis quoque rationibus nobis licebit considerare."
+   },
+   {
+    "block": "III.12",
+    "units": [
+     "U049"
+    ],
+    "text": "Inventae autem hae sunt intervallorum rationes et deprehensae, ex dispari chordarum vel longitudine vel crassitudine: vel ea, quae per torsionem claviculorum fit, intensione; aut, quod compertum magis, ex ponderum e nervis appensione: In iis vero quae inflata sonant, aut ex fistularum amplitudine, aut ex intensione spiritus ac remissione.",
+    "note": "The following unit U050 (only in P) has no Latin counterpart, as expected."
+   },
+   {
+    "block": "chapter IV",
+    "units": [],
+    "text": "Caput IV. De Systematis.",
+    "note": "Chapter heading added by the translator (Vinet's own division); no counterpart in the Greek."
+   },
+   {
+    "block": "IV.1",
+    "units": [
+     "U051"
+    ],
+    "text": "Systematum autem hoc quidem Tetrachordum est, quod omnes intervalli Dia-tessaron continet facultates: aliud vero Pentachordum, quod intervalli Dia-pente facultates complectitur: aliud Octachordum, quod totam intervalli Dia-pason vim continet: aliud deinceps Heckaedecachordum, bis Dia-pason universam comprehendens intensionem, duplicesque habens facultates: eas enim, quas modo diximus, atque intervallorum Dia-pason Dia-tessaron, et Dia-pason Dia-pente, et bis Dia-pason facultates in se continet.",
+    "note": "δὶς διὰ τεσσάρων / δὶς διὰ πέντε rendered 'Dia-pason Dia-tessaron / Dia-pason Dia-pente' (octave plus fourth/fifth)."
+   },
+   {
+    "block": "IV.2",
+    "units": [
+     "U052"
+    ],
+    "text": "Differunt autem Systemata ab intervallis quae in ipsis sunt, quod illa in materia consistunt: intervalla vero a materia abstracta consideramus."
+   },
+   {
+    "block": "chapter V",
+    "units": [],
+    "text": "Caput V. De Harmonia.",
+    "note": "Chapter heading added by the translator (Vinet's own division); no counterpart in the Greek. The Greek runs on from U052 to U053 without a break."
+   },
+   {
+    "block": "V.1",
+    "units": [
+     "U053"
+    ],
+    "text": "Harmoniae porro proprium est Systemata illa componere aptareque ad aliquod genus modulationis, ut ad Diatonon, ad Chromaticon, et ad id quod ab ipsa harmonia cognominatum, Harmonicum dicimus."
+   },
+   {
+    "block": "V.1",
+    "units": [
+     "U054"
+    ],
+    "text": "Si igitur tonis plurimum harmonia peragitur, Diatonon sic vocatum efficitur genus: si Hemitoniis, Chromaticum: si vero diesibus fere harmonia continetur, conficitur, quam Harmonicam appellant modulationem."
+   },
+   {
+    "block": "V.2",
+    "units": [
+     "U055"
+    ],
+    "text": "Verumenimvero neque omnino tonis, quae ad Harmoniam pertinent, efferuntur, neque hemitoniis omnino, neque omnino diesibus: hoc enim fieri non potest:"
+   },
+   {
+    "block": "V.2",
+    "units": [
+     "U056"
+    ],
+    "text": "quinimo, quoniam ex tribus intervallis Dia-tessaron intervallum confectum est, duobusque tonis et hemitonio comprehensum, necesse est, postquam duo prima intervalla imposueris, reliquum esse Hemitonium:",
+    "note": "δύο τονιαίων διαστημάτων rendered 'duo prima intervalla' (the first two intervals), not 'two tone intervals'."
+   },
+   {
+    "block": "V.2",
+    "units": [
+     "U057"
+    ],
+    "text": "atque hoc fuerit Dia-tessaron Diatonon cognominatum genus, ex Hemitonio et tonis constans duobus."
+   },
+   {
+    "block": "V.2",
+    "units": [
+     "U058"
+    ],
+    "text": "Si vero duo sint hemitonia, reliquum fuerit unum ex confusione intervallum, Trihemitonium simplex:"
+   },
+   {
+    "block": "V.2",
+    "units": [
+     "U058",
+     "U059"
+    ],
+    "text": "eritque id Dia-tessaron genus Chromaticum, ex Hemitoniis duobus et Trihemitonio temperatum, quod priore moestius luctuosiusque est.",
+    "note": "Reordering: the participial phrase closing U058 (ἐξ ἡμιτονίων δύο καὶ τριημιτονίου συγκεκραμένον) is construed with the genus of U059 and inserted inside its sentence ('ex Hemitoniis duobus et Trihemitonio temperatum'), between 'genus Chromaticum' and 'quod priore moestius luctuosiusque est'; it cannot be separated without breaking U059's clause."
+   },
+   {
+    "block": "V.2",
+    "units": [
+     "U060"
+    ],
+    "text": "Si vero per duas dieses modulatio peragatur, quod reliquum est intervallum, erit unum ditonium ex confusione, ac Dia-tessaron hoc genus Harmonicum nominatur, quod sit optimum, ab ipsa communi omnium harmonia cognominatum."
+   },
+   {
+    "block": "V.3",
+    "units": [
+     "U061"
+    ],
+    "text": "Eodem modo et caetera quoque systemata constituit harmonia, temperatque."
+   },
+   {
+    "block": "V.3",
+    "units": [
+     "U062"
+    ],
+    "text": "Ex proposito enim exemplo, quo ostensum in uno tetrachordo, quomodo intervalla intervalli Dia-tessaron constituantur, facile studiosus alia systemata quomodo componantur, assequi poterit."
+   },
+   {
+    "block": "V.4",
+    "units": [
+     "U063"
+    ],
+    "text": "Genus autem Harmonicum est modulatu difficillimum, meditatione multa exercitationeque indigens: unde eius est usus rarior."
+   },
+   {
+    "block": "V.4",
+    "units": [
+     "U064"
+    ],
+    "text": "Diatonum vero est simplum et generosum et magis naturale: quare id et Plato admittit."
+   },
+   {
+    "block": "V.5",
+    "units": [
+     "U065"
+    ],
+    "text": "Horum autem unumquodque rursus variatur, et in multas divisiones et differentias et genera modulationum distribuitur: et modo Lydius, modo Phrygius, modo Dorius appellatur modulus: a quorum quolibet Paeeon, Hymenaeus, Exodius, et quotquot sunt modulationum genera, existunt."
+   },
+   {
+    "block": "V.5",
+    "units": [
+     "U066"
+    ],
+    "text": "Non enim sola intervallorum mutatione, neque sola eorum differentia: sed etiam lentioribus, et concitatis transitionibus, pausis quoque et fluxibus, atque variis tactibus pulsibusque, pro vario manus temperamento, infinitae et diversae modulationes conficiuntur."
+   },
+   {
+    "block": "closing",
+    "units": [
+     "U067"
+    ],
+    "text": "Finis Musicae."
+   }
+  ],
+  "not_translated": [],
+  "aligner_remarks": "The text is split into 66 segments across all 43 blocks. A script checked the cuts: every segment is an exact slice of its block, every cut falls on a space, the segments rejoin to each block's text exactly, and unit order never goes backwards. Every Greek unit not marked only_in_P has a Latin counterpart, so not_translated is empty, and none of the P-only units (U028-U032, U042-U044, U050) appear. Segments with no Greek counterpart (units []): the five chapter headings, and 'Bis Dia-pason, quadruplex:' in III.10, which Vinet added to the list of ratios. Two units run across a block boundary: U007 (I.1/I.2) and U023 (III.2/III.3). One segment combines two units: in V.2, U058's closing participial phrase is placed inside U059's sentence, so that segment is [U058, U059]. The title takes U001 even though Vinet's title replaces the Greek one (Psellus attribution added). Points worth checking, flagged in the notes: II.2 includes 'Diatonos meson', which matches the bracketed supplement ⟨μέσων διάτονος⟩ in U014. δίς + interval is consistently rendered 'Dia-pason cum ...' (octave plus that interval). U056 has 'duo prima intervalla' where the Greek has δύο τονιαίων διαστημάτων. Only the two assigned input files were read; the other files in latin-align/ were not opened.py in the same folder).",
+  "checker_summary": "I found no errors. I checked all 66 segments against the Greek and the Latin. Each segment matches the units it is given, and each cut falls where Vinet moves from one Greek unit to the next. U007 correctly runs from I.1 into I.2: the genitive absolute becomes a separate sentence, and the main clause starts the next paragraph. U023 correctly runs from III.2 into III.3, with \"At Geometriae facillimum hoc:\" heading the new paragraph. Merging U058 and U059 in V.2 is justified. Vinet places U058's closing phrase \"ex Hemitoniis duobus et Trihemitonio temperatum\" inside U059's sentence, between \"genus Chromaticum\" and \"quod priore moestius...\". Any split would put U059 before U058, so the units would go backwards. Two segments are correctly left without a Greek unit. The five chapter headings are Vinet's own division. \"Bis Dia-pason, quadruplex:\" in III.10 is his addition, since U040's list of ratios ends with τριπλάσιος. The P-only units have no Latin counterpart: III.4 ends with U027 and III.5 opens with U033 (\"Caeterum alia praeter illa\"); III.11 opens with U045; III.12 ends with U049 and is followed by the Chapter IV heading. not_translated is rightly empty. The notes are accurate: the 15 note names include Diatonos meson, which matches ⟨μέσων διάτονος⟩; 'dimensioneque' is a translator's doublet; 'superpartiens' renders ἐπιδιμερής; 'duo prima intervalla' renders δύο τονιαίων διαστημάτων. I spot-checked 6 blocks with a script (title, chapter I, I.1, I.2, III.10, V.2) and they rejoin exactly; the other blocks I checked by eye."
+ }
+}

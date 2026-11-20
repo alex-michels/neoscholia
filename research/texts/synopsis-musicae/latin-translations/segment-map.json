@@ -1,0 +1,863 @@
+{
+ "note": "segment id -> units of the Greek text (alignment.json); not given to the translators",
+ "segments": [
+  {
+   "id": "X01",
+   "units": [
+    "U001"
+   ],
+   "note": ""
+  },
+  {
+   "id": "X02",
+   "units": [
+    "U002"
+   ],
+   "note": ""
+  },
+  {
+   "id": "X03",
+   "units": [
+    "U003"
+   ],
+   "note": ""
+  },
+  {
+   "id": "X04",
+   "units": [
+    "U004"
+   ],
+   "note": ""
+  },
+  {
+   "id": "X05",
+   "units": [
+    "U005"
+   ],
+   "note": ""
+  },
+  {
+   "id": "X06",
+   "units": [
+    "U006"
+   ],
+   "note": ""
+  },
+  {
+   "id": "X07",
+   "units": [
+    "U007"
+   ],
+   "note": "'(harmoniam dico)' is the translator's gloss on 'congruentiam'."
+  },
+  {
+   "id": "X08",
+   "units": [
+    "U008"
+   ],
+   "note": ""
+  },
+  {
+   "id": "X09",
+   "units": [
+    "U009"
+   ],
+   "note": ""
+  },
+  {
+   "id": "X10",
+   "units": [
+    "U010"
+   ],
+   "note": ""
+  },
+  {
+   "id": "X11",
+   "units": [
+    "U011"
+   ],
+   "note": ""
+  },
+  {
+   "id": "X12",
+   "units": [
+    "U012"
+   ],
+   "note": ""
+  },
+  {
+   "id": "X13",
+   "units": [
+    "U013"
+   ],
+   "note": ""
+  },
+  {
+   "id": "X14",
+   "units": [
+    "U014"
+   ],
+   "note": "'diatonos meson' corresponds to the supplement ⟨μέσων διάτονος⟩ in the Greek."
+  },
+  {
+   "id": "X15",
+   "units": [
+    "U015"
+   ],
+   "note": "Contains the translator's glosses 'hoc est, sedecim chordarum instrumentum' and '(Pentecaedecachordum vocant Graeci)', woven into the clause."
+  },
+  {
+   "id": "X16",
+   "units": [
+    "U016"
+   ],
+   "note": ""
+  },
+  {
+   "id": "X17",
+   "units": [
+    "U017"
+   ],
+   "note": ""
+  },
+  {
+   "id": "X18",
+   "units": [
+    "U018"
+   ],
+   "note": ""
+  },
+  {
+   "id": "X19",
+   "units": [
+    "U019"
+   ],
+   "note": ""
+  },
+  {
+   "id": "X20",
+   "units": [
+    "U020"
+   ],
+   "note": ""
+  },
+  {
+   "id": "X21",
+   "units": [
+    "U021"
+   ],
+   "note": ""
+  },
+  {
+   "id": "X22",
+   "units": [
+    "U022"
+   ],
+   "note": ""
+  },
+  {
+   "id": "X23",
+   "units": [
+    "U023"
+   ],
+   "note": "'Ad haec' renders αὐτίκα loosely; 'aut eius numeri dare radicem quadratam' is an explanatory addition of the translator."
+  },
+  {
+   "id": "X24",
+   "units": [
+    "U024"
+   ],
+   "note": ""
+  },
+  {
+   "id": "X25",
+   "units": [
+    "U025"
+   ],
+   "note": ""
+  },
+  {
+   "id": "X26",
+   "units": [
+    "U026"
+   ],
+   "note": "'compositae' stands where the Greek has ἀσύνθετα ('incomposite'); the next sentence ('Incomposita autem dicuntur') follows the Greek."
+  },
+  {
+   "id": "X27",
+   "units": [
+    "U027"
+   ],
+   "note": ""
+  },
+  {
+   "id": "X28",
+   "units": [
+    "U033"
+   ],
+   "note": "Contains the translator's glosses with the vernacular names: 'quartam vulgo dicunt', 'iisdem quinta est', 'quam trito vocabulo octavam nominant'."
+  },
+  {
+   "id": "X29",
+   "units": [
+    "U034"
+   ],
+   "note": "'quia per omnes, hoc est,' is the translator's addition explaining diapason."
+  },
+  {
+   "id": "X30",
+   "units": [
+    "U035"
+   ],
+   "note": "δὶς διὰ τεσσάρων / δὶς διὰ πέντε / δὶς διὰ πασῶν rendered as 'diapason cum diatessaron, diapason cum diapente, disdiapason', followed by the translator's gloss 'hoc est, octava cum quarta, octava cum quinta, et duae octavae'."
+  },
+  {
+   "id": "X31",
+   "units": [
+    "U036"
+   ],
+   "note": "Contains the translator's glosses 'quod Paraphonum Graeci dicunt, quasi iuxta sonans' and 'quod Antiphonum appellant, quasi contra sonans'."
+  },
+  {
+   "id": "X32",
+   "units": [
+    "U037"
+   ],
+   "note": "'hoc est assonans et obsonans' is the translator's gloss."
+  },
+  {
+   "id": "X33",
+   "units": [
+    "U038"
+   ],
+   "note": ""
+  },
+  {
+   "id": "X34",
+   "units": [
+    "U039"
+   ],
+   "note": ""
+  },
+  {
+   "id": "X35",
+   "units": [
+    "U040"
+   ],
+   "note": ""
+  },
+  {
+   "id": "X36",
+   "units": [
+    "U041"
+   ],
+   "note": "'Id quo melius intelligatur' is added; '(nimirum super bipartiens tertias)' replaces the Greek explanation τὸν ἕκτον δὶς ἔχων καὶ δύο μέρη αὐτοῦ."
+  },
+  {
+   "id": "X37",
+   "units": [
+    "U045"
+   ],
+   "note": ""
+  },
+  {
+   "id": "X38",
+   "units": [
+    "U046"
+   ],
+   "note": ""
+  },
+  {
+   "id": "X39",
+   "units": [
+    "U047"
+   ],
+   "note": ""
+  },
+  {
+   "id": "X40",
+   "units": [
+    "U048"
+   ],
+   "note": "The translator attaches U048 to the preceding sentence as a relative clause."
+  },
+  {
+   "id": "X41",
+   "units": [
+    "U049"
+   ],
+   "note": ""
+  },
+  {
+   "id": "X42",
+   "units": [
+    "U051"
+   ],
+   "note": "Additions of the translator: 'quod quatuor componitur nervis', 'quinque ex nervis constitutum', 'octo ex nervis constructum', '(decimamquintam hodie vocant)'; the list of δὶς διὰ τεσσάρων, δὶς διὰ πέντε, δὶς διὰ πασῶν is condensed into 'ex his ipsis composita'."
+  },
+  {
+   "id": "X43",
+   "units": [
+    "U052"
+   ],
+   "note": ""
+  },
+  {
+   "id": "X44",
+   "units": [
+    "U053"
+   ],
+   "note": "'(eam cantus seu cantilenae modulationem fere dixeris)' is the translator's gloss on 'melodiae'."
+  },
+  {
+   "id": "X45",
+   "units": [
+    "U054"
+   ],
+   "note": "'seu consonantiarum coaptatio' and 'quasi coloratum dicas' are the translator's glosses."
+  },
+  {
+   "id": "X46",
+   "units": [
+    "U055"
+   ],
+   "note": ""
+  },
+  {
+   "id": "X47",
+   "units": [
+    "U056"
+   ],
+   "note": ""
+  },
+  {
+   "id": "X48",
+   "units": [
+    "U057"
+   ],
+   "note": "ἐξ ἡμιτονίου καὶ δύο ἀπαρτιζόμενον τόνων rendered freely as a concessive clause ('quanquam ... accesserit')."
+  },
+  {
+   "id": "X49",
+   "units": [
+    "U058"
+   ],
+   "note": ""
+  },
+  {
+   "id": "X50",
+   "units": [
+    "U058",
+    "U059"
+   ],
+   "note": "Merged: the end of U058 (ἐξ ἡμιτονίων δύο καὶ τριημιτονίου συγκεκραμένον) becomes the predicate 'ex duobus semitoniis et trisemitonio confundetur' of U059's subject 'genus diatessaron ... Chromaticum'; one clause, cannot be separated. The comparison τοῦ προτέρου is not rendered."
+  },
+  {
+   "id": "X51",
+   "units": [
+    "U060"
+   ],
+   "note": ""
+  },
+  {
+   "id": "X52",
+   "units": [
+    "U061"
+   ],
+   "note": ""
+  },
+  {
+   "id": "X53",
+   "units": [
+    "U062"
+   ],
+   "note": ""
+  },
+  {
+   "id": "X54",
+   "units": [
+    "U063"
+   ],
+   "note": ""
+  },
+  {
+   "id": "X55",
+   "units": [
+    "U064"
+   ],
+   "note": ""
+  },
+  {
+   "id": "X56",
+   "units": [
+    "U065"
+   ],
+   "note": ""
+  },
+  {
+   "id": "X57",
+   "units": [
+    "U066"
+   ],
+   "note": ""
+  },
+  {
+   "id": "X58",
+   "units": [
+    "U067"
+   ],
+   "note": ""
+  },
+  {
+   "id": "V01",
+   "units": [
+    "U001"
+   ],
+   "note": "Free rendering of the Greek title: 'Musica' stands for Τῆς μουσικῆς; σύνοψις ἠκριβωμένη is not rendered, and the attribution to Michael Psellus is added by the translator."
+  },
+  {
+   "id": "V02",
+   "units": [],
+   "note": "Chapter heading added by the translator (Vinet's own division); no counterpart in the Greek."
+  },
+  {
+   "id": "V03",
+   "units": [
+    "U002"
+   ],
+   "note": "τῶν ὄντων rendered narrowly as 'rerum naturalium'."
+  },
+  {
+   "id": "V04",
+   "units": [
+    "U003"
+   ],
+   "note": ""
+  },
+  {
+   "id": "V05",
+   "units": [
+    "U004"
+   ],
+   "note": ""
+  },
+  {
+   "id": "V06",
+   "units": [
+    "U005"
+   ],
+   "note": ""
+  },
+  {
+   "id": "V07",
+   "units": [
+    "U006"
+   ],
+   "note": ""
+  },
+  {
+   "id": "V08",
+   "units": [
+    "U007"
+   ],
+   "note": "The Greek genitive absolute of U007 is turned into an independent sentence; the main clause of U007 follows in block I.2."
+  },
+  {
+   "id": "V09",
+   "units": [
+    "U007"
+   ],
+   "note": "Continues U007 (main clause περὶ τῆς ἐν αἰσθήσει μουσικῆς ... διαληψόμεθα), set by the translator as a separate paragraph."
+  },
+  {
+   "id": "V10",
+   "units": [],
+   "note": "Chapter heading added by the translator (Vinet's own division); no counterpart in the Greek."
+  },
+  {
+   "id": "V11",
+   "units": [
+    "U008"
+   ],
+   "note": ""
+  },
+  {
+   "id": "V12",
+   "units": [
+    "U009"
+   ],
+   "note": ""
+  },
+  {
+   "id": "V13",
+   "units": [
+    "U010"
+   ],
+   "note": ""
+  },
+  {
+   "id": "V14",
+   "units": [
+    "U011"
+   ],
+   "note": ""
+  },
+  {
+   "id": "V15",
+   "units": [
+    "U012"
+   ],
+   "note": "'dimensioneque' is a translator's doublet added to 'intervallo'."
+  },
+  {
+   "id": "V16",
+   "units": [
+    "U013"
+   ],
+   "note": ""
+  },
+  {
+   "id": "V17",
+   "units": [
+    "U014"
+   ],
+   "note": "The list has fifteen names including 'Diatonos meson', i.e. the item ⟨μέσων διάτονος⟩ that the Greek unit gives only as an editorial supplement."
+  },
+  {
+   "id": "V18",
+   "units": [
+    "U015"
+   ],
+   "note": ""
+  },
+  {
+   "id": "V19",
+   "units": [
+    "U016"
+   ],
+   "note": ""
+  },
+  {
+   "id": "V20",
+   "units": [
+    "U017"
+   ],
+   "note": ""
+  },
+  {
+   "id": "V21",
+   "units": [],
+   "note": "Chapter heading added by the translator (Vinet's own division); no counterpart in the Greek."
+  },
+  {
+   "id": "V22",
+   "units": [
+    "U018"
+   ],
+   "note": ""
+  },
+  {
+   "id": "V23",
+   "units": [
+    "U019"
+   ],
+   "note": ""
+  },
+  {
+   "id": "V24",
+   "units": [
+    "U020"
+   ],
+   "note": ""
+  },
+  {
+   "id": "V25",
+   "units": [
+    "U021"
+   ],
+   "note": ""
+  },
+  {
+   "id": "V26",
+   "units": [
+    "U022"
+   ],
+   "note": ""
+  },
+  {
+   "id": "V27",
+   "units": [
+    "U023"
+   ],
+   "note": "U023 continues into block III.3 (its last clause τῇ γεωμετρίᾳ δὲ τοῦτο ῥᾴδιον)."
+  },
+  {
+   "id": "V28",
+   "units": [
+    "U023"
+   ],
+   "note": "Final clause of U023 (τῇ γεωμετρίᾳ δὲ τοῦτο ῥᾴδιον), placed by the translator at the head of a new paragraph."
+  },
+  {
+   "id": "V29",
+   "units": [
+    "U024"
+   ],
+   "note": ""
+  },
+  {
+   "id": "V30",
+   "units": [
+    "U025"
+   ],
+   "note": ""
+  },
+  {
+   "id": "V31",
+   "units": [
+    "U026"
+   ],
+   "note": ""
+  },
+  {
+   "id": "V32",
+   "units": [
+    "U027"
+   ],
+   "note": "The following units U028-U032 (only in P) have no Latin counterpart, as expected."
+  },
+  {
+   "id": "V33",
+   "units": [
+    "U033"
+   ],
+   "note": ""
+  },
+  {
+   "id": "V34",
+   "units": [
+    "U034"
+   ],
+   "note": "The closing list is compressed: εἴτ’ οὖν χορδῶν is moved to the end ('per octo sonos aut chordas') and the three participles διοδεῦον καὶ περαινόμενον / τελούμενον / τελειούμενον are merged into 'ingrediatur termineturque'."
+  },
+  {
+   "id": "V35",
+   "units": [
+    "U035"
+   ],
+   "note": "δίς + interval rendered as octave plus that interval ('Dia-pason cum ...'), i.e. Vinet takes the 'double fourth/fifth' as the compound 11th/12th, consistent with the Greek examples in U037."
+  },
+  {
+   "id": "V36",
+   "units": [
+    "U036"
+   ],
+   "note": "δίς + interval rendered as octave plus that interval ('Dia-pason cum ...'), i.e. Vinet takes the 'double fourth/fifth' as the compound 11th/12th, consistent with the Greek examples in U037."
+  },
+  {
+   "id": "V37",
+   "units": [
+    "U037"
+   ],
+   "note": ""
+  },
+  {
+   "id": "V38",
+   "units": [
+    "U038"
+   ],
+   "note": ""
+  },
+  {
+   "id": "V39",
+   "units": [
+    "U039"
+   ],
+   "note": "διὰ πασῶν καὶ δὶς διὰ τεσσάρων / καὶ δὶς διὰ πέντε rendered 'Dia-pason cum Dia-tessaron / cum Dia-pente' (δίς not rendered)."
+  },
+  {
+   "id": "V40",
+   "units": [
+    "U040"
+   ],
+   "note": ""
+  },
+  {
+   "id": "V41",
+   "units": [],
+   "note": "Translator's addition: the Greek list of ratios (U040) ends with the triple ratio and gives none for δὶς διὰ πασῶν; Vinet supplies 'quadruplex' from the numerical example (τετραπλάσιος, U041)."
+  },
+  {
+   "id": "V42",
+   "units": [
+    "U041"
+   ],
+   "note": ""
+  },
+  {
+   "id": "V43",
+   "units": [
+    "U045"
+   ],
+   "note": "The preceding units U042-U044 (only in P) have no Latin counterpart, as expected."
+  },
+  {
+   "id": "V44",
+   "units": [
+    "U046"
+   ],
+   "note": "ἐπιδιμερής rendered loosely as 'superpartiens'."
+  },
+  {
+   "id": "V45",
+   "units": [
+    "U047"
+   ],
+   "note": ""
+  },
+  {
+   "id": "V46",
+   "units": [
+    "U048"
+   ],
+   "note": ""
+  },
+  {
+   "id": "V47",
+   "units": [
+    "U049"
+   ],
+   "note": "The following unit U050 (only in P) has no Latin counterpart, as expected."
+  },
+  {
+   "id": "V48",
+   "units": [],
+   "note": "Chapter heading added by the translator (Vinet's own division); no counterpart in the Greek."
+  },
+  {
+   "id": "V49",
+   "units": [
+    "U051"
+   ],
+   "note": "δὶς διὰ τεσσάρων / δὶς διὰ πέντε rendered 'Dia-pason Dia-tessaron / Dia-pason Dia-pente' (octave plus fourth/fifth)."
+  },
+  {
+   "id": "V50",
+   "units": [
+    "U052"
+   ],
+   "note": ""
+  },
+  {
+   "id": "V51",
+   "units": [],
+   "note": "Chapter heading added by the translator (Vinet's own division); no counterpart in the Greek. The Greek runs on from U052 to U053 without a break."
+  },
+  {
+   "id": "V52",
+   "units": [
+    "U053"
+   ],
+   "note": ""
+  },
+  {
+   "id": "V53",
+   "units": [
+    "U054"
+   ],
+   "note": ""
+  },
+  {
+   "id": "V54",
+   "units": [
+    "U055"
+   ],
+   "note": ""
+  },
+  {
+   "id": "V55",
+   "units": [
+    "U056"
+   ],
+   "note": "δύο τονιαίων διαστημάτων rendered 'duo prima intervalla' (the first two intervals), not 'two tone intervals'."
+  },
+  {
+   "id": "V56",
+   "units": [
+    "U057"
+   ],
+   "note": ""
+  },
+  {
+   "id": "V57",
+   "units": [
+    "U058"
+   ],
+   "note": ""
+  },
+  {
+   "id": "V58",
+   "units": [
+    "U058",
+    "U059"
+   ],
+   "note": "Reordering: the participial phrase closing U058 (ἐξ ἡμιτονίων δύο καὶ τριημιτονίου συγκεκραμένον) is construed with the genus of U059 and inserted inside its sentence ('ex Hemitoniis duobus et Trihemitonio temperatum'), between 'genus Chromaticum' and 'quod priore moestius luctuosiusque est'; it cannot be separated without breaking U059's clause."
+  },
+  {
+   "id": "V59",
+   "units": [
+    "U060"
+   ],
+   "note": ""
+  },
+  {
+   "id": "V60",
+   "units": [
+    "U061"
+   ],
+   "note": ""
+  },
+  {
+   "id": "V61",
+   "units": [
+    "U062"
+   ],
+   "note": ""
+  },
+  {
+   "id": "V62",
+   "units": [
+    "U063"
+   ],
+   "note": ""
+  },
+  {
+   "id": "V63",
+   "units": [
+    "U064"
+   ],
+   "note": ""
+  },
+  {
+   "id": "V64",
+   "units": [
+    "U065"
+   ],
+   "note": ""
+  },
+  {
+   "id": "V65",
+   "units": [
+    "U066"
+   ],
+   "note": ""
+  },
+  {
+   "id": "V66",
+   "units": [
+    "U067"
+   ],
+   "note": ""
+  }
+ ]
+}
