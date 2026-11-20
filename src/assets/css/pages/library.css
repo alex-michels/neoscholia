@@ -1,0 +1,15 @@
+/* Страница «Библиотека»: полки разделов. Полка — это запись каталога (.record) со списком текстов;
+   здесь только то, чего нет в общих компонентах. Данные полок — src/_data/sections.yaml. */
+.shelves { row-gap: var(--s7); align-items: start; }
+.shelf .scope { color: var(--ink-soft); margin-bottom: var(--s2); }
+.shelf .subhead { margin: var(--s3) 0 0; }
+.texts { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s3); }
+.texts li { display: grid; gap: .15rem; }
+.texts .t { color: var(--ink); text-decoration: none; }
+.texts a.t { text-decoration: underline; text-decoration-color: var(--rule-strong); }
+.texts a.t:hover { color: var(--rubric); }
+.texts .info { display: flex; flex-wrap: wrap; gap: .2rem .6rem; align-items: center; }
+.shelf .more { margin-top: 0; padding-top: var(--s3); }
+.future { margin-top: var(--s7); display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--s2) var(--s4); font-size: var(--fs-md); color: var(--ink-soft); }
+.future .label { font-size: var(--fs-sm); }
+.future .f { border-bottom: 1px dotted var(--rule-strong); }

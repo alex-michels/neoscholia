@@ -1,0 +1,173 @@
+{#- Страница раздела библиотеки, собираемая из данных: src/_data/catalogue/<ключ>.yaml (поля описаны в README рядом).
+    На странице: front matter с section: "<ключ>", pageType: "catalogue", crumbs; затем {% include "section-body.njk" %}.
+    Порядок блоков страницы задаёт список blocks в данных:
+      related   — «Уже в библиотеке»: тексты других разделов;
+      map       — карта корпуса по темам (уже по-русски / пробелы);
+      catalogue — каталог текстов раздела с фильтрами;
+      closing   — «Уже есть на русском» и, если есть, «Исследования раздела»;
+      { include, title, note, id } — особый блок раздела из src/_includes/sections/.
+    Опубликованные тексты раздела показываются сами — по полю card страницы текста.
+    Греческие слова в данных получают lang="grc" сами (фильтр greek); в особых блоках их размечают вручную. -#}
+{%- import "ui.njk" as ui with context -%}
+{%- set s = catalogue[section] -%}
+{%- set pages = collections.all -%}
+
+{#- Справка «метка — текст»: под вступлением или в правой колонке. -#}
+{%- macro factsBox(items) %}
+<dl class="facts">
+        {%- for f in items %}
+        <div><dt>{{ f.label | greek | safe }}</dt><dd>{{ f.text | fill(pages) | greek | safe }}</dd></div>
+        {%- endfor %}
+      </dl>
+{%- endmacro %}
+
+{#- Ячейка карты корпуса: список с отметками или фраза «закрыто».
+    Звёздочка «в плане» привязывается к названию неразрывным пробелом, чтобы не оставалась одна на строке. -#}
+{%- macro marked(items, closed) %}
+{%- if closed %}<p class="closed">{{ closed | greek | safe }}</p>{% endif %}
+{%- if items and items.length %}<ul class="marked">
+            {%- for i in items %}
+            <li>{{ ui.dot(i.dot) }}<span>{{ i.text | fill(pages) | greek | replace(' <b class="star">', '&nbsp;<b class="star">') | safe }}</span></li>
+            {%- endfor %}
+          </ul>{% endif %}
+{%- endmacro %}
+
+{#- Запись каталога. Опубликованный текст (есть href) занимает всю ширину: слева описание, справа строки «Основа», «Зачем»… -#}
+{%- macro record(c, groups) %}
+<article class="record{% if c.flag %} record--flag{% endif %}{% if c.href %} record--wide{% endif %}" data-g="{{ c.group }}" data-nowhere="{{ 1 if c.nowhere else 0 }}">
+          {%- if c.href %}
+          <div class="record-main">
+          {%- endif %}
+          <div class="record-head"><span>{% for g in groups %}{% if g.key == c.group %}{{ g.label }}{% endif %}{% endfor %}</span>
+            {%- if c.plan %}<span class="plan{% if c.planMuted %} coauth{% endif %}">{{ c.plan | fill(pages) | safe }}</span>{% endif %}</div>
+          <h3>{% if c.href %}<a href="{{ c.href }}">{{ c.title | greek | safe }}</a>{% else %}{{ c.title | greek | safe }}{% endif %}</h3>
+          {%- if c.orig %}
+          <p class="orig"{% if c.origLang %} lang="{{ c.origLang }}"{% endif %}>{{ (c.orig if c.origLang == "grc" else c.orig | greek) | safe }}</p>
+          {%- endif %}
+          {%- if c.info %}
+          <p class="info">{{ c.info | greek | safe }}</p>
+          {%- endif %}
+          {%- if c.tr %}
+          <p class="chips">{% for t in c.tr %}<span class="chip{% if t.kind %} chip--{{ t.kind }}{% endif %}">{{ (t.text if t.text else t) | fill(pages) | greek | safe }}</span>{% endfor %}</p>
+          {%- endif %}
+          {%- if c.href %}
+          </div>
+          {%- endif %}
+          {%- if c.rows %}
+          <dl>{% for r in c.rows %}<dt>{{ r[0] }}</dt><dd>{{ r[1] | greek | safe }}</dd>{% endfor %}</dl>
+          {%- endif %}
+        </article>
+{%- endmacro %}
+
+<header class="page-head page-head--split">
+      <div>
+        <h1 id="h1">{{ s.h1 | greek | safe }}</h1>
+        {%- for p in s.intro %}
+        <p>{{ p | fill(pages) | greek | safe }}</p>
+        {%- endfor %}
+        {%- if s.editor %}
+        <p class="editor">{{ s.editor | safe }}</p>
+        {%- endif %}
+        {%- if s.facts and not s.factsAside %}
+        {{ factsBox(s.facts) }}
+        {%- endif %}
+      </div>
+      {%- if s.figure %}
+      {% include s.figure %}
+      {%- elif s.factsAside %}
+      {{ factsBox(s.facts) }}
+      {%- endif %}
+    </header>
+
+    {%- set published = pages | publishedCards | inSection(page.url | replace("/", "")) %}
+    {%- if published.length %}
+
+    <section class="section" aria-labelledby="pub-h">
+      {{ ui.sectionHead("Опубликовано в разделе", "Эти тексты уже можно читать; статус показывает, насколько на них можно опираться.", "pub-h") }}
+      <div class="published">
+        {%- for c in published %}
+        {{ ui.pubCard(c) }}
+        {%- endfor %}
+      </div>
+    </section>
+    {%- endif %}
+
+    {%- for b in s.blocks %}
+    {%- if b == "related" %}
+
+    <section class="section" aria-labelledby="{{ s.related.id }}">
+      {{ ui.sectionHead(s.related.title | greek, s.related.note | greek, s.related.id) }}
+      <ul class="related">
+        {%- for r in s.related.items %}
+        <li><a href="{{ r.href }}">{{ r.title | greek | safe }}</a><span>{{ r.text | greek | safe }}</span></li>
+        {%- endfor %}
+      </ul>
+    </section>
+    {%- elif b == "map" %}
+
+    <section class="section" aria-labelledby="{{ s.map.id }}">
+      {{ ui.sectionHead(s.map.title | greek, s.map.note | greek, s.map.id) }}
+      <div class="legend" role="group" aria-label="Обозначения">
+        {%- for l in s.map.legend %}
+        <span>{% if l.star %}<b class="star">★</b>{% else %}<i class="dot {{ l.dot }}"></i>{% endif %}{{ l.text }}</span>
+        {%- endfor %}
+      </div>
+      <table class="table table--grid corpus">
+        <caption class="sr-only">{{ s.map.label }}</caption>
+        <thead><tr>{% for h in s.map.head %}<th scope="col">{{ h }}</th>{% endfor %}</tr></thead>
+        <tbody>
+          {%- for r in s.map.rows %}
+          <tr>
+            <th scope="row"{% if r.id %} id="{{ r.id }}"{% endif %}>{{ r.topic | greek | safe }}</th>
+            <td class="have"><span class="tag">{{ s.map.head[1] }}</span>{{ marked(r.have, r.haveClosed) }}</td>
+            <td class="gap"><span class="tag">{{ s.map.head[2] }}</span>{{ marked(r.gap, r.closed) }}</td>
+          </tr>
+          {%- endfor %}
+        </tbody>
+      </table>
+    </section>
+    {%- elif b == "catalogue" %}
+    {%- set cat = s.catalogue %}
+    {#- Флажок показан, только если в разделе есть тексты с пометой nowhere: иначе он всегда давал бы пустой список. #}
+    {%- set flag = { key: "nowhere", label: cat.flag } if (cat.flag and (cat.items | where("nowhere")).length) else none %}
+
+    <section class="section" aria-labelledby="{{ cat.id }}">
+      {{ ui.sectionHead(cat.title | greek, cat.note | greek, cat.id) }}
+      {{ ui.filters("#cards", [{ key: "all", label: cat.all }].concat(cat.groups), flag, cat.filterLabel, "#empty") }}
+      <div class="records" id="cards">
+        {%- for c in cat.items %}
+        {{ record(c, cat.groups) }}
+        {%- endfor %}
+      </div>
+      <p class="empty" id="empty" role="status" hidden>{{ cat.empty }}</p>
+    </section>
+    {%- elif b == "closing" %}
+
+    <section class="section{% if s.studies %} split{% endif %}"{% if s.studies %} aria-label="Что уже переведено и исследования"{% else %} aria-labelledby="ex-h"{% endif %}>
+      <div>
+        {{ ui.sectionHead(s.exists.title | greek, s.exists.note | greek, "ex-h") }}
+        <ul class="exists{% if not s.studies %} exists--cols{% endif %}">
+          {%- for e in s.exists.items %}
+          <li><span>{{ e[0] | greek | safe }}</span><span>{{ e[1] | greek | safe }}</span></li>
+          {%- endfor %}
+        </ul>
+      </div>
+      {%- if s.studies %}
+      <div>
+        {{ ui.sectionHead(s.studies.title | greek, "", "st-h") }}
+        <ul class="linklist">
+          {%- for x in s.studies.items %}
+          <li><b>{{ x.title | greek | safe }}</b><span>{{ x.note | greek | safe }}</span></li>
+          {%- endfor %}
+        </ul>
+      </div>
+      {%- endif %}
+    </section>
+    {%- elif b.include %}
+
+    <section class="section" aria-labelledby="{{ b.id }}">
+      {{ ui.sectionHead(b.title | greek, b.note | greek, b.id) }}
+      {% include b.include %}
+    </section>
+    {%- endif %}
+    {%- endfor %}

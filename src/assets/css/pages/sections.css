@@ -1,43 +1,34 @@
-/* Section pages built on music.css: the figures of "Астрономия и астрология" and "Магия и мантика"
-   and the list of related texts already in the library. */
-figure.sevens, figure.kinds { margin: 0; background: var(--panel); border: 1px solid var(--rule); padding: 1rem 1.1rem 1.1rem; }
-figure.sevens figcaption, figure.kinds figcaption { font-size: .88rem; color: var(--ink-soft); margin-bottom: .7rem; }
-figure.sevens figcaption b, figure.kinds figcaption b { color: var(--ink); font-weight: 400; }
-.planets { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 6.5rem minmax(0, 1fr) auto; }
+/* Рисунки и особые блоки разделов «Астрономия и астрология», «Магия и мантика», «Лексикография»,
+   «Образование и воспитание», «Любовь и брак» (разметка — в _includes/sections/).
+   Рамка и подпись рисунка — общий .figure. */
+
+/* ---------- семь светил: греческое имя (.g) | бог и планета (.n) | перевод имени (.r); Солнце — киноварью ---------- */
+.planets { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: 6.5rem minmax(min-content, 1fr) auto; }
 .planets li { display: contents; }
 .planets span { padding: .22rem .3rem; border-bottom: 1px solid var(--rule); }
-.planets .g { font-size: 1.05rem; }
-.planets .n { color: var(--ink); }
-.planets .r { color: var(--ink-soft); font-size: .88rem; text-align: right; }
+.planets .n { font-size: var(--fs-md); }
+.planets .r { color: var(--ink-soft); font-size: var(--fs-sm); text-align: right; }
 .planets .sun .g, .planets .sun .n { color: var(--rubric); }
-.fig-note { font-size: .86rem; color: var(--ink-soft); margin: .7rem 0 0; }
-figure.kinds { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: .3rem 1.2rem; }
-figure.kinds figcaption, figure.kinds .fig-note { grid-column: 1 / -1; }
-.kind h3 { font-family: var(--font-label); font-weight: 700; font-size: .85rem; letter-spacing: .06em; margin: 0 0 .4rem;
-  padding-bottom: .3rem; border-bottom: 2px solid var(--ink); }
-.kind h3 span { font-weight: 400; color: var(--rubric); margin-left: .3rem; }
-.kind ul { margin: 0; padding-left: 1rem; font-size: .95rem; display: grid; gap: .2rem; }
-figure.lexica { margin: 0; background: var(--panel); border: 1px solid var(--rule); padding: 1rem 1.1rem 1.1rem; }
-figure.lexica figcaption { font-size: .88rem; color: var(--ink-soft); margin-bottom: .7rem; }
-figure.lexica figcaption b { color: var(--ink); font-weight: 400; }
-.timeline { list-style: none; margin: 0; padding: 0; display: grid; gap: .55rem; border-left: 2px solid var(--rubric); }
-.timeline li { display: grid; gap: .1rem; padding-left: .8rem; position: relative; }
-.timeline li::before { content: ""; position: absolute; left: -.38rem; top: .45rem; width: .6rem; height: .6rem; border-radius: 50%; background: var(--panel); border: 2px solid var(--rubric); }
-.timeline .t { font-family: var(--font-label); font-size: .8rem; letter-spacing: .05em; color: var(--rubric); }
-.timeline .w { font-size: .93rem; }
-.related { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.2rem 2rem; }
-.related li { border-top: 3px solid var(--rubric); padding-top: .7rem; display: grid; gap: .35rem; align-content: start; }
-.related a { font-size: 1.08rem; }
-.related span { font-size: .93rem; color: var(--ink-soft); }
-@media (max-width: 860px) {
-  .related { grid-template-columns: minmax(0, 1fr); }
+
+/* ---------- два рода дивинации: две колонки со списками; латинское слово Цицерона — киноварью ---------- */
+.kinds { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--s3) var(--s5); }
+.kind-name { font-family: var(--font-label); font-weight: 700; font-size: var(--fs-sm); letter-spacing: var(--track-wide); margin: 0 0 var(--s2); padding-bottom: var(--s1); border-bottom: 2px solid var(--ink); }
+.kind-name span { font-family: inherit; font-weight: 400; color: var(--rubric); margin-left: .3rem; }
+.kind ul { margin: 0; padding-left: 1rem; font-size: var(--fs-md); display: grid; gap: .2rem; }
+
+/* ---------- лента времени: время (.t) киноварью, под ним — что тогда появилось (.w) ---------- */
+.timeline { list-style: none; margin: 0; padding: 0; display: grid; gap: var(--s2); border-left: 2px solid var(--rule-strong); }
+.timeline li { display: grid; gap: .1rem; padding-left: var(--s3); position: relative; }
+.timeline li::before { content: ""; position: absolute; left: -.38rem; top: .45rem; width: .6rem; height: .6rem; border-radius: 50%; background: var(--panel); border: 2px solid var(--rule-strong); }
+.timeline .t { font-family: var(--font-label); font-size: var(--fs-sm); letter-spacing: var(--track); color: var(--rubric); }
+.timeline .w { font-size: var(--fs-md); }
+
+/* ---------- блок о «Каталоге греческих астрологических рукописей»: три справки в ряд и ссылка на досье ---------- */
+.ccag-facts { list-style: none; margin: var(--s5) 0; padding: 0; font-size: var(--fs-md); }
+.ccag-facts li { border-left: 2px solid var(--rule); padding-left: var(--s3); }
+.ccag-more { margin: 0; font-family: var(--font-label); letter-spacing: var(--track); }
+
+@media (max-width: 640px) {
+  .kinds { grid-template-columns: minmax(0, 1fr); }
+  .planets { grid-template-columns: 5.6rem minmax(min-content, 1fr) auto; }
 }
-@media (max-width: 420px) {
-  figure.kinds { grid-template-columns: minmax(0, 1fr); }
-  .planets { grid-template-columns: 5.6rem minmax(0, 1fr); }
-  .planets .r { display: none; }
-}
-.ccag { max-width: 52rem; }
-.ccag p { margin: 0 0 .7rem; }
-.ccag-facts { margin: 0 0 .8rem; padding-left: 1.1rem; display: grid; gap: .45rem; font-size: .96rem; }
-.ccag-more a { font-family: var(--font-label); letter-spacing: .04em; }

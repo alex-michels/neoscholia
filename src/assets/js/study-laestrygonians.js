@@ -1,76 +1,13 @@
+// «Короткие ночи лестригонов» — рисунок 1: небо на выбранной широте около 150 г. до н. э.
+// Разметка рисунка — в _includes/study/laestrygonians-figure.njk (svg#sphere, ползунок #lat, кнопки мест #presets,
+// показания #r-day, #r-night, #r-az, #r-dra, пояснение #place-note); цвета линий — в css/pages/study-laestrygonians.css.
+// Общее поведение статьи (примечания) — в article.js.
 (function () {
-  /* ---------- side notes ---------- */
-  document.querySelectorAll('.sn-ref').forEach(function (btn) {
-    btn.addEventListener('click', function () {
-      var note = document.getElementById(btn.getAttribute('aria-controls'));
-      var open = btn.getAttribute('aria-expanded') !== 'true';
-      btn.setAttribute('aria-expanded', String(open));
-      note.classList.toggle('open', open);
-    });
-  });
+  var svg = document.getElementById('sphere');
+  if (!svg) return;
 
-  /* ---------- abstract language ---------- */
-  var abs = document.getElementById('abstract');
-  document.getElementById('abs-ctl').addEventListener('click', function (e) {
-    var b = e.target.closest('button'); if (!b) return;
-    abs.dataset.show = b.dataset.set;
-    this.querySelectorAll('button').forEach(function (x) { x.setAttribute('aria-pressed', String(x === b)); });
-  });
-
-  /* ---------- appendix view (shared with the text pages) ---------- */
-  var appx = document.getElementById('appx-body');
-  var prefs = { view: 'parallel' };
-  try { Object.assign(prefs, JSON.parse(localStorage.getItem('neoscholia-reader') || '{}')); } catch (e) {}
-  function applyView() {
-    appx.classList.remove('view-translation', 'view-parallel', 'view-original');
-    appx.classList.add('view-' + prefs.view);
-    document.querySelectorAll('#view-ctl button').forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.view === prefs.view)); });
-  }
-  document.getElementById('view-ctl').addEventListener('click', function (e) {
-    var b = e.target.closest('button'); if (!b) return;
-    prefs.view = b.dataset.view; applyView();
-    try { var all = JSON.parse(localStorage.getItem('neoscholia-reader') || '{}'); all.view = prefs.view; localStorage.setItem('neoscholia-reader', JSON.stringify(all)); } catch (e2) {}
-  });
-  applyView();
-
-  /* ---------- citation ---------- */
-  var CITE = {
-    gost: 'Пергам против Александрии? Кратет, Аристарх и «короткие ночи» лестригонов : препринт / А. Михельс. Версия 0.3. Neoscholia, 2026. DOI: [после депонирования].',
-    chicago: 'Michels, Alexander. 2026. "Pergamon versus Alexandria? Crates, Aristarchus and the ‘Short Nights’ of the Laestrygonians." Preprint, version 0.3. Neoscholia. DOI pending.',
-    bibtex: '@misc{neoscholia2026laestrygonians,\n  author    = {Михельс, Александр},\n  title     = {Пергам против Александрии? Кратет, Аристарх и «короткие ночи» лестригонов},\n  year      = {2026},\n  note      = {Препринт, версия 0.3},\n  publisher = {Neoscholia},\n  doi       = {[pending]}\n}'
-  };
-  var citeText = document.getElementById('cite-text');
-  var copyBtn = document.getElementById('copy-cite');
-  function showCite(fmt) {
-    citeText.textContent = CITE[fmt];
-    document.querySelectorAll('#cite-ctl button').forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.fmt === fmt)); });
-    copyBtn.textContent = 'Скопировать';
-  }
-  document.getElementById('cite-ctl').addEventListener('click', function (e) {
-    var b = e.target.closest('button'); if (b) showCite(b.dataset.fmt);
-  });
-  copyBtn.addEventListener('click', function () {
-    function selectIt() { var r = document.createRange(); r.selectNodeContents(citeText); var s = getSelection(); s.removeAllRanges(); s.addRange(r); copyBtn.textContent = 'Выделено — нажмите Ctrl+C'; }
-    try { navigator.clipboard.writeText(citeText.textContent).then(function () { copyBtn.textContent = 'Скопировано'; }, selectIt); } catch (e) { selectIt(); }
-  });
-  showCite('gost');
-
-  /* ---------- contents: highlight the section in view ---------- */
-  var tocLinks = Array.prototype.slice.call(document.querySelectorAll('.toc a'));
-  if ('IntersectionObserver' in window) {
-    var targets = tocLinks.map(function (a) { return document.querySelector(a.getAttribute('href')); }).filter(Boolean);
-    var io = new IntersectionObserver(function (entries) {
-      entries.forEach(function (en) {
-        if (!en.isIntersecting) return;
-        tocLinks.forEach(function (a) { a.setAttribute('aria-current', String(a.getAttribute('href') === '#' + en.target.id)); });
-      });
-    }, { rootMargin: '-15% 0px -75% 0px' });
-    targets.forEach(function (t) { io.observe(t); });
-  }
-
-  /* ---------- figure 1: the sky at a chosen latitude, about 150 BC ---------- */
-  var EPS = 23.713;          // obliquity of the ecliptic, 150 BC (Laskar 1986)
-  var DEC_G = 52.959;        // declination of γ Draconis, 150 BC (IAU 2006 precession)
+  var EPS = 23.713;          // наклон эклиптики, 150 г. до н. э. (Laskar 1986)
+  var DEC_G = 52.959;        // склонение γ Дракона, 150 г. до н. э. (прецессия IAU 2006)
   var PLACES = [
     { id: 'alex', name: 'Александрия', phi: 31.20, note: 'Голова Дракона заходит почти на пять часов: здесь строка Арата неверна.' },
     { id: 'rhod', name: 'Родос', phi: 36.44, note: 'Голова Дракона уходит под горизонт примерно на полтора часа. Аттал, оппонент Гиппарха, считал, что она ненадолго заходит; рассуждал ли он от широты Родоса, мы не знаем.' },
@@ -83,7 +20,6 @@
     { id: 'crat', name: 'Гемин: 23 часа', phi: 66.105, note: '23-часовой день Кратета по Гемину: ночь — один час, закат рядом с восходом.' }
   ];
   var R = 130, CX = 200, CY = 165, D2R = Math.PI / 180;
-  var svg = document.getElementById('sphere');
   var NS = 'http://www.w3.org/2000/svg';
   function el(tag, attrs, text) {
     var e = document.createElementNS(NS, tag);
@@ -142,15 +78,15 @@
 
   function draw() {
     var phi = parseFloat(latIn.value);
-    document.getElementById('lat-out').textContent = fmt(phi, Math.abs(phi + DEC_G - 90) < 0.05 ? 3 : 1) + '°'; // more digits where the star grazes the horizon
-    // celestial axis, equator, boundary of the always-visible stars
+    document.getElementById('lat-out').textContent = fmt(phi, Math.abs(phi + DEC_G - 90) < 0.05 ? 3 : 1) + '°'; // больше знаков там, где звезда касается горизонта
+    // ось мира, экватор, граница незаходящих звёзд
     chord(axis, pt(phi), pt(phi + 180));
     chord(eq, pt(phi + 90), pt(phi - 90));
     chord(circ, pt(2 * phi), pt(0));
     place(pole, pt(phi));
     var pp = pt(phi);
     poleLbl.setAttribute('x', pp.x + 8); poleLbl.setAttribute('y', pp.y - 6);
-    // summer-solstice Sun: chord from noon (upper) to midnight (lower)
+    // Солнце в летнее солнцестояние: хорда от полудня (вверху) до полуночи (внизу)
     var up = pt(phi + 90 - EPS), lo = pt(phi - (90 - EPS));
     place(noon, up); place(midn, lo);
     sunLbl.setAttribute('x', up.x - 9); sunLbl.setAttribute('y', up.y + 4);
@@ -160,15 +96,15 @@
       var ix = { x: up.x + t * (lo.x - up.x), y: CY };
       chord(day, up, ix); chord(night, ix, lo); night.style.display = '';
     } else { chord(day, up, lo); night.style.display = 'none'; }
-    // γ Draconis: its daily circle and its lowest point
+    // γ Дракона: суточный круг и нижняя точка
     var dUp = pt(phi + 90 - DEC_G), dLo = pt(phi - (90 - DEC_G));
     chord(dra, dUp, dLo); place(star, dLo);
     draLbl.setAttribute('x', dLo.x - 10); draLbl.setAttribute('y', dLo.y + 18);
     var low = phi + DEC_G - 90;
-    var TOL = 1e-9; // floating-point tolerance only: the star counts as touching the horizon only at exactly 0°
+    var TOL = 1e-9; // только погрешность вычислений: звезда «касается горизонта» лишь ровно при 0°
     star.setAttribute('class', 'sv-star' + (low < -TOL ? ' below' : ''));
 
-    // readouts
+    // показания
     var L = dayLength(phi, EPS);
     document.getElementById('r-day').innerHTML = '<b>' + hm(L) + '</b>';
     document.getElementById('r-night').innerHTML = L >= 24 ? 'Солнце не заходит' : '<b>' + hm(24 - L) + '</b>';
@@ -177,7 +113,7 @@
       : 'в ' + fmt(Math.acos(cA) / D2R, 0) + '° к востоку и западу от точки севера';
     var draText;
     var near = Math.abs(low) < 0.5 ? ' — почти касается горизонта' : '';
-    var dig = Math.abs(low) < 0.01 ? 3 : 2; // show −0,001°, not −0,00°
+    var dig = Math.abs(low) < 0.01 ? 3 : 2; // показать −0,001°, а не −0,00°
     if (Math.abs(low) <= TOL) draText = 'касается горизонта';
     else if (low > 0) draText = 'не заходит; в нижней точке +' + fmt(low, dig) + '°' + near;
     else draText = 'заходит примерно на ' + hm(24 - dayLength(phi, DEC_G)) + '; в нижней точке −' + fmt(-low, dig) + '°' + near;
@@ -189,5 +125,13 @@
       : 'Двигайте ползунок или выберите место: на рисунке видно, как меняются летняя ночь и нижняя точка головы Дракона.';
   }
   latIn.addEventListener('input', draw);
+  // с клавиатуры стрелка сдвигает широту на 0,1° (шаг ползунка 0,005° нужен готовым местам; Shift + стрелка — точный шаг)
+  latIn.addEventListener('keydown', function (e) {
+    var d = { ArrowRight: 1, ArrowUp: 1, ArrowLeft: -1, ArrowDown: -1 }[e.key];
+    if (!d || e.shiftKey) return;
+    e.preventDefault();
+    latIn.value = Math.round((parseFloat(latIn.value) + d * 0.1) * 10) / 10;
+    draw();
+  });
   draw();
 })();

@@ -1,0 +1,76 @@
+{#- «Карта традиции» раздела «Роман об Александре»: версии романа по векам (строки) и ветвям (столбцы).
+    Отметка перед названием: ui.dot("none") — нет по-русски, ui.dot("part") — отрывки, ui.dot("ru") — есть по-русски.
+    Звёздочка «в плане» пишется через &nbsp;, чтобы не отрывалась от названия на новую строку. -#}
+{%- import "ui.njk" as ui with context -%}
+      <div class="legend" role="group" aria-label="Обозначения">
+        <span><i class="dot none"></i>нет по-русски</span>
+        <span><i class="dot part"></i>по-русски отрывки или частично</span>
+        <span><i class="dot ru"></i>есть по-русски</span>
+        <span><b class="star">★</b> в плане Neoscholia</span>
+      </div>
+      <div class="table-wrap" role="region" tabindex="0" aria-label="Таблица: версии романа по векам и ветвям">
+        <table class="table table--grid tradition" aria-labelledby="{{ b.id }}">
+          <thead><tr><th scope="col">Время</th><th scope="col">Греческая</th><th scope="col">Латинская и западная</th><th scope="col">Восточная</th><th scope="col">Славянская</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">III в.</th>
+              <td><ul class="marked"><li>{{ ui.dot("part") }}<span>Редакция <span lang="grc">α</span>&nbsp;<b class="star">★</b><br><small>Егунов 1961 — отрывки кн. I</small></span></li></ul></td>
+              <td></td><td></td><td></td></tr>
+            <tr><th scope="row">IV в.</th>
+              <td></td>
+              <td><ul class="marked">
+                <li>{{ ui.dot("none") }}<span>Юлий Валерий, «Деяния»&nbsp;<b class="star">★</b></span></li>
+                <li>{{ ui.dot("none") }}<span>«Итинерарий Александра»&nbsp;<b class="star">★</b></span></li>
+                <li>{{ ui.dot("part") }}<span>Мецская эпитома и «Книга о смерти»&nbsp;<b class="star">★</b></span></li>
+              </ul></td><td></td><td></td></tr>
+            <tr><th scope="row">V в.</th>
+              <td><ul class="marked"><li>{{ ui.dot("part") }}<span>Редакция <span lang="grc">β</span><br><small>по-русски только письма</small></span></li></ul></td>
+              <td></td>
+              <td><ul class="marked"><li>{{ ui.dot("none") }}<span>Армянская «История»&nbsp;<b class="star">★</b><br><small>нужен соавтор-арменист</small></span></li></ul></td>
+              <td></td></tr>
+            <tr><th scope="row">VI–VII вв.</th>
+              <td></td><td></td>
+              <td><ul class="marked">
+                <li>{{ ui.dot("none") }}<span>Сирийский роман&nbsp;<b class="star">★</b></span></li>
+                <li>{{ ui.dot("ru") }}<span>Сирийская легенда <small>(Пигулевская 1958)</small></span></li>
+                <li>{{ ui.dot("none") }}<span>«Песнь об Александре»</span></li>
+              </ul></td><td></td></tr>
+            <tr><th scope="row">VIII–X вв.</th>
+              <td><ul class="marked">
+                <li>{{ ui.dot("part") }}<span>Редакция <span lang="grc">ε</span>&nbsp;<b class="star">★</b><br><small>Ботвинник 2007 — отрывок</small></span></li>
+                <li>{{ ui.dot("none") }}<span>Редакция <span lang="grc">λ</span>&nbsp;<b class="star">★</b></span></li>
+                <li>{{ ui.dot("none") }}<span>Редакция <span lang="grc">γ</span></span></li>
+              </ul></td>
+              <td><ul class="marked">
+                <li>{{ ui.dot("none") }}<span><a href="zacher-1.html">Эпитома Цахера</a>&nbsp;<b class="star">★</b><br><small>Neoscholia: кн. I, версия {{ "zacher-1" | pageVersion(collections.all) }}</small></span></li>
+                <li>{{ ui.dot("ru") }}<span>Лев Неаполитанский <small>(Горелов 2006)</small></span></li>
+              </ul></td>
+              <td><ul class="marked">
+                <li>{{ ui.dot("none") }}<span>Переписка Аристотеля и Александра (араб.)&nbsp;<b class="star">★</b></span></li>
+                <li>{{ ui.dot("none") }}<span>«Китаб ат-Тиджан»</span></li>
+              </ul></td><td></td></tr>
+            <tr><th scope="row">XI–XIII вв.</th>
+              <td><ul class="marked"><li>{{ ui.dot("none") }}<span>Зонара, кн. IV&nbsp;<b class="star">★</b></span></li></ul></td>
+              <td><ul class="marked">
+                <li>{{ ui.dot("part") }}<span><i lang="la">Historia de preliis</i> J1–J3</span></li>
+                <li>{{ ui.dot("part") }}<span>Старофранцузский роман</span></li>
+              </ul></td>
+              <td><ul class="marked">
+                <li>{{ ui.dot("part") }}<span>Ас-Са‘алиби, ал-Мубашшир</span></li>
+                <li>{{ ui.dot("ru") }}<span>Низами, «Искандар-наме»</span></li>
+              </ul></td>
+              <td><ul class="marked"><li>{{ ui.dot("ru") }}<span>Хронографическая Александрия</span></li></ul></td></tr>
+            <tr><th scope="row">XIV–XVI вв.</th>
+              <td><ul class="marked">
+                <li>{{ ui.dot("none") }}<span>Византийская поэма (1388)&nbsp;<b class="star">★</b></span></li>
+                <li>{{ ui.dot("none") }}<span>Редакция <span lang="grc">ζ</span></span></li>
+                <li>{{ ui.dot("none") }}<span>«Римада» (1529)&nbsp;<b class="star">★</b></span></li>
+              </ul></td>
+              <td></td>
+              <td><ul class="marked">
+                <li>{{ ui.dot("none") }}<span>Амир Хосров, Ахмеди</span></li>
+                <li>{{ ui.dot("none") }}<span>Армянские кафы</span></li>
+              </ul></td>
+              <td><ul class="marked"><li>{{ ui.dot("ru") }}<span>Сербская Александрия <small>(«Литпамятники» 1965)</small></span></li></ul></td></tr>
+          </tbody>
+        </table>
+      </div>

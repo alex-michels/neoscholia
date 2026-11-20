@@ -1,23 +1,26 @@
 ---
-title: "История изменений — Neoscholia"
-nav: "changes"
+title: "История изменений"
+description: "Что появилось и обновилось в библиотеке Neoscholia: новые тексты и разделы, новые версии переводов и статей, новые возможности для читателя."
+nav: "about"
 permalink: "changes.html"
-styles: ["index"]
+crumbs:
+  - { label: "О проекте", href: "about.html" }
+  - { label: "История изменений" }
 ---
-<main id="top">
-    <div class="crumbs"><a href="index.html">Главная</a> › История изменений</div>
-    <section class="lib-head" aria-labelledby="chg-h">
+{#- Лента собирается сама: версии текстов и статей — из их историй версий, новости содержания — из src/_data/news.yaml. -#}
+{%- import "ui.njk" as ui with context -%}
+<header class="page-head">
       <h1 id="chg-h">История изменений</h1>
       <p class="lede">Что появилось и обновилось в библиотеке: новые тексты и разделы, новые версии переводов и статей, новые возможности для читателя. Подробности каждой версии — на странице текста, в журнале рецензии и в истории версий; полная история правок файлов — <a href="{{ site.repo }}/commits/{{ site.branch }}">в репозитории</a>.</p>
-    </section>
-    <section class="block" aria-label="Изменения по датам">
+    </header>
+
+    <section class="section" aria-label="Изменения по датам">
       {%- for day in collections.all | changeFeed(texts, news) | byDate %}
-      <h2 class="day"><time>{{ day.date }}</time></h2>
-      <ol class="log full">
+      <h2 class="day"><time datetime="{{ day.date | isoDate }}">{{ day.date }}</time></h2>
+      <ol class="feed">
         {%- for x in day.items %}
-        <li><span class="kind">{% if x.version %}версия {{ x.version }}{% else %}новое{% endif %}</span><span>{% if x.version %}<a href="{{ x.href }}">{{ x.title }}</a>: {{ x.text | safe }}{% else %}{{ x.text | safe }}{% endif %}</span></li>
+        <li><span class="kind">{% if x.version %}версия {{ x.version }}{% else %}новое{% endif %}</span><span>{% if x.version %}<a href="{{ x.href }}">{{ x.title }}</a>: {{ x.text | greek | safe }}{% else %}{{ x.text | greek | safe }}{% endif %}</span></li>
         {%- endfor %}
       </ol>
       {%- endfor %}
     </section>
-  </main>

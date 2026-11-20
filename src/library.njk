@@ -1,156 +1,49 @@
 ---
-title: "Библиотека Neoscholia"
+title: "Библиотека"
+description: "Все разделы библиотеки Neoscholia: первые переводы античных и византийских текстов на русский и английский — с оригиналом, новыми схолиями на полях и открытым журналом рецензии."
 nav: "library"
 permalink: "library.html"
-styles: ["index"]
-scripts: ["library"]
-mock: "<b>Макет страницы.</b> Перечни текстов — из исследования проекта. Опубликованы книга I эпитомы Цахера (0.3), схолии к «Одиссее» X, ст. 1–4 (0.2) и анонимный «Синопсис Музыки» (0.2); остальные тексты помечены как готовящиеся или кандидаты."
+styles: ["library"]
+mock: "<b>Макет страницы.</b> Перечни текстов — из исследования проекта. Опубликованы книга I эпитомы Цахера ({version:zacher-1}), схолии к «Одиссее» X, ст. 1–4 ({version:odyssey-10}) и анонимный «Синопсис Музыки» ({version:synopsis-musicae}); остальные тексты помечены как готовящиеся или кандидаты."
 ---
-<main id="top">
-    <div class="crumbs"><a href="index.html">Главная</a> › Библиотека</div>
-    <section class="lib-head" aria-labelledby="lib-h">
+{#- Полки собираются из src/_data/sections.yaml: раздел, его описание и тексты на полке. -#}
+{%- import "ui.njk" as ui with context -%}
+<header class="page-head">
       <h1 id="lib-h">Библиотека</h1>
       <p class="lede">Первые переводы античных и византийских текстов на русский и английский — с оригиналом, новыми схолиями на полях и открытым журналом рецензии.</p>
-      <form class="search" role="search" id="search-form">
-        <label class="label" for="q" style="position:absolute;left:-9999px">Поиск по библиотеке</label>
-        <input id="q" type="search" placeholder="Автор, текст или тема: Пиндар, Эол, гармоника…" autocomplete="off">
+      <form role="search">
+        <label class="sr-only" for="q">Поиск по библиотеке</label>
+        <input class="field" id="q" type="search" placeholder="Автор, текст или тема: Пиндар, Эол, гармоника…" autocomplete="off" aria-describedby="hint"
+          data-search="#collections" data-search-item=".texts li" data-search-group=".shelf" data-search-head=".subhead" data-empty="#empty" data-search-hint="#hint">
       </form>
-      <p class="hint" id="hint">Поиск сразу фильтрует разделы ниже.</p>
-    </section>
+      <p class="hint" id="hint" role="status">Поиск сразу фильтрует разделы ниже.</p>
+    </header>
 
-    <section class="block" id="collections" aria-labelledby="col-h">
-      <div class="block-head">
-        <h2 id="col-h">Разделы</h2>
-        <p>Разделы растут вместе с библиотекой. Новый раздел открывается, когда в нём готов первый проверенный текст.</p>
+    <section class="section" id="collections" aria-labelledby="col-h">
+      {{ ui.sectionHead("Разделы", "Разделы растут вместе с библиотекой. Новый раздел открывается, когда в нём готов первый проверенный текст.", "col-h") }}
+
+      <div class="grid grid--3 shelves">
+        {%- for s in sections %}
+        <article class="record shelf">
+          <h3><a href="{{ s.href }}" id="{{ s.key }}">{{ s.title }}</a></h3>
+          <p class="scope">{{ s.scope }}</p>
+          {%- for g in s.shelf %}
+          {%- if g.label %}
+          <div class="subhead overline">{{ g.label }}</div>
+          {%- endif %}
+          <ul class="texts">
+            {%- for t in g.items %}
+            <li data-keywords="{{ s.title }}">{% if t.href %}<a class="t" href="{{ t.href }}">{{ t.title | greek | safe }}</a>{% else %}<span class="t">{{ t.title | greek | safe }}</span>{% endif %}
+              <span class="info"><span class="chip{% if t.published %} chip--status{% endif %}">{{ t.status | fill(collections.all) }}</span>{{ t.note }}</span></li>
+            {%- endfor %}
+          </ul>
+          {%- endfor %}
+          <a class="more" href="{{ s.href }}">{{ s.more }}</a>
+        </article>
+        {%- endfor %}
       </div>
 
-      <div class="shelves">
-        <article class="shelf" data-shelf>
-          <h3><a href="alexander.html" id="alexander">Роман об Александре</a></h3>
-          <p class="scope">Греческие редакции Псевдо-Каллисфена, латинская традиция, Византия и Восток.</p>
-          <ul class="texts">
-            <li><a class="t" href="zacher-1.html">Эпитома Юлия Валерия («эпитома Цахера»), кн. I</a>
-              <span class="meta"><span class="status draft">версия {{ texts["zacher-1"].versions[0].version }}</span>латынь · Zacher 1867</span></li>
-            <li><span class="t">Византийская жизнь Александра, редакция ε</span>
-              <span class="meta"><span class="status prep">готовится</span>греческий · VIII в.</span></li>
-            <li><span class="t">Юлий Валерий, «Деяния Александра», кн. III</span>
-              <span class="meta"><span class="status prep">готовится</span>латынь · IV в.</span></li>
-            <li><span class="t">Византийская поэма об Александре (1388)</span>
-              <span class="meta"><span class="status prep">готовится</span>греческий · стих</span></li>
-          </ul>
-          <a class="more label" href="alexander.html">Весь раздел →</a>
-        </article>
-
-        <article class="shelf" data-shelf>
-          <h3><a href="scholia.html" id="scholia">Схолии</a></h3>
-          <p class="scope">Античные и византийские комментарии на полях рукописей: к Гомеру, Пиндару, эллинистическим поэтам, латинским авторам.</p>
-          <div class="subhead label">К «Одиссее»</div>
-          <ul class="texts">
-            <li><a class="t" href="odyssey-10.html">Схолии к «Одиссее», песнь X: остров Эола (ст. 1–4)</a>
-              <span class="meta"><span class="status draft">версия 0.2</span>греческий · Dindorf 1855</span></li>
-            <li><span class="t">«Конец „Одиссеи“»: схолии к 23.296–24 и Аристоник</span>
-              <span class="meta"><span class="status prep">готовится</span>досье</span></li>
-          </ul>
-          <div class="subhead label">К другим произведениям</div>
-          <ul class="texts">
-            <li><span class="t">Схолии к Пиндару, Пифийская ода 1</span>
-              <span class="meta"><span class="status prep">готовится</span>греческий</span></li>
-            <li><span class="t">Схолии к Аполлонию Родосскому, кн. II</span>
-              <span class="meta"><span class="status prep">готовится</span>греческий</span></li>
-            <li><span class="t">Элий Донат, комментарий к Теренцию</span>
-              <span class="meta"><span class="status prep">готовится</span>латынь · IV в.</span></li>
-          </ul>
-          <a class="more label" href="scholia.html">Весь раздел →</a>
-        </article>
-
-        <article class="shelf" data-shelf>
-          <h3><a href="music.html" id="music">Музыка</a></h3>
-          <p class="scope">Трактаты о гармонике и ритмике, византийская передача античной теории, нотированные памятники.</p>
-          <ul class="texts">
-            <li><a class="t" href="synopsis-musicae.html">Анонимный «Синопсис Музыки» (1008)</a>
-              <span class="meta"><span class="status draft">версия {{ texts["synopsis-musicae"].versions[0].version }}</span>греческий · трактат</span></li>
-            <li><span class="t">Георгий Пахимер, «Гармоника»</span>
-              <span class="meta"><span class="status prep">готовится</span>греческий · ок. 1300</span></li>
-            <li><span class="t">Филодем, «О музыке», кн. IV</span>
-              <span class="meta"><span class="status prep">готовится</span>геркуланский папирус</span></li>
-            <li><span class="t">Поллукс, «Ономастикон» IV: инструменты и номы</span>
-              <span class="meta"><span class="status prep">готовится</span>греческий · II в.</span></li>
-          </ul>
-          <a class="more label" href="music.html">Весь раздел →</a>
-        </article>
-
-        <article class="shelf" data-shelf>
-          <h3><a href="astronomy.html" id="astronomy">Астрономия и астрология</a></h3>
-          <p class="scope">Наука о небе в античном смысле: комментарии к Арату, сферика, календари и приметы погоды, гороскопы и «выбор часа».</p>
-          <ul class="texts">
-            <li><span class="t">Гиппарх, «Комментарий к „Явлениям“ Арата и Евдокса», кн. I</span>
-              <span class="meta"><span class="status prep">готовится</span>греческий · II в. до н. э.</span></li>
-            <li><span class="t">«Максим», «О начинаниях»: поэма о выборе часа</span>
-              <span class="meta"><span class="status prep">кандидат</span>греческий · стих</span></li>
-            <li><span class="t">Схолии к Арату: голова Дракона</span>
-              <span class="meta"><span class="status prep">кандидат</span>греческий</span></li>
-          </ul>
-          <a class="more label" href="astronomy.html">Весь раздел →</a>
-        </article>
-
-        <article class="shelf" data-shelf>
-          <h3><a href="magic.html" id="magic">Магия и мантика</a></h3>
-          <p class="scope">Оракулы и жребии, сны и знамения, гадание по телу, привороты и любовная магия, магические папирусы, «Кираниды», алхимики.</p>
-          <ul class="texts">
-            <li><span class="t">Псевдо-Мелампод, «О трепетаниях» и «О родимых пятнах»</span>
-              <span class="meta"><span class="status prep">кандидат</span>греческий</span></li>
-            <li><span class="t">«Кираниды»: камни, травы, птицы и рыбы</span>
-              <span class="meta"><span class="status prep">кандидат</span>греческий</span></li>
-            <li><span class="t">Зосим Панополитанский, «Об омеге»</span>
-              <span class="meta"><span class="status prep">кандидат</span>греческий · алхимия</span></li>
-          </ul>
-          <a class="more label" href="magic.html">Весь раздел →</a>
-        </article>
-
-        <article class="shelf" data-shelf>
-          <h3><a href="lexicography.html" id="lexicography">Лексикография</a></h3>
-          <p class="scope">Античные и византийские словари: «Ономастикон» Поллукса, пословицы Зенобия, глоссы к Гомеру, аттикисты, латинские антиквары.</p>
-          <ul class="texts">
-            <li><span class="t">Поллукс, «Ономастикон» IX.94–129: игры</span>
-              <span class="meta"><span class="status prep">готовится</span>греческий · II в.</span></li>
-            <li><span class="t">Зенобий, «Эпитома пословиц», первая сотня</span>
-              <span class="meta"><span class="status prep">кандидат</span>греческий · II в.</span></li>
-            <li><span class="t">Аполлоний Софист, «Гомеровский словарь»</span>
-              <span class="meta"><span class="status prep">кандидат</span>греческий · I в.</span></li>
-          </ul>
-          <a class="more label" href="lexicography.html">Весь раздел →</a>
-        </article>
-
-        <article class="shelf" data-shelf>
-          <h3><a href="love.html" id="love">Любовь и брак</a></h3>
-          <p class="scope">Любовные истории, брак и дом.</p>
-          <ul class="texts">
-            <li><span class="t">Гиерокл-стоик, «О браке»</span>
-              <span class="meta"><span class="status prep">готовится</span>греческий · II в.</span></li>
-            <li><span class="t">Соран Эфесский, «Гинекология»</span>
-              <span class="meta"><span class="status prep">кандидат</span>греческий · II в.</span></li>
-            <li><span class="t">Феодор Продром, «Роданфа и Досикл»</span>
-              <span class="meta"><span class="status prep">кандидат</span>греческий · XII в.</span></li>
-          </ul>
-          <a class="more label" href="love.html">Весь раздел →</a>
-        </article>
-
-        <article class="shelf" data-shelf>
-          <h3><a href="education.html" id="education">Образование и воспитание</a></h3>
-          <p class="scope">Воспитание детей, школа и упражнения, грамматика и риторика, учителя и ученики, школьные папирусы.</p>
-          <ul class="texts">
-            <li><span class="t">Стобей, «Антология» II.31 «О воспитании и образовании»</span>
-              <span class="meta"><span class="status prep">кандидат</span>греческий · V в.</span></li>
-            <li><span class="t">Василий I, «Поучительные главы» сыну Льву</span>
-              <span class="meta"><span class="status prep">кандидат</span>греческий · IX в.</span></li>
-            <li><span class="t">Присциан, «Разбор двенадцати первых стихов „Энеиды“»</span>
-              <span class="meta"><span class="status prep">кандидат</span>латынь · около 500 г.</span></li>
-          </ul>
-          <a class="more label" href="education.html">Весь раздел →</a>
-        </article>
-      </div>
-
-      <p class="empty" id="empty" hidden>Ничего не найдено. Попробуйте имя автора или название произведения.</p>
+      <p class="empty" id="empty" role="status" hidden>Ничего не найдено. Попробуйте имя автора или название произведения.</p>
 
       <div class="future">
         <span class="label">Скоро</span>
@@ -159,4 +52,3 @@ mock: "<b>Макет страницы.</b> Перечни текстов — и�
         <span class="f">Хронография — Зонара, Дион Кассий</span>
       </div>
     </section>
-  </main>

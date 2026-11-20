@@ -2,18 +2,36 @@
 title: "Короткие ночи лестригонов"
 nav: "studies"
 permalink: "study-laestrygonians.html"
+pageType: "article"
 styles: ["study-laestrygonians"]
+scripts: ["study-laestrygonians"]
 ladder: "study"
 status: "preprint"
 version: "0.4"
 updated: "25.10.2026"
-scripts: ["study-laestrygonians"]
+crumbs:
+  - { label: "Исследования", href: "studies.html" }
+  - { label: "Статьи по текстам" }
+  - { label: "Короткие ночи лестригонов" }
 card:
   order: 2
   section: "Исследования · Схолии"
   sectionHref: "studies.html"
   title: "Пергам против Александрии? Кратет, Аристарх и «короткие ночи» лестригонов"
   summary: "Препринт: что античные толкователи вычитывали из Од. 10.86 «ибо близки пути ночи и дня» и как Кратет связал этот стих со стихом Арата о голове Дракона. С переводом схолий и интерактивным расчётом."
+# Как цитировать: три формата. Номер версии не пишется от руки — вместо {version} подставляется поле version.
+cite:
+  gost: "Пергам против Александрии? Кратет, Аристарх и «короткие ночи» лестригонов : препринт / А. Михельс. Версия {version}. Neoscholia, 2026. DOI: [после депонирования]."
+  chicago: "Michels, Alexander. 2026. \"Pergamon versus Alexandria? Crates, Aristarchus and the ‘Short Nights’ of the Laestrygonians.\" Preprint, version {version}. Neoscholia. DOI pending."
+  bibtex: |-
+    @misc{neoscholia2026laestrygonians,
+      author    = {Михельс, Александр},
+      title     = {Пергам против Александрии? Кратет, Аристарх и «короткие ночи» лестригонов},
+      year      = {2026},
+      note      = {Препринт, версия {version}},
+      publisher = {Neoscholia},
+      doi       = {[pending]}
+    }
 versions:
   - version: "0.4"
     date: "25.10.2026"
@@ -37,22 +55,43 @@ versions:
     text: "Первый препринт, подготовлен агентами Claude Opus 5.5 (Anthropic, режим Ultracode): текст, перевод схолий к 10.82–86, расчёты, досье источников; правки после проверки фактчекером и рецензентом."
 mock: "<b>Макет страницы статьи.</b> Содержание настоящее. Версия 0.1 подготовлена агентами Claude Opus 5.5 (режим Ultracode); версия 0.2 учитывает рецензию GPT-6.1 Sol (OpenAI), версия 0.3 — рецензию GPT-6 Astra (OpenAI); в версии 0.4 перевод схолий в приложении сведён с независимым переводом GPT-6 Astra. Автор текст ещё не вычитал. Греческий текст схолий дан по Диндорфу (1855), без сверки с изданием Понтани."
 ---
+{#- Страница статьи. Текст (аннотации, разделы, приложение, литература) берётся из research/studies/<статья>/article.md
+    и размечается в lib/article.js; блоки <!-- web:ИМЯ --> заменяются файлами _includes/study/laestrygonians-ИМЯ.njk.
+    Здесь остаются шапка, оглавление, сведения о работе над статьёй, журнал рецензии и строки цитирования (поле cite). -#}
+{%- import "ui.njk" as ui with context -%}
 {%- set art = "research/studies/laestrygonians/article.md" | article({"dossier.md": "laestrygonians-dossier.md"}) -%}
-<main id="top">
-    <div class="crumbs"><a href="index.html">Главная</a> › <a href="studies.html">Исследования</a> › Статьи по текстам</div>
 
-    <header class="mast">
+{#- заголовок блока: строка над заголовком и название (нумерованные разделы так же размечает lib/article.js) -#}
+{%- macro head(id, over, title) -%}
+<h2 id="{{ id }}"><span class="no">{{ over }}<span class="sr-only">.</span></span> {{ title | safe }}</h2>
+{%- endmacro -%}
+
+{#- текст с греческими словами: фильтр greek ставит им lang="grc" -#}
+{%- macro grc(html) -%}
+{{ html | greek | safe }}
+{%- endmacro -%}
+
+{#- оглавление: нумерованные разделы — из статьи, остальное — блоки этой страницы -#}
+{%- set contents = [{ href: "#abstract", label: "Аннотация" }].concat(art.toc, [
+  { href: "#appx", label: "Приложение: схолии" },
+  { href: "#process", label: "Как сделана работа" },
+  { href: "#review", label: "Рецензия и версии" },
+  { href: "#refs", label: "Литература" },
+  { href: "#cite", label: "Как цитировать" }
+]) -%}
+
+<header class="page-head">
       <p class="kicker">Статья по тексту · Схолии · Препринт</p>
       <h1>Пергам против Александрии? Кратет, Аристарх и «короткие ночи» лестригонов</h1>
       <p class="sub">Схолии к «Одиссее» 10.86 и спор о том, где странствовал Одиссей</p>
       <div class="byline"><b>Александр Михельс, PhD</b></div>
       <ul class="meta">
-        <li>Версия <b>{{ version }}</b> · {{ updated }}</li>
+        <li>Версия <b>{{ version }}</b> · <time datetime="{{ updated | isoDate }}">{{ updated }}</time></li>
         <li>DOI: <b>после депонирования в Zenodo</b></li>
         <li>Лицензия препринта: <b>CC BY 4.0</b></li>
         <li>Чтение: <b>около 25 минут</b></li>
       </ul>
-      {% include "ladder.njk" %}
+      {{ ui.status("study", status, mock) }}
       <div class="actions">
         <a class="btn" href="laestrygonians-dossier.md">Досье источников</a>
         <a class="btn" href="#appx">Перевод схолий</a>
@@ -61,101 +100,69 @@ mock: "<b>Макет страницы статьи.</b> Содержание н�
       </div>
     </header>
 
-    <div class="art">
-      <nav class="toc" aria-labelledby="toc-h">
-        <h2 id="toc-h">Содержание</h2>
-        <ol>
-          <li><a href="#abstract">Аннотация</a></li>
-          <li><a href="#s1"><span class="n">1</span>Стих и вопрос</a></li>
-          <li><a href="#s2"><span class="n">2</span>Что сохранили схолии</a></li>
-          <li><a href="#s3"><span class="n">3</span>Кратет у Гемина</a></li>
-          <li><a href="#s4"><span class="n">4</span>Голова Дракона</a></li>
-          <li><a href="#s5"><span class="n">5</span>Где Аристарх?</a></li>
-          <li><a href="#s6"><span class="n">6</span>Выводы</a></li>
-          <li><a href="#appx">Приложение: схолии</a></li>
-          <li><a href="#process">Как сделана работа</a></li>
-          <li><a href="#review">Рецензия и версии</a></li>
-          <li><a href="#refs">Литература</a></li>
-          <li><a href="#cite">Как цитировать</a></li>
-        </ol>
-      </nav>
+    <div class="with-toc">
+      {{ ui.toc(contents) }}
 
       <article class="text">
-        <details class="toc-m">
-          <summary>Содержание</summary>
-          <ol>
-            <li><a href="#abstract">Аннотация</a></li>
-            <li><a href="#s1">Стих и вопрос</a></li>
-            <li><a href="#s2">Что сохранили схолии</a></li>
-            <li><a href="#s3">Кратет у Гемина</a></li>
-            <li><a href="#s4">Голова Дракона</a></li>
-            <li><a href="#s5">Где Аристарх?</a></li>
-            <li><a href="#s6">Выводы</a></li>
-            <li><a href="#appx">Приложение: схолии</a></li>
-            <li><a href="#process">Как сделана работа</a></li>
-            <li><a href="#review">Рецензия и версии</a></li>
-            <li><a href="#refs">Литература</a></li>
-            <li><a href="#cite">Как цитировать</a></li>
-          </ol>
-        </details>
-
-        <section class="abstract" id="abstract" data-show="ru" aria-labelledby="abs-h">
+        <section class="abstract panel" id="abstract" aria-labelledby="abs-h">
           <div class="abstract-head">
-            <h2 id="abs-h">Аннотация</h2>
-            <div class="seg-ctl" id="abs-ctl" role="group" aria-label="Язык аннотации">
-              <button type="button" data-set="ru" aria-pressed="true">RU</button>
-              <button type="button" data-set="en" aria-pressed="false">EN</button>
-            </div>
+            <h2 class="overline" id="abs-h">Аннотация</h2>
+            {{ ui.switch("#abstract", [{ value: "ru", label: "RU" }, { value: "en", label: "EN" }], "Язык аннотации") }}
           </div>
-          <div data-lang="ru">{{ art.abstractRu | safe }}</div>
-          <div data-lang="en" lang="en">{{ art.abstractEn | safe }}</div>
+          <div data-when="ru">{{ grc(art.abstractRu) }}</div>
+          <div data-when="en" lang="en" hidden>{{ grc(art.abstractEn) }}</div>
         </section>
 
         <p class="based">Опирается на перевод <a href="odyssey-10.html"><b>Схолии к «Одиссее». Песнь X</b></a>, версия 0.2. Там опубликованы схолии к стихам 1–4. Рабочий перевод схолий к стихам 82–86 дан в <a href="#appx">приложении</a> к этой статье.</p>
 
+        {#- разделы статьи; особые блоки (стихи, рисунок) — из _includes/study/ #}
         {%- for ch in art.body %}
         {%- if ch.block %}
         {% include "study/laestrygonians-" + ch.block + ".njk" %}
         {%- else %}
-        {{ ch.html | safe }}
+        {{ grc(ch.html) }}
         {%- endif %}
         {%- endfor %}
 
-        <h2 id="appx"><span class="no">Приложение</span>Схолии к «Одиссее» 10.82–86</h2>
-        {{ art.appendixIntro | safe }}
+        {{ head("appx", "Приложение", "Схолии к «Одиссее» 10.82–86") }}
+        {{ grc(art.appendixIntro) }}
 
-        <section class="appx wide view-parallel" id="appx-body" aria-label="Текст и перевод схолий">
-          <div class="appx-head">
-            <span>Показ</span>
-            <div class="seg-ctl" id="view-ctl" role="group" aria-label="Режим показа схолий">
-              <button type="button" data-view="translation" aria-pressed="false">Перевод</button>
-              <button type="button" data-view="parallel" aria-pressed="true">Параллельно</button>
-              <button type="button" data-view="original" aria-pressed="false">Оригинал</button>
-            </div>
+        {#- приложение: оригинал слева, перевод справа; режим показа — общий с читалкой (data-view на <html>) #}
+        <section class="appx wide" id="appx-body" aria-label="Текст и перевод схолий">
+          <div class="toolbar">
+            <div class="group"><span aria-hidden="true">Показ</span>{{ ui.viewControl("Режим показа схолий") }}</div>
           </div>
 
           {%- for x in art.appendix %}
           <div class="sch" id="appx-{{ loop.index }}">
-            <div class="sch-head"><span class="sch-ref">{{ x.ref }}</span>{% if x.lemma %}<span class="lemma" lang="grc">{{ x.lemma }}</span>{% endif %}{% for c in x.chips %}<span class="chip{% if c.who %} who{% endif %}">{{ c.text }}</span>{% endfor %}</div>
+            <div class="sch-head">
+              <span class="sch-ref">{{ x.ref | greek | safe }}</span>
+              {%- if x.lemma %}
+              <span class="lemma" lang="grc">{{ x.lemma }}</span>
+              {%- endif %}
+              {%- for c in x.chips %}
+              <span class="chip chip--{{ 'accent' if c.who else 'ink' }}">{{ c.text }}</span>
+              {%- endfor %}
+            </div>
             <div class="pair">
               <p class="g" lang="grc">{{ x.greek | safe }}</p>
-              <p class="t">{{ x.tr | safe }}</p>
+              <p class="t">{{ grc(x.tr) }}</p>
             </div>
             {%- for n in x.notes %}
-            <p class="app-note"><b>Примечание.</b> {{ n | safe }}</p>
+            <p class="app-note"><b>Примечание.</b> {{ grc(n) }}</p>
             {%- endfor %}
             {%- if x.crit %}
-            <p class="app-crit">{{ x.crit | safe }}</p>
+            <p class="app-crit">{{ grc(x.crit) }}</p>
             {%- endif %}
           </div>
           {%- endfor %}
         </section>
 
-        <h2 id="process"><span class="no">О работе</span>Как сделана эта статья</h2>
+        {{ head("process", "О работе", "Как сделана эта статья") }}
         <p>Материал собирали языковые модели под руководством редакции, а выводы и ответственность — за автором. Ниже сказано, что уже сделано и что ещё нет.</p>
-        <div class="three wide">
-          <div class="box">
-            <h3>Модели Claude <span class="state ok">версия 0.1</span></h3>
+        <div class="grid grid--3 wide">
+          <div class="panel">
+            <h3>Модели Claude <span class="chip chip--status">версия 0.1</span></h3>
             <ul>
               <li>восстановили греческий текст схолий по сканам Диндорфа;</li>
               <li>нашли и прочитали параллели у Гемина, Гиппарха, Евстафия, Страбона, Геллия и в схолиях к Арату;</li>
@@ -165,8 +172,8 @@ mock: "<b>Макет страницы статьи.</b> Содержание н�
               <li>версию 0.1 подготовили агенты Claude Opus 5.5 (Anthropic) в режиме Ultracode.</li>
             </ul>
           </div>
-          <div class="box">
-            <h3>Модели другого семейства <span class="state ok">версии 0.2–0.4</span></h3>
+          <div class="panel">
+            <h3>Модели другого семейства <span class="chip chip--status">версии 0.2–0.4</span></h3>
             <ul>
               <li>GPT-6.1 Sol (OpenAI, Codex, режим Ultra) с тремя субагентами — по литературе, астрономии и филологии — написал независимую рецензию: «существенная доработка», 5 существенных и 9 малых замечаний;</li>
               <li>два агента Claude перепроверили её ключевые утверждения по легальным источникам: большинство подтвердилось, часть уточнена; правки вошли в версию 0.2;</li>
@@ -175,8 +182,8 @@ mock: "<b>Макет страницы статьи.</b> Содержание н�
               <li>рецензии и независимый перевод полностью лежат в репозитории.</li>
             </ul>
           </div>
-          <div class="box">
-            <h3>Автор <span class="state">ожидает</span></h3>
+          <div class="panel">
+            <h3>Автор <span class="chip">ожидает</span></h3>
             <ul>
               <li>сверить переводы с греческим;</li>
               <li>проверить толкования и выводы о Кратете и Арате;</li>
@@ -185,14 +192,16 @@ mock: "<b>Макет страницы статьи.</b> Содержание н�
             </ul>
           </div>
         </div>
-        <div class="stats wide" role="list" aria-label="Итоги проверки">
-          <div role="listitem"><b>50</b><span>библиографических позиций проверено; две известны только по ссылке Броджато</span></div>
-          <div role="listitem"><b>70</b><span>ключевых утверждений: 49 подтверждены, 12 уточнены, 9 не удалось проверить</span></div>
-          <div role="listitem"><b>93</b><span>замечания фактчекера и рецензента перед версией 0.1</span></div>
-          <div role="listitem"><b>22</b><span>замечания двух рецензий GPT: 14 к версии 0.1, 8 к версии 0.2</span></div>
+        <div class="wide">
+          {{ ui.stats([
+            { value: "50", label: "библиографических позиций проверено; две известны только по ссылке Броджато" },
+            { value: "70", label: "ключевых утверждений: 49 подтверждены, 12 уточнены, 9 не удалось проверить" },
+            { value: "93", label: "замечания фактчекера и рецензента перед версией 0.1" },
+            { value: "22", label: "замечания двух рецензий GPT: 14 к версии 0.1, 8 к версии 0.2" }
+          ], "Итоги проверки") }}
         </div>
         <h3>Что проверить до окончательной версии</h3>
-        <ol class="open-q">
+        <ol>
           <li>Длинную редакцию схолии к Арату 62 — по печатному изданию Мартена (1974, с. 98).</li>
           <li>Текст, сиглы и нумерацию схолий к «Одиссее» — по изданию Понтани (т. V, 2022).</li>
           <li>Наши выводы — по печатному тексту Билича (2012, 302–311; 2021, 17–21).</li>
@@ -202,56 +211,54 @@ mock: "<b>Макет страницы статьи.</b> Содержание н�
           <li>Новый перевод Гиппарха с комментарием (Glover 2026) — к разделу 4.</li>
         </ol>
 
-        <h2 id="review"><span class="no">Рецензия</span>Открытая рецензия и версии</h2>
+        {{ head("review", "Рецензия", "Открытая рецензия и версии") }}
         <ol class="log">
           <li><span class="who"><b>Проверка источников</b>агент-скептик · 25.10.2026</span><span>Проверил 50 работ и 70 утверждений; 12 формулировок исправлено. Например, Евстафий сообщает о первенстве Кратета с оговоркой «говорят» (<span lang="grc">φασι</span>).</span></li>
           <li><span class="who"><b>Фактчекер</b>агент · 25.10.2026</span><span>Нашёл схолию к Арату с именем Кратета и цифрами 20/4 часа. Нашёл три пропущенные в переводе схолии. Показал, что Карнут относит к Аристонику только последнюю фразу схолии к 10.190. Исправлены анахронизм «Евдокс понимал Арата» и азимут восхода на 66°.</span></li>
           <li><span class="who"><b>Рецензент-филолог</b>агент · 25.10.2026</span><span>Гемин не «прямой оппонент» Кратета по поводу лестригонов: его возражения касаются киммерийцев, метода и Океана. Добавлены оговорки о непрочитанной литературе, принцип Аристарха по схолии D к Ил. 5.385, Формии. Гипотеза о «позднем аратовском слое» снята.</span></li>
           <li><span class="who"><b>Рецензия другой модели</b>GPT-6.1 Sol · OpenAI · 25.10.2026</span><span><span class="mqm">Рекомендация: существенная доработка · 5 существенных, 9 малых замечаний</span><br>Главное: многое уже есть у Билича; у схолии к Арату две редакции, и длинная говорит об аналогии, а не о смешении широт; не учтена статья Буонаюто (1996); реконструкция взглядов Аристарха слишком уверенна; в переводе конца схолии HQ стояла толковательная вставка; ошибка в рисунке на границе горизонта. Подтвердил полноту перевода и астрономию.</span></li>
-          <li><span class="who"><b>Проверка рецензии</b>2 агента Claude · 25.10.2026</span><span>Подтвердили большинство замечаний по легальным источникам и уточнили: краткая редакция схолии к Арату сверена по Маасу, Бюле, Беккеру и Вахсмуту; в лучших рукописях числа написаны словами; у Птолемея 20-часовая параллель проходит через Фулу; спор Аристарха с Кратетом о κ 190 опирается на схолию к Од. 2.1. Страницы Билича рецензент читал по неавторизованным копиям, длинную редакцию — по транскрипции неясного происхождения; эти места помечены как несверенные.</span></li>
+          <li><span class="who"><b>Проверка рецензии</b>2 агента Claude · 25.10.2026</span><span>Подтвердили большинство замечаний по легальным источникам и уточнили: краткая редакция схолии к Арату сверена по Маасу, Бюле, Беккеру и Вахсмуту; в лучших рукописях числа написаны словами; у Птолемея 20-часовая параллель проходит через Фулу; спор Аристарха с Кратетом о <span lang="grc">κ</span> 190 опирается на схолию к Од. 2.1. Страницы Билича рецензент читал по неавторизованным копиям, длинную редакцию — по транскрипции неясного происхождения; эти места помечены как несверенные.</span></li>
           <li><span class="who"><b>Ответ редакции</b>версия 0.2</span><span>Приняты все существенные замечания: новизна переформулирована, раздел 4 переписан (аналогия, рукописи схолии к Арату, числа словами), раздел 5 — с учётом Буонаюто и схолии к Од. 2.1, вставка в переводе HQ снята, рисунок исправлен. Из малых приняты все; ссылки на неавторизованные копии и на транскрипцию неясного происхождения в статью не вошли.</span></li>
-          <li><span class="who"><b>Рецензия другой модели</b>GPT-6 Astra · OpenAI · 25.10.2026</span><span><span class="mqm">Рекомендация: существенная доработка, «заметно более узкая», чем для версии 0.1 · 2 существенных, 6 малых замечаний · из 14 прежних замечаний 6 устранены, 8 — частично</span><br>Существенные: аннотации и выводы увереннее основного текста — аналогия по длинной редакции подана как установленная, хотя Мартен не сверен; «бесспорный» отказ Аристарха от реальных локализаций — реконструкция. Малые: спор о κ 190 — реконструкция Лерса и Карнута, а не прямое свидетельство; формула «пришла из него» о конце схолии HQ подразумевала прямое заимствование из Евстафия; Гемин 16.22–23 вместо 16.21–22; порог на рисунке; досье не синхронизировано со статьёй; в приложении article.md не было греческого текста. Подтвердил перевод всего комплекса Диндорфа и астрономию независимым расчётом.</span></li>
+          <li><span class="who"><b>Рецензия другой модели</b>GPT-6 Astra · OpenAI · 25.10.2026</span><span><span class="mqm">Рекомендация: существенная доработка, «заметно более узкая», чем для версии 0.1 · 2 существенных, 6 малых замечаний · из 14 прежних замечаний 6 устранены, 8 — частично</span><br>Существенные: аннотации и выводы увереннее основного текста — аналогия по длинной редакции подана как установленная, хотя Мартен не сверен; «бесспорный» отказ Аристарха от реальных локализаций — реконструкция. Малые: спор о <span lang="grc">κ</span> 190 — реконструкция Лерса и Карнута, а не прямое свидетельство; формула «пришла из него» о конце схолии HQ подразумевала прямое заимствование из Евстафия; Гемин 16.22–23 вместо 16.21–22; порог на рисунке; досье не синхронизировано со статьёй; в приложении article.md не было греческого текста. Подтвердил перевод всего комплекса Диндорфа и астрономию независимым расчётом.</span></li>
           <li><span class="who"><b>Ответ редакции</b>версия 0.3</span><span>Приняты все восемь замечаний. Аннотации, разделы 4–6 и выводы приведены к условным формулировкам основного текста; добавлена оговорка, что словесная запись чисел не говорит о записи общего предка рукописей. Адрес Гемина (16.23) и порог рисунка проверены независимо и исправлены. Досье синхронизировано. Перед публикацией правки проверили два агента-оппонента; по их замечаниям уточнены формулировки в § 4–6 и примечаниях 13, 21, 38. Приложение с греческим текстом, переводом и аппаратом теперь в article.md, и страница берёт его оттуда. В литературу добавлен Glover 2026.</span></li>
           <li><span class="who"><b>Независимый перевод</b>GPT-6 Astra · OpenAI · 25.10.2026</span><span>Перевёл схолии приложения в новой сессии, только по греческому и общему глоссарию, не видя нашего перевода; попутно сверил греческий текст с изданием (3 замечания).</span></li>
-          <li><span class="who"><b>Сверка и арбитраж</b>агенты Claude · 25.10.2026</span><span>Греческий текст приложения сверен по сканам Диндорфа и Евстафия (Stallbaum): расхождений с изданием нет, одно замечание GPT подтверждено, два — частично. Из девяти существенных расхождений переводов в пяти принят независимый вариант («[Город] лестригонов», «позднейшие [поэты]», буквальное κατηστερίσθαι, «ночи нет», «упоминает и Гомер»), в трёх оставлен наш (расстояние между воротами — по пересказу Евстафия; «[Отметь,] что»; «самый долгий день»), одно расхождение (τὰ ἔννομα) вынесено в примечание.</span></li>
-          <li><span class="who"><b>Ответ редакции</b>версия 0.4</span><span>Перевод приложения сведён в один; под тремя схолиями — примечания о расхождениях. Цитата в § 3 и оговорка о «позднейших» в § 2 приведены в соответствие. Формула τοῦτο λέγει ὅτι, которую оба перевода передавали как «говорит это потому, что», переведена как пояснительная: «Он имеет в виду, что…».</span></li>
+          <li><span class="who"><b>Сверка и арбитраж</b>агенты Claude · 25.10.2026</span><span>Греческий текст приложения сверен по сканам Диндорфа и Евстафия (Stallbaum): расхождений с изданием нет, одно замечание GPT подтверждено, два — частично. Из девяти существенных расхождений переводов в пяти принят независимый вариант («[Город] лестригонов», «позднейшие [поэты]», буквальное <span lang="grc">κατηστερίσθαι</span>, «ночи нет», «упоминает и Гомер»), в трёх оставлен наш (расстояние между воротами — по пересказу Евстафия; «[Отметь,] что»; «самый долгий день»), одно расхождение (<span lang="grc">τὰ ἔννομα</span>) вынесено в примечание.</span></li>
+          <li><span class="who"><b>Ответ редакции</b>версия 0.4</span><span>Перевод приложения сведён в один; под тремя схолиями — примечания о расхождениях. Цитата в § 3 и оговорка о «позднейших» в § 2 приведены в соответствие. Формула <span lang="grc">τοῦτο λέγει ὅτι</span>, которую оба перевода передавали как «говорит это потому, что», переведена как пояснительная: «Он имеет в виду, что…».</span></li>
           <li><span class="who"><b>Автор</b>Александр Михельс, PhD</span><span class="pending">Ожидает вычитки.</span></li>
           <li><span class="who"><b>Рецензент</b>место открыто</span><span>Рецензии публикуются с именем рецензента и ответом автора, по лицензии CC BY 4.0.</span></li>
         </ol>
-        <div class="tbl-wrap wide">
-          <table>
+        {% call ui.tableWrap("История версий", "wide") %}
+          <table class="table">
             <caption>История версий</caption>
-            <thead><tr><th scope="col">Версия</th><th scope="col">Дата</th><th scope="col">Что изменилось</th></tr></thead>
+            <thead><tr><th scope="col">Версия</th><th scope="col" class="num">Дата</th><th scope="col">Что изменилось</th></tr></thead>
             <tbody>
               {%- for v in versions %}
-              <tr><td>{{ v.version }}</td><td class="num">{{ v.date }}</td><td>{{ v.text | safe }}</td></tr>
+              <tr><th scope="row">{{ v.version }}</th><td class="num"><time datetime="{{ v.date | isoDate }}">{{ v.date }}</time></td><td>{{ grc(v.text) }}</td></tr>
               {%- endfor %}
             </tbody>
           </table>
-        </div>
+        {% endcall %}
 
         <section class="refs" id="refs" aria-labelledby="refs-h">
-          <h2 id="refs-h"><span class="no">Литература</span>Источники и исследования</h2>
-          {{ art.refs | safe }}
+          {{ head("refs-h", "Литература", "Источники и исследования") }}
+          {{ grc(art.refs) }}
         </section>
 
-        <h2 id="cite"><span class="no">Цитирование</span>Как цитировать</h2>
-        <div class="cite-box wide">
-          <div class="seg-ctl" id="cite-ctl" role="group" aria-label="Формат ссылки">
-            <button type="button" data-fmt="gost" aria-pressed="true">ГОСТ</button>
-            <button type="button" data-fmt="chicago" aria-pressed="false">Chicago</button>
-            <button type="button" data-fmt="bibtex" aria-pressed="false">BibTeX</button>
-          </div>
-          <pre id="cite-text"></pre>
-          <button type="button" class="copy" id="copy-cite">Скопировать</button>
+        {#- строки цитирования — из поля cite; site.js показывает выбранный формат и копирует его #}
+        {{ head("cite", "Цитирование", "Как цитировать") }}
+        <div class="cite wide" id="cite-box">
+          {{ ui.switch("#cite-box", [{ value: "gost", label: "ГОСТ" }, { value: "chicago", label: "Chicago" }, { value: "bibtex", label: "BibTeX" }], "Формат ссылки") }}
+          <pre data-when="gost">{{ cite.gost | replace("{version}", version) }}</pre>
+          <pre data-when="chicago" lang="en" hidden>{{ cite.chicago | replace("{version}", version) }}</pre>
+          <pre data-when="bibtex" hidden>{{ cite.bibtex | replace("{version}", version) }}</pre>
+          <button type="button" class="btn btn--sm" data-copy="#cite-box" aria-live="polite">Скопировать</button>
         </div>
 
-        <h2 id="related-h"><span class="no">Рядом</span>Связанные материалы</h2>
-        <div class="related wide">
-          <a href="odyssey-10.html"><small>Перевод</small>Схолии к «Одиссее». Песнь X</a>
-          <a href="studies.html"><small>Исследования</small>Все работы на материале библиотеки</a>
-          <a href="method.html#ai"><small>Метод</small>Роль ИИ в работе редакции</a>
+        {{ head("related-h", "Рядом", "Связанные материалы") }}
+        <div class="grid grid--3 wide">
+          <a class="card" href="odyssey-10.html"><small>Перевод</small> <b>Схолии к «Одиссее». Песнь X</b></a>
+          <a class="card" href="studies.html"><small>Исследования</small> <b>Все работы на материале библиотеки</b></a>
+          <a class="card" href="method.html#ai"><small>Метод</small> <b>Роль ИИ в работе редакции</b></a>
         </div>
       </article>
     </div>
-  </main>

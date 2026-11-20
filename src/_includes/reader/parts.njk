@@ -1,0 +1,192 @@
+{#- Детали страницы чтения (тип reader) — общие для текстов из данных (text-body.njk) и страниц схолий (odyssey-10.njk).
+    Подключение:  {% import "reader/parts.njk" as rd with context %}
+    Стили — assets/css/layouts/reader.css, поведение — assets/js/reader.js и общий assets/js/site.js.
+
+    rd.head(title, sub, badge, ladder, status, note, has)   шапка: заголовок, служебная строка (тело вызова — её <span>),
+                                                            помета «первый перевод», блок статуса, ссылки по странице;
+                                                            has — какие блоки есть на странице: { about, process, versions }
+    rd.toolbar(items, label)                                панель чтения: переход к главе, показ, язык, новые схолии;
+                                                            items — список { href, label, group }: group открывает <optgroup>
+    rd.segment(id, notes)                                   сегмент (глава, схолия) с полем примечаний; тело вызова — колонка текста;
+                                                            notes — { both: [{ n | id + mark, ru, en, tag }], tagEn } или { ru: [...], en: [...] } с полем text
+    rd.segHead(id, level, ref, lemma)                       шапка сегмента: номер-заголовок со ссылкой на себя; тело вызова — чипы, кнопки
+    rd.chips(main, more, flag)                              чипы сегмента: main — { text, href } (страницы издания), more — список строк, flag — помета киноварью
+    rd.part(lang, orig, ru, en, sigla, label)               оригинал и два перевода; sigla и label — подпись части схолии
+    rd.disclosure(summary, items)                           раскрывающийся список (аппарат издания)
+    rd.reviewLog(summary, entries)                          журнал рецензии; запись — { role | step, who, text, mqm, pending, items: [{ grc, was, verdict }] }
+    rd.textFoot(cite, versions, licenses, ai, sep)          подвал текста: цитирование и версии, источник и лицензии, роль ИИ
+    rd.grc(html)                                            строка из данных (это HTML) с размеченным греческим: lang="grc" -#}
+{%- import "ui.njk" as ui with context -%}
+
+{% macro grc(html) -%}
+{{ html | greek | safe }}
+{%- endmacro %}
+
+{% macro head(title, sub, badge, ladder, status, note, has) -%}
+<header class="page-head">
+      <h1>{{ title }}</h1>
+      <p class="sub">{{ sub }}</p>
+      <p class="meta">
+        {{- caller() -}}
+      </p>
+      {%- if badge %}
+      <p class="chips"><span class="chip chip--gap">{{ badge }}</span></p>
+      {%- endif %}
+      {{ ui.status(ladder, status, note) }}
+      <p class="actions">
+        <a class="btn btn--sm" href="#text">К тексту</a>
+        {%- if has.about %}
+        <a class="btn btn--sm" href="#about">О тексте</a>
+        {%- endif %}
+        {%- if has.process %}
+        <a class="btn btn--sm" href="#process">Как сделан перевод</a>
+        {%- endif %}
+        {%- if has.versions %}
+        <a class="btn btn--sm" href="#versions">Версии</a>
+        {%- endif %}
+        <a class="btn btn--sm" href="#cite">Как цитировать</a>
+      </p>
+    </header>
+{%- endmacro %}
+
+{% macro toolbar(items, label="Перейти к части текста") -%}
+<div class="toolbar" role="group" aria-label="Режим чтения">
+      <select class="jump" data-jump aria-label="{{ label }}">
+        <option value="#text">К тексту</option>
+        {%- set grouped = false %}
+        {%- for i in items %}
+        {%- if i.group %}
+        {% if grouped %}</optgroup>{% endif %}<optgroup label="{{ i.group }}">
+        {%- set grouped = true %}
+        {%- endif %}
+        <option value="{{ i.href }}">{{ i.label }}</option>
+        {%- endfor %}
+        {% if grouped %}</optgroup>{% endif %}
+      </select>
+      <div class="group"><span aria-hidden="true">Показ</span>{{ ui.viewControl("Показ") }}</div>
+      <div class="group"><span aria-hidden="true">Язык перевода</span>{{ ui.langControl() }}</div>
+      <label class="toggle"><input type="checkbox" data-pref="notes" checked> Новые схолии на полях</label>
+    </div>
+{%- endmacro %}
+
+{#- Примечание на поле: id — nN или свой (n1a), у английской пары — с окончанием -en. -#}
+{% macro note(n, lang, html, tag) -%}
+<p class="note" id="{{ n.id if n.id else 'n' ~ n.n }}{{ '-en' if lang == 'en' }}" data-lang="{{ lang }}"{% if lang == "en" %} lang="en"{% endif %}><span class="mark">{{ grc(n.mark) if n.mark else n.n }}</span>{% if tag %}<span class="chip chip--gap">{{ tag }}</span> {% endif %}{{ grc(html) }}</p>
+{%- endmacro %}
+
+{% macro segment(id, notes) -%}
+{%- set any = (notes.both and notes.both.length) or (notes.ru and notes.ru.length) or (notes.en and notes.en.length) -%}
+<article class="seg{% if any %} seg--notes{% endif %}" id="{{ id }}" aria-labelledby="{{ id }}-h">
+        <div class="seg-main">
+          {{ caller() }}
+        </div>
+        {%- if any %}
+        <aside class="margin">
+          <p class="overline">Новые схолии</p>
+          {%- for n in notes.both %}
+          {{ note(n, "ru", n.ru, n.tag) }}
+          {{ note(n, "en", n.en, notes.tagEn if n.tag else "") }}
+          {%- endfor %}
+          {%- for n in notes.ru %}
+          {{ note(n, "ru", n.text) }}
+          {%- endfor %}
+          {%- for n in notes.en %}
+          {{ note(n, "en", n.text) }}
+          {%- endfor %}
+        </aside>
+        {%- endif %}
+      </article>
+{%- endmacro %}
+
+{% macro segHead(id, level, ref, lemma) -%}
+<div class="seg-head">
+            <h{{ level }} class="ref" id="{{ id }}-h"><a href="#{{ id }}">{{ grc(ref) }}</a></h{{ level }}>
+            {%- if lemma %}
+            <span class="lemma" lang="grc">{{ lemma }}</span>
+            {%- endif %}
+            {{ caller() if caller }}
+          </div>
+{%- endmacro %}
+
+{% macro chips(main, more, flag) -%}
+<span class="chips">
+              {%- if main %}{% if main.href %}<a class="chip chip--ink" href="{{ main.href }}">{{ main.text }}</a>{% else %}<span class="chip chip--ink">{{ main.text }}</span>{% endif %}{% endif %}
+              {%- for c in more %}<span class="chip">{{ grc(c) }}</span>{% endfor %}
+              {%- if flag %}<span class="chip chip--gap">{{ flag }}</span>{% endif -%}
+            </span>
+{%- endmacro %}
+
+{% macro part(lang, orig, ru, en, sigla, label) -%}
+<div class="part">
+              {%- if sigla or label %}
+              <p class="part-label"><b>{{ sigla }}</b> · {{ grc(label) }}</p>
+              {%- endif %}
+              <p class="orig-text" lang="{{ lang }}">{{ orig | safe }}</p>
+              <p class="tr-text" data-lang="ru">{{ grc(ru) }}</p>
+              <p class="tr-text" data-lang="en" lang="en">{{ grc(en) }}</p>
+            </div>
+{%- endmacro %}
+
+{% macro disclosure(summary, items) -%}
+{%- if items and items.length %}
+<details class="disclosure">
+            <summary>{{ summary }}</summary>
+            <ul>
+              {%- for i in items %}
+              <li>{{ grc(i) }}</li>
+              {%- endfor %}
+            </ul>
+          </details>
+{%- endif %}
+{%- endmacro %}
+
+{#- В данных встречаются два вида записи: role или step — название шага; pending — строка с текстом ожидания
+    или просто отметка true при обычном text. -#}
+{% macro reviewLog(summary, entries) -%}
+{%- if entries and entries.length %}
+<details class="disclosure">
+            <summary>{{ grc(summary) }}</summary>
+            <ol class="log">
+              {%- for e in entries %}
+              <li><span class="who"><b>{{ e.role if e.role else e.step }}</b> {{ e.who }}</span><span{% if e.pending %} class="pending"{% endif %}>
+                {%- if e.mqm %}<span class="mqm">{{ e.mqm }}</span><br>{% endif -%}
+                {{ grc((e.pending if e.pending is string else e.text)) }}
+                {%- if e.items %}
+                <ul>
+                  {%- for it in e.items %}
+                  <li><b lang="grc">{{ it.grc }}</b> — {{ grc(it.was) }}. Итог — {{ grc(it.verdict) }}.</li>
+                  {%- endfor %}
+                </ul>
+                {%- endif -%}
+              </span></li>
+              {%- endfor %}
+            </ol>
+          </details>
+{%- endif %}
+{%- endmacro %}
+
+{% macro textFoot(cite, versions, licenses, ai, sep=". ") -%}
+<footer class="text-foot">
+      <section aria-labelledby="cite">
+        <h2 class="overline" id="cite">Как цитировать</h2>
+        {{ ui.cite(cite) }}
+        {%- if versions and versions.length %}
+        <h2 class="overline" id="versions">Версии</h2>
+        <ul class="versions">
+          {%- for v in versions %}
+          <li><b>{{ v.version }}</b> · {{ v.date }}{{ sep }}{{ grc(v.text) }}</li>
+          {%- endfor %}
+        </ul>
+        {%- endif %}
+      </section>
+      <section aria-labelledby="lic-h">
+        <h2 class="overline" id="lic-h">Источник и лицензии</h2>
+        {{ grc(licenses) }}
+      </section>
+      <section aria-labelledby="ai-h">
+        <h2 class="overline" id="ai-h">Роль ИИ</h2>
+        {{ grc(ai) }}
+        <p><a href="method.html#pipeline">Метод и замер качества</a></p>
+      </section>
+    </footer>
+{%- endmacro %}

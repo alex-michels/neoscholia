@@ -1,78 +1,180 @@
-/* Neoscholia — shared styles: palette tokens, the reading sheet, site header, footer, colophon.
-   Page-specific styles live in assets/css/pages/<page>.css and load after this file. */
+/* Neoscholia — основа дизайн-системы: токены (цвета, шрифты, кегли, отступы), типографика и каркас
+   страницы (лист, шапка, уведомление, «хлебные крошки», подвал, колофон).
+   Порядок подключения: fonts.css → base.css → components.css → layouts/<тип>.css → pages/<страница>.css.
+   Общие компоненты — в components.css; образцы основных компонентов — на странице styleguide.html.
+
+   Брейкпоинты (их три, других не вводить):  ≤ 640px телефон · ≤ 900px планшет · ≤ 1200px узкий экран. */
+
+/* ---------- токены ---------- */
 :root {
-  --papyrus: #e7dcc4; --leaf: #fbf7ee; --panel: #f4ecdc;
-  --ink: #2b2219; --ink-soft: #6b5c4a;
-  --rubric: #a2361c; --lapis: #2f4b6e; --rule: #d9ccb1; --wash: #efe4cc;
-  --font-display: "Forum", "Times New Roman", serif;
+  /* цвет: фон-папирус, светлый лист, панель; чернила; киноварь (леммы, акценты, «нет перевода»); лазурь (ссылки, статусы) */
+  --papyrus: #e7dcc4; --leaf: #fbf7ee; --panel: #f4ecdc; --wash: #efe4cc;
+  --ink: #2b2219; --ink-soft: #655644;
+  --rubric: #a2361c; --lapis: #2f4b6e;
+  --rule: #d9ccb1;          /* декоративная линия */
+  --rule-strong: #8c7c62;   /* граница полей и кнопок: контраст с листом не ниже 3:1 */
+
+  /* шрифты: Forum — заголовки (греческого в нём нет, поэтому вторым идёт Gentium); Gentium Book Plus — текст
+     (кириллица, политонический греческий); Alegreya Sans SC — подписи */
+  --font-display: "Forum", "Gentium Book Plus", "Times New Roman", serif;
   --font-text: "Gentium Book Plus", "Gentium Plus", "Noto Serif", Georgia, serif;
   --font-label: "Alegreya Sans SC", "Trebuchet MS", sans-serif;
-  --measure: 40rem;
+
+  /* кегли: одна шкала на весь сайт */
+  --fs-xs: .8125rem;   /* 13px — метки, чипы, шапки таблиц */
+  --fs-sm: .9rem;      /* примечания, подписи, служебные строки */
+  --fs-md: 1rem;       /* второстепенный текст, элементы управления */
+  --fs-base: 1.0625rem;/* 17px — основной текст */
+  --fs-lg: 1.1875rem;  /* лид, оригинал крупнее перевода */
+  --fs-h4: 1.2rem;
+  --fs-h3: 1.4rem;
+  --fs-h2: clamp(1.6rem, 1.25rem + 1.5vw, 2.1rem);
+  --fs-h1: clamp(2.1rem, 1.35rem + 3.3vw, 3.25rem);
+  --fs-display: clamp(2.3rem, 1.3rem + 4.4vw, 3.75rem);
+  --fs-num: 1.75rem;   /* крупная цифра: факты, ряд цифр, номер шага */
+  --fs-brand: 1.75rem; /* знак в шапке; на телефоне 1.5rem */
+  --lh-tight: 1.1; --lh-snug: 1.3; --lh-text: 1.6;
+  --track: .05em;      /* разрядка подписей */
+  --track-wide: .08em; /* разрядка надзаголовков */
+
+  /* отступы */
+  --s1: .25rem; --s2: .5rem; --s3: .75rem; --s4: 1rem; --s5: 1.5rem; --s6: 2rem; --s7: 2.5rem; --s8: 3.5rem;
+  --gutter: 2.75rem;   /* поля листа */
+  --gap: 1.5rem;       /* шаг сеток */
+
+  /* ширины */
+  --sheet: 76rem;      /* лист */
+  --measure: 38rem;    /* строка сплошного текста (~70 знаков) — одна на весь сайт */
+  --margin-w: 15rem;   /* поле примечаний */
+  --sticky-top: env(safe-area-inset-top, 0px);
+  --sticky-h: 0px;     /* высота закреплённой панели чтения; страницы с панелью задают своё значение */
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --papyrus: #17130e; --leaf: #1f1a14; --panel: #262019; --ink: #e9dec7; --ink-soft: #b3a48b;
-    --rubric: #e08a6c; --lapis: #9db6d6; --rule: #3a3127; --wash: #2a231b; color-scheme: dark;
+    --papyrus: #17130e; --leaf: #1f1a14; --panel: #262019; --wash: #2a231b;
+    --ink: #e9dec7; --ink-soft: #b3a48b;
+    --rubric: #e08a6c; --lapis: #9db6d6;
+    --rule: #3a3127; --rule-strong: #7a6c59; color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --papyrus: #17130e; --leaf: #1f1a14; --panel: #262019; --ink: #e9dec7; --ink-soft: #b3a48b;
-  --rubric: #e08a6c; --lapis: #9db6d6; --rule: #3a3127; --wash: #2a231b; color-scheme: dark;
+  --papyrus: #17130e; --leaf: #1f1a14; --panel: #262019; --wash: #2a231b;
+  --ink: #e9dec7; --ink-soft: #b3a48b;
+  --rubric: #e08a6c; --lapis: #9db6d6;
+  --rule: #3a3127; --rule-strong: #7a6c59; color-scheme: dark;
 }
-:root { padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); }
-* { box-sizing: border-box; }
+:root[data-theme="light"] { color-scheme: light; }
+
+/* ---------- основа ---------- */
+*, *::before, *::after { box-sizing: border-box; }
 [hidden] { display: none !important; }
-img { max-width: 100%; }
-body { margin: 0; background: var(--papyrus); color: var(--ink); font: 1.05rem/1.6 var(--font-text);
-  padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); padding-block: 0 2.5rem; }
-a { color: var(--lapis); text-underline-offset: .18em; }
-a:focus-visible, button:focus-visible, select:focus-visible, input:focus-visible, summary:focus-visible { outline: 2px solid var(--lapis); outline-offset: 2px; }
-.wrap { max-width: 76rem; margin: 0 auto; background: var(--leaf); border: 1px solid var(--rule); border-top: 0; padding: 0 2.75rem; }
-.label { font-family: var(--font-label); letter-spacing: .06em; }
-h1, h2, h3 { font-family: var(--font-display); font-weight: 400; text-wrap: balance; }
-[lang="grc"] { font-family: var(--font-text); }
+:root { padding-top: env(safe-area-inset-top, 0px); padding-bottom: env(safe-area-inset-bottom, 0px); -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+body { margin: 0; background: var(--papyrus); color: var(--ink); font: var(--fs-base)/var(--lh-text) var(--font-text);
+  padding-inline: max(16px, env(safe-area-inset-left, 0px)) max(16px, env(safe-area-inset-right, 0px)); padding-block: 0 var(--s7);
+  font-variant-numeric: oldstyle-nums; text-rendering: optimizeLegibility; }
+img, svg { max-width: 100%; }
+a { color: var(--lapis); text-decoration-thickness: .06em; text-underline-offset: .18em; }
+a:hover { text-decoration-thickness: .1em; }
+:focus-visible { outline: 2px solid var(--lapis); outline-offset: 2px; }
+h1, h2, h3, h4 { font-family: var(--font-display); font-weight: 400; line-height: var(--lh-snug); text-wrap: balance; margin: 0; }
+h1 { font-size: var(--fs-h1); line-height: var(--lh-tight); }
+h2 { font-size: var(--fs-h2); line-height: 1.15; }
+h3 { font-size: var(--fs-h3); }
+h4 { font-size: var(--fs-h4); }
+p { margin: 0 0 var(--s4); }
+p:last-child { margin-bottom: 0; }
+small { font-size: var(--fs-sm); }
+/* имя файла, класса, поля: шрифтом подписей, не моноширинным */
+code { font-family: var(--font-label); letter-spacing: var(--track); font-size: .95em; color: var(--lapis); }
+button, input, select, textarea { font: inherit; color: inherit; }
+button { cursor: pointer; }
+[lang="grc"], [lang="la"] { font-family: var(--font-text); font-style: normal; }
+::selection { background: var(--lapis); color: var(--leaf); }
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+[id] { scroll-margin-top: calc(var(--sticky-h) + var(--s4)); }
+/* перенос слов в узких колонках: только там, где он нужен, — на телефоне */
+@media (max-width: 640px) { p, li, dd { hyphens: auto; } [lang="grc"], [lang="la"] { hyphens: manual; } }
 
-/* header */
-.site { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: .75rem 2rem; padding-block: 1.1rem .9rem; border-bottom: 1px solid var(--rule); }
-.brand { display: flex; flex-direction: column; text-decoration: none; color: var(--ink); line-height: 1.1; }
-.brand b { font-family: var(--font-display); font-weight: 400; font-size: 1.75rem; letter-spacing: .06em; }
+/* ---------- лист ---------- */
+.wrap { max-width: var(--sheet); margin: 0 auto; background: var(--leaf); border: 1px solid var(--rule); border-top: 0; padding: 0 var(--gutter); }
+main { display: block; min-height: 50vh; }
+main:focus { outline: none; }   /* сюда ведёт ссылка «К содержанию»: рамка вокруг всей страницы не нужна */
+.skip { position: absolute; left: var(--s4); top: -4rem; z-index: 20; padding: var(--s2) var(--s4); background: var(--ink); color: var(--leaf); font-family: var(--font-label); letter-spacing: var(--track); }
+.skip:focus { top: var(--s2); }
+.sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0; overflow: hidden; clip-path: inset(50%); white-space: nowrap; border: 0; }
+
+/* ---------- шапка ---------- */
+.site { display: flex; flex-wrap: wrap; align-items: center; gap: var(--s3) var(--s6); padding-block: 1.1rem .95rem; border-bottom: 1px solid var(--rule); }
+.brand { display: flex; flex-direction: column; flex: 1 1 0; text-decoration: none; color: var(--ink); line-height: 1.1; margin-right: auto; }
+.brand b { font-family: var(--font-display); font-weight: 400; font-size: var(--fs-brand); letter-spacing: .06em; }
 .brand b span { color: var(--rubric); }
-.brand small { font-size: .85rem; color: var(--ink-soft); }
-.site nav { display: flex; flex-wrap: wrap; gap: .3rem 1.4rem; font-family: var(--font-label); font-size: 1rem; letter-spacing: .04em; }
-.site nav a { color: var(--ink-soft); text-decoration: none; padding-block: .15rem; }
-.site nav a[aria-current] { color: var(--ink); border-bottom: 1px solid var(--rubric); }
-.lang { display: inline-flex; border: 1px solid var(--rule); font-family: var(--font-label); font-size: .85rem; }
-.lang span, .lang button { padding: .15rem .55rem; font: inherit; border: 0; background: transparent; color: var(--ink-soft); }
-.lang span { background: var(--ink); color: var(--leaf); }
-.lang button { cursor: not-allowed; border-left: 1px solid var(--rule); }
-.mock { margin-top: 1rem; background: var(--wash); border: 1px dashed var(--rule); padding: .55rem .9rem; font-size: .9rem; color: var(--ink-soft); }
-.mock b { color: var(--ink); }
-.crumbs { margin-top: 1.5rem; font-family: var(--font-label); font-size: .9rem; letter-spacing: .04em; color: var(--ink-soft); }
-.crumbs a { color: var(--ink-soft); }
+.brand small { font-size: var(--fs-xs); color: var(--ink-soft); }
+.site-nav { display: flex; flex-wrap: wrap; gap: var(--s1) 1.4rem; font-family: var(--font-label); font-size: var(--fs-md); letter-spacing: var(--track); }
+.site-nav a { color: var(--ink-soft); text-decoration: none; padding-block: .3rem; border-bottom: 1px solid transparent; }
+.site-nav a:hover { color: var(--ink); }
+.site-nav a[aria-current] { color: var(--ink); border-bottom-color: var(--rubric); }
+/* в прокручиваемых блоках рамка фокуса рисуется внутрь, иначе её обрезает край блока */
+.site-nav a:focus-visible, .toc a:focus-visible, .toc summary:focus-visible, .notes-more:focus-visible { outline-offset: -2px; }
+.site-tools { display: flex; align-items: center; gap: var(--s2); }
+.tool { display: inline-grid; place-items: center; min-width: 2rem; height: 2rem; padding: 0 var(--s2); border: 1px solid var(--rule); background: transparent; color: var(--ink-soft);
+  font-family: var(--font-label); font-size: var(--fs-xs); letter-spacing: var(--track); }
+.tool:hover { color: var(--ink); border-color: var(--rule-strong); }
+.tool svg { width: 1rem; height: 1rem; display: block; }
+/* на светлой теме кнопка показывает луну (перейти к тёмной), на тёмной — солнце */
+.theme-toggle .i-sun, :root[data-theme="dark"] .theme-toggle .i-moon { display: none; }
+:root[data-theme="dark"] .theme-toggle .i-sun { display: block; }
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) .theme-toggle .i-moon { display: none; }
+  :root:not([data-theme="light"]) .theme-toggle .i-sun { display: block; }
+}
 
-/* status ladder (texts and studies) */
-.ladder { display: flex; flex-wrap: wrap; gap: .4rem; margin: 1rem 0 0; padding: 0; list-style: none; }
-.ladder li { font-family: var(--font-label); font-size: .84rem; letter-spacing: .04em; padding: .2rem .65rem; border: 1px solid var(--rule); color: var(--ink-soft); background: var(--leaf); }
-.ladder li.done { color: var(--lapis); border-color: var(--lapis); }
-.ladder li.done::before { content: "● "; }
-.ladder li:not(.done)::before { content: "○ "; }
-.ladder li[aria-current] { color: var(--leaf); background: var(--lapis); border-color: var(--lapis); }
+/* ---------- уведомление о состоянии страницы (макет, версия) ---------- */
+.notice { margin: var(--s4) 0 0; padding: .5rem .9rem; background: var(--wash); border-left: 3px solid var(--rule-strong); font-size: var(--fs-sm); line-height: 1.5; color: var(--ink-soft); }
+.notice b { color: var(--ink); }
 
-/* footer */
-.foot { border-top: 2px solid var(--ink); margin-top: 2.5rem; padding-block: 1.6rem 1.4rem; display: grid; grid-template-columns: 1.4fr repeat(3, minmax(0, 1fr)); gap: 1.5rem 2rem; font-size: .93rem; }
-.foot h2 { font-family: var(--font-label); font-size: .85rem; letter-spacing: .08em; color: var(--ink-soft); margin: 0 0 .5rem; }
+/* ---------- «хлебные крошки» ---------- */
+.crumbs { margin: var(--s5) 0 0; font-family: var(--font-label); font-size: var(--fs-sm); letter-spacing: var(--track); color: var(--ink-soft); }
+.crumbs ol { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 0 .45rem; }
+.crumbs li + li::before { content: "›"; margin-right: .45rem; color: var(--rule-strong); }
+.crumbs a { display: inline-block; padding-block: .05rem; margin-block: -.05rem; color: var(--ink-soft); }
+.crumbs a:hover { color: var(--ink); }
+
+/* ---------- подвал и колофон ---------- */
+.foot { border-top: 2px solid var(--ink); margin-top: var(--s8); padding-block: 1.6rem 1.4rem; display: grid; grid-template-columns: 1.4fr repeat(3, minmax(0, 1fr)); gap: var(--s5) var(--s6); font-size: var(--fs-sm); }
+.foot h2 { font-family: var(--font-label); font-weight: 700; font-size: var(--fs-xs); letter-spacing: var(--track-wide); color: var(--ink-soft); margin: 0 0 var(--s2); }
 .foot ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .3rem; }
 .foot a { color: var(--ink); text-decoration: none; }
 .foot a:hover { color: var(--rubric); text-decoration: underline; }
-.foot .about p { margin: 0 0 .6rem; color: var(--ink-soft); }
-.foot .about b { font-family: var(--font-display); font-weight: 400; font-size: 1.4rem; color: var(--ink); display: block; margin-bottom: .3rem; }
-.colophon { border-top: 1px solid var(--rule); padding-block: .9rem 1.2rem; display: flex; flex-wrap: wrap; justify-content: space-between; gap: .4rem 1.5rem; font-size: .85rem; color: var(--ink-soft); }
+.foot .about p { margin: 0 0 .6rem; color: var(--ink-soft); max-width: 26rem; }
+.foot .about b { font-family: var(--font-display); font-weight: 400; font-size: var(--fs-h3); color: var(--ink); display: block; margin-bottom: .3rem; }
+.colophon { border-top: 1px solid var(--rule); padding-block: .9rem 1.2rem; display: flex; flex-wrap: wrap; justify-content: space-between; gap: .4rem var(--s5); font-size: var(--fs-xs); color: var(--ink-soft); }
 .colophon a { color: var(--ink-soft); }
 
-@media (max-width: 1020px) { .foot { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
-@media (max-width: 880px) { .wrap { padding: 0 1.5rem; } }
-@media (max-width: 600px) {
-  .wrap { padding: 0 1rem; }
+@media (max-width: 1200px) { :root { --gutter: 2rem; } }
+@media (max-width: 900px) {
+  :root { --gutter: 1.5rem; --gap: 1.25rem; }
+  .foot { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .site { gap: var(--s2) var(--s5); }
+  .site-nav { order: 3; flex: 0 0 calc(100% + 2 * var(--gutter)); flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none; margin-inline: calc(-1 * var(--gutter)); padding-inline: var(--gutter); gap: 0 1.3rem; }
+  .site-nav::-webkit-scrollbar { display: none; }
+  .site-nav a { white-space: nowrap; padding-block: .45rem; }
+}
+@media (max-width: 640px) {
+  :root { --gutter: 1rem; --fs-brand: 1.5rem; }
+  body { padding-inline: 0; padding-bottom: 0; }
+  .wrap { border-inline: 0; }
+  /* строка меню прокручивается: правый край растворяется, пока справа есть пункты */
+  .site-nav { padding-right: 2.5rem; -webkit-mask-image: linear-gradient(to right, #000 calc(100% - 2.5rem), transparent); mask-image: linear-gradient(to right, #000 calc(100% - 2.5rem), transparent); }
   .foot { grid-template-columns: minmax(0, 1fr); }
 }
-@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+
+/* ---------- печать: лист без оформления, скрыта навигация и элементы управления ---------- */
+@media print {
+  :root, :root[data-theme="dark"], :root:not([data-theme="light"]) { --papyrus: #fff; --leaf: #fff; --panel: #fff; --wash: #fff; --ink: #000; --ink-soft: #333; --rubric: #7a1f0c; --lapis: #1d2f47; --rule: #bbb; --rule-strong: #777; color-scheme: light; }
+  body { padding: 0; font-size: 11pt; }
+  .wrap { border: 0; padding: 0; max-width: none; }
+  .site-nav, .site-tools, .skip, .notice, .foot, .toolbar, .filters, .seg-ctl, .toc, .btn, .page-head form, .hint[role="status"], input[type="search"], input[type="range"] { display: none !important; }
+  a { color: inherit; text-decoration: none; }
+  .site { border-bottom: 1px solid var(--ink); }
+  h1, h2, h3 { break-after: avoid; }
+}

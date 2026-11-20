@@ -2,12 +2,16 @@
 title: "Схолии к «Одиссее» X"
 nav: "library"
 permalink: "odyssey-10.html"
-styles: ["odyssey-10"]
+pageType: "reader"
 ladder: "text"
 status: "models"
 version: "0.2"
 updated: "25.10.2026"
-scripts: ["odyssey-10"]
+crumbs:
+  - { label: "Библиотека", href: "library.html" }
+  - { label: "Схолии", href: "scholia.html" }
+  - { label: "К «Одиссее»" }
+  - { label: "Песнь X" }
 card:
   order: 3
   section: "Схолии"
@@ -25,48 +29,35 @@ versions:
     at: "2026-10-25T14:10"
     short: "образец страницы схолий: перевод и новые схолии, журнал рецензии — демонстрационный"
     text: "Первый черновик страницы."
-mock: "<b>Версия 0.2.</b> Греческий текст сверен по сканам издания Диндорфа. Перевод сведён из двух независимых — Claude (Anthropic) и GPT-6 Astra (OpenAI) — и проверен моделями; редактор его ещё не читал. Сиглы даны по Диндорфу; с изданием Понтани текст не сверялся."
+mock: "<b>Версия {version:odyssey-10}.</b> Греческий текст сверен по сканам издания Диндорфа. Перевод сведён из двух независимых — Claude (Anthropic) и GPT-6 Astra (OpenAI) — и проверен моделями; редактор его ещё не читал. Сиглы даны по Диндорфу; с изданием Понтани текст не сверялся."
 ---
+{#- Страница схолий: данные — src/_data/scholia/odyssey-10.json (стихи Гомера, схолии по частям, аппарат, примечания, журнал).
+    Общие детали (шапка, панель чтения, сегмент, журнал, подвал) — в reader/parts.njk, как у текстов из text-body.njk. -#}
+{%- import "ui.njk" as ui with context -%}
+{%- import "reader/parts.njk" as rd with context -%}
 {%- set d = scholia["odyssey-10"] -%}
-<main id="top">
-    <div class="crumbs"><a href="library.html">Библиотека</a> › <a href="scholia.html">Схолии</a> › <a href="#top">К «Одиссее»</a> › Песнь X</div>
-    <h1>Схолии к «Одиссее». Песнь X</h1>
-    <p class="sub">Остров Эола: стихи 1–4</p>
-    <div class="meta">
-      <span>Основа текста: <b>Dindorf, Scholia Graeca in Homeri Odysseam II, Oxford 1855, с. 443–446</b></span>
-      <span>Версия <b>{{ version }}</b> · {{ updated }}</span>
-      <span>DOI: <b>появится при публикации</b></span>
-    </div>
-    {% include "ladder.njk" %}
+{%- set jump = [] -%}
+{%- for s in d.scholia %}{% set _ = jump.push({ href: "#" ~ s.id, label: s.ref }) %}{% endfor -%}
 
-    <div class="controls" role="toolbar" aria-label="Режим чтения">
-      <div class="group"><span>Показ</span>
-        <div class="seg-ctl" id="view-ctl">
-          <button type="button" data-view="translation" aria-pressed="false">Перевод</button>
-          <button type="button" data-view="parallel" aria-pressed="true">Параллельно</button>
-          <button type="button" data-view="original" aria-pressed="false">Оригинал</button>
-        </div>
-      </div>
-      <div class="group"><span>Язык перевода</span>
-        <div class="seg-ctl" id="lang-ctl">
-          <button type="button" data-lang-set="ru" aria-pressed="true">RU</button>
-          <button type="button" data-lang-set="en" aria-pressed="false">EN</button>
-        </div>
-      </div>
-      <label class="toggle" for="notes-toggle"><input type="checkbox" id="notes-toggle" checked> Новые схолии на полях</label>
-    </div>
+{% call rd.head("Схолии к «Одиссее». Песнь X", "Остров Эола: стихи 1–4", "", ladder, status, mock, { versions: versions }) %}
+        <span>Основа текста: <b>Dindorf, Scholia Graeca in Homeri Odysseam II, Oxford 1855, с. 443–446</b></span>
+        <span>Версия <b>{{ version }}</b> · {{ updated }}</span>
+        <span>DOI: <b>появится при публикации</b></span>
+      {% endcall %}
 
-    <section class="homer" aria-labelledby="homer-h">
-      <h2 id="homer-h">Гомер, «Одиссея» 10.1–4 — к этим стихам относятся схолии</h2>
-      <div class="homer-grid">
-        <ol class="grc" lang="grc">
+    {{ rd.toolbar(jump, "Перейти к схолии") }}
+
+    <section class="panel verses" aria-labelledby="homer-h">
+      <h2 class="overline" id="homer-h">Гомер, «Одиссея» 10.1–4 — к этим стихам относятся схолии</h2>
+      <div class="verses-grid">
+        <ol lang="grc">
           {%- for v in d.homer %}
           <li><span>{{ v.grc | safe }}</span></li>
           {%- endfor %}
         </ol>
         <div>
           {%- for lang in ["ru", "en"] %}
-          <ol data-lang="{{ lang }}">
+          <ol data-lang="{{ lang }}"{% if lang == "en" %} lang="en"{% endif %}>
             {%- for v in d.homer %}
             <li><span>{{ v[lang] | safe }}</span></li>
             {%- endfor %}
@@ -74,87 +65,34 @@ mock: "<b>Версия 0.2.</b> Греческий текст сверен по 
           {%- endfor %}
         </div>
       </div>
-      <p class="homer-src">Текст Гомера — по изданию A. T. Murray (Loeb, 1919).</p>
+      <p class="verses-src">Текст Гомера — по изданию A. T. Murray (Loeb, 1919).</p>
     </section>
 
-    <section class="scholia" aria-labelledby="sch-h">
-      <h2 id="sch-h">Схолии</h2>
-      <p class="sch-intro">Под каждым стихом — все схолии, которые печатает Диндорф, в его порядке. Над каждой частью — сиглы рукописей и строки издания. Перевод леммы (слов Гомера, к которым относится схолия) стоит в начале перевода, перед квадратной скобкой; в квадратных скобках — слова, добавленные переводчиком.</p>
+    <section class="section" aria-labelledby="text">
+      {{ ui.sectionHead("Схолии", "Под каждым стихом — все схолии, которые печатает Диндорф, в его порядке. Над каждой частью — сиглы рукописей и строки издания. Перевод леммы (слов Гомера, к которым относится схолия) стоит в начале перевода, перед квадратной скобкой; в квадратных скобках — слова, добавленные переводчиком.", "text") }}
       {%- for s in d.scholia %}
 
-      <article class="seg" id="{{ s.id }}">
-        <div class="seg-main">
-          <div class="seg-head">
-            <span class="ref">{{ s.ref }}</span>
-            <span class="lemma" lang="grc">{{ s.lemma }}</span>
-            <span class="chips"><a class="chip sigla" href="{{ s.scan }}">Dindorf {{ s.dindorf }}</a>{% for c in s.chips %}<span class="chip">{{ c }}</span>{% endfor %}{% if s.late %}<span class="chip late">{{ s.late }}</span>{% endif %}</span>
-          </div>
+      {% call rd.segment(s.id, { both: s.notes, tagEn: "divergence" }) %}
+          {%- call rd.segHead(s.id, 3, s.ref, s.lemma) %}
+            {{- rd.chips({ text: "Dindorf " ~ s.dindorf, href: s.scan }, s.chips, s.late) }}
+          {%- endcall %}
           <div class="body">
             {%- for p in s.parts %}
-            <div class="sub-schol">
-              <div class="sub-label"><b class="sig">{{ p.sigla }}</b> · {{ p.label }}</div>
-              <p class="grc-text" lang="grc">{{ p.grc | safe }}</p>
-              <p class="tr-text" data-lang="ru">{{ p.ru | safe }}</p>
-              <p class="tr-text" data-lang="en" lang="en">{{ p.en | safe }}</p>
-            </div>
+            {{ rd.part("grc", p.grc, p.ru, p.en, p.sigla, p.label) }}
             {%- endfor %}
           </div>
-          <details class="app">
-            <summary>Аппарат Диндорфа</summary>
-            <ul>
-              {%- for a in s.apparatus %}
-              <li>{{ a | safe }}</li>
-              {%- endfor %}
-            </ul>
-          </details>
-          <details class="review">
-            <summary>Журнал рецензии к {{ s.ref }}</summary>
-            <ol class="log">
-              {%- for e in s.log %}
-              <li><span class="who"><b>{{ e.step }}</b>{{ e.who }}</span><span>{% if e.pending %}<span class="pending">{{ e.pending }}</span>{% else %}{{ e.text }}{% endif %}
-                {%- if e.items %}
-                <ul class="div">
-                  {%- for it in e.items %}
-                  <li><b lang="grc">{{ it.grc }}</b> — {{ it.was }}. Итог — {{ it.verdict }}.</li>
-                  {%- endfor %}
-                </ul>
-                {%- endif %}</span></li>
-              {%- endfor %}
-            </ol>
-          </details>
-        </div>
-        <aside class="margin" aria-label="Новые схолии к {{ s.ref }}">
-          <h3>Новые схолии</h3>
-          {%- for n in s.notes %}
-          <p class="note" id="{{ n.id }}" data-lang="ru"><span class="mark">{{ n.mark }}</span>{% if n.tag %}<span class="tag">{{ n.tag }}</span> {% endif %}{{ n.ru | safe }}</p>
-          <p class="note" id="{{ n.id }}-en" data-lang="en" lang="en"><span class="mark">{{ n.mark }}</span>{% if n.tag %}<span class="tag">divergence</span> {% endif %}{{ n.en | safe }}</p>
-          {%- endfor %}
-        </aside>
-      </article>
+          {{- rd.disclosure("Аппарат Диндорфа", s.apparatus) }}
+          {{- rd.reviewLog("Журнал рецензии к " ~ s.ref, s.log) }}
+      {%- endcall %}
       {%- endfor %}
     </section>
 
-    <footer class="text-foot">
-      <section>
-        <h2>Как цитировать</h2>
-        <p class="cite" id="cite-text">Схолии к «Одиссее», песнь X, ст. 1–4 / пер. и комм. Александр Михельс. Версия {{ version }}. Neoscholia, 2026. DOI: [появится при публикации].</p>
-        <button type="button" class="copy" id="copy-cite">Скопировать</button>
-        <h2 class="versions-h">Версии</h2>
-        <ul class="versions">
-          {%- for v in versions %}
-          <li><b>{{ v.version }}</b> · {{ v.date }} — {{ v.text }}</li>
-          {%- endfor %}
-        </ul>
-      </section>
-      <section>
-        <h2>Источник и лицензии</h2>
+    {%- set licenses %}
         <p>Греческий текст: Scholia Graeca in Homeri Odysseam, ed. W. Dindorf, t. II (Oxford, 1855), по сканам <a href="https://archive.org/details/scholiagraeodyss02homeuoft">Internet Archive</a>; Гомер — Homer, The Odyssey, ed. A. T. Murray (Loeb, 1919). Оба издания — общественное достояние. Чтения издания Понтани обсуждаются в комментарии, его текст не воспроизводится.</p>
         <p>Перевод и комментарий — CC BY-NC-SA 4.0. Журнал рецензии — CC0. Черновики, сверка и арбитраж лежат в <a href="{{ site.repo }}/tree/main/research/texts/odyssey-scholia">репозитории</a>.</p>
-      </section>
-      <section>
-        <h2>Роль ИИ</h2>
+    {%- endset %}
+    {%- set ai %}
         <p>Первый перевод и новые схолии подготовила модель Claude Opus 5.5 (Anthropic). Независимый перевод с греческого сделала модель другого семейства — GPT-6 Astra (OpenAI, Codex), не видя первого. Сверку текста по сканам и арбитраж выполнили агенты Claude: публикуется один перевод, существенные расхождения вынесены в примечания, остальные разобраны в журнале. Системы ИИ не являются авторами; за текст отвечает редактор, статус его проверки указан вверху страницы.</p>
-        <p><a href="method.html#pipeline">Метод и замер качества</a></p>
-      </section>
-    </footer>
-  </main>
+    {%- endset %}
+
+    {{ rd.textFoot("Схолии к «Одиссее», песнь X, ст. 1–4 / пер. и комм. Александр Михельс. Версия " ~ version ~ ". Neoscholia, 2026. DOI: [появится при публикации].", versions, licenses, ai, " — ") }}

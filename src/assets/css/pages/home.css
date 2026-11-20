@@ -1,0 +1,18 @@
+/* Главная страница: только то, чего нет в общих компонентах, —
+   тезис проекта самым крупным кеглем и образец перевода (оригинал, перевод, новая схолия). */
+
+/* тезис */
+.hero { padding-top: var(--s5); }
+.hero h1 { font-size: var(--fs-display); }
+.hero h1 em { font-style: normal; color: var(--rubric); }
+
+/* образец: строка источника, оригинал крупнее перевода, схолия под пунктиром;
+   в одну колонку панель не шире строки текста */
+.specimen { max-width: calc(var(--measure) + 2.5rem + 2px); }
+.specimen .label { display: flex; flex-wrap: wrap; justify-content: space-between; gap: var(--s1) var(--s4); font-size: var(--fs-xs); color: var(--ink-soft); margin-bottom: var(--s3); }
+.specimen .orig { font-size: var(--fs-lg); margin-bottom: var(--s3); }
+.specimen .note { font-size: var(--fs-sm); line-height: 1.55; color: var(--ink-soft); border-top: 1px dashed var(--rule); padding-top: var(--s3); }
+.specimen .note b { color: var(--rubric); }
+
+/* «Как мы переводим»: перечень статусов отделён от шагов */
+.steps + .ladder { margin-top: var(--s5); }

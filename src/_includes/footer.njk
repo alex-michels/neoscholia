@@ -5,9 +5,9 @@
       <p>Переводы готовятся с помощью языковых моделей, проверяются моделями разных семейств и редактором. Системы ИИ не являются авторами.</p>
     </div>
     <div><h2>Библиотека</h2><ul>
-      <li><a href="{{ root }}alexander.html">Роман об Александре</a></li>
-      <li><a href="{{ root }}scholia.html">Схолии</a></li>
-      <li><a href="{{ root }}music.html">Музыка</a></li>
+      {%- for s in sections %}{% if s.footer %}
+      <li><a href="{{ root }}{{ s.href }}">{{ s.title }}</a></li>
+      {%- endif %}{% endfor %}
       <li><a href="{{ root }}library.html">Все тексты</a></li>
       <li><a href="{{ root }}indexes.html">Указатели</a></li>
     </ul></div>
@@ -34,5 +34,5 @@
   <div class="colophon">
     <span>© 2026 Neoscholia</span>
     <span>{% if change %}Страница изменена {{ change.date }} · <a href="{{ site.repo }}/commits/{{ site.branch }}/{{ page.inputPath | repoPath }}">история правок</a>{% else %}Правки страницы ещё не опубликованы{% endif %}</span>
-    <span><a href="{{ site.repo }}">Исходный код и тексты</a></span>
+    <span><a href="{{ root }}styleguide.html">Оформление</a> · <a href="{{ site.repo }}">Исходный код и тексты</a></span>
   </div>

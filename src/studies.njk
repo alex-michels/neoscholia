@@ -1,100 +1,107 @@
 ---
 title: "Исследования Neoscholia"
+description: "Исследования Neoscholia: работы, которые мы пишем на материале переводов библиотеки, — от досье источников и препринта до окончательной версии."
 nav: "studies"
 permalink: "studies.html"
 styles: ["studies"]
-scripts: ["studies"]
 mock: "<b>Макет страницы.</b> Перечислены работы, которые вырастают из первых переводов библиотеки. Первая статья вышла как препринт; «в работе» — те, что связаны с пилотными текстами."
 ---
-<main id="top">
-    <div class="crumbs"><a href="index.html">Главная</a> › Исследования</div>
+{#- Список работ — из src/_data/studies.yaml; названия разделов, видов и состояний — из src/_data/studyLists.yaml.
+    Фильтры работают через общий скрипт (site.js): кнопки data-f — раздел, data-flag — «только в работе». -#}
+{%- import "ui.njk" as ui with context -%}
 
-    <section class="intro" aria-labelledby="h1">
+{#- «N работ в плане»: число работ одного вида и слово «работа» в нужной форме. -#}
+{%- set byKind = studies | groupby("kind") -%}
+{%- macro planned(n) -%}
+{%- set m10 = n % 10 -%}
+{%- set m100 = n % 100 -%}
+{{ n }} {% if m10 == 1 and m100 != 11 %}работа{% elif m10 >= 2 and m10 <= 4 and (m100 < 12 or m100 > 14) %}работы{% else %}работ{% endif %} в плане
+{%- endmacro -%}
+
+<header class="page-head page-head--split">
       <div>
         <h1 id="h1">Исследования</h1>
         <p>Первый перевод открывает текст, который почти никто не читал целиком. Из него вырастают вопросы: откуда сведения, как устроена традиция, что меняет новая находка. Здесь собраны работы, которые мы пишем на материале переводов библиотеки.</p>
         <p>Статьи публикуются здесь: от досье источников и препринта до окончательной версии. Вся история правок открыта.</p>
       </div>
-      <aside class="rule-box" aria-labelledby="rules-h">
-        <h2 id="rules-h">Как связаны перевод и статья</h2>
+      <aside class="panel" aria-labelledby="rules-h">
+        <h2 class="overline" id="rules-h">Как связаны перевод и статья</h2>
         <ol>
           <li>Перевод публикуется в библиотеке с версией и DOI.</li>
           <li>Статья ссылается на эту версию и добавляет то, чего нет в переводе: анализ, новые выводы.</li>
           <li>Роль ИИ раскрыта на странице статьи; цитаты сверены человеком.</li>
         </ol>
       </aside>
-    </section>
+    </header>
 
-    <section class="block" aria-labelledby="tr-h">
-      <div class="block-head"><h2 id="tr-h">Три направления</h2></div>
-      <div class="tracks">
-        <div class="track"><h3>Статьи по текстам</h3><p>Исторические и филологические работы о том, что сообщают впервые переведённые тексты.</p><span class="n" id="n-text"></span></div>
-        <div class="track"><h3>Методология</h3><p>Как модели переводят древние языки, где ошибаются и что ловит перекрёстная проверка.</p><span class="n" id="n-method"></span></div>
-        <div class="track"><h3>Данные</h3><p>Открытый корпус: оригиналы, переводы, журналы рецензии — для тех, кто хочет проверить или продолжить.</p><span class="n" id="n-data"></span></div>
+    <section class="section" aria-labelledby="tr-h">
+      {{ ui.sectionHead("Три направления", "", "tr-h") }}
+      <div class="grid grid--3">
+        <div class="record"><h3>Статьи по текстам</h3><p>Исторические и филологические работы о том, что сообщают впервые переведённые тексты.</p><p class="info label">{{ planned(byKind.text | length) }}</p></div>
+        <div class="record"><h3>Методология</h3><p>Как модели переводят древние языки, где ошибаются и что ловит перекрёстная проверка.</p><p class="info label">{{ planned(byKind.method | length) }}</p></div>
+        <div class="record"><h3>Данные</h3><p>Открытый корпус: оригиналы, переводы, журналы рецензии — для тех, кто хочет проверить или продолжить.</p><p class="info label">{{ planned(byKind.data | length) }}</p></div>
       </div>
     </section>
 
-    <section class="block" aria-labelledby="list-h">
-      <div class="block-head">
-        <h2 id="list-h">Работы</h2>
-        <p>Каждая работа опирается на конкретные тексты библиотеки — они указаны под описанием.</p>
-      </div>
-      <div class="filters" role="group" aria-label="Фильтр работ">
-        <button type="button" data-sec="all" aria-pressed="true">Все разделы</button>
-        <button type="button" data-sec="alex" aria-pressed="false">Роман об Александре</button>
-        <button type="button" data-sec="sch" aria-pressed="false">Схолии</button>
-        <button type="button" data-sec="mus" aria-pressed="false">Музыка</button>
-        <button type="button" data-sec="met" aria-pressed="false">Метод</button>
+    <section class="section" aria-labelledby="list-h">
+      {{ ui.sectionHead("Работы", "Каждая работа опирается на конкретные тексты библиотеки — они указаны под описанием.", "list-h") }}
+      <div class="filters" role="group" aria-label="Фильтр работ" data-filter="#list" data-empty="#empty">
+        <button type="button" data-f="all" aria-pressed="true">Все разделы</button>
+        {%- for key, sec in studyLists.sections %}
+        <button type="button" data-f="{{ key }}" aria-pressed="false">{{ sec.label }}</button>
+        {%- endfor %}
         <span class="sep" aria-hidden="true"></span>
-        <button type="button" data-st="work" aria-pressed="false" id="only-work">Только «в работе»</button>
+        <button type="button" data-flag="st" data-flag-value="work" aria-pressed="false">Только «в работе»</button>
       </div>
 
-      <ol class="list" id="list">
-{%- for s in studies %}
-        <li class="study" data-sec="{{ s.section }}" data-kind="{{ s.kind }}" data-st="{{ s.state }}">
-          <div class="where"><a href="{{ studyLists.sections[s.section].href }}">{{ studyLists.sections[s.section].label }}</a><span>{{ studyLists.kinds[s.kind] }}</span></div>
-          <div><h3>{% if s.url %}<a href="{{ s.url }}">{{ s.title | safe }}</a>{% else %}{{ s.title | safe }}{% endif %}</h3>
-            <p>{{ s.summary | safe }}</p>
-            <p class="on">{{ s.basis | safe }}</p></div>
-          <div class="state"><span class="pill{% if s.state == 'work' %} work{% endif %}">{{ s.pill or studyLists.states[s.state] }}</span></div>
+      <ol class="study-list" id="list">
+        {%- for s in studies %}
+        {%- set sec = studyLists.sections[s.section] %}
+        <li class="record record--soft study" data-g="{{ s.section }}" data-st="{{ s.state }}">
+          <div class="where label"><a href="{{ sec.href }}">{{ sec.label }}</a><span>{{ studyLists.kinds[s.kind] }}</span></div>
+          <div class="what">
+            <h3>{% if s.url %}<a href="{{ s.url }}">{{ s.title | greek | safe }}</a>{% else %}{{ s.title | greek | safe }}{% endif %}</h3>
+            <p>{{ s.summary | fill(collections.all) | greek | safe }}</p>
+            <p class="info">{{ s.basis | fill(collections.all) | greek | safe }}</p>
+          </div>
+          <p class="state"><span class="chip{% if s.state == 'work' %} chip--status{% endif %}">{{ (s.pill or studyLists.states[s.state]) | fill(collections.all) }}</span></p>
         </li>
-{%- endfor %}
+        {%- endfor %}
       </ol>
-      <p class="empty" id="empty" hidden>По этому фильтру работ нет.</p>
+      <p class="empty" id="empty" role="status" hidden>По этому фильтру работ нет.</p>
     </section>
 
-    <section class="block" id="dissertation" aria-labelledby="diss-h">
-      <div class="block-head">
-        <h2 id="diss-h">Диссертация</h2>
-        <p>Исследование, из которого вырос раздел «Роман об Александре».</p>
-      </div>
-      <ol class="list">
-        <li class="study">
-          <div class="where"><a href="alexander.html">Роман об Александре</a><span>диссертация</span></div>
-          <div><h3><a href="docs/mikhaylov-2015-dissertation.pdf" lang="de">Entgrenzung und Begrenzung Alexanders des Großen: äußere Grenzen im griechischen Alexanderroman, dem Schāhnāmeh und in der altrussischen Aleksandrija</a></h3>
-            <p>Александр Михельс (Михайлов). Диссертация на степень доктора философии (Dr. phil.), Кильский университет имени Кристиана Альбрехта. Научный руководитель — проф. Йозеф Визехёфер, второй рецензент — проф. Людвиг Штайндорф. Защищена 13 ноября 2015 г., опубликована в открытом доступе в 2020 г. На немецком языке.</p>
-            <p>Три независимые версии романа — греческий «Роман об Александре» Псевдо-Каллисфена, древнерусская Хронографическая Александрия и новоперсидский эпос об Искандаре в «Шахнаме» Фирдоуси — сопоставлены по одному вопросу: где проходят границы Александра. Первая часть — Александр, выходящий за пределы: властитель мира, его пространства, отношения с богами, удача, поиск бессмертия. Вторая — Александр, которого пределы останавливают: убийство Нектанеба, преграды за водой, во тьме, в высоте и глубине, утрата божественности и граница во времени.</p>
-            <p class="on"><a href="docs/mikhaylov-2015-dissertation.pdf">PDF, 379 с., 5 МБ</a> · <a href="https://nbn-resolving.org/urn:nbn:de:gbv:8-mods-2020-00496-0">оригинал в репозитории Кильского университета (MACAU)</a> · лицензия <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a></p></div>
-          <div class="state"><span class="pill">опубликована</span></div>
-        </li>
-      </ol>
+    <section class="section" id="dissertation" aria-labelledby="diss-h">
+      {{ ui.sectionHead("Диссертация", "Исследование, из которого вырос раздел «Роман об Александре».", "diss-h") }}
+      <article class="record record--soft study">
+        <div class="where label"><a href="alexander.html">Роман об Александре</a><span>диссертация</span></div>
+        <div class="what">
+          <h3><a href="docs/mikhaylov-2015-dissertation.pdf" lang="de">Entgrenzung und Begrenzung Alexanders des Großen: äußere Grenzen im griechischen Alexanderroman, dem Schāhnāmeh und in der altrussischen Aleksandrija</a></h3>
+          <p>Александр Михельс (Михайлов). Диссертация на степень доктора философии (Dr. phil.), Кильский университет имени Кристиана Альбрехта. Научный руководитель — проф. Йозеф Визехёфер, второй рецензент — проф. Людвиг Штайндорф. Защищена 13 ноября 2015 г., опубликована в открытом доступе в 2020 г. На немецком языке.</p>
+          <p>Три независимые версии романа — греческий «Роман об Александре» Псевдо-Каллисфена, древнерусская Хронографическая Александрия и новоперсидский эпос об Искандаре в «Шахнаме» Фирдоуси — сопоставлены по одному вопросу: где проходят границы Александра. Первая часть — Александр, выходящий за пределы: властитель мира, его пространства, отношения с богами, удача, поиск бессмертия. Вторая — Александр, которого пределы останавливают: убийство Нектанеба, преграды за водой, во тьме, в высоте и глубине, утрата божественности и граница во времени.</p>
+          <p class="info"><a href="docs/mikhaylov-2015-dissertation.pdf">PDF, 379 с., 5 МБ</a> · <a href="https://nbn-resolving.org/urn:nbn:de:gbv:8-mods-2020-00496-0">оригинал в репозитории Кильского университета (MACAU)</a> · лицензия <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a></p>
+        </div>
+        <p class="state"><span class="chip">опубликована</span></p>
+      </article>
     </section>
 
-    <section class="block trio" aria-label="Ежегодник, данные и сотрудничество">
-      <div class="panel">
-        <h3>«Neoscholia. Труды»</h3>
-        <p>Ежегодный сборник: статьи и избранные проверенные переводы с введениями. Выходит с ISBN, каждая статья — с DOI.</p>
-        <p class="small">Первый выпуск планируется после того, как в библиотеке будут подписанные редактором тексты.</p>
-      </div>
-      <div class="panel">
-        <h3>Открытые данные</h3>
-        <p>Оригиналы, переводы и журналы рецензии в формате TEI, с версиями. Журналы рецензии — без условий использования (CC0).</p>
-        <p class="small">Архив данных откроется вместе с первой подписанной версией.</p>
-      </div>
-      <div class="panel">
-        <h3>Пишите с нами</h3>
-        <p>Мы ищем соавторов: филологов-классиков, византинистов, востоковедов (особенно для сирийских, арабских и армянских текстов) и исследователей перевода с помощью ИИ.</p>
-        <p class="small">Ссылаясь на наши переводы, указывайте версию: <a href="method.html#cite">как цитировать</a>.</p>
+    <section class="section" aria-labelledby="more-h">
+      <h2 class="sr-only" id="more-h">Ежегодник, данные и сотрудничество</h2>
+      <div class="grid grid--3">
+        <div class="card">
+          <h3>«Neoscholia. Труды»</h3>
+          <p>Ежегодный сборник: статьи и избранные проверенные переводы с введениями. Выходит с ISBN, каждая статья — с DOI.</p>
+          <p class="card-note">Первый выпуск планируется после того, как в библиотеке будут подписанные редактором тексты.</p>
+        </div>
+        <div class="card">
+          <h3>Открытые данные</h3>
+          <p>Оригиналы, переводы и журналы рецензии в формате TEI, с версиями. Журналы рецензии — без условий использования (CC0).</p>
+          <p class="card-note">Архив данных откроется вместе с первой подписанной версией.</p>
+        </div>
+        <div class="card">
+          <h3>Пишите с нами</h3>
+          <p>Мы ищем соавторов: филологов-классиков, византинистов, востоковедов (особенно для сирийских, арабских и армянских текстов) и исследователей перевода с помощью ИИ.</p>
+          <p class="card-note">Ссылаясь на наши переводы, указывайте версию: <a href="method.html#cite">как цитировать</a>.</p>
+        </div>
       </div>
     </section>
-  </main>

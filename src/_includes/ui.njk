@@ -1,0 +1,144 @@
+{#- Макросы общих блоков. В начале страницы:  {% import "ui.njk" as ui with context %}
+    Образцы и перечень классов — на странице styleguide.html.
+
+    ui.crumbs(items)                       «хлебные крошки»; обычно их выводит каркас по полю crumbs страницы
+    ui.sectionHead(title, note, id, more)  заголовок раздела страницы; note — пояснение под ним; more — { href, label } ссылка справа
+    ui.ladder(key, status)                 лестница статусов из ladders.yaml; без status — просто перечень ступеней
+    ui.status(key, status, note)           блок статуса под заголовком текста или статьи: лестница, что значит ступень, оговорка
+    ui.statusChip(key, status)             чип с названием текущей ступени (для карточек и списков)
+    ui.pubCard(c)                          карточка опубликованного текста или статьи (главная, страницы разделов)
+    ui.viewControl(label)                  переключатель «перевод / параллельно / оригинал» (запоминается)
+    ui.langControl(label)                  переключатель языка перевода RU / EN (запоминается)
+    ui.switch(target, options, label)      местный переключатель: показывает в блоке target элементы с data-when
+    ui.toc(items, label)                   оглавление длинной страницы: список { href, label, n }
+    ui.cite(text, id)                      блок «Как цитировать» с кнопкой «Скопировать»
+    ui.filters(target, groups, flag, …)    фильтры каталога: кнопки-группы и необязательный флажок
+    ui.stats(items, label)                 ряд цифр с подписями: список { value, label }
+    ui.tableWrap(label, cls)               {% call ui.tableWrap("Подпись") %}<table class="table">…</table>{% endcall %}
+    ui.dot(kind)                           отметка в карте корпуса: none | part | ru (с текстом для чтения с экрана) -#}
+
+{% macro crumbs(items) -%}
+<nav class="crumbs" aria-label="Вы здесь"><ol>
+      {%- for c in items %}<li>{% if c.href %}<a href="{{ c.href }}">{{ c.label | safe }}</a>{% elif loop.last %}<span aria-current="page">{{ c.label | safe }}</span>{% else %}<span>{{ c.label | safe }}</span>{% endif %}</li>{% endfor -%}
+    </ol></nav>
+{%- endmacro %}
+
+{% macro sectionHead(title, note, id, more) -%}
+<div class="section-head">
+        <h2{% if id %} id="{{ id }}"{% endif %}>{{ title | safe }}</h2>
+        {%- if note %}
+        <p>{{ note | safe }}</p>
+        {%- endif %}
+        {%- if more %}
+        <a class="more" href="{{ more.href }}">{{ more.label | safe }}</a>
+        {%- endif %}
+      </div>
+{%- endmacro %}
+
+{% macro ladder(key, status) -%}
+<ol class="ladder{% if not status %} ladder--legend{% endif %}" aria-label="{{ ladders[key].label }}">
+      {%- if status %}
+      {%- for st in ladders[key].steps | ladderSteps(status) %}
+      <li{% if st.done %} class="done"{% endif %}{% if st.current %} aria-current="step"{% endif %}>{{ st.label }}</li>
+      {%- endfor %}
+      {%- else %}
+      {%- for st in ladders[key].steps %}
+      <li>{{ st.label }}</li>
+      {%- endfor %}
+      {%- endif %}
+    </ol>
+{%- endmacro %}
+
+{% macro status(key, status, note) -%}
+<div class="status">
+      {{ ladder(key, status) }}
+      {%- for st in ladders[key].steps | ladderSteps(status) %}{% if st.current and st.rely %}
+      <p><b>{{ st.label }}.</b> {{ st.rely }} <a href="{{ ladders[key].more.href }}">{{ ladders[key].more.label }}</a></p>
+      {%- endif %}{% endfor %}
+      {%- if note %}
+      <p>{{ note | fill(collections.all) | safe }}</p>
+      {%- endif %}
+    </div>
+{%- endmacro %}
+
+{% macro statusChip(key, status) -%}
+{%- for st in ladders[key].steps | ladderSteps(status) %}{% if st.current %}<span class="chip chip--status">{{ st.label }}</span>{% endif %}{% endfor -%}
+{%- endmacro %}
+
+{#- Карточка опубликованного текста или статьи: c — запись из фильтра publishedCards (поле card страницы). -#}
+{% macro pubCard(c) -%}
+<article class="card">
+          <p class="where"><a href="{{ c.sectionHref }}">{{ c.section }}</a></p>
+          <h3><a href="{{ c.href }}">{{ c.title }}</a></h3>
+          <p>{{ c.summary }}</p>
+          <p class="card-meta">{{ statusChip(c.ladder, c.status) }}<span>версия {{ c.version }} · {{ c.updated }}</span>{% if c.textKey and audio[c.textKey] %}<span class="audio">можно слушать</span>{% endif %}</p>
+        </article>
+{%- endmacro %}
+
+{% macro viewControl(label="Режим показа") -%}
+<div class="seg-ctl" data-pref="view" role="group" aria-label="{{ label }}">
+          <button type="button" data-value="translation" aria-pressed="false">Перевод</button>
+          <button type="button" data-value="parallel" aria-pressed="true">Параллельно</button>
+          <button type="button" data-value="original" aria-pressed="false">Оригинал</button>
+        </div>
+{%- endmacro %}
+
+{% macro langControl(label="Язык перевода") -%}
+<div class="seg-ctl" data-pref="tr" role="group" aria-label="{{ label }}">
+          <button type="button" data-value="ru" aria-pressed="true">RU</button>
+          <button type="button" data-value="en" aria-pressed="false" lang="en">EN</button>
+        </div>
+{%- endmacro %}
+
+{% macro switch(target, options, label) -%}
+<div class="seg-ctl" data-switch="{{ target }}" role="group" aria-label="{{ label }}">
+          {%- for o in options %}
+          <button type="button" data-value="{{ o.value }}" aria-pressed="{{ 'true' if loop.first else 'false' }}">{{ o.label }}</button>
+          {%- endfor %}
+        </div>
+{%- endmacro %}
+
+{% macro toc(items, label="Содержание") -%}
+<nav class="toc" data-spy aria-label="{{ label }}">
+        <details open>
+          <summary class="overline">{{ label }}</summary>
+          <ol>
+            {%- for i in items %}
+            <li><a href="{{ i.href }}">{% if i.n %}<span class="n">{{ i.n }}</span>{% endif %}{{ i.label | safe }}</a></li>
+            {%- endfor %}
+          </ol>
+        </details>
+      </nav>
+{%- endmacro %}
+
+{% macro cite(text, id="cite-text") -%}
+<p class="cite" id="{{ id }}">{{ text | safe }}</p>
+        <button type="button" class="btn btn--sm" data-copy="#{{ id }}" aria-live="polite">Скопировать</button>
+{%- endmacro %}
+
+{% macro filters(target, groups, flag, label="Фильтр", empty="#empty") -%}
+<div class="filters" role="group" aria-label="{{ label }}" data-filter="{{ target }}" data-empty="{{ empty }}">
+        {%- for g in groups %}
+        <button type="button" data-f="{{ g.key }}" aria-pressed="{{ 'true' if loop.first else 'false' }}">{{ g.label | safe }}</button>
+        {%- endfor %}
+        {%- if flag %}
+        <label><input type="checkbox" data-flag="{{ flag.key }}"> {{ flag.label | safe }}</label>
+        {%- endif %}
+      </div>
+{%- endmacro %}
+
+{% macro stats(items, label) -%}
+<div class="stats" role="list"{% if label %} aria-label="{{ label }}"{% endif %}{% if items.length != 4 %} style="--cols: {{ items.length }}"{% endif %}>
+        {%- for s in items %}
+        <div role="listitem"><b>{{ s.value | safe }}</b><span>{{ s.label | safe }}</span></div>
+        {%- endfor %}
+      </div>
+{%- endmacro %}
+
+{% macro tableWrap(label, cls="") -%}
+<div class="table-wrap{% if cls %} {{ cls }}{% endif %}" role="region" tabindex="0" aria-label="{{ label }}">{{ caller() }}</div>
+{%- endmacro %}
+
+{% macro dot(kind) -%}
+<i class="dot {{ kind }}"><span class="sr-only">{{ { "none": "нет по-русски", "part": "по-русски отрывки", "ru": "есть по-русски" }[kind] }}: </span></i>
+{%- endmacro %}

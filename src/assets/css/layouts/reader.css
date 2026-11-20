@@ -1,0 +1,137 @@
+/* Neoscholia — страница чтения (тип reader): оригинал и перевод идут в основной колонке
+   (только перевод / параллельно / только оригинал), новые схолии стоят на поле, как в кодексе.
+   Разметка — reader/parts.njk (страницы из text-body.njk и страницы схолий), поведение — reader.js и site.js.
+
+   Состояние чтения лежит на <html>: data-view = translation | parallel | original, data-tr = ru | en,
+   data-notes = on | off. Атрибуты ставит скрипт в <head>; без скриптов их нет, и тогда действует вид
+   по умолчанию: параллельно, перевод русский, примечания показаны целиком. */
+:root { --margin-w: 17rem; --sticky-h: 3.2rem; }
+
+/* ---------- шапка текста и панель чтения ---------- */
+.page-head { padding-bottom: var(--s5); }
+.page-head .chips { margin: var(--s3) 0 0; }
+.toolbar .jump { max-width: 11rem; }
+
+/* ---------- вводная панель: «О тексте» или стихи, к которым относятся схолии ---------- */
+.intro, .verses { margin-block: var(--s6); }
+/* панель введения не шире строки текста с полями панели */
+.intro { max-width: calc(var(--measure) + 2.5rem + 2px); }
+.intro ul { font-size: inherit; margin-bottom: var(--s4); }
+/* длинное введение свёрнуто, пока читатель не раскроет его кнопкой (reader.js) */
+:root[data-view]:not(.no-layout-js) .intro:not(.is-open) .fold { max-block-size: 17rem; overflow: hidden; }
+.intro.is-folded:not(.is-open) .fold { -webkit-mask-image: linear-gradient(to bottom, var(--ink) calc(100% - 5rem), transparent); mask-image: linear-gradient(to bottom, var(--ink) calc(100% - 5rem), transparent); }
+.fold-more { margin-top: var(--s3); }
+
+.verses-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: var(--s4) var(--s7); }
+.verses ol { list-style: none; padding: 0; display: block; font-size: inherit; counter-reset: v; }
+.verses li { display: grid; grid-template-columns: 1.6rem minmax(0, 1fr); gap: var(--s2); align-items: baseline; }
+.verses li::before { counter-increment: v; content: counter(v); font-family: var(--font-label); font-size: var(--fs-xs); color: var(--ink-soft); text-align: right; font-variant-numeric: lining-nums tabular-nums; }
+.verses [lang="grc"] li { font-size: var(--fs-lg); }
+.verses-src { margin: var(--s3) 0 0; font-size: var(--fs-sm); color: var(--ink-soft); }
+.lemma-link { color: var(--rubric); text-decoration: none; border-bottom: 1px dotted var(--rubric); }
+
+/* ---------- сегмент (глава, схолия): колонка текста и поле примечаний ---------- */
+.sec-head { margin: var(--s7) 0 var(--s4); }
+.section-head + .sec-head { margin-top: 0; }
+.seg { display: grid; grid-template-columns: minmax(0, 1fr) var(--margin-w); column-gap: var(--s7); padding-block: var(--s5); border-top: 1px solid var(--rule); }
+.seg:target { box-shadow: inset 0 2px 0 var(--rubric); }
+.seg-main { grid-column: 1; min-width: 0; }
+.seg-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--s1) var(--s3); margin-bottom: var(--s3); }
+.ref { font-family: var(--font-label); font-size: var(--fs-sm); letter-spacing: var(--track); line-height: var(--lh-text); color: var(--ink-soft); font-variant-numeric: lining-nums tabular-nums; }
+.ref a { display: inline-block; min-width: 1.5rem; padding-block: .3rem; margin-block: -.3rem; color: inherit; text-decoration: none; }
+.ref a:hover { color: var(--ink); text-decoration: underline; }
+.seg:target .ref a { color: var(--rubric); }
+/* чип-ссылка (скан страницы издания) отличается от чипа-подписи стрелкой */
+.seg-head a.chip::after { content: " ↗"; }
+.lm { color: var(--rubric); }
+
+/* часть сегмента: слева оригинал, справа перевод */
+.body { display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--s4); }
+.part { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: var(--s2) var(--s6); align-items: start; }
+.part + .part { padding-top: var(--s4); border-top: 1px dashed var(--rule); }
+.part-label { grid-column: 1 / -1; margin: 0; font-family: var(--font-label); font-size: var(--fs-xs); letter-spacing: var(--track); color: var(--ink-soft); }
+.part-label b { color: var(--ink); }
+.orig-text, .tr-text { margin: 0; max-width: var(--measure); }
+.orig-text { font-size: var(--fs-lg); white-space: pre-line; }
+
+/* значок примечания: не раздвигает строки; область нажатия не меньше 24 px и тянется вправо,
+   чтобы соседние значки не перекрывали друг друга */
+sup.n { font-size: inherit; line-height: 0; vertical-align: baseline; }
+sup.n a { position: relative; top: -.5em; display: inline; font-size: .75em; line-height: 1; font-weight: 700; font-variant-numeric: lining-nums; color: var(--rubric); text-decoration: none;
+  padding: .7em 1.35em .7em .25em; margin: -.7em -1.25em -.7em -.15em; }
+sup.n a:hover { text-decoration: underline; }
+sup.n::before { content: "\2060"; }  /* соединитель слов: значок не отрывается от слова и после скобки */
+
+/* ---------- режим показа и язык перевода ---------- */
+:root[data-view="translation"] .part, :root[data-view="original"] .part { grid-template-columns: minmax(0, 1fr); }
+:root[data-view="translation"] .orig-text, :root[data-view="original"] .tr-text { display: none; }
+:root:not([data-tr="en"]) [data-lang="en"], :root[data-tr="en"] [data-lang="ru"] { display: none; }
+
+/* ---------- поле: новые схолии ---------- */
+.margin { position: relative; grid-column: 2; min-width: 0; font-size: var(--fs-sm); line-height: 1.55; color: var(--ink-soft); border-left: 1px solid var(--rule); padding-left: var(--s4); }
+.margin .overline { margin-bottom: var(--s2); }
+.note { margin: 0 0 var(--s3); }
+.note .mark { color: var(--rubric); font-weight: 700; margin-right: var(--s1); font-variant-numeric: lining-nums; }
+.note .chip { vertical-align: .08em; }
+.note:target { color: var(--ink); background: var(--wash); box-shadow: 0 0 0 .35rem var(--wash); }
+:root[data-notes="off"] .seg { grid-template-columns: minmax(0, 1fr); }
+:root[data-notes="off"] .margin { display: none; }
+
+/* Поле не растягивает сегмент: оно обрезано по высоте колонки текста. Где примечания не поместились, reader.js
+   ставит кнопку «Все примечания (N)» (.is-clipped); раскрытый сегмент — .is-open. Без скриптов поле не обрезается;
+   если не загрузился сам reader.js, каркас ставит на <html> класс no-layout-js — и поле тоже показано целиком. */
+:root[data-notes="on"] .seg--notes { min-block-size: 16rem; }
+:root[data-notes="on"]:not(.no-layout-js) .seg:not(.is-open) > .margin { block-size: 0; min-block-size: 100%; overflow: hidden; }
+.seg.is-clipped:not(.is-open) > .margin::after { content: ""; position: absolute; inset: auto 0 0; block-size: 4.5rem; background: linear-gradient(to bottom, transparent, var(--leaf) 60%); pointer-events: none; }
+.notes-more { margin-top: var(--s1); }
+.seg:not(.is-open) > .margin > .notes-more { position: absolute; inset: auto auto 0 var(--s4); z-index: 1; margin: 0; }
+
+/* ---------- озвучка главы ---------- */
+.listen { margin-left: auto; }
+.listen::before { content: "▶"; }
+.listen.playing::before { content: "❚❚"; }
+.listen[aria-pressed="true"] { background: var(--lapis); color: var(--leaf); }
+
+/* ---------- «Как сделан перевод» ---------- */
+.process h3 { margin: var(--s5) 0 var(--s2); }
+.process ul { max-width: var(--measure); margin: 0; padding-left: 1.2rem; display: grid; gap: .35rem; }
+.biblio { font-size: var(--fs-sm); line-height: 1.5; }
+.biblio li { overflow-wrap: anywhere; }
+
+/* ---------- подвал текста: цитирование и версии, источник и лицензии, роль ИИ ---------- */
+.text-foot { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--s5) var(--s6); border-top: 2px solid var(--ink); padding-top: var(--s5); font-size: var(--fs-sm); }
+.text-foot p { margin: 0 0 var(--s2); }
+.text-foot .overline { margin-bottom: var(--s2); }
+.text-foot .cite { font-size: inherit; }
+.text-foot .btn + .overline { margin-top: var(--s5); }
+.versions { margin: 0; padding-left: 1rem; display: grid; gap: .35rem; }
+
+/* ---------- узкий экран: примечания под сегментом, во всю строку текста ---------- */
+@media (max-width: 1200px) {
+  .seg { display: block; }
+  .margin { margin-top: var(--s4); max-width: var(--measure); border-left: 0; border-top: 1px dashed var(--rule); padding: var(--s3) 0 0; }
+  :root[data-notes="on"] .seg--notes { min-block-size: 0; }
+  :root[data-notes="on"]:not(.no-layout-js) .seg:not(.is-open) > .margin { block-size: auto; min-block-size: 0; max-block-size: 12rem; }
+  .seg:not(.is-open) > .margin > .notes-more { left: 0; }
+}
+/* колонка параллельного текста не должна быть теснее сорока знаков: на планшете оригинал стоит над переводом */
+@media (max-width: 900px) {
+  .part, .verses-grid { grid-template-columns: minmax(0, 1fr); }
+  .text-foot { grid-template-columns: minmax(0, 1fr); }
+}
+@media (max-width: 640px) {
+  .toolbar .jump { max-width: 7.5rem; }
+  .intro, .verses { padding-inline: var(--s4); }
+}
+
+/* ---------- печать: выбранный вид, примечания под каждым сегментом, ничего свёрнутого ---------- */
+@media print {
+  .seg { display: block; min-block-size: 0 !important; break-inside: avoid; }
+  .seg > .margin { block-size: auto !important; min-block-size: 0 !important; max-block-size: none !important; overflow: visible !important; max-width: none; margin-top: var(--s3); border-left: 0; border-top: 1px solid var(--rule); padding: var(--s2) 0 0; }
+  .seg > .margin::after, .notes-more, .fold-more, details.disclosure, .page-head .actions { display: none !important; }
+  .intro .fold { max-block-size: none !important; overflow: visible !important; -webkit-mask-image: none !important; mask-image: none !important; }
+  .ref a, sup.n a { color: inherit; }
+  /* кегль текста на бумаге задан в пунктах: оригинал и примечания считаются от него */
+  .orig-text, .lemma, .verses [lang="grc"] li { font-size: 1.1em; }
+  .margin { font-size: .85em; }
+}

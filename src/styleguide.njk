@@ -1,0 +1,230 @@
+---
+title: "Оформление: компоненты сайта"
+description: "Дизайн-система Neoscholia: цвета, шрифты, кегли и общие компоненты страниц с образцами разметки."
+nav: "about"
+permalink: "styleguide.html"
+styles: ["styleguide"]
+noindex: true
+crumbs:
+  - { label: "О проекте", href: "about.html" }
+  - { label: "Оформление" }
+---
+{%- import "ui.njk" as ui with context -%}
+<header class="page-head">
+      <p class="kicker">Для редакторов сайта</p>
+      <h1>Оформление</h1>
+      <p class="lede">Все страницы Neoscholia собираются из одних и тех же деталей. Здесь показаны основные — с названием класса или макроса. Новая страница складывается из этих деталей; новый стиль заводится, только если подходящей детали нет.</p>
+      <p class="meta"><span>Токены и каркас: <b>assets/css/base.css</b></span><span>Компоненты: <b>assets/css/components.css</b></span><span>Макросы: <b>_includes/ui.njk</b></span></p>
+    </header>
+
+    <section class="section" aria-labelledby="sg-colour">
+      {{ ui.sectionHead("Цвет", "Десять цветов на обе темы. Киноварь — леммы, акценты и «нет перевода»; лазурь — ссылки и статусы.", "sg-colour") }}
+      <div class="sg-swatches">
+        {%- for c in [["papyrus", "фон страницы"], ["leaf", "лист"], ["panel", "панель"], ["wash", "подложка"], ["rule", "линия"], ["rule-strong", "граница поля ввода"], ["ink-soft", "второстепенный текст"], ["ink", "текст"], ["rubric", "киноварь"], ["lapis", "лазурь"]] %}
+        <div class="sg-swatch"><i style="background: var(--{{ c[0] }})"></i><b>--{{ c[0] }}</b><span>{{ c[1] }}</span></div>
+        {%- endfor %}
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="sg-type">
+      {{ ui.sectionHead("Шрифты и кегли", "Три гарнитуры и одна шкала кеглей; новые размеры в стили не добавляются.", "sg-type") }}
+      <div class="sg-type">
+        <div><span class="chip">--fs-display</span><p style="font: var(--fs-display)/1.05 var(--font-display)">Библиотека первых переводов</p></div>
+        <div><span class="chip">--fs-h1 · h1</span><p style="font: var(--fs-h1)/1.1 var(--font-display)">Схолии к «Одиссее». Песнь X</p></div>
+        <div><span class="chip">--fs-h2 · h2</span><p style="font: var(--fs-h2)/1.15 var(--font-display)">Как делается перевод</p></div>
+        <div><span class="chip">--fs-h3 · h3</span><p style="font: var(--fs-h3)/1.3 var(--font-display)">Георгий Пахимер, «Гармоника»</p></div>
+        <div><span class="chip">--fs-h4 · h4</span><p style="font: var(--fs-h4)/1.3 var(--font-display)">Только непереведённое</p></div>
+        <div><span class="chip">--fs-lg · .lede</span><p style="font-size: var(--fs-lg)">Тексты, которые до сих пор не переводились на русский и английский.</p></div>
+        <div><span class="chip">--fs-base</span><p>Основной текст: Gentium Book Plus. <span lang="grc">Αἰολίην δ’ ἐς νῆσον ἀφικόμεθ’· ἔνθα δ’ ἔναιεν</span> — политонический греческий тем же шрифтом.</p></div>
+        <div><span class="chip">--fs-md</span><p style="font-size: var(--fs-md)">Второстепенный текст, таблицы, элементы управления.</p></div>
+        <div><span class="chip">--fs-sm</span><p style="font-size: var(--fs-sm)">Примечания на полях, подписи, служебные строки.</p></div>
+        <div><span class="chip">--fs-xs · .label</span><p class="label" style="font-size: var(--fs-xs)">Метки и чипы: Alegreya Sans SC</p></div>
+        <div><span class="chip">--fs-num</span><p class="sg-num">1 · 50 · 0,6</p></div>
+        <div><span class="chip">.overline</span><p class="overline">Надзаголовок блока</p></div>
+        <div><span class="chip">.kicker</span><p class="kicker">Статья по тексту · Схолии · Препринт</p></div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="sg-head">
+      {{ ui.sectionHead("Шапка страницы и раздел", "<code>.page-head</code> (с <code>--split</code> — в две колонки) и <code>.section</code> с заголовком из макроса <code>ui.sectionHead(title, note, id)</code>.", "sg-head") }}
+      <div class="sg-demo">
+        <header class="page-head">
+          <p class="kicker">.kicker</p>
+          <p class="sg-h1">Заголовок страницы — h1</p>
+          <p class="sub">.sub — подзаголовок</p>
+          <p class="meta"><span>.meta: Основа текста: <b>Dindorf 1855</b></span><span>Версия <b>0.2</b> · 25.10.2026</span></p>
+          {{ ui.ladder("text", "models") }}
+          <p class="actions"><a class="btn btn--primary" href="#sg-head">.btn--primary</a><a class="btn btn--ghost" href="#sg-head">.btn--ghost</a><a class="btn" href="#sg-head">.btn</a><span class="btn" aria-disabled="true">aria-disabled</span><button type="button" class="btn btn--sm">.btn--sm</button></p>
+        </header>
+      </div>
+      <p class="hint">Лестница статусов: <code>ui.ladder("text", status)</code> или <code>ui.ladder("study", status)</code>; ступени — в <code>_data/ladders.yaml</code>. Без статуса — просто перечень ступеней:</p>
+      {{ ui.ladder("study") }}
+    </section>
+
+    <section class="section" aria-labelledby="sg-ctl">
+      {{ ui.sectionHead("Переключатели, фильтры, поля", "Поведение задаётся атрибутами и живёт в <code>assets/js/site.js</code>.", "sg-ctl") }}
+      <div class="grid grid--2">
+        <div>
+          <p class="overline">.seg-ctl — ui.switch(target, options, label)</p>
+          <div class="actions">{{ ui.switch("#sg-switch", [{ value: "ru", label: "RU" }, { value: "en", label: "EN" }], "Образец переключателя") }}</div>
+          <p class="small muted" id="sg-switch"><span data-when="ru">Показан блок data-when="ru".</span><span data-when="en" hidden>Показан блок data-when="en".</span> Так же выглядят ui.viewControl() и ui.langControl() на странице чтения; их выбор запоминается для всех текстов, поэтому здесь их нет.</p>
+          <p class="overline">.toggle</p>
+          <p><label class="toggle"><input type="checkbox" checked> Новые схолии на полях</label></p>
+          <p class="overline">.field</p>
+          <p><input class="field" type="search" placeholder="Автор, текст или тема…" aria-label="Образец поля поиска"></p>
+        </div>
+        <div>
+          <p class="overline">.filters — ui.filters(target, groups, flag)</p>
+          {{ ui.filters("#sg-list", [{ key: "all", label: "Все" }, { key: "a", label: "Византия" }, { key: "b", label: "Латынь" }], { key: "nowhere", label: "только не переведённые ни на один язык" }, "Образец фильтра", "#sg-empty") }}
+          <ul class="linklist" id="sg-list">
+            <li data-g="a" data-nowhere="1"><b>Георгий Пахимер, «Гармоника»</b><span>data-g="a" data-nowhere="1"</span></li>
+            <li data-g="a" data-nowhere="0"><b>Анонимный «Синопсис Музыки»</b><span>data-g="a" data-nowhere="0"</span></li>
+            <li data-g="b" data-nowhere="1"><b>Эпитома Юлия Валерия</b><span>data-g="b" data-nowhere="1"</span></li>
+          </ul>
+          <p class="empty" id="sg-empty" hidden>По этому фильтру ничего нет.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="sg-chips">
+      {{ ui.sectionHead("Чипы и обозначения", "Один чип и шесть его вариантов.", "sg-chips") }}
+      <p class="chips">
+        <span class="chip">.chip — нейтральный</span>
+        <span class="chip chip--ink">.chip--ink — сигла, страницы</span>
+        <span class="chip chip--status">.chip--status — статус, версия</span>
+        <span class="chip chip--solid">.chip--solid — текущий статус</span>
+        <span class="chip chip--gap">.chip--gap — нет по-русски</span>
+        <span class="chip chip--none">.chip--none — нет ни на одном языке</span>
+        <span class="chip chip--accent">.chip--accent — имя из источника</span>
+      </p>
+      <div class="legend" role="group" aria-label="Обозначения">
+        <span><i class="dot none"></i>.dot.none — нет по-русски</span>
+        <span><i class="dot part"></i>.dot.part — отрывки</span>
+        <span><i class="dot ru"></i>.dot.ru — есть по-русски</span>
+        <span><b class="star">★</b> .star — в плане Neoscholia</span>
+        <span><span class="plan">.plan — готовится</span></span>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="sg-box">
+      {{ ui.sectionHead("Панель, карточка, запись каталога", "Три контейнера: панель — справка рядом с текстом, карточка — опубликованная работа или ссылка, запись — текст в каталоге раздела.", "sg-box") }}
+      <div class="grid grid--3">
+        <aside class="panel" aria-label="Образец панели">
+          <p class="overline">.panel + .overline</p>
+          <p>Справочный блок на подложке: «О тексте», аннотация, образец.</p>
+        </aside>
+        <article class="card">
+          <p class="where"><a href="#sg-box">.card · .where</a></p>
+          <h3><a href="#sg-box">Эпитома Юлия Валерия. Книга I</a></h3>
+          <p>Анонимное латинское сокращение «Деяний Александра».</p>
+          <p class="card-meta">{{ ui.statusChip("text", "models") }}<span>.card-meta · версия 0.3</span></p>
+        </article>
+        <article class="record record--flag">
+          <div class="record-head"><span>.record--flag · .record-head</span><span class="plan">флагман</span></div>
+          <h3>Георгий Пахимер, «Гармоника»</h3>
+          <p class="orig"><span lang="grc">Σύνταγμα τῶν τεσσάρων μαθημάτων</span></p>
+          <p class="info">ок. 1300 · греческий</p>
+          <p class="chips"><span class="chip chip--none">нет ни на одном языке</span><span class="chip">FR: краткое изложение</span></p>
+          <dl><dt>Основа</dt><dd>Tannery &amp; Stéphanou 1940</dd><dt>Зачем</dt><dd>полный свод гармоники</dd></dl>
+        </article>
+      </div>
+      <div class="grid grid--3" style="margin-top: var(--gap)">
+        <div>
+          <div class="panel panel--accent"><p class="overline">.panel--accent</p><p>Выделенная справка: киноварная линия слева, без рамки.</p></div>
+          <p class="panel panel--dashed" style="margin-top: var(--s4)">.panel--dashed — то, чего ещё нет: адрес, форма.</p>
+        </div>
+        <div class="card card--dashed"><h3>.card--dashed</h3><p>Карточка того, что ещё формируется.</p><p class="card-note">.card-note — оговорка внизу карточки.</p></div>
+        <div>
+          <div class="record record--now"><div class="record-head"><span>.record--now · сейчас</span></div><h3>Текущий этап</h3></div>
+          <div class="record record--soft" style="margin-top: var(--s5)"><div class="record-head"><span>.record--soft · позже</span></div><h3>Будущий этап</h3></div>
+        </div>
+      </div>
+      <div class="grid grid--2" style="margin-top: var(--gap)">
+        <dl class="facts">
+          <div><dt>.facts — dt</dt><dd><span class="big">6</span> версий без полного перевода</dd></div>
+          <div><dt>Основа текстов</dt><dd>издания в общественном достоянии</dd></div>
+        </dl>
+        <div>
+          {{ ui.stats([{ value: "50", label: ".stats — ui.stats(items)" }, { value: "70", label: "ключевых утверждений" }, { value: "93", label: "замечания" }, { value: "22", label: "замечания рецензий" }], "Образец ряда цифр") }}
+        </div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="sg-lists">
+      {{ ui.sectionHead("Списки, журнал, таблица", "", "sg-lists") }}
+      <div class="grid grid--2">
+        <div>
+          <p class="overline">.feed — лента изменений</p>
+          <ol class="feed">
+            <li><time>01.11.2026</time><span>Анонимный «Синопсис Музыки» — версия 0.2</span></li>
+            <li><span class="kind">новое</span><span>Новый раздел библиотеки</span></li>
+          </ol>
+          <p class="overline" style="margin-top: var(--s5)">.exists — что уже есть по-русски</p>
+          <ul class="exists">
+            <li><span>Аристоксен, «Элементы гармоники»</span><span>Цыпин 1997</span></li>
+            <li><span>Птолемей, «Гармоника»</span><span>Цыпин 2013</span></li>
+          </ul>
+        </div>
+        <div>
+          <p class="overline">.log — журнал рецензии</p>
+          <ol class="log">
+            <li><span class="who"><b>Рецензия</b>GPT-6 Astra · OpenAI</span><span><span class="mqm">.mqm — 2 существенных, 6 малых</span><br>Текст замечания рецензента.</span></li>
+            <li><span class="who"><b>Редактор</b>Александр Михельс, PhD</span><span class="pending">.pending — ожидает вычитки.</span></li>
+          </ol>
+        </div>
+      </div>
+      <p class="overline" style="margin-top: var(--s5)">.table-wrap &gt; table.table (.table--grid — с вертикальными линиями)</p>
+      {% call ui.tableWrap("Образец таблицы") %}
+        <table class="table table--grid">
+          <caption>Подпись таблицы</caption>
+          <thead><tr><th scope="col">Версия</th><th scope="col" class="num">Дата</th><th scope="col">Что изменилось</th></tr></thead>
+          <tbody>
+            <tr><th scope="row">0.2</th><td class="num">01.11.2026</td><td>Сверка с немецким переводом Мицлера (1746)</td></tr>
+            <tr><th scope="row">0.1</th><td class="num">01.11.2026</td><td>td.num — числа и даты по правому краю</td></tr>
+          </tbody>
+        </table>
+      {% endcall %}
+      <p class="overline" style="margin-top: var(--s5)">.steps — шаги</p>
+      <ol class="steps" style="--cols: 3">
+        <li><b>Источник</b><span>Издание в общественном достоянии.</span></li>
+        <li><b>Черновики</b><span>Не меньше двух независимых переводов.</span></li>
+        <li><b>Редактор</b><span>Филолог подписывает версию.</span></li>
+      </ol>
+    </section>
+
+    <section class="section" aria-labelledby="sg-more">
+      {{ ui.sectionHead("Уведомление, статус, рисунок, оглавление, панель чтения", "Уведомление выводит каркас по полю <code>mock</code>; блок статуса — <code>ui.status(key, status, note)</code>; оглавление — <code>ui.toc(items)</code>; панель чтения — <code>rd.toolbar(items)</code> из <code>reader/parts.njk</code>.", "sg-more") }}
+      <p class="overline">.notice</p>
+      <p class="notice" role="note" style="margin-top: 0"><b>Макет страницы.</b> Уведомление о состоянии страницы — текст поля mock.</p>
+      <p class="overline" style="margin-top: var(--s5)">.status — ui.status("text", "models", note)</p>
+      {{ ui.status("text", "models", "<b>Версия 0.2.</b> Оговорка редакции — текст поля mock страницы со статусом.") }}
+      <div class="grid grid--2" style="margin-top: var(--gap)">
+        <figure class="figure">
+          <figcaption><b>.figure · figcaption</b> — подпись стоит над рисунком.</figcaption>
+          <div class="sg-swatch"><i style="background: var(--wash)"></i></div>
+          <p class="fig-note">.fig-note — пояснение под рисунком.</p>
+        </figure>
+        <div>
+          <p class="overline">.toc — ui.toc(items); на странице стоит в .with-toc</p>
+          {{ ui.toc([{ href: "#sg-colour", label: "Цвет", n: "1" }, { href: "#sg-type", label: "Шрифты и кегли", n: "2" }, { href: "#sg-box", label: "Панель, карточка, запись каталога" }]) }}
+        </div>
+      </div>
+      <p class="overline" style="margin-top: var(--s5)">.toolbar — панель чтения (на странице текста закреплена у верхнего края; здесь — образец без действия)</p>
+      <div class="toolbar" role="group" aria-label="Образец панели чтения" style="position: static">
+        <select class="jump" aria-label="Образец перехода"><option>К тексту</option><option>I.1</option></select>
+        <div class="group"><span aria-hidden="true">Показ</span><div class="seg-ctl" role="group" aria-label="Образец: показ"><button type="button" aria-pressed="false">Перевод</button><button type="button" aria-pressed="true">Параллельно</button><button type="button" aria-pressed="false">Оригинал</button></div></div>
+        <div class="group"><span aria-hidden="true">Язык перевода</span><div class="seg-ctl" role="group" aria-label="Образец: язык"><button type="button" aria-pressed="true">RU</button><button type="button" aria-pressed="false" lang="en">EN</button></div></div>
+        <label class="toggle"><input type="checkbox" checked> Новые схолии на полях</label>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="sg-cite">
+      {{ ui.sectionHead("Цитирование и раскрывающиеся блоки", "<code>ui.cite(text, id)</code>; кнопка с <code>data-copy</code> копирует текст указанного элемента.", "sg-cite") }}
+      <div class="prose">
+        {{ ui.cite("Схолии к «Одиссее», песнь X, ст. 1–4 / пер. и комм. Александр Михельс. Версия 0.2. Neoscholia, 2026.", "sg-cite-text") }}
+        <details class="disclosure">
+          <summary>.disclosure — журнал рецензии к главе</summary>
+          <ul><li>Содержимое раскрывающегося блока.</li></ul>
+        </details>
+      </div>
+    </section>

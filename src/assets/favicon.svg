@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <style>
+    .leaf { fill: #fbf7ee } .rule { stroke: #978566 } .ink { fill: #2b2219 } .rubric { fill: #a2361c }
+    @media (prefers-color-scheme: dark) { .leaf { fill: #1f1a14 } .rule { stroke: #7d6f5c } .ink { fill: #e9dec7 } .rubric { fill: #e08a6c } }
+  </style>
+  <rect class="leaf" width="64" height="64"/>
+  <rect class="rule" x="2" y="2" width="60" height="60" fill="none" stroke-width="2"/>
+  <path class="ink" d="M11 47V17h5.4l14.2 20.6V21.2l-3.4-.7V17h10.6v3.5l-3.2.7V47h-4.2L15 24.8v18l3.6.7V47Z"/>
+  <circle class="rubric" cx="48" cy="33" r="5.5"/>
+</svg>

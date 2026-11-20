@@ -2,60 +2,58 @@
 title: "Neoscholia — новые схолии к непереведённой античности"
 nav: "home"
 permalink: "index.html"
-styles: ["index"]
-mock: "<b>Макет главной страницы.</b> Опубликованы книга I эпитомы Цахера (версия 0.3, с озвучкой), препринт о Кратете (0.4), схолии к «Одиссее» X, ст. 1–4 (0.2) и анонимный «Синопсис Музыки» (0.2); остальные тексты в библиотеке помечены как готовящиеся."
+styles: ["home"]
+mock: "<b>Макет главной страницы.</b> Опубликованы книга I эпитомы Цахера (версия {version:zacher-1}, с озвучкой), препринт о Кратете ({version:study-laestrygonians}), схолии к «Одиссее» X, ст. 1–4 ({version:odyssey-10}) и анонимный «Синопсис Музыки» ({version:synopsis-musicae}); остальные тексты в библиотеке помечены как готовящиеся."
 ---
-<main id="top">
-    <section class="hero" aria-labelledby="hero-h">
+{#- Главная: тезис и образец перевода → опубликованное → разделы библиотеки → последние изменения → метод → указатели.
+    Карточки опубликованного собираются из поля card страниц, разделы — из src/_data/sections.yaml,
+    лента изменений — из историй версий и src/_data/news.yaml, статусы — из src/_data/ladders.yaml. -#}
+{%- import "ui.njk" as ui with context -%}
+<header class="page-head page-head--split hero">
       <div>
         <h1 id="hero-h">Библиотека <em>первых</em> переводов античных текстов</h1>
         <p class="lede">Тексты, которые до сих пор не переводились на русский и английский: схолии, комментарии, романы, трактаты. Каждый перевод выходит с оригиналом, комментарием и открытым журналом рецензии; за текст отвечает названный редактор.</p>
-        <p class="cta"><a class="btn" href="library.html">Открыть библиотеку</a><a class="btn ghost" href="studies.html">Исследования</a></p>
+        <p class="actions"><a class="btn btn--primary" href="library.html">Открыть библиотеку</a><a class="btn btn--ghost" href="studies.html">Исследования</a></p>
       </div>
 
-      <aside class="specimen" aria-label="Образец: эпитома Юлия Валерия, кн. I, гл. 14">
-        <div class="label"><span>Эпитома Юлия Валерия I.14 · Zacher 1867, с. 18–20</span><span>версия 0.3</span></div>
-        <p lang="la">Quippe nescius quae te impenderent humi, nunc resupinus iacens rimare ea quae sunt coeli.</p>
-        <p class="tr">Ведь, не ведая, что грозит тебе на земле, теперь, лёжа навзничь, исследуй то, что на небе.</p>
+      {#- Образец: оригинал, перевод и новая схолия из опубликованной главы. Номер версии берётся со страницы текста. #}
+      <aside class="panel specimen" aria-label="Образец: эпитома Юлия Валерия, кн. I, гл. 14">
+        <p class="label"><span>Эпитома Юлия Валерия I.14 · Zacher 1867, с. 18–20</span><span>версия {{ "zacher-1" | pageVersion(collections.all) }}</span></p>
+        <p class="orig" lang="la">Quippe nescius quae te impenderent humi, nunc resupinus iacens rimare ea quae sunt coeli.</p>
+        <p>Ведь, не ведая, что грозит тебе на земле, теперь, лёжа навзничь, исследуй то, что на небе.</p>
         <p class="note"><b>26</b> Александр — Нектанебу, которого он столкнул в ров. Насмешки «лёжа навзничь» нет у Юлия Валерия: это добавление эпитоматора. <a href="zacher-1.html#c14">Открыть главу</a></p>
       </aside>
-    </section>
+    </header>
 
-    <section class="block" aria-labelledby="pub-h">
-      <div class="block-head">
-        <h2 id="pub-h">Опубликовано</h2>
-        <p>Каждый текст выходит версиями; статус показывает, насколько на него можно опираться.</p>
-      </div>
-      <div class="cards">
-      {%- for c in collections.all | publishedCards %}
-        {%- set steps = ladders[c.ladder].steps | ladderSteps(c.status) %}
-        <article class="card">
-          <p class="where"><a href="{{ c.sectionHref }}">{{ c.section }}</a></p>
-          <h3><a href="{{ c.href }}">{{ c.title }}</a></h3>
-          <p>{{ c.summary }}</p>
-          <p class="meta">{% for st in steps %}{% if st.current %}<span class="status">{{ st.label }}</span>{% endif %}{% endfor %}<span>версия {{ c.version }} · {{ c.updated }}</span>{% if c.textKey and audio[c.textKey] %}<span class="audio">можно слушать</span>{% endif %}</p>
-        </article>
-      {%- endfor %}
+    <section class="section" aria-labelledby="pub-h">
+      {{ ui.sectionHead("Опубликовано", "Каждый текст выходит версиями; статус показывает, насколько на него можно опираться.", "pub-h") }}
+      <div class="grid grid--3">
+        {%- for c in collections.all | publishedCards %}
+        {{ ui.pubCard(c) }}
+        {%- endfor %}
       </div>
     </section>
 
-    <section class="block" aria-labelledby="chg-h">
-      <div class="block-head">
-        <h2 id="chg-h">Последние изменения</h2>
-        <p><a href="changes.html">Вся история изменений →</a></p>
+    <section class="section" aria-labelledby="sec-h">
+      {{ ui.sectionHead("Разделы библиотеки", "Разделы растут вместе с библиотекой.", "sec-h") }}
+      <div class="grid grid--4">
+        {%- for s in sections %}
+        <a class="card" href="{{ s.href }}"><b>{{ s.title }}</b><span>{{ s.scope }}</span></a>
+        {%- endfor %}
       </div>
-      <ol class="log">
-      {%- for x in (collections.all | changeFeed(texts, news)).slice(0, 4) %}
-        <li><time>{{ x.date }}</time><span>{% if x.version %}<a href="{{ x.href }}">{{ x.title }}</a> — версия {{ x.version }}: {{ x.text | safe }}{% else %}{{ x.text | safe }}{% endif %}</span></li>
-      {%- endfor %}
+    </section>
+
+    <section class="section" aria-labelledby="chg-h">
+      {{ ui.sectionHead("Последние изменения", "", "chg-h", { href: "changes.html", label: "Вся история изменений →" }) }}
+      <ol class="feed">
+        {%- for x in (collections.all | changeFeed(texts, news)).slice(0, 4) %}
+        <li><time datetime="{{ x.date | isoDate }}">{{ x.date }}</time><span>{% if x.version %}<a href="{{ x.href }}">{{ x.title }}</a> — версия {{ x.version }}: {{ x.text | greek | safe }}{% else %}{{ x.text | greek | safe }}{% endif %}</span></li>
+        {%- endfor %}
       </ol>
     </section>
 
-    <section class="block" id="method" aria-labelledby="method-h">
-      <div class="block-head">
-        <h2 id="method-h">Как мы переводим</h2>
-        <p>Модели разных семейств независимо переводят текст и рецензируют переводы, арбитраж сводит варианты, редактор подписывает. Каждый шаг виден на странице текста.</p>
-      </div>
+    <section class="section" id="method" aria-labelledby="method-h">
+      {{ ui.sectionHead("Как мы переводим", "Модели разных семейств независимо переводят текст и рецензируют переводы, арбитраж сводит варианты, редактор подписывает. Каждый шаг виден на странице текста.", "method-h") }}
       <ol class="steps">
         <li><b>Источник</b><span>Текст издания в общественном достоянии, сверенный с печатью по сканам и разбитый на главы или схолии.</span></li>
         <li><b>Черновики</b><span>Не меньше двух независимых переводов на русский и английский от моделей разных семейств, по одному глоссарию; второй делается только по оригиналу, без доступа к первому. Плюс новые схолии — комментарий на полях.</span></li>
@@ -63,21 +61,17 @@ mock: "<b>Макет главной страницы.</b> Опубликован
         <li><b>Редактор</b><span>Филолог проверяет спорные места и выборку остальных и подписывает версию.</span></li>
         <li><b>Публикация</b><span>Версия с оригиналом, журналом рецензии и историей правок; DOI — после подписи редактора.</span></li>
       </ol>
-      <div class="ladder" aria-label="Статусы текста">
-        {%- for st in ladders.text.steps %}
-        <span class="chip">{{ st.label }}</span>{% if not loop.last %}<span class="arrow">→</span>{% endif %}
-        {%- endfor %}
-        <a href="method.html#statuses">Подробнее о методе и статусах</a>
-      </div>
+      {#- Статусы текста: перечень ступеней из ladders.yaml. #}
+      {{ ui.ladder("text") }}
+      <p class="hint"><a href="method.html#statuses">Подробнее о методе и статусах</a></p>
     </section>
 
-    <section class="block" aria-labelledby="idx-h">
-      <div class="block-head"><h2 id="idx-h">Указатели</h2><p>Сквозные указатели по всем текстам библиотеки, со ссылками на Wikidata и Pleiades.</p></div>
-      <div class="indexes">
+    <section class="section" aria-labelledby="idx-h">
+      {{ ui.sectionHead("Указатели", "Сквозные указатели по всем текстам библиотеки, со ссылками на Wikidata и Pleiades.", "idx-h") }}
+      <div class="grid grid--4">
         {%- for k in indexes.order %}
         {%- set ix = indexes.sections[k] %}
-        <a href="indexes.html#{{ k }}"><b>{{ ix.title }}</b><span>{{ ix.count }} · {{ ix.sample }}</span></a>
+        <a class="card" href="indexes.html#{{ k }}"><b>{{ ix.title }}</b><span>{{ ix.count }} · {{ ix.sample | escape | greek | safe }}</span></a>
         {%- endfor %}
       </div>
     </section>
-  </main>

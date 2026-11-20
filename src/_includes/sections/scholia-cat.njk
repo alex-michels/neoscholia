@@ -1,0 +1,42 @@
+{#- Каталог раздела «Схолии» — таблицей: одна строка — один корпус.
+    У строки: data-g — группа для фильтра (grc | byz | lat), data-nowhere="1" — не переведён ни на один язык.
+    Ячейки строки: к кому · корпус и первая единица (+ span.unit — издание) · RU · EN (class="no" — перевода нет) · статус (чип).
+    На телефоне строки складываются в карточки (см. layouts/catalogue.css). -#}
+{%- import "ui.njk" as ui with context -%}
+      {{ ui.filters("#cat", [
+        { key: "all", label: "Все" },
+        { key: "grc", label: "Греческие схолии" },
+        { key: "byz", label: "Византийские комментаторы" },
+        { key: "lat", label: "Латинские комментарии" }
+      ], { key: "nowhere", label: "только не переведённые ни на один язык" }, "Фильтр корпусов") }}
+      <div class="table-wrap" role="region" tabindex="0" aria-label="Таблица корпусов схолий">
+        <table class="table cat" id="cat" aria-labelledby="{{ b.id }}">
+          <thead><tr><th scope="col">К кому</th><th scope="col">Корпус и первая единица</th><th scope="col">RU</th><th scope="col">EN</th><th scope="col">Статус</th></tr></thead>
+          <tbody>
+            <tr data-g="grc" data-nowhere="1"><td>«Одиссея»</td><td><a href="odyssey-10.html">Схолии, песнь X</a><span class="unit">Dindorf 1855; García Prat 2022 (CC BY-SA)</span></td><td class="no">нет</td><td>одна D-схолия</td><td><span class="chip chip--solid">черновик v{{ "odyssey-10" | pageVersion(collections.all) }}</span></td></tr>
+            <tr data-g="grc" data-nowhere="0"><td>«Одиссея»</td><td>«Конец „Одиссеи“»: схолии к 23.296–24 и Аристоник<span class="unit">Dindorf 1855; Carnuth 1869</span></td><td class="no">нет</td><td>отрывки</td><td><span class="chip chip--status">готовится</span></td></tr>
+            <tr data-g="grc" data-nowhere="0"><td>Пиндар</td><td>Древние схолии, Пифийская ода 1<span class="unit">Drachmann (ОД), 89 схолий; открытый TEI</span></td><td>отрывки</td><td>отрывки</td><td><span class="chip chip--status">готовится</span></td></tr>
+            <tr data-g="grc" data-nowhere="0"><td>Аполлоний Родосский</td><td>Древние схолии, кн. II, 1–647<span class="unit">Wendel 1935 / Keil 1854; есть FR перевод</span></td><td>отрывки</td><td>отрывки</td><td><span class="chip chip--status">готовится</span></td></tr>
+            <tr data-g="grc" data-nowhere="0"><td>«Илиада»</td><td>Схолии A, bT, D к песни VI<span class="unit">Гектор и Андромаха; Dindorf, Maass (ОД)</span></td><td>отрывки</td><td>частично</td><td><span class="chip">кандидат</span></td></tr>
+            <tr data-g="grc" data-nowhere="1"><td>Феокрит</td><td>Древние схолии<span class="unit">Wendel 1914 (ОД)</span></td><td>отрывки</td><td>отрывки</td><td><span class="chip">кандидат</span></td></tr>
+            <tr data-g="grc" data-nowhere="1"><td>Арат</td><td>Схолии к «Явлениям», 1–136<span class="unit">проверить французский 1821 г.</span></td><td class="no">нет</td><td class="no">нет</td><td><span class="chip">кандидат</span></td></tr>
+            <tr data-g="grc" data-nowhere="0"><td>Гесиод</td><td>Схолии Прокла к «Трудам и дням»<span class="unit">пролегомены + ст. 1–201; есть DE и IT</span></td><td class="no">нет</td><td>отрывки</td><td><span class="chip">кандидат</span></td></tr>
+            <tr data-g="grc" data-nowhere="0"><td>Аристофан</td><td>Схолии и Цец к «Облакам», 1–262<span class="unit">Dübner 1842 (ОД)</span></td><td class="no">нет</td><td>частично</td><td><span class="chip">кандидат</span></td></tr>
+            <tr data-g="byz" data-nowhere="1"><td>«Одиссея»</td><td>Евстафий, «Парекболы», песни 13–24<span class="unit">Stallbaum 1826 (ОД); начать с XIII</span></td><td class="no">нет</td><td class="no">нет</td><td><span class="chip chip--status">готовится</span></td></tr>
+            <tr data-g="byz" data-nowhere="1"><td>«Илиада»</td><td>Евстафий, комментарий к песни 1<span class="unit">есть только латинский перевод 1730 г.</span></td><td>отрывки</td><td>только проэмий</td><td><span class="chip">кандидат</span></td></tr>
+            <tr data-g="byz" data-nowhere="0"><td>Пиндар</td><td>Евстафий, Предисловие к комментарию<span class="unit">~8 тыс. слов; есть DE и IT</span></td><td class="no">нет</td><td>не найден</td><td><span class="chip">кандидат</span></td></tr>
+            <tr data-g="byz" data-nowhere="0"><td>Дионисий Периэгет</td><td>Евстафий, комментарий (не понтийские главы)<span class="unit">Müller, GGM II (ОД)</span></td><td>отрывки</td><td class="no">нет</td><td><span class="chip">кандидат</span></td></tr>
+            <tr data-g="byz" data-nowhere="0"><td>Ликофрон</td><td>Цец, комментарий к «Александре»<span class="unit">в сети есть только машинный английский</span></td><td>отрывки</td><td>машинный</td><td><span class="chip">кандидат</span></td></tr>
+            <tr data-g="byz" data-nowhere="1"><td>«Илиада»</td><td>Цец, «Экзегеза», пролегомены</td><td class="no">нет</td><td class="no">нет</td><td><span class="chip">кандидат</span></td></tr>
+            <tr data-g="lat" data-nowhere="1"><td>Теренций</td><td>Элий Донат, комментарий к «Братьям»<span class="unit">Wessner (ОД)</span></td><td class="no">нет</td><td class="no">нет</td><td><span class="chip chip--status">готовится</span></td></tr>
+            <tr data-g="lat" data-nowhere="0"><td>Гораций</td><td>Порфирион, к «Науке поэзии»<span class="unit">Holder 1894 (ОД)</span></td><td>отрывки</td><td class="no">нет</td><td><span class="chip">кандидат</span></td></tr>
+            <tr data-g="lat" data-nowhere="0"><td>Вергилий</td><td>Сервий к «Энеиде» VI<span class="unit">по-русски есть только кн. I</span></td><td>отрывки</td><td>частично</td><td><span class="chip">кандидат</span></td></tr>
+            <tr data-g="lat" data-nowhere="1"><td>Вергилий</td><td>Тиберий Клавдий Донат, «Толкования», кн. 4<span class="unit">Дидона; Georgii 1905 (ОД)</span></td><td class="no">нет</td><td class="no">нет</td><td><span class="chip">кандидат</span></td></tr>
+            <tr data-g="lat" data-nowhere="0"><td>Ювенал</td><td>Древние схолии, сатиры 1 и 4<span class="unit">Wessner 1931</span></td><td class="no">нет</td><td>отрывки</td><td><span class="chip">кандидат</span></td></tr>
+            <tr data-g="lat" data-nowhere="0"><td>Лукан</td><td>Бернские комментарии, кн. 1<span class="unit">Usener 1869 (ОД)</span></td><td class="no">нет</td><td>отрывки</td><td><span class="chip">кандидат</span></td></tr>
+            <tr data-g="lat" data-nowhere="0"><td>Стаций</td><td>Лактанций Плацид к «Фиваиде», кн. 1<span class="unit">Jahnke 1898 (ОД)</span></td><td>отрывки</td><td>отрывки</td><td><span class="chip">кандидат</span></td></tr>
+            <tr data-g="lat" data-nowhere="0"><td>Цицерон</td><td>Боббиенские схолии к «За Сестия» и «Против Ватиния»<span class="unit">Stangl 1912</span></td><td class="no">нет</td><td>отрывки</td><td><span class="chip">кандидат</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="empty" id="empty" role="status" hidden>По этому фильтру корпусов нет.</p>

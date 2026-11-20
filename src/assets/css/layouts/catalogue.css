@@ -1,0 +1,88 @@
+/* Neoscholia — страница раздела библиотеки (тип catalogue): вступление с фактами и рисунком → опубликованное →
+   связанные тексты других разделов → карта корпуса (что уже есть по-русски и где пробелы) →
+   каталог текстов с фильтрами → «что уже есть по-русски» и исследования.
+   Страница собирается шаблоном _includes/section-body.njk из данных _data/catalogue/<раздел>.yaml;
+   порядок блоков задаёт список blocks в данных.
+   Общие компоненты (шапка страницы, раздел, карточка, запись каталога, чипы, фильтры, таблица, рисунок) — в components.css;
+   особые рисунки и блоки отдельных разделов — в pages/ (alexander, scholia, music, sections). */
+
+/* ---------- опубликованные тексты раздела ---------- */
+.published { display: grid; grid-template-columns: repeat(auto-fit, minmax(18rem, 1fr)); gap: var(--gap); }
+/* единственная публикация занимает всю ширину: слева раздел, заголовок и статус, справа описание */
+.published .card:only-child { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.35fr); grid-template-rows: auto auto 1fr; gap: var(--s2) var(--s7); }
+.published .card:only-child > * { grid-column: 1; }
+.published .card:only-child > h3 + p { grid-column: 2; grid-row: 1 / -1; max-width: var(--measure); }
+.published .card:only-child > .card-meta { align-self: end; }
+
+/* ---------- карта корпуса по темам: тема | уже по-русски | пробелы (таблица .table с рамкой) ---------- */
+.corpus { border: 1px solid var(--rule); table-layout: fixed; }
+.corpus caption { padding: 0; border: 0; }
+.corpus th:first-child { width: 12rem; }
+.corpus tbody th { font-family: var(--font-display); font-size: var(--fs-h4); line-height: var(--lh-snug); }
+.corpus .have { color: var(--ink-soft); }
+.corpus .closed { color: var(--ink-soft); font-style: italic; margin: 0; }
+.corpus .tag { display: none; }
+/* списки с отметками в карте корпуса и в таблице традиции */
+.marked { list-style: none; margin: 0; padding: 0; display: grid; gap: .35rem; }
+.marked li { display: grid; grid-template-columns: .9rem minmax(0, 1fr); gap: .35rem; align-items: baseline; }
+.marked small { color: var(--ink-soft); }
+
+/* ---------- каталог: записи в две колонки ---------- */
+.records { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--s6) var(--gap); align-items: start; }
+/* опубликованный текст — во всю ширину: описание слева, строки «Основа», «Зачем» справа */
+.record--wide { grid-column: 1 / -1; flex-direction: row; align-items: flex-start; gap: var(--gap); }
+.record--wide > * { flex: 1 1 0; min-width: 0; }
+.record--wide > dl { margin-top: 0; }
+.record-main { display: flex; flex-direction: column; gap: var(--s2); }
+
+/* ---------- каталог таблицей (схолии) ---------- */
+.cat { min-width: 46rem; }
+.cat td:first-child { font-family: var(--font-display); font-size: var(--fs-lg); white-space: nowrap; }
+.cat td:nth-child(2) a { color: var(--ink); text-decoration-color: var(--rule-strong); }
+.cat td:nth-child(2) a:hover { color: var(--rubric); }
+.cat .unit { color: var(--ink-soft); font-size: var(--fs-sm); display: block; }
+.cat .no { color: var(--rubric); }
+.cat .chip { white-space: nowrap; }
+
+/* ---------- «уже есть на русском» без соседней колонки — в две колонки (список читается сверху вниз) ---------- */
+.exists--cols { display: block; columns: 2; column-gap: var(--s7); }
+.exists--cols li { break-inside: avoid; margin-bottom: var(--s2); }
+
+/* ---------- связанные тексты других разделов ---------- */
+.related { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: var(--s5) var(--gap); }
+.related li { border-top: 3px solid var(--ink); padding-top: var(--s3); display: grid; gap: .35rem; align-content: start; }
+.related a { font-size: var(--fs-lg); line-height: 1.35; }
+.related li > span { font-size: var(--fs-sm); color: var(--ink-soft); }
+
+@media (max-width: 900px) {
+  .records, .related { grid-template-columns: minmax(0, 1fr); }
+  .exists--cols { columns: 1; }
+  .published .card:only-child { grid-template-columns: minmax(0, 1fr); grid-template-rows: none; }
+  .published .card:only-child > h3 + p { grid-column: 1; grid-row: auto; }
+  .record--wide { flex-direction: column; gap: var(--s2); }
+  .record--wide > dl { margin-top: var(--s1); }
+  /* карта корпуса складывается в столбик: тема, под ней две подписанные ячейки */
+  .corpus, .corpus tbody, .corpus tr, .corpus th, .corpus th:first-child, .corpus td { display: block; width: auto; }
+  .corpus thead { display: none; }
+  .corpus tbody th { border-bottom: 0; padding-bottom: .2rem; }
+  .corpus th + td, .corpus td + td { border-left: 0; }
+  .corpus .have { border-bottom: 0; padding-block: .2rem; }
+  .corpus .tag { display: block; font-family: var(--font-label); font-size: var(--fs-xs); letter-spacing: var(--track); color: var(--ink-soft); margin-bottom: .2rem; }
+}
+@media (max-width: 640px) {
+  /* каталог-таблица складывается в карточки: к кому и статус, корпус с изданием, затем RU и EN с подписями */
+  .cat { min-width: 0; }
+  .cat thead { display: none; }
+  .cat, .cat tbody, .cat td { display: block; }
+  .cat tr { display: grid; grid-template-columns: 7.5rem minmax(0, 1fr) auto; grid-template-areas: "who who st" "unit unit unit" "ru en en"; gap: var(--s1) var(--s4); padding: var(--s3) .75rem; border-bottom: 1px solid var(--rule); }
+  .cat tbody tr:last-child { border-bottom: 0; }
+  .cat td { padding: 0; border: 0; }
+  .cat td:nth-child(1) { grid-area: who; white-space: normal; }
+  .cat td:nth-child(2) { grid-area: unit; }
+  .cat td:nth-child(3) { grid-area: ru; }
+  .cat td:nth-child(4) { grid-area: en; }
+  .cat td:nth-child(5) { grid-area: st; justify-self: end; }
+  .cat td:nth-child(3)::before { content: "RU: "; }
+  .cat td:nth-child(4)::before { content: "EN: "; }
+  .cat td:nth-child(3)::before, .cat td:nth-child(4)::before { font-family: var(--font-label); font-size: var(--fs-xs); letter-spacing: var(--track); color: var(--ink-soft); }
+}

@@ -1,0 +1,129 @@
+/* Neoscholia — страница статьи (тип article). Слева оглавление (.with-toc и .toc из components.css), справа колонка
+   текста шириной --measure; примечания с номерами стоят на правом поле, а на экране ≤ 900px открываются под строкой
+   по нажатию на номер; широкие блоки (.wide: стихи, рисунки, таблицы, приложение) занимают текст и поле вместе.
+   Разметку текста из article.md создаёт lib/article.js, примечания открывает assets/js/article.js.
+   Здесь только то, чего нет в общих компонентах; рисунок отдельной статьи — в pages/<страница>.css. */
+
+.page-head { padding-bottom: var(--s5); }
+
+/* ---------- колонка текста и поле примечаний ---------- */
+/* --col — ширина строки: не шире --measure и так, чтобы справа уместилось поле примечаний */
+.text { min-width: 0; --margin-gap: 2rem; --col: min(var(--measure), 100% - var(--margin-gap) - var(--margin-w)); }
+.text > * { max-width: var(--col); }
+.text > .wide { max-width: calc(var(--measure) + var(--margin-gap) + var(--margin-w)); clear: both; }
+.text > p, .text > ul, .text > ol { hyphens: auto; }
+.text [lang="grc"] { hyphens: manual; }
+
+/* заголовки разделов: строка над заголовком (номер, «Приложение») и название */
+.text h2:not(.overline) { margin: var(--s7) 0 var(--s3); }
+.text .no { display: block; font-family: var(--font-label); font-size: var(--fs-md); line-height: var(--lh-snug); letter-spacing: var(--track); color: var(--rubric); font-variant-numeric: lining-nums; }
+.text > h3 { margin: var(--s5) 0 var(--s2); }
+
+/* списки в тексте (без класса) — блочные, а не сетки: элемент сетки создаёт свой контекст форматирования,
+   и примечания внутри него не обтекали бы предыдущие */
+.text > ul:not([class]), .text > ol:not([class]) { margin: 0 0 var(--s4); padding-left: 1.3rem; }
+.text > ul:not([class]) > li + li, .text > ol:not([class]) > li + li { margin-top: .35rem; }
+.text > :not([class]) > li > ul, .text > :not([class]) > li > ol { margin-top: .35rem; padding-left: 1.3rem; }
+.text > .grid { margin-block: var(--s4) var(--s5); }
+/* таблица из article.md знает число своих колонок (--cols): на узком экране колонки не сжимаются, таблица прокручивается */
+.text .table { min-width: calc(var(--cols, 0) * 10rem); }
+/* при прокрутке широкой таблицы первый столбец (подписи строк) остаётся на месте */
+.text .table th:first-child, .text .table td:first-child { position: sticky; left: 0; z-index: 1; box-shadow: 1px 0 0 var(--rule); }
+.text .table td:first-child { background: var(--leaf); }
+.panel h3 .chip { vertical-align: middle; white-space: nowrap; }
+
+/* ---------- примечания: номер в тексте (кнопка .sn-ref) и сразу за ним текст примечания (.sn) ---------- */
+.sn-ref { position: relative; top: -.45em; vertical-align: baseline; font: 700 var(--fs-xs)/1 var(--font-label); font-variant-numeric: lining-nums;
+  border: 0; background: none; color: var(--rubric); padding: 0 .15em; margin: 0; }
+/* область нажатия шире самой цифры: не меньше 24 × 24 px */
+.sn-ref::after { content: ""; position: absolute; inset: -.45rem -.5rem; }
+.sn { float: right; clear: right; width: var(--margin-w); margin: .2rem calc(-1 * (var(--margin-w) + var(--margin-gap))) var(--s3) 0;
+  font: var(--fs-sm)/1.45 var(--font-text); letter-spacing: normal; text-align: left; color: var(--ink-soft); hyphens: auto; }
+.sn-n { font-family: var(--font-label); font-weight: 700; color: var(--rubric); margin-right: .3rem; font-variant-numeric: lining-nums; }
+.sn.open, .sn:target, .sn-ref:hover + .sn, .sn-ref:focus-visible + .sn { color: var(--ink); }
+
+/* ---------- аннотация (панель с переключателем языка), строка «опирается на перевод» ---------- */
+.abstract { margin-bottom: var(--s5); }
+.abstract-head { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: var(--s2) var(--s4); margin-bottom: var(--s3); }
+.abstract-head .overline { margin: 0; }
+.abstract p { font-size: var(--fs-md); margin-bottom: var(--s3); }
+.abstract ul, .abstract ol { margin-bottom: var(--s3); }
+.abstract [data-when] > :last-child { margin-bottom: 0; }
+.based { border-left: 3px solid var(--lapis); padding: .2rem 0 .2rem var(--s4); font-size: var(--fs-md); color: var(--ink-soft); margin-bottom: var(--s5); }
+.based b { color: var(--ink); font-weight: 400; }
+
+/* ---------- цитаты: греческий текст и перевод под ним ---------- */
+.text blockquote { margin: var(--s4) 0 var(--s5); padding-left: 1.1rem; border-left: 2px solid var(--rule-strong); }
+.text blockquote p { margin: 0; }
+.text blockquote.grc { font-size: var(--fs-lg); }
+.text blockquote.grc + blockquote.tr { margin-top: calc(-1 * var(--s2)); }
+.text blockquote.tr p::before { content: "— "; color: var(--ink-soft); }
+
+/* ---------- стихи: оригинал и перевод в две колонки, номера стихов слева ---------- */
+.verse, .fig { margin-block: var(--s5); }
+.verse { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: var(--s1) var(--s5); }
+.verse ol { list-style: none; margin: 0; padding: 0; }
+.verse li { display: grid; grid-template-columns: 1.6rem minmax(0, 1fr); gap: var(--s2); font-size: var(--fs-md); }
+.verse li::before { content: attr(data-l); font-family: var(--font-label); font-size: var(--fs-xs); color: var(--ink-soft); padding-top: .25rem; text-align: right; font-variant-numeric: lining-nums tabular-nums; }
+.verse .grc li { font-size: var(--fs-base); }
+.verse li.hl { color: var(--rubric); }
+.verse figcaption { grid-column: 1 / -1; margin: var(--s2) 0 0; }
+
+/* ---------- рисунок с управлением: слева чертёж, справа ползунок, кнопки и показания; подпись — под рисунком ---------- */
+.fig-body { display: grid; grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr); gap: var(--s4) var(--s5); align-items: start; }
+.fig svg { display: block; width: 100%; height: auto; max-width: 30rem; }
+.fig figcaption { margin: var(--s4) 0 0; padding-top: var(--s3); border-top: 1px solid var(--rule); }
+.fig figcaption b { font-weight: 700; }
+.ctl label { display: block; font-family: var(--font-label); font-size: var(--fs-sm); letter-spacing: var(--track); color: var(--ink-soft); margin-bottom: var(--s1); }
+.ctl input[type="range"] { width: 100%; min-height: 1.75rem; accent-color: var(--rubric); }
+/* кнопки готовых значений: вид общих кнопок .filters, на панели — светлее */
+.presets { margin: var(--s3) 0 var(--s4); }
+.presets button { background: var(--leaf); }
+.readout { margin: 0; display: grid; grid-template-columns: auto minmax(0, 1fr); gap: var(--s2) var(--s4); font-size: var(--fs-sm); }
+.readout dt { color: var(--ink-soft); }
+.readout dd { margin: 0; font-variant-numeric: lining-nums tabular-nums; }
+.place-note { margin: var(--s3) 0 0; padding: var(--s2) var(--s3); min-height: 3.2rem; font-size: var(--fs-sm); background: var(--leaf); border: 1px solid var(--rule); }
+
+/* ---------- приложение: тексты источников с переводом; оригинал слева, перевод справа ---------- */
+/* режим показа — общий с читалкой: data-view на <html> (translation | parallel | original), его ставит site.js */
+.appx { margin-top: var(--s4); --sticky-h: 3rem; }
+.sch { padding-block: var(--s4); border-bottom: 1px solid var(--rule); }
+.sch-head { display: flex; flex-wrap: wrap; align-items: baseline; gap: var(--s1) var(--s3); margin-bottom: var(--s2); }
+.sch-ref { font-family: var(--font-label); font-size: var(--fs-sm); letter-spacing: var(--track); color: var(--ink-soft); font-variant-numeric: lining-nums tabular-nums; }
+.pair { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: var(--s2) var(--s6); }
+.pair p { margin: 0; hyphens: manual; }
+.pair .g { font-size: var(--fs-lg); }
+:root[data-view="translation"] .pair, :root[data-view="original"] .pair { grid-template-columns: minmax(0, 1fr); max-width: var(--measure); }
+:root[data-view="translation"] .pair .g, :root[data-view="original"] .pair .t { display: none; }
+.app-crit { font-size: var(--fs-sm); color: var(--ink-soft); margin: var(--s2) 0 0; }
+.app-note { font-size: var(--fs-sm); margin: var(--s2) 0 0; padding: var(--s2) var(--s3); background: var(--panel); border-left: 2px solid var(--rubric); }
+
+/* ---------- литература с пометами о проверке ---------- */
+.refs .overline { margin-top: var(--s5); }
+.refs ul { list-style: none; margin: 0; padding: 0; display: grid; gap: .45rem; font-size: var(--fs-md); }
+.refs li { overflow-wrap: break-word; }
+.refs > p { font-size: var(--fs-sm); color: var(--ink-soft); }
+
+@media (max-width: 900px) {
+  .text { --col: var(--measure); }
+  .text > .wide { max-width: none; }
+  /* примечание открывается под строкой, в которой стоит его номер */
+  .sn { float: left; clear: both; width: 100%; margin: var(--s2) 0 var(--s3); padding: var(--s2) var(--s3); background: var(--panel); border-left: 2px solid var(--rubric); color: var(--ink); }
+  .sn-ref[aria-expanded="true"] { background: var(--rubric); color: var(--leaf); }
+  .fig-body { grid-template-columns: minmax(0, 1fr); }
+  .fig svg { margin-inline: auto; }
+  /* колонка параллельного текста не теснее сорока знаков: на планшете оригинал стоит над переводом */
+  .verse { grid-template-columns: minmax(0, 1fr); row-gap: var(--s4); }
+  .pair { grid-template-columns: minmax(0, 1fr); max-width: var(--measure); }
+}
+/* пока номер не нажат, примечание на узком экране скрыто; без скриптов (на <html> нет data-view) и в печати видны все */
+@media screen and (max-width: 900px) {
+  :root[data-view]:not(.no-layout-js) .sn:not(.open) { display: none; }
+}
+@media (max-width: 640px) {
+  .text .table th:first-child, .text .table td:first-child { max-width: 9rem; }
+}
+@media print {
+  .text > *, .text > .wide { max-width: none; }
+  .sn { float: none; display: block; width: auto; margin: var(--s1) 0 var(--s2) var(--s4); }
+}

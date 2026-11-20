@@ -2,7 +2,7 @@
 // as <site>/audio/<textKey>/<file>.mp3, so that GitHub Pages serves them as audio/mpeg from the site itself.
 // GitHub serves release assets as application/octet-stream, with nosniff and no file extension in the final URL,
 // and Safari (also on iPhone) will not play them. The audio stays out of git: it is fetched at every deploy.
-// A file that cannot be fetched is not fatal: its button falls back to the release (text.js), and a warning is shown.
+// A file that cannot be fetched is not fatal: its button falls back to the release (reader.js), and a warning is shown.
 // Usage: node scripts/fetch-audio.mjs site   (after the build; files already present are kept)
 import { existsSync, mkdirSync, readFileSync, readdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";

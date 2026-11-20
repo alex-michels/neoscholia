@@ -1,0 +1,32 @@
+{#- Блок «Серия „Схолии к «Одиссее»“»: лента из 24 песен в две строки (схолии и Евстафий) и этапы серии.
+    Клетка: class="cell" — пусто; is-draft — черновик опубликован; is-plan — готовится; is-en — есть английский перевод;
+    is-gap — нет перевода ни на одном языке. Для чтения с экрана лента описана одной фразой в aria-label. -#}
+      <div class="table-wrap strip-wrap" role="region" tabindex="0" aria-label="Песни «Одиссеи»: статусы схолий и комментария Евстафия">
+        <div class="strip" role="img" aria-label="Схолии: песнь 10 — черновик; песни 1, 9, 23, 24 — готовятся. Евстафий: песни 1–12 есть по-английски, 13–24 не переведены ни на один язык, песнь 13 готовится.">
+          <span></span>
+          <span class="num">1</span><span class="num">2</span><span class="num">3</span><span class="num">4</span><span class="num">5</span><span class="num">6</span><span class="num">7</span><span class="num">8</span><span class="num">9</span><span class="num">10</span><span class="num">11</span><span class="num">12</span>
+          <span class="num">13</span><span class="num">14</span><span class="num">15</span><span class="num">16</span><span class="num">17</span><span class="num">18</span><span class="num">19</span><span class="num">20</span><span class="num">21</span><span class="num">22</span><span class="num">23</span><span class="num">24</span>
+
+          <span class="rowlab">Схолии</span>
+          <span class="cell is-plan" title="Песнь 1: схолии к 1.1–309 — готовятся">✦</span><span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span>
+          <span class="cell is-plan" title="Песнь 9: Киклоп — готовится">✦</span><span class="cell is-draft" title="Песнь 10: версия {{ "odyssey-10" | pageVersion(collections.all) }}">v{{ "odyssey-10" | pageVersion(collections.all) }}</span><span class="cell"></span><span class="cell"></span>
+          <span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span><span class="cell"></span>
+          <span class="cell is-plan" title="Песнь 23: «конец „Одиссеи“» — готовится">✦</span><span class="cell is-plan" title="Песнь 24: вторая Некийя — готовится">✦</span>
+
+          <span class="rowlab">Евстафий</span>
+          <span class="cell is-en" title="EN: Cullhed &amp; Olson">EN</span><span class="cell is-en">EN</span><span class="cell is-en">EN</span><span class="cell is-en">EN</span><span class="cell is-en">EN</span><span class="cell is-en">EN</span><span class="cell is-en">EN</span><span class="cell is-en">EN</span><span class="cell is-en">EN</span><span class="cell is-en">EN</span><span class="cell is-en">EN</span><span class="cell is-en">EN</span>
+          <span class="cell is-gap is-plan" title="Песнь 13: пещера нимф — готовится">✦</span><span class="cell is-gap"></span><span class="cell is-gap"></span><span class="cell is-gap"></span><span class="cell is-gap"></span><span class="cell is-gap"></span><span class="cell is-gap"></span><span class="cell is-gap"></span><span class="cell is-gap"></span><span class="cell is-gap"></span><span class="cell is-gap"></span><span class="cell is-gap"></span>
+        </div>
+      </div>
+      <div class="legend strip-legend" aria-hidden="true">
+        <span><i class="cell is-draft"></i>черновик опубликован</span>
+        <span><i class="cell is-plan"></i>готовится в Neoscholia</span>
+        <span><i class="cell is-en"></i>есть английский перевод</span>
+        <span><i class="cell is-gap"></i>нет перевода ни на одном языке</span>
+      </div>
+      <ol class="steps phases">
+        <li><b>Песнь X: Эол, лестригоны, Кирка</b><span>открытый критический текст García Prat 2022 (CC BY-SA)</span></li>
+        <li><b>Досье «Конец „Одиссеи“»</b><span>схолии к 23.296–24, Аристоник, Евстафий, Аристотель</span></li>
+        <li><b>Евстафий, песнь XIII: пещера нимф</b><span>рядом с «О пещере нимф» Порфирия, уже переведённым на русский</span></li>
+        <li><b>Песни IX и I</b><span>Киклоп; проэмий и <span lang="grc">πολύτροπος</span></span></li>
+      </ol>

@@ -1,0 +1,15 @@
+/* Страница «Оформление»: образцы цветов и кеглей. Сами компоненты берутся из общих стилей. */
+.sg-swatches { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: var(--s4); }
+.sg-swatch { display: grid; gap: .1rem; font-size: var(--fs-sm); }
+.sg-swatch i { display: block; height: 3.2rem; border: 1px solid var(--rule-strong); }
+.sg-swatch b { font-family: var(--font-label); font-weight: 700; letter-spacing: var(--track); }
+.sg-swatch span { color: var(--ink-soft); }
+.sg-type { display: grid; gap: var(--s3); }
+.sg-type > div { display: grid; grid-template-columns: 11rem minmax(0, 1fr); gap: var(--s4); align-items: baseline; border-bottom: 1px dashed var(--rule); padding-bottom: var(--s3); }
+.sg-type p { margin: 0; }
+.sg-type .chip { justify-self: start; }
+.sg-demo { border: 1px dashed var(--rule-strong); padding: 0 var(--s5); margin-bottom: var(--s4); }
+.sg-h1 { font: var(--fs-h1)/var(--lh-tight) var(--font-display); margin: var(--s1) 0 var(--s3); }
+.sg-num { font: var(--fs-num)/1.1 var(--font-display); color: var(--rubric); }
+@media (max-width: 900px) { .sg-swatches { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 640px) { .sg-type > div { grid-template-columns: minmax(0, 1fr); gap: var(--s1); } }

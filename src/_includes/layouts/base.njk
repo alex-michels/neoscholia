@@ -1,33 +1,102 @@
-{#- Общий каркас всех страниц: шапка, баннер макета, содержимое страницы, подвал.
-    Поля страницы (front matter): title, nav, styles, scripts, mock, description. -#}
+{#- Общий каркас всех страниц: шапка, уведомление о состоянии страницы, «хлебные крошки», содержимое, подвал.
+    Поля страницы (front matter):
+      title        — заголовок вкладки («— Neoscholia» добавляется само);
+      description  — описание для поисковиков и ссылок (по умолчанию — card.summary, у раздела — начало вступления,
+                     иначе описание сайта);
+      nav          — подсвеченный пункт меню: home | library | studies | indexes | method | about;
+      pageType     — тип страницы: catalogue | reader | article; подключает assets/css/layouts/<тип>.css и,
+                     у reader и article, скрипт assets/js/<тип>.js;
+      styles       — стили отдельной страницы из assets/css/pages/;   scripts — её скрипты из assets/js/;
+      version, updated — у текстов и статей: версия и дата; включают библиографические мета-теги;
+      crumbs       — «хлебные крошки»: список { label, href }; у последнего пункта href не нужен
+                     (у страниц перевода берутся из данных текста);
+      mock         — уведомление под шапкой (макет страницы); удалите строку — уведомление исчезнет.
+                     У страниц со статусом (ladder + status) этот текст выводится в блоке статуса под заголовком;
+      authors      — авторы для библиографических мета-тегов (по умолчанию site.authors);
+      noindex      — не показывать страницу поисковикам. -#}
+{%- import "ui.njk" as ui with context -%}
 {%- set root = page.url | rootPrefix -%}
+{%- set text = texts[textKey] if textKey else null -%}
+{%- set sectionLede = (catalogue[section].intro[0] | fill(collections.all) | striptags | truncate(220)) if section and catalogue[section] else "" -%}
+{%- set desc = description or (card.summary if card) or sectionLede or site.description -%}
+{%- set fullTitle = title if "Neoscholia" in title else title + " — " + site.name -%}
+{%- set shareTitle = (card.title if card) or title -%}
 <!doctype html>
 <html lang="{{ site.lang }}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>{{ title }}</title>
-{%- if description %}
-<meta name="description" content="{{ description }}">
+<title>{{ fullTitle }}</title>
+<meta name="description" content="{{ desc }}">
+{%- if noindex %}
+<meta name="robots" content="noindex">
 {%- endif %}
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#e7dcc4" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#17130e" media="(prefers-color-scheme: dark)">
+<link rel="canonical" href="{{ page.url | absUrl(site.url) }}">
+<meta property="og:site_name" content="{{ site.name }}">
+<meta property="og:type" content="{{ 'article' if version else 'website' }}">
+<meta property="og:title" content="{{ shareTitle }}">
+<meta property="og:description" content="{{ desc }}">
+<meta property="og:url" content="{{ page.url | absUrl(site.url) }}">
+<meta property="og:locale" content="ru_RU">
+{%- if version %}
+{#- Сведения для библиографических менеджеров и Google Scholar: у страниц с версией (переводы и статьи). #}
+<meta name="citation_title" content="{{ shareTitle }}">
+{%- for a in (authors or site.authors) %}
+<meta name="citation_author" content="{{ a }}">
+{%- endfor %}
+<meta name="citation_publication_date" content="{{ updated | isoDate | replace('-', '/') }}">
+<meta name="citation_publisher" content="{{ site.name }}">
+<meta name="citation_language" content="{{ site.lang }}">
+<meta name="citation_public_url" content="{{ page.url | absUrl(site.url) }}">
+<meta name="DC.title" content="{{ shareTitle }}">
+<meta name="DC.date" content="{{ updated | isoDate }}">
+<meta name="DC.hasVersion" content="{{ version }}">
+{%- endif %}
+<link rel="icon" href="{{ root }}assets/favicon.svg" type="image/svg+xml">
+{#- До первой отрисовки: тема (?theme=light|dark в адресе или выбор читателя, иначе как в системе) и режим чтения
+    (?view=…&tr=… в адресе или выбор читателя; на узком экране по умолчанию показан только перевод). #}
+<script>(function(){var d=document.documentElement,p=new URLSearchParams(location.search),g=function(k){try{return localStorage.getItem(k)}catch(e){return null}};var t=p.get("theme")||g("neoscholia-theme");if(t==="light"||t==="dark"){d.dataset.theme=t;[].forEach.call(document.querySelectorAll('meta[name="theme-color"]'),function(m){m.removeAttribute("media");m.content=t==="dark"?"#17130e":"#e7dcc4"})}var r={};try{r=JSON.parse(g("neoscholia-reader")||"{}")}catch(e){}var v=p.get("view")||r.view||(matchMedia("(max-width: 640px)").matches?"translation":"parallel");d.dataset.view=/^(translation|parallel|original)$/.test(v)?v:"parallel";d.dataset.tr=(p.get("tr")||r.lang)==="en"?"en":"ru";d.dataset.notes=r.notes===false?"off":"on"})();</script>
+<link rel="preload" href="{{ root }}assets/fonts/gentium-book-plus/gentium-book-plus-cyrillic-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ root }}assets/fonts/forum/forum-cyrillic-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ root }}assets/fonts/alegreya-sans-sc/alegreya-sans-sc-cyrillic-500-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{{ root }}assets/fonts/fonts.css?v={{ build }}">
 <link rel="stylesheet" href="{{ root }}assets/css/base.css?v={{ build }}">
+<link rel="stylesheet" href="{{ root }}assets/css/components.css?v={{ build }}">
+{%- if pageType %}
+<link rel="stylesheet" href="{{ root }}assets/css/layouts/{{ pageType }}.css?v={{ build }}">
+{%- endif %}
 {%- for s in styles %}
 <link rel="stylesheet" href="{{ root }}assets/css/pages/{{ s }}.css?v={{ build }}">
 {%- endfor %}
 </head>
 <body>
+<a class="skip" href="#top">К содержанию</a>
 <div class="wrap">
   {% include "header.njk" %}
-{%- if mock %}
-  <p class="mock">{{ mock | safe }}</p>
+  <main id="top" tabindex="-1">
+{%- if mock and not ladder %}
+    <p class="notice" role="note">{{ mock | fill(collections.all) | safe }}</p>
 {%- endif %}
-  {{ content | safe }}
+{%- set trail = crumbs or (text.crumbs if text) %}
+{%- if trail %}
+    {{ ui.crumbs(trail) }}
+{%- endif %}
+    {{ content | safe }}
+  </main>
   {% include "footer.njk" %}
 </div>
-{%- for s in scripts %}
+<script src="{{ root }}assets/js/site.js?v={{ build }}"></script>
+{#- Скрипт типа страницы раскрывает то, что стили этого типа сворачивают (вступление, примечания). Если он не
+    загрузился, класс no-layout-js на <html> отменяет сворачивание — содержимое остаётся доступным. #}
+{%- if pageType == "reader" or pageType == "article" %}
+<script src="{{ root }}assets/js/{{ pageType }}.js?v={{ build }}" onerror="document.documentElement.classList.add('no-layout-js')"></script>
+{%- endif %}
+{%- for s in scripts %}{% if s != pageType %}
 <script src="{{ root }}assets/js/{{ s }}.js?v={{ build }}"></script>
-{%- endfor %}
+{%- endif %}{% endfor %}
 {#- Счётчик посещений GoatCounter: без cookies и персональных данных. Включается кодом сайта в site.json (goatcounter); localhost не считается. -#}
 {%- if site.goatcounter %}
 <script data-goatcounter="https://{{ site.goatcounter }}.goatcounter.com/count" async src="https://gc.zgo.at/count.js"></script>
