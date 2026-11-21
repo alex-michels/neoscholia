@@ -1,0 +1,1132 @@
+{
+ "note": "Blind recheck (2026-11-21) of the major errors that only one of the three comparisons found: each claim judged by Claude Opus 5.5 and Claude Fable 5.2 agents, who were not told the translator or the reviewer.",
+ "items": [
+  {
+   "item": "R01",
+   "segment": "X07",
+   "version": "xylander",
+   "latin": "Ea quando in omnibus conspicitur, atque universa temperat, exornatque, tum sensui voluptatem, congruentiam autem (harmoniam dico) Naturae, beatitatem denique intellectui largitur: nos de ea Musica quae in sensibus, aut potius uno sensuum auditu consideratur, paucis disseremus.",
+   "printed": [
+    {
+     "ref": "40.21",
+     "text": "sicam illi dignati sunt miraculo. Ea quando in"
+    },
+    {
+     "ref": "40.22",
+     "text": "omnibus conspicitur, atque uniuersa temperat, e-"
+    },
+    {
+     "ref": "40.23",
+     "text": "xornatqúe, tum sensui uoluptatem, congruentiam"
+    },
+    {
+     "ref": "40.24",
+     "text": "autem (harmoniam dico) Naturæ, beatitatem"
+    },
+    {
+     "ref": "41.1",
+     "text": "denique intellectui largitur: nos de ea Musica quæ"
+    },
+    {
+     "ref": "41.2",
+     "text": "in sensibus, aut potius uno sensuum auditu con-"
+    },
+    {
+     "ref": "41.3",
+     "text": "sideratur, paucis disseremus."
+    }
+   ],
+   "translation_of_this_segment": {
+    "ru": "Поскольку она усматривается во всём, всё упорядочивает и украшает и к тому же дарует чувству наслаждение, природе — согласованность (я разумею гармонию), а уму, наконец, — блаженство, мы кратко скажем о той музыке, которая рассматривается в чувствах, или, вернее, в одном из чувств — слухе.",
+    "en": "Since it is seen in all things, and tempers and adorns the whole, and moreover bestows pleasure on sense, congruence (I mean harmony) on Nature, and lastly blessedness on the intellect, we shall discourse briefly of that Music which is considered in the senses, or rather in one of the senses, hearing.",
+    "notes": [
+     {
+      "ru": "Тройное деление: музыка чувственная, природная и умопостигаемая; трактат ограничивается первой. Вставка «harmoniam dico» — пояснение к слову congruentia внутри самого перевода Ксиландра. Ср. у Боэция деление на musica mundana, humana и instrumentalis (иное по составу).",
+      "en": "A threefold division: music of sense, of nature and of the intellect; the treatise confines itself to the first. The parenthesis harmoniam dico is a gloss on congruentia inside Xylander's own version. Compare Boethius' division into musica mundana, humana and instrumentalis (different in content).",
+      "source": "Boethius, De institutione musica, ed. Friedlein, read in the Latin Wikisource transcription of that edition, 1.2 (‘Tres esse musicas’: mundana, humana, and that which ‘in quibusdam constituta est instrumentis’) [checked]"
+     }
+    ]
+   },
+   "where": "notes",
+   "quoted": "A threefold division: music of sense, of nature and of the intellect",
+   "claim": "The single subject music confers three gifts on three recipients. The clause does not divide music into those three classes as Boethius expressly does with his different criteria in I.2.",
+   "proposed_fix": "Distinguish the three effects and the narrower auditory subject of the ensuing exposition.",
+   "verdicts": {
+    "fable": {
+     "verdict": "error-minor",
+     "why": "The Latin has one subject (Ea = Musica) and one verb (largitur) with three objects and three dative recipients: sensui voluptatem, congruentiam ... Naturae, beatitatem ... intellectui. That is one music conferring three gifts, not a classification into three musics. The note's label 'a threefold division: music of sense, of nature and of the intellect' therefore overstates what is said, and the comparison with Boethius' express tripartition reinforces the overstatement. It is not wholly false: 'de ea Musica quae in sensibus ... consideratur' after 'in omnibus conspicitur' does restrict the treatise to music as considered in sense, which implies that music is also considered elsewhere. But only that restriction is in the text; 'the treatise confines itself to the first [of three kinds]' is an inference. The translation itself (RU and EN) renders the clause correctly.",
+     "evidence": [
+      "Latin of the segment, 40.21-41.3: single subject Ea, single verb largitur, three accusative + dative pairs [checked against the supplied text]",
+      "Boethius, De inst. mus. I.2: an explicit division 'tres esse musicas' (mundana, humana, instrumentalis), a different kind of statement [from memory; given as checked in the note's own source line]",
+      "Allen & Greenough par. 362, dative of indirect object with verbs of giving [from memory]"
+     ],
+     "correction": "Note EN: 'One and the same music, seen in all things, bestows three gifts: pleasure on sense, congruence (harmony) on nature, blessedness on the intellect; the treatise then restricts itself to music as considered in sense, more exactly in hearing. This is not a formal division of music into kinds such as Boethius gives in I.2 (mundana, humana, instrumentalis).' RU: «Одна и та же музыка, усматриваемая во всём, дарует три дара: чувству — наслаждение, природе — согласованность, уму — блаженство; далее трактат ограничивается музыкой, рассматриваемой в чувстве, точнее в слухе. Это не формальное деление музыки на виды, как у Боэция (I.2).»"
+    },
+    "opus": {
+     "verdict": "error-minor",
+     "why": "The claim is right about how the sentence is built. Ea (Musica) is the one subject of conspicitur, temperat, exornat and largitur. Largitur governs three accusative-dative pairs: voluptatem sensui, congruentiam Naturae, beatitatem intellectui. These are three gifts or effects of one music on three recipients, not three species of music. The translation of the sentence is correct. The weak point is the note's label 'A threefold division: music of sense, of nature and of the intellect'. The restrictive relative 'ea Musica quae in sensibus ... consideratur' does imply that music can be considered elsewhere than in the senses, so the note's reading is a fair inference and its conclusion (the treatise confines itself to sensible, indeed auditory, music) is correct. But calling it a 'division' makes the passage look like a classification parallel to Boethius I.2, and the text makes none. That is an overstatement in the note, not a false fact, and it does not touch the translation, so it is minor.",
+     "evidence": [
+      "Latin of X07 as supplied: one subject Ea; largitur + voluptatem sensui / congruentiam Naturae / beatitatem intellectui; restrictive 'de ea Musica quae in sensibus, aut potius uno sensuum auditu consideratur' [checked]",
+      "Allen & Greenough §§361-362, dative of the indirect object with transitive verbs of giving (largior) [from memory]",
+      "Lewis & Short s.v. largior, 'to give bountifully, bestow' [from memory]",
+      "Boethius, De institutione musica I.2: 'Sunt autem tres. Et prima quidem mundana est, secunda vero humana, tertia, quae in quibusdam constituta est instrumentis', an explicit classification of kinds of music [from memory]"
+     ],
+     "correction": "EN note: 'The one music bestows three gifts on three recipients: pleasure on sense, congruence (harmony) on Nature, blessedness on the intellect. This is not a classification of kinds of music. The restrictive ea Musica quae in sensibus ... consideratur then narrows the subject of the treatise to music as perceived by sense, or rather by hearing alone. Contrast Boethius I.2, who does divide music into three kinds (mundana, humana, instrumentalis).' RU note: «Одна музыка дарует три блага трём получателям: чувству — наслаждение, природе — согласованность (гармонию), уму — блаженство. Это не деление музыки на виды. Ограничительное ea Musica quae in sensibus … consideratur затем сужает предмет трактата до музыки, воспринимаемой чувством, точнее одним слухом. Ср. у Боэция (I.2) прямое деление музыки на три вида: mundana, humana, instrumentalis.» The running translation stays as it is."
+    }
+   }
+  },
+  {
+   "item": "R02",
+   "segment": "X14",
+   "version": "xylander",
+   "latin": "Proinde diversae sunt sonorum, quas illi progressu et ordine, quem a gravi ad acutum observant, nanciscuntur nomenclationes: Proslambanomenos, Hypate hypaton, parhypate hypaton, hypate diatonos, hypate meson, parhypate meson, diatonos meson, mese monos, paramesos, trite diezeugmene, diatonos diezeugmene, nete diezeugmene, trite hyperbolaeon, diatonos hyperbolaeon, nete hyperbolaeon.",
+   "printed": [
+    {
+     "ref": "41.16",
+     "text": "tiam nulli existens usui. Proinde diuersæ sunt"
+    },
+    {
+     "ref": "41.17",
+     "text": "sonorum, quas illi progressu et ordine, quem à"
+    },
+    {
+     "ref": "41.18",
+     "text": "graui ad acutum obseruant, nanciscuntur no-"
+    },
+    {
+     "ref": "41.19",
+     "text": "menclationes: Proslambanomenos, Hypate hy-"
+    },
+    {
+     "ref": "41.20",
+     "text": "paton, parhypate hypaton, hypate diatonos, hy-"
+    },
+    {
+     "ref": "41.21",
+     "text": "pate meson, parhypate meson, diatonos meson,"
+    },
+    {
+     "ref": "41.22",
+     "text": "mese monos, paramesos, trite diezeugmene, dia-"
+    },
+    {
+     "ref": "41.23",
+     "text": "tonos diezeugmene, nete diezeugmene, trite"
+    },
+    {
+     "ref": "41.24",
+     "text": "hyperbolæon, diatonos hyperbolæon, nete hy-"
+    },
+    {
+     "ref": "41.25",
+     "text": "perbolæon. Per has sonorum species heccæde"
+    }
+   ],
+   "translation_of_this_segment": {
+    "ru": "Соответственно различны и наименования звуков, которые те получают сообразно продвижению и порядку, соблюдаемому ими от низкого к высокому: просламбаномен, гипата низших, парипата низших, гипата диатоническая, гипата средних, парипата средних, диатоническая средних, меса монос, парамес, трита отделённая, диатоническая отделённая, нета отделённая, трита высших, диатоническая высших, нета высших.",
+    "en": "Accordingly, the names of the notes are various, which they acquire by the progression and order that they keep from low to high: proslambanomenos, hypate hypaton, parhypate hypaton, hypate diatonos, hypate meson, parhypate meson, diatonos meson, mese monos, paramesos, trite diezeugmene, diatonos diezeugmene, nete diezeugmene, trite hyperbolaion, diatonos hyperbolaion, nete hyperbolaion.",
+    "notes": [
+     {
+      "ru": "Пятнадцать звуков двухоктавной системы. Отличия от обычной номенклатуры (у Боэция): четвёртый звук назван hypate diatonos вместо lichanos hypaton (у Боэция в диатоническом роде — «lichanos hypaton diatonos»); «диатоническая» (diatonos) везде заменяет lichanos / paranete (у Боэция также «diatonos meson», «diatonos diezeugmenon»); у месы стоит добавление monos (греч. «один, единственный», в мужском роде при женском mese) — вероятно, в том смысле, что меса одна не носит имени тетрахорда; название тетрахорда diezeugmene стоит в единственном числе вместо diezeugmenon. Nomenclatio — редкое слово (Колумелла).",
+      "en": "The fifteen notes of the two-octave system. Departures from the usual nomenclature (as in Boethius): the fourth note is called hypate diatonos instead of lichanos hypaton (in Boethius, in the diatonic genus, ‘lichanos hypaton diatonos’); diatonos everywhere replaces lichanos / paranete (Boethius too has ‘diatonos meson’, ‘diatonos diezeugmenon’); mese carries the addition monos (Greek ‘alone, single’, masculine beside the feminine mese), presumably in the sense that mese alone bears no tetrachord name; the tetrachord name diezeugmene stands in the singular instead of diezeugmenon. Nomenclatio is a rare word (Columella).",
+      "source": "Boethius, De institutione musica, ed. Friedlein, read in the Latin Wikisource transcription of that edition, 1.20 and 1.22 [checked]; Lewis & Short, s.v. nomenclatio (Col. 3, 2, 31), via Logeion [checked]; page image of p. 41 for ‘mese monos’ [checked]"
+     }
+    ]
+   },
+   "where": "notes",
+   "quoted": "mese alone bears no tetrachord name",
+   "claim": "Proslambanomenos and paramesos in this very list also lack a tetrachord name.",
+   "proposed_fix": "Present ‘simply mese’ as a possible gloss and remove the exclusivity claim.",
+   "verdicts": {
+    "fable": {
+     "verdict": "error-minor",
+     "why": "In the list itself three names stand without a tetrachord name: proslambanomenos, mese (monos) and paramesos. Read as an exclusivity claim ('only mese has no tetrachord name'; RU «меса одна не носит имени тетрахорда»), the explanation is contradicted by the same segment. The wording is, however, ambiguous ('mese alone' / «одна» can also mean 'mese by itself, with nothing added') and the whole explanation is marked as conjecture ('presumably' / «вероятно»), so no false fact is flatly asserted; the wording needs tightening. The translation of the segment is unaffected.",
+     "evidence": [
+      "Latin list 41.19-41.25: 'Proslambanomenos ... mese monos, paramesos' - three names without hypaton/meson/diezeugmene/hyperbolaeon [checked against the supplied text]",
+      "LSJ s.v. monos: 'alone, only, single' [from memory]",
+      "Boethius, De inst. mus. I.20, I.22: proslambanomenos, mese, paramese carry no tetrachord genitive [from memory]"
+     ],
+     "correction": "EN: 'mese carries the addition monos (Greek 'alone, single'), possibly meaning 'simply mese', the name standing by itself without a tetrachord name; proslambanomenos and paramesos in the same list also have none, so the reason for the addition remains uncertain.' RU: «возможно, в смысле „просто меса“, без имени тетрахорда; но просламбаномен и парамес в том же перечне его также не имеют, так что причина добавления неясна»."
+    },
+    "opus": {
+     "verdict": "error-major",
+     "why": "The note says that monos is added 'presumably in the sense that mese alone bears no tetrachord name'. The supplied list refutes this. Proslambanomenos has no tetrachord name, and neither does paramesos. Boethius' standard list likewise has proslambanomenos, mese and paramese without a tetrachord qualifier. The hedge 'presumably' covers only the conjectured meaning of monos. The premise it rests on is stated as a fact, and it is false about the very list the note comments on. Under the agreed standard, a false fact in a note counts as major, even though the running translation ('меса монос' / 'mese monos') is unaffected. The gloss of monos ('alone, single', masculine beside feminine mese) is correct and can stay.",
+     "evidence": [
+      "Latin of X14 as supplied: 'Proslambanomenos, ... mese monos, paramesos, trite diezeugmene ...', in which Proslambanomenos and paramesos carry no tetrachord qualifier [checked]",
+      "Boethius, De institutione musica I.20: proslambanomenos, ..., mese, paramese, trite diezeugmenon ..., so proslambanomenos, mese and paramese all lack a tetrachord qualifier [from memory]",
+      "LSJ s.v. μόνος, 'alone, only, single' [from memory]"
+     ],
+     "correction": "EN: '... mese carries the addition monos (Greek \"alone, single\", masculine beside the feminine mese). Its point is uncertain: perhaps simply \"mese by itself\", the bare name without a qualifier. It cannot mark mese as the only note without a tetrachord name, since proslambanomenos and paramesos in the same list have none either.' RU: «… у месы стоит добавление monos (греч. «один, единственный», в мужском роде при женском mese). Смысл его неясен: возможно, просто «меса сама по себе», то есть имя без определения. Указывать, что только меса лишена названия тетрахорда, оно не может: в том же перечне его нет и у просламбаномена, и у парамеса.»"
+    }
+   }
+  },
+  {
+   "item": "R03",
+   "segment": "X14",
+   "version": "xylander",
+   "latin": "Proinde diversae sunt sonorum, quas illi progressu et ordine, quem a gravi ad acutum observant, nanciscuntur nomenclationes: Proslambanomenos, Hypate hypaton, parhypate hypaton, hypate diatonos, hypate meson, parhypate meson, diatonos meson, mese monos, paramesos, trite diezeugmene, diatonos diezeugmene, nete diezeugmene, trite hyperbolaeon, diatonos hyperbolaeon, nete hyperbolaeon.",
+   "printed": [
+    {
+     "ref": "41.16",
+     "text": "tiam nulli existens usui. Proinde diuersæ sunt"
+    },
+    {
+     "ref": "41.17",
+     "text": "sonorum, quas illi progressu et ordine, quem à"
+    },
+    {
+     "ref": "41.18",
+     "text": "graui ad acutum obseruant, nanciscuntur no-"
+    },
+    {
+     "ref": "41.19",
+     "text": "menclationes: Proslambanomenos, Hypate hy-"
+    },
+    {
+     "ref": "41.20",
+     "text": "paton, parhypate hypaton, hypate diatonos, hy-"
+    },
+    {
+     "ref": "41.21",
+     "text": "pate meson, parhypate meson, diatonos meson,"
+    },
+    {
+     "ref": "41.22",
+     "text": "mese monos, paramesos, trite diezeugmene, dia-"
+    },
+    {
+     "ref": "41.23",
+     "text": "tonos diezeugmene, nete diezeugmene, trite"
+    },
+    {
+     "ref": "41.24",
+     "text": "hyperbolæon, diatonos hyperbolæon, nete hy-"
+    },
+    {
+     "ref": "41.25",
+     "text": "perbolæon. Per has sonorum species heccæde"
+    }
+   ],
+   "translation_of_this_segment": {
+    "ru": "Поэтому различны наименования звуков, которые они получают по ходу и порядку, соблюдаемому ими от низкого к высокому: просламбаномен, гипата низших, парипата низших, гипата диатоническая, гипата средних, парипата средних, диатоническая средних, меса единственная, парамес, трита отделённая, диатоническая отделённая, нета отделённая, трита высших, диатоническая высших, нета высших.",
+    "en": "Accordingly, the names that the notes obtain from the progression and order which they keep from low to high are different: proslambanomenos, hypate hypaton, parhypate hypaton, hypate diatonos, hypate meson, parhypate meson, diatonos meson, mese monos, paramesos, trite diezeugmene, diatonos diezeugmene, nete diezeugmene, trite hyperbolaion, diatonos hyperbolaion, nete hyperbolaion.",
+    "notes": [
+     {
+      "ru": "Nomenclatio — редкое классическое слово «называние по имени; перечень» (Квинт Цицерон, Колумелла); передано «наименования».",
+      "en": "Nomenclatio is a rare classical word, 'a calling by name; list' (Q. Cicero, Columella); rendered 'names'.",
+      "source": "Lewis & Short s.v. nomenclatio [checked]"
+     },
+     {
+      "ru": "Отличия от обычной латинской номенклатуры (Боэций: lichanos hypaton [diatonos], lichanos meson или diatonos meson, mese, paramese, paranete diezeugmenon, paranete hyperboleon; названия тетрахордов в родительном множественного — diezeugmenon). У Ксиландра: четвёртый звук назван hypate diatonos (обычно lichanos hypaton или hypaton diatonos); третий звук тетрахорда средних, отделённых и высших назван diatonos (обычно lichanos / paranete); paramesos вместо paramese; diezeugmene (им. п. ед. ч.) вместо diezeugmenon.",
+      "en": "Differences from the usual Latin nomenclature (Boethius: lichanos hypaton [diatonos], lichanos meson or diatonos meson, mese, paramese, paranete diezeugmenon, paranete hyperboleon; tetrachord names in the genitive plural, diezeugmenon). Xylander has: hypate diatonos for the fourth note (usually lichanos hypaton or hypaton diatonos); diatonos for the third note of the meson, diezeugmenon and hyperbolaion tetrachords (usually lichanos / paranete); paramesos for paramese; diezeugmene (nominative singular) for diezeugmenon.",
+      "source": "Boethius, De inst. mus. I.20, ed. Friedlein p. 212; I.22, p. 214.6–16 [checked]"
+     },
+     {
+      "ru": "Mese monos: monos — греческое μόνος «один, единственный», оставленное Ксиландром без перевода, по-видимому как часть названия: меса — единственный звук без указания тетрахорда. Вине переводит: Mese solum. В русском тексте определение переведено, как переводятся определения других звуков («меса единственная»); в английском, как и у других звуков, оставлено греческое слово.",
+      "en": "Mese monos: monos is Greek μόνος 'alone, single', left untranslated by Xylander, apparently as part of the name: the mese is the one note without a tetrachord qualifier. Vinet translates Mese solum. The Russian translates the qualifier as it translates those of the other notes; the English keeps the Greek word, as for the other notes.",
+      "source": "LSJ s.v. μόνος [from memory]; Vinet's version, segment V17 [checked]"
+     }
+    ]
+   },
+   "where": "notes",
+   "quoted": "the mese is the one note without a tetrachord qualifier",
+   "claim": "Proslambanomenos and paramesos in this very list also lack a tetrachord name.",
+   "proposed_fix": "Present ‘simply mese’ as a possible gloss and remove the exclusivity claim.",
+   "verdicts": {
+    "fable": {
+     "verdict": "error-major",
+     "why": "The note states as fact that 'the mese is the one note without a tetrachord qualifier' / «меса — единственный звук без указания тетрахорда». 'Apparently' governs only 'as part of the name'; the clause after the colon is a flat and unambiguous exclusivity statement. It is false on the evidence of the very list being annotated: proslambanomenos and paramesos also stand without a tetrachord qualifier. By the rubric (a note states a false fact) this is major, although the translation itself («меса единственная» / 'mese monos') is a defensible rendering of monos and is not affected. The difference from R02 is only that there the wording is ambiguous and the whole statement is hedged.",
+     "evidence": [
+      "Latin list 41.19-41.25: 'Proslambanomenos', 'mese monos', 'paramesos' all lack a tetrachord name [checked against the supplied text]",
+      "LSJ s.v. monos: 'alone, only, single' [from memory]",
+      "Boethius, De inst. mus. I.20, I.22: proslambanomenos, mese, paramese without tetrachord genitive [from memory]"
+     ],
+     "correction": "EN: 'monos is Greek monos 'alone, single', left untranslated by Xylander, apparently as part of the name; perhaps 'simply mese', the name standing by itself. Proslambanomenos and paramesos likewise have no tetrachord qualifier in this list, so that is not what distinguishes mese. Vinet translates Mese solum.' RU: «...по-видимому как часть названия; возможно, „просто меса“. Просламбаномен и парамес в этом перечне также стоят без указания тетрахорда, так что отличительным признаком месы это не является. Вине переводит: Mese solum.»"
+    },
+    "opus": {
+     "verdict": "error-major",
+     "why": "The defect is the same as in R02. The note says monos is kept 'apparently as part of the name: the mese is the one note without a tetrachord qualifier'. In the same list proslambanomenos and paramesos also lack a tetrachord qualifier, so the statement after the colon is false. The note states it as a fact (the hedge 'apparently' covers only 'as part of the name'), and it is false about the list being annotated, so the note states a false fact. The translations themselves ('меса единственная', 'mese monos') are defensible, and so are the Vinet comparison (Mese solum) and the gloss of μόνος.",
+     "evidence": [
+      "Latin of X14 as supplied: 'Proslambanomenos, ... mese monos, paramesos, ...', in which Proslambanomenos and paramesos have no tetrachord qualifier [checked]",
+      "Boethius, De institutione musica I.20: proslambanomenos, mese and paramese are named without tetrachord qualifier [from memory]",
+      "LSJ s.v. μόνος, 'alone, only, single' [from memory]"
+     ],
+     "correction": "EN: 'Mese monos: monos is Greek μόνος \"alone, single\", left untranslated by Xylander, apparently as part of the name; perhaps simply \"mese by itself\", the bare name without a qualifier (proslambanomenos and paramesos are also without a tetrachord qualifier, so the word does not single mese out on that ground). Vinet translates Mese solum. ...' RU: «Mese monos: monos — греческое μόνος «один, единственный», оставленное Ксиландром без перевода, по-видимому как часть названия; возможно, просто «меса сама по себе», имя без определения (без указания тетрахорда стоят также просламбаномен и парамес, так что по этому признаку слово месу не выделяет). Вине переводит: Mese solum. …»"
+    }
+   }
+  },
+  {
+   "item": "R04",
+   "segment": "X15",
+   "version": "xylander",
+   "latin": "Per has sonorum species heccaedecachordum, hoc est, sedecim chordarum instrumentum in quindecim fidibus instructo organo (Pentecaedecachordum vocant Graeci) absolvitur, fine octachordi ad principium sequentium continuo assumpto.",
+   "printed": [
+    {
+     "ref": "41.25",
+     "text": "perbolæon. Per has sonorum species heccæde"
+    },
+    {
+     "ref": "42.1",
+     "text": "cachordum, hoc est, sedecim chordarum instru-"
+    },
+    {
+     "ref": "42.2",
+     "text": "mentum in quindecim fidibus instructo organo"
+    },
+    {
+     "ref": "42.3",
+     "text": "(Pentecædecachordum uocant Græci) absol-"
+    },
+    {
+     "ref": "42.4",
+     "text": "uitur, fine octachordi ad principium sequentium"
+    },
+    {
+     "ref": "42.5",
+     "text": "continuò assumpto. Quam enim rationem ha-"
+    }
+   ],
+   "translation_of_this_segment": {
+    "ru": "Эти виды звуков образуют шестнадцатиструнную систему, то есть шестнадцатиструнный инструмент в инструменте, снабжённом пятнадцатью струнами (греки называют его пятнадцатиструнником): конец октахорда сразу принимают за начало следующих [звуков].",
+    "en": "These kinds of notes complete a sixteen-string system, that is, an instrument of sixteen strings within an instrument equipped with fifteen strings (the Greeks call it a fifteen-string instrument), the end of the octachord being taken immediately as the beginning of the [notes] that follow.",
+    "notes": [
+     {
+      "ru": "Heccaedecachordum («шестнадцатиструнник») и Pentecaedecachordum («пятнадцатиструнник») обозначают два способа счёта. Два октахорда дают шестнадцать мест при раздельном счёте, но общий звук занимает только одну струну. Ксиландр поясняет оба числительных и называет второе слово греческим. Fides здесь значит «струна».",
+      "en": "Heccaedecachordum (sixteen-string instrument) and Pentecaedecachordum (fifteen-string instrument) express two counts. Two octachords give sixteen positions counted separately, but their shared note occupies a single string. Xylander explains both numbers and identifies the second word as Greek. Fides here is a string.",
+      "source": "Xylander, Basel (1556), pp. 41–42 [checked]. Boethius, De institutione musica, ed. Friedlein (1867), I.20 [checked] (https://la.wikisource.org/wiki/De_Musica/Liber_Primus)"
+     },
+     {
+      "ru": "Octachordum — октахорд. Instrumentum и organum оба обозначают инструмент, хотя второе слово может обозначать и орган в других контекстах.",
+      "en": "Octachordum is an octachord. Both instrumentum and organum mean an instrument here, and organum can refer to an organ in other contexts.",
+      "source": "Lewis & Short, A Latin Dictionary (1879), s.v. organum [checked] (https://alatius.com/ls/index.php?l=organum) Xylander, Basel (1556), pp. 41–42 [checked]."
+     }
+    ]
+   },
+   "where": "both",
+   "quoted": "шестнадцатиструнный инструмент в инструменте / an instrument of sixteen strings within an instrument",
+   "claim": "Within suggests that one physical instrument contains another. The text contrasts the number of places in the arrangement with the number of actual strings on which it is played.",
+   "proposed_fix": "на инструменте … / on an instrument …",
+   "verdicts": {
+    "fable": {
+     "verdict": "error-minor",
+     "why": "'in quindecim fidibus instructo organo ... absolvitur' is in + ablative of the place where the system is realized: the sixteen-string arrangement is completed on an instrument fitted with fifteen strings. RU «шестнадцатиструнный инструмент в инструменте» and EN 'an instrument of sixteen strings within an instrument' are literal for 'in' but read as one physical instrument contained in another, which obscures the point. The point itself (two counts, the shared note on a single string) is stated correctly in the note and by the last clause of the sentence, so the sense is not lost; the preposition should be changed.",
+     "evidence": [
+      "Lewis & Short s.v. in, I (with abl.): 'in, on, upon, among' [from memory]",
+      "Allen & Greenough par. 426, ablative of place where with in [from memory]",
+      "Latin 42.1-42.5: 'fine octachordi ad principium sequentium continuo assumpto' explains sixteen places on fifteen strings [checked against the supplied text]"
+     ],
+     "correction": "RU: «...шестнадцатиструнную систему, то есть шестнадцатиструнный инструмент, на инструменте, снабжённом пятнадцатью струнами (греки называют его пятнадцатиструнником)...»; EN: '... a sixteen-string system, that is, an instrument of sixteen strings, on an instrument equipped with fifteen strings (the Greeks call it a fifteen-string instrument) ...'"
+    },
+    "opus": {
+     "verdict": "error-minor",
+     "why": "'In quindecim fidibus instructo organo' is in + ablative with an instrument: the sixteen-place system is realized on an instrument fitted with fifteen strings, because the shared note of the two octachords occupies one string. The translator's own note explains exactly this. With a musical instrument, in + abl. normally means 'on' (Vulgate 'in psalterio decem chordarum psallite'). English 'within an instrument' and Russian 'в инструменте' make one instrument sound as if it were contained in another, which the Latin does not say. Russian idiom for playing or realizing something on an instrument is 'на инструменте'. The note keeps the sense recoverable, so the error is real but slight.",
+     "evidence": [
+      "Latin of X15 as supplied: 'sedecim chordarum instrumentum in quindecim fidibus instructo organo ... fine octachordi ad principium sequentium continuo assumpto' [checked]",
+      "Lewis & Short s.v. in (with abl.), 'in, on, upon'; also 'in the case of' [from memory]",
+      "Vulgate Ps 32(33):2 'in psalterio decem chordarum psallite illi'; Ps 150:3 'laudate eum in psalterio et cithara', in + abl. meaning 'on' an instrument [from memory]",
+      "Translator's note on X15 (16 positions counted separately, 15 actual strings) [checked]"
+     ],
+     "correction": "RU: «Эти виды звуков образуют шестнадцатиструнную систему, то есть шестнадцатиструнный инструмент, на инструменте, снабжённом пятнадцатью струнами (греки называют его пятнадцатиструнником)…» EN: '... complete a sixteen-string system, that is, an instrument of sixteen strings, on an instrument fitted with fifteen strings (the Greeks call it a fifteen-string instrument) ...'"
+    }
+   }
+  },
+  {
+   "item": "R05",
+   "segment": "X37",
+   "version": "xylander",
+   "latin": "At enim scire hoc oportet, proportiones intervallorum nequaquam iudicari ad numeros sonorum vel fidium facta collatione, sed ad sonitus ipsius intensionem a gravi ad acutum.",
+   "printed": [
+    {
+     "ref": "46.9",
+     "text": "decim: quadruplus, uiginti quatuor. At enim sci-"
+    },
+    {
+     "ref": "46.10",
+     "text": "re hoc oportet, proportiones interuallorum nequa"
+    },
+    {
+     "ref": "46.11",
+     "text": "quam iudicari ad numeros sonorum uel fidium facta"
+    },
+    {
+     "ref": "46.12",
+     "text": "collatione, sed ad sonitus ipsius intensionem à gra-"
+    },
+    {
+     "ref": "46.13",
+     "text": "ui ad acutum. Nam quia interuallum diapente dixi"
+    }
+   ],
+   "translation_of_this_segment": {
+    "ru": "Надо, однако, знать, что пропорции интервалов определяют отнюдь не сопоставлением количества звуков или струн, а по повышению самого звучания от низкого к высокому.",
+    "en": "One must, however, bear in mind that the proportions of intervals are assessed by the rise in pitch of the sound itself from low to high. Comparing the numbers of notes or strings plays no part in that assessment.",
+    "notes": []
+   },
+   "where": "ru",
+   "quoted": "количества звуков или струн",
+   "claim": "The ratios in the next sentence compare assigned positions, not totals of notes or strings.",
+   "proposed_fix": "Use «чисел, обозначающих звуки или струны».",
+   "verdicts": {
+    "fable": {
+     "verdict": "error-minor",
+     "why": "'ad numeros sonorum vel fidium facta collatione' = 'by a comparison made with reference to the numbers of the notes or strings'. The next sentence shows which numbers are meant: the fifth note set against the first, second, third and fourth (5:1, 5:2, 5:3, 5:4), the numbers the notes bear in the series. RU «сопоставлением количества звуков или струн» turns plural numeros into a singular 'quantity' and suggests comparing how many notes or strings there are. Since the ordinal number of a note equals the count of notes up to it, the rendering is not far from the sense, and the general point (ratios are not got by counting) survives; but it is less exact than the Latin and than the same translator's English ('the numbers of notes or strings'). The proposed fix «чисел, обозначающих звуки» over-interprets in the other direction; plain «числа» suffices.",
+     "evidence": [
+      "Lewis & Short s.v. numerus, I: 'a number' [from memory]",
+      "Latin of the following segment, 46.17-46.20: 'ad primum ... quincuplum, ad secundum duplum sesquialterum ...' [checked against the supplied text of R06/R07]",
+      "Lewis & Short s.v. collatio: 'a comparison' [from memory]"
+     ],
+     "correction": "RU: «...пропорции интервалов определяют отнюдь не сопоставлением чисел (номеров) звуков или струн, а по повышению самого звучания от низкого к высокому.»"
+    },
+    "opus": {
+     "verdict": "no-error",
+     "why": "'Numeros sonorum vel fidium' are the numbers obtained by counting notes or strings. The next segment shows what is meant: diapente, 'through five', would make the fifth note 5:1 to the first, 5:2 to the second, 5:3 to the third and 5:4 to the fourth. The count of notes up to the n-th note is n, so 'count' and 'ordinal position' coincide here and the claim's distinction makes no difference. The author himself speaks of this as quantity ('ad excessum quantitatis ... respiciendo'), which matches 'количества' well. Numerus also means a quantity or amount (L&S). The proposed «чисел, обозначающих звуки» is no more accurate. It could even suggest the ratio numbers of the preceding segment (…, twelve, twenty-four), which are exactly not what is being rejected. The English 'numbers of notes or strings' is also correct.",
+     "evidence": [
+      "Latin of X37-X38 as supplied: 'ad numeros sonorum vel fidium facta collatione'; X38 'ad excessum quantitatis ... ad primum esset quincuplum, ad secundum duplum sesquialterum ...' [checked]",
+      "Arithmetic: 5:1, 5:2, 5:3 (= 1 + 2/3, 'eum eiusque bessem'), 5:4 are ratios of counts 5 against 1-4 [checked]",
+      "Lewis & Short s.v. numerus, 'a number; a quantity, amount' [from memory]"
+     ],
+     "correction": ""
+    }
+   }
+  },
+  {
+   "item": "R06",
+   "segment": "X38",
+   "version": "xylander",
+   "latin": "Nam quia intervallum diapente diximus habere sesquialteram proportionem, equidem id non intelligendum est ad excessum quantitatis respiciendo, qua in respectu se praecedentium sonorum habet. Ea namque ratione ad primum esset quincuplum, ad secundum duplum sesquialterum: at tertio collatum, eum, eiusque bessem continet: sesquiquartum vero est ad quartum, nulli autem horum omnium sesquialtera proportione quadrat.",
+   "printed": [
+    {
+     "ref": "46.13",
+     "text": "ui ad acutum. Nam quia interuallum diapente dixi"
+    },
+    {
+     "ref": "46.14",
+     "text": "mus habere sesquialteram proportionem, equidem id"
+    },
+    {
+     "ref": "46.15",
+     "text": "non intelligendum est ad excessum quantitatis re-"
+    },
+    {
+     "ref": "46.16",
+     "text": "spiciendo, qua in respectu se præcedentium sonorum"
+    },
+    {
+     "ref": "46.17",
+     "text": "habet. Ea namque ratione ad primum esset quincuplum,"
+    },
+    {
+     "ref": "46.18",
+     "text": "ad secundum duplum sesquialterum: at tertiò collatum,"
+    },
+    {
+     "ref": "46.19",
+     "text": "eum, eiusqúe bessem continet: sesquiquartum uerò"
+    },
+    {
+     "ref": "46.20",
+     "text": "est ad quartum, nulli autem horum omnium sesquialtera"
+    },
+    {
+     "ref": "46.21",
+     "text": "proportione quadrat. Ergo ad intensionem acuita-"
+    }
+   ],
+   "translation_of_this_segment": {
+    "ru": "Ведь раз мы сказали, что интервал квинты имеет полуторную [3:2] пропорцию, то понимать это, конечно, следует не с оглядкой на то количественное превышение, какое у него есть по отношению к предшествующим ему звукам. Ибо при таком расчёте к первому он был бы пятикратным [5:1], ко второму — двукратным полуторным [5:2]; сопоставленный же с третьим, он содержит его и ещё две его трети; к четвёртому же он сверхчетвертной [5:4]; но ни с одним из них всех он не сходится в полуторной [3:2] пропорции.",
+    "en": "For whereas we said that the interval of the fifth has the sesquialter [3:2] proportion, this is certainly not to be understood with an eye to the excess of quantity which it has with respect to the notes preceding it. For on that reckoning it would be quintuple [5:1] to the first, duple sesquialter [5:2] to the second; while, compared with the third, it contains it and two thirds of it; and it is sesquiquartan [5:4] to the fourth; but with none of all these does it square in the sesquialter [3:2] proportion.",
+    "notes": [
+     {
+      "ru": "«Интервал квинты» здесь понят как пятый звук, то есть число 5 в счёте звуков. Bes — две трети целого; отношение 5:3 описано, а не названо (это было бы superbipartiens tertias, ср. X36). Duplum sesquialterum — кратное сверхчастичное отношение 5:2.",
+      "en": "The ‘interval of the fifth’ is here taken as the fifth note, that is, the number 5 in the count of the notes. Bes is two thirds of a whole; the ratio 5:3 is described, not named (it would be superbipartiens tertias, cf. X36). Duplum sesquialterum is the multiple superparticular ratio 5:2.",
+      "source": "Lewis & Short, s.v. bes, via Logeion [checked]; Boethius, De institutione arithmetica 1.29–31 on multiplex superparticularis [from memory]"
+     }
+    ]
+   },
+   "where": "notes",
+   "quoted": "excessum (or quantitatem)... habet",
+   "claim": "A relative pronoun taking excessus as antecedent would be masculine quem. Feminine quam can take quantitas as antecedent. The two nouns cannot simply be interchanged in the proposed repair.",
+   "proposed_fix": "Distinguish quam referring to quantitas from quem referring to excessus.",
+   "verdicts": {
+    "fable": {
+     "verdict": "open",
+     "why": "The grammatical point of the claim is correct: excessus, -us is masculine, so a relative with it as antecedent would be quem; feminine quam can only resume quantitas. But the words quoted as the locus ('excessum (or quantitatem)... habet') do not occur in the Russian, English or notes supplied for this segment (the one note concerns the fifth note, bes and duplum sesquialterum), and the fragment does not show what is asserted, so it cannot be established from the material given that the translator states anything false. The translation as supplied ('the excess of quantity which it has with respect to the notes preceding it' / «то количественное превышение, какое у него есть...») gives the right sense under any construal. If a textual remark elsewhere offers 'quam' as referring indifferently to excessum or quantitatem, that is a minor slip to be corrected as shown. The printed qua in any case needs no emendation: 'qua ... se habet' ('the quantity in which it stands with respect to the preceding notes') is regular Latin, se going with habet.",
+     "evidence": [
+      "Lewis & Short s.v. excessus, us, m.; s.v. quantitas, atis, f. [from memory]",
+      "Allen & Greenough par. 305: the relative agrees with its antecedent in gender and number [from memory]",
+      "Lewis & Short s.v. habeo, II: se habere with adverb or ablative, 'to be in a certain condition, stand' [from memory]",
+      "Supplied notes of the segment: no sentence containing the quoted words [checked]"
+     ],
+     "correction": "Only if such a remark exists: 'printed qua can stand (qua ... se habet, 'in which it stands'); if an object of habet is wanted, quam would resume quantitatis ('the quantity which it has'), quem would resume excessum ('the excess which it has')'. No change to the translation."
+    },
+    "opus": {
+     "verdict": "error-minor",
+     "why": "The grammatical point of the claim is correct. Excessus is masculine (4th declension) and quantitas feminine. If the printed 'qua' is taken as or emended to a relative object 'quam', its antecedent can only be quantitatis ('the excess of the quantity which it has ...'). A relative resuming excessum would have to be 'quem'. So a note that offers 'excessum (or quantitatem)' interchangeably as antecedent of the same relative is inexact. Note, however, that the quoted wording does not appear among the notes supplied for X38. The verdict applies to the wording as quoted. The running RU/EN translation ('то количественное превышение, какое у него есть' / 'the excess of quantity which it has') is unaffected in sense, since the excess and the quantity both concern the fifth note's number compared with the preceding notes. The printed 'qua' can also stand as the adverb 'in so far as' (L&S qui, qua), so no emendation is required for the sense.",
+     "evidence": [
+      "Lewis & Short s.v. excessus, -us, m. [from memory]",
+      "Lewis & Short s.v. quantitas, -atis, f. [from memory]",
+      "Allen & Greenough §305: a relative agrees with its antecedent in gender and number [from memory]",
+      "Lewis & Short s.v. qui, adv. qua, 'in so far as, as far as' [from memory]",
+      "Printed 46.15-16: 'ad excessum quantitatis re-/spiciendo, qua in respectu se praecedentium sonorum habet' [checked]"
+     ],
+     "correction": "Note: 'If qua is read as quam, its antecedent is quantitas (f.): \"the excess of the quantity which it has with respect to the notes preceding it\"; a relative resuming excessus (m.) would be quem. Qua may also be kept as the adverb \"in so far as\". The sense is the same either way.' The translation needs no change."
+    }
+   }
+  },
+  {
+   "item": "R07",
+   "segment": "X38",
+   "version": "xylander",
+   "latin": "Nam quia intervallum diapente diximus habere sesquialteram proportionem, equidem id non intelligendum est ad excessum quantitatis respiciendo, qua in respectu se praecedentium sonorum habet. Ea namque ratione ad primum esset quincuplum, ad secundum duplum sesquialterum: at tertio collatum, eum, eiusque bessem continet: sesquiquartum vero est ad quartum, nulli autem horum omnium sesquialtera proportione quadrat.",
+   "printed": [
+    {
+     "ref": "46.13",
+     "text": "ui ad acutum. Nam quia interuallum diapente dixi"
+    },
+    {
+     "ref": "46.14",
+     "text": "mus habere sesquialteram proportionem, equidem id"
+    },
+    {
+     "ref": "46.15",
+     "text": "non intelligendum est ad excessum quantitatis re-"
+    },
+    {
+     "ref": "46.16",
+     "text": "spiciendo, qua in respectu se præcedentium sonorum"
+    },
+    {
+     "ref": "46.17",
+     "text": "habet. Ea namque ratione ad primum esset quincuplum,"
+    },
+    {
+     "ref": "46.18",
+     "text": "ad secundum duplum sesquialterum: at tertiò collatum,"
+    },
+    {
+     "ref": "46.19",
+     "text": "eum, eiusqúe bessem continet: sesquiquartum uerò"
+    },
+    {
+     "ref": "46.20",
+     "text": "est ad quartum, nulli autem horum omnium sesquialtera"
+    },
+    {
+     "ref": "46.21",
+     "text": "proportione quadrat. Ergo ad intensionem acuita-"
+    }
+   ],
+   "translation_of_this_segment": {
+    "ru": "Ведь когда мы сказали, что интервал квинты имеет полуторную [3:2] пропорцию, это, конечно, не следует понимать, глядя на избыток количества — в той мере, в какой он имеет его по отношению к предшествующим ему звукам. Ибо в таком случае по отношению к первому [звуку] он был бы пятикратным [5:1], ко второму — двукратным полуторным [5:2]; а в сравнении с третьим он содержит его и две трети его; к четвёртому же он сверхчетвертный [5:4]; ни с одним же из всех них он не согласуется в полуторной [3:2] пропорции.",
+    "en": "For since we said that the interval of the fifth has the sesquialter [3:2] proportion, this is certainly not to be understood by looking at the excess of quantity, in so far as it has it in respect of the notes preceding it. For in that way it would be, to the first [note], quintuple [5:1]; to the second, duple sesquialter [5:2]; but compared with the third, it contains it and two thirds of it; to the fourth it is sesquiquartan [5:4]; and with none of all these does it agree in the sesquialter [3:2] proportion.",
+    "notes": [
+     {
+      "ru": "Довод: название diapente считает пять звуков, но отношение 3:2 не есть отношение числа 5 ни к одному из предшествующих чисел 1–4; отношения принадлежат высоте, а не счёту звуков.",
+      "en": "The argument: the name diapente counts five notes, but the 3:2 ratio is not the ratio of the number 5 to any of the preceding numbers 1–4; ratios belong to pitch, not to the count of notes.",
+      "source": "Arithmetic of the passage, recomputed [checked]"
+     },
+     {
+      "ru": "Bes — «две трети целого (восемь унций)»; отношение 5:3 здесь описано, а не названо (у Боэция оно было бы superbipartiens tertias), поэтому скобки нет. Duplum sesquialterum — у Боэция duplex supersesqualter («ut sunt quinque ad duo»); название образовано по образцу about.md, §4.3. Quadrat — «соответствует, подходит».",
+      "en": "Bes is 'two thirds of a whole (eight unciae)'; the ratio 5:3 is described here, not named (Boethius would call it superbipartiens tertias), so there is no bracket. Duplum sesquialterum is Boethius' duplex supersesqualter ('ut sunt quinque ad duo'); the name is formed on the pattern of about.md §4.3. Quadrat is 'agrees, fits'.",
+      "source": "Lewis & Short s.v. bes; Lewis & Short s.v. quadro, II [checked]; Boethius, De inst. mus. I.4, ed. Friedlein p. 192.4–5 [checked]"
+     }
+    ]
+   },
+   "where": "notes",
+   "quoted": "After excessum quantitatis one expects a relative object, quam … habet ('the excess that it has').",
+   "claim": "The gloss makes the relative an object referring to the excess. If its antecedent is excessus, the object pronoun would be quem. Feminine quam would instead resume quantitas.",
+   "proposed_fix": "Distinguish quam referring to quantitas from quem referring to excessus.",
+   "verdicts": {
+    "fable": {
+     "verdict": "error-minor",
+     "why": "The sentence quoted ('After excessum quantitatis one expects a relative object, quam ... habet (\"the excess that it has\")') glosses feminine quam as if its antecedent were excessum. Excessus is masculine, so 'the excess that it has' would require quem; quam could only mean 'the quantity that it has'. The slip is real but slight: it sits in a textual remark, and the translation ('the excess of quantity, in so far as it has it' / «в той мере, в какой он имеет его», taking qua adverbially) is defensible and unaffected. Caveat: the quoted sentence is not among the notes supplied for this segment; the verdict applies to it as quoted. The expectation itself is also unnecessary: printed qua construes with se habet ('the quantity in which it stands relative to the preceding notes'), se being the object of habet rather than of praecedentium.",
+     "evidence": [
+      "Lewis & Short s.v. excessus, us, m.; s.v. quantitas, atis, f. [from memory]",
+      "Allen & Greenough par. 305: agreement of the relative with its antecedent in gender and number [from memory]",
+      "Lewis & Short s.v. habeo, II: se habere, 'to stand, be situated (in some way)' [from memory]",
+      "Lewis & Short s.v. qua (adv.): 'in so far as' [from memory]",
+      "Supplied notes of the segment: quoted sentence not present [checked]"
+     ],
+     "correction": "'Printed qua can stand: qua (sc. quantitate) ... se habet, 'the quantity in which it stands with respect to the preceding notes', or adverbial qua 'in so far as'. If an object of habet is wanted, the form depends on the antecedent: quem for excessum ('the excess that it has'), quam for quantitatis ('the quantity that it has').'"
+    },
+    "opus": {
+     "verdict": "error-minor",
+     "why": "This is the same grammatical point as R06, and the claim is correct. The quoted gloss reads 'quam ... habet' as 'the excess that it has', so it takes feminine quam as resuming excessum. Excessus is masculine, so that relative would be 'quem'. 'Quam' can only resume quantitatis ('the excess of the quantity that it has'). The quoted sentence does not appear among the notes supplied for X38, so the verdict applies to the wording as quoted. The running translation keeps the printed 'qua' as 'in so far as it has it' ('в той мере, в какой он имеет его'), a legitimate adverbial reading (L&S qui, adv. qua). The sense of the argument is unaffected, so the slip is minor.",
+     "evidence": [
+      "Lewis & Short s.v. excessus, -us, m.; s.v. quantitas, -atis, f. [from memory]",
+      "Allen & Greenough §305, agreement of the relative with its antecedent in gender and number [from memory]",
+      "Lewis & Short s.v. qui, adv. qua, 'in so far as' [from memory]",
+      "Printed 46.15-16: 'qua in respectu se praecedentium sonorum habet' [checked]"
+     ],
+     "correction": "Note: 'After excessum quantitatis one might expect a relative object: quam ... habet would resume quantitas (\"the excess of the quantity that it has\"), quem ... habet would resume excessus (\"the excess that it has\"). The printed qua can stand as the adverb \"in so far as\", as translated.' The translation needs no change."
+    }
+   }
+  },
+  {
+   "item": "R08",
+   "segment": "V09",
+   "version": "vinet",
+   "latin": "Nos autem hic de Musica illa, quam sensus aut potius sensuum unus auditus, percipit contemplaturque, breviter disceptabimus.",
+   "printed": [
+    {
+     "ref": "42.8",
+     "text": "Nos autem hîc de Musica illa, quam"
+    },
+    {
+     "ref": "42.9",
+     "text": "sensus aut potius sensuum vnus auditus,"
+    },
+    {
+     "ref": "42.10",
+     "text": "percipit contemplatúrque, breuiter disce"
+    },
+    {
+     "ref": "42.11",
+     "text": "ptabimus."
+    }
+   ],
+   "translation_of_this_segment": {
+    "ru": "Здесь же мы кратко рассудим о той музыке, которую воспринимают и рассматривают посредством чувств, точнее, одного из них — слуха.",
+    "en": "Here we shall briefly discuss the music that sense, or rather one of the senses, hearing, perceives and contemplates.",
+    "notes": []
+   },
+   "where": "ru",
+   "quoted": "которую воспринимают и рассматривают посредством чувств",
+   "claim": "The human observer becomes the implicit subject and the senses the means. Vinet makes sense, narrowed to hearing, the perceiver.",
+   "proposed_fix": "которую воспринимает и созерцает чувство, точнее, одно из чувств — слух",
+   "verdicts": {
+    "fable": {
+     "verdict": "error-minor",
+     "why": "In Vinet sensus, corrected to sensuum unus auditus, is the nominative subject of percipit contemplaturque (deponent, active sense). RU «которую воспринимают и рассматривают посредством чувств, точнее, одного из них — слуха» makes the subject an indefinite 'they', turns sense into an instrument and singular sensus into plural «чувств». What is said about the scope of the treatise is preserved, so the sense is not lost, but the construction (sense itself as perceiver and contemplator) is changed without need; the English keeps it correctly.",
+     "evidence": [
+      "Latin 42.8-42.11: 'quam sensus aut potius sensuum unus auditus, percipit contemplaturque' - nominative subject, singular verbs [checked against the supplied text]",
+      "Lewis & Short s.v. contemplor (dep.): 'to look at, view attentively, consider' [from memory]",
+      "Allen & Greenough par. 190, deponents: passive form, active meaning [from memory]"
+     ],
+     "correction": "RU: «Здесь же мы кратко рассудим о той музыке, которую воспринимает и созерцает чувство, или, вернее, одно из чувств — слух.»"
+    },
+    "opus": {
+     "verdict": "error-minor",
+     "why": "In 'quam sensus aut potius sensuum unus auditus percipit contemplaturque', quam is the accusative object. The nominative 'sensus ... auditus' is the subject of the singular verbs. Contemplor is deponent with active meaning. Vinet thus makes sense, narrowed to hearing, the perceiver and contemplator; the English renders this correctly. The Russian «которую воспринимают и рассматривают посредством чувств» brings in an indefinite human subject and turns the senses into an instrument. This loses Vinet's construction, which is also his difference from Xylander's passive 'quae in sensibus ... consideratur'. What is perceived and by which faculty stays the same, so the error is real but slight. Sensus may be nom. sg. or pl. (with disjunctive subjects the verb may agree with the nearest), so «чувство» or «чувства» are both acceptable. The plural itself is not the error.",
+     "evidence": [
+      "Latin of V09 as supplied: singular verbs percipit contemplaturque with nominative 'sensus aut potius sensuum unus auditus'; quam accusative object [checked]",
+      "Lewis & Short s.v. contemplor (dep.), 'to view attentively, observe, contemplate' [from memory]",
+      "Allen & Greenough §317, verb agreeing with the nearest of subjects joined by disjunctives [from memory]",
+      "Xylander's corresponding X07, 'quae in sensibus ... consideratur' (passive), for contrast [checked]"
+     ],
+     "correction": "RU: «Здесь же мы кратко рассудим о той музыке, которую воспринимает и созерцает чувство, точнее, одно из чувств — слух.»"
+    }
+   }
+  },
+  {
+   "item": "R09",
+   "segment": "V14",
+   "version": "vinet",
+   "latin": "Harmonia, systematum compositio.",
+   "printed": [
+    {
+     "ref": "42.19",
+     "text": "Harmonia, systematum compositio. So-"
+    }
+   ],
+   "translation_of_this_segment": {
+    "ru": "Гармония — построение систем.",
+    "en": "Harmony is the composition of systems.",
+    "notes": []
+   },
+   "where": "ru",
+   "quoted": "построение систем",
+   "claim": "This describes making systems, losing the next level of the definition.",
+   "proposed_fix": "соединение систем",
+   "verdicts": {
+    "fable": {
+     "verdict": "error-minor",
+     "why": "Compositio is the putting together / connecting of the things named in the genitive: harmony is what results when systems are put together (the top of the ladder note - interval - system - harmony). Russian «построение систем» is read by default as 'constructing systems', i.e. making the systems themselves, which is the level below; the English 'composition of systems' keeps the Latin. The Russian is not impossible (the Latin genitive is objective too) but it points the reader the wrong way; the sense is blurred, not lost.",
+     "evidence": [
+      "Lewis & Short s.v. compositio I: 'A putting together, compounding, connecting, arranging, composition' (unguentorum, membrorum; varia sonorum, Cic. Tusc. 1.18.41) [checked]",
+      "Theon of Smyrna: harmonia defined as systematon syntaxis, after systema as a combination of intervals [from memory]"
+     ],
+     "correction": "RU: «Гармония — соединение (сочетание) систем.» EN unchanged."
+    },
+    "opus": {
+     "verdict": "error-minor",
+     "why": "Compositio with a genitive names what is put together: the systems are the components (as in compositio membrorum, compositio verborum). This mirrors the previous step of the chain, where a systema is a compositio of intervals (Greek σύνθεσις). In a music-theory register, Russian «построение систем» reads most naturally as 'constructing systems' (cf. the standard pedagogical phrase «построение интервалов/аккордов», where the interval or chord is the product). That makes the systems the product and blurs the hierarchical step intervals → systems → harmony. But «построение» can also mean 'arrangement, structure of parts' (Ozhegov, sense 2), and the English 'composition of systems' is exact, so the sense is blurred, not reversed: minor.",
+     "evidence": [
+      "Lewis & Short s.v. compositio I: 'a putting together, connecting, arranging; composition' (compositio membrorum, verborum) [from memory]",
+      "Gaffiot s.v. compositio: 'action de composer, d'assembler; arrangement' [from memory]",
+      "Ozhegov s.v. построение: 1. action of построить; 2. 'структура, взаимное расположение частей' [from memory]",
+      "Russian music-pedagogy usage «построение интервалов от звука» = building an interval on a given note (the interval is the product) [from memory]"
+     ],
+     "correction": "RU: «Гармония — сочетание (соединение) систем.» If the preceding definition of systema uses «построение интервалов», change it the same way so the chain stays parallel. EN unchanged."
+    }
+   }
+  },
+  {
+   "item": "R10",
+   "segment": "V22",
+   "version": "vinet",
+   "latin": "Iam vero intervallorum minimum quidem est Diesis. Deinde hemitonium, quod Diesi duplo acutius est: Postremo Tonus, ex duobus constans hemitoniis: cuius quidem intervalli ratio sesquioctava est, quomodo novem numerus ad octo habet: ut sit Hemitonium, veluti octo cum semisse: et Diesis, ut, octo cum quadrante:",
+   "printed": [
+    {
+     "ref": "44.6",
+     "text": "IAm verò interuallorum minimum"
+    },
+    {
+     "ref": "44.7",
+     "text": "quidem est Díesis. Deinde hemito-"
+    },
+    {
+     "ref": "44.8",
+     "text": "tonium, quod Díesi duplo acutius est: Po-"
+    },
+    {
+     "ref": "44.9",
+     "text": "stremo Tonus, ex duobus constans hemi-"
+    },
+    {
+     "ref": "44.10",
+     "text": "toniis: cuius quidem interualli ratio ses-"
+    },
+    {
+     "ref": "44.11",
+     "text": "quioctaua est, quomodo nouem numerus"
+    },
+    {
+     "ref": "44.12",
+     "text": "ad octo habet: vt sit Hemitonium, veluti"
+    },
+    {
+     "ref": "44.13",
+     "text": "octo cum semisse: et Díesis, vt, octo cum"
+    },
+    {
+     "ref": "44.14",
+     "text": "quadrante: quandoquidem licet monàs"
+    }
+   ],
+   "translation_of_this_segment": {
+    "ru": "Что же до интервалов, то наименьший из них — диеса. Затем полутон, который вдвое выше диесы; наконец, тон, состоящий из двух полутонов; отношение этого интервала — сверхосминное [9:8], как число девять относится к восьми; так что полутон — это как бы восемь с половиной, а диеса — как бы восемь с четвертью;",
+    "en": "Now of the intervals the smallest is the diesis. Next the semitone, which is twice as high as the diesis; and last the tone, consisting of two semitones; the ratio of this interval is sesquioctave [9:8], as the number nine stands to eight; so that the semitone is, as it were, eight and a half, and the diesis, as it were, eight and a quarter;",
+    "notes": [
+     {
+      "ru": "Hemitonium — греческая форма (у Ксиландра semitonium); в переводе в обоих случаях «полутон». Диеса здесь — четверть тона (половина полутона), как в гармоническом роде (V59).",
+      "en": "Hemitonium is the Greek form (Xylander has semitonium); both are 'semitone' in translation. The diesis here is the quarter-tone (half of the semitone), as in the harmonic genus (V59).",
+      "source": "latin-texts.json, X18 [checked]; Boethius, De institutione musica I, 21, ed. Friedlein (1867), text of the archive.org scan, p. 213 ('diesis autem est semitonii dimidium') [checked]"
+     },
+     {
+      "ru": "«Diesi duplo acutius» — буквально «вдвое выше диесы»: полутон есть вдвое больший шаг вверх, чем диеса. «Восемь с половиной» и «восемь с четвертью» — члены, которые вместе с восемью дают полутон и диесу (17:16 и 33:32); это деление избытка, а не интервала пополам, и точным оно быть не может: сверхчастичное отношение не делится на две равные части в числах. У Боэция 17:16 (sesquisextadecima) — бо́льшая из двух неравных частей тона 18:17:16, превосходящая его половину.",
+      "en": "Diesi duplo acutius: literally 'higher than the diesis by double', i.e. the semitone is twice as large a step upward as the diesis. 'Eight and a half' and 'eight and a quarter' are the terms which with eight give the semitone and the diesis (17:16 and 33:32); this halves the excess, not the interval, and cannot be exact: a superparticular ratio cannot be divided into two equal parts in numbers. In Boethius 17:16 (the sesquisextadecima) is the larger of the two unequal parts of the tone 18:17:16 and exceeds its half.",
+      "source": "Boethius, De institutione musica III, 1, ed. Friedlein (1867), text of the archive.org scan, p. 268–271 (the terms 16, 17, 18) [checked]; Euclid, Sectio canonis, prop. 3 [from memory]"
+     }
+    ]
+   },
+   "where": "notes",
+   "quoted": "8 : √72 ≈ 8 : 8.485 (101.96 cents)",
+   "claim": "Here the ratio is inverted relative to the positive cent value and to the preceding ascending ratios.",
+   "proposed_fix": "√72:8 ≈ 8.485:8, about +101.96 cents.",
+   "verdicts": {
+    "fable": {
+     "verdict": "open",
+     "why": "The quoted words '8 : √72 ≈ 8 : 8.485 (101.96 cents)' do not occur in the translation or in either note supplied for V22, so the alleged error cannot be located in the material given. Judged conditionally: the arithmetic is right (√72 = 8.485; 1200·log2(8.485/8) = 101.96 cents = half of 203.91), and writing the smaller term first is only an inconsistency of notation against 17:16, 33:32 and the Latin 'novem ad octo', not a false fact. If the passage exists, it is at most error-minor. The two notes actually supplied contain no false statement (17:16 > 18:17, so 17:16 is the larger part of 18:17:16).",
+     "evidence": [
+      "Arithmetic recomputed: √72 = 8.4853; 1200·log2(1.06066) = 101.955 [checked]",
+      "Text of the segment: 'quomodo novem numerus ad octo habet' (greater term first) [checked]",
+      "Boethius, De inst. mus. III.1 (16, 17, 18) [from memory]"
+     ],
+     "correction": "If the passage exists: write √72 : 8 ≈ 8.485 : 8 (101.96 cents), greater term first as elsewhere."
+    },
+    "opus": {
+     "verdict": "open",
+     "why": "The quoted string '8 : √72 ≈ 8 : 8.485 (101.96 cents)' does not occur in the translator's Russian, English or notes for V22 as supplied. Those notes deal only with 17:16, 33:32 and Boethius' 18:17:16, and they are correct, so nothing in this segment carries the alleged error. On the substance, in case such a note exists elsewhere: the values are right (√72 ≈ 8.4853; √(9/8) = 101.955 cents). Only the orientation is off: 8:√72 is smaller:greater, against the greater:smaller convention of 9:8, 17:16 and 33:32 used in the notes. That is a notational inconsistency, at most error-minor, with no change of sense.",
+     "evidence": [
+      "Supplied V22 translation and notes searched for '√72', '8.485', '101.96': these occur only inside the claim [checked]",
+      "Arithmetic: √72 = 8.48528; 1200·log2(√72/8) = 101.955 cents; 17:16 = 104.96 c; 33:32 = 53.27 c [checked]",
+      "Boethius, De institutione musica II: superparticular ratios named greater to smaller term (sesquioctava = 9:8) [from memory]"
+     ],
+     "correction": "None for V22 as supplied. If the string exists in another note: '√72 : 8 ≈ 8.485 : 8 (≈ 101.96 cents)'."
+    }
+   }
+  },
+  {
+   "item": "R11",
+   "segment": "V30",
+   "version": "vinet",
+   "latin": "Ad hunc sane modum et sesquioctava toni ratio in hemitonium dividitur, rursusque in diesin.",
+   "printed": [
+    {
+     "ref": "45.21",
+     "text": "uerit quadratum. Ad hunc sanè modum et"
+    },
+    {
+     "ref": "45.22",
+     "text": "sesquioctaua toni ratio in hemitonium di"
+    },
+    {
+     "ref": "45.23",
+     "text": "uiditur, rursúsque in díesin."
+    }
+   ],
+   "translation_of_this_segment": {
+    "ru": "Именно таким образом и сверхосминное [9:8] отношение тона делится на полутон, а затем на диесу.",
+    "en": "In just this way the sesquioctave [9:8] ratio of the tone, too, is divided into the semitone, and again into the diesis.",
+    "notes": [
+     {
+      "ru": "Сравнение с квадратом точно: сторона половинного квадрата относится к стороне данного как 1 : √2, т. е. является средним пропорциональным; так же половина тона 9:8 есть среднее пропорциональное между 9 и 8 (√72), не выражаемое числом.",
+      "en": "The comparison with the square is exact: the side of the half-square is to the side of the given square as 1 : √2, i.e. a mean proportional; likewise half of the tone 9:8 is the mean proportional between 9 and 8 (√72), which no number expresses.",
+      "source": "Arithmetic recomputed [checked]"
+     }
+    ]
+   },
+   "where": "notes",
+   "quoted": "half of the tone 9:8 is the mean proportional between 9 and 8 (√72)",
+   "claim": "√72 is the intermediate length in the construction, whereas the ratio of the half interval is √72:8 = 9:√72. The check gives that ratio correctly.",
+   "proposed_fix": "Give √72 as a length and √(9/8) as the interval ratio.",
+   "verdicts": {
+    "fable": {
+     "verdict": "no-error",
+     "why": "The note says that half of the tone 9:8 'is the mean proportional between 9 and 8 (√72), which no number expresses'. √72 is correctly labelled as the mean proportional between 9 and 8, and the conclusion (not expressible in numbers) is correct. Identifying the half-interval with the mean term that divides it is the ordinary idiom of the theorists (an interval is halved by inserting a mean), not a false fact; the parallel with 1 : √2 is also correct. A more exact wording is possible, but nothing in the note is untrue or misleading.",
+     "evidence": [
+      "Arithmetic: 9 : √72 = √72 : 8 = √(9/8) = 1.06066 [checked]",
+      "Euclid, Sectio canonis prop. 3: no mean number falls proportionally within a superparticular interval [from memory]",
+      "Boethius, De inst. mus. III.1: the tone cannot be halved, no mean number falling between its terms (18:17:16) [from memory]"
+     ],
+     "correction": "None required. Optional precision: 'the half of the tone 9:8 is bounded by the mean proportional between 9 and 8 (√72; ratio √72 : 8 = √(9/8)), which no number expresses'."
+    },
+    "opus": {
+     "verdict": "error-minor",
+     "why": "The note conflates the mean term with the interval. √72 is the geometric mean between 9 and 8, i.e. a term (a length or number), and is right as such. The half of the tone is the ratio 9:√72 = √72:8 = √(9/8) ≈ 1.0607, so 'half of the tone 9:8 is the mean proportional' is an inexact identity. The square clause has the same slip: 1:√2 is a ratio, not 'a mean proportional'; it is the side of the half-square that is the mean proportional between the given side and its half. The parenthesis (√72), the irrationality and the point of the comparison (the tone is halved by a mean proportional just as a square is halved by one) are all correct and clear, so the slip is slight.",
+     "evidence": [
+      "Arithmetic: √72 = 6√2 = 8.4853; 9/√72 = √72/8 = √(9/8) = 1.06066; s/√2 = √(s · s/2) [checked]",
+      "Euclid, Elements VI.13 (construction of the mean proportional) [from memory]",
+      "Euclid, Sectio canonis, prop. 3 (no mean proportional falls within a superparticular ratio) and prop. 16 (the tone cannot be divided into equal parts) [from memory]"
+     ],
+     "correction": "EN: 'The comparison with the square is exact: the side of a square of half the area is to the side of the given square as 1 : √2, i.e. it is the mean proportional between that side and its half; likewise the tone 9:8 is halved by the mean proportional between 9 and 8, √72 (= 6√2 ≈ 8.485), so that 9 : √72 = √72 : 8 = √(9/8) ≈ 1.0607; neither the mean term nor the ratio of the half-tone is expressible in numbers.' RU: «Сравнение с квадратом точно: сторона квадрата вдвое меньшей площади относится к стороне данного как 1 : √2, т. е. есть среднее пропорциональное между стороной данного квадрата и её половиной; так же тон 9:8 делится пополам средним пропорциональным между 9 и 8 — √72 (= 6√2 ≈ 8,485), так что 9 : √72 = √72 : 8 = √(9/8) ≈ 1,0607; ни средний член, ни отношение половины тона числом не выражаются.»"
+    }
+   }
+  },
+  {
+   "item": "R12",
+   "segment": "V31",
+   "version": "vinet",
+   "latin": "Horum autem adauctu, alia quoque simplicia intervalla fiunt, Tridiesis, Trihemitonium, Ditonium, et Tritonium; et ut volueris, et rythmus tulerit, quomodo ex sequentibus cognoscetur.",
+   "printed": [
+    {
+     "ref": "46.1",
+     "text": "Horum autem adauctu, alia quoque simpli"
+    },
+    {
+     "ref": "46.2",
+     "text": "cia interualla fiunt, Tridíesis, Trihemito-"
+    },
+    {
+     "ref": "46.3",
+     "text": "nium, Ditonium, et Tritonium; et vt volueris, et"
+    },
+    {
+     "ref": "46.4",
+     "text": "rythmus tulerit, quomodo ex sequentibus"
+    },
+    {
+     "ref": "46.5",
+     "text": "cognoscetur. Simplicia autem ideo dicta"
+    }
+   ],
+   "translation_of_this_segment": {
+    "ru": "Приращением же их образуются и другие простые интервалы — тридиеса, трёхполутон, дитон и тритон; и [иные] — как будет угодно и как позволит ритм, что станет понятно из последующего.",
+    "en": "By the increase of these, other simple intervals too are formed: the tridiesis, the trihemitone, the ditone and the tritone; and [others], as you will and as the rhythm allows, as will be learned from what follows.",
+    "notes": [
+     {
+      "ru": "Simplicia intervalla — «простые интервалы»: так Вине называет несоставные интервалы (в V34 он противопоставляет им кварту, квинту и октаву, которые neque non-composita). У Ксиландра в этом месте incomposita. Ср. у Феона «несоставной трёхполутон» (τριημιτόνιον ἀσύνθετον) хроматического тетрахорда.",
+      "en": "Simplicia intervalla, “simple intervals”: Vinet's word for incomposite intervals (in V34 he contrasts them with the fourth, fifth and octave, which are neque non-composita). Xylander here has incomposita. Cf. Theon's “incomposite trihemitone” (τριημιτόνιον ἀσύνθετον) of the chromatic tetrachord.",
+      "source": "Theon, ed. Hiller p. 54.22–23 and p. 55.3–4 [checked]; Xylander X26–X27 in latin-texts.json [checked]"
+     },
+     {
+      "ru": "Adauctus «приращение» — редкое слово (Лукреций, Солин). Rythmus — так в печати (вместо rhythmus).",
+      "en": "Adauctus, “increase”, is a rare word (Lucretius, Solinus). Rythmus is the printed spelling (for rhythmus).",
+      "source": "Lewis & Short s.v. adauctus (Lucr. 2.1122) [checked]"
+     }
+    ]
+   },
+   "where": "notes",
+   "quoted": "Xylander here has incomposita.",
+   "claim": "At the actual introduction of this list X26 says compositae. Incomposita occurs in the subsequent explanation X27.",
+   "proposed_fix": "Give both X26 and X27 in sequence.",
+   "verdicts": {
+    "fable": {
+     "verdict": "open",
+     "why": "The claim turns on the wording of Xylander's X26 and X27, which are not among the material supplied and which I was told not to open. The note itself cites 'X26–X27' as its source, so its 'here' may cover both segments. If X26 does lack incomposita at the list itself and has it only in the explanation X27, the note is off by one segment: a slight imprecision of reference (error-minor), not a false statement about Xylander's term for these intervals. A reading 'compositae' in X26 would itself deserve a note, since it runs against the sense.",
+     "evidence": [
+      "Note's own source line: 'Xylander X26–X27 in latin-texts.json' [checked in the item]",
+      "Wording of X26/X27 [not checked: text not supplied]"
+     ],
+     "correction": "After checking X26 and X27: quote each with its segment number instead of 'Xylander here has incomposita'."
+    },
+    "opus": {
+     "verdict": "open",
+     "why": "The claim turns on the wording of Xylander's X26 and X27, which is not supplied, and the task forbids opening the file that holds it, so the claim cannot be verified. The note's source line already cites 'Xylander X26–X27', i.e. it treats the two Xylander segments answering to V31–V32 together, so 'here' may mean the whole passage. If X26 really has compositae where the list is introduced, then 'Xylander here has incomposita' is incomplete and hides a real discrepancy: the opposite term. The note should then quote both. Either way it concerns a parallel version, not Vinet's text or its translation: at most error-minor.",
+     "evidence": [
+      "The note's source line reads 'Xylander X26–X27 in latin-texts.json [checked]' [checked]",
+      "Xylander's X26/X27 text is not in the supplied item and was not consulted, per the task [checked]"
+     ],
+     "correction": "Pending verification. If confirmed: EN 'Xylander introduces the list with compositae (X26) and in the explanation that follows has incomposita (X27).' RU «У Ксиландра при перечне — compositae (X26), в следующем за ним объяснении — incomposita (X27).»"
+    }
+   }
+  },
+  {
+   "item": "R13",
+   "segment": "V32",
+   "version": "vinet",
+   "latin": "Simplicia autem ideo dicta sunt, quod veluti unum ex coniunctis confusisque tribus diesibus, seu tribus hemitoniis seu multis etiam tonis conficiatur melos, quod licet multorum vim habeat intervallorum, tamen per unicum resonet intervallum.",
+   "printed": [
+    {
+     "ref": "46.5",
+     "text": "cognoscetur. Simplicia autem ideo dicta"
+    },
+    {
+     "ref": "46.6",
+     "text": "sunt, quòd veluti vnum ex coniunctis confu-"
+    },
+    {
+     "ref": "46.7",
+     "text": "sísque tribus diesibus, seu tribus hemitoniis"
+    },
+    {
+     "ref": "46.8",
+     "text": "seu multis etiam tonis conficiatur melos,"
+    },
+    {
+     "ref": "46.9",
+     "text": "quod licet multorum vim habeat interuallo"
+    },
+    {
+     "ref": "46.10",
+     "text": "rum, tamen per vnicum resonet interuallum."
+    }
+   ],
+   "translation_of_this_segment": {
+    "ru": "Несоставными же они зовутся потому, что из трёх соединённых и слившихся диес, или трёх полутонов, или даже многих тонов образуется как бы единая мелодия. Хотя она заключает в себе силу многих интервалов, звучит она в пределах одного-единственного интервала.",
+    "en": "They are called incomposite because, from three dieses joined and merged, or three semitones, or even many tones, what is virtually one melody is formed. Although it has the force of many intervals, it sounds through a single interval.",
+    "notes": [
+     {
+      "ru": "Melos — мелодия. Составляющие несоставного шага присутствуют по своей величине, но не звучат по отдельности. У Клеонида несоставным называется шаг между соседними звуками в данном роде.",
+      "en": "Melos is a melody. An incomposite step embodies the magnitude of its components, which are not heard separately. Cleonides calls an interval incomposite when its notes are adjacent in the given genus.",
+      "source": "Cleonides, Introduction to Harmonics, ed. von Jan (1895), §5 [checked] (https://raw.githubusercontent.com/PerseusDLCode/First1KGreek/HEAD/data/tlg0361/tlg001/tlg0361.tlg001.1st1K-grc1.xml)"
+     }
+    ]
+   },
+   "where": "ru",
+   "quoted": "звучит она в пределах одного-единственного интервала",
+   "claim": "Within the limits of an interval describes compass. The explanation of simple intervals turns on hearing one step in performance.",
+   "proposed_fix": "она звучит как один-единственный интервал",
+   "verdicts": {
+    "fable": {
+     "verdict": "error-minor",
+     "why": "Per unicum intervallum with resonet is per of means/manner: the melos, though worth many intervals, sounds by (as) one single interval, i.e. as one undivided step. «в пределах одного-единственного интервала» ('within the limits of') turns this into a statement of compass, which is not what per + acc. says and weakens the antithesis licet multorum vim habeat ... tamen per unicum. The English 'through a single interval' is right, and the translator's own note ('components ... are not heard separately') shows the point was understood; so the Russian is a slight mis-rendering, not a loss of sense. Separately: simplicia is «простые» in V31 but «несоставными» here; it should be one word.",
+     "evidence": [
+      "Lewis & Short s.v. per II (means/instrument: 'through, by, by means of') [from memory]",
+      "Allen & Greenough §221 (per with acc.) [from memory]",
+      "Text: 'licet multorum vim habeat intervallorum, tamen per unicum resonet intervallum' [checked]"
+     ],
+     "correction": "RU: «...звучит она всё же одним-единственным интервалом» (or «как один-единственный интервал»); and «Простыми же они зовутся...» to match V31."
+    },
+    "opus": {
+     "verdict": "error-minor",
+     "why": "Per with the accusative here marks the way or means: 'resonet per unicum intervallum' means 'sounds through, by, a single interval', i.e. it is heard as one step. The English 'it sounds through a single interval' is exact. Russian «в пределах одного-единственного интервала» states a compass ('within the bounds of'). That would also be true of a composite interval filled with intermediate notes, so it blurs the very criterion being defined (no intermediate sounds; cf. Cleonides, cited in the note). The rest of the sentence («слившихся», «как бы единая», «одного-единственного») keeps the idea recoverable, hence minor. A side observation, not part of the claim: V32 renders 'Simplicia ... dicta sunt' as «Несоставными ... зовутся» / 'called incomposite', while V31 has «простые» / 'simple'. Since the sentence explains the name just given, the same word should be kept, or the switch noted.",
+     "evidence": [
+      "Lewis & Short s.v. per I (through, of space and passage) and II.B (of means: 'through, by, by means of') [from memory]",
+      "Cleonides, Introduction to Harmonics §5: an incomposite interval is bounded by notes adjacent in the genus [from memory]",
+      "Ozhegov s.v. предел: «в пределах чего» = within the bounds of [from memory]"
+     ],
+     "correction": "RU: «Хотя она заключает в себе силу многих интервалов, звучит она одним-единственным интервалом» (or «как один-единственный интервал»). Optionally, for consistency with V31: «Простыми же они называются потому, что…». EN unchanged."
+    }
+   }
+  },
+  {
+   "item": "R14",
+   "segment": "V43",
+   "version": "vinet",
+   "latin": "Verumtamen sciendum, rationes intervallorum, non ex sonorum, aut ex chordarum numero iudicari; sed ex intentione vocis a gravi ad acutius:",
+   "printed": [
+    {
+     "ref": "49.7",
+     "text": "Verumtamen sciendum, rationes in-"
+    },
+    {
+     "ref": "49.8",
+     "text": "teruallorum, non ex sonorum, aut ex chor-"
+    },
+    {
+     "ref": "49.9",
+     "text": "darum numero iudicari; sed ex intentio-"
+    },
+    {
+     "ref": "49.10",
+     "text": "ne vocis à graui ad acutius: quandoquidem"
+    }
+   ],
+   "translation_of_this_segment": {
+    "ru": "Однако следует знать, что об отношениях интервалов судят не по числу звуков или струн, а по напряжению голоса от низкого к более высокому;",
+    "en": "However, it must be understood that the ratios of intervals are judged not from the number of the notes or of the strings, but from the tension of the voice from low to higher;",
+    "notes": [
+     {
+      "ru": "Здесь intentio (через t), в остальных местах intensio; оба слова — от intendo, intentio — классическая форма, intensio — поздняя. Переводим одинаково: «напряжение» / “tension”.",
+      "en": "Here intentio (with t), elsewhere intensio; both come from intendo, intentio being the classical form and intensio the late one. Rendered the same: «напряжение» / “tension”.",
+      "source": "Lewis & Short s.v. intentio (vocis, Plin. 28.4.14; Cic.) and s.v. intensio (Seneca, Censorinus; “the tune: gravis, media, acuta”, Censor. 12) [checked]"
+     }
+    ]
+   },
+   "where": "notes",
+   "quoted": "intentio being the classical form and intensio the late one",
+   "claim": "Intensio already occurs in first-century imperial authors. Lewis & Short, s.v. intensio, cites Scribonius Largus, Compositiones 255, and Seneca, Naturales quaestiones VII.1.3 [checked]. The later musical citation does not date the noun itself.",
+   "proposed_fix": "Distinguish the printed forms here and at V45 without assigning intensio as a word to late Latin.",
+   "verdicts": {
+    "fable": {
+     "verdict": "error-minor",
+     "why": "Lewis & Short s.v. intensio gives Scribonius Largus Comp. 255 and Seneca Q.N. 7.1.3 before Censorinus 12, i.e. the word is attested from the first century AD. Calling it 'the late one' / «поздняя» is therefore inexact: it is post-Augustan (Silver Latin), not Late Latin, and the note's own source line lists Seneca. The relative statement that intentio is the Ciceronian form and intensio the later one is true, and the translation itself is unaffected.",
+     "evidence": [
+      "Lewis & Short s.v. intensio: 'I. A stretching out, straining, effort: oculorum, Scrib. Comp. 255. B. An intensifying, increase: ... intensionibus ac remissionibus ..., Sen. Q. N. 7, 1, 3. II. The tune: gravis, media, acuta, Censor. 12' [checked]",
+      "Lewis & Short s.v. intentio (Cicero; vocis, Pliny) [from memory, as cited in the note]"
+     ],
+     "correction": "EN: 'intentio being the classical (Ciceronian) form, intensio a post-Augustan by-form (Scribonius Largus, Seneca; in the musical sense Censorinus 12)'. RU: «intentio — классическая форма, intensio — послеавгустовская (Скрибоний Ларг, Сенека; в музыкальном смысле — Цензорин 12)»."
+    },
+    "opus": {
+     "verdict": "error-minor",
+     "why": "Intentio is Ciceronian. Intensio is attested from the 1st century AD: the note itself cites Seneca under intensio, and the claim adds Scribonius Largus. So intensio is post-Augustan, later than intentio, but not 'late' in the usual sense of Late Latin (3rd–6th century). The Censorinus citation (3rd century) dates only the musical sense, not the noun. Because 'late' can be read as 'later', and the note's own evidence names Seneca, the slip is slight. The rendering «напряжение» / 'tension' for both forms is unaffected.",
+     "evidence": [
+      "Lewis & Short s.v. intentio (Cic.; vocis, Plin. 28.4.14) and s.v. intensio (Sen.; musical sense Censor. 12) [from memory]",
+      "The note's own source line lists Seneca under intensio [checked]",
+      "Scribonius Largus (Compositiones, c. AD 47) and Seneca (d. AD 65) are 1st-century authors [from memory]"
+     ],
+     "correction": "EN: '...both are nouns from intendo: intentio is the classical form (Cicero), intensio post-Augustan (from the 1st c. AD: Scribonius Largus, Seneca; in the musical sense Censorinus).' RU: «…intentio — классическая форма (Цицерон), intensio — послеавгустовская, с I в. н. э. (Скрибоний Ларг, Сенека; в музыкальном значении — Цензорин).»"
+    }
+   }
+  },
+  {
+   "item": "R15",
+   "segment": "V46",
+   "version": "vinet",
+   "latin": "Idem autem et in reliquis quoque rationibus nobis licebit considerare.",
+   "printed": [
+    {
+     "ref": "49.20",
+     "text": "numero, sesquialterum censetur. Idem"
+    },
+    {
+     "ref": "50.1",
+     "text": "autem et in reliquis quoque rationibus"
+    },
+    {
+     "ref": "50.2",
+     "text": "nobis licebit considerare."
+    }
+   ],
+   "translation_of_this_segment": {
+    "ru": "То же самое можно будет рассмотреть и в остальных отношениях.",
+    "en": "And we shall be able to examine the same in the remaining ratios too.",
+    "notes": []
+   },
+   "where": "notes",
+   "quoted": "The argument is decisive only for the fifth",
+   "claim": "Even under C’s test another listed case works. The double octave ends at position 15, and no integral position k has 15:k = 4:1, since k would be 15/4. The eleventh likewise has no integral k with 11:k = 8:3.",
+   "proposed_fix": "Say that some position ratios coincide accidentally with consonant ratios, and omit the claim of uniqueness.",
+   "verdicts": {
+    "fable": {
+     "verdict": "open",
+     "why": "The segment as supplied has no notes, and the quoted sentence 'The argument is decisive only for the fifth' is not in the translation; neither it nor the 'test' the claim refers to can be examined. The translation of V46 itself is correct (idem ... in reliquis quoque rationibus nobis licebit considerare). The reviewer's arithmetic is right as far as it goes (15/4 and 33/8 are not integers), but whether that refutes the note depends on the wording of a note I have not been given.",
+     "evidence": [
+      "Text and translation of V46 [checked]",
+      "Arithmetic: 15 ÷ 4 = 3.75; 11 × 3 ÷ 8 = 4.125 [checked]"
+     ],
+     "correction": "None for the translation. If such a note exists, drop the claim that the fifth is the only decisive case unless the criterion is stated and shown to hold for every listed interval."
+    },
+    "opus": {
+     "verdict": "open",
+     "why": "The quoted sentence 'The argument is decisive only for the fifth' is not in this segment. V46 has no notes, and its translation is correct: 'Idem ... nobis licebit considerare' = 'we may consider the same' («можно будет рассмотреть»). The claim must refer to a note elsewhere, probably on V44–V45, where the fifth is position 5 and 5:k for k = 1–4 gives 5:1, 5:2, 5:3, 5:4, never 3:2 (cf. Xylander X38). The claim's arithmetic is right: 15:k = 4:1 needs k = 3.75, and 11:k = 8:3 needs k = 4.125, whereas the fourth (4:3), octave (8:4) and twelfth (12:4) do coincide with position ratios. If that note's scope includes the double octave and the eleventh as listed consonances, 'only for the fifth' is false and must be corrected; if it speaks only of fourth, fifth and octave, it is true. This cannot be decided without the note.",
+     "evidence": [
+      "Supplied V46 notes are empty; 'decisive' occurs only in the claim [checked]",
+      "Arithmetic: 15/4 = 3.75; 33/8 = 4.125; 4:3; 8:4 = 2:1; 12:4 = 3:1 [checked]",
+      "Xylander's parallel X38 (fifth compared with positions 1–4: 5:1, 5:2, 5:3, 5:4), given in the same recheck file under R06 [checked]"
+     ],
+     "correction": "None for V46. If the note exists with all six consonances in scope: 'The argument holds for the fifth, the eleventh and the double octave (no integral position gives 3:2, 8:3 or 4:1); for the fourth, octave and twelfth the position ratios 4:3, 8:4, 12:4 coincide with the true ratios by accident.'"
+    }
+   }
+  },
+  {
+   "item": "R16",
+   "segment": "V64",
+   "version": "vinet",
+   "latin": "Horum autem unumquodque rursus variatur, et in multas divisiones et differentias et genera modulationum distribuitur: et modo Lydius, modo Phrygius, modo Dorius appellatur modulus: a quorum quolibet Paeeon, Hymenaeus, Exodius, et quotquot sunt modulationum genera, existunt.",
+   "printed": [
+    {
+     "ref": "53.7",
+     "text": "Horum autem vnumquodque rursus"
+    },
+    {
+     "ref": "53.8",
+     "text": "variatur, et in multas diuisiones et diffe-"
+    },
+    {
+     "ref": "53.9",
+     "text": "rentias et genera modulationum distribui"
+    },
+    {
+     "ref": "53.10",
+     "text": "tur: et modò Lydius, modò Phrygius, mo-"
+    },
+    {
+     "ref": "53.11",
+     "text": "dò Dorius appellatur modulus: à quorum"
+    },
+    {
+     "ref": "53.12",
+     "text": "quolibet Pæéon, Hymenæus, Exodius, et"
+    },
+    {
+     "ref": "53.13",
+     "text": "quotquot sunt modulationum genera, exi"
+    },
+    {
+     "ref": "53.14",
+     "text": "stunt. Non enim sola interuallorum mu-"
+    }
+   ],
+   "translation_of_this_segment": {
+    "ru": "Каждый же из них, в свою очередь, видоизменяется и распределяется на многие подразделения, различия и роды мелодий: лад называется то лидийским, то фригийским, то дорийским; и от любого из них происходят пеан, гименей, эксодий и все, сколько их ни есть, роды мелодий.",
+    "en": "Each of these, in turn, is varied and distributed into many divisions and differences and genera of melody: the mode is called now Lydian, now Phrygian, now Dorian; and from any one of them arise the paean, the hymenaeus, the exodius, and all the genera of melody there are.",
+    "notes": [
+     {
+      "ru": "Modulus (букв. «мера, размер») здесь — «лад»; ср. modulatio «мелодия», modulatu «для исполнения» (V62). Genera modulationum — «роды мелодий» в общем смысле «виды», а не три рода тетрахорда; genus всюду передаётся «род» / “genus”, как и в версии Ксиландра (X56–X57). Paeeon (в печати Pæéon) — пеан, песнь в честь Аполлона; Hymenaeus — свадебная песнь; Exodius (мужской род, в согласии с Paeeon и Hymenaeus; словарная форма — exodium) — заключительная песнь (exodium — пьеса, исполнявшаяся в конце представления). Ксиландр пишет Paean, Hymenaeus, Exodius и cantilena вместо modulus.",
+      "en": "Modulus (literally “measure”) here means “mode”; cf. modulatio “melody”, modulatu “to perform” (V62). Genera modulationum are genera of melody in the general sense of “kinds”, not the three genera of the tetrachord; genus is rendered «род» / “genus” throughout, as in Xylander’s version (X56–X57). Paeeon (printed Pæéon) is the paean, the song to Apollo; Hymenaeus the wedding song; Exodius (masculine, in agreement with Paeeon and Hymenaeus; the dictionary word is exodium) the closing song (the exodium was a piece performed at the end of a show). Xylander has Paean, Hymenaeus, Exodius, and cantilena instead of modulus.",
+      "source": "Lewis & Short s.v. modulus, s.v. exodium [checked]; Gaffiot 2016 s.v. modulus ¶ 4 (“mesure [en t. de musique], mode, mélodie”) [checked]; Xylander X56 in latin-texts.json [checked]"
+     }
+    ]
+   },
+   "where": "notes",
+   "quoted": "masculine, in agreement with Paeeon and Hymenaeus",
+   "claim": "Three coordinated names need not agree in gender with one another. Any agreement explaining an adjectival ending would be with an expressed or understood substantive.",
+   "proposed_fix": "Describe Exodius as a masculine song name or a substantivized adjective; leave its history open.",
+   "verdicts": {
+    "fable": {
+     "verdict": "error-minor",
+     "why": "Coordinated nouns do not agree in gender with one another; agreement is of an adjective (or appositive) with its substantive. 'Masculine, in agreement with Paeeon and Hymenaeus' is thus a loose and unsupported explanation of the ending. If Exodius is adjectival, it would agree with an understood masculine (modulus just before, or the Greek noun behind it); more probably the masculine simply reproduces the form of the Greek original, as Xylander's identical Exodius suggests. The rest of the note (dictionary form exodium, sense 'closing piece') is correct, and the translation is unaffected.",
+     "evidence": [
+      "Allen & Greenough §§285–287 (agreement of adjectives with nouns), §282 (apposition) [from memory]",
+      "Lewis & Short s.v. exodium (neuter; afterpiece, conclusion) [from memory, as cited in the note]",
+      "Both Latin versions print Exodius (stated in the note itself) [checked in the item]"
+     ],
+     "correction": "EN: 'Exodius (masculine, like the two names beside it, presumably after the Greek form, perhaps with modulus understood; the dictionary word is the neuter exodium)'. RU: «мужской род, как и у соседних названий, — вероятно, по греческой форме, возможно, с подразумеваемым modulus; словарная форма — exodium»."
+    },
+    "opus": {
+     "verdict": "error-minor",
+     "why": "Coordinated nouns in a list do not agree with one another in gender; gender agreement holds between an adjective (participle, pronoun) and its noun. Exodius is masculine by its form. If it is the Greek adjective ἐξόδιος used as a song name, its gender comes from an understood masculine noun (Greek νόμος or ὕμνος, or modulus in this very sentence), not from Paeeon and Hymenaeus. The note means 'masculine, like Paeeon and Hymenaeus' but states an agreement rule that does not exist. The rest of the note (the neuter exodium as the dictionary word, exodium = afterpiece) is right, and the translation is unaffected.",
+     "evidence": [
+      "Allen & Greenough §286–287 (adjectives agree with their nouns; adjective with several nouns) [from memory]",
+      "Lewis & Short s.v. exodium (n., comic afterpiece; Liv. 7.2.11, Juv. 3.175) [from memory]",
+      "LSJ s.v. ἐξόδιος (adj. 'of or for going out'; τὸ ἐξόδιον exit-song, finale) [from memory]"
+     ],
+     "correction": "EN: 'Exodius (masculine, like Paeeon and Hymenaeus; apparently an adjective used as a song name with a masculine noun understood, cf. Greek ἐξόδιος and modulus in this sentence; the dictionary word is the neuter exodium)'. RU: «Exodius (мужской род, как Paeeon и Hymenaeus; по-видимому, прилагательное в роли названия песни при подразумеваемом существительном мужского рода, ср. греч. ἐξόδιος и modulus в этом же предложении; словарная форма — exodium среднего рода)»."
+    }
+   }
+  }
+ ]
+}
