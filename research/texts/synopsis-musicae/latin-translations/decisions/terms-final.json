@@ -1,0 +1,2702 @@
+{
+ "note": "Terms and recurring words of the two Latin versions after the terms pass (composed-g1 … g4). One rendering per Latin word and sense within a version (card G01 b); the decision cards and agreed points are applied as decided. \"segments\" lists every segment whose Latin contains the word; each was checked against the composed Russian and English (work/tf/verify.py). \"terms pass\" marks a rendering changed in this pass (details in terms-log.md). cross_version lists the places where the two translators use different Latin words for the same thing and says how the difference is kept visible.",
+ "xylander": [
+  {
+   "latin": "sonus",
+   "ru": "звук",
+   "en": "note",
+   "segments": [
+    "X08",
+    "X09",
+    "X12",
+    "X13",
+    "X14",
+    "X15",
+    "X16",
+    "X17",
+    "X29",
+    "X32",
+    "X37",
+    "X38",
+    "X39"
+   ],
+   "comment": "about.md § 4.5"
+  },
+  {
+   "latin": "sonitus",
+   "ru": "звучание",
+   "en": "sound",
+   "segments": [
+    "X29",
+    "X37"
+   ],
+   "comment": "not a note but the sound spanning an interval; agreed point, card G23; note at X29"
+  },
+  {
+   "latin": "vox",
+   "ru": "голос",
+   "en": "voice",
+   "segments": [
+    "X08"
+   ]
+  },
+  {
+   "latin": "intervallum",
+   "ru": "интервал",
+   "en": "interval",
+   "segments": [
+    "X08",
+    "X09",
+    "X10",
+    "X18",
+    "X26",
+    "X27",
+    "X28",
+    "X29",
+    "X30",
+    "X31",
+    "X37",
+    "X38",
+    "X41",
+    "X42",
+    "X43",
+    "X47",
+    "X49",
+    "X51",
+    "X53",
+    "X57"
+   ],
+   "comment": "about.md § 4.2"
+  },
+  {
+   "latin": "systema",
+   "ru": "система",
+   "en": "system",
+   "segments": [
+    "X10",
+    "X11",
+    "X42",
+    "X43",
+    "X44",
+    "X52",
+    "X53"
+   ]
+  },
+  {
+   "latin": "harmonia",
+   "ru": "гармония",
+   "en": "harmony",
+   "segments": [
+    "X04",
+    "X05",
+    "X07",
+    "X08",
+    "X11",
+    "X12",
+    "X44",
+    "X45",
+    "X46",
+    "X47",
+    "X51",
+    "X52"
+   ]
+  },
+  {
+   "latin": "harmoniae particeps",
+   "ru": "причастный гармонии",
+   "en": "partaking of harmony",
+   "segments": [
+    "X08",
+    "X12"
+   ],
+   "comment": "agreed point; Vinet has conveniens"
+  },
+  {
+   "latin": "tetrachordum, pentachordum, octachordum",
+   "ru": "тетрахорд, пентахорд, октахорд",
+   "en": "tetrachord, pentachord, octachord",
+   "segments": [
+    "X15",
+    "X30",
+    "X42",
+    "X53"
+   ]
+  },
+  {
+   "latin": "heccaedecachordum; Pentecaedecachordum",
+   "ru": "геккайдекахорд; пентекайдекахорд",
+   "en": "hekkaidekachord; pentekaidekachord",
+   "segments": [
+    "X15"
+   ],
+   "comment": "transliterated because Xylander glosses the first and labels the second as Greek (cards G10, G13); note at X15"
+  },
+  {
+   "latin": "chorda, fides, nervus",
+   "ru": "струна",
+   "en": "string",
+   "segments": [
+    "X15",
+    "X20",
+    "X29",
+    "X30",
+    "X37",
+    "X41",
+    "X42"
+   ],
+   "comment": "three Latin words, one rendering; note at X15 (cross-reference at X37)"
+  },
+  {
+   "latin": "instrumentum, organum",
+   "ru": "инструмент",
+   "en": "instrument",
+   "segments": [
+    "X15"
+   ],
+   "comment": "note at X15"
+  },
+  {
+   "latin": "proslambanomenos … nete hyperbolaeon",
+   "ru": "просламбаномен … нета высших; mese monos «меса монос»; paramesos «парамес»",
+   "en": "proslambanomenos … nete hyperbolaion; mese monos; paramesos",
+   "segments": [
+    "X14"
+   ],
+   "comment": "about.md § 4.4; card G12; notes at X14"
+  },
+  {
+   "latin": "diesis",
+   "ru": "диеса",
+   "en": "diesis",
+   "segments": [
+    "X18",
+    "X20",
+    "X25",
+    "X27",
+    "X33",
+    "X34",
+    "X45",
+    "X46",
+    "X51"
+   ],
+   "comment": "a quarter-tone here (note at X18)"
+  },
+  {
+   "latin": "semitonium",
+   "ru": "полутон",
+   "en": "semitone",
+   "segments": [
+    "X18",
+    "X20",
+    "X25",
+    "X27",
+    "X33",
+    "X34",
+    "X45",
+    "X46",
+    "X47",
+    "X48",
+    "X49",
+    "X50"
+   ]
+  },
+  {
+   "latin": "tonus",
+   "ru": "тон",
+   "en": "tone",
+   "segments": [
+    "X18",
+    "X25",
+    "X27",
+    "X33",
+    "X34",
+    "X45",
+    "X46",
+    "X47",
+    "X48"
+   ]
+  },
+  {
+   "latin": "tridiesis, trisemitonium, ditonus, tritonus",
+   "ru": "тридиеса, трёхполутон, дитон, тритон",
+   "en": "tridiesis, trihemitone, ditone, tritone",
+   "segments": [
+    "X26",
+    "X49",
+    "X50",
+    "X51"
+   ]
+  },
+  {
+   "latin": "diatessaron, diapente, diapason",
+   "ru": "кварта, квинта, октава",
+   "en": "the fourth, the fifth, the octave",
+   "segments": [
+    "X28",
+    "X29",
+    "X30",
+    "X31",
+    "X34",
+    "X35",
+    "X38",
+    "X42",
+    "X47",
+    "X48",
+    "X50",
+    "X51"
+   ],
+   "comment": "where Xylander glosses the Greek names by the vernacular Latin ones (X28, X30, X35) the Greek names are literal, «через четыре», «через пять», «через все» / ‘through four’ etc. (card G20); where he explains the names (X29) and at X30 the established term is followed by the literal sense in square brackets (card G21); note at X28"
+  },
+  {
+   "latin": "quarta, quinta, octava (vernacular Latin names)",
+   "ru": "кварта, квинта, октава; duae octavae «две октавы»",
+   "en": "the fourth, the fifth, the octave; duae octavae ‘two octaves’",
+   "segments": [
+    "X28",
+    "X30",
+    "X35",
+    "X42"
+   ],
+   "comment": "X42 omnem octavae materiem: Xylander writes octavae there (note)"
+  },
+  {
+   "latin": "diapason cum diatessaron / cum diapente",
+   "ru": "октава с квартой / с квинтой",
+   "en": "the octave and a fourth / and a fifth",
+   "segments": [
+    "X30",
+    "X31",
+    "X34",
+    "X35"
+   ],
+   "comment": "X30 double names: Greek literal (card G20)"
+  },
+  {
+   "latin": "disdiapason",
+   "ru": "двойная октава",
+   "en": "the double octave",
+   "segments": [
+    "X30",
+    "X31",
+    "X34",
+    "X42"
+   ],
+   "comment": "X30 «дважды через все» / ‘twice through all’ in the double-name passage (card G20)"
+  },
+  {
+   "latin": "decimaquinta",
+   "ru": "квинтдецима",
+   "en": "the fifteenth",
+   "segments": [
+    "X42"
+   ],
+   "comment": "agreed point"
+  },
+  {
+   "latin": "compositus / incompositus",
+   "ru": "составной / несоставной; composita (X42) «составленные»",
+   "en": "composite / incomposite; composita (X42) ‘composed’",
+   "segments": [
+    "X26",
+    "X27",
+    "X29",
+    "X42",
+    "X49"
+   ],
+   "comment": "about.md § 4.2; X26 printed compositae kept (card G17)"
+  },
+  {
+   "latin": "immediatus",
+   "ru": "непосредственный",
+   "en": "immediate",
+   "segments": [
+    "X29"
+   ],
+   "comment": "card G22; note at X29"
+  },
+  {
+   "latin": "consonantia",
+   "ru": "консонанс",
+   "en": "consonance",
+   "segments": [
+    "X05",
+    "X13",
+    "X31",
+    "X33",
+    "X45"
+   ],
+   "comment": "also in the cosmic sense (X05; agreed point)"
+  },
+  {
+   "latin": "consonare",
+   "ru": "консонировать",
+   "en": "to be consonant",
+   "segments": [
+    "X31",
+    "X32"
+   ]
+  },
+  {
+   "latin": "consonus / dissonus",
+   "ru": "консонирующий / диссонирующий",
+   "en": "consonant / dissonant",
+   "segments": [
+    "X13"
+   ],
+   "comment": "card G09"
+  },
+  {
+   "latin": "paraphonum / antiphonum",
+   "ru": "парафонный / антифонный",
+   "en": "paraphonic / antiphonic",
+   "segments": [
+    "X31",
+    "X32"
+   ],
+   "comment": "card G24"
+  },
+  {
+   "latin": "iuxta sonans / contra sonans; assonans / obsonans",
+   "ru": "«звучащее рядом» / «звучащее напротив» (both pairs)",
+   "en": "‘sounding alongside’ / ‘sounding opposite’ (both pairs)",
+   "segments": [
+    "X31",
+    "X32"
+   ],
+   "comment": "card G25; assonans / obsonans in the note at X32"
+  },
+  {
+   "latin": "intensio (single pitch)",
+   "ru": "высота",
+   "en": "pitch",
+   "segments": [
+    "X08"
+   ],
+   "comment": "card G06; note at X08"
+  },
+  {
+   "latin": "intensio (motion from low to high)",
+   "ru": "повышение",
+   "en": "rise in pitch",
+   "segments": [
+    "X37",
+    "X39"
+   ],
+   "comment": "X37, X39; card G06, G29"
+  },
+  {
+   "latin": "intensiones remissionesve (of pitch)",
+   "ru": "повышения или понижения",
+   "en": "raisings or lowerings",
+   "segments": [
+    "X32"
+   ],
+   "comment": "about.md § 4.5; agreed point"
+  },
+  {
+   "latin": "intensio et remissio spiritus",
+   "ru": "усиление и ослабление дыхания",
+   "en": "strengthening and slackening of the breath",
+   "segments": [
+    "X41"
+   ],
+   "comment": "card G30; note at X41"
+  },
+  {
+   "latin": "tenor",
+   "ru": "выдерживаемый тон",
+   "en": "sustained tone",
+   "segments": [
+    "X08"
+   ],
+   "comment": "card G07"
+  },
+  {
+   "latin": "tensio",
+   "ru": "натяжение",
+   "en": "tension",
+   "segments": [
+    "X41"
+   ],
+   "comment": "of a string; note at X41 (anticipated at X37)"
+  },
+  {
+   "latin": "acutus / gravis",
+   "ru": "высокий / низкий",
+   "en": "high / low",
+   "segments": [
+    "X14",
+    "X18",
+    "X32",
+    "X37"
+   ],
+   "comment": "about.md § 4.5; X18: ad acutum accessio: «подъём к высокому [звуку]» / ‘rise in pitch’ (agreed point)"
+  },
+  {
+   "latin": "acuitas",
+   "ru": "высота (in «повышение высоты [звука]»)",
+   "en": "absorbed in ‘rise in pitch’",
+   "segments": [
+    "X39"
+   ],
+   "comment": "card G29; note at X39"
+  },
+  {
+   "latin": "accessio ad acutum",
+   "ru": "подъём к высокому [звуку]",
+   "en": "rise in pitch",
+   "segments": [
+    "X18"
+   ],
+   "comment": "agreed point; note at X18"
+  },
+  {
+   "latin": "ratio (the term)",
+   "ru": "отношение",
+   "en": "ratio",
+   "segments": [
+    "X09",
+    "X16",
+    "X18",
+    "X20",
+    "X32"
+   ],
+   "comment": "non-terminological uses by context: X19 ratione numeri «с точки зрения числа» / ‘by the reckoning of number’; X29 ratione sonitus «по звучанию» / ‘with reference to’; X38 ea ratione «при таком расчёте» / ‘on that reckoning’; X52 «иным образом» / ‘in any other way’ (agreed point; notes at X19, X29); X52: alia ratione «иным образом» / ‘in any other way’ (not the term)"
+  },
+  {
+   "latin": "respectus",
+   "ru": "соотнесённость",
+   "en": "relation",
+   "segments": [
+    "X09"
+   ],
+   "comment": "gloss on ratio (card G08); respectu X18 «по сравнению с» / ‘in comparison with’, in respectu X38 construed (agreed point, place card X05-qua-habet)"
+  },
+  {
+   "latin": "proportio",
+   "ru": "пропорция",
+   "en": "proportion",
+   "segments": [
+    "X02",
+    "X03",
+    "X25",
+    "X35",
+    "X37",
+    "X38",
+    "X41"
+   ],
+   "comment": "also the numerical ratio of an interval (X25 ff.); agreed point; notes at X02 and X25"
+  },
+  {
+   "latin": "proportionalitas; proportionaliter",
+   "ru": "пропорциональность; пропорционально",
+   "en": "proportionality; proportionally",
+   "segments": [
+    "X04",
+    "X32"
+   ],
+   "comment": "agreed point; note at X04 (cross-reference at X32)"
+  },
+  {
+   "latin": "commensuratio",
+   "ru": "соразмерность",
+   "en": "commensuration",
+   "segments": [
+    "X02",
+    "X03",
+    "X04"
+   ],
+   "comment": "agreed point; Vinet has symmetria ‘commensurability’; note at X02"
+  },
+  {
+   "latin": "ratio names",
+   "ru": "сверхтретное [4:3], полуторное [3:2], сверхосминное [9:8], сверхчетвертное [5:4], двукратное [2:1], трёхкратное [3:1], четырёхкратное [4:1], пятикратное [5:1], двукратное сверхчастное [8:3]; [двукратное] сверхдвучастное третей [8:3] (X36); двукратное полуторное [5:2] (X38); полусверхосминное without bracket (X20)",
+   "en": "sesquitertian [4:3], sesquialter [3:2], sesquioctave [9:8], sesquiquartan [5:4], duple [2:1], triple [3:1], quadruple [4:1], quintuple [5:1], duple superpartient [8:3]; [duple] superbipartient thirds [8:3]; duple sesquialter [5:2]; semisesquioctave",
+   "segments": [
+    "X18",
+    "X20",
+    "X25",
+    "X35",
+    "X36",
+    "X38",
+    "X39"
+   ],
+   "comment": "about.md § 4.3, card G28, agreed point; ordinary dupla, duplum, duplici (X18, X23, X24) without bracket (notes); X38 5:3 described, not named"
+  },
+  {
+   "latin": "terminus",
+   "ru": "член",
+   "en": "term",
+   "segments": [
+    "X36"
+   ]
+  },
+  {
+   "latin": "unitas",
+   "ru": "единица",
+   "en": "unit",
+   "segments": [
+    "X19"
+   ],
+   "comment": "Vinet has monas"
+  },
+  {
+   "latin": "quadratum; radix quadrata; latus; diametrus",
+   "ru": "квадрат; квадратный корень; сторона; диагональ",
+   "en": "square; square root; side; diagonal",
+   "segments": [
+    "X23",
+    "X24",
+    "X38"
+   ],
+   "comment": "agreed point; note at X24; X18: quadrans «четверть» / ‘quarter’; X36: quadruplus is a ratio name; X38: quadrat ‘squares (with)’ — «сходится»"
+  },
+  {
+   "latin": "recta",
+   "ru": "прямая",
+   "en": "straight line",
+   "segments": [
+    "X21"
+   ],
+   "comment": "card G16; Vinet has linea"
+  },
+  {
+   "latin": "figura; punctum",
+   "ru": "фигура; точка",
+   "en": "figure; point",
+   "segments": [
+    "X12",
+    "X21"
+   ]
+  },
+  {
+   "latin": "geometria, arithmetica; geometrice, arithmetice; geometer",
+   "ru": "геометрия, арифметика; геометрически, арифметически; геометр",
+   "en": "geometry, arithmetic; geometrically, arithmetically; the geometer",
+   "segments": [
+    "X12",
+    "X19",
+    "X21",
+    "X22",
+    "X23"
+   ],
+   "comment": "X23: subject [арифметика] / [arithmetic] supplied in the first sentence; Arithmetice and Geometriae rendered"
+  },
+  {
+   "latin": "materia, materies",
+   "ru": "материя",
+   "en": "matter",
+   "segments": [
+    "X19",
+    "X42",
+    "X43"
+   ],
+   "comment": "card G15, agreed point; notes at X19, X42, X43"
+  },
+  {
+   "latin": "vis / potestas / materies / ambitus",
+   "ru": "сила / мощь / материя / объём",
+   "en": "force / power / matter / compass",
+   "segments": [
+    "X42"
+   ],
+   "comment": "card G15; note at X42"
+  },
+  {
+   "latin": "potentia sive facultas",
+   "ru": "в возможности, или по способности",
+   "en": "in potency, or capacity",
+   "segments": [
+    "X27"
+   ],
+   "comment": "agreed point; note at X27"
+  },
+  {
+   "latin": "species",
+   "ru": "вид",
+   "en": "species",
+   "segments": [
+    "X15",
+    "X26",
+    "X56"
+   ],
+   "comment": "card G14"
+  },
+  {
+   "latin": "genus (non-technical)",
+   "ru": "род",
+   "en": "kind",
+   "segments": [
+    "X18",
+    "X31",
+    "X52",
+    "X56",
+    "X57"
+   ],
+   "comment": "card G14; note at X18"
+  },
+  {
+   "latin": "genus (of melody, of the fourth)",
+   "ru": "род",
+   "en": "genus",
+   "segments": [
+    "X44",
+    "X45",
+    "X48",
+    "X50",
+    "X51",
+    "X54"
+   ],
+   "comment": "about.md § 4.5"
+  },
+  {
+   "latin": "diatonon / diatonicum, chromaticum, harmonicum",
+   "ru": "диатонический, хроматический, гармонический",
+   "en": "diatonic, chromatic, harmonic",
+   "segments": [
+    "X44",
+    "X45",
+    "X48",
+    "X50",
+    "X51",
+    "X54",
+    "X55"
+   ],
+   "comment": "harmonic = the enharmonic genus (note at X44)"
+  },
+  {
+   "latin": "coloratum",
+   "ru": "«окрашенный»",
+   "en": "‘coloured’",
+   "segments": [
+    "X45"
+   ],
+   "comment": "agreed point; note at X45"
+  },
+  {
+   "latin": "melodia",
+   "ru": "мелодия",
+   "en": "melody",
+   "segments": [
+    "X44",
+    "X45",
+    "X51",
+    "X54",
+    "X56"
+   ],
+   "comment": "agreed point"
+  },
+  {
+   "latin": "cantilena",
+   "ru": "напев",
+   "en": "tune",
+   "segments": [
+    "X27",
+    "X44",
+    "X56",
+    "X57"
+   ],
+   "comment": "agreed point; note at X27"
+  },
+  {
+   "latin": "cantus",
+   "ru": "пение",
+   "en": "song",
+   "segments": [
+    "X44",
+    "X45",
+    "X54",
+    "X56"
+   ],
+   "comment": "card G34"
+  },
+  {
+   "latin": "modulatio",
+   "ru": "мелодическое движение",
+   "en": "melodic movement",
+   "segments": [
+    "X44"
+   ],
+   "comment": "card G33; note at X44 (Vinet’s modulatio is «мелодия»)"
+  },
+  {
+   "latin": "Lydia, Phrygia, Dorica",
+   "ru": "лидийский, фригийский, дорийский",
+   "en": "Lydian, Phrygian, Dorian",
+   "segments": [
+    "X56"
+   ],
+   "comment": "agreed point"
+  },
+  {
+   "latin": "Paean, Hymenaeus, Exodius",
+   "ru": "пеан, гименей, песнь при выходе",
+   "en": "the paean, the hymenaeus, the exit song",
+   "segments": [
+    "X56"
+   ],
+   "comment": "card G36 (one decision for X56 and V64); note at X56"
+  },
+  {
+   "latin": "rhythmus",
+   "ru": "ритм",
+   "en": "rhythm",
+   "segments": [
+    "X26"
+   ],
+   "comment": "agreed point; note at X26"
+  },
+  {
+   "latin": "transitus",
+   "ru": "переход",
+   "en": "transition",
+   "segments": [
+    "X57"
+   ],
+   "comment": "agreed point; Vinet has transitio"
+  },
+  {
+   "latin": "mansio",
+   "ru": "задержка",
+   "en": "lingering",
+   "segments": [
+    "X57"
+   ],
+   "comment": "card G38; Vinet has pausa"
+  },
+  {
+   "latin": "fluxus",
+   "ru": "плавное движение",
+   "en": "flowing movement",
+   "segments": [
+    "X57"
+   ],
+   "comment": "card G39"
+  },
+  {
+   "latin": "tactus",
+   "ru": "касание",
+   "en": "touch",
+   "segments": [
+    "X57"
+   ],
+   "comment": "agreed point; note at X57"
+  },
+  {
+   "latin": "pulsatio",
+   "ru": "удар",
+   "en": "stroke",
+   "segments": [
+    "X57"
+   ],
+   "comment": "agreed point; Vinet has pulsus"
+  },
+  {
+   "latin": "administratio",
+   "ru": "управление",
+   "en": "handling",
+   "segments": [
+    "X57"
+   ],
+   "comment": "card G37"
+  },
+  {
+   "latin": "discrimen",
+   "ru": "различение",
+   "en": "distinction",
+   "segments": [
+    "X57"
+   ],
+   "comment": "kept apart from differentia «различие» / ‘difference’ (X41, X56; Vinet V65)"
+  },
+  {
+   "latin": "differentia",
+   "ru": "различие",
+   "en": "difference",
+   "segments": [
+    "X41",
+    "X56"
+   ]
+  },
+  {
+   "latin": "divisio",
+   "ru": "деление",
+   "en": "division",
+   "segments": [
+    "X12",
+    "X56"
+   ],
+   "comment": "as in Vinet V64"
+  },
+  {
+   "latin": "affectus",
+   "ru": "чувства",
+   "en": "the passions",
+   "segments": [
+    "X50"
+   ],
+   "comment": "card G35"
+  },
+  {
+   "latin": "usus",
+   "ru": "упражнение (usus ad consuetudinem); употребление (in usum)",
+   "en": "practice; use",
+   "segments": [
+    "X54"
+   ],
+   "comment": "agreed point"
+  },
+  {
+   "latin": "concinnare; concinne",
+   "ru": "слаживать; слаженно",
+   "en": "to frame; harmoniously",
+   "segments": [
+    "X05",
+    "X12",
+    "X32",
+    "X44",
+    "X56"
+   ],
+   "comment": "card G03; note at X05"
+  },
+  {
+   "latin": "coaptare; coaptatio",
+   "ru": "прилаживать; прилаживание",
+   "en": "to fit together; fitting together",
+   "segments": [
+    "X05",
+    "X45",
+    "X47"
+   ],
+   "comment": "card G03; note at X05"
+  },
+  {
+   "latin": "aptare",
+   "ru": "приспосабливать",
+   "en": "to adapt",
+   "segments": [
+    "X56"
+   ],
+   "comment": "card G03; Vinet V52 aptare the same"
+  },
+  {
+   "latin": "temperare",
+   "ru": "соразмерять",
+   "en": "to proportion",
+   "segments": [
+    "X07"
+   ],
+   "comment": "card G05; note at X07"
+  },
+  {
+   "latin": "constitutio",
+   "ru": "устроение",
+   "en": "constitution",
+   "segments": [
+    "X48"
+   ],
+   "comment": "card G32; note at X43"
+  },
+  {
+   "latin": "constructio; construere",
+   "ru": "построение; строить",
+   "en": "construction; to construct",
+   "segments": [
+    "X11",
+    "X42",
+    "X44"
+   ],
+   "comment": "agreed point"
+  },
+  {
+   "latin": "complexus",
+   "ru": "сочетание",
+   "en": "combination",
+   "segments": [
+    "X10"
+   ],
+   "comment": "agreed point; Vinet has complexio, the same rendering (note at X10)"
+  },
+  {
+   "latin": "componere",
+   "ru": "составлять",
+   "en": "to compose",
+   "segments": [
+    "X42",
+    "X46"
+   ],
+   "comment": "terms pass: X46 «слагается» → «составляется»"
+  },
+  {
+   "latin": "conficere",
+   "ru": "складываться",
+   "en": "to make (up)",
+   "segments": [
+    "X34",
+    "X42",
+    "X45",
+    "X52"
+   ],
+   "comment": "terms pass: was «составляется» / «создаётся», ‘produced’; now kept apart from componere and conflare"
+  },
+  {
+   "latin": "conflare",
+   "ru": "слагаться",
+   "en": "to form",
+   "segments": [
+    "X27",
+    "X34",
+    "X45",
+    "X49"
+   ],
+   "comment": "terms pass: English ‘composed’ in X34, X45 → ‘formed’"
+  },
+  {
+   "latin": "constituere",
+   "ru": "образовывать",
+   "en": "to constitute",
+   "segments": [
+    "X18",
+    "X26",
+    "X35",
+    "X42"
+   ],
+   "comment": "X36 constituatur «положим» / ‘let be set down’ (another sense); terms pass: X42 ‘made up’ → ‘constituted’"
+  },
+  {
+   "latin": "constare",
+   "ru": "состоять",
+   "en": "to consist",
+   "segments": [
+    "X18",
+    "X24",
+    "X34",
+    "X47"
+   ],
+   "comment": "X24: impersonal constat «как известно» / ‘as is agreed’"
+  },
+  {
+   "latin": "absolvere",
+   "ru": "осуществляться",
+   "en": "to be completed",
+   "segments": [
+    "X15",
+    "X45"
+   ],
+   "comment": "terms pass: X45 «складывается из диес» / ‘made up of dieses’ → «осуществляется диесами» / ‘completed by dieses’"
+  },
+  {
+   "latin": "complecti",
+   "ru": "объемлет",
+   "en": "to embrace",
+   "segments": [
+    "X42"
+   ],
+   "comment": "terms pass: X42 complectens «охватывает» → «объемлет»; ambiens «обнимающий» / ‘encompassing’"
+  },
+  {
+   "latin": "comprehendere",
+   "ru": "охватывать",
+   "en": "to comprise",
+   "segments": [
+    "X42",
+    "X47"
+   ]
+  },
+  {
+   "latin": "continere",
+   "ru": "содержать",
+   "en": "to contain",
+   "segments": [
+    "X27",
+    "X38",
+    "X42"
+   ],
+   "comment": "X02 contineri «держится» / ‘held together’ (agreed point); X42 continentibus «идущих подряд» / ‘successive’"
+  },
+  {
+   "latin": "coalescere; coalitus",
+   "ru": "сливаться; слияние",
+   "en": "to coalesce; coalescence",
+   "segments": [
+    "X27",
+    "X49",
+    "X51"
+   ],
+   "comment": "card G19; notes at X27 and X49"
+  },
+  {
+   "latin": "confundere",
+   "ru": "слиться",
+   "en": "to be fused",
+   "segments": [
+    "X50"
+   ],
+   "comment": "card G19; note at X50"
+  },
+  {
+   "latin": "auctio",
+   "ru": "приращение",
+   "en": "increase",
+   "segments": [
+    "X26"
+   ],
+   "comment": "card G18; Vinet has adauctus, the same rendering (note at X26)"
+  },
+  {
+   "latin": "nomenclatio",
+   "ru": "наименование",
+   "en": "names",
+   "segments": [
+    "X14"
+   ],
+   "comment": "card G11; note at X14"
+  },
+  {
+   "latin": "appellatio",
+   "ru": "название",
+   "en": "name",
+   "segments": [
+    "X29",
+    "X34"
+   ],
+   "comment": "card G11"
+  },
+  {
+   "latin": "nomen",
+   "ru": "имя",
+   "en": "name",
+   "segments": [
+    "X30",
+    "X44",
+    "X51"
+   ],
+   "comment": "terms pass: X30 «названия» → «имена», as X44, X51"
+  },
+  {
+   "latin": "reliquus",
+   "ru": "остальной",
+   "en": "remaining",
+   "segments": [
+    "X26",
+    "X40",
+    "X47",
+    "X52",
+    "X53"
+   ],
+   "comment": "terms pass: X26, X52, X53 «прочие» → «остальные» (Vinet’s caeterus is «прочий»)"
+  },
+  {
+   "latin": "praeter",
+   "ru": "помимо",
+   "en": "besides",
+   "segments": [
+    "X28",
+    "X48"
+   ],
+   "comment": "terms pass: X28 «кроме» → «помимо»"
+  },
+  {
+   "latin": "efferre; edere",
+   "ru": "издавать",
+   "en": "to utter",
+   "segments": [
+    "X12",
+    "X13",
+    "X27"
+   ],
+   "comment": "as Vinet (terms pass)"
+  },
+  {
+   "latin": "considerare",
+   "ru": "рассматривать",
+   "en": "to consider",
+   "segments": [
+    "X07",
+    "X33"
+   ]
+  },
+  {
+   "latin": "conspicere",
+   "ru": "усматривать",
+   "en": "to see",
+   "segments": [
+    "X07",
+    "X19"
+   ]
+  },
+  {
+   "latin": "universum, universus",
+   "ru": "вселенная",
+   "en": "the universe",
+   "segments": [
+    "X02",
+    "X04",
+    "X05"
+   ],
+   "comment": "agreed point; Vinet has universitas (note at V03)"
+  },
+  {
+   "latin": "natura",
+   "ru": "природа",
+   "en": "nature",
+   "segments": [
+    "X02",
+    "X03",
+    "X05",
+    "X07",
+    "X55"
+   ]
+  },
+  {
+   "latin": "sensus",
+   "ru": "чувство",
+   "en": "sense",
+   "segments": [
+    "X03",
+    "X07"
+   ],
+   "comment": "agreed point"
+  },
+  {
+   "latin": "intellectus",
+   "ru": "ум",
+   "en": "the intellect",
+   "segments": [
+    "X03",
+    "X07"
+   ],
+   "comment": "agreed point (Vinet: mens ‘mind’)"
+  },
+  {
+   "latin": "beatitas",
+   "ru": "блаженство",
+   "en": "blessedness",
+   "segments": [
+    "X07"
+   ],
+   "comment": "note at X07"
+  },
+  {
+   "latin": "congruentia",
+   "ru": "согласованность",
+   "en": "congruence",
+   "segments": [
+    "X07"
+   ],
+   "comment": "card G04"
+  },
+  {
+   "latin": "strepitus",
+   "ru": "шум",
+   "en": "noise",
+   "segments": [
+    "X13"
+   ],
+   "comment": "agreed point; Vinet has crepitus"
+  },
+  {
+   "latin": "initium seu principium",
+   "ru": "начало, или первооснова",
+   "en": "the beginning, or principle",
+   "segments": [
+    "X33"
+   ],
+   "comment": "card G27"
+  },
+  {
+   "latin": "spiritus",
+   "ru": "дыхание",
+   "en": "breath",
+   "segments": [
+    "X41"
+   ],
+   "comment": "agreed point"
+  },
+  {
+   "latin": "conversio clavorum; ponderum tractio",
+   "ru": "поворот колков; тяга грузов",
+   "en": "the turning of the pegs; the pull of weights",
+   "segments": [
+    "X41"
+   ],
+   "comment": "agreed point"
+  },
+  {
+   "latin": "longitudo, crassities",
+   "ru": "длина, толщина",
+   "en": "length, thickness",
+   "segments": [
+    "X41"
+   ],
+   "comment": "agreed point"
+  },
+  {
+   "latin": "cavitatis amplitudo",
+   "ru": "величина полости",
+   "en": "the size of the cavity",
+   "segments": [
+    "X41"
+   ],
+   "comment": "card G31"
+  },
+  {
+   "latin": "tempus: inaequali tempore / simul eodem tempore",
+   "ru": "в разное время / вместе, в одно и то же время",
+   "en": "at different times / together, at the same time",
+   "segments": [
+    "X32"
+   ],
+   "comment": "card G26; Vinet has impari / aequo temporis spatio"
+  },
+  {
+   "latin": "aequalitate quadam / aequaliter",
+   "ru": "с некоторой равномерностью / одинаково",
+   "en": "with a certain evenness / equally",
+   "segments": [
+    "X32"
+   ],
+   "comment": "agreed point"
+  },
+  {
+   "latin": "quasi",
+   "ru": "как бы",
+   "en": "as it were",
+   "segments": [
+    "X18",
+    "X31",
+    "X45"
+   ]
+  },
+  {
+   "latin": "Musica",
+   "ru": "музыка; «Музыка» (name of the section, X58)",
+   "en": "music; the Music (X58)",
+   "segments": [
+    "X01",
+    "X02",
+    "X04",
+    "X06",
+    "X07",
+    "X58"
+   ]
+  }
+ ],
+ "vinet": [
+  {
+   "latin": "sonus",
+   "ru": "звук",
+   "en": "note",
+   "segments": [
+    "V10",
+    "V11",
+    "V12",
+    "V15",
+    "V16",
+    "V17",
+    "V19",
+    "V20",
+    "V34",
+    "V37",
+    "V43",
+    "V44",
+    "V45"
+   ],
+   "comment": "note at V10"
+  },
+  {
+   "latin": "vox",
+   "ru": "голос",
+   "en": "voice",
+   "segments": [
+    "V11",
+    "V34",
+    "V43"
+   ],
+   "comment": "agreed point, card G42; note at V34"
+  },
+  {
+   "latin": "intervallum",
+   "ru": "интервал",
+   "en": "interval",
+   "segments": [
+    "V11",
+    "V12",
+    "V13",
+    "V15",
+    "V21",
+    "V22",
+    "V31",
+    "V32",
+    "V33",
+    "V34",
+    "V35",
+    "V36",
+    "V40",
+    "V43",
+    "V44",
+    "V47",
+    "V49",
+    "V50",
+    "V55",
+    "V57",
+    "V59",
+    "V61",
+    "V65"
+   ]
+  },
+  {
+   "latin": "systema",
+   "ru": "система",
+   "en": "system",
+   "segments": [
+    "V13",
+    "V14",
+    "V48",
+    "V49",
+    "V50",
+    "V52",
+    "V60",
+    "V61"
+   ]
+  },
+  {
+   "latin": "harmonia",
+   "ru": "гармония",
+   "en": "harmony",
+   "segments": [
+    "V05",
+    "V14",
+    "V51",
+    "V52",
+    "V53",
+    "V54",
+    "V59",
+    "V60"
+   ]
+  },
+  {
+   "latin": "Tetrachordum, Pentachordum, Octachordum",
+   "ru": "тетрахорд, пентахорд, октахорд",
+   "en": "tetrachord, pentachord, octachord",
+   "segments": [
+    "V18",
+    "V35",
+    "V49",
+    "V61"
+   ]
+  },
+  {
+   "latin": "Pentekaedecachordum; Heckaedecachordum",
+   "ru": "пятнадцатиструнная / шестнадцатиструнная [система]",
+   "en": "the fifteen-stringed / sixteen-stringed [system]",
+   "segments": [
+    "V18",
+    "V49"
+   ],
+   "comment": "agreed point (card G10: description where the word is used as an ordinary compound); note at V18"
+  },
+  {
+   "latin": "chorda, nervus",
+   "ru": "струна",
+   "en": "string",
+   "segments": [
+    "V24",
+    "V34",
+    "V43",
+    "V47"
+   ],
+   "comment": "note at V47"
+  },
+  {
+   "latin": "Proslambanomenos … Nete hyperbolaeon",
+   "ru": "просламбаномен … нета высших; Mese solum «просто меса»; Paramese «парамеса»",
+   "en": "proslambanomenos … nete hyperbolaion; simply mese; paramese",
+   "segments": [
+    "V17"
+   ],
+   "comment": "about.md § 4.4; agreed point; notes at V17"
+  },
+  {
+   "latin": "diesis",
+   "ru": "диеса",
+   "en": "diesis",
+   "segments": [
+    "V22",
+    "V24",
+    "V30",
+    "V32",
+    "V38",
+    "V39",
+    "V53",
+    "V54",
+    "V59"
+   ]
+  },
+  {
+   "latin": "hemitonium",
+   "ru": "полутон",
+   "en": "semitone",
+   "segments": [
+    "V22",
+    "V24",
+    "V30",
+    "V32",
+    "V38",
+    "V39",
+    "V53",
+    "V54",
+    "V55",
+    "V56",
+    "V57",
+    "V58"
+   ],
+   "comment": "Greek form (Xylander: semitonium); note at V22"
+  },
+  {
+   "latin": "tonus",
+   "ru": "тон",
+   "en": "tone",
+   "segments": [
+    "V22",
+    "V30",
+    "V32",
+    "V38",
+    "V39",
+    "V53",
+    "V54",
+    "V55",
+    "V56"
+   ]
+  },
+  {
+   "latin": "Tridiesis, Trihemitonium, Ditonium, Tritonium",
+   "ru": "тридиеса, трёхполутон, дитон, тритон",
+   "en": "tridiesis, trihemitone, ditone, tritone",
+   "segments": [
+    "V31",
+    "V57",
+    "V58",
+    "V59"
+   ],
+   "comment": "Vinet’s forms (note at V31)"
+  },
+  {
+   "latin": "Dia-tessaron, Dia-pente, Dia-pason",
+   "ru": "кварта, квинта, октава",
+   "en": "the fourth, the fifth, the octave",
+   "segments": [
+    "V33",
+    "V34",
+    "V35",
+    "V36",
+    "V39",
+    "V40",
+    "V41",
+    "V44",
+    "V49",
+    "V55",
+    "V56",
+    "V58",
+    "V59",
+    "V61"
+   ],
+   "comment": "V34: the established term with the literal sense in square brackets (card G21); V35 per octo «через восемь» / ‘through eight’; notes at V33–V35"
+  },
+  {
+   "latin": "Dia-pason cum Dia-tessaron / cum Dia-pente",
+   "ru": "октава с квартой / с квинтой",
+   "en": "the octave and a fourth / and a fifth",
+   "segments": [
+    "V35",
+    "V36",
+    "V39",
+    "V40",
+    "V49"
+   ],
+   "comment": "V49 without cum (note)"
+  },
+  {
+   "latin": "bis Dia-pason",
+   "ru": "двойная октава",
+   "en": "the double octave",
+   "segments": [
+    "V35",
+    "V36",
+    "V39",
+    "V41",
+    "V49"
+   ],
+   "comment": "note at V35"
+  },
+  {
+   "latin": "non-compositum",
+   "ru": "несоставной",
+   "en": "incomposite",
+   "segments": [
+    "V34"
+   ],
+   "comment": "card G47; note at V31"
+  },
+  {
+   "latin": "simplex, simplicia",
+   "ru": "простой",
+   "en": "simple",
+   "segments": [
+    "V31",
+    "V32",
+    "V57"
+   ],
+   "comment": "card G47; notes at V31 and V57"
+  },
+  {
+   "latin": "non sine medio",
+   "ru": "не лишены промежуточного [звука]",
+   "en": "not without an intermediate [note]",
+   "segments": [
+    "V34"
+   ],
+   "comment": "card G22"
+  },
+  {
+   "latin": "consonantia; consonare",
+   "ru": "консонанс; консонировать",
+   "en": "consonance; to be consonant",
+   "segments": [
+    "V36",
+    "V37",
+    "V38"
+   ]
+  },
+  {
+   "latin": "Paraphonum / antiphonum",
+   "ru": "парафонный [тип] / антифонный [тип]",
+   "en": "the paraphonic [kind] / the antiphonic [kind]",
+   "segments": [
+    "V36",
+    "V37"
+   ],
+   "comment": "card G24; note at V36"
+  },
+  {
+   "latin": "convenientia",
+   "ru": "согласие",
+   "en": "accord",
+   "segments": [
+    "V05",
+    "V06",
+    "V08",
+    "V16"
+   ],
+   "comment": "card G40; note at V05"
+  },
+  {
+   "latin": "conveniens",
+   "ru": "способный к согласию",
+   "en": "capable of accord",
+   "segments": [
+    "V11",
+    "V15",
+    "V16"
+   ],
+   "comment": "card G40; note at V11"
+  },
+  {
+   "latin": "convenire",
+   "ru": "согласоваться",
+   "en": "to accord",
+   "segments": [
+    "V15",
+    "V37"
+   ],
+   "comment": "card G40"
+  },
+  {
+   "latin": "concentus",
+   "ru": "созвучие",
+   "en": "concord",
+   "segments": [
+    "V16"
+   ],
+   "comment": "agreed point"
+  },
+  {
+   "latin": "absurdus et absonus",
+   "ru": "нестройный и неблагозвучный",
+   "en": "out-of-tune and discordant",
+   "segments": [
+    "V16"
+   ],
+   "comment": "card G44"
+  },
+  {
+   "latin": "crepitus",
+   "ru": "шум",
+   "en": "noise",
+   "segments": [
+    "V16"
+   ],
+   "comment": "agreed point; Xylander has strepitus"
+  },
+  {
+   "latin": "intensio (single pitch)",
+   "ru": "высота",
+   "en": "pitch",
+   "segments": [
+    "V11"
+   ],
+   "comment": "card G06; note at V11"
+  },
+  {
+   "latin": "intentio / intensio (motion from low to high)",
+   "ru": "повышение",
+   "en": "rise",
+   "segments": [
+    "V43",
+    "V45"
+   ],
+   "comment": "card G06; notes at V43, V45"
+  },
+  {
+   "latin": "intensio (of a string)",
+   "ru": "натяжение",
+   "en": "tension",
+   "segments": [
+    "V47"
+   ],
+   "comment": "card G06; note at V47"
+  },
+  {
+   "latin": "intensio spiritus ac remissio",
+   "ru": "усиление и ослабление дыхания",
+   "en": "strengthening and slackening of the breath",
+   "segments": [
+    "V47"
+   ],
+   "comment": "card G30; note at V47"
+  },
+  {
+   "latin": "universa intensio",
+   "ru": "весь диапазон",
+   "en": "the whole pitch range",
+   "segments": [
+    "V49"
+   ],
+   "comment": "place card V08-universam-intensionem; note at V49"
+  },
+  {
+   "latin": "intensiones remissionesve (of pitch)",
+   "ru": "повышения или понижения",
+   "en": "raisings or lowerings",
+   "segments": [
+    "V37"
+   ],
+   "comment": "about.md § 4.5"
+  },
+  {
+   "latin": "acutus / gravis",
+   "ru": "высокий / низкий",
+   "en": "high / low",
+   "segments": [
+    "V17",
+    "V22",
+    "V37",
+    "V43",
+    "V45"
+   ],
+   "comment": "V22: Diesi duplo acutius: «даёт вдвое большее повышение» / ‘raises the pitch twice as much’ (place card V03-diesi-duplo-acutius)"
+  },
+  {
+   "latin": "ratio (the term)",
+   "ru": "отношение",
+   "en": "ratio",
+   "segments": [
+    "V19",
+    "V22",
+    "V24",
+    "V30",
+    "V37",
+    "V40",
+    "V43",
+    "V44",
+    "V46",
+    "V47"
+   ],
+   "comment": "V44 ex ratione numeri «если считать по числу» / ‘on a reckoning’ (card G50); V34 ratione vocis «по отношению» / ‘by reason of the relation’ (card G42); V35 appellationum ratione «смысла названий» / ‘rationale of the names’"
+  },
+  {
+   "latin": "habitudo",
+   "ru": "соотношение",
+   "en": "relation",
+   "segments": [
+    "V12"
+   ],
+   "comment": "agreed point; note at V12"
+  },
+  {
+   "latin": "proportio",
+   "ru": "пропорция",
+   "en": "proportion",
+   "segments": [
+    "V03",
+    "V04",
+    "V05",
+    "V37"
+   ],
+   "comment": "agreed point"
+  },
+  {
+   "latin": "symmetria",
+   "ru": "соразмерность",
+   "en": "commensurability",
+   "segments": [
+    "V03",
+    "V04",
+    "V05"
+   ],
+   "comment": "place card V01-symmetria; note at V03 (Xylander: commensuratio ‘commensuration’)"
+  },
+  {
+   "latin": "ratio names",
+   "ru": "сверхтретное [4:3], полуторное [3:2], сверхосминное [9:8], сверхчетвертное [5:4], двукратное [2:1], трёхкратное [3:1], четырёхкратное [4:1], пятикратное [5:1], двукратное сверхчастное [8:3], двукратное полуторное [5:2], сверхчастное [5:3]; полусверхосминное without bracket (V24)",
+   "en": "sesquitertian [4:3], sesquialter [3:2], sesquioctave [9:8], sesquiquartan [5:4], duple [2:1], triple [3:1], quadruple [4:1], quintuple [5:1], duple superpartient [8:3], duple sesquialter [5:2], superpartient [5:3]; semisesquioctave",
+   "segments": [
+    "V22",
+    "V24",
+    "V30",
+    "V40",
+    "V41",
+    "V42",
+    "V44",
+    "V45"
+   ],
+   "comment": "about.md § 4.3, agreed point; Diesi duplo (V22) ordinary, no bracket"
+  },
+  {
+   "latin": "terminus; duae partes",
+   "ru": "член; две трети",
+   "en": "term; two thirds",
+   "segments": [
+    "V42"
+   ],
+   "comment": "agreed point; note at V42"
+  },
+  {
+   "latin": "monas",
+   "ru": "единица",
+   "en": "unit",
+   "segments": [
+    "V23"
+   ],
+   "comment": "note at V23 (Xylander: unitas)"
+  },
+  {
+   "latin": "quadratum; latus; diametrum, dimetiens; quadrari",
+   "ru": "квадрат; сторона; диагональ; представить в виде квадрата",
+   "en": "square; side; diagonal; be represented as a square",
+   "segments": [
+    "V27",
+    "V29"
+   ],
+   "comment": "card G46; notes at V27, V29; V22: quadrante «четверть» / ‘quarter’; V41: quadruplex is a ratio name; V42: quadruplex is a ratio name"
+  },
+  {
+   "latin": "linea",
+   "ru": "линия",
+   "en": "line",
+   "segments": [
+    "V25"
+   ],
+   "comment": "card G16; Xylander has recta"
+  },
+  {
+   "latin": "Geometria, Arithmetica; geometricus; Geometra",
+   "ru": "геометрия, арифметика; геометрический; геометр",
+   "en": "geometry, arithmetic; geometrical; the geometer",
+   "segments": [
+    "V15",
+    "V23",
+    "V25",
+    "V26",
+    "V28",
+    "V29"
+   ],
+   "comment": "V27: haec = Arithmetica: «она» / ‘it’"
+  },
+  {
+   "latin": "materia",
+   "ru": "материя",
+   "en": "matter",
+   "segments": [
+    "V23",
+    "V50"
+   ],
+   "comment": "agreed point"
+  },
+  {
+   "latin": "dimensio",
+   "ru": "протяжённость",
+   "en": "dimension",
+   "segments": [
+    "V15"
+   ],
+   "comment": "card G43; note at V15"
+  },
+  {
+   "latin": "vis / facultates",
+   "ru": "сила / возможности",
+   "en": "force / capacities",
+   "segments": [
+    "V32",
+    "V49"
+   ],
+   "comment": "card G48, agreed point; note at V49"
+  },
+  {
+   "latin": "complexio",
+   "ru": "сочетание",
+   "en": "combination",
+   "segments": [
+    "V13"
+   ],
+   "comment": "agreed point (Xylander: complexus)"
+  },
+  {
+   "latin": "compositio; componere",
+   "ru": "составление; составлять (V08 «упорядочивать»)",
+   "en": "composition; to compose (V08 ‘to order’)",
+   "segments": [
+    "V08",
+    "V14",
+    "V52",
+    "V61"
+   ],
+   "comment": "card G41; note at V08"
+  },
+  {
+   "latin": "aptare",
+   "ru": "приспосабливать",
+   "en": "to adapt",
+   "segments": [
+    "V52"
+   ],
+   "comment": "terms pass: V52 ‘fit’ → ‘adapt’, as Xylander X56 (card G03)"
+  },
+  {
+   "latin": "temperare; temperamentum",
+   "ru": "соразмерять; соразмерно составленный; temperamentum: «как рука соразмеряет движения»",
+   "en": "to proportion; blended in due proportion; temperamentum: ‘the varying control of the hand’",
+   "segments": [
+    "V58",
+    "V60",
+    "V65"
+   ],
+   "comment": "cards G05, G53; notes at V58, V60, V65"
+  },
+  {
+   "latin": "constituere",
+   "ru": "устраивать (V18 «становится»)",
+   "en": "to constitute",
+   "segments": [
+    "V18",
+    "V60",
+    "V61"
+   ],
+   "comment": "terms pass: V18 ‘is made’ → ‘is constituted’ (it stood beside conficitur ‘is made up’)"
+  },
+  {
+   "latin": "conficere",
+   "ru": "складываться; сложен",
+   "en": "to make (up)",
+   "segments": [
+    "V18",
+    "V32",
+    "V39",
+    "V53",
+    "V55",
+    "V65"
+   ],
+   "comment": "terms pass: was «составляется», «образуется», «получается», «создаются»; ‘there results’, ‘produced’; place card V02-ex-his-conficitur (composition); note at V18"
+  },
+  {
+   "latin": "efficere",
+   "ru": "создаваться",
+   "en": "to be brought about",
+   "segments": [
+    "V04",
+    "V53"
+   ],
+   "comment": "terms pass: as Xylander X03; V53 «получается» / ‘results’ → «создаётся» / ‘is brought about’"
+  },
+  {
+   "latin": "fieri",
+   "ru": "возникать",
+   "en": "to come to be",
+   "segments": [
+    "V04",
+    "V31"
+   ],
+   "comment": "V47 quae … fit «производится» / ‘is produced’, as Xylander X41; terms pass: V31 «образуются» / ‘arise’ → «возникают» / ‘come to be’"
+  },
+  {
+   "latin": "peragere",
+   "ru": "проводиться",
+   "en": "to be carried through",
+   "segments": [
+    "V53",
+    "V59"
+   ],
+   "comment": "terms pass: V53 «осуществляется» / ‘carried out’, V59 «проходит через» / ‘proceeds through’ → «проводится» / ‘carried through’ (Xylander’s procedat at X51 is ‘proceeds’)"
+  },
+  {
+   "latin": "constare",
+   "ru": "состоять",
+   "en": "to consist",
+   "segments": [
+    "V22",
+    "V56"
+   ],
+   "comment": "continetur in V53 also «состоит» / ‘consists’ (agreed point on fere)"
+  },
+  {
+   "latin": "continere",
+   "ru": "содержать",
+   "en": "to contain",
+   "segments": [
+    "V24",
+    "V42",
+    "V49"
+   ],
+   "comment": "V03 contineri «держится» / ‘held together’"
+  },
+  {
+   "latin": "complecti",
+   "ru": "объемлет",
+   "en": "to embrace",
+   "segments": [
+    "V49"
+   ],
+   "comment": "terms pass: V49 «охватывающий» → «объемлющий», as Xylander X42"
+  },
+  {
+   "latin": "comprehendere",
+   "ru": "охватывать",
+   "en": "to comprise (V49 ‘spanning’)",
+   "segments": [
+    "V35",
+    "V49",
+    "V55"
+   ],
+   "comment": "V49 by place card V08-universam-intensionem; V04 comprehendi «постигнуто» / ‘grasped’ (of the mind)"
+  },
+  {
+   "latin": "confusio; confundere",
+   "ru": "слияние; слитый",
+   "en": "fusion; fused",
+   "segments": [
+    "V32",
+    "V57",
+    "V59"
+   ],
+   "comment": "card G19; note at V32"
+  },
+  {
+   "latin": "adauctus",
+   "ru": "приращение",
+   "en": "increase",
+   "segments": [
+    "V31"
+   ],
+   "comment": "card G18; note at V31"
+  },
+  {
+   "latin": "appellatio",
+   "ru": "название",
+   "en": "name",
+   "segments": [
+    "V10",
+    "V17",
+    "V35"
+   ],
+   "comment": "card G11"
+  },
+  {
+   "latin": "nomen",
+   "ru": "имя",
+   "en": "name",
+   "segments": [
+    "V34",
+    "V39"
+   ],
+   "comment": "terms pass: V34, V39 «названия» → «имена», «имени», as Xylander, distinct from appellatio"
+  },
+  {
+   "latin": "cognominare",
+   "ru": "прозвание; прозванный",
+   "en": "named (after)",
+   "segments": [
+    "V52",
+    "V56",
+    "V59"
+   ],
+   "comment": "terms pass: V56 «называемый» / ‘called’ → «прозванный» / ‘named’"
+  },
+  {
+   "latin": "genus (of melody, of the fourth)",
+   "ru": "род",
+   "en": "genus",
+   "segments": [
+    "V52",
+    "V53",
+    "V56",
+    "V58",
+    "V59",
+    "V62"
+   ]
+  },
+  {
+   "latin": "genera modulationum",
+   "ru": "роды мелодий",
+   "en": "kinds of melody",
+   "segments": [
+    "V64"
+   ],
+   "comment": "non-technical (note at V64)"
+  },
+  {
+   "latin": "Diatonon / Diatonum, Chromaticon / Chromaticum, Harmonicum",
+   "ru": "диатонический, хроматический, гармонический",
+   "en": "diatonic, chromatic, harmonic",
+   "segments": [
+    "V52",
+    "V53",
+    "V56",
+    "V58",
+    "V59",
+    "V62",
+    "V63"
+   ],
+   "comment": "note at V52"
+  },
+  {
+   "latin": "modulatio",
+   "ru": "мелодия",
+   "en": "melody",
+   "segments": [
+    "V52",
+    "V53",
+    "V64",
+    "V65"
+   ],
+   "comment": "agreed point; note at V52"
+  },
+  {
+   "latin": "modulatu (supine)",
+   "ru": "исполнять",
+   "en": "to perform",
+   "segments": [
+    "V62"
+   ],
+   "comment": "card G51; note at V62"
+  },
+  {
+   "latin": "modulus",
+   "ru": "лад",
+   "en": "mode",
+   "segments": [
+    "V64"
+   ],
+   "comment": "agreed point; note at V64"
+  },
+  {
+   "latin": "melos",
+   "ru": "напев",
+   "en": "melodic strain",
+   "segments": [
+    "V32"
+   ],
+   "comment": "card G49; note at V32"
+  },
+  {
+   "latin": "Lydius, Phrygius, Dorius",
+   "ru": "лидийский, фригийский, дорийский",
+   "en": "Lydian, Phrygian, Dorian",
+   "segments": [
+    "V64"
+   ]
+  },
+  {
+   "latin": "Paeeon, Hymenaeus, Exodius",
+   "ru": "пеан, гименей, песнь при выходе",
+   "en": "the paean, the hymenaeus, the exit song",
+   "segments": [
+    "V64"
+   ],
+   "comment": "card G36; notes at V64"
+  },
+  {
+   "latin": "rythmus",
+   "ru": "ритм",
+   "en": "rhythm",
+   "segments": [
+    "V31"
+   ]
+  },
+  {
+   "latin": "transitio",
+   "ru": "переход",
+   "en": "transition",
+   "segments": [
+    "V65"
+   ],
+   "comment": "agreed point (Xylander: transitus; note at V65)"
+  },
+  {
+   "latin": "pausa",
+   "ru": "пауза",
+   "en": "pause",
+   "segments": [
+    "V65"
+   ],
+   "comment": "agreed point, card G38"
+  },
+  {
+   "latin": "fluxus",
+   "ru": "плавное движение",
+   "en": "flowing movement",
+   "segments": [
+    "V65"
+   ],
+   "comment": "card G39"
+  },
+  {
+   "latin": "tactus",
+   "ru": "касание",
+   "en": "touch",
+   "segments": [
+    "V65"
+   ],
+   "comment": "agreed point; note at V65"
+  },
+  {
+   "latin": "pulsus",
+   "ru": "удар",
+   "en": "stroke",
+   "segments": [
+    "V65"
+   ],
+   "comment": "agreed point (Xylander: pulsatio; note at V65)"
+  },
+  {
+   "latin": "meditatio / exercitatio",
+   "ru": "разучивание / упражнение",
+   "en": "rehearsal / practice",
+   "segments": [
+    "V62"
+   ],
+   "comment": "card G52"
+  },
+  {
+   "latin": "usus",
+   "ru": "употребление",
+   "en": "use",
+   "segments": [
+    "V62"
+   ]
+  },
+  {
+   "latin": "divisio; differentia",
+   "ru": "деление; различие",
+   "en": "division; difference",
+   "segments": [
+    "V64",
+    "V65"
+   ]
+  },
+  {
+   "latin": "varius / diversus",
+   "ru": "разнообразный / различный",
+   "en": "various / diverse",
+   "segments": [
+    "V10",
+    "V17",
+    "V65"
+   ],
+   "comment": "terms pass: V10, V17 «различный» → «разнообразный», V65 diversae «разнообразные» → «различные»; so varius is «разнообразный» in both versions"
+  },
+  {
+   "latin": "efferre; edere",
+   "ru": "издавать",
+   "en": "to utter",
+   "segments": [
+    "V15",
+    "V16",
+    "V54"
+   ],
+   "comment": "terms pass: English ‘produced’ → ‘uttered’, as Xylander X12–X13, X27"
+  },
+  {
+   "latin": "considerare",
+   "ru": "рассматривать",
+   "en": "to consider",
+   "segments": [
+    "V23",
+    "V38",
+    "V46",
+    "V50"
+   ]
+  },
+  {
+   "latin": "deprehendere",
+   "ru": "обнаруживать",
+   "en": "to detect",
+   "segments": [
+    "V08",
+    "V47"
+   ],
+   "comment": "terms pass: V08 ‘found’ → ‘detected’, as V47 and Xylander X41"
+  },
+  {
+   "latin": "universitas",
+   "ru": "вселенная",
+   "en": "the universe",
+   "segments": [
+    "V03",
+    "V05",
+    "V06"
+   ],
+   "comment": "agreed point; note at V03 (Xylander: universum)"
+  },
+  {
+   "latin": "natura",
+   "ru": "природа (naturale «естественный»)",
+   "en": "nature (naturale ‘natural’)",
+   "segments": [
+    "V03",
+    "V04",
+    "V08",
+    "V10",
+    "V63"
+   ]
+  },
+  {
+   "latin": "sensus",
+   "ru": "чувство",
+   "en": "sense",
+   "segments": [
+    "V04",
+    "V08",
+    "V09"
+   ],
+   "comment": "agreed point"
+  },
+  {
+   "latin": "mens",
+   "ru": "ум",
+   "en": "the mind",
+   "segments": [
+    "V04",
+    "V08"
+   ],
+   "comment": "agreed point (Xylander: intellectus ‘intellect’)"
+  },
+  {
+   "latin": "beatitudo",
+   "ru": "блаженство",
+   "en": "blessedness",
+   "segments": [
+    "V08"
+   ]
+  },
+  {
+   "latin": "spiritus",
+   "ru": "дыхание",
+   "en": "breath",
+   "segments": [
+    "V47"
+   ]
+  },
+  {
+   "latin": "torsio claviculorum; ponderum appensio",
+   "ru": "поворот колков; подвешивание грузов",
+   "en": "the turning of the pegs; the hanging of weights",
+   "segments": [
+    "V47"
+   ],
+   "comment": "agreed point; note at V47"
+  },
+  {
+   "latin": "longitudo, crassitudo",
+   "ru": "длина, толщина",
+   "en": "length, thickness",
+   "segments": [
+    "V47"
+   ]
+  },
+  {
+   "latin": "fistularum amplitudo",
+   "ru": "величина трубок",
+   "en": "the size of the pipes",
+   "segments": [
+    "V47"
+   ],
+   "comment": "card G31"
+  },
+  {
+   "latin": "impari / aequo temporis spatio",
+   "ru": "в неравный / в равный промежуток времени",
+   "en": "in an unequal / an equal span of time",
+   "segments": [
+    "V37"
+   ],
+   "comment": "card G26, agreed point; note at V37"
+  },
+  {
+   "latin": "quinimo",
+   "ru": "более того (V04); напротив (V55)",
+   "en": "indeed (V04); rather (V55)",
+   "segments": [
+    "V04",
+    "V55"
+   ],
+   "comment": "place card V09-quinimo; note at V55"
+  },
+  {
+   "latin": "Caput",
+   "ru": "Глава",
+   "en": "Chapter",
+   "segments": [
+    "V02",
+    "V10",
+    "V21",
+    "V48",
+    "V51"
+   ]
+  },
+  {
+   "latin": "Musica",
+   "ru": "музыка; «Музыка» (title)",
+   "en": "music; the Music (title)",
+   "segments": [
+    "V01",
+    "V02",
+    "V03",
+    "V05",
+    "V07",
+    "V08",
+    "V09",
+    "V66"
+   ]
+  }
+ ],
+ "cross_version": [
+  {
+   "concept": "the universe",
+   "xylander": "universum",
+   "vinet": "Universitas",
+   "rendering": "вселенная / the universe",
+   "kept_visible_by": "note at V03"
+  },
+  {
+   "concept": "commensurability",
+   "xylander": "commensuratio",
+   "vinet": "symmetria",
+   "rendering": "«соразмерность»; English commensuration / commensurability",
+   "kept_visible_by": "English; notes at X02, V03"
+  },
+  {
+   "concept": "the harmony of nature",
+   "xylander": "congruentia",
+   "vinet": "convenientia",
+   "rendering": "«согласованность» / «согласие»; congruence / accord",
+   "kept_visible_by": "running text; notes at X07, V05"
+  },
+  {
+   "concept": "intellect",
+   "xylander": "intellectus",
+   "vinet": "mens",
+   "rendering": "«ум»; intellect / mind",
+   "kept_visible_by": "English (agreed point)"
+  },
+  {
+   "concept": "blessedness",
+   "xylander": "beatitas",
+   "vinet": "beatitudo",
+   "rendering": "«блаженство» / blessedness",
+   "kept_visible_by": "note at X07"
+  },
+  {
+   "concept": "the definition of the note",
+   "xylander": "harmoniae particeps intensio, seu tenor",
+   "vinet": "conveniens intensio",
+   "rendering": "distinct renderings",
+   "kept_visible_by": "running text; notes at X08, V11"
+  },
+  {
+   "concept": "relation (in the definition of the interval)",
+   "xylander": "respectus (gloss on ratio)",
+   "vinet": "habitudo",
+   "rendering": "«соотнесённость» / «соотношение»",
+   "kept_visible_by": "running text; notes at X09, V12"
+  },
+  {
+   "concept": "combination (system)",
+   "xylander": "complexus",
+   "vinet": "complexio",
+   "rendering": "«сочетание» / combination",
+   "kept_visible_by": "notes at X10, V13"
+  },
+  {
+   "concept": "harmony as building of systems",
+   "xylander": "constructio",
+   "vinet": "compositio",
+   "rendering": "«построение» / «составление»; construction / composition",
+   "kept_visible_by": "running text; note at X11"
+  },
+  {
+   "concept": "noise",
+   "xylander": "strepitus",
+   "vinet": "crepitus",
+   "rendering": "«шум» / noise",
+   "kept_visible_by": "notes at X13, V16"
+  },
+  {
+   "concept": "the note-list",
+   "xylander": "mese monos; paramesos",
+   "vinet": "Mese solum; Paramese",
+   "rendering": "«меса монос» / «просто меса»; «парамес» / «парамеса»",
+   "kept_visible_by": "running text; notes at X14, V17"
+  },
+  {
+   "concept": "the sixteen-string system",
+   "xylander": "heccaedecachordum (glossed)",
+   "vinet": "Heckaedecachordum",
+   "rendering": "transliterated / described with [система]",
+   "kept_visible_by": "running text; notes at X15, V18"
+  },
+  {
+   "concept": "names (of notes, of intervals)",
+   "xylander": "nomenclatio; appellatio; nomen",
+   "vinet": "appellatio; nomen",
+   "rendering": "Russian «наименование» / «название» / «имя»; English ‘names’ throughout",
+   "kept_visible_by": "Russian; card G11; terms pass"
+  },
+  {
+   "concept": "the semitone",
+   "xylander": "semitonium",
+   "vinet": "hemitonium",
+   "rendering": "«полутон» / semitone",
+   "kept_visible_by": "note at V22"
+  },
+  {
+   "concept": "the unit",
+   "xylander": "unitas",
+   "vinet": "monas",
+   "rendering": "«единица» / unit",
+   "kept_visible_by": "notes at X19, V23"
+  },
+  {
+   "concept": "line",
+   "xylander": "recta",
+   "vinet": "linea",
+   "rendering": "«прямая» / «линия»; straight line / line",
+   "kept_visible_by": "running text; card G16"
+  },
+  {
+   "concept": "increase",
+   "xylander": "auctio",
+   "vinet": "adauctus",
+   "rendering": "«приращение» / increase",
+   "kept_visible_by": "notes at X26, V31"
+  },
+  {
+   "concept": "rhythm allows",
+   "xylander": "admiserit",
+   "vinet": "tulerit",
+   "rendering": "«допустит» / «позволит»; admits / allows",
+   "kept_visible_by": "running text (terms pass, English)"
+  },
+  {
+   "concept": "the incomposite intervals",
+   "xylander": "compositae (X26) … incomposita (X27)",
+   "vinet": "simplicia; non-composita (V34)",
+   "rendering": "«составные … несоставные» / «простые», «несоставные»",
+   "kept_visible_by": "running text; notes at X26, V31"
+  },
+  {
+   "concept": "fusion",
+   "xylander": "coalescere, coalitus; confundere",
+   "vinet": "confusio, confundere",
+   "rendering": "Russian «слияние» for both; English coalescence / fusion",
+   "kept_visible_by": "English; card G19; notes at X27, X49, X50, V32"
+  },
+  {
+   "concept": "a single melodic step",
+   "xylander": "cantilena",
+   "vinet": "melos",
+   "rendering": "Russian «напев» for both; English tune / melodic strain",
+   "kept_visible_by": "English; card G49; note at V32"
+  },
+  {
+   "concept": "the Greek interval names",
+   "xylander": "diatessaron … glossed by quarta, quinta, octava",
+   "vinet": "Dia-tessaron … only",
+   "rendering": "literal Greek names in Xylander’s double-name places",
+   "kept_visible_by": "running text; notes at X28, V33"
+  },
+  {
+   "concept": "the octave explained",
+   "xylander": "per omnes, hoc est, per octo",
+   "vinet": "per octo",
+   "rendering": "«через все … через восемь» / «через восемь»",
+   "kept_visible_by": "running text; notes at V34, V35"
+  },
+  {
+   "concept": "the double octave",
+   "xylander": "disdiapason",
+   "vinet": "bis Dia-pason",
+   "rendering": "«двойная октава» / double octave",
+   "kept_visible_by": "note at V35"
+  },
+  {
+   "concept": "repeated after the octave",
+   "xylander": "geminantur",
+   "vinet": "repetitis",
+   "rendering": "«повторяются» / repeated",
+   "kept_visible_by": "note at X30 (terms pass)"
+  },
+  {
+   "concept": "paraphonic / antiphonic",
+   "xylander": "Paraphonum … quasi iuxta sonans",
+   "vinet": "paraphonum (unglossed)",
+   "rendering": "adjective in both; [тип] / [kind] in Vinet",
+   "kept_visible_by": "running text; notes at X31, V36"
+  },
+  {
+   "concept": "time in paraphony",
+   "xylander": "inaequali tempore … simul eodem tempore",
+   "vinet": "impari temporis spatio … aequo temporis spacio",
+   "rendering": "distinct renderings",
+   "kept_visible_by": "running text; card G26"
+  },
+  {
+   "concept": "ratios as terms",
+   "xylander": "proportio (and ratio)",
+   "vinet": "ratio",
+   "rendering": "«пропорция» / «отношение»",
+   "kept_visible_by": "running text; notes at X25, V12"
+  },
+  {
+   "concept": "not yet consonance",
+   "xylander": "non tamen",
+   "vinet": "nondum",
+   "rendering": "«но не» / «ещё не»",
+   "kept_visible_by": "running text; note at X33"
+  },
+  {
+   "concept": "the small remainder of the fourth",
+   "xylander": "quopiam exiguo; appellationem non invenit",
+   "vinet": "modica toni parte; nomine vacat",
+   "rendering": "«чего-то малого … названия» / «небольшой части тона … имени»",
+   "kept_visible_by": "running text; notes at X34, V39"
+  },
+  {
+   "concept": "the octave and a fourth",
+   "xylander": "duplus superpartiens (super bipartiens tertias)",
+   "vinet": "duplex-superpartiens",
+   "rendering": "ratio names with brackets",
+   "kept_visible_by": "running text; notes at X36, V40"
+  },
+  {
+   "concept": "tension of a string",
+   "xylander": "tensio",
+   "vinet": "intensio",
+   "rendering": "«натяжение» / tension",
+   "kept_visible_by": "notes at X37, X41, V47 (terms pass)"
+  },
+  {
+   "concept": "the means of finding ratios",
+   "xylander": "conversio clavorum; ponderum tractio; cavitatis amplitudo",
+   "vinet": "torsio claviculorum; ponderum appensio; fistularum amplitudo",
+   "rendering": "«поворот колков» for both; «тяга» / «подвешивание»; «полость» / «трубки»",
+   "kept_visible_by": "running text; note at V47"
+  },
+  {
+   "concept": "what a system holds",
+   "xylander": "vis, potestas, materies, ambitus",
+   "vinet": "facultates, vis",
+   "rendering": "distinct words",
+   "kept_visible_by": "running text; notes at X42, V49"
+  },
+  {
+   "concept": "melody",
+   "xylander": "melodia (modulatio glosses it)",
+   "vinet": "modulatio",
+   "rendering": "«мелодия» / melody for melodia and Vinet’s modulatio; Xylander’s modulatio «мелодическое движение»",
+   "kept_visible_by": "notes at X44, V52"
+  },
+  {
+   "concept": "making the fourth / genera",
+   "xylander": "conficitur, conflatur, absolvatur, componitur",
+   "vinet": "conficitur, efficitur, peragitur, continetur",
+   "rendering": "складывается / слагается / осуществляется / составляется; складывается / создаётся / проводится / состоит",
+   "kept_visible_by": "running text (terms pass)"
+  },
+  {
+   "concept": "the remainder",
+   "xylander": "quod superest; alterum",
+   "vinet": "reliquum",
+   "rendering": "«оставшееся»; «другим интервалом» / «оставшимся»",
+   "kept_visible_by": "running text; note at X51"
+  },
+  {
+   "concept": "character of the chromatic",
+   "xylander": "ad movendos affectus",
+   "vinet": "moestius luctuosiusque",
+   "rendering": "distinct renderings",
+   "kept_visible_by": "notes at X50, V58"
+  },
+  {
+   "concept": "the diatonic genus",
+   "xylander": "simplex, egregium, naturae aptum",
+   "vinet": "simplum, generosum, magis naturale",
+   "rendering": "«прост» / simple for simplex and simplum",
+   "kept_visible_by": "note at V63 (terms pass)"
+  },
+  {
+   "concept": "the modes",
+   "xylander": "Lydia … cantilena",
+   "vinet": "Lydius … modulus",
+   "rendering": "«напев» / «лад»",
+   "kept_visible_by": "running text; note at X56"
+  },
+  {
+   "concept": "divisions of song",
+   "xylander": "divisiones, differentias atque species",
+   "vinet": "divisiones et differentias et genera",
+   "rendering": "«деления, различия, виды» / «деления, различия, роды»",
+   "kept_visible_by": "running text"
+  },
+  {
+   "concept": "kinds of song",
+   "xylander": "melodiarum genera",
+   "vinet": "modulationum genera",
+   "rendering": "«роды мелодий»; kinds of melodies / kinds of melody",
+   "kept_visible_by": "note at V52"
+  },
+  {
+   "concept": "means of melody",
+   "xylander": "transitus; mansio; pulsatio; discrimen; innumera; obliquiores",
+   "vinet": "transitio; pausa; pulsus; differentia; infinitae; lentiores",
+   "rendering": "transition and stroke the same (agreed); «задержка» / «пауза»; «различение» / «различие»; «бесчисленные» / «бесконечные»",
+   "kept_visible_by": "running text; notes at X57, V65 (terms pass)"
+  },
+  {
+   "concept": "varied, diverse",
+   "xylander": "varius «разнообразный»; diversus «различный»",
+   "vinet": "varius «разнообразный»; diversus «различный»",
+   "rendering": "the same Latin word now has the same Russian in both versions",
+   "kept_visible_by": "terms pass"
+  }
+ ]
+}

@@ -9,7 +9,7 @@ facts:
   - label: Нет перевода ни на одном языке
     text: Георгий Пахимер, «Гармоника» (ок. 1300)
   - label: Опубликовано
-    text: <a href="synopsis-musicae.html">Анонимный «Синопсис Музыки» (1008)</a> — короткий трактат; греческий текст установлен заново по рукописям и старопечатным изданиям, перевод на русский и английский — версия {version:synopsis-musicae}
+    text: <a href="synopsis-musicae.html">Анонимный «Синопсис Музыки» (1008)</a> — короткий трактат; греческий текст установлен заново по рукописям и старопечатным изданиям, перевод на русский и английский — версия {version:synopsis-musicae}; <a href="synopsis-musicae-latin.html">латинские переводы Ксиландра и Вине</a> на русском и английском — версия {version:synopsis-musicae-latin}
 figure: sections/music-figure.njk
 blocks:
   - map
@@ -126,6 +126,7 @@ catalogue:
       info: 1008 г. · греческий · короткий учебник гармоники, 11 страниц издания 1556 г.
       tr:
         - 'RU, EN: Neoscholia, версия {version:synopsis-musicae}'
+        - 'LA (Ксиландр 1556, Вине 1591) → RU, EN: Neoscholia, версия {version:synopsis-musicae-latin}'
         - 'DE: полный (Mizler 1746)'
       rows:
         - - Основа
